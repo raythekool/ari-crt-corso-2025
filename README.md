@@ -1,1 +1,1 @@
-# ari-crt-corso2025
+# ari-crt-corso-2025
