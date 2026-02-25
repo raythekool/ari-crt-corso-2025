@@ -1,0 +1,1122 @@
+00:05 Può iniziare. Vai Paolo, buon lavoro. Grazie. Allora, comincio mettendo in
+00:10 condivisione. Ditemi se lo vedete il risultato dei test.
+00:16 Sì, perfetto. Ok, questo, diciamo, è il il grafico che
+00:22 riassume l'andamento delle delle risposte e diciamo sostanzialmente
+00:30 la maggior parte delle delle risposte sono giuste in quanto la stragrande maggioranza sta sopra l'80%
+00:38 delle risposte esatte. Le due domande dove le cose sono andate un pochino meno bene sono la domanda e e la domanda N
+00:47 con circa il 50%, quindi una su due di m
+00:53 risposte errate e come accennavo prima sulla N, come dire avrei qua ci avrei
+00:58 quasi scommesso. Comunque vediamole un attimo eh separatamente. La domanda è
+01:07 diceva se la massima frequenza utilizzabile MOF per un dato collegamento è 24 MHz,
+01:14 quale banda offre la migliore possibilità di collegamento?
+01:20 Qui se n'era parlato abbastanza, quindi mi sorprende un attimino il dato
+01:27 negativo. Probabilmente qui c'è un un piccolo
+01:33 trabocchetto proprio nel nel come è formulata la domanda e magari su questo è bene
+01:39 sottolinearlo perché si parla di MOF espressa in mahz, quindi di frequenze
+01:47 e poi la domanda fa riferimento non alle frequenze ma alla lunghezza d'onda.
+01:53 Quindi attenzione a questa cosa. Per cui la risposta ovviamente corretta sarebbe
+02:01 stata, se vi ricordate nelle slide io avevo detto che la frequenza ottimale rispetto alla MUF è circa l'80
+02:08 al 90% eh della MUF. Quindi se la muffa è 24
+02:13 MHz, 80-90% siamo intorno ai 20 MHz. E infatti la
+02:20 risposta esatta sarebbe stata la numero 1, i 15 m, perché 21 MHz è la banda dei
+02:28 15 m. Quindi non vorrei che qualcuno abbia commesso l'errore di eh, come si
+02:35 diceva alle elementari, di mescolare le mele con le pere e quindi aver fatto 24
+02:41 80% 20 MHz e e aver eh flegato la
+02:47 risposta invece dei 20 m, che sono un'altra cosa. Quindi attenzione,
+02:53 frequenza lunghezza d'onda. L'altra domanda, la N invece
+03:01 penso sia più normale che ci sia stata qualche incertezza, la vediamo. Come varia l'attenuazione di
+03:08 un segnale nella troposfera al variare della frequenza? E qui la domanda, diciamo, se vogliamo,
+03:15 è un po' a trabocchetto nel modo in cui è formulata, perché la risposta è
+03:21 indipendente dal fatto che sia nella troposfera o in qualsiasi
+03:27 altro. eh settore della eh del dell'atmosfera terrestre, quindi che
+03:34 fosse propagazione ionosferica, che fosse eh eh troposferica o che fosse eh
+03:41 importata ottica, l'attenuazione cresce sempre all'aumentare della frequenza, a
+03:48 prescindere dalla dalla modalità con cui si propaga. Poi l'entità
+03:55 dell'attenuazione può essere maggiore o minore per altri fattori, ma comunque se vi ricordate,
+04:01 l'avevo accennato, ripeto, e forse su questo argomento non ho insistito più di
+04:07 tanto. L'attenuazione nel propagarsi di un campo elettromagnetico
+04:13 dipende sostanzialmente dalla distanza e dalla frequenza, nel
+04:19 senso che aumenta con la distanza, ma a parità di distanza aumenta con la
+04:24 frequenza. Quindi la risposta giusta sarebbe stata la due. L'attenuazione
+04:30 cresce all'aumentare della frequenza e questo sempre sia nella troposfera che
+04:35 nella ionosfera che in portata ottica. Ecco, sulle altre solvolerei perché
+04:41 comunque i risultati sono eh più che validi. Poi so se ritenete
+04:49 opportuno eh si può, cioè se ci sono delle domande specifiche, altrimenti passerei alla
+04:57 lezione di stasera. Scusa Paolo, Paolo,
+05:04 la N te ti sta riferimento alla N o alla P? di domanda.
+05:09 Io allora sul perché io come N c'ho la ionosfera a
+05:14 mezzanotte, no? E allora risposto alla P allatazione.
+05:20 Eh, allora io dunque io sto ho in mano l'elenco delle domande che mi aveva
+05:25 mandato eh Alessio e per me la n
+05:30 Eh, scusa, prova a a a metterla a video, per cortesia, che le condividi, dovresti
+05:38 avere anche quelle segnate risposte esatte. Sì, sì, vediamo un attimo.
+05:43 Eh, metti un po' mettilo un po' a video, così magari forse ci cariamo meglio.
+05:49 Allora, allora, vediamo.
+06:09 Allora, però devo cambiare la condivisione.
+06:30 Allora, io ho queste, infatti stavo guardando, mi viene il dubbio che non siano congruenti con il questionario in
+06:38 rete, perché queste si fermano là in effetti,
+06:45 eh, non vorrei forseamente non vorrei aver fatto confusione io.
+06:52 Boh, m tutto ci sta. Aspetta, facciamo facciamo una cosa. Io e Fabrizio probabilmente avamo abbiamo due
+06:59 versioni diverse. Ehm facciamo una verifica e vi facciamo
+07:05 sapere. Eh, allora magari magari lo riprendiamo la la prossima volta. Quelle lì non corrispondono alle
+07:11 domande, quindi non corrisponde a quello al questionario che avevate online. Sì.
+07:16 Ok. Allora, ehm, come dire, azzeriamo tutto quello che ho detto fino adesso,
+07:23 facciamo un controllo e vi facciamo sapere vi abbiate un attimo di pazienza. Prego. Paolo, prosegui. Vai che poi al
+07:29 limite riprendiamo alla fine della lezione. Magari le domande sono le stesse, ma sono in un ordine diverso.
+07:34 Diverso, eh. Ok, allora chiudiamo questo
+07:43 Sì.
+08:17 Ecco, vedete tutti?
+08:29 Confermo Paolo. Ok, allora disattivo la webcam così evitiamo
+08:35 di avere i problemi dell'altra sera.
+08:44 Eccoci qua. Quindi, stasera parleremo di linee
+08:51 di trasmissione e sostanzialmente diciamo i mac i macroargomenti della
+08:57 lezione di stasera sono questi: la teoria delle linee radiofrequenza,
+09:04 le linee in regimi di onde stazionarie e poi alla fine due parole sugli
+09:09 adattamenti di impedenza, la misura sulle linee. Quindi cominciamo dal dall'ABC. Allora,
+09:17 in generale si definisce linea di trasmissione e i la coppia di conduttori che
+09:23 collegano un generatore ad un carico e se la lunghezza della linea è
+09:30 trascurabile rispetto alla lunghezza del segnale elettrico che la percorre,
+09:36 pensate per esempio alla banale prolunga di casa che utilizzate per sulla linea
+09:42 elettrica a 220 V dove la frequenza 50 Hz e quindi la lunghezza d'onda sono
+09:51 6000 km. Sicuramente per quanto sia lunga la vostra prolunga, la lunghezza
+09:57 della linea della prolunga è nettamente inferiore alla lunghezza d'onda e quindi
+10:03 in queste condizioni noi possiamo considerare che le tensioni e le correnti lungo la linea, la
+10:09 distribuzione delle tensioni delle correnti lungo la linea sia uniforme e quindi noi possiamo studiare il
+10:16 comportamento della linea con le regole dell'elettrotecnica generale.
+10:22 Questo sostanzialmente che cosa vuol dire? che tensione e corrente lungo una
+10:28 la linea in queste condizioni la possiamo considerare costante in ogni punto della linea.
+10:36 Questo perché con le regole dell'elettrotecnica classica il comportamento
+10:42 lo studio del comportamento di un circuito elettrico non tiene conto delle dimensioni fisiche del circuito stesso
+10:50 perché si ipotizza che il tempo di propagazione delle cariche all'interno del circuito sia nullo o o pressoché
+10:58 tale. Questa ipotesi è valida fintanto che, come dicevo prima, che le dimensioni fisiche dei circuiti in
+11:05 esame, quindi nel caso nostro della linea in esame, sia molto minore della
+11:10 lunghezza d'onda dei segnali che percorrono la nostra linea. Se invece la
+11:17 dimensione del circuito non è trascurabile rispetto alla lunghezza d'onda, la
+11:23 distribuzione delle tensioni delle correnti nel circuito non può essere considerata uniforme.
+11:29 Questo ovviamente eh penso che sia intuitivo.
+11:35 avviene quando le dimensioni del circuito, ovvero la lunghezza della linea, ma
+11:41 potremmo parlare di di un qualsiasi circuito elettrico, sono dello stesso
+11:46 ordine di grandezza della lunghezza d'onda che del segnale che lo percorre e
+11:51 quindi il valore delle tensioni delle correnti lungo il circuito non possiamo più
+11:58 considerarle uniformi e quindi dovremo analizzare il comportamento
+12:05 del circuito, nel caso specifico nostro, di una linea attraverso la teoria delle
+12:12 linee di trasmissione. Appunto, dicevo, il caso tipico è quello
+12:17 di una linea a radiofrequenza che alimenta un'antenna e che è il comportamento che andremo ad analizzare
+12:25 in questa nella lezione di stasera. per comodità di rappresentazione proprio
+12:30 di disegno delle slide, nelle slide io farò riferimento
+12:36 ad una linea bifilare, nel senso troved rappresentata la linea sempre come linea bifilare, ma eh anche nel caso di un
+12:44 cavo quassiale dove i conduttori sono concentrici, le cose sono perfettamente identiche,
+12:52 quindi le considerazioni che andremo a fare per una linea bifilare valgono anche esattamente nel caso eh del cavo
+13:01 coassiale al netto di una particolarità che poi vedremo meglio nelle slide successive.
+13:11 Allora, per comprendere meglio che cosa accade in una linea radiofrequenza,
+13:18 eh dobbiamo fare almeno due considerazioni eh preliminari.
+13:26 Ciascuno dei conduttori che costituiscono la linea presenterà
+13:31 un'induttanza distribuita che è funzione delle caratteristiche fisiche del
+13:36 conduttore stesso. Diametro del conduttore, lunghezza, presenza o meno di un dielettrico.
+13:44 Così come i due conduttori che viaggiano paralleli nel caso dell'one bifilare o
+13:49 concentrici nel caso del coassiale, ma è la stessa cosa, si comporteranno come le
+13:55 armature di un condensatore e quindi tra i due conduttori sarà
+13:60 presente una capacità distribuita in funzione al solito delle caratteristiche
+14:05 fisiche, quindi delle dimensioni dei conduttori, della loro distanza e anche
+14:11 in questo caso della presenza o meno di un dielettrico. Quindi, prima
+14:17 considerazione importante, possiamo assimilare una linea ad un circuito LC a
+14:23 costanti distribuite. Ora, senza entrare nel dettaglio della
+14:29 trattazione teorica, però possiamo fissare alcuni concetti che poi ci
+14:35 serviranno più avanti per comprendere bene il comportamento di una linea.
+14:42 Abbiamo appena detto che la linea può essere assimilata ad un circuito LC a costanti distribuite. Tra l'altro che
+14:49 cosa vuol dire? che per ogni se noi prendiamo la linea e la dividiamo in tanti pezzettini, ciascun pezzettino
+14:57 avrà presenterà un valore di induttanza, un valore di capacità e per unità di
+15:03 lunghezza sempre costante e quindi è come se io avessi tanti elementi, come
+15:09 vedete nel disegno, messi in sequenza. dice la teoria delle linee di
+15:14 trasmissione: "Se io considero una linea di lunghezza infinita
+15:19 e posso dimostrare matematicamente che in questa è la condizioni, cioè un
+15:27 segnale elettrico che percorra una linea in queste condizioni eh si propaga con in un regime di
+15:36 cosiddetta onda progressiva e la linea presenta al generatore un'impedenza
+15:43 che dipende dalle caratteristiche fisiche della linea. Quest'impedenza si chiama impedenza caratteristica della
+15:50 linea e il suo valore, lo vedete rappresentato qui, è uguale alla radice
+15:56 quadrata del rapporto fra L e C, dove L è l'induttanza per unità di lunghezza e
+16:03 C è la capacità per unità di lunghezza.
+16:09 Quindi se noi eh cioè ha ha acquisito questo, se noi invece di avere una linea
+16:15 di lunghezza infinita, prendiamo una linea di lunghezza finita e la chiudiamo
+16:21 su un'impedenza Z dello stesso valore dell'impedenza caratteristica della linea,
+16:29 praticamente è la stessa cosa che se avessimo una linea di lunghezza infinita, cioè la linea si comporta come
+16:35 la linea di lunghezza infinita, quindi il segnale si propagherà solo in modo
+16:40 progressivo e tutta l'energia erogata dal generatore verrà trasferita al carico. Ora, ripeto,
+16:49 questo la teoria lo dimostra con tutta una serie di passaggi che a noi
+16:56 non interessano, però è importante sapere che se una linea, cioè che la che
+17:02 la linea ha una propria impedenza caratteristica che sostanzialmente dipende dalle dimensioni della
+17:09 caratteristiche fisiche della linea stessa e che la linea chiusa su un
+17:15 carico su che ha un impedenza pari all'impedenza caratteristica della linea
+17:21 determina un regime di onda progressiva e in regime di onda progressiva tutta
+17:29 l'energia erogata dal generatore viene trasferita al carico.
+17:35 Quindi dicevo prima, mh possiamo osservare come l'impedenza
+17:41 caratteristica che dipende sostanzialmente, abbiamo visto la radice quadrata del rapporto L su C e siccome L e C abbiamo
+17:50 detto all'inizio dipendono dalle caratteristiche fisiche dei conduttori,
+17:57 possiamo osservare quindi che l'impedenza caratteristica di una linea sostanzialmente dipende da come è fatta
+18:05 la linea quali sono le sue dimensioni ed in particolare dal rapporto tra le dimensioni dei due
+18:12 conduttori, la distanza fra i conduttori stessi. Questo vale, come vedete nel
+18:18 disegnino, sia per la linea bifilare sia per il cavo quassiale e da le caratteristiche del dielettrico laddove
+18:25 c'è un dielettrico. Nel caso del cavo quassiale c'è sempre un dielettrico. Qui
+18:32 vedete queste due formuline, comunque tranquilli perché queste nessuno ve le
+18:37 chiederà all'esame che comunque vi possono fornire il valore dell'impedenza
+18:43 caratteristica di un cavo di una linea bifilare a partire dal diametro dei
+18:48 conduttori eella distanza tra i conduttori nel caso della bifilare
+18:53 diametro conduttore interno, diametro conduttore e esterno nel caso del cavo
+18:60 coassiale e costanti di elettrica dell'isolante laddove presenti. Comunque
+19:06 mediamente diciamo i valori commerciali sono tipici, sono 200-300 ohm per una
+19:16 linea bifilare, la famosa piattina che chi ha gli capelli bianchi, come i miei,
+19:21 si ricorderà di aver conosciuto e impedenze dell'ordine di 50-75 ohm
+19:28 invece per i cavi coassiali che ormai sono pressoché eh che hanno pressoché
+19:35 soppiantato AT qualsiasi altra forma di linea.
+19:41 Allora, c'è un motivo e questo è bene che lo sappiate perché lo troverete anche nelle domande di esami, per cui
+19:48 l'uso del cavo del coassiale è preferibile rispetto ad una linea bifilare ed è determinato dal vantaggio
+19:56 prodotto dal fatto che il campo elettrico e il campo magnetico che si
+20:02 staurano, quindi il campo elettromagnetico che si staura tra i conduttori di una linea, nel caso del
+20:08 cavo coassiale rimane confinato all'interno del conduttore esterno
+20:15 proprio per come è realizzato il cavo. Mentre nel caso della linea bifilare
+20:23 una quota parte si propaga anche a distanza dai conduttori. Questo che cosa
+20:29 comporta? che un cavo coassiale può essere posato in qualsiasi ambiente
+20:36 perché non subisce interferenze, diciamo così, da un punto di vista elettromagnetico
+20:42 anche da parte di eventuali conduttori o masse metalliche all'esterno del cavo. Mentre la linea
+20:50 bifilare, se viene posata per esempio all'interno di una canalizzazione
+20:55 metallica o in prossimità di altri cavi, in qualche modo ne subisce una forma di
+21:04 di interferenza e viceversa, cioè il campo elettromagnetico che percorre la
+21:10 linea bifilare può interagire con eh i conduttori in prossimità.
+21:17 Quindi eh il cavo coassiale per questo motivo ha avuto maggior diffusione. Per
+21:24 contro, diciamo, l'unico neo negativo del coassiale è che a
+21:29 parità di lunghezza normalmente un cavo coassiale ha generalmente maggiore attenuazione rispetto ad una linea
+21:37 bifilare. C'è però un altro aspetto anche che
+21:43 dobbiamo tener ben presente o che è abbastanza importante.
+21:48 Per come è realizzato il cavo quassiale e può essere impiegato
+21:55 pressoché esclusivamente per la connessione tra generatori e carichi sbilanciati. Cosa vuol dire un carico o
+22:02 un generatore sbilanciato? Ovvero è il caso in cui uno dei due
+22:08 terminali è riferito a terra. Vedremo più avanti poi nella prossima
+22:14 lezione quando parleremo di antenne che le antenne saranno quasi sempre dei
+22:21 carichi bilanciati e quindi per utilizzare un cavo quassiale per alimentare un carico bilanciato come
+22:27 un'antenna è possibile farlo, ma richiede sempre l'impiego di un
+22:33 dispositivo di adattamento che si chiama balun, ma ripeto, questo lo vedremo
+22:38 nella lezione dedicata alle antenne. Il fatto è che la totalità ormai degli
+22:44 apparati ricetrasmittenti che sono presenti sul mercato ha un'uscita di
+22:49 tipo sbilanciato, per cui è sempre necessario l'impiego del cavo quassiale,
+22:55 oltre al fatto che, come dire, l'eventuale utilizzo di una linea sbilanciata, oltretutto ci espone i
+23:01 problemi che vi ho detto prima relativi alla posa del cavo.
+23:10 Una linea bifilare invece può essere utilizzata per la connessione tra generatori e carichi bilanciati, ovvero
+23:17 generatori e carichi che non hanno alcun riferimento a i cui terminali non hanno
+23:23 alcun riferimento a terra. In realtà, nella pratica, ormai l'uso
+23:28 della linea bifilare è limitato solo a casi molto particolari e uno dei quali
+23:34 lo vedremo eh più avanti ed è l'adattamento di impedenza, perché una
+23:41 delle cose che si può fare con un con un tronco di linea è anche un
+23:46 adattamento di impedenza. C'è un'altra cosa che è bene ricordare
+23:53 che a livello teorico si ipotizza che la linea sia priva di attenuazione,
+24:01 ma nella realtà poi come sempre succede le cose sono un po' diverse. Infatti una linea reale in particolare come un cavo
+24:10 quassiale ha sempre una certa attenuazione e quindi
+24:17 ci sono almeno tre parametri caratteristici che definiscono le
+24:23 caratteristiche di funzionamento reale di una linea, sia essa una linea
+24:28 bifilare o un o un cavo coassiale. Uno
+24:33 l'abbiamo già visto ed è l'impedenza caratteristica. Abbiamo detto i valori tipici sono di 50-75
+24:41 ohm per i cavi coassiali, 200-300 ohm per le linee bicilari. Questi diciamo
+24:47 quelli generalmente eh più usati. Poi esistono anche cavi o o linee con valori
+24:54 diversi, ma diciamo normalmente quelli che incontriamo sono sono questi valori.
+25:02 Poi c'è l'attenuazione. Vi dicevo, nel una linea reale presenta sempre una
+25:08 certa attenuazione e in genere l'attenuazione è espressa in dB per
+25:14 metro. Un un valore che ci dice quanti db o
+25:20 quanti in genere sono frazioni di di DB. La linea attenua per ogni
+25:28 metro di lunghezza. Attenzione, l'attenuazione di una linea reale aumenta sempre in funzione della
+25:36 frequenza, quindi eh cavo o linea bisigilare, cavo di più, la linea un po'
+25:43 meno, ha una certa attenuazione. Questo valore dell'attenuazione non è costante,
+25:50 ma dipende dalla frequenza e poi a parità di frequenza dipende dalle
+25:56 caratteristiche dei conduttori e di di elettrico. Un esempio. Per esempio, nei
+26:02 cavi colassiali l'attenuazione è minore per cavi di
+26:07 maggior diametro o che impiegano un dielettrico foam, un dielettrico non
+26:15 compatto ma spugnoso. vi sarà capitato di vedere
+26:21 sicuramente che i cavi tipo l' RG 213 piuttosto che l' RG58,
+26:27 tanto per parlare di cose note, hanno un dielettrico eh compatto.
+26:35 Eh cavi, per esempio, utilizzati per le antenne TV hanno un cavo che invece è
+26:42 spugnoso. Questo perché il cavo,
+26:48 diciamo, il dielettrico spugnoso contenendo una percentuale significativa
+26:54 di aria ha una costante di elettrica diversa
+26:59 rispetto al di elettrico compatto e ha minore attenuazione. Uno direbbe: "Allor
+27:07 perché non si usano i cavi da TV anche per altri impieghi?" perché poi magari
+27:12 lo vedremo più avanti, come dire, hanno questo vantaggio di aver minore attenuazione, ma sono poco adatte, ad
+27:19 esempio, per supportare eh potenze elevate in trasmissione.
+27:27 Poi c'è un terzo elemento un po' meno noto che è il fattore di velocità e la
+27:33 spiegazione la vedremo poi più nel dettaglio nelle slide successive.
+27:40 Comunque vi anticipo che la velocità di propagazione di un segnale lungo una
+27:45 linea di trasmissione, quindi un cavo o una linea bicilare, è generalmente
+27:52 inferiore a quella che si ha nello spazio libero. Quindi questo parametro, cioè il fattore
+27:58 di velocità, ci dice di quanto si riduce la velocità
+28:03 di propagazione lungo la linea rispetto a quella che si ha nel nello spazio
+28:10 libero. E ripeto, come vedremo nelle slide successive, questo dato che viene fornito dal
+28:18 costruttore del cavo è utilissimo per poter determinare la lunghezza elettrica di
+28:26 una linea in base alla frequenza di utilizzo. Ora,
+28:32 nelle slide successive questi concetti saranno chiariti un pochino meglio e i
+28:39 valori tipici per un cavo colassiale sono compresi in genere tra 0,65 e 080 e
+28:47 come vi dicevo prima dipendono quasi esclusivamente dalle caratteristiche del
+28:53 dielettrico. Infatti, vediamo un attimino questo
+28:58 discorso un po' più nel dettaglio. Dicevo, la velocità di propagazione del
+29:04 segnale, dungo una linea, è inferiore ai famosi
+29:10 300.000 1000 km al seconds che si hanno nello spazio libero e questo dipende
+29:16 dalle caratteristiche del dielettrico. consegue che a parità di tempo
+29:24 il segnale percorrerà lungo la linea uno spazio minore di quello che
+29:30 percorrerebbe nel vuoto, perché, come dire, è come quando vado in macchina, se
+29:35 rallento, nello stesso tempo percorro uno spazio minore.
+29:41 Questo che cosa determina? che per un ciclo completo la lunghezza d'onda del segnale non
+29:49 coincide con lo spazio fisico percorso nella linea stessa che quindi risulta
+29:56 essere minore. Per questo motivo, nel caso dei cavi e delle linee, si parla di lunghezza
+30:02 fisica, che è quella che io misuro col metro, quanto è lungo il cavo e di
+30:08 lunghezza elettrica, che invece è la lunghezza riferita al segnale che lo
+30:16 percorre. cerco di farmi capire meglio facendo eh un esempio. Supponiamo di
+30:23 usare un cavo in 10 m sulla gamma dei 10 m, 30 MHz.
+30:30 Il cavo, lo misuro col metro, è lungo 10 m. Uno dice, "Bene, questo cavo è lungo
+30:37 una lunghezza d'onda, cioè il mio segnale qui dentro compie un oscillazione completa?"
+30:44 In realtà no, perché siccome il segnale dentro al cavo viaggia più lentamente,
+30:51 in 10 m percorre più di una lunghezza d'onda. Infatti un cavo normale che ha
+30:59 fattore di velocità 0,66 sarà lungo una lunghezza d'onda quando
+31:06 sarà avrà una lunghezza fisica, come dice la formula, pari a la lunghezza
+31:13 d'onda per 0,66. Quindi nel nostro esempio, se siamo a 30 MHz, cioè a 10 m,
+31:21 come lunghezza d'onda e io voglio uno spezzone di cavo che abbia una lunghezza
+31:26 pari alla lunghezza d'onda, non deve essere 10 m, ma deve essere 6,60 m se il
+31:33 fattore di velocità è 0,66. Quindi 6,60 m è la lunghezza fisica, 10
+31:41 m è la lunghezza elettrica. di questa cosa e tenetene sempre conto perché può
+31:49 portare a grossolani errori, per esempio, quando si vanno a fare delle misure oppure si vuole per qualche
+31:57 motivo utilizzare una linea che abbia una lunghezza che abbia un rapporto
+32:04 preciso con la lunghezza d'onda.
+32:10 Quindi, giusto per chiarire questi concetti che abbiamo espresso fino a ora, ho riportato una tabellina con i
+32:17 cavi con alcuni cavi di uso comune, magari mancano quelli un po' più
+32:22 moderni, ma insomma sicuramente qualcuno di questi cavi, tipologia di cavi vi
+32:28 sarà capitato di di incontrarli. Come potete vedere le impedenze caratteristiche sono o 50 o 75 ohm.
+32:38 Qui trovate il diametro del conduttore interno, il diametro del conduttore esterno, il tipo di di elettrico,
+32:45 polietilene per i cavi a della prima parte o eh PTFE, quindi
+32:55 teflon per questi altri casi. Comunque in entrambi i casi si tratta di di
+33:00 elettrici compatti. Qua trovate l'attenuazione che è data
+33:08 per 100 m, quindi chiaramente se volete l'attenuazione al metro questo valore va
+33:13 diviso per 100 e come vedete sono valori che stanno per per un solo metro di
+33:20 lunghezza sono frazioni di DB. E l'ultima colonna ci dà il fattore di
+33:26 velocità. Come vedete 0,66 per tutti i cavi in polietilene, 070
+33:34 per i cavi in teflon. Se avessimo avuto qui un cavo da TV, come vi dicevo prima,
+33:42 o anche cavi per impieghi professionali che hanno di elettrico spugnoso, il
+33:49 fattore di velocità sarebbe stato 0 tra 0,80 e 0,85. Comunque queste
+33:55 informazioni le trovate sempre sul datashet del costruttore del cavo,
+34:01 qualora vi dovessero servire.
+34:07 Oh, vediamo adesso che cosa succede. Quindi avevo detto prima che una linea
+34:14 chiusa sulla propria impedenza caratteristica è in regime di onda progressiva e quindi tutta l'energia
+34:22 viene trasferita dal generatore a carico. Vediamo invece adesso che cosa succede
+34:28 se la linea è chiusa su un'impedenza diversa da quella caratteristica della
+34:34 linea. Ora, prima di andare avanti, come non vorrei come dire andare troppo
+34:41 veloce, vorrei capire se fin qui va tutto bene, se ci sono domande, se
+34:48 è tutto sufficientemente chiaro.
+34:57 Allora, c'è una domanda da parte di Nicola.
+35:06 Sì, vabbè. Eh, forse forse anche una
+35:12 una sottiglizza. Allora, per frequenze maggiori, ora hai parlato di una
+35:17 lunghezza d'onda di 10 m, velocità 0,66 nel cavo, però per frequenze
+35:23 maggiori e la lunghezza d'onda sarà più corta. La lunghezza del cavo, dove la
+35:30 prendo la lunghezza del cavo? al pari al pari de del fine del
+35:36 bocchettone o per esempio in un PL a parte per frequenze maggiori il PL lasciamo faare però ho a livello de
+35:44 avendo un PL a livello della fine del bocchettone o a livello della fine de
+35:50 del centrale del PL. Allora, su 6 m su 6 m e conta giusto la
+35:57 lunghezza, però magari se si vuole su 10 su 10 cm invece conta.
+36:04 un PL però Esatto. Allora, il la risposta
+36:10 sostanzialmente è questa: il PL non è un connettore a impedenza costante
+36:16 e quindi l'hai già detto, sicuramente non è il caso di impiegarlo su delle frequenze dove le dimensioni del
+36:24 connettore, come dire, cominciano a diventare significative. Ma non a caso io all'inizio eh quando ho
+36:33 parlato delle dimensioni in rapporto alla lunghezza d'onda parlavo genericamente di circuiti, non tanto
+36:41 delle delle linee in quanto tali, perché quando le frequenze sono molto alte e
+36:46 quindi le lunghezze d'onda scendono a valori relativamente piccoli,
+36:52 quindi parliamo di decine di già, quando parliamo di decine di centimetri allora
+36:58 Ora, non solo la linea, ma anche banalmente il,
+37:05 come dire, il connettore piuttost piuttosto che il cablaggio di un circuito stesso, i reofori di un
+37:11 componente devono essere presi in considerazione perché addirittura anche
+37:18 a quel livello eh, come dire, dobbiamo tener conto di queste problematiche,
+37:25 peggio ancora quando saliamo ulteriormente di frequenza, quindi su
+37:30 frequenze molto elevate è opportuno utilizzare connettori a
+37:36 impedenza costante. Quindi a quel punto il connettore
+37:43 diventa parte integrante della linea e quindi le lunghezze laddove ti dovesse
+37:50 servire riconoscere la lunghezza devono tener conto anche eh eh del connettore,
+37:59 però diciamo che questo, nel caso nostro eh
+38:05 può cominciare a diventare determinante qua quando saliamo oltre il giga di
+38:12 frequenza, altrimenti diciamo sotto ancora possiamo
+38:21 eh non preoccuparci più di tanto, magari già 70 cm, forse
+38:28 400 32 siamo sul limite, però il concetto è questo.
+38:35 quando la dimensione del della cosa che stiamo valutando non
+38:41 può essere considerata trascurabile rispetto alla lunghezza d'onda ne
+38:46 dobbiamo tener conto. Quindi ripeto, il in 10 m del connettore
+38:54 posso non preoccuparmi, se sono a diverse centinaia di MHz ne devo tener
+39:00 di conto. Ed in particolare su queste frequenze appunto si utilizzano connettori a impedenza costante, cioè
+39:08 connettori che hanno la stessa impedenza della linea su cui sono montati e quindi
+39:14 entrano a far parte integrante della della linea stessa.
+39:23 Bene, se non ci sono altre domande andiamo avanti.
+39:30 Nessun'altra domanda al momento. Ok. Bene, adesso vediamo m una cosa che
+39:37 magari ci comincia a interessare un po' più del degli aspetti teorici finora
+39:45 enunciati. Allora, vediamo cosa accade quando io chiudo una linea di trasmissione su un carico
+39:53 la cui impedenza sia diversa dall'impedenza caratteristica della della linea stessa.
+39:59 In questo caso, vi anticipo, la linea non sarà più in
+40:04 regime di onde progressive, ma una parte e quindi non tutta l'energia erogata dal
+40:10 generatore raggiungerà il carico, ma una parte dell'energia che arriva al carico
+40:16 verrà riflessa indietro verso il generatore, determinando quello che si
+40:21 chiama un regime di onde stazionarie. Questo a causa del disadtrattamento di
+40:28 impedenza. tra la linea e il carico.
+40:34 Anche qui, per comprendere meglio che cosa accade quando io chiudo la linea
+40:39 con un'impedenza diversa dall'impedenza caratteristica della linea, noi possiamo
+40:45 pensare l'impedenza, il carico come composto
+40:51 dalla serie di due impedenze. una che ha lo stesso valore
+40:56 dell'impedenza caratteristica del della linea e l'altra che ha il un valore pari
+41:03 alla differenza qui, tale che la somma delle due faccia il il valore
+41:09 dell'impedenza di carico. In questo caso che cosa succede?
+41:16 una quota parte del della potenza che arriva al carico si dissipa su la sulla
+41:25 Z0, cioè sull'impedenza che è uguale a quella del cavo in regime
+41:31 di onda progressiva, mentre la quota parte che si sarebbe
+41:36 dovuta dissipare sull'altra parte di impedenza che noi abbiamo immaginato
+41:42 divisa in due. in realtà rappresenta la potenza che
+41:47 sarà riflessa indietro verso il trasmettitore. È come se al posto della
+41:54 Zquid del disegno, cioè della dell'impedenza che fa la differenza
+42:00 fosse posto un un altro generatore che eroga energia nel nel verso opposto.
+42:08 I due flussi, quindi, che si determinano lungo la linea, cioè quello che dal trasmettitore va verso il carico e
+42:16 quello riflesso che dal carico torna indietro verso il generatore, sono
+42:23 quelli che danno origine a quello che si chiama un regime di onde stazionarie a
+42:30 causa ovviamente della differenza di ampiezza e fase dei due flussi che
+42:37 scorrono nella linea inverso opposto. Ora, nella slide successiva c'è
+42:43 un'animazione che forse chiarisce meglio quello quello che accade.
+42:51 L'animazione praticamente ci dà la composizione grafica dei due flussi
+42:56 isofrequenziali che abbiamo nel caso di
+43:01 disadattamento. Nel disegnino vedete il l'onda azzurra
+43:07 che procede da sinistra verso destra, diciamo, dal generatore verso il carico.
+43:13 L'onda rossa è l'onda riflessa, cioè che dal carico scorre verso il generatore
+43:21 nella direzione opposta. Se noi ci mettiamo a fare la composizione istante per istante dei due flussi, il risultato
+43:29 è questa linea nera che, come vedete, è un ha la stessa frequenza, quindi ha
+43:36 delle oscillazioni con la stessa frequenza dei due segnali che la compongono, ma che a differenza delle
+43:44 due componenti non scorre lungo la linea, ma guarda caso lo dice il
+43:50 termine, rimane stazionaria. Questo che cosa vuol dire? che lungo la linea si
+43:55 determineranno dei punti dove noi avremo valori di tensione di corrente diversi
+44:03 da punto a punto, ma che saranno sempre fissi in quel determinato punto della
+44:11 linea. Quindi in un certo punto avrò il massimo, in un certo punto avrò il minimo e il punto dove avrò il massimo e
+44:18 il minimo sarà sempre lo stesso. Questi valori, come vedremo, si ripetono
+44:26 cinquamente ogni mezza lunghezza d'onda. Da qui il termine di onde stazionarie,
+44:32 perché i minimi e i massimi rimangono in posizioni stazionarie lungo la linea.
+44:39 Infatti la figura invece a destra di questa slide ci mostra l'andamento
+44:45 della tensione della corrente. sono uguali, solo che sono
+44:50 sfalzati come fase. Quindi eh qui in questo disegno è rappresentato solo uno,
+44:58 ma può essere tensione occorrente, indipendentemente l'andamento è lo stesso. E vedete che in caso di perfetto
+45:05 adattamento, cioè quando il carico è uguale a Z0, io non ho onde risse e quindi lungo la
+45:15 linea la tensione è costante in qualsiasi punto. come ho un minimo disadattamento, per
+45:21 esempio il disegno B, abbiamo un caso in cui il
+45:28 ci sia un Ross di 1,5, quindi un minimo disatamento
+45:34 e vedete che inizia a esserci una fluttuazione con valori che variano da dallo 08 a a 1 e 2 rispetto al valore eh
+45:44 medio con disadattamento maggiore. Disegno C è un Ross di 3, vedete più
+45:51 profonda la variazione fino all'ultimo caso che è un Ross infinito che
+45:57 praticamente si va da zero a al doppio del valore massimo.
+46:04 Quindi, ripeto, lungo la linea in regime di onde stazionarie si formano dei
+46:10 minimi e dei massimi di tensione di corrente la cui ampiezza dipende, come abbiamo
+46:16 visto, dall'entità del disadattamento e si definisce quindi ROS, che sta per
+46:23 rapporto di onde estrazionarie o SWR, che è l'acronimo della stessa
+46:28 cosa tradotta in inglese, si definisce come tale il rapporto
+46:34 tra la tensione massima e la tensione minima o anche la corrente massima e la
+46:40 corrente minima perché è esattamente la stessa cosa che si presentano in una
+46:45 linea in regime di onde stazionarie. Vedremo poi lo ripeteremo più avanti,
+46:53 che questo valore è anche uguale al rapporto
+46:59 fra l'impedenza caratteristica della linea e l'impedenza del carico
+47:05 o viceversa a seconda che l'impedenza del carico sia maggiore o minore
+47:12 dell'impedenza della linea. Un'altra cosa che è importante che vi
+47:17 ricordiate, perché ci saranno delle domande a trabocchetto tra i quiz ad esame, che il valore di Ross eh può
+47:26 assum che il Ross può assumere valori che vanno da un minimo che non è zero ma
+47:32 è 1 e un massimo che è pari ad infinito
+47:37 perché è uno perché quando io non ho Ross, cioè sono in regime di onda
+47:44 progress Guardate il disegno a la tensione è costante, quindi non c'è tensione
+47:51 massima e minima, o meglio, massima e minima sono la stessa cosa e quindi
+47:57 quella frazione vale 1. Se ho variazioni, ovviamente avrò al
+48:06 numeratore di quella frazione un valore, la tensione massima che è maggiore della
+48:12 tensione minima e quindi quella frazione varrà più di 1 fino a arrivare al caso
+48:18 estremo in cui la tensione minima o la corrente minima è zero e quindi la
+48:24 matematica ci dice che qualsiasi numero diviso 0 fa infinito. Quindi i valori di
+48:31 Ross vanno da 1 quando non c'è Ross a infinito quando c'è riflessione totale.
+48:43 Dicevo prima, la presenza di minimi e massimi di tensione e di corrente lungo la linea
+48:51 determina che dall'altro capo della linea si presenti un valore di impedenza
+48:58 che può variare, che non è costante, ma che può variare da un minimo a un
+49:04 massimo in funzione della lunghezza elettrica della linea stessa. e tali
+49:10 valori si ripetono ciclicamente. Cosa voglio dire? Guardate il il disegno
+49:17 qui a sinistra. Eh, voi sapete che dal dalla legge di
+49:24 ohm che il valore dell'impedenza è data dal rapporto fra la tensione e la
+49:30 corrente. Quindi, siccome tensione e corrente lungo la linea, come vedete, variano continuamente,
+49:38 il valore di impedenza che io trovo in lungo la linea varia da punto a punto
+49:44 perché varia il rapporto fra la tensione e la corrente in ogni punto della linea.
+49:52 Poi, siccome questi valori sono ciclici con una ciclicità che è pari a lambda/2,
+49:58 cioè ogni mezza lunghezza d'onda io trovo un massimo,
+50:04 o oppure diciamolo meglio, tra un massimo e quello successivo c'è sempre
+50:09 mezza lunghezza d'onda, come tra un minimo e il successivo c'è sempre mezza
+50:15 lunghezza d'onda, quindi anche i valori di impedenza varieranno da un massimo a un minimo.
+50:21 ogni mezza lunghezza d'onda. Quindi questi valori si ripetono
+50:30 ciclicamente, quindi attenzione perché questa è una
+50:35 cosa di cui dobbiamo tenere conto. Siamo in regime di onde stazionarie,
+50:43 io il valore di impedenza che vedo dall'altro capo della linea quando è
+50:50 chiusa su un'impedenza diversa da quella caratteristica è un valore che non posso conoscere a
+50:56 priori perché dipende dal valore dal
+51:02 diadattamento e dalla lunghezza della linea stessa.
+51:13 C'è un'altra cosa che è abbastanza importante e che spesso è poco
+51:19 considerata, anzi che addirittura ogni tanto si sente dire anche delle
+51:25 cose che, come dire, non hanno nessun fondamento. E mi spiego meglio. Ebbene lungo laa il
+51:33 regime di onde stazionare, come abbiamo appena detto, la tensione e la corrente
+51:38 varino e siano diverse da punto a punto, ripetendosi ciclicamente ogni mezza lunghezza
+51:45 d'onda, il rapporto avrei dovrei aggiungere vettoriale, cioè
+51:52 tenendo conto anche della fase tra la tensione massima e la tensione minima è
+51:58 comunque costante, quindi lungo la linea,
+52:04 anche se tensioni e correnti variano dal massimo al minimo, il valore
+52:10 del Ross è costante in ogni punto della linea e
+52:17 questo l'ho scritto in rosso e aggiungo, non è scritto nella slide, quindi eh
+52:25 come qualcuno sostiene che allungando o accorciando il cavo io posso posso
+52:31 aggiustare il valore del ROS. Non è assolutamente vero. Poi vedremo in una
+52:37 delle ultime slide che questa, come dire, credenza è in qualche modo
+52:43 alimentata dal fatto che esistono degli strumenti che a volte in determinate
+52:49 condizioni non ci dicono esattamente la verità.
+52:56 Non è così invece per eh quanto riguarda il valore dell'impedenza, l'abbiamo visto nella
+53:02 slide precedente, quindi il valore di Ross è costante in ogni punto della
+53:08 linea. L'impedenza che si presenta lungo la linea invece
+53:14 varia da punto a punto, determinando valori che, ripeto, variano
+53:20 da un minimo a un massimo con ciclicità lambda quarti.
+53:25 e e da un massimo a un minimo con sempre con lambda quarti.
+53:32 Come vi ho detto, infatti lo stesso valore si ripete quindi ogni lambda/2.
+53:41 Qui trovate delle formulette che mettono in relazione questi valori, cioè se voi
+53:46 volete sapere qual è il valore massimo, scusate, il valore minimo è il valore
+53:52 massimo che vi potreste trovare lungo una linea che ha un certo valore di
+53:59 Ross, le formule ci dicono che il valore
+54:05 minimo di impedenza è z0, cioè l'impedenza del caso del cavo diviso il
+54:12 valore del Ross, mentre il massimo è l'impedenza del cavo per il valore di
+54:18 Ross. Quindi, tanto per fare un esempio numerico che è più comprensibile, cavo
+54:23 da 50 ohm Ross A2. L'impedenza che io avrò lungo la linea
+54:31 varierà di continuo da punto a un punto, da un minimo di 25 ohm, 50 / 2 a un
+54:39 massimo di 100 ohm 50* 2.
+54:44 Ovviamente questi valori saranno presenti in punti ben determinati
+54:50 lungo, diciamo, in punti intermedi saranno valori intermedi.
+54:57 valori intermedi che poi vedremo in questa slide
+55:04 avranno anche delle componenti induttive e capacitive anche se il
+55:11 carico fosse puramente resistivo. Infatti determinare in modo analitico,
+55:18 cioè calcolandolo, per così dire, quale valore può assumere l'impedenza in
+55:23 un punto generico lungo la linea, non è un calcolo banale e quindi nessuno vi
+55:28 chiederà mai di farlo e tra l'altro, come dire, non era facile calcolarlo
+55:35 quando non esistevano i i computer o le calcolatrici, ma
+55:42 comunque possiamo fare alcune considerazioni che sono interessanti.
+55:48 Abbiamo già detto più volte che il valore minimo e massimo dipendono dal
+55:54 valore dell'SVR, quindi del ROS. Quindi maggiore è il ROS, maggiore è l'escursione
+56:01 tra massimo e minimo. Ma c'è un'altra cosa importante che vi ho appena accennato che anche nel caso
+56:09 in cui il carico e la linea la linea sempre ha un'impedenza caratteristica
+56:16 che è puramente resistiva e anche se il carico fosse puramente
+56:23 resistivo, i valori di impedenza che io vedo dall'altro capo a seconda della
+56:28 distanza assumeranno con una certa ciclicità
+56:34 componenti oltre che resistive anche induttive o capacitive
+56:40 a seconda di dove mi trovo, tranne che in punti precisi, ovvero a distanza
+56:49 di un multiplo intero di lambda/.
+56:54 Quindi anche qui faccio un esempio numerico, poi dopo ce ne saranno altri per capirsi. Considerate una linea, come
+57:02 vi ho detto prima, da 50 ohm, chiusa su un carico
+57:08 da 100 ohm. Io sicuramente lungo la linea avrò dei
+57:15 valori che sono che saranno compresi, abbiamo visto, tra 25 e 100 ohm.
+57:23 Ed in particolare io troverò ogni quarto d'onda
+57:29 il valore minimo, cioè 25 ohm puramente resistivi e il valore massimo 100 ohm
+57:37 puramente resistivi. Nei punti intermedi io troverò valori di
+57:43 impedenza che avranno una parte resistiva che sarà compresa tra i 100
+57:49 tra i 25 e i 100 ohm, ma insieme ci sarà una componente
+57:57 capacitiva o induttiva. Questo anche se il carico è puramente resistivo e questo
+58:03 attenzione perché anche questa cosa qui può portare a volte a prendere degli
+58:10 abbagli colossali quando facciamo delle misure.
+58:18 Ora, dicevo prima che
+58:23 la condizione di onde stazionarie quindi genera
+58:29 una situazione in cui la linea presenta un'impedenza
+58:35 diversa da quella di terminazione e l'impedenza vista dal generatore quindi
+58:40 varierà al variare della lunghezza elettrica della linea stessa con
+58:47 ciclicità. l'abbiamo detto ormai 1000 volte pari a lambda/2, sebbene il valore
+58:53 del ROST rimanga costante. Come dicevo prima, di questa cosa
+58:59 dobbiamo tenere conto nel posizionamento, per esempio, di uno strumento se vogliamo effettuare delle
+59:06 misure di impedenza. Questo perché se noi andiamo a misurare,
+59:12 vogliamo misurare l'impedenza di un'antenna che non è perfettamente adattata e lo facciamo come dire
+59:20 all'altra estremità del cavo o noi conosciamo esattamente la lunghezza del
+59:26 cavo e soprattutto il cavo ha una lunghezza che è un multiplo intero di
+59:33 lambda/2, altrimenti l'impedenza che noi andiamo a misurare non avrà niente a che vedere con
+59:40 l'impedenza dell'antenna. Qui ho aggiunto una cosa m che però è
+59:47 solo un accenno, poi se a qualcuno dovesse interessare se ne può parlare in separata sede. Eh, un modo abbastanza
+59:56 semplice, perché calcolarlo non è facile, per avere un'indicazione di quale sia il valore di impedenza che io
+60:04 posso vedere in un cavo di una lunghezza
+60:09 generica. eh in regime di onde stazionarie è quello di usare un
+60:16 diagramma polare che si chiama carta di Smith, che ci permette, una volta nota,
+60:21 l'impedenza della linea e l'impedenza del carico di poter calcolare
+60:28 sul sulla carta tutti i valori di impedenza lungo l'arco di mezza
+60:33 lunghezza d'onda, poi se il cavo fosse più lungo, come abbiamo detto, si ripetono. E tra l'altro qui c'è un
+60:40 esempio. Nel caso di Ross pari a 2, questo cerchio rosso rappresenta tutti i
+60:46 valori che l'impedenza può assumere lungo il cavo. Però questa prendetela
+60:53 così come eh come una chiacchierata. Nessuno ve lo chiederà e nessuno vi chiede di sapere
+60:59 come utilizzare eh la carta di Smith,
+61:06 però diciamo questo comportamento che abbiamo visto fino ad ora di una linea,
+61:12 diciamo, in condizioni di di disadattamento di quindi di regime di onde stazionarie,
+61:19 eh non è sempre, come dire negativo. può essere, ad esempio, utilmente
+61:26 sfruttato come trasformatore di impedenza.
+61:31 Questo deriva dal particolare comportamento che vi avevo già accennato
+61:38 e che ha una linea lunga un/4 d'onda. Se io termino una linea lunga un quarto
+61:46 d'onda, esattamente un quarto d'onda su un'impedenza diversa da quella della linea stessa, dall'altro capo avrò
+61:54 sempre un'impedenza diversa, ma eh
+61:60 diciamo dando per scontato che io l'ho terminato con un carico resistivo, sarà
+62:06 puramente resistivo anche dall'altra parte. E
+62:11 eh questo, per esempio, ci permette di adattare due valori diversi di impedenza
+62:19 utilizzando un tronco di linea lungo lambda quarti. In particolare, qui c'è
+62:25 una formulina che ci dice che se io voglio adattare l'impedenza, che io qui
+62:31 indico come Z1 con un valore Z2, è sufficiente che io
+62:39 ci metta in mezzo un tronco di linea lungo lambda quarti con un'impedenza
+62:44 caratteristica che ha un valore pari alla radice quadrata del prodotto delle
+62:50 due impedenze. Quindi facciamo un caso
+62:55 per capirci che anche dei valori standard. Supponiamo che io ho un carico
+63:01 da 100 ohm e lo voglio adattare ad un generatore a
+63:06 50 ohm, come il caso nostro, lo posso fare tra i tanti modi con cui lo posso
+63:12 fare interponendo un tronco di linea lungo lambda/
+63:18 la cui impedenza è radice quadrata di 50%.
+63:26 E quindi se vi fate il conto viene esattamente 75. Quindi ad esempio con un
+63:32 tronco pezzo di cavo a 75 ohm io posso adattare un carico da 100 ohm a un
+63:39 generatore a a 50 ohm. Questo, diciamo, è una cosa che si fa abbastanza spesso
+63:50 in in VHF e anche per accoppiare più antenne o per
+63:58 adattare impedenze che hanno valori, diciamo, che
+64:03 particolari che si prestano. In realtà ci sono degli accoppiatori fatti proprio
+64:09 in questo modo, cioè che sono dei tronchi di linea lunghi lambda quarti
+64:15 calcolati proprio con un'impedenza specifica, per esempio, per adattare due
+64:20 o quattro carichi a 50 ohm a un unico generatore a 50 ohm. Ma lo vedremo
+64:27 magari nelle prossime due lezioni eh sulle antenne. Non vi voglio, come dire,
+64:33 confondere le idee più di quanto già non lo stia facendo. Concetto è che il
+64:41 fenomeno, il comportamento che si determina in una linea di regime di onde stazionarie, per quanto intrinsecamente
+64:50 dannoso, in certi casi però può avere anche una qualche utilità. E quello è il
+64:57 caso, per esempio, del cosiddetto trasformatore lambda/ trasformatore
+65:02 quassiale lambda quarti. Un altro caso particolare eh di utilizzo
+65:10 di un tronco di linea in regime di onde stazionarie è il caso particolare della
+65:17 linea chiusa in corto circuito. una linea a un lunga un quarto d'onda
+65:23 chiusa in corto circuito presenta un'impedenza infinita dall'altro lato
+65:30 e in questo particolare caso, per lunghezze diverse dal quarto d'onda, la
+65:36 linea in corto circuito si comporta come un'induttanza pura per lunghezze
+65:42 inferiori a lambda quarti e come capacità pura per lunghezze comprese fra
+65:49 lambda/ quarti e lambda/2. In caso di linea aperta il comportamento
+65:55 è esattamente l'opposto. Questo vi dovrebbe ricordare qualcosa. Quindi
+66:01 possiamo quindi affermare che un tronco di linea lungo un quarto d'onda aperto
+66:08 si comporta esattamente come un circuito risonante serie, mentre un un tronco di
+66:14 linea lungo lambda quarti chiuso in corto circuito si comporta come un
+66:20 circuito risonante parallelo. Anche questa, come dire, è una cosa che
+66:27 non vi verrà chiesto all'esame, ma magari è interessante saperlo, anche
+66:33 perché in alta frequenza, su frequenze molto elevate,
+66:38 si utilizza questa questo particolare comportamento delle linee per realizzare
+66:45 i circuiti risonanti ad elevato valore eh di Q, cioè con Q
+66:52 elevato, quindi famosi risonatori coassiali eh sono o o
+67:01 linee risonanti utilizzati come filtri sostanzialmente
+67:07 sfruttano questo questa particolare caratteristica di una linea aperta o in corto circuito
+67:14 lunga un quarto d'onda, però ti ripeto mh non è una cosa che eh
+67:23 nessuno non vi chiederà mai in sede d'esame.
+67:31 Quindi torniamo un attimino al discorso delle onde stazionarie.
+67:37 Come già detto, la conseguenza di un disadattamento tra la linea e il carico
+67:44 è un regime di onde stazionarie e in conseguenza
+67:49 della presenza di onde stazionarie una conseguenza è che una parte dell'energia
+67:56 erogata dal generatore raggiunge il carico, mentre una parte viene persa.
+68:02 La quota di energia non assorbita dal carico, cioè quella cosiddetta riflessa,
+68:09 in genere si dissipa nel cavo coziale e nel generatore stesso, nel nostro
+68:16 trasmettitore. Ma attenzione, contrariamente a quanto comunemente si crede, la quota parte di
+68:24 energia persa è abbastanza limitata
+68:29 fintanto i valori che i valori di Ross sono minori di 3. Io qui vi riportato
+68:35 una tabellina che ci dice la percentuale di potenza riflessa e la perdita in
+68:42 termini di DB in funzione del valore del Ross. E vedete che perlomeno fino a due
+68:50 la percentuale è molto bassa, siamo sotto al 10%,
+68:56 sale al 25% con un Ross di 3, poi e sale molto più
+69:05 drasticamente per valori più elevati. Però attenzione perché vi dico questo.
+69:12 Un valore di Ross elevato, sebbene fino a tre, come dire percentualmente
+69:20 non sia enorme la potenza persa, può però determinare una condizione anomala
+69:26 di funzionamento del trasmettitore della linea. Intanto la presenza di massimi e minimi nella
+69:34 linea fa sì che il valore della linea di attenuazione della linea stessa aumenti.
+69:42 Quindi attenzione, l'attenuazione di un cavo, quella nominale riportata dal
+69:48 costruttore è relativa alle condizioni di perfetto adattamento,
+69:54 cioè di regime di onde progressive. Se io sono in condizioni di disadattamento
+70:01 e quindi ho del Ross, intanto la prima conseguenza è che il cavo attenua di più
+70:08 e attenua di più semplicemente perché è sottoposto a tensioni e correnti più
+70:15 elevate rispetto alle condizioni di perfetto adattamento.
+70:23 Inoltre, se uso potenze elevate, queste condizioni possono portare al
+70:30 danneggiamento del cavo e del trasmettitore. C'è però anche un altro aspetto che non
+70:37 deve essere sottovalutato, specialmente quando i valori di Ross non
+70:42 sono così elevati, ma è
+70:49 il fatto, come abbiamo visto, che la linea può presentare al trasmettitore un valore di impedenza che può essere
+70:57 se anche sensibilmente diverso dal valore nominale, anche con Ross non
+71:03 molto elevato. l'avevamo visto negli negli esempi precedenti. E questo che
+71:09 cosa comporta? Eh, nell'elettrotecnica c'è un teorema che è noto con il nome
+71:15 del teorema del massimo trasferimento di potenza e questo ci dice che la massima
+71:22 potenza che un generatore può erogare su un carico si ha quando il questi sono i
+71:30 termini che recita il l'enunciato quando il valore dell'impedenza del carico è
+71:37 pari al complesso coniugato dell'impedenza interna del generatore. proviamo a tradurlo in
+71:43 parole più semplici e comprensibili per noi che non siamo scienziati, ovvero
+71:50 il massimo trasferimento di energia da un generatore ad un carico si ha quando
+71:57 l'impedenza del carico ha la stessa componente resistiva dell'impedenza
+72:03 interna del generatore e componente reattiva di segno opposto allo allo
+72:10 scopo di annullarsi reciprocamente. Quindi, perché il mio trasmettitore
+72:17 possa erogare la massima potenza è necessario massima potenza che può
+72:24 erogare a prescindere dai problemi che può subire in caso di disadattamento,
+72:30 però la potenza nominale la potrà erogare soltanto se vedrà un carico che è puramente
+72:39 resistivo e pari alla sua impedenza, che per gli apparti dati moderni sono i 50
+72:46 ohm puramente resistivi. Quindi questo è
+72:51 un ulteriore motivo, forse anche più importante rispetto alla perdita
+72:57 aggiuntiva che posso avere sul cavo dovuto al disadattamento, per cui è bene che il Ross sia più basso
+73:04 possibile perché abbiamo visto prima che già con un Ross di 2, che non è un
+73:10 valore particolarmente elevato, la potenza riflessa è dell'ordine del 10%
+73:19 della potenza che gli arriva. Il problema è che con un Ross di 2 io posso
+73:24 avere all'estremità del cavo un'impedenza che invece di 50
+73:29 può andare da 25 a 100 ohm e sicuramente il trasmettitore con 25 o con 100 ohm
+73:38 non eroga tutta la potenza che può erogare. Quindi
+73:44 le due condizioni si sommano, per cui non è tanto la potenza che perdo perché
+73:51 è riflessa, ma è il fatto che il disadattamento
+73:56 non permette al trasmettitore di poter lavorare nelle condizioni ottimali ed
+74:01 erogare la massima potenza. Quindi questo è un motivo per cui il
+74:08 Ross deve essere il più basso possibile. Quindi un metodo per eliminare quindi
+74:14 questi effetti d'annosi dovuti a un elevato valore di Ross è quello, ad esempio, di impiegare un accordatore.
+74:23 che altro che non è che un dispositivo in grado di adattare fra loro due valori
+74:29 di impedenza, abbiamo visto prima lo in con determinati valori, in determinate
+74:35 condizioni, lo posso fare anche semplicemente con un tronco di linea lambda quarti.
+74:42 La condizione ottimale, però, attenzione, sarebbe quella di porre l'accordatore in prossimità
+74:47 dell'antenna. Questo per far modo che sia la linea che il trasmettitore siano
+74:53 in condizioni di perfetto adattamento. Diciamo che molto più frequentemente
+74:59 l'accordatore in genere sta all'uscita del trasmettitore, però in questo caso si elimina il
+75:07 disadattamento m verso il trasmettitore, quindi eliminiamo la possibilità di
+75:13 sovraccarichi e permettiamo al trasmettitore di erogare la massima potenza.
+75:18 ma non si elimina il disadattamento lungo la linea.
+75:24 In questo caso, quindi il Ross in linea rimane elevato se era elevato ed è
+75:31 comunque causa, come abbiamo detto, di valori di attenuazione anche molto maggiori di quelli nominali. Quindi
+75:37 questo è il motivo per cui se io ho un Ross abbastanza alto e uso l'accordatore
+75:44 sul trasmettitore, diciamo, risolvo il problema che non brucio i finali, risolvo il problema che
+75:51 il trasmettitore mi eroga tutta la potenza, però probabilmente in antenna
+75:56 non ne arriva molta di questa potenza. Quindi, ripeto, eh quando è possibile la
+76:04 condizione migliore è che l'adattamento sia realizzato direttamente
+76:10 al nel punto di connessione tra la linea e l'antenna.
+76:18 Oh! Eh vediamo adesso eh gli strumenti per la misura del ROS.
+76:27 M credo che sia, come dire, una cosa che conoscete tutti bene, che per la misura
+76:34 del Rossi in genere si utilizza uno strumento che sia in grado di rilevare
+76:41 attraverso la misura della potenza diretta, della potenza riflessa,
+76:47 il valore di Ross. Quindi è uno strumento, sostanzialmente è un wattmetro direzionale che è in grado di
+76:54 misurare separatamente la potenza diretta e la potenza riflessa, ovvero
+77:01 quella che dal trasmettitore fluisce all'antenna e quella che dall'antenna
+77:08 torna indietro per il disadattamento. Tra i valori di potenza diventa
+77:15 c'è una relione e il valore di rostra
+77:21 in queste formule può essere calcolato non di retta
+77:31 e conoscere la potenza riflessa e conosco il valore
+77:38 posso calcolarmi la potenza
+77:46 Come dicevamo per l'accordatore
+77:54 corretta misura del valore di rotbe opportuno effettuarla ponendo lo
+78:00 strumento direttamente tra la linea dell'antenna,
+78:05 cosa spesso abbastanza complicata e mi direte voi, ma perché Se mi hai
+78:11 detto prima un po' di slide fa che il valore di Ross è costante in qualsiasi
+78:16 punto della linea, quindi in qualsiasi punto lo misuri, dovrei poter leggere
+78:23 sempre lo stesso valore di Ross. In teoria sì, nella pratica no. in realtà
+78:30 per due motivi. Adesso li vediamo perché eh effettuando la misura
+78:36 all'uscita del trasmettitore si può correre il rischio di di leggere valori
+78:43 di rossa non attendibili, soprattutto se l'attenuazione del cavo non è trascurabile
+78:50 e soprattutto se la misura non è effettuata con un accoppiatore direzionale.
+78:57 Purtroppo molti strumenti commerciali di basso costo non usano accoppiatori direzionali per fare la misura, ma usano
+79:05 dei ponti di misura. Sono due tipologie quelle più comuni e
+79:11 il Bur Bridge e Tandem Bridge che in particolari condizioni
+79:17 sostanzialmente di impedenza e quindi in particol secondo di dove sono posti lungo la
+79:24 linea possono non obbligatoriamente ma possono dare delle misure non del
+79:30 tutto attendibili. Comunque anche l'accoppiatore direzionale può dare
+79:36 misure non del tutto attendibili perché, come vi ho detto, misura potenza
+79:42 diretta e potenza riflessa. Se, come vedremo nella slide successiva,
+79:49 il cavo ha una certa attenuazione, non è così indifferente dove io faccio la
+79:56 misura. E vediamolo con un esempio che ci può chiarire bene questo concetto. Prendiamo
+80:04 il un caso tipico, trasmettitore da 100 W, una linea in cavo che ha
+80:11 un'attenuazione complessiva di 2 dB. Non sono pochi, ma non sono nemmeno
+80:17 tantissimi, cioè un caso potrebbe essere un caso assolutamente reale. E
+80:23 un'antenna disadattata che ha un Ross di 3, ovvero che mi riflette indietro il
+80:30 25% della potenza eh che gli viene fornita.
+80:37 Quindi se io faccio la misura del Ross lato antenna, il mio accoppiatore
+80:42 direzionale e la faccio anche con uno strumento professionale, il mio accoppiatore direzionale leggerà 63 W
+80:50 diretti perché i 100 W del trasmettitore che passano attraverso il cavo che aten
+80:57 2 dB diventano 63 W all'antenna. l'antenna ne riflette il 25%,
+81:04 quindi la potenza riflessa sarà 16 W. Se voi mettete questi due valori in questa
+81:11 formulina e fate il conto, il ross è 3 e infatti lo strumento qui mi dirà ross 3.
+81:19 Ma se nelle stesse esatte condizioni io lo strumento lo metto da quest'altra
+81:25 parte, cioè il lato trasmettitore, lo strumento verrà una potenza diretta
+81:30 di 100 W e sono quelli erogati dal trasmettitore che diventano 63
+81:36 all'antenna. L'antenna ne riflette 16 indietro perché è 25%.
+81:44 Questi 16 percorrono il cavo a rovescio e subiscono i due db di attenuazione
+81:49 diventano 10. In questo caso lo strumento vedrà potenza diretta 100,
+81:55 potenza riflessa 10. Lo mettete in questa formula e il Ross letto sarà 1,9.
+82:02 Quindi la misura fatta qui mi dice bah sì un po' di Ross ma non è enorme 1,9
+82:09 mentre in realtà sull'antenna il Ross è 3. Poi tenete conto del fatto che se
+82:17 questo è il valore di attenuazione nominale del cavo, probabilmente le cose
+82:23 saranno ancora peggiori perché come vi ho detto il cavo in regime di onde
+82:28 stazionarie avrà un'atenuazione maggiore rispetto a quella nominale.
+82:35 Poi, se interessa, ci sono tabelle grafici per che che ci possono dire di
+82:42 quanto aumenta l'attenuazione di un cavo in funzione del del Ross. Però già anche
+82:49 considerando il valore nominale vedete una differenza importante. il valore è
+82:56 3, ma quello che leggo misurandolo da questo lato è 1,9.
+83:03 Eh, come eh potete vedere qui, ho rimesso la la stessa formulina, non può
+83:10 che essere così perché lo strumento che vede 100 W, quindi non è un problema
+83:16 dello strumento in questo caso, 100 W di potenza diretta e 10 W di potenza
+83:22 riflessa, quindi il rapporto è circa il 10% e quindi siamo intorno a 1 a 1,9
+83:32 Oh, un'ultima cosa e poi diciamo abbiamo praticamente finito, quindi siamo in
+83:39 netto anticipo, ci possiamo eventualmente dedicare se necessario, a
+83:44 qualche approfondimento. Quando si parla di guadagno si fa generalmente
+83:51 riferimento o di attenuazione a rapporto tra due valori di potenza.
+83:58 Questo rapporto viene normalmente espresso con unità di misura che è il decibel. Io non so se nelle precedenti
+84:06 lezioni già vi è stato spiegato che cos'è il decibel come unità di misura.
+84:14 Ma poiché eh sia stasera e soprattutto le prossime sere quando parleremo delle
+84:21 antenne, il decibel, come dire, verrà nominato molto spesso, ho inserito un
+84:30 una slide con la definizione dell'unità di misura. Quindi la definizione del di
+84:35 questa unità di misura, cioè del decibel, ci dice che il valore eh in DB di un
+84:43 guadagno o un'attenuazione espresso, come ci dice la formula, 10
+84:51 volte il logaritmo del rapporto tra le potenze. Che cosa vuol dire? lo vediamo
+84:59 meglio con qualche esempio numerico. Sostanzialmente il decibel è una
+85:05 grandezza logaritmica, mentre il rapporto è una grandezza
+85:10 lineare. Quindi, se io ho un rapporto in potenza pari a due, cioè ho una potenza
+85:18 in uscita che è il doppio della potenza in ingresso, sono nel caso di un
+85:24 guadagno, ho guadagnato l'uscita superiore all'ingresso e un un rapporto
+85:30 di 2 equivale a 3db. Se il rapporto è pari a 4, cioè se la
+85:36 potenza in uscita è 4 volte la potenza in ingresso, i DB sono 6.
+85:44 Se il rapporto è 10, guarda caso qui coincide, sono 10. Se è 100 sono 20, se
+85:52 è 1000 sono 30. Quindi il valore di B sostanzialmente è una scala logaritmica
+85:58 dei rapporti in potenza. valori che sono speculari e negativi
+86:06 quando invece di un guadagno si tratta di un'attenzione, ovvero quando l'uscita
+86:11 è minore dell'ingresso. Quindi se io perdo metà della potenza perdo 3 dB.
+86:19 Se perdo 3/4 della potenza sono 6 dB. Se perdo eh
+86:27 10 volte la potenza sono -10 di B, un centimo 20, un millesimo 30. Quindi
+86:36 passare da IDB al rapporto reale eh richiede calcolo con
+86:44 questa formulina, però secondo me è sufficiente che impariate un paio di
+86:50 valori eh come dire notevoli che sono il 3dB che è il doppio, la metà, il 6 che è
+86:59 il quadruplo o il quarto, il 10 che è 10 volte o 1/ deo.
+87:05 Nelle domande d'esami qualche volta capiterà, ma sono conti che possono
+87:12 essere fatti con questi valori più o meno standard. Nessuno vi darà mai un valore strano che richieda di dover fare
+87:20 un calcolo utilizzando questa formula. Ecco, quello che è importante
+87:27 eh ricordare è che quando si parla di guadagno i valori sono positivi. Quando
+87:35 si parla di attenuazione i valori negativi. Qualcuno si potrebbe
+87:41 domandare ma perché complicarsi tanto la vita per per
+87:46 utilizzare una scala logaritmica di questo tipo? La
+87:52 spiegazione è abbastanza semplice. Il vantaggio che si ha esprimendo valori di
+87:57 guadagno di attzione in DB è data dal fatto che in una catena in cui ci siano
+88:04 più elementi che introducano guadagni o attenuazioni, pensate per esempio al caso in cui si
+88:12 voglia calcolare la potenza emessa da un'antenna che ha un certo guadagno,
+88:18 alimentato da un cavo che ha una certa perdita. Ecco, in questo caso i valori
+88:25 espressi in DB di attenuazione di guadagno possono essere semplicemente
+88:31 sommati tra loro per calcolare il
+88:36 complessivo. Quindi è l'utilizzo del
+88:43 DB per questo calcolo facilita la l'operazione. Quindi, ad esempio, per
+88:51 fare un dato numerico, supponiamo che io abbia un trasmettitore che eroga 100 W,
+88:57 un'antenna che mi guadagna 6 dB,
+89:03 un cavo che mi perde 3 dB. Quanta potenza effettivamente
+89:10 eroga l'antenna. Lo vedremo poi meglio la prossima lezione sulle antenne quando
+89:15 andremo a definire esattamente che cos'è l'RP. Comunque 100 W, 3 dB li perde il
+89:22 cavo, 6 li guadagna l'antenna. Abbiamo detto che l'attenuazione è negativa, quindi 6 - 3 per cui il guadagno
+89:32 complessivo dell'insieme cavo e antenna sono 3 dB. 6 della di guadagno dell'antenna meno i
+89:39 tre di perdita del cavo. Abbiamo visto che 3 dib vuol dire il doppio, quindi la
+89:45 nostra antenna, la potenza effettivamente erogata dalla nostra antenna saranno 200 W se il
+89:52 trasmettitore ne eroga 100.
+89:58 Eh, giusto un una precisazione, l'abbiamo l'avevo già detto all'inizio,
+90:05 il valore di attenuazione di un cavo dipende dalla frequenza e dalla lunghezza del cavo. Quindi il valore
+90:13 complessivo di attenuazione di una linea lunga un certo numero di metri può
+90:20 essere ottenuto moltiplicando il valore di attenuazione fornito dal
+90:26 costruttore.
+90:41 Abbiam perso Paolo. Eh sì, per eh mi sa di sì. Sai, aspetta. Eh,
+90:52 stavo cercando di O ha disattivato il microfono come l'altra volta. No, no, no, il microfono è attivo. Ah,
+90:60 sì, lo vedo. Lo vediamo. Eh, vediamo un attimo. Diamogli un attimo per vedere
+91:07 dalla lunghezza. Ma dipende anche dalla frequenza. Sì,
+91:13 e abbiamo perso l'ultimo minuto. Ah, perfetto,
+91:19 perfetto. Quindi, ma su questa slide eh, c Esatto, eravamo qui. Sì,
+91:25 sì, più o meno, più o meno, più o meno,
+91:31 diciamo, ripeti gli ultimi 60 secondi più o meno e e ci siamo e siamo sicuri. Allora, ma ma intanto mi
+91:40 adesso mi sentite regolarmente? Adesso sì, perfettamente. M allora stavo dicendo, tra l'altro,
+91:48 come dire, è l'ultima slide, quindi sembra quasi che sia stato un dispetto.
+91:53 Allora, il vantaggio di utilizzare il DB Comunità di misura è dato dal
+91:59 fatto che semplifica il calcolo di attimazione di guadagno complessivo in
+92:05 una catena dove ci siano più elementi che contribuiscono al guadagno o
+92:10 all'attenuazione. Perché in questo caso il calcolo è fatto
+92:15 semplicemente sommando tra loro con l'opportuno segno, cioè sommando o
+92:22 sottraendo i valori di guadagno rispettivamente o di attenuazione.
+92:27 Perché ho detto nella slide precedente l'attenuazione è sempre un valore negativo, mentre il guadagno è un valore
+92:35 positivo. E ho fatto l'esempio perché a volte una domanda di questo tipo può
+92:41 capitare e quello del calcolo della potenza effettivamente irradiata da un'antenna
+92:49 che ha un certo guadagno, ma che è alimentata da un cavo che ha una certa
+92:54 attenuazione. Quindi questo calcolo è molto semplice perché sommando con gli opportuni segni
+93:02 attenuazione guadagno io posso trovare come dire il guadagno, l'attenuazione
+93:09 complessiva dell'intero sistema e quindi semplicemente calcolare il rapporto tra
+93:16 le potenze. Facciamo un esempio banale, trasmettitore da 100 W, linea che perde
+93:24 3dB. Guadag antenna che guadagna 6 dB.
+93:30 Quanta potenza irradia l'antenna? 6 dB di guadagno dell'antenna - 3dB di
+93:38 attenuazione del cavo. Fanno 3dB. Abbiamo visto nella tabellina di prima
+93:44 che 3dB vuol dire il doppio della potenza, quindi 100 W diventano 200
+93:51 di effettivamente irradiati dall'antenna. Quindi questo è un conto che si fa
+93:58 semplicemente senza dover eh complicarsi troppo la vita. L'altra cosa che è bene
+94:06 ricordare perché nella domanda d'esame potrebbe esserci il trabocchetto che non
+94:11 vi viene data l'attenuazione effettiva della linea, ma vi viene dato il valore
+94:17 di attenuazione al metro del cavo e la lunghezza del cavo. Quindi è chiaro che
+94:23 per calcolare se il cavo attenua 0,2 dB a metro ed è lungo eh per dire eh 10 m o
+94:35 15 m, facciamo il caso 15 m 02 * 15 fa 3
+94:40 dB. L'altra cosa importante da sapere, non tanto per l'esame, ma quanto per voi
+94:47 se andate a a cercarvi il valore di attenuazione di un cavo, come dichiarato
+94:52 dal costruttore, che in genere troverete non un valore singolo, ma una tabella,
+94:59 perché l'attenuazione dipende dalla frequenza, l'avevamo detto all'inizio. Quindi l'attenuazione al
+95:06 metro del cavo. Se voi vi volete calcolare l'attenuazione della vostra linea dovete considerare il valore della
+95:13 frequenza a cui lo utilizzate. Per cui una stessa linea, per esempio nel caso che alimenti, antenne multibanda, avrà
+95:22 attenuazioni diverse a seconda della frequenza di utilizzo. Ma su questo argomento ci torneremo le prossime due
+95:30 serate quando parleremo delle antenne. Io stasera avrei finito qui, siamo un
+95:36 pochino in anticipo, quindi c'è spazio per domande, chiarimenti, curiosità e
+95:42 quant'altro. Fra l'altro mi prima di passare il
+95:50 abbiamo una mano alzata da parte di Marco. Paolo, se sei d'accordo, proietteremo le
+95:57 giuste risposte corrette perché abbiamo avuto abbiamo scoperto dov'era il problema. Eh,
+96:05 perfetto. Allora, eh, ok. Intanto mentre noi ci prepariamo c'è una una mano alzata da Marco.
+96:15 Vai Marco. Io ti parlo subito di cose molto reali.
+96:21 Posizionamento del rosmetro che non puoi andare sul tetto. Va bene,
+96:27 ci s andrà quando si metterà l'antenna giusta sul tetto. Eh, provvisoriamente
+96:34 ehm lo metteresti prima di un commutatore d'antenna o dopo il commutatore
+96:41 d'antenna? Cioè, quindi fra il commutatore d'antenna e l'apparecchio
+96:47 RTX o dopo il commutatore d'antenna sulla linea che va direttamente all'antenna.
+96:55 Allora, ti dovrei rispondere che è indifferente, nel senso perché qui si tratta di 20-30 cm. Eh,
+97:02 non è che Esatto, ma non tanto per la lunghezza, eh, quanto per un eventuale discorso
+97:11 legato all'attenuazione e all'adattamento, nel senso, se il
+97:16 commutatore, come io mi aspetto che sia, è un buon commutatore, cioè è idoneo a
+97:23 fare il suo lavoro alla frequenza in cui viene utilizzato, dovrebbe essere
+97:28 abbastanza ininfluente, nel senso che dovrebbe non introdurre né
+97:34 un'antenuazione né un disadattamento significativi. Magari può essere l'occasione per
+97:41 verificarlo misurando prima e dopo. Però, come vi ho detto, attenzione
+97:49 perché se siamo in presenza di valori di Ross, diciamo, limitati, molto bassi, in
+97:57 genere non ci sono problemi, altrimenti, come dire, se la misura non è fatta con
+98:04 uno strumento sufficientemente buono, diciamo così, a
+98:10 volte c'è il rischio di avere letture diverse,
+98:16 a seconda di dove si mette lo lo strumento, ma questo purtroppo per un
+98:23 deficit dello strumento, perché come vi ho detto all'inizio,
+98:28 il valore effettivo di Ross lungo una linea è costante, è sempre lo stesso. è
+98:34 il sistema di misura che io adotto e che, ripeto, gli strumenti di basso
+98:42 costo a volte non è proprio il massimo che può non leggere correttamente
+98:49 questo valore. Però qui diciamo siamo un pochino
+98:56 si parla sempre si passa si parla sempre per ora di 27 o borderline massimo 276
+99:04 27 quindi e il Ross va da 1 e1 e du rimane
+99:11 con Play l'adatti molto bene il Ross. Quindi, se siamo
+99:16 sufficientemente adattati, non mi porrei il problema, casomai
+99:23 mi porrei il problema dell'attuazione perché magari non sarà il caso tuo, ma
+99:30 mettiamo il caso che io sto usando anche a in 11 m che comunque è una frequenza
+99:36 relativamente bassa, ma per dire una discesa con l' RG58
+99:42 e magari siccome devo fare un sacco di giri ne uso magari una trentina o 40 m.
+99:49 No, ne sto usando. Ti dico subito, siccome sono abbastanza diretto, l'avevo preso 30, ma poi andando a stenderle
+99:56 sono a 12,20 m. Ma RG58? R58 perché c'avevo problemi con il
+100:04 passaggio. Allora e ora logicamente se si passa all'esame se cambia tipo cambierà minimo. Penso in
+100:12 un RG8. Direi direi di sì. Ora, eh,
+100:17 ma i metri son quelli, eh, meno 10 12 m. Se qualcuno ha le slide sottomano può
+100:24 andare a vedere la tabella di attenuazione. Eh,
+100:29 no, però qua in questa slide non c'è. Non c'era l' RG8, non c'era. No, no, ma non c'è perché ci vuole quella
+100:36 con con tutte le frequenze per vedere quant'è la l'attenuazione
+100:41 a a 30 MHz, però diciamo che su 10 m non
+100:48 dovrebbe essere un valore importante. ecco, fossero già stati 30 m,
+100:53 eh il rischio di di leggere un valore significativamente diverso, come vi ho
+101:00 fatto vedere nell'esempio nelle ultime slide, ci poteva stare. Eh
+101:08 e chiaramente salendo in frequenza questo problema diventa ancora più eh
+101:14 significativo. Quindi, comunque, il concetto è che
+101:19 quando si fa le misure, specialmente in alta frequenza, bisogna
+101:26 sempre avere un occhio a al sistema nel suo complesso, cioè
+101:33 quello che sto facendo, perché come vi ho detto proprio all'inizio delle slide di stasera,
+101:39 quando la lunghezza d'onda del segnale a cui stiamo lavorando
+101:45 non è trascurabile rispetto alle dimensioni del circuito sotto esame
+101:53 possono accadere delle cose strane o quantomeno che che
+102:01 sottovalutiamo. Quindi, per esempio, vi ho detto misurare il ross in cima e in fondo non
+102:07 è la stessa cosa. Vedremo meglio la prossima settimana, anzi fra due settimane, perché nella seconda parte
+102:15 delle antenne che le misure di impedenza sull'antenna farle con estrema con estrema cautela,
+102:22 perché si rischia spesso di prendere degli abbagli anche banalmente. Vi
+102:29 faccio un esempio e e che poi ritroverete nelle nelle slide della
+102:34 prossime settimane. Se io vado a farmi la taratura
+102:39 dell'antenna cercando con lo strumento
+102:46 eh che mi misura l'impedenza alla base del cavo, cercando di trovare il valore
+102:54 di impedenza puramente resistivo, nove volte su 10 rischio di prendere un
+103:02 abbaglio perché, come vi ho detto Se la linea, quindi il cavo, non ha una
+103:10 lunghezza elettrica pari a un multiplo intero di mezza lunghezza d'onda,
+103:17 il fatto che l'antenna abbia un'impedenza puramente resistiva, cosa
+103:24 che si verifica quand'è quando e qui vi anticipo un argomento che si verifica
+103:30 quando l'antenna è alla risonanza, che l'antenna presenterà un'impedenza puramente ente resistiva solo alla
+103:37 risonanza. Dall'altro capo del cavo, se c'è comunque disadattamento di impedenza,
+103:45 pensate un'antenna che è risonante, ma non è ma il valore di impedenza non è 50
+103:51 ohm, magari è 40 piuttosto che 30. Dall'altro capo io vedrò un valore di
+103:57 impedenza, uno che non è i 30 ohm dell'antenna come parte resistiva e due,
+104:05 molto più importante, che ha una componente induttiva o capacitiva a
+104:10 seconda della lunghezza del cavo. Questo può far pensare, dice, "Eh, non sono in risonanza perché ho una componente, per
+104:19 dire, induttiva e quindi devo accorciare un pochino l'antenna, no? errore è il
+104:25 cavo che ti fa vedere eh questa cosa perché non siamo perfettamente adattati.
+104:32 Quindi di questa cosa ne dobbiamo tenere eh conto. Siccome eh io dico purtroppo
+104:39 da una parte per fortuna da un'altra ormai circolano strumenti, come dire eh
+104:46 di facile reperibilità che permettono di far misure anche abbastanza facilmente.
+104:54 Poi però queste misure bisogna anche saperle correttamente
+104:59 interpretare perché sennò si rischia di prendere dei sonori abbagli.
+105:04 Paolo ce le spiegherà nella prossima volta, ma con le antenne multibanda, con
+105:11 bobine varie, le famose antenne multibanda che ti fanno 10 20 40 m,
+105:19 eh quelle è un po' più difficile trovarla risonanza. uno si basa più sui
+105:25 Ross con un buon apparecchio e spera di trovarlo bono o di averlo bono. Eh,
+105:33 penso sì, però ecco, ripeto, ci sono eh alcune
+105:39 cose che eh è è opportuno che come dire
+105:45 siano siano note proprio per evitare di commettere degli errori grossolani.
+105:50 Questo, tra l'altro, è uno dei motivi, non so se Paolo
+105:56 ve l'ha accennato, per il quale abbiamo deciso di ampliare la la le serate sulle
+106:02 antenne a due lezioni e ampliando un pochino oltre l'orizzonte
+106:10 delle semplici domande d'esame, gli argomenti da trattare proprio per
+106:16 fornire anche qualche informazione eh specifica in più che possa poi dare
+106:23 quel bagaglio di conoscenze minime che possa effettivamente
+106:29 perlomeno eh non dico farvi diventare tutti degli scienziati, ma magari
+106:36 evitare di commettere qualche errore banale. Questo tra l'altro
+106:42 su espressa richiesta dei vostri predecessori, quindi vi tedierò non una
+106:50 sera, ma ma due su argomenti anche che non saranno strettamente legati alle
+106:57 domande d'esame. Comunque mi sembra di vedere che ci sono altre altre mani alzate.
+107:03 Vai Claudio. Allora, buonasera. La mia domanda
+107:10 proprio sul praticone, io per non avendo anche lo spazio di,
+107:16 scusate, c'ho un po' di un po' di tosse, non potendo mettere un RG8, ho preso un
+107:23 RG8 mini e qui mi dà come caratteristiche la velocità di
+107:29 propagazione non è è scritta 82%. E 0,82. Sì,
+107:35 sì, sì. 62 e attenuazione su 50 MHz di 2,5 dB. Non mi sembra malaccio, essendo
+107:43 un pochino più grosso di un RG58, è molto più piccolo piccol, scusami l'attenuazione l'attenuazione hai detto
+107:51 su 50 mega mi dà 2,50 dB per 10 m No, 30 m.
+107:59 Ah, ecco, era quello che non mi tornava per quindi è strano. Sì, detto, non l'ho detto, non l'ho detto. Eh, è strano
+108:06 perché è una misura strana i 30 m, quindi per averla ai 10 m va divisa per
+108:11 3, quindi sono 08 circa 10 m. Non mi sembra un lancio,
+108:18 no? è un pochino peggio del del dell RG8 o meglio dell RG213,
+108:26 eh, quello che è più o meno la stessa cosa che però per le dimensioni c'è una
+108:32 cosa che dobbiamo tener conto la e la spia è quel 085
+108:39 di velocità di di propagazione fattore di velocità.
+108:44 Questo vuol dire che è un cavo con di elettrico spugnoso, non solido, per cui
+108:50 attenzione è un cavo delicato, ma è il motivo per il quale, pur essendo
+108:56 piccolo ha una buona attenuazione. Quindi anche in questo fare attenzione i
+109:03 eh vi ho detto all'inizio, no? i cavi da TV avrebbero in termini di attenuazione caratteristiche eccezionali, però quasi
+109:10 nessuno li utilizza in trasmissione per vari motivi, primo fra tutti sono più
+109:18 delicati e in questo caso, avendo un dielettrico spugnoso dobbiamo fare
+109:24 attenzione a non fargli fare eh pieghe ad esempio troppo marcate o a
+109:30 maneggiarlo con cura perché essendo non essendo compatto il dielettrico nella
+109:36 piegatura si potrebbe schiacciare e quindi alterare le caratteristiche.
+109:41 Sì, infatti ho visto che come dielettrico è un po' più morbido dell'Rg
+109:46 perché l' RG8 è rigidissimo, è quasi trasparente, sembra
+109:52 quelle plastiche che si fa con le a plastica eh a plastica fusa sembra uguale. Invece
+109:58 questo qui è più morbido, ma non morbido come quelli deiali d'antenna. È un una
+110:04 via di mezzo, ho notato, e però mi sono reso conto che è delicato perché si è si
+110:10 piega troppo facilmente, quindi sono stato attento a non fargli eh fare
+110:16 attenzione a non schiacciarlo, a non fargli l'omega, insomma, a non torcerlo e non schiacciarlo perché
+110:22 purtroppo il il lo scotto che si paga per il dielettrico spugnoso è questo.
+110:28 Infatti cavi professionali che utilizzano per motivi di attenuazione
+110:35 gli elettrici spugnosi, generalmente hanno il conduttore esterno che è un
+110:40 tubo di rame rigido, fra l'altro anellato, non so se vi è mai capitato di
+110:46 vederli, hanno un tubo di rame un tubo di rame corrugato proprio per evitare la
+110:53 possibilità che venga schiacciato o che si schiacci nelle nelle piegature.
+110:59 Questo ho notato di questo RG8 mini che rispetto RG58 il centrale non è il
+111:06 doppio ma quasi. Sì, anche questo, secondo me, è positivo. Sì, questo è
+111:11 legato al fatto che essendo diversa la è quello che che dicevo all'inizio, l'impedenza è data dal rapporto tra le
+111:18 dimensioni dei due conduttori in base alle caratteristiche del dielettrico, quindi dielettrico spugnoso con una
+111:26 costante di elettrica, quindi con un rore, per avere la stessa impedenza, il
+111:33 il rapporto diametro esterno diametro interno è sicuramente diverso rispetto a
+111:38 un cavo con di elettrico compatto? No, no, sono sicuramente validi,
+111:44 specialmente per frequenze elevate, però abbiamo fare attenzione a maneggiarli.
+111:49 Perfetto, grazie. Vai David, a te.
+111:56 Sì, grazie. C'è una domanda veloce, anche se tanto verrà svolta nelle prossime lezioni, quindi quando magari
+112:02 si prende le famose misure di cui si parlava prima, tipo rapporto d'onda stazionario rosso o quant'altro, è
+112:09 sempre meglio prenderlo alla base dell'antenna per capire il reale funzionamento, quindi escludendo,
+112:16 diciamo, il tratto di linea di trasmissione, in questo caso formato dal cavo passiale,
+112:21 potendolo fare, sì, certo, potendolo fare, sì, è ovvio che non è eh
+112:27 comodissimo ora. E è vero che stanno cominciando a
+112:34 circolare? Io pensavo infatti, scusa se interrompo, col nano VNA, tipo un analizzatore vettoriale di rete, una
+112:40 cosa del genere e non non mi riferivo tanto tanto a
+112:45 quello quanto al fatto che esistono anche degli accoppiatori direzionali con
+112:50 interfaccia wireless, quindi io metto l'accoppiatore direzionale sulla poi lo
+112:55 strumento giù da basso faccio la lettura. Eh, col VNA si apre un altro
+113:00 scenario. Mh, magari ne parliamo.
+113:06 Hanno calibrati nel modo corretto. Esatto. Infatti io l'ho in parte
+113:12 implicitamente accennato quando ho detto che quantomeno sarebbe necessario conoscere
+113:19 esattamente le caratteristiche della linea, quindi la lunghezza del cavo e
+113:25 quant'altro, perché a quel punto con un VNA io posso in qualche modo far
+113:34 conto allo strumento del di quello che succede dovrebbe essere lo moltiplichi
+113:39 per un certo tipo di valore, eh, in base alla lunghezza della linea di trasmissione e in questo modo dovrebbe
+113:46 fare un calcolo non preciso, ma un po' più approssimativo, però, cioè, se escludo proprio il cavo e vado
+113:52 direttamente in misurazione sull'antenna, a quel punto se lo strumento è tarato nel modo corretto
+113:58 dovrebbe dare il valore di Ross. ci sarà solo il problema di posizionare l'antenna nel modo corretto, perché
+114:04 magari uno inizialmente la posiziona su un palo volante per vedere, perché poi m
+114:11 no, perché lo vedremo bene la prossima settimana, eh la posizione dell'antenna
+114:17 è quasi è quasi più importante dell'antenna stessa. Eh, so sì,
+114:23 quindi quello quello e per quello che dicevo andrebbe fatta sull'antenna,
+114:30 ma questo ovviamente o usi un dispositivo wireless, come ti dicevo,
+114:35 oppure sei un un arrampicatore che ama il correre i rischi, oppure, molto più
+114:42 semplicemente, quello che mi sentirei di consigliare è di avere uno spezzone di
+114:48 cavo calibrato, poi magari ci mettiamo d'accordo su questo che cosa
+114:54 vuol dire quindi di caratteristiche note con cui faccio
+114:60 le misure. Io ho tentato di farlo con un cavo RG58 di 30 cm, sotto i 30 cm massimo per
+115:07 creare meno problemi possibile. Eh mh, diciamo questo va bene,
+115:13 ovviamente i 30 cm e poi vanno riferiti alla lunghezza d'onda, però ecco, nel
+115:19 caso dell'antenna eh se la misura deve essere fatta con l'antenna posizionata
+115:25 dove deve stare eh e certo. Eh sì, quello perché le cose possono cambiare
+115:32 significativamente, è quello il problema. Grazie.
+115:38 Vai Marco, vai Marco. Allora, no, un consiglio eventualmente
+115:45 chi non lo sa, un sito molto ferrato sui cavi, io lo uso, è Messi Paoloni che usa
+115:52 cavi di altissima qualità, niente a che vedere col 58, con il 213, con l'8. Sono
+116:01 cavi l'Ultraf che sono da 7 mm, da 10 mm, da 13 mm.
+116:08 Quindi ecco, magari m non stare a lesinare comprando un 58, ma magari
+116:13 anche un 7 mmflex che in ogni cavo c'è le specifiche, le
+116:19 attenuazioni sulle frequenze e sono fatti veramente bene.
+116:26 Ho finiti. Bene, grazie. per il consiglio. Paolo, in questo
+116:34 momento non ci sono più mani alzate. Io chiederei a Alessio se ci condivide le
+116:40 domande, le risposte corrette.
+116:46 Le condivido molto volentieri, ma l'errore è un errore molto banale,
+116:54 ovvero, mi spiego meglio, eh è un errore di indice e nella versione che avete
+116:60 ricevuto voi è l'alfabeto, passatemi il termine, italiano. E quindi l'ultima
+117:05 domanda, come vedete, è la lettera Q, mentre quello in possesso inviato da me
+117:12 a Paolo è quello con la J e la K. Quindi
+117:18 ecco la spiegazione era solo il problema, diciamo, da questo punto in poi come indicizzazione. Per
+117:26 tutto il resto le domande e le risposte sono perfettamente uguali.
+117:32 Non mettevo in dubbio, c'era una traslazione di domande, una traslazione. Bravo, perfetto. Quindi io, Paolo, se
+117:39 vuoi, giusto per eh chiarezza, se vuoi, quindi la N mi sembra di capire la N
+117:47 quando la ionosfera sopra una certa area della superficie terrestre è meno ionizzata, quindi non sono caduti su
+117:56 quella che io pensavo essere la N che avevo io. Avete mantardo, sono stati più bravi di quanto
+118:03 avrei ipotizzato, ma l'errore è è su questo e qui
+118:09 probabilmente, forse anche qui non era una delle ultime slide dell'altra
+118:16 dell'altra lezione in cui si parlava della
+118:22 dipendenza del livello di ionizzazione in funzione dell'alternanza giorno notte.
+118:29 Quindi eh quand'è che la ionosfera su una certa area è meno ionizzata?
+118:37 Se vi ricordate, io vi ho detto gli strati sono tre, di cui due sono quelli
+118:44 utili alla propagazione. Il D è solo negativo, il D è presente solo di giorno
+118:51 e e F eh sono quelli che ci permettono le riflessioni. Anche l'F scompare
+118:59 durante la notte, rimane solo, scusate, lo strato E scompare durante la notte,
+119:05 rimane solo lo strato F che presente sia di giorno che di notte, ma eh di notte
+119:17 eh il lo strato F eh che durante il
+119:23 giorno è diviso in due sottostrati F1 e F2 collassa in un unico strato con un
+119:29 livello diizzazione minore che è eh decrescente di notte. Quindi, se poi
+119:37 andate a vedere anche quella mappa che avevo pubblicato, il livello di
+119:44 ionizzazione dello strato F, che è l'unico dei tre che rimane presente
+119:50 anche di notte, diminuisce eh lentamente durante la notte, quindi
+119:57 il livello minimo si raggiunge poco prima dell'alba, perché poi all'alba di
+120:03 di fatto che cosa succede? la nuova radiazione solare fa di nuovo aumentare il livello di ionizzazione.
+120:11 Quindi qui non vi chiedeva qual era lo strato, ma giusto come ripasso, ripeto,
+120:18 è solo lo strato F che rimane presente anche durante la notte e il livello di
+120:23 ionizzazione minimo si raggiunge poco prima dell'alba, mentre subito dopo il
+120:30 tramonto lo strato F mantiene ancora per un po' di tempo gli stessi livelli che
+120:37 ha durante il giorno. Infatti, se vi ricordate, ho parlato di Grey Line, cioè
+120:42 della zona di confine tra il giorno e la notte come una delle condizioni più favorevoli.
+120:50 Quindi per il resto, l'altra domanda invece eh era la e, quindi mi sembra
+120:56 confermata quella che avevamo già detto all'inizio. Confermo perché il problema sta proprio
+121:03 eh Eccolo qua. Questo era quello e diciamo che avevi te Paolo e qui dalla
+121:11 J in poi cambia e il riferimento, però solo il riferimento.
+121:17 Perfetto. Allora, magari mi do un'occhiata anche a quelli della prossima settimana per tante volte ci
+121:24 fosse lo stesso problema. Ok. Fabrizio, ce le mandi tutte, vero?
+121:29 Queste risposte poi? Sì, sì, sì, sì. Ve la rimando, ve le rimandiamo. E vi mando
+121:35 questa che è in linea con quello che vi ho mandato come domanda. Sì. In inoltre, fra l'altro, Paolo,
+121:42 anche il il nuovo documento con l'indice corretto in modo che
+121:48 eh per qualunque necessità il documento aggiornato e ovviamente a tutti voi
+121:55 riceverete il documento con l'indice corretto, quindi nessun nessun problema.
+122:00 E le altre delle le prossime lezioni da una prima
+122:06 occhiata veloce sembra tutto in linea. Comunque Paolo, perfetto. Fai pure le le verifiche del caso.
+122:14 Meglio così. Io se c'è un secondo dovevo un una correzione, una domanda che
+122:22 domanda diciamo non era una vera e propria domanda che non è stata fatta la la volta scorsa
+122:29 relativamente al troppo scatter e non mi ricordo qualcuno m'aveva
+122:35 chiesto del della Io perché era andato a vedere dei ponti
+122:40 della Troposcatter quello sui giovi. Ecco, allora, ho ritrovato quel
+122:46 documento che ti che ti avevo accennato. Vediamo se se riesco te lo faccio anche
+122:56 vedere. Allora, eccolo qui.
+123:01 Eccolo qua. Allora, avevo detto no, non l'ha preso.
+123:11 Condividi finestra
+123:18 perché Ah, no, forse c'è la condivisione ancora attiva di Alessio.
+123:25 No, no, no, non dovrebbe essere. attiva quella di Alessio. Provo riprova un po' Paolo, per favore.
+123:32 Allora, riprovo. Probabilmente è un piccolo ritardo di
+123:37 linea. Paolo,
+123:44 va bene. Comunque poca importanza, nel senso mi hai richiesto della frequenza,
+123:49 sono andato a vedere eh la rete e diciamo quella che passava
+123:55 per Coltano, per capirsi. del dell'USAF utilizzava sistemi a 800 e
+124:01 a 400 MHz con potenze da 1 a 10 kW.
+124:09 Non male. Quindi 400 me le tratte sul mare, 800 me
+124:15 le tratte su terra e in funzione della lunghezza delle
+124:21 tratte. In quella in questo disegnino, se riuscivo a fartelo vedere, c'era anche proprio tutta il disegno della rete con potenze da 1 a 10 kW, sistemi
+124:31 multicanale eh 100 canali. Questa era la rete USAF
+124:39 nato che è stata che l'impianto di Coltano è stato attivato nel 63 e
+124:47 smantellato alla fine degli anni 80. Sì, sì. Insieme a tutto il resto che
+124:53 arrivava fino a Creta, faceva Grecia, Turchia, tutto l'ambito nato, andava su
+124:58 fino alla Norvegia. Sì, sì. Infatti, se se riuscivo a fare la condivisione
+125:04 ve lo facevo vedere, ma eh non capisco per quale motivo non ne voglia sapere,
+125:09 ma penso che si sia inceppato qualcosa. Va bene, magari sai cosa Paolo? Se lo
+125:17 mandi o a me o a Alessio, poi lo possiamo pubblicare sul gruppo Telegram, giusto per per avere un po' di cultura
+125:25 generale. Sì, sì, sì, sì, sì. Ok. Scusate se vi interrompo, devo
+125:32 staccare. Vi saluto tutti. Anch'io. Buonanotte. Ciao. Buonanotte, signori.
+125:38 Interrompo, interrompo la registrazione da adesso. Eh, va bene. Buonanotte. Buonanotteci.
+125:44 Ok. Fabricia.

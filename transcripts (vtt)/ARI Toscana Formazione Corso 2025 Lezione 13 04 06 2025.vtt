@@ -1,0 +1,4525 @@
+WEBVTT
+
+1
+00:00:03.240 --> 00:00:10.519
+Eccola qua. Perfetta, perfetta. Allora, metto in condivisione lo schermo e vi faccio
+
+2
+00:00:10.519 --> 00:00:18.760
+vedere come siete andati un i quiz della lezione
+
+3
+00:00:18.760 --> 00:00:25.160
+precedente. Eccola qua. Un attimo solo, scusate che tac tac tac.
+
+4
+00:00:25.160 --> 00:00:31.560
+Allora, ora si comincia a entrare nella parte radio, quindi su qualche cosa c'è da fare un po' di ragionamenti, però
+
+5
+00:00:31.560 --> 00:00:37.760
+avete visto che non ci sono praticamente più formule, eh, siete andati piuttosto
+
+6
+00:00:37.760 --> 00:00:44.520
+bene la tranne la domanda H, la domanda H proprio calciato. Mh, e la domanda F
+
+7
+00:00:44.520 --> 00:00:49.600
+anche. Adesso vediamo tutte le risposte. Comunque l'andamento è buono, eh, ricordando che la soglia di successo è
+
+8
+00:00:49.600 --> 00:00:58.039
+il 60%, qui di fatto le domande sono tutte attorno all'80%, qualcuno al 100%,
+
+9
+00:00:58.039 --> 00:01:04.280
+quindi ci possiamo tranquillamente ritenere soddisfatti. Allora, le
+
+10
+00:01:04.280 --> 00:01:09.479
+risposte, ecco, eccole qua. Forse c'è anche un po' troppo zoom.
+
+11
+00:01:09.479 --> 00:01:18.080
+Va bene. Si vede il mio video? Sì, Paolo, benissimo. Ok, va bene.
+
+12
+00:01:18.080 --> 00:01:26.520
+Allora, cominciamo. Quindi, prima domanda, da quante giunzioni è formato un transistor bipolare? due naturalmente
+
+13
+00:01:26.520 --> 00:01:32.520
+perché una una è una giunzione ce l'ha un altro componente elettronico, il
+
+14
+00:01:32.520 --> 00:01:37.640
+diodo. Il diodo ha una parte, una parte n che sono unite insieme con una
+
+15
+00:01:37.640 --> 00:01:44.479
+giunzione in un transistor di pezzettini, diciamo, di silicio ce ne sono tre, Pnp, NPN, per cui le giunzioni
+
+16
+00:01:44.479 --> 00:01:52.200
+per attaccare insieme questi tre pezzetti sono due. Ok? La tre è è manifestamente sbagliata. Allora, B.
+
+17
+00:01:52.200 --> 00:01:58.240
+Com'è l'impedenza di ingresso di un FET paragonata a quella di un transistor? Ricordate che il FET è il transistor a
+
+18
+00:01:58.240 --> 00:02:04.759
+effetto di campo, field effect transistor, che è il famoso transistor
+
+19
+00:02:04.759 --> 00:02:12.360
+che si pilota eh in tensione e non in corrente. Si era detto nella lezione che
+
+20
+00:02:12.360 --> 00:02:19.319
+i i transistor normali, quelli aggiunzione, gli NPN o i PNP, vengono pilotati iniettando corrente nella loro
+
+21
+00:02:19.319 --> 00:02:25.599
+base. Quindi un transistor ha un'impedenza di ingresso abbastanza bassa per forza, perché la base deve
+
+22
+00:02:25.599 --> 00:02:33.599
+assorbire corrente, per cui l'impadenza di ingresso non può essere alta, no? la corrente deve passare. Il fet invece ehm
+
+23
+00:02:33.599 --> 00:02:40.319
+a a quella configurazione particolare che avevamo visto nella nella lezione che dove il terminale di controllo, il
+
+24
+00:02:40.319 --> 00:02:45.480
+gate, il terminale che controlla la corrente che scorre il fet, in realtà
+
+25
+00:02:45.480 --> 00:02:52.440
+ehm varia la polarizzazione di una giunzione che è sempre polarizzata inversamente. Quindi un FET non ha mai
+
+26
+00:02:52.440 --> 00:02:58.519
+corrente di ingresso, per questo la sua impedenza di ingresso è alta, la risposta giusta è la uno. Quindi il
+
+27
+00:02:58.519 --> 00:03:03.720
+fetta è in pedenza di ingresso alta, il transistor ce l'ha bassa, bassa,
+
+28
+00:03:03.720 --> 00:03:11.000
+media. Domanda tre. Quale fra seguenti componenti non è un transistor? Ovviamente la tre, lo zener. Lo zener è
+
+29
+00:03:11.000 --> 00:03:17.159
+un diodo. Domanda di quale delle seguenti affermazioni è falsa per un transistor
+
+30
+00:03:17.159 --> 00:03:22.239
+bipolare? L'impezza di ingresso è estremamente elevata, come abbiamo appena detto, no? Per un transistor
+
+31
+00:03:22.239 --> 00:03:30.319
+bipolare l'impedenza di ingresso al massimo è media, medio alta. Mh. Eh, invece la due è giusta, cioè la
+
+32
+00:03:30.319 --> 00:03:36.560
+corrente di emettitore è circa uguale a quella di collettore e anche la tre è giusta. La corrente di collettore è
+
+33
+00:03:36.560 --> 00:03:43.959
+molto maggiore di quella base di quella di base, è molto maggiore anche di 100-150 V, no? Che è il famoso beta, il
+
+34
+00:03:43.959 --> 00:03:50.400
+coefficiente d'amplificazione di transistor. Domanda è: quale componente può essere usato per amplificare piccoli
+
+35
+00:03:50.400 --> 00:03:57.480
+segnali, ma necessita di tensioni elevate la valvola termoionica? Perché il chiaramente il condensatore
+
+36
+00:03:57.480 --> 00:04:03.159
+elettrolitico non amplifica un bel niente sbagliato. Il transistor amplifica, ma gli bastano pochi volt per
+
+37
+00:04:03.159 --> 00:04:12.439
+poter lavorare. La valotervoionica invece è bisogno di tensioni più alte del tipo 50 100 V e e così e così a
+
+38
+00:04:12.439 --> 00:04:17.560
+salire. Domanda F. L'impotenza di ingresso di un amplificatore come bene
+
+39
+00:04:17.560 --> 00:04:24.240
+che sia, alta o bassa? E allora un amplificatore riceve il segnale da amplificare da qualcuno, no? da uno
+
+40
+00:04:24.240 --> 00:04:29.919
+stadio che sta a monte e l'obiettivo potrebbe essere appunto non caricare
+
+41
+00:04:29.919 --> 00:04:35.680
+eccessivamente lo stadio a monte, cioè mi attacco a chi mi dà il segnale, ma
+
+42
+00:04:35.680 --> 00:04:41.600
+cerco di disturbare il meno possibile appunto lo stadio che mi dà il segnale. E questo è il motivo per cui è bene che
+
+43
+00:04:41.600 --> 00:04:48.160
+l'impedenza di ingresso di un transistor, di un amplificatore sia alta per non caricare eccessivamente lo
+
+44
+00:04:48.160 --> 00:04:55.800
+stadio a monte. Chiaramente non lo stadio a valle, perché qui si sta parlando di impedenza di ingresso, no?
+
+45
+00:04:55.800 --> 00:05:02.320
+Quindi l'ingresso non non vede lo stadio a valle e l'attenzione dei disturbi è la terza risposta
+
+46
+00:05:02.320 --> 00:05:09.400
+manifestamente sballata che c'è in moltissime domande, no, che dove c'è una risposta che è sempre proprio di fuori.
+
+47
+00:05:09.400 --> 00:05:16.160
+Domanda G, quanti terminiali il transistor? Tre base collettore emettitore. Domanda H. Eccoci qua.
+
+48
+00:05:16.160 --> 00:05:25.800
+L'impedenza di ingresso di un amplificatore a emettitore comune è media. Media. Emettitore comune è eh è
+
+49
+00:05:25.800 --> 00:05:33.039
+lo schema di amplificatore dove il segnale entra in base ed esce dal collettore e in questa situazione
+
+50
+00:05:33.039 --> 00:05:39.160
+l'impedenza è media. L'unico tipo di amplificatore a transistor che ha un'impedenza di uscita un po' più alta è
+
+51
+00:05:39.160 --> 00:05:44.680
+quella collettore comune, quello che funziona da buffer, come avevamo detto nella nella
+
+52
+00:05:44.680 --> 00:05:49.960
+lezione. Poi si entra nella zona valvole dove siete andati più che bene. Domanda
+
+53
+00:05:49.960 --> 00:05:55.479
+I a cosa serve il filamento? A scaldare il catodo, perché scaldandolo il catodo mette gli elettroni. Chiaramente il
+
+54
+00:05:55.479 --> 00:06:02.600
+filamento non scalda la placa e il filamento non raffredda, no? Il filamento scalda. Un tetrodro tetrodo
+
+55
+00:06:02.600 --> 00:06:10.000
+quante griglie ha? due, la griglia controllo e la griglia schermo. A cosa serve l'elettrodo
+
+56
+00:06:10.000 --> 00:06:16.520
+soppressore del pentodo? Quindi in pratica la terza griglia, perché un pentodo, ricordate, no? anodato e tre
+
+57
+00:06:16.520 --> 00:06:22.120
+griglie e l'elettrodosoppressore serve a sopprimere la corrente inversa da placca
+
+58
+00:06:22.120 --> 00:06:27.479
+a schermo perché in un tetodo l'accelerazione che gli
+
+59
+00:06:27.479 --> 00:06:32.639
+elettroni eh che escono dal catodo, la l'accelerazione che ricevono, gli
+
+60
+00:06:32.639 --> 00:06:39.080
+elettroni che escono dal catodo e sono attirati dalla placca, l'accelerazione è molto alta per effetto della eh per
+
+61
+00:06:39.080 --> 00:06:45.520
+effetto della griglia schermo. è così alta che quando gli elettroni arrivano e colpiscono l'anodo riescono a far
+
+62
+00:06:45.520 --> 00:06:52.120
+emergere, a far schizzar fuori dall'anodo degli elettroni che sono chiamati secondari e questa e questi
+
+63
+00:06:52.120 --> 00:06:59.479
+elettroni portano a una distorsione nell'amplificazione. La griglia soppressore è è finalizzata a risolvere
+
+64
+00:06:59.479 --> 00:07:06.319
+questo problema, quindi sopprime la corrente inversa a placca schermo. In un tetrodo lo schermo a cosa serve? a
+
+65
+00:07:06.319 --> 00:07:12.560
+diminuire la capacità parassiva parassita tra grillianodo. Quindi il tetrodo è più stabile, è più difficile
+
+66
+00:07:12.560 --> 00:07:18.840
+che entri in oscillazione da solo. A cosa serve? Domanda o la griglia
+
+67
+00:07:18.840 --> 00:07:24.800
+controllo. La griglia controllo in tutti i tipi di valvole è la griglia che controlla la corrente che scorre fra
+
+68
+00:07:24.800 --> 00:07:31.599
+catodo e anodo. Quindi eccola qua la risposta corretta. controlla la corrente che scorre fra anodo e catodo, non
+
+69
+00:07:31.599 --> 00:07:38.840
+controlla la capacità e non blocca lo scorrimento di corrente perché il vero uso è regolare il flusso di corrente,
+
+70
+00:07:38.840 --> 00:07:46.039
+quindi ottenere l'amplificazione. In una valvola riscaldamento indiretto. Domanda
+
+71
+00:07:46.039 --> 00:07:51.840
+P. Il filamento è racchiuso entro un catodo, quindi il filamento raffredda il
+
+72
+00:07:51.840 --> 00:07:58.199
+catodo è sbagliatissima perché la valvola ha bisogno di calore e il catodo
+
+73
+00:07:58.199 --> 00:08:04.759
+non è collegato alla griglia e però il filamento è racchiuso dentro un catodo e il catodo è fatto di un materiale
+
+74
+00:08:04.759 --> 00:08:09.800
+particolare che ha un'alta emissività, come si era detto, no? Quindi il filamento lo riscalda e il filamento è
+
+75
+00:08:09.800 --> 00:08:16.240
+fatto apposta per diventare incandescente senza rompersi. scalda il catodo che è fatto apposta per emettere
+
+76
+00:08:16.240 --> 00:08:23.400
+elettroni, quindi sono proprio due materiali diversi, ognuno dei quali ha la sua specificità. Infine, domanda Q. Il
+
+77
+00:08:23.400 --> 00:08:31.199
+pentodo, oltre ai due elettrodi del filamento, quanti elettrodi ha? cinque, anodo, catodo e le griglie,
+
+78
+00:08:31.199 --> 00:08:37.959
+griglia controllo, griglia soppressore e griglia schermo. E queste sono le le risposte
+
+79
+00:08:37.959 --> 00:08:43.279
+corrette che come al solito vi invieremo. Allora, se ci sono domande se
+
+80
+00:08:43.279 --> 00:08:51.279
+ne può parlare volentieri qualche minuto. Luigi, a te. Sì, nell'ultima nell'ultima domanda m
+
+81
+00:08:51.279 --> 00:08:56.680
+cioè oltre riferimento oltre e qui io ho
+
+82
+00:08:56.680 --> 00:09:04.120
+risposto tre perché oltre ai due leti
+
+83
+00:09:04.160 --> 00:09:11.920
+eh ho risposto tre invece che cinque. Esatto. Esatto. Rimetto in condivisione
+
+84
+00:09:11.920 --> 00:09:18.720
+lo schermo e recupero. No, c Sì, ce l'ho sott'occhio la la cosa
+
+85
+00:09:18.720 --> 00:09:25.399
+il pentolo. Vengono inseriti elettroditrill soppress personali. Ah, sì, sì, sì. No, sta
+
+86
+00:09:25.399 --> 00:09:33.399
+Sì, stavo cercando le slide della lezione precedente. Sì, sto sotto. Vuoi
+
+87
+00:09:33.399 --> 00:09:39.839
+permett? Beh, beh, le posso prendere anche da qua. Un attimo solo. Secondo me non
+
+88
+00:09:39.839 --> 00:09:44.920
+tiene conto dei due de filamento. Esatto, esatto. Eh, io la sapevo questo.
+
+89
+00:09:44.920 --> 00:09:50.480
+Questo Eccola qua. Un attimo solo che tra bocchetto la la domanda. Sì. E ce ne
+
+90
+00:09:50.480 --> 00:09:58.040
+sono parecchie ce ne possono essere parecchi nello stile di domande del ministero. Un attimo che ci si arriva.
+
+91
+00:09:58.040 --> 00:10:04.640
+Volevo arrivare. Eccole qui l'ultimo. Le valvole. Ecco, e questo e questo è il
+
+92
+00:10:04.640 --> 00:10:10.720
+pentodo. Allora, il pendento, se si contano tutti i i
+
+93
+00:10:10.720 --> 00:10:16.360
+terminali che che che ha tutti i terminali esterni che ha, sono sette in
+
+94
+00:10:16.360 --> 00:10:22.880
+tutto parto dal basso, ci sono i due terminali del filamento che sono questi
+
+95
+00:10:22.880 --> 00:10:29.560
+qua, due. Ok? Poi andando a salire c'è il catodo, poi c'è la griglia di
+
+96
+00:10:29.560 --> 00:10:35.959
+controllo e siamo a quattro. C'è la griglia schermo e stiamo a cinque. C'è la griglia soppressore e siamo a sei. E
+
+97
+00:10:35.959 --> 00:10:42.639
+c'è l'anodo che è l'ultimo che siamo a sette. Quindi in tutto da un pentodo
+
+98
+00:10:42.639 --> 00:10:49.360
+escono sette fili, diciamo, no? Dal bulbo di vetro della valvola escono sette terminali. Se da questi sette si
+
+99
+00:10:49.360 --> 00:10:55.279
+toglie il filamento, ne restano cinque. Perfetto. Che sono i che sono i terminali veramente attivi, quindi il
+
+100
+00:10:55.279 --> 00:11:01.279
+catodo, le tre griglie e l'anodo. Ok. Sì, sì. Ok, è un mero conteggio, ma non
+
+101
+00:11:01.279 --> 00:11:08.160
+so, ero stanco forse. Ok, grazie. Ma eh diciamo che alcune domande del Ministero
+
+102
+00:11:08.160 --> 00:11:15.600
+sembrano fatte apposta per vanno lette molto a mente fredda in effetti. E ma ce n'è un'altra così
+
+103
+00:11:15.600 --> 00:11:21.160
+pure che domanda quanti sono gli elettrodi. Qui dice più i due, ma ce n'è
+
+104
+00:11:21.160 --> 00:11:29.240
+un altro che dice quanti sono gli elettrodi del del pento. Dunque bisogna dire cinque.
+
+105
+00:11:30.160 --> 00:11:37.200
+Eh se Sì, se se le ha risposte c'è cinque sono cinque. Sì.
+
+106
+00:11:37.200 --> 00:11:43.399
+elettri della valvola per il ce n'è una secca che dice quanto sono
+
+107
+00:11:43.399 --> 00:11:50.160
+gli elettrodi. Invece qui dice i due del fil due più i 5. Dunque il totale dovrebbero essere
+
+108
+00:11:50.160 --> 00:11:56.000
+sette, però sono due domande, ma sempre con la risposta cinque. Eh sì, perché a
+
+109
+00:11:56.000 --> 00:12:01.160
+volte a volte a volte una parte delle domande sono un pochino
+
+110
+00:12:01.160 --> 00:12:07.600
+mh rese volutamente un po' strane, diciamo così. Bisogna ragionarci un po' sopra. Sempre
+
+111
+00:12:07.600 --> 00:12:14.399
+vanno lette a mente fredde, bisogna ragionarci sopra. Marco, a
+
+112
+00:12:14.399 --> 00:12:21.760
+te. Io ho due cose. Quelle domande su sui transistor del sulle
+
+113
+00:12:21.760 --> 00:12:27.040
+impedenze estremamente elevata. Dimmi se il ragionamento è giusto. Io ci
+
+114
+00:12:27.040 --> 00:12:32.360
+sono arrivato attraverso il il ragionamento di quella formula
+
+115
+00:12:32.360 --> 00:12:38.560
+famosa. Può essere mh quale formula è? Eh, la stavo
+
+116
+00:12:38.560 --> 00:12:44.320
+ricercando perché io le ho fatte e come al solito poi ci vai su alcuni discorsi
+
+117
+00:12:44.320 --> 00:12:51.399
+ci vai in automatico. M Sì, sì. Mentre ci pensi, mentre ci pensi vi
+
+118
+00:12:51.399 --> 00:12:57.839
+faccio vedere una cosa. Ecco, a parte questo, ecco, questo serve molto, ve lo
+
+119
+00:12:57.839 --> 00:13:03.800
+posso almeno la parte è basilare.
+
+120
+00:13:04.079 --> 00:13:09.720
+Esattamente, esattamente. Vedi emettitore comune. Emettitore comune.
+
+121
+00:13:09.720 --> 00:13:15.040
+Impetenza d'entrata medio bassa. Sì, questo inganna, eh, medio bassa,
+
+122
+00:13:15.040 --> 00:13:21.279
+perché nella risposta è media. Io ho segnato media, per esempio, però uno è tentato a volte a scrivere bassa,
+
+123
+00:13:21.279 --> 00:13:26.920
+capito? Eh sì, cioè effettivamente passa, ma
+
+124
+00:13:26.920 --> 00:13:34.000
+mediassa eccetera è un discorso molto qualitativo, non quantitativo e quindi diciamo effettivamente, diciamo, ci si
+
+125
+00:13:34.000 --> 00:13:41.199
+può anche scivolare sopra. Eh, uno deve interpretare nel modo giusto la domanda, ok? Medio basta.
+
+126
+00:13:41.199 --> 00:13:46.440
+Quindi sicuramente, diciamo, nel caso di di quella domanda, no, se si parla
+
+127
+00:13:46.440 --> 00:13:54.120
+appunto di eh un emettitore comune, quindi vale questa colonna, l'impedenza
+
+128
+00:13:54.120 --> 00:13:59.800
+dientrata, uno sa che non può essere alta e intanto ne scarta una. Eh, e
+
+129
+00:13:59.800 --> 00:14:05.839
+quella è a priori, sì, eh, chiaro. E a questo punto quella che ti resta probabilmente è quella giusta, medio
+
+130
+00:14:05.839 --> 00:14:11.920
+medio bassa, a secondo di come hanno quel questo benedetto ministero ha scritto le
+
+131
+00:14:12.759 --> 00:14:18.759
+risposte. Ci sono altre domande? E e poi la la a parte quell'altro e poi
+
+132
+00:14:18.759 --> 00:14:24.880
+ti se mi viene in mente poi te la dirò dopo, eh mi rispieghi la domanda F
+
+133
+00:14:24.880 --> 00:14:32.959
+perché non l'ho proprio capito. La domanda F quella per non caricare eccessivamente lo stadio a monte. Sì,
+
+134
+00:14:32.959 --> 00:14:35.959
+impedenza.
+
+135
+00:14:40.320 --> 00:14:45.920
+L'impedenza di ingresso di un amplificatore sparito,
+
+136
+00:14:45.920 --> 00:14:51.040
+crollato, ce lo siamo giocati subito.
+
+137
+00:14:52.040 --> 00:14:58.519
+Mi sa che Paolo deve avere invertitamente chiuso qualcosa. Eh, un attimo di pazienza e di solito avviene
+
+138
+00:14:58.519 --> 00:15:06.240
+verso le 10:30. Eh, infatti è un po' presto. È un po' presto,
+
+139
+00:15:06.279 --> 00:15:11.079
+sinceramente. Eh, un attimo di pazienza, lo
+
+140
+00:15:16.040 --> 00:15:21.240
+recuperiamo. Federico, eccomi di nuovo qua, scusatemi. Prego,
+
+141
+00:15:21.240 --> 00:15:30.880
+prego. Paolo, la forza di aprire e chiudere maschere. Eh, infatti. Eh, sì, sì, sì. Ma allora immagina, eh, ci sono.
+
+142
+00:15:30.880 --> 00:15:36.519
+Marco, mi senti? Sì, sì, ci sono. Allora, immaginati, per esempio, di avere di aver
+
+143
+00:15:36.519 --> 00:15:42.319
+comprato sei sei in un laboratorio di registrazione, quindi lì ci sono
+
+144
+00:15:42.319 --> 00:15:48.440
+microfoni sensibilissimi, belli lineari, no, che si usano per incidere i dischi, per
+
+145
+00:15:48.440 --> 00:15:56.079
+incidere i DVD, eccetera eccetera. E quindi immagina di avere un microfono assolutamente eh perfetto, sensibile.
+
+146
+00:15:56.079 --> 00:16:02.000
+Allora, i microfoni sappiamo che sono dispositivi che eh lavorano su segnali
+
+147
+00:16:02.000 --> 00:16:07.880
+piuttosto generano segnali piuttosto bassi, no? ricevono le riceve la voce, la vibrazione dell'aria, eccetera e
+
+148
+00:16:07.880 --> 00:16:13.920
+producono dei segnali dell'ordine dei millivolto. M eh allora se all'uscita di
+
+149
+00:16:13.920 --> 00:16:20.519
+questo microfono io gli attacco un un circuito che ha una impedenza, una
+
+150
+00:16:20.519 --> 00:16:25.959
+resistenza, diciamo, di ingresso di 100 ohm, quindi molto molto molto bassa e
+
+151
+00:16:25.959 --> 00:16:31.680
+probabilmente questi 100 ohm eh rovinano il funzionamento del microfono, cioè lo
+
+152
+00:16:31.680 --> 00:16:37.680
+portano a lavorare in una situazione che non è quella prevista da eh da dai
+
+153
+00:16:37.680 --> 00:16:43.160
+progettisti del microfono. Se invece di 100 il mio il mio amplificatore, il mio,
+
+154
+00:16:43.160 --> 00:16:51.360
+diciamo, preamplificatore microfonico che gli attacco ne avesse 1000, lo caricherebbe un po' meno. Se avesse 1
+
+155
+00:16:51.360 --> 00:16:56.560
+Mhm il microfono non si accorgerebbe neanche che è uno stadio attaccato a
+
+156
+00:16:56.560 --> 00:17:03.759
+valle, capito? Perché l'impedenza di ingresso dello stadio a valle, se fosse un 1 mega 1 milione di ohm, porterebbe a
+
+157
+00:17:03.759 --> 00:17:10.038
+un consumo di corrente, a un assorbimento di corrente da parte del microfono bassissimo, estremamente basso
+
+158
+00:17:10.039 --> 00:17:16.160
+e quindi il microfono lavorerebbe bello pulito, come se fosse solo, per intenderci. Ok?
+
+159
+00:17:16.160 --> 00:17:22.678
+M e questa cosa può valere in molte praticamente in tutte le catene di amplificazione, cioè bisogna sempre
+
+160
+00:17:22.679 --> 00:17:28.360
+cercare in modo se progetti una una serie di amplificatorini uno dietro
+
+161
+00:17:28.360 --> 00:17:33.400
+l'altro e tu diciamo bisogna sempre cercare di fare in modo che lo stadio a
+
+162
+00:17:33.400 --> 00:17:38.799
+valle non rovini il funzionamento progettato dello stadio a monte nei
+
+163
+00:17:38.799 --> 00:17:44.919
+limiti del possibile. Questo è il criterio. Quindi sicuramente se hai un
+
+164
+00:17:44.919 --> 00:17:51.360
+amplificatore con un'impedenza di ingresso alta puoi attaccargli uno stadio a
+
+165
+00:17:51.360 --> 00:17:57.440
+monte essendo abbastanza sicuro che questo stadio a monte non viene disturbato, cioè che da questo sted a
+
+166
+00:17:57.440 --> 00:18:04.760
+monte non viene assorbita una corrente troppo elevata. Ah, ho capito. Ok, ho capito. Quindi fa
+
+167
+00:18:04.760 --> 00:18:13.039
+passare solo la corrente giusta, praticamente. Solo la corrente necessaria funzionamento. Esatto.
+
+168
+00:18:13.039 --> 00:18:18.080
+Ed ecco spiegato perché ci si negli negli amplificatori o preamplificatori
+
+169
+00:18:18.080 --> 00:18:24.600
+c'è tensioni molto basse, anche quelle di alta fedeltà si va a 250
+
+170
+00:18:24.600 --> 00:18:30.400
+mV sugli ausiliari e compagnia bella, sulle prese BF, questa roba qua. che per
+
+171
+00:18:30.400 --> 00:18:39.960
+esempio Esatto. M Quindi basse tensioni, ma alte impedenze. Esattamente. Esattamente.
+
+172
+00:18:40.280 --> 00:18:45.400
+Allora, se non ci sono altre domande si parte con la chiacchierata di stasera.
+
+173
+00:18:45.400 --> 00:18:52.320
+Rimetto in condivisione lo schermo un attimo e questa sera
+
+174
+00:18:52.320 --> 00:18:57.840
+parliamo sostanzialmente di due cose, tre cose, ma gli argomenti veri e propri
+
+175
+00:18:57.840 --> 00:19:05.840
+sono due. Stasera parliamo degli amplificatori, di conseguenza poi parliamo degli oscillatori che sono una
+
+176
+00:19:05.840 --> 00:19:12.559
+variante, diciamo, degli amplificatori e poi parliamo delegbel, questa famosa unità di misura, no, di cui di tanto in
+
+177
+00:19:12.559 --> 00:19:18.720
+tanto si è sentito parlare. Stasera vediamo cosa sono e come funzionano. Allora, gli
+
+178
+00:19:18.720 --> 00:19:25.760
+amplificatori, dunque, perché intanto, scusate, perché si parla di amplificatori e oscillatori stasera? E
+
+179
+00:19:25.760 --> 00:19:32.440
+allora nel programma dell'esame eh è chiesto sapere come funziona un trasmettitore, come funziona un
+
+180
+00:19:32.440 --> 00:19:39.159
+ricevitore e però non è chiesto di conoscere il funzionamento specifico di
+
+181
+00:19:39.159 --> 00:19:44.799
+una catena di trasmissione o di un ricevitore a livello di singolo componente elettronico. questa
+
+182
+00:19:44.799 --> 00:19:52.440
+resistenza, questo transistor, questo induttore. Praticamente noi bisogna sapere per passare l'esame come funziona
+
+183
+00:19:52.440 --> 00:19:58.280
+un trasmettitore, come funziona un ricevitore a livello di schema blocchi. A livello di schema blocchi. Quindi
+
+184
+00:19:58.280 --> 00:20:05.080
+praticamente immaginiamo che un trasmettitore sia composto da un certo numero di di scatolette, per esempio un
+
+185
+00:20:05.080 --> 00:20:11.039
+amplificatore, un oscillatore, un altro amplificatore, eccetera. E l'insieme di queste scatolette, come
+
+186
+00:20:11.039 --> 00:20:17.720
+vedremo nella prossima lezione, costruisce il eh il mio trasmettitore.
+
+187
+00:20:17.720 --> 00:20:23.799
+Quindi noi non abbiamo bisogno di conoscere il circuito interno di queste scatolette. è richiesto proprio nel
+
+188
+00:20:23.799 --> 00:20:29.679
+programma del Ministero una conoscenza a livello di schema blocchi, però il singolo blocchetto si deve sapere che
+
+189
+00:20:29.679 --> 00:20:36.600
+caratteristiche ha, cioè quando c'è un blocchetto con suscritto amplificatore bisogna sapere questo blocchetto cosa fa
+
+190
+00:20:36.600 --> 00:20:43.360
+e come lo possiamo descrivere. E questo è appunto l'obiettivo di stasera. Stasera parliamo delle scatoline,
+
+191
+00:20:43.360 --> 00:20:50.440
+blocchetti, delle scatole nere, potremmo anche chiamarle, che poi collegandole insieme faremo trasmettitori, ricevitori
+
+192
+00:20:50.440 --> 00:20:55.880
+e quant'altro ci verrà voglia di fare. Allora, gli amplificatori, intanto
+
+193
+00:20:55.880 --> 00:21:02.240
+il più semplice fra gli amplificatori è l'amplificatore di bassa frequenza, che è per l'appunto, diciamo, quello di cui
+
+194
+00:21:02.240 --> 00:21:08.679
+si parlava prima con Marco, cioè sono quegli amplificatori che amplificano segnali di bassa frequenza. Che vuol
+
+195
+00:21:08.679 --> 00:21:16.279
+dire bassa frequenza? tipicamente frequenze audio audiofrequenze e quindi sono segnali che di norma partono dai 20
+
+196
+00:21:16.279 --> 00:21:24.000
+30 Hz e arrivano a 10.000 15.000 18.000 1000 Hz, quello che
+
+197
+00:21:24.000 --> 00:21:29.159
+più o meno è il campo delle frequenze audio. Infatti gli amplificatori di
+
+198
+00:21:29.159 --> 00:21:35.480
+bassa frequenza sono quelli usati ad esempio negli negli impianti IFI, no, che lavorano su queste su queste
+
+199
+00:21:35.480 --> 00:21:42.480
+frequenze qua, cioè tutto ciò che è campo lo stesso accade nelle radio. Nelle in un ricevitore, per esempio, si
+
+200
+00:21:42.480 --> 00:21:49.240
+trovano degli scatolotti che si chiamano amplificatori bassa frequenza. Negli ultimi stadi, quando si è ricevuto il
+
+201
+00:21:49.240 --> 00:21:56.279
+segnale radio, lo si è amplificato e bisogna pilotare l'altoparlante. Oppure nei trasmettitori, in un trasmettitore
+
+202
+00:21:56.279 --> 00:22:02.440
+eh in fonia, questi sono ad esempio i tipici amplificatori che si usano per amplificare il segnale che viene dal
+
+203
+00:22:02.440 --> 00:22:09.279
+microfono in cui parliamo, che andrà poi a pilotare altri scatolotti che poi vedremo. Quindi gli
+
+204
+00:22:09.279 --> 00:22:15.400
+amplificatori di bassa frequenza amplificano segnali a frequenza audio, non hanno bisogno, per funzionare di
+
+205
+00:22:15.400 --> 00:22:20.559
+circuiti risonanti, quindi circuiti risonanti a condensatore, induttore.
+
+206
+00:22:20.559 --> 00:22:26.039
+Ovviamente essendo un amplificatore contengono sempre degli elementi attivi che possono essere valvole, fette,
+
+207
+00:22:26.039 --> 00:22:33.520
+transistor che più ne ha più ne metta, no? però c'è qualcosa che ovviamente amplifica e qui c'è schema tipico,
+
+208
+00:22:33.520 --> 00:22:39.360
+schema tipico che non diciamo non c'è bisogno di sapere come funziona questo schema a livello di per l'esame, come vi
+
+209
+00:22:39.360 --> 00:22:47.279
+dicevo prima, no? però è per far rivedere anche quello di cui si era parlato eh mercoledì scorso, tipico
+
+210
+00:22:47.279 --> 00:22:53.600
+transistor, configurazione emettitore comune. La freccia esce, quindi il transistor è un napn, il segnale di
+
+211
+00:22:53.600 --> 00:22:58.760
+entrata entra in base e il segnale di uscita esce dal dal collettore. Niente
+
+212
+00:22:58.760 --> 00:23:04.840
+di nuovo. Poi ci sono gli amplificatori ad alta frequenza, quindi stesso discorso,
+
+213
+00:23:04.840 --> 00:23:10.480
+amplificano i segnali a difrequenza che possono essere in un ricevitore quelli che arrivano dall'antenna.
+
+214
+00:23:10.480 --> 00:23:16.679
+e che vengono amplificati anche da una serie di questi amplificatori, uno dopo l'altro, perché sono segnali che
+
+215
+00:23:16.679 --> 00:23:23.120
+arrivano molto deboli dall'antenna. Allora, negli amplificatori ad alta frequenza molto spesso per renderli più
+
+216
+00:23:23.120 --> 00:23:28.840
+funzionali, per avere un guadagno maggiore, vi sono spesso dei circuiti risonanti che rendono questi
+
+217
+00:23:28.840 --> 00:23:34.480
+amplificatori selettivi. Qui in questa specie di schemotto vedete che c'è il
+
+218
+00:23:34.480 --> 00:23:40.400
+solito terminale in ingresso. Vedete che qui subito c'è un circuito risonante che
+
+219
+00:23:40.400 --> 00:23:47.360
+è questo qua, questa bobina e questo condensatore. Circuiti risonanti. Questo è un circuito risonante parallelo, è
+
+220
+00:23:47.360 --> 00:23:52.679
+selettivo. Ricordate che si era fatto una lezione parlando anche della selettività, no? Il fattore di merito Q
+
+221
+00:23:52.679 --> 00:23:58.720
+dei circuiti risonanti. Quindi il circuito risonante ha la capacità di discriminare le
+
+222
+00:23:58.720 --> 00:24:05.320
+frequenze, cioè quelle della sua frequenza di risonanza le fa passare. Più più siamo lontani dalla frequenza di risonanza le
+
+223
+00:24:05.320 --> 00:24:13.720
+attenua. Qui c'è un altro circuito risonante poi in uscita, questo con la parte C2 L2. L'effetto di questi
+
+224
+00:24:13.720 --> 00:24:19.360
+circuiti risonanti è che l'amplificatore è selettivo. Quindi
+
+225
+00:24:19.360 --> 00:24:25.159
+questa che vedete in questo disegno, tanto per avere una visualizzazione grafica che può che può aiutarvi a
+
+226
+00:24:25.159 --> 00:24:31.039
+ricordare il concetto è la tipica curva di risposta di un amplificatore RF, cioè
+
+227
+00:24:31.039 --> 00:24:36.559
+radiofrequenza. Vedete che il massimo guadagno sta
+
+228
+00:24:36.559 --> 00:24:42.720
+quassù che corrisponde a una frequenza più o meno di 78 MHz, grosso modo.
+
+229
+00:24:42.720 --> 00:24:48.559
+Quanto più ci si allontana da questa frequenza, tanto più per effetto di quei circuiti risonanti il guadagno del mio
+
+230
+00:24:48.559 --> 00:24:53.640
+amplificatore scende. Mh. E questa è una caratteristica molto spesso voluta
+
+231
+00:24:53.640 --> 00:24:59.960
+perché si vuole rendere il ricevitore selettivo, no? Come poi poi quando parleremo dei ricevitori vedremo questa
+
+232
+00:24:59.960 --> 00:25:05.440
+cosa per bene, cioè noi bisogna in qualche modo nei primi stradali di ricevitore cercare di attenuare il più
+
+233
+00:25:05.440 --> 00:25:12.840
+possibile i segnali che non vogliamo ricevere perché altrimenti poi ci creeranno problemi nella
+
+234
+00:25:15.080 --> 00:25:20.440
+ricezione. E parlando di amplificatori, di un amplificatore è utile sapere
+
+235
+00:25:20.440 --> 00:25:26.080
+quanto guadagna. Qui dice il concetto di fattore di amplificazione. Cos'è il fattore di amplificazione? È
+
+236
+00:25:26.080 --> 00:25:32.440
+semplicemente un amplificatore quanto mi guadagna. Questo guadagno, questo fattore di amplificazione si può
+
+237
+00:25:32.440 --> 00:25:41.399
+esprimere in due modi, in potenza o in tensione. Eh, quindi in se lo esprimo in
+
+238
+00:25:41.399 --> 00:25:47.320
+potenza, il mio fattore di amplificazione è il rapporto fra potenza d'uscita e potenza di ingresso. Per
+
+239
+00:25:47.320 --> 00:25:53.799
+esempio, se ho un amplificatore che con 1 W di ingresso mi produce mi genera 15
+
+240
+00:25:53.799 --> 00:25:59.559
+W di uscita, avrò un'amplificazione di 15. il rapporto fra la potenza di uscita
+
+241
+00:25:59.559 --> 00:26:05.480
+che è 15 e la potenza di ingresso che è 1. Eh, altre
+
+242
+00:26:05.480 --> 00:26:12.640
+volte mi è più comodo usare il fattore di amplificazione in tensione, quindi
+
+243
+00:26:12.640 --> 00:26:18.559
+l'amplificazione è il rapporto se se uso questo questo parametro invece
+
+244
+00:26:18.559 --> 00:26:24.159
+dell'amplificazione in potenza è il rapporto fra la tensione d'uscita e la tensione di ingresso. Se mi escono,
+
+245
+00:26:24.159 --> 00:26:31.559
+diciamo, 300 mV e me ne entrano 30 mV, il mio amplificatore in tensione
+
+246
+00:26:31.559 --> 00:26:38.360
+guadagna 10. I termini che sto usando e fattore di amplificazione e
+
+247
+00:26:38.360 --> 00:26:43.840
+guadagno sono sinonimi. I fattori di amplificazione molto spesso, come vedete qua, è
+
+248
+00:26:43.840 --> 00:26:49.799
+chiamato guadagno. Vi vi dico e vi sottolineo questa cosa proprio perché molto spesso nelle domande del Ministero
+
+249
+00:26:49.799 --> 00:26:55.640
+a volte è chiamato in un modo, a volte è chiamato in un altro, no? Quindi un po' di gergo bisogna è utile averlo
+
+250
+00:26:55.640 --> 00:27:00.840
+nell'orecchio. Quindi a volte si parla quanto guadagna questo amplificatore e
+
+251
+00:27:00.840 --> 00:27:06.399
+questo è il modo normale, no, di dirlo in maniera un po' più pulita, quasi universitaria. Fatemi dire un po' in
+
+252
+00:27:06.399 --> 00:27:11.960
+battuta e la ehm la il mio amplificatore non ha un
+
+253
+00:27:11.960 --> 00:27:17.200
+guadagno, ma un fattore di amplificazione se uno vuol parlare proprio pulito. Allora, sto guadagno si
+
+254
+00:27:17.200 --> 00:27:24.360
+esprime in decibel e cosa sono i decibel lo vedremo fra una mezz'oretta, diciamo, quando avremo parlato prima de degli
+
+255
+00:27:24.360 --> 00:27:30.760
+amplificatori. E poi l'altra l'altro parametro che è molto importante negli amplificatori, soprattutto quelli di
+
+256
+00:27:30.760 --> 00:27:35.840
+potenza, è il rendimento. M il
+
+257
+00:27:35.840 --> 00:27:43.440
+rendimento è è diciamo è un parametro che che hanno tutte le macchine, cioè non c'è nessuna macchina, nessun
+
+258
+00:27:43.440 --> 00:27:51.840
+disposico, meccanico e così via che in uscita riporti fuori la potenza che si
+
+259
+00:27:51.840 --> 00:27:57.279
+usa per alimentare quella macchina. Cioè tutte le macchine elettriche, ma non solo, hanno un rendimento inferiore a
+
+260
+00:27:57.279 --> 00:28:04.039
+uno. Allora, in un amplificatore cos'è il rendimento? è il rapporto percentuale fra la potenza di uscita e la potenza di
+
+261
+00:28:04.039 --> 00:28:11.039
+alimentazione. Quindi immaginiamo che io ho un bell'amplificatore per la banda cittadina che eh è in grado di tirarmi
+
+262
+00:28:11.039 --> 00:28:16.200
+fuori un'uscita di 300 di 100 W, ad esempio. Mh, se vado a vedere questo
+
+263
+00:28:16.200 --> 00:28:23.200
+amplificatore quanto mi consuma dalla rete Enel, io magari vedo che dalla rete Enel assorbe 200 W. Allora, che
+
+264
+00:28:23.200 --> 00:28:28.519
+rendimento ha il mio amplificatore? La formula è questa che vedete qua. Il
+
+265
+00:28:28.519 --> 00:28:34.440
+rendimento è è espresso, se si scrive in lettere con con questa lettera un po'
+
+266
+00:28:34.440 --> 00:28:41.519
+strana che è una lettera greca che si chiama ETA. ETA, una specie di N con una gamba allungata.
+
+267
+00:28:41.519 --> 00:28:48.080
+Comunque, diciamo, in generale si chiama rendimento. Il rendimento è il rapporto fra la potenza d'uscita diviso la
+
+268
+00:28:48.080 --> 00:28:54.519
+potenza che l'amplificatore assorbe dall'alimentazione. Quindi nell'esempio che facevo prima per la banda cittadina,
+
+269
+00:28:54.519 --> 00:29:01.080
+se il mio amplificatore tira fuori 100 W, 100 e ho una potenza di alimentazione
+
+270
+00:29:01.080 --> 00:29:07.919
+di 200 W, 100 / 200, quanto sarà il mio rendimento espresso in percentuale? Chi
+
+271
+00:29:07.919 --> 00:29:14.120
+mi risponde? 50%.
+
+272
+00:29:14.120 --> 00:29:20.679
+Bravissimo. 50% esattamente 100 / 200 che viene 0,5 che va espresso in
+
+273
+00:29:20.679 --> 00:29:27.559
+percentuale di solito che è il 50%. Qui con numeri diversi avete un un esempio
+
+274
+00:29:27.559 --> 00:29:36.279
+della stessa formula. Un amplificatore che consuma 100 W fornisce 40 un rendimento del 40. 40 / 100 04 espresso
+
+275
+00:29:36.279 --> 00:29:42.720
+in percentuale 40%. Quindi, in pratica, di un amplificatore a me interessa sapere due
+
+276
+00:29:42.720 --> 00:29:49.600
+numeri. Quanto guadagna, ad esempio, mi guadagna 15 volte in potenza e quanto
+
+277
+00:29:49.600 --> 00:29:55.519
+rende? Mh. Quindi il rendimento rendimento è il rapporto fra la tensione di fra la
+
+278
+00:29:55.519 --> 00:30:01.120
+potenza d'uscita e la potenza d'alimentazione e invece il guadagno in
+
+279
+00:30:01.120 --> 00:30:07.919
+potenza, ad esempio, è il rapporto fra potenza di uscita e potenza di ingresso. Mh, scusate, tutto chiaro per
+
+280
+00:30:07.919 --> 00:30:11.960
+ora? C'è qualche mano alzata?
+
+281
+00:30:13.840 --> 00:30:20.799
+Per adesso no, Paolo, se non ci sono domande allora proseguo. E questi che abbiamo detto
+
+282
+00:30:20.799 --> 00:30:26.640
+adesso, diciamo, sono i concetti di base degli amplificatori, no? Un amplificatore può essere in bassa o in
+
+283
+00:30:26.640 --> 00:30:32.880
+alta frequenza, quindi non usare o usare circuiti risonanti, è caratterizzato da
+
+284
+00:30:32.880 --> 00:30:38.000
+quanto amplifica, cioè dal suo guadagno ed è ed è caratterizzato dal rendimento.
+
+285
+00:30:38.000 --> 00:30:45.600
+Del rendimento mi interessa solamente quando ho amplificatori di potenza, cioè immaginate un ricevitore, in un ricevitore c'è tutta una catena di
+
+286
+00:30:45.600 --> 00:30:52.039
+transistor o comunque di dispositivi stile effetti eccetera che amplificano il segnale che viene ricevuto
+
+287
+00:30:52.039 --> 00:30:58.960
+dall'antenna, no? E questi questi un ricevitore lavora su segnali deboli e
+
+288
+00:30:58.960 --> 00:31:04.840
+quindi gli amplificatori lavorano usano potenze dell'ordine dei millwatt. Allora, per amplificatori di quel genere
+
+289
+00:31:04.840 --> 00:31:11.919
+il rendimento mi ci può importare abbastanza poco. Invece quando se hanno amplificatori di potenza, quindi gli amplificatori che
+
+290
+00:31:11.919 --> 00:31:17.159
+devono dare 100, 200, 500 W in antenna, è bene che il rendimento sia molto
+
+291
+00:31:17.159 --> 00:31:22.480
+elevato, anche perché una cosa che non ho detto, dove dove se ne va la potenza
+
+292
+00:31:22.480 --> 00:31:27.600
+di alimentazione che non si traduce in potenza d'uscita se ne va in calore. In
+
+293
+00:31:27.600 --> 00:31:34.279
+questo esempio che vedete qua sotto, un amplificatore consuma 100 W e ne fornisce
+
+294
+00:31:34.279 --> 00:31:40.559
+40. E gli altri 60, scusate, ne fornisce 40 che è scritto qua. Gli altri 60 che
+
+295
+00:31:40.559 --> 00:31:46.440
+non vanno in antenna dove vanno? Vanno a finire in calore. Quindi gli amplificatori che rendono poco sono
+
+296
+00:31:46.440 --> 00:31:52.200
+delle stufette per cui ci vogliono ventole eccetera eccetera.
+
+297
+00:31:52.200 --> 00:31:57.240
+Allora, andiamo avanti. Eh, un amplificatore può
+
+298
+00:31:57.240 --> 00:32:03.799
+lavorare in tre modi diversi, cioè ci sono tre classi di
+
+299
+00:32:03.799 --> 00:32:10.679
+amplificazione e sono chiamate, come vedete qui, classe A, classe B, classe C. E adesso le vediamo nel dettaglio una
+
+300
+00:32:10.679 --> 00:32:17.679
+per una. Che differenza c'è fra queste tre classi? Nella classe A, nel dispositivo, diciamo
+
+301
+00:32:17.679 --> 00:32:23.279
+che sia un amplificatore a transistor. Nel transistor la corrente scorre nel
+
+302
+00:32:23.279 --> 00:32:29.159
+transistor per tutto il ciclo del segnale di ingresso, ovvero immaginiamo che il segnale di ingresso sia una
+
+303
+00:32:29.159 --> 00:32:35.960
+sinusoide, quindi una sinusoide, un ciclo completo di sinusoide. Avevamo visto, ormai sapete, vi ricordate che
+
+304
+00:32:35.960 --> 00:32:42.320
+corrisponde a 360°. Un amplificatore in classe A nel dispositivo scorre corrente per tutto il
+
+305
+00:32:42.320 --> 00:32:50.039
+ciclo del segnale di ingresso. Il un amplificatore in classe B scorre corrente solo per metà del ciclo, quindi
+
+306
+00:32:50.039 --> 00:32:55.639
+solo per 180° del segnale di ingresso. Un in un amplificatore in classe C
+
+307
+00:32:55.639 --> 00:33:01.880
+scorre corrente per meno per meno di 180° del segnale di ingresso. E uno dice
+
+308
+00:33:01.880 --> 00:33:08.559
+"Ma a che serve tutto ciò e come funziona? Adesso, adesso lo vediamo, diciamo, classe per classe.
+
+309
+00:33:08.559 --> 00:33:13.960
+Allora, intanto, prima di vedere questo discorso degli amplificatori in classe
+
+310
+00:33:13.960 --> 00:33:19.799
+A, classe B e classe C, eh vi vi rinfresco la memoria su una cosa che
+
+311
+00:33:19.799 --> 00:33:24.960
+abbiamo accennato eh mercoledì scorso.
+
+312
+00:33:24.960 --> 00:33:31.720
+La questo grafico che vedete in questa in questa diapositiva, in questa slide,
+
+313
+00:33:31.720 --> 00:33:36.880
+è la curva di funzionamento di un di un dispositivo, di un amplificatore. In
+
+314
+00:33:36.880 --> 00:33:43.360
+particolare questa è la curva di funzionamento di una valvola. Ho usato, ho scelto di mettere qui la curva di
+
+315
+00:33:43.360 --> 00:33:49.559
+funzionamento di una valvola perché è quella dove si vede meglio il discorso che adesso dobbiamo fare. La stessa cosa
+
+316
+00:33:49.559 --> 00:33:55.000
+pari pari vale per i transistor, vale per i fet, vale per i MOSFET, però hanno delle curve un po' più complicate,
+
+317
+00:33:55.000 --> 00:34:01.120
+diciamo così. Invece con la valvola si vede molto bene. Allora, questa valvola, questa curva di funzionamento cosa vuol
+
+318
+00:34:01.120 --> 00:34:07.679
+dire? Allora, vedete che ci sono due assi, no? c'è l'asse orizzontale ascisse e l'asse verticale ordinate. Allora,
+
+319
+00:34:07.679 --> 00:34:15.118
+sull'asse orizzontale c'è la tensione che mi regola lo quanta corrente scorre
+
+320
+00:34:15.119 --> 00:34:21.480
+nella valvola. C'è la tensione di griglia in generale. Questa qui c'è la tensione, diciamo, di controllo, la
+
+321
+00:34:21.480 --> 00:34:27.560
+tensione in ingresso, il segnale che io voglio amplificare, oppure, se preferite, la
+
+322
+00:34:27.560 --> 00:34:33.280
+polarizzazione della valvola. Quindi c'è la che può essere quindi la tensione di
+
+323
+00:34:33.280 --> 00:34:41.320
+griglia o se fosse un transistor qui ci sarebbe la tensione di base. Sull'asse verticale invece c'è la
+
+324
+00:34:41.320 --> 00:34:48.398
+corrente che scorre nel mio dispositivo, la corrente. Quindi qui c'è la corrente di collettore o la corrente di placca.
+
+325
+00:34:48.399 --> 00:34:57.079
+Allora, cosa succede in tutti i dispositivi? Succede che mi metto qua sotto. Succede che se la tensione di
+
+326
+00:34:57.079 --> 00:35:03.440
+polarizzazione di griglia o di base del mio dispositivo è molto bassa, sono qua
+
+327
+00:35:03.440 --> 00:35:08.680
+sotto. Nel mio dispositivo non scorre corrente, non scorre corrente. Allora,
+
+328
+00:35:08.680 --> 00:35:15.720
+quando in un dispositivo non scorre corrente, si dice che quel dispositivo è interdetto. Interdetto.
+
+329
+00:35:15.720 --> 00:35:21.920
+Mh. Vi riporto un attimo alla prima slide che vi ho fatto vedere. Qui c'è appunto uno schema in cui c'è un
+
+330
+00:35:21.920 --> 00:35:29.680
+transistor. Questo transistor ha delle resistenze di polarizzazione qui attorno. Allora, questo transistor sarà
+
+331
+00:35:29.680 --> 00:35:36.160
+interdetto quando la tensione in base è così bassa da essere inferiore a
+
+332
+00:35:36.160 --> 00:35:42.000
+0,7 V e quindi quando il valore di questa resistenza R2 ad esempio è molto
+
+333
+00:35:42.000 --> 00:35:47.880
+basso. Quindi il punto di lavoro del dispositivo dipende dai componenti che
+
+334
+00:35:47.880 --> 00:35:54.280
+ci sono attaccati. D'accordo? Se i componenti che si sono attaccati fanno in modo di dare al terminale di
+
+335
+00:35:54.280 --> 00:36:01.280
+controllo, quindi la base nel caso del transistor, una tensione molto bassa, non scorre corrente nel mio transistor e
+
+336
+00:36:01.280 --> 00:36:07.319
+quindi lui è interditto. A un certo punto io comincio ad aumentare la tensione di base e
+
+337
+00:36:07.319 --> 00:36:12.640
+quindi succede che si si scorre pian pianino in questo tratto della curva.
+
+338
+00:36:12.640 --> 00:36:19.000
+Vedete che a la a mano a mano che io aumento la tensione della mia base del
+
+339
+00:36:19.000 --> 00:36:25.560
+nel transistor o nella valvola scorre sempre più corrente come sta accadendo qui in questo tratto iniziale della
+
+340
+00:36:25.560 --> 00:36:32.960
+curva. Però vedete che come succede praticamente in tutti i dispositivi, in questo tratto di salita,
+
+341
+00:36:32.960 --> 00:36:38.640
+vedete che questa curva non è una linea retta, è una è curva, potrebbe essere un
+
+342
+00:36:38.640 --> 00:36:46.760
+tratto di una parabola perché si ricorda queste cose, diciamo, dal da dalla matematica, però non è lineare. Però si
+
+343
+00:36:46.760 --> 00:36:52.839
+arriva a un certo punto, se io continuo ad aumentare la tensione di ingresso, si
+
+344
+00:36:52.839 --> 00:36:59.720
+arriva a un certo punto e in questa curva si comincia da qua, in cui il funzionamento del dispositivo è lineare,
+
+345
+00:36:59.720 --> 00:37:05.480
+lo vedete scritto qua in alto a sinistra, no? zona di funzionamento lineare e aumentando aumentando,
+
+346
+00:37:05.480 --> 00:37:12.599
+aumentando io posso aumentare la mia tensione di pilotaggio del del dispositivo restando per un tratto
+
+347
+00:37:12.599 --> 00:37:19.200
+abbastanza lungo in una zona di funzionamento lineare finché non si arriva a un punto in cui il dispositivo
+
+348
+00:37:19.200 --> 00:37:25.160
+ha ci ha dato tutta la corrente che poteva dare. Non non ne può più. Poi alla fine qui la corrente smette di
+
+349
+00:37:25.160 --> 00:37:31.520
+crescere, si appiattisce. Quando si appiattisce si dice che il dispositivo è in saturazione, come
+
+350
+00:37:31.520 --> 00:37:38.119
+leggete qua è in saturazione, cioè più di quello non può dare e diciamo gli ho tirato il collo al massimo. Quindi
+
+351
+00:37:38.119 --> 00:37:43.520
+diciamo in ogni curva di funzionamento, in ogni funzionamento di di ogni
+
+352
+00:37:43.520 --> 00:37:51.200
+dispositivo, amplificatore, ripeto, transistor, fet, valvola, c'è una zona di interdizione in cui il transistor in
+
+353
+00:37:51.200 --> 00:37:59.119
+cui il dispositivo non conduce. c'è una zona non lineare, c'è una zona lineare che è questa qua che vedete indicata in
+
+354
+00:37:59.119 --> 00:38:04.839
+questa con questa freccione zona di funzionamento lineare. Poi a un certo punto la corrente è così alta che il
+
+355
+00:38:04.839 --> 00:38:11.200
+dispositivo si satura più di quello non può dare. Allora, vediamo alla luce di queste cose che abbiamo detto
+
+356
+00:38:11.200 --> 00:38:18.680
+l'amplificatore in classe A. L'amplificatore in classe Asi diceva che la corrente del dispositivo scorre per
+
+357
+00:38:18.680 --> 00:38:24.760
+tutto il ciclo del segnale diingresso, cioè 360° elettrici. Vediamo cosa vuol
+
+358
+00:38:24.760 --> 00:38:30.800
+dire. Questo è la modalità di funzionamento di un amplificatore in classe A. Allora, guardiamo il segnale
+
+359
+00:38:30.800 --> 00:38:36.440
+di ingresso che sta qua sotto. Il segnale di ingresso, il suo
+
+360
+00:38:36.440 --> 00:38:43.640
+valore, diciamo, di riferimento è questo qui, dove ho messo questa questa tac
+
+361
+00:38:43.640 --> 00:38:49.200
+rossa. Questo è il valore di polarizzazione fissa senza segnali utile
+
+362
+00:38:49.200 --> 00:38:54.480
+da amplificare. Poi rispetto a questo valore vedete che posso sovrapporre una
+
+363
+00:38:54.480 --> 00:39:01.040
+sinusoide che può essere il segnale che mi arriva dal dalla mia antenna o dal mio microfono. A fronte di questo punto
+
+364
+00:39:01.040 --> 00:39:09.480
+di riferimento, a fronte di questa polarizzazione, il mio dispositivo lavora qui in questo punto della sua
+
+365
+00:39:09.480 --> 00:39:16.839
+curva caratteristica. Da qui non ho fatto altro molto semplicemente che salire, no, da questo punto. Sono salito
+
+366
+00:39:16.839 --> 00:39:21.880
+in verticale fino la mia curva caratteristica. Se da qui vado in
+
+367
+00:39:21.880 --> 00:39:27.880
+orizzontale, mi trovo qui che è il valore della mia tensione
+
+368
+00:39:27.880 --> 00:39:34.000
+di uscita. Allora, vedete che se il segnale in
+
+369
+00:39:34.000 --> 00:39:39.079
+ingresso, se il punto di lavoro in ingresso si sposta seguendo questa
+
+370
+00:39:39.079 --> 00:39:45.720
+sinusoide, quindi dai, direi dai 5 V che posso che si può immaginare qua in
+
+371
+00:39:45.720 --> 00:39:53.599
+questo punto 5, la tensione sale fino a 2 e scende fino a
+
+372
+00:39:53.599 --> 00:39:59.800
+7. A a fronte di questi spostamenti, chiaramente, il mio punto di lavoro si
+
+373
+00:39:59.800 --> 00:40:05.240
+sposta. Quando il segnale in ingresso è qui, il mio punto di lavoro in quel
+
+374
+00:40:05.240 --> 00:40:12.680
+momento è qua, però vedete che questo spostamento avviene in questo tratto della curva, cioè non si va mai al di
+
+375
+00:40:12.680 --> 00:40:19.280
+sotto di questo punto e al di sopra di questo punto, quindi si lavora sempre nel tratto lineare lineare. Ciò
+
+376
+00:40:19.280 --> 00:40:25.200
+significa che il segnale di uscita è una replica assolutamente fedele del segnale
+
+377
+00:40:25.200 --> 00:40:31.839
+di ingresso, perché il mio punto di lavoro si sposta da quassù a quaggiù, però siccome il punto di lavoro si
+
+378
+00:40:31.839 --> 00:40:37.560
+sposta in una zona lineare della curva di funzionamento, il segnale di uscita è
+
+379
+00:40:37.560 --> 00:40:42.720
+esattamente proporzionale al segnale di ingresso, sia nei picchi che nelle
+
+380
+00:40:42.720 --> 00:40:50.319
+valli, quindi è una riproduzione assolutamente fedele, come si poteva leggere qui, cioè
+
+381
+00:40:50.319 --> 00:40:58.720
+negli amplificatori in classe A la corrente scorre per tutto il ciclo del segnale d'ingresso, quindi tutti e 360°
+
+382
+00:40:58.720 --> 00:41:03.960
+della sinusoide. L'amplificazione è molto lineare, molto lineare. Questi
+
+383
+00:41:03.960 --> 00:41:11.200
+sono i tipi di amplificatori che sono usati in tutte le catene, ad esempio, di alta fedeltà, dove deve esserci fedeltà
+
+384
+00:41:11.200 --> 00:41:17.440
+assoluta nella riproduzione, no? tranne che nell lista di finali, poi vedremo. E sono tipi di amplificatori che sono
+
+385
+00:41:17.440 --> 00:41:24.000
+usati in tutte le catene di ricezione dei ricevitori perché il segnale va amplificato linearmente e questo è il
+
+386
+00:41:24.000 --> 00:41:31.000
+grande pregio di questi amplificatori. Il grande difetto è che il rendimento è basso, il rendimento è del 5, 10, 15, al
+
+387
+00:41:31.000 --> 00:41:36.760
+massimo del 20%. Però siccome questi sono amplificatori che si usano per bassi segnali, il problema del
+
+388
+00:41:36.760 --> 00:41:42.000
+rendimento basso non è un problema, non è non esiste, non è un problema. Adesso,
+
+389
+00:41:42.000 --> 00:41:47.280
+fra un momento, smetto di parlare e mi mi dite se mi avete seguito, però prima
+
+390
+00:41:47.280 --> 00:41:52.520
+vi faccio vedere un altro tipo di amplificatore, così vi rendete conto della differenza che c'è fra una
+
+391
+00:41:52.520 --> 00:41:58.720
+modalità di funzionamento lineare, che è quella che abbiamo visto qui, e una modalità di funzionamento non lineare,
+
+392
+00:41:58.720 --> 00:42:04.880
+che è quella della classe B. Negli amplificatori in classe B la corrente scorre per metà del segnale del ciclo
+
+393
+00:42:04.880 --> 00:42:09.960
+del segnale di ingresso, quindi per 180° elettrici, non per 360.
+
+394
+00:42:09.960 --> 00:42:16.880
+Di conseguenza l'amplificazione è distorta. In pratica che succede? Succede che questo schema è simile a
+
+395
+00:42:16.880 --> 00:42:24.040
+quello precedente, non è uguale perché purtroppo non l'ho trovato, ma più o meno è molto simile. Vedete che il punto
+
+396
+00:42:24.040 --> 00:42:32.000
+di lavoro sta qui. Vedete che la zona lineare è questa. Diciamo la zona lineare comincia
+
+397
+00:42:32.000 --> 00:42:37.640
+qua. Vedete che questa curva è bella lineare fin quassù.
+
+398
+00:42:37.640 --> 00:42:43.440
+Quassù in alto la curva comincia a piattirsi, cioè qui vuol dire che il dispositivo non ha più possibilità e sta
+
+399
+00:42:43.440 --> 00:42:49.359
+andando in saturazione e quaggiù in basso sta andando a interdirsi, cioè a
+
+400
+00:42:49.359 --> 00:42:55.559
+spengersi proprio. Però anche lui ha la sua bella zona di funzionamento lineare, no? Che è questa fra questi due tacchi
+
+401
+00:42:55.559 --> 00:43:03.400
+rossi che ho messo. Però la polarizzazione della valvola o del transistor è tale che il punto di
+
+402
+00:43:03.400 --> 00:43:09.800
+polarizzazione sta quaggiù. Quindi sta in un punto non lineare della
+
+403
+00:43:09.800 --> 00:43:15.960
+curva. Questo fa sì che le semionde negative del segnale di
+
+404
+00:43:15.960 --> 00:43:22.240
+ingresso, cioè queste qua, portano la polarizzazione della
+
+405
+00:43:22.240 --> 00:43:27.680
+valvola fin qui al di sotto del suo punto di interdizione in tutta questa
+
+406
+00:43:27.680 --> 00:43:34.000
+zona qui e quindi le semionde negative non non possono assolutamente essere
+
+407
+00:43:34.000 --> 00:43:41.400
+amplificate perché il mio transistor in questo caso è interdetto. Queste parti qui vengono
+
+408
+00:43:41.400 --> 00:43:48.559
+amplificate parzialmente, però l'amplificazione è non lineare. In compenso, la parte questa dei picchi
+
+409
+00:43:48.559 --> 00:43:54.359
+positivi della mia sinusoide, dove il punto di lavoro a questo punto entra
+
+410
+00:43:54.359 --> 00:44:02.160
+nella zona lineare, vengono amplificate linearmente. Comunque vedete che il segnale di uscita eh viene a avere questa forma qua
+
+411
+00:44:02.160 --> 00:44:08.119
+che non somiglia neanche per un po' alla sinusoide del segnale di ingresso. E vedete questa cosa contrapposta a quello
+
+412
+00:44:08.119 --> 00:44:14.319
+che avevamo prima. Qui il punto di lavoro si spostava in questo tratto di funzionamento lineare,
+
+413
+00:44:14.319 --> 00:44:19.520
+quindi, come vi dicevo, il segnale di uscita, eccolo qua, è una replica
+
+414
+00:44:19.520 --> 00:44:26.440
+fedele, perfetta del segnale di ingresso. Qui invece il segnale di uscita ha una forma assolutamente
+
+415
+00:44:26.440 --> 00:44:33.319
+distorta, quindi questi amplificatori hanno come grande svantaggio il fatto che il segnale di
+
+416
+00:44:33.319 --> 00:44:39.400
+uscita è distorto. Mh, però come hanno hanno come grande vantaggio il fatto che
+
+417
+00:44:39.400 --> 00:44:45.280
+hanno un rendimento molto elevato, quindi attorno al 60%.
+
+418
+00:44:45.280 --> 00:44:52.720
+A questo punto uno dice, e quindi vi sparo un'ultima slide e poi mi fermo per farvi riposare anche un po' le diciamo
+
+419
+00:44:52.720 --> 00:45:00.280
+le le meningi, diciamo. Uno si domanda, ma che me ne faccio di un amplificatore così che praticamente mi amplifica
+
+420
+00:45:00.280 --> 00:45:05.400
+solamente mezza sinusoide, però il rendimento è molto elevato. ci faccio i
+
+421
+00:45:05.400 --> 00:45:12.319
+cosiddetti amplificatori che sono chiamati in push pool, che è una configurazione molto usata nell'alta
+
+422
+00:45:12.319 --> 00:45:19.839
+fedeltà, ma anche in campo radio. Cioè un amplificatore push pool, come vedete
+
+423
+00:45:19.839 --> 00:45:25.359
+qua, è composto non da un dispositivo, ma da due, quindi ci saranno due
+
+424
+00:45:25.359 --> 00:45:30.640
+transistor, due MOSFET, due valvole. Ogni dispositivo lavora in classe
+
+425
+00:45:30.640 --> 00:45:35.920
+B e amplifica solo metà del ciclo del
+
+426
+00:45:35.920 --> 00:45:41.680
+segnale. L'altro dispositivo amplifica l'altra metà e l'amplificatore combina
+
+427
+00:45:41.680 --> 00:45:47.760
+queste due amplificazioni. Questa cosa la si vede qui in questo schema un po' qualitativo. Vedete che qui ci sono due
+
+428
+00:45:47.760 --> 00:45:54.400
+dispositivi, due transistor che sono uguali, ma vedete nello schema sono voltati uno a capo uno a capo all'ingiù
+
+429
+00:45:54.400 --> 00:46:00.839
+rispetto all'altro, no? del segnale in ingresso. Eh, questo trasformatore,
+
+430
+00:46:00.839 --> 00:46:07.599
+questo circuito che le mette ai dispositivi, fa sì che questo transistor sia pilotato dalle semionde positive del
+
+431
+00:46:07.599 --> 00:46:13.119
+segnale di ingresso e questo sia pilotato dalle semionde negative del segnale di
+
+432
+00:46:13.119 --> 00:46:18.440
+ingresso. Quindi ciascuno di questi due transistor amplifica metà del
+
+433
+00:46:18.440 --> 00:46:24.160
+segnale. Quindi qui in uscita troveremo metà del segnale di ingresso bella
+
+434
+00:46:24.160 --> 00:46:31.680
+amplificata. Lo stesso. Da quest'altro transistor troveremo l'altra metà del segnale amplificato. Questa specie di
+
+435
+00:46:31.680 --> 00:46:37.559
+trasformatore in uscita ricombina queste due metà e quindi qui ricostruisce la
+
+436
+00:46:37.559 --> 00:46:43.200
+sinusoide piena completa, perfetta. Quindi in questo caso, priva di
+
+437
+00:46:43.200 --> 00:46:52.119
+distorsione. di distorsione. Quindi si sfrutta il fatto che eh che questi amplificatori
+
+438
+00:46:52.119 --> 00:47:00.160
+hanno un rendimento molto alto, 60%, per questo ci piace usarli negli amplificatori di potenza e si risolve il
+
+439
+00:47:00.160 --> 00:47:05.319
+problema che il singolo dispositivo avrebbe un'uscita molto distorta, come
+
+440
+00:47:05.319 --> 00:47:13.480
+si vede qui, facendo lavorare due dispositivi e prendendo da ciascuno di questi due dispositivi la metà buona del
+
+441
+00:47:13.480 --> 00:47:19.040
+segnale, cioè la metà che viene amplificata, che per esempio se uno dei due dispositivi è questo, la metà buona
+
+442
+00:47:19.040 --> 00:47:26.079
+è questa qua. L'altra metà, quella che starebbe qua di sotto, viene presa dall'altro
+
+443
+00:47:26.079 --> 00:47:32.200
+dispositivo. E questi sono gli amplificatori in push pool. Push pool che letteralmente vuol dire tira e
+
+444
+00:47:32.200 --> 00:47:39.240
+spingi in inglese, no? Push è spingere, pull è tirare. Danno proprio l'idea di questi due transistor, no? che uno tira
+
+445
+00:47:39.240 --> 00:47:45.160
+di su e uno tira di giù, diciamo, uno tira e uno spinge, o almeno i progettisti di l'inventore di queste
+
+446
+00:47:45.160 --> 00:47:51.920
+cose se l'è se l'è immaginata così. Allora, interrompo la condivisione intanto per vedere se se ci sono
+
+447
+00:47:51.920 --> 00:47:58.760
+domande. Luigi, a te. Sì, quindi però non capisco allora quale
+
+448
+00:47:58.760 --> 00:48:05.200
+aspetto negativo ha il l'amplificatore in classe B nel momento in cui eh il
+
+449
+00:48:05.200 --> 00:48:11.000
+segnale poi in uscita ha una caratteristica eh uguale, cioè non c'ha
+
+450
+00:48:11.000 --> 00:48:18.400
+perdita di qualità da quello che ho capito rispetto a quello in classica. Hai capito bene, diciamo che l'aspetto
+
+451
+00:48:18.400 --> 00:48:23.599
+negativo è in un amplificatore in classe B che usa un solo dispositivo, perché a
+
+452
+00:48:23.599 --> 00:48:30.920
+quel punto potresti a quel punto potresti avere una riproduzione fedele. Quindi l'aspetto negativo è che c'è una
+
+453
+00:48:30.920 --> 00:48:36.200
+una complicazione circuitale un po' più grande, no? Cioè servono due
+
+454
+00:48:36.200 --> 00:48:41.400
+transistione maggiore, una una resistenza maggiore, quindi un
+
+455
+00:48:41.400 --> 00:48:46.480
+una ci vogliono più componenti, semplicemente ci vogliono più pezzi, diciamola così, e quindi è un po' più
+
+456
+00:48:46.480 --> 00:48:53.599
+costoso. Ci vogliono due componenti e bisogna accoppiarli bene perché l'amplificazione dei due transistor deve
+
+457
+00:48:53.599 --> 00:49:00.440
+essere simile, altrimenti il segnale tornerebbe a essere distorto. però si può fare, tant'è che molti amplificatori
+
+458
+00:49:00.440 --> 00:49:07.079
+e anche radiofrequenza, cioè se se si prendono i tipici amplificatori, cioè per quelli di voi
+
+459
+00:49:07.079 --> 00:49:15.240
+che hanno conoscenza della banda cittadina, no? I tipici amplificatori da 100-200 W alimentati a 12-24 V
+
+460
+00:49:15.240 --> 00:49:20.440
+amplificatori dell'RM o diciamo tipicamente hanno un circuito di questo
+
+461
+00:49:20.440 --> 00:49:26.359
+genere, hanno due dispositivi che funzionano in pushpol. Molti di loro hanno questa cosa qua, hanno questi
+
+462
+00:49:26.359 --> 00:49:32.200
+Mettendone due, eh si ottiene il vantaggio dell'alta dell'alto rendimento
+
+463
+00:49:32.200 --> 00:49:37.280
+e si riduce il problema della della distorsione. Si riduce, ma non si è
+
+464
+00:49:37.280 --> 00:49:42.599
+sempre più fedele in classe A. sempre più fedele in classe A, perché se
+
+465
+00:49:42.599 --> 00:49:47.839
+si parla anche ad esempio dell'alta fedeltà
+
+466
+00:49:48.760 --> 00:49:54.319
+e allora la scusa un attimo, rimetto in condivisione lo
+
+467
+00:49:54.319 --> 00:49:59.599
+schermo. Allora, il problema il problema di questi amplificatori appunto è che
+
+468
+00:49:59.599 --> 00:50:04.920
+cerco di disegnare una sinusoide fatta bene. Scusatemi per gli scarabocchi e mi
+
+469
+00:50:04.920 --> 00:50:12.520
+ora col pause mi vengono, ma mi viene molto male. Allora, allora il problema di di questi amplificatori è nel punto
+
+470
+00:50:12.520 --> 00:50:19.520
+dove si devono ricongiungere la sinusoide amplificata da da dal transistor 1 e la sinusoide
+
+471
+00:50:19.520 --> 00:50:25.079
+amplificata da dal transistor 2 perché lì c'è, se vogliamo, un passaggio di
+
+472
+00:50:25.079 --> 00:50:34.400
+mano, d'accordo? Qui c'è, diciamo, il punto in cui insomma del Sì. E e in
+
+473
+00:50:34.400 --> 00:50:42.240
+questo punto è quasi impossibile che il raccordo sia perfetto. Quindi in quel punto lì e c'è
+
+474
+00:50:42.240 --> 00:50:47.599
+sempre una generazione di distorsione. Questa, per esempio, nell'alta fedeltà è
+
+475
+00:50:47.599 --> 00:50:53.400
+chiamata la distorsione di crossover, cioè quando da un transistor all'alto,
+
+476
+00:50:53.680 --> 00:51:00.160
+no, il raccordo è praticamente impossibile che sia assolutamente preciso, come invece
+
+477
+00:51:00.160 --> 00:51:05.839
+un amplificatore in classe A. un amplificatore in classe A è un dispositivo solo, non ci sono
+
+478
+00:51:05.839 --> 00:51:11.799
+assolutamente problemi di eh creare appunto raccordi con con altri
+
+479
+00:51:11.799 --> 00:51:18.559
+dispositivi. Quindi l'amplificatore in classe A è quello eh proprio intrinsecamente assolutamente più fedele
+
+480
+00:51:18.559 --> 00:51:24.000
+di tutti. Ok? Quindi in sostanza eh nell'alta
+
+481
+00:51:24.000 --> 00:51:30.040
+fedeltà è significativa la differenza di qualità, ma da radio
+
+482
+00:51:30.040 --> 00:51:35.200
+m ce ne frega il giusto. Parole povere. Sì, ce ne ce ne frega il giusto. Ce ne
+
+483
+00:51:35.200 --> 00:51:41.599
+frega il giusto, esattamente. Ma poi comunque in alta fedeltà ci sono tutta una serie di accorgimenti che fanno sì
+
+484
+00:51:41.599 --> 00:51:46.799
+che questa distorsione poi di di crossover sia resa minima, tant'è che gli amplificatori alta fedeltà suonano
+
+485
+00:51:46.799 --> 00:51:51.960
+bene, no? cioè vengono fatti suonare bene pur avendo configurazioni di tipo
+
+486
+00:51:51.960 --> 00:51:58.760
+push pool o derivati della della push pool, però diciamo ci vuole una componentistica un po' più elevata e dal
+
+487
+00:51:58.760 --> 00:52:04.000
+punto di vista nostro di dover trasmettere un segnale e quello lì non è
+
+488
+00:52:04.000 --> 00:52:08.760
+un grande problema
+
+489
+00:52:09.559 --> 00:52:15.720
+assolutamente. Allora, c'è un'altra domanda. Vedo TSP Stefano, te?
+
+490
+00:52:15.720 --> 00:52:21.119
+Sì, volevo chiedere, ma questo qua è in classe Bushpol?
+
+491
+00:52:21.160 --> 00:52:29.480
+Questo qua in classe in classe B, no? Sì, in push pool è come la classe AB?
+
+492
+00:52:29.480 --> 00:52:34.720
+No, la classe AB è ancora un'altra cosa, eh. Ah, è diverso. Ti ti rispondo fra un
+
+493
+00:52:34.720 --> 00:52:40.040
+attimo, ti rispondo nelle prossime due slide. Ok, grazie. Lasciala lascialo un
+
+494
+00:52:40.040 --> 00:52:46.079
+attimo in sospeso. Se non ci sono domande vado avanti, altre due tre slide e finisco l'argomento. Ci sarebbe
+
+495
+00:52:46.079 --> 00:52:52.960
+Giovanni Paolo se vuoi rispondere. Giovanni, vai. E l'amplificatore poch lavora in classe
+
+496
+00:52:52.960 --> 00:53:00.480
+C, se non sbaglio. No, può anche lavorare. Io ho trovato una domanda che mi domanda in chi la in quale trancia
+
+497
+00:53:00.480 --> 00:53:07.440
+lavora e metto C e me la dà positiva. Eh, allora dice che lavoro in classe C.
+
+498
+00:53:07.440 --> 00:53:14.799
+No, di solito gli amplificatori in pushpool lavorano in classe B. Non sempre le risposte di quiz sono perfette. Ah,
+
+499
+00:53:14.799 --> 00:53:20.720
+purtroppo. Ok. Allora, comunque grazie per averci già
+
+500
+00:53:20.720 --> 00:53:28.680
+lanciato sulla classe C. Allora, gli amplificatori in classe C, avete capito ormai come funziona il meccanismo. Un
+
+501
+00:53:28.680 --> 00:53:34.000
+amplificatore in classe C, prefendo il pennarello, la corrente
+
+502
+00:53:34.000 --> 00:53:41.200
+scorre ancora meno di dei 180° che scorre nella classe B.
+
+503
+00:53:41.200 --> 00:53:47.280
+Quindi l'angolo di conduzione, come si dice, si stringe ancora fino a 70-80° e
+
+504
+00:53:47.280 --> 00:53:52.400
+roba del genere, quindi l'amplificazione è molto distorta, ma ma veramente molto.
+
+505
+00:53:52.400 --> 00:53:57.599
+Poi vedremo il il solito grafico, però hanno un
+
+506
+00:53:57.599 --> 00:54:03.839
+grande vantaggio che più eh più chiudi l'angolo di circolazione e più ti
+
+507
+00:54:03.839 --> 00:54:10.960
+aumenta il rendimento dell'amplificatore. Quindi un amplificatore in classe C può rendere il 70-75% che è
+
+508
+00:54:10.960 --> 00:54:17.359
+ottimo. E quindi questi amplificatori normalmente vengono usati quando eh
+
+509
+00:54:17.359 --> 00:54:22.880
+amplifichi i segnali dove la linearità dell'amplificazione, la linearità in
+
+510
+00:54:22.880 --> 00:54:28.520
+ampiezza dell'amplificazione non è un problema. Per esempio, un segnale in FM, quando tu
+
+511
+00:54:28.520 --> 00:54:34.240
+trasmetti in FM, mettiamo che è una radio da 10 W, tu premi il microfono, la
+
+512
+00:54:34.240 --> 00:54:40.280
+radio ti genera 10 W di uscita e se tu parli, come si era visto nella serata
+
+513
+00:54:40.280 --> 00:54:46.880
+quando abbiamo parlato dei modi di emissione, tu sposti la frequenza della portante, ma la potenza è sempre 10 W e
+
+514
+00:54:46.880 --> 00:54:53.680
+quindi non c'è bisogno di linearità dell'amplificazione. Allora, cosa succede in un amplificatore in classe C?
+
+515
+00:54:53.680 --> 00:55:00.520
+Succede che, appunto, il punto di lavoro questa volta è qua e quindi è nella zona
+
+516
+00:55:00.520 --> 00:55:07.040
+di interdizione. Quindi quando non c'è segnale di ingresso, quando il segnale di ingresso è zero, l'amplificatore in
+
+517
+00:55:07.040 --> 00:55:14.240
+classe C non assorbe corrente perché è interdetto. E anche qui vedete che per tutta la parte di, diciamo, sinosoide
+
+518
+00:55:14.240 --> 00:55:20.760
+negativa, questa del segnale in ingresso, si si resta, anzi si va ancor di più nella zone di interdizione e non
+
+519
+00:55:20.760 --> 00:55:26.280
+scorre corrente e addirittura per una parte questa qui
+
+520
+00:55:26.280 --> 00:55:32.720
+dell'altra semionda, diciamo, della semionda positiva del segnale di ingresso si resta in zona di
+
+521
+00:55:32.720 --> 00:55:38.160
+interdizione solamente nei picchi, questi che qui vedete tratteggiati con questi
+
+522
+00:55:38.160 --> 00:55:43.440
+puntini neri. eh scorre corrente nel dispositivo che
+
+523
+00:55:43.440 --> 00:55:49.799
+allora amplifica e vedete che il segnale eh somiglia in effetti a una serie di
+
+524
+00:55:49.799 --> 00:55:56.119
+picchi, come si vede, si intuisce anche già da qua, no? Cioè, praticamente la diciamo nel dispositivo nostro la
+
+525
+00:55:56.119 --> 00:56:01.240
+corrente scorre a intervalli. Ci sono alcune zone in cui
+
+526
+00:56:01.240 --> 00:56:07.039
+non scorre per niente e quindi se solamente i picchi
+
+527
+00:56:07.039 --> 00:56:12.280
+del segnale di ingresso portano il dispositivo in conduzione, solamente
+
+528
+00:56:12.280 --> 00:56:18.640
+quelli vengono amplificati. Quindi per forza di cose il segnale di uscita è fatto a picchi pure lui. Ed eccolo qua.
+
+529
+00:56:18.640 --> 00:56:25.400
+Quindi il punto di lavoro è oltre il punto di interdizione. Però se io sto trasmettendo in un modo in cui per
+
+530
+00:56:25.400 --> 00:56:32.000
+esempio in FM non ho bisogno di fedeltà di nell'ampiezza delle mie
+
+531
+00:56:32.000 --> 00:56:37.920
+riproduzione, questo tipo di amplificatori va benissimo perché nel nello schema blocchi del mio
+
+532
+00:56:37.920 --> 00:56:42.960
+trasmettitore, subito dopo questo il dispositivo che lavora in classe C, ci
+
+533
+00:56:42.960 --> 00:56:48.799
+viene messo un ricco circuito risonante, quindi immaginiamo che
+
+534
+00:56:48.799 --> 00:56:54.559
+proprio circuito risonante classico bobina e
+
+535
+00:56:54.559 --> 00:57:00.839
+condensatore e per le loro proprietà se un circuito risonante riceve in qualche
+
+536
+00:57:00.839 --> 00:57:08.400
+modo in ingresso un segnale così anche a picchi, però entra comunque in risonanza e sembra incredibile ma rigenera in
+
+537
+00:57:08.400 --> 00:57:14.200
+uscita una sinusoide piena. Quindi la sinusoide piena che poi va andrà
+
+538
+00:57:14.200 --> 00:57:19.359
+all'antenna viene rigenerata dal circuito risonante. si perde del tutto
+
+539
+00:57:19.359 --> 00:57:24.400
+il legame fra l'ampiezza del segnale in ingresso e l'ampiezza del segnale in
+
+540
+00:57:24.400 --> 00:57:29.799
+uscita. Quindi questo tipo di amplificatore non può trasmettere una modulazione di ampiezza, non può
+
+541
+00:57:29.799 --> 00:57:36.559
+trasmettere una modulazione in SSB dove l'informazione viene data proprio dall'ampiezza del segnale. Ma se io
+
+542
+00:57:36.559 --> 00:57:44.440
+lavoro in telegrafia, ad esempio, dove il segnale è on off, tasto premuto, tasto rilasciato, o se io lavoro in FM,
+
+543
+00:57:44.440 --> 00:57:49.680
+come vedete scritto qua, dove la potenza di uscita del mio trasmettitore è
+
+544
+00:57:49.680 --> 00:57:55.480
+costante nell' FM, l'informazione viene trasmessa spostando la frequenza, quindi
+
+545
+00:57:55.480 --> 00:58:00.839
+con la deviazione di frequenza, non con l'ampiezza. Eh, un amplificatore in FM mi può andare
+
+546
+00:58:00.839 --> 00:58:06.400
+benissimo, anzi e e mi mi andrà molto bene, ad esempio, se io uso un
+
+547
+00:58:06.400 --> 00:58:12.799
+portatile, un portatilino stile Baufeng, no? o questi eh o anche di altre marche
+
+548
+00:58:12.799 --> 00:58:21.160
+che che servono che oppure i PMR in in radio piccoli di quel genere che
+
+549
+00:58:21.160 --> 00:58:26.200
+trasmettere un FM. La classe C è un tocca sana perché consuma pochissimo la
+
+550
+00:58:26.200 --> 00:58:32.640
+batteria avendo un rendimento molto elevato. Se io dovessi amplificare in quelle radio il mio segnale usando una
+
+551
+00:58:32.640 --> 00:58:39.000
+classe A, avrei un rendimento così basso che in pochissimo tempo la batteria si si scaricherebbe, no?
+
+552
+00:58:39.000 --> 00:58:44.640
+Ovviamente e queste e c'è, diciamo, quindi ci sono tre
+
+553
+00:58:44.640 --> 00:58:53.440
+classi di amplificazione A, B e C e le abbiamo viste, no? Quindi A molto fedele, la B fedele, ma tutto sommato
+
+554
+00:58:53.440 --> 00:58:58.640
+ricostruisco la sinusoide col push pool e poi c'è la classe Cata di solito
+
+555
+00:58:58.640 --> 00:59:05.440
+appunto solo per FM CW. C'è un'ulteriore tipologia, diciamo così, di
+
+556
+00:59:05.440 --> 00:59:11.400
+amplific di amplificatori che sono quelli in classe B, come stava dicendo prima chi era Luca, vi
+
+557
+00:59:11.400 --> 00:59:17.079
+pare. E allora, classe, diciamo, un amplificatore in classe AB è
+
+558
+00:59:17.079 --> 00:59:23.039
+semplicemente regolato bene il punto di lavoro del transistor per avere un angolo di
+
+559
+00:59:23.039 --> 00:59:30.039
+circolazione che non è i 180° della classe pura B, ma è in qualche modo un
+
+560
+00:59:30.039 --> 00:59:35.839
+po' di più. Non saranno 180, potrebbero essere 220 240. Allora, in sostanza in
+
+561
+00:59:35.839 --> 00:59:40.880
+un amplificatore, in classe AB si cerca semplicemente un
+
+562
+00:59:40.880 --> 00:59:47.000
+compromesso e facendo in modo di mettendo il punto di lavoro, torno su
+
+563
+00:59:47.000 --> 00:59:54.200
+una delle curve che possono essere adatte, mettendo il punto di lavoro eh
+
+564
+00:59:54.200 --> 01:00:01.240
+non qui dovevamo nello schema nell'esempio in classe B, ma un po' più in
+
+565
+01:00:01.240 --> 01:00:08.039
+su in modo da cercare un compromesso. fra un buon rendimento del tipo 50 55
+
+566
+01:00:08.039 --> 01:00:16.599
+60% e un'amplificazione tutto sommato abbastanza fedele. E questi sono la la classe AB,
+
+567
+01:00:16.599 --> 01:00:23.240
+il funzionamento in classe AB era il tipico era la tipica classe di funzionamento degli amplificatori finali
+
+568
+01:00:23.240 --> 01:00:28.960
+dei trasmettitori a valvole che tutti di fatto tutti amplificatori lineari
+
+569
+01:00:28.960 --> 01:00:34.319
+compresi tendenzialmente lavorano in classe AB.
+
+570
+01:00:35.640 --> 01:00:41.559
+E in questa tabella mh avete un po' il riassunto di
+
+571
+01:00:41.559 --> 01:00:47.400
+quello che si è detto. Quindi classe A la corrente circola per l'intero periodo. Classe
+
+572
+01:00:47.400 --> 01:00:55.640
+AB non un intero periodo, ma sicuramente più di mezzo. Classe C, la corrente circola per
+
+573
+01:00:55.640 --> 01:01:01.720
+metà del periodo. Classe C, classe B, scusate, classe C, la corrente circola per
+
+574
+01:01:01.720 --> 01:01:11.240
+meno. Classe A, riproduzione molto fedele. Classe AB mh eh insomma
+
+575
+01:01:11.240 --> 01:01:17.640
+abbastanza fedele, rendimento simile alla classe B. Mh, classe B si può tenere in
+
+576
+01:01:17.640 --> 01:01:25.440
+riproduzione lineare solo col pushpol che a volte viene chiamato anche controfase in italiano e la classe C usata in
+
+577
+01:01:25.440 --> 01:01:33.839
+amplificatori per alta frequenza con carico risonante dove non serve una buona fedeltà di riproduzione in
+
+578
+01:01:33.839 --> 01:01:39.079
+ampiezza. E questo è tutto sugli sugli amplificatori, quindi classe A, classe
+
+579
+01:01:39.079 --> 01:01:44.280
+B, classe C. Allora, un po' di domande. Prima Marco e poi Marcello. Tolgo la
+
+580
+01:01:44.280 --> 01:01:51.119
+condivisione così ci vediamo. Marco, a te. Una curiosità, perché soprattutto
+
+581
+01:01:51.119 --> 01:01:56.680
+nell'alta fedeltà decantano le classi a
+
+582
+01:01:56.680 --> 01:02:03.079
+B, quando in verità per l'alta fedeltà dovrebbe usare un classe A per avere una
+
+583
+01:02:03.079 --> 01:02:10.160
+buona un buon impianto. da noi amatori si eh si preferisce un
+
+584
+01:02:10.160 --> 01:02:15.279
+classe A anche se e con le ventole grosse così però si preferisce in classe
+
+585
+01:02:15.279 --> 01:02:21.440
+A. Ma diciamo e allora in alta fedeltà, l'amplificatore alta fedeltà tipico è in
+
+586
+01:02:21.440 --> 01:02:26.599
+classe A. Se se pensi per esempio ci sono degli amplific Allora, il problema
+
+587
+01:02:26.599 --> 01:02:33.160
+dell'amplificatore classe A è che avendo un rendimento molto basso scalda scalda molto, no? Diventa una stufetta, come
+
+588
+01:02:33.160 --> 01:02:38.680
+dicevo prima. Però, per esempio, ci sono degli splendidi amplificatori in classe A per
+
+589
+01:02:38.680 --> 01:02:43.880
+cuffia e quindi amplificatori che hanno 23 W, per cui potenze basse, il calore
+
+590
+01:02:43.880 --> 01:02:50.480
+non è un problema. A quello a a quel punto sono proprio assolutamente lineari,
+
+591
+01:02:51.240 --> 01:02:58.520
+però a volte decantano l'alta fedeltà, classe AB. classe A B, però mh ho ho dei
+
+592
+01:02:58.520 --> 01:03:05.440
+grossi dubbi, francamente. Eh, anche a me, eh ho dei grossi dubbi. Non non non non mi fiderei molto di pubblicità di
+
+593
+01:03:05.440 --> 01:03:13.319
+quel genere, diciamo così. Eh, Marco, a te.
+
+594
+01:03:13.319 --> 01:03:20.480
+Io Ma Marco, sì, Morelli, scusami, muoripi. Hai detto giustamente che gli
+
+595
+01:03:20.480 --> 01:03:26.680
+amplificatori in alta frequenza sono valvolari, sono in AB. Giusto. Sì,
+
+596
+01:03:26.680 --> 01:03:33.400
+corretto. Però io ho anche un Poi ha detto che che quelli dell RM Mospet sia
+
+597
+01:03:33.400 --> 01:03:38.920
+Mospet, no? Quelli di RMatori che lavorano in classe B. Io
+
+598
+01:03:38.920 --> 01:03:44.000
+però ho un MOSFET che lavora in AB. Sì, sì, ce ne sono, ce ne sono.
+
+599
+01:03:44.000 --> 01:03:50.720
+Assolutamente, assolutamente. Quindi è normale, non solo i valvolari lavorano in AB.
+
+600
+01:03:50.720 --> 01:03:57.799
+Eh, sì. Allora, i tipici amplificatori a MOSFET, ma anche gli LD
+
+601
+01:03:57.799 --> 01:04:05.000
+MOST eccetera, tendenzialmente lavorano tutti in AB. Tanto per dare un po' di numeri sono
+
+602
+01:04:05.000 --> 01:04:10.440
+amplificatori ad esempio dove eh usando la terminologia tipica degli
+
+603
+01:04:10.440 --> 01:04:16.599
+amplificatori, no? Allora, immaginiamo che il il MOSFET, immaginiamo un amplificatore a MOSFET, come sta dicendo
+
+604
+01:04:16.599 --> 01:04:24.200
+Marco, immaginiamo che quando sono in trasmissione il MOSFET mi consuma una corrente di 5 amp, per esempio, no?
+
+605
+01:04:24.200 --> 01:04:31.119
+Tanto per dire. Quindi la corrente quando sei in TX in trasmissione è 5 amp. Sì. Eh, quando quando c'è potenza
+
+606
+01:04:31.119 --> 01:04:37.119
+in ingresso, normalmente il dispositivo viene polarizzato per per assorbire a
+
+607
+01:04:37.119 --> 01:04:42.440
+riposo una corrente di circa il 10-15% della corrente massima. Quindi c'è una
+
+608
+01:04:42.440 --> 01:04:48.440
+corrente di riposo che molte volte in inglese viene chiamata la corrente di bias, di bias di polarizzazione,
+
+609
+01:04:48.440 --> 01:04:55.279
+diciamo, di 500 m, 7800 m, come accadeva nei vecchi
+
+610
+01:04:55.279 --> 01:05:01.559
+amplificatori valvolari di cui si parlava prima, che avevi una corrente di riposo metri di di 100 m, quando diciamo
+
+611
+01:05:01.559 --> 01:05:08.319
+andavi in trasmissione, no, senza parlare, immagin immaginando un SSB e poi in trasmissione la valvola ti
+
+612
+01:05:08.319 --> 01:05:16.440
+assorbiva quei 600 700 800 mamp, per esempio. Probabilo. Ok, Marco. Sì, sì.
+
+613
+01:05:16.440 --> 01:05:21.880
+No, dicevo questo perché mi è andata bene a me un giorno,
+
+614
+01:05:21.880 --> 01:05:26.920
+perché mi è successa una cosa un po', di solito non si fa, però a me mi è
+
+615
+01:05:26.920 --> 01:05:32.960
+successa perché spolveravo la radio e invece di di diciamo di alimentarlo con
+
+616
+01:05:32.960 --> 01:05:40.920
+il 20% un millisecondo mi ha dato al 70-80% in ingresso, quindi
+
+617
+01:05:40.920 --> 01:05:49.318
+fortunatamente non è successo niente, però è andato vicino alla fumata. Puff! Bel! Ti è andato
+
+618
+01:05:50.640 --> 01:06:00.440
+bene. Ci sono altre domande? Allora, quindi classe A, B e C.
+
+619
+01:06:02.480 --> 01:06:09.240
+C'è Marco con la mano alzata. Paolo, non lo vedo, ma mi fido a Marco, a te. Ah no,
+
+620
+01:06:09.240 --> 01:06:14.440
+ma la forse ti è rimasta la mano alzata da prima.
+
+621
+01:06:15.559 --> 01:06:21.599
+Marco, Marco Morelli. Ecco. Ok, perfetto. Bene, grazie.
+
+622
+01:06:21.599 --> 01:06:27.920
+Va bene, proseguo. Proseguiamo. Rimetto in condivisione e
+
+623
+01:06:27.920 --> 01:06:34.680
+adesso abbiamo un argomento facile facile facile, cioè dopo la classe A, B, C eccetera che ci hanno fatto un po' un
+
+624
+01:06:34.680 --> 01:06:42.400
+po' sudare, qui siamo molto sul tranquillo. Gli oscillatori. Allora, gli oscillatori sono un altro un'altra delle
+
+625
+01:06:42.400 --> 01:06:48.799
+delle scatolette nere e se ne trovano in gran quantità sia né trasmettitori che ricevitori. L'oscillatore è una
+
+626
+01:06:48.799 --> 01:06:54.640
+scatoletta nera. Il compito è generare un segnale. Generare un segnale. E il
+
+627
+01:06:54.640 --> 01:06:59.760
+segnale viene generato. Scusate, ho perso il cursore. Eccolo qua. Cosa fa un
+
+628
+01:06:59.760 --> 01:07:04.920
+oscillatore? Genera un segnale frequenza. E come funziona un
+
+629
+01:07:04.920 --> 01:07:10.359
+oscillatore? funziona col meccanismo della retroazione, nel senso che una
+
+630
+01:07:10.359 --> 01:07:17.119
+parte del segnale in uscita viene riportato all'ingresso. Lo vediamo ad esempio bene in questo schema. Qui
+
+631
+01:07:17.119 --> 01:07:25.039
+vedete che c'è come dispositivo, questo è il simbolo del FET, ricordate, no? Field effectistor che non ha la base, ma
+
+632
+01:07:25.039 --> 01:07:31.799
+un terminale che si chiama gate. E come in tutti gli oscillatori, cosa succede? Ma succede che tu lo
+
+633
+01:07:31.799 --> 01:07:39.279
+accendi e all'inizio anche semplicemente eh il segnale di gate eh
+
+634
+01:07:39.279 --> 01:07:45.319
+raccoglie un po' di rumore, un po' di rumore intrinsico del dispositivo, eccetera. Questo piccolissimo rumore che
+
+635
+01:07:45.319 --> 01:07:50.880
+c'è in ingresso viene amplificato e lo si ritrova in uscita qua. Mh in questo
+
+636
+01:07:50.880 --> 01:07:57.559
+punto. Però negli gli amplific, scusate, gli oscillatori, vi dicevo, funzionano col principio della retrazione. Allora,
+
+637
+01:07:57.559 --> 01:08:04.079
+cosa cosa c'è nello schema di questi oscillatori? C'è un qualche pezzo di circuito che fa sì che il segnale
+
+638
+01:08:04.079 --> 01:08:10.799
+dell'uscita venga riportato in parte dell'ingresso. E qui vedete che il circuito è questo qua. si passa tramite
+
+639
+01:08:10.799 --> 01:08:17.920
+questo condensatore, si scende giù, gira gira gira e viene ributtato in ingresso
+
+640
+01:08:17.920 --> 01:08:24.000
+tramite un una presa di una bobina eh al gate
+
+641
+01:08:24.000 --> 01:08:29.679
+del FET e quindi questo segnale mi viene ributtato in ingresso e viene
+
+642
+01:08:29.679 --> 01:08:35.159
+riamplificato e quindi al secondo giro ci trovo un segnale di ingresso un po' più grande e quindi un segnale d'uscita
+
+643
+01:08:35.159 --> 01:08:41.560
+ancora più un po' più grande e il gioco continua così. questo segnale d'uscita un po' più grande mi viene ributtato in
+
+644
+01:08:41.560 --> 01:08:49.199
+ingresso e viene riamplificato, viene riamplificato, viene riamplificato finché non si arriva a una situazione di
+
+645
+01:08:49.199 --> 01:08:55.359
+di regime di oscillazione stabile dove il il mio dispositivo mi genera un
+
+646
+01:08:55.359 --> 01:09:01.520
+segnale di uscita di ampiezza costante e siccome negli
+
+647
+01:09:01.520 --> 01:09:09.278
+oscillatori che si usano in campo radiamatoriale noi vogliamo generare una frequenza precisa in questi oscillatori
+
+648
+01:09:09.279 --> 01:09:14.560
+ci sono sempre o dei quarzi o dei circuiti risonanti. Il circuito risonante di questo oscillatore, eccolo
+
+649
+01:09:14.560 --> 01:09:21.480
+qua, è formato da questa bobina L1 e da questo condensatore C1 che ora sto
+
+650
+01:09:21.480 --> 01:09:27.040
+cerchiando. E questo circuito risonante fa sì che questo meccanismo di
+
+651
+01:09:27.040 --> 01:09:32.359
+retroazione funzioni per molto bene proprio per la frequenza di risonanza di
+
+652
+01:09:32.359 --> 01:09:37.679
+questo circuito, al valore della frequenza di risonanza del del circuito. Quindi l'oscillatore mi genera un
+
+653
+01:09:37.679 --> 01:09:44.600
+segnale di uscita quaggiù, un segnale di uscita che di solito è sempre sinusoidale o abbastanza sinusoidale
+
+654
+01:09:44.600 --> 01:09:51.560
+alla frequenza del mio circuito risonante. Quindi se io volevo un
+
+655
+01:09:51.560 --> 01:09:58.080
+segnale ad esempio a 9 MHz, tanto per dire, eh qui si progetta un circuito LC
+
+656
+01:09:58.080 --> 01:10:04.920
+bobina e condensatore che risuogna a 9 MHz, lo si mette in questo circuito e il circuito funziona in questo modo qua.
+
+657
+01:10:04.920 --> 01:10:11.280
+segnale viene retroazionato e viene amplificato finché il funzionamento non diventa stabile. A quel punto il segnale
+
+658
+01:10:11.280 --> 01:10:17.239
+di uscita è ha una frequenza di 9 MHz come stabilito da questo circuito
+
+659
+01:10:17.239 --> 01:10:24.159
+risonante e un'ampiezza come stabilita da i componenti che stanno attorno al Fed che ora non ci interessa più di
+
+660
+01:10:24.159 --> 01:10:29.199
+tanto dire quali sono. Quindi torno sulla definizione. Quindi cos'è un oscillatore? Un oscillatore è uno
+
+661
+01:10:29.199 --> 01:10:35.000
+scatolotto che genera un segnale a radiofrequenza. Funziona perché una parte del segnale di
+
+662
+01:10:35.000 --> 01:10:41.239
+ingresso, come leggete qua, viene, scusate, la parte del segnale in uscita viene riportato in ingresso, cioè questo
+
+663
+01:10:41.239 --> 01:10:49.080
+meccanismo di retroazione. Se nel percorso di retroazione si usa un circuito LC o un
+
+664
+01:10:49.080 --> 01:10:55.600
+quarzo, il segnale di uscita è la stessa frequenza di risonanza del circuito LC o del quarzo
+
+665
+01:10:55.600 --> 01:11:04.719
+stesso. Questo qui ne abbiamo parlato. Questa è la stessa cosa con un quarzo.
+
+666
+01:11:04.719 --> 01:11:11.960
+Sapete che quando si era parlato dei quarzi si era detto che sono loro stessi dei risonatori con un fattore di qualità
+
+667
+01:11:11.960 --> 01:11:19.880
+molto molto molto più elevato di quello di un circuito risonante. Sì. Quando si era parlato del fattore di qualità Q
+
+668
+01:11:19.880 --> 01:11:26.520
+delle bobine, lettera Q delle bobine e dei circuiti risonanti, si diceva che un fattore di qualità di un circuito
+
+669
+01:11:26.520 --> 01:11:32.560
+risonante normale poteva essere sui 100-150, il fattore di qualità di un quarto può essere sui 10.000, 1000,
+
+670
+01:11:32.560 --> 01:11:39.639
+quindi diciamo è è nettamente più preciso, selettivo un quarzo rispetto a
+
+671
+01:11:39.639 --> 01:11:45.920
+un circuito risonante. Qui c'è un circuitino con un transistor dove vedete esattamente lo stesso funzionamento di
+
+672
+01:11:45.920 --> 01:11:53.040
+prima, no? Il segnale in base a questo transistor c'è qua, viene amplificato sul collettore, cioè qua abbiamo un
+
+673
+01:11:53.040 --> 01:11:58.159
+segnale, abbiamo il segnale amplificato. Questo segnale viene riportato
+
+674
+01:11:58.159 --> 01:12:03.239
+quaggiù verso l'ingresso del transistor ma attraversando questo
+
+675
+01:12:03.239 --> 01:12:09.560
+quarzo. Quindi c'è un anello, un loop di amplificazione come prima, quindi il
+
+676
+01:12:09.560 --> 01:12:16.000
+segnale gira, rigira, rigira, ogni volta aumenta perché viene amplificato dal transistor finché questo segnale che
+
+677
+01:12:16.000 --> 01:12:21.639
+gira raggiunge un livello stabile e la frequenza è quella dettata dal quarzo. I
+
+678
+01:12:21.639 --> 01:12:27.840
+quarti sono molto selettivi, ricordate che si era visto che avevano curve proprio molto molto strette, quindi un
+
+679
+01:12:27.840 --> 01:12:33.000
+quarzo tiene l'oscillatore eh molto fermo alla
+
+680
+01:12:33.000 --> 01:12:40.159
+frequenza proprio di risonanza del quarzo. E questo è scritto qua. Gli
+
+681
+01:12:40.159 --> 01:12:46.159
+oscillatori con un circuito LC funzionano, funzionano anche bene, ma sono poco stabili. Se al posto del
+
+682
+01:12:46.159 --> 01:12:51.239
+circuito LC si usa un quarzo, l'oscillatore sarà invece molto
+
+683
+01:12:51.239 --> 01:12:56.760
+stabile. Usando un oscillatore a quarzo si può anche generare si possono anche
+
+684
+01:12:56.760 --> 01:13:02.920
+generare delle frequenze chiamate armoniche. Ad esempio, qui dicevo, immaginiamo che questo calcio sia a 9
+
+685
+01:13:02.920 --> 01:13:12.320
+MHz. Eh, posso eh diciamo mettendo gli
+
+686
+01:13:12.320 --> 01:13:19.280
+opportuni gli opportuni componenti in questo circuito, far oscillare questo quarzo non a 9 MHz, ma alla terza
+
+687
+01:13:19.280 --> 01:13:25.040
+armonica, per esempio, che sarebbe 27 MHz o anche più su alla alla non
+
+688
+01:13:25.040 --> 01:13:30.800
+armonica o cose di questo tipo. Quindi da un quarzo posso generare delle frequenze
+
+689
+01:13:30.800 --> 01:13:36.000
+armoniche, quindi doppia, tripla, quadrupla, quintla. Tipicamente meglio
+
+690
+01:13:36.000 --> 01:13:43.360
+le frequenze dispari, tripla la terza armonica, la quinta armonica, la settima armonica.
+
+691
+01:13:44.000 --> 01:13:49.040
+Scusate. Infine c'è un terzo tipo di
+
+692
+01:13:49.040 --> 01:13:56.159
+oscillatore che sono quelli chiamati ad aggancio di fase che sono quelli che sono usati eh adesso nella quasi
+
+693
+01:13:56.159 --> 01:14:03.480
+totalità dei ricitrasmettitori attuali. E il il trucco, diciamo, che sta alla
+
+694
+01:14:03.480 --> 01:14:10.560
+base del funzionamento di questi oscillatori aggancio di fase è che hanno un oscillatore variabile che
+
+695
+01:14:10.560 --> 01:14:16.560
+genera il segnale che vuoi tu in uscita, però si aggancia,
+
+696
+01:14:16.560 --> 01:14:24.320
+scusate, scusate, si aggancia il si accgancia la
+
+697
+01:14:24.320 --> 01:14:32.360
+frequenza di questo oscillatore variabile a quella di un oscill oscillatore di riferimento a quarzo per
+
+698
+01:14:32.360 --> 01:14:38.440
+dargli stabilità. Quindi vedete che ci sono in un
+
+699
+01:14:38.440 --> 01:14:44.480
+oscillatore aggancio ad aggancio di fa, scusate la
+
+700
+01:14:44.480 --> 01:14:49.920
+gola, ci sono negli oscillatori d' aggancio di fase in realtà nei circuiti
+
+701
+01:14:49.920 --> 01:14:55.800
+complessivi di di un oscillatore aggancio di fase che è chiamato PLL,
+
+702
+01:14:55.800 --> 01:15:01.040
+loop ad aggancio di fase, face locked loop, loop ad aggancio di fase, ci sono
+
+703
+01:15:01.040 --> 01:15:08.199
+in realtà due oscillatori. Uno è l'oscillatore che mi dà l'uscita e uno è l'oscillatore di
+
+704
+01:15:08.199 --> 01:15:13.480
+riferimento e il circuito dell'aggancio di fase aggancia il generatore che mi dà
+
+705
+01:15:13.480 --> 01:15:19.600
+l'uscita a quella all'oscillatore di riferimento. si capisce meglio su
+
+706
+01:15:19.600 --> 01:15:27.400
+questo eh su questo schema un po' di massimo, ma comunque allora quello che
+
+707
+01:15:27.400 --> 01:15:34.120
+vedete qua qui VCO è l'oscillatore che genera il
+
+708
+01:15:34.120 --> 01:15:40.880
+segnale che io voglio in uscita dal mio dal mio PLL, dal mio oscillatore PLL.
+
+709
+01:15:40.880 --> 01:15:46.679
+VCO vuol dire oscillatore controllato in tensione. Voltage controlled oscillator.
+
+710
+01:15:46.679 --> 01:15:52.520
+Oscillatore controllato in tensione. Cosa vuol dire oscillatore controllato in tensione? Che per regolare la
+
+711
+01:15:52.520 --> 01:15:59.120
+frequenza di questo oscillatore non devo girare una manopola come nel caso degli oscillatori con con un condensatore
+
+712
+01:15:59.120 --> 01:16:05.560
+variabile, ma la frequenza di questo oscillatore è regolata da dei diodi varicap. Ricordate quando avevamo
+
+713
+01:16:05.560 --> 01:16:12.159
+parlato dei diodi? No, si era visto che esistevano i LED, gli zener, si era visto che esistevano anche i diodi baricup, cioè quelli a variazione di
+
+714
+01:16:12.159 --> 01:16:19.400
+capacità che sono praticamente dei condensatori variabili elettronici, si potrebbe dire. Quindi a seconda di come
+
+715
+01:16:19.400 --> 01:16:24.840
+li polarizzo inversamente la capacità del mio di varicap varia, per esempio,
+
+716
+01:16:24.840 --> 01:16:30.719
+da da 10 a 100 picofarad. E quindi questa variazione di
+
+717
+01:16:30.719 --> 01:16:37.000
+capacità mi eh mi fa in modo in qualche modo di di di fai in modo di portare
+
+718
+01:16:37.000 --> 01:16:43.440
+l'uscita del del mio VCO alla frequenza che mi serve.
+
+719
+01:16:43.440 --> 01:16:51.159
+il segnale di uscita viene eh oltre che in uscita viene prelevato e mandato in
+
+720
+01:16:51.159 --> 01:16:56.920
+questo scatolotto qua. Questo è uno scatolotto abbastanza
+
+721
+01:16:56.920 --> 01:17:02.679
+complicato, mentre questo questo in uscita è è un oscillatore più o meno del
+
+722
+01:17:02.679 --> 01:17:08.440
+tipo di quelli che abbiamo visto prima, semplicemente con dei vari capi invece che con dei condensatori, ma diciamo lo
+
+723
+01:17:08.440 --> 01:17:15.880
+schema è sempre quello. Questo è un circuito abbastanza complicato che fa una comparazione di fase di fase fra due
+
+724
+01:17:15.880 --> 01:17:21.080
+segnali sinusidali diversi. Uno è il segnale di uscita, quindi immaginiamo
+
+725
+01:17:21.080 --> 01:17:26.360
+che il segnale di uscita sia questo, no, riportato tramite questa
+
+726
+01:17:26.360 --> 01:17:33.480
+linea che vedete qua in basso. E l'altro il segnale di un quarzo di di un oscillatore di riferimento a quarzo,
+
+727
+01:17:33.480 --> 01:17:38.760
+quindi stabile, che va su un altro ingresso con dei meccanismi esoterici
+
+728
+01:17:38.760 --> 01:17:46.159
+che fortunatamente non c'è bisogno di conoscere per l'esame. Questo comparatore di fase genera in questo
+
+729
+01:17:46.159 --> 01:17:52.360
+punto di uscita una una diciamo una tensione, la
+
+730
+01:17:52.360 --> 01:18:02.800
+potremmo considerare una tensione di errore, come avevamo visto negli negli alimentatori, eh che se diciamo la mia
+
+731
+01:18:02.800 --> 01:18:10.120
+la mia frequenza di uscita dal mio VCO tende ad allontanarsi dal valore che ho
+
+732
+01:18:10.120 --> 01:18:16.639
+impostato perché magari l'oscillatore si scalda perché magari, appunto, essendo questo un oscillatore non ha quarzo, non
+
+733
+01:18:16.639 --> 01:18:24.280
+ha la stebida del quarzo. Eh, la tensione di fase che qui si
+
+734
+01:18:24.280 --> 01:18:30.000
+genera da questo circuito di comparazione di fase tramite un filtro pasta basso va a modificare la
+
+735
+01:18:30.000 --> 01:18:36.880
+polarizzazione dei baricap e mi aggiusta la frequenza dell'oscillatore. Quindi è è un loop di
+
+736
+01:18:36.880 --> 01:18:42.800
+retroazione, come vedete, dal da dal dallo dal WCO. il segnale torna
+
+737
+01:18:42.800 --> 01:18:49.159
+indietro, viene retrocesso al comparatore di fase, viene comparato a quello di un della mia frequenza stabile
+
+738
+01:18:49.159 --> 01:18:57.920
+di riferimento. La tensione di errore che viene fuori da questa da questa comparazione mi mi tiene in passo il mio
+
+739
+01:18:57.920 --> 01:19:04.239
+eh il mio oscillatore. Quindi in questa
+
+740
+01:19:04.239 --> 01:19:11.080
+situazione eh la fase dell'oscillatore è agganciata. locked vuol dire agganciata.
+
+741
+01:19:11.080 --> 01:19:16.600
+A cos'è agganciata la fase del segnale di uscita? È agganciata alla fase dell'oscillatore a quarzo, cioè di
+
+742
+01:19:16.600 --> 01:19:23.560
+questo oscillatore qua. Eh, letteralmente vuol dire proprio questo, no? Eh, loop ad aggancio di
+
+743
+01:19:23.560 --> 01:19:29.120
+fase. Si agganciano la fase di due oscillatori. Si aggancia si aggancia la
+
+744
+01:19:29.120 --> 01:19:34.880
+fase del del VCO a quella dell'oscillatore di di riferimento. L'aggancio avviene tramite un
+
+745
+01:19:34.880 --> 01:19:42.120
+comparatore, un comparatore di fase. In questo modo si si può con questa configurazione
+
+746
+01:19:42.120 --> 01:19:48.280
+si può fare in modo di avere la frequenza che si vuole in uscita, anche variabile e questa frequenza tramite
+
+747
+01:19:48.280 --> 01:19:55.440
+questo meccanismo di aggancio di fase la si tiene agganciata a un riferimento a quarzo che lavora a frequenza fissa e
+
+748
+01:19:55.440 --> 01:20:01.760
+che dà stabilità a al mio oscillatore. E queste sono le tre
+
+749
+01:20:01.760 --> 01:20:07.639
+tipologie di di oscillatori eh utili, diciamo, che che normalmente si usano
+
+750
+01:20:07.639 --> 01:20:14.440
+nelle nelle radio. Quindi ribadisco, cioè l'oscillatore libero, a volte è chiamato anche WFO,
+
+751
+01:20:14.440 --> 01:20:21.480
+oscillatore a frequenza variabile, perché la frequenza di questo oscillatore può essere variata
+
+752
+01:20:21.480 --> 01:20:26.520
+rendendo un condensatore variabile. Quindi posso usare questo per la
+
+753
+01:20:26.520 --> 01:20:31.920
+sintonia di un ricevitore, ad esempio, no? modifico la mia frequenza del mio oscillatore. Di conseguenza, come
+
+754
+01:20:31.920 --> 01:20:37.719
+vedremo nei ricevitori, vado a modificare la frequenza del segnale ricevuto. Oppure quando ho bisogno di un
+
+755
+01:20:37.719 --> 01:20:42.840
+segnale molto stabile, ma a frequenza fissa, ci sono gli oscillitori a quarzo,
+
+756
+01:20:42.840 --> 01:20:48.120
+quindi stabili ma a frequenza fissa. Vedete che i punti di forza e di
+
+757
+01:20:48.120 --> 01:20:54.080
+debolezza degli oscillatori a quarzo e dell'oscillatori di fasi sono assolutamente complementari.
+
+758
+01:20:54.080 --> 01:20:59.239
+scusatemi, e dell'oscillatore libero. L'oscillatore libero eh posso posso
+
+759
+01:20:59.239 --> 01:21:06.280
+averlo alla frequenza che voglio e questo è un grande vantaggio, però non ha una grande stabilità e questo è lo
+
+760
+01:21:06.280 --> 01:21:12.800
+svantaggio. L'oscillatore a quarzo ha una frequenza altissima e questo è, scusatemi, ha una stabilità altissima e
+
+761
+01:21:12.800 --> 01:21:19.560
+questo è un vantaggio, però e posso averlo solamente alla frequenza del quarzo, quindi lo posso avere lì. Se io
+
+762
+01:21:19.560 --> 01:21:26.159
+ho bisogno di un oscillatore che possa fare un'ampia escursione in frequenza e lo voglio stabile, devo usare un
+
+763
+01:21:26.159 --> 01:21:33.239
+circuito d' aggancio di fase dove aggancio eh dove tramite la stabilità di
+
+764
+01:21:33.239 --> 01:21:39.600
+fase io rendo stabile come se fosse un oscillatore a quarzo, un oscillatore che invece è una frequenza
+
+765
+01:21:39.600 --> 01:21:44.719
+variabile. Quindi, se vogliamo, o si potrebbe dire botte piena e moglie
+
+766
+01:21:44.719 --> 01:21:51.400
+ubriaca, la stabilità del quarzo e la variabilità in frequenza tipica di appunto di un oscillatore a frequenza
+
+767
+01:21:51.400 --> 01:21:57.600
+variabile. E con questo e questo è tutto sugli oscillatori, quindi le tre tipologie: oscillatore libero,
+
+768
+01:21:57.600 --> 01:22:04.400
+oscillatore a quarzo, oscillatore ad aggancio di fase. Ci sono domande su
+
+769
+01:22:04.400 --> 01:22:08.800
+questo Marco? A te.
+
+770
+01:22:11.199 --> 01:22:18.960
+Marco, se stai parlando il microfono spento. Dimenticanza, scusa. Dicevo, lo
+
+771
+01:22:18.960 --> 01:22:26.120
+scatolotto del filtro passa basso, a parte non è il soggetto, è un passapasso e quindi
+
+772
+01:22:26.120 --> 01:22:31.719
+taglia tutte le frequenze alte in questo caso oppure lo decidiamo
+
+773
+01:22:31.719 --> 01:22:39.199
+sul momento che filtro mettere. Quel quel filtro pasta basso serve a ottenere una tensione continua. mh, diciamo così,
+
+774
+01:22:39.199 --> 01:22:45.520
+quindi serve a togliere dal segnale di errore un'eventuale ondulazione residua
+
+775
+01:22:45.520 --> 01:22:50.840
+che modulerebbe in frequenza il VFO. Il filtro passo serve a ottenere un segnale
+
+776
+01:22:50.840 --> 01:22:58.199
+di uscita perfettamente continuo. Ah, perfetto, ho capito. Serve solo per quel motivo praticamente. Sì, sì, c'è solo,
+
+777
+01:22:58.199 --> 01:23:03.920
+cioè è un motivo importantissimo perché altrimenti i se quel segnale lì fosse
+
+778
+01:23:03.920 --> 01:23:10.120
+modulato, quella modulazione si trasformerebbe in modulazione di frequenza del VCO, cioè il classico
+
+779
+01:23:10.120 --> 01:23:15.960
+filtro bobina e condensatore, insomma. E no, perché siccome è un filtro in
+
+780
+01:23:15.960 --> 01:23:21.679
+continua e sono filtri resistenza, condensatore,
+
+781
+01:23:21.679 --> 01:23:27.719
+transistoro, cioè non è non diciamo è diciamo quelloì è un filtro fatto bene,
+
+782
+01:23:27.719 --> 01:23:36.719
+diciamo, in questo modo. È un filtro che ha la sua complessità proprio perché devi tirare fuori una tensione continua molto piatta. Mh mh. Mh. Pria di rumore,
+
+783
+01:23:36.719 --> 01:23:40.080
+diciamo. Sì, sì, sì.
+
+784
+01:23:41.760 --> 01:23:48.120
+Altre domande sugli oscillatori? Ok, ottimo. Allora, a
+
+785
+01:23:48.120 --> 01:23:54.960
+questo punto vi porto all'ultimo argomento di stasera che sono i decibel. Allora, i
+
+786
+01:23:54.960 --> 01:24:00.840
+decibel a detto proprio in termini assolutamente pratici a prima vista
+
+787
+01:24:00.840 --> 01:24:08.120
+sembra una cosa che si sembra una cosa molto complicata. Al lato pratico, in realtà l'utore dei decibel è
+
+788
+01:24:08.120 --> 01:24:14.719
+estremamente semplice. Dunque, il decibel intanto è un'unità di misura,
+
+789
+01:24:14.719 --> 01:24:20.960
+scusate, è un'unità di misura che in elettronica viene usata molto. Per esempio, voi andate a comprare
+
+790
+01:24:20.960 --> 01:24:26.800
+un'antenna, sapete che le antenne e o se non lo sapete lo vedrete fra qualche
+
+791
+01:24:26.800 --> 01:24:32.880
+lezione, quando appunto si parlerà di antenne, le antenne hanno possono avere un certo guadagno, quindi possono in
+
+792
+01:24:32.880 --> 01:24:39.040
+qualche modo irradiare in una certa direzione un un segnale anche molto
+
+793
+01:24:39.040 --> 01:24:44.639
+forte. E come si come si misura il guadagno di un'antenna? O meglio, il
+
+794
+01:24:44.639 --> 01:24:49.760
+costruttore come ci dichiara il guadagno di un'antenna? Ce lo dichiara in decibel.
+
+795
+01:24:49.760 --> 01:24:56.880
+Quindi si dice, "Guarda, compri questa antenna direzionale che ti guadagna 5 debel, compri questa antenna
+
+796
+01:24:56.880 --> 01:25:04.080
+omnidirezionale che ti perde 1 decibel. Poi, per esempio, ci sono i cavi quassiali. I cavi quassiali perdono, per
+
+797
+01:25:04.080 --> 01:25:09.679
+esempio, no? dei quassiali, il cavo con cui si collega la radio all'antenna ha una certa
+
+798
+01:25:09.679 --> 01:25:15.679
+attenuazione. Questa attenuazione come la semisura, la semisura in decibel anche lei. Per esempio, questo capo
+
+799
+01:25:15.679 --> 01:25:22.960
+quastiale ogni 10 m ha un'attenazione di 1,2 dB. Oppure anche le uscite degli
+
+800
+01:25:22.960 --> 01:25:29.280
+amplificatori, il guadagno degli amplificatori, eccetera. Molto spesso vengono espressi i decibel perché perché
+
+801
+01:25:29.280 --> 01:25:37.080
+perché i i decibel sono stati inventati eh quattro secoli fa, nel
+
+802
+01:25:37.080 --> 01:25:43.760
+1600, proprio per rendere facili le le misure. Allora, all'epoca, ora come
+
+803
+01:25:43.760 --> 01:25:49.040
+sentitemi una parentesina storica, no? All'epoca si facevano già una gran quantità di conti, anche se non sembra.
+
+804
+01:25:49.040 --> 01:25:56.520
+Nel 1600-1700 la matematica era molto sviluppata, però ancora non avevano inventato le calcolatrici, poveri loro.
+
+805
+01:25:56.520 --> 01:26:04.560
+E allora finché si trattava di somme e sottrazioni, uno si metteva lì manina, penna toca e e e calcolava le tue somme
+
+806
+01:26:04.560 --> 01:26:14.320
+e sottrazioni. Ma se si trattava di moltiplicazioni, come molto spesso era, immaginate di fare 10.327 327 molplicato
+
+807
+01:26:14.320 --> 01:26:20.400
+4322 e diciamo diventa un po' un problema e diciamo nei calcoli che si
+
+808
+01:26:20.400 --> 01:26:27.000
+facevano nei calcoli che si facevano anche all'epoca, quindi calcoli che servivano ad esempio a progettare
+
+809
+01:26:27.000 --> 01:26:33.080
+strutture, ponti, muri oppure calcoli che venivano fatti per prevedere le
+
+810
+01:26:33.080 --> 01:26:38.960
+traiettorie del sole, della Luna, dei satelliti, eccetera, insomma calcoli anche allora ne venivano fatti. Di
+
+811
+01:26:38.960 --> 01:26:44.040
+moltiplicazioni ce n'erano parecchie. E non non essendoci le calcolatrici,
+
+812
+01:26:44.040 --> 01:26:53.440
+diciamo, era era un bagno di sangue in termini di tempo fare questi conti. A un certo punto, un nel 1600 fu inventato il
+
+813
+01:26:53.440 --> 01:27:01.080
+logaritmo. Il logaritmo è un operatore matematico che ora non sto a a raccontarvi nei dettagli, ma che ha la
+
+814
+01:27:01.080 --> 01:27:08.920
+caratteristica di trasformare le moltiplicazioni in somme e quindi trasforma un'operazione
+
+815
+01:27:08.920 --> 01:27:14.639
+molto difficile in un'operazione facile. analogamente trasforma le divisioni in
+
+816
+01:27:14.639 --> 01:27:21.000
+sottrazioni e quindi all'epoca e tutt'ora, diciamo, io io mi
+
+817
+01:27:21.000 --> 01:27:29.920
+ricordo quando ero giovane a un certo punto al liceo avevo un libro che era la tavola dei logaritmi e praticamente di ogni numero
+
+818
+01:27:29.920 --> 01:27:37.639
+veniva dato il logaritmo e usando questo logaritmo si si riusciva a fare questo trucchetto di trasformare somme di
+
+819
+01:27:37.639 --> 01:27:44.800
+trasformare in somme le moltiplicazioni e quindi si in qualche modo in modo i conti venivano assolutamente
+
+820
+01:27:44.800 --> 01:27:50.400
+semplificati. Adesso vediamo come funzionano i decibel. Può sembrare che
+
+821
+01:27:50.400 --> 01:27:55.960
+il funzionamento può sembrare che il concetto di decibel sia molto difficile.
+
+822
+01:27:55.960 --> 01:28:01.239
+In realtà l'uso è di una banalità estrema, basta semplicemente saper usare
+
+823
+01:28:01.239 --> 01:28:08.119
+due o tre operazioni. Allora, intanto cos'è il decibel? Eccolo qua. Deci unità di
+
+824
+01:28:08.119 --> 01:28:15.639
+misura, scusatemi, prendo il pennarello. Eccolo qua. Il decibel simbolo di
+
+825
+01:28:15.639 --> 01:28:22.600
+B. D minuscolo B maiuscola. B vuol dire Bell. È il signor Bell. Viene dal
+
+826
+01:28:22.600 --> 01:28:29.920
+cognome di di una persona. D vuol dire un decimo. Un decimo di Bell. Questo vuol dire decibel. Comunque, diciamo,
+
+827
+01:28:29.920 --> 01:28:36.239
+questa cosa non vi verrà chiesta, diciamo, si parla semplicemente di decibel nel nelle eventuali domande. È è
+
+828
+01:28:36.239 --> 01:28:42.480
+una unità di misura logaritmica che consente, poi, come vedremo, di gestire facilmente grandezze che hanno dinamiche
+
+829
+01:28:42.480 --> 01:28:49.199
+anche molto ampie del tipo pensate ad esempio a un
+
+830
+01:28:49.199 --> 01:28:57.199
+ricevitore. un ricevitore può ricevere i segnali dell'ordine di millt di microvolt, scusate, 1 5 10 microvolt, ma
+
+831
+01:28:57.199 --> 01:29:03.400
+anche segnali molto forti fino a centinaia di millt. Chi chi di
+
+832
+01:29:03.400 --> 01:29:09.320
+voi usa eh chi di voi trasmette in banda
+
+833
+01:29:09.320 --> 01:29:15.520
+cittadina, avrete visto che nelle negli strumenti che danno l'intensità del
+
+834
+01:29:15.520 --> 01:29:21.920
+segnale ricevuta nei cosiddetti smiter eh l'unità di misura a un certo
+
+835
+01:29:21.920 --> 01:29:28.480
+punto diventa esplicitamente il decibel. Il segnale S1, S2, S3, S4, S5. che poi a
+
+836
+01:29:28.480 --> 01:29:35.159
+un certo punto si arriva S9, S9 + 10 dB, S9 + 20 dB, S9 + 30 dB.
+
+837
+01:29:35.159 --> 01:29:41.760
+Gli strumenti dei ricevitori in effetti danno una misura di tipo logaritmico. Poi poi lo vedremo e vedremo appunto con
+
+838
+01:29:41.760 --> 01:29:47.639
+riferimento alla scala dei ricevitori il significato che hanno i decibel per
+
+839
+01:29:47.800 --> 01:29:52.960
+loro e appunto come leggete prodotti e divisioni si trasformano in addizioni e
+
+840
+01:29:52.960 --> 01:29:58.520
+sottrazioni. Allora, a questo punto vediamo come funziona in pratica questa
+
+841
+01:29:58.520 --> 01:30:05.840
+cosa. Immaginiamo di avere un amplificatore. il mio amplificatore ha una potenza di ingresso di di un certo
+
+842
+01:30:05.840 --> 01:30:12.080
+valore e mi genera un segnale in uscita.
+
+843
+01:30:12.080 --> 01:30:18.600
+Ok. Ok. Allora, il guadagno dell'amplificatore, come si è detto
+
+844
+01:30:18.600 --> 01:30:24.360
+prima, lo posso esprimere come il rapporto di potenze, no? Quindi immaginiamo che il mio amplificatore
+
+845
+01:30:24.360 --> 01:30:31.600
+guadagni eh cioè che con 1 W di ingresso il mio amplificatore mi generi 15 W di
+
+846
+01:30:31.600 --> 01:30:38.920
+uscita. Posso dire che il mio amplificatore guadagna 15 volte, però il guadagno
+
+847
+01:30:38.920 --> 01:30:44.440
+dell'amplificatore posso esprimerlo in decibel. Allora, il guadagno di potenza
+
+848
+01:30:44.440 --> 01:30:52.080
+di un amplificatore è, qui c'è la versione proprio eh pulita del significato di
+
+849
+01:30:52.080 --> 01:30:58.760
+decibel che non vi serve ai fini dell'esame, ma comunque vi ho riportato. è il logaritmo in base 10 del rapporto
+
+850
+01:30:58.760 --> 01:31:06.920
+fra la potenza di uscita PO e la potenza di ingresso P. Cioè il guadagno in decibel è il rapporto potenza di uscita
+
+851
+01:31:06.920 --> 01:31:14.119
+diviso potenza di ingresso che abbiamo fatto prima e questo già lo conosciamo.
+
+852
+01:31:14.119 --> 01:31:19.639
+D'accordo? Dicevo, il mio amplificatore 1 W d'ingresso, 15 W di uscita, mi
+
+853
+01:31:19.639 --> 01:31:25.719
+guadagna 15 V. di questo numero che noi abbiamo, quindi
+
+854
+01:31:25.719 --> 01:31:31.760
+d dell'amplificazione espressa in numero di volte, potenza d'uscita, potenza di
+
+855
+01:31:31.760 --> 01:31:37.800
+ingresso, eh si può calcolare il logaritmo in base 10. Allora, il
+
+856
+01:31:37.800 --> 01:31:43.760
+logaritmo è un'operazione ehm che funziona così, cioè il
+
+857
+01:31:43.760 --> 01:31:51.040
+logaritmo in una certa base 10, in questo caso, di un
+
+858
+01:31:51.040 --> 01:31:56.960
+numero, è il le è il valore dell'esponente che si
+
+859
+01:31:56.960 --> 01:32:03.040
+deve dare a questa base per ottenere il numero stesso. Quindi ci sono di mezzo le potenze.
+
+860
+01:32:03.040 --> 01:32:11.920
+Allora, il logaritmo in base 10 di 10, ad esempio, è 1 perché 10 elevato all 1
+
+861
+01:32:11.920 --> 01:32:17.520
+elevato all prima potenza è 1. Il logaritmo in base 10 di 100 è 2 perché
+
+862
+01:32:17.520 --> 01:32:24.320
+10 elev 2 ci dà eh 100. Però questa parte qui, fortunatamente ai fini
+
+863
+01:32:24.320 --> 01:32:31.880
+dell'esame non c'è bisogno di di conoscerla in termini matematici. C'è però bisogno di sapere come funziona e
+
+864
+01:32:31.880 --> 01:32:38.679
+il come funziona per fortuna, è molto facile e quello lo vediamo con un po' di
+
+865
+01:32:38.679 --> 01:32:46.800
+numeri. Allora, qui abbiamo un amplificatore che in questo esempio ha una potenza di ingresso di 200
+
+866
+01:32:46.800 --> 01:32:51.880
+mW e una potenza di uscita di 400 mW.
+
+867
+01:32:51.880 --> 01:32:57.159
+Quindi a un ha un'amplificazione a un guadagno di due volte e questo lo
+
+868
+01:32:57.159 --> 01:33:03.000
+trovate in questa formula qui. Potenza d'uscita diviso potenza di
+
+869
+01:33:03.000 --> 01:33:11.239
+ingresso e il guadagno. La potenza di uscita è 400, la potenza di ingresso è 200. 400 / 200 dà 2. Quindi questo
+
+870
+01:33:11.239 --> 01:33:17.560
+amplificatore mi raddoppia la potenza di uscita. Se io faccio tutto il
+
+871
+01:33:17.560 --> 01:33:25.040
+calcolo eh logaritmo eccetera eccetera super complesso e mi esprimo questo guadagno
+
+872
+01:33:25.040 --> 01:33:31.560
+in decibel, il risultato che ottengo è 3 debel.
+
+873
+01:33:31.560 --> 01:33:38.560
+Quindi un amplificatore che guadagna 3 decibel raddoppia la potenza raddoppia
+
+874
+01:33:38.560 --> 01:33:44.360
+la potenza che riceve. E questo
+
+875
+01:33:44.360 --> 01:33:49.560
+questo rapporto, questi numeri teniamolo a mente, teniamoli a mente. 3 decibel
+
+876
+01:33:49.560 --> 01:33:56.719
+equivalgono a un raddoppio da potenza. Vediamo un altro esempio. Questa volta
+
+877
+01:33:56.719 --> 01:34:02.239
+si parla di attenuazione. Ho un amplificatore che ha
+
+878
+01:34:02.239 --> 01:34:10.280
+una potenza di ingresso di 100 mW. La sua uscita è 10
+
+879
+01:34:10.280 --> 01:34:16.880
+mW. Quindi qui ho un dispositivo fra ingresso e uscita che non amplifica, ma
+
+880
+01:34:16.880 --> 01:34:24.480
+attenua, è un attenuatore. 100 mW li trasforma in 10 mW.
+
+881
+01:34:24.480 --> 01:34:30.080
+Qual è il guadagno di questo attenuatore? Il guadagno è 01. Il
+
+882
+01:34:30.080 --> 01:34:35.480
+guadagno, siccome lui attenua, è minore dell'unità. Quindi uso la stessa formula
+
+883
+01:34:35.480 --> 01:34:41.080
+di prima, potenza d'uscita diviso potenza di ingresso. La potenza di uscita è 10, la potenza di ingresso è
+
+884
+01:34:41.080 --> 01:34:48.960
+100. Se faccio 10/ 100 ottengo 0,1. Quindi questo questo attempuatore mi
+
+885
+01:34:48.960 --> 01:34:55.360
+porta in uscita lo 0,1, cioè il 10% della potenza
+
+886
+01:34:55.360 --> 01:35:02.520
+d'ingresso. Espresso in decibel, questo valore di attenuazione equivale a -10
+
+887
+01:35:02.520 --> 01:35:08.239
+-10 dB. Allora, il segno meno, quando si parla di decibel vuol dire che si
+
+888
+01:35:08.239 --> 01:35:13.480
+riferisce ad attenuazioni. Quindi gli amplificatori,
+
+889
+01:35:13.480 --> 01:35:18.960
+tutto ciò che attenua, come nel caso precedente, hanno un
+
+890
+01:35:18.960 --> 01:35:24.560
+guadagno e il valore indecibel che corrisponde al a un guadagno è sempre
+
+891
+01:35:24.560 --> 01:35:30.440
+positivo. Invece un valore indecibel che corrisponde a un'atterazione è sempre
+
+892
+01:35:30.440 --> 01:35:36.400
+negativo. il valore di -10 dB, il valore di 10 di
+
+893
+01:35:36.400 --> 01:35:41.560
+-10 equivale a 1 de a 1 deo. Quindi, se
+
+894
+01:35:41.560 --> 01:35:46.639
+io ho un cavo coassiale, diciamo, che eh
+
+895
+01:35:46.639 --> 01:35:51.800
+attenua 10 dB e ce ne sono dei cavi quassiali di di questo genere, magari ho
+
+896
+01:35:51.800 --> 01:35:57.040
+molto cavo quassiale a casa fra la radio e la mia antenna, se
+
+897
+01:35:57.040 --> 01:36:04.119
+scusate, se la mia radio eroca 50 W, che potenza arriva a un'antenna? Allora,
+
+898
+01:36:04.119 --> 01:36:10.480
+all'antenna il costruttore mi ha detto, "Guarda, il tuo cavo quassiale attenua 10 dB".
+
+899
+01:36:10.480 --> 01:36:18.560
+Tu sai che la tua radio ha 50 W. In antenna arriverà 10 dB lo 01, quindi arriverà
+
+900
+01:36:18.560 --> 01:36:23.760
+dei 50 W che si inseriscono nel cavo corsiale arriveranno 5
+
+901
+01:36:23.760 --> 01:36:29.880
+W. Quindi in questo esempio che sto facendo, 50 W di, diciamo, di di di
+
+902
+01:36:29.880 --> 01:36:38.440
+segnale con un'attenuazione di -10 dB si trasformano in 5 W.
+
+903
+01:36:39.639 --> 01:36:45.639
+Allora, vediamo cosa succede quando ho due amplificazione quando ho due amplificatori in cascata, come in questo
+
+904
+01:36:45.639 --> 01:36:51.800
+caso, io ho un ho il primo amplificatore che guadagna 10 dB. 10 dB abbiamo visto
+
+905
+01:36:51.800 --> 01:36:57.400
+che mi moltiplica per 10 il segnale di ingresso. Quindi se io a questo primo
+
+906
+01:36:57.400 --> 01:37:06.520
+amplificatore inserisco 1 W, in uscita ottengo 10 W.
+
+907
+01:37:06.520 --> 01:37:14.920
+Questo è seguito da un amplificatore 2 che guadagna 20 dB. Eh, un amplificatore che guadagna 20
+
+908
+01:37:14.920 --> 01:37:21.639
+dB. 20 decibel sono 10 + 10. Si è detto che i decibel trasformano le
+
+909
+01:37:21.639 --> 01:37:27.760
+moltiplicazioni in somme, per cui questo 20 dB lo posso considerare come
+
+910
+01:37:27.760 --> 01:37:32.039
+10 + 10.
+
+911
+01:37:34.280 --> 01:37:42.320
+Allora, se il mio amplificatore riceve in ingresso questi 10 W, che potenza avrò in uscita? Allora, i
+
+912
+01:37:42.320 --> 01:37:49.280
+primi 10 debel, come abbiamo visto prima, eh mi trasformano questi 10 W in
+
+913
+01:37:49.280 --> 01:37:57.159
+100 W. Questi altri 10 dB mi trasformano i 100 W in 1000 W. Quindi in uscita da
+
+914
+01:37:57.159 --> 01:38:04.000
+questa catena ho 1000 W. Scusate la calligrafia, ma meglio di
+
+915
+01:38:04.000 --> 01:38:09.360
+così non non riesco. Quindi il guadagno di una catena di amplificazione in
+
+916
+01:38:09.360 --> 01:38:15.159
+decibel è pari alla somma del guadagno dei vari amplificatori, quindi potrei
+
+917
+01:38:15.159 --> 01:38:20.880
+calcolarla in un colpo solo. Eh, amplificatore 1 dB,
+
+918
+01:38:20.880 --> 01:38:27.280
+amplificatore 2 20 dB. li considero tutti e due come un unico come un unico
+
+919
+01:38:27.280 --> 01:38:32.520
+amplificatore che, come leggo qui, ha un guadagno totale di guadagno 1 più
+
+920
+01:38:32.520 --> 01:38:38.599
+guadagno 2, cioè 10 + 20. Quindi qui in questo caso potrei immaginare di avere
+
+921
+01:38:38.599 --> 01:38:47.360
+un unico scatolotto che mi guadagna 30 dB. Se a questo scatolotto inserisco
+
+922
+01:38:47.360 --> 01:38:52.960
+dentro una potenza, ad esempio, di 7 W, che potenza in uscita ho? Semplicissimo.
+
+923
+01:38:52.960 --> 01:38:59.840
+Io devo semplicemente ricordarmi che eh il mattone elementare che conosco è il
+
+924
+01:38:59.840 --> 01:39:05.679
++10 e il + 10 equivale a moltiplicare per 10 la potenza. Quindi questi mattoni
+
+925
+01:39:05.679 --> 01:39:12.520
++ 10 ne ho tre. 10 più altri 10 più altri 10 che danno i miei 30. Quindi i
+
+926
+01:39:12.520 --> 01:39:17.719
+miei 7 W diventano parto con 7 70 700
+
+927
+01:39:17.719 --> 01:39:23.000
+7.000. Da questa catena uscirebbero 7.000 W.
+
+928
+01:39:23.000 --> 01:39:30.280
+Quindi vedete come come è facile il discorso. Eh,
+
+929
+01:39:30.280 --> 01:39:35.800
+nelle veniamo in un altro. Provate a rispondere voi a questa
+
+930
+01:39:35.800 --> 01:39:40.960
+domanda. Quindi questo amplificatore ha una potenza di ingresso di 100
+
+931
+01:39:40.960 --> 01:39:47.360
+W, scusatemi, ha una potenza di ingresso di 5 W, ha una potenza di uscita di 100
+
+932
+01:39:47.360 --> 01:39:53.199
+W. Quindi, e la domanda è questa che leggete qua sotto. Un amplificatore di
+
+933
+01:39:53.199 --> 01:39:59.119
+potenza deve fornire 100 W all'antenna a partire dai 5 W del trasmettitore.
+
+934
+01:39:59.119 --> 01:40:05.520
+Determinare quale guadagno in decibel è necessario. Allora, vi do un aiuto. Per
+
+935
+01:40:05.520 --> 01:40:10.679
+arrivare a questa risposta voi dovete semplicemente tenere presente che adesso
+
+936
+01:40:10.679 --> 01:40:17.080
+noi abbiamo visto due soli blocchi di
+
+937
+01:40:17.080 --> 01:40:22.040
+amplificazione, un blocco che si chiama + 10
+
+938
+01:40:22.280 --> 01:40:28.040
+dB e un blocco che si chiama + 3
+
+939
+01:40:28.040 --> 01:40:34.080
+debel. Ci riprovo a fare questo 3 + 3 debel. Si è visto che un'amplificazione
+
+940
+01:40:34.080 --> 01:40:41.639
+di 10 debel equivale a moltiplicare per 10 il valore della potenza. Un amplificatore di 3 debel equivale a
+
+941
+01:40:41.639 --> 01:40:48.520
+moltiplicare di due volte il valore della potenza. Provate a rispondere a questa
+
+942
+01:40:48.520 --> 01:40:53.159
+domanda. Determinate quale due.
+
+943
+01:40:53.560 --> 01:41:00.760
+Ci sei quasi. 13 di B. Ma non è giusto. 13 di B. Esatto. 13. 13. 13. Perché?
+
+944
+01:41:00.760 --> 01:41:07.199
+Cosa succede con la mia catena? Li posso voltare come voglio. Ora li volto al contrario di come l'ho detto prima. Io
+
+945
+01:41:07.199 --> 01:41:12.760
+ho 5 W. Passano attraverso un amplificatore
+
+946
+01:41:12.760 --> 01:41:18.599
+che guadagna + 3 dB. Con questo + 3 ddb i miei 5 W sono sono raddoppiati e sono
+
+947
+01:41:18.599 --> 01:41:27.239
+diventati 10. A questo punto entro in un altro scatolotto che ha guadagno + 10 dB.
+
+948
+01:41:27.239 --> 01:41:33.040
++ 10 di B si aumenta di un fattore 10 la potenza, quindi questi 10 diventano
+
+949
+01:41:33.040 --> 01:41:40.840
+100. Ed ecco la nostra risposta. L'amplificatore deve avere un guadagno di 13
+
+950
+01:41:41.199 --> 01:41:46.320
+dB. Rispondete a quest'altra domanda. Si vuole raddoppiare la potenza in antenna
+
+951
+01:41:46.320 --> 01:41:51.840
+portandola a 200 W? Quindi prima avevo 100 quaggiù, d'accordo?
+
+952
+01:41:51.840 --> 01:41:56.960
+100. Adesso la voglio raddoppiare portandola a 200.
+
+953
+01:41:56.960 --> 01:42:02.320
+Prima avevo usato qui, aveva usato un + 13
+
+954
+01:42:02.320 --> 01:42:08.080
+dB + 13. Se io ho questi 100, come vedete in
+
+955
+01:42:08.080 --> 01:42:16.080
+quest'altra domanda, li voglio trasformare in 200, quanto serve? Che amplificazione serve? 20 dB. 16.
+
+956
+01:42:16.080 --> 01:42:22.239
+Allora, 20 dB è sbagliato. Quanto serve? 16.
+
+957
+01:42:22.239 --> 01:42:28.960
+16. Perfetto. 16. Cioè, basta prendere, torno prima, basta prendere questo 100 e
+
+958
+01:42:28.960 --> 01:42:35.199
+aggiungerci un altro per due, quindi aggiungerci altri 3 dB. Con altri 3 dB
+
+959
+01:42:35.199 --> 01:42:42.239
+ai 13 che avevamo prima. Uffa, qui ora se continua così spengo
+
+960
+01:42:42.239 --> 01:42:48.440
+Telegram. Eh, questi 100 W mi diventano 200.
+
+961
+01:42:49.800 --> 01:42:55.199
+Allora, queste sono eh vi ho riportato in questa
+
+962
+01:42:55.199 --> 01:43:00.679
+slide eh i valori più comuni in DB e il
+
+963
+01:43:00.679 --> 01:43:08.800
+relativo rapporto in potenza. Ai fini dell'esame ai fini dell'esame vengono usati solamente
+
+964
+01:43:08.800 --> 01:43:16.400
+questi scatolotti qua. Questo,
+
+965
+01:43:19.920 --> 01:43:28.118
+questo, questo e
+
+966
+01:43:29.840 --> 01:43:36.800
+questo. E questi sono i 2 + 2 valori da tenere a mente. Con questi 2 + 2 valori
+
+967
+01:43:36.800 --> 01:43:42.159
+si può rispondere a tutte le domande che possono capitare all'esame. Perché sono
+
+968
+01:43:42.159 --> 01:43:47.880
+sol Allora, scusate, 0 debel vuol dire che quello
+
+969
+01:43:47.880 --> 01:43:58.280
+che entra esce, d'accordo? Rapporto in potenza è uguale 1. L'1 decibel non si usa mai nel nell'esame. Il +3
+
+970
+01:43:58.280 --> 01:44:03.520
+debel raddoppia. Il + 6 dB non c'è neanche bisogno di
+
+971
+01:44:03.520 --> 01:44:09.159
+tenerlo a mente perché il sei perché diciamo il trucco che c'è nel rispondere
+
+972
+01:44:09.159 --> 01:44:14.480
+a queste domande è che ti devi ricondurre sempre ai due mattoni di base
+
+973
+01:44:14.480 --> 01:44:19.719
+che conosci, cioè il +3 e il +10. Per cui,
+
+974
+01:44:19.719 --> 01:44:27.760
+scusate, per cui il + 6 cos'è? Il + 6 è semplicemente + 3 + 3, che vuol
+
+975
+01:44:27.760 --> 01:44:34.360
+dire raddoppio e poi ancora raddoppio. Quindi 2 * 2 mi dà 4. Poi basta
+
+976
+01:44:34.360 --> 01:44:39.880
+ricordare che 10 dB vuol dire che la potenza cresce 10 volte. A questo punto
+
+977
+01:44:39.880 --> 01:44:47.520
+con 20 dB la potenza quanto crescerà? 10* 10 cioè 100. Con 30 crescerà 10 * 10
+
+978
+01:44:47.520 --> 01:44:53.520
+* 10 che diventano 1000. Se fossero 40 sarebbe 10 * 10 * 10 * 10. Ogni ogni
+
+979
+01:44:53.520 --> 01:45:01.840
+scatolotto di 10 dB mi aumenta di 10 volte la potenza. Quindi se ne ne posso mettere
+
+980
+01:45:01.840 --> 01:45:08.000
+in fila quanto voglio, il risultato finale è sempre la potenza moltiplicato per 10 * 10 * 10 a seconda di quanti
+
+981
+01:45:08.000 --> 01:45:13.679
+scatolotti metto in fila. Discorso assolutamente simmetrico è per
+
+982
+01:45:13.679 --> 01:45:19.080
+le attenuazioni. -3 debel vuol dire che raddoppio la che dimezzo la potenza,
+
+983
+01:45:19.080 --> 01:45:29.400
+scusate. -10 dB vuol dire che la riduco a 1 deo. Il -6 è 2 vol 05. 05 * 05 mi dà
+
+984
+01:45:29.400 --> 01:45:36.320
+0,25. E qui lo stesso, no? Con 10 con -10 dB ho 1 de con -10 con -20 scusate
+
+985
+01:45:36.320 --> 01:45:44.719
+ho un cent con -30 ho 1 millesimo della potenza di ingresso. Scusate un
+
+986
+01:45:44.719 --> 01:45:53.679
+attimo. Quindi una tipica domanda d'esame potrebbe essere: io ho un trasmettitore da 100 W, eh ho un cavoale
+
+987
+01:45:53.679 --> 01:45:58.920
+che attenua 6 dB, però sopra questo cavoale
+
+988
+01:45:58.920 --> 01:46:05.679
+ho un'antenna che guadagna 9 dB. Qual è la potenza effettivamente irradiata? Allora, si parte dalla potenza di uscita
+
+989
+01:46:05.679 --> 01:46:11.239
+del trasmettitore, ci si applica l'atternazione del cavo quassiale e poi
+
+990
+01:46:11.239 --> 01:46:16.840
+ci si applica il guadagno dell'antenna oppure fare tutto in un colpo solo. Si
+
+991
+01:46:16.840 --> 01:46:23.320
+calcola in un colpo solo il guadagno della catena di trasmissione, quindi la mia antenna mi guadagna, diciamo, più
+
+992
+01:46:23.320 --> 01:46:30.920
+più + 6 + 9. Dicevo prima, il mio cavo mi attenua -6. 9 - 6 il risultato è 3,
+
+993
+01:46:30.920 --> 01:46:38.360
+per cui in antenna ho una potenza effettivamente radiata di + 3dB rispetto a quella del trasmettitore, cioè se un
+
+994
+01:46:38.360 --> 01:46:44.679
+trasmettitore da 100 W mi diventa 200 W effettivamente irradiati. Comunque poi di questo parleremo in maniera specifica
+
+995
+01:46:44.679 --> 01:46:51.280
+quando si parlerà di radio, antenna eccetera. E questi sono i decibel.
+
+996
+01:46:51.280 --> 01:46:58.239
+Questo è tutto quello che c'è da sapere del decibel. Diciamo si tratta di tenere a mente questi mattoncini qua, il +3 +
+
+997
+01:46:58.239 --> 01:47:06.840
+10 e il -3 -10. Ok, qualche domanda su questo?
+
+998
+01:47:07.360 --> 01:47:14.159
+interrompo la condivisione. Vi dico un'ultima cosa a
+
+999
+01:47:14.159 --> 01:47:18.199
+questo punto, ultimissima e così
+
+1000
+01:47:20.400 --> 01:47:28.159
+finiamo. Allora, come come vi dicevo, il decibel è un'unità di misura
+
+1001
+01:47:28.159 --> 01:47:34.119
+relativa, nel senso che se io ti dico 3 decibel, con con 3 decibel posso
+
+1002
+01:47:34.119 --> 01:47:40.199
+specificare una amplificazione. Non ti dico 3 W, 3 W è un determinato livello
+
+1003
+01:47:40.199 --> 01:47:47.880
+di potenza, no? Quindi 3 W è una misura assoluta. 3 DB vuol dire che in uno
+
+1004
+01:47:47.880 --> 01:47:53.119
+scato, scusate, torno indietro. 3 decibel vuol dire che in uno scatolotto
+
+1005
+01:47:53.119 --> 01:48:00.800
+di questo genere vuol dire che il rapporto fra l'uscita e l'ingresso è del doppio,
+
+1006
+01:48:00.800 --> 01:48:08.040
+quindi il decibel è un'unità di misura relativa, mentre invece 100 W sono un'unità di misura assoluta, no? 100 W
+
+1007
+01:48:08.040 --> 01:48:15.560
+sono quelli, sono una data ampiezza di un dato livello di potenza. 2 decibel invece sono unità di misura
+
+1008
+01:48:15.560 --> 01:48:22.280
+relativa, però c'è modo di far diventare anche i decibel un'unità di misura
+
+1009
+01:48:22.280 --> 01:48:29.480
+assoluta, eh riferendosi a una potenza di riferimento
+
+1010
+01:48:29.480 --> 01:48:34.679
+che tipicamente è il billivat e si arriva a questa unità di misure che è il
+
+1011
+01:48:34.679 --> 01:48:42.560
+DBM decibel riferiti al millwatt che è molto usata in campo strumentazione.
+
+1012
+01:48:42.560 --> 01:48:50.280
+Ora vanno molto di moda e diciamo VNA e robe e roba di questo
+
+1013
+01:48:50.280 --> 01:48:55.080
+tipo, ma ne parleremo quando si arriverà alle misure sulle
+
+1014
+01:48:56.000 --> 01:49:03.119
+antenne. Scusate, questi sono alcuni valori di riferimento dell'unità di misura
+
+1015
+01:49:03.119 --> 01:49:10.840
+assoluta del DBM, per esempio. Allora, il DBM è riferito è definito proprio
+
+1016
+01:49:10.840 --> 01:49:20.599
+come 1 mW, quindi questa è una definizione per è la definizione. Quindi 0 dBm equivale a 1 mW, -3 dBm è il
+
+1017
+01:49:20.599 --> 01:49:27.719
+solito mattoncino del -3, questo mW si mezza, mi diventa 0,5 mW. -10 dB
+
+1018
+01:49:27.719 --> 01:49:32.840
+questo mW diventa 1 de 100 01 mW. E così
+
+1019
+01:49:32.840 --> 01:49:40.080
+viene amplificazione il mioW, se io metto un + 13 dBm di guadagno + 10 me lo
+
+1020
+01:49:40.080 --> 01:49:48.159
+fa diventare da 1 o 10, gli altri + 3 dB me lo raddoppiano e quindi diventano 20 mW.
+
+1021
+01:49:48.159 --> 01:49:54.119
+Oppure + 30 mW vuol dire per 10 * 10 * 10 come abbiamo visto, no? 10 10 e 10.
+
+1022
+01:49:54.119 --> 01:50:00.599
+Quindi il mio millet mi diventa prima 10 poi 100, poi 1000 mW, cioè 1 W.
+
+1023
+01:50:00.599 --> 01:50:07.280
+Se continuo a crescere + 50 dBM sono 100 W.
+
+1024
+01:50:07.280 --> 01:50:13.760
+E con questo abbiamo concluso. Quindi su questa cosa dei decibel si tratta di
+
+1025
+01:50:13.760 --> 01:50:19.400
+fare un po' di di esercizi e gli esercizi che vi possono arrivare appunto
+
+1026
+01:50:19.400 --> 01:50:26.159
+in sede di esame si risolvono tutti con i due
+
+1027
+01:50:26.159 --> 01:50:31.920
+mattoni di cui abbiamo parlato, il +3 dB e il +10d, oppure in termini negativi il
+
+1028
+01:50:31.920 --> 01:50:38.520
+-3 e il -10 dB. ne avrete un un po' di di questi
+
+1029
+01:50:38.520 --> 01:50:45.719
+calcolini da fare nei quiz che vi manderò che vi manderemo domani, dopo domani e provate, se poi avete qualche
+
+1030
+01:50:45.719 --> 01:50:53.400
+dubbio ce lo risolviamo la prossima settimana anche. Domande per ora?
+
+1031
+01:51:05.880 --> 01:51:13.400
+Paolo, sei stato un mito. Perché? Ecco, ecco, abbiamo Claudio, abbiamo frizzato. Sì, non ho
+
+1032
+01:51:13.400 --> 01:51:20.400
+Aspetta perché mi sa che Paolo si è frizzato, si è congelato. Eh, mi sa di sì. Un attimo solo, l'audio lo
+
+1033
+01:51:20.400 --> 01:51:27.800
+recuperiamoo. Lo recuperiamo. No, l'ultima non miè chiara perché o mi
+
+1034
+01:51:27.800 --> 01:51:35.119
+son distratto, non lo so. Ehm, quello del DBM.
+
+1035
+01:51:35.119 --> 01:51:41.520
+Comunque ora ne parlo appena Sì, aspettiamo un attimo Paolo che è
+
+1036
+01:51:41.520 --> 01:51:47.320
+molto più bravo di me a spiegare. Un attimo
+
+1037
+01:51:48.079 --> 01:51:53.840
+solo perché lui capire sentire.
+
+1038
+01:51:54.480 --> 01:51:58.280
+Un attimo di pazienza.
+
+1039
+01:51:59.880 --> 01:52:05.400
+Dobbiamo chiamare Sebastiano per chiedere al ma non ci
+
+1040
+01:52:09.199 --> 01:52:15.360
+rispetto risposte potrebbero venire dai due telefoni di Mil Samsung e un iPhone
+
+1041
+01:52:15.360 --> 01:52:21.239
+e trovati in casa. mentre s'aspetta dico che mi sono scontrato con amplificatore
+
+1042
+01:52:21.239 --> 01:52:27.320
+con il push pool mh e ordinato su internet transistor dopo ve li farò
+
+1043
+01:52:27.320 --> 01:52:36.199
+vedere se vi piace. Mi è arrivato per tre volte finti 2N30 55 falsi.
+
+1044
+01:52:36.199 --> 01:52:43.119
+falsi, cioè della serie falsi che la serie che li misuri col tester ti danno buono, come l'attacchi sopra piglia
+
+1045
+01:52:43.119 --> 01:52:48.400
+fuoco l'amplificatore perché vanno a corto completamente. Ottimo direi. E e
+
+1046
+01:52:48.400 --> 01:52:53.920
+praticamente dentro c'era una microgiunzione di un transistorino da da
+
+1047
+01:52:53.920 --> 01:53:00.040
+mezzo da mezzo amp, invece il 3055 deve reggere molto di più.
+
+1048
+01:53:00.040 --> 01:53:06.960
+E niente, è impossibile trovarli buoni. Buttavo via tutto. Dopo la terza, quarta volta ho detto basta.
+
+1049
+01:53:06.960 --> 01:53:13.800
+Vabbè, addirittura. Peccato, era un NAD dopo, cioè prendeva fuoco le le
+
+1050
+01:53:13.800 --> 01:53:20.520
+resistenze. Ma com'è possibile? Ho preso scoperchiato i transistor ed erano falsi.
+
+1051
+01:53:20.520 --> 01:53:26.840
+Aspetta, forse ce la faccio a te. Tanto un attimo, eh, te faccio vedere. Guardiamo se
+
+1052
+01:53:32.000 --> 01:53:35.760
+riesco, se riesco a
+
+1053
+01:53:37.480 --> 01:53:44.639
+ritrovarli. Eccoli qua. Non so se riuscirò a farteli
+
+1054
+01:53:44.639 --> 01:53:50.679
+vedere. Oh, po' più a destra. Eccoli là. Stupende. Guarda la
+
+1055
+01:53:50.679 --> 01:53:58.840
+giunzione. Sì, sì, sì. Quella caccolina di mosca è tornato Paolo.
+
+1056
+01:53:58.840 --> 01:54:04.840
+No, ti rendi conto dopo? Ma poi ho detto vabbè non son capace di ordinarli. Io
+
+1057
+01:54:04.840 --> 01:54:10.880
+sono andato da uno che conosco. No, non ti preoccupare c'ho questa fonte
+
+1058
+01:54:10.880 --> 01:54:17.880
+uguali. Poi m'hanno detto chi si occupa, insomma di riparazione di amplificatore? Dici guarda dice smetti perché non si
+
+1059
+01:54:17.880 --> 01:54:24.400
+trovano più gli 2N355. Puoi usare i tip. Vabbè, a quel punto ho detto vabbè lasciamo perdere si
+
+1060
+01:54:24.400 --> 01:54:31.679
+era bruciate anche le piste che ho detto lasciamo fare tanto roba vecchia, facciamogli funerale. È un
+
+1061
+01:54:31.679 --> 01:54:37.480
+peccato, un peccato. Ma un NAD è un buon amplificatore. Eh, vabbè, pace. Ok, sì,
+
+1062
+01:54:37.480 --> 01:54:45.560
+sì, sì, sì. Allora, DBM, mi sono perso l'ultima slide perché non mi è stato chiaro,
+
+1063
+01:54:45.560 --> 01:54:50.960
+perché quello si diceva che eh il + 3dB
+
+1064
+01:54:50.960 --> 01:54:59.639
+raddoppiava. Su quella mi mi è sfuggito, forse non ho capito bene se me la puoi riaprire per favore? Certo,
+
+1065
+01:55:01.000 --> 01:55:05.960
+era quell'esempio in fondo che non non sono riuscito a
+
+1066
+01:55:07.560 --> 01:55:15.520
+calcolarlo. M vai. Eccola lì. Un attimo che arrivo. Eccoci
+
+1067
+01:55:15.520 --> 01:55:22.079
+qua. Eccoci qua. Allora, eh, DBM.
+
+1068
+01:55:22.760 --> 01:55:30.040
+Ecco. Ok, quindi eh 1
+
+1069
+01:55:30.360 --> 01:55:36.079
+m e quindi se io faccio per eh per 3 dB
+
+1070
+01:55:36.079 --> 01:55:42.320
+diventa 10 e perché non mi non mi diventa 100? Che questo aspetta aspetta.
+
+1071
+01:55:42.320 --> 01:55:50.079
+E su quale stai lavorando? Su quella di destra. Ok. il più positivo da da 1 mV
+
+1072
+01:55:50.079 --> 01:55:55.199
+se su quella 1 mW 1 mW sì,
+
+1073
+01:55:55.199 --> 01:56:00.360
+scusa. Eh vabbè, allora allora quindi
+
+1074
+01:56:00.360 --> 01:56:08.000
+diciamo si parte da questo che che è il livello che che è la definizione che è lo zero, no? 0 dBm per definizione è un
+
+1075
+01:56:08.000 --> 01:56:15.360
+mibwatto. Sì, a questo punto qui in questo esempio c'è + 13 dBM. + 13 si
+
+1076
+01:56:15.360 --> 01:56:20.760
+legge + 10 + 3 i famosi due mattoncini. Ecco, ma non si
+
+1077
+01:56:20.760 --> 01:56:29.560
+può fare + 3 + 10? No. Sì, uguale uguale. + 3 + 10. No, 3 e 1 diventa eh
+
+1078
+01:56:29.560 --> 01:56:35.199
+due che raddoppia. Sì, con il primo + 3. Allora, questo 13
+
+1079
+01:56:35.199 --> 01:56:42.000
+lo puoi spezzare anche sicuramente in + 3 + 10. In questo senso non cambia il
+
+1080
+01:56:42.000 --> 01:56:47.719
+più il +3 ti raddoppia, quindi l'1 mW diventano 2 mW. Poi quando ci metti i 10
+
+1081
+01:56:47.719 --> 01:56:53.760
+questi 2 mW diventano 20 mW. agli atti non ci sono altre foto prima
+
+1082
+01:56:53.760 --> 01:56:59.159
+però era il 10 + 10 era per 10
+
+1083
+01:56:59.159 --> 01:57:04.800
+in quella non non in dbm di B normali
+
+1084
+01:57:04.800 --> 01:57:11.119
+quando si diceva + 10 diventa si moltiplicava per 10 si aggiungeva una Esatto. Qui però si sta qui in questo
+
+1085
+01:57:11.119 --> 01:57:18.000
+esempio però c'è + 13 e allora questo + 13 è fatto da +3
+
+1086
+01:57:18.000 --> 01:57:23.480
+seguito da + 10. Questo mi torna + 3 mi raddoppia, quindi
+
+1087
+01:57:23.480 --> 01:57:30.280
+da 1 mW mi dovrebbe diventare 2 mW, giusto? Esatto. Però questo poi + 10
+
+1088
+01:57:30.280 --> 01:57:36.000
+questi 2 mW te li moltiplica di un fattore 10 e quindi
+
+1089
+01:57:36.000 --> 01:57:43.400
+dovrebbe 20 20 dai 20 ed eccolo qua. Già. Sì, giusto. Sì, sì. Mamma mia. È
+
+1090
+01:57:43.400 --> 01:57:51.040
+l'orario. È l'orario, scusa. Ecco. Eh, succede a quest'ora. No, so cotto, so cotto, bisogna vare a letto.
+
+1091
+01:57:51.040 --> 01:57:58.199
+Eccolo qua, eccolo qua. No, no, giusto, giusto, giusto. No, no, guarda, torna ora. Sì, sì, torna. Sì, che è come so io
+
+1092
+01:57:58.199 --> 01:58:05.400
+torno. No, ma perché Ma in effetti lo stavi dicendo, no, che torna che che fatti.
+
+1093
+01:58:05.400 --> 01:58:10.440
+Vabbè, lasciamo stare, dai. C'è qualche altra? Vai tranquillo,
+
+1094
+01:58:10.440 --> 01:58:18.760
+speriamo l'esame lo faccio a mezzanotte senò c'è qualche altra domanda. Marco,
+
+1095
+01:58:18.760 --> 01:58:22.678
+Marco, a te Morelli.
+
+1096
+01:58:24.679 --> 01:58:32.159
+Marco, Marco, se stai parlando accendi il microfono. Mi senti? Sì, ora sì. Vai, vai. Allora,
+
+1097
+01:58:32.159 --> 01:58:38.760
+per definizione 3DB si raddoppia. Come hai detto? 3d B si raddoppia,
+
+1098
+01:58:38.760 --> 01:58:47.119
+giusto? Sì, sì. Ok. Perché 10 di B si moltiplica per 10?
+
+1099
+01:58:47.119 --> 01:58:53.880
+Perché se si fanno tutti i calcoli nella formula di definizione di un DB, del resto quasi del resto quasi si vede
+
+1100
+01:58:53.880 --> 01:58:59.239
+occhio perché eh 10 dB. Allora, ti
+
+1101
+01:58:59.239 --> 01:59:05.639
+assicuro che se si fanno tutti i calcoli giusti e perché scusa, eh 3B si raddoppia, 6
+
+1102
+01:59:05.639 --> 01:59:12.400
+dB si raddoppia due volte, quindi diventa per 4. Poi 9 di B
+
+1103
+01:59:12.400 --> 01:59:18.239
+2 * 2 * 2 2 4 8 e da 9 dB a 10 dB questo
+
+1104
+01:59:18.239 --> 01:59:27.880
+8 ti diventa 10, giusto? Sennò sarebbero 12, eh? Giusto, esatto, esatto. Capito?
+
+1105
+01:59:27.880 --> 01:59:36.360
+Perfetto, ora ci siamo. Tutto torna. Tutto torna. Qui alta matematica si può perdere. Va
+
+1106
+01:59:36.360 --> 01:59:45.280
+bene, va bene. Francesco, a te. Scusami Paolo, ma noi per fare ogni
+
+1107
+01:59:45.280 --> 01:59:53.199
+volta i calcoli del, diciamo, guadagno in DB dei nostri
+
+1108
+01:59:53.199 --> 01:59:58.880
+amplificatori, usiamo sempre è proprio pratica questa, eh, non è proprio
+
+1109
+01:59:58.880 --> 02:00:05.119
+scienza infusa. Si usa sempre gli scatolotti 3 e 10
+
+1110
+02:00:05.119 --> 02:00:13.560
+sempre. No, no, per di No, si si usano si si usano gli scatolotti 3 e 10 per le
+
+1111
+02:00:13.560 --> 02:00:20.639
+possibili domande d'esame. Ok? Perché perché le domande tendenzialmente sono pensate per essere
+
+1112
+02:00:20.639 --> 02:00:27.119
+risolte senza calcolatrici stratosferiche o roba del genere, ok? Perché senò bisognerebbe avere la
+
+1113
+02:00:27.119 --> 02:00:33.960
+calcolatrice, diciamo, ti fa i 10 per logaritmo 10. Esatto, esatto,
+
+1114
+02:00:33.960 --> 02:00:40.520
+esatto, esatto. Però almeno qui almeno qui in Toscana cercano di fare in modo che l'esame sia
+
+1115
+02:00:40.520 --> 02:00:48.920
+di elettronica e non di matematica, mettiamolo così. Quindi col + 3 + 10 -3 -10 normalmente
+
+1116
+02:00:48.920 --> 02:00:54.760
+almeno quello che si è visto fino a ora si sistema tutto, si risolve tutto.
+
+1117
+02:00:54.760 --> 02:00:59.880
+Vabbè, semmai portiamo Fabrizio con l'ombrello, i biglietti dietro, dai. Sì,
+
+1118
+02:00:59.880 --> 02:01:06.840
+sì, quello ti sicuro, tranquillo. Eh, non ho alzato la mano, scusa, ma
+
+1119
+02:01:06.840 --> 02:01:12.400
+dicevo è tutto calcolato 310 per l'esame perché altrimenti sarebbe tutto un
+
+1120
+02:01:12.400 --> 02:01:20.280
+calcolo di logaritmi. Fossi per esempio un guadagno in duce o 5 deci sarebbe una
+
+1121
+02:01:20.280 --> 02:01:27.119
+complicatissima, giusto? Esatto. Esatto. Esatto. Qui diciamo teniamo come riferimento il tre che raddoppia e poi
+
+1122
+02:01:27.119 --> 02:01:34.000
+che moltiplica per quello che è, diciamo, il 10, senò sarebbe completatissimo, no? Sì, sì. quell sono
+
+1123
+02:01:34.000 --> 02:01:41.520
+un calcolo, un guadagno di duci e poi un riguadagno di sette o cinque.
+
+1124
+02:01:41.520 --> 02:01:47.440
+Infatti complicato. Infatti, infatti, infatti. Ora, ora ho capito. Ok, grazie.
+
+1125
+02:01:47.440 --> 02:01:53.280
+Grazie. Vi saluto anche. Buonanotte e via che scappo. Grazie mille. Ciaot ci
+
+1126
+02:01:53.280 --> 02:01:58.320
+vediamo ci vediamo mercoledì prossimo. Si parla di trasmettitori. Bene, bene.
+
+1127
+02:01:58.320 --> 02:02:04.520
+Grazie Marco. A te. Allora, due due tre cose. Può riprendere
+
+1128
+02:02:04.520 --> 02:02:11.679
+la slide? Ma la registrazione è finita o no? Si può staccare senza problem. Ah,
+
+1129
+02:02:11.679 --> 02:02:19.480
+no, non lo so. È una domanda perché poi c'era una domanda fuori, quindi non sapevo se farla o no. Ok, interrompiamo,
+
+1130
+02:02:19.480 --> 02:02:24.599
+interrompiamo. Vai, vai, abbiamo finito, stacchiamo. Vai. Eh eh però eh nella
+
+1131
+02:02:24.599 --> 02:02:27.360
+slide quella

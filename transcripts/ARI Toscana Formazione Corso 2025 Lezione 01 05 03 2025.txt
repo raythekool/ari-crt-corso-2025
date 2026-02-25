@@ -1,0 +1,2507 @@
+00:02 di di vederla a uno dei prossimi giorni
+00:04 oppure eventualmente anche magari se chi
+00:07 lo segue stasera vuole provare a
+00:09 riascoltare alcune cose perché magari
+00:11 riguardando le slide non sono chiare
+00:12 eccetera diciamo la avrete il link Poi e
+00:17 quindi potete in qualche modo seguire
+00:19 anche anche in differita anche seguirla
+00:22 più di una volta Adesso come avete visto
+00:24 la lezione è in fase di
+00:26 registrazione potete comunque parlare
+00:28 potete interagire come come vogliamo e
+00:31 questa parte qui poi potrà essere
+00:35 rivista Allora altri avvisi di servizio
+00:39 per ora non non ne ho Diciamo
+00:43 che se qualcuno arriva stasera diciamo
+00:47 come prima lezione e ha perso la serata
+00:49 di
+00:50 presentazione ha perso anche le modalità
+00:53 la la spiegazione sulle modalità con cui
+00:55 viene fatto l'esame e questo magari alla
+00:59 fine della lezione di stasera ci
+01:00 prendiamo 10 minuti e per chi è
+01:02 interessato Possiamo ricapitolare quindi
+01:04 tutto il discorso domande e risposta
+01:06 chiusa Quante sono come sono fatte
+01:08 queste domande eccetera ne possiamo
+01:09 parlare sicuramente dopo e adesso
+01:13 Inizierei il tuffiamoci nel
+01:16 vivo Dunque allora stasera È una lezione
+01:20 di diciamo iniziale e di
+01:24 fatto stasera parleremo della
+01:27 terminologia quindi rivedremo insieme il
+01:31 concetto di tensione corrente potenza
+01:34 energia cioè gli elementi di base poi
+01:37 del nostro discorso che come previsto
+01:39 dal programma del mimit poi comincia con
+01:42 un po' di elettrotecnica e poi si
+01:43 sviluppa nella nella radiotecnica ne
+01:46 parliamo a un livello molto tranquillo
+01:49 e quindi in teoria non ci sono
+01:52 prerequisiti per seguire non solo
+01:54 stasera ma per seguire il corso cioè le
+01:56 lezioni saranno tutte più o meno
+01:58 autoconsistente cercheremo di spiegare
+01:60 argomento non sono richiesti titoli di
+02:02 studi particolari non è richiesta laurea
+02:03 no il corso è pensato per per tutti in
+02:07 sostanza quindi a volte faremo anche
+02:09 degli esempi molto molto tranquilli Se
+02:12 poi qualcuno magari come il collega che
+02:13 ha parlato prima degli studi tecnici è
+02:15 chiaro che molto probabilmente queste
+02:17 cose se le già studiate No in questo
+02:20 caso meglio Ovviamente Allora metto lo
+02:23 schermo in
+02:26 condivisione Eccolo qua
+02:31 e questo si mette
+02:35 giù ed ecco le slide la prima delle
+02:39 slide di stasera si vede tutto bene il
+02:41 mio
+02:42 video Sì ottimo Paolo sì perfetto
+02:46 stasera parliamo Grazie grazie Stasera
+02:48 parliamo ok Paolo ottimo grazie Stasera
+02:52 parliamo della corrente continua in
+02:54 particolare vediamo come vi dicevo i
+02:56 concetti base tensione corrente potenza
+02:59 quindi per per entrare su questi
+03:01 argomenti quindi fenomeni elettrici
+03:04 quindi l'elettricità quindi la corrente
+03:06 quindi la tensione bisogna ripartire dal
+03:10 dall'atomo
+03:11 L'atomo è come sapete
+03:14 il diciamo l'elemento di base che
+03:17 costituisce la materia no quindi ci sono
+03:19 atomi di ferro di alluminio di oro
+03:22 eccetera e diciamo è la particella più
+03:26 piccola che mantiene le caratteristiche
+03:30 della materia a cui appartiene No cioè
+03:32 un atomo di oro per esempio Ha tutte le
+03:34 caratteristiche dell'oro Quindi Che che
+03:37 potrebbe avere un lingotto
+03:40 d'oro allora un atomo Com'è composto qui
+03:43 vado abbastanza velocemente poi se ci
+03:45 sono domande farete Perché queste cose
+03:46 credo che le abbiamo tutte sentiti
+03:48 sentite nominare un atomo è composto da
+03:51 tre tipi di particelle c'è un nucleo che
+03:55 vedete qua dentro scate accendo la penna
+04:00 c'è un nucleo che vedete qua dentro
+04:04 questo che è un po' il centro dell'atomo
+04:07 come potrebbe essere il sole nel sistema
+04:10 solare No cioè il nucleo al centro e
+04:13 attorno al sole ci sono i pianeti che
+04:15 nel caso dell'atomo sono gli elettroni
+04:17 il nucleo è composto come vedete dalla
+04:20 figura da due tipi di particelle diverse
+04:22 alcune qui sono state disegnate in rosso
+04:24 altre sono state disegnate in blu quelle
+04:27 disegnate in rosso sono i neutroni sono
+04:31 delle particelle elettricamente neutre
+04:33 che fanno Massa nell'atomo però ai
+04:35 nostri fini non servono perché non sono
+04:39 portatrici di carica elettrica poi nel
+04:41 nucleo ci sono i
+04:43 protoni che sono particelle invece che
+04:46 hanno una carica elettrica che per
+04:48 convenzione è chiamata positiva carica
+04:50 elettrica
+04:52 positiva attorno all'atomo come se
+04:54 fossero un po' appunto i pianeti attorno
+04:56 al sole
+04:58 eh Ci sono in delle chiamiamo le orbite
+05:01 in senso lato ci sono delle altre
+05:03 particelle che appunto stanno attorno
+05:06 che sono chiamati elettroni quindi
+05:10 neutroni protoni ed elettroni gli
+05:13 elettroni sono portatori di carica
+05:15 elettrica
+05:17 e questa carica elettrica viene chiamata
+05:20 negativa è una convenzione no
+05:23 chiaramente il positivo il negativo la
+05:25 carica elettrica di un elettrone è
+05:27 chiamata è stata diciamo
+05:29 convenzionalmente definita negativa
+05:31 invece la carica elettrica dei protoni è
+05:33 stata convenzionalmente definita come
+05:35 positiva Quindi praticamente qui abbiamo
+05:37 delle particelle negative segno meno e i
+05:40 protoni invece sono delle particelle
+05:42 positive segno
+05:46 più può CAP Allora ci sono degli atomi
+05:51 ci sono delle sostanze delle materie in
+05:53 cui gli
+05:55 elettroni sono
+05:58 fortemente vincolati all'atomo stesso
+06:01 fortemente vincolati vuol dire che anche
+06:03 se provi a strapparli anche se provi
+06:07 mediante diciamo meccanismi elettrici
+06:10 magnetici o che dir si voglia provi a
+06:13 estrarre un elettrone dal dall'atomo
+06:16 praticamente non ci riesci o ci si
+06:18 riesce solamente impiegando un'energia
+06:20 molto molto elevata Questi materiali
+06:22 sono gli isolanti di fatto no che si
+06:24 tengono in maniera molto stretta i loro
+06:26 atomi i loro elettroni Scusate Ci sono
+06:28 invece altri elettroni
+06:30 altri Scusate altri
+06:33 atomi dove gli elettroni non sono
+06:37 agganciati così saldamente al nucleo e
+06:40 quindi con poco sforzo con con poca
+06:43 energia si può ad esempio prendere
+06:45 questo elettrone e farlo uscire dal
+06:52 nucleo per fargli fare altre cose Poi
+06:54 vedremo quali Questi materiali
+06:57 normalmente sono i metalli che per la
+06:60 loro configurazione proprio atomica
+07:02 ehm hanno una presentano una relativa
+07:08 facilità di cedere elettroni e sono
+07:12 ovviamente i materiali che ci
+07:14 interessano dal punto di vista Poi della
+07:16 corrente elettrica e di tutto quel che
+07:18 segue e ne parleremo allora come vedete
+07:21 qua sotto appunto i l'atom è composto
+07:24 riepilogando da protoni che hanno una
+07:26 carica positiva elettroni una carica
+07:28 negativa gli atomi normalmente sono
+07:31 elettricamente neutri questo
+07:33 elettricamente neutro vuol dire che in
+07:35 un atomo in un atomo tipico di qualsiasi
+07:39 materia il numero di elettroni e il
+07:41 numero di protoni è uguale e quindi le
+07:43 cariche degli elettroni e dei protoni Si
+07:46 bilanciano
+07:48 esattamente se l'atomo cede un elettrone
+07:52 Oppure ne acquista altri diventa quello
+07:55 che si chiamano ione Quindi se l'atomo
+07:58 cede perché gli viene strappato un
+08:01 elettrone l'atomo resta uno ione
+08:04 positivo Nel senso che lui All'inizio
+08:06 era neutro se lì tolgo una carica
+08:09 negativa che è un elettrone
+08:12 l'atomo diventa automaticamente positivo
+08:16 perché ha perso una carica negativa e
+08:18 quindi resta più positivo quello che
+08:21 interessa a noi essenzialmente è il
+08:23 flusso di elettroni perché quando si
+08:24 parla di corrente elettrica la corrente
+08:26 elettrica Non è non è altro che un
+08:28 movimento di elettroni Parliamo fra un
+08:31 attimo
+08:34 allora se noi riusciamo a diciamo
+08:37 strappare immaginiamo di avere un
+08:39 materiale conduttore il rame tipicamente
+08:42 No il rame è il materiale con cui
+08:43 vengono di cui sono composti i figli
+08:46 elettrici che portano la corrente
+08:47 elettrica che portano l'elettricità
+08:49 nelle nostre case immaginiamo che noi
+08:51 riusciamo a strappare dalle diciamo da
+08:54 questo materiale un certo numero di
+08:56 elettroni ciascuno di questi elettroni
+08:58 come vi dicevo ha una una carica
+08:60 elettrica a una carica elettrica
+09:02 elementare perché cariche elettriche più
+09:05 piccole di quelle di un elettrone
+09:06 immaginiamo che non ce ne
+09:08 siano se noi riusciamo
+09:11 a dal nostro materiale dalla nostra
+09:13 barra di rame a estrarre un certo numero
+09:16 di elettroni di fatto diciamo abbiamo
+09:19 costituito una carica elettrica la
+09:21 carica elettrica non è altro che una
+09:23 carica elettrica negativa non è altro
+09:25 che un insieme di
+09:26 elettroni questa carica elettrica ha una
+09:29 unità di misura che si chiama Coulomb la
+09:31 possiamo misurare la carica elettrica di
+09:34 un Coulomb per convenzione È una certa
+09:38 quantità di elettroni questo numero
+09:41 qua
+09:42 6,25 M 10 ^ 188 ovvero
+09:46 6,25 miliardi di miliardi di
+09:51 elettroni quindi il coulomb è l'unità di
+09:54 misura della carica elettrica un Cop
+09:57 Vale 6,25 5 per 10 all 18 cioè 10 all 18
+10:02 sarebbe 10 ^ 9 * 10 all 9 ovvero
+10:05 miliardi di miliardi di elettroni la
+10:09 carica elettrica può essere
+10:11 positiva se è composta da ioni positivi
+10:16 Oppure può essere negativa se è composta
+10:19 da
+10:22 elettroni le cariche elettriche cosa
+10:26 succede anche con le calamite Quindi con
+10:28 il magnetismo si ATT Ono o si respingono
+10:30 E vale la la tipica legge che tutti
+10:33 quanti Penso avrete sentito nominare che
+10:36 cariche elettriche uguali si respingono
+10:39 cariche elettriche diverse si attraggono
+10:41 Quindi se io ho una carica negativa e e
+10:45 una carica positiva queste cariche si
+10:48 attraggono Quindi vedete questa cosa è
+10:52 graficamente diciamo rappresentata con
+10:54 queste linee Nel senso che
+10:56 l'elettrone tende ad attirare il protone
+10:60 il protone tende a
+11:02 eh Scusatemi lo ione lo ione positivo e
+11:06 il protone tende lui stesso ad
+11:07 avvicinarsi alle' elettrone si
+11:09 attraggono Qua invece c'è diciamo c'è
+11:12 c'è concordanza di spinta diciamo così
+11:14 Qua invece ci sono due spinte queste due
+11:17 spinte antagoniste quindi due cariche eh
+11:20 uguali si
+11:24 respingono sempre a proposito di cariche
+11:26 elettriche e le cariche elettriche
+11:29 generano quello che si chiama un campo
+11:32 elettrico Cos'è un campo di Campi
+11:34 parleremo anche in futuro perché in fin
+11:37 dei conti Eh uno degli scopi di usare di
+11:40 diventare radioamatori e di usare una
+11:42 radio è di
+11:43 trasmettere Quando si trasmette
+11:45 l'antenna della nostra radio genera un
+11:47 campo elettromagnetico e vedremo poi
+11:50 questi campi come sono fatti un campo
+11:52 non è altro che una zona di spazio in
+11:55 cui Si avvertono gli effetti generati
+11:58 Nel nostro caso da una o più cariche
+12:01 elettriche e se si vuole si può
+12:04 rappresentare questi campi attraverso
+12:05 dei disegni come vedete qua attraverso
+12:07 le linee di forza del campo magnetico
+12:09 queste linee rappresentano la direzione
+12:11 secondo la quale agiscono le forze
+12:14 elettriche di cui ho parlato prima Cioè
+12:16 queste forze di attrazione e di
+12:18 repulsione come si leggono questi
+12:21 disegni È molto facile Guardate questo
+12:23 disegno più a sinistra Qui abbiamo al
+12:26 centro una carica elettrica positiva Io
+12:29 per capire come
+12:31 eh Com'è il gioco delle forze attorno a
+12:35 questo campo
+12:36 elettrico faccio faccio una cosa molto
+12:39 semplice cioè Immagino di mettere in
+12:41 vari in vari punti dello spazio attorno
+12:44 alle mia alla alla mia carica elettrica
+12:47 positiva un'altra carica positiva
+12:49 immaginate che io la metto qua in questo
+12:51 punto che adesso Sto indicando se io
+12:54 metto qui un'altra carica positiva cosa
+12:57 succederà poiché le cariche uguali si
+13:00 respingono questa carica partirà
+13:03 respinta in questa direzione Ecco quello
+13:07 che indica la freccia se io metto una
+13:09 carica positiva qui questa carica
+13:12 partirà secondo questa direzione Quindi
+13:16 in pratica queste linee che vedete che
+13:18 sono chiamate le linee di forza del
+13:20 campo elettrico sono le linee che
+13:22 mostrano In che direzione agisce la
+13:24 forza di attrazione o repulsione
+13:26 elettrica se io la mia carica positiva
+13:29 la Met metto qua ad esempio metto
+13:32 qui un protone qui ho una carica
+13:35 negativa quindi la carica parte in
+13:37 questa direzione nella direzione della
+13:39 freccia come vedete qua e va a diciamo a
+13:42 raggiungere la carica
+13:44 negativa qui ho un campo elettrico
+13:47 vedete che ci sono delle linee di forza
+13:49 un po' strane perché questo è un campo
+13:50 elettrico generato da due cariche
+13:53 immaginiamo di mettere qui la mia carica
+13:56 positiva che succede succede che questa
+13:59 carica viene respinta da
+14:02 questo Da quest'altra carica positiva
+14:04 che spingerà
+14:06 così in direzione radiale come come
+14:12 avete visto nel primo disegno Però
+14:13 contemporaneamente viene respinta anche
+14:15 da questa che è un po' più lontana agirà
+14:19 un pochino più debolmente e agisce e
+14:22 agisce in questa direzione no dove
+14:23 questa in qualche modo la linea e la la
+14:27 combinazione diciamo di queste due forze
+14:29 spingo elettrone
+14:32 quassù Comunque questo discorso queste
+14:35 rappresentazioni del campo elettrico
+14:36 sono qualitative per rendere un po'
+14:38 l'idea di Cosa sono questi Di che forma
+14:40 possono avere questi campi il concetto
+14:42 di base è che tutte le cariche
+14:44 elettriche generano attorno a sé un
+14:46 campo elettrico questo i campi elettrici
+14:49 appunto si rappresentano attraverso
+14:51 delle linee di forza e le cariche
+14:55 positive tendono a respingere cariche
+14:59 POS
+14:60 e invece cariche negative tendono Ad
+15:02 attrarre cariche negative e a questo
+15:06 punto siamo arrivati alla corrente
+15:08 elettrica Cioè Cosa succede se in un
+15:11 punto dello spazio vi sono degli
+15:12 elettroni liberi e in un altro punto c'è
+15:16 una carenza di elettroni come vedete qua
+15:18 vedete che qui c'è una zona di elettroni
+15:20 liberi quindi cariche negative Qui
+15:23 invece c'è una zona di cariche positive
+15:25 Cioè ci sono degli ioni
+15:29 che se gli elettroni che stanno qui
+15:31 trovano la strada cioè ad esempio un
+15:35 conduttore elettrico cercheranno di
+15:38 raggiungere la carica positiva e questo
+15:41 appunto è il flusso della corrente
+15:42 elettrica la corrente elettrica che in
+15:45 qualche
+15:46 modo passa diciamo nei nei cavi
+15:49 elettrici o a volte anche nello spazio è
+15:52 appunto un flusso di elettroni cioè di
+15:54 cariche negative che partono da una
+15:57 parte di questo
+15:60 di questo cavo dove per qualche motivo
+16:03 c'è una abbondanza di elettroni e
+16:05 cercano di andare dove invece Esistono
+16:08 delle cariche positive ovvero nella
+16:10 nella parte diciamo del del mio cavo che
+16:14 è carente di elettroni Allora qua mi
+16:18 fermo interrompo la
+16:22 condivisione per una per per sapere se
+16:25 ci sono domande se se è tutto chiaro Per
+16:27 ora se ci sono domande ne riparliamo
+16:29 allora Allora intanto c'è Giorgio con la
+16:30 mano alzata e poi
+16:32 Roberto Giorgio a te Buonasera intanto
+16:35 ben
+16:42 ritrovato Giorgio non ti
+16:48 sentiamo Giorgio ancora
+16:57 niente niente Allora intanto Giorgio
+17:00 mentre lotti per per accendere il
+17:02 microfono la parola a Roberto a Roberto
+17:05 Francesco a te Scusami ma io non ho
+17:09 capito se pui rimette quella slide di
+17:11 prima dei Poli perché a me mi sembrava
+17:14 molto strano che due poli positivi si
+17:17 ehm si ATT cioè come posso
+17:21 dire si respingono eh Ma nella foto
+17:26 C'era C'era la linea che si attraeva S
+17:29 su aspetta aspetta aspetta un attimo che
+17:32 metto in condivisione lo schermo eh di
+17:34 nuovo pic
+17:37 ecco Tu parli un attimo Scusami tu parli
+17:42 di questa slide m Sì se ho capito bene
+17:45 giusto Francesco Sì allora eh Sì ma in
+17:50 effetti queste
+17:52 linee sembrano un po' un po' sembrano un
+17:56 po' strane No diciamo guardale come due
+17:59 due cose come si dice antagoniste Cioè
+18:03 che lottano l'una contro
+18:06 l'altra
+18:08 Ok quest'atomo
+18:12 spinge Questo è il senso della freccia
+18:15 spinge quest'altro atomo di
+18:18 qua contemporaneamente questo atomo qui
+18:21 che che sta a destra
+18:24 spinge via quest'atomo in questa
+18:27 direzione Infatti MIB Brava strana Sì ma
+18:31 infatti è diciamo è il disegno in sé che
+18:33 è un po' strano Quelle sono forze
+18:35 antagoniste una opposta
+18:39 all'altra Grazie ti trovi niente Grazie
+18:42 a te domanda tutto quello che che vuoi
+18:46 Ok ci sono altre domande c'è Giorgio con
+18:51 la mano
+18:53 alzata
+18:54 Eh ma forse gli è rimasta da prima anche
+18:57 perché
+18:60 aspetta Eccolo eccolo Giorgio vai
+19:07 Giorgio No secondo me ora ha abbassato
+19:10 la
+19:11 mano Ok va bene Allora Paola non c'è
+19:14 altro Va bene allora
+19:18 proseguo questo si toglie ok Quindi
+19:22 allora cariche elettriche positive e
+19:25 negative in realtà le cariche elettriche
+19:28 diciamo quelle più mobili sono gli
+19:30 elettroni no E quindi la carica
+19:31 elettrica negativa
+19:34 esiste per davvero cioè il l'elettrone è
+19:38 la carica elettrica negativa la carica
+19:41 elettrica positiva pura non esiste nel
+19:44 senso che la Come vi dicevo prima la
+19:46 carica elettrica pura
+19:48 e in realtà è uno ione Quindi è un atomo
+19:51 che ha perso un elettrone Perché i
+19:54 protoni è molto difficile sganciarti dal
+19:56 nucleo dell'atomo Bisognerebbe rompere
+19:58 l'atomo E questa cosa normalmente
+19:60 richiede energie molto molto alte queste
+20:03 cariche elettriche negative quindi i
+20:05 nostri elettroni danno vita a corrente
+20:09 elettrica danno vita a corrente
+20:11 elettrica quando diciamo da un punto
+20:14 dove ce ne sono tanti Possono
+20:15 raggiungere una zona dove c'è carenza di
+20:19 elettroni quindi una zona
+20:20 tendenzialmente
+20:22 positiva Allora quindi un po' di
+20:25 definizioni stasera come vi dicevo
+20:28 lavoriamo per costruire proprio il
+20:30 linguaggio di base no con cui poi
+20:32 gestiremo le prossime lezioni Allora
+20:34 cos'è la corrente elettrica la corrente
+20:37 elettrica è uno spostamento di cariche
+20:39 elettriche tendenzialmente nel 999% dei
+20:42 casi uno spostamento di elettroni in
+20:45 particolare stasera parliamo di corrente
+20:47 continua la corrente continua è un tipo
+20:51 di corrente che scorre in un solo senso
+20:54 quindi dal polo negativo al polo
+20:57 positivo come vedete qua da un polo
+20:59 ricco di cariche negative ad uno ricco
+21:01 di cariche positive Poi vedremo che la
+21:04 corrente continua può essere prodotta da
+21:06 pile batterie eccetera eccetera
+21:09 e la corrente parliamo di corrente
+21:12 continua Anche perché c'è una corrente
+21:15 alternata quindi una corrente che poi
+21:17 come Vedremo nella lezione numero tre
+21:21 non scorre sempre in un solo senso ma a
+21:24 volte scorre in un senso e a volte
+21:26 scorre in un altro e ne parleremo
+21:29 la corrente continua a scorr in un solo
+21:31 senso questa cosa non vuol dire che il
+21:34 valore della corrente sia sempre
+21:36 costante cioè magari possiamo avere una
+21:38 corrente che ha un valore in certi
+21:40 momenti basso in certi momenti alto però
+21:42 scorre sempre nello stesso senso dal
+21:44 polo negativo il polo positivo non non
+21:47 torna mai indietro questo vuol dire
+21:48 corrente continua continua non nel senso
+21:51 che è un flusso costante di corrente
+21:54 continua vuol dire che non cambia mai il
+21:57 verso in cui la corrente scorre quindi
+21:60 Può variare l'ampiezza la quantità della
+22:02 corrente che scorre Ma va sempre dal
+22:04 polo negativo al polo
+22:06 positivo Dove scorre una corrente
+22:09 elettrica come accennavo prima Ci sono
+22:11 due tipi di materiali no i materiali
+22:13 conduttori e i materiali isolanti
+22:15 qualcuno di voi può accendere il
+22:17 microfono mi fa qualche esempio di
+22:19 materiale
+22:24 conduttore oro l'oro l'acqua
+22:29 conduce l'acqua l'acqua di per S è
+22:32 isolante l'acqua conduce se se ci sono
+22:36 degli additivi ad esempio il sale Ferro
+22:39 argento alluminio fero Francesco argento
+22:43 alluminio bravi Allora in generale
+22:46 perfetto bravi Allora in generale i
+22:49 materiali conduttori sono i materiali
+22:53 metallici oro argento alluminio Ferro
+22:56 ghisa chi più chi meno no ce ne sono che
+22:59 conducono molto bene oro e argento per
+23:01 esempio il rame conduce bene il ferro un
+23:03 po' meno bene ma comunque sono ottimi
+23:05 sono tutti buoni conduttori Fatemi
+23:07 qualche esempio di materiale isolante
+23:09 ora il leg
+23:12 plastica la plastica plastica gomma
+23:17 ceramica ceramica benissimo benissimo
+23:20 generale l'aria l'aria Esatto in
+23:23 generale tutti i
+23:25 materiali
+23:27 plastici ceram tutti i vari tipi di
+23:30 ceramiche tutti i vari tipi di plastiche
+23:31 eccetera sono materiali
+23:34 isolanti Ok come vedete qua
+23:39 no vedremo poi nella prossima lezione
+23:42 Come si misura il fatto che un materiale
+23:47 conduca più o meno bene la La misura si
+23:49 Chiam si chiama Resistenza Come alcuni
+23:51 di voi forse già conoscono però per ora
+23:53 ci basta in qualche modo avere diciamo
+23:56 come obiettivi di stasera avere in testa
+23:58 che ci sono appunto queste due tipologie
+24:00 di di di materiale conduttori isolanti
+24:03 la corrente elettrica di solito si cerca
+24:05 di farla scorrere ovviamente in
+24:07 materiali conduttori Allora la corrente
+24:11 elettrica Ovviamente la possiamo
+24:13 misurare cioè c'è un'intensità della
+24:15 corrente elettrica quindi io ho diciamo
+24:18 una una batteria
+24:21 eh collego i poli di questa batteria con
+24:25 un conduttore e quindi scorre una certa
+24:28 corrente cioè le cariche elettriche che
+24:30 stanno sul polo negativo scorrono verso
+24:32 il polo positivo
+24:34 eh
+24:36 Quante quanta corrente scorre col
+24:40 diciamo col circuito col piccolo
+24:42 circuito che ho creato la corrente che
+24:44 scorre la si misura in ampere il questo
+24:49 signore ampere era un fisico francese
+24:51 che ha dato il nome a questa unità di
+24:53 misura e il simbolo per quando la si usa
+24:56 nelle formule quando la si Us nei numeri
+24:59 per esempio voglio scrivere 2 amp il
+25:01 simbolo è a la lettera A maiuscola
+25:04 quindi 2 ampere si scrive 2A maiuscolo
+25:07 invece poi vedremo che quando si usa
+25:09 nelle formule il simbolo della corrente
+25:11 è i in generale tutte le grandezze
+25:14 elettriche hanno appunto sono associate
+25:17 a due lettere nel senso che
+25:21 eh la grandezza in quanto tale cioè la
+25:24 corrente nelle formule si chiama I I
+25:26 rappresenta la corrente elettrica
+25:28 intensità della corrente elettrica si
+25:30 misura questa intensità di corrente
+25:32 elettrica in ampere quindi 1 amp 3 amp 5
+25:35 amp Che cos'è 1 ampere 1 ampere come
+25:38 vedete qua sotto è 1 coulom al secondo
+25:41 abbiamo visto prima che 1 Coulomb sono
+25:43 quei 6,25 miliardi di miliardi di
+25:46 elettroni se in un filo in un secondo
+25:49 passano quei famosi 625 miliardi di
+25:52 miliardi di elettroni in quel filo sta
+25:54 scorrendo Una corrente di 1 amp 1 amp è
+25:57 1 Coulomb al
+26:03 secondo questa corrente perché scorre
+26:06 scorre perché c'è una differenza di
+26:09 potenziale Allora cos'è cos'è il
+26:11 potenziale intanto E allora il
+26:14 potenziale ora si parla di un potenziale
+26:16 di tipo
+26:18 elettrico Diciamo che in un punto di un
+26:21 circuito in un punto di un cavo ad
+26:23 esempio c'è un certo potenziale
+26:24 elettrico perché lì c'è un certo
+26:26 accumulo di elettroni che magari è più
+26:29 alto di altri punti del cavo potete
+26:32 immaginare questa cosa del potenziale e
+26:35 della differenza di potenziale come se
+26:38 cerco di fare un un disegnetto qua Anzi
+26:40 uno scarabocchio potreste immaginare di
+26:44 avere due contenitori pieni di acqua due
+26:48 due due secchi di acqua diciamo uno
+26:51 pieno con l'acqua a questo livello e
+26:56 accanto secchio simile
+27:01 analogo però con l'acqua piena ha questo
+27:05 livello Quindi Qui c'è tanta acqua Qui
+27:07 c'è poca acqua si dice che dal punto di
+27:11 vista elettrico Qui siamo in presenza di
+27:13 una differenza di potenziale parlando
+27:16 non di acqua ma parlando di elettroni
+27:19 Qui c'è una grossa quantità di carica
+27:21 quindi tantissimi elettroni tanti segni
+27:24 meno Qua invece ce ne sono meno Quindi
+27:28 qui ho tanta carica elettrica qua ho
+27:30 meno carica elettrica qui ho tanto
+27:33 potenziale ho un potenziale elevato Qui
+27:36 invece è un potenziale meno elevato un
+27:39 potenziale più basso come succede
+27:42 nell'acqua con l'acqua succede che se FR
+27:45 questi due Fra Questi due secchi
+27:47 collegate un tubo succede che una parte
+27:52 dell'acqua che sta in questo secchio si
+27:54 sposta nell'altro fino ad arrivare al
+27:57 punto in cui Scusate ma non vengono
+28:00 tanto bene dis segni che i livelli
+28:03 dell'acqua sono uguali succede
+28:05 esattamente la stessa cosa con la
+28:06 corrente elettrica Quindi io collego un
+28:09 punto dove ci sono tanti elettroni a un
+28:11 punto D dove ce ne sono meno gli
+28:13 elettroni si spostano da dove ce ne sono
+28:15 di più a dove ce ne sono di
+28:18 meno finché non si livellano
+28:22 Oppure se c'è una un generatore una
+28:25 batteria che continua a generare
+28:27 elettroni come vedremo dopo questo
+28:30 flusso continua ma immaginiamo per ora
+28:32 di essere in questa situazione che vi
+28:33 rappresentato no Quindi un serbatoio con
+28:36 tanti elettroni uno con pochi elettroni
+28:38 C'è una differenza di
+28:41 potenziale questa differenza di
+28:43 potenziale fa sì che la corrente
+28:45 elettrica
+28:46 scorra la differenza di potenziale si
+28:49 misura in volt come leggete qua e volt è
+28:55 Alessandro volt ovviamente che sarebbe
+28:57 il il diciamo il il grande fisico e non
+29:01 solo italiano che nel
+29:02 1799 ha inventato la pila la la famosa
+29:07 pila di
+29:08 volta e il simbolo della tensione nelle
+29:11 formule è la lettera v
+29:15 maiuscola il simbolo è v e l'unità di
+29:19 misura è il Volt in questo caso è anche
+29:22 qui un V maiuscolo Come'è definito un
+29:25 volt questa definizione diciamo non vi
+29:28 serve fini degli esami ma ma comunque
+29:30 per completezza diciamo l'ho inserita
+29:32 nelle slide
+29:33 eh 1 vol C'è una differenza di
+29:37 potenziale di Fra Questi due serbatoi di
+29:40 1 v quando per portare un Coulomb quindi
+29:44 la mia una certa quantità di carica
+29:47 elettrica da dal serbatoio che ne ha
+29:51 meno per esempio al serbatoio che ne ha
+29:53 più devo fare un certa una certa
+29:55 quantità di lavoro che si misura così di
+29:58 un
+29:59 jou Poi però vedremo Allora questo tipo
+30:03 di questa è la definizione classica del
+30:06 volt Poi però vedremo che nel nostro
+30:08 corso useremo un'altra definizione che
+30:11 vedremo nella prossima nella prossima
+30:14 lezione però la definizione di volt è
+30:17 questa quindi 1 vol è la differenza di
+30:19 potenziale che deve esistere fra due
+30:22 punti di un circuito il punto A e il
+30:24 punto
+30:26 B per la quale per portare un coulom dal
+30:29 punto a al punto b Mi serve un lavoro di
+30:31 di un
+30:33 jou ultime due definizioni l'energia
+30:37 elettrica e la potenza elettrica Allora
+30:39 spengo un attimo la la condivisione
+30:43 perché il discorso che vi faccio adesso
+30:47 per spiegare per cercare di spiegare
+30:48 cos'è l'energia E cos'è la
+30:52 potenza
+30:54 S non richiede più di tanto l'uso delle
+30:56 slide intanto Vedete qui partiamo
+30:58 Comunque da questa definizione l'energia
+31:00 è la capacità di compiere un
+31:04 lavoro
+31:06 allora interrompo la condivisione Ok
+31:10 così ci ci diciamo mi mi potete
+31:14 vedere Allora cos'è che cos'è l'energia
+31:17 E cos'è la la potenza Allora l'energia è
+31:20 la capacità come avete letto in quella
+31:22 in quella slide di compiere un lavoro vi
+31:25 faccio un un esempio relativo a un
+31:29 oggetto che molto probabilmente tutti o
+31:31 quasi possedete no immaginiamo una un
+31:34 automobile eh in tutte le automobili c'è
+31:38 un serbatoio il serbatoio si riempie di
+31:41 benzina o di gasolio nel caso di
+31:43 macchine tradizionali Oppure se qualcuno
+31:45 di voi ha un'auto elettrica questo
+31:47 serbatoio Si si riempie di cariche
+31:49 elettriche no Quindi immaginiamo che
+31:51 nella nostra automobile Noi abbiamo
+31:53 abbiamo Comunque il serbatoio pieno sia
+31:56 che si tratti di benzina sia che che si
+31:58 tratti di appunto di di elettricità
+32:01 Allora il il serbatoio in un automobile
+32:05 è una riserva di energia di tipo
+32:08 elettrico nelle auto elettriche di tipo
+32:10 chimico nelle a nelle auto diciamo
+32:13 tradizionali m nel momento in cui io
+32:16 metto in moto l'automobile l'energia che
+32:19 ho nel mio serbatoio viene trasformata
+32:22 in un altro tipo di energia in
+32:25 particolare viene trasformata in
+32:27 un'energia associata al movimento della
+32:29 macchina viene chiamata energia cinetica
+32:32 quindi l'energia cinetica è quella che
+32:34 ha ogni mezzo che che si muove quindi
+32:37 appunto le automobili ma in generale
+32:39 tutti i mezzi che si muovono dispongono
+32:41 di una certa energia elettrica il motore
+32:44 della mia automobile fa questo lavoro di
+32:46 trasformazione trasforma ad esempio
+32:48 fatemi parlare
+32:50 di attenzione ti è venuta la
+32:53 condivisione dello
+32:55 schermo Leonardo hai messo lo schermo in
+32:58 condivisione inavvertitamente
+33:07 Ok
+33:09 perfetto Allora stavo dicendo il motore
+33:12 dell'automobile trasforma il tipo di
+33:15 energia dall'energia chimica del
+33:17 combustibile della benzina in energia
+33:20 meccanica energia cinetica in
+33:22 particolare no Quindi c'è la
+33:24 trasformazione di tipologia di
+33:27 energia Quanta
+33:29 energia si trasforma da energia da
+33:34 energia diciamo della benzina a energia
+33:37 cinetica il quanta lo decide il
+33:40 guidatore tramite il pedale
+33:42 dell'acceleratore
+33:43 se io schiaccio leggermente il pedale
+33:47 dell'acceleratore quindi partendo piano
+33:49 o andando piano mi si trasforma una
+33:53 quantità moderata di energia da energia
+33:56 chimica a energia cinetica
+33:60 la quantità di energia che mi si
+34:02 trasforma è la
+34:05 potenza sapete che i motori delle
+34:07 automobili hanno una certa potenza il
+34:09 motore delle automobili la potenza dei
+34:11 motori delle automobili normalmente la
+34:13 si esprime in in cavalli un motore che
+34:15 può avere 50 80 100 cavalli e così via
+34:19 un cavallo sono 775 W più o meno se
+34:24 quella potenza rila si esprime in
+34:26 termini
+34:27 elettrici Quindi se io
+34:29 sono se io sto partendo
+34:32 lentamente premendo poco l'acceleratore
+34:35 il mio motore Trasforma una quantità di
+34:39 energia debole
+34:41 eh generando una potenza ad esempio di
+34:44 di 100 W se io schiaccio l'acceleratore
+34:47 in maniera più più forte in maniera
+34:50 violenta voglio andare veloce voglio
+34:51 partire rapidamente ovviamente che
+34:53 faccio consumo più benzina questo lo
+34:55 sappiamo tutti no consumo più benzina
+34:57 perché per che il motore assorbe Più
+34:59 Potenza invece dei 100 W di prima magari
+35:01 ne assorbe
+35:02 1000 quindi la potenza è la è la
+35:07 quantità di energia che il mio motore
+35:10 trasforma se io vado lentamente il mio
+35:13 motore prende i 100 W di energia chimica
+35:16 della benzina e li trasforma inel in
+35:18 movimento invece se io voglio andare
+35:19 veloce se io premo molto l'acceleratore
+35:21 il mio motore brucia molta benzina e
+35:24 trasforma molta energia chimica
+35:27 contenuta la benzina in energia cinetica
+35:31 quindi l'energia è la capacità che ha un
+35:35 una sostanza di fare un
+35:38 lavoro la sostanza in questo caso è la
+35:41 benzina il lavoro che è capace di fare è
+35:44 di spostare la
+35:46 macchina la quantità di questa energia
+35:49 che io brucio è espressa dalla potenza
+35:51 La potenza è la quantità di energia che
+35:53 io brucio nell'unità di tempo se io
+35:56 consumo poca potenza la mia
+35:59 macchina partirà lentamente se io invece
+36:02 schiaccio molto l'acceleratore la
+36:05 potenza sarà più elevata e la mia
+36:08 macchina partirà più
+36:09 velocemente quindi la potenza è la
+36:12 quantità di energia che si trasforma nel
+36:15 tempo succede qualcosa di identico anche
+36:18 nelle radio
+36:20 immaginate di avere una radio una
+36:24 radiolina di questo tipo il tipico
+36:27 palmare con la sua antennina e qua sotto
+36:30 il pacco batterie d'accordo tutte le
+36:34 radio sia queste piccole sia le Radi un
+36:36 po' più grandi hanno da qualche parte
+36:38 una manopola che permette di regolare la
+36:41 potenza di uscita in questi palmari
+36:43 tipicamente ci sono dei pulsanti e puoi
+36:46 regolare la potenza di uscita non so me
+36:48 W 1 w 5
+36:51 W il watt non l'ho detto non l'ho detto
+36:55 formalmente nelle slide ma il watt la è
+36:58 l'unità di misura della potenza Mh se io
+37:01 regolo il mio palmare con una potenza di
+37:03 uscita di 5 w cosa succederà Cosa fa la
+37:06 mia radio la mia radio trasforma energia
+37:08 Da dove la prende la prende da qua
+37:10 dentro questo è il pacco batterie nelle
+37:13 batterie immagazzinata energia in
+37:15 termini chimici la mia radio trasforma
+37:17 questa energia in un nell'energia del
+37:20 campo elettromagnetico che è riato
+37:22 dall'antenna se io regolo la mia
+37:25 manopola per avere una potenza di mezzo
+37:28 W che è tipica per queste radioline
+37:32 ehm questa trasformazione di energia
+37:35 sarà debole quindi eh verrà prelevata
+37:39 dal pacco batterie una certa quantità di
+37:41 energia verrà trasformata in antenna eh
+37:44 da una diciamo da una potenza di mezzo w
+37:48 e quindi tutto sommato poca Energia Se
+37:51 io metto la radio al massimo Quindi 5 W
+37:54 di uscita chiaramente chiaramente
+37:56 prelever dal mio serbatoio di energia
+37:59 che sono le batterie gli accumulatori
+38:01 prelever 10 volte
+38:04 tanta
+38:06 energia Ottenendo 10 volte tanta energia
+38:11 in termini di campo
+38:15 elettromagnetico e Quanta energia sto
+38:18 trasformando è data dalla è misurato
+38:21 dalla potenza della radio che appunto
+38:23 può essere regolata da me W 1 w
+38:28 5 W quindi nella radio un dispositivo la
+38:32 batteria che contiene dell'energia che è
+38:35 capace di fare un lavoro per me utile
+38:37 ovvero trasmettere un segnale
+38:39 trasmettere un'onda elettromagnetica con
+38:41 la regolazione della potenza che io ho
+38:44 decido quanta di questa energia
+38:48 consumo e quindi se in campo
+38:51 elettromagnetico io Irradio una potenza
+38:53 di 5 10 100 W No per i vari tipi di
+38:58 radio Allora questa cosa rivediamola un
+39:01 attimo nelle slide rimetto lo schermo in
+39:06 Scusate un
+39:09 attimo
+39:14 Pardon un un attimo
+39:18 solo rimetto lo schero in
+39:21 condivisione Eccomi
+39:26 qua torniamo al la
+39:29 slide Quindi allora l'energia elettrica
+39:32 l'energia elettrica è la capacità di
+39:34 compiere un lavoro cosa ci fornisce
+39:36 l'Enel l'Enel ci Fornisce energia perché
+39:39 se ci pensate No il contatori dell'Enel
+39:42 misurano i kow or non misurano i
+39:44 kilowatt o i watt misurano i watt or
+39:48 l'energia si misura in wattora W
+39:53 maiuscolo h minuscolo 1 w è il consumo
+39:56 di 1 w per un certo tempo per un'ora io
+39:59 per un'ora consumo 1 w e quindi consumo
+40:03 una certa quantità di energia la potenza
+40:07 simbolo
+40:09 P Scusate
+40:11 riaccendo simbolo
+40:15 p è il rapporto fra il lavoro che svolgo
+40:19 per cui la mia macchina che si muove la
+40:22 mia onda elettromagnetica che parte
+40:23 eccetera e il tempo impiegato per
+40:25 compierlo e l'unità di misura è il watt
+40:29 il watt quindi il watt è l'unità di
+40:31 misura della potenza la useremo molto in
+40:34 diciamo durante tutto il corso 1 w è una
+40:37 quantità di lavoro di un jou al
+40:41 secondo quindi diciamo ai fini delle
+40:44 domande che troverete nel Diciamo che
+40:47 potreste trovare nel test la cosa da
+40:49 tenere a mente è questa no Quindi
+40:51 l'energia si misura in watt or o in kow
+40:55 la potenza si misura in watt
+41:01 e qui Scusate qui mi fermo prima di
+41:03 andare avanti ci sono domande su
+41:11 questo Paolo non ci sono mani alzate per
+41:21 adesso
+41:23 Ah mi sa che abbiamo un attimo un
+41:25 problema con
+41:27 con la connessione di
+41:31 Paolo un attimo di pazienza e
+41:34 riprendiamo subito la lezione
+42:01 ma lo sentite sottofondo questo
+42:06 suono Sì stavo cercando di trovare chi
+42:08 ha il microfono aperto e quindi per
+42:12 chiuderlo Eh perché infatti lo sentivo
+42:15 anche quando parlava lui eh però non
+42:19 vedo microfoni
+42:22 aperti magari chi non è chiamato a non
+42:27 ha mal alzato se gentilmente lo può
+42:30 disattivare ci fa una cortesia a tutti
+42:33 ora aspettiamo il palo
+42:37 rientri e poi proseguire la lezione m
+43:21 un attimo di pazienza Vediamo se se
+43:24 recuperiamo Paolo
+43:54 Vediamo se Paolo è riuscito a rientrare
+44:10 No non riesce a
+44:12 rientrare un
+44:16 attimo Eccomi di nuovo mi vedete Mi
+44:19 sentite adesso sì Paolo Bentornato Sì
+44:25 ma non ho capito bene è successo Mi Mi è
+44:28 crollato teams Eh succede e infatti ho
+44:34 dovuto per di fatto spengere e
+44:35 riaccendere Scusatemi
+44:37 per Scusatemi per l'intoppo
+44:41 Ma lasci fin dove Eh mi capitano
+44:46 Purtroppo
+44:47 però fin dove mi avete
+44:50 seguito di dove mi avete ascoltato e
+44:54 stavi dicendo che se qualcuno doveva
+44:56 fare delle domande
+44:58 ok E c'erano domande No infatti ti stavo
+45:02 rispondendo non c'erano mani alzate poi
+45:04 mi Ok Perfetto
+45:07 Perfetto allora PR allora allora allora
+45:11 a questo punto rimetto in condivisione
+45:13 lo schermo vediamo un po' Oh ora
+45:16 funziona bene Sono molto contento di
+45:23 ciò Allora
+45:26 torniamo dove
+45:30 eravamo corrente elettrica quindi
+45:33 potenza elettrica Allora quindi abbiam
+45:37 abbiamo parlato dell'energia elettrica e
+45:39 della potenza elettrica la potenza
+45:41 elettrica l'unità di misura se vogliamo
+45:43 formale è 1 Wat è il watt 1 j al secondo
+45:47 però questa stessa formula Letta diciamo
+45:51 si si si diciamo Eh si può esprimere con
+45:57 grandezze tutte di natura elettrica
+45:59 quindi sostituendo il lavoro e la
+46:02 formula che normalmente si usa nel
+46:05 calcolo della potenza elettrica è v * i
+46:09 Cioè in nei circuiti
+46:13 elettrici Scusate un attimo rimetto
+46:17 Eccolo qua pennarello dei circuiti
+46:22 elettrici in generale Questa è la
+46:24 formula che che si usa nel 99 9% dei
+46:28 casi quindi
+46:30 Eh la potenza elettrica è data dalla dal
+46:33 prodotto D moltiplicazione della
+46:35 tensione per la corrente prima per
+46:37 esempio vi vi mostravo quella Quella
+46:40 quella piccola
+46:42 radio palmare diciamo come si chiama No
+46:45 eh potrei potrei pormi la domanda che
+46:49 potenza consuma dalla dalla batteria la
+46:53 mia radio Beh magari so che la batteria
+46:55 ha una tensione di 12 V la batteria
+46:58 interna della radio e consuma diciamo
+47:02 0,1 amp i = 01 12 * 0,1 dà 1,2 W quindi
+47:10 magari quella
+47:12 radio assorbe una potenza di 1,2 W la
+47:19 useremo molte volte questa formula
+47:22 eh questa
+47:25 formula da questa formula si ricavano
+47:29 con un minimo minimo minimo di
+47:32 matematica queste altre due formule
+47:33 Queste sono in matematica sono chiamate
+47:36 le formule inverse p = v * i i = p / v
+47:40 oppure V di v = p / i Sono esattamente
+47:45 la stessa formula messa in un modo
+47:48 diverso e intanto A cosa servono ma
+47:53 diciamo Servono a fare calcoli di tipo
+47:56 diverso No cioè immaginate che nei quiz
+47:60 voi troviate una
+48:02 domanda che che appunto dice la mia
+48:07 radio alimentata a 12 V mi consumo 1
+48:10 ampere Qual è la potenza consumata dalla
+48:13 mia radio Allora se la domanda vi dà
+48:16 come informazione la tensione in volt e
+48:20 la corrente in ampere è chiaro che si
+48:24 usa questa formula qua però ci potrebbe
+48:26 essere
+48:27 con una combinazione D solite tre
+48:29 grandezze potenza tensione e corrente ci
+48:33 potrebbe essere una domanda di questo
+48:35 tipo la mia la mia radio aperte
+48:38 virgolette diciamo la mia radio ha una
+48:40 potenza di 5 w l'alimento a 12 V quale
+48:45 corrente assorbe quanta corrente assorbe
+48:48 la mia radio dal suo
+48:51 alimentatore in questo caso nella
+48:53 domanda ho una potenza la mia radio a 5
+48:58 W e
+48:59 l'alimento ha una tramite l'alimento con
+49:03 una tensione di 12 di 12 V quindi la
+49:07 formula che devo usare per fare il
+49:09 calcolo questa volta è questa
+49:13 qua queste formule come queste due
+49:16 formule Come vi dicevo si chiamano la
+49:18 formula inversa di questa si ricavano da
+49:20 questa se qualcuno ricordo un po' di
+49:22 matematica per esempio
+49:24 eh
+49:25 scusate provo a scarabocchiare qua
+49:29 sopra p = v * i immaginate di
+49:34 dividere tutte e due allora questa
+49:38 questa cosa questa questa cosa che sto
+49:40 leggendo ora p = v m i
+49:46 e diciamo è è un'equazione o un'identità
+49:50 se preferite immaginate di dividere
+49:52 tutti e due i lati di questa
+49:55 eguaglianza per
+49:57 ad esempio v p / v = v * i / v
+50:05 l'uguaglianza resta valida perché ho
+50:07 diviso No questi due valori per lo
+50:10 stesso numero quindi di qua ho P diviso
+50:13 V qua ho che la corrente viene
+50:15 moltiplicata per V E divisa per V Quindi
+50:18 questi due numeri questi due dati si
+50:22 elidono Quindi così facendo ricavato da
+50:25 questa formula quest'altra = P /
+50:29 V che uso nei casi in cui nel quiz
+50:34 magari Ho appunto P E V come dati invece
+50:38 se nel quiz magari che capita in quel
+50:41 momento
+50:42 il La domanda è formulata In modo tale
+50:46 che viene data la potenza e vi viene
+50:48 data la corrente piedi bisogna usare
+50:52 questa versione della formula ovviamente
+50:54 no cioè bisogna usare una versione della
+50:57 formula che usa i dati che ho a
+50:60 disposizione tramite la domanda se
+51:02 questi dati sono la potenza e la
+51:04 corrente uso questa formula per ricavare
+51:06 la tensione poi vi potrete allenare
+51:09 perché come vi dirò dopo vi diciamo vi
+51:12 vi vi darò anche sulla lezione della di
+51:14 stasera una lezione di quiz Dove potrete
+51:16 un po' mettere in pratica queste queste
+51:18 cose se qualcuno di voi ha diciamo
+51:22 Eh se se per qualcuno di voi i ricordi
+51:24 della matematica sono abbastanza lontani
+51:27 come come per molti
+51:29 ehm fra diciamo
+51:32 Eh una delle lezioni una delle prossime
+51:35 lezioni se ben ricordo la quinta serve
+51:38 proprio per rinfrescare un po' queste
+51:40 cose Comunque di matematica se ne usa
+51:42 proprio un minimo durante tutto il corso
+51:44 si tratta appunto di somme sottrazioni
+51:47 moltiplicazioni e
+51:50 divisioni qui nel caso delle formule
+51:52 delle formule delle formule inverse ci
+51:55 sono delle formule come queste che
+51:56 stiamo vedendo ora no quello per
+51:58 calcolare la potenza
+51:60 eh Dove è molto probabile che che
+52:04 diciamo nelle 50 nelle 30 domande che
+52:06 compongono l'esame della parte tecnica
+52:09 ci sia una domanda che richiede l'uso di
+52:11 questa
+52:12 formula la cosa migliore da fare è che è
+52:15 con un po' di esercizio alla fine di
+52:17 tenere a mente questa formula nelle sue
+52:20 tre versioni p = v * i i = p / v UG
+52:25 oppure v = p div
+52:29 i che calcoli si possono fare con questi
+52:33 tipi di Formula Allora
+52:35 questa diciamo l'ho già fatta no Della
+52:38 serie ho risposto alla domanda Quanta
+52:41 potenza assorbe la mia radio Allora io
+52:44 ho una radio che appunto alimento a 12 V
+52:48 se mi consuma 10 amp 12 * 10 l'ep radio
+52:52 assorbe una potenza
+52:54 di 120 W 12 x 10 quest'altra versione
+52:59 della formula serve per rispondere a
+53:00 domande di tipo diverso per esempio
+53:02 immaginate di avere Appunto una radio
+53:04 sempre Ora visto che stiamo in un corso
+53:06 per aspiranti radioamatori giustamente
+53:08 si parla di un po' di Radio
+53:10 No tutti i dispositivi elettrici sono
+53:13 protetti da dei fusibili i fusibili
+53:15 appunto sono de sono dei piccoli
+53:17 dispositivi dei piccoli oggetti
+53:20 che a un certo punto fondono come dice
+53:24 la parola fusibile sono dei dispositivi
+53:26 di protezione
+53:27 che servono appunto per fondere quando
+53:29 la corrente assorbita dalla dalla radio
+53:31 che stanno proteggendo diventa troppo
+53:35 elevata
+53:36 e allora io ho ho una radio che magari
+53:41 ha una potenza di 100 W quindi P = 100
+53:47 l'alimento Ha 12
+53:50 V immaginate che di questa radio Mi
+53:53 salta il fusibile che normalmente sta
+53:55 sul cavo di alimentazione Però mi salta
+53:57 il fusibile scolorito voglio rimetterci
+53:59 un fusibile uguale ma diciamo non riesco
+54:02 a leggere il valore che ha quel fusibile
+54:05 lo posso calcolare Se io so che la mia
+54:07 radio assorbe 100 W la corrente che lei
+54:11 consuma i è data da p / v una delle
+54:15 formule che abbiamo visto nella pagina
+54:16 precedente no quindi 100 / 12 se fosse
+54:20 100 / 10 il risultato sarebbe 10 e posso
+54:25 mettere un fusibile da diciamo 100 / 12
+54:27 verrà un numero stile 8 e qualche cosa
+54:30 e posso metterci un fusibile da 10 amp
+54:34 per sicurezza questa è un'altra formula
+54:37 inversa che però Praticamente questa non
+54:40 non ha uso pratico Questa è una formula
+54:43 che nel momento in cui ho un carico che
+54:44 assorbe diciamo 100 w e diciamo il
+54:49 carico nel carico scorre Una corrente di
+54:51 un certo numero di ampere io posso
+54:53 calcolare la tensione sul carico però
+54:55 questa normalmente non viene mai mai
+54:57 impiegata E con questo ho finito questa
+55:01 abbiamo finito questa parte interrompo
+55:04 diciamo la la condivisione e vi chiedo
+55:07 se ci sono
+55:08 domande quindi abbiamo visto qu C
+55:12 grandezze elettri abbiamo visto la
+55:14 quantità di carica il
+55:16 coulomb quando questa carica mi scorre
+55:19 ho una corrente elettrica che misura in
+55:21 ampere questa corrente elettrica scorre
+55:24 perché c'è una differenza di potenziale
+55:27 detta volgarmente tensione che misuro in
+55:31 volt in realtà tensione e differenza di
+55:33 potenziale non sarebbero proprio
+55:34 identici ma comunque per i nostri fini
+55:37 li possiamo considerare assolutamente
+55:39 sinonimi
+55:41 eh questa combinazione di tensione
+55:43 corrente eccetera fa sì che i miei
+55:46 dispositivi la mia radio quello che è
+55:48 consumano una certa potenza la potenza
+55:50 Vale V per i quando una radio o un
+55:54 dispositivo elettronico in generale
+55:56 consume una certa potenza Trasforma una
+55:60 certa quantità di energia quinta
+56:02 grandezza che abbiamo visto eh nel caso
+56:06 della radio la trasforma da energia
+56:08 elettrica a energia elettromagnetica
+56:11 quindi Queste sono le cinque unità di
+56:12 misura fondamentali che abbiamo visto
+56:14 ora In questa prima parte della lezione
+56:16 e che poi ci accompagneranno più o meno
+56:18 per le prossime lezioni quantità di
+56:20 carica corrente tensione potenza energia
+56:25 Carmine a te domanda Ah un'informazione
+56:28 essendo che io c'ho adesso che faccio
+56:31 solo il radioascolto c'ho una yesu che
+56:34 mi fa 120 W giusto sì e in assorbimento
+56:40 Cioè c'ho il suo
+56:43 alimentatore cioè che me l'hanno venduto
+56:46 insieme alla radio è un mi sa che è un
+56:49 40 amp giusto m plausibile molto
+56:52 plausibile E fine qui ci siamo come
+56:55 faccio a calcolare poi l'assorbimento
+56:58 se mi l'uscita non è a 12 vol ma a 13 Mi
+57:03 sa che 13 e3 13
+57:05 e4 Allora l'assorbimento della radio in
+57:08 linea di massima si può calcolare in
+57:11 questo modo la tua radio hai detto che
+57:14 in trasmissione eroga 120 W giusto Sì
+57:19 allora Considera che una radio e poi poi
+57:22 vi spiegherò perché nelle prossime
+57:24 lezioni No una radio per erogare 120 Wat
+57:27 verso l'antenna ne consumo
+57:29 dall'alimentatore almeno il doppio
+57:31 quindi immaginati che l'ato radio
+57:32 assorba 120 e 1220 fa 240 diciamo 250 W
+57:37 dall'alimentatore Ok ok Se
+57:41 l'alimentatore a 12 V
+57:43 Eh la corrente i = p / v quindi 250 / 12
+57:52 vengono fuori circa 20 amp Ok in effetti
+57:56 è tipico negli alimentatori
+57:57 radioamatoriali che che si trovano avere
+58:00 alimentatori da 20 25 30 ampere grosso
+58:03 modo che sono che la che è
+58:06 l'alimentatore normale che ci vuole per
+58:08 una radio in quel livello di Potenza
+58:11 Infatti mi è stato consigliato per un
+58:13 ulteriore sforzo Sì mettere tutto sforzo
+58:17 all'alimentatore prendendolo più piccolo
+58:19 d'
+58:20 amperaggio Sì però un alimentatore un
+58:22 po' più un po' più grande non fa mai
+58:25 male perché comunque lavora in maniera
+58:27 più tranquilla è meno sforzato no quindi
+58:30 può è è un'ottima scelta avere un
+58:32 alimentatore più grande Comunque vedete
+58:34 come ho usato una delle formule che
+58:36 abbiamo visto prima no ora poi ci dovete
+58:38 prendere un po' di pratica Ma il tipo di
+58:40 ragionamento è esattamente quello Anzi
+58:42 grazie Carmine per la
+58:50 domanda Abbiamo riperso pa abbiamo
+58:53 riperso pa blato abbiamo riperso
+58:57 Paolo Porca miseria stasera non gli
+58:59 legge la connessione ce lo siamo giocati
+59:03 Eh bravo Ce la siamo giocata anche anche
+59:06 a quest'ora di solito si Frizza intorno
+59:08 alle 22 ma ora due volte di
+59:11 seguito mi pare
+59:13 strano Carmine proviamo provo a
+59:17 risponderti proviamo a risponderti Boh
+59:19 vediamo se sono volta si è fermato col
+59:21 sorriso dai sì questa volta sì vero hai
+59:25 ragione quindi non è stato Cioè non ho
+59:28 fatto cioè non mi è stato consigliato un
+59:31 un acquisto errato prendendolo più
+59:34 grande di amperaggio giusto bravissimo
+59:36 bravissimo No no non è mai Non è mai gli
+59:38 ampere non sono mai troppi Eh perché
+59:41 soprattutto quando farai quando farai
+59:44 userai
+59:46 Naturalmente la trasmissione perché in
+59:48 ricezione non ci sono grossi difficoltà
+59:51 Il problema sarà la trasmissione quindi
+59:54 una diciamo un alimentatore con con più
+59:56 ampere almeno 30 Ecco Paolo Paolo Stavo
+59:60 stavo finendo si è riattivato anche
+60:02 Paolo avevamo perso mai con sorriso dai
+60:05 Sì scusatemi ma stasera c'è un'epidemia
+60:07 c'è un'epidemia qui cioè insomma ma
+60:10 vabbè C due problemi così uno
+60:14 l'altro
+60:15 allora abbiamo avuto una bella giornata
+60:18 oggi quindi la connessione è buona
+60:20 Esatto c'è
+60:22 propagazione Va bene Allora c'era
+60:25 un'altra domanda Giovanni
+60:27 Sì volevo sapere posso anche calcolare
+60:29 la potenza attiva e riflessa
+60:33 Eh sì però su questa cosa non ti
+60:36 rispondo ora perché poi queste cose le
+60:38 vedremo un po' più avanti con una
+60:39 lezione dedicata ora Non voglio mettere
+60:41 altra carne al fuoco No non vorrei
+60:44 sovraccaricare stasera che magari non
+60:46 parte da zero Ok grazie grazie Ok
+60:50 ok allora non ci sono altre
+60:54 domande Scusate faccio una domanda io
+60:57 consentitemi 30 secondi per usi
+60:58 personali Francesco come ti stai
+61:00 trovando per
+61:03 ora ma io molto bene grazie grazie
+61:08 grazie a te Ottimo Allora continuiamo a
+61:11 questo punto Fatemi dire Il più è fatto
+61:13 adesso abbiamo un po' di argomenti che
+61:15 sono molto più
+61:22 tranquilli pronto Mi sentite
+61:27 Sì ti sentiamo però dice la Rich la
+61:29 Chiam Sì sì ti
+61:31 sentiamo si sente Sì grazie Allora
+61:34 stasera qui ci sono le streghe non
+61:36 capisco dovrò controllare un po' questo
+61:37 benedetto computer Allora Paolo se sei
+61:40 verso Volterra ci può stare ci sta ci
+61:43 sta che il P delle streghe Sì si vede la
+61:48 slide Sì sì ok Allora perfetta Grazie Oh
+61:54 Ora finalmente mi sento meglio Allora si
+61:56 è parlato no di corrente elettrica
+61:58 Allora cos'è che genera Una corrente
+62:01 elettrica ci sono tre tipi di
+62:03 generatori e le pile le batterie e gli
+62:06 alternatori le pile le Conoscete tutti
+62:09 hanno questa forma che vedete qua no la
+62:11 classica duracel in questo caso le
+62:14 batterie le Conoscete tutti Questa è la
+62:16 tipica batteria che che che che può
+62:18 stare Questa è di quelle piccole può
+62:21 stare in un in una moto in uno di
+62:24 questi motoroni che grandi eccetera e
+62:28 questo qui è un alternatore Come può
+62:29 essere un alternatore piccolino di di un
+62:31 automobile sono tre tipi di generatori
+62:33 che hanno caratteristiche diverse Allora
+62:37 cos'è la pila Allora la pila è un un
+62:41 generatore in cui la corrente elettrica
+62:43 viene generata da una reazione chimica
+62:46 Allora vedete cioè che riprendo un
+62:50 attimo il pennarello vedete che una pila
+62:52 Queste sono due pile affiancate no cioè
+62:54 c'è un polo che è questo qua che su cui
+62:56 sto scarabocchiando ora che è il polo
+62:58 positivo riconoscibile dal segno più il
+63:02 polo della parte opposta che sta di qua
+63:04 è il polo
+63:05 negativo Cosa succede in una pila
+63:08 succede che diciamo ci sono delle
+63:10 sostanze chimiche che combinandosi fra
+63:13 loro no danno origine a una reazione
+63:15 chimica che fanno sì che
+63:18 Scusate che eh una certa quantità di
+63:22 elettroni di queste sostanze chimiche si
+63:25 sposta qua su il polo negativo diventa
+63:27 negativo perché appunto ci sono
+63:29 elettroni di conseguenza il polo
+63:32 positivo resta carente di elettroni Come
+63:35 si diceva prima se la pila sposta
+63:40 diciamo Scusatemi 1000 elettroni qua qua
+63:44 ci saranno 1000 mancanze di elettroni
+63:47 Quindi 1000 cariche positive Poi se
+63:49 questa pila la la metto in un
+63:51 telecomando in un in un aggeggio
+63:53 elettronico di qualsiasi natura diciamo
+63:56 questa pila fra il loro lavoro e gli
+63:58 elettroni scorreranno in questo verso
+64:00 qua no uscendo dal negativo e tornando
+64:02 sul positivo e la pila funziona Finché
+64:06 le sostanze chimiche che sono
+64:08 all'interno non si esauriscano non si
+64:10 scaricano Infatti come leggete qui non
+64:12 la corrente elettrica viene generata da
+64:14 una reazione chimica e le pile a mano a
+64:19 mano che queste reazione chimica brucia
+64:21 diciamo le sostanze che ci sono dentro
+64:23 si scaricano e queste pile quando sono
+64:25 scariche si buttano via non possono
+64:27 venire
+64:28 ricaricate invece nel negli negli
+64:33 accumulatori
+64:35 Eh quindi nelle batterie accumulatori si
+64:38 può usare la stessa la stessa cosa
+64:40 succede più o meno una cosa simile Nel
+64:43 senso che qua dentro questo scatolotto
+64:45 ci sono delle sostanze chimiche anche
+64:47 qui avviene una reazione chimica Però a
+64:49 differenza dalle pile questa reazione
+64:51 chimica è
+64:53 reversibile quindi può tornare indietro
+64:56 quindi gli accumulatori le batterie
+64:59 possono essere
+65:01 ricaricate come succede Appunto nel caso
+65:03 delle batterie usate negli automobili
+65:05 nei nei muletti No cioè dove ci sono
+65:08 motori elettrici no di di di
+65:13 trazione una batteria torno indietro
+65:17 tendenzialmente
+65:20 diciamo Fatemi dire indicata
+65:23 caratterizzata con un con un unico
+65:25 numero ed è la tensione Ovvero la
+65:28 differenza di potenziale la tensione che
+65:30 genera ci sono delle batterie come
+65:33 sapete da 1 vol e mezzo che sono queste
+65:35 che vedete in figura molto spesso si
+65:38 usano batterie da da 9 V No il tipico
+65:41 pacchettino da 9
+65:44 V gli accumulatori invece sono
+65:47 caratterizzati da due numeri uno è la
+65:50 tensione di alimentazione qui V se
+65:53 riuscite a leggerci nella slide Qui c'è
+65:55 scritto 12 vol questo tipo di
+65:57 accumulatori Molto spesso sono appunto
+65:59 per uso automobilistico o roba del
+66:01 genere tipicamente sono da 6 o da 12
+66:04 v però oltre alla tensione di uscita i
+66:07 12 V in questo caso gli accumulatori
+66:10 sono caratterizzati da un altro dato che
+66:12 è la loro capacità la loro capacità vuol
+66:15 dire semplicemente collegandosi al
+66:17 discorso che si è fatto prima la
+66:19 quantità di energia che essi contengono
+66:22 ci sono degli accumulatori che
+66:23 contengono poca energia ci sono degli
+66:25 accumulatori che ne contengono tanta
+66:28 questa capacità si esprime con
+66:31 normalmente con questa unità di misura
+66:33 amperora Ampere a ora h minuscolo
+66:38 amperora un accumulatore da 10 ampora È
+66:44 in grado di fornire ad esempio Una
+66:46 corrente di 1 amp per 10 ore gli
+66:49 amperora sono semplicemente la
+66:50 moltiplicazione no degli ampere per le
+66:52 ore una Unim una
+66:56 ho detto alimentatore Scusate una
+66:58 batteria da 15 amp è in grado di fornire
+67:02 una corrente di 3 amp per 5 ore 3 * 5
+67:10 15 quindi vediamo se avete capito il
+67:12 trucco rispondete a questa domanda
+67:16 quindi l'ampere or è la quantità di
+67:18 corrente che una batteria può fornire
+67:20 prima di scaricarsi una batteria da 10
+67:23 amp domanda ero Una corrente di 2 amp In
+67:27 quanto tempo si
+67:32 scarica su che si lancia 5 ore ore C
+67:38 perfetto Bravi bravi bravi bravi una
+67:40 batteria da 10 amp Allora partiamo
+67:43 passiamo dalla fine 2 amp se questi 2
+67:47 ampere li assorbo per 5 ore 2 x 5 10 e
+67:51 ci siamo stessa domanda appena
+67:53 leggermente modificata una batteria 10
+67:56 amp eroo Una corrente di 0,25 amp In
+67:59 quanto tempo si
+68:02 scarica in
+68:04 50 40 ore 40 40 perfetto 40 perfetto
+68:10 perfetto perfetto 10
+68:14 amp 40 ore benissimo Il tempo è uguale
+68:18 appunto alla capacità della batteria
+68:20 diviso la sua diviso l'assorbimento
+68:23 puntuale diciamo ottimo bravi
+68:27 Allora il terzo tipo di generatori è
+68:31 sono gli alternatori gli alternatori per
+68:33 intende ci sono i grandi generatori che
+68:35 la nel usa per fornire energia elettrica
+68:38 No alle alle nostre case e praticamente
+68:42 un alternatore genera l'energia
+68:44 elettrica tramite il moto quindi non c'è
+68:46 una
+68:56 il sapere come funziona un alternatore
+68:59 non è materia di esame però bisogna
+69:02 sapere che l'alternatore esiste che
+69:04 l'alternatore è un tipo di generatore di
+69:06 corrente elettrica
+69:11 Mh Allora
+69:14 parlando Scusa non ti ho sentito Ripeti
+69:17 l'alim cioè l'alternatore dà una
+69:20 corrente alternata giusto Esatto
+69:23 l'alternatore D Una corrente alternata
+69:26 la batteria è continua corretto bravi
+69:29 grazie perché non l'avevo detto Ok per
+69:31 le batterie erogano erogano una tensione
+69:34 diciamo generano una tensione continua e
+69:37 quindi una corrente continua
+69:38 l'alternatore invece è
+69:40 alternata Poi vedremo magari quando
+69:43 parleremo della corrente alternata il
+69:45 Perché
+69:47 diciamo l'alternatore genera Una
+69:49 corrente alternata
+69:51 ok Stasera
+69:53 restiamo saldati alla corrente continua
+69:55 c'era un'altra domanda Paolo ma la
+69:58 corrente scusa un attimo se mi
+69:59 intrometto anche sul generatore un
+70:01 generatore si parla di corrente
+70:03 alternata giusto perché genera corrente
+70:06 e allora allora il generatore è una
+70:10 parola fammi dire di uso generale Cioè
+70:13 queste tre cose che abbiamo visto pile
+70:16 batterie alternatori in generale Scusate
+70:19 gioco di parole ma in generale si
+70:21 chiamano tutti i generatori una pila è
+70:23 un generatore di corrente ok Però
+70:26 continua Sì sì sì quindi la parola
+70:28 generatori se parliamo di un generatore
+70:30 di corrente e un alternatore sono tutte
+70:33 e due che generano corrente ma alternata
+70:37 Bravo
+70:38 perfetto esattissimo perfetto perfetto
+70:41 Scusate l'interruzione a volo ma va bene
+70:44 così va bene così se ci sono delle
+70:46 domande ci sono altre
+70:49 domande proseguo una Pira
+70:54 ricaricabile scusami
+70:56 una pila
+70:58 ricaricabile la pila ricaricabile in
+71:01 realtà è una
+71:03 batteria poi commercialmente vengono
+71:06 vendute con nomi no pila ricaricabile
+71:08 eccetera però tecnicamente diciamo una
+71:11 pila ricaricabile appartiene al genere
+71:14 batterie d'accordo
+71:18 accumulatore Sì batterie barra
+71:20 accumulatore sono praticamente sinonimi
+71:23 batterie accumulatore
+71:26 e la misura si misura in
+71:29 milliampere
+71:32 una Esatto esatto si misura in amperora
+71:36 come questo però la pila essendo piccola
+71:40 molte volte ha una capacità di non so
+71:43 150 Mah oppure 700
+71:49 Mah Per esempio queste tipiche cose
+71:52 ricaricabili sono quelle che un tempo
+71:54 erano al nichel C adio ora sono agli
+71:58 ioni di
+71:60 litio che appunto hanno comunque molto
+72:04 spesso una una una forma dimensioni come
+72:07 queste che sto che sto mostrando ora e
+72:11 l'effetto memoria che cos'è
+72:14 Eh l'effetto memoria è una
+72:18 diamo Paolo gli ultimi modelli che hanno
+72:21 fatto ora al litio giusto Se non erro Sì
+72:24 sono eh erano cioè sono state studiate
+72:28 per Mag di una maggiore più di di
+72:31 amperaggio giusto Se non erro
+72:34 esattamente così allora intanto era
+72:36 sempre un
+72:38 vol5 Ma si parlava da un diciamo da
+72:41 vecchie che arrivavano a 450 650
+72:45 parliamo anche di un 10000 15 giusto di
+72:48 esattamente Esattamente esattamente
+72:50 Bravo bravo son stato studiato solo per
+72:52 aumentare Giustamente sì sì sì sì e
+72:56 acquisendo l'ora di di di di di come ti
+72:60 posso dire in italiano poi non è che
+73:01 parlo bene in italiano Cioè di sfruttare
+73:04 al
+73:05 meglio Diciamo Sì il il peso il peso e
+73:10 la e il volume della batteria Ma parli
+73:12 Mol Parli molto bene un tempo sai di una
+73:15 durata più lunga è stata studiata
+73:17 l'amperaggio giusto Esatto Esatto esatto
+73:19 abamo intanto l'amperaggio Perché io mi
+73:21 ricordo quando ero bamboletto e mi
+73:24 ricordo C'era il primo Mat Cino che era
+73:26 la LAN 38 non superavano i 750 Esatto se
+73:30 mi ricordo de ricaricabili eso ce e ce
+73:33 Allora prima c'erano anche quelle da 500
+73:36 mamp Eh questo ti sto dicendo Massimo
+73:39 che sono arrivato mi ricordo che erano
+73:41 750 Forse sì ora ora è arrivato anche
+73:44 anni 90 91 Sì Esatto Esatto esatto e
+73:47 scusate ma eh per fare una domanda
+73:51 alziamo la mano o entriamo all P Allora
+73:56 no è Allora è meglio alzare una mano
+73:59 però visto che siamo abbastanza vicini
+74:01 alla fine della lezione ho abbandonato
+74:03 un po' la disciplina volevo dire una
+74:04 cosa
+74:05 Eh Allora uno di voi ha domandato Cos'è
+74:08 l'effetto memoria allora in queste cose
+74:12 sia che si parli di pile sia che si
+74:14 parli di accumulatore avviene una
+74:16 reazione
+74:18 chimica alcune reazioni chimiche alcuni
+74:21 tipi di reazioni chimiche hanno un
+74:23 cosiddetto effetto memoria cioè Eh il
+74:27 modo con cui ti ricarico la batter il
+74:29 modo con cui la batteria si fa
+74:31 ricaricare ora risente un po' di come è
+74:34 stata ricaricata prima e però per
+74:37 chiudere questo discorso diciamo dire
+74:40 questo nel senso che
+74:43 allora il il settore degli accumulatori
+74:48 è soggetto a una quantità di ricerca
+74:51 incredibile perché ovviamente c'è un
+74:54 gran bisogno di accumulatore che
+74:55 diventano sempre più piccoli e che
+74:58 contengono sempre più energia Perché
+75:01 queste cose poi servono dappertutto in
+75:03 particolare nelle auto elettriche no che
+75:05 se si riesce a trovare un un tipo di
+75:08 batteria per le auto elettriche che sia
+75:11 molto piccolo e chiaramente diventa un
+75:13 vantaggio per quel venditore e quindi
+75:15 c'è uno studio continuo da parte di
+75:17 tantissimi soggetti nel mondo di trovare
+75:20 reazioni chimiche eh sempre più
+75:22 efficienti prima stavo dicendo che i
+75:25 vecchi tempi gli accumulatori erano
+75:26 tutti al lichel cadmio poi gli
+75:28 accumulatori al lichel cadmio sono stati
+75:30 oltrepassati enormemente surclassati
+75:33 direi dagli accumulatori al litio che
+75:35 nello stesso peso e nelle stesse misure
+75:37 hanno una quantità di energia che può
+75:40 arrivare a 10 volte tanto
+75:43 Ok
+75:46 allora due ultime cose su i
+75:50 generatori Intanto una la definizione di
+75:53 generatore ideale Cos'è un generatore
+75:56 ideale che può essere una domanda di
+75:58 esame un generatore ideale è un
+75:59 generatore che mantiene la tensione di
+76:02 uscita costante al variare della
+76:04 corrente assorbita dal carico quindi un
+76:07 generatore ideale è un generatore che
+76:10 immaginiamo che generi una tensione di
+76:13 12
+76:14 V questo generatore mantiene la stessa
+76:16 tensione 12 V sia che ho sia che io
+76:19 assorba 1 10 100
+76:23 amp chiaramente il generatore ideale non
+76:27 esiste perché tutti i generatori in
+76:29 realtà poi nel momento in cui assorbo
+76:32 tanta corrente la tensione di uscita si
+76:35 abbassa leggermente questo fenomeno lo
+76:37 vedremo meglio nella prossima lezione
+76:39 Comunque il concetto di generatore
+76:41 ideale è un generatore che ha una
+76:44 tensione di uscita costante al variare
+76:46 della corrente assorbita dal carico poi
+76:49 le ultime due cose appunto sui
+76:51 generatori i generatori quindi batterie
+76:55 e accumulatori ma anche alternatori però
+76:58 qui per ora stiamo sul campo corrente
+77:00 continua Eh possono essere collegati in
+77:03 parallelo come vedete qua qui vedete che
+77:05 c'è un carico quindi questa
+77:07 lampadina e ci sono tre generatori cioè
+77:11 tre batterie che sono messe in
+77:14 parallelo questa cosa che vedete qui
+77:16 accanto è lo schema elettrico che
+77:18 rappresenta questo circuito qua Questo
+77:21 qui è il simbolo elettrico della
+77:23 lampadina e questo qui è il simbolo
+77:26 elettrico di un generatore di tensione
+77:29 continua dove la barra lunga è il polo
+77:33 positivo la barra un po' più corta e è
+77:35 il polo negativo questi tre generatori
+77:37 sono in parallelo Che vuol dire intanto
+77:40 vuol dire che se li voglio mettere in
+77:42 parallelo hanno la stessa tensione
+77:44 perché se provo a mettere in parallelo
+77:46 generatori di tensioni diverse
+77:48 probabilmente Scoppia tutto quindi qui
+77:50 sono tre batterie da 1,5 1,5
+77:54 1,5
+77:56 Eh il parallelo mantiene la tensione di
+77:59 uscita No nel senso che la tensione di
+78:01 uscita del parallelo di questi tre
+78:03 generatori
+78:05 è comunque di 1 vol e5 Che effetto ha il
+78:09 parallelo è che Eh sono in tre a
+78:14 spingere quindi sono in tre che diciamo
+78:17 mettono energia per cui la corrente di
+78:20 uscita che possono erogare è uguale alla
+78:23 somma delle Correnti dei tre generatori
+78:26 quindi in questo caso la corrente di
+78:28 uscita che può essere erogata triplica
+78:31 rispetto a quella di un singolo
+78:32 generatore Quindi quando metto dei
+78:35 generatori in parallelo ho un incremento
+78:38 della corrente che essi possono
+78:41 fornire c'è un altro modo di collegare i
+78:43 generatori ed è in serie come qui vedete
+78:47 queste due batterie in serie No queste
+78:49 sono immaginiamo che queste siano
+78:51 proprio la tipica batteria Stilo da 1,5
+78:55 Io metto in serie due batterie da 1,5 V
+78:58 ho una tensione di uscita che è pari
+79:01 alla somma cioè 1,5 + 1,5 cioè di 3
+79:05 V la tensione d'uscita la tensione
+79:08 totale d'uscita sarà uguale a V1 +
+79:13 V2 in teoria posso mettere in serie
+79:17 anche generatori di tensione diverse
+79:19 potrei mettere in teoria ins serie un
+79:22 generatore da 1,5 più uno da 9 V ad
+79:26 esempio 1,5 + 9 avrei un generatore da
+79:29 10 e me però sono cose che in pratica
+79:32 non non si vedono normalmente quando si
+79:35 fanno serie parallelo
+79:38 e si tende a usare generatori uguali per
+79:42 soprattutto per bilanciare lo sforzo dai
+79:44 dei dei
+79:46 generatori Quindi allora ci sono questi
+79:49 tre tipi riassumendo scusa Ah Scusate ho
+79:52 sbagliato parte riassumendo ci sono
+79:55 questi tre tipi di generatori pile
+79:58 batterie
+80:01 alternatori possono essere messi in
+80:03 serie o in parallelo a secondo che si
+80:06 voglia aumentare la tensione di uscita e
+80:08 allora li metterò in serie o che si
+80:10 voglia aumentare la corrente erogabile e
+80:12 allora li metterò in
+80:14 parallelo Se fossero ideali accadrebbe
+80:18 questo cioè la tensione d'uscita sarebbe
+80:22 costante al variare della corrente
+80:25 orbita in realtà normalmente C'è sempre
+80:27 un piccolo calo Perché i generatori
+80:30 reali diciamo non sono in grado di
+80:33 mantenere la tensione d'uscita costante
+80:35 Qualunque sia la corrente che si vuole
+80:37 assorbire Allora c'è qualche domanda ora
+80:41 siamo a un punto fermo se c'è qualche
+80:42 domanda Allora Roberto intanto Allora
+80:46 sono io volevo dire non ho capito bene
+80:48 la
+80:49 questione della batteria quanto può
+80:54 durare Mh
+80:56 Allora una batteria aspetta eh riprendo
+80:59 la
+81:07 slide ci arrivo Ed eccola
+81:11 qua Eccolo
+81:14 qua qui allora facciamolo qua Eh dunque
+81:21 una Quanto può Allora quanto può durare
+81:24 una batteria
+81:25 dipende dalla capacità che questa
+81:28 batteria ha la capacità si misura in
+81:31 amperora No scusami la pila
+81:35 Eh allora per una pila è esattamente la
+81:38 stessa cosa esattamente la stessa cosa
+81:41 solamente normalmente siccome
+81:45 Normalmente le
+81:47 pile immagazzinano una quantità di
+81:50 energia molto più piccola di quella di
+81:53 una batteria come questa qua
+81:56 eh gli amperora sono più piccoli Perché
+82:00 queste Normalmente le batterie come di
+82:03 questo esempio hanno una diciamo
+82:06 ehm possono erogare una quantità di
+82:09 energia molto alta perché vengono usati
+82:11 in dispositivi grandi che consumano
+82:14 tanta energia per esempio appunto le
+82:15 automobili per esempio i motorini e
+82:18 mentre invece queste batterie
+82:20 normalmente si usano nelle piccole cose
+82:22 appunto No il telecomando la radio la
+82:25 radiolina che può stare sul comodino e
+82:27 roba del genere e quindi sono molto più
+82:29 piccole sono molto più leggere e hanno
+82:33 se lo leggiamo in termini di capacità in
+82:35 amperora hanno un valore in amperora
+82:38 molto molto più basso di una batteria di
+82:40 questo tipo Questa batteria qua lo si
+82:42 legge cioè diciamo la sua capacità la si
+82:46 legge
+82:48 qui e quest'altro numero 10
+82:53 amp Quindi questa batteria da 12 v e 10
+82:56 amp una pila così ha 1 vol e5 questa
+82:60 Secondo me potrebbe avere non so 0,1 amp
+83:04 perché questa batteria una batteria di
+83:07 queste dimensioni se io assorbo Una
+83:09 corrente di 0,1 amp per un'ora
+83:12 sicuramente di fatto la scarico Ok
+83:18 Francesco Capito Ok Ottimo bravo eh
+83:25 Chi è il prossimo
+83:31 Domenico No la mia domanda era quella
+83:34 precedente
+83:35 sulla batteria ricaricabile ok ok ok
+83:40 ok rimasta
+83:44 in Sì sì sì allora l'alternatore
+83:47 l'alternatore Scusa ma l'alternatore per
+83:52 funzionare deve avere una corrente che
+83:54 ti arriva immagino
+83:56 Mh Ci sono vari tipi di alternatori Ne
+83:59 parliamo quando facciamo la corrente
+84:01 alternata
+84:02 Dai
+84:04 Altrimenti diciamo manella quelli famosi
+84:08 che si gira il Il rotore che genera Una
+84:12 corrente Esatto Esatto Esatto ce ne sono
+84:15 di di vari tipi ci sono di vari tipi
+84:17 perché l'alternatore funziona tramite
+84:19 l'interazione di due campi magnetici e
+84:22 dipende questi diciamo dipende
+84:25 Come vengono generati questi campi
+84:27 magnetici Ne parleremo Vai Ne parleremo
+84:29 nella corrente
+84:30 alternata Come si usava una volta le le
+84:33 pile con
+84:34 quella quella specie di Leva che si
+84:37 schiacciava e generava Sì
+84:40 sì Esatto
+84:43 esatto bene Ok grazie Scus te Valentino
+84:48 a te pronto mi sente sì tranquillo vai
+84:51 la mia domanda era sempre collegata
+84:53 diciamo a quello che ha detto
+84:55 se ci può spiegare magari in maniera
+84:57 semplicistica Come funziona un
+84:60 alternatore una batteria anche per
+85:02 esempio nel caso degli delle automobili
+85:04 sono sia in continua ma anche in
+85:07 alternata nell'automobile è la stessa
+85:09 cosa come funziona in poche parole
+85:12 Allora senti intanto e la lingua nostra
+85:16 di lavoro è il tu quindi va bene diamo
+85:19 Diamoci del tu tutti d'accordo SC
+85:21 scusami ok scusami ti do del tu
+85:25 Ottimo allora come Come funziona un
+85:28 alternatore per bene ve lo racconto
+85:30 nella prossima lezione preparo due slide
+85:32 con uno spaccato dell'alternatore dove
+85:34 si vede il il lavoro di quti meccanismi
+85:37 d'accordo anzi no non la prossima ve lo
+85:40 racconto nella lezione numero 3 dove
+85:42 Parleremo della corrente
+85:44 alternata certo Eh Vi preparo uno
+85:47 spaccato e nelle slide e così lo vediamo
+85:51 lo vediamo per bene d'accordo Non fa
+85:53 parte di di stasera vorre sarare essendo
+85:56 anche la prima lezione Scusami Carmine
+85:58 ma prometto che avrei una risposta al
+86:02 sud si usa ancora il voi No no
+86:05 tranquillo er alzato la mano però stavo
+86:07 ascoltando
+86:08 Eh
+86:10 Ok allora
+86:12 adesso anche perché c'è da dire Paolo
+86:15 che diciamo mettiamo il caso facciamo
+86:17 l'esempio dell'oratore della macchina
+86:19 giusto lui genera corrente ma c'ha anche
+86:22 uno
+86:23 stabilizzatore
+86:25 Eh sì
+86:27 ecco Sì S lui ti stabilisce quel tipo di
+86:30 corrente te la fa uscire a 13 vol e 8 12
+86:34 11 Esatto Esatto Esatto esatto perché
+86:37 ogni ogni diciamo ogni generatore di
+86:40 corrente è Associata a uno
+86:42 stabilizzatore corretto che di S per S
+86:45 non si sa quanta vols può uscire se non
+86:47 ci mettiamo uno stabilizzatore Eh sì
+86:50 giusto non lo possiamo calcolare Eh sì
+86:54 ci sono sono vari tipi di di
+86:56 stabilizzatori sia meccanici che
+86:59 elettrici Ne parleremo però no stasera
+87:02 per favore si stava parlando e ho tirato
+87:05 fuori
+87:06 n così diciamo una vongola dai
+87:10 mettiamola
+87:12 così
+87:13 vai spazi agli altri chi è il prossimo
+87:20 Marco ci sono Eh vai dicevo io
+87:25 stavo ripensando al generatore ideale
+87:28 vado sul
+87:30 teorico io c'ho uno stabilizzatore
+87:32 Allora fino a poco tempo fa si usava
+87:35 alimentatori stabilizzati Lem o roba
+87:39 simile enormi No per tirare fuori 10-15
+87:42 Ampere ora siamo a versione toroidali
+87:45 tutti piccolini 35 40 amp spinti e ho
+87:51 preso ultimamente proprio uno di questi
+87:54 sostituire quell'altro Perché
+87:56 quell'altro effettivamente generatore
+87:58 ideale nulla cioè gli si dava un carico
+88:02 anche un baracchino misero da 20 w o 25
+88:06 W quindi 23 amp
+88:10 e da da 13 ci si ritrovava a 12 così
+88:15 come Sì come normale ho visto che negli
+88:18 ultimi invece mantengano molto la
+88:21 stabilizzazione Cioè ci si avvicina
+88:23 molto al ideale cioè 13 e6
+88:28 spaccati se ci
+88:30 metto anche 10 amp di lineare faccio per
+88:34 dire questi non si muovano rimangano lì
+88:36 a 13 ma non preso con lo strumento preso
+88:38 col tester digitale Cioè non S abbassa
+88:42 niente Ora non si parla di batterie né
+88:45 di generatori si parla di alimentatori
+88:48 Quindi c'è la trasformazione dell'
+88:51 alternata alla continua quindi c'è
+88:54 Un'alimentazione dietro già Diciamo che
+88:58 li sostiene non è una batteria Ecco sì
+89:01 sì certo allora cioè il generatore
+89:03 inteso come alimentatore no generatore
+89:06 inteso come sorgente in energia chimica
+89:09 o o altro Insomma di batteria ins chi Sì
+89:13 sì sei stato chiarissimo Allora intanto
+89:16 avremo una lezione proprio specifica su
+89:18 questo argomento Qua sui vari tipi di
+89:21 alimentatori che ci possono essere in
+89:23 una stazione Radi amatoriale e su come
+89:25 funzionano E allora la cosa che dici è
+89:30 diciamo è giusta però mi sorge un
+89:32 sospetto Allora è vero che gli
+89:34 alimentatori moderni
+89:36 e poi vi dirò come funziona in quella
+89:38 lezione vi dirò come funziona il
+89:40 meccanismo di stabilizzazione della
+89:42 tensione di uscita No è vero che gli
+89:44 alimentatori moderni stabilizzano molto
+89:46 bene però anche gli alimentatori fammi
+89:49 dire storici quelli lineari
+89:53 stabilizzava a adeguatamente bene se
+89:55 progettati bene e così via No
+89:58 cioè anche ai vecchi tempi anni 70 80 90
+90:02 esiste quando ancora il concetto
+90:04 dell'alimentatore a commutazione non
+90:06 c'era esistevano degli alimentatori
+90:09 Molto bene molto molto molto ben fatti
+90:12 con tensioni di uscita abbastanza
+90:14 stabile
+90:15 e usavano tipi di regolazione diversi
+90:18 che poi
+90:19 vedremo il sospetto che ho è che diciamo
+90:23 l'aliment tuo che si inginocchia un po'
+90:26 o che ci sia qualche problema nei
+90:27 cablaggio interno e roba del genere Cioè
+90:29 c C'è sicuramente qualche problemino da
+90:31 qualche parte no si inginocchiava quello
+90:33 vecchio eh sì appunto appun quelli che
+90:36 si chiamavano lineari no che c'avevano
+90:38 il transistore esterno mega latura che
+90:41 ci potevi cuocere
+90:43 anche un
+90:46 es Esatto Esatto esatto però er ince
+90:50 questi anche se hanno latura rimangono
+90:52 Insomma
+90:53 determinate determinate potenze
+90:55 rimangono abbastanza freddi Sì sì sì
+90:57 abbiamo una lezione intera su questo
+90:59 argomento qua perché sicuramente è bello
+91:01 e importante grazie benente grazie
+91:04 Mattia a
+91:06 te allora Paolo Grazie sempre estivo su
+91:10 tutto e volevo solo dire ma credo che
+91:12 abbia già risposto la domanda nelle
+91:15 macchine o nelle moto Comunque io ho sia
+91:17 la batteria sia l'alternatore
+91:21 Ok quindi uno ha bisogno dell'altro
+91:24 perché io sono ignorante veramente in
+91:26 tutto ciò che avrei detto ho cercato di
+91:29 capirmi ne sa più Lorenzo lui piccolo
+91:31 che io in modo però sei stata abbastanza
+91:34 Ho capito quasi un po' tutto però poi
+91:37 ripasserò le domande poi magari che non
+91:39 riesco e te le farò la prossima volta
+91:41 l'unica cosa che hai spiegato che
+91:42 l'alter Lo spiegherai quindi penso che
+91:45 spiegherai pure il perché serviranno
+91:47 Entrambe le cose Beh servono entrambe le
+91:49 cose per un motivo molto semplice l'al
+91:52 l'alternatore per
+91:54 l'alternatore funziona in base al
+91:56 movimento l'alternatore ha un bel perno
+91:58 tu lo giri Allora quando la tua moto è
+91:60 ferma la classica dinamo della della
+92:01 bicicletta possiamo dire Esatto Esatto
+92:04 Esatto ma ma la moto chi te la mette in
+92:06 moto all'inizio è la batteria la
+92:08 macchina chi te la mette hai capito
+92:11 Quindi Però lì che cosa fa se parte poi
+92:12 l'alternatore esclude la
+92:14 batteria questo che non riuscivo a
+92:17 capire no l'alternatore mantiene carica
+92:20 la batteria Ok perfetto Quindi è colui
+92:23 che rifà ricaricare poi la batteria
+92:25 Perfetto a posto Sei stato chiarissimo
+92:28 questo mi manca Mi mancava questo
+92:29 passaggio perché avevo tutti e due
+92:31 questi mezzi praticamente di elettricità
+92:33 però insieme quindi mi mancava questo
+92:36 grazie Sì niente Grazie a te della
+92:38 domanda e aggiungo una cosa a corollario
+92:41 di quello che aveva detto un vostro
+92:43 collega prima non mi ricordo il nome e
+92:46 la batteria in macchina lavorando in
+92:48 sinergia con l'alternatore la batteria è
+92:51 l'elemento che stabilizza la tensione
+92:53 dell'impianto elettrico della macchina
+92:56 perché Perché un alternatore Garibaldino
+92:59 potrebbe avere una tensione d'uscita che
+93:00 poi schizza anche molto in alto capito E
+93:02 questo potrebbe danneggiare
+93:03 l'elettronica della macchina e così via
+93:05 la batteria è l'elemento principale di
+93:07 stabilizzazione di tensione però se
+93:09 l'alternatore si brucia la batteria non
+93:12 si ricarica quindi tende a scendere Sì
+93:14 sì esatto Ok perfetto es Grazie mille
+93:18 rilevo la connessione grazie a Claudio a
+93:21 te
+93:24 sì una domanda al volo
+93:27 Perdonami uno switching penso di come
+93:30 alimentatore mi sembra che che ora non
+93:32 mi ricordo il nome che parlava che non
+93:34 gli si inginocchiava no ecco si può
+93:37 usare tranquillamente per un REC
+93:39 trasmettitore oppure è consigliabile un
+93:42 tradizionale Ma senti la gr la la gran
+93:46 parte degli alimentatori per Ric
+93:48 trasmettitori che vendono ora sono
+93:49 switching e funzionari funzionano molto
+93:53 bene tran è un problema quelli più
+93:55 economici o progettati male
+93:57 eh generano una quantità di rumore
+94:00 incredibile e quindi poi te lo ritrovi
+94:03 se quando con la tua radio ascolti te lo
+94:06 ritrovi come rumore sulle bande No però
+94:09 se uno compra un alimentatore switch
+94:11 Indegno di questo nome di una marca
+94:12 definita e questo rumore non esiste ok
+94:16 Eh in effetti Secondo me bisogna stare
+94:19 lontani ad esempio ci sono degli
+94:20 alimentatori switching che davanti hanno
+94:22 una manopolina che sposta la frequenza
+94:25 di oscillazione per spostare il rumore
+94:28 Comunque ne parleremo nella lezione va
+94:30 bene No no ma mi bastava Eco questo
+94:32 sospetto che mi fanno un gran rumore e
+94:34 questo vè fermato grazie in moltissimi
+94:38 casi non è un sospetto è una
+94:41 certezza
+94:43 Allora Giovanni a
+94:47 te Buonasera Grazie Eccolo qua cia No
+94:50 era una una domanda Ciao È una domanda
+94:55 diciamo tecnica e forse è stato già
+94:56 chiesto non ho sentito la risposta la
+94:58 Dinamo come generatore di corrente
+95:00 continua non è stata citata perché non è
+95:03 più in uso
+95:05 m No no è sempre in uso è sempre in uso
+95:08 e diciamo è state citate in maniera
+95:11 molto molto molto ridotta non ho citato
+95:13 le celle solari per esempio no non ho
+95:15 citato tantissime tipologie sì sì no ma
+95:17 la Dinamo essendo un apparecchio antico
+95:19 diciamo prima nella macchina c'era la
+95:22 Dinamo sì Sì s e nelle biciclette anche
+95:26 Infatti anche nelle biciclette No no era
+95:28 era giusto per capire eh Ok ok era solo
+95:32 come non ho sentito prima un un Dinamo
+95:35 detta una parola così Prima però mi è
+95:37 sfuggita Allora ho detto boh era non è
+95:39 stata 50 No per diciamo così Sì sì
+95:45 Allora diciamo che le cose che vedete
+95:47 stasera ma anche quelle che che che
+95:49 vedrete nelle prossime lezioni sono
+95:51 proprio modellate uno a uno sul
+95:53 programma de esame Ok va bene ok il
+95:56 programma di esame è un papier di 12
+95:58 pagine che dice Bisogna sapere questo
+96:01 questo questo questo eh E quindi diciamo
+96:05 le cose che sono al di fuori del
+96:06 programma non non ci sono in effetti
+96:09 questo è una cosa di cui si è parlato
+96:11 molto anche negli altri corsi No cioè ci
+96:14 sono poi delle parti dove sarebbe
+96:16 interessante mettersi a sviluppare un
+96:17 po' di ragionamenti elettronici e così
+96:19 via però diciamo in queste serate la
+96:22 scelta di campo è che L'obiettivo è
+96:24 passare l'esame quindi tut tutto quel
+96:26 che serve per l'esame e basta Ok Ok er
+96:30 solo meera rimasto questo dubbio ho
+96:32 detto quando ho
+96:34 chiesto viste le reminiscenze
+96:37 scolastiche che mi hai che mi hai
+96:39 risvegliato stasera dalla legge di OM e
+96:44 ora prossima puntata legge di omomo
+96:46 fantastica Eh vai Grazie Mil Ciao Moris
+96:51 a te
+96:54 Ciao Paolo ascolto una domanda che non
+96:57 sono riuscito a capire bene Scusami
+97:01 eh l'alternatore e se non ho capito male
+97:05 sviluppa corrente alternata giusto Sì
+97:09 corretto Ok e il processo Ad esempio in
+97:14 un'autovettura Scusa non so se sia
+97:16 fuoriluogo o meno che dalla corrente
+97:19 continua
+97:20 perché lo fa partire la corrente
+97:24 continua la della batteria giusto Sì sì
+97:28 Poi lui carica Se sviluppa corrente
+97:31 alternata come fa a riportarla in
+97:33 corrente continua scusami allora la l'al
+97:38 la la tensione in uscita
+97:40 dall'alternatore che è alternata viene
+97:43 raddrizzata Come si dice Cioè viene
+97:46 trasformata in corrente continua perché
+97:49 a parte l'alternatore tutto il resto
+97:52 della circuiteria della macchina
+97:54 funziona con tensione continua e
+97:56 corrente continua l'alternatore viene
+97:59 usato per tenere in carica la batteria e
+98:02 per diciamo assicurare il funzionamento
+98:04 di tutto il circuito elettrico della
+98:06 macchina che è in tensione continua
+98:08 Perché si usa un alternatore invece di
+98:10 una Dinamo perché gli alternatori sono
+98:14 più
+98:15 efficienti del tiamo l'alternatore è
+98:19 proprio un dispositivo ideale tant'è che
+98:21 viene usato anche nelle centrali dellen
+98:23 no le potenze dell'Ordine dei milioni di
+98:25 watt gli alternatori per come sono
+98:28 costruiti
+98:29 eh hanno un rendimento molto elevato
+98:32 quindi un alternatore preleva poca
+98:35 potenza meccanica dal
+98:37 motore per fare il suo lavoro cioè
+98:41 tenere caricata la batteria se ci fosse
+98:43 non un alternatore Ma ad esempio una
+98:45 Dinamo o la potenza prevata dal motore
+98:50 esattamente il motivo è questo ma in una
+98:52 macchina la la la tensione alternata e
+98:54 la corrente
+98:55 alternata esce dall esce
+98:58 dall'alternatore e finisce lì perché
+98:60 viene subito radd dirizzo e trasformata
+99:02 in tensione
+99:03 continua Ok allora viene Sì infatti non
+99:07 è più corrente quando si parla di
+99:09 continua E infatti è tensione Scusami è
+99:13 tensione continua Sì esatto perciò
+99:16 questo questo al di là di questo è un
+99:18 alternatore particolare e che ha un un
+99:22 qualcosa in più oppure
+99:24 Cioè non riesco a capire il processo che
+99:27 fa per per trasformarla in continua c'è
+99:31 un qualcos'altro oltre l'alternatore
+99:34 oppure è un tipo di alternatore che
+99:37 trasforma in tensione in no no no no no
+99:42 no sono due pezzi separati e li vedremo
+99:44 tutti nelle prossime serate Allora
+99:46 l'alternatore è quell'oggetto lì che la
+99:50 macchina lo fa fa girare il perno
+99:52 dell'alternatore
+99:53 lo conosco Sì dopo l'alternatore dopo
+99:56 l'alternatore c'è un piccolo circuito
+99:58 elettrico che che usa tipicamente dei
+100:01 diodi dei componenti elettronici che
+100:03 sono chiamati diodi e che trasformano la
+100:07 corrente alternata erogata
+100:09 dall'alternatore in una corrente
+100:12 continua cioè in tensione in no allora
+100:17 l'alternatore eroga sia corrente che
+100:19 tensione alternata i diodi sono la parte
+100:24 successiva diciamo del circuito di
+100:26 alimentazione della macchina trasformano
+100:28 questa tensione alternata o corrente e
+100:31 corrente alternata in una tensione
+100:33 continua o corrente continua Ok ho
+100:36 capito tutto ti ringrazio sei stato
+100:38 splendido niente Grazie a te grazie C'è
+100:43 Gerardo
+100:46 ora Sì ciao Paolo Innanzitutto grazie
+100:50 per la chiarezza della del corso della
+100:53 spiegazione avevo una domanda banale
+100:56 Ecco su circuito in parallelo e in serie
+100:60 più che altro è quella per vedere se
+101:02 avevo capito bene in parallelo
+101:04 utilizziamo quando vogliamo aumentare la
+101:07 corrente
+101:09 erogabile e quindi la tensione resta la
+101:12 stessa di del singolo accumulatore
+101:15 mentre in serie è quando vogliamo
+101:18 aumentare la tensione giusto perfetto il
+101:22 prossimo corso lo tieni tu AOL No però
+101:26 caso del circuito nel caso del circuito
+101:28 in serie però la corrente Ecco resta
+101:30 comunque non aumenta Ecco non resta la
+101:33 stessa della Ok aumentiamo sol la
+101:36 tensione perché poi essendo tutto in
+101:38 serie di batteria in batteria la
+101:40 corrente è sempre la stessa Ok se anche
+101:44 fossero 3 5 10 10 batterie tutte in
+101:47 serie la corrente Sarebbe sempre la
+101:49 stessa ok e aumentando la tensione però
+101:52 c'è insomma c'è più velocità che c'è più
+101:56 potenza c'è più potenza Perché la
+101:58 potenza è V per i se anche lei resta la
+102:01 stessa ma la V di batteria in batteria
+102:03 più ne metto in serie e più mi cresce ok
+102:06 Eh Perfetto Grazie a te Vasco a
+102:12 te io volevo sapere come hai detto
+102:17 all'inizio diciamo della della
+102:20 registrazione cosa avete spiegato la
+102:23 prima volta che vi siete visti in quanto
+102:25 io non c'ero Allora fammi fammi finire
+102:30 la la lezione di stasera fammi finire le
+102:32 slide e poi ti rispondo d'accordo Vasco
+102:35 Perfetto allora non ci sono più domande
+102:38 vi faccio rimetto in condivisione vi
+102:40 faccio vedere l'ultimo leggerissimo
+102:42 argomento di stasera e così chiudiamo la
+102:46 la parte allora Scusate
+102:51 P ce la posso fare Eccomi qua allora
+102:55 quindi abbiamo parlato dei dei
+102:57 generatori generatori in serie
+102:59 generatori in parallelo
+103:01 allora altro pezzetto del programma del
+103:04 mimit gli effetti della corrente
+103:06 elettrica Una corrente elettrica può
+103:09 avere tre effetti F quattro effetti
+103:11 Scusate fisiologico termico chimico e
+103:13 magnetico Allora fisiologico È la tipica
+103:16 scossa elettrica che nel nel caso più
+103:20 tranquillo è una scossetta che vabbè
+103:23 viene e passa però se la scossa
+103:24 elettrica diventa forte e quindi se
+103:27 diciamo una persona Tocca due cavi
+103:31 elettrici no E così toccando due cavi
+103:34 elettrici si fa in qualche modo
+103:36 attraversare lui stessa No la persona da
+103:38 corrente succedono una serie di cose una
+103:41 serie di cose brutte diciamo Intanto se
+103:43 la corrente è elevata ci si può bruciare
+103:46 però poi il rischio probabilmente più
+103:48 grave è questo quello delle contrazioni
+103:51 cioè sapete che scusat un pennarello
+103:55 qua le contrazioni muscolari che possono
+103:59 essere di tutti i muscoli ma in
+104:00 particolare sono pericolose quelle
+104:02 miocardiche cioè quelle del cuore perché
+104:04 sapete che il il cervello comanda la
+104:08 muscolatura umana la muscolatura del
+104:11 nostro corpo tramite di fatto impulsi
+104:13 elettrici che viaggiano attraverso i
+104:16 nervi e diciamo sono impulsi
+104:19 piccolissimi dell'Ordine dei dei
+104:21 millesimi di volte o roba di di questo
+104:23 genere se diciamo arriva una corrente se
+104:27 se se si tocca un cavo elettrico nudo e
+104:29 si prende una
+104:30 scossa diciamo ha una tensione elevata E
+104:34 questo può creare delle contrazioni
+104:37 muscolari molto elevate molto elevate se
+104:40 diciamo queste contrazioni attraversano
+104:42 il cuore il cuore si può anche fermare e
+104:44 tant'è che si può andare qui in
+104:47 fibrillazione ventricolare si può avere
+104:49 paralisi respiratoria quindi in generale
+104:52 l'effetto fisiologico e ovviamente
+104:55 nocivo bisogna cercare di evitarlo
+104:57 avrete una lezione specifica sul rischio
+104:60 elettrico attorno alla 14A 15A lezione
+105:03 c'è un collega che fa Praticamente
+105:05 questo di lavoro e appunto vi vi vi
+105:08 parlerà in qualche modo delle
+105:09 problematiche di protezione elettrica di
+105:11 una stazione
+105:13 radioamatoriale un altro effetto della
+105:17 corrente elettrica e l'effetto jaul
+105:19 praticamente
+105:20 Eh la corrente elettrica che scorre In
+105:23 un conduttore lo scalda sempre e quindi
+105:27 di fatto produce calore A volte questa
+105:29 produzione di calore è evoluta pensate
+105:31 banalmente alle stufette No alle
+105:33 stufette che usiamo per scaldare le
+105:35 stanze dove magari non c'è un impianto
+105:38 di riscaldamento adeguato ci piace
+105:40 tenerlo spento
+105:42 la l'elettricità cioè l'energia
+105:45 elettrica si trasforma nella stufetta in
+105:48 energia
+105:49 termica scorrendo in un conduttore che
+105:52 di fatto diventa escente e questo è
+105:55 detto effetto cou l'effetto cou è
+105:58 l'effetto di riscaldamento di un
+105:60 conduttore a causa della corrente che lo
+106:02 attraversa
+106:03 e è l'effetto che stava alla base delle
+106:07 lampadine tradizionali che ormai non si
+106:09 usano più di tanto perché hanno poco
+106:11 rendimento le vecchie lampadine che
+106:13 avevano all'interno un
+106:15 filamento Come si vede in
+106:18 questo in questo disegno il filamento
+106:21 veniva reso incandescente
+106:24 a causa dell'effetto
+106:26 jou facendogli attraversare
+106:29 corrente il filamento incandescente
+106:32 ovviamente emetteva luce quindi effetto
+106:35 termico effetto termico tutto quello che
+106:37 viene attraversato dalla corrente
+106:38 elettrica in qualche modo scalda a volte
+106:41 scalda di più a volte scalda di meno ma
+106:43 scalda M nella prossima lezione sapremo
+106:46 calcolare anche quanto scalda però per
+106:48 ora fermiamoci qui l'effetto termico
+106:50 effetto cul la corrente elettrica scalda
+106:53 tutto quello che attraversa a volte
+106:56 tanto a volte poco poi un altro effetto
+106:59 della corrente elettrica è l'elettrolisi
+107:01 l'effetto elettrolitico
+107:03 eh Cioè se una corrente elettrica scorre
+107:07 in un bagno diciamo per esempio in acqua
+107:10 salata scorre Fra si mettono due
+107:14 pezzetti di metallo in questo bagno e lo
+107:16 si collegano a un a un a un generatore
+107:19 una batteria come come in in questo
+107:22 disegnetto e la corrente elettrica Eh ha
+107:27 il potere in qualche modo di
+107:30 eh scindere di dividere ad esempio Eh
+107:35 alcune alcune delle sostanze chimiche
+107:37 che sono in in questo bagno
+107:40 liquido quindi per esempio se faccio
+107:43 scorrere questa cosa in acqua salata Se
+107:46 faccio scorrere la corrente elettrica in
+107:48 acqua salata il sale che è cloruro di
+107:51 sodio si scinde in ioni
+107:55 sodio in ioni cloro na e cl sono i
+107:58 simboli chimici del sodio e del cloro e
+108:02 questi ioni siccome lo ione è è diciamo
+108:07 una carica elettrica Come vi dicevo
+108:09 prima no E può essere viene attratto
+108:12 dalla carica elettrica di di segno
+108:15 opposto Quindi vedete in questo disegno
+108:18 No il polo negativo attira gli ioni
+108:22 positivi vedete qua c'è un piccolo più e
+108:25 il polo positivo attrae glioni negativi
+108:30 Allora ai fini dell'esame questa roba
+108:32 qui Non c'entra niente con l'esame con
+108:35 con le radio e con le cose
+108:36 radioamatoriali e però il programma
+108:39 richiede che si sappia che l'elettricità
+108:41 ha anche un effetto
+108:43 chimico infine l'ultimo effetto è
+108:46 l'effetto magnetico Questo invece è un
+108:47 effetto importante anche anche per noi
+108:50 lo avremo una lezione di cui parleremo
+108:53 in maniera specifica di questa un cavo
+108:55 elettrico che sarebbe questo qui azzurro
+108:58 in cui scorre corrente elettrica eh
+109:02 genera un campo magnetico magnetico
+109:05 tant'è che il vecchio esperimento di hed
+109:08 questo signor hosted nel
+109:10 1800 non mi ricordo l'anno più
+109:14 preciso aveva un capo elettrico che
+109:17 passava accanto a un ago magnetico di
+109:19 come di una
+109:20 bussola questi aghi magnetizzati no Come
+109:23 si usa nelle bussole erano praticamente
+109:25 degli strumenti di misura si parla
+109:27 appunto della fisica degli anni del 1800
+109:30 no Quindi non c'erano tutte le
+109:31 strumentazioni del laboratorio che
+109:32 abbiamo ora a un certo punto ed vide che
+109:35 nel momento in cui faceva passare
+109:36 corrente in questo
+109:37 cavo l'o della bussola girava E allora
+109:42 capì che scoprì l'effetto l'effetto eed
+109:45 cioè di di diciamo di produzione di un
+109:47 campo magnetico da parte di una corrente
+109:50 elettrica ci sono dei componenti elettr
+109:54 che usano questo meccanismo componenti
+109:57 elettronici in particolare gli induttori
+109:59 o le bobine sono oggetti di una delle
+110:01 lezioni della
+110:02 prossima di una delle prossime lezioni e
+110:07 siamo alla fine e uno Vi ringrazio per
+110:09 l'attenzione ma prima di ringraziarvi
+110:11 per davvero vi riporto sull'indice di
+110:13 questa parte quindi per promemoria la
+110:17 corrente elettrica può avere quattro
+110:19 effetti almeno questi quattro effetti
+110:21 qui il fisiologico quindi l'effetto
+110:24 negativo che ha sull'organismo umano
+110:26 l'effetto termico l'effetto jaul quindi
+110:29 la corrente elettrica scalda i materiali
+110:31 che attraversa l'effetto chimico ovvero
+110:34 l'elettrolisi e l'effetto magnetico la
+110:36 corrente elettrica genera campi
+110:38 magnetici e per stasera non ho non ho
+110:41 altro diciamo abbiamo fatto diciamo
+110:44 C'erano un bel po' di argomenti però
+110:46 abbiamo fatto in qualche modo Una
+110:48 ridefinizione di tutti queste di tutte
+110:50 le cose di tutte le grandezze no
+110:53 partendo appunto dalla carica elettrica
+110:54 fino a arrivare a energia e potenza i
+110:57 generatori e così via mi complimento con
+111:00 voi per la
+111:03 Resistenza Spero che siate ancora svegli
+111:06 eh non l'abbiamo ancora studiata La
+111:09 resistenza è molto molto interessante
+111:12 molto interess prossima puntata Grazie
+111:14 allora intanto Ci sono delle domande
+111:16 Domenico per
+111:18 primo e qual è l'effetto del campo
+111:22 magnetico
+111:23 sulla salute
+111:26 umana perché a sua volta a sua volta un
+111:30 campo magnetico
+111:33 genera effetti
+111:37 sul sul corpo umano dal punto di vista
+111:41 fisiologico vero È vero È vero È vero È
+111:44 vero infatti si dice che zone
+111:48 attraversate da
+111:50 cavi con potenze importanti abbiano
+111:54 creano situazioni di pericolo grave alla
+111:58 salute Sì sì non c'è dubbio non c'è
+112:00 dubbio perché allora il campo magnetico
+112:02 è basato in grande
+112:04 quantità Scusate ricomincio il corpo
+112:07 umano è è composto in grandi quantità di
+112:10 acqua come sapete no si dice che più o
+112:12 meno il 60% del corpo umano è di acqua
+112:15 Allora se voi prendete un bicchiere
+112:17 d'acqua e lo mettete in un forno a
+112:18 microonde l'acqua bolle forno a
+112:21 microonde genera un campo
+112:23 elettromagnetico m che è quello lo
+112:25 stesso generato da una trasmittente
+112:28 radioamatoriale semplicemente un campo
+112:30 un po' più intenso però diciamo i campi
+112:33 elettromagnetici hanno l'effetto intanto
+112:35 di riscaldare il corpo umano questo
+112:38 riscaldamento a volte può essere blando
+112:41 e e se comincia a essere un po' più
+112:45 intenso è un problema e così via C ci
+112:47 sono tutta una serie di effetti dei
+112:48 campi elettromagnetici sul corpo umano
+112:51 ed è bene starci attenti Evidentemente
+112:54 no domanda più che
+112:58 legittima Ok
+113:01 Domenico sì e con l'uso della radio che
+113:05 rischi si corrono con l'uso della radio
+113:08 di fatto non si corre alcun rischio se
+113:10 l'impianto è fatto bene nel senso che la
+113:14 radio anche una radio di una certa
+113:15 potenza genera Appunto una certa potenza
+113:18 a radiofrequenze Come si dice che sta
+113:20 all'interno della radio
+113:23 potenza viene inserita in un cavo che la
+113:25 porta Dov'è l'antenna tipicamente sul
+113:28 tetto e il cavo non irradia un cavo
+113:32 fatto bene la potenza la tiene al suo
+113:34 interno l'antenna La irradia in alto nel
+113:37 tetto quindi La irradia nello spazio
+113:39 libero quindi il più delle volte è
+113:41 diciamo lontana dal dal corpo umano
+113:46 dell'operatore anche se fosse
+113:48 vicina Normalmente le potenze che si
+113:50 usano per livello trasmiss i amatoriali
+113:53 non sono pericolose e questo è
+113:56 certificato dai vari soggetti dalle
+113:58 varie agenzie anche stile Arpat Arpa
+114:01 roba di questo genere Come si chiama
+114:03 nelle varie regioni che alcune volte
+114:05 sono stati chiamati in casa per
+114:08 contenziosi No da vicini che avevano
+114:10 proprio questo tipo di paure e misure
+114:13 effettuate diciamo hanno sempre portato
+114:15 alla conclusione che il livello di Campi
+114:19 che è genera una stazione Radi
+114:22 amatoriale è assolutamente al di sotto
+114:24 della soglia di
+114:27 pericolo oltretutto ci sono cioè gli
+114:31 inquinatori sonoo ben altri per esempio
+114:33 i sistemi a portanti fissa come l'lte le
+114:36 cellule telefoniche e roba del genere No
+114:38 cioè radioamatore quando c'è trasmette
+114:40 quando non c'è trasmette quando
+114:42 trasmette a volte Parla a volte Ascolta
+114:44 ma invece ci sono molti Siamo circondati
+114:46 da moltissimi servizi a portante fissa
+114:48 il che vuol dire che il campo c'è h24
+114:51 365 giorni all'anno sono quelle lì le
+114:54 vere fonti di pericolo
+114:58 d'accordo
+115:00 Capito Ci sono azioni di contenimento a
+115:03 questi
+115:05 campi Sì la schermatura la gabbia di
+115:08 fare
+115:17 Dai scusa e ce la possiamo costruire una
+115:20 Gambia di Farad certo sen senza problemi
+115:23 senza problemi la gabbia di fardy non è
+115:26 altro che una specie di rete a Maglie
+115:27 molto larghe che avvolge un ambiente
+115:30 l'ambiente che si vuol proteggere E
+115:32 questa rete è messa a terra al
+115:35 potenziale di terra
+115:37 e concettualmente È molto facile però a
+115:41 meno che non si abiti in una zona ricca
+115:43 di ripetitori e roba del genere e l'uso
+115:46 è cioè l'utilità è relativa
+115:49 relativamente bassa citazione normale
+115:52 non sono particolari non ci sono campi
+115:55 nocivi per fortuna cioè diciamo che
+115:58 tutta la normativa
+116:00 elettrica è fatta anche in questa
+116:03 direzione No
+116:06 eh quindi non cioè tendenzialmente in un
+116:09 uso normale di tutti gli apparati
+116:11 elettrici elettronici che abbiamo
+116:12 attorno non non siamo esposti a Campi
+116:14 nocivi Certo è che se mi metto un
+116:17 cellulare appiccicato all'orecchio per
+116:19 24 ore al giorno dopo un po' l'orecchio
+116:21 mi si scalda ovviamente però che cioè
+116:24 Qui si si arriva a casi di abuso Non a
+116:26 caso hanno inventato gli auricolari per
+116:28 esempio
+116:30 no però c'è differenza tra l'auricolare
+116:33 a Filo e l'auricolare a bluetooth
+116:38 Eh sì certo che sì certo che sì perché
+116:42 laare Bluetooth è un piccolo Ric
+116:44 trasmettitore e quindi è più danoso
+116:47 rispetto a uno a filo sì sì sì sì sì
+116:50 infatti uso filo a parte che la po senza
+116:52 di Bluetooth è minima no Però anch'io
+116:56 penso per chi
+116:59 usarli Vai passo al prossimo Claudio a
+117:04 te Sì scusate scusate possiamo Allora la
+117:08 lezione comunque è terminata quindi
+117:10 possiamo spengere anche la registrazione
+117:12 normalmente vedrete che queste parti di
+117:15 test e Cota nelle registrazioni non ci
+117:17 sono mai no quindi diciamo Adesso siamo
+117:19 in campo libero ciascuno può dire quel
+117:21 che vuole
+117:23 a te Scusami sì sì allora Scus dicevo
+117:29 Ma avevi detto a me vero Claudio no
+117:32 Claudio sì sì sì avevo
+117:35 mandato questo attestato professionale
+117:37 L'ho mandato per email mentre durante la
+117:40 lezione se se è arrivato poi comodo me
+117:43 lo di tutto
+117:46 lì Ciao l'ho ricevuto l'ho già
+117:49 archiviato Mi sentite fantastico Siamo
+117:52 velocissimi eh benissimo bene Certo
+117:55 certo certo sì sì Fabrizio e come hai
+117:59 scritto Ti sentiamo un po' tratti Eh lo
+118:02 so Ho qualche difficoltà con la
+118:04 connessione stasera eh

@@ -1,0 +1,1078 @@
+00:02 dovrebbe apparirvi un Ecco. Esatto. Perfetto. Ci siamo. Grazie.
+00:08 Allora, cominciamo come al solito da come sono andati i test della della
+00:15 lezione precedente. Un attimo solo che metto in condivisione lo schermo. Eccolo
+00:22 qua. E questo che dovreste vedere adesso è l'esito delle vostre fatiche durante
+00:28 questa settimana. molto vicini tutti alla linea del 100%
+00:34 direi. Le domande un po' più critiche sono state la L e la P. della P me lo aspettavo. Ora andiamo a rivederla. La
+00:41 Lordo quale quale domanda è, comunque adesso la riguardiamo. Comunque L e P in
+00:46 ogni caso le si è ricavata sempre molto bene, no? Ricordando che la soglia di successo è il
+00:52 60%. Allora, ecco qua le risposte esatte. Allargo un attimo lo zoom.
+00:59 Lo lo vedete il file? Si vede? Sì, perfetto. Grazie.
+01:06 Perfetto. Paolo, bravo. Almeno guardiamo tutte le risposte. Grazie. Grazie. Grazie. Grazie. Vi allargo un altro po'.
+01:12 Allora, quale caduta di tensione si ha in un normale diodo al silicio 0707?
+01:18 Ricordate si era parlato, no? silicio per la sua natura intrinseca, nel momento in cui crei la giunzione PN,
+01:23 positivo o negativo, eh si si genera proprio per come è fatto il silicio e
+01:29 per come è fatto il drogaggio, una differenza di potenziale di 0,7 fra le due parti. Questi 07 le ritroviamo anche
+01:35 quando il diodo conduce corrente, ai suoi capi cascano 0,7
+01:41 V. Domanda V, molto facile. Un diodo zener è uno stabilizzatore di tensione,
+01:46 l'avete centrata praticamente tutti. Qual è la particolarità dei biodiot carrier? Hanno la giunzione fra metallo
+01:52 e semiconduttore, quindi non è una giunzione PN, quindi se quindi
+01:58 semiconduttori con due drogaggi diversi, ma una delle due giunioni è proprio fatta con una metallizzazione depositata
+02:05 sulla piastrina di silicio. Il diodo varicap a cosa serve? È un diodo a capacità variabile. Anche
+02:11 questa l'avete centrata di fatto tutti. Erano facilite, eh, però le domande del Ministero sono anche così. Per fortuna
+02:17 ce ne sono molte che sono facilissime come queste che stiamo vedendo ora. Cos'è il LED? Il LED è un dito che che
+02:23 emette luce. Domanda F. Questi un pochino più nell'interno, no, della materia. Negli alimentatori si
+02:30 inseriscono dei condensatori in parallelo all'uscita del raddrizzatore, per quale motivo? Con i condensatori si
+02:36 fa il filtraggio, quindi i condensatori non servono né ad alzare né ad abbassare la
+02:41 tensione di uscita, ma dopo dopo i diodi, che sia un diodo solo, due diodi oppure il radderizzatore a ponte con i
+02:48 quattro diodi, si mette un condensatore grosso che fa dal serbatoio di carica
+02:55 per tutto il funzionamento del dell'alimentatore, quindi filtra la tensione, riduce
+03:01 l'ondulazione in un alimentatore lineare, di solito, qual è lo scopo? del trasformatore, abbassare la tensione in
+03:07 ingresso, come si era detto, no? Parto dal 220 dell'EMEL. Se devo generare 24
+03:12 V, per esempio, userò un trasformatore che mi trasforma, appunto, il 220 in 30 V, come più o meno si
+03:19 diceva. Il circuito raddrizzatore di un alimentatore è formato da il
+03:25 raddrizzatore e raddrizza, quindi trasforma da alternata continua, quindi sono diodi i transistor, il transistor o i
+03:33 transistor possono far parte del circuito di stabilizzazione stabilizzazione. Invece
+03:39 il trasformatore, anche col fusibile di sicurezza, ha il compito che abbiamo visto prima, no? Cioè ti porti il 220 V
+03:46 dell'Enel in una tensione vicina a quella che ti
+03:51 serve. Quale componenti si usano nei filtri di alimentazione? condensatori
+03:56 induttanze. Chiaramente non i quarzi che si usano negli oscillatori e nei ricevitori, li vedremo. Chiaramente non
+04:02 i trasformatori transistor che hanno tutte altre utilità e quindi condensatori e
+04:09 induttanze. Allora, un rettificatore ha una semionda per quanti gradi di ciascun
+04:14 ciclo in conduzione? Allora, un rettificatore ha una semionda, quindi non a doppia
+04:21 semionda, una semionda sono 180°. Ricordate, no, che la sinusoide nel suo ciclo completo,
+04:28 positivo e negativo, corrisponde a 360°. Mezza sinusoide
+04:34 180. Questa era una delle domande che ha avuto un po' di un punteggio leggermente
+04:40 inferiore. La risposta comunque è la tre. Quindi un raddrizzatore riceve in
+04:46 ingresso una sinusoide. Una sinusoide è fatta da due semionde, una positiva e una negativa. Quindi una sinusoide ha
+04:53 nativa, diciamo, due semionde. Ci sono dei raddrizzatori, dei rettificatori che rettificano una sola
+05:01 semionda dalla sinusoide, allora 180°. Oppure ci sono quelli a doppia semionda,
+05:07 in quel caso la risposta corretta sarebbe stata 360. Che tipo di condensatori si usa di
+05:14 norma nei filtri degli alimentatori? Siccome servono grandi capacità, si usano elettrolitici perché i variabili i
+05:21 ceramici a disco hanno capacità piccole dell'ordine, diciamo, al massimo di
+05:27 qualche nanofarad, di qualche centinaio di nanofarad. Invece gli elettrolitici che si usano negli alimentatori sono
+05:35 tipicamente dai 10.000 microfarad in su. Quali fra i seguenti circuiti viene
+05:42 usato negli alimentatori? Chiaramente non l'amplificatore lineare, chiaramente non un oscillatore, ma il raddrizzatore
+05:47 a punte. Domanda o qual è la forma d'onda in uscita un rettificatore a doppia
+05:54 semionda connesso a un carico resistivo. Doppia semionda, quindi c'è una serie di impulsi che pulsano a 100 Hz, come si
+06:00 era detto nella lezione, quindi a frequenza doppia delle frequenze di alimentazione. Questa avete dato
+06:06 risposta buona, questa è una domanda abbastanza scivolosa, quindi bravi. Cos'è il ponte di diodi? Il ponte
+06:12 di diodi è un raddrizzatore ad onda intera perché lui con con i quattro
+06:18 diodi non raddrizza una semionda. Per raddrizzare una sola semionda basta un
+06:23 diodo e lui è un raddrizzatore ad onda intera, quindi usa raddrizza entrambe le
+06:30 semionda semionde della sinusoide, sia quella positiva che quella negativa e quindi in uscita, avendo una doppia
+06:39 semionda, quella tensione pulsa non a 50 Hz, ma a 100 Hz perché viene raddrizzata
+06:45 anche la semionda negativa. Infine QU un trasformatore che
+06:50 abbassa la tensione da 220 a 22 V a un reporto spire di 10. Ricordate, no, che
+06:56 quando avete fatto a sto tempo con Sauro la lezione sui trasformatori, il rapporto spire 10 ti dà di fatto il
+07:02 rapporto che c'è fra tensione di ingresso e tensione d'uscita. Quindi, bravi, siete andati siete andati molto bene, niente
+07:09 da dire, almeno io sono molto soddisfatto. Non so voi se c'è qualcuno
+07:15 che ha qualche domanda sul sulla puntata precedente
+07:21 ascolto, altrimenti ci lanciamo sul programma. Paolo, allora confermi che la doppia semionda è
+07:26 360° perché recupera le la onda negativa.
+07:32 Esattamente. Proprio come hai detto. Perfetto. No, perché quello a 180 c'era arrivato, ma 360 recuperare quell'altra.
+07:40 Bene. E tu tu tieni a mente che il 180 è il tipo di raddrizzatore più semplice che si può che si può usare. Un diodo.
+07:47 Un diodo semplice, economico. Chiaramente si usa in applicazioni dove serve pochissima potenza, no? Io mi sono
+07:52 rifatto all alla lezione della dell'alternata, no? Se riporti l'onda e
+07:59 la riporti in un cerchio, vedi che da zero all'altro zero è metà della
+08:06 circonferenza, praticamente. Esatto. 180, quindi e il quell'altra è di sotto,
+08:12 quindi è negativa, capito? Esatto. E completa è 360.
+08:20 Perfetto. Se non ci sono altre domande, riparto con la condivisione. Eccomi qua. Scusa, scusa Paolo. Eh, la domanda L che
+08:29 l'ho perso. Qual la risposta? È la tre. Un attimo solo che riprendo il file.
+08:36 Eccolo qua. Sì, 180. Sì, grazie. Grazie.
+08:41 Ok, grazie a te. Sei arrivato prima di me. Ok.
+08:48 Allora, comunque eh adesso domani diciamo che col materiale della lezione di stasera e le domande per stasera vi
+08:54 mandiamo anche la risposta a questo file con le le domande con le risposte giuste evidenziate in giallo come come sempre,
+09:03 diciamo. Dunque, allora, stasera eccoci
+09:10 qua. Stasera parliamo, come vi dicevo, dei dispositivi che amplificano. Sostanzialmente il
+09:16 transistor. Poi, come probabilmente molti di voi sanno, ci sono varie categorie di transistor, noi il
+09:23 transistor, aggiunzione, il FET, il MOSFET e poi parliamo, vediamo i intanto
+09:29 i circuiti basilari in cui può essere usato un transistor come amplificatore.
+09:34 Poi l'argomento dei degli amplificatori lo riprendiamo e lo completiamo, diciamo, nella prossima settimana. E poi
+09:41 parliamo anche dei tubi a vuoto, cioè le vecchie mitiche valvole, perché fanno fanno ancora parte, come dicevo prima,
+09:48 del programma d'esame del ministero e come dicevo prima, ma eravamo in pochi
+09:53 ancora, eh non son così sicuro che il ministero continui a fare domande sui tubi a vuoto, però fanno parte del
+09:59 programma formalmente, quindi diciamo che 10 minuti ce li dedichiamo, è meglio sapere di cosa si tratta.
+10:07 Ed eccoci. Ed eccoci qua. Il transistor. Allora, il transistor è un dispositivo semiconduttore che presenta tre strati
+10:14 drogati, ovvero ci sono tre, chiamiamoli pezzetti di silicio che hanno quindi tre drogaggi,
+10:21 diciamo, diversi o meglio intercalati. Il diodo si era visto che era un dispositivo semiconduttore composto da
+10:29 due parti drogate, due due strati come scritto qui. Quindi in un diodo c'era
+10:34 una giunzione positivo o negativo PN. In un transistor invece ci sono tre
+10:39 giunzioni, quindi un transistor può essere PNP o NPN. In questa foto vedete un po' di transistor da quelli piccolini
+10:46 che diciamo eh che si usano nei circuiti
+10:51 a montaggio superficiale. Questa piccola pulce qua ha i transistor un po' più grossi che si
+10:59 usano negli negli alimentatori di di potenza. Allora, quindi un transistor ha tre
+11:07 strati drogati, quindi ha tre pezzetti di sicio ognuno col suo drogaggio.
+11:12 Ognuno di questi pezzetti è collegato a un terminale d'uscita. Qui ora si vedeva
+11:18 male, ma se ci fate caso da da queste scatolotte dal contenuto di transistor
+11:23 escono tre terminali 1 2 e 3. I tre terminali del transistor sono chiamati
+11:30 base, collettore ed emettitore. Ricordate che col diodo c'era l'anodo catodo? Il i terminali del transistor
+11:37 invece si chiamano base collettore dimettitore. In questa questa figura che
+11:43 c'è qui, un attimo solo che ripesco il mouse. Vedete che la base è il la parte
+11:50 di silicio centrale. Qui diciamo in questa figura sono schematizzati i due
+11:56 possibili tipi di transistor. Vediamo questo sopra che adesso ho cerchiato. Questo questo sopra è un transistor PNP,
+12:03 quindi l'emettitore e il collettore sono fatte con materiale drogato P. Materiale
+12:10 drogato P significa che eh il trans il silicio viene drogato con del materiale
+12:16 che ha un elettrone in meno, quindi si formula la cuna. Questo di sotto invece
+12:21 simmetrico, è un NPN. I terminali ovviamente si chiamano sempre nello stesso modo, emettitore, base,
+12:27 collettore. La base è la parte centrale
+12:32 del transistor. Qui lo vedete, diciamo, in una
+12:38 rappresentazione, diciamo, grafica, no? un disegno fatto tanto per disegnare, ma diciamo che in un transistor reale lo
+12:47 strato di base è molto più sottile di quello che si vede qua in questa in questa figura qui. Vedete che la base ha
+12:54 questa larghezza in questo disegno. In realtà non è così. La base è proprio molto molto sottile, cioè gli emettitori
+12:60 e collettori sono molto più vicini di non quanto appare in questo disegno, no? che serve un po' per spiegare come
+13:06 funziona il transistor, però nella realtà la base è proprio sottilissima.
+13:13 I contatti fra ogni parte drogata e quellaente si chiamano giunzioni, come anche nel diodo. Nel diodo c'era una
+13:20 giunzione PN. Le transisto. Le giunzioni ovviamente sono due. C'è una giunzione base collettore che è questa
+13:27 qua. Base collettore che è questa che sto cercando di evidenziare e
+13:35 ovviamente c'è simmetrica più o meno una giunzione base emettitore che è questa.
+13:41 Quindi ci sono due giunzioni. Se vogliamo è come se fossero due diodi messi uno accanto in serie l'uno
+13:47 all'altro ma scambiati, no? una giunzione PN seguita da una giunzione
+13:53 NQ. Allora, cosa fa il transistor? Il transistor è un dispositivo attivo, amplifica la corrente. Il transistor è
+14:00 un amplificatore di corrente perché si pilota in corrente, come vedremo. E una
+14:06 piccola corrente che entra nella base del transistor, che è il suo terminale di controllo, viene amplificata fino a
+14:13 100-200 V. Quindi c'è una notevole, diciamo, amplificazione della corrente
+14:20 che viene usata come pilotaggio, diciamo, del transistor. Quindi il transistor è il tipico dispositivo che
+14:26 si usa per gli per gli amplificatori, amplificatori alta fedeltà, amplificatori radio,
+14:33 eccetera. Del 70 il 70% dell'amplificazione in quei dispositivi
+14:39 è fatta dai transistor di cui parleremo stasera. Come vedete scritto qua sotto, appunto, una minima variazione della
+14:46 corrente di base. La base, come vedremo e ripeterò molte volte stasera, il
+14:52 terminale di controllo provoca una notevole variazione del terminale di uscita del transistor che è il
+15:02 collettore. Questo è il simbolo elettrico del transistor. Poiché ci sono due tipi, il PNP e l'NPN, ovviamente ci
+15:09 sono due simboli. Il PNP è quello che vedete qui a sinistra, si distingue
+15:15 rispetto all'altro perché la freccia dell'emettitore è voltata verso
+15:20 l'interno. Vedete che nel simbolo, lo vediamo qua sull' NPN, c'è un terminale
+15:25 che è la base che sembra proprio una specie di base, è come se fosse un mattoncino su cui si appoggiano gli
+15:31 altri terminali. Eh, l'emettitore identificato in questi simboli elettrici dalla
+15:37 freccia. Se la freccia esce fuori, il transistor è NPN, come vedete qua. Se la
+15:42 freccia invece entra in dentro, il transistor è un PNP, come in questo caso. Poi, chiaramente se uno si trova
+15:51 un transistor in mano e lo deve usare deve sapere come identificare i terminali, no? Però uno legge i i fogli
+15:57 di descrizione, scusa vai. Ma la la il disegno è sbagliato
+16:04 perché perché l'emettitore è uguale al all'emettitore di
+16:09 sotto. Eh no, questo è stato voltato, non è sbagliato, è semplicemente
+16:14 voltato. Lo puoi questo il PNP lo puoi, faccio un
+16:20 asse, d'accordo? Scusa, cerco di fare un ass, lo puoi ruotare in questo modo o
+16:25 nell'altro a seconda ti torna più ti torna più comodo nello stato elettrico nel nello schema elettrico che stai
+16:30 facendo. In parecchi schemi, per esempio, eh qui ora la base è sempre disegnata in
+16:37 verticale. In parecchi schemi e ve ne faccio vedere uno qua, ve ne anticipo uno. È disegnato in orizzontale,
+16:45 ok? Ma il dispositivo è sempre lo stesso. Si si volta come torna comodo per lo schema
+16:50 elettrico che si sta facendo. Ok, continuo.
+16:57 Allora, allora, più o meno come funziona il transistor? Eh, allora, il meccanismo
+17:04 di funzionamento interno al transistor ci ricorda un po' quello che che succedeva nel diodo. Vi ricordate che vi
+17:10 avevo detto la settimana scorsa che quando si creava la giunzione NP del diodo, quindi quando si faceva proprio
+17:17 il collegamento fra questi due pezzetti di materiali drogati in maniera diversa, 1 N e 1 P, si veniva a creare una zona
+17:24 di svuotamento perché si diceva che nel materiale N ci sono delle cariche elettriche libere, quelle del materiale
+17:31 che si usa per il drogaggio che ha un elettrone in più. nel materiale PISI diceva che ci sono delle lacune, quindi
+17:37 ci sono delle zone dove dovrebbe esserci un elettrone, ma non c'è, quindi dei dei posti vuoti. E allora nel momento in cui
+17:44 si crea la giunzione e succede che gli elettroni che sono immediatamente vicini
+17:52 alla giunzione saltano dentro le lacune, in qualche modo si ricombinano, diciamo,
+17:57 con le cariche positive dall'altra parte e quindi si forma una regione che più o
+18:03 meno è questa chiamata disvuotamento. sfrutamento perché non ci sono cariche
+18:08 libere né positive né negative perché quelle che ci sono in questa giunzione si sono neutralizzate l'una con l'altra
+18:15 e si era detto poi che quando si parlava di diodi al silicio, ai capi di questa
+18:20 zona di svuotamento c'era una differenza di potenziale di 0,7 V, i famosi 07, no, di cui si è parlato diverse volte e che
+18:27 ci siamo che poi vi siete ritrovati anche in equiz. Allora, nel transistor sto meccanismo
+18:33 succede in due punti perché dijunioni ce n'è due. Questa cosa che ora scarabocchiato
+18:39 qui nella parte base emettitore succede esattamente anche nella parte base collettore. Quindi la base in questo
+18:46 caso è positiva per cui ci sono delle lacune, il collettore è negativo, quindi
+18:51 ci sono degli elettroni liberi. Nel momento in cui io creo questa giunzione, queste cariche si neutralizzano l'una
+18:57 con l'altra, quindi si formano due zone di svuotamento. una qu e una quart.
+19:03 Queste zone di svuotamento hanno l'effetto che anche se si attacca al
+19:08 transistor un alimentatore e diciamo queste batterie che vedete qui sotto, quindi se si dà tensione fra emettitore
+19:16 base al al transistor, se questo alimentatore lo volti così o lo volti
+19:21 anche dall'altra parte, quindi scambiando il positivo e il negativo, succede che nel transistor non scorre
+19:28 corrente. Punto. Perché per come sono voltate le giunzioni, per diciamo per
+19:35 queste zone di svuotamento eccetera, il transistor quando non viene pilotato di
+19:41 base è come è come se fosse un interruttore aperto, non fa scorrere corrente. Però succede una cosa, siccome
+19:47 la base è molto sottile, vi ricordo sempre questo mantra, la base è molto sottile perché ora in questi disegni che
+19:55 sono stati un po' fatti in casa e un po' trovati con internet, questi tre pezzi di silicio sembrano tutti uguali. In
+20:00 realtà la base è sottilissima, no? lo spessore di di di pochi micron, se
+20:05 vogliamo, fra l'emettitore e il collettore. Allora, quando si polarizza
+20:11 il transistor, quindi quando si dà una certa tensione alla base positiva
+20:16 rispetto all'emettitore, in questo caso, le cariche che si mettono le cariche
+20:22 elettriche che si mettono in base, che in questo caso sono positive perché sono
+20:28 attaccato alla parte positiva del uffa, scusate, devo spengere Skype, scusate,
+20:34 devo spengere Telegram, sennò continuano a martellarmi. Infatti, vabbè, speriamo che così
+20:40 finisca, eh. Allora, stavo dicendo, scusatemi, gli le cariche positive che dal terminale di
+20:47 base entrano, appunto, nella base del del transistor, in questa parte centrale di semiconduttore, hanno hanno il potere
+20:55 di abbattere queste zone di svuotamento, di abbattere queste barriere di potenziale che si sono venute a creare e
+21:02 sostanzialmente il transistor diventa in grado di condurre corrente
+21:07 dall'ementitore verso il collettore. conseguiamo il flusso degli
+21:16 elettroni e con pochissima corrente nel terminale di base si ottiene come
+21:23 risultato una corrente molto più forte fra emettitore e collettore. Si diceva
+21:28 prima che un transistor può amplificare 100 150. Questo significa che se ha un
+21:35 transistor fermo, diciamo, con la con la base non alimentata, non polarizzata, se
+21:42 io in base metto una corrente ad esempio di 1 mamp, quindi 1 millesimo di ampere,
+21:47 io ottengo una corrente di emettitore 100 volte più forte, quindi 100 m.
+21:53 Quindi ho una netta amplificazione, diciamo, della corrente.
+21:59 Mh la questa corrente che entra come gira e questa è l'unica cosa l'ultima
+22:05 cosa che vi dico su questo su questa su questa slide. Eh, allora, la corrente che entra
+22:13 dall'emettitore nel momento in cui il transistor funziona normalmente, in parte esce dalla base e
+22:22 in parte esce dal collettore. Il transistor è un nodo, vi ricordate? Avevamo parlato del dei
+22:30 teoremi di Kirkov. Il teorema di Kirkov, quello dei nodi, dice che tutta la corrente che entra esce. Tutti tutti gli
+22:36 elettroni che entrano devono uscire. Ovviamente gli elettroni entrano dall'emettitore ed eccola qua la la
+22:43 legge eh che vale per i transistor. La corrente di emettitore è uguale alla
+22:50 corrente di base più la corrente di collettore. Quindi se nell'emettitore entra entrano 100 m, questi 100 m devono
+22:59 uscire in parte dalla base e in parte dal collettore. Però, come vi dicevo, la base del terminale di controllo, quindi
+23:05 lì la corrente che si muove è è molto molto bassa, per cui vale quello che vedete scritto qua sotto. La corrente di
+23:11 base è molto minore della corrente di collettore, diciamo un centesimo. Di
+23:17 conseguenza le correnti di emettitore e di collnettore sono molto simili, sono di fatto uguali dal punto di vista
+23:24 ingegneristico, cioè se la corrente di emettitore è di 100 m, 1 mamp entra in
+23:30 base, quindi la corrente di collettore sono 99 m, 99 e 100 sono praticamente lo
+23:35 stesso numero, d'accordo? Le correnti di collettore e mettitori sono molto simili, per cui li assumo con poche
+23:42 parole e cambio nel transistor PNP che è esattamente la stessa cosa, ma si
+23:47 voltano le semplicemente i versi delle tensioni e delle correnti, ma il concetto di base è esattamente lo
+23:53 stesso. In un transistor non alimentato, non polarizzato, ci sono due zone di
+23:59 svuotamento, una qua e una qua. Queste zone di svuotamento evitano che nel
+24:05 transistor da da collettore possa scorrere corrente a meno che non si
+24:11 piloti la base. Se si mette nel transistore un po' di corrente tramite la base, questo effetto provoca la eh lo
+24:20 scorrimento di una corrente molto più forte fra emettitore e collettore. Sia una forte amplificazione della corrente
+24:27 di base. Questa amplificazione è chiamata il guadagno o
+24:33 il fattore di amplificazione del transistor. Come vedete in questa slide è il rapporto fra la corrente di
+24:39 collettore e la corrente di base. Si indica in gergo un po' più tecnico con
+24:45 questa sigla HFE, ma in generale si parla di beta. Beta, lettera greca,
+24:51 beta, alfa beta. Si è fermata la slide almeno a me. Mh. Siamo ancora sull' NPN
+24:57 transistor. Sì, anch'io. Esatto. Sei alla 7, Paolo. Ahi ahi ahi
+25:04 ahi ahi ahi. Dunque, che sarà successo?
+25:09 Sei un po' e hai il PC che fa il birbone.
+25:19 Eh, s'è fermato anche Paolo. E allora ce lo siamo frizzato per
+25:25 l'ennesima volta. Ma le 21:46 è un po' presto sinceramente. Di solito è verso
+25:31 le 10. Verso Bravo. È verso le 10:30. Bravo, bravo Marco. Sempre anticipo. Eh, ma eh vabbè,
+25:41 un attimo di pazienza, lo recuperiamo. Telegram la domanda.
+25:47 Anche perché gli dovevo fare delle domande, perché lui è saltato alla alla slide dopo, ma non me l'aspettavo.
+25:54 Eh, seè interdetto il transistor?
+26:00 Sì, almeno i transistor del suo PC
+26:25 sicuramente. Eccolo, eccolo. si è sganciato, quindi stai rientrando.
+26:33 Mh. Allora, rieccomi. Mi mi vedete? Mi sentite? Sentire, ti sentiamo. Vedere
+26:41 ancora. Eccoti. Riprovo con la condivisione, ma sono uscito da Skype e sono rientrato. Non so cosa è successo.
+26:48 E sì che è successo anche ieri sera questa cosa. Sto usando un PC tutto diverso, connessioni diverse, tutto
+26:54 diverso. Non non so perché. E vabbè,
+27:03 alloraate, ho sbagliato mira. Questo dovevo
+27:14 prendere. Allora, comunque mi mi avete sempre
+27:19 ascoltato, giusto? Quindi tutto il discorso della corrente di base che abilita lo scorrimento della corrente
+27:25 fra emettitore e collettore. Lo avete sentito. Per cui finisco il commento di questa
+27:31 slide e poi vi passo la palla se ci sono domande. Per cui eh il fattore di
+27:38 amplificazione del transistor equivale a quanto la corrente di base viene amplificata, quindi è il rapporto fra la
+27:45 corrente di collettore e la corrente di base. Questo viene può essere indicato con queste con questa sigla
+27:51 HFE, però diciamo come vi stavo dicendo normalmente chiamato beta il beta del
+27:59 transistor e in formula vale questo beta = IC / B. Questa è una formula che non
+28:05 su cui non vi chiederanno di fare i conti, però si deve sapere che cos'è il beta, no? cioè l'amplificazione di un transistor rapporto fra la corrente di
+28:11 collettore e la corrente di base. Quindi se io ho a fronte di una corrente di base di 1 m qua sotto diciamo
+28:20 uno una corrente di collettore di 150 m, il beta del transistor vale 150 / 1,
+28:28 cioè 150. Il transistor mi amplifica 150 volte la
+28:33 corrente e e qua mi fermo, anche perché in effetti ho fatto una chiacchierata abbastanza lunga. Se se ci vediamo se ci
+28:39 sono domande intanto fin qua prima di andare avanti a te Marco. Sì, scusa. Io tornerei all'ultima parte
+28:47 perché non l'ho capita questa. Allora, il transistor è ehm come si pilota il
+28:54 transistor? Cioè, te mi hai detto la base gli si dà poca tensione oppure gli si dà quella che vogliamo. In base a
+29:02 quella che vogliamo i due capi, cioè l'emittitore e il collettore, ma la corrente dove esce? Dal collettore.
+29:09 Cioè noi il prelievo della parte amplificata la prendiamo dal collettore.
+29:15 Esatto. O dall'emettitore? Eh, da eh dipende, dipende, dipende
+29:22 perché in teoria cos'è? L'emettitore dovrebbe darmi il segnale. Bo, aumento mi dovrebbe pilotare la
+29:29 parte che mi che dell'emettitore e su C dovrei raccattare l'amplificazione.
+29:36 Dovrebbe essere questo o no? Asp. Eh, allora ci sono, cioè costituisci la
+29:42 parola amplificiazione a corrente, scusami. Oltre. Allora, aspetta, aspetta, diciamo, fermiamoci intanto a
+29:50 un punto fermo per ora. Diciamo che il terminale di ingresso è sempre la base.
+29:55 Oh, ecco. Ok, il terminale di ingresso è sempre la base. Punto. Da quello non si scappa, però poi ci sono tre
+30:01 configurazioni diverse nelle quali si può usare le transistor e ne parlo fra 2 minuti. Ho
+30:08 capito, ho capito cosa mi chiedi. Ti rispondo fra 2 minuti, d'accordo? No, era per avere la
+30:15 la fisicamente la corrente come entra e come esce, capito? Perché sennò io non
+30:21 ci arrivo. Allora, vediamolo. Aspetta. Eh, un attimo
+30:28 solo. Eh, ci sono altre domande? Intanto
+30:34 c'è Luigi la mano alzata. Paolo, vai Luigi. Sì, cercavo anch'io di cioè interpretare
+30:41 quello che diceva Marco. Marco, sì. Cioè dal dallo schema
+30:48 sembra un circuito chiuso, cioè dove utilizziamo noi la corrente
+30:55 che esce amplificata in questo circuito. Ecco, non dallo schema sembra un
+31:02 circuito chiuso, poi ci sono due generatori e è il diodo e basta. Sì, torno torno sulla slide perché quello
+31:09 ancora non è uno schema elettrico e cioè quello quello che vi sta mettendo in difficoltà è il fatto che quello non è
+31:15 uno schema elettrico. Quelle sono un po' di figure per capire come funziona un
+31:21 transistor. Allora, a quello che avete giustamente chiesto si risponde meglio
+31:28 guardando questa figura qua. Allora, intanto dove sono nelle
+31:34 slide? No, queste le abbiamo viste, no? transistor NPN, transistor PNP e poi ho
+31:39 saltato questa per dirvi del beta del transistor. Allora, questo è
+31:47 ehm questo non è un disegno come qui, diciamo, del transistor. Questo questo è
+31:52 uno schema elettrico vero. Quindi qua si comincia a vedere un po' meglio il transistor come funziona dal punto di
+31:59 vista appunto di schema, no? Vedete che c'è una base, un collettore, un emettitore. Chi ha fatto questo disegno
+32:05 si è dimenticato di mettere qua la freccetta dell'emettitore. Questo è un transistor
+32:11 NPN, quindi la freccia va verso l'esterno. Allora, come funziona un
+32:16 transistor? L'emettitore in un circuito eh in un amplificatore dove c'è un
+32:22 transistor NPN, l'emettitore è messo a massa. Messo a massa vuol dire che qua ci sono i terminali negativi di tutte le
+32:30 tensioni, il punto di riferimento zero, d'accordo? Ci finisce il meno di tutte
+32:35 le batterie, diciamo così. Allora, cosa cosa si fa per amplificare un segnale?
+32:44 Eh, in base si manda un segnale che è composto da due componenti. Una è una
+32:52 componente in tensione continua e quindi in corrente continua che, come vi dicevo
+32:59 prima, pilota la base e fa sì che scorra corrente fra collettore ed emettitore.
+33:05 questa tensione continua che è generata da questa piccola batteria che vedete qua, si sovrappone un il segnale che si
+33:12 vuole amplificare, che qui è rappresentato come una sinusoide. Questo potrebbe essere un segnale che viene da
+33:18 un microfono, per esempio. Mh, potrebbe essere il segnale microfonico che deve essere amplificato o potrebbe essere il
+33:25 segnale, ad esempio, in un ricevitore che arriva dall'antenna, un segnale debole che deve essere eh diciamo
+33:31 amplificato. Quindi, alla base del transistor arrivano queste queste due
+33:38 cose, no? una tensione continua che è la sua polarizzazione. Poi anche di polarizzazione riparlerò un attimo più
+33:44 avanti. A questa polarizzazione è sovrapposto il segnale che si vuole
+33:50 amplificare. Questa corrente che entra nella base fa sì, come vi dicevo prima,
+33:57 che eh che nel transistor scorre una corrente molto maggiore. Chi la fornisce
+34:03 questa corrente? la fornisce il circuito di alimentazione del collettore che è
+34:09 questa batteria qua. Questa immaginiamo in un circuito elettrico normale alimentato a 12 V.
+34:16 Immaginiamo che questa sia la nostra tensione di alimentazione a +1 del circuito. Questi +1 però non li attacco
+34:23 direttamente al collettore. Nel mezzo ci metto una resistenza questa qui che sto
+34:29 evidenziando ora. Quindi immaginiamo che nel nel mio
+34:36 ingresso eh io inietto il famoso mill che ho usato prima per spiegare come
+34:42 funziona la cosa e quindi questo milliampere mi scorre in base. A questo punto se il mio transistor immaginiamo
+34:48 che guadagni 100, ho una corrente di collettore di 100 m che da generatore di
+34:55 tensione scorre in questa resistenza e nel transistor. D'accordo?
+35:01 Eh, come faccio a prelevare l'uscita? eh nel nel momento in
+35:10 cui la il mio segnale di
+35:15 ingresso eh modula la corrente di base, perché questo succede di qua, cioè in
+35:22 base, come vi dicevo prima, c'è una tensione e di conseguenza è una corrente che è che è composta da la somma di un
+35:31 valore fisso che è dato da questo generatore più il valore alternato del
+35:36 del segnale che voglio alimentare, che voglio amplificare. Qui sul collettore trovo
+35:42 una corrente che in qualche modo eh ha lo stesso andamento però amplificato,
+35:48 quindi trovo una corrente di collettore amplificata di 100 V e contemporaneamente la variazione di
+35:54 corrente che mi che mi veniva data da questo segnalino in ingresso mi viene anche lei amplificata di 100 V. Quindi
+36:03 questa corrente in uscita dal collettore che se la vedessi in un grafico sarebbe
+36:08 fatta così. Scusate, immaginiamo che questi siano assi cartesiani, no? X Y.
+36:16 questa corrente, sto misurando la corrente di collettore, quindi mi metto qua. Questa corrente è fatta da un
+36:23 valore costante che è quello che mi viene provocato da
+36:29 dalla polarizzazione costante di base. A questo valore viene
+36:38 sovrapposta la forma d'onda, diciamo, del segnale di ingresso. una sinusoide
+36:43 in questo caso anche lei amplificata. Se io ho una corrente fatta in questo modo, questa è la corrente che
+36:50 attraversa il transistor e quindi ha un certo valor medio e su questo valor medio poi c'è una sinusoide, no, con i
+36:56 suoi picchi positivi e picchi negativi. Se questa corrente che scorre nel transistor la faccio attraversare questa
+37:04 resistenza, che tensioni avrò su su questa resistenza? Vale la legge di Oh oh V = R molpato I.
+37:12 R è un valore fisso. Immaginiamo che questa resistenza sia da 1000 ohm.
+37:17 Questa resistenza fa sì di trasformarmi in una tensione con questo stesso
+37:22 andamento. Scusa, l'ho detto male. questa resistenza mi trasforma questo
+37:27 andamento di corrente in un andamento assolutamente equivalente di tensione e quindi in
+37:35 questo punto qua dove io prelevo l'uscita avrò una tensione fissa
+37:43 costante che corrisponde a questo valore eh di corrente, diciamo, di riposo che
+37:49 c'è sempre anche quando non c'è il segnale di ingresso. Quando c'è il segnale di ingresso, questo valore eh
+37:57 varia seguendo l'onda sinusolidale che c'è in ingresso. La corrente mi
+38:02 trasforma questo segnale, questa variazione, scusatemi, la resistenza mi trasforma questa variazione di corrente
+38:08 in una variazione di tensione che mi ritrovo qua in uscita.
+38:15 Quindi sostanzialmente per riagganciarsi a quello che che chiedeva Marco e poi anche l'altro amico che ha parlato, però
+38:21 era in condivisione, non ho visto il nome, per far funzionare il transistor c'è bisogno comunque di due alimentatori
+38:29 oppure di un circuito elettrico che poi vediamo che alimenti contemporaneamente la base e il collettore. Al collettore
+38:36 bisogna dare una tensione positiva tendenzialmente alta, diciamo i più 12 V
+38:42 di cui si parlava prima. tramite una resistenza che viene chiamata resistenza di carico. Di carico perché è quella che
+38:48 poi genera il segnale utile. Contemporaneamente devo dare al
+38:53 transistor una tensione di base molto più piccola che faccia scorrere la corrente
+38:59 di base che io decido eh come corrente di riposo del
+39:04 transistor. Nel momento in cui a questa corrente di base si si sovrappone un segnale di ingresso, la corrente di base
+39:12 varia. di conseguenza varia la corrente di collettore, di conseguenza varia la
+39:17 tensione su questa resistenza e quindi in uscita il transistor con questo
+39:22 circuitino semplicissimo, diciamo, mi riporta la sinusoide del segnale che
+39:29 aveva un ingresso, però amplificata anche lei. Quindi il transistor amplifica la corrente. Per trasformare
+39:35 questa amplificazione di corrente in un amplificatore di tensione si fa semplicemente passare la corrente in una
+39:40 resistenza. Eh, quindi la corrente V = R la mi genera la tensione di uscita del del mio
+39:48 mini amplificatore. Ok, chiaro come funziona?
+39:55 Sì, praticamente il segnale si prende dal collettore. Esatto. In fin dei conti, giusto? L'emettitore quindi fa
+40:02 solo serve solo per fare polarità. In questo caso NPN, quindi va ma a
+40:07 negativo, insomma. In questo caso, in questo caso però perché è un NPN,
+40:13 sì. Eh, no, perché ci sono altri tipi di uso del transistor. Intanto un passo per
+40:19 volta, ditemi se questo tipo di schema è chiaro. Ci sono domande?
+40:25 Per adesso no, Paolo. Allora, e adesso eh risponde. Aspetta, c'è David. Scusami
+40:32 Paola, alzato adesso la mano a David. Dai Davide, vai David. Sì, scusa Paolo, una domanda veloce. Hai
+40:40 detto che praticamente per alimentare il transistor ci vogliono due generatori, uno sulla base e uno sul collettore, ma
+40:47 eh m è la posizione del del generatore che non mi torna, non dovrebbe essere
+40:53 messo alla parte sinistra del circuito che va direttamente a bassa,
+40:59 perché in questo modo qui ci dovrebbe essere praticamente la tensione amplificata. nel nodo che è collegato
+41:07 tra il collettore e la resistenza, ma più poi anche quest'altro generatore di tensione che hai messo qui in fondo. O
+41:15 no? O sbaglio io la visione? Eh no, non sbagli, ma può essere la
+41:21 figura che trae un po' in inganno. Te lo faccio vedere. Ve lo faccio vedere.
+41:27 Grazie. Su uno schema vero, scusate. Bicchiere d'acqua, pardon.
+41:36 che in questi giorni sono giù di voce. Allora, eh sì, BCC, ora mi torna perché
+41:42 quella che alimenta è quella che alimenta praticamente il collettore. Sì. Ok, perfetto. Ora
+41:48 diciamo diciamo che questo è un circuito ancora più vero, nel senso che questo è un circuito vero, cioè prima vi ho detto
+41:55 che c'erano i due generatori, no? Seguendo quella figura lì. E all latto
+41:60 pratico di generatori ce n'è uno, però questa VCC qua alimenta in maniera diversa il
+42:07 collettore e la base. Quindi questa VCC fa da alimentatore di collettore, ma
+42:12 anche da alimentatore di base. L'alimentatore, l'alimentazione di collettore viene fatta proprio con lo
+42:20 schema che avevate visto prima, semplicemente qui è disegnato in un modo un po' diverso, cioè il WCC sta in alto
+42:25 invece che stare in basso, però la corrente che parte da WCC scende nella
+42:31 resistenza di carico, questa è C, attraversa il transistor, in questo caso hanno usato un PN, un PNP e diciamo
+42:40 esce dall'emettitore e va verso massa. A questa stessa VCC viene ricavata
+42:46 l'alimentazione di base. Se per realizzare questo questo amplificatore qua io devo portare questo punto qua, il
+42:53 nodo, diciamo, di base, ha una tensione, faccio per dire, due volte e me 2,5 V
+43:01 rispetto a massa. calcolerò i valori di queste resistenze R1 ed R2 per far sì
+43:07 che se questa WCC è 12 io qui abbia la tensione di base che mi serve per avere quella corrente di base che mi serve per
+43:14 avere quella corrente di collettore che mi serve per far funzionare tutto bene,
+43:20 perché poi la tensione la tensione di base deve essere per forza maggiore della VBE perché sennò il transistor poi
+43:25 non conduce e non parte giusto sì della VBE più la tensione che c'è su questa
+43:31 resistenza sulla resistenza di emettitore di di solito di però però
+43:37 intanto per condurre deve essere maggiore sicuro della degli 07.
+43:43 Esattamente. Esatto. La tensione base vettitore che lì c'è una giunzione esattamente come il diodo. Ci vogliono
+43:50 0,7 V per portarla in conduzione se il transistor è di silicio. Ma oggi i transistor sono di fatto tutti fatti di
+44:01 silicio. Ci sono. Allora, torno un attimo. C'era Paolo, c'era Claudio con
+44:07 la mano alzata. Vai Claudio, scusa, nel disegno di prima, quello di
+44:13 poco fa, non eh eccolo. Ma il verso
+44:19 della della corrente dal WCC verso massa
+44:24 e questo PNP mi sembra a rovescio, perché almeno da quello che sapevo io va
+44:30 verso col verso della freccia, no? La eh ma della conduzione è giusto o a
+44:35 sbagliato il m la mia conduzione? Hai hai detto Hai detto giusto. Hai detto giusto, ma non hai notato una cosa che i
+44:41 disperati che hanno disegnato questo circuitino che non sono che che non sono io, diciamo, questo è un transistor PNP
+44:48 e nota che c'è il positivo a massa. Ah, ops, scusa. Visto?
+44:56 Questa questa è una birbonata, eh. No, questa me colpo scusa.
+45:01 Perché giustamente generalizziamo, no? Eh, l'alimentazione è sempre dal
+45:06 collettore, però un trassistor NPN ha vuole il collettore positivo, un
+45:11 trassistor PNP vuole il collettore negativo. Sono proprio speculari l'uno rispetto
+45:18 all'altro. Va detto che il 95% dei transistor che sono nelle radio, negli
+45:24 amplificatori, cioè in tutte le catene di amplificazione normalmente sono NPN, si usano anche PNP dove servono
+45:30 ovviamente, no? Però il transistore amplificatore classico è eh per i proget
+45:36 i progettisti amano i transistoro NPN. Non chiedetemi perché, ma e forse gli piace l'idea di tenere il negativo a
+45:43 massa, come in effetti è nei nostri apparati. Altre domande?
+45:51 Per adesso? No, Paolo. Allora, o risolviamo questa faccenda di Marco che sennò secondo me Marco stanotte non ci
+45:58 dormi, vero? su questo discorso. Allora, noi finora buon punto
+46:06 Allora, noi finora si è parlato eh dei degli amplificatori chiamati emettitore
+46:11 comune che sono, va detto, i più usati in generale. Allora, cosa cosa diavolo
+46:19 vuol dire emettitore comune? Vuol dire che il terminale di emettitore, cioè
+46:25 questo, d'accordo? è comune all'ingresso e all'uscita, è comune al circuito
+46:32 d'ingresso e al circuito d'uscita. E si vede bene perché in questo circuito che
+46:37 è praticamente è identico a quelli che che avevamo visto prima, il circuito d'ingresso è questo qua, segnale che
+46:44 entra in base, esce dall'emetitore e torna a quello che avevamo. Il circuito
+46:49 di uscita invece è questo qua, dall'emettitore al collettore. Vedete questi due cerchi,
+46:55 questi due circuiti dove che cosa hanno in comune? hanno in comune il l'emettitore. Questo è un circuito
+47:01 emettitore comune. L'emettitore è in comune ai circuiti di ingresso e d'uscita.
+47:07 Questo è un tipo di uso del transistor che è quello più normale, più canonico.
+47:13 In questa situazione il transistore amplifica sia la tensione che la corrente del segnale di ingresso, quindi
+47:20 la corrente di un fattore 100 a seconda del beta del transistor la tensione in maniera corrispondente. Questa è la
+47:26 configurazione classica di un amplificatore. Però questo non è lo l'unico modo in cui il transistor può
+47:33 lavorare, perché ci sono degli amplificatori a base comune. Uno intanto vede il transistor
+47:40 qui e dice "Ma come diavolo fa a funzionare?" La base viene messa a massa. Però se ci pensate anche in
+47:46 questo circuito, cos'è che pilota il transistor? pilota il transistore è
+47:51 pilotato dalla differenza di potenziale che c'è fra base e emettitore, cioè lungo questa linea qua. Dipende la
+47:59 differenza di potenziale fra base e emettitore. Poi se c'è il terminale di emettitore a massa o il terminale di
+48:04 base a massa non non cambia assolutamente niente. A me basta che ci sia una differenza di potenziale fra
+48:10 base d'emettitore per pilotare il transistor e quel giochetto che vi dicevo prima, no? le zone di svuotamento
+48:15 che si riempiono e scorre corrente. Qui l'entrata è data qua, come se fosse, fatemi dire, il
+48:23 terminale è diventato negativo, la base viene messo a massa e invece il segnale di ingresso, invece che metterlo a
+48:29 massa, lo si fa entrare, lo si butta dentro il transistor dal terminale di emettitore. Quindi questo è il circuito
+48:36 di entrata, d'accordo? Il circuito di uscita è lo stesso di prima, semplicemente ci si ritrova la
+48:43 base a massa. Vedete la base è comune. Questa è un è un tipo di configurazione
+48:49 che è usata abbastanza raramente, però è molto utile in alcuni amplificatori ad
+48:54 alta frequenza, perché la base avete visto come era montata nei nei dissegnini che vi ho fatto vedere prima
+49:01 del transistor, no? La base è proprio interposta fra collettore ed emettitore.
+49:07 Allora, se io la metto a massa la base di fatto è come se avessi schermato in
+49:13 maniera anche molto efficace emettitore e collettore. Questo serve a prevenire e
+49:19 autooscillazioni, per esempio, quindi il transistor che innesca si mette a fare i fischi come con le casse acustiche, no?
+49:26 l'effetto larsen e che che che ne parleremo poi la volta prossima
+49:32 degli oscillatori. Diciamo che eh la base, cioè i circuiti eh a base comune
+49:40 sono usati normalmente per le amplificazione di piccoli segnali a frequenze alte, quando c'è bisogno di di
+49:48 ridurre il rischio, quel transistor entri in oscillazione. la base separa i circuiti e fa da schermo, essendo messa
+49:54 a massa ed essendo geometricamente proprio interposta fra collettore ed emettitore dentro il
+50:00 transistor. Ma non finisce qui, appunto. Prima Marco diceva, "Ma il segnale mi
+50:06 entra di qua, mi esce di là, capito? Ma c diciamo ci sono diverse configurazioni perché poi infine c'è l'amplificatore è
+50:12 collettore comune, qui c'è il collettore come terminale comune. Questi,
+50:20 mentre quelli che abbiamo visto prima, quelli a base comune sono usati molto
+50:25 raramente. Questi invece sono piuttosto usati gli amplificatori a collettore comune perché si usano tutte le volte
+50:31 che serve come quello che viene chiamato un buffer, ovvero un
+50:36 separatore. Questo circuito è dal punto di vista elettrico un separatore quasi
+50:42 perfetto. Lui il transistor eh pilotato in questo
+50:49 modo sostanzialmente in tensione non guadagna. guadagno in tensione circa uno, quindi la tensione che entra in
+50:55 entrata, se se fosse diciamo una sinusoide di 1 V picco picco, in uscita
+51:01 mi ritrovo lo stesso valore della sinusoide, 1 vol picco picco, e quindi non ho un'amplificazione
+51:09 di tensione, però questo tipo di configurazione ha in ingresso, scusate, ho perso il cursore,
+51:16 eccolo qua, ha qua in ingresso un eh scusate ha una impedenza di
+51:25 ingresso molto molto alta. Questa questa cosa che diciamo sto
+51:32 dicendo ora si trova spesso in delle domande di esame. Qual è la le domande
+51:37 di esame possono essere formulate? Ad esempio, qual è la caratteristica ottimale per un amplificatore che deve
+51:44 eh disturbare poco il circuito che gli fornisce il segnale? cioè il circuito a
+51:50 monte. Immaginiamo che qui adesso abbiamo questo il nostro emettitore, ma
+51:57 il segnale che entra in base viene da qualcosa. Qui a monte ci
+52:03 potrebbe essere un amplificatore, ci potrebbe essere una capsula microfonica, ci potrebbero essere tantissime cose,
+52:09 no? E tutti gli amplificatori hanno un certo
+52:14 valore di impedenza di ingresso, a volte alta, a volte bassa. Per un
+52:20 amplificatore avere un'impedenza di ingresso alta è un vantaggio perché
+52:25 disturba poco il circuito che sta a monte, cioè il circuito che lo pilota. Io posso usare quell'amplificatore con
+52:32 impetenza di ingresso alta senza disturbare il circuito che sta a monte, che potrebbe essere un altro
+52:38 amplificatore. D'accordo? Questo circuito a collettore comune ha
+52:44 un'impedenza di ingresso molto alta e ha unimpedenza di uscita molto molto bassa.
+52:50 Quindi è appunto il tipico separatore, il tipico buffer, è in grado di pilotare carichi molto
+52:56 forti generando corrente. Non amplifica in tensione, ma l'amplificazione in
+53:01 corrente c'è. Ed è il tipico, appunto, circuito che viene usato dal separatore quando, ad esempio, devo pilotare dei
+53:07 carichi molto forti, relè o roba del genere. o devo alimentare delle linee, per esempio, linee telefoniche, linee di
+53:13 trasmissione dati o roba del genere, no? Questi sono proprio è è il tipico buffer.
+53:19 Mh. Quindi, come vi dicevo prima, riagatganciandoci a quello che che
+53:25 che di cui si parlava con la domanda di Marco, sostanzialmente il transistor si pilota sempre in base,
+53:32 però, scusate, torno qua, però a volte il pilotaggio di base viene dato in
+53:38 realtà tenendo ferma la base e pilotato e muovendo, diciamo, mandando la tensione di pilotaggio nell'emettitore
+53:45 come nell'amplificatore a base comune. l'uscita, il circuito di uscita anche
+53:52 lui può può variare, no? Nel senso che eh qua ad esempio il circuito di di
+53:58 uscita è fra emettitore fra scusate collettore e masta, cioè collettore
+54:03 base. Qua circuito di uscita e fra invece collettore di emettitore come nel
+54:09 primo amplificatore che avevamo visto. Quindi, e qui mi fermo, no? E vi
+54:14 do un po' di di spazio per un po' di fiato e un po' di domande. Quello che si è visto ora è
+54:21 riassunto in questa tabella. Appunto, qui ci vedete le tre tipologie di
+54:26 configurazione di amplificatore che si possono fare con un transistoro. Emettitore comune, base comune e
+54:34 collettore comune. Nelle prime tre righe, queste tre ci vedete le caratteristiche di
+54:40 amplificazione. Quindi un dispositivo può amplificare in tensione, in corrente e in potenza. L'amplificazione in
+54:46 potenza ce l'hai quando amplifichi sia tensione che corrente. Allora, in pratica, nell'emettitore comune hai una
+54:53 buona amplificazione di tutto, di tensione, di corrente e di potenza. Con la base di comune con la base comune hai
+54:60 un'amplificazione di corrente inferiore a
+55:06 uno. Invece col collettore di col collettore comune, essendo il buffer, quindi il circuito di pilotaggio,
+55:12 l'amplificazione di corrente è molto forte. l'impedenza di entrata l'impedenze di
+55:20 entrata di questo circuito, quindi quanto carico il circuito che sta
+55:25 prima nel caso dell'emettitore comune è medio bassa perché il
+55:31 transistor si pilota in corrente. Dovendolo pilotare in corrente è chiaro che, diciamo, eh questa corrente la deve
+55:40 assorbire, per cui deve avere un'impedenza abbastanza vasta. Nel caso di base comune è molto bassa, invece nel
+55:46 caso di collettore comune per quel tipo di di di configurazione l'impedenza di ingresso è alta.
+55:53 impedenza di uscita molto bassa nel caso del collettore comune, il buffer, media
+55:59 nel caso dell'emeditore comune, medio alta nel caso della base comune. Eh, e questo è appunto
+56:08 riassuntino, diciamo, delle delle tre configurazioni di alimentat di
+56:13 amplificatori, scusate, che si sono viste fino a ora. Tolgo la condivisione, facciamo un
+56:19 attimo di pausa e se ci sono domande cerco di rispondere
+56:26 volentieri. Ok Marco, a
+56:36 te microfono, se stai parlando. Eh sì. No, e lo rispetto.
+56:42 Dicevo, sono io sempre a romperti le scatole. Ma quel uguale a 1 o inferiore a 1? Cosa vorrebbe dire? Che è meno di
+56:49 quanto gli metto oppure aumenta di uno? Cioè nel senso che raddoppia?
+56:57 Eh no, vuol dire che è leggermente minore di uno nel senso proprio matematico del termine. Quindi, per
+57:04 esempio, se tu entri con un segnale del collettore comune, rimetto in in
+57:12 condivisione, picc. Eccolo qua. Dove sono? Dov'è la slide? Questa
+57:19 qua, per esempio, nel nel caso del collettore comune, se tu entri in base
+57:25 con un segnale di più o meno 1 V, in uscita avrai metti più o meno 0,98
+57:32 0,95, ma non è un problema perché poi in qualche modo fai fai in modo di avere
+57:37 l'uscita che vuoi, cioè più o meno sono gli 07 famosi. No, no, no, no, no, no,
+57:43 no, no, non è questo, non è questo. No, no. Eh, perché i 07 sono tanti anche. Eh,
+57:50 diciamo che uno gli dà la tensione che serve per avere la tensione che uno gli dà in
+57:57 ingresso la tensione che serve per avere la tensione che ci sono 12 volte, io ho 11.
+58:05 Eh, oppure è un uno riferito alla tensione di ingresso. È riferito alla tensione di
+58:11 ingresso, non alla tensione d'alimentazione. Ah, ecco, perfetto. Ah, capito. Ok.
+58:17 Quindi usiamo un'altra parola, la tensione è leggermente
+58:23 attenuata minore di uno vuol dire che c'è una certa attenuazione della
+58:29 tensione. Non è amplificata, ma è leggermente attenuata, leggerissimamente
+58:37 attenuata. Invece la corrente viene molto amplificata. Ok. Sì. Sì.
+58:47 Altre domande? Vediamo un po'. Per adesso no pa.
+58:57 Allora, e questo è il transistor. Vi faccio
+59:02 vedere solo un'ultima cosa che riprende il discorso che si era
+59:08 fatto prima. Audotecnica. Eccolo
+59:16 qua. Quindi, allora, quindi il transistor è il il primo dispositivo amplificatore
+59:23 che si è visto, no? Con tutte le caratteristiche viste fino fino a ora. Allora, dei transistor esistono
+59:31 delle curve caratteristiche perché noi abbiamo parlato di polarizzazione, no? La polarizzazione del transistor
+59:37 eccetera. Come si fa a polarizzare un transistor? Eh, queste slide qui vedete che sotto è
+59:43 comparso di nuovo questa scritta rossa extra. Questo non fa parte del programma
+59:48 d'esame, però c'è c'è una cosa che che vi voglio dire, cioè ogni transistor eh
+59:54 ha eh è descritto da delle curve caratteristiche che fanno vedere in
+59:60 qualche modo come funziona, cioè che corrente genera in uscita in funzione della corrente in ingresso, eccetera. mh
+60:06 in base a queste curve caratteristiche, quindi vedete che qui per esempio c'è una caratteristica di ingresso, ci son
+60:13 ci sono le curve caratteristiche di ingresso e le curve caratteristiche di uscita, tanto per vederle rapidamente.
+60:18 La caratteristica di ingresso fa vedere come cambia la corrente di base IB in funzione della tensione base emettitore
+60:27 e quindi eh appena la tensione base emettitore sale di poco, la corrente di
+60:33 base a un certo punto sale sale rapidamente. In dei conti questa è la curva caratteristica di un diodo, se
+60:39 vogliamo, no? Il diodo base emettitore e e qua ci sono le caratteristiche di uscita. fa vedere
+60:44 come la la corrente di uscita IC, eccola qua, cambia in
+60:53 funzione della tensione collettore emettitore. Allora, quando si dice si
+61:00 polarizza un transistor che si fa? Che allora si deve calcolare il valore di
+61:06 quelle resistenze che si sono viste prima per fare in modo che il transistor lavori bene. Cosa vuol dire lavora bene?
+61:13 vuol dire che deve potere amplificare il tipo di segnale che in qualche modo gli
+61:18 gli vogliamo gli vogliamo dare. Quindi bisogna scegliere una zona ben precisa
+61:23 in quelle curve caratteristiche dove farlo lavorare e in base a quello si
+61:29 progettano quelle resistenze. Cosa vuol dire questo discorso eh abbastanza
+61:34 astruso messo in pratica? Guardate per esempio le caratteristiche di uscita. Vedete che, diciamo, c'è una prima
+61:40 parte, questa qui nella parte sinistra di questo grafico dove queste dove
+61:46 queste curve sono molto a gobba. Invece da qui in poi queste curve vedete che
+61:51 diventano lineari. Diventano lineari. Scusate che non riesco a essere lineare io con
+61:58 questo benedetto mouse. Diventano lineari. Vuol dire che il segnale che arriva in ingresso può essere
+62:03 amplificato linearmente. Immaginiamo che io in ingresso voglio amplificare una sinusoide.
+62:09 Se io faccio lavorare il transistor qua, quindi se io fisso con i valori di
+62:15 resistenza che poi calcolerò eccetera, il punto di lavoro del transistor qua è
+62:20 sono stato un pollo perché immaginiamo la mia sinusoide che è fatta di semionde positive ma anche di semionde negative.
+62:28 Le seionde positive mi vengono amplificate anche bene, ma nelle negative entro nella zona di funzionamento non lineare, quindi forse
+62:34 mi conviene molto di più far lavorare il transistor qua nel
+62:39 mezzo. Quindi, come si dice, mi scelgo il punto di lavoro dove far lavorare il
+62:45 transistor. Se lo faccio lavorare qua nel mezzo, amplificherò bene sia le sia
+62:50 le semionde negative che le semionde positive del eh del mio segnale in ingresso.
+62:58 Questo si traduce semplicemente nella scelta opportuna di
+63:03 queste resistenze. Quindi, quando io so in base a quel tipo di transistor qual è
+63:09 la corrente di collettore ottimale, qual è la tensione di base ottimale di conseguenza eccetera, mi metto e legge
+63:15 di ohma alla mano R1, R2, RC ed R, me le calcolo tutte per benino e ho e ho in
+63:22 qualche modo costruito il mio circuito. E questa è la, diciamo, la la
+63:27 polarizzazione del transistor. Allora, proseguiamo. Allora,
+63:36 sei pronta? Ti ricordi quello della Lotus? Sono cavera d'albergo a Beverls,
+63:41 piano Atti col suo bagno, il più grande della Helalbergo. Devo starti a sentire. Speggete la televisione. Bellissima,
+63:49 bellissima. Voglio anch'io. Allora, quelli che abbiamo visto ora si
+63:54 chiamano transistor bipolari. Bipolari perché ci sono biunzioni, PNP, NPN, eccetera eccetera. C'è una tipologia di
+64:02 transistor diversa. I fet fet fet sta per transistor ad effetto di campo,
+64:08 field effect transistor che hanno un funzionamento diverso. La cosa, diciamo,
+64:15 la cosa che si vede di più da fuori di questo tipo di transistor è che invece di pilotarli in tensione, in corrente,
+64:22 scusate, come di transistor, questi si pilotano in tensione e ora vedremo
+64:27 perché e cosa significa. Questi transistor sono fatti in maniera un po' diversa, nel senso che non ci
+64:33 sono le tre giunzioni NPN, PNP che vedevamo prima, ma c'è un'unica barretta di materiale eh
+64:41 drogato, che è questa barretta qui, questo rettangolone che vedete in questo in questo in questo disegno nella parte
+64:48 destra. Vedete che c'è un terminale qua in alto che si chiama drain, l'altro terminale che si chiama
+64:58 source e lungo questa barretta, così diciamo, immaginiamo che
+65:04 scorra la corrente elettrica. il terminal di controllo qui, quindi quello che nei transistor era la base,
+65:11 viene chiamato gate, cioè porta gate. E praticamente eh immaginate che
+65:18 questa barretta che vediamo qui sia un cilindro. Immaginate che attorno attorno a questo cilindro abbiate realizzato uno
+65:27 una giunzione, quindi con un materiale drogato diverso, per esempio, se questo
+65:32 è N, questo è P e che in qualche modo circonda questo
+65:37 tubetto di di silicio che va da drain a source. Nel momento in cui facciamo la
+65:42 giunzione ovviamente si forma una regione di svuotamento anche qua, no? Come sempre, come nei transistor e come
+65:47 nei diodo e e la zona di svuotamento è questa che vedete qua che in qualche modo abbraccia tutto
+65:55 il tutta la barretta di semiconduttore che va dal drain al source. Allora, se
+66:00 io vario la tensione di gate, quindi la tensione che c'è su questo
+66:06 elettrodo, posso far crescere o far diminuire questa regione di svuotamento. Allora, più la faccio crescere,
+66:13 immaginiamo che quindi aumento la tensione di polarizzazione, la regione di svuotamento mi
+66:19 diventa più ampia e quindi è come se io qui
+66:24 assottigliassi e la parte di barretta in cui può passare la mia corrente elettrica, aumentandole quindi la la
+66:32 resistenza. E succede proprio questo, no? Cioè più io aumento la tensione negativa di di gate, meno corrente il
+66:40 mio FET mi eh meno corrente circola nel mio FET. E viceversa. Se io la tensione
+66:48 di gate la mh modifico in modo che la zona di svuotamento vada a ridursi, il
+66:55 canale, questo canale qui che c'è fra drain source si amplia, c'è meno resistenza e quindi scorre più
+67:01 corrente, per cui riesco a pilotare il flusso di corrente che c'è
+67:07 fra drain e source, non con un meccanismo come avveniva nel transistor dove iniettavo cariche elettriche nella
+67:14 base, ma con un meccanismo dove semplicemente io vado a aumentare e ridurre l'ampiezza
+67:22 della regione di svuotamento e quindi aumenta o riduce la superficie del
+67:28 canale tramite la quale passa la corrente. Questo lo faccio tramite un terminale di gate che per fare questo
+67:35 tipo di azione eh lavora sempre in
+67:41 polarizzazione, diciamo, inversa, cioè in altre parole nel gate non scorre mai corrente a differenza del transistor,
+67:47 cioè in un transistor, vi ho detto prima, il pilotaggio avviene tranne la corrente che scorre in base. Qui invece
+67:54 non c'è corrente di gate perché qui c'è la regione di svuotamento, sono in polarizzazione inversa, cioè se questo
+68:01 terminale è se se il mio drain è negativo eh il gate deve essere ancora
+68:08 più negativo, capito? diciamo, devo avere regione di la regione di svuotamento qui non la
+68:15 voglio chiudere, anzi voglio che non si chiuda mai. Se la regione di svuotamento esiste, il gate è come se fosse isolato
+68:21 dalla regione di svuotamento e quindi non eh assorbe
+68:27 corrente. Di conseguenza, questi dispositivi hanno una impedenza di
+68:32 ingresso molto alta, non assorbono corrente, eh vuol dire che la resistenza
+68:38 di ingresso è altissima. E questi sono i fet, i transistor a effetto di campo. Hanno questo simbolo
+68:46 elettrico. Vedete che il simbolo rappresenta proprio la barretta fra drain e source e il terminal di gate che
+68:53 va in qualche modo a eh agire sulla dimensione di quella barretta. Come nel caso dei transistor
+68:60 ci sono gli NPN e i PNP. Qua ci sono i FET a canale N e a canale e a canale P.
+69:06 I FET sono caratterizzati dalla vera impedenza di ingresso molto alta. Nel caso di
+69:13 FET eh l'amplificazione, il guadagno del FET non è più il beta, perché il beta
+69:20 era il rapporto fra corrente di collettore e di emettitore, no? Scusatemi, corrente di collettore e corrente di base. Qui corrente di base
+69:27 non ce n'è. Qui il guadagno è chiamato transconduttanza ed è eh la variazione
+69:33 della corrente di drain delta e d. Questa questa cosa che vedete qui è la
+69:38 lettera greca delta, no? Che che è il simbolo di variazione. La variazione che ottengono nella che ottengo nella
+69:45 corrente di drain a fronte di una variazione che ho nella
+69:50 tensione eh di gate. Qui credo che ci sia un errore VG. Questa eh la tensione di
+69:60 gate, non è la tensione di source, poi correggerò le slide.
+70:06 E questi sono i Fed. I pezo usati molto spesso come stadio di ingresso in catene
+70:12 di amplificazione proprio perché il fatto che abbiano una impedenza di ingresso molto elevata e provoca
+70:20 quell'effetto benefico di cui parlavamo prima che non vado a caricare il circuito che mi dà il segnale che io
+70:26 voglio alimentare, quindi per esempio il microfono, per esempio, un eh un un
+70:33 ricevitore a galena che genera segnali debolissimi e quindi è bene, diciamo,
+70:39 prelevarli con attenzione. Quindi questi si chiamano transistor effetto di campo fet. C'è
+70:46 qualche domanda su questi? Per adesso no, Paolo. Ok, tutto
+70:54 chiaro? Allora,
+70:60 proseguo. C'è una ulteriore eh tipologia di dispositivi che è una variazione dei
+71:08 FET chiamati MOSFET e sono semplicemente transistor effetto di campo a ossito di metallo
+71:16 metal oxide. Questi hanno una struttura simile al F, però il terminale di
+71:22 controllo, il gate non è realizzato con una giunzione come nel caso dei fate, ma
+71:27 è realizzato con una superficie metallica isolata dal canale mediante uno strato di ossido, più o meno come
+71:33 succedeva per i diodi cardier. Ricordate i diodiot cardier, no? che avevamo visto
+71:38 mercoledì scorso che che a non terminale sostituito da una
+71:44 metallizzazione. Anche qui c'è una metallizzazione, no? metal oxide, un ossido di metallo e diciamo il
+71:51 funzionamento è lo stesso, cioè in qualche modo il gate, la tensione che io do al gate
+71:59 modula la larghezza del canale, semplicemente cambia il meccanismo, cambia la tecnologia di
+72:05 realizzazione, quindi non ho una giunzione, ma ho una metallizzazione. sono, a parte questo,
+72:12 sono sostanzialmente identici ai ai fatti di cui abbiamo parlato prima. E
+72:17 detto questo, non avrei altro da dire su sulla parte sui transistor. Allora,
+72:23 stacco un attimo la condivisione, lo
+72:30 schermo. Ok, quindi in sostanza abbiamo visto tre
+72:37 dispositivi di amplificazione: transistor, fet, mosfet. Transistor si
+72:44 alimenta in corrente, FET e MOSFET si alimentano in tensione. Impetenza di ingresso molto
+72:50 alta. La prossima puntata, mercoledì prossimo, li useremo in dei circuiti di amplificazione un po' più veri di quelli
+72:57 che abbiamo visto stasera.
+73:02 C'è qualche Se non ci sono domande vado avanti. Allora, unico ultimo argomento
+73:09 di stasera, torno in condivisione. Ed eccoci
+73:20 qua. Eh, le valvole eh le valvole, i tubi termoionici che sono tutt'ora usati
+73:26 in ad esempio negli amplificatori. amplificatori non solo alta fedeltà, ma anche
+73:32 amplificatori radio, diciamo. E quindi questi questi sono i
+73:38 primi dispositivi amplificatori che sono nati, no? anni 1920 eccetera, circa 40
+73:44 anni prima che fossero inventati i transistor. Sapete che le valvole
+73:51 termoioniche più o meno hanno questa hanno questa forma, cioè un bulbo di
+73:56 vetro in cui è fatto il vuoto e dentro ci sono una serie di elettrodi e ci sono 1 2 3 4 tipi di valvole termoioniche.
+74:06 Allora, gli elettrodi sono chiamati catodo, anodo, poi ci sono delle griglie
+74:11 e c'è un filamento riscaldatore. Allora, come funzionano queste valvole termoioniche? Cominciamo dalla dalla più
+74:16 semplice che è il diodo a riscaldamento diretto. Allora, in queste valvole, vi dicevo, nel c'è
+74:25 un diciamo il tutto avviene nel vuoto, quindi c'è un di solito, appunto, un
+74:31 contenitore in vetro su cui in cui è fatto il vuoto, ma vuoto spinto e in questo contenitore c'è un termin c'è un
+74:39 un cosiddetto filamento. Il filamento, che è quello che è disegnato qua sotto in questo
+74:45 schema, somiglia molto ai filamenti delle vecchie lampade incandescenza, cioè il suo il suo il suo compito nel
+74:53 momento in cui viene alimentato è diventare incandescente e diventando incandescente emette elettroni, non
+75:00 emette solamente un po' di luce come come accade nelle nelle come accadeva nelle vecchie lampadine prima dei LED.
+75:06 Per eitazione termica il filamento emette degli elettroni. Questi
+75:13 elettroni normalmente se ne stanno vicini a chi li ha emessi, cioè vicini a
+75:18 questo terminale di di filamento. Però se nello stesso bulbo di vetro si mette
+75:25 una placca di metallo e a questa placca di metallo si dà una tensione positiva,
+75:31 le cariche opposte si attraggono, quindi questi elettroni saranno attirati dalla
+75:36 placca o o anodo, come anche viene chiamato, e daranno luogo a un flusso di corrente elettrica. Invece, esattamente
+75:43 come abbiamo visto nel diodo a semiconduttore, se in questa placca la tensione, invece di essere positiva è
+75:51 negativa, gli elettroni che sono emessi dal filamento incandescente vengono in qualche modo rimandati, diciamo, sul
+75:57 filamento e non c'è eh flusso di corrente. Quindi questo è, vedete come
+76:04 il funzionamento delle valvole è estremamente più semplice rispetto ai semiconduttori, no, che sono nati dopo e
+76:10 hanno un po' più di complessità tecnologica. Qui il funzionamento è veramente elementare. Il filamento
+76:15 diventa incandescente, il metallo incandescente emette comunque degli elettroni per
+76:21 suonatura. Questi elettroni se eh c'è
+76:26 una placca, un anodo caricata positivamente, li assorbe, quindi scorre corrente. Viceversa la corrente non
+76:33 scorre. E questo è il diodo, il tipo di il tipico diodo che si trova nelle radio
+76:39 a valvole appunto anni 30, anni 40, anni 50. Una valvola di solito era appunto la
+76:45 rettificatrice. In questa valvola c'erano o un diodo o due diodi a seconda del tipo della radio. E questi diodi
+76:52 funzionavano così, funzionavano esattamente così, senò con una variazione che è questa. Questa è la
+76:59 versione di diodo un po' più evoluta. Allora, in pratica succede che i materiali che diventano facilmente
+77:05 incandescenti non è detto che siano quelli che eh emettono più facilmente
+77:11 elettroni. Eh, e si può dire anche in un altro modo, ci sono dei materiali che se
+77:16 porti all'incandescenza emettono facilmente elettroni, ma sono materiali un po' più delicati. Allora, in
+77:22 sostanza, ehm hanno in qualche modo a un certo
+77:27 punto inventato il diodo a riscaldamento indiretto, cioè il filamento si occupa semplicemente di
+77:33 riscaldare, è proprio una una stufetta incandescenza. Il filamento in realtà in
+77:38 questo tipo di scalda un terminale che si chiama catodo, che praticamente è un
+77:44 tubetto che sta attorno al al filamento che diventa molto caldo anche lui. Il
+77:50 catoto è realizzato con dei materiali particolari che hanno un'alta emissività, cioè che emettono facilmente
+77:57 una gran quantità di elettroni. Quindi il vantaggio di riscaldamento indiretto è che magari con
+78:04 un po' meno energia spesa per rendere incandescente il filamento e tutto quello che g attorno, io ho comunque
+78:11 un'elevata quantità di elettroni che possono che possono, diciamo, servire al
+78:16 funzionamento del mio diodo. Poi il funzionamento è lo stesso, no? L'anodo positivo se gli attira, il diodo
+78:22 conduce, l'anodo negativo li respinge e il diodo non conduce.
+78:30 Penso sia tutto chiaro fino a ora. C'è qualche mano alzata per caso?
+78:35 No, Paolo, per adesso no. Allora, proseguo. Allora, a un certo punto un
+78:40 signore, un certo fleming, ma non è stato il solo che ci pensava, ha cominciato a pensare "Ma qui fra il cato
+78:47 del nano dove c'è un flusso di elettroni?" Ma questo flusso di elettroni non riesco in qualche modo a regolarlo, cioè stavo pensando a fare
+78:54 quello che poi hanno fatto i transistor, no? avere un terminale come la base che funzionasse dal rubinetto, diciamo, di
+79:01 questa corrente elettrica. Ed è nato il triodo. Triodo perché è un è un
+79:07 dispositivo che ha tre terminali: il catodo, la griglia e la placca.
+79:13 In pratica, dopo un po' di esperimenti hanno visto che se vicino al catodo si
+79:18 avvolge una griglia anche molto sottile di filo elettrico, in base al potenziale di
+79:25 questa griglia si eh facilita o si ostacola il flusso degli elettroni fra
+79:32 il catodo e l'anodo o placca, come si diceva ai vecchi tempi. Diciamo che se
+79:39 la griglia è polarizzata negativa, molto negativa,
+79:45 scusate, all'effetto del rimandare gli elettroni verso il catodo. Invece se è
+79:50 polarizzata poco negativamente, gli elettroni filtrano attraverso la griglia e vengono in qualche modo attirati dal
+79:57 dall'anodo. In questo caso, quindi, mentre quando si parlava, scusate torno indietro, mentre
+80:04 si quando si parlava di diodi e il diodo serve per raddrizzare e quindi c'erano
+80:10 situazioni in cui l'anodo era positivo e altre in cui l'anodo era negativo, no? in funzione della sinusoide che io
+80:15 voglio raddrizzare. Invece nel caso dei triodi che li vogliamo usare come
+80:21 amplificatori, l'anodo, la placca è sempre positivo, esattamente come il collettore di un
+80:28 transistor. La corrente viene modulata dal dalla tensione di griglia, quindi la
+80:33 griglia è il terminale di controllo che regola il flusso di elettroni che attraversano il triodo partendo dal
+80:41 catodo e arrivando al placca. E il funzionamento è identico a quello che abbiamo visto con il
+80:48 transistor. La griglia ha una sua polarizzazione, il segnale che vogliamo amplificare si sovrappone a questa
+80:54 polarizzazione e lo ritroviamo amplificato sulla
+80:59 placca. E iodi e i triodi sono stati in assoluto i primi dispositivi
+81:05 amplificatori mai inventati dal genere umano, diciamo così. I trii però avevano
+81:12 delle eh delle pecche, delle difficoltà e per questo motivo sono stati a un
+81:18 certo punto inventati i tetrodi, quindi è cresciuta una
+81:23 griglia come nel caso del del triodo, c'è un filamento, c'è un catodo, c'è una
+81:28 griglia che a questo punto, siccome c'è più una de ci sono due griglie, le griglie hanno preso il nome specifico,
+81:35 griglia controllo. griglia controllo perché c'è il segnale, quindi è la griglia che mi controlla quanta corrente
+81:42 scorre nel mio trio. E poi c'è una griglia schermo. La griglia schermo eh
+81:47 ha una funzione di schermatura appunto franodo e catodo. Prima quando avevamo parlato degli amplificatori a base
+81:54 comune avevo detto che la griglia aveva questo ruolo importante di
+82:00 schermare il collettore e l'emettitore che quindi non si vedevano più perché in
+82:07 in un amplificatore se si aumenta di molto l'amplificazione si corre il
+82:12 rischio di oscillazioni. Tornando al nostro triodo, eh, sulla placca è presente un
+82:20 segnale amplificato rispetto a quello che c'è sulla griglia, però la placca e
+82:25 la griglia sono vicini, si vedono, è come se ci fosse fra loro un
+82:31 condensatore. Un condensatore che avendo qui una tensione alternata,
+82:36 riporta verso la griglia una parte del segnale amplificato di placca.
+82:44 E questo circuito di ritorno, questa specie di loop, mi verrebbe da dire, eh
+82:50 l'amplificazione del tri alta provoca insorgere di oscillazioni. Allora, cosa hanno pensato
+82:56 di fare? hanno pensato di dire mettiamo la griglia schermo, cioè questo condensatore a questo punto viene in
+83:02 qualche modo bloccato dalla presenza di una griglia schermo. Inoltre hanno pensato questa griglia a schermo di
+83:08 farla comunque ha un certo potenziale positivo. Quindi, mentre l'anodo è
+83:13 tenuto molto positivo, la griglia schermo, che è un
+83:18 po' più vicina al cato, viene tenuta a un potenziale un po' inferiore, ma sempre positivo. Questo è un effetto di
+83:25 aumentare ulteriormente l'amplificazione della valvola. Quindi un tetrodo normalmente
+83:31 ha un funzionamento abbastanza migliore rispetto a un periodo perché è più stabile, ovvero è meno propenso ad
+83:37 oscillare e perché può amplificare un po' di più.
+83:44 Infine, eh anche i tetrudi hanno eh
+83:51 dei delle pecche, in particolare e diciamo nei tetrodi, quando
+83:57 l'amplificazione cominciava a essere molto forte, in pratica succede una cosa, diciamo qui dal
+84:03 dal catodo eh nascono gli elettroni. gli elettroni vengono attirati
+84:09 dall'anodo e vengono prima accelerati dalla griglia schermo e poi e poi
+84:15 catturati dall'anodo. Quando gli elettroni ad alta velocità impattano
+84:21 sull'anodo, possono provocare dall'anodo stesso la fuoriuscita di altri
+84:27 elettroni che dopo un po' di tempo sono riassorbiti, possono essere riassorbiti
+84:32 dall'anodo che comunque è una carica positiva, ma questo è un fenomeno che comunque disturba il flusso di corrente
+84:38 in questa zona dello spazio, perché qui abbiamo una corrente che va verso l'anodo e una corrente che se ne
+84:44 allontana. Questo crea una distorsione in quelle famose griglie, in quelle
+84:49 famose curve caratteristiche che vi ho fatto vedere prima, eh, che è un effetto
+84:54 negativo. Allora, hanno pensato a un certo punto, ci hanno pensato su e a un certo punto è nato il pentodo. E qui ci
+84:60 fermiamo. Il pentodo vuol dire che ha cinque terminali, quindi il catodo e l'anodo, che sono due e tre griglie, la
+85:08 griglia controllo, la griglia schermo, la griglia soppressore. La griglia soppressore è l'ultima, quella più
+85:14 vicina all'anodo e ha proprio questo effetto di sopprimere, lo vedete scritto qua, l'uscita degli elettroni secondari
+85:23 dall'anodo. Questo rende la curva caratteristica del petodo più lineare, quindi diciamo ha una fedeltà maggiore
+85:30 migliore nell'amplificazione. E questo è
+85:36 tutto. Quindi, come vedete, i tubi termoionici hanno questo vantaggio di
+85:42 essere, diciamo, di funzionamento estremamente semplice, no, lineare, anche perché e cioè ora ora noi
+85:49 viviamo degli anni dell'anno del Signore 2025 siamo abituati a un certo tipo di
+85:55 tecnologia, no? Lì si parla di tecnologia nata un secolo fa, ovviamente, che funzionava molto bene,
+86:02 tant'è che tutt'ora nelle radio d'epoca continua a funzionare molto bene, ma il funzionamento di quei dispositivi era molto semplice, no? Basato su un flusso
+86:09 di elettroni controllato in maniera naturale con delle griglie. Mh, è come dire che ho il tubo dell'acqua e agisco
+86:16 sul rubinetto del mio tubo dell'acqua, no? però funzionano, funzionavano egregiamente, funzionano tutt'ora
+86:23 egregiamente. E con questo diciamo questa sera eh abbiamo finito, non non
+86:28 ci sono altri altri argomenti. Quindi stasera abbiamo visto le due grandi famiglie, no, di dispositivi di
+86:34 amplificazione a Stato Solido, Transistor, Fet e Mosfet e a valvola.
+86:43 Pensateci un attimo su se ci sono domande abbiamo tutto il tempo e rispondo
+86:53 volentieri. Qualcuno di voi ha qualche ha qualche valvola sottomano da mostrare che io non ne ho qui con me.
+87:01 Aspetta Paolo. Eh, io ce l'ho. Se vuoi la prendo. Vedo Roberto che è partito
+87:06 velocemente alla grande.
+87:13 Claudio, intanto una domanda a te. Oppio una domanda. Ma io avrò da
+87:19 farvi vedere una cosa stranissima di una valvola che l'ho l'ho tenuta perché è una cosa
+87:28 particolare e è penso sia un ECC83 che durante l'alluvione aveva preso un
+87:34 colpo, secrettata. Dentro è entrata l'acqua dell'alluvione e io quindi ho conservato l'acqua dell'alluvione di
+87:40 Pilzo. Bello, bello. Questo vedo anche Pabrizio attrezzato.
+87:48 Eh, questa è stata trovata in un tramite un metal detector nella, diciamo, una di
+87:56 queste postazioni militari su qui nelle nostre colline.
+88:02 Non mi domandate cos'è perché si dura fatica. Zumma, zoomma, perché forse ce n'è una simile. Fa vedere. Asp. Guarda
+88:09 che bottiglia c'ha questo. No, incredibile. Zoc zocolta. No, zoccolo. Eh, questa è un è una cosa un po'
+88:17 particolare. Sicuramente tutto metallico. Anche quel pezzolo sotto. Sì, sì, sì. Aspetta, ve la faccio
+88:25 vedere là sotto, forse si riesce a vedere. E c'ha i contatti molto fini, se non mi sbaglio. Esatto. Bravissimo.
+88:31 Vediamo se c'ho qualcosa del genere, guarda. Prova. Sì, è stranissima. Sì,
+88:37 questa è stata trovata da un mia da un amico che ha appassionato di ricerca, un metal detector e giustamente dice
+88:44 "Questa nuova albola questa la regalo a te". Ma non mi dite cos'è perché non ne ho la più pallida idea. Allora, anche
+88:52 Vincenzo vedo che non è messo male. Eh sì, beh, effettivamente beh, e ne ho anche un'altra, eh, ma è
+89:00 quella dell'amplificatore che sto usando adesso, anzi che mia moglie usa, non io.
+89:08 Eh, però è su, dai. Esatto. è un po' è un po' un po' più grossa.
+89:15 Questa era un un amplificatore vecchio, una
+89:20 572B eh, della Jesu. Vabbè. M sì, sì, sì, sì. Era è è montata tutt'ora negli
+89:28 FL 2100, con gli amplificatori. Bravo. Era montata in quello lì e mi è mi è
+89:36 rimasta. Eh, sì, sì, sì. Sempre un piacere. Allora, e Nicola, che cos'hai?
+89:42 Ah, bella, bella. Che, roba del genere.
+89:47 Allora, sì, e questa questa è tutti bravi con le valvole RF. Questa è il
+89:53 finale di riga delle prime televisioni a colori. La PL, questa è la versione
+89:59 russa, però è la PL 2509. 509. Ok. E
+90:06 e la el via col filamento 3 che anche
+90:11 con quelle ci si facevano dei begli amplificatorini. Dissipano di suo dovrebbero arrivare a 35 W di placca,
+90:18 però and su con la con la tensione fino quasi a un migliaio di vol si riesce una
+90:24 60 cinquina 70 W massimo massimo su 30 MHz, non di più.
+90:32 E come difatti si usavano negli amplificatori della Zag, mi pare, se non erro. Sì, sì,
+90:40 sì, sì, sì. È abbastanza era abbastanza voga perché era piuttosto ceera uno, due
+90:46 o quattro. Era era piuttosto facile da trova come valvola. Sì. E allora queste
+90:51 valvole che state vedendo, quella per esempio di Nicola è sono dei tetrodi. Questo è un pentodo. È un pod
+90:58 scemo un pentodo, però poi nell'amplificatori veniva usata griglia a massa, quindi in realtà veniva usata
+91:06 come tetodo. Yes. E invece questo mi sapete dire cos'è?
+91:12 Accendi. Ah, beh, ce n'ho una anch'io. Ce n'ho una anch'io. Presa a Dal Tuccori
+91:18 a Viareggio ai vecchi tempi. Arriva dalla solita fonte. Sì, è russa. Sì, sì,
+91:25 sì, è russa. È uno dei miei soprammobili, vero? Penso sia un
+91:32 triodone di potenza, ma chissà. Ma chissà che poi c'è questa che non ho capito che roba. Un po' un po' più
+91:38 lontano, per favore. Ah, questa questa è più vecchia.
+91:44 Ok. Ah, un raddrizzatore, radderezzatrice.
+91:50 Allora, qui dice "È marcata russa anche lei o una marcatura europea?" Eh, no,
+91:56 che non riesco a vedere nulla.
+92:01 No, non riesco a vedere nulla. Eh, a quattro a quattro c'è quattro
+92:07 piedini soli, forse è unaatrice. Eh, probabile di più. Può
+92:13 essere probabile potrebbe essere anche un diodo. Eh,
+92:21 no, Paolo. Sì, comunque se ci sono delle griglie si vede ora, cioè con la con la
+92:26 webcam no, chiaramente, no, ma se ci sono delle griglie dentro si si vede normalmente si vede. Belle. Ah, ragazzi,
+92:33 non non credevo che foste così attrezzati, ma poi c'era anche Alessandro che era andato a prendere Ah,
+92:39 ecco, allora quella quella che ha sollevato Vincenzo è una cosa seria. G74, detta anche 4CX 800, lì siamo
+92:47 proprio nel Yes, corretto?
+92:53 Sì, sì, è quella c'è dentro la com 1000 e la 2000. Molto bene. Buas. Ecco,
+92:59 buonasera. Buonasera. Parlavamo di Valvo, era arrivate Sauro. Eh, sì, buonasera Sauro. Era unesca troppo
+93:05 chiotta. Eh, beh, sì, effettivamente quelle sono delle belle valvoline metallo ceramica. Sono
+93:12 splendide, splendide. Ma c'era anche Alessandro che era andato
+93:17 a cercare qualche cosa.
+93:30 Ma c Ma ci sarebbe Sauro che ce n'ha una particolare, eh, che non la vuolla andare a prendere, vero Sauro. Comunque
+93:37 hai visto Sauro come se aspettate 2 minuti vado a prenderla. Vai, va a prenderla, vai. Questa ne vale la pena.
+93:42 Mh. Vai qui. Vi faccio vedere quella con cui ho fatto l'amplificatore. Va bene,
+93:48 vai, vai, vai, vai. Vado, vado e torno. Lo stam questa questa comincia a
+93:53 essere una gara a chi ce l'ha più grossa, eh. A chi ce l'ha più grossa. Bravo.
+93:59 Comunque, Vincenzo, ora è di gran lunga, cioè se si parla di potenza di uscita e
+94:04 eh come pezzo avanti. Eh sì, eh sì, eh sì, eh sì.
+94:10 Beh, eh, per praticamente mia moglie dice
+94:15 che 1000 W li ha visti.
+94:26 M un po' tiratina, eh, diciamo così.
+94:31 Sì, sì. No, vabbè, ma difatti ci è andata solo per prova.
+94:37 Sì, sì, sì, sì.
+94:42 E diciamo che e poi e poi ragazzi e mia moglie sempre dice a me
+94:50 interessa ascoltare poi i VAT che escono,
+94:56 vabbè, anche un po' meno. L'importante è che c'hai una una buona antenna. Ma
+95:01 infatti, ma infatti, infatti. Totalmente d'accordo. Totalmente
+95:08 d'accordo. Allora, aspettiamo un attimo. Sauro, l'abbiamo scomodato. Io penso che
+95:13 più becco e so si fanno con le potenze limitate, non perché
+95:19 limitate è più facile farli, insomma. Trovare il minimo indispensabile di
+95:24 potenza per fare i collegamento. Si può si può fare. Sì, sì, sì, sì,
+95:31 sì. Ma è anche vero, vero Paolo? Come si dice in QRP? La vita è troppo corta per aspettare un QSO in QRP, vero? Questo
+95:38 vale questo vale però per l'amor di Dio, nessuno vuole Se
+95:43 c'è una D Expedition in QRP vedrai fa poco. No, in QRP è la vita troppo corta
+95:50 per aspettarlo secondo me. Però Però se una DX giura dura un mese, sì. Se una DX
+95:57 dura paio di giorni la vedo dura. Ma è dura. È dura, infatti è dura. Dai, ti dico di abbassare, non ti dico di usare
+96:04 sempre potenze basse 5 W, 3 W, c'è gente che lo fa. Io non aspetterei, però
+96:11 nemmeno arrivare a 1 kW, cioè. E vabbè, ma non no. No, coi 100 W della radio chat si fa Marco, hai fatto 1 kW sei il
+96:19 QP, eh? Eccola qua. Facci vedere. Vai Sauro.
+96:25 Questa è la è la valvolina russa che ho utilizzato ultimamente. Ne ho fatti diversi da amplificatori, però
+96:33 questa è una valvolina, è la famosa G7. Io ho fatto un amplificatore con due di
+96:40 queste, la vedete quellamodo tutto allettato. Guarda là che capolavoro. Mh.
+96:46 E con questa qui, insomma, ho fatto un amplificatore dai 50 me fino ai 160 m, 9
+96:56 gam butta fuori 800 850 W, però sono
+97:02 comode queste perché si svita tutto l'anodo, poi son semplici semplici, non c'è grandi, sono dei
+97:09 triodi, quindi poi c'hanno la lettina questa che si mette direttamente a massa, quella sotto. M quindi non c'è
+97:16 bisogno di tanti artifizi al contorno. Se poi Paolo fa vedere una GS35 ancora allora. Eh,
+97:24 guarda, ma sono a Firenze, non c'ho il deposito qua. Eh, vabbè, questa qui,
+97:30 insomma, è una valvolettina con con una trentina di euro si acquista, quindi non c'è da avere grandi patemi se si
+97:37 rovinasse, perché oggigiorno c'è qualche tipo di valvola che te la fanno pagare un occhio della testa. Eh, eh, sì, sì,
+97:45 sì. Niente, la rimetto nel suo contenitore. Nel suo contenitore perfetto, eh? Fatto
+97:50 ad occ. Comunque quelle vaine uno là apre, pulisce il carburatore, ci soffri un po' di e ricomincia. E ricomincia.
+97:58 Eh, leva lo sporco dal carburatore, riavviato. Esatto. Esatto. E Salvatore a
+98:04 te. Ma dove Sì, io vorrei fare una domanda dal neofita perché sento parlare
+98:09 di kW, 800 W, 900 W, ma non c'è un limite nella potenza.
+98:16 Sì, il limite legale è 500, salvo alcune bande specifiche dove c'è un po' di riduzione, però con una buona antenna e
+98:24 centinaio di watte uno va praticamente dappertutto. Ecco, e questo è misurato all'antenna,
+98:31 giusto? Quindi se ho una dispersione conta quanta è la potenza effettiva che
+98:37 viene, non so, come si dice, radiata dalla dall'antenna, giusto? Cioè, dalla
+98:42 mia radio io in teoria posso anche tirar fuori 1000 W, poi c'ho un ipotetico
+98:47 eh di spersione perché mettiamo è un cavo lunghissimo e quando arrivo all'antenna comunque non posso
+98:55 trasmettere più di 500 W per legge. È giusto? Eh? Allora, attualmente la legge
+99:03 è sulla potenza di uscita, non sulla potenza effettivamente irradiata dall'antenna. Ah, ecco. Ok. c'è un
+99:09 limite di legge che su cui in questo momento forse ci stanno anche riflettendo un po' su e vediamo cosa
+99:15 succederà. In ogni caso, eh tieni tieni tenete presente che che queste cose qua
+99:22 m cioè chiaramente le leggi devono essere fatte lavorando su numeri misurabili e quindi l'uscita di una
+99:29 radio di un amplificatore è misurabile molto facilmente, no? senza variabili che potrebbero essere lunghezza del cavo
+99:35 e roba del genere, cioè deve essere qualcosa che si può misurare lì nella stazione,
+99:40 quindi possono misurartelo sul all'uscita del della radio qui o dell'amplificatore. Esattamente.
+99:47 Esattamente. Ok. E lo fanno eh ai vecchi tempi. Sì. Eh, ora diciamo
+99:55 il Ministero continua a intervenire sicuramente, però mentre vecchi tempi il
+100:00 Ministero mh lavorava anche proattivamente, no? Cioè a volte decideva lui di fare le sue cose, adesso
+100:08 lavora, ma molto spesso lavora a chiamata, quindi viene chiamato in caso di disturbi, in caso di situazioni
+100:13 critiche, eccetera. In quei casi interviene e parlo della Toscana che conosciamo bene, interviene con molta professionalità e di solito risolve.
+100:21 Ok. Ah. Quindi, insomma, c'è da stare attenti a quello che si spara nell'etere, insomma. Sì, sì, un pochino
+100:27 sì, un pochino sì a quello che si spara, ma in generale anche al comportamento, no? Capito? Perché, diciamo, se se poi
+100:33 uno viene segnalato e risegnalato e diciamo il ministero poi si muove.
+100:39 Ok, ho capito. Grazie. Tempo andavano in giro loro autonomamente, capito? un
+100:44 tempo, ma parlo appunto degli anni 70-80 e i vecchi tempi delle scoposte. Ora
+100:50 però mi ricordo che andavano in giro con la Jeep con il radio, ti diciamo tipo
+100:56 quel radio goniometro e andavano a trovare la gente anche. Sì, esattamente, esattamente. Ma forse perché c'era anche
+101:03 molta più gente che utilizzava forse una volta, ora so che ce ne sono meno di
+101:08 persone, non lo so, credo poi magari non Ma guarda, saranno dicerie. Guarda, il
+101:14 grosso della il grosso della differenza, parlando sempre del Ministero, l'ha fatto il personale che ora sono molto
+101:20 molto meno. Sapete che no, la pubblica amministrazione tagli tagli tagli e certe amministrazioni sono ridotte
+101:27 abbastanza all'osso, quindi non hanno più il personale per fare una cosa di quel genere, però però rispondono a
+101:34 chiamata, cioè se vengono se vengono interpellati normalmente rispondono in
+101:39 maniera anche molto efficace. approfitto questo, siccome quindi siccome eh solitamente poi quando si fa
+101:46 una stazione, se si arriva a ver la patente uno si mette l'antenna sul tetto di casa o o del palazzo, ecco, in quel
+101:54 caso bisogna, cioè sul tetto di solito c'è l'antenna, mettiamo condominiale
+101:60 della televisione e bisogna fare attenzione a non disturbarla. si disturbano queste le antenne se si
+102:07 emette una potenza eccessiva o c'è qualcuno che ti dà una mano nell'evitare per evitare che dai noia a a condomini
+102:15 per esempio o non esiste il problema? Allora, il problema esiste e in questo
+102:21 momento è anche un po' acuito dalla scarsa qualità della roba che c'è in giro, cioè diciamo così, in una
+102:28 situazione condominiane normale con un impianto TV fatto bene e un impianto
+102:34 radiamatoriale fatto bene, la probabilità dei disturbi non è poi così alta.
+102:39 E il problema è che se metti poi i centralini che magari non hanno nessun filtraggio in ingresso, radio usate un
+102:46 po' troppo a manette e così via, però in generale i problemi di PVI sono tutti risolubili,
+102:53 tutti con un po' di buona volontà da tutte le parti non esiste situazione che non possa essere risolta.
+102:60 E allora approfitto perché a Prato ho provato a cercare qualcuno, ma non ho trovato nessuno di tecnici. Ma voi
+103:06 eventualmente sareste in grado di consigliare qualcuno un domani per fare un impianto decente? Perché antennisti
+103:14 per la TV se ne trovano tanti, ma per questo genere di applicazioni io non ho
+103:19 trovato nessuno. Sì, sì, la risposta è sì. La risposta è sì. Comunque allora
+103:25 voi adesso siete qui. Allora, siamo tutti iscritti allari, no? o o comece ordinario o come Radio Club. Se se non
+103:32 vi è già arrivata, vi arriverà Radiorvista. Allora, da 2 anni circa sul
+103:38 Radio Rivista c'è una rubrica apprezzatissima, c'è il nostro avvocato di riferimento dell'associazione Michele
+103:45 che è bravissimo, che è bravissimo. Sì, che rispondendo a una domanda specifica ogni mese suvista sviscere un argomento,
+103:52 la legge dice, praticamente la spiega, no? la spiega in maniera comprensibile perché la legge, almeno se la leggo io,
+103:57 non ci capisco mai niente. E per esempio ha trattato recentemente il discorso dell'installazione delle antenne, ha
+104:05 trattato sempre recentemente il discorso dell'assicurazione sulle antenne perché sapete che l'ARI dà una polizza
+104:11 assicurativa, no, di copertura delle antenne che uno ha installato in casa e No, non lo sapevo.
+104:19 E leggendo leggendo questa questa rubrica uno si chiarisce tanto le idee su diversi argomenti. In effetti
+104:26 sono riuscite a scaricare anche la polizza, perché se tu vai sul sito puoi scaricare anche la polizza con tutte le
+104:32 garanzie. Corretto? M corretto. Bene, questo è interessante. Io per adesso ho
+104:39 installato dei ripetitori Lora Mestastic che non serve ovviamente licenza e sto avendo molti
+104:47 problemi con le con i ripetitori eh telefonici perché c'ho un
+104:55 un'installazione che funziona molto bene, ce n'è un'altra in ufficio eh a 2 km che invece non prende nulla, mentre
+105:02 dall'altra arrivo fino in Piemonte, quindi e è Launica
+105:08 differenza è che sono circondato da ripetitori radio, da ripetitori telefonici, insomma, e sono su una
+105:14 frequenza molto vicina. Chiaro. Sì, chiaro.
+105:19 Bene, grazie. Allora, comunque diciamo essendo iscritti all'aria, appunto, c'è
+105:24 quella polizza assicurativa per per gli aderenti all'ARI che non è una cosa da
+105:31 non trascurare perché ci possono essere tanti aspetti. Comunque il suggerimento
+105:38 è sempre di fare le con i vicini e così magari con un po' di collaborazione,
+105:44 come diceva Paolo, i problemi di interferenze televisive che in
+105:50 tantissimi casi dipendono dall'impianto TV più che altro sono sempre risolvibili
+105:56 con un po' di di con la riborazione degli utenti TV, cioè dei condomini,
+106:02 perché i nostri trasmettitori alla Fine. Quando uno ci ha messo al massimo un
+106:07 filtro passa bassa sull'uscita e diciamo grandi segnali
+106:13 nelle bande televisive non ci vanno più a finire e di solito è il centralino TV
+106:18 che raccoglie qualunque segnale che passa per aria, viene amplificato, distorto e ed entrano
+106:26 dentro anche i segnali che non dovrebbero e sinceramente per dirla tutta molti
+106:33 installatori di TV eh che se ne dica non hanno molta sensibilità e molta,
+106:41 diciamo, competenza spesso nel fare questi impianti, perché tra l'altro
+106:47 dovrebbero essere soggetti anche alla normativa alla alla legge alla vecchia legge 4690, dovrebbero essere
+106:54 certificati per non avere eh cioè per non ricevere disturbi. Quindi, però è
+107:02 sempre risolvibile, il problema dei televisori è sempre risolvibile con un po' di buona volontà da ambo le parti,
+107:09 quindi non è un problema. Comunque a questo punto serve un buon tecnico,
+107:14 insomma i condomini fortunatamente sono persone disponibili, quindi tuttavia tuttal più si potrà anche sistemare
+107:21 l'impianto telefonico e scusa l'impianto televisivo oltre a fare una buona antenna. Sì, certamente. Bene, bene.
+107:30 Grazie a tutti. Il digitale dà dovrebbe dare un po' meno problemi sulla
+107:37 ricezione di un po' meno. Sì. Un po' meno. Sì. Un po' meno. Sì. Aspetta, c'è Claudio che l'ha mano alzata intanto.
+107:44 Sì, infatti volevo dire esattamente quello ha detto Marco che sui digitale terrestre in teoria dovrebbe dovrebbe
+107:52 influire. Dimmi se sbaglio, io devo installarla un'antenna, dovrò metterla oltre
+107:59 l'antenna condominiale dei della TV, se non erro, se non sbaglio, in maniera che
+108:06 eh cioè l'emissione non venga eh che non la prenda in pieno, ma vada sopra,
+108:13 insomma. Ecco, corretto. E allora la la le
+108:18 le televisioni possono essere anche un po' più un po' meno sensibili eccetera.
+108:24 Il problema di base è un altro, nel senso che ora fra due puntate, fra due mercoledì si
+108:30 comincia a parlare dei ricevitori. Allora, il problema è che nei centrali TV c'è comunque un una
+108:37 preamplificazione, quindi c'è un dispositivo di qualche genere che preamplifica il segnale. Che questo sia
+108:44 un segnale analogico o un segnale digitale terrestre, un segnale FM, non cambia non cambia niente. Il fatto è che
+108:51 eh se a questi dispositivi che amplificano gli si butta un segnale molto forte e vicino, questi vanno del
+108:58 pallone sia che sia col digitale terestri che che con qualunque altro tipo di
+109:04 modulazione. un tempo, se se avete mai notato, se vi ricordate, ecco, diciamo,
+109:10 mettiamo anni 8090, un centralino TV era fatto di
+109:16 solito da uno scatolone largo 40 cm, 50 cm, c'erano delle eh degli amplificatori
+109:25 di canale e quindi molto spesso c'erano qu c scatolotti di metallo uno accanto
+109:32 all'altro che erano selettivi. Oltretutto ora mi è capitato di vedere
+109:38 un centarellino TV per cinque antenne che in pratica è un circuito stampato
+109:44 8x10 poco più. Cioè è chiaro che questi sono dei troiai mondi tanto per tanto
+109:50 per chiamarli esattamente come vanno chiamati, che appena sentono un soffio di radiofrequenza vanno nel
+109:57 pallone, però e cioè ci si può lavorare, no? Son problemi di elettronica abbastanza sono problemi abbastanza
+110:03 semplici. Le cose più rognose sono quelle che dicevate prima, quando uno comincia a sentire un rumore da uno
+110:09 switching o trovalo, capito? Eccetera eccetera eccetera. Quelle sono le vere rogne
+110:16 perché purtroppo hanno una pervasività ovunque, no?
+110:23 E e quelli sono è molto più difficile prima di tutto localizzarli. Poi una volta localizzati si sistemano anche
+110:29 loro, ma trovarli è difficile. Federico, a te. Ciao.
+110:35 Hola, buonasera. Mi scuso innanzitutto per l'accesso in ritardo, ma torno da Massa Carrara dopo una giornata tremenda
+110:41 di lavoro. E parlando al del discorso, appunto, dei disturbi, è una cosa molto
+110:48 curiosa. Allora, io qui in Taverna, dove ho la stazione c'è una mega TV. Non sono
+110:54 amante della TV, ma si comprò per un'occasione eccetera e quando io trasmetto in 40 m e come schiaccio il
+111:02 tasto mi si ferma l'immagine della TV, ma nelle altre TV di casa non funziona.
+111:08 Ma mi metto nei panni della vecchietta che ti dice "Ma voi mi disturbate quando
+111:14 trasmettete? Magari non abbiamo neanche collegato l'antenna al trasmettitore, ma comunque questo ormai si sa. Eh, ecco,
+111:20 mh non di non dipende essenzialmente o o spesso da quello che è il nostro modo di
+111:27 emissione, perché io non ho amplificatori qui in casa, trasmetto con soli 100 W e in una linea di
+111:34 trasmissione anche abbastanza interessata da una quantità di cavo non indifferente, purtroppo perché non posso
+111:41 bucare il cemento armato per arrivare al giardino di casa, per cui c'è qualche decina di metri di cavo. Ma questo per
+111:46 dire, insomma, che non c'è un'emissione, diciamo così, sovrabbondante, come
+111:52 diceva Paolo in certe casistiche, ma in questo caso dipende proprio dal decoder
+111:58 che voi a Firenze dite parlaccio, cioè è fatto in qualche modo. Se io cambio il
+112:03 decoder della TV e ne metto uno, diciamo, che non costa €29,90, ma ne costa un pochino di più, ho provato,
+112:11 nella TV non avviene alcun disturbo. Quindi questo per dire che sì,
+112:16 sicuramente sono cose che non capiteranno, però non sempre io ripeto,
+112:22 ho portato nella mia povertà l'esempio mio di casa e non sempre magari dipende
+112:28 dalla nostra stazione, dai nostri modi di emissione, ma può dipendere anche da una tecnologia abbastanza povera,
+112:35 diciamo così, di quelli che sono le le le le apparecchiature collaterali. Ora è
+112:40 vero che tutte le TV hanno il decoder incorporato, però questa TV al plasma che ha una decina d'anni non l'aveva
+112:46 incorporato, l'ho comprato e l'unica TV che ha dei disturbi è questa qui.
+112:52 Allora, sono contento perché così mia moglie non viene giù in taverna quando io trasmetto in stazione. Questa è la
+112:58 cosa più bella. Ottimo. E e guardate, parlo sempre in 40 m quando viene in
+113:04 taverna, perché nelle altre non succede. Sono 40 m. Però questo al di là delle battute per dire che va ricercato anche
+113:12 nella e anche a un nostro amico radioamatore che voi conoscete che è U5
+113:18 IU5 RDL Angelo di Prato, anche lui aveva questa casistica di di disturbi e io mi
+113:25 ricordo a camminare mi disse "Guarda Federico, se così questo disturbo, guarda, so preoccupato, dice nel
+113:31 condominio non so cosa fare". Angelo, ti dico quello che è capitato a me. È andato dalla vecchietta e gli ha detto
+113:37 proviamo a cambiare il decoder glielo potete chiedere che lo conoscete. Ha cambiato il decoder, questi disturbi non
+113:43 ci sono più. Ecco, insomma, per dire che ricerchiamoli, ecco, per così dire, da entrambe le parti. Scusate della
+113:49 lunghezza del QSO, così imparate la terminologia.
+113:54 Vi posso salutare perché bisogna mi assenti. Una buonanotte mancherebbe.
+113:59 Siamo in ca. Ciao Claudio. Ciao. Ciao a tutti. Buonanotte, è stato un piacere. Ciao ciao ciao Federica. Ciao.
+114:06 Buonanotte. Ciao. Ciao. Buonanotteero. Vi saluto anch'io. Buonanotte e alle
+114:12 prossime. Ciao Marco. Ciao. Ciao. Ciao Pao. Ciao. Ciao Fabri. Ciao a tutti. Vi lascio anch'io. Buonanotte a tutti. Ciao
+114:19 ciao ciao ciao ciao ciao ciao. Anch'io vi saluto. Grazie mille. Buonanotte. Arrivederci. Ciao. A mercoledì. Ci avete
+114:24 aperto come una domanda. Sì. No, un doer la Rocchettara.
+114:31 Buonanotte. esperienza sul digitale terrestre e dopo aver filtrato
+114:37 con con gli amplificatori dovuti col 4G e 5G non riuscivo a vedere niente in
+114:45 camper. Ho buttato via un cavo di quelli prestampati che hanno tre peli dentro di
+114:51 rame, messo un cavo schermato fatto ad arte e perfetto.
+114:58 È tornato perfetto. Eh, magari anche il cavo di collegamento dalla presa al televisore, se è di qualità scadente
+115:06 chiappa qualsiasi cosa. Sì, un'ultima cosa, poi vi scusate, poi
+115:11 vi lascio. Io quando nell'oramai lontano
+115:17 1984 misi la verticale sopra l'antenna TV qui a casa mia e con un po' di
+115:24 accorgimenti al contorno, tipo un po' di filtri che tra l'altro ho ancora qui e
+115:30 un po' di ferriti, insomma, io con la radio, con l'antenna sopra l'antenna
+115:36 della televisione non disturbavo da nessuna parte. avevo tolto tutti i disturbi che c'erano in giro. Quindi un
+115:43 po' di accorgimenti al contorno son sempre possibili. L'importante è la
+115:49 collaborazione con con chi ha il problema, perché se uno si impunta magari e la prende di petto, allora è
+115:56 più è controproduttivo, altrimenti uno trova sempre la soluzione ai problemi. Poi con
+116:03 le cineserie che c'è in giro, come diceva ora anche Federico, i i vari alimentatori
+116:11 switching cinesi e quanto altro, anche quelli contribuiscono non poco ai
+116:17 problemi. Quindi, buonanotte. Ciao Sauro, buonanotte, grazie per
+116:22 l'intervento. Ciao. Buonanotte a tutti. Ciao ragazzi, a mercoledì.
+116:29 A mercoledì. Buonanotte. Buonanotte, signori. Buonanotte.
+116:35 Ciao. Ciao. Ciao. Buonanotte. Grazie. Buonanotte a te. Co?

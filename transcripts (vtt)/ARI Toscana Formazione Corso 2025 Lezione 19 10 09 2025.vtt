@@ -1,0 +1,4489 @@
+WEBVTT
+
+1
+00:00:04.720 --> 00:00:10.480
+Può iniziare. Vai Paolo, buon lavoro. Grazie. Allora, comincio mettendo in
+
+2
+00:00:10.480 --> 00:00:16.400
+condivisione. Ditemi se lo vedete il risultato dei test.
+
+3
+00:00:16.400 --> 00:00:22.119
+Sì, perfetto. Ok, questo, diciamo, è il il grafico che
+
+4
+00:00:22.119 --> 00:00:30.000
+riassume l'andamento delle delle risposte e diciamo sostanzialmente
+
+5
+00:00:30.000 --> 00:00:38.040
+la maggior parte delle delle risposte sono giuste in quanto la stragrande maggioranza sta sopra l'80%
+
+6
+00:00:38.040 --> 00:00:47.039
+delle risposte esatte. Le due domande dove le cose sono andate un pochino meno bene sono la domanda e e la domanda N
+
+7
+00:00:47.039 --> 00:00:52.520
+con circa il 50%, quindi una su due di m
+
+8
+00:00:52.520 --> 00:00:58.480
+risposte errate e come accennavo prima sulla N, come dire avrei qua ci avrei
+
+9
+00:00:58.480 --> 00:01:06.600
+quasi scommesso. Comunque vediamole un attimo eh separatamente. La domanda è
+
+10
+00:01:06.600 --> 00:01:14.000
+diceva se la massima frequenza utilizzabile MOF per un dato collegamento è 24 MHz,
+
+11
+00:01:14.000 --> 00:01:19.759
+quale banda offre la migliore possibilità di collegamento?
+
+12
+00:01:19.759 --> 00:01:26.840
+Qui se n'era parlato abbastanza, quindi mi sorprende un attimino il dato
+
+13
+00:01:26.840 --> 00:01:32.640
+negativo. Probabilmente qui c'è un un piccolo
+
+14
+00:01:32.640 --> 00:01:39.000
+trabocchetto proprio nel nel come è formulata la domanda e magari su questo è bene
+
+15
+00:01:39.000 --> 00:01:47.079
+sottolinearlo perché si parla di MOF espressa in mahz, quindi di frequenze
+
+16
+00:01:47.079 --> 00:01:52.719
+e poi la domanda fa riferimento non alle frequenze ma alla lunghezza d'onda.
+
+17
+00:01:52.719 --> 00:02:00.680
+Quindi attenzione a questa cosa. Per cui la risposta ovviamente corretta sarebbe
+
+18
+00:02:00.680 --> 00:02:07.840
+stata, se vi ricordate nelle slide io avevo detto che la frequenza ottimale rispetto alla MUF è circa l'80
+
+19
+00:02:07.840 --> 00:02:13.200
+al 90% eh della MUF. Quindi se la muffa è 24
+
+20
+00:02:13.200 --> 00:02:20.000
+MHz, 80-90% siamo intorno ai 20 MHz. E infatti la
+
+21
+00:02:20.000 --> 00:02:27.680
+risposta esatta sarebbe stata la numero 1, i 15 m, perché 21 MHz è la banda dei
+
+22
+00:02:27.680 --> 00:02:34.840
+15 m. Quindi non vorrei che qualcuno abbia commesso l'errore di eh, come si
+
+23
+00:02:34.840 --> 00:02:41.480
+diceva alle elementari, di mescolare le mele con le pere e quindi aver fatto 24
+
+24
+00:02:41.480 --> 00:02:47.400
+80% 20 MHz e e aver eh flegato la
+
+25
+00:02:47.400 --> 00:02:53.480
+risposta invece dei 20 m, che sono un'altra cosa. Quindi attenzione,
+
+26
+00:02:53.480 --> 00:03:00.800
+frequenza lunghezza d'onda. L'altra domanda, la N invece
+
+27
+00:03:00.800 --> 00:03:07.840
+penso sia più normale che ci sia stata qualche incertezza, la vediamo. Come varia l'attenuazione di
+
+28
+00:03:07.840 --> 00:03:15.280
+un segnale nella troposfera al variare della frequenza? E qui la domanda, diciamo, se vogliamo,
+
+29
+00:03:15.280 --> 00:03:21.239
+è un po' a trabocchetto nel modo in cui è formulata, perché la risposta è
+
+30
+00:03:21.239 --> 00:03:26.599
+indipendente dal fatto che sia nella troposfera o in qualsiasi
+
+31
+00:03:26.599 --> 00:03:34.000
+altro. eh settore della eh del dell'atmosfera terrestre, quindi che
+
+32
+00:03:34.000 --> 00:03:41.480
+fosse propagazione ionosferica, che fosse eh eh troposferica o che fosse eh
+
+33
+00:03:41.480 --> 00:03:47.959
+importata ottica, l'attenuazione cresce sempre all'aumentare della frequenza, a
+
+34
+00:03:47.959 --> 00:03:54.560
+prescindere dalla dalla modalità con cui si propaga. Poi l'entità
+
+35
+00:03:54.560 --> 00:04:01.000
+dell'attenuazione può essere maggiore o minore per altri fattori, ma comunque se vi ricordate,
+
+36
+00:04:01.000 --> 00:04:07.120
+l'avevo accennato, ripeto, e forse su questo argomento non ho insistito più di
+
+37
+00:04:07.120 --> 00:04:13.040
+tanto. L'attenuazione nel propagarsi di un campo elettromagnetico
+
+38
+00:04:13.040 --> 00:04:18.759
+dipende sostanzialmente dalla distanza e dalla frequenza, nel
+
+39
+00:04:18.759 --> 00:04:24.199
+senso che aumenta con la distanza, ma a parità di distanza aumenta con la
+
+40
+00:04:24.199 --> 00:04:29.680
+frequenza. Quindi la risposta giusta sarebbe stata la due. L'attenuazione
+
+41
+00:04:29.680 --> 00:04:35.199
+cresce all'aumentare della frequenza e questo sempre sia nella troposfera che
+
+42
+00:04:35.199 --> 00:04:40.720
+nella ionosfera che in portata ottica. Ecco, sulle altre solvolerei perché
+
+43
+00:04:40.720 --> 00:04:48.680
+comunque i risultati sono eh più che validi. Poi so se ritenete
+
+44
+00:04:48.680 --> 00:04:56.840
+opportuno eh si può, cioè se ci sono delle domande specifiche, altrimenti passerei alla
+
+45
+00:04:56.840 --> 00:05:03.560
+lezione di stasera. Scusa Paolo, Paolo,
+
+46
+00:05:03.560 --> 00:05:09.120
+la N te ti sta riferimento alla N o alla P? di domanda.
+
+47
+00:05:09.120 --> 00:05:14.280
+Io allora sul perché io come N c'ho la ionosfera a
+
+48
+00:05:14.280 --> 00:05:19.520
+mezzanotte, no? E allora risposto alla P allatazione.
+
+49
+00:05:19.520 --> 00:05:25.319
+Eh, allora io dunque io sto ho in mano l'elenco delle domande che mi aveva
+
+50
+00:05:25.319 --> 00:05:30.360
+mandato eh Alessio e per me la n
+
+51
+00:05:30.360 --> 00:05:37.520
+Eh, scusa, prova a a a metterla a video, per cortesia, che le condividi, dovresti
+
+52
+00:05:37.520 --> 00:05:43.479
+avere anche quelle segnate risposte esatte. Sì, sì, vediamo un attimo.
+
+53
+00:05:43.479 --> 00:05:49.319
+Eh, metti un po' mettilo un po' a video, così magari forse ci cariamo meglio.
+
+54
+00:05:49.319 --> 00:05:54.840
+Allora, allora, vediamo.
+
+55
+00:06:08.880 --> 00:06:13.360
+Allora, però devo cambiare la condivisione.
+
+56
+00:06:30.360 --> 00:06:38.120
+Allora, io ho queste, infatti stavo guardando, mi viene il dubbio che non siano congruenti con il questionario in
+
+57
+00:06:38.120 --> 00:06:43.160
+rete, perché queste si fermano là in effetti,
+
+58
+00:06:45.400 --> 00:06:51.800
+eh, non vorrei forseamente non vorrei aver fatto confusione io.
+
+59
+00:06:51.800 --> 00:06:58.599
+Boh, m tutto ci sta. Aspetta, facciamo facciamo una cosa. Io e Fabrizio probabilmente avamo abbiamo due
+
+60
+00:06:58.599 --> 00:07:05.160
+versioni diverse. Ehm facciamo una verifica e vi facciamo
+
+61
+00:07:05.160 --> 00:07:10.720
+sapere. Eh, allora magari magari lo riprendiamo la la prossima volta. Quelle lì non corrispondono alle
+
+62
+00:07:10.720 --> 00:07:16.319
+domande, quindi non corrisponde a quello al questionario che avevate online. Sì.
+
+63
+00:07:16.319 --> 00:07:22.879
+Ok. Allora, ehm, come dire, azzeriamo tutto quello che ho detto fino adesso,
+
+64
+00:07:22.879 --> 00:07:29.120
+facciamo un controllo e vi facciamo sapere vi abbiate un attimo di pazienza. Prego. Paolo, prosegui. Vai che poi al
+
+65
+00:07:29.120 --> 00:07:34.280
+limite riprendiamo alla fine della lezione. Magari le domande sono le stesse, ma sono in un ordine diverso.
+
+66
+00:07:34.280 --> 00:07:41.479
+Diverso, eh. Ok, allora chiudiamo questo
+
+67
+00:07:43.400 --> 00:07:46.400
+Sì.
+
+68
+00:08:16.520 --> 00:08:21.039
+Ecco, vedete tutti?
+
+69
+00:08:29.159 --> 00:08:35.360
+Confermo Paolo. Ok, allora disattivo la webcam così evitiamo
+
+70
+00:08:35.360 --> 00:08:40.399
+di avere i problemi dell'altra sera.
+
+71
+00:08:44.080 --> 00:08:51.320
+Eccoci qua. Quindi, stasera parleremo di linee
+
+72
+00:08:51.320 --> 00:08:56.920
+di trasmissione e sostanzialmente diciamo i mac i macroargomenti della
+
+73
+00:08:56.920 --> 00:09:03.680
+lezione di stasera sono questi: la teoria delle linee radiofrequenza,
+
+74
+00:09:03.680 --> 00:09:09.160
+le linee in regimi di onde stazionarie e poi alla fine due parole sugli
+
+75
+00:09:09.160 --> 00:09:16.920
+adattamenti di impedenza, la misura sulle linee. Quindi cominciamo dal dall'ABC. Allora,
+
+76
+00:09:16.920 --> 00:09:22.640
+in generale si definisce linea di trasmissione e i la coppia di conduttori che
+
+77
+00:09:22.640 --> 00:09:30.440
+collegano un generatore ad un carico e se la lunghezza della linea è
+
+78
+00:09:30.440 --> 00:09:35.640
+trascurabile rispetto alla lunghezza del segnale elettrico che la percorre,
+
+79
+00:09:35.640 --> 00:09:42.440
+pensate per esempio alla banale prolunga di casa che utilizzate per sulla linea
+
+80
+00:09:42.440 --> 00:09:50.560
+elettrica a 220 V dove la frequenza 50 Hz e quindi la lunghezza d'onda sono
+
+81
+00:09:50.560 --> 00:09:56.680
+6000 km. Sicuramente per quanto sia lunga la vostra prolunga, la lunghezza
+
+82
+00:09:56.680 --> 00:10:03.160
+della linea della prolunga è nettamente inferiore alla lunghezza d'onda e quindi
+
+83
+00:10:03.160 --> 00:10:08.880
+in queste condizioni noi possiamo considerare che le tensioni e le correnti lungo la linea, la
+
+84
+00:10:08.880 --> 00:10:16.160
+distribuzione delle tensioni delle correnti lungo la linea sia uniforme e quindi noi possiamo studiare il
+
+85
+00:10:16.160 --> 00:10:22.000
+comportamento della linea con le regole dell'elettrotecnica generale.
+
+86
+00:10:22.000 --> 00:10:27.519
+Questo sostanzialmente che cosa vuol dire? che tensione e corrente lungo una
+
+87
+00:10:27.519 --> 00:10:36.240
+la linea in queste condizioni la possiamo considerare costante in ogni punto della linea.
+
+88
+00:10:36.240 --> 00:10:42.279
+Questo perché con le regole dell'elettrotecnica classica il comportamento
+
+89
+00:10:42.279 --> 00:10:49.639
+lo studio del comportamento di un circuito elettrico non tiene conto delle dimensioni fisiche del circuito stesso
+
+90
+00:10:49.639 --> 00:10:58.120
+perché si ipotizza che il tempo di propagazione delle cariche all'interno del circuito sia nullo o o pressoché
+
+91
+00:10:58.120 --> 00:11:05.120
+tale. Questa ipotesi è valida fintanto che, come dicevo prima, che le dimensioni fisiche dei circuiti in
+
+92
+00:11:05.120 --> 00:11:10.399
+esame, quindi nel caso nostro della linea in esame, sia molto minore della
+
+93
+00:11:10.399 --> 00:11:16.639
+lunghezza d'onda dei segnali che percorrono la nostra linea. Se invece la
+
+94
+00:11:16.639 --> 00:11:23.240
+dimensione del circuito non è trascurabile rispetto alla lunghezza d'onda, la
+
+95
+00:11:23.240 --> 00:11:29.000
+distribuzione delle tensioni delle correnti nel circuito non può essere considerata uniforme.
+
+96
+00:11:29.000 --> 00:11:34.639
+Questo ovviamente eh penso che sia intuitivo.
+
+97
+00:11:34.639 --> 00:11:40.560
+avviene quando le dimensioni del circuito, ovvero la lunghezza della linea, ma
+
+98
+00:11:40.560 --> 00:11:45.720
+potremmo parlare di di un qualsiasi circuito elettrico, sono dello stesso
+
+99
+00:11:45.720 --> 00:11:51.000
+ordine di grandezza della lunghezza d'onda che del segnale che lo percorre e
+
+100
+00:11:51.000 --> 00:11:58.440
+quindi il valore delle tensioni delle correnti lungo il circuito non possiamo più
+
+101
+00:11:58.440 --> 00:12:04.920
+considerarle uniformi e quindi dovremo analizzare il comportamento
+
+102
+00:12:04.920 --> 00:12:11.519
+del circuito, nel caso specifico nostro, di una linea attraverso la teoria delle
+
+103
+00:12:11.519 --> 00:12:17.240
+linee di trasmissione. Appunto, dicevo, il caso tipico è quello
+
+104
+00:12:17.240 --> 00:12:24.920
+di una linea a radiofrequenza che alimenta un'antenna e che è il comportamento che andremo ad analizzare
+
+105
+00:12:24.920 --> 00:12:30.399
+in questa nella lezione di stasera. per comodità di rappresentazione proprio
+
+106
+00:12:30.399 --> 00:12:35.720
+di disegno delle slide, nelle slide io farò riferimento
+
+107
+00:12:35.720 --> 00:12:44.399
+ad una linea bifilare, nel senso troved rappresentata la linea sempre come linea bifilare, ma eh anche nel caso di un
+
+108
+00:12:44.399 --> 00:12:51.880
+cavo quassiale dove i conduttori sono concentrici, le cose sono perfettamente identiche,
+
+109
+00:12:51.880 --> 00:13:01.040
+quindi le considerazioni che andremo a fare per una linea bifilare valgono anche esattamente nel caso eh del cavo
+
+110
+00:13:01.040 --> 00:13:10.800
+coassiale al netto di una particolarità che poi vedremo meglio nelle slide successive.
+
+111
+00:13:10.800 --> 00:13:18.480
+Allora, per comprendere meglio che cosa accade in una linea radiofrequenza,
+
+112
+00:13:18.480 --> 00:13:25.680
+eh dobbiamo fare almeno due considerazioni eh preliminari.
+
+113
+00:13:25.680 --> 00:13:31.000
+Ciascuno dei conduttori che costituiscono la linea presenterà
+
+114
+00:13:31.000 --> 00:13:36.399
+un'induttanza distribuita che è funzione delle caratteristiche fisiche del
+
+115
+00:13:36.399 --> 00:13:43.519
+conduttore stesso. Diametro del conduttore, lunghezza, presenza o meno di un dielettrico.
+
+116
+00:13:43.519 --> 00:13:49.440
+Così come i due conduttori che viaggiano paralleli nel caso dell'one bifilare o
+
+117
+00:13:49.440 --> 00:13:54.560
+concentrici nel caso del coassiale, ma è la stessa cosa, si comporteranno come le
+
+118
+00:13:54.560 --> 00:13:59.920
+armature di un condensatore e quindi tra i due conduttori sarà
+
+119
+00:13:59.920 --> 00:14:05.160
+presente una capacità distribuita in funzione al solito delle caratteristiche
+
+120
+00:14:05.160 --> 00:14:11.240
+fisiche, quindi delle dimensioni dei conduttori, della loro distanza e anche
+
+121
+00:14:11.240 --> 00:14:17.000
+in questo caso della presenza o meno di un dielettrico. Quindi, prima
+
+122
+00:14:17.000 --> 00:14:22.759
+considerazione importante, possiamo assimilare una linea ad un circuito LC a
+
+123
+00:14:22.759 --> 00:14:29.160
+costanti distribuite. Ora, senza entrare nel dettaglio della
+
+124
+00:14:29.160 --> 00:14:35.279
+trattazione teorica, però possiamo fissare alcuni concetti che poi ci
+
+125
+00:14:35.279 --> 00:14:41.839
+serviranno più avanti per comprendere bene il comportamento di una linea.
+
+126
+00:14:41.839 --> 00:14:49.079
+Abbiamo appena detto che la linea può essere assimilata ad un circuito LC a costanti distribuite. Tra l'altro che
+
+127
+00:14:49.079 --> 00:14:56.880
+cosa vuol dire? che per ogni se noi prendiamo la linea e la dividiamo in tanti pezzettini, ciascun pezzettino
+
+128
+00:14:56.880 --> 00:15:03.320
+avrà presenterà un valore di induttanza, un valore di capacità e per unità di
+
+129
+00:15:03.320 --> 00:15:08.839
+lunghezza sempre costante e quindi è come se io avessi tanti elementi, come
+
+130
+00:15:08.839 --> 00:15:13.920
+vedete nel disegno, messi in sequenza. dice la teoria delle linee di
+
+131
+00:15:13.920 --> 00:15:19.440
+trasmissione: "Se io considero una linea di lunghezza infinita
+
+132
+00:15:19.440 --> 00:15:26.839
+e posso dimostrare matematicamente che in questa è la condizioni, cioè un
+
+133
+00:15:26.839 --> 00:15:36.240
+segnale elettrico che percorra una linea in queste condizioni eh si propaga con in un regime di
+
+134
+00:15:36.240 --> 00:15:43.240
+cosiddetta onda progressiva e la linea presenta al generatore un'impedenza
+
+135
+00:15:43.240 --> 00:15:49.959
+che dipende dalle caratteristiche fisiche della linea. Quest'impedenza si chiama impedenza caratteristica della
+
+136
+00:15:49.959 --> 00:15:56.199
+linea e il suo valore, lo vedete rappresentato qui, è uguale alla radice
+
+137
+00:15:56.199 --> 00:16:02.880
+quadrata del rapporto fra L e C, dove L è l'induttanza per unità di lunghezza e
+
+138
+00:16:02.880 --> 00:16:08.399
+C è la capacità per unità di lunghezza.
+
+139
+00:16:09.000 --> 00:16:15.480
+Quindi se noi eh cioè ha ha acquisito questo, se noi invece di avere una linea
+
+140
+00:16:15.480 --> 00:16:21.240
+di lunghezza infinita, prendiamo una linea di lunghezza finita e la chiudiamo
+
+141
+00:16:21.240 --> 00:16:28.519
+su un'impedenza Z dello stesso valore dell'impedenza caratteristica della linea,
+
+142
+00:16:28.519 --> 00:16:34.759
+praticamente è la stessa cosa che se avessimo una linea di lunghezza infinita, cioè la linea si comporta come
+
+143
+00:16:34.759 --> 00:16:40.440
+la linea di lunghezza infinita, quindi il segnale si propagherà solo in modo
+
+144
+00:16:40.440 --> 00:16:48.800
+progressivo e tutta l'energia erogata dal generatore verrà trasferita al carico. Ora, ripeto,
+
+145
+00:16:48.800 --> 00:16:55.639
+questo la teoria lo dimostra con tutta una serie di passaggi che a noi
+
+146
+00:16:55.639 --> 00:17:02.319
+non interessano, però è importante sapere che se una linea, cioè che la che
+
+147
+00:17:02.319 --> 00:17:08.880
+la linea ha una propria impedenza caratteristica che sostanzialmente dipende dalle dimensioni della
+
+148
+00:17:08.880 --> 00:17:14.720
+caratteristiche fisiche della linea stessa e che la linea chiusa su un
+
+149
+00:17:14.720 --> 00:17:20.918
+carico su che ha un impedenza pari all'impedenza caratteristica della linea
+
+150
+00:17:20.919 --> 00:17:28.520
+determina un regime di onda progressiva e in regime di onda progressiva tutta
+
+151
+00:17:28.520 --> 00:17:34.600
+l'energia erogata dal generatore viene trasferita al carico.
+
+152
+00:17:35.400 --> 00:17:41.320
+Quindi dicevo prima, mh possiamo osservare come l'impedenza
+
+153
+00:17:41.320 --> 00:17:50.120
+caratteristica che dipende sostanzialmente, abbiamo visto la radice quadrata del rapporto L su C e siccome L e C abbiamo
+
+154
+00:17:50.120 --> 00:17:56.600
+detto all'inizio dipendono dalle caratteristiche fisiche dei conduttori,
+
+155
+00:17:56.600 --> 00:18:04.520
+possiamo osservare quindi che l'impedenza caratteristica di una linea sostanzialmente dipende da come è fatta
+
+156
+00:18:04.520 --> 00:18:12.000
+la linea quali sono le sue dimensioni ed in particolare dal rapporto tra le dimensioni dei due
+
+157
+00:18:12.000 --> 00:18:18.000
+conduttori, la distanza fra i conduttori stessi. Questo vale, come vedete nel
+
+158
+00:18:18.000 --> 00:18:25.440
+disegnino, sia per la linea bifilare sia per il cavo quassiale e da le caratteristiche del dielettrico laddove
+
+159
+00:18:25.440 --> 00:18:31.799
+c'è un dielettrico. Nel caso del cavo quassiale c'è sempre un dielettrico. Qui
+
+160
+00:18:31.799 --> 00:18:36.919
+vedete queste due formuline, comunque tranquilli perché queste nessuno ve le
+
+161
+00:18:36.919 --> 00:18:42.600
+chiederà all'esame che comunque vi possono fornire il valore dell'impedenza
+
+162
+00:18:42.600 --> 00:18:47.799
+caratteristica di un cavo di una linea bifilare a partire dal diametro dei
+
+163
+00:18:47.799 --> 00:18:53.000
+conduttori eella distanza tra i conduttori nel caso della bifilare
+
+164
+00:18:53.000 --> 00:18:59.840
+diametro conduttore interno, diametro conduttore e esterno nel caso del cavo
+
+165
+00:18:59.840 --> 00:19:06.039
+coassiale e costanti di elettrica dell'isolante laddove presenti. Comunque
+
+166
+00:19:06.039 --> 00:19:15.559
+mediamente diciamo i valori commerciali sono tipici, sono 200-300 ohm per una
+
+167
+00:19:15.559 --> 00:19:21.440
+linea bifilare, la famosa piattina che chi ha gli capelli bianchi, come i miei,
+
+168
+00:19:21.440 --> 00:19:27.799
+si ricorderà di aver conosciuto e impedenze dell'ordine di 50-75 ohm
+
+169
+00:19:27.799 --> 00:19:34.919
+invece per i cavi coassiali che ormai sono pressoché eh che hanno pressoché
+
+170
+00:19:34.919 --> 00:19:41.159
+soppiantato AT qualsiasi altra forma di linea.
+
+171
+00:19:41.159 --> 00:19:47.720
+Allora, c'è un motivo e questo è bene che lo sappiate perché lo troverete anche nelle domande di esami, per cui
+
+172
+00:19:47.720 --> 00:19:55.640
+l'uso del cavo del coassiale è preferibile rispetto ad una linea bifilare ed è determinato dal vantaggio
+
+173
+00:19:55.640 --> 00:20:01.600
+prodotto dal fatto che il campo elettrico e il campo magnetico che si
+
+174
+00:20:01.600 --> 00:20:08.039
+staurano, quindi il campo elettromagnetico che si staura tra i conduttori di una linea, nel caso del
+
+175
+00:20:08.039 --> 00:20:15.480
+cavo coassiale rimane confinato all'interno del conduttore esterno
+
+176
+00:20:15.480 --> 00:20:22.640
+proprio per come è realizzato il cavo. Mentre nel caso della linea bifilare
+
+177
+00:20:22.640 --> 00:20:28.960
+una quota parte si propaga anche a distanza dai conduttori. Questo che cosa
+
+178
+00:20:28.960 --> 00:20:35.520
+comporta? che un cavo coassiale può essere posato in qualsiasi ambiente
+
+179
+00:20:35.520 --> 00:20:42.039
+perché non subisce interferenze, diciamo così, da un punto di vista elettromagnetico
+
+180
+00:20:42.039 --> 00:20:49.840
+anche da parte di eventuali conduttori o masse metalliche all'esterno del cavo. Mentre la linea
+
+181
+00:20:49.840 --> 00:20:54.880
+bifilare, se viene posata per esempio all'interno di una canalizzazione
+
+182
+00:20:54.880 --> 00:21:03.720
+metallica o in prossimità di altri cavi, in qualche modo ne subisce una forma di
+
+183
+00:21:03.720 --> 00:21:09.559
+di interferenza e viceversa, cioè il campo elettromagnetico che percorre la
+
+184
+00:21:09.559 --> 00:21:17.360
+linea bifilare può interagire con eh i conduttori in prossimità.
+
+185
+00:21:17.360 --> 00:21:23.520
+Quindi eh il cavo coassiale per questo motivo ha avuto maggior diffusione. Per
+
+186
+00:21:23.520 --> 00:21:29.200
+contro, diciamo, l'unico neo negativo del coassiale è che a
+
+187
+00:21:29.200 --> 00:21:37.320
+parità di lunghezza normalmente un cavo coassiale ha generalmente maggiore attenuazione rispetto ad una linea
+
+188
+00:21:37.320 --> 00:21:42.760
+bifilare. C'è però un altro aspetto anche che
+
+189
+00:21:42.760 --> 00:21:47.840
+dobbiamo tener ben presente o che è abbastanza importante.
+
+190
+00:21:47.840 --> 00:21:55.360
+Per come è realizzato il cavo quassiale e può essere impiegato
+
+191
+00:21:55.360 --> 00:22:02.360
+pressoché esclusivamente per la connessione tra generatori e carichi sbilanciati. Cosa vuol dire un carico o
+
+192
+00:22:02.360 --> 00:22:07.880
+un generatore sbilanciato? Ovvero è il caso in cui uno dei due
+
+193
+00:22:07.880 --> 00:22:13.840
+terminali è riferito a terra. Vedremo più avanti poi nella prossima
+
+194
+00:22:13.840 --> 00:22:21.120
+lezione quando parleremo di antenne che le antenne saranno quasi sempre dei
+
+195
+00:22:21.120 --> 00:22:27.120
+carichi bilanciati e quindi per utilizzare un cavo quassiale per alimentare un carico bilanciato come
+
+196
+00:22:27.120 --> 00:22:32.960
+un'antenna è possibile farlo, ma richiede sempre l'impiego di un
+
+197
+00:22:32.960 --> 00:22:38.400
+dispositivo di adattamento che si chiama balun, ma ripeto, questo lo vedremo
+
+198
+00:22:38.400 --> 00:22:43.760
+nella lezione dedicata alle antenne. Il fatto è che la totalità ormai degli
+
+199
+00:22:43.760 --> 00:22:48.960
+apparati ricetrasmittenti che sono presenti sul mercato ha un'uscita di
+
+200
+00:22:48.960 --> 00:22:54.720
+tipo sbilanciato, per cui è sempre necessario l'impiego del cavo quassiale,
+
+201
+00:22:54.720 --> 00:23:01.440
+oltre al fatto che, come dire, l'eventuale utilizzo di una linea sbilanciata, oltretutto ci espone i
+
+202
+00:23:01.440 --> 00:23:09.880
+problemi che vi ho detto prima relativi alla posa del cavo.
+
+203
+00:23:09.880 --> 00:23:17.320
+Una linea bifilare invece può essere utilizzata per la connessione tra generatori e carichi bilanciati, ovvero
+
+204
+00:23:17.320 --> 00:23:23.360
+generatori e carichi che non hanno alcun riferimento a i cui terminali non hanno
+
+205
+00:23:23.360 --> 00:23:28.400
+alcun riferimento a terra. In realtà, nella pratica, ormai l'uso
+
+206
+00:23:28.400 --> 00:23:33.640
+della linea bifilare è limitato solo a casi molto particolari e uno dei quali
+
+207
+00:23:33.640 --> 00:23:40.640
+lo vedremo eh più avanti ed è l'adattamento di impedenza, perché una
+
+208
+00:23:40.640 --> 00:23:46.240
+delle cose che si può fare con un con un tronco di linea è anche un
+
+209
+00:23:46.240 --> 00:23:53.200
+adattamento di impedenza. C'è un'altra cosa che è bene ricordare
+
+210
+00:23:53.200 --> 00:24:01.200
+che a livello teorico si ipotizza che la linea sia priva di attenuazione,
+
+211
+00:24:01.200 --> 00:24:09.720
+ma nella realtà poi come sempre succede le cose sono un po' diverse. Infatti una linea reale in particolare come un cavo
+
+212
+00:24:09.720 --> 00:24:16.559
+quassiale ha sempre una certa attenuazione e quindi
+
+213
+00:24:16.559 --> 00:24:22.760
+ci sono almeno tre parametri caratteristici che definiscono le
+
+214
+00:24:22.760 --> 00:24:27.840
+caratteristiche di funzionamento reale di una linea, sia essa una linea
+
+215
+00:24:27.840 --> 00:24:33.080
+bifilare o un o un cavo coassiale. Uno
+
+216
+00:24:33.080 --> 00:24:40.600
+l'abbiamo già visto ed è l'impedenza caratteristica. Abbiamo detto i valori tipici sono di 50-75
+
+217
+00:24:40.600 --> 00:24:46.960
+ohm per i cavi coassiali, 200-300 ohm per le linee bicilari. Questi diciamo
+
+218
+00:24:46.960 --> 00:24:54.120
+quelli generalmente eh più usati. Poi esistono anche cavi o o linee con valori
+
+219
+00:24:54.120 --> 00:25:01.960
+diversi, ma diciamo normalmente quelli che incontriamo sono sono questi valori.
+
+220
+00:25:01.960 --> 00:25:08.120
+Poi c'è l'attenuazione. Vi dicevo, nel una linea reale presenta sempre una
+
+221
+00:25:08.120 --> 00:25:14.279
+certa attenuazione e in genere l'attenuazione è espressa in dB per
+
+222
+00:25:14.279 --> 00:25:19.880
+metro. Un un valore che ci dice quanti db o
+
+223
+00:25:19.880 --> 00:25:27.760
+quanti in genere sono frazioni di di DB. La linea attenua per ogni
+
+224
+00:25:27.760 --> 00:25:35.640
+metro di lunghezza. Attenzione, l'attenuazione di una linea reale aumenta sempre in funzione della
+
+225
+00:25:35.640 --> 00:25:43.360
+frequenza, quindi eh cavo o linea bisigilare, cavo di più, la linea un po'
+
+226
+00:25:43.360 --> 00:25:49.720
+meno, ha una certa attenuazione. Questo valore dell'attenuazione non è costante,
+
+227
+00:25:49.720 --> 00:25:56.200
+ma dipende dalla frequenza e poi a parità di frequenza dipende dalle
+
+228
+00:25:56.200 --> 00:26:01.520
+caratteristiche dei conduttori e di di elettrico. Un esempio. Per esempio, nei
+
+229
+00:26:01.520 --> 00:26:06.720
+cavi colassiali l'attenuazione è minore per cavi di
+
+230
+00:26:06.720 --> 00:26:14.520
+maggior diametro o che impiegano un dielettrico foam, un dielettrico non
+
+231
+00:26:14.520 --> 00:26:20.679
+compatto ma spugnoso. vi sarà capitato di vedere
+
+232
+00:26:20.679 --> 00:26:27.080
+sicuramente che i cavi tipo l' RG 213 piuttosto che l' RG58,
+
+233
+00:26:27.080 --> 00:26:34.520
+tanto per parlare di cose note, hanno un dielettrico eh compatto.
+
+234
+00:26:34.520 --> 00:26:42.240
+Eh cavi, per esempio, utilizzati per le antenne TV hanno un cavo che invece è
+
+235
+00:26:42.240 --> 00:26:47.799
+spugnoso. Questo perché il cavo,
+
+236
+00:26:47.799 --> 00:26:54.200
+diciamo, il dielettrico spugnoso contenendo una percentuale significativa
+
+237
+00:26:54.200 --> 00:26:59.399
+di aria ha una costante di elettrica diversa
+
+238
+00:26:59.399 --> 00:27:06.640
+rispetto al di elettrico compatto e ha minore attenuazione. Uno direbbe: "Allor
+
+239
+00:27:06.640 --> 00:27:12.200
+perché non si usano i cavi da TV anche per altri impieghi?" perché poi magari
+
+240
+00:27:12.200 --> 00:27:18.760
+lo vedremo più avanti, come dire, hanno questo vantaggio di aver minore attenuazione, ma sono poco adatte, ad
+
+241
+00:27:18.760 --> 00:27:26.559
+esempio, per supportare eh potenze elevate in trasmissione.
+
+242
+00:27:26.559 --> 00:27:32.960
+Poi c'è un terzo elemento un po' meno noto che è il fattore di velocità e la
+
+243
+00:27:32.960 --> 00:27:39.880
+spiegazione la vedremo poi più nel dettaglio nelle slide successive.
+
+244
+00:27:39.880 --> 00:27:45.240
+Comunque vi anticipo che la velocità di propagazione di un segnale lungo una
+
+245
+00:27:45.240 --> 00:27:51.760
+linea di trasmissione, quindi un cavo o una linea bicilare, è generalmente
+
+246
+00:27:51.760 --> 00:27:57.559
+inferiore a quella che si ha nello spazio libero. Quindi questo parametro, cioè il fattore
+
+247
+00:27:57.559 --> 00:28:03.440
+di velocità, ci dice di quanto si riduce la velocità
+
+248
+00:28:03.440 --> 00:28:10.120
+di propagazione lungo la linea rispetto a quella che si ha nel nello spazio
+
+249
+00:28:10.120 --> 00:28:17.519
+libero. E ripeto, come vedremo nelle slide successive, questo dato che viene fornito dal
+
+250
+00:28:17.519 --> 00:28:26.000
+costruttore del cavo è utilissimo per poter determinare la lunghezza elettrica di
+
+251
+00:28:26.000 --> 00:28:31.679
+una linea in base alla frequenza di utilizzo. Ora,
+
+252
+00:28:31.679 --> 00:28:39.440
+nelle slide successive questi concetti saranno chiariti un pochino meglio e i
+
+253
+00:28:39.440 --> 00:28:46.799
+valori tipici per un cavo colassiale sono compresi in genere tra 0,65 e 080 e
+
+254
+00:28:46.799 --> 00:28:52.760
+come vi dicevo prima dipendono quasi esclusivamente dalle caratteristiche del
+
+255
+00:28:52.760 --> 00:28:58.360
+dielettrico. Infatti, vediamo un attimino questo
+
+256
+00:28:58.360 --> 00:29:03.600
+discorso un po' più nel dettaglio. Dicevo, la velocità di propagazione del
+
+257
+00:29:03.600 --> 00:29:09.840
+segnale, dungo una linea, è inferiore ai famosi
+
+258
+00:29:09.840 --> 00:29:16.039
+300.000 1000 km al seconds che si hanno nello spazio libero e questo dipende
+
+259
+00:29:16.039 --> 00:29:23.919
+dalle caratteristiche del dielettrico. consegue che a parità di tempo
+
+260
+00:29:23.919 --> 00:29:29.840
+il segnale percorrerà lungo la linea uno spazio minore di quello che
+
+261
+00:29:29.840 --> 00:29:35.000
+percorrerebbe nel vuoto, perché, come dire, è come quando vado in macchina, se
+
+262
+00:29:35.000 --> 00:29:40.840
+rallento, nello stesso tempo percorro uno spazio minore.
+
+263
+00:29:40.840 --> 00:29:49.399
+Questo che cosa determina? che per un ciclo completo la lunghezza d'onda del segnale non
+
+264
+00:29:49.399 --> 00:29:55.919
+coincide con lo spazio fisico percorso nella linea stessa che quindi risulta
+
+265
+00:29:55.919 --> 00:30:02.399
+essere minore. Per questo motivo, nel caso dei cavi e delle linee, si parla di lunghezza
+
+266
+00:30:02.399 --> 00:30:07.760
+fisica, che è quella che io misuro col metro, quanto è lungo il cavo e di
+
+267
+00:30:07.760 --> 00:30:15.880
+lunghezza elettrica, che invece è la lunghezza riferita al segnale che lo
+
+268
+00:30:15.880 --> 00:30:22.799
+percorre. cerco di farmi capire meglio facendo eh un esempio. Supponiamo di
+
+269
+00:30:22.799 --> 00:30:29.960
+usare un cavo in 10 m sulla gamma dei 10 m, 30 MHz.
+
+270
+00:30:29.960 --> 00:30:36.720
+Il cavo, lo misuro col metro, è lungo 10 m. Uno dice, "Bene, questo cavo è lungo
+
+271
+00:30:36.720 --> 00:30:43.600
+una lunghezza d'onda, cioè il mio segnale qui dentro compie un oscillazione completa?"
+
+272
+00:30:43.600 --> 00:30:51.320
+In realtà no, perché siccome il segnale dentro al cavo viaggia più lentamente,
+
+273
+00:30:51.320 --> 00:30:58.840
+in 10 m percorre più di una lunghezza d'onda. Infatti un cavo normale che ha
+
+274
+00:30:58.840 --> 00:31:06.159
+fattore di velocità 0,66 sarà lungo una lunghezza d'onda quando
+
+275
+00:31:06.159 --> 00:31:12.519
+sarà avrà una lunghezza fisica, come dice la formula, pari a la lunghezza
+
+276
+00:31:12.519 --> 00:31:20.519
+d'onda per 0,66. Quindi nel nostro esempio, se siamo a 30 MHz, cioè a 10 m,
+
+277
+00:31:20.519 --> 00:31:26.200
+come lunghezza d'onda e io voglio uno spezzone di cavo che abbia una lunghezza
+
+278
+00:31:26.200 --> 00:31:32.639
+pari alla lunghezza d'onda, non deve essere 10 m, ma deve essere 6,60 m se il
+
+279
+00:31:32.639 --> 00:31:41.200
+fattore di velocità è 0,66. Quindi 6,60 m è la lunghezza fisica, 10
+
+280
+00:31:41.200 --> 00:31:49.039
+m è la lunghezza elettrica. di questa cosa e tenetene sempre conto perché può
+
+281
+00:31:49.039 --> 00:31:57.320
+portare a grossolani errori, per esempio, quando si vanno a fare delle misure oppure si vuole per qualche
+
+282
+00:31:57.320 --> 00:32:04.440
+motivo utilizzare una linea che abbia una lunghezza che abbia un rapporto
+
+283
+00:32:04.440 --> 00:32:09.519
+preciso con la lunghezza d'onda.
+
+284
+00:32:09.519 --> 00:32:17.120
+Quindi, giusto per chiarire questi concetti che abbiamo espresso fino a ora, ho riportato una tabellina con i
+
+285
+00:32:17.120 --> 00:32:22.480
+cavi con alcuni cavi di uso comune, magari mancano quelli un po' più
+
+286
+00:32:22.480 --> 00:32:28.000
+moderni, ma insomma sicuramente qualcuno di questi cavi, tipologia di cavi vi
+
+287
+00:32:28.000 --> 00:32:37.639
+sarà capitato di di incontrarli. Come potete vedere le impedenze caratteristiche sono o 50 o 75 ohm.
+
+288
+00:32:37.639 --> 00:32:45.240
+Qui trovate il diametro del conduttore interno, il diametro del conduttore esterno, il tipo di di elettrico,
+
+289
+00:32:45.240 --> 00:32:55.000
+polietilene per i cavi a della prima parte o eh PTFE, quindi
+
+290
+00:32:55.000 --> 00:33:00.480
+teflon per questi altri casi. Comunque in entrambi i casi si tratta di di
+
+291
+00:33:00.480 --> 00:33:07.559
+elettrici compatti. Qua trovate l'attenuazione che è data
+
+292
+00:33:07.559 --> 00:33:13.399
+per 100 m, quindi chiaramente se volete l'attenuazione al metro questo valore va
+
+293
+00:33:13.399 --> 00:33:20.080
+diviso per 100 e come vedete sono valori che stanno per per un solo metro di
+
+294
+00:33:20.080 --> 00:33:26.320
+lunghezza sono frazioni di DB. E l'ultima colonna ci dà il fattore di
+
+295
+00:33:26.320 --> 00:33:34.000
+velocità. Come vedete 0,66 per tutti i cavi in polietilene, 070
+
+296
+00:33:34.000 --> 00:33:41.919
+per i cavi in teflon. Se avessimo avuto qui un cavo da TV, come vi dicevo prima,
+
+297
+00:33:41.919 --> 00:33:48.919
+o anche cavi per impieghi professionali che hanno di elettrico spugnoso, il
+
+298
+00:33:48.919 --> 00:33:55.399
+fattore di velocità sarebbe stato 0 tra 0,80 e 0,85. Comunque queste
+
+299
+00:33:55.399 --> 00:34:01.120
+informazioni le trovate sempre sul datashet del costruttore del cavo,
+
+300
+00:34:01.120 --> 00:34:06.440
+qualora vi dovessero servire.
+
+301
+00:34:07.080 --> 00:34:14.079
+Oh, vediamo adesso che cosa succede. Quindi avevo detto prima che una linea
+
+302
+00:34:14.079 --> 00:34:21.520
+chiusa sulla propria impedenza caratteristica è in regime di onda progressiva e quindi tutta l'energia
+
+303
+00:34:21.520 --> 00:34:28.079
+viene trasferita dal generatore a carico. Vediamo invece adesso che cosa succede
+
+304
+00:34:28.079 --> 00:34:33.520
+se la linea è chiusa su un'impedenza diversa da quella caratteristica della
+
+305
+00:34:33.520 --> 00:34:40.919
+linea. Ora, prima di andare avanti, come non vorrei come dire andare troppo
+
+306
+00:34:40.919 --> 00:34:47.638
+veloce, vorrei capire se fin qui va tutto bene, se ci sono domande, se
+
+307
+00:34:47.639 --> 00:34:51.960
+è tutto sufficientemente chiaro.
+
+308
+00:34:56.560 --> 00:35:01.960
+Allora, c'è una domanda da parte di Nicola.
+
+309
+00:35:05.520 --> 00:35:11.599
+Sì, vabbè. Eh, forse forse anche una
+
+310
+00:35:11.599 --> 00:35:16.800
+una sottiglizza. Allora, per frequenze maggiori, ora hai parlato di una
+
+311
+00:35:16.800 --> 00:35:23.240
+lunghezza d'onda di 10 m, velocità 0,66 nel cavo, però per frequenze
+
+312
+00:35:23.240 --> 00:35:29.880
+maggiori e la lunghezza d'onda sarà più corta. La lunghezza del cavo, dove la
+
+313
+00:35:29.880 --> 00:35:35.720
+prendo la lunghezza del cavo? al pari al pari de del fine del
+
+314
+00:35:35.720 --> 00:35:43.520
+bocchettone o per esempio in un PL a parte per frequenze maggiori il PL lasciamo faare però ho a livello de
+
+315
+00:35:43.520 --> 00:35:49.720
+avendo un PL a livello della fine del bocchettone o a livello della fine de
+
+316
+00:35:49.720 --> 00:35:57.440
+del centrale del PL. Allora, su 6 m su 6 m e conta giusto la
+
+317
+00:35:57.440 --> 00:36:04.480
+lunghezza, però magari se si vuole su 10 su 10 cm invece conta.
+
+318
+00:36:04.480 --> 00:36:10.280
+un PL però Esatto. Allora, il la risposta
+
+319
+00:36:10.280 --> 00:36:16.119
+sostanzialmente è questa: il PL non è un connettore a impedenza costante
+
+320
+00:36:16.119 --> 00:36:23.720
+e quindi l'hai già detto, sicuramente non è il caso di impiegarlo su delle frequenze dove le dimensioni del
+
+321
+00:36:23.720 --> 00:36:32.800
+connettore, come dire, cominciano a diventare significative. Ma non a caso io all'inizio eh quando ho
+
+322
+00:36:32.800 --> 00:36:40.599
+parlato delle dimensioni in rapporto alla lunghezza d'onda parlavo genericamente di circuiti, non tanto
+
+323
+00:36:40.599 --> 00:36:46.160
+delle delle linee in quanto tali, perché quando le frequenze sono molto alte e
+
+324
+00:36:46.160 --> 00:36:51.880
+quindi le lunghezze d'onda scendono a valori relativamente piccoli,
+
+325
+00:36:51.880 --> 00:36:57.720
+quindi parliamo di decine di già, quando parliamo di decine di centimetri allora
+
+326
+00:36:57.720 --> 00:37:04.520
+Ora, non solo la linea, ma anche banalmente il,
+
+327
+00:37:04.520 --> 00:37:11.359
+come dire, il connettore piuttost piuttosto che il cablaggio di un circuito stesso, i reofori di un
+
+328
+00:37:11.359 --> 00:37:17.599
+componente devono essere presi in considerazione perché addirittura anche
+
+329
+00:37:17.599 --> 00:37:24.760
+a quel livello eh, come dire, dobbiamo tener conto di queste problematiche,
+
+330
+00:37:24.760 --> 00:37:30.400
+peggio ancora quando saliamo ulteriormente di frequenza, quindi su
+
+331
+00:37:30.400 --> 00:37:36.480
+frequenze molto elevate è opportuno utilizzare connettori a
+
+332
+00:37:36.480 --> 00:37:42.720
+impedenza costante. Quindi a quel punto il connettore
+
+333
+00:37:42.720 --> 00:37:49.960
+diventa parte integrante della linea e quindi le lunghezze laddove ti dovesse
+
+334
+00:37:49.960 --> 00:37:58.560
+servire riconoscere la lunghezza devono tener conto anche eh eh del connettore,
+
+335
+00:37:58.560 --> 00:38:05.240
+però diciamo che questo, nel caso nostro eh
+
+336
+00:38:05.240 --> 00:38:11.720
+può cominciare a diventare determinante qua quando saliamo oltre il giga di
+
+337
+00:38:11.720 --> 00:38:21.000
+frequenza, altrimenti diciamo sotto ancora possiamo
+
+338
+00:38:21.000 --> 00:38:28.000
+eh non preoccuparci più di tanto, magari già 70 cm, forse
+
+339
+00:38:28.000 --> 00:38:34.960
+400 32 siamo sul limite, però il concetto è questo.
+
+340
+00:38:34.960 --> 00:38:40.680
+quando la dimensione del della cosa che stiamo valutando non
+
+341
+00:38:40.680 --> 00:38:46.319
+può essere considerata trascurabile rispetto alla lunghezza d'onda ne
+
+342
+00:38:46.319 --> 00:38:53.839
+dobbiamo tener conto. Quindi ripeto, il in 10 m del connettore
+
+343
+00:38:53.839 --> 00:39:00.280
+posso non preoccuparmi, se sono a diverse centinaia di MHz ne devo tener
+
+344
+00:39:00.280 --> 00:39:07.720
+di conto. Ed in particolare su queste frequenze appunto si utilizzano connettori a impedenza costante, cioè
+
+345
+00:39:07.720 --> 00:39:14.280
+connettori che hanno la stessa impedenza della linea su cui sono montati e quindi
+
+346
+00:39:14.280 --> 00:39:21.519
+entrano a far parte integrante della della linea stessa.
+
+347
+00:39:22.599 --> 00:39:29.119
+Bene, se non ci sono altre domande andiamo avanti.
+
+348
+00:39:29.880 --> 00:39:37.079
+Nessun'altra domanda al momento. Ok. Bene, adesso vediamo m una cosa che
+
+349
+00:39:37.079 --> 00:39:45.160
+magari ci comincia a interessare un po' più del degli aspetti teorici finora
+
+350
+00:39:45.160 --> 00:39:53.240
+enunciati. Allora, vediamo cosa accade quando io chiudo una linea di trasmissione su un carico
+
+351
+00:39:53.240 --> 00:39:59.319
+la cui impedenza sia diversa dall'impedenza caratteristica della della linea stessa.
+
+352
+00:39:59.319 --> 00:40:04.440
+In questo caso, vi anticipo, la linea non sarà più in
+
+353
+00:40:04.440 --> 00:40:10.440
+regime di onde progressive, ma una parte e quindi non tutta l'energia erogata dal
+
+354
+00:40:10.440 --> 00:40:15.760
+generatore raggiungerà il carico, ma una parte dell'energia che arriva al carico
+
+355
+00:40:15.760 --> 00:40:21.440
+verrà riflessa indietro verso il generatore, determinando quello che si
+
+356
+00:40:21.440 --> 00:40:27.920
+chiama un regime di onde stazionarie. Questo a causa del disadtrattamento di
+
+357
+00:40:27.920 --> 00:40:33.559
+impedenza. tra la linea e il carico.
+
+358
+00:40:33.680 --> 00:40:39.119
+Anche qui, per comprendere meglio che cosa accade quando io chiudo la linea
+
+359
+00:40:39.119 --> 00:40:44.920
+con un'impedenza diversa dall'impedenza caratteristica della linea, noi possiamo
+
+360
+00:40:44.920 --> 00:40:50.560
+pensare l'impedenza, il carico come composto
+
+361
+00:40:50.560 --> 00:40:55.960
+dalla serie di due impedenze. una che ha lo stesso valore
+
+362
+00:40:55.960 --> 00:41:03.280
+dell'impedenza caratteristica del della linea e l'altra che ha il un valore pari
+
+363
+00:41:03.280 --> 00:41:09.119
+alla differenza qui, tale che la somma delle due faccia il il valore
+
+364
+00:41:09.119 --> 00:41:15.680
+dell'impedenza di carico. In questo caso che cosa succede?
+
+365
+00:41:15.920 --> 00:41:24.520
+una quota parte del della potenza che arriva al carico si dissipa su la sulla
+
+366
+00:41:24.520 --> 00:41:30.760
+Z0, cioè sull'impedenza che è uguale a quella del cavo in regime
+
+367
+00:41:30.760 --> 00:41:36.400
+di onda progressiva, mentre la quota parte che si sarebbe
+
+368
+00:41:36.400 --> 00:41:42.000
+dovuta dissipare sull'altra parte di impedenza che noi abbiamo immaginato
+
+369
+00:41:42.000 --> 00:41:47.359
+divisa in due. in realtà rappresenta la potenza che
+
+370
+00:41:47.359 --> 00:41:54.359
+sarà riflessa indietro verso il trasmettitore. È come se al posto della
+
+371
+00:41:54.359 --> 00:42:00.200
+Zquid del disegno, cioè della dell'impedenza che fa la differenza
+
+372
+00:42:00.200 --> 00:42:08.240
+fosse posto un un altro generatore che eroga energia nel nel verso opposto.
+
+373
+00:42:08.240 --> 00:42:16.079
+I due flussi, quindi, che si determinano lungo la linea, cioè quello che dal trasmettitore va verso il carico e
+
+374
+00:42:16.079 --> 00:42:23.480
+quello riflesso che dal carico torna indietro verso il generatore, sono
+
+375
+00:42:23.480 --> 00:42:30.160
+quelli che danno origine a quello che si chiama un regime di onde stazionarie a
+
+376
+00:42:30.160 --> 00:42:37.319
+causa ovviamente della differenza di ampiezza e fase dei due flussi che
+
+377
+00:42:37.319 --> 00:42:43.280
+scorrono nella linea inverso opposto. Ora, nella slide successiva c'è
+
+378
+00:42:43.280 --> 00:42:51.160
+un'animazione che forse chiarisce meglio quello quello che accade.
+
+379
+00:42:51.160 --> 00:42:56.319
+L'animazione praticamente ci dà la composizione grafica dei due flussi
+
+380
+00:42:56.319 --> 00:43:01.400
+isofrequenziali che abbiamo nel caso di
+
+381
+00:43:01.400 --> 00:43:07.359
+disadattamento. Nel disegnino vedete il l'onda azzurra
+
+382
+00:43:07.359 --> 00:43:13.319
+che procede da sinistra verso destra, diciamo, dal generatore verso il carico.
+
+383
+00:43:13.319 --> 00:43:21.240
+L'onda rossa è l'onda riflessa, cioè che dal carico scorre verso il generatore
+
+384
+00:43:21.240 --> 00:43:29.160
+nella direzione opposta. Se noi ci mettiamo a fare la composizione istante per istante dei due flussi, il risultato
+
+385
+00:43:29.160 --> 00:43:35.559
+è questa linea nera che, come vedete, è un ha la stessa frequenza, quindi ha
+
+386
+00:43:35.559 --> 00:43:44.200
+delle oscillazioni con la stessa frequenza dei due segnali che la compongono, ma che a differenza delle
+
+387
+00:43:44.200 --> 00:43:49.920
+due componenti non scorre lungo la linea, ma guarda caso lo dice il
+
+388
+00:43:49.920 --> 00:43:55.440
+termine, rimane stazionaria. Questo che cosa vuol dire? che lungo la linea si
+
+389
+00:43:55.440 --> 00:44:03.200
+determineranno dei punti dove noi avremo valori di tensione di corrente diversi
+
+390
+00:44:03.200 --> 00:44:10.880
+da punto a punto, ma che saranno sempre fissi in quel determinato punto della
+
+391
+00:44:10.880 --> 00:44:18.440
+linea. Quindi in un certo punto avrò il massimo, in un certo punto avrò il minimo e il punto dove avrò il massimo e
+
+392
+00:44:18.440 --> 00:44:25.559
+il minimo sarà sempre lo stesso. Questi valori, come vedremo, si ripetono
+
+393
+00:44:25.559 --> 00:44:32.160
+cinquamente ogni mezza lunghezza d'onda. Da qui il termine di onde stazionarie,
+
+394
+00:44:32.160 --> 00:44:39.119
+perché i minimi e i massimi rimangono in posizioni stazionarie lungo la linea.
+
+395
+00:44:39.119 --> 00:44:44.839
+Infatti la figura invece a destra di questa slide ci mostra l'andamento
+
+396
+00:44:44.839 --> 00:44:50.480
+della tensione della corrente. sono uguali, solo che sono
+
+397
+00:44:50.480 --> 00:44:58.359
+sfalzati come fase. Quindi eh qui in questo disegno è rappresentato solo uno,
+
+398
+00:44:58.359 --> 00:45:05.319
+ma può essere tensione occorrente, indipendentemente l'andamento è lo stesso. E vedete che in caso di perfetto
+
+399
+00:45:05.319 --> 00:45:15.000
+adattamento, cioè quando il carico è uguale a Z0, io non ho onde risse e quindi lungo la
+
+400
+00:45:15.000 --> 00:45:20.880
+linea la tensione è costante in qualsiasi punto. come ho un minimo disadattamento, per
+
+401
+00:45:20.880 --> 00:45:28.400
+esempio il disegno B, abbiamo un caso in cui il
+
+402
+00:45:28.400 --> 00:45:34.319
+ci sia un Ross di 1,5, quindi un minimo disatamento
+
+403
+00:45:34.319 --> 00:45:43.720
+e vedete che inizia a esserci una fluttuazione con valori che variano da dallo 08 a a 1 e 2 rispetto al valore eh
+
+404
+00:45:43.720 --> 00:45:50.559
+medio con disadattamento maggiore. Disegno C è un Ross di 3, vedete più
+
+405
+00:45:50.559 --> 00:45:56.880
+profonda la variazione fino all'ultimo caso che è un Ross infinito che
+
+406
+00:45:56.880 --> 00:46:04.240
+praticamente si va da zero a al doppio del valore massimo.
+
+407
+00:46:04.359 --> 00:46:09.680
+Quindi, ripeto, lungo la linea in regime di onde stazionarie si formano dei
+
+408
+00:46:09.680 --> 00:46:15.680
+minimi e dei massimi di tensione di corrente la cui ampiezza dipende, come abbiamo
+
+409
+00:46:15.680 --> 00:46:22.680
+visto, dall'entità del disadattamento e si definisce quindi ROS, che sta per
+
+410
+00:46:22.680 --> 00:46:28.319
+rapporto di onde estrazionarie o SWR, che è l'acronimo della stessa
+
+411
+00:46:28.319 --> 00:46:34.160
+cosa tradotta in inglese, si definisce come tale il rapporto
+
+412
+00:46:34.160 --> 00:46:40.079
+tra la tensione massima e la tensione minima o anche la corrente massima e la
+
+413
+00:46:40.079 --> 00:46:45.440
+corrente minima perché è esattamente la stessa cosa che si presentano in una
+
+414
+00:46:45.440 --> 00:46:52.599
+linea in regime di onde stazionarie. Vedremo poi lo ripeteremo più avanti,
+
+415
+00:46:52.599 --> 00:46:58.640
+che questo valore è anche uguale al rapporto
+
+416
+00:46:58.640 --> 00:47:05.400
+fra l'impedenza caratteristica della linea e l'impedenza del carico
+
+417
+00:47:05.400 --> 00:47:11.760
+o viceversa a seconda che l'impedenza del carico sia maggiore o minore
+
+418
+00:47:11.760 --> 00:47:17.160
+dell'impedenza della linea. Un'altra cosa che è importante che vi
+
+419
+00:47:17.160 --> 00:47:26.359
+ricordiate, perché ci saranno delle domande a trabocchetto tra i quiz ad esame, che il valore di Ross eh può
+
+420
+00:47:26.359 --> 00:47:31.800
+assum che il Ross può assumere valori che vanno da un minimo che non è zero ma
+
+421
+00:47:31.800 --> 00:47:37.359
+è 1 e un massimo che è pari ad infinito
+
+422
+00:47:37.359 --> 00:47:44.200
+perché è uno perché quando io non ho Ross, cioè sono in regime di onda
+
+423
+00:47:44.200 --> 00:47:50.720
+progress Guardate il disegno a la tensione è costante, quindi non c'è tensione
+
+424
+00:47:50.720 --> 00:47:56.720
+massima e minima, o meglio, massima e minima sono la stessa cosa e quindi
+
+425
+00:47:56.720 --> 00:48:06.280
+quella frazione vale 1. Se ho variazioni, ovviamente avrò al
+
+426
+00:48:06.280 --> 00:48:11.760
+numeratore di quella frazione un valore, la tensione massima che è maggiore della
+
+427
+00:48:11.760 --> 00:48:18.359
+tensione minima e quindi quella frazione varrà più di 1 fino a arrivare al caso
+
+428
+00:48:18.359 --> 00:48:24.480
+estremo in cui la tensione minima o la corrente minima è zero e quindi la
+
+429
+00:48:24.480 --> 00:48:30.720
+matematica ci dice che qualsiasi numero diviso 0 fa infinito. Quindi i valori di
+
+430
+00:48:30.720 --> 00:48:39.599
+Ross vanno da 1 quando non c'è Ross a infinito quando c'è riflessione totale.
+
+431
+00:48:42.720 --> 00:48:51.359
+Dicevo prima, la presenza di minimi e massimi di tensione e di corrente lungo la linea
+
+432
+00:48:51.359 --> 00:48:57.920
+determina che dall'altro capo della linea si presenti un valore di impedenza
+
+433
+00:48:57.920 --> 00:49:04.240
+che può variare, che non è costante, ma che può variare da un minimo a un
+
+434
+00:49:04.240 --> 00:49:09.960
+massimo in funzione della lunghezza elettrica della linea stessa. e tali
+
+435
+00:49:09.960 --> 00:49:17.319
+valori si ripetono ciclicamente. Cosa voglio dire? Guardate il il disegno
+
+436
+00:49:17.319 --> 00:49:24.000
+qui a sinistra. Eh, voi sapete che dal dalla legge di
+
+437
+00:49:24.000 --> 00:49:30.280
+ohm che il valore dell'impedenza è data dal rapporto fra la tensione e la
+
+438
+00:49:30.280 --> 00:49:37.680
+corrente. Quindi, siccome tensione e corrente lungo la linea, come vedete, variano continuamente,
+
+439
+00:49:37.680 --> 00:49:43.599
+il valore di impedenza che io trovo in lungo la linea varia da punto a punto
+
+440
+00:49:43.599 --> 00:49:51.760
+perché varia il rapporto fra la tensione e la corrente in ogni punto della linea.
+
+441
+00:49:51.760 --> 00:49:58.400
+Poi, siccome questi valori sono ciclici con una ciclicità che è pari a lambda/2,
+
+442
+00:49:58.400 --> 00:50:03.839
+cioè ogni mezza lunghezza d'onda io trovo un massimo,
+
+443
+00:50:03.839 --> 00:50:09.319
+o oppure diciamolo meglio, tra un massimo e quello successivo c'è sempre
+
+444
+00:50:09.319 --> 00:50:14.799
+mezza lunghezza d'onda, come tra un minimo e il successivo c'è sempre mezza
+
+445
+00:50:14.799 --> 00:50:21.440
+lunghezza d'onda, quindi anche i valori di impedenza varieranno da un massimo a un minimo.
+
+446
+00:50:21.440 --> 00:50:30.000
+ogni mezza lunghezza d'onda. Quindi questi valori si ripetono
+
+447
+00:50:30.000 --> 00:50:35.079
+ciclicamente, quindi attenzione perché questa è una
+
+448
+00:50:35.079 --> 00:50:43.240
+cosa di cui dobbiamo tenere conto. Siamo in regime di onde stazionarie,
+
+449
+00:50:43.240 --> 00:50:49.640
+io il valore di impedenza che vedo dall'altro capo della linea quando è
+
+450
+00:50:49.640 --> 00:50:56.280
+chiusa su un'impedenza diversa da quella caratteristica è un valore che non posso conoscere a
+
+451
+00:50:56.280 --> 00:51:02.280
+priori perché dipende dal valore dal
+
+452
+00:51:02.280 --> 00:51:08.200
+diadattamento e dalla lunghezza della linea stessa.
+
+453
+00:51:13.280 --> 00:51:18.640
+C'è un'altra cosa che è abbastanza importante e che spesso è poco
+
+454
+00:51:18.640 --> 00:51:24.960
+considerata, anzi che addirittura ogni tanto si sente dire anche delle
+
+455
+00:51:24.960 --> 00:51:32.880
+cose che, come dire, non hanno nessun fondamento. E mi spiego meglio. Ebbene lungo laa il
+
+456
+00:51:32.880 --> 00:51:38.400
+regime di onde stazionare, come abbiamo appena detto, la tensione e la corrente
+
+457
+00:51:38.400 --> 00:51:45.040
+varino e siano diverse da punto a punto, ripetendosi ciclicamente ogni mezza lunghezza
+
+458
+00:51:45.040 --> 00:51:52.040
+d'onda, il rapporto avrei dovrei aggiungere vettoriale, cioè
+
+459
+00:51:52.040 --> 00:51:58.280
+tenendo conto anche della fase tra la tensione massima e la tensione minima è
+
+460
+00:51:58.280 --> 00:52:04.280
+comunque costante, quindi lungo la linea,
+
+461
+00:52:04.280 --> 00:52:09.799
+anche se tensioni e correnti variano dal massimo al minimo, il valore
+
+462
+00:52:09.799 --> 00:52:16.880
+del Ross è costante in ogni punto della linea e
+
+463
+00:52:16.880 --> 00:52:24.520
+questo l'ho scritto in rosso e aggiungo, non è scritto nella slide, quindi eh
+
+464
+00:52:24.520 --> 00:52:30.720
+come qualcuno sostiene che allungando o accorciando il cavo io posso posso
+
+465
+00:52:30.720 --> 00:52:37.079
+aggiustare il valore del ROS. Non è assolutamente vero. Poi vedremo in una
+
+466
+00:52:37.079 --> 00:52:43.440
+delle ultime slide che questa, come dire, credenza è in qualche modo
+
+467
+00:52:43.440 --> 00:52:49.240
+alimentata dal fatto che esistono degli strumenti che a volte in determinate
+
+468
+00:52:49.240 --> 00:52:55.079
+condizioni non ci dicono esattamente la verità.
+
+469
+00:52:55.920 --> 00:53:02.160
+Non è così invece per eh quanto riguarda il valore dell'impedenza, l'abbiamo visto nella
+
+470
+00:53:02.160 --> 00:53:08.200
+slide precedente, quindi il valore di Ross è costante in ogni punto della
+
+471
+00:53:08.200 --> 00:53:13.720
+linea. L'impedenza che si presenta lungo la linea invece
+
+472
+00:53:13.720 --> 00:53:19.760
+varia da punto a punto, determinando valori che, ripeto, variano
+
+473
+00:53:19.760 --> 00:53:24.799
+da un minimo a un massimo con ciclicità lambda quarti.
+
+474
+00:53:24.799 --> 00:53:31.599
+e e da un massimo a un minimo con sempre con lambda quarti.
+
+475
+00:53:31.599 --> 00:53:40.319
+Come vi ho detto, infatti lo stesso valore si ripete quindi ogni lambda/2.
+
+476
+00:53:41.119 --> 00:53:46.160
+Qui trovate delle formulette che mettono in relazione questi valori, cioè se voi
+
+477
+00:53:46.160 --> 00:53:52.240
+volete sapere qual è il valore massimo, scusate, il valore minimo è il valore
+
+478
+00:53:52.240 --> 00:53:59.480
+massimo che vi potreste trovare lungo una linea che ha un certo valore di
+
+479
+00:53:59.480 --> 00:54:05.079
+Ross, le formule ci dicono che il valore
+
+480
+00:54:05.079 --> 00:54:12.280
+minimo di impedenza è z0, cioè l'impedenza del caso del cavo diviso il
+
+481
+00:54:12.280 --> 00:54:17.880
+valore del Ross, mentre il massimo è l'impedenza del cavo per il valore di
+
+482
+00:54:17.880 --> 00:54:23.200
+Ross. Quindi, tanto per fare un esempio numerico che è più comprensibile, cavo
+
+483
+00:54:23.200 --> 00:54:30.920
+da 50 ohm Ross A2. L'impedenza che io avrò lungo la linea
+
+484
+00:54:30.920 --> 00:54:38.680
+varierà di continuo da punto a un punto, da un minimo di 25 ohm, 50 / 2 a un
+
+485
+00:54:38.680 --> 00:54:43.720
+massimo di 100 ohm 50* 2.
+
+486
+00:54:43.720 --> 00:54:50.400
+Ovviamente questi valori saranno presenti in punti ben determinati
+
+487
+00:54:50.400 --> 00:54:56.920
+lungo, diciamo, in punti intermedi saranno valori intermedi.
+
+488
+00:54:56.920 --> 00:55:03.680
+valori intermedi che poi vedremo in questa slide
+
+489
+00:55:03.680 --> 00:55:10.799
+avranno anche delle componenti induttive e capacitive anche se il
+
+490
+00:55:10.799 --> 00:55:17.559
+carico fosse puramente resistivo. Infatti determinare in modo analitico,
+
+491
+00:55:17.559 --> 00:55:23.240
+cioè calcolandolo, per così dire, quale valore può assumere l'impedenza in
+
+492
+00:55:23.240 --> 00:55:28.359
+un punto generico lungo la linea, non è un calcolo banale e quindi nessuno vi
+
+493
+00:55:28.359 --> 00:55:34.640
+chiederà mai di farlo e tra l'altro, come dire, non era facile calcolarlo
+
+494
+00:55:34.640 --> 00:55:41.520
+quando non esistevano i i computer o le calcolatrici, ma
+
+495
+00:55:41.520 --> 00:55:47.880
+comunque possiamo fare alcune considerazioni che sono interessanti.
+
+496
+00:55:48.000 --> 00:55:54.200
+Abbiamo già detto più volte che il valore minimo e massimo dipendono dal
+
+497
+00:55:54.200 --> 00:56:01.119
+valore dell'SVR, quindi del ROS. Quindi maggiore è il ROS, maggiore è l'escursione
+
+498
+00:56:01.119 --> 00:56:08.880
+tra massimo e minimo. Ma c'è un'altra cosa importante che vi ho appena accennato che anche nel caso
+
+499
+00:56:08.880 --> 00:56:16.400
+in cui il carico e la linea la linea sempre ha un'impedenza caratteristica
+
+500
+00:56:16.400 --> 00:56:22.520
+che è puramente resistiva e anche se il carico fosse puramente
+
+501
+00:56:22.520 --> 00:56:28.079
+resistivo, i valori di impedenza che io vedo dall'altro capo a seconda della
+
+502
+00:56:28.079 --> 00:56:34.000
+distanza assumeranno con una certa ciclicità
+
+503
+00:56:34.000 --> 00:56:40.079
+componenti oltre che resistive anche induttive o capacitive
+
+504
+00:56:40.079 --> 00:56:49.280
+a seconda di dove mi trovo, tranne che in punti precisi, ovvero a distanza
+
+505
+00:56:49.280 --> 00:56:54.319
+di un multiplo intero di lambda/.
+
+506
+00:56:54.319 --> 00:57:01.760
+Quindi anche qui faccio un esempio numerico, poi dopo ce ne saranno altri per capirsi. Considerate una linea, come
+
+507
+00:57:01.760 --> 00:57:08.079
+vi ho detto prima, da 50 ohm, chiusa su un carico
+
+508
+00:57:08.079 --> 00:57:15.160
+da 100 ohm. Io sicuramente lungo la linea avrò dei
+
+509
+00:57:15.160 --> 00:57:23.200
+valori che sono che saranno compresi, abbiamo visto, tra 25 e 100 ohm.
+
+510
+00:57:23.200 --> 00:57:29.319
+Ed in particolare io troverò ogni quarto d'onda
+
+511
+00:57:29.319 --> 00:57:37.480
+il valore minimo, cioè 25 ohm puramente resistivi e il valore massimo 100 ohm
+
+512
+00:57:37.480 --> 00:57:43.000
+puramente resistivi. Nei punti intermedi io troverò valori di
+
+513
+00:57:43.000 --> 00:57:49.280
+impedenza che avranno una parte resistiva che sarà compresa tra i 100
+
+514
+00:57:49.280 --> 00:57:56.520
+tra i 25 e i 100 ohm, ma insieme ci sarà una componente
+
+515
+00:57:56.520 --> 00:58:03.200
+capacitiva o induttiva. Questo anche se il carico è puramente resistivo e questo
+
+516
+00:58:03.200 --> 00:58:09.559
+attenzione perché anche questa cosa qui può portare a volte a prendere degli
+
+517
+00:58:09.559 --> 00:58:16.359
+abbagli colossali quando facciamo delle misure.
+
+518
+00:58:17.680 --> 00:58:22.760
+Ora, dicevo prima che
+
+519
+00:58:23.480 --> 00:58:29.319
+la condizione di onde stazionarie quindi genera
+
+520
+00:58:29.319 --> 00:58:34.799
+una situazione in cui la linea presenta un'impedenza
+
+521
+00:58:34.799 --> 00:58:40.319
+diversa da quella di terminazione e l'impedenza vista dal generatore quindi
+
+522
+00:58:40.319 --> 00:58:46.799
+varierà al variare della lunghezza elettrica della linea stessa con
+
+523
+00:58:46.799 --> 00:58:52.839
+ciclicità. l'abbiamo detto ormai 1000 volte pari a lambda/2, sebbene il valore
+
+524
+00:58:52.839 --> 00:58:59.119
+del ROST rimanga costante. Come dicevo prima, di questa cosa
+
+525
+00:58:59.119 --> 00:59:05.920
+dobbiamo tenere conto nel posizionamento, per esempio, di uno strumento se vogliamo effettuare delle
+
+526
+00:59:05.920 --> 00:59:11.960
+misure di impedenza. Questo perché se noi andiamo a misurare,
+
+527
+00:59:11.960 --> 00:59:20.319
+vogliamo misurare l'impedenza di un'antenna che non è perfettamente adattata e lo facciamo come dire
+
+528
+00:59:20.319 --> 00:59:26.119
+all'altra estremità del cavo o noi conosciamo esattamente la lunghezza del
+
+529
+00:59:26.119 --> 00:59:33.240
+cavo e soprattutto il cavo ha una lunghezza che è un multiplo intero di
+
+530
+00:59:33.240 --> 00:59:40.319
+lambda/2, altrimenti l'impedenza che noi andiamo a misurare non avrà niente a che vedere con
+
+531
+00:59:40.319 --> 00:59:46.920
+l'impedenza dell'antenna. Qui ho aggiunto una cosa m che però è
+
+532
+00:59:46.920 --> 00:59:56.079
+solo un accenno, poi se a qualcuno dovesse interessare se ne può parlare in separata sede. Eh, un modo abbastanza
+
+533
+00:59:56.079 --> 01:00:04.119
+semplice, perché calcolarlo non è facile, per avere un'indicazione di quale sia il valore di impedenza che io
+
+534
+01:00:04.119 --> 01:00:09.319
+posso vedere in un cavo di una lunghezza
+
+535
+01:00:09.319 --> 01:00:15.680
+generica. eh in regime di onde stazionarie è quello di usare un
+
+536
+01:00:15.680 --> 01:00:20.799
+diagramma polare che si chiama carta di Smith, che ci permette, una volta nota,
+
+537
+01:00:20.799 --> 01:00:27.799
+l'impedenza della linea e l'impedenza del carico di poter calcolare
+
+538
+01:00:27.799 --> 01:00:33.359
+sul sulla carta tutti i valori di impedenza lungo l'arco di mezza
+
+539
+01:00:33.359 --> 01:00:39.960
+lunghezza d'onda, poi se il cavo fosse più lungo, come abbiamo detto, si ripetono. E tra l'altro qui c'è un
+
+540
+01:00:39.960 --> 01:00:45.720
+esempio. Nel caso di Ross pari a 2, questo cerchio rosso rappresenta tutti i
+
+541
+01:00:45.720 --> 01:00:52.520
+valori che l'impedenza può assumere lungo il cavo. Però questa prendetela
+
+542
+01:00:52.520 --> 01:00:58.640
+così come eh come una chiacchierata. Nessuno ve lo chiederà e nessuno vi chiede di sapere
+
+543
+01:00:58.640 --> 01:01:04.200
+come utilizzare eh la carta di Smith,
+
+544
+01:01:05.920 --> 01:01:12.079
+però diciamo questo comportamento che abbiamo visto fino ad ora di una linea,
+
+545
+01:01:12.079 --> 01:01:18.920
+diciamo, in condizioni di di disadattamento di quindi di regime di onde stazionarie,
+
+546
+01:01:18.920 --> 01:01:25.960
+eh non è sempre, come dire negativo. può essere, ad esempio, utilmente
+
+547
+01:01:25.960 --> 01:01:31.240
+sfruttato come trasformatore di impedenza.
+
+548
+01:01:31.240 --> 01:01:37.760
+Questo deriva dal particolare comportamento che vi avevo già accennato
+
+549
+01:01:37.760 --> 01:01:45.839
+e che ha una linea lunga un/4 d'onda. Se io termino una linea lunga un quarto
+
+550
+01:01:45.839 --> 01:01:54.160
+d'onda, esattamente un quarto d'onda su un'impedenza diversa da quella della linea stessa, dall'altro capo avrò
+
+551
+01:01:54.160 --> 01:01:59.760
+sempre un'impedenza diversa, ma eh
+
+552
+01:01:59.760 --> 01:02:05.880
+diciamo dando per scontato che io l'ho terminato con un carico resistivo, sarà
+
+553
+01:02:05.880 --> 01:02:11.400
+puramente resistivo anche dall'altra parte. E
+
+554
+01:02:11.400 --> 01:02:18.559
+eh questo, per esempio, ci permette di adattare due valori diversi di impedenza
+
+555
+01:02:18.559 --> 01:02:25.119
+utilizzando un tronco di linea lungo lambda quarti. In particolare, qui c'è
+
+556
+01:02:25.119 --> 01:02:31.359
+una formulina che ci dice che se io voglio adattare l'impedenza, che io qui
+
+557
+01:02:31.359 --> 01:02:38.520
+indico come Z1 con un valore Z2, è sufficiente che io
+
+558
+01:02:38.520 --> 01:02:43.640
+ci metta in mezzo un tronco di linea lungo lambda quarti con un'impedenza
+
+559
+01:02:43.640 --> 01:02:49.640
+caratteristica che ha un valore pari alla radice quadrata del prodotto delle
+
+560
+01:02:49.640 --> 01:02:54.960
+due impedenze. Quindi facciamo un caso
+
+561
+01:02:54.960 --> 01:03:00.680
+per capirci che anche dei valori standard. Supponiamo che io ho un carico
+
+562
+01:03:00.680 --> 01:03:06.079
+da 100 ohm e lo voglio adattare ad un generatore a
+
+563
+01:03:06.079 --> 01:03:12.240
+50 ohm, come il caso nostro, lo posso fare tra i tanti modi con cui lo posso
+
+564
+01:03:12.240 --> 01:03:18.319
+fare interponendo un tronco di linea lungo lambda/
+
+565
+01:03:18.319 --> 01:03:25.799
+la cui impedenza è radice quadrata di 50%.
+
+566
+01:03:25.799 --> 01:03:31.799
+E quindi se vi fate il conto viene esattamente 75. Quindi ad esempio con un
+
+567
+01:03:31.799 --> 01:03:38.760
+tronco pezzo di cavo a 75 ohm io posso adattare un carico da 100 ohm a un
+
+568
+01:03:38.760 --> 01:03:50.359
+generatore a a 50 ohm. Questo, diciamo, è una cosa che si fa abbastanza spesso
+
+569
+01:03:50.359 --> 01:03:57.520
+in in VHF e anche per accoppiare più antenne o per
+
+570
+01:03:57.520 --> 01:04:03.240
+adattare impedenze che hanno valori, diciamo, che
+
+571
+01:04:03.240 --> 01:04:09.279
+particolari che si prestano. In realtà ci sono degli accoppiatori fatti proprio
+
+572
+01:04:09.279 --> 01:04:14.559
+in questo modo, cioè che sono dei tronchi di linea lunghi lambda quarti
+
+573
+01:04:14.559 --> 01:04:19.839
+calcolati proprio con un'impedenza specifica, per esempio, per adattare due
+
+574
+01:04:19.839 --> 01:04:27.079
+o quattro carichi a 50 ohm a un unico generatore a 50 ohm. Ma lo vedremo
+
+575
+01:04:27.079 --> 01:04:33.000
+magari nelle prossime due lezioni eh sulle antenne. Non vi voglio, come dire,
+
+576
+01:04:33.000 --> 01:04:41.240
+confondere le idee più di quanto già non lo stia facendo. Concetto è che il
+
+577
+01:04:41.240 --> 01:04:49.799
+fenomeno, il comportamento che si determina in una linea di regime di onde stazionarie, per quanto intrinsecamente
+
+578
+01:04:49.799 --> 01:04:56.640
+dannoso, in certi casi però può avere anche una qualche utilità. E quello è il
+
+579
+01:04:56.640 --> 01:05:02.160
+caso, per esempio, del cosiddetto trasformatore lambda/ trasformatore
+
+580
+01:05:02.160 --> 01:05:10.119
+quassiale lambda quarti. Un altro caso particolare eh di utilizzo
+
+581
+01:05:10.119 --> 01:05:16.880
+di un tronco di linea in regime di onde stazionarie è il caso particolare della
+
+582
+01:05:16.880 --> 01:05:23.039
+linea chiusa in corto circuito. una linea a un lunga un quarto d'onda
+
+583
+01:05:23.039 --> 01:05:29.640
+chiusa in corto circuito presenta un'impedenza infinita dall'altro lato
+
+584
+01:05:29.640 --> 01:05:36.079
+e in questo particolare caso, per lunghezze diverse dal quarto d'onda, la
+
+585
+01:05:36.079 --> 01:05:42.160
+linea in corto circuito si comporta come un'induttanza pura per lunghezze
+
+586
+01:05:42.160 --> 01:05:48.680
+inferiori a lambda quarti e come capacità pura per lunghezze comprese fra
+
+587
+01:05:48.680 --> 01:05:54.880
+lambda/ quarti e lambda/2. In caso di linea aperta il comportamento
+
+588
+01:05:54.880 --> 01:06:00.880
+è esattamente l'opposto. Questo vi dovrebbe ricordare qualcosa. Quindi
+
+589
+01:06:00.880 --> 01:06:08.119
+possiamo quindi affermare che un tronco di linea lungo un quarto d'onda aperto
+
+590
+01:06:08.119 --> 01:06:14.319
+si comporta esattamente come un circuito risonante serie, mentre un un tronco di
+
+591
+01:06:14.319 --> 01:06:20.119
+linea lungo lambda quarti chiuso in corto circuito si comporta come un
+
+592
+01:06:20.119 --> 01:06:27.000
+circuito risonante parallelo. Anche questa, come dire, è una cosa che
+
+593
+01:06:27.000 --> 01:06:33.039
+non vi verrà chiesto all'esame, ma magari è interessante saperlo, anche
+
+594
+01:06:33.039 --> 01:06:38.279
+perché in alta frequenza, su frequenze molto elevate,
+
+595
+01:06:38.279 --> 01:06:45.079
+si utilizza questa questo particolare comportamento delle linee per realizzare
+
+596
+01:06:45.079 --> 01:06:52.079
+i circuiti risonanti ad elevato valore eh di Q, cioè con Q
+
+597
+01:06:52.079 --> 01:07:00.640
+elevato, quindi famosi risonatori coassiali eh sono o o
+
+598
+01:07:00.640 --> 01:07:06.559
+linee risonanti utilizzati come filtri sostanzialmente
+
+599
+01:07:06.559 --> 01:07:14.440
+sfruttano questo questa particolare caratteristica di una linea aperta o in corto circuito
+
+600
+01:07:14.440 --> 01:07:22.799
+lunga un quarto d'onda, però ti ripeto mh non è una cosa che eh
+
+601
+01:07:22.799 --> 01:07:28.799
+nessuno non vi chiederà mai in sede d'esame.
+
+602
+01:07:31.200 --> 01:07:36.880
+Quindi torniamo un attimino al discorso delle onde stazionarie.
+
+603
+01:07:36.880 --> 01:07:44.160
+Come già detto, la conseguenza di un disadattamento tra la linea e il carico
+
+604
+01:07:44.160 --> 01:07:49.359
+è un regime di onde stazionarie e in conseguenza
+
+605
+01:07:49.359 --> 01:07:55.559
+della presenza di onde stazionarie una conseguenza è che una parte dell'energia
+
+606
+01:07:55.559 --> 01:08:02.440
+erogata dal generatore raggiunge il carico, mentre una parte viene persa.
+
+607
+01:08:02.440 --> 01:08:08.640
+La quota di energia non assorbita dal carico, cioè quella cosiddetta riflessa,
+
+608
+01:08:08.640 --> 01:08:15.640
+in genere si dissipa nel cavo coziale e nel generatore stesso, nel nostro
+
+609
+01:08:15.640 --> 01:08:23.798
+trasmettitore. Ma attenzione, contrariamente a quanto comunemente si crede, la quota parte di
+
+610
+01:08:23.799 --> 01:08:29.199
+energia persa è abbastanza limitata
+
+611
+01:08:29.199 --> 01:08:35.480
+fintanto i valori che i valori di Ross sono minori di 3. Io qui vi riportato
+
+612
+01:08:35.480 --> 01:08:42.318
+una tabellina che ci dice la percentuale di potenza riflessa e la perdita in
+
+613
+01:08:42.319 --> 01:08:49.758
+termini di DB in funzione del valore del Ross. E vedete che perlomeno fino a due
+
+614
+01:08:49.759 --> 01:08:56.318
+la percentuale è molto bassa, siamo sotto al 10%,
+
+615
+01:08:56.319 --> 01:09:04.798
+sale al 25% con un Ross di 3, poi e sale molto più
+
+616
+01:09:04.799 --> 01:09:12.000
+drasticamente per valori più elevati. Però attenzione perché vi dico questo.
+
+617
+01:09:12.000 --> 01:09:19.719
+Un valore di Ross elevato, sebbene fino a tre, come dire percentualmente
+
+618
+01:09:19.719 --> 01:09:26.440
+non sia enorme la potenza persa, può però determinare una condizione anomala
+
+619
+01:09:26.440 --> 01:09:34.480
+di funzionamento del trasmettitore della linea. Intanto la presenza di massimi e minimi nella
+
+620
+01:09:34.480 --> 01:09:41.838
+linea fa sì che il valore della linea di attenuazione della linea stessa aumenti.
+
+621
+01:09:41.839 --> 01:09:48.080
+Quindi attenzione, l'attenuazione di un cavo, quella nominale riportata dal
+
+622
+01:09:48.080 --> 01:09:54.238
+costruttore è relativa alle condizioni di perfetto adattamento,
+
+623
+01:09:54.239 --> 01:10:01.080
+cioè di regime di onde progressive. Se io sono in condizioni di disadattamento
+
+624
+01:10:01.080 --> 01:10:08.000
+e quindi ho del Ross, intanto la prima conseguenza è che il cavo attenua di più
+
+625
+01:10:08.000 --> 01:10:15.239
+e attenua di più semplicemente perché è sottoposto a tensioni e correnti più
+
+626
+01:10:15.239 --> 01:10:22.679
+elevate rispetto alle condizioni di perfetto adattamento.
+
+627
+01:10:22.679 --> 01:10:30.000
+Inoltre, se uso potenze elevate, queste condizioni possono portare al
+
+628
+01:10:30.000 --> 01:10:36.760
+danneggiamento del cavo e del trasmettitore. C'è però anche un altro aspetto che non
+
+629
+01:10:36.760 --> 01:10:42.159
+deve essere sottovalutato, specialmente quando i valori di Ross non
+
+630
+01:10:42.159 --> 01:10:49.120
+sono così elevati, ma è
+
+631
+01:10:49.120 --> 01:10:57.400
+il fatto, come abbiamo visto, che la linea può presentare al trasmettitore un valore di impedenza che può essere
+
+632
+01:10:57.400 --> 01:11:02.960
+se anche sensibilmente diverso dal valore nominale, anche con Ross non
+
+633
+01:11:02.960 --> 01:11:08.560
+molto elevato. l'avevamo visto negli negli esempi precedenti. E questo che
+
+634
+01:11:08.560 --> 01:11:15.400
+cosa comporta? Eh, nell'elettrotecnica c'è un teorema che è noto con il nome
+
+635
+01:11:15.400 --> 01:11:21.920
+del teorema del massimo trasferimento di potenza e questo ci dice che la massima
+
+636
+01:11:21.920 --> 01:11:30.000
+potenza che un generatore può erogare su un carico si ha quando il questi sono i
+
+637
+01:11:30.000 --> 01:11:36.520
+termini che recita il l'enunciato quando il valore dell'impedenza del carico è
+
+638
+01:11:36.520 --> 01:11:42.560
+pari al complesso coniugato dell'impedenza interna del generatore. proviamo a tradurlo in
+
+639
+01:11:42.560 --> 01:11:49.560
+parole più semplici e comprensibili per noi che non siamo scienziati, ovvero
+
+640
+01:11:49.560 --> 01:11:56.639
+il massimo trasferimento di energia da un generatore ad un carico si ha quando
+
+641
+01:11:56.639 --> 01:12:02.800
+l'impedenza del carico ha la stessa componente resistiva dell'impedenza
+
+642
+01:12:02.800 --> 01:12:09.520
+interna del generatore e componente reattiva di segno opposto allo allo
+
+643
+01:12:09.520 --> 01:12:17.080
+scopo di annullarsi reciprocamente. Quindi, perché il mio trasmettitore
+
+644
+01:12:17.080 --> 01:12:23.840
+possa erogare la massima potenza è necessario massima potenza che può
+
+645
+01:12:23.840 --> 01:12:29.920
+erogare a prescindere dai problemi che può subire in caso di disadattamento,
+
+646
+01:12:29.920 --> 01:12:38.840
+però la potenza nominale la potrà erogare soltanto se vedrà un carico che è puramente
+
+647
+01:12:38.840 --> 01:12:45.679
+resistivo e pari alla sua impedenza, che per gli apparti dati moderni sono i 50
+
+648
+01:12:45.679 --> 01:12:51.400
+ohm puramente resistivi. Quindi questo è
+
+649
+01:12:51.400 --> 01:12:56.960
+un ulteriore motivo, forse anche più importante rispetto alla perdita
+
+650
+01:12:56.960 --> 01:13:04.400
+aggiuntiva che posso avere sul cavo dovuto al disadattamento, per cui è bene che il Ross sia più basso
+
+651
+01:13:04.400 --> 01:13:10.159
+possibile perché abbiamo visto prima che già con un Ross di 2, che non è un
+
+652
+01:13:10.159 --> 01:13:18.560
+valore particolarmente elevato, la potenza riflessa è dell'ordine del 10%
+
+653
+01:13:18.560 --> 01:13:23.639
+della potenza che gli arriva. Il problema è che con un Ross di 2 io posso
+
+654
+01:13:23.639 --> 01:13:29.000
+avere all'estremità del cavo un'impedenza che invece di 50
+
+655
+01:13:29.000 --> 01:13:37.560
+può andare da 25 a 100 ohm e sicuramente il trasmettitore con 25 o con 100 ohm
+
+656
+01:13:37.560 --> 01:13:44.159
+non eroga tutta la potenza che può erogare. Quindi
+
+657
+01:13:44.159 --> 01:13:50.679
+le due condizioni si sommano, per cui non è tanto la potenza che perdo perché
+
+658
+01:13:50.679 --> 01:13:55.800
+è riflessa, ma è il fatto che il disadattamento
+
+659
+01:13:55.800 --> 01:14:01.360
+non permette al trasmettitore di poter lavorare nelle condizioni ottimali ed
+
+660
+01:14:01.360 --> 01:14:08.239
+erogare la massima potenza. Quindi questo è un motivo per cui il
+
+661
+01:14:08.239 --> 01:14:13.679
+Ross deve essere il più basso possibile. Quindi un metodo per eliminare quindi
+
+662
+01:14:13.679 --> 01:14:22.960
+questi effetti d'annosi dovuti a un elevato valore di Ross è quello, ad esempio, di impiegare un accordatore.
+
+663
+01:14:22.960 --> 01:14:28.960
+che altro che non è che un dispositivo in grado di adattare fra loro due valori
+
+664
+01:14:28.960 --> 01:14:34.560
+di impedenza, abbiamo visto prima lo in con determinati valori, in determinate
+
+665
+01:14:34.560 --> 01:14:41.520
+condizioni, lo posso fare anche semplicemente con un tronco di linea lambda quarti.
+
+666
+01:14:41.520 --> 01:14:47.320
+La condizione ottimale, però, attenzione, sarebbe quella di porre l'accordatore in prossimità
+
+667
+01:14:47.320 --> 01:14:53.239
+dell'antenna. Questo per far modo che sia la linea che il trasmettitore siano
+
+668
+01:14:53.239 --> 01:14:58.679
+in condizioni di perfetto adattamento. Diciamo che molto più frequentemente
+
+669
+01:14:58.679 --> 01:15:06.719
+l'accordatore in genere sta all'uscita del trasmettitore, però in questo caso si elimina il
+
+670
+01:15:06.719 --> 01:15:13.080
+disadattamento m verso il trasmettitore, quindi eliminiamo la possibilità di
+
+671
+01:15:13.080 --> 01:15:18.280
+sovraccarichi e permettiamo al trasmettitore di erogare la massima potenza.
+
+672
+01:15:18.280 --> 01:15:23.679
+ma non si elimina il disadattamento lungo la linea.
+
+673
+01:15:23.679 --> 01:15:30.840
+In questo caso, quindi il Ross in linea rimane elevato se era elevato ed è
+
+674
+01:15:30.840 --> 01:15:37.040
+comunque causa, come abbiamo detto, di valori di attenuazione anche molto maggiori di quelli nominali. Quindi
+
+675
+01:15:37.040 --> 01:15:44.239
+questo è il motivo per cui se io ho un Ross abbastanza alto e uso l'accordatore
+
+676
+01:15:44.239 --> 01:15:50.760
+sul trasmettitore, diciamo, risolvo il problema che non brucio i finali, risolvo il problema che
+
+677
+01:15:50.760 --> 01:15:56.440
+il trasmettitore mi eroga tutta la potenza, però probabilmente in antenna
+
+678
+01:15:56.440 --> 01:16:03.920
+non ne arriva molta di questa potenza. Quindi, ripeto, eh quando è possibile la
+
+679
+01:16:03.920 --> 01:16:10.199
+condizione migliore è che l'adattamento sia realizzato direttamente
+
+680
+01:16:10.199 --> 01:16:17.080
+al nel punto di connessione tra la linea e l'antenna.
+
+681
+01:16:17.719 --> 01:16:26.800
+Oh! Eh vediamo adesso eh gli strumenti per la misura del ROS.
+
+682
+01:16:26.800 --> 01:16:33.840
+M credo che sia, come dire, una cosa che conoscete tutti bene, che per la misura
+
+683
+01:16:33.840 --> 01:16:40.679
+del Rossi in genere si utilizza uno strumento che sia in grado di rilevare
+
+684
+01:16:40.679 --> 01:16:46.920
+attraverso la misura della potenza diretta, della potenza riflessa,
+
+685
+01:16:46.920 --> 01:16:54.400
+il valore di Ross. Quindi è uno strumento, sostanzialmente è un wattmetro direzionale che è in grado di
+
+686
+01:16:54.400 --> 01:17:01.440
+misurare separatamente la potenza diretta e la potenza riflessa, ovvero
+
+687
+01:17:01.440 --> 01:17:08.080
+quella che dal trasmettitore fluisce all'antenna e quella che dall'antenna
+
+688
+01:17:08.080 --> 01:17:15.320
+torna indietro per il disadattamento. Tra i valori di potenza diventa
+
+689
+01:17:15.320 --> 01:17:20.760
+c'è una relione e il valore di rostra
+
+690
+01:17:20.760 --> 01:17:28.760
+in queste formule può essere calcolato non di retta
+
+691
+01:17:30.679 --> 01:17:38.000
+e conoscere la potenza riflessa e conosco il valore
+
+692
+01:17:38.000 --> 01:17:42.920
+posso calcolarmi la potenza
+
+693
+01:17:46.480 --> 01:17:53.239
+Come dicevamo per l'accordatore
+
+694
+01:17:53.520 --> 01:18:00.080
+corretta misura del valore di rotbe opportuno effettuarla ponendo lo
+
+695
+01:18:00.080 --> 01:18:05.120
+strumento direttamente tra la linea dell'antenna,
+
+696
+01:18:05.120 --> 01:18:11.080
+cosa spesso abbastanza complicata e mi direte voi, ma perché Se mi hai
+
+697
+01:18:11.080 --> 01:18:16.440
+detto prima un po' di slide fa che il valore di Ross è costante in qualsiasi
+
+698
+01:18:16.440 --> 01:18:23.320
+punto della linea, quindi in qualsiasi punto lo misuri, dovrei poter leggere
+
+699
+01:18:23.320 --> 01:18:30.199
+sempre lo stesso valore di Ross. In teoria sì, nella pratica no. in realtà
+
+700
+01:18:30.199 --> 01:18:36.199
+per due motivi. Adesso li vediamo perché eh effettuando la misura
+
+701
+01:18:36.199 --> 01:18:42.800
+all'uscita del trasmettitore si può correre il rischio di di leggere valori
+
+702
+01:18:42.800 --> 01:18:49.520
+di rossa non attendibili, soprattutto se l'attenuazione del cavo non è trascurabile
+
+703
+01:18:49.520 --> 01:18:56.760
+e soprattutto se la misura non è effettuata con un accoppiatore direzionale.
+
+704
+01:18:56.760 --> 01:19:04.880
+Purtroppo molti strumenti commerciali di basso costo non usano accoppiatori direzionali per fare la misura, ma usano
+
+705
+01:19:04.880 --> 01:19:11.239
+dei ponti di misura. Sono due tipologie quelle più comuni e
+
+706
+01:19:11.239 --> 01:19:17.239
+il Bur Bridge e Tandem Bridge che in particolari condizioni
+
+707
+01:19:17.239 --> 01:19:24.040
+sostanzialmente di impedenza e quindi in particol secondo di dove sono posti lungo la
+
+708
+01:19:24.040 --> 01:19:29.920
+linea possono non obbligatoriamente ma possono dare delle misure non del
+
+709
+01:19:29.920 --> 01:19:35.639
+tutto attendibili. Comunque anche l'accoppiatore direzionale può dare
+
+710
+01:19:35.639 --> 01:19:42.199
+misure non del tutto attendibili perché, come vi ho detto, misura potenza
+
+711
+01:19:42.199 --> 01:19:48.560
+diretta e potenza riflessa. Se, come vedremo nella slide successiva,
+
+712
+01:19:48.560 --> 01:19:55.840
+il cavo ha una certa attenuazione, non è così indifferente dove io faccio la
+
+713
+01:19:55.840 --> 01:20:04.159
+misura. E vediamolo con un esempio che ci può chiarire bene questo concetto. Prendiamo
+
+714
+01:20:04.159 --> 01:20:11.080
+il un caso tipico, trasmettitore da 100 W, una linea in cavo che ha
+
+715
+01:20:11.080 --> 01:20:16.880
+un'attenuazione complessiva di 2 dB. Non sono pochi, ma non sono nemmeno
+
+716
+01:20:16.880 --> 01:20:22.520
+tantissimi, cioè un caso potrebbe essere un caso assolutamente reale. E
+
+717
+01:20:22.520 --> 01:20:30.480
+un'antenna disadattata che ha un Ross di 3, ovvero che mi riflette indietro il
+
+718
+01:20:30.480 --> 01:20:36.639
+25% della potenza eh che gli viene fornita.
+
+719
+01:20:36.639 --> 01:20:41.840
+Quindi se io faccio la misura del Ross lato antenna, il mio accoppiatore
+
+720
+01:20:41.840 --> 01:20:50.000
+direzionale e la faccio anche con uno strumento professionale, il mio accoppiatore direzionale leggerà 63 W
+
+721
+01:20:50.000 --> 01:20:56.560
+diretti perché i 100 W del trasmettitore che passano attraverso il cavo che aten
+
+722
+01:20:56.560 --> 01:21:04.400
+2 dB diventano 63 W all'antenna. l'antenna ne riflette il 25%,
+
+723
+01:21:04.400 --> 01:21:10.760
+quindi la potenza riflessa sarà 16 W. Se voi mettete questi due valori in questa
+
+724
+01:21:10.760 --> 01:21:19.120
+formulina e fate il conto, il ross è 3 e infatti lo strumento qui mi dirà ross 3.
+
+725
+01:21:19.120 --> 01:21:24.840
+Ma se nelle stesse esatte condizioni io lo strumento lo metto da quest'altra
+
+726
+01:21:24.840 --> 01:21:30.239
+parte, cioè il lato trasmettitore, lo strumento verrà una potenza diretta
+
+727
+01:21:30.239 --> 01:21:35.960
+di 100 W e sono quelli erogati dal trasmettitore che diventano 63
+
+728
+01:21:35.960 --> 01:21:43.760
+all'antenna. L'antenna ne riflette 16 indietro perché è 25%.
+
+729
+01:21:43.760 --> 01:21:48.840
+Questi 16 percorrono il cavo a rovescio e subiscono i due db di attenuazione
+
+730
+01:21:48.840 --> 01:21:54.600
+diventano 10. In questo caso lo strumento vedrà potenza diretta 100,
+
+731
+01:21:54.600 --> 01:22:01.800
+potenza riflessa 10. Lo mettete in questa formula e il Ross letto sarà 1,9.
+
+732
+01:22:01.800 --> 01:22:08.639
+Quindi la misura fatta qui mi dice bah sì un po' di Ross ma non è enorme 1,9
+
+733
+01:22:08.639 --> 01:22:16.639
+mentre in realtà sull'antenna il Ross è 3. Poi tenete conto del fatto che se
+
+734
+01:22:16.639 --> 01:22:22.679
+questo è il valore di attenuazione nominale del cavo, probabilmente le cose
+
+735
+01:22:22.679 --> 01:22:27.960
+saranno ancora peggiori perché come vi ho detto il cavo in regime di onde
+
+736
+01:22:27.960 --> 01:22:34.560
+stazionarie avrà un'atenuazione maggiore rispetto a quella nominale.
+
+737
+01:22:34.560 --> 01:22:42.159
+Poi, se interessa, ci sono tabelle grafici per che che ci possono dire di
+
+738
+01:22:42.159 --> 01:22:49.080
+quanto aumenta l'attenuazione di un cavo in funzione del del Ross. Però già anche
+
+739
+01:22:49.080 --> 01:22:55.639
+considerando il valore nominale vedete una differenza importante. il valore è
+
+740
+01:22:55.639 --> 01:23:02.719
+3, ma quello che leggo misurandolo da questo lato è 1,9.
+
+741
+01:23:03.440 --> 01:23:10.440
+Eh, come eh potete vedere qui, ho rimesso la la stessa formulina, non può
+
+742
+01:23:10.440 --> 01:23:15.880
+che essere così perché lo strumento che vede 100 W, quindi non è un problema
+
+743
+01:23:15.880 --> 01:23:21.719
+dello strumento in questo caso, 100 W di potenza diretta e 10 W di potenza
+
+744
+01:23:21.719 --> 01:23:31.280
+riflessa, quindi il rapporto è circa il 10% e quindi siamo intorno a 1 a 1,9
+
+745
+01:23:31.560 --> 01:23:38.560
+Oh, un'ultima cosa e poi diciamo abbiamo praticamente finito, quindi siamo in
+
+746
+01:23:38.560 --> 01:23:43.880
+netto anticipo, ci possiamo eventualmente dedicare se necessario, a
+
+747
+01:23:43.880 --> 01:23:50.520
+qualche approfondimento. Quando si parla di guadagno si fa generalmente
+
+748
+01:23:50.520 --> 01:23:58.400
+riferimento o di attenuazione a rapporto tra due valori di potenza.
+
+749
+01:23:58.400 --> 01:24:05.600
+Questo rapporto viene normalmente espresso con unità di misura che è il decibel. Io non so se nelle precedenti
+
+750
+01:24:05.600 --> 01:24:14.239
+lezioni già vi è stato spiegato che cos'è il decibel come unità di misura.
+
+751
+01:24:14.239 --> 01:24:20.639
+Ma poiché eh sia stasera e soprattutto le prossime sere quando parleremo delle
+
+752
+01:24:20.639 --> 01:24:29.560
+antenne, il decibel, come dire, verrà nominato molto spesso, ho inserito un
+
+753
+01:24:29.560 --> 01:24:35.120
+una slide con la definizione dell'unità di misura. Quindi la definizione del di
+
+754
+01:24:35.120 --> 01:24:42.560
+questa unità di misura, cioè del decibel, ci dice che il valore eh in DB di un
+
+755
+01:24:42.560 --> 01:24:51.400
+guadagno o un'attenuazione espresso, come ci dice la formula, 10
+
+756
+01:24:51.400 --> 01:24:59.440
+volte il logaritmo del rapporto tra le potenze. Che cosa vuol dire? lo vediamo
+
+757
+01:24:59.440 --> 01:25:04.600
+meglio con qualche esempio numerico. Sostanzialmente il decibel è una
+
+758
+01:25:04.600 --> 01:25:10.440
+grandezza logaritmica, mentre il rapporto è una grandezza
+
+759
+01:25:10.440 --> 01:25:17.920
+lineare. Quindi, se io ho un rapporto in potenza pari a due, cioè ho una potenza
+
+760
+01:25:17.920 --> 01:25:23.719
+in uscita che è il doppio della potenza in ingresso, sono nel caso di un
+
+761
+01:25:23.719 --> 01:25:30.119
+guadagno, ho guadagnato l'uscita superiore all'ingresso e un un rapporto
+
+762
+01:25:30.119 --> 01:25:36.000
+di 2 equivale a 3db. Se il rapporto è pari a 4, cioè se la
+
+763
+01:25:36.000 --> 01:25:43.840
+potenza in uscita è 4 volte la potenza in ingresso, i DB sono 6.
+
+764
+01:25:43.840 --> 01:25:51.719
+Se il rapporto è 10, guarda caso qui coincide, sono 10. Se è 100 sono 20, se
+
+765
+01:25:51.719 --> 01:25:58.280
+è 1000 sono 30. Quindi il valore di B sostanzialmente è una scala logaritmica
+
+766
+01:25:58.280 --> 01:26:05.679
+dei rapporti in potenza. valori che sono speculari e negativi
+
+767
+01:26:05.679 --> 01:26:11.480
+quando invece di un guadagno si tratta di un'attenzione, ovvero quando l'uscita
+
+768
+01:26:11.480 --> 01:26:19.159
+è minore dell'ingresso. Quindi se io perdo metà della potenza perdo 3 dB.
+
+769
+01:26:19.159 --> 01:26:27.280
+Se perdo 3/4 della potenza sono 6 dB. Se perdo eh
+
+770
+01:26:27.280 --> 01:26:35.920
+10 volte la potenza sono -10 di B, un centimo 20, un millesimo 30. Quindi
+
+771
+01:26:35.920 --> 01:26:43.639
+passare da IDB al rapporto reale eh richiede calcolo con
+
+772
+01:26:43.639 --> 01:26:50.159
+questa formulina, però secondo me è sufficiente che impariate un paio di
+
+773
+01:26:50.159 --> 01:26:59.280
+valori eh come dire notevoli che sono il 3dB che è il doppio, la metà, il 6 che è
+
+774
+01:26:59.280 --> 01:27:05.400
+il quadruplo o il quarto, il 10 che è 10 volte o 1/ deo.
+
+775
+01:27:05.400 --> 01:27:11.760
+Nelle domande d'esami qualche volta capiterà, ma sono conti che possono
+
+776
+01:27:11.760 --> 01:27:20.400
+essere fatti con questi valori più o meno standard. Nessuno vi darà mai un valore strano che richieda di dover fare
+
+777
+01:27:20.400 --> 01:27:26.760
+un calcolo utilizzando questa formula. Ecco, quello che è importante
+
+778
+01:27:26.760 --> 01:27:34.600
+eh ricordare è che quando si parla di guadagno i valori sono positivi. Quando
+
+779
+01:27:34.600 --> 01:27:40.800
+si parla di attenuazione i valori negativi. Qualcuno si potrebbe
+
+780
+01:27:40.800 --> 01:27:45.960
+domandare ma perché complicarsi tanto la vita per per
+
+781
+01:27:45.960 --> 01:27:51.639
+utilizzare una scala logaritmica di questo tipo? La
+
+782
+01:27:51.639 --> 01:27:56.920
+spiegazione è abbastanza semplice. Il vantaggio che si ha esprimendo valori di
+
+783
+01:27:56.920 --> 01:28:03.920
+guadagno di attzione in DB è data dal fatto che in una catena in cui ci siano
+
+784
+01:28:03.920 --> 01:28:11.600
+più elementi che introducano guadagni o attenuazioni, pensate per esempio al caso in cui si
+
+785
+01:28:11.600 --> 01:28:17.679
+voglia calcolare la potenza emessa da un'antenna che ha un certo guadagno,
+
+786
+01:28:17.679 --> 01:28:24.520
+alimentato da un cavo che ha una certa perdita. Ecco, in questo caso i valori
+
+787
+01:28:24.520 --> 01:28:31.159
+espressi in DB di attenuazione di guadagno possono essere semplicemente
+
+788
+01:28:31.159 --> 01:28:36.199
+sommati tra loro per calcolare il
+
+789
+01:28:36.199 --> 01:28:42.719
+complessivo. Quindi è l'utilizzo del
+
+790
+01:28:42.719 --> 01:28:51.159
+DB per questo calcolo facilita la l'operazione. Quindi, ad esempio, per
+
+791
+01:28:51.159 --> 01:28:57.480
+fare un dato numerico, supponiamo che io abbia un trasmettitore che eroga 100 W,
+
+792
+01:28:57.480 --> 01:29:02.600
+un'antenna che mi guadagna 6 dB,
+
+793
+01:29:02.600 --> 01:29:09.800
+un cavo che mi perde 3 dB. Quanta potenza effettivamente
+
+794
+01:29:09.800 --> 01:29:15.360
+eroga l'antenna. Lo vedremo poi meglio la prossima lezione sulle antenne quando
+
+795
+01:29:15.360 --> 01:29:22.320
+andremo a definire esattamente che cos'è l'RP. Comunque 100 W, 3 dB li perde il
+
+796
+01:29:22.320 --> 01:29:31.639
+cavo, 6 li guadagna l'antenna. Abbiamo detto che l'attenuazione è negativa, quindi 6 - 3 per cui il guadagno
+
+797
+01:29:31.639 --> 01:29:39.239
+complessivo dell'insieme cavo e antenna sono 3 dB. 6 della di guadagno dell'antenna meno i
+
+798
+01:29:39.239 --> 01:29:44.840
+tre di perdita del cavo. Abbiamo visto che 3 dib vuol dire il doppio, quindi la
+
+799
+01:29:44.840 --> 01:29:52.040
+nostra antenna, la potenza effettivamente erogata dalla nostra antenna saranno 200 W se il
+
+800
+01:29:52.040 --> 01:29:57.440
+trasmettitore ne eroga 100.
+
+801
+01:29:57.560 --> 01:30:04.560
+Eh, giusto un una precisazione, l'abbiamo l'avevo già detto all'inizio,
+
+802
+01:30:04.560 --> 01:30:13.480
+il valore di attenuazione di un cavo dipende dalla frequenza e dalla lunghezza del cavo. Quindi il valore
+
+803
+01:30:13.480 --> 01:30:19.880
+complessivo di attenuazione di una linea lunga un certo numero di metri può
+
+804
+01:30:19.880 --> 01:30:25.960
+essere ottenuto moltiplicando il valore di attenuazione fornito dal
+
+805
+01:30:25.960 --> 01:30:28.960
+costruttore.
+
+806
+01:30:40.800 --> 01:30:51.880
+Abbiam perso Paolo. Eh sì, per eh mi sa di sì. Sai, aspetta. Eh,
+
+807
+01:30:51.880 --> 01:30:59.840
+stavo cercando di O ha disattivato il microfono come l'altra volta. No, no, no, il microfono è attivo. Ah,
+
+808
+01:30:59.840 --> 01:31:06.800
+sì, lo vedo. Lo vediamo. Eh, vediamo un attimo. Diamogli un attimo per vedere
+
+809
+01:31:06.800 --> 01:31:12.880
+dalla lunghezza. Ma dipende anche dalla frequenza. Sì,
+
+810
+01:31:12.880 --> 01:31:18.920
+e abbiamo perso l'ultimo minuto. Ah, perfetto,
+
+811
+01:31:18.920 --> 01:31:24.920
+perfetto. Quindi, ma su questa slide eh, c Esatto, eravamo qui. Sì,
+
+812
+01:31:24.920 --> 01:31:30.520
+sì, più o meno, più o meno, più o meno,
+
+813
+01:31:30.560 --> 01:31:39.560
+diciamo, ripeti gli ultimi 60 secondi più o meno e e ci siamo e siamo sicuri. Allora, ma ma intanto mi
+
+814
+01:31:39.560 --> 01:31:47.880
+adesso mi sentite regolarmente? Adesso sì, perfettamente. M allora stavo dicendo, tra l'altro,
+
+815
+01:31:47.880 --> 01:31:53.000
+come dire, è l'ultima slide, quindi sembra quasi che sia stato un dispetto.
+
+816
+01:31:53.000 --> 01:31:59.280
+Allora, il vantaggio di utilizzare il DB Comunità di misura è dato dal
+
+817
+01:31:59.280 --> 01:32:04.600
+fatto che semplifica il calcolo di attimazione di guadagno complessivo in
+
+818
+01:32:04.600 --> 01:32:10.360
+una catena dove ci siano più elementi che contribuiscono al guadagno o
+
+819
+01:32:10.360 --> 01:32:15.480
+all'attenuazione. Perché in questo caso il calcolo è fatto
+
+820
+01:32:15.480 --> 01:32:21.600
+semplicemente sommando tra loro con l'opportuno segno, cioè sommando o
+
+821
+01:32:21.600 --> 01:32:27.400
+sottraendo i valori di guadagno rispettivamente o di attenuazione.
+
+822
+01:32:27.400 --> 01:32:34.960
+Perché ho detto nella slide precedente l'attenuazione è sempre un valore negativo, mentre il guadagno è un valore
+
+823
+01:32:34.960 --> 01:32:40.719
+positivo. E ho fatto l'esempio perché a volte una domanda di questo tipo può
+
+824
+01:32:40.719 --> 01:32:48.840
+capitare e quello del calcolo della potenza effettivamente irradiata da un'antenna
+
+825
+01:32:48.840 --> 01:32:54.119
+che ha un certo guadagno, ma che è alimentata da un cavo che ha una certa
+
+826
+01:32:54.119 --> 01:33:01.840
+attenuazione. Quindi questo calcolo è molto semplice perché sommando con gli opportuni segni
+
+827
+01:33:01.840 --> 01:33:08.960
+attenuazione guadagno io posso trovare come dire il guadagno, l'attenuazione
+
+828
+01:33:08.960 --> 01:33:15.960
+complessiva dell'intero sistema e quindi semplicemente calcolare il rapporto tra
+
+829
+01:33:15.960 --> 01:33:24.400
+le potenze. Facciamo un esempio banale, trasmettitore da 100 W, linea che perde
+
+830
+01:33:24.400 --> 01:33:29.520
+3dB. Guadag antenna che guadagna 6 dB.
+
+831
+01:33:29.520 --> 01:33:37.520
+Quanta potenza irradia l'antenna? 6 dB di guadagno dell'antenna - 3dB di
+
+832
+01:33:37.520 --> 01:33:43.800
+attenuazione del cavo. Fanno 3dB. Abbiamo visto nella tabellina di prima
+
+833
+01:33:43.800 --> 01:33:51.239
+che 3dB vuol dire il doppio della potenza, quindi 100 W diventano 200
+
+834
+01:33:51.239 --> 01:33:57.960
+di effettivamente irradiati dall'antenna. Quindi questo è un conto che si fa
+
+835
+01:33:57.960 --> 01:34:05.600
+semplicemente senza dover eh complicarsi troppo la vita. L'altra cosa che è bene
+
+836
+01:34:05.600 --> 01:34:10.880
+ricordare perché nella domanda d'esame potrebbe esserci il trabocchetto che non
+
+837
+01:34:10.880 --> 01:34:17.040
+vi viene data l'attenuazione effettiva della linea, ma vi viene dato il valore
+
+838
+01:34:17.040 --> 01:34:23.239
+di attenuazione al metro del cavo e la lunghezza del cavo. Quindi è chiaro che
+
+839
+01:34:23.239 --> 01:34:34.840
+per calcolare se il cavo attenua 0,2 dB a metro ed è lungo eh per dire eh 10 m o
+
+840
+01:34:34.840 --> 01:34:40.360
+15 m, facciamo il caso 15 m 02 * 15 fa 3
+
+841
+01:34:40.360 --> 01:34:46.760
+dB. L'altra cosa importante da sapere, non tanto per l'esame, ma quanto per voi
+
+842
+01:34:46.760 --> 01:34:52.080
+se andate a a cercarvi il valore di attenuazione di un cavo, come dichiarato
+
+843
+01:34:52.080 --> 01:34:58.960
+dal costruttore, che in genere troverete non un valore singolo, ma una tabella,
+
+844
+01:34:58.960 --> 01:35:05.719
+perché l'attenuazione dipende dalla frequenza, l'avevamo detto all'inizio. Quindi l'attenuazione al
+
+845
+01:35:05.719 --> 01:35:13.199
+metro del cavo. Se voi vi volete calcolare l'attenuazione della vostra linea dovete considerare il valore della
+
+846
+01:35:13.199 --> 01:35:21.600
+frequenza a cui lo utilizzate. Per cui una stessa linea, per esempio nel caso che alimenti, antenne multibanda, avrà
+
+847
+01:35:21.600 --> 01:35:29.800
+attenuazioni diverse a seconda della frequenza di utilizzo. Ma su questo argomento ci torneremo le prossime due
+
+848
+01:35:29.800 --> 01:35:36.159
+serate quando parleremo delle antenne. Io stasera avrei finito qui, siamo un
+
+849
+01:35:36.159 --> 01:35:42.280
+pochino in anticipo, quindi c'è spazio per domande, chiarimenti, curiosità e
+
+850
+01:35:42.280 --> 01:35:49.679
+quant'altro. Fra l'altro mi prima di passare il
+
+851
+01:35:49.679 --> 01:35:57.480
+abbiamo una mano alzata da parte di Marco. Paolo, se sei d'accordo, proietteremo le
+
+852
+01:35:57.480 --> 01:36:04.520
+giuste risposte corrette perché abbiamo avuto abbiamo scoperto dov'era il problema. Eh,
+
+853
+01:36:04.520 --> 01:36:14.560
+perfetto. Allora, eh, ok. Intanto mentre noi ci prepariamo c'è una una mano alzata da Marco.
+
+854
+01:36:14.880 --> 01:36:21.000
+Vai Marco. Io ti parlo subito di cose molto reali.
+
+855
+01:36:21.000 --> 01:36:26.639
+Posizionamento del rosmetro che non puoi andare sul tetto. Va bene,
+
+856
+01:36:26.639 --> 01:36:34.440
+ci s andrà quando si metterà l'antenna giusta sul tetto. Eh, provvisoriamente
+
+857
+01:36:34.440 --> 01:36:41.040
+ehm lo metteresti prima di un commutatore d'antenna o dopo il commutatore
+
+858
+01:36:41.040 --> 01:36:47.400
+d'antenna? Cioè, quindi fra il commutatore d'antenna e l'apparecchio
+
+859
+01:36:47.400 --> 01:36:55.040
+RTX o dopo il commutatore d'antenna sulla linea che va direttamente all'antenna.
+
+860
+01:36:55.040 --> 01:37:02.360
+Allora, ti dovrei rispondere che è indifferente, nel senso perché qui si tratta di 20-30 cm. Eh,
+
+861
+01:37:02.360 --> 01:37:11.040
+non è che Esatto, ma non tanto per la lunghezza, eh, quanto per un eventuale discorso
+
+862
+01:37:11.040 --> 01:37:16.320
+legato all'attenuazione e all'adattamento, nel senso, se il
+
+863
+01:37:16.320 --> 01:37:22.520
+commutatore, come io mi aspetto che sia, è un buon commutatore, cioè è idoneo a
+
+864
+01:37:22.520 --> 01:37:28.040
+fare il suo lavoro alla frequenza in cui viene utilizzato, dovrebbe essere
+
+865
+01:37:28.040 --> 01:37:33.880
+abbastanza ininfluente, nel senso che dovrebbe non introdurre né
+
+866
+01:37:33.880 --> 01:37:41.280
+un'antenuazione né un disadattamento significativi. Magari può essere l'occasione per
+
+867
+01:37:41.280 --> 01:37:49.280
+verificarlo misurando prima e dopo. Però, come vi ho detto, attenzione
+
+868
+01:37:49.280 --> 01:37:56.880
+perché se siamo in presenza di valori di Ross, diciamo, limitati, molto bassi, in
+
+869
+01:37:56.880 --> 01:38:03.920
+genere non ci sono problemi, altrimenti, come dire, se la misura non è fatta con
+
+870
+01:38:03.920 --> 01:38:10.119
+uno strumento sufficientemente buono, diciamo così, a
+
+871
+01:38:10.119 --> 01:38:16.440
+volte c'è il rischio di avere letture diverse,
+
+872
+01:38:16.440 --> 01:38:22.719
+a seconda di dove si mette lo lo strumento, ma questo purtroppo per un
+
+873
+01:38:22.719 --> 01:38:27.840
+deficit dello strumento, perché come vi ho detto all'inizio,
+
+874
+01:38:27.840 --> 01:38:34.320
+il valore effettivo di Ross lungo una linea è costante, è sempre lo stesso. è
+
+875
+01:38:34.320 --> 01:38:41.560
+il sistema di misura che io adotto e che, ripeto, gli strumenti di basso
+
+876
+01:38:41.560 --> 01:38:48.599
+costo a volte non è proprio il massimo che può non leggere correttamente
+
+877
+01:38:48.599 --> 01:38:56.239
+questo valore. Però qui diciamo siamo un pochino
+
+878
+01:38:56.239 --> 01:39:03.599
+si parla sempre si passa si parla sempre per ora di 27 o borderline massimo 276
+
+879
+01:39:03.599 --> 01:39:10.920
+27 quindi e il Ross va da 1 e1 e du rimane
+
+880
+01:39:10.920 --> 01:39:16.159
+con Play l'adatti molto bene il Ross. Quindi, se siamo
+
+881
+01:39:16.159 --> 01:39:22.719
+sufficientemente adattati, non mi porrei il problema, casomai
+
+882
+01:39:22.719 --> 01:39:29.719
+mi porrei il problema dell'attuazione perché magari non sarà il caso tuo, ma
+
+883
+01:39:29.719 --> 01:39:35.840
+mettiamo il caso che io sto usando anche a in 11 m che comunque è una frequenza
+
+884
+01:39:35.840 --> 01:39:42.040
+relativamente bassa, ma per dire una discesa con l' RG58
+
+885
+01:39:42.040 --> 01:39:48.840
+e magari siccome devo fare un sacco di giri ne uso magari una trentina o 40 m.
+
+886
+01:39:48.840 --> 01:39:56.080
+No, ne sto usando. Ti dico subito, siccome sono abbastanza diretto, l'avevo preso 30, ma poi andando a stenderle
+
+887
+01:39:56.080 --> 01:40:04.239
+sono a 12,20 m. Ma RG58? R58 perché c'avevo problemi con il
+
+888
+01:40:04.239 --> 01:40:11.599
+passaggio. Allora e ora logicamente se si passa all'esame se cambia tipo cambierà minimo. Penso in
+
+889
+01:40:11.599 --> 01:40:17.480
+un RG8. Direi direi di sì. Ora, eh,
+
+890
+01:40:17.480 --> 01:40:23.560
+ma i metri son quelli, eh, meno 10 12 m. Se qualcuno ha le slide sottomano può
+
+891
+01:40:23.560 --> 01:40:29.199
+andare a vedere la tabella di attenuazione. Eh,
+
+892
+01:40:29.199 --> 01:40:35.560
+no, però qua in questa slide non c'è. Non c'era l' RG8, non c'era. No, no, ma non c'è perché ci vuole quella
+
+893
+01:40:35.560 --> 01:40:41.480
+con con tutte le frequenze per vedere quant'è la l'attenuazione
+
+894
+01:40:41.480 --> 01:40:47.800
+a a 30 MHz, però diciamo che su 10 m non
+
+895
+01:40:47.800 --> 01:40:53.440
+dovrebbe essere un valore importante. ecco, fossero già stati 30 m,
+
+896
+01:40:53.440 --> 01:41:00.239
+eh il rischio di di leggere un valore significativamente diverso, come vi ho
+
+897
+01:41:00.239 --> 01:41:07.639
+fatto vedere nell'esempio nelle ultime slide, ci poteva stare. Eh
+
+898
+01:41:07.639 --> 01:41:14.199
+e chiaramente salendo in frequenza questo problema diventa ancora più eh
+
+899
+01:41:14.199 --> 01:41:19.400
+significativo. Quindi, comunque, il concetto è che
+
+900
+01:41:19.400 --> 01:41:25.880
+quando si fa le misure, specialmente in alta frequenza, bisogna
+
+901
+01:41:25.880 --> 01:41:32.560
+sempre avere un occhio a al sistema nel suo complesso, cioè
+
+902
+01:41:32.560 --> 01:41:39.480
+quello che sto facendo, perché come vi ho detto proprio all'inizio delle slide di stasera,
+
+903
+01:41:39.480 --> 01:41:45.480
+quando la lunghezza d'onda del segnale a cui stiamo lavorando
+
+904
+01:41:45.480 --> 01:41:53.159
+non è trascurabile rispetto alle dimensioni del circuito sotto esame
+
+905
+01:41:53.159 --> 01:42:00.760
+possono accadere delle cose strane o quantomeno che che
+
+906
+01:42:00.760 --> 01:42:07.159
+sottovalutiamo. Quindi, per esempio, vi ho detto misurare il ross in cima e in fondo non
+
+907
+01:42:07.159 --> 01:42:14.880
+è la stessa cosa. Vedremo meglio la prossima settimana, anzi fra due settimane, perché nella seconda parte
+
+908
+01:42:14.880 --> 01:42:22.159
+delle antenne che le misure di impedenza sull'antenna farle con estrema con estrema cautela,
+
+909
+01:42:22.159 --> 01:42:28.760
+perché si rischia spesso di prendere degli abbagli anche banalmente. Vi
+
+910
+01:42:28.760 --> 01:42:34.320
+faccio un esempio e e che poi ritroverete nelle nelle slide della
+
+911
+01:42:34.320 --> 01:42:39.360
+prossime settimane. Se io vado a farmi la taratura
+
+912
+01:42:39.360 --> 01:42:46.480
+dell'antenna cercando con lo strumento
+
+913
+01:42:46.480 --> 01:42:54.040
+eh che mi misura l'impedenza alla base del cavo, cercando di trovare il valore
+
+914
+01:42:54.040 --> 01:43:02.199
+di impedenza puramente resistivo, nove volte su 10 rischio di prendere un
+
+915
+01:43:02.199 --> 01:43:09.760
+abbaglio perché, come vi ho detto Se la linea, quindi il cavo, non ha una
+
+916
+01:43:09.760 --> 01:43:17.480
+lunghezza elettrica pari a un multiplo intero di mezza lunghezza d'onda,
+
+917
+01:43:17.480 --> 01:43:23.880
+il fatto che l'antenna abbia un'impedenza puramente resistiva, cosa
+
+918
+01:43:23.880 --> 01:43:30.000
+che si verifica quand'è quando e qui vi anticipo un argomento che si verifica
+
+919
+01:43:30.000 --> 01:43:37.360
+quando l'antenna è alla risonanza, che l'antenna presenterà un'impedenza puramente ente resistiva solo alla
+
+920
+01:43:37.360 --> 01:43:44.520
+risonanza. Dall'altro capo del cavo, se c'è comunque disadattamento di impedenza,
+
+921
+01:43:44.520 --> 01:43:50.679
+pensate un'antenna che è risonante, ma non è ma il valore di impedenza non è 50
+
+922
+01:43:50.679 --> 01:43:56.639
+ohm, magari è 40 piuttosto che 30. Dall'altro capo io vedrò un valore di
+
+923
+01:43:56.639 --> 01:44:04.639
+impedenza, uno che non è i 30 ohm dell'antenna come parte resistiva e due,
+
+924
+01:44:04.639 --> 01:44:09.679
+molto più importante, che ha una componente induttiva o capacitiva a
+
+925
+01:44:09.679 --> 01:44:18.880
+seconda della lunghezza del cavo. Questo può far pensare, dice, "Eh, non sono in risonanza perché ho una componente, per
+
+926
+01:44:18.880 --> 01:44:25.280
+dire, induttiva e quindi devo accorciare un pochino l'antenna, no? errore è il
+
+927
+01:44:25.280 --> 01:44:31.960
+cavo che ti fa vedere eh questa cosa perché non siamo perfettamente adattati.
+
+928
+01:44:31.960 --> 01:44:39.040
+Quindi di questa cosa ne dobbiamo tenere eh conto. Siccome eh io dico purtroppo
+
+929
+01:44:39.040 --> 01:44:46.280
+da una parte per fortuna da un'altra ormai circolano strumenti, come dire eh
+
+930
+01:44:46.280 --> 01:44:53.679
+di facile reperibilità che permettono di far misure anche abbastanza facilmente.
+
+931
+01:44:53.679 --> 01:44:59.040
+Poi però queste misure bisogna anche saperle correttamente
+
+932
+01:44:59.040 --> 01:45:04.480
+interpretare perché sennò si rischia di prendere dei sonori abbagli.
+
+933
+01:45:04.480 --> 01:45:11.480
+Paolo ce le spiegherà nella prossima volta, ma con le antenne multibanda, con
+
+934
+01:45:11.480 --> 01:45:18.760
+bobine varie, le famose antenne multibanda che ti fanno 10 20 40 m,
+
+935
+01:45:18.760 --> 01:45:24.920
+eh quelle è un po' più difficile trovarla risonanza. uno si basa più sui
+
+936
+01:45:24.920 --> 01:45:32.880
+Ross con un buon apparecchio e spera di trovarlo bono o di averlo bono. Eh,
+
+937
+01:45:32.880 --> 01:45:39.280
+penso sì, però ecco, ripeto, ci sono eh alcune
+
+938
+01:45:39.280 --> 01:45:44.639
+cose che eh è è opportuno che come dire
+
+939
+01:45:44.639 --> 01:45:50.000
+siano siano note proprio per evitare di commettere degli errori grossolani.
+
+940
+01:45:50.000 --> 01:45:56.159
+Questo, tra l'altro, è uno dei motivi, non so se Paolo
+
+941
+01:45:56.159 --> 01:46:02.280
+ve l'ha accennato, per il quale abbiamo deciso di ampliare la la le serate sulle
+
+942
+01:46:02.280 --> 01:46:10.119
+antenne a due lezioni e ampliando un pochino oltre l'orizzonte
+
+943
+01:46:10.119 --> 01:46:16.119
+delle semplici domande d'esame, gli argomenti da trattare proprio per
+
+944
+01:46:16.119 --> 01:46:22.599
+fornire anche qualche informazione eh specifica in più che possa poi dare
+
+945
+01:46:22.599 --> 01:46:28.599
+quel bagaglio di conoscenze minime che possa effettivamente
+
+946
+01:46:28.599 --> 01:46:35.599
+perlomeno eh non dico farvi diventare tutti degli scienziati, ma magari
+
+947
+01:46:35.599 --> 01:46:42.159
+evitare di commettere qualche errore banale. Questo tra l'altro
+
+948
+01:46:42.159 --> 01:46:50.440
+su espressa richiesta dei vostri predecessori, quindi vi tedierò non una
+
+949
+01:46:50.440 --> 01:46:56.719
+sera, ma ma due su argomenti anche che non saranno strettamente legati alle
+
+950
+01:46:56.719 --> 01:47:03.480
+domande d'esame. Comunque mi sembra di vedere che ci sono altre altre mani alzate.
+
+951
+01:47:03.480 --> 01:47:09.520
+Vai Claudio. Allora, buonasera. La mia domanda
+
+952
+01:47:09.520 --> 01:47:16.360
+proprio sul praticone, io per non avendo anche lo spazio di,
+
+953
+01:47:16.360 --> 01:47:23.480
+scusate, c'ho un po' di un po' di tosse, non potendo mettere un RG8, ho preso un
+
+954
+01:47:23.480 --> 01:47:29.360
+RG8 mini e qui mi dà come caratteristiche la velocità di
+
+955
+01:47:29.360 --> 01:47:34.760
+propagazione non è è scritta 82%. E 0,82. Sì,
+
+956
+01:47:34.760 --> 01:47:43.320
+sì, sì. 62 e attenuazione su 50 MHz di 2,5 dB. Non mi sembra malaccio, essendo
+
+957
+01:47:43.320 --> 01:47:50.639
+un pochino più grosso di un RG58, è molto più piccolo piccol, scusami l'attenuazione l'attenuazione hai detto
+
+958
+01:47:50.639 --> 01:47:59.440
+su 50 mega mi dà 2,50 dB per 10 m No, 30 m.
+
+959
+01:47:59.440 --> 01:48:05.800
+Ah, ecco, era quello che non mi tornava per quindi è strano. Sì, detto, non l'ho detto, non l'ho detto. Eh, è strano
+
+960
+01:48:05.800 --> 01:48:11.040
+perché è una misura strana i 30 m, quindi per averla ai 10 m va divisa per
+
+961
+01:48:11.040 --> 01:48:18.000
+3, quindi sono 08 circa 10 m. Non mi sembra un lancio,
+
+962
+01:48:18.000 --> 01:48:25.639
+no? è un pochino peggio del del dell RG8 o meglio dell RG213,
+
+963
+01:48:25.639 --> 01:48:31.880
+eh, quello che è più o meno la stessa cosa che però per le dimensioni c'è una
+
+964
+01:48:31.880 --> 01:48:38.520
+cosa che dobbiamo tener conto la e la spia è quel 085
+
+965
+01:48:38.520 --> 01:48:43.920
+di velocità di di propagazione fattore di velocità.
+
+966
+01:48:43.920 --> 01:48:49.920
+Questo vuol dire che è un cavo con di elettrico spugnoso, non solido, per cui
+
+967
+01:48:49.920 --> 01:48:55.840
+attenzione è un cavo delicato, ma è il motivo per il quale, pur essendo
+
+968
+01:48:55.840 --> 01:49:03.000
+piccolo ha una buona attenuazione. Quindi anche in questo fare attenzione i
+
+969
+01:49:03.000 --> 01:49:10.360
+eh vi ho detto all'inizio, no? i cavi da TV avrebbero in termini di attenuazione caratteristiche eccezionali, però quasi
+
+970
+01:49:10.360 --> 01:49:17.960
+nessuno li utilizza in trasmissione per vari motivi, primo fra tutti sono più
+
+971
+01:49:17.960 --> 01:49:24.119
+delicati e in questo caso, avendo un dielettrico spugnoso dobbiamo fare
+
+972
+01:49:24.119 --> 01:49:30.159
+attenzione a non fargli fare eh pieghe ad esempio troppo marcate o a
+
+973
+01:49:30.159 --> 01:49:35.960
+maneggiarlo con cura perché essendo non essendo compatto il dielettrico nella
+
+974
+01:49:35.960 --> 01:49:41.119
+piegatura si potrebbe schiacciare e quindi alterare le caratteristiche.
+
+975
+01:49:41.119 --> 01:49:46.320
+Sì, infatti ho visto che come dielettrico è un po' più morbido dell'Rg
+
+976
+01:49:46.320 --> 01:49:51.960
+perché l' RG8 è rigidissimo, è quasi trasparente, sembra
+
+977
+01:49:51.960 --> 01:49:58.480
+quelle plastiche che si fa con le a plastica eh a plastica fusa sembra uguale. Invece
+
+978
+01:49:58.480 --> 01:50:03.960
+questo qui è più morbido, ma non morbido come quelli deiali d'antenna. È un una
+
+979
+01:50:03.960 --> 01:50:10.400
+via di mezzo, ho notato, e però mi sono reso conto che è delicato perché si è si
+
+980
+01:50:10.400 --> 01:50:16.280
+piega troppo facilmente, quindi sono stato attento a non fargli eh fare
+
+981
+01:50:16.280 --> 01:50:21.639
+attenzione a non schiacciarlo, a non fargli l'omega, insomma, a non torcerlo e non schiacciarlo perché
+
+982
+01:50:21.639 --> 01:50:28.480
+purtroppo il il lo scotto che si paga per il dielettrico spugnoso è questo.
+
+983
+01:50:28.480 --> 01:50:35.119
+Infatti cavi professionali che utilizzano per motivi di attenuazione
+
+984
+01:50:35.119 --> 01:50:40.280
+gli elettrici spugnosi, generalmente hanno il conduttore esterno che è un
+
+985
+01:50:40.280 --> 01:50:46.000
+tubo di rame rigido, fra l'altro anellato, non so se vi è mai capitato di
+
+986
+01:50:46.000 --> 01:50:52.639
+vederli, hanno un tubo di rame un tubo di rame corrugato proprio per evitare la
+
+987
+01:50:52.639 --> 01:50:58.599
+possibilità che venga schiacciato o che si schiacci nelle nelle piegature.
+
+988
+01:50:58.599 --> 01:51:05.760
+Questo ho notato di questo RG8 mini che rispetto RG58 il centrale non è il
+
+989
+01:51:05.760 --> 01:51:11.159
+doppio ma quasi. Sì, anche questo, secondo me, è positivo. Sì, questo è
+
+990
+01:51:11.159 --> 01:51:18.320
+legato al fatto che essendo diversa la è quello che che dicevo all'inizio, l'impedenza è data dal rapporto tra le
+
+991
+01:51:18.320 --> 01:51:26.360
+dimensioni dei due conduttori in base alle caratteristiche del dielettrico, quindi dielettrico spugnoso con una
+
+992
+01:51:26.360 --> 01:51:32.520
+costante di elettrica, quindi con un rore, per avere la stessa impedenza, il
+
+993
+01:51:32.520 --> 01:51:38.159
+il rapporto diametro esterno diametro interno è sicuramente diverso rispetto a
+
+994
+01:51:38.159 --> 01:51:44.040
+un cavo con di elettrico compatto? No, no, sono sicuramente validi,
+
+995
+01:51:44.040 --> 01:51:49.280
+specialmente per frequenze elevate, però abbiamo fare attenzione a maneggiarli.
+
+996
+01:51:49.280 --> 01:51:56.320
+Perfetto, grazie. Vai David, a te.
+
+997
+01:51:56.320 --> 01:52:02.119
+Sì, grazie. C'è una domanda veloce, anche se tanto verrà svolta nelle prossime lezioni, quindi quando magari
+
+998
+01:52:02.119 --> 01:52:09.280
+si prende le famose misure di cui si parlava prima, tipo rapporto d'onda stazionario rosso o quant'altro, è
+
+999
+01:52:09.280 --> 01:52:15.560
+sempre meglio prenderlo alla base dell'antenna per capire il reale funzionamento, quindi escludendo,
+
+1000
+01:52:15.560 --> 01:52:20.960
+diciamo, il tratto di linea di trasmissione, in questo caso formato dal cavo passiale,
+
+1001
+01:52:20.960 --> 01:52:27.400
+potendolo fare, sì, certo, potendolo fare, sì, è ovvio che non è eh
+
+1002
+01:52:27.400 --> 01:52:33.599
+comodissimo ora. E è vero che stanno cominciando a
+
+1003
+01:52:33.599 --> 01:52:39.719
+circolare? Io pensavo infatti, scusa se interrompo, col nano VNA, tipo un analizzatore vettoriale di rete, una
+
+1004
+01:52:39.719 --> 01:52:44.960
+cosa del genere e non non mi riferivo tanto tanto a
+
+1005
+01:52:44.960 --> 01:52:50.239
+quello quanto al fatto che esistono anche degli accoppiatori direzionali con
+
+1006
+01:52:50.239 --> 01:52:55.360
+interfaccia wireless, quindi io metto l'accoppiatore direzionale sulla poi lo
+
+1007
+01:52:55.360 --> 01:53:00.440
+strumento giù da basso faccio la lettura. Eh, col VNA si apre un altro
+
+1008
+01:53:00.440 --> 01:53:05.679
+scenario. Mh, magari ne parliamo.
+
+1009
+01:53:05.679 --> 01:53:12.480
+Hanno calibrati nel modo corretto. Esatto. Infatti io l'ho in parte
+
+1010
+01:53:12.480 --> 01:53:19.320
+implicitamente accennato quando ho detto che quantomeno sarebbe necessario conoscere
+
+1011
+01:53:19.320 --> 01:53:24.719
+esattamente le caratteristiche della linea, quindi la lunghezza del cavo e
+
+1012
+01:53:24.719 --> 01:53:33.560
+quant'altro, perché a quel punto con un VNA io posso in qualche modo far
+
+1013
+01:53:33.560 --> 01:53:39.239
+conto allo strumento del di quello che succede dovrebbe essere lo moltiplichi
+
+1014
+01:53:39.239 --> 01:53:46.199
+per un certo tipo di valore, eh, in base alla lunghezza della linea di trasmissione e in questo modo dovrebbe
+
+1015
+01:53:46.199 --> 01:53:52.000
+fare un calcolo non preciso, ma un po' più approssimativo, però, cioè, se escludo proprio il cavo e vado
+
+1016
+01:53:52.000 --> 01:53:57.639
+direttamente in misurazione sull'antenna, a quel punto se lo strumento è tarato nel modo corretto
+
+1017
+01:53:57.639 --> 01:54:03.800
+dovrebbe dare il valore di Ross. ci sarà solo il problema di posizionare l'antenna nel modo corretto, perché
+
+1018
+01:54:03.800 --> 01:54:10.679
+magari uno inizialmente la posiziona su un palo volante per vedere, perché poi m
+
+1019
+01:54:10.679 --> 01:54:17.360
+no, perché lo vedremo bene la prossima settimana, eh la posizione dell'antenna
+
+1020
+01:54:17.360 --> 01:54:22.960
+è quasi è quasi più importante dell'antenna stessa. Eh, so sì,
+
+1021
+01:54:22.960 --> 01:54:29.800
+quindi quello quello e per quello che dicevo andrebbe fatta sull'antenna,
+
+1022
+01:54:29.800 --> 01:54:34.840
+ma questo ovviamente o usi un dispositivo wireless, come ti dicevo,
+
+1023
+01:54:34.840 --> 01:54:41.599
+oppure sei un un arrampicatore che ama il correre i rischi, oppure, molto più
+
+1024
+01:54:41.599 --> 01:54:48.440
+semplicemente, quello che mi sentirei di consigliare è di avere uno spezzone di
+
+1025
+01:54:48.440 --> 01:54:53.880
+cavo calibrato, poi magari ci mettiamo d'accordo su questo che cosa
+
+1026
+01:54:53.880 --> 01:54:59.520
+vuol dire quindi di caratteristiche note con cui faccio
+
+1027
+01:54:59.520 --> 01:55:07.199
+le misure. Io ho tentato di farlo con un cavo RG58 di 30 cm, sotto i 30 cm massimo per
+
+1028
+01:55:07.199 --> 01:55:13.079
+creare meno problemi possibile. Eh mh, diciamo questo va bene,
+
+1029
+01:55:13.079 --> 01:55:19.440
+ovviamente i 30 cm e poi vanno riferiti alla lunghezza d'onda, però ecco, nel
+
+1030
+01:55:19.440 --> 01:55:24.639
+caso dell'antenna eh se la misura deve essere fatta con l'antenna posizionata
+
+1031
+01:55:24.639 --> 01:55:32.079
+dove deve stare eh e certo. Eh sì, quello perché le cose possono cambiare
+
+1032
+01:55:32.079 --> 01:55:37.320
+significativamente, è quello il problema. Grazie.
+
+1033
+01:55:37.800 --> 01:55:44.560
+Vai Marco, vai Marco. Allora, no, un consiglio eventualmente
+
+1034
+01:55:44.560 --> 01:55:52.040
+chi non lo sa, un sito molto ferrato sui cavi, io lo uso, è Messi Paoloni che usa
+
+1035
+01:55:52.040 --> 01:56:00.679
+cavi di altissima qualità, niente a che vedere col 58, con il 213, con l'8. Sono
+
+1036
+01:56:00.679 --> 01:56:07.800
+cavi l'Ultraf che sono da 7 mm, da 10 mm, da 13 mm.
+
+1037
+01:56:07.800 --> 01:56:13.119
+Quindi ecco, magari m non stare a lesinare comprando un 58, ma magari
+
+1038
+01:56:13.119 --> 01:56:18.960
+anche un 7 mmflex che in ogni cavo c'è le specifiche, le
+
+1039
+01:56:18.960 --> 01:56:24.960
+attenuazioni sulle frequenze e sono fatti veramente bene.
+
+1040
+01:56:25.960 --> 01:56:33.520
+Ho finiti. Bene, grazie. per il consiglio. Paolo, in questo
+
+1041
+01:56:33.520 --> 01:56:40.440
+momento non ci sono più mani alzate. Io chiederei a Alessio se ci condivide le
+
+1042
+01:56:40.440 --> 01:56:45.599
+domande, le risposte corrette.
+
+1043
+01:56:46.119 --> 01:56:53.880
+Le condivido molto volentieri, ma l'errore è un errore molto banale,
+
+1044
+01:56:53.880 --> 01:56:59.719
+ovvero, mi spiego meglio, eh è un errore di indice e nella versione che avete
+
+1045
+01:56:59.719 --> 01:57:05.400
+ricevuto voi è l'alfabeto, passatemi il termine, italiano. E quindi l'ultima
+
+1046
+01:57:05.400 --> 01:57:12.239
+domanda, come vedete, è la lettera Q, mentre quello in possesso inviato da me
+
+1047
+01:57:12.239 --> 01:57:17.800
+a Paolo è quello con la J e la K. Quindi
+
+1048
+01:57:17.800 --> 01:57:26.199
+ecco la spiegazione era solo il problema, diciamo, da questo punto in poi come indicizzazione. Per
+
+1049
+01:57:26.199 --> 01:57:31.719
+tutto il resto le domande e le risposte sono perfettamente uguali.
+
+1050
+01:57:31.719 --> 01:57:38.760
+Non mettevo in dubbio, c'era una traslazione di domande, una traslazione. Bravo, perfetto. Quindi io, Paolo, se
+
+1051
+01:57:38.760 --> 01:57:47.360
+vuoi, giusto per eh chiarezza, se vuoi, quindi la N mi sembra di capire la N
+
+1052
+01:57:47.360 --> 01:57:55.679
+quando la ionosfera sopra una certa area della superficie terrestre è meno ionizzata, quindi non sono caduti su
+
+1053
+01:57:55.679 --> 01:58:02.840
+quella che io pensavo essere la N che avevo io. Avete mantardo, sono stati più bravi di quanto
+
+1054
+01:58:02.840 --> 01:58:09.119
+avrei ipotizzato, ma l'errore è è su questo e qui
+
+1055
+01:58:09.119 --> 01:58:16.199
+probabilmente, forse anche qui non era una delle ultime slide dell'altra
+
+1056
+01:58:16.199 --> 01:58:22.400
+dell'altra lezione in cui si parlava della
+
+1057
+01:58:22.400 --> 01:58:29.280
+dipendenza del livello di ionizzazione in funzione dell'alternanza giorno notte.
+
+1058
+01:58:29.280 --> 01:58:36.560
+Quindi eh quand'è che la ionosfera su una certa area è meno ionizzata?
+
+1059
+01:58:36.560 --> 01:58:43.560
+Se vi ricordate, io vi ho detto gli strati sono tre, di cui due sono quelli
+
+1060
+01:58:43.560 --> 01:58:51.040
+utili alla propagazione. Il D è solo negativo, il D è presente solo di giorno
+
+1061
+01:58:51.040 --> 01:58:59.199
+e e F eh sono quelli che ci permettono le riflessioni. Anche l'F scompare
+
+1062
+01:58:59.199 --> 01:59:05.440
+durante la notte, rimane solo, scusate, lo strato E scompare durante la notte,
+
+1063
+01:59:05.440 --> 01:59:16.560
+rimane solo lo strato F che presente sia di giorno che di notte, ma eh di notte
+
+1064
+01:59:16.560 --> 01:59:22.599
+eh il lo strato F eh che durante il
+
+1065
+01:59:22.599 --> 01:59:29.199
+giorno è diviso in due sottostrati F1 e F2 collassa in un unico strato con un
+
+1066
+01:59:29.199 --> 01:59:37.360
+livello diizzazione minore che è eh decrescente di notte. Quindi, se poi
+
+1067
+01:59:37.360 --> 01:59:43.560
+andate a vedere anche quella mappa che avevo pubblicato, il livello di
+
+1068
+01:59:43.560 --> 01:59:50.440
+ionizzazione dello strato F, che è l'unico dei tre che rimane presente
+
+1069
+01:59:50.440 --> 01:59:57.199
+anche di notte, diminuisce eh lentamente durante la notte, quindi
+
+1070
+01:59:57.199 --> 02:00:03.440
+il livello minimo si raggiunge poco prima dell'alba, perché poi all'alba di
+
+1071
+02:00:03.440 --> 02:00:10.639
+di fatto che cosa succede? la nuova radiazione solare fa di nuovo aumentare il livello di ionizzazione.
+
+1072
+02:00:10.639 --> 02:00:17.520
+Quindi qui non vi chiedeva qual era lo strato, ma giusto come ripasso, ripeto,
+
+1073
+02:00:17.520 --> 02:00:23.000
+è solo lo strato F che rimane presente anche durante la notte e il livello di
+
+1074
+02:00:23.000 --> 02:00:29.520
+ionizzazione minimo si raggiunge poco prima dell'alba, mentre subito dopo il
+
+1075
+02:00:29.520 --> 02:00:36.800
+tramonto lo strato F mantiene ancora per un po' di tempo gli stessi livelli che
+
+1076
+02:00:36.800 --> 02:00:42.360
+ha durante il giorno. Infatti, se vi ricordate, ho parlato di Grey Line, cioè
+
+1077
+02:00:42.360 --> 02:00:49.599
+della zona di confine tra il giorno e la notte come una delle condizioni più favorevoli.
+
+1078
+02:00:49.800 --> 02:00:56.159
+Quindi per il resto, l'altra domanda invece eh era la e, quindi mi sembra
+
+1079
+02:00:56.159 --> 02:01:03.400
+confermata quella che avevamo già detto all'inizio. Confermo perché il problema sta proprio
+
+1080
+02:01:03.400 --> 02:01:11.040
+eh Eccolo qua. Questo era quello e diciamo che avevi te Paolo e qui dalla
+
+1081
+02:01:11.040 --> 02:01:17.440
+J in poi cambia e il riferimento, però solo il riferimento.
+
+1082
+02:01:17.440 --> 02:01:23.679
+Perfetto. Allora, magari mi do un'occhiata anche a quelli della prossima settimana per tante volte ci
+
+1083
+02:01:23.679 --> 02:01:28.800
+fosse lo stesso problema. Ok. Fabrizio, ce le mandi tutte, vero?
+
+1084
+02:01:28.800 --> 02:01:34.719
+Queste risposte poi? Sì, sì, sì, sì. Ve la rimando, ve le rimandiamo. E vi mando
+
+1085
+02:01:34.719 --> 02:01:42.199
+questa che è in linea con quello che vi ho mandato come domanda. Sì. In inoltre, fra l'altro, Paolo,
+
+1086
+02:01:42.199 --> 02:01:47.920
+anche il il nuovo documento con l'indice corretto in modo che
+
+1087
+02:01:47.920 --> 02:01:54.560
+eh per qualunque necessità il documento aggiornato e ovviamente a tutti voi
+
+1088
+02:01:54.560 --> 02:02:00.079
+riceverete il documento con l'indice corretto, quindi nessun nessun problema.
+
+1089
+02:02:00.079 --> 02:02:06.159
+E le altre delle le prossime lezioni da una prima
+
+1090
+02:02:06.159 --> 02:02:13.880
+occhiata veloce sembra tutto in linea. Comunque Paolo, perfetto. Fai pure le le verifiche del caso.
+
+1091
+02:02:13.880 --> 02:02:21.760
+Meglio così. Io se c'è un secondo dovevo un una correzione, una domanda che
+
+1092
+02:02:21.760 --> 02:02:28.599
+domanda diciamo non era una vera e propria domanda che non è stata fatta la la volta scorsa
+
+1093
+02:02:28.599 --> 02:02:35.119
+relativamente al troppo scatter e non mi ricordo qualcuno m'aveva
+
+1094
+02:02:35.119 --> 02:02:40.440
+chiesto del della Io perché era andato a vedere dei ponti
+
+1095
+02:02:40.440 --> 02:02:46.320
+della Troposcatter quello sui giovi. Ecco, allora, ho ritrovato quel
+
+1096
+02:02:46.320 --> 02:02:55.800
+documento che ti che ti avevo accennato. Vediamo se se riesco te lo faccio anche
+
+1097
+02:02:55.800 --> 02:03:01.040
+vedere. Allora, eccolo qui.
+
+1098
+02:03:01.040 --> 02:03:10.040
+Eccolo qua. Allora, avevo detto no, non l'ha preso.
+
+1099
+02:03:10.520 --> 02:03:15.440
+Condividi finestra
+
+1100
+02:03:17.719 --> 02:03:23.599
+perché Ah, no, forse c'è la condivisione ancora attiva di Alessio.
+
+1101
+02:03:24.760 --> 02:03:31.679
+No, no, no, non dovrebbe essere. attiva quella di Alessio. Provo riprova un po' Paolo, per favore.
+
+1102
+02:03:31.679 --> 02:03:36.960
+Allora, riprovo. Probabilmente è un piccolo ritardo di
+
+1103
+02:03:36.960 --> 02:03:40.480
+linea. Paolo,
+
+1104
+02:03:43.520 --> 02:03:48.559
+va bene. Comunque poca importanza, nel senso mi hai richiesto della frequenza,
+
+1105
+02:03:48.559 --> 02:03:55.079
+sono andato a vedere eh la rete e diciamo quella che passava
+
+1106
+02:03:55.079 --> 02:04:01.199
+per Coltano, per capirsi. del dell'USAF utilizzava sistemi a 800 e
+
+1107
+02:04:01.199 --> 02:04:09.078
+a 400 MHz con potenze da 1 a 10 kW.
+
+1108
+02:04:09.159 --> 02:04:14.679
+Non male. Quindi 400 me le tratte sul mare, 800 me
+
+1109
+02:04:14.679 --> 02:04:20.679
+le tratte su terra e in funzione della lunghezza delle
+
+1110
+02:04:20.679 --> 02:04:31.239
+tratte. In quella in questo disegnino, se riuscivo a fartelo vedere, c'era anche proprio tutta il disegno della rete con potenze da 1 a 10 kW, sistemi
+
+1111
+02:04:31.239 --> 02:04:39.400
+multicanale eh 100 canali. Questa era la rete USAF
+
+1112
+02:04:39.400 --> 02:04:46.520
+nato che è stata che l'impianto di Coltano è stato attivato nel 63 e
+
+1113
+02:04:46.520 --> 02:04:52.559
+smantellato alla fine degli anni 80. Sì, sì. Insieme a tutto il resto che
+
+1114
+02:04:52.559 --> 02:04:58.280
+arrivava fino a Creta, faceva Grecia, Turchia, tutto l'ambito nato, andava su
+
+1115
+02:04:58.280 --> 02:05:04.199
+fino alla Norvegia. Sì, sì. Infatti, se se riuscivo a fare la condivisione
+
+1116
+02:05:04.199 --> 02:05:09.320
+ve lo facevo vedere, ma eh non capisco per quale motivo non ne voglia sapere,
+
+1117
+02:05:09.320 --> 02:05:17.280
+ma penso che si sia inceppato qualcosa. Va bene, magari sai cosa Paolo? Se lo
+
+1118
+02:05:17.280 --> 02:05:25.440
+mandi o a me o a Alessio, poi lo possiamo pubblicare sul gruppo Telegram, giusto per per avere un po' di cultura
+
+1119
+02:05:25.440 --> 02:05:31.840
+generale. Sì, sì, sì, sì, sì. Ok. Scusate se vi interrompo, devo
+
+1120
+02:05:31.840 --> 02:05:37.679
+staccare. Vi saluto tutti. Anch'io. Buonanotte. Ciao. Buonanotte, signori.
+
+1121
+02:05:37.679 --> 02:05:43.920
+Interrompo, interrompo la registrazione da adesso. Eh, va bene. Buonanotte. Buonanotteci.
+
+1122
+02:05:43.920 --> 02:05:47.239
+Ok. Fabricia.

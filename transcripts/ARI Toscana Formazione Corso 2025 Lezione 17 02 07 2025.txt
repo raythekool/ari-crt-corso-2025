@@ -1,0 +1,8596 @@
+00:02 Stasera lavoriamo sul tema della
+00:03 
+
+00:03 sicurezza elettrica. Abbiamo due due
+00:06 
+
+00:06 persone, due amici che che ci che ci ci
+00:09 
+
+00:09 racconteranno delle cose, uno è Fabrizio
+00:11 
+
+00:11 e l'altro è Gabriele. Se vogliamo in
+00:13 
+
+00:13 qualche modo riassumere,
+00:16 
+
+00:16 diciamo, quelli che potrebbero essere lo
+00:18 
+
+00:18 spirito dei loro discorsi. Allora, per
+00:20 
+
+00:20 quanto riguarda Fabrizio, io direi lo
+00:22 
+
+00:22 slogan è: "Allora, tutti quanti abbiamo
+00:24 
+
+00:24 una sta abbiamo o avremo una stazione
+00:26 
+
+00:26 radio piena di cose, i famosi tanti
+00:29 
+
+00:29 giocattoli llavi prima". E allora come
+00:32 
+
+00:32 si fa a essere sicuri che chi entra non
+00:35 
+
+00:35 ci si non si fa male? Mh, perché io
+00:38 
+
+00:38 vorrei una stazione molto sicura,
+00:39 
+
+00:39 diciamo pure enorme, dove chi entra non
+00:42 
+
+00:42 non possa
+00:45 
+
+00:45 rischiare o comunque minimizzi il
+00:47 
+
+00:47 rischio di Gabriele invece lavora su un
+00:49 
+
+00:49 altro tema lavorerà su un altro tema e
+00:53 
+
+00:53 che riguarda invece i fulmini. Oggi si
+00:55 
+
+00:55 diceva che c'è stato il temporale, no?
+00:57 
+
+00:57 Allora, tutti noi radiamatori dobbiamo
+00:59 
+
+00:59 mettere del metallo fuori l'antenna
+01:02 
+
+01:02 perché senza una buona antenna non non
+01:04 
+
+01:04 si va lontano. L'antenna è un
+01:07 
+
+01:07 parafulmine, non è un parafulme. Può
+01:09 
+
+01:09 essere visto come un parafulmine, non
+01:11 
+
+01:11 c'entra niente coi parafulmini, è meglio
+01:13 
+
+01:13 metterli a terra, è meglio non metterle
+01:14 
+
+01:14 a terra. ci sono delle normative
+01:16 
+
+01:16 specifiche anche su questo. Ci sono dei
+01:19 
+
+01:19 dei modi per calcolare appunto l'antenna
+01:22 
+
+01:22 rispetto a al dove ti trovi. Io qui, per
+01:25 
+
+01:25 esempio, se se guardo in direzione sud
+01:29 
+
+01:29 eh sono sovrastato da una un traliccio
+01:33 
+
+01:33 di 20 m che è di Telegom. Allora, la mia
+01:36 
+
+01:36 antenna rispetto a quel traliccio come
+01:38 
+
+01:38 la devo come la devo considerare? E
+01:41 
+
+01:41 quindi questi sono i temi di stasera.
+01:43 
+
+01:43 Allora, cominciamo però dal passato.
+01:45 
+
+01:45 Metto lo schermo in condivisione
+01:49 
+
+01:49 e se le trovo, eccole qua.
+01:56 
+
+01:56 E questo è così. Eh, questo è il grafico
+01:59 
+
+01:59 di come siete andati alle domande della
+02:02 
+
+02:02 puntata precedente. Quindi molte molte
+02:04 
+
+02:04 risposte al 100%,
+02:07 
+
+02:07 moltissime sopra i 90, praticamente
+02:09 
+
+02:09 nessuna a livello di insufficienza. La
+02:11 
+
+02:11 maggior parte di voi su questa con una
+02:13 
+
+02:13 prestazione così avrebbe passato, ma con
+02:16 
+
+02:16 scioltezza, l'esame se fosse stato solo
+02:19 
+
+02:19 su questi argomenti. Quindi, bravi. Vado
+02:22 
+
+02:22 molto rapidamente sulla correzione delle
+02:24 
+
+02:24 risposte perché i livelli sono molto
+02:26 
+
+02:26 molto alti. Forse la F e la Q sono
+02:29 
+
+02:29 leggermente più basse. E queste sono le
+02:34 
+
+02:34 risposte esatte che poi vi vi invieremo
+02:37 
+
+02:37 domani o dopodomani. Allora, un attimo,
+02:40 
+
+02:40 riduco un po'. Quindi, domanda A, come
+02:44 
+
+02:44 può essere aumentata la portata di un
+02:46 
+
+02:46 voltmetro? Facilissimo, no? Aggiungendo
+02:48 
+
+02:48 una resistenza in serie lo strumento fra
+02:50 
+
+02:50 lo strumento e il circuito sottomisura.
+02:54 
+
+02:54 La risposta uno, la risposta due,
+02:56 
+
+02:56 scusate, aggiungendo una resistenza in
+02:58 
+
+02:58 parallelo allo strumento, è la tecnica
+03:00 
+
+03:00 che si usa per aumentare la portata
+03:02 
+
+03:02 degli amperometri e la famosa resistenza
+03:05 
+
+03:05 di shant, come si come si era detto e i
+03:08 
+
+03:08 volmetri, la portata di 1 voltmetro,
+03:10 
+
+03:10 cioè il fondo scala di 1 voltmetro, si
+03:12 
+
+03:12 aumenta aggiungendo una resistenza in
+03:14 
+
+03:14 serie. Quale grandezza viene
+03:17 
+
+03:17 visualizzata sull'asse orizzontale di un
+03:20 
+
+03:20 realizzatore di spettro? La frequenza.
+03:22 
+
+03:22 la frequenza, non l'ampiezza e neanche
+03:24 
+
+03:24 la tensione, ovviamente.
+03:27 
+
+03:27 Domanda C. In un circuito l'amperometro
+03:29 
+
+03:29 si inserisce ovviamente in serie a ramo.
+03:32 
+
+03:32 Si era detto che quando voglio misurare
+03:34 
+
+03:34 una corrente devo interrompere da
+03:36 
+
+03:36 qualche parte il flusso della corrente,
+03:39 
+
+03:39 inserire l'amperometro e misurare cosa
+03:41 
+
+03:41 passa. E ricordate che si era detto
+03:42 
+
+03:42 anche che l'amperometro doveva essere
+03:44 
+
+03:44 costruito in modo tale da non disturbare
+03:46 
+
+03:46 troppo il circuito su cui si è effettua
+03:48 
+
+03:48 la misura.
+03:50 
+
+03:50 Domanda D. Cosa succede all'interno di
+03:52 
+
+03:52 un voltmetro? Quando viene commutato da
+03:53 
+
+03:53 una porta da bassa a una più alta? Viene
+03:55 
+
+03:55 aggiunta una resistenza in serie allo
+03:57 
+
+03:57 strumento. Perché se la resistenza in
+03:59 
+
+03:59 serie si riduce in realtà il fondo scala
+04:01 
+
+04:01 diminuisce. Ad esempio da 5 passa a 1 V.
+04:04 
+
+04:04 Invece con una resistenza più alta ad
+04:06 
+
+04:06 esempio da 5 passa a 50 V. Fondo scala.
+04:10 
+
+04:10 Unocopio. Domanda è un oscilloscopio
+04:13 
+
+04:13 visualizza l'andamento del tempo dei
+04:15 
+
+04:15 segnali, quindi in contrapposizione
+04:17 
+
+04:17 prima con l'analizzatore di spettro, no?
+04:18 
+
+04:18 Quindi l'analisi nel dominio del tempo
+04:21 
+
+04:21 che la fa all'oscilloscopio e nel
+04:22 
+
+04:22 dominio della frequenza che lo fa
+04:24 
+
+04:24 l'analizzatore di spettro.
+04:26 
+
+04:26 Cosa misura parte metrodirezionale?
+04:29 
+
+04:29 E la potenza diretta è quella riflessa
+04:32 
+
+04:32 con riferimento, appunto, a una
+04:33 
+
+04:33 situazione trasmettitore, linea di
+04:35 
+
+04:35 trasmissione, antenna e su questo avrete
+04:38 
+
+04:38 delle lezioni specifiche.
+04:40 
+
+04:40 Per quale misure si impiega normalmente
+04:42 
+
+04:42 un multimetro, tensione, corrente e
+04:44 
+
+04:44 resistenza. Rossa e potenza è il campo,
+04:46 
+
+04:46 siamo nel campo di misura delle potenze.
+04:49 
+
+04:49 In trasmissione, resistenza, capacità e
+04:51 
+
+04:51 induttanza si misurano, cioè eh ci sono
+04:54 
+
+04:54 anche dei multimetri che misurano la
+04:56 
+
+04:56 resistenza e cercano a volte di misurare
+04:59 
+
+04:59 la capacità e induttanza, però il campo
+05:03 
+
+05:03 di di uso tipico di un multimetro è
+05:04 
+
+05:04 tensione, corrente, resistenza.
+05:07 
+
+05:07 Ecco la resistenza di Shunto, l'abbiamo
+05:09 
+
+05:09 trovata che, come si diceva, serve
+05:11 
+
+05:11 risposta esatta Aumentare la portata di
+05:13 
+
+05:13 un amperometro.
+05:16 
+
+05:16 Domanda I. Se impostate un multimetro
+05:18 
+
+05:18 per misurare microampere e lo collocate
+05:21 
+
+05:21 a un circuito percorso da una corrente
+05:23 
+
+05:23 di 5 amp, cosa succede? Beh, qui ci deve
+05:25 
+
+05:25 essere una risposta che dice che
+05:26 
+
+05:26 probabilmente esplode e in effetti
+05:29 
+
+05:29 eccolo qua, probabilmente si danerà la
+05:31 
+
+05:31 circuiteria del multimetro perché
+05:33 
+
+05:33 ovviamente bisogna sempre rispettare i
+05:35 
+
+05:35 fondoscala.
+05:38 
+
+05:38 Allora, la resistenza interna di un
+05:39 
+
+05:39 voltmetro è elevata, molto elevata nel
+05:42 
+
+05:42 caso di voltmetri elettronici, come si
+05:44 
+
+05:44 era detto, elevata, elevatina nel caso
+05:46 
+
+05:46 di voltmetri normali. Quale strumento
+05:49 
+
+05:49 può essere usato per controllare le le
+05:51 
+
+05:51 spurie e le emissioni spurie di un
+05:53 
+
+05:53 trasmettitore? Quindi le varie armoniche
+05:54 
+
+05:54 di cui avevamo parlato, l'analizzatore
+05:56 
+
+05:56 di spettro,
+05:58 
+
+05:58 non il battimmetro che misura la potenza
+05:60 
+
+05:60 in uscita o il reflettometro che può
+06:02 
+
+06:02 misurare la potenza eh inversa. Domanda
+06:06 
+
+06:06 N, siamo di nuovo sul dominio del tempo
+06:08 
+
+06:08 e della frequenza. Quale differenza c'è
+06:10 
+
+06:10 fra l'analizzatore di spettro e
+06:11 
+
+06:11 l'oscilloscopio? E lo abbiamo appena
+06:13 
+
+06:13 detto. L'analizzatore di spettro opera
+06:14 
+
+06:14 nel dominio della frequenza,
+06:16 
+
+06:16 l'oscilloscopio nel dominio del tempo.
+06:20 
+
+06:20 Domanda o: quale strumento deve essere
+06:22 
+
+06:22 collegato all'uscita di un trasmettitore
+06:24 
+
+06:24 quando si effettuano riparazioni? un
+06:26 
+
+06:26 carico artificiale. Diciamo che un una
+06:30 
+
+06:30 buona prassi
+06:32 
+
+06:32 eh dice che quando si fanno prove su
+06:35 
+
+06:35 trasmettitori, amplificatori o cose del
+06:37 
+
+06:37 genere si collegano a un carico
+06:38 
+
+06:38 fittizio, chiamato anche carico
+06:40 
+
+06:40 artificiale, in modo che così i diciamo
+06:43 
+
+06:43 gli effetti delle nostre prove non
+06:44 
+
+06:44 vengono trasmessi
+06:46 
+
+06:46 in aria, che potrebbero essere disturbi
+06:48 
+
+06:48 per altri.
+06:50 
+
+06:50 Siamo alla fine. Che strumento si usa
+06:52 
+
+06:52 per usare la potenza? Ovviamente il
+06:54 
+
+06:54 wattmetro? E questo era anche il piccolo
+06:56 
+
+06:56 calcolo. Ah, qui siete andati
+06:59 
+
+06:59 leggermente più critica, però diciamo la
+07:01 
+
+07:01 maggior parte di voi ha risposto bene.
+07:03 
+
+07:03 Un amperometro è la portata di 1 amp e
+07:06 
+
+07:06 una resistenza interna di 10 ohm. Per
+07:08 
+
+07:08 fargli raggiungere una portata di 11
+07:10 
+
+07:10 amp. Quanto deve valere la resistenza di
+07:13 
+
+07:13 Shun? Allora, intanto si si valuta la,
+07:17 
+
+07:17 diciamo, la la corrente che deve passare
+07:19 
+
+07:19 nella resistenza di Schunt. Chiaramente
+07:21 
+
+07:21 ci deve passare la nuova portata di
+07:24 
+
+07:24 fondo scala che è questa 11 amp
+07:27 
+
+07:27 quella che è la portata di fondo scala
+07:29 
+
+07:29 dell'ampometro originale 1 amp. Quindi
+07:32 
+
+07:32 11 - 1 fa 10.
+07:35 
+
+07:35 Eh, questi 10 amp devono passare dal
+07:40 
+
+07:40 dallo chant. Siccome
+07:43 
+
+07:43 e diciamo non sto a fare i conti,
+07:46 
+
+07:46 siccome la la legge di ohm ovviamente dà
+07:49 
+
+07:49 questi rapporti di proporzionalità
+07:50 
+
+07:50 diretta e inversa, se l'amperometro ha
+07:54 
+
+07:54 una resistenza interna di 10 ohm con una
+07:56 
+
+07:56 corrente di fondoscala di 1 amp, per far
+07:59 
+
+07:59 passare nello chant 10 volte di più
+08:02 
+
+08:02 servirà una resistenza 10 volte più
+08:05 
+
+08:05 bassa. E quindi la la risposta corretta
+08:07 
+
+08:07 è questa, 1 ohm.
+08:11 
+
+08:11 E questo è tutto. Quindi, bravi. C'è c'è
+08:14 
+
+08:14 qualcuno di voi che ha qualche domanda
+08:16 
+
+08:16 su
+08:19 
+
+08:19 su quel test?
+08:24 
+
+08:24 Davide a te
+08:27 
+
+08:27 proprio al volo sull'ultima, no? Eh,
+08:29 
+
+08:29 comunque per andare praticamente a
+08:31 
+
+08:31 eseguire la formula nel modo corretto,
+08:33 
+
+08:33 se non ho visto male, perché sono andato
+08:35 
+
+08:35 a cercarmela anche su un testo
+08:37 
+
+08:37 alternativo. Sì. Mh. E poi anche su
+08:40 
+
+08:40 quello di Nerio Neri. Praticamente lui
+08:41 
+
+08:41 fa anche la differenza tra la corrente
+08:44 
+
+08:44 iniziale e quella finale che è al posto
+08:48 
+
+08:48 del denominatore praticamente. Sì. La
+08:50 
+
+08:50 differenza fra la corrente iniziale e
+08:52 
+
+08:52 quella finale la dà la resistenza di di
+08:55 
+
+08:55 Shun, cioè la differenza fra la la
+08:58 
+
+08:58 corrente che c'è fra quella iniziale e
+08:60 
+
+08:60 quella finale deve passare per forza
+09:01 
+
+09:01 tramite la resistenza di Schunt. Quindi,
+09:04 
+
+09:04 praticamente i 10 ohm andavano divisi
+09:06 
+
+09:06 per 11 amp - 1 che fa sempre 10 e quindi
+09:08 
+
+09:08 viene un ohm per quello la resistenza.
+09:11 
+
+09:11 Perfetto. Perfetto. Grazie. Grazie a te.
+09:17 
+
+09:17 Se non ci sono altre domande passo la
+09:19 
+
+09:19 palla a Fabrizio.
+09:22 
+
+09:22 A te. Buon lavoro. Ti prendi una
+09:25 
+
+09:25 mezz'ora, tre quarti d'ora, d'accordo.
+09:28 
+
+09:28 Bene, benissimo. File oppure mezz'ora
+09:30 
+
+09:30 più domande, cose di questo tipo. Vai
+09:32 
+
+09:32 libero, come
+09:35 
+
+09:35 volete, eh, come preferite, insomma. Eh
+09:40 
+
+09:40 ehm
+09:43 
+
+09:43 allora vediamo
+09:48 
+
+09:48 allora cheo volevo dunque eh condividi
+09:53 
+
+09:53 e allora
+09:56 
+
+09:56 condividi schermo. Vediamo.
+10:01 
+
+10:01 Senza audio
+10:04 
+
+10:04 registrato. che perché
+10:08 
+
+10:08 allora
+10:10 
+
+10:10 cavolo, non mi fa
+10:12 
+
+10:12 Allora,
+10:14 
+
+10:14 eh stamattina ho fatto mi sono
+10:19 
+
+10:19 ovviamente trasmesso comunque, cioè ho
+10:21 
+
+10:21 trasmesso nel senso
+10:24 
+
+10:24 ho fatto io voglio condividere questo,
+10:27 
+
+10:27 voglio tutto schermo
+10:31 
+
+10:31 o vai. Allora, condividi.
+10:35 
+
+10:35 No, condividi. Iscri sai che non mi fa
+10:38 
+
+10:38 condividere.
+10:42 
+
+10:42 Prova con Condividi finestra, Fabrizio.
+10:45 
+
+10:45 Eh, eh, non ce l'ho. Condividi finestra.
+10:47 
+
+10:47 È quello che cercavo perché mi dice
+10:50 
+
+10:50 condividi foto, condividi video,
+10:51 
+
+10:51 condividi schermo e allora forse eh
+10:55 
+
+10:55 essendo un eh un esterno forse non te lo
+10:59 
+
+10:59 fa fare. Es infatti il problema è
+11:01 
+
+11:01 quello. Prova prova prova a schermo a
+11:03 
+
+11:03 vedere se riesci a trovarlo
+11:05 
+
+11:05 completamente, magari se c'è qualcosa
+11:07 
+
+11:07 con audio. Aiuto io. Avvia trasmissione.
+11:11 
+
+11:11 Allora, aspetta. Eh, aspetta. Allora,
+11:14 
+
+11:14 ecco, sta succedendo qualcosa. Eh,
+11:16 
+
+11:16 infatti ora mi dice però trasmissione
+11:19 
+
+11:19 contenuti, verrà registrare tutto ciò
+11:21 
+
+11:21 che vedi? Eh, va bene, però eh ma eh
+11:26 
+
+11:26 Allora, dunque è arrivato. Ok. Ecco, io
+11:30 
+
+11:30 volevo vedere questo. Ci sta che non lo
+11:32 
+
+11:32 vediate non lo vediate per benino, però
+11:35 
+
+11:35 eh non ho capito perché non ho capito
+11:38 
+
+11:38 perché fa così. Prova, scusa Fabrizio,
+11:41 
+
+11:41 solo una cosa. Prova a vedere se ti
+11:43 
+
+11:43 riesci a mettere i team invece che in
+11:46 
+
+11:46 icona, quindi proprio abbassarlo
+11:49 
+
+11:49 completamente.
+11:51 
+
+11:51 Non ho capito, scusami. Provarlo a
+11:53 
+
+11:53 abbassare completamente. Dovresti
+11:55 
+
+11:55 riuscire la famosa linetta eh accanto ai
+11:59 
+
+11:59 due quadratini. Ce l'hai? Non lo vedo.
+12:03 
+
+12:03 Perché questo te lo riduce.
+12:07 
+
+12:07 Eh vabbè, così non dà noia, eh. per
+12:09 
+
+12:09 esempio.
+12:11 
+
+12:11 Ok. Allora,
+12:15 
+
+12:15 buonasera, intanto. Buonasera a tutti.
+12:17 
+
+12:17 Mi presento, sono Fabrizio Badiani,
+12:20 
+
+12:20 eh, IU5 QUO, ex Italia Z5 RQ. Vabbè, ma
+12:26 
+
+12:26 insomma, lasciamo perdere. Ehm
+12:31 
+
+12:31 e stasera si parla di eh un pochino di
+12:34 
+
+12:34 sicurezza elettrica eh di sicurezza
+12:37 
+
+12:37 elettrica, quindi insomma vi vedo
+12:40 
+
+12:40 abbastanza ferrati, no? con un pochino
+12:42 
+
+12:42 elettrotecnica, la legge di H,
+12:46 
+
+12:46 ma vi potrei fare una domanda, eh, anzi
+12:49 
+
+12:49 ve la fa una domanda,
+12:51 
+
+12:51 eh, il che è più pericolosa perché ora
+12:55 
+
+12:55 tutto quello che noi si utilizza e
+12:57 
+
+12:57 funziona con la corrente elettrica, no?
+13:00 
+
+13:00 Eh, con s'attacca gli strumenti del
+13:04 
+
+13:04 radiamatore, ma l'oscilloscopio,
+13:07 
+
+13:07 l'analizzatore di spettro, lo devi
+13:09 
+
+13:09 attaccare a una presa, eh, la corrente
+13:12 
+
+13:12 ci arriva a casa, al lavoro, in studio,
+13:14 
+
+13:14 insomma, nel laboratorio.
+13:17 
+
+13:17 Ma
+13:19 
+
+13:19 chied è più pericolosa? La corrente
+13:21 
+
+13:21 alternata o la corrente continua?
+13:24 
+
+13:24 Continua.
+13:26 
+
+13:26 Alternata. Ah, un non vi ho detto ogni
+13:29 
+
+13:29 risposta sbagliata sono 10 flessioni
+13:31 
+
+13:31 ovviamente da fare, eh ovviamente a
+13:33 
+
+13:33 telecamera accesa, quindi dipende
+13:37 
+
+13:37 dipende dalla tensione. Aspetta, no,
+13:39 
+
+13:39 allora chi è più pericolosa? Se io
+13:41 
+
+13:41 c'avessi 220 volte in alternato, 220
+13:44 
+
+13:44 volte in continua, chi è più pericolosa?
+13:45 
+
+13:45 L'alternata o la continua? Continua.
+13:50 
+
+13:50 Allora, segniamoci chi è che dice
+13:52 
+
+13:52 continua.
+13:53 
+
+13:53 Marco non cambia,
+13:56 
+
+13:56 eh, non cambia, continua
+13:59 
+
+13:59 a parità di voltaggio amperaggio. Vi do
+14:02 
+
+14:02 i compiti per stasera. Vi do compiti
+14:05 
+
+14:05 stasera. Alternata fa andare in
+14:06 
+
+14:06 febbrillazione il cuore l'alternata. Vi
+14:08 
+
+14:08 do compiti per stasera. vi perché eh
+14:12 
+
+14:12 andatevi a vedere eh c'è su internet, su
+14:17 
+
+14:17 Google, insomma, anche su YouTube si
+14:21 
+
+14:21 trova
+14:22 
+
+14:22 dei buoni,
+14:24 
+
+14:24 insomma dei buoni documenti
+14:27 
+
+14:27 sull'ideatriba fra Edison e Tesla, eh,
+14:31 
+
+14:31 insomma che fruzzica un pochino la
+14:34 
+
+14:34 corrente e ed è per forza conoscere,
+14:37 
+
+14:37 insomma, la insomma Edison Tesla Tesla,
+14:39 
+
+14:39 no, insomma, e Tesla, insomma, ingegnere
+14:45 
+
+14:45 puro, ingegnere puro, eh, puro e crudo.
+14:50 
+
+14:50 Eh, invece Edison, anche lui, insomma,
+14:52 
+
+14:52 un grande scienziato, però, insomma, un
+14:54 
+
+14:54 grande affarista, eh, insomma, Edison
+14:56 
+
+14:56 voleva vendere la corrente al la
+14:59 
+
+14:59 corrente continua, scusatemi. Edson
+15:01 
+
+15:01 invece che aveva tra l'altro lavorato
+15:03 
+
+15:03 anche insieme a Tesla insieme a Edison,
+15:07 
+
+15:07 scusatemi, e che dice "Guarda che
+15:09 
+
+15:09 aspetta la corrente alternata e la
+15:12 
+
+15:12 funziona molto meglio della della
+15:14 
+
+15:14 corrente della corrente continua".
+15:17 
+
+15:17 E infatti Edison faceva esperimenti
+15:21 
+
+15:21 macabri eh con la corrente alternata per
+15:26 
+
+15:26 convincere la gente l'alternata la non
+15:28 
+
+15:28 era pericolosissima.
+15:31 
+
+15:31 E in effetti è vero, la corrente
+15:32 
+
+15:32 alternata è molto più pericolosa della
+15:34 
+
+15:34 corrente continua, eh a parità di di
+15:37 
+
+15:37 tensione
+15:39 
+
+15:39 e però c'è un problema. Perché si
+15:42 
+
+15:42 utilizza la corrente alternata? Allora,
+15:44 
+
+15:44 il posto della continua, vista è molto
+15:46 
+
+15:46 più pericolosa della visto che
+15:49 
+
+15:49 l'alternata è molto più perosa della
+15:51 
+
+15:51 continua. Vediamo un pochino chi è che
+15:53 
+
+15:53 lo sa. Perché si trasporta meglio.
+15:56 
+
+15:56 Perché si trasporta meglio? Nel senso
+15:58 
+
+15:58 che costa meno trasportarla, eh, costa
+16:02 
+
+16:02 molto meno trasportarla.
+16:04 
+
+16:04 Eh, se voi prendete due fili, voi ci
+16:07 
+
+16:07 mettete 220 volte in continua, due fili
+16:10 
+
+16:10 220 volte in alternata, fate qualche
+16:13 
+
+16:13 chilometro
+16:15 
+
+16:15 e e c'è 220 volte in continua tu ci
+16:19 
+
+16:19 leggi 0,00
+16:21 
+
+16:21 con un volmetro, visto? Eh, si parlava
+16:23 
+
+16:23 di volmetri, di strumenti, di misura, di
+16:27 
+
+16:27 multimetri. Eh, se tu leggi, se tu vai a
+16:29 
+
+16:29 ved' quell'alternata,
+16:31 
+
+16:31 ovviamente spostandosi eh con il ehm
+16:36 
+
+16:36 con
+16:38 
+
+16:38 eh con le impostazioni sul sui
+16:40 
+
+16:40 multimetro, 220 V in continua, tu leggi
+16:43 
+
+16:43 219
+16:45 
+
+16:45 volt. Eh, quindi inf infatti gli
+16:48 
+
+16:48 elettrodotti come funzionano? Tutti
+16:50 
+
+16:50 tutti in alternata. Eh eh infatti la
+16:53 
+
+16:53 nostra distribuzione è tutta
+16:54 
+
+16:54 un'alternata. Eh cavolo, però l'è più
+16:56 
+
+16:56 pericolosa,
+16:58 
+
+16:58 eh ma perché è più pericolosa
+17:01 
+
+17:01 l'alternata rispetto alla continua?
+17:04 
+
+17:04 Prima sentivo dire
+17:06 
+
+17:06 prima sentivo dire qualcuno parlava di
+17:09 
+
+17:09 fibrillazione, eh, ora non so chi,
+17:11 
+
+17:11 perché io 50 Hz ti porta la
+17:14 
+
+17:14 fibrillazione
+17:16 
+
+17:16 al cuore, quindi se uno va sotterra,
+17:20 
+
+17:20 prego, scusami.
+17:23 
+
+17:23 Sì, uno rischia che il cuore cerca di
+17:25 
+
+17:25 battere a 50 Hz al secondo, non ce la fa
+17:27 
+
+17:27 e quindi uno se non viene assistito por
+17:30 
+
+17:30 Allora, proprio così è proprio così nel
+17:32 
+
+17:32 senso che ehm
+17:36 
+
+17:36 la corrente che arriva a casa è
+17:38 
+
+17:38 ovviamente 220 V 50 Hz, ma 50 Hz che
+17:42 
+
+17:42 vuol dire? 50 Hz che vuol dire? Cioè
+17:46 
+
+17:46 cosa cosa ci dice di interessante il
+17:49 
+
+17:49 dato 50 Hz?
+17:53 
+
+17:53 50 che vuol dire 50 oscillazioni?
+17:56 
+
+17:56 Oscilla 50 volte oscilla. Secondo in in
+17:60 
+
+18:00 quanto tempo? Al secondo. Secondo. Al
+18:03 
+
+18:03 secondo. Esatto. 50 oscillazioni in un
+18:06 
+
+18:06 secondo. Eh, il il il tempo di
+18:10 
+
+18:10 riferimento
+18:11 
+
+18:11 è il secondo. Eh, quindi 50 oscillazioni
+18:15 
+
+18:15 e in un secondo. Ma il nostro clocco
+18:17 
+
+18:17 interno quant'è?
+18:20 
+
+18:20 Cioè il nostro corpo in maniera
+18:22 
+
+18:22 ovviamente grossolana, ma a che
+18:25 
+
+18:25 frequenza a che frequenza funziona?
+18:28 
+
+18:28 Uno, cioè uno nella
+18:33 
+
+18:33 senso i battiti del cuore, eh,
+18:35 
+
+18:35 fondamentalmente battiti del cuore.
+18:37 
+
+18:37 Quante sono? 70 60 70 battiti in 1
+18:41 
+
+18:41 minuto. La base tempo è 1 minuto 60-70 W
+18:47 
+
+18:47 in un minuto. Quindi in maniera appunto
+18:49 
+
+18:49 molto grossolana si può dire che ehm il
+18:54 
+
+18:54 cuore, scusatemi, il nostro corpo non
+18:57 
+
+18:57 riesce ad adattarsi a cambiamento di
+18:59 
+
+18:59 stato così veloce. Eh, questa, diciamo,
+19:02 
+
+19:02 è la prima il primo ehm diciamo la prima
+19:07 
+
+19:07 ragione, ma era molto appunto molto
+19:08 
+
+19:08 grossana. Ma vediamo vediamo. Ora io
+19:11 
+
+19:11 salto poi un pochino anche in su in giù,
+19:13 
+
+19:13 qua in là, ma eh tanto poi questo
+19:16 
+
+19:16 materiale se volete eh Paolo ve lo dà,
+19:19 
+
+19:19 ve lo manda. Questo è quello che
+19:20 
+
+19:20 utilizzo fondament è una parte è una
+19:23 
+
+19:23 piccola parte di quello che utilizzo io
+19:25 
+
+19:25 per che mi lavoro e fare eh è la
+19:29 
+
+19:29 sicurezza eh principalmente la sicurezza
+19:32 
+
+19:32 elettrica, ma anche insomma la sicurezza
+19:35 
+
+19:35 sul lavoro, diciamo, quasi a 360°. Eh,
+19:39 
+
+19:39 comunque ehm
+19:44 
+
+19:44 interessante potrebbe essere vedere,
+19:47 
+
+19:47 guardate, eh infatti un grafico a questa
+19:50 
+
+19:50 maniera, eh,
+19:52 
+
+19:52 vedete? Allora,
+19:55 
+
+19:55 se io c'ho
+19:57 
+
+19:57 se io c'ho lo vedete il grafico?
+20:02 
+
+20:02 Sì, Fabrizio, lo vediamo. Eh, si riesce
+20:05 
+
+20:05 a vedere? Perfetto. Sì, sì, perfetto.
+20:07 
+
+20:07 Benissimo. Si vede? Oh,
+20:11 
+
+20:11 cercavo di leva questo. Non si lea
+20:13 
+
+20:13 comunque. Ehm,
+20:16 
+
+20:16 allora, vedete, sulle ascisse,
+20:19 
+
+20:19 l'asse delle X, c'è il eh c'è la
+20:23 
+
+20:23 corrente in milliampere. Vedete? Sulle
+20:27 
+
+20:27 ordinate l'asse delle y c'è il tempo in
+20:29 
+
+20:29 millisecondi. Va bene?
+20:33 
+
+20:33 Le le scale sono logaritmiche, eh, vi vi
+20:36 
+
+20:36 fate
+20:38 
+
+20:38 non vi fate ingannare.
+20:41 
+
+20:41 Il grafico è diviso in quattro parti,
+20:43 
+
+20:43 vedete? 1 eh 1 2 3 e 4.
+20:49 
+
+20:49 Questo questo grafico vale eh questo
+20:52 
+
+20:52 grafico vale per la corrente alternata,
+20:54 
+
+20:54 infatti vedi, eh zona tempo correlata
+20:57 
+
+20:57 agli effetti della corrente alternata
+20:58 
+
+20:58 sulle persone. Eh vedete?
+21:02 
+
+21:02 Guardate il primo la prima la prima zona
+21:07 
+
+21:07 eh, vedete ehm
+21:11 
+
+21:11 insomma delineata da questa retta retta
+21:14 
+
+21:14 tratteggiata verticale. Vedete a quanto
+21:16 
+
+21:16 si ferma? Vedete? Si ferma a 05. 05 che
+21:20 
+
+21:20 cosa? 05 mamp. Cioè che vuol dire? che
+21:24 
+
+21:24 fino a 0,5 mamp con la corrente
+21:27 
+
+21:27 alternata
+21:28 
+
+21:28 il nostro il nostro corpo non la sente
+21:30 
+
+21:30 nemmeno. Non la senti. Non la senti. Se
+21:35 
+
+21:35 ti aumenti la corrente 1 2 3 4 5 mamp la
+21:40 
+
+21:40 corrente la senti ma non ti provoca
+21:42 
+
+21:42 ancora grosse problematiche.
+21:45 
+
+21:45 Quand'è che ti inizia ad entrare a
+21:47 
+
+21:47 provocare problematiche? Quando si
+21:49 
+
+21:49 inizia ad arrivare, vedete questa linea,
+21:52 
+
+21:52 questa curva tratteggiata, la B, eh la B
+21:57 
+
+21:57 e ehm e vedete la, diciamo, ora vi vi do
+22:01 
+
+22:01 una parolaccia, l'asintoto di questa
+22:04 
+
+22:04 curva B è, vedete, praticamente ha 10
+22:09 
+
+22:09 mamp, eh 10 mA. 10 mamp con 10 mamp.
+22:15 
+
+22:15 Ora, poi, ovviamente in letteratura si
+22:17 
+
+22:17 parla tra i 10 e i 15 mamp, ehm, che non
+22:21 
+
+22:21 è che siamo tutti uguali, si inizia a
+22:23 
+
+22:23 verificare
+22:25 
+
+22:25 eh la tetanizzazione.
+22:28 
+
+22:28 Sapete che è la tetanizzazione? Cioè,
+22:29 
+
+22:29 quando in gergo si dice quando tu rimani
+22:32 
+
+22:32 attaccato, no? Tu tocchi una parte sotto
+22:34 
+
+22:34 tensione, una parte non adeguatamente
+22:37 
+
+22:37 protetta, tu la tocchi la corrente ti
+22:39 
+
+22:39 passa attraverso
+22:41 
+
+22:41 l'alternata,
+22:43 
+
+22:43 eh. eh blocca eh ti blocca eh i muscoli
+22:47 
+
+22:47 perché fondamentalmente i muscoli si
+22:49 
+
+22:49 muovono attraverso
+22:51 
+
+22:51 dei degli impulsi elettrici eh che il
+22:54 
+
+22:54 cervello manda attraverso nervi eh
+22:56 
+
+22:56 questa corrente inizia a bloccare. Va
+22:58 
+
+22:58 bene? Se te e quindi tu rimani
+23:01 
+
+23:01 attaccato, il classico è sono rimasto
+23:03 
+
+23:03 attaccato. Aumentando la corrente 20 50
+23:07 
+
+23:07 60 m si inizia a entrare nella zona 3.
+23:12 
+
+23:12 Noi si respira attraverso
+23:14 
+
+23:14 un muscolo che si chiama diaframma, che
+23:17 
+
+23:17 è un muscolo semivolontario.
+23:20 
+
+23:20 Eh, quindi se se penso di respirare e
+23:23 
+
+23:23 respiro, ma quando dormo non penso di
+23:25 
+
+23:25 respirare, però si respira lo stesso.
+23:27 
+
+23:27 c'è un sistema automatico eh nella parte
+23:30 
+
+23:30 limbica del cervello e eh però se la
+23:34 
+
+23:34 corrente ci passa addosso è abbastanza
+23:37 
+
+23:37 intensa, eh abbastanza grande, eh anche
+23:41 
+
+23:41 il anche il diaframma si può bloccare,
+23:45 
+
+23:45 eh, si può bloccare, può subire una
+23:47 
+
+23:47 tetanizzazione, va bene?
+23:50 
+
+23:50 E se aumento dell'altro la corrente
+23:52 
+
+23:52 inizia a andare a 100, 200, 250, 300
+23:56 
+
+23:56 mamp. Ecco, inizia andare a toccare
+24:00 
+
+24:00 quelle che sono queste linee, queste
+24:03 
+
+24:03 queste, scusatemi, queste curve C1, C2 e
+24:05 
+
+24:05 C3 che sono rispettivamente più che
+24:08 
+
+24:08 altro C2 e C3 e 5 50% di possibilità che
+24:13 
+
+24:13 mi possa venire una fibrillazione
+24:15 
+
+24:15 ventricolare. O che roba l'è una
+24:17 
+
+24:17 fibrillazione ventricolare? Guardate
+24:19 
+
+24:19 qui, ve la fa vedere. Eccolo qui.
+24:23 
+
+24:23 Vedete? Qui c'è scritto ehm eg. ECG vuol
+24:27 
+
+24:27 dire elettrocardiogramma, no? Vedete?
+24:29 
+
+24:29 L'elettrocardiogramma è il segnale
+24:32 
+
+24:32 elettrico del nostro cuore, eh,
+24:35 
+
+24:35 elettrocardiogramma.
+24:37 
+
+24:37 Segnalet, vedete? Elettrocardiogramma è
+24:39 
+
+24:39 un segnale elettrico, se volete, anche
+24:41 
+
+24:41 complesso, no? Composto da tanti picchi,
+24:44 
+
+24:44 seni, valli, no? Insomma, segnale
+24:46 
+
+24:46 elettrico è abbastanza complesso,
+24:48 
+
+24:48 ma se la corrente che ci passa addosso è
+24:51 
+
+24:51 abbastanza intensa e ovviamente fa anche
+24:54 
+
+24:54 un certo percorso particolare di cui
+24:56 
+
+24:56 magari dopo si si ragiona anche un po'
+24:58 
+
+24:58 meglio, eh il cuore può entrare, si dice
+25:01 
+
+25:01 in e se il m
+25:06 
+
+25:06 se ci sta abbastanza tempo, abbastanza
+25:08 
+
+25:08 tempo, che vuol dire? eh il periodo di
+25:12 
+
+25:12 refrattarietà, cioè il periodo il tempo
+25:16 
+
+25:16 che il sangue ci mette a entrare e a
+25:19 
+
+25:19 uscire dal cuore. Ecco, allora il il
+25:23 
+
+25:23 cuore può andare in fibrillazione.
+25:25 
+
+25:25 Fibrillazione vuol dire, vedete, quando
+25:28 
+
+25:28 il cuore inizia a battere in maniera
+25:31 
+
+25:31 totalmente sconfusionata, vedete? Vedete
+25:33 
+
+25:33 come fa questo questo segnale
+25:36 
+
+25:36 completamente eh che non ha senso. Eh e
+25:40 
+
+25:40 qual è la la
+25:44 
+
+25:44 diretta conseguenza della fibrillazione
+25:47 
+
+25:47 del cuore? Perché il cuore
+25:49 
+
+25:49 fondamentalmente che è una pompa. Eh il
+25:51 
+
+25:51 cuore pompa il il sangue nel nostro
+25:55 
+
+25:55 corpo e ma se il cuore inizia a battere
+25:58 
+
+25:58 in maniera sconfusionata non si
+26:00 
+
+26:00 comporterà più da pompa. Eh, e quindi
+26:03 
+
+26:03 ovviamente qual è la diretta
+26:04 
+
+26:04 conseguenza?
+26:06 
+
+26:06 va giù la pressione. Ma se va giù la
+26:08 
+
+26:08 pressione, eh, non mi arrivi il sangue
+26:10 
+
+26:10 al cervello. Se mi arrivi il sangue al
+26:12 
+
+26:12 cervello,
+26:13 
+
+26:13 eh, insomma, ci sta che in pochissimo
+26:17 
+
+26:17 tempo,
+26:19 
+
+26:19 ehm,
+26:20 
+
+26:20 insomma,
+26:23 
+
+26:23 un minutino, già un minutino, un minuto
+26:25 
+
+26:25 e mezzo, forse già troppo, eh si
+26:28 
+
+26:28 potrebbe, come si dice, andare a vedere
+26:30 
+
+26:30 le margherite crescere dalla parte delle
+26:32 
+
+26:32 radici. Eh, va bene. Quindi,
+26:37 
+
+26:37 ma uno allora mi potrebbe dire
+26:38 
+
+26:38 cazzarola, ma eh eh ma queste correnti e
+26:42 
+
+26:42 non si piglian mica eh oppure non c'è
+26:45 
+
+26:45 mica verso pigliarle ste correnti, ma
+26:47 
+
+26:47 non c'è verso pigliarle, ma non lo so.
+26:49 
+
+26:49 Eh, facciamo un esempio. Io sempre
+26:52 
+
+26:52 l'esempio
+26:54 
+
+26:54 quando faccio corsi anche sulla
+26:56 
+
+26:56 sicurezza elettrica, non so se l'avete
+26:58 
+
+26:58 mai sentito dire il famoso PESPav, ma
+26:60 
+
+26:60 insomma eh PES PPAV sta per PES, persona
+27:05 
+
+27:05 esperta, persona avvertita in tutto
+27:07 
+
+27:07 quello che è, insomma, la sicurezza
+27:08 
+
+27:08 elettrica, le varie enorme, vabbè, ma
+27:10 
+
+27:10 insomma la C1127,
+27:13 
+
+27:13 ma eh
+27:15 
+
+27:15 è possibile pigliare queste correnti,
+27:18 
+
+27:18 cioè arrivare a prendere queste
+27:19 
+
+27:19 correnti.
+27:22 
+
+27:22 Secondo voi è possibile o no?
+27:25 
+
+27:25 Ve lo dico io, è possibile, eh, e non è
+27:28 
+
+27:28 difficile. Ora io sempre l'esempio
+27:30 
+
+27:30 fondamentalmente della lavatrice, eh di
+27:32 
+
+27:32 una lavatrice, perché insomma però si
+27:35 
+
+27:35 può fare un esempio anche con una radio,
+27:38 
+
+27:38 con eh un apparato con il suo
+27:41 
+
+27:41 bellinvolucro di metallo, eh
+27:45 
+
+27:45 eh
+27:47 
+
+27:47 ma lavatrice anche lavatrice torna bene,
+27:49 
+
+27:49 eh perché
+27:52 
+
+27:52 perché
+27:55 
+
+27:55 eh
+27:57 
+
+27:57 vi capitato vi m'ha capitato
+27:60 
+
+28:00 di magari in una casa vecchia, in una
+28:02 
+
+28:02 casa di una nonna,
+28:06 
+
+28:06 di toccare un elettrodomestico e di
+28:08 
+
+28:08 sentire un po' di correnti.
+28:12 
+
+28:12 Certo, certo. Eh, può capitare. Eh,
+28:16 
+
+28:16 aspetta, vedo, vedo che si è alzato una
+28:17 
+
+28:17 mano, ma non so chi.
+28:21 
+
+28:21 Sì, Roberto Campo. Vai, vai. Roberto.
+28:24 
+
+28:24 Niente, io io ho da raccontare di mio
+28:28 
+
+28:28 cugino che a 4 anni e andando a bere al
+28:32 
+
+28:32 lavandino della cucina rimase folgorato
+28:37 
+
+28:37 per via di una lavatrice al secondo
+28:39 
+
+28:39 piano che non era non aveva la messa a
+28:42 
+
+28:42 terra. Certo. E miracolato perché magari
+28:47 
+
+28:47 noi siamo mio padre siamo arrivati
+28:49 
+
+28:49 giusto in tempo attraverso i tubi i tubi
+28:52 
+
+28:52 dell'acqua si è trasferito da lì. Sì,
+28:55 
+
+28:55 esatto, esatto.
+28:57 
+
+28:57 E all'ospedale l'hanno rianimato.
+29:00 
+
+29:00 Eh sì, siete stati ecco in questi in
+29:04 
+
+29:04 queste in queste occasioni eh la la
+29:08 
+
+29:08 velocità, il tempo è è fondamentale, ma
+29:11 
+
+29:11 non si parla di minuti, si parla di
+29:13 
+
+29:13 secondi veramente, eh perché altrimenti
+29:17 
+
+29:17 poi lo sai che lì ha giocato tanto la
+29:19 
+
+29:19 giovanità del di del tuo cugino, capito?
+29:24 
+
+29:24 M Sì, sì, sì. Ma poi è stato proprio noi
+29:27 
+
+29:27 che arrivavamo a casa di questa nonna e
+29:31 
+
+29:31 la zia col bimbo fra le braccia, quindi
+29:34 
+
+29:34 successo subito e la corsa subito
+29:37 
+
+29:37 all'ospedale che non era nemmeno nel
+29:39 
+
+29:39 raggio di 1 km, quindi è stato tutto,
+29:43 
+
+29:43 diciamo, ridotto nei tempi. Insomma, c'è
+29:45 
+
+29:45 da mettere dei becceri alla Madonna. Eh,
+29:48 
+
+29:48 eh, sì, sì, sì. Eh, perché insomma eh le
+29:52 
+
+29:52 andata di lusso, le andata. Ma
+29:56 
+
+29:56 prendo il tuo esempio. Prendo ora e t'
+29:58 
+
+29:58 ha detto una cosa giustissima, no? una
+30:01 
+
+30:01 lavatrice che non era collegata a terra.
+30:03 
+
+30:03 Eh, quindi una protezione fondamentale.
+30:07 
+
+30:07 Anzi, noi in casa il che ci sa, come si
+30:11 
+
+30:11 chiamano eh le protezioni che ci
+30:15 
+
+30:15 pretengono. Questi si chiamano contatti
+30:19 
+
+30:19 indiretti. Eh, va bene? Questi sono
+30:22 
+
+30:22 contatti indiretti. E chi ci salva da
+30:25 
+
+30:25 contatti indiretti?
+30:27 
+
+30:27 Vediamo un pochino. Ditemelo voi.
+30:29 
+
+30:29 Differenziale.
+30:31 
+
+30:31 Differenziale. Allora, allora, allora,
+30:35 
+
+30:35 non è completa, non è completa la
+30:38 
+
+30:38 risposta non è completa.
+30:41 
+
+30:41 Messa a terra.
+30:44 
+
+30:44 Allora, si chiama sistema combinato, eh,
+30:47 
+
+30:47 sistema combinato, cioè 3D, messa a
+30:50 
+
+30:50 terra e differenziale, interruttore
+30:53 
+
+30:53 differenziale, perché è proprio un
+30:55 
+
+30:55 sistema che funziona insieme in maniera
+30:57 
+
+30:57 combinata, eh, va bene?
+30:60 
+
+30:60 Ora, poi io e vo e vo io chiacchiero a
+31:03 
+
+31:03 diritto, ma fermatemi quando se va
+31:05 
+
+31:05 troppo avanti, eh, perché io sono
+31:07 
+
+31:07 abituato i miei corsi e durano sempre
+31:11 
+
+31:11 solitamente le giornate e ovviamente non
+31:14 
+
+31:14 ci sarà una giornata. Eh, quindi eh il
+31:20 
+
+31:20 la il sistema di protezione combinata il
+31:22 
+
+31:22 che fa? Ovviamente si accorge
+31:25 
+
+31:25 ehm se la se la lavatrice avesse avuto
+31:28 
+
+31:28 la messa a terra, la corrente sarebbe
+31:31 
+
+31:31 andata verso terra, eh perché ovviamente
+31:33 
+
+31:33 la corrente le furba, no? La va dove la
+31:35 
+
+31:35 trova meno resistenza. Eh poi razzi
+31:38 
+
+31:38 questa la conservazione dell'energia,
+31:40 
+
+31:40 no? Razzi, eh non non si scappa, eh. Em
+31:47 
+
+31:47 [Musica]
+31:48 
+
+31:48 e chi se ne accorge poi l'interruttore
+31:51 
+
+31:51 differenziale. Eh, ora poi sarebbe
+31:54 
+
+31:54 interessante, ve l'hanno spiegato come
+31:56 
+
+31:56 funziona un differenziale?
+32:01 
+
+32:01 M poi magari nel corso no, non è stato
+32:04 
+
+32:04 fatto accenno. Fabrizio. Vabbè, insomma,
+32:06 
+
+32:06 comunque un No, pensavo magari comunque
+32:09 
+
+32:09 il differenziale come funziona? Lo dici
+32:11 
+
+32:11 il nome, fa la differenza fra le
+32:13 
+
+32:13 correnti, le correnti che entrano e le
+32:14 
+
+32:14 correnti che escano. Quindi, ehm, lui si
+32:19 
+
+32:19 accorge chiaramente un pochino di
+32:20 
+
+32:20 corrente la l' è andata via a terra,
+32:23 
+
+32:23 quindi la corrente d'ingresso la non è
+32:25 
+
+32:25 più uguale alla corrente d'uscita e
+32:27 
+
+32:27 quindi ovviamente c'è un sistema con un
+32:29 
+
+32:29 toroide interno, ci sono tre bobine e
+32:32 
+
+32:32 ovviamente eh lui se ne accorge e e
+32:35 
+
+32:35 s'apre scatta. Quindi è fondamentale che
+32:38 
+
+32:38 ci sia questo sistema eh questo sistema
+32:40 
+
+32:40 di eh protezione combinata.
+32:44 
+
+32:44 Vi esorto, vi esorto, ma vivamente, ma
+32:48 
+
+32:48 non solo io, eh se ehm
+32:52 
+
+32:52 lo guardate mai il quadretto di
+32:55 
+
+32:55 elettrico di casa vostra
+33:01 
+
+33:01 di pigiare il test volta ogni tanto. Sì,
+33:05 
+
+33:05 non una volta ogni tanto il eh tutte le
+33:08 
+
+33:08 varie marche di differenziali,
+33:11 
+
+33:11 Schneider, ABB, insomma a chi ti pare,
+33:15 
+
+33:15 ti dicano "Vuoi che questo trabiccolo
+33:17 
+
+33:17 funzioni bene nel tempo? Te pigia il
+33:20 
+
+33:20 pulsantino T almeno una volta ai mese".
+33:23 
+
+33:23 Eh, questo non lo dico io, eh, questo lo
+33:25 
+
+33:25 dicono le case dei costruttori, le case
+33:27 
+
+33:27 costruttrici dei dei differenziali.
+33:30 
+
+33:30 Perché? Perché il differenziale è
+33:32 
+
+33:32 praticamente un interruttore, no? Un
+33:34 
+
+33:34 interruttore sono due lamelle o si sono
+33:36 
+
+33:36 chiuse o si sono aperte, ma le lamelle
+33:39 
+
+33:39 che sono fatte di rame le si ossidano,
+33:41 
+
+33:41 no? ossidandosi, ovviamente il l'ossido
+33:45 
+
+33:45 si si dispone anche tra le due lamelle
+33:48 
+
+33:48 che quindi ovviamente questa mh proprio
+33:53 
+
+33:53 in gergo si dice le lamelle si
+33:54 
+
+33:54 cementano, eh proprio si cementano e
+33:57 
+
+33:57 quindi ovviamente questa cosa insomma
+34:01 
+
+34:01 non deve ehm non deve accedere perché
+34:04 
+
+34:04 ovviamente ritarda il tempo. Perché,
+34:06 
+
+34:06 infatti vi ricordo, guardate, il
+34:08 
+
+34:08 differenziale non è un limitatore di
+34:09 
+
+34:09 corrente, è un limitatore di tempo. Eh,
+34:13 
+
+34:13 va bene? Quindi, vediamo un po' quanta
+34:16 
+
+34:16 ora il tuo cugino gli è andata bene,
+34:19 
+
+34:19 quindi diciamo lo posso prendere come lo
+34:23 
+
+34:23 posso prendere come esempio per gli è
+34:25 
+
+34:25 andata bene, eh? Quanta corrente gli
+34:28 
+
+34:28 potrà essere passata addosso a tuo
+34:30 
+
+34:30 cugino?
+34:34 
+
+34:34 Facciamo un conto molto semplice.
+34:36 
+
+34:36 Applichiamo la legge di ohm. Eh, come
+34:39 
+
+34:39 applicando la legge di Oh la la corrente
+34:41 
+
+34:41 come la trovo? I è uguale a
+34:44 
+
+34:44 V su R. V/ R. Perfetto. Ottimo. Quindi
+34:49 
+
+34:49 la tensione quant'è? L' 220 230 V. Eh. E
+34:55 
+
+34:55 R. R. Quale R devo prendere? La
+34:58 
+
+34:58 resistenza del corpo umano. Quant'è la
+34:60 
+
+35:00 resistenza del corpo umano? mediamente.
+35:03 
+
+35:03 Che ci dicano le norme? Le norme ci
+35:05 
+
+35:05 dicono che mediamente la corrente la,
+35:08 
+
+35:08 scusatemi, la resistenza del corpo umano
+35:11 
+
+35:11 la varia fra i 500 e 1000 ohm.
+35:14 
+
+35:14 Mediamente, mediamente, mediamente. Ora,
+35:17 
+
+35:17 tra l'altro, poi tuo cugino, essendo un
+35:19 
+
+35:19 bambino, sicuramente ci avrà avuto anche
+35:21 
+
+35:21 la resistenza anche più bassa, perché i
+35:23 
+
+35:23 bambini c'hanno la pelle molto idratata,
+35:27 
+
+35:27 eh, quindi il corpo molto idratato,
+35:30 
+
+35:30 quindi sicuramente resistenza anche più
+35:32 
+
+35:32 bassa. Ma facciamo i conti più o meno
+35:35 
+
+35:35 normali,
+35:38 
+
+35:38 facciamo che resistenza 1000 ohm, ci ben
+35:41 
+
+35:41 facile anche il conto, eh. E 230 / 1000
+35:45 
+
+35:45 quanto fa? 230
+35:47 
+
+35:47 mamp.
+35:49 
+
+35:49 Ritorna con 230 mamp cavolo, io no e
+35:54 
+
+35:54 sono
+35:56 
+
+35:56 vedete insomma sono abbastanza là, eh, e
+35:59 
+
+35:59 ho usato 1000 ohm, eh, quindi
+36:02 
+
+36:02 resistenza.
+36:04 
+
+36:04 L'interruttore differenziale in quanto
+36:06 
+
+36:06 tempo dovrebbe intervenire
+36:11 
+
+36:11 se funzionasse bene?
+36:16 
+
+36:16 Eh 0,03
+36:19 
+
+36:19 millisecondi, ordine dei millisecondi.
+36:22 
+
+36:22 Allora, 0,03 quello è è la corrente, eh
+36:26 
+
+36:26 è la corrente a cui i i classici 30
+36:29 
+
+36:29 mamp. Comunque si dovrebbe scattare
+36:32 
+
+36:32 mediamente in 27-28
+36:35 
+
+36:35 millisecondi che se funzionasse
+36:37 
+
+36:37 perfettamente. Eh, certamente
+36:40 
+
+36:40 possono andar bene anche tempi un po'
+36:43 
+
+36:43 più lunghi, però già se ti arrivi con
+36:46 
+
+36:46 230 240 mamp, già se ti arrivi a ehm a
+36:52 
+
+36:52 200
+36:55 
+
+36:55 eh 250 300 misecondi, che non è
+36:60 
+
+36:60 difficile arrivare a tempi a tempi del
+37:02 
+
+37:02 genere con interruttori differenziali eh
+37:06 
+
+37:06 lasciati lì
+37:08 
+
+37:08 un po' candire ai tempo, eh, tu puoi
+37:11 
+
+37:11 arrivare facilmente a toccare le
+37:16 
+
+37:16 ehm
+37:17 
+
+37:17 le curve della tetan, scusatemi, del
+37:21 
+
+37:21 della fibrillazione e quindi insomma eh
+37:25 
+
+37:25 potrebbe non essere potrebbe non essere
+37:27 
+
+37:27 banale. Eh, quindi
+37:30 
+
+37:30 capite bene che eh
+37:36 
+
+37:36 domande, perplessità, dubbi?
+37:41 
+
+37:41 Per adesso non ci sono male le alzate.
+37:43 
+
+37:43 Se posso aggiungere una cosa, se mi
+37:45 
+
+37:45 posso permettere. Assolutamente, prego.
+37:48 
+
+37:48 Il caso del bimbo dei 4 anni eh, mi
+37:51 
+
+37:51 colpisce in particolare perché
+37:53 
+
+37:53 addirittura una volta la messa a terra
+37:57 
+
+37:57 qualcuno osava farlo attraverso le
+37:59 
+
+37:59 tubazioni metalliche degli impianti
+38:02 
+
+38:02 idraulici. era la era quasi la prassi
+38:05 
+
+38:05 prima e e quindi il problema in quel
+38:07 
+
+38:07 caso è stato proprio la mancanza del
+38:10 
+
+38:10 differenziale
+38:12 
+
+38:12 che avrebbe avrebbe facilmente provocato
+38:15 
+
+38:15 la morte del bimbo perché, come dicevi
+38:18 
+
+38:18 te la bassa la molto bassa resistenza
+38:20 
+
+38:20 del corpo umano l'avrebbe fatto eh
+38:24 
+
+38:24 resistere poco. Concedimi.
+38:28 
+
+38:28 Eh, sì, però ha visto poi comunque da
+38:29 
+
+38:29 giovani siamo molto più resistenti a
+38:32 
+
+38:32 tutto, eh, bisogna dire la verità, eh.
+38:34 
+
+38:34 Eh, esatto, esatto. Tutto qua. Comunque
+38:37 
+
+38:37 e confermo che metà degli anni 80 gli
+38:41 
+
+38:41 interruttori differenziali non c non si
+38:44 
+
+38:44 usavano n negartamenti. Allora, il
+38:46 
+
+38:46 differenziale alta sensibilità, come si
+38:48 
+
+38:48 conosce? Come si conosce è stato
+38:50 
+
+38:50 inventato nel 65, nel 1965. Eh, quindi,
+38:56 
+
+38:56 infatti, tra l'altro, ora qui ci sarebbe
+38:58 
+
+38:58 tutta una disquisizione da fare, ma non
+39:00 
+
+39:00 ci sa il tempo, lasciamo perdere. Ehm
+39:05 
+
+39:05 ehm inoltre, ecco, quindi oltre alla
+39:10 
+
+39:10 oltre alla fibrillazione ventricolare,
+39:12 
+
+39:12 che è la ragione per cui si muore molto
+39:14 
+
+39:14 più facilmente, quali sono gli altri gli
+39:17 
+
+39:17 altri gli altre eh eh le altre cose può
+39:19 
+
+39:19 provocare la la corrente alternata? di
+39:23 
+
+39:23 sicuro
+39:25 
+
+39:25 la ehm
+39:28 
+
+39:28 la tetanizzazione, appunto, la soglia di
+39:31 
+
+39:31 rilascio che ha appunto vedete i 10 mamp
+39:34 
+
+39:34 la soglia eh eh
+39:38 
+
+39:38 vabbè la soglia di fibbrazione
+39:39 
+
+39:39 ventricolare che appunto per le correnti
+39:40 
+
+39:40 alternate per 50-60 Hz ehm ha un una
+39:46 
+
+39:46 considerevole diminuzione della soglia e
+39:52 
+
+39:52 la corrente continua
+39:54 
+
+39:54 la corrente continua. Guardate bene,
+39:57 
+
+39:57 così meno vi ho spiegato il perché
+39:58 
+
+39:58 realmente la continua è molto meno
+40:00 
+
+40:00 pericolosa dell'alternata.
+40:02 
+
+40:02 La soglia di percezione
+40:05 
+
+40:05 della continua guardate bene, è due.
+40:08 
+
+40:08 Questo non è che lo dico io, eh.
+40:09 
+
+40:09 Questoente ce lo dicano le norme. Ci
+40:11 
+
+40:11 sono varie norme CEI. CEI è il comitato
+40:14 
+
+40:14 elettrotecnico italiano.
+40:16 
+
+40:16 La la soglia di percezione è 2 mamp. Se
+40:20 
+
+40:20 vi ricordate la soglia di percezione per
+40:22 
+
+40:22 l'alternata era 0,5, quindi 4 volte
+40:25 
+
+40:25 superiore.
+40:27 
+
+40:27 La soglia di rilascio per la corrente
+40:30 
+
+40:30 continua, guardate, non si può parlare
+40:33 
+
+40:33 di una vera e propria soglia, se una
+40:35 
+
+40:35 vera e propria corrente di rilascio ehm
+40:39 
+
+40:39 fino a 300 m per ovviamente la corrente
+40:44 
+
+40:44 continua. Inoltre, anche per la
+40:47 
+
+40:47 fibrillazione ventricolare, vedete, per
+40:50 
+
+40:50 durate di contatto maggiori di un
+40:52 
+
+40:52 periodo cardiaco, cioè il tempo che il
+40:55 
+
+40:55 sangue ci mette a entrare uscì dal
+40:57 
+
+40:57 cuore, la soglia di fibrillazione per
+40:60 
+
+40:60 corrente continua è molte volte maggiore
+41:02 
+
+41:02 rispetto a quella della corrente
+41:03 
+
+41:03 alternata.
+41:05 
+
+41:05 Invece guardate bene, per contatti di
+41:07 
+
+41:07 durata inferiore ai 200 misecondi la
+41:09 
+
+41:09 soglia di fibrillazione è circa identica
+41:11 
+
+41:11 a quella là dell'alternata. Quindi se tu
+41:13 
+
+41:13 vuoi per assurdo con la corrente
+41:15 
+
+41:15 continua, ecco, conviene rimanerci
+41:17 
+
+41:17 attaccati, eh, va bene, perché tu ti fa
+41:20 
+
+41:20 meno male. Quindi, ecco, in questa
+41:22 
+
+41:22 maniera
+41:24 
+
+41:24 ora non sono entrato proprio tantissimo
+41:26 
+
+41:26 nei dettagli, ma e non ci s nemmeno in
+41:28 
+
+41:28 tempo. Ehm,
+41:31 
+
+41:31 ecco, vedete, vi ho spiegato perché la
+41:33 
+
+41:33 corrente alternata è molto più perosa
+41:35 
+
+41:35 della corrente continua, eh, cioè ci
+41:37 
+
+41:37 sono dei fatti
+41:40 
+
+41:40 oggettivi, eh? Oggettivi.
+41:46 
+
+41:46 Va bene?
+41:50 
+
+41:50 Quindi, ecco, mh
+41:54 
+
+41:54 prima vi parlavo di contatti indiretti,
+41:56 
+
+41:56 no? Quindi il differenziale ci ci
+41:58 
+
+41:58 protegge da un contatto indiretto.
+42:01 
+
+42:01 contatto in diretto e è quando io tocco
+42:04 
+
+42:04 una massa, una massa metallica, per
+42:06 
+
+42:06 esempio, no, una carcassa di un
+42:08 
+
+42:08 elettrodomestico eh eh ma anche di una
+42:12 
+
+42:12 radio eh che nel normale esercizio non
+42:16 
+
+42:16 deve essere sotto tensione, ma che a
+42:18 
+
+42:18 causa di una di un guasto, di una
+42:21 
+
+42:21 perdita di ehm una perdita di
+42:24 
+
+42:24 resistenza, ovviamente può anche ehm
+42:28 
+
+42:28 può andare sotto tensione. Questo è
+42:30 
+
+42:30 appunto la definizione e eh e di massa
+42:36 
+
+42:36 e il contatto diretto da contatti
+42:39 
+
+42:39 diretti più o meno chi ci salva? ci
+42:41 
+
+42:41 salva fondamentalmente, allora,
+42:43 
+
+42:43 fondamentalmente ci salva sia anche il
+42:45 
+
+42:45 differenziale, ma ci salva anche, per
+42:47 
+
+42:47 esempio, il ehm magnetotermico,
+42:51 
+
+42:51 l'interruttore magnetotermico, perché,
+42:52 
+
+42:52 per esempio, in questa, se io fossi
+42:54 
+
+42:54 tanto furbo da fare una cosa del genere,
+42:56 
+
+42:56 vedete, da mettere
+42:58 
+
+42:58 i i ehm le dita nella presa in questa
+43:03 
+
+43:03 maniera, secondo voi differenziale se ne
+43:05 
+
+43:05 accorge se io facessi una cosa del
+43:07 
+
+43:07 genere?
+43:10 
+
+43:10 Se facessero sei generi i differenziali
+43:12 
+
+43:12 se ne accorgi?
+43:16 
+
+43:16 No, forse fosse scalso forse sì, sennò
+43:20 
+
+43:20 allora esatto, bravo. Cioè bisognerebbe
+43:22 
+
+43:22 che un pon corrente la si la andasse
+43:25 
+
+43:25 verso terra in questa maniera. Insomma,
+43:27 
+
+43:27 ora ovviamente io mi riferisco
+43:30 
+
+43:30 direttamente alla figura, ma insomma se
+43:32 
+
+43:32 la figura fosse realmente questa, cioè
+43:34 
+
+43:34 quello che entra è uguale a quello che
+43:35 
+
+43:35 esce. Per il differenziale va tutto
+43:37 
+
+43:37 bene. Invece chi è che se ne accorge o
+43:41 
+
+43:41 se ne dovrebbe accorgere? Il
+43:43 
+
+43:43 magnetotermico. Ma quale parte del
+43:45 
+
+43:45 magnetotermico se ne accorge? La parte
+43:47 
+
+43:47 magnetica o la parte o la parte termica?
+43:56 
+
+43:56 Credo magnetica.
+43:59 
+
+43:59 La parte termica. Eh, perché la parte
+44:02 
+
+44:02 magnetica si accorge di cortocircuiti.
+44:05 
+
+44:05 In un cortocircuito, qual è la qual è la
+44:07 
+
+44:07 caratteristica di un corto circuito?
+44:11 
+
+44:11 La corrente è
+44:15 
+
+44:15 molto infinita
+44:17 
+
+44:17 eh, alta.
+44:20 
+
+44:20 Ora infinita.
+44:21 
+
+44:21 Se fosse infinita matematicamente tende
+44:24 
+
+44:24 all'infinito, diciamo. Sì, si. Ok. Eh,
+44:27 
+
+44:27 però insomma si si sarebbero risolti i
+44:29 
+
+44:29 problemi energetici della Terra eh se la
+44:34 
+
+44:34 rendesse all'infinito. Sarebbe bello.
+44:37 
+
+44:37 Eh, lo so che quando si studia
+44:38 
+
+44:38 elettrotecnica e ovviamente si studia
+44:41 
+
+44:41 prima si studiano i i circuiti ideali,
+44:44 
+
+44:44 no, circuiti reali, poi si studia
+44:46 
+
+44:46 circuito reale. E se quando c il
+44:49 
+
+44:49 circuito ideale, poi come prima si
+44:51 
+
+44:51 parlava del parlavate del
+44:54 
+
+44:54 [Musica]
+44:56 
+
+44:56 volmetro, nel volmetro nel volmetro
+44:60 
+
+44:60 teoricamente teoricamente un volmetro
+45:02 
+
+45:02 per funzionare molto bene deve avere una
+45:04 
+
+45:04 resistenza interna infinita. eh eh
+45:08 
+
+45:08 l'amperometro,
+45:09 
+
+45:09 la resistenza interna deve essere
+45:11 
+
+45:11 teoricamente zero eh ovviamente non sarà
+45:14 
+
+45:14 mai eh è possibile eh sarebbe bello,
+45:17 
+
+45:17 sarebbe molto bello, però insomma eh
+45:20 
+
+45:20 purtroppo purtroppo non è così, insomma,
+45:22 
+
+45:22 oddio, ci si avvicina eh con dei
+45:23 
+
+45:23 materiali si avvicini, ci si avvicina
+45:25 
+
+45:25 molto, insomma, sono materiali un po'
+45:26 
+
+45:26 particolari di andare a trovare i
+45:28 
+
+45:28 superconduttori, ma insomma vabbè, ma
+45:30 
+
+45:30 lasciamo perdere.
+45:32 
+
+45:32 Oh, quindi posso aggiungere una cosa,
+45:35 
+
+45:35 Fabrizio? Prego. Assolutamente. Hai hai
+45:38 
+
+45:38 inserito un'immagine spettacolare
+45:41 
+
+45:41 che per noi che alimentiamo tutte le
+45:44 
+
+45:44 nostre radio alle prese possiamo capire
+45:47 
+
+45:47 da quell'immagine l'importanza delle
+45:50 
+
+45:50 prese con gli alveoli protetti. Bravo.
+45:53 
+
+45:53 Inseriti dalla legge 4690. Una volta uno
+45:56 
+
+45:56 infilava due cacciaviti, uno sopra e uno
+45:58 
+
+45:58 sotto e faceva quel giochino lì. La
+45:60 
+
+45:60 vecchia 4690, ragazzi. Eh sì. Oggi non
+46:03 
+
+46:03 lo si può più fare perché si devono
+46:05 
+
+46:05 inserire i due poli contemporaneamente,
+46:08 
+
+46:08 sennò la presa non si alimenta. Allora,
+46:11 
+
+46:11 se uno fosse talmente furbo di avere due
+46:13 
+
+46:13 chiodi, ci inserisce due chiodi in
+46:15 
+
+46:15 maniera parallela, ottieni lo stesso
+46:18 
+
+46:18 risultato. Però bisogna essere parecchio
+46:20 
+
+46:20 eh come dire
+46:23 
+
+46:23 io lo la chiamo praticamente è una
+46:26 
+
+46:26 selezione è una selezione della specie,
+46:28 
+
+46:28 insomma. Eh, però
+46:33 
+
+46:33 selezione naturale. Selezione naturale.
+46:36 
+
+46:36 Eh, tu se andata a ricappare la 4690,
+46:39 
+
+46:39 mitica 4690. Eh,
+46:44 
+
+46:44 nel corso nel corso quello ovviamente
+46:46 
+
+46:46 dove è inserito tutto questo se ne parla
+46:49 
+
+46:49 parecchio della 4690 e poi del 3708 che
+46:52 
+
+46:52 ha sostituito la 36 la 4690. insomma,
+46:55 
+
+46:55 vabbè, ehm, sarebbe interessante
+46:58 
+
+46:58 parlarne, però ovviamente, insomma, c'è
+47:00 
+
+47:00 tempo e poi Paolo dimmi dimmi te se io
+47:03 
+
+47:03 sto andando avanti, ma forse sto andando
+47:05 
+
+47:05 forse troppo avanti. No, no, ma eh
+47:09 
+
+47:09 aspetta, microfono fuori posto. No, no,
+47:12 
+
+47:12 diciamo tutto molto interessante. Vai,
+47:14 
+
+47:14 cerca di cerca di concludere più o meno
+47:17 
+
+47:17 per le 10:115. Ok, perfetto. Sì, vedi il
+47:22 
+
+47:22 contatto diretto, eh, vedi? eh una
+47:24 
+
+47:24 persona ha una massa, vedi ad esempio la
+47:26 
+
+47:26 carcassa di un motore o di una parte
+47:29 
+
+47:29 conduttrice, eh,
+47:33 
+
+47:33 oh, ecco, vedi? Questo è il percorso
+47:35 
+
+47:35 della corrente di una di una di una di
+47:37 
+
+47:37 una maglia di una anello di guasto. Eh,
+47:41 
+
+47:41 l'anello di guasto è il percorso che fa
+47:43 
+
+47:43 la corrente quando c'è un guasto. Vedi,
+47:44 
+
+47:44 tocco la carcassa ad un elettron. Dico
+47:47 
+
+47:47 un cassetto elettromesto, anche una
+47:48 
+
+47:48 radio, eh. ovviamente e fa questo
+47:50 
+
+47:50 percorso qui. Questo che vedete
+47:54 
+
+47:54 ehm
+47:56 
+
+47:56 dalla parte opposta dellomino, questo è
+47:59 
+
+47:59 il secondario del trasformatore in
+48:02 
+
+48:02 cabina ehm
+48:05 
+
+48:05 e il centrella collegato a terra. Eh, va
+48:08 
+
+48:08 bene.
+48:11 
+
+48:11 Altra parte importante,
+48:13 
+
+48:13 contatto diretto, contatto indiretto,
+48:15 
+
+48:15 arco elettrico, perché gli archi
+48:16 
+
+48:16 elettrici se ne parla sempre pochissimo
+48:19 
+
+48:19 o ne parla quasi mai nessuno, ma gli
+48:21 
+
+48:21 archi elettrici sono ehm un grosso
+48:25 
+
+48:25 rischio, eh anche perché si possano
+48:27 
+
+48:27 verificare molto spesso. Ecco, vedi, tra
+48:30 
+
+48:30 l'altro gli archettici, per esempio,
+48:32 
+
+48:32 invece in corrente continua, per
+48:33 
+
+48:33 esempio, anche le batterie e possano
+48:36 
+
+48:36 provocare degli arche elettrici se non
+48:38 
+
+48:38 le ehm tratti e non le sai maneggiare in
+48:44 
+
+48:44 maniera corretta. Eh,
+48:47 
+
+48:47 gli archi elettrici, guardate bene che
+48:49 
+
+48:49 mh
+48:51 
+
+48:51 ora senza dice "Madonna bisogna trovare
+48:54 
+
+48:54 delle delle tensioni esagerate, ma con
+48:57 
+
+48:57 un trifase eh una connessione trifase eh
+49:03 
+
+49:03 380, insomma, che dà un 400 V, cioè si
+49:07 
+
+49:07 può arrivare a fare facendo dei
+49:09 
+
+49:09 cortocircuiti, si può arrivare a a degli
+49:11 
+
+49:11 archi elettrici che arrivano a
+49:13 
+
+49:13 3005-4000°.
+49:15 
+
+49:15 Cradi. Eh, quindi, insomma,
+49:19 
+
+49:19 certamente quei 220 le le correnti in
+49:21 
+
+49:21 gioco le sono minori, però insomma,
+49:23 
+
+49:23 comunque
+49:25 
+
+49:25 sopra 1000° C ci si arriva alla grande,
+49:27 
+
+49:27 eh per frazione di secondo, ma ci si
+49:30 
+
+49:30 arriva, eh, va bene? Quindi, insomma, è
+49:34 
+
+49:34 bene stare attenti. Eh, tra l'altro eh
+49:38 
+
+49:38 degli archi per gli archi elettrici non
+49:40 
+
+49:40 esiste una norma armonizzata
+49:45 
+
+49:45 eh ehm che parli della sicurezza
+49:48 
+
+49:48 dell'arco elettrico, ma esistono
+49:50 
+
+49:50 solamente eh norme che parlano di m
+49:56 
+
+49:56 protezione dell'arco elettrico, cioè
+49:58 
+
+49:58 indumenti di protezione dell'arco
+49:60 
+
+49:60 elettrico. Vabbè, ora poi anche qui eh
+50:02 
+
+50:02 ci si potrebbe sta a parlare per
+50:03 
+
+50:03 parecchio, ma insomma
+50:06 
+
+50:06 non ci sa non ci sa il tempo. E e
+50:13 
+
+50:13 altra cosa interessante, altra cosa
+50:16 
+
+50:16 interessante, appunto, come diceva anche
+50:18 
+
+50:18 Paolo, e poi magari così almeno e
+50:23 
+
+50:23 passo poi la palla anche al
+50:28 
+
+50:28 insomma ai collega che voppo la scusami
+50:31 
+
+50:31 non mi ricordo il nome, cioè poi non vi
+50:33 
+
+50:33 vedo perché ho dovuto buttare giù la eh
+50:37 
+
+50:37 non so come l'ha schermata con tutti i
+50:38 
+
+50:38 nomi. Scusami, Gabriele. Gabriele. Eh,
+50:42 
+
+50:42 scusami, Gabriele, scusami. Italia che
+50:44 
+
+50:44 era Italia Z5.
+50:48 
+
+50:48 Eh, JLW.
+50:50 
+
+50:50 JW, eh, scusami. Eh, ehm,
+50:55 
+
+50:55 l'ha messa a terra, eh. La messa a
+50:57 
+
+50:57 terra. La messa a terra, come vedete, è
+50:60 
+
+50:60 fondamentale. Eh, ma allora
+51:05 
+
+51:05 va con ora, per esempio, ehm lui parlerà
+51:08 
+
+51:08 di fulmini, fulmini sicuramente anche
+51:11 
+
+51:11 collegati a collegato a quello che è eh
+51:14 
+
+51:14 chiaramente l'antenna, ovviamente. Eh,
+51:18 
+
+51:18 anche qui ci sono ovviamente tante norme
+51:20 
+
+51:20 CEI, ma anche norme ovviamente europee,
+51:24 
+
+51:24 insomma, Cenelec,
+51:26 
+
+51:26 soprattutto Cenelec, insomma Cenelec a
+51:28 
+
+51:28 livello europeo e IEC a livello
+51:31 
+
+51:31 internazionale e IEC International
+51:34 
+
+51:34 Intertechnical Commission. Eh vabbè. Ehm
+51:38 
+
+51:38 che parlano, insomma, ci dicono come eh
+51:41 
+
+51:41 bisogna fare le protezioni. Prima Paolo
+51:43 
+
+51:43 diceva, "Eh, io c'ho l'antenna, però
+51:45 
+
+51:45 accanto c'ho un traliccio che è
+51:47 
+
+51:47 dell'Enel, no? Che c'ha un traliccio
+51:49 
+
+51:49 dell'Enel alto eh, più di 20 m.
+51:55 
+
+51:55 è peggio o è meglio avere un qualcosa di
+51:58 
+
+51:58 molto alto rispetto eh poi insomma
+52:02 
+
+52:02 Gabriele eh ve lo dirà ora non voglio
+52:05 
+
+52:05 non voglio spoilerare spo spoilerare
+52:08 
+
+52:08 nulla eh
+52:11 
+
+52:11 ce lo dirà ce lo dirà Gabriele e
+52:13 
+
+52:13 comunque le le valutazioni eh sulla
+52:16 
+
+52:16 fulminazione insomma sono eh sono sono
+52:19 
+
+52:19 molto molto molto molto interessanti.
+52:22 
+
+52:22 Comunque, ehm, la messa a terra è è ehm
+52:27 
+
+52:27 in casa, ovviamente in casa, al lavoro,
+52:30 
+
+52:30 nello studio, ovviamente è obbligatoria
+52:33 
+
+52:33 e va fatta. Eh, tra l'altro è a carico
+52:37 
+
+52:37 certamente nel sistema di distribuzione
+52:40 
+
+52:40 che ci sanno in ci stanno in Italia. il
+52:42 
+
+52:42 sistema ve lo dico, poi magari ve lo ve
+52:45 
+
+52:45 l' andate a cercare o se volete eh mi
+52:49 
+
+52:49 scrivete e insomma vi
+52:54 
+
+52:54 vi do un po' di materiale oppure sennò
+52:56 
+
+52:56 lo do lo do a Paolo e e ve lo e ve lo
+52:59 
+
+52:59 passa.
+53:01 
+
+53:01 Ehm,
+53:03 
+
+53:03 sistema TT, eh, cioè terra terra, il
+53:08 
+
+53:08 il
+53:09 
+
+53:09 la terra a casa nostra bisogna farla
+53:11 
+
+53:11 noi, eh, tra l'altro bisognerebbe fare
+53:14 
+
+53:14 anche le verifiche messe a terra ogni 5
+53:16 
+
+53:16 anni, vabbè, ma ovviamente a caso non le
+53:18 
+
+53:18 fa nessuno, però nelle aziende nelle
+53:19 
+
+53:19 aziende nelle aziende si fanno e perché
+53:22 
+
+53:22 e non solo nelle aziende controllano
+53:25 
+
+53:25 anche in maniera abbastanza attenta se
+53:27 
+
+53:27 uno ce l'ha o meno, per cui è è bene
+53:29 
+
+53:29 stci attenti. Facevo le verifie rimesse
+53:31 
+
+53:31 a terra prima. Eh, appunto, facevo le
+53:34 
+
+53:34 verifie rimesse a terra, poi scusatemi
+53:36 
+
+53:36 se sono venale, ma hanno ehm non so se
+53:40 
+
+53:40 lo sapete, ma lo Stato ha calmierato i
+53:43 
+
+53:43 prezzi delle Brifemis a terra. Eh, non
+53:46 
+
+53:46 so se lo sapevate, ma ve lo dico io. Eh,
+53:49 
+
+53:49 ho smesso di fare le verif a terra, ma
+53:51 
+
+53:51 lasciamo fare. E
+53:55 
+
+53:55 conosci la BEC? Come? Scusami.
+53:59 
+
+53:59 Ah. Conosci la pec
+54:03 
+
+54:03 lontanissimo. Ti sento la pec ora mi
+54:05 
+
+54:05 senti? No, la meglio la società vecch.
+54:09 
+
+54:09 Eh, allora l'ho sentita, ma non c'ho mai
+54:12 
+
+54:12 collaborato.
+54:14 
+
+54:14 Mh, non c'ho mai collaborato. No, è la
+54:15 
+
+54:15 ditta che viene da noi. È la ditta che
+54:17 
+
+54:17 viene da noi in ditta a fare le
+54:19 
+
+54:19 verifiche. Son tante, cioè ce ne son ce
+54:21 
+
+54:21 ne son tante che fanno eh le verifiche
+54:23 
+
+54:23 mate, eh. Ce ne sono m Sì, sì, sì. No,
+54:28 
+
+54:28 l'importante è che sia ovviamente
+54:31 
+
+54:31 una ditta certificata, ma quello penso
+54:34 
+
+54:34 che sicuramente eh eh oltre il
+54:37 
+
+54:37 certificata va fatta con scrupolo,
+54:40 
+
+54:40 perché è facile anche di non farle con
+54:42 
+
+54:42 scrupola, che non è banale, vero? Eh,
+54:45 
+
+54:45 non è banale, richiede un po' di tempo.
+54:48 
+
+54:48 Richiede, se te la vuo fa bene, richiede
+54:49 
+
+54:49 un po' di tempo. Sì, perché tanti, per
+54:53 
+
+54:53 esempio, che fanno? ehm
+54:56 
+
+54:56 non trovano nemmeno il pozzetto dove c'è
+54:58 
+
+54:58 la la pallina della messa a terra, per
+55:01 
+
+55:01 esempio. Le paline le paline. Eh eh
+55:03 
+
+55:03 tanti magari si attaccano ce n'è quattro
+55:04 
+
+55:04 cinque ancora. Eh eh eh teoricamente
+55:08 
+
+55:08 bisognerebbe magari andare su tutte.
+55:12 
+
+55:12 Richiede tempo. Sì, teoricamente
+55:14 
+
+55:14 bisognerebbe battere, quindi con un
+55:17 
+
+55:17 morsetto sulla palina o le paline andare
+55:20 
+
+55:20 con l'altro morsetto a battere tutte le
+55:24 
+
+55:24 prese,
+55:26 
+
+55:26 quindi per vedere se c'è la continuità e
+55:28 
+
+55:28 volere il valore resistivo non deve
+55:31 
+
+55:31 essere sopra un certo valore perché
+55:33 
+
+55:33 sennò vuol dire che la la continuità non
+55:36 
+
+55:36 è garantita. Eh,
+55:39 
+
+55:39 guarda, ora tu m'hai dato l'assist.
+55:41 
+
+55:41 Quando si fa le verifie messa a terra si
+55:43 
+
+55:43 fanno si fa ovviamente si misura la
+55:44 
+
+55:44 messa a terra, si misura la continuità
+55:47 
+
+55:47 della misura. In alcuni sistemi si
+55:50 
+
+55:50 misura anche la quello si chiama
+55:53 
+
+55:53 l'anello di guasto nei sistemi TN. Se tu
+55:57 
+
+55:57 c'hai l'azienda e tu e tu c'hai anche
+55:60 
+
+55:60 una tua cabina di media tensione,
+56:02 
+
+56:02 sicuramente tu c'hai un sistema TN,
+56:04 
+
+56:04 quindi si misura l'anello di guasto e e
+56:07 
+
+56:07 poi si misura
+56:09 
+
+56:09 noi come da noi ci sta la cabina eh
+56:11 
+
+56:11 cabina di trasformazione c'è un sistema
+56:13 
+
+56:13 FMI da 10.000 da 10.000
+56:16 
+
+56:16 Eh, cioè sì, purtroppo. Sì. E 1,15
+56:21 
+
+56:21 eh 15, scusa. Sì, da 15 a 380. M Sì,
+56:26 
+
+56:26 perfetto. Sì, sì, sì. Da 15 a 380.
+56:29 
+
+56:29 Sì, sì. Ehm
+56:32 
+
+56:32 e poi si controllano i differenziali. A
+56:35 
+
+56:35 differenziali si fa due, cioè si può
+56:37 
+
+56:37 fare due prove. Allora, fino a 30 m si
+56:40 
+
+56:40 controlla semplicemente la corrente a
+56:43 
+
+56:43 cui devono scattare, per esempio 30 mamp
+56:45 
+
+56:45 deve scattta a 30 mamp deve scattare a
+56:48 
+
+56:48 28-29 mamp, già se scatta 32 un va bene,
+56:52 
+
+56:52 va cambiato.
+56:54 
+
+56:54 Nei differenziali più grandi, quelli a a
+56:57 
+
+56:57 300 500 eh 1 amp. Ehm, ovviamente è
+57:03 
+
+57:03 importante controllare anche il tempo di
+57:05 
+
+57:05 intervento e in questi in questi
+57:07 
+
+57:07 differenziali si controlla sia appunto
+57:09 
+
+57:09 la rampa la rampa di corrente e e quindi
+57:12 
+
+57:12 il tempo di il scusatemi, la corrente di
+57:15 
+
+57:15 intervento e il tempo di sgancio. Eh si
+57:18 
+
+57:18 fanno tutte e due le prove fino a 30
+57:20 
+
+57:20 mamp. Non è il tempo di intervento, non
+57:23 
+
+57:23 è non è obbligatorio. Se si fa è meglio,
+57:26 
+
+57:26 eh, però anche lì vedi quanti
+57:29 
+
+57:29 differenziali tu c'hai ad approvare. Se
+57:30 
+
+57:30 tu ce nh 10 di un discorso, se tu ce nai
+57:33 
+
+57:33 100, 200, anche 1000, alle volte ci sono
+57:36 
+
+57:36 dei delle aziende.
+57:39 
+
+57:39 Mi è capitato di andare in una Ab
+57:42 
+
+57:42 lavoro. Abbiamo otto quadri. Abbiamo
+57:46 
+
+57:46 otto quadri e scusi quelli di Gabina.
+57:51 
+
+57:51 Gabina o pezzi conto
+57:54 
+
+57:54 nel quadri ausiliare compagna bella.
+57:58 
+
+57:58 Ne abbiamo otto quadri e in ogni quadro
+57:60 
+
+57:60 minimo ce n'è. Mi sembra stavo rintando
+58:02 
+
+58:02 in Italia e però ci rimango poco e poi
+58:05 
+
+58:05 casomai ti racconto se riusciamo a
+58:07 
+
+58:07 vederci. Ehm, sei per caso Pistoia,
+58:09 
+
+58:09 Ariana, così domani qual sto sentendo
+58:12 
+
+58:12 qualcuno che staente un messaggio
+58:14 
+
+58:14 vocale, probabilmente,
+58:17 
+
+58:17 perché è mandato a velocità doppia. Eh
+58:21 
+
+58:21 no, ecco, stavo dicendo le se tu c'ai le
+58:23 
+
+58:23 cabine hai messe a terra, eh se c'è la
+58:25 
+
+58:25 cabina, scusatemi, di la cabina di media
+58:28 
+
+58:28 tensione, eh anche lì, ecco, la la
+58:30 
+
+58:30 verifica della messa a terra nelle
+58:32 
+
+58:32 cabine, anche quella è delicata perché
+58:34 
+
+58:34 va fatta con un sistema particolare. Eh
+58:37 
+
+58:37 ehm
+58:41 
+
+58:41 eh si dice il metodo voltamperometrio.
+58:43 
+
+58:43 Vabbè, ma insomma, comunque vabbè,
+58:46 
+
+58:46 oh e praticamente sono sono
+58:51 
+
+58:51 a fine, eh, però insomma ecco questi
+58:53 
+
+58:53 concetti base questi concetti base ve li
+58:56 
+
+58:56 ho ehm
+58:59 
+
+58:59 ve li ho detti. Ah, ecco una cosina
+59:00 
+
+59:00 interessante. Vi siete mai chiesti
+59:03 
+
+59:03 perché
+59:06 
+
+59:06 ce l'avete in mano ce l'avete un
+59:08 
+
+59:08 caricatore di un cellulare?
+59:12 
+
+59:12 Sì, sì.
+59:14 
+
+59:14 Ce l'ho collegato ora. Ecco qual è.
+59:19 
+
+59:19 Guarda comeè fatto un caricatore, un
+59:21 
+
+59:21 cellulare. Perché c'ha solo Perché non
+59:23 
+
+59:23 ce l'ha alla terra?
+59:25 
+
+59:25 Perché è in doppio isolamento.
+59:27 
+
+59:27 E il doppio isolamento e che vuol dire?
+59:32 
+
+59:32 Il doppio isolamento vuol dire che il
+59:34 
+
+59:34 costruttore ti garantisce che te non
+59:38 
+
+59:38 possa riuscire a trocare le parti le
+59:41 
+
+59:41 parti di sottotenzi.
+59:43 
+
+59:43 e quindi non è necessario collegarla a
+59:45 
+
+59:45 terra. Addirittura la la C748 che una
+59:48 
+
+59:48 norma sempre c'è dice assolutamente è
+59:51 
+
+59:51 vietato collegarli a terra. Eh,
+59:54 
+
+59:54 addirittura
+59:57 
+
+59:57 un altro sistema e questo qui è il è il
+59:59 
+
+59:59 simbolo del doppio isolamento. Eh, se
+60:02 
+
+60:02 voi c'avete anche i phon, ormai tutti i
+60:04 
+
+60:04 phon, io non li utilizzo più da tempo i
+60:06 
+
+60:06 phon, ma per chiare ragioni, ma ehm
+60:11 
+
+60:11 son tutti ormai doppio isolamento, se
+60:12 
+
+60:12 c'hanno anche la presa asciugo, ma non
+60:14 
+
+60:14 c'hanno le linguettine dalle parti.
+60:18 
+
+60:18 E poi c'è la separazione elettrica.
+60:21 
+
+60:21 Questo è un altro sistema di protezione
+60:23 
+
+60:23 per i contatti diretti, ma anche
+60:26 
+
+60:26 indiretti, soprattutto diretti, però la
+60:29 
+
+60:29 separazione sapete che cos'è sapete
+60:31 
+
+60:31 cos'è un trasformatore di isolamento? e
+60:33 
+
+60:33 poi chiudo.
+60:36 
+
+60:36 Sì, ce l'ha spiegato Paolo. Perfetto.
+60:38 
+
+60:38 Allora, tu sapete benissimo che
+60:40 
+
+60:40 trasformatore isolamento non è possibile
+60:42 
+
+60:42 che ci possa essere nessun contatto
+60:44 
+
+60:44 elettrico fra il primario e il
+60:47 
+
+60:47 secondario. Quindi, pratic isolamento.
+60:50 
+
+60:50 Vedete il ehm la l'anello di guasto non
+60:55 
+
+60:55 si può creare perché c'è un Vedete come
+60:58 
+
+60:58 c'è in questa figura qui, eh perché c'è
+61:00 
+
+61:00 proprio un uno stacco, eh cioè c'è il
+61:03 
+
+61:03 circuito aperto e quindi non può
+61:05 
+
+61:05 circolare la corrente, quindi anche se
+61:07 
+
+61:07 te tu tocchi un'attrezzatura
+61:09 
+
+61:09 che non è cioè che che che ha subito un
+61:12 
+
+61:12 guasto, te non piglierai mai nella
+61:14 
+
+61:14 corrente perché eh il l'anello di guasto
+61:17 
+
+61:17 non si può chiudere.
+61:23 
+
+61:23 C'avrei tantissime altre cose da dirvi,
+61:25 
+
+61:25 ma se volete io vi mando, boh, anche il
+61:27 
+
+61:27 materiale su tutto il sistema TT, TNIT,
+61:30 
+
+61:30 eh che potrebbe essere interessante ehm
+61:35 
+
+61:35 eh per capire come funziona il sistema
+61:38 
+
+61:38 d'alimentazione che ci arriva a casa. E
+61:43 
+
+61:43 sì, volentieri. E poi quello che ci
+61:45 
+
+61:45 mandi lo giriamo ai partecipanti senza
+61:46 
+
+61:46 problemi. Io, guarda, io ve lo mando. Ce
+61:49 
+
+61:49 ne avrei anche una versione con un po'
+61:52 
+
+61:52 di conti. Se voi vi ricordate Sevenin e
+61:55 
+
+61:55 Norton,
+61:57 
+
+61:57 guarda che vi vi vi ritiro fuori un un
+62:02 
+
+62:02 ricordo, un vecchio ricordo
+62:03 
+
+62:03 dell'elettrotecnica. Ve ricordate Steven
+62:05 
+
+62:05 e Norton? Chi ha fatto elettrotecnica?
+62:07 
+
+62:07 Steven e Norton? Ve li ricordate?
+62:10 
+
+62:10 Eh, purtroppo sì.
+62:12 
+
+62:12 Come purtroppo
+62:15 
+
+62:15 uno pensava dice cazzo, ma Te Nord non
+62:17 
+
+62:17 li utilizzerò mai nella vita e invece vi
+62:20 
+
+62:20 fa vedere che
+62:23 
+
+62:23 si può utilizzare
+62:26 
+
+62:26 il teorema di Sevenin per semplificare
+62:29 
+
+62:29 dei circuiti, per trovare insomma un
+62:31 
+
+62:31 corticino molto semplice, ma insomma
+62:33 
+
+62:33 beh, comunque se volete ve lo mando.
+62:37 
+
+62:37 E vi potrei dire tante altre cose, ma
+62:40 
+
+62:40 poi rubo rubo spazio a
+62:43 
+
+62:43 alla fulminazione che è anche più inter
+62:46 
+
+62:46 che è molto più interessante anche di
+62:48 
+
+62:48 questo
+62:50 
+
+62:50 di che vi ho detto ora.
+62:54 
+
+62:54 Grazie Fabrizio, c'è qualche domanda
+62:56 
+
+62:56 finale scusatemi. Vai libero. C'è
+62:58 
+
+62:58 qualche domanda per Fabrizio in
+62:60 
+
+62:60 chiusura?
+63:04 
+
+63:04 Quindi buona ora auguro buona lettura a
+63:07 
+
+63:07 tutti, tanto stasera è l'ultima lezione,
+63:09 
+
+63:09 no, prima della pausa estiva, per cui
+63:11 
+
+63:11 Fabrizio, anche se ci mandi tante pagine
+63:13 
+
+63:13 e hanno molto tempo per leggerle e
+63:16 
+
+63:16 allora io ve le mando. E guarda, io
+63:19 
+
+63:19 Paolo, tanto io le giro a te, eh. Sì,
+63:21 
+
+63:21 sì, poi pensiamo noi a girarle. Certo.
+63:24 
+
+63:24 Eh, ok, grazie. Interessantissimo.
+63:26 
+
+63:26 Allora, allora, fammi vedere che io devo
+63:29 
+
+63:29 levare. Ah, ho già levato. Grazie,
+63:30 
+
+63:30 Fabrizio. Grazie. No, grazie a voi,
+63:33 
+
+63:33 grazie a voi. Eh, ecco, ora dovrei aver
+63:36 
+
+63:36 levato eh
+63:39 
+
+63:39 ho levato, vero? La trasmissione.
+63:40 
+
+63:40 Perfetto, perfetto. Esatto, esatto,
+63:42 
+
+63:42 esatto. Dai, e ora passiamo dall'altra
+63:44 
+
+63:44 parte, il lato oscuro della forza.
+63:46 
+
+63:46 Fulmini e dintorni, fulmini, saette, chi
+63:49 
+
+63:49 più ne ha più ne metta. a te Gabriele.
+63:52 
+
+63:52 Sì. Allora, intanto complimenti a
+63:55 
+
+63:55 Fabrizio che si vede che è abituato
+63:57 
+
+63:57 nell'esposizione, nella formazione.
+63:60 
+
+63:60 Gabriele è il milau. E mi e invece e
+64:04 
+
+64:04 invece vi chiedo scusa in anticipo
+64:06 
+
+64:06 perché io eh mi occupo di progettazione
+64:09 
+
+64:09 impiantistica e di acustica, ma sono
+64:12 
+
+64:12 completamente disabituato ad esporre. Ma
+64:15 
+
+64:15 bisogna sentirsi, eh Gabriele, perché
+64:17 
+
+64:17 bisogna sentirsi. ti ti chiamerò e ti
+64:19 
+
+64:19 romperò un po' le scatole. Va bene, va
+64:21 
+
+64:21 bene. No, fa assolutamente piacere.
+64:23 
+
+64:23 Anzi, sentiamoci anche in telegrafia,
+64:26 
+
+64:26 visto che io sono sono disabituato
+64:30 
+
+64:30 a parlare anche alla radio, perché io
+64:33 
+
+64:33 trasmetto solo ed esclusivamente in
+64:34 
+
+64:34 telegrafia con tasti meccanici. Grande
+64:37 
+
+64:37 Gabi, grande. La fonia la utilizzo solo
+64:40 
+
+64:40 per le esercitazioni di protezione
+64:42 
+
+64:42 civile perché mi sembra doveroso.
+64:45 
+
+64:45 Grandissimo. E allora io provo a
+64:47 
+
+64:47 condividere lo schermo, mi aiuterete
+64:49 
+
+64:49 perché è la prima volta che utilizzo
+64:51 
+
+64:51 questa piattaforma.
+64:53 
+
+64:53 Non so se è arrivato. È arrivato.
+64:55 
+
+64:55 Perfetto. Si vede benissimo.
+64:58 
+
+64:58 Bene. Allora, molto bene. Eccoci qua.
+65:01 
+
+65:01 Allora, parliamo di fulmini. Allora,
+65:03 
+
+65:03 cercherò di essere poco noioso, eh, e
+65:08 
+
+65:08 poi andare al sodo su quello che è il
+65:12 
+
+65:12 la nostra materia di radioamatori più
+65:15 
+
+65:15 che di eh elettrotecnici o di
+65:19 
+
+65:19 tecnici. Allora, il rischio di
+65:22 
+
+65:22 fulminazione
+65:23 
+
+65:23 brevemente, cosa cos'è un fulmine? è un
+65:26 
+
+65:26 fenomeno legato all'elettricità
+65:27 
+
+65:27 atmosferica e la parte eh m pericolosa
+65:32 
+
+65:32 del furmine è naturalmente la corrente
+65:35 
+
+65:35 elettrica che viene generata che è
+65:37 
+
+65:37 altissima. Fabrizia parlava di
+65:40 
+
+65:40 milliampere, io vi parlerò di kilampere,
+65:43 
+
+65:43 però chiuderò il cerchio perché Fabrizio
+65:45 
+
+65:45 ha iniziato a parlarvi di impianti di
+65:47 
+
+65:47 messa a terra, io invece chiuderò con
+65:49 
+
+65:49 gli impianti di messa a terra perché
+65:51 
+
+65:51 sono una cosa molto molto molto
+65:54 
+
+65:54 importante sia per quanto riguarda la
+65:56 
+
+65:56 protezione contro i contatti indiretti.
+65:59 
+
+65:59 Prima Fabrizio vi ha parlato di eh
+66:01 
+
+66:01 sistema combinato, infatti la cosa
+66:04 
+
+66:04 fondamentale nella protezione contro i
+66:06 
+
+66:06 contatti indiretti è il coordinamento
+66:09 
+
+66:09 dei dispositivi di protezione, cioè non
+66:11 
+
+66:11 un dispositivo di protezione 003 si
+66:15 
+
+66:15 chiama salvavita, ma se è coordinato con
+66:17 
+
+66:17 un impianto di messa a terra. La legge
+66:20 
+
+66:20 di Home vi insegnerà che la e forse vi
+66:24 
+
+66:24 avranno già detto che la corrente che la
+66:28 
+
+66:28 la resistenza di terra su un impianto
+66:30 
+
+66:30 con un protetto da un interruttore
+66:32 
+
+66:32 differenziale da 003 non deve essere
+66:35 
+
+66:35 superiore a 1600 ohm, altrimenti sono
+66:39 
+
+66:39 dolori.
+66:41 
+
+66:41 Una volta non c'era l'interruttore
+66:43 
+
+66:43 differenziale, infatti si tendeva a
+66:46 
+
+66:46 accettare valori di resistenza di terra
+66:49 
+
+66:49 non superiore a 20 ohm nei nella bassa
+66:51 
+
+66:51 tensione che poi abbiamo eh tutti a
+66:54 
+
+66:54 casa. Allora, i fulmini sono chiaramente
+66:58 
+
+66:58 di diverso tipo. Ci sono quelli tra
+67:01 
+
+67:01 nuvola e suolo, tra suolo e nuvola, ci
+67:04 
+
+67:04 sono anche i fulmini globulari che vi
+67:07 
+
+67:07 che vi invito ad andare a vedere perché
+67:09 
+
+67:09 sono una roba oltre che pericolosissima,
+67:13 
+
+67:13 fantascientifica, sono nuvole che si
+67:15 
+
+67:15 muovono nei parcheggi, eh nuvole con con
+67:18 
+
+67:18 scariche, sono veramente spettacolari. E
+67:21 
+
+67:21 poi ci sono anche i fulmini tra nuvola e
+67:23 
+
+67:23 nuvola. Allora, eh la condizione eh per
+67:27 
+
+67:27 lo sviluppo dei fulmini sono i
+67:29 
+
+67:29 cumuloembi, sono quei nuvoloni
+67:32 
+
+67:32 o o come in questo caso è un cumulo
+67:34 
+
+67:34 nembo eh quasi shelf cloud. Allora, io
+67:38 
+
+67:38 sono appassionato di fotografia, quindi
+67:39 
+
+67:39 le fotografie che vedete sono mie e e
+67:42 
+
+67:42 quindi diciamo che eh tolgo mi tolgo dal
+67:48 
+
+67:48 rischio della folgorazione alla radio e
+67:49 
+
+67:49 vado quella eh sul campo direttamente
+67:53 
+
+67:53 alla folgorazione diretta con la
+67:54 
+
+67:54 fotocamera. Ehm sono nuvole eh nubi a
+67:58 
+
+67:58 sviluppo verticale e e generano i
+68:01 
+
+68:01 temporali. Eh, praticamente dalla dalla
+68:04 
+
+68:04 nuvola ehm ha inizio un canale ionizzato
+68:08 
+
+68:08 e eh
+68:11 
+
+68:11 in questo canale eh si genera la scarica
+68:14 
+
+68:14 elettrica. la scarica, le scariche sono
+68:17 
+
+68:17 di sono possono essere eh la scarica,
+68:20 
+
+68:20 diciamo, verso il suolo, la scarica di
+68:22 
+
+68:22 ritorno, ma anche la serie di scariche
+68:24 
+
+68:24 che è molto molto comune e poi m quando
+68:29 
+
+68:29 di solito si vede un temporale, si vede
+68:31 
+
+68:31 un fulmine cadere in una zona, non se ne
+68:33 
+
+68:33 vede uno, se se ne vede più di uno nello
+68:35 
+
+68:35 stesso punto.
+68:37 
+
+68:37 E niente, qui ci sono alcune alcune
+68:42 
+
+68:42 dettagli. La scarica si propaga verso la
+68:45 
+
+68:45 nube con una velocità di 0103 volte
+68:47 
+
+68:47 quella della luce e ed è per questo che
+68:50 
+
+68:50 vediamo
+68:52 
+
+68:52 l'effetto luminoso. Eh generalmente,
+68:56 
+
+68:56 come dicevo, si si parla di fulmine, ma
+68:58 
+
+68:58 si tratta di scariche di fulmine. Vi
+69:01 
+
+69:01 faccio questo esempio. Qui ero con mia
+69:03 
+
+69:03 moglie al corso del carnevale di
+69:04 
+
+69:04 Viareggio. Arriva un temporale
+69:07 
+
+69:07 terrificante che poi porterà
+69:09 
+
+69:09 all'annullamento del corso. mi rifugio
+69:11 
+
+69:11 sotto una zona dove sapevo che c'era il
+69:15 
+
+69:15 bagno, la salute perché vedevo i fulmini
+69:17 
+
+69:17 che arrivavano verso mare. Mi giro con
+69:19 
+
+69:19 la fotocamera, la posiziono con lo
+69:22 
+
+69:22 scatto a raffica, in due o tre mi
+69:24 
+
+69:24 guardano come dire "Ora pensi di
+69:26 
+
+69:26 prendere il fulmine". Arrivo a una
+69:28 
+
+69:28 scarica, io inizio a scattare a raffica.
+69:32 
+
+69:32 negli otto scatti che ho eh realizzato,
+69:35 
+
+69:35 in sei di questi otto scatti c'è il
+69:37 
+
+69:37 fulmine a varie potenze. E questa è
+69:41 
+
+69:41 verosimilmente una scarica di ritorno.
+69:44 
+
+69:44 La seconda scarica del fulmine è più
+69:46 
+
+69:46 luminosa della prima quasi quasi sempre
+69:49 
+
+69:49 e quindi mi sembrava carino eh
+69:53 
+
+69:53 immortarlo proprio dietro questa scritta
+69:56 
+
+69:56 perché poi eh sapevo già che mi sarebbe
+69:59 
+
+69:59 tornato comodo e e ringrazio Paolo per
+70:02 
+
+70:02 aver per non aver reso vano il mio
+70:05 
+
+70:05 impegno fotografico.
+70:08 
+
+70:08 Bellissimo. Eh sì, la classificazione,
+70:11 
+
+70:11 la normativa. Fabrizio ha parlato di
+70:14 
+
+70:14 Normecei. il comitato elettrotecnico
+70:17 
+
+70:17 italiano è una un un ente privato, è
+70:23 
+
+70:23 un'associazione di diritto privato e tra
+70:26 
+
+70:26 l'altro senza scopo di lucro e diciamo
+70:29 
+
+70:29 che è dedicato alla alla normazione in
+70:33 
+
+70:33 in ambito elettrotecnico, elettronico e
+70:36 
+
+70:36 telecomunicazioni
+70:38 
+
+70:38 e poi è anche quello che si allinea ai
+70:41 
+
+70:41 sistemi normativi europei e
+70:44 
+
+70:44 internazionali.
+70:47 
+
+70:47 La il comitato che si occupa del rischio
+70:50 
+
+70:50 di fulminazione è il comitato 81.
+70:53 
+
+70:53 Allora, eh brevemente, eh quando si
+70:57 
+
+70:57 parla di di rischio di fulminazione si
+70:60 
+
+70:60 parla della sorgente di rischio che è il
+71:03 
+
+71:03 fulmine. E il fulmine ehm può essere
+71:06 
+
+71:06 pericoloso per la struttura, può essere
+71:09 
+
+71:09 pericoloso perché cade in prossimità
+71:12 
+
+71:12 della struttura, può essere pericoloso
+71:14 
+
+71:14 sulle linee, che sia linea elettrica o
+71:16 
+
+71:16 linea di trasmissione dati, oppure eh
+71:19 
+
+71:19 perché cade in prossimità di una linea.
+71:22 
+
+71:22 il
+71:24 
+
+71:24 il rischio del fulmine poi può
+71:26 
+
+71:26 chiaramente provocare un danno. Il danno
+71:30 
+
+71:30 si divide in danno per gli esseri
+71:33 
+
+71:33 viventi e per le per elettrocuzione,
+71:36 
+
+71:36 danno materiale e guasti degli impianti
+71:38 
+
+71:38 elettrici. Naturalmente
+71:41 
+
+71:41 nelle nelle valutazioni di rischio che
+71:43 
+
+71:43 facciamo si prende in considerazione
+71:45 
+
+71:45 quasi esclusivamente il danno per gli
+71:47 
+
+71:47 esseri viventi perché poi è quello eh
+71:50 
+
+71:50 che
+71:51 
+
+71:51 è più pericoloso e soprattutto eh
+71:55 
+
+71:55 diciamo che per i danni materiali, per i
+71:57 
+
+71:57 guasti elettrici ci sono le
+71:59 
+
+71:59 assicurazioni
+72:01 
+
+72:01 e invece la salute ce la ce la dobbiamo
+72:05 
+
+72:05 salvaguardare nel miglior modo
+72:07 
+
+72:07 possibile.
+72:09 
+
+72:09 Parliamo di perdite perché
+72:12 
+
+72:12 i danni perché possono essere anche due
+72:16 
+
+72:16 danni in combinazione e un un guasto
+72:19 
+
+72:19 agli impianti elettrici può portare
+72:20 
+
+72:20 anche all'elettrocuzione eccetera
+72:22 
+
+72:22 eccetera perché perché un furmine fa
+72:25 
+
+72:25 cedere l'isolamento che è una delle
+72:27 
+
+72:27 caratteristiche fondamentali per la
+72:29 
+
+72:29 protezione contro i contatti diretti e
+72:31 
+
+72:31 può a sua volta causare il danno agli
+72:34 
+
+72:34 esseri viventi o agli animali
+72:36 
+
+72:36 E pertanto
+72:39 
+
+72:39 si parla di tipo di perdite come come la
+72:42 
+
+72:42 perdita di vite umane o animali, la
+72:45 
+
+72:45 perdita di servizio pubblico, di
+72:47 
+
+72:47 patrimonio culturale insostituibile e
+72:49 
+
+72:49 perdita economica. E si arriva al
+72:52 
+
+72:52 concetto di rischio. Il rischio è ne
+72:55 
+
+72:55 avranno parlato tanto al corso, eh non
+72:59 
+
+72:59 esiste il rischio zero, esiste il
+73:01 
+
+73:01 rischio il rischio tollerabile, il
+73:04 
+
+73:04 rischio accettabile in sicurezza.
+73:06 
+
+73:06 Fabrizio eh lo spiegherà molto spesso
+73:09 
+
+73:09 questo il concetto di rischio nelle sue
+73:11 
+
+73:11 nelle sue nei suoi seminari di
+73:14 
+
+73:14 formazione e e il rischio di perdite
+73:18 
+
+73:18 umane è il rischio che viene valutato eh
+73:22 
+
+73:22 nel rischio di fulminazione. Non
+73:24 
+
+73:24 parliamo quasi mai di rischio di di
+73:27 
+
+73:27 servizio pubblico e di rischio di
+73:29 
+
+73:29 perdita del patrimonio culturale.
+73:31 
+
+73:31 Parliamo di rischio di perdita economica
+73:34 
+
+73:34 solo quando facciamo la valutazione del
+73:36 
+
+73:36 rischio verso un ente pubblico, verso un
+73:39 
+
+73:39 edificio pubblico,
+73:42 
+
+73:42 appunto, il rischio tollerabile. Il
+73:43 
+
+73:43 rischio tollerabile è quel rischio che
+73:47 
+
+73:47 eh possiamo considerare eh accettabile e
+73:52 
+
+73:52 pertanto
+73:53 
+
+73:53 ci riteniamo protetti dalla dalle
+73:57 
+
+73:57 scariche atmosferiche. Il rischio
+73:59 
+
+73:59 tollerabile di perdere di vite umane o
+74:02 
+
+74:02 da anni permanenti è 10^ -5 anni^-1. Il
+74:06 
+
+74:06 il rischio si si valuta eh in
+74:10 
+
+74:10 perdita media annua. Il rischio
+74:12 
+
+74:12 tollerabile per la perdita servizio
+74:14 
+
+74:14 pubblico è 10^-3 anni all^ -1 e il
+74:17 
+
+74:17 rischio tollerabile per il m di perdita
+74:20 
+
+74:20 del patrimonio culturale insostituibile
+74:21 
+
+74:21 10^ -4 anni -1. La valutazione del
+74:26 
+
+74:26 rischio. La valutazione del rischio si
+74:27 
+
+74:27 fa eh verificando le componenti di
+74:31 
+
+74:31 rischio. ripeto,
+74:34 
+
+74:34 R1, rischio eh di perdita di vite umane
+74:38 
+
+74:38 o compreso il danno permanente è il
+74:42 
+
+74:42 rischio che viene valutato con i
+74:44 
+
+74:44 software o anche a mano, volendo si può
+74:47 
+
+74:47 fare anche a mano seguendo la la CI81
+74:51 
+
+74:51 e diciamo che vengono identificate per
+74:54 
+
+74:54 per ottenere il valore di rischio
+74:57 
+
+74:57 vengono identificati le componenti e il
+75:02 
+
+75:02 calcolo della componente di rischio
+75:03 
+
+75:03 identificata, il calcolo del rischio
+75:05 
+
+75:05 totale. Poi si identifica il rischio
+75:07 
+
+75:07 tollerabile, come abbiamo visto, il
+75:09 
+
+75:09 rischio tollerabile per la perdita di
+75:11 
+
+75:11 vite umane è eh me lo sono perso è 10^
+75:18 
+
+75:18 -5 anni alla men si fa il controllo tra
+75:22 
+
+75:22 rischio e rischio tollerabile.
+75:25 
+
+75:25 Vado in fondo a questa piccola
+75:27 
+
+75:27 presentazione, sperando di che che non
+75:29 
+
+75:29 sia noiosa,
+75:31 
+
+75:31 perché c'è un piccolo schema blocchi.
+75:35 
+
+75:35 Si identifica la struttura da
+75:36 
+
+75:36 proteggere, si identificano i tipi di
+75:39 
+
+75:39 perdita. Per ciascun tipo di perdita si
+75:42 
+
+75:42 identifica il rischio tollerabile e eh
+75:45 
+
+75:45 tutte le componenti di rischio. Noi
+75:47 
+
+75:47 confrontiamo R1 con RT.
+75:53 
+
+75:53 Se eh il rischio che abbiamo calcolato è
+75:56 
+
+75:56 maggiore del rischio tollerabile, eh
+75:60 
+
+75:60 abbiamo due. Allora, se è maggiore
+76:04 
+
+76:04 dobbiamo capire come possiamo
+76:06 
+
+76:06 proteggerci. Se invece è inferiore, la
+76:09 
+
+76:09 struttura è autoprotetta. Si definisce
+76:11 
+
+76:11 autoprotetta.
+76:13 
+
+76:13 Definire una struttura autoprotetta non
+76:16 
+
+76:16 significa essere sicuri al 100% della
+76:19 
+
+76:19 protezione. Quando consegno le relazioni
+76:22 
+
+76:22 dico sempre, "Signori, e io esco di qui
+76:25 
+
+76:25 e potrebbe cadere un fulmine e fare
+76:28 
+
+76:28 tutti i danni del mondo". Eh, purtroppo,
+76:30 
+
+76:30 eh parliamo appunto di rischio
+76:33 
+
+76:33 tollerabile, non di rischio zero.
+76:36 
+
+76:36 Allora, io qui vi faccio vedere un
+76:38 
+
+76:38 piccolo esempio di una di una
+76:40 
+
+76:40 valutazione di rischio su un condominio
+76:42 
+
+76:42 di un nostro collega.
+76:45 
+
+76:45 La cosa fondamentale per fare la
+76:47 
+
+76:47 valutazione del rischio è identificare
+76:51 
+
+76:51 il numero di fulmini
+76:54 
+
+76:54 che cadono a terra per anno su kilometro
+76:56 
+
+76:56 quadrato nella zona oggetto della
+76:58 
+
+76:58 valutazione.
+76:60 
+
+76:60 Ricordo che questo numero è un numero
+77:05 
+
+77:05 che cambia nel tempo. Ogni 5 anni questo
+77:10 
+
+77:10 valore andrebbe ricontrollato per
+77:12 
+
+77:12 verificare che diminuisca o rimanga
+77:16 
+
+77:16 identico perché la valutazione fatta
+77:20 
+
+77:20 continua ad avere eh senso. Purtroppo vi
+77:24 
+
+77:24 dico già che ogni 5 anni questo valore
+77:29 
+
+77:29 tende ad aumentare per gli ovvi problemi
+77:32 
+
+77:32 climatici che abbiamo
+77:34 
+
+77:34 eh nel nell'ultimo periodo sul
+77:37 
+
+77:37 riscaldamento globale. si potrebbe
+77:39 
+
+77:39 parlare di di
+77:43 
+
+77:43 di tanti fattori che influenzano il
+77:47 
+
+77:47 clima, ma diciamo che eh la
+77:51 
+
+77:51 tropicalizzazione del clima anche alle
+77:53 
+
+77:53 nostre latitudini porta a a un
+77:56 
+
+77:56 peggioramento del del numero di fulmini.
+78:00 
+
+78:00 Altro eh dato fondamentale sono le
+78:04 
+
+78:04 coordinate geografiche, quindi dove si
+78:07 
+
+78:07 trova la zona oggetto della della
+78:10 
+
+78:10 verifica.
+78:12 
+
+78:12 Allora, la zona eh perché la zona è
+78:16 
+
+78:16 importante? Perché le gli ambienti sono
+78:19 
+
+78:19 caratterizzati da un coefficiente.
+78:22 
+
+78:22 Gli ambienti sono divisi in urbani,
+78:24 
+
+78:24 suburbani e rurali. l'area, l'ambiente
+78:27 
+
+78:27 urbano, l'ambiente
+78:30 
+
+78:30 cittadino è solitamente un ambiente
+78:35 
+
+78:35 abbastanza sicuro ed è un ambiente eh
+78:39 
+
+78:39 caratterizzato da edifici di altezza
+78:42 
+
+78:42 uguale o inferiore a, diciamo, quello il
+78:45 
+
+78:45 nostro che stiamo analizzando.
+78:47 
+
+78:47 L'ambiente suburbano invece continua ad
+78:50 
+
+78:50 essere un ambiente abbastanza sicuro,
+78:52 
+
+78:52 meno sicuro dell'ambiente urbano, ed è
+78:55 
+
+78:55 solitamente nelle zone periferiche
+78:57 
+
+78:57 un'area dove ci sono edifici con altezza
+78:59 
+
+78:59 uguali al nostro o più bassi e eh si
+79:03 
+
+79:03 parla sempre di edifici assanti, quindi
+79:06 
+
+79:06 un condominio, un'abitazione.
+79:10 
+
+79:10 Gli ambienti rurali invece sono quelli
+79:11 
+
+79:11 più pericolosi, sono quelli isolati,
+79:13 
+
+79:13 sono quelli magari in campagna dove
+79:16 
+
+79:16 anche il e il terreno ha una resistività
+79:21 
+
+79:21 eh più propensa a alla ad attirare eh
+79:26 
+
+79:26 una scarica eh oppure addirittura le
+79:30 
+
+79:30 colline. Eh per sintetizzare questa
+79:33 
+
+79:33 frase è perfetta. Un intero edificio a
+79:36 
+
+79:36 sestante fisicamente separato da altre
+79:38 
+
+79:38 costruzioni in una zona urbana con con
+79:41 
+
+79:41 presenza prevalente di strutture di
+79:43 
+
+79:43 altezza uguale o maggiore, risulterà più
+79:45 
+
+79:45 protetta rispetto a un intero edificio a
+79:48 
+
+79:48 stante fisicamente separato da altre
+79:50 
+
+79:50 costruzioni in una zona urbana con
+79:52 
+
+79:52 presenza prevalente di strutture di
+79:54 
+
+79:54 altezza inferiore è molto più protetto
+79:56 
+
+79:56 rispetto a un edificio isolato situato
+79:58 
+
+79:58 in cima a una collina o in una montagna.
+80:03 
+
+80:03 Qui eh ci sono due schermate del
+80:05 
+
+80:05 software che utilizziamo noi, che
+80:07 
+
+80:07 chiaramente è un software realizzato da
+80:10 
+
+80:10 Tutto Normel. Tutto Normel è m una
+80:14 
+
+80:14 società che eh indirizza noi progettisti
+80:18 
+
+80:18 e ci guida nel rispetto delle norme CEI
+80:22 
+
+80:22 eh in maniera puntigliosa e dettagliata.
+80:26 
+
+80:26 Qui si vede bene eh l'importanza della
+80:30 
+
+80:30 dell'edificio, della struttura
+80:32 
+
+80:32 dell'edificio, se eh è una struttura
+80:35 
+
+80:35 metà un edificio con struttura
+80:38 
+
+80:38 metallica, un cemento armato, oppure con
+80:40 
+
+80:40 tetto e struttura metallica in cemento
+80:42 
+
+80:42 armato con ferri elettricamente continui
+80:45 
+
+80:45 gettati in opera eccetera eccetera.
+80:47 
+
+80:47 fondamentale sono le dimensioni del
+80:49 
+
+80:49 fabbricato dove viene richiesta una h
+80:53 
+
+80:53 minima e una h massima per noi molto
+80:55 
+
+80:55 importante perché la h minima è
+80:58 
+
+80:58 l'altezza del tetto della terrazza, la h
+80:60 
+
+80:60 massima è la punta dell'antenna. Quando
+81:02 
+
+81:02 facciamo la valutazione eh la
+81:06 
+
+81:06 valutazione non si fa mai una
+81:08 
+
+81:08 valutazione unica. La valutazione del
+81:11 
+
+81:11 rischio e fulminazione si fa con prima
+81:14 
+
+81:14 dell'installazione dell'antenna e dopo
+81:17 
+
+81:17 l'installazione dell'antenna, perché non
+81:19 
+
+81:19 è è quasi eh è quasi impossibile che eh
+81:25 
+
+81:25 in un edificio autoprotetto
+81:27 
+
+81:27 l'installazione di di un'antenna apporti
+81:31 
+
+81:31 eh la necessità di installare delle
+81:34 
+
+81:34 delle protezioni. necessità di
+81:35 
+
+81:35 installare le protezioni, perché
+81:37 
+
+81:37 bisognerebbe che fossimo proprio a
+81:39 
+
+81:39 cavallo, cioè che la struttura fosse
+81:42 
+
+81:42 autoprotetta per poco. E vi dico che
+81:46 
+
+81:46 raramente questo potrebbe succedere
+81:48 
+
+81:48 appunto eh su una collina in un'area
+81:52 
+
+81:52 molto isolata e con una densità di di
+81:56 
+
+81:56 fulminazione molto elevata.
+81:59 
+
+81:59 Eh,
+82:01 
+
+82:01 altra cosa fondamentale sono le linee in
+82:03 
+
+82:03 ingresso. Devono essere inserite le
+82:06 
+
+82:06 linee ehm elettriche che soprattutto nei
+82:11 
+
+82:11 ambienti urbani o suburbani sono quasi
+82:14 
+
+82:14 tutte interrate. le linee di
+82:16 
+
+82:16 trasmissione dati. Nella nostra zona
+82:18 
+
+82:18 versi c sono ancora parecchi pali
+82:21 
+
+82:21 telecom con linee aeree che sono
+82:23 
+
+82:23 inguardabili e anche abbastanza
+82:26 
+
+82:26 pericolose, però purtroppo eh piano
+82:30 
+
+82:30 piano piano stanno cercando di di
+82:32 
+
+82:32 interrare tutto e e questo è una buona
+82:37 
+
+82:37 cosa. e la distanza del la lunghezza
+82:41 
+
+82:41 delle linee in ingresso e poi se se è
+82:44 
+
+82:44 già presente un uno scaricatore di
+82:47 
+
+82:47 sovrattenzione oppure oppure no. E poi
+82:50 
+
+82:50 ci sono altri tipi altri tipi di di
+82:57 
+
+82:57 altri coefficienti che che influenzano
+82:59 
+
+82:59 la valutazione che sono e soprattutto in
+83:02 
+
+83:02 un'attività se c'è un un rischio di
+83:05 
+
+83:05 incendio, un rischio di esplosione, se
+83:08 
+
+83:08 ci sono protezioni antincendio, eh se
+83:11 
+
+83:11 c'è la schermatura della della zona, che
+83:15 
+
+83:15 tipo di pavimento, che tipo di suolo c'è
+83:17 
+
+83:17 nel nella struttura
+83:20 
+
+83:20 e tutti questi elementi portano a al
+83:23 
+
+83:23 risultato finale. Diciamo che sono sono
+83:29 
+
+83:29 non sono così determinanti. Chiaramente
+83:32 
+
+83:32 determinante c'è il rischio di incendio,
+83:34 
+
+83:34 il rischio di esplosione. Un ambiente
+83:36 
+
+83:36 con rischio di esplosione facilmente
+83:38 
+
+83:38 ricade nell'obbligo, perlomeno della
+83:40 
+
+83:40 dell'installazione degli scaricatori di
+83:42 
+
+83:42 sovrattenzione. Ma poi vi dirò perché
+83:46 
+
+83:46 gli scaricatori di sovrattenzione
+83:48 
+
+83:48 andrebbero installati sempre e ovunque.
+83:52 
+
+83:52 Allora, ehm, finita la nostra
+83:55 
+
+83:55 valutazione, scopriamo se il nostro
+83:58 
+
+83:58 edificio ha bisogno di protezioni o è
+84:00 
+
+84:00 autoprotetto.
+84:02 
+
+84:02 il nostro collega nella zona 5,
+84:06 
+
+84:06 dopo un'attenta valutazione lui si
+84:09 
+
+84:09 trovava andava ad installare un'antenna
+84:12 
+
+84:12 verticale ed un'antenna filare al quinto
+84:15 
+
+84:15 piano di un condominio e in una in
+84:19 
+
+84:19 un'area m diciamo tra l'urbano e il
+84:22 
+
+84:22 suburbano. Non era non era proprio in
+84:25 
+
+84:25 città, ma molto vicino molto vicino a al
+84:30 
+
+84:30 nostro capoluogo. eh
+84:33 
+
+84:33 e al nostro
+84:36 
+
+84:36 a Firenze sostanzialmente
+84:38 
+
+84:38 e e praticamente abbiamo fatto la
+84:40 
+
+84:40 valutazione, abbiamo scoperto che il suo
+84:43 
+
+84:43 edificio
+84:44 
+
+84:44 ehm
+84:48 
+
+84:48 era autoprotetto
+84:50 
+
+84:50 eh sia prima che dopo l'installazione
+84:53 
+
+84:53 dell'antenna eh in modo che
+84:57 
+
+84:57 non non ci fossero non ci fossero in
+85:01 
+
+85:01 realtà
+85:02 
+
+85:02 Non è proprio così. Allora,
+85:02 
+
+85:02 quell'edificio, diciamo, aveva bisogno
+85:05 
+
+85:05 di protezioni anche prima
+85:06 
+
+85:06 dell'installazione dell'antenna. Ora,
+85:08 
+
+85:08 chiaramente, eh è stato complicato
+85:11 
+
+85:11 spiegarlo,
+85:13 
+
+85:13 è toccato a lui spiegarlo
+85:15 
+
+85:15 all'amministratore, però sostanzialmente
+85:17 
+
+85:17 eh
+85:20 
+
+85:20 qualcuno
+85:21 
+
+85:21 aveva già eh lavorato in tal senso
+85:24 
+
+85:24 perché il quell'edificio era già eh
+85:27 
+
+85:27 dotato di un LPS, di un
+85:30 
+
+85:30 di un captatore per i fulmini, quindi
+85:33 
+
+85:33 qualcuno aveva già fatto quella
+85:35 
+
+85:35 valutazione e sostanzialmente abbiamo
+85:37 
+
+85:37 Abbiamo abbiamo capito che
+85:39 
+
+85:39 l'installazione dell'antenna non
+85:41 
+
+85:41 aggravava la situazione.
+85:44 
+
+85:44 Lui tutto contento e
+85:47 
+
+85:47 niente e
+85:49 
+
+85:49 ed è finita ed è finita la valutazione.
+85:51 
+
+85:51 Appunto l'PS Lighting Protection System
+85:55 
+
+85:55 esterno è progettato per proteggere la
+85:58 
+
+85:58 struttura. In quel caso c'era un
+85:60 
+
+85:60 captatore e poi eh mi ha mandato delle
+86:03 
+
+86:03 fotografie e sarà stato sicuramente una
+86:07 
+
+86:07 una maglia equipotenziale. Ora, qui per
+86:09 
+
+86:09 esempio ci sono quattro captatori con
+86:12 
+
+86:12 una maglia equipotenziale e poi ci sono,
+86:14 
+
+86:14 vedete, queste discese verso i
+86:16 
+
+86:16 dispersori di terra e sono tutti fatti
+86:20 
+
+86:20 con la medesima sezione, in modo in
+86:23 
+
+86:23 maniera che se il captatore capta un
+86:25 
+
+86:25 fulmine scarica in maniera equa
+86:30 
+
+86:30 l'energia
+86:31 
+
+86:31 e evitando, come ho trovato in alcune
+86:35 
+
+86:35 situazioni dove c'era una sola calata e
+86:39 
+
+86:39 e l'energia passante l'ha strappata dal
+86:41 
+
+86:41 muro. Eh,
+86:44 
+
+86:44 in questo caso eh
+86:49 
+
+86:49 i dispersori non sono stati collegati
+86:53 
+
+86:53 tra di loro perché il collegamento
+86:55 
+
+86:55 avviene attraverso la maglia superiore.
+87:01 
+
+87:01 Qualcuno particolarmente
+87:04 
+
+87:04 puntiglioso, probabilmente prevederebbe
+87:07 
+
+87:07 anche il collegamento tra dispersore e
+87:09 
+
+87:09 dispersore per una sorta di ridondanza.
+87:13 
+
+87:13 se se viene a mancare o a ossidarsi uno
+87:16 
+
+87:16 dei uno dei
+87:20 
+
+87:20 di delle giunzioni, delle derivazioni
+87:22 
+
+87:22 che ci sono su questi piatti di rame, eh
+87:25 
+
+87:25 diciamo che la continuità è garantita
+87:27 
+
+87:27 dal conduttore interrato tra dispersore
+87:31 
+
+87:31 e dispersore.
+87:33 
+
+87:33 Gli SPD. Allora, io
+87:36 
+
+87:36 eh
+87:39 
+
+87:39 mi occupo di progettazione da dagli
+87:42 
+
+87:42 dagli dai primi anni 2000. Eh, l'SPD era
+87:47 
+
+87:47 un uno sconosciuto che veniva montato
+87:50 
+
+87:50 solo in determinate situazioni, in
+87:53 
+
+87:53 ambienti civili solo di pregio, dove
+87:58 
+
+87:58 diciamo che anche il patrimonio interno
+88:01 
+
+88:01 e i dispositivi elettronici cominciavano
+88:03 
+
+88:03 ad essere abbastanza presenti e nel giro
+88:07 
+
+88:07 di 15 anni siamo tornati invece a a a
+88:13 
+
+88:13 a a progettare con gli scaricatori di
+88:16 
+
+88:16 sovrattenzione su tutte le su tutte le
+88:18 
+
+88:18 abitazioni. Fatto sta che
+88:21 
+
+88:21 prima Fabrizio, con Fabrizio parlavamo
+88:23 
+
+88:23 di legge 4690 e DD DM 3708. La legge
+88:26 
+
+88:26 4690 è entrata in vigore il 5 marzo del
+88:28 
+
+88:28 90 e ed è eh rimasta in vigore fino al
+88:32 
+
+88:32 22 gennaio del 2008, quando la il il
+88:36 
+
+88:36 DMS, il decreto del ministro dello
+88:38 
+
+88:38 Sviluppo Economico numero 37 lo ha
+88:40 
+
+88:40 sostituito. va sostituito, diciamo, eh
+88:45 
+
+88:45 tra per certi versi più formalmente che
+88:48 
+
+88:48 nei contenuti, perché i requisiti minimi
+88:51 
+
+88:51 della legge 4690 e quelli del decreto
+88:55 
+
+88:55 3708 sono identici. Prima Fabrizio
+88:59 
+
+88:59 faceva vedere il
+89:02 
+
+89:02 la persona attraversata dalla corrente e
+89:04 
+
+89:04 che fungeva sostanzialmente da
+89:07 
+
+89:07 dispersore.
+89:09 
+
+89:09 Oggi
+89:11 
+
+89:11 un impianto elettrico
+89:14 
+
+89:14 degli anni 90, dell'inizio degli anni
+89:17 
+
+89:17 90, con il differenziale 003 e con tutta
+89:21 
+
+89:21 una serie di protezioni quali le prese
+89:23 
+
+89:23 con gli alvelui protetti, eh la
+89:25 
+
+89:25 protezione contro i sovraccarichi
+89:27 
+
+89:27 cortocircuiti, eccetera eccetera, è
+89:30 
+
+89:30 considerata una un edificio a norma,
+89:34 
+
+89:34 mentre un edificio con tutte le
+89:36 
+
+89:36 protezioni e anche che l'ha messa a
+89:39 
+
+89:39 terra, ma senza interruttore
+89:40 
+
+89:40 differenziale, non è considerata normta
+89:46 
+
+89:46 mi è rimasta in in impressa perché nel
+89:51 
+
+89:51 caso non ci sia l'impianto di messa a
+89:53 
+
+89:53 terra, se siamo soggetti ad a a una al
+89:58 
+
+89:58 contatto indiretto con una massa
+90:00 
+
+90:00 estranea che è andata in tensione,
+90:03 
+
+90:03 sentiamo il pizzicotto. Sentiamo il
+90:05 
+
+90:05 pizzicotto, ma
+90:08 
+
+90:08 interviene l'interruttore differenziale.
+90:10 
+
+90:10 Sentiamo il pizzicotto perché alla fine
+90:12 
+
+90:12 della fiera il dispersore siamo noi e
+90:15 
+
+90:15 non essendoci l'impianto di messa a
+90:17 
+
+90:17 terra.
+90:18 
+
+90:18 La cosa eh la cosa solo per per che
+90:25 
+
+90:25 per mettervi il campanello di allarme di
+90:29 
+
+90:29 farlo sempre e consigliarlo a tutti. Una
+90:31 
+
+90:31 volta al mese provate i dispositivi di
+90:33 
+
+90:33 protezione differenziale con il tasto di
+90:35 
+
+90:35 prova. Eh, sembra una sciocchezza, però
+90:39 
+
+90:39 eh eh ci garantisce invece la la
+90:47 
+
+90:47 possibilità di di di non incorrere in
+90:49 
+
+90:49 problemi reali e molto gravi.
+90:53 
+
+90:53 A volte un impianto, un dispositivo di
+90:56 
+
+90:56 protezione differenziale non interviene
+90:58 
+
+90:58 non perché è guasto, ma semplicemente
+91:01 
+
+91:01 perché, come diciamo noi in Versiria, ma
+91:04 
+
+91:04 in Toscana è inchiodato, cioè non non
+91:07 
+
+91:07 provandolo mai, magari è
+91:12 
+
+91:12 meccanicamente
+91:14 
+
+91:14 eh
+91:16 
+
+91:16 bloccato, invece provandolo più di una
+91:20 
+
+91:20 volta, una volta al mese, una volta
+91:22 
+
+91:22 volta ogni due mesi, come diceva
+91:23 
+
+91:23 Fabrizio, in realtà e è il costruttore
+91:26 
+
+91:26 dell'interruttore differenziale che
+91:28 
+
+91:28 stabilisce ogni quante volte va provato,
+91:30 
+
+91:30 ogni ogni quanto tempo va provato un
+91:32 
+
+91:32 interruttore differenziale. E negli
+91:35 
+
+91:35 ambulatori medici ci sono dei registri,
+91:37 
+
+91:37 delle verifiche da mantenere, va provato
+91:39 
+
+91:39 una volta al mese, va provato una volta
+91:41 
+
+91:41 al mese e poi una volta l'anno va fatta
+91:43 
+
+91:43 una verifica strumentale e una volta
+91:45 
+
+91:45 ogni 2 anni va fatta una verifica con un
+91:47 
+
+91:47 un organismo notificato come era
+91:50 
+
+91:50 Fabrizio e ai sensi del DPR
+91:54 
+
+91:54 400.
+91:56 
+
+91:56 Vieni in soccorso Fabrizio 400.
+92:01 
+
+92:01 Eh vabbè. Eh
+92:03 
+
+92:03 il 4 4621.
+92:06 
+
+92:06 462 del 2001. Ecco, grazie mille. E
+92:10 
+
+92:10 questa è la
+92:12 
+
+92:12 Quindi provate degli interruttori
+92:14 
+
+92:14 differenziali. Tornando agli
+92:15 
+
+92:15 scaricatori, ehm,
+92:19 
+
+92:19 siamo ehm abbiamo eh nella progettazione
+92:24 
+
+92:24 mh nei negli anni 2000, quando si
+92:28 
+
+92:28 progettava un'abitazione o una
+92:29 
+
+92:29 struttura, eh si tirava fuori i ferri
+92:32 
+
+92:32 del cemento armato e non si metteva
+92:34 
+
+92:34 neanche più la palina, neanche più il
+92:36 
+
+92:36 dispersore perché non c'era l'obbligo
+92:38 
+
+92:38 della dell'ispezionabilità di un
+92:40 
+
+92:40 dispersore e il dispersore costituito
+92:44 
+
+92:44 dai ferri del cemento armato dalla rete
+92:46 
+
+92:46 elettrosaldata della pavimentazione,
+92:49 
+
+92:49 definito dispersore di fatto e non
+92:51 
+
+92:51 dispersore intenzionale, era più che
+92:54 
+
+92:54 sufficiente per avere un ottimo impianto
+92:56 
+
+92:56 di messa a terra.
+92:58 
+
+92:58 Nel giro di 20 anni invece abbiamo
+93:00 
+
+93:00 ricominciato a installare i dispersori
+93:03 
+
+93:03 semplicemente perché perché uno
+93:07 
+
+93:07 scaricatore di sovrattenzione protegge
+93:09 
+
+93:09 fino a 20 m di linea. Quindi, se noi
+93:12 
+
+93:12 abbiamo il gruppo di misure, il
+93:14 
+
+93:14 contatore posizionato a 20 m da dal
+93:16 
+
+93:16 quadro elettrico, dal centralino di
+93:19 
+
+93:19 casa,
+93:21 
+
+93:21 mettiamo subito un dispersore vicino al
+93:23 
+
+93:23 contatore e uno scaricatore di tipo uno
+93:27 
+
+93:27 o combinato di tipo 1 + 2. Allora, vi
+93:30 
+
+93:30 dico già negli ambienti urbani e
+93:32 
+
+93:32 suburbani, come diciamo la Toscana,
+93:36 
+
+93:36 tranne tranne le zone appenniniche
+93:38 
+
+93:38 eccetera eccetera o le colline, si può
+93:42 
+
+93:42 tranquillamente proteggere con gli
+93:43 
+
+93:43 scaricatori di sovrattenzione di tipo 2.
+93:45 
+
+93:45 Scaricatore di sovrattenzione di tipo 2,
+93:47 
+
+93:47 solitamente eh resistono a scariche fino
+93:51 
+
+93:51 a 20 kamp che sono più che sufficienti.
+93:53 
+
+93:53 I tipo 1 anche 50 kamp. Eh, ma la cosa
+93:58 
+
+93:58 fondamentale degli scaricatori di di di
+94:00 
+
+94:00 sovrattensione è la vicinanza con il
+94:05 
+
+94:05 dispersore.
+94:07 
+
+94:07 nell'ultima pagina che vi farò vedere
+94:09 
+
+94:09 che tratta impianti di messa a terra.
+94:13 
+
+94:13 In questo schema a Paolo ne ha una eh di
+94:17 
+
+94:17 ha una presentazione con questo schema
+94:19 
+
+94:19 che che però ha subito una modifica nel
+94:21 
+
+94:21 giorno di nella giornata di oggi perché
+94:24 
+
+94:24 eh non nascondo che ero un po'
+94:26 
+
+94:26 preoccupato di questa esposizione,
+94:28 
+
+94:28 appunto, per il disallenamento a a a
+94:32 
+
+94:32 esporre e anche a a parlare con i
+94:34 
+
+94:34 radioamatematori, visto il mio vizio del
+94:37 
+
+94:37 tasto telegrafico.
+94:39 
+
+94:39 E
+94:41 
+
+94:41 qui abbiamo un classico esempio di un
+94:43 
+
+94:43 impianto di messa a terra di una di una
+94:44 
+
+94:44 villa, di un capannone. Abbiamo un
+94:48 
+
+94:48 dispersore immediatamente vicino al
+94:51 
+
+94:51 gruppo di misura collegato con un
+94:53 
+
+94:53 collettore di terra eh nel quadro
+94:56 
+
+94:56 elettrico generale, ma collegato
+94:58 
+
+94:58 direttamente a uno scaricatore tipo 1 +
+95:00 
+
+95:00 2 o tipo 2.
+95:03 
+
+95:03 Abbiamo una una
+95:06 
+
+95:06 maglia di dispersori. i dispersori
+95:08 
+
+95:08 solitamente
+95:10 
+
+95:10 eh una volta si parlava di eh
+95:12 
+
+95:12 distanziarli almeno sette volte la
+95:15 
+
+95:15 lunghezza del dispersore. In realtà eh
+95:19 
+
+95:19 eh più sono distanti meglio è.
+95:22 
+
+95:22 Chiaramente non non
+95:25 
+
+95:25 occorre metterli a 50 m uno dall'altro,
+95:28 
+
+95:28 anche perché poi vi dico già che una
+95:30 
+
+95:30 corda isolata da 16 mm² oggi costa la
+95:34 
+
+95:34 potrebbero vendere gli Orafi, non i
+95:37 
+
+95:37 magazzini elettrici, perché il i prezzi
+95:40 
+
+95:40 dei conduttori, il prezzo del rame è
+95:43 
+
+95:43 veramente alto. E questo invece è un
+95:47 
+
+95:47 dispersore posto immediatamente vicino
+95:49 
+
+95:49 al centralino di casa, al quadro
+95:51 
+
+95:51 elettrico principale. E quando la
+95:54 
+
+95:54 distanza dal quadro elettrico generale
+95:55 
+
+95:55 al quadro elettrico principale è
+95:56 
+
+95:56 superiore a 20 m, la protezione contro
+95:58 
+
+95:58 la sovrattensione va ripetuta.
+96:01 
+
+96:01 In questo caso ho inserito un tipo 1 + 2
+96:04 
+
+96:04 e un tipo 2, però ripeto,
+96:08 
+
+96:08 salvo ambienti particolari, possiamo
+96:11 
+
+96:11 mettere un tipo due, sia al quadro
+96:12 
+
+96:12 generale sia al quadro principale.
+96:17 
+
+96:17 Una uno dei dispersori
+96:19 
+
+96:19 è bene che sia molto vicino alla sala
+96:21 
+
+96:21 radio e poi vi spiegherò perché. Ecco
+96:24 
+
+96:24 qui eh nella nostra sala radio, se ci
+96:28 
+
+96:28 fosse un quadro elettrico dedicato, qui
+96:31 
+
+96:31 avrebbe senso mettere uno scaricatore di
+96:33 
+
+96:33 sovrappenzione tipo 3. E ora vi
+96:36 
+
+96:36 Sostanzialmente i gli scaricatori si
+96:40 
+
+96:40 dividono appunto in tre classi. Lo
+96:43 
+
+96:43 scaricatore di tipo 1 è quello che
+96:45 
+
+96:45 protegge scariche fino a 50 kamp e si
+96:47 
+
+96:47 mette solitamente al contatore. Il tipo
+96:51 
+
+96:51 due si mette nel centralino di casa e si
+96:53 
+
+96:53 ripete ogni 20 m. ehm
+96:56 
+
+96:56 ehm eh protegge per scariche fino a 20
+96:60 
+
+96:60 kamp, che sono già scariche di tutto
+97:02 
+
+97:02 rispetto. Gli scaricatori di tipo tre
+97:04 
+
+97:04 invece sono quelli sensibili, sono
+97:06 
+
+97:06 quelli eh, per fare un esempio, che sono
+97:10 
+
+97:10 quelle cartucce che si mettono nella
+97:13 
+
+97:13 scheda del cancello elettrico, nella
+97:15 
+
+97:15 scheda della caldaia, ehm, diciamo, per
+97:19 
+
+97:19 per realizzare quella che noi chiamiamo
+97:22 
+
+97:22 la protezione fine e questa potrebbe
+97:25 
+
+97:25 sarebbe anche lo scaricatore che si
+97:28 
+
+97:28 trova a bordo delle ciabatte. eh
+97:32 
+
+97:32 prese eh che che che
+97:37 
+
+97:37 probabilmente molti molti di noi
+97:39 
+
+97:39 utilizzano in stazione.
+97:44 
+
+97:44 Questo è l'esempio, appunto, della di
+97:46 
+
+97:46 quello che vi dicevo, lo scaricatore di
+97:48 
+
+97:48 tipo 1+ 2 al al
+97:52 
+
+97:52 immediatamente a valle
+97:53 
+
+97:53 dell'alimentazione, il tipo due sul
+97:57 
+
+97:57 diciamo nell'impianto di casa e il tipo
+97:58 
+
+97:58 tre sull'utenza finale.
+98:01 
+
+98:01 Qui ho preso la laad che diciamo insieme
+98:04 
+
+98:04 a Zotap e
+98:07 
+
+98:07 e basta.
+98:08 
+
+98:08 C poi ci sono altre aziende, ma sono
+98:10 
+
+98:10 inferiori a livello di qualità di
+98:13 
+
+98:13 scaricatori e la fanno la fanno da
+98:16 
+
+98:16 padrone non solo a livello di di
+98:19 
+
+98:19 scaricatori, ma anche a livello di
+98:21 
+
+98:21 brochure. Eh, se vi trovate se volete
+98:23 
+
+98:23 approfondire, vi posso mandare qualcosa
+98:26 
+
+98:26 o visitate il sito della Den, trovate
+98:28 
+
+98:28 delle brochure veramente molto
+98:30 
+
+98:30 interessanti. Abbiamo visto lo schema
+98:32 
+
+98:32 blocchi e l'impianto di messa a terra e
+98:36 
+
+98:36 poi sostanzialmente
+98:38 
+
+98:38 vi ripartiamo da da qui. il il
+98:42 
+
+98:42 dispersore posto nelle immediate
+98:44 
+
+98:44 vicinanze del collettore del collettore
+98:47 
+
+98:47 di terra del del della sala radio.
+98:51 
+
+98:51 Non è facile, cioè io ho la la mia
+98:54 
+
+98:54 modestissima sala radio è in una cantina
+98:57 
+
+98:57 e a me questo conduttore che mi arriva
+98:59 
+
+98:59 m'arriva da dall'impianto di casa,
+99:01 
+
+99:01 chissà che giro fa, e è di sezione 2,5
+99:05 
+
+99:05 mm², quindi io sono lontanissimo da
+99:08 
+
+99:08 questa condizione. Diciamo che predico
+99:11 
+
+99:11 bene, ma razzolo male e però purtroppo
+99:15 
+
+99:15 bisogna fare con quello che si ha.
+99:18 
+
+99:18 E qui ho rubato a i sei India, India
+99:23 
+
+99:23 Bravo Ecco e Ivo Bruniera il questo
+99:31 
+
+99:31 disegno che secondo me è fatto
+99:34 
+
+99:34 benissimo, come del resto tutto il suo
+99:36 
+
+99:36 sito. Eh questo questa barra di messa a
+99:41 
+
+99:41 terra non è altro che questo collettore.
+99:44 
+
+99:44 Allora,
+99:46 
+
+99:46 fondamentalmente
+99:48 
+
+99:48 all'interno della nostra sala radio
+99:50 
+
+99:50 tutti i dispositivi dovrebbero essere
+99:53 
+
+99:53 messi a terra, tutti i dispositivi nella
+99:55 
+
+99:55 quale è previsto il morsetto GND. Come
+99:60 
+
+99:60 diceva Fabrizio, i dispositivi in doppio
+100:02 
+
+100:02 isolamento è vietato, assolutamente
+100:04 
+
+100:04 vietato, perché potremmo reintrodurre un
+100:06 
+
+100:06 potenziale di terra lì eh non non ha
+100:11 
+
+100:11 senso che che ci sia perché ci sono già
+100:13 
+
+100:13 tutte le protezioni contro i contatti
+100:15 
+
+100:15 indiretti
+100:17 
+
+100:17 al al collettore di terra, le prese di
+100:20 
+
+100:20 corrente e e tutti i dispositivi,
+100:25 
+
+100:25 compreso il computer. il computer ehm
+100:29 
+
+100:29 non tanto per i contanti indiretti, ma
+100:32 
+
+100:32 perché eh
+100:35 
+
+100:35 la protezione una una un buone un questi
+100:39 
+
+100:39 m sono collegamenti equipottenziali,
+100:42 
+
+100:42 mentre eh il conduttore di protezione
+100:45 
+
+100:45 collega i dispersori, il conduttore cui
+100:48 
+
+100:48 potenziale collega e mette allo stesso
+100:52 
+
+100:52 potenziale tutti i dispositivi.
+100:55 
+
+100:55 Solitamente il collegamento di di
+100:58 
+
+100:58 protezione si fa con un 16 mm² isolati
+101:01 
+
+101:01 isolato e questa è la sezione minima o
+101:04 
+
+101:04 25 mm² nudo. Eh ci sono impianti grossi
+101:10 
+
+101:10 dove il 16 mm² non è sufficiente. Da 35
+101:15 
+
+101:15 mm² sezione di fase in su si fa si mette
+101:19 
+
+101:19 la metà della sezione del conduttore di
+101:21 
+
+101:21 fase. Se abbiamo un conduttore di fase
+101:23 
+
+101:23 da 50 mm, qui è bene mettere il 25 mm².
+101:28 
+
+101:28 Eh, invece il conduttore potenziale è
+101:30 
+
+101:30 uguale alla sezione di fase.
+101:32 
+
+101:32 Tecnicamente, se noi abbiamo tutti
+101:34 
+
+101:34 apparati eh collegati alle prese
+101:37 
+
+101:37 elettriche, quindi la sezione di fase è
+101:39 
+
+101:39 eh 2,5 mm², questo collegamento deve
+101:43 
+
+101:43 essere fatto almeno col 2,5 mm².
+101:48 
+
+101:48 Eh,
+101:49 
+
+101:49 6 mm² è eh quello che eh consiglio io eh
+101:56 
+
+101:56 anche se eh il 6 mm² è un bel cavo,
+102:00 
+
+102:00 costicchia di più, però diciamo che eh è
+102:04 
+
+102:04 la se allora ha senso se come eh siamo
+102:10 
+
+102:10 in questa situazione arriva un 16 in
+102:13 
+
+102:13 casa e allora ha senso. E come nel mio
+102:16 
+
+102:16 caso arriva al 2,5
+102:19 
+
+102:19 un 2,5 di collegamento equipotenziale è
+102:21 
+
+102:21 più che sufficiente. Dicevo il computer,
+102:24 
+
+102:24 una buona equipotenzialità nella
+102:26 
+
+102:26 stazione radio permette il corretto
+102:29 
+
+102:29 funzionamento e la e ed evita la
+102:32 
+
+102:32 possibilità di di della generazione di
+102:35 
+
+102:35 di interferenze e di
+102:38 
+
+102:38 e anche di rumore elettrico. E
+102:43 
+
+102:43 molti di noi, io io sinceramente non amo
+102:47 
+
+102:47 i modi digitali, anzi li
+102:51 
+
+102:51 non mi stanno particolarmente simpatici.
+102:53 
+
+102:53 Per me il microfono o il tasto
+102:57 
+
+102:57 telegrafico sono il tasto telegrafico
+102:60 
+
+102:60 meccanico, il tasto telegrafico
+103:01 
+
+103:01 verticale secondo me è la vera essenza
+103:04 
+
+103:04 della del radiantismo, però è
+103:06 
+
+103:06 naturalmente è una cosa soggettiva e eh
+103:09 
+
+103:09 non
+103:12 
+
+103:12 ho niente contro chi si diverte con i
+103:15 
+
+103:15 modi digitali e i modi digitali non sono
+103:20 
+
+103:20 così semplici, soprattutto quando
+103:22 
+
+103:22 vengono utilizzare potenze un po'
+103:25 
+
+103:25 importanti, ci sono pre amplificatori
+103:27 
+
+103:27 eccetera eccetera. Eh, una buona
+103:30 
+
+103:30 equipotenzialità
+103:32 
+
+103:32 permette la leel eliminazioni delle
+103:35 
+
+103:35 delle quelle che vengono chiamate
+103:36 
+
+103:36 correnti di modo comune, che poi sono
+103:39 
+
+103:39 quelle che quando si pigia la portante
+103:41 
+
+103:41 si spenge il computer o sfarfalla il
+103:43 
+
+103:43 computer oppure si inchioda il software
+103:45 
+
+103:45 dei modi digitali. eh per trasmettere
+103:50 
+
+103:50 anche per trasmettere in digitale la
+103:54 
+
+103:54 l'impianto di messa a terra, l'impianto
+103:56 
+
+103:56 equipotenziale riveste una grande
+103:58 
+
+103:58 importanza, quindi non solo per la
+103:60 
+
+103:60 protezione contro fulmini, ma anche per
+104:02 
+
+104:02 il buon funzionamento complessivo della
+104:05 
+
+104:05 della nostra stazione rag. Eh, qui
+104:10 
+
+104:10 vedete un po' di disegnini, tutto molto
+104:13 
+
+104:13 ben fatto da da Ivo. C'è anche il il
+104:19 
+
+104:19 collegamento che io ho fatto con il CAD,
+104:22 
+
+104:22 brutalmente preso da un progetto
+104:25 
+
+104:25 realizzato.
+104:27 
+
+104:27 lui ha fatto tutto molto più carino e
+104:30 
+
+104:30 niente, eh questo è
+104:34 
+
+104:34 è quello che vi racconto stasera,
+104:37 
+
+104:37 sperando di non avervi annoiato,
+104:40 
+
+104:40 sperando di di
+104:43 
+
+104:43 essere stato chiaro e e
+104:47 
+
+104:47 poi questo questa piccola brociura e
+104:49 
+
+104:49 anche altre cose che troverò le farò
+104:52 
+
+104:52 avere a Paolo e se avete intenzione di
+104:55 
+
+104:55 approfondire l'argomento
+104:56 
+
+104:56 Io sono a disposizione anche per
+104:59 
+
+104:59 eventuali domande, Paolo, a tutti i miei
+105:01 
+
+105:01 riferimenti. Per quello che posso, se
+105:04 
+
+105:04 posso dare una mano, lo faccio molto
+105:05 
+
+105:05 volentieri.
+105:08 
+
+105:08 Grazie Gabriele. E intanto ci sono due
+105:10 
+
+105:10 domande. Prima
+105:13 
+
+105:13 Marco Morelli, giusto? E poi e poi Marco
+105:16 
+
+105:16 Camucci.
+105:17 
+
+105:17 Allora, m domanda per te, Gabriele,
+105:20 
+
+105:20 sempre se se se riesco a spiegarmi. Eh,
+105:24 
+
+105:24 allora, per quanto riguarda il mio
+105:26 
+
+105:26 impianto, io abito a piano terra, ho un
+105:31 
+
+105:31 giardino dove ho un traliccio con un un
+105:35 
+
+105:35 traliccio di 11 m con una con un print
+105:38 
+
+105:38 di 1,5.
+105:40 
+
+105:40 Eh, il eh accanto al traliccio ho fatto
+105:44 
+
+105:44 una palina, ho messo una palina circa 2
+105:47 
+
+105:47 m del traliccio e che esattamente come
+105:50 
+
+105:50 come quel l'impianto di questo il 6B
+105:55 
+
+105:55 dove mi entra da da diciamo dal giardino
+105:58 
+
+105:58 dalla palina un 6 mm fino al
+106:02 
+
+106:02 distributore esattamente come quello e
+106:04 
+
+106:04 va tutte le masse della radio, del
+106:07 
+
+106:07 computer e fino a lì ci Siamo ora
+106:11 
+
+106:11 l'unica cosa che alcuni mi dicono me fai
+106:14 
+
+106:14 così, alcuni mi dicono assolutamente no
+106:18 
+
+106:18 è il traliccio. Il traliccio è fine a se
+106:22 
+
+106:22 stesso, nel senso non è collegato alla
+106:25 
+
+106:25 palina perché qualcuno dice se lo
+106:28 
+
+106:28 collega alla palina il il fulmine che ti
+106:31 
+
+106:31 chi arriva sul traliccio ti passa dalla
+106:34 
+
+106:34 palina e ti entra in casa. Quindi il
+106:37 
+
+106:37 traliccio è 30 anni che è in quel modo è
+106:42 
+
+106:42 sempre messo in quel modo lì. Ora
+106:45 
+
+106:45 domanda da 1 milione di dollari, va
+106:47 
+
+106:47 messa un'altra palina
+106:50 
+
+106:50 a 70, diciamo, al traliccio o va messo
+106:54 
+
+106:54 il traliccio sulla palina che arriva in
+106:56 
+
+106:56 casa?
+106:59 
+
+106:59 Allora, eh qui si apre quella che con
+107:02 
+
+107:02 Fabrizio parla di tolgo tolgo la
+107:05 
+
+107:05 condivisione, semmai almeno poi eh se se
+107:09 
+
+107:09 riesco eh così almeno eh mi sono mi sono
+107:12 
+
+107:12 spiegato Gabri. Sì, sì, sì,
+107:14 
+
+107:14 assolutamente. Ma ci sarei ci sarei
+107:16 
+
+107:16 arrivato. Allora, qui si apre appunto
+107:18 
+
+107:18 una diatriba che che
+107:23 
+
+107:23 ci portiamo avanti da tanti anni e c'è
+107:25 
+
+107:25 chi è d'accordo con quello che dirò e
+107:27 
+
+107:27 c'è chi è assolutamente contrario. a
+107:30 
+
+107:30 parer mio hai fatto la cosa
+107:33 
+
+107:33 più giusta, cioè non collegare il
+107:35 
+
+107:35 traliccio al al dispersore, anche perché
+107:39 
+
+107:39 eh avresti creato, diciamo, una una
+107:43 
+
+107:43 strada privilegiata a un'eventuale
+107:45 
+
+107:45 scarica. Esatto. La cosa fondamentale è
+107:49 
+
+107:49 che la palina che hai collegato, nella
+107:51 
+
+107:51 quale eh hai collegato tutte le masse
+107:54 
+
+107:54 del della stazione non sia un impianto
+107:58 
+
+107:58 diverso dall'impianto di casa, sennò lì
+108:01 
+
+108:01 avresti fatto una cosa pericolosa.
+108:04 
+
+108:04 L'impianto di messa a terra deve essere
+108:07 
+
+108:07 [Musica]
+108:09 
+
+108:09 sempre, allora proprio sempre non non è
+108:13 
+
+108:13 detto, però nella maggior parte dei casi
+108:15 
+
+108:15 deve essere unico. Allora, il nostro
+108:18 
+
+108:18 collega
+108:20 
+
+108:20 che aveva la la la stazione sul
+108:23 
+
+108:23 condominio, sono stato costretto a
+108:27 
+
+108:27 fargli collegare il palo a terra perché
+108:29 
+
+108:29 la le norme del comitato 81 obbligano la
+108:33 
+
+108:33 messa a terra dei dei supporti delle
+108:35 
+
+108:35 antenne quando l'edificio è protetto da
+108:37 
+
+108:37 un LPS. In quel caso l'edificio era
+108:40 
+
+108:40 protetto da da un l'EPS e gli ho dovuto
+108:43 
+
+108:43 far portare un 16 mm² al palo
+108:46 
+
+108:46 dell'antenna che non ho fatto passare
+108:48 
+
+108:48 all'interno del condominio, ma ho fatto
+108:50 
+
+108:50 passare all'interno di una tubazione in
+108:52 
+
+108:52 PVC esterna al condominio che si collega
+108:55 
+
+108:55 direttamente al dispersore in modo in
+108:58 
+
+108:58 maniera che un'eventuale scarica non
+109:00 
+
+109:00 porta eh la generazione de campi
+109:03 
+
+109:03 elettromagnetici all'interno di eh
+109:05 
+
+109:05 condutture nella quale ci sono anche
+109:08 
+
+109:08 conduttore di fase, conduttore di neutro
+109:10 
+
+109:10 e né tantomeno all'interno di una barra
+109:13 
+
+109:13 equipotenziale nella quale sono
+109:14 
+
+109:14 collegate tutte le le masse le masse
+109:17 
+
+109:17 strane. Nel mio nel tuo caso hai fatto
+109:21 
+
+109:21 la scelta più giusta. Il la sezione tra
+109:24 
+
+109:24 il tra il nodo di terra e il dispersore
+109:26 
+
+109:26 deve essere minimo 16. Ora, te parlavi
+109:28 
+
+109:28 di 6 mm, al limite è solo una questione
+109:31 
+
+109:31 di sezione. L'importante è che la palina
+109:34 
+
+109:34 che hai collegato sia poi collegata
+109:37 
+
+109:37 anche alla palina, al dispersore che ti
+109:40 
+
+109:40 fa da da da impianto di messa a terra di
+109:44 
+
+109:44 casa. Spero di essere stato chiaro.
+109:46 
+
+109:46 Allora, quello sì, chiarissimo, però
+109:47 
+
+109:47 quello non l'ho fatto. Ecco, quella è
+109:50 
+
+109:50 una cosa pericolosa perché te colleghi
+109:52 
+
+109:52 le radio alle prese che sono collegate a
+109:55 
+
+109:55 un impianto di messa a terra. Ok. e hai
+109:58 
+
+109:58 il collegamento potenziale delle delle
+110:00 
+
+110:00 radio collegate ad un altro impianto
+110:03 
+
+110:03 messo a terra. Io ti consiglio di farlo
+110:06 
+
+110:06 e anche velocemente. Cioè, quindi dovrei
+110:08 
+
+110:08 dovrei portare dal diciamo dal quello
+110:13 
+
+110:13 smissatore di rame un un cavo anche da
+110:16 
+
+110:16 da da 6 mm alla presa di terra della
+110:20 
+
+110:20 diciamo dell'alimentazione di tutto.
+110:23 
+
+110:23 Eh,
+110:25 
+
+110:25 mi ripeti, scusa, il cacavolo da 6 mm
+110:27 
+
+110:27 dalla presa fino a da da cioè la mia
+110:30 
+
+110:30 presa dove c'è un differenziale che mi
+110:32 
+
+110:32 alimenta tutto la stazione, da lì
+110:35 
+
+110:35 portare un cavo di terra, sempre di
+110:37 
+
+110:37 terra, da quella presa di terra allo
+110:39 
+
+110:39 smistatore.
+110:41 
+
+110:41 Lo smistatore te intendi il collettore,
+110:44 
+
+110:44 la barra. La barra equipotenziale. Sì,
+110:46 
+
+110:46 sì. Eh sì, sì, nel tuo caso sì, perché 6
+110:50 
+
+110:50 mm² è sicura, quasi sicuramente la
+110:52 
+
+110:52 sezione massima che hai in casa di fase.
+110:55 
+
+110:55 Quindi, come nello schema che hai fatto
+110:57 
+
+110:57 vedere in fondo del di quel che va alle
+111:02 
+
+111:02 prese, ho visto. Sì, sì, sì. Ora, se se
+111:07 
+
+111:07 Ma c'ho ancora lo schermo condiviso io
+111:08 
+
+111:08 per caso? Mi sa di sì. Eh, sì, sì, è
+111:11 
+
+111:11 ancora condiviso. Sì, sì, eh sì, ho
+111:13 
+
+111:13 visto. Interrompi condivisione. Sì, sì.
+111:15 
+
+111:15 Praticamente eh te vai a vai a
+111:20 
+
+111:20 non vai a effettuare un collegamento di
+111:22 
+
+111:22 questo tipo, ma vai a collegare da
+111:24 
+
+111:24 collettore a collettore, diciamo. Eh,
+111:28 
+
+111:28 nel tuo caso il collettore nella sala
+111:30 
+
+111:30 radio è un collettore all'interno di una
+111:32 
+
+111:32 presa. Ora non so se c'è una presa I e C
+111:35 
+
+111:35 eh di quelle diciamo il collettore. Il
+111:37 
+
+111:37 collettore l'ho messo dietro il nobile.
+111:41 
+
+111:41 Sì. Un morsetto, una barra. Sì, sì. Cioè
+111:43 
+
+111:43 una è una una barra di di rame da eh 8 8
+111:49 
+
+111:49 de porte con le viti. Sì, sì. Eh,
+111:53 
+
+111:53 secondo me devi solo devi solo devi fare
+111:57 
+
+111:57 quella cosa lì che è una cosa molto
+111:58 
+
+111:58 importante. Mettere la terra
+112:01 
+
+112:01 dell'impianto la terra dell'impianto
+112:03 
+
+112:03 alla alla terra che che va alla farina.
+112:06 
+
+112:06 Esattamente. Esattamente. Poi per il
+112:08 
+
+112:08 resto io sconsiglio vivamente il
+112:11 
+
+112:11 collegamento a terra dei pali e dei
+112:15 
+
+112:15 tralicci e eh
+112:19 
+
+112:19 ed è ed è buona norma eh quando si sa
+112:23 
+
+112:23 che il tempo è è ballerino. Scollegare i
+112:27 
+
+112:27 bocchettoni belli penzoloni e molto
+112:29 
+
+112:29 lontani dalla radio e da tutte le
+112:31 
+
+112:31 superfici metali. Anche perché,
+112:32 
+
+112:32 Gabriele, ti ripeto, so 30 anni che in
+112:34 
+
+112:34 quel modo e di fulmini ne ha presi
+112:37 
+
+112:37 tanti, però io stacco sempre il
+112:39 
+
+112:39 bocchettone e qualcuno invece mi ha
+112:41 
+
+112:41 detto "No, no, devi portare il traliccio
+112:44 
+
+112:44 al alla palina". Sì, così si arriva un
+112:46 
+
+112:46 fulmine mentre dentro casa. Eh, eh, sì.
+112:49 
+
+112:49 Eh,
+112:51 
+
+112:51 hai fatto, a parer mio, hai fatto la
+112:53 
+
+112:53 cosa giusta da questo punto di vista.
+112:55 
+
+112:55 Ora non so se qualcuno magari non
+113:00 
+
+113:00 non la vede in questo modo, però allora
+113:03 
+
+113:03 Gabriele, ci sono altre due domande,
+113:05 
+
+113:05 Marco e poi aveva alzato la mano anche
+113:07 
+
+113:07 David prima.
+113:09 
+
+113:09 Non so se vogliono intervenire
+113:11 
+
+113:11 sull'argomento o se hanno una domanda
+113:13 
+
+113:13 specifica diversa.
+113:15 
+
+113:15 No, no, no, no. è sempre sull'argomento
+113:18 
+
+113:18 mh
+113:19 
+
+113:19 terra. Quindi giustamente per il
+113:22 
+
+113:22 problema di terra basta estrapolare
+113:25 
+
+113:25 la terra da qualsiasi presa o o consigli
+113:29 
+
+113:29 di ripartire dal nodo di terra che
+113:31 
+
+113:31 abbiamo dentro il il centralino, il
+113:34 
+
+113:34 quadro elettrico di appartamento,
+113:36 
+
+113:36 insomma che accanto c'è sempre, cioè io
+113:39 
+
+113:39 ho la sc
+113:41 
+
+113:41 Vai, vai.
+113:43 
+
+113:43 No, no, dicevo, c'è la scatola con dove
+113:45 
+
+113:45 c'è tutti gli arrivi della terra, di
+113:47 
+
+113:47 tutte le terre, di tutte le prese o di
+113:50 
+
+113:50 tutte le linee, tipo nodo, diciamo, e io
+113:53 
+
+113:53 potrei agganciarmi lì oppure mi aggancio
+113:57 
+
+113:57 alla linea della presa su cui ora ho
+113:60 
+
+113:60 l'alimentatore
+114:02 
+
+114:02 a 12 V stabilizzato,
+114:05 
+
+114:05 eh, e la radio, diciamo. Questa è una
+114:09 
+
+114:09 domanda. Secondo, non basta se io ho la
+114:13 
+
+114:13 radio collegata con l'asciuco, con la
+114:15 
+
+114:15 presa di terra, basarmi su quella su
+114:19 
+
+114:19 quella messa a terra lì e devo portare
+114:21 
+
+114:21 una terra in più sullo chassì della
+114:23 
+
+114:23 radio, quindi creargli una un un
+114:27 
+
+114:27 occhiello una vite e agganciarmi allo
+114:30 
+
+114:30 chassis, come dici te. Eh, le due le due
+114:33 
+
+114:33 domande eh se ho capito bene sono
+114:36 
+
+114:36 comunque legate non a una protezione
+114:38 
+
+114:38 entro le sovrattenzioni, ma soprattutto
+114:40 
+
+114:40 per un buon funzionamento del
+114:42 
+
+114:42 dell'impianto equipotenziale di
+114:44 
+
+114:44 stazione. Allora, se guardi bene eh sì,
+114:48 
+
+114:48 se guardi bene sulla tua radio a salvo
+114:52 
+
+114:52 eh cose particolari, c'è un morsetto con
+114:54 
+
+114:54 scritto GND che eh è già è predisposto
+114:58 
+
+114:58 per teoria. per ora, perché per ora è
+115:01 
+
+115:01 una radio normale alimentata a 12 V, non
+115:04 
+
+115:04 è previsto la la presa GND.
+115:09 
+
+115:09 Io non so se esistono apparati radio in
+115:13 
+
+115:13 doppio isolamento. Io dubito perché sono
+115:16 
+
+115:16 tutti con con con lo chassis di metallo,
+115:22 
+
+115:22 quindi Sì, sì. No, questo c'ha lo chassì
+115:24 
+
+115:24 di metallo che non ha la presa Genny.
+115:26 
+
+115:26 gliela faccio io, gliela prendo su un
+115:28 
+
+115:28 borsetto. Eh, sì, ma basta che allenti
+115:31 
+
+115:31 una vite dello chassis e verifichi che
+115:33 
+
+115:33 sia quello di che ci sia una continuità
+115:35 
+
+115:35 da tutte le parti e lo colleghi. Ed è
+115:38 
+
+115:38 quel collegamento è è necessario eh
+115:44 
+
+115:44 oltre al collegamento di messa a terra
+115:46 
+
+115:46 dell'alimentazione. Assolutamente sì.
+115:49 
+
+115:49 Sì. Ecco, dico colleghi eh però per
+115:53 
+
+115:53 quanto riguarda il collegamento
+115:54 
+
+115:54 sicuramente se lo colleghi al nodo di
+115:57 
+
+115:57 terra con una sezione eh almeno uguale a
+115:60 
+
+115:60 quella dell'alimentazione, quindi almeno
+116:01 
+
+116:01 da 2 e mezzo, ma come ti ripeto, se hai
+116:04 
+
+116:04 la possibilità di portare un 6 mm e
+116:06 
+
+116:06 creare una barra in in sala radio, lì
+116:11 
+
+116:11 puoi puoi collegare tutte le puoi fare
+116:13 
+
+116:13 anche un sottonodo, non è non è che devi
+116:16 
+
+116:16 portare se se hai 20 dispositivi
+116:19 
+
+116:19 portarli tutti al nodo di casa perché
+116:20 
+
+116:20 sennò diventa diventa eh appunto no ti
+116:25 
+
+116:25 fai ti fai una barra equipotenziale,
+116:27 
+
+116:27 come diceva prima il collega, dietro il
+116:29 
+
+116:29 mobile e di lì colleghi tutte le
+116:32 
+
+116:32 strutture, però anche
+116:35 
+
+116:35 le masse le masse strane, quelle che
+116:37 
+
+116:37 vengono definite masse strane. La massa
+116:39 
+
+116:39 estrana è una massa che normalmente non
+116:41 
+
+116:41 ha in tensione, ma può andare in
+116:43 
+
+116:43 tensione in caso di guasto o di
+116:45 
+
+116:45 cedimento di dell'isolamento di un
+116:46 
+
+116:46 conduttore. Sì. Poi un'altra domanda per
+116:49 
+
+116:49 le fulminazioni. Io ho messo una c'ho
+116:51 
+
+116:51 antenna
+116:52 
+
+116:52 su un tetto in legno,
+116:56 
+
+116:56 giusto? Quindi c'ho vecchia muratura
+116:59 
+
+116:59 luernaio. Sul luennaio c'ho messo eh le
+117:03 
+
+117:03 staffe quelle classiche muratura, anzi
+117:05 
+
+117:05 c'erano di già a dire il vero, su cui mi
+117:07 
+
+117:07 sono alzato un'antenna di all'incirca
+117:11 
+
+117:11 2,75 4,20 m. È una grown play normale
+117:15 
+
+117:15 per ora che fa 26 27 28. tanto per
+117:20 
+
+117:20 ascoltare qualche cosa, visto che ancora
+117:22 
+
+117:22 non siamo
+117:24 
+
+117:24 non siamo, diciamo, con la patente,
+117:28 
+
+117:28 quindi vado sulla 27 oppure ascolto coi
+117:31 
+
+117:31 classici ricevitori in altre frequenze,
+117:34 
+
+117:34 tanto per ascoltare qualcosa.
+117:37 
+
+117:37 Mh, mi dicevi di non mettere a terra il
+117:40 
+
+117:40 palo, insomma, di non portare giù e in
+117:43 
+
+117:43 Assolutamente no. Sopr soprattutto
+117:46 
+
+117:46 perché c'ho tutto il il tetto in legno
+117:50 
+
+117:50 da questo punto di vista. Appunto,
+117:51 
+
+117:51 appunto, appunto. Fai bene a non
+117:53 
+
+117:53 metterla a terra, fai bene a fargli un
+117:56 
+
+117:56 buon piano di terra, quello sì, magari
+117:58 
+
+117:58 con dei radiali per il buon
+118:00 
+
+118:00 funzionamento e per una resa maggiore
+118:02 
+
+118:02 del sistema d'antenna. E e riguardo il
+118:07 
+
+118:07 discorso che voi non avete la patente,
+118:09 
+
+118:09 dicevo appunto a Paolo che questa è una
+118:11 
+
+118:11 lezione, una lezione, questa è una
+118:15 
+
+118:15 chiacchierata che non vi aiuterà nel
+118:18 
+
+118:18 superamento dell'esame, ma è di buon
+118:19 
+
+118:19 auspicio perché vi aiuterà dopo il
+118:21 
+
+118:21 superamento dell'esame, quando avrete il
+118:24 
+
+118:24 nominativo e installerete il vostro
+118:26 
+
+118:26 sistema d'antenna e e vi ricorderete il
+118:29 
+
+118:29 mio faccione che va raccontato un po' di
+118:32 
+
+118:32 cose.
+118:33 
+
+118:33 Si verrà a Viareggio. Via a trovarti.
+118:38 
+
+118:38 Va bene. Grazie. Grazie a voi. Allora,
+118:42 
+
+118:42 adesso Roberto, poi Claud poi Claudio.
+118:48 
+
+118:48 Sì. Allora, guarda, a seguire avevo la
+118:50 
+
+118:50 stessa domanda di di Marco, però
+118:54 
+
+118:54 mi chiedevo, "Ma se io metto la radio a
+118:57 
+
+118:57 terra
+118:59 
+
+118:59 di conseguenza questa terra mi va fino
+119:02 
+
+119:02 all'antenna,
+119:05 
+
+119:05 giusto?"
+119:07 
+
+119:07 Allora, eh la stessa cosa ti potrei dire
+119:10 
+
+119:10 che la calza del cavo coassiale eh ti
+119:15 
+
+119:15 porta
+119:17 
+
+119:17 la terra alla radio perché perché poi è
+119:20 
+
+119:20 così. Eh sì, è vero. E
+119:26 
+
+119:26 però come come
+119:29 
+
+119:29 parlavamo prima di rischio tollerabile,
+119:32 
+
+119:32 il vero che tecnicamente il collegamento
+119:36 
+
+119:36 equipotenziale alla carcassa della radio
+119:38 
+
+119:38 potrebbe introdurre un potenziale di
+119:40 
+
+119:40 terra sulla carcassa, però
+119:43 
+
+119:43 succede solo in casi remotissimi di di
+119:46 
+
+119:46 guasto e i vantaggi che ti porta un buon
+119:50 
+
+119:50 una buona equipotenziale di stazione
+119:53 
+
+119:53 sono enormemente superiori.
+119:55 
+
+119:55 Perché eh la prima cosa o la prima cosa
+119:58 
+
+119:58 si pensa alla sicurezza, la seconda cosa
+120:00 
+
+120:00 si pensa a creare una stazione radio che
+120:03 
+
+120:03 sia il più funzionale possibile e quindi
+120:06 
+
+120:06 quindi il collegamento equipotenziale di
+120:09 
+
+120:09 un apparato a doppio isolamento, un
+120:12 
+
+120:12 apparecchio a doppio isolamento è
+120:13 
+
+120:13 vietata perché le protezioni contro i
+120:15 
+
+120:15 contatti diretti sono già elettroenute
+120:18 
+
+120:18 nel dispositivo. la protezione
+120:20 
+
+120:20 potenziale di un apparecchio di metallo,
+120:22 
+
+120:22 oddio una massa estranea come potrebbe
+120:24 
+
+120:24 essere
+120:26 
+
+120:26 la carcassa di una radio e invece sono
+120:29 
+
+120:29 una buona norma. Diciamo che i i
+120:34 
+
+120:34 vantaggi sono molti, gli svantaggi sono
+120:37 
+
+120:37 pochi e rarissimi.
+120:40 
+
+120:40 Ok, grazie.
+120:43 
+
+120:43 Grazie a te, Claudio. A te.
+120:49 
+
+120:49 Sì. Eh, ti volevo chiedere una cosa.
+120:53 
+
+120:53 Ehm, io sono in un condominio, per
+120:55 
+
+120:55 l'appunto sto a pian terreno, cheé
+120:57 
+
+120:57 dovuto passare tutti i piani con
+121:01 
+
+121:01 un cavoale, ho messo l'antenna.
+121:05 
+
+121:05 Ehm,
+121:06 
+
+121:06 attraverso una scatola io ho 16 mm della
+121:10 
+
+121:10 terra che mi passa accanto al cavo
+121:12 
+
+121:12 d'antenna.
+121:14 
+
+121:14 Io in casa invece ho una palina
+121:16 
+
+121:16 individuale in giardino. Che faccio? Dal
+121:20 
+
+121:20 16 collego tutto insieme oppure lascio
+121:24 
+
+121:24 perdere e mi collego direttamente alla
+121:26 
+
+121:26 terra del 220, quella che della mia
+121:29 
+
+121:29 palina personale. Il 16 mm Il 16 mm dove
+121:34 
+
+121:34 va? Insieme al colassiale fino al palo
+121:36 
+
+121:36 dell'antenna. Mh. No, fa i condomini, il
+121:39 
+
+121:39 16 mm che fa la pista a terra di tutti
+121:42 
+
+121:42 di tutti gli appartamenti. Io sono al
+121:44 
+
+121:44 terreno, in teoria dovrei essere vicino
+121:47 
+
+121:47 alla pallina di terra. Ora non l'ho
+121:48 
+
+121:48 trovata, ma ci dovrebbe essere.
+121:50 
+
+121:50 Chiaramente se c'è un 16 l'hanno messa
+121:52 
+
+121:52 di sicuro da qualche parte. Ma e quindi
+121:56 
+
+121:56 tu hai un impianto di terra indipendente
+121:58 
+
+121:58 o sei collegato a quel 16?
+121:60 
+
+121:60 Eh, a quanto pare ora io questo qui è
+122:02 
+
+122:02 una cosa che voglio verificare perché io
+122:05 
+
+122:05 ho una palina, un giardino e mi
+122:08 
+
+122:08 risultava che l'impianto fosse legato
+122:10 
+
+122:10 lì.
+122:11 
+
+122:11 O prendo e collego tutto insieme, le due
+122:14 
+
+122:14 terre insieme, così ho risolto il
+122:17 
+
+122:17 problema e basta mettere 3 m di filo, ci
+122:19 
+
+122:19 metto, se ce la può a passarlo o sei,
+122:23 
+
+122:23 fai fai
+122:25 
+
+122:25 eh un favore a te stesso e a tutto il
+122:28 
+
+122:28 condominio, nel senso che eh ti faccio
+122:31 
+
+122:31 questo esempio che che esula dalla dalla
+122:36 
+
+122:36 serata dalla serata. Eh, un condominio
+122:39 
+
+122:39 senza impianto di messa a terra non può
+122:42 
+
+122:42 vietare a un condomino che ristruttura
+122:44 
+
+122:44 di fare l'impianto di messa a terra,
+122:46 
+
+122:46 però a sua volta obbliga il condomino
+122:50 
+
+122:50 che fa la ristrutturazione, che realizza
+122:51 
+
+122:51 l'impianto di messa a terra a collegarci
+122:54 
+
+122:54 tutti. Cioè, se te ristrutturi il tuo
+122:57 
+
+122:57 ambiente e fai l'impianto di messa a
+122:58 
+
+122:58 terra e lo fai per tutti, tutti si
+123:00 
+
+123:00 verranno a collegare sul tuo impianto di
+123:02 
+
+123:02 messa a terra. In questo caso, se se
+123:04 
+
+123:04 così non fosse, non fai altro che che
+123:07 
+
+123:07 chiudere il cerchio. Io, se possibile,
+123:10 
+
+123:10 ti consiglierei di attaccarti al 16 del
+123:13 
+
+123:13 condominio con un pezzetto di 16, se
+123:16 
+
+123:16 riesci. Se non riesci, lo fai col 6 mm,
+123:18 
+
+123:18 che è la sezione di fase massima che
+123:20 
+
+123:20 c'hai e è comunque corretto e collego
+123:23 
+
+123:23 tutto insieme e quindi va bene,
+123:26 
+
+123:26 perfetto. Mi toccherà collegarlo alla
+123:28 
+
+123:28 presa col 25. Allora, mi conviene
+123:30 
+
+123:30 arrivare al 16 con 25 tanto e sennò
+123:33 
+
+123:33 faccio l'imbuto. E diciamo perché non
+123:37 
+
+123:37 posso arrivare al quadro. Eh
+123:40 
+
+123:40 arrivo su una presa e che è quella più
+123:43 
+
+123:43 vicina. Sicché lì c'è il 25
+123:47 
+
+123:47 posso passare al massimo un 2 e mezzo. M
+123:50 
+
+123:50 non lo
+123:52 
+
+123:52 però fa un verifica che questa cosa non
+123:56 
+
+123:56 non avverenga. Sì. Eh, c'è c'è un'altra
+123:59 
+
+123:59 opzione. Questo 16 mm che ti che va ad
+124:03 
+
+124:03 ogni piano va anche alla zona contatori
+124:07 
+
+124:07 e magari la linea che ti è stata passata
+124:09 
+
+124:09 dal dal contatore porta già il terzo
+124:13 
+
+124:13 cavo di terra. No, non c'è i contatori
+124:15 
+
+124:15 sono in casa. Ah, ok. Allora, no, allora
+124:19 
+
+124:19 no, non mi arriva, non mi arriva tutto,
+124:22 
+
+124:22 eh. se andava giù insieme ai contatori,
+124:24 
+
+124:24 c'era un è un vecchio condominio. Io
+124:26 
+
+124:26 c'ho nel rimbostiglio addirittura molto
+124:29 
+
+124:29 lontano anche dalle scale c'ho il
+124:31 
+
+124:31 contatore e quindi
+124:35 
+
+124:35 è anche ecco perché la la pallina è
+124:37 
+
+124:37 stata messa lì, perché è molto più
+124:39 
+
+124:39 vicina al contatore che non il 16 mm
+124:42 
+
+124:42 condominiale.
+124:44 
+
+124:44 Ecco, probabilmente è stato fatto
+124:46 
+
+124:46 questo. Ora dovrò rifarla rimisurare
+124:51 
+
+124:51 per vedere se sempre buona, perché tanto
+124:53 
+
+124:53 che non la che non la guardi. Sì,
+124:54 
+
+124:54 diciamo che col 2 e mezzo
+124:57 
+
+124:57 fai quello che puoi. Eh, mi viene da
+125:00 
+
+125:00 pensare che se c'hai il tuo impianto di
+125:02 
+
+125:02 messa a terra e e sei a piano terra,
+125:07 
+
+125:07 problemi di pericolo non non ne hai, a
+125:10 
+
+125:10 meno che tu non vada intenzionalmente a
+125:12 
+
+125:12 toccare il i morsetti del 16 mm e il tuo
+125:15 
+
+125:15 impianto di messo a terra.
+125:17 
+
+125:17 un suicidio e ci sono modi migliori e
+125:20 
+
+125:20 più semplici per fare però un po' ho
+125:21 
+
+125:21 fatto ho fatto l'elettricista, lo faccio
+125:23 
+
+125:23 ancora che eh appunto quindi a questo
+125:26 
+
+125:26 punto, visto che sei a ter a piano terra
+125:30 
+
+125:30 puoi anche rimanere così. Eh, ti dico,
+125:31 
+
+125:31 ecco, io quello che il mio dubbio era
+125:34 
+
+125:34 che questa antenna eh non è che sono
+125:38 
+
+125:38 isolato, eh sono in mezzo alle case,
+125:41 
+
+125:41 però tra le altre è abbastanza elevata,
+125:45 
+
+125:45 però come tetti più o meno siamo tutti
+125:47 
+
+125:47 alla stessa altezza, ci sarà 50-60 case
+125:51 
+
+125:51 tutte più o meno alla stessa altezza e
+125:54 
+
+125:54 poi c'è un campanile un pochino più in
+125:56 
+
+125:56 su che supera ancora di più le case,
+125:59 
+
+125:59 sicché sono più o meno mediamente,
+126:02 
+
+126:02 quindi un po' paura miè preso di con
+126:05 
+
+126:05 questi coi fulmini eccetera. Non è che
+126:06 
+
+126:06 ne casca tanti qui, eh. Non è che No,
+126:09 
+
+126:09 quando casca però vederei che prende il
+126:11 
+
+126:11 campanile. Sì, è probabile perché il il
+126:13 
+
+126:13 fulmine va sempre dove gli conviene. Sì,
+126:16 
+
+126:16 c'è una bella madonnina che sta così la
+126:18 
+
+126:18 becca e e di solito la madonnina è
+126:20 
+
+126:20 recintata con della roba di metallo e
+126:22 
+
+126:22 Sì, sì, è tutta metallica e sarà io
+126:25 
+
+126:25 penso sia un una cinquantina di metri
+126:29 
+
+126:29 più alta del mio condominio e sarà a 100
+126:32 
+
+126:32 m di distanza. Sicé è più facile che
+126:34 
+
+126:34 cada lì che sulla mia antenna. Diciamo
+126:36 
+
+126:36 diciamo che cosa succede se se il
+126:38 
+
+126:38 campanile avesse gli impianti eh
+126:42 
+
+126:42 LPS, diciamo così. Il campanile è un
+126:44 
+
+126:44 captatore per natura. Se avesse se
+126:47 
+
+126:47 avesse un buon sistema di scarico a
+126:49 
+
+126:49 terra non genererebbe problemi. Una eh
+126:53 
+
+126:53 ce l'ha perché ho visto le piattine di
+126:56 
+
+126:56 ram che se ce l'ha sei tranquillo perché
+126:58 
+
+126:58 se non ce l'avesse prende prima lui poi
+127:02 
+
+127:02 viene a cercare qualcun altro e magari
+127:04 
+
+127:04 ti trova tra i più alti. M. Vabbè,
+127:08 
+
+127:08 vabbè, speriamo di no, dai. Se c'ha se
+127:10 
+
+127:10 se c'ha l'impianto parafulmine sei
+127:12 
+
+127:12 abbastanza tranquillo. Sì, c'è
+127:13 
+
+127:13 l'impianto parafulmine e quindi posso
+127:15 
+
+127:15 collegarvi tranquillamente alla presa di
+127:17 
+
+127:17 corrente di casa, insomma, per sfruttare
+127:19 
+
+127:19 quella terra lì. Quindi vabbè, no,
+127:22 
+
+127:22 perché il mio dubbio era con l'antenna,
+127:23 
+
+127:23 questo piscolo sul tetto che fosse un
+127:26 
+
+127:26 captatore.
+127:28 
+
+127:28 Lo lo è. Le antenne verticali, tutte le
+127:31 
+
+127:31 antenne, le antenne verticali, a maggior
+127:34 
+
+127:34 ragione le antenne poste sui tralicci
+127:36 
+
+127:36 sono captatori, però se gli facciamo un
+127:39 
+
+127:39 bell'impianto di messa a terra, magari
+127:41 
+
+127:41 dedicato,
+127:43 
+
+127:43 la lo facciamo diventare ancora più un
+127:45 
+
+127:45 percorso privilegiato per il fulmine.
+127:48 
+
+127:48 Comunque conviene staccare l'antenna
+127:49 
+
+127:49 quando c'è il temporale. Ho capito.
+127:52 
+
+127:52 Bocchettone, penzoloni e lontano da
+127:54 
+
+127:54 tutto. Penzolone lontano da tutto. Ok,
+127:57 
+
+127:57 grazie.
+127:58 
+
+127:58 Grazie a voi. A te Leonardo, a te.
+128:05 
+
+128:05 Sì,
+128:06 
+
+128:06 niente, seguendo questa,
+128:10 
+
+128:10 insomma, questo questa lezione, anch'io
+128:12 
+
+128:12 volevo fare una domanda.
+128:21 
+
+128:21 Non arrivi bene, arrivi a tratti.
+128:28 
+
+128:28 E ora
+128:31 
+
+128:31 e riprova Leonardo.
+128:38 
+
+128:38 Pronto?
+128:43 
+
+128:43 Mi sentite o no? Ora sì, ora sì, ora sì.
+128:47 
+
+128:47 Eh,
+128:49 
+
+128:49 lo dicevo, ho montato su un'antenna, mi
+128:51 
+
+128:51 hanno prestato una verticale.
+128:55 
+
+128:55 In poche parole siamo un
+128:59 
+
+128:59 villas schiera
+129:01 
+
+129:01 e niente l'ho montata su ciò
+129:04 
+
+129:04 esteticamente
+129:08 
+
+129:08 diciamo dietica di alluminio che vanno,
+129:10 
+
+129:10 diciamo, dal primo al secondo
+129:16 
+
+129:16 lì con un telescopico
+129:20 
+
+129:20 diciamo 2 4
+129:29 
+
+129:29 Dicevo quello, ho una paura che mi
+129:30 
+
+129:30 faccia da parafulmine, è possibile che a
+129:33 
+
+129:33 parte le la terra dell'apparecchio
+129:35 
+
+129:35 collegata, diciamo,
+129:38 
+
+129:38 alla presa normale di terra della
+129:40 
+
+129:40 diciamo della casa col differenziale
+129:43 
+
+129:43 003, la terra regolare, ma questa
+129:46 
+
+129:46 antenna mi fa da da Eh, ascolta, devi
+129:49 
+
+129:49 devi devi devi
+129:52 
+
+129:52 A a metà io ho cominciato a non capire
+129:54 
+
+129:54 più niente. Allora, ho capito che hai
+129:57 
+
+129:57 un'antenna verticale e cosa cosa c'è
+129:60 
+
+129:60 collegata?
+130:03 
+
+130:03 Un'antenna verticale e diciamo montata
+130:07 
+
+130:07 su un tubo telescopico
+130:10 
+
+130:10 dove mi sono attaccato a a una parete,
+130:14 
+
+130:14 diciamo, d'alluminio, a dei pali
+130:15 
+
+130:15 d'alluminio che è una cosa estetica.
+130:18 
+
+130:18 Ha ha capito? mh unossa estetica che va
+130:21 
+
+130:21 dal dal piano terreno quasi fino al
+130:23 
+
+130:23 secondo piano che con dei morsetti mi
+130:26 
+
+130:26 sono collegato lì. Mi fa trappare a
+130:29 
+
+130:29 furmini o no? anche con questa grassa in
+130:32 
+
+130:32 alluminio e diciamo che non non ti
+130:35 
+
+130:35 aiuta, però eh come ho fatto vedere la
+130:39 
+
+130:39 presentazione bisognerebbe vedere quanto
+130:42 
+
+130:42 peggiora la situazione perché magari eh
+130:45 
+
+130:45 la la struttura d'alluminio lì è già
+130:48 
+
+130:48 pericolosa di per sé e te non vai ad
+130:50 
+
+130:50 aggiungere un problema. il eh dipende
+130:54 
+
+130:54 anche da Allora, se sei in un ambiente
+130:56 
+
+130:56 urbano probabilmente grandi problemi non
+130:58 
+
+130:58 ne avrai e non hai altezze esagerate,
+131:01 
+
+131:01 però eh è chiaro che una struttura di
+131:04 
+
+131:04 metallo eh su cui hai ancorato il tuo
+131:08 
+
+131:08 tra virgolette possibile captatore,
+131:11 
+
+131:11 perché è un'antenna verticale, è peggio
+131:13 
+
+131:13 che eh un tetto in muratura. Hai visto
+131:17 
+
+131:17 quando facevo la nella valutazione eh
+131:20 
+
+131:20 entrano in gioco se ci sono delle maglie
+131:22 
+
+131:22 metalliche eccetera eccetera, perché
+131:24 
+
+131:24 potrebbero potrebbero abbassano
+131:26 
+
+131:26 sostanzialmente l'impedenza, no? eh e
+131:30 
+
+131:30 possono creare un percorso privilegiato
+131:33 
+
+131:33 per il fulmine, però è è tutto da
+131:34 
+
+131:34 stabilire in un ambiente urbano.
+131:38 
+
+131:38 Bisognerebbe che questa struttura
+131:40 
+
+131:40 metallica avesse una resistenza verso
+131:43 
+
+131:43 terra veramente veramente molto bassa,
+131:46 
+
+131:46 quindi
+131:49 
+
+131:49 non non ti posso rispondere e però
+131:54 
+
+131:54 punto d'aggancio, diciamo, io esco sul
+131:57 
+
+131:57 tetto lateralmente, diciamo, su un lato
+131:60 
+
+131:60 spiovente, esco lateralmente un 3 o 4 m
+132:04 
+
+132:04 sopra, capito? dal centro del tetto,
+132:06 
+
+132:06 però sono laterale. Eh sì. No, quello
+132:09 
+
+132:09 quello e non non è che cambia molto la
+132:13 
+
+132:13 situazione. Bisognerebbe appunto capire
+132:16 
+
+132:16 questa struttura metallica, ma se è una
+132:18 
+
+132:18 struttura di decoro, probabilmente è una
+132:21 
+
+132:21 struttura anche di di spessore esiguo e
+132:26 
+
+132:26 e anche di dimensione non non
+132:29 
+
+132:29 eccezionalmente grande. Non
+132:33 
+
+132:33 no. No, e diciamo sono sono vari varie
+132:36 
+
+132:36 linee d'alluminio, come minimo larghe e
+132:40 
+
+132:40 sono 10 o 12, ma ad altezza sono
+132:42 
+
+132:42 perlomeno una decina di metri. Quando
+132:45 
+
+132:45 diciamo dal primo piano fino al secondo
+132:49 
+
+132:49 se si parla, insomma, perlomeno eh 240
+132:54 
+
+132:54 480 7 m una larghezza per una larghezza
+132:60 
+
+132:60 spaziata fra varie linee perlomeno di 6
+133:03 
+
+133:03 m. È un bel un bel agregio dalluminio.
+133:07 
+
+133:07 Sì, poi mi immagino che però non sono
+133:09 
+
+133:09 continue tra loro, sono verticali,
+133:12 
+
+133:12 ognuno ha sante.
+133:14 
+
+133:14 Sono verticali
+133:16 
+
+133:16 a diciamo quante 10-12 cm l'una
+133:20 
+
+133:20 dall'altra, poi però sono dei rettangoli
+133:23 
+
+133:23 d'alluminio che vanno su che vanno su
+133:26 
+
+133:26 d'estetica e basta. Mi fa un po' paura,
+133:29 
+
+133:29 ma secondo me se sei in un ambiente
+133:31 
+
+133:31 urbano dove c'hai gli edifici di altezza
+133:34 
+
+133:34 uguale o inferiore o anche uguale o
+133:37 
+
+133:37 superiore o uguali e eh ripeto in un
+133:42 
+
+133:42 ambiente
+133:44 
+
+133:44 normale dal punto di vista della
+133:45 
+
+133:45 fulminazione normale si intende sotto
+133:49 
+
+133:49 tra treattro fulmini l'anno, ehm non
+133:53 
+
+133:53 credo che che ti crei una condizione di
+133:56 
+
+133:56 aggravio particolare. Eh,
+133:60 
+
+133:60 va bene. Grazie. Grazie. A te arrivo
+134:03 
+
+134:03 male che sono col cellulare perché sono
+134:05 
+
+134:05 qui armate sono due camaiore. Ah, e
+134:10 
+
+134:10 allora siamo vicini perché sono in
+134:13 
+
+134:13 studio a Capezzano Piano. Siamo vicini,
+134:15 
+
+134:15 molto vicini.
+134:17 
+
+134:17 No, perché io sono della provincia Pis
+134:20 
+
+134:20 sono a trovare amici. Sì, la famiglia.
+134:24 
+
+134:24 Ok, grazie. Grazie a te. Buono. Grande.
+134:28 
+
+134:28 Allora, complimenti Fabrizio,
+134:30 
+
+134:30 complimenti Gabriele. Chiarissimo e
+134:32 
+
+134:32 molto interessante.
+134:35 
+
+134:35 Vedo che non ci sono altre mani alzate,
+134:37 
+
+134:37 quindi Fabrizio direi che possiamo
+134:39 
+
+134:39 staccare la registrazione.
+134:42 
+
+134:42 Fabrizio, come sono andato?
+134:45 
+
+134:45 Da da da da
+134:47 
+
+134:47 relatore di Serie A a relatore di serie
+134:50 
+
+134:50 B?
+134:53 
+
+134:53 No.

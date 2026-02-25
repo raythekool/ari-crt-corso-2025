@@ -1,0 +1,933 @@
+00:03 E queste sono le vostre risposte. Anzi, scusatemi un attimo, chiudo Telegram, altrimenti ci bombarderà per tutta la
+00:10 sera con post sostanzialmente inutili. Dunque, come al solito, siete stati
+00:18 bravi decisamente. Vedete che siamo praticamente quasi sempre fra l'80 e il 100% di risposte esatte alle varie
+00:25 domande, tranne la I. Ma nella I è un problema mio, non è un problema vostro, quindi statevi tranqu state tranquilli e
+00:31 poi vi vi dirò di che si tratta. Ed è una cosa che non vi ho detto io. Eh, si vede, ci sono passato sopra
+00:39 troppo troppo velocemente le altre, insomma. Bene, bene, bene, come al solito. Bravissimi.
+00:45 Queste sono le risposte. Do un po' di zoom.
+00:51 Allora, si legge bene il video? A posto. Sì, sì, va bene. Ok, perfetto. Allora,
+00:59 allora domanda. Eh, vado un po' veloce perché tanto e insomma avete risposto molto bene praticamente a tutte. Se
+01:05 qualcuno ha qualche domanda poi mi ferma anche mentre parlo ora, d'accordo? Quindi, quale in quale di seguenti
+01:10 ricevitori serve il BFO? BFO, vi ricordo, sta per oscillatore della frequenza di battimento e serve nei
+01:17 ricevitori SSB. è il BFO, è l'oscillatore che serve nel
+01:23 demodulatore, quindi è quello, diciamo, che che poi rigenera l'audio che poi
+01:29 viene alimentato dal dall'amplificatore di bassa frequenza. Domanda B, facilissima. Nei ricevitori
+01:35 per Odina, il segnale ricevuto dall'antenna è convertito di frequenza uno o più volte prima di essere
+01:40 demodulato, cioè non è la uno è manifestamente sbagliata, non è convertito di frequenza. Questi
+01:46 sarebbero i ricevitori a amplificazione diretta che usavano agli inizi del 1900
+01:52 quando ancora non era stato inventato il l'idea, diciamo, di di convertire
+01:58 e nei ricevitori non attraversa un modulatore bilanciato che ovviamente serve non trasmettitore.
+02:03 Domanda C, visto con soddisfazione che avete risposto molto bene anche questa. un ricevitore con frequenza intermedia
+02:10 di 9 MHz, quale può essere la frequenza immagine di un segnale in ingresso che ha 51 MHz? Quindi la domanda è detta in
+02:17 altre parole, hai stai ascoltando un segnale alla frequenza di di 51 MHz,
+02:23 dove casca la frequenza immagine? Basta basta ricordarsi che la frequenza
+02:28 immagine vista dal segnale due volte è il valore della frequenza intermedia, quindi 18 MHz, per cui 51 + 18 non c'è
+02:37 qua in questa lista, però 51 - 18 c'è ed è 33. Quindi in questo ricevitore
+02:43 superodina, se non si mette un buon filtraggio in ingresso, ti fa ascoltare contemporaneamente i 51 e i 33 MHz, però
+02:50 i ricevitori normalmente hanno i filtri, no? che le bande su cui non stai facendo ascolto te le te le attendono molto.
+02:58 Domanda di quale far seguenti circuiti usato per demodulare l'FM? Il discriminatore.
+03:04 Il rivelatore al prodotto invece si usa per demodulare l' SSB, come si era visto già nella domanda precedente.
+03:12 Ecco, domanda F. Questa era già un pochino più in un ricevitore la minima tensione di ingresso che riesce a
+03:18 produrre un segnale di uscita chiaramente distinguibile dal rumore generato dal rumore dal generatore
+03:24 stesso è detta è la sensibilità. Ovviamente non è la selettività, perché la selettività è la capacità di separare
+03:32 segnali forti, però di frequenze diverse. Quindi la selettività è la caratteristica del
+03:37 ricatore che se tu stai ascoltando su una certa frequenza non sei disturbato
+03:43 dai segnali subito sopra o sotto la frequenza. La stabilità invece è come si era detto,
+03:49 no? Piazzi un ricevitore su una certa frequenza e lui ti deve restare lì.
+03:55 Allora, domanda G. Quali quali due fattori determinano la sensibilità di un
+04:01 ricevitore? Allora, chiaramente non la distorsione di intermodulazione e la gamma dinamica, perché la distorsione di
+04:07 intermodulazione in realtà è un problema dei ricevitori, non non c'entra niente. E anche qui la gamma dinamica è il
+04:12 livello di intermodulazione del terzo ordine che non c'entra niente, no? La, come vedete sulle slide, la sensibilità
+04:19 di un ricevitore è determinata dalla larghezza di banda e dalla figura di rumore. Qui, intanto, in questa
+04:26 formulazione del ministero c'è una piccola imperfezione perché in realtà si la la dizione corretta è la cifra di
+04:31 rumore. La cifra di rumore perché questa è la traduzione, diciamo, maccheronica dell'inglese, no? in inglese si dice
+04:38 noise figar, figure. Eh, figar però non si traduce con figura, si traduce con
+04:43 cifra in in italiano. E quindi dicevo la sensibilità di un ricevitore eh quanto più allarghi la
+04:51 banda del canale che stai ricevendo, quanto più peggiora la sensibilità. Vi ricordate che si era detto, no, con il
+04:58 CV una frequenza molto stretta, più allarghi la frequen ai 500 Hz di
+05:03 larghezza di banda, poi sagli a 24 per l'SSB, sagli a 5 kHz per la per la M.
+05:10 Quanto più allarghi la larghezza di banda del ricevitore, tanto più apri la finestra da cui ti entra rumore, rumore
+05:16 atmosferico, rumore industriale, eccetera. E poi c'è la c'è il rumore intrinseco
+05:22 del ricevitore che è questa figura di rumore e sono i due fattori che determinano la sensibilità di un
+05:28 ricevitore. Poi nella domanda credo successiva, no, ancora no, ma ci passo subito nella
+05:35 i, poi sull'h ci ritorniamo, dice la cifra di rumore di un ricevitore dipende
+05:40 da cosa dipende questo, in effetti non ve l'ho detto. Ovviamente non dipende dal tipo d'antenna perché l'antenna sta
+05:46 esterna al ricevitore, no? Quindi qua si parla di una caratteristica invece del ricevitore. L'antenna non c'entra assolutamente niente. Della rumorosità
+05:53 dell'altoparlante è verosimile, ma è grizza, no? Cioè non c'è la la cifra di rumore dipende dall'agitazione termica
+05:60 dei componenti, cioè la cifra di rumore di un ricevitore sostanzialmente deriva dalla silenziosità dei primi
+06:07 amplificatori che possono essere a transistor, a FET, a MOSFET. ci sono dispositivi più rumorosi e meno e meno
+06:14 rumorosi, quindi, scusate, la cifra di rumori dipende dai componenti, essenzialmente
+06:21 dei componenti dei ricevitori. Torniamo all'H in un ricevitore a banda
+06:26 laterale unica, quindi SSB, di tipo supererodina. Quale circuito riceve i
+06:32 segnali dell'amplificatore a radiofrequenza? Quindi questi sono i segnali che arrivano dall'antenna.
+06:38 Siamo molto vicini all'antenna. Eh, quale circuito riceve? I segnali dell'amplificatore RF e dall'oscillatore
+06:45 locale e l'invia il filtro di frequenza intermedia. Il miscelatore mixer non è
+06:50 il rivelatore che sta molto avanti nella catena del ricevitore, no, alla fine della frequenza intermedia e ovviamente
+06:57 non è il modulatore bilanciato che serve nei trasmettitori, non nei ricevitori. Domanda L, ne abbiamo già parlato prima.
+07:06 E cosa vuol dire che è un ricevitore è selettivo? Vuol dire che discrimina correttamente segnali di frequenze
+07:12 diverse ma molto vicine. Quindi questa è proprio la definizione di selettività, poter discriminare, cioè
+07:18 ascoltare un segnale bene se tu vicino hai un altro segnale magari forte.
+07:24 Domanda M. Nei ricevitori per riprodurre sia segnali deboli sia segnali forti, che cosa che cosa ci salva? Che circuito
+07:31 si utilizza? Il controllo automatico di guadagno. Ho detto anche controllo automatico di volume o AGC. in altre
+07:37 versioni delle domande del Ministero. Questa è di nuovo una domanda sulla
+07:43 frequenza immagine. Se nel ricevitore viene prodotta una frequenza intermedia di 455 kHz da un segnale di ingresso di
+07:50 14.255 MHz e da un oscillatore locale a 138
+07:56 MHz, quale segnale può produrre una frequenza immagine? Allora, qui c'è addirittura un dato in più perché il
+08:02 valore dell'oscillatore locale non serve a niente. La cosa che si usa, la cosa che dovete avere in testa è che appunto
+08:09 come dicevo prima, l'immagine sta eh due volte al valore della frequenza intermedia, quindi 455 * 2 910.
+08:18 Allora si deve prendere questo valore qui, il 14255, sommare e sottrarre questo 910. Uno dei risultati che si
+08:25 ottiene deve essere la risposta. Ed eccola qua, è la 3. Quindi a queste domande si risponde sempre così, 2 * if
+08:32 e si fanno i calcolini. Domanda o è necessario il BFO
+08:38 oscillatore di frequenza di battimento nei ricevitori M? No, perché i ricevitori M si rivelano con un
+08:43 rivelatore di inviluppo, come si dice, come avevamo visto, Dio del condensatore e quindi di fatto eh
+08:50 la la radioagena si potrebbe dire. Domanda P. Come deve essere la banda
+08:57 passante degli stadi di frequenza intermedia in rapporto alla larghezza di banda ricevuta? appena appena appena più
+09:03 larga, quindi non la metà perché sennò ti taglia via il segnale metà del
+09:09 segnale che stai ascoltando e quindi diventa impossibile ricevere il doppio in teoria potrebbe anche essere, però
+09:16 nel doppio ricevi in realtà più puoi puoi ricevere due due segnali, due trasmissioni, quindi è sbagliato
+09:22 ovviamente. Quindi il filtro di frequenza intermedia è appena un pelino più largo della
+09:27 lorchezza di banda del segnale che stai ricevendo. Infine la sensibilità dei ricevitori si
+09:32 misura in microvolt, no? In picofarad ovviamente che non c'entra niente, essendo questo l'unità
+09:38 di misura dei condensatori e no in micro. La sensibilità la sensibilità dei ricevitori normalmente si misura in
+09:44 microvolt, no? cioè quanti microvolt sono necessari per avere un certo rapporto segnale rumori.
+09:51 E queste velocemente sono le domande. Tolgo la condivisione. Comunque bravi,
+09:57 nessuna ottimo livello di successo.
+10:02 C'è qualche domanda? Se è tutto chiaro, ci si tuffa
+10:09 nell'argomento di stasera. Metto in condivisione lo schermo e stasera si parla di strumenti di
+10:17 misura,
+10:23 di strumenti di misura se ne parla perché Paolo, scusamio, vai. Bravo.
+10:32 A te Massimo. Oh, scusa, avevo tolto la mano. Niente,
+10:37 non volevo interromperti. Eh, non ho capito molto bene la anche nella domanda
+10:42 C come faccio il calcolo due volte la frequenza intermedia, ma rispetto a che cosa? Dopo la devo sottolare o Allora,
+10:50 aspetta che lo riprendo. Dammi un attimo.
+10:55 Allora, in questo tipo di un attimo help. Rimetto lo schermo in condivisione
+11:07 appena ci riesco. Ok, ce l'ho fatta. Allora, stavo dicendo
+11:13 domanda C giusto? Sì, esatto. Allora, in questo tipo di domande ne parlo in generale perché ce
+11:20 ne possono essere diverse, no, di domande di questo tipo, però il il modo
+11:26 con cui si risponde è sempre lo stesso. In in questo tipo di domande normalmente
+11:32 vi danno sempre il valore della frequenza intermedia che è qua, no? I f = 9 MHz, d'accordo?
+11:38 E poi vi danno normalmente la frequenza del segnale che vuoi ricevere, 51 MHz.
+11:44 Allora, se 51 MHz è la frequenza, fammi dire, buona, quindi è è il segnale in
+11:50 ingresso che tu stai ricevendo in quel momento. La frequenza immagine dista dal
+11:56 eh dal dal segnale in ingresso due volte il valore della frequenza intermedia, 2*
+12:02 if f, quindi in questo caso dista 18 MHz. A questo punto c'è da capire, siccome la
+12:07 frequenza intermedia, a seconda di come è posizionato l'oscillatore locale, può cascare sopra o sotto questi 51 MHz, non
+12:17 resta che provarli tutti e due. Quindi si è detto 18, si fa la prima prova per somma, per esempio, 51 + 18 e si arriva
+12:25 a 69 che non è nelle risposte, quindi non va bene. Allora si prova la sottrazione 51 - 18 e lo si trova 33
+12:33 MHz. ti torna il meccanismo,
+12:38 si può sommare o Esatto. Esatto. Se se
+12:44 noi si sa come nell'ultima domanda, nella penultima domanda, se noi si sa
+12:50 anche il valore dell'oscillatore locale, che è dato qua nella domanda eh n, ci si
+12:56 può arrivare direttamente con un po' più di ragionamento. Però
+13:02 siccome il modo, questo piccolo metodo, diciamo, che si è usato per la domanda C, funziona sempre, ha con i dati
+13:08 essenziali, secondo me basta tenere in mente questo. Quindi la frequenza immagine sta lontana
+13:15 du 2 if, quindi 91 MHz. In questo caso si prova la somma e la sottrazione. Uno
+13:22 dei due deve tornare. Uno dei due è sicuramente fra le risposte. Questo è, chiamiamolo, piccolo metodo
+13:29 per Ok, ti torna? Sì, grazie mille. Niente,
+13:35 a te. Ci sono altre domande? Vediamo un attimo.
+13:43 Allora, se non ci sono altre domande ricondivido. Pac.
+13:51 E dicevo, eccoci qua al tema di stasera, gli strumenti di misura.
+13:57 Allora, gli strumenti di misura servono per per, diciamo, questa chiacchierata sugli strumenti di misura serve per per
+14:03 varie cose, no? Intanto perché queste possono essere cose che alcuni strumenti, diciamo, nella stazione
+14:10 possono non far male, poi perché comunque materia di esame e quindi tocca studiarla, no? Eh, e questa ma perché
+14:19 lezione 19 se siamo alla 15? Perché c'è un errore di stampa. Ah, ecco.
+14:25 Giustissimo. Corretta. Bravo, bravo ragazzi, vedo che state attenti, sono molto contento.
+14:32 Anzi, fatemele notare che così le ripulisco piano piano. Eh, e dicevo, sto discorso sugli strumenti di misura
+14:38 deriva anche dal fatto che nelle in tutte le normative che ci sono che riguardano l'attività radioamatoriale,
+14:45 c'è anche scritto da qualche parte che il radiamatore deve essere in grado di controllare la propria emissione, quindi
+14:50 si deve sapere bene su quale frequenza si trasmette e con che potenza si trasmette. Queste informazioni
+14:56 normalmente te le danno gli strumenti della radio, no? Quindi normalmente hai appunto un, diciamo, nella radio
+15:02 qualcosa che ti dice su che frequenza sei e uno strumento che ti dice con che potenza esci, no? Eh, però in teoria uno
+15:09 potrebbe dire, potrebbe voler verificare con uno strumento esterno quanto questi strumenti leggono bene, no? Quindi,
+15:15 comunque, c'è c'è questa eh fatemi dire eh pressione del Ministero a far sì che
+15:23 il radioamatore, essendo di fatto un semiprofessionista della radio, sappia in qualche modo controllare,
+15:29 autocontrollare la propria missione e vengono in ballo gli strumenti.
+15:34 Allora, cominciamo proprio dalla dalla base, diciamola la la maggior parte
+15:40 degli strumenti analogici, quindi lasciamo perdere per ora gli strumenti digitali, sono strumenti a bobina
+15:46 mobile, come come funziona il tipico strumentino, no, che vedete qua sulla
+15:51 sulla sinistra, che poi questo può essere, diciamo, le lo uno strumento analogico sull'impianto stereo che
+15:58 magari avete a casa oppure sul baracchino, cose di questo tipo, no? Allora, questi strumenti funzionano con
+16:04 lo stesso tipo di meccanismo ehm di cui si era parlato quando si parlava degli
+16:10 altoparlanti. Quando ricordate quando si parlava dei trasduttori, no? Gli altoparlanti si diceva che il cono
+16:15 dell'altoparlante si muove perché c'è un'interazione fra due campi magnetici diversi. Negli strumenti succede
+16:22 esattamente la stessa cosa. C'è un'interazione fra due campi magnetici. Uno fisso che è generato da un magnete,
+16:30 quindi da una piccola calamita che sta proprio dentro lo strumento. Vedete in questo in questo disegno
+16:37 questa esploso si potrebbe dire che avete qua sulla sulla destra, vedete?
+16:42 Questo nord e questo sud sono i poli di questa calamita che immaginiamo sia
+16:48 immaginiamo che sia una specie di anello che gira tutta attorno alla bobina che ora qui non è non è rappresentata in
+16:53 questo disegno, no? Però fra questi poli di questo magnete fisso eh c'è un campo
+16:60 magnetico che qui è rappresentato con queste linee orizzontali con la con la freccia in cima queste per intenderci.
+17:09 E questo è un campo magnetico fisso. In questo campo magnetico c'è questa bobina che è avvolta su un telaietto circolare,
+17:16 come vedete in questo in questo schema, questo telaietto può ruotare su se stesso perché eh è in qualche modo
+17:24 imperniato su due assi. Uno è questo che vedete qua
+17:29 e uno è questo e può ruotare su questi assi e su questo telaietto circolare è
+17:34 avvolto un'altra bobina. nel momento in cui e diciamo i capi di quella bobina sono i capi dello strumento, sono
+17:41 portati fuori. Nel momento in cui nello strumento scorre nella bobina scorre una certa corrente, la bobina si trasforma
+17:47 in una piccola calamita pure lei, cioè una bobina genera campo magnetico, come sapete a questo punto qua c'è
+17:54 un'interazione fra questi due campi magnetici, quello fisso generato dal magnete permanente e quello generato
+17:60 dalla dalla bobinetta in funzione della corrente che io faccio scorrere nello strumento. Questa interazione del fra
+18:07 campi magnetici fa sì che sulla bobina ci sia una forza, proprio come succede quando avvicino due calamite, no? Che le
+18:13 senti una forza che a volte si attraggono, a volte si respingono. Questa forza fa ruotare la bobina su
+18:20 questi assi che su questi perni, appunto, su cui la bobina gira. su uno di questi c'è l'indice che vedete qua.
+18:26 L'indice è questo ovviamente e l'indice poi in qualche modo scorre su una scala
+18:33 graduata, come si vede bene nello strumento qui a sinistra e dalla misura.
+18:38 Quanto più forte è la corrente che scorre nella mia bobina, quanto più forte diventa il campo magnetico che la
+18:44 bobina gira e tanto più la bobina ruota. Tanto più ruota perché la bobina
+18:49 normalmente è tenuta ferma da una molla. Vedete qui sopra, sopra il perno, no? C'è proprio una molletta a forma di
+18:56 spirale. Questa molla tiene fermo lo strumento nella posizione zero ed è una forza antagonista, no? Cioè il tuo campo
+19:03 il campo magnetico cè che genera la bobina tende a spingere lo strumento a destra, ma la molla lo ritirerebbe in
+19:09 posizione, no? E questo è il meccanismo, è il modo per è il motivo per cui la deviazione di uno strumento è
+19:15 proporzionale alla corrente che scorre, perché la molia lo tirierebbe indietro.
+19:20 la corrente che scorre, quindi il campo magnetico lo tirerebbe in avanti e si
+19:26 trova un punto di equilibrio che è la la misura dello dello strumento.
+19:33 Quindi questo strumento sostanzialmente, come tutti gli strumenti a bobina mobile è uno strumento che misura la corrente
+19:40 perché notate che ho sempre parlato di corrente e mai di tensione. La corrente che scorre nella bobina genera un campo
+19:47 magnetico. È vero che la corrente è provocata da una tensione, no? Però è la corrente che genera il campo magnetico.
+19:53 Quindi questo strumento è un amperometro. In particolare qui vedete questa scrittina davanti, microampere,
+20:00 questo strumento è un microamperometro, quindi qua abbiamo un fondo scala di 50
+20:05 microamp, ovvero 50 milioni di ampere. È uno strumento abbastanza sensibile e
+20:11 tutti gli strumenti a bobina mobile sono amperometri o microamperometri. Poi, come vedremo,
+20:17 li possiamo far funzionare come volmetro, come ommetro, eccetera eccetera, però sostanzialmente gli
+20:22 strumenti proprio per come sono fatti, per come nascono, sono amperometri.
+20:27 Qui trovate un po' quello che abbiamo detto come promemoria, quindi lo strumento in sé è dotato di una bobina
+20:34 mobile inserita dentro un magnete. Magnete vuol dire quindi campo magnetico
+20:39 fisso e questa bobina è collegata meccanicamente al lago indicatore dello strumento.
+20:45 La misura viene effettuata dall'interazione del campo magnetico fisso del magnete col campo magnetico
+20:51 variabile generato dalla bobina che fa muovere lo strumento. Ora il problema è che eh questi
+20:60 strumenti, torno un attimo indietro, questo si decide un 50 microamp, no?
+21:05 Diciamo per loro natura nascono molto sensibili per come sono fatti, cioè molto sensibili vuol dire che basta poca
+21:12 corrente per portarli a fondo scala. Qui in questo caso bastano 50 microamp, però
+21:18 ci possono essere strumenti da 1 mamp, da 10 mamp, 100 m. Sono sempre correnti
+21:24 deboli, no? Se uno vuol misurare una corrente di 10 amp come fa? E praticamente non esistono strumenti che
+21:30 che nascono o sono molto rari, diciamo, in altri campi dell'elettronica e che
+21:35 che nascono nativi, diciamo, per misurare correnti così alte. Come si fa
+21:41 per aumentare la portata di un amperometro? si mette in parallelo allo
+21:47 strumento una resistenza che è detta di di shunt di shant, come andrebbe
+21:53 andrebbe detto. Cioè, cosa succede? Guardiamolo un attimo su questo schemino.
+21:59 Allora, qui abbiamo qui potete vedere qua sotto uno strumento. È questo a
+22:05 questo questo, diciamo, tondo con la lettera A è uno strumento, un amperometro. E qua
+22:12 sotto vedete i dati caratteristici di questo strumento.
+22:17 Allora, questo è uno strumento intanto che nasce per misurare una corrente di 50 m. C'è scritto qua, no? AFS, ampere
+22:24 di fondo scala, 50 micamp. E questo strumento, siccome c'è il
+22:30 filino avvolto in quella bobina eccetera, ha per sua natura intrinseca una certa resistenza. Questa resistenza
+22:36 viene chiamata resistenza interna ed eccola qui, Airve, resistenza interna che è di 100 ohm. Questi 100 ohm
+22:42 derivano semplicemente da come è fatto lo strumento, cioè torno qua. Questi 100 ohm derivano dal fatto che questo che il
+22:49 filo sulla bobina è molto sottile. Essendo molto sottile la resistenza è alta, magari sulla bobina sono avvolte
+22:55 diverse decine di centimetri di questo filo e alla fine viene fuori questa resistenza di 100 ohm.
+23:02 Il combinato di questi due dati fa sì che la tensione che mi porta fondo scala
+23:07 lo strumento sia di 5 mV. Fra questi tre numeri ovviamente vale la
+23:14 legge di ohm. Quindi la tensione di fondo scala V potrebbe essere che avendo gli altri due valori a di fondo scala e
+23:21 resistenza interna potrebbe essere calcolata con la legge di ohm V = R. Se noi moltiplichiamo la R di 100 ohm con
+23:28 50* 50 microamp, quindi 0,005, il risultato è di 5 mV.
+23:36 E questi sono i tre, diciamo, valori che caratterizzano il mio strumento. Io
+23:41 normalmente quando vado a comprare uno strumento, compro uno strumento da 50 microamp ed eccolo qua, magari perché me
+23:49 lo voglio mettere in un alimentatore o o in qualche aggeggio che sto costruendo. Se però, diciamo, devo in qualche modo
+23:55 misurare una corrente più forte, diciamo che lo voglio mettere, appunto, in un alimentatore, voglio dare fargli misurare un fondos scala di 1 5 10 amp,
+24:03 ci devo mettere una resistenza in parallelo. Ed eccole quassù le resistenze in parallelo. Mh, vedete che
+24:09 qui dove ho beccato questo schema, questo mi è piaciuto perché ci sono più
+24:15 resistenze, più fondo scala. Vedete che questo è un piccolo strumento che volendo può misurare 03 mamp di fondo
+24:22 scala, 3 m, 30 m e 300 m.
+24:29 per misurare questi 03 amp, quindi per portare la corrente di fondoscala dello
+24:35 strumento complessivo dai 50 microamp dello strumento nativo ai 0,3 mamp che
+24:43 voglio ottenere, ci si mette in parallelo una resistenza, in questo caso di 20 ohm. Poi vediamo perché 20 ohm. In
+24:51 pratica cosa succede? Succede che quando io attacco il mio strumento a una tensione che voglio misurare,
+24:56 immaginiamo una batteria qua sotto, quel questa resistenza è di valore tale
+25:02 che eh nel momento in cui nello strumento lo
+25:09 strumento è a fondo scala, cioè ci scorrono nello strumento 50 microamp,
+25:17 il resto della corrente, cioè 03 mamp - 50 microamp deve scorrere da questa
+25:23 resistenza qua. Se io voglio dei fondoscala più alti,
+25:30 quindi da 03 passo a 3, poi passo a 30, poi passo a 03 amp, in questa resistenza
+25:36 ci deve scorrere sempre più corrente e quindi vedete che la resistenza diventa
+25:41 piccola. 1,6 ohm, 0,16 ohm, 0,016 ohm diventa sempre più piccola, cioè lo
+25:47 sho diventa sempre più piccolo perché vale il discorso di prima, cioè tutta la
+25:53 corrente dello strumento, tutta la corrente che non attraversa lo strumento deve attraversare questa questa
+25:59 resistenza e questo è il metodo con cui si estende la portata di uno strumento. La parola
+26:05 che viene usata in queste situazioni e che la potete trovare nelle domande d' esame è come si fa a estendere la
+26:11 portata di un amperometro. La portata di un amperometro si estende mettendoci una resistenza in parallelo.
+26:19 Tutto chiaro per ora? Interrompo un attimo la condivisione, vediamo se c'è qualche domanda.
+26:27 Quindi abbiamo visto l'amperometro, l'amperometro come funziona e come ottenere da un amperometro normale, cioè
+26:33 con una cor con una corrente di fondoscala piccola, una corrente di fondoscala più alta, magari un po' più
+26:40 realistica rispetto a quello che si deve si deve misurare.
+26:46 Se qualcuno lo chiedesse, se ci fosse qualche domanda d'esame su questo,
+26:52 questo, scusate, è il modo con cui si calcola la resistenza di di Shant.
+26:60 Eh, questa formula sembra un po' complicata,
+27:06 però in sostanza queste sono due applicazioni della legge di Ohoma. Si si vede qua. Diciamo che il principio da
+27:12 cui nasce quella formula è che la resistenza di Shunt è in parallelo allo strumento. Quindi sullo strumento e
+27:18 sulla resistenza di Schunt ci devono essere ci deve essere c'è per forza di cose la stessa tensione,
+27:25 ovvero 5 mV. Allora, noi sappiamo che in questa
+27:31 resistenza qui, questa resistenza qui ha i suoi capi a 5 mV.
+27:37 Eh, voglio che ci scorrano 03 mamp.
+27:42 Come ottengo il valore della resistenza? R = V / I, quindi 5 mV / 03 mamp.
+27:49 Vengono fuori quei 20 ohm lì. La formula è questa. RS,
+27:54 cioè la resistenza di Schun, come vedete prima, è uguale al è uguale a R * I.
+28:02 Partiamo da questo. R I è la tensione di fondoscala dello strumento. Perché vedete qui con la lettera piccola R è la
+28:09 resistenza interna dello strumento. I è la corrente di fondo scala dello strumento. Quindi V = R. Questa la
+28:15 potete vedere anche come la tensione di fondo scala dello strumento VDFs.
+28:24 Scusatela, diviso la corrente che deve scorrere nella resistenza.
+28:31 E qui avete un esempio che ora non commento, ve lo provate poi da soli con nelle applicazioni. Comunque la domanda
+28:37 è chiara, un amperometro, una portata di 1 am fondo scala e una resistenza interna di 1 ohm. Da questo già si vede
+28:44 quant'è la tensione che casca sullo strumento. V = R * I, quindi 1 amp* 1
+28:50 ohm. Questo amperometro qua ai suoi capi ha una tensione di fondo va va a fondo
+28:55 scala quando ai suoi capi c'è una tensione di 1 V. Di quale valore deve essere la resistenza di shoot da porre in
+29:01 parallelo allo strumento per portarlo a 5 amp fondo scale? A questo rispondete voi, poi ce lo avete nelle domande
+29:08 di, diciamo, del test. E questi e questi sono e questo è il
+29:15 primo tipo di strumento che dovevamo vedere, cioè l'amperometro. L'amperometro misura la corrente, abbiamo visto come funziona, no?
+29:21 strumento a bobina mobile e abbiamo visto come si può estendere la dato uno strumento fisico che che uno compra che
+29:28 può avere non so 1 mamp fondo scala. Come si fa a trasformare questo strumento da 1 mamp di fondo scala a una
+29:35 qualunque corrente che tu vuoi avere, per esempio anche 13 amp di fondo scala, basta calcolare lo il valore giusto
+29:41 della resistenza di Schant e quella è la formula. Con lo stesso tipo di strumento, quindi
+29:48 con il nostro amper milliamperometrino di prima, si può anche misurare una tensione e in pratica quindi nasce il
+29:56 secondo tipo di strumenti che è il voltmetro. Il voltmetro è semplicemente
+30:02 il solito microamperometro in cui scorrono pochi microampere, come lo come
+30:07 si era visto prima, quindi potrebbe essere il solito strumento da 50 mamp di prima. Come si
+30:13 fa a usare questo strumento come il voltmetro? ci si mette in serie una resistenza di alto valore calcolata
+30:21 sempre con la legge di ohm perché questa corrente di fondo scala scorra quando ai
+30:27 capi dello strumento con questa resistenza serie che io ci ho messo c'è
+30:33 la tensione di fondo scala che voglio ottenere per esempio 100 V.
+30:38 Vediamolo su questo schema. Questo è lo schema con cui sono fatti di fatto tutti
+30:45 i volmetri analogici. Questo è lo stesso strumento di prima, identico,
+30:50 quindi 50 micamp 5 V, 5 mV di fondo scala.
+30:57 Ah. Eh, allora, se se io voglio misurare una tensione di 1 V, chiaramente se io
+31:04 metto una tensione di 1 V direttamente su questo strumento senza nessuna resistenza, lo spacco, cioè l'agome
+31:10 parte così velocemente verso il fondo scala che lo strumento si stronca, perché vedete che c'è una differenza
+31:15 notevolissima, no? da 5 mV a 1 V c'è c'è un fattore di 200, cioè un V è 200 V più
+31:22 grande di 5 mV. Quindi se si attaccasse questo Volt allo strumento gli si
+31:28 attacca una tensione 200 volte maggiore della sua tensione di fondo scala. Vi garantisco che lo strumento si si
+31:34 stronca. Allora, che deve accadere? Bisogna calcolare questa resistenza
+31:40 per far sì che se io voglio un V di fondo scala su questa resistenza che tensione ci deve essere? ci deve essere
+31:47 1 V - 5 mV, cioè 0,995
+31:52 V. E vedete che se io con questo commutatore che c'è qua vado verso dei
+32:00 fondoscala più alti, per esempio 3 V, 10 V, passiamo a 100 V,
+32:07 eh la resistenza deve sempre crescere e siccome la legge di ohm è è lineare, se
+32:13 uno passa se io passo da 1 V a 10 V, vedete che la resistenza da 19.900 ohm
+32:18 mi diventa 199.000, cioè cresce di un fattore 10. Se io aumento ancora di un fattore 10, vado a a 100 V, questi 1000,
+32:28 questi 199 kg mi diventano 1 Mh 1 Mhm e 999.
+32:34 In pratica, quindi, questa resistenza va calcolata per avere ai suoi capi la
+32:40 tensione di fondo scala, cioè 100 V-o i 5 mV
+32:48 dello strumento, quando
+32:53 con una corrente di 50 micro fondo scala di 50 microamp fondo scala.
+32:60 E qui avete questo discorso espresso in formula. Quindi questa è la modifica di
+33:05 portata di 1 voltmetro, quindi unamp di un amperometro modifico la portata mettendo resistenza in
+33:12 parallelo. Quindi nella resistenza in parallelo tolgo corrente, diciamo, dall'amperometro. Invece quando lo uso
+33:19 come volmetro devo mettergli una resistenza in serie. E questa resistenza si calcola facendo
+33:27 la tensione di fondoscala desiderata, immaginiamo 100 V, diviso la corrente di
+33:33 fondoscala dello strumento e così ottengo il valore della resistenza complessiva che devo avere.
+33:39 Però da questa resistenza complessiva devo togliere R che è il piccolo valore di resistenza inter dello strumento,
+33:46 perché questo ce l'ho già. Infatti vedete che qua vengono tutti i numeri bastardi, no? Cioè qui non viene 20.000
+33:52 Ohm, viene 19.9 perché? Perché 100 ohm son già qua dentro, son già nello
+33:57 strumento.
+34:03 E questo è tutto per per i voltmetri. Quindi il voltmetro come si si realizza?
+34:09 Si realizza con 1 microamperometro e ci si mette in serie la resistenza che
+34:14 serve per il fondo scala che si vuole ottenere. Quindi se se uno conosce queste due cose, fra l'altro se se
+34:20 qualcuno vuole costruirsi qualcosetta, se non hai lo strumento giusto, però in qualche modo o con una resistenza in
+34:27 parallelo o con una resistenza in serie, insomma ci puoi ottenere lo strumento che ti serve per quello che stai
+34:32 facendo. Mh, chiaro? Per ora c'è qualche domanda? Un
+34:38 po' un attimo. Paolo, allora, scusami. Per
+34:43 l'amperometro sono resistenze in
+34:49 parallelo. Sì, per il volmetro sono resistenze in serie, giusto? Perfetto.
+34:56 100%. Ok, ho capito. Poi il valore eh si
+35:01 calcola, però era parallelo e seri. Sì, è così, esattamente come hai detto. Ok.
+35:07 Mentre uno misura in parallelo e l'altro misura in serie. E ora lo vediamo. Ora
+35:13 lo vediamo. Ok. Ok. Andrea a te. Eh, se per se ho capito bene e nel
+35:20 nell'amperometro più è elevato l'amperaggio che voglio misurare, più sarà basso il valore della
+35:27 resistenza che metto in parallelo, mentre invece per il voltmetro è più è
+35:32 alto il voltaggio che voglio misurare, più alto è la la resisten il valore
+35:37 della resistenza, giusto? 30 il lode. Perfetto. Grazie. Grazie a te.
+35:45 Allora, vi faccio vedere un'altra cosa che prendo l'imbeccata che ci aveva dato
+35:51 Giovanni. Dunque, poc po
+35:57 abbiamo fatto la parte un po' più complicata, quella con le formulette. Ora le cose che seguono sono molto
+36:02 semplici. Allora, intanto eh cose assolutamente banali ma necessarie. Come
+36:07 si collegano questi strumenti? Allora, se voglio misurare una corrente, la corrente in questo circuito,
+36:12 semplicissimo, no? batteria qui e lampadina qua.
+36:18 La corrente è un flusso di elettroni che più o meno gira. Eh, cioè, insomma, è un flusso di elettroni, la corrente
+36:24 convenzionalmente scorre così. Se lo voglio misurare che devo fare? Questo flusso di corrente di questo flusso di corrente lo devo interrompere. Quindi
+36:31 devo aprire il mio circuito e metterci al posto del filo, diciamo, il mio
+36:37 amperometro. Quindi la misura della corrente si fa in serie al circuito.
+36:42 D'accordo? Se io ho una batteria e qualche cosa che sto alimentando, per esempio una radiolina transistor, voglio
+36:48 vedere se l'assorbimento è regolare, eh stacco uno dei fili. Non importa se
+36:53 il positivo o il negativo, uno dei due va bene, tanto la corrente è lo stesso, no? Sia misurata sul lato positivo che
+36:60 sul lato negativo. E in serie ci metto il mio amperometro. Invece, se io misuro una tensione, la
+37:06 tensione la misuro in parallelo al circuito. Qui ho la mia solita batteria o la mia solita lampadina,
+37:14 la la corrente si misura così, eh, diciamo questo RV più lo strumentino,
+37:20 immaginiamo che appunto sia il voltmetro con la sua resistenza interna e le metto in parallelo, di fatto in parallelo alla
+37:27 batteria, di conseguenza anche in parallelo al carico. Quindi la corrente si misura in serie
+37:34 interrompendo il circuito e richiudendolo mettendoci un amperometro dentro. Invece la tensione si misura con
+37:41 lo strumento in parallelo. Adesso il fatto di inserire questi
+37:46 strumenti in un circuito che si va a misurare potrebbe creare degli effetti indesiderati e quindi si parla di
+37:53 strumenti reali e strumenti ideali. Sì, tornando qua, che quale quale
+37:60 dovrebbe essere un amperometro ideale? Allora, nel momento in cui metto in serie l'amperometro, comunque
+38:05 l'amperometro ha una piccola resistenza, no? E quindi, essendo in serie al carico
+38:12 eh è una resistenza in più e quindi la corrente un pochino mi cala, magari di
+38:17 poco, ma mi cala per forza. Quindi se io metto un amperometro in questo circuito qua, mi misura per forza di cose una
+38:24 corrente leggermente inferiore a quella che avrei eh con solamente il carico.
+38:33 E qui invece con la tensione può accadere una cosa una cosa parallela,
+38:38 cioè eh qui senza il mio voltmetro il mio generatore mi alimenta il carico. Vi
+38:45 ricordate che si era detto che ci sono dei generatori ideali che qualsiasi
+38:50 corrente tu gli assorbi mantengono sempre la stessa tensione, diciamo 12 V, ma i generatori normali normalmente più
+38:57 corrente assorbi e un pochino di più la tensione scende. E quindi qui che succede? Io ho messo il
+39:03 mio voltmetro così, però qui ho due correnti, no? Ho quella che scorre nel mio carico, ma ho anche la piccola
+39:09 corrente che scorre nel mio volmetro. E quindi questo generatore a questo punto,
+39:15 nel momento in cui misura la tensione, eh deve per forza fornire un po' di corrente in più. Questo po' di corrente
+39:21 in più potrebbe provocare il caso che eh la tensione del generatore cali. Allora,
+39:27 se questo generatore è un generatore vero, cioè una batteria o un alimentatore, diciamo, il problema non
+39:33 esiste, no? Sono strumenti che hanno, cioè sono generatori che hanno una resistenza interna così bassa che non si
+39:39 fanno imperssierire da un voltmetro, dalla corrente che può assorbire un
+39:45 voltmetro. M però se io vado a misurare, ricordate per esempio quando si era visto gli
+39:50 amplificatori con i transistor, si era vista la base, il collettore, si erano viste tutte quelle resistenze, no,
+39:56 attorno al transistor, le resistenze di base che polarizzavamo nel transistor, se si va a misurare quelle tensioni lì
+40:03 dove in quelle resistenze scorrono delle correnti deboli, metti mettiamo 1 mamp,
+40:08 a questo punto la corrente che può assorbire il volmetro può essere molto
+40:15 simile alle correnti che scorrono in quella resistenza e di conseguenza lì la misura può essere
+40:21 perturbata anche molto e quindi sarebbe meglio nel limite del
+40:27 possibile cercare di avere strumenti quasi ideali. Allora, gli strumenti ideali quali sono? A questo punto lo
+40:32 abbiamo già detto, ma definiamoli bene. L'amperometro ideale è in serie e quindi
+40:38 deve avere una resistenza interna nulla, in modo che non
+40:44 interferisca il meno possibile o niente con la corrente che scorre. Invece il volmetro dovrebbe avere una resistenza
+40:50 interna infinita, non dovrebbe assorbire corrente. Allora, mentre parlando di strumenti
+40:56 reali, su questa faccenda della resistenza interna nulla ci siamo abbastanza. Perché comunque ehm non è
+41:04 che la corrente assorbita, cioè non è che la resistenza interna di un amperometro sia particolarmente alta.
+41:10 Ehm con i voltmetri ci son qualche problema, soprattutto ci sono dei problemi soprattutto se si va a fare
+41:16 misure nei circuiti, quindi non direttamente sulla batteria, d'accordo?
+41:21 E allora cosa viene fatto? Allora, c'è una tipologia di strumenti di volmetri
+41:27 che che è chiamate i volmetri elettronici. Questi voltmetri elettronici sono fatti per avere
+41:33 un'impedenza di ingresso molto alta. Scusate, rresco il mouse. Eccolo qua.
+41:40 C'è una resistenza, un'impedenza di ingresso di solito maggiore di 10 Mhm. E
+41:45 questi sono fatti eh con un piccolo circuito che usa normalmente dei fetter.
+41:50 Non so se ricordate quando abbiamo parlato dei dispositivi Fed, i Fed hanno un'impetenza di ingresso molto alta
+41:57 perché il Fed lo piloti tramite il suo terminale di di gate che è questo qua,
+42:02 eh andando ad agire su una giunzione polarizzata inversamente. Quindi un FT normalmente non ha corrente di ingresso.
+42:10 Quindi ci sono questi circuiti di volite elettronici che sono simpatici, molto semplici, no? No, questo non ve lo
+42:15 chiederanno mai nell'esame, però solo per farvi vedere come funziona. Vedete che ci sono lo strumento è questo qua,
+42:21 lo strumento che dà la misura. Vedete che ci sono due FET che sono rigorosamente identici, messi in maniera
+42:28 speculare. Questa questa configurazione qua è chiamata una configurazione a ponte e si parte da qui, diciamo che il
+42:35 terminale positivo c'è il primo FET che poi si chiude a massa tramite questa resistenza e c'è il secondo FET che si
+42:41 chiude a massa tramite questo diodo ZR. In sostanza questa questo circuito viene
+42:47 regolato in modo che in questi due Fed scorra esattamente, ma proprio esattamente la stessa corrente
+42:54 qui, diciamo qui e qua. In questa situazione lo strumento segna zero.
+43:02 Se io a questo FET eh tramite questo terminale di ingresso
+43:08 vado a a mettere la la tensione che voglio misurare, varia un po' la
+43:14 corrente che scorre in questo FET. Quindi diciamo che le correnti che scorrono nei due fet non è più uguale
+43:21 identica com'era prima e allora lo strumento si muove. Così funzionano più o meno tutti i punti di misura.
+43:28 Comunque il concetto da tenere a mente è che appunto esistono dei voltmetri elettronici che rispetto a i voltmetri
+43:36 normali, che poi sono questi, eh hanno un'impetenza di ingresso molto alta.
+43:43 Tanto per avere un'idea. Se voi se voi, diciamo, avete un un tipico
+43:50 voltmetro, multimetro, normalmente l'impedenza di ingresso che hanno è di 20.000 1000 ohm per volt. Quindi se per
+43:58 esempio lo usate in una portata di 10 V fondo scala, quello lì ha una resistenza
+44:03 di 20.000 ohm. 20.000 ohm. Questi invece possono averne 10.000, ma 10 Mhm,
+44:08 scusate, ma anche di più. Quindi il voltmetro elettronico è caratterizzato dall'impedenza di ingresso altissima,
+44:14 molto più alta appunto di quella di uno strumento normale.
+44:20 Poi, e con questo finiamo questa carrellata, l'altro tipo di di misura basica che si può fare è la misura di
+44:27 una resistenza l'ommetro. E la resistenza si misura usando la legge di Home, cioè si misura in questi strumenti
+44:34 c'è una batteria all'interno che è questa. Di questa batteria si conosce la
+44:40 tensione. Qui c'è il nostro solito strumento di prima, sempre con le sue solite caratteristiche, è lui, 50 mic
+44:47 fondo scala, eccetera eccetera. Questa è la resistenza che si sta misurando RX.
+44:54 Eh, il fatto che qua ci sia una batteria fa sì che nel momento in cui io chiudo il
+45:00 mio circuito, no, batteria, strumento resistenza, mi scorre
+45:06 corrente. La corrente che scorre ovviamente è bassa se questa resistenza
+45:12 è alta e viceversa, no? Però sostanzialmente dipende da questa corrente. Allora, qualcuno nel realizzare questo strumento poi fa sì
+45:19 che la scala dello strumento sia punto per punto rappresentata in ohm.
+45:26 Quindi, come faccio a misurare una resistenza? Ripeto, ci faccio scorrere, appartendo da una batteria di tensione
+45:32 conosciuta, un V e mezzo, ci faccio scorrere una certa corrente. In base a quella corrente, l'ago del mio
+45:39 strumento andrà da qualche parte nella scala graduata e lì, in qualche modo
+45:44 avrò rappresentato la il valore di resistenza relativo a, diciamo, a quella corrente e
+45:50 quindi a quella resistenza. E anche qui posso cambiare il fondo scala dello strumento, siccome si tratta di una
+45:56 misura di corrente, un attimo David, poi ti passo la passo la palla con un un
+46:02 commutatore per cambiare il fondo scal dello
+46:08 strumento. E poi, e con questo ho concluso questa prima chiacchierata, ovviamente abbiamo visto il voltmetro,
+46:15 abbiamo visto l'amperometro, abbiamo visto l'ommetro, vi è voglia di mettere tutti insieme questi strumenti in unico
+46:21 scatolotto e quindi nasce quello che vi chiamato normalmente multimetro. Il multimetro è uno strumento che parecchi
+46:28 di voi sicuramente in qualche in qualche forma ce l'avete in casa. eh assomiglia
+46:34 a una cosa di questo tipo. Questo è uno strumento eh digitale, quindi la cui la la le misure di
+46:41 tensione, corrente e resistenza poi vengono convertite in maniera digitale e diciamo vanno su questo display. E qui
+46:47 qui di fatto ci sono multimetro, vuol dire che ci sono molti strumenti in un unico scatolotta. Tramite questa
+46:54 monopolona si si seleziona se si vuole misurare la tensione, la corrente, la
+47:00 resistenza e poi hanno una serie di di di altre funzioni di solito poi possono misurare tensioni continue, ma anche
+47:07 tensioni alternate, possono alcuni questo vedo che c'è anche Herz, quindi
+47:12 può misurare anche la frequenza, poi c'è questo scatto, c'è questo piedino qua che serve per provare dei transistor,
+47:17 cioè già che ci sono chiaramente i costruttori cercano di rendere appetitosi questi strumenti mettendoci
+47:23 un po' un po' più di funzioni e sono strumenti abbastanza decorosi. L'unica cosa è attenzione,
+47:29 eh, vedete cosa c'è scritto qua sotto? Cioè, anche se in questi strumenti c'è
+47:35 un sacco di elettronica, perché c'è il display, c'è la conversione digitale analogica della tensione, questi
+47:40 strumenti non sono voltmetri elettronici, quindi hanno un'impedenza di ingresso che è abbastanza vicina a
+47:47 quelli a quelle dei degli strumenti, diciamo, tradizionali.
+47:53 i 20.000 ohm per vol di cui di cui parlavo prima. E questi sono appunto i tre strumenti
+47:60 basilari di di misura delle grandezze proprio alla base, diciamo, di tutto quanto, no?
+48:06 Tensione, corrente e e resistenza. Allora, eh avevi avevi alzato la mano David, intanto a te. L'ho riabbassata
+48:14 veloce perché mi ha risposto già quel multimetro. Volevo sapere se proprio era la stessa funzione per il calcolo della
+48:20 resistenza, quindi avendo un tot di batteria all'interno del multimetro ci fa scorrere un certo tipo di corrente,
+48:26 quindi a posto. Esatto. E e poi è come se avesse una tabellina, no? Eh, con una
+48:32 corrente di 1 mamp vuol dire una resistenza di 2000 ohm e con quella tabellina tira fuori il risultato,
+48:39 diciamo, che mostra sul display. Esattamente così. Ok, grazie Francesco.
+48:46 A te
+48:52 Francesco, non ti sento. Eh, volevo una confermo. Paolo, scusami,
+48:58 non avevo attivato il microfono, ma io per lavoro, eh, naturalmente e per tutti
+49:05 io faccio tubi del gas, dunque se c'è da fare una saldatura sono espertissimo, ma
+49:11 a livello di corrente divento o di ampere diventa un po' profano.
+49:18 Io mi sono ritrovato in una situazione che misuravo una corrente eh
+49:26 su uno strumento con un eh famoso tester digitale e eh mi
+49:35 falsava la misura. Eh, l'ingegnere mi diceva "No, non è possibile, eh, devi trovare uno strumento ad ago"
+49:43 perché c'avevo delle eh disturbi che il
+49:48 diciamo il multimetro eh digitale eh purtroppo
+49:55 dei disturbi sia elettromagnetici ma anche di correnti residue che non riesce
+50:03 a capire. invece il lo strumento ad ago riesce a eh diciamo a suefare ora
+50:11 passami termini da meccanico c'è e viceversa m quello che io ti
+50:18 chiedo è corretto usare un multimetroale
+50:30 oggi si trovano anche su AliExpress o su Amazon per parlare un po' e fare
+50:36 pubblicità o conviene eh Allora, la la tua voce va la tua voce
+50:45 va e viene. Ti ho perso qualche volta, non so se per colpa mia o per colpa tua. Comunque penso di aver capito la
+50:51 domanda. Cioè, conviene avere il doppio strumento o eh e avere una misura corretta o
+51:00 fidarsi di uno strumento solo. Questo è un po', diciamo, il quesito.
+51:06 Eh, allora la sua domanda e questo comunque può essere di interesse per tutti, apre apre un mare, diciamo così,
+51:15 nel senso che e allora gli strumenti e soprattutto gli strumenti dove eh c'è un
+51:23 trattamento, i multimetri, dove c'è un trattamento elettronico della misura, sono sensibili alla forma d'onda del
+51:30 segnale che si misura. Sì. E che significa? che se per qualche
+51:35 motivo la sinusoide non è pura, quindi ci sono dei disturbi, delle interferenze
+51:41 cristi e madonne che possono capitare soprattutto nei circuiti sul campo, effettivamente lo eh lo strumento può
+51:50 dare dei dei problemi, può dare, diciamo, può dare misure sbagliate. Per
+51:56 far questo, diciamo, questo problema si risolve usando degli strumenti un po' più costosi che sono chiamati gli
+52:03 strumenti RMS, ok? e e lì la misura è fatta in maniera
+52:10 un po' più accurata e a questo punto diventa eh diciamo indipendente dalla
+52:16 forma d'onda del segnale perché altrimenti il problema esiste e tutti i multimetri, diciamo, di tipo
+52:23 economico ne soffrono. Quindi, finché uno, diciamo, se ne sta in un tipico laboratorio
+52:30 elettronico di stazioni di radiamatore dove hai un alimentatore, quindi nel 90%
+52:37 dei casi misuri tensioni e correnti continue. Quando hai tensioni in RF in realtà usi
+52:42 altri strumenti, no, watt, metri e roba di questo tipo. Eh, questo problema non lo vedi mai. Sì. Invece quando quando
+52:49 misuri in in tipi di lavori di tipo più elettrotecnico, fammi dire, capita spesso di trovarsi delle tensioni che
+52:54 non sono sinosolitari, ci vogliono gli strumenti apposta per intenderci. Sì, sì. No, no, io ho avuto, m, ti dico
+53:02 francamente problemi con con la mia costruzione dell'EXBeam,
+53:08 per esempio, cioè nel senso è lo strumento eh diciamo ad ago che ciò non
+53:18 era, diciamo, non dava misure corrette a mio avviso.
+53:24 Allora, nel caso dell'ex beam, nel caso di un'antenna, c'è un altro tipo di problemi perché e di questo poi se ne
+53:33 se ne può parlare un po' più avanti, ma cioè visto che e allora esistono degli
+53:39 strumenti che sono degli analizzatori di antenna come penso quello che tu stavi usando in quel momento, uno strumento
+53:45 stile MFJ. Sì, sì, sì, sì, sì. Può darsi un MFJ. Sì, sì, sì. Allora, quegli
+53:51 strumenti ehm allora tu Allora, sì, poi ora le antenne
+53:57 le vedrete, no? Però allora immaginiamo che si vuole misurare come funziona un'antenna. Il modo per misurarla è
+54:03 mandare in antenna un segnale e vedere cosa ti torna indietro. E questi strumenti stile NFC funzionano così e
+54:09 funzionano anche molto molto molto bene, come pure anche i VNA funzionano così, pur avendo poi prestazioni migliori,
+54:16 molto migliori da un certo punto di vista. Eh, però per 1000 motivi il segnale che questi strumenti mandano in
+54:23 antenna è di debolissima potenza stile 1 mW, 5 mW quando va bene, perché
+54:29 ovviamente intanto questi strumenti non devono disturbare l'ambiente circostante, poi sono tutti alimentati
+54:35 da una batteria, il progettista vuole di vuole nelle caratteristiche detterci "La mia batteria dura 10 ore". Non ci vuole
+54:41 scrivere "La mia batteria dura 20 minuti". No, nessuno te lo nessuno glielo comprerebbe.
+54:46 Allora, molte molte volte ed è successo anche a noi che c'abbiamo una bella postazione radio in in montagna,
+54:53 l'antenna oltre al segnale che riceve il tuo strumento riceve i segnali da cellule telefoniche e tutto quello che
+54:60 può essere nelle vicinanze. E questa cosa qui ovviamente falsa totalmente la misura perché questi segnali che sono
+55:07 ricevuti delle antenne a volte possono essere anche più forti del segnale che eh lo strumento di misura gli manda.
+55:13 Tant'è che l'MFJ vende dei filtri, cioè vende dei filtri passapanda che si attaccano all fra l'MFJ e l'antenna. A
+55:20 quel punto li sintonizzi. Se tu fai una misura, per esempio, a 27 MHz, tanto per lo sintonizzi a 27 MHz, ed è come se tu
+55:28 avessi inserito, appunto, un passapanda fra il tuo strumento e l'antenna. Quindi i tuoi MillW vanno su a 27 MHz, torna
+55:35 giù a 27 MHz, i segnali forti che hai fuori banda quel filtro te li passa e allora torni a avere una misura eh
+55:43 affidabile, capito? E questo è un problema comune, eh, cioè e ne parlo volentieri perché
+55:51 perché può capitare, diciamo, a tutti. A volte si fa una misura e e diciamo che che sembra che non dica il vero. Parlo
+55:58 proprio di misure su antenne. Siccome il fatemi dire l'etere è saturo di
+56:04 moltissimi segnali e questo questo tipo di problema non è raro, è un problema
+56:10 anzi molto frequente, no? perché misuri la la tua antenna dando una certa potenza, ma magari in quel momento c'è
+56:16 chi gli sta dando più potenza di te, anche se tu non te ne accorgi, perché se hai metti una cellula del
+56:24 del GSM a 100 m da casa, magari gli induci qualche volta sull'antenna come
+56:29 niente. Sì, sì. No, no, infatti. Ok. Oh, ma anche eh se te hai Ora, parlando
+56:38 extra antenna eh a livello lavorativo, se te hai eh una un gruppo di
+56:46 trasformatori sotto di te e non te ne accorgi, cioè lo
+56:51 strumento ehm probabilmente è meglio più un digitale rispetto a ad un sistema
+56:58 d'ago. Non mi chiedere perché, perché sicuramente me lo spiegherai te, ma eh
+57:06 crea un campo magnetico che al lago gli dà noia, eh, può darsi e quindi la
+57:11 misurazione sull'ago non non è corretta. Sì, sì, sì, sì. Eh, succede, succede,
+57:17 succede. Cioè, ora si entra in un rafanaio, nel senso, come si dice in giù a Livorno, in Costa che probabilmente
+57:25 però probabilmente è meglio fare una misura, a mio avviso, con un ago e con
+57:31 un digitale per avere una media, diciamo. Infatti, infatti. Eh, grazie
+57:36 della bella osservazione. Bell'argomento. Così abbiamo messo la pulcia dell'orecchio a tutti, no, della serie.
+57:42 Non sempre gli strumenti dicono il vero. Eh, sì. Allora, se non ci sono altre domande
+57:48 proseguo, rimetto in condivisione e andiamo avanti. Dunque, poco, un
+57:57 attimo e siamo arrivati al multimetro. Allora, a questo punto si vorrebbe
+58:03 misurare il nostro trasmettitore, no? Vi dicevo, abbiamo finito le misure basilari, tensione, corrente, resistenza, quindi andiamo avanti,
+58:10 entriamo più in campo radioamatoriale specifico. Allora, per misurare
+58:15 eh i trasmettitori esistono due metodi. Eh questo è quello, fatemi dire, più
+58:22 pulito, il carico fittizio. cioè il carico fittizio che a volte viene chiamato antenna artificiale o qualcosa
+58:28 del genere. In sostanza è una terminazione eh che fa leci di un'antenna.
+58:35 Sostanzialmente, per esempio, qui in questa foto vedete uno dei carichi fittizi più storici, diciamo. Questo è
+58:41 un bidoncino pieno di olio, l'olio apposta da trasformatori eccetera che ha caratteristiche ed elettriche perfette.
+58:47 Qua dentro c'è una resistenza grossa grossa che essendo immessa in quest'olio
+58:52 può anche dissipare abbastanza bene il calore e quindi in questo bussolotto che mettiamo una quindicina di centimetri di
+58:58 diametro, tanto per darvi un'idea, eh si può gestire una potenza fino a un
+59:05 migliaio di watti. Immaginiamo che tu hai il trasmettitore, quindi vuoi vedere la potenza che ha il tuo trasmettitore, lo attacchi al carico fittizio e vai in
+59:11 trasmissione. La tua potenza viene assorbita dal carico fittizio e vedete questa scatolettina che c'è qua sopra.
+59:19 Questa metto il pennarello. Questa qua qui dentro c'è un rivelatore.
+59:28 Questo questo circuito misura la tensione sul carico, la traduce in una
+59:33 tensione continua e a questo spinottino che c'è qui si attacca un voltmetro e
+59:39 questo voltmetro, leggendo la tensione, tramite la tensione, io so che potenza c'è sul carico. Ricordate che si si era
+59:47 detto che per misurare la potenza sapendo la tensione V = V² su R. Questo è esattamente come
+59:54 funziona questo strumento. Quindi il carico fittizio. Il carico fittizio viene dovrebbe essere di leggi
+60:01 o quasi usato anche tutte le volte che uno fa dei lavori di taratura, di riparazione, di verifica, insomma,
+60:07 collaudi, prove prove tecniche, no? In teoria quelle cose lì andrebbero usate andrebbero fatte sempre senza inquinare
+60:14 letere con le con le nostre prove, per intenderci, andrebbero fatte tutte usando un carico fittizio.
+60:22 Quindi questo primo metodo per misurare la potenza. metto il mio trasmettitore su una resistenza, misuro la tensione su
+60:28 questa resistenza e sono a posto. L'altro metodo che si usa è quello dei cosiddetti wattmetri passanti. Questo lo
+60:35 dice la parola stessa, questi wattmetri hanno due bocchettoni.
+60:41 Qui ce n'è uno in ingresso di qua. Ora non si vede nella foto, ma c'è suo fratello simmetrico in uscita
+60:49 e sono questi due bocchettoni uniti da una linea coassiale, come il cavo
+60:54 coassiale con cui poi vedrete si alimentano le antenne e sono in grado di misurare la potenza che transita, per
+61:01 questo si chiamano wattmetri passanti e misurano la potenza in transito, come
+61:07 anche la maggior parte degli strumenti che si usano anche nella banda cittadina, ma anche insomma che e che
+61:13 somigliano un po' a questo che vedete qua sopra. Anche qui dietro ci sono due bocchettoni, c'è un ingresso, ora poi
+61:20 ovviamente non si vede, ma c'è un'uscita. Uno da una parte attacca il trasmettitore, dall'altra attacca l'antenna e questo strumento ti fa
+61:27 vedere la potenza su questa scala qui, la potenza che in quel momento dal
+61:33 trasmettitore va verso l'antenna. Poi in questo caso specifico fa vedere anche altre cose perché molto spesso le
+61:40 antenne non sono così perfette. Allora, se il trasmettitore manda su 100 W, l'antena non è in grado di riceverli
+61:46 tutti, ma magari una ventina di WAT te la rimanda indietro, la cosiddetta potenza riflessa. E questo si vede su
+61:53 quest'altra scala perché questo è uno strumento con due indici, però di questa cosa, questa cosa ora l'ho accennata e
+61:60 basta. Poi quando farete le antenne c'è proprio una puntata, una sessione, una serata dedicata a questi concetti di
+62:06 potenza diretta, potenza riflessa, il ross e così via.
+62:12 La derivazione, appunto, di queste cose qua è appunto il rosmetro. Ross che sta
+62:17 per rapporto onde stazionarie misura proprio quanto l'antenna è capace
+62:23 o incapace di assorbire la potenza mandata dal trasmettitore. Eh, quindi
+62:29 esistono degli strumenti specifici per misurare questo. Ora non entro più e
+62:35 cioè ho messo questo queste queste slide qua per fare completa questa lezione,
+62:41 anche se il rostro non l'avete ancora visto come argomento, no? lo vedrete, però diciamo molti di voi magari il
+62:47 rosmetro eh ce l'hanno già in stazione. Chi di voi lavora in banda cittadina? Ovviamente un rosmetro c'è sempre.
+62:55 Quindi la misura della potenza del trasmettitore in sostanza tre aspetti diversi, quindi il carico fittizio,
+63:02 misuro la tensione sul carico e ottengo la potenza. i wattmetri passanti.
+63:09 Eh, non vi ho detto che, appunto, queste questa cosa qua, questo wattmetro qua
+63:15 sulla destra, qua dentro, questo è un wattmetro professionale, molto bello, molto usato,
+63:23 molto usato anche da noi sul campo, perché sono praticamente indistruttibili. E la il fondo scala del
+63:29 vacametro lo fai inserendo in questo buchetto qua che in questo momento è tappato da un da da un tappo fittizio di
+63:37 alluminio. Qua dentro si mettono degli elementi di questo tipo e vedete che ognuno di
+63:43 questi riporta una potenza, per esempio questo alto 25 W della banda 100-250
+63:50 MHz. Quindi inserendo questo tappo qua dentro ottieni un wattmetro che può
+63:56 misurare potenza diretta e potenza riflessa con questo fondo scale in questa banda di frequenza. Quindi
+64:03 riepilogando i carichi fittizzi, i watimetri passanti e poi anche direttamente il ROS, cioè il rapporto di
+64:10 onde stazionarie che vedrete fra qualche fra qualche lezione. E questa è la misura della potenza. C'è
+64:16 qualche domanda prima di andare avanti? Qualche mano alzata? Per adesso no,
+64:23 Paolo. Proseguo. Poi ovviamente si può sapere su che frequenza si trasmette. Ed
+64:28 ecco qua il frequenzimetro. Frequenzimetro ti ti misura la frequenza su cui trasmetti. È uno strumento
+64:34 banalissimo, ma proprio banalissimo. Immaginiamo, Immaginate che ricordate la definizione di frequenza, no? Cioè
+64:41 frequenza di 14 MHz. Vuol dire che la mia sinusoide sale e scende 14 milioni
+64:47 di volte in un secondo. In un frequenzimetro c'è semplicemente una porta che si apre e resta aperta per un
+64:53 secondo e al di là di questa porta c'è un contatore, quindi
+64:58 si apre la porta, il contatore conta, la porta dopo un secondo chiude e a quel
+65:03 punto il contatore ti dice 14.27571, 27 5 7 che è il numero di volte che la tua
+65:09 sinusoide è andata su e giù in un secondo. Quindi quanti cicli completi della sinusoide ce ne sono stati.
+65:15 Infatti molte volte i frequenzimetri vengono chiamati contatori anche per questo, cioè di base i frequenziimetri sono contatori, si va poco lontano. Mh.
+65:26 Altro strumento che è abbastanza che era abbastanza diffuso e tutt'ora si usa e
+65:32 poi diciamo adesso questo strumento è in qualche modo totalmente superato dai cosiddetti
+65:39 VNA che non fanno parte della materia di esame dell'esame, ma se ne può parlare. è il gridep meter. Questo è uno
+65:47 strumento che misura è in grado di misurare le frequenze di risonanze dei circuiti LC. Cioè immaginiamo che magari
+65:55 si sta costruendo un'antenna oppure si vuol provare a fare un piccolo trasmettitore e diciamo
+66:02 in queste situazioni molto spesso c'è da fare dei circuiti risonanti, no? Quindi un induttore e un condensatore in
+66:08 parallelo. Allora, il condensatore c'è scritto sopra normalmente la sua
+66:13 capacità, no? Gli induttori il più delle volte te li devi fare, devi avvolgerti la bobina e quindi ti vengono dei
+66:18 risultati che non sempre sono quelli che ci si aspetta. Allora si deve in qualche modo misurare la frequenza di risonanza
+66:24 di questi circuiti e questi dip servono a questo. Allora, come come funziona? Diciamo dentro c'è un oscillatore e
+66:33 questo oscillatore viene sintonizzato in nel caso di questo gridep con questa manopola. Vedete che qua c'è una ghiera
+66:39 e qua un'altra ghiera. Quindi qui è come se fosse la sintonia di una radio, la sintonia del mio
+66:44 oscillatore e su questa scala che vedete quassù in questa finestrella, io leggo
+66:50 la frequenza su cui il mio oscillatore sta su cui sto dove sto spostando il mio
+66:55 oscillatore. Eh, vedete che quassù in alto,
+67:01 qua dal biostumento esce una bobina. Questa
+67:07 è proprio una bobina, è la bobina dell'oscillatore che sta nel mio gridep. io metto questa bovina vicino a quella
+67:14 del del circuito che voglio misurare, cioè li avvicino, sia che sia una trappola di un'antenna, sia che sia un
+67:21 circuito risonante che in qualche modo voglio costruire e in e mettendole vicine io regolo la frequenza del mio
+67:29 gridep con questa manopola qua. Allora, quando le frequenze diventano simili
+67:37 fino fino a arrivare uguali, succede che la potenza generata da questo
+67:42 oscillatore viene assorbita molto dal circuito che sto misurando, perché e
+67:48 mettendo vicini i due circuiti risonanti di frequenza uguale eh l'accoppiamento
+67:53 che si genera fra essi trasferisce la potenza dal primo al secondo e quindi di
+67:58 fatto il il circuito che io vado a misurare mi assorbe, mi succhia poten del mio gridp e questo lo vedo da questo
+68:06 strumento qua. Immaginiamo che questo strumento quando il mio grip è in funzione normale,
+68:12 lontano da tutto quanto, la scala, questa scala segna 8, per esempio. Mh,
+68:18 nel momento in cui io vado a a cercare la frequenza del mio circuito, quando arrivo sulla frequenza giusta, c'è un
+68:24 assorbimento di potenza, quindi questa scala mi cala, invece di oltre magari il mio ago va a due. Questo è questo in
+68:31 inglese è un dip. Il dip è è il picco in negativo di qualcosa, d'accordo? Cioè,
+68:38 letteralmente questo strumento in effetti gri deep meter vuol dire strumento a deep di griglia. Il deep è
+68:45 questo concetto qua, no? parole inglese che appunto è il
+68:50 mh è è un picco negativo di qualcosa, un crepaccio, una valle, un un picco negativo. Grid griglia perché un tempo
+68:58 questi strumenti erano fatti a valvole nella notte dei tempi archeologia industriale, no? Quindi questo strumento
+69:04 andava a misurare il DIP di della corrente di griglia del dell'oscillatore.
+69:11 Quindi in sostanza misura la frequenza di risonanza di di un circuito LC. si va vicini quando le due frequenze si
+69:17 sintonizza il gridep quando le frequenze sono vicine c'è assorbimento di potenza
+69:23 e questo assorbimento di potenza lo vedo perché l'intensità perché in questo
+69:29 in questo strumento qui eh io leggo la l'intensità del segnale che il mio
+69:34 oscillatore sta generando in quel momento, no? Quando vedo che c'è un dip, quindi l'intensità che cala, vado a leggere, vado a leggere su questa scala
+69:41 la frequenza e quella è quella del mio circuito risonante. Vedete che c'è scritto anche qui qua
+69:46 sotto c'è scritto che può funzionare anche da ondametro. Il concetto di ondametro anche fa parte
+69:53 del programma di esame. L'ondametro è in quello che in campo televisivo è il
+69:59 misuratore di campo. Cioè in questo gridip se io spengo
+70:05 l'oscillatore il transistor che sta che mi fa da oscillatore magari posso farlo usare da
+70:12 posso farlo lavorare come amplificatore. Allora questa bobina che è quassù mi funziona da antenna.
+70:19 il segnale captato da quell'antenna con la sintonizzazione di questa scala
+70:25 poi viene rivelato, amplificato e mi va a muovere questo strumento. Quindi se io
+70:30 voglio vedere magari un oscillatore che ho fatto, lo accendo, voglio andare a misurare la lunghezza d'onda, vedete?
+70:36 lunghezza d'onda unametro del mio
+70:42 che che che il mio oscillatore sta erogando in quel momento perché l'ho acceso. Gli metto l'antennina vicina e
+70:48 come al solito con la sintonia vado a cercare finché questa volta non ho un segnale ma un massimo.
+70:54 Quando sono sintonizzato, questa volta è lui, diciamo, il circuito che assorbe potenza e quindi e la scala su questa
+71:04 scala di segnale io vedo una certa intensità, faccio il massimo di questa
+71:09 intensità e a questo punto sulla solita manopola, sulla solita scala di sintomia vado a leggere la frequenza del del
+71:16 segnale che che volevo misurare, quindi in maniera molto più grezza, ovviamente, molto più imprecisa di come si può
+71:23 ottenere con un frequenzimetro, ma qui si parla di strumenti che sono nati negli anni 40, negli anni 50, eccetera.
+71:29 Questo è l'ondametro. l'ondametro è un misuratore selettivo, di fatto, quindi
+71:36 uno strumento che misura in maniera selettiva, selettiva tramite questa manopola di sintonia, no, che avete
+71:42 visto che che si è visto quassù qua, eh
+71:48 la la frequenza di un segnale. E questo è fatto appunto semplicemente
+71:54 commutando in due modi diversi il funzionamento di questa scatolotta, no? il modo dipip e il modo ondametro.
+72:03 C'è qualche domanda su questo? Sono strumenti comunque molto semplici,
+72:10 molto molto facili da usare anche per adesso. No, Paolo. Allora, proseguo
+72:18 e ci mancano gli ultimi due strumenti, i pezzi forti della serata, diciamo, salendo in complicazione. Uno ovviamente
+72:24 è l'oscilloscopio. L'oscilloscopio è uno strumento che mostra le forme d'onde dei segnali. Noi
+72:31 tante volte abbiamo detto, no, la sinusoide qui, il segnale là, eccetera eccetera, però una sinusoide per ora non
+72:37 l'abbiamo mai vista dal vivo. Gli oscilloscopi servono proprio per rappresentare
+72:42 per per farci vedere le forme che hanno i segnali, per esempio, in ingresso, in uscita da un amplificatore, eccetera
+72:48 eccetera eccetera. E questa cosa qui che questa foto che vedete è proprio quella
+72:54 di di un tipico oscilloscopio. Qui intanto sullo schermo vedete che ci sono due segnali. una sinosoide che sta
+73:01 salendo qui, mentre quest'altra piccola sinosoide sta scendendo, quindi le vedete, no? Queste due sinosoidi
+73:07 sovrapposte, una un po' più robusta e una un po' più debole. Ci sono due
+73:13 sinusoidi perché questo strumento ha due canali, canale 1 e canale 2.
+73:21 Qui probabilmente questa foto è stata presa quando qualcuno stava guardando l'ingresso e l'uscita di un
+73:26 amplificatore. Si può immaginare che questa sinosoide di alte di ampiezza apparentemente più piccola sia
+73:31 l'ingresso e questa apparentemente più forte e più alta è eh l'uscita del mio del mio
+73:41 amplificatore. Ma quanto possono essere alti queste
+73:46 quanto possono essere alte queste sinosoide? Vedete che su questo schermo c'è un reticolo e quindi è diviso, no,
+73:53 in questi in questi quadratini. Diciamo che questa sinusoide, se contiamo,
+73:59 facciamo quella grande che �� più facile, fa 1 2 3 4 di questi quadratini che in
+74:08 gergo tecnico, in gergo in gergo oscilloscopistico vengono chiamate divisioni, no? Quindi questa è una
+74:15 sinusoide che è alta a quattro divisioni. Eh, se andiamo a vedere in questa parte,
+74:21 vedete che qui c'è questa manopolina dove c'è scritto volt per divisione.
+74:26 Questa, se vogliamo, è la sensibilità del nostro del nostro oscilloscopio.
+74:31 In questo momento vedete che c'è una scala in volt, questa V qua. La manopola
+74:37 sta puntando qua. 02 03 1 2. Direi che la manopola è su 2 V per divisione.
+74:44 Questa scala, questa senoide alta è di 8 di e di quattro divisioni, quindi questo
+74:51 è un segnale che ha un'ampiezza picco picco di 8 V. 4 divisioni per 2 V a
+74:56 divisione. Stessa stesso discorso si potrebbe fare per l'altra. Invece quest'altra manopola
+75:04 qua in alto a destra, questa è la base dei tempi e quindi mi dice quanto velocemente scorre, diciamo,
+75:12 questa sinusoide nel mio oscilloscopio. Anche qui vedete che ci sono delle divisioni. Sull'asse orizzontale ce ne
+75:19 sono 10. Se vediamo questa sinusoide sempre quella alta, quanto è larga? è
+75:25 larga, una divisione, due divisioni, tre divisioni, di nuovo più o meno quattro divisioni.
+75:31 Però mentre sull'asse verticale ho letto dei volt, quindi ho letto una tensione,
+75:37 sull'asse orizzontale leggo dei tempi che possono essere dei secondi, dei
+75:43 millisecondi, come leggete lì, o addirittura dei microsecondi per divisione. Quindi questa manopola
+75:50 sembra messa, diciamo, su 01 millisecondi
+75:56 per divisione, poiché la sinusoide completa, quindi da qua a qua,
+76:03 eh mi occupa quattro divisioni. Il periodo di questa sinusoide è di 0,4
+76:11 mise 0,4 msecond.
+76:17 Se si fa 0,4 si ottiene la eh 0,4
+76:23 millisecondi si ottiene in kHz la frequenza di questa sinusoide.
+76:30 1 / 04 fa 250 Hz alla fine se se non
+76:36 sbagli a fare i conti. No, vabbè, dico fidiamoci. E questo è l'oscilloscopio.
+76:43 Quindi misura, ci fa vedere le lunghezze d'onda, ci fa vedere le forme d'onda, come dicevo prima, delle forme d'onda si
+76:50 possono fare delle valutazioni di ampiezza contando le caselle e anche di periodo e
+76:58 quindi di frequenza contando contando le caselle, però queste misure sono sempre molto approssimate, diciamo.
+77:04 L'oscilloscopio non nasce come strumento per misurare le le altezze o le
+77:09 frequenze, no? Perché le frequenze si misurano bene col frequenzimetro, le altezze si misurano col voltmetro.
+77:16 Comunque si può fare una misura, anche se approssimata con l'oscilloscopio, ma soprattutto questo strumento serve a,
+77:22 diciamo, ci mostra le forme d'onda. Vogliamo vedere ad esempio se sono delle sinosoide pure, se sono distorti o cose
+77:27 di questo tipo. Quindi, riapilogando, l'oscilloscopio consente di visualizzare l'andamento nel
+77:34 tempo di un segnale. Quindi, sull'asse X, questo strumento lavora nel dominio del
+77:41 tempo. Nel dominio del tempo. Sottolineo questa cosa perché fra un po' vedremo uno strumento che lavora invece nel
+77:47 dominio della frequenza. Sull'asse X è riportato il tempo, quindi in secondi,
+77:53 millisecondi, eccetera. Sull'asse Y invece è riportata l'ampiezza del segnale in volto a mill. Quindi si
+77:60 possono osservare le forme d'onda tramite tramite un oscilloscopio.
+78:08 È chiaro? C'è qualche domanda?
+78:14 Se non ci sono domande proseguo con l'ultimo strumento di stasera che è
+78:19 l'analizzatore di spettro, il grande analizzatore di spetto. Eh, giusto, forse forse Paolo, giusto una domanda, perdonami. Eh, variando eh
+78:29 il l'arco temporale vada a variare quella che è poi la
+78:35 l'altezza poi dell'onda effettiva dell'onda stessa, se ho capito bene. Eh, no. Allora, se tu vari se se tu vari
+78:47 aspetta, ti ti dico una cosa e poi mi dici se ti ho risposto, senò riproponi la domanda. Allora, variare l'arco
+78:54 temporale significa lavorare su questa manopola qua, ok? Tempo per divisione. Se la metto,
+79:04 immaginiamo che il segnale in ingresso sia sempre questo, d'accordo? Con la manopola in quella posizione lì io vedo
+79:11 due periodi della mia sinusoide. D'accordo? Ok.
+79:18 Se mando il mio pennello più lentamente, quindi invece di 01 di invece di di
+79:25 questo punto uno che sembra qua, se lo metto su punto 2, vedrò un periodo solo.
+79:33 Mh mh. La vedo proprio a a pieno schermo. Se invece la mando più
+79:38 velocemente ne vedo invece di due, ne vedo quattro. Se aumento ancora ne vedo otto. Quindi Ora ho capito, ora ho
+79:45 capito, ora ci sono. Sì, sì, perfetto, ho capito. Grazie mille. Infatti,
+79:51 diciamo, la velocità quella lì è la velocità, diciamo, di scorrimento del pennello, diciamo, da sinistra a destra.
+79:57 Chiaro? Ok, perfetto. Grazie. Niente, altre domande?
+80:06 Allora, proseguo per ora. E l'analizzatore di spettro. Allora,
+80:11 l'occilloscopio lavora nel dominio del tempo, l'analizzatore di spettro lavora nel dominio della frequenza. Che che
+80:18 vuol dire? Allora, cerchiamo di vedere cosa c'è su questo su questo display,
+80:24 d'accordo? Qua in questa in questa zona. Eh, allora, vedete che c'è un segnale,
+80:32 ci sono queste parti laterali che sono essenzialmente rumore, quindi qua c ci
+80:37 sono delle cose non particolarmente coerenti, però vediamo che c'è un picco principale qui
+80:44 e ci sono due altri picchi ai suoi ai suoi lati.
+80:51 ricordando quello che si è detto ai vecchi tempi, nelle vecchie lezioni eccetera eccetera, ricordate, si era
+80:56 parlato il CV, l'FM, la M, l'SSB e così via. Questa questa questa questa forma
+81:02 d'onda qua che vi fa venire in mente delle cose che si sono dette in passato.
+81:08 Cosa vi ricorda? Am. Bravo, bravo. Esatto. Vi ricordate che si era detto la
+81:14 M c'è la portante ed eccola qua la portante. Eh, questa è la portante del mio del mio
+81:20 segnale. Questo segnale è modulato. Ora sto facendo un esempio, eh, su questa forma d'onda, comunque. Ed ecco qua le
+81:28 bande laterali. Allora, cosa mi sta facendo vedere il mio analizzatore di spettro? Allora, l'asse orizzontale
+81:35 nell'oscilloscopio era il tempo, qui invece è la frequenza. Quindi questo è uno strumento che lavora nel dominio
+81:40 della frequenza e in questo punto qua dove io ho il picco, diciamo, del mio
+81:47 segnale, posso se se eh vediamo un po'.
+81:52 Ecco, sì, questo ce lo probabilmente ce lo dice questo marker. Qui si sta guardando un segnale a 3 MHz, 3.00
+82:01 MHz, d'accordo? Pic. E qui c'è eh la mia
+82:06 portante. Di questa portante si sa l'ampiezza. L'ampiezza è questo valore qua, espressa in decib, espressa in DBM,
+82:15 quindi questo è un valore inferiore al al millwatt, ma comunque non ci interessa, no? Magari si vede un segnale
+82:21 attenuato, si vede un segnale, insomma, ora non ci interessa la plausibilità di quello che racconto. Poi si vede che un
+82:28 po' più in su, circa una divisione più su, c'è una seconda banda laterale. Qui c'è da qualche parte, in queste scritte
+82:35 qua dentro, qui c'è uno span. Questo dove leggo 20 kHz e qui c'è una
+82:42 frequenza centrale di Ah, no, scusate, la frequenza centrale in realtà è di 3 G 3 GHz. Ora mi torna 3 GHz. Quindi questo
+82:50 non era una virgola, era un punto. C'è sempre questi problemi, no? Fra la le notazioni, la virgola e il punto fra
+82:56 l'inglese e l'americano. Qui sto vedendo un un segnale che ha una frequenza
+83:01 centrale di 3 GHz e uno span di eh di fatto 20 MHz, quindi mi sto guardando 20
+83:08 MHz, no, pardon, ci leggo male. No, forse 20 kHz. Sì, sto guardando 20 kHz
+83:15 sopra, 20 kHz sotto attorno a questo span. Quindi
+83:21 20 kz 1 2 3 4 divisioni, quindi sono 2 kHz a divisione, va bene?
+83:27 Quindi qua 2 kHz più in alto e 2 kHz più in basso ho le mie bande laterali che hanno una pietra che posso misurare.
+83:35 Questo è uno degli usi dei possibili usi dell'analizzatore di spettro. Allora, prima di giocare ancora con quello che
+83:41 si vede sul display, a questo punto che si è fatto una prima infarinatura di
+83:46 quello che si vede sul display, definiamo cos'è l'analizzatore di spettro. Quindi consente di visualizzare
+83:52 le frequenze che compongono un segnale, perché il segnale della mia della mia
+83:58 modulazione di ampiezza è composto da tre frequenze, 1, 2 e 3. In questo
+84:04 esempio. Mh, detto in termini un po' grezzi, ma il concetto comunque è questo. Quindi mostra una curva,
+84:13 il mio analizzatore che rappresenta la la composizione dello spettro di frequenza del segnale. spettro di
+84:20 frequenza si sta guardando, no, nello spettro, diciamo, della radiofrequenza il mio segnale com'è distribuito. Quindi
+84:26 questo è uno strumento che lavora nel dominio della frequenza, a differenza dell'oscilloscopio.
+84:32 Quindi sull'asse X è riportata la frequenza e sull'asse Y nell'oscilloscopio era riportata
+84:38 l'ampiezza in volt. Qui normalmente questi strumenti misurano la potenza e
+84:43 riportata la potenza del segnale che di solito viene espressa in DB rispetto al mill.
+84:49 E come sono fatti gli analizzatori di spettro dentro? In pratica è come se fossero dei ricevitori seguiti da un
+84:55 oscilloscopio, come se fossero dei ricevitori a larga banda, scusate, torno qua, che io in qualche
+85:02 modo posso sintonizzare, cioè qui eh l'avrei potuta sintonizzare io, cioè chi
+85:08 chi ha lavorato per questa foto ha sintonizzato questo ricevitore in questo modo qua. messo la sintonia a 3 GHz
+85:15 usando queste queste manopole, questi tasti eccetera eccetera e ha definito poi che attorno a questi 3
+85:23 GHz lui voleva vedere 20 kHz di spettro, che è questa ampiezza
+85:29 qua, è questo span di 20 kHz. Quindi lui ha sintonizzato il suo ricevitore. Il ricevitore ha fatto il
+85:37 suo lavoro, ha ricevuto eh il segnale con una certa selettività, anche perché
+85:43 vedete che è riuscito a separare la visualizzazione delle varie bande laterali e questo segnale l'ha tradotto
+85:50 in una cosa che si può essere che può essere visualizzata da una cosa che poi somiglia un po' a un oscilloscopio, no?
+85:56 c'è una presentazione su un display stile oscilloscopico, però diciamo con assi diverse perché l'asse orizzontale
+86:02 in realtà qua è quello delle frequenze e l'asse verticale quello delle potenze. E
+86:08 quindi mi sono visto il mio analizzatore di spettro. Questa cosa qui la potrei utilizzare, ricordate qualche lezione fa
+86:14 si parlava dei trasmettitori, delle potenze dei trasmettitori, eccetera, si diceva delle armoniche, quindi un
+86:20 trasmettitore si diceva che se si spinge troppo l'amplificazione il finale del trasmettitore oppure
+86:27 l'eventuale amplificatore lineare che io ho dietro il mio trasmettitore, a un certo punto se eh aumento molto il
+86:34 pilotaggio può andare in saturazione. Andando in saturazione, vi ricordate che si era detto che la sinusoide poi non
+86:41 era più perfetta, ma le cuspidi della sinusoide si abbiattivano e questa situazione generava armoniche, le famose
+86:48 armoniche tendenzialmente dispari, ma un po' tutte. Allora, io qui potrei, ad esempio, vedere che eh che ho, diciamo,
+86:58 immaginiamo qua qua sotto che sia questo l'asse dei tempi del mio display. Io potrei vedere che ho un segnale
+87:04 principale a 27 MHz. Potrei fare uno span, ad esempio, da 27 da 0 a 100 MHz
+87:13 con la col mio analizzatore di spettro da da 0 a 100. potrei avere appunto il segnale principale a 27 MHz, poi un po'
+87:19 di rumore al valore della seconda armonica, quindi 27* 2 54 MHz, potrei
+87:25 avere una cosa un po' più piccola. Al valore della terza armonica 27* 3 81 potrei avere una cosa un po' più
+87:31 grossotta e il mio analizzatore di spettro con la sua scala graduata e tutto quanto mi fa vedere l'ampiezza
+87:37 della portante e contemporaneamente mi fa vedere l'ampiezza delle armoniche. Quindi, se volessi capire, se volessi
+87:45 sapere quanto è pulito il mio trasmettitore a un certo livello di potenza, questo è lo strumento che dà la
+87:50 risposta perché si vede proprio tutto il contenuto armonico del segnale in
+87:56 uscita, comeè scritto qua. La ved mostra una curva che rappresenta
+88:02 la composizione dello spettro di frequenza del segnale. Vi faccio vedere un'ultima un'ultima immagine, tanto per
+88:10 dare l'idea, ma diciamo non non cambia molto. Qui evidentemente chi ha fatto questa foto voleva verificare quanto
+88:16 appunto era pulito un suo segnale. Il segnale è questo qua.
+88:23 E vediamo, usiamo questa foto per fare un ragionamento sulla scala. Intanto
+88:29 questo segnale dove dove sta? Allora, ho una frequenza centrale di 6 GHz, quindi questo segnale è un segnale in van da
+88:37 microonde a 6 GHz. Allora,
+88:42 è stato in qualche modo impostato l'analizzatore di spettro e anche magari
+88:48 prima dopo, insomma, il generatore di questo segnale per far sì che il picco di questo segnale fosse quassù, ovvero
+88:56 con un livello di potenza di -20 dBM. Ricordate che 0 dBm 1 mW. DBM è DB su 1
+89:04 mW. 0 dBm è appunto 1 mW. -10 diventa
+89:11 01W. 0,1 - 20 dBm diventa 0,01
+89:19 mW. E questa è l'ampiezza del mio segnale. Attorno a questo segnale c'è
+89:24 del rumore. Allora, si vede già occhio che questo è un segnale molto pulito, no?
+89:30 Ma quanto è pulito questo segnale? Continuiamo a scendere. -30 dBM
+89:35 0, Scusate se vi strare a un punto 00 1.
+89:43 Scusate di tanto intanto mi si impalla ormai. -40
+89:50 0 0 0 1 Uffa, non sono in una posizione buona
+89:58 per il mouse. -50 dB. Raggiungo un altro 0,001
+90:07 -60 dBm e devo ancora scendere 0,00
+90:16 0 1 e qui alla fine -70 mW, giusto?
+90:22 0,00 001
+90:31 e qui ho uno 0 in più. Allora, quindi questo segnale
+90:37 è 10 20 30 40 50 60 e 60 dB supera il
+90:45 rumore, quindi molto pulito. Perché il rumore dov'è? Il rumore non è
+90:53 questo segnale vale un centesimo, non è a un millesimo, non è a un decimillesimo,
+90:59 non è a un centimillesimo, non è a un milionesimo.
+91:05 eh una differenza, diciamo, di livelli che
+91:11 c'è, come vediamo in questa scala qua, dove questo è 0,1, mentre questo qua sotto è 0,001,
+91:20 su una scala lineare non si potrebbe vedere perché su una scala lineare un
+91:25 già un segnale di guardiamolo qua sull'oscilloscopio,
+91:33 se ho un segnale Ale, diciamo, di ampiezza 3,
+91:39 un segnale di 1 deo, cioè 03, mi diventa così,
+91:46 1 deo. Un segnale di 1 millesimo, 0,03 mi diventa un punto
+91:52 su una scala lineare. Un segnale di 0,003 non lo vedo neanche, cioè dopo un
+91:58 centesimo non in una scala lineare li perdo. Qua invece in una scala logaritmica riesco a
+92:06 vedere bene dei segnali molto molto diversi fra loro e questo è appunto il
+92:12 motivo per cui molti strumenti, compreso i PNA, hanno scale logaritmiche perché
+92:17 ti dice -20 non ti dice 001 che non si dire che non si vedrebbe neanche, ma di
+92:23 questo poi si diciamo si parlerà quando magari faremo una chiacchierata su quegli strumenti. Quindi questo e con
+92:30 questo concludo è l'analizzatore di spettro. Quindi questo è nel dominio della frequenza, l'oscilloscopio è nel
+92:36 dominio del tempo. Questo si usa per vedere il contenuto spettrale di un segnale, quindi in pratica le armoniche,
+92:42 le armoniche o o in generale la forma d'onda, diciamo, del del segnale. E
+92:49 invece l'oscilloscopio è la forma d'onda nel dominio del tempo, quindi l'andamento temporale della nostra
+92:55 sinusoide, come in questo esempio, no? che sale e e scende.
+93:01 E questi sono gli gli strumenti che in qualche modo sono il il pacchetto di base, diciamo, del
+93:09 di di di quello che si può usare in una stazione eh radiomatoriale,
+93:16 anche perché poi, scusate, tolgo la condivisione, scusate un momento solo.
+93:23 Ok, ci sono.
+93:28 Allora, eh, a te vedo una malzata, Massimo, a
+93:35 te. Stasera rompo le scatole. Ma vai libero.
+93:42 E come vanno collegati questi vari strumenti? Cioè il frequenzimetro basta metterci un antennino o va collegato
+93:48 direttamente per dire voglio misurare la frequenza del mio baracchino CB. Se vuoi
+93:54 misurare la frequenza di un oggetto potente come un baracchino basta un antennino. Normalmente sono strumenti
+93:60 molto sensibili, cioè lo usi con una sonda, quindi con un contatto fisico,
+94:05 quando lavori a baracchino aperto, per intenderci. Voglio vedere. Allora, vai a vedere quello che esce dall'oscillatore, vai a
+94:12 vedere, capito? con che sono segnali a basso livello, sennò basta un antennino, diciamo. Sì,
+94:19 sì, perché diciamo una un'antennina, diciamo, un frequenzimetro normale messo attorno accanto a una radio che già che
+94:25 ha un paio di mil che è un paio di watt, già legge tranquillamente.
+94:30 Sì. Eh, a te David.
+94:40 Grazie. Solo per capire se sono riuscito a entrare nella situazione. Eh,
+94:47 l'analizzatore di spettro, sto parlando di questo, quello che noi vediamo sui ricevitori digitali, quindi può essere
+94:54 una sorta di analizzatore di spettro. Esattamente così. Sì. Ok, perfetto. Volevo capire se voi centrato la
+95:00 situazione. È lui, è lui. È lui. Chiaramente quella è una rappresentazione
+95:07 e cioè non è una misura, è una rappresentazione. Quindi gli analizzatori di spettro, come
+95:13 gli oscilloscopi, come gli strumenti, sono progettati e calibrati per darti in maniera precisa delle ampiezze, no, di
+95:20 segnale, di di resistenza, di potenza. Però però nel waterfall che si vede sul ricevitore digitale, comunque ti dà una
+95:26 sorta di eh di B sul rumore e anche sull'ampiezza
+95:32 del segnale che stai insomma delle indicazioni via. Sì. Sì. Da dei livelli che sono indicativi, hai dato la parola
+95:38 giusta, che sono indicativi e vanno bene, cioè il 99,9% dei casi basta, però è è diciamo è
+95:45 assimilabile a all'analizzatore di spettro quello. Eh sì, è un analizzatore di spettro a tutti gli effetti. Grazie
+95:52 Paolo. Come ai vecchi tempi, per esempio, e cioè in maniera molto più grezza, no, quando c'erano i cosiddetti
+95:58 gli equalizzatori grafici, no, sugli impianti di alta fedeltà eccetera, che poi vedevi tutte le barre LED e così
+96:04 via, no? 700 1000 1200 Hz. Eh, era una
+96:09 cosa simile, se vogliamo, no? Cioè, vedevi un segnale componente per componente di frequenza.
+96:15 Perfetto. Altre domande? Giovanni, a te la sonda
+96:23 logica fa parte degli attrezzi qua. Sì, allora in generale non solo c'è una
+96:30 domanda su Sì. Sì. Allora, in generale non solo la sonda logica, ma anche i
+96:36 dispositivi logici di base, le porte, diciamo, and nor, eccetera. E su quello
+96:42 vi faremo una piccola propagine adesso a settembre. Ok?
+96:48 Comunque la risposta è sì. Ok,
+96:57 altre domande?
+97:05 Beh, allora mentre ci pensate vi dico una cosa io. Allora, come avevo accennato in apertura, con stasera si è
+97:11 conclusa la parte m diciamo elettronica del programma, elettronica in senso stretto. Adesso la prossima settimana,
+97:19 martedì, ci sarà una lezione sulla sulla sicurezza elettrica. Questa lezione
+97:25 sulla sicurezza elettrica è divisa in due parti. Una è la sicurezza elettrica vai mercoledì. Mercoledì, mercoledì,
+97:31 pardon, scusate, perché noi abbiamo due corsi in ponte, uno il martedì e uno il mercoledì e quindi Grazie Alessio.
+97:40 Allora, dicevo, questa questa reazione sulla sicurezza elettrica è divisa in due parti, cioè la prima parte è proprio
+97:48 sul tema la scarica, la scossa, per intenderci, la scossa, a livelli di pericolosità, come fare per evitarle,
+97:54 eccetera. La seconda parte invece è su fulmini. Ulmini, disco di fulminazioni, l'antenna va messa a terra, non va messa a terra,
+98:01 eccetera. Quella considerata una lezione extra e l'abbiamo inserita perché sono
+98:07 argomenti che poi tutti noi, dovendo costruire una stazione radio a cui possono accedere altre persone che
+98:13 magari non siamo noi, ma solo figli, nipoti, bambini, cani, gatti, no? Bene, è bene che la stazione sia sicura dal
+98:19 punto di vista elettrico e poi tutti quanti più o meno abbiamo o metteremo antenne sul tetto, come va gestita
+98:27 un'antenna esterna che potrebbe diventare un parafulmine, son cose che è opportuno assolutamente assolutamente
+98:33 sapere, eh, però sono entrambi di fatto argomenti extra programma, quindi lì non
+98:38 ci saranno test di fine lezione, per cui viviate tranquilli. nel programma ministeriale, nelle famose batteria
+98:46 altervista, ci sono solo cinque domande sulla sicurezza elettrica. Quelle di quelle cinque domande stanno tutte su un
+98:51 foglio, ve le daremo con le relative risposte e quindi dal punto di vista dell'esame la cosa finisce lì. Dopodiché
+98:57 poi a settembre avrete quattro lezioni sulla parte antenne, come dicevo prima,
+99:03 due lezioni per completare la normativa e poi il tempo che resta lo dedicheremo tutto a simulazioni di esame. Quindi
+99:09 tutti quanti faremo le cose che ci ha detto Giovanni prima e che appunto anche Marco eccetera, no? però lo faremo in
+99:16 linea in una maniera che poi vi racconteremo a ottobre per non per non
+99:21 togervi la sorpresa e quello servirà proprio da allenamento per l'esame, anche le modalità di lavoro, insomma
+99:27 faremo tutta una serie di di chiacchiere su su proprio sulla gestione fisica dell'esame, no? Arrivare lì cosa fare,
+99:32 cosa non fare, eccetera. Questo tanto per darvi una un'idea, no, da ora fino a
+99:38 eh a nel mese di settembre ci sarà da fare la domanda d'esame con comodo. Vi
+99:44 diremo, per chi non lo sa già, come fare. Nel frattempo vi daremo la risposta a quelli di voi che possono
+99:51 avere le zone aeroparziale. Avremo il parere, diciamo, del del nostro MIMIT e
+99:56 vi diremo, appunto, vi daremo conferma se avete o meno diritto a fare scusa quando? Scusa, quando appena possibile,
+100:03 appena noi stessi avremo i dati ve li gireremo. Ok.
+100:09 A settembre, a questo punto. No, no, no, no. Ora, ora prima delle ferie in modo che così tutti quanti sappiamo di che
+100:15 morte si muore, no? Come si dice. E questo più o meno è a grandi linee,
+100:23 diciamo, sono grandi linee i prossimi passi, no? d'ora fino all'esame. Noi continueremo a stressarvi fino al giorno
+100:29 prima dell'esame con le simulazioni d'esame perché è bene che arriviate lì ben allenati, questo è il nostro pensiero. Scusa Paolo, gli esoneri
+100:36 parziali da che cosa sono dati? Se uno ha un titolo tecnico eh può avere
+100:44 l'esonero parziale. Ora non ce l'ho sottomano su questo PC, però è stato mandato diverse volte, probabilmente lo
+100:50 trovi anche nel gruppo Telegram oppure lo trovi velocemente sul sito Ari. Oh.

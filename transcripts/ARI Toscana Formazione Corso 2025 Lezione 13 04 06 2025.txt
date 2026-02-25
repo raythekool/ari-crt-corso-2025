@@ -1,0 +1,1131 @@
+00:03 Eccola qua. Perfetta, perfetta. Allora, metto in condivisione lo schermo e vi faccio
+00:11 vedere come siete andati un i quiz della lezione
+00:19 precedente. Eccola qua. Un attimo solo, scusate che tac tac tac.
+00:25 Allora, ora si comincia a entrare nella parte radio, quindi su qualche cosa c'è da fare un po' di ragionamenti, però
+00:32 avete visto che non ci sono praticamente più formule, eh, siete andati piuttosto
+00:38 bene la tranne la domanda H, la domanda H proprio calciato. Mh, e la domanda F
+00:45 anche. Adesso vediamo tutte le risposte. Comunque l'andamento è buono, eh, ricordando che la soglia di successo è
+00:50 il 60%, qui di fatto le domande sono tutte attorno all'80%, qualcuno al 100%,
+00:58 quindi ci possiamo tranquillamente ritenere soddisfatti. Allora, le
+01:04 risposte, ecco, eccole qua. Forse c'è anche un po' troppo zoom.
+01:09 Va bene. Si vede il mio video? Sì, Paolo, benissimo. Ok, va bene.
+01:18 Allora, cominciamo. Quindi, prima domanda, da quante giunzioni è formato un transistor bipolare? due naturalmente
+01:27 perché una una è una giunzione ce l'ha un altro componente elettronico, il
+01:33 diodo. Il diodo ha una parte, una parte n che sono unite insieme con una
+01:38 giunzione in un transistor di pezzettini, diciamo, di silicio ce ne sono tre, Pnp, NPN, per cui le giunzioni
+01:44 per attaccare insieme questi tre pezzetti sono due. Ok? La tre è è manifestamente sbagliata. Allora, B.
+01:52 Com'è l'impedenza di ingresso di un FET paragonata a quella di un transistor? Ricordate che il FET è il transistor a
+01:58 effetto di campo, field effect transistor, che è il famoso transistor
+02:05 che si pilota eh in tensione e non in corrente. Si era detto nella lezione che
+02:12 i i transistor normali, quelli aggiunzione, gli NPN o i PNP, vengono pilotati iniettando corrente nella loro
+02:19 base. Quindi un transistor ha un'impedenza di ingresso abbastanza bassa per forza, perché la base deve
+02:26 assorbire corrente, per cui l'impadenza di ingresso non può essere alta, no? la corrente deve passare. Il fet invece ehm
+02:34 a a quella configurazione particolare che avevamo visto nella nella lezione che dove il terminale di controllo, il
+02:40 gate, il terminale che controlla la corrente che scorre il fet, in realtà
+02:45 ehm varia la polarizzazione di una giunzione che è sempre polarizzata inversamente. Quindi un FET non ha mai
+02:52 corrente di ingresso, per questo la sua impedenza di ingresso è alta, la risposta giusta è la uno. Quindi il
+02:59 fetta è in pedenza di ingresso alta, il transistor ce l'ha bassa, bassa,
+03:04 media. Domanda tre. Quale fra seguenti componenti non è un transistor? Ovviamente la tre, lo zener. Lo zener è
+03:11 un diodo. Domanda di quale delle seguenti affermazioni è falsa per un transistor
+03:17 bipolare? L'impezza di ingresso è estremamente elevata, come abbiamo appena detto, no? Per un transistor
+03:22 bipolare l'impedenza di ingresso al massimo è media, medio alta. Mh. Eh, invece la due è giusta, cioè la
+03:30 corrente di emettitore è circa uguale a quella di collettore e anche la tre è giusta. La corrente di collettore è
+03:37 molto maggiore di quella base di quella di base, è molto maggiore anche di 100-150 V, no? Che è il famoso beta, il
+03:44 coefficiente d'amplificazione di transistor. Domanda è: quale componente può essere usato per amplificare piccoli
+03:50 segnali, ma necessita di tensioni elevate la valvola termoionica? Perché il chiaramente il condensatore
+03:57 elettrolitico non amplifica un bel niente sbagliato. Il transistor amplifica, ma gli bastano pochi volt per
+04:03 poter lavorare. La valotervoionica invece è bisogno di tensioni più alte del tipo 50 100 V e e così e così a
+04:12 salire. Domanda F. L'impotenza di ingresso di un amplificatore come bene
+04:18 che sia, alta o bassa? E allora un amplificatore riceve il segnale da amplificare da qualcuno, no? da uno
+04:24 stadio che sta a monte e l'obiettivo potrebbe essere appunto non caricare
+04:30 eccessivamente lo stadio a monte, cioè mi attacco a chi mi dà il segnale, ma
+04:36 cerco di disturbare il meno possibile appunto lo stadio che mi dà il segnale. E questo è il motivo per cui è bene che
+04:42 l'impedenza di ingresso di un transistor, di un amplificatore sia alta per non caricare eccessivamente lo
+04:48 stadio a monte. Chiaramente non lo stadio a valle, perché qui si sta parlando di impedenza di ingresso, no?
+04:56 Quindi l'ingresso non non vede lo stadio a valle e l'attenzione dei disturbi è la terza risposta
+05:02 manifestamente sballata che c'è in moltissime domande, no, che dove c'è una risposta che è sempre proprio di fuori.
+05:09 Domanda G, quanti terminiali il transistor? Tre base collettore emettitore. Domanda H. Eccoci qua.
+05:16 L'impedenza di ingresso di un amplificatore a emettitore comune è media. Media. Emettitore comune è eh è
+05:26 lo schema di amplificatore dove il segnale entra in base ed esce dal collettore e in questa situazione
+05:33 l'impedenza è media. L'unico tipo di amplificatore a transistor che ha un'impedenza di uscita un po' più alta è
+05:39 quella collettore comune, quello che funziona da buffer, come avevamo detto nella nella
+05:45 lezione. Poi si entra nella zona valvole dove siete andati più che bene. Domanda
+05:50 I a cosa serve il filamento? A scaldare il catodo, perché scaldandolo il catodo mette gli elettroni. Chiaramente il
+05:55 filamento non scalda la placa e il filamento non raffredda, no? Il filamento scalda. Un tetrodro tetrodo
+06:03 quante griglie ha? due, la griglia controllo e la griglia schermo. A cosa serve l'elettrodo
+06:10 soppressore del pentodo? Quindi in pratica la terza griglia, perché un pentodo, ricordate, no? anodato e tre
+06:17 griglie e l'elettrodosoppressore serve a sopprimere la corrente inversa da placca
+06:22 a schermo perché in un tetodo l'accelerazione che gli
+06:27 elettroni eh che escono dal catodo, la l'accelerazione che ricevono, gli
+06:33 elettroni che escono dal catodo e sono attirati dalla placca, l'accelerazione è molto alta per effetto della eh per
+06:39 effetto della griglia schermo. è così alta che quando gli elettroni arrivano e colpiscono l'anodo riescono a far
+06:46 emergere, a far schizzar fuori dall'anodo degli elettroni che sono chiamati secondari e questa e questi
+06:52 elettroni portano a una distorsione nell'amplificazione. La griglia soppressore è è finalizzata a risolvere
+06:59 questo problema, quindi sopprime la corrente inversa a placca schermo. In un tetrodo lo schermo a cosa serve? a
+07:06 diminuire la capacità parassiva parassita tra grillianodo. Quindi il tetrodo è più stabile, è più difficile
+07:13 che entri in oscillazione da solo. A cosa serve? Domanda o la griglia
+07:19 controllo. La griglia controllo in tutti i tipi di valvole è la griglia che controlla la corrente che scorre fra
+07:25 catodo e anodo. Quindi eccola qua la risposta corretta. controlla la corrente che scorre fra anodo e catodo, non
+07:32 controlla la capacità e non blocca lo scorrimento di corrente perché il vero uso è regolare il flusso di corrente,
+07:39 quindi ottenere l'amplificazione. In una valvola riscaldamento indiretto. Domanda
+07:46 P. Il filamento è racchiuso entro un catodo, quindi il filamento raffredda il
+07:52 catodo è sbagliatissima perché la valvola ha bisogno di calore e il catodo
+07:58 non è collegato alla griglia e però il filamento è racchiuso dentro un catodo e il catodo è fatto di un materiale
+08:05 particolare che ha un'alta emissività, come si era detto, no? Quindi il filamento lo riscalda e il filamento è
+08:10 fatto apposta per diventare incandescente senza rompersi. scalda il catodo che è fatto apposta per emettere
+08:16 elettroni, quindi sono proprio due materiali diversi, ognuno dei quali ha la sua specificità. Infine, domanda Q. Il
+08:23 pentodo, oltre ai due elettrodi del filamento, quanti elettrodi ha? cinque, anodo, catodo e le griglie,
+08:31 griglia controllo, griglia soppressore e griglia schermo. E queste sono le le risposte
+08:38 corrette che come al solito vi invieremo. Allora, se ci sono domande se
+08:43 ne può parlare volentieri qualche minuto. Luigi, a te. Sì, nell'ultima nell'ultima domanda m
+08:51 cioè oltre riferimento oltre e qui io ho
+08:57 risposto tre perché oltre ai due leti
+09:04 eh ho risposto tre invece che cinque. Esatto. Esatto. Rimetto in condivisione
+09:12 lo schermo e recupero. No, c Sì, ce l'ho sott'occhio la la cosa
+09:19 il pentolo. Vengono inseriti elettroditrill soppress personali. Ah, sì, sì, sì. No, sta
+09:25 Sì, stavo cercando le slide della lezione precedente. Sì, sto sotto. Vuoi
+09:33 permett? Beh, beh, le posso prendere anche da qua. Un attimo solo. Secondo me non
+09:40 tiene conto dei due de filamento. Esatto, esatto. Eh, io la sapevo questo.
+09:45 Questo Eccola qua. Un attimo solo che tra bocchetto la la domanda. Sì. E ce ne
+09:50 sono parecchie ce ne possono essere parecchi nello stile di domande del ministero. Un attimo che ci si arriva.
+09:58 Volevo arrivare. Eccole qui l'ultimo. Le valvole. Ecco, e questo e questo è il
+10:05 pentodo. Allora, il pendento, se si contano tutti i i
+10:11 terminali che che che ha tutti i terminali esterni che ha, sono sette in
+10:16 tutto parto dal basso, ci sono i due terminali del filamento che sono questi
+10:23 qua, due. Ok? Poi andando a salire c'è il catodo, poi c'è la griglia di
+10:30 controllo e siamo a quattro. C'è la griglia schermo e stiamo a cinque. C'è la griglia soppressore e siamo a sei. E
+10:36 c'è l'anodo che è l'ultimo che siamo a sette. Quindi in tutto da un pentodo
+10:43 escono sette fili, diciamo, no? Dal bulbo di vetro della valvola escono sette terminali. Se da questi sette si
+10:49 toglie il filamento, ne restano cinque. Perfetto. Che sono i che sono i terminali veramente attivi, quindi il
+10:55 catodo, le tre griglie e l'anodo. Ok. Sì, sì. Ok, è un mero conteggio, ma non
+11:01 so, ero stanco forse. Ok, grazie. Ma eh diciamo che alcune domande del Ministero
+11:08 sembrano fatte apposta per vanno lette molto a mente fredda in effetti. E ma ce n'è un'altra così
+11:16 pure che domanda quanti sono gli elettrodi. Qui dice più i due, ma ce n'è
+11:21 un altro che dice quanti sono gli elettrodi del del pento. Dunque bisogna dire cinque.
+11:30 Eh se Sì, se se le ha risposte c'è cinque sono cinque. Sì.
+11:37 elettri della valvola per il ce n'è una secca che dice quanto sono
+11:43 gli elettrodi. Invece qui dice i due del fil due più i 5. Dunque il totale dovrebbero essere
+11:50 sette, però sono due domande, ma sempre con la risposta cinque. Eh sì, perché a
+11:56 volte a volte a volte una parte delle domande sono un pochino
+12:01 mh rese volutamente un po' strane, diciamo così. Bisogna ragionarci un po' sopra. Sempre
+12:08 vanno lette a mente fredde, bisogna ragionarci sopra. Marco, a
+12:14 te. Io ho due cose. Quelle domande su sui transistor del sulle
+12:22 impedenze estremamente elevata. Dimmi se il ragionamento è giusto. Io ci
+12:27 sono arrivato attraverso il il ragionamento di quella formula
+12:32 famosa. Può essere mh quale formula è? Eh, la stavo
+12:39 ricercando perché io le ho fatte e come al solito poi ci vai su alcuni discorsi
+12:44 ci vai in automatico. M Sì, sì. Mentre ci pensi, mentre ci pensi vi
+12:51 faccio vedere una cosa. Ecco, a parte questo, ecco, questo serve molto, ve lo
+12:58 posso almeno la parte è basilare.
+13:04 Esattamente, esattamente. Vedi emettitore comune. Emettitore comune.
+13:10 Impetenza d'entrata medio bassa. Sì, questo inganna, eh, medio bassa,
+13:15 perché nella risposta è media. Io ho segnato media, per esempio, però uno è tentato a volte a scrivere bassa,
+13:21 capito? Eh sì, cioè effettivamente passa, ma
+13:27 mediassa eccetera è un discorso molto qualitativo, non quantitativo e quindi diciamo effettivamente, diciamo, ci si
+13:34 può anche scivolare sopra. Eh, uno deve interpretare nel modo giusto la domanda, ok? Medio basta.
+13:41 Quindi sicuramente, diciamo, nel caso di di quella domanda, no, se si parla
+13:46 appunto di eh un emettitore comune, quindi vale questa colonna, l'impedenza
+13:54 dientrata, uno sa che non può essere alta e intanto ne scarta una. Eh, e
+13:60 quella è a priori, sì, eh, chiaro. E a questo punto quella che ti resta probabilmente è quella giusta, medio
+14:06 medio bassa, a secondo di come hanno quel questo benedetto ministero ha scritto le
+14:13 risposte. Ci sono altre domande? E e poi la la a parte quell'altro e poi
+14:19 ti se mi viene in mente poi te la dirò dopo, eh mi rispieghi la domanda F
+14:25 perché non l'ho proprio capito. La domanda F quella per non caricare eccessivamente lo stadio a monte. Sì,
+14:33 impedenza.
+14:40 L'impedenza di ingresso di un amplificatore sparito,
+14:46 crollato, ce lo siamo giocati subito.
+14:52 Mi sa che Paolo deve avere invertitamente chiuso qualcosa. Eh, un attimo di pazienza e di solito avviene
+14:59 verso le 10:30. Eh, infatti è un po' presto. È un po' presto,
+15:06 sinceramente. Eh, un attimo di pazienza, lo
+15:16 recuperiamo. Federico, eccomi di nuovo qua, scusatemi. Prego,
+15:21 prego. Paolo, la forza di aprire e chiudere maschere. Eh, infatti. Eh, sì, sì, sì. Ma allora immagina, eh, ci sono.
+15:31 Marco, mi senti? Sì, sì, ci sono. Allora, immaginati, per esempio, di avere di aver
+15:37 comprato sei sei in un laboratorio di registrazione, quindi lì ci sono
+15:42 microfoni sensibilissimi, belli lineari, no, che si usano per incidere i dischi, per
+15:48 incidere i DVD, eccetera eccetera. E quindi immagina di avere un microfono assolutamente eh perfetto, sensibile.
+15:56 Allora, i microfoni sappiamo che sono dispositivi che eh lavorano su segnali
+16:02 piuttosto generano segnali piuttosto bassi, no? ricevono le riceve la voce, la vibrazione dell'aria, eccetera e
+16:08 producono dei segnali dell'ordine dei millivolto. M eh allora se all'uscita di
+16:14 questo microfono io gli attacco un un circuito che ha una impedenza, una
+16:21 resistenza, diciamo, di ingresso di 100 ohm, quindi molto molto molto bassa e
+16:26 probabilmente questi 100 ohm eh rovinano il funzionamento del microfono, cioè lo
+16:32 portano a lavorare in una situazione che non è quella prevista da eh da dai
+16:38 progettisti del microfono. Se invece di 100 il mio il mio amplificatore, il mio,
+16:43 diciamo, preamplificatore microfonico che gli attacco ne avesse 1000, lo caricherebbe un po' meno. Se avesse 1
+16:51 Mhm il microfono non si accorgerebbe neanche che è uno stadio attaccato a
+16:57 valle, capito? Perché l'impedenza di ingresso dello stadio a valle, se fosse un 1 mega 1 milione di ohm, porterebbe a
+17:04 un consumo di corrente, a un assorbimento di corrente da parte del microfono bassissimo, estremamente basso
+17:10 e quindi il microfono lavorerebbe bello pulito, come se fosse solo, per intenderci. Ok?
+17:16 M e questa cosa può valere in molte praticamente in tutte le catene di amplificazione, cioè bisogna sempre
+17:23 cercare in modo se progetti una una serie di amplificatorini uno dietro
+17:28 l'altro e tu diciamo bisogna sempre cercare di fare in modo che lo stadio a
+17:33 valle non rovini il funzionamento progettato dello stadio a monte nei
+17:39 limiti del possibile. Questo è il criterio. Quindi sicuramente se hai un
+17:45 amplificatore con un'impedenza di ingresso alta puoi attaccargli uno stadio a
+17:51 monte essendo abbastanza sicuro che questo stadio a monte non viene disturbato, cioè che da questo sted a
+17:57 monte non viene assorbita una corrente troppo elevata. Ah, ho capito. Ok, ho capito. Quindi fa
+18:05 passare solo la corrente giusta, praticamente. Solo la corrente necessaria funzionamento. Esatto.
+18:13 Ed ecco spiegato perché ci si negli negli amplificatori o preamplificatori
+18:18 c'è tensioni molto basse, anche quelle di alta fedeltà si va a 250
+18:25 mV sugli ausiliari e compagnia bella, sulle prese BF, questa roba qua. che per
+18:30 esempio Esatto. M Quindi basse tensioni, ma alte impedenze. Esattamente. Esattamente.
+18:40 Allora, se non ci sono altre domande si parte con la chiacchierata di stasera.
+18:45 Rimetto in condivisione lo schermo un attimo e questa sera
+18:52 parliamo sostanzialmente di due cose, tre cose, ma gli argomenti veri e propri
+18:58 sono due. Stasera parliamo degli amplificatori, di conseguenza poi parliamo degli oscillatori che sono una
+19:06 variante, diciamo, degli amplificatori e poi parliamo delegbel, questa famosa unità di misura, no, di cui di tanto in
+19:13 tanto si è sentito parlare. Stasera vediamo cosa sono e come funzionano. Allora, gli
+19:19 amplificatori, dunque, perché intanto, scusate, perché si parla di amplificatori e oscillatori stasera? E
+19:26 allora nel programma dell'esame eh è chiesto sapere come funziona un trasmettitore, come funziona un
+19:32 ricevitore e però non è chiesto di conoscere il funzionamento specifico di
+19:39 una catena di trasmissione o di un ricevitore a livello di singolo componente elettronico. questa
+19:45 resistenza, questo transistor, questo induttore. Praticamente noi bisogna sapere per passare l'esame come funziona
+19:52 un trasmettitore, come funziona un ricevitore a livello di schema blocchi. A livello di schema blocchi. Quindi
+19:58 praticamente immaginiamo che un trasmettitore sia composto da un certo numero di di scatolette, per esempio un
+20:05 amplificatore, un oscillatore, un altro amplificatore, eccetera. E l'insieme di queste scatolette, come
+20:11 vedremo nella prossima lezione, costruisce il eh il mio trasmettitore.
+20:18 Quindi noi non abbiamo bisogno di conoscere il circuito interno di queste scatolette. è richiesto proprio nel
+20:24 programma del Ministero una conoscenza a livello di schema blocchi, però il singolo blocchetto si deve sapere che
+20:30 caratteristiche ha, cioè quando c'è un blocchetto con suscritto amplificatore bisogna sapere questo blocchetto cosa fa
+20:37 e come lo possiamo descrivere. E questo è appunto l'obiettivo di stasera. Stasera parliamo delle scatoline,
+20:43 blocchetti, delle scatole nere, potremmo anche chiamarle, che poi collegandole insieme faremo trasmettitori, ricevitori
+20:50 e quant'altro ci verrà voglia di fare. Allora, gli amplificatori, intanto
+20:56 il più semplice fra gli amplificatori è l'amplificatore di bassa frequenza, che è per l'appunto, diciamo, quello di cui
+21:02 si parlava prima con Marco, cioè sono quegli amplificatori che amplificano segnali di bassa frequenza. Che vuol
+21:09 dire bassa frequenza? tipicamente frequenze audio audiofrequenze e quindi sono segnali che di norma partono dai 20
+21:16 30 Hz e arrivano a 10.000 15.000 18.000 1000 Hz, quello che
+21:24 più o meno è il campo delle frequenze audio. Infatti gli amplificatori di
+21:29 bassa frequenza sono quelli usati ad esempio negli negli impianti IFI, no, che lavorano su queste su queste
+21:35 frequenze qua, cioè tutto ciò che è campo lo stesso accade nelle radio. Nelle in un ricevitore, per esempio, si
+21:42 trovano degli scatolotti che si chiamano amplificatori bassa frequenza. Negli ultimi stadi, quando si è ricevuto il
+21:49 segnale radio, lo si è amplificato e bisogna pilotare l'altoparlante. Oppure nei trasmettitori, in un trasmettitore
+21:56 eh in fonia, questi sono ad esempio i tipici amplificatori che si usano per amplificare il segnale che viene dal
+22:02 microfono in cui parliamo, che andrà poi a pilotare altri scatolotti che poi vedremo. Quindi gli
+22:09 amplificatori di bassa frequenza amplificano segnali a frequenza audio, non hanno bisogno, per funzionare di
+22:15 circuiti risonanti, quindi circuiti risonanti a condensatore, induttore.
+22:21 Ovviamente essendo un amplificatore contengono sempre degli elementi attivi che possono essere valvole, fette,
+22:26 transistor che più ne ha più ne metta, no? però c'è qualcosa che ovviamente amplifica e qui c'è schema tipico,
+22:34 schema tipico che non diciamo non c'è bisogno di sapere come funziona questo schema a livello di per l'esame, come vi
+22:39 dicevo prima, no? però è per far rivedere anche quello di cui si era parlato eh mercoledì scorso, tipico
+22:47 transistor, configurazione emettitore comune. La freccia esce, quindi il transistor è un napn, il segnale di
+22:54 entrata entra in base e il segnale di uscita esce dal dal collettore. Niente
+22:59 di nuovo. Poi ci sono gli amplificatori ad alta frequenza, quindi stesso discorso,
+23:05 amplificano i segnali a difrequenza che possono essere in un ricevitore quelli che arrivano dall'antenna.
+23:10 e che vengono amplificati anche da una serie di questi amplificatori, uno dopo l'altro, perché sono segnali che
+23:17 arrivano molto deboli dall'antenna. Allora, negli amplificatori ad alta frequenza molto spesso per renderli più
+23:23 funzionali, per avere un guadagno maggiore, vi sono spesso dei circuiti risonanti che rendono questi
+23:29 amplificatori selettivi. Qui in questa specie di schemotto vedete che c'è il
+23:34 solito terminale in ingresso. Vedete che qui subito c'è un circuito risonante che
+23:40 è questo qua, questa bobina e questo condensatore. Circuiti risonanti. Questo è un circuito risonante parallelo, è
+23:47 selettivo. Ricordate che si era fatto una lezione parlando anche della selettività, no? Il fattore di merito Q
+23:53 dei circuiti risonanti. Quindi il circuito risonante ha la capacità di discriminare le
+23:59 frequenze, cioè quelle della sua frequenza di risonanza le fa passare. Più più siamo lontani dalla frequenza di risonanza le
+24:05 attenua. Qui c'è un altro circuito risonante poi in uscita, questo con la parte C2 L2. L'effetto di questi
+24:14 circuiti risonanti è che l'amplificatore è selettivo. Quindi
+24:19 questa che vedete in questo disegno, tanto per avere una visualizzazione grafica che può che può aiutarvi a
+24:25 ricordare il concetto è la tipica curva di risposta di un amplificatore RF, cioè
+24:31 radiofrequenza. Vedete che il massimo guadagno sta
+24:37 quassù che corrisponde a una frequenza più o meno di 78 MHz, grosso modo.
+24:43 Quanto più ci si allontana da questa frequenza, tanto più per effetto di quei circuiti risonanti il guadagno del mio
+24:49 amplificatore scende. Mh. E questa è una caratteristica molto spesso voluta
+24:54 perché si vuole rendere il ricevitore selettivo, no? Come poi poi quando parleremo dei ricevitori vedremo questa
+24:60 cosa per bene, cioè noi bisogna in qualche modo nei primi stradali di ricevitore cercare di attenuare il più
+25:05 possibile i segnali che non vogliamo ricevere perché altrimenti poi ci creeranno problemi nella
+25:15 ricezione. E parlando di amplificatori, di un amplificatore è utile sapere
+25:20 quanto guadagna. Qui dice il concetto di fattore di amplificazione. Cos'è il fattore di amplificazione? È
+25:26 semplicemente un amplificatore quanto mi guadagna. Questo guadagno, questo fattore di amplificazione si può
+25:32 esprimere in due modi, in potenza o in tensione. Eh, quindi in se lo esprimo in
+25:41 potenza, il mio fattore di amplificazione è il rapporto fra potenza d'uscita e potenza di ingresso. Per
+25:47 esempio, se ho un amplificatore che con 1 W di ingresso mi produce mi genera 15
+25:54 W di uscita, avrò un'amplificazione di 15. il rapporto fra la potenza di uscita
+25:60 che è 15 e la potenza di ingresso che è 1. Eh, altre
+26:05 volte mi è più comodo usare il fattore di amplificazione in tensione, quindi
+26:13 l'amplificazione è il rapporto se se uso questo questo parametro invece
+26:19 dell'amplificazione in potenza è il rapporto fra la tensione d'uscita e la tensione di ingresso. Se mi escono,
+26:24 diciamo, 300 mV e me ne entrano 30 mV, il mio amplificatore in tensione
+26:32 guadagna 10. I termini che sto usando e fattore di amplificazione e
+26:38 guadagno sono sinonimi. I fattori di amplificazione molto spesso, come vedete qua, è
+26:44 chiamato guadagno. Vi vi dico e vi sottolineo questa cosa proprio perché molto spesso nelle domande del Ministero
+26:50 a volte è chiamato in un modo, a volte è chiamato in un altro, no? Quindi un po' di gergo bisogna è utile averlo
+26:56 nell'orecchio. Quindi a volte si parla quanto guadagna questo amplificatore e
+27:01 questo è il modo normale, no, di dirlo in maniera un po' più pulita, quasi universitaria. Fatemi dire un po' in
+27:06 battuta e la ehm la il mio amplificatore non ha un
+27:12 guadagno, ma un fattore di amplificazione se uno vuol parlare proprio pulito. Allora, sto guadagno si
+27:17 esprime in decibel e cosa sono i decibel lo vedremo fra una mezz'oretta, diciamo, quando avremo parlato prima de degli
+27:24 amplificatori. E poi l'altra l'altro parametro che è molto importante negli amplificatori, soprattutto quelli di
+27:31 potenza, è il rendimento. M il
+27:36 rendimento è è diciamo è un parametro che che hanno tutte le macchine, cioè non c'è nessuna macchina, nessun
+27:43 disposico, meccanico e così via che in uscita riporti fuori la potenza che si
+27:52 usa per alimentare quella macchina. Cioè tutte le macchine elettriche, ma non solo, hanno un rendimento inferiore a
+27:57 uno. Allora, in un amplificatore cos'è il rendimento? è il rapporto percentuale fra la potenza di uscita e la potenza di
+28:04 alimentazione. Quindi immaginiamo che io ho un bell'amplificatore per la banda cittadina che eh è in grado di tirarmi
+28:11 fuori un'uscita di 300 di 100 W, ad esempio. Mh, se vado a vedere questo
+28:16 amplificatore quanto mi consuma dalla rete Enel, io magari vedo che dalla rete Enel assorbe 200 W. Allora, che
+28:23 rendimento ha il mio amplificatore? La formula è questa che vedete qua. Il
+28:29 rendimento è è espresso, se si scrive in lettere con con questa lettera un po'
+28:34 strana che è una lettera greca che si chiama ETA. ETA, una specie di N con una gamba allungata.
+28:42 Comunque, diciamo, in generale si chiama rendimento. Il rendimento è il rapporto fra la potenza d'uscita diviso la
+28:48 potenza che l'amplificatore assorbe dall'alimentazione. Quindi nell'esempio che facevo prima per la banda cittadina,
+28:55 se il mio amplificatore tira fuori 100 W, 100 e ho una potenza di alimentazione
+29:01 di 200 W, 100 / 200, quanto sarà il mio rendimento espresso in percentuale? Chi
+29:08 mi risponde? 50%.
+29:14 Bravissimo. 50% esattamente 100 / 200 che viene 0,5 che va espresso in
+29:21 percentuale di solito che è il 50%. Qui con numeri diversi avete un un esempio
+29:28 della stessa formula. Un amplificatore che consuma 100 W fornisce 40 un rendimento del 40. 40 / 100 04 espresso
+29:36 in percentuale 40%. Quindi, in pratica, di un amplificatore a me interessa sapere due
+29:43 numeri. Quanto guadagna, ad esempio, mi guadagna 15 volte in potenza e quanto
+29:50 rende? Mh. Quindi il rendimento rendimento è il rapporto fra la tensione di fra la
+29:56 potenza d'uscita e la potenza d'alimentazione e invece il guadagno in
+30:01 potenza, ad esempio, è il rapporto fra potenza di uscita e potenza di ingresso. Mh, scusate, tutto chiaro per
+30:08 ora? C'è qualche mano alzata?
+30:14 Per adesso no, Paolo, se non ci sono domande allora proseguo. E questi che abbiamo detto
+30:21 adesso, diciamo, sono i concetti di base degli amplificatori, no? Un amplificatore può essere in bassa o in
+30:27 alta frequenza, quindi non usare o usare circuiti risonanti, è caratterizzato da
+30:33 quanto amplifica, cioè dal suo guadagno ed è ed è caratterizzato dal rendimento.
+30:38 Del rendimento mi interessa solamente quando ho amplificatori di potenza, cioè immaginate un ricevitore, in un ricevitore c'è tutta una catena di
+30:46 transistor o comunque di dispositivi stile effetti eccetera che amplificano il segnale che viene ricevuto
+30:52 dall'antenna, no? E questi questi un ricevitore lavora su segnali deboli e
+30:59 quindi gli amplificatori lavorano usano potenze dell'ordine dei millwatt. Allora, per amplificatori di quel genere
+31:05 il rendimento mi ci può importare abbastanza poco. Invece quando se hanno amplificatori di potenza, quindi gli amplificatori che
+31:12 devono dare 100, 200, 500 W in antenna, è bene che il rendimento sia molto
+31:17 elevato, anche perché una cosa che non ho detto, dove dove se ne va la potenza
+31:22 di alimentazione che non si traduce in potenza d'uscita se ne va in calore. In
+31:28 questo esempio che vedete qua sotto, un amplificatore consuma 100 W e ne fornisce
+31:34 40. E gli altri 60, scusate, ne fornisce 40 che è scritto qua. Gli altri 60 che
+31:41 non vanno in antenna dove vanno? Vanno a finire in calore. Quindi gli amplificatori che rendono poco sono
+31:46 delle stufette per cui ci vogliono ventole eccetera eccetera.
+31:52 Allora, andiamo avanti. Eh, un amplificatore può
+31:57 lavorare in tre modi diversi, cioè ci sono tre classi di
+32:04 amplificazione e sono chiamate, come vedete qui, classe A, classe B, classe C. E adesso le vediamo nel dettaglio una
+32:11 per una. Che differenza c'è fra queste tre classi? Nella classe A, nel dispositivo, diciamo
+32:18 che sia un amplificatore a transistor. Nel transistor la corrente scorre nel
+32:23 transistor per tutto il ciclo del segnale di ingresso, ovvero immaginiamo che il segnale di ingresso sia una
+32:29 sinusoide, quindi una sinusoide, un ciclo completo di sinusoide. Avevamo visto, ormai sapete, vi ricordate che
+32:36 corrisponde a 360°. Un amplificatore in classe A nel dispositivo scorre corrente per tutto il
+32:42 ciclo del segnale di ingresso. Il un amplificatore in classe B scorre corrente solo per metà del ciclo, quindi
+32:50 solo per 180° del segnale di ingresso. Un in un amplificatore in classe C
+32:56 scorre corrente per meno per meno di 180° del segnale di ingresso. E uno dice
+33:02 "Ma a che serve tutto ciò e come funziona? Adesso, adesso lo vediamo, diciamo, classe per classe.
+33:09 Allora, intanto, prima di vedere questo discorso degli amplificatori in classe
+33:14 A, classe B e classe C, eh vi vi rinfresco la memoria su una cosa che
+33:20 abbiamo accennato eh mercoledì scorso.
+33:25 La questo grafico che vedete in questa in questa diapositiva, in questa slide,
+33:32 è la curva di funzionamento di un di un dispositivo, di un amplificatore. In
+33:37 particolare questa è la curva di funzionamento di una valvola. Ho usato, ho scelto di mettere qui la curva di
+33:43 funzionamento di una valvola perché è quella dove si vede meglio il discorso che adesso dobbiamo fare. La stessa cosa
+33:50 pari pari vale per i transistor, vale per i fet, vale per i MOSFET, però hanno delle curve un po' più complicate,
+33:55 diciamo così. Invece con la valvola si vede molto bene. Allora, questa valvola, questa curva di funzionamento cosa vuol
+34:01 dire? Allora, vedete che ci sono due assi, no? c'è l'asse orizzontale ascisse e l'asse verticale ordinate. Allora,
+34:08 sull'asse orizzontale c'è la tensione che mi regola lo quanta corrente scorre
+34:15 nella valvola. C'è la tensione di griglia in generale. Questa qui c'è la tensione, diciamo, di controllo, la
+34:21 tensione in ingresso, il segnale che io voglio amplificare, oppure, se preferite, la
+34:28 polarizzazione della valvola. Quindi c'è la che può essere quindi la tensione di
+34:33 griglia o se fosse un transistor qui ci sarebbe la tensione di base. Sull'asse verticale invece c'è la
+34:41 corrente che scorre nel mio dispositivo, la corrente. Quindi qui c'è la corrente di collettore o la corrente di placca.
+34:48 Allora, cosa succede in tutti i dispositivi? Succede che mi metto qua sotto. Succede che se la tensione di
+34:57 polarizzazione di griglia o di base del mio dispositivo è molto bassa, sono qua
+35:03 sotto. Nel mio dispositivo non scorre corrente, non scorre corrente. Allora,
+35:09 quando in un dispositivo non scorre corrente, si dice che quel dispositivo è interdetto. Interdetto.
+35:16 Mh. Vi riporto un attimo alla prima slide che vi ho fatto vedere. Qui c'è appunto uno schema in cui c'è un
+35:22 transistor. Questo transistor ha delle resistenze di polarizzazione qui attorno. Allora, questo transistor sarà
+35:30 interdetto quando la tensione in base è così bassa da essere inferiore a
+35:36 0,7 V e quindi quando il valore di questa resistenza R2 ad esempio è molto
+35:42 basso. Quindi il punto di lavoro del dispositivo dipende dai componenti che
+35:48 ci sono attaccati. D'accordo? Se i componenti che si sono attaccati fanno in modo di dare al terminale di
+35:54 controllo, quindi la base nel caso del transistor, una tensione molto bassa, non scorre corrente nel mio transistor e
+36:01 quindi lui è interditto. A un certo punto io comincio ad aumentare la tensione di base e
+36:07 quindi succede che si si scorre pian pianino in questo tratto della curva.
+36:13 Vedete che a la a mano a mano che io aumento la tensione della mia base del
+36:19 nel transistor o nella valvola scorre sempre più corrente come sta accadendo qui in questo tratto iniziale della
+36:26 curva. Però vedete che come succede praticamente in tutti i dispositivi, in questo tratto di salita,
+36:33 vedete che questa curva non è una linea retta, è una è curva, potrebbe essere un
+36:39 tratto di una parabola perché si ricorda queste cose, diciamo, dal da dalla matematica, però non è lineare. Però si
+36:47 arriva a un certo punto, se io continuo ad aumentare la tensione di ingresso, si
+36:53 arriva a un certo punto e in questa curva si comincia da qua, in cui il funzionamento del dispositivo è lineare,
+36:60 lo vedete scritto qua in alto a sinistra, no? zona di funzionamento lineare e aumentando aumentando,
+37:05 aumentando io posso aumentare la mia tensione di pilotaggio del del dispositivo restando per un tratto
+37:13 abbastanza lungo in una zona di funzionamento lineare finché non si arriva a un punto in cui il dispositivo
+37:19 ha ci ha dato tutta la corrente che poteva dare. Non non ne può più. Poi alla fine qui la corrente smette di
+37:25 crescere, si appiattisce. Quando si appiattisce si dice che il dispositivo è in saturazione, come
+37:32 leggete qua è in saturazione, cioè più di quello non può dare e diciamo gli ho tirato il collo al massimo. Quindi
+37:38 diciamo in ogni curva di funzionamento, in ogni funzionamento di di ogni
+37:44 dispositivo, amplificatore, ripeto, transistor, fet, valvola, c'è una zona di interdizione in cui il transistor in
+37:51 cui il dispositivo non conduce. c'è una zona non lineare, c'è una zona lineare che è questa qua che vedete indicata in
+37:59 questa con questa freccione zona di funzionamento lineare. Poi a un certo punto la corrente è così alta che il
+38:05 dispositivo si satura più di quello non può dare. Allora, vediamo alla luce di queste cose che abbiamo detto
+38:11 l'amplificatore in classe A. L'amplificatore in classe Asi diceva che la corrente del dispositivo scorre per
+38:19 tutto il ciclo del segnale diingresso, cioè 360° elettrici. Vediamo cosa vuol
+38:25 dire. Questo è la modalità di funzionamento di un amplificatore in classe A. Allora, guardiamo il segnale
+38:31 di ingresso che sta qua sotto. Il segnale di ingresso, il suo
+38:36 valore, diciamo, di riferimento è questo qui, dove ho messo questa questa tac
+38:44 rossa. Questo è il valore di polarizzazione fissa senza segnali utile
+38:49 da amplificare. Poi rispetto a questo valore vedete che posso sovrapporre una
+38:54 sinusoide che può essere il segnale che mi arriva dal dalla mia antenna o dal mio microfono. A fronte di questo punto
+39:01 di riferimento, a fronte di questa polarizzazione, il mio dispositivo lavora qui in questo punto della sua
+39:09 curva caratteristica. Da qui non ho fatto altro molto semplicemente che salire, no, da questo punto. Sono salito
+39:17 in verticale fino la mia curva caratteristica. Se da qui vado in
+39:22 orizzontale, mi trovo qui che è il valore della mia tensione
+39:28 di uscita. Allora, vedete che se il segnale in
+39:34 ingresso, se il punto di lavoro in ingresso si sposta seguendo questa
+39:39 sinusoide, quindi dai, direi dai 5 V che posso che si può immaginare qua in
+39:46 questo punto 5, la tensione sale fino a 2 e scende fino a
+39:54 7. A a fronte di questi spostamenti, chiaramente, il mio punto di lavoro si
+39:60 sposta. Quando il segnale in ingresso è qui, il mio punto di lavoro in quel
+40:05 momento è qua, però vedete che questo spostamento avviene in questo tratto della curva, cioè non si va mai al di
+40:13 sotto di questo punto e al di sopra di questo punto, quindi si lavora sempre nel tratto lineare lineare. Ciò
+40:19 significa che il segnale di uscita è una replica assolutamente fedele del segnale
+40:25 di ingresso, perché il mio punto di lavoro si sposta da quassù a quaggiù, però siccome il punto di lavoro si
+40:32 sposta in una zona lineare della curva di funzionamento, il segnale di uscita è
+40:38 esattamente proporzionale al segnale di ingresso, sia nei picchi che nelle
+40:43 valli, quindi è una riproduzione assolutamente fedele, come si poteva leggere qui, cioè
+40:50 negli amplificatori in classe A la corrente scorre per tutto il ciclo del segnale d'ingresso, quindi tutti e 360°
+40:59 della sinusoide. L'amplificazione è molto lineare, molto lineare. Questi
+41:04 sono i tipi di amplificatori che sono usati in tutte le catene, ad esempio, di alta fedeltà, dove deve esserci fedeltà
+41:11 assoluta nella riproduzione, no? tranne che nell lista di finali, poi vedremo. E sono tipi di amplificatori che sono
+41:17 usati in tutte le catene di ricezione dei ricevitori perché il segnale va amplificato linearmente e questo è il
+41:24 grande pregio di questi amplificatori. Il grande difetto è che il rendimento è basso, il rendimento è del 5, 10, 15, al
+41:31 massimo del 20%. Però siccome questi sono amplificatori che si usano per bassi segnali, il problema del
+41:37 rendimento basso non è un problema, non è non esiste, non è un problema. Adesso,
+41:42 fra un momento, smetto di parlare e mi mi dite se mi avete seguito, però prima
+41:47 vi faccio vedere un altro tipo di amplificatore, così vi rendete conto della differenza che c'è fra una
+41:53 modalità di funzionamento lineare, che è quella che abbiamo visto qui, e una modalità di funzionamento non lineare,
+41:59 che è quella della classe B. Negli amplificatori in classe B la corrente scorre per metà del segnale del ciclo
+42:05 del segnale di ingresso, quindi per 180° elettrici, non per 360.
+42:10 Di conseguenza l'amplificazione è distorta. In pratica che succede? Succede che questo schema è simile a
+42:17 quello precedente, non è uguale perché purtroppo non l'ho trovato, ma più o meno è molto simile. Vedete che il punto
+42:24 di lavoro sta qui. Vedete che la zona lineare è questa. Diciamo la zona lineare comincia
+42:32 qua. Vedete che questa curva è bella lineare fin quassù.
+42:38 Quassù in alto la curva comincia a piattirsi, cioè qui vuol dire che il dispositivo non ha più possibilità e sta
+42:43 andando in saturazione e quaggiù in basso sta andando a interdirsi, cioè a
+42:49 spengersi proprio. Però anche lui ha la sua bella zona di funzionamento lineare, no? Che è questa fra questi due tacchi
+42:56 rossi che ho messo. Però la polarizzazione della valvola o del transistor è tale che il punto di
+43:03 polarizzazione sta quaggiù. Quindi sta in un punto non lineare della
+43:10 curva. Questo fa sì che le semionde negative del segnale di
+43:16 ingresso, cioè queste qua, portano la polarizzazione della
+43:22 valvola fin qui al di sotto del suo punto di interdizione in tutta questa
+43:28 zona qui e quindi le semionde negative non non possono assolutamente essere
+43:34 amplificate perché il mio transistor in questo caso è interdetto. Queste parti qui vengono
+43:41 amplificate parzialmente, però l'amplificazione è non lineare. In compenso, la parte questa dei picchi
+43:49 positivi della mia sinusoide, dove il punto di lavoro a questo punto entra
+43:54 nella zona lineare, vengono amplificate linearmente. Comunque vedete che il segnale di uscita eh viene a avere questa forma qua
+44:02 che non somiglia neanche per un po' alla sinusoide del segnale di ingresso. E vedete questa cosa contrapposta a quello
+44:08 che avevamo prima. Qui il punto di lavoro si spostava in questo tratto di funzionamento lineare,
+44:14 quindi, come vi dicevo, il segnale di uscita, eccolo qua, è una replica
+44:20 fedele, perfetta del segnale di ingresso. Qui invece il segnale di uscita ha una forma assolutamente
+44:26 distorta, quindi questi amplificatori hanno come grande svantaggio il fatto che il segnale di
+44:33 uscita è distorto. Mh, però come hanno hanno come grande vantaggio il fatto che
+44:39 hanno un rendimento molto elevato, quindi attorno al 60%.
+44:45 A questo punto uno dice, e quindi vi sparo un'ultima slide e poi mi fermo per farvi riposare anche un po' le diciamo
+44:53 le le meningi, diciamo. Uno si domanda, ma che me ne faccio di un amplificatore così che praticamente mi amplifica
+45:00 solamente mezza sinusoide, però il rendimento è molto elevato. ci faccio i
+45:05 cosiddetti amplificatori che sono chiamati in push pool, che è una configurazione molto usata nell'alta
+45:12 fedeltà, ma anche in campo radio. Cioè un amplificatore push pool, come vedete
+45:20 qua, è composto non da un dispositivo, ma da due, quindi ci saranno due
+45:25 transistor, due MOSFET, due valvole. Ogni dispositivo lavora in classe
+45:31 B e amplifica solo metà del ciclo del
+45:36 segnale. L'altro dispositivo amplifica l'altra metà e l'amplificatore combina
+45:42 queste due amplificazioni. Questa cosa la si vede qui in questo schema un po' qualitativo. Vedete che qui ci sono due
+45:48 dispositivi, due transistor che sono uguali, ma vedete nello schema sono voltati uno a capo uno a capo all'ingiù
+45:54 rispetto all'altro, no? del segnale in ingresso. Eh, questo trasformatore,
+46:01 questo circuito che le mette ai dispositivi, fa sì che questo transistor sia pilotato dalle semionde positive del
+46:08 segnale di ingresso e questo sia pilotato dalle semionde negative del segnale di
+46:13 ingresso. Quindi ciascuno di questi due transistor amplifica metà del
+46:18 segnale. Quindi qui in uscita troveremo metà del segnale di ingresso bella
+46:24 amplificata. Lo stesso. Da quest'altro transistor troveremo l'altra metà del segnale amplificato. Questa specie di
+46:32 trasformatore in uscita ricombina queste due metà e quindi qui ricostruisce la
+46:38 sinusoide piena completa, perfetta. Quindi in questo caso, priva di
+46:43 distorsione. di distorsione. Quindi si sfrutta il fatto che eh che questi amplificatori
+46:52 hanno un rendimento molto alto, 60%, per questo ci piace usarli negli amplificatori di potenza e si risolve il
+47:00 problema che il singolo dispositivo avrebbe un'uscita molto distorta, come
+47:05 si vede qui, facendo lavorare due dispositivi e prendendo da ciascuno di questi due dispositivi la metà buona del
+47:13 segnale, cioè la metà che viene amplificata, che per esempio se uno dei due dispositivi è questo, la metà buona
+47:19 è questa qua. L'altra metà, quella che starebbe qua di sotto, viene presa dall'altro
+47:26 dispositivo. E questi sono gli amplificatori in push pool. Push pool che letteralmente vuol dire tira e
+47:32 spingi in inglese, no? Push è spingere, pull è tirare. Danno proprio l'idea di questi due transistor, no? che uno tira
+47:39 di su e uno tira di giù, diciamo, uno tira e uno spinge, o almeno i progettisti di l'inventore di queste
+47:45 cose se l'è se l'è immaginata così. Allora, interrompo la condivisione intanto per vedere se se ci sono
+47:52 domande. Luigi, a te. Sì, quindi però non capisco allora quale
+47:59 aspetto negativo ha il l'amplificatore in classe B nel momento in cui eh il
+48:05 segnale poi in uscita ha una caratteristica eh uguale, cioè non c'ha
+48:11 perdita di qualità da quello che ho capito rispetto a quello in classica. Hai capito bene, diciamo che l'aspetto
+48:18 negativo è in un amplificatore in classe B che usa un solo dispositivo, perché a
+48:24 quel punto potresti a quel punto potresti avere una riproduzione fedele. Quindi l'aspetto negativo è che c'è una
+48:31 una complicazione circuitale un po' più grande, no? Cioè servono due
+48:36 transistione maggiore, una una resistenza maggiore, quindi un
+48:41 una ci vogliono più componenti, semplicemente ci vogliono più pezzi, diciamola così, e quindi è un po' più
+48:46 costoso. Ci vogliono due componenti e bisogna accoppiarli bene perché l'amplificazione dei due transistor deve
+48:54 essere simile, altrimenti il segnale tornerebbe a essere distorto. però si può fare, tant'è che molti amplificatori
+49:00 e anche radiofrequenza, cioè se se si prendono i tipici amplificatori, cioè per quelli di voi
+49:07 che hanno conoscenza della banda cittadina, no? I tipici amplificatori da 100-200 W alimentati a 12-24 V
+49:15 amplificatori dell'RM o diciamo tipicamente hanno un circuito di questo
+49:20 genere, hanno due dispositivi che funzionano in pushpol. Molti di loro hanno questa cosa qua, hanno questi
+49:26 Mettendone due, eh si ottiene il vantaggio dell'alta dell'alto rendimento
+49:32 e si riduce il problema della della distorsione. Si riduce, ma non si è
+49:37 sempre più fedele in classe A. sempre più fedele in classe A, perché se
+49:43 si parla anche ad esempio dell'alta fedeltà
+49:49 e allora la scusa un attimo, rimetto in condivisione lo
+49:54 schermo. Allora, il problema il problema di questi amplificatori appunto è che
+49:60 cerco di disegnare una sinusoide fatta bene. Scusatemi per gli scarabocchi e mi
+50:05 ora col pause mi vengono, ma mi viene molto male. Allora, allora il problema di di questi amplificatori è nel punto
+50:13 dove si devono ricongiungere la sinusoide amplificata da da dal transistor 1 e la sinusoide
+50:20 amplificata da dal transistor 2 perché lì c'è, se vogliamo, un passaggio di
+50:25 mano, d'accordo? Qui c'è, diciamo, il punto in cui insomma del Sì. E e in
+50:34 questo punto è quasi impossibile che il raccordo sia perfetto. Quindi in quel punto lì e c'è
+50:42 sempre una generazione di distorsione. Questa, per esempio, nell'alta fedeltà è
+50:48 chiamata la distorsione di crossover, cioè quando da un transistor all'alto,
+50:54 no, il raccordo è praticamente impossibile che sia assolutamente preciso, come invece
+51:00 un amplificatore in classe A. un amplificatore in classe A è un dispositivo solo, non ci sono
+51:06 assolutamente problemi di eh creare appunto raccordi con con altri
+51:12 dispositivi. Quindi l'amplificatore in classe A è quello eh proprio intrinsecamente assolutamente più fedele
+51:19 di tutti. Ok? Quindi in sostanza eh nell'alta
+51:24 fedeltà è significativa la differenza di qualità, ma da radio
+51:30 m ce ne frega il giusto. Parole povere. Sì, ce ne ce ne frega il giusto. Ce ne
+51:35 frega il giusto, esattamente. Ma poi comunque in alta fedeltà ci sono tutta una serie di accorgimenti che fanno sì
+51:42 che questa distorsione poi di di crossover sia resa minima, tant'è che gli amplificatori alta fedeltà suonano
+51:47 bene, no? cioè vengono fatti suonare bene pur avendo configurazioni di tipo
+51:52 push pool o derivati della della push pool, però diciamo ci vuole una componentistica un po' più elevata e dal
+51:59 punto di vista nostro di dover trasmettere un segnale e quello lì non è
+52:04 un grande problema
+52:10 assolutamente. Allora, c'è un'altra domanda. Vedo TSP Stefano, te?
+52:16 Sì, volevo chiedere, ma questo qua è in classe Bushpol?
+52:21 Questo qua in classe in classe B, no? Sì, in push pool è come la classe AB?
+52:29 No, la classe AB è ancora un'altra cosa, eh. Ah, è diverso. Ti ti rispondo fra un
+52:35 attimo, ti rispondo nelle prossime due slide. Ok, grazie. Lasciala lascialo un
+52:40 attimo in sospeso. Se non ci sono domande vado avanti, altre due tre slide e finisco l'argomento. Ci sarebbe
+52:46 Giovanni Paolo se vuoi rispondere. Giovanni, vai. E l'amplificatore poch lavora in classe
+52:53 C, se non sbaglio. No, può anche lavorare. Io ho trovato una domanda che mi domanda in chi la in quale trancia
+53:00 lavora e metto C e me la dà positiva. Eh, allora dice che lavoro in classe C.
+53:07 No, di solito gli amplificatori in pushpool lavorano in classe B. Non sempre le risposte di quiz sono perfette. Ah,
+53:15 purtroppo. Ok. Allora, comunque grazie per averci già
+53:21 lanciato sulla classe C. Allora, gli amplificatori in classe C, avete capito ormai come funziona il meccanismo. Un
+53:29 amplificatore in classe C, prefendo il pennarello, la corrente
+53:34 scorre ancora meno di dei 180° che scorre nella classe B.
+53:41 Quindi l'angolo di conduzione, come si dice, si stringe ancora fino a 70-80° e
+53:47 roba del genere, quindi l'amplificazione è molto distorta, ma ma veramente molto.
+53:52 Poi vedremo il il solito grafico, però hanno un
+53:58 grande vantaggio che più eh più chiudi l'angolo di circolazione e più ti
+54:04 aumenta il rendimento dell'amplificatore. Quindi un amplificatore in classe C può rendere il 70-75% che è
+54:11 ottimo. E quindi questi amplificatori normalmente vengono usati quando eh
+54:17 amplifichi i segnali dove la linearità dell'amplificazione, la linearità in
+54:23 ampiezza dell'amplificazione non è un problema. Per esempio, un segnale in FM, quando tu
+54:29 trasmetti in FM, mettiamo che è una radio da 10 W, tu premi il microfono, la
+54:34 radio ti genera 10 W di uscita e se tu parli, come si era visto nella serata
+54:40 quando abbiamo parlato dei modi di emissione, tu sposti la frequenza della portante, ma la potenza è sempre 10 W e
+54:47 quindi non c'è bisogno di linearità dell'amplificazione. Allora, cosa succede in un amplificatore in classe C?
+54:54 Succede che, appunto, il punto di lavoro questa volta è qua e quindi è nella zona
+55:01 di interdizione. Quindi quando non c'è segnale di ingresso, quando il segnale di ingresso è zero, l'amplificatore in
+55:07 classe C non assorbe corrente perché è interdetto. E anche qui vedete che per tutta la parte di, diciamo, sinosoide
+55:14 negativa, questa del segnale in ingresso, si si resta, anzi si va ancor di più nella zone di interdizione e non
+55:21 scorre corrente e addirittura per una parte questa qui
+55:26 dell'altra semionda, diciamo, della semionda positiva del segnale di ingresso si resta in zona di
+55:33 interdizione solamente nei picchi, questi che qui vedete tratteggiati con questi
+55:38 puntini neri. eh scorre corrente nel dispositivo che
+55:43 allora amplifica e vedete che il segnale eh somiglia in effetti a una serie di
+55:50 picchi, come si vede, si intuisce anche già da qua, no? Cioè, praticamente la diciamo nel dispositivo nostro la
+55:56 corrente scorre a intervalli. Ci sono alcune zone in cui
+56:01 non scorre per niente e quindi se solamente i picchi
+56:07 del segnale di ingresso portano il dispositivo in conduzione, solamente
+56:12 quelli vengono amplificati. Quindi per forza di cose il segnale di uscita è fatto a picchi pure lui. Ed eccolo qua.
+56:19 Quindi il punto di lavoro è oltre il punto di interdizione. Però se io sto trasmettendo in un modo in cui per
+56:25 esempio in FM non ho bisogno di fedeltà di nell'ampiezza delle mie
+56:32 riproduzione, questo tipo di amplificatori va benissimo perché nel nello schema blocchi del mio
+56:38 trasmettitore, subito dopo questo il dispositivo che lavora in classe C, ci
+56:43 viene messo un ricco circuito risonante, quindi immaginiamo che
+56:49 proprio circuito risonante classico bobina e
+56:55 condensatore e per le loro proprietà se un circuito risonante riceve in qualche
+57:01 modo in ingresso un segnale così anche a picchi, però entra comunque in risonanza e sembra incredibile ma rigenera in
+57:08 uscita una sinusoide piena. Quindi la sinusoide piena che poi va andrà
+57:14 all'antenna viene rigenerata dal circuito risonante. si perde del tutto
+57:19 il legame fra l'ampiezza del segnale in ingresso e l'ampiezza del segnale in
+57:24 uscita. Quindi questo tipo di amplificatore non può trasmettere una modulazione di ampiezza, non può
+57:30 trasmettere una modulazione in SSB dove l'informazione viene data proprio dall'ampiezza del segnale. Ma se io
+57:37 lavoro in telegrafia, ad esempio, dove il segnale è on off, tasto premuto, tasto rilasciato, o se io lavoro in FM,
+57:44 come vedete scritto qua, dove la potenza di uscita del mio trasmettitore è
+57:50 costante nell' FM, l'informazione viene trasmessa spostando la frequenza, quindi
+57:55 con la deviazione di frequenza, non con l'ampiezza. Eh, un amplificatore in FM mi può andare
+58:01 benissimo, anzi e e mi mi andrà molto bene, ad esempio, se io uso un
+58:06 portatile, un portatilino stile Baufeng, no? o questi eh o anche di altre marche
+58:13 che che servono che oppure i PMR in in radio piccoli di quel genere che
+58:21 trasmettere un FM. La classe C è un tocca sana perché consuma pochissimo la
+58:26 batteria avendo un rendimento molto elevato. Se io dovessi amplificare in quelle radio il mio segnale usando una
+58:33 classe A, avrei un rendimento così basso che in pochissimo tempo la batteria si si scaricherebbe, no?
+58:39 Ovviamente e queste e c'è, diciamo, quindi ci sono tre
+58:45 classi di amplificazione A, B e C e le abbiamo viste, no? Quindi A molto fedele, la B fedele, ma tutto sommato
+58:53 ricostruisco la sinusoide col push pool e poi c'è la classe Cata di solito
+58:59 appunto solo per FM CW. C'è un'ulteriore tipologia, diciamo così, di
+59:05 amplific di amplificatori che sono quelli in classe B, come stava dicendo prima chi era Luca, vi
+59:11 pare. E allora, classe, diciamo, un amplificatore in classe AB è
+59:17 semplicemente regolato bene il punto di lavoro del transistor per avere un angolo di
+59:23 circolazione che non è i 180° della classe pura B, ma è in qualche modo un
+59:30 po' di più. Non saranno 180, potrebbero essere 220 240. Allora, in sostanza in
+59:36 un amplificatore, in classe AB si cerca semplicemente un
+59:41 compromesso e facendo in modo di mettendo il punto di lavoro, torno su
+59:47 una delle curve che possono essere adatte, mettendo il punto di lavoro eh
+59:54 non qui dovevamo nello schema nell'esempio in classe B, ma un po' più in
+60:01 su in modo da cercare un compromesso. fra un buon rendimento del tipo 50 55
+60:08 60% e un'amplificazione tutto sommato abbastanza fedele. E questi sono la la classe AB,
+60:17 il funzionamento in classe AB era il tipico era la tipica classe di funzionamento degli amplificatori finali
+60:23 dei trasmettitori a valvole che tutti di fatto tutti amplificatori lineari
+60:29 compresi tendenzialmente lavorano in classe AB.
+60:36 E in questa tabella mh avete un po' il riassunto di
+60:42 quello che si è detto. Quindi classe A la corrente circola per l'intero periodo. Classe
+60:47 AB non un intero periodo, ma sicuramente più di mezzo. Classe C, la corrente circola per
+60:56 metà del periodo. Classe C, classe B, scusate, classe C, la corrente circola per
+61:02 meno. Classe A, riproduzione molto fedele. Classe AB mh eh insomma
+61:11 abbastanza fedele, rendimento simile alla classe B. Mh, classe B si può tenere in
+61:18 riproduzione lineare solo col pushpol che a volte viene chiamato anche controfase in italiano e la classe C usata in
+61:25 amplificatori per alta frequenza con carico risonante dove non serve una buona fedeltà di riproduzione in
+61:34 ampiezza. E questo è tutto sugli sugli amplificatori, quindi classe A, classe
+61:39 B, classe C. Allora, un po' di domande. Prima Marco e poi Marcello. Tolgo la
+61:44 condivisione così ci vediamo. Marco, a te. Una curiosità, perché soprattutto
+61:51 nell'alta fedeltà decantano le classi a
+61:57 B, quando in verità per l'alta fedeltà dovrebbe usare un classe A per avere una
+62:03 buona un buon impianto. da noi amatori si eh si preferisce un
+62:10 classe A anche se e con le ventole grosse così però si preferisce in classe
+62:15 A. Ma diciamo e allora in alta fedeltà, l'amplificatore alta fedeltà tipico è in
+62:21 classe A. Se se pensi per esempio ci sono degli amplific Allora, il problema
+62:27 dell'amplificatore classe A è che avendo un rendimento molto basso scalda scalda molto, no? Diventa una stufetta, come
+62:33 dicevo prima. Però, per esempio, ci sono degli splendidi amplificatori in classe A per
+62:39 cuffia e quindi amplificatori che hanno 23 W, per cui potenze basse, il calore
+62:44 non è un problema. A quello a a quel punto sono proprio assolutamente lineari,
+62:51 però a volte decantano l'alta fedeltà, classe AB. classe A B, però mh ho ho dei
+62:59 grossi dubbi, francamente. Eh, anche a me, eh ho dei grossi dubbi. Non non non non mi fiderei molto di pubblicità di
+63:05 quel genere, diciamo così. Eh, Marco, a te.
+63:13 Io Ma Marco, sì, Morelli, scusami, muoripi. Hai detto giustamente che gli
+63:20 amplificatori in alta frequenza sono valvolari, sono in AB. Giusto. Sì,
+63:27 corretto. Però io ho anche un Poi ha detto che che quelli dell RM Mospet sia
+63:33 Mospet, no? Quelli di RMatori che lavorano in classe B. Io
+63:39 però ho un MOSFET che lavora in AB. Sì, sì, ce ne sono, ce ne sono.
+63:44 Assolutamente, assolutamente. Quindi è normale, non solo i valvolari lavorano in AB.
+63:51 Eh, sì. Allora, i tipici amplificatori a MOSFET, ma anche gli LD
+63:58 MOST eccetera, tendenzialmente lavorano tutti in AB. Tanto per dare un po' di numeri sono
+64:05 amplificatori ad esempio dove eh usando la terminologia tipica degli
+64:10 amplificatori, no? Allora, immaginiamo che il il MOSFET, immaginiamo un amplificatore a MOSFET, come sta dicendo
+64:17 Marco, immaginiamo che quando sono in trasmissione il MOSFET mi consuma una corrente di 5 amp, per esempio, no?
+64:24 Tanto per dire. Quindi la corrente quando sei in TX in trasmissione è 5 amp. Sì. Eh, quando quando c'è potenza
+64:31 in ingresso, normalmente il dispositivo viene polarizzato per per assorbire a
+64:37 riposo una corrente di circa il 10-15% della corrente massima. Quindi c'è una
+64:42 corrente di riposo che molte volte in inglese viene chiamata la corrente di bias, di bias di polarizzazione,
+64:48 diciamo, di 500 m, 7800 m, come accadeva nei vecchi
+64:55 amplificatori valvolari di cui si parlava prima, che avevi una corrente di riposo metri di di 100 m, quando diciamo
+65:02 andavi in trasmissione, no, senza parlare, immagin immaginando un SSB e poi in trasmissione la valvola ti
+65:08 assorbiva quei 600 700 800 mamp, per esempio. Probabilo. Ok, Marco. Sì, sì.
+65:16 No, dicevo questo perché mi è andata bene a me un giorno,
+65:22 perché mi è successa una cosa un po', di solito non si fa, però a me mi è
+65:27 successa perché spolveravo la radio e invece di di diciamo di alimentarlo con
+65:33 il 20% un millisecondo mi ha dato al 70-80% in ingresso, quindi
+65:41 fortunatamente non è successo niente, però è andato vicino alla fumata. Puff! Bel! Ti è andato
+65:51 bene. Ci sono altre domande? Allora, quindi classe A, B e C.
+66:02 C'è Marco con la mano alzata. Paolo, non lo vedo, ma mi fido a Marco, a te. Ah no,
+66:09 ma la forse ti è rimasta la mano alzata da prima.
+66:16 Marco, Marco Morelli. Ecco. Ok, perfetto. Bene, grazie.
+66:22 Va bene, proseguo. Proseguiamo. Rimetto in condivisione e
+66:28 adesso abbiamo un argomento facile facile facile, cioè dopo la classe A, B, C eccetera che ci hanno fatto un po' un
+66:35 po' sudare, qui siamo molto sul tranquillo. Gli oscillatori. Allora, gli oscillatori sono un altro un'altra delle
+66:42 delle scatolette nere e se ne trovano in gran quantità sia né trasmettitori che ricevitori. L'oscillatore è una
+66:49 scatoletta nera. Il compito è generare un segnale. Generare un segnale. E il
+66:55 segnale viene generato. Scusate, ho perso il cursore. Eccolo qua. Cosa fa un
+66:60 oscillatore? Genera un segnale frequenza. E come funziona un
+67:05 oscillatore? funziona col meccanismo della retroazione, nel senso che una
+67:10 parte del segnale in uscita viene riportato all'ingresso. Lo vediamo ad esempio bene in questo schema. Qui
+67:17 vedete che c'è come dispositivo, questo è il simbolo del FET, ricordate, no? Field effectistor che non ha la base, ma
+67:25 un terminale che si chiama gate. E come in tutti gli oscillatori, cosa succede? Ma succede che tu lo
+67:32 accendi e all'inizio anche semplicemente eh il segnale di gate eh
+67:39 raccoglie un po' di rumore, un po' di rumore intrinsico del dispositivo, eccetera. Questo piccolissimo rumore che
+67:45 c'è in ingresso viene amplificato e lo si ritrova in uscita qua. Mh in questo
+67:51 punto. Però negli gli amplific, scusate, gli oscillatori, vi dicevo, funzionano col principio della retrazione. Allora,
+67:58 cosa cosa c'è nello schema di questi oscillatori? C'è un qualche pezzo di circuito che fa sì che il segnale
+68:04 dell'uscita venga riportato in parte dell'ingresso. E qui vedete che il circuito è questo qua. si passa tramite
+68:11 questo condensatore, si scende giù, gira gira gira e viene ributtato in ingresso
+68:18 tramite un una presa di una bobina eh al gate
+68:24 del FET e quindi questo segnale mi viene ributtato in ingresso e viene
+68:30 riamplificato e quindi al secondo giro ci trovo un segnale di ingresso un po' più grande e quindi un segnale d'uscita
+68:35 ancora più un po' più grande e il gioco continua così. questo segnale d'uscita un po' più grande mi viene ributtato in
+68:42 ingresso e viene riamplificato, viene riamplificato, viene riamplificato finché non si arriva a una situazione di
+68:49 di regime di oscillazione stabile dove il il mio dispositivo mi genera un
+68:55 segnale di uscita di ampiezza costante e siccome negli
+69:02 oscillatori che si usano in campo radiamatoriale noi vogliamo generare una frequenza precisa in questi oscillatori
+69:09 ci sono sempre o dei quarzi o dei circuiti risonanti. Il circuito risonante di questo oscillatore, eccolo
+69:15 qua, è formato da questa bobina L1 e da questo condensatore C1 che ora sto
+69:21 cerchiando. E questo circuito risonante fa sì che questo meccanismo di
+69:27 retroazione funzioni per molto bene proprio per la frequenza di risonanza di
+69:32 questo circuito, al valore della frequenza di risonanza del del circuito. Quindi l'oscillatore mi genera un
+69:38 segnale di uscita quaggiù, un segnale di uscita che di solito è sempre sinusoidale o abbastanza sinusoidale
+69:45 alla frequenza del mio circuito risonante. Quindi se io volevo un
+69:52 segnale ad esempio a 9 MHz, tanto per dire, eh qui si progetta un circuito LC
+69:58 bobina e condensatore che risuogna a 9 MHz, lo si mette in questo circuito e il circuito funziona in questo modo qua.
+70:05 segnale viene retroazionato e viene amplificato finché il funzionamento non diventa stabile. A quel punto il segnale
+70:11 di uscita è ha una frequenza di 9 MHz come stabilito da questo circuito
+70:17 risonante e un'ampiezza come stabilita da i componenti che stanno attorno al Fed che ora non ci interessa più di
+70:24 tanto dire quali sono. Quindi torno sulla definizione. Quindi cos'è un oscillatore? Un oscillatore è uno
+70:29 scatolotto che genera un segnale a radiofrequenza. Funziona perché una parte del segnale di
+70:35 ingresso, come leggete qua, viene, scusate, la parte del segnale in uscita viene riportato in ingresso, cioè questo
+70:41 meccanismo di retroazione. Se nel percorso di retroazione si usa un circuito LC o un
+70:49 quarzo, il segnale di uscita è la stessa frequenza di risonanza del circuito LC o del quarzo
+70:56 stesso. Questo qui ne abbiamo parlato. Questa è la stessa cosa con un quarzo.
+71:05 Sapete che quando si era parlato dei quarzi si era detto che sono loro stessi dei risonatori con un fattore di qualità
+71:12 molto molto molto più elevato di quello di un circuito risonante. Sì. Quando si era parlato del fattore di qualità Q
+71:20 delle bobine, lettera Q delle bobine e dei circuiti risonanti, si diceva che un fattore di qualità di un circuito
+71:27 risonante normale poteva essere sui 100-150, il fattore di qualità di un quarto può essere sui 10.000, 1000,
+71:33 quindi diciamo è è nettamente più preciso, selettivo un quarzo rispetto a
+71:40 un circuito risonante. Qui c'è un circuitino con un transistor dove vedete esattamente lo stesso funzionamento di
+71:46 prima, no? Il segnale in base a questo transistor c'è qua, viene amplificato sul collettore, cioè qua abbiamo un
+71:53 segnale, abbiamo il segnale amplificato. Questo segnale viene riportato
+71:58 quaggiù verso l'ingresso del transistor ma attraversando questo
+72:03 quarzo. Quindi c'è un anello, un loop di amplificazione come prima, quindi il
+72:10 segnale gira, rigira, rigira, ogni volta aumenta perché viene amplificato dal transistor finché questo segnale che
+72:16 gira raggiunge un livello stabile e la frequenza è quella dettata dal quarzo. I
+72:22 quarti sono molto selettivi, ricordate che si era visto che avevano curve proprio molto molto strette, quindi un
+72:28 quarzo tiene l'oscillatore eh molto fermo alla
+72:33 frequenza proprio di risonanza del quarzo. E questo è scritto qua. Gli
+72:40 oscillatori con un circuito LC funzionano, funzionano anche bene, ma sono poco stabili. Se al posto del
+72:46 circuito LC si usa un quarzo, l'oscillatore sarà invece molto
+72:51 stabile. Usando un oscillatore a quarzo si può anche generare si possono anche
+72:57 generare delle frequenze chiamate armoniche. Ad esempio, qui dicevo, immaginiamo che questo calcio sia a 9
+73:03 MHz. Eh, posso eh diciamo mettendo gli
+73:12 opportuni gli opportuni componenti in questo circuito, far oscillare questo quarzo non a 9 MHz, ma alla terza
+73:19 armonica, per esempio, che sarebbe 27 MHz o anche più su alla alla non
+73:25 armonica o cose di questo tipo. Quindi da un quarzo posso generare delle frequenze
+73:31 armoniche, quindi doppia, tripla, quadrupla, quintla. Tipicamente meglio
+73:36 le frequenze dispari, tripla la terza armonica, la quinta armonica, la settima armonica.
+73:44 Scusate. Infine c'è un terzo tipo di
+73:49 oscillatore che sono quelli chiamati ad aggancio di fase che sono quelli che sono usati eh adesso nella quasi
+73:56 totalità dei ricitrasmettitori attuali. E il il trucco, diciamo, che sta alla
+74:03 base del funzionamento di questi oscillatori aggancio di fase è che hanno un oscillatore variabile che
+74:11 genera il segnale che vuoi tu in uscita, però si aggancia,
+74:17 scusate, scusate, si aggancia il si accgancia la
+74:24 frequenza di questo oscillatore variabile a quella di un oscill oscillatore di riferimento a quarzo per
+74:32 dargli stabilità. Quindi vedete che ci sono in un
+74:38 oscillatore aggancio ad aggancio di fa, scusate la
+74:44 gola, ci sono negli oscillatori d' aggancio di fase in realtà nei circuiti
+74:50 complessivi di di un oscillatore aggancio di fase che è chiamato PLL,
+74:56 loop ad aggancio di fase, face locked loop, loop ad aggancio di fase, ci sono
+75:01 in realtà due oscillatori. Uno è l'oscillatore che mi dà l'uscita e uno è l'oscillatore di
+75:08 riferimento e il circuito dell'aggancio di fase aggancia il generatore che mi dà
+75:13 l'uscita a quella all'oscillatore di riferimento. si capisce meglio su
+75:20 questo eh su questo schema un po' di massimo, ma comunque allora quello che
+75:27 vedete qua qui VCO è l'oscillatore che genera il
+75:34 segnale che io voglio in uscita dal mio dal mio PLL, dal mio oscillatore PLL.
+75:41 VCO vuol dire oscillatore controllato in tensione. Voltage controlled oscillator.
+75:47 Oscillatore controllato in tensione. Cosa vuol dire oscillatore controllato in tensione? Che per regolare la
+75:53 frequenza di questo oscillatore non devo girare una manopola come nel caso degli oscillatori con con un condensatore
+75:59 variabile, ma la frequenza di questo oscillatore è regolata da dei diodi varicap. Ricordate quando avevamo
+76:06 parlato dei diodi? No, si era visto che esistevano i LED, gli zener, si era visto che esistevano anche i diodi baricup, cioè quelli a variazione di
+76:12 capacità che sono praticamente dei condensatori variabili elettronici, si potrebbe dire. Quindi a seconda di come
+76:19 li polarizzo inversamente la capacità del mio di varicap varia, per esempio,
+76:25 da da 10 a 100 picofarad. E quindi questa variazione di
+76:31 capacità mi eh mi fa in modo in qualche modo di di di fai in modo di portare
+76:37 l'uscita del del mio VCO alla frequenza che mi serve.
+76:43 il segnale di uscita viene eh oltre che in uscita viene prelevato e mandato in
+76:51 questo scatolotto qua. Questo è uno scatolotto abbastanza
+76:57 complicato, mentre questo questo in uscita è è un oscillatore più o meno del
+77:03 tipo di quelli che abbiamo visto prima, semplicemente con dei vari capi invece che con dei condensatori, ma diciamo lo
+77:08 schema è sempre quello. Questo è un circuito abbastanza complicato che fa una comparazione di fase di fase fra due
+77:16 segnali sinusidali diversi. Uno è il segnale di uscita, quindi immaginiamo
+77:21 che il segnale di uscita sia questo, no, riportato tramite questa
+77:26 linea che vedete qua in basso. E l'altro il segnale di un quarzo di di un oscillatore di riferimento a quarzo,
+77:33 quindi stabile, che va su un altro ingresso con dei meccanismi esoterici
+77:39 che fortunatamente non c'è bisogno di conoscere per l'esame. Questo comparatore di fase genera in questo
+77:46 punto di uscita una una diciamo una tensione, la
+77:52 potremmo considerare una tensione di errore, come avevamo visto negli negli alimentatori, eh che se diciamo la mia
+78:03 la mia frequenza di uscita dal mio VCO tende ad allontanarsi dal valore che ho
+78:10 impostato perché magari l'oscillatore si scalda perché magari, appunto, essendo questo un oscillatore non ha quarzo, non
+78:17 ha la stebida del quarzo. Eh, la tensione di fase che qui si
+78:24 genera da questo circuito di comparazione di fase tramite un filtro pasta basso va a modificare la
+78:30 polarizzazione dei baricap e mi aggiusta la frequenza dell'oscillatore. Quindi è è un loop di
+78:37 retroazione, come vedete, dal da dal dallo dal WCO. il segnale torna
+78:43 indietro, viene retrocesso al comparatore di fase, viene comparato a quello di un della mia frequenza stabile
+78:49 di riferimento. La tensione di errore che viene fuori da questa da questa comparazione mi mi tiene in passo il mio
+78:58 eh il mio oscillatore. Quindi in questa
+79:04 situazione eh la fase dell'oscillatore è agganciata. locked vuol dire agganciata.
+79:11 A cos'è agganciata la fase del segnale di uscita? È agganciata alla fase dell'oscillatore a quarzo, cioè di
+79:17 questo oscillatore qua. Eh, letteralmente vuol dire proprio questo, no? Eh, loop ad aggancio di
+79:24 fase. Si agganciano la fase di due oscillatori. Si aggancia si aggancia la
+79:29 fase del del VCO a quella dell'oscillatore di di riferimento. L'aggancio avviene tramite un
+79:35 comparatore, un comparatore di fase. In questo modo si si può con questa configurazione
+79:42 si può fare in modo di avere la frequenza che si vuole in uscita, anche variabile e questa frequenza tramite
+79:48 questo meccanismo di aggancio di fase la si tiene agganciata a un riferimento a quarzo che lavora a frequenza fissa e
+79:55 che dà stabilità a al mio oscillatore. E queste sono le tre
+80:02 tipologie di di oscillatori eh utili, diciamo, che che normalmente si usano
+80:08 nelle nelle radio. Quindi ribadisco, cioè l'oscillatore libero, a volte è chiamato anche WFO,
+80:14 oscillatore a frequenza variabile, perché la frequenza di questo oscillatore può essere variata
+80:21 rendendo un condensatore variabile. Quindi posso usare questo per la
+80:27 sintonia di un ricevitore, ad esempio, no? modifico la mia frequenza del mio oscillatore. Di conseguenza, come
+80:32 vedremo nei ricevitori, vado a modificare la frequenza del segnale ricevuto. Oppure quando ho bisogno di un
+80:38 segnale molto stabile, ma a frequenza fissa, ci sono gli oscillitori a quarzo,
+80:43 quindi stabili ma a frequenza fissa. Vedete che i punti di forza e di
+80:48 debolezza degli oscillatori a quarzo e dell'oscillatori di fasi sono assolutamente complementari.
+80:54 scusatemi, e dell'oscillatore libero. L'oscillatore libero eh posso posso
+80:59 averlo alla frequenza che voglio e questo è un grande vantaggio, però non ha una grande stabilità e questo è lo
+81:06 svantaggio. L'oscillatore a quarzo ha una frequenza altissima e questo è, scusatemi, ha una stabilità altissima e
+81:13 questo è un vantaggio, però e posso averlo solamente alla frequenza del quarzo, quindi lo posso avere lì. Se io
+81:20 ho bisogno di un oscillatore che possa fare un'ampia escursione in frequenza e lo voglio stabile, devo usare un
+81:26 circuito d' aggancio di fase dove aggancio eh dove tramite la stabilità di
+81:33 fase io rendo stabile come se fosse un oscillatore a quarzo, un oscillatore che invece è una frequenza
+81:40 variabile. Quindi, se vogliamo, o si potrebbe dire botte piena e moglie
+81:45 ubriaca, la stabilità del quarzo e la variabilità in frequenza tipica di appunto di un oscillatore a frequenza
+81:51 variabile. E con questo e questo è tutto sugli oscillatori, quindi le tre tipologie: oscillatore libero,
+81:58 oscillatore a quarzo, oscillatore ad aggancio di fase. Ci sono domande su
+82:04 questo Marco? A te.
+82:11 Marco, se stai parlando il microfono spento. Dimenticanza, scusa. Dicevo, lo
+82:19 scatolotto del filtro passa basso, a parte non è il soggetto, è un passapasso e quindi
+82:26 taglia tutte le frequenze alte in questo caso oppure lo decidiamo
+82:32 sul momento che filtro mettere. Quel quel filtro pasta basso serve a ottenere una tensione continua. mh, diciamo così,
+82:39 quindi serve a togliere dal segnale di errore un'eventuale ondulazione residua
+82:46 che modulerebbe in frequenza il VFO. Il filtro passo serve a ottenere un segnale
+82:51 di uscita perfettamente continuo. Ah, perfetto, ho capito. Serve solo per quel motivo praticamente. Sì, sì, c'è solo,
+82:58 cioè è un motivo importantissimo perché altrimenti i se quel segnale lì fosse
+83:04 modulato, quella modulazione si trasformerebbe in modulazione di frequenza del VCO, cioè il classico
+83:10 filtro bobina e condensatore, insomma. E no, perché siccome è un filtro in
+83:16 continua e sono filtri resistenza, condensatore,
+83:22 transistoro, cioè non è non diciamo è diciamo quelloì è un filtro fatto bene,
+83:28 diciamo, in questo modo. È un filtro che ha la sua complessità proprio perché devi tirare fuori una tensione continua molto piatta. Mh mh. Mh. Pria di rumore,
+83:37 diciamo. Sì, sì, sì.
+83:42 Altre domande sugli oscillatori? Ok, ottimo. Allora, a
+83:48 questo punto vi porto all'ultimo argomento di stasera che sono i decibel. Allora, i
+83:55 decibel a detto proprio in termini assolutamente pratici a prima vista
+84:01 sembra una cosa che si sembra una cosa molto complicata. Al lato pratico, in realtà l'utore dei decibel è
+84:08 estremamente semplice. Dunque, il decibel intanto è un'unità di misura,
+84:15 scusate, è un'unità di misura che in elettronica viene usata molto. Per esempio, voi andate a comprare
+84:21 un'antenna, sapete che le antenne e o se non lo sapete lo vedrete fra qualche
+84:27 lezione, quando appunto si parlerà di antenne, le antenne hanno possono avere un certo guadagno, quindi possono in
+84:33 qualche modo irradiare in una certa direzione un un segnale anche molto
+84:39 forte. E come si come si misura il guadagno di un'antenna? O meglio, il
+84:45 costruttore come ci dichiara il guadagno di un'antenna? Ce lo dichiara in decibel.
+84:50 Quindi si dice, "Guarda, compri questa antenna direzionale che ti guadagna 5 debel, compri questa antenna
+84:57 omnidirezionale che ti perde 1 decibel. Poi, per esempio, ci sono i cavi quassiali. I cavi quassiali perdono, per
+85:04 esempio, no? dei quassiali, il cavo con cui si collega la radio all'antenna ha una certa
+85:10 attenuazione. Questa attenuazione come la semisura, la semisura in decibel anche lei. Per esempio, questo capo
+85:16 quastiale ogni 10 m ha un'attenazione di 1,2 dB. Oppure anche le uscite degli
+85:23 amplificatori, il guadagno degli amplificatori, eccetera. Molto spesso vengono espressi i decibel perché perché
+85:29 perché i i decibel sono stati inventati eh quattro secoli fa, nel
+85:37 1600, proprio per rendere facili le le misure. Allora, all'epoca, ora come
+85:44 sentitemi una parentesina storica, no? All'epoca si facevano già una gran quantità di conti, anche se non sembra.
+85:49 Nel 1600-1700 la matematica era molto sviluppata, però ancora non avevano inventato le calcolatrici, poveri loro.
+85:57 E allora finché si trattava di somme e sottrazioni, uno si metteva lì manina, penna toca e e e calcolava le tue somme
+86:05 e sottrazioni. Ma se si trattava di moltiplicazioni, come molto spesso era, immaginate di fare 10.327 327 molplicato
+86:14 4322 e diciamo diventa un po' un problema e diciamo nei calcoli che si
+86:20 facevano nei calcoli che si facevano anche all'epoca, quindi calcoli che servivano ad esempio a progettare
+86:27 strutture, ponti, muri oppure calcoli che venivano fatti per prevedere le
+86:33 traiettorie del sole, della Luna, dei satelliti, eccetera, insomma calcoli anche allora ne venivano fatti. Di
+86:39 moltiplicazioni ce n'erano parecchie. E non non essendoci le calcolatrici,
+86:44 diciamo, era era un bagno di sangue in termini di tempo fare questi conti. A un certo punto, un nel 1600 fu inventato il
+86:53 logaritmo. Il logaritmo è un operatore matematico che ora non sto a a raccontarvi nei dettagli, ma che ha la
+87:01 caratteristica di trasformare le moltiplicazioni in somme e quindi trasforma un'operazione
+87:09 molto difficile in un'operazione facile. analogamente trasforma le divisioni in
+87:15 sottrazioni e quindi all'epoca e tutt'ora, diciamo, io io mi
+87:21 ricordo quando ero giovane a un certo punto al liceo avevo un libro che era la tavola dei logaritmi e praticamente di ogni numero
+87:30 veniva dato il logaritmo e usando questo logaritmo si si riusciva a fare questo trucchetto di trasformare somme di
+87:38 trasformare in somme le moltiplicazioni e quindi si in qualche modo in modo i conti venivano assolutamente
+87:45 semplificati. Adesso vediamo come funzionano i decibel. Può sembrare che
+87:50 il funzionamento può sembrare che il concetto di decibel sia molto difficile.
+87:56 In realtà l'uso è di una banalità estrema, basta semplicemente saper usare
+88:01 due o tre operazioni. Allora, intanto cos'è il decibel? Eccolo qua. Deci unità di
+88:08 misura, scusatemi, prendo il pennarello. Eccolo qua. Il decibel simbolo di
+88:16 B. D minuscolo B maiuscola. B vuol dire Bell. È il signor Bell. Viene dal
+88:23 cognome di di una persona. D vuol dire un decimo. Un decimo di Bell. Questo vuol dire decibel. Comunque, diciamo,
+88:30 questa cosa non vi verrà chiesta, diciamo, si parla semplicemente di decibel nel nelle eventuali domande. È è
+88:36 una unità di misura logaritmica che consente, poi, come vedremo, di gestire facilmente grandezze che hanno dinamiche
+88:42 anche molto ampie del tipo pensate ad esempio a un
+88:49 ricevitore. un ricevitore può ricevere i segnali dell'ordine di millt di microvolt, scusate, 1 5 10 microvolt, ma
+88:57 anche segnali molto forti fino a centinaia di millt. Chi chi di
+89:03 voi usa eh chi di voi trasmette in banda
+89:09 cittadina, avrete visto che nelle negli strumenti che danno l'intensità del
+89:16 segnale ricevuta nei cosiddetti smiter eh l'unità di misura a un certo
+89:22 punto diventa esplicitamente il decibel. Il segnale S1, S2, S3, S4, S5. che poi a
+89:28 un certo punto si arriva S9, S9 + 10 dB, S9 + 20 dB, S9 + 30 dB.
+89:35 Gli strumenti dei ricevitori in effetti danno una misura di tipo logaritmico. Poi poi lo vedremo e vedremo appunto con
+89:42 riferimento alla scala dei ricevitori il significato che hanno i decibel per
+89:48 loro e appunto come leggete prodotti e divisioni si trasformano in addizioni e
+89:53 sottrazioni. Allora, a questo punto vediamo come funziona in pratica questa
+89:59 cosa. Immaginiamo di avere un amplificatore. il mio amplificatore ha una potenza di ingresso di di un certo
+90:06 valore e mi genera un segnale in uscita.
+90:12 Ok. Ok. Allora, il guadagno dell'amplificatore, come si è detto
+90:19 prima, lo posso esprimere come il rapporto di potenze, no? Quindi immaginiamo che il mio amplificatore
+90:24 guadagni eh cioè che con 1 W di ingresso il mio amplificatore mi generi 15 W di
+90:32 uscita. Posso dire che il mio amplificatore guadagna 15 volte, però il guadagno
+90:39 dell'amplificatore posso esprimerlo in decibel. Allora, il guadagno di potenza
+90:44 di un amplificatore è, qui c'è la versione proprio eh pulita del significato di
+90:52 decibel che non vi serve ai fini dell'esame, ma comunque vi ho riportato. è il logaritmo in base 10 del rapporto
+90:59 fra la potenza di uscita PO e la potenza di ingresso P. Cioè il guadagno in decibel è il rapporto potenza di uscita
+91:07 diviso potenza di ingresso che abbiamo fatto prima e questo già lo conosciamo.
+91:14 D'accordo? Dicevo, il mio amplificatore 1 W d'ingresso, 15 W di uscita, mi
+91:20 guadagna 15 V. di questo numero che noi abbiamo, quindi
+91:26 d dell'amplificazione espressa in numero di volte, potenza d'uscita, potenza di
+91:32 ingresso, eh si può calcolare il logaritmo in base 10. Allora, il
+91:38 logaritmo è un'operazione ehm che funziona così, cioè il
+91:44 logaritmo in una certa base 10, in questo caso, di un
+91:51 numero, è il le è il valore dell'esponente che si
+91:57 deve dare a questa base per ottenere il numero stesso. Quindi ci sono di mezzo le potenze.
+92:03 Allora, il logaritmo in base 10 di 10, ad esempio, è 1 perché 10 elevato all 1
+92:12 elevato all prima potenza è 1. Il logaritmo in base 10 di 100 è 2 perché
+92:18 10 elev 2 ci dà eh 100. Però questa parte qui, fortunatamente ai fini
+92:24 dell'esame non c'è bisogno di di conoscerla in termini matematici. C'è però bisogno di sapere come funziona e
+92:32 il come funziona per fortuna, è molto facile e quello lo vediamo con un po' di
+92:39 numeri. Allora, qui abbiamo un amplificatore che in questo esempio ha una potenza di ingresso di 200
+92:47 mW e una potenza di uscita di 400 mW.
+92:52 Quindi a un ha un'amplificazione a un guadagno di due volte e questo lo
+92:57 trovate in questa formula qui. Potenza d'uscita diviso potenza di
+93:03 ingresso e il guadagno. La potenza di uscita è 400, la potenza di ingresso è 200. 400 / 200 dà 2. Quindi questo
+93:11 amplificatore mi raddoppia la potenza di uscita. Se io faccio tutto il
+93:18 calcolo eh logaritmo eccetera eccetera super complesso e mi esprimo questo guadagno
+93:25 in decibel, il risultato che ottengo è 3 debel.
+93:32 Quindi un amplificatore che guadagna 3 decibel raddoppia la potenza raddoppia
+93:39 la potenza che riceve. E questo
+93:44 questo rapporto, questi numeri teniamolo a mente, teniamoli a mente. 3 decibel
+93:50 equivalgono a un raddoppio da potenza. Vediamo un altro esempio. Questa volta
+93:57 si parla di attenuazione. Ho un amplificatore che ha
+94:02 una potenza di ingresso di 100 mW. La sua uscita è 10
+94:10 mW. Quindi qui ho un dispositivo fra ingresso e uscita che non amplifica, ma
+94:17 attenua, è un attenuatore. 100 mW li trasforma in 10 mW.
+94:24 Qual è il guadagno di questo attenuatore? Il guadagno è 01. Il
+94:30 guadagno, siccome lui attenua, è minore dell'unità. Quindi uso la stessa formula
+94:35 di prima, potenza d'uscita diviso potenza di ingresso. La potenza di uscita è 10, la potenza di ingresso è
+94:41 100. Se faccio 10/ 100 ottengo 0,1. Quindi questo questo attempuatore mi
+94:49 porta in uscita lo 0,1, cioè il 10% della potenza
+94:55 d'ingresso. Espresso in decibel, questo valore di attenuazione equivale a -10
+95:03 -10 dB. Allora, il segno meno, quando si parla di decibel vuol dire che si
+95:08 riferisce ad attenuazioni. Quindi gli amplificatori,
+95:13 tutto ciò che attenua, come nel caso precedente, hanno un
+95:19 guadagno e il valore indecibel che corrisponde al a un guadagno è sempre
+95:25 positivo. Invece un valore indecibel che corrisponde a un'atterazione è sempre
+95:30 negativo. il valore di -10 dB, il valore di 10 di
+95:36 -10 equivale a 1 de a 1 deo. Quindi, se
+95:42 io ho un cavo coassiale, diciamo, che eh
+95:47 attenua 10 dB e ce ne sono dei cavi quassiali di di questo genere, magari ho
+95:52 molto cavo quassiale a casa fra la radio e la mia antenna, se
+95:57 scusate, se la mia radio eroca 50 W, che potenza arriva a un'antenna? Allora,
+96:04 all'antenna il costruttore mi ha detto, "Guarda, il tuo cavo quassiale attenua 10 dB".
+96:10 Tu sai che la tua radio ha 50 W. In antenna arriverà 10 dB lo 01, quindi arriverà
+96:19 dei 50 W che si inseriscono nel cavo corsiale arriveranno 5
+96:24 W. Quindi in questo esempio che sto facendo, 50 W di, diciamo, di di di
+96:30 segnale con un'attenuazione di -10 dB si trasformano in 5 W.
+96:40 Allora, vediamo cosa succede quando ho due amplificazione quando ho due amplificatori in cascata, come in questo
+96:46 caso, io ho un ho il primo amplificatore che guadagna 10 dB. 10 dB abbiamo visto
+96:52 che mi moltiplica per 10 il segnale di ingresso. Quindi se io a questo primo
+96:57 amplificatore inserisco 1 W, in uscita ottengo 10 W.
+97:07 Questo è seguito da un amplificatore 2 che guadagna 20 dB. Eh, un amplificatore che guadagna 20
+97:15 dB. 20 decibel sono 10 + 10. Si è detto che i decibel trasformano le
+97:22 moltiplicazioni in somme, per cui questo 20 dB lo posso considerare come
+97:28 10 + 10.
+97:34 Allora, se il mio amplificatore riceve in ingresso questi 10 W, che potenza avrò in uscita? Allora, i
+97:42 primi 10 debel, come abbiamo visto prima, eh mi trasformano questi 10 W in
+97:49 100 W. Questi altri 10 dB mi trasformano i 100 W in 1000 W. Quindi in uscita da
+97:57 questa catena ho 1000 W. Scusate la calligrafia, ma meglio di
+98:04 così non non riesco. Quindi il guadagno di una catena di amplificazione in
+98:09 decibel è pari alla somma del guadagno dei vari amplificatori, quindi potrei
+98:15 calcolarla in un colpo solo. Eh, amplificatore 1 dB,
+98:21 amplificatore 2 20 dB. li considero tutti e due come un unico come un unico
+98:27 amplificatore che, come leggo qui, ha un guadagno totale di guadagno 1 più
+98:33 guadagno 2, cioè 10 + 20. Quindi qui in questo caso potrei immaginare di avere
+98:39 un unico scatolotto che mi guadagna 30 dB. Se a questo scatolotto inserisco
+98:47 dentro una potenza, ad esempio, di 7 W, che potenza in uscita ho? Semplicissimo.
+98:53 Io devo semplicemente ricordarmi che eh il mattone elementare che conosco è il
+98:60 +10 e il + 10 equivale a moltiplicare per 10 la potenza. Quindi questi mattoni
+99:06 + 10 ne ho tre. 10 più altri 10 più altri 10 che danno i miei 30. Quindi i
+99:13 miei 7 W diventano parto con 7 70 700
+99:18 7.000. Da questa catena uscirebbero 7.000 W.
+99:23 Quindi vedete come come è facile il discorso. Eh,
+99:30 nelle veniamo in un altro. Provate a rispondere voi a questa
+99:36 domanda. Quindi questo amplificatore ha una potenza di ingresso di 100
+99:41 W, scusatemi, ha una potenza di ingresso di 5 W, ha una potenza di uscita di 100
+99:47 W. Quindi, e la domanda è questa che leggete qua sotto. Un amplificatore di
+99:53 potenza deve fornire 100 W all'antenna a partire dai 5 W del trasmettitore.
+99:59 Determinare quale guadagno in decibel è necessario. Allora, vi do un aiuto. Per
+100:06 arrivare a questa risposta voi dovete semplicemente tenere presente che adesso
+100:11 noi abbiamo visto due soli blocchi di
+100:17 amplificazione, un blocco che si chiama + 10
+100:22 dB e un blocco che si chiama + 3
+100:28 debel. Ci riprovo a fare questo 3 + 3 debel. Si è visto che un'amplificazione
+100:34 di 10 debel equivale a moltiplicare per 10 il valore della potenza. Un amplificatore di 3 debel equivale a
+100:42 moltiplicare di due volte il valore della potenza. Provate a rispondere a questa
+100:49 domanda. Determinate quale due.
+100:54 Ci sei quasi. 13 di B. Ma non è giusto. 13 di B. Esatto. 13. 13. 13. Perché?
+101:01 Cosa succede con la mia catena? Li posso voltare come voglio. Ora li volto al contrario di come l'ho detto prima. Io
+101:07 ho 5 W. Passano attraverso un amplificatore
+101:13 che guadagna + 3 dB. Con questo + 3 ddb i miei 5 W sono sono raddoppiati e sono
+101:19 diventati 10. A questo punto entro in un altro scatolotto che ha guadagno + 10 dB.
+101:27 + 10 di B si aumenta di un fattore 10 la potenza, quindi questi 10 diventano
+101:33 100. Ed ecco la nostra risposta. L'amplificatore deve avere un guadagno di 13
+101:41 dB. Rispondete a quest'altra domanda. Si vuole raddoppiare la potenza in antenna
+101:46 portandola a 200 W? Quindi prima avevo 100 quaggiù, d'accordo?
+101:52 100. Adesso la voglio raddoppiare portandola a 200.
+101:57 Prima avevo usato qui, aveva usato un + 13
+102:02 dB + 13. Se io ho questi 100, come vedete in
+102:08 quest'altra domanda, li voglio trasformare in 200, quanto serve? Che amplificazione serve? 20 dB. 16.
+102:16 Allora, 20 dB è sbagliato. Quanto serve? 16.
+102:22 16. Perfetto. 16. Cioè, basta prendere, torno prima, basta prendere questo 100 e
+102:29 aggiungerci un altro per due, quindi aggiungerci altri 3 dB. Con altri 3 dB
+102:35 ai 13 che avevamo prima. Uffa, qui ora se continua così spengo
+102:42 Telegram. Eh, questi 100 W mi diventano 200.
+102:50 Allora, queste sono eh vi ho riportato in questa
+102:55 slide eh i valori più comuni in DB e il
+103:01 relativo rapporto in potenza. Ai fini dell'esame ai fini dell'esame vengono usati solamente
+103:09 questi scatolotti qua. Questo,
+103:20 questo, questo e
+103:30 questo. E questi sono i 2 + 2 valori da tenere a mente. Con questi 2 + 2 valori
+103:37 si può rispondere a tutte le domande che possono capitare all'esame. Perché sono
+103:42 sol Allora, scusate, 0 debel vuol dire che quello
+103:48 che entra esce, d'accordo? Rapporto in potenza è uguale 1. L'1 decibel non si usa mai nel nell'esame. Il +3
+103:58 debel raddoppia. Il + 6 dB non c'è neanche bisogno di
+104:04 tenerlo a mente perché il sei perché diciamo il trucco che c'è nel rispondere
+104:09 a queste domande è che ti devi ricondurre sempre ai due mattoni di base
+104:14 che conosci, cioè il +3 e il +10. Per cui,
+104:20 scusate, per cui il + 6 cos'è? Il + 6 è semplicemente + 3 + 3, che vuol
+104:28 dire raddoppio e poi ancora raddoppio. Quindi 2 * 2 mi dà 4. Poi basta
+104:34 ricordare che 10 dB vuol dire che la potenza cresce 10 volte. A questo punto
+104:40 con 20 dB la potenza quanto crescerà? 10* 10 cioè 100. Con 30 crescerà 10 * 10
+104:48 * 10 che diventano 1000. Se fossero 40 sarebbe 10 * 10 * 10 * 10. Ogni ogni
+104:54 scatolotto di 10 dB mi aumenta di 10 volte la potenza. Quindi se ne ne posso mettere
+105:02 in fila quanto voglio, il risultato finale è sempre la potenza moltiplicato per 10 * 10 * 10 a seconda di quanti
+105:08 scatolotti metto in fila. Discorso assolutamente simmetrico è per
+105:14 le attenuazioni. -3 debel vuol dire che raddoppio la che dimezzo la potenza,
+105:19 scusate. -10 dB vuol dire che la riduco a 1 deo. Il -6 è 2 vol 05. 05 * 05 mi dà
+105:29 0,25. E qui lo stesso, no? Con 10 con -10 dB ho 1 de con -10 con -20 scusate
+105:36 ho un cent con -30 ho 1 millesimo della potenza di ingresso. Scusate un
+105:45 attimo. Quindi una tipica domanda d'esame potrebbe essere: io ho un trasmettitore da 100 W, eh ho un cavoale
+105:54 che attenua 6 dB, però sopra questo cavoale
+105:59 ho un'antenna che guadagna 9 dB. Qual è la potenza effettivamente irradiata? Allora, si parte dalla potenza di uscita
+106:06 del trasmettitore, ci si applica l'atternazione del cavo quassiale e poi
+106:11 ci si applica il guadagno dell'antenna oppure fare tutto in un colpo solo. Si
+106:17 calcola in un colpo solo il guadagno della catena di trasmissione, quindi la mia antenna mi guadagna, diciamo, più
+106:23 più + 6 + 9. Dicevo prima, il mio cavo mi attenua -6. 9 - 6 il risultato è 3,
+106:31 per cui in antenna ho una potenza effettivamente radiata di + 3dB rispetto a quella del trasmettitore, cioè se un
+106:38 trasmettitore da 100 W mi diventa 200 W effettivamente irradiati. Comunque poi di questo parleremo in maniera specifica
+106:45 quando si parlerà di radio, antenna eccetera. E questi sono i decibel.
+106:51 Questo è tutto quello che c'è da sapere del decibel. Diciamo si tratta di tenere a mente questi mattoncini qua, il +3 +
+106:58 10 e il -3 -10. Ok, qualche domanda su questo?
+107:07 interrompo la condivisione. Vi dico un'ultima cosa a
+107:14 questo punto, ultimissima e così
+107:20 finiamo. Allora, come come vi dicevo, il decibel è un'unità di misura
+107:28 relativa, nel senso che se io ti dico 3 decibel, con con 3 decibel posso
+107:34 specificare una amplificazione. Non ti dico 3 W, 3 W è un determinato livello
+107:40 di potenza, no? Quindi 3 W è una misura assoluta. 3 DB vuol dire che in uno
+107:48 scato, scusate, torno indietro. 3 decibel vuol dire che in uno scatolotto
+107:53 di questo genere vuol dire che il rapporto fra l'uscita e l'ingresso è del doppio,
+108:01 quindi il decibel è un'unità di misura relativa, mentre invece 100 W sono un'unità di misura assoluta, no? 100 W
+108:08 sono quelli, sono una data ampiezza di un dato livello di potenza. 2 decibel invece sono unità di misura
+108:16 relativa, però c'è modo di far diventare anche i decibel un'unità di misura
+108:22 assoluta, eh riferendosi a una potenza di riferimento
+108:29 che tipicamente è il billivat e si arriva a questa unità di misure che è il
+108:35 DBM decibel riferiti al millwatt che è molto usata in campo strumentazione.
+108:43 Ora vanno molto di moda e diciamo VNA e robe e roba di questo
+108:50 tipo, ma ne parleremo quando si arriverà alle misure sulle
+108:56 antenne. Scusate, questi sono alcuni valori di riferimento dell'unità di misura
+109:03 assoluta del DBM, per esempio. Allora, il DBM è riferito è definito proprio
+109:11 come 1 mW, quindi questa è una definizione per è la definizione. Quindi 0 dBm equivale a 1 mW, -3 dBm è il
+109:21 solito mattoncino del -3, questo mW si mezza, mi diventa 0,5 mW. -10 dB
+109:28 questo mW diventa 1 de 100 01 mW. E così
+109:33 viene amplificazione il mioW, se io metto un + 13 dBm di guadagno + 10 me lo
+109:40 fa diventare da 1 o 10, gli altri + 3 dB me lo raddoppiano e quindi diventano 20 mW.
+109:48 Oppure + 30 mW vuol dire per 10 * 10 * 10 come abbiamo visto, no? 10 10 e 10.
+109:54 Quindi il mio millet mi diventa prima 10 poi 100, poi 1000 mW, cioè 1 W.
+110:01 Se continuo a crescere + 50 dBM sono 100 W.
+110:07 E con questo abbiamo concluso. Quindi su questa cosa dei decibel si tratta di
+110:14 fare un po' di di esercizi e gli esercizi che vi possono arrivare appunto
+110:19 in sede di esame si risolvono tutti con i due
+110:26 mattoni di cui abbiamo parlato, il +3 dB e il +10d, oppure in termini negativi il
+110:32 -3 e il -10 dB. ne avrete un un po' di di questi
+110:39 calcolini da fare nei quiz che vi manderò che vi manderemo domani, dopo domani e provate, se poi avete qualche
+110:46 dubbio ce lo risolviamo la prossima settimana anche. Domande per ora?
+111:06 Paolo, sei stato un mito. Perché? Ecco, ecco, abbiamo Claudio, abbiamo frizzato. Sì, non ho
+111:13 Aspetta perché mi sa che Paolo si è frizzato, si è congelato. Eh, mi sa di sì. Un attimo solo, l'audio lo
+111:20 recuperiamoo. Lo recuperiamo. No, l'ultima non miè chiara perché o mi
+111:28 son distratto, non lo so. Ehm, quello del DBM.
+111:35 Comunque ora ne parlo appena Sì, aspettiamo un attimo Paolo che è
+111:42 molto più bravo di me a spiegare. Un attimo
+111:48 solo perché lui capire sentire.
+111:54 Un attimo di pazienza.
+111:60 Dobbiamo chiamare Sebastiano per chiedere al ma non ci
+112:09 rispetto risposte potrebbero venire dai due telefoni di Mil Samsung e un iPhone
+112:15 e trovati in casa. mentre s'aspetta dico che mi sono scontrato con amplificatore
+112:21 con il push pool mh e ordinato su internet transistor dopo ve li farò
+112:27 vedere se vi piace. Mi è arrivato per tre volte finti 2N30 55 falsi.
+112:36 falsi, cioè della serie falsi che la serie che li misuri col tester ti danno buono, come l'attacchi sopra piglia
+112:43 fuoco l'amplificatore perché vanno a corto completamente. Ottimo direi. E e
+112:48 praticamente dentro c'era una microgiunzione di un transistorino da da
+112:54 mezzo da mezzo amp, invece il 3055 deve reggere molto di più.
+113:00 E niente, è impossibile trovarli buoni. Buttavo via tutto. Dopo la terza, quarta volta ho detto basta.
+113:07 Vabbè, addirittura. Peccato, era un NAD dopo, cioè prendeva fuoco le le
+113:14 resistenze. Ma com'è possibile? Ho preso scoperchiato i transistor ed erano falsi.
+113:21 Aspetta, forse ce la faccio a te. Tanto un attimo, eh, te faccio vedere. Guardiamo se
+113:32 riesco, se riesco a
+113:37 ritrovarli. Eccoli qua. Non so se riuscirò a farteli
+113:45 vedere. Oh, po' più a destra. Eccoli là. Stupende. Guarda la
+113:51 giunzione. Sì, sì, sì. Quella caccolina di mosca è tornato Paolo.
+113:59 No, ti rendi conto dopo? Ma poi ho detto vabbè non son capace di ordinarli. Io
+114:05 sono andato da uno che conosco. No, non ti preoccupare c'ho questa fonte
+114:11 uguali. Poi m'hanno detto chi si occupa, insomma di riparazione di amplificatore? Dici guarda dice smetti perché non si
+114:18 trovano più gli 2N355. Puoi usare i tip. Vabbè, a quel punto ho detto vabbè lasciamo perdere si
+114:24 era bruciate anche le piste che ho detto lasciamo fare tanto roba vecchia, facciamogli funerale. È un
+114:32 peccato, un peccato. Ma un NAD è un buon amplificatore. Eh, vabbè, pace. Ok, sì,
+114:37 sì, sì, sì. Allora, DBM, mi sono perso l'ultima slide perché non mi è stato chiaro,
+114:46 perché quello si diceva che eh il + 3dB
+114:51 raddoppiava. Su quella mi mi è sfuggito, forse non ho capito bene se me la puoi riaprire per favore? Certo,
+115:01 era quell'esempio in fondo che non non sono riuscito a
+115:08 calcolarlo. M vai. Eccola lì. Un attimo che arrivo. Eccoci
+115:16 qua. Eccoci qua. Allora, eh, DBM.
+115:23 Ecco. Ok, quindi eh 1
+115:30 m e quindi se io faccio per eh per 3 dB
+115:36 diventa 10 e perché non mi non mi diventa 100? Che questo aspetta aspetta.
+115:42 E su quale stai lavorando? Su quella di destra. Ok. il più positivo da da 1 mV
+115:50 se su quella 1 mW 1 mW sì,
+115:55 scusa. Eh vabbè, allora allora quindi
+116:00 diciamo si parte da questo che che è il livello che che è la definizione che è lo zero, no? 0 dBm per definizione è un
+116:08 mibwatto. Sì, a questo punto qui in questo esempio c'è + 13 dBM. + 13 si
+116:15 legge + 10 + 3 i famosi due mattoncini. Ecco, ma non si
+116:21 può fare + 3 + 10? No. Sì, uguale uguale. + 3 + 10. No, 3 e 1 diventa eh
+116:30 due che raddoppia. Sì, con il primo + 3. Allora, questo 13
+116:35 lo puoi spezzare anche sicuramente in + 3 + 10. In questo senso non cambia il
+116:42 più il +3 ti raddoppia, quindi l'1 mW diventano 2 mW. Poi quando ci metti i 10
+116:48 questi 2 mW diventano 20 mW. agli atti non ci sono altre foto prima
+116:54 però era il 10 + 10 era per 10
+116:59 in quella non non in dbm di B normali
+117:05 quando si diceva + 10 diventa si moltiplicava per 10 si aggiungeva una Esatto. Qui però si sta qui in questo
+117:11 esempio però c'è + 13 e allora questo + 13 è fatto da +3
+117:18 seguito da + 10. Questo mi torna + 3 mi raddoppia, quindi
+117:23 da 1 mW mi dovrebbe diventare 2 mW, giusto? Esatto. Però questo poi + 10
+117:30 questi 2 mW te li moltiplica di un fattore 10 e quindi
+117:36 dovrebbe 20 20 dai 20 ed eccolo qua. Già. Sì, giusto. Sì, sì. Mamma mia. È
+117:43 l'orario. È l'orario, scusa. Ecco. Eh, succede a quest'ora. No, so cotto, so cotto, bisogna vare a letto.
+117:51 Eccolo qua, eccolo qua. No, no, giusto, giusto, giusto. No, no, guarda, torna ora. Sì, sì, torna. Sì, che è come so io
+117:58 torno. No, ma perché Ma in effetti lo stavi dicendo, no, che torna che che fatti.
+118:05 Vabbè, lasciamo stare, dai. C'è qualche altra? Vai tranquillo,
+118:10 speriamo l'esame lo faccio a mezzanotte senò c'è qualche altra domanda. Marco,
+118:19 Marco, a te Morelli.
+118:25 Marco, Marco, se stai parlando accendi il microfono. Mi senti? Sì, ora sì. Vai, vai. Allora,
+118:32 per definizione 3DB si raddoppia. Come hai detto? 3d B si raddoppia,
+118:39 giusto? Sì, sì. Ok. Perché 10 di B si moltiplica per 10?
+118:47 Perché se si fanno tutti i calcoli nella formula di definizione di un DB, del resto quasi del resto quasi si vede
+118:54 occhio perché eh 10 dB. Allora, ti
+118:59 assicuro che se si fanno tutti i calcoli giusti e perché scusa, eh 3B si raddoppia, 6
+119:06 dB si raddoppia due volte, quindi diventa per 4. Poi 9 di B
+119:12 2 * 2 * 2 2 4 8 e da 9 dB a 10 dB questo
+119:18 8 ti diventa 10, giusto? Sennò sarebbero 12, eh? Giusto, esatto, esatto. Capito?
+119:28 Perfetto, ora ci siamo. Tutto torna. Tutto torna. Qui alta matematica si può perdere. Va
+119:36 bene, va bene. Francesco, a te. Scusami Paolo, ma noi per fare ogni
+119:45 volta i calcoli del, diciamo, guadagno in DB dei nostri
+119:53 amplificatori, usiamo sempre è proprio pratica questa, eh, non è proprio
+119:59 scienza infusa. Si usa sempre gli scatolotti 3 e 10
+120:05 sempre. No, no, per di No, si si usano si si usano gli scatolotti 3 e 10 per le
+120:14 possibili domande d'esame. Ok? Perché perché le domande tendenzialmente sono pensate per essere
+120:21 risolte senza calcolatrici stratosferiche o roba del genere, ok? Perché senò bisognerebbe avere la
+120:27 calcolatrice, diciamo, ti fa i 10 per logaritmo 10. Esatto, esatto,
+120:34 esatto, esatto. Però almeno qui almeno qui in Toscana cercano di fare in modo che l'esame sia
+120:41 di elettronica e non di matematica, mettiamolo così. Quindi col + 3 + 10 -3 -10 normalmente
+120:49 almeno quello che si è visto fino a ora si sistema tutto, si risolve tutto.
+120:55 Vabbè, semmai portiamo Fabrizio con l'ombrello, i biglietti dietro, dai. Sì,
+120:60 sì, quello ti sicuro, tranquillo. Eh, non ho alzato la mano, scusa, ma
+121:07 dicevo è tutto calcolato 310 per l'esame perché altrimenti sarebbe tutto un
+121:12 calcolo di logaritmi. Fossi per esempio un guadagno in duce o 5 deci sarebbe una
+121:20 complicatissima, giusto? Esatto. Esatto. Esatto. Qui diciamo teniamo come riferimento il tre che raddoppia e poi
+121:27 che moltiplica per quello che è, diciamo, il 10, senò sarebbe completatissimo, no? Sì, sì. quell sono
+121:34 un calcolo, un guadagno di duci e poi un riguadagno di sette o cinque.
+121:42 Infatti complicato. Infatti, infatti, infatti. Ora, ora ho capito. Ok, grazie.
+121:47 Grazie. Vi saluto anche. Buonanotte e via che scappo. Grazie mille. Ciaot ci
+121:53 vediamo ci vediamo mercoledì prossimo. Si parla di trasmettitori. Bene, bene.
+121:58 Grazie Marco. A te. Allora, due due tre cose. Può riprendere
+122:05 la slide? Ma la registrazione è finita o no? Si può staccare senza problem. Ah,
+122:12 no, non lo so. È una domanda perché poi c'era una domanda fuori, quindi non sapevo se farla o no. Ok, interrompiamo,
+122:19 interrompiamo. Vai, vai, abbiamo finito, stacchiamo. Vai. Eh eh però eh nella
+122:25 slide quella

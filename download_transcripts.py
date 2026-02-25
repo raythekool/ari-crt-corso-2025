@@ -12,6 +12,7 @@ I transcript verranno salvati nella cartella ./transcripts/
 
 import re
 import os
+import time
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api._errors import TranscriptsDisabled, NoTranscriptFound
 
@@ -64,32 +65,33 @@ def fetch_transcript(video_id: str) -> tuple[str, str]:
     Scarica il transcript del video.
     Ritorna (testo, lingua) oppure (None, messaggio_errore).
     """
-    transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
+    ytt_api = YouTubeTranscriptApi()
+    transcript_list = ytt_api.list(video_id)
 
     # Priorità: italiano > italiano auto-generato > qualsiasi lingua
     for lang_codes in [["it"], ["it-IT"]]:
         try:
             t = transcript_list.find_transcript(lang_codes)
-            entries = t.fetch()
-            text = "\n".join(e["text"] for e in entries)
-            return text, t.language
+            fetched = t.fetch()
+            text = "\n".join(e.text for e in fetched)
+            return text, fetched.language
         except Exception:
             pass
 
     # Prova auto-generato in italiano
     try:
         t = transcript_list.find_generated_transcript(["it", "it-IT"])
-        entries = t.fetch()
-        text = "\n".join(e["text"] for e in entries)
-        return text, f"{t.language} (auto-generato)"
+        fetched = t.fetch()
+        text = "\n".join(e.text for e in fetched)
+        return text, f"{fetched.language} (auto-generato)"
     except Exception:
         pass
 
     # Prendi la prima lingua disponibile
     for t in transcript_list:
-        entries = t.fetch()
-        text = "\n".join(e["text"] for e in entries)
-        return text, f"{t.language} (prima disponibile)"
+        fetched = t.fetch()
+        text = "\n".join(e.text for e in fetched)
+        return text, f"{fetched.language} (prima disponibile)"
 
     return None, "Nessun transcript disponibile"
 
@@ -141,6 +143,8 @@ def main():
         except Exception as e:
             print(f"❌ {nome}: errore - {e}")
             errors += 1
+
+        time.sleep(2)  # Evita rate limiting di YouTube
 
     print("-" * 60)
     print(f"\n✅ Completati: {ok} | ⏭️  Saltati: {skipped} | ❌ Errori: {errors}\n")

@@ -1,0 +1,1179 @@
+00:02 cortesia di chiudere le webcam per agevolare l'accesso
+00:09 comunque la possibilità di di di far seguire diciamo la lezione anche a coloro che hanno una connessione un
+00:16 pochino più scarsa tipo me perché stasera non c'è verso di farlo andare
+00:22 comunque a te Lucia grazie condivido il desktop perché ho una
+00:29 presentazione chiaramente voi mi direte se la vedete correttamente o meno
+00:36 sì benissimo lo vedete bene adesso è sparita sì sì eh sì sì sì sì la vedete
+00:45 sì Lucia vediamo una lavagna con tutte le formule perfetto dimenticatela
+00:54 lo sai che non mi scorrono lo sai non scorrono ecco va un po' piano vediamo se
+00:59 riesco a far scorrere le pagine non so perché ma mi sta andando
+01:07 veramente molto molto piano bah vabbè partiamo da qua lucia puoi usare anche la questione di
+01:14 internet di connessione no no no ce l'ho in locale il file l'ho scaricato apposta per non avere problemi di connessione
+01:21 comunque dovrei dovrei riuscire a muovermi col mouse più più agevolmente che con i tasti con le frecce allora
+01:29 intanto mi presento io sono il la bestia nera di
+01:35 questo corso perché quelli che fanno questa lezione la notte non ci dormono e
+01:40 poi per un po' di giorni se lo ricordano anche per qualche anno vero Fabrizio sì io io non non volevo non
+01:48 volevo sì va bene dai va bene la premessa è brutta però no allora
+01:54 dovete sapere di e poi mi zittisco che la sua bravura è pari alla sua bellezza e lasciatevelo dire io la conosco di
+02:00 persona è una donna molto bella quindi attenzione vi ho detto tutto a voi
+02:07 vi inizierò con un ripasso perché queste cose voi le avete già viste sicuramente
+02:12 facendo gli esercizi qualche lezione a qualche lezione ho partecipato per cui
+02:17 ho visto che più o meno vi siete già mossi con l'annotazione scientifica gli
+02:23 esponenziali le equivalenze e così via quindi diciamo che la prima parte della
+02:28 lezione sarà veramente solo immagino per la maggior parte di voi sarà veramente solo un ripasso per chi approccia il
+02:36 corso da poco per la prima volta si trova a vedere a avere a che fare con
+02:44 questi numeri se ne ricorderà dai tempi della scuola perché comunque sono delle
+02:49 operazioni che si fanno insomma nel quotidiano quasi per cui credo che che
+02:55 la maggior parte di voi se li ritroverà abbastanza semplici però siamo qui per
+03:00 cercare diciamo di migliorare e per dare a tutti un metodo metodo semplice per ricordare come si fanno questi queste
+03:08 operazioni e e quindi aiutare tutti a superare diciamo quello che potrebbe
+03:14 essere uno scoglio eh non è difficile però potrebbe comunque non essere
+03:22 esattamente presente non ci se ne ricorda è qualcosa che abbiamo lasciato tanti tanti anni fa e quindi in qualche
+03:29 maniera ci mette in imbarazzo e ci spaventa no e quindi anche il ragionamento che che di per sé è un
+03:35 ragionamento semplice può venir meno perché magari ci si ci si impaurisce
+03:40 davanti a a dei numeri particolarmente grandi o in qualche caso particolarmente
+03:45 piccoli quindi niente paura l'approccio di stasera sarà quello di farvi vedere
+03:50 delle cose e cercare di proprio aiutarvi a risolvere dei problemi quindi le cose più semplici possibili non non introduco
+03:59 nozioni difficili non introduco nessuna nessuna cosa particolarmente complessa se dico delle cose troppo difficili mi
+04:05 fermerete io non vedo eh le mani perché sto guardando la presentazione però se
+04:11 qualcuno alza la mano vuole fare aiuti siamo noi a Lucia noi grazie grazie
+04:17 grazie mille eh insomma mh potete interrompere
+04:22 possiamo soffermarci su delle cose che vi tornano meno che o su cui vi trovate
+04:27 più in difficoltà e sorvolare su quello che che vi sembra particolarmente semplice perché ripeto di per sé sono
+04:33 argomenti che che troviamo e affrontiamo tutti i giorni non è che siano problemi difficili però no da dal momento che
+04:41 dobbiamo affrontare un compito d'esame dove alcune di queste trasformazioni per
+04:47 così così dire ci saranno e negli esercizi le avete le avrete anche viste
+04:53 questa è un'occasione per riprenderle in mano e cercare di di tirar via la
+04:59 ruggine eh iniziamo dallanot dalla notazione scientifica l'avete già vista
+05:04 quindi ve la riracconto per l'ennesima volta per qualcuno chi non l'aveva vista
+05:09 la vedrà per la prima volta si parla di notazione scientifica quando si rappresenta un numero in una potenza del
+05:17 10 quindi ogni numero praticamente è rappresentato da una parte intera vi
+05:23 cerco di evidenziare dei pezzi ma forse era meglio col puntatore vediamo se
+05:28 riesco vai con la penna forse si fa meglio una parte intera d'accordo e
+05:35 moltiplicata per una potenza del 10 che che cosa fa questa potenza del 10
+05:40 semplicemente aggiunge degli zeri alla parte intera in modo da farla diventare più grande e quindi paragonare
+05:47 paragonabile al numero che si vuol rappresentare si possono rappresentare in notazione scientifica anche numeri
+05:53 molto piccoli la potenza del 10 in questo caso è come vedete qui è negativa
+05:59 che cosa vuol dire una potenza negativa la potenza del 10 negativa vuol dire che in realtà io sto elevando alla potenza
+06:08 il denominatore di una frazione che ha un 1 al numeratore e il 10 al
+06:13 denominatore quindi il denominatore diventa sempre più grande e lo e ottengo un numero che è sempre più piccolo
+06:19 perché gli zer in questo caso non li aggiungo a destra ma li aggiungo a sinistra della parte intera quindi sto
+06:25 moltiplicando una parte intera per un numero sempre più piccolo e rappresentato da uno
+06:32 0,00 tanti zeri quanti sono i decimali della i il valore della potenza -1 e e
+06:42 questo rappresenta un numero molto piccolo più zeri ci sono ve le potete immaginare e più e più ci si sta
+06:48 avvicinando allo zero ok si intendo si intende piccolo ma sempre positivo
+06:53 d'accordo quindi piccolo in termini di quantità positiva quindi una quantità che si avvicina a zero in definitiva
+07:01 indefinitamente si dice nella matematica no ci si avvicina a zero in modo sempre
+07:07 c sempre più prossimo ma ma senza necessariamente raggiungerlo quindi
+07:12 numeri molto piccoli non vuol dire numeri negativi ma vuol dire numeri vicino a zero positivi ma vicini a zero
+07:19 eh si possono poi ritrasformare i numeri che sono rappresentati in notazione
+07:25 scientifica in numeri normali come si fa e se io c'ho un numero che è rappresentato da una parte diciamo
+07:32 numerica decimale e moltiplicata per una potenza del 10 per ritrasformarlo in un
+07:37 in un numero decimale eh diciamo chiamiamoli normali per volere per voler
+07:43 usare un termine che non è esattamente matematico moltiplico per 10 elevato a
+07:49 che cosa vuol dire che quel 10 lì rappresenta un numero di zeri pari alla
+07:56 alla potenza che c'è quassù quindi 17,5 * 10^ 3 come si trasforma è un 17,5 e
+08:05 poi si aggiungono tanti zeri compreso poi il decimale che già c'è per cui di
+08:12 per sé lui rappresenta una posizione quindi io parto dalla virgola che sarebbe qui e mi sposto di tre decim di
+08:20 tre zeri ok quindi aggiungo tre cifre a sinistra della a destra della virgola
+08:27 scusate quindi parto da un 17,5 e poi incomincio a contare 1 2 3 e
+08:33 quello che poi ottengo in questo caso è un numero intero perché dietro non ho altri decimali e quindi di fatto è un0
+08:40 posso mettere la virgola diventa 17.500 quindi 17,5 in 10^ 3 si dice così
+08:48 diventa 17.500 500 perché dalla virgola dalla posizione della virgola ci si
+08:54 sposta verso destra un numero di volte pari
+08:59 all'esponente della eh della potenza del 10 per fare l'opposto quindi per
+09:06 scendere per avvicinarsi quindi a zero per per decrescere il numero in questo
+09:12 caso io ho una potenza del 10 un numero di e ehm un numero rappresentato da da
+09:18 una notazione scientifica con un un esponente negativo quindi che cosa si fa
+09:23 dalla posizione della virgola ci si sposta ma verso sinistra del numero di
+09:29 decimali esattamente pari al all'esponente ok quindi che cosa si fa
+09:36 si parte da 1,18 in questo caso la virgola sarebbe qui e ci si sposta verso
+09:41 sinistra di 1 2 decimali ovviamente a questo punto la virgola rimane perché io
+09:47 parto da una parte intera che non ce l'ho più quindi la indico con zero
+09:53 riporto la virgola e uno zero perché chiaramente è una posizione che deve essere occupata da un numero decimale e
+10:00 poi tutta la parte intera che avevo che diventa il 118 a seguire quindi
+10:07 0,018 lo posso leggere anche così in realtà sarebbe 0,0118 se proprio se volesse essere
+10:14 rigorosi è la è la nostra cifra ok rappresentata in notazione
+10:22 tradizionale fin qui come siamo torna tutto a tutti
+10:29 puoi andare tranquilla non ci sono rialzata ci speravo tantissimo allora ho degli
+10:36 esercizi da proporvi per cui vi prego di non essere eh timidi e provare a
+10:42 buttarvi ho degli esercizi risolti dove però io ho volutamente messo degli
+10:49 errori perché perché niente la rappresentazione non è esattamente il
+10:55 risultato che riporto a destra dell'uguale non è corretto non è non è eh non è quello che dovrebbe
+11:03 essere con la trasformazione della della rappresentazione esponenziale in una
+11:09 rappresentazione numerica tradizionale quindi buttatevi provate a risolverli
+11:15 questi esercizi e magari se qualcuno di voi mi dice quali sono le righe che sono sbagliate oppure se volete dirmi quali
+11:22 quali sono i risultati giusti insomma la terza è sbagliato la terza la terza quale sarebbe il
+11:31 risultato corretto secondo te
+11:36 quindi se devi mettere tre zeri quindi viene 1330
+11:44 ok una l'abbiamo trovata anche la prima anche la prima la prima come verrebbe
+11:50 5910 ok no 5 virgola bravo ci ho messo la
+11:56 virgola apposta perché delle volte specialmente su internet se uno gira briga cerca i numeri a volte si vede
+12:03 l'annotazione scientifica ma si ma con l'interpretazione anglosassone per così
+12:09 dire dove le virgole in realtà rappresentano i separatori delle migliaia ho voluto fare l'esempio
+12:16 proprio per quello perché metteremo in America Pissi eh loro in America pissi assolutamente sì per cui ma non solo eh
+12:24 in realtà lo usano in Europa quasi quasi tutti i paesi a parte noi per cui insomma siamo Sì sì comunque è l'ho l'ho
+12:32 fatto apposta perché lo zero come ultima cifra decimale è non significa però il m
+12:38 è italiano vero m Sì sì esatto quindi noi usiamo la
+12:43 virgola in ogni caso per separare i decimali e i punti per come separatore delle migliaia ok anche la prima è
+12:50 sbagliata la seconda quanto quanto verrebbe secondo
+12:56 voi 1 2 3 0,13
+13:01 quindi la seconda è corretta perfetto va bene
+13:07 come Va bene va bene la quarta e la quinta
+13:12 c'hanno un sacco di zeri bisogna contare la quarta se s mi sembra sbagliata ce
+13:18 n'è uno in più forse proviamo proviamo a contarli ripartiamo da qua che è il
+13:25 numero è la è dove sarebbe la virgola e dobbiamo andare indietro di 12 cifre
+13:32 ok quindi 1 2 3 4 5 6 7 8 9 10 11 12
+13:38 quindi va bene giusta è un po' lunga ma va bene lo stesso quella di sotto eh
+13:43 partiamo da qua va bene e son 12 cifre
+13:52 questa la sesta
+13:57 per me va bene va bene ok quindi da una notazione decimale da una dotazione
+14:05 decimale scientifica si può passare a un'altra senza colpo ferire nel senso in
+14:10 questo caso da un 10 alla terza passo a un 10 alla quarta mi sono spostata semplicemente di un decimale a sinistra
+14:16 e ho aggiunto un una cifra all'esponente
+14:22 ok la settima chi la risolve va bene
+14:27 la settima va bene in realtà no no è sbagliato è sbagliato è uguale alla
+14:35 sesta ma vi frega perché in realtà Esatto l'esponente è negativo quindi in
+14:41 realtà io la virgola la devo spostare dall'altra parte per aumentare di uno in realtà tolgo uno all'esponente 51
+14:51 esatto sarebbe 591 * 10^ -4 d'accordo quindi
+14:58 è facile come vedete è semplice però sbagliarsi a volte è altrettanto facile
+15:05 no anche se anche se i numeri sono insomma la anche se il concetto è
+15:11 semplice in realtà a volte ci si sbaglia perché insomma si sottovaluta però il criterio se se siamo rigorosi è
+15:18 abbastanza semplice partire dalla virgola se l'esponente è positivo si va verso destra se è negativo si va verso
+15:24 sinistra se voglio ulteriormente diminuire l'esponente mettendolo più negativo mi devo spostare a destra se lo
+15:31 voglio rendere più positivo quindi incrementare in questo nel come nel punto se mi sposto a sinistra quindi no
+15:39 faccio l'operazione opposta per poter aumentare di uno l'esponente della della
+15:47 parte della potenza del 10 d'accordo andiamo avanti bravissimi le soluzioni
+15:52 le avevo riportate qui insomma questo più che altro per darvi poi le slide a disposizione se volete andarvele
+15:59 a riguardare anche questa tabella voi l'avete già sentita ne avete sentito
+16:05 parlare l'avrete già vista non lo so eh qui si rappresentano le grandezze e
+16:12 il nome che si dà alle grandezze purtroppo nell'esame troverete
+16:18 spesso delle degli esercizi dove si parla di milli di chilo di micro di pico
+16:25 e così via che sono grandezze di fatto rappresentate in notazione esponenziale
+16:30 come potenze del 10 positive o negative però il problema quale può essere che se
+16:37 dentro l'esercizio vi trovate grandezze disomogenee per risolvere l'esercizio
+16:43 bisogna renderle tutte uguali perché altrimenti non si possono sommare non si possono diciamo mescolare tra di loro ok
+16:51 quindi se guardate la tabella vedrete che le prime diciamo le prime unità di
+16:58 misura decaletto il chilo sono quelle che conosciamo comunemente come no il il
+17:04 decrammo il lettogrammo il kilogrammo nel nel quotidianità se si va a fare la
+17:10 spesa e sono tutte grandezze che si incrementano di 10 in 10 l'una rispetto all'altra poi dal mega in poi o meglio
+17:18 dal chilo in su quindi dal kilo mega giga terra peta ormai le sentiamo
+17:23 nominare spesso queste grandezze perché sono grandezze che si utilizzano per misurare la memoria nei computer una
+17:30 volta non era così ve lo posso assicurare io sono nata quasi insieme ai
+17:36 Personal Computer avevamo dei floppi da pochi K e ci dovevano bastare per per
+17:41 metterci tutto e ora ci sono degli hard disk da terabyte
+17:48 o addirittura da petabyte per cui insomma si va si va su grandezze decisamente più grandi però le son nomi
+17:55 che si conoscono perché chi ha a che fare con il mondo del computer e anche solo perché deve salvarsi dei file dei
+18:02 filmati o cose di questo genere sa conosce la la queste unità di misura
+18:10 queste queste grandezze perché di fatto si parla in questi termini quando si parla di
+18:15 memoria di di computer per le per le grandezze più piccole invece la scala anche lì va di
+18:22 10 in 10 cm fino al milli che può essere il millimetro nella
+18:29 scala metrica per esempio per le unità di lunghezza il centimetro e il
+18:35 decimetro dal millimetro in giù si va di 1000 in 1000 quindi di tre in tre nella
+18:42 scala eh esponenziale in notazione scientifica quindi si passa dal milli al micro dal
+18:49 micro al nano e dal nano al pico ecco queste sono un po' più difficili da trovare come unità di misura perché
+18:55 insomma proprio chi ha a che fare con boh microscopici e microscopi elettronici o
+19:02 cose di sto genere forse ne sente parlare è molto più difficile sentirne parlare in radiotecnica
+19:10 sì purtroppo perché ci sono delle unità di misura il Farad sicuramente è uno di
+19:15 quelli dove si lavora per nano e per pico e e e le resistenze si lavora in micro milli
+19:25 quindi insomma sono unità di misura che si trovano si trovano nella nel
+19:30 radiantismo ok quindi è importante conoscerle quindi milli si rappresenta
+19:36 con una m ed è un 10^ -3 il micro si rappresenta con una mu è una è una mca
+19:43 in realtà è una lettera greca ed è un 10^ -6 il nano è una n è un 10^ -9 e il
+19:50 pico è una p è un 10^ -1 quindi perché vi dico questo perché
+19:57 queste unità di misura le troverete quelle piccole specialmente anche quelle grandi in qualche caso ma più rare però
+20:04 quelle piccole insomma sarà piuttosto probabile che le troviate e se trovate
+20:09 nello stesso esercizio mescolati per esempio i milli e i micro e allora bisogna fare una trasformazione perché o
+20:15 tutto in milli o tutto in micro perché poi per poterle per poterle gestire
+20:21 insieme e calcolare insieme e mescolare le grandezze devono essere omogenee
+20:28 ok che cosa si fa quando si trasformano due grandezze in una grandezza omogenea
+20:34 si fa una equivalenza ok quindi si parla di equivalenza quando si esprime una misura in un multiplo sotto multiplo
+20:41 della stessa di uguale valore quindi un'induttanza per esempio di zero non lo
+20:47 so se l'avete fatta sì l'avete fatta l'induttanza un'induttanza di 0,012 milli henry equivale a 12
+20:58 micro che cosa vuol dire che io devo trasformare un millionry in micro e che
+21:06 cosa faccio siccome il milli io so che è tre volte o meglio il micro è un 10^ -3
+21:15 eh moltiplicatore 10^ -3 rispetto al milli prendo la la grandezza del milli
+21:23 che è lo 0,012 lo moltiplico per un 10^ -3 perché un 10^ 1 m sono 10^ -3 micro
+21:33 quindi 0,012 m * 10^ -3 tre diventano micro il risultato è che
+21:40 spostando in realtà eh ah in questo caso poi faccio ancora
+21:46 un'altra trasformazione non so neanche perché l'avevo fatta così non me lo ricordo perché l'esercizio l' avevo preparato un po' di tempo fa addirittura
+21:53 perché di per sé puoi rappresentare eh il milli Ah perché il
+22:03 micro per riportarlo alla grandezza di prima torno indietro per vedere la scala perché sennò non ci si capisce perché il
+22:09 micro di per sé è un 10^ -6 ok quindi se io voglio è un 10^ -6 dell'unità di
+22:16 misura di base quindi se io parlo di Henry e voglio sapere quanti Henry
+22:22 misura questa grandezza quindi un'induttanza di 0,012
+22:28 mry equivale a 12 micro ma quanti R sono in realtà io lo ottengo nel momento in
+22:35 cui rimoltiplico per 10^ alla -3 ok quindi 0,012 * 10^ -3 che sono i milli
+22:44 mi dà la misura inry ok quindi questa prima parte mi dice quanti r a quanti R
+22:51 corrisponde 0,012 m se la moltiplico poi
+22:57 per un 10^ -6 io ottengo il 10^ -6 sono gli rry ottengo il il milli il micro
+23:07 scusate ok 0,012 * 10^ -3 che sono i milli mi dà
+23:16 gli erry beh non l'ho trasformato in realtà non credo neanche che vada bene questo
+23:22 esercizio ora che lo guardo però ditemi voi se se vi torna perché questo lo
+23:27 dovrei spostare a sinistra di tre ok quindi per
+23:36 avere una misura che poi io possa rappresentare
+23:43 con Ah no vabbè perché l'ho fatto perché in realtà la trasformazione No la
+23:49 trasformazione è giusta in realtà la trasformazione è giusta perché questi sono
+23:54 1000 inry ottengo 0,0012
+24:02 in milli il micro in realtà devo moltiplicare ancora per 10^ -3 e quindi
+24:09 sarebbe 0,01 * 10^
+24:14 -3 scusate eh per 10^ -6 e
+24:20 quindi eh e quindi mi non mi torna ho ho
+24:26 ho fatto una gran confusione se non vi dispiace lo rifacciamo insieme d'accordo
+24:31 ripartiamo da
+24:38 0 è milli
+24:44 eh se io questo lo voglio trasformare in micro Henry che cosa deve succedere io
+24:51 in realtà i milli devo per ottenere i micro devo eh
+25:03 Ma non è che nella scusa non è che nella tabella è sbagliato tra 1000 e micro che
+25:09 c'è la m uguale identica no no no no no no non è No ma perché c'è mm uguale come
+25:15 simbologia nella tabella no no non sono Scusami dov'è la tabella
+25:22 ah vabbè questa forse dici questa in realtà sarebbe la mucco così sì è una M
+25:28 fatta gli è venuta male ma è così no infatti quel Hai ragione non non l'avevo
+25:36 forse pensavo fosse lì fosse lì il problema no no no no non è quello quindi
+25:42 i micro sono 0,012 per ottenere i milli i
+25:48 milli chiaramente sono molti di più perché c'è un 10^ ter come fattore di
+25:53 trasformazione d'accordo per cui in realtà che cosa sono
+25:59 0,012 milli io li devo moltiplicare per 10^ ter per ottenere i micro questo vi
+26:05 torna come operazione
+26:11 10^-3 10^ ter perché devo per 1000
+26:17 sì 10^ ter è 1000 di fatto e e ottengo i micro perché 0,12 milli sono in in in
+26:26 numero assoluto sono più grandi è un numero più grande scusami è un numero più piccolo rispetto a quanti
+26:33 [Musica] milli ottengo ok perché io a quanti
+26:38 micro scusate devo ottenere perché i milli sono 0,012 i micro che sono molto più piccoli sono molti di più
+26:46 sono un fattore 1000 di più allora bisogna dividere per 1000
+26:52 no no si moltiplica per trasformare da micro a milli si molti all se si sale si moltiplica se si se si no se si sale si
+26:60 divide e se si scende si moltiplica per 1000 sì dipende di quante classi bisogna saltare esatto lo le classe o scalone
+27:09 esatto scalone esatto però siccome io sono partita dai milli e voglio arrivare
+27:14 ai micro i micro son di più quindi moltiplico per Sì moltiplica per 1000 sì
+27:20 sì perto ok questo è quello che volevo a cui volevo arrivare quindi questi di per
+27:26 sé sono i milli quindi 0,012 * 10^ ter diventano i sono i micro scusate micro
+27:33 Henry ok e questa è un'equivalenza che è sicuramente vera in Henry questi
+27:41 micro diventano che cosa era questa la trasformazione che c'era qui sotto che non era che non era chiara di fatto non
+27:48 ve lo dico lasciatela perdere perché fa solo confusione eh di conseguenza come si fa
+27:55 a risolverlo in 10^ ter lo posso fare 0,012 si sposta la virgola a destra di 3
+28:01 quindi diventa 12 perché la virgola si ferma qui e quindi se lo voglio trasformare in mi in
+28:09 micro henry il risultato finale è 12 micro Henry ok
+28:17 sì ma è sempre alla men3 scusa eh ma è sempre alla men3 da cui siamo partiti o
+28:22 gli leviamo il meno davanti no perché lo stamo togliendo perché glielo stiamo togliendo perché in realtà da milli che
+28:31 è una quantità piccola ma comunque è una quantità di un certo livello scrive
+28:37 sempre 0,012 per 10^-3R giusto
+28:44 ah scusami per si è certo per descriverlo va descritto sempre 12 il
+28:50 0,012 meri va descritto sempre 0,012* 10^ -3R
+28:56 certo esatto e per descriverlo va descritto poi come si fa l'operazione è
+29:02 tutto un altro mondo no però quello che volevo dire è che se tu lavori inry devi
+29:08 trasformare i milli in rry e i micro in rry e poi lavori in
+29:16 rry e quello è il numero che andrai a moltiplicare se tu lavori se tu hai due
+29:22 misure micro e millry e vuoi metterle insieme puoi decidere di lavorare in
+29:27 milli o in micro sì purché tu lavori con la stessa misura quindi non è obbligatorio che tu lavori in hry
+29:34 che tra l'altro sui quiz penso non ci sia da fare la descrizione quindi
+29:39 bastava il calcolo no nel calcolo l'importante è che tu metta omogenee le
+29:46 misure quindi se hai una misura in micro e una misura in milli devono diventare o
+29:52 tutte e due micro o tutte e due milli ok a quel punto puoi fare le operazioni per comporle poi si vedrà degli esercizi
+29:59 insieme però quello che volevo farvi notare in sostanza a parte questa cosa
+30:04 di sotto della formula che secondo me è confusiva è che se io un milli lo voglio far
+30:10 diventare un'espressione in micro hry in realtà lo sto eleva cioè lo sto
+30:15 moltiplicando per 1000 quindi aumenta la quantità perché in realtà andando a
+30:21 prendere una diciamo una una certa misura e cercando di capire in una
+30:27 misura più piccola quanta roba c'è e ce n'è di piùitorna va moltiplicato certo se
+30:34 invece passo da una misura piccola tipo i 12 micro Henry lo voglio ritrasformare
+30:40 in milli a quel punto sì che devo mettere il 10^ -3 ritorna ok sì sì sì sì
+30:48 sì una frequenza la frequenza si misura in herz quindi hz eh di solito le
+30:55 frequenze si misurano in mahz quindi in queste sono misure grandi no stavolta
+31:00 quindi il mega ritorniamo nella nostra tabella di sopra il mega sono 10^
+31:06 6 ok come eh unità di grandezza quindi 144 MHz corrisponde a 144 milioni di Hz
+31:17 d'accordo quindi 6 zeri quindi si sposta sempre la virgola a destra di sei
+31:22 posizioni 144 * 10^ 6 Hz che equivale a 10 a 144 *
+31:29 10^ 6 per 10^ 0 Hz questo è un esercizio
+31:35 di stile puramente matematico per dirvi 10^ 0 in realtà fa 1 ed è come se non ci
+31:41 fosse e qui è solo per dirvi che esiste insomma la potenza di zero nella tabella
+31:48 lo vedete vedi c'è un 10^ 0 che equivale all'unità praticamente d'accordo quindi
+31:54 ce l'ho messo soltanto per quel motivo lì e e questa è una trasformazione da
+31:60 MHz a herz altro esempio la corrente la corrente di
+32:05 solito si misura in ampere ma spesso negli esercizi troverete anche lì i
+32:11 milli ampere spesso a volte anche i micro quindi una corrente di 1200 mamp
+32:18 corrisponde a 1,2 amp perché si sa perché comunque i milli sono 10^ -3 per
+32:24 cui si sposta la virgola verso sinistra e si trovano gli ampere misura più grande e quindi si divide
+32:33 ritorna se quindi passo da una misura piccola a una misura grande devo dividere per la potenza di 10 quindi il
+32:41 potenza negativa del 10 che devo aggiungere all'espressione se passo da una grandezza più grande diciamo così a
+32:49 una a una più piccola da un'unità di misura più grande a una più piccola allora in realtà moltiplico quindi uso
+32:56 una potenza positiva del 10 e sposto le virgole verso verso destra
+33:01 i watt anche lì una potenza di 500 W a quanti microWt
+33:07 corrisponde anche qui abbiamo i wat i micro che sono 10^ -6 quindi 500 W
+33:17 sono 500 eh milioni 500 milioni e
+33:24 500 milioni di micro micro ok che poi se
+33:30 li voglio esprimere in VAT e sono li devo li rimoltiplica questo era un po'
+33:35 il giochino che avevo messo nell'esercizio ma forse è più confusivo che altro ok c'ho messo un po' di
+33:42 esercizi anche qui quindi se vi fa voglia li facciamo insieme tanto
+33:49 per ditemelo eh se è troppa cioè se roba che che c'avete è già chiara e non e
+33:56 volete sorvolare si sorvola sennò No no facciamo Facciamo A quanti volte
+34:01 corrisponde una tensione di 0,22 che cos'è K ve lo ricordate kilo
+34:09 kv quindi passo da chilo a volt quindi da una cosa più grande a una cosa più
+34:17 piccola quindi moltiplico ok ok e all tre alla Sì sì 10^ ter sì
+34:27 una capacità di 10.000 picofarad a quanti nanofarad corrisponde
+34:35 ora qui tra pico e nano bisogna rivedere forse la tabella o ve lo ricordate è da 9 a 12 sì ok quindi da pico che è 12 si
+34:45 passa a nano che è che è nove ok quindi che si va a sinistra si da più piccolo a
+34:52 più grande quindi si deve dividere giusto sì di 3 1 e nan sono 10 nano 10
+35:01 ok a quanti millohm corrisponde una resistenza di 500
+35:08 micro si passa da micro a milli da più piccolo a più grande a -3
+35:15 ok quindi 0,5 0,5
+35:21 micromm ok collegando in serie tre
+35:27 resistenze e ora vi dovete ricordare qual è l'operazione la somma
+35:32 ok da 0,2 ohm la prima la seconda da 20m
+35:39 e la terza da 2000 micro che resistenza si ottiene in un circuito questo perché cosa l'
+35:46 rapportato micro millio ohm eh decidete voi per me è uguale basta che sia la
+35:52 stessa misura
+35:57 per esempio possiamo usare i milli che così sono No portiamo due cioè li li
+36:03 spostiamo tutti e due in due versi diversi però mi sembra che più o meno ci si potrebbe rapportare con un'unità di
+36:10 misura abbastanza omogenea quindi 20 milli 0,2 ohm in milli che cosa
+36:17 diventano 02 ohm eo tengo la tabella qui davant
+36:22 più grande a più piccolo 0,02
+36:28 no da più grande a più piccolo aumentaico m
+36:37 cosa dobbiamo portare 02 ohm a cosa scusate io è una proposta eh poi potete
+36:42 fa diverse però a microm e alla e e alla terza verrebbe
+36:47 200 micromi ok 22 m più 20 mill
+36:56 perfetto 2000 micro mancat a manciate le ho un corto a
+37:03 milli sono due 2 milli 2 milli quindi 20 + 200 22
+37:11 mm 20 + 200 e più 2 eh giusto corretto
+37:18 corretto quindi è importante che non cioè che non vi
+37:25 concentriate solo sul fatto che le resistenze in serie si sommano in
+37:31 parallelo si fa un'altra roba e non si sa non è quello non è solo quello
+37:37 l'esercizio no perché nel nelle righe si potrebbe nascondere un trabocchetto che
+37:43 è quello di magari esprimere le resistenze in unità di misura diverse e se non fai la trasformazione il
+37:48 risultato non va bene perché se sommi 02 e 2000 ti viene
+37:54 2020,02 e non è niente di giusto no rispetto a quello che invece è il risultato che si è calcolato d'accordo è
+38:01 vero con la tabella in mano è abbastanza semplice sì poi sai siccome son sempre le solite
+38:09 le grandezze alla fine quando hai incominciato a fare un po' di esercizi ti viene abbastanza naturale quindi non
+38:15 vi spaventate tanto alla fine son nano pico milli micro cioè son quelle le
+38:21 trasformazioni non è che poi vi fanno fare chissà quali i mega con i giga può
+38:27 capitare non ci sono tante altre tante altre trasformazioni eh nei negli esercizi son
+38:35 quelle che contano quindi sono alla fine son insomma son cinque le le grandezze
+38:43 da tenere abbastanza presenti e poi io ve le ho riportate praticamente tutte qua poi se uno la tabella se la ricorda
+38:51 meglio ma non importa tutta basta veramente queste quattro nelle grandezze
+38:56 grandi e le quattro corrispondenti nel nel piccolo eh quindi non non vi state a
+39:04 ammazzare per impararvi le Z e gliotta perché non me li ricordo neanch'io che
+39:10 sono una volta mi sono laureata tanto tempo fa ok quindi le grandezze che ci
+39:15 interessano si riducono a queste a queste otto ce ne sono quattro nel piccolo e quattro nel grande anche se
+39:22 poi sì chilo da chilo a a grandezza normale ma
+39:28 quello ci viene abbastanza facile perché il chilo ci si ricorda ci si lavora tutti i giorni
+39:36 ok andiamo avanti ah ora sul discorso trasformazione e
+39:43 potenze e e notazione esponenziale io avrei finito per cui se
+39:49 vi se volete fare altri esercizi o se volete se vi torna abbastanza magari
+39:55 esercitatevi per conto vostro e poi magari un'altra riprese si può fare
+40:01 verso verso fine corso quando siamo già prossimità dell'esame qualcuno
+40:07 dicesse "Oh guarda io proprio a me non mi entra in testa e ci si e magari si fa
+40:13 qualche cosa di di specifico insomma per cercare di di facilitarvi ulteriormente va
+40:22 bene se non avete domande non vi vedo io vado avanti." Vai qua Lucia però non ci
+40:29 sono alzate passo a un'altra a un altro concetto che
+40:35 è quello delle equazioni matematiche mh si dice equazione una dichiarazione di
+40:40 uguaglianza matematica dove tutto quello che appare alla sinistra del simbolo uguale è equivalente non è uguale è
+40:46 equivalente quindi ha lo stesso valore dell'espressione che si trova a destra dello stesso simbolo mh perché vi
+40:55 parlo di equazioni matematiche perché anche questo è un tema che vi ho sentito ogni tanto trattare nei corsi insomma
+41:03 durante le lezioni perché le formule di fatto rappresentano delle equazioni
+41:08 matematiche perché nelle formule abbiamo un uguale che separa due quantità che di
+41:15 per sé sono equivalenti cioè quello che sta a sinistra dell'uguale equivale allo
+41:22 stesso valore eh di quello che sta a destra dell'uguale io ve ne ho messe tre
+41:27 abbastanza elementari nel senso sono le prime che si trovano la formula della
+41:33 corrente che è la quantità di carica per unità di tempo la la tensione e la legge
+41:40 di ohm sostanza che è resistenza per per corrente e la
+41:47 potenza che è tensione per corrente d'accordo sono tre espressioni che forse
+41:54 avete già visto spesso eh qual è l'invito anche qui non
+42:02 spendete troppo tempo a impararvi tutte le formule e tutte le formule inverse perché passare da una formula dire da un
+42:09 da un'uguaglianza a un'altra uguaglianza diversa ma ma
+42:15 ugualmente valida non è difficile le regole sono poche e qui proviamo ad
+42:22 approfondire il discorso anche qui sembra difficile però è qualcosa che avete sicuramente già fatto a scuola
+42:29 anzi c'è qualche ragazzetto che un po' che ho sentito parlare prima che forse ci potrebbe insegnare a risolvere queste
+42:37 equazione per cui sono solo dei concetti da riprendere e da rinfrescare ma sono abbastanza
+42:45 facili eh come si risolvono le equazioni allora si è detto intanto che si parte
+42:50 da un'uguaglianza matematica e vuol dire che quello che c'ho da una parte
+42:56 dell'uguale è equivalente a quello che c'ho da quell'altra parte questo è un principio fondamentale perché se io c'ho
+43:03 due cose che di per sé hanno lo stesso valore tutto quello che faccio alla sinistra lo faccio anche alla destra il
+43:11 valore rimane comunque uguale cambia di per sé ma continu continueranno a
+43:16 rimanere uguali perché se io ho un valore e lo moltiplico per qualcosa e ho
+43:22 lo stesso valore dall'altra parte lo moltiplico per la stessa cosa quello che ottengo se erano uguali prima continuano
+43:29 a rimanere uguali anche dopo se hai due valori che continuano a essere uguali io tolgo la stessa quantità a destra e a
+43:36 sinistra se erano uguali prima continuano a essere uguali anche dopo su questo ci siamo quindi di fatto togliere
+43:45 aggiungere dividere moltiplicare estrazione di radice può
+43:50 avere delle complicazioni a livello matematico perché quello che sta sotto la radice deve essere positivo e ci sono delle complicazioni ma tanto le radici
+43:57 nelle nelle risoluzioni nelle equazioni di primo grado non le trovate quindi siam tranquilli
+44:04 sommo tolgo divido moltiplico il risultato purché io lo faccia a destra a
+44:09 sinistra nello stesso modo il risultato dell'equivalenza non cambia cioè l'equivalenza rimane
+44:15 un'equivalenza cambiano i valori a destra a sinistra ma di fatto continuano a essere uguali erano uguali prima e
+44:22 saranno uguali anche dopo perché vi dico questo perché
+44:28 normalmente per risolvere un'equazione lineare in questo caso un'incognita vi
+44:33 parlo di equazioni lineari perché poi quelle di secondo grado vi ripeto cioè di mezzo all'estrazione delle radici c'è
+44:38 da fare dei ragionamenti un pochino più complicati però se io c'ho una equazione dove ho
+44:45 un'incognita quindi un valore che non mi è noto e lo voglio
+44:50 determinare per poterlo determinare basta che tutto quello che è noto in qualche maniera io cerchi di spostarlo
+44:57 da una parte dell'uguale e quella che all'incognita cerco di isolarla dall'altra parte in modo tale che alla
+45:03 fine il risultato di tutto questo giochino sia l'incognita uguale a un valore noto ok quindi io parto da
+45:11 un'espressione non vedo più dove c'ho il mouse ma prima o poi tornerà eccolo da un'espressione come questa che è
+45:18 un'uguaglianza cioè 3x + 6 questo mi dice che è uguale a 12 equivale a 12 non
+45:25 è uguale equivale a 12 ok si si deduce che 3x + 6 è un valore che di per sé è
+45:33 proprio 12 ok come faccio a risolvere a sapere quanto deve valere la x perché
+45:39 questa sia effettivamente un'uguaglianza devo isolare si dice la x al primo
+45:45 membro quindi a sinistra dell'uguale posso metterla anche a destra purché rimanga sola va bene come si fa a
+45:53 isolarla intanto tutti quelli che sono i termini a sommare a sottrarre li porto
+45:59 dall'altra parte come si fa a portarli dall'altra parte in realtà io posso per esempio in questa operazione qui faccio
+46:08 faccio il primo passaggio tanto l'avevo già scritta e quindi è svolta la vediamo già qua posso togliere a tutti e due i
+46:15 termini quello a destra e quello a sinistra un 6 quindi questo 6 di fatto diventa 6 -
+46:23 3x + 6 - 6 12 - 6 Io che cosa ho fatto ho tolto un 6 a tutti e due erano uguali
+46:31 prima saranno uguali anche dopo il risultato è che qui 6 - 6 mi va via
+46:37 tutto dall'altra parte mi rimane un 12 - 6 che di per sé fa 6 d'accordo e e la x
+46:44 è rimasta un po' più sola ma non è proprio sola perché c'è un 3 a moltiplicare vogliamo togliere anche lui
+46:50 quindi che cosa si fa se c'ho un tre a moltiplicare che farò per toglierlo
+46:57 dividerò ritorna quindi divido per 3 a destra ma
+47:03 perché l'identità rimanga l'uguaglianza rimanga un'uguaglianza devo dividere anche a sinistra d'accordo
+47:10 questa è l'operazione che faccio a quel punto il 3 con il 3 si semplifica il 6 / 3 diventa 2 e quindi si ottiene che x è
+47:18 = 2 cioè questa è la teoria
+47:25 3x la teoria è anche la pratica se la domanda la domanda originale la
+47:33 domanda originale era quanto deve valere x perché 3x + 6 sia uguale a 12 la
+47:40 risposta è la x deve valere 2 oppure la domanda potrebbe essere quanto vale
+47:48 x nell'espressione 3x + 6 = 12 dando per dato che l'uguaglianza è vera x vale 2
+47:55 ok quindi nelle formule in realtà la la domanda è del secondo tipo cioè quanto
+48:01 vale quella grandezza in questa formula che magari
+48:06 la grandezza me la trovo mescolata ad altre eccetera e e si risolve
+48:11 un'equazione di primo grado eh esattamente come si è fatto prima anche più semplice perché in questo caso
+48:17 magari non c'è da fa tutte sottrazioni qualche divisione ci basta qualche moltiplicazione
+48:23 anche andiamo a vedere un esercizio vi va anche questo è svolto ma ve lo potete
+48:29 incominciare a a pensare senza guardare la soluzione senza leggere la soluzione ho un circuito costituito da
+48:37 una batteria da 20 V e una resistenza e nel circuito circola una corrente di 200
+48:44 m la domanda è quanto vale la resistenza e poi c'è un'altra domanda e
+48:50 se la resistanza fosse da 50 ohm che batteria ci vorrebbe per mantenere la stessa corrente nel circuito quindi ho
+48:57 due questioni da risolvere ok partiamo dalla prima quanto vale la
+49:03 resistenza come si fa a trovare la resistenza in un circuito dove io ho la
+49:11 tensione e ho la corrente quale legge dovrò usare ve lo
+49:17 ricordate di ohm uso la legge di ohm la legge di ohm diretta dice che i =
+49:26 v/ R ok quindi però qua mi sta chiedendo la
+49:31 resistenza quindi in realtà io R e ce l'ho come è la mia incognita e c è
+49:38 quello che io voglio trovare e ce l'ho al denominatore di una frazione e insomma
+49:44 un po' un po' noia mi dà perché io lo devo isolare a destra di un a destra o a
+49:50 sinistra non importa poi dove va a finire però purché sia isolato in una parte dell'uguale ma deve rimanere R
+49:57 uguale a qualcosa ok quindi questa è una è la nostra equazione di primo grado
+50:03 dove noi dobbiamo isolare la r non la x in questo caso ma la r
+50:08 ok e quindi che cosa si fa anche qui si fa lo stesso lavoro se voglio togliere
+50:13 dal denominatore di questa uguaglianza qualcosa per poterlo togliere faccio
+50:20 l'operazione inversa quindi moltiplico a destra e a sinistra perché quello che faccio a destra lo devo fare anche a
+50:25 sinistra altrimenti non funziona l'uguaglianza non rimane tale va bene
+50:31 quindi se io moltiplico a destra e a sinistra per r che cosa succede che da
+50:36 una parte mi diventa un fattore della mia formula e da quell'altra parte si semplifica perché r al numeratore al
+50:44 denominatore e la frazione vanno via va bene fa 1 la divisione mi rimane una r *
+50:51 i = v d'accordo ma anche qui la r non è da
+50:57 sola perché o queste era son si sono semplificate eh facciamo più veloce senò
+51:04 la r non è da sola perché è moltiplicata per la i quindi voglio isolarla che cosa
+51:09 posso fare posso dividere entrambi i termini per una i e quindi fare in modo
+51:15 che questa si semplifichi con questa e la viviso I a questo punto io ho una
+51:22 formula che è diventata una formula in R che è la mia
+51:27 incognita dove io so quanto vale V e so quanto vale I quindi R = V / I lo so
+51:33 fare di sicuro no ma R = V / I v so che sono 20
+51:45 V i sono 200 m
+51:51 ma la resistenza gli ohm in realtà
+51:57 sono volt diviso ampere non sono
+52:05 volamp ritorna ho detto una roba che vi è chiara sì sì cioè cioè io non posso
+52:13 dividere i volt per i amp per eh devo dividere i volt per gli ampere quindi
+52:19 questi 200 mamp io li devo trasformare in ampere prima di metterli dentro la formula sennò non
+52:26 funziona siam d'accordo quindi 200 m in ampere quanto diventano si passa da
+52:33 piccolo a più grande 0,2 amp 0,2 amp quindi o 200 in 10^ -3 amp come c'è
+52:41 scritto poi nella nella soluzione d'accordo quindi quello che si fa è si
+52:47 trasforma i milliamp in ampere si sostituisce tutto nella formula si svolgono i calcoli il risultato sono
+52:55 volte diviso ampere diventano ohm chiaramente nella formula ma sono di per sé è un'unità di misura anche anche
+53:02 quella eh voltat ampere sono diventano ohm ma ma potrebbero rimanere volt
+53:07 diviso per se non se non avesse ohm inventato la sua unità di misura e 2 eh/
+53:14 0,2 diventa 100
+53:19 d'accordo a questo punto però c'è un'altra domanda che ci viene posta e se la resistenza fosse da 50 ohm che
+53:27 batteria ci vorrebbe per mantenere la stessa corrente nel circuito cioè a questo punto a me mi stan
+53:33 chiedendo la tensione quindi io parto da la stessa
+53:39 formula che avevo a questo punto la formula io la la resistenza ce
+53:46 l'ho mi mi serve la la V quindi dalla stessa formula da cui ero partita è
+53:51 uguale a V/ R in realtà chi devo isolare in questo caso io sto chiedendo quanto
+53:57 vale la tensione quindi devo isolare
+54:02 questa di conseguenza posso partire dal moltiplicare tutto per Rist per esempio
+54:10 perché siamo qua v = I * R moltiplico scusami I = V/ R moltiplico a destra a
+54:18 sinistra per R r al denominatore va via qua rimane a moltiplicare diventa R * I
+54:26 = V e c'ho la mia formula metà metà resistenza
+54:33 metà voltaggio esatto metà Sì sì certo ma non è
+54:40 semplice però capito cioè io parto sempre dalla la mia formula cioè la mia legge di ohm
+54:47 è sempre la solita uguale a V/ R io non me ne devo imparare
+54:53 cinque di formule me ne devo imparare una io uguale a V/ R poi se mi serve R
+54:58 moltiplico a destra e a sinistra per R e divido per I e a quel punto mi viene R =
+55:05 V/ I se voglio la V moltiplico a destra sinistra per R e mi viene R * I = V se
+55:13 voglio la i la tengo così diretta d'accordo però è sempre la stessa forma ma conviene di più ricordarsi più uguale
+55:21 I * R oh sì certo partire dalla
+55:26 moltiplicazione che poi se uno va di là con l'uguale lo passa di sotto e si fa
+55:32 un po' prima quello come vi come vi piace a voi a me a me io io sono una purista e per me la
+55:39 legge di Om è questo e quellalre sono tutte derivate capito però va bene cioè
+55:45 è chiaro che per voi è bene cioè per ciascuno di noi è bene che ognuno si si
+55:51 sforzi il meno possibile per ricordarsi le formule per cui se vi viene naturale eh V = I *
+55:57 R va benissimo l'importante è che poi sappiate ricavare tutte le
+56:03 altre eh incognite per così dire tutte le altre quantità da quella da
+56:09 quell'unica formula e senza doverle per forza ricordare tutte ogni volta o anche se ve le ricordate tutte in caso di un
+56:16 dubbio dell'ultimo secondo la potete sempre andare a ricavare da quella che di certo vi ricordate che è quella buona
+56:23 insomma quindi se è detto V = I * R si sostituisce qui si parla di m anche qui
+56:31 0,2 amp perché gli ampere li avevamo già trasformati prima per cui si sapeva quanti erano si moltipliano per gli ohm
+56:38 e si ottengono i volt eh la calcolatrice fa comodo eh quindi
+56:45 portatevela all'esame perché è vero che tanti tanti calcoli le formule si fanno
+56:53 anche sulla carta però poi alla fine calcolone cioè l'alcolatrice vi aiuta
+57:00 tanto per cui portatevela perché poi su alcun a un certo punto vi serve cioè
+57:06 avete svolto tutto quello che volete ma a un certo punto dovete fare delle moltiplicazioni delle divisioni dei
+57:11 logaritmi si vedrà poi più avanti quindi ok un altro consiglio è anche per
+57:19 ricordarsela è eseguire delle delle moltiplicazioni divisioni con i numeri
+57:25 per esempio se la legge di ohm è V = R * I quindi sarà 10 = 5 * 2 supponiamolo
+57:34 quindi 2 è 10 / 5 5 10 / 2 se uno se uno non si ricorda le
+57:42 formule inverse basta ricordarsi la prima fa un calcolo matematico con numeri presi a caso e da
+57:49 lì trova le altre formule corretto è un metodo che si può usare
+57:56 assolutamente sì un altro esercizio dato un circuito costituito da
+58:02 una batteria da 20 V una resistenza da 50 ohm determina la potenza
+58:08 dissipata quanti millor corrente circolano eh sì determinato potenza dissipata il
+58:15 primo e il secondo quesito è quanti millere di corrente circola nel
+58:22 circuito qui la formula della potenza dissipata è P = V * I
+58:29 la legge di ohm ci dice che I è V / R e qui possiamo fare una sostituzione P = V
+58:36 * I alla I possiamo sostituire
+58:41 l'equivalente valore perché questo si può fare nelle equazioni cioè io posso a
+58:49 una quantità sostituirne un equivalente ok quindi nella formula della potenza dissipata
+58:57 che è questa io posso sostituire alla I l'equivalente della legge di ohm che è
+59:04 V / R quello che ottengo è una nuova formula che è questa ma espressa
+59:10 soltanto in tensione e resistenza quindi la corrente me la posso scordare siccome in questo esercizio io ho tensione e
+59:18 resistenza con questa formula non ho più problemi perché la i se n'è andata
+59:24 d'accordo però è equivalente alla precedente perché io al posto della I ho messo la sua
+59:29 espressione in nella legge di ohm ok poi V * V diventa V qu e la Rimane il
+59:37 denominatore quindi questo è sostituendo le le grandezze si ottiene poi il
+59:43 risultato che sono 8 W in questo caso
+59:49 ok vi vi torna
+59:54 è chiaro che se poi invece l'esercizio fosse trovami la corrente perché poi c'è
+59:60 l'altra domanda no ma quanti 1000 amp di corrente circolano nel circuito eh
+60:05 ops allora devo trovare la corrente 200
+60:10 ok perché a quel punto io ho comunque la tensione ho comunque la la resistenza
+60:17 quindi facendo tensione diviso resistenza ottengo poi la corrente va
+60:23 bene potevo anche calcolarmi prima la corrente
+60:28 sostituire la corrente che è 200 eh 200 amp per i volt che erano 20 V e
+60:38 mi veniva comunque il risultato che che ci sveva prima sulla
+60:44 potenza d'accordo
+60:49 io farei un intervallino perché ora si passa a un altro argomento e quindi questi questi
+60:55 un po' ce li dimentichiamo per andare a a fare fare altro poi poi vedremo perché
+61:01 e cosa eh fate domande se volete se vi volete
+61:07 prendere un caffè fatelo che ore sono 22:17 abbiamo anche poco tempo per per
+61:13 andare oltre per cui non prenderei più di 13 minuti di pausa per poi fare anche
+61:21 lo step successivo che saranno i logaritmi bene grazie Lucia approfittiamo per
+61:28 rilassare un attimo la mente perché sicuramente ne abb ne abbiamo tutti
+61:34 bisogno che Lucia è micidiale no tirati fuori dubbi
+61:40 perplessità cioè quello sì eh cioè se impressioni anche perché insomma uno
+61:46 dice "Oh mamma mia mi è sembrato facilissimo tutto a posto" e va
+61:51 bene vi è sembrato un incubo allora parliamone perché non è un incubo
+61:57 insomma non è semplicemente un metodo no che dobbiamo trovare poi sento che
+62:04 diversi di voi un metodo ce l'hanno per cui è è tutto è tutto in discesa lucia
+62:10 sono metodi che mi ricordo la scuola avendo fatto il scientifico quindi io in
+62:16 teoria che ora non mi ricordo più nulla perché con l'avanzare dell'età uno più che altro non è l'avanzare dell'età è
+62:22 che non si mettano mai in pratica quindi non mettendole mai in pratica
+62:28 eh integrali derivate eh cioè si perdano se uno non fa
+62:34 esercizio ripetuto capito quindi espressioni primo grado espressioni secondo grado ci si può arrivare capito
+62:41 di e come tutta la geometria analitica po' ma per il resto quando poi si
+62:47 comincia a fare integrali e poi logaritmi quelli proprio ormai
+62:53 sono chissà dove sono andato a finire all'interno del cervello come come
+62:58 ricordo ecco perché dicevo prima dobbiamo fare noi son facili
+63:04 ecco perché prima dicevo andavo più che altro saltavo dei passaggi no cioè il te
+63:10 hai spiegato perfettamente qual era il funzionamento del moltiplicare o
+63:17 dividere con la stessa cifra per annullare quando poi mi ricordo bene a
+63:23 scuola si diceva "Ok si passa dall'altra parte quindi se è di sopra va di sotto
+63:29 come se è in più va in meno." Cioè si faceva prima poi arrivare a fare le cose
+63:35 Sì quando uno ce l'ha quando uno ce l'ha nella nella testa lo fa e e Sì e deviene
+63:41 in automatico farlo questo lavoro assolutamente sì non si fa più neanche la semplificazione però quello quello
+63:47 che volevo darvi come strumento è che in realtà deriva tutto da da un'equivalenza
+63:53 no dal fatto che io ho un due termini che sono uguali e tutto quello che faccio a destra lo faccio anche a sinistra e rimangono uguali questo è
+63:59 quello che conta no ed è per quello che si fa poi quell'altra cosa perché sennò non si farebbe lì esatto da lì porto a
+64:07 destra porto a sinistra perché poi porto a destra e cambio di segno ma perché devo cambiare il disegno no la serie
+64:13 ecco perché dice lo porto di là e va e va il denominatore ma perché perché
+64:19 denominatore quindi in realtà cioè se non è una cosa
+64:25 che che hai fatto che ti ricordi perché l'hai fatto a scuola è evidente che è meglio parti da lì però son d'accordo
+64:32 con te una volta che uno l'ha fatto e l'ha capito poi lo è un automatismo che fai porta a destra porta a sinistra e
+64:40 non non ci sta neanche più a pensare c'è una mano alzata alessandro
+64:46 sì eccomi buonasera niente io ho trovato molto interessante le operazioni con i numeri inversi per esempio cioè facendo
+64:54 per fare le somme dei valori delle resistenze non so in parallelo oppure dei condensatori in serie secondo me
+65:01 quello lì è una cosa che mi ha mi ha aiutato molto diciamo quindi potrebbe fare un cenno anche su
+65:07 quella cosa lì insomma su queste operazioni molto basilare con i numeri inversi
+65:15 sì che poi sono son sempre le potenze del 10 eh nel senso alla fine
+65:22 sono Roberto scusami non ti sentiamo sei muto
+65:30 buonasera mi sente sì ok io mi stavo
+65:35 ascoltando la lezione ed è la prima volta che tra l'altro entro in in
+65:42 contatto con voi ehm e quindi mi trovo molto in
+65:47 difficoltà non avendo una certa età quindi e non essendo più di scuola però
+65:53 è interessante la cosa penso di essere credo di essere nel posto giusto per quello che voglio fare
+66:01 allora rispondo io un attimo lucia intanto piacere di averti di averti tra
+66:07 noi Roberto e questo naturalmente è la lezione diciamo eh più meno
+66:15 radiantistica che tu potevi trovare ma ma non è vero nemmeno questo Lucia perché questo comunque ci aiuta un
+66:22 attimo a a capire quello che purtroppo te Roberto ancora non hai e avrai a
+66:28 momenti le lezioni passate quindi poi quando avrai la possibilità di rivedere
+66:34 le registrazioni arriverai a capire cioè a capire a comprendere meglio scusami
+66:40 anche quello che sta facendo stasera Lucia per ora diciamo prendiamola così ecco cioè
+66:46 prendila così va bene Roberto certo certamente io è interessantissimo
+66:52 quello che state facendo tra altre cose mi si apre un mondo tutto tutto nuovo e non devo altro che ascoltare e seguirvi
+66:60 prego bene ti ringraziamo per essere con noi mh prego lucia scusami vai vai no no
+67:08 era era solo per dire che non non vi spaventi perché io ho provato a metterci
+67:14 un po' di radio eh nei circuiti che comunque son insomma temi che che si
+67:19 affrontano all'esame radiotecnica per cui giusto
+67:25 perché lo lo scopo è proprio quello di darvi degli strumenti matematici minimo
+67:31 indispensabili per arrivare fino a alla soluzione di un compito che normalmente
+67:38 pone dei quesiti abbastanza semplici da un punto di vista matematico scientifico
+67:44 relativamente semplici perché comunque uno deve conoscere quantomeno le formule però insomma diciamo che di matematica
+67:50 non ce n'è tanta c'è giusto quella che vi ho fatto vedere stasera però ecco è poco è sicuramente
+67:58 una delle cose che uno lascia o le lasci per ulti o cline e sangue per cui le fai
+68:04 volando sennò le lasci proprio cioè son quelle che non non ti non hai neanche
+68:10 voglia di di affrontare no di stare a pensare a quanti che potenza del 10 equivale il
+68:17 milli perché ma figurati cioè già mi sta difficile imparare la formula per cui
+68:24 figurati se penso alla trasformazione dei numeri però in realtà c'è anche quello ecco per cui è un elemento solo
+68:31 da tenere in considerazione non è Quindi è solo per riprendere questi temi perché
+68:36 sono temi che ci sono e uno perdersi in una domanda d'esame solo perché non si è ricordato come fare una
+68:43 trasformazione sarebbe un peccato
+68:49 però sì di radio ce n'è poca anche perché se si vuol passare poi a quella
+68:55 che è effettivamente lo lo studio di apparecchi complessi dove la matematica
+69:00 ce n'è ce n'è tanta ci sono gli integrali ci sono le derivate ci sono delle robe che vanno ben oltre alla
+69:07 matematica si sta guardando stasera
+69:12 no no ma le nozioni ci stai dando Lucia sono più che sufficienti per affrontare
+69:18 l'esame eh questo ve lo dice uno che lo ha passato pochi anni fa e quindi sono
+69:26 più che sufficienti questo ve lo confermo luè io sarei quasi per
+69:32 riprendere così magari se finiamo un po' prima eh anche meglio vero eh eh bra eh
+69:39 va bene eh se va bene a tutti eh se va bene a tutti eh se tutti sono d'accordo senz'altro
+69:46 sì sì io in questo momento vi posso seguire un po' meglio perché le bimbe sono tutte e
+69:52 due a letto meglio peranno lasciato libera sì quando l'hai stato tranquilla ora a
+69:60 seguito della lezione bene vai Luci a te perfetto allora un altro concetto che vi
+70:07 servirà è quello di logaritmo perché vabbè intanto come si cosa si
+70:12 cosa vuol dire logaritmo si definisce logaritmo in base z si parla sempre di
+70:18 base e argomento nei logaritmi quindi un logaritmo è è una è una funzione che
+70:26 ha una base e un argomento la base si indica di solito in basso vicino alla G
+70:33 come pedice della G e l'argomento è quello che segue il il simbolo di
+70:38 logaritmo quindi logaritmo si esprime come log la base è vicina alla G in basso e
+70:45 l'argomento è o tra parentesi o libero come in questo caso eh scritto vicino al
+70:51 logaritmo logaritmo si definisce in base z di argomento y si definisce come
+70:57 l'esponente da dare alla base z per ottenere l'argomento y ossia quel numero
+71:03 x tale che z ^ x fa y e questo può essere complicato però se
+71:09 si fa degli esempi vedrete che sono molto più semplici i logaritmi più utilizzati più comuni diciamo sono
+71:16 quello in base 10 che si indica spesso con log dove il 10 viene proprio messo a
+71:24 volte si scrive come l'ho scritto qui log in base 10 in questo caso il logaritmo in base 10 di 1000 che è
+71:31 uguale a 3 cioè l'esponente da dare a 10 per ottenere 1000 è 3 10^ ter fa 1000
+71:38 ok il 10 si omette perché è uno dei dei de dei scusate de dei logaritmi più
+71:45 comuni quindi si può scrivere log di 1000 = 3 e si sottintende che la base è
+71:50 10 ok un altro che si può trovare spesso nella matematica è il logaritmo naturale
+71:56 si chiama che è quello in base e dove e è un numerino eh irrazionale che il
+72:02 numero di di nepero vale circa 2,71 2718 e qualcosa c'ho infinite cifre decimali
+72:09 per cui non ve lo sto non ne so neanche 10 ne so forse quattro
+72:14 eh non ci serve in questo momento il logaritmo naturale però è è comunque in
+72:20 base e quindi che cosa vuol dire vuol dire che per esempio nell'esempio che vi
+72:25 ho portato qui sotto logaritmo naturale di e fa 1 perché l'esponente da dare ad
+72:31 e per ottenere e se stesso è è proprio uno cioè e elevata alla prima fa e
+72:40 eh quindi cosa vi dovete ricordare del logaritmo che parleremo spesso di di logaritmi
+72:47 anzi in questa in questa lezione solo di logaritmo in base 10 ma trattandosi comunque di di un
+72:55 esponenziale di un esponente valgono le regole degli esponenti delle potenze e e
+73:01 lo dovete pensare come potenza perché è più facile perché se lo pensate come
+73:06 logaritmo dalla dalla definizione ci si fonde è l'esponente da dare a 10 per
+73:12 ottenere quello che c'è scritto a fianco al logaritmo per ottenere l'argomento se
+73:18 lo pensate in quei termini lì diventa già molto più semplice per calcolarlo non vi spaventate si usa la calcolatrice
+73:25 io vi ho condiviso lo schermo per cui vedrete anche la calcolatrice qui c'abbiamo chiaramente degli esempi se io
+73:32 devo calcolare il logaritmo di 12 che vuol dire logaritmo in base 10 di 12 che
+73:38 vuol dire l'esponente da dare a 10 per ottenere 12 scrivo 12 l'argomento e poi
+73:44 clicco sul clicco sì cliccate o premete il bottone
+73:49 non so che che calcolatrice c'avete sul log anche in questo caso vedete ci sono due
+73:56 logaritmi log si intende il logaritmo in base 10 ln invece è il logaritmo naturale quello che vi dicevo prima però
+74:02 ln per fortuna a noi non ci serve quindi per calcolare il logaritmo non si fa altro che scrive l'argomento e e preme
+74:10 log va bene questo è il modo in cui si calcola il logaritmo dentro una
+74:19 calcolatrice però siccome è una fondamentalmente una potenza che è
+74:25 l'esponente da dare alla base per ottenere un argomento quello che vale per i logaritmi è molto simile a quello
+74:32 che vale per le potenze per cui per facilitare o forse no il
+74:38 compito e la comprensione ho riportato l'algebra degli esponenti e e i casi particolari
+74:45 le proprietà delle potenze sono pochi eh non sono tutte le proprietà delle sono alcune quelle più comune che possono
+74:53 diciamo in qualche modo aiutarci a risolvere i gli esercizi che ci serve
+74:58 risolvere che saranno molto semplici vedete già questi sono più difficili di quelli vi troverete all'esame però a me
+75:03 servono anche per darvi delle per darvi un una come dire un un una visione un
+75:12 pochino più generale non semplicemente una nozione no per cercare di farvi capire di che si sta parlando casi
+75:19 particolari chiaramente delle potenze nelle potenze la potenza la prima
+75:25 potenza quindi ogni eh x elev 1 fa sempre x è uguale a se stessa ogni
+75:31 numero elevato alla prima è sempre uguale a se stesso quindi che cosa vuol
+75:37 dire questo che 10 che è la base del nostro logaritmo elevata alla prima fa 10 quindi vuol dire che l'esponente da
+75:44 dare a 10 per ottenere 10 è 1 e questo è il prima regola cioè il la prima regola
+75:50 poi non è neanche una regola semplicemente un dato di fatto il logaritmo in base 10 di 10 è 1 aiuta
+75:56 perché se io devo calcolare il logaritmo di 10 per l'appunto non uso neanche la calcolatrice perché so che è uno va bene
+76:03 mentre un'altra regola che è un po' più particolare questa viene proprio da chi
+76:09 ha fatto il liceo se la ricorda chi ha fatto forse qualche altra scuola ci si dimentica però insomma è abbastanza nota
+76:16 ogni numero elevato alla 0 fa 1 direte perché non lo so è una convenzione ogni
+76:22 numero elevato alla 0 fa 1 quindi 10^ 0 fa 1 quindi il logaritmo in base 10 di 1
+76:29 è 0 tutti i logaritmi di 1 sono 0 perché
+76:34 ogni numero elevato alla 0 fa 0 ok quindi logaritmo in base qualunque di 1
+76:39 è 0 poi in realtà quali altri eh diciamo
+76:47 quali sono qual è l'algebra degli esponenti che poi si trasponde su quelle
+76:52 che sono le regole e le proprietà del del logaritmo
+76:57 spero ve le ricordiate ma sono abbastanza diciamo semplici da intuire
+77:03 se io ho due numeri che hanno la stessa base due potenze scusate che hanno la
+77:09 stessa base come in questo caso aspettate che prendo il puntatore che almeno mi
+77:14 aiuta a^ x mplicato per A^ y io posso
+77:21 esprimere questa questo prodotto come a e elevato alla somma degli esponenti
+77:27 quindi quando ho una moltiplicazione di due numeri che hanno la stessa base due potenze che hanno la stessa base sommo
+77:34 gli esponenti e uso la base ok quindi questa è la prima
+77:39 regola se ho un esponente negativo quando trovo una una potenza che ha un
+77:46 esponente negativo io posso fare l'inverso di quel di quella base
+77:52 elevando il denominatore alla potenza quindi 1 a^ - x equivale a 1/ a^
+77:58 x ok e l'altra regola è che la potenza di
+78:04 potenza equivale al prodotto degli esponenti quindi se io ho una base
+78:09 elevata a un numero elevata anche a ancora un altro numero il risultato è la
+78:15 base elevata al prodotto delle degli esponenti esempio se ho un 10^ ter tutto
+78:23 elevato alla terà a farlo 10^
+78:31 3 alla terza quanto fa 10^9
+78:37 10^9 ok questo è deriva da questa regolina
+78:44 qui se ho un prodotto di due potenze che hanno lo stesso esponente ma basi
+78:51 diverse posso scriverlo ed è equivalente al prodotto delle basi elevate
+78:58 all'esponente ok e si può fare anche la cosa inversa cioè
+79:03 se c'ho un prodotto elevato a una potenza in realtà equivalente al prodotto delle potenze
+79:10 eh da queste regole di sopra si deriva anche che se io c'ho la stessa base con
+79:17 al numeratore la potenza di x e al denominatore la potenza di y le due potenze si sottraggono ma perché in
+79:24 realtà il denominatore lo posso scrivere come a^ - y e quindi è un a^ x * a ^ - y
+79:31 e quindi è un a^ x - y va bene che è che è la regola è la prima regola mescolata
+79:38 con quella seconda ma sono son sempre parenti per così dire la stessa cosa per
+79:43 la divisione come ho un prodotto eh nel caso del prodotto avevo
+79:49 il prodotto delle potenze equivale al al potenza del prodotto nel caso della
+79:55 divisione la divisione delle delle potenze equivale alla potenza del della
+80:01 frazione della divisione va bene quindi sono tutte derivabili da dalle
+80:07 prime quattro per così dire che sono forse quelle più più utilizzate più
+80:13 note e qui il silenzio di Tomma non servono tanto per cui ve le ho dette
+80:19 perché vi entri nell'orecchio soprattutto vi serve sapere questo che è
+80:24 una roba abbastanza utilizzata che il prodotto di due potenze equivale alla base con la stessa base equivale alla
+80:31 base elevata alla somma degli esponenti e questa si trasponde facilmente sui
+80:38 logaritmi quali sono le proprietà dei logaritmi intanto il logaritmo essendo la la
+80:46 essendo la potenza da dare a 10 per ottenere l'argomento 10 elev logaritmo
+80:51 dell'argomento è uguale all'argomento ok 10 elev al logaritmo 2 è ug 10 elevato
+81:01 al logaritmo 25 è
+81:06 ug per definizione se questo è l'esponente da dare a 10 per ottenere
+81:12 questo e è per forza così per definizione non c'è neanche un calcolo
+81:18 che te lo dice l'altra cosa invece interessante è questa che un po' è la trasposizione della regola che vi dicevo
+81:24 prima del prodotto di potenze cioè il logaritmo di un prodotto in realtà lo
+81:31 posso scrivere come somma dei logaritmi delle dei fattori ok quindi logaritmo 2
+81:39 * 3 per esempio lo posso scrivere come logaritmo 2 + logaritmo
+81:44 3 e un'altra proprietà che potremmo trovare utile è quella che il logaritmo
+81:51 di una potenza equivale alla al all'esponente moltiplicato per il
+81:56 logaritmo della base quindi logaritmo 2^ ter è uguale a 3 * il
+82:03 logaritmo 2 e l'altra che forse paradossalmente
+82:11 potrebbe essere forse la più utile che il logaritmo di un rapporto è uguale alla differenza de dei logaritmi del
+82:19 numeratore meno il denominatore del rapporto ok delle basi quindi questa
+82:28 qui è un pochino questa forse son quelle che ci aiuteranno di più ne laddove i
+82:36 logaritmi vengono utilizzati nel nel radiantismo a cosa servono i logaritmi non ve lo devo dire io perché ve lo dirà
+82:42 Paolo quando sarà il momento quindi non ve lo non vi spoilero
+82:47 niente ma qualcuno di voi probabilmente lo sa di già butto là solo degli esercizi che
+82:54 possiamo andare a svolgere se volete
+82:59 eh e poi quando quando Paolo vi anticiperà l'argomento voi saprete già
+83:05 benissimo come fare a fare i calcoli allora gli esercizi sono di due
+83:12 nature una i primi due sono proprio espressioni in cui si deve semplicemente
+83:18 fare un calcolo semplice che potete fare o usando le regole
+83:24 della delle potenze dei logaritmi che vi facevo vedere prima o anche semplicemente usando la calcolatrice e e
+83:31 facendo quello che che c'è scritto nell'espressione per esempio questa
+83:37 prima 3 * log 2 + log 3 io mi posso mettere con la calcolatrice se vi ci
+83:43 volete mettere anche voi e mi dite quanto vi fa 1.3 possibile boh può essere proviamo 3
+83:54 * facciamo così 2 logaritmo + 3
+84:02 logaritmamo che viene fuori 1.38 va bene sì avevo letto male 1,38
+84:11 allora in realtà possiamo fare anche una cosa più elegante perché io intanto questa prima potrei dire che equivale a
+84:19 scrivere log ora a me non è che mi venga proprio bene o in mouse ma insomma di 2^ ter eh
+84:28 perché si era visto che il 3 a moltiplicare lo posso mettere come esponente de 2 + log
+84:35 3 però so anche che in realtà se c'ho una somma di logaritmi la posso
+84:41 esprimere come prodotto degli argomenti e quindi tutto questo lo posso scrivere
+84:46 anche come log log di 6 di prodotto degli argomenti è 2^ ter non
+84:53 è proprio 6 è un 8 * 3 * 8 24
+84:60 eh vediamo se ci torna uguale ved' che non ci torna uguale così
+85:05 si fa una brutta figura 1,38 meno male almeno la
+85:11 matematica non è un'opinione e allora perché
+85:17 devo ripetere lo ripetiamo eh allora 3 log 2 applichiamo questa regola qua il
+85:28 logaritmo ovviamente invertendola ma se c'ho un prodotto di una una costante
+85:35 moltiplicata per un logaritmo posso portare dentro la costante all'esponente
+85:40 della base del logaritmo dell'argomento scusami del logaritmo ok quindi il mio
+85:46 era 3 log 2 lo posso scrivere come logaritmo di 3
+85:53 di 2^ ter eh per questa regola qui la
+86:02 C ci sei non so chi non so chi ha parlato prima però eh dammi un cenno
+86:09 l'altra regola è questa la B che invece mi dice che la somma di due logaritmi la posso scrivere
+86:17 come prodotto delle basi scusami no degli argomenti usiamo i termini che
+86:22 devono essere usati perché sennò quindi di qua io c'ho 3 * log 2 diventa
+86:29 logaritmo 2^ ter perdona la scrittura ma è quello che volevo scrivere ah sì ho
+86:35 capito la somma diventa logaritmo del prodotto quindi ho saltato un po' di
+86:40 passaggi ma qui ci sarebbe un 2^ ter quindi vale sempre la regola prima le moltiplicazioni e poi le somme in tutti
+86:47 i casi eh sì eh il 3 * logaritmo 2 ma
+86:52 prima va sviluppato quello esatto sì giusto eh sì anche con l'alcolatrice eh
+86:58 sì sì anche con la calcolatrice bisogna fare 3 * logaritmo 2 e poi ci si somma il logaritmo fa logaritmo 3
+87:05 ok di sotto 20 * logaritmo 3 anche qui calcolatrice alla mano a voi quanto
+87:12 viene
+87:19 ce l'ho 3 logaritmo lo moltipliamo per 20 non ce
+87:24 l'ho neanch'io ma insomma c'ho uso quella del PC che scientifica va bene a
+87:29 me mi viene 954 eh potevamo fare qualcos'altro
+87:36 sì si poteva fare anche logaritmo di 3^ 20 però 3^ 20 probabilmente non lo riesco neanche a scrivere o comunque non
+87:43 lo so legge sulla calcolatrice per cui in questo caso probabilmente lavorare con la calcolatrice direttamente è la
+87:49 cosa più semplice da fare quindi non è detto che il calcolo che trovate con logaritmo lo si debba per forza
+87:55 elocubrare e andare a fa delle robe no usando regole o cose strane in questo
+88:01 caso probabilmente la cosa più semplice è proprio calcolarsi il risultato di a dritto eh non mi fa più
+88:10 modificare perché non ho più la penna eccomi qua quindi in questo caso
+88:16 possiamo anche calcolare però se vogliamo usare una proprietà quello che possiamo scrivere è che questo 20 log 3
+88:25 equivale al logaritmo di 3^ 20 o provare a farlo l'alcolatrice io non
+88:31 credo neanche si che si riesca a leggerlo eh però si può anche
+88:38 provare 3 elevato all 20 ci viene un bel numero neanche troppo grosso che che
+88:46 grandezza viene secondo voi qui che che roba
+88:52 è sono tre e 3 e mezzo cosa ritorniamo alle potenze vediamo se siete
+88:59 stati attenti prima 3,5
+89:09 cosa kilo mega
+89:16 piccolo mega ci si mi sembra giga
+89:21 giga 3,5 GB 3,5 GB perché sono 9
+89:29 zera son 12 e no giga sì eh mega sono 6
+89:37 giga sono 9 e i terra sono 12 sì 12
+89:46 eh sì per cui boh si poteva anche fare poi il calcolo del logaritmo diventa
+89:52 questo che fa esattamente la stessa cifra di prima 954 esattamente come
+89:57 prima va bene quindi si può usare le nostre
+90:02 formuline anche no chi se ne frega qui invece ho messo una un'equazione con
+90:09 un'incognita dove l'incognita è dentro l'argomento del logaritmo allora qui già
+90:17 è un pochino più insomma qualcosina bisogna che lo che me lo inventi per cercare di risolvere un'equazione con
+90:25 con una incognita dentro l'algoritmo dentro la base l'argomento del logaritmo
+90:30 no e come si fa a risolverla questa
+90:35 e si applicano le regole è la cosa più semplice perché non c'è il consiglio che vi do io è isolare da qualche parte il
+90:44 logaritmo di x se possibile cioè il logaritmo dell'incognita perché comunque
+90:50 alla fine il logaritmo è l'esponente da dare alla base per ottenere l'incognita e quindi voi potrete scrivere quel
+90:57 logaritmo di x come x = 10^ qualcosa ok
+91:03 quindi avete la soluzione quindi scrivere quell'espressione lì come
+91:08 logaritmo di x uguale a qualcosa è già la soluzione perché poi scrivendo
+91:15 10^ quel qualcosa uguale x trovate già la soluzione della x
+91:23 ok come si fa è come nelle come nelle equazioni normali possiamo provare
+91:29 insieme se volete si parte da 20 per E qui che cosa c'è da fare per isolare il
+91:36 logaritmo la cosa più semplice è iniziare dividendo a destra e a
+91:42 sinistra per 20 come per 20 esatto
+91:47 quindi c'abbiamo il 20 di qua il logaritmo faccio presto non scrivo tutto per ora eh risparmiatemi perché sennò
+91:55 veramente duro fino a domattina e qui mettiamo div scusate -20 da tutte
+92:02 e due le parti cancello qua non c'era e men eh scusa no no no era un diviso mi
+92:08 sono sbagliato io diviso 20 di qua diviso 20 di là il 20 qui si manda via e qui rimane
+92:15 1,5 / 20 lo posso fare eh anche con l'alcolatrice senza grossi problemi qui
+92:20 l'argomento mi rimaneva x / 50
+92:27 questa è una frazione c'ho delle regole nei logaritmi il logaritmo di una divisione
+92:35 è uguale alla differenza dei logaritmi numeratore meno logaritmo e denominatore
+92:40 quindi posso usarla perdonatemi posso usarla quindi la mia espressione
+92:46 logaritmo x/ 50 in realtà la posso scrivere come logaritmo di
+92:52 x - logaritmo 50
+92:58 ritorna questo gli è uguale a 1,5 /
+93:05 20 io per ora lo tengo così poi le i calcoli si fanno alla fine 0075
+93:12 va bene quindi posso portare a destra quel logaritmo di 50 ossia sommo a
+93:18 destra e a sinistra siccome qui è negativo lo devo sommare per per cancellarlo no quindi metto un + log 50
+93:28 qua e un più log 50
+93:33 qua questo con questo si semplificano e mi rimane logaritmo di
+93:40 x è uguale a 1,7739 quanto fa
+93:46 1,7739
+93:51 basta anche due decimali tanto ci sarà un'approssimazione
+93:56 ragionevole che significa che l'esponente da dare a
+94:02 10 per ottenere x è 1,77 vale a dire
+94:11 10^ 1,77 mettiamo la virgola meglio è uguale
+94:18 a x quindi se io voglio trovare la x devo fare semplicemente 10^
+94:25 1,77 vi torna 10 elevato all
+94:30 1,77 per fortuna la calcolatrice sa fa questi conti fa
+94:35 58,88 posso anche dire 59 se voglio approssimare ma insomma sennò 58 88 va
+94:41 benissimo quindi la mia soluzione è x = 58,88
+94:48 io volutamente non volendo spoilerare non ho messo unità di misura né niente però qui ci sarebbe una bella unità di
+94:55 misura a metterci che sarebbero i decibel ma ho già spoilerato e quindi andiamo
+95:01 avanti eh l'altro esercizio veramente simile se
+95:07 volete provare a farlo da soli lo potete provare a bozzare da soli se c'avete carte e penna meglio senò lo facciamo
+95:14 insieme dite voi
+95:20 volete provare a farlo mi permetto vai se hai bisogno di un
+95:26 altro pochino di tempo prenditi tutto il tempo necessario e casomai facciamo la correzione dei quiz la prossima volta
+95:32 perché l'argomento è un argomento eh insomma va
+95:39 va preso nel nel verso giusto quindi prenditi tutto il tempo necessario
+95:45 dai proviamo a farlo provate qualcuno di voi dai uno che lo che lo prova a fare io magari lo
+95:52 scrivo seguendolo se volete possiamo far così allora mi ci sarà una
+96:00 una cancellazione della penna in qualche modo
+96:07 eh non me lo ricordo però facciamo facciamola a destra qua nel libero così
+96:12 vediamo lo facciamo qua sì cambiamo colore vai almeno si fa meglio mettiamo
+96:21 verde o blu blu vai 10 per log 100 è è simile eh non è tanto
+96:28 diverso da quell'altro per cui insomma è abbastanza primo passaggio che facciamo
+96:34 abbiamo fatto prima logaritmo 100 - logaritmo x è uguale a
+96:41 3/ quindi 0,3 ok e intanto partiamo da
+96:49 là aiuto sì aiuto perché troppo veloci ragazzi
+96:57 allora si è detto isoliamo il primo termine il logaritmo con tutta questa
+97:02 roba dentro che poi dopo si spezzerà però intanto cominciamo a togliere gli orpelli qui c'è un 10x che ci dà
+97:10 fastidio lo lo dividiamo è è un'uguaglianza ok quindi che si può fare
+97:17 si può dividere a destra a sinistra quindi qui si lascia momentaneamente
+97:23 così che ci viene più facile logaritmo 100 / x
+97:29 dividiamo per 10 a destra e a sinistra
+97:35 3/ 10 questo e questo si semplificano mi
+97:42 stai seguendo 3 / 10 si
+97:47 sposta a sinistra la virgola di 1 e viene 0,3 va
+97:53 bene quindi logaritmo 100/ x è = 0,3 in
+97:59 sostanza ci siamo fino a qui
+98:05 uguale a 3/ 10 10 mh perché per togliere
+98:12 questo 10 qui e questo moltiplica è un'uguaglianza quindi
+98:17 divido per 10 il primo e il secondo termine dell'uguaglianza 10 / 10 si
+98:23 semplifica fa 1 e quindi lo tolgo da di mezzo 3 / 10 il 10 di sotto mi rimane
+98:31 posso fare la divisione e tengo solo 0,3 oppure lascio 3/ 10 come ho scritto qui
+98:36 e me lo calcolerò alla fine ci siamo ho solo diviso per 10 a
+98:41 destra a sinistra perché un'uguaglianza lo posso fare mi rimane tutto uguale in questo modo io c'ho il logaritmo al
+98:47 primo termine a sinistra e il numerino noto cifra nota a destra
+98:55 questo logaritmo siccome c'ha una divisione posso usare la stessa formula
+99:01 la stessa regola che ho usato prima e si trasforma il logaritmo della divisione
+99:06 si trasforma nella sottrazione del logaritmo del numeratore meno il logaritmo del denominatore quindi questo
+99:14 log 100 / x mi diventa log
+99:19 100 men- continuate voi
+99:26 log x log x è chiaro a tutti
+99:36 non ce la farò mai a scrivere con il mouse ora l'incognita in questo log x
+99:43 quindi lo scopo è quello di togliere tutto quello che non è il logaritmo dell'incognita va bene quindi uguale è
+99:52 un'uguaglianza log di 100 lo voglio via scusa scusa Lucia hai messo il meno hai
+99:57 messo il meno perché è è rovesciata perché una perché l'altra volta abbiamo messo abbiamo messo il più
+100:06 no sempre perché era il numeratore sì appunto Dio perché è rovesciata la cioè
+100:12 è invertito cioè la la l'incognita al denominatore quindi è dalla parte dove
+100:17 ci mette invertito sì sì però il concetto è sempre la se c'ho una
+100:22 divisione è il logaritmo del numeratore fratto il logaritmo Sì fratto meno il
+100:28 logaritmo del denominatore se la se l'incognita è il denominatore verrà negativa
+100:34 se se al numeratore verrà positiva ma comunque rimane una differenza ok
+100:40 mh sì ho capito no no sbagliavo gli appunti di sotto perché purtroppo la
+100:46 calcolatrice non fa i logaritmi capito e allora mi devo devo abbarmi su Eh ti
+100:53 conviene però cioè procuratene una che ce l'ha per l'esame sì eh ora ne ho
+100:59 trovata una ma gli manca le potenze quindi mi procurerò mi procurerò logaritmo e potenze eh sì il minimo
+101:06 indispensabile sono quelle due esatto tolgo ancora qualcosa al termine di
+101:14 sinistra devo togliere sto logaritmo di 100 quindi sottrago logaritmo di 100 è un numero eh lo potrei lo potrei anche
+101:20 calcolare anzi calcoliamolo a mente per favore l'esponente da dare a 10 per
+101:27 ottenere 100 2 mh quindi questo logaritmo di 100 lo
+101:36 possiamo calcolare lo calcoliamo ci fa ci dà anche meno noia tutto fa 2 - log
+101:43 x no u = 0,3 si è detto eh così togliamo
+101:48 anche la quella frazione che ci può d noi a questo punto come tolgo sto 2 di
+101:54 mezzo tolgo due dal da sinistra e da destra quindi qui ci viene un -2 qui ci
+101:60 viene un -2 ovviamente questo è positivo ce lo rimetto il più sennò non si
+102:07 capisce + 2 -2 si semplificano e fa 0 e
+102:12 qui viene un -2 + 0,3 che farà
+102:18 farà 0 eh 1,7 giusto 1,7 - 1,7
+102:24 ovviamente -7 quindi qui c'ho - logaritmo x = -1,7
+102:33 consentitemi scrivere così perché almeno risparmio un passaggio eh c'ho il meno
+102:39 di qua e il meno di qua mi dà fastidio in meno è come se avessi un -1 per quindi moltiplico per
+102:47 -1 a destra e a sinistra quindi cambio di segno a tutti e due i termini va bene
+102:53 stessa cosa sono uguali se moltiplico per -1 da tutte e due le parti rimangono uguali quindi mi viene in sostanza che
+103:00 il logaritmo di x è uguale a 1,7 che
+103:08 significa che l'esponente da dare a 10 per ottenere x è 1,7
+103:21 quindi x vale 50,11
+103:29 mi fido anzi no 40,11
+103:42 non so che cosa ho scritto ma eh scusate 10 10^
+103:53 1,7 perché mi scrive questa cosa ah perché ho sbagliato io devo
+104:01 scrivere 1,7 10^ x ok
+104:08 va bene 10 alla nelle calcolatrici quando c'è
+104:15 scritto quando c'è la x nella formula in sostanza nel tasto la potenza di 10 alla
+104:24 in realtà tu scrivi la potenza e poi fai 10^ i quella potenza lì quindi 10^ 1,7
+104:31 vuol dire scrivere 1,7 e poi premere il tasto della potenza dei 10
+104:40 ci siamo quindi X in sostanza alla fine della fiera le sostanza sono sicuro che
+104:47 è boccio no dai a parte che queste due
+104:53 non le troverete all'esame non penso perché sono già troppo complicate quindi all'esame voi troverete robe come questa
+105:01 molto probabilmente però però speri speriamo
+105:07 sapere che si può usare questa cosa qua può far comodo può far comodo anche solo
+105:12 per sapere perché perché quando li userete vedrete che insomma sono vi interesserà
+105:20 fare quel calcolo lì ecco non tanto per l'esame ma in questo caso può essere utile sapere di che di che si sta
+105:27 parlando per cui quando Paolo ve ne ve lo ve lo dirà
+105:32 voi avete uno strumento per cercare di capire come calcolare quelle quelle grandezze ok
+105:42 va bene non non ce n'è altri casi o altre robe particolarmente io vi
+105:48 consiglio di concentrarvi anche solo su questi perché fondamentalmente sono son
+105:53 queste le regole quindi o il calcolo puro e semplice
+105:59 o al massimo queste due espressioni dove hai un'incognita al numeratore qui o
+106:05 un'incognita al denominatore qui con un fattore moltiplicativo che sta davanti
+106:10 al logaritmo e un termine noto per così dire a destra dell'uguale se
+106:17 sono espressioni che potreste trovare non è usuale non sono insomma io
+106:24 immagino di non ci saranno perché non è veramente usuale però non son troppo difficili per cui secondo me potreste
+106:30 anche provare a ricordarli poi li riscrivo per bene ve
+106:35 lo prometto perché non vi posso mandare questi appunti scritti in questa maniera
+106:41 sì magari con tutti i passaggi così si capisca meglio grazie sì
+106:49 sì se volete volete provare a farne un altro volete provare m
+106:58 Cioè vi è vi cioè vi è chiara la trasformazione di questo oggetto
+107:08 no sì la posso scrivere anche in un altro modo eh alla fine se voi avete
+107:15 logaritmo di 3/
+107:23 2 questo è il logaritmo è equivalente potete farlo potete farlo l'alcolatrice
+107:29 è equivalente al logaritmo 3 - logaritmo
+107:34 2 se vi ricordate questo come banalmente
+107:41 logaritmo ora consentitemi di scrivere solo L perché veramente logaritmo mi viene male logaritmo di 1
+107:49 su 100 in realtà lo potete scrivere come
+107:54 logaritmo di 1 quanto fa 0
+108:01 quindi 0 - logaritmo 100 quindi logaritmo è sempre logaritmo
+108:08 di 1 - logaritmo 100 eh cioè numeratore meno denominatore eh però questo fa 0
+108:14 quindi non lo contiamo e 100 -2
+108:20 il risultato è -2
+108:27 mh quindi è così poi se trovate in uno
+108:33 dei due termini al numeratore o al denominatore ci trovate la x e non credo che troverete più che la x
+108:39 così pure semplice ci potreste trovare un un fattore davanti ma chi se ne cioè
+108:46 potreste anche trovare un 2x che magari vi sconvolge la vita ma voi lavorate
+108:53 fino a che non arrivate al logaritmo di quell'argomento che contiene la x fosse anche un 2x che potrebbe pure capitare
+109:01 proviamo a rifarne un'altra va mettiamoci in
+109:07 questa in una pagina vuota ci mettiamo
+109:13 qua anzi ci mettiamo un'altra
+109:33 diapositiva ce la facciamo troppo veloce
+109:41 possiamo avere una roba del tipo logaritmo eh no però se fa
+109:51 così uso i blu che è meno antipatico
+109:58 logaritmo per esempio facciamola facile va
+110:04 2x/ 100 eh troppo
+110:10 facile 101 senò facevo la divisione veniva
+110:17 troppo facile toglievo la il 2 davanti alla x questo c'è sempre il solito discorso
+110:23 cioè non devo dividere per niente posso però usare la regola che siccome ho un logaritmo di una frazione posso
+110:31 scriverlo come logaritmo di 2x numeratore -
+110:38 logaritmo di 101 ora il 100 mi garbava di più ma insomma facciamo così perché
+110:44 sennò uno dice "Ma lo potevi dividere?" Sì ma non voglio va
+110:53 bene che cosa vuol dire ah scusate ci vuole un valore chiaramente sennò la
+110:58 variabile supponiamo che questo valga
+111:05 4 mh 4 quindi lo scrivo come logaritmo 2x
+111:10 - logaritmo 101 = 4 ok
+111:17 a questo punto posso togliere di mezzo sto logaritmo di 101 quindi
+111:24 logaritmo di
+111:29 2x sommo a destra e a sinistra logaritmo 101 quindi - logaritmo 101 + logaritmo
+111:37 101 fa 0 e non lo scrivo = 4 +
+111:44 logaritmo 101 è chiaro a tutti fino a qui
+111:52 sì quindi ottengo che il logaritmo 2x è = 4 + Per me se scusami scusami se non
+111:59 se non mi fa tutti i passaggi poi io dopo non me lo imparo capito perché io questo mi devo rifare alla scuola e non
+112:06 mi ricordo proprio assolutamente di niente bisogna bisogna tu mi faccia per
+112:12 se se vuoi eh se è possibile f i passago ecco in maniera che poi dopo cap me lo
+112:19 riguardo capisco il meccanismo e dopo mi rimane in mente logaritmo 2x - un numero che è logaritmo
+112:27 di 101 eh uguale 4 io sto logaritmo di 101 lo posso anche calcolare a questo
+112:33 punto e sarebbe anche più semplice ma il concetto che io per togliere un
+112:39 addendo da da dal membro di sinistra
+112:44 dell'equazione siccome questo è un è semplicemente una quantità che sto
+112:49 togliendo in questo caso perché c'è un meno eh se la voglio azzerare perché
+112:55 voglio isolare il termine che contiene la x la parte di logaritmo che contiene la x
+113:01 Devo fare un'operazione opposta a questa perché mi deve zero come risultato e la devo fare a destra e a sinistra
+113:06 dell'uguale perché rimangano uguali le due quantità quindi alla fine tolgo
+113:13 questo è un - logaritmo 101 basta che io sommi logaritmo 101 a destra e a
+113:19 sinistra dell'uguale eh di questo uguale qua quindi questo mi diventa logaritmo
+113:25 di 2x e ci rimane - logaritmo 101 e
+113:30 questo c'è e ci rimane + logaritmo 101 così lo
+113:36 azzero ci siamo questo è uguale a 4 + logaritmo 101
+113:43 perché per se per rimanere uguale gli devo fare la stessa operazione ho fatto di là
+113:49 eh ci
+113:56 siamo cioè tra questa qui e questa quassù la differenza è che io ho sommato
+114:01 a destra e a sinistra di un uguale quindi due quantità equivalenti gli ho sommato allo stesso valore che è
+114:08 logaritmo 101 tra l'altro logaritmo 101 approssimiamolo è circa 2 vi torna che
+114:13 sia circa 2 quindi questo e questo fa 0 -
+114:20 logaritmo 101 che è circa 2 + logaritmo 101 che è circa 2 fa 0 e qui rimane 4 +
+114:29 2 all'incirca che farà all'incirca 6 consentitemi l'approssimazione eh quindi
+114:37 che cosa mi rimane logaritmo 2x
+114:42 = 4 + passatemi l'approssimazione sarà
+114:48 2,001 non lo so però è circa du eh mettiamoci mettiamoci il suo valore 043
+114:56 mettiamoci il suo valore 101 logaritmo fa 2,004
+115:02 eh facciamo si può approssimare con zero perché poi anche nel compito vedrete non
+115:08 più di due decimali sono necessari una volta avete trasferito tutto nell'unità di misura con cui volete lavorare più di
+115:15 due cinali probabilmente non vi conviene neanche portarveli dietro per cui insomma si può approssimare con due ma
+115:20 volendo essere proprio precisi mettiamoci un 2004 così siamo eh si
+115:26 capisce che non è proprio due sennò a questo
+115:32 punto la x è già il logaritmo di con la x è già isolato eh quindi io devo già
+115:38 ragionare in termini di eh di esponente per risolvere
+115:43 l'equazione ma lo riscrivo per bene per arrivare proprio per fare proprio tutti
+115:48 tutti i passaggi questo è uguale a 4 + 2 6 quindi
+115:55 6,004 eh mi consentite di scriverlo
+116:01 sì ci siamo fino a qui ci siamo tutti allora da qui dobbiamo passare per
+116:08 risolverle la x dobbiamo passare all'esponente cioè alla definizione di logaritmo il logaritmo è l'esponente da
+116:15 dare a 10 perché si sta parlando di logaritmo in base 10 l'esponente da dare
+116:21 a 10 per ottenere 2x ed è quell'esponente è proprio lui 6,004
+116:27 e in questo caso è due volte però è 2x per ottenere 2x certo quindi
+116:34 10^ 6,004 equivale a 2x
+116:42 ops la x non è sola c'ho un moltiplicatore ma io so come fare a togliere le moltiplicazioni devo
+116:49 dividere a destra e a sinistra per due qui divido per due qui divido per 2
+116:56 quindi questo e questo si semplificano qui attenzione non posso dividere i 10*
+117:04 2 perché gli è un 10^ s
+117:16 eh quindi calcolo 10^ 6 per 0,5 e quel che
+117:28 fa anzi facciamo così
+117:51 cer ci siamo no quindi il risultato finale è x
+117:58 = se volete 500.000
+118:04 o o se lo vogliamo scrivere in notazione esponenziale sarà 5 * 10^ qu
+118:24 quindi una volta arrivati a isolare se poi il logaritmo fosse
+118:30 particolarmente so c'avesse anche che ne so un a il numeratore 2x - 1 o
+118:37 qualcos'altro 2x + 1 che ne so chi se ne frega è sempre il solito discorso io il
+118:43 + 1 me lo porto fino in fondo e quando arrivo in fondo ci sarà un 2x + 1 lo dovrò andare a risolvere ulteriormente
+118:50 facendo altri passaggi ma comunque sarà come se fosse un'equazione di primo grado normale e la risolvo ok
+118:58 quindi quello che voi troverete non sarà mai tanto diverso da questo quindi o
+119:05 l'incognita al numeratore o l'incognita al denominatore di una
+119:10 frazione con un a volte un fattore davanti se ci può essere se poi ci fosse
+119:15 altre cose si potrebbero comunque calcolare ma diciamo che non ci
+119:25 saranno io ve li riporto questi esempi ve li riporto tutti però insomma provate
+119:31 cioè l'importante è capire questo come si trasforma cioè che questo diventa una
+119:37 differenza deve essere chiaro a tutti che poi alla fine una volta isolato il
+119:43 logaritmo con l'incognita da qualche parte il tutto si trasforma in una in
+119:48 un'espressione di potenza no perché per definizione il logaritmo è l'esponente
+119:53 da dare alla base per ottenere l'argomento quindi se l'argomento è questo vuol dire l'uguaglianza diventa
+119:60 che questo argomento qui sarà uguale a 10^a quello che è il termine a destra
+120:07 dell'uguale in questo caso va bene questo è lo è è sono i passaggi che
+120:15 conviene ricordare vi faccio una domanda
+120:20 avreste piacere di avere degli esercizi più o meno della dell'ordine di quelli
+120:25 che abbiamo fatto anche qua a lezione per la prossima volta perché io vi posso proporre Sì ma non solo dei logaritmi
+120:32 anche di quelli di prima sì sì sì di tutte di tutte le specie nel senso anche
+120:39 esercizi attinenti a quelli che possono essere gli esercizi esame diciamo a Fabrizio tipo test ce li manda tipo test
+120:48 tipo test ok ok ok ce li fac ce li facciamo preparare dalla Lucia e poi io
+120:55 li mando per distribuisci c'ho già c'ho già quelli dell'anno scorso e e ci
+121:00 aggiungo quelli dei logaritmi che non c'erano così facciamo eh perfetto Lucia
+121:06 così loro hanno un po' più di tempo perché tanto la prossima lezione è il giorno 7 quindi si possono abbiamo 15
+121:12 giorni a base logaritmi e espressioni quindi sai il divertimento
+121:17 puoi andare Puoi andare giù tosto Lucia siamo a posto siamo a posto vero Claudio
+121:26 comunque dicevo per i calcoli insomma ci studieremo ci faremo aiutare ben andare
+121:32 a calcolare qualcosa per gli esami sulla risposta come quiz speriamo di
+121:38 azzeccarlo il logaritmo no cioè l'esame lo azzeccate di sicuro perché comunque
+121:44 un esercizio di questo genere non non viene non è non è espresso così all'esame intanto
+121:51 una risposta multipla per cui la domanda sarà di abbiamo il 33% di possibilità di
+121:60 azzeccarant quello quello e poi insomma ora sfortuna
+122:06 vuole su 60 tu li becchi tutti sbagliati no no no no
+122:13 poi considerate sarà così considerate che una è proprio fuori quindi si si
+122:19 praticamente si passa al 50% quindi già è tanta roba ehina eh a quel punto lì sì
+122:27 è un po' di fortuna dai dai dai dai ce la possiamo ce la possiamo fare ce la possiamo
+122:32 fare va bene sdrammatizziamo perché le le lazione di Lucia sembra difficile
+122:40 però poi dopo lo è no no dicevo poi dopo tremenda
+122:47 sto scherzando sto scherzando certo allora il 90% degli esercizi su in cui
+122:53 troverete i logaritmi sono da svolgere con l'alcolatrice quindi calcolatrice
+122:59 alla mano il numero si calcola poi tra l'altro dopo un po' siccome le domande
+123:06 sono sempre uguali anche l'esperienza anche senza calcolatrice vi dirà qual è
+123:12 qual è il risultato perché spesso si calcolano dei logaritmi che sono logaritmo di 2
+123:18 €10 sto cercandola infatti osama 8
+123:25 €10 Amazon ma scusatemi io so che agli esami non possiamo usare una
+123:31 calcolatrice scientifica come no così all'ultimo esame è stato detto allora e
+123:38 intervengo io allo scorso lo scorso esame eh le domande erano poste in modo che
+123:46 non era necessaria una calcolatrice e quindi la commissione ha deciso di non far utilizzare le calcolatrici
+123:54 e quello che vi ha detto Lucia poco fa è giustissimo cercate di capire il
+123:60 concetto il funzionamento del del logaritmo perché poi tante cose le farete a mente e e
+124:07 nelle prossime lezioni scoprirete quali sono i trucchi diciamo per poter
+124:13 utilizzare eh i logaritmi mentalmente
+124:19 però siccome stiamo aspettando ancora il decreto del del Ministero e ancora non
+124:26 vi possiamo dire se è possibile o o se non è possibile portare la calcolatrice
+124:33 in sede di esame adesso non ve lo possiamo dire di sicuro se non ve la fanno portare vuol dire che
+124:40 è tutto che che si può determinare tutto a mente e quindi sono calcoli lucia
+124:46 estremamente semplici esatto lucia come gli ancno passato l'anno passato dove
+124:52 era ammessa la calcolatrice vi posso garantire che non c'erano domande eh
+124:59 impossibili ecco la cosa la cosa ovviamente non è un esame di matematica
+125:06 quindi eh l'importante è che capiate le il concetto e le regole matematiche per
+125:13 poter svolgere esercizi di questo tipo
+125:19 sì l'espressione con cui è esposta la risposta per esempio se il problema ti
+125:26 si pone in un'unità di misura e la risposta ti viene in una le risposte ti
+125:31 vengono espresse in un'unità di misura diversa no è forviante perché lì per lì
+125:37 ti verrebbe da dire "Ah è questa la risposta perché è ovvio no è è il numero che si confà di più" ma in realtà magari
+125:43 espresso un'unetà di misura che non è corretta e quindi è lì che dovete pensare cioè voi il vostro il vostro
+125:51 compito non è tanto quello di trovare il numero il risultato finale perché poi le risposte sono scritte lì sono sulla
+125:57 carta quindi a voi serve individuare quella corretta quindi
+126:03 no ragionare su come sono espresse che numeri riportano se son coerenti con
+126:08 quelli che ci sono nell'esercizio sapere poi qual è il risultato esatto e è una multirisposta non è
+126:15 che il risultato è uno di quelli che sono riportati lì per cui è chiaro che
+126:20 saranno anche talmente distanti tra di loro che sarà intuitivo determinare qual è quello
+126:26 buono però laalcolatrice se cioè se ve la fanno usare vuol dire
+126:32 che si può utilizzare che fa comodo se non ve la fanno usare è evidente che c'è
+126:38 qualche cioè che è talmente semplice che non che i calcoli non sono determinanti
+126:43 ecco perché sennò non non c'è ragione per non usarla non non avrebbe senso
+126:48 impedissero dalla calcolatrice perché poi è vero che i logaritmi ci
+126:55 sono anche le tabelle è vero anche che i logaritmi tendenzialmente vi faranno vedere gli
+127:01 esercizi che in cui sono utilizzati e la maggior parte degli esercizi c'hanno
+127:07 tre logaritmi tre valori che li imparate a memoria e non non li farete mai più con la calcolatrice perché veramente si
+127:16 usa questa quantità che il doppio di quell'altra è il logaritmo di du quest'altra che il triplo di quest'altra
+127:22 è il logaritmo di 3 e e son quelli non non non sarà tanto tanto diverso da questa situazione
+127:30 qua quindi io già vi ho fatto vedere delle robe più difficili però sai cioè mi ha
+127:36 mai non sono impossibili per cui mi sentivo di darvelo come elemento anche
+127:41 per così per conoscenza però vedrete con Paolo poi che non saran
+127:48 io gli esercizi comunque ve li ve li mando ve li do voi provate a farli a
+127:54 risolverli e ripeto non è detto che sia l'ultima lezione nel senso che poi
+127:59 andando avanti se troverete difficoltà ancora nel anche se m sa che sono quasi
+128:07 terminate le parti di di radiotecnica per cui
+128:12 forse la matematica la rivedremo proprio alla fine alla fine e sì a parte questa
+128:18 roba dei logaritmi che ancora vi aspetta in pratica c Ma degli esercizi ma le
+128:25 soluzioni ce le ce le dà poi c alla fine alla fine è m è un multirisposta poi ti
+128:32 correggono come gli altri sì sì sì non ci abbandon fatto fino adesso fino
+128:38 adesso no Luci la rivedremo lucia non ci abbandona no no assolutamente no io anzi
+128:44 cioè vi invito a tenere da parte tutte le cose che vi che sentite ostiche su
+128:50 cui vi piacerebbe fare un approfondimento e anche banalmente si è parlato dei numeri inversi dei reciproci
+128:57 prima ora la lezione insomma probabilmente non ci si fa a guardarli però se è un argomento che vi piace che
+129:04 vi piacerebbe guardare o vedere magari calato su qualche
+129:10 esercizio d'esame vero lo possiamo lo possiamo fare un reprise
+129:16 verso più o meno verso la fine del corso quando Fabrizio
+129:21 metti lo scaletta ok ok io scrivo
+129:28 naturalmente sì sì sì ma non abbiate paura per esperienza vi posso dire negli
+129:33 ultimi 3 anni che seguo gli esami calcoli così io non li ho mai visti e
+129:40 appunto l'ultimo come diceva Alessio quindi l'anno scorso eh non fu
+129:45 necessaria l'alcolatrice perché erano talmente semplici i calcoli che venivano
+129:51 fatti eh a logica più che a più che a conto eh sul foglio bianco che vi verrà
+129:58 dato quindi questo per tranquillizzarvi va bene
+130:05 io penso arrivederci Alessio dimmi te se è il
+130:10 caso e se Lucia non ha altro da aggiungere no io ho finito eh potremmo
+130:16 interrompere qua anche la registrazione se qualcuno vuol fa qualche altra domanda eh Ale dimmi un po' interrompi
+130:22 pure m ho visto ho visto l'orario la correzione dei dei quiz della settimana
+130:30 appena finita la facciamo come vi avevo anticipato la prossima volta yeah

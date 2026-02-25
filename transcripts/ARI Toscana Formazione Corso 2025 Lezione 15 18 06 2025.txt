@@ -1,0 +1,1177 @@
+00:02 E io vado. Ecco a te Paolo. Sì. Ecco, sul gruppo Telegram c'è Francesco che ha
+00:08 pubblicato, appunto, il sito radiamatori.org e dovrebbe essere lui. Dovrebbe essere
+00:13 lui, poi magari lo verifichiamo. Dunque,
+00:18 allora partiamo dal passato. Questo è l'andamento
+00:25 delle vostre risposte ai quiz della settimana precedente.
+00:31 Scusate, dov'è lo zoom? Vabbè, eccolo qua.
+00:38 Eh, allora c'era una domanda su cui sapevo che avreste durato un po' di fatica la domanda L. Adesso andiamo a
+00:44 rivederla insieme. Eh, e poi avete durato molta fatica sulla domanda C in
+00:50 realtà era una domanda abbastanza facile. Quindi adesso andiamo andiamo a vederle tutte ovviamente, ma in particolare queste due. Dopodiché le
+00:57 altre tutte molto buone, m fra tutte di fatto fra l'80 e il 100%.
+01:03 Eh, tranne queste che stiamo dicendo, no? C L M E
+01:10 comunque niente male, niente male. Sicuramente una prestazione di superamento del dell'esame. Allora,
+01:21 vediamo a questo punto le Eccole qua
+01:28 le risposte esatte sul tema dei ricevitori.
+01:35 Eccole qua. Si vede il video?
+01:43 Sì, si vede. Ok, grazie. Allora, eccole qua. Allora, domanda.
+01:48 Nei trasmettitori eh FM a modulazione di frequenza, per aumentare la deviazione
+01:54 di frequenza prodotta dal modulatore, che circuiti si utilizzano? i moltiplicatori di frequenza,
+02:01 chiaramente non il filtro pasta bastanda che serve eventualmente per eh abbassare
+02:08 le le armoniche in uscita da un trasmettitore, non i modulatori bilanciati che nei trasmettitori servono
+02:15 a generare un segnale SSB, cioè meglio prima un segnale DSB con la doppia banda
+02:21 bilanciata e poi col filtro si toglie la banda che non si vuole. i moltiplicatori di frequenza. Ne riparlo un attimo un
+02:27 po' più in dettaglio a alla a una domanda successiva che è più
+02:33 interessante sull'argomento. Poi domanda V questa senza problemi. Ne trasmettitori SSB. Perché è presente un
+02:40 filtro passabanda all'uscita del modulatore di bilanciato? per eliminare una delle due bande laterali o o meglio
+02:47 anche per s può dire anche per selezionare la banda laterale voluta. All'uscita del modulatore bilanciato,
+02:54 ricordate bene che che ci sono entrambe le bande laterali, quella superiore e quella inferiore. Il filtro fa passare
+02:60 quella che si vuole, quindi elimina l'altra. Non scusate
+03:06 un attimo solo che chiudo Telegram, altrimenti ci troviamo tutta la sera questo scampanellino.
+03:13 Stavo dicendo che il modulatore bilanciato eh non riduce la portante e
+03:18 non aumenta la deviazione di frequenza. La deviazione di frequenza è aumentata dagli stadi moltiplicatori come nella
+03:24 domanda precedente. Allora C. Ecco qui, qui parecchi di voi hanno un po' scivolato. Se all'uscita di un
+03:31 trasmettitore si vuole mettere un filtro passapasso, per esempio, per evitare problemi di interferenza della TV, che
+03:37 frequenza di taglio deve avere? Allora, immaginiamo che che io trasmetta a 14 MHz. Chiaramente non posso mettere un
+03:45 filtro inferiore alla frequenza del trasmettitore. Se io trasmetto a 14 MHz, non posso mettere un filtro a 10 MHz,
+03:51 altrimenti mi bloccherebbe anche la mia trasmissione a 14. In teoria potrei mettere un filtro molto
+03:58 superiore alla frequenza del trasmettitore. Se io trasmetto un fil, se io trasmetto
+04:03 eh a 14 MHz, in teoria potrei mettere un filtro a 50 MHz, faccio faccio per dire,
+04:10 cioè è molto superiore alla frequenza del trasmettitore, ma questo filtro di fatto può non essere molto efficace
+04:16 perché, ad esempio, non bloccherebbe la seconda armonica che è 14* 2, cioè 48 e
+04:22 neanche la terza armonica, scusatemi, 14 * 2 28 pardon, oppure e neanche la terza
+04:27 armonica che 14* 342, quindi si mette un filtro poco superiore
+04:33 alla frequenza del trasmettitore. Se io trasmetto, diciamo, in CB 27, metto un filtro, per esempio, che tagli da 35 MHz
+04:41 in più, cioè la frequenza di taglio del filtro deve essere sicuramente eh
+04:47 inferiore alla seconda armonica della frequenza su cui sto trasmettendo, perché quella lì va già va già tagliata,
+04:53 d'accordo? Quindi domanda giusta la la lue. Allora, domanda di facilissima.
+04:59 Quale dispositivo si usa per raccogliere suoni e trasformarli in segnali elettrici? Il microfono, ovviamente
+05:04 raccoglie suoni e trasforma i seg trasforma segnali elettrici. Il microfono che sto usando io adesso che
+05:10 sto parlando e voi mi ascoltate. Domanda è: quale tipo di emissione produce un trasmettitore che usa un
+05:16 modulatore a reattanza? La modulazione di frequenza. Ricordate che modulatore
+05:22 attanza vuol dire che il modulatore eh va ad agire su una delle reattanze
+05:28 capacitiva o induttiva del circuito accordato che c'è nell'oscillatore.
+05:34 Di solito viene cambiata la reattanza capacitiva, cioè viene cambiata la capacità de di un condensatore in questo
+05:42 circuito risonante che è nell'oscillatori. Avevamo visto anche un minimo di schemi nella nella puntata
+05:48 precedente e questa questo cambiamento di capacità si fa mediante un un diodo
+05:53 baricup. Allora, F che cosa accade al segnale di
+06:00 un trasmettitore radio telefonico a banda laterale unica o doppia banda laterale quando la profondità di
+06:06 modulazione supera il 100%. si splattera, tanto per dirlo in termini classici, il segnale diventa distorto e
+06:14 occupa una maggiore larghezza di banda. Quindi non è vero che il segnale audio diventa più intenso senza altri effetti.
+06:20 Questo si si ha questo questo effetto si ha con un amplificatore con un famoso con il famoso lineare con un
+06:26 amplificatore che funziona bene, allora il segnale diventa più forte, magari non il segnale audio, ma il segnale. La la
+06:33 larghezza di banda non diventa inferiore, il segnale diventa distorto e occupa una maggiore larghezza di banda.
+06:39 Questa è la risposta corretta. G. Per che tipo di modulazione si usa il il modulatore bilanciato? L'SB. Si era
+06:46 già detto di fatto. Domanda H. in un tipico trasmettitore a banda laterale unica. Quale circuito si trova fra il
+06:53 modulatore bilanciato e il miscellatore? Un filtro come si era
+06:59 detto poco fa, no? In un trasmettitore c'è il modulatore bilanciato, da lì escono due bande laterali, io voglio
+07:05 subito sopprimere la banda laterale che non voglio. Quindi c'è il filtro
+07:13 in un modulatore SSB. Questa è di nuovo un'altra versione della del dello stesso
+07:19 fenomeno, dello stesso componente in un modulatore SSB. Cosa si usa per lasciar passare una sola delle due bande
+07:25 laterali? Un filtro passapanda? Ecco la domanda L. La domanda L ci
+07:31 permette di ripassare per bene tutto il discorso sulle sulle deviazioni di frequenza. La domanda è: quale
+07:37 deviazione di frequenza occorre attuare mediante un oscillatore a 12,21 MHz
+07:44 modulato a reattanza per ottenere una trasmissione a 146,52
+07:49 MHz con deviazione di 5 kHz. Uno guarda questa domanda e dice: "Oh mamma mia, come si fa a rispondere?"
+07:56 In realtà è abbastanza semplice perché eh ora facciamo i conti insieme, però
+08:02 ricordate lo schema che che avevamo visto del trasmettitore
+08:08 in FM che dovrei avere anche qui da qualche
+08:14 parte, però non so se sono
+08:19 non lo trovo. Vabbè, niente, scusatemi. E il un trasmettitore FM è fatto appunto
+08:28 da un oscillatore la cui frequenza viene appunto fatta variare tramite il modulatore a reattanza.
+08:35 Questo oscillatore è seguito da una serie di stadi moltiplicatori di frequenza, quindi la frequenza del
+08:40 trasmettitore moltiplicando per 2* 3* 4 per quanto serve viene portata la
+08:46 frequenza dell'oscillatore, viene portata la frequenza del trasmettitore. Allora, ricordando che questo è il
+08:52 processo, diciamo, di di che si svolge in un trasmettitore in FM, cerchiamo di
+08:58 capire alla domanda L. Io vi faccio le domande ora e voi mi rispondete, quindi chi vuole si accende il microfono. La
+09:06 prima domanda che ci si fa è: "Ma questo oscillatore a 12,21 MHz, per ottenere
+09:12 questa frequenza di uscita di 146.52 di quante volte viene moltiplicata la
+09:18 frequenza dell'oscillatore? Quanto quanto fattore di moltiplicazione c'è per 2 per 4 per 7? Qualcuno di voi
+09:26 mi dia le risposta?" 126 12 Perfetto. Bravi. 12. Viene
+09:32 moltiplicata per 12 volte. In effetti basta f6 / 12. Esattamente. Esatto. E
+09:39 quindi viceversa, se io faccio 12,21 * 12 viene fuori 146.52.
+09:46 Quindi se io ho un fattore di moltiplicazione in frequenza di 12, cosa vuol dire? Vuol dire che se l'oscillatore mi si sposta nella mia FM
+09:55 di 1 kHz, quando sono a 146, questo spostamento di 1 kHz dell'oscillatore mi diventa 1* 12,
+10:02 mi diventa uno spostamento di 12 kHz della frequenza di trasmissione.
+10:08 Quindi se io voglio ottenere una deviazione di 5 kHz finale alla
+10:13 frequenza trasmissione diviso esatto che che frequenza devo attuare? 5/ 12
+10:22 5000 5000/ 12
+10:27 e la 2 è la risposta corretta. Ok? Quindi le le domande che vi possono
+10:34 capitare su questo argomento girano sempre così, cioè c'è c'è in qualche modo bisogna capire di quante volte
+10:40 viene moltiplicato il segnale dell'oscillatore per arrivare alla frequenza finale. In questo caso è un
+10:45 per 12. Questo per 12 è un fattore di moltiplicazione che si applica anche
+10:51 alle deviazione. Quindi deviazione per 12 vuol dire che se, come dicevo prima,
+10:57 se la la frequenza del mio oscillatore si sposta di 1 kHz e la frequenza del
+11:03 mio segnale si sposta di 12 kHz.
+11:09 Allora, domanda M. Quale stadio di un trasmettitore può cambiare un segnale di ingresso a 5,3 MHz in un segnale a 14,3
+11:17 MHz? Allora, questa non è chiaramente una moltiplicazione, no? Perché 5 se
+11:23 fosse 1* 2 sarebbe 10.6, se fosse 1 per 3 sarebbe 15.9,
+11:29 Per cui l'unico dispositivo che conosciamo che fa che può che può
+11:34 spostare che può traslare un segnale in frequenza è un mixer. Il miscelatore
+11:42 chiamato contemporaneamente mixer, miscelatore e convertitore. Scusate se continuo con questo mantra, ma nelle
+11:49 domande del Ministero lo stesso circuito lo potete trovare chiamato in questi tre
+11:54 modi, no? Miscillatore, mixer, convertitore. Allora, a questo
+12:00 punto, come faccio a cambiare un segnale di ingresso che ho a 53 M per produrle 14,3? Lo faccio battere, come si dice,
+12:09 con un segnale a 9 MHz. 53 + 9 da 14,3.
+12:15 Domanda N. L'altoparlante converte segnali elettrici in od sonore? Questa domanda è il reciproco, no, di quella
+12:20 del microfono che visto prima. Allora, che effetto provoca la comparsa dell'intermodulazione? un trasmettitore.
+12:26 L'allargamento della banda occupata dal segnale trasmesso di fatto è stessa domanda con con con una forma diversa
+12:34 rispetto al tema degli splatter di cui avevamo parlato prima. Gli splatter sono
+12:40 di fatto intermodulazione del trasmettitore, no? Come si era detto mercoledì scorso, il un trasmettitore a
+12:47 banda laterale unica, quale circuito ricevi i segnali dell'oscillatore che genera la portante e dall'amplificatore
+12:54 audio e l'invia al filtro? Il modulatore bilanciato, come si è già detto prima. Qui basta ricordare un po' visivamente
+13:01 anche gli schemi a blocchi e la risposta a queste domande è abbastanza facile. Infine, questo è sul funzionamento del
+13:07 mixer. Se in un mixer entrano due segnali di frequenza 9 e 5 MHz, quali
+13:12 possono essere le uscite? Le frequenze di uscita. Ricordate che in un mixer all'uscita c'è la frequenza somma e la
+13:18 frequenza differenza de dei due segnali di ingresso. Quindi 9 + 5 fa 14
+13:24 9 - 5 fa 4, la risposta giusta è la 3 4 o qui andrebbe bene anche la lettera E e
+13:31 14 MHz. E queste sono le domande della puntata
+13:39 precedente. C'è qualche Tutto chiaro per ora prima di procedere? C'è qualche C'è
+13:44 qualche c'è qualche domanda? Allora, proseguo e si entra nel del nel
+13:52 magico tema di stasera. Quindi adesso parliamo dei dei ricevitori.
+13:58 Dunque, mh allora, intanto due parole introduttive in senso in senso generale.
+14:05 Eh, allora il ricevitore è un è un
+14:13 componente è un oggetto che caratterizza molto una stazione di di radioamatore,
+14:19 nel senso che avere un buon ricevitore, diciamo, è una cosa discretamente discretamente importante. Lo dico in un
+14:26 altro modo. Allora, sapete che se diciamo molti di voi hanno già delle radio dalla banda per banda cittadina e
+14:32 non solo. Allora, nel se qualcuno di voi qualcuno di voi probabilmente ha già
+14:38 delle radio che coprono anche le bande radioamatoriali, no? Allora, ci sono
+14:43 ci sono radio di tutti i generi e di tutti i costi. Parliamo di prezzi del nuovo. Poi io normalmente non compro mai
+14:49 radio nuove, ma cerco sempre degli usati, ma comunque questo so se ne può parlare a fine corso. Diciamo se
+14:55 qualcuno di voi ha guardato il mercato delle radio, avrà visto forse che esistono una serie di di radio, parlando
+15:03 di radio in onde corte, quindi banda, diciamo, da 1,8 fino 30 MHz
+15:10 che costano al di 9 al di sotto dei €1000, 500 radio molto spesso cinesi che
+15:16 comunque il loro lavoro lo fanno. Poi ci sono una serie di di radio un po' più intermedie che costano, diciamo, 1000-
+15:22 €2000 che fanno discretamente anche il loro lavoro. Poi se non vuole proprio
+15:28 spendere, quindi diciamo Paperon Paperoni, mettiamola così, ci sono delle radio che costano parecchio di più anche
+15:34 della serie 5000, €8.000, €10.000, ci sono delle radio che sono i cosiddetti top di banda che costano quasi 10 volte
+15:42 le radio chiamate entry level, no? quelle a prezzo più basso che si possono comprare. Allora, se se voi prendete una
+15:49 radio che costa €1000 e una che ne costa, diciamo, 5.000, il trasmettitore sostanzialmente è identico. Identico.
+15:58 alcune radio un po' più costose, invece di trasmettitori di un di un trasmettitore da 100 W, che è un po' lo
+16:04 standard nelle radio radioamatoriali per onde corte, mettono un trasmettitore da 200 W, ma questo non fa la differenza,
+16:10 cioè fare 100 W in più non costa niente a latto pratico poi al gira gira è
+16:16 sempre la stessa radio, se uno vuole veramente potenza si deve comprare un amplificatore lineare, no? come come
+16:22 alcuni di voi sanno, però strutturalmente eh i trasmettitori
+16:29 dentro radio poco costose o dentro radio molto costose sono di fatto identici con
+16:35 le circuiterie che abbiamo visto nella lezione precedente, con le funzioni che abbiamo visto nella nel nella lezione
+16:41 precedente. Magari nelle radie un po' più costose ci sono un po' di orpelli in più, un po' di bellurie. Per esempio,
+16:48 c'è la possibilità di gestire meglio l'equalizzazione audio, toni acuti, toni bassi, eccetera. ci sono delle funzioni,
+16:55 i cosiddetti speech processor che rendano la voce un po' più incisiva per essere percepita a bassa distanza, ma
+17:01 sono bellurie, cioè sono funzioni che sono funzioni che in termini realizzativi costano pochissimi euro, se
+17:08 non pochissimi centesimi di euro, costano forse qualche riga di software qualche volta, invece nei ricevitori non
+17:17 è così. Eh, una caratteristica importantissima dei ricevitori è di essere in grado di
+17:24 continuare a fare il loro lavoro anche in situazioni di bande molto affollate e molto disturbate. E da questo punto di
+17:30 vista le il costo della radio fa assolutamente la differenza. Allora, le radio, diciamo, iniziali, quelli che
+17:38 costano 500 1000, €1500, ripeto, parlo di prezzi del nuovo, eh fanno comunque
+17:44 un buon lavoro, sicuramente, però hanno un limite intrinseco proprio nella struttura circuit radio che a seconda
+17:53 dell'uso che si fa, a secondo di quando ci piace accendere la radio, magari ci piace accendere la radio in un momento
+17:58 in cui nella nelle bande ci sono dei contest, cioè delle gare e allora le bande sono strapiene di segnali radio
+18:05 molto forti. In quelle situazioni c'è rischio che quelle radio si imbarchino e di fatto non ti facciano ascoltare
+18:10 niente. Viceversa, le radio molto costose sono delle macchine da guerra,
+18:15 cioè sono hanno dei ricevitori robustissimi che difficilmente, diciamo,
+18:21 perdono il il controllo della situazione. Quindi, mentre
+18:26 nei trasmettitori di fascia economica molto diversa anche il trasmettitore più o meno è sempre la stessa cosa. Per il
+18:33 ricevitore non è così. Non è così. Eh, anche perché la componentistica che
+18:39 serve per fare un ricevitore molto robusto è componentistica costosa in termini di circuiti risonanti, di
+18:45 filtri, di dispositivi appositi eccetera. Quindi sono prestazioni che si pagano. Invece un trasmettitore da 100 W
+18:53 industrialmente parlando, ha sempre quel costo lì. Mh.
+18:58 Allora, vediamo. Rimetto in condivisione lo schermo e
+19:06 entriamo un po' più in maniera un po' più strutturata sul tema dei ricevitori.
+19:15 Allora, cosa cosa ci aspettiamo da un buon ricevitore? Ci aspettiamo anzitutto
+19:21 queste tre cose, le tre, come venivano chiamate, come vengono chiamate a suo
+19:26 tempo. Intanto ci aspettiamo la capacità di ascoltare segnali deboli, perché io
+19:32 magari compro una radio perché mi piace salutare gli amici sul ponte di sezione,
+19:38 su ripetitori, oppure fare traffico in FM, quindi fare collegamenti sostanzialmente locali o quasi, ma delle
+19:46 volte magari mi piace sentire qualcosa più mi piace avere la possibilità di ascoltare qualcosa più in là, capito?
+19:52 Quindi segnali deboli, segnali a lunghe distanze e così via. E questa caratteristica è la sensibilità
+19:60 che deve avere il mio ricevitore, quindi deve essere capace di discriminare un
+20:05 segnale utile anche molto debole dal rumore. Perché un collegamento si fa non
+20:11 se un segnale ti arriva forte, ma se hai un rapporto segnale rumore adeguato,
+20:18 perché tu puoi avere anche un segnale forte, ma se hai un rumore più forte del tuo segnale forte, il segnale comunque
+20:24 non lo comprendi, no? Poi lo vedremo. La cosa importante è il rapporto segnale rumore.
+20:29 Poi la radio deve essere selettiva perché in molti momenti le bande sono piene, eh, quindi o che la radio sia
+20:36 canalizzata stile banda cittadina o stile ad esempio trasmissione in in FM
+20:42 in VHF, oppure che sia sintonia continua, la radio deve essere in grado
+20:48 di far riascoltare il segnale su cui si è sintonizzato, senza essere disturbata dai segnali che stanno sui canali
+20:55 immediatamente superiori e su e su quelli immediatamente inferiori. E poi la radio deve essere stabile
+21:01 meccanicamente ed elettricamente, cioè se io la sintonizzo in un certo posto, se il mio ricevitore lo sintonizzano con una certa frequenza, lui deve lui deve
+21:08 restare lì. Mh. Allora, come si fa a ottenere la sensibilità? La sensibilità si fa la la
+21:16 si ottiene amplificando. Quindi in un ricevitore ci sono molti amplificatori
+21:21 perché considerate che un ricevitore deve eh amplificare il segnale che
+21:26 arriva dall'antenna da 1 milione a 10 milioni di volte, perché un'antenna può
+21:32 captare segnali tranquilli che possono arrivare in basso fino da 1 5 10
+21:38 microvol, quindi milionesimi di volt. Un segnale di 5 micol normalmente è
+21:43 ritenuto un segnale già più che sufficiente per fare un ottimo collegamento. Questo segnale deve essere amplificato fino ad arrivare a
+21:49 un'intensità di una decina di volt, che è quello che serve per pilotare adeguatamente l'altoparlante della
+21:55 radio. Quindi se è un'amplificazione che può andare da 1 milione a 10 milioni di volte.
+22:00 Questo ci fa capire che in una radio non c'è un amplificatore, no, un transistor che amplifica, ma ci sarà una catena di
+22:07 amplificazione che piano piano eh prenderà il segnale che arriva dall'antenna e pian pianino lo
+22:14 amplificherà fino al al livello che serve per in qualche modo eh pilotare
+22:20 adeguatamente l'altoparlante. E poi la selettività. La selettività si
+22:25 fa con i filtri ovviamente, no? Abbiamo visto che esistono i filtri pasta basso, quindi circuiti risonanti oppure filtri
+22:32 a a cristallo, come abbiamo visto a quindi con circuiti risonanti fatti
+22:38 tramite risonatori a cristallo di quarzo e diciamo i i circuiti risonanti sono
+22:44 quelli che fanno la selettività di di una radio. Però il problema è che
+22:49 parlando di selettività è che immaginiamo, fatemi fare un esempio canalizzato che mi viene più facile, no?
+22:56 Fatemi parlare ad esempio del della vecchia banda cittadina, quindi il la
+23:01 tipica radio, il tipico baracchino, 23 canali, 24 canali, 40 canali. Allora, eh
+23:08 io io potrei in teoria immaginare di avere, se voglio una radio a 40
+23:13 canali, di avere 40 filtri ognuno per uno dei canali dall'uno al 40 che io
+23:19 voglio ascoltare. Però una cosa di questo genere porterebbe dei costi stratosferici alla alla radio. Oppure io
+23:26 potrei immaginare allora di avere un filtro che sia in grado di sintonizzarsi. Quindi il filtro che mi
+23:33 fa la selettività della radio, posso immaginare di sintonizzarlo e variando la sintonia di questo filtro,
+23:41 sintonizzandolo proprio sul canale 1, sul canale 2, sul canale 3. Però questa cosa tecnicamente veniva veniva fatta a
+23:48 volte negli anni 1900-1905 eccetera da le radio di allora, cioè c'era una
+23:57 una catena di amplificazione con tanti amplificatori uno dietro l'altro che venivano tutti quanti sintonizzati in
+24:02 passo. però è una cosa difficilissima da realizzare perché la selettività viene
+24:08 ottenuta può essere ottenuta se non con filtri come dicevo prima, a quarzo che
+24:14 per definizione sono a frequenza fissa, no? Perché la frequenza di un quarzo dipende da come è tagliato e da quanto è
+24:19 grande, non la posso modificare. Eh, l'altro motivo per l'altro modo per ottenere la selettività è con un
+24:25 circuito risonante, quindi condensatore induttore, qui lì posso spostare la frequenza, ma un circuito singolo
+24:33 condensatore e induttore, immaginiamo un circuito risonante parallelo, non è assolutamente in grado di separare due
+24:38 canali come il canale 1 dal canale 2 della banda cittadina, ce ne vorrebbero cinque in cascata di quei filtri lì. E
+24:44 allora io dovrei in qualche modo sintonizzare cinque filtri. Allora, fortunatamente
+24:51 per riuscire a risolvere questo questa questa situazione
+24:56 eh a un certo punto, più o meno nel 1910-195, fu inventata la l'architettura dei
+25:03 ricevitori chiamati supereterodina. Questi sono ricevitori a conversione. A conversione.
+25:09 Il fenomeno dell'eterodinaggio, come veniva detto all'epoca, questa è terminologia, diciamo, storica che però
+25:16 si, diciamo, resta nel tempo. Il l'eterodina, l'eterodinaggio è il è
+25:22 quello che succede in un convertitore. Si fa battere un segnale con un con un altro segnale per ottenere una terza
+25:28 frequenza intermedia, no? come nei convertitori e nei mixer. Allora, i ricevitori super supererodina sono
+25:35 ricevitori a conversione e in pratica cosa succede? Allora, seguiamo questo schema blocchi e
+25:42 prendiamo come riferimento questo filtro che vedete qua in mezzo.
+25:48 Questo è il filtro, di solito un filtro a cristallo che realizza la selettività
+25:53 della radio e per i motivi che vi dicevo prima è un filtro a frequenza fissa
+25:58 fissa. Io posso avere, per esempio, un filtro a 9 MHz, oppure, come vedete scritto qua sotto, a 455 kHz. Queste
+26:06 sono frequenze abbastanza standard usate in in, diciamo, in molte radio, no, e a
+26:12 cui si possono comprare, diciamo, questi filtri. Questo filtro è seguito da dagli
+26:17 amplificatori che che chiaramente lavorano tutti quanti alla frequenza di questo filtro. Il filtro, come dicevo
+26:23 prima, non lo posso spostare. Allora, se non posso spostare il filtro, cosa faccio? Con questa tecnica di
+26:30 eterodinaggio porto alla frequenza del filtro i segnali che via voglio ricevere. Immaginiamo che qui io abbia
+26:38 una banda eh come la banda cittadina. Canale 1,
+26:44 canale 2, canale 3. Canale 3, scusate, di tanto in tanto il mouse parte per la tangente. Immaginiamo che io voglia
+26:50 usare io voglia ricevere il canale uno, questo canale qua, d'accordo? uno
+26:56 m eh immaginiamo che il mio filtro sia a a
+27:01 9 MHz, tanto per fare un esempio numerico.
+27:07 Attenzione al lado in sottofondo e immaginiamo che Ok, immaginiamo che il canale 1 sia 27
+27:15 MHz pari. Allora, io faccio nel mio mixer, nel mio convertitore, cioè qui,
+27:21 io faccio battere, come dicevo prima, questo segnale a a 27 MHz con un segnale
+27:28 a 27 - 9, quindi con un segnale a 18 MHz. L'oscillatore locale mi genera 18
+27:35 MHz. Così facendo cosa ho fatto? Ho convertito il segnale che voglio
+27:41 ricevere alla frequenza di 9 MHz. Questa questa frequenza a cui io converto il
+27:48 segnale di ingresso è chiamata frequenza intermedia. Lo vedete scritto qua sotto, frequenza intermedia. E amplificatore IF
+27:56 vuol dire amplificatore a frequenza intermedia, interm intermediate frequency
+28:01 o qualcosa del genere. Quindi il mio segnale a 27 MHz viene con
+28:08 un oscillatore locale della frequenza opportuna, 18 MHz in questo caso, viene convertito a 9 MHz e tutto funziona
+28:15 bene. Immaginiamo che io voglia a questo punto ascoltare il canale 2 che sta quassù, 10 kHz più alti, più alti.
+28:24 Chiaramente il filtro è a 9 MHz e resta a 9 MHz perché questi filtri sono monolitici e inamovibili, come vi dicevo
+28:31 prima. Allora, cosa faccio? Sposto la frequenza dell'oscillatore locale. Se questo canale 2 è a 27.01,
+28:40 cioè 27 MHz + 10 kHz, mi sposto
+28:46 in maniera omologa la frequenza dell'oscillatore locale 10 kHz sotto, quindi invece di 18 MHz avrò un
+28:52 oscillatore locale a 17.09.
+28:58 La somma dei due continua a darmi 9 e quindi io spostando l'oscillatore locale
+29:04 di 10 kHz cosa faccio? Traselo alla frequenza del filtro non i segnali del
+29:09 canale 1, ma i segnali che sono al canale 2 e così via e così via e così via. Quindi la manopola della sintonia
+29:15 in queste radio, come come vedete qua, mi varia la frequenza del mio
+29:22 oscillatore locale. Variando la frequenza dell'oscillatore locale io di volta in volta converto il canale che
+29:29 voglio ricevere alla mia frequenza intermedia. Quindi, in pratica, e con questo
+29:34 concludo questo primo discorso perché poi lascio la parola a voi perché questo concetto deve essere chiaro, perché
+29:41 questo concetto della supererodina è alla base di tutti i ricevitori, diciamo, tradizionali che si usano. E
+29:48 questo, diciamo, il ricevitore supererodina può essere visto in questo modo. Può essere visto come un
+29:54 ricevitore a frequenza fissa che parte da qui, che parte da dietro il
+29:59 convertitore. Qui dal filtro in poi abbiamo un ricevitore, il filtro, tutta
+30:06 l'amplificazione che serve a frequenza intermedia, poi ho il rivelatore. Il rivelatore è un circuito che, come
+30:13 vedremo, estrae dal segnale ricevuto la bassa frequenza, cioè l'informazione audio che è stata in qualche modo
+30:22 sovrapposta alla portante nella trasmissione, no? Ricordate la nella lezione dei modi di emissione abbiamo
+30:27 visto che si può sovrapporre, diciamo, la voce, quindi il segnale che io voglio
+30:34 trasmettere usando la modulazione d'ampiezza, usando la modulazione di frequenza, qui il rivelatore fa il
+30:40 processo inverso, cioè dalla portante estrae la bassa frequenza che poi viene amplificata amplificatore di BF, bassa
+30:46 frequenza e poi c'è l'altoparlante. Quindi questa tutta questa parte qui è un ricevitore a frequenza fissa
+30:53 preceduto da un convertitore che con un oscillatore locale delle frequenze
+30:59 opportune mi converte a questa frequenza fissa volta per volta il canale che io
+31:05 voglio ricevere, la frequenza che io voglio ricevere. E questa è la super eterodina.
+31:11 Tolgo la condivisione per vedere se c'è qualche qualche domanda.
+31:17 Tutto chiaro per ora? Vai Marco. A te
+31:24 domandona. Oscillatore locale che è quello che dovrebbe variare
+31:30 i 10 kHz riferimento alla CB. Ehm
+31:36 l'oscillatore locale è di solito un quarzo, no? A cui c'è un
+31:42 circuito o è un circuito? è un classico oscillatore come quelli che si son
+31:47 visti. È un classico oscillatore come quelli che si son visti in alcune radio
+31:53 più economiche, diciamo, è un oscillatore libero. Per esempio, se se tu se uno prende una una radio di quelle
+32:00 che che venivano usate per ricevere la M, quindi il primo della Rai, Rai 1, Rai
+32:07 2, Rai 3, no? nel nel periodo della modulazione di ampiezza lì lì quelle radio hanno tutti oscillatori liberi
+32:15 e bastavano e avanzavano, no, per le frequenze che dovevano ricevere. Eh eh
+32:20 invece radio a frequenze più alte, per esempio quelle che ricevono l'FM, l'FM canalizzata Intendo 8808, banda
+32:27 commerciale, come oscillatori hanno dei PLL, ricordate? Si erano visti, no, gli
+32:32 oscillatori agganciati a un quarzo di riferimento che quindi li rendono stabili. Quindi penso che PLL ora ce
+32:39 l'abbiamo quasi tutti da CB in poi siano tutti oscillatori al PLL.
+32:44 Sostanzialmente sì. Eh, sostanzialmente sì.
+32:49 Perché i primi primi CB andavano ancora, mi ricordo, a quarzi, mi ricordo quell
+32:55 primi. Esatto. Esatto. I 24 E i 24 canali venivano ricevuti con con 24
+33:02 frequenze che erano ottenute mescolando 6/4 e altri 4/ quarzi. 6* 4 24. Eh 6* 4
+33:09 24. Come battevano i quarzi insieme in qu. Esattamente. Si facevano i 24 canali
+33:16 e c'erano anche i superiori e inferiori. Si facevano le modifiche. Sì, si faceva le modifiche. Sì, arrivano 240 canali.
+33:25 Cioè, Certo che sì. Certo che sì. La necessità Guzz è l'ingegno, no? Si dice.
+33:31 Eh, allora una domanda da Massimo. Buonasera. Intanto non ho capito bene.
+33:43 Massimo Massimo, il microfono. No, ok, avevo già
+33:51 avevo già fatto la domanda senza il microfono. Va bene. Buonasera a tutti. Non ho capito
+33:59 perché abbiamo la 27 MHz come esempio davanti all'amplificatore RF.
+34:05 E dopo passa dal convertitore, oscillatore, il filtro. In fondo dopo il
+34:10 filtro non dovremmo averla lì la 27 m per dire dall'esempio.
+34:16 No, allora, buona domanda. Buona domanda. Aspetta eh che rimetto e
+34:22 rimetto in condivisione. Eh, perfetto. Pictte, eccolo qua. E anzi farò di più.
+34:29 Un attimo solo, scusa, eh.
+34:34 Ho ho ho cancellato la lavagna. Mh. Allora,
+34:41 allora, allora, allora, immaginiamo che io voglio che io voglio ricevere i 27 MHz. D'accordo? Si si vede il video
+34:49 o fatto qualche casino strano? Sì, perfetto, perfetto. Allora, rimetto il pennarello. Voglio ricevere 27 MHz.
+34:57 Quindi, in ingresso qui al mio amplificatore RF c'è l'antenna e qui ho un segnale a 27. D'accordo? Questo
+35:04 amplificatore mi amplifica i 27 e quindi in questo punto qui ho sempre 27 MHz.
+35:13 Eh, l'oscillatore locale si è detto, mi serve che sia di 18, quindi in questo punto qui ho 18 MHz
+35:21 perché 27 - 18 fa 9. Quindi qui io ho 9 MHz, ho convertito i 27 MHz a 9 MHz, non
+35:29 ho perso informazione. Eh, perché se qui è un segnale in modulazione di ampiezza, convertendolo mi resta un segnale in
+35:35 modulazione di ampiezza. semplicemente l'ho spostato di frequenza, passa dal filtro ed è e qui ho sempre i
+35:42 9 MHz e nella frequenza intermedia questo segnale mi viene amplificato anche di
+35:49 appunto 100.000 volte o un milione di volte, come dicevo prima e qui ho sempre 9 MHz.
+35:56 Eh, i 9 MHz finiscono qua perché entrano nel rivelatore e il rivelatore dai 9 MHz
+36:02 estrae il segnale utile, cioè la voce. E quindi qui dietro ho ho la mia voce,
+36:08 quindi ho, vi ricordate? Si, si diceva che la voce umana trasmessa più o meno va da 200 Hz
+36:16 a grosso modo 3 kHz, diciamo 3000 Hz. Quindi qui,
+36:23 scusate la grafia pessima, ma col mouse non mi riesce a fare meglio. In questo punto qui ho la banda audio
+36:32 che mi viene amplificata e qui a valle ho un ricoltoparlante che in qualche
+36:38 modo mi eh restituisce, diciamo, il segnale acustico della banda audio.
+36:43 Quindi, appunto, eh il segnale entra a 27, viene amplificato, resta a 27, viene
+36:50 convertito alla frequenza intermedia, viene amplificato, resta a 9 MHz finché
+36:55 non si entra nel rivelatore. Dopo il rivelatore c'è la voce.
+37:00 Ti ti torna? Sì, mi torna. È che facevo il ragionamento su anche il
+37:06 trasmettitore. È vero che questo è solo ricevitore. Ho sbagliato i Sì, sì, sì, sì, sì, sì. Ricevitore. Ricevitore
+37:15 comunque, cioè l'importante è che ti torni perché, appunto, ripeto, questo meccanismo
+37:21 Vai dici. Sì, sì, dico adesso mi torna perfettamente, viene solo convertito a 9
+37:27 MHz e dopo poi ci serve solamente la la fonia, diciamo così. Certo, perfetto.
+37:33 Esatto. Sì. E e la fonia E la fonia ce l'hai quaggiù. Esatto. Mh. D'accordo.
+37:41 Grazie. Grazie a te. Ci sono altre altre magne alzate?
+37:48 Sì, Marco. Sì, sempre io che rompo le scatole. l'amplificatore RF
+37:55 e nello schema questo qui deve essere forte come amplificatore
+38:02 m ma con forte cioè tanta amplificazione. Sì, sì. No, no,
+38:10 no. Diciamo che eh cioè quello che fa il lavoro più grosso
+38:15 è l'amplificatore IF, diciamo. Sì, esatto, esatto, esatto, esatto. Quello
+38:22 deve amplificare un minimo per poterlo rilevare, rivelare, diciamo. Sì, sì. Allora,
+38:28 diciamo che Allora, queste cose di cui si parla ora non fanno parte del programma di No, no, no, era solo per
+38:34 curiosità. No, no, diciamo che poi se volete se volete si può fare dopo
+38:40 l'esame una lezione, una una una lezione, una chiacchierata in quel caso approfondita su sui ricevitori. Però in
+38:47 queste in questi tre pezzi iniziali, amplificatore, RF, convertitore e filtro, si fa la qualità di un
+38:53 ricevitore. Gli è fatta tutta qua. Allora, il convertitore è uno stadio rumoroso
+38:59 e quindi a meno di usare convertitori molto particolari si mette un amplificatore RF per evitare che i
+39:06 segnali deboli vengano perduti. La sensibilità famosa. Il problema è che se si amplifica troppo prima del
+39:13 convertitore la radio più si amplifica prima e meno
+39:18 diventa robusta e quindi diventa facile alla saturazione
+39:23 da parte di segnali fortici. uno di voi, no, che nella quando si è fatto la puntata
+39:29 la lezione, diciamo, sui trasmettitori, si era parlato dell'intermodulazione e e avevo allora accennato che
+39:36 l'intermodulazione può nascere nel trasmettitore, no? Se io trasmetto male trasmetto gli splatter. Però lo stesso
+39:43 tipo di problema ce lo posso avere nel ricevitore, cioè se il ricevitore, se alcuni stati del ricevitore mi vanno in
+39:49 saturazione, gli splatteri in realtà se li inventa il ricevitore.
+39:54 Quindi non è sempre detto che, diciamo, quando si ascolta male la colpa sia di chi trasmette, a volte la colpa è del è
+40:01 del mio ricevitore e e e per e quindi servirebbe
+40:06 un'amplificazione qui minima minima. Però poi questo ora se se ne parlerà
+40:12 d'accordo. Fammi accantonare il discorso perché No, no, no, era solo per curiosità, no? Per la curiosità è
+40:19 legittima. Se ne potrebbe parlare ore di di questa cosa.
+40:24 Allora, se non ci sono altre domande proseguo. Paolo, c'è Francesco, la mano alzata.
+40:31 Paolo, scusami, non riesco a, cioè, ho capito tutto, ma non riesco a capire
+40:38 questi 27, ora si è preso questa unità 27 MHz dell'amplificatore, perché io lo
+40:45 lo non so come spiegartelo, nel senso questi 27 MHz chi me le manda a me?
+40:51 Cioè, nel senso, lo decido io su su che frequenza ricevere. Sì, lo decidi tu
+40:59 tramite la manopola di sintonia, cioè quando Sì, che io nel Cioè dall'antenna
+41:04 io ricevo miliardi di frequenze. Ok. Sì. E praticamente tramite
+41:11 l'oscillatore locale io decido quale frequenza ricevere. Bravo. Perfettamente
+41:18 detto. Bravo. Perfetto. Ok. Perfetto. No, non capivo questi 27 MHz
+41:24 all'amplificatore RF chi me li dava, però te li dà quella periode di segnali
+41:30 come dete. Sì, sì, sì. E la decisione del segnale che voglio ricevere la
+41:36 faccio qua, regolando la mia manopola di sintonia. Sintonia. Ok. Ah, perfetto.
+41:43 Grazie. Grazie a te. Allora, proseguo e per informazione non cambia niente in
+41:51 tuta Paolo, ci sarebbe anche Marco e la mano alzata. Ah, grazie, grazie. Sì, cioè tu fai bene a dirmelo perché perché
+41:57 sapete che quando lo schermo è in condivisione le mani non le vedo. Vai. Aspetta, metto metto il il filtro
+42:04 antipop, senò sputo. Allora, eh quindi tutto questo si fa eh
+42:12 usando l'oscillatore che moltiplicando per 9, giusto? fa le frequenze
+42:18 eh sommando. Allora, il convertitore non moltiplica, somma e sottrae. Diciamo che
+42:25 in questa situazione eh nel convertitore entrano 27 MHz, ok? E dall'oscillatore
+42:32 entrano, scusami, entrano questi 27 MHz qui e questi 18 MHz qui. Ok? 187
+42:40 convertore. Esatto. E poi il convertitore non fa solo non fa solo, diciamo, 27 -1, che sono i 9 MHz che
+42:48 vanno bene. Il convertitore fa anche l'operazione somma 27 + 18 27 + 18 fa
+42:54 37, 47 fa 45. I 45 sono molto fuori dalla banda del filtro. Il filtro fa
+43:01 passare solo i 9 MHz, però i 45 qui ci sono in uscita dal convertitore, ma il filtro me li non me li fa passare, me li
+43:08 me li annulla. Quindi il filtro è sempre fisso al nove. Sì, sì, sì, sì. E
+43:15 l'oscillatore cambia. Naturalmente l'oscitatore è la nostra manopola del WFO che girando
+43:21 dà un valore che sommando e tira fuori la frequenza di dizioni.
+43:27 Perfetto, bravissimo. Detto perfettamente bene. Diciamo che variando la frequenza dell'oscillatore locale e
+43:33 uno decide quale dei segnali 27 2700 2700 e così via, quale dei due segnali
+43:42 viene portato ai 9 MHz e quindi passa nel filtro, viene amplificato e allora
+43:47 io lo posso ascoltare. Quindi il l'oscillatore è un
+43:52 condensatore variabile. Ripeti, scusa, non t'ho sentito. L'oscillatore è un condensatore
+43:58 variabile. L'oscillatore è un oscillatore a frequenza variabile,
+44:03 quindi è un oscillatore che può generare non una sola frequenza, ma tramite la sintonia dall'oscillatore possono uscire
+44:11 18, 19 20 MHz, no? Ok. Eh, quindi è un oscillatore a frequenza variabile in
+44:17 questo caso. Eh, ok.
+44:24 Altre mani? No, Paolo, per ora no. Grazie. Proseguo.
+44:30 Allora, stavo dicendovi che c'è una versione appeno più sofisticata di
+44:35 questi ricevitori superodina che sono quelle che sono le cosiddette doppia conversione. Parecchi ricevitori sono a
+44:42 doppia conversione. Poi fra un po' dirò in maniera specifica perché non cambia niente, è esattamente la stessa cosa.
+44:49 Vedete che i primi stadi sono uguali, diciamo. Ora ho fatto l'esempio coi 27, continuiamo coi 27. Qui mi qui mi
+44:56 arrivano i 27. Questo me li amplifica il mio convertitore. Qui c'è l'oscillatore
+45:02 locale. Qua ho gli stessi 18 che avevo prima. 18, diciamo,
+45:08 e qui ho i 9 MHz di filtro. Quindi questo è un filtro a 9.
+45:13 Mh, stessa cosa di prima. Eh, per alcuni motivi a volte conviene
+45:20 fare una seconda conversione. Forse alcuni di voi l'avrete sentito dire, no, il radio a doppia conversione, ce ne
+45:26 sono anche quelle a tripla conversione. Che succede qua? Succede che per motivi
+45:31 di comodità questi 9 MHz, ad esempio, vengono convertiti a una frequenza più bassa. Vedete che questa volta, siccome
+45:38 i 9 MHz non sono una frequenza variabile, sono sempre 9 MHz, l'oscillatore della seconda conversione,
+45:45 che è questo qua, vedete che è un oscillatore fisso, come c'è scritto qui, che per esempio converte i miei 9 MHz,
+45:52 tanto per dire, a 455 kHz, che è un altro valore tipico delle
+46:01 delle radio delle frequenze intermedie. E qui il segnale a questo punto viene amplificato
+46:07 a 450 kHz rivelatore, eccetera. Eh, a volte ai costruttori comoda fare così, a
+46:13 volte per motivi, diciamo, di di economicità, perché magari mettono un un
+46:20 filtrino poco costoso qui a 9 MHz
+46:26 perché costano molto meno i filtri a 45 kHz, però così si ottengono radiodoli,
+46:32 però comunque funziona, no? Cioè si entra in quei ricevitori di fascia un po' più bassa di cui di cui vi parlavo
+46:37 prima. E poi ci sono altri motivi per cui si fanno cose di questo tipo, ma ve ne parlo un po' più avanti. Comunque
+46:43 esiste la superederodina a doppia conversione. Adesso facciamo un passo avanti. Eh,
+46:51 allora, trovate poi nelle slide tutte le cose che in qualche modo abbiamo detto. Ora le le riassumo. Se per caso c'è
+46:56 qualcosa che non è chiaro, magari ditelo subito. Allora, avete visto che ci sono tre tipi di amplificatori in un
+47:03 ricevitore. c'è l'amplificatore a radiofrequenza, il primo. Quindi radiofrequenza vuol dire
+47:09 che lavora alla frequenza dei segnali ricevuti dall'antenna e questo deve essere un amplificatore in grado di
+47:14 lavorare su segnali deboli perché dall'antenna ti può arrivare il segnalone, ma anche il segnalino di
+47:20 mezzo microvolt che tu magari lo vuoi ascoltare perché è un sud americano che vuoi collegare, no? Diciamo. Poi ci sono
+47:26 gli amplif l'amplificatore o gli amplificatori a frequenza intermedia. If
+47:32 lavora una frequenza fissa perché, come si è visto prima sono dopo il filtro e quindi sono tutti amplificatori che sono
+47:37 tutti in passo a 9 M uno dietro l'altro a 455 kHz uno dietro l'altro amplificano
+47:43 il segnale convertito e poi c'è l'amplificatore di bassa frequenza, più o meno alta fedeltà, a volte più meno
+47:50 che più e amplifica i segnali e frequenza audio e li invia all'altoparlante. Quindi ci sono questi
+47:56 tre tipi di amplificatori in un ricevitore. Poi abbiamo visto che ci sono degli oscillatori che possono
+48:02 essere fissi o variabili. L'oscillatore variabile, come qualcuno di voi ha detto molte volte, viene chiamato anche nelle
+48:08 domande VFO, variable frequency oscillator ed è l'oscillatore proprio di
+48:14 sintonia, cioè la frequenza di quell'oscillatore la vario io con la monopolona della radio che che che è la
+48:20 sintonia. Possono esserci degli oscillatori fissi, come avete visto prima, no? qui nella nella doppia
+48:27 conversione. Questo è un oscillatore fisso. Poi ovviamente ci sono i convertitori,
+48:33 se n'è parlato e riparlato e poi ci sono i rivelatori che adesso li vediamo e sono appunto i circuiti che estraggono
+48:39 dalla portante il segnale audio. Allora, vediamo un po' più un capellino
+48:46 più in pratica il ricevitore per telegrafia, tanto per cominciare. Poi vedremo quello per l'SSB e poi vedremo
+48:53 quello per l'FM. Allora, qui vi spaccherò il capello in quattro, eh,
+48:59 però tutti i numerini che sono scritti qua sopra sono numeri utili da sapere perché poi sono numerini che possono
+49:06 finire nelle domande. Allora, telegrafia, eh partiamo qui dal dalla parte
+49:12 centrale. Allora, intanto vedete che qui c'è un filtro a 500 Hz di larghezza di
+49:18 banda, quindi un filtro molto stretto. Il segnale telegrafico, siccome è di
+49:24 fatto una sola portante che viene modulata, acceso, spento acceso, spento, no, io trasmetto, per esempio, la
+49:30 lettera S, che sono tre punti, T t t, eh, schiaccio tre volte il tasto e quindi trasmetto tre punticini di
+49:37 portante. Eh, e è un segnale molto stretto per sua natura, non essendo un
+49:43 segnale modulato come l'M e l'FM e quindi si usano si possono usare filtri
+49:49 molto stretti, un tipico filtro è 500 Hz. Allora, questi numeri teneteli a mente. Ripeto, i numeri che vedete in
+49:55 queste figure sono tutte importanti perché eh possono ci sono delle domande,
+50:01 a volte ci sono nelle domande del Ministero, no? Che filtro si usa per ricevere l'FM? Che qual è la larghezza
+50:07 di banda utile? Quindi se vi domandano qual è la larghezza di banda tipica per un filtro CV do è questa qua, 500 Hz. Poi si
+50:15 possono usare filtri un po' più stretti, un po' più larghi, ma 500 Hz diciamo è lo standard.
+50:22 Allora, davanti al filtro vedete, cioè ci sono tutte le cose che abbiamo già
+50:27 visto, le rivediamo un po' con numeri diversi che fa bene come esercizio.
+50:32 Allora, questo è un ricevitore per la banda radiamatoriale dei cosiddetti 80
+50:38 m. Siamo in onde corte che tradotte in frequenza fanno 3 4 MHz. La banda
+50:45 finisce un po' prima dei 4 MHz, ma comunque ora non non ci importa. Facciamo finta che siano questi 500 kHz
+50:51 qua da 3 5 a 4. Qui c'è un amplificatore RF che, come a volte succede, questo
+50:57 amplificatore è sintonizzato. ci sono dei circuiti risonanti
+51:02 eh sintonizzati da questi condensatori variabili che fanno sì che eh ci sia già un po' di
+51:10 selettività prima del miscelatore, che è una cosa molto molto molto utile perché
+51:15 più selettività c'è davanti al miscillatore, più il miscellatore lavora lavora bene ed è in grado di gestire
+51:20 segnali robusti senza andare eh a gambe all'aria. Qui c'è l'oscillatore locale.
+51:28 Prima per la banda cittadina lo avevamo a 18 MHz, qui lo abbiamo fra 5 e 5 e 5
+51:34 MHz. Vedete che conti tornano? Se ci facciamo un po' di somme e sottrazioni, vediamo che quando voglio ascoltare i
+51:40 3,5 MHz, 35 + 5,
+51:45 per l'appunto mi dà 9. Eccoli qua i 9 MHz. Oppure se voglio ascoltare 4, 5 e 4
+51:51 fa 9. Quindi vedete che anche gli estremi di banda tornano, no? Cioè, sintonizzando l'oscillatore locale da 5
+51:57 a 5,5, io piano piano mi scansiono la banda da 4 MHz a 3 MHz.
+52:04 Anche qui la media frequenza è a 9, c'è l'amplificatore di frequenza
+52:10 intermedia e adesso vediamo un po' come si fa a rivelare la telegrafia. Allora,
+52:17 la telegrafia dicevo prima, essenzialmente se se tu l'ascolti
+52:24 mh non eh se tu l'ascolti pura eh è un segnale che c'è o non c'è. Quindi
+52:32 diciamo se se se non non si usa qualche trucchetto nel ricevitore la telegrafia in pratica non si ascolta, no? Perché
+52:38 quando immaginate di essere alla radio, il vostro corrispondente schiaccia la
+52:44 port schiaccia il tasto e quindi, diciamo, mette la portante. Se sta zitto non si sente niente, giusto?
+52:51 La telegrafia è esattamente una portante. È è una portante di ampiezza costante che semplicemente viene accesa
+52:57 e spenta a secondo tasto telegrafico. Quindi quando quando sono qui in questo
+53:02 punto diciamo avvale di tutto di tutto di tutta la catena di ricezione dopo l'amplificatore FF IF. Qui ho dei
+53:11 momenti in cui pum la portante è accesa, qui è spenta,
+53:18 qui la portante di nuovo accesa e qui la portante è di nuovo accesa. E questa è la lettera S di cui parlavo prima, no?
+53:24 Tre pezzettini di portante accesa. Quindi il trasmettitore che sta trasmettendo in questi punti bassi, in
+53:31 realtà non sta trasmettendo niente, no? Lui trasmette quando per esempio lettera S punti Tasmette
+53:40 per queste tre frazioni di secondo che compongono la lettera F della telegrafia. Un segnale così ascoltato in
+53:47 altoparlante con cuffia non non mi dice niente, cioè non riesco proprio a a comprenderlo. Allora, che trucco si usa
+53:54 per i rivelatori telegrafici? Si usa qui un altro, di fatto un altro miscelatore.
+53:60 Il si usa un rivelatore a prodotto che fa una funzione identica a quella del
+54:05 miscelatore. E allora il segnale telegrafico che arriva dall'antenna passa attraverso il
+54:11 nostro filtro a 500 kHz ed è un segnale che ha una frequenza di 9 MHz. Quindi
+54:17 questa questa portante che arriva qui al rivelatore ha una frequenza di 9 MHz.
+54:22 Questi 9 MHz vengono fatti battere eh con un segnale generato da un altro
+54:29 oscillatore. Questo oscillatore si chiama BFO.
+54:34 BFO sta per oscillatore della frequenza di battimento. Bit frequency oscillator.
+54:41 Bit battimento, no? frequency oscillator. Questo è un oscillatore più delle volte a quarzo. Questo qui,
+54:47 ricordate che è il simbolo elettrico del cristallo di quarzo
+54:52 e questo quarzo viene messo in questi ricevitori a una frequenza eh di 700 Hz
+54:59 spostata rispetto al valore del, diciamo, della frequenza intermedia,
+55:05 quindi non è a 900 pari, ma è 9.700. Allora, questo rivelatore a prodotto fa
+55:13 esattamente il lavoro del mixer, quindi da qui escono due frequenze che sono la somma e la differenza del segnale in
+55:19 ingresso. Allora, la somma 9 e 918 se ne va altissima e quindi non non è
+55:27 ascoltabile, diciamo, l'amplificatore audio non si accorge neanche che c'è. Invece la differenza 9.700 700 Hz di -9,
+55:38 il risultato è 700 Hz. Quindi in questo punto qua ho un segnale a 700 Hz 700
+55:49 nei momenti in cui c'è la portante. Quindi ad esempio in questi tre punti della S. Per cui se il mio trasmettitore
+55:56 chi chi mi sta trasmettendo mi fa tre punti di portante, io qui ascolto ttt,
+56:03 cioè ascolto per tre volte a 700 Hz. eh
+56:11 i i tre puntini che compongono letter S e io capisco che si tratta di una S perché sento proprio T ti ti ti.
+56:17 Praticamente in questo modo è un tono. Esatto. Esatto. È un tono. È un tono.
+56:22 Questo Questo trucco qua mi trasforma eh questi periodi in cui c'è la portante
+56:30 in dei toni a una frequenza audio. È un tono a una frequenza audio. Questa è la cosa importante.
+56:38 Perché 700 Hz? E con questo chiudo e poi domande a voi. Eh, perché a 700 Hz è una
+56:45 frequenza che alla maggioranza degli operatori che fanno telegrafia piace perché è una frequenza a cui l'orecchio
+56:50 funziona bene, è molto sensibile, perché sapete che l'orecchio non è che è altrettanto eh valido ad ascoltare
+56:56 frequenze molto basse, molto alte, eccetera, no? è la frequenza che praticamente viene, diciamo, è un po'
+57:01 uno standard negli apparati. Poi negli apparati un po' più costosi c'è anche una monopolina che te li fa spostare,
+57:09 quindi se invece che 700 vuoi ascoltare a 800 o a 600 o o a 900 insomma te ti ti
+57:14 ti ti ti ti ti ti ti ti ti ti ti ti ti ti ti ti ti ti ti ti ti ti ti ti ti sposta il cosiddetto pitch e e ti ti ti ti ti ti ti ti ti ti ti ti sposta la frequenza di di ascolto,
+57:21 però sostanzialmente, diciamo così, facendo, si è si è rigenerato, si è generato, anzi perché questo è un
+57:27 segnale che appunto nasce qui, si è generato un tono audio che mi mette in
+57:32 grado poi per chi la conosce di ascoltare la la telegrafia. E queste sono appunto le
+57:38 caratteristiche di un ricevitore CW che eh è una supererodina, anche questo è è
+57:45 una conversione di frequenza e in telegrafia, quindi il usa un filtro a 500 Hz, come si è detto, e c'è un
+57:51 rivelatore a prodotto e in cui l'oscillatore di battimento, il
+57:57 bit frequency oscillator inietta un segnale che è appena spostato rispetto a quello della frequenza intermedia 700
+58:04 Hz. Il risultato, appunto, è un tono a 700 Hz.
+58:10 Tutto chiaro? Ci ci sono domande?
+58:18 Marco, hai una mano alzata, ma non so se quella di prima. No, no, te l'ho alzata ora perché tu se volevo che tu me li
+58:25 rispiegassi il filtro a 500 Hz perché non ho capito cos'è un passaband a 500
+58:31 Hz. No, es esatto. È un passapanda a 500 Hz, è un passapanda centrato a 9 MHz che
+58:37 ha una larghezza di banda di 500 Hz, quindi 250 Hz sotto e 250 Hz sopra.
+58:45 Perfetto. Perfetto. Esattamente così. Quindi non è un è un 9 MHz non preciso
+58:53 in questo caso. Sì, è un 9 - 250. 9 + 250 + 250. Sì, sì, sì, è un passoapasso
+59:00 Sì, però un passapanda è un passapanda. Però quando compri il filtro, quando uno compra un filtro, anche magari se uno
+59:07 vuol mettere un filtro aggiuntivo su una radio i il il filtro lo compra sapendo
+59:12 questi due numeri, cioè tu compri un filtro a 9 MHz che deve essere largo 500 Hz. M m capito? Cioè, non compri un
+59:19 filtro che sul filtro non c'è scritto che parte da 8.995
+59:26 e arriva a 9.005. 005 c'è ci sono scritti questi due numeri,
+59:31 filtro 9 MHz e e sotto c'è scritto 500 l'archizzicatore l'amplificatore IF amplifica
+59:40 con questa banda il -250 + 250 Sì, sì. E
+59:46 se la porta avanti finché non batte, però. Esatto, esattamente, esattamente.
+59:54 Grazie. Niente, altre altre mani alzate
+60:02 no. Allora, qui vedete qui un mini riassunto di quello che si è detto. L'oscillatore di battimento BFO ha una
+60:09 frequenza molto vicina a quella della IF e per battimento genera il segnale
+60:14 audio, quello che Marco ha giustamente chiamato il tono.
+60:20 Non si vede nulla. Eh eh. Avete avete anche ragione.
+60:28 Ah, eccolo qua.
+60:36 Non hai la super terroredina? No, no, scusa, la super teroredina.
+60:43 Eh, no. Eh, allora stavo dicendo
+60:51 appunto qui, qui vedete in questa slide, no? Si era detto l'oscillatore di battimento, una frequenza molto vicina a quella della if,
+61:00 diciamo, tanto per aiutare a tenere a mente l'esempio che si è fatto, no? l'IF
+61:07 9 MHz, il BFO è a 9 MHz + 700 Hz e quindi viene un tono audio risultante di
+61:14 700 Hz. Per il CW larghezza di banda è di 500 Hz.
+61:20 e proseguo. Allora, il ricevitore per SSB non è particolarmente diverso.
+61:27 Vedete subito che cambia il filtro, un filtro per SSB tipicamente da 2 kHz
+61:33 e5 perché come si era detto quando si parlava dei modi di emissione c'è di noi
+61:40 che ha una voce più bassa, chi è di che chi ha una voce un po' più acuta, no? però normalmente eh per tutte le
+61:47 comunicazioni, quindi sia di tipo telefonico che di tipo radio eccetera, ehm la voce viene in qualche modo
+61:53 filtrata per tagliare le frequenze troppo basse e le frequenze troppo alte e quindi per diciamo si usa un canale di
+62:00 fatto standardizzato che va da qualche centinaio di herz, 200 Hz o cose di
+62:06 questo tipo, fino a 2 kHz, 3 kHz, quindi squilli di voce più acuti vengono di
+62:11 fatto attenuati, così come eventualmente voci molto basse e e questo appunto è il tipico filtro
+62:18 dell'SB. Eh questi qui ci vedete gli stessi
+62:25 numeri, no, che abbiamo commentato prima. Anche qui ci sono, diciamo, un ricevitore per gli 80 m da 3,5 a 4 MHz.
+62:33 L'oscillatore locale con le stesse frequenze di prima, quindi con gli stessi battimenti che ovviamente non sto a ripetere. I segnali che si ascoltano
+62:40 vengono portati alla mia frequenza intermedia di 9 MHz. Ho la solita catena
+62:46 di amplificazione e di fatto ricevo l'SB con un trucco
+62:51 simile a quello della telegrafia, cioè in qualche modo c'è di nuovo un c'è un
+62:58 oscillatore di battimento anche qua BFO e che fa battere il mio segnale 9 MHz
+63:06 con due frequenze diverse, una a 9.2500 2500 Hz e una a 9 men diciamo 2500 Hz
+63:15 che dà questo numero qua 8 999 500 e diciamo queste qui corrispondono alle
+63:23 due bande laterali e di fatto
+63:28 eh più o meno succede una cosa di di questo
+63:34 tipo. Vediamo se riesco a fare il il disegno. Ricordate che quando si era parlato della della delle modulazioni si
+63:42 era detto che se io faccio una modulazione di ampiezza ho una portante e quando
+63:48 modulo questa portante ho le due bande laterali, no? Banda laterale superiore e
+63:53 banda laterale inferiore. Questa è la superiore Upper e questa è la inferiore
+63:59 Lower. E si era si era visto quando si parlava appunto dei dei modi di trasmissione
+64:07 e che eh se io voglio trasmettere in SSB annullo sia la portante,
+64:14 quindi questa sparisce e annullo anche la banda laterale, quindi io trasmetto solo la banda laterale superiore. Quando
+64:21 arrivo qui, diciamo, nel mio rivelatore, di fatto cosa faccio? con un con uno di
+64:28 questi due cristalli e ora francamente non mi ricordo qual è. rimetto la portante.
+64:36 Cioè il cristallo che si usa per la USB è esattamente di del valore che avrebbe
+64:42 la portante in un segnale modulato in ampiezza di di questo modo e in questo
+64:49 modo e questo in qualche modo rende, diciamo, rigenera il segnale audio e qui
+64:54 io ho il mio solito segnale audio 200 da 200 a 2500 Hz che mi pilota
+65:01 l'amplificatore. Quindi diciamo che il meccanismo è identico a quello della telegrafia.
+65:06 Cioè dal segnale in USB qui che esce dalla dall'amplificatore di frequenza
+65:12 intermedia per battimento con una frequenza opportuna si rigenera il
+65:18 segnale audio. Allora, perché si usano due quarzi qua? Qui c'è il quarzo per la
+65:23 USB e il quarzo per la LSB. Eh, e non si usa invece due filtri,
+65:30 perché io qui potrei usare un filtro, due filtri, scusatemi, potrei usare nel mio ricevitore due filtri a 2 kHz, però
+65:38 spostati uno, diciamo, per ricevere la banda laterale inferiore
+65:44 e uno per ricevere la banda laterale superiore e si otterrebbe esattamente lo stesso tipo di risultato. non si fa con
+65:51 i due filtri semplicemente perché il filtro costa 10 volte tanto quanto un quarzo, quindi si usa lo stesso filtro
+65:56 per ricevere la USB e per ricevere la LSB. Quindi di componenti costosi ovviamente
+66:03 se ne mette uno e si mette rispetto a questa frequenza
+66:08 che a questo punto è fissa, perché questo ricevitore usa lo stesso filtro, ripeto, no, sia per la banda laterale
+66:14 superiore che per la banda laterale inferiore rispetto quindi a questa frequenza che è la solita per le due bande laterali. si usa il quarzo
+66:21 opportuno del BFO, quindi con un semplice quarzo in più si generano si si
+66:26 riesce a demodulare le due bande laterali e questo è il ricevitore per SSB, quindi
+66:32 sostanzialmente identico, diciamo, a ricevitore per telegrafia se non appunto
+66:38 con con questo se non con il filtro e con questo
+66:44 meccanismo, diciamo, di rivelazione del segnale SSB, però il resto identico, il
+66:50 rivelatore a prodotto identico, l'amplificatore audio identico, eccetera.
+66:57 C'è qualche c'ho una mano alzata. Masso, stavo giusto domando. Vai.
+67:03 Eh, ho solo una domanda che non ho capito bene. Per variare la frequenza in
+67:09 questo schema, come c'è adesso ricevitore SSB, cosa vario? C1, C2, C3
+67:15 vari. E allora con locale con C3 questo qui var la sintonia.
+67:22 Perfetto. Con C3 la sintonia. C1 e C2,
+67:27 eh, se ci sono ci sono a volte sono regolazioni che fa la radio da sola e
+67:34 quindi si sintonizza da sola questo amplificatore RF sulle frequenze che stai ascoltando. Nelle radio un po'
+67:39 vintage, quindi radio anni 60, 70 eccetera, questi due condensatori hanno
+67:45 proprio una monopolina esterna che ti ti permette di sintonizzare questa cosa qui
+67:51 per il massimo segnale,
+67:57 ok? Tipo quello delle valvole, il load che c'era per fare l'accordatore,
+68:02 diciamo. Sì, sì, sì, sì, sì. Eh sì, è una funzione di accordatore, in effetti anche qui ora il load è un accordo in
+68:08 uscita di un amplificatore lineare, però però il tipo di il tipo di funzione alla
+68:14 fine è lo stesso. Ti accordi lo stadio di di di ingresso in questo caso.
+68:20 Ok, grazie ancora a te. Ci sono altre mani?
+68:29 C'è Marco io ora perché volevo sapere. Eh, aspetta Marco, c'è Morelli prima di
+68:36 te. Scusa Paolo, mi senti? Sì, sì, benissimo. Allora, volevo sapere, ma il
+68:43 preamplificatore dove si colloca in questo schema? Eh, il preamplificatore, se c'è Allora,
+68:50 il Allora, il preamplificatore è lui. Questa cosa qui a volte viene chiamata preamplificatore.
+68:56 Ho capito. Eh, perché ho visto, cioè nelle in quelle quelle moderne, ma anche in quelle meno moderne, c'è i vari
+69:04 preamplificatori 1 2, specialmente nel moderno c'è il preampli 1, preampli 2.
+69:09 Sono lì, sono n Sì, è lui. È lui questo all'inizio. Questo, esatto. Lo potete
+69:14 chiamare anche preamplificatore. Diciamo che nelle radio moderne qui davanti ci
+69:20 può essere eh ci possono essere cinque cose sostanzialmente. Immaginate
+69:26 che qui davanti ci sia un commutatore, ci può essere un preamplificatore che guadagna molto,
+69:32 un preamplificatore che guadagna un po' meno, quindi qui fatemi dire più più.
+69:39 Quindi un preamplificatore che potrebbe avere un guadagno di 12 14 18 dB, roba del genere, un preamplificatore che
+69:45 guadagna un po' meno, diciamo 6 dB. Poi c'è la possibilità e true in inglese,
+69:50 c'è la possibilità di entrare diretti senza preamplificatore né nulla, quindi praticamente l'antenna si attacca
+69:55 direttamente al mixer. Oppure c'è la possibilità di mettere un'aten attenuazione che può essere di 6 12 18
+70:02 dB. Quindi c'è uno stadio che disegno con uno scatolotto unico di attenuazione
+70:09 perché se hai dei segnali in ingresso molto forti che ti fanno imbarcare la radio, ci puoi mettere ci si può mettere
+70:15 davanti un attenuatore che in qualche modo riporta il mixer e tutto quello che
+70:20 segue in una situazione di di funzionamento normale. Senò senò va in sicurazione, scusami, senò va in
+70:28 saturazione se c'è un segnale forte. Esatto. Esatto. Per tenere la radio lontana dalla saturazione. Bravissimo.
+70:34 Ok. E di solito questo attenatore qui, diciamo, nelle radio appena un
+70:39 cappellino più curate è variabile, cioè normalmente ci sono due tre posizioni di attenuazione a seconda, no, di quello
+70:46 che ti può servire in quel momento. Perfetto.
+70:54 C'era Marco con una con una domanda in ponte.
+70:59 No, ma era un era una mischerata, era riferimento sempre a quegli amplificatori lì, perché ho visto a giro
+71:05 che addirittura vendano preamplificatori per ricezione per fare l'SVL,
+71:13 però non sapendo che cosa fanno, cioè aumentano tutto
+71:18 quelle, poi va fini aumentano tutto il rumore compreso, poi dipende parecchio, dipende parecchio dall'antenna che uno
+71:24 ha. Mh. Eh, perché insomma non son così facili da usare per le onde corte. Mh.
+71:32 Vai. Proseguo. Allora, qui avete la solita cosa riassuntiva, no? È quasi
+71:38 identica a un ricevitore per il CV. Il BFO in questo caso genera due frequenze,
+71:43 una per la banda laterale superiore e una per la banda laterale inferiore. Il filtro, come si diceva, è 2 k5.
+71:51 Facciamo ancora un passo avanti. Allora, il ricevitore per M. Mh. Eh, allora, qui
+71:60 intanto il filtro ancora si allarga, quindi la M richiede, diciamo, di di
+72:07 diciamo di avere entrambe le bande laterali, quindi la banda la larghezza di banda del filtro diventa il doppio di
+72:13 quella dell'SB, per cui c'è un filtro di 5-6 kHz, tipicamente 6 kHz, no? per non
+72:19 per non schiacciare troppo l'audio. A parte questo, il resto è tutto uguale,
+72:25 amplificatore, preamplificatore, sintonizzato, miscillatore, eccetera, eccetera, eccetera. Quello quello che
+72:30 cambia ovviamente è il rivelatore. Allora, vediamo come si fa a rivelare una M.
+72:36 UREM si rivela esattamente come facevano i per chi li conosce i ricevitori a
+72:42 galena vecchio stile. Il tipico rivelatore per la modulazione d'ampiezza
+72:47 è questo qua che adesso metto in uno scatolotto, cioè è un circuito semplicissimo fatto da un diodo e da un
+72:55 condensatore. Questa figura l'ho ripresa dalla lezione in cui si parlava dei modi di emissione, no? Questo qui in alto è
+73:02 il segnale modulante. Diciamo che questa è la sinusoide della mia voce. Mh,
+73:07 questo è il segnale modulato, quindi questa è la mia è la mia portante.
+73:13 Mettiamo che che sia una portante a a 27 MHz dove dove appunto si trasmetteva
+73:18 parecchio in modulazione di ampiezza. E sulla mia portante qui questa cosa è
+73:24 fatta grigia proprio perché qui è come se ci fosse una sinusoide fitta fitta fitta, no? 27 MHz, cioè molto più fitta
+73:31 di questa sinusoide qua che è a 1 kHz, 2 kHz la frequenza della mia voce, no? Però questa questa sinusoide che sta qua
+73:38 dentro è modulata in ampiezza. Allora, con questo rivelatore che succede?
+73:43 Allora, il diodo mi cassa la parte negativa della sinusoide,
+73:50 cioè tutta questa zona qua. Via, un diodo messo in quel modo, no? Vi
+73:56 ricordate che si fa attraversare dalla corrente solo quando qui c'è il più
+74:03 e di qua c'è il meno e che quindi diciamo eh in questa situazione qua,
+74:10 cioè quando il le mie sinusoidi del segnale dell'onda portante sono sono
+74:16 positive. A questo punto il diodo quindi mi taglia via la parte negativa, diciamo, del segnale che sto ricevendo.
+74:24 E a questo punto, avendo fatto questo taglio, cosa mi resta? Mi resta qua
+74:30 dentro una combinazione di due segnali, cioè una combinazione di tanti pezzettini di sinosoide che sono a 27 a
+74:36 27 Mh sono in banda cittadina e la mia onda portante. Allora, in pratica questo
+74:43 il condensatore qua, questo C2 e livella, livella, si potrebbe dire,
+74:51 come succedeva negli amplificatori, negli alimentatori, livella tutti questi picchettini del mio segnale a 27 MHz che
+74:59 seguono il segnale modulato e come succedeva negli negli alimentatori, in qualche modo sul condensatore c'è questa
+75:05 qui che è la tensione di picco del segnale che io ricevo e così Così
+75:11 facendo e ho semplicemente rivelato la mia modulazione di di ampiezza.
+75:18 Questo qui è proprio per i nostalgici, per i nostalgici. Questa è proprio la la
+75:23 radio Galena di Marconiana Memoria che non usava qua dentro un diodo che è un componente moderno, ma usava un diciamo
+75:31 uno di quei circuiti, diciamo, coer e cose di questo di questo
+75:38 genere che ormai ovviamente sono sono desueti, però l'effetto che che facevano
+75:44 era quello del diodo. Eh,
+75:50 e come trovate anche qua, larghezza di banda del filtro di circa 5 kHz.
+75:57 E questa è la modulazione d'ampiezza. Quindi il ricevitore è lo stesso, ormai l'abbiamo imparato bene, no? A forza a
+76:04 forza di vederlo n volte. E il tipo di rivelatore è questo qua, un rivelatore
+76:09 stile AM, diodo e condensatore. Costa niente e funziona funziona bene.
+76:15 Sostanzialmente non ci sono alternative. Proseguo, se non ci sono domande,
+76:23 proseguo con l'FM. Dolc in fundo e abbiamo i ricevitori per l'FM.
+76:28 Eh, in FM si usano filtri più larghi,
+76:34 è il modo di emissione più largo che abbiamo. Attualmente gli standard attuali di canalizzazione
+76:40 di di fatto impongono filtri a 10 kHz,
+76:47 quindi qui non cambia assolutamente niente, no? L'amplificatore RF, preamplificatore eventualmente
+76:52 sintonizzato, oscillatore organ, miscillatore, il filtro. Qui ho usato un valore di media frequenza diversa perché
+76:59 non si sa bene per quali motivi, a un certo punto i costruttori, produttori di
+77:04 di apparati a modulazione di frequenza hanno scelto il 10.7 MHz come uno dei
+77:09 valori standard per la frequenza intermedia. Moltissime radio FM avevano e hanno tutt'ora questi 10,7 me di di
+77:17 valore della frequenza intermedia. È è così e ce lo prendiamo così, non c'è niente da capire.
+77:24 Allora, qui c'è intanto una prima differenza però, scusate, rispetto ai ricevitori che abbiamo visto
+77:30 in precedenza, nella catena di media frequenza compare uno stadio che si chiama limitatore.
+77:38 Allora, in pratica immaginate che il il limitatore sia un amplificatore che
+77:44 lavora in saturazione e che lavorando in saturazione ti taglia, ti limita in qualche modo i i segnali i picchi di
+77:52 segnale troppo forte che in qualche modo ti potrebbero dare noia nel nell'audio.
+77:57 Cioè, provo a in qualche modo eh provo a disegnarlo
+78:03 forma grafica per vedere se ci capiamo meglio. Nel senso che se nel tempo immaginiamo che il mio segnale ricevuto
+78:12 da dal mio amplificatore, quindi in questo punto qua il segnale in ingresso
+78:18 abbia Allora, qui si sta parlando di modulazione di frequenza, modulazione di
+78:24 frequenza, vi ricordo. Quindi l'informazione non è trasmessa dall'ampiezza del segnale che mi ricevo,
+78:30 che sto ricevendo, ma è trasmessa da quanto la frequenza del mio segnale si
+78:36 sposta rispetto al suo valore, diciamo, zero nullo.
+78:41 Se io vado a vedere l'ampiezza del segnale che ho in questo punto, mi posso trovare una forma d'onda di questo
+78:47 genere. Mh, posso trovare picchi di QRM, per intenderci, temporali in lontananza,
+78:53 crepiti di macchine, no? Questo potrebbe essere il tipico crepitio di rumore che
+78:58 eh è presente al all'ingresso di di un ricevitore. Allora, se io sono in grado
+79:05 in qualche modo di inserire un limitatore nella mia catena di amplificazione, posso far sì che il
+79:12 segnale che esce qua dal mio limitatore sia di livello costante, così, cioè il
+79:20 limitatore mi taglia tutti questi picchi che corrispondono
+79:27 il più delle volte a tutti i disturbi modulati in ampiezza che vengono in qualche modo raccolti da un ricevitore.
+79:34 Se se ricordate quando si parlava di FM si si era detto che l' FM è
+79:40 è il modo usato per la trasmissione di musica ad alta fedeltà perché è immune
+79:47 dai disturbi in modulazione di ampiezza e i disturbi presenti nello spettro radio al 99% sono disturbi in
+79:54 modulazione di ampiezza, cosa che proviene da da scariche elettriche, da fulmini, da amplificatori switching.
+80:01 quasi sono quasi sempre i disturbi modulati in ampiezza e con un limitatore, eccolo qua, con questo tipo
+80:08 di funzionamento vengono in qualche modo bloccati, diciamo, eh dal diciamo
+80:15 durante nella catena di media frequenza. Quindi il discriminatore, il discriminatore
+80:20 il che è il nome particolare che si usa per il rivelatore per i ricevitori FM
+80:27 viene alimentato da un segnale di ampiezza costante. Questo qua. Questo qua. E questo è uno dei motivi per cui
+80:33 l'FM anche nelle trasmissioni radioamatoriali, no, anche nelle radio piccole stile Baufeng eccetera, oppure
+80:38 quelle che vengono usate nel contesto della protezione civile, vari canalizzati usati su ambulanze,
+80:45 misericordie per tutte le operazioni hanno una modulazione, hanno una riproduzione piuttosto pulita perché nei
+80:53 nel ricevitorio FM c'è questo tipo di dispositivi, cioè in qualche modo avendo
+80:59 l'informazione legata non all'ampiezza del segnale Ale, ma la sua frequenza è possibile limitare brutalmente
+81:04 l'ampiezza dei segnali ricevuti per tagliar fuori tutto il QRM, tutti i disturbi.
+81:09 Il discriminatore ne esistono di tanti tipi, ma quelli citati nel programma radiomatoriale, nel programma
+81:16 ministeriale sono due. Vedete qui e il funzionamento del più
+81:22 semplice rivelatore che c'è per FM. Ricordate? Questa era la figurina che avevamo sto tempo, no? C'è per l' FM c'è
+81:28 il segnale modulante che è questo qua, c'è l'onda portante e qui abbiamo un'onda portante modulata che FM vuol
+81:36 dire che l'onda portante si sposta in frequenza. Allora, come si può fare a rivelare l' FM? Questo è un rivelatore
+81:43 che è chiamato appendenza e il perché ora lo si capisce subito, cioè si prende un circuito risonante, vedete che questa
+81:50 cosa qui, questa curva qua, che ora non sto a scarabocchiare più di tanto perché non
+81:56 vorrei fare troppo casino su sull'immagine, è la tipica curva di risposta di un circuito risonante LC.
+82:01 Immaginate un circuito risonante parallelo quando si era parlato della risonanza di curve di questo genere se
+82:07 erano viste diverse, no? Allora, se la mia frequenza intermedia è a 10.7 MHz,
+82:16 questo circuito risonante non lo sintonizzo a 10.7, ma come in questo
+82:21 come in questo esempio lo sintonizzo un po' più in su. Facciamo 10.8, in modo che il segnale che sto
+82:27 ricevendo, che è questo F0, questa è la frequenza della portante FM
+82:33 quando non è modulata, mi caschi qui. i caschi qui nel momento in cui il mio segnale FM è
+82:42 modulato o perché qualcuno trasmette una bella musica o perché qualcuno sta parlando, noi stiamo parlando al
+82:47 microfono, eh il segnale
+82:52 mi si sposta in frequenza di delta F, cioè questa f0 può diventare
+82:59 un f0 - delta F, un f0 + delta F. Sapete che la lettera delta, lettera greca
+83:04 delta, viene usata molto spesso per esprimere il concetto di variazione, no? Quindi il mio segnale si sposta in su e
+83:11 in giù di questo delta F a causa del fatto che sto trasmettendo in modulazione di frequenza, no? Quindi
+83:17 la frequenza si sposta perché io voglio che si sposti. Allora, quando il mio segnale
+83:24 è alla frequenza è una frequenza quassù,
+83:29 seguiamo questa linea verticale. Questo corrisponde a questo punto della curva di risposta del mio circuito
+83:39 eh sintonizzato e quindi ho in uscita
+83:44 dal mio circuito sintonizzato non un segnale di ampiezza pari a V0,
+83:50 che è l'ampiezza che ho quando ho la portante non modulata, ma ho questo V0 +
+83:55 delta V. Viceversa quando nella deviazione di frequenza o le parti, diciamo, in cui la
+84:02 frequenza si abbassa, questo punto scende fino quaggiù e quindi in qualche modo un segnale di
+84:09 uscita che è V0 men questo delta V, cioè un segnale di uscita che sta qua.
+84:16 Quindi con questo trucchetto di mettere a valle, diciamo, del mio
+84:23 segnale FM un circuito risonante su una frequenza che non è proprio 10,7, ma una
+84:30 frequenza un po' più alta come in questo caso, questo fa sì che eh in corrispondenza del sali e scendi della
+84:37 frequenza provocata dalla modulazione, quindi questo + delta f - delta f, io ho
+84:44 trasformato con questo trucco, la modulazione di frequenza che io ho qui in una modulazione di ampiezza
+84:52 e questo grazie semplicemente a un circuito risonante perché quando la frequenza si sposta verso la frequenza
+84:59 di risonanza ho in uscita un segnale più alto e viceversa, no? Quando la frequenza si sposta a una parte più
+85:06 lontana della risonanza, cioè qua sotto, per intenderci, ho una tensione d'uscita più bassa
+85:11 proprio per la proprietà semplicemente del circuito risonante. E a questo punto ho un segnale che si
+85:19 che ho trasformato la mia modulazione di frequenza in una modulazione di ampiezza. A questo punto mi basta un
+85:25 diodo e un condensatore, quindi il rivelatore come si è visto qua, per ascoltarla. E questo è il motivo per cui
+85:32 se qualcuno di voi ha mai provato eh ad ascoltare con dei ricevitori a sintonia
+85:38 continua in modulazione di ampiezza, dei segnali in modulazione di frequenza, questa cosa la si può fare normalmente,
+85:45 cioè se se con un segnale se con un ricevitore in AM si c'entra in maniera
+85:51 perfetta ma perfetta un segnale FM, se il segnale in FM è puro non si sente assolutamente niente
+85:58 perché i rivelatori in modulazione di ampiezza non è in grado di però se si dissintonizza un po' il ricevitore e si
+86:05 va un cappellino a fianco del segnale NFM con il ricevitore a modulazione di ampiezza lo si sente comunque sia in
+86:12 grado perché perché viene demodulato esattamente in base a questo principio che adesso vi ho
+86:19 vi ho raccontato. Questo non è un demodulatore perfetto, ma è un demodulatore molto economico. Non è
+86:26 perfetto perché questa curva qui che scende la curva del circuito risonante non è lineare, ma è una curva campana,
+86:33 no? come abbiamo sempre visto. Quindi, non essendo lineare, vuol dire che non riproduce in maniera lineare il
+86:41 la variazione di non traduce in maniera lineare la modulazione di ampiezza in una modulazione, scusate, la modulazione
+86:46 di frequenza in una tensione modulata in ampiezza, ma comunque il segnale è intelligibile.
+86:52 Se si vuole qualcosa di più e con questo finisco questa questa chiacchierata. Qua Paolo vedo la registrazione che dice
+87:01 interrotta, non so se lo vedo solo io. Ah, eh,
+87:06 Fabrizio puoi controllare? No, no, è per per me è regolare. È tutto regolare. Regolare. Regolare. Ok. Ok. Ok. Grazie
+87:13 della segnalazione. Allora, questo problema è eliminato in
+87:19 quest'altro tipo di discriminatore Foster Siley,
+87:24 che è che è molto più lineare, è il discriminatore usato normalmente in tutte le radio FM e anche alta fedeltà e
+87:32 roba del genere. Non c'è bisogno di sapere come funziona, basta sapere che si chiama il discriminatore di Foster Siley. Mh.
+87:42 E quindi, e con questo concludo questo pezzetto sui ricevitori
+87:47 FM, poi la parola a voi se ci sono domande. Ha visto che c'è il limitatore
+87:53 che quindi in qualche modo tosa i picchi al di sopra di un certo valore e quindi
+87:59 in qualche modo rende costante il livello, quindi rende il ricevitore immune da tutti i disturbi in
+88:04 modulazione di ampiezza. Poi c'è un discriminatore che può funzionare a pendenza come si è detto
+88:11 prima. E poi nei nei ricevitori FM normalmente c'è il silenziatore, c'è una
+88:16 manopola che si chiama squelchola finché non si arriva a silenziare
+88:22 l'audio in assenza di segnale utile. Quindi, praticamente, lo squch introduce
+88:27 qua in uscita dal da dal ricevitore lo squatch essenzialmente lavora qua,
+88:34 introduce una lo faccio qua sopra
+88:40 lo squelch. Se io lo regolo qui, immaginiamo che io ho una monopola variabile, no, regolata che che posso
+88:46 regolare da 0 a 10. Se io lo regolo qui, tutti i segnali che stanno qua sotto non
+88:51 mi attivano l'amplificatore audio. Quindi, normalmente, se siccome questi segnali sono il il
+88:59 fruscio normale che ogni ricevitore amplifica, che ogni ricevitore ascolta, se io regolo lo squelch appena sopra il
+89:06 livello di questo di questo bruso, di questo fruscio di sottofondo, il ricevitore mi diventa silenzioso. Quando
+89:13 qualcuno invece trasmette sul canale che sto ascoltando, il segnale è molto al di sopra del rumore, immaginiamo che sia
+89:19 quassù. Eh, apre, come si dice in gergo tecnico, lo squelch, sblocca lo squelch e questo
+89:26 segnale viene riprodotto normalmente. Quindi lo squelch è semplicemente una sorta di altidisturbo che serve per non
+89:32 stressarsi, no, avendo fruscio nelle orecchie quando nessuno sta trasmettendo.
+89:37 E questi sono i ricevitori per FM. Allora, quindi abbiamo visto dal CV all
+89:43 FM, interrompo un attimo la condivisione così ci rivediamo e
+89:49 e vi chiedo se ci sono domande.
+89:59 Giovanni, a te. Il discriminatore è solo sulla FM o anche sulla M? Solo sull FM.
+90:06 Solo sull'M. Solo FM. Il BFO so che è nella CW e USB e sulla M per
+90:13 riconoscerlo sulla M c'è il c'è il rivelatore
+90:18 legalena. Ci sono delle domande io a cui non arrivo a percepirle ogni tanto le sbaglio nei quiz. Dunque, queste qua
+90:26 arrivo proprio, cioè ci arrivo se vedo BFO so che è USB o CW, ma FM
+90:34 discriminatore delle volte non so se è uno o l'altro. Allora, la
+90:39 discriminatore, la parola discriminatore, se non si sbaglia a parlare si usa solo per l'FM.
+90:46 dico, se non si sbaglia a parlare, non non perché mi sto riferendo a te o a voi, ma perché tenete presente che nelle
+90:54 batterie di esame che si vedono in giro, ministeriali comprese, gli errori ci sono.
+91:02 Eh, delle volte ci sono delle domande che sembrano che sembrano strambe, che non si capisce e sono domande sbagliate,
+91:08 no? Quindi tenete presente, le domande non sono perfette. Se avete qualche domanda strana, ripeto, invece di
+91:14 perderci le notti, si fa per dire, pubblicatela sul gruppo Telegram e ce la commentiamo insieme. Ci sono anche
+91:19 domande sbagliate, però se si parla bene il discriminatore è solo per l' FM, il
+91:25 rivelatore è per la M. Eh, sì, ma quando vedo la domanda con discriminatore come
+91:32 Forest, come l'altro, come si chiama? Fer Siley. Sì, e quello sono sicuro che
+91:37 FM, però quando 100% Eh, quello è 100%. Sì. Ok,
+91:42 a posto. Grazie. Grazie a te. Allora, se non ci sono altre domande vi
+91:48 vorrei Ah, Massimo, a te. M Oddio, chi era?
+91:55 Solo una sincronizzazione. L' RF gain fa parte del quei controlli davanti
+92:00 all'amplificatore RF, dico bene? Oh, sì. Allora, adesso ci arriviamo.
+92:07 Ah, ok. Perfetto, ti tengo sospeso 2 minuti. Benissimo, grazie. Buona domanda.
+92:13 Allora, allora, allora, allora, si vede il video?
+92:19 Sì, sì, si vede. Perfetto. Grazie. Allora, vediamo adesso le qualche altra cosetta
+92:26 che c'è in un ricevitore, in tutti i ricevitori, no? Ora, e in questa chiacchieratona che abbiamo fatto
+92:33 abbiamo visto le tipologie di ricevitori in base ai modi di emissione, no? SCW
+92:39 SSB AM FM queste cose che adesso dico
+92:44 valgono per tutti. Valgono per tutti. Cioè, qui nei ricevitori, oltre queste cose di cui stiamo parlando ci sono
+92:51 degli altri circuiti. Allora, un circuito importantissimo è il controllo automatico di guadagno.
+92:58 Questo controllo automatico di guadagno, vedete qui vi ho riportato tutta questa serie di sigle perché può essere
+93:05 chiamato in più modi. e la sigla CAG, controllo automatico di guadagno, però a
+93:11 volte viene chiamato CAV, controllo automatico di volume, a volte viene chiamato l'inglese AGC, automatic gain
+93:18 control, quindi controllo automatico di guadagno, ma in inglese. Nelle domande questi tre modi di dire li potete
+93:25 trovare tutti perché fanno parte tutti e tre del gero, diciamo, tecnico. Eh,
+93:32 allora questo, dicevo, è un circuito importantissimo perché è quello che mantiene costante il livello di uscita
+93:38 di segnale audio a fronte delle variazioni del segnale in ingresso. Eh,
+93:47 allora il un ricevitore eh in ingresso può avere dei segnali molto deboli e dei
+93:53 segnali molto forti. La dinamica che possono avere questi segnali in ingresso è altissima. Per esempio, un ricevitore
+94:00 eh ascolta tranquillamente dei segnali di 1 microvolt, un un micro un un
+94:06 milionesimo di volt. Però contemporaneamente ci posso avere l'amico vicino che trasmette
+94:13 e quindi non mi trovo un segnale da 1 microvolt, mi trovo un segnale da 10 mV
+94:18 in antenna, quindi 10.000 1000 volte più grande. Allora, io in queste situazioni
+94:25 e vorrei tenere il volume della radio applicato sempre lì, no? Quindi la radio
+94:31 mi deve far ascoltare più o meno nello stesso modo un segnale l'ingresso di 1
+94:36 microv, di 10 microVol, di 100 microV, di di di 1000 microV, altrimenti dovrei
+94:43 avere sempre la mano sul controllo del volume e sarebbe una uno stress
+94:49 tremendo. Oltretutto si rischierebbe di beccarsi delle urlate, no, nel dall'altoparlante o nella cuffia.
+94:55 Allora, il circuito che realizza questa funzione è il controllo automatico di guadagno. Vi vi dicevo prima che,
+95:01 appunto, torno su uno di questi schemi che abbiamo visto. Fatemi fatemi
+95:07 un attimo solo che ripulisco lo schema.
+95:19 Sesamo. Allora, se ne possiamo parlare tranquillamente qua in AM, no? Allora,
+95:26 cosa cosa fa il controllo automatico di di guadagno?
+95:33 Allora, eh il preamplificatore un pochino preamplifica mh ma non
+95:38 tantissimo. I miscelatori normalmente non amplificano, il filtro ovviamente non amplifica. In un ricevitore
+95:45 normalmente il grosso del guadagno sta qua dentro. Quindi il l'amplificatore di
+95:51 frequenza intermedia di un ricevitore normalmente è fatto da 3 4 c stadi in
+95:57 cascata e ha un'amplificazione di appunto 1000 10.000 volte o cose di
+96:02 questo genere. Allora, scusate, mi mi ascoltate giusto?
+96:09 Sì, Paolo, ti ascoltiamo. Scusa, grazie di tanto in tanto dei momenti di stress.
+96:15 Allora, in pratica, come funziona il controllo automatico di guadagno?
+96:20 Allora, lui prende dal rivelatore, dall'uscita audio o poco più, prende eh
+96:30 un segnale e in base all'ampiezza di questo segnale lui va a regolare
+96:36 l'amplificazione del segnale d la l'amplificazione della catena di media
+96:42 frequenza. Quindi è un circuito di retroazione che in qualche modo mi
+96:48 abbassa il guadagno dell'amplificatore di frequenza intermedia nel momento in
+96:53 cui qui io ho segnali troppo forti e questo questa ritrozione mi livella in
+97:00 qualche modo i segnali che io poi ho in cuffia. Mh, questa catena di eh di
+97:08 retroazione è molto utile a diversi scopi. Allora, intanto
+97:13 io posso Allora, intanto a volte a volte e quindi lo disegno tratteggiato,
+97:23 a volte va a regolare anche il guadagno del del mio preamplificatore.
+97:31 E questo tipo di regolazione la posso fare non soltanto in maniera automatica,
+97:36 come vi ho raccontato ora, perché questo che vi ho raccontato in questo momento, in questi minuti, è una regolazione
+97:43 automatica, quindi il mio ricevitore mi livella in qualche modo l'ampiezza dei
+97:48 segnali autoregolando l'amplificazione di frequenza intermedia. Quindi, se mi arriva in antenna un segnalone bestiale,
+97:55 l'amplificazione di frequenza intermedia calerà tantissimo grazie a questo
+98:00 circuito per fare in modo che la frequenza intermedia non si saturi. Però
+98:06 questa questo tipo di regolazione qua io lo posso fare anche a mano. Immaginate qua di avere una bella manopolotta
+98:14 che regola, diciamo, un potenziometro e quest accanto a questa manopola c'è
+98:20 scritto RF gain, come diceva il vostro il vostro collega. Scusate la cosa
+98:26 scritta, scarabocchiata veramente male. Io posso in qualche modo manualmente
+98:31 regolare il guadagno a radiofrequenza di tutta la mia catena di amplificazione
+98:38 e questo può servire intanto per determinate tecniche di ascolto
+98:43 eh che che vi racconterò non non ora, diciamo. oppure può servire se, per
+98:49 esempio, voglio tenere a causa di segnali molto forti l'amplificazione bassa o cose di questo tipo. Oltretutto
+98:56 questo tipo di di catena di regolazione serve anche a
+99:01 un'altra funzione che la stragrande maggioranza dei ricevi hanno ed è che se
+99:08 con questa tensione che in qualche modo è proporzionale all'intensità del segnale che io sto ricevendo, ci posso
+99:16 pilotare un bellissimo strumento m il famoso smiter che mi dice quanto è forte
+99:25 il segnale che ricevo. Ed eccolo qua, il misuratore di livello del segnale in
+99:30 inglesio chiamato Smeter. S deriva da RST, le avete viste con Silvio, no? Cioè
+99:37 un segnale può essere classificato dalla sua R che è la leggibilità, ridibility,
+99:43 quanto quanto quel segnale lo può essere compressibile. Poi quanto poi quanto è forte la ST per strength d'accordo? E
+99:52 nella telegrafia c'è il tono, però noi adesso non non ci non ci interessa. Ecco, vedete qua? Lesser mi misura la
+99:59 forza del segnale in ingresso. Normalmente negli apparati
+100:05 radioamatomatoriali la scala degli smiter è fatta in qualche modo così. È una scala che comincia con
+100:14 con 0 1 2 3 4 5 6 7 8 9. Quindi io ti ascolto tre, io ti ascolto 4 5 7.
+100:23 Il livello di 9 normalmente nello strumento viene tarato in fabbrica per
+100:29 per indicare nove quando in antenna c'è un segnale di 50 microv.
+100:36 Ogni punto S in meno, oppure se lo leggete per esempio da uno a salire equivale a 6 dib di incremento di
+100:43 potenza, quindi equivale a per4 in potenza. Dopo il 9 c'è una parte di
+100:48 scala che anche lei è logaritmica + 10 + 20 + 30 + 40 + 50 debel. Se avete un
+100:56 esmiter completo, eh, scusate, questa parte qui vedete che
+101:03 è 9 + 10, 9 segnale 9 + 10 debel nella
+101:09 sua completezza di P. E questo viene ottenuto appunto tramite
+101:15 quella, cioè questa lettura della forza del segnale in ingresso viene ottenuta
+101:21 da quella catena che serve anche per fare la regolazione automatica del del guadagno.
+101:27 Allora, tutto chiaro per ora? Quindi smiter e regolazione automatica del
+101:33 guadagno. C'è qualche domanda per caso?
+101:39 Per ora no, Paolo. Allora, proseguo. Allora, scusa, scusa. Vai. Ma il il
+101:45 punto S cosa intendi e ogni punto Sezo,
+101:50 no? E equivale a 6 B. Allora, viene detto un punto S, per esempio, è la
+101:57 differenza che c'è fra 3 e 4. Questo, per esempio, è un punto S. Oh, perfetto. Bene. Ok. Poi invece dal 9 diventa + 10
+102:05 + 20 + 30 e così. Esatto. Per esempio, se se uno sta provando in
+102:12 aria un amplificatore lineare e lo vedi che lui arriva che lui arriva tre, a un certo punto attacca un po' di
+102:19 amplificazione e vedi che arriva cinque, gli puoi dire "Sei passato da 3 a 5" oppure gli puoi dire "Sei cresciuto di
+102:25 due punti S". Mh mh. Ok. Vai.
+102:32 Allora, i Allora i ricevitori superederodina
+102:38 eh soffrono di un problema che è la cosiddetta frequenza immagine. Questa frequenza immagine nasce perché
+102:43 all'uscita di un miscellatore, come come sapete, un miscelatore genera la somma e
+102:49 la differenza dei segnali che è in ingresso e di questi uno è utile e però l'altro può dar noia. Vediamolo in
+102:56 questo esempietto qua. Allora, immaginiamo che la cosa rappresentata in questo esempio è il tipico ricevitore in
+103:03 M che si usava tranquillamente finché non non ci hanno spento i trasmettitori
+103:08 i trasmettitori della RAI. E allora il tipico ricevitore in M è una frequenza intermedia di 45 kHz. Quindi parliamo
+103:17 parlo di ricevitori, fatemi dire casalinghi, come venivano chiamati a volte, no? Non quelli professionali.
+103:22 Allora, immaginiamo che io stio ascoltando Rai 1 che mi trasmette a 900 kHz. Mh. Io voglio ascoltare un segnale
+103:31 a 900 kHz, quindi proprio come si è fatto prima con l'esempio quella con la banda cittadina, il mio WFO,
+103:39 quindi qui c'è la mia manopola di sintonia, d'accordo? Questo è è il WFO della radio, la sintonia della radio.
+103:47 Il mio WFO sta generando una frequenza di 1355 kHz. questa frequenza qua,
+103:54 se noi si fa la sottrazione 1355 - 900 e torna fuori la frequenza
+104:00 intermedia, d'accordo? Quindi con numeri diversi, ma sto facendo ho fatto, scusate se vi torno indietro un po'
+104:07 rapidamente, ho fatto lo stesso giochetto che abbiamo visto prima, no?
+104:12 Qui c'era una frequenza da 3,5 a 4, WFO da 555, frequenza 9 MHz. è esattamente
+104:19 la stessa cosa qua. Quindi qui la frequenza intermedia è cambiata a 455 kHz. Io voglio ascoltare
+104:27 un segnale a 900 kHz, mi serve un VFO a questa frequenza qua. Mh, tutto chiaro
+104:32 per ora? Tutto chiaro? Bene. Però però
+104:38 per i per i meccanismi di funzionamento dei mixer esiste
+104:43 un'altra frequenza che con che quando il
+104:49 WFO è sintonizzato a 1355 kHz mi genera 455 kHz di frequenza intermedia. Ed è
+104:57 questa frequenza che vedete qua sotto 1810 kHz.
+105:02 Perché se io faccio 1810 - 1355,
+105:09 se non ho sbagliato i conti torna sempre 455.
+105:14 Quindi questa cosa che vedete qui, ehm, in
+105:20 realtà accade in tutte le supereterodine qualunque frequenza si stia ricevendo,
+105:26 cioè io qui sto ricevendo i miei 900 kHz e li ascolto, diciamo, in altoparlante.
+105:32 Qui ho tutta la mia catena di ricezione. Immaginiamo che qua poi alla fine ho il mio bel altoparlante che mi riproduce il
+105:39 suono di Rai 1. Se ci fosse una stazione a 1810 kHz, che pure lei trasmette,
+105:47 questa stazione verrebbe miscelata dal mio mixer con questa frequenza con
+105:52 questo valore di WFO, verrebbe convertita anche lei a 455 kHz e quindi
+105:59 io la io la ascolterei nello stesso modo in cui ascolterei 900 kHz perfettamente
+106:06 sovrapposta, cioè praticamente ascolterei due segnali contemporaneamente.
+106:11 Ognuno però chiaramente con le sue cose. Magari la Rai mi trasmette musica a 1810 kHz, per esempio, mi trasmette una
+106:17 comunicazione fra imbarcazioni, ma le se i segnali avessero intensità uguale li
+106:23 ascolterei con forza uguale in teoria. Poi vedremo che non è così, no? però li ascolterei tutti e due. Questo tipo di
+106:31 radio, cioè la radio supereterodina, ha sempre una cosiddetta qualunque frequenza tu ascolti, hai comunque
+106:38 sempre una frequenza immagine. È chiamata frequenza immagine,
+106:43 quest'altra frequenza non voluta chiaramente spuria
+106:48 che è in grado di essere convertita esattamente come quella del segnale che
+106:54 tu stai ascoltando. E quindi questo effettivamente, fatemi dire, sarebbe un bel problema. M
+107:01 la frequenza immagine, se fate un po' di conti, dista sempre due volte il valore
+107:09 della frequenza intermedia dal segnale ricevuto. Qui io ho un segnale, ho una frequenza intermedia a 455 kHz. 455 kHz
+107:19 * 2 dà 910 kHz. Vedo che qui c'è un errore di stampa. Qui davanti ci va una
+107:24 K. Poi correggerò la slide. Se fate la differenza 1810 -900
+107:32 trovate proprio 910. E questa è una regola generale per tutte le radio. La
+107:39 radio che si è vista prima che aveva una frequenza intermedia di 9 MHz, in quella
+107:45 radio la frequenza immagine sarebbe distante 18 MHz 9x2. In quella radio che
+107:52 aveva l' FM che aveva 107 MHz di frequenza intermedia, ricordate? La
+107:57 frequenza immagine sarebbe distante sempre 2* F, quindi 10.7 * 2, ovvero
+108:03 21.4. E questo tutti i ricevitori superiore rodina ce l'hanno come problema. Come si
+108:12 ovvia? Senti paroloni, come si ovvia a questo problema? Si ovvia esattamente qui,
+108:21 cioè bisogna mettere all'ingresso dei ricevitori supererodina
+108:27 un qualche circuito selettivo
+108:33 e se io voglio ascoltare appunto i miei 45 kHz che che questo circuito sia,
+108:39 scusatemi, ho sbagliato la mia frequenza, se voglio ascoltare i miei 900 MHz dell'esempio di prima, Questo
+108:46 circuito deve far passare i 900 mega, i 900 scusate, kHz, ma deve bloccare i
+108:52 1810 kHz della mia frequenza intermedia. Questo è l'unico modo che ho, l'unico
+108:59 modo che ho per bloccare la frequenza immagine.
+109:04 Questo è il motivo per cui eh molti ricevitori, la maggior parte dei
+109:10 ricevitori hanno dei valori di frequenza media, di frequenza intermedia piuttosto elevata. Cioè io questo ricitore per FM
+109:18 e uno uno si chiede perché 107 avrei potuto fare 455 45 kHz anche qui e il
+109:26 ricevitore mi avrebbe funzionato benissimo anche con un valore di frequenza intermedia molto più basso. E
+109:33 il problema è che 455 kHz di frequenza intermedia fa sì che la frequenza
+109:39 immagine sia molto vicina. Se la frequenza immagine è vicina come frequenza al segnale che io voglio
+109:46 ricevere, se è vicina, mi è difficile con dei circuiti sintonizzati attenuarla
+109:52 molto. Se invece con una media frequenza di 10 con una media frequenza alta con
+109:57 un valore di frequenza intermedia alto 17,7 MHz, 2 volte per 17,7
+110:02 sono eh 21.4, scusate, non 22.4, 4, come forse ho detto prima, eh, 20 MHz, 21 MHz
+110:11 sono tanti e quindi mi è più facile fare dei circuiti risonanti in ingresso che
+110:17 fanno sì che la mia frequenza intermedia viene molto ridotta. Questo, appunto, è
+110:23 il motivo per cui eh la stragrande maggioranza dei ricevitori ha dei valori
+110:28 di frequenza intermedia molto elevata. Vedete? Questi sono le possibili cure
+110:35 per bloccare il problema della frequenza immagine.
+110:40 Il la prima cura che si può usare è la selettività prima del mixer, quindi deb circuiti risonanti prima del mixer, poi
+110:48 usare valori di frequenza intermedia alti e questo porta a usare di fatto
+110:54 come direi come conseguenza, usare dei ricevitori a doppia conversione perché
+110:59 magari si potrebbe usare un valore di frequenza intermedia veramente alta. Ci sono dei dei ricevitori radioatoriali
+111:05 che hanno come frequenza intermedia 40 MHz, 70 MHz, dopodiché questi 70 MHz, a
+111:12 70 MHz è molto difficile fare i filtri stretti per l'SSB, per il CW. Questi 70
+111:18 MHz vengono riconvertiti a 9 MHz con tutti i filtri di cui abbiamo parlato prima.
+111:26 E questo è il fenomeno della frequenza immagine. C'è qualche domanda su questo?
+111:33 Quindi questa è una caratter Vai. No, ti stavo dicendo non c'era mano
+111:39 alzata. Ok. E e questa è una caratteristica intrinseca dei ricevitori
+111:44 a conversione di frequenza, cioè nel momento in cui fai la conversione ci sono due valori di frequenza in ingresso
+111:51 che dato quel valore di VFO ti genera una tua frequenza intermedia.
+111:56 Ultima cosa da dire, e con questo si conclude la chiacchierata sui ricevitori, i problemi dei ricevitori.
+112:03 Allora, questi sono i tre problemi principali di cui può soffrire un ricevitore. Il bloccaggio. Il bloccaggio
+112:10 è quando hai un segnale molto forte che può essere anche una portante vicino alla frequenza che stai
+112:16 ascoltando e questo bloccaggio ti silenzia il ricevitore proprio te lo silenzia come se il ricevitore perdesse
+112:22 di sensibilità. E questo è causato dal fatto che questa frequenza molto forte vicina ti varia il
+112:31 punto di funzionamento, il punto di lavoro dei dei transistor, del preamplificatore eccetera e diciamo
+112:37 abbassa il guadagno del ricevitore. Quindi questo è proprio bloccaggio, è proprio la perdita di sensibilità, cia
+112:44 la sensazione che il ricevitore si si ammutolisca. Ok?
+112:50 E poi ci sono due cose abbastanza simili in teoria, ma diverse, la modulazione incrociata e l'intermodulazione. Allora,
+112:57 la modulazione incrociata è quando, per vari motivi, la modulazione di un
+113:03 segnale forte si trasferisce su un segnale debole. Quindi tu ascolti il segnale debole con una doppia
+113:09 modulazione, cioè con la chiacchierata che per esempio immaginiamo che siamo, no, nel ne Rai 1, Rai 2, nel
+113:15 broadcasting, magari ascolti il giornale radio, magari c'è un segnale
+113:21 molto forte che trasmette della musica e tu senti contemporaneamente musica e
+113:26 diciamo eh e giornale radio. Questo perché il
+113:32 segnale interferente, quindi il segnale forte
+113:37 che tu non vorresti ascoltare, in qualche modo è in grado, per la sua forza, di creare un processo di
+113:44 modulazione di ampiezza di alcuni degli stadi del ricevitore e questa modulazione di ampiezza poi viene
+113:51 rivelata, eh quindi è, diciamo, è un segnale così forte che riesce a variare il guadagno degli di qualcuno degli
+113:58 stati della cattina di ricezione e in qualche qualche modo e questo modulo in ampiezza se con un'ampiezza che segue la
+114:06 modulazione del segnale interferente. Questo si chiama modulazione incrociata. La modulazione di un segnale forte si
+114:12 trasferisce su un segnale debole e poi quello assolutamente più comune è
+114:17 l'intermodulazione. Dell'intermodulazione è esattamente lo stesso tipo di
+114:22 situazione di cui si è parlato nei trasmettitori, quando i segnali in ingresso ricevitori
+114:28 sono forti. Porti portano a lavorare in regime non lineare
+114:34 gli amplificatori del ricevitore. L'intermodulazione nasce sempre per una perdita di linearità degli
+114:41 amplificatori, quindi quando gli amplificatori perdono
+114:46 linearità fanno quello che si è già visto nei trasmettitori, cioè mescolano
+114:52 tutti i segnali che hanno un ingresso. Ora, nel caso dei trasmettitori, le cose da mescolare non erano tante perché
+114:60 erano l'informazione che stavi trasmettendo, cioè la tua voce. Quindi nel scusate,
+115:06 nel caso di un trasmettitore le cose da mescolare erano sono poche, la voce. Invece nel caso di un ricevitore le cose
+115:12 da mescolari sono tante, perché immaginate appunto eh
+115:18 un ricevitore che eh che che che lavora su sempre su sulla banda cittadina, per
+115:25 esempio, sui famosi 40 canali della banda cittadina. Immaginiamo che se ognuno dei 40 canali, come succedeva ai
+115:31 vecchi tempi, ci fosse un un collegamento in corso, un QSO, come come
+115:37 si dice. Se il ricevitore intermodula, praticamente è come se si mettesse in un frullatore tutte le modulazioni di tutti
+115:45 i 40 canali che siccome sono vicini arrivano tutti con la stessa intensità a
+115:50 tutti i circuiti del ricevitore, preamplificatore, miscelatore e questo frullatore genera un gran una gran
+115:56 quantità di dispie, di segnali non voluti, di armoniche eccetera eccetera che praticamente se diciamo nei casi
+116:05 limite arrivano a saturare tutta la banda su cui si sta ascoltando, quindi rendono proprio, cioè un livello di
+116:12 intermodulazione alto arriva proprio a rendere impossibile l'uso del ricevitore
+116:17 e questa è la situazione più tipica che che capita anche nelle bande
+116:22 radiomotoriali. Quindi c'è il bloccaggio, c'è la modulazione incrociata, ma soprattutto
+116:27 c'è l'intermodulazione. Quindi l'intermodulazione deriva dal
+116:33 fatto che i segnali che stai ascoltando, i segnali che hai in banda o subito
+116:38 fuori banda, ti portano il ricevitore in regime non lineare.
+116:44 Questo, tanto per dire, era una situazione tipica di cui soffrivano i i ricevitori
+116:51 radioamatoriali sulla banda cosiddetta dei 40 m, 7 MHz,
+116:57 quando c'erano molte cosiddette broadcasting, no? Quindi segnali di radiodiffusione che arrivavano
+117:02 fortissimi, diciamo, subito sopra e sotto la banda radioamatoriale dei dei 7
+117:08 MHz, ci sono sostanzialmente segnali broadcasting che a volte sono molto
+117:14 molto più che magari vengono trasmessi con 100 kW, che quindi sono estremamente più forti, no, dei segnali
+117:20 radiamatoriali. Quindi la banda dei 40 m per i ricevitori un po' deboli, eh,
+117:25 soprattutto in periodi di buona in orari di buone propagazioni per il broadcasting, per esempio, dopo cena e
+117:30 roba del genere, eh la banda le bande la banda poteva apparire molto sporca e
+117:36 quindi giù metti attenzione in ingresso, come si diceva prima, eccetera.
+117:42 Ultimissima cosa e poi passo la palla a voi per le ultime domande. Allora, eh si
+117:48 era parlato di sensibilità, che è una caratteristica del ricevitore. La sensibilità è la minima tensione in
+117:55 ingresso che riesce a produrre un segnale d'uscita chiaramente distinguibile dal
+118:00 rumore. Quindi devi in qualche modo distinguere dal rumore
+118:06 eh il segnale che tu vuoi ascoltare. Questo che leggete qua è un tipico valore di sensibilità espresso in
+118:14 microvolt, quindi un segnale di 10 microvio ricevitore genera 10 dB
+118:23 di rapporto segnale rumore. Cosa vuol dire 10 dB in potenza? Vuol dire che c'è
+118:28 un fattore 10, no? Quindi un ricevitore di questo genere è un ricevitore di questo tipo. Se la potenza in audio che
+118:37 io ascolto, diciamo, in altoparlante con cuffia è di è di un certo livello, un segnale di 0,5 microV deve essere in
+118:45 grado di generare un segnale che ha una potenza 10 volte superiore, 10 dB
+118:51 superiore, quindi 10 volte superiore a quella del rumore che mi da ricevitore.
+118:60 10 dB sono ritenuti, diciamo, assolutamente più che sufficienti per
+119:05 fare un buon collegamento, no? si sente che sotto c'è un po' di potenza, ma il segnale e quindi questa è la la tipica
+119:13 misura di sensibilità di un ricevitore. Se appunto vi vi prendete le caratteristiche di qualche ricevitore
+119:20 radioamatoriale dove trovate sensibilità, è sempre espresso in questi termini: 01 03 05 microvolto numero di
+119:29 decibel di rapporto segnale rumore. Quindi riprendo il discorso che si faceva in ingresso, no? Cioè la
+119:34 sensibilità non è tanto un collegamento non si fa perché ascolti bene un
+119:41 segnale. Un collegamento, scusatemi, ricomincio, un collegamento non si fa perché un segnale arriva forte, cioè non
+119:48 si fa se hai un S molto forte. Un collegamento si fa se hai un S n
+119:54 favorevole, perché se il tuo segnale è forte, ma per qualche motivo il noise,
+119:60 il rumore è più forte, il collegamento comunque è impossibile farlo.
+120:05 Quindi questa è la caratteristica con la quale si riesce a a lavorare in banda. E da cosa dipende il rapporto segnale
+120:11 rumore? Innanzitutto dipende dalla dalla larghezza di banda del ricevitore.
+120:16 C'è c'è una formula che mostra che quanto più è la la banda del tuo
+120:22 ricevitore è larga, quanto più eh rumore il tuo ricevitore
+120:28 capta. È come se la larghezza di banda del ricevitore fosse una specie di finestra aperta, no? Se l'apri tanto
+120:35 prendi tanto rumore e tornando indietro quindi si vede che i ricevitori più
+120:40 sensibili sono quelli in telegrafia perché c'è una filestrellina di 500 kHz.
+120:47 Quando si passa all'SB la finestrellina mi diventa più ampia, 2 kHz e5,
+120:55 il che significa che in decibel perdo quasi un fattore 10 per intenderci.
+120:60 Tant'è che molti dico, molti continuano a usare la telegrafia perché in telegrafia eh si fanno con meno potenza
+121:07 più distanze perché i perché i ricevitori sono molto più performanti.
+121:13 In AM la frequenza, la la mia finestra è ancora più larga e in FM è spalancata.
+121:23 Quindi diciamo che a qualità intrinseca di tutti i componenti elettronici, per motivi proprio intrinseci,
+121:30 eh un ricevitore in FM sarà molto molto più rumoroso di uno che sarà più
+121:35 rumoroso di uno SSV che sarà più rumoroso di uno CW. Quindi diciamo che la sensibilità del
+121:43 ricevitore dipende molto dalla larghezza di banda e poi dipende dal rumore del preamplificatore, dal rumore dei primi
+121:49 stadi. Questo è l'effetto del livello di rumore di di un riceditore. Vedete che c
+121:55 questa banda grigia rappresenta il il rumore che in qualche modo il mio ricevitore genera questa questa fascia
+122:02 grigia. Io qua ho alcuni segnali, per esempio, di ed è di cui l'operatore
+122:08 neanche forse si rende conto perché sono proprio persi nel rumore, no? effetto del ricevitore molto rumoroso, dei
+122:14 segnali che appena sovrastano il rumore, per esempio EB, e poi ho dei segnali più forti dove il rapporto segnale rumore è
+122:22 molto ampio e quindi questi su questi segnali si lavora si lavora bene. Però se si vuole cercare di lavorare su
+122:28 segnali anche di questo genere bisogna trovare in modo di abbassare eh il livello intrinseco di rumore del
+122:33 ricevitore. E questo può essere fatto in questi due modi, no? Il primo usare la telegrafia o comunque modi di
+122:39 trasmissione a banda stretta. I modi digitali che si usano oggi eh consentono
+122:45 di lavorare su segnali dove il livello di segnale è molto al di sotto del livello di rumore, però questo non fa
+122:51 parte del programma di esame, per cui non entriamo in questa materia. E poi l'altra cosa che si fa è usare prime
+122:57 stradi silenziosi, quindi con dispositivi appunto stile transistor, fet eccetera,
+123:03 molto molto silenziosi per tenere basso quella quella banda lì.
+123:09 E questo, chiudo la condivisione, era tutto quello che in qualche modo vi volevo dire sui ricevitori. Argomento
+123:15 secondo me affascinante perché i ricevitori non non finiscono più.
+123:22 Fatemi dire. Scusate un attimo.
+123:28 Ok, perfetto. Allora, ci sono ci sono domande sul sul
+123:36 tema? Per ora no, Paolo.
+123:43 Ok.
+123:49 Diciamo che lo dobbiamo metabolizzare. Eh sì, sì, sì, sì. I ricevitori sono un
+123:54 bell'oggetto, sicuramente, sicuramente.
+124:02 In effetti una cosa molto molto interessante, cioè molto interessante,
+124:08 diciamo che se se si compra un ricevitore di una di
+124:15 una certa classe, a un certo punto bisogna imparare a guidarlo per intenderci,
+124:21 perché poi ci sono tutta una serie di regolazioni, prendi filtraggi, livelli, lo stesso RF Gain di cui parlava prima
+124:28 uno degli amici che che hanno che hanno comunque molto effetto sulle qualità della ricezione, uno pian pianino impara
+124:34 a, diciamo, addomarli. Ok?
+124:41 Comunque vi auguro una buona metabolizzazione.
+124:50 Qualche cominciano essere cominciano ad essere veramente tante le informazioni da ricordarsi in tutte le lezioni.
+124:55 Speriamo bene. Sì, sì, sì, sì. E per questo vi aiutano molto i i quiz.
+125:04 I quiz in qualche modo vi aiutano molto a memorizzare.
+125:09 Ma quindi per per chiudere come avete parlato in due. Vai, vai. Massimo,
+125:18 dicevo, scusa, i vari filtri notch e tutte quelle cosettine lì sono sempre a
+125:25 monte del dello stadio amplificatore, diciamo, del del mixer?
+125:33 Eh, allora, il notch normalmente lavora in media frequenza, ok? Perché il notch lavora nell'ambito
+125:41 della banda passante del ricevitore e quindi lavora subito dopo il filtro. Ok,
+125:47 ok. Dopo, quindi sì.
+125:52 Ok, quindi sì, se n'è troppa di roba nella radio. Ce n'è tanta, ce n'è tanta,
+125:58 ce n'è tanta. IF, tutte le varie. Mamma mia. Sì, sì, sì, sì, sì, sì. Un,
+126:03 diciamo, un ricevitore, cioè, cioè ci sono dei dei ricevitori importanti che sono pieni di manopole.
+126:09 Uno dice, "Wow, che ci faccio con questa con questa roba?"
+126:14 Eh, li sto ancora scoprendo. Ed è un modello vecchissimo. Ma infatti. Che cos'hai? Ma un solito Kenwood 440
+126:22 datatissimo. Sì, sì, sì, sì, sì. Eh, però ne ne ha di uno la CG. Pensavo
+126:29 fosse solo per lo smitter per farla andare più piano, invece è tutto un'altra cosa.
+126:34 Il pulsantino l'ho scoperto stasera.
+126:40 Eh, sì, sì, sì, sì. Va bene, buona serata. Grazie a te. Ciao
+126:48 Paolo. Se non ci sono altre domande io interromperei la la registrazione chius registrazione. Ok.
+127:01 Claudio. Claudio, a te. Sì. Okay.

@@ -1,0 +1,5721 @@
+WEBVTT
+
+1
+00:00:02.080 --> 00:00:07.600
+bene per cui c'abbiamo anche l'ultima l'ultima fallata eh
+
+2
+00:00:07.600 --> 00:00:13.759
+no eh in realtà c'era un refuso qualcuno di voi mi ha segnalato che
+
+3
+00:00:13.759 --> 00:00:19.080
+nell'ultima nell'ultim penultima slide della presentazione nel svolgimento
+
+4
+00:00:19.080 --> 00:00:25.680
+dell'esercizio D c'è un refuso c'è un errore e un segno sbagliato che poi
+
+5
+00:00:25.680 --> 00:00:33.600
+porta a un risultato sbagliato finale il procedimento è corretto comunque la slide corretta l'ho rimandata e vi
+
+6
+00:00:33.600 --> 00:00:42.440
+faranno avere la presentazione insomma con la correzione dell'errore eh e però era nel non era
+
+7
+00:00:42.440 --> 00:00:50.840
+nelle domande nei nel quiz era era nella presentazione ok non so che cosa intendete poi per
+
+8
+00:00:50.840 --> 00:00:57.199
+ultima sbagliata se intendete l'ultima nel nelle nel nel quiz magari la
+
+9
+00:00:57.199 --> 00:01:04.400
+rifacciamo insieme ma non mi sembrava ci fossero errori le avevo ricontrollate e comunque la la guardiamo insieme quando
+
+10
+00:01:04.400 --> 00:01:12.360
+quando l'hai mandata nell'ultima domanda che era la Q è venuta stampato solo log 3 basta ho
+
+11
+00:01:12.360 --> 00:01:18.920
+capito ho capito sì infatti poi ce l'hanno rimandata giusta però chi l'aveva mandata qualcuno a lì non ha
+
+12
+00:01:18.920 --> 00:01:24.119
+risposto logicamente perché no no no era incompiuta come testo ho capito no no
+
+13
+00:01:24.119 --> 00:01:29.479
+quello quello sì è vero mi avevano detto anche quello lì sì quello
+
+14
+00:01:29.479 --> 00:01:37.360
+è un refuso di stampa diciamo mh Sì era in realtà una conversione da da Word PDF
+
+15
+00:01:37.360 --> 00:01:42.560
+che non era stata non era venuta bene probabilmente con un Open Office o
+
+16
+00:01:42.560 --> 00:01:50.640
+qualcosa di diverso dal Word di Microsoft ok vi condivido il file con le
+
+17
+00:01:50.640 --> 00:01:57.320
+risposte e le guardiamo ci sono anche le domande chiaramente le guardiamo tutte uno a
+
+18
+00:02:03.600 --> 00:02:08.840
+uno ditemi quando vedete lo schermo
+
+19
+00:02:11.879 --> 00:02:18.680
+ok ok ok partiamo dalla domanda è andata abbastanza bene a quanto equivale
+
+20
+00:02:18.680 --> 00:02:23.760
+l'espressione 160* 10^9 bastava
+
+21
+00:02:23.760 --> 00:02:31.840
+aggiungere quindi 160 non ha la virgola non ha decimali quindi si parte dalla parte diciamo dall'ultima cifra eh
+
+22
+00:02:31.840 --> 00:02:39.879
+intera e si aggiungono zeri per per nove per nove cifre quindi abbiamo zeri e una
+
+23
+00:02:39.879 --> 00:02:46.440
+e il nostro 160 quindi la risposta giusta era la seconda ok
+
+24
+00:02:46.440 --> 00:02:53.040
+fermatemi se c'è qualcuno di voi che ha risposto diverso o non gli è tornato o
+
+25
+00:02:53.040 --> 00:02:59.599
+non gli torna il risultato che vi sto dando eh perché ovviamente io vado vado
+
+26
+00:02:59.599 --> 00:03:05.280
+dritta ma se c'è qualcosa che non vi è chiaro non vi torna ditemi pure la
+
+27
+00:03:05.280 --> 00:03:10.680
+domanda B anche questa abbastanza bene a quanto equivale l'espressione 14 * 10^
+
+28
+00:03:10.680 --> 00:03:19.440
+-3 qui come si era visto anche durante la lezione partendo sempre dalla dalla
+
+29
+00:03:19.440 --> 00:03:25.159
+dall'ultimo intero siccome si si parla di un esponente negativo ci si sposta
+
+30
+00:03:25.159 --> 00:03:31.439
+verso sinistra di tre posizioni quindi da quattro si spostandosi di tre
+
+31
+00:03:31.439 --> 00:03:36.439
+aggiungendo gli zeri per le posizioni che mancano si arriva a
+
+32
+00:03:36.920 --> 00:03:43.519
+0,014 eh chi ha risposto tre eh ha risposto correttamente nella domanda C
+
+33
+00:03:43.519 --> 00:03:50.280
+eh invece c'è stato qualche qualche errorino in più eh questo era uno degli
+
+34
+00:03:50.280 --> 00:03:57.840
+esercizi che qualcuno di voi aveva detto non è un po' più difficile lavorare con le resistenze in parallelo rispetto a
+
+35
+00:03:57.840 --> 00:04:04.079
+quelle in serie effettivamente la formula è leggermente più difficile eh
+
+36
+00:04:04.079 --> 00:04:11.239
+chi ha fatto il calcolo e ha risposto la tre ha fatto bene mh gli altri non so
+
+37
+00:04:11.239 --> 00:04:17.519
+che cosa hanno sbagliato in questa la formula per il calcolo della resistenza
+
+38
+00:04:17.519 --> 00:04:22.880
+ci dice che 1 su R è uguale al 1 su R1 +
+
+39
+00:04:22.880 --> 00:04:30.720
+1 su R2 se vi ricordate la formula se non se non se volete la la scriviamo eh
+
+40
+00:04:30.720 --> 00:04:37.960
+ma insomma se ditemi voi sennò si va si va dritti così e questo vuol dire che
+
+41
+00:04:37.960 --> 00:04:49.720
+facendo il minimo comune multiplo e la somma delle frazioni viene fuori che 1 su R è uguale a R2 + R1/ R1 * R2 e
+
+42
+00:04:49.720 --> 00:04:57.080
+siccome si sta cercando la resistenza e non il suo reciproco va girata la frazione quindi la formula è che R è
+
+43
+00:04:57.080 --> 00:05:05.720
+uguale a R1 * R2/ R1 + R2 facendo la somma
+
+44
+00:05:05.720 --> 00:05:13.840
+l'importante è che come si era visto anche nella lezione quando si fanno le somme tra numeri con gli esponenziali è
+
+45
+00:05:13.840 --> 00:05:21.039
+importante riportare tutti gli esponenziali alla stessa alla stessa radice per lavorare con con numeri che
+
+46
+00:05:21.039 --> 00:05:27.759
+che siano comparabili tra di loro per cui questo 10 0,4 * 10^ qu in realtà è
+
+47
+00:05:27.759 --> 00:05:34.919
+meglio se lo si esprime in un 10^ ter per poterlo mescolare insieme a quest'altro uno e lavorare con delle
+
+48
+00:05:34.919 --> 00:05:42.240
+grandezze comparabili per cui per eh praticamente si si toglie 1
+
+49
+00:05:42.240 --> 00:05:49.199
+all'esponente e quindi ci si fa si moltiplica per 10 la parte numerica
+
+50
+00:05:49.199 --> 00:05:56.199
+quindi da 0,4 si ottiene un 4 * 10^ 3 e si può poi procedere a fare a fare il
+
+51
+00:05:56.199 --> 00:06:02.680
+calcolo r1 + R2 in questo modo diventa 1 + 4 che
+
+52
+00:06:02.680 --> 00:06:12.039
+fa 5 e ed è il nostro denominatore r1 * R2 diventa 10^ ter eh
+
+53
+00:06:12.039 --> 00:06:19.440
+per 5 10^ ter e quindi in sostanza c'abbiamo un
+
+54
+00:06:19.440 --> 00:06:26.680
+10^ 6 eh per 5
+
+55
+00:06:27.120 --> 00:06:33.120
+e e ed è della nostra grandezza al denominatore di di conseguenza il nostro
+
+56
+00:06:33.120 --> 00:06:42.880
+numeratore è 4 * 10^ 3 il nostro denominatore è 5 * 10^ 4 / 5 fa
+
+57
+00:06:42.880 --> 00:06:50.440
+0,8 e si semplificano gli esponenziali per cui viene un 10^ ter come come
+
+58
+00:06:50.440 --> 00:06:58.080
+risultato finale quindi 0,8 * 10^ ter risposta corretta
+
+59
+00:06:59.080 --> 00:07:04.120
+la domanda D invece ci diceva due resistenze in questo caso sono in serie
+
+60
+00:07:04.120 --> 00:07:10.479
+più semplice perché bisogna sommarle anche qui le la difficoltà qual era riportare i numeri a grandezze
+
+61
+00:07:10.479 --> 00:07:17.440
+comparabili quindi lavorando con le migliaia eh 2,2 in 10^ ter si può
+
+62
+00:07:17.440 --> 00:07:23.199
+trasformare in 2200 visto che qui ci sono le migliaia già espresse forse la
+
+63
+00:07:23.199 --> 00:07:32.120
+la cosa più semplice da fare 6800 + 2200 eh fa 9.000 che si può esprimere anche
+
+64
+00:07:32.120 --> 00:07:40.039
+come 9 * 10^ ter l'alternativa poteva essere trasformare 6800 in potenza di 10
+
+65
+00:07:40.039 --> 00:07:46.759
+e quindi scrivere 6,8 in 10^ ter e la somma di 6,8 + 2 fa
+
+66
+00:07:46.759 --> 00:07:52.759
+effettivamente 9 e quindi il risultato è 9 * 10^ ter
+
+67
+00:07:52.759 --> 00:07:59.840
+passa la domanda eh tutte queste sono insomma le risposte sono state date
+
+68
+00:07:59.840 --> 00:08:08.560
+grandemente corrette per cui non mi ci soffermo tanto ma ripeto se qualcuno di voi vuole un una delucidazione son qui
+
+69
+00:08:08.560 --> 00:08:15.599
+eh la domanda è che ci dice ci chiede che un picofarad equivale a quanto
+
+70
+00:08:15.599 --> 00:08:24.599
+equivale un picofarad espresso in farad eh la filastrocca dice mh millimicro
+
+71
+00:08:24.599 --> 00:08:31.000
+nano pico quindi se ve le ricordate partendo da milli che è un 10^ -3 micro
+
+72
+00:08:31.000 --> 00:08:38.560
+10^ -6 nano un 10^ -9 pico è un 10^ -1 perché da ogni grandezza la a quella più
+
+73
+00:08:38.560 --> 00:08:44.800
+piccola successiva eh c'è un fattore di 10^ ter e
+
+74
+00:08:44.800 --> 00:08:51.720
+quindi si arriva al 10^ -1 in pico farad
+
+75
+00:08:51.720 --> 00:08:59.560
+ok domanda F quanto vuole un nano quanto un nanofarad equivale a uguale micro in
+
+76
+00:08:59.560 --> 00:09:05.760
+questo caso micro milli nanopico e scusate milli
+
+77
+00:09:05.760 --> 00:09:13.639
+micro nano pico è il nostro è la terza posizione e quindi ci viene un 10^ -9
+
+78
+00:09:16.040 --> 00:09:22.560
+eh la domanda G invece anche questa ha avuto qualche qualche difficoltà per
+
+79
+00:09:22.560 --> 00:09:31.240
+qualcuno c'è stata qualche difficoltà per qualcuno allora 100 MHz equivalgono a questo come si doveva
+
+80
+00:09:31.240 --> 00:09:39.480
+fare i mega qui in herz nella prima per esempio nella prima risposta io il
+
+81
+00:09:39.480 --> 00:09:46.959
+numero espresso in herz quindi 100 MHz io devo capire quanto diventa 100 M per
+
+82
+00:09:46.959 --> 00:09:55.640
+capire se questa prima risposta è corretta o no eh i mega si esprimono in
+
+83
+00:09:55.640 --> 00:10:05.640
+10^ diciamo la filastrocca verso l'alto diventa eh kil gig terra ok quindi
+
+84
+00:10:05.640 --> 00:10:15.120
+scusate ho saltato la pagina ok eh quindi partiamo da eh kg che è un 10^
+
+85
+00:10:15.120 --> 00:10:22.240
+ter mega che è un 10^ 6 100 me gli devo aggiungere un 100 che è un
+
+86
+00:10:22.240 --> 00:10:28.240
+10^ 2 10^ 2 * 10^ diventa un 10^8 nelle
+
+87
+00:10:28.240 --> 00:10:33.880
+moltiplicazioni gli esponenti si sommano e quindi 10^8 Hz corrisponde
+
+88
+00:10:33.880 --> 00:10:42.120
+effettivamente a 100 MHz ok la seconda è banalmente cioè è è molto sbagliata
+
+89
+00:10:42.120 --> 00:10:51.920
+perché 100 s MHz intanto devo dovevo trovare i i 100 MHz e e questi sono 100
+
+90
+00:10:51.920 --> 00:11:01.120
+s MHz per cui per definizione non sono non è corretta all terra proprio anche lei sbagliata perché era 100* 10^ 6 MHz
+
+91
+00:11:01.120 --> 00:11:07.000
+ma io sto cercando di capire appunto già qui avevo i mahzitetto anche un fattore
+
+92
+00:11:07.000 --> 00:11:14.320
+10 alla sesta non può essere lui per cui era volutamente forviante perché sono
+
+93
+00:11:14.320 --> 00:11:20.160
+espressioni diverse ma molto simili tra di loro per cui voleva essere un trabocchetto insomma qualcuno c'è
+
+94
+00:11:20.160 --> 00:11:25.240
+cascato però fondamentalmente la risposta corretta è la prima
+
+95
+00:11:25.240 --> 00:11:31.320
+l'acc ha creato qualche problemino a qualcuno anche questa voleva essere un
+
+96
+00:11:31.320 --> 00:11:37.480
+po' un trabocchetto e e vabbè e ha funzionato però e il ragionamento qual
+
+97
+00:11:37.480 --> 00:11:42.800
+era 1 GHz equivale a se scrive
+
+98
+00:11:42.800 --> 00:11:48.320
+GHz in la prima risposta me lo trasforma in herz
+
+99
+00:11:48.320 --> 00:11:55.240
+il giga in realtà nella nostra nella nostra scala
+
+100
+00:11:55.240 --> 00:12:04.160
+ricordatevi il chilo è un 10^ ter il mega è un 10^ il giga è un 10^9 quindi
+
+101
+00:12:04.160 --> 00:12:13.639
+10^ 6 Hz non poteva essere ok 10^ n ce l'ho però è 10 sarebbe stato
+
+102
+00:12:13.639 --> 00:12:19.519
+10^9 Hz non GHz perché si sta parlando già di voler trasformare 1 gig in
+
+103
+00:12:19.519 --> 00:12:29.360
+qualcosa per cui 10^ 9 GHz sarebbe di per sé un 10^ 18 Hz ok
+
+104
+00:12:29.360 --> 00:12:39.600
+quindi l'unica giusta era la seconda 1 GHz equivale a 10^ -3 terz ok
+
+105
+00:12:39.600 --> 00:12:47.440
+perché si torda indietro di 1 quindi c'è un fattore di 10^ ter passare dai tera ai per tornare
+
+106
+00:12:47.440 --> 00:12:53.000
+insomma dai tera ai giga per scendere dai terra giga
+
+107
+00:12:53.000 --> 00:13:01.320
+eh la I a quanto equivale l'espressione a* 10^ ter per b * 10^ 9 anche qui l'ho
+
+108
+00:13:01.320 --> 00:13:07.040
+voluta un po' fa complicata per mettendo un po' di moltiplicazioni col punto un po' di moltiplicazioni con il simbolo
+
+109
+00:13:07.040 --> 00:13:12.079
+per ma volutamente perché insomma voleva essere semplicemente un modo per farvi
+
+110
+00:13:12.079 --> 00:13:17.279
+vedere che le stesse cose le stesse espressioni si possono eh rappresentare
+
+111
+00:13:17.279 --> 00:13:24.000
+in modi diversi scusate sono saltata di nuovo perché tocco la tastiera evidentemente ma non me ne
+
+112
+00:13:24.000 --> 00:13:30.560
+accorgo e la soluzione a questa essendo un prodotto di quattro fattori senza se
+
+113
+00:13:30.560 --> 00:13:37.160
+tolgo le parentesi è equivalente mh i fattori si possono tra di loro
+
+114
+00:13:37.160 --> 00:13:42.720
+tranquillamente invertire nel prodotto non ci sono problemi per cui lo si può
+
+115
+00:13:42.720 --> 00:13:48.360
+riscrivere in A* B per 10^ 3 per 10^9
+
+116
+00:13:48.360 --> 00:13:53.800
+mettendo insieme il 10 si può raccogliere 10^ 3 * 10^9 equivale a un
+
+117
+00:13:53.800 --> 00:13:59.160
+10^ 12 quando si moltiplicano i le basi
+
+118
+00:13:59.160 --> 00:14:04.800
+si si sommano gli esponenti quindi la soluzione corretta è la 2 che esprime la
+
+119
+00:14:04.800 --> 00:14:09.880
+stessa espressione in a * b * 10^ 12
+
+120
+00:14:09.880 --> 00:14:18.279
+la L invece ci diceva a quanto equivale l'espressione a * 10^ 3 frat b * 10^9
+
+121
+00:14:18.279 --> 00:14:26.560
+questa è un pochino diversa perché in realtà si sta parlando di un rapporto e l'unica cosa è che lo si può
+
+122
+00:14:26.560 --> 00:14:34.440
+vedere anche spezzatolo perché io quando ho una diciamo i i fattori che stanno al
+
+123
+00:14:34.440 --> 00:14:42.120
+numeratore possono essere eh tra possono essere spezzati e e anche i fattori al
+
+124
+00:14:42.120 --> 00:14:49.040
+denominatore possono essere spezzati tra di loro importanti che poi alla fine quello che è al numeratore si moltiplica
+
+125
+00:14:49.040 --> 00:14:57.399
+e quello che è al denominatore si moltiplica anche lui per cui la stessa espressione si può scrivere come a / b *
+
+126
+00:14:57.399 --> 00:15:05.079
+10^ 3 / 10^ 9 per l'appunto quando si dividono le due potenze gli esponenti si
+
+127
+00:15:05.079 --> 00:15:12.959
+sottraggono quindi sarebbe venuto 10^ 3/ 10^ 9 diventa un 10^ 3^ 3 - 9 e quindi
+
+128
+00:15:12.959 --> 00:15:18.759
+un 10^ -6 l'espressione corretta è la terza ok
+
+129
+00:15:18.759 --> 00:15:23.920
+si può fare il ragionamento inverso si può partire dalle soluzioni provare a
+
+130
+00:15:23.920 --> 00:15:30.759
+fare il calcolo e vedere se ti viene la stessa cosa che c'è nell'espressione qu è un altro modo per cercare di risolvere
+
+131
+00:15:30.759 --> 00:15:36.759
+insomma quando c'è le risposte multipli si può partire anche dalla risposta per cercare di capire poi se la domanda è
+
+132
+00:15:36.759 --> 00:15:43.639
+corretta o no comunque anche in questo caso le risposte erano sostanzialmente positive per cui è corrette per cui va
+
+133
+00:15:43.639 --> 00:15:49.600
+bene la M mi sa che l'hanno beccato tutti per cui non ve la sto a raccontare
+
+134
+00:15:49.600 --> 00:15:55.079
+l'espressione 01^ 10^ -3 - 0,01 * 10^ -2
+
+135
+00:15:55.079 --> 00:16:01.560
+sono la stessa quantità per cui la sottrazione fa 0 eh la n a quanto equivale
+
+136
+00:16:01.560 --> 00:16:07.240
+l'espressione a^ x e tutto elevato alla y questa è una regola è una regola degli
+
+137
+00:16:07.240 --> 00:16:12.319
+esponenti ve le avevo riportate nelle slide quando si fa l'esponente di un
+
+138
+00:16:12.319 --> 00:16:18.839
+esponente si devono moltiplicare il risultato che si ottiene è la base m
+
+139
+00:16:18.839 --> 00:16:27.759
+elevata alla moltiplicazione degli esponenti e infatti la il risultato corretto era il 2 la domanda o
+
+140
+00:16:27.759 --> 00:16:34.880
+eh parla di un circuito risonante che uno dice "Ma io i circuiti risonanti non li ho fatti" non importa perché in
+
+141
+00:16:34.880 --> 00:16:41.600
+realtà la formula te la sta descrivendo per cui si tratta semplicemente di scrivere quello che viene richiesto in
+
+142
+00:16:41.600 --> 00:16:47.319
+forma matematica e risolvere banalmente un calcolo ok quindi la rileggo un
+
+143
+00:16:47.319 --> 00:16:54.040
+circuito risonante ha una larghezza di banda BW di 100 Hz e una frequenza di
+
+144
+00:16:54.040 --> 00:16:59.519
+risonanza F0 di 1 MHz a quanto vale il
+
+145
+00:16:59.519 --> 00:17:08.360
+fattore q = f/ bw del circuito e qui si tratta di
+
+146
+00:17:08.360 --> 00:17:16.400
+sostituire f con il valore che abbiamo 1 MHz e BW con il valore che abbiamo c Hz
+
+147
+00:17:16.400 --> 00:17:27.880
+quindi 1 MHz/ 100 Hz equivale a un 10^ 6 eh fratto 100 che
+
+148
+00:17:27.880 --> 00:17:33.480
+poi è un 10^ 2 e il herz entrambi per
+
+149
+00:17:33.480 --> 00:17:38.760
+cui essendo una divisione di potenze la base rimane uguale le potenze si
+
+150
+00:17:38.760 --> 00:17:47.600
+sottraggono diventa un 10^ 6 - 2 10^ 6 - 2 10^4 come risultato finale ok
+
+151
+00:17:47.600 --> 00:17:53.960
+la domanda P anche questa non ha avuto te molte risposte positive ma anche
+
+152
+00:17:53.960 --> 00:17:59.919
+questa in realtà non era difficilissima quindi non so neanche forse vi siete un
+
+153
+00:17:59.919 --> 00:18:07.400
+po' eh spaventati dalla descrizione proviamo a a rileggerla insieme date due
+
+154
+00:18:07.400 --> 00:18:14.080
+grandezze vo e vi quanto vale il logaritmo del rapporto
+
+155
+00:18:14.080 --> 00:18:21.039
+VO/ VI se vuo è il doppio DVi ora qui dove sta il
+
+156
+00:18:21.039 --> 00:18:26.600
+gioco se la grandezza sopra è il doppio di quella
+
+157
+00:18:26.600 --> 00:18:34.640
+sotto il rapporto quanto varrà io c'ho due volte una cosa diviso quella cosa il
+
+158
+00:18:34.640 --> 00:18:41.880
+rapporto vale due perché no perché sto div sto dividendo diciamo che posso
+
+159
+00:18:41.880 --> 00:18:47.120
+semplificare quella quantità che che è uguale e mi rimane il fattore
+
+160
+00:18:47.120 --> 00:18:53.919
+moltiplicativo quindi se il il numeratore
+
+161
+00:18:54.880 --> 00:19:00.960
+come c'è qualcuno che voleva fare una che voleva fare un intervento
+
+162
+00:19:00.960 --> 00:19:07.159
+no quindi se il numeratore è due volte o n volte il denominatore il risultato del
+
+163
+00:19:07.159 --> 00:19:13.280
+rapporto sarà quel 2 quel fattore 2n ok quindi il quanto vale il logaritmo del
+
+164
+00:19:13.280 --> 00:19:20.080
+rapporto se il numeratore è due volte il denominatore il il logaritmo in realtà
+
+165
+00:19:20.080 --> 00:19:25.760
+in quel caso è un logaritmo di 2 e basta calcolarlo con la calcolatrice e più o
+
+166
+00:19:25.760 --> 00:19:32.039
+meno viene uno 0,3 non viene esatto il calcolo sarà uno 0,311 e qualcosa però
+
+167
+00:19:32.039 --> 00:19:38.679
+arrotondato viene quello tenete in considerazione anche nell'esame a volte capiterà che facendo un conto
+
+168
+00:19:38.679 --> 00:19:44.840
+specialmente se vi fanno usare la calcolatrice non vi viene esattamente il numero che è rappresentato ma ce ne sarà
+
+169
+00:19:44.840 --> 00:19:50.799
+uno molto vicino e ragionevolmente sarà quello la domanda cui invece anche
+
+170
+00:19:50.799 --> 00:19:57.039
+questa forse ha spaventato qualcuno e però è quella che era sbagliata nella
+
+171
+00:19:57.039 --> 00:20:03.919
+slide per cui c'era un quanto vale 20* logaritmo 3 probabilmente nella prima
+
+172
+00:20:03.919 --> 00:20:09.039
+slide c'era semplicemente un log 3 che non era molto significativo e quindi non
+
+173
+00:20:09.039 --> 00:20:14.200
+si trovava neanche la soluzione tra quelle esposte e quindi probabilmente il
+
+174
+00:20:14.200 --> 00:20:20.039
+fatto che pochi abbiano risposto è dovuto a quello quindi mi immagino
+
+175
+00:20:20.039 --> 00:20:28.360
+che facendo semplicemente il calcolo l'alcolatrice si può fare logaritmo di 3 moltiplicato per 20 e si vede che è 9
+
+176
+00:20:28.360 --> 00:20:33.559
+qualcosa 9 boh 47 non mi ricordo ma ha
+
+177
+00:20:33.559 --> 00:20:40.559
+arrotondato fa un 9,5 ok forse un 9,54 non me lo ricordo
+
+178
+00:20:40.559 --> 00:20:45.640
+ma insomma c'è una c'è un arrotondamento un troncamento anche qui per dirvi i
+
+179
+00:20:45.640 --> 00:20:51.799
+risultati non sono esattamente uguali uguali a quelli che vengono fuori le calcolatrici ci sono degli
+
+180
+00:20:51.799 --> 00:20:57.120
+arrotondamenti ci sono delle approssimazioni cercate quello che è più
+
+181
+00:20:57.120 --> 00:21:04.200
+vicino a quello che che vi viene fuori ok anche se non è uguale esattamente
+
+182
+00:21:06.280 --> 00:21:10.200
+identico avete
+
+183
+00:21:11.360 --> 00:21:19.799
+osservazioni sensazioni vi sono sembrati difficili provate a dirmi qualcosa va io sto
+
+184
+00:21:19.799 --> 00:21:27.159
+provando mi senti questo è il risultato finale eh poi e poi ti faccio parlare non so chi è che che sta parlando sotto
+
+185
+00:21:27.159 --> 00:21:32.360
+più o meno con l'andamento come vedete sono piuttosto alti le percentuali di
+
+186
+00:21:32.360 --> 00:21:37.520
+risposte corrette per cui insomma bene
+
+187
+00:21:38.320 --> 00:21:44.120
+bravi eh aspetta che vi guardo e poi ti lascio parlare e intanto interrompo la
+
+188
+00:21:44.120 --> 00:21:52.400
+condivisione anche allora riesci più tornare dove dovevo
+
+189
+00:21:52.400 --> 00:21:59.960
+tornare eccomi Vincenzo
+
+190
+00:21:59.960 --> 00:22:08.400
+sì buonasera ehm io mi scuso eh perché ehm quando
+
+191
+00:22:08.400 --> 00:22:14.080
+alla fine appunto hai detto eh c'è qualcuno che voleva dire qualche cosa io
+
+192
+00:22:14.080 --> 00:22:20.200
+avevo il microfono aperto stavo parlando con un'altra persona ehm probabilmente
+
+193
+00:22:20.200 --> 00:22:29.320
+mi è scappata una parola non consonà a quello che stiamo facendo m mi scuso e
+
+194
+00:22:29.320 --> 00:22:36.279
+subito mi ri eh niente va bene così ok ok d'accordo bene Vincenzo grazie
+
+195
+00:22:36.279 --> 00:22:41.440
+Massimo buonasera io non so se anche qualcun
+
+196
+00:22:41.440 --> 00:22:48.440
+altro ma io nelle log non c'ho capito nulla nulla adesso proverò a riguardarmi
+
+197
+00:22:48.440 --> 00:22:54.080
+la lezione precedente ma veramente sono in alto
+
+198
+00:22:54.080 --> 00:22:59.960
+mare solo quello e tu l'hai tu lo sai calcolare con la calcolatrice il logaritmo
+
+199
+00:22:59.960 --> 00:23:06.520
+no in questo momento purtroppo ho una calcolatrice che non ha neanche il logaritmo con quella del telefonino
+
+200
+00:23:06.520 --> 00:23:13.919
+probabilmente allora puoi usare quella del telefono purché sia scientifica te ti condivido
+
+201
+00:23:13.919 --> 00:23:21.679
+ti condivido un attimo solo lo schermo per farti vedere un esempio banale io normalmente lavoro con una
+
+202
+00:23:21.679 --> 00:23:29.159
+calcolatrice cioè non non ci vuole una calcolatrice troppo diciamo complessa
+
+203
+00:23:29.159 --> 00:23:34.840
+però almeno che abbia la funzione logaritmo esponenziale conviene che ci
+
+204
+00:23:34.840 --> 00:23:42.080
+siano perché insomma può capitare magari non ve la fanno neanche usare perché non ci sono domande complicate da con
+
+205
+00:23:42.080 --> 00:23:48.679
+calcoli complessi da risolvere per cui magari non non ce n'è neanche bisogno però Però nel caso portatela
+
+206
+00:23:48.679 --> 00:23:55.400
+nell'eventualità che non ve la facciano usare vuol dire che non ve ne dovete proprio preoccupare ma se vi capita di
+
+207
+00:23:55.400 --> 00:24:02.600
+usarla e ecco quello che dovrebbe avere quantomeno di minima dovrebbe essere la
+
+208
+00:24:02.600 --> 00:24:09.080
+funzione esponenziale e il logaritmo che sono quelle che poi vi servono per andare a a fare quelle potenze di 10 si
+
+209
+00:24:09.080 --> 00:24:14.400
+vedeva negli esercizi in logaritmo quello che eh che bisogna fare per il
+
+210
+00:24:14.400 --> 00:24:20.600
+calcolo del logaritmo in base 10 intanto è riguardare la lezione perché lì si spiega esattamente che cos'è il
+
+211
+00:24:20.600 --> 00:24:27.880
+logaritmo no che cosa rappresenta il logaritmo il logaritmo è una funzione che praticamente rappresenta l'esponente
+
+212
+00:24:27.880 --> 00:24:35.799
+da dare alla base per ottenere l'argomento dove la base nel logaritmo quando si scrive log e basta è 10 e e
+
+213
+00:24:35.799 --> 00:24:41.480
+per convenzione la base è 10 e l'argomento è quello che si mette al
+
+214
+00:24:41.480 --> 00:24:46.919
+fianco del logaritmo quindi quando si scrive logaritmo di 3 vuol dire cercare
+
+215
+00:24:46.919 --> 00:24:53.279
+l'esponente da dare a 10 per ottenere 3 per calcolarlo vi basta
+
+216
+00:24:53.279 --> 00:25:00.200
+digitare la l'argomento e log per avere il risultato
+
+217
+00:25:00.200 --> 00:25:06.000
+ok quindi questo è il modo per calcolare i logaritmi nell'esercizio dove c'era 20
+
+218
+00:25:06.000 --> 00:25:11.840
+* logaritmo 3 basta fare 3 logaritmo e questo è il risultato moltiplicato per
+
+219
+00:25:11.840 --> 00:25:19.520
+20 e questo è il 9,54 che vi dicevo e poi si può approssimare con 9,5
+
+220
+00:25:19.520 --> 00:25:26.640
+va bene ora riguardati la lezione perché lì si parlava insomma si dava la definizione di logaritmo se se se
+
+221
+00:25:26.640 --> 00:25:32.880
+raccontato un po' di cose poi come ho detto a lezione non c'è bisogno di sapere tutte quelle cose che vi ho detto
+
+222
+00:25:32.880 --> 00:25:38.360
+ve ne ho dette quelle che vi servono certo con quelle di robetta se ne fa e
+
+223
+00:25:38.360 --> 00:25:44.760
+ogni tanto può capitare che uno abbia bisogno proprio di risolvere un'equazioncina un problemino anche
+
+224
+00:25:44.760 --> 00:25:51.880
+abbastanza semplice perché si sta cercando di calcolare qualcosa nel proprio
+
+225
+00:25:51.880 --> 00:25:58.919
+amplificatore e quello vi aiuta però non è insomma non è proprio diciamo materia
+
+226
+00:25:58.919 --> 00:26:06.360
+d'esame per cui insomma sono strumenti che vi servono sono utili però immagino che all'esame ame più che
+
+227
+00:26:06.360 --> 00:26:13.279
+più che altro vi può bastare la la calcolatrice per quanto riguarda i logaritmi ok a parte le formule o sapere
+
+228
+00:26:13.279 --> 00:26:18.559
+come si calcolano comunque bisogna il telefono non ce lo
+
+229
+00:26:18.559 --> 00:26:24.360
+fanno portare come usare come calcolatrice ci vuole proprio la calcolatrice sì non è detto nemmeno che
+
+230
+00:26:24.360 --> 00:26:31.200
+vi facciano portare la calcolatrice in genere non serve perché i conti sono intuitivi
+
+231
+00:26:31.200 --> 00:26:38.320
+ah ok proprio per evitare poi i controlli perché calcolatrici adesso sono capaci di fare
+
+232
+00:26:38.320 --> 00:26:43.640
+anche diciamo così più di quel che ecco
+
+233
+00:26:43.640 --> 00:26:48.679
+quindi diventa però quindi in teoria delle domande come
+
+234
+00:26:48.679 --> 00:26:55.840
+queste non le dovremmo avere in teoria no queste sono domande di carattere matematico che sono state formulate per
+
+235
+00:26:55.840 --> 00:27:02.799
+darvi una sorta di palestra di matematica perché poi quando successivamente andremo a parlare di
+
+236
+00:27:02.799 --> 00:27:10.279
+decibel e e vi diremo che è una scala logaritmica comunque riferita su logaritmi uno sennò dice "Ma che super
+
+237
+00:27:10.279 --> 00:27:16.080
+cazzola mi stai raccontando per rimettere in fila eh un po' di
+
+238
+00:27:16.080 --> 00:27:21.720
+di conoscenze matematiche però vedendo il quiz fatto Lucia a me mi si
+
+239
+00:27:21.720 --> 00:27:29.799
+incrociavano gli occhi perché dice "Oh mamma mia è stata anche cattiva" perché con insomma eh è andata a stimolare
+
+240
+00:27:29.799 --> 00:27:38.080
+quelli che poteva essere i muscoli matematici che non tutti abbiamo o abbiamo avuto
+
+241
+00:27:38.080 --> 00:27:44.840
+magari sono in passato e che adesso sono un po' rammolliti giustamente diciamo
+
+242
+00:27:44.840 --> 00:27:51.760
+Lucia ha dato un impulso di di per riattivare quelle quelle sinapsi lì però
+
+243
+00:27:51.760 --> 00:28:00.120
+non vi spaventate nemmeno troppo se alcuni di questi argomenti vi sono sembrati fin troppo scientifici ma era è
+
+244
+00:28:00.120 --> 00:28:05.960
+come quando uno esce di palestra dice "Però certo son proprio tronco" eh sì perché dovevi un po' riattivare la
+
+245
+00:28:05.960 --> 00:28:12.000
+muscolatura però non vi non vi fermate a questo c'era un altro paio di mani e
+
+246
+00:28:12.000 --> 00:28:17.120
+facevo un po' di pressione anche perché poi dopo iniziamo la lezione di stasera
+
+247
+00:28:17.120 --> 00:28:24.440
+ci sono un altro paio di di mani alzate claudio
+
+248
+00:28:24.519 --> 00:28:31.559
+sì buonasera a tutti ecco io volevo farti una domanda io ho preso una calcolatrice scientifica e ho visto ho
+
+249
+00:28:31.559 --> 00:28:37.039
+fatto un campo santo di di domande di risposte sbagliate che ero sbagliate
+
+250
+00:28:37.039 --> 00:28:42.799
+diverse e ho visto una cosa su questa calcolatrice che poi me sono reso conto anche dopo se io faccio per esempio che
+
+251
+00:28:42.799 --> 00:28:49.559
+ne so 10 * 10^ ter in realtà non mi dà il risultato metterci tre zeri bisogna
+
+252
+00:28:49.559 --> 00:28:57.200
+non ci metta il 10 mettere 10 potenziale terza all a tre eh ma lo fanno tutte
+
+253
+00:28:57.200 --> 00:29:02.480
+oppure ho sbagliato a impostarla io ecco domanda ma allora il 10 alla che è
+
+254
+00:29:02.480 --> 00:29:09.279
+questa funzione qui se ce l'hai scritta così come ce l'ho scritta io come ce l'ai come la Come la vedi or
+
+255
+00:29:09.279 --> 00:29:15.360
+fammi vedere io ehm guarda
+
+256
+00:29:15.360 --> 00:29:22.880
+aspetta eh che ti ingrandisco aspetta
+
+257
+00:29:22.880 --> 00:29:28.039
+io l'espotenziale uso Vamo non so se lo vedo a rovescio eh però per l'appunto è
+
+258
+00:29:28.039 --> 00:29:35.919
+davanti il nome tiralo un po' su eh che lo vedo po' No un po' più in alto cioè proprio sopra
+
+259
+00:29:35.919 --> 00:29:44.120
+non lo vedo ah exp ok quindi tu fa dovresti fare 10 exp il l'esponente
+
+260
+00:29:44.120 --> 00:29:51.159
+esponente e e l' uguale ti dà il risultato non devi fare 10 devi fare 10
+
+261
+00:29:51.159 --> 00:29:56.840
+exp il numero dell'esponente sì giusto giusto ma io se c'ho per
+
+262
+00:29:56.840 --> 00:30:02.519
+esempio invece di 10 c'ho 50 m o 52 mh
+
+263
+00:30:02.519 --> 00:30:07.640
+eh 52 esponenziale 3
+
+264
+00:30:07.640 --> 00:30:15.039
+e ne vedi 50000 non mi non faccio 10 viene
+
+265
+00:30:15.039 --> 00:30:20.600
+direttamente così bisogna non ci mettere il 10 per fare l'esponenziale mi mi
+
+266
+00:30:20.600 --> 00:30:27.880
+aggiunge gli zeri e non è una un una un esponente poi in realtà perché verrebbe
+
+267
+00:30:27.880 --> 00:30:33.000
+un altro risultato fosse un esponente certo se lo vuoi se lo vuoi
+
+268
+00:30:33.000 --> 00:30:39.960
+rappresentare in forma esponenziale sì alcune calcolatrici te lo consentono di di rappresentare i numeri in forma
+
+269
+00:30:39.960 --> 00:30:45.480
+esponenziale però è vabbè questo qui me sono accorto dopo e che mi metteva zer
+
+270
+00:30:45.480 --> 00:30:52.440
+più expo di fatto cioè ecco se quindi i numeri i numeri zeri dietro ecco ti
+
+271
+00:30:52.440 --> 00:30:59.399
+mette già il in realtà exp moltiplica per 10 alla all'esponente che tu che tu
+
+272
+00:30:59.399 --> 00:31:06.360
+indici sì così ho scoperto Claudio ce l'ho ce l'ho quasi uguale io guarda se accanto all'Ex
+
+273
+00:31:06.360 --> 00:31:13.320
+c'hai un YX no c'ho E scusate abbiate pazienza non
+
+274
+00:31:13.320 --> 00:31:19.880
+voglio essere cattivo ma l'ora possiamo risolvere questa problematica casomai a
+
+275
+00:31:19.880 --> 00:31:27.440
+fine lezione mi posso trattenere io facciamo tutte le prove ma adesso diamo parola a Silvio se se Lucia è
+
+276
+00:31:27.440 --> 00:31:33.279
+finito eh assolutamente sì vi saluto e buona lezione a tutti allora arrivederci
+
+277
+00:31:33.279 --> 00:31:38.360
+e grazie grazie grazie a voi vai Silvia
+
+278
+00:31:38.360 --> 00:31:44.760
+bene buonasera e soprattutto soprattutto
+
+279
+00:31:44.760 --> 00:31:51.440
+ehm come avete visto modo di vedere nel recente nella settimana in corso è stato
+
+280
+00:31:51.440 --> 00:31:57.840
+attivato il canale il gruppo Telegram e lì ci sarà modo anche durante la
+
+281
+00:31:57.840 --> 00:32:03.840
+settimana di approfondire di chiedere di avere aiuto anche in privato e è uno
+
+282
+00:32:03.840 --> 00:32:11.919
+strumento che possiamo utilizzare anche in questo caso qui per per diciamo per problemi più di
+
+283
+00:32:11.919 --> 00:32:17.399
+carattere incontrati in forma personale no la mia calcolatrice fa così e magari
+
+284
+00:32:17.399 --> 00:32:23.559
+uno trova aiuto nel gruppo allora eh vedo ancora Lucia a
+
+285
+00:32:23.559 --> 00:32:29.278
+schermo pieno non so se è colpa mia
+
+286
+00:32:29.919 --> 00:32:36.519
+comunque eh dovrei aver tolto la definizione la condivisione io Silvio
+
+287
+00:32:36.519 --> 00:32:42.679
+non dovrei essere Sì eh sì no ma forse forse forse sono io che ho impostato con
+
+288
+00:32:42.679 --> 00:32:48.880
+la visione del relatore comunque dopo vediamo se tutto funziona e allora intanto buonasera a
+
+289
+00:32:48.880 --> 00:32:56.559
+tutti sono Silvio e IZ5 Delta India yankee che
+
+290
+00:32:56.559 --> 00:33:01.840
+stasera una delle scopi che ci poniamo è proprio capire che cosa vuol dire questo
+
+291
+00:33:01.840 --> 00:33:09.600
+EZ5 Delta India y piuttosto che come Lucia scrive U5 Juliet Zulu Quebec sono
+
+292
+00:33:09.600 --> 00:33:17.120
+un radiamatore da quando avevo 15 anni e è una cosa che risale a circa 33 anni fa
+
+293
+00:33:17.120 --> 00:33:22.799
+e quindi sono ben immerso in questa malattia che si chiama Radioamatore e
+
+294
+00:33:22.799 --> 00:33:28.000
+sono della montagna pistoiese per fare una breve presentazione per in modo che
+
+295
+00:33:28.000 --> 00:33:33.679
+uno abbia così un minimo di di indirizzo per la prima volta che ci troviamo
+
+296
+00:33:33.679 --> 00:33:40.360
+davanti e sono il docente che curerà in quattro
+
+297
+00:33:40.360 --> 00:33:47.360
+lezioni probabilmente forse un richiamo alla fine la parte che riguarda la normativa
+
+298
+00:33:47.360 --> 00:33:52.519
+e le procedure le leggi che sovrintendono al nostro al nostro mondo
+
+299
+00:33:52.519 --> 00:33:58.559
+radioamatoriale quindi se le parti fin qui viste e che vedrete in successione e
+
+300
+00:33:58.559 --> 00:34:07.000
+che non tratterò io sono più hardware le possiamo definire così cioè di carattere più eh elettronico
+
+301
+00:34:07.000 --> 00:34:13.200
+elettrotecnico e di di antenne la mia parte è più software la mia parte è più
+
+302
+00:34:13.200 --> 00:34:19.800
+delle quali sono le informazioni legate proprio all'attività del radioamatore quali sono le leggi che ci regolano
+
+303
+00:34:19.800 --> 00:34:26.638
+quali sono le procedure da attuare perché diciamo india di Azulu 5 Delta India yen ecera eccetera ecco è questa
+
+304
+00:34:26.639 --> 00:34:32.200
+parte qui è eh nella parte di esame è proprio divisa cioè c'è una pesatura
+
+305
+00:34:32.200 --> 00:34:37.839
+diversa nelle domande eh che riguardano proprio questi argomenti di esame c'è
+
+306
+00:34:37.839 --> 00:34:43.118
+una parte A e una parte B e Ca di normativa
+
+307
+00:34:43.119 --> 00:34:49.158
+però vedremo anche successivamente nelle lezioni com'è che è composto questo
+
+308
+00:34:49.159 --> 00:34:54.240
+esame quali sono le le pesature le regole che di di
+
+309
+00:34:54.240 --> 00:34:59.480
+ingaggio per questa per questa parte
+
+310
+00:34:59.480 --> 00:35:05.680
+eh io ho anche così la mi sento diciamo
+
+311
+00:35:05.680 --> 00:35:11.280
+di fronte alla spiegazione di questa sera di Lucia
+
+312
+00:35:11.280 --> 00:35:17.480
+di rimotivarvi un po' perché mi rendo conto che uno si possa trovare anche un po'
+
+313
+00:35:17.480 --> 00:35:23.800
+perso nel senso di sentire la cosa come eccessivamente distante dalle proprie
+
+314
+00:35:23.800 --> 00:35:29.119
+possibilità capacità ma anche gli argomenti trattati fin qui eh di
+
+315
+00:35:29.119 --> 00:35:35.079
+carattere tecnico eh possono essere molto distanti da quelle che sono le
+
+316
+00:35:35.079 --> 00:35:40.800
+proprie conoscenze di base perché per formazione per studi lontani e e per
+
+317
+00:35:40.800 --> 00:35:46.400
+altri motivi eh vi possano sembrare estremamente come dire fuori dalla
+
+318
+00:35:46.400 --> 00:35:54.760
+portata del momento no e e vi possono spingere a a a pensare che non sia il
+
+319
+00:35:54.760 --> 00:35:59.800
+vostro il vostro campo intanto se siete qui sicuramente avete un interesse forte
+
+320
+00:35:59.800 --> 00:36:05.880
+su questo mondo radioamatoriale e vi chiedo di tenerla acceso questo questo
+
+321
+00:36:05.880 --> 00:36:12.160
+interesse e soprattutto fare seguirmi in alcune considerazioni ovvero che nessuno di noi
+
+322
+00:36:12.160 --> 00:36:20.680
+qui forse ad eccezione di qualcuno sì ma insomma nessuno di noi qui che è radioamatore è un super e non siamo né
+
+323
+00:36:20.680 --> 00:36:27.640
+scienziati siamo persone comuni che come voi hanno vissuto una fase di avvicinamento
+
+324
+00:36:27.640 --> 00:36:33.760
+a questo mondo e che non sono state tritate dal
+
+325
+00:36:33.760 --> 00:36:42.680
+dal dall'esame e hanno gettato la spugna oppure sono passate solo grazie a doti
+
+326
+00:36:42.680 --> 00:36:47.760
+appunto da super uomo o super donna siamo persone normali e quindi credetemi
+
+327
+00:36:47.760 --> 00:36:53.480
+se vi dico che con un po' di perseveranza e un po' tenuti per mano eh
+
+328
+00:36:53.480 --> 00:37:01.359
+avete altissime possibilità di superare l'esame e poi di avviarvi a una eh a
+
+329
+00:37:01.359 --> 00:37:07.960
+un a un mondo all'interno diventare radioamatori a quel punto lì perché i
+
+330
+00:37:07.960 --> 00:37:13.720
+gli elementi che si vanno a coprire nel corso dell'attività radioamatoriale sono
+
+331
+00:37:13.720 --> 00:37:19.440
+così tanti così ampi che radioamatori lo si diventa in
+
+332
+00:37:19.440 --> 00:37:25.359
+continuazione importante è che abbiate come obiettivo la il superamento del del
+
+333
+00:37:25.359 --> 00:37:32.599
+dell'esame alla fine del corso e quello vi abilita a entrare veramente con i a
+
+334
+00:37:32.599 --> 00:37:40.920
+tuffarvi nella piscina dei radioamatomatori ehm il corso che
+
+335
+00:37:40.920 --> 00:37:47.000
+che abbiamo strutturato e che ormai da diversi anni ha preso
+
+336
+00:37:47.000 --> 00:37:52.440
+forma possiamo darvi la garanzia del fatto che sia attinente a quelle che poi
+
+337
+00:37:52.440 --> 00:37:57.920
+sono i temi d'esame e quindi eh se tante
+
+338
+00:37:57.920 --> 00:38:05.480
+volte alcuni argomenti possono apparire eh ripeto anche distanti però Le
+
+339
+00:38:05.480 --> 00:38:10.720
+informazioni che vi diamo anche se non recepite del tutto
+
+340
+00:38:10.720 --> 00:38:16.400
+sono sufficienti ad avere tassi elevati di successo nel corso dell'esame anche
+
+341
+00:38:16.400 --> 00:38:22.440
+per le modalità stesse dell'esame eh perché un conto è dover ricordare
+
+342
+00:38:22.440 --> 00:38:30.040
+qualcosa eh partendo da una domanda aperta cosa diversa è e vedremo poi
+
+343
+00:38:30.040 --> 00:38:37.040
+nelle simulazioni anche d'esame o comunque vedete già nel modo in cui vengono formulati i i compiti di fine
+
+344
+00:38:37.040 --> 00:38:43.560
+elezione che le domande prevedono già delle risposte che un indizio lo danno e
+
+345
+00:38:43.560 --> 00:38:49.960
+che se uno ha avuto una minima diciamo
+
+346
+00:38:49.960 --> 00:38:55.400
+illuminazione rispetto a a quell'argomento ha più facilità con
+
+347
+00:38:55.400 --> 00:39:02.720
+maggior facilità si avvicina alla risposta corretta non sono eh parlami di questo o rispondimi a questa domanda
+
+348
+00:39:02.720 --> 00:39:09.200
+precisa senza dare nessuna possibilità di di eh di diciamo di avere un
+
+349
+00:39:09.200 --> 00:39:15.680
+suggerimento che poi sono le tre risposte e e
+
+350
+00:39:15.680 --> 00:39:21.000
+quindi questa era la la fine della parte così
+
+351
+00:39:21.000 --> 00:39:27.680
+motivazionale e che mi sento di dare perché arrivati a in questo momento qui
+
+352
+00:39:27.680 --> 00:39:33.880
+potrebbero esserci eh appunto qualche qualche tentennamento
+
+353
+00:39:33.880 --> 00:39:40.359
+ma vi prego di credermi e vi dico che adesso ripartiamo da un
+
+354
+00:39:40.359 --> 00:39:46.839
+argomento veramente mente base non facciamo le asticelle ma vediamo un po'
+
+355
+00:39:46.839 --> 00:39:53.599
+presentazione scusatemi un attimo che cerco di condividere il
+
+356
+00:39:53.599 --> 00:40:00.560
+mio eh schermo ecco qua datemi conferma che è
+
+357
+00:40:00.560 --> 00:40:06.720
+visibile qualcuno di voi sì si vede sì sì si vede ok vedo un
+
+358
+00:40:06.720 --> 00:40:12.920
+sacco di mani che vanno che fanno il dito all'inù vedono eh ecco qua allora
+
+359
+00:40:12.920 --> 00:40:22.040
+vi dicevo ripartiamo dalle basi che non sono proprio le stanghette e le asticelle ma poco ci manca perché
+
+360
+00:40:22.040 --> 00:40:29.599
+ripartiamo dall'alfabeto quindi dall'alfabetizzazione
+
+361
+00:40:30.000 --> 00:40:36.280
+ehm mi sono introdotto prima dicendo io mi chiamo Silvio e sono India Zulu 5
+
+362
+00:40:36.280 --> 00:40:41.400
+Delta India bene e proprio questo la base con cui
+
+363
+00:40:41.400 --> 00:40:47.119
+facciamo lo spelling del di queste sigle che poi vediamo che cosa sono queste
+
+364
+00:40:47.119 --> 00:40:56.480
+sigle o comunque sia ogni volta che dobbiamo fare uno spelling fonetico utilizziamo un alfabeto che non è ehm
+
+365
+00:40:56.480 --> 00:41:02.960
+casuale ma eh eh questa parte qui ecco forse se la
+
+366
+00:41:02.960 --> 00:41:08.560
+faccio così che non è casuale ma è eh uno standard
+
+367
+00:41:08.560 --> 00:41:15.800
+adattato adottato in ambito internazionale che proviene dal ehm
+
+368
+00:41:15.800 --> 00:41:22.800
+dall'organizzazione eh dell'aviazione civile nasce nasce di lì e e sono ed è
+
+369
+00:41:22.800 --> 00:41:28.480
+stato poi successivamente adottato dalla l'Unione delle Telecomunicazioni
+
+370
+00:41:28.480 --> 00:41:35.200
+internazionale che è una sorta di ONU delle telecomunicazioni e telecomunicazioni
+
+371
+00:41:35.200 --> 00:41:42.640
+quindi di tutti i tipi vedremo poi successivamente nelle nelle prossime lezioni che cos'è questa ITU nel nel
+
+372
+00:41:42.640 --> 00:41:47.680
+dettaglio come funziona e quale come ci si riferisce a noi
+
+373
+00:41:47.680 --> 00:41:52.880
+però diciamo è come un ente di in questo momento ci interessa sapere che è un po'
+
+374
+00:41:52.880 --> 00:42:00.040
+come un ente di standardizzazione eh di di tante procedure di tanti argomenti che ci
+
+375
+00:42:00.040 --> 00:42:07.000
+riguardano quindi in ambito internazionale e in ambito radioamatoriale quando dobbiamo
+
+376
+00:42:07.000 --> 00:42:14.839
+riferirci a a non la diremo di a di Ancona perché capite bene che per un eh
+
+377
+00:42:14.839 --> 00:42:20.559
+un possibile corrispondente che abita non so in Svezia Ancona non ha nessun
+
+378
+00:42:20.559 --> 00:42:28.800
+significato non gli ricordano l'aiuta a decifrare la A mentre eh l'adottare
+
+379
+00:42:28.800 --> 00:42:35.800
+questo mh alfabeto fonetico in maniera uniforme per tutti fa sì che Alfa sia
+
+380
+00:42:35.800 --> 00:42:41.160
+Alfa sia qui che in Giappone che in Sudafrica che in America che in Cina
+
+381
+00:42:41.160 --> 00:42:48.440
+alfa e ha e quel carattere lì e inoltre non sono
+
+382
+00:42:48.440 --> 00:42:56.440
+eh non sono parole buttate qui a caso ma sono parole
+
+383
+00:42:56.440 --> 00:43:03.440
+che sono state scelte e che sono state frutto di un'evoluzione di una selezione che fa sì che queste siano parole che
+
+384
+00:43:03.440 --> 00:43:10.240
+non si possono confondere l'una con l'altra e che non e che sono
+
+385
+00:43:10.240 --> 00:43:17.599
+sufficientemente conosciute da tutti diciamo così cioè eh
+
+386
+00:43:17.599 --> 00:43:26.720
+che abbiano una un siano già state sentite ecco che non siano parole del
+
+387
+00:43:26.720 --> 00:43:33.680
+tutto insignificanti anche se uno non ne conosce magari il significato vero e proprio però sono parole che sono già
+
+388
+00:43:33.680 --> 00:43:39.599
+state utilizzate e che sono di largo eh di
+
+389
+00:43:39.599 --> 00:43:48.799
+largo di larga diffusione sono parole che vedete provengono da anche culture
+
+390
+00:43:49.119 --> 00:43:54.559
+diverse in una forma che che renda questa questa cosa il più internazionale
+
+391
+00:43:54.559 --> 00:44:00.400
+possibile però l'aspetto fondamentale che vi dico è quello di
+
+392
+00:44:00.400 --> 00:44:06.720
+essere in non è possibile confondere una con
+
+393
+00:44:06.720 --> 00:44:13.480
+l'altra non ce n'è una che suona simile all'altra questo fa sì che in una comunicazione dove ci possano essere
+
+394
+00:44:13.480 --> 00:44:19.880
+delle difficoltà di comprensione e nel senso che ci sono difficoltà nel fatto
+
+395
+00:44:19.880 --> 00:44:27.000
+che magari io parlo da lontano con il microfono e che quindi renda la
+
+396
+00:44:27.000 --> 00:44:32.920
+comprensione del mio messaggio difficile fa sì che non si possa confondere alfa
+
+397
+00:44:32.920 --> 00:44:39.359
+con tango sono proprio suoni fonemi estremamente diversi che non lo che lo
+
+398
+00:44:39.359 --> 00:44:46.240
+rendono più decifrabile queste vanno sapute così e queste vanno
+
+399
+00:44:46.240 --> 00:44:52.640
+sapute per l'esame perché questo che vedete ritagliato e messo in questa in
+
+400
+00:44:52.640 --> 00:44:58.400
+questa slide è il pezzetto di schema che è scritto
+
+401
+00:44:58.400 --> 00:45:04.559
+nella legge con questo schemetto così e quindi questa state pur sicuri che ci sarà una
+
+402
+00:45:04.559 --> 00:45:09.920
+domanda dove c'è scritto come si dice P nell'alfabeto
+
+403
+00:45:09.920 --> 00:45:18.440
+telefonetico o fonetico E sotto ci sarà scritto eh non so papa papero o
+
+404
+00:45:18.440 --> 00:45:24.599
+Pordenone ecco e voi dovrete indicare quello corretto
+
+405
+00:45:24.599 --> 00:45:30.920
+ehm quindi imparatele e e dice "Vabbè te ci avevi detto che te eri quello bravo e
+
+406
+00:45:30.920 --> 00:45:39.720
+che ci dicevi delle cose che tutto sommato eh potevamo già sapere no non lo sapete
+
+407
+00:45:39.720 --> 00:45:46.920
+però vi dico iniziate a prendere confidenza con queste e iniziate a
+
+408
+00:45:46.920 --> 00:45:52.400
+leggere le targhe delle automobili utilizzando queste e inizialmente
+
+409
+00:45:52.400 --> 00:45:59.559
+dovrete ripensare a che cos'è V eh Venezia Victor
+
+410
+00:45:59.559 --> 00:46:05.040
+però come come trucco che vi posso dare è leggete le targhe dell'automobile
+
+411
+00:46:05.040 --> 00:46:10.960
+mentre siete in giro con queste un po' come fanno i carabinieri
+
+412
+00:46:10.960 --> 00:46:18.040
+quando vi fermano che dica abbiamo fermato bravo Charlie 231 Lima
+
+413
+00:46:18.040 --> 00:46:25.559
+Papa guardiamo un po' la prossima ecco questa è un'altra forma per grafica per
+
+414
+00:46:25.559 --> 00:46:32.839
+testimoniarvi la stessa cosa e parte di queste cose ve le ho già
+
+415
+00:46:32.839 --> 00:46:39.200
+dette ma andiamo nel dettaglio perché si usa si usa per uniformità perché ognuno
+
+416
+00:46:39.200 --> 00:46:45.559
+non inventi il proprio alfabeto fonetico eh perché diventerebbe difficile far
+
+417
+00:46:45.559 --> 00:46:51.440
+parlare eh un un russo con un giapponese
+
+418
+00:46:51.440 --> 00:46:59.119
+e ognuno vuole dire la ha con la propria con la propria fonetica no con la
+
+419
+00:46:59.119 --> 00:47:06.440
+propria eh appunto uno spagnolo direbbe Alicante noi diciamo Ancona eh uno
+
+420
+00:47:06.440 --> 00:47:12.680
+spagnolo direbbe Tarragona noi diciamo Torino no t di Torino e lui dice T di
+
+421
+00:47:12.680 --> 00:47:18.240
+Tarragona e se non conosciamo né né Torino né Tarragona continuiamo a
+
+422
+00:47:18.240 --> 00:47:23.800
+rimanere su due piani che non ci danno uniformità eh
+
+423
+00:47:23.800 --> 00:47:29.040
+ehm poi non non di meno essendo una cosa che di carattere
+
+424
+00:47:29.040 --> 00:47:35.559
+internazionale porta con sé una certa professionalità una riconoscibilità e una sicurezza nella
+
+425
+00:47:35.559 --> 00:47:41.760
+nella comunicazione perché come vi dicevo eh fa sì che non ci sia una
+
+426
+00:47:41.760 --> 00:47:47.280
+confusione in un dettato in uno spelling di una sigla perché
+
+427
+00:47:47.280 --> 00:47:52.960
+queste parole sono eccessiv estremamente diverse l'unità dall'altra altra e
+
+428
+00:47:52.960 --> 00:47:59.800
+quindi portano alla fine maggiore efficienza perché non è che mi devo sbattere troppo per cercare di
+
+429
+00:47:59.800 --> 00:48:05.760
+capire che tarragona che cosa vuol dire no sappiamo tutti che tango e tango
+
+430
+00:48:05.760 --> 00:48:12.280
+rimarrà quindi non si confondono sono comprensibili nelle diverse lingue e e
+
+431
+00:48:12.280 --> 00:48:19.760
+sono quelle da utilizzare non di meno in in area diciamo nell lettere succede di
+
+432
+00:48:19.760 --> 00:48:25.760
+incontrare altri che parlano con altri alfabeti fonetici ma è una forma eh un
+
+433
+00:48:25.760 --> 00:48:31.960
+po' provinciale se volete perché non ha nessun senso di per sé che uno adotti un
+
+434
+00:48:31.960 --> 00:48:37.680
+alfabeto fonetico diverso dal da quello internazionale se non per fattori così
+
+435
+00:48:37.680 --> 00:48:44.240
+alle volte nazionalistici nel senso peggiorativo del termine in altri momenti anche
+
+436
+00:48:44.240 --> 00:48:51.920
+folklorici no perché è più bello dire non lo so ecco mh
+
+437
+00:48:51.920 --> 00:48:58.400
+qualcosa con la propria lingua e che che diventa più divertente
+
+438
+00:48:58.400 --> 00:49:04.520
+che che non utilizzare uno standard quasi militare no
+
+439
+00:49:04.520 --> 00:49:10.680
+però datemi retta imparate a utilizzare l'alfabeto fonetico ufficiale che deve
+
+440
+00:49:10.680 --> 00:49:16.839
+essere e non avrete che benefici da questa scelta
+
+441
+00:49:16.880 --> 00:49:23.200
+ecco qua sempre approfondendo la sto facendo
+
+442
+00:49:23.200 --> 00:49:29.280
+estremamente prolissa ma è per farvi capire che è importante che adottiate
+
+443
+00:49:29.280 --> 00:49:35.319
+questo come buona pratica cioè che utilizziate queste qui c'è come si
+
+444
+00:49:35.319 --> 00:49:41.880
+dicono che [Musica] eh la
+
+445
+00:49:41.880 --> 00:49:47.079
+forma con tanto di alfabeto diciamo con le convenzioni fonetiche
+
+446
+00:49:47.079 --> 00:49:53.559
+però se leggete in italiano le parole che che distinguono
+
+447
+00:49:53.559 --> 00:49:59.640
+queste lettere siete già arrivati l'unica potrebbe essere Quebec che
+
+448
+00:49:59.640 --> 00:50:05.680
+alcune volte è Quebec altre volte è Quebec ma il resto è grosso modo già
+
+449
+00:50:05.680 --> 00:50:15.119
+parole che che sapete pronunciare e una diciamo un approfondimento che non
+
+450
+00:50:15.119 --> 00:50:22.319
+riguarda propriamente i temi d'esame cioè non vi domanderanno quello che vi sto per dire ma che comunque io nella
+
+451
+00:50:22.319 --> 00:50:28.960
+trattazione di questa sera talvolta andrò in approfondimento perché mi
+
+452
+00:50:28.960 --> 00:50:36.720
+interessa che voi riceviate una serie di informazioni che vi siano poi utili nella vostra vita radioamatoriali e che
+
+453
+00:50:36.720 --> 00:50:42.839
+quindi non ci fermiamo semplicemente a quanto richiesto dall'esame e ma ci siano anche delle informazioni in più
+
+454
+00:50:42.839 --> 00:50:50.240
+che vi aiutano a comprendere o vi siano strumenti in futuro per un buon uso e
+
+455
+00:50:50.240 --> 00:50:57.040
+alcune volte mi è stato domandato e per i numeri esiste un alfabeto fonetico
+
+456
+00:50:57.040 --> 00:51:04.559
+eh la lingua utilizzata è prevalentemente inglese dite bene che se dico India zulu
+
+457
+00:51:04.559 --> 00:51:10.920
+5 delta India y India zulu e lo dico che sia che parli con un italiano sia che
+
+458
+00:51:10.920 --> 00:51:16.160
+parli con un inglese o con un giapponese e India zulu rimane il cinque se vi dico
+
+459
+00:51:16.160 --> 00:51:21.839
+india zulu 5 già il cinque cinque in italiano per un giapponese non vuol dire
+
+460
+00:51:21.839 --> 00:51:28.319
+niente la lingua internazionale utilizzata è prevalentemente la lingua inglese e quindi in un ambito
+
+461
+00:51:28.319 --> 00:51:34.559
+internazionale dirò India zulu 5 delta India yankee
+
+462
+00:51:34.559 --> 00:51:41.440
+ehm e quindi non esiste una vera e propria spelling del numero è one two 3
+
+463
+00:51:41.440 --> 00:51:48.680
+4 five eccetera eccetera in inglese e in realtà c'è una piccola postilla c'è
+
+464
+00:51:48.680 --> 00:51:57.680
+un asterisco perché sebbene one two 3 4 five siano tutti suoni sufficientemente
+
+465
+00:51:57.680 --> 00:52:06.240
+diversi eh vi garantisco che 5 N9 in alcune situazioni suonino molto simili
+
+466
+00:52:06.240 --> 00:52:13.319
+oppure comunque si possano abbastanza confondere eh in una situazione in cui
+
+467
+00:52:13.319 --> 00:52:19.599
+la comunicazione eh infonia sia disturbata sia
+
+468
+00:52:19.599 --> 00:52:26.480
+estremamente difficile qualcosa che si senta appena five e Nine si assomigliano
+
+469
+00:52:26.480 --> 00:52:34.480
+troppo tant'è che la raccomandazione è quella di usare di usare Niner
+
+470
+00:52:34.640 --> 00:52:39.880
+non è una cosa che si incontra di frequente
+
+471
+00:52:39.880 --> 00:52:47.880
+eh però non più tardi di domenica scorsa scorsa mi è capitato di sentire un tedesco che provava a dirmi il numero e
+
+472
+00:52:47.880 --> 00:52:53.080
+mi diceva niner perché proprio per renderlo eh
+
+473
+00:52:53.080 --> 00:53:02.280
+[Musica] non confondibile c'è un microfono aperto con una stampante che va chiedo scusa
+
+474
+00:53:02.440 --> 00:53:08.280
+bene eh nelle nella presentazione e poi nel documento che vi sarà
+
+475
+00:53:08.280 --> 00:53:14.240
+rilasciato secondo le solite modalità io aggiungo anche dei link che per chi
+
+476
+00:53:14.240 --> 00:53:22.640
+vuole approfondire può andarseli a leggere e andare a vedere le cose in più
+
+477
+00:53:23.760 --> 00:53:31.079
+ehm bene allora questi sono esempi di spelling e entriamo vi faccio capire
+
+478
+00:53:31.079 --> 00:53:39.160
+dov'è la funzione forte di questo alfabeto fonetico allora se io vi dovessi leggere
+
+479
+00:53:39.160 --> 00:53:46.440
+queste questi poemi di un poeta dialettale e come il primo e vi direi pi
+
+480
+00:53:46.440 --> 00:53:54.280
+bi b ti pi ti t b ti b e fino qui ci siamo arrivati ma se la stessa cosa ve
+
+481
+00:53:54.280 --> 00:53:59.680
+la dovessi dire in mezzo a una tormenta eh
+
+482
+00:53:59.680 --> 00:54:06.640
+con oppure siamo a un concerto e ti incomincio a dire pi ti pi te questo
+
+483
+00:54:06.640 --> 00:54:12.599
+dettato non prendi solo the bip non prendi niente di quel che ho detto cosa
+
+484
+00:54:12.599 --> 00:54:19.480
+diversa è che se io incomincio a dire papa papa bravo tango papa papa tango
+
+485
+00:54:19.480 --> 00:54:27.359
+tango bravo papa tango bravo capite bene che insomma ci c'è un
+
+486
+00:54:27.359 --> 00:54:35.480
+maggiore possibilità che queste questo dettato vada a buon fine perché P e B si
+
+487
+00:54:35.480 --> 00:54:42.440
+si possono confondere con estrema facilità anche leggendo il labiale E E
+
+488
+00:54:42.440 --> 00:54:51.640
+quindi stessa cosa con c G C g I e cosa diversa se dico golf Charlie
+
+489
+00:54:51.640 --> 00:55:02.960
+Charlie golf India India non si confondono più nm nm nn november mike mike november
+
+490
+00:55:02.960 --> 00:55:08.920
+november mic e qui non ci sono più possibilità di sbagliare tra n e
+
+491
+00:55:08.920 --> 00:55:14.839
+m e via dicendo ora era per farvi eh un
+
+492
+00:55:14.839 --> 00:55:20.240
+po' capire dov'è che entra eh uguale FS
+
+493
+00:55:20.240 --> 00:55:27.599
+che che in una situazione in cui la comunicazione è difficile per situazione
+
+494
+00:55:27.599 --> 00:55:33.520
+ambientale situazione di comunicazione radio al limite delle possibilità di
+
+495
+00:55:33.520 --> 00:55:39.599
+quel segnale l'utilizzo di questi eh di
+
+496
+00:55:39.599 --> 00:55:45.839
+dell'alfabeto fonetico determina il successo della comunicazione
+
+497
+00:55:45.839 --> 00:55:51.280
+eh e andiamo a vedere adesso dov'è che noi principalmente
+
+498
+00:55:51.280 --> 00:55:56.920
+utilizziamo questo alfabeto fonetico lo
+
+499
+00:55:56.920 --> 00:56:03.720
+utilizziamo soprattutto durante le nostre comunicazioni perché
+
+500
+00:56:05.079 --> 00:56:11.880
+diamo diamo eh un largo uso a quelli che sono i nostri indicativi no mi domandavo
+
+501
+00:56:11.880 --> 00:56:19.039
+se io sono visibile o sono invisibile cioè o vedete solo lo schermo
+
+502
+00:56:19.039 --> 00:56:24.119
+noi vediamo lo schermo vediamo schermo schermo e tanto non sono
+
+503
+00:56:24.119 --> 00:56:31.280
+bellino sì era lo schermo ok ok sai pure bellino però sì no no no
+
+504
+00:56:31.280 --> 00:56:39.160
+vabbè ma insomma sennò sembra di parlare con adesso adesso sì ma quanto sei bellino
+
+505
+00:56:39.160 --> 00:56:46.640
+sì visibile ok riprendo eh però c'è qualcun altro
+
+506
+00:56:46.640 --> 00:56:52.760
+che se chiude il suo video è anche meglio
+
+507
+00:56:52.760 --> 00:57:00.359
+ok ehm bene vi dicevo dov'è che utilizziamo ampiamente questo eh questo alfabeto
+
+508
+00:57:00.359 --> 00:57:06.839
+fonetico intanto già nasciamo sfortunati a parte bellino non bellino ma ci
+
+509
+00:57:06.839 --> 00:57:13.640
+diamo veniamo battezzati con delle sigle che sono degne del film di Bart Spencer
+
+510
+00:57:13.640 --> 00:57:20.760
+H725 cioè e come ci come ti chiami e se un povero neonato radioamatore gli dici
+
+511
+00:57:20.760 --> 00:57:25.920
+"Ti chiamerai così?" Già gli prende una sincope più che che
+
+512
+00:57:25.920 --> 00:57:31.079
+10^-3 TB terrazz eh
+
+513
+00:57:31.079 --> 00:57:36.839
+e e quindi noi ci chiamiamo così ma c'è un motivo per cui ci chiamiamo
+
+514
+00:57:36.839 --> 00:57:44.520
+così intanto non ci chiamiamo proprio I5D Iy ma ci chiamiamo India Zulu 5
+
+515
+00:57:44.520 --> 00:57:51.319
+delta India yankee ci chiamiamo in senso lato non sono il mago Telma eh e questa
+
+516
+00:57:51.319 --> 00:57:59.000
+forma con cui veniamo chiamati noi amatori è l'indicativo di chiamata ci viene assegnato nel momento in cui nel
+
+517
+00:57:59.000 --> 00:58:05.720
+corso delle procedure di di diciamo di superamento dell'esame di attivazione della nostra stazione ci viene data come
+
+518
+00:58:05.720 --> 00:58:12.880
+se fosse una sorta di targa automobilistica quella siamo noi e siamo solo noi quel nominativo lì è attribuito
+
+519
+00:58:12.880 --> 00:58:18.880
+in forma nominale e appartiene a quella persona lì non esiste un altro che ha
+
+520
+00:58:18.880 --> 00:58:26.119
+questo nominativo qui è una forma appunto univoca di attribuzione di di di
+
+521
+00:58:26.119 --> 00:58:32.200
+un una sigla di un nominativo di una targa come fosse quella dell'automobile
+
+522
+00:58:32.200 --> 00:58:37.359
+e non esiste un'altra automobile con la stessa con la mia stessa targa ci rende
+
+523
+00:58:37.359 --> 00:58:43.520
+univoci e come per una targa automobilistica eh magari quelle di un
+
+524
+00:58:43.520 --> 00:58:50.079
+tempo dove c'era il prefisso della provincia ehm il l'indicativo di chiamata che ci
+
+525
+00:58:50.079 --> 00:58:57.680
+viene attribuito non è una un una sigla causale ma ha un motivo ha una
+
+526
+00:58:57.680 --> 00:59:02.720
+struttura porta con dei significati ci dà delle informazioni
+
+527
+00:59:02.720 --> 00:59:08.400
+in special modo abbiamo una parte che si chiama prefisso che è quella che vedete in
+
+528
+00:59:08.400 --> 00:59:17.119
+rosso che nel nostro caso qui dell'esempio è IZ e che indica eh il
+
+529
+00:59:17.119 --> 00:59:22.319
+country lo stato di di attribuzione di
+
+530
+00:59:22.319 --> 00:59:30.920
+questo indicativo di radioamatore poi abbiamo un numero ogni ogni nazione eh lo gestisce
+
+531
+00:59:30.920 --> 00:59:37.280
+un po' a mondo suo nel caso italiano che è quello che ci interessa di più è attribuito su base territoriale su
+
+532
+00:59:37.280 --> 00:59:43.920
+colarea che è riferibile un po' al al codice d'avviamento postale dopo lo
+
+533
+00:59:43.920 --> 00:59:50.559
+vediamo nel dettaglio quindi cinque riguarda la Toscana quindi già da questi
+
+534
+00:59:50.559 --> 00:59:57.680
+da queste prime due informazioni il rosso e il verde io so che questo è un radiamatore italiano che sta in Toscana
+
+535
+00:59:57.680 --> 01:00:05.559
+e poi abbiamo una parte di suffisso che eh che da uno a tre o anche quattro
+
+536
+01:00:05.559 --> 01:00:11.760
+caratteri ma normalmente sono tre ehm che sono a seguire vengono attribuiti di
+
+537
+01:00:11.760 --> 01:00:18.640
+I di greca e a quello dopo viene di I z
+
+538
+01:00:18.640 --> 01:00:23.799
+XX sì z e a quello prima X e quindi va a
+
+539
+01:00:23.799 --> 01:00:32.520
+seguire come il numero alla coppia al banco al banco grastronomia va a seguire
+
+540
+01:00:32.520 --> 01:00:40.079
+e il primo è a AA il secondo A il terzo AC e via
+
+541
+01:00:40.079 --> 01:00:46.839
+quindi come vi dicevo questo indicativo di chiamata che è sicuramente una
+
+542
+01:00:46.839 --> 01:00:54.720
+domanda che verrà fatta con alcuni esempi di nominativi dicendovi questo è un nominativo di questa zona oppure
+
+543
+01:00:54.720 --> 01:01:00.680
+questo o non è un nominativo oppure questo nominativo qui è un francese un
+
+544
+01:01:00.680 --> 01:01:05.520
+tedesco o una barzelletta
+
+545
+01:01:05.799 --> 01:01:12.640
+ehm queste sono domande eh con un'altra possibilità di ess di essere
+
+546
+01:01:12.640 --> 01:01:19.400
+incontrate nel nel negli esami eh vi dicevo l'indicativo di chiamata quindi
+
+547
+01:01:19.400 --> 01:01:25.880
+il prefisso I è il prefisso per l'Italia inizio cioè tutto ciò che
+
+548
+01:01:25.880 --> 01:01:31.160
+inizia con i è Italia la parte di numero è attribuita sulla
+
+549
+01:01:31.160 --> 01:01:37.440
+base della colarea della zona e sono aree postali
+
+550
+01:01:37.440 --> 01:01:46.280
+eh come avete visto però non è che tutto inizia con i nel mio caso è I eh ma
+
+551
+01:01:46.280 --> 01:01:55.480
+altri come avete visto Paolo inizia con i5 eh avete visto eh IK probabilmente nel
+
+552
+01:01:55.480 --> 01:02:00.880
+corso di di queste eh serate
+
+553
+01:02:00.880 --> 01:02:07.799
+e questi sono vari prefissi ma tutti vedete iniziano con i che sono stati
+
+554
+01:02:07.799 --> 01:02:16.319
+attribuiti ai radioamatori attualmente vengono attribuiti i nominativi con IU perché questa varietà questa varianza di
+
+555
+01:02:16.319 --> 01:02:22.640
+prefissi e perché eh con il crescere dei numero di
+
+556
+01:02:22.640 --> 01:02:28.200
+radioamatori e soprattutto con la mancata riattribuzione di nominativi eh
+
+557
+01:02:28.200 --> 01:02:34.760
+ogni volta che viene rilasciato un nuovo nominativo che esiste un nuovo radioamatore eh si si continua a
+
+558
+01:02:34.760 --> 01:02:40.160
+attribuire andare a seguire una volta che sono state terminate le tutte le
+
+559
+01:02:40.160 --> 01:02:48.000
+opzioni i5 AC ABD AB eccetera eccetera eccetera quando siamo arrivati a ZZz è
+
+560
+01:02:48.000 --> 01:02:57.440
+stato introdotto i K i K5 a AA a Aab a AC e via a seguire e poi altri prefissi
+
+561
+01:02:57.440 --> 01:03:02.920
+dopo i K i Z dopo I z IU e dopo IU non lo so
+
+562
+01:03:02.920 --> 01:03:08.000
+inoltre eh questi prefissi testimoniano anche
+
+563
+01:03:08.000 --> 01:03:13.240
+una serie di variazioni normative che ci sono state in passato in particolare la
+
+564
+01:03:13.240 --> 01:03:19.319
+presenza di più tipi di autorizzazioni per radiamatori esistevano radiamatori A
+
+565
+01:03:19.319 --> 01:03:27.039
+e radioamatori B con prer programative diverse esami diversi e che adesso non
+
+566
+01:03:27.039 --> 01:03:35.079
+ci sono più e che sono stati tutti riuniti ma in una certa fase storica esisteva questa dualità non questa
+
+567
+01:03:35.079 --> 01:03:41.359
+diciamo eh doppio binario e i radiamatori speciali venivano battezzati
+
+568
+01:03:41.359 --> 01:03:47.520
+con IW all'inizio queste sono informazioni che vi possono
+
+569
+01:03:47.520 --> 01:03:54.480
+essere anche utili perché affacciandovi poi al mondo radioamatoriale incontrando altri radioamatori da questa sigla
+
+570
+01:03:54.480 --> 01:04:01.920
+potete capire un po' la loro età tra virgolette di di presenza nell'ambito
+
+571
+01:04:01.920 --> 01:04:07.039
+radioamatoriale e ma anche alcune specificità appunto un IV è una persona
+
+572
+01:04:07.039 --> 01:04:14.079
+che ha sostenuto tipicamente non sosteneva l'esame di telegrafia cosa che oggi non c'è più è il motivo per cui poi
+
+573
+01:04:14.079 --> 01:04:19.680
+queste due classi sono si sono riunite ma ci sono anche altri prefissi
+
+574
+01:04:19.680 --> 01:04:27.799
+in ambito nazionale eh ovvero quelli legati a mh diciamo caratteristiche
+
+575
+01:04:27.799 --> 01:04:34.200
+territoriali particolari tipo le le regioni a statuto speciale o regioni o
+
+576
+01:04:34.200 --> 01:04:42.720
+province a statuto speciale le isole hanno prefissi diversi gli
+
+577
+01:04:42.720 --> 01:04:50.599
+arcipelaghi italiani sono stati attribuiti prefissi diversi oppure prefissi dedicati a attività particolari
+
+578
+01:04:50.599 --> 01:04:57.279
+tipo le sezioni dei radioamatori hanno stazioni eh con il nominativo che inizia
+
+579
+01:04:57.279 --> 01:05:04.079
+con i IQ oppure nominativi speciali per i contest che sono una sorta di gara eh
+
+580
+01:05:04.079 --> 01:05:13.359
+che vengono svolte appunto dai radioamatori E quindi è un po' come avere così un numero speciale un un
+
+581
+01:05:13.359 --> 01:05:19.440
+indicativo speciale in genere molto più breve di di degli altri per far sì che
+
+582
+01:05:19.440 --> 01:05:26.240
+questo sia più efficiente per le comunicazioni
+
+583
+01:05:26.240 --> 01:05:34.559
+una nota importante è che nell'ambito delle comunicazioni il nominativo è quello che proprio ci evidenzia ci
+
+584
+01:05:34.559 --> 01:05:42.039
+ci caratterizza cioè il nominativo per il regolatore per diciamo il regolatore
+
+585
+01:05:42.039 --> 01:05:48.960
+sarebbe il ministero chiamiamolo così e per è quello che fa sì che ci
+
+586
+01:05:48.960 --> 01:05:54.559
+possa tra virgolette controllare cioè ehm il parallelo ritorna a quello
+
+587
+01:05:54.559 --> 01:06:01.760
+dell'automobile Ogni automobile ha una targa perché ogni automobile può essere sottoposta a un
+
+588
+01:06:01.760 --> 01:06:06.799
+controllo cioè se commette alcune infrazioni
+
+589
+01:06:06.799 --> 01:06:12.520
+oppure se me la rubano so che la mia automobile ha quella quella targa lì
+
+590
+01:06:12.520 --> 01:06:17.680
+quindi la identifica nello stesso modo noi le trasmissioni che facciamo si
+
+591
+01:06:17.680 --> 01:06:23.760
+identificano con il nostro nominativo e quindi noi lo dobbiamo dire il nominativo nel momento in cui
+
+592
+01:06:23.760 --> 01:06:29.440
+trasmettiamo perché altrimenti non siamo riconoscibili è semplicemente una voce è
+
+593
+01:06:29.440 --> 01:06:37.680
+come dire una punto blu eh senza targa c'è pieno di punte blu eh uguale la la
+
+594
+01:06:37.680 --> 01:06:43.319
+mia voce se non la caratterizzo dicendo io sono India Zulu 5 Delta India Yankee
+
+595
+01:06:43.319 --> 01:06:49.880
+nessuno eh diciamo può riconoscere risalire a chi è questo che sta parlando
+
+596
+01:06:49.880 --> 01:06:56.400
+adesso e nella legge c'è scritto che almeno ogni 10 minuti di trasmissione e
+
+597
+01:06:56.400 --> 01:07:03.480
+all'inizio e alla fine di ogni trasmissione il radioamatore dice il proprio indicativo proprio per far
+
+598
+01:07:03.480 --> 01:07:09.559
+capire parla Londra ha parlato Londra no eh in una forma ma perché quello è
+
+599
+01:07:09.559 --> 01:07:17.960
+l'unico modo per cui io ho il modo di capire chi è questa emissione che cos'è chi è in realtà che sia ripetuta
+
+600
+01:07:17.960 --> 01:07:24.240
+all'inizio e alla fine della trasmissione non è sempre detto perché nell'ambito di una trasmissione
+
+601
+01:07:24.240 --> 01:07:30.960
+estremamente breve eh diventa una cosa improponibile no
+
+602
+01:07:30.960 --> 01:07:38.599
+immaginiamo che uno mi fa una domanda io devo rispondere sì dovrei dire India Zulu 5 Delta India la risposta è sì da
+
+603
+01:07:38.599 --> 01:07:44.039
+India Zulu 5 Delta India uno dice "Ma questo che corso ha fatto?"
+
+604
+01:07:44.039 --> 01:07:50.640
+non il mio diciamo così ehm bene
+
+605
+01:07:50.640 --> 01:07:58.520
+altre cosa diversa invece che nell'ambito di una diciamo così di una trasmissione in
+
+606
+01:07:58.520 --> 01:08:04.400
+cui uno impegna per alcuni minuti la frequenza perché sta dibattendo parlando
+
+607
+01:08:04.400 --> 01:08:12.119
+argomentando sulla costruzione della propria antenna è giusto che anche alla fine della trasmissione dica ha parlato
+
+608
+01:08:12.119 --> 01:08:17.120
+India Zulu 5 Delta India y perché qualcuno si potrebbe essere sintonizzato
+
+609
+01:08:17.120 --> 01:08:24.600
+nel frattempo e non aver sentito l'inizio di chi era che stava parlando l'inizio e la fine danno un po' il
+
+610
+01:08:24.600 --> 01:08:30.560
+passamano anche delle comunicazioni di solito in queste situazioni qui uno dice
+
+611
+01:08:30.560 --> 01:08:35.920
+a chi rimette la comunicazione e chi è che sta trasmettendo cioè dico India
+
+612
+01:08:35.920 --> 01:08:41.480
+Zulu 5 India Oscar Victor da India Zulu 5 Delta India
+
+613
+01:08:41.480 --> 01:08:48.838
+ye ho parlato chi è e chi diciamo chi c'è della parola e chi è invitato a
+
+614
+01:08:48.839 --> 01:08:56.238
+parlare e o a trasmettere come vi dicevo queste sono i le
+
+615
+01:08:56.239 --> 01:09:02.798
+attribuzioni di quel numero della colare o di alcuni prefissi che vedete appunto
+
+616
+01:09:02.799 --> 01:09:10.359
+relativo per esempio alle le regioni a statuto speciale o province autonome e
+
+617
+01:09:10.359 --> 01:09:19.238
+hanno tutti dei dei prefissi dedicati tipo i V3 X1 IS0 i
+
+618
+01:09:19.239 --> 01:09:25.278
+T9 e gli altri se fate un po' mente locale su quelli
+
+619
+01:09:25.279 --> 01:09:30.679
+che sono i codici d'avviamento postali ci cascate al
+
+620
+01:09:30.679 --> 01:09:36.838
+99% dentro quindi eh appunto la Puglia è la zona
+
+621
+01:09:36.839 --> 01:09:42.080
+7 eh tutta questa zona quaggiù che
+
+622
+01:09:42.080 --> 01:09:48.080
+sia Campania e Calabria sono otto eccetera eccetera eccetera
+
+623
+01:09:48.080 --> 01:09:55.760
+eh la domanda è: "Ma io devo sapere tutte queste cose qui e mi devo ricordare tutte queste cose qui?"
+
+624
+01:09:55.760 --> 01:10:01.760
+Tendenzialmente la risposta è ni ovvero è una cosa che con il tempo diventa del
+
+625
+01:10:01.760 --> 01:10:06.960
+tutto automatica perché nessuno di voi si è messo a studiare tutte le
+
+626
+01:10:06.960 --> 01:10:13.800
+provin le targhe delle province però con il tempo piano piano ha imparato che GR
+
+627
+01:10:13.800 --> 01:10:19.600
+è Grosseto e che PV è Pavia perché con l'esperienza ha avuto modo di andare
+
+628
+01:10:19.600 --> 01:10:26.480
+qualche volta al mare e qualche volta a Pavia chi non va a Pavia di
+
+629
+01:10:28.400 --> 01:10:36.679
+noi ecco qui è un'altra forma di riassunto e dove appunto vi vi vi vi può
+
+630
+01:10:36.679 --> 01:10:42.880
+aiutare a capire chi è di dove quindi quella stazione lì già semplicemente dal
+
+631
+01:10:42.880 --> 01:10:51.360
+proprio prefisso eh si può capire da di di di chi è da dove trasmette
+
+632
+01:10:51.360 --> 01:10:57.199
+tendenzialmente perché poi non è detto che utilizzi il nominativo da un'altra
+
+633
+01:10:57.199 --> 01:11:05.320
+parte ma si sa che quello lì è un toscano è un eh siciliano
+
+634
+01:11:08.440 --> 01:11:14.800
+la profusione di prefissi che nel momento in cui il regolatore lo il
+
+635
+01:11:14.800 --> 01:11:23.320
+ministero ai tempi in cui varò queste modifiche attribuendo perché una volta erano tutti Italia 1
+
+636
+01:11:23.320 --> 01:11:29.239
+ehm inizialmente i primi radioamatori erano tutti Italia 1 solo con la
+
+637
+01:11:29.239 --> 01:11:36.159
+l'introduzione di una modifica di carattere postale eh perché una volta
+
+638
+01:11:36.159 --> 01:11:44.199
+appunto erano poste e telegrafi era il Ministero delle Poste e
+
+639
+01:11:44.199 --> 01:11:49.719
+Telecomunicazioni e che governava questo argomento lo fece
+
+640
+01:11:49.719 --> 01:11:58.880
+ricadere appunto ridividendo i i nominativi con quella formula di colarea e diciamo attribuì
+
+641
+01:11:58.880 --> 01:12:07.080
+anche a tutte le le gli arcipelaghe e isole un prefisso a sé
+
+642
+01:12:07.080 --> 01:12:12.880
+non è detto che in futuro questo non rimanga così anzi ci sono buone
+
+643
+01:12:12.880 --> 01:12:18.239
+probabilità che questo vada cambiando perché capite bene che di radiamatori
+
+644
+01:12:18.239 --> 01:12:23.360
+con i i A5 ovvero che abitano all'Elba
+
+645
+01:12:23.360 --> 01:12:28.800
+ce ne siano ben pochi mentre e ci potrebbe servire questa a
+
+646
+01:12:28.800 --> 01:12:34.400
+per identificare altri tipi di di attribuire altre licenze altre
+
+647
+01:12:34.400 --> 01:12:40.880
+autorizzazioni comunque questo ve l'ho elencato per
+
+648
+01:12:40.880 --> 01:12:46.639
+dovere di di eh insomma di informazione
+
+649
+01:12:46.639 --> 01:12:54.360
+di carattere di base però non succede che ci sia una
+
+650
+01:12:55.960 --> 01:13:06.040
+domanda dell'isola della Maddalena di in Sardegna che è IM
+
+651
+01:13:06.080 --> 01:13:12.120
+questa eh situazione qui quindi come è formato un indicativo di chiamata detto
+
+652
+01:13:12.120 --> 01:13:19.480
+anche nominativo detto anche call sign in inglese e detto indicativo di
+
+653
+01:13:19.480 --> 01:13:26.810
+chiamata dalla nostra legge eh chiaramente ha una forma
+
+654
+01:13:26.810 --> 01:13:34.199
+[Musica] che ricade sotto una regola internazionale e come l'alfab Alfabeto
+
+655
+01:13:34.199 --> 01:13:41.360
+fonetico vi dicevo è uno standard internazionale anche il nominativo stesso come fatto il
+
+656
+01:13:41.360 --> 01:13:46.760
+nominativo è una regola internazionale e quella i che era all'inizio non è che ce
+
+657
+01:13:46.760 --> 01:13:52.520
+la siamo presi dicendo "Vabbè noi da domani incominciamo a dire che è i no?"
+
+658
+01:13:52.520 --> 01:13:58.840
+c'è uno una regolamentazione a livello internazionale con un'attribuzione di
+
+659
+01:13:58.840 --> 01:14:04.400
+prefissi eh in ambito ITU e quindi in ambito di
+
+660
+01:14:04.400 --> 01:14:11.920
+telecomunicazioni internazionali e si decide che i prefissi per i radiatori
+
+661
+01:14:11.920 --> 01:14:19.840
+della Francia sono questi eh e si parla solo di prefisso cioè l'inizio è quello
+
+662
+01:14:19.840 --> 01:14:25.520
+poi ci sono delle regole che ti dicono che il nominativo è forte col prefisso
+
+663
+01:14:25.520 --> 01:14:31.440
+con un numero e con un suffisso che come viene poi svolto questo
+
+664
+01:14:31.440 --> 01:14:37.159
+compito ricade su ogni singolo stato che decide come
+
+665
+01:14:37.159 --> 01:14:42.800
+gestire quella costruzione lì però rispettando le regole che ci siamo dati
+
+666
+01:14:42.800 --> 01:14:49.639
+in ambito internazionale per cui vedete vi ho fatto una lunga lista
+
+667
+01:14:49.639 --> 01:14:55.400
+di indicativi di chiamati in cui si evidenzia quali sono i prefissi il
+
+668
+01:14:55.400 --> 01:15:02.520
+numero e il suffisso e ad ognuno di questi corrisponde un
+
+669
+01:15:02.520 --> 01:15:08.920
+altro stato che non è l'Italia che avete visto essere solo quella che inizia con i
+
+670
+01:15:08.920 --> 01:15:15.760
+ehm per esempio questo ora ve le ve le dico per carattere di curiosità non è
+
+671
+01:15:15.760 --> 01:15:21.880
+detto che qualcuno di questo possa essere anche una domanda fatta all'esame però la
+
+672
+01:15:21.880 --> 01:15:27.000
+vedo diciamo un po' come [Musica]
+
+673
+01:15:27.000 --> 01:15:35.440
+ehm un po' come quella alla 10 alla-3 ecco m è una domanda un po'
+
+674
+01:15:35.440 --> 01:15:42.159
+eh fatta più per l'inganno che non per la conoscenza ma allo stesso momento se vi dovessero domandare "Ma un
+
+675
+01:15:42.159 --> 01:15:49.600
+radioamatore quando si presenta all'esame queste cose le deve sapere?" Sì la domanda però poi successiva "Ma è
+
+676
+01:15:49.600 --> 01:15:55.320
+facile che venga domandata?" No però io ve la spiego perché così voi avete modo
+
+677
+01:15:55.320 --> 01:16:01.239
+di non trovarvi senza bussola nel momento in cui vi ritroverete a essere
+
+678
+01:16:01.239 --> 01:16:06.800
+nella nel mare del radioamatori quindi questo per esempio con la F che inizia
+
+679
+01:16:06.800 --> 01:16:15.280
+così alcuni sono false friends questo però invece è vero è un francese F1 NSR
+
+680
+01:16:15.280 --> 01:16:23.639
+in Francia questo numero qui non vuol dire niente non ci dà un'informazione se è di Parigi o di Marsiglia eh non aiuta
+
+681
+01:16:23.639 --> 01:16:31.400
+non hanno con l'area uguale in questa nazione qui dove è di da da a
+
+682
+01:16:31.400 --> 01:16:38.520
+dlchi che cosa vuol dire da dl che se questo nominativo qui fosse delta
+
+683
+01:16:38.520 --> 01:16:44.800
+lima 4 India alfa sarebbe un tedesco lo stesso inizia con la D ma non tutto ciò
+
+684
+01:16:44.800 --> 01:16:52.159
+che inizia con la D è un tedesco da d a dl ora vi poi faccio vedere esiste la
+
+685
+01:16:52.159 --> 01:16:57.600
+Bibbia di dove tutto ciò uno non è che lo deve sapere ma può andare a attingere
+
+686
+01:16:57.600 --> 01:17:06.880
+l'informazione quindi ogni volta che uno nella vita si troverà con un nuovo indicativo di cui ignora la la l'origine
+
+687
+01:17:06.880 --> 01:17:12.560
+andando a vedere in un determinato posto saprà che tutto ciò che inizia per esempio
+
+688
+01:17:12.560 --> 01:17:20.480
+con e A e B e C e D e E f e G e
+
+689
+01:17:20.480 --> 01:17:26.719
+H tutto ciò che inizia con questo è uno spagnolo gli spagnoli come noi
+
+690
+01:17:26.719 --> 01:17:32.679
+utilizzano le colare e questo qui in particolare è un radiamatore delle canarie
+
+691
+01:17:32.679 --> 01:17:40.480
+questo per esempio S5 è la parte di prefisso s5 quindi non sono
+
+692
+01:17:40.480 --> 01:17:46.719
+semplicemente solo delle delle lettere possono essere anche dei
+
+693
+01:17:46.719 --> 01:17:53.000
+numeri ma è da capire che c'è un numero che è il numero e c'è la parte prima che
+
+694
+01:17:53.000 --> 01:17:59.800
+è questo CR5 indica la Slovenia vado veloce perché è solo per farvi
+
+695
+01:17:59.800 --> 01:18:07.560
+capire il trucco questo è Oster Rage ovvero l'Austria questo è M ma potrebbe
+
+696
+01:18:07.560 --> 01:18:12.600
+essere anche G potrebbe essere anche
+
+697
+01:18:12.600 --> 01:18:20.440
+ehm Ce n'è pure un'altra 2e questa è l'Inghilterra o meglio il Regno
+
+698
+01:18:20.440 --> 01:18:26.480
+Unito o meglio questa è l'Inghilterra però la M è attribuita al
+
+699
+01:18:26.480 --> 01:18:31.840
+al Regno Unito eh questa è una
+
+700
+01:18:31.840 --> 01:18:39.280
+un canadese questo è un americano anche questo è un americano questo è un
+
+701
+01:18:39.280 --> 01:18:46.120
+argentino dalla fine del mondo daia questo è un
+
+702
+01:18:46.120 --> 01:18:51.760
+radiamatore della del Qatar questo è un radiamatore
+
+703
+01:18:51.760 --> 01:18:59.080
+giapponese e questo è un altro radioamatore americano un altro indicativo americano che come vedete
+
+704
+01:18:59.080 --> 01:19:04.840
+assomiglia molto a me perché in realtà sono io
+
+705
+01:19:04.840 --> 01:19:11.159
+e perché perché negli Stati Uniti è possibile richiedere un dominativo
+
+706
+01:19:11.159 --> 01:19:16.520
+specifico cosa che non è possibile fare in Italia eh negli Stati Uniti è
+
+707
+01:19:16.520 --> 01:19:24.960
+possibile una volta sostenuto l'esame e attribuito un nominativo chiedere se è disponibile un certo nominativo
+
+708
+01:19:24.960 --> 01:19:30.040
+eh e quindi nel nel mio caso per sfizio
+
+709
+01:19:30.040 --> 01:19:39.679
+per prova mi sono sottoposto agli esami americani e poi dopo ho scelto un nominativo che assomigliasse al mio
+
+710
+01:19:40.320 --> 01:19:45.880
+e bene queste importante è per la prossima
+
+711
+01:19:45.880 --> 01:19:52.679
+volta che su cartina muta possiate scrivere tutti i prefissi mi raccomando
+
+712
+01:19:52.679 --> 01:19:58.040
+ve la farò vedere per 30 secondi e poi la dovete imparare perché d'altronde se
+
+713
+01:19:58.040 --> 01:20:04.040
+volete fare dagli amatori dovete dare dimostrazione di essere eh ben dotati di
+
+714
+01:20:04.040 --> 01:20:10.080
+queste qualità scherzi a parte eh queste
+
+715
+01:20:10.080 --> 01:20:16.239
+ehm cartine che ho messo nella presentazione vi aiutano a non perdervi
+
+716
+01:20:16.239 --> 01:20:22.320
+cioè vi aiutano a anche in futuro andare a ricercare una fonte per dire "Ma
+
+717
+01:20:22.320 --> 01:20:29.000
+questo qui ma bada guarda." Ecco vedi ecco vedi lx e Lussemburgo ma guarda
+
+718
+01:20:29.000 --> 01:20:34.639
+effettivamente guarda vedi vedi vedi CT e il Portogallo oppure eccetera uno
+
+719
+01:20:34.639 --> 01:20:41.040
+comincia in genere a curiosare tra i vicini per poi andare a cercare i posti più lontani al mondo per dire va da là
+
+720
+01:20:41.040 --> 01:20:48.920
+ZL proprio dall'altra parte dove c'è la Nuova Zelanda ogni cosa ogni nazione ha
+
+721
+01:20:48.920 --> 01:20:56.000
+il proprio prefisso radioamatoriale come ogni nazione ha il proprio prefisso nell'aviazione cioè
+
+722
+01:20:56.000 --> 01:21:02.280
+quando vedete un aereo ogni aereo ha una sigla e quella sigla ci dice di dov'è e
+
+723
+01:21:02.280 --> 01:21:09.280
+ess assomigliano molto a quelle che sono le nostre eh ai nostri prefissi
+
+724
+01:21:09.520 --> 01:21:17.760
+ehm e alcuni di questi hanno più cioè hanno più preflissi eh avete
+
+725
+01:21:17.760 --> 01:21:24.080
+visto prima vi ho detto eh torno indietro K3 Lima Radio è un americano ma
+
+726
+01:21:24.080 --> 01:21:30.040
+anche W7 BNM è un americano perché agli americani
+
+727
+01:21:30.040 --> 01:21:38.400
+sono stati attribuiti più prefissi come del resto anche a francesi come agli inglesi come a tanti altri eh
+
+728
+01:21:38.400 --> 01:21:47.280
+hanno più prefissi a disposizione non l'Italia che ha tutta la I e basta ma è sufficiente non Eh eh
+
+729
+01:21:47.280 --> 01:21:53.120
+come vedete ci sono anche i i piccoli stratelo ci interessano perché fanno un
+
+730
+01:21:53.120 --> 01:22:01.320
+po' fanno un po' strano no eh tipo la città del Vaticano oppure San Marino
+
+731
+01:22:01.320 --> 01:22:10.080
+Monaco principato di Monaco intendo ehm questo 1 Alfa0 sarebbe il trovano
+
+732
+01:22:10.080 --> 01:22:17.400
+militare Ordine di Malta perché ci sono anche eh riconosciuti dei country prima ve ho
+
+733
+01:22:17.400 --> 01:22:23.920
+ve li ho detti così perché in realtà alcuni di questi non diciamo non
+
+734
+01:22:23.920 --> 01:22:29.320
+ricadono propriamente in una definizione di stato no però hanno una propria
+
+735
+01:22:29.320 --> 01:22:34.360
+autonomia ehm da un punto di vista
+
+736
+01:22:34.360 --> 01:22:41.280
+normativo quindi la particolarità appunto di di Roma che ci sono gli italiani c'è il Vaticano ma c'è anche lo
+
+737
+01:22:41.280 --> 01:22:48.239
+Smom eh sovrano militare Ordine di Malta eh come per esempio il fatto che la
+
+738
+01:22:48.239 --> 01:22:53.880
+Corsica non sia questo eh diciamo per il
+
+739
+01:22:53.880 --> 01:22:59.080
+se lo dico fo contento un sacco di Corsica ma la Corsica non sia Francia eh
+
+740
+01:22:59.080 --> 01:23:07.360
+non sia con la F davanti ma è TK è il prefisso proprio della della Corsica eh
+
+741
+01:23:07.360 --> 01:23:14.120
+come così ne esistono altre di quest ehm prefissi che caratterizzano un
+
+742
+01:23:14.120 --> 01:23:19.360
+aspetto di autonomia territoriale che siano distanti dalla eh magari dallo
+
+743
+01:23:19.360 --> 01:23:27.679
+stato a cui fanno riferimento o che godano di un carattere di una certa diciamo non indipendenza insomma
+
+744
+01:23:27.679 --> 01:23:32.800
+di autonom esatto
+
+745
+01:23:32.800 --> 01:23:38.880
+queste cartine ci possono vi possono essere utili per andare a curiosare e per andare a orientarvi in
+
+746
+01:23:38.880 --> 01:23:45.520
+futuro magari quando collegherete che vi posso dire papa Yankee 2 e Charlie Lima
+
+747
+01:23:45.520 --> 01:23:52.960
+e dice "Ma dov'è Papa Yenke papa Yenke è un brasiliano." Ma come vi dicevo esiste un
+
+748
+01:23:52.960 --> 01:23:59.800
+posto dove tutto viene elencato no e quindi nel momento in cui vi trovate un
+
+749
+01:23:59.800 --> 01:24:06.320
+prefisso che non sapete di dov'è andate a cercarlo dove vi
+
+750
+01:24:06.320 --> 01:24:16.639
+dirò ci sono i riferimenti e uno vede che da a K tutto ciò che inizia con Aa A
+
+751
+01:24:16.639 --> 01:24:23.800
+a D A F G A K è qualcosa che appartiene agli Stati Uniti d'America come per
+
+752
+01:24:23.800 --> 01:24:31.120
+esempio la Francia che inizia con F ma se è FG è Guadalupa se è eh che posso
+
+753
+01:24:31.120 --> 01:24:38.960
+dire FM e Martinica sono posti ben distanti dalla dalla Francia compresa FO
+
+754
+01:24:38.960 --> 01:24:44.040
+che è la Polinesia che è dall'altra parte del mondo però appartiene comunque
+
+755
+01:24:44.040 --> 01:24:51.080
+territorialmente alla Francia e e che questo prefisso ci dà
+
+756
+01:24:51.080 --> 01:24:56.840
+un'informazione in più riguardo a dov'è questo radioamatore
+
+757
+01:24:57.480 --> 01:25:03.360
+ehm quindi ritorniamo alla domanda che vi può sorgere ma io devo sapere tutti
+
+758
+01:25:03.360 --> 01:25:13.040
+questi che poi questa è semplicemente una piccola parte dello schermo cattur enorme m lo dovete sapere
+
+759
+01:25:13.040 --> 01:25:18.239
+tutto a memoria nella vostra vita di radiamatore no non lo sa nessuno e così
+
+760
+01:25:18.239 --> 01:25:23.840
+ma vi garantisco che col con l'esercizio e con il tempo uno di volta in volta
+
+761
+01:25:23.840 --> 01:25:30.199
+quando vede una targa di una certa automobile poi impara che quelle targhe lì sono olandesi ma non è che gli è
+
+762
+01:25:30.199 --> 01:25:35.560
+stato dato un'informazione spiegandogli com'erano fatte le targhe olandesi nel
+
+763
+01:25:35.560 --> 01:25:42.920
+corso di della scuola guida però con il tempo poi diventa facile capire eh
+
+764
+01:25:42.920 --> 01:25:51.159
+insomma ricordare colluso una volta uno ha collegato un radianatore dalla Corsica la volta dopo se ne collega un
+
+765
+01:25:51.159 --> 01:25:56.519
+altro con il nominativo simile se lo ricorda che è
+
+766
+01:25:56.960 --> 01:26:04.239
+coro bene fin qui ci siete tutti vediamo un
+
+767
+01:26:04.239 --> 01:26:09.520
+po' ok
+
+768
+01:26:09.520 --> 01:26:17.080
+momento mi mi date un feedback che ancora sono visibile
+
+769
+01:26:17.080 --> 01:26:23.760
+perfetto sei sempre bellissimo sì ancora dimmi poi dove devo mandare i Ci sei
+
+770
+01:26:23.760 --> 01:26:30.400
+ancora magari con meno voce ma ci sei ancora va bene aspetta no probabilmente se
+
+771
+01:26:30.400 --> 01:26:37.480
+qualcuno chiude il video forse il flusso dei dati viene meglio
+
+772
+01:26:37.480 --> 01:26:44.159
+ok chi è che non è Perché a volte sei a scatti eh Silvio a volte sei a scatti sì
+
+773
+01:26:44.159 --> 01:26:50.520
+è quello che leggevo adesso che mi diceva dalla regia eh facciamo così dato
+
+774
+01:26:50.520 --> 01:26:55.719
+che tanto mi avete visto magari ritorno poi dopo e probabilmente così con il
+
+775
+01:26:55.719 --> 01:27:02.400
+solo audio può andar meglio e me lo direte continuo allora un
+
+776
+01:27:02.400 --> 01:27:09.679
+altro e qui stasera è la serata delle sigle eh ma cosa di più idoneo si può
+
+777
+01:27:09.679 --> 01:27:15.040
+adattare alla vita di un radioamatore se non le abbreviazioni telegrafiche cavolo
+
+778
+01:27:15.040 --> 01:27:23.400
+le abbiamo fatte noi no nel senso ehm bene la dote appunto di essere
+
+779
+01:27:23.400 --> 01:27:29.119
+abbreviazioni ed essere telegrafiche è quasi una ridondanza no
+
+780
+01:27:29.119 --> 01:27:35.800
+perché la dote che attribuiamo alla all'aggettivo telegrafico è proprio quella cioè di essere estremamente
+
+781
+01:27:35.800 --> 01:27:45.040
+veloce e quindi un'abbreviazione telegrafica è un'elevazione alla potenza di potremmo dire eh con con le domande
+
+782
+01:27:45.040 --> 01:27:52.840
+di di Lucia eh e quindi eh per ricordarvi che questa
+
+783
+01:27:52.840 --> 01:27:58.119
+parte qui e poi vedete nelle presentazioni ho scritto tema d'esame eh
+
+784
+01:27:58.119 --> 01:28:03.960
+è proprio quello che vi viene chiesto di sapere cioè questo è scritto nella legge
+
+785
+01:28:03.960 --> 01:28:11.080
+questo lo dovete sapere eh ma non è l'unica cosa che utilizziamo
+
+786
+01:28:11.080 --> 01:28:16.560
+noi radioamatori e che vi dico io vi incontrerete nel corso del vostra
+
+787
+01:28:16.560 --> 01:28:21.920
+attività radioamatoriale non non è sufficiente che voi sappiate queste eh
+
+788
+01:28:21.920 --> 01:28:28.440
+ne imparerete di altre nel momento in cui via andrete a fare attività
+
+789
+01:28:28.440 --> 01:28:34.040
+perché è abbastanza di uso comune anzi esiste una lunga lista di abbreviazioni
+
+790
+01:28:34.040 --> 01:28:40.199
+telegrafiche però alcune sono
+
+791
+01:28:40.199 --> 01:28:46.520
+eh diciamo è scritto nero su bianco che queste sono da sapere e quindi ve le
+
+792
+01:28:46.520 --> 01:28:51.679
+possono domandare nell'esame e quindi vi dico vi saranno domandate
+
+793
+01:28:51.679 --> 01:28:59.600
+e cosa diversa che magari ora ve le faccio vedere ne esistono ne esistono ne
+
+794
+01:28:59.600 --> 01:29:06.960
+esistono a iOSA di abbreviazioni telegrafiche che nemmeno tutte queste
+
+795
+01:29:06.960 --> 01:29:12.400
+sono patrimonio di ogni radioamatore però con il tempo tante di queste
+
+796
+01:29:12.400 --> 01:29:18.360
+diventano di uso assai comune e anzi alcune di queste le incontrerete e vi
+
+797
+01:29:18.360 --> 01:29:25.280
+direte "Ma che cacchio vuol di' quello che dice di X che deve che è che non so è una sorta di
+
+798
+01:29:25.280 --> 01:29:33.639
+che che ha questo con DX va a destra va eh invece capirete che sta chiamando uno
+
+799
+01:29:33.639 --> 01:29:41.360
+fa CQ DX chiama a lunga distanza sta cercando un collegamento lontano un DX
+
+800
+01:29:41.360 --> 01:29:48.520
+poi dopo diventano delle forme anche gergali di di che fanno parte
+
+801
+01:29:48.520 --> 01:29:55.040
+della eh del del dei colloqui dei radioamatori e
+
+802
+01:29:55.040 --> 01:30:00.719
+quindi una serie di abbreviazioni telegrafiche che uno si le incontra
+
+803
+01:30:00.719 --> 01:30:09.119
+nella propria vita anche fuori dal microfono ehm bene queste qui eh non ve le non ve
+
+804
+01:30:09.119 --> 01:30:16.400
+le sto a spiegare tutte anche perché alcune cioè che vi devo spiegare 3x vuol dire ricevitore è un'abbreviazione per
+
+805
+01:30:16.400 --> 01:30:21.440
+dire ricevitore ma se prendete un
+
+806
+01:30:21.440 --> 01:30:27.199
+ragazzino o se vi siete trovati a scrivere qualcosa con gli SMS anche voi
+
+807
+01:30:27.199 --> 01:30:34.159
+avrete utilizzato alcune abbreviazioni ecco alcune di quelle sono abbreviazioni
+
+808
+01:30:34.159 --> 01:30:40.679
+telegrafiche alcune di quelle provengono dal nostro mondo o comunque sia capite bene l'uso che ne viene fatta è inutile
+
+809
+01:30:40.679 --> 01:30:46.960
+che io stia a scrivere ricevitore quando posso scrivere RX perché RX vuol dire
+
+810
+01:30:46.960 --> 01:30:53.760
+ricevitore come TX vuol dire trasmettitore quindi RTX che cosa vorrà
+
+811
+01:30:53.760 --> 01:31:00.880
+dire rice trasmettitore ma quell RTX lo trovate nella lista successiva che non è
+
+812
+01:31:00.880 --> 01:31:05.960
+quella che vi chiederanno ma che è probabilmente quando andrete a comprare
+
+813
+01:31:05.960 --> 01:31:11.840
+il vostro primo RTX e chi è questo RTX è un
+
+814
+01:31:11.840 --> 01:31:17.920
+ricrasmettitore ehm alcune di queste sono eh
+
+815
+01:31:17.920 --> 01:31:23.159
+propriamente eh arrivo eh Marco un attimo solo alcune
+
+816
+01:31:23.159 --> 01:31:28.280
+di queste eh sono
+
+817
+01:31:28.280 --> 01:31:35.040
+utilizzate o utilizzabili prevalentemente in telegrafia cioè o in
+
+818
+01:31:35.040 --> 01:31:43.679
+un ambito telegrafico o in un o in un ambito diciamo digitale perché m mi
+
+819
+01:31:43.679 --> 01:31:52.119
+potrete dire quand'è che utilizzeremo la telegrafia forse qualcuno non lo utilizzerà mai ma questi messaggi le
+
+820
+01:31:52.119 --> 01:31:57.920
+troverete anche nelle più avanzate tecnologie di largo uso in carattere
+
+821
+01:31:57.920 --> 01:32:03.080
+digitale dai radioamatori perché queste abbreviazioni servono è come vi ripeto
+
+822
+01:32:03.080 --> 01:32:10.080
+andare a scrivere eh gli SMS e poi uno finisce per abbreviare no
+
+823
+01:32:10.080 --> 01:32:19.639
+per usare delle abbreviazioni telegrafiche queste ehm sono CQ che è la chiamata all'inizio
+
+824
+01:32:19.639 --> 01:32:26.840
+di una ehm situazione in cui un radiamatore si mette su una frequenza e dice "Chiamo"
+
+825
+01:32:26.840 --> 01:32:32.440
+vediamo se qualcuno mi risponde non non dirà chiamo chiamo c'è nessuno
+
+826
+01:32:32.440 --> 01:32:40.159
+particella di sodio mi ascolti no la farà CQ CQ o CQ CQ chiama India Zulu 5
+
+827
+01:32:40.159 --> 01:32:46.199
+Delta India eh quindi questo CQ è proprio quella chiamata
+
+828
+01:32:46.199 --> 01:32:55.880
+generale eh altre sono vedetele eh altre sono ehm diciamo
+
+829
+01:32:55.880 --> 01:33:01.199
+allitterazioni del youror vostro no tuo
+
+830
+01:33:01.199 --> 01:33:09.119
+your eh CQ allo stesso modo è una un
+
+831
+01:33:09.119 --> 01:33:14.560
+come dire un riportare un suono di una parola inglese o più parole in inglese
+
+832
+01:33:14.560 --> 01:33:22.040
+in una sigla tipo for B4 diventa B4 prima e CQ
+
+833
+01:33:22.040 --> 01:33:27.880
+è io cerco te i seek ti cerco e diventa
+
+834
+01:33:27.880 --> 01:33:35.040
+CQ eh come abbreviazione telegrafica e è anche un ricordo al
+
+835
+01:33:35.040 --> 01:33:42.719
+fatto che nelle comunicazioni di radioamatori sono nate prima è nata prima la telegrafia quindi queste cose
+
+836
+01:33:42.719 --> 01:33:49.560
+qui sono una sorta di DNA di base di cui poi si sono costruite anche altre
+
+837
+01:33:49.560 --> 01:33:55.679
+modalità di trasmissione ma è tornato a essere cioè una volta che uno usava RX
+
+838
+01:33:55.679 --> 01:34:00.840
+in telegrafia invece di scrivere ricevitore o dibattere ricevitore diceva
+
+839
+01:34:00.840 --> 01:34:09.280
+RX alla fine ci siamo trovati anche in fonia a dire il mio RX è questo ecco
+
+840
+01:34:09.280 --> 01:34:15.520
+e quindi a utilizzare queste sigle queste abbreviazioni anche in un ambito che non
+
+841
+01:34:15.520 --> 01:34:20.560
+è la telegrafia pur essendo abbreviazioni telegrafiche eh oppure a
+
+842
+01:34:20.560 --> 01:34:26.800
+trovarle scritte che ne so una cartolina quelle cartoline QSL che è il terzo
+
+843
+01:34:26.800 --> 01:34:32.000
+argomento di stasera eh sono piene di queste abbreviazioni
+
+844
+01:34:32.000 --> 01:34:38.159
+perché invece di dire "Ti confermo la nostra eh contatto" ma dice
+
+845
+01:34:38.159 --> 01:34:45.480
+CFM CFM our QSO insomma in una sorta di di
+
+846
+01:34:45.480 --> 01:34:52.159
+lingua ostrogota che però per noi radioamatori pur essenda tutta piena di abbreviazioni ci
+
+847
+01:34:52.159 --> 01:34:58.880
+risulta chiara eh quindi vedete qui una serie
+
+848
+01:34:58.880 --> 01:35:05.040
+abbastanza corposa di abbreviazioni che vi ripeto non dovete sapere per l'esame
+
+849
+01:35:05.040 --> 01:35:13.239
+ma che dovete sapere che esistono e che sapete che qui le potete trovare nel momento in cui vi vedrete una
+
+850
+01:35:13.239 --> 01:35:20.920
+comunicazione come questa e qui siamo passati dall'estremamente antico
+
+851
+01:35:20.920 --> 01:35:26.360
+quindi dal dalla telegrafia dagli albori delle
+
+852
+01:35:26.360 --> 01:35:32.000
+comunicazioni tra gli agli amatori in cui era tutto demandato alla telegrafia
+
+853
+01:35:32.000 --> 01:35:38.280
+appunto il motivo era essenzialmente tecnologico perché non si riusciva
+
+854
+01:35:38.280 --> 01:35:43.520
+ancora a fare altro o l'efficienza non era sufficiente comunque la telegrafia
+
+855
+01:35:43.520 --> 01:35:49.480
+nasce all'inizio come la cosa più semplice c'è o non c'è diciamo una
+
+856
+01:35:49.480 --> 01:35:58.480
+forma binaria del nostro segnale che è ben più facile da da gestire che non eh
+
+857
+01:35:58.480 --> 01:36:04.480
+ecco che che non una trasmissione più articolata come può essere una voce o il
+
+858
+01:36:04.480 --> 01:36:12.080
+video eccetera eccetera eh però quelle modalità utilizzate allora continuano ad
+
+859
+01:36:12.080 --> 01:36:18.239
+essere a trasmigrare nelle varie epoche nei vari sistemi di modulazione per
+
+860
+01:36:18.239 --> 01:36:26.239
+arrivare anche a modelli a moderni ehm metodi di comunicazione digitale eh
+
+861
+01:36:26.239 --> 01:36:34.080
+dove questa è una trasmissione credo un PSK 31 se non sbaglio non lo vedo ma
+
+862
+01:36:34.080 --> 01:36:41.000
+comunque eh in cui questo è quello che dice questo qui questo signore qui con
+
+863
+01:36:41.000 --> 01:36:46.600
+questo segnale qui durante la sua trasmissione radio dice queste cose e
+
+864
+01:36:46.600 --> 01:36:55.679
+capite tu for the FB questo se uno non ha un dizionario
+
+865
+01:36:55.679 --> 01:37:03.280
+non capisce che dice invece dice grazie per il nostro bel QSO BSK31 sui 20 m
+
+866
+01:37:03.280 --> 01:37:09.840
+buona fortuna good luck e buoni DX buoni collegamenti a lunga distanza jeffrey le
+
+867
+01:37:09.840 --> 01:37:17.119
+informazioni per la cartolina le trovi su qrz.com buon anno questo l'ha scritto così eh
+
+868
+01:37:17.119 --> 01:37:24.320
+questo si capisce per esteso ma qui ci dice che Kilotto Giuliet tango kilo è
+
+869
+01:37:24.320 --> 01:37:32.040
+quello che eh è in comunicazione dall'altra parte che quello che sta scrivendo ora è da Victor Eco 5 Tango
+
+870
+01:37:32.040 --> 01:37:39.040
+Lima Whisky che è un canadese 73 è un saluto SK SK vuol dire fine delle
+
+871
+01:37:39.040 --> 01:37:44.520
+trasmissioni silen Key eh tasto muto
+
+872
+01:37:44.520 --> 01:37:50.360
+vorrebbe dire no silen K vorrebbe dire tasto muto keto in Toscana sarebbe keto
+
+873
+01:37:50.360 --> 01:37:55.960
+meto qui ecco ehm tra
+
+874
+01:37:55.960 --> 01:38:04.599
+l'altro SK poi alcuni di questi abbreviazioni o vengono poi
+
+875
+01:38:04.599 --> 01:38:10.800
+ehm portate ad altri significati analoghi ma magari anche distanti a
+
+876
+01:38:10.800 --> 01:38:17.679
+tasto muto a uomo morto è il passo breve e quindi un radiamatore
+
+877
+01:38:17.679 --> 01:38:25.480
+quando posa il tasto e non è più tra di noi e passa come si suol dire a miglior
+
+878
+01:38:25.480 --> 01:38:34.280
+vita e diventa un silenc e quindi un OM morto un radioamatore morto è un SK
+
+879
+01:38:34.280 --> 01:38:39.599
+eh tanto per dire quanto poi queste abbreviazioni entrano in
+
+880
+01:38:39.599 --> 01:38:45.520
+una in un uso ampio del mondo radiamatoriale in cui questi questa
+
+881
+01:38:45.520 --> 01:38:53.040
+gergalità questa eh queste m sigle
+
+882
+01:38:53.040 --> 01:39:00.320
+diventano m pregne di anche di altri significati che vanno oltre a quelli del
+
+883
+01:39:00.320 --> 01:39:06.040
+della semplice trasmissione e questo però se da una parte può sembrare
+
+884
+01:39:06.040 --> 01:39:11.840
+molto come dire un aspetto che chiude molto a alla
+
+885
+01:39:11.840 --> 01:39:18.040
+comprensione degli altri in realtà è un argomento che diventa fondamentale per
+
+886
+01:39:18.040 --> 01:39:24.000
+la comprensione di tutti i radioamatori perché queste sigle qui queste
+
+887
+01:39:24.000 --> 01:39:29.080
+abbreviazioni qui sono eh chiarissime sia che sia un
+
+888
+01:39:29.080 --> 01:39:36.560
+radiamatore inglese eh come dicevamo prima giapponese cinese sudamericano
+
+889
+01:39:36.560 --> 01:39:41.760
+arabo come lo volete volete gl è good
+
+890
+01:39:41.760 --> 01:39:49.520
+luck SK è SK per tutti quindi questo apre la possibilità attraverso questo
+
+891
+01:39:49.520 --> 01:39:54.679
+metalinguaggio un linguaggio che non è più né inglese né francese né italiano
+
+892
+01:39:54.679 --> 01:40:01.280
+né arabo ma è una sorta di sigle e queste sigle sono uguali per tutti e tutti le comprendiamo e far sì che un
+
+893
+01:40:01.280 --> 01:40:08.119
+radiamatore australiano con un giapponese possa parlare di radio
+
+894
+01:40:08.119 --> 01:40:14.360
+generalmente e comprendersi al di là delle dei limiti della lingua o del
+
+895
+01:40:14.360 --> 01:40:20.360
+della comprensione in un altro ambito c'era una mano alzata forse è il momento giusto
+
+896
+01:40:20.360 --> 01:40:26.040
+per farla arrivare perché poi abbiamo un altro paio d'argomenti e poi basta
+
+897
+01:40:26.040 --> 01:40:33.560
+chi è che voleva chi sono io sono io Marco nel se torni indietro quella
+
+898
+01:40:33.560 --> 01:40:39.239
+abbrevazione telegrafica logicamente sono partite da quando uno si faceva uno
+
+899
+01:40:39.239 --> 01:40:46.800
+faceva la telegrafia quindi cibo doppio alcune sono ci si può eh si
+
+900
+01:40:46.800 --> 01:40:53.080
+possono tradurre in fonia altre non ho mai sentito dire fine le trasmissioni
+
+901
+01:40:53.080 --> 01:41:00.880
+faccio una R o una er giusto quindi sono da imparare fino a se
+
+902
+01:41:00.880 --> 01:41:06.800
+stesse per via dell'esame poi chi non usa il CW alcune di queste abbreviazioni
+
+903
+01:41:06.800 --> 01:41:12.440
+non lo userà mai probabilmente no ma probabilmente sì era l'esempio prima che
+
+904
+01:41:12.440 --> 01:41:18.560
+ti facevo per esempio un'abbreviazione tipicamente telegrafica SK che vuol dire
+
+905
+01:41:18.560 --> 01:41:25.560
+tasto silente poggio il tasto fermo il tasto Sì no quella di prima sì
+
+906
+01:41:25.560 --> 01:41:32.360
+no per dirti era per dirti che quella lì poi tu la trovi utilizzata nelle comunicazioni digitali per dire fine
+
+907
+01:41:32.360 --> 01:41:37.520
+delle trasmissioni capito ma di quelle altre per esempio qui non c'è scritto il
+
+908
+01:41:37.520 --> 01:41:45.639
+DX che normalmente venendo io da una base CB il DX viene sempre usato
+
+909
+01:41:45.639 --> 01:41:52.760
+capito quindi ci sono alcune che vengano usate ma riferite a queste di diciamo di
+
+910
+01:41:52.760 --> 01:41:58.320
+tema d'esame che sono 12 quante sono queste qui
+
+911
+01:41:58.320 --> 01:42:04.480
+alcune cioè sono proponibili solo a livello CW cioè in telegrafono
+
+912
+01:42:04.480 --> 01:42:11.760
+utilizzate eh solo a livello telegrafico più ecco il CQ e si usa
+
+913
+01:42:11.760 --> 01:42:17.480
+correttemente eh il rapporto RST si
+
+914
+01:42:17.480 --> 01:42:25.440
+usa abbastanza normale insomma si sente a dirlo rx e l'R di ricevuto che poi
+
+915
+01:42:25.440 --> 01:42:34.800
+viene dato come Roger riferito al codice e così via quindi qualcosa viene
+
+916
+01:42:34.800 --> 01:42:40.679
+usato bisogna impararle per via dell'esame stop cioè mh penso che sia
+
+917
+01:42:40.679 --> 01:42:47.599
+fine a se stesso ecco il resto e se uno non fa CV logico se poi uno dopo aver
+
+918
+01:42:47.599 --> 01:42:54.800
+preso la patente si vuol dedicare a CV alla telegrafia sì ma è così
+
+919
+01:42:54.800 --> 01:43:00.639
+allora la buona notizia è che loro ci dicono nella legge loro nel senso
+
+920
+01:43:00.639 --> 01:43:08.440
+intendo dire il regolatore il ministero lo chiamo regolatore perché ogni volta potrebbe cambiare no e io ho iniziato si
+
+921
+01:43:08.440 --> 01:43:13.760
+chiamavano in un modo e via ha cambiato nome 7-8 volte il regolatore come lo
+
+922
+01:43:13.760 --> 01:43:19.199
+viene chiamato in ambito internazionale l'ente che regola l'attività del
+
+923
+01:43:19.199 --> 01:43:24.360
+radioamatore quindi io ve lo dico il nostro regolatore che poi l'ispettore è
+
+924
+01:43:24.360 --> 01:43:30.960
+il Ministero del Made in Italy eccetera eccetera e in questo
+
+925
+01:43:30.960 --> 01:43:37.800
+momento ma magari tra qualche anno cambierà nome di nuovo oppure saremo attribuito a un altro ministero comunque
+
+926
+01:43:37.800 --> 01:43:43.239
+il nostro regolatore ci dice nella legge che quello che noi dobbiamo sapere è
+
+927
+01:43:43.239 --> 01:43:49.560
+questo per il per l'esame e quello che io vi dico è che imparate questo che è
+
+928
+01:43:49.560 --> 01:43:56.679
+una sorta di di Ma le domande su questo sono sempre a tre cioè ti dicano qual è
+
+929
+01:43:56.679 --> 01:44:04.040
+la sigla delle fine trasmissioni esatto oppure ti dicano ar a che cosa Sì eh può
+
+930
+01:44:04.040 --> 01:44:09.679
+essere in tutte e due le maniere insomma esatto ma magari ti posso dire anche eh qual è la
+
+931
+01:44:09.679 --> 01:44:17.080
+sigla l'abbreviazione telegrafica per la fine trasmissione AR R K o
+
+932
+01:44:17.080 --> 01:44:23.280
+R e ti devi fare la croce su quella giusta diciamo sì sì no no facciamo per
+
+933
+01:44:23.280 --> 01:44:32.800
+sapere ecco sì sì ma è così mh ripeto m cioè ripeto da un certo
+
+934
+01:44:32.800 --> 01:44:38.639
+punto di vista di radioamatore dico "Ma perché c'è quel quell'abbreviazione telegrafica lì che
+
+935
+01:44:38.639 --> 01:44:43.679
+nessuno che è così scarsamente utilizzata mi chiedi che io la sappia
+
+936
+01:44:43.679 --> 01:44:49.520
+mentre tutte quelle che vengono utilizzate non me le chiedi." Però mi dico anche "Mi chiedi solo queste?"
+
+937
+01:44:49.520 --> 01:44:55.520
+benissimo meglio così che tu me le chieda tutte eh capito quindi eh
+
+938
+01:44:55.520 --> 01:45:02.440
+ingoliamo la la pasticca piccola invece di di prendere il suostone ecco
+
+939
+01:45:02.440 --> 01:45:08.599
+e però ho voluto metterle questa e in queste fasi qui vedete che
+
+940
+01:45:08.599 --> 01:45:14.760
+proprio vi ci metto la scritta tema d'esame cioè questo sappiatelo e
+
+941
+01:45:14.760 --> 01:45:21.520
+quest'altro sono gli approfondimenti che io vi lascio perché poi magari in futuro uno ci può andare a ridare un'occhiata
+
+942
+01:45:21.520 --> 01:45:29.920
+per di più in genere vi ci metto pure eh una un un link all la parte di Wikipedia
+
+943
+01:45:29.920 --> 01:45:36.360
+eh dove potete andare a prendere tutte altre informazioni ulteriori eh che ne
+
+944
+01:45:36.360 --> 01:45:42.400
+so compreso com'è che è sono nate queste abbreviazioni potete fare una cultura eh
+
+945
+01:45:42.400 --> 01:45:48.599
+ben più ampia però ve lo lascio come spunto o come canovaccio per poi basarci
+
+946
+01:45:48.599 --> 01:45:57.760
+ulteriori eh approfondimenti non vi dico dovete impararlo ci sono altre
+
+947
+01:45:58.040 --> 01:46:05.639
+domande fino a questo punto continuo veniamo allora abbiamo messo
+
+948
+01:46:05.639 --> 01:46:11.840
+insieme abbiamo il la B C abecedario con
+
+949
+01:46:11.840 --> 01:46:17.080
+l'alfabeto fonetico abbiamo gli indicativi di chiamata i
+
+950
+01:46:17.080 --> 01:46:22.719
+nominativi abbiamo le abbreviazioni telegrafiche e andiamo adesso a vedere
+
+951
+01:46:22.719 --> 01:46:30.080
+un altro tassello che ci apre una un'ulteriore potenzialità nella
+
+952
+01:46:30.080 --> 01:46:36.760
+comunicazione ovvero queste sono abbreviazioni ancora più di carattere
+
+953
+01:46:36.760 --> 01:46:43.800
+quasi diciamo anche fonetico oltre che telegram grafico
+
+954
+01:46:43.800 --> 01:46:49.599
+allora il codice Q questo codice Q è ve lo leggo è una raccolta standardizzata
+
+955
+01:46:49.599 --> 01:46:56.119
+di messaggi codificati di tre lettere che iniziano tutti con la Q mi spiego
+
+956
+01:46:56.119 --> 01:47:06.239
+qra QSL QRT QTH QR forse l'avevo già detto sono
+
+957
+01:47:06.239 --> 01:47:12.840
+tut e altre due Q e Q QB QQ ci sono una
+
+958
+01:47:12.840 --> 01:47:18.440
+c'è un formulario di codice Q enorme perché in realtà non riguarda solo le
+
+959
+01:47:18.440 --> 01:47:25.239
+attività dei radioamatori delle cuniazioni in ambito radioamatoriale ma è un un sistema standardizzato di
+
+960
+01:47:25.239 --> 01:47:31.520
+comunicazioni sia commerciali vedete sviluppate inizialmente per le comunicazioni commerciali via telegrafo
+
+961
+01:47:31.520 --> 01:47:38.360
+e successivamente adottato per le altre comunicazioni via radio dalla Marina all'Aeronautatica e in particolare da
+
+962
+01:47:38.360 --> 01:47:46.800
+Radioamatori per esempio esiste un codice Q che vuol dire perché questo codice Q è nasconde
+
+963
+01:47:46.800 --> 01:47:52.599
+dietro di sé una sigla Q di3 QRL QRL per
+
+964
+01:47:52.599 --> 01:47:59.360
+esempio nasconde un significato in carattere affermativo è un frasario cioè
+
+965
+01:47:59.360 --> 01:48:05.920
+QR vuol dire che bella giornata che è qui non è vero eh eh ma allo stesso
+
+966
+01:48:05.920 --> 01:48:11.320
+tempo potrebbe essere QRA punto interrogativo è che bella giornata è lì
+
+967
+01:48:11.320 --> 01:48:17.760
+punto interrogativo è una domanda esiste un codice Q che ci dice qual è la
+
+968
+01:48:17.760 --> 01:48:23.639
+direzione in gradi della pista d'atterraggio capite bene che noi non
+
+969
+01:48:23.639 --> 01:48:31.599
+utilizzeremo mai cioè noi come radioamatori non utilizzeremo mai questo codice Q che domanda qual è la
+
+970
+01:48:31.599 --> 01:48:37.560
+l'orientamento della pista d'atterraggio la utilizzerà questo codice Q nemmeno
+
+971
+01:48:37.560 --> 01:48:43.080
+quello della Marina perché se ci a terra con la nave c'è un grosso problema ma se
+
+972
+01:48:43.080 --> 01:48:48.719
+sono pilota di un aereo e domando qual è l'orientamento della pista
+
+973
+01:48:48.719 --> 01:48:56.480
+d'atterraggio eh invece di domandarlo a non so in lingua ostrogota nini dov'è
+
+974
+01:48:56.480 --> 01:49:02.800
+girata la la pista perché se gli fo alla tore di controllo di
+
+975
+01:49:02.800 --> 01:49:08.679
+di Rostov in Russia non sanno nemmeno che gli ho detto ma se gli
+
+976
+01:49:08.679 --> 01:49:14.400
+dico quel codice Q vuol dire quella cosa lì indipendentemente da che lingua poi
+
+977
+01:49:14.400 --> 01:49:21.960
+dopo parli io o parli lui ma quella lì quel codice Q vuol dire quello quindi ritorniamo riavvolgiamo il nastro eh
+
+978
+01:49:21.960 --> 01:49:27.960
+quindi sono comunicazioni utilizzate via radio dalla Marina Laurenatica in particolare da radioamatori che
+
+979
+01:49:27.960 --> 01:49:33.639
+utilizzano i codici nei loro collegamenti questi codici Q sintetizzano una domanda quando sono
+
+980
+01:49:33.639 --> 01:49:41.199
+seguiti da un punto interrogativo o indicano l'inizio della relativa risposta tipo se io ti faccio QRA ti
+
+981
+01:49:41.199 --> 01:49:47.520
+domando come ti chiami e te mi dici QRA è e come ti chiami alcuni codici hanno
+
+982
+01:49:47.520 --> 01:49:52.639
+anche un senso messi da soli cioè se un codice vuol
+
+983
+01:49:52.639 --> 01:49:59.719
+dire alza la potenza non è che ti fa una domanda ti sto dicendo alza la potenza
+
+984
+01:49:59.719 --> 01:50:07.320
+per piacere se vai più piano in telegrafia vai più lentamente non è che devo argomentarlo
+
+985
+01:50:07.320 --> 01:50:12.679
+ulteriormente ti sto dicendo vai più piano frena perché non c'è la può starti
+
+986
+01:50:12.679 --> 01:50:20.040
+dietro quindi alcuni codici hanno un senso anche da soli altri invece bisogna che le dettagli perché io dico QTH vuol
+
+987
+01:50:20.040 --> 01:50:25.920
+dire il posto da dove trasmetto è e ma bisogna che lo dica perché se mi
+
+988
+01:50:25.920 --> 01:50:31.239
+fermo lì e non tu m'hai detto niente ti ho detto solo e ti volevo dire il posto da dove trasmetto
+
+989
+01:50:31.239 --> 01:50:39.320
+qth è San Marcello Pistoiese quindi se dico questa cosa qui la dico in una
+
+990
+01:50:39.320 --> 01:50:45.719
+trasmissione telegrafica se scrivo QTh l'altro sa che sto dicendo il posto dove
+
+991
+01:50:45.719 --> 01:50:51.560
+mi trovo è questo ehm quindi sono seguite da altre
+
+992
+01:50:51.560 --> 01:50:59.560
+informazioni secondo il significato di ogni codice quale nominativi di chiamata nomi di luoghi cifre eccetera eccetera
+
+993
+01:50:59.560 --> 01:51:06.800
+eccetera eccetera nonostante questi codici Q siano stati appunto inventati utilizzati quando era
+
+994
+01:51:06.800 --> 01:51:14.280
+necessario avere delle abbreviazioni in una maniera ehm decisiva perché se mi devo mettere
+
+995
+01:51:14.280 --> 01:51:20.400
+in telegrafia a fare una domanda estesa e dire "Mi dici per
+
+996
+01:51:20.400 --> 01:51:26.119
+piacere dove ti trovi adesso e contate quante lettere ci sono quanti caratteri
+
+997
+01:51:26.119 --> 01:51:31.400
+ci sono e ogni carattere io ci vuol del tempo per dirlo." Se invece ti dico qth
+
+998
+01:51:31.400 --> 01:51:37.079
+punto interrogativo con quattro caratteri la son cavata poi te nella tua
+
+999
+01:51:37.079 --> 01:51:42.760
+testa lo traduci come dove ti trovi in questo momento oppure lo traduci where I
+
+1000
+01:51:42.760 --> 01:51:51.159
+am now oppure lo traduci eh poi ora e e ognuno se lo traduce ma
+
+1001
+01:51:51.159 --> 01:51:58.480
+il significato è lo stesso e quello mi risponderà Q è il posto dov'è e lo
+
+1002
+01:51:58.480 --> 01:52:03.639
+lo nella sua lingua ma quando lo scrive QTH abbiamo trovato una sorta di
+
+1003
+01:52:03.639 --> 01:52:09.679
+metalingua nel mezzo che ci fa sì che ci capiamo anche se l'abbiamo pensata in lingue
+
+1004
+01:52:09.679 --> 01:52:15.400
+differenti ehm questi codici Q per evitare anche
+
+1005
+01:52:15.400 --> 01:52:21.320
+confusione molto spesso non vengono attribuiti ai nominativi quindi uno che
+
+1006
+01:52:21.320 --> 01:52:29.639
+si chiama IV3 QTH non c'è perché insomma è come andarsi un po' a complicare la
+
+1007
+01:52:29.639 --> 01:52:36.079
+vita a diciamo a aggiungere possibilità di di creare delle ambiguità ecco quindi
+
+1008
+01:52:36.079 --> 01:52:45.320
+questi codici Q sono [Musica] un num letterine di tre che hanno un
+
+1009
+01:52:45.320 --> 01:52:52.440
+carattere un po' speciale stessa storia di prima come avveniva per le abbreviazioni
+
+1010
+01:52:52.440 --> 01:53:00.239
+telegrafiche la il regolatore fortunatamente ci chiede di sapere queste così e vi dico che alcune di
+
+1011
+01:53:00.239 --> 01:53:09.719
+queste premengo io non sono nemmeno come le usiamo noi ma sono scritte così e e
+
+1012
+01:53:09.719 --> 01:53:14.840
+vi dico in perfetto italiano sappile così no
+
+1013
+01:53:14.840 --> 01:53:20.679
+così come come le dicono loro perché la fortuna è che ci chiedono solo queste e
+
+1014
+01:53:20.679 --> 01:53:25.760
+che alla fine vi garantisco che almeno due o tre domande saranno su queste e
+
+1015
+01:53:25.760 --> 01:53:31.480
+per un motivo molto semplice perché per me che faccio le domande diventa me me
+
+1016
+01:53:31.480 --> 01:53:37.760
+nel senso ministero che faccio le domande diventa molto facile farvi una
+
+1017
+01:53:37.760 --> 01:53:43.199
+domanda inestabile su un fatto che io vi ho scritto e dovete sapere questo e io
+
+1018
+01:53:43.199 --> 01:53:50.520
+ti domando QRS vuol dire debbo trasmettere più lentamente debbo cessare le
+
+1019
+01:53:50.520 --> 01:53:57.320
+trasmissioni eccetera eccetera eccetera e questo qui dato che è scritto così mi
+
+1020
+01:53:57.320 --> 01:54:03.280
+mette in una botte di ferro a me che faccio le domande e che mi porta lontano
+
+1021
+01:54:03.280 --> 01:54:08.599
+da possibili malintendimenti o contestazioni perché poi dobbiamo
+
+1022
+01:54:08.599 --> 01:54:14.800
+metterci anche Quindi la fortuna vuole giratela così che questi sono gli unici
+
+1023
+01:54:14.800 --> 01:54:23.400
+codici Q che ci vi potranno domandare e vi [Musica] domanderanno eh
+
+1024
+01:54:23.400 --> 01:54:29.760
+vediamo un po' ma non sono quelli che non sono i soli che in realtà
+
+1025
+01:54:29.760 --> 01:54:37.320
+utilizziamo qui vi ho portato come esempio una lista estesa sì arrivo una
+
+1026
+01:54:37.320 --> 01:54:44.840
+lista estesa a meno che non sia qualche problema che non mi sentite no Marco ne riparliamo dopo e
+
+1027
+01:54:44.840 --> 01:54:51.679
+questa è una lista Oh ora ti sentiamo ok una lista estesa di quelli che sono
+
+1028
+01:54:51.679 --> 01:54:56.840
+più utilizzati vedete che alcuni sono
+
+1029
+01:54:56.840 --> 01:55:02.960
+quelli evidenziati in giallo sono quelli ministeriali chiamiamoli così gli
+
+1030
+01:55:02.960 --> 01:55:11.520
+altri sono di drago utilizzo nell'ambito radioamatoriali perché riguardano le nostre comunicazioni cioè eh QRQ vuol
+
+1031
+01:55:11.520 --> 01:55:18.960
+dire trasmettere più velocemente QRS vuol dire andare più lento
+
+1032
+01:55:18.960 --> 01:55:24.760
+cioè m verrebbe da domandare perché mi dici com'è che devo saper come andar più
+
+1033
+01:55:24.760 --> 01:55:30.320
+lento ma non devo sapere come andar più veloce QRQ e QRS una la devo sapere
+
+1034
+01:55:30.320 --> 01:55:37.599
+l'altra no perché come frenare devo sapere ma come accelerare non faccio danno diciamo però non ci facciamo
+
+1035
+01:55:37.599 --> 01:55:43.400
+domande e soprattutto va bene così perché il codice Q che potenzialmente
+
+1036
+01:55:43.400 --> 01:55:48.840
+potremmo dover sapere per fare una buona attività da radiamore sono tanti di più
+
+1037
+01:55:48.840 --> 01:55:54.520
+almeno questi ma sono sempre una forma molto ridotta ma ce ne sarebbero vi
+
+1038
+01:55:54.520 --> 01:56:00.000
+garantisco un'altra trentina che sono in uso e uno rizza i capelli dice "Ma come
+
+1039
+01:56:00.000 --> 01:56:07.280
+un'altra trentina ma che io le devo saper tutti?" No però vi garantisco che con il tempo con l'uso con l'incontro
+
+1040
+01:56:07.280 --> 01:56:12.719
+col fatto di scoprire che quel QTF non so nemmeno se qui c'è
+
+1041
+01:56:12.719 --> 01:56:19.199
+vedete ne ho detto uno che già qui non c'è è da dove vi dove devo la direzione
+
+1042
+01:56:19.199 --> 01:56:29.800
+del mio del nostro collegamento ecco QTF eh tra me e Firenze c'è eh non so è a mh
+
+1043
+01:56:29.800 --> 01:56:35.599
+130° no la dico una cifra a caso io devo puntare l'antenna a
+
+1044
+01:56:35.599 --> 01:56:44.040
+130° per andare con la mia trasmissione verso Firenze è QTF e qui non c'è
+
+1045
+01:56:44.040 --> 01:56:51.199
+eh per dire è qualcosa che può essere utilizzato quindi ricapitolando quelli
+
+1046
+01:56:51.199 --> 01:56:57.400
+gialli da sapere a mena dito anzi probabilmente vi daremo anche un link
+
+1047
+01:56:57.400 --> 01:57:04.920
+per fare un esercizio c'è un'applicazioncina fatta da un vecchio corsista come voi eh di qualche anno fa
+
+1048
+01:57:04.920 --> 01:57:13.360
+che per diciamo pratichirsi eh perché poi fatti 10 volte uno poi se
+
+1049
+01:57:13.360 --> 01:57:21.840
+lo ricorda non è che sono impossibili ma soprattutto ehm quando poi la domanda ha una forma
+
+1050
+01:57:21.840 --> 01:57:29.119
+chiusa di risposte uno po' di indizi ce l'ha e se a QRZ che vuol dire chi mi
+
+1051
+01:57:29.119 --> 01:57:34.360
+chiama oppure sono chiamato e vedete tre
+
+1052
+01:57:34.360 --> 01:57:41.280
+risposte e le altre due vi ricordate per certo che non sono QRZ la terza è
+
+1053
+01:57:41.280 --> 01:57:47.679
+qruto delle risposte presente nella nella nei quiz
+
+1054
+01:57:47.679 --> 01:57:55.599
+dell'esame eh eh può essere decisivo poi per la scelta della risposta giusta
+
+1055
+01:57:56.079 --> 01:58:02.880
+mi fermo col codice Q e passiamo al prossimo c'è domande Marco forse
+
+1056
+01:58:02.880 --> 01:58:11.800
+sì scusa io mi rifaccio sempre ma se torni indietro alcune denominazioni noi
+
+1057
+01:58:11.800 --> 01:58:20.760
+che in passato so che si usano eh non non cioè la il la loro parafrasi della
+
+1058
+01:58:20.760 --> 01:58:25.880
+della sigla non è nemmeno esattamente quella o sbaglio
+
+1059
+01:58:25.880 --> 01:58:33.440
+no no tu hai ragione eh cioè noi si importa per l'esame si impara questa poi nell'utilizzo non si utili
+
+1060
+01:58:33.440 --> 01:58:39.960
+esatto esatto ma il QSL potete dare un'accusa di ricezione sì ok noi si sa
+
+1061
+01:58:39.960 --> 01:58:48.079
+che il QSL è la cartolina però si dice anche Sì o come Qo noi sappiamo che Qo è
+
+1062
+01:58:48.079 --> 01:58:54.719
+il è il Qso cioè è la comunicazione che si fa e qui mi chiedono posso comunicare
+
+1063
+01:58:54.719 --> 01:59:00.239
+direttamente con cioè è una forma forse arcaica di dire sono in collegamento
+
+1064
+01:59:00.239 --> 01:59:10.560
+chiedo un collegamento m e esatto allora per ti precedo allora non so quale siano
+
+1065
+01:59:10.560 --> 01:59:18.040
+la fonte da cui proviene questo schema probabilmente eh potrebbe essere che il
+
+1066
+01:59:18.040 --> 01:59:23.520
+codice Q eh 60 anni fa era questo nel
+
+1067
+01:59:23.520 --> 01:59:29.679
+momento in cui fu preso per essere infilato nella legge di 60 e poi se lo sono sempre portati dietro perché
+
+1068
+01:59:29.679 --> 01:59:35.480
+diciamo il nostro sistema non è il Qito che qualcuno dia latitudine e
+
+1069
+01:59:35.480 --> 01:59:41.520
+longitudine insomma per il Q per il Qta esatto noi l'abbiamo fatto in maniera
+
+1070
+01:59:41.520 --> 01:59:48.400
+veloce dammi il tuo QTH Firenze San Marcello Pistoiese cioè così insomma
+
+1071
+01:59:48.400 --> 01:59:54.440
+eh certo ehm ti dicevo da come arriva qui
+
+1072
+01:59:54.440 --> 01:59:59.920
+probabilmente da un copia incolla di anni anni anni e anni magari sono anche
+
+1073
+01:59:59.920 --> 02:00:06.400
+mancate i confronti di revisione cioè se nel tempo è stato stabilito che QTH non
+
+1074
+02:00:06.400 --> 02:00:13.480
+è solo la posizione in latitudine e longitudine ma è la posizione geografica no e e finisco lì e quindi
+
+1075
+02:00:13.480 --> 02:00:20.760
+geografica potrebbe essere latitudine longitudine o semplicemente il nome del posto oppure una sigla che mi
+
+1076
+02:00:20.760 --> 02:00:26.360
+dice il locatore no ecco ehm che vedremo
+
+1077
+02:00:26.360 --> 02:00:34.119
+successivamente cosa vuol dire ehm se lo il regolatore non le recepisce
+
+1078
+02:00:34.119 --> 02:00:41.679
+queste variazioni che ci sono state in un ambito esterno a sé continua a mantenere questa questa finestrella qui
+
+1079
+02:00:41.679 --> 02:00:48.440
+però eh mi mette a contestarla beh se mi mette a
+
+1080
+02:00:48.440 --> 02:00:54.040
+contestarla forse mi potrebbe anche dire "Ma forse non le dovete sapere tutte e gente questi codici Q e allora si ferma
+
+1081
+02:00:54.040 --> 02:01:00.880
+il treno e uno dice va bene va bene così anche se poi io so che così come carità"
+
+1082
+02:01:00.880 --> 02:01:06.159
+bravo ecco ritorniamo alla storia prima meglio la pasticca piccolina che la
+
+1083
+02:01:06.159 --> 02:01:12.280
+supposta grossa meglio la pasticca piccolina dice "Ma non è tanto buona non è proprio Va bene Goia vai poi se ne
+
+1084
+02:01:12.280 --> 02:01:20.560
+riparla" eh in realtà quello che succede in altri ambienti eh internazionali è un
+
+1085
+02:01:20.560 --> 02:01:25.960
+continuo revisionare cioè laddove si comportano come si dovrebbero comportare
+
+1086
+02:01:25.960 --> 02:01:31.440
+è un continuo revisionare delle modalità e dei temi d'esame al passo con
+
+1087
+02:01:31.440 --> 02:01:37.239
+l'evoluzioni cioè mi dicevi prima che senso ha che io sappia ar che poi
+
+1088
+02:01:37.239 --> 02:01:44.040
+andrebbe scritto con la righetta sopra perché si fa tutto unito quando si fa telegrafia non si fa a ar ma si fa ar
+
+1089
+02:01:44.040 --> 02:01:49.480
+tutto insieme legato e e non c'è scritto nemmeno giusto per che senso ha che tu
+
+1090
+02:01:49.480 --> 02:01:55.800
+mi domandi questo e non mi domandi invece che cavolo ne so che cos'è FT8
+
+1091
+02:01:55.800 --> 02:02:01.599
+che la prima volta lo senti dire pensavo fosse un prefisso andare a cercare l'isola dov'era e invece era un modo
+
+1092
+02:02:01.599 --> 02:02:09.199
+nuovo di eh di trasmissione eh perché oggi un radioamatore sa che cos'è l'FT8
+
+1093
+02:02:09.199 --> 02:02:14.239
+e non sa che cos'è AR R con la riga sopra perché son cambiati i tempi ma non
+
+1094
+02:02:14.239 --> 02:02:19.920
+è che è scemo quello che sa R e quello che non sa o viceversa no ma m'aspetto
+
+1095
+02:02:19.920 --> 02:02:26.199
+che tu mi domandi delle cose attuali ma sapre un dibattito ben più ampio
+
+1096
+02:02:26.199 --> 02:02:32.840
+eh dove modalità con cui è un po' elefantia che è un po' paidermica in cui si muove la
+
+1097
+02:02:32.840 --> 02:02:39.920
+l'amministrazione in questo ambito eppure si muove svelta vi garantisco
+
+1098
+02:02:39.920 --> 02:02:45.639
+eh fa sì che non ci sia eh questa attualizzazione
+
+1099
+02:02:45.639 --> 02:02:50.679
+altrove l'esempio appunto delle Stati Uniti per conoscenza diretta dove ogni 5
+
+1100
+02:02:50.679 --> 02:02:58.920
+anni si si fa la revisione di tutte le domande si dice queste non servano più queste servono ora perché devo mettere
+
+1101
+02:02:58.920 --> 02:03:05.560
+diciamo devo provare la conoscenza di una situazione attuale cioè voglio che il radiamatore sappia questo no quello
+
+1102
+02:03:05.560 --> 02:03:12.639
+che non serve più no se capisci però ritornando alle
+
+1103
+02:03:12.639 --> 02:03:17.719
+nostre ehm diciamo situazioni contingenti dobbiamo sapere questo è
+
+1104
+02:03:17.719 --> 02:03:23.199
+sufficiente per fare il radiamatore no è giusto tutto questo è corretto per fare
+
+1105
+02:03:23.199 --> 02:03:30.400
+QSL è giusto qsl è e vuol dire do ricevuta della della ricezione ho
+
+1106
+02:03:30.400 --> 02:03:36.199
+ricevuto vuol dire poi te mi dici QSL lo uso per le cartoline in realtà la QSL si
+
+1107
+02:03:36.199 --> 02:03:45.320
+chiama QSL Card cartolina di QSL dove do ricevuto do m diciamo conferma
+
+1108
+02:03:45.320 --> 02:03:51.559
+dell'avvenuto avvenimento del nostro contatto QSO eh
+
+1109
+02:03:51.559 --> 02:03:56.679
+però eh tante di queste qui hanno una
+
+1110
+02:03:56.679 --> 02:04:02.040
+m parecchie sono come vengono dette qui altre hanno assunto un significato un
+
+1111
+02:04:02.040 --> 02:04:07.559
+po' più esteso perché diviene perché funziona così come vi dicevo prima siamo
+
+1112
+02:04:07.559 --> 02:04:14.320
+passati da fermo il tasto è morto un uomo no è morto un radianatore no eh
+
+1113
+02:04:14.320 --> 02:04:21.880
+perché l'attribuzione di quel significato poi ehm lo lo fa ampliare nell'ambito di
+
+1114
+02:04:21.880 --> 02:04:28.000
+attribuzione di di quel codice sempre la mano chi era
+
+1115
+02:04:28.000 --> 02:04:37.559
+sono Massimo buonasera un un'informazione così non sono stato molto attento nel codice QR Q scusa ehm
+
+1116
+02:04:37.559 --> 02:04:44.360
+per distinguere la domanda della risposta bisogna mettere il punto interrogativo
+
+1117
+02:04:44.360 --> 02:04:50.679
+solitamente sì in forma verbale si si capisce no se io ti sto facendo verbale
+
+1118
+02:04:50.679 --> 02:04:58.719
+nel caso di scrittura ecco diciamo così esatto sì sì sì punto interrogativo cioè per far capire per dire QRK di domanda
+
+1119
+02:04:58.719 --> 02:05:04.000
+logicamente sì esatto senò diventa una risposta
+
+1120
+02:05:04.000 --> 02:05:12.559
+esatto cioè sennò diventa un'affermazione sì alcune di queste non possono ripeto
+
+1121
+02:05:12.559 --> 02:05:18.679
+il fatto di più piano eh cioè mì sì ora
+
+1122
+02:05:18.679 --> 02:05:26.800
+qui in questo caso qui ecco eh di solito è una richiesta no ehm non è che uno non
+
+1123
+02:05:26.800 --> 02:05:33.559
+può essere una domanda però c ecco ci ci credo che
+
+1124
+02:05:33.559 --> 02:05:38.760
+m ehm ecco si possano intuire qual è la modalità comunque se la domanda
+
+1125
+02:05:38.760 --> 02:05:44.840
+specifica era quando fa la domanda in telegrafia metto il punto interrogativo
+
+1126
+02:05:44.840 --> 02:05:49.960
+metto il punto interrogativo esatto cioè batto punto interrogativo alla fine di
+
+1127
+02:05:49.960 --> 02:05:55.239
+eh QRZ punto interrogativo batto quando
+
+1128
+02:05:55.239 --> 02:06:02.840
+chiamo mi risponde qualcuno ma non ho capito chi perché arriva male perché non riesco a capire chi è e dico però voglio
+
+1129
+02:06:02.840 --> 02:06:09.320
+dirgli che ho sentito qualcosa ma chi sei allora non è che continuo a chiamare
+
+1130
+02:06:09.320 --> 02:06:14.880
+perché sennò l'altro pensa che io non nemmeno l'abbia sentito ma per darle testimonianza del fatto che qualcosa ho
+
+1131
+02:06:14.880 --> 02:06:23.639
+sentito ma non ho capito chi è perché c'è un motivo arriva piano c'è un disturbo c'è allora batto QRZ punto
+
+1132
+02:06:23.639 --> 02:06:29.599
+interrogativo eh proprio per dire da chi sono chiamato ecco chi è punto
+
+1133
+02:06:29.599 --> 02:06:36.158
+interrogativo ecco capito ok grazie mille
+
+1134
+02:06:36.520 --> 02:06:42.199
+prego eh ok codice Q l'abbiamo passato
+
+1135
+02:06:42.199 --> 02:06:49.360
+avviamoci non so che ore sono ma io come sempre eh mi tocca f le ore piccole
+
+1136
+02:06:49.360 --> 02:06:55.520
+all'ultimo argomento della l'ultimo barra penultimo ma in realtà è
+
+1137
+02:06:55.520 --> 02:07:04.360
+l'ultimo argomento della eh di tutte le sigle di questa sera si parla di
+
+1138
+02:07:04.360 --> 02:07:09.679
+RST allora questi radiamatori che cosa si dicono si dicono un sacco di cose
+
+1139
+02:07:09.679 --> 02:07:16.760
+nelle loro trasmissioni ma a me tendenzialmente quando mi domanda "Ma che cosa vi dite ho sempre delle
+
+1140
+02:07:16.760 --> 02:07:23.239
+difficoltà a spiegare che cosa ci diciamo perché in realtà ci diciamo delle
+
+1141
+02:07:23.239 --> 02:07:28.440
+merite inutilità no non è che tendenzialmente ci vogliamo dire un
+
+1142
+02:07:28.440 --> 02:07:34.679
+sacco di cose quando ci sentiamo tra gli amenatori non è che possiamo sì stare a chiacchiera ma io sono alla ricerca di
+
+1143
+02:07:34.679 --> 02:07:40.920
+un segnale per collegare qualcuno voglio arrivare a sentire un giapponese a dire a un giapponese che lui sente meglio
+
+1144
+02:07:40.920 --> 02:07:48.119
+sente lui che cosa vi dite ciao ci siamo ciao ti sento te mi senti sì che bella
+
+1145
+02:07:48.119 --> 02:07:55.760
+cosa mandami una cartolina ciao ciao fine delle trasmissioni dice "Guonana è una una un bel rapporto profondo tanto
+
+1146
+02:07:55.760 --> 02:08:01.559
+cercato e va sicuramente dato un sacco di di soddisfazioni." Beh è tristemente
+
+1147
+02:08:01.559 --> 02:08:07.599
+è un po' così cioè nel senso non è proprio così perché dietro ci sta poi eh
+
+1148
+02:08:07.599 --> 02:08:14.320
+anche altro però nell'essenzialità del contatto tra radioamatori in realtà lo
+
+1149
+02:08:14.320 --> 02:08:21.440
+ehm oltre alla finalità del messaggio magari io ti voglio far saper questa cosa qui perché che ho bisogno d'aiuto
+
+1150
+02:08:21.440 --> 02:08:28.119
+che c'è bisogno di questo che per favore fa questa cosa qui o che aiuto aiuto
+
+1151
+02:08:28.119 --> 02:08:33.520
+soccorro qualcuno venga a prendermi oppure ecco una situazione del genere ma
+
+1152
+02:08:33.520 --> 02:08:40.079
+negli altri momenti sono più votato alla sperimentazione del mezzo alla sperimentazione della mia attrezzatura
+
+1153
+02:08:40.079 --> 02:08:46.040
+alla costruzione di sempre una maggiore ricerca di sta sto facendo delle prove e
+
+1154
+02:08:46.040 --> 02:08:51.960
+le prove le faccio in continuazione perché continuo a provare perché oggi ho provato così domani provano in un altro
+
+1155
+02:08:51.960 --> 02:08:59.000
+modo e ora che l'ho provato voglio vedere se a forza di provarlo mi riesce anche meglio a me perché ora funziona
+
+1156
+02:08:59.000 --> 02:09:06.119
+però voglio vedere se mi impatichisco anch'io ma e quindi è un continuo ricerca di sperimentazione di questa
+
+1157
+02:09:06.119 --> 02:09:12.040
+comunicazione ma in cui in realtà l'argomento verere e proprio della eh
+
+1158
+02:09:12.040 --> 02:09:19.040
+comunicazione tante volte si restringe a il controllo della trasmissione stessa cioè io arrivo da te arrivo da te nel
+
+1159
+02:09:19.040 --> 02:09:26.400
+senso mi collego con te parlo con te e ti domando e è un po' come nell'ascensore no che si parla del tempo
+
+1160
+02:09:26.400 --> 02:09:31.559
+no lì si parla come mi senti la curiosità più grossa come mi senti io
+
+1161
+02:09:31.559 --> 02:09:38.280
+arrivo a Mi senti se m'ha risposto intanto "Mi senti?" Già sono tranquillo che mi ha sentito ha detto il mio
+
+1162
+02:09:38.280 --> 02:09:44.920
+nominativo "m'ha sentito ma come mi sente?" E quindi la prima cosa che voglio sapere oltre a dire io sono io e
+
+1163
+02:09:44.920 --> 02:09:51.040
+te sei tu eh come mi senti e come ti sento io e ci diciamo questa cosa qui
+
+1164
+02:09:51.040 --> 02:09:57.079
+come ci sentiamo nel senso non tanto bene stanchi o deboli o insomma potrebbe
+
+1165
+02:09:57.079 --> 02:10:02.280
+andar meglio fumata nera o come ci sentiamo ma qual è la qualità di questo
+
+1166
+02:10:02.280 --> 02:10:07.880
+segnale che arriva a te eh beh qui si potrebbe incomincia a dire vabbè di che
+
+1167
+02:10:07.880 --> 02:10:13.719
+colore è il cielo oggi no è azzurrognolo però con qualche
+
+1168
+02:10:13.719 --> 02:10:19.199
+nuvoletta e è ugro segnale com'è il nostro segnale ma ti sento abbastanza
+
+1169
+02:10:19.199 --> 02:10:25.599
+bene e abbastanza quanto stanza tanto o abbastanza poco perché poi mi deprimo se non tu mi senti abbastanza bene perché
+
+1170
+02:10:25.599 --> 02:10:33.639
+io è tre giorni e costruisco questa antenna se non tu mi senti abbastanza bene io che abbastanza ho fatto no
+
+1171
+02:10:33.639 --> 02:10:38.800
+ehm quindi tornando a una a un registro
+
+1172
+02:10:38.800 --> 02:10:45.719
+più eh formale nel momento della nostra comunicazione arriva un arriva
+
+1173
+02:10:45.719 --> 02:10:51.840
+un'informazione che io voglio sapere e ti voglio dire come è il tuo segnale per
+
+1174
+02:10:51.840 --> 02:10:58.360
+me e voglio sapere com'è il mio segnale per te come mi senti e come ti sento e
+
+1175
+02:10:58.360 --> 02:11:03.679
+per far questo e non andare a finire in un rivolo di cose che
+
+1176
+02:11:03.679 --> 02:11:11.040
+poi possono essere ricche di sfumature abbiamo fatto un codice no siamo bravi
+
+1177
+02:11:11.040 --> 02:11:16.320
+per questo abbiamo fatto un codice dove diamo delle informazioni su del sul
+
+1178
+02:11:16.320 --> 02:11:21.960
+nostro segnale in particolare se mi comprendi o non mi
+
+1179
+02:11:21.960 --> 02:11:28.639
+comprendi o quanto non mi comprendi e quanto forte mi senti
+
+1180
+02:11:28.639 --> 02:11:34.920
+il segnale con cui mi ricevi è bello robusto oppure debole debole un soffio
+
+1181
+02:11:34.920 --> 02:11:40.280
+di vento oppure appena appena riesco a intercettare il tuo segnale
+
+1182
+02:11:40.280 --> 02:11:47.480
+oppure porta è chiaro no si potrebbe dire eh però è cosa diversa l'intensità
+
+1183
+02:11:47.480 --> 02:11:57.000
+del segnale alla comprensibilità del segnale mh cerco di spiegarvelo io posso
+
+1184
+02:11:57.000 --> 02:12:02.280
+arrivare anche molto forte cioè il mio segnale può essere anche molto forte ma
+
+1185
+02:12:02.280 --> 02:12:07.400
+se io parlo eh con il microfono infilato
+
+1186
+02:12:07.400 --> 02:12:13.119
+dentro una lattina di Coca-Cola mentre fa le bollicine io quel che dico non lo
+
+1187
+02:12:13.119 --> 02:12:18.960
+capisce anche se nonostante il segnale sia molto forte ma sono incomprensibile
+
+1188
+02:12:18.960 --> 02:12:24.239
+e ora la lattina di Coca-Cola lasciamola perdere ma magari ci sono ci possono
+
+1189
+02:12:24.239 --> 02:12:31.760
+essere dei problemi di carattere tecnico che fanno sì che la mia modulazione non sia eh
+
+1190
+02:12:32.520 --> 02:12:39.559
+comprensibile oppure in genere associato a un segnale magari debole appena
+
+1191
+02:12:39.559 --> 02:12:47.800
+percepibile oppure molto debole può essere che comunque io lo riesca a comprendere quello che dici oppure non
+
+1192
+02:12:47.800 --> 02:12:54.840
+lo comprendo così bene perché ogni tanto mi sfugge una parola perché il segnale è
+
+1193
+02:12:54.840 --> 02:13:03.559
+debole e quindi in questa scala di leggibilità o illegibilità e identifico una gradazione
+
+1194
+02:13:03.559 --> 02:13:08.960
+da 1 a 5 e la chiamo readability ovvero
+
+1195
+02:13:08.960 --> 02:13:15.000
+leggibilità del messaggio quindi me eh faccio riferimento a quanto quello che
+
+1196
+02:13:15.000 --> 02:13:23.119
+dici lo capisco cioè è comprensibile o non è comprensibile e vado in una scala in cui
+
+1197
+02:13:23.119 --> 02:13:31.000
+a5 è perfettamente comprensibile capisco tutto quello che dici eh quattro è una
+
+1198
+02:13:31.000 --> 02:13:37.079
+comprensibilità ma con qualche difficoltà avete visto prima magari mi sono andato via in un momento no nella
+
+1199
+02:13:37.079 --> 02:13:46.239
+mia mentre parlavo per colpa della connessione internet avete perso qualche parola però
+
+1200
+02:13:46.239 --> 02:13:51.840
+rimango comprensibile capite quel che ho detto il senso del discorso è leggibile
+
+1201
+02:13:51.840 --> 02:13:57.719
+eh cose diverse se incominciasse a
+
+1202
+02:13:57.719 --> 02:14:03.360
+da così alla comprensibilità no eh cosa
+
+1203
+02:14:03.360 --> 02:14:10.239
+diversa magari una situazione intermedia in cui capite voglio far e
+
+1204
+02:14:10.239 --> 02:14:15.760
+nonostante arrivo no il in una situazione in cui la legibilità avviene
+
+1205
+02:14:15.760 --> 02:14:21.599
+ma con una notevole difficoltà oppure una situazione in cui capisco che c'è
+
+1206
+02:14:21.599 --> 02:14:27.440
+qualcuno che parla ma non si ma non capisco tanto bene quel che stai
+
+1207
+02:14:27.440 --> 02:14:33.159
+dicendo che parla o che trasmette in telegrafia oppure una situazione in cui
+
+1208
+02:14:33.159 --> 02:14:38.599
+non ci capisco niente cioè capisco che ci sei ma non capisco che tu dici perché
+
+1209
+02:14:38.599 --> 02:14:44.440
+la la dico quel che dici intendendo il
+
+1210
+02:14:44.440 --> 02:14:51.719
+messaggio può essere parola può essere telegrafia può essere un segnale digitale può essere quel che volete può
+
+1211
+02:14:51.719 --> 02:14:58.559
+essere un'immagine se la la scala di leggibilità di readability può essere
+
+1212
+02:14:58.559 --> 02:15:04.800
+attribuita a tutti questi a queste trasmissioni a questi
+
+1213
+02:15:04.800 --> 02:15:11.559
+messaggi come altrettanto vero può essere attribuita a tutte queste comunicazioni la potenza di questo
+
+1214
+02:15:11.559 --> 02:15:17.760
+segnale che io ricevo io ricevo un segnale che come vi dicevo può essere
+
+1215
+02:15:17.760 --> 02:15:23.400
+comprensibile ma misuro che questo segnale Sì Luigi arrivo
+
+1216
+02:15:23.400 --> 02:15:29.040
+se questo segnale con quanta intensità arriva al mio ricevitore e generalmente
+
+1217
+02:15:29.040 --> 02:15:38.079
+questa è una misura strumentale cioè c'è proprio un ago sul mio ricevitore che dice con quanta forza arriva questo
+
+1218
+02:15:38.079 --> 02:15:43.199
+segnale al mio ricevitore che chiaramente è legata al fatto con quanta
+
+1219
+02:15:43.199 --> 02:15:49.119
+potenza viene trasmesso con quanta efficienza viene irradiato con quanta
+
+1220
+02:15:49.119 --> 02:15:55.440
+efficienza io lo ricevo eccetera eccetera arriva alla fine che io lo ascolto con una certa
+
+1221
+02:15:55.440 --> 02:16:01.400
+intensità e e questa è una misura che è ripeto strumentale vedete qui nell
+
+1222
+02:16:01.400 --> 02:16:08.000
+inanto a destra c'è una S questa è un un prototipo di una scala presente sui
+
+1223
+02:16:08.000 --> 02:16:17.360
+ricevitori dove l'ago posiziona nel momento in cui riceve in una scala qui da uno da zero
+
+1224
+02:16:17.360 --> 02:16:25.199
+diciamo a S1 a S9 eh è una misura che poi è
+
+1225
+02:16:25.199 --> 02:16:31.880
+codificata che deve essere di tot microvolts per eh per secondo la la
+
+1226
+02:16:31.880 --> 02:16:37.760
+frequenza la banda utilizzata comunque dice un segnale che arriva con quella potenza lì
+
+1227
+02:16:37.760 --> 02:16:44.040
+è strumentale e poi dopo se uno arriva
+
+1228
+02:16:44.040 --> 02:16:49.678
+oltre quella quel quel quella quella tensione lì
+
+1229
+02:16:49.679 --> 02:16:55.840
+oltre a quella potenza lì addirittura può andare oltre e qui si parla di DB
+
+1230
+02:16:55.840 --> 02:17:03.240
+oltre il 9 tendo dire che se è una potenza immaginate che arriva nel mio
+
+1231
+02:17:03.240 --> 02:17:08.719
+ricevitore diciamo di 100 di una misura che non la sto a dire non 100 la
+
+1232
+02:17:08.719 --> 02:17:14.598
+chiamerò no uno arriva con una potenza 100 e il lago si ferma su 9 se la
+
+1233
+02:17:14.599 --> 02:17:19.880
+potenza è 1000 va su 10
+
+1234
+02:17:19.880 --> 02:17:25.439
+ok e quel 10 lì i DB servono a far
+
+1235
+02:17:25.440 --> 02:17:32.280
+questo eh e ok vado alla T e poi dopo rispondo
+
+1236
+02:17:32.281 --> 02:17:39.319
+alla domanda perché così la T si liquida molto velocemente e perché quella T lì
+
+1237
+02:17:39.320 --> 02:17:45.760
+riguarda specificatamente la caratteristica della nota torniamo ad avvolgere tante di
+
+1238
+02:17:45.760 --> 02:17:51.080
+queste cose provengono dalla consuetudine di una eh diciamo di
+
+1239
+02:17:51.080 --> 02:17:57.638
+utilizzi passati quando c'era solo la telegrafia io volevo sapere se mi
+
+1240
+02:17:57.639 --> 02:18:03.280
+comprendevi se sono comprensibile cioè se il mio quel che dico riesci a capirlo
+
+1241
+02:18:03.281 --> 02:18:09.800
+come t' arrivo forte e poi un'altra cosa che volevo sapere è ma la mia nota com'è
+
+1242
+02:18:09.800 --> 02:18:16.478
+che in fonia sarebbe un po' come dire la modulazione com'è immaginate che uno è
+
+1243
+02:18:16.479 --> 02:18:24.160
+eh che posso dire che parla come da dentro una lavatrice non è che è una bella modulazione se uno parla come se
+
+1244
+02:18:24.160 --> 02:18:31.280
+fosse eh un robot non è una bella rumodulazione se uno parla che in una
+
+1245
+02:18:31.281 --> 02:18:37.319
+maniera la la voce che ne risulta è bella rotonda e ampia è come se fosse
+
+1246
+02:18:37.320 --> 02:18:42.800
+quanto più fedele alla vera voce uguale nel momento in cui si parlava della
+
+1247
+02:18:42.800 --> 02:18:48.598
+telegrafia volevo sapere com'è la mia nota in realtà la nota i difetti che
+
+1248
+02:18:48.599 --> 02:18:54.240
+potevano essere attribuiti a questa nota erano tutti
+
+1249
+02:18:54.240 --> 02:18:59.518
+indizi di problemi e diciamo circuitali
+
+1250
+02:18:59.519 --> 02:19:05.280
+cioè se il mio trasmettitore aveva dei problemi di rientro di radiofrequenza
+
+1251
+02:19:05.281 --> 02:19:11.840
+faceva in un certo moda aveva un certo difetto quindi quello dall'altra parte dicendomi
+
+1252
+02:19:11.840 --> 02:19:18.518
+"Guarda che la tua nota ronza" mi dava la possibilità di sapere a me che io c'avevo da mettere le mani in un certo
+
+1253
+02:19:18.519 --> 02:19:23.960
+posto perché dovevo controllare quindi nota ronzante di corrente alternata
+
+1254
+02:19:23.960 --> 02:19:29.920
+rettificata ma non filtrata e questa è come se fosse non lo so un la reclame di
+
+1255
+02:19:29.920 --> 02:19:37.558
+una di un'acqua no capite bene eh quindi questo sono retaggi del
+
+1256
+02:19:37.559 --> 02:19:44.080
+passato perché in realtà attualmente tutte le note telegrafiche sono di
+
+1257
+02:19:44.080 --> 02:19:52.680
+caratteristica nove sono tutte tra virgolette a colori le note telegrafiche sono belle nitide eh qualche volta può
+
+1258
+02:19:52.680 --> 02:19:59.760
+capitare di sentire qualche nota che magari prodotta con vecchie
+
+1259
+02:19:59.760 --> 02:20:06.840
+apparecchiature con qualche difetto in cui magari senti invece
+
+1260
+02:20:06.840 --> 02:20:12.439
+che questa è una nota bella una nota brutta potrebbe
+
+1261
+02:20:12.439 --> 02:20:20.080
+essere la stessa informazione però capiti che ha un difetto questa nota no
+
+1262
+02:20:20.080 --> 02:20:25.159
+bene vai con la domanda e abbiamo
+
+1263
+02:20:34.560 --> 02:20:42.160
+finito sparito allora se Massimo non fa la domanda la
+
+1264
+02:20:42.160 --> 02:20:48.120
+faccio io più che altro è una curiosità mi senti sì sì una curiosità perché
+
+1265
+02:20:48.120 --> 02:20:57.040
+quando si si fa un rapporto sulla trasmissione ehm reabilitici eh si si
+
+1266
+02:20:57.040 --> 02:21:07.600
+abbrevia in radio e non in Romeo invece eh la S si si abbrevia
+
+1267
+02:21:07.600 --> 02:21:14.800
+Santiago curiosità perché perché sono tutte e due perché sono tutte
+
+1268
+02:21:14.800 --> 02:21:20.398
+perché sono tutte e due sbagliate perché
+
+1269
+02:21:21.359 --> 02:21:28.720
+ehm nel senso R R è Romeo e è Romeo non radio però si
+
+1270
+02:21:28.720 --> 02:21:35.359
+usa radio dire radio no sì e sì ritorno
+
+1271
+02:21:35.359 --> 02:21:41.080
+alla all'inizio no quando vi ho detto modalità con cui uno può utilizzare
+
+1272
+02:21:41.080 --> 02:21:46.439
+l'alfabeto fonetico possono essere anche le più estrose alcune sono di forma
+
+1273
+02:21:46.439 --> 02:21:54.359
+diciamo gergale no ehm punto considerando anche l'ambiente è
+
+1274
+02:21:54.359 --> 02:22:00.960
+assai facile che è una cosa che che r quale più cosa più vicina a noi può
+
+1275
+02:22:00.960 --> 02:22:06.439
+essere per la radio e cacchio e siamo radioamatori ci
+
+1276
+02:22:06.439 --> 02:22:12.040
+sta scritto proprio dentro no nel senso R quale quale cosa migliore che non
+
+1277
+02:22:12.040 --> 02:22:18.399
+chiamarla radio ma eh radio non è la
+
+1278
+02:22:18.399 --> 02:22:24.439
+la il diciamo la la parola attribuita a R nell'alfabeto fonetico internazionale
+
+1279
+02:22:24.439 --> 02:22:31.720
+ma è Romeo o Romeo addirittura qualcuno dice ehm
+
+1280
+02:22:31.720 --> 02:22:37.280
+quindi dici nessuno oppure domandi a me "Tè è mai
+
+1281
+02:22:37.280 --> 02:22:45.840
+capitato di usare radio per R?" Sì mi è capitato però cerco di starci attento perché eh perché non è un valore in più
+
+1282
+02:22:45.840 --> 02:22:52.439
+ma è una complicazione in più che attribuisco alla mia trasmissione perché quella dall'altra parte specialmente se
+
+1283
+02:22:52.439 --> 02:23:01.120
+è cresciuto eh a Berlino lui per r s'aspetta Romeo perché
+
+1284
+02:23:01.120 --> 02:23:08.160
+non gli viene per la testa che uno possa usare radio cacchio ci hanno detto di usare Romeo se ci hanno detto Romeo
+
+1285
+02:23:08.160 --> 02:23:15.600
+perché dici radio che dici che non capisco perché non rientra nella mia neanche lesticità mentale no perché così
+
+1286
+02:23:15.600 --> 02:23:22.040
+deve essere così sarà e è Romeo è Romeo sia
+
+1287
+02:23:22.040 --> 02:23:28.240
+ehm quindi è un peccato veniale eh oppure un
+
+1288
+02:23:28.240 --> 02:23:34.920
+peccato che ci fa perdere il paradiso se diciamo radio no non è un peccato però
+
+1289
+02:23:34.920 --> 02:23:40.120
+se ti dovessi dire tra radio e Romeo
+
+1290
+02:23:40.120 --> 02:23:45.640
+così Romeo perché Romeo sarà tutte quelle che si aspettano che tu dica per
+
+1291
+02:23:45.640 --> 02:23:52.439
+R capito allo stesso modo Santiago che è un posto
+
+1292
+02:23:52.439 --> 02:23:58.800
+eh stupendo per per andarla a visitare magari a piedi non è il posto per dire
+
+1293
+02:23:58.800 --> 02:24:05.120
+Sierra eh perché Santiago è un utilizzo fatto dell'alfabeto fonetico
+
+1294
+02:24:05.120 --> 02:24:12.720
+specialmente in ambito di banda cittadina in cui la S viene utilizzato Santiago per
+
+1295
+02:24:12.720 --> 02:24:20.399
+dire il la lettera S E allo stesso momento in cui ricostruisco che il
+
+1296
+02:24:20.399 --> 02:24:25.600
+segnale ha un RST sarà un radio Santiago
+
+1297
+02:24:25.600 --> 02:24:31.439
+ma non è né Radio né Sant'Ago ma è Romeo Sierra è comunque RST
+
+1298
+02:24:31.439 --> 02:24:38.520
+eh quindi in ambito di CB eh potrebbe essere che uno
+
+1299
+02:24:38.880 --> 02:24:44.279
+dice arrivi con Radio 5 e Santiago 9
+
+1300
+02:24:44.279 --> 02:24:50.160
+eh in ambito radioamatoriale è un po' come se tu mettessi come dire
+
+1301
+02:24:50.160 --> 02:24:56.399
+suona totalmente fuori contesto perché non si dice né Radio né Santiago è come
+
+1302
+02:24:56.399 --> 02:25:02.439
+se tu mi dicessi è come ehm che posso dire
+
+1303
+02:25:02.439 --> 02:25:08.479
+ehm è è come questa suona come questa ti faccio questo racconto qui
+
+1304
+02:25:08.479 --> 02:25:15.319
+ehm non so se magari non tu lo sei
+
+1305
+02:25:15.319 --> 02:25:20.399
+racconto di paese c'era uno abbastanza
+
+1306
+02:25:20.399 --> 02:25:27.200
+così come posso dire contadinotto che non sapeva scegliere le parole tra quelle giuste e quelle del gergo della
+
+1307
+02:25:27.200 --> 02:25:34.680
+terra che portò una bella al ristorante quando in città e quando arrivò al momento gli disse "Fa tutto un cioncco"
+
+1308
+02:25:34.680 --> 02:25:41.000
+no per dirgli che il il conto era unico e lo pagava lui ma e questo fa tutto un
+
+1309
+02:25:41.000 --> 02:25:49.600
+cioncco al ristorante non sapeva nemmeno che cosa volesse dire fai tutto un cionco è uguale radio e radio e Santiago
+
+1310
+02:25:49.600 --> 02:25:55.680
+non è che non ha significato perché fa tutto unioncco lo capiva e al paese suo
+
+1311
+02:25:55.680 --> 02:26:01.960
+ma nel momento in cui si era spostato era andato a Torino fa tutto un cionco non voleva di niente anzi sembrava una
+
+1312
+02:26:01.960 --> 02:26:07.479
+cosa di un contadinotto no mi sono spiegato sì perfettamente ok quindi
+
+1313
+02:26:07.479 --> 02:26:16.040
+siamo non siamo perfetti ma ci rende belli proprio questa imperfezione ok grazie era curiosità sì sì sì ma questo
+
+1314
+02:26:16.040 --> 02:26:21.120
+per dirti che eh per andare a evitare magari anche situazioni di
+
+1315
+02:26:21.120 --> 02:26:27.040
+fraintendimento perché ti garantisco [Musica]
+
+1316
+02:26:27.040 --> 02:26:33.040
+ehm come diceva primo Paolo eh abbiamo siamo stati in montagna a fare una gara
+
+1317
+02:26:33.040 --> 02:26:40.279
+in cui ti metti lì e per 24 ore cerchi di tirare fuori il significato da dei
+
+1318
+02:26:40.279 --> 02:26:45.840
+collegamenti estremamente ehm come dire difficili di
+
+1319
+02:26:45.840 --> 02:26:51.720
+comprensione piccoli segnali in mezzo alla tempesta di frusci che vengano
+
+1320
+02:26:51.720 --> 02:26:59.279
+fuori e se uno dice Sierra o Santiago e io m'aspetto Sierra nel senso che io
+
+1321
+02:26:59.279 --> 02:27:04.600
+sono cerco di sintonizzare per capire se c'è una parola che capisco se uno la
+
+1322
+02:27:04.600 --> 02:27:10.760
+dice come la inventa lui io non la so quella parola lì mi diventa più difficile capirla perché non non la non
+
+1323
+02:27:10.760 --> 02:27:16.600
+so che cosa vuol dire mentre se gli sto chiedendo il nominativo e lui mi dice
+
+1324
+02:27:16.600 --> 02:27:24.840
+Romeo Romeo Sierra eh è qualcosa che assomiglia a Romeo Romeo Sierra io lo
+
+1325
+02:27:24.840 --> 02:27:30.840
+percepisco scrivo Romeo Romeo Sierra se invece lui stava dicendo Ruggero
+
+1326
+02:27:30.840 --> 02:27:36.439
+Ruggero Santiago io non so che voleva dire non mi diventa difficile
+
+1327
+02:27:36.439 --> 02:27:41.520
+comprenderlo perché ritorniamo all'inizio le parole che sono state
+
+1328
+02:27:41.520 --> 02:27:47.840
+scelte nell'ambito del fabeto fonetico sono non a caso c'hanno un motivo di
+
+1329
+02:27:47.840 --> 02:27:53.479
+efficienza cioè sono state studiate per far sì che in un ambito di situazione
+
+1330
+02:27:53.479 --> 02:28:01.200
+d'emergenza in cui un aereo ha bisogno di comunicare con la con atore di controllo dica delle cose che non
+
+1331
+02:28:01.200 --> 02:28:06.560
+siano fraintendibili che è importantissimo e quindi noi usiamola
+
+1332
+02:28:06.560 --> 02:28:12.240
+questa questo strumento che ci viene dato poi è anche abbastanza vero che se
+
+1333
+02:28:12.240 --> 02:28:19.760
+io mi metto lì e questa parola non la capisco incomincio a dirgli le R in tutto in tutti i modi del mondo perché
+
+1334
+02:28:19.760 --> 02:28:27.560
+gli dico Romeo Radio Roma Ruggero Riccardo cerco di fargliele tutte anzi
+
+1335
+02:28:27.560 --> 02:28:33.800
+magari se è pure tedesco gli dico no non glielo dico eh se è pure appunto
+
+1336
+02:28:33.800 --> 02:28:39.240
+spagnolo gli dico Santiago ecco perché non ci si riesce a capire che questa s
+
+1337
+02:28:39.240 --> 02:28:46.399
+che cosa tu mi vuoi dire m altre domande
+
+1338
+02:28:47.960 --> 02:28:56.160
+se non ce ne sono altre vi vedere solo questa cosina qui che non
+
+1339
+02:28:56.160 --> 02:29:02.600
+è compito d'esame ma è sono due slide ma sono
+
+1340
+02:29:02.600 --> 02:29:07.960
+diciamo un corollario abbastanza utilizzato abbastanza super utilizzato
+
+1341
+02:29:07.960 --> 02:29:13.680
+quando ci andiamo a a parlare di QTH quello che dicevamo prima con th la
+
+1342
+02:29:13.680 --> 02:29:21.359
+posizione in cui mi trovo è questa latitudine e longitudine oppure il nome del posto ma
+
+1343
+02:29:21.359 --> 02:29:27.279
+magari il nome del posto vuol dir poco per voi che so
+
+1344
+02:29:27.279 --> 02:29:32.720
+Gavinana piuttosto che CampoTizzoro o Pontepetri no
+
+1345
+02:29:32.720 --> 02:29:39.399
+non lo so magari Gavinana qualcuno potrebbe pensare che sono in un quartiere a Firenze invece invece un
+
+1346
+02:29:39.399 --> 02:29:44.760
+modo per dire latitudine e locitudine mi identifica in una posizione ben precisa
+
+1347
+02:29:44.760 --> 02:29:52.399
+ma sono un sacco di numeri da dire un sacco di informazioni da passare e magari basta sbagliare un numero e carta
+
+1348
+02:29:52.399 --> 02:29:58.720
+48 invece di pensare che io sia qui mi sbatacchi
+
+1349
+02:29:58.720 --> 02:30:05.600
+e che ne so in una provincia provincia diversa e in un altro stato no basta sbagliare un
+
+1350
+02:30:05.600 --> 02:30:16.319
+numero specie se tra i primi e vado tutta da un'altra parte bene e tra radioamatori esiste una
+
+1351
+02:30:16.319 --> 02:30:23.560
+convenzione che si chiama locatore ovvero una sigla che identifica diciamo
+
+1352
+02:30:23.560 --> 02:30:30.120
+ottimizza zippa comprime e approssima il
+
+1353
+02:30:30.120 --> 02:30:35.439
+il la posizione geografica in una sigla di
+
+1354
+02:30:35.439 --> 02:30:41.399
+6 8 e poi a seguire potrebbero essere di più per andare a definire un quadrato
+
+1355
+02:30:41.399 --> 02:30:46.640
+sempre più stretto fino ad arrivare alla posizione precisa ma diciamo che nel momento in cui io faccio una
+
+1356
+02:30:46.640 --> 02:30:52.920
+comunicazione con te che ti trovi a 100 km di distanza da me dirti che io sono 1
+
+1357
+02:30:52.920 --> 02:30:58.720
+km più qua o 1 km più là a te non è che ti cambia la vita ti fa piacere sapere
+
+1358
+02:30:58.720 --> 02:31:04.720
+che siamo a 100 km di distanza perché cavolo sono arrivato fin lì eh ecco
+
+1359
+02:31:04.720 --> 02:31:12.680
+questa approssimazione la si raggiunge con una serie di sigle di eh di di di
+
+1360
+02:31:12.680 --> 02:31:18.279
+cifrature ricorrenti in cui il mondo viene diviso in tanti
+
+1361
+02:31:18.279 --> 02:31:24.399
+quadratoni eccoli qua viene diviso in tanti quadratoni e ognuno di questi quadratoni
+
+1362
+02:31:24.399 --> 02:31:30.479
+è un po' come la battaglia navale del che che che si fa sui pezzi di carta
+
+1363
+02:31:30.479 --> 02:31:38.160
+no quindi eh c'è non lo vedete perché è più basso è nell'Antartide ma comunque a
+
+1364
+02:31:38.160 --> 02:31:44.760
+A a C AD A e A F a G A quindi quando mi sposto in una direzione cambio una
+
+1365
+02:31:44.760 --> 02:31:51.200
+lettera quando mi sposto nell'altra cambio l'altra e quindi fa sì che JN sia
+
+1366
+02:31:51.200 --> 02:31:57.840
+qui e quello sopra se sia Go quello accanto sia IN e questi quadratoni già
+
+1367
+02:31:57.840 --> 02:32:03.439
+distrivono una grande macroarea ma eh magari per un
+
+1368
+02:32:03.439 --> 02:32:10.000
+collegamento in onde decametrica a larga distanza capire che sono andato qui in
+
+1369
+02:32:10.000 --> 02:32:17.040
+Argentina piuttosto che qui sempre in Argentina c'è la sua porca differenza se
+
+1370
+02:32:17.040 --> 02:32:25.240
+non altro per il clima che fa eh quindi questo primo quadratone questa
+
+1371
+02:32:25.240 --> 02:32:30.279
+prima approssimazione identifica un quadratone che però magari non è
+
+1372
+02:32:30.279 --> 02:32:35.439
+sufficiente perché quando poi vado a parlare di chilometri e siamo tutti JN
+
+1373
+02:32:35.439 --> 02:32:41.000
+no ehm ma hai detto nulla se mi dici che sei JN pure te
+
+1374
+02:32:41.000 --> 02:32:46.200
+quindi ogni quadratone viene a sua volta ridiviso con lo stesso meccanismo però
+
+1375
+02:32:46.200 --> 02:32:54.439
+non parliamo più di lettere ma parliamo di carattere di di numeri quindi il quadratone io come quello JN viene
+
+1376
+02:32:54.439 --> 02:33:00.080
+ridiviso 01 come una sorta di nuova battaglia navale e ci riquadrettiamo e
+
+1377
+02:33:00.080 --> 02:33:06.920
+arriviamo a un altro livello di approssimazione quindi io ho 51 è Cork e
+
+1378
+02:33:06.920 --> 02:33:13.040
+io ho 63 è Dublino e siamo già con due numeri differenti che ci dicono una
+
+1379
+02:33:13.040 --> 02:33:19.359
+posizione sia pur nella stessa Irlanda ma diversa ma non è finito perché eh
+
+1380
+02:33:19.359 --> 02:33:26.160
+insomma 63 c'è un bel pezzo c'è pure un pezzo magari in alto ci sarà anche un pezzo di Irlanda
+
+1381
+02:33:26.160 --> 02:33:33.800
+del Nord eh andiamo a dettagliare meglio questo 63 riprendiamo il 63 e rifacciamo
+
+1382
+02:33:33.800 --> 02:33:39.000
+lo stesso gioco ridividendolo con lettere quindi in
+
+1383
+02:33:39.000 --> 02:33:44.040
+basso ci sarà Aa A a C AD AE e via via
+
+1384
+02:33:44.040 --> 02:33:50.520
+dividendo di nuovo tutto il quadratone 00 in AB AC AD e via via dicendo questo
+
+1385
+02:33:50.520 --> 02:33:57.880
+fa sì che dopo tutta questo racconto che sta sa un po' di matriosca
+
+1386
+02:33:57.880 --> 02:34:05.279
+di bambola di di di bambola russa una dentro l'altra fa sì che con
+
+1387
+02:34:05.279 --> 02:34:11.080
+questi eh tre passaggi arrivo a definire per le nostre latitudine e longitudine
+
+1388
+02:34:11.080 --> 02:34:17.600
+un quadratone di qualche chilometro che è già sufficiente per dire differenziare
+
+1389
+02:34:17.600 --> 02:34:23.080
+eh un quartiere di Firenze piuttosto che l'altro o una zona della montagna
+
+1390
+02:34:23.080 --> 02:34:29.080
+pistoiese piuttosto che un'altra eh già divide diciamo una situazione quasi di
+
+1391
+02:34:29.080 --> 02:34:34.680
+paesi ecco in cui ogni paese c'ha un locatore eh un'area
+
+1392
+02:34:34.680 --> 02:34:42.920
+geografica per cui JN 54 Ja oppure Juliet Nancy 54 Juliet Alfa
+
+1393
+02:34:42.920 --> 02:34:48.080
+identifica una porzione un quadratotto di qualche kilometro quadrato nella
+
+1394
+02:34:48.080 --> 02:34:54.960
+montagna pistoiese allo stesso modo ogni posto dove sono mi può andare lo posso
+
+1395
+02:34:54.960 --> 02:35:01.160
+andare a a codificare così non lo faccio io nel
+
+1396
+02:35:01.160 --> 02:35:08.800
+senso lo fanno i programmi lo fa Google Maps lo fa il ricevitore GPS questo si
+
+1397
+02:35:08.800 --> 02:35:16.600
+chiama Miden Locator System e ogni posto dove mi trovo mi identifica questo e nel
+
+1398
+02:35:16.600 --> 02:35:21.640
+momento in cui io faccio uno scambio di informazioni con un altro radioamatore
+
+1399
+02:35:21.640 --> 02:35:27.720
+gli dico io mi trovo e gli dico questa sigla e lui attraverso questa sigla
+
+1400
+02:35:27.720 --> 02:35:34.319
+riesce a identificare un punto e sapendo propria con un programma riesce a
+
+1401
+02:35:34.319 --> 02:35:44.520
+calcolare la distanza tra me e te che sono 50 km 100 1000 5.000 km eh danno
+
+1402
+02:35:44.520 --> 02:35:49.800
+maggior significato diciamo così alle informazioni che posso raccogliere dico
+
+1403
+02:35:49.800 --> 02:35:57.399
+"Cavolo ho fatto questa antenna e sono arrivato a eh 1000 km di distanza da dal posto
+
+1404
+02:35:57.399 --> 02:36:02.840
+dove mi trovo lo ripeto perché è tardi questo non è una cosa che viene
+
+1405
+02:36:02.840 --> 02:36:09.760
+domandata all'esame a chi mi dice là che cacchio me lo sta di a fare questa non è una
+
+1406
+02:36:09.760 --> 02:36:15.120
+cosa che un radiamatore non può non sapere perché e con questo
+
+1407
+02:36:15.120 --> 02:36:21.160
+concludo l'ambizione che
+
+1408
+02:36:21.160 --> 02:36:26.720
+portiamo questi corsi è sì portarvi a fare l'esame e a
+
+1409
+02:36:26.720 --> 02:36:34.279
+sostenerlo e a passar con ampi livelli di successo eh perché vi garantisco che
+
+1410
+02:36:34.279 --> 02:36:39.960
+è poi più facile di quello che eh vi possa
+
+1411
+02:36:39.960 --> 02:36:45.560
+venir paura di di di trovare ma allo stesso tempo abbiamo anche l'ambizione
+
+1412
+02:36:45.560 --> 02:36:52.960
+non nascosta di fare delle persone che nell'ambito radioamatoriale si possono orientare abbiano strumenti che le fanno
+
+1413
+02:36:52.960 --> 02:36:59.960
+progredire e che lì possono iniziare a imparare a fare il radioamatore dopo esserli diventati sulla carta e questa è
+
+1414
+02:36:59.960 --> 02:37:06.880
+un'informazione che senza dubbio un radiamatore utilità a sapere Silvio e
+
+1415
+02:37:06.880 --> 02:37:14.000
+utilizzerà scusa no sai cosa cosa cosa penso che
+
+1416
+02:37:14.000 --> 02:37:21.680
+sono più importanti le cose che non si debbano sapere che quelle si devono sapere
+
+1417
+02:37:23.880 --> 02:37:29.920
+e e sì cioè eh all mi piace approfondire
+
+1418
+02:37:29.920 --> 02:37:36.399
+un attimo il tema vi dico c'è qualche domanda e per poi anche concludere la
+
+1419
+02:37:36.399 --> 02:37:41.880
+registrazione e in modo non ci ha seguito potrà godere di
+
+1420
+02:37:41.880 --> 02:37:48.359
+questo sproloquio di 2 ore ok possiamo
+
+1421
+02:37:48.359 --> 02:37:55.479
+andare massimo vai una domanda così abruzzapelo
+
+1422
+02:37:55.479 --> 02:38:02.760
+per controllare l'indicativo di chiamata ritorno all'inizio so che c'è QRZ ma c'è solo
+
+1423
+02:38:02.760 --> 02:38:09.080
+questo che bisogna registrarsi dopo 10 domande ti blocca
+
+1424
+02:38:09.120 --> 02:38:15.399
+allora ci sono dompondo eh ci sono domande a tema su quello che abbiamo
+
+1425
+02:38:15.399 --> 02:38:20.439
+spiegato stasera no scusa non che questa è a tema eh ma
+
+1426
+02:38:20.439 --> 02:38:27.479
+tanto non è da da esame ok non credo chiudo la registrazione così adesso
+
+1427
+02:38:27.479 --> 02:38:32.720
+possiamo andare avanti eh come si fa ci
+
+1428
+02:38:32.720 --> 02:38:38.359
+penso io vai vai vai pure avanti Silvio ok e chiudo anche la presentazione
+
+1429
+02:38:38.359 --> 02:38:42.200
+perché tanto a sto
+
+1430
+02:38:44.399 --> 02:38:48.801
+punto e chi lo sa m

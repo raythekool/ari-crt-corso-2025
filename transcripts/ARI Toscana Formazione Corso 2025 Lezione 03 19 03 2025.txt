@@ -1,0 +1,1066 @@
+00:01 è eh l'andamento delle risposte che avete dato al al test
+00:10 della lezione 2 quella sulla legge di OM e anche qui Siete andati molto bene
+00:16 Ricordo a chi si fosse messo in contatto ora che la soglia di successo dell'esame È questa qui è il
+00:23 60% e vedo che a molte risposte a molte domande avete risposto in pieno e
+00:29 comunque di fatto siete sempre stati sopra il sopra l' 80% tranne che nella p
+00:35 e nella q e ora andiamo a vedere queste domande perché vi hanno messo leggermente più in difficoltà in ogni
+00:41 caso è una prestazione brillantissima perché il diciamo cioè l'istogramma è è quasi
+00:47 tutto ai suoi valori massimi Allora vediamo un po' quti sono le le risposte corrette
+00:57 alle alle domande eh della scorsa lezione vediamo
+01:02 un po' e poi quando arriviamo anche al calcolo dei paralleli e ci ci ci
+01:08 spendiamo qualche parola sopra Allora vado molto rapidamente Anche perché ripeto la quasi totalità di voi ha
+01:14 risposto bene se c'è qualche cosa che non che non vi torna magari intervenite e lo dite allora domanda a la legge di
+01:22 Home dice che i uguale v / r Come avete visto nostri lucidi entrambe queste
+01:28 formulazioni sono sbagliate perché V non è È r / i ma è r * i e i non è r * v Ma
+01:34 i = v / r come c'è scritto sopra la duella corretta Allora una resistenza
+01:41 attraversata da una corrente di 2 amp e dai suoi capi è localizzata una tensione di 12 V Quanto vale la resistenza qui
+01:49 per le domande di questo tipo e sicuramente nell'esame ve ne troverete diverse ricordate che l'altra volta si
+01:55 era dato quel piccolo metodo No cioè cercate i dati del problema i dati qui sono la corrente e la tensione bisogna
+02:02 calcolare la resistenza Quindi si deve come prima cosa trovare la formula giusta da usare che è r = v / i a questo
+02:10 punto V12 / i 2 12 / 2 6 ed ecco qua il
+02:15 risultato corretto un generatore reale di tensione può essere rappresentato come un
+02:22 generatore ideale di tensione con ins seri una resistenza interna la resistenza interna in qualche modo nel
+02:28 modello del generatore ideale E fa sì che la tensione di uscita progressivamente si abbassi quanto più
+02:36 corrente si assorbe dall'alimentatore e questo è il comportamento più o meno normale di tutti gli alimentatori di
+02:42 tutti i generatori reali diciamo no che e più vengono messi sotto sforzo No più
+02:48 corrente si assorbe e più la tensione di uscita tende leggermente a calare
+02:53 e domanda D Questa è la formula classica la resistenza di due resistori collegate
+02:59 in serie e la somma di 2 R1 + R2 anche qui siamo nel campo delle
+03:04 formule domanda è come si calcola la resistenza totale R di un circuito formato da tre resistenze R1 R2 R3 la
+03:11 formula è questa 1 / r = 1 / R1 + 1 / R2 + 1 / R3 questa formula matematicamente
+03:20 parlando si può esprimere anche in un altro modo che è quello che avete sulle slide che è r = 1 / questa somma qui 1 +
+03:29 R1 + 1 + R2 + 1 + R3 e si tratta semplicemente di un diciamo
+03:36 di di un passaggio matematico Ok allora Scusate un attimo solo
+03:44 [Musica] ehm Scusate ho un avviso per la regia e
+03:51 Fabrizio allora mi è arrivato un sms di Pierangela Pierangela Copernico che
+03:56 vorrebbe ascoltare la lezione di stasera però ha probabilmente ha solo il link della serata di presentazione
+04:03 eventualmente puoi mandare ad Andrea o a Lucia l'indirizzo di stasera che loro conoscono l'indirizzo suo glielo girano
+04:10 Grazie bene fatto ok chiuso parentesi Scusate cose di servizio Allora ecco
+04:18 collegando in serie due resistori uno da 1 Ohm e l'altro da 2 ohm ovviamente 3
+04:23 ohm si è visto sopra la formula della serie No la resistenza di stor in serie R1 + R2
+04:31 domanda G Questa è un pochino più già un pochino più simpatica diciamo cioè se si
+04:37 raddoppia la corrente che attraverso una resistenza la tensione ai suoi capi quanto vale e intanto bisogna capire che
+04:44 formula usare No La resistenza è un valore dato la corrente è un valore dato
+04:50 che si può raddoppiare la domanda chiede la tensione Quindi bisogna usare la formula v = r *
+04:57 i v = r * i quindi la tensione è direttamente proporzionale alla corrente
+05:03 che attraversa la resistenza e quindi se Raddoppia la corrente la tensione
+05:08 Raddoppia domanda h che Scusate Ecco che
+05:14 Che effetto ha una resistenza di un circuito elettrico la resistenza Come dice il nome resiste quindi si oppone al
+05:22 flusso di elettroni Si oppone poco si oppone tanto in funzione del suo valore in ohm Ma la resistenza ha l'effetto di
+05:28 opporsi al flusso di elettroni Altra domanda un altro piccolo calcolo una resistenza da 500 ohm collegata in serie
+05:36 una da 200 vale la somma No una serie quindi 500 + 200 700 Ed eccolo qua ecco
+05:41 e Qui si comincia con le cose più ardue il parallelo collegando tre resistenze
+05:46 in parallelo rispettivamente da 15 24 e 37 ohm la resistenza
+05:53 totale prego è un errore di quala pure Eh
+06:01 scusami Paolo AV il microfono acceso Perdonami Ok nessun problema Dicevo
+06:07 collegandoti alle resistenze 15 24 e 37 la resistenza totale sarà D Dunque qui
+06:12 si può arrivare a questa risposta in due modi uno facendo i conti la formula è
+06:19 quella che avevamo visto prima in un'altra domanda è questa qua per l'appunto con tre resistenze si calcola
+06:25 1 / R1 poi ci si somma 1 / R2 poi ci si somma 1 div R3 E tutto questo numero che
+06:32 si ottiene dopo aver dato un totale si fa 1 diviso il numero che si ottiene è
+06:39 un po' faticoso da calcolare E dov'è Scusate Eccolo Eccola qui la
+06:45 domanda è un po' faticoso da calcolare E da questo punto di vista Vi consiglierei appunto di procurarvi una piccola
+06:51 calcolatrice e per questo tipo di conti qui imparare a usarla perché Questa potrebbe essere una domanda che
+06:57 all'esame ci si ritrova con un po' di allenamento la s la risolve all'esame una piccola calcolatrice si può ottenere
+07:03 e si tratta semplicemente di usare i numeri giusti poi avremo fra qualche
+07:08 settimana una lezione proprio su questo no Come si usa quel po in matematica che serve in ogni caso questo se qualcuno di
+07:15 voi si spaventasse Non c'è niente di più complicato di questa formula qui cioè in tutte le prossime lezioni i calcoli che
+07:22 dovremo fare saranno più facili Però come vi avevo detto la scorsa settimana molte volte in questo tipo di domande
+07:30 non c'è bisogno di fare i conti perché molte volte la risposta viene con un po' di intuito vi ricordate che quando si
+07:37 mettono Resistenza in parallelo il valore di un parallelo è sempre più basso di tutto quello di ogni singola
+07:44 Resistenza Quindi se metto in parallelo tre resistori da 15 24 e 37 la
+07:50 resistenza totale per forza è più bassa di ciascuno di questi tre valori quindi
+07:56 il 37 ohm si scarta perché è sicuramente sballato a questo punto devo scegliere
+08:04 fra il 7 e il 13 Qui ci vuole un po' d'occhio Posso aiutarmi con un certo
+08:11 lavorando un po' occhio vi dico come lo farei io con l'occhio mio poi ognuno si trova la sua strada
+08:17 Allora calcolare il parallelo di tre resistenze effettivamente è un po' complicatio Ma concentriamoci su queste
+08:23 due 24 e 37 24 e 37 sono due resistenze che
+08:29 somigliano tutti e due a 30 ohm questa Il 24 è un po' più piccolo di 30 il 37 è
+08:35 un po' più grande di 30 proviamo a calcolare un parallelo di 30 + 30 due
+08:40 resistenze da 30 Oh in parallelo come sapete danno 15 Queste 15 ohm che ottengo dal
+08:47 parallelo di 24 e 37 le metto in parallelo all'altra 15 15 e 15 in
+08:52 parallelo fa più o meno 7 e me ed ecco qui la risposta Quindi con un po' di occhio un
+08:58 po' di naso un po' di fortuna e si può evitare di fare i conti in ogni
+09:03 caso appunto vi consiglio di dotarvi di una piccola calcolatrice che non sia quello dello Smartphone perché lo
+09:09 smartphone non si può tenere lì all'esame ovviamente e abituarvi a fare questi conti poi si parla praticamente
+09:15 di somme moltiplicazioni e divisioni no Quindi niente di complicato ci sarà una serata su questo come vi
+09:25 dicevo Scus Scusa Paolo posso intervenire un secondo
+09:30 su questo una un altro sistema poteva essere utilizzare la formula che ho
+09:36 visto che vi ha spiegato Paolo la volta scorsa alla domanda di un po' più sopra Paolo Se scorri un
+09:44 attimo c'era quella vi ricordate alla domanda D
+09:50 Allora eccola qui vedete la lì Uno poteva fare anche così prima
+09:58 uno si calcola il parallelo delle prime due resistenze con questa formul semplificata R1 * R2 / R1 + R2 e trovai
+10:10 Praticamente il parallelo delle prime due resistenze come valore con quel
+10:16 valore del risultato rifà un'altra volta Questa stessa formul con il parallelo
+10:22 con la terza e quindi uno troverebbe Comunque il risultato quello quello giusto e la la
+10:29 cosa da ricordare sono che comunque il valore come diceva Paolo è sempre più
+10:34 basso della Resistenza più bassa Quello è sicuro questa formula serve per due
+10:41 resistenze in parallelo quando ce ne sono tre uno può trovare anche questo artifizio qui
+10:48 calcolarsi prima il parallelo delle prime due con il risultato delle prime due rifà un'altra volta in parallelo con
+10:55 la terza usando la stessa formula semplificata per non incassino
+11:01 Perfetto grazie Sauro perfetto eh Anch'io vorrei dire una cosa su questo
+11:06 facendo il con non viene 7,38 viene 7,39 va bene da arrotondamenti
+11:13 arrotondamenti arrotondo perché 7,38 7 e
+11:19 quindi si arrotonda 7,39 non 7,38 Sì però Eco non è per Pigno
+11:26 leggiare su questa cosa qui è nei quiz si suppone che si arrotondi si suppone
+11:32 che si tronchi si suppone che si faccia cosa Eh allora Bisognerebbe essere nella
+11:39 testa di tutte le persone del ministero che hanno preparato queste domande e quindi di fatto la tua domanda è
+11:45 impossibile dare una risposta e come vi avevo accennato in questi quiz
+11:51 a volte ci sono delle frasi che non sono chiarissime a volte ci sono delle forme gergali alcuni detto fra noi sono anche
+11:57 sbagliati pochissimi ma ci sono alcune risposte sbagliate e bisogna ragionare cercando la risposta
+12:06 migliore la risposta corretta la risposta migliore la risposta diciamo più plausibile Ok ok la migliore allora
+12:14 è 7,38 anche se il risultato sarebbe 7,39 ok Esatto es Esatto Esatto Esatto
+12:20 esatto questi diciamo i quiz del ministero non sono perfetti non sono perfetti bisogna abituare a convivere
+12:27 con questa imperfezione Ok Allora continuo domanda m facilissima
+12:34 perché siamo di nuovo nel caso delle resistenze in serie 1 kohm ovvero 1000
+12:39 ohm collegato a un altro resistore da 3 kohm 3 + 1 4 4 kohm Eccolo
+12:45 qua ecco un resistore da 30 kohm collegato in parallelo a un resistore da
+12:51 15 da 15 equivale a e qui vale la la regola spannometrica di cui abbiamo
+12:58 parlato prima no Nel senso che diciamo sicuramente togliamo il 45 che è sbagliato bisogna scegliere fra 10 e 8
+13:06 Qui fortunatamente Ci sono solo due resistori in parallelo Se ci si ricorda la formula la si usa quindi 30 * 15 che
+13:15 fa 450 / 30 + 15 che fa 45 450 / 45 il
+13:21 risultato Eccolo qua 10 kohm Eh posso intervenire un attimo vai chi sei Sono
+13:28 Giorgio Sono Giorgio Allora vai Giorgio Allora ho messo anch'io correttamente 10
+13:33 kohm Però se avessi seguito la slide quella che avevi proiettato te quindi la
+13:39 pagina 24 di 26 dove si diceva resistori in parallelo in caso di due più diversi
+13:45 Scegliete il valore più piccolo tra le risposte possibili avrei sbagliato Sì
+13:50 perché perché quella Quella quella frase lì quella esatto che avrebbe tratto l'
+13:56 inganno Perché se avessi seguito quella slide avrei hai segnato OT ma ho fatto i calcoli algebrici e e viene 10 Sì allora
+14:04 perché quella slide lì è proprio l'ultimissima ciambella di
+14:10 salvataggio Nel senso che di fronte a una domanda di questo genere ehm uno ci può arrivare facendo i conti
+14:17 con la calcolatrice uno ci può arrivare facendo i colti ad occhio uno ci può arrivare con una combinazione di formule
+14:22 diverse se proprio uno non la sa se proprio una non la sa uno butta una risposta a caso e la
+14:30 cambella salvataggio Se uno c'ha la calcolatrice risolve Esatto Esatto cioè
+14:36 chiaramente il mio consiglio quello che vi avevo detto prima Cioè vi procurate una calcolatrice sarà la vostra la
+14:42 vostra fedele compagna di esame e riprenderete un po' pratica nell' usarla certo Perfetto Ok è così che si
+14:51 fa se proprio uno non ci si trova se deve andare a caso non non scegli il 45
+14:57 che è sicuramente sbagliato scegli uno dei valori piccoli probabilmente il più piccolo Boh c'è un 50% di probabilità
+15:04 meglio che niente Ok ok Grazie Paolo posso dirmi una cosa vai Chi sei Son
+15:11 Massimo vai Massimo e io l'anno scorso l'avevo portata la calcolatrice e non ce
+15:20 l'hanno fatta usare quindi non so cosa stia succedendo però
+15:25 e la calcolatrice sarebbe ammessa formalmente sarebbe ammessa e e loro non
+15:30 ce la peso usare se ne se ne riparlerà Quest'anno con la commissione Toscana Ok
+15:37 va bene Ciao Massimo Ho capito chi sei Ciao allora torno lì sulla domanda n
+15:44 Anch'io ho letto la slide e tacc ho messo 8 K poi dopo il giorno dopo sono
+15:50 andato a rivedere dico no era 10 ma ormai avevamo già in fiato per il resto mi sembrano sono tutte perfette bravo
+15:58 bravo bravo bravo no n l'ultima ho messo 600 W ora ci arriviamo alla ultima
+16:04 allora domanda o domanda ho
+16:09 arriviamo comunque du su 15 un'ottima prestazione dai sei du su 15 se ma Dev
+16:17 devo rimettermi a fare il conto quella famosa da 3 da 15 24 eh C ho fatto la
+16:23 testa ma devo sbucciarla Sì sì ma tu ma tu resisti così cerca di mantenerti su questi valori se sbagli una du tre
+16:30 domande su ogni quiz comunque sarei passato alla grande Ok ok Grazie a te
+16:36 allora domanda o ne abbiamo parlato varie volte adesso Chiaramente in parallelo due resistori il valore che ne
+16:42 risulta non è pari al prodotto non è pari alla somma ma è sempre minore del valore delle due resistenze E queste
+16:49 sono le uniche due domande che vi hanno messo un po' più in difficoltà e diciamo
+16:54 riguardano entrambe la potenza domanda P quale potenza quanta Potenza deve erogare un generatore di tensione
+17:01 continua per mantenere una tensione di 10 v ai capi di un resistore da 5 ohm Allora a questo punto per queste domande
+17:08 non non potete sbagliare di più delle domande sulle resistenze perché il metodo di lavoro è esattamente lo stesso
+17:14 leggete bene la domanda e guardate Quali sono i dati qui i dati sono la tensione
+17:20 V e il valore della Resistenza 5 ohm Quindi voi A questo punto conoscete tre
+17:27 formule per il calcolo della potenza dovete scegliere la tensione che dà la potenza in funzione di questi due dati v
+17:36 e ohm Chi Chi di voi mi dice Qual è la formula corretta da
+17:45 usare Dai Non fate Idi P = = V quad / R
+17:51 perfetto P = V qu / R era una delle tre formulazioni che avevamo visto No tutte
+17:58 e tre giuste per il calcolo della della potenza dissipata da un resistore V qu /
+18:04 R perché scelgo quella formula lì perché dati del problema sono questi la v e la
+18:09 R A questo punto V quad vuol dire 10 * 10 10 * 10 mpli 10 m 10 dà 100 come
+18:18 risultato 100 / 5 20 W Ed eccolo qua il valore corretto c'è qualche dubbio su
+18:25 questo c'è qualche domanda vedo Nicola con la mano al Sì buonasera E vabbè troppa troppa roba
+18:33 da ricordarmi praticamente tirato fuori la corrente poi l'ho Morata per la tensione va bene va ugualmente Bene Usi
+18:42 la legge di Ohm ti calcoli la tensione e poi esatto ti calcoli la corrente scusa
+18:48 e poi fai V per i un'altra domanda sempre relativa al fatto calcolatrice
+18:56 ma una sorta di fogliaccio per la brutta viene concesso nel senso
+19:03 io Sì ve lo danno loro scocchi ecco per
+19:08 ve ve lo danno loro ve lo danno loro un foglio per per la brutta a posto grazie
+19:14 Allora Ultima domanda Vale esattamente lo stesso discorso di prima un resistore
+19:19 da 200 ohm attraversato da una corrente di 3 amp quanta potenza dissipa Allora i dati sono questo primo dato il valore
+19:27 del del resistore 200 Ohm e la corrente quindi fra fra tutte le formule che
+19:32 abbiamo visto la scorsa settimana serve una resistenza che dia il valore della
+19:38 potenza in funzione di r e in funzione di i la corrente qual è questa formula
+19:44 Chi me lo dice sempre
+19:51 io per r e p = r m i qu Allora partiamo
+19:58 da i 3 amp 3 amp al quadr vuol dire 3 * 3 cioè 9 9 * 200 1800 Ed eccola qua Ok
+20:07 quindi interrompo la condivisione così ci ci vediamo quindi il il metodo alla
+20:12 fine è sempre lo stesso per tutte queste domande che riguardano calcoli serie
+20:17 parallelo potenze eccetera dovete leggere bene la domanda capire bene capire i dati che la
+20:25 domanda vi dà e questi dati saranno sempre due numeri ovviamente e trovare
+20:31 la formula giusta fra le fra quelle che abbiamo visto le tre formulazioni delle
+20:37 legge di Ohm e le tre formulazioni del calcolo di una potenza dissipata da un resistore e usare quella formula tutto
+20:44 qua ok E così avete successo m buono Comunque complimenti Siete stati
+20:51 sopra l' 80% bravissimi Allora adesso non ci sono domande
+20:57 e dentri viamo nel tema di stasera rimetto lo schermo in
+21:04 condivisione Allora intanto dove siamo siamo alla terza lezione abbiamo fatto
+21:10 nella prima lezione le grandezze elettriche elettroniche di base quantità di carica corrente tensione differenza
+21:18 di potenziale potenza nella seconda lezione in corrente continua abbiamo
+21:23 visto il resistore e la legge di Ohm di conseguenza adesso stasera entriamo
+21:29 nella corrente alternata poi per informazione nelle prossime due lezioni
+21:35 parlerete degli altri due importantissimi componenti passivi che sono il condensatore e l'induttore ne
+21:41 parlerete con Sauro che è l'amico che prima è intervenuto No sulla domanda delle resistenze in parallelo
+21:47 e E con quello di fatto si conclude la parte più sulla elettronica poi si
+21:54 entrerà nella parte di radiotecnica Quindi queste cose viste in queste lezioni in condensatori eccetera
+21:60 eccetera cominceremo in qualche modo ad usarle in campo radioelettrico e quindi
+22:05 cominceremo a parlare di filtri Poi parleremo di trasmettitori ricevitori e quant'altro come da dal programma che
+22:11 che vi abbiamo mandato Quindi stasera stasera Un attimo
+22:20 solo stasera parliamo della corrente alternata in particolare la una domanda
+22:26 Certo Vai Francesco non ho capito bene la cosa il
+22:31 calcolo questo p = v / r v qu di
+22:38 qu Allora il calcolo il calcolo il calcolo Aspetta eh che recupero le
+22:49 slide Eccolo qua Allora Ecco Queste sono le slide
+22:54 della lezione precedente vado un attimo rapidamente Ecco allora avevamo detto nella lezione
+23:04 precedente che la potenza dissipata da un resistore di base
+23:11 Vale questo valore qua questa è proprio metto il pennarello se ci riesco questa
+23:18 cosa che vedi qua a sinistra è proprio la definizione della potenza dissipata
+23:24 da un resistore un resistore dissipa una potenza
+23:29 di valore pari al prodotto alla moltiplicazione fra la tensione che ha i suoi capi e la corrente che l'
+23:35 attraversa p = v m i è chiaro questo
+23:41 Francesco più o meno Più o meno va bene Mi piace questo
+23:47 più o meno Bravo quindi ti possono dire che Che potenza dissipa un resistore di
+23:54 10 Ohm Scusate Ricomincio che potenza dissipo un resistore che ha i suoi capi
+24:01 una tensione di 10 v ed è attraversato da una corrente di 2 amp Questa è una
+24:07 tipica domanda No i dati sono la tensione 10 e la corrente 2 Che potenza
+24:13 dissima Disa si fa 20 Wat watt la potenza si
+24:19 misura in watt Sì sì ok si misura in Wat come le stufe elettriche
+24:26 come gli amplificatori di bassa frequenza eccetera
+24:32 eh da questa formula che è è proprio la formula che definisce la potenza
+24:38 dissipata da un resistore se ne possono ricavare se ne possono ottenere altre
+24:43 due che sono questa E questa e portano tutte ovviamente lo
+24:49 stesso risultato per passare da questa formula che è qua a sinistra a queste due formule che sono qua a destra si
+24:57 sostituisce in questa Form V oppure
+25:02 i usando la legge di Ohm Allora la la legge di Ohm cosa ci dice ci dice che v
+25:08 = i * r la tensione è uguale al prodotto fra la corrente e la resistenza Quindi
+25:16 io in questa formula qua posso cancellare questa v e la sostituisco
+25:21 invece con i mli r ora Scusate ma ho un oggetto con cui scrivo molto male Però
+25:30 ripeto mi mi sto attrezzando Quindi questa V l'ho cancellata perché V mi dice la legge di
+25:39 Ohm è assolutamente uguale a i * r quindi in questa formula cancello la v e
+25:44 ci scrivo i * r Allora cosa resta in questa formula restano questo i mollicato r che in origine erao la V che
+25:51 io ho cancellato sostituendola con il prodotto di per R poi c'è di nuovo un
+25:57 per i che sarebbe questo i qua qua della formula che resta quindi ho i
+26:04 moltiplicato i un'altra volta moltiplicato r i moltiplicato i un'altra volta mi dà i al quadrato Ed eccolo qua
+26:13 moltiplicato R ti ti torna Francesco apri la bocca ok Capito Ok la
+26:23 stessa cosa La stessa cosa vale per l'altra Scusate Vi devo chiedere
+26:29 un attimo di pausa
+27:22 Ok Rieccomi Scusate l'interruzione allora
+27:36 Allora dunque ci sono altre domande posso
+27:42 riprendere Allora vado
+27:52 proseguiamo Si si vede lo schermo
+27:59 confermo Paolo Sì sì Sì sì perfetto Allora dicevamo e stasera iniziamo sul
+28:05 tema della iniziamo la corrente alternata abbiamo visto nella scorsa riunione la corrente continua e la
+28:12 corrente continua avevamo detto che è una corrente che scorre in Scusate che
+28:18 scorre in un solo senso quindi Uffa Scusate
+28:23 Ecco scorre in un solo senso dal la corrente a avevamo visto che è un flusso
+28:30 di cariche elettriche cioè un flusso di elettroni di cariche negative che scorrono dal polo negativo al polo
+28:36 positivo di un generatore di una pila di una batteria di un alimentatore e la
+28:41 corrente continua scorre sempre Appunto eh in un solo verso perché è in qualche
+28:48 modo alimentata da una tensione continua cioè da una tensione dove il il il
+28:54 nostro generatore ha un polo positivo che è sempre positivo e ha un polo negativo che è sempre Negativo invece la
+29:01 corrente alternata è una corrente che inverte il senso di scorrimento un certo numero di volte
+29:08 nell'unità di tempo appunto n volte nel nell'unità di tempo
+29:13 eh quindi il generatore non ha più un polo positivo e un polo negativo ma ha
+29:19 semplicemente due poli perché la tensione fra quei due poli Eh Si alterna
+29:25 A volte uno di questi Poli è positivo in un istante l'altro è negativo l'istante successivo cambiano di conseguenza la
+29:33 corrente nel nostro circuito cambia il senso di scorrimento quindi si potrebbe
+29:38 dire che va e torna rispetto al generatore Eh è una corrente generata da una
+29:44 tensione alternata ed è prodotta da degli oggetti specifici che sono chiamati alternatori Poi vedremo in
+29:50 linea di massima un alternatore come come costituito e questo è è è uno schema generale di circuito in in
+29:60 corrente continua Eh c'è appunto un generatore che era una tensione V vedete che nella scorsa
+30:08 lezione la tensione la chiamavamo v e basta No perché era una tensione che
+30:13 magari valeva 12 vol il suo valore era costante nel caso della tensione continua la tensione varia col tempo
+30:19 questo vuol dire vdt quindi questo può essere un generatore che ha una tensione massima di 12 V però essendo la corrente
+30:26 alternata questo valore Può variare nel tempo e e Ora vedremo come Ecco questo è
+30:33 appunto l'andamento del tempo che che può avere una corrente alternata in rosso vedete Eh la
+30:43 corrente continua che è quella di cui abbiamo parlato appunto mercoledì scorso che ha un valore che si può leggere qui
+30:50 su su quest'asse verticale no sull'asse delle ordinate ha un valore costante nel tempo che potrebbe essere di 1 ampere Ad
+30:56 esempio la corrente altern ATA invece a una corrente che istante per istante cambia valore la
+31:05 cosa che vedete rappresentata qui è una corrente alternata di tipo sinusoidale
+31:10 questa forma qua Eh sinuosa appunto no che ha parte da
+31:16 zero a un picco massimo poi con continuità senza spigoli scende giù fino
+31:22 a un valore minimo e poi risale è una sinusoide la sinusoide in campo
+31:28 elettronico ha moltissime caratteristiche moltissime proprietà che le le le vedremo diciamo poi
+31:35 eh in parte stasera in parte nelle prossime lezioni e vedete che appunto questa corrente alternata istante per
+31:42 istante rispetto al tempo che scorre che è indicato qua nell'asse orizzontale ha
+31:48 un valore che appunto in certi momenti sale arriva a un massimo poi scende fino a un minimo quaggiù e poi risale Eh e e
+31:57 così via e continua nel nel
+32:02 tempo della di una corrente alternata si possono dare alcuni alcuni elementi
+32:10 alcuni dati cioè la si può caratterizzare con con dei numeri Intanto il primo numero è la frequenza
+32:16 la frequenza e tutti per esempio sappiamo che a casa nostra l'Enel o chi
+32:21 per lei che ci fornisce corrente elettrica energia elettrica la la la
+32:26 corrente elettrica che otteniamo dall'enel Ovvero la tensione che otteniamo dall'enel e che ci fa scorrere
+32:32 poi corrente elettrica nei nei nostri dispositivi ha una frequenza di 50 Hz
+32:38 Cosa vuol dire 50 Hz vuol dire che in un'unità di tempo cioè nel secondo in un
+32:44 secondo questo ciclo alto basso viene ripetuto 50 volte quindi diciamo se se
+32:53 noi osservassimo con uno strumento opportuno che poi si chiama oscilloscopio e vedremo anche a cosa
+32:60 diciamo come è fatto e a cosa serve se noi osservassimo uno strumento appunto
+33:05 che riesca a visualizzarle forme d'onda se noi osservassimo quello che la l'Enel
+33:11 ci fornisce alle alle prese di casa vedremo una tensione di questo genere di tipo sinusoidale e questa tensione per
+33:18 50 volte al secondo fa un ciclo completo partendo da zero arrivando a Massimo
+33:24 scendendo a minimo e poi tornando a zero 50 volte al secondo
+33:29 e noi Poi parleremo di un campo radio diciamo Normalmente le Eh la frequenza
+33:37 dei segnali che sono per esempio prodotti da un trasmettitore normalmente sono molto più alti si parla per esempio
+33:43 di frequenza dell'ordine di MHz cioè di milioni di Herz in questo caso un trasmettitore
+33:50 eh Questi di questi cicli completi ne produce 1 milione al secondo o 10
+33:57 milioni al secondo se stessimo parlando di un trasmettitore che ha una frequenza di 10 MHz Quindi in sostanza la
+34:04 frequenza è il numero di volte che un'onda si ripete completamente
+34:10 nell'unità di tempo il numero di cicli al secondo c'è un'altra unità di misura che
+34:17 è collegata a questa che è il periodo Nel senso che la nostra sinusoide scorre
+34:24 nel tempo chiaramente No in certi momenti è un valore a Massimo certi volenti in certi momenti è un valore
+34:31 minimo e così via io posso misurare il tempo che passa fra due punti omologhi
+34:38 della mia sinusoide fra due punti corrispondenti per esempio qui in questo grafico viene bene misurare sul sul
+34:45 Picco no sul momento di massima tensione Come viene fatto qua vedete dove c'è Appunto questa questa freccia rossa con
+34:52 sopra la lettera t maiuscola io posso misurare con un
+34:58 opport uno strumento che poi alla fine è una sorta di cronometro Se vogliamo però realizzato in termini elettronici il
+35:04 tempo che passa fra due momenti fra due punti omologhi della sinusoide e questo
+35:11 intervallo di tempo è chiamato il periodo Eh il periodo è l'intervallo di tempo
+35:20 necessario per far trascorrere un intero ciclo della
+35:25 sinusoide il periodo si misura in secondi e molto spesso in realtà poiché
+35:30 le sinusoidi sono veloci come dicevo prima si usano i sottomultipli per esempio i decimi di secondo centesimi di
+35:36 secondo e millesimi di secondo in Questa sinusoide che vedete qui vedete che il periodo
+35:41 Eh si esprime in MS che sarebbe millisecondi Allora vediamo questa cosa
+35:49 anche con con un esempio eh la frequenza
+35:56 Intanto è l'inverso del periodo cioè la frequenza
+36:02 mi dice che in un secondo la mia onda ha un certo numero
+36:08 di cicli immaginiamo che questi cicli siano 50 i 50 Hz dell'Enel l'Enel mi dà
+36:15 una tensione di di frequenza pari a 50 Hz 50 Hz
+36:21 voglio dire 50 cicli al secondo quanto dura il mio
+36:27 ciclo se in un secondo ne ho 50 di questi cicli il mio in un secondo ce ne
+36:33 devono stare 50 quindi il singolo ciclo dura 150o di
+36:40 secondo per cui se io conosco la frequenza
+36:47 eh scusate se io conosco il periodo il periodo è uguale a 1 Dio la frequenza se
+36:54 io faccio 1 / 50 il dell'Enel in un secondo mi devono passare 50 cicli 1 /
+37:04 50 1 di 50 Hz ottengo come risultato
+37:10 0,02 ovvero 20 mondi il periodo di un'onda della
+37:18 frequenza di 50 Hz è 1/50 di Hz se io con la calcolatrice mi calcolo 1/50 ho
+37:27 0,02 come risultato 20 misei posso fare la stessa cosa a
+37:32 rovescio questa formula queste due formule lavorano sugli stessi dati no f
+37:38 t f è la frequenza T è il periodo e se il periodo È l'inverso della
+37:44 frequenza le frequenze l'inverso del periodo nel caso dell'Enel dovrei fare 1
+37:50 / 0,02 e il risultato se lo Provate a fare è 50
+37:58 quindi dire che una un'onda ha una frequenza di 50 Hz o un periodo di 20
+38:07 misei è esattamente la stessa cosa è esattamente la stessa cosa esattamente la stessa onda semplicemente quando
+38:15 specifico il periodo dico quanto tempo impiega l'onda a ripetersi quando invece
+38:22 parlo in termini di frequenza dico quanti per quanti cicli comp della mia
+38:28 onda ho in un secondo quindi ho nel nell'unità di tempo interrompo la
+38:34 condivisione così ci vediamo un attimo e vorrei sapere Appunto Se se ci sono domande su questo se è
+38:41 chiaro cosa significa frequenza Cosa significa periodo a te Mattia Ciao ragazzi Buonasera a tutti
+38:49 Paolo una informazione ignorantemente nella frequenza ci possono essere più
+38:55 periodi alternati non so se mi sono spiegato bene quindi
+39:00 prova R Ok nella frequenza il periodo non essendo deve
+39:07 essere sempre uguale o possono essere anche alternati quindi più piccolo più grande piccolo più
+39:13 grande allora non so se mi sono spiegato Allora in un in un'onda sinusoidale Ok
+39:20 in un'onda sinusoidale in un'onda sin posso essere alternate i periodi praticamente possono essere alternate
+39:25 Quindi c'è il picco alto il picco basso uguale poi più piccolo più piccolo Poi ritorniamo più alto più alto Non so
+39:32 sempre se mi sono spiegato bene Sì allora la la risposta è sì la risposta è sì diciamo che in quindi ci sono due
+39:39 periodi da calcolare in quel caso potrei calcolare due periodi sì ni in realtà in realtà
+39:48 diciamo Si si può vedere la cosa in un modo diverso che scusa rimetto un attimo
+39:54 la lo schema la slide la slide Esatto usiamo questa come come
+40:01 riferimento la rimetto in in tutto schermo Allora Anzi facciamolo Qui si
+40:07 vede meglio Allora questa è un'onda sinusoidale aspetta Paolo scusami se
+40:14 però Paolo eh Ah scusa hai ragione hai ragione T TAC
+40:20 un attimo che ci posso arrivare ricondivido lo schermo Eccolo qua Ed ecco la nostra la nostra sinuso
+40:29 Allora la tua domanda diamo che la seconda arriva che ne so A4 e a du ovviamente e poi riparte Ok sì
+40:38 allora allora la tua domanda è molto interessante perché mi fa diciamo ci
+40:44 porta a dire una cosa su cui poi avremo la lezione Specifica allora questa questa forma d'onda come vedete ha due
+40:51 cose che sono costanti intanto la sua ampiezza vedete che tutti questi picchi
+40:56 Vediamo se riesco accidentaccio non so perché ho Eccolo qua non Scusate non
+41:03 trovavo più il pennarello cioè tutti questi picchi sono di fatto alla stessa altezza però Esistono delle
+41:10 onde di fatto pure sinusoidali in cui questa cosa non vale in cui ad esempio
+41:17 io posso avere Se questa è l'asse di riferimento posso avere dei momenti in
+41:23 cui la mia sinusoide è una certa altezza e dei momenti in cui l'altezza è più
+41:29 bassa e poi magari si torna a un'ampiezza di nuovo alta in questo caso si dice che la sinusoide è modulata in
+41:36 ampiezza perché lo si fa perché si fa questo si fa perché ci serve cioè la
+41:41 modulazione di ampiezza è uno dei modi di trasmettere un segnale radio Quindi io posso avere dei cicli
+41:48 della mia sinusoide di una certa ampiezza e il ciclo successivo può essere più alto oppure più basso può
+41:55 accadere anche un'altra cosa in questa in questa sinusoide l'altra
+41:60 cosa che è costante cioè uguale di ciclo in ciclo non è solamente l'ampiezza ma è
+42:06 anche la frequenza o il periodo Vi ho detto che parlare di frequenza o parlare di periodo il concetto è esattamente lo
+42:13 stesso No mi dice quanto rapidamente varia la mia sinusoide e qui ogni periodo di questa sinusoide
+42:22 quindi l'arco di tempo che intercorre tra qua e qua l'arco di tempo che Inter Cor tra qua e qua e così via sono sempre
+42:29 uguali io potrei avere delle sinusoidi in cui questa cosa non vale e quindi
+42:35 potrei avere delle sinusoidi in cui alcuni periodi sono un po' più lunghi e
+42:41 alcuni periodi invece sono più corti Ovvero la frequenza è più bassa e poi la frequenza è più alta questo per esempio
+42:48 si usa nei trasmettitori in modulazione di frequenza la frequenza della sinusoide
+42:55 cambia diventando un po' più alta diventando un po' più bassa attorno a un valore di riferimento che come Vedremo è
+43:02 il valore della portante Quindi la risposta alla tua domanda è sì certo che sì ci sono molte forme d'onda che
+43:09 volutamente Variano in cui volutamente la sinusoide viene variata in ampiezza e
+43:15 viene variata anche in frequenza Ok Mattia Perfetto grazie mille grazie
+43:21 grazie a te a te Luigi Sì no era era giusto per
+43:26 eh capire la differenza tra periodo e frequenza per fare un esempio proprio banale terra terra è un po' come
+43:33 esprimono lo stesso concetto un po' come il consumo dell'auto si può indicare
+43:39 litri per 100 km o kmet per litro Ecco la stessa la stessa cosa Sì sono due
+43:47 forme che anche quelle sono una è reciproco dell'altra litri su chilometro Kilometro
+43:53 su Kilometro per per litro sono quasi reciproco nel caso della nostro è un reciproco perfetto F = 1 / t frequenza =
+44:01 1 / periodo periodo = 1 / frequenza e quindi dipende dal come al
+44:11 solito dipende dal tipo di dato che Scusate se io vi riporto sempre lì vi riporto le domande del ministero
+44:17 potreste trovare tranquillamente una domanda del tipo una frequenza di 1000 Hz a una frequenza di 1000 Hz che
+44:25 periodo corrisponde Allora bisogna fare 1 / 1000 e si calcola il periodo potrebbe esserci
+44:32 anche la domanda simmetrica No una frequenza una sinusoide che ha un periodo di 100
+44:39 millisecondi A che frequenza corrisponde Allora gli si fa F /
+44:45 0,1 che sarebbe 100 millisecondi e si arriva al risultato quindi diciamo sono
+44:54 assolutamente speculari complementari Mi verrebbe da dire
+44:59 proseguiamo vedo non ci sono altre domande per ora andiamo avanti allora delle nostre sinusoidi possiamo dire
+45:08 anche varie altre cose soprattutto Ecco quindi Intanto abbiamo
+45:15 caratterizzato con questi due con questi due dati frequenze e
+45:21 periodo con queste due grandezze abbiamo caratterizzato quanto una sinusoide
+45:26 varia velocemente nel tempo se una frequenza se se una se un segnale radio ha una frequenza molto più alta di un
+45:33 altro per esempio una frequenza di 1000 MHz invece che di 1 MHz vuol dire che la
+45:38 sinusoide varia 100 volte più velocemente ci sono chiaramente vari
+45:45 tipi di di segnali Noi per ora parliamo solo de
+45:50 sinusoidali e vi vorrei far vedere adesso
+45:57 Come viene generato diciamo come per come si genera un segnale sinusoidale e
+46:03 perché e diciamo i segnali E almeno uno dei Perché i segnali sinusoidali sono molto
+46:10 molto usati Allora questo schema sembra abbastanza complesso in realtà non non è
+46:16 così S si parte tutto da questo cerchio che vedete qua sulla sinistra in questo
+46:26 cerchio Scusate riaccendo il pennarello in questo cerchio c'è un raggio che è questo segmento
+46:37 qua Questo segmento qua e immaginate che questo raggio
+46:45 ruoti attorno al centro della circonferenza con una velocità costante
+46:51 questo raggio In pratica traccia se io Proietto l'altezza di questo
+46:58 segmento traccia la mia sinusoide ve lo faccio
+47:03 vedere un attimo solo e lo faccio vedere in maniera un pochino più
+47:15 simpatica eh
+47:24 scusate Vediamo se funziona
+47:34 Datemi un attimo di tempo perché probabilmente ho ho
+47:49 perso Eccolo qua
+48:02 No un attimo eh Ce la possiamo fare Eccolo
+48:08 qua la rallento un po' così possiamo parlarne Allora cominciate da questa
+48:15 parte sinistra vedete che appunto c'è una sinusoide Questo che vedete in verde è
+48:22 Scusatemi c'è una circonferenza un cerchio mh Questo che vedete in verde è
+48:29 il raggio di questo cerchio questo raggio viene fatto ruotare a una
+48:35 velocità angolare costante quindi la la rotazione di questo raggio attorno che
+48:43 fa fulcro diciamo sul centro della mia circonferenza attiene diciamo avviene a
+48:49 una velocità angolare costante Mh quindi ci sono dei momenti appunto in cui il
+48:56 diciamo questo sta nella parte bassa della circonferenza degli altri come accade ora in cui sta nella parte alta
+49:04 Allora vedete che se proiettate fermo un attimo la
+49:11 traccia questo questo raggio incontra la circonferenza in un punto di una data
+49:18 altezza mi riferisco a questa linea tratteggiata rossa qua penso che vediate il mio cursore sullo sullo schermo
+49:26 immaginate Quest questa altezza di disegnarla su uno schema che ha per asse
+49:33 delle ascisse il tempo che passa ovvero il tempo che passa è scandito dal numero di
+49:42 gradi R accendo la traccia dal numero di gradi
+49:48 che il raggio
+49:54 eh misura rispetto a l'asse orizzontale in questo
+50:00 momento il raggio partendo dalla sua posizione orizzontale è arrivato a una
+50:07 posizione di 90° e quindi è un angolo è un angolo
+50:17 retto lui poi prosegue questi 90 diventeranno 180 poi diventeranno 170
+50:23 poi diventeranno 360 ricordate che un angolo che compie tutto un giro come
+50:32 sta facendo ora il nostro raggio si chiama per l'appunto angolo giro e un angolo giro Vale
+50:43 360° io posso sull'asse delle ascisse
+50:51 riportare il numero di gradi che punto per punto
+50:58 il mio il mio raggio diciamo stacca rispetto all'asse
+51:05 orizzontale e questo è l'asse orizzontale sull'asse verticale quello
+51:10 delle ordinate io riporto il questa linea tratteggiata qua cioè
+51:17 riporto l'altezza diciamo di questo punto rispetto all'asse orizzontale e
+51:22 riparto da zero con una velocità leggermente più alta
+51:30 e vedete come la combinazione di questi due
+51:35 movimenti quindi ho un movimento orizzontale costante una velocità costante sull'asse
+51:41 orizzontale che equivale al numero di gradi che questo raggio compie nella sua
+51:47 rotazione o un'ampiezza verticale che ovviamente non è costante perché questo punto come
+51:54 in in alcuni momenti come questo sarà nella sua parte più bassa poi piano
+51:59 piano comincia a risalire raggiunge l'asse delle ascisse all'asse dell
+52:05 ascisse assegniamo il valore zero come riferimento anche di tensione ripulisco
+52:11 la traccia ne vediamo un'altra quindi in questo momento la sinusoide ha il valore massimo di
+52:18 tensione questo valore scende se arriva a uno
+52:24 zero se arriva a un valore minimo negativo nel caso della della tensione
+52:31 alternata e Si risale verso lo zero quindi la quindi una sinusoide viene
+52:36 ottenuta lo spengo A questo punto penso che il discorso sia chiaro viene
+52:43 ottenuta rimetto lo schermo No sono già in condivisione viene ottenuta mediante
+52:50 appunto Il una sinus si ottiene tracciando
+52:57 un punto su una circonferenza questo punto si muove
+53:02 questo punto è in qualche modo individuato da un raggio che si muove con con un angolo che varia a velocità
+53:09 costante quindi questo punto si muove con regolarità lungo la circonferenza e a
+53:15 secondo dell'altezza del punto rispetto all'asse dello zero ho i miei Picchi e
+53:21 le mie valli della circonferenza quindi avrò ad esempio un punto della
+53:27 circonferenza che corrisponde allo 0° quando
+53:34 questo raggio qua è giace sul diametro quindi è sull'asse orizzontale quando
+53:41 sono come vedevamo nello schema di prima quando questo riaccendo il
+53:47 pennarello quando il mio raggio raggiunge questa posizione qui ho
+53:54 un angolo retto qua 90° e quindi sarò in questo punto
+53:60 90° quando il raggio sarà di qua qui avrò un angolo di 180° Ed eccolo qua e
+54:07 così via 270 e ancora Fino a completare il ciclo di 360° ogni
+54:16 360° la mia sinusoide compie un ciclo completo da
+54:21 zero al massimo positivo di nuovo a zero al minimo negativo e poi torna di nuovo
+54:27 allo zero e questa è diciamo il
+54:33 Eh il meccanismo di di nascita di generazione di una sinusoide questo
+54:39 meccanismo somiglia molto ma molto a quello che avviene in un alternatore mi avevate chiesto Nella prima lezione
+54:46 qualche parola in più su come funziona un alternatore non è materia di esame questa Per fortuna però mi sembra giusto
+54:52 rispondere alla vostra domanda questa questo è il funzionamento di base di un
+54:58 alternatore un alternatore si basa sulle scoperte prima di hed e poi di far da ne
+55:03 parlerete con Sauro nel fra due lezioni
+55:08 Praticamente il signor Faraday scoprì che se si fa muovere se si muove una
+55:16 Spira di filo elettrico una fila di un metallo conduttrice se questa Spira la si muove in un campo magnetico e quindi
+55:23 a causa di questo movimento la quantità di campo magnetico intercettato dalla Spira varia su quella Spira nasce una
+55:31 tensione Quindi praticamente Questa fu la scoperta di una tipologia di di generatori in qualche modo poi lo
+55:38 vedremo bene nella lezione numero 5 appunto Eh diciamo quando c'è una variazione di
+55:45 campo magnetico su su un conduttore questa variazione di campo magnetico
+55:50 provoca la nascita di una tensione e di conseguenza questa tensione può dare origine a una corrente come è fatto un
+55:57 alternatore c'è un asse attorno a cui un pezzo di filo a forma
+56:04 di di di rettangolo per esempio in questo caso può girare l'asse di
+56:10 rotazione lo vedete qua con queste è questo rappresentato in questa figura
+56:16 con una linea tratteggiata e vedete questa questa freccia questa indica il verso della rotazione Mh quindi
+56:23 immaginate questa freccia che come si vedeva prima per la sinusoide attorno a questo che è un albero meccanico
+56:31 immaginate questa questa Spira questa Spira immaginate che ruoti Mh in questa
+56:39 rotazione vedete che questa Spira è immersa in un campo magnetico qui c'è il
+56:44 Eh il polo negativo del mio magnete e qui c'è il polo positivo del mio magnete
+56:51 immaginiamo che qui ci sia un magnete permanente una calamita immaginiamo proprio che questi siano i poli di una
+56:56 calamita il polo negativo e il polo positivo di una calamita e fra questi Poli quindi scorre il campo
+57:04 magnetico qui Ho appunto diciamo un campo magnetico che
+57:11 si concatena diciamo fra il polo negativo e il polo positivo Questo campo magnetico è in qualche modo cioè
+57:18 Scusatemi questa Spira in qualche modo attraversa il campo magnetico quando la spira in questa posizione Qui c'è
+57:24 praticamente parallela rispetto alle linee di forza del campo
+57:29 magnetico Intercetta ne Intercetta pochissimo quando la spira invece fosse in questa posizione quindi in posizione
+57:38 verticale diciamo così Scusate gli
+57:44 scarabocchi e quindi in posizione di fatto parallela a queste superfici del
+57:50 magnete in questo caso la spiera Intercetta molto campo magnetico per cui se io faccio rotare questa SP in
+57:57 continuazione ottengo un un campo magnetico ottengo su questa Spira un
+58:03 campo magnetico che varia che varia nel tempo e quindi ottengo su quella Spira una tensione variabile una tensione
+58:10 sinusoidale il il meccanismo con cui questa Spira Intercetta una parte più o
+58:17 meno forte del campo magnetico siccome si tratta di un moto circolare anche qua
+58:22 è esattamente uguale a quello che abbiamo visto prima quando abbiamo fatto lo sviluppo uppo di una sinusoide e
+58:28 Questo spiega perché la stragrande maggioranza degli alternatori generano Una corrente di tipo sinusoidale è la
+58:36 norma Diciamo che un alternatore generi corrente di tipo sinusoidale perché gli alternatori funzionano mettendo in moto
+58:43 facendo muovere un una parte che può ruotare si chiama rotore appunto facendo
+58:50 muovere questo rotore che contiene delle spire di filo elettrico in un campo magnetico questo campo magnetico a volte
+58:57 è generato da dei magneti permanenti a volte è generato da delle chiamiamole elettrocalamite ma il meccanismo non non
+59:03 cambia assolutamente e si ottiene [Musica] una si ottiene esattamente lo stesso
+59:10 fenomeno che si vedeva prima con la sinusoide cioè si ottiene una corrente alternata di tipo sinusoidale questo è
+59:16 un alternatore di fatto detto In pochissime parole perché ripeto non non fa parte del diciamo del programma di
+59:24 esame Allora c'è qualche domanda su su questo
+59:31 quindi sinusoidale Anzi scusate prima di chiedervi domande
+59:37 Eh no fermiamoci Qua c'è c'è qualche domanda per
+59:45 ora non vedo Magi alzate giusto Francesco a
+59:52 te Scusa ti faccio una domanda Paolo primao girava in senso antiorario la
+59:58 sinusoide adesso gira in senso orario almeno il disegno c'è una differenza di
+60:04 tensione se gira un verso o nell'altro Eh no c'è solo una differenza di fase c'è solo una differenza di fase Nel
+60:11 senso che eh basta cambiare diciamo il punto qui
+60:19 diciamo torno momento qua diciamo che
+60:27 se questo raggio gira così la sinusoide parte così in alto esattamente come nel
+60:33 disegno d'accordo se la sinusoide se Scusami se il raggio invece che così
+60:40 partisse così in questa direzione Quindi se lo mettessi se
+60:47 partisse così e ruotasse in senso orario qui semplicemente la
+60:52 sinusoide partirebbe in questo modo qua
+60:58 Ok mi procurerò il materiale per e quindi c'è semplicemente una differenza
+61:04 Come si dice di fase è la stessa sinusoide e però sfasata di
+61:13 180° Perfetto grazie Ok ve lo ve lo faccio vedere meglio fra
+61:18 poco ci sono altre domande c'è Marco la M alzata Vai Marco
+61:26 cute Ciao buonasera io volevo tornare un attimo indietro a parte questo discorso
+61:32 della fase deve essere legato ai motori perché c'è il famoso discorso D delle
+61:38 fasi spostate sulle rotazioni del motore giusto essere anche quello e quello eh
+61:44 vabbè poi poi ne parliamo vai e dovrebbe essere Dovrebbe essere per quella causa tornando io mi rifaccio indietro
+61:51 perché mentre te va avanti io mi ripasso mentalmente anche le cose delle slide
+61:57 prima indietro dove e quando dicevi te delle domande d'esame m qual era perché
+62:04 lì mi sono perso completamente quando facevi l'esempio dei 100 Mic millisecondi
+62:11 Eh sì era su questa slide qui che queste possono essere domande di esame e che vi
+62:17 ritroverete anche nel test che vi darò domani diciamo su questa lezione cioè la
+62:24 le domande possono avere due for data una frequenza calcola un periodo
+62:30 Oppure dato un periodo Calcola una frequenza cioè una domanda potrebbe essere un segnale con una frequenza di 1
+62:38 MHz una una sinusoide con una frequenza di 1 MHz che periodo ha Allora 1 MHz ci
+62:45 ricordiamo i multipli e sottomultipli 1 MHz in Herz Quanto
+62:51 vale 1 MZ è 1 milione di Hz 1 milione di Hz esatto allora Allora se 1 MHz è 1
+62:57 milione di Herz il periodo quindi uso questa formula qua quanto varrà varrà 1
+63:04 Divo 1 milione cioè 1 milionesimo di secondo quindi noi in caso di di formule
+63:13 bisogna riportarla sempre e comunque al secondo o all' Herz Eh sì allora c'è il secondo e c'è
+63:22 l'hertz perché sono le unità di misura fondamentali Sì appunto si parla Sì
+63:27 esatto Quando si parla di frequenza la frequenza è sempre il numero di volte al secondo al secondo quindi avendo il
+63:33 secondo noi bisogna riportare il MHz va riportato agli Herz per poterci
+63:38 ragionare sulla stessa grandezza sulla stessa grandezza giusto esattamente Esattamente esattamente una
+63:45 cosa che non si è parlato l'altra volta sulle resistenze la stessa cosa vale per gli ohm se io incontro una resistenza da 2
+63:53 Ohm e una resistenza da 1 kg io devo fare i 2 ohm cioè il kilo che è 1000 lo
+64:00 devo riportare a 1000 ohm per fare eventuali operazione giust è quello che
+64:06 si faceva il discorso sui multipli sottom multipli impararsi per bene perché
+64:11 sennò sì sì sì sì sì cioè diciamo che se si fanno delle somme e delle sottrazioni
+64:17 bisogna che quello che si somma e si sottragga sia sempre la stessa cosa no Come si dice come si diceva una volta si
+64:24 sommano mele con mele pere con per per sì quindi io posso sommare volt con
+64:30 volt eh ohm con Ohm e se se se mi trovo
+64:36 come nell'esempio che facevi Ohm e kiloohm non posso sommare un Ohm e un
+64:42 kilm devo sommare 1 Ohm e 1000 ohm Oh e quindi il risultato è
+64:47 100 sì sì sì bene a posto Grazie sì e niente E questa pratica pian pianino Vi
+64:54 verrà con gli esercizi con gli esercizi
+64:59 eh Ci sono altre domande per adesso no Paolo allora
+65:05 proseguo proseguo Questa è una parte facilissima Allora i valori della tensione alternata e della corrente
+65:12 alternata Perché quando si ha una tensione continua è facile No Questa batteria ha 9 V punto basta un numero e
+65:18 si dice tutto invece con la tensione alternata e la corrente alternata di parametri ce ne possono essere tanti di
+65:25 una tensione ci può essere la tensione istantanea la tensione efficace la tensione di Picco tensione Picco picco e
+65:31 la tensione Valor medio uno dice Caspiterina che che che massa di roba però in realtà sono assolutamente
+65:37 semplici e ora ora ve li racconto intanto la tensione istantanea la
+65:43 tensione istantanea è bene sapere cos'è però non viene dato non è materia di domande e roba del genere la tensione
+65:48 istantanea Vedete qui c'è una macchina fotografica che a un certo punto fa un'istantanea è la tensione che istante
+65:55 per istante può assumere in un dato istante Appunto una sinusoide per
+66:00 esempio qua io in caso il 220 però se gli faccio una fotografia in un certo minuto quel 220 può essere 80 in un
+66:06 altro Cioè se se r Faccio una fotografia in un altro istante può essere 127 No è proprio il valore puntuale della
+66:12 tensione momento per momento questo diciamo per saperlo come concetto ma non
+66:18 è non è diciamo foriero di domande questa cosa poi c'è la tensione efficace
+66:24 Ecco Questo invece è interessante che la tensione efficace è strettamente connessa al Cont al concetto di lavoro
+66:29 no allora una tensione alternata Che tensione efficace a è il
+66:38 valore diciamo la tensione efficace che l'en ci
+66:45 fornisce equivale a quella di una tensione continua che applicata al medesimo carico produce la stessa
+66:51 dissipazione di calore Cioè in ultima analisi produce lo stesso lavoro Allora
+66:56 quando l'Enel ci dice io ti do 220 V quei 220 V non non si dice perché è
+67:03 implicito ma sono una tensione efficace e quindi se tu attacchi quei 220 V
+67:09 efficaci a una stufetta elettrica ottieni una certa quantità di calore se
+67:14 tu C questa quantità di calore è uguale identica a quella che tu otterresti se alla stufetta elettrica ci attaccasse
+67:22 una tensione continua di 220 V quindi la tensione efficace è quella che
+67:29 fa lo stesso la stessa quantità di lavoro di della stessa tensione continua
+67:38 m poi abbiamo la tensione di Picco la tensione di Picco si vedono no le si è
+67:46 visto finora la sinusoide la tensione di Picco è la tensione misurata quassù quindi è il Valor Massimo che la
+67:55 sinusoide a e fra valore di picco e valore
+68:02 efficace Vale questa formula qui la tensione di Picco è 1,41 V il valore efficace per ora
+68:10 prendiamola lì ferma la conento Fra un attimo Intanto vi racconto gli altri tipi di tensione poi come c'è la
+68:16 tensione di Picco c'è la tensione Picco picco la tensione Picco picco
+68:21 Vale tutta l'escursione che la sinusoide può Quindi vale due volte la tensione di
+68:28 Picco Cioè se qui ho diciamo 300 V positivi e qui ne ho altri 300
+68:35 negativi lasciando perdere i segni la tensione Picco picco è di 600
+68:41 V Poi ho un altro tipo di tensione ed è il Valor medio il Valor medio in qualche
+68:47 modo si calcola matematicamente cioè guardate questa sinusoide che avete qua questa
+68:54 che sto in qualche modo or ora tratteggiando e scarabocchiando col con la mia pennina
+69:01 rossa di questo mezzo ciclo di una sinusoide io posso calcolare l'area
+69:06 Quindi qua sotto io ci posso avere una certa area Fatemi dire in centimetri quadrati Come si misurerebbe un'area
+69:15 e posso costruire un rettangolo che è questo che vedete qui questo rettangolo
+69:22 che comincia qui a b C e
+69:28 D questo rettangolo lo posso costruire in modo che abbia la stessa base della
+69:34 sinusoide quindi è largo quanto questo diciamo mezzo periodo della sinusoide
+69:41 mezzo ciclo della sinusoide e posso costruire questo rettangolo che abbia un'altezza tale che il rettangolo al suo
+69:48 interno abbia esattamente la stessa area che ha la sinusoide al suo interno mh
+69:57 questo questa altezza che così ottengo quindi questo dato
+70:03 qua questo dato qua è il Valor medio della mia sinusoide il Valor medio
+70:11 Quindi posso dire che questo valore qui equivale alla media di tutte le tensioni
+70:19 che ha la sinusoide nel suo nel suo semiperiodo quindi ho lo lo lo ottengo
+70:27 questa media in maniera geometrica se vogliamo no cioè eh calcolo l'area che
+70:32 sta sotto questa mezza sinusoide e poi realizzo un rettangolo che ha la stessa base della sinusoide e l'altezza eh tale
+70:41 da avere la stessa area allora E con questo finisco fra questi fra queste fra
+70:49 questi modi di rappresentare una tensione alternata di dare un valore di una tensione alternata valgono queste
+70:54 relazioni qui le vediamo applicate al caso dell'Enel l'Enel vi dicevo prima ci fornisce una tensione ci dice che ci dà
+71:01 220 V cosa sono 220 V I 220 V sono la tensione che io calcolo che io posso
+71:08 usare per calcolare quanto lavoro ottengo quanto calore produco quanto movimento produco eccetera l'Enel ci
+71:16 dice ti do 220 V E questi sono una tensione efficace a questi 220 V
+71:21 corrisponde una tensione picco di 1,41 moltiplicato la tensione efficace Quindi
+71:29 se guardo nella mia spina nella mia presa elettrica dell'Enel Io in realtà ci trovo una tensione massima sui picchi
+71:35 della sinusoid di 311 V E se vado a vedere la tensione Picco picco che vale
+71:42 il doppio della tensione di Picco nella mia presa elettrica ho una ho
+71:47 un'escursione della della tensione di 622 V da - 311 a + 311 quindi in realtà
+71:56 I 220 V lì mi diventano Picco picco 622 il Valor medio che sia visto nella
+72:04 slide precedente anche se non ve l'ho commentato equivale a 09 moltiplicato il
+72:09 valore il valore efficace per una sinusoide Vale 198
+72:14 V E questi sono i tre quattro diciamo valori con cui si può caratterizzare una
+72:22 tensione il valore di picco la tensione efficace il Valor medio Diciamo che la
+72:28 tensione efficace mi serve ad esempio quando voglio capire che lavoro ottengo No da da
+72:35 una da da da un da un generatore e tutti i generatori che si comprano diciamo il
+72:42 valore è sempre dato in tensione di in tensione efficace la tensione di Picco a cosa mi può servire mi può servire
+72:48 Siccome è più alta della tensione efficace mi può servire per calcolare gli Isolamenti io se una tensione di 220
+72:56 V non mi basta avere un isolante che regga 230 V devo devo rovare sulla
+73:02 tensione di Picco Quindi dovrò usare un isolante che Fatemi dire mi contenga No
+73:09 non mi faccia scoppiare scenti o corti circuiti almeno fino a 350 400 V ma
+73:15 anche di più diciamo no eh E questo per ora per ora è tutto per
+73:23 quanto riguarda il modo di eh misurare l'ampiezza di una tensione alternata
+73:29 quindi posso dare la tensione efficace la tensione di Picco e il Valor medio c'è qualche domanda su
+73:37 questo per adesso no Paolo Ok allora proseguo riprendo
+73:44 semplicemente il discorso della fase che si è detto prima la fase per per dire una cosa allora si è
+73:53 detto che la sinusoide c'è il mio cerchietto che gira parte da 0° arriva a 90 poi va a 180 quando siamo
+74:02 di nuovo sull'asse delle ascisse l'asce D poi 270 poi 360 quindi
+74:10 ha un ciclo completo di una sinusoide io posso appunto associare posso
+74:16 identificare ogni punto di questo ciclo con una certo numero di gradi questo corrisponde a 0° questo quassù
+74:23 corrisponde a 90 180 270 60 questi gradi si usano anche nel
+74:28 parlar comune in termini elettronici si dice queste due sinusoidi sonoo sfasate di 90° sono sfasati di
+74:36 180° quando ho due sinusoidi posso avere appunto alcuni
+74:42 casi molto specifici intanto posso avere Partiamo da qua
+74:48 sotto che è più immediato Posso avere due sinusoidi in controfase qui vedete ho una sinusoide
+74:54 S1 e una sinusoide S2 Queste sono in controfase Cioè vuol
+74:60 dire che incrociano l'asse delle ascisse nello stesso punto e quando questa è il valore massimo
+75:08 quest'altra ha il valore minimo Quindi si muovono proprio una in maniera
+75:14 diciamo opposta dell'altra sono in controfase questo equivale ad avere una differenza di fase di 180° In effetti
+75:21 qua si vede No se io vado a 180° Fatemi prendere a questo punto il massimo a +
+75:27 90 il minimo dove ce l'ho a 270 cioè 90
+75:32 + 180 queste queste due sinusoidi sono in
+75:38 controfase Mh si chiamano così in controfase Eh il controfase vuol dire
+75:43 che c'è una differenza di fasi di 180° quindi le due sinusoidi finiscono proprio opposte l'una
+75:50 all'altra l'altro caso che poi capiterà di usare è quando le due sinusoidi sono
+75:55 Come si dice inquadratura di fase cioè Qui c'è una differenza di fase di 90°
+76:00 vedete che diciamo questi sono lo faccio qua sopra con riferimento alla sinusoide
+76:06 in rosso Questi sono i i 360° no di scorrimento
+76:15 della della sinusoide Rossa vedete che questa sinusoide verde quando questa ha
+76:23 il massimo questo è il minimo Quindi eh questa questa sinusoide
+76:31 verde Diciamo che eh precede si potrebbe dire così la sinusoide rossa di quanto
+76:37 di un pezzo così di di di di un pezzo
+76:43 così di 90° per trovare questo punto qui in corrispondenza nell'altra sinusoide
+76:50 mi sposto di 90° queste sono in inquadratura questa
+76:55 cosa per esempio eh ha un suo effetto quando si vanno a
+77:01 sommare due segnali sinusoidali quando avevamo parlato dei generatori nella prima lezione abbiamo messo le batterie
+77:07 in serie no le batterie in serie se le metti tutte nello stesso verso si sommano e però se se metti una batteria
+77:14 al contrario si sottrae succede la stessa cosa nelle sinusoidi per esempio delle volte capita di sommarlek
+77:25 si sommano in fase il valore che risulta è proprio punto per punto la somma delle due quindi se questo è un valore di
+77:32 picco di 1 vol e quest'altra di 1 v qui avrò un valore di picco di 2 v
+77:38 Mh però se le sinusoidi sono in controfase si annullano esattamente come succedeva Sulle batterie Nel senso che
+77:45 quando ho due sinusoidi di uguale altezza ma in controfase quindi sfasate
+77:50 di 180° punto per punto punto per punto il valore di una sinusoide viene eh
+77:58 azzerato annullato dal valore dell'altra sinusoide che è in
+78:04 controfase quindi riassumendo E con questo si è finito con i modi con cui si
+78:10 può fotografare una sinusoide interrompo la condivisione per vedere se ci sono domande una di una
+78:18 sinusoide posso dare la sua velocità di variazione ovvero frequenza e periodo
+78:26 la sua ampiezza l'ampiezza di di una sinusoide la posso misurare col valore
+78:31 efficace col Valor medio e col valore di picco valori di Picco e valori Picco picco sono simili No semplicemente no
+78:37 uno li prende entrambe e poi di una sinusoide di due sinusoidi posso
+78:43 misurare la fase relativa perché se ho una sinusoide sola il problema della fase non esiste no cioè lo sfasamento ci
+78:50 sia sempre fra due sinusoidi posso averle in fase posso averle in quadratura Cioè più o meno 90° e posso
+78:58 averle in controfase Cioè più o meno 180° se sono in fase vanno a sommarsi se
+79:05 sono in controfase vanno a a ridursi fino ad annullarsi se sono di valore
+79:11 uguale E questo è tutto per ora sulla sinusoide Mh c'è qualche
+79:22 domanda Allora per ora non ne vedo e e proseguo Ah Mattia a te Ottimo grazie
+79:29 per la domanda che così si cambia un po' voce anche
+79:34 e Mattia il microfono Scusate vai mi senti vai Sì sì
+79:41 sì ok dico non so se si riesci a vedere senò te lo R Lo rifaccio
+79:46 aspetta Vai si senti si vede meglio se metti lo schermo in condivisione
+79:52 eh Oddio come faccio sei Sei con lo smartphone o col col PC son lo
+79:58 smartphone eh all Smart dovresti avere un pulsantino che ha una freccia in alto
+80:04 con su scritto condividi accanto al microfono per aiutarti Mattia Ok accanto
+80:10 al microfono però c'ho il volume poi c'ho i tre puntini con visualizzazione riunione modifica sfondo mostra Sott
+80:16 rifoli Mettimi in attesa No Disattiva inv in arrivo condividi Soto
+80:23 Emoji sarà Scusate condividi Condividi Ok non so
+80:32 se vediamo che cosa qualcosa ok Aspetta adesso Datemi un secondo Sì è arrivato è
+80:39 arrivato vaii Sì si vede Perfetto Ok cerco di stare fermi e il discorso del raggio che
+80:46 dicevi prima praticamente aspetta perché vediamo solo il tuo schermo del
+80:52 cellulare Ok allora aspetta però e ragazzi se gli avete se ha fatto uno
+80:59 schizzo su carta non può condividere lo schermo del cellulare esat hai ragione
+81:04 hai ragione audio Esatto Non può quello speravo che G manca i file da
+81:10 condividere Eh se faccio una foto Lo fa condividere Sì ok allora aspetta Però
+81:17 intanto devo ritogliere aspetta proviamo a fare la foto un secondo Datemi un secondo Scusate eh vediamo che così
+81:23 magari si riesce ora si ved ora si vede Ah si vede Ah ok Perfetto Ottimo
+81:29 allora tornando qui Praticamente il raggio è costante ma è costante per i
+81:34 360° io ti faccio la mia domanda poi spero sempre di farmi capire c'è il picco Massimo il picco minimo Questa è
+81:40 la sinusoide la fase va verso destra in questo caso costante per 360 quindi vuol
+81:45 dire che la luce io faccio l'esempio di una lampadina la luce È normale se va
+81:50 più veloce ovviamente il periodo è molto più veloce quindi C'è più luce in questo
+81:57 caso quello che ti dicevo però prima Vedi Va piano Nan un secondo un secondo nanosecondo nanosecondo Quindi io faccio
+82:03 l'esempio degli interruttori aspettate Mi metto così così lo vedete in questo caso qui per me come la vedo io C'è un
+82:10 abbasso credo di corrente Ma perché Perché io Da bambino giocavo Praticamente con il classico on off
+82:17 della della luce quindi accendevo e spingevo accendevo e spingevo Vedendola da qua i Non so se si riesce a capire l'
+82:23 off se l' accendo in un secondo Ci sono poche Linette se l'accendo più velocemente in un secondo ovviamente
+82:30 trovo la corrente la luce che si accende e si spenge velocemente però il classico pulsantino ignorantemente non so come si
+82:36 chiama quello con la rotella che io aumento e diminuisco mi porterebbe a
+82:41 fare questo non so se mi sono spiegato eh E
+82:48 ma allora Secondo me lo si vede piuttosto bene sui raggi Nel senso che quando il raggio gira regolarmente
+82:54 ottieni una bella sinusoide pulita come hai fatto tu il raggio lo puoi far girare più velocemente e ottieni una
+83:00 sinusoide con una frequenza più alta ovvero un periodo più basso E poi puoi
+83:06 far Gir e poi puoi far girare il raggio non a velocità costante ma puoi farlo
+83:12 ruotare delle volte più veloce e delle volte più lento e ottieni quella cosa che hai fatto tu Ok perfetto No era
+83:19 perché non era chiaro la cosa che del prima era costante non riusci a capire se è il costante a 360 Radio Al costante
+83:26 Praticamente nel discorso come ti dicevo io se accendo e spengo la manopolina velocemente giustamente mi ritrovo che
+83:31 faccio prima prima e poi velocemente ovviamente rimango in questo modo eh più veloce più veloce vai e più la sinusoide
+83:38 diventa fitta il periodo diminuisce il periodo diminuisce Ok perfetto Scusate
+83:44 Grazie l'intromissione niente cerco di ritogliere la cosa ma non so come
+83:50 sta aspettate eh ok troverai Ci sei quasi riuscito intanto ok tro
+83:57 e non devo condividere quindi ritorno indietro levo il condividi credo non so
+84:02 Sì esatto Disattiva il video in arrivo no Riprova a r cliccare il condividi Condividi video Condividi foto No l'ho
+84:09 tolta No se mi discon non ancore non ha Cure eh interrompe condivisione Eh sì
+84:17 trovarlo C ce l'avevi nel centro ce l'avevi nel centro del cellulare guarda
+84:23 sottoi di me sotto di me Grazie grazie
+84:29 Fantastico Allora non ci sono altre domande
+84:34 riprendo calma metto in condivisione Ecco qua
+84:46 blocc è arrivata la condivisione Sì Paolo Grazie allora
+84:54 adesso parliamo di di come si calcola la potenza in corrente alternata Mh
+85:02 Dunque qui è una piccolissima ricapitolazione di cose che abbiamo detto nella puntata precedente Vi
+85:10 ricordo appunto cos'è l'energia l'energia è la capacità che un sistema di compiere un lavoro si misura in jaou
+85:15 abbiamo parlato di un serbatoio di automobile che è pieno di di carburante e quello lì è la fonte di energia della
+85:22 macchina il motore Poi consuma questa energia erogando una certa potenza La potenza è
+85:30 la capacità di svolgere un lavoro nell'unità di tempo si misura in watt questi sono esempi etti tanto per
+85:38 diciamo focalizzare meglio la differenza che c'è fra potenza e energia per esempio io voglio illuminare una stanza
+85:44 Uso una lampadina che ha una potenza di 20 W quindi la la mia
+85:50 lampadina eroga una certa luminosità in base ai 20 W di sua Potenza se la tengo accesa per 3 ore che
+85:58 consuma Quanta energia consuma consuma 60 W watora quindi Wat moltiplicata ore
+86:05 20 mli 3 60 lampadina da 20 W la tengo accusa per 3 ore 60 W Analogamente una
+86:12 stufetta da 1000 W la tengo accesa per 30 minuti 500 w e così via Eh questo per
+86:20 ricapitolare un po' Allora adesso diciamo
+86:27 vediamo come come appunto si calcola la potenza in corrente alternata Intanto
+86:32 quando la nostra tensione alternata la nostra corrente alternata va su un
+86:38 carico resistivo cioè il carico è una resistenza succede che la tensione e la
+86:44 corrente sono in fase perché la tensione è Guardatela come una sinusoide la
+86:52 corrente ovviamente è un'altra sinusoide queste sinusoidi come abbiamo visto prima possono essere in fase possono
+86:57 essere più o meno sfasate possono essere in quadratura quando un carico resistivo succede che su quel carico lì la
+87:04 sinusoide della tensione e la sinusoide della che che che illustra la corrente che attraversa il carico sono
+87:11 assolutamente in fase in questo caso la potenza si calcola esattamente come si
+87:18 fa Come si è fatto nella lezione precedente quando si è parlato della legge di Ohm semplicemente va ci si deve
+87:26 ricordare che si calcola usando i valori efficaci quindi la potenza efficace Vale
+87:32 V per i esattamente come abbiamo visto la puntata precedente la potenza
+87:37 efficace vale la tensione efficace per la corrente efficace non cambia assolutamente niente rispetto a quello
+87:44 che abbiamo visto con la corrente continua continuano a valere anche queste altre due formule che abbiamo
+87:50 rivisto prima anche nelle domande la potenza effic Vale V qu / r v efficace Divo R la la
+88:01 potenza Analogamente Vale i i al quadrato molli R semplicemente si deve
+88:08 nella corrente alternata specificare che tensione corrente e potenza si intendono
+88:16 efficaci quindi alla mia tensione efficace di 220
+88:22 V ad esempio il mio carico assorbe Una corrente efficace di 1 amp o una potenza
+88:28 efficace di 220 W per cui non cambia niente tutto quello che abbiamo detto la
+88:33 la scorsa puntata è assolutamente identico
+88:39 analogo però questo è analogo in questo caso specifico qua quando il carico è
+88:47 resistivo r a volte capita che il carico non sia
+88:53 resistivo e quando un carico non è resistivo la tensione e la corrente non
+88:59 sono più in fase Il carico non più resistivo lo vedremo nello specifico
+89:06 nelle due prossime lezioni il carico potrebbe avere una componente induttiva
+89:11 potrebbe avere una componente capacitiva questo fa sì che il carico non sia più resistivo le corren e le tensioni non
+89:17 sono più in fase Allora ci si trova in una situazione in cui fra la tensione e
+89:23 le correnti non essendo più in fase si forma un certo angolo di sfasamento
+89:29 ricordate che poco fa per farvi vedere quelle quei casi di differenza di fase
+89:35 ho usato alcuni angoli particolari ho usato il 90° per la quadratura ho usato
+89:40 il 180° no sono due sfasamenti assolutamente plausibili no avevamo sinusoide sfasate di 90 o di
+89:48 180° nel caso di un carico lo sfasamento può avere un un qualunque valore in
+89:54 gradi cioè fra le due sinusoidi posso avere uno sfasamento di 12° di 15° lo
+90:02 sfasamento fra tensione e corrente è indicato con una lettera greca che ha questo simbolo qua questa lettera greca
+90:09 si chiama F in italiano Fi Eh quando succede
+90:17 questo quando la tensione e la corrente non sono in fase una parte della potenza
+90:22 in realtà non si può tras in lavoro e poi lo lo vedremo vale in
+90:29 corrente alternata una formula Vale questa formula qua cioè che la potenza
+90:36 cosiddetta reale è uguale alla potenza apparente
+90:42 moltiplicato il coseno dell'angolo F Quindi vale v mollicato i moltiplicato
+90:49 per il coseno dell'angolo F Allora intanto cos'è il coseno coseno è
+90:55 un'operazione trigonometrica la trigonometria è una parte della matematica che che lavora
+91:01 sugli angoli e qua dentro vedete due casi particolari del del coseno
+91:08 Scusatemi un attimo
+92:37 di
+93:10 vi mste
+93:25 il
+93:39 Charizard nel frattempo avete ah no ecco Paolo ok Sì scusate ma
+93:46 [Musica] e diciamo diciamo non possono rispondere
+93:52 no no va pure va pure problema parallelo problema allora Stavo stavo dicendo
+93:57 stavo dicendo un attimo torno indietro allora
+94:03 si stava parlando dell'angolo F che è l'angolo che appunto intercorre fra
+94:10 tensione e corrente quando queste non sono in fase lo lo si può vedere su
+94:15 questa su questa figura E allora Vedete qui l'asse orizzontale e la tensione
+94:25 V Questa è la tensione che elementa il mio circuito nel mio circuito scorre
+94:30 questa corrente i questa linea diciamo qui viene vista come la diagonale di
+94:36 questo di questo quadrato e fra la tensione e la
+94:41 corrente sono diciamo la tensione de corrente diciamo delimitano questo
+94:47 angolo F che mi misura appunto il loro stasamento qui F diciamo equivale a
+94:54 circa 30° diciamo a occhio e croce mh
+95:06 eh Allora questo eh il coseno di F vi stavo dicendo prima
+95:12 il coseno è una è una è un'operazione diciamo del della trigonometria che in qualche modo
+95:20 associa a un angolo che sarebbe il nostro Fi associa un questi sono due casi particolari diciamo
+95:26 quando F = 0 il coseno di F vale 1 quindi quando F Vale 0 Ovvero la
+95:32 tensione e la corrente sono perfettamente in fase quindi non
+95:38 non esiste angolo fra loro il coseno di F vale 1 e invece quando la tensione se
+95:44 la corrente e la tensione fossero sfasate di 90° Ovvero la
+95:51 tensione così perfettamente orizzontale e la corrente così perfettamente
+95:57 verticale con un angolo di 90° qua nel mezzo il coseno di 90° vale vale
+96:05 0 torno alle formule della slide precedente Allora in in corrente
+96:12 alternata Vale questa tensione Vale questa formula Scusatemi la potenza reale è uguale alla potenza apparente
+96:19 moltiplicato il coseno di F il prodotto v * i questo che abbiamo
+96:26 qua v * i in corrente alternata è chiamato
+96:32 potenza apparente potenza apparente la potenza
+96:39 reale in corrente alternata vale la potenza apparente moltiplicata per il
+96:44 coseno di F perché questo perché eh
+96:56 Scusate non non trovo il cursore perché riprendendo la figura che
+97:03 appunto vi stavo mostrando Prima no qui abbiamo la tensione V la tensione V È
+97:09 diciamo in questa figura è rappresentata sull'asse delle ascisse Qui abbiamo la corrente che è questa avevamo visto che
+97:16 c'è che ci sono questi 30° la la corrente che scorre n mio
+97:22 circuito questa i può essere in qualche modo scomposta Come viene fatto in questa figura in in
+97:30 due diverse correnti Questa è un'operazione che si fa con con i vettori se qualcuno se la se la ricorda
+97:37 appunto da la studiata a scuola un poco tanto tempo fa questa corrente qui può essere
+97:44 scomposta in una corrente in fase con la tensione ed è questa
+97:54 questa che termina in questa freccia qui e una corrente che è in quadratura
+98:01 ovvero a 90° rispetto alla tensione se io prendo questi due queste due frecce
+98:08 questi due vettori Come si chiamano una verticale e l'altra orizzontale e in qualche modo le compongo le sommo come
+98:16 vettori ottengo come risultato esattamente questa corrente qui la mia diagonale io in pratica ho scomposto
+98:23 questa diagonale in due parti diciamo la parte che in qualche modo è relativa
+98:29 all'asse Dove dove sta la mia tensione e l'asse invece e e la parte invece
+98:35 relativa a un asse che sta perpendicolare rispetto alla tensione
+98:42 Allora la parte di questa corrente che produce lavoro è solamente quella che è
+98:50 in fase rispetto alla tensione e questa mi dà quella che è chiamata la
+98:56 potenza reale la potenza reale in un circuito in in in corrente alternata è
+99:02 dato dal valore della tensione moltiplicato per il valore della corrente che è in fase con la
+99:09 tensione questa diciamo genera genera lavoro produce
+99:16 risultato questa parte di Potenza Qua invece è chiamata potenza
+99:22 reattiva e è Eh una potenza che non genera lavoro non genera lavoro non non
+99:29 ha effetti in termini di produzione di calore in termini di produzione di movimento non non genera lavoro è una
+99:35 potenza che siccome Appunto eh È ottenuta dalla componente di
+99:42 corrente che è ruotata di 90° diciamo rispetto alla tensione non non si
+99:47 traduce in lavoro la la somma vettoriale diciamo la
+99:52 somma di queste due potenze in termini di vettori mi dà quello che è la la potenza
+99:58 apparente quindi eh tornando alla formula di prima la
+100:05 potenza reale che poi è quella che mi interessa ai fini del mio circuito vale
+100:11 la potenza apparente moltiplicato per il coseno di F quindi la potenza apparente
+100:18 che è v * i moltiplicata coseno di F mh
+100:24 vi faccio vedere questo schema in maniera un po' più allegra e secondo me anche un po' più rilassante ed è questo
+100:31 diciamo immaginiamo no che siamo andati in pizzeria e ci siamo fatti una pizza o roba o roba di questo tipo
+100:41 e la pizza l'abbiamo accompagnata con una birra La birra ci arriva sempre in questo modo quando lo ordiniamo No cioè
+100:47 arriva un bel boccale il boccale è quasi pieno di birra e poi sopra c'è la la schiuma cos'è che ci toglie la
+100:54 la sete Ce la toglie la potenza reale quella che genera lavoro cioè la
+100:59 birra sopra la birra c'è una parte di cui non si può quasi mai fare a meno
+101:05 quando si quando appunto si beve una birra e questa è la
+101:10 potenza diciamo qui è chiamata la potenza la potenza reattiva d'accordo La potenza che è
+101:16 associata [Musica] alla la potenza che che è Associata a
+101:22 quella parte di Cor ente che non è che che è sfasata di 90° rispetto rispetto alla tensione e di questa potenza
+101:29 reattiva di fatto non ce ne facciamo niente Non non produce lavoro è un effetto che a volte non si può eliminare
+101:35 ma non che non si può eliminare In ogni caso è lì non produce lavoro la somma di
+101:40 queste due è la potenza apparente e che è se vogliamo l'altezza del boccale Mh
+101:45 che al suo interno ha una parte di Potenza reale che ti toglie la sete e
+101:50 una parte di Potenza eh reattiva e la sete non te la toglie ma è lì
+101:57 quindi appunto potenza reale genera lavoro potenza reattiva non genera lavoro la potenza apparente è la
+102:03 combinazione delle due e quanto vale la potenza apparente la potenza apparente
+102:12 Vale v mli i mollicato cos F quindi E con
+102:20 questo tolgo la condivisione Scusate Eccomi
+102:26 Eh quando si parla di Potenza alternata riepilogando ci sono due grandi
+102:32 tipologie di situ ci sono due situazioni diverse La prima è quando il carico è
+102:37 resistivo quando il carico resistivo Valgono le stesse formule che si è visto per la tensione
+102:44 continua applicate però con i valori di tensione di corrente efficace quando il
+102:49 carico invece è reattivo Bisogna vedere l'angolo che si forma fra la tensione e
+102:56 la corrente e diciamo la
+103:02 potenza reale Vale v * i potenza apparente
+103:08 per il coseno dell'angolo Allora Marco intanto a te prima
+103:19 domanda mi apro eh Un attimino mi senti Perfetto Ci sei allora eh mi son perso
+103:26 un pezzo nel senso si parla di corrente eh Te hai parlato di corrente
+103:37 [Musica]
+103:45 sull'alternanza e d ordinate che Dov'è la corrente dove ce l'ho io la corrente
+103:52 da poter ricavare poi L'angolo di cosen Fi famoso che in teoria dovrebbe essere
+103:57 09 a seconda di delle applicazioni poi che si va a fare
+104:03 allora allora allora allora mi son perso il pezzo perché si è parlato di angolo
+104:08 di sfasamento fra la corrente eh però ho detto Cavolo ma dov'è il la corrente nel
+104:14 diagramma as scisso ordinato ho detto deve intervenire anche la Z No no allora
+104:19 si si è si è allora si è si è perso per che si è cambiato sistema di riferimento
+104:25 questo non l'ho detto ma si è cambiato sistema di riferimento Cioè in tutti questi disegni che abbiamo visto Qua nei
+104:32 vari tipi di sinusoidi eccetera qui sulla qui sull'asse delle sull'asse delle ascisse c'era sempre il tempo Sì
+104:40 infatti lo vedi e qui sull'asse delle ordinate c'era o la tensione o la corrente a secondo che si parlasse di
+104:46 tensione alternata o di corrente alternata Sì questa scusa perché scusa la corrente
+104:54 alternata facendo riferimento a tensione alternata segue quindi le stesse leggi
+104:60 logicamente V ugale rifacendosi sempre alla famosa
+105:06 formula quindi segue sempre la la la la Quel tipo di legge lì dico
+105:13 e ni Non è detto appunto cioè la corrente No quello sì quello l'ho capito
+105:19 il dopo perché c'è l'angolo Eh però dico il parlando quando hai detto te l'onda
+105:25 sinodale della corrente o della tensione in questo caso giusto Sì Esatto Esatto
+105:32 esatto quindi perché segue le leggi fisiche non parlavo delle leggi
+105:39 matematiche sì sì sì sì la corrente è sempre provocata da una differenza di
+105:44 potenziale senò non ci sarebbe scorrimento di corrente eh quindi la la madre di tutto se vogliamo è che c'è un
+105:51 generatore generatore eroga S TENS provoca quando il generatore
+105:57 attaccato a un carico no provoca uno scorrimento di corrente
+106:03 perfetto e che però Però da qui però da qui da
+106:11 questo schema a questo schema c'è un cambio di sistema di riferimento nel
+106:16 senso che mentre quelli erano assi cartesiani canonici diciamo no quindi
+106:22 c'era l'asse delle as scisse l'asse delle ordinate Eh questo In realtà è uno schema di
+106:28 natura diversa è uno schema è uno schema vettoriale Dove Qui non c'è l'andamento
+106:34 del tempo d'accordo Questo è uno schema che mostra eh che che mostra come e quanto possono
+106:43 essere sfasate fra loro la tensione Una corrente e e una corrente quindi questo
+106:49 questo è un grafico vettoriale in realtà è un grafico vettoriale S io ti chiedevo c'è verso a parte del grafico vettoriale
+106:55 scomposizione dei vettori e compagn Mella la di nella raffigurazione
+107:02 dell'onda sinusale della corrente alternata in tensione
+107:07 e la corrente quindi l'intensità è si può raffigurare nell'onda sinodale
+107:15 o bisogna sganciarsi da quel sistema e andare sul sistema vettoriale per poter
+107:22 raffigurare No diciamo Allora si possono perché l'altezza è data dalla tensione giusto diciamo
+107:29 dell'onda nel caso della tensione l'altezza cioè la tensione alla sua altezza la corrente alla sua altezza Si
+107:37 si potrebbe immaginare che il grafico sia questo Cioè si tratterebbe in questo
+107:43 caso di mettere su un grafico due grandezze diverse immaginiamo che la rossa sia la
+107:48 tensione Quindi questa sinusoide rossa è la mia tensione alternata da d'accordo
+107:54 m sullo stesso grafico posso fare in modo di averci una seconda onda che è la
+108:02 corrente ora in questo grafico sono per l'appunto della stessa altezza perché
+108:07 questo grafico Era inteso per fare un'altra cosa No Eh sì sì ho capito però però nella
+108:14 realtà succede così nel senso sono due grafici diversi uno è Sì sì è come è come se nello stesso
+108:22 tempo su lo stesso asse delle ascisse io volessi vedere due grandezze diverse una tensione e una corrente quindi sarebbe
+108:29 come se qui accanto ma si può fare tranquillamente anzi molte volte si fa questa cosa sarebbe come se qui accanto
+108:36 avessi due assi delle ordinate uno con la misura della della
+108:42 tensione v e uno con la misura della tensione i e mi potrei vedere tranquillamente le due sinusoidi insieme
+108:48 allora se il mio carico fosse resistivo questi questi due soli le vedrei in fase
+108:54 come nelle diagrammi dei motore quando esprimano uno la coppia e uno la potenza e poi si incrociano a un certo punto
+109:01 c'hanno due gradazioni uguale esempio per esempio la base in fondo è sempre il tempo e poi
+109:08 invece la coppia espressa in in Newton e
+109:14 quell'altra espressa in in cavalli o kilowatt Insomma Esatto due grandezze
+109:19 diverse sullo stesso grafico perfetto perfetto e quindi potre posso avere la tensione e la corrente e e posso vedere
+109:28 se se avessi un grafico di questo tipo che se ci metto un carico resistivo le due sinusoidi sono perfettamente in fase
+109:35 e quindi sarei in un caso di questo tipo no magari mi mi mi vedo che le due
+109:41 sinusoidi quando c'è il massimo della tensione c'è anche il massimo della corrente
+109:47 invece Scusa torno indietro invece quando il carico non è resistivo ma ma
+109:53 diciamo ha una componente reattiva e la tensione e la corrente diventano così si
+109:59 sf diventano così si sfasano si sfasano si sfasano fino a 90° fino a 90° Come
+110:07 accade in questa in questa situazione per esempio per effetto di un condensatore o di un induttore questo
+110:13 Appunto Lo si vede per bene nella prossima nella prossima
+110:19 puntata questa quanto più alta è questa sfasatura e quanta meno potenza la mia
+110:26 tensione e la mia corrente producono perché se la sfasatura Diventa
+110:32 molto alta torna su questo grafico qua un attimo che riaccendo il
+110:38 pennarello Eccolo perché qui ora la corrente qui è vero che è sfasata di
+110:45 quest'angolo F però quando questa corrente Io la
+110:52 Proietto e sull'asse della tensione C'è sempre un buon valore e quindi comunque
+110:59 produce un discreto lavoro Se la mia corrente fosse così immaginiamo proprio
+111:05 di fare una stessa la stessa ampiezza della corrente Quindi due linee della stessa
+111:11 lunghezza se questa linea la riporto qua
+111:18 e ho una componente attiva della corrente molto molto più bassa e quindi
+111:24 la potenza generata la potenza Attiva quella che io voglio generata è molto bassa se la mia corrente fosse così è
+111:32 ancora più alta e la potenza ancora calerebbe calerebbe perché ai fini della
+111:37 potenza reale mi Lavora solo la componente della
+111:43 corrente in fase con la tensione Cioè in pratica questa componente
+111:48 qua quindi più vicino Sono di fase più ho il massimo rendimento diciamo Eh ho
+111:55 la massima produzione di la massima produzione di ho il migliore ho il
+112:01 migliore uso dell'energia tant'è che se se qualcuno di voi ha ha ha mai letto qualcosa o ha lavorato con l'Enel e
+112:09 l'Enel vuole che i i carichi quindi i i i motori eccetera
+112:16 eccetera io a lavorare Gi motore abbiamo il rifasatore Infatti Ecco Esatto esatto
+112:21 lei vuole che siano Fas Perché senò C'è tutto un girellare di
+112:26 energia apparente sulla line Attiva G torna indietro praticamente poi va a
+112:32 giro eh E non dà altro che fastidio Esatto non dà altro che fastidio su tutta una serie di aspetti il
+112:38 rifasamento serve proprio a questo Cioè il rifasamento serve a prendere una corrente che è così senza rifasamento e
+112:44 magari col rifasamento mi diventa così quindi mi diventa molto più vicina
+112:51 in fase alla
+112:60 Eh ok
+113:06 sì buono ci sono altre domande su Sì c'era un'altra domanda però non Roberto
+113:13 Roberto Vai Roberto Sì una cosa che confonde un po'
+113:20 è che l'aggettivo efficace è spso senza preavviso e quindi si parlava di
+113:27 tensione efficace poi invece nella relazione eccola qui c'è semplicemente v
+113:33 e e sei semplicemente i e si suppone che sia quell efficace però rimane il dubbio
+113:43 Eh sì sì sì sì sì sì allora allora di
+113:49 solito Questi calcoli si fanno sempre con tensioni e correnti efficaci quindi di solito non si scrive mai ok no però
+113:56 siccome prima è fatta è stata fatta la distinzione tra efficacia istantanea Picco e Picco
+114:03 picco no E sì sì hai ragione perché bisogna Bisogna conoscere Comunque anche quegli
+114:11 altri modi di misurare la tensione però diciamo si dà per scontato che quando si
+114:16 parla di tensioni e correnti alternata se non si specifica altrimenti ci si riferisce ai valori efficaci
+114:23 vedi l'Enel In primis no l'Enel dice ti do 220 non ti dice ti do 220 efficace
+114:28 l'efficace lo si sa Ok sì sì ok altra altra cosa im quando
+114:35 ho fatto elettrotecnica eh possibile che invece che potenza
+114:40 reale si parlasse di Potenza Attiva Sì sì sì sono sinonimi infat mentre la
+114:46 reattiva e quell'altra viene moltiplicata per il seno di F Esatto giusto Ok V
+114:53 Esatto potenza reale e potenza Attiva sono sinonimi Ok grazie Sono perfettamente sinonimi occ Grazie a te
+115:01 Nicola vaeni avanti vai Sì allora sempre la slide 26
+115:09 eh sia questa Questa sì è questa è questa sia la tensione che la corrente
+115:19 per la potenza apparente comunque sono prese in due momenti diversi cioè
+115:27 Mh la il massimo della tensione efficace e il massimo della corrente efficace e
+115:34 poi viene viene eh trovato il valore della potenza reale
+115:42 moltiplicando per il cos F Eh sì in Sì in parte Però però si
+115:50 potrebbe dire in un modo anche diverso diciamo Fammi ripartire sempre dall'enel visto che si parla di potenza elettrica
+115:58 Allora a me mi serve una sinusoide pulita diciamo questa
+116:05 Allora allora Immaginati che questa questa sinusoide sia siano i 220
+116:12 V che l'en ci fornisce Ok ok 220 V efficaci Sì 220 V efficaci però ogni
+116:22 punto di questa sinusoide ha una sua tensione istantanea cioè I 220 V saranno
+116:28 qua perché si era visto che il valore Picco picco era 310 No I 220 V saranno
+116:36 qua però ci sono dei momenti in cui Eh la mia tensione dell'en non è 220 è Se
+116:43 guardiamo i valori istantanei 50 100 150 200 eccetera eccetera eccetera però però
+116:49 si sa che il valore efficace di questa tensione è come comunque 220 V nel suo
+116:54 complesso capito nel suo complesso E lo stesso vale per la corrente anche la
+116:60 corrente ha comunque un andamento sinusoidale e ha un certo valore ed è un
+117:06 valore efficace ci sono dei valori se questa fosse la sinusoid della corrente ci sarebbero dei ci sono dei punti in
+117:13 cui la corrente è zero dei punti in cui la corrente è massima e poi ci sarà il valore ci saranno dei punti dove la
+117:19 corrente è è il valore efficace d'accordo considerare le correnti e le
+117:26 tensioni efficaci praticamente e quindi 220 V per esempio consente di mediare in
+117:34 qualche modo tutto tutta questa serie infinita di di valori puntuali 0 50 100
+117:40 150 in un unico valore 220 che è quello efficace cioè che è quello che serve per
+117:46 il per produrre lavoro ed è quello che ti produce lavoro e lo stesso vale per
+117:53 la corrente Poi a un certo punto si misura una corrente immaginiamo di misurarla con uno strumento un
+117:58 amperometro che misura gli ampere appunto No un amperometro misura sempre
+118:03 il valore efficace di tensione A meno che non si voglia uno strumento efficace per misurare il valore di picco Ma è uno
+118:09 strumento molto particolare diciamo quando normalmente con uno strumento un
+118:14 multimetro un voltmetro quello che vuoi si misurano tensioni e correnti alternate lo strumento misura sempre i
+118:20 valori efficaci e sono quelli che si usano per fare questi conti capito per
+118:26 fare questo tipo di conti ok no Forse allora ecco l'avevo
+118:32 presa come potenza istantanea non è la potenza istantanea è la tensione
+118:38 efficace per la corrente efficace poi corretta del cosf sra storia e ma ci
+118:45 verrà chiesto anche calcoli con numeri complessi No perché ecco me me me
+118:53 mi torna delle reminescenze d' elettrotecnica che mi fanno piuttosto paura No no no servono le quattro
+118:60 operazioni e e forse una radice quadrata Ok ok Vabbè e forse una radice quadrata
+119:06 Grazie Diciamo che da ai fini dell'esame Secondo me
+119:12 eh diciamo ci poss ci può ci può ci possono essere delle domande su cos'è la
+119:19 potenza reale cos'è la potenza apparente Cosè la potenza efficace eccetera
+119:25 e però non mi pare che su su
+119:30 queste su queste cose ci siano calcoli da fare poi diciamo Si si può
+119:35 controllare non ma non non non mi sembra che ce ne siano Ok
+119:43 grazie ci sono altre Conf No dicevo confermo Paolo
+119:50 l'unico punto dove troveremo magari una rappresentazione di quel tipo come dicevi e quando si parlerà delle
+119:57 impedenze con le reattanze ci sono a giro sul che possono essere rappresentate Non so con la parte reale
+120:04 r + j con la parte reattiva però non Insomma non ci sono domande di quel
+120:11 genere è solo un concetto da capire cos'è la parte reattiva e la parte
+120:17 diciamo Quella resistiva beh le domande però non ci sono con delle forme con i numeri complessi Diciamo quindi
+120:24 tranquillo su quello sì no E avevo detto mi viene a mente Poi cosa cosa è
+120:31 successo una quarantina d'anni fa a scuola Un po' come ora quando ho letto fattore di potenza e cos'è il fattore di
+120:39 potenza è un contadino della Basili era quello era la la battuta del professore
+120:45 di letto tecnica
+120:53 buo ci sono altre domande e a questo punto dato l'orario
+120:59 staccherei qua diciamo non abbiamo fatto un paio di slide sul sulle onde radio ma
+121:06 ne parliamo la volta prossima senza problemi tanto comunque er un'anticipazione di cose che verranno
+121:12 fatte nelle prossime lezioni senza senza difficoltà Quindi Paolo interrompo la
+121:19 registrazione vai ok da a questo momento interrompo Perfetto
+121:26 Quindi potete dire quel che volete

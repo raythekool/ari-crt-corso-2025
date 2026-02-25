@@ -1,0 +1,1326 @@
+00:00 Ok, nel frattempo perfetto, messaggio
+00:06 arrivato, quindi avvio la condivisione.
+00:36 Ecco, magari se mi date conferma che bene Paolo, vediamo a schermo pieno. Grazie. Benissimo, perfetto. Quindi
+00:44 allora, buonasera a tutti, anche a chi si è collegato nell'ultima parte, quindi
+00:52 come abbiamo detto al all'inizio, io vi farò compagnia per le prossime eh
+00:58 quattro lezioni e saranno dedicate al tre argomenti abbastanza corposi. Il
+01:07 primo, quello di stasera, è la propagazione e la prossima lezione, mercoledì
+01:14 prossimo, affronteremo l'argomento relativo alle linee di trasmissione e poi ci saranno due sere, due serate
+01:22 consecutive, due mercoledì dedicati alle alle antenne. Quindi cominciamo stasera
+01:29 con la la propagazione. Anche questo sarebbe un argomento talmente vasto da
+01:36 richiedere, probabilmente un corso ad hoc, però come
+01:42 accennavo prima, cercheremo di limitarci a quelle nozioni che sono necessarie per
+01:50 poter rispondere correttamente alle domande d'esame,
+01:55 senza comunque magari evitare di aggiungere quel minimo in più
+02:03 che può essere utile, forse può aiutare a comprendere meglio alcuni fenomeni.
+02:09 Diciamo che questo anche per comodità vostra io ho cercato in ogni slide di
+02:15 evidenziare cambiando il colore, cioè quindi con le scritte in rosso, quelli che sono che
+02:23 generalmente sono proprio argomenti specifici delle domande. Comunque in ogni caso, se
+02:31 qualcuno anche durante la la lezione ha qualche dubbio o diciamo non mi ha
+02:38 compreso bene perché non mi sono spiegato sufficientemente bene, eh non
+02:44 fatevi problemi a interrompere e cercherò in qualche modo di di rendermi
+02:51 più comprensibile. Quindi gli argomenti di stasera, sostanzialmente la lezione si divide in
+02:58 tre parti principali: un accenno ai campi elettromagnetici,
+03:04 alla meccanismo di propagazione delle onde radio e in particolare per
+03:11 completare un focus sulla propagazione ionosferica che, come vedremo, è una
+03:18 delle varie tipologie con cui si propagano le onde elettromagnetiche.
+03:24 e la relazione che c'è con il ciclo solare. Questi sono gli argomenti di di
+03:31 stasera e quindi cominciamo subito dal campo elettromagnetico facendo un minimo
+03:36 di storia. io ho un po' questa fissazione di di far sempre riferimento
+03:42 anche a un pochino di storia perché secondo me eh è utile e aiuta. Tra
+03:48 l'altro lo studio dell'elettromagnetismo e quindi dei campi elettromagnetici è
+03:53 uno studio relativamente recente perché i primi studi risalgono alla metà del
+03:59 dell'8, quindi sono poco meno di 200
+04:04 anni che studiamo questo argomento e tra l'altro, come vedete, i nomi dei
+04:10 principali scienziati che hanno studiato la materia vi risultano probabilmente familiari perché hanno dato il nome alle
+04:17 principali unità di misura, ma diciamo la svolta, io la definisco epocale, comunque quella
+04:24 importante nello studio dei campi elettromagnetici si ha nel 1873,
+04:31 quindi circa 150 anni fa. Questo perché fino a quel punto la
+04:38 scienza aveva trattato i campi magnetici e i campi elettrici come fenomeni
+04:45 separati, non non tra loro correlati. Peraltro questo è vero quando parliamo
+04:50 di campi elettrici e campi magnetici statici, non in variazione.
+04:57 Maxwell invece dimostra nel 1873 con un modello matematico che ha preso il suo
+05:03 nome, l'equazione di Maxwell, che i campi elettrici e campi magnetici in variazione sono sempre tra loro
+05:10 correlati, non possono esistere separatamente e danno origine a quello
+05:16 che chiamiamo un campo elettromagnetico che si propaga nello spazio sotto forma
+05:21 di onde ad una velocità che nel vuoto è pari alla velocità della luce. Poi
+05:26 vedremo dopo che la luce stessa sostanzialmente non è altro che un campo elettromagnetico a frequenza molto
+05:34 elevata. però eh la possibilità di sfruttare i
+05:39 campi elettromagnetici per le comunicazioni a distanza si deve a Guglielmo Marconi che nel 1901,
+05:49 tra l'altro sfidando i pareri della comunità scientifica di quel tempo che
+05:55 riteneva impossibile che i campi elettromagnetici potessero propagarsi
+05:60 oltre l'orizzonte, dimostrò la possibilità di usare un'onda radio per
+06:05 comunicazioni anche a grande distanza e il 12 dicembre del 1901
+06:12 realizzò il primo collegamento transoceanico. Ma c'è un'altra data che a me piace
+06:18 sempre ricordare perché ci riguarda più da vicino. Nella notte del 27 di
+06:24 novembre del 1923, quanto due radiamatori, l'americano Fred
+06:30 Schnell e il francese Leon de Lois, stabilirono il primo contatto radio
+06:36 transoceanico in onde corte e con apparati, diciamo, di debole potenza.
+06:42 Infatti erano operanti su lunghezza d'onda di 103 m, quindi circa 3 MHz,
+06:49 dimostrando la superiorità delle onde corte nei collegamenti a lunga distanza rispetto a quanto aveva fatto Marconi
+06:56 nel 1901, impiegando sistemi ad onda lunga. stima
+07:02 che il collegamento transoceanico di Marconi fosse stato realizzato con
+07:08 segnali con una lunghezza d'onda, diciamo, intorno ai 300-400 m, quindi
+07:15 siamo intorno a 400 kHz, quindi nel al limite tra le onde lunghe le e le onde
+07:23 medie e comunque con sistemi di notevole di notevole potenza.
+07:29 Ma torniamo a quello che dicevo all'inizio. Il modello che ha elaborato Maxwell dimostra che un campo elettrico
+07:36 è in variazione sempre concatenato a un campo magnetico, anch'esso in variazione
+07:42 con la stessa legge del campo elettrico e viceversa. Quindi campo elettrico e
+07:49 campo magnetico si sostengono a vicenda e si propagano linearmente nello spazio
+07:55 in modo sferico rispetto alla sorgente. pensate una lampadina accesa all'interno
+08:02 di una sfera e la luce si diffonde in maniera uniforme in tutte le direzioni e
+08:09 così è l'onda elettromagnetica eh si diffonde nello spazio da
+08:15 dall'origine in tutte le direzioni, quindi in modo sferico
+08:20 e il percorso, diciamo, che segue è un percorso
+08:26 lineare. Vedremo che questo è vero solo laddove
+08:31 non ci sono condizioni particolari che ne possono modificare il percorso
+08:36 stesso. E questo è il motivo vi dicevo all'inizio per cui gli studiosi ritenevano impossibile utilizzare le
+08:43 onde elettromagnetiche per collegamento a grande distanza.
+08:49 Quindi nello spazio libero il tra il campo elettrico e il campo magnetico che
+08:55 ripeto sono tra loro col relati c'è un rapporto costante e questo rapporto ha
+09:03 dimensionalmente le dimensioni di una resistenza, infatti si misura in ohm, il
+09:09 suo valore è 377 ohm, quella che è nota come l'impedenza dello spazio libero.
+09:15 Come vedete questo valore è indicato in rosso perché tra le domande a volte è
+09:22 capitato che vi viene chiesto il valore del dell'impedenza dello spazio libero
+09:28 del rapporto che esiste fra E h, cioè campo elettrico e campo magnetico.
+09:36 Come dicevo, il campo magnetico si propaga in linea retta e si propaga ad una velocità il cui via valore dipende
+09:45 dalle caratteristiche del mezzo in cui si propaga. La velocità massima si ha
+09:51 nel vuoto, dove la velocità è quella della luce, cioè i 300.000 km al
+09:57 secondo. Vedremo più avanti che e lo ritroveremo anche la prossima settimana
+10:04 quando parleremo delle linee che quando un campo elettromagnetico si propaga in
+10:10 un mezzo di
+10:17 delle caratteristiche del mezzo stesso, ma questo ripeto, lo vedremo meglio la
+10:22 prossima settimana. L'altra cosa che è importante e che dà origine ad una delle
+10:27 relazioni fondamentali è
+10:35 tra la frequenza il rapporto sostanzialmente per
+10:41 si sta perdendo molto l'audio. Sì, aspetta Paolo. Sì, un attimo perché
+10:48 ti abbiamo sei arrivato un po' frammentato. Mi senti Paolo? Sì, sì, sì.
+10:54 Io li sento perfettamente. Se magari mi dite da fin dove sono
+10:59 risultato comprensibile. Diciamo che quasi tutto se parlavi stavi
+11:06 parlando del diciamo tra il campo elettrico e il campo magnetico. È saltato qualche parola. Magari se lo
+11:12 ripeti forse è meglio. Grazie. Ok, perfetto. Mi dispiace. Se puoi provare Paolo a a disattivare la
+11:21 tua webcam.
+11:26 per vedere un attimo se migliora la situazione la condivisione.
+11:32 Sì,
+11:46 allora, adesso la webcam dovrebbe essere disattivata. Confermo.
+11:51 Mi sentite bene in questo momento? Sì. Va bene, proviamo. Al limite mi
+11:58 bloccatemi subito nel caso. Allora, stavo dicendo che nello spazio libero
+12:05 tra il campo elettrico e il campo magnetico, eh quindi fra l'intensità del campo
+12:11 elettrico e l'intensità del campo magnetico, le due componenti che costituiscono il campo elettromagnetico,
+12:18 vi è un rapporto costante e questo rapporto che ha dimensionalmente le caratteristiche di una resistenza,
+12:27 infatti si misura in ohne, assume il valore di 377 ohm. Io ho indicato nelle slide questo
+12:35 dato in rosso proprio perché è spesso oggetto di domanda.
+12:44 Dicevo prima che il campo si propaga in linea retta e ad una velocità il cui
+12:50 valore dipende dalle caratteristiche del mezzo in cui si propaga. Nel vuoto la
+12:57 velocità è quella della luce. cioè i 300.000 km al secondo. Vedremo meglio la
+13:04 prossima settimana quando parleremo di linee che quando la propagazione avviene
+13:11 in un dielettrico la velocità si riduce in funzione delle
+13:16 caratteristiche del dielettrico stesso e comunque la velocità è eh il prodotto
+13:25 tra la frequenza e la lunghezza d'onda. Questo fa sì che fra queste due fra
+13:31 questi due parametri, frequenza e lunghezza ononda, ci sia una relazione
+13:37 che è appunto la la velocità o lo vedremo meglio più avanti. Quindi
+13:42 sostanzialmente lunghezza d'onda e frequenza sono tra loro inversamente proporzionali.
+13:51 Eh, abbiamo visto, vi detto all'inizio, che campo elettrico e campo magnetico in
+13:58 un'onda elettromagnetica sono tra loro sempre perpendicolari.
+14:04 Infatti si definisce polarizzazione di un'onda elettromagnetica,
+14:09 il piano rispetto a terra su cui giacciono le linee di forza del campo elettrico.
+14:15 Quindi anche questo ve l'ho evidenziato in rosso perché è una tipica domanda d'esame, quindi vi possono chiedere
+14:23 appunto che cos'è la polarizzazione di un'onda elettromagnetica. si definisce,
+14:29 appunto, questa è una definizione eh polarizzazione, il piano rispetto a
+14:34 terra su cui ciascono line di forza del campo elettrico. Nell'animazione che vedete qui sulla destra nella slide
+14:43 vedete rappresentato in rosso e il campo elettrico in blu
+14:49 il campo magnetico. Campo elettrico è perpendicolare, è verticale, quindi
+14:55 perpendicolare al terreno. Quindi questa è la rappresentazione grafica di un
+15:00 segnale a polarizzazione verticale. Un segnale a polarizzazione, quindi un
+15:06 fascio elettromagnetico a polarizzazione orizzontale, risultato di 90°, cioè il
+15:13 campo elettrico è parallelo al terreno.
+15:19 Quindi, dicevamo, che cos'è un campo elettromagnetico? In realtà eh ci sono
+15:27 varie eh rappresentazioni pratiche, le onde radio, il calore, la luce, ma la
+15:36 radiazione ultravioletta, i raggi X, i raggi gamma sono comunque eh fenomeni
+15:44 che vengono percepiti in modo diverso, ma la differenza è data solo dalla
+15:50 lunghezza d'onda perché in tutti i casi si tratta fatta di radiazioni
+15:56 elettromagnetiche, cioè di un campo elettromagnetico. L'insieme di tutti questi aspetti prende
+16:04 il nome di spettro elettromagnetico e si estende, diciamo, dal dalle onde lunghe,
+16:11 quindi dalle frequenze più basse fino ai raggi gamma, dove la lunghezza d'onda è
+16:18 di frazioni eh
+16:24 eh di di milionesimi di millimetro. Eh, dicevo, si estende eh per tutta questa
+16:31 ampiezza, ma sempre di campo elettromagnetico si tratta. Noi ci
+16:37 focalizzeremo adesso su una parte specifica dello spettro elettromagnetico
+16:43 di nostro interesse, le onde radio. Eh, fino a qui l'audio è stato buono.
+16:54 Perfetto. Paolo. Sì, sì, Paolo libero. Benissimo, benissimo. Allora, vado avanti. Quindi,
+17:00 dicevo, le onde radio sono un pezzo dello spettro elettromagnetico e per
+17:06 definizione si definiscono onde radio quella parte dello spettro elettromagnetico
+17:12 compreso tra 3 kHz e 300 GHz. Poi la,
+17:17 diciamo, la le norme internazionali l'hanno creata una suddivisione ulteriore in in
+17:26 segmenti. Alcune di queste sigle probabilmente vi sono familiari. dicevo,
+17:32 una suddivisione in funzione del della frequenza,
+17:38 diciamo. Vedete, si va dalle dalle onde, le VLF,
+17:43 le onde lunghe, anzi in questo caso very long, very love
+17:49 frequency, le love frequency, le medie frequenze, le HF che conosciamo bene, le
+17:56 onde corte, VHF, OHF e e su su. Quindi
+18:02 questa è l'estensione dello spettro elettromagnetico che prende il nome di
+18:07 onde radio. Vi dicevo prima la lunghezza d'onda,
+18:12 vediamo di definirla meglio. Che cos'è la lunghezza d'onda? La lunghezza
+18:17 d'onda, tra l'altro, si indica con la lettera greca lambda e a seconda del suo
+18:22 valore espressa in metri o nei suoi multipli o sottomultipli, è definita
+18:28 come lo spazio percorso in un'oscillazione completa di un'onda che
+18:35 si propaga alla velocità della luce. Quindi, se voi qui lo vedete bene nel
+18:40 disegnino in basso a destra, pensate ad un'onda sinusoidale che eh si propaga
+18:47 con una certa velocità, nel compiere un'oscillazione completa, un ciclo
+18:52 completo, percorre uno spazio. Quello spazio è chiamato lunghezza
+18:59 d'onda. È la definizione di lunghezza d'onda. Se vi ricordate, qui vi faccio
+19:04 rivedere l'animazione di prima in cui si vede proprio bene l'effetto tra due
+19:12 massimi.
+19:22 Paolo, ti abbiamo perso.
+19:32 Non corre, non corre banda stasera. Mi sa che l'animazione ce l'ha giocata.
+19:38 Mh, sì, ha caricato troppo con l'animazione. Mh, probabilico.
+19:46 C'è una distanza che è la lunghezza d'onda.
+19:53 Paolo, t' abbiamo perso. Ecco,
+19:58 io vi io vi sento, però eh ascolta Paolo. Sì. E e probabilmente la l'animazione
+20:07 ha, diciamo, saturato un po'. Eh, ti abbiamo sentito abbastanza bene
+20:14 finché non hai aperto la l'animazione. Ho capito,
+20:21 non so cosa come aiutarti. Potrei fare un tentativo,
+20:27 che ho la doppia connessione a 24 e a 5 GB del Wi-Fi a cambiare connessione un
+20:34 attimo, però ho paura che cada connessione. Ti' aspettiamo, t' aspettiamo un attimo,
+20:40 non è un problema. Vai, prova, prova un attimo.
+20:50 Ecco, la connessione è cambiato. La connessione è cambiata. Vediamo se Perfetto, perfetto.
+20:56 Vediamo se va meglio. Mi dispiace, stasera è la prima volta che mi capita di aver problemi con la linea. Va bene,
+21:04 allora riattiviamo. Ecco, la slide la vedete?
+21:10 Sì, esatto. Paolo, ti chiediamo un'ultima cosa. Guarda, in fondo in basso c'hai scritto interrompi con
+21:18 condivisione e poi c'è nascondi. Se se nascondi così ci togli quella. Eh,
+21:23 perfetto. Adesso è benissimo. Prego. Scusa l'interruzione.
+21:29 Ok, non ho nessun problema. Allora, torniamo a alla slide.
+21:34 Niente. Eh, quindi avete perso tutta la descrizione della lunghezza d'onda, mi
+21:40 immagino. No, diciamo la lunghezza d'onda era chiara. Ti abbiamo perso al momento
+21:47 della dell'apertura della dell'animazione. Dell'animazione. Ok. Niente, quindi
+21:53 dicevo sull'animazione la condivisione, vedo solo le sigle di dei partecipanti,
+21:60 non vedo eh niente, non vedo che la condivisione schermo, non so se gli
+22:06 altri la vedono, se non solo solo io. No, noi la vediamo. Claudio, prova un attimo a buttare giù in in icona e
+22:14 rialzarla.
+22:22 Almeno io vedo benissimo anche l'animazione. Adesso scorre scorre bene.
+22:27 No, ora è perfetto tutto. E sì, si vede bene.
+22:32 Va bene. Provo a andare avanti. E prego, prego, prego. Tanto limite abbiamo abbiamo la registrazione. Vai
+22:38 libero Paolo. Prego. Ok, perfetto. Allora, stavo dicendo
+22:46 quando la cosa si è interrotta che l'animazione avrebbe dovuto aiutarci, in realtà ci ha
+22:51 creato un problema, ma e niente. Quindi, dicevo, nell'animazione si vede forse
+22:59 più chiaro il concetto dello spazio che l'onda percorre nel tempo e lo spazio
+23:07 che che intercorre fra due
+23:12 semionde positive o fra due semionde negative è la lunghezza d'onda. E stavo
+23:18 dicendo tra la lunghezza d'onda e la frequenza il rapporto è la velocità di
+23:25 propagazione. Quindi questo dà origine ad una formula che vi sarà spesso molto
+23:32 utile, che è quella che vi permette di calcolare la lunghezza d'onda espressa
+23:37 in metri come risultato della frazione 300 diviso la frequenza in MHz. e
+23:48 viceversa. Ovviamente io do per scontato che già
+23:53 sappiate che cos'è la frequenza, cioè il numero di oscillazioni in un secondo.
+24:01 Andiamo avanti. Quindi, come abbiamo visto, un'onda elettromagnetica a partire dalla sorgente si propaga in
+24:09 tutte le direzioni, in linea retta nello spazio libero o che cosa vuol dire nello
+24:15 spazio libero? ovvero in assenza di elementi che ne possono eventualmente
+24:22 modificare il percorso. Vedremo poi più avanti che ce ne sono di
+24:28 queste condizioni. La propagazione avviene quindi in modo sferico, dicevo prima, facevo l'esempio
+24:35 della lampadina all'interno di una sfera e l'intensità del campo si riduce con il
+24:42 quadrato della distanza. Perché questo? Perché chiaramente mano che aumenta la
+24:48 distanza, la superficie sferica su cui si distribuisce
+24:54 l'energia erogata dalla sorgente, questa superficie diventa sempre più grande,
+25:01 quindi la quantità di energia per per unità di superficie è sempre più piccola
+25:08 e siccome la superficie di una sfera si eh quadruplica quando la la distanza
+25:15 si raddoppia, cioè è proporzionale la al quadrato del raggio, in questo caso
+25:21 della distanza. Quindi l'intensità del campo si riduce con il quadrato della
+25:28 distanza. Ma se noi andiamo a porre un'antenna
+25:35 ricevente ad una certa distanza dalla sorgente,
+25:41 quanta energia l'antenna ricevente è in grado di estrarre dal campo
+25:48 elettromagnetico è la quantità di energia che l'antenna
+25:53 estrae, dice la teoria, è proporzionale ad una superficie equivalente
+25:59 che è definita come area effettiva dell'antenna e che vedete riportata in
+26:06 quella formulina in basso che ci dice una cosa importante
+26:12 che la quantità di energia che l'antenna ricevente estrae dal campo
+26:20 elettromagnetico è proporzionale al quadrato della
+26:25 lunghezza d'onda. Questo che cosa vuol dire? Lo vediamo bene nella slide
+26:30 successiva, che l'attenuazione in un percorso radio tra il
+26:37 trasmettitore e il ricevitore ad una certa distanza è proporzionale sì alla
+26:44 distanza e più esattamente al quadrato della distanza,
+26:49 ma è eh inversamente proporzionale al quadrato della lunghezza d'onda oppure
+26:57 detto in maniera più semplice è proporzionale al quadrato della distanza
+27:03 e al quadrato della frequenza. Quindi attenzione, questa può essere una
+27:10 domanda di esame. L'attenuazione di un segnale radio aumenta sempre comunque
+27:16 all'aumentare della distanza, ma anche all'aumentare della frequenza. Quindi a
+27:21 parità di distanza più alta è la frequenza, maggiore è l'attenuazione. Mi
+27:28 ricordo visto che c'è una domanda che dice un segnale che si propaga eh nella
+27:34 troposfera che cosa fa? Si attenue o non si attenue? sempre e comunque
+27:41 in funzione della frequenza, diceva la domanda, sempre e comunque un segnale
+27:47 radio si attenua sia per la distanza sia
+27:52 per la frequenza. Tra l'altro a titolo così di di informativo, qui vedete un
+27:58 grafico delle attenuazioni nello spazio libero e le linee sono diverse in
+28:04 funzione della frequenza e man mano che la frequenza aumenta a parità di distanza aumenta l'attenuazione.
+28:13 Questa che vedete riportata qui in rosso,
+28:19 state tranquilli, non ve la chiedono all'esame. Comunque la formula che ci
+28:24 permette di calcolare l'attenuazione nota la distanza in chilometri e la
+28:30 frequenza in MHz. Quindi se volete sapere che attenuazione c'è su una
+28:37 tratta lunga 10 km a 100 MHz, mettete i numeri in questa formulina e avete il
+28:43 risultato in in decibel. Però vi tranquillizzo, non è una domanda
+28:49 d'esame. Quindi torno un attimo a quello che
+28:54 dicevo prima sulla storia del dello studio dei campi elettromagnetici.
+28:59 All'inizio dello studio dei campi elettromagnetici gli scienziati negli scienziati dell'epoca era radicata la
+29:06 convinzione che peraltro era supportata dalla teoria che un campo
+29:11 elettromagnetico si propagasse solo in linea retta e quindi non potesse essere utilizzato per
+29:19 comunicazioni oltre l'orizzonte. Come sapete invece
+29:25 si è dovuto alla caparbietà di Guglielmo Marconi e dei suoi esperimenti la
+29:32 dimostrazione pratica che un'onda elettromagnetica invece potesse superare anche un ostacolo e propagarsi ben oltre
+29:40 l'orizzonte ottico. Anche se quando Marconi conduceva i suoi esperimenti, la
+29:48 scienza non ne conosceva le motivazioni, quindi prese si prese atto della cosa,
+29:55 ma le motivazioni che permettevano questo non erano note. Si dovete infatti
+30:01 attendere ben 25 anni dal quel 1901
+30:08 prima di avere la spiegazione scientifica che dimostrasse quale fosse il motivo che permetteva ad un'onda
+30:15 elettromagnetica di propagarsi oltre l'orizzonte. Tra l'altro i primi a formulare
+30:21 un'ipotesi scientifica sul coinvolgimento dell'atmosfera terrestre nella propagazione delle onde
+30:28 radio sono stati due scienziati Eviside e Kennedy nel 1902.
+30:35 Ma era solo un'ipotesi. Solo nel 1925 fu dimostrata da Edward
+30:42 Appleton la presenza di strati ionizzati riflettenti nell'altra atmosfera e per
+30:48 questo, tra l'altro, gli fu assegnato il Nobel per la fisica. E nel 1929, quindi
+30:56 28 anni dopo il primo esperimento di Marconi, eh Robert Watson Wat
+31:03 introdusse il concetto di di ionosfera così come la conosciamo adesso, cioè
+31:09 come insieme di aree con differente livello di di ionizzazione, coniando di
+31:17 fatto un neologismo. Il termine diosfera è nato eh nel 1929,
+31:24 termine poi divenuto in ambito delle comunicazioni di di uso
+31:30 comune. Infatti la presenza dell'atmosfera terrestre ed in particolare la sua
+31:38 composizione, le sue caratteristiche che permettono ad un'onda
+31:43 elettromagnetica di propagarsi a grande distanza oltre l'orizzonte.
+31:51 Eh, vedremo nelle prossime slide che in funzione della frequenza utilizzata, ma
+31:57 anche della parte di atmosfera attraversata da un fascio radio,
+32:02 possiamo identificare diversi meccanismi di propagazione.
+32:07 Tra questi, diciamo, una classificazione sommaria permette di identificarne eh
+32:14 quattro molto diversi tra loro. Li vedete qui rappresentati. la propagazione cosiddetta nello spazio
+32:22 libero o come eh spesso si dice importata ottica,
+32:28 la propagazione per onda di terra, quelli che gli inglesi chiamano surface
+32:34 o o ground wave, la propagazione troposferica
+32:41 e la propagazione ionosferica o come chiama la chiamano gli inglesi l'onda di
+32:46 cielo skywa. Vedremo ora singolarmente le principali
+32:51 caratteristiche e ci soffermeremo un po' di più sulla propagazione ionosferica
+32:58 perché è quella che ci interessa più da vicino ed è quella che su cui spesso
+33:04 sono focalizzate le domande di esame. Quindi l'ho già anticipato, parliamo di
+33:11 propagazione nello spazio libero o di portata ottica
+33:16 quando i due estremi del collegamento due estremi della tratta sono in piena
+33:22 visibilità ottica e l'area in cui si propaga il
+33:29 campo elettromagnetico è priva di ostacoli che possono causarne
+33:35 una deviazione o un assorbimento. In questo caso, ovviamente la
+33:40 propagazione del fascio elettromagnetico avviene in linea retta,
+33:47 quindi è il caso tipico dei porti radio a microonde che utilizzando antenne a fascio molto stretto fanno sì che il
+33:55 campo elettromagnetico si propaghi in uno spazio libero e privo di ostacoli.
+34:01 Quindi è solo in questa condizione, tra l'altro, che vale quella formuletta di cui vi dicevo prima.
+34:10 Un altro modo è invece l'onda di terra, ovvero è quello che avviene a un campo
+34:16 elettromagnetico eh in prossimità del terreno. Ora,
+34:23 senza entrare nel dettaglio del perché accade questo, vi dico solo che in
+34:30 prossimità del terreno l'onda elettromagnetica
+34:36 tende ad incurvarsi e quindi a seguire la curvatura
+34:43 terrestre con una particolarità però che eh a causa proprio delle caratteristiche
+34:51 del terreno, una parte dell'energia si dissipa nelle correnti indotte dal
+34:57 dall'onda elettromagnetica nel terreno stesso e quindi l'onda di terra si
+35:02 attenua molto rapidamente. Proprio a causa di questa
+35:07 caratteristica, diciamo, può essere utilizzata convenientemente
+35:14 solo su frequenze molto basse, tipicamente le onde lunghe. Questo perché, come vi avevo detto nel prima,
+35:23 in una precedente slide, le frequenze molto basse hanno
+35:29 un'attenuazione minore e quindi eh diciamo l'onda di terra riesce a
+35:35 raggiungere distanze significative, però diciamo che
+35:41 l'utilizzo è eh minimo, proprio limitato ai sistemi
+35:47 ad onda lunga nel a frequenze superiori l'attenuazione è talmente rapida che la
+35:53 rende pressoché eh inutilizzabile. Tra l'altro una notazione
+35:59 eh particolare che poi ritroveremo più attentamente tra un paio di settimane
+36:05 quando parleremo di antenne, l'onda di terra subisce una minore attenuazione
+36:11 quando la polarizzazione è verticale. Questo è il motivo per cui qua tutte le
+36:18 stazioni di radiodiffusione che trasmettono in onde medie, in onde lunghe usano sistemi
+36:26 a polarizzazione verticale. Terzo caso, la propagazione
+36:33 troposferica. eh si parla di propagazione troposferica
+36:39 quando il fascio elettromagnetico attraversa la parte più bassa dell'atmosfera,
+36:46 quella che viene appunto chiamata troposfera ed in particolare è quella zona compresa
+36:53 tra zero, quindi tra terra e i 10 15 al massimo chilometri di altezza. Tra
+37:02 l'altro la troposfera è l'area in cui avvengono tutti i fenomeni
+37:08 meteorologici. Sostanzialmente poi, come vedremo più avanti, è quella che
+37:13 contiene il 90 circa il 90% dei gas che costituiscono l'atmosfera.
+37:21 La troposfera per le sue caratteristiche eh è un mezzo neutro, cioè non ha
+37:30 cariche elettriche libere e quindi l'unico fenomeno che avviene nella
+37:37 troposfera è quello della rifrazione, fenomeno che avviene anche, diciamo, nel
+37:46 nel mondo del del dell'ottica e quindi della luce sostan sostanzialmente
+37:52 in funzione della diversa densità degli strati d'aria alle varie altezze,
+37:60 il fascio elettromagnetico subisce una rifrazione che altro che non è che una leggera
+38:09 deviazione della della direzione di propagazione. Questa dovuta al fatto, lo
+38:15 vedete rappresentato nella nel disegno a destra, che la velocità del fascio nella
+38:22 parte alta è maggiore rispetto alla parte bassa perché è diversa la densità
+38:28 del di elettrico, in questo caso dell'aria e quindi il fascio si incurva.
+38:35 Questo è un fenomeno che è presente a tutte le frequenze, che è indipendente dalla frequenza, ma che viene utilizzato
+38:43 prevalentemente in VHF e in UHF, dove vedremo o meglio
+38:50 più avanti, non ha effetto la propagazione ionosferica, quindi in UHF,
+38:56 in VHF, in UHF si riesce ad andare eh oltre l'orizzonte.
+39:03 Eh, grazie a questo fenomeno però le distanze che si riesce a raggiungere
+39:10 sono relativamente limitate perché proprio in casi del tutto eccezionali si
+39:17 può raggiungere gli 800000 km mediamente distanze ben più brevi.
+39:26 Il quarto caso è quello invece della propagazione ionosferica o onda di
+39:33 cielo. Parliamo quindi di propagazione ionosferica quando l'onda
+39:39 elettromagnetica raggiunge gli strati più alti dell'atmosfera terrestre ed in
+39:45 particolare quelli compresi tra un'altezza che va da 80- 100 km fino a
+39:53 circa 400 km di altezza. Vedremo dopo che nella classificazione
+39:58 dell'atmosfera quest'area che si chiama termosfera
+40:05 e e che poi, come vi ho detto prima, è stata in ambito di delle
+40:11 telecomunicazioni ribattezzata iosfera ha delle caratteristiche particolari
+40:17 e che gli permettono di deviare di nuovo
+40:22 verso terra il fascio elettromagnetico. È un fenomeno però che si presenta
+40:29 solo per un ristretto range di frequenze e in particolare compreso tra il limite
+40:37 superiore delle onde medie e diciamo la fascia delle onde corte in
+40:44 funzione del livello di ionizzazione della ionosfera stessa, cosa che vedremo
+40:51 più nel dettaglio nelle slide successive. livello di ionizzazione che a sua volta
+40:58 dipende principalmente dalla radiazione solare e che solo raramente
+41:05 raggiunge livelli tali da interessare frequenze superiori ai 3040 MHz. Quindi,
+41:12 quando parliamo di propagazione ionosferica, nella migliore delle ipotesi siamo nel range che va da 1-2
+41:20 MHz fino a 30, eccezionalmente 40 MHz. Diciamo che
+41:28 spesso capita anche di stare molto al di sotto. I meccanismi che regolano la
+41:33 propagazione ionosferica sono estremamente complessi
+41:39 e proveremo a darne, come vi dicevo, una breve spiegazione nelle slide
+41:45 successive, senza entrare eh troppo nel dettaglio.
+41:52 Primo, perché non è richiesto dalle domande d'esame e perché comunque
+41:59 è un argomento molto complesso che richiederebbe
+42:05 ore e ore di lezione.
+42:10 Allora, partiamo, vi dicevo, dalla struttura, dalla composizione dell'atmosfera terrestre. Qualcosa ve
+42:17 l'ho già accennato, diciamo, l'atmosfera terrestre si estende sostanzialmente da
+42:23 terra fino ad altezze eh che raggiungono e superano i 1000 km.
+42:31 Con una particolarità, come vi dicevo, il 90% ed oltre dei gas cheo
+42:39 l'atmosfera terrestre sono compresi nella fascia più bassa, cioè tra 0 e 10
+42:46 km nella troposfera e dove la densità dei gas è massima e
+42:53 man mano che saliamo la densità dei gas
+42:59 diminuisce rapidamente. oltre una scelta altezza, diciamo, a
+43:06 partire dai 7080 km di altezza, poi interviene un altro
+43:15 fenomeno che è quello della dissociazione
+43:20 eh ionica, ovvero sopra gli 80-90 km le radiazioni
+43:29 solari ed in particolare raggi X e raggi gamma sono talmente
+43:36 intense da rompere i legami molecolari del degli atomi e delle molecole dei
+43:43 gas, facendo sì di liberare degli elettroni e quindi avremo non più un gas
+43:51 neutro, ma una miscela di gas in forma
+43:56 ionica, cioè atomi o molecole che hanno perso un elettrone, quindi hanno una carica positiva e elettroni liberi che
+44:04 hanno una carica negativa. In fisica questa miscela si chiama
+44:11 plasma e in questo caso parliamo di plasma ionosferico.
+44:16 Quindi a causa delle sollecitazioni dovute alla fortissima radiazione oltre
+44:22 gli 80 km di altezza si determina questo
+44:28 fenomeno. Quindi la presenza di cariche elettriche
+44:36 nella atmosfera ad altezze comprese tra i gli 80 e 400 km
+44:43 è la sostanzialmente il motivo che permette la riflessione
+44:50 dei campi elettromagnetici e vedremo meglio nel dettaglio che
+44:58 questo avviene sostanzialmente con la stessa legge con
+45:03 cui la cosa avviene, per esempio, per un fascio di luce. Io faccio sempre
+45:08 l'esempio, pensate ad un oggetto immerso in un bicchier d'acqua. Lo vediamo eh
+45:15 fisicamente deformato perché la sua immagine attraversa il punto di confine
+45:21 tra due o eh ambienti a diverse caratteristiche,
+45:27 l'aria e l'acqua e quindi diciamo il la sua immagine ne risulta deviata. La
+45:35 stessa cosa succede a un fascio elettromagnetico che incontra uno strato ionizzato. In
+45:41 particolare poi la densità di ionizzazione, cioè la quantità di
+45:48 cariche elettriche libere nell'atmosfera, non è uniforme,
+45:53 ma è, diciamo, collocata in strati. mh
+45:58 si identificano strati a diversa densità
+46:03 elettronica nella fascia tra gli 80- 100 km e i 400 km di altezza.
+46:11 In particolare ne sono stati definiti tre che hanno
+46:17 interesse per le comunicazioni e sono lo strato D, che è quello più basso,
+46:22 diciamo, il primo che si incontra salendo dal Bassola ed è collocato ad un'altezza compresa tra 60 e 90 km in
+46:32 cui la il livello di ionizzazione varia rapidamente, molto rapidamente nell'arco
+46:38 della giornata. Tra l'altro, di norma, lo strato D è presente solo di giorno.
+46:44 poco più in alto, tra i 100 e i 140 km di altezza, c'è lo strato E
+46:52 che ha un livello di ionizzazione più alto dello strato D, ma anche lo strato
+46:58 E abbastanza legato alla radiazione solare diurna e quindi di conseguenza
+47:06 diciamo la densità elettronica dello strato è varia significativamente
+47:12 nell'arco della della giornata, arrivando addirittura a scomparire quasi
+47:18 totalmente durante la notte. Il terzo strato, lo strato F, occupa invece una
+47:25 zona abbastanza vasta, compresa tra 150 e 400 km di altezza, ed è quello che
+47:33 presenta il più alto livello di ionizzazione di tutta la ionosfera. è
+47:39 sempre presente giorno e notte ed ha però una particolarità che durante il
+47:45 giorno la concentrazione delle cariche si distribuisce su due livelli
+47:52 sovrapposti denominati F1 e F2, mentre di notte questi due livelli F1 e F2
+48:00 collassano in un unico livello più in alto, ma normalmente
+48:07 a livello a densità di ionizzazione leggermente
+48:13 più bassa. Perché sono importanti? Vi dicevo prima, perché sono quelli che, come vedremo, ci
+48:20 permettono di poter realizzare collegamenti a grande distanza.
+48:25 È importante però sapere una cosa, a differenza degli strati E f,
+48:34 lo strato D non è di nessuna utilità per la
+48:39 propagazione delle onde elettromagnetiche, perché il livello di ionizzazione è
+48:45 troppo basso. Poi ci sarebbe anche un altro motivo, ma andiamo troppo nel nel
+48:52 complesso, e il suo effetto è addirittura dannoso in quanto è causa di
+48:58 attenuazione per assorbimento. Lo strato D ha delle caratteristiche
+49:05 particolari, ripeto, non voglio entrare nel dettaglio, credetemi però sulla
+49:11 parola, eh diciamo che soprattutto nella parte più bassa dello spettro delle onde
+49:19 corte, quindi diciamo al di sotto dei 5-6 MHz, è causa di assorbimento e di
+49:28 quindi di forte attenuazione il il livello di attenuazione cresce
+49:33 rapidamente mano che la frequenza scende. Quindi quando è presente lo
+49:40 strato D, la parte bassa delle onde corte, quindi tipicamente di giorno, è
+49:47 quasi inutilizzabile, per non dire inutilizzabile, proprio per l'effetto
+49:52 negativo dello strato D. Lo strato E invece, ma soprattutto lo
+49:58 strato F, sono in grado di deviare il percorso delle onde elettromagnetiche
+50:05 che lo che gli attraversano fino al punto di causarne la riflessione verso terra. Questo in funzione
+50:14 dell'angolo di incidenza, come vedremo, e della frequenza che raggiunge lo
+50:21 strato ionizzato. Vedremo meglio anche più avanti una cosa
+50:26 importante che viene definita frequenza critica dello strato riflettente
+50:35 la massima frequenza che permette la riflessione totale di un fascio
+50:40 elettromagnetico. Quindi provo qui a a riassumere quello
+50:47 che abbiamo detto fino ad ora e a darvi un elemento in più. Quindi la ionosfera
+50:52 terrestre si presenta come un plasma. Abbiamo detto che cos'è un plasma? cioè
+50:58 una miscela di gas ionizzati che quindi hanno presentano cariche elettriche
+51:04 stratificati e variabili in funzione dell'altezza con diverso livello di ionizzazione.
+51:12 Il valore massimo dell'inizzazione si raggiunge di giorno intorno ai 300 km di
+51:19 altezza, cioè lo strato F2 e le cariche elettriche presenti fanno
+51:26 sì che il plasma sia un buon conduttore di elettricità e quindi risponda
+51:31 fortemente ai campi elettromagnetici. La fisica ci dice che la frequenza di
+51:38 plasma è la frequenza del moto armonico degli elettroni bla bla, ma è sostanzialmente
+51:44 una frequenza che definisce il comportamento del
+51:50 eh del del dello strato. Tra l'altro, quindi, questo valore di
+51:56 frequenza è molto importante per capire come si comportano gli strati riflettenti e il suo valore, che appunto
+52:06 viene chiamata frequenza critica F0 del plasma non è costante, ma varia
+52:15 durante il giorno in base all'orario e varia anche, come vi ho detto prima, in
+52:20 funzione del ciclo solare. Tanto per avere un'idea,
+52:26 il valore minimo della frequenza critica si raggiunge di notte durante il periodo
+52:33 di minimo di un ciclo solare ed è intorno a 2 MHz.
+52:39 Il valore massimo si raggiunge di giorno nel periodo di massimo del ciclo solare
+52:48 e mediamente raggiunge i valori di 12-13 MHz.
+52:54 Questo valore, vi ripeto, molto importante eh per diversi
+53:01 aspetti, è monitorato costantemente dagli istituti di geofisica attraverso
+53:07 le ionosonde. Qui vedete, se vi dovesse interessare, il link del INGV di Roma,
+53:15 dove è possibile vedere con aggiornamento ogni 15 minuti i i dati
+53:21 del dei parametri della ionosfera, quindi valore di F0, il valore della
+53:28 muffa e altri parametri. Qui a destra è riportato, sempre preso dal sito
+53:35 dell'INGV, l'andamento giornaliero riferito al 19 di agosto, quindi abbastanza recente,
+53:43 del valore di f. Adesso siamo in un periodo, lo vedremo poi nelle ultime
+53:49 slide, eh di massima o poco oltre il massimo del ciclo
+53:55 solare. Infatti le frequenze sono abbastanza elevate e si va da valori
+54:01 intorno ai 5 MHz durante la notte fino a valori, diciamo, massimi intorno ai 10
+54:08 MHz, subito dopo mezzogiorno. Quello che vedete in rosso è l'andamento
+54:15 del 19, quella linea in bianco e la media della settimana. Comunque se vi
+54:22 interessa vedere queste informazione le trovate a a questo link.
+54:28 Quindi Paolo, perdonami se non hai c'è un qualche domanda quando vuoi.
+54:34 Sì, ma penso che sia meglio farla subito perché poi al
+54:39 vado avanti, metto altri elementi in campo, così magari facciamo anche un
+54:44 piccolo break che penso sia utile. Ecco, benissimo Marco, prego.
+54:54 Arrivo. Mi senti? Sì, sì, perfettamente. Perfetto, perfetto. Allora, io ti volevo
+54:60 fare una domanda su questo fatto. Si è parlato della propagazione troposferica. Ora ti
+55:07 faccio una domanda che saprai sicuramente. Eh, quando
+55:12 la NATO usò i troppo scatter per fare i ponti radio per comunicare sulla maglia
+55:18 radio, io sono andato a vedere, perché son curioso, anche le antenne, ma lì si
+55:23 parla non di VHF, perché loro usavano delle parabole immense, le lunghezze
+55:29 d'onda erano abbastanza elevate. Eh sì, ma allora io
+55:35 però loro usavano il la troposfera per fare per usare Sì, loro usavano la troposfera anche perché
+55:41 a a frequenze come come vi ho detto superiore ai 30-40 MHz non c'è
+55:47 nessun'altra possibilità. Il fatto che le parabole fossero enormi era legato al
+55:53 fatto che serviva un guadagno d'antenna
+55:58 estremamente elevato perché l'attenuazione su tratti troposferiche è
+56:04 abbastanza elevato. Ora, non vorrei dire stupidaggini, tra l'altro ho anche dei
+56:10 documenti proprio relativi al progetto nato, ma credo che utilizzassero
+56:17 frequenze, potrei sbagliarmi, ma intorno ai 250-300
+56:24 MHz. Ah, diciamo che mh personalmente non ho avuto esperienza
+56:30 diretta su quelle tratte, ma per lavoro una quarantina d'anni fa mi sono
+56:37 occupato di una tratta troppo scatter eh tra la Toscana e la Sardegna che
+56:44 lavorava a 470 MHz e magari qualche toscano un po' anziano
+56:50 come il sottoscritto se lo ricorderà perché le antenne venne
+56:56 della Sardegna erano sul Monte Limbara, ma quelle della Toscana erano in
+57:02 provincia di Pisa, Castelnuovo, Val di Cecina, ed erano parabole da 11 m e si
+57:10 vedevano tranquillamente sul profilo della montagna anche qua da Pisa, me lo ricordo perfettamente. Ma era sempre era
+57:18 sì smantell. Ora non ci son più perché no no no. Diciamo le tratte troppo scatter sono state smantellate tutte nei
+57:25 primi anni. Sì. Esistono ancora quello sul Monte Giove in Liguria, però sono smantellate, nel senso c'è solo la parabola. Eh
+57:33 sì, c'è solo la parabola. Sì, sì. Non c'è nemmeno più i rec, non c'è più nulla.
+57:38 Sì, anche perché avevano tantissime criticità. Quindi, fra l'altro, penso che quelle del
+57:43 Monteveovi le abbia prese l'associazione Ari di Lios, non so se della Spezia o di qualcuno, per farci delle prove.
+57:52 Qualcosa qualcosa ho letto. Comunque, diciamo, ti confermo, erano tratte eh
+57:59 troppo scatter e poi se se ti interessa magari a fine
+58:05 lezione eh posso vedere se ritrovo subito rapidamente il documento, posso
+58:11 anche dirti esattamente la la frequenza. Era era per era per curiosità per sapere
+58:17 su che frequenze lavoravano esattamente, perché diciamo che o o erano frequenze piccole MHz. Ora non
+58:26 non vorrei sbagliarmi. Comunque siamo su quel su quell'ordine. Quindi la parabola era per aumentare il guadagno sicuramente in ricezione
+58:34 trasmissione per eh per aumentare il guadagno. Bene, grazie.
+58:39 Quelle con la Sardegna erano 11 m le parabole di diametro.
+58:44 e eh era stato installato ai primi anni 70 e lavorava a 470 me e
+58:53 del trasmettitore era da 150 W, ma non era militare quello della Sardegna, era era civile tipo Telecom,
+59:00 insomma. Non era Telecom, era Enel, perché era a servizio del cavo marino che collegava
+59:09 che collegava collega tutt'ora la il continente con la Sardegna. C'è un cavo
+59:15 marino in corrente continua e c e ai due estremi ci sono due stazioni di conversione che fanno la conversione
+59:22 continua alternata e diciamo il il collegamento radio serviva a
+59:28 sincronizzare le due stazioni, poi è stato sostituito da fibra ottica e quant'altro, diciamo.
+59:35 Sì, sì, sì. Con altri sistemi più veloci e sicuri. Bene, grazie per me. Ok.
+59:44 Ci sono altre domande? No, Paolo, momentaneamente no. Prosegui
+59:50 pure. Grazie. Ok, perfetto. Allora,
+59:55 mi ero fermato alla frequenza critica. Dicevo, la frequenza critica è un parametro
+60:02 estremamente importante perché definisce il limite, si chiama
+60:08 critica proprio per questo, perché definisce il limite oltre il quale il comportamento del plasma ionosferico nei
+60:16 confronti di un campo elettromagnetico si modifica. Ed in particolare possiamo
+60:21 identificare tre diverse condizioni. La prima condizione è questa. la
+60:29 frequenza del mio fascio elettromagnetico, quindi se la frequenza
+60:34 del mio trasmettitore è che raggiunge la ionosfera è minore
+60:39 della frequenza critica, quindi qui in alto vi ho riportato la i dati attuali,
+60:46 quindi diciamo se io stasera utilizzassi un fascio radio a frequenza inferiore a
+60:54 5 MHz, io posso star certo che comunque questo fascio raggiunge
+61:02 la ionosfera viene riflesso a terra qualsiasi sia l'angolo. In pratica la
+61:10 ionosfera si comporta come un buon conduttore. È come se attorno alla Terra
+61:16 ci fosse un gran foglio d'alluminio, mettiamola così, che ricopre la la
+61:22 ionosfera e quindi le frequenze inferiori alla frequenza critica non
+61:28 possono uscire fuori. Infatti in fisica si chiama cavità ionosferica
+61:36 quest'area per per quelle frequenze che
+61:41 stanno al di sotto della frequenza critica e che non possono quindi uscirne
+61:47 uscirne fuori. Quindi, se la frequenza è minore della frequenza critica, la
+61:54 riflessione del fascio è totale in ogni condizione.
+62:01 Secondo caso, se la frequenza della mia trasmissione
+62:06 che raggiunge la ionosfera è maggiore della frequenza critica,
+62:12 il plasma invece si comporta come un mezzo a indice di riflazione variabile
+62:19 in funzione della frequenza. Quindi un po', come vi dicevo, il bicchiere d'acqua eh e dell'oggetto
+62:27 infilato nel bicchier d'acqua, causando la deviazione del fascio che l'attraversa,
+62:35 in funzione del valore assunto, appunto, dall'indice di rifrazione.
+62:42 Questo che cosa comporta? Questo comporta una cosa molto importante che
+62:49 la deviazione che subisce il fascio può non essere
+62:54 sufficiente a rifletterlo a terra in tutte le condizioni. Infatti vedete nella
+63:01 figurina a destra l'esempio. La deviazione
+63:07 può non essere sufficiente se il fascio arriva molto verticale perché viene sì
+63:13 deviato, ma comunque sfugge dalla dalla ionosfera e continua, diciamo, verso lo
+63:21 spazio esterno. Oltre un certo angolo, la deviazione è
+63:26 tale da potere invece permettere la riflessione a terra.
+63:34 Quanto deve essere quest'angolo? Dipende da due
+63:40 parametri, l'indice di ionizzazione e la frequenza del fascio. Quindi in questo
+63:47 caso, cioè quando la frequenza è superiore, la deviazione è garantita solo per certe
+63:55 condizioni e non è sempre garantita.
+64:00 Poi c'è un terzo caso. Se la frequenza è molto superiore dalla
+64:08 frequenza critica, il plasma diventa totalmente trasparente, cioè il fascio non subisce
+64:16 alcuna deviazione. Questo è il caso delle frequenze molto elevate. Pensate a
+64:23 frequenze dell'ordine di centinaia di maherz o di qualche gigaherz. quelle non
+64:29 a caso utilizzate dai satelliti proprio perché transitano attraverso la
+64:34 ionosfera senza sostanzialmente subire variazioni. Quindi queste sono
+64:42 tre casistiche importanti. Ci concentreremo però in particolare sul
+64:50 secondo caso, ovvero il caso in cui la frequenza del
+64:55 fascio sia superiore di poco superiore
+65:01 alla frequenza critica. In questo caso, come vi ho già
+65:07 accennato, il comportamento della ionosfera è analogo a quello che succede
+65:16 nel nell'ottica geometrica e che è descritto dalla legge di Snell, ovvero
+65:23 come un fascio di luce viene deviato. pensate a una lente, al prisma, al
+65:28 famoso prisma, come un fascio di luce viene deviato attraversando mezzi a
+65:34 diversa densità, la stessa cosa accade al fascio elettromagnetico.
+65:41 Di quanto viene deviato, questo dipende dalla frequenza e dalla
+65:48 densità di ionizzazione. Quindi in queste condizioni il fascio subisce una
+65:54 deviazione la cui entità è funzione della frequenza e della densità di
+65:59 ionizzazione dello strato che attraversa. Questo quindi fa sì, quindi appare come
+66:07 appare evidente il disegnino che vedete qui ce lo dimostra che per frequenze
+66:15 maggiori di fessione può avvenire solo per angoli di
+66:22 incidenza. angolo di incidenza è l'angolo che il fascio fa con la verticale
+66:28 maggiore di un certo valore. Questo valore cresce all'aumentare della
+66:34 frequenza. Quindi i fasci che raggiungono la
+66:39 ionosfera con angoli minore la bucano e proseguono a a verso l'esterno. Quelli
+66:47 che lo raggiungono con un angolo eh
+66:53 maggiore vengono deviati verso terra. Qui vedete il caso 1
+67:00 e l'angolo è relativamente piccolo e il fascio buca. per angoli maggiori invece
+67:08 vengono deviati a terra. Questa eh cosa fa sì che si determini
+67:15 una particolare condizione che quindi in queste condizioni può determinarsi
+67:21 quella che viene chiamata una zona d'ombra, cioè una zona dove il nostro
+67:27 segnale non può essere ascoltato. Perché a partire dal punto A dove il nostro
+67:33 trasmettitore, il primo punto dove io posso ascoltare il segnale riflesso è il
+67:40 punto B1, perché riflessioni con angoli più stretti non sono possibili. Quindi
+67:47 questo è il motivo per il quale si determina una zona d'ombra.
+67:54 E vi ripeto, la zona d'ombra si si determina solo quando la frequenza della
+67:60 mia trasmissione è superiore alla frequenza critica, perché se è minore,
+68:06 come vedete qui, il fascio invece può essere riflesso anche se irradiato
+68:13 verticalmente. Questo sostanzialmente ci dice per che per comunicazioni su brevi distanze
+68:22 io devo sempre utilizzare frequenze che siano al di sotto o prossime alla
+68:30 frequenza critica. sulle lunghe distanze eh posso utilizzare anche frequenze più
+68:36 elevate e anzi vedremo poi più avanti che addirittura ne posso avere un un
+68:43 vantaggio. Comunque questa è la motivazione che determina la zona d'ombra.
+68:50 Infatti, sulla base di quello che abbiamo appena visto, eh facciamo adesso
+68:56 alcune definizioni che sono utili, soprattutto anche perché saranno
+69:04 oggetto delle domande d'esame. Infatti si definisce MOF, che è un acronimo i
+69:11 maximum usable frequency, la massima frequenza utilizzabile che permette la
+69:18 riflessione del fascio perché oltre un certo valore, come vi ho
+69:25 detto, arriviamo ad un punto in cui il fascio
+69:30 non viene eh riflesso. il valore della MOF è mediamente
+69:36 circa il triplo di F0 della frequenza critica. Ora il valore esatto, se uno lo
+69:45 vuol conoscere bisogna ritornare a quella tabellina che vi ho fatto vedere prima sul sito del
+69:53 dell'INGV che fornisce anche questo valore. Ripeto, qui è un dato, io vi ho
+69:60 detto mediamente il triplo, il valore esatto e può variare perché dipende
+70:06 anche dall'altezza dello strato. Analogamente alla MOF è definito un
+70:14 altro valore, la LUF, che è la minima frequenza utilizzabile
+70:20 che ci indica invece per una determinata condizione del degli strati ionizzabi,
+70:28 qual è la minima frequenza utilizzabile alla quale al di sotto della quale i
+70:34 fenomeni di attenuazione che vi accennavo prima dovuti principalmente, anzi direi quasi quasi esclusivamente
+70:42 allo strato D sono tali da non permettere e da rendere impossibile un
+70:48 collegamento radio. In entrambi i casi comunque si tratta di
+70:55 due dati limite. È stato definito un altro parametro e spesso c'è la domanda
+71:04 su questo che è il valore della frequenza ottimale per un certo
+71:09 collegamento che ci indica appunto il valore ottimale di frequenza da
+71:15 utilizzare per una determinata destinazione.
+71:20 questo valore e poi più avanti cercherò di spiegarvi
+71:27 empiricamente il perché. Questo valore è mediamente compreso tra l'80 e il 90%
+71:35 della MOUF. Quindi ve lo anticipo già vi troverete quasi sicuramente una domanda
+71:41 d'esame che vi dice se io ho una MOF eh di 30 MHz o di 28 MHz o di 25 MHz, qual
+71:55 è la frequenza ottimale da utilizzare per un collegamento a lunga distanza?
+72:02 La risposta in genere vengono date tre risposte, quella giusta e quella il cui
+72:09 valore sta intorno all'80-90% della MOF. Quindi se la MOF è 30 MHz, la
+72:18 frequenza ottimale 3 * 8 24 3* 9 27 è
+72:23 intorno ai 25-26 MHz. Quindi questa è una domanda che eh
+72:31 mettete nel conto quasi sicuramente troverete.
+72:38 Ecco, questa è una rappresentazione grafica di quello che vi ho detto fino
+72:45 ad ora. Tra l'altro qui c'è il link dove potete trovare questa immagine ed è una
+72:52 cartina che rappresenta i valori, la mappa della MOF.
+72:57 Tra l'altro questa è relativa al 14 di agosto di quest'anno, alle 15:30
+73:04 perché, come vi dicevo, i valori cambiano in funzione e poi lo vedremo
+73:11 meglio nelle prossime slide, in funzione delle ore del giorno, ma anche della eh
+73:20 posizione geografica. I valori massimi in genere sono collocati in prossimità
+73:27 delle zone tropicali. E questa cartina ci dà un'informazione
+73:34 importante perché ci dice qual è la massima frequenza che io posso utilizzare per realizzare un certo
+73:41 collegamento. Quindi è chiaro che se io devo raggiungere una certa destinazione,
+73:48 utilizzando una certa frequenza, mi devo assicurare che lungo tutta la tratta la
+73:54 MOF sia superiore, perché se è inferiore io quella destinazione non la raggiungo.
+74:02 Quindi questa, diciamo, ci dà già un'idea di quale bande possono essere
+74:10 quelle ottimali per raggiungere certe destinazioni in alcune ore del giorno. E
+74:16 vi ripeto, questi valori variano sia in funzione della posizione geografica
+74:23 delle ore del giorno, ma soprattutto dello stato del ciclo solare. Non è un
+74:29 caso che qui ho riportato un numerello, questo SFI, che è il solar
+74:36 flux intensity, cioè l'intensità del flusso solare. Quindi se cambia
+74:43 l'intensità del flusso cambiano anche questi valori.
+74:50 Ma c'è anche un'altra cosa che è importante dire ed è questa
+74:56 con una riflessione sulla ionosfera per le caratteristiche proprio
+75:03 geografiche e del nostro pianeta, io
+75:09 posso raggiungere una distanza massima che è dell'ordine dei 3500 km. Perché se
+75:15 vi fate due conti proprio di semplice geometria, raggio terrestre 6370
+75:23 km, altezza dello strato, io nell'esempio qui ho preso 250 km, vi
+75:31 andate a calcolare qual è la distanza massima che posso
+75:37 raggiungere, perché chiaramente l'angolo più basso che io posso utilizzare è
+75:42 quello radente all'orizzonte. La distanza massima che posso raggiungere
+75:48 sono 3.500 km. E allora come faccio a raggiungere distanze più elevate?
+75:59 Eh, quello è possibile perché i meccanismi eh della propagazione
+76:06 prevedono anche eh modalità più complesse della singola riflessione.
+76:14 Diciamo le più semplici sono quelle delle riflessioni multiple. Quindi io
+76:19 posso raggiungere una distanza maggiore attraverso multiple eh riflessioni
+76:26 perché il segnale che torna a terra viene riflesso dal terreno e si innesca
+76:32 un un ulteriore meccanismo. flessioni che possono essere multiple
+76:39 lo strato E sullo strato F, oppure come dire una sullo strato E, una e una sullo
+76:46 strato F. Però non dovete notare che in
+76:52 questa modalità il l'attenuazione è molto elevata perché
+76:57 tutte le volte per ogni salto si attraversano gli strati bassi e in
+77:02 particolare lo strato D. Si determinano a volte invece condizioni
+77:08 molto favorevoli quando si innesca quello che si chiama
+77:14 il duct mode, cioè il modalità condotto, ovvero
+77:20 il segnale raggiunta allo strato F rimbalza
+77:25 nello spazio compreso tra lo strato F e lo strato E fino a raggiungere magari
+77:31 terra a notevole distanza con attenuazione molto più bassa Perché non
+77:37 c'è l'attenuazione nella riflessione a terra, non c'è l'attenuazione nell'attraversamento dello strato di
+77:44 oppure con un'altra modalità, diciamo, un po' meno frequente che si chiama
+77:49 cordal mode, in cui il fascio, una volta raggiunto lo strato F, prosegue
+77:56 pressoché orizzontalmente all'interno del dello strato ionizzato per
+78:02 raggiungere terra a distanza. Come vi dicevo, queste due modalità sono un po'
+78:08 più rare e si presentano in condizioni particolari,
+78:16 ma hanno il vantaggio di avere una minore alternazione e quindi di
+78:21 restituire, diciamo, segnali molto più
+78:26 forti rispetto al al tradizionale rimbalzo
+78:32 a terra. Tutto questo ci dice della scarsissima prevedibilità di quelle che
+78:38 possono essere le condizioni di propagazione ionosferica. Però, ecco, se
+78:47 se ne conoscono un pochino le modalità, io non dico che si riesce a prevedere,
+78:53 ma quantomeno avere un'idea di quali possono essere le condizioni migliori.
+79:04 Se vogliamo fare una piccola pausa, io ho cercato di andare abbastanza veloce perché l'argomento era grosso, eh, però
+79:13 mi rendo conto che eh, come dire, può essere di difficile tenere il ritmo. Per
+79:20 cui siamo adesso all'ultimo argomento, cioè il ciclo solare. Quindi prima di
+79:26 affrontarlo, se eventualmente ci sono delle domande, magari facciamo un
+79:31 minutino di di break. Paolo, in questo momento le domande non
+79:38 ci sono. Se vogliamo attendere un secondo, come vuoi te.
+79:44 No, no, per me si può tranquillamente andare avanti. Avevo solo lo scrupolo, come dire, di non aver addormentato
+79:51 tutti quanti. Ecco. No, assolutamente, assolutamente. Questo
+79:57 non credo possibile, anche se sono, insomma, naturalmente,
+80:04 diciamo, concetti importanti, ma, insomma, sono spiegate molto bene e ti ringraziamo.
+80:10 Come decidi te, Paolo? No, no, perfetto. Allora, andiamo avanti così al limite se avanza un pochino di
+80:17 tempo possiamo concentrarle tutte alla fine.
+80:23 Niente. Quindi, come vi ho detto all'inizio, i meccanismi della propagazione ionosferica sono
+80:31 strettamente correlati a livello di ionizzazione
+80:36 degli strati ionizzati e il livello di ionizzazione del degli strati ionizzati
+80:43 è direttamente dipendente dal livello dell'attività solare
+80:50 che ed in particolare dalla presenza delle macchie solari sulla superficie
+80:57 del Sole, oltre ad altri fenomeni classificati come SID, cioè fenomeni
+81:05 improvvisi che non sono ciclici come i brillamenti,
+81:11 i cosiddetti buchi coronali, eruzioni solari, tempeste magnetiche e e quant'altro. Tra l'altro questi fenomeni
+81:19 sono più frequenti nei periodi di massima attività solare. Infatti, in
+81:26 questi mesi, eh diciamo abbiamo letto più volte anche
+81:31 sulla stampa di fenomeni di questo tipo che impattano ovviamente in maniera
+81:38 abbastanza importante anche sul livello di ionizzazione, quindi sul
+81:44 comportamento della propagazione ionosferica. Comunque proviamo adesso a vedere qual è la
+81:51 relazione che esiste tra eh la nostra stella e la sua attività e il
+81:59 comportamento della ionosfera in relazione alle condizioni di propagazione.
+82:05 Esistono quattro cicli nel sistema solare che influenzano i livelli di ionizzazione della ionosfera terrestre.
+82:14 Il primo e il più importante è sicuramente il ciclo undecennale
+82:19 dell'attività solare. Il sole presenta un ciclo di che ha durata 11 anni in cui
+82:28 il numero di macchie solari eh presente sulla superficie del sole eh
+82:36 varia da praticamente eh zero, cioè assenza di macchie ha una
+82:43 quantità elevata e la presenza delle macchie
+82:48 solari determina un aumento un forte aumento delle radiazioni
+82:54 eh solarig in raggi X, eh raggi gam e quant'altro che hanno
+83:02 ripercussione sul livello di ionizzazione. Oltre questo poi c'è il ciclo di
+83:08 rotazione solare sul proprio asse, un ciclo che è una durata, come vedremo, di
+83:14 circa 27 giorni. Poi c'è il ciclo orbitale della Terra,
+83:21 quello che determina intorno al Sole, quello che determina l'alternanza delle stagioni, il ciclo di rotazione della
+83:27 Terra sul proprio asse, cioè l'alternanza giorno e notte. Vediamo adesso nel dettaglio come ciascuno di
+83:34 questi ha influenza sulla ionizzazione e quindi sulla propagazione.
+83:42 Come vi dicevo, esiste una relazione diretta tra il numero di macchie solari
+83:47 presenti sulla superficie del Sole e il livello delle radiazioni ionizzanti.
+83:54 SSN sta per solar transport number, cioè numero di macchie solari. Nei grafici
+84:01 troverete questa sigla, ma è numero di macchie solari. La presenza delle macchie solari, come
+84:07 vi dicevo, ha un andamento ciclico con una ciclicità di 11 anni e varia
+84:12 dall'assenza totale ad un massimo che può raggiungere e a volte superare anche
+84:18 un valore di 200 300 eh macchie. Qui vedete rappresentato
+84:26 l'andamento degli ultimi, mi pare, 7 2 4 Sì, sette cicli solari a partire dal
+84:33 1950, il famoso 1958
+84:39 che è stato un anno record con 300 con un picco di 350
+84:46 eh di SSN pari a 350 e poi i cicli successivi con il massimo tra cavallo
+84:54 tra il 69 e il 70, il 1980,
+84:59 1991, eh 20034
+85:05 mi pare, poi 2003-2014 e adesso il massimo che secondo gli
+85:13 scienziati si è raggiunto a cavallo tra la fine del 2024 e l'inizio del 2025 è
+85:20 stato un ciclo abbastanza abastanza buono, sicuramente migliore del
+85:26 precedente che è stato pessimo, come vedete. Adesso ci troviamo nel 25º ciclo
+85:34 solare. 2 perché è il 25º ciclo di cui
+85:40 gli scienziati hanno un'osservazione diretta e come vedete dal diagramma a
+85:47 sinistra eh abbiamo appena superato il
+85:54 il massimo. Questo in questo grafico vedete in giallo l'andamento giornaliero
+86:00 del numero delle macchie. in blu quello mensile, in rosso la media,
+86:07 quindi il dato medio aggiornato ad agosto, perché questa questo grafico è
+86:14 di agosto e ci dice che stiamo iniziando abbiamo appena iniziato la la discesa.
+86:22 Questo a destra è il dettaglio del periodo a cavallo fra la fine di luglio
+86:28 e l'inizio di agosto. diciamo intorno come valore ai 150,
+86:35 quindi è un valore ancora molto buono, eh, però chiaramente la la discesa è è
+86:44 iniziata, quindi ancora per un paio d'anni probabilmente le condizioni saranno
+86:51 sicuramente buone, poi chiaramente cominceremo un po' a soffrire un pochino
+86:57 di più. Eh, quindi, come vi dicevo, oltre il
+87:04 ciclo undicennale delle macchie solari c'è un altro aspetto di cui dobbiamo
+87:10 tener conto della rotazione sul proprio asse del sole. Il sole in
+87:17 realtà impiega 24 giorni, 25 giorni per fare una rotazione, ma dal nostro punto
+87:24 di vista, cioè dal punto di vista di un osservatore che sulla Terra il Sole
+87:30 appare, la superficie del Sole appare nella stessa posizione dopo circa 27
+87:36 giorni perché nel frattempo la Terra si è spostata e quindi oltre alla rotazione
+87:43 del Sole dobbiamo aggiungere il fatto che anche noi ci siamo spostati. Quindi un'eventuale macchia solare presente
+87:51 sulla superficie solare noi la rivedremmo nella stessa posizione dopo
+87:57 circa 27 giorni. Ora, il fatto che le macchie solari, specialmente nei periodi di eh elevata
+88:05 attività e quindi di elevato numero di macchie solari non sono uniformemente
+88:12 distribuite sulla superficie del sole. Questo fa sì che con ciclicità
+88:19 i 27 giorni possano esserci periodi di maggiore o minione minore radiazione
+88:26 solare. Infatti vi riporto qui il grafico che vedevamo
+88:33 prima, quello che è l'andamento giornaliero. Come vedete la linea gialla
+88:38 ha molte oscillazioni intorno al valor medio proprio dovute a
+88:44 a questo fatto, cioè al fatto che la le macchie solari presenti sulla sulla
+88:51 superficie del Sole si spostano con la rotazione del sole e quindi il livello di
+88:59 radiazione che giunge a noi cambia di giorno in giorno mano che le macchie si
+89:05 spostano. è mediamente più elevato quando le macchie sono tante, ma non è
+89:10 costante. Quello che sappiamo però che se si è verificato un periodo, diciamo,
+89:18 di alta intensità è molto probabile che dopo 27 giorni questo si ripresenti
+89:26 perché le macchie solari non compaiono e scompaiono molto rapidamente.
+89:33 Quindi, se erano presenti 27 giorni prima è probabile che più più o meno
+89:39 siano presenti anche 27 giorni dopo. Quindi quando si presenta un periodo di
+89:45 propagazione molto buona, possiamo essere ragionevolmente confidenti che
+89:52 più o meno dopo 26-27 giorni si possa ripresentare.
+90:00 Poi c'è un effetto dovuto al ciclo orbitale terrestre e all'alternanza
+90:07 delle stagioni. Come sapete la terra, l'asse terrestre, l'asse di rotazione
+90:13 terrestre è inclinato rispetto al piano dell'ellittica, cioè dell'orbita che eh
+90:20 con cui la Terra ruota intorno al Sole. Questo fa sì che ci sia l'alternanza
+90:26 delle stagioni, ma questo fa sì che da a seconda delle stagioni l'area illuminata
+90:35 dal sole, quindi raggiunta dalla radiazioni solari possa essere maggiore
+90:40 o minore e l'angolo con cui le radiazioni solari arrivano sulla Terra
+90:47 può essere maggiore e minore, quindi questo può determinare un maggiore o minore
+90:53 livello di ionizzazione, soprattutto sugli strati più bassi di
+90:60 ed, diciamo, l'effetto è presente anche sullo strato F, ma in maniera
+91:07 meno evidente. Comunque l'effetto non c'è e poi è evidente. Qui vedete che a
+91:15 seconda della latitudine eh in inverno le ore di luce diventano
+91:22 rapidamente minori mano che mi avvicino a al polo e diventano molto maggiori nel
+91:29 nella parte estiva, diciamo, in questo caso nell'emisfero superiore. Quindi è
+91:34 evidente che quest'area sarà mediamente raggiunta da una maggior quantità di
+91:41 radiazioni rispetto a all'altra e e viceversa. Quindi ci sarà un variazione
+91:51 nelle nel livello di ionizzazione, quindi nelle caratteristiche della propagazione anche su base stagionale,
+91:60 così come ovviamente anche su base giornaliera per l'alternanza tra il
+92:07 giorno e la notte. In particolare, questo, come vi ho accennato prima,
+92:13 interessa lo strato D. e fa sì che lo strato discompaia
+92:20 pressoché totalmente contestualmente al tramonto per ricomparire all'alba
+92:26 successiva. Il problema, il processo è simile anche per lo strato E, ma avviene
+92:33 con tempi molto più lunghi che fanno sì che il decadimento di ionizzazione dello
+92:39 strato E non sia immediato come lo strato D, ma è molto più graduale.
+92:47 La seconda variazione, come vi dicevo, riguarda lo strato F e in particolare la
+92:52 sua suddivisione in sottostrati durante il giorno e la ricomposizione
+92:58 in un unico strato con livello di ionizzazione comunque più basso nelle rispetto alle
+93:05 ore diurne, ma ad un'altezza maggiore. Questo, tra l'altro comporta
+93:14 come risultato caratteristiche diverse nel comportamento della propagazione la
+93:19 parte alta delle delle onde corte rispetto alla parte bassa ed in
+93:26 particolare a seconda del periodo del ciclo solare in cui in cui
+93:33 ci troviamo. il fatto che di notte il livello di ionizzazione dello strato F
+93:40 sia più basso rispetto al giorno è
+93:45 comunque in parte compensato dal fatto che di notte eh non abbiamo più
+93:51 l'attenuazione dello strato D, specialmente dannoso specialmente per le
+93:58 bande eh più basse e compensato dal fatto che lo strato essendo più alto,
+94:08 permette, come dire, salti un pochino più lunghi. Quindi questo mi porta a
+94:14 dire che specialmente per la parte alta delle delle onde corte le non c'è grande
+94:21 differenza nei periodi di elevata attività solare
+94:27 tra il giorno e la notte, cosa che invece è molto diversa nelle condizioni
+94:35 di minimo del ciclo solare, perché eh nei periodi di scarsa attività
+94:42 solare, i livelli di ionizzazione sono più bassi e fanno sì che le bande alte,
+94:48 io quando parlo di bande alte, intendo le bande sopra i 40 m, siano aperte solo
+94:55 nelle ore centrali del giorno, mentre di notte la MUF scende sotto i 10 MHz,
+95:02 rendendole di fatto inutilizzabili. Quindi ora in questo periodo, come dire,
+95:09 eh siamo messi abbastanza bene e perché siamo in un periodo di elevata attività
+95:15 solare e quindi le le altre rimangono aperte anche di notte e come vi dicevo è
+95:21 possibile avere buoni segnali soprattutto nelle prime ore dopo il tramonto, quella che si chiama la grey
+95:27 line, la linea grigia, cioè la linea di passaggio tra il giorno e la notte, quando la diminuita attenuazione
+95:35 degli strati bassi, abbiamo detto, lo strato D scompare subito dopo il tramonto e i livelli di ionizzazione
+95:42 dello strato F, che invece sono ancora molto elevati permettono di avere buone condizioni di
+95:48 propagazione. Infatti i valori della MOUF, se andate a vedere le mappe, si
+95:54 mantengono molto elevati anche per diverse ore dopo il tramonto e rimangono
+96:01 comunque levati anche di notte. Purtroppo tra qualche anno non sarà più
+96:06 così e dovremo, come dire, rispolverare
+96:11 le le bande basse, cioè dai 40 m a a scendere.
+96:17 Io, diciamo, con un po' di anticipo sull'orario avrei concluso, quindi ho
+96:23 cercato di correre forse fin troppo. Se c'è qualche domanda io a questo punto
+96:29 sono a vostra disposizione.
+96:36 In questo momento, Paolo, non abbiamo mani alzate. aspettiamo qualche
+96:43 qualche minuto per far sì che qualcuno elabori un po' la cosa,
+96:49 eventualmente rispondiamo dopo.
+96:56 Comunque il fatto di aver finito prima sicuramente non fa male a nessuno,
+97:03 no? Eh, l'argomento è tosto, la presentazione è abbastanza lunga, quindi ho cercato di correre perché non volevo
+97:11 sforare oltre le 23 perché poi capisco che a una certura, come dire, l'argomento è è già
+97:19 soporifero di suo. Se poi ci si mette ci si mette anche l'orario la cosa diventa
+97:26 un mix terribile. Peso diventa un po' peso. Io penso che l'argomento venga, bisogna
+97:32 digerirlo. Eh sì. Sicuramente, sicuramente, come tutti del resto, eh,
+97:37 sicuramente, sicuramente. Sì, questo va digerito un po' di più perché saltando avanti e indietro a
+97:45 volte si perde la la il bandolo della matazza. Vabbè, pian pianino. Marco, hai la mano
+97:53 alzata, prego. Hai la mano alzata, prego. No, io ho finito. C'era Morelli,
+98:01 ho visto Morelli. Marco, sì. C'ha la mano alzata.
+98:06 Sauro, buonasera. Mi sentite? Vai Marco. Allora, domanda, mi riferisco
+98:13 naturalmente agli 11 m e poi sono come 10 m. Per quale motivo d'estate abbiamo
+98:20 una propulazione più corta rispetto all'autunno dell'inverno?
+98:30 Allora, mh diciamo questo, mh d'estate eh come vi ho fatto vedere nelle nelle
+98:39 slide, ora premesso, ripeto, quello che ho che ho già detto un paio di volte, lo
+98:45 ripeterò all'infinito, la previdibilità di quello
+98:50 che succede nella ionosfera è pressoché prossima a zero, cioè se qualcuno
+98:56 sostenesse di poter prevedere vedere con esattezza quello che accade, direbbe una gran fesseria. Detto questo,
+99:04 però, alcuni comportamenti, alcune tendenze possono però comunque trovare una
+99:11 giustificazione. Allora, d'estate mediamente a parità di livello di
+99:18 ionizzazione, il periodo, diciamo, il tempo di
+99:23 esposizione una radiazione solare è maggiore. Essendo maggiore, i livelli di
+99:29 ionizzazione possono essere superiori, mediamente
+99:35 superiori rispetto all'inverno. Questo sarebbe vero se noi avessimo un sole che
+99:42 si comporta, come dire, costantemente nello stesso modo. Non è mai così. Però
+99:49 su base statistica possiamo dire che questo è possibile. Il fatto di avere un
+99:55 livello di ionizzazione maggiore fa sì che possa essere più elevata quella
+100:02 famosa f0. Quindi se l' f0 è più elevata, se vi ricordate il disegnino,
+100:10 questo vuol dire che io posso avere riflessione anche per angoli di
+100:16 incidenza. più alti, più stretti, per così dire, e
+100:23 quindi la famosa zona d'ombra si riduce e quindi la propagazione, fra virgolette
+100:30 è più corta, cioè io riesco a collegare corrispondenti più vicini se la
+100:37 ionizzazione è più elevata. Il concetto è cosa che a volte qualcuno quando lo
+100:45 dico inorridisce. Ma quando la propagazione cala, in
+100:51 termini di intensità, cioè quando la ionizzazione cala, il corrispondente si
+100:58 allontana. Cioè, quando la propagazione si riduce, c'ho c'avrei un bel disegnino
+101:04 da farvi vedere, ma lasciamo perdere. Sostanzialmente quello che si allontana è il primo punto
+101:12 di riflessione, non quello più lontano. Quindi, man mano che la ionizzazione si
+101:18 riduce, io perdo i corrispondenti più vicini, non quelli più lontani. Questo è
+101:23 il motivo per cui quando la ionizzazione è più elevata io posso avere
+101:29 corrispondenti più vicini e quindi la propagazione più corta. ripeto,
+101:35 prendetelo come un dato statistico, perché poi eh questo è vero solo se la
+101:42 radiazione del sole fosse costante, in realtà non lo è, per cui ci può essere il giorno che va meglio d'inverno
+101:50 rispetto a a un giorno d'estate e viceversa. Perfetto. Una una una paggianata, no? Si
+101:59 potrebbe far vedere queste lezioni ai terrapiattisti?
+102:04 Eh, ma tanto non ti credono, ti preoccupa, non ti credano.
+102:12 Ho detto una cavolata, però, cioè, di fronte a queste cose qui che cosa
+102:17 direbbero? Ah, e sicuramente Paolo si è inventato tutto. Sicuramente.
+102:23 Ecco, quello sicuramente quello sicuramente. Grazie. Comunque
+102:30 ci mancherebbe. Vai Sauro.
+102:36 Sì. Eh, buonasera. Colgo l'occasione per salutare tutti. Ben ritrovati e scusate
+102:43 il ritardo, m'ha portato la solita Rocchettara alle prove con la chitarra.
+102:49 Io e quindi vi saluto tutti. Ben ritrovati. Io approfitto di Paolo.
+102:55 Buonasera Paolo. Io c'ho sempre avuto Ti faccio io una domanda perché ho sempre
+103:02 avuto un dubbio. Eh, la rotazione, cioè l'orbita
+103:07 terrestre è un ellisse, no? Su un piano,
+103:12 se la vedi da dall'alto è un ellisse. Immagina questo questo piano di di
+103:18 vederlo di lato, no? schiacciare dell'isse, diciamo, si sull'asse X. Ok?
+103:27 Ora, l'inclinazione della Terra, se non ricordo male, è 23,5. Io ho sempre avuto il dubbio.
+103:35 Oh, questi 23,5 durante l'orbita sull'ellisse
+103:41 rimangono sempre nella stessa direzione sull'orbita dell'ellisse. Oppure diciamo
+103:49 quando cambiano cambia la posizione lungo lungo l'orbita,
+103:55 anche l'asse si inclina in una direzione diversa, visto di lato come ti dicevo.
+104:02 No, rimane costante perché altrimenti non ci sarebbe l'alternanza delle stagioni. Eh, però questa è una verità
+104:11 vera fino a un certo punto, nel senso che è meno noto e ed è di anche
+104:18 abbastanza poco importante, però eh l'inclinazione dell'asse
+104:24 fluttua, in realtà fluttua, cioè un movimento,
+104:29 non mi non mi chiedete come si chiama perché non me lo ricordo nemmeno io, però c'è un movimento minore
+104:38 La precessione dovrebbe essere, ecco, c'è un movimento
+104:44 della dell'asse terrestre eh oscillatorio, quindi sostanzialmente
+104:51 l'inclinazione rimane sempre quella, però dondola, passatemi il termine, un
+104:58 pochino, però gli effetti sono pressoché inesistenti, da non confondere,
+105:03 attenzione con il comportamento dell'asse magnetico,
+105:10 cioè del polo magnetico. Quello, tra l'altro, dico purtroppo perché c'è
+105:16 qualche studioso che sta mettendo in giro teorie preoccupanti, ma negli
+105:22 ultimi anni sta muovendo, si sta muovendo molto rapidamente, molto rapidamente. Quindi il
+105:31 eh diciamo cosa vuol dire credo che non lo sappia nessuno, però c'è c'è questo c'è questo problema. Però l'asse di
+105:39 rotazione, nel senso quello che dicevi te, l'inclinazione sull'eclittica è
+105:45 mediamente costante. Tra l'altro questa questa fluttuazione è minima pressoché
+105:51 in impercettibile, per cui al rigor di logica e di e di scienza, se uno dice
+105:57 che è fermo non è vero, però da un punto di vista pratico è come se fosse se
+106:03 fosse costante, anche perché se ruotasse insieme alla rotazione intorno al sole
+106:11 la la avremmo solo una stagione, cioè eh la la parte più esposta rimarrebbe
+106:18 sempre la stessa, quella quella non ci sarebbe l'alternanza delle stagioni. Sì. Quindi, diciamo, ricapitolando
+106:26 e in quell'ipotesi di come si vede di lato l'orbita ellittica, io mi troverei
+106:33 l'asse terrestre inclinato 23,5 e mi si sposta da destra verso sinistra
+106:40 rimanendo sempre 23,5. Infatti, quando è da un lato è esposto
+106:46 l'emisfero superiore, quando è dall'altro esposto l'emisfero inferiore. Quando è nel mezzo sono esposti in
+106:54 maniera uniforme entrambi gli emisferi. Ecco, grazie Paolo. Io mi era sempre
+106:60 rimasto questo dubbio qui che non miero mai riuscito di di focalizzare. Ora stasera visto che ci sei, ne ho
+107:07 approfittato. Grazie mille. Ma ci mancherebbe.
+107:17 Non finiamo mai di imparare, ragazzi. Eh, il bello è proprio questo. Mh,
+107:25 signori, se non ci sono altre domande, io sarei per congedare Paolo, interrompere la registrazione e magari
+107:32 darsi appuntamento a mercoledì prossimo. Ditemi un po' voi. Alessio, vienimi il
+107:39 soccorso. Sono d'accordo con te. Prima di salutare Paolo,
+107:46 gli chiederei la famosa immagine. Eh beh, sì. Eh di sfondo delle sue slide. una
+107:52 spiegazione. Eh, volentieri. Stavo solo guardando se
+107:57 riuscivo a recuperare rapidamente il dato sul troppo scatternato,
+108:07 giusto? Perché poi non vorrei aver detto delle cose che non sono del tutto
+108:13 veritiere. Solo solo un secondo ormai.
+108:18 Prego, prego, Paolo, ci mancherebbe.
+108:36 [Musica] Qui non lo trovo e magari ce lo fai vedere la prossima
+108:42 volta. Inizio lezione. Dai Paolo, non ingrullire. Se non lo trovi così,
+108:49 va bene, lo vediamo lo vediamo
+108:55 la la prossima volta. Se non ci sono altre domande, a questo punto, come
+108:60 dire, vengo alla alla domanda
+109:05 della postazione è quella che vedete sullo sfondo del
+109:11 della presentazione che lo vedrete anche nelle nelle prossime perché la
+109:17 lo sfondo che uso normalmente è la villa di Medicia di Coltano. dove
+109:26 tra l'altro abbiamo avuto la fortuna di poter avere la sede ehm
+109:35 della sezione e dove tra l'altro è stato
+109:40 eh creato il
+109:46 una specie di piccolo museo eh in cui
+109:51 sono state raccolti alcuni cimeli eh della
+109:56 vecchia stazione Marconi che, come dire, spesso ci viene promesso dalle
+110:03 istituzioni un intervento di di recupero e e che,
+110:08 come dire, avrebbe sicuramente valore
+110:15 importantissimo. Se fossimo, io dico sempre, se fossimo in un altro paese,
+110:21 non sarebbe in queste condizioni, ma purtroppo tant'è. Quindi, se vi dovesse
+110:27 capitare di passare da quelle parti, magari una una sosta a dargli
+110:33 un'occhiata potrebbe essere potrebbe essere consigliata.
+110:38 Paolo era venuto fuori tempo fa anche un articolo quello sul Tirreno e sulla nazione. Vengono fuori vengono
+110:48 Ma dov'è la la stazione Marcone? È vicino a San Rossore era? No, no, no, è vicino è vicino alla
+110:55 villa. Ah, sarà meno di 1 km di distanza,
+111:01 ma è sostanzialmente ormai un rudere. Cioè, noi facciamo in questa maniera,
+111:06 mentre gli americani con Tesla ci hanno costruiti il mondo. Certo, perché hanno hanno fatto dove stato
+111:13 Tesla? Hanno fatto un museo in ogni posto per Tesla. Certo, ma anche ma anche Marconi, perché se voi
+111:21 andate sia in in Inghilterra, Palmut sia
+111:28 a San Giovanni Terranova, che sono le i due punti da cui fu fatta la prima
+111:33 trasmissione eh transoceanica, come dire, eh ci sono c'è museo, ci sono
+111:41 tutta una serie di Solo in Italia ste cose è vero che noi abbiamo un patrimonio artistico
+111:49 tale che siamo forse troppo abituati, però in questo caso secondo me siamo
+111:55 andati anche un po' oltre il limite perché il valore anche scientifico, io
+112:01 non voglio dire altro e ma poi insomma se
+112:06 basterebbe leggersi un po' un po' la storia, in fin dei conti Marconi come
+112:12 dire a un certo punto sapete che ha dovuto prendere e andare in Inghilterra terra perché qui da noi dessuno se lo
+112:19 fidava, insomma, detto detto chiaramente e quindi e vabbè
+112:26 che volete che vi dica? Comunque niente, mh, tra l'altro
+112:32 lì è abbastanza bellino perché ci sono un po' di immagini quello che è stato possibile
+112:38 recuperare di come era la postazione, ma più che altro il sistema di antenne e
+112:44 addirittura c'è anche qualche pezzo recuperato della della vecchia postazione.
+112:50 Purtroppo il è stata quasi completamente, anzi completamente
+112:56 distrutta dagli eventi bellici, quindi di quello c'è c'è rimasto poco, anche se
+113:03 eh si vedono ancora nelle immagini aeree anche da Google si riesce a intravedere
+113:09 le basi dei tralicci che sostenevano le antenne, insomma, che era veramente
+113:16 una cosa enorme, enorme. Gigantesca.
+113:21 Gigantesca. Sì. Se vi dovesse capitare, ripeto, di passare da quelle parti. Stile doveva avere dei tralicci stile
+113:28 Radio Vaticana quando c'era Radio Vaticana e trasmetteva sull'onde lunghe.
+113:34 Eh, allora, eh, ripeto, io purtroppo, come vedete, ho i capelli bianchi e
+113:40 quindi comincio a avere qualche problem io mi avvicino eh qualche problema di memoria, per cui con
+113:46 i numeri a volte rischio di dare i numeri, appunto, però se mi ricordo bene
+113:51 erano 70 m di altezza i i tralicci, cavolo, ed erano totalmente in legno,
+113:59 tanto che c'è una storiella che si racconta, ma insomma Ma lasciamo lasciamo perdere perché è un po' qua
+114:08 quasi volgare, nel senso che durante una delle trasmissioni sperimentali
+114:13 eh ci fu un principio di incendio su un isolatore in testa ad uno di questi travicci di
+114:21 legno e qualcuno salì su nel tentativo di di estinguere
+114:28 l'incendio e non sapendo eh cos'altro fare usò i propri mezzi per spegnere
+114:35 l'incendio, cioè ce la fece sopra, insomma. Non so se è vero questo
+114:42 questo si racconta. Comunque i tralicci erano parecchi, anche perché sosteneva
+114:48 sostanzialmente un'antenna, quella che viene chiamata avventaglio mi pare, o qualcosa del genere, che era un mostro
+114:56 immenso. Purtroppo a quel tempo usavano
+115:01 sistemi ad onda lunga e quindi le antenne e erano di dimensioni
+115:09 enormi, specialmente nei primi nei primi tempi. Poi, come dire, la conoscenza
+115:17 della materia era anche abbastanza limitata e quindi
+115:22 probabilmente venivano fatte delle cose più sulla base dellesperienza pratica
+115:27 che non della della teoria, però chiaramente da un punto di vista visivo
+115:36 quelle poche immagini che ci sono veramente d'effetto, insomma, veramente d'effetto.
+115:43 Quindi e tutto sommato, ripeto, averlo recuperato poteva non essere una cosa
+115:51 poi così sbagliata. bene o male è stata per molti anni la stazione
+115:59 radio più potente al mondo, eh, quindi comunque aveva un primato, quella di Coltano aveva un primato importante.
+116:11 Questo questo è è una cosa è un posto magico ovviamente
+116:18 per chi del settore e è un posto magico, c'è un bel museo, molto interessante la
+116:25 visita, grazie anche alla sezione Ari di Pisa che insomma cura molto questo
+116:32 particolare e ci impiega un tantissimo tempo. Vi devo dire la verità è un bell'impegno, però è abbiamo la fortuna
+116:41 di averla qui a pochi passi da da casa nostra perché grosso modo siamo quasi tutti toscani.
+116:47 Vi suggerisco vivamente di farci una scusa una visita.
+116:53 Dov'è di preciso? Coltano. Ah, sì, sì, ci sei stato. Sì, c'è stato
+116:59 bicicletta. E sì, tra l'altro da Pisa sono 7 km. Eh,
+117:05 ma io io forse qualcosa meno. Io sto a Piombino, però eh
+117:11 eh vabbè, in quel caso però diciamo eh è praticamente a metà strada fra Pisa
+117:16 e Livorno, quello esattamente a metà strada. Sì, sì, sì, ci sono state. Poi
+117:21 prossima volta, diciamo che che più o meno al campo derby,
+117:28 eh? Più o meno all'altezza di campo derby. Sì, esatto. Però nell'interno. Campo derby. Sì, sì. Dietro la pinetina,
+117:34 praticamente. Dietro la pinetina. Esatto, esatto. Infatti quando lungo l'Aurelia finito il
+117:42 la la recensione di campo derby, a un certo punto eh c'è un cavalcavia, si deve prendere proprio sto cavalcavia che
+117:49 attraversa la ferrovia, perché il tratto d'Aurelia a fianco c'è la ferrovia e quindi proprio a metà tra Pisa e
+117:55 Livorno c'è un un cavalcavia che attraversa la ferrovia e quella è la strada che porta al conto.
+118:05 Bene. Sì, sì. ci son passato. Potrebbe essere interessante una bella gita domenicale. Eh,
+118:11 bravo, Frairizio! Bravo, ora che ancora la stagione ce lo permettete,
+118:18 eh, da prendere contatti perché non mi ricordo gli orari di apertura del museo,
+118:24 insomma, c'è c'è da organizzare un attimo la visita. Quello è anche vero
+118:30 che c'è una persona che praticamente abita lì, che fa un po' da eh guardiano
+118:37 sorvegliante della villa che è molto disponibile. Io tutte le volte che son capitato anche con qualcuno, insomma, se
+118:44 se è aperto è aperto, se non è aperto ce lo apre. Ecco. Vabbè, ok, d'accordo. Quindi, però, insomma, è chiaro,
+118:50 conviene magari se uno viene da lontano verificarlo oppure ci contatta in
+118:57 qualche modo ai riferimenti della della sezione e organizziamo
+119:03 sicuramente. Ecco, eviteremo di far fare un viaggio a vuoto in qualche modo.
+119:09 Poi Paolo quando si farà se capita quando si farà l'antenne ti farà una domanda via corta, via lunga la
+119:16 differenza. Eh eh è un discorso, vabbè, questo
+119:22 potremmo accennarlo perché riguarda più eh il discorso propagazione che non
+119:29 l'antenna, eh cioè il via corta, via lunga alla fine eh il è un discorso semplice tutto
+119:38 sommato perché, come avete visto,
+119:44 ve l'ho anche accennato quando vi ho fatto vedere la mappa della MUF, cioè per raggiungere una certa destinazione
+119:50 io devo essere in condizione di avere la MOF superiore al valore di frequenza che
+119:56 utilizzo per tutta la lunghezza del percorso. Quindi possono crearsi delle condizioni
+120:03 in cui questo avviene non per il percorso più corto, ma per il percorso
+120:10 più lungo. E se ci ragioniamo un attimo ci rendiamo conto che in determinate
+120:15 condizioni questo può avvenire. Quindi, tipicamente avviene per destinazioni che
+120:22 sono più o meno agli agli antipodi, quindi è chiaro che io non posso pensare di usare la via lunga
+120:29 dall'Italia per collegare per per dire la Spagna, quello però su destinazioni,
+120:38 diciamo quasi agli antipodi, a volte la via lunga Nuova Zelanda, per esempio, è è tipica.
+120:45 Eh, ma c'è un'altra motivazione. Io questa è una di quelle cose che non ho messo nelle slide, ma che sarebbe stato
+120:52 interessante dire nelle riflessioni multiple, specialmente le riflessioni a
+120:57 terra che sono quelle più frequenti, perché quei casi vi
+121:09 Aspetta, abbiamo perso l'audio. Che è successo?
+121:15 Sì, Paolo, riattiva l'audio. Riattiva, riattiva l'audio. Paolo,
+121:22 disattivato il microfono. Ecco, prego. Ora ti sentiamo. Perfetto. No, no, pensavo fosse un
+121:28 problema ancora di connessione, invece era il il microfono. Niente, dicevo,
+121:35 una cosa che non ho messo nelle slide, che invece sarebbe stato forse utile, mi rendo conto, dire riguarda le
+121:43 riflessioni a terra perché la mod, quelle modalità virtuose che vi ho
+121:49 detto, il cordal mode piuttosto che il tacte, che hanno minore attenuazione perché non
+121:57 passano attraverso gli strati bassi e non hanno le riflessioni a terra però
+122:03 non sono così frequenti, quindi nella stragrande maggioranza dei casi i
+122:09 collegamenti a lunga distanza si hanno su riflessioni multiple e considerate
+122:14 che se vi mette a far due conti per la Nuova Zelanda ci vogliono da cinque a sei salti,
+122:23 grosso modo 3* 5 15 3* 6 18.000
+122:29 Paolo, l'acqua però l'acqua l'acqua come si comporta? Arrivo proprio a quello.
+122:35 Arrivo proprio a quello. Eh, nelle riflessioni a terra il comportamento fra il la terra e il
+122:44 ghiaccio, in particolare neve, ghiaccio e l'acqua di mare è molto diverso.
+122:50 Parliamo di valori di attenuazione che vanno dai 2 ai 5 dB per singolo salto su
+122:58 terra o su ghiaccio. In particolare neve e ghiaccio sono quelli peggiori e
+123:06 meno di 1 dB, mediamente 05 dB sull'acqua di mare. Quindi se vi
+123:14 prendete un una mappa, però ci vorrebbe un non
+123:21 quella che vi ho fatto vedere io, ma una zimutale
+123:26 m verso la Nuova Zelanda, in particolare l'Australia. Comunque il percorso
+123:32 diretto è quasi tutto su terra. Se qualcuno ce l'ha sottomano, se non lo
+123:38 sap ce l'ho su qui sul PC, ve lo faccio vedere, però se vedete
+123:45 è quasi tutto su terra, tranne qualche pezzettino nel nel mare, nell'oceano
+123:53 indiano, ma poca cosa. il percorso via lunga
+123:60 tutto sommato e invece a rovescio, quasi tutto sul mare perché passiamo sopra i
+124:05 Caraibi per o o il Messico, quella quella zona lì
+124:11 per il per il percorso via lunga. Quindi è vero che magari facciamo un salto,
+124:18 forse due in più, però li facciamo in
+124:23 condizioni di attenuazione decisamente minore perché cinque salti sulla Terra
+124:30 sono da 15 a 20 dB di attenuazione.
+124:36 Sei salti sul mare nella peggiore delle delle condizioni sono 56 dB di
+124:43 attenuazione. Quindi a parità di condizioni di propagazione la via lunga, per esempio, verso l'Australia è da
+124:51 preferire alla via corta quando ovviamente ci sono le
+124:57 condizioni, perché le condizioni devono essere tali da avere una MUF. Quindi
+125:03 Paolo, il mare attenua meno della terra, del ghiaccio, molto molto meno. Ma questo lo prevedevo perché
+125:11 d'altro canto è un po' il discorso esattamente lo stesso discorso della ionosfera
+125:18 cioè la conducibilità è quello che determina l'indice di rifrazione di riflessione.
+125:23 Quindi una stazione vicino al mare è migliore. Scusa, non ho capito. Una stazione vicina al mare è migliore.
+125:30 Certo, è di gran lunga. Ho capito questo che Marconi l'ha messa a Coltano.
+125:36 Sì, Coltano aveva anche un altro vantaggio ai tempi di Marconi che era una padlude de Salmastra.
+125:42 Salmastra. Ora ho capito perché prima abitavo a 50 m dal mare e in Africa non c'era
+125:49 nessuno. Facevo facevo le i salti, facevo tutto
+125:55 dall'Africa con con cinque W. Ora ora non più.
+126:01 Poi ci sono 1000 altri motivi, comunque a parità di tutte le altre condizioni,
+126:08 questo è sicuramente un vantaggio e comunque nel caso della via lunga il
+126:14 discorso è è particolare in questo senso.
+126:19 D'altro canto, eh come dire, non è che lo possiamo
+126:25 scegliere, bisogna, ripeto, che ci siano le condizioni, ma il fatto che sia possibile,
+126:31 nonostante che la distanza è maggiore, è anche legato a a questo fatto. è meno
+126:38 frequente perché ovviamente è un po' più difficile che io lungo tutto il percorso
+126:44 abbia delle condizioni tali da avere livelli di MOF che mi permettono, perché
+126:50 è ovvio più salti faccio più è difficile la combinazione che per ogni salto sia
+126:57 garantita la muffa necessaria per aver la la riflessione opportuna.
+127:05 Però se questo è possibile i salti. Un altro dato, questo ancora più eclatante,
+127:12 che è tipico di chi ha lavorato gli 11 m, eh lo lo sa bene. Per quale
+127:20 motivo, come dire, il il DX che arriva sempre meglio è il Sud America? Ve lo
+127:27 siete mai domandato? Certo. Per quale? Ma anche i francesi, anche i francesi se la cavano bene perché quella
+127:34 sembra che la propagazione l'abbiano comprata i francesi ce l'hanno sempre mattina, però i francesi, come dire, sono a un
+127:42 salto di distanza. Il Sud America è a 18.000 km
+127:48 perché è tutto mare. Se guardate su una zimutale i percorsi
+127:54 con il Sud America sono tutto mare a partire dal Tirreno, dal diciamo
+128:00 Mediterraneo e poi l'Atlantico e tutto mare. Quindi fra le destinazioni
+128:06 a lunga distanza è in genere quello che arriva sempre meglio. Questo ho detto 11
+128:11 m, ma è vero anche per quelle altre bande. Il Sud America arriva sempre bene. Caraibi e Sudamerica
+128:19 sicuramente meglio di altre destinazioni a parità di distanza.
+128:24 Il motivo, ripeto, parità di conzione di tanti
+128:30 fatto che si tratta di riflessioni a terra tutte sul mare e quindi la differenza è
+128:37 quattro 34 dB salto tra il mare e il terreno. Poi
+128:43 chiaramente dipende quale terreno, ma insomma ogni ogni salto si perde 3DB.
+128:50 Eh, allora quello che si perde ogni salto richiederebbe un'altra serata
+128:57 intera. Tra l'altro, guarda, proprio recentemente ho fatto per la sezione una
+129:02 una serata dedicata proprio a questo argomento, cioè l'attenuazione di tratta in HF e le varie componenti, rotazioni
+129:09 di far. Ci sono 1000 motivi che producono attenuazione aggiuntiva oltre
+129:17 alla lunghezza di percorso, però la componente dovuta alla riflessione a terra
+129:23 varia da un minimo che è dell'ordine di meno di 1 dB, diciamo tra 05 e 1 dB per
+129:31 le riflessioni sul mare, il solo contributo, intendo, della riflessione a terra, del rimbalzo a terra e raggiunge
+129:39 valori anche di 5 dB su terreni innevati
+129:44 o sul ghiaccio. Quindi pensiamo al periodo invernale, il Giappone passiamo
+129:50 sulla steppa asiatica, la la
+129:56 Siberia che è mediamente tutta innevata, il Giappone è alla stessa distanza del
+130:01 Sud America, però qualcuno mi smentisca se ha ricevuto segnali più forti da dal
+130:08 Giappone piuttosto che dal dal Sud America per tanti
+130:15 per tanti ancora Giappone, anche perché, ripeto, eh
+130:21 verso il Giappone sono quattro o cinque, quattro, diciamo, quattro
+130:27 rimbalzi, eh, e quindi tutti a terra Sud
+130:32 America son tutti in mare. Però, scusa Paolo, eh riferiti alle antenne, anche l'antenna fa la
+130:39 differenza, nel senso l'angolo di radiazione maggiore l'angolo di radione. E
+130:45 naturalmente peggio è minore l'angolo di relazione, uno farà meno salti rispetto
+130:50 al verticale, rispetto all' orizzontale. Certo. Certo. E il numero di
+130:56 Certo. Questo è come dire una cosa questo è è la è la BC. Ora, poi magari
+131:03 quello che a volte si sottovaluta è cos'è che determina l'angolo di radiazione di un'antenna, perché uno
+131:09 pensa che comprando un'antenna e cambiando l'antenna magari possa cambiare le cose. Se la mette dove aveva
+131:16 quella di prima non gli cambia assolutamente nulla. Questo, come dire,
+131:22 lo vedremo fra due settimane, però non è l'antenna che determina l'angolo di radiazione. Ora esagero un attimino il
+131:31 concetto, però sostanzialmente è così. L'angolo di radiazione dell'antenna,
+131:37 beh, l'anticipo è dato all'80% dalla posizione dove io la metto l'antenna,
+131:43 non da com'è l'antenna e lo vedremo fra fra due settimane, però quello che
+131:49 dicevi è perfettamente vero, cioè io dovrei cercare di avere sempre la se il
+131:57 mio obiettivo è quello della distanza, che devo premettere questo, qual è il
+132:02 mio obiettivo? Se il mio obiettivo è quello della distanza, l'angolo di radiazione deve essere il più basso
+132:09 possibile, anche perché, come abbiamo visto stasera,
+132:15 mano che la propagazione cala, quello che perdo sono gli angoli alti, non gli
+132:21 angoli bassi. Quindi un'antenna con un basso angolo di radiazione,
+132:27 oltre ad affar meno salti, ma sfrutta anche meglio le condizioni di scarsa
+132:32 propagazione, perché quando la propagazione è scarsa, l'ultima cosa che
+132:38 perdo è l'angolo basso, cioè l'angolo si stringe sempre di più fino a arrivare a
+132:45 zero e a chiudersi completamente. Quindi se io ho un angolo di radiazione alto,
+132:50 come dire, perdo il segnale prima di un'antenna con angolo di radiazione
+132:58 basso. Comunque sennò anticipiamo Sì, però anticipiamo la prossima
+133:04 prossima lezione. Io, ripeto, ho i capelli bianchi una certa età e soffro
+133:09 anche un po' di insonnia, quindi per me si può andare anche a domattina, non è
+133:15 un problema, però insomma ecco, non vorrei esagerare. Sono le 23:30, eh. Paolo, se dici così
+133:23 ti prendono sulla parola e lo fanno seriamente. Eh, no, guarda, io Paolo, scusa, eh i capelli bianchi, ho
+133:29 tanti problemi, ma non questo, eh. I capelli bianchi non contano nulla. Ci sono i trinni c'hanno capelli bianchi.
+133:36 Vabbè, allora diciamo che oltre ad avere i capelli bianchi ho una licenza che è
+133:42 datata 1977 come licenza e 1974
+133:48 la patente, quindi come dire gli anni ci sono.
+133:54 Infatti infatti tra 2 anni faccio 50 anni di licenza, quindi di bello, bello
+134:01 bello bello bello. traguardo. Eh beh, il traguardo però, come dire, eh
+134:07 non è che è venuto da solo, nel senso Oh, vabbè, ma
+134:12 vabbè vabbè, ma va bene così, Paolo, dai. Diciamo che è un bel traguardo accompagnato da tanta tanta tanta
+134:19 esperienza e tanta pratica sul campo, oltre alla
+134:25 conoscenza teorica che ovviamente hai. Io dico sempre che ho avuto una
+134:31 sfortuna, che poi parlando seriamente è una fortuna, ma ho avuto la sfortuna
+134:38 di lavorare per 40 anni esattamente in questo settore. Quindi, come dire, da
+134:46 una parte, ripeto, è stata una fortuna, dall'altra è stata una sfortuna, perché,
+134:54 come, come dire, la passionaccia che c'è sempre è stata m'ha m'ha poi portato,
+134:59 come dire, a a considerare il lavoro non un lavoro, ma
+135:05 ma quasi un un divertimento e quindi, come dire, non mi ha fatto fatica e
+135:11 quella è stata la fortuna. La la la sfortuna è legata al fatto che
+135:16 poi uno a un certo punto finisce che non stacca mai, insomma, e quindi invece
+135:24 magari esistono altre altre cose, la famiglia, i figli e quant'altro, quindi
+135:29 insomma, però ripeto, ora i figli sono grandi e sono come dire per conto
+135:36 proprio da ormai da parecchio tempo. dormire. Dormo poco, per cui io quando
+135:43 ho finito quando ho finito con voi ora qualcos'altro mi metto a fare.
+135:50 Accenderà accenderai un po' di radio, dai. Sì, ma io mi diverto molto anche a a
+135:58 leggere, a documentarmi, insomma, vediamo perché poi come attività in
+136:03 radio sì, ne faccio, ma non più tantissima. Ecco, perché poi a alla fine
+136:14 diciamo che dopo 50 anni, come dire, non è che c'è rimasto molto da fare, eh,
+136:20 devo dire la devo dire la verità e quindi magari mi vado a cercare qualche
+136:25 qualche cosa di un po' più particolare. Tra l'altro in questi giorni e poi chiudiamo qui, sono particolarmente
+136:33 interessanti questi giorni perché sono quelli migliori per
+136:39 il transquatoriale, per il TEP, per la propriazione transsequatoriale e sto seguendo alcuni test che fanno
+136:49 un po' di di OM, ci sono anche alcuni italiani interessati in banda 2 m
+136:55 e con una stazione in Namibia,
+137:01 quindi praticamente Sudafrica e già di ora con l'uso di sistemi digitali
+137:09 ormai già l'anno scorso, ma in questo periodo di massima attività praticamente
+137:15 pressoché tutte le sere riescono a far collegamenti di circa 7.000 km in 2 m.
+137:23 Eh, quindi tanta roba è tanta roba. Ora, eh diciamo
+137:30 che è una condizione molto particolare poi per le caratteristiche proprio della
+137:35 della propagazione eh diciamo la possibilità è limitata ai
+137:41 40° di latitudine sud, quindi sono solo stazioni della spagnole della parte
+137:48 bassa, italiani del sud e stazioni eh
+137:53 greche che riescono a stabilire il collegamento. E il periodo è un periodo molto
+138:01 ristretto, si tratta del periodo a cavallo tra le 20 e le 21. È un momento particolare in cui si crea un fenomeno
+138:09 particolare che ormai è assodata la possibilità di di fare questi questi collegamenti. Quindi lo li sto seguendo
+138:16 purtroppo solo via internet perché eh per noi siamo troppo troppo annosi, però
+138:22 la cosa è molto interessante. Eh, quindi eh beh, sì. Eh, parlando di propagazione, ormai,
+138:31 diciamo, è provato che questo è un fenomeno costante. Prima sembrava fosse
+138:36 una cosa del tutto eccezionale e invece in occasione degli equinozi già i test erano stati fatti in primavera e ora li
+138:44 hanno ripresi e praticamente da una decina di giorni tutte le sere con
+138:49 segnali più o meno buoni però riescono a stabilire il collegamento.
+138:56 Bisogna dirgliela a Paolo. B digglielo a Paolo e se dalle ce la fa.
+139:02 Se qui dal troppo alto. Ma ti posso fare un'altra domanda?
+139:07 Forse da lassù. Eh, ci mancherebbe. C Posso fare un'altra domanda? Paolo?
+139:12 Certo. Senti, ho letto da qualche parte o che
+139:19 per la transquatoriale il TEP è vero che si ha soprattutto lungo i meridiani, non
+139:25 in diagonale. Certo. No, ora e qual è il motivo? eh si aprirebbe un discorso
+139:34 abbastanza eh lungo lungo. Esistono però due meccanismi di TEAP.
+139:41 Eh, uno che riguarda le frequenze fino ai 50 mega, 50-60 me, che è il TEP
+139:49 tradizionale. Mh mh. e eh un meccanismo invece che è
+139:59 generato dalle stesse mh dallo stesso fenomeno, ma che riguarda le frequenze
+140:04 più alte, in questo caso i i 2 m e che si determina solo in un periodo anche
+140:12 temporale molto ristretto. Comunque in entrambi i casi le direttrici sono solo
+140:18 lungo i meridiani. Il motivo per cui sono lungo i meridiani è legato al fatto
+140:26 che allora nel tap tradizionale, cioè quello che si sfrutta in onde corte,
+140:32 tanto per capirsi, quindi 10 m e anche 50 in questo periodo, il fenomeno di
+140:39 propagazione è un cordal mode, quello che abbiamo
+140:44 visto ora, cioè il praticamente il fascio raggiunge un punto particolare
+140:50 fare nella ionosfera continua, diciamo, all'interno della del
+140:58 dello strato F e poi discende di nuovo.
+141:03 Questo avviene in prossimità dell'equatore perché al di sopra e al di sotto
+141:10 l'equatore magnetico, grosso modo a circa 10-12°
+141:16 a nord e a sud dell'equatore magnetico per un effetto abbastanza complesso che
+141:22 poi se dovesse interessare magari una sera ci possiamo fare anche eh
+141:29 un un discorsino. crea un accumulo di cariche, si chiamano creste, cioè
+141:35 proprio due zone di altissima ionizzazione. Ah!
+141:40 Queste due zone hanno le caratteristiche più o meno equivalenti a nord e a sud
+141:48 dell'equatore in occasione degli equinozi, discorso che si faceva prima.
+141:54 sono sempre presenti, però diciamo solo agli equinozi hanno entrambe lo stesso
+142:01 livello di ionizzazione che è il prerequisito perché ci possa essere il
+142:08 il il percorso. Quindi, siccome sono a sud e a nord e la presenza è sola in un
+142:17 determinato periodo di tempo, se io tentassi il se in diagonale, magari
+142:24 infilo il primo, ma non infilo il secondo, perché sono allineati lungo i
+142:30 meridiani, quindi il fenomeno è molto più evidente lungo il meridiano proprio per questo
+142:38 allineamento. Capito? Ora in HF, cioè intendo dire in in 10 m
+142:45 e in 50 questo fenomeno è più esteso e quindi si riesce a sfruttare anche
+142:51 ad allargare un po' eh ad allargare un pochino. Infatti l'altra sera arrivava in 50 mega arrivava
+143:01 Reunion, arrivava abbastanza bene le Se shells eccetera. Via TP. Ciao Ale.
+143:11 Ah, salendo in frequenza la cosa si stringe. Poi in 144 e addirittura so che tra il
+143:19 Giappone e l'Australia stanno provando stanno provando, sono riusciti anche in 4:30. sono riusciti anche in 4:30
+143:27 passare l'equatore. Sì, il fenomeno è ancora più complesso.
+143:33 Comunque è interessante perché questi fenomeni sono stati studiati molto negli ultimi anni perché creano problemi al
+143:41 GPS. Ah, cioè tutta sta cosa qui è venuta fuori eh perché si era notato che alcune
+143:50 anomalie nei sistemi di geolocalizzazione satellitare
+143:56 nelle aree appunto a cavallo dell'equatore e quindi indagando la la materia si è un po' scoperto queste
+144:04 queste dinamiche e quindi a questo punto come dire sono cose che interessano
+144:10 anche a noi perché alla scienza interessa peri ai satelliti. A interessa
+144:16 perché ci permette queste queste cose. Comunque l'allineamento è legato a
+144:21 questo fatto che i due punti, diciamo, su cui si appoggia, chiamiamolo il rimbalzo, in realtà non è un rimbalzo
+144:28 perché è proprio un cordal mode, cioè sali, entri, diciamo, in quest'area
+144:35 all'altezza, ripeto, nel caso nostro del del Sahara,
+144:43 più o meno, quindi circa 20° di latitudine. prosegui lì dentro fino
+144:50 all'altro all'altra cresta che è di sotto invece all'equatore e poi
+144:56 scendiend però devono essere allineate e quindi il questo
+145:03 quella quella prima zona di ionizzazione è quella che ho sempre sentito dire è lì
+145:09 sul golfo di Guinea, quella a nord lì sul golfo di Guinea alla fine del
+145:15 diciamo della terra di Africa c'è una zona di ionizzazione spesso appare per
+145:22 la propagazione. Sì, diciamo che eh è non è che è
+145:28 presente solo lì, diciamo, segue lo lo sp Allora il
+145:34 lo spostamento del Mezzogiorno, no? Esattamente. Esatto. Infatti il picco si
+145:40 presenta poco dopo mezzogiorno, diciamo tra tra le 12, almeno le le i
+145:46 testi parlano tra le 12 e le 15 locali. La massima insolazione, in sostanza.
+145:52 Massima insolazione. Esatto. E è simmetrico rispetto all'equatore solo in
+145:60 occasione del degli equinozi, quindi in questo periodo qui sostanzialmente a
+146:05 cavallo dell'equinozzio, ora e e a fine marzo, quindi Sì, sì, sì. E è chiaro che eh la si
+146:14 chiama appunto ehm Eia, mi pare sia il termine scientifico,
+146:21 eh che dovrebbe voler dire equatoral
+146:29 ionization anomal, anomalia ionizzazione equatoriale. Il se
+146:35 se provate a fare una ricerca su internet con questi termini viene fuori una marea di di
+146:43 roba. Sì, comunque è quello il è lungo i meridiani comunque se per qu è lungo i meridiani. È lungo i
+146:48 meridiani. Più sali in frequenza, più è stretto l'angolo che che puoi utilizzare.
+146:55 Sì, cioè la direzione nord sud in sostanza. Sì, sì, esattamente.
+147:02 Va bene, grazie Paolo. Io vi saluto, ringrazio Paolo. Ci si vede mercoledì e vado a letto. Fabrizio,
+147:09 non ce la faccio più. Eh, sì, adesso, adesso vi saluto anch'io, anche perché domani mattina
+147:14 alle 7 a tutti. Mi scuso di avervi coinvolto.
+147:19 No, no, era interessante. Ma questa coda bene, ci vediamo mercoledì prossimo. Ora non si può andare oltre. Buonanotte
+147:26 oltre non ce la facciamo. Buonanotte a tutti. Buonanotte a tutti. Buonanotte, signori. Saluta.
+147:33 A venerdì. Ciao. Grazie. Ciao. Ciao. Buonanotte. Grazie Paolo. A mercoledì. Grazie di nuovo Paolo. Davvero
+147:39 mercoledì. M mercoledì. Notte a tutti. Ciao ciao ciao ciao. Siamo piano pianino
+147:47 intanto Buonanotte. Buonanotte. Buonanotte signori.
+147:52 Notte Fabrizio. Buonanotte. Ciao. Ciao. Ciao. Buonanotte. Buonanotte. Buonanotte a tutti. Eh,
+147:58 buonanotte. Ciao Jacopo. Buonanotte.
