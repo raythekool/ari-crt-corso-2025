@@ -1,0 +1,196 @@
+#!/usr/bin/env python3
+import os
+
+# Create _layouts directory
+os.makedirs("_layouts", exist_ok=True)
+
+# Create default.html
+default_html = """<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📻 {{ site.title }}</h1>
+    <p>{{ site.description }}</p>
+  </header>
+  
+  <nav>
+    <a href="{{ '/' | relative_url }}">🏠 Home</a>
+    <a href="{{ '/guide-studio/' | relative_url }}">📖 Guide di Studio</a>
+    <a href="{{ '/glossario.html' | relative_url }}">📚 Glossario</a>
+    <a href="{{ '/risorse.html' | relative_url }}">🔗 Risorse</a>
+  </nav>
+  
+  <main>
+    {{ content }}
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+</body>
+</html>
+"""
+
+with open("_layouts/default.html", "w", encoding="utf-8") as f:
+    f.write(default_html)
+
+# Create lezione.html
+lezione_html = """---
+layout: default
+---
+
+<article class="lezione">
+  <div class="lezione-header">
+    <h1>{{ page.title }}</h1>
+    {% if page.date %}
+    <p class="lezione-meta">📅 Data: {{ page.date | date: "%d/%m/%Y" }}</p>
+    {% endif %}
+    {% if page.video %}
+    <p class="lezione-meta">▶️ <a href="{{ page.video }}">Guarda la registrazione su YouTube</a></p>
+    {% endif %}
+  </div>
+  
+  <div class="lezione-content">
+    {{ content }}
+  </div>
+  
+  <div class="lezione-navigation">
+    <hr>
+    <a href="{{ '/guide-studio/' | relative_url }}" class="nav-index">📚 Indice Guide</a>
+  </div>
+</article>
+
+<style>
+.lezione-header {
+  border-bottom: 3px solid #667eea;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.lezione-meta {
+  color: #666;
+  font-size: 0.95em;
+}
+.lezione-content h2 {
+  color: #667eea;
+  margin-top: 30px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+.lezione-content h3 {
+  color: #764ba2;
+  margin-top: 20px;
+}
+.lezione-navigation {
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px 0;
+}
+.lezione-navigation a {
+  text-decoration: none;
+  color: #667eea;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid #667eea;
+  border-radius: 5px;
+}
+.lezione-navigation a:hover {
+  background: #667eea;
+  color: white;
+}
+</style>
+"""
+
+with open("_layouts/lezione.html", "w", encoding="utf-8") as f:
+    f.write(lezione_html)
+
+print("✓ Created _layouts directory and files")
