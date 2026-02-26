@@ -87,6 +87,7 @@ La resistenza di un pezzo di filo elettrico (conduttore) si può calcolare con l
 > $$R = \rho \cdot \frac{L}{S}$$
 >
 > dove:
+>
 > - $R$ = resistenza del conduttore (in ohm, Ω)
 > - $\rho$ (rho) = **resistività** del materiale (costante specifica del materiale)
 > - $L$ = lunghezza del conduttore (in metri)
@@ -113,6 +114,7 @@ Il docente utilizza l'analogia idraulica per rendere intuitiva la formula:
 ### 🔹 Errori comuni e suggerimenti per l'esame
 
 Nelle domande d'esame può essere chiesto se la resistenza di un conduttore "cresce al crescere della lunghezza" oppure "cresce al crescere della sezione". Bisogna ricordare:
+
 - Cresce al crescere della **lunghezza** (direttamente proporzionale) ✅
 - Diminuisce al crescere della **sezione** (inversamente proporzionale) ✅
 - NON cresce al crescere della sezione ❌
@@ -124,6 +126,7 @@ Nelle domande d'esame può essere chiesto se la resistenza di un conduttore "cre
 ### 🔹 Le tre grandezze fondamentali
 
 A questo punto della lezione si hanno tre grandezze:
+
 - **Tensione** ($V$), misurata in volt
 - **Corrente** ($I$), misurata in ampere
 - **Resistenza** ($R$), misurata in ohm
@@ -157,14 +160,17 @@ Queste tre formule vanno memorizzate oppure, ricordandone una, si possono ricava
 ### 🔹 Esempi di applicazione
 
 **Esempio 1** (⏱ 28:08): 10 V applicati a una resistenza di 5 Ω. Quanta corrente scorre?
+
 - Dato: $V = 10$ V, $R = 5$ Ω. Incognita: $I$.
 - Formula: $I = \frac{V}{R} = \frac{10}{5} = 2$ A.
 
 **Esempio 2** (⏱ 29:29): 15 V ai capi di un circuito in cui scorrono 5 A. Che resistenza presenta?
+
 - Dato: $V = 15$ V, $I = 5$ A. Incognita: $R$.
 - Formula: $R = \frac{V}{I} = \frac{15}{5} = 3$ Ω.
 
 **Esempio 3** (⏱ 30:17): In una resistenza di 4 Ω scorrono 3 A. Che tensione è applicata?
+
 - Dato: $R = 4$ Ω, $I = 3$ A. Incognita: $V$.
 - Formula: $V = R \cdot I = 4 \times 3 = 12$ V.
 
@@ -248,6 +254,7 @@ La terza formula ($P = \frac{V^2}{R}$) si ottiene sostituendo $I = \frac{V}{R}$:
 $$P = V \cdot I = V \cdot \frac{V}{R} = \frac{V^2}{R}$$
 
 La scelta della formula dipende dai dati disponibili:
+
 - Se si conoscono $V$ e $I$ → usare $P = V \cdot I$
 - Se si conoscono $R$ e $I$ → usare $P = R \cdot I^2$
 - Se si conoscono $V$ e $R$ → usare $P = \frac{V^2}{R}$
@@ -286,6 +293,7 @@ Un partecipante racconta un'applicazione pratica ingegnosa: l'uso di un resistor
 ### 🔹 Il resistore ideale
 
 Il **resistore ideale** — un modello teorico — è un resistore il cui valore in ohm resta costante al variare di:
+
 - La **frequenza** della corrente che lo attraversa
 - La **temperatura** di esercizio
 
@@ -304,6 +312,7 @@ A causa della resistenza interna, la tensione ai morsetti di uscita **diminuisce
 > $$V_{uscita} = V_{generatore} - R_i \cdot I$$
 
 **Esempio**: Un generatore ideale da 12 V con resistenza interna di 1 Ω:
+
 - Con assorbimento di 1 A: $V_{uscita} = 12 - 1 \times 1 = 11$ V
 - Con assorbimento di 2 A: $V_{uscita} = 12 - 1 \times 2 = 10$ V
 - Con assorbimento di 3 A: $V_{uscita} = 12 - 1 \times 3 = 9$ V
@@ -380,6 +389,7 @@ In un circuito serie, la resistenza **più grande** si "prende" la fetta maggior
 ### 🔹 Calcolo della potenza dissipata in serie
 
 Usando $P = V \cdot I$ (dato che $I$ è uguale per tutte e $V$ è noto per ciascuna):
+
 - $P_{R1} = 2 \times 0{,}002 = 4$ mW
 - $P_{R2} = 4 \times 0{,}002 = 8$ mW
 - $P_{R3} = 6 \times 0{,}002 = 12$ mW
@@ -455,6 +465,7 @@ Il risultato (666,7 Ω) è inferiore a entrambe le resistenze, e in particolare 
 ### 🔹 Potenza dissipata in parallelo
 
 Usando $P = \frac{V^2}{R}$ (dato che $V$ è uguale per tutte e $R$ è noto per ciascuna):
+
 - $P_{R1} = \frac{100^2}{100} = \frac{10.000}{100} = 100$ W
 - $P_{R2} = \frac{100^2}{200} = \frac{10.000}{200} = 50$ W
 - $P_{R3} = \frac{100^2}{500} = \frac{10.000}{500} = 20$ W

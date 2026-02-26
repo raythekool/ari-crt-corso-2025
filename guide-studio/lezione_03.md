@@ -142,6 +142,7 @@ Frequenza e periodo sono **l'inverso** l'uno dell'altro:
 $$f = \frac{1}{T} \qquad\qquad T = \frac{1}{f}$$
 
 Dove:
+
 - $f$ = frequenza in hertz (Hz)
 - $T$ = periodo in secondi (s)
 
@@ -331,6 +332,7 @@ Questi argomenti saranno approfonditi nelle lezioni successive.
 - **Potenza** — capacità di svolgere un lavoro nell'unità di tempo; si misura in **watt** (W).
 
 **Esempi:**
+
 - Lampadina da 20 W accesa per 3 ore → consuma $20 \times 3 = 60$ Wh di energia.
 - Stufetta da 1000 W accesa per 30 minuti (0,5 ore) → consuma $1000 \times 0{,}5 = 500$ Wh.
 
