@@ -1,4 +1,4 @@
-# 📘 Lezione 14 - Corso Radioamatori
+# 📘 Lezione 14 - Antenne - Parte 2
 
 ## 📌 Overview
 

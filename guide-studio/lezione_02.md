@@ -1,4 +1,4 @@
-# 📘 Lezione 02 - Corso Radioamatori
+# 📘 Lezione 02 - Fondamenti di Elettrotecnica
 
 ## 📌 Overview
 

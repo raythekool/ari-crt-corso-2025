@@ -1,4 +1,4 @@
-# 📘 Lezione 20 - Corso Radioamatori
+# 📘 Lezione 20 - Normative Nazionali
 
 ## 📌 Overview
 

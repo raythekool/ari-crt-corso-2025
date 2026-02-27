@@ -1,4 +1,4 @@
-# 📘 Lezione 15 - Corso Radioamatori
+# 📘 Lezione 15 - Linee di Trasmissione
 
 ## 📌 Overview
 

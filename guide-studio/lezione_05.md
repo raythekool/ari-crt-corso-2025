@@ -1,4 +1,4 @@
-# 📘 Lezione 05 - Corso Radioamatori
+# 📘 Lezione 05 - Componenti Elettronici
 
 ## 📌 Overview
 

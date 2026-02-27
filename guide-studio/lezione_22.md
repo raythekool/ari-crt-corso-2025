@@ -1,4 +1,4 @@
-# 📘 Lezione 22 - Corso Radioamatori
+# 📘 Lezione 22 - Procedure Operative
 
 ## 📌 Overview
 

@@ -1,4 +1,4 @@
-# 📘 Lezione 18 - Corso Radioamatori
+# 📘 Lezione 18 - Interferenze e EMC
 
 ## 📌 Overview
 

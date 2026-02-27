@@ -1,4 +1,4 @@
-# 📘 Lezione 08 - Corso Radioamatori
+# 📘 Lezione 08 - Oscillatori
 
 ## 📌 Overview
 

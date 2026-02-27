@@ -1,4 +1,4 @@
-# 📘 Lezione 21 - Corso Radioamatori
+# 📘 Lezione 21 - Normative Internazionali
 
 ## 📌 Overview
 

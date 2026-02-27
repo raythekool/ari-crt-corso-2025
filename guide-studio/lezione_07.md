@@ -1,4 +1,4 @@
-# 📘 Lezione 07 - Corso Radioamatori
+# 📘 Lezione 07 - Amplificatori
 
 ## 📌 Overview
 

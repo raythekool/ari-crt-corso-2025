@@ -1,4 +1,4 @@
-# 📘 Lezione 10 - Corso Radioamatori
+# 📘 Lezione 10 - Ricevitori
 
 ## 📌 Overview
 

@@ -1,4 +1,4 @@
-# 📘 Lezione 03 - Corso Radioamatori
+# 📘 Lezione 03 - Circuiti Elettrici
 
 ## 📌 Overview
 

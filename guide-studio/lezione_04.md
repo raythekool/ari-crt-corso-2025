@@ -1,4 +1,4 @@
-# 📘 Lezione 04 - Corso Radioamatori
+# 📘 Lezione 04 - Corrente Alternata
 
 ## 📌 Overview
 

@@ -1,4 +1,4 @@
-# 📘 Lezione 17 - Corso Radioamatori
+# 📘 Lezione 17 - Serata Speciale
 
 ## 📌 Overview
 

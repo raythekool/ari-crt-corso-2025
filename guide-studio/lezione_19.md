@@ -1,4 +1,4 @@
-# 📘 Lezione 19 - Corso Radioamatori
+# 📘 Lezione 19 - Sicurezza Elettrica
 
 ## 📌 Overview
 

@@ -1,4 +1,4 @@
-# 📘 Lezione 11 - Corso Radioamatori
+# 📘 Lezione 11 - Trasmettitori
 
 ## 📌 Overview
 

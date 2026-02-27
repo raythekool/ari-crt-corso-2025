@@ -1,4 +1,4 @@
-# 📘 Lezione 12 - Corso Radioamatori
+# 📘 Lezione 12 - Propagazione
 
 ## 📌 Overview
 

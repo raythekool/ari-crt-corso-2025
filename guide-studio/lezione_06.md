@@ -1,4 +1,4 @@
-# 📘 Lezione 06 - Corso Radioamatori
+# 📘 Lezione 06 - Semiconduttori
 
 ## 📌 Overview
 

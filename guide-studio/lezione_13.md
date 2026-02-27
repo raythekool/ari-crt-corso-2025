@@ -1,4 +1,4 @@
-# 📘 Lezione 13 - Corso Radioamatori
+# 📘 Lezione 13 - Antenne - Parte 1
 
 ## 📌 Overview
 

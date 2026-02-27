@@ -1,4 +1,4 @@
-# 📘 Lezione 16 - Corso Radioamatori
+# 📘 Lezione 16 - Misure e Strumenti
 
 ## 📌 Overview
 

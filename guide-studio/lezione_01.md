@@ -1,4 +1,4 @@
-# 📘 Lezione 01 - Corso Radioamatori
+# 📘 Lezione 01 - Introduzione al Corso
 
 ## 📌 Overview
 
