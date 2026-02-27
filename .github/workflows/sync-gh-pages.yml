@@ -1,0 +1,46 @@
+name: Sync wiki site to gh-pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gh-pages-sync
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+
+      - name: Prepare publish directory (wiki only)
+        run: |
+          set -euo pipefail
+
+          rm -rf .publish
+          mkdir -p .publish/_layouts
+
+          cp _config.yml .publish/
+          cp index.md .publish/
+          cp glossario.md .publish/
+          cp domande-esame.md .publish/
+          cp risorse.md .publish/
+
+          cp -R guide-studio .publish/
+          cp _layouts/default.html .publish/_layouts/default.html
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: .publish
+          force_orphan: true
