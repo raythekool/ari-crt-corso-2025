@@ -65,28 +65,7 @@ Features:
 
 ### Critical (Must Do)
 
-1. **Create `_layouts` directory** — **MANUAL STEP REQUIRED**
-   
-   The `_layouts` directory needs to be created manually because the current tools don't support directory creation. You have two options:
-   
-   **Option A: Using Python Script (Recommended)**
-   ```bash
-   python create_layouts.py
-   ```
-   
-   **Option B: Manual Creation**
-   ```bash
-   # Create directory
-   mkdir _layouts
-   
-   # Then manually create the two HTML files in that directory:
-   # - _layouts/default.html (content provided in create_layouts.py)
-   # - _layouts/lezione.html (content provided in create_layouts.py)
-   ```
-   
-   The Python script `create_layouts.py` is already created in the repository root and contains all the necessary code to create both layout files.
-
-2. **Update README.md** — Add a section about the website:
+1. **Update README.md** — Add a section about the website:
    ```markdown
    ## 🌐 Sito Web del Corso
    
@@ -102,10 +81,10 @@ Features:
    Per configurare il sito, leggi [SETUP_GITHUB_PAGES.md](SETUP_GITHUB_PAGES.md).
    ```
 
-3. **Enable GitHub Pages** — Follow instructions in `SETUP_GITHUB_PAGES.md`:
+2. **Enable GitHub Pages** — Follow instructions in `SETUP_GITHUB_PAGES.md`:
    - Go to repository Settings → Pages
-   - Select `main` branch and `/root` folder
-   - Update `_config.yml` with your GitHub username
+   - Select `gh-pages` branch and `/root` folder
+   - Verify that the published branch excludes transcripts
 
 ### Optional Enhancements
 
@@ -163,7 +142,7 @@ ari-crt-corso-2025/
    git commit -m "Add GitHub Pages website structure"
    git push
    ```
-4. Enable GitHub Pages in repository settings
+4. Enable GitHub Pages in repository settings (`gh-pages`/root)
 5. Wait 2-5 minutes for the site to build
 6. Visit your site at `https://YOUR_USERNAME.github.io/ari-crt-corso-2025/`
 

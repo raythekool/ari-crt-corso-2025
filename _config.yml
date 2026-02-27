@@ -2,7 +2,7 @@
 title: "Corso Radioamatori ARI Toscana CRT 2025"
 description: "Materiale didattico e guide di studio per il corso aspiranti radioamatori"
 baseurl: "/ari-crt-corso-2025"
-url: "https://YOUR_USERNAME.github.io"
+url: "https://raythekool.github.io"
 
 # Theme
 theme: jekyll-theme-cayman
@@ -14,19 +14,8 @@ plugins:
   - jekyll-relative-links
   - jekyll-seo-tag
 
-# Navigation
-collections:
-  lezioni:
-    output: true
-    permalink: /lezioni/:name/
-
 # Defaults
 defaults:
-  - scope:
-      path: ""
-      type: "lezioni"
-    values:
-      layout: "lezione"
   - scope:
       path: ""
     values:

@@ -13,7 +13,7 @@ Questa guida spiega come attivare il sito web del corso su GitHub Pages.
 
 1. Vai su **Settings** del repository
 2. Scorri fino a **Pages** nella barra laterale
-3. In **Source**, seleziona `main` (o il branch principale)
+3. In **Source**, seleziona il branch `gh-pages`
 4. Seleziona la cartella **/ (root)**
 5. Clicca **Save**
 
@@ -43,6 +43,16 @@ Il sito include:
 - **Glossario** (`glossario.md`) — Termini tecnici
 - **Risorse** (`risorse.md`) — Link e materiali aggiuntivi
 - **Domande d'Esame** (`domande-esame.md`) — Quiz e preparazione esame
+
+## 🔒 Scope di Pubblicazione
+
+Il branch `gh-pages` deve contenere solo i contenuti del sito wiki:
+
+- `guide-studio/` (indice + lezioni)
+- `index.md`, `glossario.md`, `domande-esame.md`, `risorse.md`
+- `_config.yml` e `_layouts/default.html`
+
+Le cartelle `transcripts/` e `transcripts (vtt)/` non devono essere pubblicate nel branch `gh-pages`.
 
 ## 🎨 Personalizzazione
 

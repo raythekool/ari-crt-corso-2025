@@ -26,14 +26,6 @@ Guide complete ed esaustive per ogni lezione, con:
 - Glossari terminologici
 - Domande di autoverifica
 
-### [📹 Registrazioni Video](lezioni/)
-
-Link alle registrazioni YouTube di tutte le lezioni, con trascrizioni complete.
-
-### [📝 Trascrizioni](transcripts/)
-
-Trascrizioni testuali con timestamp di tutte le lezioni.
-
 ## 🗂️ Indice Lezioni
 
 | N°  | Data       | Argomento                    | Video                                            | Guida Studio                    |
