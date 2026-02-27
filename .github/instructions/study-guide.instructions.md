@@ -1,6 +1,6 @@
 ---
-description: 'Study guide generation instructions for amateur radio course transcripts'
-applyTo: 'guide-studio/**/*.md'
+description: "Study guide generation instructions for amateur radio course transcripts"
+applyTo: "guide-studio/**/*.md"
 ---
 
 ## Role
