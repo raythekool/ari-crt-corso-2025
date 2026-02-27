@@ -130,9 +130,8 @@
   </nav>
   
   <main>
-    {% assign lesson_pages = site.pages | where_exp: "p", "p.path contains 'guide-studio/lezione_'" | sort: "path" %}
-    {% assign is_lesson_page = page.path contains 'guide-studio/lezione_' %}
-    {% if is_lesson_page %}
+    {% assign lesson_pages = site.pages | where_exp: "p", "p.url contains '/guide-studio/lezione_'" | sort: "url" %}
+    {% if page.url contains '/guide-studio/lezione_' %}
       {% assign current_index = -1 %}
       {% for lesson in lesson_pages %}
         {% if lesson.url == page.url %}
