@@ -39,6 +39,31 @@
     nav a:hover {
       text-decoration: underline;
     }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
     main {
       background: white;
       padding: 30px;
@@ -100,10 +125,42 @@
     <a href="{{ '/' | relative_url }}">🏠 Home</a>
     <a href="{{ '/guide-studio/' | relative_url }}">📖 Guide di Studio</a>
     <a href="{{ '/glossario.html' | relative_url }}">📚 Glossario</a>
+    <a href="{{ '/domande-esame.html' | relative_url }}">❓ Domande</a>
     <a href="{{ '/risorse.html' | relative_url }}">🔗 Risorse</a>
   </nav>
   
   <main>
+    {% assign lesson_pages = site.pages | where_exp: "p", "p.path contains 'guide-studio/lezione_'" | sort: "path" %}
+    {% assign is_lesson_page = page.path contains 'guide-studio/lezione_' %}
+    {% if is_lesson_page %}
+      {% assign current_index = -1 %}
+      {% for lesson in lesson_pages %}
+        {% if lesson.url == page.url %}
+          {% assign current_index = forloop.index0 %}
+        {% endif %}
+      {% endfor %}
+      {% assign last_index = lesson_pages.size | minus: 1 %}
+      <div class="lesson-nav">
+        <a href="{{ '/guide-studio/' | relative_url }}">📚 Tutte le lezioni</a>
+        {% if current_index > 0 %}
+          {% assign prev_index = current_index | minus: 1 %}
+          {% assign prev_lesson = lesson_pages[prev_index] %}
+          <a href="{{ prev_lesson.url | relative_url }}">⬅️ Lezione precedente</a>
+        {% endif %}
+        {% if current_index < last_index %}
+          {% assign next_index = current_index | plus: 1 %}
+          {% assign next_lesson = lesson_pages[next_index] %}
+          <a href="{{ next_lesson.url | relative_url }}">Lezione successiva ➡️</a>
+        {% endif %}
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          {% for lesson in lesson_pages %}
+            <option value="{{ lesson.url | relative_url }}" {% if lesson.url == page.url %}selected{% endif %}>{{ lesson.title }}</option>
+          {% endfor %}
+        </select>
+      </div>
+    {% endif %}
     {{ content }}
   </main>
   
