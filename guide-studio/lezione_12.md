@@ -125,13 +125,13 @@ In pratica si usa un unico alimentatore ($V_{CC}$) da cui si ricavano sia l'alim
 
 L'**emettitore** è il terminale **comune** ai circuiti di ingresso (base → emettitore) e di uscita (collettore → emettitore).
 
-| Caratteristica | Valore |
-|---|---|
-| Amplificazione di tensione | Alta |
-| Amplificazione di corrente | Alta (β) |
-| Amplificazione di potenza | Alta |
-| Impedenza di ingresso | Medio-bassa |
-| Impedenza di uscita | Media |
+| Caratteristica             | Valore      |
+| -------------------------- | ----------- |
+| Amplificazione di tensione | Alta        |
+| Amplificazione di corrente | Alta (β)    |
+| Amplificazione di potenza  | Alta        |
+| Impedenza di ingresso      | Medio-bassa |
+| Impedenza di uscita        | Media       |
 
 È la configurazione **classica** e più usata per amplificatori di ogni tipo.
 
@@ -139,13 +139,13 @@ L'**emettitore** è il terminale **comune** ai circuiti di ingresso (base → em
 
 La **base** è messa a massa; il segnale entra dall'**emettitore** e l'uscita è sul **collettore**.
 
-| Caratteristica | Valore |
-|---|---|
-| Amplificazione di tensione | Alta |
-| Amplificazione di corrente | < 1 |
-| Amplificazione di potenza | Media |
-| Impedenza di ingresso | Molto bassa |
-| Impedenza di uscita | Medio-alta |
+| Caratteristica             | Valore      |
+| -------------------------- | ----------- |
+| Amplificazione di tensione | Alta        |
+| Amplificazione di corrente | < 1         |
+| Amplificazione di potenza  | Media       |
+| Impedenza di ingresso      | Molto bassa |
+| Impedenza di uscita        | Medio-alta  |
 
 Usata raramente, ma utile per **amplificazione ad alta frequenza** perché la base, interposta fisicamente fra collettore ed emettitore e messa a massa, funge da **schermo** che previene le autooscillazioni (effetto Larsen).
 
@@ -153,13 +153,13 @@ Usata raramente, ma utile per **amplificazione ad alta frequenza** perché la ba
 
 Il **collettore** è il terminale comune; il segnale entra in **base** e l'uscita si preleva dall'**emettitore**.
 
-| Caratteristica | Valore |
-|---|---|
+| Caratteristica             | Valore                      |
+| -------------------------- | --------------------------- |
 | Amplificazione di tensione | ≈ 1 (leggermente attenuata) |
-| Amplificazione di corrente | Molto alta |
-| Amplificazione di potenza | Media |
-| Impedenza di ingresso | **Molto alta** |
-| Impedenza di uscita | **Molto bassa** |
+| Amplificazione di corrente | Molto alta                  |
+| Amplificazione di potenza  | Media                       |
+| Impedenza di ingresso      | **Molto alta**              |
+| Impedenza di uscita        | **Molto bassa**             |
 
 Questo circuito è detto **buffer** o **separatore**. Non amplifica in tensione ma è fondamentale come interfaccia: l'alta impedenza di ingresso **non disturba** il circuito a monte, mentre la bassa impedenza di uscita permette di **pilotare carichi forti** (relè, linee di trasmissione).
 
@@ -386,34 +386,15 @@ Nella parte finale della lezione si discute di aspetti pratici dell'attività ra
 - 👨‍🏫 **Relatore principale**: Paolo (radiotecnica — transistor, FET, MOSFET, valvole)
 - 👨‍🏫 **Relatore**: Silvio IZ5DIY (correzione quiz e coordinamento)
 - 👨‍🏫 **Interventi**: Sauro (valvole, amplificatori), Fabrizio (coordinamento, filtri ATX)
-- 🎓 **Partecipanti**: Marco, Luigi, David, Claudio, Vincenzo, Nicola, Alessandro, Federico, Salvatore, Roberto e altri
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo | Argomento |
-|---|---|
-| 00:02 - 09:00 | Correzione quiz Lezione 11 (diodi, alimentatori, raddrizzatori) |
-| 09:10 - 25:00 | Transistor bipolare: struttura NPN/PNP, terminali, zone di svuotamento, amplificazione |
-| 25:00 - 29:00 | Beta del transistor: definizione e formula |
-| 29:00 - 45:00 | Schema di amplificazione: polarizzazione, resistenza di carico, uscita al collettore, domande |
-| 45:00 - 56:00 | Tre configurazioni: emettitore comune, base comune, collettore comune (buffer) |
-| 56:00 - 63:00 | Domande su attenuazione, impedenza, tabella riassuntiva |
-| 63:00 - 63:30 | Polarizzazione del transistor (EXTRA): curve caratteristiche e punto di lavoro |
-| 63:30 - 70:00 | FET: struttura, gate, drain, source, canale, transconduttanza |
-| 70:00 - 73:00 | MOSFET: gate isolato con ossido metallico |
-| 73:00 - 86:00 | Valvole termoioniche: diodo, triodo, tetrodo, pentodo |
-| 86:00 - 116:00 | Discussione pratica: esibizione valvole, interferenze TV, limiti di potenza, polizza ARI |
 
 ---
 
 ## 📅 Informazioni Lezione
 
-| Campo | Valore |
-|---|---|
-| **Numero lezione** | 12 |
-| **Data** | 28 maggio 2025 |
-| **Durata** | ~2 ore |
-| **Numero argomenti** | 6 (Quiz, Transistor bipolare, Configurazioni amplificazione, FET/MOSFET, Valvole, Discussione pratica) |
-| **Parole chiave** | Transistor, NPN, PNP, base, collettore, emettitore, beta, amplificazione, emettitore comune, base comune, collettore comune, buffer, FET, MOSFET, gate, drain, source, transconduttanza, valvola termoionica, triodo, tetrodo, pentodo, griglia, impedenza di ingresso |
+| Campo                | Valore                                                                                                                                                                                                                                                                 |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Numero lezione**   | 12                                                                                                                                                                                                                                                                     |
+| **Data**             | 28 maggio 2025                                                                                                                                                                                                                                                         |
+| **Durata**           | ~2 ore                                                                                                                                                                                                                                                                 |
+| **Numero argomenti** | 6 (Quiz, Transistor bipolare, Configurazioni amplificazione, FET/MOSFET, Valvole, Discussione pratica)                                                                                                                                                                 |
+| **Parole chiave**    | Transistor, NPN, PNP, base, collettore, emettitore, beta, amplificazione, emettitore comune, base comune, collettore comune, buffer, FET, MOSFET, gate, drain, source, transconduttanza, valvola termoionica, triodo, tetrodo, pentodo, griglia, impedenza di ingresso |

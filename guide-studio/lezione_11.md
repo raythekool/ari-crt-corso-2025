@@ -330,24 +330,6 @@ Alcuni alimentatori economici hanno un potenziometro etichettato "**noise offset
 - 👨‍🏫 **Relatore principale**: Paolo (radiotecnica — diodi e alimentatori)
 - 👨‍🏫 **Relatore**: Silvio IZ5DIY (correzione quiz e coordinamento)
 - 👨‍🏫 **Coordinamento**: Fabrizio (organizzazione lezione in presenza)
-- 🎓 **Partecipanti**: Aspiranti radioamatori del corso ARI Toscana CRT 2025 (Marco, Maurizio, Claudio, Andrea, Leonardo e altri)
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo      | Argomento                                                                                         |
-| --------------- | ------------------------------------------------------------------------------------------------- |
-| 00:02 - 08:30   | Correzione quiz Lezione 10 e annuncio lezione in presenza                                         |
-| 09:00 - 28:00   | Introduzione al diodo: semiconduttori, drogaggio P-N, giunzione, polarizzazione diretta e inversa |
-| 28:00 - 53:00   | I cinque tipi di diodi: raddrizzatore, LED, Zener, Varicap, Schottky                              |
-| 53:00 - 63:00   | Domande e transizione agli alimentatori                                                           |
-| 63:00 - 72:30   | Alimentatori lineari: trasformatore e isolamento galvanico                                        |
-| 72:30 - 84:00   | Raddrizzatore: singola semionda, doppia semionda, ponte di Graetz                                 |
-| 84:00 - 90:00   | Filtro di livellamento con condensatori elettrolitici                                             |
-| 90:00 - 98:00   | Stabilizzatore: Zener e circuito a retroazione, domande su trimmer                                |
-| 99:30 - 112:00  | Alimentatori a commutazione (switching): funzionamento, vantaggi, sicurezza                       |
-| 112:00 - 126:00 | Confronto lineari vs switching, discussione interferenze RF e soluzioni pratiche                  |
 
 ---
 

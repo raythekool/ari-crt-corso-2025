@@ -122,10 +122,10 @@ $$L_{fisica} = L_{elettrica} \times v_f = \lambda \times v_f$$
 
 Valori tipici del fattore di velocità:
 
-| Tipo dielettrico | $v_f$ |
-|---|---|
-| Polietilene compatto | 0,66 |
-| PTFE (Teflon) | 0,70 |
+| Tipo dielettrico            | $v_f$     |
+| --------------------------- | --------- |
+| Polietilene compatto        | 0,66      |
+| PTFE (Teflon)               | 0,70      |
 | Dielettrico spugnoso (foam) | 0,80–0,85 |
 
 Nella tabella di cavi comuni presentata nella lezione figurano RG58, RG213, RG214 e altri, con impedenze di 50 o 75 Ω, attenuazioni dell'ordine di frazioni di dB al metro e fattori di velocità coerenti con il tipo di dielettrico.
@@ -196,12 +196,12 @@ Questo principio è utilizzato in alta frequenza per realizzare **risonatori coa
 #### 🔹 Potenza Riflessa in Funzione del ROS
 
 | ROS | Potenza riflessa (%) | Perdita (dB) |
-|-----|---------------------|-------------|
-| 1,0 | 0% | 0 dB |
-| 1,5 | ~4% | ~0,2 dB |
-| 2,0 | ~11% | ~0,5 dB |
-| 3,0 | 25% | ~1,25 dB |
-| ∞ | 100% | totale |
+| --- | -------------------- | ------------ |
+| 1,0 | 0%                   | 0 dB         |
+| 1,5 | ~4%                  | ~0,2 dB      |
+| 2,0 | ~11%                 | ~0,5 dB      |
+| 3,0 | 25%                  | ~1,25 dB     |
+| ∞   | 100%                 | totale       |
 
 Fino a ROS = 2, la percentuale di potenza riflessa è inferiore al 10–11%. Sale al 25% con ROS = 3, poi cresce drasticamente.
 
@@ -260,17 +260,17 @@ $$G_{dB} = 10 \cdot \log_{10}\left(\frac{P_{out}}{P_{in}}\right)$$
 #### 🔹 Valori Notevoli
 
 | Rapporto lineare | Valore in dB |
-|---|---|
-| 2 (doppio) | +3 dB |
-| 4 (quadruplo) | +6 dB |
-| 10 | +10 dB |
-| 100 | +20 dB |
-| 1.000 | +30 dB |
-| 1/2 (metà) | −3 dB |
-| 1/4 | −6 dB |
-| 1/10 | −10 dB |
-| 1/100 | −20 dB |
-| 1/1.000 | −30 dB |
+| ---------------- | ------------ |
+| 2 (doppio)       | +3 dB        |
+| 4 (quadruplo)    | +6 dB        |
+| 10               | +10 dB       |
+| 100              | +20 dB       |
+| 1.000            | +30 dB       |
+| 1/2 (metà)       | −3 dB        |
+| 1/4              | −6 dB        |
+| 1/10             | −10 dB       |
+| 1/100            | −20 dB       |
+| 1/1.000          | −30 dB       |
 
 - **Guadagno**: valori positivi
 - **Attenuazione**: valori negativi
@@ -430,42 +430,15 @@ Breve digressione storica sulla rete troposcatter che passava per Coltano (Pisa)
 - 👨‍🏫 **Relatore**: Paolo (docente principale della serata, esperto di linee di trasmissione e RF)
 - 👨‍💼 **Moderatore/Organizzatore**: Fabrizio
 - 👨‍💻 **Gestione quiz**: Alessio
-- 🎓 **Partecipanti attivi**: Marco (domanda su posizionamento rosmetro e consiglio cavi Messi & Paoloni), Nicola (domanda su lunghezza cavo e connettori PL), Claudio (domanda su RG8 Mini), David (domanda su VNA e misure)
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo | Argomento |
-|---|---|
-| 00:05 – 08:17 | Revisione risultati test: domande E (MOF/MUF) e N (attenuazione troposfera), problema indicizzazione |
-| 08:44 – 13:01 | Definizione di linea di trasmissione, regime di parametri concentrati vs. distribuiti |
-| 13:11 – 17:35 | Modello LC a costanti distribuite, impedenza caratteristica, regime di onda progressiva |
-| 17:35 – 19:35 | L'impedenza caratteristica dipende dalle caratteristiche fisiche della linea |
-| 19:41 – 23:28 | Cavo coassiale vs. linea bifilare: vantaggi, campo confinato, carichi bilanciati/sbilanciati e balun |
-| 23:53 – 28:10 | Parametri reali: impedenza caratteristica, attenuazione e fattore di velocità |
-| 28:10 – 34:07 | Fattore di velocità: lunghezza fisica vs. elettrica, tabella cavi comuni |
-| 34:07 – 39:23 | Domanda di Nicola: connettori a impedenza costante e dimensioni vs. lunghezza d'onda |
-| 39:30 – 46:04 | Regime di onde stazionarie: onda riflessa, composizione grafica, massimi e minimi fissi |
-| 46:04 – 48:43 | Definizione del ROS (SWR), valori da 1 a infinito |
-| 48:43 – 55:04 | Variazione dell'impedenza lungo la linea: ciclicità λ/2, formule Zmin e Zmax |
-| 55:04 – 58:18 | Componenti reattive anche con carico resistivo, punti critici ogni λ/4 |
-| 58:18 – 61:26 | ROS costante lungo la linea, impedenza variabile, carta di Smith |
-| 61:26 – 67:23 | Trasformatore λ/4, linea in cortocircuito e aperta, risonatori coassiali |
-| 67:31 – 76:18 | Conseguenze del disadattamento: potenza riflessa, attenuazione maggiorata, teorema del massimo trasferimento, accordatore |
-| 76:18 – 83:39 | Strumenti di misura del ROS, effetto dell'attenuazione del cavo, esempio numerico 100 W / 2 dB / ROS 3 |
-| 83:39 – 95:30 | Il decibel: definizione, valori notevoli, calcolo di catene RF, esempio potenza irradiata |
-| 95:36 – 116:26 | Discussione pratica: posizionamento rosmetro, RG8 Mini, VNA, misure di impedenza, cavi Messi & Paoloni |
-| 116:26 – 125:44 | Correzione indice domande, ripasso ionosfera (strato F di notte), rete troposcatter NATO/USAF Coltano |
 
 ---
 
 ## 📅 Informazioni Lezione
 
-| Campo | Valore |
-|---|---|
-| **Numero lezione** | 19 |
-| **Data** | 10 settembre 2025 |
-| **Durata** | ~2 ore e 5 minuti |
-| **Argomenti principali** | 6 (revisione test, teoria linee RF, onde stazionarie, adattamento impedenza, decibel, aspetti pratici) |
-| **Parole chiave** | Linea di trasmissione, impedenza caratteristica, onde stazionarie, ROS, SWR, cavo coassiale, linea bifilare, fattore di velocità, trasformatore λ/4, decibel, accordatore, wattmetro direzionale, balun, carta di Smith |
+| Campo                    | Valore                                                                                                                                                                                                                  |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Numero lezione**       | 19                                                                                                                                                                                                                      |
+| **Data**                 | 10 settembre 2025                                                                                                                                                                                                       |
+| **Durata**               | ~2 ore e 5 minuti                                                                                                                                                                                                       |
+| **Argomenti principali** | 6 (revisione test, teoria linee RF, onde stazionarie, adattamento impedenza, decibel, aspetti pratici)                                                                                                                  |
+| **Parole chiave**        | Linea di trasmissione, impedenza caratteristica, onde stazionarie, ROS, SWR, cavo coassiale, linea bifilare, fattore di velocità, trasformatore λ/4, decibel, accordatore, wattmetro direzionale, balun, carta di Smith |

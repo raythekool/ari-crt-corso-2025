@@ -352,25 +352,6 @@ I quarzi si presentano come piccoli contenitori metallici con due piedini. All'i
 
 - 👨‍🏫 **Relatori**: Paolo (lezione principale su filtri, risonanza e quarzi), Sauro (quiz e ripasso lezione 05)
 - 📋 **Coordinamento**: Fabrizio, Alessio
-- 🎓 **Partecipanti**: aspiranti radioamatori ARI Toscana CRT 2025 (interventi di Claudio, Marco, Luigi, Antonio, Nicola, Massimo, Giovanni, Sebastian, Leonardo, Maria, Franco, Alessandro, Salvatore, Matteo)
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo      | Argomento                                                                                                                        |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| 00:04 – 22:14   | Revisione quiz Lezione 05: condensatori, reattanza capacitiva, impedenza, legge di Ohm                                           |
-| 22:14 – 27:25   | Introduzione ai filtri: concetto, reattanza variabile con la frequenza                                                           |
-| 27:25 – 46:16   | Filtro passa basso: funzionamento, frequenza di taglio (0,707 / metà potenza), schemi RC e LC, poli, applicazioni pratiche       |
-| 46:16 – 60:20   | Domande e discussione: quadripoli, massa, filtri nelle casse acustiche, bobine perpendicolari per evitare mutua induzione        |
-| 60:20 – 66:46   | Filtro passa alto: funzionamento speculare, schema con C in serie                                                                |
-| 66:46 – 75:02   | Filtro passa banda e filtro elimina banda: definizioni, due frequenze di taglio, applicazioni (ricevitori radio, filtro anti-FM) |
-| 75:02 – 78:31   | Riepilogo visivo dei quattro tipi di filtro (curve ideali)                                                                       |
-| 78:31 – 93:57   | Circuiti risonanti: frequ. di risonanza $f_0$, risonanza parallelo (Z infinita), risonanza serie (Z nulla)                       |
-| 93:57 – 109:23  | Fattore di merito Q, larghezza di banda, esercizi ($Q = f_0/B$), componenti reali e perdite                                      |
-| 109:23 – 122:02 | Cristalli di quarzo: piezoelettricità, risonanza meccanica, Q altissimo, applicazioni                                            |
-| 122:02 – fine   | Organizzazione: iscrizioni ARI, sezioni, quiz prossima lezione                                                                   |
 
 ---
 

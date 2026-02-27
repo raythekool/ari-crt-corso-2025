@@ -341,25 +341,6 @@ Il metodo consiste nell'**isolare il logaritmo con l'incognita** da un lato dell
 
 - 👨‍🏫 **Relatrice principale**: Lucia — docente della lezione di matematica applicata alla radiotecnica
 - 👨‍🏫 **Co-docenti/coordinatori**: Fabrizio (coordinamento corso), Alessio (informazioni esame, esperienza anni precedenti)
-- 🎓 **Partecipanti**: Marco, Roberto (nuovo iscritto), Alessandro, Giovanni, Claudio e altri corsisti del Corso Aspiranti Radioamatori ARI Toscana CRT 2025
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo    | Contenuto                                                                                                     |
-| ------------- | ------------------------------------------------------------------------------------------------------------- |
-| 00:02–05:04   | Presentazione della docente Lucia, introduzione alla lezione di matematica                                    |
-| 05:04–15:52   | Notazione scientifica: conversione tra notazione esponenziale e decimale, esercizi con errori da individuare  |
-| 15:59–30:10   | Tabella dei multipli/sottomultipli, equivalenze tra unità di misura (milli, micro, nano, pico)                |
-| 30:10–39:04   | Esercizi pratici di equivalenze con unità miste (Ω, mΩ, µΩ), frequenze (MHz → Hz), corrente (mA → A)          |
-| 39:43–56:23   | Equazioni di primo grado, isolamento dell'incognita, formule inverse di Ohm ($R = V/I$, $V = I \times R$)     |
-| 56:23–60:23   | Formula della potenza $P = V^2/R$ (per sostituzione), calcolo corrente dal circuito                           |
-| 60:55–70:07   | Pausa e discussione informale: importanza dell'esercizio, rassicurazioni sull'esame                           |
-| 70:07–82:03   | Definizione di logaritmo, proprietà delle potenze, proprietà dei logaritmi (prodotto, quoziente, potenza)     |
-| 82:03–95:01   | Esercizi con logaritmi: calcoli diretti ($3 \log 2 + \log 3$), equazioni logaritmiche con incognita           |
-| 95:01–120:07  | Secondo esercizio logaritmico (incognita al denominatore), esercizio libero più complesso                     |
-| 120:07–130:05 | Consigli per l'esame: calcolatrice, risposta multipla, difficoltà dei calcoli, programmazione esercizi futuri |
 
 ---
 

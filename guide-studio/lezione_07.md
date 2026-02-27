@@ -420,23 +420,6 @@ Questa tabella è parte del programma d'esame per la parte normativa.
 - 👨‍🏫 **Relatore principale**: Paolo — docente del corso, esperto di radiotecnica e modulazioni
 - 👨‍🏫 **Co-docente**: Alessio — presente in aula, prende il coordinamento al termine della parte tecnica
 - 👨‍🏫 **Partecipante attivo**: Giovanni — interviene con domande e precisazioni (denominazioni delle bande, quiz ministeriali)
-- 🎓 **Partecipanti**: Marco, Leonardo e altri corsisti del Corso Aspiranti Radioamatori ARI Toscana CRT 2025
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo    | Contenuto                                                                                         |
-| ------------- | ------------------------------------------------------------------------------------------------- |
-| 00:03–10:11   | Ripasso quiz Lezione 06: filtri, circuiti risonanti, fattore Q                                    |
-| 10:33–17:13   | Introduzione ai modi di emissione e al concetto di modulazione (AM, FM, PM)                       |
-| 17:33–38:02   | Modulazione AM: indice di modulazione, sotto/sovra-modulazione, splatter, guadagno microfonico    |
-| 38:02–49:03   | Spettro AM nel dominio della frequenza, bande laterali, distribuzione della potenza               |
-| 49:03–59:16   | SSB: principio, vantaggi (efficienza, banda dimezzata), svantaggi (complessità, sintonia critica) |
-| 59:16–73:16   | Q&A: distinzione splatter vs armoniche, portante residua SSB, approfondimenti                     |
-| 73:51–87:09   | Modulazione FM: deviazione, indice FM, broadcast vs narrowband, vantaggi e svantaggi, Q&A         |
-| 87:40–104:02  | Onde radio: lunghezza d'onda, formula λ=300/f, classificazione bande, bande radioamatoriali       |
-| 104:02–110:43 | Discussione su quiz d'esame, risorse di studio (radioamatore.org), saluti e auguri di Pasqua      |
 
 ---
 

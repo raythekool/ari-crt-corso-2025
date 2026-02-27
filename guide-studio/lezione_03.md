@@ -527,28 +527,6 @@ Il **rifasamento** è un'operazione tecnica (mediante condensatori o dispositivi
 
 - 👨‍🏫 **Relatore principale**: Paolo (docente del corso)
 - 👨‍🏫 **Co-docente / interventi**: Sauro (suggerimento sul metodo alternativo per il parallelo di tre resistenze; curerà le lezioni su condensatore e induttore)
-- 🎓 **Partecipanti attivi**: Francesco, Nicola, Giorgio, Marco, Mattia, Luigi, Massimo, Roberto (corsisti che intervengono con domande e osservazioni)
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo      | Argomento                                                                                 |
-| --------------- | ----------------------------------------------------------------------------------------- |
-| 00:01 – 20:44   | Revisione e correzione del quiz della Lezione 02 (legge di Ohm, serie/parallelo, potenza) |
-| 20:44 – 21:60   | Panoramica del programma del corso e posizionamento della Lezione 03                      |
-| 21:60 – 32:02   | Corrente continua vs corrente alternata: definizioni e confronto grafico                  |
-| 32:02 – 44:54   | Frequenza, periodo, relazione $f = \frac{1}{T}$, esempi pratici (ENEL, MHz)               |
-| 45:57 – 54:27   | Generazione geometrica della sinusoide: raggio rotante sulla circonferenza                |
-| 54:46 – 59:16   | L'alternatore: principio di funzionamento (spira in campo magnetico, Faraday)             |
-| 59:52 – 61:18   | Effetto del verso di rotazione sulla fase della sinusoide                                 |
-| 65:05 – 73:22   | Valori della tensione alternata: istantanea, efficace, picco, picco-picco, valor medio    |
-| 73:44 – 79:11   | Fase tra sinusoidi: in fase, in controfase, in quadratura; somma di sinusoidi             |
-| 84:54 – 88:08   | Richiamo su energia/potenza; potenza in corrente alternata con carico resistivo           |
-| 88:39 – 102:03  | Carico reattivo: sfasamento, potenza apparente, reale, reattiva, cos φ                    |
-| 100:24 – 101:57 | Analogia della birra: potenza reale (birra) vs potenza reattiva (schiuma)                 |
-| 112:09 – 112:44 | Cenni sul rifasamento industriale                                                         |
-| 121:06 – 121:26 | Chiusura della lezione (argomenti sulle onde radio rimandati alla prossima volta)         |
 
 ---
 

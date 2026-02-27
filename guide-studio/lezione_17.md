@@ -60,12 +60,12 @@ La ragione principale della maggiore pericolosità dell'alternata è la **freque
 
 Il grafico tempo-corrente (scale logaritmiche) degli effetti della corrente alternata sulle persone si divide in **quattro zone**:
 
-| Zona | Corrente | Effetto |
-|------|----------|---------|
-| **Zona 1** | < 0,5 mA | Nessuna percezione — il corpo non sente nulla |
-| **Zona 2** | 0,5–10 mA | Corrente percepita ma senza problematiche gravi |
-| **Zona 3** | 10–300 mA | **Tetanizzazione** — i muscoli si bloccano, impossibile rilasciare la presa; possibile blocco del **diaframma** (muscolo semivolontario della respirazione) |
-| **Zona 4** | > 100–300 mA | **Fibrillazione ventricolare** — il cuore batte in modo caotico, non pompa più sangue, crollo della pressione, rischio morte in circa 1 minuto |
+| Zona       | Corrente     | Effetto                                                                                                                                                     |
+| ---------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Zona 1** | < 0,5 mA     | Nessuna percezione — il corpo non sente nulla                                                                                                               |
+| **Zona 2** | 0,5–10 mA    | Corrente percepita ma senza problematiche gravi                                                                                                             |
+| **Zona 3** | 10–300 mA    | **Tetanizzazione** — i muscoli si bloccano, impossibile rilasciare la presa; possibile blocco del **diaframma** (muscolo semivolontario della respirazione) |
+| **Zona 4** | > 100–300 mA | **Fibrillazione ventricolare** — il cuore batte in modo caotico, non pompa più sangue, crollo della pressione, rischio morte in circa 1 minuto              |
 
 **Tetanizzazione** — quando la corrente alternata attraversa il corpo, i muscoli si contraggono e non si riesce a "staccarsi" dalla parte sotto tensione. La soglia di tetanizzazione è circa **10–15 mA**.
 
@@ -119,12 +119,12 @@ Caratteristiche del differenziale ad alta sensibilità:
 
 ### 6. 📡 Confronto soglie AC vs DC (⏱ 39:25–41:35)
 
-| Parametro | Corrente Alternata (AC) | Corrente Continua (DC) |
-|-----------|------------------------|----------------------|
-| Soglia di percezione | 0,5 mA | 2 mA (4× superiore) |
-| Soglia di tetanizzazione | 10–15 mA | Non esiste vera soglia di rilascio fino a 300 mA |
-| Soglia di fibrillazione (contatto > 1 periodo cardiaco) | Relativamente bassa | Molte volte maggiore rispetto ad AC |
-| Soglia di fibrillazione (contatto < 200 ms) | Circa uguale | Circa uguale |
+| Parametro                                               | Corrente Alternata (AC) | Corrente Continua (DC)                           |
+| ------------------------------------------------------- | ----------------------- | ------------------------------------------------ |
+| Soglia di percezione                                    | 0,5 mA                  | 2 mA (4× superiore)                              |
+| Soglia di tetanizzazione                                | 10–15 mA                | Non esiste vera soglia di rilascio fino a 300 mA |
+| Soglia di fibrillazione (contatto > 1 periodo cardiaco) | Relativamente bassa     | Molte volte maggiore rispetto ad AC              |
+| Soglia di fibrillazione (contatto < 200 ms)             | Circa uguale            | Circa uguale                                     |
 
 > Con la corrente continua, paradossalmente, "conviene rimanerci attaccati" perché per contatti prolungati la soglia di fibrillazione è molto più alta rispetto all'alternata.
 
@@ -215,11 +215,11 @@ Tipi di perdita:
 
 #### Rischio tollerabile (perdita media annua)
 
-| Tipo di perdita | Rischio tollerabile |
-|----------------|-------------------|
+| Tipo di perdita               | Rischio tollerabile   |
+| ----------------------------- | --------------------- |
 | Vite umane / danni permanenti | $10^{-5}$ anni$^{-1}$ |
-| Servizio pubblico | $10^{-3}$ anni$^{-1}$ |
-| Patrimonio culturale | $10^{-4}$ anni$^{-1}$ |
+| Servizio pubblico             | $10^{-3}$ anni$^{-1}$ |
+| Patrimonio culturale          | $10^{-4}$ anni$^{-1}$ |
 
 > **Non esiste il rischio zero**, esiste solo il **rischio tollerabile**. Una struttura "autoprotetta" non significa sicura al 100%.
 
@@ -245,11 +245,11 @@ Il dato fondamentale è il numero di fulmini che cadono a terra **per anno per k
 
 #### Tipo di ambiente
 
-| Ambiente | Caratteristiche | Livello di protezione |
-|----------|-----------------|---------------------|
-| **Urbano** | Edifici di altezza uguale o superiore | Più protetto |
-| **Suburbano** | Zone periferiche, edifici di altezza simile | Protezione media |
-| **Rurale/isolato** | Collina, campagna, edificio isolato | Più pericoloso |
+| Ambiente           | Caratteristiche                             | Livello di protezione |
+| ------------------ | ------------------------------------------- | --------------------- |
+| **Urbano**         | Edifici di altezza uguale o superiore       | Più protetto          |
+| **Suburbano**      | Zone periferiche, edifici di altezza simile | Protezione media      |
+| **Rurale/isolato** | Collina, campagna, edificio isolato         | Più pericoloso        |
 
 #### Caratteristiche dell'edificio
 
@@ -282,11 +282,11 @@ Il collegamento tra dispersori verso il basso può essere ridondante (collegamen
 
 Gli **SPD** (Surge Protection Device) proteggono gli impianti elettrici dalle sovratensioni causate dai fulmini (anche indiretti). Si dividono in **tre classi**:
 
-| Tipo | Posizione | Protezione | Corrente max |
-|------|-----------|------------|-------------|
-| **Tipo 1** | Al contatore (gruppo di misura) | Scariche dirette | Fino a **50 kA** |
+| Tipo       | Posizione                              | Protezione         | Corrente max     |
+| ---------- | -------------------------------------- | ------------------ | ---------------- |
+| **Tipo 1** | Al contatore (gruppo di misura)        | Scariche dirette   | Fino a **50 kA** |
 | **Tipo 2** | Centralino di casa, ripetuto ogni 20 m | Scariche indirette | Fino a **20 kA** |
-| **Tipo 3** | Sull'utenza finale (schede, ciabatte) | Protezione fine | Correnti minori |
+| **Tipo 3** | Sull'utenza finale (schede, ciabatte)  | Protezione fine    | Correnti minori  |
 
 > La cosa fondamentale degli SPD è la **vicinanza con il dispersore**. Lo scaricatore deve essere collegato a un dispersore il più vicino possibile.
 
@@ -308,12 +308,12 @@ Tutti i dispositivi con morsetto **GND** devono essere collegati a una **barra e
 
 #### Sezioni dei conduttori
 
-| Tipo conduttore | Sezione minima |
-|----------------|---------------|
-| Conduttore di protezione (isolato) | **16 mm²** |
-| Conduttore di protezione (nudo) | **25 mm²** |
-| Conduttore equipotenziale | Uguale alla sezione di fase (min. **2,5 mm²**) |
-| Consigliato per sala radio | **6 mm²** |
+| Tipo conduttore                    | Sezione minima                                 |
+| ---------------------------------- | ---------------------------------------------- |
+| Conduttore di protezione (isolato) | **16 mm²**                                     |
+| Conduttore di protezione (nudo)    | **25 mm²**                                     |
+| Conduttore equipotenziale          | Uguale alla sezione di fase (min. **2,5 mm²**) |
+| Consigliato per sala radio         | **6 mm²**                                      |
 
 > I dispositivi in **doppio isolamento** (simbolo: quadrato nel quadrato) **non devono** essere collegati a terra: si rischierebbe di reintrodurre un potenziale di terra dove non serve.
 
@@ -478,39 +478,15 @@ Senza differenziale, si richiedevano valori non superiori a **20 Ω**.
 - 👨‍🏫 **Relatore 1**: Fabrizio Badiani (IU5QUO) — esperto di sicurezza elettrica, formatore PES/PAV
 - 👨‍🏫 **Relatore 2**: Gabriele (IZ5JLW) — progettista impiantistico e acustico, radioamatore (telegrafia con tasti meccanici)
 - 👨‍🏫 **Moderatore**: Paolo — coordinatore del corso
-- 🎓 **Partecipanti**: aspiranti radioamatori del corso ARI Toscana CRT 2025 (tra cui Marco Morelli, Marco Camucci, Roberto Campo, Davide, Claudio, Leonardo)
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo | Argomento |
-|-----------|-----------|
-| 00:02–09:11 | Correzione quiz lezione 16 (strumenti di misura) |
-| 09:22–12:15 | Introduzione — Fabrizio Badiani inizia la condivisione |
-| 12:15–17:27 | AC vs DC: perché l'alternata è più pericolosa |
-| 17:27–26:06 | Effetti della corrente sul corpo: grafico zone 1–4, tetanizzazione, fibrillazione |
-| 26:06–37:02 | Calcolo corrente sul corpo, differenziale e sistema combinato |
-| 37:02–41:35 | Confronto soglie AC vs DC |
-| 41:46–50:06 | Contatti diretti, indiretti, arco elettrico |
-| 50:06–61:23 | Messa a terra, doppio isolamento, separazione elettrica |
-| 61:23–63:04 | Sistemi TT/TN/IT, norme, chiusura parte Fabrizio |
-| 63:04–65:01 | Passaggio a Gabriele, introduzione fulmini |
-| 65:01–73:57 | Fulmini: tipologie, CEI 81, valutazione rischio, tipi di danno e perdita |
-| 73:57–83:52 | Fattori di rischio: Ng, ambiente, caratteristiche edificio, antenna |
-| 83:52–87:33 | LPS: captatori, maglia, discese, dispersori |
-| 87:33–98:01 | SPD: scaricatori tipo 1, 2, 3; impianto messa a terra |
-| 98:01–104:05 | Sala radio: barra equipotenziale, sezioni conduttori, correnti di modo comune |
-| 105:08–134:53 | Domande e risposte: traliccio non a terra, impianto unico, consigli pratici |
 
 ---
 
 ## 📅 Informazioni Lezione
 
-| Campo | Valore |
-|-------|--------|
-| **Lezione numero** | 17 |
-| **Data** | 02/07/2025 |
-| **Durata stimata** | ~2 ore 15 minuti |
-| **Numero argomenti** | 15 |
-| **Parole chiave** | sicurezza elettrica, corrente alternata, corrente continua, fibrillazione ventricolare, tetanizzazione, differenziale, messa a terra, contatto diretto, contatto indiretto, doppio isolamento, fulmini, CEI 81, LPS, SPD, scaricatore di sovratensione, barra equipotenziale, dispersore, rischio tollerabile |
+| Campo                | Valore                                                                                                                                                                                                                                                                                                        |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Lezione numero**   | 17                                                                                                                                                                                                                                                                                                            |
+| **Data**             | 02/07/2025                                                                                                                                                                                                                                                                                                    |
+| **Durata stimata**   | ~2 ore 15 minuti                                                                                                                                                                                                                                                                                              |
+| **Numero argomenti** | 15                                                                                                                                                                                                                                                                                                            |
+| **Parole chiave**    | sicurezza elettrica, corrente alternata, corrente continua, fibrillazione ventricolare, tetanizzazione, differenziale, messa a terra, contatto diretto, contatto indiretto, doppio isolamento, fulmini, CEI 81, LPS, SPD, scaricatore di sovratensione, barra equipotenziale, dispersore, rischio tollerabile |

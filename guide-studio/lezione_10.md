@@ -425,26 +425,7 @@ L'autorizzazione generale può essere **sospesa o revocata** in caso di comporta
 ## 👥 Partecipanti
 
 - 👨‍🏫 **Relatore**: Silvio IZ5DIY (normativa e bande radioamatoriali)
-- 🎓 **Partecipanti**: Corsisti ARI Toscana CRT 2025 (tra cui Marco, Massimo, Giovanni, Roberto, Claudio, Alberto)
 - 🎙️ **Coordinamento**: Fabrizio, Alessio
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo      | Argomento                                                                        |
-| --------------- | -------------------------------------------------------------------------------- |
-| 00:03 – 10:03   | Correzione quiz lezione 09: Santiago, nominativi, RST, locatore, QRT             |
-| 10:16 – 13:08   | Introduzione argomenti della serata                                              |
-| 13:08 – 26:04   | Onde elettromagnetiche: analogia mezzi di trasporto, lunghezza d'onda, frequenza |
-| 26:04 – 39:00   | Spettro elettromagnetico, suddivisione HF/VHF/UHF/SHF, tabella frequenze         |
-| 39:00 – 55:00   | Bande radioamatoriali: elenco, attribuzione esclusiva/primaria/secondaria        |
-| 55:00 – 78:00   | Band plan: concetto, larghezza di banda emissioni, suddivisione interna          |
-| 78:00 – 98:00   | Band plan dettagliato: 20 m, 2 m, regole condominiali, domande e risposte        |
-| 98:00 – 113:00  | ITU e IARU: definizione, ruolo, regioni, servizio di radioamatore                |
-| 113:00 – 122:00 | CEPT, ARI, MIMIT: organizzazioni europee e nazionali                             |
-| 122:00 – 132:00 | Codice delle Comunicazioni Elettroniche, patente e autorizzazione generale       |
-| 132:00 – 150:00 | Domande finali su patente/autorizzazione, sanzioni, frequenze, approfondimenti   |
 
 ---
 

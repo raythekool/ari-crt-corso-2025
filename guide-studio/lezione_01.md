@@ -420,37 +420,6 @@ Un cavo elettrico percorso da corrente **genera un campo magnetico**. Questo fu 
 ## 👥 Partecipanti
 
 - 👨‍🏫 **Relatore**: Paolo — docente del corso, esperto radioamatore
-- 🎓 **Partecipanti**: Aspiranti radioamatori in formazione — tra i corsisti intervengono Roberto Francesco, Carmine, Giovanni, Mattia, Vasco, Claudio, Domenico, Valentino, Marco, Gerardo, Moris e altri
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo      | Argomento                                                                          |
-| --------------- | ---------------------------------------------------------------------------------- |
-| 00:02 – 02:07   | Introduzione al corso, avvisi di servizio                                          |
-| 02:52 – 03:10   | Presentazione degli argomenti della serata: corrente continua                      |
-| 03:10 – 07:14   | Struttura dell'atomo: protoni, neutroni, elettroni, conduttori e isolanti          |
-| 08:51 – 10:22   | Carica elettrica e coulomb                                                         |
-| 11:26 – 15:06   | Campo elettrico e linee di forza                                                   |
-| 15:08 – 16:18   | Definizione di corrente elettrica                                                  |
-| 16:18 – 19:18   | Sessione domande e risposte (campo elettrico con due cariche positive)             |
-| 19:18 – 22:06   | Corrente continua vs corrente alternata                                            |
-| 22:09 – 24:03   | Esempi di conduttori e isolanti (interazione con corsisti)                         |
-| 24:11 – 26:03   | L'ampere: unità di misura della corrente                                           |
-| 26:06 – 30:33   | Differenza di potenziale e il volt                                                 |
-| 30:33 – 41:01   | Energia e potenza elettrica (analogia automobile e radio)                          |
-| 45:33 – 55:01   | Formula $P = V \times I$, formule inverse, esempi pratici                          |
-| 55:01 – 61:10   | Riepilogo delle cinque grandezze, domanda di Carmine sull'alimentatore della radio |
-| 61:54 – 65:06   | Pile e batterie: funzionamento e differenze                                        |
-| 65:06 – 68:27   | Capacità delle batterie in amperora, esercizi interattivi                          |
-| 68:31 – 70:44   | Alternatori: definizione e caratteristiche                                         |
-| 71:00 – 75:43   | Discussione su pile ricaricabili, effetto memoria, evoluzione delle batterie       |
-| 75:53 – 76:49   | Generatore ideale                                                                  |
-| 77:03 – 80:14   | Generatori in serie e in parallelo                                                 |
-| 80:14 – 101:49  | Sessione Q&A: alternatore auto, alimentatori switching, dinamo                     |
-| 103:01 – 111:03 | Quattro effetti della corrente: fisiologico, termico, chimico, magnetico           |
-| 111:03 – 116:56 | Discussione sui campi elettromagnetici e la salute                                 |
 
 ---
 

@@ -616,29 +616,6 @@ Un partecipante chiede come misurare le tensioni sulle singole resistenze in un 
 - 👨‍🏫 **Relatore principale**: Paolo (Paolo Cavecchioli, docente del corso)
 - 👨‍🏫 **Co-relatore**: Sauro (Fabrizio/Sauro, collaboratore e membro della sezione ARI)
 - 👨‍🏫 **Collaboratore**: Alessio (membro della sezione ARI, assiste nell'organizzazione)
-- 🎓 **Partecipanti**: Aspiranti radioamatori del corso ARI Toscana CRT 2025, tra cui: Marco, Giancarlo, Matteo, Manuel, Antonio/Antonino, Luigi, Claudio, Vasco, Simone e altri.
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo      | Argomento                                                                     |
-| --------------- | ----------------------------------------------------------------------------- |
-| 00:02 – 10:00   | Revisione risultati quiz Lezione 01 e correzione risposte                     |
-| 10:00 – 14:30   | Discussioni organizzative e domande dei partecipanti                          |
-| 14:36 – 19:00   | Introduzione alla resistenza elettrica e definizione di ohm                   |
-| 19:28 – 24:00   | Formula della resistenza di un conduttore ($R = \rho \cdot L / S$)            |
-| 24:30 – 31:40   | Legge di Ohm: tre formulazioni e esempi pratici                               |
-| 31:44 – 35:15   | Multipli (kilo, mega, giga) e sottomultipli (milli, micro, nano, pico)        |
-| 35:15 – 44:00   | Domande dei partecipanti e chiarimenti                                        |
-| 44:13 – 53:10   | Il resistore: funzione, simbolo, codice colori, potenza dissipata             |
-| 53:15 – 60:45   | Resistori NTC e PTC: definizioni e applicazioni pratiche                      |
-| 60:47 – 67:30   | Resistore ideale, generatore ideale e generatore reale (resistenza interna)   |
-| 67:32 – 72:10   | Leggi di Kirchhoff: legge dei nodi e legge delle maglie                       |
-| 72:11 – 75:40   | Resistori in serie: regole, calcoli, esempi                                   |
-| 75:40 – 86:40   | Resistori in parallelo: regole, formule, casi particolari, esempi             |
-| 86:40 – 105:10  | Esercitazioni pratiche interattive: calcoli di potenza, corrente e resistenze |
-| 105:10 – 117:59 | Informazioni organizzative: iscrizione ARI, libro di testo, chiusura          |
 
 ---
 

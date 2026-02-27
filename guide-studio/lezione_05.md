@@ -376,28 +376,7 @@ L'Enel impone alle utenze industriali un **cos φ ≥ 0,8** (rifasamento). I car
 ## 👥 Partecipanti
 
 - 👨‍🏫 **Relatore**: Sauro (sezione ARI Prato, licenza dal 1984)
-- 🎓 **Partecipanti**: aspiranti radioamatori del corso ARI Toscana CRT 2025
 - 📋 **Coordinamento**: Fabrizio, Alessio
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo      | Argomento                                                                                                      |
-| --------------- | -------------------------------------------------------------------------------------------------------------- |
-| 00:02 – 28:07   | Revisione quiz Lezione 04: reattanza induttiva, Henry, induttori serie/parallelo, effetto pelle, trasformatore |
-| 28:07 – 37:12   | Domande e discussione: terminologia induttore/induttanza, applicazione pratica bobina di blocco                |
-| 37:12 – 46:00   | Il condensatore: struttura, armature, dielettrico, campo elettrico, tipologie                                  |
-| 46:00 – 52:07   | Capacità: definizione (C = Q/V), Farad, sottomultipli (µF, nF, pF)                                             |
-| 52:14 – 57:36   | Formula costruttiva C = ε·S/D, tipi di condensatori (mica, film, elettrolitici, variabili)                     |
-| 57:36 – 62:07   | Condensatori in serie e in parallelo (regole invertite rispetto alle resistenze)                               |
-| 62:07 – 66:08   | Costante di tempo τ = R×C, carica/scarica esponenziale                                                         |
-| 66:08 – 67:18   | Sfasamento: corrente in anticipo di 90° rispetto alla tensione                                                 |
-| 67:18 – 75:21   | Reattanza capacitiva $X_C = 1/(2\pi fC)$, esercizio, andamento iperbolico                                      |
-| 75:21 – 79:15   | Riepilogo: legge di Ohm con R, $X_L$ e $X_C$                                                                   |
-| 79:15 – 94:02   | Impedenza Z, teorema di Pitagora, rappresentazione vettoriale, numeri complessi                                |
-| 94:02 – 102:17  | Potenza apparente, attiva e reattiva, cos φ, rifasamento                                                       |
-| 102:17 – 124:07 | Domande, discussione pratica (rosmetro, accordatore, antenne), saluti                                          |
 
 ---
 

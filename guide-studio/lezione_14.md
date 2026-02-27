@@ -219,11 +219,11 @@ Questo spiega perché in FM l'oscillatore lavora a frequenza bassa: la deviazion
 #### 🔹 Filtri per Tipo di Emissione
 
 | Tipo di emissione | Larghezza filtro tipica |
-|-------------------|----------------------|
-| CW (telegrafia) | ~500 Hz |
-| SSB | ~2,5 kHz |
-| AM | ~6 kHz |
-| FM | ~10 kHz |
+| ----------------- | ----------------------- |
+| CW (telegrafia)   | ~500 Hz                 |
+| SSB               | ~2,5 kHz                |
+| AM                | ~6 kHz                  |
+| FM                | ~10 kHz                 |
 
 ---
 
@@ -388,39 +388,15 @@ Quando l'amplificatore distorce con più segnali in ingresso ($f_1$ e $f_2$), si
 ## 👥 Partecipanti
 
 - 👨‍🏫 **Relatore**: Paolo (radiotecnica — trasduttori, miscelatori, trasmettitori, intermodulazione)
-- 🎓 **Partecipanti**: Aspiranti radioamatori del Corso ARI CRT Toscana 2025 (Marco, Marco Morelli, Claudio, Francesco, Giovanni, Leonardo, Fabrizio, Massimo e altri)
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo | Contenuto |
-|-----------|-----------|
-| 00:03–12:30 | Correzione quiz Lezione 13 (classi amplificazione, PLL, dB) |
-| 13:01–14:30 | Premessa: programma d'esame basato su architetture classiche (non SDR) |
-| 15:00–25:00 | Trasduttori: microfoni (carbone, cristallo, condensatore, dinamico) |
-| 21:00–25:00 | Altoparlante: magnete permanente + bobina mobile |
-| 25:36–30:00 | Discussione qualità microfoni, microfoni preamplificati |
-| 30:48–35:30 | Miscelatori (mixer): somma e differenza, MOSFET dual-gate |
-| 35:30–40:00 | Schema a blocchi generale del trasmettitore |
-| 40:49–48:00 | TX CW: a singola frequenza, multibanda con conversione di frequenza |
-| 48:00–54:00 | Circuito pi-greco, click di manipolazione, smussamento |
-| 58:30–70:00 | TX SSB: modulatore bilanciato, filtro 2,5 kHz, doppia conversione |
-| 70:00–88:00 | Discussione: selezione USB/LSB, 2 quarzi commutabili, chiarimenti |
-| 88:53–95:40 | TX FM: modulatore a reattanza, moltiplicatori, deviazione |
-| 97:00–99:40 | TX AM: modulazione tensione alimentazione del finale |
-| 100:00–108:00 | Armoniche: sinusoide, onda quadra, flat-topping |
-| 108:00–116:00 | Intermodulazione: prodotti 3° ordine, splatter |
-| 116:00–125:00 | Discussione: splatter vs ricevitori, sovrapilotaggio, speech processor |
 
 ---
 
 ## 📅 Informazioni Lezione
 
-| Campo | Valore |
-|-------|--------|
-| **Lezione** | 14 |
-| **Data** | 11 giugno 2025 |
-| **Durata** | circa 2 ore e 15 minuti |
-| **Argomenti trattati** | 6 (quiz, trasduttori, miscelatori, trasmettitori CW/SSB/AM/FM, intermodulazione) |
-| **Parole chiave** | trasduttore, microfono, altoparlante, carbone, cristallo, condensatore, dinamico, miscelatore, mixer, frequenza somma, frequenza differenza, conversione di frequenza, trasmettitore, CW, SSB, AM, FM, modulatore bilanciato, filtro a cristallo, doppia conversione, modulatore a reattanza, moltiplicatore, varicap, pi-greco, click manipolazione, armonica, intermodulazione, splatter, flat-topping |
+| Campo                  | Valore                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Lezione**            | 14                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Data**               | 11 giugno 2025                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Durata**             | circa 2 ore e 15 minuti                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Argomenti trattati** | 6 (quiz, trasduttori, miscelatori, trasmettitori CW/SSB/AM/FM, intermodulazione)                                                                                                                                                                                                                                                                                                                         |
+| **Parole chiave**      | trasduttore, microfono, altoparlante, carbone, cristallo, condensatore, dinamico, miscelatore, mixer, frequenza somma, frequenza differenza, conversione di frequenza, trasmettitore, CW, SSB, AM, FM, modulatore bilanciato, filtro a cristallo, doppia conversione, modulatore a reattanza, moltiplicatore, varicap, pi-greco, click manipolazione, armonica, intermodulazione, splatter, flat-topping |

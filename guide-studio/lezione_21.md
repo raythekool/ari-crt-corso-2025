@@ -75,10 +75,10 @@ Il **guadagno** di un'antenna è definito come il rapporto tra l'intensità del 
 
 I due riferimenti standard sono:
 
-| Unità | Riferimento | Descrizione |
-|-------|-------------|-------------|
+| Unità   | Riferimento        | Descrizione                                                                |
+| ------- | ------------------ | -------------------------------------------------------------------------- |
 | **dBi** | Antenna isotropica | Sorgente puntiforme ideale che irradia uniformemente in tutte le direzioni |
-| **dBd** | Dipolo a mezz'onda | Antenna reale di riferimento |
+| **dBd** | Dipolo a mezz'onda | Antenna reale di riferimento                                               |
 
 La relazione tra le due unità è costante:
 
@@ -135,42 +135,42 @@ Tre casi reali analizzati in dettaglio durante la lezione:
 
 #### Caso 1: Dipolo orizzontale 40 m a λ/4 da terra
 
-| Parametro | Valore |
-|-----------|--------|
-| Banda | 40 m (7 MHz) |
-| Altezza | 10 m (= λ/4) |
-| Conduttore | Ø 1,5 mm |
-| $R_{rad}$ | 85 Ω |
-| $R_{perdita}$ (conduttore + terreno) | 4 Ω |
-| Impedenza al punto di alimentazione | 89 Ω |
-| ROS (su 50 Ω) | 1,78 |
-| **Efficienza** | **95%** |
+| Parametro                            | Valore       |
+| ------------------------------------ | ------------ |
+| Banda                                | 40 m (7 MHz) |
+| Altezza                              | 10 m (= λ/4) |
+| Conduttore                           | Ø 1,5 mm     |
+| $R_{rad}$                            | 85 Ω         |
+| $R_{perdita}$ (conduttore + terreno) | 4 Ω          |
+| Impedenza al punto di alimentazione  | 89 Ω         |
+| ROS (su 50 Ω)                        | 1,78         |
+| **Efficienza**                       | **95%**      |
 
 #### Caso 2: Dipolo orizzontale 80 m a λ/8 da terra
 
-| Parametro | Valore |
-|-----------|--------|
-| Banda | 80 m (3,5 MHz) |
-| Altezza | 10 m (= λ/8) |
-| Conduttore | Ø 1,5 mm |
-| $R_{rad}$ | 45 Ω |
-| $R_{perdita}$ (conduttore + terreno significativo) | 7 Ω |
-| Impedenza al punto di alimentazione | 52 Ω |
-| ROS (su 50 Ω) | 1,04 |
-| **Efficienza** | **≈ 87%** |
+| Parametro                                          | Valore         |
+| -------------------------------------------------- | -------------- |
+| Banda                                              | 80 m (3,5 MHz) |
+| Altezza                                            | 10 m (= λ/8)   |
+| Conduttore                                         | Ø 1,5 mm       |
+| $R_{rad}$                                          | 45 Ω           |
+| $R_{perdita}$ (conduttore + terreno significativo) | 7 Ω            |
+| Impedenza al punto di alimentazione                | 52 Ω           |
+| ROS (su 50 Ω)                                      | 1,04           |
+| **Efficienza**                                     | **≈ 87%**      |
 
 #### Caso 3: Verticale caricata λ/8 a terra con 16 radiali
 
-| Parametro | Valore |
-|-----------|--------|
-| Tipo | Verticale caricata in testa |
-| Lunghezza | λ/8 |
-| Installazione | A terra, 16 radiali interrati lunghi ~λ |
-| $R_{rad}$ | 20 Ω |
-| $R_{perdita}$ (principalmente terreno) | 18 Ω |
-| Impedenza al punto di alimentazione | 38 Ω |
-| ROS (su 50 Ω) | 1,3 |
-| **Efficienza** | **52%** |
+| Parametro                              | Valore                                  |
+| -------------------------------------- | --------------------------------------- |
+| Tipo                                   | Verticale caricata in testa             |
+| Lunghezza                              | λ/8                                     |
+| Installazione                          | A terra, 16 radiali interrati lunghi ~λ |
+| $R_{rad}$                              | 20 Ω                                    |
+| $R_{perdita}$ (principalmente terreno) | 18 Ω                                    |
+| Impedenza al punto di alimentazione    | 38 Ω                                    |
+| ROS (su 50 Ω)                          | 1,3                                     |
+| **Efficienza**                         | **52%**                                 |
 
 #### Lezioni apprese dai tre casi
 
@@ -196,11 +196,11 @@ Le antenne verticali, anche se montate a terra, devono sempre essere dotate di u
 
 **Strategie per i radiali:**
 
-| Installazione | Caratteristiche |
-|---------------|----------------|
-| Radiali interrati | Buona efficienza, la corrente li attraversa preferenzialmente rispetto al terreno |
+| Installazione                    | Caratteristiche                                                                                      |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Radiali interrati                | Buona efficienza, la corrente li attraversa preferenzialmente rispetto al terreno                    |
 | Radiali appoggiati a terra/tetto | Funzionano sufficientemente bene perché la loro conducibilità è molto superiore a quella del terreno |
-| Radiali sollevati | Condizione ottimale per antenne montate in quota |
+| Radiali sollevati                | Condizione ottimale per antenne montate in quota                                                     |
 
 **Anche con i radiali**, è necessario un dispositivo di blocco (**RF choke**) per evitare che correnti di modo comune scorrano sulla calza esterna del cavo coassiale. Per l'**effetto pelle**, la superficie esterna e quella interna della calza si comportano come due conduttori separati.
 
@@ -435,41 +435,15 @@ Viene menzionata un'esperienza di riflessione lunare (EME — Earth-Moon-Earth) 
 
 - 👨‍🏫 **Relatore**: Paolo — Radioamatore dal 1977 con oltre 40 anni di esperienza professionale nel settore RF. Conclude il suo ciclo di lezioni sulle antenne con questa sessione.
 - 🎙️ **Moderatore**: Alessandro (Ale) — Gestisce la sessione e le domande.
-- 🎓 **Partecipanti**: Aspiranti radioamatori del corso ARI Toscana CRT 2025. Intervengono con domande: Claudio (problemi di installazione antenne verticali), Marco (domande d'esame sulla Yagi), Sauro (aspetti tecnici del choke balun e correnti di modo comune).
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo | Argomento |
-|------------|-----------|
-| 00:00 – 05:20 | Riepilogo propagazione e angolo di radiazione |
-| 05:20 – 17:00 | Metodi per ottenere la direttività (parabola, Yagi, array) |
-| 07:00 – 10:57 | Guadagno: dBi vs dBd, differenza di 2,1 dB |
-| 37:20 – 41:30 | ERP — Potenza Effettiva Irradiata, esempi di calcolo |
-| 41:36 – 55:00 | Efficienza di radiazione: formula, componenti di perdita |
-| 42:00 – 53:00 | Correnti di modo comune, balun di corrente vs tensione |
-| 59:00 – 66:00 | Effetto pelle: spessore di penetrazione, resistenza RF |
-| 66:16 – 71:05 | Antenne verticali, radiali, correnti sulla calza del cavo |
-| 71:11 – 74:16 | Formula efficienza di radiazione, antenne caricate e piccole |
-| 74:16 – 82:56 | Tre esempi pratici di calcolo efficienza (40m, 80m, verticale) |
-| 82:56 – 83:03 | ROS vs efficienza: citazione di John Devolder, carico fittizio |
-| 83:03 – 90:52 | Misure con analizzatore d'antenna e VNA, errori comuni |
-| 91:00 – 97:39 | TX vs RX: guadagno, SNR, antenne specializzate per ricezione |
-| 97:39 – 98:22 | Letture consigliate, conclusione del ciclo di lezioni di Paolo |
-| 98:34 – 105:20 | Q&A: Claudio — antenne verticali vicine, radiali, installazione |
-| 105:27 – 109:18 | Q&A: Marco — domanda d'esame Yagi 14 MHz |
-| 109:26 – 119:38 | Q&A: Sauro — choke balun, risonanza, attenuazione modo comune |
-| 119:44 – 130:10 | Q&A: Marco — elementi Yagi (riflettore/direttore), guadagno, EME |
 
 ---
 
 ## 📅 Informazioni Lezione
 
-| Campo | Valore |
-|-------|--------|
-| **Lezione** | 21 |
-| **Data** | 24 settembre 2025 |
-| **Durata** | ≈ 2 ore e 10 minuti |
-| **Argomenti trattati** | 11 |
-| **Parole chiave** | Antenne direttive, Yagi-Uda, guadagno dBi dBd, ERP, efficienza di radiazione, skin effect, radiali, balun di corrente, correnti modo comune, misure antenna, VNA, SNR ricezione, carico fittizio |
+| Campo                  | Valore                                                                                                                                                                                           |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Lezione**            | 21                                                                                                                                                                                               |
+| **Data**               | 24 settembre 2025                                                                                                                                                                                |
+| **Durata**             | ≈ 2 ore e 10 minuti                                                                                                                                                                              |
+| **Argomenti trattati** | 11                                                                                                                                                                                               |
+| **Parole chiave**      | Antenne direttive, Yagi-Uda, guadagno dBi dBd, ERP, efficienza di radiazione, skin effect, radiali, balun di corrente, correnti modo comune, misure antenna, VNA, SNR ricezione, carico fittizio |

@@ -334,28 +334,7 @@ Le linee ad alta tensione usano trasformatori elevatori per trasportare l'energi
 ## 👥 Partecipanti
 
 - 👨‍🏫 **Relatore**: Paolo (IZ5 — sezione ARI Prato) e Sauro (sezione ARI Prato, licenza dal 1984)
-- 🎓 **Partecipanti**: aspiranti radioamatori del corso ARI Toscana CRT 2025 (~60–70 persone partecipano ai quiz)
 - 📋 **Coordinamento**: Alessio (mappa interattiva sezioni), Fabrizio, Federico
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo      | Argomento                                                                                                   |
-| --------------- | ----------------------------------------------------------------------------------------------------------- |
-| 00:02 – 05:05   | Introduzione: iscrizione ARI, mappa interattiva sezioni toscane                                             |
-| 05:38 – 16:08   | Revisione quiz Lezione 03: periodo, frequenza, conversioni, valore efficace, potenza apparente/reale, cos φ |
-| 16:51 – 19:06   | Passaggio di consegne a Sauro, presentazione                                                                |
-| 19:06 – 29:10   | Magneti, campo magnetico, induzione elettromagnetica (Faraday/Ørsted)                                       |
-| 29:10 – 45:00   | Induttore: struttura, induttanza (L, Henry), formula costruttiva, permeabilità magnetica, tipologie         |
-| 45:00 – 50:20   | Induttori in serie e in parallelo                                                                           |
-| 50:20 – 58:04   | Domande: impedenza, ROS, unità di misura (Henry e sottomultipli)                                            |
-| 60:03 – 70:03   | Costante di tempo τ = L/R, andamento esponenziale della corrente                                            |
-| 71:01 – 77:38   | Sfasamento 90°, reattanza induttiva $X_L = 2\pi fL$, andamento lineare con la frequenza                     |
-| 78:07 – 80:12   | Effetto pelle                                                                                               |
-| 80:17 – 96:33   | Esercizi: calcolo reattanza a 100 kHz, 1 MHz, 10 MHz; conversioni                                           |
-| 96:51 – 131:17  | Trasformatore: principio, struttura, rapporto di trasformazione, conservazione potenza, esercizi            |
-| 131:17 – 143:39 | Domande e chiusura: trasformatore elevatore/riduttore, Tesla vs Edison, notazione esponenziale              |
 
 ---
 

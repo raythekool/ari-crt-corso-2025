@@ -58,11 +58,11 @@ Quando una corrente scorre nella bobina, essa genera un proprio campo magnetico.
 
 Ogni strumento a bobina mobile è definito da tre valori legati dalla legge di Ohm ($V = R \times I$):
 
-| Parametro | Simbolo | Esempio |
-|-----------|---------|---------|
-| Corrente di fondo scala | $I_{FS}$ | 50 µA |
-| Resistenza interna | $R_i$ | 100 Ω |
-| Tensione di fondo scala | $V_{FS}$ | 5 mV |
+| Parametro               | Simbolo  | Esempio |
+| ----------------------- | -------- | ------- |
+| Corrente di fondo scala | $I_{FS}$ | 50 µA   |
+| Resistenza interna      | $R_i$    | 100 Ω   |
+| Tensione di fondo scala | $V_{FS}$ | 5 mV    |
 
 Verifica: $50 \times 10^{-6} \times 100 = 5 \times 10^{-3}$ V = 5 mV ✓
 
@@ -76,12 +76,12 @@ $$R_S = \frac{R_i \times I_{FS}}{I_{desiderata} - I_{FS}} = \frac{V_{FS}}{I_{des
 
 **Principio**: la resistenza di shunt è in parallelo allo strumento, quindi ha ai suoi capi la stessa tensione (5 mV nell'esempio). La corrente che la attraversa è la differenza tra la corrente totale e quella dello strumento.
 
-| Fondo scala desiderato | Resistenza di shunt | Nota |
-|----------------------|-------------------|------|
-| 0,3 mA | 20 Ω | Corrente bassa → shunt alto |
-| 3 mA | 1,6 Ω | |
-| 30 mA | 0,16 Ω | |
-| 300 mA | 0,016 Ω | Corrente alta → shunt molto basso |
+| Fondo scala desiderato | Resistenza di shunt | Nota                              |
+| ---------------------- | ------------------- | --------------------------------- |
+| 0,3 mA                 | 20 Ω                | Corrente bassa → shunt alto       |
+| 3 mA                   | 1,6 Ω               |                                   |
+| 30 mA                  | 0,16 Ω              |                                   |
+| 300 mA                 | 0,016 Ω             | Corrente alta → shunt molto basso |
 
 > **Regola**: più è elevata la corrente da misurare, più **bassa** deve essere la resistenza di shunt.
 
@@ -99,11 +99,11 @@ Si calcola quale resistenza serve affinché, con la tensione di fondo scala desi
 
 $$R_S = \frac{V_{desiderata}}{I_{FS}} - R_i$$
 
-| Fondo scala desiderato | Resistenza serie | Nota |
-|----------------------|----------------|------|
-| 1 V | 19.900 Ω | |
-| 10 V | 199.000 Ω | ×10 rispetto a 1 V |
-| 100 V | 1.999.900 Ω (~2 MΩ) | ×10 rispetto a 10 V |
+| Fondo scala desiderato | Resistenza serie    | Nota                |
+| ---------------------- | ------------------- | ------------------- |
+| 1 V                    | 19.900 Ω            |                     |
+| 10 V                   | 199.000 Ω           | ×10 rispetto a 1 V  |
+| 100 V                  | 1.999.900 Ω (~2 MΩ) | ×10 rispetto a 10 V |
 
 > **Regola**: più è alta la tensione da misurare, più **grande** deve essere la resistenza in serie.
 
@@ -113,10 +113,10 @@ $$R_S = \frac{V_{desiderata}}{I_{FS}} - R_i$$
 
 ### 5. 🔗 Collegamento degli strumenti nel circuito (⏱ 36:02)
 
-| Strumento | Collegamento | Motivo |
-|-----------|-------------|--------|
-| **Amperometro** | In **serie** | Si interrompe il circuito e si inserisce lo strumento nel percorso della corrente |
-| **Voltmetro** | In **parallelo** | Si collega ai due punti tra cui si vuole misurare la differenza di potenziale |
+| Strumento       | Collegamento     | Motivo                                                                            |
+| --------------- | ---------------- | --------------------------------------------------------------------------------- |
+| **Amperometro** | In **serie**     | Si interrompe il circuito e si inserisce lo strumento nel percorso della corrente |
+| **Voltmetro**   | In **parallelo** | Si collega ai due punti tra cui si vuole misurare la differenza di potenziale     |
 
 ---
 
@@ -140,10 +140,10 @@ Sono realizzati con circuiti a **FET** (Field Effect Transistor) in configurazio
 
 Il vantaggio del FET: il terminale di gate è una giunzione polarizzata inversamente, quindi **non assorbe corrente**.
 
-| Tipo di strumento | Impedenza tipica |
-|-------------------|-----------------|
+| Tipo di strumento                | Impedenza tipica                |
+| -------------------------------- | ------------------------------- |
 | Voltmetro analogico tradizionale | ~20.000 Ω/V (es. 200 kΩ a 10 V) |
-| Voltmetro elettronico | >10 MΩ |
+| Voltmetro elettronico            | >10 MΩ                          |
 
 ⚠️ _I multimetri digitali, pur avendo elettronica sofisticata, NON sono voltmetri elettronici: hanno un'impedenza di ingresso simile a quella degli strumenti tradizionali._
 
@@ -271,12 +271,12 @@ L'**analizzatore di spettro** — è lo strumento che mostra la composizione in 
 - **Asse X** (orizzontale): **frequenza**
 - **Asse Y** (verticale): **potenza**, espressa in **dBm** (decibel rispetto a 1 mW)
 
-| Confronto | Oscilloscopio | Analizzatore di spettro |
-|-----------|--------------|------------------------|
-| Dominio | Tempo | Frequenza |
-| Asse X | Tempo (s, ms, µs) | Frequenza (Hz, kHz, MHz) |
-| Asse Y | Ampiezza (V) | Potenza (dBm) |
-| Mostra | Forma d'onda nel tempo | Composizione spettrale |
+| Confronto | Oscilloscopio          | Analizzatore di spettro  |
+| --------- | ---------------------- | ------------------------ |
+| Dominio   | Tempo                  | Frequenza                |
+| Asse X    | Tempo (s, ms, µs)      | Frequenza (Hz, kHz, MHz) |
+| Asse Y    | Ampiezza (V)           | Potenza (dBm)            |
+| Mostra    | Forma d'onda nel tempo | Composizione spettrale   |
 
 #### 🔹 Funzionamento interno
 
@@ -292,12 +292,12 @@ Internamente è come un **ricevitore** seguito da un display tipo oscilloscopio.
 
 La scala in dBm è essenziale perché consente di visualizzare segnali con dinamica enorme. Su una scala lineare, un segnale 1000 volte più debole scompare; su scala logaritmica è visibile e misurabile.
 
-| dBm | Potenza |
-|-----|---------|
-| 0 dBm | 1 mW |
-| −10 dBm | 0,1 mW |
-| −20 dBm | 0,01 mW |
-| −30 dBm | 0,001 mW |
+| dBm     | Potenza   |
+| ------- | --------- |
+| 0 dBm   | 1 mW      |
+| −10 dBm | 0,1 mW    |
+| −20 dBm | 0,01 mW   |
+| −30 dBm | 0,001 mW  |
 | −40 dBm | 0,0001 mW |
 
 Il **waterfall** (cascata) dei ricevitori digitali moderni è una forma di analizzatore di spettro, anche se fornisce indicazioni solo indicative (non calibrate).
@@ -415,40 +415,15 @@ Il **waterfall** (cascata) dei ricevitori digitali moderni è una forma di anali
 ## 👥 Partecipanti
 
 - 👨‍🏫 **Relatore**: Paolo
-- 🎓 **Partecipanti**: Massimo, Andrea, David, Francesco, Giovanni, Alessio, Marco e altri corsisti del Corso ARI Toscana CRT 2025
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo | Argomento |
-|-----------|-----------|
-| 00:03 – 13:43 | Correzione quiz Lezione 15 (ricevitori, frequenza immagine, sensibilità) |
-| 13:51 – 15:34 | Introduzione agli strumenti di misura e loro necessità per il radioamatore |
-| 15:34 – 20:27 | Strumento a bobina mobile: principio di funzionamento |
-| 20:27 – 29:08 | Amperometro: tre valori caratteristici, resistenza di shunt, formula |
-| 29:48 – 34:09 | Voltmetro: resistenza in serie, formula, esempi |
-| 36:02 – 37:41 | Collegamento strumenti: serie (amperometro) e parallelo (voltmetro) |
-| 37:46 – 44:20 | Strumenti reali vs ideali, voltmetri elettronici con FET |
-| 44:20 – 46:08 | Ohmetro: principio con batteria interna |
-| 46:08 – 47:53 | Multimetro: combinazione di strumenti |
-| 48:06 – 57:36 | Discussione su problemi di misura sul campo (disturbi, antenne) |
-| 58:03 – 60:22 | Carico fittizio: struttura, utilizzo, P = V²/R |
-| 60:22 – 64:10 | Wattmetri passanti e ROSmetro |
-| 64:28 – 65:26 | Frequenzimetro / contatore |
-| 65:26 – 72:03 | Grid-dip meter e ondametro |
-| 72:24 – 79:57 | Oscilloscopio: dominio del tempo, V/div, tempo/div |
-| 80:06 – 92:55 | Analizzatore di spettro: dominio della frequenza, dBm, scala logaritmica |
-| 97:05 – 100:50 | Annunci: fine parte elettronica, programma prossime lezioni |
 
 ---
 
 ## 📅 Informazioni Lezione
 
-| Campo | Valore |
-|-------|--------|
-| **Lezione** | 16 |
-| **Data** | 25 giugno 2025 |
-| **Durata** | ~1 ora e 40 minuti |
-| **Numero argomenti** | 15 |
-| **Parole chiave** | Strumenti di misura, bobina mobile, amperometro, voltmetro, ohmetro, multimetro, shunt, resistenza serie, strumenti ideali, voltmetro elettronico, FET, carico fittizio, wattmetro passante, ROSmetro, frequenzimetro, contatore, grid-dip meter, ondametro, oscilloscopio, analizzatore di spettro, dominio del tempo, dominio della frequenza, dBm |
+| Campo                | Valore                                                                                                                                                                                                                                                                                                                                               |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Lezione**          | 16                                                                                                                                                                                                                                                                                                                                                   |
+| **Data**             | 25 giugno 2025                                                                                                                                                                                                                                                                                                                                       |
+| **Durata**           | ~1 ora e 40 minuti                                                                                                                                                                                                                                                                                                                                   |
+| **Numero argomenti** | 15                                                                                                                                                                                                                                                                                                                                                   |
+| **Parole chiave**    | Strumenti di misura, bobina mobile, amperometro, voltmetro, ohmetro, multimetro, shunt, resistenza serie, strumenti ideali, voltmetro elettronico, FET, carico fittizio, wattmetro passante, ROSmetro, frequenzimetro, contatore, grid-dip meter, ondametro, oscilloscopio, analizzatore di spettro, dominio del tempo, dominio della frequenza, dBm |

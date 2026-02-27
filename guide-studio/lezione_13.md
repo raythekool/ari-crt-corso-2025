@@ -136,12 +136,12 @@ Paolo spiega che nei tipici amplificatori a MOSFET o LDMOS, il dispositivo viene
 
 #### 🔹 Tabella Riassuntiva delle Classi
 
-| Classe | Angolo di conduzione | Fedeltà riproduzione | Rendimento | Impiego tipico |
-|--------|---------------------|----------------------|------------|----------------|
-| **A** | 360° (intero periodo) | Molto fedele | 5–20% | Ricevitori, Hi-Fi, piccoli segnali |
-| **AB** | ~220°–240° | Abbastanza fedele | 50–60% | Finali TX valvolari e a stato solido |
-| **B** | 180° (mezzo periodo) | Lineare solo con push-pull | ~60% | Push-pull, controfase |
-| **C** | < 180° (~70°–80°) | Non lineare | 70–75% | Solo FM e CW, con carico risonante |
+| Classe | Angolo di conduzione  | Fedeltà riproduzione       | Rendimento | Impiego tipico                       |
+| ------ | --------------------- | -------------------------- | ---------- | ------------------------------------ |
+| **A**  | 360° (intero periodo) | Molto fedele               | 5–20%      | Ricevitori, Hi-Fi, piccoli segnali   |
+| **AB** | ~220°–240°            | Abbastanza fedele          | 50–60%     | Finali TX valvolari e a stato solido |
+| **B**  | 180° (mezzo periodo)  | Lineare solo con push-pull | ~60%       | Push-pull, controfase                |
+| **C**  | < 180° (~70°–80°)     | Non lineare                | 70–75%     | Solo FM e CW, con carico risonante   |
 
 ---
 
@@ -206,12 +206,12 @@ Il PLL è la tipologia usata nella quasi totalità dei ricetrasmettitori moderni
 
 #### 🔹 Confronto tra le Tipologie
 
-| Caratteristica | VFO (Libero) | Quarzo | PLL |
-|---------------|-------------|--------|-----|
-| **Frequenza** | Variabile | Fissa | Variabile |
-| **Stabilità** | Bassa | Altissima | Alta (agganciata al quarzo) |
-| **Impiego** | Sintonia vecchi ricevitori | Riferimenti di frequenza | Ricetrasmettitori moderni |
-| **Complessità** | Semplice | Semplice | Complesso |
+| Caratteristica  | VFO (Libero)               | Quarzo                   | PLL                         |
+| --------------- | -------------------------- | ------------------------ | --------------------------- |
+| **Frequenza**   | Variabile                  | Fissa                    | Variabile                   |
+| **Stabilità**   | Bassa                      | Altissima                | Alta (agganciata al quarzo) |
+| **Impiego**     | Sintonia vecchi ricevitori | Riferimenti di frequenza | Ricetrasmettitori moderni   |
+| **Complessità** | Semplice                   | Semplice                 | Complesso                   |
 
 ---
 
@@ -250,12 +250,12 @@ $$G_{dB} = 10 \cdot \log_{10}\left(\frac{P_{out}}{P_{in}}\right)$$
 
 Per risolvere **tutti** i problemi d'esame servono solo **4 valori** da memorizzare (2 coppie):
 
-| dB | Rapporto in potenza | Significato |
-|----|-------------------|-------------|
-| **+3 dB** | ×2 | Raddoppio della potenza |
-| **+10 dB** | ×10 | Potenza moltiplicata per 10 |
-| **−3 dB** | ×0,5 | Dimezzamento della potenza |
-| **−10 dB** | ×0,1 | Potenza ridotta a un decimo |
+| dB         | Rapporto in potenza | Significato                 |
+| ---------- | ------------------- | --------------------------- |
+| **+3 dB**  | ×2                  | Raddoppio della potenza     |
+| **+10 dB** | ×10                 | Potenza moltiplicata per 10 |
+| **−3 dB**  | ×0,5                | Dimezzamento della potenza  |
+| **−10 dB** | ×0,1                | Potenza ridotta a un decimo |
 
 Con questi mattoncini si costruiscono tutti gli altri valori:
 
@@ -312,17 +312,17 @@ Per trasformare il dB in **misura assoluta** si usa un riferimento fisso.
 
 **dBm (decibel riferiti al milliwatt)** — unità di misura assoluta in cui **0 dBm = 1 mW** per definizione.
 
-| dBm | Potenza corrispondente |
-|-----|----------------------|
-| −10 dBm | 0,1 mW |
-| −3 dBm | 0,5 mW |
-| 0 dBm | 1 mW (definizione) |
-| +3 dBm | 2 mW |
-| +10 dBm | 10 mW |
-| +13 dBm | 20 mW |
-| +20 dBm | 100 mW |
-| +30 dBm | 1.000 mW = 1 W |
-| +50 dBm | 100 W |
+| dBm     | Potenza corrispondente |
+| ------- | ---------------------- |
+| −10 dBm | 0,1 mW                 |
+| −3 dBm  | 0,5 mW                 |
+| 0 dBm   | 1 mW (definizione)     |
+| +3 dBm  | 2 mW                   |
+| +10 dBm | 10 mW                  |
+| +13 dBm | 20 mW                  |
+| +20 dBm | 100 mW                 |
+| +30 dBm | 1.000 mW = 1 W         |
+| +50 dBm | 100 W                  |
 
 > Esempio: +13 dBm = +10 +3 → 1 mW × 10 = 10 mW, poi × 2 = 20 mW. Oppure: +3 +10 → 1 mW × 2 = 2 mW, poi × 10 = 20 mW. Il risultato è identico.
 
@@ -459,39 +459,15 @@ Un partecipante racconta la sua esperienza con transistor 2N3055 contraffatti ac
 
 - 👨‍🏫 **Relatore**: Paolo (radiotecnica — amplificatori, oscillatori, decibel)
 - 👨‍🏫 **Relatore**: Silvio IZ5DIY (correzione quiz lezione 12)
-- 🎓 **Partecipanti**: Aspiranti radioamatori del Corso ARI CRT Toscana 2025 (Marco, Marco Morelli, Marcello, Claudio, Francesco e altri)
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo | Contenuto |
-|-----------|-----------|
-| 00:02–18:00 | Correzione quiz Lezione 12 (transistor, FET, valvole) |
-| 18:45–25:20 | Amplificatori BF e AF, circuiti risonanti |
-| 25:20–27:30 | Fattore di amplificazione / guadagno |
-| 27:30–32:00 | Rendimento degli amplificatori |
-| 32:00–43:00 | Classi A e B, push-pull, distorsione di crossover |
-| 43:00–53:00 | Classe C (FM/CW con carico risonante), Classe AB |
-| 53:00–60:30 | Tabella riassuntiva, Classe AB nei MOSFET, corrente di bias |
-| 60:30–66:00 | Discussione: Hi-Fi classe A, MOSFET AB, aneddoti pratici |
-| 66:28–72:00 | Oscillatori: principio di retroazione, oscillatore libero (VFO) |
-| 72:00–73:44 | Oscillatore a quarzo, armoniche |
-| 73:44–82:00 | PLL: VCO, comparatore di fase, filtro passa-basso, retroazione |
-| 82:00–83:42 | Confronto tre tipologie, domande sugli oscillatori |
-| 83:48–96:00 | Decibel: definizione, logaritmi, mattoncini +3/+10, attenuazione |
-| 96:00–106:00 | Amplificatori in cascata, esercizi (5→100 W = 13 dB), catena TX |
-| 106:00–110:14 | Tabella dB, dBm come misura assoluta (0 dBm = 1 mW) |
-| 110:14–122:30 | Discussione dBm, aneddoto transistor falsi, chiusura |
 
 ---
 
 ## 📅 Informazioni Lezione
 
-| Campo | Valore |
-|-------|--------|
-| **Lezione** | 13 |
-| **Data** | 04 giugno 2025 |
-| **Durata** | circa 2 ore |
-| **Argomenti trattati** | 4 (correzione quiz, amplificatori e classi, oscillatori, decibel) |
-| **Parole chiave** | amplificatore, guadagno, rendimento, classe A, classe B, push-pull, classe C, classe AB, oscillatore, retroazione, VFO, quarzo, PLL, VCO, varicap, comparatore di fase, decibel, dB, dBm, logaritmo, mattoncini, attenuazione |
+| Campo                  | Valore                                                                                                                                                                                                                        |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Lezione**            | 13                                                                                                                                                                                                                            |
+| **Data**               | 04 giugno 2025                                                                                                                                                                                                                |
+| **Durata**             | circa 2 ore                                                                                                                                                                                                                   |
+| **Argomenti trattati** | 4 (correzione quiz, amplificatori e classi, oscillatori, decibel)                                                                                                                                                             |
+| **Parole chiave**      | amplificatore, guadagno, rendimento, classe A, classe B, push-pull, classe C, classe AB, oscillatore, retroazione, VFO, quarzo, PLL, VCO, varicap, comparatore di fase, decibel, dB, dBm, logaritmo, mattoncini, attenuazione |

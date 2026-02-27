@@ -72,16 +72,16 @@ Per ottimizzare la ricezione, l'antenna ricevente dovrebbe avere la stessa polar
 
 Le **onde radio** occupano la porzione dello spettro elettromagnetico compresa tra **3 kHz e 300 GHz**. La suddivisione in bande segue una nomenclatura standardizzata:
 
-| Sigla | Nome              | Frequenza         | Lunghezza d'onda |
-|-------|-------------------|-------------------|------------------|
-| VLF   | Very Low Freq.    | 3–30 kHz          | 100–10 km        |
-| LF    | Low Frequency     | 30–300 kHz        | 10–1 km          |
-| MF    | Medium Frequency  | 300 kHz–3 MHz     | 1 km–100 m       |
-| HF    | High Frequency    | 3–30 MHz          | 100–10 m         |
-| VHF   | Very High Freq.   | 30–300 MHz        | 10–1 m           |
-| UHF   | Ultra High Freq.  | 300 MHz–3 GHz     | 1 m–10 cm        |
-| SHF   | Super High Freq.  | 3–30 GHz          | 10–1 cm          |
-| EHF   | Extremely High F. | 30–300 GHz        | 1 cm–1 mm        |
+| Sigla | Nome              | Frequenza     | Lunghezza d'onda |
+| ----- | ----------------- | ------------- | ---------------- |
+| VLF   | Very Low Freq.    | 3–30 kHz      | 100–10 km        |
+| LF    | Low Frequency     | 30–300 kHz    | 10–1 km          |
+| MF    | Medium Frequency  | 300 kHz–3 MHz | 1 km–100 m       |
+| HF    | High Frequency    | 3–30 MHz      | 100–10 m         |
+| VHF   | Very High Freq.   | 30–300 MHz    | 10–1 m           |
+| UHF   | Ultra High Freq.  | 300 MHz–3 GHz | 1 m–10 cm        |
+| SHF   | Super High Freq.  | 3–30 GHz      | 10–1 cm          |
+| EHF   | Extremely High F. | 30–300 GHz    | 1 cm–1 mm        |
 
 La **lunghezza d'onda** (λ) è lo spazio percorso dall'onda in un'oscillazione completa ed è legata alla frequenza dalla relazione:
 
@@ -152,11 +152,11 @@ Si estende da circa **80 km a 400 km** di altitudine. È costituita da **plasma 
 
 La ionosfera è suddivisa in **strati** con caratteristiche diverse:
 
-| Strato | Altitudine     | Caratteristiche principali |
-|--------|---------------|---------------------------|
-| **D**  | 60–90 km      | Solo diurno (scompare dopo il tramonto). Causa **assorbimento** delle frequenze sotto 5–6 MHz. Effetto **dannoso** per la propagazione HF. |
-| **E**  | 100–140 km    | Variabile giorno/notte. Decadimento più graduale rispetto a D. Può contribuire alla propagazione. |
-| **F**  | 150–400 km    | Strato principale per la propagazione HF. Sempre presente. Di **giorno** si divide in **F1** (più basso, meno ionizzato) e **F2** (più alto, massima ionizzazione). Di **notte** si ricombina in un unico strato **F** a quota più alta ma con ionizzazione inferiore. |
+| Strato | Altitudine | Caratteristiche principali                                                                                                                                                                                                                                             |
+| ------ | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **D**  | 60–90 km   | Solo diurno (scompare dopo il tramonto). Causa **assorbimento** delle frequenze sotto 5–6 MHz. Effetto **dannoso** per la propagazione HF.                                                                                                                             |
+| **E**  | 100–140 km | Variabile giorno/notte. Decadimento più graduale rispetto a D. Può contribuire alla propagazione.                                                                                                                                                                      |
+| **F**  | 150–400 km | Strato principale per la propagazione HF. Sempre presente. Di **giorno** si divide in **F1** (più basso, meno ionizzato) e **F2** (più alto, massima ionizzazione). Di **notte** si ricombina in un unico strato **F** a quota più alta ma con ionizzazione inferiore. |
 
 > Lo **strato D** è particolarmente importante da ricordare: è presente solo di giorno e causa assorbimento, non riflessione. Per questo le bande basse HF (sotto i 5–6 MHz) funzionano meglio di notte, quando lo strato D scompare.
 
@@ -285,11 +285,11 @@ L'alternanza giorno/notte ha effetti molto importanti sugli strati ionosferici:
 
 Nelle riflessioni multiple, ogni "rimbalzo" a terra introduce un'attenuazione che dipende fortemente dalla natura del suolo:
 
-| Superficie          | Attenuazione per salto |
-|---------------------|----------------------|
-| **Acqua di mare**   | < 1 dB (media 0,5 dB) |
-| **Terreno**         | 2–5 dB              |
-| **Neve/ghiaccio**   | fino a 5 dB (peggiore) |
+| Superficie        | Attenuazione per salto |
+| ----------------- | ---------------------- |
+| **Acqua di mare** | < 1 dB (media 0,5 dB)  |
+| **Terreno**       | 2–5 dB                 |
+| **Neve/ghiaccio** | fino a 5 dB (peggiore) |
 
 Questo spiega importanti fenomeni pratici:
 
@@ -473,35 +473,15 @@ Questo spiega perché d'estate la propagazione sugli 11 m e 10 m appare "più co
 
 - 👨‍🏫 **Relatore**: Paolo (radioamatore dal 1977, 40 anni di esperienza professionale nel settore RF)
 - 🎓 **Coordinatore**: Fabrizio (coordina la sessione, gestisce le domande)
-- 🎓 **Partecipanti**: Marco Morelli (domanda sulla propagazione estiva 11 m/10 m), Sauro (domanda su inclinazione asse terrestre e orbita), Alessio (domanda su TEP e propagazione transequatoriale), altri corsisti
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo        | Contenuto |
-|-------------------|-----------|
-| 00:00 – 09:11     | Correzione quiz Lezione 16 (strumenti di misura) |
-| 09:11 – 12:00     | Presentazione docente e panoramica del corso (4 lezioni) |
-| 12:00 – 20:00     | Storia: Maxwell, Marconi, Schnell/Delois; campo EM |
-| 20:00 – 25:00     | Impedenza spazio libero (377 Ω), polarizzazione |
-| 25:00 – 32:00     | Spettro EM, lunghezza d'onda λ = 300/f |
-| 32:00 – 37:00     | Attenuazione (proporzionale a d² × f²) |
-| 37:00 – 50:00     | 4 tipi di propagazione (spazio libero, onda di terra, troposferica, ionosferica) |
-| 50:00 – 58:00     | Atmosfera terrestre, troposfera, ionosfera, strati D/E/F |
-| 58:00 – 74:00     | Frequenza critica, zona d'ombra, MUF, LUF, FOT |
-| 74:00 – 79:00     | Distanza massima singolo salto, riflessioni multiple, duct mode, chordal mode |
-| 79:00 – 96:17     | Ciclo solare (4 cicli), SSN, SFI, effetti giorno/notte, grey line |
-| 96:17 – 147:58    | Q&A: propagazione estiva, asse terrestre, via corta/lunga, attenuazione mare vs terra, TEP, angolo di radiazione, Villa di Coltano |
 
 ---
 
 ## 📅 Informazioni Lezione
 
-| Campo                  | Valore |
-|------------------------|--------|
-| **Numero lezione**     | 18     |
-| **Data**               | 03/09/2025 (mercoledì) |
-| **Durata**             | ~2 ore e 28 minuti |
-| **Numero argomenti**   | 15 |
-| **Parole chiave**      | propagazione, campo elettromagnetico, impedenza 377 Ω, polarizzazione, spettro EM, lunghezza d'onda, attenuazione, ionosfera, strato D, strato E, strato F, frequenza critica, MUF, LUF, FOT, zona d'ombra, ciclo solare, SSN, SFI, riflessioni multiple, duct mode, chordal mode, grey line, TEP, via corta, via lunga |
+| Campo                | Valore                                                                                                                                                                                                                                                                                                                  |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Numero lezione**   | 18                                                                                                                                                                                                                                                                                                                      |
+| **Data**             | 03/09/2025 (mercoledì)                                                                                                                                                                                                                                                                                                  |
+| **Durata**           | ~2 ore e 28 minuti                                                                                                                                                                                                                                                                                                      |
+| **Numero argomenti** | 15                                                                                                                                                                                                                                                                                                                      |
+| **Parole chiave**    | propagazione, campo elettromagnetico, impedenza 377 Ω, polarizzazione, spettro EM, lunghezza d'onda, attenuazione, ionosfera, strato D, strato E, strato F, frequenza critica, MUF, LUF, FOT, zona d'ombra, ciclo solare, SSN, SFI, riflessioni multiple, duct mode, chordal mode, grey line, TEP, via corta, via lunga |

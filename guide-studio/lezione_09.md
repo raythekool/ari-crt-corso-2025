@@ -430,25 +430,7 @@ Il locatore completo a 6 caratteri (es. **JN54ja**) identifica un'area di alcuni
 ## 👥 Partecipanti
 
 - 👨‍🏫 **Relatori**: Lucia (correzione quiz matematica), Silvio IZ5DIY (normativa — lezione principale)
-- 🎓 **Partecipanti**: Corsisti ARI Toscana CRT 2025 (tra cui Marco, Massimo, Claudio, Luigi)
 - 🎙️ **Coordinamento**: Fabrizio, Alessio
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo      | Argomento                                                                                    |
-| --------------- | -------------------------------------------------------------------------------------------- |
-| 00:02 – 21:06   | Correzione quiz Lezione 08: notazione scientifica, conversioni, resistenze, logaritmi        |
-| 21:06 – 31:38   | Discussione sulla calcolatrice all'esame e uso della funzione exp                            |
-| 31:38 – 44:00   | Introduzione di Silvio IZ5DIY, presentazione del percorso normativa                          |
-| 44:00 – 55:09   | Alfabeto fonetico NATO/ICAO/ITU: scopo, caratteristiche, esempi pratici                      |
-| 55:51 – 87:00   | Indicativi di chiamata: struttura, prefissi italiani e internazionali, regole d'uso          |
-| 87:02 – 106:00  | Abbreviazioni telegrafiche: RX, TX, CQ, SK, 73, uso moderno                                  |
-| 106:06 – 126:30 | Codice Q: funzionamento, codici ministeriali, differenza uso/definizione                     |
-| 126:30 – 147:11 | Rapporto RST: Readability, Strength, Tone, scale e interpretazione                           |
-| 147:11 – 156:10 | Discussione sull'uso corretto dell'alfabeto fonetico (Romeo vs Radio, Sierra vs Santiago)    |
-| 156:10 – 158:38 | Maidenhead Locator System: suddivisione in quadrati, locatore a 6 caratteri, utilità pratica |
 
 ---
 

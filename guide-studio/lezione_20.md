@@ -377,34 +377,15 @@ Il fascio riflesso dal terreno è equivalente a quello che sarebbe generato da u
 
 - 👨‍🏫 **Relatore**: Paolo (radioamatore dal 1977, esperto di propagazione e antenne)
 - 🎓 **Coordinatore**: Fabrizio (note di servizio sull'iscrizione all'esame)
-- 🎓 **Partecipanti**: Marco, Massimo, altri corsisti
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo       | Contenuto |
-|------------------|-----------|
-| 00:00 – 03:06    | Note di servizio: iscrizione esame MIMIT, portale, PagoPA |
-| 03:06 – 15:08    | Correzione quiz Lezione 18 (propagazione): wattmetro 90 W, cavo scadente |
-| 15:08 – 19:30    | Antenna come trasduttore, equazioni di Maxwell |
-| 19:30 – 27:10    | Regioni di campo: vicino reattivo, vicino radiativo, lontano |
-| 27:10 – 30:10    | Analogia antenna–linea di trasmissione, risonanza, dipolo 73 Ω |
-| 30:10 – 39:00    | Resistenza di radiazione, relazione dimensioni/corrente/potenza |
-| 39:00 – 48:00    | Impedenza vs resistenza di radiazione, fattore di velocità, formule |
-| 48:00 – 55:30    | Comportamento fuori risonanza, antenne caricate, bobine, cappello capacitivo |
-| 55:30 – 65:00    | Antenne multibanda: trappole, armoniche dispari, dipolo OCF |
-| 65:00 – 77:50    | Antenna isotropica, lobo di radiazione, dipolo 2,1 dBi |
-| 77:50 – 96:00    | Ground gain, effetto altezza, polarizzazione V/H, caratteristiche terreno |
 
 ---
 
 ## 📅 Informazioni Lezione
 
-| Campo                  | Valore |
-|------------------------|--------|
-| **Numero lezione**     | 20     |
-| **Data**               | 17/09/2025 (mercoledì) |
-| **Durata**             | ~1 ora e 36 minuti |
-| **Numero argomenti**   | 11 |
-| **Parole chiave**      | antenna, trasduttore, campo vicino, campo lontano, risonanza, resistenza di radiazione, impedenza alimentazione, dipolo 73 Ω, fattore di velocità, antenne caricate, bobina di carico, cappello capacitivo, trappola, OCF, multibanda, armoniche dispari, antenna isotropica, lobo di radiazione, dBi, ground gain, altezza da terra, polarizzazione, terreno |
+| Campo                | Valore                                                                                                                                                                                                                                                                                                                                                        |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Numero lezione**   | 20                                                                                                                                                                                                                                                                                                                                                            |
+| **Data**             | 17/09/2025 (mercoledì)                                                                                                                                                                                                                                                                                                                                        |
+| **Durata**           | ~1 ora e 36 minuti                                                                                                                                                                                                                                                                                                                                            |
+| **Numero argomenti** | 11                                                                                                                                                                                                                                                                                                                                                            |
+| **Parole chiave**    | antenna, trasduttore, campo vicino, campo lontano, risonanza, resistenza di radiazione, impedenza alimentazione, dipolo 73 Ω, fattore di velocità, antenne caricate, bobina di carico, cappello capacitivo, trappola, OCF, multibanda, armoniche dispari, antenna isotropica, lobo di radiazione, dBi, ground gain, altezza da terra, polarizzazione, terreno |

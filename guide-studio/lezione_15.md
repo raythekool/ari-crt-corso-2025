@@ -137,11 +137,11 @@ Motivi per la doppia conversione:
 
 In un ricevitore sono presenti tre categorie di amplificatori:
 
-| Tipo | Frequenza di lavoro | Funzione |
-|------|-------------------|----------|
-| **Amplificatore RF** (radiofrequenza) | Frequenza dei segnali ricevuti | Amplifica segnali deboli dall'antenna; a volte chiamato **preamplificatore** |
-| **Amplificatore IF** (frequenza intermedia) | Frequenza fissa (es. 9 MHz) | Fornisce il grosso del guadagno (×1000 - ×10000); stadi in cascata |
-| **Amplificatore BF** (bassa frequenza) | Frequenze audio | Amplifica il segnale audio e pilota l'altoparlante |
+| Tipo                                        | Frequenza di lavoro            | Funzione                                                                     |
+| ------------------------------------------- | ------------------------------ | ---------------------------------------------------------------------------- |
+| **Amplificatore RF** (radiofrequenza)       | Frequenza dei segnali ricevuti | Amplifica segnali deboli dall'antenna; a volte chiamato **preamplificatore** |
+| **Amplificatore IF** (frequenza intermedia) | Frequenza fissa (es. 9 MHz)    | Fornisce il grosso del guadagno (×1000 - ×10000); stadi in cascata           |
+| **Amplificatore BF** (bassa frequenza)      | Frequenze audio                | Amplifica il segnale audio e pilota l'altoparlante                           |
 
 L'amplificatore RF è spesso dotato di più modalità:
 
@@ -302,11 +302,11 @@ Oltre alla regolazione automatica, esiste una **regolazione manuale** tramite la
 
 La stessa tensione proporzionale all'intensità del segnale ricevuto viene usata per pilotare lo **S-meter** (misuratore di livello del segnale):
 
-| Scala | Significato |
-|-------|-----------|
-| **S0 — S9** | Ogni punto S = **6 dB** = **×4 in potenza** |
-| **S9** | Corrisponde a **50 µV** in antenna (taratura di fabbrica) |
-| **Oltre S9** | Scala logaritmica: S9+10, S9+20, S9+30, S9+40, S9+50 dB |
+| Scala        | Significato                                               |
+| ------------ | --------------------------------------------------------- |
+| **S0 — S9**  | Ogni punto S = **6 dB** = **×4 in potenza**               |
+| **S9**       | Corrisponde a **50 µV** in antenna (taratura di fabbrica) |
+| **Oltre S9** | Scala logaritmica: S9+10, S9+20, S9+30, S9+40, S9+50 dB   |
 
 La "S" dello S-meter deriva dal sistema **RST**: R = Readability (leggibilità), **S = Strength** (forza del segnale), T = Tone (tono, solo per telegrafia).
 
@@ -332,10 +332,10 @@ Se esiste un segnale a 1810 kHz, viene convertito alla stessa IF e viene ascolta
 > La frequenza immagine dista sempre **2 × IF** dal segnale ricevuto.
 
 | IF del ricevitore | Distanza della freq. immagine |
-|-------------------|------------------------------|
-| 455 kHz | 910 kHz |
-| 9 MHz | 18 MHz |
-| 10,7 MHz | 21,4 MHz |
+| ----------------- | ----------------------------- |
+| 455 kHz           | 910 kHz                       |
+| 9 MHz             | 18 MHz                        |
+| 10,7 MHz          | 21,4 MHz                      |
 
 #### 🔹 Soluzioni
 
@@ -381,12 +381,12 @@ Un collegamento si fa non perché il segnale è forte, ma perché il **rapporto 
 
 La larghezza di banda del ricevitore è come una "finestra aperta": più è larga, più rumore entra. Di conseguenza:
 
-| Modo | Filtro | Sensibilità |
-|------|--------|-------------|
-| **CW** | 500 Hz | **Migliore** (finestrella strettissima) |
-| **SSB** | 2,5 kHz | Buona |
-| **AM** | 5-6 kHz | Discreta |
-| **FM** | 10 kHz | **Peggiore** (finestra spalancata) |
+| Modo    | Filtro  | Sensibilità                             |
+| ------- | ------- | --------------------------------------- |
+| **CW**  | 500 Hz  | **Migliore** (finestrella strettissima) |
+| **SSB** | 2,5 kHz | Buona                                   |
+| **AM**  | 5-6 kHz | Discreta                                |
+| **FM**  | 10 kHz  | **Peggiore** (finestra spalancata)      |
 
 Per questo motivo molti radioamatori continuano a usare la telegrafia: in CW si fanno **collegamenti più distanti con meno potenza** perché i ricevitori sono intrinsecamente più sensibili.
 
@@ -518,40 +518,15 @@ Il **filtro notch** — lavora in media frequenza, subito dopo il filtro princip
 
 - 👨‍🏫 **Relatore**: Paolo
 - 🎙️ **Moderatore**: Fabrizio
-- 🎓 **Partecipanti**: Marco, Massimo, Francesco, Morelli, Giovanni e altri corsisti del Corso ARI Toscana CRT 2025
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo | Argomento |
-|-----------|-----------|
-| 00:02 – 13:52 | Correzione quiz Lezione 14 (trasmettitori, deviazione FM, mixer) |
-| 13:52 – 19:15 | Introduzione ai ricevitori e importanza nell'economia della stazione |
-| 19:15 – 22:00 | Le tre caratteristiche: sensibilità, selettività, stabilità |
-| 22:00 – 25:03 | Amplificazione, filtri e limiti dei circuiti risonanti singoli |
-| 25:03 – 31:11 | Ricevitore supereterodina: principio, conversione di frequenza, oscillatore locale |
-| 31:11 – 44:30 | Domande e approfondimenti: oscillatore locale, PLL, sintonia |
-| 44:30 – 46:43 | Supereterodina a doppia conversione |
-| 46:51 – 48:39 | Tre tipi di amplificatori nel ricevitore |
-| 48:46 – 58:10 | Ricevitore CW: filtro 500 Hz, BFO, rivelatore a prodotto, tono 700 Hz |
-| 61:20 – 66:56 | Ricevitore SSB: filtro 2,5 kHz, BFO con due quarzi USB/LSB |
-| 71:51 – 76:15 | Ricevitore AM: filtro 5-6 kHz, rivelatore a diodo + condensatore |
-| 76:28 – 89:49 | Ricevitore FM: filtro 10 kHz, limitatore, discriminatori, squelch |
-| 92:13 – 101:27 | AGC (CAG/CAV), RF gain, S-meter (scala e taratura) |
-| 102:32 – 111:56 | Frequenza immagine: calcolo, regola 2×IF, soluzioni |
-| 112:03 – 117:42 | Problemi: bloccaggio, modulazione incrociata, intermodulazione |
-| 117:42 – 123:09 | Sensibilità, rapporto S/N, influenza della larghezza di banda |
-| 125:18 – 127:01 | Filtro notch, domande finali e chiusura |
 
 ---
 
 ## 📅 Informazioni Lezione
 
-| Campo | Valore |
-|-------|--------|
-| **Lezione** | 15 |
-| **Data** | 18 giugno 2025 |
-| **Durata** | ~2 ore e 7 minuti |
-| **Numero argomenti** | 15 |
-| **Parole chiave** | Ricevitore, supereterodina, conversione di frequenza, frequenza intermedia, IF, oscillatore locale, VFO, BFO, rivelatore a prodotto, discriminatore, Foster-Seeley, limitatore, squelch, AGC, S-meter, frequenza immagine, doppia conversione, sensibilità, selettività, intermodulazione, bloccaggio, modulazione incrociata |
+| Campo                | Valore                                                                                                                                                                                                                                                                                                                        |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Lezione**          | 15                                                                                                                                                                                                                                                                                                                            |
+| **Data**             | 18 giugno 2025                                                                                                                                                                                                                                                                                                                |
+| **Durata**           | ~2 ore e 7 minuti                                                                                                                                                                                                                                                                                                             |
+| **Numero argomenti** | 15                                                                                                                                                                                                                                                                                                                            |
+| **Parole chiave**    | Ricevitore, supereterodina, conversione di frequenza, frequenza intermedia, IF, oscillatore locale, VFO, BFO, rivelatore a prodotto, discriminatore, Foster-Seeley, limitatore, squelch, AGC, S-meter, frequenza immagine, doppia conversione, sensibilità, selettività, intermodulazione, bloccaggio, modulazione incrociata |

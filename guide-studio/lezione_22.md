@@ -43,14 +43,14 @@ Vengono riepilogati i concetti chiave verificati nel quiz:
 
 Prima di entrare nella legislazione, vengono presentate le parole chiave fondamentali che ricorrono nella normativa radioamatoriale:
 
-| Acronimo | Significato | Ruolo |
-|----------|-------------|-------|
-| **ITU** | International Telecommunication Union | Agenzia ONU per le telecomunicazioni, definisce il servizio di radioamatore |
-| **IARU** | International Amateur Radio Union | Rappresenta i radioamatori nella ITU; organizzata con associazioni nazionali |
-| **CEPT** | Conferenza Europea delle Amministrazioni di Poste e Telecomunicazioni | Standardizzazione e reciprocità tra stati europei (e non solo) |
-| **MIMIT** | Ministero delle Imprese e del Made in Italy | Ente regolatore italiano di riferimento per i radioamatori |
-| **WRC** | World Radiocommunication Conference | Conferenze preparatorie per le riunioni ITU sulle attribuzioni di frequenza |
-| **PNRF** | Piano Nazionale di Ripartizione delle Frequenze | Elenco delle frequenze e dei servizi a cui sono attribuite in ambito nazionale |
+| Acronimo  | Significato                                                           | Ruolo                                                                          |
+| --------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **ITU**   | International Telecommunication Union                                 | Agenzia ONU per le telecomunicazioni, definisce il servizio di radioamatore    |
+| **IARU**  | International Amateur Radio Union                                     | Rappresenta i radioamatori nella ITU; organizzata con associazioni nazionali   |
+| **CEPT**  | Conferenza Europea delle Amministrazioni di Poste e Telecomunicazioni | Standardizzazione e reciprocità tra stati europei (e non solo)                 |
+| **MIMIT** | Ministero delle Imprese e del Made in Italy                           | Ente regolatore italiano di riferimento per i radioamatori                     |
+| **WRC**   | World Radiocommunication Conference                                   | Conferenze preparatorie per le riunioni ITU sulle attribuzioni di frequenza    |
+| **PNRF**  | Piano Nazionale di Ripartizione delle Frequenze                       | Elenco delle frequenze e dei servizi a cui sono attribuite in ambito nazionale |
 
 L'**IARU** rappresenta le istanze dei radioamatori nella sede ITU, difendendo le bande di frequenza attribuite al servizio di radioamatore dalle pressioni di altri servizi commerciali e governativi.
 
@@ -161,11 +161,11 @@ L'articolo 136 è particolarmente ricco di informazioni richieste all'esame:
 
 #### Patente vs Autorizzazione
 
-| | Patente | Autorizzazione |
-|---|---------|----------------|
-| **Cos'è** | Certificato che attesta il superamento dell'esame | Permesso di installare e operare una stazione radioamatoriale |
-| **Scadenza** | **Non scade mai** | **10 anni** (rinnovabile) |
-| **Come si ottiene** | Superando l'esame | Richiedendola dopo aver ottenuto la patente |
+|                     | Patente                                           | Autorizzazione                                                |
+| ------------------- | ------------------------------------------------- | ------------------------------------------------------------- |
+| **Cos'è**           | Certificato che attesta il superamento dell'esame | Permesso di installare e operare una stazione radioamatoriale |
+| **Scadenza**        | **Non scade mai**                                 | **10 anni** (rinnovabile)                                     |
+| **Come si ottiene** | Superando l'esame                                 | Richiedendola dopo aver ottenuto la patente                   |
 
 > ⚠️ **Concetto d'esame molto frequente**: La **patente non scade**, l'**autorizzazione dura 10 anni**. Domanda a trabocchetto classica.
 
@@ -225,12 +225,12 @@ Le stazioni ripetitrici sono un argomento ricorrente nelle domande d'esame:
 
 **Regole tecniche fondamentali:**
 
-| Parametro | Valore |
-|-----------|--------|
-| Portante dopo fine trasmissione | Max **10 secondi** |
-| Ripetizione del nominativo | Ogni **10 minuti** |
-| Potenza massima | **10 W EIRP** |
-| Interlacciamento | Permesso tra bande/frequenze diverse (es. VHF ↔ UHF) |
+| Parametro                       | Valore                                               |
+| ------------------------------- | ---------------------------------------------------- |
+| Portante dopo fine trasmissione | Max **10 secondi**                                   |
+| Ripetizione del nominativo      | Ogni **10 minuti**                                   |
+| Potenza massima                 | **10 W EIRP**                                        |
+| Interlacciamento                | Permesso tra bande/frequenze diverse (es. VHF ↔ UHF) |
 
 > ⚠️ **Concetto d'esame**: La potenza massima delle stazioni ripetitrici (10 W EIRP), il tempo massimo della portante (10 secondi), la frequenza di ripetizione del nominativo (10 minuti).
 
@@ -389,45 +389,15 @@ I codici dei modi di emissione (es. J3E, A1A, F3E) saranno affrontati nella pros
   - **Paolo** — Coordinatore del corso. Introduce la serata e corregge i quiz sulle antenne (~13 minuti).
   - **Silvio** (IW5EDI) — Radioamatore dalla montagna pistoiese. Tiene la parte principale sulla legislazione radioamatoriale.
 - 🎙️ **Moderatore**: Alessandro (Ale) — Gestisce la sessione tecnica.
-- 🎓 **Partecipanti**: Aspiranti radioamatori del corso ARI Toscana CRT 2025. Interviene Marco con domande su Yagi, stazioni ripetitrici e riferimenti normativi nelle domande d'esame.
-
----
-
-## ⏱️ Evidenze Temporali
-
-| Intervallo | Argomento |
-|------------|-----------|
-| 00:00 – 03:00 | Apertura, problemi tecnici di condivisione schermo |
-| 03:00 – 09:19 | Correzione quiz antenne: risposte e spiegazioni |
-| 09:19 – 13:00 | Domanda su lunghezze elementi Yagi (riflettore/direttore) |
-| 13:00 – 17:00 | Introduzione alla legislazione: parole chiave |
-| 17:00 – 22:00 | ITU, IARU, CEPT — definizioni e ruoli |
-| 22:00 – 27:00 | MIMIT, WRC, PNRF — ente regolatore e piano frequenze |
-| 25:00 – 28:00 | Gerarchia normativa: Costituzione → leggi → decreti → circolari |
-| 28:00 – 32:00 | Definizione ITU del servizio di radioamatore (art. 25) |
-| 37:00 – 45:00 | D.Lgs. 259/2003: struttura, articoli 134-145, allegati 25 e 26 |
-| 45:00 – 48:00 | Modifiche del 24 marzo 2024, problema versioni obsolete |
-| 48:00 – 52:00 | Classe N (novizio): prevista dalla legge, non attuata |
-| 50:00 – 54:00 | Articolo 134: definizione attività radioamatoriale |
-| 54:00 – 62:00 | Raccomandazioni CEPT: TR 61-01 (operare all'estero) e TR 61-02 (HAREC) |
-| 62:00 – 66:00 | Articolo 136: patente non scade, autorizzazione 10 anni, esoneri |
-| 66:00 – 70:00 | Articolo 137: requisiti (14 anni, cittadinanza, assenza condanne) |
-| 70:00 – 73:00 | Articolo 139: nominativo, novità su scelta e ripresa nominativi |
-| 73:00 – 75:00 | Articolo 140: operare all'estero, norme del paese ospitante |
-| 75:00 – 78:00 | Articoli 141-142: emergenze e assistenza manifestazioni |
-| 78:00 – 83:00 | Articolo 143: stazioni ripetitrici (10 W, 10 sec, 10 min) |
-| 83:00 – 87:00 | Articolo 144: autorizzazioni speciali, novità sui non-radioamatori |
-| 87:00 – 95:00 | Riepilogo, materiale da studiare, domande su shift e allegato 26 |
-| 95:00 – 111:27 | Presentazione allegato 26, programma d'esame, Q&A finale |
 
 ---
 
 ## 📅 Informazioni Lezione
 
-| Campo | Valore |
-|-------|--------|
-| **Lezione** | 22 |
-| **Data** | 1 ottobre 2025 |
-| **Durata** | ≈ 1 ora e 51 minuti |
-| **Argomenti trattati** | 17 |
-| **Parole chiave** | Legislazione, D.Lgs. 259/2003, ITU, IARU, CEPT, MIMIT, patente, autorizzazione, classe A, classe N, TR 61-01, TR 61-02, HAREC, PNRF, stazioni ripetitrici, allegato 26, programma d'esame, articoli 134-145 |
+| Campo                  | Valore                                                                                                                                                                                                      |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Lezione**            | 22                                                                                                                                                                                                          |
+| **Data**               | 1 ottobre 2025                                                                                                                                                                                              |
+| **Durata**             | ≈ 1 ora e 51 minuti                                                                                                                                                                                         |
+| **Argomenti trattati** | 17                                                                                                                                                                                                          |
+| **Parole chiave**      | Legislazione, D.Lgs. 259/2003, ITU, IARU, CEPT, MIMIT, patente, autorizzazione, classe A, classe N, TR 61-01, TR 61-02, HAREC, PNRF, stazioni ripetitrici, allegato 26, programma d'esame, articoli 134-145 |
