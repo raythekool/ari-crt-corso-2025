@@ -1,4 +1,4 @@
-name: Sync wiki site to gh-pages
+name: Sync wiki site to gh-pages and cf-pages
 
 on:
   push:
@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: gh-pages-sync
+  group: pages-sync
   cancel-in-progress: true
 
 jobs:
@@ -29,6 +29,7 @@ jobs:
           mkdir -p .publish/_layouts
 
           cp _config.yml .publish/
+          cp _config.cloudflare.yml .publish/
           cp index.md .publish/
           cp glossario.md .publish/
           cp domande-esame.md .publish/
@@ -40,16 +41,35 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      - name: Build static site
+      - name: Build static site for GitHub Pages
         uses: actions/jekyll-build-pages@v1
         with:
           source: .publish
-          destination: .site
+          destination: .site-gh
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: .site
+          publish_dir: .site-gh
+          force_orphan: true
+
+      - name: Switch to Cloudflare config
+        run: |
+          set -euo pipefail
+          cp .publish/_config.cloudflare.yml .publish/_config.yml
+
+      - name: Build static site for Cloudflare Pages
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: .publish
+          destination: .site-cf
+
+      - name: Deploy to cf-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: cf-pages
+          publish_dir: .site-cf
           force_orphan: true

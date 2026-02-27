@@ -34,6 +34,39 @@ Sostituisci `TUO_USERNAME` con il tuo username GitHub.
 - Puoi vedere lo stato nella tab **Actions** del repository
 - Il sito sarà disponibile all'indirizzo mostrato nelle impostazioni Pages
 
+## ☁️ Setup Cloudflare Pages (in parallelo)
+
+Il repository è configurato per fare deploy contemporaneo su:
+
+- `gh-pages` (GitHub Pages)
+- `cf-pages` (Cloudflare Pages)
+
+La pipeline `.github/workflows/sync-gh-pages.yml` genera due build Jekyll:
+
+- build GitHub con `baseurl: "/ari-crt-corso-2025"`
+- build Cloudflare con `baseurl: ""` (root path)
+
+### 1. Crea progetto Cloudflare Pages
+
+1. Vai su **Cloudflare Dashboard → Workers & Pages → Create application → Pages → Connect to Git**
+2. Seleziona il repository `raythekool/ari-crt-corso-2025`
+3. Imposta:
+   - **Production branch**: `cf-pages`
+   - **Framework preset**: `None`
+   - **Build command**: lascia vuoto
+   - **Build output directory**: `.`
+4. Salva e fai il primo deploy
+
+### 2. Verifica URL corretti su Cloudflare
+
+Su Cloudflare il sito è pubblicato alla root, quindi gli URL devono essere del tipo:
+
+- `https://ari-crt-corso-2025.pages.dev/`
+- `https://ari-crt-corso-2025.pages.dev/guide-studio/`
+- `https://ari-crt-corso-2025.pages.dev/guide-studio/lezione_18.html`
+
+Non usare il prefisso `/ari-crt-corso-2025/` sul dominio Cloudflare.
+
 ## 🌐 Struttura del Sito
 
 Il sito include:
