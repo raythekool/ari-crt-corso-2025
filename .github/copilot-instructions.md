@@ -12,6 +12,10 @@ This repository contains materials for the **Corso Aspiranti Radioamatori ARI To
 - `requirements.txt` — Python dependencies
 - `README.md` — Lecture index with YouTube links
 
+## Repository Usage
+
+- For the commits, always follow instructions from: [ConventionalCommits](https://www.conventionalcommits.org/en/v1.0.0/#specification)
+
 ## Language and Domain
 
 - All transcripts and study guides are in **Italian**.
@@ -54,7 +58,7 @@ Generate the study guide using the following fixed structure:
 
 #### Title
 
-Use: `# 📘 Lezione XX - Corso Radioamatori` (where XX is the lesson number).
+Use: `# 📘 Lezione XX - Titolo della Lezione` (where XX is the lesson number and "Titolo della Lezione" is the title of the lesson).
 
 #### 📌 Overview
 
@@ -96,11 +100,7 @@ Alphabetically sorted list of all defined technical terms with their definitions
 
 #### 👥 Partecipanti
 
-List the speaker/instructor and audience (e.g., 👨‍🏫 **Relatore**: ..., 🎓 **Partecipanti**: ...).
-
-#### ⏱️ Evidenze Temporali
-
-Include key time ranges from the lecture.
+List the speaker/instructor and audience (e.g., 👨‍🏫 **Relatore**: ...).
 
 #### 📅 Informazioni Lezione
 
@@ -112,9 +112,28 @@ Metadata footer with: lesson number, date, duration, argument count, and keyword
 - Use headers (`##`, `###`) to create clear hierarchy
 - Bold (`**`) for terms, key concepts, and warnings
 - Use `>` blockquotes for direct quotes from the speaker
-- Use code blocks for formulas or structured data
+- Use code blocks (` ``` `) ONLY for non-mathematical structured data (tables of values, pseudocode, signal formats); NEVER for math formulas
 - If timestamps are present in the transcript, add (⏱ mm:ss) next to the relevant section header
-- Include relevant formulas using proper notation (e.g., $\lambda = \frac{c}{f}$)
+
+#### Math Formula Rules (MathJax v3)
+
+The site renders math via **MathJax v3**. Always use LaTeX math notation — never write formulas as plain text or inside code blocks.
+
+- **Inline formulas** (within a sentence): wrap with single `$...$`
+  - ✅ `La reattanza induttiva è $X_L = 2\pi f L$`
+  - ❌ `La reattanza induttiva è X_L = 2*pi*f*L`
+- **Display formulas** (standalone, centered): wrap with `$$...$$` on its own line
+  - ✅
+    ```
+    $$
+    \lambda = \frac{c}{f}
+    $$
+    ```
+  - ❌ `\[...\]` (avoid — causes rendering issues in some Jekyll configurations)
+  - ❌ plain code block with the formula inside
+- Use standard LaTeX commands: `\frac{}{}`, `\cdot`, `\pi`, `\sqrt{}`, `^{}`, `_{}`, `\text{}`, `\Omega`, `\mu`, `\lambda`, `\Delta`, etc.
+- For units inside formulas use `\text{}`: e.g., `$1\,\text{H} = \frac{1\,\text{Wb}}{1\,\text{A}}$`
+- Always test that every `$` is paired and LaTeX braces `{}` are balanced
 
 ### Content Rules
 
