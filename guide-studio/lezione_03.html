@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 03 - Circuiti Elettrici - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/">🏠 Home</a>
+    <a href="/guide-studio/">📖 Guide di Studio</a>
+    <a href="/glossario.html">📚 Glossario</a>
+    <a href="/domande-esame.html">❓ Domande</a>
+    <a href="/risorse.html">🔗 Risorse</a>
+  </nav>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/guide-studio/lezione_02.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/guide-studio/lezione_04.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/guide-studio/lezione_03.html" selected>📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-03---circuiti-elettrici">📘 Lezione 03 - Circuiti Elettrici</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia e argomento</strong>: Elettrotecnica — la corrente alternata: sinusoide, frequenza, periodo, valori caratteristici della tensione alternata, fase, potenza in corrente alternata (potenza reale, apparente, reattiva), fattore di potenza (cos φ).</li>
+  <li><strong>Tempo di studio stimato</strong>: 90–120 minuti</li>
+  <li><strong>Prerequisiti</strong>: Aver studiato le Lezioni 01 e 02: concetti di tensione (volt), corrente (ampere), potenza (watt), energia, legge di Ohm nelle tre formulazioni ($V = R \cdot I$, $I = \frac{V}{R}$, $R = \frac{V}{I}$), resistenze in serie e in parallelo, calcolo della potenza dissipata ($P = V \cdot I$, $P = \frac{V^2}{R}$, $P = I^2 \cdot R$).</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Comprendere la differenza tra corrente continua e corrente alternata</li>
+      <li>Conoscere il concetto di sinusoide e come viene generata (sviluppo circolare)</li>
+      <li>Padroneggiare le grandezze frequenza e periodo e la relazione $f = \frac{1}{T}$</li>
+      <li>Comprendere il principio di funzionamento di un alternatore</li>
+      <li>Distinguere i diversi modi di esprimere il valore di una tensione alternata: istantanea, efficace, di picco, picco-picco, valor medio</li>
+      <li>Applicare le relazioni tra tensione efficace, di picco e picco-picco ($V_p = 1{,}41 \cdot V_{eff}$, $V_{pp} = 2 \cdot V_p$)</li>
+      <li>Comprendere il concetto di fase, controfase e quadratura tra sinusoidi</li>
+      <li>Calcolare la potenza in corrente alternata su carico resistivo e su carico reattivo</li>
+      <li>Conoscere la potenza reale (attiva), la potenza apparente e la potenza reattiva</li>
+      <li>Comprendere il significato del fattore di potenza $\cos\varphi$</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h2 id="-1-riepilogo-e-correzione-quiz-della-lezione-02--0001">🔍 1. Riepilogo e correzione quiz della Lezione 02 (⏱ 00:01)</h2>
+
+<h3 id="-risultati-del-quiz">🔹 Risultati del quiz</h3>
+
+<p>La lezione si apre con la revisione dei risultati del quiz della Lezione 02, dedicata alla legge di Ohm. Il docente mostra un istogramma dei risultati: la soglia di successo all’esame è fissata al <strong>60%</strong>, e il gruppo è risultato sempre superiore all’<strong>80%</strong>, tranne che nelle domande P e Q (relative alla potenza). Il docente sottolinea che si tratta di una prestazione brillantissima.</p>
+
+<h3 id="-revisione-delle-risposte">🔹 Revisione delle risposte</h3>
+
+<p>Vengono ripercorse le risposte corrette:</p>
+
+<ul>
+  <li><strong>Domanda A</strong>: La legge di Ohm dice che $I = \frac{V}{R}$. Le formulazioni errate presentate nel quiz invertivano le relazioni ($V = \frac{R}{I}$ è sbagliata, $I = R \cdot V$ è sbagliata). (⏱ 01:22)</li>
+  <li><strong>Domanda B</strong>: Una resistenza attraversata da 2 A con tensione di 12 V → $R = \frac{V}{I} = \frac{12}{2} = 6\;\Omega$. Il metodo consigliato: individuare i dati del problema, trovare la formula adatta, sostituire. (⏱ 01:41)</li>
+  <li><strong>Domanda C</strong>: Un generatore reale di tensione si modella come un generatore ideale con in serie una <strong>resistenza interna</strong>. Più corrente si assorbe, più la tensione di uscita cala. (⏱ 02:22)</li>
+  <li><strong>Domanda D</strong>: Resistenza di due resistori in serie → $R_{tot} = R_1 + R_2$. (⏱ 02:53)</li>
+  <li><strong>Domanda E</strong>: Resistenza totale di tre resistenze in parallelo → $\frac{1}{R} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}$, equivalentemente $R = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}}$. (⏱ 03:04)</li>
+  <li><strong>Domanda F</strong>: Due resistori in serie da 1 Ω e 2 Ω → $R = 1 + 2 = 3\;\Omega$. (⏱ 04:18)</li>
+  <li><strong>Domanda G</strong>: Se si raddoppia la corrente attraverso una resistenza, la tensione raddoppia, poiché $V = R \cdot I$ e la tensione è direttamente proporzionale alla corrente. (⏱ 04:31)</li>
+  <li><strong>Domanda H</strong>: La resistenza si oppone al flusso di elettroni — come dice il nome, “resiste”. (⏱ 05:14)</li>
+  <li><strong>Domanda I</strong>: 500 Ω in serie a 200 Ω → $R = 500 + 200 = 700\;\Omega$. (⏱ 05:28)</li>
+</ul>
+
+<h3 id="-il-parallelo-di-tre-resistenze-calcolo-e-metodo-a-occhio--0541">🔹 Il parallelo di tre resistenze: calcolo e metodo “a occhio” (⏱ 05:41)</h3>
+
+<p>La domanda J chiede il valore del parallelo di tre resistenze da 15, 24 e 37 Ω. Il docente illustra due approcci:</p>
+
+<p><strong>Approccio con la formula:</strong></p>
+
+\[R = \frac{1}{\frac{1}{15} + \frac{1}{24} + \frac{1}{37}} \approx 7{,}38\;\Omega\]
+
+<p><strong>Approccio “a occhio” (stima ragionata):</strong></p>
+
+<ol>
+  <li>Il valore del parallelo è <strong>sempre più basso</strong> della resistenza più piccola → si scarta qualunque risposta ≥ 15 Ω.</li>
+  <li>Si approssimano 24 Ω e 37 Ω entrambe a circa 30 Ω → il parallelo di 30 e 30 dà 15 Ω.</li>
+  <li>15 Ω in parallelo con l’altra resistenza da 15 Ω → circa 7,5 Ω → risposta: <strong>7,38 Ω</strong>.</li>
+</ol>
+
+<blockquote>
+  <p>“Quando si mettono resistenze in parallelo, il valore di un parallelo è sempre più basso di ogni singola resistenza.”</p>
+</blockquote>
+
+<p>Il docente suggerisce fortemente di procurarsi una <strong>calcolatrice</strong> per l’esame (non lo smartphone). Si menziona che il risultato esatto sarebbe 7,39 Ω ma il quiz ministeriale riporta 7,38 Ω per arrotondamento; il docente avverte che i quiz ministeriali non sono perfetti e bisogna scegliere la <em>risposta migliore</em>.</p>
+
+<h3 id="-metodo-alternativo-per-il-parallelo-intervento-di-sauro--0930">🔹 Metodo alternativo per il parallelo (intervento di Sauro) (⏱ 09:30)</h3>
+
+<p><strong>Sauro</strong> suggerisce un metodo alternativo per tre resistenze in parallelo: usare la formula semplificata per due resistenze $R = \frac{R_1 \cdot R_2}{R_1 + R_2}$ applicandola in due passaggi:</p>
+
+<ol>
+  <li>Calcolare il parallelo delle prime due resistenze.</li>
+  <li>Usare il risultato come nuova resistenza e calcolare il parallelo con la terza.</li>
+</ol>
+
+<h3 id="-altre-domande-del-quiz--1227">🔹 Altre domande del quiz (⏱ 12:27)</h3>
+
+<ul>
+  <li><strong>Domanda M</strong>: 1 kΩ in serie a 3 kΩ → $R = 1 + 3 = 4$ kΩ. (⏱ 12:34)</li>
+  <li><strong>Domanda N</strong>: 30 kΩ in parallelo a 15 kΩ → $R = \frac{30 \times 15}{30 + 15} = \frac{450}{45} = 10$ kΩ. Il docente ribadisce: scartare il valore 45 kΩ perché il parallelo è sempre inferiore alla resistenza più piccola. (⏱ 12:45)</li>
+  <li><strong>Domanda O</strong>: In parallelo, la resistenza totale di due resistori è sempre <strong>minore</strong> del valore di ciascun singolo resistore. (⏱ 16:36)</li>
+</ul>
+
+<h3 id="-domande-sulla-potenza--1654">🔹 Domande sulla potenza (⏱ 16:54)</h3>
+
+<ul>
+  <li><strong>Domanda P</strong>: Potenza erogata con $V = 10$ V e $R = 5$ Ω → formula da scegliere: $P = \frac{V^2}{R}$, perché i dati sono tensione e resistenza. Calcolo: $P = \frac{10^2}{5} = \frac{100}{5} = 20$ W. (⏱ 17:01)</li>
+  <li><strong>Domanda Q</strong>: Resistore da 200 Ω attraversato da 3 A → formula $P = I^2 \cdot R$, perché i dati sono corrente e resistenza. Calcolo: $P = 3^2 \times 200 = 9 \times 200 = 1800$ W. (⏱ 19:14)</li>
+</ul>
+
+<h3 id="-metodo-generale-per-le-domande-con-calcoli">🔹 Metodo generale per le domande con calcoli</h3>
+
+<p>Il docente ribadisce il metodo universale per affrontare le domande d’esame con calcoli:</p>
+
+<ol>
+  <li><strong>Leggere bene la domanda</strong></li>
+  <li><strong>Identificare i due dati</strong> forniti (tensione e resistenza, corrente e resistenza, tensione e corrente…)</li>
+  <li><strong>Scegliere la formula giusta</strong> tra le tre formulazioni della legge di Ohm o le tre formulazioni della potenza</li>
+  <li><strong>Eseguire il calcolo</strong></li>
+</ol>
+
+<blockquote>
+  <p>“Il metodo alla fine è sempre lo stesso: leggete bene la domanda, capite i dati che la domanda vi dà — saranno sempre due numeri — e trovate la formula giusta.”</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-2-la-corrente-alternata--2104">⚡ 2. La corrente alternata (⏱ 21:04)</h2>
+
+<h3 id="-posizione-nel-programma-del-corso">🔹 Posizione nel programma del corso</h3>
+
+<p>Questa è la terza lezione. Dopo le grandezze elettriche di base (Lezione 01) e la corrente continua con resistore e legge di Ohm (Lezione 02), si entra nel tema della <strong>corrente alternata</strong>. Nelle prossime due lezioni (4 e 5) si parlerà di condensatore e induttore (tenute da Sauro), completando la parte di elettronica. Seguirà poi la radiotecnica: filtri, trasmettitori, ricevitori.</p>
+
+<h3 id="-corrente-continua-vs-corrente-alternata--2805">🔹 Corrente continua vs corrente alternata (⏱ 28:05)</h3>
+
+<p>La <strong>corrente continua</strong> (CC o DC) è un flusso di cariche elettriche (elettroni) che scorre sempre nello stesso verso, dal polo negativo al polo positivo di un generatore (pila, batteria, alimentatore). La tensione che la genera ha un polo positivo che resta sempre positivo e un polo negativo che resta sempre negativo.</p>
+
+<p>La <strong>corrente alternata</strong> (CA o AC) è una corrente che <strong>inverte il senso di scorrimento</strong> un certo numero di volte nell’unità di tempo. Il generatore non ha più un polo fisso positivo e uno fisso negativo, ma due poli la cui polarità si alterna nel tempo. Quando un polo è positivo, l’altro è negativo; l’istante successivo si scambiano. Di conseguenza la corrente “va e torna” rispetto al generatore.</p>
+
+<p>La corrente alternata è generata da una <strong>tensione alternata</strong> ed è prodotta da dispositivi chiamati <strong>alternatori</strong>.</p>
+
+<p>In corrente continua la tensione si indica semplicemente con $V$ (es. 12 V costanti). In corrente alternata la tensione varia col tempo, quindi si scrive $V(t)$: il valore può cambiare istante per istante.</p>
+
+<h3 id="-landamento-sinusoidale--3033">🔹 L’andamento sinusoidale (⏱ 30:33)</h3>
+
+<p>Osservando su un grafico (asse orizzontale = tempo, asse verticale = tensione o corrente):</p>
+
+<ul>
+  <li>La <strong>corrente continua</strong> appare come una linea orizzontale con valore costante (es. 1 A).</li>
+  <li>La <strong>corrente alternata sinusoidale</strong> ha una forma “sinuosa”: parte da zero, sale a un picco massimo, scende con continuità fino a un minimo (negativo), poi risale. Non presenta spigoli: è una curva liscia.</li>
+</ul>
+
+<p>La <strong>sinusoide</strong> — dal latino <em>sinus</em> — è la forma d’onda fondamentale in campo elettronico. Possiede moltissime proprietà che verranno esplorate nel corso.</p>
+
+<hr />
+
+<h2 id="-3-frequenza-e-periodo--3202">📈 3. Frequenza e periodo (⏱ 32:02)</h2>
+
+<h3 id="-frequenza">🔹 Frequenza</h3>
+
+<p>La <strong>frequenza</strong> — simbolo $f$ — è il numero di cicli completi che un’onda compie in un secondo. Si misura in <strong>hertz</strong> (Hz).</p>
+
+<p>Un ciclo completo corrisponde al percorso: da zero → al massimo positivo → ritorno a zero → al minimo negativo → ritorno a zero.</p>
+
+<p><strong>Esempio pratico:</strong> la rete elettrica ENEL fornisce una tensione con frequenza di <strong>50 Hz</strong>, ovvero la sinusoide compie 50 cicli completi al secondo. Se la si osservasse con un <strong>oscilloscopio</strong>, si vedrebbe una forma sinusoidale che si ripete 50 volte al secondo.</p>
+
+<p>In campo radio le frequenze sono molto più elevate: si parla di <strong>megahertz</strong> (MHz), cioè milioni di hertz. Un trasmettitore a 10 MHz produce 10 milioni di cicli al secondo.</p>
+
+<h3 id="-periodo">🔹 Periodo</h3>
+
+<p>Il <strong>periodo</strong> — simbolo $T$ — è il tempo necessario perché la sinusoide compia un ciclo completo. Si misura in <strong>secondi</strong> (s), ma per segnali veloci si usano sottomultipli: millisecondi (ms), microsecondi (μs), nanosecondi (ns).</p>
+
+<p>Si misura l’intervallo di tempo tra due punti omologhi (corrispondenti) della sinusoide, tipicamente tra due massimi consecutivi.</p>
+
+<h3 id="-relazione-tra-frequenza-e-periodo--3556">🔹 Relazione tra frequenza e periodo (⏱ 35:56)</h3>
+
+<p>Frequenza e periodo sono <strong>l’inverso</strong> l’uno dell’altro:</p>
+
+\[f = \frac{1}{T} \qquad\qquad T = \frac{1}{f}\]
+
+<p>Dove:</p>
+
+<ul>
+  <li>$f$ = frequenza in hertz (Hz)</li>
+  <li>$T$ = periodo in secondi (s)</li>
+</ul>
+
+<p><strong>Esempio con la rete ENEL (50 Hz):</strong></p>
+
+\[T = \frac{1}{f} = \frac{1}{50} = 0{,}02\;\text{s} = 20\;\text{ms}\]
+
+<p><strong>Verifica inversa:</strong></p>
+
+\[f = \frac{1}{T} = \frac{1}{0{,}02} = 50\;\text{Hz}\]
+
+<p>Dire che un’onda ha frequenza 50 Hz <strong>o</strong> periodo 20 ms è esattamente la stessa cosa: si descrive la stessa onda, una volta dicendo quanti cicli compie al secondo, l’altra dicendo quanto tempo impiega per un ciclo.</p>
+
+<blockquote>
+  <p>“Dire che un’onda ha una frequenza di 50 Hz o un periodo di 20 millisecondi è esattamente la stessa cosa.”</p>
+</blockquote>
+
+<p><strong>Esempio con 1 MHz:</strong></p>
+
+\[T = \frac{1}{1\;000\;000} = 0{,}000\;001\;\text{s} = 1\;\mu\text{s}\]
+
+<h3 id="-attenzione-ai-multipli-e-sottomultipli--6322">🔹 Attenzione ai multipli e sottomultipli (⏱ 63:22)</h3>
+
+<p>Il docente e un corsista (Marco) ribadiscono un punto fondamentale: nelle formule <strong>bisogna usare sempre le stesse unità di misura</strong>. Se si lavora con la frequenza, questa deve essere espressa in hertz (non in MHz); se si lavora con la resistenza, deve essere in ohm (non in kΩ). Come regola: riportare tutto alle unità di misura fondamentali prima di fare i calcoli.</p>
+
+<blockquote>
+  <p>“Si sommano mele con mele, pere con pere.”</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-4-generazione-della-sinusoide-il-cerchio-e-il-raggio-rotante--4557">📡 4. Generazione della sinusoide: il cerchio e il raggio rotante (⏱ 45:57)</h2>
+
+<h3 id="-sviluppo-geometrico-della-sinusoide">🔹 Sviluppo geometrico della sinusoide</h3>
+
+<p>La sinusoide si ottiene geometricamente da un <strong>moto circolare uniforme</strong>. Si consideri una circonferenza con un raggio che ruota attorno al centro a <strong>velocità angolare costante</strong>:</p>
+
+<ol>
+  <li>Man mano che il raggio ruota, il suo estremo descrive punti sulla circonferenza.</li>
+  <li>Si proietta l’altezza del punto (la distanza verticale dall’asse orizzontale) su un grafico dove l’asse orizzontale rappresenta l’angolo percorso (in gradi) o il tempo.</li>
+  <li>La curva risultante è una <strong>sinusoide</strong>.</li>
+</ol>
+
+<p><strong>Corrispondenza angolo-sinusoide:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Angolo</th>
+      <th>Posizione sulla sinusoide</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0°</td>
+      <td>Zero (passaggio per l’asse)</td>
+    </tr>
+    <tr>
+      <td>90°</td>
+      <td>Massimo positivo (picco)</td>
+    </tr>
+    <tr>
+      <td>180°</td>
+      <td>Zero (passaggio per l’asse)</td>
+    </tr>
+    <tr>
+      <td>270°</td>
+      <td>Minimo negativo (valle)</td>
+    </tr>
+    <tr>
+      <td>360°</td>
+      <td>Zero (ciclo completo)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Ogni <strong>360°</strong> (angolo giro) la sinusoide compie un ciclo completo.</p>
+
+<h3 id="-velocità-di-rotazione-e-frequenza">🔹 Velocità di rotazione e frequenza</h3>
+
+<p>Se il raggio ruota più velocemente, la sinusoide ha una <strong>frequenza più alta</strong> (periodo più breve, forma più compressa). Se il raggio ruota più lentamente, la sinusoide ha una frequenza più bassa (periodo più lungo). Se il raggio ruota a velocità non costante (a volte più veloce, a volte più lento), si ottiene una sinusoide con periodo variabile — è il principio della <strong>modulazione di frequenza</strong>. (⏱ 82:54)</p>
+
+<hr />
+
+<h2 id="-5-lalternatore--5446">🔧 5. L’alternatore (⏱ 54:46)</h2>
+
+<h3 id="-principio-di-funzionamento">🔹 Principio di funzionamento</h3>
+
+<p>L’alternatore è il dispositivo che produce corrente alternata sinusoidale. Il suo funzionamento si basa sulle scoperte di <strong>Ørsted</strong> e di <strong>Faraday</strong>: quando una <strong>spira</strong> di filo conduttore si muove in un <strong>campo magnetico</strong>, in modo che la quantità di campo magnetico intercettata dalla spira vari, su quella spira nasce una <strong>tensione</strong> (e di conseguenza può scorrere una corrente).</p>
+
+<blockquote>
+  <p>⚠️ <em>Il funzionamento dettagliato dell’alternatore non è materia di esame, ma viene spiegato per completezza culturale.</em></p>
+</blockquote>
+
+<h3 id="-struttura-dellalternatore">🔹 Struttura dell’alternatore</h3>
+
+<ul>
+  <li>Un <strong>asse di rotazione</strong> (albero meccanico) attorno a cui può girare una <strong>spira</strong> (o un avvolgimento) di filo conduttore metallico.</li>
+  <li>La spira è immersa in un <strong>campo magnetico</strong> generato da un magnete permanente (o da elettromagneti), con polo Nord (N) e polo Sud (S).</li>
+  <li>La spira viene fatta <strong>ruotare</strong> attorno all’asse.</li>
+</ul>
+
+<h3 id="-perché-produce-una-sinusoide">🔹 Perché produce una sinusoide</h3>
+
+<p>Durante la rotazione:</p>
+
+<ul>
+  <li>Quando la spira è <strong>parallela</strong> alle linee di forza del campo magnetico, intercetta <strong>pochissimo</strong> campo → tensione minima.</li>
+  <li>Quando la spira è <strong>perpendicolare</strong> alle linee di forza (parallela alle facce del magnete), intercetta il <strong>massimo</strong> campo → tensione massima.</li>
+</ul>
+
+<p>Siccome il moto è circolare, l’intercettazione del campo segue la stessa legge dello sviluppo geometrico del cerchio → la tensione generata è <strong>sinusoidale</strong>.</p>
+
+<p>La parte che ruota si chiama <strong>rotore</strong>. Il rotore contiene le spire di filo elettrico. Il campo magnetico può essere generato da magneti permanenti o da elettromagneti.</p>
+
+<hr />
+
+<h2 id="-6-i-valori-della-tensione-alternata--6505">📊 6. I valori della tensione alternata (⏱ 65:05)</h2>
+
+<h3 id="-premessa-molteplicità-di-parametri">🔹 Premessa: molteplicità di parametri</h3>
+
+<p>Con la corrente continua, basta un solo numero per descrivere la tensione (es. “batteria da 9 V”). Con la corrente alternata, dato che la tensione varia continuamente, servono <strong>più parametri</strong> per descriverla. Ce ne sono cinque principali.</p>
+
+<h3 id="-tensione-istantanea--6537">🔹 Tensione istantanea (⏱ 65:37)</h3>
+
+<p>La <strong>tensione istantanea</strong> è il valore della tensione in un preciso istante di tempo. Come una “fotografia” della sinusoide in un dato momento: può assumere qualsiasi valore tra il picco positivo e il picco negativo. Non è oggetto di domande d’esame, ma è importante conoscerne il concetto.</p>
+
+<h3 id="-tensione-efficace-valore-efficace-rms--6618">🔹 Tensione efficace (valore efficace, RMS) (⏱ 66:18)</h3>
+
+<p>La <strong>tensione efficace</strong> (in inglese <strong>RMS</strong> — Root Mean Square) è il valore di tensione alternata che, applicato a un carico, produce lo <strong>stesso lavoro</strong> (stessa dissipazione di calore) di una tensione continua di pari valore.</p>
+
+<p><strong>Esempio:</strong> se l’ENEL fornisce 220 V (efficaci) e si collega una stufetta elettrica, il calore prodotto è identico a quello che si otterrebbe con una tensione continua di 220 V.</p>
+
+<p>Quando si indica un valore di tensione alternata senza ulteriori specificazioni, <strong>si intende sempre il valore efficace</strong>. L’ENEL dice “220 V” e sottintende “efficaci”.</p>
+
+<h3 id="-tensione-di-picco-v_p--6738">🔹 Tensione di picco ($V_p$) (⏱ 67:38)</h3>
+
+<p>La <strong>tensione di picco</strong> è il valore massimo raggiunto dalla sinusoide, corrispondente alla cresta dell’onda. È il massimo valore istantaneo.</p>
+
+\[V_p = 1{,}41 \times V_{eff} = \sqrt{2} \times V_{eff}\]
+
+<p>Il fattore 1,41 corrisponde a $\sqrt{2} \approx 1{,}4142$.</p>
+
+<h3 id="-tensione-picco-picco-v_pp--6816">🔹 Tensione picco-picco ($V_{pp}$) (⏱ 68:16)</h3>
+
+<p>La <strong>tensione picco-picco</strong> rappresenta l’escursione totale della sinusoide, dal minimo negativo al massimo positivo:</p>
+
+\[V_{pp} = 2 \times V_p\]
+
+<h3 id="-valor-medio-v_m--6841">🔹 Valor medio ($V_m$) (⏱ 68:41)</h3>
+
+<p>Il <strong>valor medio</strong> si calcola come l’altezza di un rettangolo che ha la stessa base di un semiperiodo della sinusoide e <strong>la stessa area</strong> sotto la curva del semiperiodo. In pratica è la media di tutti i valori della sinusoide in un semiperiodo.</p>
+
+\[V_m = 0{,}9 \times V_{eff} = 0{,}637 \times V_p\]
+
+<h3 id="-riepilogo-delle-relazioni">🔹 Riepilogo delle relazioni</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Grandezza</th>
+      <th>Formula</th>
+      <th>Esempio (ENEL)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tensione efficace ($V_{eff}$)</td>
+      <td>dato di riferimento</td>
+      <td><strong>220 V</strong></td>
+    </tr>
+    <tr>
+      <td>Tensione di picco ($V_p$)</td>
+      <td>$V_p = 1{,}41 \times V_{eff}$</td>
+      <td><strong>311 V</strong></td>
+    </tr>
+    <tr>
+      <td>Tensione picco-picco ($V_{pp}$)</td>
+      <td>$V_{pp} = 2 \times V_p$</td>
+      <td><strong>622 V</strong></td>
+    </tr>
+    <tr>
+      <td>Valor medio ($V_m$)</td>
+      <td>$V_m = 0{,}9 \times V_{eff}$</td>
+      <td><strong>198 V</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>Nella presa elettrica di casa, l’ENEL dichiara 220 V efficaci, ma l’escursione picco-picco reale è di <strong>622 V</strong> (da −311 V a +311 V).</p>
+</blockquote>
+
+<h3 id="-utilità-pratica-dei-diversi-valori--7222">🔹 Utilità pratica dei diversi valori (⏱ 72:22)</h3>
+
+<ul>
+  <li>La <strong>tensione efficace</strong> serve per calcolare il lavoro prodotto (potenza, calore, movimento). Tutti i generatori commerciali indicano la tensione efficace.</li>
+  <li>La <strong>tensione di picco</strong> serve per dimensionare gli <strong>isolamenti</strong>: non basta un isolante che regga 230 V se la tensione di picco raggiunge 311 V. Bisogna dimensionare gli isolanti almeno per la tensione di picco (350–400 V o più nel caso della rete ENEL).</li>
+</ul>
+
+<hr />
+
+<h2 id="-7-la-fase-tra-sinusoidi--7344">🔄 7. La fase tra sinusoidi (⏱ 73:44)</h2>
+
+<h3 id="-concetto-di-fase">🔹 Concetto di fase</h3>
+
+<p>Ogni punto del ciclo di una sinusoide può essere identificato con un <strong>angolo in gradi</strong> (da 0° a 360°):</p>
+
+<ul>
+  <li>0° → passaggio per lo zero (in salita)</li>
+  <li>90° → picco positivo</li>
+  <li>180° → passaggio per lo zero (in discesa)</li>
+  <li>270° → picco negativo</li>
+  <li>360° → fine del ciclo (coincide con 0° del ciclo successivo)</li>
+</ul>
+
+<p>Quando si confrontano <strong>due sinusoidi</strong>, si può misurare la loro <strong>differenza di fase</strong>: quanto una è “anticipata” o “ritardata” rispetto all’altra.</p>
+
+<h3 id="-sinusoidi-in-fase">🔹 Sinusoidi in fase</h3>
+
+<p>Due sinusoidi sono <strong>in fase</strong> quando raggiungono simultaneamente i picchi, gli zeri e le valli. Lo sfasamento è <strong>0°</strong>. Se si sommano, il risultato è una sinusoide con ampiezza pari alla somma delle due ampiezze (esattamente come batterie in serie nello stesso verso).</p>
+
+<h3 id="-sinusoidi-in-controfase-sfasamento-di-180--7448">🔹 Sinusoidi in controfase (sfasamento di 180°) (⏱ 74:48)</h3>
+
+<p>Due sinusoidi sono <strong>in controfase</strong> quando una raggiunge il massimo nell’istante in cui l’altra raggiunge il minimo. Lo sfasamento è di <strong>180°</strong>. Le sinusoidi si muovono in modo opposto.</p>
+
+<p>Se si sommano due sinusoidi di uguale ampiezza in controfase, si <strong>annullano</strong> completamente punto per punto (analogia: batterie collegate in verso opposto che si sottraggono).</p>
+
+<h3 id="-sinusoidi-in-quadratura-sfasamento-di-90--7555">🔹 Sinusoidi in quadratura (sfasamento di 90°) (⏱ 75:55)</h3>
+
+<p>Due sinusoidi sono <strong>in quadratura</strong> quando lo sfasamento tra di esse è di <strong>90°</strong>: quando una è al massimo, l’altra passa per lo zero.</p>
+
+<h3 id="-effetto-del-verso-di-rotazione-sulla-fase--5952">🔹 Effetto del verso di rotazione sulla fase (⏱ 59:52)</h3>
+
+<p>Se il raggio generatore ruota in senso antiorario, la sinusoide parte verso l’alto (picco positivo per primo). Se ruota in senso orario, la sinusoide parte verso il basso. Le due sinusoidi risultanti sono identiche ma sfasate di <strong>180°</strong>.</p>
+
+<h3 id="-modulazione-di-ampiezza-e-di-frequenza-cenni--4110">🔹 Modulazione di ampiezza e di frequenza (cenni) (⏱ 41:10)</h3>
+
+<p>Il docente anticipa, a partire da una domanda del corsista Mattia, che:</p>
+
+<ul>
+  <li>Se l’<strong>ampiezza</strong> della sinusoide varia da un ciclo all’altro (a volte più alta, a volte più bassa), si parla di <strong>modulazione di ampiezza</strong> (AM), un modo di trasmettere segnali radio.</li>
+  <li>Se la <strong>frequenza</strong> (periodo) della sinusoide varia (alcuni periodi più lunghi, altri più corti), si parla di <strong>modulazione di frequenza</strong> (FM), un altro modo di trasmissione radio.</li>
+</ul>
+
+<p>Questi argomenti saranno approfonditi nelle lezioni successive.</p>
+
+<hr />
+
+<h2 id="-8-potenza-in-corrente-alternata--8454">⚡ 8. Potenza in corrente alternata (⏱ 84:54)</h2>
+
+<h3 id="-richiamo-energia-e-potenza--8502">🔹 Richiamo: energia e potenza (⏱ 85:02)</h3>
+
+<ul>
+  <li><strong>Energia</strong> — capacità di un sistema di compiere un lavoro; si misura in <strong>joule</strong> (J) o in <strong>wattora</strong> (Wh).</li>
+  <li><strong>Potenza</strong> — capacità di svolgere un lavoro nell’unità di tempo; si misura in <strong>watt</strong> (W).</li>
+</ul>
+
+<p><strong>Esempi:</strong></p>
+
+<ul>
+  <li>Lampadina da 20 W accesa per 3 ore → consuma $20 \times 3 = 60$ Wh di energia.</li>
+  <li>Stufetta da 1000 W accesa per 30 minuti (0,5 ore) → consuma $1000 \times 0{,}5 = 500$ Wh.</li>
+</ul>
+
+<h3 id="-carico-resistivo-tensione-e-corrente-in-fase--8627">🔹 Carico resistivo: tensione e corrente in fase (⏱ 86:27)</h3>
+
+<p>Quando la tensione alternata alimenta un <strong>carico resistivo</strong> (una resistenza pura), la sinusoide della tensione e la sinusoide della corrente sono perfettamente <strong>in fase</strong>: raggiungono massimi, zeri e minimi contemporaneamente.</p>
+
+<p>In questo caso le formule della potenza sono <strong>identiche</strong> a quelle viste in corrente continua, purché si usino i <strong>valori efficaci</strong>:</p>
+
+\[P_{eff} = V_{eff} \times I_{eff}\]
+
+\[P_{eff} = \frac{V_{eff}^2}{R}\]
+
+\[P_{eff} = I_{eff}^2 \times R\]
+
+<blockquote>
+  <p>“Non cambia assolutamente niente rispetto a quello che abbiamo visto con la corrente continua.”</p>
+</blockquote>
+
+<h3 id="-carico-reattivo-sfasamento-tra-tensione-e-corrente--8839">🔹 Carico reattivo: sfasamento tra tensione e corrente (⏱ 88:39)</h3>
+
+<p>A volte il carico non è puramente resistivo: può avere una <strong>componente induttiva</strong> (bobina/induttore) o una <strong>componente capacitiva</strong> (condensatore). In questi casi tensione e corrente <strong>non sono più in fase</strong>: si forma un <strong>angolo di sfasamento</strong> tra le due sinusoidi, indicato con la lettera greca <strong>φ</strong> (phi, in italiano “fi”).</p>
+
+<p>Lo sfasamento φ è espresso in gradi e può assumere qualsiasi valore tra 0° e 90°.</p>
+
+<h3 id="-potenza-apparente-potenza-reale-e-potenza-reattiva--9017">🔹 Potenza apparente, potenza reale e potenza reattiva (⏱ 90:17)</h3>
+
+<p>Quando tensione e corrente sono sfasate, non tutta la potenza si trasforma in lavoro utile.</p>
+
+<p><strong>Potenza apparente</strong> ($S$) — è il prodotto semplice della tensione efficace per la corrente efficace:</p>
+
+\[S = V_{eff} \times I_{eff}\]
+
+<p>Si misura in <strong>voltampere</strong> (VA).</p>
+
+<p><strong>Potenza reale</strong> (o <strong>potenza attiva</strong>, $P$) — è la parte della potenza che effettivamente produce lavoro (calore, movimento, luce):</p>
+
+\[\boxed{P = V_{eff} \times I_{eff} \times \cos\varphi = S \times \cos\varphi}\]
+
+<p>Si misura in <strong>watt</strong> (W).</p>
+
+<p><strong>Potenza reattiva</strong> ($Q$) — è la parte di potenza che <strong>non produce lavoro</strong>: è associata alla componente di corrente sfasata di 90° rispetto alla tensione. Si misura in <strong>voltampere reattivi</strong> (VAR).</p>
+
+<blockquote>
+  <p>Il docente precisa che “potenza reale” e “potenza attiva” sono <strong>sinonimi perfetti</strong>.</p>
+</blockquote>
+
+<h3 id="-il-coseno-di-φ-fattore-di-potenza--9049">🔹 Il coseno di φ (fattore di potenza) (⏱ 90:49)</h3>
+
+<p>Il <strong>coseno</strong> è un’operazione trigonometrica che associa un numero a un angolo. Due casi particolari fondamentali:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Angolo φ</th>
+      <th>cos φ</th>
+      <th>Significato</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>0°</strong></td>
+      <td><strong>1</strong></td>
+      <td>Tensione e corrente in fase → tutta la potenza è reale</td>
+    </tr>
+    <tr>
+      <td><strong>90°</strong></td>
+      <td><strong>0</strong></td>
+      <td>Tensione e corrente in quadratura → potenza reale nulla</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Quando $\cos\varphi = 1$ (carico resistivo puro), la potenza reale coincide con la potenza apparente: $P = V \times I$.
+Quando $\cos\varphi = 0$ (carico totalmente reattivo), la potenza reale è zero: nessun lavoro utile viene prodotto.</p>
+
+<h3 id="-scomposizione-vettoriale-della-corrente--9656">🔹 Scomposizione vettoriale della corrente (⏱ 96:56)</h3>
+
+<p>Su un diagramma vettoriale, si rappresenta la tensione $V$ sull’asse orizzontale e la corrente $I$ come un vettore che forma un angolo φ con essa. La corrente può essere scomposta in due componenti:</p>
+
+<ul>
+  <li><strong>Componente in fase</strong> con la tensione (proiezione sull’asse orizzontale) → produce lavoro → genera la <strong>potenza reale</strong>.</li>
+  <li><strong>Componente in quadratura</strong> (proiezione sull’asse verticale, a 90° dalla tensione) → non produce lavoro → genera la <strong>potenza reattiva</strong>.</li>
+</ul>
+
+<p>La somma vettoriale delle due componenti ricostruisce la corrente totale.</p>
+
+<p>Più l’angolo φ è grande (corrente più sfasata), più la componente in fase diminuisce e quindi meno potenza reale si ottiene. Più l’angolo φ è piccolo (corrente quasi in fase), maggiore è il rendimento.</p>
+
+<h3 id="-lanalogia-della-birra---10024">🔹 L’analogia della birra 🍺 (⏱ 100:24)</h3>
+
+<p>Il docente propone un’analogia efficace:</p>
+
+<ul>
+  <li><strong>Potenza reale</strong> = la <strong>birra</strong> nel boccale → è quella che toglie la sete (produce lavoro).</li>
+  <li><strong>Potenza reattiva</strong> = la <strong>schiuma</strong> sopra la birra → occupa spazio ma non toglie la sete (non produce lavoro).</li>
+  <li><strong>Potenza apparente</strong> = l’<strong>altezza totale</strong> del boccale (birra + schiuma) → è la combinazione delle due.</li>
+</ul>
+
+<h3 id="-il-rifasamento-cenni--11209">🔹 Il rifasamento (cenni) (⏱ 112:09)</h3>
+
+<p>L’<strong>ENEL</strong> esige che i carichi industriali (motori, ecc.) siano il più possibile “rifasati”, cioè che l’angolo φ sia il più piccolo possibile. Quando i carichi sono troppo sfasati, c’è un “girare a vuoto” di energia apparente sulle linee elettriche che non produce lavoro utile ma crea disturbi.</p>
+
+<p>Il <strong>rifasamento</strong> è un’operazione tecnica (mediante condensatori o dispositivi appositi detti <strong>rifasatori</strong>) che riduce l’angolo di sfasamento tra tensione e corrente, avvicinando $\cos\varphi$ a 1. Questo argomento sarà approfondito nelle prossime lezioni su condensatore e induttore.</p>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li>Corrente continua → scorre in un solo verso → generata da tensione costante</li>
+  <li>Corrente alternata → inverte ciclicamente il verso → generata da tensione alternata (alternatore)</li>
+  <li>Alternatore → basato su scoperte di Faraday → spira rotante in campo magnetico → produce sinusoide</li>
+  <li>Sinusoide → ottenuta da moto circolare uniforme → sviluppo del raggio rotante su cerchio</li>
+  <li>Frequenza ($f$) → numero di cicli al secondo → inverso del periodo → $f = \frac{1}{T}$</li>
+  <li>Periodo ($T$) → durata di un ciclo completo → inverso della frequenza → $T = \frac{1}{f}$</li>
+  <li>Tensione alternata → caratterizzata da: valore efficace, di picco, picco-picco, valor medio</li>
+  <li>Tensione di picco → $V_p = \sqrt{2} \times V_{eff} \approx 1{,}41 \times V_{eff}$</li>
+  <li>Tensione picco-picco → $V_{pp} = 2 \times V_p$</li>
+  <li>Valor medio → $V_m = 0{,}9 \times V_{eff}$</li>
+  <li>Tensione efficace → produce lavoro equivalente alla tensione continua di pari valore</li>
+  <li>Fase → posizione angolare sulla sinusoide (0°–360°)</li>
+  <li>In fase (0°) → sinusoidi si sommano</li>
+  <li>In controfase (180°) → sinusoidi si annullano</li>
+  <li>In quadratura (90°) → caso intermedio</li>
+  <li>Carico resistivo → tensione e corrente in fase → $P = V \times I$ (come in CC)</li>
+  <li>Carico reattivo → tensione e corrente sfasate di angolo φ</li>
+  <li>Potenza apparente ($S$) → $S = V \times I$ → somma di potenza reale + reattiva</li>
+  <li>Potenza reale/attiva ($P$) → $P = S \times \cos\varphi$ → produce lavoro</li>
+  <li>Potenza reattiva ($Q$) → non produce lavoro → associata alla componente di corrente in quadratura</li>
+  <li>$\cos\varphi = 1$ → carico resistivo → massimo rendimento</li>
+  <li>$\cos\varphi = 0$ → carico totalmente reattivo → nessun lavoro utile</li>
+  <li>Modulazione di ampiezza (AM) → ampiezza della sinusoide varia</li>
+  <li>Modulazione di frequenza (FM) → frequenza della sinusoide varia</li>
+  <li>Rifasamento → avvicinare $\cos\varphi$ a 1 → richiesto dall’ENEL per i carichi industriali</li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>La <strong>corrente alternata</strong> è una corrente che inverte periodicamente il senso di scorrimento, generata da una tensione alternata sinusoidale prodotta da un alternatore.</li>
+  <li>La <strong>sinusoide</strong> si ottiene geometricamente dalla proiezione di un punto che ruota a velocità angolare costante su una circonferenza: ogni 360° si completa un ciclo.</li>
+  <li><strong>Frequenza</strong> ($f$) e <strong>periodo</strong> ($T$) sono grandezze inverse: $f = \frac{1}{T}$ e $T = \frac{1}{f}$. La frequenza indica quanti cicli al secondo, il periodo quanto dura ogni ciclo.</li>
+  <li>Un <strong>alternatore</strong> genera corrente sinusoidale facendo ruotare una spira in un campo magnetico (principio di Faraday): la variazione ciclica del campo intercettato genera una tensione sinusoidale.</li>
+  <li>La tensione alternata ha molteplici valori: <strong>efficace</strong> (usato nei calcoli di potenza, è il valore sottinteso), <strong>di picco</strong> ($V_p = 1{,}41 \times V_{eff}$), <strong>picco-picco</strong> ($V_{pp} = 2 \times V_p$) e <strong>valor medio</strong> ($V_m = 0{,}9 \times V_{eff}$).</li>
+  <li>I 220 V dell’ENEL sono un valore <strong>efficace</strong>; la tensione di picco nella presa è circa 311 V e l’escursione picco-picco è di 622 V.</li>
+  <li>Due sinusoidi possono essere <strong>in fase</strong> (0°, si sommano), <strong>in quadratura</strong> (90°), o <strong>in controfase</strong> (180°, si annullano se di uguale ampiezza).</li>
+  <li>Su <strong>carico resistivo</strong>, tensione e corrente sono in fase e la potenza si calcola come in corrente continua usando i valori efficaci: $P = V_{eff} \times I_{eff}$.</li>
+  <li>Su <strong>carico reattivo</strong>, tensione e corrente si sfasano di un angolo φ; la potenza reale (attiva) è $P = V \times I \times \cos\varphi$, dove $\cos\varphi$ è il <strong>fattore di potenza</strong>.</li>
+  <li>La <strong>potenza apparente</strong> ($S = V \times I$) comprende sia la parte reale (che produce lavoro, la “birra”) sia la parte reattiva (che non produce lavoro, la “schiuma”). L’ENEL richiede il rifasamento dei carichi industriali per portare $\cos\varphi$ il più vicino possibile a 1.</li>
+  <li>Nei calcoli, occorre sempre verificare che le grandezze siano espresse nelle <strong>stesse unità di misura</strong> (Hz, non MHz; Ω, non kΩ) prima di applicare le formule.</li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>
+    <p>Spiega la differenza fondamentale tra corrente continua e corrente alternata in termini di comportamento del generatore e della corrente nel circuito. Perché un generatore in corrente continua ha poli fissi positivo e negativo, mentre un alternatore no?</p>
+  </li>
+  <li>
+    <p>Descrivi il processo geometrico con cui una sinusoide viene generata a partire da un raggio che ruota su una circonferenza. Cosa succede alla forma d’onda se la velocità di rotazione del raggio non è costante?</p>
+  </li>
+  <li>
+    <p>Un segnale radio ha una frequenza di 145 MHz. Qual è il suo periodo? Spiega il procedimento e le conversioni di unità necessarie per arrivare al risultato.</p>
+  </li>
+  <li>
+    <p>Perché la tensione efficace dell’ENEL è di 220 V, ma per dimensionare gli isolamenti è necessario considerare la tensione di picco (311 V)? Fornisci un ragionamento basato sulle relazioni tra i valori caratteristici della tensione alternata.</p>
+  </li>
+  <li>
+    <p>Due sinusoidi di uguale ampiezza vengono sommate. Descrivi cosa accade al segnale risultante nei tre casi: sinusoidi in fase, in quadratura e in controfase. Qual è l’analogia con le batterie in serie?</p>
+  </li>
+  <li>
+    <p>Spiega perché, in un circuito con carico reattivo, non tutta la potenza apparente si traduce in lavoro utile. Utilizza la scomposizione vettoriale della corrente per giustificare la formula $P = V \times I \times \cos\varphi$.</p>
+  </li>
+  <li>
+    <p>Nell’analogia della birra proposta dal docente, cosa rappresentano rispettivamente la birra, la schiuma e l’altezza totale del boccale? Perché questa analogia è utile per comprendere il concetto di fattore di potenza?</p>
+  </li>
+  <li>
+    <p>Un carico industriale ha $\cos\varphi = 0{,}5$. Questo significa che il carico è più vicino a un carico resistivo o a un carico totalmente reattivo? Quale percentuale della potenza apparente viene effettivamente convertita in lavoro? Perché l’ENEL richiede il rifasamento?</p>
+  </li>
+  <li>
+    <p>Qual è la relazione tra il funzionamento di un alternatore e lo sviluppo geometrico della sinusoide? Spiega perché un alternatore produce naturalmente una corrente sinusoidale collegando la rotazione della spira al concetto di raggio rotante.</p>
+  </li>
+  <li>
+    <p>Il docente menziona brevemente la modulazione di ampiezza (AM) e la modulazione di frequenza (FM). Con riferimento alla sinusoide “pura” (ampiezza e frequenza costanti), spiega cosa cambia in ciascuno dei due tipi di modulazione e perché si adottano.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>Alternatore</strong> — Macchina elettrica rotante che produce corrente alternata sinusoidale, basata sulla rotazione di una spira in un campo magnetico.</li>
+  <li><strong>Angolo di sfasamento (φ)</strong> — Angolo in gradi che misura la differenza di fase tra la sinusoide della tensione e quella della corrente in un circuito in corrente alternata.</li>
+  <li><strong>Angolo giro</strong> — Angolo di 360°, corrispondente a un ciclo completo della sinusoide.</li>
+  <li><strong>Campo magnetico</strong> — Regione di spazio in cui si manifestano forze magnetiche, generato da magneti permanenti o elettromagneti.</li>
+  <li><strong>Carico reattivo</strong> — Carico elettrico che presenta una componente capacitiva o induttiva, causando sfasamento tra tensione e corrente.</li>
+  <li><strong>Carico resistivo</strong> — Carico elettrico costituito da sola resistenza, dove tensione e corrente sono in fase.</li>
+  <li><strong>Controfase</strong> — Condizione di due sinusoidi sfasate di 180°: quando una è al massimo, l’altra è al minimo.</li>
+  <li><strong>Corrente alternata (CA/AC)</strong> — Corrente elettrica che inverte periodicamente il senso di scorrimento.</li>
+  <li><strong>Corrente continua (CC/DC)</strong> — Corrente elettrica che scorre sempre nello stesso verso.</li>
+  <li><strong>Coseno di φ (cos φ)</strong> — Fattore di potenza; rapporto tra potenza reale e potenza apparente. Vale 1 se tensione e corrente sono in fase, 0 se sono in quadratura.</li>
+  <li><strong>Fattore di potenza</strong> — Valore numerico $\cos\varphi$ che indica quale frazione della potenza apparente produce lavoro utile.</li>
+  <li><strong>Frequenza ($f$)</strong> — Numero di cicli completi di un’onda nell’unità di tempo (un secondo). Si misura in hertz (Hz).</li>
+  <li><strong>Hertz (Hz)</strong> — Unità di misura della frequenza; 1 Hz = 1 ciclo al secondo.</li>
+  <li><strong>In fase</strong> — Condizione di due sinusoidi con sfasamento nullo (0°): raggiungono i massimi e i minimi simultaneamente.</li>
+  <li><strong>Megahertz (MHz)</strong> — Multiplo dell’hertz, pari a un milione di hertz (10⁶ Hz).</li>
+  <li><strong>Modulazione di ampiezza (AM)</strong> — Tecnica di trasmissione radio in cui l’ampiezza della sinusoide portante varia nel tempo.</li>
+  <li><strong>Modulazione di frequenza (FM)</strong> — Tecnica di trasmissione radio in cui la frequenza della sinusoide portante varia nel tempo.</li>
+  <li><strong>Oscilloscopio</strong> — Strumento elettronico in grado di visualizzare forme d’onda (sinusoidi, ecc.) su uno schermo.</li>
+  <li><strong>Periodo ($T$)</strong> — Intervallo di tempo necessario a completare un ciclo della sinusoide. Si misura in secondi (s).</li>
+  <li><strong>Potenza apparente ($S$)</strong> — Prodotto $V_{eff} \times I_{eff}$ in corrente alternata; comprende sia la potenza reale sia la potenza reattiva. Si misura in voltampere (VA).</li>
+  <li><strong>Potenza reale (o attiva, $P$)</strong> — Parte della potenza che produce effettivamente lavoro; vale $P = S \times \cos\varphi$. Si misura in watt (W).</li>
+  <li><strong>Potenza reattiva ($Q$)</strong> — Parte della potenza che non produce lavoro utile, associata alla componente di corrente in quadratura rispetto alla tensione. Si misura in voltampere reattivi (VAR).</li>
+  <li><strong>Quadratura</strong> — Condizione di due sinusoidi sfasate di 90°.</li>
+  <li><strong>Rifasamento</strong> — Operazione tecnica per ridurre l’angolo di sfasamento φ tra tensione e corrente, avvicinando $\cos\varphi$ a 1.</li>
+  <li><strong>Rotore</strong> — Parte rotante di un alternatore o motore elettrico, che contiene le spire di filo conduttore.</li>
+  <li><strong>Sinusoide</strong> — Forma d’onda fondamentale, ottenuta dalla funzione seno; è la curva che descrive l’andamento di una tensione o corrente alternata generata da un alternatore.</li>
+  <li><strong>Spira</strong> — Avvolgimento rettangolare o circolare di filo conduttore; elemento base di un alternatore.</li>
+  <li><strong>Tensione di picco ($V_p$)</strong> — Valore massimo raggiunto dalla sinusoide; $V_p = \sqrt{2} \times V_{eff} \approx 1{,}41 \times V_{eff}$.</li>
+  <li><strong>Tensione efficace ($V_{eff}$ o RMS)</strong> — Valore della tensione alternata equivalente, in termini di lavoro prodotto, a una tensione continua dello stesso valore.</li>
+  <li><strong>Tensione istantanea</strong> — Valore della tensione in un dato istante preciso.</li>
+  <li><strong>Tensione picco-picco ($V_{pp}$)</strong> — Escursione totale della sinusoide, dal minimo al massimo; $V_{pp} = 2 \times V_p$.</li>
+  <li><strong>Valor medio ($V_m$)</strong> — Media dei valori istantanei di una sinusoide in un semiperiodo; $V_m \approx 0{,}9 \times V_{eff}$.</li>
+  <li><strong>Velocità angolare</strong> — Rapidità con cui il raggio generatore della sinusoide ruota attorno al centro della circonferenza; determina la frequenza.</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatore principale</strong>: Paolo (docente del corso)</li>
+  <li>👨‍🏫 <strong>Co-docente / interventi</strong>: Sauro (suggerimento sul metodo alternativo per il parallelo di tre resistenze; curerà le lezioni su condensatore e induttore)</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<ul>
+  <li><strong>Numero Lezione</strong>: 03</li>
+  <li><strong>Data</strong>: 19/03/2025</li>
+  <li><strong>Durata</strong>: circa 2 ore (121 minuti)</li>
+  <li><strong>Numero di argomenti principali</strong>: 8</li>
+  <li><strong>Keywords</strong>: corrente alternata, sinusoide, frequenza, periodo, hertz, alternatore, Faraday, spira, campo magnetico, tensione efficace, tensione di picco, tensione picco-picco, valor medio, RMS, fase, controfase, quadratura, sfasamento, potenza apparente, potenza reale, potenza attiva, potenza reattiva, coseno di φ, fattore di potenza, rifasamento, modulazione di ampiezza, modulazione di frequenza, oscilloscopio, ENEL</li>
+</ul>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+</body>
+</html>

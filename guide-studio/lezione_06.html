@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 06 - Semiconduttori - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/">🏠 Home</a>
+    <a href="/guide-studio/">📖 Guide di Studio</a>
+    <a href="/glossario.html">📚 Glossario</a>
+    <a href="/domande-esame.html">❓ Domande</a>
+    <a href="/risorse.html">🔗 Risorse</a>
+  </nav>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/guide-studio/lezione_05.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/guide-studio/lezione_07.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/guide-studio/lezione_06.html" selected>📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-06---semiconduttori">📘 Lezione 06 - Semiconduttori</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia e argomento</strong>: Radiotecnica — filtri, circuiti risonanti e cristalli di quarzo. Prima lezione della sezione “radiotecnica” del corso, con un approccio più qualitativo e meno formule rispetto alle lezioni precedenti di elettrotecnica.</li>
+  <li><strong>Tempo di studio stimato</strong>: 90–110 minuti</li>
+  <li><strong>Prerequisiti</strong>: Reattanza induttiva $X_L = 2\pi fL$ e capacitiva $X_C = 1/(2\pi fC)$ (Lezioni 04–05), impedenza (Lezione 05), condensatori e induttori in serie/parallelo.</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Comprendere il principio di funzionamento dei filtri basati su componenti reattivi (LC, RC)</li>
+      <li>Distinguere i quattro tipi fondamentali di filtro: passa basso, passa alto, passa banda, elimina banda</li>
+      <li>Definire la frequenza di taglio (metà potenza oppure $0{,}707$ in tensione)</li>
+      <li>Comprendere la risonanza in circuiti LC parallelo e serie</li>
+      <li>Usare la formula del fattore di merito $Q = f_0 / B$</li>
+      <li>Conoscere i cristalli di quarzo e il principio piezoelettrico</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h2 id="-1-revisione-quiz-lezione-05--0004--2214">🔍 1. Revisione quiz Lezione 05 (⏱ 00:04 – 22:14)</h2>
+
+<p>La lezione si apre con la correzione del quiz della Lezione 05. Le risposte sono riepilogate brevemente:</p>
+
+<ul>
+  <li><strong>Scopo del condensatore</strong>: bloccare la corrente continua e lasciar passare la corrente alternata (non il contrario)</li>
+  <li><strong>Unità di misura della capacità</strong>: Farad (con sottomultipli µF, nF, pF)</li>
+  <li><strong>Fattori che determinano la capacità</strong>: materiale dielettrico (ε), superficie delle armature, numero di piastre, distanza fra le piastre</li>
+  <li><strong>Condensatori in parallelo</strong>: le capacità si sommano ($C_{tot} = C_1 + C_2$)</li>
+  <li><strong>Aumento distanza fra le piastre</strong>: la capacità diminuisce (D al denominatore in $C = \varepsilon \cdot S/D$)</li>
+  <li><strong>Conversione</strong>: 500.000 µF = 0,5 F (spostarsi di 6 posizioni decimali)</li>
+  <li><strong>Reattanza capacitiva e frequenza</strong>: $X_C$ aumenta al diminuire della frequenza (F al denominatore)</li>
+  <li><strong>Due condensatori uguali da 8 pF in serie</strong>: $C_{tot} = 4$ pF (metà)</li>
+  <li><strong>Tre condensatori uguali in serie</strong>: capacità totale minore di ogni singolo condensatore</li>
+  <li><strong>Formula della reattanza</strong>: $X_C = 1/(2\pi fC)$</li>
+  <li><strong>Unità di misura dell’impedenza</strong>: ohm (Ω)</li>
+  <li><strong>Impedenza</strong>: grandezza che si oppone allo scorrere della corrente alternata in qualsiasi circuito</li>
+  <li><strong>Legge di Ohm per le impedenze</strong>: $V = Z \times I$</li>
+  <li><strong>Potenza dissipata dalla parte reale dell’impedenza</strong>: potenza attiva</li>
+</ul>
+
+<hr />
+
+<h2 id="-2-introduzione-ai-filtri--2214--2725">📡 2. Introduzione ai filtri (⏱ 22:14 – 27:25)</h2>
+
+<h3 id="-cosè-un-filtro">🔹 Cos’è un filtro</h3>
+
+<p>Un <strong>filtro</strong> è una combinazione di circuiti composti da induttori e condensatori (circuiti LC) che sfrutta la variazione della reattanza induttiva e capacitiva in funzione della frequenza per attenuare o far passare determinate bande di frequenza.</p>
+
+<p>Il principio fondamentale è:</p>
+
+<ul>
+  <li><strong>Reattanza induttiva</strong> ($X_L$): vale 0 a frequenza zero (cortocircuito per la DC), cresce linearmente con la frequenza</li>
+  <li><strong>Reattanza capacitiva</strong> ($X_C$): vale infinito a frequenza zero (circuito aperto per la DC), decresce con la frequenza</li>
+</ul>
+
+<p>Queste caratteristiche complementari permettono di discriminare i segnali in base alla frequenza.</p>
+
+<hr />
+
+<h2 id="-3-filtro-passa-basso--2725--4616">📉 3. Filtro passa basso (⏱ 27:25 – 46:16)</h2>
+
+<h3 id="-definizione">🔹 Definizione</h3>
+
+<p>Il <strong>filtro passa basso</strong> attenua i segnali con frequenza superiore alla <strong>frequenza di taglio</strong> e lascia passare inalterati quelli con frequenza inferiore.</p>
+
+<h3 id="-frequenza-di-taglio">🔹 Frequenza di taglio</h3>
+
+<p>La <strong>frequenza di taglio</strong> è definita in due modi equivalenti:</p>
+
+<ol>
+  <li>La frequenza alla quale la <strong>potenza</strong> del segnale di uscita si dimezza rispetto alla banda passante</li>
+  <li>La frequenza alla quale l’<strong>ampiezza</strong> (tensione) del segnale di uscita si riduce a $\frac{1}{\sqrt{2}} \approx 0{,}707$ rispetto al valore in banda passante</li>
+</ol>
+
+<blockquote>
+  <p>Perché $0{,}707$ equivale a metà potenza? Poiché $P \propto V^2$: $(0{,}707)^2 = (1/\sqrt{2})^2 = 1/2 = 0{,}5$</p>
+</blockquote>
+
+<p>⚠️ <em>Questa definizione si applica a tutti i tipi di filtro e può essere oggetto di domande d’esame.</em></p>
+
+<h3 id="-schema-circuitale-rc">🔹 Schema circuitale RC</h3>
+
+<p>Nella versione più semplice, il filtro passa basso è costituito da:</p>
+
+<ul>
+  <li>Una <strong>resistenza</strong> in serie (valore costante con la frequenza)</li>
+  <li>Un <strong>condensatore</strong> verso massa</li>
+</ul>
+
+<p>A <strong>frequenze basse</strong>: la reattanza del condensatore è molto alta → il condensatore è “come se non esistesse” → il segnale passa inalterato in uscita.</p>
+
+<p>A <strong>frequenze alte</strong>: la reattanza del condensatore diventa bassa → il condensatore cortocircuita il segnale verso massa → la tensione di uscita si azzera.</p>
+
+<h3 id="-schema-circuitale-lc-migliore">🔹 Schema circuitale LC (migliore)</h3>
+
+<p>Sostituendo la resistenza con un <strong>induttore</strong>:</p>
+
+<ul>
+  <li>L’induttore a frequenze alte ha reattanza alta → ostacola il passaggio</li>
+  <li>Il condensatore a frequenze alte ha reattanza bassa → cortocircuita verso massa</li>
+</ul>
+
+<p>Due componenti reattivi lavorano insieme, ottenendo un filtraggio <strong>più ripido</strong> (selettivo).</p>
+
+<h3 id="-concetto-di-poli">🔹 Concetto di poli</h3>
+
+<p>Ogni componente reattivo (condensatore o induttore) inserito nel filtro aggiunge un <strong>polo</strong>. Più poli ha il filtro, più la sua curva di attenuazione è ripida oltre la frequenza di taglio, avvicinandosi al comportamento di un filtro ideale.</p>
+
+<h3 id="-applicazioni-pratiche">🔹 Applicazioni pratiche</h3>
+
+<ul>
+  <li><strong>Controlli di tono</strong> negli amplificatori audio (stereo, autoradio, TV)</li>
+  <li><strong>Filtri crossover</strong> nelle casse acustiche: il passa basso manda i bassi al woofer</li>
+  <li><strong>Uscita dei trasmettitori radio</strong>: per eliminare le armoniche (es. trasmettitore a 27 MHz genera armoniche a 54, 81 MHz… che interferivano con la TV)</li>
+  <li><strong>Filtri commerciali</strong> (es. Drake): reggono fino a 1 kW, passano sotto 30 MHz, attenuazione 80 dB a 41 MHz</li>
+</ul>
+
+<hr />
+
+<h2 id="-4-filtro-passa-alto--6020--6646">📈 4. Filtro passa alto (⏱ 60:20 – 66:46)</h2>
+
+<h3 id="-definizione-1">🔹 Definizione</h3>
+
+<p>Il <strong>filtro passa alto</strong> è speculare al passa basso: attenua le frequenze inferiori alla frequenza di taglio e lascia passare quelle superiori.</p>
+
+<h3 id="-schema-circuitale">🔹 Schema circuitale</h3>
+
+<p>Si invertono le posizioni dei componenti rispetto al passa basso:</p>
+
+<ul>
+  <li>Il <strong>condensatore</strong> è in serie: a frequenze basse ha reattanza altissima → blocca il segnale; a frequenze alte ha reattanza bassissima → lascia passare tutto</li>
+  <li>L’<strong>induttore</strong> (o resistore) è verso massa: a frequenze basse ha reattanza bassa → cortocircuita verso massa anche ciò che riuscisse a passare</li>
+</ul>
+
+<h3 id="-varianti">🔹 Varianti</h3>
+
+<p>Un filtro passa alto può essere costruito con diverse combinazioni: C+R, C+L, oppure L+R (come osservato durante la lezione).</p>
+
+<hr />
+
+<h2 id="-5-filtro-passa-banda--6646--7502">📊 5. Filtro passa banda (⏱ 66:46 – 75:02)</h2>
+
+<h3 id="-definizione-2">🔹 Definizione</h3>
+
+<p>Il <strong>filtro passa banda</strong> fa passare le frequenze comprese tra una <strong>frequenza di taglio inferiore</strong> e una <strong>frequenza di taglio superiore</strong>, attenuando tutto ciò che sta al di fuori.</p>
+
+<h3 id="-composizione">🔹 Composizione</h3>
+
+<p>Può essere realizzato come <strong>combinazione</strong> di un filtro passa alto (che taglia il sotto) e un filtro passa basso (che taglia il sopra).</p>
+
+<h3 id="-applicazione-principale">🔹 Applicazione principale</h3>
+
+<p>I filtri passa banda sono fondamentali nei <strong>ricevitori radio</strong>: permettono la <strong>selettività</strong>, cioè la capacità di ascoltare un solo segnale per volta. Un segnale FM commerciale è largo circa 100 kHz; il filtro passa banda del ricevitore è dimensionato per far passare esattamente quella larghezza di banda.</p>
+
+<hr />
+
+<h2 id="-6-filtro-elimina-banda-notch--7055--7502">🚫 6. Filtro elimina banda (notch) (⏱ 70:55 – 75:02)</h2>
+
+<h3 id="-definizione-3">🔹 Definizione</h3>
+
+<p>Il <strong>filtro elimina banda</strong> (o <strong>notch</strong>) attenua i segnali con frequenza compresa tra le due frequenze di taglio e lascia passare tutto il resto. È il funzionamento speculare del passa banda.</p>
+
+<h3 id="-applicazione-pratica">🔹 Applicazione pratica</h3>
+
+<p>Usato per eliminare le interferenze della <strong>banda FM commerciale</strong> (88–108 MHz) nei ricevitori radioamatoriali. I segnali FM sono molto forti e possono “sovraccaricare” un ricevitore sensibile, impedendone il funzionamento.</p>
+
+<h3 id="-riepilogo-dei-quattro-tipi-di-filtro">🔹 Riepilogo dei quattro tipi di filtro</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo di filtro</th>
+      <th>Cosa lascia passare</th>
+      <th>Cosa blocca</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Passa basso</strong></td>
+      <td>Frequenze sotto la freq. di taglio</td>
+      <td>Frequenze sopra la freq. di taglio</td>
+    </tr>
+    <tr>
+      <td><strong>Passa alto</strong></td>
+      <td>Frequenze sopra la freq. di taglio</td>
+      <td>Frequenze sotto la freq. di taglio</td>
+    </tr>
+    <tr>
+      <td><strong>Passa banda</strong></td>
+      <td>Frequenze tra le due freq. di taglio</td>
+      <td>Frequenze fuori dalla banda</td>
+    </tr>
+    <tr>
+      <td><strong>Elimina banda</strong></td>
+      <td>Frequenze fuori dalla banda</td>
+      <td>Frequenze tra le due freq. di taglio</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>⚠️ <em>Le domande d’esame sui filtri sono tipicamente formulate come: “Cosa lascia passare un filtro passa banda?” con tre risposte a scelta multipla.</em></p>
+
+<hr />
+
+<h2 id="-7-circuiti-risonanti--7831--9605">🔄 7. Circuiti risonanti (⏱ 78:31 – 96:05)</h2>
+
+<h3 id="-definizione-di-risonanza">🔹 Definizione di risonanza</h3>
+
+<p>Un <strong>circuito risonante</strong> si ottiene collegando un condensatore e un induttore in <strong>serie</strong> o in <strong>parallelo</strong>. Esiste una frequenza specifica, la <strong>frequenza di risonanza</strong> ($f_0$), alla quale la reattanza induttiva e quella capacitiva sono uguali ($X_L = X_C$) e si annullano a vicenda.</p>
+
+<h3 id="-formula-della-frequenza-di-risonanza">🔹 Formula della frequenza di risonanza</h3>
+
+<blockquote>
+\[f_0 = \frac{1}{2\pi\sqrt{LC}}\]
+</blockquote>
+
+<p>Dove:</p>
+
+<ul>
+  <li>$L$ = induttanza in Henry</li>
+  <li>$C$ = capacità in Farad</li>
+</ul>
+
+<h3 id="-circuito-risonante-parallelo">🔹 Circuito risonante parallelo</h3>
+
+<p>In un circuito LC parallelo alla frequenza di risonanza:</p>
+
+<ol>
+  <li>La tensione è <strong>la stessa</strong> ai capi di L e C (sono in parallelo)</li>
+  <li>Le reattanze sono uguali → le correnti che scorrono in L e C sono uguali in ampiezza</li>
+  <li>La corrente nell’induttore è in <strong>ritardo</strong> di 90° rispetto alla tensione; la corrente nel condensatore è in <strong>anticipo</strong> di 90°</li>
+  <li>Le due correnti sono quindi <strong>sfasate di 180°</strong> (in opposizione di fase) → si annullano</li>
+  <li>Il circuito esterno non vede scorrere corrente → <strong>impedenza infinita</strong> (circuito aperto)</li>
+</ol>
+
+<blockquote>
+  <p>Il condensatore e l’induttore si “palleggiano” l’energia: il condensatore si scarica sull’induttore (campo elettrico → campo magnetico) e viceversa, senza assorbire energia dall’esterno.</p>
+</blockquote>
+
+<h3 id="-circuito-risonante-serie">🔹 Circuito risonante serie</h3>
+
+<p>In un circuito LC serie alla frequenza di risonanza:</p>
+
+<ol>
+  <li>La corrente è <strong>la stessa</strong> in L e C (sono in serie)</li>
+  <li>Le reattanze sono uguali → le tensioni ai capi di L e C sono uguali in ampiezza</li>
+  <li>La tensione sull’induttore è in <strong>anticipo</strong> di 90° rispetto alla corrente; la tensione sul condensatore è in <strong>ritardo</strong> di 90°</li>
+  <li>Le due tensioni sono <strong>sfasate di 180°</strong> → si annullano</li>
+  <li>Fra i punti A e B non c’è differenza di potenziale → <strong>impedenza nulla</strong> (cortocircuito)</li>
+</ol>
+
+<h3 id="-confronto-risonanza-serie-vs-parallelo">🔹 Confronto risonanza serie vs parallelo</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Proprietà</th>
+      <th>Parallelo</th>
+      <th>Serie</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Alla risonanza si annullano</td>
+      <td>Le correnti</td>
+      <td>Le tensioni</td>
+    </tr>
+    <tr>
+      <td>Impedenza alla risonanza</td>
+      <td><strong>Infinita</strong> (circuito aperto)</td>
+      <td><strong>Nulla</strong> (cortocircuito)</td>
+    </tr>
+    <tr>
+      <td>Curva della corrente</td>
+      <td>Minimo a $f_0$</td>
+      <td>Massimo a $f_0$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>I circuiti risonanti sono il meccanismo base della <strong>selettività</strong> nei ricevitori radio.</p>
+
+<hr />
+
+<h2 id="-8-fattore-di-merito-q-e-larghezza-di-banda--9605--10923">📐 8. Fattore di merito Q e larghezza di banda (⏱ 96:05 – 109:23)</h2>
+
+<h3 id="-componenti-reali-e-perdite">🔹 Componenti reali e perdite</h3>
+
+<p>Nel mondo reale, i componenti hanno <strong>perdite</strong> (rappresentate da una resistenza parassita):</p>
+
+<ul>
+  <li>I <strong>condensatori</strong> hanno perdite molto basse (campo elettrico confinato tra le armature)</li>
+  <li>Gli <strong>induttori</strong> hanno perdite significative (campo magnetico non confinato, si propaga nello spazio)</li>
+</ul>
+
+<p>Per un buon funzionamento:</p>
+
+<ul>
+  <li>Circuito risonante <strong>parallelo</strong>: la resistenza parassita deve essere <strong>alta</strong> (per non cortocircuitare)</li>
+  <li>Circuito risonante <strong>serie</strong>: la resistenza parassita deve essere <strong>bassa</strong> (per non bloccare la corrente)</li>
+</ul>
+
+<h3 id="-fattore-di-merito-q">🔹 Fattore di merito Q</h3>
+
+<p>Il <strong>fattore di merito</strong> (o <strong>fattore di qualità</strong>) <strong>Q</strong> indica quanto è “buono” un circuito risonante. Un Q alto significa basse perdite e curva di risonanza stretta (selettiva). La relazione con la larghezza di banda è:</p>
+
+<blockquote>
+\[Q = \frac{f_0}{B}\]
+</blockquote>
+
+<p>Dove:</p>
+
+<ul>
+  <li>$f_0$ = frequenza di risonanza</li>
+  <li>$B$ = larghezza di banda (distanza tra le due frequenze di taglio a −3 dB)</li>
+</ul>
+
+<h3 id="-relazione-q--selettività">🔹 Relazione Q – selettività</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Q</th>
+      <th>Curva di risonanza</th>
+      <th>Selettività</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Basso (5–10)</td>
+      <td>Ampia, “spampanata”</td>
+      <td>Bassa</td>
+    </tr>
+    <tr>
+      <td>Alto (50–100+)</td>
+      <td>Stretta, ripida</td>
+      <td>Alta</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Q e B sono <strong>inversamente proporzionali</strong>: aumentando Q, diminuisce la larghezza di banda.</p>
+
+<h3 id="-esercizi-svolti">🔹 Esercizi svolti</h3>
+
+<p><strong>Esercizio 1</strong>: Un filtro passa banda risuona a 20 MHz con larghezza di banda di 2 kHz. Qual è il fattore Q?</p>
+
+\[Q = \frac{f_0}{B} = \frac{20.000.000 \text{ Hz}}{2.000 \text{ Hz}} = 10.000\]
+
+<blockquote>
+  <p>⚠️ Convertire sempre alla stessa unità di misura prima di calcolare!</p>
+</blockquote>
+
+<p><strong>Esercizio 2</strong>: Un filtro passa banda risuona a 5 MHz con Q = 100. Qual è la larghezza di banda?</p>
+
+\[B = \frac{f_0}{Q} = \frac{5.000 \text{ kHz}}{100} = 50 \text{ kHz}\]
+
+<hr />
+
+<h2 id="-9-cristalli-di-quarzo--11418--12202">💎 9. Cristalli di quarzo (⏱ 114:18 – 122:02)</h2>
+
+<h3 id="-piezoelettricità">🔹 Piezoelettricità</h3>
+
+<p>Il quarzo è un materiale <strong>piezoelettrico</strong>: se compresso meccanicamente, genera una tensione sulle sue facce. Il fenomeno è anche <strong>inverso</strong>: applicando una corrente alternata, il quarzo vibra alla sua frequenza di risonanza meccanica.</p>
+
+<p><strong>Esempio pratico</strong>: l’accendino a scintilla da cucina contiene un quarzo; premendo il pulsante si comprime il cristallo, generando una tensione sufficientemente alta da produrre una scintilla.</p>
+
+<h3 id="-risonanza-meccanica">🔹 Risonanza meccanica</h3>
+
+<p>A differenza dei circuiti LC (risonanza elettrica), i quarzi funzionano per <strong>risonanza meccanica</strong>. Il principio è analogo a una <strong>corda di chitarra</strong> o a un <strong>bicchiere di cristallo</strong> colpito con l’unghia: il materiale oscilla a una frequenza determinata dalle sue dimensioni fisiche.</p>
+
+<h3 id="-vantaggi-dei-quarzi-rispetto-ai-circuiti-lc">🔹 Vantaggi dei quarzi rispetto ai circuiti LC</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Caratteristica</th>
+      <th>Circuito LC</th>
+      <th>Quarzo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fattore di merito Q</td>
+      <td>10 – 100</td>
+      <td>Fino a <strong>10.000</strong></td>
+    </tr>
+    <tr>
+      <td>Stabilità in frequenza</td>
+      <td>Moderata</td>
+      <td><strong>Estremamente alta</strong></td>
+    </tr>
+    <tr>
+      <td>Perdite</td>
+      <td>Significative (soprattutto induttore)</td>
+      <td><strong>Minime</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>La frequenza di risonanza dipende dalle <strong>dimensioni fisiche</strong> del cristallo: i quarzi vengono tagliati per risuonare alla frequenza desiderata. La fondamentale arriva fino a circa <strong>20 MHz</strong>; per frequenze superiori si utilizzano le <strong>armoniche</strong> del quarzo.</p>
+
+<h3 id="-aspetto-fisico">🔹 Aspetto fisico</h3>
+
+<p>I quarzi si presentano come piccoli contenitori metallici con due piedini. All’interno c’è una sottilissima lamina di quarzo con due metallizzazioni collegate ai piedini esterni. Dimensioni variabili: nei vecchi baracchini CB (Midland, Tokai) si trovavano quarzi più grandi; i quarzi moderni sono molto più compatti.</p>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li><strong>Filtri</strong> → sfruttano → <strong>Variazione di reattanza con la frequenza</strong></li>
+  <li><strong>Filtro passa basso</strong> → è speculare a → <strong>Filtro passa alto</strong></li>
+  <li><strong>Filtro passa banda</strong> → è combinazione di → <strong>Filtro passa basso + filtro passa alto</strong></li>
+  <li><strong>Filtro elimina banda</strong> → è speculare a → <strong>Filtro passa banda</strong></li>
+  <li><strong>Frequenza di taglio</strong> → corrisponde a → <strong>Metà potenza</strong> oppure <strong>0,707 in tensione</strong></li>
+  <li><strong>Poli del filtro</strong> → determinano → <strong>Ripidità della curva di attenuazione</strong></li>
+  <li><strong>Circuito LC</strong> → entra in → <strong>Risonanza a $f_0 = 1/(2\pi\sqrt{LC})$</strong></li>
+  <li><strong>Risonanza parallelo</strong> → produce → <strong>Impedenza infinita (circuito aperto)</strong></li>
+  <li><strong>Risonanza serie</strong> → produce → <strong>Impedenza nulla (cortocircuito)</strong></li>
+  <li><strong>Fattore di merito Q</strong> → è inversamente proporzionale a → <strong>Larghezza di banda B</strong></li>
+  <li><strong>Quarzo</strong> → usa → <strong>Risonanza meccanica (piezoelettricità)</strong></li>
+  <li><strong>Quarzo</strong> → ha → <strong>Q molto alto (~10.000), grande stabilità</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>I <strong>filtri</strong> sono combinazioni di induttori e condensatori che attenuano o lasciano passare determinate bande di frequenza. Esistono quattro tipi: passa basso, passa alto, passa banda, elimina banda.</li>
+  <li>La <strong>frequenza di taglio</strong> è il punto in cui la potenza si dimezza (−3 dB) oppure la tensione si riduce a $1/\sqrt{2} \approx 0{,}707$. Questi due valori sono equivalenti.</li>
+  <li>Un <strong>circuito risonante parallelo</strong> alla frequenza di risonanza ha impedenza infinita (circuito aperto); un <strong>circuito risonante serie</strong> ha impedenza nulla (cortocircuito). Sono speculari.</li>
+  <li>La <strong>frequenza di risonanza</strong> è $f_0 = 1/(2\pi\sqrt{LC})$, cioè la frequenza dove $X_L = X_C$.</li>
+  <li>Il <strong>fattore di merito Q</strong> indica la qualità/selettività di un circuito risonante: $Q = f_0/B$. Più alto è Q, più stretta è la curva di risonanza.</li>
+  <li>Gli <strong>induttori reali</strong> hanno perdite maggiori dei condensatori perché il campo magnetico non è confinato. Questo limita il Q dei circuiti LC.</li>
+  <li>I <strong>cristalli di quarzo</strong> sfruttano la piezoelettricità per ottenere risonanze meccaniche con Q fino a 10.000, permettendo oscillatori estremamente stabili.</li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>Perché un filtro LC passa basso ha una curva di attenuazione più ripida rispetto a un filtro RC? Cosa si intende per “poli” di un filtro?</li>
+  <li>Spiegare perché la definizione di frequenza di taglio “metà potenza” è equivalente a “tensione pari a $0{,}707$”.</li>
+  <li>In un circuito risonante parallelo, le correnti in L e C si annullano alla risonanza. Perché l’impedenza vista dall’esterno diventa infinita e non nulla?</li>
+  <li>Un circuito risonante serie ha $f_0$ = 7 MHz e $Q$ = 200. Qual è la larghezza di banda? Come cambierebbe il comportamento se Q fosse 20?</li>
+  <li>Perché le perdite degli induttori sono molto maggiori di quelle dei condensatori? In che modo questo influisce sul fattore Q?</li>
+  <li>Un radioamatore abita vicino a un trasmettitore FM commerciale e la sua radio non funziona. Quale tipo di filtro dovrebbe usare e perché?</li>
+  <li>Spiegare l’analogia tra la risonanza meccanica di una corda di chitarra e la risonanza di un cristallo di quarzo.</li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>Banda passante</strong> — intervallo di frequenze che un filtro lascia passare con attenuazione trascurabile</li>
+  <li><strong>Circuito risonante</strong> — circuito LC in cui a una specifica frequenza ($f_0$) le reattanze si annullano, producendo impedenza massima (parallelo) o minima (serie)</li>
+  <li><strong>Fattore di merito (Q)</strong> — parametro che indica la qualità di un circuito risonante; $Q = f_0/B$; valori alti indicano basse perdite e alta selettività</li>
+  <li><strong>Filtro elimina banda (notch)</strong> — filtro che attenua le frequenze comprese tra due frequenze di taglio</li>
+  <li><strong>Filtro passa alto</strong> — filtro che lascia passare le frequenze superiori alla frequenza di taglio</li>
+  <li><strong>Filtro passa banda</strong> — filtro che lascia passare le frequenze comprese tra due frequenze di taglio</li>
+  <li><strong>Filtro passa basso</strong> — filtro che lascia passare le frequenze inferiori alla frequenza di taglio</li>
+  <li><strong>Frequenza di risonanza ($f_0$)</strong> — frequenza alla quale $X_L = X_C$ in un circuito LC; $f_0 = 1/(2\pi\sqrt{LC})$</li>
+  <li><strong>Frequenza di taglio</strong> — frequenza alla quale la potenza di uscita di un filtro si dimezza (−3 dB) o la tensione scende a $0{,}707$ del valore in banda passante</li>
+  <li><strong>Larghezza di banda (B)</strong> — ampiezza dell’intervallo di frequenze entro il quale un circuito risonante o un filtro opera efficacemente</li>
+  <li><strong>Piezoelettricità</strong> — proprietà di materiali cristallini di generare tensione quando compressi meccanicamente (e viceversa)</li>
+  <li><strong>Polo</strong> — in un filtro, ogni componente reattivo aggiunge un polo; più poli → curva di attenuazione più ripida</li>
+  <li><strong>Quadripolo</strong> — dispositivo con due terminali di ingresso e due di uscita (es. un filtro)</li>
+  <li><strong>Quarzo</strong> — cristallo piezoelettrico usato come risonatore meccanico ad altissimo Q per oscillatori stabili</li>
+  <li><strong>Resistenza parassita</strong> — resistenza intrinseca non desiderata di un componente reale, che rappresenta le perdite di energia</li>
+  <li><strong>Selettività</strong> — capacità di un ricevitore di discriminare un segnale rispetto ad altri di frequenza diversa</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatori</strong>: Paolo (lezione principale su filtri, risonanza e quarzi), Sauro (quiz e ripasso lezione 05)</li>
+  <li>📋 <strong>Coordinamento</strong>: Fabrizio, Alessio</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Campo</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Lezione</strong></td>
+      <td>06</td>
+    </tr>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td>9 aprile 2025</td>
+    </tr>
+    <tr>
+      <td><strong>Durata</strong></td>
+      <td>~2 ore e 30 minuti</td>
+    </tr>
+    <tr>
+      <td><strong>Numero argomenti</strong></td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td><strong>Parole chiave</strong></td>
+      <td>filtri, passa basso, passa alto, passa banda, elimina banda, frequenza di taglio, $0{,}707$, $-3$ dB, circuito risonante, risonanza, $f_0 = 1/(2\pi\sqrt{LC})$, impedenza infinita, impedenza nulla, fattore di merito Q, $Q = f_0/B$, larghezza di banda, quarzo, piezoelettricità, selettività</td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+</body>
+</html>

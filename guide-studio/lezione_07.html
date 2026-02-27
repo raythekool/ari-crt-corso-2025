@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 07 - Amplificatori - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/">🏠 Home</a>
+    <a href="/guide-studio/">📖 Guide di Studio</a>
+    <a href="/glossario.html">📚 Glossario</a>
+    <a href="/domande-esame.html">❓ Domande</a>
+    <a href="/risorse.html">🔗 Risorse</a>
+  </nav>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/guide-studio/lezione_06.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/guide-studio/lezione_08.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/guide-studio/lezione_07.html" selected>📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-07---amplificatori">📘 Lezione 07 - Amplificatori</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia</strong>: Elettronica e Radiotecnica per la licenza di radioamatore</li>
+  <li><strong>Argomento</strong>: Modi di emissione (AM, SSB, FM), introduzione alle onde radio e lunghezza d’onda</li>
+  <li><strong>Tempo di studio stimato</strong>: 90–110 minuti</li>
+  <li><strong>Prerequisiti</strong>: Conoscenza dei filtri, circuiti risonanti, fattore Q (Lezione 06); concetti base di corrente alternata, frequenza, periodo, sinusoidi (Lezioni 03-05)</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Comprendere i tre principali tipi di modulazione: AM, FM, PM</li>
+      <li>Calcolare l’indice di modulazione AM e riconoscere i casi di sotto-modulazione, modulazione piena e sovra-modulazione</li>
+      <li>Descrivere lo spettro AM con portante e bande laterali, e calcolarne la distribuzione di potenza</li>
+      <li>Comprendere il principio della SSB e i suoi vantaggi rispetto all’AM</li>
+      <li>Distinguere splatter da armoniche</li>
+      <li>Comprendere la modulazione FM, deviazione, indice di modulazione FM</li>
+      <li>Confrontare FM a banda larga (broadcast) e FM a banda stretta (radioamatoriale)</li>
+      <li>Conoscere la formula della lunghezza d’onda $\lambda = 300 / f_{MHz}$</li>
+      <li>Orientarsi nella tabella internazionale delle bande di frequenza</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h3 id="1--ripasso-quiz-lezione-06--00031011">1. 🔍 Ripasso Quiz Lezione 06 (⏱ 00:03–10:11)</h3>
+
+<p>La lezione si apre con la correzione dei quiz assegnati nella lezione precedente, dedicata a filtri e circuiti risonanti. Vengono rivisti i seguenti concetti chiave:</p>
+
+<ul>
+  <li><strong>Filtro elimina banda</strong>: è un filtro che attenua una certa banda di frequenze, lasciando passare quelle al di sotto e al di sopra. Si può realizzare mettendo in parallelo un filtro passa basso e un filtro passa alto.</li>
+  <li><strong>Filtro passa basso</strong>: lascia passare le frequenze al di sotto della frequenza di taglio e attenua quelle superiori. La <strong>frequenza di taglio</strong> è il punto in cui la tensione di uscita scende a <strong>0,707</strong> della tensione massima (corrispondente a metà potenza, cioè −3 dB).</li>
+  <li><strong>Circuito risonante parallelo</strong>: alla frequenza di risonanza, l’impedenza è <strong>massima</strong> (teoricamente infinita). È selettivo: si comporta come un filtro passa banda.</li>
+  <li><strong>Circuito risonante serie</strong>: alla frequenza di risonanza, l’impedenza è <strong>minima</strong> e uguale alla sola resistenza $R$ del circuito, poiché la reattanza induttiva e quella capacitiva si annullano ($X_L = X_C$).</li>
+  <li><strong>Fattore di qualità Q</strong> nel circuito risonante serie: è dato dalla formula $Q = \frac{X_L}{R}$ (o equivalentemente $Q = \frac{X_C}{R}$). Maggiore è $Q$, più il circuito è selettivo e la banda passante più stretta.</li>
+  <li><strong>Filtri in serie (cascata)</strong>: collegando più filtri dello stesso tipo in serie, l’attenuazione complessiva aumenta e la curva di risposta diventa più ripida, migliorando la selettività.</li>
+  <li><strong>Impedenza di un circuito LRC serie alla risonanza</strong>: alla frequenza di risonanza, $Z = R$, poiché le reattanze si cancellano.</li>
+</ul>
+
+<hr />
+
+<h3 id="2--introduzione-ai-modi-di-emissione-e-alla-modulazione--10331713">2. 📡 Introduzione ai Modi di Emissione e alla Modulazione (⏱ 10:33–17:13)</h3>
+
+<h4 id="-il-concetto-di-modulazione">🔹 Il concetto di modulazione</h4>
+
+<p>Per trasmettere informazione via radio è necessario un segnale ad alta frequenza chiamato <strong>portante</strong> (carrier). La portante, da sola, non trasporta alcuna informazione: è una sinusoide pura a frequenza costante. L’operazione che permette di “attaccare” l’informazione (voce, musica, dati) alla portante si chiama <strong>modulazione</strong>.</p>
+
+<p><strong>Modulazione</strong> — Processo mediante il quale un segnale a bassa frequenza (il segnale modulante, ad esempio la voce) modifica una o più caratteristiche della portante ad alta frequenza per trasportare informazione.</p>
+
+<p>La portante è una sinusoide descritta da tre parametri fondamentali:</p>
+
+<ul>
+  <li><strong>Ampiezza</strong></li>
+  <li><strong>Frequenza</strong></li>
+  <li><strong>Fase</strong></li>
+</ul>
+
+<p>Ciascuno di questi parametri può essere variato dal segnale modulante, dando origine ai tre tipi fondamentali di modulazione:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo</th>
+      <th>Parametro variato</th>
+      <th>Codice ITU</th>
+      <th>Denominazione</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>AM</strong></td>
+      <td>Ampiezza</td>
+      <td><strong>A3E</strong></td>
+      <td>Modulazione di ampiezza</td>
+    </tr>
+    <tr>
+      <td><strong>FM</strong></td>
+      <td>Frequenza</td>
+      <td><strong>F3E</strong></td>
+      <td>Modulazione di frequenza</td>
+    </tr>
+    <tr>
+      <td><strong>PM</strong></td>
+      <td>Fase</td>
+      <td>—</td>
+      <td>Modulazione di fase</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>La <strong>modulazione di fase (PM)</strong> è meno utilizzata nell’uso vocale radioamatoriale ed è tipica delle trasmissioni dati. Le due modulazioni principali nell’ambito radioamatoriale sono AM e FM.</p>
+
+<blockquote>
+  <p>“La portante da sola non trasporta alcuna informazione. È come un treno vuoto: deve essere caricato con qualcosa per essere utile.”</p>
+</blockquote>
+
+<hr />
+
+<h3 id="3--modulazione-di-ampiezza-am-in-dettaglio--17334903">3. 📈 Modulazione di Ampiezza (AM) in Dettaglio (⏱ 17:33–49:03)</h3>
+
+<h4 id="-principio-di-funzionamento">🔹 Principio di funzionamento</h4>
+
+<p>Nella modulazione di ampiezza, il <strong>segnale modulante</strong> (la voce, ad esempio) varia l’<strong>ampiezza</strong> della portante. Quando si parla nel microfono, l’ampiezza della portante cresce e decresce seguendo l’andamento del segnale audio. La frequenza della portante rimane costante.</p>
+
+<p>L’<strong>inviluppo</strong> del segnale modulato riproduce la forma d’onda del segnale modulante. Se il segnale modulante è una sinusoide, l’inviluppo sarà sinusoidale; se è la voce, seguirà le variazioni della voce.</p>
+
+<h4 id="-indice-di-modulazione-am">🔹 Indice di modulazione AM</h4>
+
+<p>L’<strong>indice di modulazione</strong> (indicato con $m$) quantifica il rapporto tra l’ampiezza del segnale modulante e l’ampiezza della portante:</p>
+
+\[m = \frac{V_m}{V_p}\]
+
+<p>dove:</p>
+
+<ul>
+  <li>$V_m$ = ampiezza del segnale modulante</li>
+  <li>$V_p$ = ampiezza della portante</li>
+</ul>
+
+<p>Si distinguono tre casi fondamentali:</p>
+
+<ol>
+  <li>
+    <p><strong>$m &lt; 1$ (sotto-modulazione, es. $m = 0{,}5$ ovvero 50%)</strong>: La portante è modulata solo parzialmente. Il segnale trasmesso è corretto ma <strong>inefficiente</strong>, perché molta potenza resta nella portante che non trasporta informazione. Il segnale ricevuto sarà più debole rispetto al caso ottimale.</p>
+  </li>
+  <li>
+    <p><strong>$m = 1$ (100%, modulazione piena)</strong>: Caso ottimale. L’ampiezza della portante varia dal doppio del suo valore a zero. Tutta la capacità di modulazione è sfruttata, massimizzando l’efficienza nella trasmissione dell’informazione.</p>
+  </li>
+  <li>
+    <p><strong>$m &gt; 1$ (sovra-modulazione, es. $m &gt; 100\%$)</strong>: Situazione da evitare assolutamente. L’ampiezza dell’inviluppo dovrebbe andare sotto lo zero, il che è fisicamente impossibile. Il segnale viene <strong>tagliato</strong> (clipping), producendo una distorsione grave che genera componenti spurie note come <strong>splatter</strong>.</p>
+  </li>
+</ol>
+
+<blockquote>
+  <p><strong>⚠️ Errore comune</strong>: Confondere splatter con armoniche. Sono due fenomeni distinti (vedi sezione dedicata più avanti).</p>
+</blockquote>
+
+<h4 id="-controllo-del-guadagno-microfonico">🔹 Controllo del guadagno microfonico</h4>
+
+<p>Nei trasmettitori AM e SSB è presente una manopola chiamata <strong>guadagno microfonico</strong> (mic gain) che permette di regolare l’ampiezza del segnale modulante. Va regolata con attenzione:</p>
+
+<ul>
+  <li>Troppo basso → sotto-modulazione, segnale debole</li>
+  <li>Troppo alto → sovra-modulazione, distorsione e splatter</li>
+  <li>Il valore ideale si raggiunge osservando un indicatore (strumento di misura o LED) presente sul trasmettitore</li>
+</ul>
+
+<h4 id="-lo-splatter">🔹 Lo splatter</h4>
+
+<p>Lo <strong>splatter</strong> è un fenomeno di distorsione causato dalla sovra-modulazione ($m &gt; 1$). Quando il segnale modulato viene “tagliato”, si generano componenti spettrali spurie che si estendono sui canali adiacenti, disturbando le comunicazioni di altri operatori.</p>
+
+<p>Lo splatter si manifesta come un <strong>allargamento del segnale</strong> nella banda, che fuoriesce dal canale assegnato e interferisce con i canali vicini.</p>
+
+<h4 id="-spettro-del-segnale-am--dominio-della-frequenza">🔹 Spettro del segnale AM — Dominio della frequenza</h4>
+
+<p>Un segnale AM nel <strong>dominio della frequenza</strong> è composto da tre componenti:</p>
+
+<ol>
+  <li><strong>Portante</strong> ($f_c$): al centro, alla frequenza del trasmettitore</li>
+  <li><strong>Banda laterale superiore (USB — Upper Side Band)</strong>: a frequenza $f_c + f_m$</li>
+  <li><strong>Banda laterale inferiore (LSB — Lower Side Band)</strong>: a frequenza $f_c - f_m$</li>
+</ol>
+
+<p>dove $f_m$ è la frequenza del segnale modulante.</p>
+
+<p>La <strong>larghezza di banda</strong> occupata da un segnale AM è:</p>
+
+\[B_{AM} = 2 \times f_{m_{max}}\]
+
+<p>Per la voce umana ($f_{m_{max}} \approx 3{-}3{,}5$ kHz), la banda occupata è circa <strong>6–7 kHz</strong>. Esempio pratico: nella CB (Citizens Band) i canali sono distanziati di 10 kHz.</p>
+
+<h4 id="-distribuzione-della-potenza-in-am">🔹 Distribuzione della potenza in AM</h4>
+
+<p>A modulazione piena ($m = 1$, 100%), la potenza si distribuisce come segue:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Componente</th>
+      <th>Quota di potenza</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Portante</td>
+      <td><strong>2/3</strong> (≈ 66,7%)</td>
+    </tr>
+    <tr>
+      <td>Banda laterale superiore (USB)</td>
+      <td><strong>1/6</strong> (≈ 16,7%)</td>
+    </tr>
+    <tr>
+      <td>Banda laterale inferiore (LSB)</td>
+      <td><strong>1/6</strong> (≈ 16,7%)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Questo evidenzia il grande svantaggio dell’AM: <strong>due terzi della potenza</strong> sono impiegati per la portante, che <strong>non contiene alcuna informazione</strong>. Solo un terzo della potenza trasporta effettivamente il messaggio, distribuito equamente tra le due bande laterali.</p>
+
+<blockquote>
+  <p>“In AM, due terzi della potenza se ne vanno nella portante, che è come mandare un treno pieno di vagoni vuoti.”</p>
+</blockquote>
+
+<hr />
+
+<h3 id="4--ssb--banda-laterale-unica-single-side-band--49037316">4. 📡 SSB — Banda Laterale Unica (Single Side Band) (⏱ 49:03–73:16)</h3>
+
+<h4 id="-il-principio-della-ssb">🔹 Il principio della SSB</h4>
+
+<p>La SSB nasce dall’osservazione che:</p>
+
+<ul>
+  <li>La <strong>portante</strong> non trasporta informazione (spreco di 2/3 della potenza)</li>
+  <li>Le due <strong>bande laterali</strong> contengono la stessa informazione (sono simmetriche)</li>
+</ul>
+
+<p>La soluzione è eliminare la portante <strong>e</strong> una delle due bande laterali, trasmettendo solo la banda laterale rimanente:</p>
+
+<ul>
+  <li><strong>USB (Upper Side Band)</strong>: si trasmette solo la banda laterale superiore. Codice ITU: <strong>J3E</strong>.</li>
+  <li><strong>LSB (Lower Side Band)</strong>: si trasmette solo la banda laterale inferiore.</li>
+</ul>
+
+<p>Per convenzione radioamatoriale:</p>
+
+<ul>
+  <li>Sulle <strong>onde corte HF sotto i 10 MHz</strong> si usa prevalentemente la <strong>LSB</strong></li>
+  <li>Sulle <strong>onde corte HF sopra i 10 MHz</strong> e in <strong>VHF</strong> si usa prevalentemente la <strong>USB</strong></li>
+</ul>
+
+<h4 id="-vantaggi-della-ssb-rispetto-allam">🔹 Vantaggi della SSB rispetto all’AM</h4>
+
+<ol>
+  <li><strong>Efficienza di potenza</strong>: tutta la potenza trasmessa contiene informazione (niente spreco nella portante). A parità di potenza totale, il segnale utile è molto più forte.</li>
+  <li><strong>Larghezza di banda dimezzata</strong>: la banda occupata è circa <strong>3 kHz</strong> (la metà rispetto ai 6–7 kHz dell’AM). In un dato spazio di spettro ci stanno il doppio dei canali.</li>
+  <li><strong>Nessuna emissione in silenzio</strong>: quando l’operatore non parla, il trasmettitore non emette potenza (non c’è portante), a differenza dell’AM dove la portante è sempre presente. Questo riduce il consumo energetico e l’interferenza.</li>
+  <li><strong>Migliore sensibilità in ricezione</strong>: meno rumore nella banda più stretta.</li>
+</ol>
+
+<h4 id="-svantaggi-della-ssb">🔹 Svantaggi della SSB</h4>
+
+<ol>
+  <li><strong>Apparecchiatura più complessa e costosa</strong>: il ricevitore deve rigenerare la portante localmente tramite un oscillatore (BFO — Beat Frequency Oscillator).</li>
+  <li><strong>Sintonia più critica</strong>: in SSB è necessario sintonizzarsi con precisione. Uno spostamento anche piccolo della frequenza del ricevitore altera il tono della voce ricevuta, fino a renderla incomprensibile. In AM, una leggera imprecisione nella sintonia non altera significativamente la qualità audio.</li>
+</ol>
+
+<h4 id="-portante-residua-in-ssb">🔹 Portante residua in SSB</h4>
+
+<p>Anche in un trasmettitore SSB rimane una minima portante residua. In un trasmettitore da 100 W, la portante residua è tipicamente dell’ordine di <strong>10–100 mW</strong>, trascurabile in pratica.</p>
+
+<hr />
+
+<h3 id="5--splatter-vs-armoniche-distinzione-fondamentale--59167316">5. ⚡ Splatter vs Armoniche: Distinzione Fondamentale (⏱ 59:16–73:16)</h3>
+
+<p>Un chiarimento importante emerso durante la lezione riguarda la distinzione tra <strong>splatter</strong> e <strong>armoniche</strong>, due fenomeni diversi spesso confusi:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Caratteristica</th>
+      <th>Splatter</th>
+      <th>Armoniche</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Causa</strong></td>
+      <td>Sovra-modulazione ($m &gt; 1$)</td>
+      <td>Saturazione dell’amplificatore (non linearità)</td>
+    </tr>
+    <tr>
+      <td><strong>Dove si manifestano</strong></td>
+      <td><strong>In banda</strong> (canali adiacenti)</td>
+      <td><strong>Fuori banda</strong> (multipli della frequenza fondamentale)</td>
+    </tr>
+    <tr>
+      <td><strong>Frequenze coinvolte</strong></td>
+      <td>Vicine alla frequenza di emissione</td>
+      <td>$2f$, $3f$, $4f$, …</td>
+    </tr>
+    <tr>
+      <td><strong>Effetto</strong></td>
+      <td>Disturba le stazioni adiacenti</td>
+      <td>Può interferire con altri servizi radio</td>
+    </tr>
+    <tr>
+      <td><strong>Rimedio</strong></td>
+      <td>Ridurre il guadagno microfonico</td>
+      <td>Filtri armonici in uscita</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Lo <strong>splatter</strong> è un fenomeno <strong>in banda</strong>: il segnale si allarga e invade i canali adiacenti. Le <strong>armoniche</strong> sono un fenomeno <strong>fuori banda</strong>: si generano segnali a frequenze multiple della fondamentale (se trasmetto a 7 MHz, le armoniche sono a 14 MHz, 21 MHz, 28 MHz, ecc.).</p>
+
+<hr />
+
+<h3 id="6--modulazione-di-frequenza-fm--73518428">6. 📻 Modulazione di Frequenza (FM) (⏱ 73:51–84:28)</h3>
+
+<h4 id="-principio-di-funzionamento-1">🔹 Principio di funzionamento</h4>
+
+<p>Nella modulazione di frequenza, l’ampiezza della portante <strong>resta costante</strong>, mentre è la <strong>frequenza</strong> della portante a variare in funzione del segnale modulante. Quando si parla, la frequenza della portante aumenta e diminuisce seguendo l’andamento del segnale audio.</p>
+
+<h4 id="-deviazione-e-indice-di-modulazione-fm">🔹 Deviazione e indice di modulazione FM</h4>
+
+<p>La <strong>deviazione di frequenza</strong> ($\Delta f$) è lo spostamento massimo della frequenza della portante rispetto al suo valore nominale.</p>
+
+<p>L’<strong>indice di modulazione FM</strong> è definito come:</p>
+
+\[m_{FM} = \frac{\Delta f}{f_m}\]
+
+<p>dove:</p>
+
+<ul>
+  <li>$\Delta f$ = deviazione massima di frequenza</li>
+  <li>$f_m$ = frequenza del segnale modulante</li>
+</ul>
+
+<p>A differenza dell’AM, l’indice di modulazione FM <strong>non ha un limite superiore intrinseco</strong> (può superare 1 senza distorsione). Tuttavia, un indice più alto produce un segnale più largo in frequenza, quindi deve essere regolato per rispettare le norme sull’occupazione di banda.</p>
+
+<h4 id="-fm-broadcast-vs-fm-radioamatoriale-narrowband">🔹 FM Broadcast vs FM Radioamatoriale (Narrowband)</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parametro</th>
+      <th>FM Broadcast (radio commerciale)</th>
+      <th>FM Radioamatoriale (narrowband)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Indice di modulazione</strong></td>
+      <td>~5</td>
+      <td>~1</td>
+    </tr>
+    <tr>
+      <td><strong>Deviazione</strong></td>
+      <td>±75 kHz</td>
+      <td>±4–5 kHz</td>
+    </tr>
+    <tr>
+      <td><strong>Banda audio massima</strong></td>
+      <td>15 kHz</td>
+      <td>~3 kHz</td>
+    </tr>
+    <tr>
+      <td><strong>Spaziatura canali</strong></td>
+      <td>~300 kHz</td>
+      <td>12,5–25 kHz</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>La FM radioamatoriale è detta <strong>a banda stretta</strong> (narrowband FM, NBFM).</p>
+
+<h4 id="-vantaggi-della-fm">🔹 Vantaggi della FM</h4>
+
+<ol>
+  <li><strong>Insensibilità ai disturbi di ampiezza</strong>: poiché l’informazione è nella frequenza e non nell’ampiezza, i disturbi atmosferici, le scariche elettriche e i rumori artificiali (che variano l’ampiezza del segnale) non influenzano la ricezione FM. Il ricevitore FM ha un <strong>limitatore</strong> che taglia le variazioni di ampiezza.</li>
+  <li><strong>Efficienza del trasmettitore</strong>: un trasmettitore FM può raggiungere un’efficienza dell’<strong>80%</strong> (assorbe 200 W dalla rete e genera 160 W RF), contro il 50% tipico di un trasmettitore AM/SSB.</li>
+  <li><strong>Potenza costante</strong>: la potenza trasmessa non varia con la modulazione (a differenza dell’AM, dove la potenza aumenta con la modulazione).</li>
+  <li><strong>Sintonia non critica</strong>: non richiede precisione nella sintonia come la SSB. Alcuni ricevitori FM hanno persino la ricerca automatica della frequenza.</li>
+  <li><strong>Nessun controllo manuale della deviazione</strong>: a differenza dell’AM/SSB, i trasmettitori FM regolano automaticamente la deviazione, senza necessità della manopola di guadagno microfonico.</li>
+</ol>
+
+<h4 id="-svantaggio-principale-della-fm">🔹 Svantaggio principale della FM</h4>
+
+<p>La FM occupa una <strong>banda molto più larga</strong> rispetto alla SSB. Per questo motivo:</p>
+
+<ul>
+  <li>La FM è usata principalmente nelle bande <strong>VHF e UHF</strong> (144 MHz, 430 MHz, ecc.) dove c’è ampio spazio</li>
+  <li>La FM <strong>non è ammessa</strong> nelle bande delle onde corte (HF) a livello internazionale, dove lo spazio è limitato e si usa prevalentemente la SSB</li>
+</ul>
+
+<hr />
+
+<h3 id="7--regolazione-della-banda-del-ricevitore--85278709">7. 🔍 Regolazione della Banda del Ricevitore (⏱ 85:27–87:09)</h3>
+
+<p>Durante la sessione di domande, viene trattato il tema della <strong>regolazione della larghezza di banda</strong> del ricevitore. Il ricevitore è paragonato a una <strong>finestra aperta sul mondo</strong>: più la finestra è ampia, più rumore entra; più è stretta, più il segnale desiderato può emergere dal rumore.</p>
+
+<ul>
+  <li><strong>Uso normale</strong>: la regolazione di banda non è necessaria</li>
+  <li><strong>Ricerca di segnali deboli</strong>: si restringe la banda al minimo indispensabile per ricevere il segnale, eliminando il più possibile il rumore e i segnali adiacenti. Questo è utile quando si cercano collegamenti difficili (DX) o segnali deboli immersi nei disturbi</li>
+</ul>
+
+<hr />
+
+<h3 id="8--introduzione-alle-onde-radio--874010402">8. 📡 Introduzione alle Onde Radio (⏱ 87:40–104:02)</h3>
+
+<h4 id="-cosè-unonda-radio">🔹 Cos’è un’onda radio</h4>
+
+<p>Un’<strong>onda</strong> è una <strong>perturbazione che si propaga</strong>. L’analogia classica è il sasso lanciato in uno stagno: dal punto d’impatto si generano increspature concentriche che si allontanano. Le antenne fanno la stessa cosa: il trasmettitore invia un segnale elettrico all’antenna, la corrente che scorre genera un <strong>campo elettromagnetico</strong> che si propaga nello spazio come un’onda radio.</p>
+
+<p><strong>Onda elettromagnetica</strong> — Perturbazione del campo elettrico e magnetico che si propaga nello spazio alla velocità della luce, generata da cariche elettriche in movimento su un conduttore (antenna).</p>
+
+<h4 id="-velocità-di-propagazione">🔹 Velocità di propagazione</h4>
+
+<p>Le onde radio viaggiano alla <strong>velocità della luce</strong>:</p>
+
+\[c \approx 300.000 \text{ km/s} = 3 \times 10^8 \text{ m/s}\]
+
+<h4 id="-lunghezza-donda">🔹 Lunghezza d’onda</h4>
+
+<p>La <strong>lunghezza d’onda</strong> ($\lambda$, lettera greca “lambda”) è la distanza percorsa dall’onda durante un ciclo completo. È legata alla frequenza dalla relazione fondamentale:</p>
+
+\[\boxed{\lambda = \frac{c}{f}}\]
+
+<p>Nella forma semplificata usata in pratica:</p>
+
+\[\boxed{\lambda \text{ (in metri)} = \frac{300}{f \text{ (in MHz)}}}\]
+
+<p>Questa è la formula più importante da ricordare per l’esame.</p>
+
+<h4 id="-esempi-di-calcolo">🔹 Esempi di calcolo</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Frequenza</th>
+      <th>Calcolo</th>
+      <th>Lunghezza d’onda</th>
+      <th>Nome banda</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>7 MHz</td>
+      <td>$300 / 7 = 42{,}85$ m</td>
+      <td>≈ 40 m</td>
+      <td>Banda dei 40 m</td>
+    </tr>
+    <tr>
+      <td>14,2 MHz</td>
+      <td>$300 / 14{,}2 = 21{,}12$ m</td>
+      <td>≈ 21 m</td>
+      <td>Banda dei 20 m</td>
+    </tr>
+    <tr>
+      <td>3,5 MHz</td>
+      <td>$300 / 3{,}5 = 85{,}7$ m</td>
+      <td>≈ 80 m</td>
+      <td>Banda degli 80 m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Le antenne radioamatoriali hanno dimensioni proporzionali alla lunghezza d’onda (tipicamente $\lambda/2$ o frazioni di essa).</p>
+
+<h4 id="-classificazione-internazionale-delle-bande-di-frequenza">🔹 Classificazione internazionale delle bande di frequenza</h4>
+
+<p>Le frequenze radio sono suddivise in bande con denominazioni internazionali standardizzate. Le frequenze scalano di un fattore 3 e le lunghezze d’onda di un fattore 10:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sigla</th>
+      <th>Denominazione</th>
+      <th>Frequenza</th>
+      <th>Lunghezza d’onda</th>
+      <th>Nome comune</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LF</td>
+      <td>Low Frequency</td>
+      <td>30–300 kHz</td>
+      <td>10–1 km</td>
+      <td>Onde lunghe</td>
+    </tr>
+    <tr>
+      <td>MF</td>
+      <td>Medium Frequency</td>
+      <td>300 kHz – 3 MHz</td>
+      <td>1000–100 m</td>
+      <td>Onde medie</td>
+    </tr>
+    <tr>
+      <td>HF</td>
+      <td>High Frequency</td>
+      <td>3–30 MHz</td>
+      <td>100–10 m</td>
+      <td>Onde corte</td>
+    </tr>
+    <tr>
+      <td>VHF</td>
+      <td>Very High Frequency</td>
+      <td>30–300 MHz</td>
+      <td>10–1 m</td>
+      <td>Onde ultracorte</td>
+    </tr>
+    <tr>
+      <td>UHF</td>
+      <td>Ultra High Frequency</td>
+      <td>300 MHz – 3 GHz</td>
+      <td>1–0,1 m</td>
+      <td>Microonde</td>
+    </tr>
+    <tr>
+      <td>SHF</td>
+      <td>Super High Frequency</td>
+      <td>3–30 GHz</td>
+      <td>10–1 cm</td>
+      <td>Microonde</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="-bande-radioamatoriali">🔹 Bande radioamatoriali</h4>
+
+<p>I radioamatori dispongono di bande di frequenza distribuite in diversi segmenti dello spettro:</p>
+
+<ul>
+  <li><strong>LF</strong>: 137 kHz (banda dei 2200 m)</li>
+  <li><strong>MF</strong>: 472 kHz (banda dei 630 m), 1800 kHz (banda dei 160 m)</li>
+  <li><strong>HF</strong>: numerose bande — 80 m (3,5 MHz), 40 m (7 MHz), 30 m (10 MHz), 20 m (14 MHz), 17 m (18 MHz), 15 m (21 MHz), 12 m (24 MHz), 10 m (28 MHz)</li>
+  <li><strong>VHF</strong>: 50 MHz (6 m), 144 MHz (2 m)</li>
+  <li><strong>UHF</strong>: 430 MHz (70 cm) e superiori</li>
+</ul>
+
+<p>Questa tabella è parte del programma d’esame per la parte normativa.</p>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li><strong>Modulazione</strong> → processo per aggiungere informazione alla → <strong>Portante</strong></li>
+  <li><strong>Portante</strong> → ha tre parametri: <strong>Ampiezza</strong>, <strong>Frequenza</strong>, <strong>Fase</strong></li>
+  <li><strong>AM</strong> → varia l’<strong>Ampiezza</strong> della portante</li>
+  <li><strong>FM</strong> → varia la <strong>Frequenza</strong> della portante</li>
+  <li><strong>PM</strong> → varia la <strong>Fase</strong> della portante</li>
+  <li><strong>AM</strong> → genera → <strong>Bande laterali</strong> (USB e LSB) + portante</li>
+  <li><strong>Indice di modulazione AM</strong> ($m$) → se $m &gt; 1$ → produce <strong>Splatter</strong></li>
+  <li><strong>Splatter</strong> → è diverso da → <strong>Armoniche</strong> (in banda vs fuori banda)</li>
+  <li><strong>SSB</strong> → è un caso speciale di → <strong>AM</strong> (senza portante e senza una banda laterale)</li>
+  <li><strong>SSB</strong> → è più efficiente di → <strong>AM</strong> (tutta la potenza trasporta informazione)</li>
+  <li><strong>FM</strong> → è insensibile a → <strong>Disturbi di ampiezza</strong> (atmosferici, artificiali)</li>
+  <li><strong>FM</strong> → occupa più <strong>banda</strong> di → <strong>SSB</strong> → per questo si usa in → <strong>VHF/UHF</strong></li>
+  <li><strong>Lunghezza d’onda</strong> ($\lambda$) → è inversamente proporzionale alla → <strong>Frequenza</strong> ($f$)</li>
+  <li><strong>$\lambda = 300/f_{MHz}$</strong> → formula fondamentale per → calcolo antenne e classificazione bande</li>
+  <li><strong>Bande radioamatoriali</strong> → distribuite da <strong>LF</strong> a <strong>SHF</strong></li>
+  <li><strong>Onda elettromagnetica</strong> → si propaga alla → <strong>velocità della luce</strong> ($c = 300.000$ km/s)</li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>
+    <p>La <strong>modulazione</strong> è il processo che permette di trasportare informazione su una portante radio. I tre tipi fondamentali sono AM (ampiezza), FM (frequenza) e PM (fase), classificati con codici ITU: AM = A3E, FM = F3E, SSB = J3E.</p>
+  </li>
+  <li>
+    <p>In <strong>AM</strong>, l’indice di modulazione $m = V_m / V_p$ deve idealmente essere pari a 1 (100%). Se $m &gt; 1$, si produce <strong>splatter</strong> — allargamento del segnale che disturba i canali adiacenti.</p>
+  </li>
+  <li>
+    <p>Lo <strong>spettro AM</strong> è composto dalla portante e da due bande laterali (USB e LSB). A modulazione piena, <strong>2/3 della potenza</strong> sta nella portante (che non trasporta informazione) e solo <strong>1/3</strong> nelle bande laterali.</p>
+  </li>
+  <li>
+    <p>La <strong>SSB</strong> elimina portante e una banda laterale, ottenendo: tutta la potenza utile, metà della banda occupata, nessuna emissione in silenzio. Per contro, richiede apparecchiatura più complessa e sintonia precisa.</p>
+  </li>
+  <li>
+    <p>Lo <strong>splatter</strong> (in banda, da sovra-modulazione) è concettualmente diverso dalle <strong>armoniche</strong> (fuori banda, da saturazione dell’amplificatore). Rimedi diversi: mic gain per lo splatter, filtri armonici per le armoniche.</p>
+  </li>
+  <li>
+    <p>In <strong>FM</strong>, la potenza trasmessa è costante, l’indice di modulazione $m_{FM} = \Delta f / f_m$ può superare 1, e i disturbi di ampiezza non influenzano la ricezione. L’efficienza del trasmettitore può raggiungere l’80%.</p>
+  </li>
+  <li>
+    <p>La FM radioamatoriale è <strong>a banda stretta</strong> (NBFM): deviazione ±4–5 kHz, indice ~1. La FM broadcast ha indice ~5 e deviazione ±75 kHz.</p>
+  </li>
+  <li>
+    <p>La FM è usata in <strong>VHF/UHF</strong> (dove c’è spazio), non è ammessa in <strong>HF</strong> (onde corte) a livello internazionale per la sua eccessiva occupazione di banda.</p>
+  </li>
+  <li>
+    <p>La <strong>lunghezza d’onda</strong> si calcola con $\lambda = 300 / f_{MHz}$ [m]. È la formula fondamentale per dimensionare le antenne e classificare le bande (es. 7 MHz → ≈ 40 m → “banda dei 40 m”).</p>
+  </li>
+  <li>
+    <p>Le bande di frequenza sono classificate internazionalmente (LF, MF, HF, VHF, UHF, SHF) con le frequenze che scalano di un fattore 3 e le lunghezze d’onda di un fattore 10. Le bande radioamatoriali sono distribuite da LF fino a SHF.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>
+    <p>Perché in AM la portante rappresenta uno spreco di potenza? Come si risolve questo problema nella SSB?</p>
+  </li>
+  <li>
+    <p>Un trasmettitore AM da 150 W opera con modulazione piena ($m = 1$). Quanta potenza è effettivamente impiegata per trasmettere informazione e quanta è “sprecata” nella portante?</p>
+  </li>
+  <li>
+    <p>Spiega la differenza tra splatter e armoniche: da cosa sono causati, dove si manifestano nello spettro e quali sono i rimedi per ciascun fenomeno.</p>
+  </li>
+  <li>
+    <p>Perché la modulazione di frequenza non è ammessa sulle bande delle onde corte (HF) a livello internazionale? Qual è il vantaggio compensato da questo svantaggio?</p>
+  </li>
+  <li>
+    <p>Un operatore radioamatore trasmette a 14,2 MHz in SSB. Qual è la larghezza di banda approssimativa del suo segnale? E se trasmettesse in AM, quanto sarebbe larga la banda occupata?</p>
+  </li>
+  <li>
+    <p>Calcola la lunghezza d’onda di un segnale a 145 MHz. A quale banda radioamatoriale corrisponde? Che tipo di modulazione si usa tipicamente su questa banda?</p>
+  </li>
+  <li>
+    <p>Perché un trasmettitore FM ha un’efficienza maggiore di un trasmettitore AM? Cosa c’entra la costanza della potenza nel segnale FM?</p>
+  </li>
+  <li>
+    <p>L’indice di modulazione in AM non può superare 1 senza conseguenze negative, mentre in FM può essere maggiore di 1 senza distorsione. Spiega il motivo di questa differenza e cosa limita comunque l’indice FM.</p>
+  </li>
+  <li>
+    <p>In che modo la regolazione della larghezza di banda del ricevitore aiuta nella ricezione di segnali deboli? Usa l’analogia della finestra.</p>
+  </li>
+  <li>
+    <p>Un radioamatore vuole operare sulla banda dei 20 m. A quale frequenza approssimativa corrisponde? Userà LSB o USB? Perché?</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>A3E</strong> — Codice ITU per la modulazione di ampiezza (AM) con emissione a doppia banda laterale e portante completa.</li>
+  <li><strong>AM (Modulazione di Ampiezza)</strong> — Tipo di modulazione in cui l’informazione è trasmessa variando l’ampiezza della portante.</li>
+  <li><strong>Banda laterale (Sideband)</strong> — Componente dello spettro di un segnale modulato, situata sopra (USB) o sotto (LSB) la frequenza della portante.</li>
+  <li><strong>BFO (Beat Frequency Oscillator)</strong> — Oscillatore locale nel ricevitore SSB che rigenera la portante soppressa per demodulare il segnale.</li>
+  <li><strong>Deviazione di frequenza ($\Delta f$)</strong> — Spostamento massimo della frequenza della portante rispetto al valore nominale in modulazione FM.</li>
+  <li><strong>F3E</strong> — Codice ITU per la modulazione di frequenza (FM) con emissione in fonia.</li>
+  <li><strong>FM (Modulazione di Frequenza)</strong> — Tipo di modulazione in cui l’informazione è trasmessa variando la frequenza della portante, mantenendo costante l’ampiezza.</li>
+  <li><strong>HF (High Frequency)</strong> — Banda di frequenza da 3 a 30 MHz, corrispondente alle onde corte.</li>
+  <li><strong>Indice di modulazione AM ($m$)</strong> — Rapporto tra l’ampiezza del segnale modulante e l’ampiezza della portante: $m = V_m / V_p$.</li>
+  <li><strong>Indice di modulazione FM ($m_{FM}$)</strong> — Rapporto tra la deviazione massima di frequenza e la frequenza del segnale modulante: $m_{FM} = \Delta f / f_m$.</li>
+  <li><strong>Inviluppo</strong> — Curva che descrive l’andamento dell’ampiezza massima (e minima) del segnale modulato nel tempo.</li>
+  <li><strong>J3E</strong> — Codice ITU per la SSB (Single Side Band), emissione a banda laterale unica con portante soppressa.</li>
+  <li><strong>Lambda ($\lambda$)</strong> — Simbolo della lunghezza d’onda, espressa in metri.</li>
+  <li><strong>LSB (Lower Side Band)</strong> — Banda laterale inferiore, usata convenzionalmente sotto i 10 MHz in HF.</li>
+  <li><strong>Lunghezza d’onda ($\lambda$)</strong> — Distanza percorsa da un’onda elettromagnetica durante un ciclo completo. Si calcola con $\lambda = 300 / f_{MHz}$ [m].</li>
+  <li><strong>MF (Medium Frequency)</strong> — Banda di frequenza da 300 kHz a 3 MHz, corrispondente alle onde medie.</li>
+  <li><strong>Modulazione</strong> — Processo mediante il quale un segnale a bassa frequenza modifica le caratteristiche di una portante per trasportare informazione.</li>
+  <li><strong>NBFM (Narrowband FM)</strong> — FM a banda stretta, tipica dell’uso radioamatoriale, con deviazione di ±4–5 kHz.</li>
+  <li><strong>Onda elettromagnetica</strong> — Perturbazione dei campi elettrico e magnetico che si propaga nello spazio alla velocità della luce.</li>
+  <li><strong>PM (Modulazione di Fase)</strong> — Tipo di modulazione in cui l’informazione è trasmessa variando la fase della portante.</li>
+  <li><strong>Portante (Carrier)</strong> — Segnale sinusoidale ad alta frequenza sul quale viene sovrapposta l’informazione tramite modulazione.</li>
+  <li><strong>Segnale modulante</strong> — Segnale a bassa frequenza (voce, musica, dati) che contiene l’informazione da trasmettere.</li>
+  <li><strong>Sovra-modulazione</strong> — Condizione in cui l’indice di modulazione AM supera 1, causando distorsione e splatter.</li>
+  <li><strong>Splatter</strong> — Distorsione in banda causata dalla sovra-modulazione AM, che produce allargamento del segnale verso i canali adiacenti.</li>
+  <li><strong>SSB (Single Side Band)</strong> — Tecnica di modulazione derivata dall’AM in cui la portante e una banda laterale vengono soppresse, trasmettendo solo una banda laterale.</li>
+  <li><strong>UHF (Ultra High Frequency)</strong> — Banda di frequenza da 300 MHz a 3 GHz.</li>
+  <li><strong>USB (Upper Side Band)</strong> — Banda laterale superiore, usata convenzionalmente sopra i 10 MHz e in VHF.</li>
+  <li><strong>Velocità della luce ($c$)</strong> — Velocità di propagazione delle onde elettromagnetiche nel vuoto: circa 300.000 km/s ($3 \times 10^8$ m/s).</li>
+  <li><strong>VHF (Very High Frequency)</strong> — Banda di frequenza da 30 a 300 MHz, corrispondente alle onde ultracorte.</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatore principale</strong>: Paolo — docente del corso, esperto di radiotecnica e modulazioni</li>
+  <li>👨‍🏫 <strong>Co-docente</strong>: Alessio — presente in aula, prende il coordinamento al termine della parte tecnica</li>
+  <li>👨‍🏫 <strong>Partecipante attivo</strong>: Giovanni — interviene con domande e precisazioni (denominazioni delle bande, quiz ministeriali)</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Campo</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Numero lezione</strong></td>
+      <td>07</td>
+    </tr>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td>16 aprile 2025</td>
+    </tr>
+    <tr>
+      <td><strong>Durata</strong></td>
+      <td>~110 minuti</td>
+    </tr>
+    <tr>
+      <td><strong>Argomenti trattati</strong></td>
+      <td>4 (Modi di emissione AM/SSB/FM, Onde radio)</td>
+    </tr>
+    <tr>
+      <td><strong>Parole chiave</strong></td>
+      <td>Modulazione, AM, FM, SSB, portante, bande laterali, indice di modulazione, splatter, armoniche, deviazione, narrowband, lunghezza d’onda, lambda, classificazione bande, HF, VHF, UHF</td>
+    </tr>
+    <tr>
+      <td><strong>Prossima lezione</strong></td>
+      <td>7 maggio 2025 (pausa per festività pasquali e 25 aprile)</td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+</body>
+</html>

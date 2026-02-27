@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 17 - Serata Speciale - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/">🏠 Home</a>
+    <a href="/guide-studio/">📖 Guide di Studio</a>
+    <a href="/glossario.html">📚 Glossario</a>
+    <a href="/domande-esame.html">❓ Domande</a>
+    <a href="/risorse.html">🔗 Risorse</a>
+  </nav>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/guide-studio/lezione_16.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/guide-studio/lezione_18.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/guide-studio/lezione_17.html" selected>📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-17---serata-speciale">📘 Lezione 17 - Serata Speciale</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia</strong>: Sicurezza elettrica e protezione contro i fulmini</li>
+  <li><strong>Tempo di studio stimato</strong>: 60–75 minuti</li>
+  <li><strong>Prerequisiti</strong>: Legge di Ohm, concetti base di corrente alternata e continua, conoscenza di base degli impianti elettrici domestici, strumenti di misura (lezione 16)</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Comprendere perché la corrente alternata è più pericolosa della corrente continua</li>
+      <li>Conoscere gli effetti della corrente elettrica sul corpo umano (soglie di percezione, tetanizzazione, fibrillazione)</li>
+      <li>Capire il funzionamento del sistema di protezione combinato (messa a terra + interruttore differenziale)</li>
+      <li>Comprendere i contatti diretti e indiretti e le relative protezioni</li>
+      <li>Conoscere il doppio isolamento e la separazione elettrica</li>
+      <li>Comprendere il rischio di fulminazione e la valutazione del rischio secondo le norme CEI 81</li>
+      <li>Conoscere i sistemi di protezione contro i fulmini (LPS, SPD)</li>
+      <li>Sapere come realizzare un corretto impianto di messa a terra per la stazione radio</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h3 id="1--correzione-quiz-lezione-16--00020911">1. 🔍 Correzione quiz Lezione 16 (⏱ 00:02–09:11)</h3>
+
+<p>La lezione inizia con la correzione delle domande relative alla lezione precedente sugli strumenti di misura. I risultati sono molto positivi: la maggior parte dei partecipanti ha ottenuto punteggi superiori al 90%.</p>
+
+<p>Vengono riepilogate le risposte corrette principali:</p>
+
+<ul>
+  <li>La portata di un <strong>voltmetro</strong> si aumenta aggiungendo una <strong>resistenza in serie</strong></li>
+  <li>L’asse orizzontale dell’<strong>analizzatore di spettro</strong> visualizza la <strong>frequenza</strong></li>
+  <li>L’<strong>amperometro</strong> si inserisce <strong>in serie</strong> al circuito</li>
+  <li>Quando si commuta un voltmetro a una portata più alta, viene <strong>aggiunta una resistenza in serie</strong></li>
+  <li>L’<strong>oscilloscopio</strong> visualizza l’andamento nel <strong>dominio del tempo</strong></li>
+  <li>Un <strong>wattmetro direzionale</strong> misura la potenza diretta e quella riflessa</li>
+  <li>Un <strong>multimetro</strong> misura tensione, corrente e resistenza</li>
+  <li>La <strong>resistenza di shunt</strong> serve ad aumentare la portata di un <strong>amperometro</strong></li>
+  <li>Per controllare le <strong>emissioni spurie</strong> di un trasmettitore si usa l’<strong>analizzatore di spettro</strong></li>
+  <li>Durante le riparazioni, il trasmettitore va collegato a un <strong>carico artificiale</strong></li>
+</ul>
+
+<p><strong>Esercizio sul calcolo dello shunt</strong>: un amperometro con portata 1 A e resistenza interna 10 Ω deve raggiungere una portata di 11 A. La corrente che deve passare nella resistenza di shunt è $I_{shunt} = 11 - 1 = 10$ A. Per la legge di Ohm, la resistenza di shunt è:</p>
+
+\[R_s = \frac{R_i \times I_{fs}}{I_{nuova} - I_{fs}} = \frac{10 \times 1}{11 - 1} = 1 \, \Omega\]
+
+<hr />
+
+<h3 id="2--sicurezza-elettrica-corrente-alternata-vs-corrente-continua--12151727">2. ⚡ Sicurezza elettrica: corrente alternata vs corrente continua (⏱ 12:15–17:27)</h3>
+
+<p>Il relatore <strong>Fabrizio Badiani (IU5QUO)</strong>, esperto di sicurezza elettrica, introduce il tema ponendo una domanda fondamentale: è più pericolosa la corrente alternata o la continua?</p>
+
+<p><strong>La corrente alternata (AC) è molto più pericolosa della corrente continua (DC)</strong> a parità di tensione. Questo è un fatto oggettivo supportato dalle norme CEI (Comitato Elettrotecnico Italiano).</p>
+
+<p>Perché allora si usa la corrente alternata? Perché è <strong>molto più economica da trasportare</strong> a distanza. Se si inviano 220 V in continua su un lungo tratto di cavo, all’arrivo si misurano valori prossimi a zero; con l’alternata, la tensione si conserva praticamente intatta (es. 219 V dopo chilometri).</p>
+
+<blockquote>
+  <p>Viene citata la storica diatriba tra <strong>Edison</strong> (sostenitore della corrente continua) e <strong>Tesla</strong> (inventore della corrente alternata). Edison conduceva esperimenti macabri con l’alternata per dimostrarne la pericolosità, ma Tesla vinse la “guerra delle correnti” grazie alla superiorità nel trasporto.</p>
+</blockquote>
+
+<p>La ragione principale della maggiore pericolosità dell’alternata è la <strong>frequenza di 50 Hz</strong>: il cuore umano batte a circa 60–70 battiti al minuto (circa 1 Hz), e il corpo non riesce ad adattarsi a cambiamenti di stato così rapidi. La corrente alternata a 50 Hz può portare il cuore in <strong>fibrillazione ventricolare</strong>.</p>
+
+<hr />
+
+<h3 id="3--effetti-della-corrente-sul-corpo-umano--19522606">3. 📈 Effetti della corrente sul corpo umano (⏱ 19:52–26:06)</h3>
+
+<p>Il grafico tempo-corrente (scale logaritmiche) degli effetti della corrente alternata sulle persone si divide in <strong>quattro zone</strong>:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Zona</th>
+      <th>Corrente</th>
+      <th>Effetto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Zona 1</strong></td>
+      <td>&lt; 0,5 mA</td>
+      <td>Nessuna percezione — il corpo non sente nulla</td>
+    </tr>
+    <tr>
+      <td><strong>Zona 2</strong></td>
+      <td>0,5–10 mA</td>
+      <td>Corrente percepita ma senza problematiche gravi</td>
+    </tr>
+    <tr>
+      <td><strong>Zona 3</strong></td>
+      <td>10–300 mA</td>
+      <td><strong>Tetanizzazione</strong> — i muscoli si bloccano, impossibile rilasciare la presa; possibile blocco del <strong>diaframma</strong> (muscolo semivolontario della respirazione)</td>
+    </tr>
+    <tr>
+      <td><strong>Zona 4</strong></td>
+      <td>&gt; 100–300 mA</td>
+      <td><strong>Fibrillazione ventricolare</strong> — il cuore batte in modo caotico, non pompa più sangue, crollo della pressione, rischio morte in circa 1 minuto</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Tetanizzazione</strong> — quando la corrente alternata attraversa il corpo, i muscoli si contraggono e non si riesce a “staccarsi” dalla parte sotto tensione. La soglia di tetanizzazione è circa <strong>10–15 mA</strong>.</p>
+
+<p><strong>Fibrillazione ventricolare</strong> — il cuore, che è essenzialmente una pompa elettrica, inizia a battere in modo completamente disordinato. Il segnale ECG diventa caotico. La conseguenza è il crollo della pressione sanguigna e la mancata irrorazione del cervello. Senza intervento immediato (defibrillatore), si può morire in 1–1,5 minuti.</p>
+
+<p>Il <strong>periodo di refrattarietà</strong> è il tempo che il sangue impiega a entrare e uscire dal cuore. Se la corrente attraversa il cuore per un tempo superiore a questo periodo, la fibrillazione è probabile.</p>
+
+<hr />
+
+<h3 id="4--calcolo-della-corrente-sul-corpo-umano--34343702">4. 🔢 Calcolo della corrente sul corpo umano (⏱ 34:34–37:02)</h3>
+
+<p>Applicando la legge di Ohm si può calcolare la corrente che attraversa il corpo:</p>
+
+\[I = \frac{V}{R}\]
+
+<p>Dove:</p>
+
+<ul>
+  <li>$V = 230$ V (tensione di rete)</li>
+  <li>$R = 500 \div 1000$ Ω (resistenza del corpo umano secondo le norme)</li>
+</ul>
+
+<blockquote>
+  <p>⚠️ <strong>La resistenza del corpo umano</strong> varia tra <strong>500 e 1000 Ω</strong> secondo le norme. I bambini, avendo la pelle molto idratata, possono avere resistenza ancora più bassa.</p>
+</blockquote>
+
+<p>Con $R = 1000$ Ω:</p>
+
+\[I = \frac{230}{1000} = 230 \, \text{mA}\]
+
+<p>Questo valore ricade ampiamente nella <strong>zona di fibrillazione ventricolare</strong> sul grafico.</p>
+
+<hr />
+
+<h3 id="5-️-sistemi-di-protezione-differenziale-e-messa-a-terra--30003406">5. 🛡️ Sistemi di protezione: differenziale e messa a terra (⏱ 30:00–34:06)</h3>
+
+<p>Il sistema di protezione dai <strong>contatti indiretti</strong> è un <strong>sistema combinato</strong> composto da:</p>
+
+<ol>
+  <li><strong>Impianto di messa a terra</strong> — devia la corrente di guasto verso terra</li>
+  <li><strong>Interruttore differenziale</strong> (detto anche “salvavita”) — rileva la differenza tra corrente in ingresso e in uscita</li>
+</ol>
+
+<p><strong>Interruttore differenziale</strong> — contiene un toroide con tre bobine. Quando una parte della corrente “scappa” verso terra (tramite un guasto), la corrente entrante non è più uguale a quella uscente. Il differenziale rileva questa differenza e <strong>scatta</strong> (apre il circuito).</p>
+
+<blockquote>
+  <p>Il differenziale <strong>non è un limitatore di corrente</strong>, è un <strong>limitatore di tempo</strong>: riduce il tempo di esposizione alla corrente.</p>
+</blockquote>
+
+<p>Caratteristiche del differenziale ad alta sensibilità:</p>
+
+<ul>
+  <li>Soglia di intervento: <strong>30 mA</strong> (0,03 A)</li>
+  <li>Tempo di sgancio ideale: <strong>27–28 millisecondi</strong></li>
+  <li>Inventato nel <strong>1965</strong></li>
+</ul>
+
+<p>⚠️ <strong>Manutenzione fondamentale</strong>: premere il <strong>tasto T</strong> (test) almeno <strong>una volta al mese</strong>. Le lamelle interne di rame si ossidano nel tempo e possono “cementarsi”, ritardando o impedendo lo sgancio.</p>
+
+<hr />
+
+<h3 id="6--confronto-soglie-ac-vs-dc--39254135">6. 📡 Confronto soglie AC vs DC (⏱ 39:25–41:35)</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parametro</th>
+      <th>Corrente Alternata (AC)</th>
+      <th>Corrente Continua (DC)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Soglia di percezione</td>
+      <td>0,5 mA</td>
+      <td>2 mA (4× superiore)</td>
+    </tr>
+    <tr>
+      <td>Soglia di tetanizzazione</td>
+      <td>10–15 mA</td>
+      <td>Non esiste vera soglia di rilascio fino a 300 mA</td>
+    </tr>
+    <tr>
+      <td>Soglia di fibrillazione (contatto &gt; 1 periodo cardiaco)</td>
+      <td>Relativamente bassa</td>
+      <td>Molte volte maggiore rispetto ad AC</td>
+    </tr>
+    <tr>
+      <td>Soglia di fibrillazione (contatto &lt; 200 ms)</td>
+      <td>Circa uguale</td>
+      <td>Circa uguale</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>Con la corrente continua, paradossalmente, “conviene rimanerci attaccati” perché per contatti prolungati la soglia di fibrillazione è molto più alta rispetto all’alternata.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="7--contatti-diretti-indiretti-e-arco-elettrico--41465006">7. 🔌 Contatti diretti, indiretti e arco elettrico (⏱ 41:46–50:06)</h3>
+
+<h4 id="contatto-indiretto">Contatto indiretto</h4>
+
+<p>Si verifica quando si tocca una <strong>massa metallica</strong> (carcassa di un elettrodomestico, di una radio) che normalmente non è sotto tensione ma lo diventa a causa di un guasto. La protezione è il <strong>sistema combinato</strong> (messa a terra + differenziale).</p>
+
+<p><strong>Anello di guasto</strong> — è il percorso che la corrente compie quando si verifica un guasto: dalla carcassa, attraverso il corpo, fino al secondario del trasformatore in cabina, il cui centro stella è collegato a terra.</p>
+
+<h4 id="contatto-diretto">Contatto diretto</h4>
+
+<p>Si verifica toccando direttamente una parte sotto tensione (es. inserire le dita nella presa). In questo caso:</p>
+
+<ul>
+  <li>Il <strong>differenziale</strong> se ne accorge <strong>solo se</strong> parte della corrente va verso terra (es. piedi scalzi)</li>
+  <li>L’<strong>interruttore magnetotermico</strong> interviene: la <strong>parte termica</strong> protegge dai sovraccarichi, la <strong>parte magnetica</strong> dai cortocircuiti</li>
+</ul>
+
+<h4 id="arco-elettrico">Arco elettrico</h4>
+
+<p>Un rischio spesso sottovalutato. Con un trifase (380–400 V) e cortocircuiti si possono raggiungere temperature di <strong>3000–4000 °C</strong>. Anche a 220 V si possono superare i <strong>1000 °C</strong> per frazioni di secondo. Le batterie in corrente continua possono anch’esse provocare archi elettrici se maneggiate scorrettamente.</p>
+
+<hr />
+
+<h3 id="8--doppio-isolamento-e-separazione-elettrica--59006123">8. 🔒 Doppio isolamento e separazione elettrica (⏱ 59:00–61:23)</h3>
+
+<h4 id="doppio-isolamento">Doppio isolamento</h4>
+
+<p>Il costruttore garantisce che non è possibile toccare le parti sotto tensione. I dispositivi in doppio isolamento:</p>
+
+<ul>
+  <li>Non hanno il collegamento di terra (solo 2 poli nella spina)</li>
+  <li>È <strong>vietato</strong> collegarli a terra (norma CEI 64-8)</li>
+  <li>Simbolo: quadrato dentro un quadrato</li>
+  <li>Esempi: caricatori di cellulare, asciugacapelli (phon)</li>
+</ul>
+
+<h4 id="separazione-elettrica">Separazione elettrica</h4>
+
+<p>Utilizza un <strong>trasformatore di isolamento</strong>: non c’è contatto elettrico tra primario e secondario. L’anello di guasto non si può chiudere, quindi anche toccando un’attrezzatura guasta non si prende la scossa perché la corrente non può circolare.</p>
+
+<hr />
+
+<h3 id="9--fulmini-fenomeno-e-classificazione--65016901">9. ⚡ Fulmini: fenomeno e classificazione (⏱ 65:01–69:01)</h3>
+
+<p>Il secondo relatore, <strong>Gabriele (IZ5JLW)</strong>, progettista impiantistico, introduce il tema dei fulmini.</p>
+
+<p><strong>Fulmine</strong> — fenomeno legato all’<strong>elettricità atmosferica</strong>. La parte pericolosa è la corrente elettrica generata, che si misura in <strong>kiloampere</strong> (migliaia di ampere).</p>
+
+<p>Tipi di fulmini:</p>
+
+<ul>
+  <li><strong>Nuvola → suolo</strong> (il più comune e pericoloso per le strutture)</li>
+  <li><strong>Suolo → nuvola</strong></li>
+  <li><strong>Nuvola → nuvola</strong></li>
+  <li><strong>Fulmini globulari</strong> (fenomeno raro e spettacolare)</li>
+</ul>
+
+<p>Le condizioni per lo sviluppo dei fulmini sono i <strong>cumulonembi</strong> — nubi a sviluppo verticale che generano temporali. Dalla nuvola si forma un <strong>canale ionizzato</strong> nel quale si genera la scarica elettrica. Tipicamente non si osserva un singolo fulmine ma una <strong>serie di scariche</strong> nello stesso punto. La seconda scarica (<strong>scarica di ritorno</strong>) è solitamente più luminosa della prima.</p>
+
+<blockquote>
+  <p>La scarica si propaga verso la nube con una velocità di circa 1/3 della velocità della luce, ed è per questo che vediamo l’effetto luminoso.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="10--valutazione-del-rischio-di-fulminazione--70117613">10. 📊 Valutazione del rischio di fulminazione (⏱ 70:11–76:13)</h3>
+
+<p>La normativa di riferimento è la <strong>CEI 81</strong>, redatta dal <strong>Comitato 81</strong> del CEI (Comitato Elettrotecnico Italiano), associazione di diritto privato senza scopo di lucro dedicata alla normazione in ambito elettrotecnico.</p>
+
+<h4 id="sorgenti-di-rischio">Sorgenti di rischio</h4>
+
+<p>Il fulmine può essere pericoloso per:</p>
+
+<ol>
+  <li>La <strong>struttura</strong> stessa</li>
+  <li>Le <strong>vicinanze</strong> della struttura</li>
+  <li>Le <strong>linee</strong> (elettriche o dati) collegate</li>
+  <li>Le <strong>vicinanze delle linee</strong></li>
+</ol>
+
+<h4 id="tipi-di-danno-e-perdita">Tipi di danno e perdita</h4>
+
+<ul>
+  <li><strong>Danno per esseri viventi</strong> (elettrocuzione)</li>
+  <li><strong>Danno materiale</strong></li>
+  <li><strong>Guasto impianti elettrici</strong></li>
+</ul>
+
+<p>Tipi di perdita:</p>
+
+<ul>
+  <li>Perdita di vite umane o danni permanenti</li>
+  <li>Perdita di servizio pubblico</li>
+  <li>Perdita di patrimonio culturale insostituibile</li>
+  <li>Perdita economica</li>
+</ul>
+
+<h4 id="rischio-tollerabile-perdita-media-annua">Rischio tollerabile (perdita media annua)</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo di perdita</th>
+      <th>Rischio tollerabile</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Vite umane / danni permanenti</td>
+      <td>$10^{-5}$ anni$^{-1}$</td>
+    </tr>
+    <tr>
+      <td>Servizio pubblico</td>
+      <td>$10^{-3}$ anni$^{-1}$</td>
+    </tr>
+    <tr>
+      <td>Patrimonio culturale</td>
+      <td>$10^{-4}$ anni$^{-1}$</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p><strong>Non esiste il rischio zero</strong>, esiste solo il <strong>rischio tollerabile</strong>. Una struttura “autoprotetta” non significa sicura al 100%.</p>
+</blockquote>
+
+<h4 id="procedura-di-valutazione">Procedura di valutazione</h4>
+
+<ol>
+  <li>Identificare la struttura da proteggere</li>
+  <li>Identificare i tipi di perdita</li>
+  <li>Per ciascun tipo, calcolare il rischio R1</li>
+  <li>Confrontare R1 con il rischio tollerabile RT</li>
+  <li>Se R1 &gt; RT → servono protezioni</li>
+  <li>Se R1 ≤ RT → struttura <strong>autoprotetta</strong></li>
+</ol>
+
+<hr />
+
+<h3 id="11--fattori-che-influenzano-la-valutazione--76388352">11. 🏠 Fattori che influenzano la valutazione (⏱ 76:38–83:52)</h3>
+
+<h4 id="densità-di-fulminazione-ng">Densità di fulminazione (Ng)</h4>
+
+<p>Il dato fondamentale è il numero di fulmini che cadono a terra <strong>per anno per km²</strong> nella zona oggetto della valutazione. Questo valore:</p>
+
+<ul>
+  <li>Va <strong>ricontrollato ogni 5 anni</strong></li>
+  <li>Tende ad <strong>aumentare</strong> nel tempo a causa dei cambiamenti climatici e della tropicalizzazione</li>
+</ul>
+
+<h4 id="tipo-di-ambiente">Tipo di ambiente</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Ambiente</th>
+      <th>Caratteristiche</th>
+      <th>Livello di protezione</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Urbano</strong></td>
+      <td>Edifici di altezza uguale o superiore</td>
+      <td>Più protetto</td>
+    </tr>
+    <tr>
+      <td><strong>Suburbano</strong></td>
+      <td>Zone periferiche, edifici di altezza simile</td>
+      <td>Protezione media</td>
+    </tr>
+    <tr>
+      <td><strong>Rurale/isolato</strong></td>
+      <td>Collina, campagna, edificio isolato</td>
+      <td>Più pericoloso</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="caratteristiche-delledificio">Caratteristiche dell’edificio</h4>
+
+<ul>
+  <li>Struttura metallica, cemento armato, tetto metallico</li>
+  <li><strong>H minima</strong> = altezza del tetto/terrazza</li>
+  <li><strong>H massima</strong> = punta dell’antenna (fondamentale per i radioamatori!)</li>
+</ul>
+
+<h4 id="valutazione-prima-e-dopo-lantenna">Valutazione prima e dopo l’antenna</h4>
+
+<p>La valutazione del rischio va fatta <strong>due volte</strong>: prima e dopo l’installazione dell’antenna. È raro che un edificio autoprotetto diventi non autoprotetto dopo l’installazione di un’antenna, a meno che non ci si trovi già “a cavallo” del limite (es. collina isolata con alta densità di fulminazione).</p>
+
+<hr />
+
+<h3 id="12--lps--lightning-protection-system--85518733">12. 🔧 LPS — Lightning Protection System (⏱ 85:51–87:33)</h3>
+
+<p>L’<strong>LPS</strong> (sistema di protezione esterno contro i fulmini) è composto da:</p>
+
+<ul>
+  <li><strong>Captatori</strong> — elementi metallici posti sulla sommità dell’edificio che “catturano” il fulmine</li>
+  <li><strong>Maglia equipotenziale</strong> — collega i captatori tra loro con la medesima sezione</li>
+  <li><strong>Discese</strong> (calate) — conducono la corrente dai captatori ai dispersori</li>
+  <li><strong>Dispersori di terra</strong> — scaricano la corrente nel terreno</li>
+</ul>
+
+<blockquote>
+  <p>Le discese devono avere <strong>tutte la stessa sezione</strong> per scaricare l’energia in modo equo. Se c’è una sola calata, l’energia passante può strapparla dal muro.</p>
+</blockquote>
+
+<p>Il collegamento tra dispersori verso il basso può essere ridondante (collegamento dispersore-dispersore nel terreno) per garantire continuità in caso di ossidazione delle giunzioni.</p>
+
+<hr />
+
+<h3 id="13-️-spd--scaricatori-di-sovratensione--87339801">13. ⚙️ SPD — Scaricatori di sovratensione (⏱ 87:33–98:01)</h3>
+
+<p>Gli <strong>SPD</strong> (Surge Protection Device) proteggono gli impianti elettrici dalle sovratensioni causate dai fulmini (anche indiretti). Si dividono in <strong>tre classi</strong>:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo</th>
+      <th>Posizione</th>
+      <th>Protezione</th>
+      <th>Corrente max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Tipo 1</strong></td>
+      <td>Al contatore (gruppo di misura)</td>
+      <td>Scariche dirette</td>
+      <td>Fino a <strong>50 kA</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Tipo 2</strong></td>
+      <td>Centralino di casa, ripetuto ogni 20 m</td>
+      <td>Scariche indirette</td>
+      <td>Fino a <strong>20 kA</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Tipo 3</strong></td>
+      <td>Sull’utenza finale (schede, ciabatte)</td>
+      <td>Protezione fine</td>
+      <td>Correnti minori</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>La cosa fondamentale degli SPD è la <strong>vicinanza con il dispersore</strong>. Lo scaricatore deve essere collegato a un dispersore il più vicino possibile.</p>
+</blockquote>
+
+<p>Ogni SPD protegge fino a <strong>20 m di linea</strong>. Se la distanza tra contatore e centralino supera 20 m, la protezione va ripetuta.</p>
+
+<p>Negli ambienti urbani e suburbani della Toscana (escludendo zone appenniniche e colline) è sufficiente il <strong>tipo 2</strong>. Gli SPD andrebbero installati <strong>sempre e ovunque</strong>, non solo dove obbligatorio.</p>
+
+<p>Riferimenti normativi: legge 46/90 (in vigore dal 5 marzo 1990 al 22 gennaio 2008), sostituita dal <strong>DM 37/08</strong> (Decreto Ministro Sviluppo Economico n. 37).</p>
+
+<hr />
+
+<h3 id="14--impianto-di-messa-a-terra-per-la-stazione-radio--985110405">14. 📡 Impianto di messa a terra per la stazione radio (⏱ 98:51–104:05)</h3>
+
+<p>L’impianto di messa a terra nella sala radio è fondamentale sia per la <strong>sicurezza</strong> sia per il <strong>buon funzionamento</strong> della stazione.</p>
+
+<h4 id="collettore-barra-equipotenziale">Collettore (barra equipotenziale)</h4>
+
+<p>Tutti i dispositivi con morsetto <strong>GND</strong> devono essere collegati a una <strong>barra equipotenziale</strong> posta nella sala radio. Questa barra si collega poi al dispersore di terra e all’impianto di terra di casa.</p>
+
+<h4 id="sezioni-dei-conduttori">Sezioni dei conduttori</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo conduttore</th>
+      <th>Sezione minima</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Conduttore di protezione (isolato)</td>
+      <td><strong>16 mm²</strong></td>
+    </tr>
+    <tr>
+      <td>Conduttore di protezione (nudo)</td>
+      <td><strong>25 mm²</strong></td>
+    </tr>
+    <tr>
+      <td>Conduttore equipotenziale</td>
+      <td>Uguale alla sezione di fase (min. <strong>2,5 mm²</strong>)</td>
+    </tr>
+    <tr>
+      <td>Consigliato per sala radio</td>
+      <td><strong>6 mm²</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>I dispositivi in <strong>doppio isolamento</strong> (simbolo: quadrato nel quadrato) <strong>non devono</strong> essere collegati a terra: si rischierebbe di reintrodurre un potenziale di terra dove non serve.</p>
+</blockquote>
+
+<h4 id="correnti-di-modo-comune">Correnti di modo comune</h4>
+
+<p>Una buona <strong>equipotenzialità</strong> nella stazione radio elimina le <strong>correnti di modo comune</strong>, che causano:</p>
+
+<ul>
+  <li>Spegnimento o sfarfallio del computer quando si trasmette</li>
+  <li>Blocco del software per modi digitali</li>
+  <li>Interferenze e rumore elettrico</li>
+</ul>
+
+<blockquote>
+  <p>L’impianto equipotenziale è importante non solo per la protezione dai fulmini, ma anche per il <strong>buon funzionamento complessivo</strong> della stazione, specialmente per i modi digitali.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="15-️-consigli-pratici-per-i-radioamatori--1050813453">15. 🏗️ Consigli pratici per i radioamatori (⏱ 105:08–134:53)</h3>
+
+<p>Dalla sessione di domande e risposte emergono importanti consigli pratici:</p>
+
+<h4 id="traliccio-e-messa-a-terra">Traliccio e messa a terra</h4>
+
+<ul>
+  <li><strong>Non collegare il traliccio/palo dell’antenna al dispersore di terra</strong> in ambiente domestico: si creerebbe una “strada privilegiata” per il fulmine verso l’interno dell’abitazione</li>
+  <li>L’impianto di messa a terra deve essere <strong>unico</strong>: la terra della sala radio deve essere collegata alla terra dell’impianto di casa</li>
+  <li>Se la barra equipotenziale della sala radio è collegata a un dispersore <strong>diverso</strong> da quello dell’impianto domestico, si crea una situazione <strong>pericolosa</strong> (due impianti di terra separati)</li>
+</ul>
+
+<h4 id="eccezione-edifici-con-lps">Eccezione: edifici con LPS</h4>
+
+<p>Se l’edificio è protetto da un LPS (parafulmine), le norme CEI 81 <strong>obbligano</strong> la messa a terra dei supporti delle antenne. In questo caso il conduttore di terra del palo va fatto passare <strong>all’esterno</strong> dell’edificio (es. in tubazione PVC esterna) per evitare campi elettromagnetici nelle condutture interne.</p>
+
+<h4 id="comportamento-durante-i-temporali">Comportamento durante i temporali</h4>
+
+<ul>
+  <li><strong>Scollegare sempre i bocchettoni</strong> dell’antenna durante il temporale</li>
+  <li>Lasciarli <strong>penzoloni e lontani</strong> dalla radio e da tutte le superfici metalliche</li>
+</ul>
+
+<h4 id="le-antenne-come-captatori">Le antenne come captatori</h4>
+
+<ul>
+  <li>Tutte le antenne, specialmente quelle verticali, sono potenziali <strong>captatori di fulmini</strong></li>
+  <li>In ambiente urbano con edifici di altezza simile o superiore, il rischio è ridotto</li>
+  <li>La presenza di strutture più alte nelle vicinanze (es. campanile con parafulmine) offre una protezione naturale</li>
+</ul>
+
+<h4 id="resistenza-di-terra-e-differenziale">Resistenza di terra e differenziale</h4>
+
+<p>Con un interruttore differenziale da 0,03 A (30 mA), la resistenza di terra massima accettabile è:</p>
+
+\[R_T \leq \frac{50}{I_{dn}} = \frac{50}{0,03} \approx 1600 \, \Omega\]
+
+<p>Senza differenziale, si richiedevano valori non superiori a <strong>20 Ω</strong>.</p>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li><strong>Corrente alternata 50 Hz</strong> → è più pericolosa di → <strong>corrente continua</strong> (a parità di tensione)</li>
+  <li><strong>50 Hz</strong> → può provocare → <strong>fibrillazione ventricolare</strong> (cuore batte a ~1 Hz, non può adattarsi)</li>
+  <li><strong>Corrente &gt; 10–15 mA</strong> → provoca → <strong>tetanizzazione</strong> (muscoli bloccati, non ci si stacca)</li>
+  <li><strong>Corrente &gt; 100–300 mA</strong> → provoca → <strong>fibrillazione ventricolare</strong> → causa → <strong>morte per arresto cardiaco</strong></li>
+  <li><strong>Legge di Ohm</strong> $I = V/R$ → determina → <strong>corrente sul corpo</strong> (230V/1000Ω = 230 mA)</li>
+  <li><strong>Sistema combinato</strong> = <strong>messa a terra</strong> + <strong>interruttore differenziale</strong> → protegge da → <strong>contatti indiretti</strong></li>
+  <li><strong>Differenziale</strong> → misura differenza corrente ingresso/uscita → è un <strong>limitatore di tempo</strong></li>
+  <li><strong>Magnetotermico</strong> → parte termica protegge da <strong>sovraccarichi</strong>, parte magnetica da <strong>cortocircuiti</strong></li>
+  <li><strong>Doppio isolamento</strong> → elimina necessità di → <strong>messa a terra</strong> (vietato collegare a terra!)</li>
+  <li><strong>Trasformatore di isolamento</strong> → impedisce → <strong>chiusura anello di guasto</strong></li>
+  <li><strong>Fulmine</strong> → genera corrente in → <strong>kiloampere</strong> → richiede → <strong>valutazione rischio CEI 81</strong></li>
+  <li><strong>Ng (densità fulminazione)</strong> → influenza → <strong>rischio calcolato R1</strong> → confrontato con → <strong>rischio tollerabile RT</strong></li>
+  <li><strong>R1 &gt; RT</strong> → richiede → <strong>protezioni (LPS, SPD)</strong> ; <strong>R1 ≤ RT</strong> → struttura <strong>autoprotetta</strong></li>
+  <li><strong>LPS</strong> = captatori + maglia + discese + dispersori → protegge → <strong>struttura</strong> esternamente</li>
+  <li><strong>SPD</strong> (tipo 1, 2, 3) → protegge → <strong>impianti elettrici</strong> dalle sovratensioni</li>
+  <li><strong>Barra equipotenziale</strong> nella sala radio → elimina → <strong>correnti di modo comune</strong> → migliora → <strong>funzionamento stazione</strong></li>
+  <li><strong>Antenna</strong> in ambiente urbano → è un <strong>captatore</strong> ma → rischio ridotto se edifici circostanti sono di altezza simile o superiore</li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>
+    <p><strong>La corrente alternata a 50 Hz è molto più pericolosa della corrente continua</strong> a parità di tensione, perché può indurre fibrillazione ventricolare nel cuore umano. La soglia di percezione AC è 0,5 mA contro i 2 mA della DC.</p>
+  </li>
+  <li>
+    <p><strong>La resistenza del corpo umano è compresa fra 500 e 1000 Ω</strong> secondo le norme. Con 230 V di rete, la corrente che attraversa il corpo può raggiungere 230–460 mA, ben oltre la soglia di fibrillazione.</p>
+  </li>
+  <li>
+    <p><strong>Il sistema di protezione combinato</strong> (messa a terra + interruttore differenziale da 30 mA) è la difesa fondamentale contro i contatti indiretti. L’interruttore differenziale non limita la corrente ma il tempo di esposizione.</p>
+  </li>
+  <li>
+    <p><strong>Il tasto test del differenziale va premuto almeno una volta al mese</strong> per evitare che le lamelle si ossidino e si cementino, impedendo lo sgancio in caso di guasto.</p>
+  </li>
+  <li>
+    <p><strong>I dispositivi in doppio isolamento non devono essere collegati a terra</strong> (è vietato). Il trasformatore di isolamento impedisce la chiusura dell’anello di guasto.</p>
+  </li>
+  <li>
+    <p><strong>Il rischio di fulminazione si valuta secondo la CEI 81</strong>, confrontando il rischio calcolato R1 con il rischio tollerabile RT ($10^{-5}$ anni$^{-1}$ per perdita di vite umane). Se R1 ≤ RT la struttura è autoprotetta.</p>
+  </li>
+  <li>
+    <p><strong>La densità di fulminazione (Ng)</strong> aumenta nel tempo a causa dei cambiamenti climatici. L’ambiente (urbano, suburbano, rurale) influenza significativamente il livello di rischio.</p>
+  </li>
+  <li>
+    <p><strong>Gli SPD (scaricatori di sovratensione)</strong> andrebbero installati sempre: tipo 1 al contatore (50 kA), tipo 2 al centralino (20 kA, ripetuto ogni 20 m), tipo 3 sulle utenze finali.</p>
+  </li>
+  <li>
+    <p><strong>L’impianto di messa a terra deve essere unico</strong>: la terra della stazione radio e la terra dell’impianto domestico devono essere collegate. Avere due impianti di terra separati è pericoloso.</p>
+  </li>
+  <li>
+    <p><strong>Non collegare il traliccio/palo antenna al dispersore di terra</strong> in ambiente domestico: si crea un percorso privilegiato per il fulmine. Scollegare sempre i bocchettoni dell’antenna durante i temporali.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>
+    <p>Perché la corrente alternata a 50 Hz è più pericolosa della corrente continua a parità di tensione? Quali sono le differenze nelle soglie di percezione, tetanizzazione e fibrillazione?</p>
+  </li>
+  <li>
+    <p>Un radioamatore tocca accidentalmente la carcassa metallica di un amplificatore lineare andato in dispersione. Descrivi cosa succede se: (a) c’è il sistema combinato messa a terra + differenziale, (b) c’è solo la messa a terra senza differenziale, (c) non c’è né messa a terra né differenziale.</p>
+  </li>
+  <li>
+    <p>Perché il differenziale viene definito “limitatore di tempo” e non “limitatore di corrente”? Qual è la differenza pratica?</p>
+  </li>
+  <li>
+    <p>Spiega perché è vietato collegare a terra un dispositivo in doppio isolamento. Cosa potrebbe accadere?</p>
+  </li>
+  <li>
+    <p>In che modo l’installazione di un’antenna può modificare la valutazione del rischio di fulminazione di un edificio? Quali parametri cambiano?</p>
+  </li>
+  <li>
+    <p>Qual è la differenza tra uno scaricatore di sovratensione di tipo 1, tipo 2 e tipo 3? In quali posizioni dell’impianto vanno installati?</p>
+  </li>
+  <li>
+    <p>Perché è importante che l’impianto di messa a terra sia unico e non si abbiano due impianti separati (uno per la stazione radio e uno per la casa)?</p>
+  </li>
+  <li>
+    <p>In base alla legge di Ohm, calcola la corrente che attraversa il corpo di una persona che tocca una fase a 230 V, considerando una resistenza corporea di 700 Ω. In quale zona del grafico tempo-corrente ricade questo valore?</p>
+  </li>
+  <li>
+    <p>Come funziona il collegamento equipotenziale nella sala radio e perché è importante anche per il buon funzionamento della stazione (non solo per la sicurezza)?</p>
+  </li>
+  <li>
+    <p>Perché si consiglia di scollegare i bocchettoni dell’antenna durante un temporale piuttosto che collegare il palo antenna a terra?</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>Anello di guasto</strong> — percorso completo che la corrente compie in caso di guasto, dalla massa attraverso il corpo e il terreno fino al centro stella del trasformatore</li>
+  <li><strong>Arco elettrico</strong> — scarica luminosa ad altissima temperatura (fino a 3000–4000 °C) che si verifica durante cortocircuiti</li>
+  <li><strong>Barra equipotenziale</strong> — elemento conduttore al quale si collegano tutte le masse della stazione radio per portarle allo stesso potenziale</li>
+  <li><strong>Captatore</strong> — elemento metallico posto sulla sommità di un edificio che intercetta il fulmine nell’ambito di un LPS</li>
+  <li><strong>CEI</strong> — Comitato Elettrotecnico Italiano, associazione di diritto privato senza scopo di lucro per la normazione elettrotecnica</li>
+  <li><strong>Cenelec</strong> — organismo europeo di normazione elettrotecnica</li>
+  <li><strong>Contatto diretto</strong> — contatto con una parte normalmente sotto tensione</li>
+  <li><strong>Contatto indiretto</strong> — contatto con una massa metallica che diventa sotto tensione a causa di un guasto</li>
+  <li><strong>Corrente di modo comune</strong> — corrente parassita che causa interferenze tra dispositivi non correttamente equipotenzializzati</li>
+  <li><strong>Cumulonembo</strong> — nube a sviluppo verticale che genera temporali e fulmini</li>
+  <li><strong>Differenziale (interruttore)</strong> — dispositivo di protezione che rileva la differenza tra corrente entrante e uscente e sgancia il circuito; contiene un toroide con tre bobine</li>
+  <li><strong>Dispersore</strong> — elemento metallico (palina, rete elettrosaldata) interrato che scarica la corrente nel terreno</li>
+  <li><strong>Dispersore di fatto</strong> — dispersore costituito dai ferri del cemento armato, non intenzionalmente installato per la messa a terra</li>
+  <li><strong>DM 37/08</strong> — Decreto Ministeriale che ha sostituito la legge 46/90 per la regolamentazione degli impianti</li>
+  <li><strong>Doppio isolamento</strong> — sistema di protezione in cui il costruttore garantisce l’impossibilità di contatto con parti sotto tensione; simbolo: quadrato dentro quadrato</li>
+  <li><strong>ECG (Elettrocardiogramma)</strong> — registrazione del segnale elettrico del cuore</li>
+  <li><strong>Fibrillazione ventricolare</strong> — condizione in cui il cuore batte in modo caotico e non pompa più sangue; potenzialmente letale in 1–1,5 minuti</li>
+  <li><strong>GND</strong> — morsetto di messa a terra presente sugli apparati radio</li>
+  <li><strong>IEC</strong> — International Electrotechnical Commission, organismo internazionale di normazione</li>
+  <li><strong>Legge 46/90</strong> — prima legge italiana sulla sicurezza degli impianti elettrici (1990–2008)</li>
+  <li><strong>LPS (Lightning Protection System)</strong> — sistema di protezione esterno contro i fulmini (captatori + maglia + discese + dispersori)</li>
+  <li><strong>Magnetotermico</strong> — interruttore con protezione magnetica (cortocircuiti) e termica (sovraccarichi)</li>
+  <li><strong>Massa estranea</strong> — elemento conduttore normalmente non in tensione che può andare in tensione per guasto di isolamento</li>
+  <li><strong>Messa a terra</strong> — collegamento elettrico intenzionale al terreno tramite dispersori</li>
+  <li><strong>Ng</strong> — densità di fulminazione, numero di fulmini per km² per anno in una zona</li>
+  <li><strong>PES/PAV</strong> — Persona Esperta / Persona Avvertita in ambito sicurezza elettrica</li>
+  <li><strong>Periodo di refrattarietà</strong> — tempo che il sangue impiega a entrare e uscire dal cuore</li>
+  <li><strong>Rischio tollerabile</strong> — livello di rischio considerato accettabile dalla normativa</li>
+  <li><strong>Separazione elettrica</strong> — protezione tramite trasformatore di isolamento che impedisce la chiusura dell’anello di guasto</li>
+  <li><strong>Sistema TT</strong> — sistema di distribuzione elettrica “Terra-Terra” dove la messa a terra è a carico dell’utente</li>
+  <li><strong>Sistema TN</strong> — sistema di distribuzione con messa a terra fornita dal distributore</li>
+  <li><strong>SPD (Surge Protection Device)</strong> — scaricatore di sovratensione; tipo 1 (50 kA), tipo 2 (20 kA), tipo 3 (protezione fine)</li>
+  <li><strong>Struttura autoprotetta</strong> — struttura il cui rischio calcolato è inferiore al rischio tollerabile</li>
+  <li><strong>Tetanizzazione</strong> — contrazione involontaria e persistente dei muscoli causata dal passaggio di corrente alternata (soglia: 10–15 mA)</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatore 1</strong>: Fabrizio Badiani (IU5QUO) — esperto di sicurezza elettrica, formatore PES/PAV</li>
+  <li>👨‍🏫 <strong>Relatore 2</strong>: Gabriele (IZ5JLW) — progettista impiantistico e acustico, radioamatore (telegrafia con tasti meccanici)</li>
+  <li>👨‍🏫 <strong>Moderatore</strong>: Paolo — coordinatore del corso</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Campo</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Lezione numero</strong></td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td>02/07/2025</td>
+    </tr>
+    <tr>
+      <td><strong>Durata stimata</strong></td>
+      <td>~2 ore 15 minuti</td>
+    </tr>
+    <tr>
+      <td><strong>Numero argomenti</strong></td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td><strong>Parole chiave</strong></td>
+      <td>sicurezza elettrica, corrente alternata, corrente continua, fibrillazione ventricolare, tetanizzazione, differenziale, messa a terra, contatto diretto, contatto indiretto, doppio isolamento, fulmini, CEI 81, LPS, SPD, scaricatore di sovratensione, barra equipotenziale, dispersore, rischio tollerabile</td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+</body>
+</html>

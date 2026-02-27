@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 15 - Linee di Trasmissione - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/">🏠 Home</a>
+    <a href="/guide-studio/">📖 Guide di Studio</a>
+    <a href="/glossario.html">📚 Glossario</a>
+    <a href="/domande-esame.html">❓ Domande</a>
+    <a href="/risorse.html">🔗 Risorse</a>
+  </nav>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/guide-studio/lezione_14.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/guide-studio/lezione_16.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/guide-studio/lezione_15.html" selected>📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-15---linee-di-trasmissione">📘 Lezione 15 - Linee di Trasmissione</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia</strong>: Elettronica e tecnica dei ricevitori radio</li>
+  <li><strong>Argomento principale</strong>: I ricevitori radioamatoriali — architettura supereterodina, tipi di rivelatori, AGC, frequenza immagine e problemi dei ricevitori</li>
+  <li><strong>Tempo di studio stimato</strong>: 2 ore e 30 minuti</li>
+  <li><strong>Prerequisiti</strong>: Conoscenza dei filtri e circuiti risonanti (Lezione 06), modulazioni AM/SSB/FM (Lezione 07), decibel (Lezione 13), trasmettitori e miscelatori (Lezione 14)</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Comprendere l’architettura del ricevitore supereterodina a singola e doppia conversione</li>
+      <li>Conoscere i rivelatori specifici per CW, SSB, AM e FM</li>
+      <li>Capire il funzionamento dell’AGC e dell’S-meter</li>
+      <li>Comprendere il problema della frequenza immagine e le sue soluzioni</li>
+      <li>Conoscere i problemi dei ricevitori: bloccaggio, modulazione incrociata e intermodulazione</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h3 id="1--correzione-quiz-lezione-14--0002">1. 📝 Correzione quiz Lezione 14 (⏱ 00:02)</h3>
+
+<p>La lezione si apre con la correzione dei quiz della settimana precedente, riguardanti i trasmettitori. Vengono riviste le seguenti domande chiave:</p>
+
+<p><strong>Moltiplicatori di frequenza in FM</strong>: nei trasmettitori FM, per aumentare la <strong>deviazione di frequenza</strong> prodotta dal modulatore si utilizzano i <strong>moltiplicatori di frequenza</strong>, non i filtri passa-basso né i modulatori bilanciati. I moltiplicatori moltiplicano sia la frequenza sia la deviazione per lo stesso fattore.</p>
+
+<p><strong>Filtro passabanda in SSB</strong>: all’uscita del modulatore bilanciato è presente un filtro passabanda per eliminare una delle due bande laterali (o equivalentemente per selezionare la banda laterale voluta). Il modulatore bilanciato produce un segnale DSB (doppia banda laterale), e il filtro ne lascia passare una sola.</p>
+
+<p><strong>Filtro passa-basso in uscita al trasmettitore</strong>: se si trasmette a 14 MHz, la frequenza di taglio del filtro deve essere <strong>poco superiore</strong> alla frequenza di trasmissione, ma <strong>inferiore alla seconda armonica</strong> (2 × 14 = 28 MHz). Un filtro troppo alto (es. 50 MHz) lascerebbe passare armoniche pericolose.</p>
+
+<p><strong>Calcolo della deviazione di frequenza</strong>: viene svolto un esercizio dettagliato. Un oscillatore a 12,21 MHz modulato a reattanza deve produrre una trasmissione a 146,52 MHz con deviazione di 5 kHz. Il fattore di moltiplicazione è 146,52 / 12,21 = <strong>12</strong>. Quindi la deviazione all’oscillatore dev’essere 5000 / 12 ≈ <strong>417 Hz</strong>. Il fattore di moltiplicazione si applica identicamente sia alla frequenza sia alla deviazione.</p>
+
+<p><strong>Mixer</strong>: un segnale a 5,3 MHz non può diventare 14,3 MHz per moltiplicazione (×2 = 10,6; ×3 = 15,9). L’unico circuito che può fare questa traslazione è il <strong>mixer</strong> (miscelatore/convertitore): 5,3 + 9,0 = 14,3 MHz.</p>
+
+<hr />
+
+<h3 id="2--introduzione-ai-ricevitori--1352">2. 📡 Introduzione ai ricevitori (⏱ 13:52)</h3>
+
+<p>Il ricevitore è il componente che <strong>caratterizza maggiormente</strong> una stazione radioamatoriale. A differenza dei trasmettitori, che sono sostanzialmente identici tra radio economiche e costose (un trasmettitore da 100 W ha sempre lo stesso costo industriale), il <strong>ricevitore fa la differenza</strong> nel prezzo.</p>
+
+<p>Le radio possono essere classificate per fascia di prezzo:</p>
+
+<ul>
+  <li><strong>Entry-level</strong> (€500-1000): fanno il loro lavoro in condizioni normali, ma hanno limiti intrinseci con bande affollate</li>
+  <li><strong>Fascia intermedia</strong> (€1000-2000): prestazioni discrete</li>
+  <li><strong>Top di gamma</strong> (€5000-10000): ricevitori “macchine da guerra”, robustissimi, raramente perdono il controllo della situazione</li>
+</ul>
+
+<p>La differenza sostanziale sta nella <strong>componentistica</strong> del ricevitore: circuiti risonanti, filtri e dispositivi di alta qualità costano molto. Un ricevitore di fascia alta deve continuare a funzionare anche con bande strapiene durante i contest, dove segnali fortissimi potrebbero far “imbarcare” un ricevitore economico.</p>
+
+<hr />
+
+<h3 id="3--le-tre-caratteristiche-fondamentali-del-ricevitore--1915">3. 🔍 Le tre caratteristiche fondamentali del ricevitore (⏱ 19:15)</h3>
+
+<p>Un buon ricevitore deve possedere tre caratteristiche essenziali:</p>
+
+<h4 id="-sensibilità">🔹 Sensibilità</h4>
+
+<p>La <strong>sensibilità</strong> — è la capacità di ascoltare segnali deboli, discriminando il segnale utile dal rumore. Un collegamento si fa non quando un segnale arriva forte, ma quando il <strong>rapporto segnale/rumore (S/N)</strong> è adeguato. Si può avere un segnale forte, ma se il rumore è più forte, il segnale non è comprensibile.</p>
+
+<p>La sensibilità si ottiene attraverso l’<strong>amplificazione</strong>: un ricevitore deve amplificare il segnale dall’antenna da <strong>1 milione a 10 milioni di volte</strong>. Un’antenna può captare segnali da 1-5-10 µV (microvolts), che devono essere portati a circa 10 V per pilotare l’altoparlante. Questa amplificazione è realizzata da una <strong>catena di amplificatori</strong> in successione.</p>
+
+<h4 id="-selettività">🔹 Selettività</h4>
+
+<p>La <strong>selettività</strong> — è la capacità di far ascoltare solo il segnale su cui si è sintonizzati, senza interferenze dai canali adiacenti. Si realizza con <strong>filtri</strong>: circuiti risonanti LC o filtri a cristallo di quarzo.</p>
+
+<p>Il problema è che avere un filtro per ogni canale sarebbe costosissimo, e un singolo circuito risonante LC non è sufficiente per separare canali vicini (ne servirebbero almeno 5 in cascata). Sintonizzare manualmente 5 filtri in serie sarebbe impraticabile.</p>
+
+<h4 id="-stabilità">🔹 Stabilità</h4>
+
+<p>La <strong>stabilità</strong> — è la caratteristica meccanica ed elettrica per cui, una volta sintonizzato su una certa frequenza, il ricevitore deve restare lì senza derive.</p>
+
+<hr />
+
+<h3 id="4--il-ricevitore-supereterodina--2503">4. 📻 Il ricevitore supereterodina (⏱ 25:03)</h3>
+
+<p>Per risolvere il problema della selettività, verso il <strong>1910-1915</strong> fu inventata l’architettura dei ricevitori <strong>supereterodina</strong> (ricevitori a conversione). Il termine “eterodinaggio” indica il processo di battimento tra due segnali per ottenere una terza frequenza.</p>
+
+<h4 id="-principio-di-funzionamento">🔹 Principio di funzionamento</h4>
+
+<p>Il cuore del sistema è un <strong>filtro a frequenza fissa</strong> (tipicamente a cristallo di quarzo), ad esempio a <strong>9 MHz</strong> o <strong>455 kHz</strong>. Questo filtro non può essere spostato in frequenza poiché i cristalli hanno frequenza determinata dal taglio e dalle dimensioni fisiche.</p>
+
+<p>La soluzione geniale è: invece di spostare il filtro, si <strong>porta il segnale desiderato alla frequenza del filtro</strong>. Questo avviene tramite un <strong>convertitore</strong> (mixer) e un <strong>oscillatore locale</strong> (VFO).</p>
+
+<p><strong>Esempio con la banda cittadina (27 MHz)</strong>:</p>
+
+<ul>
+  <li>Voglio ricevere il Canale 1 a 27,000 MHz</li>
+  <li>Il filtro è fisso a 9 MHz</li>
+  <li>L’oscillatore locale genera 18,000 MHz</li>
+  <li>Il mixer calcola: 27,000 − 18,000 = <strong>9,000 MHz</strong> → il segnale passa il filtro</li>
+  <li>Per ricevere il Canale 2 (27,010 MHz): sposto l’oscillatore locale a 18,010 MHz</li>
+  <li>27,010 − 18,010 = 9,000 MHz → sempre alla frequenza del filtro</li>
+</ul>
+
+<p>La <strong>frequenza intermedia</strong> (IF — Intermediate Frequency) è la frequenza fissa a cui il segnale viene convertito. La manopola di sintonia varia la frequenza dell’oscillatore locale.</p>
+
+<h4 id="-schema-a-blocchi-della-supereterodina">🔹 Schema a blocchi della supereterodina</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Antenna → Amplificatore RF → Convertitore/Mixer → Filtro IF → Amplificatore IF → Rivelatore → Amplificatore BF → Altoparlante
+                                    ↑
+                            Oscillatore Locale (VFO)
+</code></pre></div></div>
+
+<p>Il ricevitore supereterodina è essenzialmente un <strong>ricevitore a frequenza fissa</strong> (dal filtro in poi) preceduto da un convertitore che, con un oscillatore locale di frequenza opportuna, converte volta per volta la frequenza desiderata alla frequenza intermedia.</p>
+
+<blockquote>
+  <p>“La manopola della sintonia in queste radio mi varia la frequenza del mio oscillatore locale. Variando la frequenza dell’oscillatore locale io di volta in volta converto il canale che voglio ricevere alla mia frequenza intermedia.”</p>
+</blockquote>
+
+<h4 id="-oscillatore-locale-tipologie">🔹 Oscillatore locale: tipologie</h4>
+
+<p>L’oscillatore locale può essere:</p>
+
+<ul>
+  <li>Un <strong>oscillatore libero</strong>: usato nelle radio AM economiche (Rai 1, Rai 2, Rai 3)</li>
+  <li>Un <strong>PLL</strong> (Phase-Locked Loop): usato dalla banda cittadina in poi, molto più stabile perché agganciato a un quarzo di riferimento</li>
+  <li>Nei primi CB a 24 canali: le frequenze erano ottenute mescolando 6 quarzi con altri 4 quarzi (6 × 4 = 24 canali)</li>
+</ul>
+
+<hr />
+
+<h3 id="5--supereterodina-a-doppia-conversione--4430">5. 🔄 Supereterodina a doppia conversione (⏱ 44:30)</h3>
+
+<p>In molti ricevitori si effettua una <strong>doppia conversione</strong>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Antenna → Amp RF → 1° Mixer → Filtro 1ª IF (9 MHz) → 2° Mixer → Filtro 2ª IF (455 kHz) → Amp IF → Rivelatore → Amp BF → Altoparlante
+                      ↑                                    ↑
+              Oscillatore Locale                   Oscillatore Fisso
+              (variabile - VFO)
+</code></pre></div></div>
+
+<p>La prima conversione usa un <strong>oscillatore variabile</strong> (VFO) per portare il segnale alla prima IF (es. 9 MHz). La seconda conversione usa un <strong>oscillatore fisso</strong> per riconvertire a una IF più bassa (es. 455 kHz).</p>
+
+<p>Motivi per la doppia conversione:</p>
+
+<ul>
+  <li>I filtri a frequenza più bassa costano meno</li>
+  <li>Permette di avere una prima IF alta (buona reiezione della frequenza immagine) e una seconda IF bassa (filtri economici e performanti)</li>
+  <li>Esistono anche ricevitori a <strong>tripla conversione</strong></li>
+</ul>
+
+<hr />
+
+<h3 id="6--tre-tipi-di-amplificatori-nel-ricevitore--4651">6. 🔊 Tre tipi di amplificatori nel ricevitore (⏱ 46:51)</h3>
+
+<p>In un ricevitore sono presenti tre categorie di amplificatori:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo</th>
+      <th>Frequenza di lavoro</th>
+      <th>Funzione</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Amplificatore RF</strong> (radiofrequenza)</td>
+      <td>Frequenza dei segnali ricevuti</td>
+      <td>Amplifica segnali deboli dall’antenna; a volte chiamato <strong>preamplificatore</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Amplificatore IF</strong> (frequenza intermedia)</td>
+      <td>Frequenza fissa (es. 9 MHz)</td>
+      <td>Fornisce il grosso del guadagno (×1000 - ×10000); stadi in cascata</td>
+    </tr>
+    <tr>
+      <td><strong>Amplificatore BF</strong> (bassa frequenza)</td>
+      <td>Frequenze audio</td>
+      <td>Amplifica il segnale audio e pilota l’altoparlante</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>L’amplificatore RF è spesso dotato di più modalità:</p>
+
+<ul>
+  <li><strong>Preamplificatore alto guadagno</strong>: +12/14/18 dB</li>
+  <li><strong>Preamplificatore basso guadagno</strong>: +6 dB</li>
+  <li><strong>Through</strong> (diretto): nessuna amplificazione, antenna collegata direttamente al mixer</li>
+  <li><strong>Attenuatore</strong>: −6, −12, −18 dB per evitare la saturazione con segnali forti in ingresso</li>
+</ul>
+
+<hr />
+
+<h3 id="7--ricevitore-per-cw--telegrafia--4846">7. 📶 Ricevitore per CW — Telegrafia (⏱ 48:46)</h3>
+
+<h4 id="-caratteristiche-del-filtro">🔹 Caratteristiche del filtro</h4>
+
+<p>Il segnale telegrafico è una <strong>portante accesa e spenta</strong> (on/off keying), quindi è molto stretto in frequenza. Si usa un filtro a <strong>500 Hz</strong> di larghezza di banda. Questo è un valore standard: nelle domande d’esame, se chiedono la larghezza di banda per CW, la risposta è <strong>500 Hz</strong>.</p>
+
+<h4 id="-esempio-numerico--banda-80-m">🔹 Esempio numerico — Banda 80 m</h4>
+
+<ul>
+  <li>Banda: 3,5 − 4 MHz</li>
+  <li>Oscillatore locale: 5 − 5,5 MHz</li>
+  <li>Verifica: 3,5 + 5,5 = 9 MHz ✓ e 4,0 + 5,0 = 9 MHz ✓</li>
+  <li>Frequenza intermedia: <strong>9 MHz</strong></li>
+</ul>
+
+<h4 id="-il-bfo--oscillatore-di-battimento">🔹 Il BFO — Oscillatore di battimento</h4>
+
+<p><strong>BFO</strong> — Beat Frequency Oscillator (oscillatore della frequenza di battimento). È un oscillatore, generalmente a quarzo, la cui frequenza è leggermente spostata rispetto alla frequenza intermedia.</p>
+
+<p>Il problema della telegrafia è che una portante pura accesa/spenta non produce alcun suono udibile. Per renderla udibile si usa un <strong>rivelatore a prodotto</strong> (che funziona come un mixer):</p>
+
+<ul>
+  <li>Il segnale CW arriva a 9 MHz (dalla catena IF)</li>
+  <li>Il BFO genera 9 MHz + 700 Hz = 9,0007 MHz</li>
+  <li>Il rivelatore a prodotto calcola: somma (18 MHz → inaudibile) e differenza (<strong>700 Hz</strong> → tono audio!)</li>
+  <li>I tre puntini della lettera S diventano: <strong>“ti-ti-ti”</strong> a 700 Hz</li>
+</ul>
+
+<p><strong>Perché 700 Hz?</strong> È una frequenza a cui l’orecchio umano è particolarmente sensibile. Nelle radio più costose c’è una manopola di <strong>pitch</strong> che permette di regolare la frequenza del tono.</p>
+
+<hr />
+
+<h3 id="8--ricevitore-per-ssb--6120">8. 📡 Ricevitore per SSB (⏱ 61:20)</h3>
+
+<h4 id="-caratteristiche-del-filtro-1">🔹 Caratteristiche del filtro</h4>
+
+<p>Il filtro per SSB ha una larghezza di banda di <strong>2,5 kHz</strong> (2 kHz e mezzo), corrispondente alla banda vocale utile (200 Hz − 2500 Hz).</p>
+
+<h4 id="-rivelazione-ssb">🔹 Rivelazione SSB</h4>
+
+<p>Il meccanismo è identico a quello della telegrafia: si usa un <strong>rivelatore a prodotto</strong> con un <strong>BFO</strong>. Il BFO “rimette la portante” che era stata soppressa in trasmissione, rigenerando così il segnale audio.</p>
+
+<p>La differenza è che il BFO ha <strong>due quarzi commutabili</strong>:</p>
+
+<ul>
+  <li>Quarzo per <strong>USB</strong> (Upper Side Band): BFO a 9 MHz + 2500 Hz</li>
+  <li>Quarzo per <strong>LSB</strong> (Lower Side Band): BFO a 9 MHz − 2500 Hz = 8,9975 MHz</li>
+</ul>
+
+<p>Si usa <strong>un solo filtro</strong> per entrambe le bande laterali e si commuta il quarzo del BFO. Usare due filtri separati sarebbe possibile ma molto più costoso (un filtro costa circa 10 volte un quarzo).</p>
+
+<h4 id="-sintonia-del-ricevitore-ssb">🔹 Sintonia del ricevitore SSB</h4>
+
+<p>Nello schema del ricevitore SSB:</p>
+
+<ul>
+  <li><strong>C3</strong> = condensatore dell’oscillatore locale (<strong>sintonia</strong> = VFO)</li>
+  <li><strong>C1, C2</strong> = condensatori del preamplificatore sintonizzato (nelle radio vintage hanno manopole esterne; nelle radio moderne si sintonizzano automaticamente)</li>
+</ul>
+
+<hr />
+
+<h3 id="9--ricevitore-per-am--7151">9. 📻 Ricevitore per AM (⏱ 71:51)</h3>
+
+<h4 id="-caratteristiche-del-filtro-2">🔹 Caratteristiche del filtro</h4>
+
+<p>L’AM richiede entrambe le bande laterali, quindi il filtro è largo il <strong>doppio</strong> rispetto all’SSB: tipicamente <strong>5-6 kHz</strong>.</p>
+
+<h4 id="-rivelatore-am--diodo-e-condensatore">🔹 Rivelatore AM — diodo e condensatore</h4>
+
+<p>Il rivelatore AM è il circuito più semplice, identico alla storica <strong>radio a galena</strong>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Segnale AM → Diodo → Condensatore → Uscita audio
+</code></pre></div></div>
+
+<ol>
+  <li>Il <strong>diodo</strong> rettifica il segnale, tagliando la semionda negativa (lascia passare la corrente solo in un verso)</li>
+  <li>Il <strong>condensatore</strong> livella i picchi della portante a radiofrequenza</li>
+  <li>Sul condensatore resta l’<strong>inviluppo</strong> del segnale modulato = il segnale audio originale</li>
+</ol>
+
+<p>È un circuito economicissimo e senza alternative pratiche per la demodulazione AM.</p>
+
+<hr />
+
+<h3 id="10--ricevitore-per-fm--7628">10. 📡 Ricevitore per FM (⏱ 76:28)</h3>
+
+<h4 id="-caratteristiche-del-filtro-3">🔹 Caratteristiche del filtro</h4>
+
+<p>L’FM è il modo di emissione più largo; si usano filtri a <strong>10 kHz</strong> di larghezza di banda (standard di canalizzazione attuale). La frequenza intermedia tipica è <strong>10,7 MHz</strong> (standard industriale adottato dalla maggior parte dei costruttori).</p>
+
+<h4 id="-il-limitatore">🔹 Il limitatore</h4>
+
+<p>Nella catena di media frequenza FM compare uno stadio chiamato <strong>limitatore</strong> — un amplificatore che lavora in <strong>saturazione</strong> e taglia (“tosa”) i picchi del segnale al di sopra di un certo livello, rendendo costante l’ampiezza del segnale.</p>
+
+<p>In FM l’informazione è contenuta nella <strong>variazione di frequenza</strong>, non nell’ampiezza. Quindi si può limitare brutalmente l’ampiezza senza perdere informazione, eliminando tutti i <strong>disturbi in modulazione di ampiezza</strong> (scariche elettriche, fulmini, amplificatori switching). Questo è il motivo per cui l’FM ha una riproduzione <strong>particolarmente pulita</strong> rispetto all’AM.</p>
+
+<h4 id="-discriminatore-a-pendenza">🔹 Discriminatore a pendenza</h4>
+
+<p>Il discriminatore più semplice usa un <strong>circuito risonante</strong> sintonizzato non esattamente sulla frequenza intermedia, ma <strong>leggermente più in alto</strong> (es. a 10,8 MHz anziché 10,7 MHz):</p>
+
+<ul>
+  <li>Quando la frequenza FM si sposta <strong>verso la risonanza</strong> → l’ampiezza in uscita <strong>aumenta</strong> (V₀ + ΔV)</li>
+  <li>Quando la frequenza si sposta <strong>lontano dalla risonanza</strong> → l’ampiezza <strong>diminuisce</strong> (V₀ − ΔV)</li>
+</ul>
+
+<p>In questo modo la <strong>modulazione di frequenza viene convertita in modulazione di ampiezza</strong>, che poi viene rivelata con un semplice diodo + condensatore.</p>
+
+<p>⚠️ <em>Il discriminatore a pendenza non è perfetto: la curva del circuito risonante (campana) non è lineare, quindi la conversione FM→AM introduce distorsione. È un discriminatore economico ma di qualità limitata.</em></p>
+
+<h4 id="-discriminatore-foster-seeley">🔹 Discriminatore Foster-Seeley</h4>
+
+<p>Il <strong>discriminatore Foster-Seeley</strong> — è un discriminatore molto più <strong>lineare</strong>, usato in tutte le radio FM di qualità, inclusa l’alta fedeltà. Non è richiesto conoscerne il funzionamento nel dettaglio, ma bisogna sapere che si chiama <strong>discriminatore di Foster-Seeley</strong> e che è il discriminatore standard per l’FM.</p>
+
+<blockquote>
+  <p>Il termine <strong>discriminatore</strong> si usa esclusivamente per i ricevitori FM. Per l’AM si parla di <strong>rivelatore</strong>.</p>
+</blockquote>
+
+<h4 id="-squelch-silenziatore">🔹 Squelch (silenziatore)</h4>
+
+<p>Lo <strong>squelch</strong> — è un circuito presente nei ricevitori FM che silenzia l’audio in assenza di segnale utile. Si regola con una manopola:</p>
+
+<ul>
+  <li>Si posiziona la soglia appena sopra il livello di fruscio/rumore di fondo</li>
+  <li>Segnali sotto soglia (= rumore) → audio silenziato</li>
+  <li>Segnali sopra soglia (= trasmissione in corso) → audio riprodotto (“apre lo squelch”)</li>
+</ul>
+
+<p>Funzione pratica: evita lo stress di ascoltare fruscio continuo quando nessuno trasmette.</p>
+
+<hr />
+
+<h3 id="11-️-agc--controllo-automatico-di-guadagno--9213">11. 🎛️ AGC — Controllo Automatico di Guadagno (⏱ 92:13)</h3>
+
+<p>Il <strong>Controllo Automatico di Guadagno</strong> è uno dei circuiti più importanti di un ricevitore. Può essere indicato con diverse sigle:</p>
+
+<ul>
+  <li><strong>CAG</strong> — Controllo Automatico di Guadagno</li>
+  <li><strong>CAV</strong> — Controllo Automatico di Volume</li>
+  <li><strong>AGC</strong> — Automatic Gain Control</li>
+</ul>
+
+<p>Tutte e tre le sigle possono comparire nelle domande d’esame.</p>
+
+<h4 id="-funzionamento">🔹 Funzionamento</h4>
+
+<p>Il ricevitore può avere in ingresso segnali da 1 µV fino a 10 mV (un fattore di 10.000). Senza AGC, si dovrebbe regolare continuamente il volume, rischiando “urlate” nell’altoparlante.</p>
+
+<p>L’AGC è un <strong>circuito di retroazione</strong>: preleva un campione del segnale dall’uscita del rivelatore e, in base alla sua ampiezza, <strong>regola il guadagno dell’amplificatore IF</strong> (e talvolta anche del preamplificatore RF):</p>
+
+<ul>
+  <li>Segnale in ingresso forte → guadagno IF basso</li>
+  <li>Segnale in ingresso debole → guadagno IF alto</li>
+</ul>
+
+<p>Risultato: l’audio in uscita rimane a livello pressoché costante.</p>
+
+<h4 id="-rf-gain">🔹 RF Gain</h4>
+
+<p>Oltre alla regolazione automatica, esiste una <strong>regolazione manuale</strong> tramite la manopola <strong>RF Gain</strong> che permette di controllare il guadagno complessivo della catena di amplificazione. Utile per:</p>
+
+<ul>
+  <li>Tecniche di ascolto specifiche</li>
+  <li>Ridurre il guadagno in presenza di segnali molto forti</li>
+  <li>Evitare saturazione del ricevitore</li>
+</ul>
+
+<h4 id="-s-meter">🔹 S-meter</h4>
+
+<p>La stessa tensione proporzionale all’intensità del segnale ricevuto viene usata per pilotare lo <strong>S-meter</strong> (misuratore di livello del segnale):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Scala</th>
+      <th>Significato</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>S0 — S9</strong></td>
+      <td>Ogni punto S = <strong>6 dB</strong> = <strong>×4 in potenza</strong></td>
+    </tr>
+    <tr>
+      <td><strong>S9</strong></td>
+      <td>Corrisponde a <strong>50 µV</strong> in antenna (taratura di fabbrica)</td>
+    </tr>
+    <tr>
+      <td><strong>Oltre S9</strong></td>
+      <td>Scala logaritmica: S9+10, S9+20, S9+30, S9+40, S9+50 dB</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>La “S” dello S-meter deriva dal sistema <strong>RST</strong>: R = Readability (leggibilità), <strong>S = Strength</strong> (forza del segnale), T = Tone (tono, solo per telegrafia).</p>
+
+<hr />
+
+<h3 id="12--frequenza-immagine--10232">12. 🔀 Frequenza immagine (⏱ 102:32)</h3>
+
+<p>La <strong>frequenza immagine</strong> — è un problema intrinseco di tutti i ricevitori supereterodina. Nasce dal fatto che il mixer genera sia la somma sia la differenza dei segnali in ingresso.</p>
+
+<h4 id="-esempio-pratico">🔹 Esempio pratico</h4>
+
+<p>Ricevitore AM casalingo con IF a 455 kHz:</p>
+
+<ul>
+  <li>Voglio ascoltare Rai 1 a <strong>900 kHz</strong></li>
+  <li>VFO a <strong>1355 kHz</strong></li>
+  <li>1355 − 900 = <strong>455 kHz</strong> ✓ (segnale desiderato)</li>
+  <li>Ma anche: 1810 − 1355 = <strong>455 kHz</strong> ⚠️ (frequenza immagine!)</li>
+</ul>
+
+<p>Se esiste un segnale a 1810 kHz, viene convertito alla stessa IF e viene ascoltato <strong>sovrapposto</strong> al segnale desiderato.</p>
+
+<h4 id="-regola-fondamentale">🔹 Regola fondamentale</h4>
+
+<blockquote>
+  <p>La frequenza immagine dista sempre <strong>2 × IF</strong> dal segnale ricevuto.</p>
+</blockquote>
+
+<table>
+  <thead>
+    <tr>
+      <th>IF del ricevitore</th>
+      <th>Distanza della freq. immagine</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>455 kHz</td>
+      <td>910 kHz</td>
+    </tr>
+    <tr>
+      <td>9 MHz</td>
+      <td>18 MHz</td>
+    </tr>
+    <tr>
+      <td>10,7 MHz</td>
+      <td>21,4 MHz</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="-soluzioni">🔹 Soluzioni</h4>
+
+<ol>
+  <li><strong>Circuiti selettivi prima del mixer</strong>: filtri che lasciano passare la frequenza desiderata e bloccano la frequenza immagine</li>
+  <li><strong>IF alta</strong>: più è alta la IF, più la frequenza immagine è lontana e più è facile filtrarla</li>
+  <li><strong>Doppia conversione</strong>: permette di avere una prima IF molto alta (40-70 MHz) per eccellente reiezione dell’immagine, e una seconda IF bassa (9 MHz) dove è facile realizzare filtri stretti</li>
+</ol>
+
+<hr />
+
+<h3 id="13-️-problemi-dei-ricevitori--11203">13. ⚠️ Problemi dei ricevitori (⏱ 112:03)</h3>
+
+<p>I ricevitori supereterodina possono soffrire di tre problemi principali:</p>
+
+<h4 id="-bloccaggio">🔹 Bloccaggio</h4>
+
+<p>Il <strong>bloccaggio</strong> — si verifica quando un segnale molto forte (anche una portante) vicino alla frequenza che si sta ascoltando <strong>silenzia il ricevitore</strong>. Il segnale forte varia il punto di lavoro dei transistor del preamplificatore, causando una perdita di sensibilità. L’effetto è che il ricevitore sembra “ammutolirsi”.</p>
+
+<h4 id="-modulazione-incrociata">🔹 Modulazione incrociata</h4>
+
+<p>La <strong>modulazione incrociata</strong> — avviene quando la modulazione di un segnale forte si <strong>trasferisce su un segnale debole</strong>. Si ascolta il segnale debole con una doppia modulazione (es. giornale radio + musica sovrapposta). Il segnale interferente è così forte da creare un processo di modulazione di ampiezza negli stadi del ricevitore.</p>
+
+<h4 id="-intermodulazione">🔹 Intermodulazione</h4>
+
+<p>L’<strong>intermodulazione</strong> — è il problema più comune e grave. Quando segnali in ingresso forti portano gli amplificatori del ricevitore in <strong>regime non lineare</strong>, tutti i segnali presenti in banda vengono “mescolati” generando una grande quantità di segnali spuri, armoniche e prodotti di intermodulazione.</p>
+
+<p>A differenza del trasmettitore (dove i segnali da mescolare sono pochi — la propria voce), nel ricevitore i segnali sono <strong>molti</strong> (tutti i canali attivi in banda). Nei casi limite, l’intermodulazione può saturare l’intera banda rendendo impossibile l’uso del ricevitore.</p>
+
+<p><strong>Esempio tipico</strong>: la banda dei <strong>40 m</strong> (7 MHz) con stazioni di broadcasting (radiodiffusione a 100 kW) subito sopra e sotto la banda RadioAmatoriale, che con propagazione favorevole arrivano fortissime e mandano in intermodulazione i ricevitori meno robusti.</p>
+
+<hr />
+
+<h3 id="14--sensibilità-e-rapporto-segnalerumore--11742">14. 📊 Sensibilità e rapporto segnale/rumore (⏱ 117:42)</h3>
+
+<p>La <strong>sensibilità</strong> è la minima tensione in ingresso che produce un segnale d’uscita distinguibile dal rumore. Si esprime normalmente così:</p>
+
+<blockquote>
+  <p><strong>0,5 µV per 10 dB di rapporto segnale/rumore (S/N)</strong></p>
+</blockquote>
+
+<p>Significa che con 0,5 µV in antenna, il segnale ha una potenza 10 volte superiore a quella del rumore (10 dB = ×10 in potenza).</p>
+
+<p>Un collegamento si fa non perché il segnale è forte, ma perché il <strong>rapporto S/N è favorevole</strong>.</p>
+
+<h4 id="-influenza-della-larghezza-di-banda">🔹 Influenza della larghezza di banda</h4>
+
+<p>La larghezza di banda del ricevitore è come una “finestra aperta”: più è larga, più rumore entra. Di conseguenza:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Modo</th>
+      <th>Filtro</th>
+      <th>Sensibilità</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>CW</strong></td>
+      <td>500 Hz</td>
+      <td><strong>Migliore</strong> (finestrella strettissima)</td>
+    </tr>
+    <tr>
+      <td><strong>SSB</strong></td>
+      <td>2,5 kHz</td>
+      <td>Buona</td>
+    </tr>
+    <tr>
+      <td><strong>AM</strong></td>
+      <td>5-6 kHz</td>
+      <td>Discreta</td>
+    </tr>
+    <tr>
+      <td><strong>FM</strong></td>
+      <td>10 kHz</td>
+      <td><strong>Peggiore</strong> (finestra spalancata)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Per questo motivo molti radioamatori continuano a usare la telegrafia: in CW si fanno <strong>collegamenti più distanti con meno potenza</strong> perché i ricevitori sono intrinsecamente più sensibili.</p>
+
+<p>La sensibilità dipende anche dal <strong>rumore dei primi stadi</strong> del ricevitore (preamplificatore). Usare transistor e FET molto silenziosi ai primi stadi è fondamentale per tenere basso il livello di rumore intrinseco.</p>
+
+<hr />
+
+<h3 id="15--filtro-notch--12518">15. 🔧 Filtro notch (⏱ 125:18)</h3>
+
+<p>Il <strong>filtro notch</strong> — lavora in media frequenza, subito dopo il filtro principale, nell’ambito della banda passante del ricevitore. Serve per eliminare un singolo segnale interferente (es. una portante disturbante) all’interno del canale che si sta ascoltando.</p>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li>Ricevitore supereterodina → utilizza → conversione di frequenza</li>
+  <li>Oscillatore locale (VFO) → determina → frequenza ricevuta</li>
+  <li>Mixer/convertitore → genera → frequenza intermedia (IF)</li>
+  <li>Filtro IF → realizza → selettività del ricevitore</li>
+  <li>IF fissa → richiede → conversione di frequenza tramite mixer</li>
+  <li>Amplificatore IF → fornisce → il grosso del guadagno</li>
+  <li>BFO → permette → rivelazione CW e SSB tramite battimento</li>
+  <li>BFO + rivelatore a prodotto → genera → tono audio (CW) o voce (SSB)</li>
+  <li>Diodo + condensatore → rivela → modulazione di ampiezza (AM)</li>
+  <li>Limitatore → elimina → disturbi AM nel ricevitore FM</li>
+  <li>Discriminatore → rivela → modulazione di frequenza (FM)</li>
+  <li>Foster-Seeley → è tipo di → discriminatore (lineare, FM)</li>
+  <li>AGC → mantiene costante → livello audio in uscita</li>
+  <li>AGC → pilota → S-meter</li>
+  <li>Frequenza immagine → è problema di → supereterodina</li>
+  <li>Frequenza immagine → dista → 2 × IF dal segnale ricevuto</li>
+  <li>IF alta → migliora → reiezione frequenza immagine</li>
+  <li>Segnali forti in ingresso → causano → intermodulazione nel ricevitore</li>
+  <li>Larghezza di banda filtro → influisce su → sensibilità (banda stretta = più sensibile)</li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>
+    <p>Il <strong>ricevitore supereterodina</strong> converte il segnale ricevuto a una frequenza intermedia fissa tramite un mixer e un oscillatore locale variabile; la manopola di sintonia varia la frequenza dell’oscillatore locale.</p>
+  </li>
+  <li>
+    <p>La <strong>frequenza intermedia (IF)</strong> è una frequenza fissa tipica: 455 kHz, 9 MHz, 10,7 MHz. A questa frequenza vengono realizzati il filtro principale e la catena di amplificazione.</p>
+  </li>
+  <li>
+    <p>La <strong>doppia conversione</strong> usa una prima IF alta (per reiezione dell’immagine) e una seconda IF bassa (per filtri economici e performanti).</p>
+  </li>
+  <li>
+    <p>Per la <strong>telegrafia (CW)</strong>: filtro 500 Hz, rivelatore a prodotto + BFO a IF + 700 Hz → tono audio a 700 Hz.</p>
+  </li>
+  <li>
+    <p>Per l’<strong>SSB</strong>: filtro 2,5 kHz, rivelatore a prodotto + BFO con due quarzi commutabili (USB/LSB). Si usa un solo filtro + 2 quarzi anziché 2 filtri separati per ragioni di costo.</p>
+  </li>
+  <li>
+    <p>Per l’<strong>AM</strong>: filtro 5-6 kHz, rivelatore a diodo + condensatore (stile radio a galena).</p>
+  </li>
+  <li>
+    <p>Per l’<strong>FM</strong>: filtro 10 kHz, IF = 10,7 MHz, <strong>limitatore</strong> (taglia picchi di ampiezza per eliminare disturbi AM), discriminatore (a pendenza o Foster-Seeley), squelch (silenziatore).</p>
+  </li>
+  <li>
+    <p>L’<strong>AGC</strong> (CAG/CAV) regola automaticamente il guadagno dell’amplificatore IF per mantenere costante il livello audio in uscita. La stessa tensione pilota lo <strong>S-meter</strong>.</p>
+  </li>
+  <li>
+    <p>Nello <strong>S-meter</strong>: ogni punto S = 6 dB (×4 in potenza), S9 = 50 µV, oltre S9 scala in dB.</p>
+  </li>
+  <li>
+    <p>La <strong>frequenza immagine</strong> dista sempre 2 × IF dal segnale ricevuto; si contrasta con circuiti selettivi in ingresso, IF alta e doppia conversione.</p>
+  </li>
+  <li>
+    <p>I tre problemi principali del ricevitore sono: <strong>bloccaggio</strong> (silenziamento), <strong>modulazione incrociata</strong> (modulazione del forte sul debole), <strong>intermodulazione</strong> (il più grave — segnali forti portano amplificatori in regime non lineare, mescolando tutti i segnali in banda).</p>
+  </li>
+  <li>
+    <p>La <strong>sensibilità</strong> dipende dalla larghezza di banda del filtro e dal rumore dei primi stadi: CW è il modo più sensibile (500 Hz), FM il meno (10 kHz).</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>
+    <p>Perché, in un ricevitore supereterodina, la manopola di sintonia non agisce direttamente sul filtro ma sull’oscillatore locale? Quali problemi risolve questa architettura?</p>
+  </li>
+  <li>
+    <p>Se un ricevitore ha una frequenza intermedia di 9 MHz e si sta ascoltando la frequenza di 14,200 MHz, quale sarà la frequenza dell’oscillatore locale e quale sarà la frequenza immagine? Come si può ridurre il rischio di interferenza dalla frequenza immagine?</p>
+  </li>
+  <li>
+    <p>Spiega perché in un ricevitore SSB si usano due quarzi per il BFO anziché due filtri separati per USB e LSB. Quali sono i vantaggi economici di questa scelta?</p>
+  </li>
+  <li>
+    <p>In FM, perché il limitatore può tagliare i picchi di ampiezza senza perdere informazione utile? Quale tipo di disturbi viene eliminato e perché?</p>
+  </li>
+  <li>
+    <p>Chi dei due discriminatori FM (a pendenza e Foster-Seeley) è più lineare e perché? In quali applicazioni viene preferito ciascuno?</p>
+  </li>
+  <li>
+    <p>Un ricevitore in CW con filtro a 500 Hz è più sensibile di uno FM con filtro a 10 kHz. Spiega il motivo e le implicazioni pratiche per i collegamenti a lunga distanza.</p>
+  </li>
+  <li>
+    <p>Descrivi il funzionamento dell’AGC: da dove preleva il segnale di controllo, su quali stadi agisce, e perché è essenziale in un ricevitore radioamatoriale.</p>
+  </li>
+  <li>
+    <p>Qual è la differenza tra bloccaggio, modulazione incrociata e intermodulazione nel ricevitore? Quale di questi è il problema più comune e perché?</p>
+  </li>
+  <li>
+    <p>In un ricevitore a doppia conversione con prima IF a 70 MHz e seconda IF a 9 MHz, spiega i vantaggi di ciascuna scelta di frequenza e perché la doppia conversione è necessaria.</p>
+  </li>
+  <li>
+    <p>Perché lo S-meter non misura direttamente la potenza del segnale ma sfrutta la tensione dell’AGC? Come è organizzata la sua scala?</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>AGC (Automatic Gain Control)</strong> — Controllo automatico di guadagno; circuito di retroazione che mantiene costante il livello dell’audio in uscita regolando il guadagno degli amplificatori IF</li>
+  <li><strong>Amplificatore BF</strong> — Amplificatore di bassa frequenza; amplifica il segnale audio per pilotare l’altoparlante</li>
+  <li><strong>Amplificatore IF</strong> — Amplificatore a frequenza intermedia; fornisce il grosso del guadagno nel ricevitore, lavora a frequenza fissa</li>
+  <li><strong>Amplificatore RF</strong> — Amplificatore a radiofrequenza; primo stadio del ricevitore, detto anche preamplificatore</li>
+  <li><strong>Attenuatore</strong> — Dispositivo che riduce il livello del segnale in ingresso per evitare la saturazione del ricevitore</li>
+  <li><strong>BFO (Beat Frequency Oscillator)</strong> — Oscillatore di battimento; genera un segnale leggermente spostato rispetto alla IF per produrre un tono audio (CW) o rigenerare la portante (SSB)</li>
+  <li><strong>Bloccaggio</strong> — Fenomeno in cui un segnale forte silenzia il ricevitore variando il punto di lavoro dei transistor</li>
+  <li><strong>CAG / CAV</strong> — Sigle italiane per Controllo Automatico di Guadagno / Volume; equivalente dell’AGC</li>
+  <li><strong>Conversione di frequenza</strong> — Processo per cui un segnale viene traslato in frequenza tramite un mixer</li>
+  <li><strong>Discriminatore</strong> — Rivelatore specifico per FM; converte variazioni di frequenza in variazioni di ampiezza</li>
+  <li><strong>Discriminatore a pendenza</strong> — Discriminatore FM semplice basato su un circuito risonante disaccordato; non lineare</li>
+  <li><strong>Discriminatore Foster-Seeley</strong> — Discriminatore FM ad alta linearità, usato nelle radio FM di qualità</li>
+  <li><strong>Doppia conversione</strong> — Architettura che usa due stadi di conversione: prima IF alta, seconda IF bassa</li>
+  <li><strong>Eterodinaggio</strong> — Processo di battimento tra due segnali per generare frequenze somma e differenza</li>
+  <li><strong>Frequenza immagine</strong> — Frequenza spuria che produce la stessa IF del segnale desiderato, distante 2×IF</li>
+  <li><strong>Frequenza intermedia (IF)</strong> — Frequenza fissa a cui il segnale ricevuto viene convertito nel ricevitore supereterodina</li>
+  <li><strong>Intermodulazione (nel ricevitore)</strong> — Mescolamento di segnali in ingresso forti causato dalla perdita di linearità degli amplificatori; il problema più grave dei ricevitori</li>
+  <li><strong>Limitatore</strong> — Amplificatore in saturazione usato nei ricevitori FM per eliminare variazioni di ampiezza e disturbi AM</li>
+  <li><strong>Modulazione incrociata</strong> — Fenomeno in cui la modulazione di un segnale forte si trasferisce su un segnale debole nel ricevitore</li>
+  <li><strong>Oscillatore locale</strong> — Oscillatore a frequenza variabile (VFO) o fisso che alimenta il mixer nel ricevitore supereterodina</li>
+  <li><strong>Pitch</strong> — Regolazione della frequenza del tono del BFO nei ricevitori CW</li>
+  <li><strong>Preamplificatore</strong> — Altro nome dell’amplificatore RF; primo stadio di amplificazione del ricevitore</li>
+  <li><strong>RF Gain</strong> — Controllo manuale del guadagno a radiofrequenza della catena di ricezione</li>
+  <li><strong>Radio a galena</strong> — Ricevitore AM primitivo che usava un cristallo di galena come rivelatore</li>
+  <li><strong>Rapporto segnale/rumore (S/N)</strong> — Rapporto tra la potenza del segnale utile e la potenza del rumore; determina la qualità della ricezione</li>
+  <li><strong>Rivelatore</strong> — Circuito che estrae il segnale audio dalla portante modulata</li>
+  <li><strong>Rivelatore a prodotto</strong> — Rivelatore basato su un mixer, usato per CW e SSB, che fa battere il segnale IF con il BFO</li>
+  <li><strong>S-meter</strong> — Strumento che indica la forza del segnale ricevuto; scala S0-S9 poi dB sopra S9</li>
+  <li><strong>Selettività</strong> — Capacità del ricevitore di isolare il segnale desiderato dai canali adiacenti</li>
+  <li><strong>Sensibilità</strong> — Minima tensione in ingresso che produce un segnale d’uscita distinguibile dal rumore</li>
+  <li><strong>Squelch</strong> — Silenziatore; circuito nei ricevitori FM che blocca l’audio quando non c’è segnale utile</li>
+  <li><strong>Stabilità</strong> — Capacità del ricevitore di mantenere costante la frequenza sintonizzata</li>
+  <li><strong>Supereterodina</strong> — Architettura di ricevitore a conversione di frequenza, con filtro a frequenza fissa e oscillatore locale variabile</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatore</strong>: Paolo</li>
+  <li>🎙️ <strong>Moderatore</strong>: Fabrizio</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Campo</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Lezione</strong></td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td>18 giugno 2025</td>
+    </tr>
+    <tr>
+      <td><strong>Durata</strong></td>
+      <td>~2 ore e 7 minuti</td>
+    </tr>
+    <tr>
+      <td><strong>Numero argomenti</strong></td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td><strong>Parole chiave</strong></td>
+      <td>Ricevitore, supereterodina, conversione di frequenza, frequenza intermedia, IF, oscillatore locale, VFO, BFO, rivelatore a prodotto, discriminatore, Foster-Seeley, limitatore, squelch, AGC, S-meter, frequenza immagine, doppia conversione, sensibilità, selettività, intermodulazione, bloccaggio, modulazione incrociata</td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+</body>
+</html>

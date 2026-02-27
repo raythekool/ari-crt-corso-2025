@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 08 - Oscillatori - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/">🏠 Home</a>
+    <a href="/guide-studio/">📖 Guide di Studio</a>
+    <a href="/glossario.html">📚 Glossario</a>
+    <a href="/domande-esame.html">❓ Domande</a>
+    <a href="/risorse.html">🔗 Risorse</a>
+  </nav>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/guide-studio/lezione_07.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/guide-studio/lezione_09.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/guide-studio/lezione_08.html" selected>📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-08---oscillatori">📘 Lezione 08 - Oscillatori</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia</strong>: Matematica applicata alla radiotecnica</li>
+  <li><strong>Argomento</strong>: Notazione scientifica, equivalenze tra unità di misura, equazioni di primo grado, logaritmi in base 10</li>
+  <li><strong>Tempo di studio stimato</strong>: 60–80 minuti</li>
+  <li><strong>Prerequisiti</strong>: Concetti base di algebra (potenze, frazioni), legge di Ohm e formula della potenza (Lezioni 01-02), unità di misura usate in elettronica (Henry, Farad, Ohm, Ampere, Volt, Watt)</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Saper convertire numeri da notazione scientifica a notazione decimale e viceversa</li>
+      <li>Padroneggiare le equivalenze tra multipli e sottomultipli delle unità di misura (da pico a giga)</li>
+      <li>Risolvere equazioni di primo grado per ricavare formule inverse (es. legge di Ohm)</li>
+      <li>Comprendere la definizione di logaritmo in base 10</li>
+      <li>Applicare le proprietà dei logaritmi per risolvere semplici equazioni logaritmiche</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h3 id="1--notazione-scientifica--05041552">1. 🔢 Notazione Scientifica (⏱ 05:04–15:52)</h3>
+
+<h4 id="-concetti-di-base">🔹 Concetti di base</h4>
+
+<p>La <strong>notazione scientifica</strong> è un modo per rappresentare numeri molto grandi o molto piccoli usando le potenze del 10. Un numero in notazione scientifica è composto da:</p>
+
+<ul>
+  <li>Una <strong>parte numerica</strong> (parte intera e decimale)</li>
+  <li>Una <strong>potenza del 10</strong> che indica l’ordine di grandezza</li>
+</ul>
+
+<p>Ad esempio: $17{,}5 \times 10^3 = 17.500$</p>
+
+<p><strong>Potenza del 10 positiva</strong> — Indica che si aggiungono zeri a destra: il numero diventa più grande. Si sposta la virgola verso <strong>destra</strong> di tante posizioni quante indicate dall’esponente.</p>
+
+<p><strong>Potenza del 10 negativa</strong> — Indica che si aggiungono zeri a sinistra: il numero diventa più piccolo (più vicino a zero, ma sempre positivo). Si sposta la virgola verso <strong>sinistra</strong> di tante posizioni quante indicate dal valore assoluto dell’esponente.</p>
+
+<blockquote>
+  <p>⚠️ <strong>Errore comune</strong>: “Numeri molto piccoli” non significa “numeri negativi”. Significa numeri positivi che si avvicinano a zero (es. $0{,}0118$).</p>
+</blockquote>
+
+<h4 id="-regole-di-conversione">🔹 Regole di conversione</h4>
+
+<ul>
+  <li><strong>Da notazione scientifica a decimale</strong>: partire dalla posizione della virgola. Se l’esponente è <strong>positivo</strong>, spostare la virgola verso destra; se <strong>negativo</strong>, verso sinistra.
+    <ul>
+      <li>Esempio: $17{,}5 \times 10^3 = 17.500$ (virgola spostata di 3 posizioni a destra)</li>
+      <li>Esempio: $1{,}18 \times 10^{-2} = 0{,}0118$ (virgola spostata di 2 posizioni a sinistra)</li>
+    </ul>
+  </li>
+  <li><strong>Cambio di esponente</strong>: è possibile passare da una rappresentazione esponenziale a un’altra spostando la virgola e modificando l’esponente di conseguenza.
+    <ul>
+      <li>Esempio: $59{,}1 \times 10^{-3} = 5{,}91 \times 10^{-2}$ (virgola a sinistra di 1 → esponente aumenta di 1)</li>
+      <li>Attenzione al <strong>segno</strong> dell’esponente: se l’esponente è negativo, diminuirlo ulteriormente (renderlo più negativo) corrisponde a spostare la virgola a <strong>destra</strong>, non a sinistra.</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>⚠️ <strong>Attenzione</strong>: nella notazione anglosassone la virgola separa le migliaia e il punto separa i decimali — l’opposto della notazione italiana. Se si consultano risorse online in inglese, prestare attenzione a questa differenza.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="2--equivalenze-tra-unità-di-misura--15593904">2. 📐 Equivalenze tra Unità di Misura (⏱ 15:59–39:04)</h3>
+
+<h4 id="-multipli-e-sottomultipli">🔹 Multipli e sottomultipli</h4>
+
+<p>Nella radiotecnica si usano frequentemente grandezze espresse in multipli o sottomultipli delle unità di misura fondamentali. La tabella seguente riporta quelli più rilevanti:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Prefisso</th>
+      <th>Simbolo</th>
+      <th>Potenza del 10</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tera</td>
+      <td>T</td>
+      <td>$10^{12}$</td>
+      <td>1.000.000.000.000</td>
+    </tr>
+    <tr>
+      <td>Giga</td>
+      <td>G</td>
+      <td>$10^{9}$</td>
+      <td>1.000.000.000</td>
+    </tr>
+    <tr>
+      <td>Mega</td>
+      <td>M</td>
+      <td>$10^{6}$</td>
+      <td>1.000.000</td>
+    </tr>
+    <tr>
+      <td>Kilo</td>
+      <td>k</td>
+      <td>$10^{3}$</td>
+      <td>1.000</td>
+    </tr>
+    <tr>
+      <td>(unità base)</td>
+      <td>—</td>
+      <td>$10^{0}$</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Milli</td>
+      <td>m</td>
+      <td>$10^{-3}$</td>
+      <td>0,001</td>
+    </tr>
+    <tr>
+      <td>Micro</td>
+      <td>µ (mu greca)</td>
+      <td>$10^{-6}$</td>
+      <td>0,000001</td>
+    </tr>
+    <tr>
+      <td>Nano</td>
+      <td>n</td>
+      <td>$10^{-9}$</td>
+      <td>0,000000001</td>
+    </tr>
+    <tr>
+      <td>Pico</td>
+      <td>p</td>
+      <td>$10^{-12}$</td>
+      <td>0,000000000001</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Dai kilo in su, le grandezze scalano di <strong>1000 in 1000</strong> (cioè di $10^3$ in $10^3$). Stessa cosa dal milli in giù. Tra unità base, deca, etto e kilo la scala è di 10 in 10.</p>
+
+<h4 id="-unità-di-misura-comuni-in-radiotecnica">🔹 Unità di misura comuni in radiotecnica</h4>
+
+<ul>
+  <li><strong>Farad</strong>: spesso espresso in nano e picofarad (nF, pF)</li>
+  <li><strong>Henry</strong>: spesso espresso in millihenry e microhenry (mH, µH)</li>
+  <li><strong>Ohm</strong>: può trovarsi in micro e milliohm, ma anche in kilohm e megaohm</li>
+  <li><strong>Ampere</strong>: spesso in milliampere (mA) e a volte microampere (µA)</li>
+  <li><strong>Hertz</strong>: le frequenze si esprimono in kilohertz (kHz), megahertz (MHz), gigahertz (GHz)</li>
+  <li><strong>Watt</strong>: spesso in milliwatt (mW) e microwatt (µW)</li>
+</ul>
+
+<h4 id="-regola-fondamentale-per-le-equivalenze">🔹 Regola fondamentale per le equivalenze</h4>
+
+<p>Per convertire tra unità di misura diverse della stessa grandezza:</p>
+
+<ul>
+  <li><strong>Da unità più grande a più piccola</strong> → si <strong>moltiplica</strong> per la potenza di 10 corrispondente (il numero diventa più grande)</li>
+  <li><strong>Da unità più piccola a più grande</strong> → si <strong>divide</strong> per la potenza di 10 corrispondente (il numero diventa più piccolo)</li>
+</ul>
+
+<p>In pratica, si conta quanti “scaloni” separano le due unità (ogni scalino = $\times 10^3$):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Da → A</th>
+      <th>Operazione</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>milli → micro</td>
+      <td>$\times 10^3$ (1 scalino verso il basso)</td>
+    </tr>
+    <tr>
+      <td>micro → milli</td>
+      <td>$\div 10^3$ (1 scalino verso l’alto)</td>
+    </tr>
+    <tr>
+      <td>milli → Henry</td>
+      <td>$\times 10^{-3}$ (1 scalino verso l’alto all’unità base)</td>
+    </tr>
+    <tr>
+      <td>MHz → Hz</td>
+      <td>$\times 10^6$ (2 scalini verso il basso)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="-esempio-pratico-conversione-di-induttanza">🔹 Esempio pratico: conversione di induttanza</h4>
+
+<p>$0{,}012 \text{ mH} = ?\ \mu\text{H}$</p>
+
+<p>Da milli a micro si scende di uno scalino → si moltiplica per $10^3$:</p>
+
+\[0{,}012 \times 10^3 = 12\ \mu\text{H}\]
+
+<h4 id="-importanza-dellomogeneità">🔹 Importanza dell’omogeneità</h4>
+
+<p>Quando si devono combinare grandezze in una formula (somma, sottrazione, ecc.), è <strong>indispensabile</strong> che siano espresse nella stessa unità di misura. Ad esempio, per sommare tre resistenze in serie:</p>
+
+<ul>
+  <li>$R_1 = 0{,}2\ \Omega$, $R_2 = 20\ \text{m}\Omega$, $R_3 = 2000\ \mu\Omega$</li>
+</ul>
+
+<p>Convertendo tutto in milliohm:</p>
+
+<ul>
+  <li>$R_1 = 200\ \text{m}\Omega$</li>
+  <li>$R_2 = 20\ \text{m}\Omega$</li>
+  <li>$R_3 = 2\ \text{m}\Omega$</li>
+</ul>
+
+\[R_{tot} = 200 + 20 + 2 = 222\ \text{m}\Omega\]
+
+<blockquote>
+  <p>⚠️ <strong>Errore da evitare all’esame</strong>: sommare numeri in unità diverse senza prima convertirli. Ad esempio, $0{,}2 + 2000 = 2000{,}2$ non ha alcun significato se le unità non sono omogenee.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="3--equazioni-di-primo-grado-e-formule-inverse--39436023">3. ➗ Equazioni di Primo Grado e Formule Inverse (⏱ 39:43–60:23)</h3>
+
+<h4 id="-principio-fondamentale-delle-equazioni">🔹 Principio fondamentale delle equazioni</h4>
+
+<p>Un’<strong>equazione</strong> è una dichiarazione di equivalenza: ciò che sta a sinistra del simbolo $=$ ha lo stesso valore di ciò che sta a destra. Se si esegue la <strong>stessa operazione</strong> (somma, sottrazione, moltiplicazione, divisione) su <strong>entrambi i membri</strong>, l’uguaglianza resta valida.</p>
+
+<p>Questo principio permette di <strong>isolare l’incognita</strong>: si spostano tutti i termini noti da una parte e l’incognita dall’altra.</p>
+
+<h4 id="-esempio-algebrico">🔹 Esempio algebrico</h4>
+
+\[3x + 6 = 12\]
+
+<ol>
+  <li>Sottrarre 6 da entrambi i membri: $3x = 6$</li>
+  <li>Dividere per 3 entrambi i membri: $x = 2$</li>
+</ol>
+
+<h4 id="-applicazione-alla-legge-di-ohm">🔹 Applicazione alla legge di Ohm</h4>
+
+<p>La legge di Ohm è:</p>
+
+\[I = \frac{V}{R}\]
+
+<p>Da questa <strong>unica formula</strong> si ricavano tutte le altre per semplice manipolazione algebrica:</p>
+
+<ul>
+  <li>Per trovare $R$: moltiplicare entrambi i membri per $R$, poi dividere per $I$:</li>
+</ul>
+
+\[R = \frac{V}{I}\]
+
+<ul>
+  <li>Per trovare $V$: moltiplicare entrambi i membri per $R$:</li>
+</ul>
+
+\[V = I \times R\]
+
+<blockquote>
+  <p><strong>Consiglio pratico</strong>: non è necessario memorizzare tutte le formule inverse. Basta ricordare <strong>una sola formula</strong> (ad es. $V = I \times R$) e ricavare le altre isolando l’incognita desiderata. In caso di dubbio, si può anche verificare con numeri: se $V = I \times R$ e $10 = 5 \times 2$, allora $R = V/I = 10/5 = 2$.</p>
+</blockquote>
+
+<h4 id="-esercizio-svolto-trovare-la-resistenza">🔹 Esercizio svolto: trovare la resistenza</h4>
+
+<p>Dati: $V = 20$ V, $I = 200$ mA</p>
+
+<ol>
+  <li>Convertire $I$ in ampere: $200\ \text{mA} = 0{,}2$ A</li>
+  <li>Applicare $R = V / I = 20 / 0{,}2 = 100\ \Omega$</li>
+</ol>
+
+<blockquote>
+  <p>⚠️ L’unità di misura dell’ohm è volt/ampere. Bisogna prima convertire i milliampere in ampere per avere il risultato in ohm.</p>
+</blockquote>
+
+<h4 id="-applicazione-alla-formula-della-potenza">🔹 Applicazione alla formula della potenza</h4>
+
+<p>La potenza dissipata è:</p>
+
+\[P = V \times I\]
+
+<p>Se non si conosce la corrente ma si conoscono $V$ e $R$, si può sostituire $I = V/R$ nella formula della potenza:</p>
+
+\[P = V \times \frac{V}{R} = \frac{V^2}{R}\]
+
+<p>Esempio: $V = 20$ V, $R = 50\ \Omega$</p>
+
+\[P = \frac{20^2}{50} = \frac{400}{50} = 8\ \text{W}\]
+
+<p>Questo mostra la tecnica della <strong>sostituzione</strong>: in un’equazione si può sostituire a una grandezza l’espressione equivalente derivata da un’altra formula.</p>
+
+<hr />
+
+<h3 id="4--i-logaritmi--700712007">4. 📊 I Logaritmi (⏱ 70:07–120:07)</h3>
+
+<h4 id="-definizione">🔹 Definizione</h4>
+
+<p>Il <strong>logaritmo in base $z$ dell’argomento $y$</strong> è l’esponente $x$ che si deve dare alla base $z$ per ottenere $y$:</p>
+
+\[\log_z y = x \iff z^x = y\]
+
+<p>I due logaritmi più comuni sono:</p>
+
+<ul>
+  <li><strong>Logaritmo in base 10</strong> (logaritmo comune): si scrive $\log$ o $\log_{10}$. La base 10 spesso si omette.</li>
+  <li><strong>Logaritmo naturale</strong>: si scrive $\ln$ (base $e \approx 2{,}718$). Non serve per gli esercizi radioamatoriali.</li>
+</ul>
+
+<h4 id="-interpretazione-pratica">🔹 Interpretazione pratica</h4>
+
+<p>Il logaritmo in base 10 risponde alla domanda: <strong>“Qual è l’esponente da dare a 10 per ottenere quel numero?”</strong></p>
+
+<p>Esempi immediati:</p>
+
+<ul>
+  <li>$\log 1000 = 3$ perché $10^3 = 1000$</li>
+  <li>$\log 100 = 2$ perché $10^2 = 100$</li>
+  <li>$\log 10 = 1$ perché $10^1 = 10$</li>
+  <li>$\log 1 = 0$ perché $10^0 = 1$ (vale per qualunque base)</li>
+</ul>
+
+<p>Per valori non interi (es. $\log 12$), si usa la calcolatrice: scrivere l’argomento, poi premere il tasto <strong>LOG</strong>.</p>
+
+<h4 id="-proprietà-delle-potenze-rilevanti-per-i-logaritmi">🔹 Proprietà delle potenze (rilevanti per i logaritmi)</h4>
+
+<p>Poiché il logaritmo è essenzialmente un esponente, le regole delle potenze si riflettono sulle proprietà dei logaritmi:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Proprietà delle potenze</th>
+      <th>Formula</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Prodotto con stessa base</td>
+      <td>$a^x \times a^y = a^{x+y}$</td>
+    </tr>
+    <tr>
+      <td>Esponente negativo</td>
+      <td>$a^{-x} = \frac{1}{a^x}$</td>
+    </tr>
+    <tr>
+      <td>Potenza di potenza</td>
+      <td>$(a^x)^y = a^{x \cdot y}$</td>
+    </tr>
+    <tr>
+      <td>Quoziente con stessa base</td>
+      <td>$\frac{a^x}{a^y} = a^{x-y}$</td>
+    </tr>
+    <tr>
+      <td>Casi particolari</td>
+      <td>$a^1 = a$; $a^0 = 1$</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="-proprietà-dei-logaritmi">🔹 Proprietà dei logaritmi</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Proprietà</th>
+      <th>Formula</th>
+      <th>Esempio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Definizione</td>
+      <td>$10^{\log y} = y$</td>
+      <td>$10^{\log 25} = 25$</td>
+    </tr>
+    <tr>
+      <td>Logaritmo di un prodotto</td>
+      <td>$\log(a \times b) = \log a + \log b$</td>
+      <td>$\log(2 \times 3) = \log 2 + \log 3$</td>
+    </tr>
+    <tr>
+      <td>Logaritmo di un quoziente</td>
+      <td>$\log\frac{a}{b} = \log a - \log b$</td>
+      <td>$\log\frac{3}{2} = \log 3 - \log 2$</td>
+    </tr>
+    <tr>
+      <td>Logaritmo di una potenza</td>
+      <td>$\log(a^n) = n \times \log a$</td>
+      <td>$\log(2^3) = 3 \times \log 2$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Queste proprietà sono fondamentali per risolvere equazioni logaritmiche e saranno usate nel calcolo dei decibel.</p>
+
+<h4 id="-risoluzione-di-equazioni-con-logaritmi">🔹 Risoluzione di equazioni con logaritmi</h4>
+
+<p>Il metodo consiste nell’<strong>isolare il logaritmo con l’incognita</strong> da un lato dell’equazione, poi applicare la definizione di logaritmo per trovare il valore.</p>
+
+<p><strong>Esempio 1</strong>: $20 \times \log\left(\frac{x}{50}\right) = 1{,}5$</p>
+
+<ol>
+  <li>Dividere entrambi i membri per 20: $\log\left(\frac{x}{50}\right) = 0{,}075$</li>
+  <li>Applicare la proprietà del quoziente: $\log x - \log 50 = 0{,}075$</li>
+  <li>Sommare $\log 50$ a entrambi i membri: $\log x = 0{,}075 + \log 50 = 0{,}075 + 1{,}699 = 1{,}774$</li>
+  <li>Applicare la definizione: $x = 10^{1{,}774} \approx 59{,}4$</li>
+</ol>
+
+<p><strong>Esempio 2</strong>: $10 \times \log\left(\frac{100}{x}\right) = 3$</p>
+
+<ol>
+  <li>Dividere per 10: $\log\left(\frac{100}{x}\right) = 0{,}3$</li>
+  <li>Scomporre: $\log 100 - \log x = 0{,}3$, quindi $2 - \log x = 0{,}3$</li>
+  <li>Isolare: $\log x = 1{,}7$</li>
+  <li>Risolvere: $x = 10^{1{,}7} \approx 50{,}1$</li>
+</ol>
+
+<blockquote>
+  <p><strong>Nota</strong>: il docente ha accennato che i logaritmi saranno usati nel calcolo dei <strong>decibel</strong> (dB), argomento che sarà trattato nelle lezioni successive da Paolo. La struttura tipica delle equazioni logaritmiche d’esame è proprio della forma $N \times \log\left(\frac{x}{y}\right) = k$ o $N \times \log\left(\frac{y}{x}\right) = k$, dove $N$ è tipicamente 10 o 20.</p>
+</blockquote>
+
+<h4 id="-consigli-per-lesame">🔹 Consigli per l’esame</h4>
+
+<ul>
+  <li>La calcolatrice è molto utile per i logaritmi, ma non è sempre ammessa all’esame (dipende dalla commissione e dal decreto ministeriale in vigore).</li>
+  <li>Se la calcolatrice non è ammessa, i calcoli saranno sufficientemente semplici da farsi a mente.</li>
+  <li>All’esame le domande sono a <strong>risposta multipla</strong> (di solito 3 opzioni): una è chiaramente errata, le altre due richiedono ragionamento.</li>
+  <li>Pochi valori di logaritmo ricorrono frequentemente: $\log 2 \approx 0{,}301$, $\log 3 \approx 0{,}477$, $\log 10 = 1$, $\log 100 = 2$.</li>
+</ul>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li><strong>Notazione scientifica</strong> → usa → <strong>Potenze del 10</strong> per rappresentare numeri grandi e piccoli</li>
+  <li><strong>Multipli e sottomultipli</strong> → sono espressi come → <strong>Potenze del 10</strong> (kilo = $10^3$, milli = $10^{-3}$, micro = $10^{-6}$, ecc.)</li>
+  <li><strong>Equivalenze</strong> → richiedono → <strong>Omogeneità</strong> delle unità di misura prima di combinare grandezze</li>
+  <li><strong>Equazioni di primo grado</strong> → usano il principio di → <strong>Uguaglianza</strong> (stessa operazione su entrambi i membri)</li>
+  <li><strong>Formule inverse</strong> → si ricavano da → <strong>Equazioni di primo grado</strong> isolando l’incognita</li>
+  <li><strong>Legge di Ohm</strong> ($I = V/R$) → consente di ricavare → $R = V/I$ e $V = I \times R$</li>
+  <li><strong>Formula della potenza</strong> ($P = V \times I$) → combinata con la legge di Ohm → $P = V^2/R$</li>
+  <li><strong>Logaritmo in base 10</strong> → è definito come → l’<strong>Esponente</strong> da dare a 10 per ottenere l’argomento</li>
+  <li><strong>Proprietà dei logaritmi</strong> → derivano dalle → <strong>Proprietà delle potenze</strong></li>
+  <li><strong>Logaritmo di un prodotto</strong> → è uguale alla → <strong>Somma dei logaritmi</strong> dei fattori</li>
+  <li><strong>Logaritmo di un quoziente</strong> → è uguale alla → <strong>Differenza dei logaritmi</strong> (numeratore meno denominatore)</li>
+  <li><strong>Decibel</strong> → utilizzerà → <strong>Logaritmi in base 10</strong> (argomento futuro)</li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>
+    <p>La <strong>notazione scientifica</strong> rappresenta un numero come parte numerica × potenza del 10. Esponente positivo → numero grande (virgola a destra); esponente negativo → numero piccolo (virgola a sinistra), mai negativo.</p>
+  </li>
+  <li>
+    <p>Le grandezze in radiotecnica usano prefissi standard: dal <strong>pico</strong> ($10^{-12}$) al <strong>tera</strong> ($10^{12}$), passando per nano, micro, milli, kilo, mega, giga. Da milli in giù e da kilo in su, si scala di $10^3$ alla volta.</p>
+  </li>
+  <li>
+    <p>Per convertire tra unità di misura: da unità <strong>più grande a più piccola</strong> si <strong>moltiplica</strong>; da <strong>più piccola a più grande</strong> si <strong>divide</strong>. Ad esempio: 0,012 mH × 1000 = 12 µH.</p>
+  </li>
+  <li>
+    <p>Prima di combinare grandezze in una formula, esse devono essere <strong>omogenee</strong> (stessa unità di misura). Questo è un trabocchetto frequente all’esame.</p>
+  </li>
+  <li>
+    <p>Le <strong>equazioni di primo grado</strong> si risolvono applicando la stessa operazione a entrambi i membri per isolare l’incognita. Non serve memorizzare tutte le formule inverse: basta conoscerne una e ricavare le altre.</p>
+  </li>
+  <li>
+    <p>Il <strong>logaritmo in base 10</strong> di un numero $y$ è l’esponente da dare a 10 per ottenere $y$. Esempi fondamentali: $\log 10 = 1$, $\log 100 = 2$, $\log 1000 = 3$, $\log 1 = 0$.</p>
+  </li>
+  <li>
+    <p>Le proprietà chiave dei logaritmi: il logaritmo di un <strong>prodotto</strong> è la somma dei logaritmi; il logaritmo di un <strong>quoziente</strong> è la differenza; il logaritmo di una <strong>potenza</strong> è l’esponente per il logaritmo della base.</p>
+  </li>
+  <li>
+    <p>Per risolvere un’equazione logaritmica: isolare il logaritmo con l’incognita, poi applicare la definizione ($\log x = k \Rightarrow x = 10^k$). La struttura tipica all’esame è $N \times \log(x/y) = k$.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>
+    <p>Come si converte il numero $4{,}7 \times 10^{-5}$ in notazione decimale? Spiega il procedimento passo per passo.</p>
+  </li>
+  <li>
+    <p>Se hai una capacità di 4700 pF e un’altra di 0,0047 µF, sono la stessa grandezza? Come verifichi che siano omogenee per poterle sommare?</p>
+  </li>
+  <li>
+    <p>Partendo dalla formula della potenza $P = V \times I$ e dalla legge di Ohm $I = V/R$, ricava la formula $P = I^2 \times R$. Mostra tutti i passaggi.</p>
+  </li>
+  <li>
+    <p>Spiega con parole tue cosa significa $\log 500 \approx 2{,}7$ e come verificheresti questo risultato.</p>
+  </li>
+  <li>
+    <p>Perché il logaritmo in base 10 di 1 è sempre uguale a 0? Come si collega alla proprietà delle potenze?</p>
+  </li>
+  <li>
+    <p>Un circuito è alimentato da una batteria da 12 V. Se passa una corrente di 250 mA, qual è la resistenza? Mostra tutti i passaggi, inclusa la conversione delle unità.</p>
+  </li>
+  <li>
+    <p>All’esame trovi tre resistenze da sommare: $0{,}5$ Ω, $500$ mΩ e $500.000$ µΩ. Un candidato ha risposto 500.501 Ω. Dov’è l’errore e qual è il risultato corretto?</p>
+  </li>
+  <li>
+    <p>Risolvi l’equazione $10 \times \log\left(\frac{x}{5}\right) = 7$ mostrando tutti i passaggi. Qual è la proprietà dei logaritmi che usi per semplificare?</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>Equivalenza (di unità di misura)</strong> — Espressione di una stessa grandezza fisica in un multiplo o sottomultiplo diverso ma di uguale valore (es. 12 µH = 0,012 mH).</li>
+  <li><strong>Equazione di primo grado</strong> — Equazione algebrica in cui l’incognita compare con esponente 1 e si risolve isolando l’incognita mediante operazioni inverse.</li>
+  <li><strong>Formula inversa</strong> — Riscrittura di una formula per esprimere una grandezza diversa come incognita (es. da $I = V/R$ si ricava $R = V/I$).</li>
+  <li><strong>Giga (G)</strong> — Prefisso per $10^9$ (un miliardo).</li>
+  <li><strong>Kilo (k)</strong> — Prefisso per $10^3$ (mille).</li>
+  <li><strong>Logaritmo</strong> — L’esponente da dare alla base per ottenere un dato argomento. Il logaritmo in base 10 di $y$ è il numero $x$ tale che $10^x = y$.</li>
+  <li><strong>Logaritmo in base 10 (log)</strong> — Logaritmo comune, usato nella definizione dei decibel. Il 10 è spesso omesso: $\log y \equiv \log_{10} y$.</li>
+  <li><strong>Logaritmo naturale (ln)</strong> — Logaritmo in base $e \approx 2{,}718$. Non usato negli esercizi radioamatoriali.</li>
+  <li><strong>Mega (M)</strong> — Prefisso per $10^6$ (un milione).</li>
+  <li><strong>Micro (µ)</strong> — Prefisso per $10^{-6}$ (un milionesimo). Simbolo: lettera greca mu.</li>
+  <li><strong>Milli (m)</strong> — Prefisso per $10^{-3}$ (un millesimo).</li>
+  <li><strong>Nano (n)</strong> — Prefisso per $10^{-9}$ (un miliardesimo).</li>
+  <li><strong>Notazione scientifica</strong> — Rappresentazione di un numero come prodotto di una parte numerica e una potenza del 10.</li>
+  <li><strong>Omogeneità delle unità</strong> — Condizione necessaria per combinare grandezze: devono essere espresse nella stessa unità di misura.</li>
+  <li><strong>Pico (p)</strong> — Prefisso per $10^{-12}$ (un bilionesimo).</li>
+  <li><strong>Potenza del 10</strong> — Numero espresso come $10^n$; l’esponente $n$ indica quanti zeri seguono l’1 (se positivo) o quante posizioni decimali prima della cifra significativa (se negativo).</li>
+  <li><strong>Sostituzione</strong> — Tecnica algebrica che consiste nel sostituire a una grandezza la sua espressione equivalente ricavata da un’altra formula.</li>
+  <li><strong>Tera (T)</strong> — Prefisso per $10^{12}$ (mille miliardi).</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatrice principale</strong>: Lucia — docente della lezione di matematica applicata alla radiotecnica</li>
+  <li>👨‍🏫 <strong>Co-docenti/coordinatori</strong>: Fabrizio (coordinamento corso), Alessio (informazioni esame, esperienza anni precedenti)</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Campo</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Numero lezione</strong></td>
+      <td>08</td>
+    </tr>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td>23 aprile 2025</td>
+    </tr>
+    <tr>
+      <td><strong>Durata</strong></td>
+      <td>~130 minuti</td>
+    </tr>
+    <tr>
+      <td><strong>Argomenti trattati</strong></td>
+      <td>4 (Notazione scientifica, Equivalenze unità, Equazioni di primo grado, Logaritmi)</td>
+    </tr>
+    <tr>
+      <td><strong>Parole chiave</strong></td>
+      <td>Notazione scientifica, potenze del 10, multipli, sottomultipli, milli, micro, nano, pico, equivalenze, equazioni, formule inverse, legge di Ohm, potenza, logaritmo, base 10, proprietà logaritmi, decibel</td>
+    </tr>
+    <tr>
+      <td><strong>Prossima lezione</strong></td>
+      <td>7 maggio 2025</td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 21 - Normative Internazionali - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/">🏠 Home</a>
+    <a href="/guide-studio/">📖 Guide di Studio</a>
+    <a href="/glossario.html">📚 Glossario</a>
+    <a href="/domande-esame.html">❓ Domande</a>
+    <a href="/risorse.html">🔗 Risorse</a>
+  </nav>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/guide-studio/lezione_20.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/guide-studio/lezione_22.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/guide-studio/lezione_21.html" selected>📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-21---normative-internazionali">📘 Lezione 21 - Normative Internazionali</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia</strong>: Antenne — Parte 2: Antenne direttive, efficienza di radiazione, misure e aspetti pratici</li>
+  <li><strong>Tempo di studio stimato</strong>: 2 ore e 30 minuti</li>
+  <li><strong>Prerequisiti</strong>: Concetti di base sulle antenne (Lezione 20), propagazione ionosferica (Lezione 18), linee di trasmissione, impedenza, ROS, carta di Smith</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Comprendere i principi delle antenne direttive (parabola, Yagi-Uda, array)</li>
+      <li>Padroneggiare i concetti di guadagno (dBi vs dBd), ERP e efficienza di radiazione</li>
+      <li>Conoscere le problematiche delle correnti di modo comune e l’uso dei balun</li>
+      <li>Valutare criticamente le misure sulle antenne (analizzatore, VNA)</li>
+      <li>Distinguere le esigenze diverse tra antenna in trasmissione e in ricezione</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h3 id="1--riepilogo-relazione-tra-propagazione-e-angolo-di-radiazione">1. 🔄 Riepilogo: Relazione tra Propagazione e Angolo di Radiazione</h3>
+
+<p>La lezione si apre con un riepilogo fondamentale che collega la propagazione ionosferica (trattata nella Lezione 18) alle caratteristiche delle antenne. L’<strong>angolo di radiazione</strong> dell’antenna deve coincidere con l’angolo ottimale per la riflessione ionosferica, altrimenti l’energia viene dispersa in direzioni inutili.</p>
+
+<p>Per i collegamenti a lunga distanza (<strong>DX</strong>), gli angoli bassi di radiazione — compresi tra 0° e 20° di elevazione — sono quelli ottimali, poiché consentono una riflessione ionosferica efficiente e il raggiungimento di stazioni lontane. Se il lobo di radiazione dell’antenna non si sovrappone alla fascia angolare ideale per la riflessione, gran parte dell’energia viene irradiata in direzioni non utili, riducendo drasticamente l’efficacia del collegamento.</p>
+
+<blockquote>
+  <p><strong>Principio chiave</strong>: L’efficacia di un collegamento in HF dipende dalla corrispondenza tra il lobo di radiazione dell’antenna e l’angolo di riflessione della ionosfera.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="2--antenne-direttive-metodi-per-ottenere-la-direttività">2. 📡 Antenne Direttive: Metodi per Ottenere la Direttività</h3>
+
+<p>Esistono tre metodi principali per concentrare l’energia irradiata in una direzione preferenziale, ottenendo così un’antenna direttiva.</p>
+
+<h4 id="-riflettore-parabolico">🔹 Riflettore Parabolico</h4>
+
+<p>Il <strong>riflettore parabolico</strong> sfrutta le proprietà geometriche della parabola: qualsiasi onda emessa dal fuoco viene riflessa in raggi paralleli, tutti in fase tra loro. Questo produce un fascio estremamente concentrato di energia. Il principio è lo stesso delle antenne paraboliche usate per le telecomunicazioni satellitari e per i radar. L’efficienza dipende dalla precisione della superficie riflettente e dal corretto posizionamento della sorgente nel fuoco geometrico.</p>
+
+<h4 id="-antenna-yagi-uda">🔹 Antenna Yagi-Uda</h4>
+
+<p>L’<strong>antenna Yagi-Uda</strong> (comunemente detta Yagi) è il sistema direttivo più diffuso in ambito radioamatoriale. Fu sviluppata dai professori giapponesi Yagi e Uda alla fine degli anni ‘40. Il suo funzionamento si basa sul principio della <strong>mutua induzione</strong>: un elemento attivo (il <strong>radiatore</strong>, o <strong>dipolo pilotato</strong>) irradia energia che induce correnti negli elementi passivi (o <strong>parassiti</strong>) vicini.</p>
+
+<p>La fase della corrente indotta negli elementi parassiti dipende dalla loro <strong>lunghezza</strong> e dalla <strong>distanza</strong> dal radiatore:</p>
+
+<ul>
+  <li>Il <strong>riflettore</strong> è posizionato dietro il radiatore (nella direzione opposta alla radiazione) ed è leggermente <strong>più lungo</strong> del radiatore (qualche percento, es. se il radiatore è 10 m → riflettore ≈ 10,5 m). La componente reattiva induttiva genera uno sfasamento tale da sommare il campo nella direzione desiderata.</li>
+  <li>I <strong>direttori</strong> sono posizionati davanti al radiatore e sono leggermente <strong>più corti</strong> (es. radiatore 10 m → direttori ≈ 9,5 m). La componente reattiva capacitiva produce lo sfasamento opposto.</li>
+</ul>
+
+<p>La combinazione costruttiva/distruttiva dei campi prodotti da tutti gli elementi genera un lobo di radiazione direzionale.</p>
+
+<blockquote>
+  <p>⚠️ <strong>Concetto d’esame</strong>: Il riflettore è più lungo del radiatore, i direttori sono più corti. Il radiatore è sempre circa mezza lunghezza d’onda ($\lambda/2$). Non esiste una formula esatta per le differenze di lunghezza, poiché dipendono anche dalla distanza fra gli elementi e dal diametro dei conduttori.</p>
+</blockquote>
+
+<p><strong>Guadagno tipico delle Yagi:</strong></p>
+
+<ul>
+  <li>2 elementi: ≈ 4 dBd</li>
+  <li>3 elementi: ≈ 6,5 dBd</li>
+  <li>L’incremento di guadagno per ogni elemento aggiunto diminuisce progressivamente</li>
+  <li>Oltre un certo numero di elementi, la complicazione meccanica non giustifica il guadagno ottenuto</li>
+</ul>
+
+<p><strong>Nota sulla progettazione moderna</strong>: Con i software di simulazione attuali, si è scoperto che il guadagno dipende più dalla <strong>lunghezza totale</strong> dell’antenna (espressa in lunghezze d’onda) che dal numero di elementi. Un’antenna Yagi lunga due lunghezze d’onda produce circa lo stesso guadagno sia con 5, 6 o 7 elementi nello stesso spazio.</p>
+
+<h4 id="-array-di-antenne-collineari-e-ad-elementi-pilotati">🔹 Array di Antenne (Collineari e ad Elementi Pilotati)</h4>
+
+<p>Il terzo metodo consiste nell’utilizzare <strong>più elementi alimentati</strong> (non parassiti) con fase controllata. Esempi includono:</p>
+
+<ul>
+  <li><strong>Array collineari</strong>: più dipoli allineati verticalmente, alimentati in fase, per concentrare il lobo in azimut.</li>
+  <li><strong>Array a fase controllata (phased arrays)</strong>: sistemi come il <strong>four-square</strong> (quattro verticali disposte a quadrato) in cui la fase di alimentazione di ciascun elemento è controllata (es. 0°, 90°, 90°, 180°) per dirigere il lobo di radiazione in una direzione specifica.</li>
+</ul>
+
+<p>L’<strong>antenna log-periodica</strong> è una variante che offre direttività su una banda molto larga, a differenza della Yagi che è intrinsecamente a banda stretta.</p>
+
+<blockquote>
+  <p><strong>Importante</strong>: La direttività dell’antenna si combina sempre con l’effetto del terreno sottostante (<strong>ground gain</strong>). Il diagramma di radiazione reale è il prodotto dell’interazione tra il pattern dell’antenna e le riflessioni dal suolo.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="3--guadagno-dbi-vs-dbd">3. 📊 Guadagno: dBi vs dBd</h3>
+
+<p>Il <strong>guadagno</strong> di un’antenna è definito come il rapporto tra l’intensità del campo elettromagnetico prodotto nella direzione di massima radiazione rispetto a quello che produrrebbe un’antenna di <strong>riferimento</strong> a parità di potenza applicata.</p>
+
+<p>I due riferimenti standard sono:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Unità</th>
+      <th>Riferimento</th>
+      <th>Descrizione</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>dBi</strong></td>
+      <td>Antenna isotropica</td>
+      <td>Sorgente puntiforme ideale che irradia uniformemente in tutte le direzioni</td>
+    </tr>
+    <tr>
+      <td><strong>dBd</strong></td>
+      <td>Dipolo a mezz’onda</td>
+      <td>Antenna reale di riferimento</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>La relazione tra le due unità è costante:</p>
+
+\[G_{dBi} = G_{dBd} + 2{,}1 \text{ dB}\]
+
+<p><strong>Esempio</strong>: un’antenna con guadagno di 10 dBd equivale a 12,1 dBi.</p>
+
+<blockquote>
+  <p>⚠️ <strong>Concetto d’esame</strong>: La differenza tra dBi e dBd è sempre 2,1 dB. Quando si confrontano antenne, verificare sempre quale riferimento è utilizzato.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="4--erp--potenza-effettiva-irradiata">4. ⚡ ERP — Potenza Effettiva Irradiata</h3>
+
+<p>L’<strong>ERP</strong> (Effective Radiated Power, o <strong>Potenza Effettiva Irradiata</strong>) rappresenta la potenza che bisognerebbe applicare a un’antenna isotropica per produrre la stessa intensità di campo nella direzione di massima radiazione dell’antenna in esame.</p>
+
+\[\text{ERP} = P_{TX} \times G\]
+
+<p>dove $P_{TX}$ è la potenza fornita dal trasmettitore e $G$ è il guadagno dell’antenna (in valore lineare, non in dB).</p>
+
+<p><strong>Esempio pratico</strong>: un trasmettitore da 100 W collegato a un’antenna con guadagno 10 dB (= ×10) produce un ERP di:</p>
+
+\[\text{ERP} = 100 \times 10 = 1000 \text{ W}\]
+
+<blockquote>
+  <p>⚠️ <strong>Concetto d’esame</strong>: l’ERP è il prodotto della potenza del trasmettitore per il guadagno dell’antenna.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="5--efficienza-di-radiazione">5. 🔬 Efficienza di Radiazione</h3>
+
+<p>Non tutta la potenza applicata a un’antenna viene effettivamente irradiata. L’<strong>efficienza di radiazione</strong> è il rapporto tra la potenza irradiata e la potenza applicata, ed è sempre inferiore al 100%.</p>
+
+\[\eta = \frac{P_{irradiata}}{P_{applicata}} = \frac{R_{rad}}{R_{rad} + R_{perdita}}\]
+
+<p>dove:</p>
+
+<ul>
+  <li><strong>$R_{rad}$</strong> — Resistenza di radiazione: la componente dell’impedenza responsabile dell’effettiva irradiazione</li>
+  <li><strong>$R_{perdita}$</strong> — Resistenza di perdita: la somma di tutte le perdite dissipative</li>
+</ul>
+
+<p>Le componenti della resistenza di perdita sono:</p>
+
+<ol>
+  <li><strong>Perdite nel conduttore</strong> (effetto pelle / skin effect): la corrente RF scorre solo sulla superficie del conduttore. Lo <strong>spessore di penetrazione</strong> ($\sigma$) nel rame è circa 20 µm a 10 MHz e circa 4-5 µm a 100 MHz. Un dipolo per 160 m in filo da 1 mm può avere circa 10 Ω di resistenza del conduttore (contro milliohm in corrente continua). Conduttori di diametro maggiore hanno resistenza RF minore.</li>
+  <li><strong>Perdite nel dielettrico</strong>: dovute agli isolatori e ai materiali che sostengono l’antenna.</li>
+  <li><strong>Perdite nel terreno</strong>: particolarmente significative per antenne orizzontali poste a meno di $\lambda/4$ da terra, e sempre presenti per le antenne verticali.</li>
+</ol>
+
+<blockquote>
+  <p><strong>Principio fondamentale</strong>: A parità di perdite, un’antenna con bassa resistenza di radiazione avrà un’efficienza minore. Le <strong>antenne caricate</strong> (più corte della dimensione risonante) hanno intrinsecamente una $R_{rad}$ minore e quindi efficienza inferiore rispetto alle corrispondenti antenne full-size, a meno di adottare strategie specifiche per minimizzare le perdite.</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Conseguenza pratica</strong>: Antenne di dimensioni molto ridotte (es. grandi come una bottiglia d’acqua minerale) non possono avere buona efficienza. Nella maggior parte dei casi, è il cavo di alimentazione che irradia, non l’antenna stessa.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="6--esempi-pratici-di-calcolo-dellefficienza">6. 🔢 Esempi Pratici di Calcolo dell’Efficienza</h3>
+
+<p>Tre casi reali analizzati in dettaglio durante la lezione:</p>
+
+<h4 id="caso-1-dipolo-orizzontale-40-m-a-λ4-da-terra">Caso 1: Dipolo orizzontale 40 m a λ/4 da terra</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parametro</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Banda</td>
+      <td>40 m (7 MHz)</td>
+    </tr>
+    <tr>
+      <td>Altezza</td>
+      <td>10 m (= λ/4)</td>
+    </tr>
+    <tr>
+      <td>Conduttore</td>
+      <td>Ø 1,5 mm</td>
+    </tr>
+    <tr>
+      <td>$R_{rad}$</td>
+      <td>85 Ω</td>
+    </tr>
+    <tr>
+      <td>$R_{perdita}$ (conduttore + terreno)</td>
+      <td>4 Ω</td>
+    </tr>
+    <tr>
+      <td>Impedenza al punto di alimentazione</td>
+      <td>89 Ω</td>
+    </tr>
+    <tr>
+      <td>ROS (su 50 Ω)</td>
+      <td>1,78</td>
+    </tr>
+    <tr>
+      <td><strong>Efficienza</strong></td>
+      <td><strong>95%</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="caso-2-dipolo-orizzontale-80-m-a-λ8-da-terra">Caso 2: Dipolo orizzontale 80 m a λ/8 da terra</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parametro</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Banda</td>
+      <td>80 m (3,5 MHz)</td>
+    </tr>
+    <tr>
+      <td>Altezza</td>
+      <td>10 m (= λ/8)</td>
+    </tr>
+    <tr>
+      <td>Conduttore</td>
+      <td>Ø 1,5 mm</td>
+    </tr>
+    <tr>
+      <td>$R_{rad}$</td>
+      <td>45 Ω</td>
+    </tr>
+    <tr>
+      <td>$R_{perdita}$ (conduttore + terreno significativo)</td>
+      <td>7 Ω</td>
+    </tr>
+    <tr>
+      <td>Impedenza al punto di alimentazione</td>
+      <td>52 Ω</td>
+    </tr>
+    <tr>
+      <td>ROS (su 50 Ω)</td>
+      <td>1,04</td>
+    </tr>
+    <tr>
+      <td><strong>Efficienza</strong></td>
+      <td><strong>≈ 87%</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="caso-3-verticale-caricata-λ8-a-terra-con-16-radiali">Caso 3: Verticale caricata λ/8 a terra con 16 radiali</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parametro</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tipo</td>
+      <td>Verticale caricata in testa</td>
+    </tr>
+    <tr>
+      <td>Lunghezza</td>
+      <td>λ/8</td>
+    </tr>
+    <tr>
+      <td>Installazione</td>
+      <td>A terra, 16 radiali interrati lunghi ~λ</td>
+    </tr>
+    <tr>
+      <td>$R_{rad}$</td>
+      <td>20 Ω</td>
+    </tr>
+    <tr>
+      <td>$R_{perdita}$ (principalmente terreno)</td>
+      <td>18 Ω</td>
+    </tr>
+    <tr>
+      <td>Impedenza al punto di alimentazione</td>
+      <td>38 Ω</td>
+    </tr>
+    <tr>
+      <td>ROS (su 50 Ω)</td>
+      <td>1,3</td>
+    </tr>
+    <tr>
+      <td><strong>Efficienza</strong></td>
+      <td><strong>52%</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="lezioni-apprese-dai-tre-casi">Lezioni apprese dai tre casi</h4>
+
+<p>Il confronto tra i casi è estremamente istruttivo:</p>
+
+<ul>
+  <li>Il <strong>Caso 2</strong> ha il ROS migliore (quasi 1:1) ma un’efficienza inferiore al Caso 1 che ha ROS 1,8. Il ROS non è indicatore di efficienza.</li>
+  <li>Il <strong>Caso 3</strong> ha un ROS accettabile (1,3) ma <strong>metà della potenza</strong> viene dissipata in perdite nel terreno.</li>
+</ul>
+
+<blockquote>
+  <p><strong>Citazione</strong>: Il famoso autore <strong>John Devolder</strong> (ON4UN, scomparso recentemente) scrive: <em>“L’antenna con il miglior valore di ROS è un buon carico fittizio (dummy load).”</em></p>
+</blockquote>
+
+<blockquote>
+  <p>⚠️ <strong>Concetto d’esame</strong>: Il <strong>carico fittizio</strong> è chiamato anche <strong>antenna artificiale</strong> nelle domande d’esame. È una resistenza pura che presenta ROS perfetto ma efficienza di radiazione nulla.</p>
+</blockquote>
+
+<p><strong>Conclusione fondamentale</strong>: Un buon valore di ROS indica un buon adattamento di impedenza ma <strong>non fornisce alcuna indicazione attendibile circa l’efficienza di radiazione</strong> dell’antenna. Misurare il ROS è semplice; valutare l’efficienza di radiazione non lo è affatto.</p>
+
+<hr />
+
+<h3 id="7--antenne-verticali-e-radiali">7. 🌐 Antenne Verticali e Radiali</h3>
+
+<p>Le antenne verticali, anche se montate a terra, devono sempre essere dotate di un <strong>adeguato numero di radiali</strong>. Senza radiali:</p>
+
+<ul>
+  <li>Tutta la corrente d’antenna deve richiudersi attraverso il terreno → perdite elevate</li>
+  <li>Se montata su un tetto o altra struttura, la corrente si richiude attraverso qualsiasi percorso conduttivo disponibile (impianti elettrici, strutture metalliche), causando perdite imprevedibili, interferenze e disturbi</li>
+</ul>
+
+<p><strong>Strategie per i radiali:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Installazione</th>
+      <th>Caratteristiche</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Radiali interrati</td>
+      <td>Buona efficienza, la corrente li attraversa preferenzialmente rispetto al terreno</td>
+    </tr>
+    <tr>
+      <td>Radiali appoggiati a terra/tetto</td>
+      <td>Funzionano sufficientemente bene perché la loro conducibilità è molto superiore a quella del terreno</td>
+    </tr>
+    <tr>
+      <td>Radiali sollevati</td>
+      <td>Condizione ottimale per antenne montate in quota</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Anche con i radiali</strong>, è necessario un dispositivo di blocco (<strong>RF choke</strong>) per evitare che correnti di modo comune scorrano sulla calza esterna del cavo coassiale. Per l’<strong>effetto pelle</strong>, la superficie esterna e quella interna della calza si comportano come due conduttori separati.</p>
+
+<blockquote>
+  <p><strong>Regola pratica</strong>: L’andamento della corrente è massimo in prossimità del punto di alimentazione e decresce allontanandosi. Anche radiali relativamente corti sono meglio di nessun radiale. L’ideale sarebbero radiali risonanti (λ/4), ma qualsiasi lunghezza apporta un beneficio.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="8--correnti-di-modo-comune-e-balun">8. 🔌 Correnti di Modo Comune e Balun</h3>
+
+<p>Al punto di alimentazione di un’antenna si presentano tre esigenze fondamentali:</p>
+
+<ol>
+  <li><strong>Bilanciamento</strong> (passaggio bilanciato/sbilanciato — BALanced/UNbalanced = <strong>BALUN</strong>)</li>
+  <li><strong>Adattamento di impedenza</strong> (rapporto di trasformazione 1:1, 4:1, ecc.)</li>
+  <li><strong>Blocco delle correnti di modo comune</strong> (RF choke)</li>
+</ol>
+
+<p>Esistono due tipi principali di balun:</p>
+
+<h4 id="balun-di-corrente-guanella--choke-balun">Balun di corrente (Guanella / Choke balun)</h4>
+
+<p>Il <strong>balun di corrente</strong> è la soluzione preferita perché svolge contemporaneamente tutte e tre le funzioni sopra elencate. Funziona come un <strong>Transmission Line Transformer (TLT)</strong> e può essere realizzato:</p>
+
+<ul>
+  <li>Avvolgendo il cavo coassiale in spire (formando un’induttanza sulla calza esterna)</li>
+  <li>Utilizzando avvolgimenti su nuclei di ferrite</li>
+</ul>
+
+<p>È dimostrabile matematicamente che, qualsiasi sia il rapporto delle tensioni al lato bilanciato rispetto a massa, le correnti dall’altro lato rimangono sostanzialmente inalterate. Questo garantisce un eccellente bilanciamento.</p>
+
+<p>Lo stesso principio è utilizzato nei moderni finali di potenza in push-pull, dove l’accoppiamento bilanciato-sbilanciato in uscita è realizzato con un TLT.</p>
+
+<h4 id="balun-di-tensione">Balun di tensione</h4>
+
+<p>Il <strong>balun di tensione</strong> utilizza avvolgimenti multipli (bifilari, trifilari) su nuclei di ferrite. Funziona correttamente solo con carichi perfettamente bilanciati. È meno versatile del balun di corrente.</p>
+
+<h4 id="considerazioni-pratiche-sul-choke-in-cavo-coassiale">Considerazioni pratiche sul choke in cavo coassiale</h4>
+
+<p>Quando si realizza un choke avvolgendo il cavo coassiale in spire, si formano <strong>capacità parassite tra le spire</strong> che portano l’insieme in risonanza a una certa frequenza. È opinione condivisa che il choke debba operare <strong>sotto la sua frequenza di autorisonanza</strong>, dove l’attenuazione di modo comune è maggiore. Sopra la risonanza, l’impedenza cala drasticamente.</p>
+
+<p>Si possono ottimizzare le prestazioni giocando sul rapporto lunghezza/diametro dell’avvolgimento: un avvolgimento più allungato (rapporto lunghezza/diametro maggiore) sposta la frequenza di autorisonanza. Per un’antenna ben bilanciata come una Yagi, un’attenuazione di modo comune di <strong>20-25 dB</strong> è già sufficiente.</p>
+
+<p>In alternativa al choke in cavo, si possono usare <strong>manicotti di ferrite</strong> infilati sull’esterno del cavo.</p>
+
+<blockquote>
+  <p>⚠️ <strong>Attenzione</strong>: Se un’antenna verticale senza radiali viene dotata di un choke efficiente, l’antenna smette di funzionare perché il choke blocca la corrente sia per gli effetti negativi sia per quelli positivi (il ritorno della corrente attraverso la calza).</p>
+</blockquote>
+
+<hr />
+
+<h3 id="9--misure-sulle-antenne-analizzatore-e-vna">9. 📏 Misure sulle Antenne: Analizzatore e VNA</h3>
+
+<p>I moderni strumenti (analizzatori d’antenna, VNA — Vector Network Analyzer) sono accessibili ed economici, ma richiedono una corretta interpretazione dei dati.</p>
+
+<h4 id="misure-di-impedenza-con-analizzatore-dantenna">Misure di impedenza con analizzatore d’antenna</h4>
+
+<p>La misura dell’impedenza eseguita all’estremità del cavo coassiale (e non direttamente sull’antenna) <strong>può non essere attendibile</strong> se la lunghezza del cavo non è un multiplo intero di $\lambda/2$.</p>
+
+<blockquote>
+  <p><strong>Regola fondamentale</strong>: Solo con una lunghezza elettrica del cavo pari a un multiplo intero di $\lambda/2$ l’impedenza misurata all’estremità del cavo corrisponde esattamente a quella presente al punto di alimentazione dell’antenna.</p>
+</blockquote>
+
+<p><strong>Esempio numerico 1</strong>:</p>
+
+<ul>
+  <li>Antenna con impedenza reale: 31,5 Ω (puramente resistiva), ROS = 1,58</li>
+  <li>Misurato attraverso cavo di lunghezza arbitraria: 52 − j25 Ω (componente capacitiva spuria!)</li>
+  <li>Valore completamente diverso dalla realtà</li>
+</ul>
+
+<p><strong>Esempio numerico 2</strong>:</p>
+
+<ul>
+  <li>Antenna con impedenza reale: 75 Ω, cavo 50 Ω, ROS = 1,5, lunghezza cavo 0,3 λ</li>
+  <li>Misurato: 35 + j8 Ω (componente induttiva spuria!)</li>
+</ul>
+
+<h4 id="misure-con-vna-e-carta-di-smith">Misure con VNA e carta di Smith</h4>
+
+<p>Un errore comune con il VNA è identificare la <strong>frequenza di risonanza</strong> dell’antenna come il punto in cui la curva sulla carta di Smith attraversa l’asse orizzontale (impedenza puramente resistiva). Questa lettura è corretta <strong>solo</strong> se lo strumento è stato configurato per compensare la lunghezza del cavo.</p>
+
+<p>Senza la compensazione del cavo, il punto di minimo ROS (punto più vicino al centro della carta di Smith) è un indicatore più affidabile della frequenza di risonanza rispetto all’attraversamento dell’asse reale.</p>
+
+<hr />
+
+<h3 id="10--differenze-tra-antenna-in-trasmissione-e-in-ricezione">10. 📡 Differenze tra Antenna in Trasmissione e in Ricezione</h3>
+
+<p>Questa sezione tratta un aspetto avanzato ma importante, spesso trascurato.</p>
+
+<p><strong>In trasmissione</strong> l’obiettivo è:</p>
+
+<ul>
+  <li>Massimizzare l’energia irradiata nella fascia angolare ottimale (0°-20° per DX)</li>
+  <li>Ottenere il massimo guadagno nella direzione desiderata</li>
+</ul>
+
+<p><strong>In ricezione</strong> l’obiettivo è:</p>
+
+<ul>
+  <li>Massimizzare il <strong>rapporto segnale-rumore</strong> (SNR), che è una cosa diversa dal massimizzare il segnale ricevuto</li>
+</ul>
+
+<p>In HF, e soprattutto sulle bande basse, il <strong>rumore prevalente è quello esterno</strong> (atmosferico, attività umane), che può superare il rumore interno del ricevitore anche di 50-60 dB. Questo rumore esterno è distribuito mediamente in tutte le direzioni.</p>
+
+<p>Di conseguenza, un aumento generalizzato del guadagno dell’antenna incrementa sia il segnale utile sia il rumore esterno, <strong>senza migliorare il rapporto segnale-rumore</strong>.</p>
+
+<blockquote>
+  <p><strong>Strategia corretta in ricezione</strong>: L’unico modo per migliorare l’SNR è disporre di un’antenna con massimo nella direzione del segnale utile e <strong>marcata attenuazione in tutte le altre direzioni</strong>, indipendentemente dal valore assoluto del guadagno.</p>
+</blockquote>
+
+<p>Esistono antenne specializzate per la ricezione che hanno guadagni molto bassi o addirittura negativi, ma offrono vantaggi in termini di SNR grazie alla selettività direzionale del loro lobo. Il <strong>loop magnetico</strong> è un esempio: si comporta molto bene in ricezione ma non altrettanto in trasmissione.</p>
+
+<hr />
+
+<h3 id="11--sessione-domande-e-risposte">11. ❓ Sessione Domande e Risposte</h3>
+
+<h4 id="vicinanza-tra-antenne-verticali">Vicinanza tra antenne verticali</h4>
+
+<p>Una domanda riguarda due antenne verticali distanti solo 40 cm, una multibanda e una Gy Master per i 27 MHz. Paolo spiega che 40 cm è una distanza significativa solo a frequenze molto elevate (es. 3 GHz), ma a 10 MHz si è abbondantemente nel <strong>campo vicino</strong> e gli effetti di <strong>mutuo accoppiamento</strong> sono significativi, anche con l’antenna inutilizzata scollegata. Senza radiali, la corrente di ritorno scorre sulla calza del cavo → rischio interferenze. Consiglio: aggiungere anche pochi radiali corti, appoggiati al tetto, è sempre meglio di niente.</p>
+
+<h4 id="domanda-desame-sulla-yagi-a-14-mhz">Domanda d’esame sulla Yagi a 14 MHz</h4>
+
+<p>Viene discussa una domanda d’esame: <em>“Quanto è lungo approssimativamente l’elemento attivo di un’antenna Yagi per i 14 MHz?”</em></p>
+
+<p>Il calcolo: $150 / 14 = 10{,}71$ m. Tra le risposte disponibili (10,7 m e 10 m), la risposta considerata corretta è <strong>10 m</strong> per via della parola “approssimativamente” e del fatto che l’elemento radiante di una Yagi è in realtà leggermente più corto della mezzonda teorica (fattore di velocità tipico per il diametro dell’elemento). La questione è considerata discutibile nella sua formulazione.</p>
+
+<h4 id="choke-balun-aspetti-pratici">Choke balun: aspetti pratici</h4>
+
+<p>Discussione dettagliata sulla realizzazione pratica di un choke con cavo coassiale avvolto in spire. Viene confermato che:</p>
+
+<ul>
+  <li>Il choke va fatto lavorare <strong>sotto</strong> la sua frequenza di autorisonanza</li>
+  <li>Esistono risonanza serie e antirisonanza (parallelo), relativamente vicine tra loro</li>
+  <li>Si può ottimizzare agendo sul rapporto lunghezza/diametro dell’avvolgimento</li>
+  <li>Per antenne ben bilanciate, 20-25 dB di attenuazione di modo comune sono sufficienti</li>
+  <li>Alternativa: manicotti di ferrite sull’esterno del cavo</li>
+</ul>
+
+<h4 id="riflessione-lunare-eme">Riflessione lunare (EME)</h4>
+
+<p>Viene menzionata un’esperienza di riflessione lunare (EME — Earth-Moon-Earth) sui 2 m con due Yagi a 12 elementi accoppiate con polarizzazione incrociata (orizzontale + verticale) per ottenere <strong>polarizzazione circolare</strong>, molto utile nelle comunicazioni EME poiché la riflessione lunare altera la polarizzazione del segnale.</p>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li>Angolo di radiazione → deve coincidere con → angolo di riflessione ionosferica per DX</li>
+  <li>Antenne direttive → concentrano energia → in una direzione preferenziale</li>
+  <li>Yagi-Uda → utilizza → mutua induzione tra elementi parassiti</li>
+  <li>Riflettore → è leggermente più lungo di → radiatore → è leggermente più lungo di → direttori</li>
+  <li>Guadagno (dBi) = Guadagno (dBd) + 2,1 dB</li>
+  <li>ERP = Potenza TX × Guadagno antenna</li>
+  <li>Efficienza di radiazione → dipende da → rapporto $R_{rad} / (R_{rad} + R_{perdita})$</li>
+  <li>Antenne caricate → hanno $R_{rad}$ minore → efficienza minore a parità di perdite</li>
+  <li>Perdite nel conduttore → causate da → effetto pelle (skin effect)</li>
+  <li>Perdite nel terreno → significative per → antenne basse e verticali senza radiali</li>
+  <li>Radiali → riducono → perdite nel terreno → migliorano → efficienza di radiazione</li>
+  <li>ROS basso → indica → buon adattamento → ma NON indica → buona efficienza</li>
+  <li>Carico fittizio = antenna artificiale → ROS perfetto → efficienza zero</li>
+  <li>Balun di corrente → svolge → bilanciamento + adattamento + blocco modo comune</li>
+  <li>Misura impedenza attraverso cavo → attendibile solo se → lunghezza cavo = n × λ/2</li>
+  <li>Guadagno TX → concentra energia → nella direzione desiderata</li>
+  <li>Guadagno RX → aumenta → sia segnale sia rumore → SNR non migliora</li>
+  <li>SNR migliora solo con → attenuazione marcata in → direzioni diverse da quella utile</li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>
+    <p><strong>Angolo di radiazione e propagazione</strong>: Per i collegamenti DX in HF, l’angolo di radiazione ottimale è compreso tra 0° e 20°. L’antenna deve concentrare la massima energia in questa fascia.</p>
+  </li>
+  <li>
+    <p><strong>Tre metodi per la direttività</strong>: Riflettore parabolico (focalizzazione geometrica), Yagi-Uda (elementi parassiti per mutua induzione) e array ad elementi pilotati (controllo elettronico della fase).</p>
+  </li>
+  <li>
+    <p><strong>Yagi — regola degli elementi</strong>: Il riflettore è leggermente più lungo del radiatore, i direttori leggermente più corti. Il riferimento è sempre il dipolo a mezza lunghezza d’onda.</p>
+  </li>
+  <li>
+    <p><strong>dBi vs dBd</strong>: La differenza è costante e pari a 2,1 dB. Un guadagno di X dBd equivale a (X + 2,1) dBi.</p>
+  </li>
+  <li>
+    <p><strong>ERP</strong>: La potenza effettiva irradiata è il prodotto della potenza del trasmettitore per il guadagno dell’antenna. 100 W con guadagno 10 dB (×10) → ERP = 1000 W.</p>
+  </li>
+  <li>
+    <p><strong>Efficienza di radiazione</strong>: $\eta = R_{rad} / (R_{rad} + R_{perdita})$. Un’antenna con bassa resistenza di radiazione (es. antenne caricate o molto piccole) avrà sempre efficienza inferiore rispetto a un’antenna full-size, a parità di perdite.</p>
+  </li>
+  <li>
+    <p><strong>ROS ≠ Efficienza</strong>: Un buon ROS indica solo un buon adattamento di impedenza. Il carico fittizio (antenna artificiale) ha ROS perfetto ma efficienza di radiazione nulla.</p>
+  </li>
+  <li>
+    <p><strong>Radiali sempre necessari</strong>: Le antenne verticali richiedono sempre radiali per minimizzare le perdite nel terreno e controllare il percorso della corrente di ritorno. Anche radiali corti sono meglio di nessun radiale.</p>
+  </li>
+  <li>
+    <p><strong>Balun di corrente preferibile</strong>: Il balun di corrente (Guanella/choke) è il tipo migliore perché svolge contemporaneamente bilanciamento, adattamento e blocco delle correnti di modo comune.</p>
+  </li>
+  <li>
+    <p><strong>Misure attraverso il cavo</strong>: L’impedenza misurata all’estremità del cavo è attendibile solo se la lunghezza elettrica del cavo è un multiplo intero di λ/2. Il punto di minimo ROS è un indicatore di risonanza più affidabile dell’attraversamento dell’asse reale sulla carta di Smith.</p>
+  </li>
+  <li>
+    <p><strong>TX vs RX</strong>: In trasmissione si cerca il massimo guadagno nella direzione desiderata; in ricezione si cerca il massimo rapporto segnale-rumore, ottenibile con forte attenuazione nelle direzioni indesiderate, non semplicemente aumentando il guadagno.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>
+    <p>Perché un’antenna con ROS prossimo a 1:1 potrebbe comunque avere un’efficienza di radiazione molto bassa? Spiega con un esempio numerico.</p>
+  </li>
+  <li>
+    <p>Un dipolo in banda 40 m a λ/4 da terra ha efficienza del 95%, mentre una verticale caricata λ/8 con 16 radiali ha efficienza del 52%. Quali sono le cause principali di questa differenza?</p>
+  </li>
+  <li>
+    <p>Spiega perché l’effetto pelle rende la resistenza di un conduttore alle radiofrequenze molto maggiore rispetto alla corrente continua. Come varia lo spessore di penetrazione con la frequenza?</p>
+  </li>
+  <li>
+    <p>Perché misurare l’impedenza di un’antenna all’estremità del cavo coassiale può dare risultati errati? In quale caso specifico la misura è attendibile?</p>
+  </li>
+  <li>
+    <p>In che modo il balun di corrente differisce dal balun di tensione? Perché il primo è generalmente preferito?</p>
+  </li>
+  <li>
+    <p>Spiega il funzionamento di una Yagi a tre elementi: qual è il ruolo del riflettore, del radiatore e del direttore? Come si determina la fase relativa delle correnti indotte?</p>
+  </li>
+  <li>
+    <p>Perché in ricezione HF sulle bande basse un aumento del guadagno dell’antenna non migliora necessariamente il rapporto segnale-rumore? Quale strategia è più efficace?</p>
+  </li>
+  <li>
+    <p>Un’antenna ha un’efficienza di radiazione del 52%. Se il trasmettitore eroga 100 W e l’antenna ha guadagno 6 dBi, qual è l’ERP effettivo considerando le perdite?</p>
+  </li>
+  <li>
+    <p>Perché le antenne verticali necessitano sempre di radiali, anche quando il ROS misurato è accettabile? Cosa succede alla corrente di ritorno in assenza di radiali?</p>
+  </li>
+  <li>
+    <p>Discuti il paradosso per cui antenne miniaturizzate possono mostrare un buon ROS pur avendo un’efficienza di radiazione trascurabile. Qual è l’elemento che effettivamente irradia in questi casi?</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>Antenna artificiale</strong> — Sinonimo di carico fittizio (dummy load). Resistenza pura usata per prove di trasmettitori senza irradiare. Termine usato nelle domande d’esame.</li>
+  <li><strong>Antenna isotropica</strong> — Sorgente puntiforme ideale che irradia uniformemente in tutte le direzioni. Esiste solo come riferimento teorico.</li>
+  <li><strong>Array (collineare / phased)</strong> — Sistema di più antenne alimentate con fase controllata per ottenere direttività.</li>
+  <li><strong>Balun</strong> — Dispositivo che realizza la transizione tra una linea sbilanciata (coassiale) e un carico bilanciato (dipolo). Da BALanced-UNbalanced.</li>
+  <li><strong>Balun di corrente (Guanella)</strong> — Tipo di balun che mantiene uguali le correnti nei due conduttori. Svolge bilanciamento, adattamento e blocco delle correnti di modo comune.</li>
+  <li><strong>Balun di tensione</strong> — Tipo di balun con avvolgimenti bifilari/trifilari su ferrite. Efficace solo con carichi perfettamente bilanciati.</li>
+  <li><strong>Carico fittizio (Dummy load)</strong> — Resistenza pura (50 Ω) non radiante, usata per test. Presenta ROS perfetto ma efficienza di radiazione nulla.</li>
+  <li><strong>Correnti di modo comune</strong> — Correnti indesiderate che scorrono sulla superficie esterna della calza del coassiale, causando irradiazione spuria e interferenze.</li>
+  <li><strong>dBd</strong> — Unità di guadagno riferita al dipolo a mezza lunghezza d’onda.</li>
+  <li><strong>dBi</strong> — Unità di guadagno riferita all’antenna isotropica. $G_{dBi} = G_{dBd} + 2{,}1$.</li>
+  <li><strong>Direttore</strong> — Elemento parassita della Yagi, più corto del radiatore, posto nella direzione di massima radiazione.</li>
+  <li><strong>Effetto pelle (Skin effect)</strong> — Fenomeno per cui la corrente RF scorre solo sulla superficie del conduttore, aumentando la resistenza effettiva. Spessore di penetrazione: ~20 µm a 10 MHz nel rame.</li>
+  <li><strong>Efficienza di radiazione</strong> — Rapporto tra potenza irradiata e potenza applicata: $\eta = R_{rad}/(R_{rad}+R_{perdita})$.</li>
+  <li><strong>EME (Earth-Moon-Earth)</strong> — Tecnica di comunicazione radio che utilizza la Luna come riflettore passivo.</li>
+  <li><strong>ERP (Effective Radiated Power)</strong> — Potenza effettiva irradiata: $\text{ERP} = P_{TX} \times G$.</li>
+  <li><strong>Four-square</strong> — Array di quattro antenne verticali disposte a quadrato con alimentazione a fase controllata (0°/90°/90°/180°).</li>
+  <li><strong>Log-periodica</strong> — Antenna direttiva a banda larga, alternativa alla Yagi quando serve copertura su ampio range di frequenze.</li>
+  <li><strong>Loop magnetico</strong> — Antenna di piccole dimensioni con buone prestazioni in ricezione (alto SNR) ma bassa efficienza in trasmissione.</li>
+  <li><strong>Mutua induzione</strong> — Fenomeno per cui un elemento radiante induce corrente in un elemento parassita vicino. Principio di funzionamento della Yagi.</li>
+  <li><strong>Radiali</strong> — Conduttori disposti radialmente alla base di un’antenna verticale, necessari per fornire un percorso a bassa impedenza alla corrente di ritorno e minimizzare le perdite nel terreno.</li>
+  <li><strong>Rapporto segnale-rumore (SNR)</strong> — Rapporto tra l’intensità del segnale utile e il rumore. In ricezione HF, il rumore esterno è dominante.</li>
+  <li><strong>Resistenza di perdita ($R_{perdita}$)</strong> — Componente resistiva che dissipa potenza senza irradiarla (conduttore, dielettrico, terreno).</li>
+  <li><strong>Resistenza di radiazione ($R_{rad}$)</strong> — Componente dell’impedenza dell’antenna responsabile dell’effettiva irradiazione elettromagnetica.</li>
+  <li><strong>RF Choke</strong> — Dispositivo (induttanza o manicotti di ferrite) che blocca le correnti di modo comune sulla calza esterna del cavo coassiale.</li>
+  <li><strong>Riflettore (Yagi)</strong> — Elemento parassita della Yagi, leggermente più lungo del radiatore, posto nella direzione opposta alla radiazione.</li>
+  <li><strong>TLT (Transmission Line Transformer)</strong> — Trasformatore realizzato con tratti di linea di trasmissione, utilizzato nei balun di corrente e negli stadi finali di potenza.</li>
+  <li><strong>VNA (Vector Network Analyzer)</strong> — Strumento di misura che analizza impedenze e parametri di scattering in ampiezza e fase.</li>
+  <li><strong>Yagi-Uda</strong> — Antenna direttiva composta da un radiatore (dipolo alimentato) e uno o più elementi parassiti (riflettore e direttori). Inventata da Yagi e Uda alla fine degli anni ‘40.</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatore</strong>: Paolo — Radioamatore dal 1977 con oltre 40 anni di esperienza professionale nel settore RF. Conclude il suo ciclo di lezioni sulle antenne con questa sessione.</li>
+  <li>🎙️ <strong>Moderatore</strong>: Alessandro (Ale) — Gestisce la sessione e le domande.</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Campo</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Lezione</strong></td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td>24 settembre 2025</td>
+    </tr>
+    <tr>
+      <td><strong>Durata</strong></td>
+      <td>≈ 2 ore e 10 minuti</td>
+    </tr>
+    <tr>
+      <td><strong>Argomenti trattati</strong></td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td><strong>Parole chiave</strong></td>
+      <td>Antenne direttive, Yagi-Uda, guadagno dBi dBd, ERP, efficienza di radiazione, skin effect, radiali, balun di corrente, correnti modo comune, misure antenna, VNA, SNR ricezione, carico fittizio</td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+</body>
+</html>
