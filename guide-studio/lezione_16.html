@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 16 - Misure e Strumenti - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/ari-crt-corso-2025/">🏠 Home</a>
+    <a href="/ari-crt-corso-2025/guide-studio/">📖 Guide di Studio</a>
+    <a href="/ari-crt-corso-2025/glossario.html">📚 Glossario</a>
+    <a href="/ari-crt-corso-2025/domande-esame.html">❓ Domande</a>
+    <a href="/ari-crt-corso-2025/risorse.html">🔗 Risorse</a>
+  </nav>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/ari-crt-corso-2025/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_15.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_17.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_16.html" selected>📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-16---misure-e-strumenti">📘 Lezione 16 - Misure e Strumenti</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia</strong>: Strumenti di misura per elettronica e radioamatori</li>
+  <li><strong>Argomento principale</strong>: Strumenti analogici a bobina mobile (amperometro, voltmetro, ohmetro), multimetro, carico fittizio, wattmetri, frequenzimetro, grid-dip meter, oscilloscopio e analizzatore di spettro</li>
+  <li><strong>Tempo di studio stimato</strong>: 2 ore</li>
+  <li><strong>Prerequisiti</strong>: Legge di Ohm e grandezze elettriche fondamentali (Lezioni 01-03), decibel e dBm (Lezione 13), trasmettitori (Lezione 14), ricevitori (Lezione 15)</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Comprendere il funzionamento dello strumento a bobina mobile</li>
+      <li>Sapere come estendere la portata di amperometri e voltmetri</li>
+      <li>Conoscere il collegamento corretto degli strumenti (serie/parallelo)</li>
+      <li>Distinguere strumenti ideali e reali, voltmetri elettronici</li>
+      <li>Conoscere gli strumenti specifici per radioamatori: carico fittizio, wattmetro, ROSmetro, frequenzimetro, grid-dip meter</li>
+      <li>Comprendere la differenza tra oscilloscopio (dominio del tempo) e analizzatore di spettro (dominio della frequenza)</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h3 id="1--correzione-quiz-lezione-15--0003">1. 📝 Correzione quiz Lezione 15 (⏱ 00:03)</h3>
+
+<p>La lezione si apre con la correzione dei quiz sui ricevitori. Punti chiave rivisti:</p>
+
+<ul>
+  <li>Il <strong>BFO</strong> (oscillatore della frequenza di battimento) serve nei ricevitori <strong>SSB</strong> (e CW): è l’oscillatore che rigenera l’audio nel demodulatore. Non serve per l’AM, che usa un rivelatore a diodo + condensatore (rivelatore a inviluppo).</li>
+  <li>Nella <strong>supereterodina</strong>, il segnale ricevuto viene <strong>convertito di frequenza</strong> una o più volte prima di essere demodulato.</li>
+  <li><strong>Frequenza immagine</strong>: con IF = 9 MHz e segnale a 51 MHz → 2 × 9 = 18 MHz di distanza → 51 − 18 = <strong>33 MHz</strong> (la frequenza immagine). Il metodo: calcolare 2 × IF, poi provare somma e sottrazione dal segnale ricevuto; una delle due è la risposta.</li>
+  <li>Il <strong>discriminatore</strong> demodula l’FM; il <strong>rivelatore a prodotto</strong> demodula SSB.</li>
+  <li>La <strong>sensibilità</strong> è la minima tensione in ingresso distinguibile dal rumore. Dipende da due fattori: <strong>larghezza di banda</strong> e <strong>cifra di rumore</strong> (noise figure, traduzione corretta dall’inglese, non “figura di rumore”). La cifra di rumore dipende dalla rumorosità dei primi stadi del ricevitore (transistor, FET, MOSFET).</li>
+  <li>Il <strong>miscelatore/mixer</strong> riceve i segnali dall’amplificatore RF e dall’oscillatore locale, inviandoli al filtro IF.</li>
+  <li>La banda passante degli stadi IF deve essere <strong>appena più larga</strong> della larghezza di banda del segnale ricevuto.</li>
+  <li>La sensibilità si misura in <strong>microvolts</strong>.</li>
+</ul>
+
+<hr />
+
+<h3 id="2--lo-strumento-a-bobina-mobile--1534">2. 🔧 Lo strumento a bobina mobile (⏱ 15:34)</h3>
+
+<p>Tutti gli strumenti analogici di base funzionano con il meccanismo della <strong>bobina mobile</strong>, lo stesso principio dell’altoparlante (interazione tra campi magnetici).</p>
+
+<h4 id="-principio-di-funzionamento">🔹 Principio di funzionamento</h4>
+
+<p>Lo strumento contiene:</p>
+
+<ul>
+  <li>Un <strong>magnete permanente</strong> (calamita) che genera un campo magnetico fisso</li>
+  <li>Una <strong>bobina</strong> avvolta su un telaietto circolare, libera di ruotare su due perni</li>
+  <li>Una <strong>molla a spirale</strong> che tiene lo strumento in posizione zero</li>
+  <li>Un <strong>indice</strong> (ago) collegato meccanicamente alla bobina</li>
+</ul>
+
+<p>Quando una corrente scorre nella bobina, essa genera un proprio campo magnetico. L’interazione tra il campo fisso del magnete e quello variabile della bobina produce una <strong>forza</strong> che fa ruotare la bobina. La molla antagonista produce un equilibrio: l’ago si ferma in un punto proporzionale alla corrente che scorre.</p>
+
+<blockquote>
+  <p>Tutti gli strumenti a bobina mobile sono fondamentalmente <strong>amperometri</strong> (o microamperometri), perché misurano la corrente. È la corrente nella bobina che genera il campo magnetico, non la tensione.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="3--lamperometro-e-la-resistenza-di-shunt--2027">3. ⚡ L’amperometro e la resistenza di shunt (⏱ 20:27)</h3>
+
+<h4 id="-tre-valori-caratteristici-di-uno-strumento">🔹 Tre valori caratteristici di uno strumento</h4>
+
+<p>Ogni strumento a bobina mobile è definito da tre valori legati dalla legge di Ohm ($V = R \times I$):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parametro</th>
+      <th>Simbolo</th>
+      <th>Esempio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Corrente di fondo scala</td>
+      <td>$I_{FS}$</td>
+      <td>50 µA</td>
+    </tr>
+    <tr>
+      <td>Resistenza interna</td>
+      <td>$R_i$</td>
+      <td>100 Ω</td>
+    </tr>
+    <tr>
+      <td>Tensione di fondo scala</td>
+      <td>$V_{FS}$</td>
+      <td>5 mV</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Verifica: $50 \times 10^{-6} \times 100 = 5 \times 10^{-3}$ V = 5 mV ✓</p>
+
+<h4 id="-estensione-della-portata--resistenza-di-shunt">🔹 Estensione della portata — resistenza di shunt</h4>
+
+<p>Per misurare correnti più alte del fondo scala nativo, si aggiunge una <strong>resistenza in parallelo</strong> (detta <strong>resistenza di shunt</strong>). Questa resistenza devia la corrente in eccesso, lasciando passare nello strumento solo la sua corrente di fondo scala.</p>
+
+<p><strong>Formula della resistenza di shunt</strong>:</p>
+
+\[R_S = \frac{R_i \times I_{FS}}{I_{desiderata} - I_{FS}} = \frac{V_{FS}}{I_{desiderata} - I_{FS}}\]
+
+<p><strong>Principio</strong>: la resistenza di shunt è in parallelo allo strumento, quindi ha ai suoi capi la stessa tensione (5 mV nell’esempio). La corrente che la attraversa è la differenza tra la corrente totale e quella dello strumento.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fondo scala desiderato</th>
+      <th>Resistenza di shunt</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0,3 mA</td>
+      <td>20 Ω</td>
+      <td>Corrente bassa → shunt alto</td>
+    </tr>
+    <tr>
+      <td>3 mA</td>
+      <td>1,6 Ω</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>30 mA</td>
+      <td>0,16 Ω</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>300 mA</td>
+      <td>0,016 Ω</td>
+      <td>Corrente alta → shunt molto basso</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p><strong>Regola</strong>: più è elevata la corrente da misurare, più <strong>bassa</strong> deve essere la resistenza di shunt.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="4--il-voltmetro--2948">4. 🔌 Il voltmetro (⏱ 29:48)</h3>
+
+<p>Per misurare tensioni si usa lo stesso microamperometro con una <strong>resistenza in serie</strong> (detta resistenza moltiplicatrice).</p>
+
+<h4 id="-principio">🔹 Principio</h4>
+
+<p>Si calcola quale resistenza serve affinché, con la tensione di fondo scala desiderata ai capi dell’insieme strumento + resistenza, scorra esattamente la corrente di fondo scala dello strumento.</p>
+
+<p><strong>Formula della resistenza serie</strong>:</p>
+
+\[R_S = \frac{V_{desiderata}}{I_{FS}} - R_i\]
+
+<table>
+  <thead>
+    <tr>
+      <th>Fondo scala desiderato</th>
+      <th>Resistenza serie</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1 V</td>
+      <td>19.900 Ω</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>10 V</td>
+      <td>199.000 Ω</td>
+      <td>×10 rispetto a 1 V</td>
+    </tr>
+    <tr>
+      <td>100 V</td>
+      <td>1.999.900 Ω (~2 MΩ)</td>
+      <td>×10 rispetto a 10 V</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p><strong>Regola</strong>: più è alta la tensione da misurare, più <strong>grande</strong> deve essere la resistenza in serie.</p>
+</blockquote>
+
+<p>⚠️ <em>I valori non sono “tondi” (es. 19.900 anziché 20.000) perché bisogna sottrarre la resistenza interna dello strumento, già presente.</em></p>
+
+<hr />
+
+<h3 id="5--collegamento-degli-strumenti-nel-circuito--3602">5. 🔗 Collegamento degli strumenti nel circuito (⏱ 36:02)</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Strumento</th>
+      <th>Collegamento</th>
+      <th>Motivo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Amperometro</strong></td>
+      <td>In <strong>serie</strong></td>
+      <td>Si interrompe il circuito e si inserisce lo strumento nel percorso della corrente</td>
+    </tr>
+    <tr>
+      <td><strong>Voltmetro</strong></td>
+      <td>In <strong>parallelo</strong></td>
+      <td>Si collega ai due punti tra cui si vuole misurare la differenza di potenziale</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="6-️-strumenti-ideali-e-reali--3746">6. ⚖️ Strumenti ideali e reali (⏱ 37:46)</h3>
+
+<p>L’inserimento di uno strumento nel circuito può <strong>perturbare</strong> la misura:</p>
+
+<ul>
+  <li>L’<strong>amperometro</strong> ha una resistenza interna che, essendo in serie, fa diminuire leggermente la corrente misurata</li>
+  <li>Il <strong>voltmetro</strong> assorbe una piccola corrente che può far calare la tensione del generatore, specie se il generatore ha resistenza interna alta</li>
+</ul>
+
+<p><strong>Strumenti ideali</strong>:</p>
+
+<ul>
+  <li><strong>Amperometro ideale</strong>: resistenza interna <strong>nulla</strong> (R = 0)</li>
+  <li><strong>Voltmetro ideale</strong>: resistenza interna <strong>infinita</strong> (R → ∞)</li>
+</ul>
+
+<h4 id="-voltmetri-elettronici">🔹 Voltmetri elettronici</h4>
+
+<p>Per avvicinarsi al voltmetro ideale esistono i <strong>voltmetri elettronici</strong>, caratterizzati da un’impedenza di ingresso molto alta, tipicamente <strong>superiore a 10 MΩ</strong>.</p>
+
+<p>Sono realizzati con circuiti a <strong>FET</strong> (Field Effect Transistor) in configurazione a ponte: due FET identici, polarizzati per avere stesse correnti a riposo; la tensione da misurare, applicata al gate di un FET, squilibra il ponte e fa deviare lo strumento.</p>
+
+<p>Il vantaggio del FET: il terminale di gate è una giunzione polarizzata inversamente, quindi <strong>non assorbe corrente</strong>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo di strumento</th>
+      <th>Impedenza tipica</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Voltmetro analogico tradizionale</td>
+      <td>~20.000 Ω/V (es. 200 kΩ a 10 V)</td>
+    </tr>
+    <tr>
+      <td>Voltmetro elettronico</td>
+      <td>&gt;10 MΩ</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>⚠️ <em>I multimetri digitali, pur avendo elettronica sofisticata, NON sono voltmetri elettronici: hanno un’impedenza di ingresso simile a quella degli strumenti tradizionali.</em></p>
+
+<hr />
+
+<h3 id="7-ω-lohmetro--4420">7. Ω L’ohmetro (⏱ 44:20)</h3>
+
+<p>L’<strong>ohmetro</strong> misura la resistenza sfruttando la legge di Ohm. Contiene:</p>
+
+<ul>
+  <li>Una <strong>batteria interna</strong> di tensione nota (es. 1,5 V)</li>
+  <li>Il solito strumento a bobina mobile</li>
+  <li>Morsetti per collegare la resistenza incognita ($R_X$)</li>
+</ul>
+
+<p>Chiudendo il circuito batteria-strumento-resistenza incognita, scorre una corrente inversamente proporzionale a $R_X$. La scala è graduata direttamente in ohm. Il fondo scala è modificabile tramite un commutatore.</p>
+
+<hr />
+
+<h3 id="8-️-il-multimetro--4608">8. 🛠️ Il multimetro (⏱ 46:08)</h3>
+
+<p>Il <strong>multimetro</strong> — è lo strumento che riunisce in un unico scatolotto voltmetro, amperometro e ohmetro. Tramite un selettore rotativo si sceglie la grandezza da misurare e il fondo scala.</p>
+
+<p>I multimetri moderni sono di tipo <strong>digitale</strong> con display numerico. Possono misurare anche tensioni alternate (AC), frequenza, e testare componenti (transistor, diodi). Tuttavia, i multimetri digitali economici <strong>non</strong> sono voltmetri elettronici e hanno impedenze di ingresso paragonabili agli strumenti tradizionali.</p>
+
+<hr />
+
+<h3 id="9--carico-fittizio-dummy-load--5803">9. 🔴 Carico fittizio (Dummy Load) (⏱ 58:03)</h3>
+
+<p>Il <strong>carico fittizio</strong> — è una terminazione resistiva che fa le veci dell’antenna, usata per prove e tarature del trasmettitore senza irradiare segnali nell’etere.</p>
+
+<p>Costruttivamente è una <strong>resistenza ad alta potenza</strong> immersa in olio per trasformatori (per dissipare il calore). Un tipico carico fittizio in un bidoncino da ~15 cm può gestire fino a ~1000 W.</p>
+
+<p><strong>Misura della potenza</strong>: sul carico è montato un rivelatore che fornisce una tensione continua proporzionale alla tensione RF. Collegando un voltmetro, si calcola:</p>
+
+\[P = \frac{V^2}{R}\]
+
+<blockquote>
+  <p>Il carico fittizio va usato <strong>sempre</strong> per prove, tarature e collaudi, per non inquinare l’etere con trasmissioni spurie.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="10--wattmetri-passanti--6022">10. 📊 Wattmetri passanti (⏱ 60:22)</h3>
+
+<p>I <strong>wattmetri passanti</strong> — hanno due connettori (ingresso dal trasmettitore, uscita verso l’antenna) e misurano la <strong>potenza in transito</strong>.</p>
+
+<p>I wattmetri professionali (es. Bird) hanno <strong>elementi intercambiabili</strong> che si inseriscono per selezionare la banda di frequenza e il fondo scala di potenza (es. “25 W, 100-250 MHz”).</p>
+
+<p>Oltre alla potenza diretta (dal trasmettitore all’antenna), possono misurare anche la <strong>potenza riflessa</strong> (dall’antenna indietro), nel caso l’antenna non sia perfettamente adattata.</p>
+
+<hr />
+
+<h3 id="11--rosmetro--6212">11. 📐 ROSmetro (⏱ 62:12)</h3>
+
+<p>Il <strong>ROSmetro</strong> — misura il <strong>ROS</strong> (Rapporto Onde Stazionarie), che indica quanto l’antenna è in grado di assorbire la potenza inviata dal trasmettitore. È uno strumento molto comune nelle stazioni radioamatoriali e nella banda cittadina. L’argomento sarà approfondito nelle lezioni sulle antenne.</p>
+
+<hr />
+
+<h3 id="12--frequenzimetro--6428">12. 🔢 Frequenzimetro (⏱ 64:28)</h3>
+
+<p>Il <strong>frequenzimetro</strong> — è uno strumento molto semplice. Funziona così:</p>
+
+<ol>
+  <li>Una <strong>porta</strong> si apre per esattamente <strong>1 secondo</strong></li>
+  <li>Un <strong>contatore</strong> conta il numero di cicli completi della sinusoide durante quel secondo</li>
+  <li>A porta chiusa, il contatore mostra il risultato = frequenza in Hz</li>
+</ol>
+
+<p>Per questo motivo il frequenzimetro viene spesso chiamato anche <strong>contatore</strong>.</p>
+
+<p>Per misurare trasmettitori potenti basta un’antennina vicina; per segnali deboli serve un collegamento diretto con sonda.</p>
+
+<hr />
+
+<h3 id="13--grid-dip-meter--6526">13. 🔍 Grid-dip meter (⏱ 65:26)</h3>
+
+<p>Il <strong>grid-dip meter</strong> — è uno strumento che misura la <strong>frequenza di risonanza</strong> di circuiti LC. Contiene un oscillatore sintonizzabile con una <strong>bobina esterna</strong> visibile.</p>
+
+<h4 id="-modalità-dip-misura-di-risonanza">🔹 Modalità DIP (misura di risonanza)</h4>
+
+<ol>
+  <li>Si avvicina la bobina del grid-dip al circuito LC da misurare</li>
+  <li>Si sintonizza l’oscillatore interno ruotando la manopola</li>
+  <li>Quando la frequenza dell’oscillatore coincide con quella del circuito → <strong>assorbimento di potenza</strong> → l’indicatore mostra un <strong>dip</strong> (calo, picco negativo)</li>
+  <li>Si legge la frequenza sulla scala di sintonia</li>
+</ol>
+
+<p><strong>Dip</strong> — dall’inglese, significa picco negativo, calo. <strong>Grid</strong> — griglia, perché originariamente costruito con valvole termoioniche (misurava il dip della corrente di griglia).</p>
+
+<h4 id="-modalità-ondametro">🔹 Modalità ondametro</h4>
+
+<p>Spegnendo l’oscillatore e usando il transistor come amplificatore, la bobina funziona da <strong>antenna</strong>. Lo strumento diventa un <strong>misuratore selettivo</strong> (ondametro): sintonizzandolo si cerca il <strong>massimo</strong> dell’indicatore per determinare la frequenza di un segnale esterno. Misura più grossolana del frequenzimetro, ma utile sul campo.</p>
+
+<hr />
+
+<h3 id="14--oscilloscopio--7224">14. 📺 Oscilloscopio (⏱ 72:24)</h3>
+
+<p>L’<strong>oscilloscopio</strong> — è lo strumento che mostra le <strong>forme d’onda</strong> dei segnali. Lavora nel <strong>dominio del tempo</strong>.</p>
+
+<ul>
+  <li><strong>Asse X</strong> (orizzontale): <strong>tempo</strong> (secondi, millisecondi, microsecondi per divisione)</li>
+  <li><strong>Asse Y</strong> (verticale): <strong>ampiezza</strong> (volt per divisione)</li>
+</ul>
+
+<p>Lo schermo è diviso da un reticolo in “divisioni” (quadratini).</p>
+
+<h4 id="-misura-di-ampiezza">🔹 Misura di ampiezza</h4>
+
+<p>Si contano le divisioni verticali occupate dal segnale e si moltiplica per il valore della manopola “Volt/div”:</p>
+
+\[V_{pp} = \text{divisioni verticali} \times \text{volt/divisione}\]
+
+<p><strong>Esempio</strong>: sinusoide alta 4 divisioni × 2 V/div = <strong>8 V picco-picco</strong></p>
+
+<h4 id="-misura-del-periodo-e-della-frequenza">🔹 Misura del periodo e della frequenza</h4>
+
+<p>Si contano le divisioni orizzontali di un ciclo completo e si moltiplica per il valore della manopola “Tempo/div” (base dei tempi):</p>
+
+<p>\(T = \text{divisioni orizzontali} \times \text{tempo/divisione}\)
+\(f = \frac{1}{T}\)</p>
+
+<p><strong>Esempio</strong>: sinusoide larga 4 divisioni × 0,1 ms/div = 0,4 ms → $f = 1/0{,}0004 = 2500$ Hz</p>
+
+<p>Tipicamente un oscilloscopio ha <strong>due canali</strong> per confrontare due segnali (es. ingresso e uscita di un amplificatore).</p>
+
+<p>⚠️ <em>L’oscilloscopio non nasce come strumento di precisione per misure di tensione o frequenza; serve principalmente per <strong>visualizzare</strong> le forme d’onda.</em></p>
+
+<hr />
+
+<h3 id="15--analizzatore-di-spettro--8006">15. 📈 Analizzatore di spettro (⏱ 80:06)</h3>
+
+<p>L’<strong>analizzatore di spettro</strong> — è lo strumento che mostra la composizione in frequenza di un segnale. Lavora nel <strong>dominio della frequenza</strong>.</p>
+
+<ul>
+  <li><strong>Asse X</strong> (orizzontale): <strong>frequenza</strong></li>
+  <li><strong>Asse Y</strong> (verticale): <strong>potenza</strong>, espressa in <strong>dBm</strong> (decibel rispetto a 1 mW)</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Confronto</th>
+      <th>Oscilloscopio</th>
+      <th>Analizzatore di spettro</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dominio</td>
+      <td>Tempo</td>
+      <td>Frequenza</td>
+    </tr>
+    <tr>
+      <td>Asse X</td>
+      <td>Tempo (s, ms, µs)</td>
+      <td>Frequenza (Hz, kHz, MHz)</td>
+    </tr>
+    <tr>
+      <td>Asse Y</td>
+      <td>Ampiezza (V)</td>
+      <td>Potenza (dBm)</td>
+    </tr>
+    <tr>
+      <td>Mostra</td>
+      <td>Forma d’onda nel tempo</td>
+      <td>Composizione spettrale</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="-funzionamento-interno">🔹 Funzionamento interno</h4>
+
+<p>Internamente è come un <strong>ricevitore</strong> seguito da un display tipo oscilloscopio. L’operatore imposta la <strong>frequenza centrale</strong> e lo <strong>span</strong> (apertura della finestra di osservazione). Lo strumento “scansiona” lo span mostrando l’ampiezza di ogni componente di frequenza.</p>
+
+<h4 id="-applicazioni-pratiche">🔹 Applicazioni pratiche</h4>
+
+<ul>
+  <li>Visualizzare la <strong>portante</strong> e le <strong>bande laterali</strong> di un segnale AM</li>
+  <li>Verificare la <strong>pulizia spettrale</strong> di un trasmettitore: si vedono le armoniche (2ª, 3ª, ecc.) e il loro livello rispetto alla fondamentale</li>
+  <li>Determinare il livello di <strong>armoniche</strong> e <strong>segnali spuri</strong></li>
+</ul>
+
+<h4 id="-scala-logaritmica-dbm">🔹 Scala logaritmica (dBm)</h4>
+
+<p>La scala in dBm è essenziale perché consente di visualizzare segnali con dinamica enorme. Su una scala lineare, un segnale 1000 volte più debole scompare; su scala logaritmica è visibile e misurabile.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>dBm</th>
+      <th>Potenza</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0 dBm</td>
+      <td>1 mW</td>
+    </tr>
+    <tr>
+      <td>−10 dBm</td>
+      <td>0,1 mW</td>
+    </tr>
+    <tr>
+      <td>−20 dBm</td>
+      <td>0,01 mW</td>
+    </tr>
+    <tr>
+      <td>−30 dBm</td>
+      <td>0,001 mW</td>
+    </tr>
+    <tr>
+      <td>−40 dBm</td>
+      <td>0,0001 mW</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Il <strong>waterfall</strong> (cascata) dei ricevitori digitali moderni è una forma di analizzatore di spettro, anche se fornisce indicazioni solo indicative (non calibrate).</p>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li>Strumento a bobina mobile → è fondamentalmente → amperometro</li>
+  <li>Magnete permanente + bobina → generano → interazione campi magnetici → muovono → ago indicatore</li>
+  <li>Amperometro + resistenza in parallelo (shunt) → estende → portata in corrente</li>
+  <li>Amperometro + resistenza in serie → diventa → voltmetro</li>
+  <li>Amperometro → si collega → in serie al circuito</li>
+  <li>Voltmetro → si collega → in parallelo al circuito</li>
+  <li>Amperometro ideale → ha → resistenza interna nulla</li>
+  <li>Voltmetro ideale → ha → resistenza interna infinita</li>
+  <li>Voltmetro elettronico → usa → FET → per avere → alta impedenza di ingresso</li>
+  <li>Ohmetro → misura resistenza → tramite → legge di Ohm con batteria interna</li>
+  <li>Multimetro → combina → voltmetro + amperometro + ohmetro</li>
+  <li>Carico fittizio → sostituisce → antenna → per misurare → potenza trasmettitore</li>
+  <li>Wattmetro passante → misura → potenza in transito → tra TX e antenna</li>
+  <li>ROSmetro → misura → adattamento antenna</li>
+  <li>Frequenzimetro → conta → cicli in 1 secondo → determina → frequenza</li>
+  <li>Grid-dip meter → misura → frequenza risonanza circuiti LC → tramite → assorbimento di potenza</li>
+  <li>Grid-dip in modo ondametro → misura → frequenza segnale esterno</li>
+  <li>Oscilloscopio → lavora in → dominio del tempo → mostra → forme d’onda</li>
+  <li>Analizzatore di spettro → lavora in → dominio della frequenza → mostra → composizione spettrale</li>
+  <li>Scala dBm → è logaritmica → permette → visualizzare segnali con grande dinamica</li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>
+    <p>Tutti gli strumenti analogici a bobina mobile sono fondamentalmente <strong>amperometri</strong>: misurano la corrente tramite l’interazione tra il campo magnetico fisso di un magnete permanente e quello variabile generato dalla bobina.</p>
+  </li>
+  <li>
+    <p>La portata di un amperometro si estende con una <strong>resistenza in parallelo</strong> (shunt): più corrente si vuole misurare, più piccola dev’essere la resistenza di shunt.</p>
+  </li>
+  <li>
+    <p>Un microamperometro diventa voltmetro con una <strong>resistenza in serie</strong>: più alta è la tensione da misurare, più grande dev’essere la resistenza.</p>
+  </li>
+  <li>
+    <p>L’amperometro si collega <strong>in serie</strong>, il voltmetro <strong>in parallelo</strong>. L’amperometro ideale ha resistenza nulla, il voltmetro ideale ha resistenza infinita.</p>
+  </li>
+  <li>
+    <p>I <strong>voltmetri elettronici</strong> (basati su FET) hanno impedenza di ingresso &gt;10 MΩ, molto superiore ai voltmetri tradizionali (~20.000 Ω/V). I multimetri digitali economici NON sono voltmetri elettronici.</p>
+  </li>
+  <li>
+    <p>Il <strong>carico fittizio</strong> è una resistenza che simula l’antenna per prove senza irradiare segnali. La potenza si calcola con $P = V^2/R$.</p>
+  </li>
+  <li>
+    <p>I <strong>wattmetri passanti</strong> misurano la potenza in transito tra trasmettitore e antenna; possono misurare anche la potenza riflessa.</p>
+  </li>
+  <li>
+    <p>Il <strong>frequenzimetro</strong> conta i cicli di una sinusoide in un secondo.</p>
+  </li>
+  <li>
+    <p>Il <strong>grid-dip meter</strong> misura la frequenza di risonanza di circuiti LC (dip = assorbimento di potenza) e può funzionare anche come <strong>ondametro</strong> (misuratore selettivo di frequenza).</p>
+  </li>
+  <li>
+    <p>L’<strong>oscilloscopio</strong> lavora nel dominio del tempo (asse X = tempo, asse Y = ampiezza in volt); l’<strong>analizzatore di spettro</strong> lavora nel dominio della frequenza (asse X = frequenza, asse Y = potenza in dBm).</p>
+  </li>
+  <li>
+    <p>L’analizzatore di spettro è lo strumento ideale per verificare la <strong>pulizia spettrale</strong> del trasmettitore, visualizzando armoniche e segnali spuri. La scala logaritmica in dBm è essenziale per gestire l’enorme dinamica dei segnali.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>
+    <p>Perché uno strumento a bobina mobile è fondamentalmente un amperometro? Spiega il ruolo del magnete permanente, della bobina e della molla nel determinare la posizione dell’ago.</p>
+  </li>
+  <li>
+    <p>Se hai un microamperometro da 100 µA con resistenza interna di 50 Ω e vuoi realizzare un amperometro con fondo scala di 1 A, calcola il valore della resistenza di shunt necessaria. Spiega il ragionamento.</p>
+  </li>
+  <li>
+    <p>Perché il voltmetro si collega in parallelo e l’amperometro in serie? Cosa succede se si collegano al contrario?</p>
+  </li>
+  <li>
+    <p>In quali situazioni un voltmetro tradizionale può dare letture errate e perché un voltmetro elettronico risolve il problema? Qual è il ruolo del FET?</p>
+  </li>
+  <li>
+    <p>Spiega la differenza tra misurare la potenza del trasmettitore con un carico fittizio e con un wattmetro passante. Quando si deve usare l’uno e quando l’altro?</p>
+  </li>
+  <li>
+    <p>Come funziona il grid-dip meter nelle sue due modalità (dip e ondametro)? Cosa si osserva in ciascun caso?</p>
+  </li>
+  <li>
+    <p>Un oscilloscopio mostra una sinusoide alta 3 divisioni con la manopola a 5 V/div e larga 2 divisioni con la base tempi a 0,5 ms/div. Calcola l’ampiezza picco-picco e la frequenza del segnale.</p>
+  </li>
+  <li>
+    <p>Perché l’analizzatore di spettro usa una scala logaritmica in dBm anziché una scala lineare in volt? Fai un esempio che mostri il vantaggio.</p>
+  </li>
+  <li>
+    <p>Come si può usare un analizzatore di spettro per verificare se un trasmettitore ha problemi di armoniche? Cosa si vedrebbe sullo schermo?</p>
+  </li>
+  <li>
+    <p>Il waterfall di un ricevitore digitale è a tutti gli effetti un analizzatore di spettro? Quali sono le differenze rispetto a uno strumento professionale?</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>Amperometro</strong> — Strumento che misura la corrente elettrica; si collega in serie al circuito</li>
+  <li><strong>Analizzatore di spettro</strong> — Strumento che visualizza la composizione in frequenza di un segnale (dominio della frequenza); asse X = frequenza, asse Y = potenza in dBm</li>
+  <li><strong>Base dei tempi</strong> — Manopola dell’oscilloscopio che regola la velocità di scorrimento orizzontale (tempo per divisione)</li>
+  <li><strong>Bobina mobile</strong> — Principio costruttivo degli strumenti analogici: bobina immersa in campo magnetico fisso, la cui rotazione è proporzionale alla corrente</li>
+  <li><strong>Carico fittizio (Dummy load)</strong> — Resistenza che simula l’antenna per prove del trasmettitore senza irradiare</li>
+  <li><strong>Cifra di rumore (Noise figure)</strong> — Parametro che descrive la rumorosità intrinseca dei primi stadi di un ricevitore; dipende dai componenti (transistor, FET, MOSFET)</li>
+  <li><strong>Contatore</strong> — Altro nome del frequenzimetro</li>
+  <li><strong>Dip</strong> — Dall’inglese: picco negativo, calo; nel grid-dip meter indica l’assorbimento di potenza alla frequenza di risonanza</li>
+  <li><strong>Divisione</strong> — Unità di misura sullo schermo dell’oscilloscopio/analizzatore, corrisponde a un quadratino del reticolo</li>
+  <li><strong>Dominio del tempo</strong> — Rappresentazione di un segnale in funzione del tempo (oscilloscopio)</li>
+  <li><strong>Dominio della frequenza</strong> — Rappresentazione di un segnale in funzione della frequenza (analizzatore di spettro)</li>
+  <li><strong>Frequenzimetro</strong> — Strumento che misura la frequenza contando i cicli in un secondo</li>
+  <li><strong>Grid-dip meter</strong> — Strumento per misurare la frequenza di risonanza di circuiti LC e funzionare come ondametro</li>
+  <li><strong>Impedenza di ingresso</strong> — Resistenza “vista” dal circuito in cui si inserisce lo strumento</li>
+  <li><strong>Multimetro</strong> — Strumento che combina voltmetro, amperometro e ohmetro</li>
+  <li><strong>Ohmetro</strong> — Strumento che misura la resistenza; utilizza batteria interna e legge di Ohm</li>
+  <li><strong>Ondametro</strong> — Strumento che misura la frequenza di un segnale in modo selettivo; funzione secondaria del grid-dip meter</li>
+  <li><strong>Oscilloscopio</strong> — Strumento che mostra le forme d’onda nel dominio del tempo</li>
+  <li><strong>Resistenza di shunt</strong> — Resistenza posta in parallelo all’amperometro per estenderne la portata</li>
+  <li><strong>Resistenza interna</strong> — Resistenza propria dello strumento, dovuta al filo della bobina</li>
+  <li><strong>Resistenza moltiplicatrice</strong> — Resistenza posta in serie al microamperometro per trasformarlo in voltmetro</li>
+  <li><strong>ROS (Rapporto Onde Stazionarie)</strong> — Parametro che indica l’adattamento tra trasmettitore e antenna</li>
+  <li><strong>ROSmetro</strong> — Strumento che misura il ROS</li>
+  <li><strong>Span</strong> — Nell’analizzatore di spettro: apertura della finestra di osservazione attorno alla frequenza centrale</li>
+  <li><strong>Strumento RMS</strong> — Strumento che misura il valore efficace vero, indipendente dalla forma d’onda</li>
+  <li><strong>Voltmetro</strong> — Strumento che misura la tensione; si collega in parallelo al circuito</li>
+  <li><strong>Voltmetro elettronico</strong> — Voltmetro con impedenza di ingresso molto alta (&gt;10 MΩ), realizzato con FET</li>
+  <li><strong>Wattmetro passante</strong> — Strumento che misura la potenza in transito tra trasmettitore e antenna</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatore</strong>: Paolo</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Campo</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Lezione</strong></td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td>25 giugno 2025</td>
+    </tr>
+    <tr>
+      <td><strong>Durata</strong></td>
+      <td>~1 ora e 40 minuti</td>
+    </tr>
+    <tr>
+      <td><strong>Numero argomenti</strong></td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td><strong>Parole chiave</strong></td>
+      <td>Strumenti di misura, bobina mobile, amperometro, voltmetro, ohmetro, multimetro, shunt, resistenza serie, strumenti ideali, voltmetro elettronico, FET, carico fittizio, wattmetro passante, ROSmetro, frequenzimetro, contatore, grid-dip meter, ondametro, oscilloscopio, analizzatore di spettro, dominio del tempo, dominio della frequenza, dBm</td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+</body>
+</html>

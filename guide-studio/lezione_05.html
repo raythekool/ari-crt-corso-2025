@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 05 - Componenti Elettronici - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/ari-crt-corso-2025/">🏠 Home</a>
+    <a href="/ari-crt-corso-2025/guide-studio/">📖 Guide di Studio</a>
+    <a href="/ari-crt-corso-2025/glossario.html">📚 Glossario</a>
+    <a href="/ari-crt-corso-2025/domande-esame.html">❓ Domande</a>
+    <a href="/ari-crt-corso-2025/risorse.html">🔗 Risorse</a>
+  </nav>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/ari-crt-corso-2025/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_04.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_06.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_05.html" selected>📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-05---componenti-elettronici">📘 Lezione 05 - Componenti Elettronici</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia e argomento</strong>: Elettrotecnica — il condensatore, la reattanza capacitiva e l’impedenza. Viene completata la trattazione dei tre componenti fondamentali (resistore, induttore, condensatore) e introdotto il concetto unificante di impedenza.</li>
+  <li><strong>Tempo di studio stimato</strong>: 90–120 minuti</li>
+  <li><strong>Prerequisiti</strong>: Legge di Ohm, resistenze in serie/parallelo (Lezione 02), corrente alternata e valore efficace (Lezione 03), induttore e reattanza induttiva (Lezione 04).</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Comprendere struttura e funzionamento del condensatore</li>
+      <li>Definire la capacità e la sua unità di misura (Farad) con i sottomultipli</li>
+      <li>Calcolare condensatori in serie e in parallelo (regole invertite rispetto alle resistenze)</li>
+      <li>Comprendere lo sfasamento di 90° (corrente in anticipo sulla tensione) nei condensatori</li>
+      <li>Calcolare la reattanza capacitiva con $X_C = \frac{1}{2\pi fC}$</li>
+      <li>Definire e calcolare l’impedenza $Z = \sqrt{R^2 + (X_L - X_C)^2}$</li>
+      <li>Distinguere potenza apparente, attiva e reattiva in corrente alternata</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h2 id="-1-il-condensatore-struttura-e-funzionamento--3920">🔋 1. Il condensatore: struttura e funzionamento (⏱ 39:20)</h2>
+
+<h3 id="-cosè-un-condensatore">🔹 Cos’è un condensatore</h3>
+
+<p>Il <strong>condensatore</strong> è un componente elettronico che accumula carica elettrica quando è connesso a un generatore di tensione. È formato da <strong>due piastre conduttive</strong> (chiamate <strong>armature</strong>) separate da un materiale isolante detto <strong>dielettrico</strong>. Il dielettrico può essere aria, plastica, mica, ceramica o un elettrolita.</p>
+
+<p>Il simbolo elettrico del condensatore è costituito da due barrette parallele con i terminali.</p>
+
+<h3 id="-campo-elettrico-e-carica">🔹 Campo elettrico e carica</h3>
+
+<p>Quando si applica una tensione ai capi del condensatore, le cariche elettriche si accumulano sulle armature: cariche positive su un lato e cariche negative sull’altro, in funzione della polarità del generatore. Fra le armature si sviluppa un <strong>campo elettrico</strong> che rappresenta l’energia immagazzinata.</p>
+
+<h3 id="-il-ruolo-del-dielettrico">🔹 Il ruolo del dielettrico</h3>
+
+<p>L’interposizione di un materiale isolante (dielettrico) fra le armature ha due effetti:</p>
+
+<ol>
+  <li><strong>Aumenta la capacità</strong> del condensatore, perché si formano ulteriori superfici affacciate fra armature e dielettrico</li>
+  <li><strong>Impone una tensione massima di lavoro</strong>: ogni dielettrico ha una <strong>rigidità dielettrica</strong> — la tensione massima applicabile prima che l’isolante si perfori (“si buchi”). Anche l’aria ha una sua rigidità dielettrica.</li>
+</ol>
+
+<h3 id="-comportamento-con-corrente-continua-e-alternata">🔹 Comportamento con corrente continua e alternata</h3>
+
+<ul>
+  <li><strong>Corrente continua</strong>: il condensatore si comporta come un <strong>circuito aperto</strong> — la corrente non può attraversare il dielettrico isolante</li>
+  <li><strong>Corrente alternata</strong>: il condensatore presenta una <strong>reattanza capacitiva</strong> che permette alla corrente alternata di attraversarlo</li>
+</ul>
+
+<blockquote>
+  <p>Questo è l’<strong>opposto</strong> dell’induttore, che lascia passare la corrente continua e ostacola l’alternata.</p>
+</blockquote>
+
+<h3 id="-tipologie-di-condensatori">🔹 Tipologie di condensatori</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo</th>
+      <th>Caratteristiche</th>
+      <th>Valori tipici</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>A mica</strong></td>
+      <td>Alta stabilità, capacità indicata in pF</td>
+      <td>es. 500 pF, 500 V</td>
+    </tr>
+    <tr>
+      <td><strong>A film plastico</strong></td>
+      <td>Parallelepipedo, capacità in nF</td>
+      <td>es. 22 nF</td>
+    </tr>
+    <tr>
+      <td><strong>Elettrolitici</strong></td>
+      <td>Nastro avvolto in cilindro, grandi capacità</td>
+      <td>centinaia/migliaia di µF</td>
+    </tr>
+    <tr>
+      <td><strong>Ad aria (variabili)</strong></td>
+      <td>Lamelle rotanti, usati per sintonia radio</td>
+      <td>variabili</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>I <strong>condensatori variabili</strong> ad aria sono formati da lamelle fisse (statore) e lamelle rotanti (rotore); girando la manopola si varia la superficie affacciata e quindi la capacità. Il simbolo elettrico è il condensatore con una freccia sopra.</p>
+
+<hr />
+
+<h2 id="-2-la-capacità-e-la-sua-unità-di-misura--4600">📐 2. La capacità e la sua unità di misura (⏱ 46:00)</h2>
+
+<h3 id="-definizione">🔹 Definizione</h3>
+
+<p>La <strong>capacità</strong> (C) esprime quanta carica elettrica può immagazzinare un condensatore per ogni volt di tensione applicata:</p>
+
+<blockquote>
+\[C = \frac{Q}{V}\]
+</blockquote>
+
+<p>Dove:</p>
+
+<ul>
+  <li><strong>C</strong> = capacità in Farad (F)</li>
+  <li><strong>Q</strong> = carica elettrica in Coulomb (C)</li>
+  <li><strong>V</strong> = tensione ai capi in Volt (V)</li>
+</ul>
+
+<p>L’unità di misura è il <strong>Farad</strong> (F): 1 Farad = 1 Coulomb / 1 Volt.</p>
+
+<h3 id="-sottomultipli-del-farad">🔹 Sottomultipli del Farad</h3>
+
+<p>Il Farad è un’unità molto grande; nella pratica si usano solo sottomultipli:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sottomultiplo</th>
+      <th>Simbolo</th>
+      <th>Valore</th>
+      <th>Notazione</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>microfarad</td>
+      <td>µF</td>
+      <td>$10^{-6}$ F</td>
+      <td>un milionesimo</td>
+    </tr>
+    <tr>
+      <td>nanofarad</td>
+      <td>nF</td>
+      <td>$10^{-9}$ F</td>
+      <td>un millesimo di milionesimo</td>
+    </tr>
+    <tr>
+      <td>picofarad</td>
+      <td>pF</td>
+      <td>$10^{-12}$ F</td>
+      <td>un milionesimo di milionesimo</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="-formula-costruttiva-della-capacità">🔹 Formula costruttiva della capacità</h3>
+
+<p>La capacità dipende dalle caratteristiche fisiche del condensatore:</p>
+
+<blockquote>
+\[C = \varepsilon \cdot \frac{S}{D}\]
+</blockquote>
+
+<p>Dove:</p>
+
+<ul>
+  <li><strong>ε (epsilon)</strong> = costante dielettrica del materiale isolante</li>
+  <li><strong>S</strong> = superficie delle armature affacciate</li>
+  <li><strong>D</strong> = distanza fra le armature</li>
+</ul>
+
+<p>Relazioni di proporzionalità:</p>
+
+<ul>
+  <li>C è <strong>direttamente proporzionale</strong> alla costante dielettrica ε</li>
+  <li>C è <strong>direttamente proporzionale</strong> alla superficie S delle armature</li>
+  <li>C è <strong>inversamente proporzionale</strong> alla distanza D fra le armature</li>
+</ul>
+
+<p>⚠️ <em>Queste relazioni sono frequente oggetto di domande d’esame.</em></p>
+
+<hr />
+
+<h2 id="-3-condensatori-in-serie-e-in-parallelo--5736">🔗 3. Condensatori in serie e in parallelo (⏱ 57:36)</h2>
+
+<h3 id="-regola-fondamentale-lopposto-delle-resistenze">🔹 Regola fondamentale: l’opposto delle resistenze</h3>
+
+<p>Le formule per condensatori in serie e in parallelo sono <strong>invertite</strong> rispetto a resistenze e induttori:</p>
+
+<h3 id="-condensatori-in-parallelo--si-sommano">🔹 Condensatori in parallelo — si sommano</h3>
+
+<blockquote>
+\[C_{tot} = C_1 + C_2 + C_3 + \ldots\]
+</blockquote>
+
+<p>In parallelo la superficie affacciata aumenta, quindi la capacità totale <strong>aumenta</strong>.</p>
+
+<h3 id="-condensatori-in-serie--formula-del-reciproco">🔹 Condensatori in serie — formula del reciproco</h3>
+
+<blockquote>
+\[\frac{1}{C_{tot}} = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_3} + \ldots\]
+</blockquote>
+
+<p>Casi particolari:</p>
+
+<ul>
+  <li>Due condensatori <strong>uguali</strong> in serie: $C_{tot} = C/2$ (metà del valore di ciascuno)</li>
+  <li>N condensatori <strong>uguali</strong> in serie: $C_{tot} = C/N$</li>
+  <li>Il risultato è sempre <strong>minore del condensatore più piccolo</strong></li>
+</ul>
+
+<blockquote>
+  <p><strong>Tabella riassuntiva serie/parallelo:</strong></p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Componente</th>
+        <th>Serie</th>
+        <th>Parallelo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Resistenze</td>
+        <td>Si sommano</td>
+        <td>Formula reciproco</td>
+      </tr>
+      <tr>
+        <td>Induttori</td>
+        <td>Si sommano</td>
+        <td>Formula reciproco</td>
+      </tr>
+      <tr>
+        <td>Condensatori</td>
+        <td>Formula reciproco</td>
+        <td><strong>Si sommano</strong></td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<hr />
+
+<h2 id="️-4-costante-di-tempo-τ--r--c--6207">⏱️ 4. Costante di tempo τ = R × C (⏱ 62:07)</h2>
+
+<h3 id="-carica-e-scarica-del-condensatore">🔹 Carica e scarica del condensatore</h3>
+
+<p>Quando si applica una tensione a un condensatore tramite una resistenza in serie:</p>
+
+<ul>
+  <li>La <strong>corrente</strong> scorre subito (è in anticipo)</li>
+  <li>La <strong>tensione</strong> ai capi del condensatore cresce con andamento <strong>esponenziale</strong> fino al valore di regime</li>
+</ul>
+
+<p>La <strong>costante di tempo</strong> è il tempo impiegato dalla tensione per raggiungere il <strong>63%</strong> del valore finale:</p>
+
+<blockquote>
+\[\tau = R \times C\]
+</blockquote>
+
+<p>Dove:</p>
+
+<ul>
+  <li><strong>τ</strong> = costante di tempo in secondi</li>
+  <li><strong>R</strong> = resistenza in Ohm</li>
+  <li><strong>C</strong> = capacità in Farad</li>
+</ul>
+
+<p>La tensione raggiunge il valore di regime dopo circa <strong>5 costanti di tempo</strong>. La scarica avviene con la stessa legge esponenziale.</p>
+
+<blockquote>
+  <p>Confronto con l’induttore: nell’induttore la costante di tempo è $\tau = L/R$; nel condensatore è $\tau = R \times C$.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-5-sfasamento-nei-condensatori-corrente-in-anticipo-di-90--6608">⚡ 5. Sfasamento nei condensatori: corrente in anticipo di 90° (⏱ 66:08)</h2>
+
+<h3 id="-corrente-e-tensione-nel-condensatore">🔹 Corrente e tensione nel condensatore</h3>
+
+<p>In un condensatore alimentato in corrente alternata, la <strong>corrente è in anticipo di 90°</strong> rispetto alla tensione (oppure equivalentemente: la tensione è in ritardo di 90° rispetto alla corrente).</p>
+
+<blockquote>
+  <p><strong>Analogia del secchiello</strong>: il condensatore è come un secchio da riempire d’acqua. L’acqua (la corrente) scorre subito; il livello del secchio (la tensione) sale gradualmente. La corrente precede la tensione.</p>
+</blockquote>
+
+<h3 id="-riepilogo-sfasamenti">🔹 Riepilogo sfasamenti</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Componente</th>
+      <th>Sfasamento V–I</th>
+      <th>Descrizione</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Resistore</strong></td>
+      <td>0° (in fase)</td>
+      <td>V e I partono e raggiungono i massimi insieme</td>
+    </tr>
+    <tr>
+      <td><strong>Induttore</strong></td>
+      <td>I in ritardo di 90°</td>
+      <td>La corrente è ostacolata dalla reattanza</td>
+    </tr>
+    <tr>
+      <td><strong>Condensatore</strong></td>
+      <td>I in anticipo di 90°</td>
+      <td>La corrente scorre subito, la tensione sale dopo</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="-6-reattanza-capacitiva-x_c--6718">📉 6. Reattanza capacitiva $X_C$ (⏱ 67:18)</h2>
+
+<h3 id="-definizione-e-formula">🔹 Definizione e formula</h3>
+
+<p>La <strong>reattanza capacitiva</strong> è l’opposizione che un condensatore offre al passaggio della corrente alternata. Si misura in <strong>ohm</strong> e si indica con <strong>$X_C$</strong>:</p>
+
+<blockquote>
+\[X_C = \frac{1}{2\pi f C}\]
+</blockquote>
+
+<p>Dove:</p>
+
+<ul>
+  <li><strong>$X_C$</strong> = reattanza capacitiva in ohm (Ω)</li>
+  <li><strong>$f$</strong> = frequenza in Hertz (Hz)</li>
+  <li><strong>$C$</strong> = capacità in Farad (F)</li>
+</ul>
+
+<h3 id="-andamento-con-la-frequenza">🔹 Andamento con la frequenza</h3>
+
+<p>A differenza della reattanza induttiva (che cresce linearmente), la reattanza capacitiva ha un andamento <strong>iperbolico decrescente</strong>:</p>
+
+<ul>
+  <li>A <strong>frequenza zero</strong> (corrente continua): $X_C = \infty$ → circuito aperto</li>
+  <li>All’<strong>aumentare della frequenza</strong>: $X_C$ diminuisce → il condensatore “lascia passare” meglio la corrente</li>
+  <li>A <strong>frequenze molto alte</strong>: $X_C \to 0$ → quasi un cortocircuito</li>
+</ul>
+
+<blockquote>
+  <p><strong>Confronto</strong>: $X_L$ cresce con la frequenza (retta), $X_C$ diminuisce con la frequenza (iperbole). Il punto dove $X_L = X_C$ si chiama <strong>risonanza</strong>.</p>
+</blockquote>
+
+<h3 id="-esercizio-svolto">🔹 Esercizio svolto</h3>
+
+<p>Condensatore da 39 pF a diverse frequenze:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Frequenza</th>
+      <th>Reattanza $X_C$</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1 MHz</td>
+      <td>$\frac{1}{2\pi \times 10^6 \times 39 \times 10^{-12}} = \frac{1}{6{,}28 \times 39 \times 10^{-6}} \approx$ <strong>4.083 Ω</strong></td>
+    </tr>
+    <tr>
+      <td>10 MHz</td>
+      <td><strong>408,3 Ω</strong> (10 volte meno)</td>
+    </tr>
+    <tr>
+      <td>100 MHz</td>
+      <td><strong>40,8 Ω</strong> (100 volte meno)</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p><strong>Suggerimento per semplificare i calcoli</strong>: con 39 pF ($10^{-12}$) e 1 MHz ($10^{6}$), si semplifica $10^{6}$ con $10^{-12}$ ottenendo $10^{-6}$, evitando numeri troppo grandi o piccoli nella calcolatrice.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-7-legge-di-ohm-generalizzata-con-le-reattanze--7521">🔧 7. Legge di Ohm generalizzata con le reattanze (⏱ 75:21)</h2>
+
+<h3 id="-analogia-tra-r-x_l-e-x_c">🔹 Analogia tra R, $X_L$ e $X_C$</h3>
+
+<p>La legge di Ohm si applica identicamente ai tre componenti, sostituendo R con la reattanza appropriata:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Circuito</th>
+      <th>Formula</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Solo resistenza</td>
+      <td>$V = R \times I$</td>
+    </tr>
+    <tr>
+      <td>Solo induttore</td>
+      <td>$V = X_L \times I$</td>
+    </tr>
+    <tr>
+      <td>Solo condensatore</td>
+      <td>$V = X_C \times I$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Le formule inverse ($I = V/X$ e $X = V/I$) funzionano allo stesso modo.</p>
+
+<hr />
+
+<h2 id="-8-limpedenza-z--7915">🔺 8. L’impedenza Z (⏱ 79:15)</h2>
+
+<h3 id="-definizione-1">🔹 Definizione</h3>
+
+<p>L’<strong>impedenza</strong> (Z) è la grandezza che tiene conto dell’effetto combinato di resistenza, reattanza induttiva e reattanza capacitiva in un circuito in corrente alternata. Si misura in <strong>ohm</strong> e si indica con la lettera <strong>Z</strong>.</p>
+
+<h3 id="-formula-dellimpedenza-teorema-di-pitagora">🔹 Formula dell’impedenza (Teorema di Pitagora)</h3>
+
+<blockquote>
+\[Z = \sqrt{R^2 + (X_L - X_C)^2}\]
+</blockquote>
+
+<p>Questa formula è esattamente il <strong>teorema di Pitagora</strong> applicato alla rappresentazione vettoriale dove:</p>
+
+<ul>
+  <li><strong>R</strong> (resistenza) sta sull’asse X orizzontale</li>
+  <li><strong>$X_L - X_C$</strong> (reattanza netta) sta sull’asse Y verticale</li>
+  <li><strong>Z</strong> (impedenza) è l’ipotenusa</li>
+</ul>
+
+<p>Casi particolari:</p>
+
+<ul>
+  <li>Solo R → $Z = R$ (legge di Ohm classica)</li>
+  <li>Solo $X_L$ → $Z = X_L$</li>
+  <li>Solo $X_C$ → $Z = X_C$</li>
+  <li>$X_L = X_C$ → $Z = R$ (risonanza)</li>
+</ul>
+
+<h3 id="-rappresentazione-come-numero-complesso">🔹 Rappresentazione come numero complesso</h3>
+
+<p>L’impedenza si può esprimere anche come <strong>numero complesso</strong>:</p>
+
+<blockquote>
+\[Z = R + jX\]
+</blockquote>
+
+<p>Dove:</p>
+
+<ul>
+  <li><strong>R</strong> = parte reale (resistenza)</li>
+  <li><strong>jX</strong> = parte immaginaria (reattanza)</li>
+  <li><strong>+jX</strong> indica reattanza induttiva</li>
+  <li><strong>−jX</strong> indica reattanza capacitiva</li>
+</ul>
+
+<p>Esempio: $Z = 50 + j15$ Ω → 50 Ω resistivi e 15 Ω di reattanza induttiva.</p>
+
+<h3 id="-legge-di-ohm-con-limpedenza">🔹 Legge di Ohm con l’impedenza</h3>
+
+<p>Usando l’impedenza Z, la legge di Ohm vale <strong>sempre</strong>, sia in corrente continua che alternata:</p>
+
+<blockquote>
+\[V = Z \times I \qquad I = \frac{V}{Z} \qquad Z = \frac{V}{I}\]
+</blockquote>
+
+<hr />
+
+<h2 id="-9-potenza-in-corrente-alternata--9509">📊 9. Potenza in corrente alternata (⏱ 95:09)</h2>
+
+<h3 id="-tre-tipi-di-potenza">🔹 Tre tipi di potenza</h3>
+
+<p>In un circuito con resistenze e reattanze, tensione e corrente non sono in fase, e la potenza si esprime in tre forme:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo</th>
+      <th>Formula</th>
+      <th>Unità</th>
+      <th>Descrizione</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Potenza apparente</strong></td>
+      <td>$S = V \times I$</td>
+      <td>VA (voltampere)</td>
+      <td>Tutto ciò che il generatore eroga</td>
+    </tr>
+    <tr>
+      <td><strong>Potenza attiva (reale)</strong></td>
+      <td>$P = R \times I^2 = V \times I \times \cos\varphi$</td>
+      <td>W (watt)</td>
+      <td>Produce lavoro utile (calore, movimento)</td>
+    </tr>
+    <tr>
+      <td><strong>Potenza reattiva</strong></td>
+      <td>$Q = X \times I^2$</td>
+      <td>VAR (voltampere reattivi)</td>
+      <td>Circola senza produrre lavoro</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="-rappresentazione-vettoriale-della-potenza">🔹 Rappresentazione vettoriale della potenza</h3>
+
+<p>Le tre potenze formano un <strong>triangolo rettangolo</strong> (analogo a quello dell’impedenza):</p>
+
+<ul>
+  <li>Potenza attiva sull’asse X</li>
+  <li>Potenza reattiva sull’asse Y</li>
+  <li>Potenza apparente come ipotenusa</li>
+</ul>
+
+<p>L’angolo φ è lo sfasamento tra tensione e corrente; il <strong>cos φ</strong> (fattore di potenza) lega potenza attiva e apparente:</p>
+
+<blockquote>
+\[P = S \times \cos\varphi\]
+</blockquote>
+
+<h3 id="-applicazione-pratica-rifasamento">🔹 Applicazione pratica: rifasamento</h3>
+
+<p>L’Enel impone alle utenze industriali un <strong>cos φ ≥ 0,8</strong> (rifasamento). I carichi industriali sono spesso induttivi (motori, trasformatori), causando correnti reattive elevate che occupano le linee senza produrre lavoro. Il rifasamento consiste nel ridurre l’angolo φ, tipicamente aggiungendo condensatori.</p>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li><strong>Condensatore</strong> → è composto da → <strong>Due armature + dielettrico</strong></li>
+  <li><strong>Dielettrico</strong> → determina → <strong>Capacità (ε) e tensione massima (rigidità dielettrica)</strong></li>
+  <li><strong>Capacità (C)</strong> → si misura in → <strong>Farad (F), sottomultipli: µF, nF, pF</strong></li>
+  <li><strong>Capacità</strong> → dipende da → <strong>ε (dielettrico), S (superficie), 1/D (distanza)</strong></li>
+  <li><strong>Condensatore in AC</strong> → produce → <strong>Sfasamento 90° (corrente in anticipo)</strong></li>
+  <li><strong>Condensatore</strong> → oppone → <strong>Reattanza capacitiva $X_C = 1/(2\pi fC)$</strong></li>
+  <li><strong>$X_C$</strong> → diminuisce con → <strong>Frequenza (andamento iperbolico)</strong></li>
+  <li><strong>Resistenza + Reattanze</strong> → si combinano in → <strong>Impedenza $Z = \sqrt{R^2 + (X_L - X_C)^2}$</strong></li>
+  <li><strong>Impedenza</strong> → sostituisce R in → <strong>Legge di Ohm generalizzata ($V = ZI$)</strong></li>
+  <li><strong>Sfasamento V–I</strong> → determina → <strong>Cos φ (fattore di potenza)</strong></li>
+  <li><strong>Potenza apparente</strong> → si divide in → <strong>Potenza attiva (lavoro utile) + Potenza reattiva</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>Il condensatore accumula carica elettrica sotto forma di campo elettrico. Blocca la corrente continua e lascia passare la corrente alternata — l’opposto dell’induttore.</li>
+  <li>La capacità si misura in <strong>Farad</strong> (F), con sottomultipli µF, nF, pF. Dipende dalla superficie delle armature (S), dalla costante dielettrica (ε) e inversamente dalla distanza (D).</li>
+  <li>I condensatori in <strong>parallelo</strong> si sommano; in <strong>serie</strong> si usa la formula del reciproco — regole <strong>invertite</strong> rispetto a resistenze e induttori.</li>
+  <li>In un condensatore, la <strong>corrente è in anticipo di 90°</strong> rispetto alla tensione. Nell’induttore accade l’opposto.</li>
+  <li>La reattanza capacitiva $X_C = 1/(2\pi fC)$ <strong>diminuisce</strong> all’aumentare della frequenza (l’inverso della reattanza induttiva).</li>
+  <li>L’<strong>impedenza</strong> $Z = \sqrt{R^2 + (X_L - X_C)^2}$ è il parametro universale che combina R, $X_L$ e $X_C$. Si usa nella legge di Ohm al posto di R per qualsiasi circuito.</li>
+  <li>In corrente alternata la potenza si divide in <strong>attiva</strong> (produce lavoro, W), <strong>reattiva</strong> (circola inutilmente, VAR) e <strong>apparente</strong> (totale, VA), legate dal fattore di potenza cos φ.</li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>Perché il condensatore blocca la corrente continua ma lascia passare la corrente alternata? In cosa differisce dall’induttore?</li>
+  <li>Come varia la capacità di un condensatore se si raddoppia la distanza fra le armature mantenendo invariati gli altri parametri?</li>
+  <li>Tre condensatori da 30 µF ciascuno sono collegati in serie. Qual è la capacità totale? E se fossero in parallelo?</li>
+  <li>Calcolare la reattanza capacitiva di un condensatore da 100 pF a 10 MHz. Spiegare il procedimento di semplificazione degli esponenti.</li>
+  <li>In un circuito sono presenti una resistenza di 30 Ω e una reattanza induttiva di 40 Ω (nessuna capacità). Qual è l’impedenza totale?</li>
+  <li>Spiegare perché la formula dell’impedenza è un’applicazione del teorema di Pitagora. Cosa rappresentano i due cateti e l’ipotenusa?</li>
+  <li>Un circuito ha cos φ = 0,5. Qual è la percentuale di potenza attiva rispetto alla potenza apparente? Perché l’Enel richiede il rifasamento?</li>
+  <li>Descrivere un’applicazione pratica in cui un induttore viene usato per bloccare la corrente alternata lasciando passare la continua.</li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>Armatura</strong> — ciascuna delle due piastre conduttive che compongono un condensatore</li>
+  <li><strong>Capacità (C)</strong> — grandezza che esprime quanta carica elettrica un condensatore può immagazzinare per unità di tensione; si misura in Farad</li>
+  <li><strong>Condensatore</strong> — componente elettronico formato da due armature separate da un dielettrico, che immagazzina energia sotto forma di campo elettrico</li>
+  <li><strong>Condensatore variabile</strong> — condensatore la cui capacità può essere regolata (es. ruotando lamelle); usato per la sintonia radio</li>
+  <li><strong>Costante dielettrica (ε)</strong> — proprietà del materiale isolante che esprime la sua capacità di aumentare la capacità del condensatore</li>
+  <li><strong>Dielettrico</strong> — materiale isolante interposto fra le armature di un condensatore</li>
+  <li><strong>Farad (F)</strong> — unità di misura della capacità; 1 F = 1 C / 1 V</li>
+  <li><strong>Impedenza (Z)</strong> — grandezza che combina resistenza e reattanze in un circuito AC; $Z = \sqrt{R^2 + (X_L - X_C)^2}$, misurata in ohm</li>
+  <li><strong>Numero complesso</strong> — forma di rappresentazione dell’impedenza: $Z = R + jX$, con parte reale (R) e immaginaria (X)</li>
+  <li><strong>Picofarad (pF)</strong> — un milionesimo di milionesimo di Farad ($10^{-12}$ F)</li>
+  <li><strong>Potenza apparente (S)</strong> — potenza totale erogata dal generatore: $S = V \times I$, misurata in VA</li>
+  <li><strong>Potenza attiva (P)</strong> — potenza che produce lavoro utile: $P = V \times I \times \cos\varphi$, misurata in W</li>
+  <li><strong>Potenza reattiva (Q)</strong> — potenza che circola nel circuito senza produrre lavoro, misurata in VAR</li>
+  <li><strong>Reattanza capacitiva ($X_C$)</strong> — opposizione del condensatore al passaggio della corrente alternata; $X_C = 1/(2\pi fC)$</li>
+  <li><strong>Rifasamento</strong> — correzione del fattore di potenza per ridurre la potenza reattiva nelle utenze industriali</li>
+  <li><strong>Rigidità dielettrica</strong> — tensione massima applicabile a un dielettrico prima che si perfori</li>
+  <li><strong>Teorema di Pitagora</strong> — relazione geometrica usata per calcolare l’impedenza dalla rappresentazione vettoriale di R e X</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatore</strong>: Sauro (sezione ARI Prato, licenza dal 1984)</li>
+  <li>📋 <strong>Coordinamento</strong>: Fabrizio, Alessio</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Campo</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Lezione</strong></td>
+      <td>05</td>
+    </tr>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td>2 aprile 2025</td>
+    </tr>
+    <tr>
+      <td><strong>Durata</strong></td>
+      <td>~2 ore</td>
+    </tr>
+    <tr>
+      <td><strong>Numero argomenti</strong></td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td><strong>Parole chiave</strong></td>
+      <td>condensatore, capacità, Farad, dielettrico, reattanza capacitiva, $X_C = 1/(2\pi fC)$, impedenza, $Z = \sqrt{R^2 + (X_L - X_C)^2}$, teorema di Pitagora, potenza apparente, potenza attiva, potenza reattiva, cos φ, serie, parallelo</td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+</body>
+</html>

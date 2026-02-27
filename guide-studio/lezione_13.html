@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 13 - Antenne - Parte 1 - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/ari-crt-corso-2025/">🏠 Home</a>
+    <a href="/ari-crt-corso-2025/guide-studio/">📖 Guide di Studio</a>
+    <a href="/ari-crt-corso-2025/glossario.html">📚 Glossario</a>
+    <a href="/ari-crt-corso-2025/domande-esame.html">❓ Domande</a>
+    <a href="/ari-crt-corso-2025/risorse.html">🔗 Risorse</a>
+  </nav>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/ari-crt-corso-2025/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_12.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_14.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_13.html" selected>📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-13---antenne---parte-1">📘 Lezione 13 - Antenne - Parte 1</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia</strong>: Radiotecnica — Amplificatori, Oscillatori e Decibel</li>
+  <li><strong>Tempo di studio stimato</strong>: 90–110 minuti</li>
+  <li><strong>Prerequisiti</strong>: Conoscenza di transistor, FET, MOSFET, valvole termoioniche (Lezione 12); circuiti risonanti e quarzi (Lezione 06); diodi e alimentatori (Lezione 11)</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Distinguere amplificatori a bassa frequenza (BF) e ad alta frequenza (AF)</li>
+      <li>Comprendere guadagno, rendimento e le quattro classi di amplificazione (A, B, C, AB)</li>
+      <li>Capire il principio di funzionamento degli oscillatori (retroazione positiva)</li>
+      <li>Conoscere le tre tipologie di oscillatori: libero (VFO), a quarzo, ad aggancio di fase (PLL)</li>
+      <li>Padroneggiare l’uso pratico dei decibel con i “mattoncini” +3 dB e +10 dB</li>
+      <li>Comprendere la differenza tra dB (misura relativa) e dBm (misura assoluta)</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h3 id="1--correzione-quiz-lezione-12--00021800">1. 🔍 Correzione Quiz Lezione 12 (⏱ 00:02–18:00)</h3>
+
+<p>Paolo e Silvio IZ5DIY aprono la lezione con la correzione del quiz della settimana precedente, dedicato a transistor, FET e valvole termoioniche. I risultati sono generalmente buoni, con la maggior parte dei partecipanti tra l’80% e il 100%.</p>
+
+<h4 id="-risposte-chiave-e-chiarimenti">🔹 Risposte Chiave e Chiarimenti</h4>
+
+<ul>
+  <li><strong>Transistor bipolare</strong>: ha <strong>2 giunzioni</strong> (non 1 come il diodo). Il diodo ha una sola giunzione P-N, il transistor ne ha due (N-P-N o P-N-P).</li>
+  <li><strong>FET</strong>: l’impedenza di ingresso è <strong>alta</strong> perché è pilotato in tensione e non richiede corrente al gate.</li>
+  <li><strong>Diodo Zener</strong>: è un <strong>diodo</strong>, non un transistor. Lavora in polarizzazione inversa per stabilizzare la tensione.</li>
+  <li><strong>Valvola termoionica</strong>: necessita di <strong>tensioni elevate</strong> (centinaia di volt) per funzionare, a differenza dei transistor.</li>
+  <li><strong>Impedenza d’ingresso di un amplificatore</strong>: deve essere <strong>alta</strong> per non “caricare” lo stadio precedente, cioè per non assorbire troppa corrente dal circuito che lo alimenta.</li>
+  <li><strong>Emettitore comune</strong>: configurazione con impedenza d’ingresso <strong>media</strong> (non alta come il collettore comune).</li>
+  <li><strong>Filamento</strong> nelle valvole: ha il compito di <strong>scaldare il catodo</strong> (nel riscaldamento indiretto).</li>
+  <li><strong>Tetrodo</strong>: possiede <strong>2 griglie</strong> (griglia controllo + griglia schermo).</li>
+  <li><strong>Pentodo</strong>: la griglia soppressore serve a <strong>sopprimere la corrente inversa</strong> (emissione secondaria dall’anodo).</li>
+  <li><strong>Griglia di controllo</strong>: controlla il flusso di corrente tra catodo e anodo.</li>
+  <li><strong>Pentodo</strong>: ha <strong>5 elettrodi</strong> (catodo, griglia controllo, griglia schermo, griglia soppressore, anodo) + <strong>2 terminali per il filamento</strong> = <strong>7 terminali</strong> totali.</li>
+</ul>
+
+<hr />
+
+<h3 id="2--amplificatori-concetti-generali--18453200">2. 📡 Amplificatori: Concetti Generali (⏱ 18:45–32:00)</h3>
+
+<p>Paolo introduce gli amplificatori ricordando che all’esame è richiesta la conoscenza a livello di <strong>schema a blocchi</strong> (scatolette nere), non a livello di singoli componenti. L’amplificatore è un dispositivo che riceve un segnale debole in ingresso e produce un segnale più forte in uscita.</p>
+
+<h4 id="-amplificatori-bf-e-af">🔹 Amplificatori BF e AF</h4>
+
+<p>Esistono due grandi categorie di amplificatori, distinte per la banda di frequenza operativa:</p>
+
+<p><strong>Amplificatore BF (Bassa Frequenza)</strong> — amplificatore che opera nella banda audio (circa 20 Hz – 18.000 Hz). Non utilizza circuiti risonanti perché deve amplificare uniformemente tutte le frequenze della banda audio. Tipico impiego: stadi finali di ricevitori, impianti Hi-Fi.</p>
+
+<p><strong>Amplificatore AF/RF (Alta Frequenza)</strong> — amplificatore che opera a frequenze radio elevate. Utilizza <strong>circuiti risonanti</strong> in ingresso e/o in uscita per ottenere <strong>selettività</strong>, cioè per amplificare solo una banda stretta di frequenze centrata sulla frequenza di risonanza. La <strong>curva di risposta</strong> mostra un picco alla frequenza di risonanza e un’attenuazione via via maggiore allontanandosi da essa.</p>
+
+<p>⚠️ La distinzione fondamentale: gli amplificatori BF amplificano un’ampia gamma di frequenze in modo uniforme, quelli AF amplificano selettivamente grazie ai circuiti risonanti.</p>
+
+<h4 id="-fattore-di-amplificazione-o-guadagno">🔹 Fattore di Amplificazione o Guadagno</h4>
+
+<p><strong>Guadagno (o fattore di amplificazione)</strong> — rapporto tra il segnale in uscita e il segnale in ingresso di un amplificatore. I termini “guadagno” e “fattore di amplificazione” sono sinonimi.</p>
+
+<p>Il guadagno può essere espresso:</p>
+
+<ul>
+  <li><strong>In potenza</strong>: $G_P = \frac{P_{out}}{P_{in}}$</li>
+  <li><strong>In tensione</strong>: $G_V = \frac{V_{out}}{V_{in}}$</li>
+</ul>
+
+<blockquote>
+  <p>Esempio: un amplificatore che con 1 W in ingresso produce 15 W in uscita ha un guadagno di 15 volte (in potenza).</p>
+</blockquote>
+
+<p>Il guadagno viene spesso espresso in <strong>decibel</strong> (dB) come vedremo più avanti nella lezione.</p>
+
+<h4 id="-rendimento">🔹 Rendimento</h4>
+
+<p><strong>Rendimento (η)</strong> — rapporto percentuale tra la potenza utile in uscita e la potenza totale assorbita dall’alimentazione.</p>
+
+\[\eta = \frac{P_{uscita}}{P_{alimentazione}} \times 100\%\]
+
+<p>La differenza tra la potenza assorbita dall’alimentatore e la potenza effettivamente presente in uscita si trasforma in <strong>calore</strong>. Ecco perché gli amplificatori con rendimento basso necessitano di dissipatori (radiatori) o ventole per smaltire il calore.</p>
+
+<blockquote>
+  <p>Esempio: se un amplificatore eroga 100 W in uscita e assorbe 200 W dall’alimentatore, il rendimento è 50%. I restanti 100 W vengono dissipati in calore — l’amplificatore “diventa una stufetta”.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="3--classi-di-amplificazione--32006600">3. 📊 Classi di Amplificazione (⏱ 32:00–66:00)</h3>
+
+<p>Le classi di amplificazione definiscono per quale porzione del ciclo del segnale il dispositivo attivo conduce corrente. Si distinguono per la posizione del <strong>punto di lavoro</strong> (punto di polarizzazione) sulla curva caratteristica del dispositivo.</p>
+
+<h4 id="-classe-a">🔹 Classe A</h4>
+
+<p><strong>Classe A</strong> — classe di amplificazione in cui la corrente nel dispositivo scorre per <strong>l’intero periodo</strong> (360°) del segnale.</p>
+
+<p>Il punto di lavoro è posizionato nella <strong>zona lineare</strong> della curva caratteristica, ben lontano sia dalla zona di saturazione che da quella di interdizione. Il segnale viene amplificato in modo <strong>molto fedele</strong>, con distorsione minima.</p>
+
+<ul>
+  <li><strong>Angolo di conduzione</strong>: 360° (intero ciclo)</li>
+  <li><strong>Rendimento</strong>: molto basso, tipicamente <strong>5–20%</strong></li>
+  <li><strong>Linearità</strong>: eccellente, riproduzione molto fedele del segnale</li>
+  <li><strong>Applicazioni</strong>: amplificatori per piccoli segnali, ricevitori, apparecchiature Hi-Fi, amplificatori per cuffia</li>
+  <li><strong>Svantaggio principale</strong>: la maggior parte della potenza assorbita si trasforma in calore</li>
+</ul>
+
+<blockquote>
+  <p>Paolo racconta che in Hi-Fi esistono splendidi amplificatori in classe A per cuffia (2-3 W), dove il basso rendimento non è un problema perché le potenze sono molto ridotte. Per potenze maggiori, il calore diventa critico.</p>
+</blockquote>
+
+<h4 id="-classe-b">🔹 Classe B</h4>
+
+<p><strong>Classe B</strong> — classe di amplificazione in cui la corrente nel dispositivo scorre solo per <strong>metà periodo</strong> (180°) del segnale.</p>
+
+<p>Il punto di lavoro è posizionato vicino alla zona di <strong>interdizione</strong> (cut-off). Il dispositivo conduce solo durante un semiperiodo; durante l’altro semiperiodo è spento. Il segnale in uscita è una <strong>mezza sinusoide</strong> — fortemente distorto se usato singolarmente.</p>
+
+<ul>
+  <li><strong>Angolo di conduzione</strong>: 180° (mezzo ciclo)</li>
+  <li><strong>Rendimento</strong>: circa <strong>60%</strong></li>
+  <li><strong>Linearità</strong>: segnale distorto (solo metà dell’onda)</li>
+  <li><strong>Soluzione</strong>: configurazione <strong>push-pull</strong> (o <strong>controfase</strong>)</li>
+</ul>
+
+<p><strong>Push-pull (controfase)</strong> — configurazione circuitale che utilizza <strong>due dispositivi in classe B</strong> complementari: uno amplifica la semionda positiva, l’altro la semionda negativa. I due segnali vengono poi ricombinati per ricostruire la <strong>sinusoide completa</strong>.</p>
+
+<p>⚠️ <strong>Distorsione di crossover</strong> — nel punto di raccordo tra le due semionde amplificate dai due dispositivi si può verificare una piccola distorsione dovuta alla non perfetta giunzione dei due segnali. Questo è il principale svantaggio del push-pull in classe B.</p>
+
+<h4 id="-classe-c">🔹 Classe C</h4>
+
+<p><strong>Classe C</strong> — classe di amplificazione in cui la corrente scorre per <strong>meno di metà periodo</strong> (tipicamente 70°–80°).</p>
+
+<p>Il dispositivo conduce solo per una piccola frazione del ciclo, amplificando solo i “picchi” del segnale. Il segnale in uscita è <strong>molto distorto</strong>.</p>
+
+<ul>
+  <li><strong>Angolo di conduzione</strong>: &lt; 180° (tipicamente 70°–80°)</li>
+  <li><strong>Rendimento</strong>: <strong>70–75%</strong> (il più alto tra le classi tradizionali)</li>
+  <li><strong>Linearità</strong>: pessima — segnale molto distorto</li>
+  <li><strong>Applicazioni</strong>: <strong>solo FM e CW (telegrafia)</strong> dove non serve linearità in ampiezza</li>
+  <li><strong>Funzionamento</strong>: si utilizza un <strong>circuito risonante (carico risonante)</strong> in uscita che “rigenera” la sinusoide completa a partire dagli impulsi amplificati</li>
+</ul>
+
+<blockquote>
+  <p>La classe C non può essere usata per SSB o AM perché queste modulazioni richiedono la conservazione delle variazioni di ampiezza.</p>
+</blockquote>
+
+<h4 id="-classe-ab">🔹 Classe AB</h4>
+
+<p><strong>Classe AB</strong> — classe di amplificazione intermedia tra A e B, in cui la corrente scorre per <strong>più di metà periodo</strong> ma non per tutto il ciclo.</p>
+
+<ul>
+  <li><strong>Angolo di conduzione</strong>: circa <strong>220°–240°</strong></li>
+  <li><strong>Rendimento</strong>: <strong>50–60%</strong></li>
+  <li><strong>Linearità</strong>: buon compromesso, abbastanza fedele</li>
+  <li><strong>Applicazioni</strong>: <strong>amplificatori finali dei trasmettitori</strong> sia a valvole che a stato solido (MOSFET, LDMOS)</li>
+</ul>
+
+<p>Paolo spiega che nei tipici amplificatori a MOSFET o LDMOS, il dispositivo viene polarizzato con una <strong>corrente di riposo (bias)</strong> pari a circa il <strong>10–15%</strong> della corrente massima di trasmissione. Ad esempio, se in trasmissione il MOSFET consuma 5 A, la corrente di bias sarà di 500–700 mA.</p>
+
+<h4 id="-tabella-riassuntiva-delle-classi">🔹 Tabella Riassuntiva delle Classi</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Classe</th>
+      <th>Angolo di conduzione</th>
+      <th>Fedeltà riproduzione</th>
+      <th>Rendimento</th>
+      <th>Impiego tipico</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>A</strong></td>
+      <td>360° (intero periodo)</td>
+      <td>Molto fedele</td>
+      <td>5–20%</td>
+      <td>Ricevitori, Hi-Fi, piccoli segnali</td>
+    </tr>
+    <tr>
+      <td><strong>AB</strong></td>
+      <td>~220°–240°</td>
+      <td>Abbastanza fedele</td>
+      <td>50–60%</td>
+      <td>Finali TX valvolari e a stato solido</td>
+    </tr>
+    <tr>
+      <td><strong>B</strong></td>
+      <td>180° (mezzo periodo)</td>
+      <td>Lineare solo con push-pull</td>
+      <td>~60%</td>
+      <td>Push-pull, controfase</td>
+    </tr>
+    <tr>
+      <td><strong>C</strong></td>
+      <td>&lt; 180° (~70°–80°)</td>
+      <td>Non lineare</td>
+      <td>70–75%</td>
+      <td>Solo FM e CW, con carico risonante</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="4--oscillatori--66288342">4. 📻 Oscillatori (⏱ 66:28–83:42)</h3>
+
+<p>L’oscillatore è un altro dei “blocchi funzionali” (scatolette nere) fondamentali, presente sia nei trasmettitori che nei ricevitori. Il suo compito è <strong>generare un segnale</strong> a una determinata frequenza.</p>
+
+<h4 id="-principio-di-funzionamento-la-retroazione">🔹 Principio di Funzionamento: la Retroazione</h4>
+
+<p><strong>Retroazione (feedback)</strong> — meccanismo per cui una parte del segnale di uscita viene riportata all’ingresso dell’amplificatore.</p>
+
+<p>Tutti gli oscillatori funzionano sul principio della <strong>retroazione positiva</strong>:</p>
+
+<ol>
+  <li>All’accensione, il dispositivo amplificatore (FET, transistor) raccoglie il <strong>rumore intrinseco</strong> presente in ingresso</li>
+  <li>Questo piccolo segnale di rumore viene <strong>amplificato</strong> e si ritrova in uscita</li>
+  <li>Una parte del segnale di uscita viene <strong>riportata all’ingresso</strong> tramite un circuito di retroazione</li>
+  <li>Il segnale ritorna all’ingresso leggermente più forte, viene riamplificato, torna in uscita ancora più forte…</li>
+  <li>Il processo continua finché non si raggiunge una <strong>condizione di oscillazione stabile</strong> con ampiezza costante</li>
+</ol>
+
+<p>Per ottenere una <strong>frequenza precisa</strong>, nel percorso di retroazione si inserisce un <strong>circuito risonante LC</strong> o un <strong>quarzo</strong>, che fa sì che il meccanismo funzioni efficacemente solo alla frequenza di risonanza.</p>
+
+<h4 id="-tre-tipologie-di-oscillatori">🔹 Tre Tipologie di Oscillatori</h4>
+
+<h5 id="oscillatore-libero-vfo">Oscillatore Libero (VFO)</h5>
+
+<p><strong>VFO (Variable Frequency Oscillator)</strong> — oscillatore a frequenza variabile, che utilizza un circuito LC (bobina + condensatore) nel percorso di retroazione.</p>
+
+<ul>
+  <li><strong>Vantaggio</strong>: la frequenza può essere variata modificando il condensatore variabile → utile per la sintonia</li>
+  <li><strong>Svantaggio</strong>: <strong>stabilità limitata</strong> — la frequenza può variare con la temperatura, le vibrazioni meccaniche e altri fattori</li>
+  <li><strong>Esempio</strong>: schema con FET dove il segnale dal gate viene amplificato, esce sul drain, e tramite un condensatore e una bobina (circuito LC) viene riportato al gate</li>
+  <li>Se si progetta un circuito LC che risuona a 9 MHz, l’oscillatore genera un segnale di uscita a 9 MHz</li>
+</ul>
+
+<h5 id="oscillatore-a-quarzo">Oscillatore a Quarzo</h5>
+
+<p><strong>Oscillatore a quarzo</strong> — oscillatore che utilizza un cristallo di quarzo nel percorso di retroazione, al posto del circuito LC.</p>
+
+<ul>
+  <li><strong>Vantaggio</strong>: <strong>stabilità altissima</strong> — il quarzo ha un fattore di qualità Q di circa 10.000 (rispetto ai 100–150 di un circuito LC normale), quindi tiene l’oscillatore molto “fermo” sulla frequenza</li>
+  <li><strong>Svantaggio</strong>: opera a <strong>frequenza fissa</strong> (la frequenza del quarzo)</li>
+  <li><strong>Armoniche</strong>: è possibile far oscillare un quarzo non solo alla frequenza fondamentale, ma anche alle <strong>armoniche dispari</strong> (3ª, 5ª, 7ª armonica). Es.: da un quarzo a 9 MHz si possono generare 27 MHz (3ª armonica), 45 MHz (5ª armonica), ecc.</li>
+</ul>
+
+<h5 id="oscillatore-ad-aggancio-di-fase-pll">Oscillatore ad Aggancio di Fase (PLL)</h5>
+
+<p><strong>PLL (Phase Locked Loop)</strong> — circuito oscillatore che combina la <strong>variabilità</strong> di un oscillatore libero con la <strong>stabilità</strong> di un riferimento a quarzo.</p>
+
+<p>Il PLL è la tipologia usata nella quasi totalità dei ricetrasmettitori moderni. All’interno contiene <strong>due oscillatori</strong>:</p>
+
+<ol>
+  <li><strong>VCO (Voltage Controlled Oscillator)</strong> — oscillatore controllato in tensione che genera il segnale di uscita. La frequenza è regolata tramite <strong>diodi varicap</strong> (condensatori variabili elettronici) al posto della manopola meccanica.</li>
+  <li><strong>Oscillatore di riferimento a quarzo</strong> — fornisce la frequenza stabile di riferimento.</li>
+</ol>
+
+<p><strong>Funzionamento del PLL</strong>:</p>
+
+<ol>
+  <li>Il VCO genera il segnale alla frequenza desiderata</li>
+  <li>Il segnale di uscita viene prelevato e inviato a un <strong>comparatore di fase</strong></li>
+  <li>Il comparatore confronta la fase del segnale del VCO con quella dell’oscillatore di riferimento</li>
+  <li>Se il VCO si allontana dalla frequenza corretta, il comparatore genera una <strong>tensione di errore</strong></li>
+  <li>Questa tensione, dopo un <strong>filtro passa-basso</strong> (per ottenere una tensione continua priva di ondulazioni), va a modificare la polarizzazione dei varicap del VCO</li>
+  <li>I varicap correggono la frequenza del VCO → <strong>anello di retroazione chiuso</strong></li>
+</ol>
+
+<p><strong>Filtro passa-basso nel PLL</strong>: serve a ottenere una tensione continua perfettamente piatta. Se il segnale di errore avesse un’ondulazione residua, questa si trasformerebbe in <strong>modulazione di frequenza indesiderata</strong> del VCO.</p>
+
+<blockquote>
+  <p>Paolo usa l’espressione “botte piena e moglie ubriaca” per descrivere il PLL: si ottiene contemporaneamente la stabilità del quarzo e la variabilità in frequenza dell’oscillatore libero.</p>
+</blockquote>
+
+<h4 id="-confronto-tra-le-tipologie">🔹 Confronto tra le Tipologie</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Caratteristica</th>
+      <th>VFO (Libero)</th>
+      <th>Quarzo</th>
+      <th>PLL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Frequenza</strong></td>
+      <td>Variabile</td>
+      <td>Fissa</td>
+      <td>Variabile</td>
+    </tr>
+    <tr>
+      <td><strong>Stabilità</strong></td>
+      <td>Bassa</td>
+      <td>Altissima</td>
+      <td>Alta (agganciata al quarzo)</td>
+    </tr>
+    <tr>
+      <td><strong>Impiego</strong></td>
+      <td>Sintonia vecchi ricevitori</td>
+      <td>Riferimenti di frequenza</td>
+      <td>Ricetrasmettitori moderni</td>
+    </tr>
+    <tr>
+      <td><strong>Complessità</strong></td>
+      <td>Semplice</td>
+      <td>Semplice</td>
+      <td>Complesso</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="5--i-decibel-db--834811014">5. 📈 I Decibel (dB) (⏱ 83:48–110:14)</h3>
+
+<p>L’ultimo argomento della lezione è il <strong>decibel</strong>, un’unità di misura fondamentale nell’elettronica e nella radiotecnica. Paolo lo introduce come un concetto che “sembra complicato ma in pratica è di una banalità estrema”.</p>
+
+<h4 id="-cosè-il-decibel">🔹 Cos’è il Decibel</h4>
+
+<p><strong>Decibel (dB)</strong> — unità di misura logaritmica usata per esprimere rapporti tra grandezze (potenze, tensioni). Il simbolo è <strong>dB</strong> (d minuscola, B maiuscola). Il nome significa “un decimo di Bell”, dal cognome di Alexander Graham Bell.</p>
+
+<p>Il decibel è usato ovunque in radiotecnica:</p>
+
+<ul>
+  <li><strong>Guadagno delle antenne</strong>: es. “antenna direzionale da 5 dB di guadagno”</li>
+  <li><strong>Attenuazione dei cavi coassiali</strong>: es. “1,2 dB di attenuazione ogni 10 m”</li>
+  <li><strong>Guadagno degli amplificatori</strong>: es. “amplificatore da 13 dB”</li>
+  <li><strong>Scale S-meter dei ricevitori</strong>: S1, S2, … S9, S9+10 dB, S9+20 dB, S9+30 dB</li>
+</ul>
+
+<h4 id="-perché-i-logaritmi">🔹 Perché i Logaritmi</h4>
+
+<p>Paolo offre una parentesi storica: i <strong>logaritmi</strong> furono inventati nel 1600 per semplificare i calcoli. Prima delle calcolatrici, fare moltiplicazioni come 10.327 × 4.322 era un “bagno di sangue”. Il logaritmo ha la proprietà fondamentale di <strong>trasformare le moltiplicazioni in somme</strong> e le <strong>divisioni in sottrazioni</strong>, rendendo i calcoli enormemente più semplici.</p>
+
+<p><strong>Logaritmo in base 10</strong> — il logaritmo in base 10 di un numero è l’esponente a cui va elevato 10 per ottenere quel numero:</p>
+
+<ul>
+  <li>$\log_{10}(10) = 1$ perché $10^1 = 10$</li>
+  <li>$\log_{10}(100) = 2$ perché $10^2 = 100$</li>
+  <li>$\log_{10}(1000) = 3$ perché $10^3 = 1000$</li>
+</ul>
+
+<p>La formula completa del guadagno in decibel è:</p>
+
+\[G_{dB} = 10 \cdot \log_{10}\left(\frac{P_{out}}{P_{in}}\right)\]
+
+<p>⚠️ Ai fini dell’esame <strong>non è necessario</strong> conoscere la formula matematica né saper calcolare logaritmi. Basta padroneggiare i “mattoncini” fondamentali.</p>
+
+<h4 id="-i-due-mattoncini-fondamentali">🔹 I Due Mattoncini Fondamentali</h4>
+
+<p>Per risolvere <strong>tutti</strong> i problemi d’esame servono solo <strong>4 valori</strong> da memorizzare (2 coppie):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>dB</th>
+      <th>Rapporto in potenza</th>
+      <th>Significato</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>+3 dB</strong></td>
+      <td>×2</td>
+      <td>Raddoppio della potenza</td>
+    </tr>
+    <tr>
+      <td><strong>+10 dB</strong></td>
+      <td>×10</td>
+      <td>Potenza moltiplicata per 10</td>
+    </tr>
+    <tr>
+      <td><strong>−3 dB</strong></td>
+      <td>×0,5</td>
+      <td>Dimezzamento della potenza</td>
+    </tr>
+    <tr>
+      <td><strong>−10 dB</strong></td>
+      <td>×0,1</td>
+      <td>Potenza ridotta a un decimo</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Con questi mattoncini si costruiscono tutti gli altri valori:</p>
+
+<ul>
+  <li><strong>+6 dB</strong> = +3 +3 → ×2 × 2 = <strong>×4</strong></li>
+  <li><strong>+20 dB</strong> = +10 +10 → ×10 × 10 = <strong>×100</strong></li>
+  <li><strong>+30 dB</strong> = +10 +10 +10 → ×10 × 10 × 10 = <strong>×1.000</strong></li>
+  <li><strong>−6 dB</strong> = −3 −3 → ×0,5 × 0,5 = <strong>×0,25</strong></li>
+  <li><strong>−20 dB</strong> = −10 −10 → ×0,1 × 0,1 = <strong>×0,01 (un centesimo)</strong></li>
+  <li><strong>−30 dB</strong> = −10 −10 −10 → <strong>×0,001 (un millesimo)</strong></li>
+</ul>
+
+<blockquote>
+  <p><strong>Regola pratica</strong>: ogni +10 dB aggiunge uno zero (moltiplica per 10), ogni −10 dB toglie uno zero (divide per 10); +3 dB raddoppia, −3 dB dimezza.</p>
+</blockquote>
+
+<h4 id="-il-segno-del-decibel">🔹 Il Segno del Decibel</h4>
+
+<ul>
+  <li><strong>dB positivo</strong> (+dB) → si riferisce a un <strong>guadagno</strong> (amplificazione): il segnale in uscita è più forte di quello in ingresso</li>
+  <li><strong>dB negativo</strong> (−dB) → si riferisce a un’<strong>attenuazione</strong>: il segnale in uscita è più debole di quello in ingresso</li>
+</ul>
+
+<h4 id="-amplificatori-in-cascata-somma-dei-db">🔹 Amplificatori in Cascata: Somma dei dB</h4>
+
+<p>Quando più amplificatori (o attenuatori) sono collegati <strong>in cascata</strong> (in serie), il guadagno totale in dB è semplicemente la <strong>somma</strong> dei guadagni dei singoli stadi:</p>
+
+\[G_{totale} = G_1 + G_2 + G_3 + \ldots\]
+
+<blockquote>
+  <p><strong>Esempio 1</strong>: Amplificatore 1 guadagna +10 dB, Amplificatore 2 guadagna +20 dB. Guadagno totale = 10 + 20 = <strong>+30 dB</strong>. Se entrano 1 W: dopo il primo stadio → 10 W; dopo il secondo stadio → 10 × 10 × 10 = 1.000 W.</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Esempio 2</strong>: 7 W in ingresso a un amplificatore da +30 dB. Risultato: 7 → 70 → 700 → 7.000 W.</p>
+</blockquote>
+
+<h4 id="-esempio-pratico-desame-da-5-w-a-100-w">🔹 Esempio Pratico d’Esame: da 5 W a 100 W</h4>
+
+<p>Problema: un amplificatore di potenza deve fornire 100 W all’antenna a partire dai 5 W del trasmettitore. Quale guadagno in dB è necessario?</p>
+
+<p><strong>Soluzione</strong> usando i mattoncini:</p>
+
+<ol>
+  <li>5 W → <strong>+3 dB</strong> (raddoppio) → 10 W</li>
+  <li>10 W → <strong>+10 dB</strong> (×10) → 100 W</li>
+  <li>Guadagno totale: 3 + 10 = <strong>13 dB</strong></li>
+</ol>
+
+<p>Per raddoppiare ulteriormente a 200 W: basta aggiungere <strong>+3 dB</strong> → totale <strong>16 dB</strong>.</p>
+
+<h4 id="-esempio-con-catena-di-trasmissione">🔹 Esempio con Catena di Trasmissione</h4>
+
+<p>Problema tipico d’esame: trasmettitore da 100 W, cavo coassiale che attenua −6 dB, antenna con guadagno +9 dB. Quale potenza viene effettivamente irradiata?</p>
+
+<p><strong>Soluzione</strong>:</p>
+
+<ol>
+  <li>Guadagno totale della catena: +9 dB (antenna) − 6 dB (cavo) = <strong>+3 dB</strong></li>
+  <li>Potenza irradiata: 100 W × 2 = <strong>200 W</strong> effettivamente irradiati (ERP)</li>
+</ol>
+
+<h4 id="-decibel-come-misura-relativa-vs-assoluta">🔹 Decibel come Misura Relativa vs Assoluta</h4>
+
+<p>Il decibel è per natura una <strong>misura relativa</strong>: esprime un rapporto tra due grandezze, non un livello assoluto. Dire “3 dB” non indica una potenza specifica, ma che un segnale è il doppio di un altro.</p>
+
+<p>Per trasformare il dB in <strong>misura assoluta</strong> si usa un riferimento fisso.</p>
+
+<p><strong>dBm (decibel riferiti al milliwatt)</strong> — unità di misura assoluta in cui <strong>0 dBm = 1 mW</strong> per definizione.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>dBm</th>
+      <th>Potenza corrispondente</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>−10 dBm</td>
+      <td>0,1 mW</td>
+    </tr>
+    <tr>
+      <td>−3 dBm</td>
+      <td>0,5 mW</td>
+    </tr>
+    <tr>
+      <td>0 dBm</td>
+      <td>1 mW (definizione)</td>
+    </tr>
+    <tr>
+      <td>+3 dBm</td>
+      <td>2 mW</td>
+    </tr>
+    <tr>
+      <td>+10 dBm</td>
+      <td>10 mW</td>
+    </tr>
+    <tr>
+      <td>+13 dBm</td>
+      <td>20 mW</td>
+    </tr>
+    <tr>
+      <td>+20 dBm</td>
+      <td>100 mW</td>
+    </tr>
+    <tr>
+      <td>+30 dBm</td>
+      <td>1.000 mW = 1 W</td>
+    </tr>
+    <tr>
+      <td>+50 dBm</td>
+      <td>100 W</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>Esempio: +13 dBm = +10 +3 → 1 mW × 10 = 10 mW, poi × 2 = 20 mW. Oppure: +3 +10 → 1 mW × 2 = 2 mW, poi × 10 = 20 mW. Il risultato è identico.</p>
+</blockquote>
+
+<p>I dBm sono molto usati nella strumentazione radio, ad esempio nei <strong>VNA</strong> (Vector Network Analyzer) e nelle misure sulle antenne.</p>
+
+<hr />
+
+<h3 id="6--discussioni-e-aneddoti-pratici">6. 💬 Discussioni e Aneddoti Pratici</h3>
+
+<h4 id="-amplificatori-hi-fi-e-classi">🔹 Amplificatori Hi-Fi e Classi</h4>
+
+<p>Un partecipante chiede perché in alta fedeltà vengano spesso pubblicizzati amplificatori “classe AB” quando la classe A sarebbe superiore per fedeltà. Paolo conferma che per l’alta fedeltà la classe A è effettivamente migliore, ma il suo basso rendimento ne limita l’uso a potenze ridotte (es. amplificatori per cuffia da 2-3 W). Il marketing di amplificatori “classe AB” va preso con cautela.</p>
+
+<h4 id="-mosfet-in-classe-ab-e-corrente-di-bias">🔹 MOSFET in Classe AB e Corrente di Bias</h4>
+
+<p>Marco Morelli conferma di possedere un amplificatore a MOSFET che lavora in classe AB. Paolo spiega che la maggior parte degli amplificatori MOSFET e LDMOS lavorano effettivamente in AB con una corrente di riposo (bias) del 10-15% della corrente massima. Marco racconta un aneddoto: spolverando la radio ha accidentalmente aumentato il bias al 70-80%, rischiando di bruciare l’amplificatore.</p>
+
+<h4 id="-transistor-falsi-e-riparazione-amplificatori">🔹 Transistor Falsi e Riparazione Amplificatori</h4>
+
+<p>Un partecipante racconta la sua esperienza con transistor 2N3055 contraffatti acquistati online: misurati col tester risultavano buoni, ma una volta installati andavano in cortocircuito e prendevano fuoco. Aprendo i contenitori, si scopriva che all’interno c’era una microgiunzione da mezzo ampere invece del dispositivo originale. Dopo tre tentativi falliti, ha rinunciato alla riparazione dell’amplificatore NAD.</p>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li><strong>Amplificatore</strong> → si classifica in → <strong>BF</strong> (senza circuiti risonanti) o <strong>AF</strong> (con circuiti risonanti)</li>
+  <li><strong>Guadagno</strong> → è il rapporto → $P_{out}/P_{in}$</li>
+  <li><strong>Rendimento</strong> → è il rapporto → $P_{out}/P_{alimentazione}$ × 100%</li>
+  <li><strong>Potenza non convertita</strong> → si trasforma in → <strong>calore</strong></li>
+  <li><strong>Classe A</strong> → ha come caratteristica → <strong>massima linearità, minimo rendimento</strong></li>
+  <li><strong>Classe B</strong> → necessita di → <strong>push-pull</strong> per ricostruire il segnale completo</li>
+  <li><strong>Classe C</strong> → richiede → <strong>circuito risonante</strong> in uscita + solo per <strong>FM/CW</strong></li>
+  <li><strong>Classe AB</strong> → rappresenta un compromesso tra → <strong>Classe A</strong> e <strong>Classe B</strong></li>
+  <li><strong>Oscillatore</strong> → funziona tramite → <strong>retroazione positiva</strong></li>
+  <li><strong>Retroazione</strong> → utilizza → <strong>circuito LC</strong> o <strong>quarzo</strong> per determinare la frequenza</li>
+  <li><strong>VFO</strong> → è → variabile ma poco stabile</li>
+  <li><strong>Oscillatore a quarzo</strong> → è → stabile ma a frequenza fissa</li>
+  <li><strong>PLL</strong> → combina → variabilità del VFO + stabilità del quarzo</li>
+  <li><strong>PLL</strong> → contiene → <strong>VCO</strong> + <strong>oscillatore riferimento a quarzo</strong> + <strong>comparatore di fase</strong></li>
+  <li><strong>VCO</strong> → utilizza → <strong>diodi varicap</strong> per variare la frequenza</li>
+  <li><strong>Decibel</strong> → trasforma → moltiplicazioni in somme</li>
+  <li><strong>+3 dB</strong> → corrisponde a → raddoppio della potenza</li>
+  <li><strong>+10 dB</strong> → corrisponde a → potenza × 10</li>
+  <li><strong>dB</strong> → è misura → relativa</li>
+  <li><strong>dBm</strong> → è misura → assoluta (riferita a 1 mW)</li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>
+    <p>Gli amplificatori si dividono in <strong>BF</strong> (bassa frequenza, senza circuiti risonanti, banda larga) e <strong>AF</strong> (alta frequenza, con circuiti risonanti, selettivi su una frequenza specifica).</p>
+  </li>
+  <li>
+    <p>Il <strong>guadagno</strong> è il rapporto tra potenza di uscita e potenza di ingresso; il <strong>rendimento</strong> è il rapporto tra potenza di uscita e potenza totale assorbita dall’alimentatore — la differenza diventa calore.</p>
+  </li>
+  <li>
+    <p>Esistono quattro classi di amplificazione: <strong>A</strong> (360°, lineare, rendimento 5–20%), <strong>B</strong> (180°, push-pull necessario, rendimento ~60%), <strong>C</strong> (&lt; 180°, solo FM/CW con carico risonante, rendimento 70–75%), <strong>AB</strong> (220–240°, compromesso, rendimento 50–60%).</p>
+  </li>
+  <li>
+    <p>La classe C non può essere usata con modulazioni che richiedono linearità d’ampiezza (AM, SSB) perché distorce fortemente il segnale — va bene solo per FM e CW che non portano informazione nell’ampiezza.</p>
+  </li>
+  <li>
+    <p>Tutti gli oscillatori funzionano per <strong>retroazione positiva</strong>: parte del segnale d’uscita viene riportata all’ingresso e riamplificata fino a raggiungere un’oscillazione stabile.</p>
+  </li>
+  <li>
+    <p>Le tre tipologie di oscillatori sono: <strong>VFO</strong> (variabile, poco stabile), <strong>a quarzo</strong> (stabile, frequenza fissa, armoniche possibili), <strong>PLL</strong> (variabile e stabile grazie all’aggancio del VCO a un riferimento a quarzo).</p>
+  </li>
+  <li>
+    <p>Il <strong>PLL</strong> è usato nella quasi totalità dei ricetrasmettitori moderni e combina un VCO controllato da varicap con un oscillatore di riferimento a quarzo tramite un comparatore di fase.</p>
+  </li>
+  <li>
+    <p>Il <strong>decibel</strong> è un’unità logaritmica che trasforma le moltiplicazioni in somme: <strong>+3 dB = ×2</strong>, <strong>+10 dB = ×10</strong>, <strong>−3 dB = ×0,5</strong>, <strong>−10 dB = ×0,1</strong>. Con questi quattro valori si risolvono tutti i problemi d’esame.</p>
+  </li>
+  <li>
+    <p>Il guadagno totale di una catena (amplificatori, cavi, antenne) si calcola <strong>sommando i dB</strong> dei singoli stadi: se un trasmettitore eroga 100 W, il cavo attenua −6 dB e l’antenna guadagna +9 dB, il guadagno netto è +3 dB → 200 W irradiati.</p>
+  </li>
+  <li>
+    <p>Il <strong>dBm</strong> è la versione assoluta del decibel, riferita a 1 mW: <strong>0 dBm = 1 mW</strong>. Si usa nella strumentazione (es. VNA) e segue le stesse regole dei mattoncini +3/+10.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>
+    <p>Perché un amplificatore BF non utilizza circuiti risonanti, mentre un amplificatore AF sì? Quale implicazione ha questa differenza sulla curva di risposta in frequenza?</p>
+  </li>
+  <li>
+    <p>Un amplificatore assorbe 300 W dall’alimentatore ed eroga 120 W in uscita. Calcola il rendimento e spiega dove finisce l’energia rimanente.</p>
+  </li>
+  <li>
+    <p>Perché la classe C non può essere utilizzata per amplificare segnali SSB o AM? Quale tipo di modulazione è compatibile e perché?</p>
+  </li>
+  <li>
+    <p>Spiega il funzionamento del push-pull in classe B: perché sono necessari due dispositivi e qual è il principale difetto di questa configurazione?</p>
+  </li>
+  <li>
+    <p>Descrivi il meccanismo di retroazione positiva che sta alla base del funzionamento degli oscillatori. Cosa succederebbe se mancasse il circuito risonante?</p>
+  </li>
+  <li>
+    <p>Confronta i tre tipi di oscillatori (VFO, quarzo, PLL) in termini di stabilità e variabilità di frequenza. Perché il PLL ha quasi completamente sostituito gli altri nei ricetrasmettitori moderni?</p>
+  </li>
+  <li>
+    <p>Un trasmettitore eroga 10 W. Il segnale passa attraverso un amplificatore da +10 dB, poi un cavo che attenua −3 dB, e infine un’antenna con guadagno +6 dB. Qual è la potenza effettivamente irradiata?</p>
+  </li>
+  <li>
+    <p>Spiega la differenza concettuale tra dB (misura relativa) e dBm (misura assoluta). Perché 0 dBm corrisponde esattamente a 1 mW?</p>
+  </li>
+  <li>
+    <p>Nel PLL, qual è il ruolo del filtro passa-basso posto tra il comparatore di fase e il VCO? Cosa accadrebbe senza di esso?</p>
+  </li>
+  <li>
+    <p>Perché all’esame le domande sui decibel sono risolvibili con soli quattro valori (+3, +10, −3, −10 dB) senza bisogno di calcolatrice?</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>Amplificatore AF (Alta Frequenza)</strong> — amplificatore con circuiti risonanti per amplificare selettivamente una banda stretta di frequenze radio</li>
+  <li><strong>Amplificatore BF (Bassa Frequenza)</strong> — amplificatore senza circuiti risonanti per amplificare uniformemente la banda audio (20–18.000 Hz)</li>
+  <li><strong>Angolo di conduzione</strong> — porzione del ciclo del segnale durante la quale il dispositivo attivo conduce corrente, espressa in gradi</li>
+  <li><strong>Armoniche</strong> — frequenze multiple intere della frequenza fondamentale (2ª, 3ª, 5ª, 7ª…)</li>
+  <li><strong>Bias (corrente di)</strong> — corrente di polarizzazione a riposo del dispositivo attivo, tipicamente 10–15% della corrente massima in classe AB</li>
+  <li><strong>Carico risonante</strong> — circuito LC in uscita a un amplificatore in classe C che rigenera la sinusoide a partire da impulsi</li>
+  <li><strong>Classe A</strong> — classe di amplificazione con conduzione per l’intero ciclo (360°), massima linearità, rendimento 5–20%</li>
+  <li><strong>Classe AB</strong> — classe intermedia con conduzione per circa 220°–240°, buon compromesso linearità/rendimento (50–60%)</li>
+  <li><strong>Classe B</strong> — classe di amplificazione con conduzione per mezzo ciclo (180°), rendimento ~60%, richiede push-pull</li>
+  <li><strong>Classe C</strong> — classe di amplificazione con conduzione per meno di mezzo ciclo, rendimento 70–75%, solo FM/CW</li>
+  <li><strong>Comparatore di fase</strong> — circuito che confronta la fase di due segnali e produce una tensione di errore proporzionale alla differenza</li>
+  <li><strong>Controfase</strong> — termine italiano per push-pull, configurazione con due dispositivi che amplificano semionde alternate</li>
+  <li><strong>Corrente di riposo</strong> — corrente che scorre nel dispositivo in assenza di segnale; sinonimo di corrente di bias</li>
+  <li><strong>Curva di risposta</strong> — grafico che mostra il guadagno dell’amplificatore in funzione della frequenza</li>
+  <li><strong>dB (decibel)</strong> — unità di misura logaritmica relativa per rapporti di potenza; +3 dB = ×2, +10 dB = ×10</li>
+  <li><strong>dBm</strong> — unità di misura assoluta di potenza riferita a 1 milliwatt; 0 dBm = 1 mW</li>
+  <li><strong>Distorsione di crossover</strong> — distorsione nel punto di raccordo tra le due semionde in un amplificatore push-pull</li>
+  <li><strong>Fattore di amplificazione</strong> — sinonimo di guadagno; rapporto tra segnale in uscita e segnale in ingresso</li>
+  <li><strong>Guadagno</strong> — rapporto tra potenza (o tensione) in uscita e in ingresso di un amplificatore</li>
+  <li><strong>Logaritmo</strong> — operatore matematico che trasforma moltiplicazioni in somme; il logaritmo in base 10 di N è l’esponente a cui va elevato 10 per ottenere N</li>
+  <li><strong>Oscillatore</strong> — circuito che genera un segnale a frequenza determinata tramite retroazione positiva</li>
+  <li><strong>PLL (Phase Locked Loop)</strong> — oscillatore ad aggancio di fase che combina un VCO con un oscillatore di riferimento a quarzo tramite comparatore di fase</li>
+  <li><strong>Punto di lavoro</strong> — condizione operativa statica (in assenza di segnale) del dispositivo attivo sulla sua curva caratteristica</li>
+  <li><strong>Push-pull</strong> — configurazione con due dispositivi complementari che amplificano semionde alternate per ricostruire il segnale completo</li>
+  <li><strong>Rendimento (η)</strong> — rapporto percentuale tra potenza utile in uscita e potenza totale assorbita dall’alimentazione</li>
+  <li><strong>Retroazione (feedback)</strong> — meccanismo per cui parte del segnale di uscita viene riportata all’ingresso</li>
+  <li><strong>S-meter</strong> — strumento del ricevitore che indica l’intensità del segnale ricevuto, con scala in unità S e dB</li>
+  <li><strong>Varicap (diodo)</strong> — diodo a capacità variabile usato nei VCO per variare la frequenza tramite tensione di polarizzazione</li>
+  <li><strong>VCO (Voltage Controlled Oscillator)</strong> — oscillatore la cui frequenza è controllata da una tensione applicata ai diodi varicap</li>
+  <li><strong>VFO (Variable Frequency Oscillator)</strong> — oscillatore libero a frequenza variabile con circuito LC</li>
+  <li><strong>VNA (Vector Network Analyzer)</strong> — strumento di misura che analizza le reti elettriche misurando parametri in dBm</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatore</strong>: Paolo (radiotecnica — amplificatori, oscillatori, decibel)</li>
+  <li>👨‍🏫 <strong>Relatore</strong>: Silvio IZ5DIY (correzione quiz lezione 12)</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Campo</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Lezione</strong></td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td>04 giugno 2025</td>
+    </tr>
+    <tr>
+      <td><strong>Durata</strong></td>
+      <td>circa 2 ore</td>
+    </tr>
+    <tr>
+      <td><strong>Argomenti trattati</strong></td>
+      <td>4 (correzione quiz, amplificatori e classi, oscillatori, decibel)</td>
+    </tr>
+    <tr>
+      <td><strong>Parole chiave</strong></td>
+      <td>amplificatore, guadagno, rendimento, classe A, classe B, push-pull, classe C, classe AB, oscillatore, retroazione, VFO, quarzo, PLL, VCO, varicap, comparatore di fase, decibel, dB, dBm, logaritmo, mattoncini, attenuazione</td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+</body>
+</html>

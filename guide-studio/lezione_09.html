@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 09 - Modulazione - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/ari-crt-corso-2025/">🏠 Home</a>
+    <a href="/ari-crt-corso-2025/guide-studio/">📖 Guide di Studio</a>
+    <a href="/ari-crt-corso-2025/glossario.html">📚 Glossario</a>
+    <a href="/ari-crt-corso-2025/domande-esame.html">❓ Domande</a>
+    <a href="/ari-crt-corso-2025/risorse.html">🔗 Risorse</a>
+  </nav>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/ari-crt-corso-2025/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_08.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_10.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_09.html" selected>📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-09---modulazione">📘 Lezione 09 - Modulazione</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia</strong>: Normativa radioamatoriale — Alfabeto fonetico, indicativi di chiamata, abbreviazioni telegrafiche, codice Q, rapporto RST e locatore</li>
+  <li><strong>Tempo di studio stimato</strong>: 2 ore e 30 minuti</li>
+  <li><strong>Prerequisiti</strong>: Conoscenze base di matematica (lezione 08), nozioni generali sul radioamatore</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Correggere e consolidare gli esercizi di matematica della lezione precedente</li>
+      <li>Conoscere l’alfabeto fonetico NATO/ICAO/ITU e la sua importanza nelle comunicazioni radio</li>
+      <li>Comprendere la struttura degli indicativi di chiamata italiani e internazionali</li>
+      <li>Memorizzare le abbreviazioni telegrafiche previste dal tema d’esame</li>
+      <li>Padroneggiare il codice Q nelle sue forme di domanda e risposta</li>
+      <li>Comprendere il sistema RST (Readability, Strength, Tone)</li>
+      <li>Conoscere il Maidenhead Locator System per l’identificazione geografica</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h3 id="1--correzione-quiz-lezione-08--ripasso-matematica">1. 📝 Correzione quiz Lezione 08 — Ripasso matematica</h3>
+
+<p>La prima parte della lezione è dedicata alla correzione degli esercizi assegnati da Lucia nella lezione 08. Questa sessione di verifica serve a consolidare le competenze matematiche necessarie per il resto del corso e per l’esame.</p>
+
+<h4 id="-esercizi-di-notazione-scientifica-e-conversione-di-unità">🔹 Esercizi di notazione scientifica e conversione di unità</h4>
+
+<p>Gli esercizi corretti includono diverse tipologie:</p>
+
+<ul>
+  <li><strong>Conversione in notazione scientifica</strong>: ad esempio $160 \times 10^9$ deve essere scritto come $1{,}6 \times 10^{11}$.</li>
+  <li><strong>Esponenti negativi</strong>: $14 \times 10^{-3} = 0{,}014$.</li>
+  <li><strong>Resistenze in parallelo</strong>: usando la formula $R = \frac{R_1 \times R_2}{R_1 + R_2}$ con attenzione alla conversione delle unità (es. $k\Omega$ e $\Omega$).</li>
+  <li><strong>Resistenze in serie</strong> con unità miste: somma di valori espressi in $\Omega$ e $k\Omega$.</li>
+  <li><strong>Conversioni tra multipli e sottomultipli</strong>: picofarad in nanofarad, MHz in Hz ($100 \text{ MHz} = 10^8 \text{ Hz}$), GHz in THz ($1 \text{ GHz} = 10^{-3} \text{ THz}$).</li>
+  <li><strong>Regole degli esponenti</strong>: moltiplicazione di potenze con la stessa base.</li>
+  <li><strong>Logaritmi</strong>: $\log 2 \approx 0{,}3$, calcolo di $20 \times \log 3 \approx 9{,}54$.</li>
+</ul>
+
+<p>I risultati dei corsisti sono stati nel complesso positivi.</p>
+
+<h4 id="-discussione-sulluso-della-calcolatrice-allesame">🔹 Discussione sull’uso della calcolatrice all’esame</h4>
+
+<p>Un punto importante emerso dalla discussione riguarda l’uso della <strong>calcolatrice durante l’esame</strong>. Non è certo se sarà consentita, poiché dipende dal decreto ministeriale vigente al momento dell’esame. In ogni caso, se la calcolatrice non fosse ammessa, i calcoli richiesti saranno sufficientemente semplici da poter essere eseguiti a mente. Gli esercizi proposti da Lucia sono stati volutamente più difficili rispetto a quelli d’esame, come una sorta di “palestra” per allenare le competenze matematiche.</p>
+
+<blockquote>
+  <p>“Se non fosse consentita la calcolatrice, i calcoli saranno sufficientemente semplici da poter essere eseguiti a mente.”</p>
+</blockquote>
+
+<p>I logaritmi verranno utilizzati nel prosieguo del corso per il calcolo dei <strong>decibel</strong>.</p>
+
+<hr />
+
+<h3 id="2--alfabeto-fonetico-natoicaoitu">2. 📡 Alfabeto fonetico NATO/ICAO/ITU</h3>
+
+<p>Con l’inizio della parte di <strong>normativa</strong>, il docente Silvio (IZ5DIY) introduce il primo dei quattro argomenti fondamentali della serata. L’alfabeto fonetico è uno standard internazionale sviluppato dall’<strong>ICAO</strong> (International Civil Aviation Organization) e adottato dall’<strong>ITU</strong> (International Telecommunication Union).</p>
+
+<h4 id="-scopo-e-caratteristiche">🔹 Scopo e caratteristiche</h4>
+
+<p>L’<strong>alfabeto fonetico</strong> — detto anche NATO phonetic alphabet — nasce per eliminare le ambiguità nello spelling delle lettere durante le comunicazioni radio. In condizioni di segnale debole o disturbato, lettere come P, B e T possono essere facilmente confuse. Usando le parole convenzionali (Papa, Bravo, Tango), l’ambiguità viene eliminata.</p>
+
+<p><strong>Caratteristiche delle parole scelte</strong>:</p>
+
+<ul>
+  <li>Non confondibili tra loro, anche in condizioni di ascolto difficili</li>
+  <li>Riconoscibili a livello internazionale</li>
+  <li>Provenienti da culture diverse per favorire la comprensione universale</li>
+</ul>
+
+<p><strong>Esempio pratico</strong>: la lettera “P” può essere confusa con “B” o “T” nel parlato normale. Usando “Papa”, “Bravo” e “Tango” non vi è possibilità di confusione.</p>
+
+<p><strong>Nota sul numero 9</strong>: si pronuncia “<strong>Niner</strong>” (e non semplicemente “Nine”) per evitare confusione con “Five”.</p>
+
+<blockquote>
+  <p><strong>Consiglio pratico</strong>: esercitarsi leggendo le targhe delle automobili usando l’alfabeto fonetico.</p>
+</blockquote>
+
+<h4 id="-uso-corretto-vs-uso-gergale">🔹 Uso corretto vs. uso gergale</h4>
+
+<p>Silvio sottolinea con forza l’importanza di usare le parole <strong>corrette</strong> dell’alfabeto fonetico, non varianti gergali. Ad esempio:</p>
+
+<ul>
+  <li><strong>R</strong> = <strong>Romeo</strong> (NON “Radio”)</li>
+  <li><strong>S</strong> = <strong>Sierra</strong> (NON “Santiago”)</li>
+</ul>
+
+<p>L’uso di “Radio” per R e “Santiago” per S è tipico della <strong>CB (Citizen Band)</strong> e non è corretto nelle comunicazioni radioamatoriali. In condizioni di segnale debole, la controparte si aspetta di sentire le parole standard; usare varianti non standard crea confusione e può impedire la comprensione, specialmente con interlocutori stranieri.</p>
+
+<p>⚠️ <em>Tema d’esame: l’alfabeto fonetico ICAO/ITU è materia d’esame.</em></p>
+
+<hr />
+
+<h3 id="3--indicativi-di-chiamata-nominativi">3. 📋 Indicativi di chiamata (Nominativi)</h3>
+
+<p>L’<strong>indicativo di chiamata</strong> (call sign) è il “nome” unico di ogni radioamatore, paragonabile a una targa automobilistica. È composto da tre elementi fondamentali.</p>
+
+<h4 id="-struttura-dellindicativo">🔹 Struttura dell’indicativo</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Elemento</th>
+      <th>Descrizione</th>
+      <th>Esempio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Prefisso</strong></td>
+      <td>Identifica il Paese</td>
+      <td>I, IK, IZ, IU, IW</td>
+    </tr>
+    <tr>
+      <td><strong>Numero</strong></td>
+      <td>Identifica l’area geografica</td>
+      <td>5 = Toscana</td>
+    </tr>
+    <tr>
+      <td><strong>Suffisso</strong></td>
+      <td>Assegnato in sequenza</td>
+      <td>AA, AB, AC…</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Prefisso</strong> — Il prefisso italiano è <strong>I</strong>. Nel tempo, con l’esaurimento dei suffissi disponibili, sono stati introdotti prefissi aggiuntivi: <strong>IK</strong>, <strong>IZ</strong>, <strong>IU</strong>, <strong>IW</strong>, corrispondenti a diverse epoche o classi di patente. L’allocazione dei prefissi a livello mondiale è gestita dall’<strong>ITU</strong>.</p>
+
+<p><strong>Numero d’area</strong> — In Italia il numero indica l’area geografica, basata sulla suddivisione dei codici postali:</p>
+
+<ul>
+  <li><strong>5</strong> = Toscana</li>
+  <li>Ogni regione/area ha il proprio numero identificativo</li>
+</ul>
+
+<p><strong>Suffisso</strong> — Viene assegnato sequenzialmente (AA, AB, AC, …) ed è unico per ciascun radioamatore.</p>
+
+<h4 id="-regole-duso-dellindicativo">🔹 Regole d’uso dell’indicativo</h4>
+
+<p>L’indicativo di chiamata deve essere pronunciato:</p>
+
+<ul>
+  <li>All’<strong>inizio</strong> di ogni trasmissione</li>
+  <li>Alla <strong>fine</strong> di ogni trasmissione</li>
+  <li>Ogni <strong>10 minuti</strong> durante la trasmissione</li>
+</ul>
+
+<h4 id="-prefissi-internazionali">🔹 Prefissi internazionali</h4>
+
+<p>Ogni nazione ha uno o più prefissi assegnati dall’ITU. Esempi:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Prefisso</th>
+      <th>Paese</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>F</strong></td>
+      <td>Francia</td>
+    </tr>
+    <tr>
+      <td><strong>DL</strong></td>
+      <td>Germania</td>
+    </tr>
+    <tr>
+      <td><strong>EA</strong></td>
+      <td>Spagna</td>
+    </tr>
+    <tr>
+      <td><strong>K</strong>, <strong>W</strong></td>
+      <td>Stati Uniti</td>
+    </tr>
+    <tr>
+      <td><strong>JA</strong></td>
+      <td>Giappone</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Esistono anche prefissi speciali per:</p>
+
+<ul>
+  <li><strong>Isole italiane</strong> e regioni autonome</li>
+  <li><strong>Stazioni di club</strong> (prefisso <strong>IQ</strong>)</li>
+  <li><strong>Stazioni da contest</strong> con prefissi temporanei</li>
+</ul>
+
+<p>⚠️ <em>Tema d’esame: la struttura degli indicativi e i prefissi italiani sono materia d’esame.</em></p>
+
+<hr />
+
+<h3 id="4--abbreviazioni-telegrafiche">4. 📨 Abbreviazioni telegrafiche</h3>
+
+<p>Le <strong>abbreviazioni telegrafiche</strong> nascono nell’epoca della telegrafia, quando la velocità di trasmissione era limitata e ogni carattere richiedeva tempo. Queste sigle, pur essendo nate per il CW (Continuous Wave / telegrafia), sono entrate nell’uso comune anche in <strong>fonia</strong> e nelle <strong>comunicazioni digitali</strong> moderne.</p>
+
+<h4 id="-abbreviazioni-fondamentali-da-esame">🔹 Abbreviazioni fondamentali da esame</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sigla</th>
+      <th>Significato</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>TX</strong></td>
+      <td>Trasmettitore</td>
+    </tr>
+    <tr>
+      <td><strong>RX</strong></td>
+      <td>Ricevitore</td>
+    </tr>
+    <tr>
+      <td><strong>RTX</strong></td>
+      <td>Ricetrasmettitore</td>
+    </tr>
+    <tr>
+      <td><strong>CQ</strong></td>
+      <td>Chiamata generale (“I seek you” — cerco qualcuno)</td>
+    </tr>
+    <tr>
+      <td><strong>AR</strong></td>
+      <td>Fine del messaggio (in CW si trasmette come un unico carattere: $\overline{AR}$)</td>
+    </tr>
+    <tr>
+      <td><strong>R</strong></td>
+      <td>Ricevuto (Roger)</td>
+    </tr>
+    <tr>
+      <td><strong>K</strong></td>
+      <td>Invito a trasmettere</td>
+    </tr>
+    <tr>
+      <td><strong>SK</strong></td>
+      <td>Fine delle trasmissioni (Silent Key)</td>
+    </tr>
+    <tr>
+      <td><strong>RST</strong></td>
+      <td>Rapporto di ricezione (Readability, Strength, Tone)</td>
+    </tr>
+    <tr>
+      <td><strong>73</strong></td>
+      <td>Saluti cordiali</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="-cq--la-chiamata-generale">🔹 CQ — La chiamata generale</h4>
+
+<p><strong>CQ</strong> è l’abbreviazione più iconica del mondo radioamatoriale. Deriva foneticamente dall’inglese “<strong>I seek you</strong>” (ti cerco). Quando un radioamatore si sintonizza su una frequenza e vuole stabilire un contatto, trasmette:</p>
+
+<blockquote>
+  <p>“CQ CQ CQ chiama India Zulu 5 Delta India Yankee…”</p>
+</blockquote>
+
+<h4 id="-sk--silent-key">🔹 SK — Silent Key</h4>
+
+<p><strong>SK</strong> significa letteralmente “tasto silente” (Silent Key). Oltre al significato tecnico di “fine delle trasmissioni”, nel gergo radioamatoriale ha assunto anche il significato di <strong>radioamatore deceduto</strong>: un “OM morto” viene chiamato un “SK”. Questo è un esempio di come le abbreviazioni telegrafiche si carichino di significati aggiuntivi nel tempo.</p>
+
+<h4 id="-evoluzione-dalluso-telegrafico-alluso-moderno">🔹 Evoluzione dall’uso telegrafico all’uso moderno</h4>
+
+<p>Queste abbreviazioni, nate per la telegrafia, si ritrovano oggi:</p>
+
+<ul>
+  <li>In <strong>fonia</strong> (es. “il mio RX”, “il mio QTH”)</li>
+  <li>Nelle <strong>comunicazioni digitali</strong> (PSK31, FT8, ecc.)</li>
+  <li>Sulle <strong>cartoline QSL</strong> (es. “CFM our QSO”)</li>
+</ul>
+
+<p>Il linguaggio abbreviato costituisce un vero e proprio <strong>metalinguaggio</strong> comprensibile da tutti i radioamatori del mondo, indipendentemente dalla lingua madre.</p>
+
+<h4 id="-formato-delle-domande-desame">🔹 Formato delle domande d’esame</h4>
+
+<p>Le domande d’esame sulle abbreviazioni telegrafiche hanno tipicamente due forme:</p>
+
+<ol>
+  <li>“Qual è la sigla per [significato]?” → scegliere la sigla corretta</li>
+  <li>“[Sigla] che cosa significa?” → scegliere il significato corretto</li>
+</ol>
+
+<p>Le abbreviazioni da sapere per l’esame sono circa <strong>12</strong>, un numero gestibile con qualche esercizio ripetuto.</p>
+
+<p>⚠️ <em>Tema d’esame: le abbreviazioni telegrafiche indicate dal ministero sono materia d’esame obbligatoria.</em></p>
+
+<hr />
+
+<h3 id="5--codice-q">5. 🔤 Codice Q</h3>
+
+<p>Il <strong>codice Q</strong> è una raccolta standardizzata di <strong>messaggi codificati di tre lettere</strong>, tutte inizianti con la lettera <strong>Q</strong>. Sviluppato inizialmente per le comunicazioni commerciali via telegrafo, è stato successivamente adottato dalla Marina, dall’Aeronautica e dai radioamatori.</p>
+
+<h4 id="-funzionamento-del-codice-q">🔹 Funzionamento del codice Q</h4>
+
+<p>Ogni codice Q può essere usato in due modi:</p>
+
+<ol>
+  <li><strong>Come domanda</strong>: seguito da un <strong>punto interrogativo</strong> (?)
+    <ul>
+      <li>Es. QRA? = “Come ti chiami?” / “Qual è il nome della tua stazione?”</li>
+    </ul>
+  </li>
+  <li><strong>Come risposta/affermazione</strong>: seguito dall’informazione richiesta
+    <ul>
+      <li>Es. QRA è IZ5DIY = “Il nome della mia stazione è IZ5DIY”</li>
+    </ul>
+  </li>
+  <li><strong>Come comando</strong>: alcuni codici hanno senso da soli, senza necessità di ulteriori dettagli
+    <ul>
+      <li>Es. QRS = “Trasmetti più lentamente” (è un’istruzione diretta)</li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="-codici-q-da-esame">🔹 Codici Q da esame</h4>
+
+<p>I codici Q richiesti per l’esame sono in numero limitato. Silvio sottolinea che sono quelli evidenziati nelle slide ministeriali. Alcuni codici Q importanti:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Codice</th>
+      <th>Significato (domanda)</th>
+      <th>Significato (risposta/comando)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>QRA</strong></td>
+      <td>Qual è il nome della tua stazione?</td>
+      <td>Il nome della mia stazione è…</td>
+    </tr>
+    <tr>
+      <td><strong>QRG</strong></td>
+      <td>Qual è la mia frequenza esatta?</td>
+      <td>La tua frequenza esatta è…</td>
+    </tr>
+    <tr>
+      <td><strong>QRK</strong></td>
+      <td>Qual è l’intelligibilità dei miei segnali?</td>
+      <td>L’intelligibilità dei tuoi segnali è…</td>
+    </tr>
+    <tr>
+      <td><strong>QRL</strong></td>
+      <td>Sei occupato?</td>
+      <td>Sono occupato</td>
+    </tr>
+    <tr>
+      <td><strong>QRM</strong></td>
+      <td>Sei disturbato?</td>
+      <td>Sono disturbato</td>
+    </tr>
+    <tr>
+      <td><strong>QRN</strong></td>
+      <td>Sei disturbato da scariche atmosferiche?</td>
+      <td>Sono disturbato da scariche atmosferiche</td>
+    </tr>
+    <tr>
+      <td><strong>QRO</strong></td>
+      <td>Devo aumentare la potenza?</td>
+      <td>Aumenta la potenza</td>
+    </tr>
+    <tr>
+      <td><strong>QRP</strong></td>
+      <td>Devo diminuire la potenza?</td>
+      <td>Diminuisci la potenza</td>
+    </tr>
+    <tr>
+      <td><strong>QRS</strong></td>
+      <td>Devo trasmettere più lentamente?</td>
+      <td>Trasmetti più lentamente</td>
+    </tr>
+    <tr>
+      <td><strong>QRT</strong></td>
+      <td>Devo cessare la trasmissione?</td>
+      <td>Cessa la trasmissione</td>
+    </tr>
+    <tr>
+      <td><strong>QRZ</strong></td>
+      <td>Da chi sono chiamato?</td>
+      <td>Sei chiamato da…</td>
+    </tr>
+    <tr>
+      <td><strong>QSL</strong></td>
+      <td>Puoi dare ricevuta?</td>
+      <td>Do ricevuta</td>
+    </tr>
+    <tr>
+      <td><strong>QSO</strong></td>
+      <td>Puoi comunicare con…?</td>
+      <td>Posso comunicare con…</td>
+    </tr>
+    <tr>
+      <td><strong>QSY</strong></td>
+      <td>Devo passare a trasmettere su altra frequenza?</td>
+      <td>Passa a trasmettere su…</td>
+    </tr>
+    <tr>
+      <td><strong>QTH</strong></td>
+      <td>Qual è la tua posizione?</td>
+      <td>La mia posizione è…</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="-uso-pratico-e-metalinguaggio">🔹 Uso pratico e metalinguaggio</h4>
+
+<p>Il codice Q rappresenta un <strong>metalinguaggio universale</strong>: indipendentemente dalla lingua madre, tutti i radioamatori comprendono lo stesso significato. Se un operatore dice “QTH?” a un radioamatore russo, giapponese o brasiliano, tutti capiscono che sta chiedendo la posizione. Questo supera la barriera linguistica.</p>
+
+<p><strong>Esempio pratico</strong>: “QTH è San Marcello Pistoiese” — in un’unica sigla di tre lettere si esprime “il mio posto è”, evitando lunghe frasi in qualsiasi lingua.</p>
+
+<h4 id="-differenza-tra-uso-ministeriale-e-uso-reale">🔹 Differenza tra uso ministeriale e uso reale</h4>
+
+<p>Silvio segnala una discrepanza tra le definizioni ministeriali dei codici Q e il loro uso effettivo nella pratica radioamatoriale. I testi ministeriali possono contenere definizioni “arcaiche” che non vengono aggiornate da decenni, mentre l’uso pratico si è evoluto. Tuttavia, per l’esame è necessario conoscere i codici <strong>come definiti dal ministero</strong>, anche se nella pratica l’uso è leggermente diverso.</p>
+
+<blockquote>
+  <p>“Ingoliamo la pasticca piccolina invece di prendere il suostone” — ovvero meglio imparare poche definizioni ministeriali che dover conoscere l’intero formulario Q.</p>
+</blockquote>
+
+<h4 id="-nota-sulla-revisione-dei-temi-desame">🔹 Nota sulla revisione dei temi d’esame</h4>
+
+<p>Viene evidenziato come in altri Paesi (es. Stati Uniti) i temi d’esame vengano rivisti ogni 5 anni per mantenerli attuali (eliminando argomenti obsoleti e aggiungendone di nuovi). In Italia, il processo di revisione è molto più lento, per cui alcune domande d’esame riguardano argomenti ormai poco usati nella pratica.</p>
+
+<p>⚠️ <em>Tema d’esame: i codici Q evidenziati dal ministero sono materia d’esame. È molto probabile che almeno 2-3 domande riguardino il codice Q.</em></p>
+
+<hr />
+
+<h3 id="6--rapporto-rst-readability-strength-tone">6. 📊 Rapporto RST (Readability, Strength, Tone)</h3>
+
+<p>Il <strong>rapporto RST</strong> è il sistema standardizzato per comunicare la qualità del segnale ricevuto. Si compone di tre parametri, ciascuno espresso con un numero.</p>
+
+<h4 id="-r--readability-leggibilità">🔹 R — Readability (Leggibilità)</h4>
+
+<p>La <strong>R</strong> indica quanto il messaggio è <strong>comprensibile</strong>, indipendentemente dalla potenza del segnale. Scala da 1 a 5:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Valore</th>
+      <th>Significato</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>R1</strong></td>
+      <td>Illeggibile — si percepisce la presenza di un segnale ma non si comprende nulla</td>
+    </tr>
+    <tr>
+      <td><strong>R2</strong></td>
+      <td>Appena leggibile — si capisce qualche parola a tratti</td>
+    </tr>
+    <tr>
+      <td><strong>R3</strong></td>
+      <td>Leggibile con notevole difficoltà</td>
+    </tr>
+    <tr>
+      <td><strong>R4</strong></td>
+      <td>Leggibile con qualche difficoltà — si perde qualche parola ma il senso è chiaro</td>
+    </tr>
+    <tr>
+      <td><strong>R5</strong></td>
+      <td>Perfettamente leggibile — comprensione totale</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Distinzione fondamentale</strong>: un segnale può arrivare <strong>forte</strong> ma essere <strong>incomprensibile</strong> (es. modulazione distorta, microfono difettoso). Readability e Strength sono parametri indipendenti.</p>
+
+<blockquote>
+  <p>“Se io parlo col microfono infilato dentro una lattina di Coca-Cola mentre fa le bollicine, non mi capisce nessuno, anche se il segnale è molto forte.”</p>
+</blockquote>
+
+<h4 id="-s--strength-intensità-del-segnale">🔹 S — Strength (Intensità del segnale)</h4>
+
+<p>La <strong>S</strong> indica con quanta <strong>intensità</strong> il segnale arriva al ricevitore. È una misura prevalentemente <strong>strumentale</strong>, letta sullo <strong>S-meter</strong> del ricevitore. Scala da S1 a S9, dove:</p>
+
+<ul>
+  <li><strong>S1</strong> = segnale appena percepibile</li>
+  <li><strong>S9</strong> = segnale molto forte (corrisponde a un livello di tensione standardizzato in $\mu V$)</li>
+  <li>Oltre S9 si parla di <strong>dB oltre S9</strong> (es. “S9 +20 dB”), indicando segnali estremamente forti</li>
+</ul>
+
+<p>Lo S-meter è un indicatore presente sulla maggior parte dei ricevitori, con un ago che si posiziona sulla scala da S1 a S9 e oltre.</p>
+
+<h4 id="-t--tone-tono-della-nota-telegrafica">🔹 T — Tone (Tono della nota telegrafica)</h4>
+
+<p>La <strong>T</strong> riguarda specificamente la <strong>qualità della nota in telegrafia</strong>. Scala da 1 a 9:</p>
+
+<ul>
+  <li><strong>T9</strong> = nota perfettamente pura e cristallina (standard attuale)</li>
+  <li><strong>T1</strong> = nota estremamente ronzante, con gravi difetti</li>
+</ul>
+
+<p>I difetti nella nota telegrafica erano storicamente <strong>indicatori di problemi circuitali</strong>: un ronzio poteva indicare un problema di rettificazione della corrente alternata, un rientro di radiofrequenza o altri malfunzionamenti del trasmettitore.</p>
+
+<p><strong>Nota</strong>: nelle apparecchiature moderne, quasi tutte le note telegrafiche sono di qualità T9. Questa scala mantiene rilevanza come retaggio storico e per casi eccezionali con apparecchiature vecchie.</p>
+
+<p><strong>In fonia</strong>: il parametro T non viene utilizzato. Il rapporto diventa semplicemente <strong>RS</strong> (es. “59” = R5 S9, ovvero perfettamente comprensibile e molto forte).</p>
+
+<p>⚠️ <em>Tema d’esame: il sistema RST e la sua interpretazione sono materia d’esame.</em></p>
+
+<hr />
+
+<h3 id="7-️-maidenhead-locator-system-locatore">7. 🗺️ Maidenhead Locator System (Locatore)</h3>
+
+<p>Il <strong>locatore</strong> (Maidenhead Locator System) è un sistema per identificare la posizione geografica mediante una sigla alfanumerica compatta, alternativa alle coordinate di latitudine e longitudine.</p>
+
+<h4 id="-come-funziona">🔹 Come funziona</h4>
+
+<p>Il sistema funziona per <strong>suddivisioni successive</strong> (come una matriosca):</p>
+
+<ol>
+  <li>
+    <p><strong>Primo livello</strong> (2 lettere): il mondo viene diviso in grandi quadrati, identificati da due lettere (es. <strong>JN</strong>). Questa è una macroarea molto ampia.</p>
+  </li>
+  <li>
+    <p><strong>Secondo livello</strong> (2 numeri): ogni quadrato del primo livello viene suddiviso in sotto-quadrati identificati da due numeri (es. JN<strong>54</strong>). Si ottiene un’area più ristretta.</p>
+  </li>
+  <li>
+    <p><strong>Terzo livello</strong> (2 lettere): ogni sotto-quadrato viene ulteriormente diviso, identificato da due lettere minuscole (es. JN54<strong>ja</strong>). Si arriva a un’area di pochi chilometri quadrati.</p>
+  </li>
+</ol>
+
+<p>Il locatore completo a 6 caratteri (es. <strong>JN54ja</strong>) identifica un’area di alcuni chilometri quadrati, sufficiente per distinguere paesi vicini.</p>
+
+<h4 id="-utilità-pratica">🔹 Utilità pratica</h4>
+
+<ul>
+  <li>Permette di comunicare la propria posizione in modo <strong>compatto</strong> (6 caratteri invece di coordinate lunghe)</li>
+  <li>Consente il <strong>calcolo della distanza</strong> tra due stazioni tramite software</li>
+  <li>Viene utilizzato nei <strong>log</strong> di stazione e nei <strong>contest</strong></li>
+  <li>È calcolato automaticamente dai programmi, dal GPS e da servizi come Google Maps</li>
+</ul>
+
+<p><strong>Esempio</strong>: JN54ja identifica un’area nella montagna pistoiese. Ogni diversa posizione nel mondo avrà un locatore diverso.</p>
+
+<blockquote>
+  <p>“Con questi tre passaggi arrivo a definire un quadratotto di qualche chilometro quadrato […] già sufficiente per dire e differenziare un quartiere di Firenze piuttosto che l’altro.”</p>
+</blockquote>
+
+<p>⚠️ <em>Il locatore NON è materia d’esame, ma è una conoscenza essenziale per l’attività pratica del radioamatore.</em></p>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li><strong>Alfabeto fonetico ICAO/ITU</strong> → elimina ambiguità → <strong>comunicazioni radio</strong></li>
+  <li><strong>Indicativo di chiamata</strong> → è composto da → <strong>Prefisso + Numero + Suffisso</strong></li>
+  <li><strong>Prefisso</strong> → identifica → <strong>Nazione</strong> (assegnato dall’ITU)</li>
+  <li><strong>Numero d’area</strong> → identifica → <strong>Regione geografica</strong> (5 = Toscana)</li>
+  <li><strong>Abbreviazioni telegrafiche</strong> → sono il DNA del → <strong>linguaggio radioamatoriale</strong></li>
+  <li><strong>CQ</strong> → è la chiamata generale → deriva da “I seek you”</li>
+  <li><strong>Codice Q</strong> → è un metalinguaggio → universale indipendente dalla lingua</li>
+  <li><strong>Codice Q + ?</strong> → assume forma di → <strong>domanda</strong></li>
+  <li><strong>Codice Q senza ?</strong> → assume forma di → <strong>risposta o comando</strong></li>
+  <li><strong>Rapporto RST</strong> → misura la qualità del → <strong>collegamento radio</strong></li>
+  <li><strong>R (Readability)</strong> → misura la → <strong>comprensibilità</strong> (scala 1-5)</li>
+  <li><strong>S (Strength)</strong> → misura l’→ <strong>intensità del segnale</strong> (scala S1-S9+)</li>
+  <li><strong>T (Tone)</strong> → misura la qualità della → <strong>nota telegrafica</strong> (scala 1-9)</li>
+  <li><strong>Readability</strong> → è indipendente da → <strong>Strength</strong> (segnale forte ≠ comprensibile)</li>
+  <li><strong>Locatore Maidenhead</strong> → codifica → <strong>posizione geografica</strong> in 6 caratteri</li>
+  <li><strong>Abbreviazioni telegrafiche</strong> → sono nate per → <strong>CW/telegrafia</strong></li>
+  <li><strong>Abbreviazioni telegrafiche</strong> → sono migrate in → <strong>fonia e digitale</strong></li>
+  <li><strong>Tutte le sigle e codici</strong> → formano un → <strong>metalinguaggio universale</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>
+    <p><strong>L’alfabeto fonetico NATO/ICAO/ITU</strong> è uno standard internazionale che elimina l’ambiguità nello spelling durante le comunicazioni radio. Le parole scelte sono studiate per essere non confondibili tra loro, anche in condizioni di ascolto difficili.</p>
+  </li>
+  <li>
+    <p><strong>L’indicativo di chiamata</strong> è unico e personale, strutturato come Prefisso (nazione) + Numero (area) + Suffisso (sequenziale). In Italia il prefisso è I (e varianti IK, IZ, IU, IW) e il numero 5 indica la Toscana.</p>
+  </li>
+  <li>
+    <p><strong>L’indicativo deve essere pronunciato</strong> all’inizio e alla fine di ogni trasmissione e ogni 10 minuti durante la trasmissione stessa.</p>
+  </li>
+  <li>
+    <p><strong>Le abbreviazioni telegrafiche</strong> (circa 12 per l’esame) costituiscono un metalinguaggio universale nato dalla telegrafia e ancora in uso in fonia e comunicazioni digitali. Le più importanti sono CQ, TX, RX, RST, SK, AR, R, K, 73.</p>
+  </li>
+  <li>
+    <p><strong>Il codice Q</strong> è un sistema di messaggi codificati di tre lettere che iniziano con Q. Seguito da punto interrogativo è una domanda, altrimenti è una risposta o un comando. I codici Q ministeriali sono circa 15 e vanno saputi a memoria per l’esame.</p>
+  </li>
+  <li>
+    <p><strong>Il rapporto RST</strong> esprime la qualità del segnale ricevuto: R (comprensibilità, 1-5), S (intensità, S1-S9+), T (qualità della nota telegrafica, 1-9). In fonia si usa solo RS, senza il parametro T.</p>
+  </li>
+  <li>
+    <p><strong>Readability e Strength sono indipendenti</strong>: un segnale può arrivare forte ma essere incomprensibile, o debole ma perfettamente leggibile.</p>
+  </li>
+  <li>
+    <p><strong>Il locatore Maidenhead</strong> codifica la posizione geografica in una sigla di 6 caratteri (lettere-numeri-lettere) con precisione di alcuni chilometri quadrati. Non è materia d’esame ma è indispensabile nella pratica.</p>
+  </li>
+  <li>
+    <p><strong>Usare sempre le parole corrette dell’alfabeto fonetico</strong> (Romeo, Sierra) e non varianti gergali da CB (Radio, Santiago), per garantire la comprensione internazionale.</p>
+  </li>
+  <li>
+    <p><strong>Per l’esame</strong>, le domande su abbreviazioni telegrafiche e codice Q hanno una struttura a risposta chiusa (3 opzioni): conoscere bene le sigle ministeriali permette spesso di escludere le risposte errate per deduzione.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>
+    <p>Perché l’alfabeto fonetico ICAO/ITU prevede parole specifiche come “Papa”, “Bravo” e “Tango” invece di lasciare libertà di scelta al radioamatore? Quali problemi potrebbe causare l’uso di parole non standard?</p>
+  </li>
+  <li>
+    <p>Spiega la struttura completa di un indicativo di chiamata italiano, facendo un esempio concreto. Qual è il significato di ciascuna parte?</p>
+  </li>
+  <li>
+    <p>Qual è la differenza tra un codice Q seguito da punto interrogativo e lo stesso codice Q senza punto interrogativo? Fai almeno due esempi.</p>
+  </li>
+  <li>
+    <p>Perché il parametro R (Readability) e il parametro S (Strength) del rapporto RST sono considerati indipendenti? Descrivi una situazione in cui un segnale ha R basso ma S alto.</p>
+  </li>
+  <li>
+    <p>Le abbreviazioni telegrafiche sono nate per la telegrafia (CW). Spiega come e perché sono migrate nell’uso in fonia e nelle comunicazioni digitali, facendo almeno due esempi concreti.</p>
+  </li>
+  <li>
+    <p>Come funziona il Maidenhead Locator System? Descrivi i tre livelli di suddivisione e spiega perché un locatore a 6 caratteri è sufficiente per la maggior parte delle comunicazioni.</p>
+  </li>
+  <li>
+    <p>Un radioamatore trasmette “CQ CQ CQ chiama IZ5DIY”: cosa sta facendo esattamente? Come dovrebbe rispondere un altro radioamatore che lo sente?</p>
+  </li>
+  <li>
+    <p>Quali informazioni si possono ricavare dall’indicativo di chiamata IK5ABC? Identifica prefisso, area e suffisso, e spiega cosa indicano.</p>
+  </li>
+  <li>
+    <p>Un radioamatore riceve un rapporto “59”: cosa significa in dettaglio ciascun numero? E se il rapporto fosse “31”?</p>
+  </li>
+  <li>
+    <p>Perché Silvio afferma che i temi d’esame italiani non sono sempre aggiornati? Qual è la differenza con il sistema americano, e perché questo ha un impatto sulla preparazione del candidato?</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>73</strong> — Abbreviazione telegrafica che significa “saluti cordiali”. È un saluto universale tra radioamatori.</li>
+  <li><strong>Alfabeto fonetico (NATO/ICAO/ITU)</strong> — Standard internazionale che assegna una parola univoca a ciascuna lettera dell’alfabeto per eliminare ambiguità nelle comunicazioni radio.</li>
+  <li><strong>AR</strong> — Abbreviazione telegrafica per “fine del messaggio”. In CW si trasmette come carattere unico.</li>
+  <li><strong>Call sign</strong> — Vedi “Indicativo di chiamata”.</li>
+  <li><strong>CB (Citizen Band)</strong> — Banda radio per uso civile non amatoriale, con regole e convenzioni diverse da quelle radioamatoriali.</li>
+  <li><strong>Codice Q</strong> — Raccolta standardizzata di messaggi codificati di tre lettere che iniziano con Q, usati nelle comunicazioni radio per sintetizzare domande e risposte.</li>
+  <li><strong>CQ</strong> — Chiamata generale; un radioamatore che trasmette CQ cerca qualcuno con cui stabilire un collegamento.</li>
+  <li><strong>CW (Continuous Wave)</strong> — Telegrafia, trasmissione mediante codice Morse.</li>
+  <li><strong>DX</strong> — Collegamento a lunga distanza (da “Distance”).</li>
+  <li><strong>ICAO</strong> — International Civil Aviation Organization, ente che ha sviluppato l’alfabeto fonetico poi adottato dall’ITU.</li>
+  <li><strong>Indicativo di chiamata</strong> — Sigla unica assegnata a ogni radioamatore, composta da prefisso (Paese), numero (area) e suffisso (sequenziale).</li>
+  <li><strong>ITU</strong> — International Telecommunication Union, organizzazione internazionale per le telecomunicazioni che assegna i prefissi nazionali.</li>
+  <li><strong>K</strong> — Abbreviazione telegrafica per “invito a trasmettere”.</li>
+  <li><strong>Locatore (Maidenhead)</strong> — Sistema di codifica della posizione geografica in una sigla alfanumerica di 6+ caratteri.</li>
+  <li><strong>Metalinguaggio</strong> — Linguaggio convenzionale (sigle, abbreviazioni, codici Q) comprensibile da tutti i radioamatori del mondo indipendentemente dalla lingua madre.</li>
+  <li><strong>Niner</strong> — Pronuncia fonetica del numero 9, per evitare confusione con “Five”.</li>
+  <li><strong>OM (Old Man)</strong> — Termine affettuoso per indicare un radioamatore.</li>
+  <li><strong>Prefisso</strong> — Prima parte dell’indicativo di chiamata, identifica il Paese di appartenenza (es. I = Italia).</li>
+  <li><strong>QRA</strong> — Codice Q: nome della stazione.</li>
+  <li><strong>QRZ</strong> — Codice Q: “Da chi sono chiamato?”</li>
+  <li><strong>QSL</strong> — Codice Q: conferma di ricezione. “QSL Card” = cartolina di conferma del collegamento.</li>
+  <li><strong>QSO</strong> — Codice Q: comunicazione/collegamento tra due stazioni.</li>
+  <li><strong>QTH</strong> — Codice Q: posizione (luogo da dove si trasmette).</li>
+  <li><strong>R</strong> — Abbreviazione telegrafica per “ricevuto” (Roger). Anche: parametro di Readability nel rapporto RST.</li>
+  <li><strong>Readability</strong> — Parametro R del rapporto RST: misura la comprensibilità del segnale (scala 1-5).</li>
+  <li><strong>RST</strong> — Sistema di rapporto sulla qualità del segnale: Readability (comprensibilità), Strength (intensità), Tone (tono della nota telegrafica).</li>
+  <li><strong>RTX</strong> — Ricetrasmettitore (abbreviazione di RX + TX).</li>
+  <li><strong>RX</strong> — Ricevitore (abbreviazione telegrafica).</li>
+  <li><strong>S-meter</strong> — Strumento indicatore presente nei ricevitori che mostra l’intensità del segnale ricevuto su scala S1-S9+.</li>
+  <li><strong>SK (Silent Key)</strong> — Abbreviazione telegrafica per “fine delle trasmissioni”. Nel gergo radioamatoriale indica anche un radioamatore deceduto.</li>
+  <li><strong>S (Strength)</strong> — Parametro del rapporto RST: misura l’intensità del segnale ricevuto (scala S1-S9 e oltre in dB).</li>
+  <li><strong>Suffisso</strong> — Ultima parte dell’indicativo di chiamata, assegnato sequenzialmente (AA, AB, AC…).</li>
+  <li><strong>T (Tone)</strong> — Parametro del rapporto RST: misura la qualità della nota telegrafica (scala 1-9).</li>
+  <li><strong>TX</strong> — Trasmettitore (abbreviazione telegrafica).</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatori</strong>: Lucia (correzione quiz matematica), Silvio IZ5DIY (normativa — lezione principale)</li>
+  <li>🎙️ <strong>Coordinamento</strong>: Fabrizio, Alessio</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Campo</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Lezione</strong></td>
+      <td>09</td>
+    </tr>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td>07 maggio 2025</td>
+    </tr>
+    <tr>
+      <td><strong>Durata</strong></td>
+      <td>~2 ore e 40 minuti</td>
+    </tr>
+    <tr>
+      <td><strong>Numero argomenti</strong></td>
+      <td>7 (correzione quiz + 6 argomenti normativi)</td>
+    </tr>
+    <tr>
+      <td><strong>Parole chiave</strong></td>
+      <td>Alfabeto fonetico, ICAO, ITU, NATO, indicativi di chiamata, prefissi, call sign, abbreviazioni telegrafiche, CQ, SK, codice Q, QTH, QSL, QSO, QRZ, RST, Readability, Strength, Tone, S-meter, locatore, Maidenhead</td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+</body>
+</html>

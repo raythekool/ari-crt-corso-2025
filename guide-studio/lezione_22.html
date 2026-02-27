@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 22 - Procedure Operative - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/ari-crt-corso-2025/">🏠 Home</a>
+    <a href="/ari-crt-corso-2025/guide-studio/">📖 Guide di Studio</a>
+    <a href="/ari-crt-corso-2025/glossario.html">📚 Glossario</a>
+    <a href="/ari-crt-corso-2025/domande-esame.html">❓ Domande</a>
+    <a href="/ari-crt-corso-2025/risorse.html">🔗 Risorse</a>
+  </nav>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/ari-crt-corso-2025/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_21.html">⬅️ Lezione precedente</a>
+        
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_22.html" selected>📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-22---procedure-operative">📘 Lezione 22 - Procedure Operative</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia</strong>: Legislazione radioamatoriale — Parte 1: Struttura normativa, D.Lgs. 259/2003, articoli 134-145, CEPT e reciprocità internazionale</li>
+  <li><strong>Tempo di studio stimato</strong>: 2 ore</li>
+  <li><strong>Prerequisiti</strong>: Nozioni di base sull’attività radioamatoriale, nominativi di chiamata, bande di frequenza (lezioni precedenti)</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Conoscere la struttura gerarchica della normativa (ITU → CEPT → legislazione nazionale)</li>
+      <li>Comprendere il D.Lgs. 259/2003 e gli articoli 134-145 relativi ai radioamatori</li>
+      <li>Distinguere tra patente (non scade) e autorizzazione (10 anni)</li>
+      <li>Conoscere le raccomandazioni CEPT TR 61-01 e TR 61-02</li>
+      <li>Comprendere le norme sulle stazioni ripetitrici e le autorizzazioni speciali</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h3 id="1--correzione-quiz-sulle-antenne">1. 📝 Correzione Quiz sulle Antenne</h3>
+
+<p>La lezione si apre con la correzione dei quiz relativi alla lezione precedente (antenne). Il relatore Paolo evidenzia che tutti i partecipanti hanno superato la soglia del 60% (richiesta all’esame), con punteggi mediamente tra il 70% e il 100%.</p>
+
+<p>Vengono riepilogati i concetti chiave verificati nel quiz:</p>
+
+<ul>
+  <li><strong>Aumentare la frequenza di risonanza</strong> di un’antenna → accorciarla (frequenza e lunghezza d’onda sono inversamente proporzionali)</li>
+  <li><strong>Polarizzazione</strong> → definita dal piano in cui si propaga il <strong>campo elettrico</strong></li>
+  <li><strong>Antenna direttiva</strong> → il <strong>riflettore parabolico</strong> (l’isotropica e la ground plane irradiano a 360°)</li>
+  <li><strong>Resistenza di radiazione</strong> di un dipolo a mezz’onda → <strong>73 Ω</strong></li>
+  <li><strong>Calcolo ERP</strong>: 100 W trasmettitore + 4 dB guadagno antenna − 1 dB attenuazione cavo = +3 dB = raddoppio → <strong>200 W</strong> di potenza effettiva irradiata</li>
+  <li><strong>Formula dipolo</strong>: $150 \times 0{,}953 / f \approx 143 / f$</li>
+  <li><strong>Antenna isotropica</strong> → teorica, non realizzabile, usata come riferimento</li>
+  <li><strong>Balun</strong> → va inserito tra il cavo coassiale e l’antenna</li>
+  <li><strong>Antenna artificiale</strong> = carico fittizio (non irradiante)</li>
+  <li><strong>Guadagno dipolo vs isotropica</strong> → <strong>2,1 dB</strong></li>
+  <li><strong>Trappole</strong> → rendono l’antenna multibanda</li>
+  <li><strong>Lobo principale Yagi</strong> → direzione di massima irradiazione</li>
+</ul>
+
+<blockquote>
+  <p>⚠️ <strong>Concetto d’esame ribadito</strong>: Nella Yagi, il <strong>riflettore è più lungo</strong> del radiatore, i <strong>direttori sono più corti</strong>. Il radiatore è un dipolo a <strong>mezz’onda</strong>. Non esiste un rapporto numerico fisso tra le lunghezze, poiché dipende dalla progettazione specifica dell’antenna.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="2--parole-chiave-della-normativa">2. 🔑 Parole Chiave della Normativa</h3>
+
+<p>Prima di entrare nella legislazione, vengono presentate le parole chiave fondamentali che ricorrono nella normativa radioamatoriale:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Acronimo</th>
+      <th>Significato</th>
+      <th>Ruolo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>ITU</strong></td>
+      <td>International Telecommunication Union</td>
+      <td>Agenzia ONU per le telecomunicazioni, definisce il servizio di radioamatore</td>
+    </tr>
+    <tr>
+      <td><strong>IARU</strong></td>
+      <td>International Amateur Radio Union</td>
+      <td>Rappresenta i radioamatori nella ITU; organizzata con associazioni nazionali</td>
+    </tr>
+    <tr>
+      <td><strong>CEPT</strong></td>
+      <td>Conferenza Europea delle Amministrazioni di Poste e Telecomunicazioni</td>
+      <td>Standardizzazione e reciprocità tra stati europei (e non solo)</td>
+    </tr>
+    <tr>
+      <td><strong>MIMIT</strong></td>
+      <td>Ministero delle Imprese e del Made in Italy</td>
+      <td>Ente regolatore italiano di riferimento per i radioamatori</td>
+    </tr>
+    <tr>
+      <td><strong>WRC</strong></td>
+      <td>World Radiocommunication Conference</td>
+      <td>Conferenze preparatorie per le riunioni ITU sulle attribuzioni di frequenza</td>
+    </tr>
+    <tr>
+      <td><strong>PNRF</strong></td>
+      <td>Piano Nazionale di Ripartizione delle Frequenze</td>
+      <td>Elenco delle frequenze e dei servizi a cui sono attribuite in ambito nazionale</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>L’<strong>IARU</strong> rappresenta le istanze dei radioamatori nella sede ITU, difendendo le bande di frequenza attribuite al servizio di radioamatore dalle pressioni di altri servizi commerciali e governativi.</p>
+
+<hr />
+
+<h3 id="3-️-gerarchia-normativa">3. 🏛️ Gerarchia Normativa</h3>
+
+<p>La normativa radioamatoriale si inserisce in una struttura piramidale:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Costituzione / Codice civile e penale
+        ↓
+Standard internazionali (ITU, IARU)
+        ↓
+Raccomandazioni CEPT
+        ↓
+Leggi nazionali (D.Lgs. 259/2003)
+        ↓
+Decreti attuativi
+        ↓
+Circolari ministeriali
+</code></pre></div></div>
+
+<p>Le <strong>leggi</strong> definiscono il quadro generale. I <strong>decreti</strong> dettagliano aspetti specifici. Le <strong>circolari</strong> chiariscono aspetti interpretativi e pratici (es. date degli esami, modalità di presentazione della domanda).</p>
+
+<hr />
+
+<h3 id="4--il-decreto-legislativo-2592003">4. 📜 Il Decreto Legislativo 259/2003</h3>
+
+<p>Il <strong>D.Lgs. 259/2003</strong> (1° agosto 2003) è il <strong>Codice delle comunicazioni elettroniche</strong>, la legge fondamentale che governa tutte le comunicazioni elettroniche in Italia — dalla radiodiffusione alla TV satellitare, dai gestori internet ai radioamatori.</p>
+
+<h4 id="struttura-della-parte-radioamatoriale">Struttura della parte radioamatoriale</h4>
+
+<p>La parte che riguarda specificamente i radioamatori è contenuta in:</p>
+
+<ul>
+  <li><strong>Titolo III, Capo VII</strong>: circa <strong>10-11 articoli</strong> (dal 134 al 145) — quadro generale dell’attività radioamatoriale</li>
+  <li><strong>Allegato 25</strong>: contributi economici (importi e modalità di pagamento — attualmente 50 € una tantum)</li>
+  <li><strong>Allegato 26</strong>: norme attuative dettagliate — potenze, procedure, moduli, programma d’esame, suballegati con codice Q, abbreviazioni, ecc.</li>
+</ul>
+
+<blockquote>
+  <p>⚠️ <strong>Attenzione</strong>: Il D.Lgs. 259/2003 ha subito <strong>successive modifiche di legge</strong>, l’ultima significativa il <strong>24 marzo 2024</strong>. Non tutte le versioni reperibili in rete sono aggiornate. È fondamentale studiare sulla <strong>versione vigente consolidata</strong>.</p>
+</blockquote>
+
+<h4 id="rapporto-legge-allegato">Rapporto legge-allegato</h4>
+
+<p>La legge (articoli) enuncia i principi generali; l’allegato 26 dettaglia come si applicano. Tuttavia, le modifiche del 2024 alla legge non sono ancora state tutte recepite nell’allegato 26. Esempio: la legge prevede la <strong>classe N</strong> (radioamatore novizio), ma l’allegato 26 non contiene ancora le specifiche operative.</p>
+
+<hr />
+
+<h3 id="5--normativa-internazionale-itu--articolo-25">5. 🌐 Normativa Internazionale ITU — Articolo 25</h3>
+
+<p>Il servizio di radioamatore è definito nel <strong>regolamento delle radiocomunicazioni dell’ITU</strong> (articolo 25):</p>
+
+<blockquote>
+  <p><em>“Un servizio di radiocomunicazioni per lo scopo di autoformazione, intercomunicazione e indagini tecniche svolte da radioamatori, persone debitamente autorizzate, interessate alla tecnica radio, esclusivamente a scopo personale e senza interesse pecuniario.”</em></p>
+</blockquote>
+
+<p>Questo articolo stabilisce:</p>
+
+<ul>
+  <li>La <strong>definizione</strong> del servizio di radioamatore</li>
+  <li>Le <strong>limitazioni</strong>: comunicazioni relative all’oggetto del servizio + osservazioni di carattere personale</li>
+  <li>La delega a ogni <strong>amministrazione nazionale</strong> per stabilire le potenze e le specifiche normative</li>
+</ul>
+
+<blockquote>
+  <p>⚠️ <strong>Concetto d’esame</strong>: L’articolo 25 ITU può essere oggetto di domande d’esame.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="6--cept-e-raccomandazioni-tr-61-01-e-tr-61-02">6. 🇪🇺 CEPT e Raccomandazioni TR 61-01 e TR 61-02</h3>
+
+<p>La <strong>CEPT</strong> non si limita all’Europa: alcune direttive sono recepite anche da paesi extraeuropei. Per i radioamatori, le due raccomandazioni fondamentali sono:</p>
+
+<h4 id="tr-61-01--operare-allestero">TR 61-01 — Operare all’estero</h4>
+
+<p>Stabilisce le regole per cui un radioamatore può operare fuori dal proprio stato. Analogia: come la patente di guida vale in altri paesi europei, la licenza radioamatoriale viene riconosciuta nei paesi aderenti alla CEPT.</p>
+
+<p><strong>Esempio pratico</strong>: Un radioamatore italiano che si sposta in Danimarca usa il prefisso “OZ/” davanti al proprio nominativo.</p>
+
+<blockquote>
+  <p><strong>Regola fondamentale</strong>: All’estero si devono seguire le <strong>normative del paese ospitante</strong>, non quelle del proprio paese di origine. (Es. se la banda dei 6 m non è consentita nel paese visitato, non si può usare anche se è permessa in Italia.)</p>
+</blockquote>
+
+<h4 id="tr-61-02--harec-harmonized-amateur-radio-examination-certificate">TR 61-02 — HAREC (Harmonized Amateur Radio Examination Certificate)</h4>
+
+<p>Stabilisce la corrispondenza delle patenti e degli esami tra i paesi aderenti. Un esame superato in Italia, conforme alla HAREC, è riconosciuto da tutti i paesi CEPT, senza necessità di ridare l’esame.</p>
+
+<blockquote>
+  <p>⚠️ <strong>Concetto d’esame</strong>: Possono essere chieste domande su cosa riguardino la TR 61-01 (operare all’estero) e la TR 61-02 (reciprocità patenti/esami).</p>
+</blockquote>
+
+<hr />
+
+<h3 id="7--articolo-134--definizione-dellattività-di-radioamatore">7. 📋 Articolo 134 — Definizione dell’attività di radioamatore</h3>
+
+<p>L’articolo 134 del D.Lgs. 259/2003 definisce l’attività di radioamatore come:</p>
+
+<blockquote>
+  <p><em>“L’espletamento di un servizio svolto in linguaggio chiaro o con l’uso di codici internazionalmente ammessi, esclusivamente su mezzo radioelettrico, anche via satellite, di istruzione individuale, di intercomunicazione e di studio tecnico effettuato da persone che abbiano conseguito la relativa autorizzazione generale, che si interessano alla tecnica della radioelettricità a titolo esclusivamente personale senza alcun interesse di natura economica.”</em></p>
+</blockquote>
+
+<p>Questo articolo è l’ampliamento nazionale della definizione ITU. Stabilisce inoltre che l’attività di radioamatore è disciplinata dagli articoli del presente capo <strong>e dall’allegato 26</strong>.</p>
+
+<hr />
+
+<h3 id="8--articolo-135--riferimento-alle-normative-cept">8. 📋 Articolo 135 — Riferimento alle normative CEPT</h3>
+
+<p>L’articolo 135 fa riferimento alle raccomandazioni della CEPT, ne richiama l’applicabilità e stabilisce il collegamento tra la normativa nazionale e quella europea.</p>
+
+<hr />
+
+<h3 id="9--articolo-136--patente-e-classi-di-autorizzazione">9. 📋 Articolo 136 — Patente e Classi di Autorizzazione</h3>
+
+<p>L’articolo 136 è particolarmente ricco di informazioni richieste all’esame:</p>
+
+<h4 id="classi-di-autorizzazione">Classi di autorizzazione</h4>
+
+<ul>
+  <li><strong>Classe A</strong>: autorizzazione standard per radioamatori</li>
+  <li><strong>Classe N</strong> (novità 2024): radioamatore novizio, in addestramento, corrisponde alla classe CEPT novizio. Dettagli operativi ancora non definiti nell’allegato 26.</li>
+</ul>
+
+<h4 id="patente-vs-autorizzazione">Patente vs Autorizzazione</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>Patente</th>
+      <th>Autorizzazione</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Cos’è</strong></td>
+      <td>Certificato che attesta il superamento dell’esame</td>
+      <td>Permesso di installare e operare una stazione radioamatoriale</td>
+    </tr>
+    <tr>
+      <td><strong>Scadenza</strong></td>
+      <td><strong>Non scade mai</strong></td>
+      <td><strong>10 anni</strong> (rinnovabile)</td>
+    </tr>
+    <tr>
+      <td><strong>Come si ottiene</strong></td>
+      <td>Superando l’esame</td>
+      <td>Richiedendola dopo aver ottenuto la patente</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>⚠️ <strong>Concetto d’esame molto frequente</strong>: La <strong>patente non scade</strong>, l’<strong>autorizzazione dura 10 anni</strong>. Domanda a trabocchetto classica.</p>
+</blockquote>
+
+<h4 id="esame-ed-esoneri">Esame ed esoneri</h4>
+
+<p>L’esame è obbligatorio per tutti. Esiste un <strong>esonero parziale</strong> per chi possiede un titolo di studio che certifica le conoscenze tecniche: in tal caso si sostiene solo la parte relativa alla <strong>normativa</strong> (non la parte tecnica). Non esiste titolo di studio che esoneri dalla parte normativa.</p>
+
+<hr />
+
+<h3 id="10--articolo-137--requisiti-per-diventare-radioamatore">10. 📋 Articolo 137 — Requisiti per diventare radioamatore</h3>
+
+<p>Chi può ottenere l’autorizzazione:</p>
+
+<ul>
+  <li><strong>Cittadini UE</strong> o dello <strong>Spazio Economico Europeo</strong></li>
+  <li>Cittadini di paesi con <strong>accordi di reciprocità</strong></li>
+  <li>Età minimum: <strong>14 anni</strong> (l’esame può essere sostenuto prima, ma l’autorizzazione non viene rilasciata fino ai 14 anni)</li>
+  <li><strong>Assenza di condanne penali</strong> specifiche</li>
+</ul>
+
+<blockquote>
+  <p>⚠️ <strong>Concetto d’esame</strong>: L’età minima per ottenere l’autorizzazione è <strong>14 anni</strong>.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="11--articolo-139--nominativo-di-chiamata">11. 📋 Articolo 139 — Nominativo di Chiamata</h3>
+
+<p>Il nominativo di chiamata:</p>
+
+<ul>
+  <li><strong>Identifica</strong> la stazione radioamatoriale</li>
+  <li>È <strong>assegnato dal Ministero</strong> (MIMIT)</li>
+  <li>Le novità del 2024 (evidenziate in giallo) includono la possibilità di <strong>scelta del nominativo</strong> e la possibilità di <strong>riprendere un nominativo scaduto</strong> o di un <strong>familiare defunto</strong>. Tuttavia, le modalità operative non sono ancora definite nell’allegato 26.</li>
+</ul>
+
+<hr />
+
+<h3 id="12--articolo-140--attività-allestero">12. 📋 Articolo 140 — Attività all’estero</h3>
+
+<p>Ribadisce il principio che nel momento in cui un radioamatore opera all’estero, deve seguire la <strong>normativa del paese ospitante</strong>, non quella italiana. Si rimanda alle raccomandazioni CEPT (TR 61-01).</p>
+
+<hr />
+
+<h3 id="13--articoli-141-142--emergenze-e-assistenza">13. 📋 Articoli 141-142 — Emergenze e Assistenza</h3>
+
+<h4 id="articolo-141--comunicazioni-di-emergenza">Articolo 141 — Comunicazioni di emergenza</h4>
+
+<p>In situazioni di <strong>calamità</strong> o contingenze particolari, il radioamatore può essere autorizzato a effettuare comunicazioni che vanno oltre i limiti normali dell’attività radioamatoriale (es. comunicazioni di soccorso, richieste d’aiuto).</p>
+
+<h4 id="articolo-142--assistenza-a-manifestazioni-sportive">Articolo 142 — Assistenza a manifestazioni sportive</h4>
+
+<p>I radioamatori possono fornire supporto di comunicazione durante manifestazioni sportive, previa comunicazione agli organi periferici del Ministero. Questa norma risale a tempi in cui non esistevano altri mezzi di comunicazione diffusi, ma è ancora in vigore.</p>
+
+<hr />
+
+<h3 id="14--articolo-143--stazioni-ripetitrici-ponti">14. 📋 Articolo 143 — Stazioni Ripetitrici (Ponti)</h3>
+
+<p>Le stazioni ripetitrici sono un argomento ricorrente nelle domande d’esame:</p>
+
+<ul>
+  <li><strong>Uso collettivo</strong>: le stazioni ripetitrici sono ad uso libero per tutti i radioamatori. Non possono esistere ripetitori “privati”.</li>
+  <li><strong>Stazioni non presidiate</strong>: sono remote, senza controllo diretto dell’operatore.</li>
+</ul>
+
+<p><strong>Regole tecniche fondamentali:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parametro</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Portante dopo fine trasmissione</td>
+      <td>Max <strong>10 secondi</strong></td>
+    </tr>
+    <tr>
+      <td>Ripetizione del nominativo</td>
+      <td>Ogni <strong>10 minuti</strong></td>
+    </tr>
+    <tr>
+      <td>Potenza massima</td>
+      <td><strong>10 W EIRP</strong></td>
+    </tr>
+    <tr>
+      <td>Interlacciamento</td>
+      <td>Permesso tra bande/frequenze diverse (es. VHF ↔ UHF)</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>⚠️ <strong>Concetto d’esame</strong>: La potenza massima delle stazioni ripetitrici (10 W EIRP), il tempo massimo della portante (10 secondi), la frequenza di ripetizione del nominativo (10 minuti).</p>
+</blockquote>
+
+<hr />
+
+<h3 id="15--articolo-144--autorizzazioni-speciali">15. 📋 Articolo 144 — Autorizzazioni Speciali</h3>
+
+<p>Oltre alle persone fisiche, possono ottenere autorizzazioni radioamatoriali speciali:</p>
+
+<ul>
+  <li><strong>Università</strong> ed enti di ricerca</li>
+  <li><strong>Scuole</strong></li>
+  <li>Corsi militari</li>
+  <li><strong>Associazioni di radioamatori</strong> (es. nominativi IQ per le sezioni ARI)</li>
+</ul>
+
+<p>Queste stazioni hanno un <strong>operatore responsabile</strong> ma il nominativo non è personale.</p>
+
+<p><strong>Novità 2024</strong>: È stata introdotta la possibilità legale di far operare persone <strong>non ancora radioamatori</strong> presso stazioni speciali (es. sezioni ARI), a scopo di formazione e avvicinamento all’attività. Le modalità operative non sono ancora dettagliate nell’allegato 26.</p>
+
+<hr />
+
+<h3 id="16--allegato-26--contenuto-e-importanza">16. 📂 Allegato 26 — Contenuto e Importanza</h3>
+
+<p>L’<strong>allegato 26</strong> è la parte più pratica della normativa e contiene:</p>
+
+<ul>
+  <li>Norme dettagliate sulle potenze consentite</li>
+  <li>Procedure per ottenere nominativo e autorizzazione</li>
+  <li>Moduli per le domande</li>
+  <li><strong>Programma d’esame</strong> (suballegato D) con:
+    <ul>
+      <li>Lista del <strong>codice Q</strong> richiesto all’esame</li>
+      <li><strong>Abbreviazioni</strong> da conoscere</li>
+      <li>Riferimenti a normative IARU (band plan)</li>
+      <li>Articolo 25 del regolamento ITU</li>
+      <li>Regioni ITU (1, 2, 3)</li>
+      <li>Raccomandazioni CEPT</li>
+    </ul>
+  </li>
+  <li>Regole sulle stazioni ripetitrici (art. 9 dell’allegato)</li>
+  <li>Certificazione HAREC</li>
+  <li>Norme sulle emissioni (da trattare nella lezione successiva)</li>
+</ul>
+
+<blockquote>
+  <p><strong>Nota del relatore</strong>: Le domande d’esame sulla normativa sono spesso generate direttamente dal contenuto dell’allegato 26 e dei suoi suballegati, perché il testo è preciso e non ambiguo, rendendo facile la formulazione di domande incontestabili.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="17--sessione-domande-e-risposte">17. ❓ Sessione Domande e Risposte</h3>
+
+<h4 id="domande-su-date-e-leggi">Domande su date e leggi</h4>
+
+<p>Nelle domande d’esame si può trovare la richiesta di identificare quale legge governa i radioamatori (D.Lgs. 259/2003, che abroga la normativa precedente del 1992/93). Le risposte errate tipiche fanno riferimento a leggi obsolete o a normative CEI non pertinenti.</p>
+
+<h4 id="shift-dei-ponti-vhfuhf">Shift dei ponti VHF/UHF</h4>
+
+<p>Lo shift delle stazioni ripetitrici (differenza tra frequenza di ricezione e trasmissione) è normato dalla normativa tecnica IARU e sarà trattato nella lezione successiva.</p>
+
+<h4 id="modi-di-emissione">Modi di emissione</h4>
+
+<p>I codici dei modi di emissione (es. J3E, A1A, F3E) saranno affrontati nella prossima lezione. Il relatore avverte che, pur essendo di scarsa utilità pratica nell’attività quotidiana, sono argomento frequentissimo d’esame perché la tabelline dei modi permette di generare facilmente centinaia di domande.</p>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li>ITU → definisce → servizio di radioamatore (art. 25)</li>
+  <li>IARU → rappresenta i radioamatori → nella ITU</li>
+  <li>CEPT → stabilisce → reciprocità tra stati europei</li>
+  <li>TR 61-01 → regola → operatività all’estero</li>
+  <li>TR 61-02 (HAREC) → regola → reciprocità patenti/esami</li>
+  <li>D.Lgs. 259/2003 → è la legge italiana → sulle comunicazioni elettroniche</li>
+  <li>Art. 134 → definisce → l’attività di radioamatore</li>
+  <li>Art. 136 → stabilisce → classi A e N, patente e autorizzazione</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Patente → non scade</td>
+          <td>Autorizzazione → dura 10 anni</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>Art. 137 → requisiti → cittadinanza UE/EEA, età ≥ 14 anni, no condanne penali</li>
+  <li>Art. 139 → disciplina → assegnazione del nominativo</li>
+  <li>Art. 140 → stabilisce → si seguono le norme del paese ospitante</li>
+  <li>Art. 141 → permette → comunicazioni di emergenza oltre i limiti</li>
+  <li>Art. 143 → disciplina → stazioni ripetitrici (uso collettivo, 10 W EIRP)</li>
+  <li>Art. 144 → autorizzazioni speciali → per enti, scuole, associazioni</li>
+  <li>Allegato 25 → contributi economici (50 €)</li>
+  <li>Allegato 26 → norme attuative dettagliate + programma d’esame</li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>
+    <p><strong>D.Lgs. 259/2003</strong>: La legge fondamentale per i radioamatori italiani è il Decreto Legislativo 259/2003 (Codice delle comunicazioni elettroniche). Solo ~10 articoli (134-145) riguardano specificamente i radioamatori.</p>
+  </li>
+  <li>
+    <p><strong>Patente vs Autorizzazione</strong>: La patente (certificato d’esame) <strong>non scade mai</strong>. L’autorizzazione (permesso operativo) ha durata di <strong>10 anni</strong> ed è rinnovabile. Domanda d’esame frequentissima.</p>
+  </li>
+  <li>
+    <p><strong>Età minima</strong>: Per ottenere l’autorizzazione di radioamatore servono almeno <strong>14 anni</strong>. L’esame può essere sostenuto prima.</p>
+  </li>
+  <li>
+    <p><strong>Classe A e Classe N</strong>: La Classe A è l’autorizzazione standard; la Classe N (novizio) è stata introdotta nel 2024 ma non è ancora operativa (allegato 26 non aggiornato).</p>
+  </li>
+  <li>
+    <p><strong>CEPT TR 61-01</strong>: Raccomandazione che regola l’operatività dei radioamatori all’estero (reciprocità). All’estero si seguono le normative del paese ospitante.</p>
+  </li>
+  <li>
+    <p><strong>CEPT TR 61-02 (HAREC)</strong>: Certificazione armonizzata degli esami — la patente italiana è riconosciuta nei paesi CEPT senza necessità di ridare l’esame.</p>
+  </li>
+  <li>
+    <p><strong>Stazioni ripetitrici</strong>: Ad uso collettivo (non private), potenza max 10 W EIRP, portante max 10 secondi dopo la trasmissione, nominativo ripetuto ogni 10 minuti, interlacciamento tra bande consentito.</p>
+  </li>
+  <li>
+    <p><strong>Autorizzazioni speciali (art. 144)</strong>: Concesse a università, scuole, associazioni. Novità 2024: possibilità di far operare non-radioamatori a scopo formativo.</p>
+  </li>
+  <li>
+    <p><strong>Gerarchia normativa</strong>: ITU (internazionale) → CEPT (europea) → D.Lgs. 259/2003 + allegati (nazionale) → decreti e circolari (attuativo).</p>
+  </li>
+  <li>
+    <p><strong>Allegato 26</strong>: Contiene le norme pratiche e il programma d’esame. È la fonte principale delle domande d’esame sulla normativa e va letto con attenzione nella versione aggiornata/vigente.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>
+    <p>Qual è la differenza fondamentale tra patente e autorizzazione radioamatoriale in termini di durata? Perché questa distinzione è rilevante per l’esame?</p>
+  </li>
+  <li>
+    <p>Spiega il rapporto tra gli articoli del D.Lgs. 259/2003 e l’allegato 26. Perché la legge e l’allegato possono non essere allineati temporalmente?</p>
+  </li>
+  <li>
+    <p>Un radioamatore italiano si reca in vacanza in un paese CEPT dove la banda dei 6 m non è consentita. Può utilizzarla? Quale principio normativo si applica?</p>
+  </li>
+  <li>
+    <p>A cosa servono le raccomandazioni CEPT TR 61-01 e TR 61-02? In che cosa differiscono?</p>
+  </li>
+  <li>
+    <p>Quali sono i requisiti per ottenere l’autorizzazione di radioamatore in Italia? Esistono esoneri per l’esame?</p>
+  </li>
+  <li>
+    <p>Perché le stazioni ripetitrici hanno limiti più restrittivi rispetto alle stazioni personali? Elenca almeno tre parametri regolamentati.</p>
+  </li>
+  <li>
+    <p>Che cos’è la classe N introdotta dalla modifica del 2024? Perché non è ancora operativa?</p>
+  </li>
+  <li>
+    <p>Spiega il ruolo dell’ITU, della IARU e della CEPT nella regolamentazione dell’attività radioamatoriale. Come si collegano tra loro?</p>
+  </li>
+  <li>
+    <p>Che cosa sono le autorizzazioni speciali (art. 144) e a quali enti possono essere concesse? Quale novità è stata introdotta nel 2024?</p>
+  </li>
+  <li>
+    <p>Perché il relatore consiglia di studiare solo dalla versione consolidata/aggiornata della legge? Cosa potrebbe accadere studiando da una versione non aggiornata?</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>Allegato 25</strong> — Parte del D.Lgs. 259/2003 che disciplina i contributi economici (pagamento di 50 € per l’autorizzazione).</li>
+  <li><strong>Allegato 26</strong> — Parte del D.Lgs. 259/2003 che contiene le norme attuative dettagliate: potenze, procedure, moduli, programma d’esame, regole sulle ripetitrici.</li>
+  <li><strong>Antenna artificiale</strong> — Sinonimo di carico fittizio (dummy load), carico non irradiante per test sui trasmettitori.</li>
+  <li><strong>Autorizzazione generale</strong> — Permesso operativo per installare e utilizzare una stazione radioamatoriale. Dura 10 anni.</li>
+  <li><strong>CEPT</strong> — Conferenza Europea delle Amministrazioni di Poste e Telecomunicazioni. Organismo che definisce standard e reciprocità.</li>
+  <li><strong>Classe A</strong> — Autorizzazione radioamatoriale standard.</li>
+  <li><strong>Classe N</strong> — Autorizzazione per radioamatore novizio, prevista dalla modifica 2024. Corrisponde alla classe novizio CEPT. Dettagli operativi non ancora definiti.</li>
+  <li><strong>D.Lgs. 259/2003</strong> — Decreto Legislativo del 1° agosto 2003, Codice delle comunicazioni elettroniche. Legge fondamentale che regola i radioamatori in Italia.</li>
+  <li><strong>HAREC</strong> — Harmonized Amateur Radio Examination Certificate. Certificazione CEPT che garantisce il riconoscimento reciproco delle patenti radioamatoriali.</li>
+  <li><strong>IARU</strong> — International Amateur Radio Union. Unione internazionale che rappresenta i radioamatori nella ITU.</li>
+  <li><strong>Interlacciamento</strong> — Collegamento tra stazioni ripetitrici su bande/frequenze diverse (es. VHF ↔ UHF).</li>
+  <li><strong>ITU</strong> — International Telecommunication Union. Agenzia ONU per le telecomunicazioni.</li>
+  <li><strong>MIMIT</strong> — Ministero delle Imprese e del Made in Italy. Ente regolatore italiano per le comunicazioni elettroniche e i radioamatori (ex Ministero dello Sviluppo Economico, ex Ministero delle Poste).</li>
+  <li><strong>Patente di radioamatore</strong> — Certificato che attesta il superamento dell’esame. Non scade mai.</li>
+  <li><strong>PNRF</strong> — Piano Nazionale di Ripartizione delle Frequenze. Documento che elenca tutte le frequenze e i servizi a cui sono attribuite in Italia.</li>
+  <li><strong>Stazione ripetitrice (ponte)</strong> — Stazione automatica non presidiata che riceve e ritrasmette i segnali, posta in posizione vantaggiosa per estendere la copertura. Ad uso collettivo, max 10 W EIRP.</li>
+  <li><strong>TR 61-01</strong> — Raccomandazione CEPT che regola le modalità per operare all’estero come radioamatore.</li>
+  <li><strong>TR 61-02</strong> — Raccomandazione CEPT relativa alla HAREC (corrispondenza patenti/esami tra paesi).</li>
+  <li><strong>WRC</strong> — World Radiocommunication Conference. Conferenza mondiale sulle radiocomunicazioni, preparatoria alle riunioni ITU.</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatori</strong>:
+    <ul>
+      <li><strong>Paolo</strong> — Coordinatore del corso. Introduce la serata e corregge i quiz sulle antenne (~13 minuti).</li>
+      <li><strong>Silvio</strong> (IW5EDI) — Radioamatore dalla montagna pistoiese. Tiene la parte principale sulla legislazione radioamatoriale.</li>
+    </ul>
+  </li>
+  <li>🎙️ <strong>Moderatore</strong>: Alessandro (Ale) — Gestisce la sessione tecnica.</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Campo</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Lezione</strong></td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td>1 ottobre 2025</td>
+    </tr>
+    <tr>
+      <td><strong>Durata</strong></td>
+      <td>≈ 1 ora e 51 minuti</td>
+    </tr>
+    <tr>
+      <td><strong>Argomenti trattati</strong></td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td><strong>Parole chiave</strong></td>
+      <td>Legislazione, D.Lgs. 259/2003, ITU, IARU, CEPT, MIMIT, patente, autorizzazione, classe A, classe N, TR 61-01, TR 61-02, HAREC, PNRF, stazioni ripetitrici, allegato 26, programma d’esame, articoli 134-145</td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 10 - Ricevitori - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/ari-crt-corso-2025/">🏠 Home</a>
+    <a href="/ari-crt-corso-2025/guide-studio/">📖 Guide di Studio</a>
+    <a href="/ari-crt-corso-2025/glossario.html">📚 Glossario</a>
+    <a href="/ari-crt-corso-2025/domande-esame.html">❓ Domande</a>
+    <a href="/ari-crt-corso-2025/risorse.html">🔗 Risorse</a>
+  </nav>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/ari-crt-corso-2025/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_09.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_11.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_10.html" selected>📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-10---ricevitori">📘 Lezione 10 - Ricevitori</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia</strong>: Normativa radioamatoriale — Bande radioamatoriali, frequenze, band plan, ITU, IARU, ARI, legislazione</li>
+  <li><strong>Tempo di studio stimato</strong>: 2 ore e 30 minuti</li>
+  <li><strong>Prerequisiti</strong>: Lezione 09 (alfabeto fonetico, indicativi, codice Q, RST), nozioni di base su onde elettromagnetiche e frequenza</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Comprendere la relazione tra lunghezza d’onda e frequenza</li>
+      <li>Conoscere la suddivisione dello spettro radio (HF, VHF, UHF, ecc.)</li>
+      <li>Memorizzare le bande radioamatoriali e i relativi intervalli di frequenza</li>
+      <li>Comprendere i concetti di uso esclusivo, primario e secondario delle frequenze</li>
+      <li>Capire la funzione e la struttura del band plan</li>
+      <li>Conoscere il ruolo di ITU, IARU, CEPT, ARI e MIMIT</li>
+      <li>Distinguere tra patente di radioamatore e autorizzazione generale</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h3 id="1--correzione-quiz-lezione-09--ripasso-normativa">1. 📝 Correzione quiz Lezione 09 — Ripasso normativa</h3>
+
+<p>La lezione si apre con la correzione del questionario relativo alla lezione 09. I risultati sono largamente positivi, con due picchi negativi su domande specifiche.</p>
+
+<h4 id="-domande-chiave-analizzate">🔹 Domande chiave analizzate</h4>
+
+<ul>
+  <li>
+    <p><strong>Domanda C (Santiago)</strong>: la domanda era volutamente ironica. Santiago <strong>non è</strong> la parola corretta dell’alfabeto fonetico per la lettera S (la parola corretta è <strong>Sierra</strong>). Santiago è una città della Galizia, meta di pellegrinaggi. L’intento era far riflettere sull’uso canonico dell’alfabeto fonetico.</p>
+  </li>
+  <li>
+    <p><strong>Domanda D (Nominativo)</strong>: quale di queste è una stazione italiana? La risposta corretta era <strong>IU2FQW</strong>. Un nominativo come IS0HL5P non può esistere perché, nella parte di suffisso, non possono comparire numeri — solo lettere.</p>
+  </li>
+  <li>
+    <p><strong>Domanda H (RST)</strong>: la <strong>R</strong> del codice RST indica la <strong>readability</strong> (leggibilità/comprensibilità), non la forza del segnale (che è la <strong>S</strong>, Strength) e non la quantità di rumore.</p>
+  </li>
+  <li>
+    <p><strong>Domanda I (Locatore)</strong>: domanda fuori esame sul QTH Locator. La struttura è: 2 lettere (quadratone) + 2 numeri (sotto-quadrato) + 2 lettere (ulteriore dettaglio). Le altre opzioni erano un nominativo e un’abbreviazione telegrafica (73 = saluti).</p>
+  </li>
+  <li>
+    <p><strong>Domanda P (QRT)</strong>: il codice <strong>QRT</strong> indica la cessazione/fine delle trasmissioni.</p>
+  </li>
+</ul>
+
+<h4 id="-nota-sulle-abbreviazioni-73-51">🔹 Nota sulle abbreviazioni 73, 51</h4>
+
+<p>Le abbreviazioni numeriche come <strong>73</strong> (saluti) e <strong>51</strong> non rientrano nella tabella delle abbreviazioni telegrafiche da esame. Tuttavia, 73 è una conoscenza che ogni radioamatore non può non avere, anche se formalmente non è nelle 12 abbreviazioni ministeriali.</p>
+
+<hr />
+
+<h3 id="2--onde-elettromagnetiche-e-lunghezza-donda">2. 📡 Onde elettromagnetiche e lunghezza d’onda</h3>
+
+<p>Silvio introduce il tema delle bande radioamatoriali partendo da un’analogia fondamentale: le <strong>onde elettromagnetiche</strong> sono il <strong>mezzo di trasporto</strong> per le nostre comunicazioni, proprio come un’automobile, un treno o un aereo sono mezzi per spostarsi fisicamente.</p>
+
+<h4 id="-lanalogia-del-mezzo-di-trasporto">🔹 L’analogia del mezzo di trasporto</h4>
+
+<p>La scelta della frequenza (e quindi della <strong>lunghezza d’onda</strong>) determina dove e come possiamo comunicare:</p>
+
+<ul>
+  <li>Per andare a Firenze dalla Toscana → automobile (distanza breve)</li>
+  <li>Per andare negli Stati Uniti → aereo (lunga distanza)</li>
+  <li>Non si va a fare la spesa in paese con un Boeing 320</li>
+</ul>
+
+<p>Allo stesso modo, frequenze diverse hanno <strong>caratteristiche di propagazione</strong> diverse:</p>
+
+<ul>
+  <li>Il <strong>Wi-Fi</strong> (frequenze alte, lunghezza d’onda corta) non supera le pareti di casa</li>
+  <li>La <strong>radio FM</strong> si perde appena si cambia versante di montagna</li>
+  <li>Le <strong>onde medie</strong> (AM) si possono ascoltare anche dal seminterrato</li>
+</ul>
+
+<h4 id="-lunghezza-donda-e-frequenza">🔹 Lunghezza d’onda e frequenza</h4>
+
+<p>La <strong>lunghezza d’onda</strong> ($\lambda$) è la distanza percorsa dall’onda nel compimento di un ciclo completo. È legata alla frequenza ($f$) dalla relazione inversa:</p>
+
+\[\lambda = \frac{c}{f} = \frac{300}{f_{MHz}} \text{ (in metri)}\]
+
+<ul>
+  <li><strong>Maggiore è la frequenza</strong> → <strong>minore è la lunghezza d’onda</strong> (e viceversa)</li>
+  <li>A 100 MHz → $\lambda$ = 3 m</li>
+  <li>A 1 MHz → $\lambda$ = 300 m</li>
+  <li>A 14 MHz → $\lambda$ = circa 20 m</li>
+</ul>
+
+<h4 id="-analogia-del-passo">🔹 Analogia del passo</h4>
+
+<p>La lunghezza d’onda è paragonabile al “passo” con cui l’onda si muove:</p>
+
+<ul>
+  <li><strong>Onde lunghe</strong> (passo grande) = come un gigante → superano facilmente ostacoli (sassi, muri, montagne)</li>
+  <li><strong>Onde corte</strong> (passo piccolo) = come una formica → già un sasso è un ostacolo insormontabile</li>
+</ul>
+
+<p>Questo spiega perché il Wi-Fi (lunghezza d’onda centimetrica) non passa attraverso un muro, mentre le onde medie (lunghezza d’onda di centinaia di metri) si ricevono anche nel seminterrato.</p>
+
+<hr />
+
+<h3 id="3--spettro-elettromagnetico-e-spettro-radio">3. 📊 Spettro elettromagnetico e spettro radio</h3>
+
+<p>Lo <strong>spettro elettromagnetico</strong> comprende tutte le onde elettromagnetiche: dalle onde radio alla luce visibile, dai raggi X ai raggi gamma. Lo <strong>spettro radio</strong> è solo una porzione di esso, compresa indicativamente tra 10 kHz e diversi GHz.</p>
+
+<h4 id="-suddivisione-dello-spettro-radio">🔹 Suddivisione dello spettro radio</h4>
+
+<p>Lo spettro radio è suddiviso in bande designate con sigle internazionali. La nomenclatura nasce storicamente: prima si usavano solo basse frequenze, poi man mano si scoprivano frequenze più alte.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sigla</th>
+      <th>Nome</th>
+      <th>Frequenza</th>
+      <th>Lunghezza d’onda</th>
+      <th>Denominazione</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>VLF</strong></td>
+      <td>Very Low Frequency</td>
+      <td>3 – 30 kHz</td>
+      <td>Onde miriametriche</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>LF</strong></td>
+      <td>Low Frequency</td>
+      <td>30 – 300 kHz</td>
+      <td>Onde chilometriche</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>MF</strong></td>
+      <td>Medium Frequency</td>
+      <td>300 – 3.000 kHz</td>
+      <td>Onde ettometriche</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>HF</strong></td>
+      <td>High Frequency</td>
+      <td>3 – 30 MHz</td>
+      <td>Onde decametriche</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>VHF</strong></td>
+      <td>Very High Frequency</td>
+      <td>30 – 300 MHz</td>
+      <td>Onde metriche</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>UHF</strong></td>
+      <td>Ultra High Frequency</td>
+      <td>300 – 3.000 MHz</td>
+      <td>Onde decimetriche</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>SHF</strong></td>
+      <td>Super High Frequency</td>
+      <td>3 – 30 GHz</td>
+      <td>Onde centimetriche</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>EHF</strong></td>
+      <td>Extremely High Frequency</td>
+      <td>30 – 300 GHz</td>
+      <td>Onde millimetriche</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>Il pattern ricorrente è il fattore <strong>3</strong>: ogni banda va da 3 a 30 (o da 30 a 300, ecc.), cioè un fattore 10 per ogni salto.</p>
+</blockquote>
+
+<p>L’attività radioamatoriale si concentra prevalentemente in <strong>HF</strong>, <strong>VHF</strong> e <strong>UHF</strong>, che coprono il 95-99% dell’uso.</p>
+
+<p>⚠️ <em>Tema d’esame: conoscere le sigle (HF, VHF, UHF…) e i corrispondenti intervalli di frequenza. Le bande più rilevanti sono quelle attribuite ai radioamatori.</em></p>
+
+<hr />
+
+<h3 id="4--bande-radioamatoriali">4. 📻 Bande radioamatoriali</h3>
+
+<p>Le bande radioamatoriali sono porzioni (“fettine”) dello spettro radio attribuite al servizio di radioamatore. Sono disseminate lungo lo spettro e vengono identificate per <strong>lunghezza d’onda</strong>.</p>
+
+<h4 id="-le-bande-principali">🔹 Le bande principali</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Banda (lunghezza d’onda)</th>
+      <th>Frequenza (MHz)</th>
+      <th>Categoria spettro</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>160 m</td>
+      <td>1,810 – 2,000</td>
+      <td>MF</td>
+    </tr>
+    <tr>
+      <td>80 m</td>
+      <td>3,500 – 3,800</td>
+      <td>HF</td>
+    </tr>
+    <tr>
+      <td>40 m</td>
+      <td>7,000 – 7,200</td>
+      <td>HF</td>
+    </tr>
+    <tr>
+      <td>30 m</td>
+      <td>10,100 – 10,150</td>
+      <td>HF</td>
+    </tr>
+    <tr>
+      <td>20 m</td>
+      <td>14,000 – 14,350</td>
+      <td>HF</td>
+    </tr>
+    <tr>
+      <td>17 m</td>
+      <td>18,068 – 18,168</td>
+      <td>HF</td>
+    </tr>
+    <tr>
+      <td>15 m</td>
+      <td>21,000 – 21,450</td>
+      <td>HF</td>
+    </tr>
+    <tr>
+      <td>12 m</td>
+      <td>24,890 – 24,990</td>
+      <td>HF</td>
+    </tr>
+    <tr>
+      <td>10 m</td>
+      <td>28,000 – 29,700</td>
+      <td>HF</td>
+    </tr>
+    <tr>
+      <td>6 m</td>
+      <td>50,000 – 52,000</td>
+      <td>VHF</td>
+    </tr>
+    <tr>
+      <td>2 m</td>
+      <td>144,000 – 146,000</td>
+      <td>VHF</td>
+    </tr>
+    <tr>
+      <td>70 cm</td>
+      <td>430,000 – 440,000</td>
+      <td>UHF</td>
+    </tr>
+    <tr>
+      <td>23 cm</td>
+      <td>1.240 – 1.300</td>
+      <td>UHF</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Quando un radioamatore dice “ho fatto un collegamento in 20 m”, intende che ha usato la banda 14 – 14,350 MHz. La denominazione per lunghezza d’onda è il modo di comunicazione standard tra radioamatori.</p>
+
+<h4 id="-tipi-di-attribuzione">🔹 Tipi di attribuzione</h4>
+
+<p>Le bande possono essere attribuite ai radioamatori con tre livelli diversi:</p>
+
+<p><strong>Uso esclusivo</strong> — La banda è utilizzata <strong>solo</strong> dai radioamatori. Nessun altro servizio è ammesso. Sono tipicamente le bande più storiche.</p>
+
+<p><strong>Uso primario</strong> — La banda è condivisa con altri servizi, ma il radioamatore ha <strong>priorità</strong>. In caso di interferenza, l’altro servizio deve cedere.</p>
+
+<p><strong>Uso secondario</strong> — La banda è condivisa con altri servizi, ma il radioamatore <strong>non ha priorità</strong>. Se la banda è già in uso da un servizio primario (es. militare), il radioamatore deve cessare la trasmissione.</p>
+
+<blockquote>
+  <p><strong>Esempio</strong>: la banda dei 70 cm (433 MHz) è condivisa con altri servizi come i telecomandi delle automobili.</p>
+</blockquote>
+
+<p>⚠️ <em>Tema d’esame: la differenza tra uso esclusivo, primario e secondario è materia d’esame ricorrente.</em></p>
+
+<hr />
+
+<h3 id="5-️-band-plan--il-piano-di-banda">5. 🗺️ Band Plan — Il piano di banda</h3>
+
+<p>Il <strong>band plan</strong> (piano di banda) è l’insieme delle regole che i radioamatori si sono dati per l’utilizzo organizzato delle bande loro attribuite. È paragonabile al regolamento di un condominio.</p>
+
+<h4 id="-perché-serve-il-band-plan">🔹 Perché serve il band plan</h4>
+
+<p>All’interno di una banda attribuita ai radioamatori, coesistono <strong>tipi di emissione diversi</strong> con <strong>larghezze di banda</strong> molto differenti:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo di emissione</th>
+      <th>Larghezza di banda tipica</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Telegrafia (CW)</td>
+      <td>~300 Hz</td>
+    </tr>
+    <tr>
+      <td>Modi digitali (es. FT8)</td>
+      <td>~50 Hz</td>
+    </tr>
+    <tr>
+      <td>Fonia SSB</td>
+      <td>~2.700 Hz (2,7 kHz)</td>
+    </tr>
+    <tr>
+      <td>Fonia FM</td>
+      <td>5.000 – 15.000 Hz (5-15 kHz)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Analogia del parcheggio</strong>: dove ci sta una trasmissione FM (un “camion”), ci starebbero 10 trasmissioni SSB (10 “automobili”) o 50 trasmissioni CW (50 “biciclette”). Senza regole, l’uso sarebbe inefficiente.</p>
+
+<h4 id="-struttura-del-band-plan">🔹 Struttura del band plan</h4>
+
+<p>Il band plan suddivide ogni banda in segmenti destinati a specifici tipi di trasmissione:</p>
+
+<ul>
+  <li>Un segmento per la telegrafia (segnali con larghezza ≤ 200 Hz o ≤ 500 Hz)</li>
+  <li>Un segmento per la fonia SSB (larghezza ≤ 2,7 kHz)</li>
+  <li>Un segmento per i modi digitali</li>
+  <li>Eventuali segmenti per FM (solo in certe bande, es. 10 m e 2 m)</li>
+  <li>Frequenze di ritrovo per attività specifiche (es. QRP a 3560 kHz, DX, ecc.)</li>
+</ul>
+
+<p><strong>Esempio banda 20 m</strong> (14 – 14,350 MHz): non è possibile fare FM perché lo spazio è troppo limitato. In soli 350 kHz, poche trasmissioni FM occuperebbero tutta la banda.</p>
+
+<p><strong>Esempio banda 10 m</strong> (28 – 29,7 MHz): essendo più ampia, include un segmento FM (sopra 29 MHz) con canali da 10 kHz.</p>
+
+<h4 id="-come-conoscere-il-band-plan">🔹 Come conoscere il band plan</h4>
+
+<p>I band plan sono pubblicati dalla <strong>IARU Regione 1</strong> e vengono periodicamente aggiornati. L’ultima versione citata è del 16 ottobre 2020. Non sono statici: evolvono con le esigenze (nuovi modi digitali, nuove attività).</p>
+
+<blockquote>
+  <p>“Il band plan non è scolpito sulla pietra […] sono frutto di continui aggiustamenti e compromessi raggiunti in ambito internazionale.”</p>
+</blockquote>
+
+<h4 id="-cosa-sapere-per-lesame">🔹 Cosa sapere per l’esame</h4>
+
+<p>Non è richiesto memorizzare ogni dettaglio di ogni band plan. È necessario sapere:</p>
+
+<ul>
+  <li><strong>Che cosa è</strong> un band plan e a cosa serve</li>
+  <li>Che la banda è suddivisa per <strong>tipo di emissione</strong> e <strong>larghezza di banda</strong></li>
+  <li>Che esiste una regolamentazione a cui sottostare</li>
+  <li>Il concetto generale di utilizzo efficiente dello spettro</li>
+</ul>
+
+<p>⚠️ <em>Tema d’esame: il concetto di band plan e la sua funzione possono essere oggetto di domanda.</em></p>
+
+<hr />
+
+<h3 id="6-️-organizzazioni-internazionali-itu-iaru-cept">6. 🏛️ Organizzazioni internazionali: ITU, IARU, CEPT</h3>
+
+<p>La regolamentazione delle frequenze richiede coordinamento internazionale perché le onde radio non si fermano ai confini nazionali.</p>
+
+<h4 id="-itu--international-telecommunication-union">🔹 ITU — International Telecommunication Union</h4>
+
+<p>L’<strong>ITU</strong> (Unione Internazionale delle Telecomunicazioni) è l’agenzia delle <strong>Nazioni Unite</strong> che sovraintende alle telecomunicazioni mondiali. È una sorta di “Ministero delle Comunicazioni del mondo intero”.</p>
+
+<p>All’interno della ITU viene definito il <strong>servizio di radioamatore</strong>:</p>
+
+<blockquote>
+  <p>“Un servizio di radiocomunicazione a scopo non commerciale svolto da appassionati di radiocomunicazione che utilizzano e sperimentano le proprie stazioni radio per comunicazioni personali, autoistruzione tecnica, interconnessione di stazione, ricerca scientifica e altri scopi simili.”</p>
+</blockquote>
+
+<p>L’ITU opera per <strong>regioni geografiche</strong>:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Regione</th>
+      <th>Area geografica</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Regione 1</strong></td>
+      <td>Europa, Africa, Medio Oriente, Russia</td>
+    </tr>
+    <tr>
+      <td><strong>Regione 2</strong></td>
+      <td>Americhe</td>
+    </tr>
+    <tr>
+      <td><strong>Regione 3</strong></td>
+      <td>Asia e Oceania</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>L’Italia appartiene alla Regione 1 dell’ITU.</strong></p>
+
+<p>Le attribuzioni di frequenza possono variare tra regioni diverse (es. la banda 900 MHz: in Europa è per la telefonia mobile, in USA è di uso libero a bassa potenza).</p>
+
+<p>⚠️ <em>Tema d’esame: a quale Regione ITU appartiene l’Italia (Regione 1), quante sono le regioni ITU (3).</em></p>
+
+<h4 id="-iaru--international-amateur-radio-union">🔹 IARU — International Amateur Radio Union</h4>
+
+<p>La <strong>IARU</strong> è l’Unione Internazionale dei Radioamatori, fondata nel 1925. È l’organizzazione che:</p>
+
+<ul>
+  <li><strong>Rappresenta</strong> i radioamatori nell’ITU (come un sindacato internazionale)</li>
+  <li><strong>Coordina</strong> l’uso delle bande a livello internazionale (band plan)</li>
+  <li><strong>Protegge</strong> lo spettro attribuito ai radioamatori dalla pressione di servizi commerciali</li>
+  <li>È riconosciuta dall’ONU come <strong>ente non governativo</strong></li>
+</ul>
+
+<p>Ogni nazione ha <strong>una sola associazione</strong> membro della IARU, in modo da garantire rappresentanza unitaria.</p>
+
+<blockquote>
+  <p>“Se non si proteggono le nostre bande, un servizio commerciale di connessione via satellite potrebbe voler acquisire le nostre frequenze 144-146 MHz per costruirci un servizio a pagamento.”</p>
+</blockquote>
+
+<h4 id="-cept--conferenza-europea-delle-amministrazioni-postali-e-delle-telecomunicazioni">🔹 CEPT — Conferenza Europea delle Amministrazioni Postali e delle Telecomunicazioni</h4>
+
+<p>La <strong>CEPT</strong> è un coordinamento europeo che si occupa di standardizzazione in ambito postale e delle telecomunicazioni. In ambito radioamatoriale, la CEPT è importante perché stabilisce accordi di <strong>reciprocità</strong>: un radioamatore italiano autorizzato secondo gli standard CEPT può operare anche in Spagna o in altri Paesi membri, essendo riconosciuto come operatore autorizzato.</p>
+
+<hr />
+
+<h3 id="7--organizzazioni-nazionali-ari-e-mimit">7. 🇮🇹 Organizzazioni nazionali: ARI e MIMIT</h3>
+
+<h4 id="-ari--associazione-radioamatori-italiani">🔹 ARI — Associazione Radioamatori Italiani</h4>
+
+<p>L’<strong>ARI</strong> è l’associazione nazionale che rappresenta i radioamatori italiani. In ambito nazionale svolge il ruolo che la IARU svolge a livello internazionale:</p>
+
+<ul>
+  <li>Si rapporta con l’ente regolatore (MIMIT)</li>
+  <li>Rappresenta le istanze dei radioamatori presso il Ministero</li>
+  <li>Riceve e diffonde comunicazioni dal Ministero</li>
+  <li>È l’<strong>unica</strong> associazione italiana membro della IARU</li>
+</ul>
+
+<h4 id="-mimit--ministero-delle-imprese-e-del-made-in-italy">🔹 MIMIT — Ministero delle Imprese e del Made in Italy</h4>
+
+<p>Il <strong>MIMIT</strong> (già Ministero dello Sviluppo Economico, Ministero delle Poste e Telecomunicazioni, ecc.) è l’ente regolatore italiano per le telecomunicazioni. Ha cambiato nome molte volte nel tempo; per questo Silvio preferisce chiamarlo genericamente “ente regolatore”.</p>
+
+<p>All’interno del MIMIT opera la <strong>Direzione Generale per i Servizi di Comunicazione Elettronica, Radiodiffusione e Postali</strong>, che ha uffici teritoriali detti <strong>ispettorati</strong> (quello di riferimento per la Toscana ha sede a Firenze).</p>
+
+<p>La normativa di riferimento è il <strong>Codice delle Comunicazioni Elettroniche</strong> (D.Lgs. 259/2003 e successive modifiche), che contiene circa <strong>10 articoli</strong> specifici per i radioamatori, più un allegato (Allegato 26) che elenca i <strong>temi d’esame</strong>.</p>
+
+<h4 id="-regole-fondamentali-dallarticolo-25-itu">🔹 Regole fondamentali dall’Articolo 25 ITU</h4>
+
+<p>Le comunicazioni radioamatoriali devono essere:</p>
+
+<ul>
+  <li><strong>Non commerciali</strong> — non si può fare lucro</li>
+  <li><strong>Aperte e non segrete</strong> — non si possono usare codici o trasmissioni criptate</li>
+  <li><strong>Non destinate a terzi</strong> — salvo in caso di emergenza e calamità naturali</li>
+</ul>
+
+<blockquote>
+  <p>“Nella virtù del fatto che non ci facciamo lucro […] e offriamo un servizio in situazioni di emergenza, queste frequenze sono una sorta di concessione filantropica che lo Stato fa nei confronti della comunità radioamatoriale.”</p>
+</blockquote>
+
+<hr />
+
+<h3 id="8--patente-e-autorizzazione-generale">8. 📋 Patente e Autorizzazione Generale</h3>
+
+<p>Silvio conclude con due concetti fondamentali per l’iter di accesso all’attività radioamatoriale.</p>
+
+<h4 id="-patente-di-radioamatore">🔹 Patente di radioamatore</h4>
+
+<p>La <strong>patente</strong> è il documento che attesta la qualifica di radioamatore. Si ottiene superando un esame che verifica conoscenze tecniche e competenze operative.</p>
+
+<p>Caratteristiche fondamentali:</p>
+
+<ul>
+  <li><strong>Non scade MAI</strong> — una volta ottenuta, resta valida per tutta la vita</li>
+  <li>Certifica che il titolare possiede le conoscenze teoriche e pratiche necessarie</li>
+  <li>È paragonabile alla patente automobilistica (ma quella automobilistica ha scadenza)</li>
+  <li>Avere la patente non obbliga a svolgere attività radioamatoriale</li>
+</ul>
+
+<h4 id="-autorizzazione-generale">🔹 Autorizzazione Generale</h4>
+
+<p>L’<strong>autorizzazione generale</strong> (in passato chiamata “licenza”) è il documento che:</p>
+
+<ul>
+  <li>Assegna un <strong>nominativo</strong> (indicativo di chiamata) al radioamatore</li>
+  <li>Autorizza effettivamente l’esercizio dell’attività radioamatoriale</li>
+  <li><strong>Scade ogni 10 anni</strong> e deve essere rinnovata</li>
+  <li>Richiede il pagamento di un <strong>canone annuale</strong> (importo simbolico, pochi euro)</li>
+  <li>Può essere personale o attribuita a una sezione (nominativo collettivo)</li>
+</ul>
+
+<p><strong>Analogia automobilistica</strong>:</p>
+
+<ul>
+  <li><strong>Patente</strong> = so guidare (abilitazione) → non scade</li>
+  <li><strong>Autorizzazione generale</strong> = ho l’automobile e la targa (mezzo + nominativo) → scade ogni 10 anni</li>
+</ul>
+
+<p><strong>Iter procedurale</strong>:</p>
+
+<ol>
+  <li>Superare l’<strong>esame</strong> → ottenere la <strong>patente</strong> (non scade)</li>
+  <li>Richiedere un <strong>nominativo</strong> → ottenere l’<strong>autorizzazione generale</strong> (scade ogni 10 anni)</li>
+  <li>Pagare il <strong>canone</strong> annuale</li>
+  <li>Iniziare l’attività radioamatoriale</li>
+</ol>
+
+<p>L’autorizzazione generale può essere <strong>sospesa o revocata</strong> in caso di comportamenti irregolari, analogamente alle sanzioni previste per la patente automobilistica. La patente invece, attestando una conoscenza, non viene ritirata.</p>
+
+<p>⚠️ <em>Tema d’esame: la distinzione tra patente (non scade) e autorizzazione generale (scade ogni 10 anni) è una domanda ricorrente.</em></p>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li><strong>Onda elettromagnetica</strong> → è il mezzo di trasporto per → <strong>comunicazione radio</strong></li>
+  <li><strong>Lunghezza d’onda ($\lambda$)</strong> → è inversamente proporzionale a → <strong>frequenza ($f$)</strong></li>
+  <li><strong>Spettro radio</strong> → è suddiviso in → <strong>VLF, LF, MF, HF, VHF, UHF, SHF, EHF</strong></li>
+  <li><strong>HF (3-30 MHz)</strong> → contiene la maggior parte delle → <strong>bande radioamatoriali</strong></li>
+  <li><strong>Bande radioamatoriali</strong> → sono identificate per → <strong>lunghezza d’onda</strong> (es. 20 m, 2 m)</li>
+  <li><strong>Attribuzione di banda</strong> → può essere → <strong>esclusiva, primaria o secondaria</strong></li>
+  <li><strong>Band plan</strong> → regola l’uso interno delle → <strong>bande radioamatoriali</strong></li>
+  <li><strong>Larghezza di banda dell’emissione</strong> → determina il → <strong>segmento di band plan</strong></li>
+  <li><strong>CW (300 Hz)</strong> → occupa molto meno spazio di → <strong>FM (15 kHz)</strong></li>
+  <li><strong>ITU</strong> → è l’agenzia ONU che regola → <strong>telecomunicazioni mondiali</strong></li>
+  <li><strong>ITU</strong> → è suddivisa in → <strong>3 regioni</strong> (Italia = Regione 1)</li>
+  <li><strong>IARU</strong> → rappresenta i radioamatori dentro → <strong>ITU</strong></li>
+  <li><strong>IARU</strong> → coordina → <strong>band plan</strong> a livello regionale</li>
+  <li><strong>ARI</strong> → rappresenta i radioamatori italiani in → <strong>IARU</strong></li>
+  <li><strong>ARI</strong> → si rapporta con → <strong>MIMIT</strong> (ente regolatore italiano)</li>
+  <li><strong>CEPT</strong> → standardizza in ambito europeo → <strong>riconoscimento reciproco radioamatori</strong></li>
+  <li><strong>Patente</strong> → attesta la qualifica → <strong>non scade mai</strong></li>
+  <li><strong>Autorizzazione generale</strong> → abilita l’esercizio → <strong>scade ogni 10 anni</strong></li>
+  <li><strong>Patente</strong> → precede → <strong>autorizzazione generale</strong> nell’iter</li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>
+    <p><strong>Le onde elettromagnetiche</strong> sono il mezzo di trasporto delle comunicazioni radio. La scelta della frequenza determina le caratteristiche di propagazione, analogamente alla scelta del mezzo di trasporto per uno spostamento fisico.</p>
+  </li>
+  <li>
+    <p><strong>Lunghezza d’onda e frequenza sono inversamente proporzionali</strong>: $\lambda = 300/f_{MHz}$. A frequenza più alta corrisponde lunghezza d’onda più corta, e viceversa.</p>
+  </li>
+  <li>
+    <p><strong>Lo spettro radio</strong> è suddiviso in bande (HF, VHF, UHF, ecc.) con intervalli che seguono il fattore 3 (3-30, 30-300, 300-3000 MHz). L’attività radioamatoriale si svolge prevalentemente in HF, VHF e UHF.</p>
+  </li>
+  <li>
+    <p><strong>Le bande radioamatoriali</strong> sono porzioni dello spettro, disseminate al suo interno, identificate per lunghezza d’onda (20 m, 2 m, 70 cm, ecc.) e possono essere in uso esclusivo, primario o secondario.</p>
+  </li>
+  <li>
+    <p><strong>Il band plan</strong> è il regolamento interno delle bande radioamatoriali che suddivide ogni banda per tipo di emissione e larghezza di banda, garantendo la coesistenza efficiente di servizi diversi (CW, SSB, FM, digitale).</p>
+  </li>
+  <li>
+    <p><strong>L’ITU</strong> è l’agenzia delle Nazioni Unite per le telecomunicazioni, suddivisa in 3 regioni: l’Italia appartiene alla <strong>Regione 1</strong> (Europa, Africa, Medio Oriente, Russia).</p>
+  </li>
+  <li>
+    <p><strong>La IARU</strong> è il “sindacato internazionale” dei radioamatori che siede nell’ITU, coordina i band plan e protegge lo spettro attribuito ai radioamatori dalla pressione commerciale.</p>
+  </li>
+  <li>
+    <p><strong>L’ARI</strong> è l’unica associazione italiana membro della IARU e si rapporta con il MIMIT (ente regolatore) per le questioni nazionali.</p>
+  </li>
+  <li>
+    <p><strong>La patente di radioamatore non scade mai</strong>; l’<strong>autorizzazione generale scade ogni 10 anni</strong> e richiede rinnovo e pagamento di un canone annuale simbolico.</p>
+  </li>
+  <li>
+    <p><strong>Lo spettro radio è un bene finito e pubblico</strong>: la regolamentazione delle frequenze esiste per garantire la coesistenza di servizi diversi (radioamatori, aeronautica, telefonia, ecc.) senza interferenze reciproche.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>
+    <p>Spiega la relazione tra lunghezza d’onda e frequenza utilizzando la formula $\lambda = 300/f$. Perché a frequenze più alte corrispondono lunghezze d’onda più corte?</p>
+  </li>
+  <li>
+    <p>Qual è la differenza tra uso esclusivo, primario e secondario di una banda di frequenze? Fai un esempio pratico per ciascun tipo.</p>
+  </li>
+  <li>
+    <p>Perché non è possibile (o non è opportuno) trasmettere in FM nella banda dei 20 m? Ragiona in termini di larghezza di banda e numero di canali disponibili.</p>
+  </li>
+  <li>
+    <p>Descrivi la struttura gerarchica delle organizzazioni radioamatoriali: ITU → IARU → ARI. Qual è il ruolo di ciascuna?</p>
+  </li>
+  <li>
+    <p>In che modo il band plan garantisce l’utilizzo efficiente delle bande radioamatoriali? Perché è paragonato al “regolamento condominiale”?</p>
+  </li>
+  <li>
+    <p>Un radioamatore ha superato l’esame e ottenuto la patente. Può iniziare immediatamente a trasmettere? Perché?</p>
+  </li>
+  <li>
+    <p>Perché lo spettro radio viene definito un “bene finito e pubblico”? Quali conseguenze ha questa definizione sulla regolamentazione?</p>
+  </li>
+  <li>
+    <p>L’Italia appartiene alla Regione ITU 1. Quali altri Paesi o aree geografiche fanno parte della stessa regione? Perché è importante questa suddivisione?</p>
+  </li>
+  <li>
+    <p>Spiega perché le comunicazioni radioamatoriali devono essere “aperte e non segrete”. Da quale norma internazionale deriva questo principio?</p>
+  </li>
+  <li>
+    <p>Cosa succederebbe se non esistessero regole di convivenza (band plan) all’interno delle bande radioamatoriali? Descrivi uno scenario di utilizzo non regolamentato.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>Allegato 26</strong> — Allegato al Codice delle Comunicazioni Elettroniche che elenca i temi d’esame per la patente di radioamatore.</li>
+  <li><strong>ARI</strong> — Associazione Radioamatori Italiani, unica associazione nazionale membro della IARU.</li>
+  <li><strong>Autorizzazione generale</strong> — Documento che abilita l’esercizio dell’attività radioamatoriale, assegna un nominativo, ha durata di 10 anni e richiede il pagamento di un canone.</li>
+  <li><strong>Band plan</strong> — Piano di banda; regolamentazione interna delle bande radioamatoriali che stabilisce quali tipi di emissione sono ammessi in ciascun segmento di frequenza.</li>
+  <li><strong>CEPT</strong> — Conferenza Europea delle Amministrazioni delle Poste e delle Telecomunicazioni; standardizza le regole in ambito europeo, inclusa la reciprocità delle patenti radioamatoriali.</li>
+  <li><strong>Codice delle Comunicazioni Elettroniche</strong> — D.Lgs. 259/2003; legge italiana che regola tutte le comunicazioni elettroniche, inclusa l’attività radioamatoriale (circa 10 articoli specifici).</li>
+  <li><strong>EHF</strong> — Extremely High Frequency, 30-300 GHz, onde millimetriche.</li>
+  <li><strong>HF</strong> — High Frequency, 3-30 MHz, onde decametriche. Contiene la maggior parte delle bande radioamatoriali storiche.</li>
+  <li><strong>IARU</strong> — International Amateur Radio Union; organizzazione internazionale che rappresenta i radioamatori nell’ITU e coordina i band plan.</li>
+  <li><strong>Ispettorato territoriale</strong> — Ufficio locale del MIMIT; quello di riferimento per la Toscana ha sede a Firenze.</li>
+  <li><strong>ITU</strong> — International Telecommunication Union; agenzia delle Nazioni Unite per le telecomunicazioni, suddivisa in 3 regioni.</li>
+  <li><strong>Ionosfera</strong> — Strato dell’atmosfera che riflette alcune frequenze radio (tipicamente HF), permettendo comunicazioni oltre l’orizzonte.</li>
+  <li><strong>Larghezza di banda</strong> — Porzione di spettro occupata da un segnale; varia da ~50 Hz (modi digitali) a ~15 kHz (FM).</li>
+  <li><strong>LF</strong> — Low Frequency, 30-300 kHz, onde chilometriche.</li>
+  <li><strong>Lunghezza d’onda ($\lambda$)</strong> — Distanza percorsa dall’onda in un ciclo completo; inversamente proporzionale alla frequenza.</li>
+  <li><strong>MF</strong> — Medium Frequency, 300-3000 kHz, onde ettometriche. Le “onde medie” della radio tradizionale.</li>
+  <li><strong>MIMIT</strong> — Ministero delle Imprese e del Made in Italy; l’attuale ente regolatore italiano per le telecomunicazioni.</li>
+  <li><strong>Patente di radioamatore</strong> — Documento che attesta la qualifica tecnica e operativa del radioamatore; non ha scadenza.</li>
+  <li><strong>Piano nazionale di ripartizione delle frequenze</strong> — Documento che assegna le diverse porzioni dello spettro radio ai vari servizi (radioamatori, aeronautica, telefonia, ecc.).</li>
+  <li><strong>Propagazione</strong> — Modalità con cui le onde elettromagnetiche si diffondono nello spazio; dipende dalla frequenza.</li>
+  <li><strong>Regione ITU</strong> — Suddivisione geografica dell’ITU: Regione 1 (Europa, Africa, Medio Oriente, Russia), Regione 2 (Americhe), Regione 3 (Asia, Oceania).</li>
+  <li><strong>SHF</strong> — Super High Frequency, 3-30 GHz, onde centimetriche.</li>
+  <li><strong>Spettro radio</strong> — Porzione dello spettro elettromagnetico utilizzata per le radiocomunicazioni.</li>
+  <li><strong>UHF</strong> — Ultra High Frequency, 300-3000 MHz, onde decimetriche.</li>
+  <li><strong>Uso esclusivo</strong> — Attribuzione di una banda al solo servizio di radioamatore.</li>
+  <li><strong>Uso primario</strong> — Attribuzione condivisa in cui il radioamatore ha priorità sugli altri servizi.</li>
+  <li><strong>Uso secondario</strong> — Attribuzione condivisa in cui il radioamatore deve cedere in caso di conflitto con un servizio primario.</li>
+  <li><strong>VHF</strong> — Very High Frequency, 30-300 MHz, onde metriche. Include la banda dei 2 m.</li>
+  <li><strong>VLF</strong> — Very Low Frequency, 3-30 kHz, onde miriametriche.</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatore</strong>: Silvio IZ5DIY (normativa e bande radioamatoriali)</li>
+  <li>🎙️ <strong>Coordinamento</strong>: Fabrizio, Alessio</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Campo</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Lezione</strong></td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td>14 maggio 2025</td>
+    </tr>
+    <tr>
+      <td><strong>Durata</strong></td>
+      <td>~2 ore e 30 minuti</td>
+    </tr>
+    <tr>
+      <td><strong>Numero argomenti</strong></td>
+      <td>8 (correzione quiz + 7 argomenti normativi)</td>
+    </tr>
+    <tr>
+      <td><strong>Parole chiave</strong></td>
+      <td>Bande radioamatoriali, lunghezza d’onda, frequenza, spettro radio, HF, VHF, UHF, band plan, uso esclusivo, uso primario, uso secondario, ITU, IARU, CEPT, ARI, MIMIT, Regione 1, patente, autorizzazione generale, Codice Comunicazioni Elettroniche</td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 02 - Fondamenti di Elettrotecnica - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/ari-crt-corso-2025/">🏠 Home</a>
+    <a href="/ari-crt-corso-2025/guide-studio/">📖 Guide di Studio</a>
+    <a href="/ari-crt-corso-2025/glossario.html">📚 Glossario</a>
+    <a href="/ari-crt-corso-2025/domande-esame.html">❓ Domande</a>
+    <a href="/ari-crt-corso-2025/risorse.html">🔗 Risorse</a>
+  </nav>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/ari-crt-corso-2025/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_01.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_03.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_02.html" selected>📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-02---fondamenti-di-elettrotecnica">📘 Lezione 02 - Fondamenti di Elettrotecnica</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia e argomento</strong>: Elettrotecnica di base — la resistenza elettrica, la legge di Ohm, il resistore, le resistenze in serie e in parallelo, le leggi di Kirchhoff.</li>
+  <li><strong>Tempo di studio stimato</strong>: 90–120 minuti</li>
+  <li><strong>Prerequisiti</strong>: Aver studiato la Lezione 01: concetti di tensione (volt), corrente (ampere), potenza (watt), energia, generatori in serie e in parallelo, formula $P = V \times I$.</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Comprendere il concetto di resistenza elettrica e la sua unità di misura (ohm)</li>
+      <li>Conoscere la formula della resistenza di un conduttore ($R = \rho \cdot \frac{L}{S}$) e il significato di resistività</li>
+      <li>Padroneggiare la legge di Ohm nelle sue tre formulazioni ($V = R \cdot I$, $I = \frac{V}{R}$, $R = \frac{V}{I}$)</li>
+      <li>Calcolare la potenza dissipata da un resistore con le tre formule equivalenti</li>
+      <li>Conoscere i resistori NTC e PTC e le loro applicazioni</li>
+      <li>Comprendere il concetto di generatore reale e resistenza interna</li>
+      <li>Applicare le leggi di Kirchhoff (nodi e maglie)</li>
+      <li>Calcolare la resistenza equivalente di resistori in serie e in parallelo</li>
+      <li>Saper usare multipli e sottomultipli delle unità di misura (kilo, mega, giga, milli, micro, nano, pico)</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h2 id="-1-riepilogo-e-correzione-quiz-della-lezione-01--0002">🔍 1. Riepilogo e correzione quiz della Lezione 01 (⏱ 00:02)</h2>
+
+<h3 id="-risultati-del-quiz">🔹 Risultati del quiz</h3>
+
+<p>La lezione si apre con la revisione dei risultati del quiz della Lezione 01. Il docente mostra un istogramma con i punteggi ottenuti per ciascuna delle 15 domande (dalla A alla Q). L’asse verticale rappresenta il 100% delle risposte corrette, e la soglia di successo all’esame è fissata al <strong>60%</strong>. Il gruppo risulta complessivamente molto al di sopra della soglia per tutte le domande, tranne la domanda L, leggermente più debole.</p>
+
+<h3 id="-revisione-delle-risposte">🔹 Revisione delle risposte</h3>
+
+<p>Vengono ripercorse le risposte corrette:</p>
+
+<ul>
+  <li><strong>Domanda A</strong>: Quale grandezza non si misura in volt? → La <strong>potenza</strong> (si misura in watt). La differenza di potenziale e la caduta di tensione si misurano entrambe in volt.</li>
+  <li><strong>Domanda B</strong>: Tre accumulatori da 2 V in serie → $2 + 2 + 2 = 6$ V.</li>
+  <li><strong>Domanda C</strong>: La quantità di carica Q si misura in <strong>coulomb</strong> (il volt misura la differenza di potenziale, il joule misura il lavoro).</li>
+  <li><strong>Domanda D</strong>: La corrente elettrica è un <strong>flusso di elettroni</strong>. Gli atomi difficilmente si muovono; nei conduttori (rame, alluminio, oro, argento) alcuni elettroni sono “liberi” e si muovono con facilità sotto l’effetto di una differenza di potenziale.</li>
+  <li><strong>Domanda E</strong>: $P = V \times I = 220 \times 2 = 440$ W.</li>
+  <li><strong>Domanda F</strong>: Una batteria da 10 Ah eroga 1 ampere per 10 ore ($1 \times 10 = 10$ Ah).</li>
+  <li><strong>Domanda G</strong>: Tre pile da 1,5 V in parallelo → 1,5 V (in parallelo la tensione non aumenta, aumenta la corrente erogabile).</li>
+  <li><strong>Domanda H</strong>: L’intensità di corrente si misura in <strong>ampere</strong>.</li>
+  <li><strong>Domanda I</strong>: $I = \frac{P}{V} = \frac{220}{220} = 1$ A.</li>
+  <li><strong>Domanda L</strong>: Quale grandezza esprime la velocità con cui viene impiegata l’energia elettrica? → La <strong>potenza</strong>. L’energia è il “serbatoio” (si misura in kilowattora), la potenza indica quanta energia si usa nell’unità di tempo (si misura in watt).</li>
+  <li><strong>Domanda M</strong>: Corrente che scorre in un solo verso → corrente <strong>continua</strong>.</li>
+  <li><strong>Domanda N</strong>: $P = V \times I = 12 \times 0{,}2 = 2{,}4$ W.</li>
+  <li><strong>Domanda O</strong>: Due generatori di tensione in serie equivalgono a un unico generatore il cui valore è la somma dei due.</li>
+  <li><strong>Domanda P</strong>: L’unità di misura della capacità delle batterie → <strong>amperora</strong> (Ah).</li>
+  <li><strong>Domanda Q</strong>: $P = V \times I = 1{,}5 \times 2 = 3$ W.</li>
+</ul>
+
+<h3 id="-osservazione-sulla-formulazione-delle-domande-ministeriali">🔹 Osservazione sulla formulazione delle domande ministeriali</h3>
+
+<p>Il docente segnala che le domande del Ministero a volte usano un linguaggio gergale o inusuale (ad esempio “si dissipano” anziché “quale potenza viene usata”). È importante saper leggere e interpretare con attenzione la formulazione delle domande, poiché sono state scritte da persone diverse con stili variabili. L’allenamento costante aiuta a familiarizzare con queste formulazioni.</p>
+
+<blockquote>
+  <p>“Molte domande del ministero, ma veramente molte, hanno delle forme su cui bisogna un attimo lavorare.”</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-2-la-resistenza-elettrica--1436">⚡ 2. La resistenza elettrica (⏱ 14:36)</h2>
+
+<h3 id="-concetti-di-base">🔹 Concetti di base</h3>
+
+<p>Nella lezione precedente si era visto che un <strong>generatore</strong> (ad esempio un accumulatore da 12 V) possiede due poli: al polo negativo vi è un’alta densità di elettroni, al polo positivo vi è una carenza di elettroni (gli atomi diventano ioni positivi). Questa differenza crea una <strong>differenza di potenziale</strong> tra i due poli.</p>
+
+<p>Collegando il generatore a un <strong>carico</strong> tramite cavi elettrici, scorre una corrente. Il generatore è caratterizzato dalla sua tensione in volt; nei cavi passa la corrente misurata in ampere. Tuttavia, quanta corrente passa <strong>lo decide il carico</strong>, perché il carico presenta una sua <strong>resistenza</strong>.</p>
+
+<p>La <strong>resistenza elettrica</strong> — l’opposizione che un materiale oppone al passaggio della corrente — è la grandezza fondamentale introdotta in questa lezione. I materiali conduttori hanno una resistenza bassa (frazioni di ohm, ad esempio 0,001 Ω); i materiali isolanti hanno resistenze molto alte (10.000, 20.000, 100.000 Ω e oltre).</p>
+
+<blockquote>
+  <p>La resistenza è proprio un’opposizione nel senso vero del termine: la corrente vuole scorrere e il materiale oppone una resistenza fisica al passaggio degli elettroni.</p>
+</blockquote>
+
+<h3 id="-lohm-come-unità-di-misura">🔹 L’ohm come unità di misura</h3>
+
+<p>La resistenza si misura in <strong>ohm</strong> (simbolo: <strong>Ω</strong>). Un ohm è la resistenza di un conduttore che viene attraversato da 1 ampere quando ai suoi capi si applica una differenza di potenziale di 1 volt.</p>
+
+<blockquote>
+  <p><strong>Definizione:</strong></p>
+
+\[1\;\Omega = \frac{1\;\text{V}}{1\;\text{A}}\]
+</blockquote>
+
+<hr />
+
+<h2 id="-3-la-resistenza-di-un-conduttore--1928">📐 3. La resistenza di un conduttore (⏱ 19:28)</h2>
+
+<h3 id="-la-formula-della-resistenza-del-conduttore">🔹 La formula della resistenza del conduttore</h3>
+
+<p>La resistenza di un pezzo di filo elettrico (conduttore) si può calcolare con la seguente formula:</p>
+
+<blockquote>
+  <p><strong>Formula della resistenza di un conduttore:</strong></p>
+
+\[R = \rho \cdot \frac{L}{S}\]
+
+  <p>dove:</p>
+
+  <ul>
+    <li>$R$ = resistenza del conduttore (in ohm, Ω)</li>
+    <li>$\rho$ (rho) = <strong>resistività</strong> del materiale (costante specifica del materiale)</li>
+    <li>$L$ = lunghezza del conduttore (in metri)</li>
+    <li>$S$ = sezione del conduttore (in mm²)</li>
+  </ul>
+</blockquote>
+
+<p>La <strong>resistività</strong> ($\rho$) — valore tipico di ogni materiale che indica quanto esso si oppone al passaggio della corrente — è una costante: per il rame ha un certo valore, per l’argento un altro, per il ferro un altro ancora. Si trova nelle tabelle di riferimento. I materiali conduttori hanno un $\rho$ molto basso; i materiali isolanti hanno un $\rho$ molto alto.</p>
+
+<h3 id="-proporzionalità-diretta-e-inversa">🔹 Proporzionalità diretta e inversa</h3>
+
+<p>Dalla formula emergono due relazioni fondamentali:</p>
+
+<ol>
+  <li><strong>La resistenza è direttamente proporzionale alla lunghezza</strong>: se la lunghezza raddoppia, la resistenza raddoppia. Questo perché $L$ è al numeratore della frazione.</li>
+  <li><strong>La resistenza è inversamente proporzionale alla sezione</strong>: se la sezione aumenta, la resistenza diminuisce. Questo perché $S$ è al denominatore della frazione.</li>
+</ol>
+
+<h3 id="-lanalogia-del-tubo-dacqua">🔹 L’analogia del tubo d’acqua</h3>
+
+<p>Il docente utilizza l’analogia idraulica per rendere intuitiva la formula:</p>
+
+<ul>
+  <li>Un <strong>tubo lungo</strong> oppone più resistenza al passaggio dell’acqua rispetto a un tubo corto → più lungo il conduttore, maggiore la resistenza.</li>
+  <li>Un <strong>tubo di grande diametro</strong> lascia passare più acqua rispetto a un tubicino capillare → maggiore la sezione, minore la resistenza.</li>
+</ul>
+
+<blockquote>
+  <p>“Pensate proprio al tubo d’acqua: è l’esempio classico.”</p>
+</blockquote>
+
+<h3 id="-errori-comuni-e-suggerimenti-per-lesame">🔹 Errori comuni e suggerimenti per l’esame</h3>
+
+<p>Nelle domande d’esame può essere chiesto se la resistenza di un conduttore “cresce al crescere della lunghezza” oppure “cresce al crescere della sezione”. Bisogna ricordare:</p>
+
+<ul>
+  <li>Cresce al crescere della <strong>lunghezza</strong> (direttamente proporzionale) ✅</li>
+  <li>Diminuisce al crescere della <strong>sezione</strong> (inversamente proporzionale) ✅</li>
+  <li>NON cresce al crescere della sezione ❌</li>
+</ul>
+
+<hr />
+
+<h2 id="-4-la-legge-di-ohm--2430">📏 4. La legge di Ohm (⏱ 24:30)</h2>
+
+<h3 id="-le-tre-grandezze-fondamentali">🔹 Le tre grandezze fondamentali</h3>
+
+<p>A questo punto della lezione si hanno tre grandezze:</p>
+
+<ul>
+  <li><strong>Tensione</strong> ($V$), misurata in volt</li>
+  <li><strong>Corrente</strong> ($I$), misurata in ampere</li>
+  <li><strong>Resistenza</strong> ($R$), misurata in ohm</li>
+</ul>
+
+<p>Queste tre grandezze sono legate dalla <strong>legge di Ohm</strong>, scoperta dal fisico tedesco Georg Simon Ohm nel XIX secolo.</p>
+
+<h3 id="-formulazione-principale-e-formule-inverse">🔹 Formulazione principale e formule inverse</h3>
+
+<blockquote>
+  <p><strong>Legge di Ohm — Formulazione principale:</strong></p>
+
+\[V = R \cdot I\]
+
+  <p>La tensione ai capi di una resistenza è direttamente proporzionale alla corrente che la attraversa.</p>
+</blockquote>
+
+<p>Da questa si ricavano le <strong>formule inverse</strong>:</p>
+
+<blockquote>
+  <p><strong>Formula 2 — Corrente:</strong></p>
+
+\[I = \frac{V}{R}\]
+
+  <p>(si ottiene dividendo entrambi i membri per $R$)</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Formula 3 — Resistenza:</strong></p>
+
+\[R = \frac{V}{I}\]
+
+  <p>(si ottiene dividendo entrambi i membri per $I$)</p>
+</blockquote>
+
+<p>Queste tre formule vanno memorizzate oppure, ricordandone una, si possono ricavare le altre due con semplici passaggi algebrici.</p>
+
+<h3 id="-esempi-di-applicazione">🔹 Esempi di applicazione</h3>
+
+<p><strong>Esempio 1</strong> (⏱ 28:08): 10 V applicati a una resistenza di 5 Ω. Quanta corrente scorre?</p>
+
+<ul>
+  <li>Dato: $V = 10$ V, $R = 5$ Ω. Incognita: $I$.</li>
+  <li>Formula: $I = \frac{V}{R} = \frac{10}{5} = 2$ A.</li>
+</ul>
+
+<p><strong>Esempio 2</strong> (⏱ 29:29): 15 V ai capi di un circuito in cui scorrono 5 A. Che resistenza presenta?</p>
+
+<ul>
+  <li>Dato: $V = 15$ V, $I = 5$ A. Incognita: $R$.</li>
+  <li>Formula: $R = \frac{V}{I} = \frac{15}{5} = 3$ Ω.</li>
+</ul>
+
+<p><strong>Esempio 3</strong> (⏱ 30:17): In una resistenza di 4 Ω scorrono 3 A. Che tensione è applicata?</p>
+
+<ul>
+  <li>Dato: $R = 4$ Ω, $I = 3$ A. Incognita: $V$.</li>
+  <li>Formula: $V = R \cdot I = 4 \times 3 = 12$ V.</li>
+</ul>
+
+<h3 id="-metodo-per-affrontare-i-problemi">🔹 Metodo per affrontare i problemi</h3>
+
+<p>Il docente suggerisce un percorso in tre passi per affrontare le domande d’esame:</p>
+
+<ol>
+  <li><strong>Leggere bene la domanda</strong> e capire cosa viene chiesto (alcune domande sono “scivolose”).</li>
+  <li><strong>Scegliere la formula giusta</strong> in base ai dati forniti.</li>
+  <li><strong>Inserire i numeri nella formula</strong> e svolgere il calcolo (è permesso usare una calcolatrice all’esame).</li>
+</ol>
+
+<hr />
+
+<h2 id="-5-multipli-e-sottomultipli--3144">📊 5. Multipli e sottomultipli (⏱ 31:44)</h2>
+
+<h3 id="-multipli">🔹 Multipli</h3>
+
+<p>Nel mondo dell’elettronica si usano frequentemente i <strong>multipli</strong> delle unità di misura, poiché i valori reali sono spesso molto grandi o molto piccoli. I multipli seguono la <strong>notazione ingegneristica</strong> (potenze di 10 a passi di 3):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Prefisso</th>
+      <th>Simbolo</th>
+      <th>Valore</th>
+      <th>Potenza di 10</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Kilo</strong></td>
+      <td>k</td>
+      <td>1.000</td>
+      <td>$10^3$</td>
+    </tr>
+    <tr>
+      <td><strong>Mega</strong></td>
+      <td>M</td>
+      <td>1.000.000</td>
+      <td>$10^6$</td>
+    </tr>
+    <tr>
+      <td><strong>Giga</strong></td>
+      <td>G</td>
+      <td>1.000.000.000</td>
+      <td>$10^9$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Per le resistenze si usano tipicamente <strong>kilohm</strong> (kΩ) e <strong>megaohm</strong> (MΩ), perché 1 Ω è già una resistenza molto bassa. Nei circuiti radio si usano comunemente resistenze da 100 Ω, 1.000 Ω (1 kΩ), 10.000 Ω (10 kΩ), 100.000 Ω (100 kΩ).</p>
+
+<p>Per le frequenze elevate si usano i <strong>gigahertz</strong> (GHz), come nella banda dei telefoni cellulari.</p>
+
+<h3 id="-sottomultipli">🔹 Sottomultipli</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Prefisso</th>
+      <th>Simbolo</th>
+      <th>Valore</th>
+      <th>Potenza di 10</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Milli</strong></td>
+      <td>m</td>
+      <td>0,001 (un millesimo)</td>
+      <td>$10^{-3}$</td>
+    </tr>
+    <tr>
+      <td><strong>Micro</strong></td>
+      <td>μ</td>
+      <td>0,000001 (un milionesimo)</td>
+      <td>$10^{-6}$</td>
+    </tr>
+    <tr>
+      <td><strong>Nano</strong></td>
+      <td>n</td>
+      <td>0,000000001 (un miliardesimo)</td>
+      <td>$10^{-9}$</td>
+    </tr>
+    <tr>
+      <td><strong>Pico</strong></td>
+      <td>p</td>
+      <td>0,000000000001 (un milionesimo di milionesimo)</td>
+      <td>$10^{-12}$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>I sottomultipli sono tipici, ad esempio, dei <strong>condensatori</strong>, che si esprimono in microfarad (μF), nanofarad (nF) o picofarad (pF). Un farad è un’unità molto grande; si usano sempre sottomultipli.</p>
+
+<h3 id="-nota-importante-per-i-calcoli">🔹 Nota importante per i calcoli</h3>
+
+<p>Quando si inseriscono i valori nelle formule, è importante usare sempre le <strong>unità di misura canoniche</strong> (ampere, non milliampere; ohm, non kilohm; volt, non millivolt) per evitare errori nei calcoli. Convertire prima i valori nelle unità base, poi applicare la formula.</p>
+
+<hr />
+
+<h2 id="-6-il-resistore--4413">🔧 6. Il resistore (⏱ 44:13)</h2>
+
+<h3 id="-cosè-un-resistore">🔹 Cos’è un resistore</h3>
+
+<p>Il <strong>resistore</strong> — componente elettronico costruito appositamente per avere un determinato valore di resistenza — è l’elemento su cui tipicamente si applica la legge di Ohm nei circuiti reali. Anche un conduttore normale ha una resistenza, ma per un conduttore la resistenza è un <strong>parametro parassita</strong> (si vorrebbe che fosse zero). Il resistore, invece, è progettato per ostacolare parzialmente il passaggio della corrente.</p>
+
+<p>Il resistore ha un <strong>simbolo elettrico</strong> a zigzag che intuitivamente suggerisce la difficoltà della corrente nell’attraversarlo.</p>
+
+<h3 id="-a-cosa-serve-un-resistore">🔹 A cosa serve un resistore</h3>
+
+<p>In un circuito complesso (ad esempio una radio alimentata a 12 V), ci possono essere parti che necessitano di tensioni inferiori (ad esempio 3 V). Tramite opportune resistenze, calcolate con la legge di Ohm, si può ridurre la tensione al valore desiderato. I resistori si trovano in amplificatori, oscillatori e in tutti i circuiti elettronici.</p>
+
+<h3 id="-il-codice-dei-colori">🔹 Il codice dei colori</h3>
+
+<p>Nelle resistenze più piccole, il valore è indicato tramite un <strong>codice di colori</strong>: bande colorate dipinte sul corpo del resistore. Ogni colore corrisponde a un numero (ad esempio rosso = 2, arancione = 3, blu = 6). Le prime bande indicano le cifre significative, una banda indica il moltiplicatore (numero di zeri), e l’ultima banda indica la <strong>tolleranza</strong> (ad esempio, oro = 5%). Nelle resistenze più grandi, il valore è scritto direttamente sul corpo (es. “120 Ω 5 W”). Questo argomento non è materia d’esame.</p>
+
+<h3 id="-potenza-dissipata-dal-resistore">🔹 Potenza dissipata dal resistore</h3>
+
+<p>Ogni resistore, nel farsi attraversare dalla corrente, ostacola una parte dell’energia e la <strong>dissipa in calore</strong> (effetto Joule, visto nella Lezione 01). Tutte le resistenze, chi più chi meno, scaldano.</p>
+
+<p>La potenza dissipata si può calcolare con tre formule equivalenti:</p>
+
+<blockquote>
+  <p><strong>Formule della potenza dissipata da un resistore:</strong></p>
+
+\[P = V \times I\]
+
+\[P = R \times I^2\]
+
+\[P = \frac{V^2}{R}\]
+</blockquote>
+
+<p>La seconda formula ($P = R \cdot I^2$) si ottiene sostituendo $V = R \cdot I$ nella formula generale:
+\(P = V \cdot I = (R \cdot I) \cdot I = R \cdot I^2\)</p>
+
+<p>La terza formula ($P = \frac{V^2}{R}$) si ottiene sostituendo $I = \frac{V}{R}$:
+\(P = V \cdot I = V \cdot \frac{V}{R} = \frac{V^2}{R}\)</p>
+
+<p>La scelta della formula dipende dai dati disponibili:</p>
+
+<ul>
+  <li>Se si conoscono $V$ e $I$ → usare $P = V \cdot I$</li>
+  <li>Se si conoscono $R$ e $I$ → usare $P = R \cdot I^2$</li>
+  <li>Se si conoscono $V$ e $R$ → usare $P = \frac{V^2}{R}$</li>
+</ul>
+
+<p>La formula $P = \frac{V^2}{R}$ è particolarmente usata anche per misurare la potenza di un trasmettitore radio: si misura la tensione su un carico noto di 50 Ω.</p>
+
+<hr />
+
+<h2 id="️-7-resistori-ntc-e-ptc--5315">🌡️ 7. Resistori NTC e PTC (⏱ 53:15)</h2>
+
+<h3 id="-definizioni">🔹 Definizioni</h3>
+
+<p>Esistono resistori speciali il cui valore in ohm <strong>non è costante</strong>, ma varia con la temperatura:</p>
+
+<ul>
+  <li><strong>NTC</strong> (Negative Temperature Coefficient, coefficiente di temperatura negativo) — quando la temperatura <strong>aumenta</strong>, il valore della resistenza <strong>diminuisce</strong>.</li>
+  <li><strong>PTC</strong> (Positive Temperature Coefficient, coefficiente di temperatura positivo) — quando la temperatura <strong>aumenta</strong>, il valore della resistenza <strong>aumenta</strong>.</li>
+</ul>
+
+<h3 id="-applicazioni">🔹 Applicazioni</h3>
+
+<ol>
+  <li>
+    <p><strong>Termometri e sensori di temperatura</strong>: conoscendo la legge con cui la resistenza varia al variare della temperatura, si costruiscono termometri elettronici. Le sonde PTC al platino (PT100, PT300) sono state per decenni lo standard professionale per la loro elevata precisione e linearità.</p>
+  </li>
+  <li>
+    <p><strong>Controllo di temperatura</strong>: nei frigoriferi, congelatori e termostati, i resistori NTC o PTC rilevano la temperatura e comandano l’accensione e lo spegnimento dei motori.</p>
+  </li>
+  <li>
+    <p><strong>Protezione dei circuiti all’accensione</strong>: i resistori NTC/PTC proteggono i circuiti elettronici nel momento critico dell’accensione, quando le correnti iniziali possono essere elevate.</p>
+  </li>
+  <li>
+    <p><strong>Stabilizzazione del punto di lavoro negli amplificatori</strong>: negli amplificatori ad alta fedeltà, i transistor di potenza scaldano e il loro <strong>punto di lavoro</strong> — la condizione operativa ottimale del dispositivo — tende a spostarsi, aumentando la distorsione. Resistori NTC/PTC inseriti nel circuito compensano questa deriva termica, mantenendo stabile il punto di lavoro.</p>
+  </li>
+  <li>
+    <p><strong>Controllo delle ventole nei computer</strong>: resistori PTC nelle schede madri e nei chip rilevano la temperatura e regolano i giri delle ventole di raffreddamento.</p>
+  </li>
+</ol>
+
+<p>Un partecipante racconta un’applicazione pratica ingegnosa: l’uso di un resistore PTC in serie a un elettromagnete per un distributore automatico di cibo per acquario, dove il PTC aumentava la sua resistenza dopo un certo tempo, interrompendo di fatto l’alimentazione dell’elettromagnete e proteggendolo dalla bruciatura.</p>
+
+<hr />
+
+<h2 id="-8-il-resistore-ideale-e-il-generatore-reale--6047">🔋 8. Il resistore ideale e il generatore reale (⏱ 60:47)</h2>
+
+<h3 id="-il-resistore-ideale">🔹 Il resistore ideale</h3>
+
+<p>Il <strong>resistore ideale</strong> — un modello teorico — è un resistore il cui valore in ohm resta costante al variare di:</p>
+
+<ul>
+  <li>La <strong>frequenza</strong> della corrente che lo attraversa</li>
+  <li>La <strong>temperatura</strong> di esercizio</li>
+</ul>
+
+<p>I resistori reali hanno sempre una certa variazione con la temperatura e la frequenza, ma il modello ideale è utile per i calcoli.</p>
+
+<h3 id="-il-generatore-ideale-vs-il-generatore-reale">🔹 Il generatore ideale vs. il generatore reale</h3>
+
+<p>Il <strong>generatore ideale</strong> mantiene la tensione costante al variare della corrente assorbita dal carico. In realtà, generatori ideali non esistono.</p>
+
+<p>Il <strong>generatore reale</strong> si schematizza come un generatore ideale seguito da una <strong>resistenza interna</strong> ($R_i$), di valore molto piccolo (ad esempio 0,01 Ω o 0,1 Ω).</p>
+
+<p>A causa della resistenza interna, la tensione ai morsetti di uscita <strong>diminuisce</strong> all’aumentare della corrente assorbita, perché sulla resistenza interna vale la legge di Ohm:</p>
+
+<blockquote>
+  <p><strong>Caduta di tensione sulla resistenza interna:</strong></p>
+
+\[V_{uscita} = V_{generatore} - R_i \cdot I\]
+</blockquote>
+
+<p><strong>Esempio</strong>: Un generatore ideale da 12 V con resistenza interna di 1 Ω:</p>
+
+<ul>
+  <li>Con assorbimento di 1 A: $V_{uscita} = 12 - 1 \times 1 = 11$ V</li>
+  <li>Con assorbimento di 2 A: $V_{uscita} = 12 - 1 \times 2 = 10$ V</li>
+  <li>Con assorbimento di 3 A: $V_{uscita} = 12 - 1 \times 3 = 9$ V</li>
+</ul>
+
+<p>La curva tensione-corrente del generatore reale è <strong>decrescente</strong>: parte dalla tensione nominale a vuoto e cala progressivamente all’aumentare della corrente. In gergo si dice che l’alimentatore “si inginocchia”.</p>
+
+<p>La resistenza interna è una caratteristica costruttiva: più il generatore è potente e “grosso”, più la resistenza interna sarà bassa. Un piccolo caricabatterie per cellulari avrà una resistenza interna relativamente alta, perché è progettato per erogare poca corrente.</p>
+
+<hr />
+
+<h2 id="-9-le-leggi-di-kirchhoff--6732">🔀 9. Le leggi di Kirchhoff (⏱ 67:32)</h2>
+
+<h3 id="-prima-legge-di-kirchhoff-legge-dei-nodi">🔹 Prima legge di Kirchhoff (legge dei nodi)</h3>
+
+<blockquote>
+  <p><strong>Enunciato</strong>: La somma algebrica delle correnti che confluiscono in un <strong>nodo</strong> di un circuito elettrico è uguale a zero.</p>
+</blockquote>
+
+<p>Un <strong>nodo</strong> — punto di un circuito in cui confluiscono due o più rami — è il luogo dove si applica questa legge. In termini semplici: tutta la corrente che entra in un nodo deve uscirne (gli elettroni non possono accumularsi indefinitamente in un punto).</p>
+
+<blockquote>
+  <p><strong>Formulazione matematica:</strong></p>
+
+\[I_T - I_1 - I_2 = 0 \quad \Rightarrow \quad I_T = I_1 + I_2\]
+</blockquote>
+
+<p><strong>Esempio</strong>: Se in un nodo entra una corrente $I_T = 3$ A, e questa si divide in due rami, potrebbe essere $I_1 = 1$ A e $I_2 = 2$ A, con $1 + 2 = 3$.</p>
+
+<p>Per convenzione, la corrente che entra è positiva, quella che esce è negativa.</p>
+
+<h3 id="-seconda-legge-di-kirchhoff-legge-delle-maglie">🔹 Seconda legge di Kirchhoff (legge delle maglie)</h3>
+
+<blockquote>
+  <p><strong>Enunciato</strong>: La somma algebrica delle tensioni in una <strong>maglia</strong> chiusa di un circuito elettrico è uguale a zero.</p>
+</blockquote>
+
+<p>Una <strong>maglia</strong> — un percorso chiuso che si può individuare all’interno di un circuito, partendo da un punto e tornandovi — è la struttura su cui si applica questa legge. In termini semplici: la tensione del generatore si ripartisce interamente sulle resistenze del circuito.</p>
+
+<blockquote>
+  <p><strong>Formulazione matematica (esempio con 2 resistenze):</strong></p>
+
+\[V_{generatore} - V_{R1} - V_{R2} = 0 \quad \Rightarrow \quad V_{generatore} = V_{R1} + V_{R2}\]
+</blockquote>
+
+<p><strong>Esempio</strong>: Con un generatore da 12 V, se sulla prima resistenza ci sono 9 V e sulla seconda 3 V:
+\(12 - 9 - 3 = 0\)</p>
+
+<p>I 12 V del generatore possono ripartirsi in qualsiasi combinazione (9+3, 6+6, 8+4…) purché la somma torni a 12 V.</p>
+
+<hr />
+
+<h2 id="-10-resistori-in-serie--7211">🔗 10. Resistori in serie (⏱ 72:11)</h2>
+
+<h3 id="-regole-fondamentali">🔹 Regole fondamentali</h3>
+
+<p>In un circuito con resistori in <strong>serie</strong>, valgono tre regole:</p>
+
+<ol>
+  <li><strong>La resistenza totale</strong> è data dalla <strong>somma</strong> delle singole resistenze:</li>
+</ol>
+
+<blockquote>
+\[R_{totale} = R_1 + R_2 + R_3 + \ldots\]
+</blockquote>
+
+<ol>
+  <li>
+    <p><strong>La corrente</strong> ha lo <strong>stesso valore</strong> in qualsiasi punto del circuito (prima legge di Kirchhoff).</p>
+  </li>
+  <li>
+    <p><strong>La somma delle cadute di tensione</strong> su ciascuna resistenza corrisponde alla tensione totale del generatore (seconda legge di Kirchhoff).</p>
+  </li>
+</ol>
+
+<h3 id="-esempio-numerico">🔹 Esempio numerico</h3>
+
+<p>Tre resistenze in serie: $R_1 = 1$ kΩ, $R_2 = 2$ kΩ, $R_3 = 3$ kΩ, alimentate da un generatore da 12 V.</p>
+
+<ul>
+  <li>$R_{totale} = 1000 + 2000 + 3000 = 6000$ Ω = 6 kΩ</li>
+  <li>$I = \frac{V}{R_{totale}} = \frac{12}{6000} = 0{,}002$ A = 2 mA (uguale in tutto il circuito)</li>
+  <li>Cadute di tensione:
+    <ul>
+      <li>$V_{R1} = R_1 \cdot I = 1000 \times 0{,}002 = 2$ V</li>
+      <li>$V_{R2} = R_2 \cdot I = 2000 \times 0{,}002 = 4$ V</li>
+      <li>$V_{R3} = R_3 \cdot I = 3000 \times 0{,}002 = 6$ V</li>
+    </ul>
+  </li>
+  <li>Verifica: $2 + 4 + 6 = 12$ V ✅</li>
+</ul>
+
+<h3 id="-ripartizione-della-tensione">🔹 Ripartizione della tensione</h3>
+
+<p>In un circuito serie, la resistenza <strong>più grande</strong> si “prende” la fetta maggiore di tensione. Nell’esempio, la resistenza da 3 kΩ ha ai suoi capi 6 V (la metà della tensione del generatore), mentre la resistenza da 1 kΩ ha solo 2 V.</p>
+
+<h3 id="-calcolo-della-potenza-dissipata-in-serie">🔹 Calcolo della potenza dissipata in serie</h3>
+
+<p>Usando $P = V \cdot I$ (dato che $I$ è uguale per tutte e $V$ è noto per ciascuna):</p>
+
+<ul>
+  <li>$P_{R1} = 2 \times 0{,}002 = 4$ mW</li>
+  <li>$P_{R2} = 4 \times 0{,}002 = 8$ mW</li>
+  <li>$P_{R3} = 6 \times 0{,}002 = 12$ mW</li>
+</ul>
+
+<p>La resistenza <strong>più grande</strong> dissipa la potenza <strong>maggiore</strong> nel circuito serie.</p>
+
+<h3 id="-trucco-per-lesame">🔹 Trucco per l’esame</h3>
+
+<p>Il valore della resistenza totale in serie è <strong>sempre più grande</strong> di ogni singola resistenza. Se tra le risposte c’è un valore inferiore a una delle resistenze date, è sicuramente sbagliato. Questo permette di escludere risposte errate “a colpo d’occhio”.</p>
+
+<hr />
+
+<h2 id="-11-resistori-in-parallelo--7540">🔀 11. Resistori in parallelo (⏱ 75:40)</h2>
+
+<h3 id="-regole-fondamentali-1">🔹 Regole fondamentali</h3>
+
+<p>In un circuito con resistori in <strong>parallelo</strong>, valgono tre regole:</p>
+
+<ol>
+  <li>
+    <p><strong>La tensione</strong> è la <strong>stessa</strong> ai capi di ogni ramo del parallelo.</p>
+  </li>
+  <li>
+    <p><strong>La corrente totale</strong> è uguale alla <strong>somma delle correnti</strong> di ciascun ramo (prima legge di Kirchhoff).</p>
+  </li>
+  <li>
+    <p><strong>La resistenza equivalente</strong> è sempre <strong>minore</strong> della resistenza più piccola del parallelo.</p>
+  </li>
+</ol>
+
+<h3 id="-formula-generale-della-resistenza-equivalente">🔹 Formula generale della resistenza equivalente</h3>
+
+<blockquote>
+  <p><strong>Formula per n resistori in parallelo:</strong></p>
+
+\[\frac{1}{R_{totale}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \ldots\]
+
+  <p>ovvero:</p>
+
+\[R_{totale} = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \ldots}\]
+</blockquote>
+
+<h3 id="-formula-semplificata-per-due-resistori">🔹 Formula semplificata per due resistori</h3>
+
+<p>Quando i resistori in parallelo sono solo <strong>due</strong>, la formula si semplifica:</p>
+
+<blockquote>
+  <p><strong>Formula per due resistori in parallelo:</strong></p>
+
+\[R_{totale} = \frac{R_1 \times R_2}{R_1 + R_2}\]
+</blockquote>
+
+<h3 id="-esempio-numerico-parallelo-di-tre-resistenze">🔹 Esempio numerico: parallelo di tre resistenze</h3>
+
+<p>Tre resistenze in parallelo: $R_1 = 100$ Ω, $R_2 = 200$ Ω, $R_3 = 500$ Ω, alimentate da un generatore da 100 V.</p>
+
+<ul>
+  <li>Tensione su ciascuna resistenza: 100 V (uguale per tutte)</li>
+  <li>Correnti:
+    <ul>
+      <li>$I_1 = \frac{100}{100} = 1$ A</li>
+      <li>$I_2 = \frac{100}{200} = 0{,}5$ A</li>
+      <li>$I_3 = \frac{100}{500} = 0{,}2$ A</li>
+    </ul>
+  </li>
+  <li>$I_{totale} = 1 + 0{,}5 + 0{,}2 = 1{,}7$ A (verifica con Kirchhoff ✅)</li>
+</ul>
+
+<p>La resistenza <strong>più piccola</strong> lascia passare <strong>più corrente</strong>.</p>
+
+<h3 id="-esempio-numerico-parallelo-di-due-resistenze">🔹 Esempio numerico: parallelo di due resistenze</h3>
+
+<p>$R_1 = 1000$ Ω, $R_2 = 2000$ Ω:</p>
+
+\[R_{totale} = \frac{1000 \times 2000}{1000 + 2000} = \frac{2.000.000}{3000} = 666{,}7\;\Omega\]
+
+<p>Il risultato (666,7 Ω) è inferiore a entrambe le resistenze, e in particolare è inferiore alla più piccola (1000 Ω) ✅.</p>
+
+<h3 id="-casi-particolari">🔹 Casi particolari</h3>
+
+<ul>
+  <li><strong>Due resistenze uguali</strong> in parallelo: il risultato è la <strong>metà</strong> del valore di una singola resistenza.
+    <ul>
+      <li>Esempio: due resistenze da 1000 Ω → $R_{totale} = 500$ Ω.</li>
+      <li>Esempio: due resistenze da 5000 Ω → $R_{totale} = 2500$ Ω.</li>
+    </ul>
+  </li>
+  <li><strong>n resistenze uguali</strong> in parallelo: il risultato è il valore di una singola resistenza diviso per $n$.
+    <ul>
+      <li>Esempio: tre resistenze da 1000 Ω → $R_{totale} = \frac{1000}{3} = 333{,}3$ Ω.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="-potenza-dissipata-in-parallelo">🔹 Potenza dissipata in parallelo</h3>
+
+<p>Usando $P = \frac{V^2}{R}$ (dato che $V$ è uguale per tutte e $R$ è noto per ciascuna):</p>
+
+<ul>
+  <li>$P_{R1} = \frac{100^2}{100} = \frac{10.000}{100} = 100$ W</li>
+  <li>$P_{R2} = \frac{100^2}{200} = \frac{10.000}{200} = 50$ W</li>
+  <li>$P_{R3} = \frac{100^2}{500} = \frac{10.000}{500} = 20$ W</li>
+</ul>
+
+<p>La resistenza <strong>più piccola</strong> dissipa la potenza <strong>maggiore</strong> nel circuito parallelo (perché lascia passare più corrente).</p>
+
+<h3 id="-simmetria-tra-serie-e-parallelo">🔹 Simmetria tra serie e parallelo</h3>
+
+<p>I circuiti serie e parallelo si comportano in modo <strong>speculare</strong>:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Caratteristica</th>
+      <th>Serie</th>
+      <th>Parallelo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Corrente</td>
+      <td>Uguale in tutte le resistenze</td>
+      <td>Si ripartisce tra i rami</td>
+    </tr>
+    <tr>
+      <td>Tensione</td>
+      <td>Si ripartisce tra le resistenze</td>
+      <td>Uguale ai capi di tutte le resistenze</td>
+    </tr>
+    <tr>
+      <td>$R_{totale}$</td>
+      <td>Somma delle resistenze</td>
+      <td>Minore della più piccola</td>
+    </tr>
+    <tr>
+      <td>Fetta maggiore di tensione/corrente</td>
+      <td>La resistenza più grande ha più tensione</td>
+      <td>La resistenza più piccola ha più corrente</td>
+    </tr>
+    <tr>
+      <td>Dissipazione maggiore</td>
+      <td>La resistenza più grande (in serie)</td>
+      <td>La resistenza più piccola (in parallelo)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="-trucco-per-lesame-1">🔹 Trucco per l’esame</h3>
+
+<p>Il valore della resistenza totale in parallelo è <strong>sempre più piccolo</strong> della resistenza più piccola. Se tra le risposte c’è un valore superiore a una delle resistenze date, è sicuramente sbagliato. Questo permette di escludere risposte errate “a colpo d’occhio”, anche senza fare calcoli.</p>
+
+<blockquote>
+  <p>“Nel parallelo la resistenza deve venire sempre più piccola della più piccola.”</p>
+</blockquote>
+
+<h3 id="-come-misurare-le-tensioni-in-un-circuito-serie">🔹 Come misurare le tensioni in un circuito serie</h3>
+
+<p>Un partecipante chiede come misurare le tensioni sulle singole resistenze in un circuito serie. Il docente spiega che bisogna posizionare i puntali del tester <strong>all’ingresso e all’uscita</strong> di ciascuna resistenza, senza interrompere il circuito (altrimenti il circuito si apre e le tensioni misurate non sono più quelle reali).</p>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li>Resistenza elettrica → si misura in → ohm (Ω)</li>
+  <li>Resistenza di un conduttore → dipende da → resistività ($\rho$), lunghezza ($L$), sezione ($S$)</li>
+  <li>Resistenza → è direttamente proporzionale a → lunghezza</li>
+  <li>Resistenza → è inversamente proporzionale a → sezione</li>
+  <li>Resistività → è una costante specifica di → ogni materiale</li>
+  <li>Legge di Ohm → lega → tensione ($V$), corrente ($I$), resistenza ($R$)</li>
+  <li>$V = R \cdot I$ → formula inversa per la corrente → $I = \frac{V}{R}$</li>
+  <li>$V = R \cdot I$ → formula inversa per la resistenza → $R = \frac{V}{I}$</li>
+  <li>Resistore → è un componente che → oppone resistenza al passaggio della corrente</li>
+  <li>Resistore attraversato da corrente → dissipa energia in → calore (effetto Joule)</li>
+  <li>Potenza dissipata → si calcola con → $P = V \cdot I$, $P = R \cdot I^2$, $P = \frac{V^2}{R}$</li>
+  <li>NTC → temperatura aumenta → resistenza diminuisce</li>
+  <li>PTC → temperatura aumenta → resistenza aumenta</li>
+  <li>NTC/PTC → si usano come → sensori di temperatura, protezione circuiti, stabilizzazione punto di lavoro</li>
+  <li>Generatore reale → si modella come → generatore ideale + resistenza interna</li>
+  <li>Resistenza interna → causa → caduta di tensione all’aumentare della corrente</li>
+  <li>Kirchhoff (1ª legge, nodi) → la somma delle correnti in un nodo → è uguale a zero</li>
+  <li>Kirchhoff (2ª legge, maglie) → la somma delle tensioni in una maglia → è uguale a zero</li>
+  <li>Resistori in serie → resistenza totale → somma delle singole resistenze</li>
+  <li>Resistori in serie → la corrente → è uguale ovunque</li>
+  <li>Resistori in serie → la tensione → si ripartisce sulle resistenze</li>
+  <li>Resistori in parallelo → resistenza totale → minore della più piccola</li>
+  <li>Resistori in parallelo → la tensione → è uguale su tutti i rami</li>
+  <li>Resistori in parallelo → la corrente → si ripartisce tra i rami</li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>
+    <p>La <strong>resistenza elettrica</strong> è l’opposizione che un materiale offre al passaggio della corrente e si misura in <strong>ohm</strong> (Ω). 1 Ω = 1 V / 1 A.</p>
+  </li>
+  <li>
+    <p>La resistenza di un conduttore dipende da tre fattori: la <strong>resistività</strong> del materiale ($\rho$, costante), la <strong>lunghezza</strong> (direttamente proporzionale) e la <strong>sezione</strong> (inversamente proporzionale): $R = \rho \cdot \frac{L}{S}$.</p>
+  </li>
+  <li>
+    <p>La <strong>legge di Ohm</strong> si esprime in tre formulazioni equivalenti: $V = R \cdot I$, $I = \frac{V}{R}$, $R = \frac{V}{I}$. Bisogna scegliere la formula giusta in base ai dati forniti dalla domanda.</p>
+  </li>
+  <li>
+    <p>La <strong>potenza dissipata</strong> da un resistore si calcola con tre formule equivalenti: $P = V \cdot I$, $P = R \cdot I^2$, $P = \frac{V^2}{R}$.</p>
+  </li>
+  <li>
+    <p>I resistori <strong>NTC</strong> diminuiscono la resistenza all’aumentare della temperatura; i <strong>PTC</strong> la aumentano. Si usano come sensori di temperatura e per la stabilizzazione dei circuiti.</p>
+  </li>
+  <li>
+    <p>Un <strong>generatore reale</strong> si schematizza come un generatore ideale più una resistenza interna: la tensione di uscita cala all’aumentare della corrente assorbita.</p>
+  </li>
+  <li>
+    <p>La <strong>prima legge di Kirchhoff</strong> (nodi) stabilisce che la somma delle correnti entranti in un nodo è uguale alla somma delle correnti uscenti.</p>
+  </li>
+  <li>
+    <p>La <strong>seconda legge di Kirchhoff</strong> (maglie) stabilisce che la somma algebrica delle tensioni lungo una maglia chiusa è zero.</p>
+  </li>
+  <li>
+    <p>In un circuito <strong>serie</strong>, la resistenza totale è la <strong>somma</strong> delle singole resistenze, la corrente è uguale ovunque, e la tensione si ripartisce proporzionalmente ai valori delle resistenze.</p>
+  </li>
+  <li>
+    <p>In un circuito <strong>parallelo</strong>, la resistenza totale è sempre <strong>inferiore</strong> alla più piccola delle resistenze, la tensione è uguale su ogni ramo, e la corrente si ripartisce. Per due resistori: $R_{totale} = \frac{R_1 \cdot R_2}{R_1 + R_2}$.</p>
+  </li>
+  <li>
+    <p>Nelle formule vanno sempre usate le <strong>unità di misura canoniche</strong> (ampere, volt, ohm) e non i multipli/sottomultipli, per evitare errori di calcolo.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>
+    <p>Un conduttore in rame lungo 10 m ha una certa resistenza. Se raddoppio la lunghezza a 20 m mantenendo la stessa sezione, come cambia la resistenza? E se invece raddoppio la sezione mantenendo la stessa lunghezza?</p>
+  </li>
+  <li>
+    <p>Spiega perché un resistore dissipa energia in calore quando viene attraversato dalla corrente. Quale effetto fisico è coinvolto?</p>
+  </li>
+  <li>
+    <p>Un generatore ideale da 12 V con resistenza interna di 0,5 Ω eroga una corrente di 4 A. Qual è la tensione ai morsetti di uscita? Descrivi il ragionamento.</p>
+  </li>
+  <li>
+    <p>In un circuito serie con tre resistenze alimentate da un generatore, la resistenza più grande “si prende” la fetta maggiore di tensione. Spiega perché, utilizzando la legge di Ohm.</p>
+  </li>
+  <li>
+    <p>In un circuito parallelo, invece, la resistenza più piccola “si prende” la fetta maggiore di corrente. Perché questa situazione è speculare rispetto al circuito serie?</p>
+  </li>
+  <li>
+    <p>Se metto in parallelo due resistenze da 4700 Ω ciascuna, qual è la resistenza equivalente? E se le metto in serie? Come si distinguono le due situazioni a colpo d’occhio?</p>
+  </li>
+  <li>
+    <p>Un resistore NTC viene utilizzato nel termostato di un frigorifero. Spiega come funziona il meccanismo: cosa succede alla resistenza quando la temperatura nel frigorifero sale? Come viene usata questa informazione per controllare il compressore?</p>
+  </li>
+  <li>
+    <p>Per quale motivo le domande d’esame del Ministero possono risultare “scivolose”? Qual è il metodo suggerito dal docente per affrontarle?</p>
+  </li>
+  <li>
+    <p>Un circuito parallelo con tre resistenze da 100 Ω, 200 Ω e 500 Ω è alimentato da 100 V. Calcola la potenza dissipata da ciascuna resistenza. Quale resistenza scalda di più e perché?</p>
+  </li>
+  <li>
+    <p>Perché nelle formule è importante convertire sempre i valori nelle unità di misura canoniche (ohm, ampere, volt) prima di eseguire i calcoli? Fai un esempio pratico con i milliampere.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>Amperora (Ah)</strong> — Unità di misura della capacità delle batterie; indica quanta corrente una batteria può erogare per quanto tempo.</li>
+  <li><strong>Caduta di tensione</strong> — Riduzione della tensione che si verifica ai capi di un componente attraversato da corrente.</li>
+  <li><strong>Codice dei colori</strong> — Sistema di bande colorate dipinte sui resistori per indicarne il valore e la tolleranza.</li>
+  <li><strong>Differenza di potenziale</strong> — Differenza di livello elettrico tra due punti; si misura in volt.</li>
+  <li><strong>Effetto Joule</strong> — Fenomeno per cui la corrente che attraversa una resistenza produce calore.</li>
+  <li><strong>Generatore ideale</strong> — Modello teorico di generatore che mantiene la tensione costante indipendentemente dalla corrente assorbita.</li>
+  <li><strong>Generatore reale</strong> — Generatore che si modellizza come un generatore ideale in serie con una resistenza interna.</li>
+  <li><strong>Giga (G)</strong> — Prefisso che indica il miliardo ($10^9$).</li>
+  <li><strong>Kilo (k)</strong> — Prefisso che indica il migliaio ($10^3$).</li>
+  <li><strong>Kirchhoff (prima legge, legge dei nodi)</strong> — La somma algebrica delle correnti in un nodo è uguale a zero.</li>
+  <li><strong>Kirchhoff (seconda legge, legge delle maglie)</strong> — La somma algebrica delle tensioni in una maglia chiusa è uguale a zero.</li>
+  <li><strong>Legge di Ohm</strong> — Legge che lega tensione, corrente e resistenza: $V = R \cdot I$.</li>
+  <li><strong>Maglia</strong> — Percorso chiuso individuabile all’interno di un circuito elettrico.</li>
+  <li><strong>Mega (M)</strong> — Prefisso che indica il milione ($10^6$).</li>
+  <li><strong>Micro (μ)</strong> — Prefisso che indica il milionesimo ($10^{-6}$).</li>
+  <li><strong>Milli (m)</strong> — Prefisso che indica il millesimo ($10^{-3}$).</li>
+  <li><strong>Nano (n)</strong> — Prefisso che indica il miliardesimo ($10^{-9}$).</li>
+  <li><strong>Nodo</strong> — Punto di un circuito in cui confluiscono due o più rami.</li>
+  <li><strong>Notazione ingegneristica</strong> — Sistema di rappresentazione dei numeri con potenze di 10 a passi di 3 (kilo, mega, giga, milli, micro, nano…).</li>
+  <li><strong>NTC (Negative Temperature Coefficient)</strong> — Tipo di resistore la cui resistenza diminuisce all’aumentare della temperatura.</li>
+  <li><strong>Ohm (Ω)</strong> — Unità di misura della resistenza elettrica.</li>
+  <li><strong>Parametro parassita</strong> — Caratteristica indesiderata di un componente (es. la resistenza di un conduttore ideale dovrebbe essere zero).</li>
+  <li><strong>Pico (p)</strong> — Prefisso che indica $10^{-12}$.</li>
+  <li><strong>PTC (Positive Temperature Coefficient)</strong> — Tipo di resistore la cui resistenza aumenta all’aumentare della temperatura.</li>
+  <li><strong>Punto di lavoro</strong> — Condizione operativa ottimale di un dispositivo elettronico (es. transistor), che può variare con la temperatura.</li>
+  <li><strong>Resistenza elettrica</strong> — Opposizione che un materiale oppone al passaggio della corrente elettrica; si misura in ohm.</li>
+  <li><strong>Resistenza interna</strong> — Resistenza propria di un generatore reale, che causa una caduta di tensione all’aumentare della corrente erogata.</li>
+  <li><strong>Resistività (ρ)</strong> — Costante specifica di ogni materiale che esprime la sua attitudine a opporsi al passaggio della corrente.</li>
+  <li><strong>Resistore</strong> — Componente elettronico progettato per avere un determinato valore di resistenza.</li>
+  <li><strong>Resistore ideale</strong> — Modello teorico di resistore il cui valore resta costante al variare della frequenza e della temperatura.</li>
+  <li><strong>Tolleranza</strong> — Margine di variazione accettabile del valore nominale di un resistore, espressa in percentuale.</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatore principale</strong>: Paolo (Paolo Cavecchioli, docente del corso)</li>
+  <li>👨‍🏫 <strong>Co-relatore</strong>: Sauro (Fabrizio/Sauro, collaboratore e membro della sezione ARI)</li>
+  <li>👨‍🏫 <strong>Collaboratore</strong>: Alessio (membro della sezione ARI, assiste nell’organizzazione)</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<ul>
+  <li><strong>Numero Lezione</strong>: 02</li>
+  <li><strong>Data</strong>: 12/03/2025</li>
+  <li><strong>Durata stimata</strong>: circa 2 ore</li>
+  <li><strong>Numero argomenti trattati</strong>: 11</li>
+  <li><strong>Keywords</strong>: resistenza elettrica, ohm, legge di Ohm, resistore, resistività, NTC, PTC, generatore reale, resistenza interna, leggi di Kirchhoff, nodo, maglia, resistori in serie, resistori in parallelo, multipli, sottomultipli, potenza dissipata, effetto Joule, codice colori, kilohm, megaohm</li>
+</ul>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Domande d'Esame - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/ari-crt-corso-2025/">🏠 Home</a>
+    <a href="/ari-crt-corso-2025/guide-studio/">📖 Guide di Studio</a>
+    <a href="/ari-crt-corso-2025/glossario.html">📚 Glossario</a>
+    <a href="/ari-crt-corso-2025/domande-esame.html">❓ Domande</a>
+    <a href="/ari-crt-corso-2025/risorse.html">🔗 Risorse</a>
+  </nav>
+  
+  <main>
+    
+    
+    <h1 id="-domande-desame">❓ Domande d’Esame</h1>
+
+<p>Raccolta di domande tipiche che potrebbero comparire nell’esame per la patente di radioamatore.</p>
+
+<h2 id="-struttura-dellesame">📋 Struttura dell’Esame</h2>
+
+<p>L’esame per la patente italiana di radioamatore consiste in:</p>
+
+<ul>
+  <li><strong>30 domande a risposta multipla</strong></li>
+  <li><strong>Tempo disponibile: 45 minuti</strong></li>
+  <li><strong>Punteggio minimo per superare: 24/30 (80%)</strong></li>
+</ul>
+
+<p>Le domande sono suddivise in tre argomenti principali:</p>
+
+<ol>
+  <li><strong>Regolamenti e Normative</strong> (circa 10 domande)</li>
+  <li><strong>Tecnica e Teoria</strong> (circa 15 domande)</li>
+  <li><strong>Procedure Operative</strong> (circa 5 domande)</li>
+</ol>
+
+<h2 id="-argomenti-principali">🎯 Argomenti Principali</h2>
+
+<h3 id="1-elettrotecnica-di-base">1. Elettrotecnica di Base</h3>
+
+<ul>
+  <li>Legge di Ohm e sue applicazioni</li>
+  <li>Circuiti in serie e parallelo</li>
+  <li>Potenza elettrica e energia</li>
+  <li>Corrente alternata e continua</li>
+  <li>Impedenza, reattanza, risonanza</li>
+</ul>
+
+<p><strong>Lezioni correlate</strong>: <a href="/ari-crt-corso-2025/guide-studio/lezione_02.html">02</a>, <a href="/ari-crt-corso-2025/guide-studio/lezione_03.html">03</a>, <a href="/ari-crt-corso-2025/guide-studio/lezione_04.html">04</a></p>
+
+<h3 id="2-componenti-elettronici">2. Componenti Elettronici</h3>
+
+<ul>
+  <li>Resistori, condensatori, induttori</li>
+  <li>Diodi e loro applicazioni</li>
+  <li>Transistor e amplificatori</li>
+  <li>Circuiti integrati</li>
+</ul>
+
+<p><strong>Lezioni correlate</strong>: <a href="/ari-crt-corso-2025/guide-studio/lezione_05.html">05</a>, <a href="/ari-crt-corso-2025/guide-studio/lezione_06.html">06</a>, <a href="/ari-crt-corso-2025/guide-studio/lezione_07.html">07</a></p>
+
+<h3 id="3-circuiti-rf">3. Circuiti RF</h3>
+
+<ul>
+  <li>Oscillatori</li>
+  <li>Mixer e moltiplicatori</li>
+  <li>Amplificatori RF</li>
+  <li>Modulazione (AM, FM, SSB)</li>
+</ul>
+
+<p><strong>Lezioni correlate</strong>: <a href="/ari-crt-corso-2025/guide-studio/lezione_08.html">08</a>, <a href="/ari-crt-corso-2025/guide-studio/lezione_09.html">09</a>, <a href="/ari-crt-corso-2025/guide-studio/lezione_10.html">10</a>, <a href="/ari-crt-corso-2025/guide-studio/lezione_11.html">11</a></p>
+
+<h3 id="4-propagazione-e-antenne">4. Propagazione e Antenne</h3>
+
+<ul>
+  <li>Strati dell’atmosfera (ionosfera)</li>
+  <li>Modi di propagazione</li>
+  <li>Tipi di antenne</li>
+  <li>Diagrammi di radiazione</li>
+  <li>Linee di trasmissione e ROS</li>
+</ul>
+
+<p><strong>Lezioni correlate</strong>: <a href="/ari-crt-corso-2025/guide-studio/lezione_12.html">12</a>, <a href="/ari-crt-corso-2025/guide-studio/lezione_13.html">13</a>, <a href="/ari-crt-corso-2025/guide-studio/lezione_14.html">14</a>, <a href="/ari-crt-corso-2025/guide-studio/lezione_15.html">15</a></p>
+
+<h3 id="5-misure-e-strumenti">5. Misure e Strumenti</h3>
+
+<ul>
+  <li>Multimetro</li>
+  <li>Oscilloscopio</li>
+  <li>Wattmetro</li>
+  <li>Analizzatore di spettro</li>
+  <li>Grid-dip meter</li>
+</ul>
+
+<p><strong>Lezioni correlate</strong>: <a href="/ari-crt-corso-2025/guide-studio/lezione_16.html">16</a></p>
+
+<h3 id="6-interferenze-e-sicurezza">6. Interferenze e Sicurezza</h3>
+
+<ul>
+  <li>EMC e compatibilità elettromagnetica</li>
+  <li>Filtri e schermature</li>
+  <li>Messa a terra</li>
+  <li>Sicurezza elettrica</li>
+  <li>Limiti di esposizione RF</li>
+</ul>
+
+<p><strong>Lezioni correlate</strong>: <a href="/ari-crt-corso-2025/guide-studio/lezione_18.html">18</a>, <a href="/ari-crt-corso-2025/guide-studio/lezione_19.html">19</a></p>
+
+<h3 id="7-normative">7. Normative</h3>
+
+<ul>
+  <li>Regolamento nazionale italiano</li>
+  <li>Accordi CEPT</li>
+  <li>ITU Radio Regulations</li>
+  <li>Bande e potenze assegnate</li>
+  <li>Obblighi del radioamatore</li>
+</ul>
+
+<p><strong>Lezioni correlate</strong>: <a href="/ari-crt-corso-2025/guide-studio/lezione_20.html">20</a>, <a href="/ari-crt-corso-2025/guide-studio/lezione_21.html">21</a></p>
+
+<h3 id="8-procedure-operative">8. Procedure Operative</h3>
+
+<ul>
+  <li>Alfabeto fonetico internazionale</li>
+  <li>Codice Q</li>
+  <li>Procedure di chiamata</li>
+  <li>Contest e DX</li>
+  <li>Emergenze e protezione civile</li>
+</ul>
+
+<p><strong>Lezioni correlate</strong>: <a href="/ari-crt-corso-2025/guide-studio/lezione_22.html">22</a></p>
+
+<h2 id="-esempi-di-domande-tipiche">📝 Esempi di Domande Tipiche</h2>
+
+<h3 id="elettrotecnica">Elettrotecnica</h3>
+
+<p><strong>Q1</strong>: Qual è la resistenza equivalente di due resistori da 100Ω in parallelo?</p>
+<ul>
+  <li>A) 200Ω</li>
+  <li>B) 100Ω</li>
+  <li>C) 50Ω ✓</li>
+  <li>D) 25Ω</li>
+</ul>
+
+<p><strong>Q2</strong>: Cosa indica il valore RMS di una tensione alternata?</p>
+<ul>
+  <li>A) Il valore massimo</li>
+  <li>B) Il valore medio</li>
+  <li>C) Il valore efficace ✓</li>
+  <li>D) Il valore picco-picco</li>
+</ul>
+
+<h3 id="modulazione">Modulazione</h3>
+
+<p><strong>Q3</strong>: Quale modulazione è più efficiente in termini di potenza?</p>
+<ul>
+  <li>A) AM</li>
+  <li>B) FM</li>
+  <li>C) SSB ✓</li>
+  <li>D) CW</li>
+</ul>
+
+<p><strong>Q4</strong>: In un segnale AM, quanta potenza è contenuta nella portante?</p>
+<ul>
+  <li>A) 25%</li>
+  <li>B) 50%</li>
+  <li>C) 66% ✓</li>
+  <li>D) 100%</li>
+</ul>
+
+<h3 id="antenne">Antenne</h3>
+
+<p><strong>Q5</strong>: Qual è la lunghezza approssimativa di un dipolo risonante a metà onda per 14 MHz?</p>
+<ul>
+  <li>A) 5 metri</li>
+  <li>B) 10 metri ✓</li>
+  <li>C) 20 metri</li>
+  <li>D) 40 metri</li>
+</ul>
+
+<p><strong>Q6</strong>: Cosa indica un ROS di 1:1?</p>
+<ul>
+  <li>A) Disadattamento totale</li>
+  <li>B) Adattamento perfetto ✓</li>
+  <li>C) Antenna rotta</li>
+  <li>D) Linea corta</li>
+</ul>
+
+<h3 id="normative">Normative</h3>
+
+<p><strong>Q7</strong>: Qual è la potenza massima consentita in Italia per le HF?</p>
+<ul>
+  <li>A) 100W</li>
+  <li>B) 250W</li>
+  <li>C) 500W ✓</li>
+  <li>D) 1000W</li>
+</ul>
+
+<p><strong>Q8</strong>: Cosa significa CEPT?</p>
+<ul>
+  <li>A) Confederazione Europea Poste e Telecomunicazioni ✓</li>
+  <li>B) Centro Europeo Patenti Tecniche</li>
+  <li>C) Comitato Esami Patenti Telefoniche</li>
+  <li>D) Certificazione Europea Per Trasmissioni</li>
+</ul>
+
+<h3 id="sicurezza">Sicurezza</h3>
+
+<p><strong>Q9</strong>: Cosa deve fare un radioamatore per garantire la sicurezza delle installazioni?</p>
+<ul>
+  <li>A) Usare solo antenne commerciali</li>
+  <li>B) Effettuare una corretta messa a terra ✓</li>
+  <li>C) Limitare la potenza a 10W</li>
+  <li>D) Non trasmettere di notte</li>
+</ul>
+
+<p><strong>Q10</strong>: Qual è il limite di esposizione ai campi RF per il pubblico a 30 MHz?</p>
+<ul>
+  <li>A) 20 V/m</li>
+  <li>B) 28 V/m ✓</li>
+  <li>C) 40 V/m</li>
+  <li>D) 60 V/m</li>
+</ul>
+
+<h2 id="-strategie-di-studio">🎓 Strategie di Studio</h2>
+
+<h3 id="1-studia-in-modo-sistematico">1. Studia in Modo Sistematico</h3>
+<ul>
+  <li>Segui l’ordine delle lezioni</li>
+  <li>Non saltare argomenti “difficili”</li>
+  <li>Rivedi i concetti fondamentali</li>
+</ul>
+
+<h3 id="2-pratica-con-quiz">2. Pratica con Quiz</h3>
+<ul>
+  <li>Fai molti quiz di prova</li>
+  <li>Analizza gli errori</li>
+  <li>Ripassa gli argomenti deboli</li>
+</ul>
+
+<h3 id="3-usa-mnemotecniche">3. Usa Mnemotecniche</h3>
+<ul>
+  <li>Formule: scrivi e riscrivi</li>
+  <li>Codici: usa flashcard</li>
+  <li>Procedure: simula situazioni reali</li>
+</ul>
+
+<h3 id="4-forma-gruppi-di-studio">4. Forma Gruppi di Studio</h3>
+<ul>
+  <li>Discuti con altri studenti</li>
+  <li>Spiega concetti agli altri</li>
+  <li>Condividi trucchi e strategie</li>
+</ul>
+
+<h2 id="-risorse-per-esercitarti">🔗 Risorse per Esercitarti</h2>
+
+<ul>
+  <li><strong><a href="https://www.aricarpi.it/simulatore/">Simulatore Esame Online</a></strong> — Quiz ufficiali</li>
+  <li><strong><a href="https://www.mise.gov.it/">Database Domande MISE</a></strong> — Domande ufficiali</li>
+  <li><strong><a href="https://www.ari.it/patenti/">Quiz ARI</a></strong> — Esercitazioni</li>
+</ul>
+
+<h2 id="-come-iscriversi-allesame">📅 Come Iscriversi all’Esame</h2>
+
+<ol>
+  <li>Contatta l’ufficio territoriale MISE più vicino</li>
+  <li>Compila il modulo di iscrizione</li>
+  <li>Paga il bollettino (circa 50€)</li>
+  <li>Presentati con documento d’identità</li>
+</ol>
+
+<p><strong>Contatti MISE</strong>: <a href="https://www.mise.gov.it/">www.mise.gov.it</a></p>
+
+<hr />
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="./">← Torna alla Home</a></td>
+      <td><a href="guide-studio/">Guida allo Studio →</a></td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+</body>
+</html>

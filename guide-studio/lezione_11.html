@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 11 - Trasmettitori - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/ari-crt-corso-2025/">🏠 Home</a>
+    <a href="/ari-crt-corso-2025/guide-studio/">📖 Guide di Studio</a>
+    <a href="/ari-crt-corso-2025/glossario.html">📚 Glossario</a>
+    <a href="/ari-crt-corso-2025/domande-esame.html">❓ Domande</a>
+    <a href="/ari-crt-corso-2025/risorse.html">🔗 Risorse</a>
+  </nav>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/ari-crt-corso-2025/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_10.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_12.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_11.html" selected>📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-11---trasmettitori">📘 Lezione 11 - Trasmettitori</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia</strong>: Radiotecnica — Il Diodo e gli Alimentatori</li>
+  <li><strong>Tempo di studio stimato</strong>: 2 ore e 30 minuti</li>
+  <li><strong>Prerequisiti</strong>: Concetti di tensione alternata e continua, trasformatori, condensatori, resistenza e impedenza (Lezioni 04-06), bande radioamatoriali e normativa (Lezioni 09-10)</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Comprendere il funzionamento dei semiconduttori e della giunzione P-N</li>
+      <li>Conoscere i cinque tipi di diodi e le loro applicazioni</li>
+      <li>Capire lo schema a blocchi di un alimentatore lineare (trasformatore, raddrizzatore, filtro, stabilizzatore)</li>
+      <li>Distinguere raddrizzamento a singola e doppia semionda</li>
+      <li>Comprendere il principio dell’isolamento galvanico e la sua importanza per la sicurezza</li>
+      <li>Conoscere i vantaggi e svantaggi degli alimentatori a commutazione (switching) rispetto ai lineari</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h3 id="1--correzione-quiz-lezione-10--0002">1. 🔍 Correzione Quiz Lezione 10 (⏱ 00:02)</h3>
+
+<p>La lezione si apre con la correzione del quiz della settimana precedente (Lezione 10), condotta da Silvio IZ5DIY. I risultati sono complessivamente buoni, con la maggior parte degli studenti che ha risposto correttamente.</p>
+
+<p>Le domande più significative riguardano:</p>
+
+<ul>
+  <li><strong>88 metri non è una banda radioamatoriale</strong>: la risposta corretta è che 88 m non è una banda assegnata ai radioamatori. È fondamentale conoscere le bande assegnate (160 m, 80 m, 40 m, 20 m, ecc.) e riconoscere quelle che non lo sono.</li>
+  <li><strong>VHF = 30-300 MHz</strong>: le gamme di frequenza procedono per fattori di 10: HF va da 3 a 30 MHz, VHF da 30 a 300 MHz, UHF da 300 a 3000 MHz. Basta ricordare la progressione moltiplicativa per 10.</li>
+  <li><strong>L’America appartiene alla Regione 2 ITU</strong>: l’Italia è nella Regione 1, l’America nella Regione 2 e l’Asia/Oceania nella Regione 3.</li>
+  <li><strong>La patente di radioamatore non scade</strong>: questo è un concetto ricorrente all’esame. La patente non ha scadenza, a differenza dell’<strong>autorizzazione generale</strong> che scade ogni 10 anni.</li>
+  <li><strong>145 MHz è la frequenza centrale della banda dei 2 metri</strong>: la banda VHF dei 2 m va da 144 a 146 MHz, quindi il centro è a 145 MHz.</li>
+</ul>
+
+<hr />
+
+<h3 id="2--il-diodo--semiconduttori-e-giunzione-p-n--0900">2. 📡 Il Diodo — Semiconduttori e Giunzione P-N (⏱ 09:00)</h3>
+
+<h4 id="-introduzione-ai-semiconduttori">🔹 Introduzione ai Semiconduttori</h4>
+
+<p>Il diodo è un componente elettronico fondamentale costruito a partire da materiali <strong>semiconduttori</strong>. Per comprenderne il funzionamento, Paolo introduce il concetto di resistività dei materiali:</p>
+
+<ul>
+  <li><strong>Conduttori</strong> (es. rame): resistività molto bassa, dell’ordine dei milliohm</li>
+  <li><strong>Isolanti</strong> (es. vetro, ceramica): resistività elevatissima, dell’ordine di centinaia di milioni di ohm</li>
+  <li><strong>Semiconduttori</strong> (es. silicio, germanio): resistività intermedia, tra 100.000 e 1.000.000 di ohm</li>
+</ul>
+
+<p>Il <strong>silicio</strong> è il semiconduttore più utilizzato nell’industria elettronica. Allo stato puro (intrinseco) il silicio ha quattro elettroni di valenza che formano legami covalenti con gli atomi adiacenti, creando una struttura cristallina stabile.</p>
+
+<h4 id="-il-drogaggio-extra--non-materia-desame">🔹 Il Drogaggio (EXTRA — non materia d’esame)</h4>
+
+<p>Paolo approfondisce, a titolo didattico, il processo di <strong>drogaggio</strong> (<strong>doping</strong>) che rende il silicio utile per l’elettronica:</p>
+
+<ul>
+  <li><strong>Drogaggio di tipo P</strong>: si introducono atomi con 3 elettroni di valenza (es. <strong>indio</strong>). La mancanza di un elettrone nel reticolo cristallino crea una <strong>lacuna</strong> (hole), cioè una “buca” che si comporta come una carica positiva mobile.</li>
+  <li><strong>Drogaggio di tipo N</strong>: si introducono atomi con 5 elettroni di valenza (es. <strong>arsenico</strong>). L’elettrone in eccesso è libero di muoversi, creando portatori di carica negativi.</li>
+</ul>
+
+<p>Quando si uniscono una regione P e una regione N si forma la <strong>giunzione P-N</strong>. All’interfaccia si crea una <strong>regione di svuotamento</strong> (depletion region), priva di portatori di carica, che agisce come un isolante naturale.</p>
+
+<h4 id="-polarizzazione-del-diodo">🔹 Polarizzazione del Diodo</h4>
+
+<p>Il diodo ha due terminali:</p>
+
+<ul>
+  <li><strong>Anodo</strong> (A): terminale positivo</li>
+  <li><strong>Catodo</strong> (K): terminale negativo (contrassegnato da una banda sul corpo del componente)</li>
+</ul>
+
+<p>Il simbolo circuitale del diodo è un triangolo che punta verso una barra; la corrente convenzionale scorre nella direzione della freccia (dall’anodo al catodo).</p>
+
+<ul>
+  <li><strong>Polarizzazione diretta</strong> (forward bias): si applica tensione positiva all’anodo rispetto al catodo. La regione di svuotamento si assottiglia e, superata la <strong>tensione di soglia</strong> di circa <strong>0,7 V</strong> per il silicio (0,3 V per il germanio), il diodo conduce come un interruttore chiuso.</li>
+  <li><strong>Polarizzazione inversa</strong> (reverse bias): si applica tensione positiva al catodo rispetto all’anodo. La regione di svuotamento si allarga e il diodo non conduce, comportandosi come un interruttore aperto.</li>
+</ul>
+
+<blockquote>
+  <p><strong>Regola pratica</strong>: il diodo si fa attraversare dalla corrente solo quando l’anodo è positivo rispetto al catodo.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="3--i-cinque-tipi-di-diodi--3000">3. 🔧 I Cinque Tipi di Diodi (⏱ 30:00)</h3>
+
+<p>Questa sezione è <strong>materia d’esame</strong>. Paolo elenca e descrive cinque tipologie fondamentali di diodi:</p>
+
+<h4 id="-1-diodo-raddrizzatore">🔹 1. Diodo Raddrizzatore</h4>
+
+<p>Il diodo raddrizzatore è il tipo più comune e viene utilizzato per trasformare la corrente alternata (AC) in corrente continua (DC). Quando è in conduzione, presenta una caduta di tensione tipica di <strong>0,7 V</strong>. Le sue caratteristiche principali sono:</p>
+
+<ul>
+  <li><strong>Tensione inversa massima</strong>: la massima tensione che può sopportare in polarizzazione inversa senza danneggiarsi</li>
+  <li><strong>Corrente massima</strong>: la massima corrente che può attraversarlo</li>
+</ul>
+
+<blockquote>
+  <p><strong>Esempio</strong>: il diodo <strong>1N4007</strong> ha una tensione inversa massima di 1000 V e una corrente massima di 1 A.</p>
+</blockquote>
+
+<h4 id="-2-led-light-emitting-diode">🔹 2. LED (Light Emitting Diode)</h4>
+
+<p>Il <strong>LED</strong> — <strong>diodo a emissione luminosa</strong> — emette luce quando è polarizzato direttamente. Il meccanismo fisico è il seguente: gli elettroni energizzati che attraversano la giunzione, quando si ricombinano con le lacune, rilasciano energia sotto forma di <strong>fotoni</strong> (luce). Il colore della luce dipende dal materiale semiconduttore utilizzato e dalla larghezza della banda proibita (band gap).</p>
+
+<h4 id="-3-diodo-zener">🔹 3. Diodo Zener</h4>
+
+<p>Il diodo <strong>Zener</strong> è progettato per funzionare in <strong>polarizzazione inversa</strong>. Quando la tensione inversa raggiunge un valore specifico chiamato <strong>tensione di Zener</strong>, il diodo inizia a condurre mantenendo la tensione ai suoi capi costante a quel valore. Questa proprietà lo rende ideale come <strong>stabilizzatore di tensione</strong>.</p>
+
+<blockquote>
+  <p><strong>Esempio</strong>: uno Zener da 12 V mantiene costantemente 12 V ai suoi terminali indipendentemente dalle variazioni del carico, compensando le variazioni di corrente secondo la legge di Kirchhoff.</p>
+</blockquote>
+
+<p>Nello schema tipico, lo Zener è collegato al circuito di stabilizzazione degli alimentatori per fornire una tensione di riferimento fissa.</p>
+
+<h4 id="-4-diodo-varicap">🔹 4. Diodo Varicap</h4>
+
+<p>Il diodo <strong>Varicap</strong> (o <strong>varactor</strong>) funziona in <strong>polarizzazione inversa</strong> e si comporta come un <strong>condensatore variabile</strong>. La regione di svuotamento della giunzione P-N agisce come il dielettrico tra le “armature” del condensatore: variando la tensione inversa applicata, si modifica la larghezza della regione di svuotamento e quindi la capacità.</p>
+
+<p>Questo lo rende ideale per l’<strong>accordo elettronico</strong> dei circuiti risonanti (es. sintonizzazione radio senza componenti meccanici).</p>
+
+<h4 id="-5-diodo-schottky-hot-carrier">🔹 5. Diodo Schottky (Hot Carrier)</h4>
+
+<p>Il diodo <strong>Schottky</strong> (detto anche <strong>hot carrier</strong>) ha una giunzione <strong>metallo-semiconduttore</strong> anziché la classica P-N. Questo gli conferisce una velocità di commutazione molto elevata, rendendolo adatto a lavorare ad <strong>alte frequenze</strong> (UHF, SHF, dell’ordine dei GHz). Nel simbolo circuitale, il catodo presenta una forma a “S”.</p>
+
+<hr />
+
+<h3 id="4--alimentatori-lineari--schema-a-blocchi--6300">4. ⚡ Alimentatori Lineari — Schema a Blocchi (⏱ 63:00)</h3>
+
+<p>L’alimentatore lineare trasforma la tensione alternata della rete elettrica (220-230 V AC a 50 Hz) in una tensione continua stabile (tipicamente 12 V DC) per alimentare apparecchiature elettroniche come le radio. Lo <strong>schema a blocchi</strong> è composto da quattro stadi in cascata:</p>
+
+\[\text{Rete AC 220V} \rightarrow \boxed{\text{Trasformatore}} \rightarrow \boxed{\text{Raddrizzatore}} \rightarrow \boxed{\text{Filtro}} \rightarrow \boxed{\text{Stabilizzatore}} \rightarrow \text{12V DC}\]
+
+<h4 id="-stadio-1-trasformatore--6444">🔹 Stadio 1: Trasformatore (⏱ 64:44)</h4>
+
+<p>Il trasformatore svolge due funzioni fondamentali:</p>
+
+<ol>
+  <li>
+    <p><strong>Abbassamento della tensione</strong>: trasforma i 220 V AC della rete in una tensione più vicina a quella desiderata in uscita (es. da 220 V a 18 V AC per ottenere poi 12 V DC in uscita).</p>
+  </li>
+  <li>
+    <p><strong>Isolamento galvanico</strong>: garantisce la separazione elettrica tra il circuito primario (rete 220 V) e il circuito secondario (apparecchiatura). Tra primario e secondario di un trasformatore non c’è passaggio di elettroni: l’energia si trasferisce tramite <strong>campi magnetici</strong>. Questo impedisce che un operatore, toccando i terminali di uscita dell’alimentatore, possa chiudere un circuito elettrico con il suolo e subire una scarica elettrica.</p>
+  </li>
+</ol>
+
+<blockquote>
+  <p><strong>Isolamento galvanico</strong> — separazione elettrica completa tra due circuiti, che impedisce il passaggio di corrente tra essi. È uno dei principi fondamentali della <strong>sicurezza elettrica</strong>.</p>
+</blockquote>
+
+<p>Paolo illustra il pericolo della mancanza di isolamento galvanico: se un carico è collegato direttamente alla rete (fase + neutro), una persona che tocca un conduttore può chiudere un circuito attraverso il proprio corpo e il suolo verso la presa di terra della centrale Enel, subendo una scarica potenzialmente mortale. Anche il filo del neutro, che è messo a terra nella centrale Enel, può presentare una tensione significativa rispetto a terra quando arriva nelle abitazioni, a causa delle cadute di tensione lungo centinaia di metri di cavo e delle utenze intermedie.</p>
+
+<blockquote>
+  <p>⚠️ Gli <strong>autotrasformatori</strong>, usati in passato per motivi economici, non realizzano l’isolamento galvanico e sono oggi fuori legge per ragioni di sicurezza.</p>
+</blockquote>
+
+<h4 id="-stadio-2-raddrizzatore--7307">🔹 Stadio 2: Raddrizzatore (⏱ 73:07)</h4>
+
+<p>Il raddrizzatore trasforma la tensione alternata in uscita dal trasformatore in una <strong>tensione continua pulsante</strong>, utilizzando diodi.</p>
+
+<blockquote>
+  <p><strong>Tensione continua</strong> — tensione in cui la corrente scorre sempre nello stesso verso (non necessariamente a valore costante).</p>
+</blockquote>
+
+<p><strong>Raddrizzatore a singola semionda</strong>: utilizza un singolo diodo che lascia passare solo le semionde positive della sinusoide. In uscita si ottiene una tensione pulsante alla stessa frequenza dell’ingresso (50 Hz), con lunghi intervalli a tensione zero tra un impulso e l’altro.</p>
+
+<p><strong>Raddrizzatore a doppia semionda</strong>: recupera anche le semionde negative invertendole, producendo una tensione pulsante a <strong>frequenza doppia</strong> rispetto all’ingresso (100 Hz con ingresso a 50 Hz). Questo riduce significativamente i “buchi” nella tensione di uscita, avvicinandola a una tensione costante.</p>
+
+<p>Due realizzazioni circuitali principali:</p>
+
+<ol>
+  <li>
+    <p><strong>Con trasformatore a presa centrale</strong>: usa un trasformatore con secondario doppio e due diodi che lavorano in alternanza. Il diodo superiore conduce durante le semionde dispari, il diodo inferiore durante le semionde pari.</p>
+  </li>
+  <li>
+    <p><strong>Ponte di Graetz</strong> (raddrizzatore a ponte): usa quattro diodi disposti a forma di “ponte” quadrato e un trasformatore con secondario singolo. In ogni semionda, una coppia di diodi conduce (D2+D4 nella semionda positiva, D1+D3 nella semionda negativa). Questo è il metodo più comunemente usato e si trova spesso come componente integrato.</p>
+  </li>
+</ol>
+
+<h4 id="-stadio-3-filtro-di-livellamento--8718">🔹 Stadio 3: Filtro di Livellamento (⏱ 87:18)</h4>
+
+<p>Il filtro di livellamento utilizza <strong>condensatori elettrolitici di grande capacità</strong> che funzionano come serbatoi di energia:</p>
+
+<ul>
+  <li>Quando la tensione pulsante è in fase crescente, il condensatore si carica</li>
+  <li>Quando la tensione pulsante è in fase calante o assente, il condensatore si scarica lentamente fornendo energia al circuito a valle</li>
+  <li>Il risultato è una tensione quasi costante con una piccola <strong>ondulazione residua</strong> (ripple)</li>
+</ul>
+
+<p>L’alimentatore può essere concettualmente diviso in due parti separate dal condensatore di filtro: la parte a monte ha il compito di mantenere il condensatore ben carico, la parte a valle preleva l’energia e la regola al valore desiderato.</p>
+
+<h4 id="-stadio-4-stabilizzatore--9017">🔹 Stadio 4: Stabilizzatore (⏱ 90:17)</h4>
+
+<p>Lo stabilizzatore esegue il livellamento finale e regola la tensione al valore preciso desiderato. Esistono due tipologie:</p>
+
+<p><strong>1. Stabilizzazione con diodo Zener</strong>: uno Zener collegato insieme a un transistor blocca la tensione di uscita al valore di Zener. Schema semplice ma con tensione di uscita fissa e non regolabile, adatto solo a piccole potenze.</p>
+
+<p><strong>2. Stabilizzazione a retroazione (feedback)</strong>: è il metodo più diffuso. Il cuore è un <strong>amplificatore di errore</strong> che confronta continuamente due tensioni:</p>
+
+<ul>
+  <li>Una <strong>tensione di riferimento fissa</strong> $V_Z$ (ottenuta da un diodo Zener)</li>
+  <li>Un campione della <strong>tensione di uscita</strong> (prelevata tramite un partitore resistivo)</li>
+</ul>
+
+<p>Se la tensione di uscita cala (per esempio per un aumento del carico), si genera una <strong>tensione di errore</strong> che modifica la polarizzazione del transistor di regolazione, compensando la variazione. Questo <strong>anello di controllo</strong> (loop di retroazione) mantiene la tensione costante indipendentemente dalle variazioni di carico.</p>
+
+<p>In molti alimentatori è presente un <strong>trimmer</strong> o <strong>potenziometro</strong> nel circuito di retroazione che permette di regolare la tensione di uscita (es. da 8 a 18 V) variando la quantità di segnale di uscita che arriva all’amplificatore di errore.</p>
+
+<hr />
+
+<h3 id="5--alimentatori-a-commutazione-switching--9932">5. 🔌 Alimentatori a Commutazione (Switching) (⏱ 99:32)</h3>
+
+<blockquote>
+  <p>⚠️ Gli alimentatori a commutazione <strong>non fanno attualmente parte del programma d’esame</strong>, ma sono trattati perché presenti in tutte le stazioni radioamatoriali moderne.</p>
+</blockquote>
+
+<h4 id="-principio-di-funzionamento">🔹 Principio di Funzionamento</h4>
+
+<p>A differenza degli alimentatori lineari dove il trasformatore è il primo elemento, negli alimentatori switching la sequenza è diversa:</p>
+
+\[\text{230V AC} \rightarrow \boxed{\text{Raddrizzatore}} \rightarrow \boxed{\text{Filtro}} \rightarrow \boxed{\text{Chopper}} \rightarrow \boxed{\text{Trasformatore HF}} \rightarrow \boxed{\text{Raddrizzatore}} \rightarrow \boxed{\text{Filtro}} \rightarrow \text{DC}\]
+
+<ol>
+  <li>La tensione di rete (230 V AC, 50 Hz) viene <strong>raddrizzata direttamente</strong> senza trasformatore, ottenendo circa <strong>310 V DC</strong> (tensione di picco)</li>
+  <li>Un circuito <strong>chopper</strong> (“affettatore”) trasforma i 310 V DC in una tensione alternata ad <strong>alta frequenza</strong> (20-40 kHz), cioè almeno 400-800 volte superiore ai 50 Hz della rete</li>
+  <li>Questa tensione ad alta frequenza attraversa un <strong>trasformatore</strong> di dimensioni molto ridotte</li>
+  <li>In uscita dal trasformatore, la tensione viene nuovamente raddrizzata e filtrata</li>
+</ol>
+
+<h4 id="-il-segreto-il-trasformatore-ad-alta-frequenza">🔹 Il Segreto: il Trasformatore ad Alta Frequenza</h4>
+
+<p>Il vantaggio fondamentale sta nella fisica dell’induzione elettromagnetica: l’energia trasferita per induzione <strong>cresce con la frequenza</strong>. Ricordando le esperienze di Faraday, più rapidamente si varia il flusso magnetico, più energia viene indotta. Un trasformatore che lavora a 20-40 kHz è enormemente più efficiente di uno a 50 Hz.</p>
+
+<blockquote>
+  <p><strong>Dato pratico</strong>: un trasformatore switching per 250 W pesa circa <strong>100 grammi</strong> con nucleo in ferrite, contro i <strong>2-3 kg</strong> di un trasformatore lineare equivalente a 50 Hz. Le dimensioni si riducono di circa <strong>un decimo</strong>.</p>
+</blockquote>
+
+<h4 id="-stabilizzazione-negli-switching">🔹 Stabilizzazione negli Switching</h4>
+
+<p>La stabilizzazione avviene tramite retroazione sul <strong>duty cycle</strong> del chopper (la larghezza delle “fette” di tensione). Il circuito di controllo misura la tensione di uscita e regola per quanto tempo il chopper conduce in ogni ciclo: fette più larghe = più energia trasferita = tensione più alta.</p>
+
+<p>La separazione galvanica nel circuito di retroazione è garantita da un <strong>optoisolatore</strong> (optocoupler): un componente che contiene un LED e un <strong>fototransistor</strong> separati otticamente. Il segnale di controllo viene trasmesso tramite <strong>luce</strong>, mantenendo l’isolamento elettrico tra la parte collegata alla rete e la parte sicura.</p>
+
+<h4 id="-sicurezza-negli-alimentatori-switching">🔹 Sicurezza negli Alimentatori Switching</h4>
+
+<blockquote>
+  <p>⚠️ <strong>ATTENZIONE</strong>: negli alimentatori switching, una parte consistente del circuito è collegata <strong>direttamente alla rete 220 V senza isolamento galvanico</strong>. L’isolamento è garantito solo dal trasformatore HF e dall’optoisolatore. <strong>Non aprire mai un alimentatore switching acceso</strong>; anche da spento, il condensatore di filtro può mantenere cariche a 310 V.</p>
+</blockquote>
+
+<p>Negli alimentatori lineari invece, grazie al trasformatore in ingresso, tutta la parte a valle è sicura e si può intervenire senza pericolo (a alimentatore spento).</p>
+
+<h4 id="-confronto-lineari-vs-switching">🔹 Confronto Lineari vs Switching</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Caratteristica</th>
+      <th>Alimentatore Lineare</th>
+      <th>Alimentatore Switching</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Peso</strong></td>
+      <td>Pesante (2-3 kg solo il trasformatore per 250 W)</td>
+      <td>Leggero (1,5-2 kg totali per 250 W)</td>
+    </tr>
+    <tr>
+      <td><strong>Dimensioni</strong></td>
+      <td>Ingombrante</td>
+      <td>Compatto</td>
+    </tr>
+    <tr>
+      <td><strong>Costo</strong></td>
+      <td>Più costoso</td>
+      <td>Più economico</td>
+    </tr>
+    <tr>
+      <td><strong>Rendimento</strong></td>
+      <td>Più basso (più calore da dissipare)</td>
+      <td>70-90%</td>
+    </tr>
+    <tr>
+      <td><strong>Dissipatori</strong></td>
+      <td>Grandi alette di alluminio</td>
+      <td>Molto ridotte</td>
+    </tr>
+    <tr>
+      <td><strong>Rumore RF</strong></td>
+      <td>Praticamente assente</td>
+      <td>Può generare interferenze</td>
+    </tr>
+    <tr>
+      <td><strong>Sicurezza interna</strong></td>
+      <td>Facile da manipolare</td>
+      <td>Pericoloso (alta tensione interna)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="-il-problema-delle-interferenze-rf">🔹 Il Problema delle Interferenze RF</h4>
+
+<p>Il principale difetto degli alimentatori switching è che il chopper interno è un <strong>generatore di interferenze</strong> naturale. Se l’alimentatore non è ben schermato, può disturbare i ricevitori radio. Il problema è più evidente negli alimentatori economici (spesso di produzione cinese) che risparmiano sulle schermature.</p>
+
+<p>Alcuni alimentatori economici hanno un potenziometro etichettato “<strong>noise offset</strong>” che permette di spostare la frequenza dell’oscillatore del chopper per allontanare le armoniche dalla banda radio in uso. Questa soluzione <strong>non risolve il problema</strong> ma lo sposta: l’interferenza può scomparire su una frequenza ma apparire su un’altra.</p>
+
+<blockquote>
+  <p><strong>Consiglio pratico</strong>: le fonti di interferenza in una stazione radio possono provenire non solo dall’alimentatore della radio ma da qualsiasi dispositivo switching della casa: alimentatori di telefoni, ripetitori Wi-Fi, strisce LED, plafoniere LED. Il metodo efficace è identificarle una per una, spegnendo i dispositivi e verificando la riduzione del rumore. Possibili soluzioni: filtri di rete in ingresso agli alimentatori, nuclei di ferrite sui cavi, filtri recuperati da vecchi alimentatori ATX per PC.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li><strong>Semiconduttore</strong> (silicio) → con drogaggio diventa → <strong>tipo P</strong> (lacune) o <strong>tipo N</strong> (elettroni liberi)</li>
+  <li><strong>Giunzione P-N</strong> → crea → <strong>regione di svuotamento</strong> (isolante naturale)</li>
+  <li><strong>Polarizzazione diretta</strong> → riduce la regione di svuotamento → <strong>diodo conduce</strong> (sopra 0,7 V)</li>
+  <li><strong>Polarizzazione inversa</strong> → allarga la regione di svuotamento → <strong>diodo non conduce</strong></li>
+  <li><strong>Diodo raddrizzatore</strong> → è usato in → <strong>raddrizzatore</strong> (stadio dell’alimentatore)</li>
+  <li><strong>Diodo Zener</strong> → è usato in → <strong>stabilizzatore</strong> (stadio dell’alimentatore)</li>
+  <li><strong>Diodo Varicap</strong> → si comporta come → <strong>condensatore variabile</strong> (per accordo elettronico)</li>
+  <li><strong>Diodo Schottky</strong> → è adatto a → <strong>alte frequenze</strong> (UHF, SHF)</li>
+  <li><strong>Alimentatore lineare</strong> → schema: Trasformatore → Raddrizzatore → Filtro → Stabilizzatore</li>
+  <li><strong>Trasformatore</strong> → realizza → <strong>isolamento galvanico</strong> (sicurezza elettrica)</li>
+  <li><strong>Condensatore elettrolitico</strong> → realizza → <strong>livellamento</strong> della tensione pulsante</li>
+  <li><strong>Amplificatore di errore</strong> → confronta tensione uscita con riferimento → <strong>retroazione</strong> → stabilizzazione</li>
+  <li><strong>Alimentatore switching</strong> → usa → <strong>chopper</strong> ad alta frequenza → trasformatore piccolo e leggero</li>
+  <li><strong>Chopper</strong> → genera → <strong>interferenze RF</strong> (difetto principale degli switching)</li>
+  <li><strong>Optoisolatore</strong> → realizza → <strong>isolamento galvanico</strong> nel circuito di retroazione degli switching</li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>
+    <p>Il <strong>diodo</strong> è un componente a semiconduttore che consente il passaggio di corrente in una sola direzione: dall’anodo al catodo quando è in polarizzazione diretta (soglia ~0,7 V per il silicio).</p>
+  </li>
+  <li>
+    <p>I <strong>cinque tipi di diodi</strong> da conoscere per l’esame sono: raddrizzatore (AC→DC), LED (emette luce), Zener (stabilizza tensione in polarizzazione inversa), Varicap (condensatore variabile), Schottky (alte frequenze, giunzione metallo-semiconduttore).</p>
+  </li>
+  <li>
+    <p>Un <strong>alimentatore lineare</strong> è composto da quattro stadi in serie: trasformatore (abbassa tensione + isolamento galvanico), raddrizzatore (AC→DC pulsante), filtro di livellamento (condensatore elettrolitico), stabilizzatore (tensione costante e precisa).</p>
+  </li>
+  <li>
+    <p>L’<strong>isolamento galvanico</strong> è fondamentale per la sicurezza: il trasformatore impedisce il contatto elettrico diretto tra la rete 220 V e l’utilizzatore, trasferendo energia solo tramite campi magnetici.</p>
+  </li>
+  <li>
+    <p>Il <strong>raddrizzatore a doppia semionda</strong> (ponte di Graetz con 4 diodi) produce una tensione pulsante a frequenza doppia (100 Hz) rispetto all’ingresso, risultando più efficiente del raddrizzamento a singola semionda.</p>
+  </li>
+  <li>
+    <p>La <strong>stabilizzazione a retroazione</strong> è il metodo più diffuso: un amplificatore di errore confronta la tensione di uscita con un riferimento Zener e corregge automaticamente le variazioni tramite un anello di controllo.</p>
+  </li>
+  <li>
+    <p>Gli <strong>alimentatori switching</strong> sono più leggeri, compatti, economici e efficienti (70-90%) grazie al trasformatore ad alta frequenza (20-40 kHz), ma possono generare <strong>interferenze RF</strong> che disturbano i ricevitori radio.</p>
+  </li>
+  <li>
+    <p>Negli alimentatori switching, una parte del circuito è collegata direttamente alla rete 220 V senza isolamento galvanico: sono <strong>potenzialmente pericolosi</strong> da aprire e manipolare, a differenza dei lineari.</p>
+  </li>
+  <li>
+    <p>La <strong>patente di radioamatore non scade mai</strong>; l’autorizzazione generale scade ogni 10 anni. Questo concetto è ricorrente nelle domande d’esame.</p>
+  </li>
+  <li>
+    <p>Le <strong>interferenze RF</strong> in una stazione radio possono provenire da qualsiasi alimentatore switching presente in casa (Wi-Fi, LED, caricabatterie), non solo da quello della radio. La soluzione è identificarle una per una e applicare filtri di rete o nuclei di ferrite.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>
+    <p>Perché un semiconduttore come il silicio ha bisogno del processo di drogaggio per diventare utile nell’elettronica? Cosa cambia tra il drogaggio di tipo P e quello di tipo N?</p>
+  </li>
+  <li>
+    <p>Spiega perché il diodo conduce solo in polarizzazione diretta, facendo riferimento al comportamento della regione di svuotamento.</p>
+  </li>
+  <li>
+    <p>Un diodo Zener e un diodo Varicap funzionano entrambi in polarizzazione inversa, ma svolgono funzioni completamente diverse. Quali sono queste funzioni e in quali contesti applicativi vengono impiegati?</p>
+  </li>
+  <li>
+    <p>Perché il raddrizzatore a doppia semionda produce un risultato migliore di quello a singola semionda per alimentare un’apparecchiatura elettronica? Quali sono le implicazioni sulla frequenza del segnale in uscita?</p>
+  </li>
+  <li>
+    <p>Descrivi il percorso completo attraverso cui la tensione di rete (220 V AC) diventa 12 V DC stabili in un alimentatore lineare, indicando la funzione di ciascuno stadio.</p>
+  </li>
+  <li>
+    <p>Perché l’isolamento galvanico è così importante per la sicurezza? Cosa potrebbe accadere a un operatore se un dispositivo fosse collegato direttamente alla rete senza trasformatore?</p>
+  </li>
+  <li>
+    <p>Nel circuito di stabilizzazione a retroazione, come reagisce il sistema quando la tensione di uscita cala a causa di un aumento del carico? Descrivi il meccanismo dell’anello di controllo.</p>
+  </li>
+  <li>
+    <p>Perché il trasformatore di un alimentatore switching può essere così piccolo e leggero rispetto a quello di un alimentatore lineare? Quale principio fisico viene sfruttato?</p>
+  </li>
+  <li>
+    <p>In che modo un alimentatore switching può disturbare la ricezione radio? Perché il potenziometro “noise offset” non è una vera soluzione al problema?</p>
+  </li>
+  <li>
+    <p>Se dovessi scegliere un alimentatore per la tua stazione radioamatoriale, quali fattori considereresti nella scelta tra un lineare e uno switching? Qual è il compromesso principale?</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>Alimentatore a commutazione (switching)</strong> — Alimentatore che converte la tensione di rete in DC tramite un chopper ad alta frequenza e un trasformatore HF, risultando leggero e compatto ma potenzialmente rumoroso in RF.</li>
+  <li><strong>Alimentatore lineare</strong> — Alimentatore che usa un trasformatore a 50 Hz, un raddrizzatore, un filtro capacitivo e uno stabilizzatore per produrre tensione continua stabile. Pesante ma privo di interferenze RF.</li>
+  <li><strong>Amplificatore di errore</strong> — Circuito che confronta la tensione di uscita con una tensione di riferimento per generare un segnale di correzione nel loop di retroazione.</li>
+  <li><strong>Anodo</strong> — Terminale positivo del diodo, da cui la corrente convenzionale entra nel componente.</li>
+  <li><strong>Catodo</strong> — Terminale negativo del diodo, da cui la corrente convenzionale esce; contrassegnato da una banda sul corpo del componente.</li>
+  <li><strong>Chopper</strong> — Circuito che “affetta” una tensione continua trasformandola in alternata ad alta frequenza (20-40 kHz) negli alimentatori switching.</li>
+  <li><strong>Diodo</strong> — Componente a semiconduttore con due terminali che consente il passaggio di corrente in una sola direzione.</li>
+  <li><strong>Diodo LED</strong> — Diodo a emissione luminosa che emette fotoni quando è in polarizzazione diretta.</li>
+  <li><strong>Diodo raddrizzatore</strong> — Diodo utilizzato per convertire tensione alternata in tensione continua pulsante.</li>
+  <li><strong>Diodo Schottky (Hot Carrier)</strong> — Diodo con giunzione metallo-semiconduttore, adatto ad alte frequenze (UHF/SHF).</li>
+  <li><strong>Diodo Varicap</strong> — Diodo che in polarizzazione inversa si comporta come un condensatore variabile, usato per l’accordo elettronico dei circuiti risonanti.</li>
+  <li><strong>Diodo Zener</strong> — Diodo progettato per operare in polarizzazione inversa a una tensione costante (tensione di Zener), usato come stabilizzatore di tensione.</li>
+  <li><strong>Drogaggio (doping)</strong> — Processo di inserimento controllato di impurità in un semiconduttore per modificarne le proprietà elettriche.</li>
+  <li><strong>Duty cycle</strong> — Rapporto tra il tempo di conduzione e il periodo totale di un segnale pulsato; negli switching regola la tensione di uscita.</li>
+  <li><strong>Filtro di livellamento</strong> — Stadio dell’alimentatore che usa condensatori elettrolitici per trasformare la tensione pulsante in tensione quasi costante.</li>
+  <li><strong>Giunzione P-N</strong> — Interfaccia tra una regione drogata P e una regione drogata N di un semiconduttore; è la struttura fondamentale del diodo.</li>
+  <li><strong>Isolamento galvanico</strong> — Separazione elettrica completa tra due circuiti che impedisce il passaggio di corrente tra essi, fondamentale per la sicurezza elettrica.</li>
+  <li><strong>Optoisolatore (optocoupler)</strong> — Componente che trasmette un segnale elettrico tramite luce (LED + fototransistor), realizzando l’isolamento galvanico.</li>
+  <li><strong>Polarizzazione diretta</strong> — Condizione in cui si applica tensione positiva all’anodo rispetto al catodo, permettendo la conduzione del diodo.</li>
+  <li><strong>Polarizzazione inversa</strong> — Condizione in cui si applica tensione positiva al catodo rispetto all’anodo, bloccando la conduzione del diodo.</li>
+  <li><strong>Ponte di Graetz</strong> — Configurazione a ponte con quattro diodi per il raddrizzamento a doppia semionda, la più comune negli alimentatori.</li>
+  <li><strong>Raddrizzatore</strong> — Circuito che converte tensione alternata in tensione continua pulsante mediante diodi.</li>
+  <li><strong>Regione di svuotamento (depletion region)</strong> — Zona priva di portatori di carica all’interfaccia della giunzione P-N, che agisce come isolante.</li>
+  <li><strong>Retroazione (feedback)</strong> — Principio di controllo in cui una parte del segnale di uscita viene riportata all’ingresso per correggere automaticamente le variazioni.</li>
+  <li><strong>Semiconduttore</strong> — Materiale con resistività intermedia tra conduttori e isolanti (es. silicio, germanio), base dell’elettronica moderna.</li>
+  <li><strong>Stabilizzatore</strong> — Stadio finale dell’alimentatore che regola la tensione di uscita al valore preciso desiderato.</li>
+  <li><strong>Tensione di soglia</strong> — Tensione minima necessaria per portare un diodo in conduzione (~0,7 V per il silicio, ~0,3 V per il germanio).</li>
+  <li><strong>Tensione pulsante</strong> — Tensione continua che varia periodicamente in ampiezza ma mantiene sempre la stessa polarità.</li>
+  <li><strong>Trasformatore</strong> — Componente che trasferisce energia elettrica tra due circuiti tramite induzione magnetica, modificando il rapporto di tensione e realizzando l’isolamento galvanico.</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatore principale</strong>: Paolo (radiotecnica — diodi e alimentatori)</li>
+  <li>👨‍🏫 <strong>Relatore</strong>: Silvio IZ5DIY (correzione quiz e coordinamento)</li>
+  <li>👨‍🏫 <strong>Coordinamento</strong>: Fabrizio (organizzazione lezione in presenza)</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Campo</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Numero lezione</strong></td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td>21 maggio 2025</td>
+    </tr>
+    <tr>
+      <td><strong>Durata</strong></td>
+      <td>~2 ore e 10 minuti</td>
+    </tr>
+    <tr>
+      <td><strong>Numero argomenti</strong></td>
+      <td>5 (Quiz, Diodi, Alimentatori lineari, Alimentatori switching, Interferenze RF)</td>
+    </tr>
+    <tr>
+      <td><strong>Parole chiave</strong></td>
+      <td>Diodo, semiconduttore, giunzione P-N, polarizzazione, Zener, Varicap, Schottky, LED, alimentatore lineare, alimentatore switching, raddrizzatore, ponte di Graetz, filtro capacitivo, stabilizzatore, isolamento galvanico, chopper, optoisolatore, interferenze RF</td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+</body>
+</html>
