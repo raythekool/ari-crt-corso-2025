@@ -46,6 +46,7 @@ Ogni guida di studio include:
 ### Misure e Sicurezza
 
 16. [Lezione 16 - Misure e Strumenti](lezione_16.md)
+17. [Lezione 17 - Serata Speciale](lezione_17.md)
 18. [Lezione 18 - Interferenze e EMC](lezione_18.md)
 19. [Lezione 19 - Sicurezza Elettrica](lezione_19.md)
 
@@ -75,6 +76,7 @@ Ogni guida di studio include:
 | [14](lezione_14.md) | Antenne - Parte 2            | Tipi pratici                       |
 | [15](lezione_15.md) | Linee di Trasmissione        | ROS, adattamento                   |
 | [16](lezione_16.md) | Misure e Strumenti           | Multimetro, oscilloscopio          |
+| [17](lezione_17.md) | Serata Speciale              | Sessione di approfondimento        |
 | [18](lezione_18.md) | Interferenze e EMC           | Filtri, schermatura                |
 | [19](lezione_19.md) | Sicurezza Elettrica          | Messa a terra, protezioni          |
 | [20](lezione_20.md) | Normative Nazionali          | Leggi italiane                     |
@@ -93,7 +95,7 @@ Lezioni 07 → 08 → 09 → 10 → 11
 Lezioni 12 → 13 → 14 → 15
 
 ### Percorso 4: Pratica e Normative (Settimane 16-22)
-Lezioni 16 → 18 → 19 → 20 → 21 → 22
+Lezioni 16 → 17 → 18 → 19 → 20 → 21 → 22
 
 ## 🔍 Ricerca per Concetto
 
