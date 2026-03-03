@@ -116,6 +116,101 @@
       text-align: center;
       color: #666;
     }
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+        font-size: 14px;
+      }
+      header {
+        padding: 15px;
+        margin-bottom: 20px;
+      }
+      header h1 {
+        font-size: 1.5em;
+      }
+      header p {
+        font-size: 0.9em;
+        margin: 10px 0 0 0;
+      }
+      nav {
+        padding: 10px;
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      nav a {
+        margin-right: 0;
+        font-size: 0.9em;
+        padding: 6px 10px;
+        background: white;
+        border-radius: 4px;
+      }
+      .lesson-nav {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        gap: 8px;
+      }
+      .lesson-nav a,
+      .lesson-nav label,
+      .lesson-nav select {
+        width: 100%;
+        text-align: center;
+      }
+      .lesson-nav select {
+        width: 100%;
+      }
+      main {
+        padding: 15px;
+        border-radius: 4px;
+      }
+      table {
+        font-size: 0.85em;
+        margin: 15px 0;
+      }
+      table th, table td {
+        padding: 8px;
+      }
+      h1 {
+        font-size: 1.6em;
+      }
+      h2 {
+        font-size: 1.3em;
+      }
+      h3 {
+        font-size: 1.1em;
+      }
+      pre {
+        padding: 10px;
+        font-size: 0.85em;
+        overflow-x: auto;
+      }
+    }
+    @media (min-width: 769px) and (max-width: 1024px) {
+      body {
+        padding: 15px;
+      }
+      header {
+        padding: 18px;
+      }
+      header h1 {
+        font-size: 1.8em;
+      }
+      main {
+        padding: 20px;
+      }
+      table {
+        font-size: 0.95em;
+      }
+      table th, table td {
+        padding: 10px;
+      }
+    }
+    @media (min-width: 1025px) {
+      /* Desktop styles - default */
+    }
   </style>
   <script>
     MathJax = {
