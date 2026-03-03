@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 14 - Antenne - Parte 2 - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+    nav a, nav button {
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+      background: transparent;
+      border: none;
+      padding: 0;
+      font-size: 1em;
+      font-family: inherit;
+      cursor: pointer;
+    }
+    nav a:hover, nav button:hover {
+      text-decoration: underline;
+    }
+    .global-search {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      margin-left: auto;
+      min-width: 260px;
+    }
+    .global-search input {
+      flex: 1;
+      min-width: 150px;
+      padding: 6px 10px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      font-size: 0.95em;
+    }
+    .global-search button {
+      background: #667eea;
+      color: #fff;
+      border: 1px solid #667eea;
+      border-radius: 6px;
+      padding: 7px 10px;
+      font-size: 0.9em;
+    }
+    .global-search-results {
+      background: #f7f9ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+    }
+    .global-search-results h3 {
+      margin: 0 0 8px 0;
+      color: #3f4fa3;
+      font-size: 1em;
+    }
+    .global-search-results ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    .global-search-results li {
+      margin-bottom: 8px;
+    }
+    .global-search-results p {
+      margin: 6px 0 0 0;
+      color: #444;
+      font-size: 0.92em;
+    }
+    .global-search-empty {
+      margin: 0;
+      color: #555;
+      font-style: italic;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+        font-size: 14px;
+      }
+      header {
+        padding: 15px;
+        margin-bottom: 20px;
+      }
+      header h1 {
+        font-size: 1.5em;
+      }
+      header p {
+        font-size: 0.9em;
+        margin: 10px 0 0 0;
+      }
+      nav {
+        padding: 10px;
+        margin-bottom: 15px;
+      }
+      nav a, nav button {
+        font-size: 0.9em;
+        padding: 6px 10px;
+        background: white;
+        border-radius: 4px;
+      }
+      .global-search {
+        width: 100%;
+        margin-left: 0;
+      }
+      .global-search input,
+      .global-search button {
+        width: 100%;
+      }
+      .lesson-nav {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        gap: 8px;
+      }
+      .lesson-nav a,
+      .lesson-nav label,
+      .lesson-nav select {
+        width: 100%;
+        text-align: center;
+      }
+      .lesson-nav select {
+        width: 100%;
+      }
+      main {
+        padding: 15px;
+        border-radius: 4px;
+      }
+      table {
+        font-size: 0.85em;
+        margin: 15px 0;
+      }
+      table th, table td {
+        padding: 8px;
+      }
+      h1 {
+        font-size: 1.6em;
+      }
+      h2 {
+        font-size: 1.3em;
+      }
+      h3 {
+        font-size: 1.1em;
+      }
+      pre {
+        padding: 10px;
+        font-size: 0.85em;
+        overflow-x: auto;
+      }
+    }
+    @media (min-width: 769px) and (max-width: 1024px) {
+      body {
+        padding: 15px;
+      }
+      header {
+        padding: 18px;
+      }
+      header h1 {
+        font-size: 1.8em;
+      }
+      main {
+        padding: 20px;
+      }
+      table {
+        font-size: 0.95em;
+      }
+      table th, table td {
+        padding: 10px;
+      }
+    }
+    @media (min-width: 1025px) {
+      /* Desktop styles - default */
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/">🏠 Home</a>
+    <a href="/guide-studio/">📖 Guide di Studio</a>
+    <a href="/glossario.html">📚 Glossario</a>
+    <a href="/domande-esame.html">❓ Domande</a>
+    <a href="/risorse.html">🔗 Risorse</a>
+    <div class="global-search">
+      <input id="global-search-input" type="search" placeholder="Cerca in tutte le lezioni..." aria-label="Cerca in tutte le lezioni" />
+      <button id="global-search-button" type="button">🔍 Cerca</button>
+    </div>
+  </nav>
+  <div id="global-search-results" class="global-search-results" hidden></div>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/guide-studio/lezione_13.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/guide-studio/lezione_15.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/guide-studio/lezione_14.html" selected>📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-14---antenne---parte-2">📘 Lezione 14 - Antenne - Parte 2</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia</strong>: Radiotecnica — Trasduttori, Miscelatori, Trasmettitori e Intermodulazione</li>
+  <li><strong>Tempo di studio stimato</strong>: 100–120 minuti</li>
+  <li><strong>Prerequisiti</strong>: Oscillatori e PLL (Lezione 13); classi di amplificazione e decibel (Lezione 13); modulazione AM/SSB/FM (Lezione 07); circuiti risonanti e filtri (Lezione 06); diodi varicap (Lezione 11)</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Conoscere i tipi di trasduttori: microfoni (carbone, cristallo, condensatore, dinamico) e altoparlanti</li>
+      <li>Comprendere il funzionamento del miscelatore (mixer): frequenza somma e differenza</li>
+      <li>Conoscere lo schema a blocchi dei trasmettitori in CW, SSB, AM e FM</li>
+      <li>Capire la conversione di frequenza e il suo ruolo nei trasmettitori multibanda</li>
+      <li>Comprendere il problema dell’intermodulazione e degli splatter</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h3 id="1--correzione-quiz-lezione-13--00031230">1. 🔍 Correzione Quiz Lezione 13 (⏱ 00:03–12:30)</h3>
+
+<p>Paolo apre la lezione con la correzione del quiz precedente, dedicato ad amplificatori, oscillatori e decibel. Risultati molto buoni, con qualche difficoltà solo sulla domanda relativa ai −6 dB.</p>
+
+<h4 id="-risposte-chiave-e-chiarimenti">🔹 Risposte Chiave e Chiarimenti</h4>
+
+<ul>
+  <li><strong>Maggior rendimento</strong>: amplificatore in <strong>classe C</strong> (70–75%). Se assorbe 100 W dall’alimentatore, 75 W diventano RF e solo 25 W in calore.</li>
+  <li><strong>Primo stadio BF</strong> in un trasmettitore per amplificare il segnale microfonico: funziona in <strong>classe A</strong> (totale fedeltà). Regola generale: tutti gli stadi a basso livello (bassa potenza) lavorano in classe A.</li>
+  <li><strong>Alto rendimento senza vincoli sulla distorsione</strong>: <strong>classe C</strong>. Adatta per telegrafia (CW) dove il segnale è una sinusoide pura on/off.</li>
+  <li><strong>Distorsione minore</strong>: <strong>classe A</strong> (mnemonica: A = Alta fedeltà).</li>
+  <li><strong>PLL</strong>: circuito che confronta la frequenza del VCO con un riferimento a quarzo e produce una tensione di correzione.</li>
+  <li><strong>Cosa distingue le classi</strong>: l’<strong>angolo di conduzione</strong> del segnale in uscita (360° classe A, ~180° classe B, &lt;180° classe C).</li>
+  <li><strong>Push-pull</strong>: alto rendimento e bassa distorsione (due dispositivi in classe B che ricostruiscono il segnale completo).</li>
+  <li><strong>1 W + 13 dB</strong>: 13 = 10 + 3 → ×10 = 10 W, ×2 = <strong>20 W</strong>.</li>
+  <li><strong>100 W + antenna (+4 dB) − cavo (−1 dB)</strong>: guadagno netto = +3 dB → <strong>200 W</strong>.</li>
+  <li><strong>100 W − cavo (−6 dB)</strong>: −6 = −3 −3 → 100 × 0,5 = 50, × 0,5 = <strong>25 W</strong> (situazione classica — investire in un buon cavo!).</li>
+  <li><strong>Modifica frequenza oscillatore variabile</strong>: <strong>diodo varicap</strong> (condensatore variabile elettronico, polarizzazione inversa).</li>
+</ul>
+
+<hr />
+
+<h3 id="2-️-trasduttori-microfoni-e-altoparlanti--15003000">2. 🎙️ Trasduttori: Microfoni e Altoparlanti (⏱ 15:00–30:00)</h3>
+
+<p>I trasduttori sono i componenti che interfacciano il mondo esterno (onde acustiche) con il mondo elettrico (segnali elettrici della radio).</p>
+
+<h4 id="-il-microfono">🔹 Il Microfono</h4>
+
+<p><strong>Microfono</strong> — trasduttore che trasforma un’onda acustica (vibrazione meccanica) in un segnale elettrico.</p>
+
+<p>Esistono quattro tipi principali di microfoni:</p>
+
+<p><strong>Microfono a carbone</strong> — sfrutta la variazione di conduttività di granuli di carbone compressi. La voce fa vibrare una lamina metallica che comprime e dilata i granuli, variandone la resistenza. Molto storico, usato nei vecchi telefoni (SIP). Adatto alla voce ma non ad alta fedeltà, non sale particolarmente in frequenza. Oggi raramente usato se non in apparati vintage.</p>
+
+<p><strong>Microfono a cristallo (ceramico)</strong> — sfrutta l’<strong>effetto piezoelettrico</strong> del quarzo. La voce fa vibrare una lamina che comprime un piccolo cristallo, che genera una tensione proporzionale all’intensità del suono. Molto adatto all’uso radio perché enfatizza i toni acuti della voce, rendendo il segnale più comprensibile in condizioni di disturbo e segnali deboli. Non è alta fedeltà, ma eccelle nelle comunicazioni.</p>
+
+<p><strong>Microfono a condensatore</strong> — contiene un condensatore con un’armatura fissa e una mobile (membrana). La voce fa vibrare la membrana, variando la distanza tra le armature e quindi la capacità. Un circuito converte la variazione di capacità in tensione. È il microfono di <strong>migliore qualità</strong> (alta fedeltà). Richiede <strong>alimentazione</strong> (Phantom power) per il circuito interno.</p>
+
+<p><strong>Microfono dinamico</strong> — funziona come un altoparlante al contrario: la voce fa vibrare una membrana collegata a una bobina mobile immersa nel campo magnetico di un magnete permanente. Il movimento della bobina genera una tensione. Buona fedeltà, secondo solo al condensatore. Molto usato per il canto e applicazioni generiche.</p>
+
+<p>⚠️ Attenzione alla distinzione: i microfoni <strong>preamplificati</strong> (con batteria interna) usano spesso capsule ceramiche o dinamiche — la batteria alimenta il preamplificatore, non il microfono. Nei microfoni a condensatore, invece, l’alimentazione serve al microfono stesso oltre che al preamplificatore.</p>
+
+<h4 id="-laltoparlante">🔹 L’Altoparlante</h4>
+
+<p><strong>Altoparlante</strong> — trasduttore che trasforma un segnale elettrico in un’onda acustica (funzione reciproca del microfono).</p>
+
+<p>Funzionamento basato sull’interazione tra due campi magnetici:</p>
+
+<ol>
+  <li>Un <strong>magnete permanente</strong> crea un campo magnetico costante</li>
+  <li>Una <strong>bobina mobile</strong> inserita nella cavità del magnete permanente riceve il segnale elettrico</li>
+  <li>La corrente nella bobina genera un campo magnetico variabile</li>
+  <li>L’interazione tra i due campi (attrazione/repulsione) muove la bobina</li>
+  <li>La bobina è collegata a un <strong>cono</strong> che riproduce le vibrazioni nell’aria → suono</li>
+</ol>
+
+<p>Il microfono dinamico è essenzialmente un altoparlante usato al rovescio.</p>
+
+<hr />
+
+<h3 id="3--miscelatori-mixer--30483530">3. 🔄 Miscelatori (Mixer) (⏱ 30:48–35:30)</h3>
+
+<p><strong>Miscelatore (mescolatore, mixer)</strong> — componente con <strong>due ingressi e un’uscita</strong> che combina due segnali a frequenze diverse producendo in uscita la frequenza somma e la frequenza differenza.</p>
+
+<p>I tre termini (miscelatore, mescolatore, mixer) sono sinonimi e compaiono tutti nelle domande d’esame.</p>
+
+<h4 id="-funzionamento">🔹 Funzionamento</h4>
+
+<p>Se i due segnali in ingresso hanno frequenza $f_1$ e $f_2$, in uscita si trovano <strong>contemporaneamente</strong>:</p>
+
+<ul>
+  <li><strong>Frequenza somma</strong>: $f_1 + f_2$</li>
+  <li><strong>Frequenza differenza</strong>: $f_1 - f_2$</li>
+</ul>
+
+<blockquote>
+  <p><strong>Esempio</strong>: $f_1 = 10$ MHz, $f_2 = 2$ MHz → in uscita: 12 MHz (somma) e 8 MHz (differenza).</p>
+</blockquote>
+
+<p>Il miscelatore è fondamentale per la <strong>conversione di frequenza</strong> sia nei trasmettitori che nei ricevitori. Si seleziona poi il segnale desiderato (somma o differenza) mediante un filtro passa-banda con circuiti risonanti.</p>
+
+<p>Dal punto di vista pratico, un <strong>MOSFET a doppio gate</strong> funziona già come miscelatore: iniettando i due segnali nei due gate, in uscita (drain) si ottengono somma e differenza.</p>
+
+<hr />
+
+<h3 id="4--schema-generale-del-trasmettitore--35304000">4. 📡 Schema Generale del Trasmettitore (⏱ 35:30–40:00)</h3>
+
+<p>Il trasmettitore è un dispositivo che trasforma l’informazione (voce, dati, immagini) in un segnale irradiabile da un’antenna. Lo schema a blocchi generale comprende:</p>
+
+<ol>
+  <li><strong>Oscillatore</strong> — genera un segnale RF (es. 14 MHz), potenza molto bassa (pochi milliwatt)</li>
+  <li><strong>Driver (pilota)</strong> — catena di amplificatori in <strong>classe A</strong> che amplifica il segnale dell’oscillatore fino alla potenza necessaria per pilotare il finale (es. ~10 W)</li>
+  <li><strong>Amplificatore finale</strong> — tipicamente <strong>push-pull in classe AB</strong>, amplifica fino alla potenza di uscita desiderata (es. 100 W)</li>
+  <li><strong>Accordatore d’antenna</strong> — adatta l’impedenza di uscita dell’amplificatore a quella dell’antenna (standard <strong>50 Ω</strong>) per il massimo trasferimento di potenza</li>
+  <li><strong>Modulatore</strong> — riceve il segnale microfonico amplificato e lo applica alla catena in un punto appropriato (diverso a seconda del tipo di modulazione)</li>
+  <li><strong>Alimentatore</strong> — fornisce corrente a tutti i blocchi</li>
+</ol>
+
+<hr />
+
+<h3 id="5--trasmettitore-in-telegrafia-cw--40495400">5. 📻 Trasmettitore in Telegrafia (CW) (⏱ 40:49–54:00)</h3>
+
+<h4 id="-schema-cw-a-singola-frequenza">🔹 Schema CW a Singola Frequenza</h4>
+
+<p>Il trasmettitore CW più semplice:</p>
+
+<ul>
+  <li><strong>Oscillatore a cristallo</strong> (Xtal) → frequenza fissa (es. 14 MHz)</li>
+  <li><strong>Amplificatore di potenza</strong></li>
+  <li><strong>Tasto telegrafico</strong> → interruttore che accende/spegne uno stadio a basso livello</li>
+</ul>
+
+<p>Schema didattico; limite: trasmette su una sola frequenza.</p>
+
+<h4 id="-schema-cw-multibanda-con-conversione-di-frequenza">🔹 Schema CW Multibanda con Conversione di Frequenza</h4>
+
+<p>Per trasmettere su più bande si usa la <strong>conversione di frequenza</strong>:</p>
+
+<ul>
+  <li><strong>VFO</strong> (oscillatore a frequenza variabile) a bassa frequenza (es. 5–5,5 MHz) → più stabile che ad alta frequenza</li>
+  <li><strong>Oscillatore a cristallo</strong> fisso → fornisce la frequenza di “battimento”</li>
+  <li><strong>Mixer</strong> → combina VFO + cristallo per ottenere la frequenza desiderata</li>
+</ul>
+
+<blockquote>
+  <p><strong>Esempio</strong>: VFO a 5 MHz + cristallo a 23 MHz → uscita a 28 MHz (banda 10 m). VFO a 5,5 MHz + cristallo a 9 MHz → uscita a 3,5 MHz (banda 80 m). Un unico VFO con diversi cristalli copre tutte le bande.</p>
+</blockquote>
+
+<h4 id="-circuito-di-accordo-pi-greco">🔹 Circuito di Accordo (Pi-Greco)</h4>
+
+<p><strong>Circuito pi-greco (π)</strong> — circuito di adattamento d’impedenza formato da 2 condensatori variabili e 1 induttore, con forma che ricorda la lettera greca π. Adatta l’impedenza di uscita del trasmettitore ai 50 Ω dell’antenna.</p>
+
+<p>Quando le impedenze sono uguali → <strong>massimo trasferimento di potenza</strong>.</p>
+
+<h4 id="-click-di-manipolazione">🔹 Click di Manipolazione</h4>
+
+<p><strong>Click di manipolazione</strong> — disturbo causato dai fronti troppo ripidi dell’accensione/spegnimento del segnale CW. L’interruzione brusca (on/off istantaneo) allarga la banda del segnale, disturbando i canali adiacenti.</p>
+
+<p><strong>Soluzione</strong>: circuito di <strong>smussamento</strong> (shaping) che rende graduali le transizioni di potenza:</p>
+
+<ul>
+  <li><strong>Salita progressiva</strong> all’inizio di ogni punto/linea (rise time)</li>
+  <li><strong>Discesa progressiva</strong> alla fine (fall time)</li>
+</ul>
+
+<p>Il segnale “smussato” non genera click. Questo circuito opera a basso livello (pochi mW), dove è più facile da realizzare.</p>
+
+<hr />
+
+<h3 id="6--trasmettitore-ssb--58308800">6. 📻 Trasmettitore SSB (⏱ 58:30–88:00)</h3>
+
+<p>Il trasmettitore <strong>SSB (Single Side Band)</strong> è più complesso del CW ma segue una logica chiara.</p>
+
+<h4 id="-generazione-del-segnale-ssb">🔹 Generazione del Segnale SSB</h4>
+
+<ol>
+  <li><strong>Oscillatore a cristallo</strong> — genera la portante a frequenza fissa (tradizionalmente 9 MHz)</li>
+  <li><strong>Amplificatore BF</strong> — amplifica il segnale microfonico</li>
+  <li><strong>Modulatore bilanciato</strong> — riceve portante + segnale audio:
+    <ul>
+      <li>Genera un segnale a <strong>doppia banda laterale (DSB)</strong></li>
+      <li><strong>Sopprime la portante</strong>: quando non si parla, non esce niente</li>
+    </ul>
+  </li>
+  <li><strong>Filtro a cristallo (2,5 kHz)</strong> — filtro passa-banda strettissimo che lascia passare <strong>una sola banda laterale</strong>, sopprimendo l’altra → <strong>SSB</strong></li>
+</ol>
+
+<p><strong>Modulatore bilanciato</strong> — circuito simile a un mixer che produce somma e differenza delle frequenze di ingresso, ma con la caratteristica aggiuntiva di sopprimere il segnale dell’oscillatore (portante) quando non c’è modulazione.</p>
+
+<h4 id="-selezione-usblsb">🔹 Selezione USB/LSB</h4>
+
+<p>Poiché il filtro a cristallo è costoso, si usa un <strong>unico filtro</strong> e si commutano <strong>due quarzi</strong> nell’oscillatore (distanziati di circa 3 kHz):</p>
+
+<ul>
+  <li><strong>Per USB</strong>: il quarzo genera una frequenza appena <strong>sotto</strong> la banda passante del filtro → la banda laterale superiore passa, l’inferiore viene bloccata</li>
+  <li><strong>Per LSB</strong>: il quarzo genera una frequenza appena <strong>sopra</strong> la banda passante del filtro → la banda laterale inferiore passa, la superiore viene bloccata</li>
+</ul>
+
+<p>La levetta USB/LSB sulla radio semplicemente commuta tra i due quarzi.</p>
+
+<h4 id="-doppia-conversione-di-frequenza">🔹 Doppia Conversione di Frequenza</h4>
+
+<p>Il segnale SSB è generato a <strong>frequenza fissa</strong> (9 MHz) perché vincolato al filtro a cristallo. Per trasmettere su qualsiasi banda:</p>
+
+<ol>
+  <li><strong>Prima conversione</strong> — mixer + <strong>VFO</strong> (es. 5–5,5 MHz): fornisce la copertura di 500 kHz (su questa agisce la manopola di sintonia)</li>
+  <li><strong>Seconda conversione</strong> — mixer + <strong>oscillatore a cristallo</strong> commutabile: trasla la banda di 500 kHz sulla banda radioamatoriale desiderata (il selettore di banda commuta i cristalli)</li>
+  <li><strong>Amplificatore lineare</strong> finale</li>
+</ol>
+
+<hr />
+
+<h3 id="7--trasmettitore-am--97009940">7. 📻 Trasmettitore AM (⏱ 97:00–99:40)</h3>
+
+<p>La modulazione d’ampiezza è la più semplice da realizzare. Il modulatore agisce direttamente sull’<strong>amplificatore finale</strong>, variandone la <strong>tensione di alimentazione</strong> in funzione del segnale microfonico.</p>
+
+<ul>
+  <li>Tensione più alta → più potenza in uscita (picco della modulazione)</li>
+  <li>Tensione più bassa → meno potenza in uscita (minimo della modulazione)</li>
+</ul>
+
+<blockquote>
+  <p><strong>Esempio</strong>: amplificatore alimentato nominalmente a 12 V. Con modulazione, la tensione varia da 6 V a 18 V seguendo la voce, e la potenza d’uscita varia di conseguenza.</p>
+</blockquote>
+
+<p>I blocchi dello schema sono gli stessi del trasmettitore generico, con la modulazione applicata allo stadio finale.</p>
+
+<hr />
+
+<h3 id="8--trasmettitore-fm--88539540">8. 📻 Trasmettitore FM (⏱ 88:53–95:40)</h3>
+
+<h4 id="-schema-a-blocchi">🔹 Schema a Blocchi</h4>
+
+<ol>
+  <li><strong>Microfono</strong> + <strong>Amplificatore BF</strong></li>
+  <li><strong>Filtro limitatore</strong>: limita i picchi del parlato (evita eccessiva deviazione) e inserisce la <strong>pre-enfasi</strong> (compensazione preventiva della distorsione del rivelatore FM che attenua gli acuti)</li>
+  <li><strong>Modulatore a reattanza</strong> — tipicamente un <strong>diodo varicap</strong> che modifica leggermente la capacità in parallelo al quarzo dell’oscillatore, spostando la frequenza di risonanza in funzione del segnale audio → <strong>modulazione di frequenza</strong></li>
+  <li><strong>Catena di moltiplicatori</strong> — amplificatori non lineari che generano armoniche, con prelievo dell’armonica desiderata (×2, ×3, ×5)</li>
+  <li><strong>Amplificatore finale</strong> (può essere in <strong>classe C</strong> per FM, dato che l’ampiezza è costante)</li>
+</ol>
+
+<p><strong>Modulatore a reattanza</strong> — circuito che modula un componente reattivo (tipicamente un varicap = reattanza capacitiva) per variare la frequenza dell’oscillatore.</p>
+
+<h4 id="-moltiplicatori-e-deviazione-di-frequenza">🔹 Moltiplicatori e Deviazione di Frequenza</h4>
+
+<p>I moltiplicatori moltiplicano sia la frequenza <strong>sia la deviazione</strong> per lo stesso fattore:</p>
+
+\[\text{Se } f_{osc} \times N = f_{uscita}, \quad \text{allora } \Delta f_{osc} \times N = \Delta f_{uscita}\]
+
+<blockquote>
+  <p><strong>Esempio</strong>: oscillatore a 14 MHz con deviazione 600 Hz. Moltiplicazione ×10 → uscita a 140 MHz con deviazione 6 kHz.</p>
+</blockquote>
+
+<p>Questo spiega perché in FM l’oscillatore lavora a frequenza bassa: la deviazione iniziale è piccola e viene poi amplificata dalla catena di moltiplicatori.</p>
+
+<h4 id="-filtri-per-tipo-di-emissione">🔹 Filtri per Tipo di Emissione</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo di emissione</th>
+      <th>Larghezza filtro tipica</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CW (telegrafia)</td>
+      <td>~500 Hz</td>
+    </tr>
+    <tr>
+      <td>SSB</td>
+      <td>~2,5 kHz</td>
+    </tr>
+    <tr>
+      <td>AM</td>
+      <td>~6 kHz</td>
+    </tr>
+    <tr>
+      <td>FM</td>
+      <td>~10 kHz</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="9--caratteristiche-del-trasmettitore">9. 📊 Caratteristiche del Trasmettitore</h3>
+
+<p>Un trasmettitore è specificato da:</p>
+
+<ul>
+  <li><strong>Stabilità di frequenza</strong> — deve restare sulla frequenza impostata</li>
+  <li><strong>Larghezza di banda</strong> — deve stare entro la banda assegnata (10 kHz per FM, 2,5 kHz per SSB)</li>
+  <li><strong>Potenza di uscita</strong> — tipicamente 100 W per le radio amatoriali</li>
+  <li><strong>Rendimento</strong> — rapporto tra potenza RF e potenza assorbita</li>
+  <li><strong>Deviazione di frequenza</strong> (FM) o <strong>indice di modulazione</strong> (AM)</li>
+</ul>
+
+<hr />
+
+<h3 id="10-️-intermodulazione-e-splatter--1000012100">10. ⚠️ Intermodulazione e Splatter (⏱ 100:00–121:00)</h3>
+
+<h4 id="-armoniche-e-distorsione">🔹 Armoniche e Distorsione</h4>
+
+<p>Quando un amplificatore è <strong>sovrapilotato</strong> (pilotato oltre la potenza che può erogare), il segnale sinusoidale viene “appiattito” in cima (<strong>flat-topping</strong>). Questa deformazione genera <strong>armoniche</strong>.</p>
+
+<p><strong>Armonica</strong> — segnale a frequenza multipla della fondamentale. Un segnale a 27 MHz sovrapilotato genera: 2ª armonica (54 MHz), 3ª armonica (81 MHz), ecc.</p>
+
+<p>Caratteristiche dei diversi segnali:</p>
+
+<ul>
+  <li><strong>Sinusoide pura</strong> → una sola riga in frequenza, <strong>nessuna armonica</strong></li>
+  <li><strong>Onda triangolare</strong> → tutte le armoniche (pari e dispari)</li>
+  <li><strong>Onda quadra</strong> → solo armoniche <strong>dispari</strong> (3ª, 5ª, 7ª)</li>
+  <li><strong>Sinusoide con flat-topping</strong> → prevalentemente armoniche <strong>dispari</strong></li>
+</ul>
+
+<p>Le armoniche singole <strong>non sono un problema</strong> perché sono molto lontane dalla fondamentale → facilmente eliminabili con circuiti risonanti o filtri passa-basso in uscita.</p>
+
+<h4 id="-lintermodulazione">🔹 L’Intermodulazione</h4>
+
+<p><strong>Intermodulazione</strong> — comparsa di frequenze indesiderate in uscita dal trasmettitore, non presenti all’ingresso. Si verifica quando sono presenti <strong>contemporaneamente due condizioni</strong>:</p>
+
+<ol>
+  <li>L’amplificatore è <strong>sovrapilotato</strong> (va in distorsione/flat-topping)</li>
+  <li>In ingresso ci sono <strong>più segnali</strong> a frequenze diverse (come accade parlando in SSB o AM)</li>
+</ol>
+
+<p>Quando l’amplificatore distorce con più segnali in ingresso ($f_1$ e $f_2$), si comporta come un miscelatore e genera:</p>
+
+<ul>
+  <li><strong>Somma e differenza</strong> ($f_1 + f_2$, $f_1 - f_2$) → lontane, non problematiche</li>
+  <li><strong>Prodotti del 3° ordine</strong>: $2f_1 - f_2$ e $2f_2 - f_1$ → <strong>molto vicini</strong> alla frequenza di trasmissione!</li>
+  <li><strong>Prodotti del 5° ordine</strong>: $3f_1 - 2f_2$, $3f_2 - 2f_1$ → ancora più vicini</li>
+  <li><strong>Ordini superiori</strong> (7°, 9°…): sempre più componenti indesiderate</li>
+</ul>
+
+<blockquote>
+  <p>Il “3° ordine” si chiama così perché la somma dei coefficienti è 3 (es. 2+1=3).</p>
+</blockquote>
+
+<h4 id="-splatter">🔹 Splatter</h4>
+
+<p><strong>Splatter</strong> — termine usato dai radioamatori per indicare l’allargamento del canale di trasmissione causato dall’intermodulazione. Il segnale “deborda” nei canali adiacenti, disturbando le stazioni vicine in frequenza.</p>
+
+<p><strong>Dove si verifica</strong>: principalmente in <strong>SSB e AM</strong> (segnali multi-frequenza). <strong>Non</strong> in CW e FM:</p>
+
+<ul>
+  <li><strong>CW</strong>: una sola frequenza → niente mescolazione tra segnali diversi</li>
+  <li><strong>FM</strong>: ampiezza costante → la distorsione non produce intermodulazione significativa</li>
+</ul>
+
+<p><strong>Soluzione</strong>: <strong>non sovrapilotare</strong> l’amplificatore finale. Restare entro l’80–90% della potenza massima. Non amplificare eccessivamente il microfono. Se serve più potenza, usare un amplificatore lineare dimensionato adeguatamente piuttosto che “tirare il collo” a uno sottodimensionato.</p>
+
+<blockquote>
+  <p>Paolo sottolinea: “È molto meglio avere 300 W puliti che non danno noia a nessuno che 100 W sporchissimi che disturbano a 50 km di distanza.”</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li><strong>Trasduttore</strong> → si divide in → <strong>microfono</strong> (acustico→elettrico) e <strong>altoparlante</strong> (elettrico→acustico)</li>
+  <li><strong>Microfono dinamico</strong> → funziona come → <strong>altoparlante al contrario</strong></li>
+  <li><strong>Miscelatore</strong> → produce → <strong>frequenza somma</strong> ($f_1+f_2$) e <strong>frequenza differenza</strong> ($f_1-f_2$)</li>
+  <li><strong>Miscelatore</strong> → è usato per → <strong>conversione di frequenza</strong> nei trasmettitori</li>
+  <li><strong>Trasmettitore</strong> → schema generale → oscillatore → driver (classe A) → finale (classe AB) → accordatore</li>
+  <li><strong>Conversione di frequenza</strong> → permette → copertura <strong>multibanda</strong> con un unico VFO</li>
+  <li><strong>Trasmettitore CW</strong> → usa → tasto telegrafico + circuito anti-click</li>
+  <li><strong>Trasmettitore SSB</strong> → genera segnale con → modulatore bilanciato (sopprime portante) + filtro a cristallo (sopprime banda laterale)</li>
+  <li><strong>Selezione USB/LSB</strong> → avviene cambiando → <strong>quarzo nell’oscillatore</strong> (non il filtro)</li>
+  <li><strong>Trasmettitore FM</strong> → modula con → modulatore a reattanza (varicap) + catena moltiplicatori</li>
+  <li><strong>Moltiplicatore</strong> → moltiplica → sia frequenza sia deviazione per lo stesso fattore</li>
+  <li><strong>Trasmettitore AM</strong> → modula variando → <strong>tensione di alimentazione</strong> del finale</li>
+  <li><strong>Sovrapilotaggio</strong> → genera → <strong>armoniche</strong> (lontane, filtrabili)</li>
+  <li><strong>Sovrapilotaggio + segnali multipli</strong> → genera → <strong>intermodulazione</strong> (vicina, non filtrabile!)</li>
+  <li><strong>Intermodulazione</strong> → causa → <strong>splatter</strong> (allargamento canale, disturbo adiacenti)</li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>
+    <p>I <strong>microfoni</strong> trasformano onde acustiche in segnali elettrici; i quattro tipi sono: carbone (storico), cristallo/ceramico (ottimo per radio, enfatizza acuti), condensatore (migliore qualità, richiede alimentazione) e dinamico (buona fedeltà, funziona come altoparlante al contrario).</p>
+  </li>
+  <li>
+    <p>Il <strong>miscelatore</strong> (mixer/mescolatore) ha 2 ingressi e 1 uscita: produce contemporaneamente la frequenza somma e la frequenza differenza dei due segnali in ingresso. È il componente chiave per la conversione di frequenza.</p>
+  </li>
+  <li>
+    <p>Lo schema generale del trasmettitore prevede: oscillatore → catena amplificazione (driver classe A) → amplificatore finale (push-pull classe AB) → accordatore d’antenna (adatta a 50 Ω).</p>
+  </li>
+  <li>
+    <p>In CW multibanda, un <strong>VFO a bassa frequenza</strong> + <strong>mixer</strong> + cristalli diversi permette di coprire tutte le bande con un unico oscillatore variabile. I <strong>click di manipolazione</strong> si evitano smussando i transitori on/off.</p>
+  </li>
+  <li>
+    <p>Nel trasmettitore SSB, il <strong>modulatore bilanciato</strong> sopprime la portante e il <strong>filtro a cristallo</strong> (2,5 kHz) sopprime la banda laterale indesiderata. La selezione USB/LSB avviene commutando il quarzo dell’oscillatore, non cambiando filtro.</p>
+  </li>
+  <li>
+    <p>La <strong>doppia conversione</strong> nell’SSB è necessaria perché il filtro lavora a frequenza fissa (9 MHz): la prima conversione fornisce la copertura di 500 kHz (sintonia), la seconda trasla sulla banda desiderata.</p>
+  </li>
+  <li>
+    <p>Nell’FM, il <strong>modulatore a reattanza</strong> (varicap) sposta la frequenza dell’oscillatore; i <strong>moltiplicatori</strong> aumentano sia la frequenza sia la deviazione per lo stesso fattore. L’amplificatore finale può essere in classe C.</p>
+  </li>
+  <li>
+    <p>L’<strong>intermodulazione</strong> nasce quando l’amplificatore è sovrapilotato E amplifica più segnali contemporaneamente: i prodotti del 3° ordine ($2f_1 - f_2$, $2f_2 - f_1$) cadono vicino alla frequenza di trasmissione e non sono filtrabili.</p>
+  </li>
+  <li>
+    <p>Lo <strong>splatter</strong> è l’allargamento indesiderato del canale causato dall’intermodulazione; si verifica in SSB/AM, non in CW/FM. La soluzione è non sovrapilotare il trasmettitore.</p>
+  </li>
+  <li>
+    <p>L’AM si ottiene nel modo più semplice: variando la <strong>tensione di alimentazione</strong> dell’amplificatore finale in funzione del segnale microfonico.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>
+    <p>Qual è la differenza fondamentale tra un microfono a condensatore e uno dinamico, sia nel principio di funzionamento sia nella necessità di alimentazione?</p>
+  </li>
+  <li>
+    <p>Un miscelatore riceve in ingresso un segnale a 7 MHz e uno a 5 MHz. Quali frequenze sono presenti in uscita? Come si seleziona solo quella desiderata?</p>
+  </li>
+  <li>
+    <p>Perché nei trasmettitori CW multibanda l’oscillatore variabile lavora a frequenza bassa (es. 5 MHz) invece che direttamente alla frequenza di trasmissione?</p>
+  </li>
+  <li>
+    <p>Spiega il meccanismo completo della generazione SSB: dal microfono fino al segnale a banda laterale unica. Qual è il ruolo di ciascun blocco?</p>
+  </li>
+  <li>
+    <p>Perché il trasmettitore SSB necessita di doppia conversione di frequenza? Cosa limita la possibilità di generare l’SSB direttamente alla frequenza di trasmissione?</p>
+  </li>
+  <li>
+    <p>Come si seleziona USB o LSB in un trasmettitore SSB con un unico filtro a cristallo? Descrivi il meccanismo dei due quarzi commutabili.</p>
+  </li>
+  <li>
+    <p>In un trasmettitore FM, l’oscillatore lavora a 12 MHz con deviazione 500 Hz. Dopo una catena di moltiplicatori ×12, quale sarà la frequenza e la deviazione in uscita?</p>
+  </li>
+  <li>
+    <p>Perché l’intermodulazione è un problema per SSB e AM ma non per CW e FM? Quali sono le due condizioni che devono coesistere?</p>
+  </li>
+  <li>
+    <p>Cosa sono i prodotti di intermodulazione del 3° ordine e perché sono particolarmente problematici rispetto alle armoniche semplici?</p>
+  </li>
+  <li>
+    <p>Perché è preferibile usare un amplificatore lineare da 300 W “tranquillo” piuttosto che un trasmettitore da 100 W “col collo tirato”?</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>Accordatore d’antenna (pi-greco)</strong> — circuito con 2 condensatori variabili e 1 induttore che adatta l’impedenza di uscita del TX a 50 Ω dell’antenna</li>
+  <li><strong>Altoparlante</strong> — trasduttore che converte segnale elettrico in onda acustica tramite interazione tra magnete permanente e bobina mobile</li>
+  <li><strong>Armonica</strong> — segnale a frequenza multipla intera della fondamentale (2ª, 3ª, 4ª…)</li>
+  <li><strong>Click di manipolazione</strong> — disturbi sui canali adiacenti causati da transizioni troppo rapide on/off del segnale CW</li>
+  <li><strong>Conversione di frequenza</strong> — processo di traslazione di un segnale da una frequenza a un’altra tramite miscelatore</li>
+  <li><strong>Driver (pilota)</strong> — stadi di amplificazione intermedia (classe A) tra oscillatore e finale</li>
+  <li><strong>DSB (Double Side Band)</strong> — segnale a doppia banda laterale, passo intermedio nella generazione SSB</li>
+  <li><strong>Flat-topping</strong> — appiattimento della sinusoide quando l’amplificatore è sovrapilotato</li>
+  <li><strong>Fondamentale</strong> — frequenza principale di un segnale, rispetto alla quale si definiscono le armoniche</li>
+  <li><strong>Intermodulazione</strong> — generazione di frequenze spurie per mescolamento di segnali multipli in un amplificatore distorto</li>
+  <li><strong>Microfono</strong> — trasduttore che converte un’onda acustica in un segnale elettrico</li>
+  <li><strong>Microfono a carbone</strong> — microfono che sfrutta la variazione di resistività di granuli di carbone compressi</li>
+  <li><strong>Microfono a condensatore</strong> — microfono basato sulla variazione di capacità tra armatura fissa e membrana mobile; richiede alimentazione</li>
+  <li><strong>Microfono a cristallo (ceramico)</strong> — microfono basato sull’effetto piezoelettrico del quarzo; enfatizza le frequenze acute</li>
+  <li><strong>Microfono dinamico</strong> — microfono basato su bobina mobile in campo magnetico; funziona come altoparlante al contrario</li>
+  <li><strong>Miscelatore (mixer, mescolatore)</strong> — componente con 2 ingressi e 1 uscita che produce le frequenze somma e differenza dei segnali in ingresso</li>
+  <li><strong>Modulatore a reattanza</strong> — circuito (tipicamente varicap) che modula la frequenza di un oscillatore variando una reattanza capacitiva</li>
+  <li><strong>Modulatore bilanciato</strong> — circuito che genera DSB sopprimendo la portante; quando non si parla, non esce niente</li>
+  <li><strong>Moltiplicatore di frequenza</strong> — amplificatore non lineare che genera armoniche; moltiplica sia frequenza sia deviazione FM</li>
+  <li><strong>Phantom power</strong> — alimentazione fornita attraverso il cavo del microfono a condensatore</li>
+  <li><strong>Pi-greco (π)</strong> — topologia di circuito di adattamento d’impedenza a forma di lettera π</li>
+  <li><strong>Pre-enfasi</strong> — amplificazione preventiva dei toni bassi nel TX FM per compensare la distorsione del rivelatore</li>
+  <li><strong>Prodotti del 3° ordine</strong> — componenti di intermodulazione ($2f_1-f_2$, $2f_2-f_1$) che cadono vicino alla frequenza di trasmissione</li>
+  <li><strong>Splatter</strong> — allargamento del canale di trasmissione causato da intermodulazione, disturba i canali adiacenti</li>
+  <li><strong>Trasduttore</strong> — dispositivo che converte un tipo di energia in un altro (acustica ↔ elettrica)</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatore</strong>: Paolo (radiotecnica — trasduttori, miscelatori, trasmettitori, intermodulazione)</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Campo</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Lezione</strong></td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td>11 giugno 2025</td>
+    </tr>
+    <tr>
+      <td><strong>Durata</strong></td>
+      <td>circa 2 ore e 15 minuti</td>
+    </tr>
+    <tr>
+      <td><strong>Argomenti trattati</strong></td>
+      <td>6 (quiz, trasduttori, miscelatori, trasmettitori CW/SSB/AM/FM, intermodulazione)</td>
+    </tr>
+    <tr>
+      <td><strong>Parole chiave</strong></td>
+      <td>trasduttore, microfono, altoparlante, carbone, cristallo, condensatore, dinamico, miscelatore, mixer, frequenza somma, frequenza differenza, conversione di frequenza, trasmettitore, CW, SSB, AM, FM, modulatore bilanciato, filtro a cristallo, doppia conversione, modulatore a reattanza, moltiplicatore, varicap, pi-greco, click manipolazione, armonica, intermodulazione, splatter, flat-topping</td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+  <script>
+    const LESSON_SEARCH_PAGES = [
+      
+      
+      { title: "📘 Lezione 01 - Introduzione al Corso", url: "/guide-studio/lezione_01.html" },
+      
+      { title: "📘 Lezione 02 - Fondamenti di Elettrotecnica", url: "/guide-studio/lezione_02.html" },
+      
+      { title: "📘 Lezione 03 - Circuiti Elettrici", url: "/guide-studio/lezione_03.html" },
+      
+      { title: "📘 Lezione 04 - Corrente Alternata", url: "/guide-studio/lezione_04.html" },
+      
+      { title: "📘 Lezione 05 - Componenti Elettronici", url: "/guide-studio/lezione_05.html" },
+      
+      { title: "📘 Lezione 06 - Semiconduttori", url: "/guide-studio/lezione_06.html" },
+      
+      { title: "📘 Lezione 07 - Amplificatori", url: "/guide-studio/lezione_07.html" },
+      
+      { title: "📘 Lezione 08 - Oscillatori", url: "/guide-studio/lezione_08.html" },
+      
+      { title: "📘 Lezione 09 - Modulazione", url: "/guide-studio/lezione_09.html" },
+      
+      { title: "📘 Lezione 10 - Ricevitori", url: "/guide-studio/lezione_10.html" },
+      
+      { title: "📘 Lezione 11 - Trasmettitori", url: "/guide-studio/lezione_11.html" },
+      
+      { title: "📘 Lezione 12 - Propagazione", url: "/guide-studio/lezione_12.html" },
+      
+      { title: "📘 Lezione 13 - Antenne - Parte 1", url: "/guide-studio/lezione_13.html" },
+      
+      { title: "📘 Lezione 14 - Antenne - Parte 2", url: "/guide-studio/lezione_14.html" },
+      
+      { title: "📘 Lezione 15 - Linee di Trasmissione", url: "/guide-studio/lezione_15.html" },
+      
+      { title: "📘 Lezione 16 - Misure e Strumenti", url: "/guide-studio/lezione_16.html" },
+      
+      { title: "📘 Lezione 17 - Serata Speciale", url: "/guide-studio/lezione_17.html" },
+      
+      { title: "📘 Lezione 18 - Interferenze e EMC", url: "/guide-studio/lezione_18.html" },
+      
+      { title: "📘 Lezione 19 - Sicurezza Elettrica", url: "/guide-studio/lezione_19.html" },
+      
+      { title: "📘 Lezione 20 - Normative Nazionali", url: "/guide-studio/lezione_20.html" },
+      
+      { title: "📘 Lezione 21 - Normative Internazionali", url: "/guide-studio/lezione_21.html" },
+      
+      { title: "📘 Lezione 22 - Procedure Operative", url: "/guide-studio/lezione_22.html" }
+      
+    ];
+
+    const lessonSearchCache = new Map();
+
+    function stripAndNormalize(text) {
+      return text.replace(/\s+/g, ' ').trim();
+    }
+
+    function getSnippet(text, query) {
+      const lowerText = text.toLowerCase();
+      const lowerQuery = query.toLowerCase();
+      const index = lowerText.indexOf(lowerQuery);
+      if (index === -1) {
+        return text.slice(0, 180) + (text.length > 180 ? '…' : '');
+      }
+      const start = Math.max(0, index - 70);
+      const end = Math.min(text.length, index + query.length + 90);
+      const prefix = start > 0 ? '…' : '';
+      const suffix = end < text.length ? '…' : '';
+      return prefix + text.slice(start, end) + suffix;
+    }
+
+    async function getLessonText(url) {
+      if (lessonSearchCache.has(url)) {
+        return lessonSearchCache.get(url);
+      }
+      const response = await fetch(url, { credentials: 'same-origin' });
+      if (!response.ok) {
+        lessonSearchCache.set(url, '');
+        return '';
+      }
+      const html = await response.text();
+      const doc = new DOMParser().parseFromString(html, 'text/html');
+      const sourceText = doc.querySelector('main')?.innerText || doc.body?.innerText || '';
+      const normalized = stripAndNormalize(sourceText);
+      lessonSearchCache.set(url, normalized);
+      return normalized;
+    }
+
+    function renderSearchResults(query, results, failedCount) {
+      const container = document.getElementById('global-search-results');
+      if (!container) {
+        return;
+      }
+      if (!results.length) {
+        container.innerHTML = '<h3>Risultati ricerca</h3><p class="global-search-empty">Nessun risultato trovato nelle lezioni.</p>';
+        if (failedCount > 0) {
+          container.innerHTML += '<p class="global-search-empty">Alcune lezioni non sono state lette: riprova tra qualche secondo.</p>';
+        }
+        container.hidden = false;
+        return;
+      }
+
+      const listItems = results.map((result) => {
+        return '<li><a href="' + result.url + '">' + result.title + '</a><p>' + result.snippet + '</p></li>';
+      }).join('');
+
+      container.innerHTML = '<h3>Risultati ricerca per “' + query + '” (' + results.length + ')</h3><ul>' + listItems + '</ul>';
+      if (failedCount > 0) {
+        container.innerHTML += '<p class="global-search-empty">Alcune lezioni non sono state lette: riprova tra qualche secondo.</p>';
+      }
+      container.hidden = false;
+    }
+
+    async function runGlobalLessonSearch() {
+      const input = document.getElementById('global-search-input');
+      const button = document.getElementById('global-search-button');
+      const resultsBox = document.getElementById('global-search-results');
+      if (!input || !button || !resultsBox) {
+        return;
+      }
+
+      const query = input.value.trim();
+      if (!query) {
+        resultsBox.hidden = true;
+        resultsBox.innerHTML = '';
+        return;
+      }
+
+      button.disabled = true;
+      button.textContent = '⏳ Cerco...';
+
+      const results = [];
+      let failedCount = 0;
+
+      for (const lesson of LESSON_SEARCH_PAGES) {
+        try {
+          const text = await getLessonText(lesson.url);
+          if (!text) {
+            failedCount += 1;
+            continue;
+          }
+          if (text.toLowerCase().includes(query.toLowerCase())) {
+            results.push({
+              title: lesson.title,
+              url: lesson.url,
+              snippet: getSnippet(text, query)
+            });
+          }
+        } catch (_error) {
+          failedCount += 1;
+        }
+      }
+
+      renderSearchResults(query, results, failedCount);
+
+      button.disabled = false;
+      button.textContent = '🔍 Cerca';
+    }
+
+    document.getElementById('global-search-button')?.addEventListener('click', runGlobalLessonSearch);
+    document.getElementById('global-search-input')?.addEventListener('keydown', function (event) {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        runGlobalLessonSearch();
+      }
+    });
+  </script>
+</body>
+</html>

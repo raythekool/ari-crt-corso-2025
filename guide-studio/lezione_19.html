@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 19 - Sicurezza Elettrica - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+    nav a, nav button {
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+      background: transparent;
+      border: none;
+      padding: 0;
+      font-size: 1em;
+      font-family: inherit;
+      cursor: pointer;
+    }
+    nav a:hover, nav button:hover {
+      text-decoration: underline;
+    }
+    .global-search {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      margin-left: auto;
+      min-width: 260px;
+    }
+    .global-search input {
+      flex: 1;
+      min-width: 150px;
+      padding: 6px 10px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      font-size: 0.95em;
+    }
+    .global-search button {
+      background: #667eea;
+      color: #fff;
+      border: 1px solid #667eea;
+      border-radius: 6px;
+      padding: 7px 10px;
+      font-size: 0.9em;
+    }
+    .global-search-results {
+      background: #f7f9ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+    }
+    .global-search-results h3 {
+      margin: 0 0 8px 0;
+      color: #3f4fa3;
+      font-size: 1em;
+    }
+    .global-search-results ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    .global-search-results li {
+      margin-bottom: 8px;
+    }
+    .global-search-results p {
+      margin: 6px 0 0 0;
+      color: #444;
+      font-size: 0.92em;
+    }
+    .global-search-empty {
+      margin: 0;
+      color: #555;
+      font-style: italic;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+        font-size: 14px;
+      }
+      header {
+        padding: 15px;
+        margin-bottom: 20px;
+      }
+      header h1 {
+        font-size: 1.5em;
+      }
+      header p {
+        font-size: 0.9em;
+        margin: 10px 0 0 0;
+      }
+      nav {
+        padding: 10px;
+        margin-bottom: 15px;
+      }
+      nav a, nav button {
+        font-size: 0.9em;
+        padding: 6px 10px;
+        background: white;
+        border-radius: 4px;
+      }
+      .global-search {
+        width: 100%;
+        margin-left: 0;
+      }
+      .global-search input,
+      .global-search button {
+        width: 100%;
+      }
+      .lesson-nav {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        gap: 8px;
+      }
+      .lesson-nav a,
+      .lesson-nav label,
+      .lesson-nav select {
+        width: 100%;
+        text-align: center;
+      }
+      .lesson-nav select {
+        width: 100%;
+      }
+      main {
+        padding: 15px;
+        border-radius: 4px;
+      }
+      table {
+        font-size: 0.85em;
+        margin: 15px 0;
+      }
+      table th, table td {
+        padding: 8px;
+      }
+      h1 {
+        font-size: 1.6em;
+      }
+      h2 {
+        font-size: 1.3em;
+      }
+      h3 {
+        font-size: 1.1em;
+      }
+      pre {
+        padding: 10px;
+        font-size: 0.85em;
+        overflow-x: auto;
+      }
+    }
+    @media (min-width: 769px) and (max-width: 1024px) {
+      body {
+        padding: 15px;
+      }
+      header {
+        padding: 18px;
+      }
+      header h1 {
+        font-size: 1.8em;
+      }
+      main {
+        padding: 20px;
+      }
+      table {
+        font-size: 0.95em;
+      }
+      table th, table td {
+        padding: 10px;
+      }
+    }
+    @media (min-width: 1025px) {
+      /* Desktop styles - default */
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/">🏠 Home</a>
+    <a href="/guide-studio/">📖 Guide di Studio</a>
+    <a href="/glossario.html">📚 Glossario</a>
+    <a href="/domande-esame.html">❓ Domande</a>
+    <a href="/risorse.html">🔗 Risorse</a>
+    <div class="global-search">
+      <input id="global-search-input" type="search" placeholder="Cerca in tutte le lezioni..." aria-label="Cerca in tutte le lezioni" />
+      <button id="global-search-button" type="button">🔍 Cerca</button>
+    </div>
+  </nav>
+  <div id="global-search-results" class="global-search-results" hidden></div>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/guide-studio/lezione_18.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/guide-studio/lezione_20.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/guide-studio/lezione_19.html" selected>📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-19---sicurezza-elettrica">📘 Lezione 19 - Sicurezza Elettrica</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia</strong>: Linee di trasmissione radiofrequenza, onde stazionarie, adattamento di impedenza e decibel</li>
+  <li><strong>Tempo di studio stimato</strong>: 90–110 minuti</li>
+  <li><strong>Prerequisiti</strong>: Concetti di base di elettrotecnica (legge di Ohm, impedenza, reattanza), propagazione ionosferica (lezione precedente), concetto di lunghezza d’onda e frequenza</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Comprendere la teoria delle linee di trasmissione RF e il concetto di impedenza caratteristica</li>
+      <li>Distinguere tra regime di onda progressiva e regime di onde stazionarie</li>
+      <li>Calcolare e interpretare il ROS (Rapporto di Onde Stazionarie / SWR)</li>
+      <li>Conoscere le differenze tra cavo coassiale e linea bifilare</li>
+      <li>Comprendere il fattore di velocità e la differenza tra lunghezza fisica e lunghezza elettrica</li>
+      <li>Utilizzare il decibel per calcoli di guadagno e attenuazione in una catena RF</li>
+      <li>Comprendere il corretto posizionamento degli strumenti di misura del ROS</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h3 id="1--revisione-del-test-precedente--00050817">1. 🔍 Revisione del Test Precedente (⏱ 00:05–08:17)</h3>
+
+<p>La lezione si apre con la revisione dei risultati del test sulla propagazione. La maggior parte degli studenti ha ottenuto risultati superiori all’80%, ma due domande hanno presentato difficoltà significative.</p>
+
+<h4 id="-domanda-sulla-mofmuf-e-lunghezza-donda">🔹 Domanda sulla MOF/MUF e Lunghezza d’Onda</h4>
+
+<p>La domanda chiedeva: “Se la massima frequenza utilizzabile (MOF) per un dato collegamento è 24 MHz, quale banda offre la migliore possibilità di collegamento?”</p>
+
+<p>Il trabocchetto risiede nel passaggio da <strong>frequenza</strong> a <strong>lunghezza d’onda</strong>: la frequenza ottimale è circa l’80–90% della MUF, quindi circa 20 MHz. La banda corrispondente è quella dei <strong>15 m</strong> (21 MHz), non dei 20 m. L’errore comune è confondere il valore numerico della frequenza in MHz con la lunghezza d’onda in metri.</p>
+
+<h4 id="-domanda-sullattenuazione-in-troposfera">🔹 Domanda sull’Attenuazione in Troposfera</h4>
+
+<p>La domanda chiedeva come varia l’attenuazione nella troposfera al variare della frequenza. La risposta corretta è che <strong>l’attenuazione cresce sempre all’aumentare della frequenza</strong>, indipendentemente dal tipo di propagazione (troposferica, ionosferica o in portata ottica). L’attenuazione di un campo elettromagnetico dipende sostanzialmente dalla <strong>distanza</strong> e dalla <strong>frequenza</strong>: a parità di distanza, aumenta con la frequenza.</p>
+
+<blockquote>
+  <p><strong>Nota</strong>: durante la revisione è emerso un problema di indicizzazione delle domande (alfabeto italiano vs. versione con J e K), che ha causato confusione tra le versioni del questionario.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="2--teoria-delle-linee-di-trasmissione-rf--08441935">2. 📡 Teoria delle Linee di Trasmissione RF (⏱ 08:44–19:35)</h3>
+
+<h4 id="-definizione-di-linea-di-trasmissione">🔹 Definizione di Linea di Trasmissione</h4>
+
+<p><strong>Linea di trasmissione</strong> — coppia di conduttori che collegano un generatore a un carico. Quando la lunghezza della linea è <strong>trascurabile</strong> rispetto alla lunghezza d’onda del segnale che la percorre, tensioni e correnti lungo la linea possono essere considerate uniformi e si applicano le regole dell’elettrotecnica classica.</p>
+
+<p>L’esempio della prolunga domestica è illuminante: a 50 Hz la lunghezza d’onda è circa 6.000 km, quindi qualsiasi prolunga è enormemente più corta e il comportamento è quello di un circuito a parametri concentrati.</p>
+
+<p>Quando invece la dimensione della linea diventa <strong>comparabile</strong> con la lunghezza d’onda (tipicamente una linea a radiofrequenza che alimenta un’antenna), la distribuzione di tensioni e correnti non è più uniforme e si deve ricorrere alla <strong>teoria delle linee di trasmissione</strong>.</p>
+
+<h4 id="-modello-a-costanti-distribuite-circuito-lc">🔹 Modello a Costanti Distribuite (Circuito LC)</h4>
+
+<p>Ogni conduttore della linea presenta un’<strong>induttanza distribuita</strong> (dipendente da diametro, lunghezza, presenza di dielettrico) e tra i due conduttori esiste una <strong>capacità distribuita</strong> (funzione delle dimensioni dei conduttori, della loro distanza e del dielettrico). Pertanto una linea può essere assimilata a un <strong>circuito LC a costanti distribuite</strong>: dividendo la linea in tanti segmenti, ciascuno presenta un valore costante di L e C per unità di lunghezza.</p>
+
+<h4 id="-impedenza-caratteristica">🔹 Impedenza Caratteristica</h4>
+
+<p>La teoria delle linee dimostra che, per una linea di lunghezza infinita, il segnale si propaga in regime di <strong>onda progressiva</strong> e la linea presenta al generatore un’impedenza chiamata <strong>impedenza caratteristica</strong> ($Z_0$):</p>
+
+\[Z_0 = \sqrt{\frac{L}{C}}\]
+
+<p>dove $L$ è l’induttanza per unità di lunghezza e $C$ la capacità per unità di lunghezza.</p>
+
+<p>Se una linea di lunghezza finita viene chiusa su un’impedenza pari a $Z_0$, essa si comporta come una linea di lunghezza infinita: il segnale si propaga in modo esclusivamente progressivo e <strong>tutta l’energia</strong> erogata dal generatore viene trasferita al carico.</p>
+
+<p>L’impedenza caratteristica dipende unicamente dalle <strong>caratteristiche fisiche</strong> della linea: rapporto tra le dimensioni dei due conduttori, distanza tra essi e proprietà del dielettrico.</p>
+
+<blockquote>
+  <p><strong>Valori tipici commerciali</strong>:</p>
+
+  <ul>
+    <li><strong>Linea bifilare</strong> (piattina): 200–300 Ω</li>
+    <li><strong>Cavo coassiale</strong>: 50–75 Ω</li>
+  </ul>
+</blockquote>
+
+<hr />
+
+<h3 id="3--cavo-coassiale-vs-linea-bifilare--19412328">3. 📐 Cavo Coassiale vs. Linea Bifilare (⏱ 19:41–23:28)</h3>
+
+<h4 id="-vantaggi-del-cavo-coassiale">🔹 Vantaggi del Cavo Coassiale</h4>
+
+<p>Il campo elettromagnetico nel cavo coassiale rimane <strong>confinato</strong> all’interno del conduttore esterno, a differenza della linea bifilare nella quale una quota parte si propaga anche a distanza dai conduttori. Questo comporta che:</p>
+
+<ul>
+  <li>Il cavo coassiale può essere posato <strong>in qualsiasi ambiente</strong> senza subire interferenze da masse metalliche circostanti</li>
+  <li>La linea bifilare, se posata in prossimità di altri cavi o canalizzazioni metalliche, subisce interferenze e può a sua volta disturbare i conduttori vicini</li>
+</ul>
+
+<p>Per contro, a parità di lunghezza, il cavo coassiale ha generalmente <strong>maggiore attenuazione</strong> rispetto alla linea bifilare.</p>
+
+<h4 id="-carichi-bilanciati-e-sbilanciati">🔹 Carichi Bilanciati e Sbilanciati</h4>
+
+<p><strong>Carico sbilanciato</strong> — un carico (o generatore) in cui uno dei due terminali è riferito a terra. Il cavo coassiale è impiegabile quasi esclusivamente per la connessione tra generatori e carichi sbilanciati.</p>
+
+<p><strong>Carico bilanciato</strong> — un carico i cui terminali non hanno alcun riferimento a terra (es. la maggior parte delle antenne). Per alimentare un carico bilanciato con un cavo coassiale è necessario un dispositivo di adattamento chiamato <strong>balun</strong> (balanced-unbalanced).</p>
+
+<p>Poiché la totalità degli apparati ricetrasmittenti moderni ha un’uscita di tipo sbilanciato, l’impiego del cavo coassiale è praticamente universale. L’uso della linea bifilare è limitato a casi particolari, come l’adattamento di impedenza tramite tronchi di linea.</p>
+
+<hr />
+
+<h3 id="4--parametri-caratteristici-di-una-linea-reale--23533407">4. ⚡ Parametri Caratteristici di una Linea Reale (⏱ 23:53–34:07)</h3>
+
+<p>Una linea reale, a differenza della linea ideale teorica, presenta sempre una certa <strong>attenuazione</strong>. I tre parametri fondamentali che definiscono una linea sono:</p>
+
+<h4 id="-impedenza-caratteristica-1">🔹 Impedenza Caratteristica</h4>
+
+<p>Valori tipici: 50–75 Ω per cavi coassiali, 200–300 Ω per linee bifilari.</p>
+
+<h4 id="-attenuazione">🔹 Attenuazione</h4>
+
+<p>Espressa in <strong>dB per metro</strong> (o dB per 100 m). L’attenuazione di una linea reale <strong>aumenta sempre con la frequenza</strong>. A parità di frequenza, dipende dalle caratteristiche dei conduttori e del dielettrico:</p>
+
+<ul>
+  <li>Cavi coassiali di <strong>maggior diametro</strong> hanno minore attenuazione</li>
+  <li>Cavi con dielettrico <strong>foam</strong> (spugnoso) hanno minore attenuazione rispetto al dielettrico compatto, perché il dielettrico spugnoso contiene aria e ha una costante dielettrica diversa</li>
+  <li>I cavi da TV, pur avendo ottima attenuazione, non sono adatti a supportare potenze elevate in trasmissione</li>
+  <li>Cavi professionali con dielettrico spugnoso hanno il conduttore esterno in tubo di rame rigido e corrugato per evitare schiacciamenti</li>
+</ul>
+
+<h4 id="-fattore-di-velocità">🔹 Fattore di Velocità</h4>
+
+<p>La velocità di propagazione del segnale lungo una linea è <strong>inferiore</strong> a quella nello spazio libero ($c$ ≈ 300.000 km/s). Il fattore di velocità ($v_f$) indica di quanto si riduce la velocità di propagazione rispetto al vuoto.</p>
+
+<p><strong>Lunghezza fisica</strong> — la lunghezza misurata materialmente col metro.
+<strong>Lunghezza elettrica</strong> — la lunghezza riferita al segnale che percorre la linea.</p>
+
+<p>La relazione è:</p>
+
+\[L_{fisica} = L_{elettrica} \times v_f = \lambda \times v_f\]
+
+<blockquote>
+  <p><strong>Esempio</strong>: a 30 MHz ($\lambda$ = 10 m) con un cavo a $v_f$ = 0,66, uno spezzone lungo una lunghezza d’onda non misura 10 m, bensì <strong>6,60 m</strong> (lunghezza fisica). La lunghezza elettrica rimane 10 m.</p>
+</blockquote>
+
+<p>Valori tipici del fattore di velocità:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo dielettrico</th>
+      <th>$v_f$</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Polietilene compatto</td>
+      <td>0,66</td>
+    </tr>
+    <tr>
+      <td>PTFE (Teflon)</td>
+      <td>0,70</td>
+    </tr>
+    <tr>
+      <td>Dielettrico spugnoso (foam)</td>
+      <td>0,80–0,85</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Nella tabella di cavi comuni presentata nella lezione figurano RG58, RG213, RG214 e altri, con impedenze di 50 o 75 Ω, attenuazioni dell’ordine di frazioni di dB al metro e fattori di velocità coerenti con il tipo di dielettrico.</p>
+
+<hr />
+
+<h3 id="5--regime-di-onde-stazionarie--34075256">5. 🌊 Regime di Onde Stazionarie (⏱ 34:07–52:56)</h3>
+
+<h4 id="-cosa-accade-con-impedenza-diversa-da-z">🔹 Cosa Accade con Impedenza Diversa da Z₀</h4>
+
+<p>Quando la linea è chiusa su un’impedenza <strong>diversa</strong> dall’impedenza caratteristica, non tutta l’energia raggiunge il carico: una parte viene <strong>riflessa</strong> verso il generatore, creando un <strong>regime di onde stazionarie</strong>.</p>
+
+<p>Il carico può essere pensato come la serie di due impedenze: una pari a $Z_0$ (che assorbe energia in regime progressivo) e una pari alla differenza (che rappresenta la potenza riflessa). I due flussi — diretto (dal generatore al carico) e riflesso (dal carico al generatore) — si compongono generando un’<strong>onda stazionaria</strong>: un’onda che non scorre lungo la linea ma presenta <strong>massimi e minimi fissi</strong> in posizioni determinate, che si ripetono con periodicità di $\lambda/2$.</p>
+
+<h4 id="-definizione-di-ros-swr">🔹 Definizione di ROS (SWR)</h4>
+
+<p><strong>ROS</strong> (Rapporto di Onde Stazionarie) o <strong>SWR</strong> (Standing Wave Ratio) — il rapporto tra la tensione (o corrente) massima e minima lungo una linea in regime di onde stazionarie:</p>
+
+\[ROS = \frac{V_{max}}{V_{min}} = \frac{I_{max}}{I_{min}}\]
+
+<p>Il ROS è anche uguale al rapporto tra impedenza caratteristica della linea e impedenza del carico (o viceversa, prendendo sempre il rapporto maggiore):</p>
+
+\[ROS = \frac{Z_L}{Z_0} \quad \text{oppure} \quad ROS = \frac{Z_0}{Z_L}\]
+
+<blockquote>
+  <p><strong>Attenzione (domande d’esame)</strong>: il ROS varia da un <strong>minimo di 1</strong> (perfetto adattamento, assenza di onde stazionarie) a un <strong>massimo di infinito</strong> (riflessione totale). Il valore minimo NON è zero.</p>
+</blockquote>
+
+<h4 id="-variazione-dellimpedenza-lungo-la-linea">🔹 Variazione dell’Impedenza lungo la Linea</h4>
+
+<p>In regime di onde stazionarie, l’impedenza vista dal generatore <strong>varia da punto a punto</strong> lungo la linea con ciclicità $\lambda/2$. I valori estremi sono:</p>
+
+\[Z_{min} = \frac{Z_0}{ROS} \qquad Z_{max} = Z_0 \times ROS\]
+
+<blockquote>
+  <p><strong>Esempio numerico</strong>: cavo da 50 Ω, ROS = 2 → l’impedenza varia da <strong>25 Ω</strong> (50/2) a <strong>100 Ω</strong> (50×2).</p>
+</blockquote>
+
+<p>Nei punti intermedi (diversi da multipli di $\lambda/4$), l’impedenza presenta anche <strong>componenti reattive</strong> (induttive o capacitive), anche quando il carico è puramente resistivo. Solo a distanze pari a multipli interi di $\lambda/4$ si trovano valori puramente resistivi.</p>
+
+<h4 id="-il-ros-è-costante-lungo-la-linea">🔹 Il ROS è Costante lungo la Linea</h4>
+
+<p>Concetto fondamentale: sebbene tensioni, correnti e impedenza varino da punto a punto, il <strong>valore del ROS è costante in ogni punto della linea</strong>. È un errore credere che allungando o accorciando il cavo si possa “aggiustare” il valore del ROS. Questa credenza errata è alimentata dal fatto che alcuni strumenti di misura, in determinate condizioni, forniscono letture diverse a seconda della posizione lungo la linea (per limiti dello strumento, non per variazione reale del ROS).</p>
+
+<hr />
+
+<h3 id="6--applicazioni-delle-onde-stazionarie-trasformatore-λ4--61266723">6. 🔧 Applicazioni delle Onde Stazionarie: Trasformatore λ/4 (⏱ 61:26–67:23)</h3>
+
+<h4 id="-trasformatore-di-impedenza-a-quarto-donda">🔹 Trasformatore di Impedenza a Quarto d’Onda</h4>
+
+<p>Una linea lunga esattamente $\lambda/4$, chiusa su un’impedenza diversa dalla propria, presenta dall’altro capo un’impedenza puramente resistiva (se il carico è resistivo). Questo comportamento viene sfruttato come <strong>trasformatore di impedenza</strong>.</p>
+
+<p>Per adattare due impedenze $Z_1$ e $Z_2$, si interpone un tronco di linea lungo $\lambda/4$ con impedenza caratteristica:</p>
+
+\[Z_{linea} = \sqrt{Z_1 \times Z_2}\]
+
+<blockquote>
+  <p><strong>Esempio</strong>: per adattare un carico da 100 Ω a un generatore da 50 Ω → $Z_{linea} = \sqrt{50 \times 100} = \sqrt{5000} \approx 70{,}7 \approx 75 \; \Omega$. Un tronco di cavo da 75 Ω lungo $\lambda/4$ realizza l’adattamento.</p>
+</blockquote>
+
+<p>Questa tecnica è molto utilizzata in <strong>VHF</strong> e per accoppiare più antenne.</p>
+
+<h4 id="-linee-λ4-aperte-e-in-cortocircuito">🔹 Linee λ/4 Aperte e in Cortocircuito</h4>
+
+<ul>
+  <li><strong>Linea λ/4 in cortocircuito</strong>: presenta impedenza <strong>infinita</strong> dall’altro lato. Per lunghezze &lt; λ/4 si comporta come <strong>induttanza pura</strong>, per lunghezze tra λ/4 e λ/2 come <strong>capacità pura</strong> → equivalente a un <strong>circuito risonante parallelo</strong></li>
+  <li><strong>Linea λ/4 aperta</strong>: comportamento opposto → equivalente a un <strong>circuito risonante serie</strong></li>
+</ul>
+
+<p>Questo principio è utilizzato in alta frequenza per realizzare <strong>risonatori coassiali</strong> e filtri ad elevato fattore di merito Q.</p>
+
+<hr />
+
+<h3 id="7-️-conseguenze-del-disadattamento--67317618">7. ⚠️ Conseguenze del Disadattamento (⏱ 67:31–76:18)</h3>
+
+<h4 id="-potenza-riflessa-in-funzione-del-ros">🔹 Potenza Riflessa in Funzione del ROS</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>ROS</th>
+      <th>Potenza riflessa (%)</th>
+      <th>Perdita (dB)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1,0</td>
+      <td>0%</td>
+      <td>0 dB</td>
+    </tr>
+    <tr>
+      <td>1,5</td>
+      <td>~4%</td>
+      <td>~0,2 dB</td>
+    </tr>
+    <tr>
+      <td>2,0</td>
+      <td>~11%</td>
+      <td>~0,5 dB</td>
+    </tr>
+    <tr>
+      <td>3,0</td>
+      <td>25%</td>
+      <td>~1,25 dB</td>
+    </tr>
+    <tr>
+      <td>∞</td>
+      <td>100%</td>
+      <td>totale</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Fino a ROS = 2, la percentuale di potenza riflessa è inferiore al 10–11%. Sale al 25% con ROS = 3, poi cresce drasticamente.</p>
+
+<h4 id="-effetti-dannosi-del-disadattamento">🔹 Effetti Dannosi del Disadattamento</h4>
+
+<ol>
+  <li><strong>Aumento dell’attenuazione del cavo</strong>: l’attenuazione nominale è relativa al perfetto adattamento; in regime di onde stazionarie il cavo è sottoposto a tensioni e correnti più elevate e l’attenuazione aumenta</li>
+  <li><strong>Danneggiamento di cavo e trasmettitore</strong> con potenze elevate</li>
+  <li><strong>Riduzione della potenza erogata dal trasmettitore</strong>: per il <strong>teorema del massimo trasferimento di potenza</strong>, la massima potenza si ottiene quando l’impedenza del carico è pari al complesso coniugato dell’impedenza interna del generatore. In pratica, il trasmettitore eroga la potenza nominale solo se vede un carico di <strong>50 Ω puramente resistivi</strong></li>
+</ol>
+
+<blockquote>
+  <p>Con ROS = 2, la potenza riflessa è solo ~10%, ma l’impedenza vista dal trasmettitore può variare da 25 a 100 Ω: il trasmettitore non riesce a lavorare in condizioni ottimali, e le due condizioni (perdita riflessa + mancato adattamento al TX) si sommano.</p>
+</blockquote>
+
+<h4 id="-uso-dellaccordatore-tuner">🔹 Uso dell’Accordatore (Tuner)</h4>
+
+<p><strong>Accordatore</strong> — dispositivo in grado di adattare due valori di impedenza differenti.</p>
+
+<ul>
+  <li><strong>Posizione ottimale</strong>: in prossimità dell’antenna, in modo che sia la linea sia il trasmettitore lavorino in perfetto adattamento</li>
+  <li><strong>Posizione comune</strong>: all’uscita del trasmettitore. Questo protegge i finali e permette l’erogazione della massima potenza, ma <strong>non elimina il disadattamento lungo la linea</strong>: il ROS in linea rimane elevato, causando un’attenuazione superiore a quella nominale e quindi poca potenza effettiva all’antenna</li>
+</ul>
+
+<hr />
+
+<h3 id="8--misura-del-ros--76188339">8. 📏 Misura del ROS (⏱ 76:18–83:39)</h3>
+
+<h4 id="-strumenti-di-misura">🔹 Strumenti di Misura</h4>
+
+<p>Il ROS si misura tramite un <strong>wattmetro direzionale</strong> (o accoppiatore direzionale) in grado di rilevare separatamente la potenza diretta ($P_d$) e la potenza riflessa ($P_r$). Il ROS si calcola come:</p>
+
+\[ROS = \frac{1 + \sqrt{P_r / P_d}}{1 - \sqrt{P_r / P_d}}\]
+
+<h4 id="-tipologie-di-sensori">🔹 Tipologie di Sensori</h4>
+
+<ul>
+  <li><strong>Accoppiatore direzionale</strong>: il più affidabile</li>
+  <li><strong>Ponti di misura</strong> (Wheatstone Bridge, Tandem Bridge): utilizzati negli strumenti di basso costo, possono dare letture non attendibili in funzione della posizione lungo la linea</li>
+</ul>
+
+<h4 id="-effetto-dellattenuazione-del-cavo-sulla-misura">🔹 Effetto dell’Attenuazione del Cavo sulla Misura</h4>
+
+<p>La misura andrebbe fatta idealmente <strong>al punto di connessione con l’antenna</strong>. Misurando lato trasmettitore, l’attenuazione del cavo “maschera” il vero valore di ROS.</p>
+
+<blockquote>
+  <p><strong>Esempio numerico dettagliato</strong>:</p>
+
+  <ul>
+    <li>Trasmettitore: 100 W, cavo con attenuazione totale di 2 dB, antenna con ROS = 3 (25% di riflessione)</li>
+    <li><strong>Misura lato antenna</strong>: $P_d$ = 63 W (100 W − 2 dB), $P_r$ = 16 W (25% di 63) → <strong>ROS letto = 3</strong> ✓</li>
+    <li><strong>Misura lato trasmettitore</strong>: $P_d$ = 100 W, $P_r$ = 10 W (i 16 W riflessi subiscono 2 dB di attenuazione percorrendo il cavo a ritroso) → <strong>ROS letto = 1,9</strong> ✗</li>
+  </ul>
+
+  <p>In regime di onde stazionarie, l’attenuazione reale del cavo è addirittura superiore a quella nominale, peggiorando ulteriormente la discrepanza.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="9--il-decibel-db--83399530">9. 📊 Il Decibel (dB) (⏱ 83:39–95:30)</h3>
+
+<h4 id="-definizione">🔹 Definizione</h4>
+
+<p>Il <strong>decibel</strong> (dB) è un’unità di misura <strong>logaritmica</strong> che esprime il rapporto tra due potenze:</p>
+
+\[G_{dB} = 10 \cdot \log_{10}\left(\frac{P_{out}}{P_{in}}\right)\]
+
+<h4 id="-valori-notevoli">🔹 Valori Notevoli</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Rapporto lineare</th>
+      <th>Valore in dB</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2 (doppio)</td>
+      <td>+3 dB</td>
+    </tr>
+    <tr>
+      <td>4 (quadruplo)</td>
+      <td>+6 dB</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>+10 dB</td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>+20 dB</td>
+    </tr>
+    <tr>
+      <td>1.000</td>
+      <td>+30 dB</td>
+    </tr>
+    <tr>
+      <td>1/2 (metà)</td>
+      <td>−3 dB</td>
+    </tr>
+    <tr>
+      <td>1/4</td>
+      <td>−6 dB</td>
+    </tr>
+    <tr>
+      <td>1/10</td>
+      <td>−10 dB</td>
+    </tr>
+    <tr>
+      <td>1/100</td>
+      <td>−20 dB</td>
+    </tr>
+    <tr>
+      <td>1/1.000</td>
+      <td>−30 dB</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>Guadagno</strong>: valori positivi</li>
+  <li><strong>Attenuazione</strong>: valori negativi</li>
+</ul>
+
+<blockquote>
+  <p>Per le domande d’esame è sufficiente ricordare: <strong>3 dB = doppio/metà</strong>, <strong>6 dB = quadruplo/quarto</strong>, <strong>10 dB = 10 volte/un decimo</strong>.</p>
+</blockquote>
+
+<h4 id="-vantaggio-delluso-dei-decibel">🔹 Vantaggio dell’Uso dei Decibel</h4>
+
+<p>In una catena con più elementi (cavo + antenna, amplificatore + cavo + filtro, ecc.), guadagni e attenuazioni espressi in dB possono essere <strong>semplicemente sommati algebricamente</strong> per ottenere il risultato complessivo.</p>
+
+<blockquote>
+  <p><strong>Esempio pratico</strong>:</p>
+
+  <ul>
+    <li>Trasmettitore: 100 W</li>
+    <li>Cavo: −3 dB di attenuazione</li>
+    <li>Antenna: +6 dB di guadagno</li>
+    <li>Guadagno totale = +6 − 3 = <strong>+3 dB</strong> → potenza irradiata = 100 × 2 = <strong>200 W</strong></li>
+  </ul>
+</blockquote>
+
+<h4 id="-calcolo-dellattenuazione-di-un-cavo">🔹 Calcolo dell’Attenuazione di un Cavo</h4>
+
+<p>L’attenuazione complessiva di una linea si ottiene <strong>moltiplicando</strong> il valore di attenuazione per metro (fornito dal costruttore alla frequenza di utilizzo) per la lunghezza del cavo.</p>
+
+<blockquote>
+  <p><strong>Esempio</strong>: cavo con 0,2 dB/m, lungo 15 m → attenuazione totale = 0,2 × 15 = <strong>3 dB</strong>.</p>
+</blockquote>
+
+<p>Attenzione: l’attenuazione dipende dalla frequenza, quindi per antenne multibanda lo stesso cavo avrà attenuazioni diverse su bande diverse.</p>
+
+<hr />
+
+<h3 id="10-️-aspetti-pratici-e-discussione--953612544">10. 🛠️ Aspetti Pratici e Discussione (⏱ 95:36–125:44)</h3>
+
+<h4 id="-posizionamento-del-rosmetro">🔹 Posizionamento del Rosmetro</h4>
+
+<p>In risposta alla domanda di Marco sul posizionamento del rosmetro rispetto a un commutatore d’antenna: se il commutatore è di buona qualità e adeguato alla frequenza di utilizzo, la posizione (prima o dopo il commutatore) è praticamente <strong>indifferente</strong>, purché il ROS sia basso. Con ROS elevati e strumenti di basso costo, si possono avere letture diverse a seconda della posizione — problema dello strumento, non del ROS reale.</p>
+
+<h4 id="-cavi-con-dielettrico-spugnoso--rg8-mini">🔹 Cavi con Dielettrico Spugnoso — RG8 Mini</h4>
+
+<p>Claudio chiede informazioni sull’RG8 Mini (fattore di velocità 0,82, attenuazione 2,5 dB per 30 m a 50 MHz). Il fattore di velocità elevato (0,82 anziché 0,66) tradisce il dielettrico <strong>spugnoso</strong> (foam). Questi cavi offrono ottima attenuazione per le dimensioni, ma sono <strong>delicati</strong>: occorre evitare pieghe marcate, schiacciamenti e torsioni che possono alterare il dielettrico e le caratteristiche del cavo.</p>
+
+<h4 id="-misure-con-vna-e-impedenza-dellantenna">🔹 Misure con VNA e Impedenza dell’Antenna</h4>
+
+<p>La misura di impedenza dell’antenna andrebbe fatta il più vicino possibile all’antenna stessa. Misurando alla base del cavo si rischia di leggere valori falsati dalla trasformazione di impedenza della linea. In particolare, se il cavo non ha lunghezza elettrica pari a un multiplo intero di $\lambda/2$, un’antenna risonante (impedenza puramente resistiva) può apparire con componenti reattive dall’altro capo del cavo, inducendo a modifiche errate dell’antenna.</p>
+
+<blockquote>
+  <p><strong>Errore comune</strong>: cercare il punto di impedenza puramente resistiva alla base del cavo e pensare di non essere in risonanza a causa di componenti reattive, quando in realtà è il cavo a introdurle per effetto della trasformazione di impedenza.</p>
+</blockquote>
+
+<p>Soluzioni pratiche: utilizzare uno <strong>spezzone di cavo calibrato</strong> di lunghezza nota, oppure accoppiatori direzionali con <strong>interfaccia wireless</strong> da posizionare direttamente all’antenna.</p>
+
+<h4 id="-consigli-sui-cavi">🔹 Consigli sui Cavi</h4>
+
+<p>Segnalazione del marchio <strong>Messi &amp; Paoloni</strong> come produttore di cavi professionali di alta qualità (serie Ultraflex da 7, 10, 13 mm) con specifiche dettagliate di attenuazione per frequenza.</p>
+
+<h4 id="-ripasso-di-propagazione-ionosferica">🔹 Ripasso di Propagazione Ionosferica</h4>
+
+<p>In risposta alla domanda corretta del quiz: lo strato <strong>F</strong> è l’unico che rimane presente anche di notte. Durante la notte, il livello di ionizzazione dello strato F diminuisce progressivamente e raggiunge il <strong>minimo poco prima dell’alba</strong>, per poi risalire con la nuova radiazione solare. Subito dopo il tramonto, lo strato F mantiene ancora per un po’ i livelli diurni.</p>
+
+<h4 id="-cenni-sulla-rete-troposcatter-natousaf">🔹 Cenni sulla Rete Troposcatter NATO/USAF</h4>
+
+<p>Breve digressione storica sulla rete troposcatter che passava per Coltano (Pisa): sistemi USAF a <strong>400 MHz</strong> (tratte su mare) e <strong>800 MHz</strong> (tratte su terra), potenze da <strong>1 a 10 kW</strong>, sistemi multicanale da 100 canali. Impianto attivato nel 1963 e smantellato alla fine degli anni ‘80.</p>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li><strong>Linea di trasmissione</strong> → è caratterizzata da → <strong>impedenza caratteristica</strong> $Z_0$</li>
+  <li><strong>Impedenza caratteristica</strong> → dipende da → <strong>rapporto dimensioni conduttori</strong> e <strong>dielettrico</strong></li>
+  <li><strong>Linea chiusa su $Z_0$</strong> → determina → <strong>regime di onda progressiva</strong> (trasferimento totale di energia)</li>
+  <li><strong>Linea chiusa su impedenza ≠ $Z_0$</strong> → genera → <strong>regime di onde stazionarie</strong></li>
+  <li><strong>Regime di onde stazionarie</strong> → è quantificato dal → <strong>ROS (SWR)</strong></li>
+  <li><strong>ROS</strong> → è costante lungo la linea → ma <strong>impedenza</strong> varia ciclicamente ogni λ/2</li>
+  <li><strong>Disadattamento</strong> → causa → <strong>potenza riflessa</strong>, <strong>aumento attenuazione cavo</strong>, <strong>riduzione potenza erogata dal TX</strong></li>
+  <li><strong>Accordatore</strong> → compensa il disadattamento → ma idealmente va posto <strong>all’antenna</strong></li>
+  <li><strong>Tronco λ/4</strong> → può funzionare come → <strong>trasformatore di impedenza</strong></li>
+  <li><strong>Fattore di velocità</strong> → determina la differenza tra → <strong>lunghezza fisica</strong> e <strong>lunghezza elettrica</strong></li>
+  <li><strong>Cavo coassiale</strong> → ha campo confinato → preferito rispetto a <strong>linea bifilare</strong></li>
+  <li><strong>Linea bifilare</strong> → necessaria per → <strong>carichi bilanciati</strong> (con balun nel caso di coassiale)</li>
+  <li><strong>Decibel</strong> → esprime rapporti di potenza in scala logaritmica → permette di <strong>sommare</strong> guadagni e attenuazioni</li>
+  <li><strong>Attenuazione del cavo</strong> → dipende da → <strong>frequenza</strong>, <strong>lunghezza</strong>, <strong>tipo di dielettrico</strong></li>
+  <li><strong>Misura del ROS</strong> → influenzata da → <strong>attenuazione del cavo</strong> e <strong>tipo di strumento</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>
+    <p>L’<strong>impedenza caratteristica</strong> $Z_0$ di una linea dipende dalle sue caratteristiche fisiche ($Z_0 = \sqrt{L/C}$) e non dalla lunghezza; valori tipici sono 50–75 Ω per cavi coassiali, 200–300 Ω per linee bifilari.</p>
+  </li>
+  <li>
+    <p>Una linea chiusa su un’impedenza pari alla propria impedenza caratteristica è in <strong>regime di onda progressiva</strong>: tutta l’energia viene trasferita al carico. Ogni disadattamento genera un regime di <strong>onde stazionarie</strong> con energia riflessa.</p>
+  </li>
+  <li>
+    <p>Il <strong>ROS</strong> (SWR) varia da <strong>1</strong> (perfetto adattamento) a <strong>infinito</strong> (riflessione totale). Il valore minimo NON è zero — un errore frequente nelle domande d’esame.</p>
+  </li>
+  <li>
+    <p>Il valore del ROS è <strong>costante in ogni punto della linea</strong>: cambiare la lunghezza del cavo NON modifica il ROS. L’<strong>impedenza</strong> vista lungo la linea, invece, varia ciclicamente ogni λ/2.</p>
+  </li>
+  <li>
+    <p>Il <strong>fattore di velocità</strong> determina la differenza tra lunghezza fisica e lunghezza elettrica di un cavo: $L_{fisica} = \lambda \times v_f$. Non tenerne conto porta a errori grossolani nelle misure e nel dimensionamento.</p>
+  </li>
+  <li>
+    <p>Il cavo coassiale è preferito alla linea bifilare perché il campo elettromagnetico rimane <strong>confinato</strong> all’interno, rendendo il cavo immune da interferenze ambientali.</p>
+  </li>
+  <li>
+    <p>Un tronco di linea lungo <strong>λ/4</strong> può funzionare come trasformatore di impedenza: l’impedenza della linea deve essere $Z = \sqrt{Z_1 \times Z_2}$.</p>
+  </li>
+  <li>
+    <p>L’<strong>accordatore</strong> posizionato al trasmettitore protegge i finali e permette l’erogazione della massima potenza, ma NON elimina le onde stazionarie lungo il cavo: la posizione ideale è all’antenna.</p>
+  </li>
+  <li>
+    <p>Il <strong>decibel</strong> è una scala logaritmica: +3 dB = doppio, +6 dB = quadruplo, +10 dB = 10 volte. In una catena RF, guadagni e attenuazioni in dB si sommano algebricamente.</p>
+  </li>
+  <li>
+    <p>La misura del ROS effettuata alla base del cavo (lato TX) anziché all’antenna può fornire valori <strong>significativamente inferiori</strong> a quelli reali a causa dell’attenuazione del cavo che maschera la potenza riflessa.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>
+    <p>Perché una prolunga elettrica domestica a 220 V/50 Hz può essere studiata con le regole dell’elettrotecnica classica, mentre una linea a radiofrequenza che alimenta un’antenna no?</p>
+  </li>
+  <li>
+    <p>Un cavo coassiale da 50 Ω è chiuso su un’antenna con impedenza di 150 Ω. Qual è il valore del ROS? Quali sono i valori minimo e massimo di impedenza che si possono trovare lungo la linea?</p>
+  </li>
+  <li>
+    <p>Spiega perché il ROS rimane costante in ogni punto della linea, mentre l’impedenza vista varia ciclicamente. Come si conciliano queste due affermazioni?</p>
+  </li>
+  <li>
+    <p>Un radioamatore misura un ROS di 1,8 alla base del cavo e conclude che l’antenna è ragionevolmente adattata. Quali fattori potrebbero rendere questa conclusione errata?</p>
+  </li>
+  <li>
+    <p>Perché l’accordatore posizionato all’uscita del trasmettitore risolve solo parzialmente il problema del disadattamento? Qual è la posizione ottimale?</p>
+  </li>
+  <li>
+    <p>Descrivi come un tronco di linea lungo λ/4 può essere utilizzato per adattare un’impedenza di 200 Ω a un sistema a 50 Ω. Quale impedenza caratteristica deve avere il tronco?</p>
+  </li>
+  <li>
+    <p>Un cavo con fattore di velocità 0,66 deve essere tagliato a una lunghezza elettrica di mezza lunghezza d’onda per la frequenza di 14 MHz. Quale sarà la lunghezza fisica del cavo?</p>
+  </li>
+  <li>
+    <p>Perché il valore minimo del ROS è 1 e non 0? Cosa significherebbe fisicamente un ROS pari a 0?</p>
+  </li>
+  <li>
+    <p>Trasmettitore da 50 W, cavo con perdita di 6 dB, antenna con guadagno di 9 dB. Quanta potenza viene effettivamente irradiata? Mostra il calcolo in dB.</p>
+  </li>
+  <li>
+    <p>In una misura di impedenza alla base del cavo, un’antenna in risonanza appare con componenti reattive. Spiega il meccanismo fisico alla base di questa apparente anomalia.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>Accordatore (Tuner)</strong> — dispositivo che adatta impedenze diverse tra loro, compensando il disadattamento tra trasmettitore, linea e antenna</li>
+  <li><strong>Accoppiatore direzionale</strong> — dispositivo che separa i flussi di potenza diretta e riflessa in una linea, utilizzato per la misura del ROS</li>
+  <li><strong>Attenuazione</strong> — perdita di potenza del segnale lungo la linea, espressa in dB per metro o dB per 100 m; cresce con la frequenza</li>
+  <li><strong>Balun</strong> — dispositivo di adattamento tra un circuito bilanciato e uno sbilanciato (balanced-unbalanced)</li>
+  <li><strong>Carico bilanciato</strong> — carico i cui terminali non hanno riferimento a terra (es. dipolo)</li>
+  <li><strong>Carico sbilanciato</strong> — carico in cui uno dei terminali è riferito a terra</li>
+  <li><strong>Carta di Smith</strong> — diagramma polare che permette di calcolare graficamente i valori di impedenza lungo una linea in regime di onde stazionarie</li>
+  <li><strong>Costanti distribuite</strong> — modello circuitale in cui induttanza e capacità sono distribuite uniformemente lungo la linea</li>
+  <li><strong>Decibel (dB)</strong> — unità di misura logaritmica per rapporti di potenza: $dB = 10 \cdot \log_{10}(P_2/P_1)$</li>
+  <li><strong>Dielettrico foam (spugnoso)</strong> — isolante contenente aria che riduce l’attenuazione del cavo ma ne aumenta la fragilità meccanica</li>
+  <li><strong>Fattore di velocità ($v_f$)</strong> — rapporto tra la velocità di propagazione nel cavo e quella nello spazio libero; valori tipici 0,66–0,85</li>
+  <li><strong>Impedenza caratteristica ($Z_0$)</strong> — impedenza propria della linea, dipendente dalle sue caratteristiche fisiche; $Z_0 = \sqrt{L/C}$</li>
+  <li><strong>Linea bifilare (piattina)</strong> — linea di trasmissione formata da due conduttori paralleli; impedenza tipica 200–300 Ω</li>
+  <li><strong>Lunghezza elettrica</strong> — lunghezza della linea espressa in funzione della lunghezza d’onda del segnale che la percorre</li>
+  <li><strong>Lunghezza fisica</strong> — lunghezza materiale della linea, misurata col metro</li>
+  <li><strong>MOF / MUF</strong> — Maximum Observable / Usable Frequency: massima frequenza utilizzabile per un collegamento ionosferico</li>
+  <li><strong>Onda progressiva</strong> — regime in cui il segnale si propaga in un’unica direzione lungo la linea, con trasferimento completo di energia</li>
+  <li><strong>Onde stazionarie</strong> — regime in cui l’interferenza tra onda diretta e riflessa genera massimi e minimi fissi lungo la linea</li>
+  <li><strong>ROS (SWR)</strong> — Rapporto di Onde Stazionarie (Standing Wave Ratio): rapporto tra tensione massima e minima lungo la linea; valori da 1 (adattamento perfetto) a ∞ (riflessione totale)</li>
+  <li><strong>Teorema del massimo trasferimento di potenza</strong> — la potenza massima si trasferisce quando l’impedenza del carico è pari al complesso coniugato dell’impedenza interna del generatore</li>
+  <li><strong>Trasformatore λ/4</strong> — tronco di linea lungo un quarto d’onda utilizzato per adattare impedenze; $Z_{linea} = \sqrt{Z_1 \times Z_2}$</li>
+  <li><strong>Wattmetro direzionale</strong> — strumento che misura separatamente potenza diretta e riflessa in una linea</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatore</strong>: Paolo (docente principale della serata, esperto di linee di trasmissione e RF)</li>
+  <li>👨‍💼 <strong>Moderatore/Organizzatore</strong>: Fabrizio</li>
+  <li>👨‍💻 <strong>Gestione quiz</strong>: Alessio</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Campo</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Numero lezione</strong></td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td>10 settembre 2025</td>
+    </tr>
+    <tr>
+      <td><strong>Durata</strong></td>
+      <td>~2 ore e 5 minuti</td>
+    </tr>
+    <tr>
+      <td><strong>Argomenti principali</strong></td>
+      <td>6 (revisione test, teoria linee RF, onde stazionarie, adattamento impedenza, decibel, aspetti pratici)</td>
+    </tr>
+    <tr>
+      <td><strong>Parole chiave</strong></td>
+      <td>Linea di trasmissione, impedenza caratteristica, onde stazionarie, ROS, SWR, cavo coassiale, linea bifilare, fattore di velocità, trasformatore λ/4, decibel, accordatore, wattmetro direzionale, balun, carta di Smith</td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+  <script>
+    const LESSON_SEARCH_PAGES = [
+      
+      
+      { title: "📘 Lezione 01 - Introduzione al Corso", url: "/guide-studio/lezione_01.html" },
+      
+      { title: "📘 Lezione 02 - Fondamenti di Elettrotecnica", url: "/guide-studio/lezione_02.html" },
+      
+      { title: "📘 Lezione 03 - Circuiti Elettrici", url: "/guide-studio/lezione_03.html" },
+      
+      { title: "📘 Lezione 04 - Corrente Alternata", url: "/guide-studio/lezione_04.html" },
+      
+      { title: "📘 Lezione 05 - Componenti Elettronici", url: "/guide-studio/lezione_05.html" },
+      
+      { title: "📘 Lezione 06 - Semiconduttori", url: "/guide-studio/lezione_06.html" },
+      
+      { title: "📘 Lezione 07 - Amplificatori", url: "/guide-studio/lezione_07.html" },
+      
+      { title: "📘 Lezione 08 - Oscillatori", url: "/guide-studio/lezione_08.html" },
+      
+      { title: "📘 Lezione 09 - Modulazione", url: "/guide-studio/lezione_09.html" },
+      
+      { title: "📘 Lezione 10 - Ricevitori", url: "/guide-studio/lezione_10.html" },
+      
+      { title: "📘 Lezione 11 - Trasmettitori", url: "/guide-studio/lezione_11.html" },
+      
+      { title: "📘 Lezione 12 - Propagazione", url: "/guide-studio/lezione_12.html" },
+      
+      { title: "📘 Lezione 13 - Antenne - Parte 1", url: "/guide-studio/lezione_13.html" },
+      
+      { title: "📘 Lezione 14 - Antenne - Parte 2", url: "/guide-studio/lezione_14.html" },
+      
+      { title: "📘 Lezione 15 - Linee di Trasmissione", url: "/guide-studio/lezione_15.html" },
+      
+      { title: "📘 Lezione 16 - Misure e Strumenti", url: "/guide-studio/lezione_16.html" },
+      
+      { title: "📘 Lezione 17 - Serata Speciale", url: "/guide-studio/lezione_17.html" },
+      
+      { title: "📘 Lezione 18 - Interferenze e EMC", url: "/guide-studio/lezione_18.html" },
+      
+      { title: "📘 Lezione 19 - Sicurezza Elettrica", url: "/guide-studio/lezione_19.html" },
+      
+      { title: "📘 Lezione 20 - Normative Nazionali", url: "/guide-studio/lezione_20.html" },
+      
+      { title: "📘 Lezione 21 - Normative Internazionali", url: "/guide-studio/lezione_21.html" },
+      
+      { title: "📘 Lezione 22 - Procedure Operative", url: "/guide-studio/lezione_22.html" }
+      
+    ];
+
+    const lessonSearchCache = new Map();
+
+    function stripAndNormalize(text) {
+      return text.replace(/\s+/g, ' ').trim();
+    }
+
+    function getSnippet(text, query) {
+      const lowerText = text.toLowerCase();
+      const lowerQuery = query.toLowerCase();
+      const index = lowerText.indexOf(lowerQuery);
+      if (index === -1) {
+        return text.slice(0, 180) + (text.length > 180 ? '…' : '');
+      }
+      const start = Math.max(0, index - 70);
+      const end = Math.min(text.length, index + query.length + 90);
+      const prefix = start > 0 ? '…' : '';
+      const suffix = end < text.length ? '…' : '';
+      return prefix + text.slice(start, end) + suffix;
+    }
+
+    async function getLessonText(url) {
+      if (lessonSearchCache.has(url)) {
+        return lessonSearchCache.get(url);
+      }
+      const response = await fetch(url, { credentials: 'same-origin' });
+      if (!response.ok) {
+        lessonSearchCache.set(url, '');
+        return '';
+      }
+      const html = await response.text();
+      const doc = new DOMParser().parseFromString(html, 'text/html');
+      const sourceText = doc.querySelector('main')?.innerText || doc.body?.innerText || '';
+      const normalized = stripAndNormalize(sourceText);
+      lessonSearchCache.set(url, normalized);
+      return normalized;
+    }
+
+    function renderSearchResults(query, results, failedCount) {
+      const container = document.getElementById('global-search-results');
+      if (!container) {
+        return;
+      }
+      if (!results.length) {
+        container.innerHTML = '<h3>Risultati ricerca</h3><p class="global-search-empty">Nessun risultato trovato nelle lezioni.</p>';
+        if (failedCount > 0) {
+          container.innerHTML += '<p class="global-search-empty">Alcune lezioni non sono state lette: riprova tra qualche secondo.</p>';
+        }
+        container.hidden = false;
+        return;
+      }
+
+      const listItems = results.map((result) => {
+        return '<li><a href="' + result.url + '">' + result.title + '</a><p>' + result.snippet + '</p></li>';
+      }).join('');
+
+      container.innerHTML = '<h3>Risultati ricerca per “' + query + '” (' + results.length + ')</h3><ul>' + listItems + '</ul>';
+      if (failedCount > 0) {
+        container.innerHTML += '<p class="global-search-empty">Alcune lezioni non sono state lette: riprova tra qualche secondo.</p>';
+      }
+      container.hidden = false;
+    }
+
+    async function runGlobalLessonSearch() {
+      const input = document.getElementById('global-search-input');
+      const button = document.getElementById('global-search-button');
+      const resultsBox = document.getElementById('global-search-results');
+      if (!input || !button || !resultsBox) {
+        return;
+      }
+
+      const query = input.value.trim();
+      if (!query) {
+        resultsBox.hidden = true;
+        resultsBox.innerHTML = '';
+        return;
+      }
+
+      button.disabled = true;
+      button.textContent = '⏳ Cerco...';
+
+      const results = [];
+      let failedCount = 0;
+
+      for (const lesson of LESSON_SEARCH_PAGES) {
+        try {
+          const text = await getLessonText(lesson.url);
+          if (!text) {
+            failedCount += 1;
+            continue;
+          }
+          if (text.toLowerCase().includes(query.toLowerCase())) {
+            results.push({
+              title: lesson.title,
+              url: lesson.url,
+              snippet: getSnippet(text, query)
+            });
+          }
+        } catch (_error) {
+          failedCount += 1;
+        }
+      }
+
+      renderSearchResults(query, results, failedCount);
+
+      button.disabled = false;
+      button.textContent = '🔍 Cerca';
+    }
+
+    document.getElementById('global-search-button')?.addEventListener('click', runGlobalLessonSearch);
+    document.getElementById('global-search-input')?.addEventListener('keydown', function (event) {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        runGlobalLessonSearch();
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 18 - Interferenze e EMC - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+    nav a, nav button {
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+      background: transparent;
+      border: none;
+      padding: 0;
+      font-size: 1em;
+      font-family: inherit;
+      cursor: pointer;
+    }
+    nav a:hover, nav button:hover {
+      text-decoration: underline;
+    }
+    .global-search {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      margin-left: auto;
+      min-width: 260px;
+    }
+    .global-search input {
+      flex: 1;
+      min-width: 150px;
+      padding: 6px 10px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      font-size: 0.95em;
+    }
+    .global-search button {
+      background: #667eea;
+      color: #fff;
+      border: 1px solid #667eea;
+      border-radius: 6px;
+      padding: 7px 10px;
+      font-size: 0.9em;
+    }
+    .global-search-results {
+      background: #f7f9ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+    }
+    .global-search-results h3 {
+      margin: 0 0 8px 0;
+      color: #3f4fa3;
+      font-size: 1em;
+    }
+    .global-search-results ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    .global-search-results li {
+      margin-bottom: 8px;
+    }
+    .global-search-results p {
+      margin: 6px 0 0 0;
+      color: #444;
+      font-size: 0.92em;
+    }
+    .global-search-empty {
+      margin: 0;
+      color: #555;
+      font-style: italic;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+        font-size: 14px;
+      }
+      header {
+        padding: 15px;
+        margin-bottom: 20px;
+      }
+      header h1 {
+        font-size: 1.5em;
+      }
+      header p {
+        font-size: 0.9em;
+        margin: 10px 0 0 0;
+      }
+      nav {
+        padding: 10px;
+        margin-bottom: 15px;
+      }
+      nav a, nav button {
+        font-size: 0.9em;
+        padding: 6px 10px;
+        background: white;
+        border-radius: 4px;
+      }
+      .global-search {
+        width: 100%;
+        margin-left: 0;
+      }
+      .global-search input,
+      .global-search button {
+        width: 100%;
+      }
+      .lesson-nav {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        gap: 8px;
+      }
+      .lesson-nav a,
+      .lesson-nav label,
+      .lesson-nav select {
+        width: 100%;
+        text-align: center;
+      }
+      .lesson-nav select {
+        width: 100%;
+      }
+      main {
+        padding: 15px;
+        border-radius: 4px;
+      }
+      table {
+        font-size: 0.85em;
+        margin: 15px 0;
+      }
+      table th, table td {
+        padding: 8px;
+      }
+      h1 {
+        font-size: 1.6em;
+      }
+      h2 {
+        font-size: 1.3em;
+      }
+      h3 {
+        font-size: 1.1em;
+      }
+      pre {
+        padding: 10px;
+        font-size: 0.85em;
+        overflow-x: auto;
+      }
+    }
+    @media (min-width: 769px) and (max-width: 1024px) {
+      body {
+        padding: 15px;
+      }
+      header {
+        padding: 18px;
+      }
+      header h1 {
+        font-size: 1.8em;
+      }
+      main {
+        padding: 20px;
+      }
+      table {
+        font-size: 0.95em;
+      }
+      table th, table td {
+        padding: 10px;
+      }
+    }
+    @media (min-width: 1025px) {
+      /* Desktop styles - default */
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/">🏠 Home</a>
+    <a href="/guide-studio/">📖 Guide di Studio</a>
+    <a href="/glossario.html">📚 Glossario</a>
+    <a href="/domande-esame.html">❓ Domande</a>
+    <a href="/risorse.html">🔗 Risorse</a>
+    <div class="global-search">
+      <input id="global-search-input" type="search" placeholder="Cerca in tutte le lezioni..." aria-label="Cerca in tutte le lezioni" />
+      <button id="global-search-button" type="button">🔍 Cerca</button>
+    </div>
+  </nav>
+  <div id="global-search-results" class="global-search-results" hidden></div>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/guide-studio/lezione_17.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/guide-studio/lezione_19.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/guide-studio/lezione_18.html" selected>📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-18---interferenze-e-emc">📘 Lezione 18 - Interferenze e EMC</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia</strong>: Propagazione delle onde radio</li>
+  <li><strong>Tempo di studio stimato</strong>: 2 ore e 30 minuti</li>
+  <li><strong>Prerequisiti</strong>: Concetti base di elettromagnetismo, nozioni sullo spettro elettromagnetico, unità di misura (frequenza, lunghezza d’onda, potenza in dB)</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Comprendere la natura del campo elettromagnetico e le sue proprietà fondamentali</li>
+      <li>Conoscere i quattro meccanismi di propagazione delle onde radio</li>
+      <li>Capire la struttura della ionosfera e il ruolo dei suoi strati nella propagazione HF</li>
+      <li>Padroneggiare i concetti di frequenza critica, MUF, LUF e FOT</li>
+      <li>Comprendere l’influenza del ciclo solare sulla propagazione</li>
+      <li>Conoscere i meccanismi avanzati: riflessioni multiple, duct mode, chordal mode</li>
+      <li>Comprendere il ruolo dell’attenuazione nelle riflessioni a terra e la differenza tra percorsi su mare e su terra</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h3 id="1--introduzione-e-contesto-storico--00001200">1. 🔍 Introduzione e contesto storico (⏱ 00:00–12:00)</h3>
+
+<p>La lezione si apre con una breve correzione del quiz della lezione precedente (Lezione 16 — Strumenti di misura), poi il nuovo docente Paolo si presenta e annuncia che terrà quattro lezioni: la prima sulla <strong>propagazione</strong>, la seconda sulle <strong>linee di trasmissione</strong> e le ultime due sulle <strong>antenne</strong>.</p>
+
+<p>Paolo introduce l’argomento della propagazione partendo dalla storia delle telecomunicazioni radio:</p>
+
+<ul>
+  <li><strong>1873 — James Clerk Maxwell</strong> pubblica le equazioni che dimostrano che campo elettrico e campo magnetico sono concatenati e formano un <strong>campo elettromagnetico</strong> capace di propagarsi nello spazio. Maxwell teorizza che la luce stessa è un’onda elettromagnetica.</li>
+  <li><strong>1901 — Guglielmo Marconi</strong> realizza il primo collegamento radiotelegrafico transoceanico tra Poldhu (Cornovaglia) e San Giovanni di Terranova (Canada), dimostrando che le onde radio possono seguire la curvatura terrestre.</li>
+  <li><strong>1923 — Schnell e Delois</strong> realizzano il primo <strong>QSO transoceanico in onde corte</strong> (circa 3 MHz, 103 m di lunghezza d’onda), dimostrando che anche con potenze modeste le onde corte permettono comunicazioni a grande distanza.</li>
+</ul>
+
+<blockquote>
+  <p>Il docente sottolinea come la scoperta delle onde corte sia stata fondamentale per i radioamatori e per le comunicazioni a lunga distanza con potenze ridotte.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="2--il-campo-elettromagnetico--12002000">2. 📡 Il campo elettromagnetico (⏱ 12:00–20:00)</h3>
+
+<p>Il <strong>campo elettromagnetico</strong> è costituito da due componenti inscindibili:</p>
+
+<ul>
+  <li><strong>Campo elettrico (E)</strong> — misurato in Volt/metro (V/m)</li>
+  <li><strong>Campo magnetico (H)</strong> — misurato in Ampere/metro (A/m)</li>
+</ul>
+
+<p>I due campi sono <strong>perpendicolari</strong> tra loro e <strong>perpendicolari alla direzione di propagazione</strong>. Si sostengono a vicenda: la variazione di uno genera l’altro, permettendo all’onda di propagarsi indefinitamente nello spazio.</p>
+
+<p><strong>Impedenza dello spazio libero</strong> — Il rapporto tra il campo elettrico e il campo magnetico nel vuoto è una costante fondamentale:</p>
+
+\[Z_0 = \frac{E}{H} = 377 \, \Omega\]
+
+<blockquote>
+  <p>⚠️ <strong>Domanda d’esame!</strong> L’impedenza dello spazio libero è pari a <strong>377 Ω</strong>. Questo valore è una costante fisica e compare frequentemente nelle domande d’esame.</p>
+</blockquote>
+
+<p><strong>Velocità di propagazione</strong> — Nel vuoto, le onde elettromagnetiche si propagano alla velocità della luce:</p>
+
+\[c = 300.000 \, \text{km/s} = 3 \times 10^8 \, \text{m/s}\]
+
+<p>In mezzi diversi dal vuoto, la velocità di propagazione diminuisce in funzione delle caratteristiche dielettriche del mezzo.</p>
+
+<hr />
+
+<h3 id="3--polarizzazione--20002500">3. 📐 Polarizzazione (⏱ 20:00–25:00)</h3>
+
+<p>La <strong>polarizzazione</strong> di un’onda elettromagnetica è definita dal <strong>piano del campo elettrico</strong> rispetto al suolo:</p>
+
+<ul>
+  <li><strong>Polarizzazione verticale</strong> — il campo elettrico è perpendicolare al suolo (tipica delle antenne verticali)</li>
+  <li><strong>Polarizzazione orizzontale</strong> — il campo elettrico è parallelo al suolo (tipica dei dipoli orizzontali)</li>
+</ul>
+
+<blockquote>
+  <p>⚠️ <strong>Domanda d’esame!</strong> La polarizzazione è determinata dall’orientamento del campo <strong>elettrico</strong>, non del campo magnetico.</p>
+</blockquote>
+
+<p>Per ottimizzare la ricezione, l’antenna ricevente dovrebbe avere la stessa polarizzazione dell’onda trasmessa. Un disallineamento di polarizzazione causa una significativa perdita di segnale.</p>
+
+<hr />
+
+<h3 id="4--spettro-elettromagnetico-e-lunghezza-donda--25003200">4. 📊 Spettro elettromagnetico e lunghezza d’onda (⏱ 25:00–32:00)</h3>
+
+<p>Le <strong>onde radio</strong> occupano la porzione dello spettro elettromagnetico compresa tra <strong>3 kHz e 300 GHz</strong>. La suddivisione in bande segue una nomenclatura standardizzata:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sigla</th>
+      <th>Nome</th>
+      <th>Frequenza</th>
+      <th>Lunghezza d’onda</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>VLF</td>
+      <td>Very Low Freq.</td>
+      <td>3–30 kHz</td>
+      <td>100–10 km</td>
+    </tr>
+    <tr>
+      <td>LF</td>
+      <td>Low Frequency</td>
+      <td>30–300 kHz</td>
+      <td>10–1 km</td>
+    </tr>
+    <tr>
+      <td>MF</td>
+      <td>Medium Frequency</td>
+      <td>300 kHz–3 MHz</td>
+      <td>1 km–100 m</td>
+    </tr>
+    <tr>
+      <td>HF</td>
+      <td>High Frequency</td>
+      <td>3–30 MHz</td>
+      <td>100–10 m</td>
+    </tr>
+    <tr>
+      <td>VHF</td>
+      <td>Very High Freq.</td>
+      <td>30–300 MHz</td>
+      <td>10–1 m</td>
+    </tr>
+    <tr>
+      <td>UHF</td>
+      <td>Ultra High Freq.</td>
+      <td>300 MHz–3 GHz</td>
+      <td>1 m–10 cm</td>
+    </tr>
+    <tr>
+      <td>SHF</td>
+      <td>Super High Freq.</td>
+      <td>3–30 GHz</td>
+      <td>10–1 cm</td>
+    </tr>
+    <tr>
+      <td>EHF</td>
+      <td>Extremely High F.</td>
+      <td>30–300 GHz</td>
+      <td>1 cm–1 mm</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>La <strong>lunghezza d’onda</strong> (λ) è lo spazio percorso dall’onda in un’oscillazione completa ed è legata alla frequenza dalla relazione:</p>
+
+\[\lambda = \frac{300}{f_{(\text{MHz})}} \quad [\text{metri}]\]
+
+<p>oppure in forma più generale:</p>
+
+\[\lambda = \frac{c}{f}\]
+
+<p>dove $c$ è la velocità della luce e $f$ la frequenza in Hz.</p>
+
+<p><strong>Esempio</strong>: la banda dei 40 m corrisponde a $f = 300/40 = 7{,}5$ MHz (approssimativamente i 7 MHz della banda amatoriale).</p>
+
+<hr />
+
+<h3 id="5--attenuazione-del-segnale--32003700">5. 📉 Attenuazione del segnale (⏱ 32:00–37:00)</h3>
+
+<p>L’<strong>attenuazione</strong> di un segnale radio in spazio libero aumenta con la distanza e con la frequenza. La relazione fondamentale è:</p>
+
+\[\text{Attenuazione} \propto d^2 \times f^2\]
+
+<p>Ciò significa che:</p>
+
+<ul>
+  <li><strong>Raddoppiando la distanza</strong>, l’attenuazione aumenta di <strong>4 volte</strong> (6 dB)</li>
+  <li><strong>Raddoppiando la frequenza</strong>, l’attenuazione aumenta di <strong>4 volte</strong> (6 dB)</li>
+</ul>
+
+<blockquote>
+  <p>⚠️ <strong>Domanda d’esame!</strong> L’attenuazione in spazio libero è proporzionale al quadrato della distanza e al quadrato della frequenza.</p>
+</blockquote>
+
+<p>Questo spiega perché le frequenze più basse (HF) sono preferite per comunicazioni a lunga distanza, mentre le frequenze più alte (UHF, SHF) sono utilizzate per comunicazioni a breve raggio o con antenne ad alto guadagno.</p>
+
+<hr />
+
+<h3 id="6--i-quattro-tipi-di-propagazione--37005000">6. 🌐 I quattro tipi di propagazione (⏱ 37:00–50:00)</h3>
+
+<p>Esistono quattro modalità principali di propagazione delle onde radio:</p>
+
+<h4 id="-1-propagazione-in-spazio-libero-portata-ottica">🔹 1. Propagazione in spazio libero (portata ottica)</h4>
+
+<p>Si verifica quando trasmettitore e ricevitore sono in <strong>visibilità diretta</strong> (line of sight). Tipica delle frequenze VHF e superiori. La portata è limitata dalla curvatura terrestre e dall’altezza delle antenne. Utilizzata nelle comunicazioni satellitari e nei ponti radio.</p>
+
+<h4 id="-2-propagazione-per-onda-di-terra">🔹 2. Propagazione per onda di terra</h4>
+
+<p>L’onda si propaga seguendo la superficie terrestre, “aggrappandosi” al suolo grazie alla sua conducibilità. È efficace solo alle <strong>frequenze molto basse</strong> (VLF, LF, parte delle MF). La <strong>polarizzazione verticale</strong> è fortemente preferita perché il campo elettrico verticale interagisce meglio con il suolo conduttivo. L’attenuazione dipende dalla conducibilità del terreno: il mare salato è il miglior conduttore, il terreno asciutto e roccioso il peggiore.</p>
+
+<h4 id="-3-propagazione-troposferica">🔹 3. Propagazione troposferica</h4>
+
+<p>Sfrutta i fenomeni di <strong>rifrazione</strong> e <strong>diffusione</strong> nella troposfera (0–15 km di altitudine). La troposfera contiene il 90% dei gas atmosferici ed è un mezzo neutro (non ionizzato). Le variazioni di temperatura, pressione e umidità creano gradienti dell’indice di rifrazione che curvano i raggi radio oltre l’orizzonte ottico.</p>
+
+<ul>
+  <li><strong>Frequenze tipiche</strong>: VHF e UHF</li>
+  <li><strong>Portata massima</strong>: circa 800–1000 km (in condizioni favorevoli)</li>
+  <li><strong>Scatter troposferico (tropo-scatter)</strong>: tecnica utilizzata dalla NATO e dall’Enel (collegamento Toscana–Sardegna a 470 MHz con parabole da 11 m e 150 W di potenza trasmessa) per comunicazioni oltre l’orizzonte sfruttando la diffusione nella troposfera</li>
+</ul>
+
+<h4 id="-4-propagazione-ionosferica">🔹 4. Propagazione ionosferica</h4>
+
+<p>Sfrutta la <strong>riflessione e rifrazione</strong> delle onde radio da parte degli strati ionizzati della ionosfera (80–400 km). È il meccanismo fondamentale per le comunicazioni a lunga distanza in <strong>onde corte (HF)</strong>. Le caratteristiche di questo tipo di propagazione dipendono fortemente dallo stato della ionosfera, che a sua volta è influenzata dall’attività solare.</p>
+
+<hr />
+
+<h3 id="7--latmosfera-terrestre-e-la-ionosfera--50005800">7. 🌍 L’atmosfera terrestre e la ionosfera (⏱ 50:00–58:00)</h3>
+
+<h4 id="-la-troposfera">🔹 La troposfera</h4>
+
+<p>Si estende dal suolo fino a circa <strong>15 km</strong> di altitudine. Contiene il 90% della massa gassosa dell’atmosfera. È un <strong>mezzo neutro</strong> (non ionizzato) e causa fenomeni di rifrazione sulle onde radio a causa dei gradienti di temperatura e umidità.</p>
+
+<h4 id="-la-ionosfera">🔹 La ionosfera</h4>
+
+<p>Si estende da circa <strong>80 km a 400 km</strong> di altitudine. È costituita da <strong>plasma ionosferico</strong>: gas rarefatto le cui molecole sono ionizzate dalla radiazione solare (raggi UV, raggi X, raggi gamma). Il livello di ionizzazione varia con l’altitudine, l’ora del giorno, la stagione e il ciclo solare.</p>
+
+<p>La ionosfera è suddivisa in <strong>strati</strong> con caratteristiche diverse:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Strato</th>
+      <th>Altitudine</th>
+      <th>Caratteristiche principali</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>D</strong></td>
+      <td>60–90 km</td>
+      <td>Solo diurno (scompare dopo il tramonto). Causa <strong>assorbimento</strong> delle frequenze sotto 5–6 MHz. Effetto <strong>dannoso</strong> per la propagazione HF.</td>
+    </tr>
+    <tr>
+      <td><strong>E</strong></td>
+      <td>100–140 km</td>
+      <td>Variabile giorno/notte. Decadimento più graduale rispetto a D. Può contribuire alla propagazione.</td>
+    </tr>
+    <tr>
+      <td><strong>F</strong></td>
+      <td>150–400 km</td>
+      <td>Strato principale per la propagazione HF. Sempre presente. Di <strong>giorno</strong> si divide in <strong>F1</strong> (più basso, meno ionizzato) e <strong>F2</strong> (più alto, massima ionizzazione). Di <strong>notte</strong> si ricombina in un unico strato <strong>F</strong> a quota più alta ma con ionizzazione inferiore.</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>Lo <strong>strato D</strong> è particolarmente importante da ricordare: è presente solo di giorno e causa assorbimento, non riflessione. Per questo le bande basse HF (sotto i 5–6 MHz) funzionano meglio di notte, quando lo strato D scompare.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="8--frequenza-critica-zona-dombra-muf-luf-e-fot--58007400">8. 📈 Frequenza critica, zona d’ombra, MUF, LUF e FOT (⏱ 58:00–74:00)</h3>
+
+<h4 id="-frequenza-critica-f">🔹 Frequenza critica (f₀)</h4>
+
+<p>La <strong>frequenza critica</strong> è la massima frequenza che viene riflessa dalla ionosfera con incidenza verticale (perpendicolare). I suoi valori variano enormemente:</p>
+
+<ul>
+  <li><strong>Minimo solare, notte</strong>: circa <strong>2 MHz</strong></li>
+  <li><strong>Massimo solare, giorno</strong>: fino a <strong>12–13 MHz</strong></li>
+</ul>
+
+<p>La f₀ è monitorata costantemente dall’<strong>INGV di Roma</strong> con ionosonde che effettuano misurazioni ogni 15 minuti.</p>
+
+<p><strong>Tre comportamenti fondamentali a seconda della frequenza</strong>:</p>
+
+<ol>
+  <li><strong>f &lt; f₀</strong> → <strong>Riflessione totale</strong>: l’onda viene completamente riflessa dalla ionosfera. Si forma una cavità tra suolo e ionosfera (fenomeno sfruttato dalle frequenze VLF/LF).</li>
+  <li><strong>f &gt; f₀</strong> → <strong>Rifrazione angolo-dipendente</strong>: l’onda penetra nella ionosfera ma viene piegata e può tornare a terra. L’angolo di incidenza determina se l’onda viene riflessa o attraversa lo strato. Possibilità di <strong>zona d’ombra</strong>.</li>
+  <li><strong>f » f₀</strong> → <strong>Trasparenza</strong>: l’onda attraversa la ionosfera senza essere deviata. Condizione sfruttata per le comunicazioni satellitari.</li>
+</ol>
+
+<h4 id="-zona-dombra">🔹 Zona d’ombra</h4>
+
+<p>Quando $f &gt; f_0$, i fasci con angolo di incidenza troppo verticale “bucano” la ionosfera e si perdono nello spazio. Solo i fasci con angoli più radenti vengono rifratti a sufficienza per tornare a terra. Questo crea una <strong>zona d’ombra</strong>: un’area circolare intorno al trasmettitore che non può essere raggiunta né dall’onda di terra (troppo lontana) né dall’onda ionosferica (troppo vicina). La zona d’ombra si estende tipicamente da alcune decine fino a centinaia di chilometri.</p>
+
+<h4 id="-muf--maximum-usable-frequency">🔹 MUF — Maximum Usable Frequency</h4>
+
+<p>La <strong>MUF</strong> è la massima frequenza utilizzabile per un collegamento ionosferico su un determinato percorso. Approssimativamente:</p>
+
+\[\text{MUF} \approx 3 \times f_0\]
+
+<p>La MUF varia con la posizione geografica, l’ora del giorno e lo stato del ciclo solare. Per realizzare un collegamento, la MUF deve essere superiore alla frequenza operativa <strong>lungo tutta la tratta</strong>.</p>
+
+<h4 id="-luf--lowest-usable-frequency">🔹 LUF — Lowest Usable Frequency</h4>
+
+<p>La <strong>LUF</strong> è la minima frequenza utilizzabile, determinata principalmente dall’<strong>assorbimento dello strato D</strong>. Le frequenze troppo basse subiscono un’attenuazione eccessiva attraversando gli strati bassi della ionosfera.</p>
+
+<h4 id="-fot--frequenza-ottimale-di-traffico">🔹 FOT — Frequenza Ottimale di Traffico</h4>
+
+<p>La <strong>FOT</strong> è la frequenza operativa consigliata per ottenere le migliori condizioni di collegamento:</p>
+
+\[\text{FOT} = 80\text{–}90\% \times \text{MUF}\]
+
+<blockquote>
+  <p>⚠️ <strong>Domanda d’esame!</strong> La FOT è l’80–90% della MUF e rappresenta la frequenza ottimale di lavoro per garantire collegamenti affidabili.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="9--distanza-massima-e-riflessioni-multiple--74507832">9. 🌏 Distanza massima e riflessioni multiple (⏱ 74:50–78:32)</h3>
+
+<h4 id="-distanza-massima-per-singolo-salto">🔹 Distanza massima per singolo salto</h4>
+
+<p>Con una singola riflessione ionosferica, la distanza massima raggiungibile è di circa <strong>3.500 km</strong>. Questo valore si calcola per semplice geometria considerando:</p>
+
+<ul>
+  <li>Raggio terrestre: <strong>6.370 km</strong></li>
+  <li>Altezza dello strato riflettente: circa <strong>250 km</strong></li>
+  <li>Angolo minimo: fascio radente all’orizzonte</li>
+</ul>
+
+<h4 id="-riflessioni-multiple">🔹 Riflessioni multiple</h4>
+
+<p>Per superare i 3.500 km sono necessarie <strong>riflessioni multiple</strong> (multi-hop). Il segnale riflesso dalla ionosfera torna a terra, viene riflesso dal suolo e risale verso la ionosfera, compiendo più “salti”. L’attenuazione è molto elevata perché ad ogni salto il segnale attraversa gli strati bassi (specialmente lo strato D).</p>
+
+<h4 id="-duct-mode-modalità-condotto">🔹 Duct mode (modalità condotto)</h4>
+
+<p>In condizioni particolari, il segnale rimbalza nello spazio compreso tra lo <strong>strato F e lo strato E</strong>, senza toccare terra. Questo comporta un’<strong>attenuazione molto inferiore</strong> perché si evitano sia le riflessioni a terra sia l’attraversamento dello strato D.</p>
+
+<h4 id="-chordal-mode-modalità-cordale">🔹 Chordal mode (modalità cordale)</h4>
+
+<p>Il fascio, una volta raggiunto lo strato F, prosegue <strong>pressoché orizzontalmente</strong> all’interno dello strato ionizzato fino a raggiungere terra a grande distanza. Anche questa modalità presenta attenuazione ridotta.</p>
+
+<blockquote>
+  <p>Sia il duct mode che il chordal mode sono <strong>rari</strong> e si verificano in condizioni particolari, ma producono segnali molto più forti rispetto alle riflessioni multiple tradizionali. La <strong>scarsissima prevedibilità</strong> della propagazione ionosferica deriva proprio dalla molteplicità di questi meccanismi.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="10-️-il-ciclo-solare-e-linfluenza-sulla-propagazione--79209617">10. ☀️ Il ciclo solare e l’influenza sulla propagazione (⏱ 79:20–96:17)</h3>
+
+<p>Il livello di ionizzazione della ionosfera è direttamente dipendente dall’<strong>attività solare</strong>. Esistono quattro cicli fondamentali:</p>
+
+<h4 id="-1-ciclo-undecennale-delle-macchie-solari">🔹 1. Ciclo undecennale delle macchie solari</h4>
+
+<p>Il ciclo più importante, con durata di circa <strong>11 anni</strong>. Il <strong>SSN</strong> (Sunspot Number — numero di macchie solari) varia da zero a oltre 200–300.</p>
+
+<p><strong>Dati storici dei cicli solari</strong>:</p>
+
+<ul>
+  <li><strong>1958</strong>: record storico con SSN = 350</li>
+  <li>Cicli successivi: 1969–70, 1980, 1991, 2003–2004, 2014 (ciclo 24, pessimo)</li>
+  <li><strong>Ciclo 25 (attuale)</strong>: massimo raggiunto a cavallo tra fine 2024 e inizio 2025, SSN intorno a 150 (buono). La discesa è appena iniziata; ancora circa 2 anni di buone condizioni.</li>
+</ul>
+
+<p>Il <strong>SFI</strong> (Solar Flux Intensity — intensità del flusso solare) è un altro indicatore correlato al numero di macchie solari.</p>
+
+<p>Oltre al ciclo regolare, esistono fenomeni improvvisi (<strong>SID</strong> — Sudden Ionospheric Disturbances): <strong>brillamenti</strong>, <strong>buchi coronali</strong>, <strong>eruzioni solari</strong>, <strong>tempeste magnetiche</strong>. Questi sono più frequenti nei periodi di massima attività.</p>
+
+<h4 id="-2-ciclo-di-rotazione-solare-27-giorni">🔹 2. Ciclo di rotazione solare (~27 giorni)</h4>
+
+<p>Il Sole ruota sul proprio asse in circa 25 giorni, ma dal punto di vista di un osservatore terrestre la stessa zona della superficie solare riappare dopo circa <strong>27 giorni</strong> (perché la Terra nel frattempo si è spostata sulla propria orbita).</p>
+
+<p>Poiché le macchie non sono distribuite uniformemente, il livello di radiazione varia con ciclicità di 27 giorni. <strong>Regola pratica</strong>: se si verificano ottime condizioni di propagazione, è probabile che si ripresentino dopo circa <strong>26–27 giorni</strong>.</p>
+
+<h4 id="-3-ciclo-orbitale-terrestre-stagionale">🔹 3. Ciclo orbitale terrestre (stagionale)</h4>
+
+<p>L’inclinazione dell’asse terrestre di <strong>23,5°</strong> rispetto al piano dell’eclittica causa l’alternanza delle stagioni. Questo influenza:</p>
+
+<ul>
+  <li>Le ore di insolazione (e quindi di ionizzazione)</li>
+  <li>L’angolo di incidenza delle radiazioni solari</li>
+  <li>Il comportamento prevalentemente degli strati bassi (D, E) ma anche di F</li>
+</ul>
+
+<h4 id="-4-ciclo-di-rotazione-terrestre-giornonotte">🔹 4. Ciclo di rotazione terrestre (giorno/notte)</h4>
+
+<p>L’alternanza giorno/notte ha effetti molto importanti sugli strati ionosferici:</p>
+
+<ul>
+  <li><strong>Strato D</strong>: scompare <strong>pressoché immediatamente</strong> dopo il tramonto, ricompare all’alba</li>
+  <li><strong>Strato E</strong>: decade <strong>gradualmente</strong> dopo il tramonto (tempi molto più lunghi)</li>
+  <li><strong>Strato F</strong>: di notte si ricombina in uno strato unico a quota maggiore, con ionizzazione inferiore ma comunque significativa</li>
+</ul>
+
+<h4 id="-effetti-pratici-sulla-propagazione">🔹 Effetti pratici sulla propagazione</h4>
+
+<p><strong>Durante massimo solare</strong> (come ora): la differenza tra giorno e notte per le bande alte HF (sopra i 40 m) è ridotta. Le bande rimangono aperte anche di notte.</p>
+
+<p><strong>Durante minimo solare</strong>: le bande sopra i 40 m si aprono solo nelle ore centrali del giorno. Di notte la MUF scende sotto i 10 MHz, rendendo inutilizzabili le bande alte.</p>
+
+<p><strong>Grey line (linea grigia)</strong> — Il periodo immediatamente dopo il tramonto offre condizioni eccellenti: lo strato D scompare rapidamente (eliminando l’assorbimento sulle bande basse) mentre lo strato F mantiene ancora un’elevata ionizzazione. I valori di MUF restano elevati per diverse ore dopo il tramonto.</p>
+
+<hr />
+
+<h3 id="11--attenuazione-nelle-riflessioni-a-terra--qa">11. 🌊 Attenuazione nelle riflessioni a terra (⏱ Q&amp;A)</h3>
+
+<p>Nelle riflessioni multiple, ogni “rimbalzo” a terra introduce un’attenuazione che dipende fortemente dalla natura del suolo:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Superficie</th>
+      <th>Attenuazione per salto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Acqua di mare</strong></td>
+      <td>&lt; 1 dB (media 0,5 dB)</td>
+    </tr>
+    <tr>
+      <td><strong>Terreno</strong></td>
+      <td>2–5 dB</td>
+    </tr>
+    <tr>
+      <td><strong>Neve/ghiaccio</strong></td>
+      <td>fino a 5 dB (peggiore)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Questo spiega importanti fenomeni pratici:</p>
+
+<ul>
+  <li><strong>Il Sud America è il DX più forte dall’Italia</strong>: il percorso è quasi interamente su mare (Tirreno → Mediterraneo → Atlantico). Anche con 5–6 salti, l’attenuazione totale è solo 5–6 dB.</li>
+  <li><strong>Il Giappone è più debole</strong>: alla stessa distanza (~18.000 km), il percorso attraversa la steppa asiatica e la Siberia (spesso innevata). Con 4–5 salti su terra, l’attenuazione è 15–20 dB.</li>
+  <li><strong>Stazioni vicino al mare</strong>: hanno un vantaggio significativo. Marconi scelse Coltano proprio perché era una palude salmastra, ottima per la conducibilità del terreno.</li>
+</ul>
+
+<hr />
+
+<h3 id="12--via-corta-e-via-lunga--qa">12. 🔄 Via corta e via lunga (⏱ Q&amp;A)</h3>
+
+<p>Per raggiungere una destinazione agli antipodi, esistono due percorsi possibili:</p>
+
+<ul>
+  <li><strong>Via corta (short path)</strong>: il percorso più breve sulla superficie terrestre</li>
+  <li><strong>Via lunga (long path)</strong>: il percorso nella direzione opposta, più lungo ma talvolta preferibile</li>
+</ul>
+
+<p>La scelta dipende dalla MUF lungo l’intero percorso. A volte la via lunga funziona quando la via corta non lo consente, perché le condizioni di ionizzazione sono favorevoli su quel percorso alternativo.</p>
+
+<h4 id="esempio-classico-italia--australianuova-zelanda">Esempio classico: Italia → Australia/Nuova Zelanda</h4>
+
+<ul>
+  <li><strong>Via corta</strong>: quasi tutto su terra → attenuazione elevata (15–20 dB da riflessioni a terra)</li>
+  <li><strong>Via lunga</strong>: passa sopra Caraibi/Atlantico → quasi tutto su mare → attenuazione molto inferiore</li>
+</ul>
+
+<p>Nonostante la distanza maggiore (e uno o due salti in più), la via lunga può produrre segnali più forti grazie alla minore attenuazione nelle riflessioni a terra.</p>
+
+<hr />
+
+<h3 id="13--propagazione-transequatoriale--tep--qa">13. 📡 Propagazione transequatoriale — TEP (⏱ Q&amp;A)</h3>
+
+<p>Il <strong>TEP</strong> (Trans-Equatorial Propagation) è un fenomeno di propagazione che permette collegamenti a lunghissima distanza attraverso l’equatore.</p>
+
+<h4 id="-meccanismo">🔹 Meccanismo</h4>
+
+<p>L’<strong>Anomalia di Ionizzazione Equatoriale (EIA)</strong> crea due “creste” di altissima ionizzazione a circa <strong>10–12°</strong> a nord e sud dell’<strong>equatore magnetico</strong>. Il segnale sfrutta un <strong>chordal mode</strong>: sale nella prima cresta, prosegue orizzontalmente nello strato ionizzato, e scende attraverso la seconda cresta.</p>
+
+<h4 id="-condizioni-necessarie">🔹 Condizioni necessarie</h4>
+
+<ul>
+  <li>Le due creste devono avere livelli di ionizzazione <strong>simmetrici</strong>, condizione che si verifica soprattutto durante gli <strong>equinozi</strong> (settembre e marzo)</li>
+  <li>Il percorso deve essere orientato <strong>lungo i meridiani</strong> (direzione nord-sud), perché le creste sono allineate parallelamente all’equatore</li>
+  <li>Finestra temporale ristretta: tra le <strong>20:00 e le 21:00</strong> ora locale</li>
+  <li>Il picco si presenta poco dopo mezzogiorno locale (12:00–15:00) in termini di massima ionizzazione</li>
+</ul>
+
+<h4 id="-frequenze-e-prestazioni">🔹 Frequenze e prestazioni</h4>
+
+<ul>
+  <li><strong>TEP tradizionale (HF, 50 MHz)</strong>: angolo utilizzabile più ampio, si riesce a lavorare anche in leggera diagonale</li>
+  <li><strong>TEP in VHF (144 MHz)</strong>: angolo molto stretto, solo lungo i meridiani. Test recenti Italia–Namibia hanno permesso collegamenti di circa <strong>7.000 km in 2 m</strong> utilizzando modi digitali</li>
+  <li><strong>TEP in UHF (430 MHz)</strong>: test in corso tra Giappone e Australia</li>
+</ul>
+
+<blockquote>
+  <p>Il fenomeno è stato scoperto e studiato approfonditamente grazie alle anomalie riscontrate nei sistemi <strong>GPS</strong> nelle aree equatoriali.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="14--angolo-di-radiazione-e-propagazione--qa">14. 🔻 Angolo di radiazione e propagazione (⏱ Q&amp;A)</h3>
+
+<p>Anticipando i temi delle lezioni sulle antenne, il docente sottolinea che l’<strong>angolo di radiazione</strong> dell’antenna è un fattore cruciale per la propagazione a lunga distanza:</p>
+
+<ul>
+  <li>L’angolo di radiazione è determinato per l’<strong>80% dalla posizione</strong> in cui si installa l’antenna, non dal tipo di antenna</li>
+  <li>Un <strong>angolo basso</strong> significa meno salti, quindi meno attenuazione</li>
+  <li>Quando la propagazione cala, si perdono prima gli <strong>angoli alti</strong> (corrispondenti vicini). Gli angoli bassi sono gli ultimi a chiudersi</li>
+</ul>
+
+<blockquote>
+  <p>Questo argomento sarà trattato in dettaglio nelle lezioni sulle antenne.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="15--effetti-della-ionizzazione-sulle-distanze--qa">15. 🔬 Effetti della ionizzazione sulle distanze (⏱ Q&amp;A)</h3>
+
+<p>Un concetto apparentemente controintuitivo: quando la ionizzazione è <strong>più elevata</strong> (ad esempio d’estate), la zona d’ombra si <strong>riduce</strong> e si possono collegare corrispondenti <strong>più vicini</strong>. Quando la ionizzazione cala, si perdono prima i corrispondenti più vicini (quelli raggiunti con angoli alti), non quelli lontani (raggiunti con angoli bassi).</p>
+
+<p>Questo spiega perché d’estate la propagazione sugli 11 m e 10 m appare “più corta”: la maggiore ionizzazione consente riflessione con angoli di incidenza più ripidi, riducendo la distanza minima raggiungibile.</p>
+
+<blockquote>
+  <p>⚠️ Questo comportamento è una tendenza statistica, non una regola assoluta, perché la radiazione solare non è costante.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li><strong>Campo elettrico E</strong> + <strong>Campo magnetico H</strong> → formano → <strong>Campo elettromagnetico</strong></li>
+  <li><strong>Campo EM</strong> → si propaga alla → <strong>Velocità della luce (300.000 km/s)</strong></li>
+  <li><strong>Impedenza spazio libero (377 Ω)</strong> = rapporto tra → E e H</li>
+  <li><strong>Polarizzazione</strong> → determinata da → piano del campo <strong>E</strong> rispetto al suolo</li>
+  <li><strong>Lunghezza d’onda λ</strong> → inversamente proporzionale a → <strong>frequenza f</strong></li>
+  <li><strong>Attenuazione</strong> → proporzionale a → <strong>d² × f²</strong></li>
+  <li><strong>Propagazione ionosferica</strong> → dipende da → <strong>strati D, E, F</strong> della ionosfera</li>
+  <li><strong>Strato D</strong> → causa → <strong>assorbimento</strong> (presente solo di giorno)</li>
+  <li><strong>Strato F</strong> → responsabile della → <strong>riflessione/rifrazione</strong> HF principale</li>
+  <li><strong>Frequenza critica f₀</strong> → determina il → <strong>comportamento della ionosfera</strong> (riflessione/rifrazione/trasparenza)</li>
+  <li><strong>MUF</strong> ≈ 3 × f₀ → limita → massima frequenza utilizzabile</li>
+  <li><strong>FOT</strong> = 80–90% MUF → è la → frequenza ottimale operativa</li>
+  <li><strong>LUF</strong> → limitata da → assorbimento dello strato D</li>
+  <li><strong>Ciclo solare 11 anni</strong> → influenza → livello di ionizzazione → influenza → MUF</li>
+  <li><strong>Rotazione solare 27 giorni</strong> → causa → periodicità nelle condizioni di propagazione</li>
+  <li><strong>Riflessioni multiple</strong> → necessarie per → distanze &gt; 3.500 km</li>
+  <li><strong>Duct mode / Chordal mode</strong> → sono casi speciali di → propagazione ionosferica con minore attenuazione</li>
+  <li><strong>Attenuazione riflessione a terra</strong> → dipende da → tipo di superficie (mare &lt; terra &lt; ghiaccio)</li>
+  <li><strong>TEP</strong> → sfrutta → Anomalia Ionizzazione Equatoriale → allineata → lungo i meridiani</li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>
+    <p><strong>L’impedenza dello spazio libero è 377 Ω</strong>, costante fisica data dal rapporto E/H nel vuoto. Concetto ricorrente nelle domande d’esame.</p>
+  </li>
+  <li>
+    <p><strong>La polarizzazione è definita dal piano del campo elettrico</strong>: verticale se E è perpendicolare al suolo, orizzontale se parallelo.</p>
+  </li>
+  <li>
+    <p><strong>La lunghezza d’onda si calcola con λ = 300/f(MHz)</strong>, formula fondamentale per tutti i calcoli in radiofrequenza.</p>
+  </li>
+  <li>
+    <p><strong>L’attenuazione in spazio libero è proporzionale a d² × f²</strong>: raddoppiando distanza o frequenza, l’attenuazione quadruplica (6 dB).</p>
+  </li>
+  <li>
+    <p><strong>La ionosfera ha tre strati principali</strong>: D (solo diurno, causa assorbimento), E (variabile), F (strato principale per la propagazione HF, sempre presente).</p>
+  </li>
+  <li>
+    <p><strong>La FOT (80–90% della MUF) è la frequenza ottimale per i collegamenti</strong>, non la MUF stessa, per garantire un margine di sicurezza.</p>
+  </li>
+  <li>
+    <p><strong>La distanza massima con un singolo salto ionosferico è circa 3.500 km</strong>; distanze maggiori richiedono riflessioni multiple, duct mode o chordal mode.</p>
+  </li>
+  <li>
+    <p><strong>Il ciclo solare di 11 anni è il fattore più importante per la propagazione HF</strong>: in massimo solare le bande alte sono aperte anche di notte, in minimo solare solo durante il giorno.</p>
+  </li>
+  <li>
+    <p><strong>Le riflessioni sul mare attenuano 0,5 dB per salto contro 2–5 dB su terra</strong>: questo spiega perché il Sud America dall’Italia è il DX più forte a parità di distanza.</p>
+  </li>
+  <li>
+    <p><strong>La grey line (subito dopo il tramonto) offre condizioni eccellenti</strong>: strato D scompare (meno assorbimento) mentre strato F mantiene alta ionizzazione.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>
+    <p>Perché l’impedenza dello spazio libero è una costante e quale relazione lega campo E e campo H? In che modo questo concetto si applica al dimensionamento delle antenne?</p>
+  </li>
+  <li>
+    <p>Spiegare perché lo strato D è considerato “dannoso” per la propagazione HF e come la sua presenza/assenza influenza la scelta delle bande operative nelle diverse ore del giorno.</p>
+  </li>
+  <li>
+    <p>Se la frequenza critica f₀ è di 8 MHz in un dato momento, quale sarebbe approssimativamente la MUF e la FOT? Quale banda amatoriale risulterebbe ottimale?</p>
+  </li>
+  <li>
+    <p>Descrivere il meccanismo del duct mode e spiegare perché produce segnali più forti rispetto alle riflessioni multiple tradizionali.</p>
+  </li>
+  <li>
+    <p>Come si spiega che il Sud America sia costantemente il “miglior DX” dall’Italia, nonostante non sia la destinazione più vicina? Utilizzare i dati sull’attenuazione per salto nella risposta.</p>
+  </li>
+  <li>
+    <p>Perché durante i periodi di elevata ionizzazione la distanza minima raggiungibile (skip distance) si riduce? Questo fenomeno è controintuitivo: spiegare il meccanismo geometrico sottostante.</p>
+  </li>
+  <li>
+    <p>Quali sono i quattro cicli che influenzano la ionizzazione terrestre e quale tra questi è il più rilevante per la pianificazione dei collegamenti HF a lunga distanza?</p>
+  </li>
+  <li>
+    <p>Spiegare le condizioni necessarie perché si verifichi la propagazione transequatoriale (TEP) e il motivo per cui funziona prevalentemente lungo i meridiani.</p>
+  </li>
+  <li>
+    <p>Un radioamatore nota che 27 giorni dopo un’ottima apertura in 10 m, le condizioni sono nuovamente favorevoli. Quale ciclo solare spiega questo fenomeno?</p>
+  </li>
+  <li>
+    <p>Confrontare i vantaggi e svantaggi della via corta e della via lunga per un collegamento Italia–Nuova Zelanda, considerando sia la MUF sia l’attenuazione per riflessione a terra.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>Attenuazione</strong> — Riduzione della potenza del segnale durante la propagazione, espressa in dB. In spazio libero è proporzionale a d² × f².</li>
+  <li><strong>Campo elettromagnetico</strong> — Campo composto da una componente elettrica (E) e una magnetica (H) perpendicolari tra loro, capace di propagarsi nello spazio.</li>
+  <li><strong>Chordal mode</strong> — Modalità di propagazione in cui il segnale percorre orizzontalmente l’interno di uno strato ionizzato senza toccare terra.</li>
+  <li><strong>Ciclo solare undecennale</strong> — Ciclo di circa 11 anni dell’attività solare, caratterizzato dalla variazione del numero di macchie solari (SSN).</li>
+  <li><strong>Duct mode (modalità condotto)</strong> — Propagazione in cui il segnale rimbalza tra strato F e strato E senza riflessione a terra, con attenuazione ridotta.</li>
+  <li><strong>EIA (Equatorial Ionization Anomaly)</strong> — Anomalia di ionizzazione equatoriale che crea creste di alta ionizzazione a ±10–12° dall’equatore magnetico.</li>
+  <li><strong>f₀ (frequenza critica)</strong> — Massima frequenza riflessa dalla ionosfera con incidenza verticale. Varia da 2 MHz (notte, minimo solare) a 12–13 MHz (giorno, massimo solare).</li>
+  <li><strong>FOT (Frequenza Ottimale di Traffico)</strong> — Frequenza operativa consigliata, pari all’80–90% della MUF.</li>
+  <li><strong>Grey line (linea grigia)</strong> — Linea di passaggio tra giorno e notte sulla superficie terrestre; offre condizioni di propagazione eccellenti.</li>
+  <li><strong>Impedenza dello spazio libero</strong> — Rapporto E/H nel vuoto, pari a 377 Ω.</li>
+  <li><strong>Ionosfera</strong> — Regione dell’atmosfera (80–400 km) costituita da plasma ionizzato dalla radiazione solare, suddivisa in strati D, E, F.</li>
+  <li><strong>LUF (Lowest Usable Frequency)</strong> — Minima frequenza utilizzabile per un collegamento ionosferico, limitata dall’assorbimento dello strato D.</li>
+  <li><strong>Lunghezza d’onda (λ)</strong> — Distanza percorsa dall’onda in un’oscillazione completa: λ = 300/f(MHz) in metri.</li>
+  <li><strong>MUF (Maximum Usable Frequency)</strong> — Massima frequenza utilizzabile per un collegamento ionosferico su un dato percorso. Approssimativamente 3 × f₀.</li>
+  <li><strong>Onda di terra</strong> — Propagazione in cui l’onda segue la superficie terrestre; efficace solo a frequenze molto basse.</li>
+  <li><strong>Plasma ionosferico</strong> — Gas rarefatto le cui molecole sono ionizzate dalla radiazione solare.</li>
+  <li><strong>Polarizzazione</strong> — Orientamento del piano del campo elettrico rispetto al suolo (verticale o orizzontale).</li>
+  <li><strong>Propagazione troposferica</strong> — Propagazione che sfrutta rifrazione e diffusione nella troposfera (0–15 km); tipica di VHF/UHF.</li>
+  <li><strong>SFI (Solar Flux Intensity)</strong> — Intensità del flusso solare, indicatore dell’attività solare correlato al numero di macchie.</li>
+  <li><strong>SID (Sudden Ionospheric Disturbance)</strong> — Disturbo ionosferico improvviso causato da brillamenti o eruzioni solari.</li>
+  <li><strong>SSN (Sunspot Number)</strong> — Numero di macchie solari, indicatore principale del ciclo solare undecennale.</li>
+  <li><strong>Strato D</strong> — Strato ionosferico (60–90 km) presente solo di giorno, causa assorbimento delle frequenze sotto 5–6 MHz.</li>
+  <li><strong>Strato E</strong> — Strato ionosferico (100–140 km) variabile tra giorno e notte, con decadimento graduale.</li>
+  <li><strong>Strato F (F1, F2)</strong> — Strato ionosferico principale (150–400 km) per la propagazione HF. Di giorno si divide in F1 e F2.</li>
+  <li><strong>TEP (Trans-Equatorial Propagation)</strong> — Propagazione a lunga distanza attraverso l’equatore, sfruttando le creste di ionizzazione equatoriale.</li>
+  <li><strong>Tropo-scatter</strong> — Tecnica di comunicazione oltre l’orizzonte che sfrutta la diffusione del segnale nella troposfera.</li>
+  <li><strong>Via corta / Via lunga (Short path / Long path)</strong> — Percorsi alternativi per raggiungere una stessa destinazione seguendo rispettivamente il tragitto più breve o più lungo sulla superficie terrestre.</li>
+  <li><strong>Zona d’ombra</strong> — Area circolare intorno al trasmettitore non raggiungibile né dall’onda di terra né dall’onda ionosferica.</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatore</strong>: Paolo (radioamatore dal 1977, 40 anni di esperienza professionale nel settore RF)</li>
+  <li>🎓 <strong>Coordinatore</strong>: Fabrizio (coordina la sessione, gestisce le domande)</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Campo</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Numero lezione</strong></td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td>03/09/2025 (mercoledì)</td>
+    </tr>
+    <tr>
+      <td><strong>Durata</strong></td>
+      <td>~2 ore e 28 minuti</td>
+    </tr>
+    <tr>
+      <td><strong>Numero argomenti</strong></td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td><strong>Parole chiave</strong></td>
+      <td>propagazione, campo elettromagnetico, impedenza 377 Ω, polarizzazione, spettro EM, lunghezza d’onda, attenuazione, ionosfera, strato D, strato E, strato F, frequenza critica, MUF, LUF, FOT, zona d’ombra, ciclo solare, SSN, SFI, riflessioni multiple, duct mode, chordal mode, grey line, TEP, via corta, via lunga</td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+  <script>
+    const LESSON_SEARCH_PAGES = [
+      
+      
+      { title: "📘 Lezione 01 - Introduzione al Corso", url: "/guide-studio/lezione_01.html" },
+      
+      { title: "📘 Lezione 02 - Fondamenti di Elettrotecnica", url: "/guide-studio/lezione_02.html" },
+      
+      { title: "📘 Lezione 03 - Circuiti Elettrici", url: "/guide-studio/lezione_03.html" },
+      
+      { title: "📘 Lezione 04 - Corrente Alternata", url: "/guide-studio/lezione_04.html" },
+      
+      { title: "📘 Lezione 05 - Componenti Elettronici", url: "/guide-studio/lezione_05.html" },
+      
+      { title: "📘 Lezione 06 - Semiconduttori", url: "/guide-studio/lezione_06.html" },
+      
+      { title: "📘 Lezione 07 - Amplificatori", url: "/guide-studio/lezione_07.html" },
+      
+      { title: "📘 Lezione 08 - Oscillatori", url: "/guide-studio/lezione_08.html" },
+      
+      { title: "📘 Lezione 09 - Modulazione", url: "/guide-studio/lezione_09.html" },
+      
+      { title: "📘 Lezione 10 - Ricevitori", url: "/guide-studio/lezione_10.html" },
+      
+      { title: "📘 Lezione 11 - Trasmettitori", url: "/guide-studio/lezione_11.html" },
+      
+      { title: "📘 Lezione 12 - Propagazione", url: "/guide-studio/lezione_12.html" },
+      
+      { title: "📘 Lezione 13 - Antenne - Parte 1", url: "/guide-studio/lezione_13.html" },
+      
+      { title: "📘 Lezione 14 - Antenne - Parte 2", url: "/guide-studio/lezione_14.html" },
+      
+      { title: "📘 Lezione 15 - Linee di Trasmissione", url: "/guide-studio/lezione_15.html" },
+      
+      { title: "📘 Lezione 16 - Misure e Strumenti", url: "/guide-studio/lezione_16.html" },
+      
+      { title: "📘 Lezione 17 - Serata Speciale", url: "/guide-studio/lezione_17.html" },
+      
+      { title: "📘 Lezione 18 - Interferenze e EMC", url: "/guide-studio/lezione_18.html" },
+      
+      { title: "📘 Lezione 19 - Sicurezza Elettrica", url: "/guide-studio/lezione_19.html" },
+      
+      { title: "📘 Lezione 20 - Normative Nazionali", url: "/guide-studio/lezione_20.html" },
+      
+      { title: "📘 Lezione 21 - Normative Internazionali", url: "/guide-studio/lezione_21.html" },
+      
+      { title: "📘 Lezione 22 - Procedure Operative", url: "/guide-studio/lezione_22.html" }
+      
+    ];
+
+    const lessonSearchCache = new Map();
+
+    function stripAndNormalize(text) {
+      return text.replace(/\s+/g, ' ').trim();
+    }
+
+    function getSnippet(text, query) {
+      const lowerText = text.toLowerCase();
+      const lowerQuery = query.toLowerCase();
+      const index = lowerText.indexOf(lowerQuery);
+      if (index === -1) {
+        return text.slice(0, 180) + (text.length > 180 ? '…' : '');
+      }
+      const start = Math.max(0, index - 70);
+      const end = Math.min(text.length, index + query.length + 90);
+      const prefix = start > 0 ? '…' : '';
+      const suffix = end < text.length ? '…' : '';
+      return prefix + text.slice(start, end) + suffix;
+    }
+
+    async function getLessonText(url) {
+      if (lessonSearchCache.has(url)) {
+        return lessonSearchCache.get(url);
+      }
+      const response = await fetch(url, { credentials: 'same-origin' });
+      if (!response.ok) {
+        lessonSearchCache.set(url, '');
+        return '';
+      }
+      const html = await response.text();
+      const doc = new DOMParser().parseFromString(html, 'text/html');
+      const sourceText = doc.querySelector('main')?.innerText || doc.body?.innerText || '';
+      const normalized = stripAndNormalize(sourceText);
+      lessonSearchCache.set(url, normalized);
+      return normalized;
+    }
+
+    function renderSearchResults(query, results, failedCount) {
+      const container = document.getElementById('global-search-results');
+      if (!container) {
+        return;
+      }
+      if (!results.length) {
+        container.innerHTML = '<h3>Risultati ricerca</h3><p class="global-search-empty">Nessun risultato trovato nelle lezioni.</p>';
+        if (failedCount > 0) {
+          container.innerHTML += '<p class="global-search-empty">Alcune lezioni non sono state lette: riprova tra qualche secondo.</p>';
+        }
+        container.hidden = false;
+        return;
+      }
+
+      const listItems = results.map((result) => {
+        return '<li><a href="' + result.url + '">' + result.title + '</a><p>' + result.snippet + '</p></li>';
+      }).join('');
+
+      container.innerHTML = '<h3>Risultati ricerca per “' + query + '” (' + results.length + ')</h3><ul>' + listItems + '</ul>';
+      if (failedCount > 0) {
+        container.innerHTML += '<p class="global-search-empty">Alcune lezioni non sono state lette: riprova tra qualche secondo.</p>';
+      }
+      container.hidden = false;
+    }
+
+    async function runGlobalLessonSearch() {
+      const input = document.getElementById('global-search-input');
+      const button = document.getElementById('global-search-button');
+      const resultsBox = document.getElementById('global-search-results');
+      if (!input || !button || !resultsBox) {
+        return;
+      }
+
+      const query = input.value.trim();
+      if (!query) {
+        resultsBox.hidden = true;
+        resultsBox.innerHTML = '';
+        return;
+      }
+
+      button.disabled = true;
+      button.textContent = '⏳ Cerco...';
+
+      const results = [];
+      let failedCount = 0;
+
+      for (const lesson of LESSON_SEARCH_PAGES) {
+        try {
+          const text = await getLessonText(lesson.url);
+          if (!text) {
+            failedCount += 1;
+            continue;
+          }
+          if (text.toLowerCase().includes(query.toLowerCase())) {
+            results.push({
+              title: lesson.title,
+              url: lesson.url,
+              snippet: getSnippet(text, query)
+            });
+          }
+        } catch (_error) {
+          failedCount += 1;
+        }
+      }
+
+      renderSearchResults(query, results, failedCount);
+
+      button.disabled = false;
+      button.textContent = '🔍 Cerca';
+    }
+
+    document.getElementById('global-search-button')?.addEventListener('click', runGlobalLessonSearch);
+    document.getElementById('global-search-input')?.addEventListener('keydown', function (event) {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        runGlobalLessonSearch();
+      }
+    });
+  </script>
+</body>
+</html>
