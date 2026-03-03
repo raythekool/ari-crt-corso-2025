@@ -30,13 +30,19 @@
       border-radius: 5px;
       margin-bottom: 20px;
     }
-    nav a {
+    nav a, nav button {
       margin-right: 20px;
       text-decoration: none;
       color: #667eea;
       font-weight: bold;
+      background: transparent;
+      border: none;
+      padding: 0;
+      font-size: 1em;
+      font-family: inherit;
+      cursor: pointer;
     }
-    nav a:hover {
+    nav a:hover, nav button:hover {
       text-decoration: underline;
     }
     .lesson-nav {
@@ -140,7 +146,7 @@
         flex-wrap: wrap;
         gap: 8px;
       }
-      nav a {
+      nav a, nav button {
         margin-right: 0;
         font-size: 0.9em;
         padding: 6px 10px;
@@ -238,6 +244,7 @@
     <a href="{{ '/glossario.html' | relative_url }}">📚 Glossario</a>
     <a href="{{ '/domande-esame.html' | relative_url }}">❓ Domande</a>
     <a href="{{ '/risorse.html' | relative_url }}">🔗 Risorse</a>
+    <button type="button" onclick="openPageSearch()">🔍 Cerca</button>
   </nav>
   
   <main>
@@ -277,5 +284,17 @@
   <footer>
     <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
   </footer>
+  <script>
+    function openPageSearch() {
+      const query = window.prompt('Cerca nella pagina:');
+      if (!query || !query.trim()) {
+        return;
+      }
+      const found = window.find(query.trim(), false, false, true, false, false, false);
+      if (!found) {
+        window.alert('Nessun risultato trovato nella pagina corrente.');
+      }
+    }
+  </script>
 </body>
 </html>
