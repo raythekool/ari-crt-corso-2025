@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 12 - Propagazione - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+    nav a, nav button {
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+      background: transparent;
+      border: none;
+      padding: 0;
+      font-size: 1em;
+      font-family: inherit;
+      cursor: pointer;
+    }
+    nav a:hover, nav button:hover {
+      text-decoration: underline;
+    }
+    .global-search {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      margin-left: auto;
+      min-width: 260px;
+    }
+    .global-search input {
+      flex: 1;
+      min-width: 150px;
+      padding: 6px 10px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      font-size: 0.95em;
+    }
+    .global-search button {
+      background: #667eea;
+      color: #fff;
+      border: 1px solid #667eea;
+      border-radius: 6px;
+      padding: 7px 10px;
+      font-size: 0.9em;
+    }
+    .global-search-results {
+      background: #f7f9ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+    }
+    .global-search-results h3 {
+      margin: 0 0 8px 0;
+      color: #3f4fa3;
+      font-size: 1em;
+    }
+    .global-search-results ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    .global-search-results li {
+      margin-bottom: 8px;
+    }
+    .global-search-results p {
+      margin: 6px 0 0 0;
+      color: #444;
+      font-size: 0.92em;
+    }
+    .global-search-empty {
+      margin: 0;
+      color: #555;
+      font-style: italic;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+        font-size: 14px;
+      }
+      header {
+        padding: 15px;
+        margin-bottom: 20px;
+      }
+      header h1 {
+        font-size: 1.5em;
+      }
+      header p {
+        font-size: 0.9em;
+        margin: 10px 0 0 0;
+      }
+      nav {
+        padding: 10px;
+        margin-bottom: 15px;
+      }
+      nav a, nav button {
+        font-size: 0.9em;
+        padding: 6px 10px;
+        background: white;
+        border-radius: 4px;
+      }
+      .global-search {
+        width: 100%;
+        margin-left: 0;
+      }
+      .global-search input,
+      .global-search button {
+        width: 100%;
+      }
+      .lesson-nav {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        gap: 8px;
+      }
+      .lesson-nav a,
+      .lesson-nav label,
+      .lesson-nav select {
+        width: 100%;
+        text-align: center;
+      }
+      .lesson-nav select {
+        width: 100%;
+      }
+      main {
+        padding: 15px;
+        border-radius: 4px;
+      }
+      table {
+        font-size: 0.85em;
+        margin: 15px 0;
+      }
+      table th, table td {
+        padding: 8px;
+      }
+      h1 {
+        font-size: 1.6em;
+      }
+      h2 {
+        font-size: 1.3em;
+      }
+      h3 {
+        font-size: 1.1em;
+      }
+      pre {
+        padding: 10px;
+        font-size: 0.85em;
+        overflow-x: auto;
+      }
+    }
+    @media (min-width: 769px) and (max-width: 1024px) {
+      body {
+        padding: 15px;
+      }
+      header {
+        padding: 18px;
+      }
+      header h1 {
+        font-size: 1.8em;
+      }
+      main {
+        padding: 20px;
+      }
+      table {
+        font-size: 0.95em;
+      }
+      table th, table td {
+        padding: 10px;
+      }
+    }
+    @media (min-width: 1025px) {
+      /* Desktop styles - default */
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/ari-crt-corso-2025/">🏠 Home</a>
+    <a href="/ari-crt-corso-2025/guide-studio/">📖 Guide di Studio</a>
+    <a href="/ari-crt-corso-2025/glossario.html">📚 Glossario</a>
+    <a href="/ari-crt-corso-2025/domande-esame.html">❓ Domande</a>
+    <a href="/ari-crt-corso-2025/risorse.html">🔗 Risorse</a>
+    <div class="global-search">
+      <input id="global-search-input" type="search" placeholder="Cerca in tutte le lezioni..." aria-label="Cerca in tutte le lezioni" />
+      <button id="global-search-button" type="button">🔍 Cerca</button>
+    </div>
+  </nav>
+  <div id="global-search-results" class="global-search-results" hidden></div>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/ari-crt-corso-2025/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_11.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_13.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_12.html" selected>📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-12---propagazione">📘 Lezione 12 - Propagazione</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia</strong>: Radiotecnica — Transistor, FET, MOSFET e Valvole Termoioniche</li>
+  <li><strong>Tempo di studio stimato</strong>: 2 ore e 30 minuti</li>
+  <li><strong>Prerequisiti</strong>: Semiconduttori, giunzione P-N, diodi e loro tipologie, alimentatori lineari (Lezione 11), concetti di corrente e tensione, legge di Ohm e di Kirchhoff (Lezioni 02-03)</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Comprendere il funzionamento del transistor bipolare (NPN e PNP) come amplificatore di corrente</li>
+      <li>Conoscere i tre terminali del transistor (base, collettore, emettitore) e il fattore di amplificazione beta</li>
+      <li>Distinguere le tre configurazioni di amplificazione: emettitore comune, base comune, collettore comune</li>
+      <li>Comprendere il funzionamento dei transistor a effetto di campo (FET) e MOSFET</li>
+      <li>Conoscere le valvole termoioniche: diodo, triodo, tetrodo e pentodo</li>
+      <li>Saper confrontare i dispositivi a stato solido con le valvole termoioniche</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h3 id="1--correzione-quiz-lezione-11--0002">1. 🔍 Correzione Quiz Lezione 11 (⏱ 00:02)</h3>
+
+<p>La lezione inizia con la correzione del quiz della settimana precedente sugli argomenti dei diodi e degli alimentatori. I risultati sono molto buoni, con quasi tutti vicini al 100%. Le domande più critiche sono state la L e la P.</p>
+
+<p>Punti chiave dalle risposte:</p>
+
+<ul>
+  <li><strong>Caduta di tensione del diodo al silicio</strong>: 0,7 V. Questa tensione si genera intrinsecamente nella giunzione P-N del silicio e si ritrova ai capi del diodo quando conduce.</li>
+  <li><strong>Diodo Zener</strong>: è uno stabilizzatore di tensione (centrata da tutti).</li>
+  <li><strong>Diodo hot carrier (Schottky)</strong>: ha la giunzione fra metallo e semiconduttore (non P-N).</li>
+  <li><strong>Diodo Varicap</strong>: è un diodo a capacità variabile.</li>
+  <li><strong>LED</strong>: è un diodo che emette luce.</li>
+  <li><strong>Condensatori in parallelo all’uscita del raddrizzatore</strong>: servono per il filtraggio, non per alzare o abbassare la tensione.</li>
+  <li><strong>Trasformatore in alimentatore lineare</strong>: serve ad abbassare la tensione in ingresso.</li>
+  <li><strong>Raddrizzatore</strong>: è formato da diodi (non transistor, che servono per la stabilizzazione).</li>
+  <li><strong>Filtri di alimentazione</strong>: usano condensatori e induttanze.</li>
+  <li><strong>Raddrizzatore a singola semionda</strong>: conduce per 180° di ciascun ciclo (metà sinusoide). A doppia semionda: 360°.</li>
+  <li><strong>Condensatori nei filtri alimentatori</strong>: si usano <strong>elettrolitici</strong> perché servono grandi capacità (10.000 µF e oltre).</li>
+  <li><strong>Ponte di diodi</strong>: è un raddrizzatore ad onda intera (doppia semionda), tensione pulsante a 100 Hz.</li>
+  <li><strong>Rapporto spire trasformatore</strong>: un rapporto di 10 significa 220 V → 22 V.</li>
+</ul>
+
+<hr />
+
+<h3 id="2--il-transistor-bipolare--1007">2. 📡 Il Transistor Bipolare (⏱ 10:07)</h3>
+
+<h4 id="-struttura-del-transistor">🔹 Struttura del Transistor</h4>
+
+<p>Il <strong>transistor</strong> è un dispositivo <strong>semiconduttore a tre strati drogati</strong>, a differenza del diodo che ne ha due. Esistono due tipi fondamentali:</p>
+
+<ul>
+  <li><strong>NPN</strong>: strato N - strato P - strato N</li>
+  <li><strong>PNP</strong>: strato P - strato N - strato P</li>
+</ul>
+
+<p>I tre terminali del transistor sono:</p>
+
+<ul>
+  <li><strong>Base</strong> (B): lo strato centrale, <strong>molto sottile</strong> — è il terminale di controllo</li>
+  <li><strong>Collettore</strong> (C): uno degli strati esterni — terminale di uscita</li>
+  <li><strong>Emettitore</strong> (E): l’altro strato esterno — identificato dal simbolo con la freccia</li>
+</ul>
+
+<blockquote>
+  <p><strong>Regola per il simbolo</strong>: nel transistor <strong>NPN</strong> la freccia dell’emettitore punta verso l’<strong>esterno</strong>; nel <strong>PNP</strong> la freccia punta verso l’<strong>interno</strong>. Il simbolo può essere ruotato a seconda dello schema elettrico.</p>
+</blockquote>
+
+<p>Nel transistor ci sono <strong>due giunzioni</strong>:</p>
+
+<ul>
+  <li>Giunzione <strong>base-collettore</strong></li>
+  <li>Giunzione <strong>base-emettitore</strong></li>
+</ul>
+
+<p>È come se fossero due diodi messi in serie con polarità opposte.</p>
+
+<h4 id="-funzionamento-del-transistor">🔹 Funzionamento del Transistor</h4>
+
+<p>Quando il transistor non è polarizzato (base non alimentata), si formano <strong>due zone di svuotamento</strong> alle giunzioni, esattamente come nel diodo. Queste zone impediscono il passaggio di corrente: il transistor si comporta come un <strong>interruttore aperto</strong>.</p>
+
+<p>Quando si applica una corrente alla <strong>base</strong> (polarizzazione diretta della giunzione base-emettitore), le cariche elettriche iniettate nella base sottilissima <strong>abbattono le zone di svuotamento</strong>, permettendo il flusso di una corrente <strong>molto maggiore</strong> fra emettitore e collettore. La base, essendo molto sottile, richiede pochissima corrente per controllare un flusso molto più grande.</p>
+
+<blockquote>
+  <p><strong>Il transistor è un amplificatore di corrente</strong>: una piccola corrente di base produce una corrente di collettore 100-200 volte maggiore.</p>
+</blockquote>
+
+<h4 id="-distribuzione-delle-correnti-legge-di-kirchhoff">🔹 Distribuzione delle Correnti (Legge di Kirchhoff)</h4>
+
+<p>Per la legge dei nodi di Kirchhoff, la corrente che entra nel transistor deve uscire:</p>
+
+\[I_E = I_B + I_C\]
+
+<p>Dove:</p>
+
+<ul>
+  <li>$I_E$ = corrente di emettitore</li>
+  <li>$I_B$ = corrente di base (molto piccola)</li>
+  <li>$I_C$ = corrente di collettore (grande)</li>
+</ul>
+
+<p>Poiché $I_B \ll I_C$, le correnti di emettitore e collettore sono praticamente uguali:</p>
+
+\[I_E \approx I_C\]
+
+<blockquote>
+  <p><strong>Esempio</strong>: se $I_E = 100$ mA e $I_B = 1$ mA, allora $I_C = 99$ mA. Dal punto di vista ingegneristico, 99 ≈ 100.</p>
+</blockquote>
+
+<h4 id="-il-fattore-di-amplificazione-beta-β">🔹 Il Fattore di Amplificazione Beta (β)</h4>
+
+<p>Il <strong>guadagno</strong> o <strong>fattore di amplificazione</strong> del transistor è il rapporto tra la corrente di collettore e la corrente di base:</p>
+
+\[\beta = H_{FE} = \frac{I_C}{I_B}\]
+
+<blockquote>
+  <p><strong>Esempio</strong>: se $I_B = 1$ mA e $I_C = 150$ mA, allora $\beta = 150$. Il transistor amplifica 150 volte la corrente di base.</p>
+</blockquote>
+
+<p>La sigla tecnica è <strong>$H_{FE}$</strong>, ma comunemente si parla di <strong>beta</strong> del transistor. Non sono richiesti calcoli numerici all’esame, ma si deve conoscere la definizione.</p>
+
+<hr />
+
+<h3 id="3--il-transistor-come-amplificatore--3130">3. ⚡ Il Transistor come Amplificatore (⏱ 31:30)</h3>
+
+<h4 id="-schema-di-amplificazione-base">🔹 Schema di Amplificazione Base</h4>
+
+<p>Per usare il transistor come amplificatore servono:</p>
+
+<ol>
+  <li><strong>Polarizzazione di base</strong>: una tensione/corrente continua che porta il transistor in conduzione (supera la soglia di 0,7 V della giunzione base-emettitore)</li>
+  <li><strong>Segnale di ingresso</strong>: sovrapposto alla polarizzazione di base (es. segnale microfonico, segnale d’antenna)</li>
+  <li><strong>Alimentazione di collettore</strong>: una tensione più alta (es. 12 V) attraverso una <strong>resistenza di carico</strong> $R_C$</li>
+</ol>
+
+<p>Il funzionamento: la corrente modulata di base ($I_B$ costante + segnale) viene amplificata dal transistor ($I_C = \beta \times I_B$). La corrente di collettore, attraversando la resistenza di carico, genera per la legge di Ohm ($V = R \times I$) una <strong>tensione di uscita</strong> che riproduce il segnale di ingresso ma amplificato.</p>
+
+<blockquote>
+  <p>Il transistor amplifica la <strong>corrente</strong>. La resistenza di carico <strong>trasforma</strong> l’amplificazione di corrente in amplificazione di <strong>tensione</strong>.</p>
+</blockquote>
+
+<p>In pratica si usa un unico alimentatore ($V_{CC}$) da cui si ricavano sia l’alimentazione del collettore sia la polarizzazione di base tramite un <strong>partitore resistivo</strong> ($R_1$, $R_2$).</p>
+
+<hr />
+
+<h3 id="4--le-tre-configurazioni-di-amplificazione--4606">4. 🔧 Le Tre Configurazioni di Amplificazione (⏱ 46:06)</h3>
+
+<h4 id="-emettitore-comune-la-più-usata">🔹 Emettitore Comune (la più usata)</h4>
+
+<p>L’<strong>emettitore</strong> è il terminale <strong>comune</strong> ai circuiti di ingresso (base → emettitore) e di uscita (collettore → emettitore).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Caratteristica</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Amplificazione di tensione</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Amplificazione di corrente</td>
+      <td>Alta (β)</td>
+    </tr>
+    <tr>
+      <td>Amplificazione di potenza</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Impedenza di ingresso</td>
+      <td>Medio-bassa</td>
+    </tr>
+    <tr>
+      <td>Impedenza di uscita</td>
+      <td>Media</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>È la configurazione <strong>classica</strong> e più usata per amplificatori di ogni tipo.</p>
+
+<h4 id="-base-comune-rara-alta-frequenza">🔹 Base Comune (rara, alta frequenza)</h4>
+
+<p>La <strong>base</strong> è messa a massa; il segnale entra dall’<strong>emettitore</strong> e l’uscita è sul <strong>collettore</strong>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Caratteristica</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Amplificazione di tensione</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Amplificazione di corrente</td>
+      <td>&lt; 1</td>
+    </tr>
+    <tr>
+      <td>Amplificazione di potenza</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Impedenza di ingresso</td>
+      <td>Molto bassa</td>
+    </tr>
+    <tr>
+      <td>Impedenza di uscita</td>
+      <td>Medio-alta</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Usata raramente, ma utile per <strong>amplificazione ad alta frequenza</strong> perché la base, interposta fisicamente fra collettore ed emettitore e messa a massa, funge da <strong>schermo</strong> che previene le autooscillazioni (effetto Larsen).</p>
+
+<h4 id="-collettore-comune--buffer--5006">🔹 Collettore Comune — Buffer (⏱ 50:06)</h4>
+
+<p>Il <strong>collettore</strong> è il terminale comune; il segnale entra in <strong>base</strong> e l’uscita si preleva dall’<strong>emettitore</strong>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Caratteristica</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Amplificazione di tensione</td>
+      <td>≈ 1 (leggermente attenuata)</td>
+    </tr>
+    <tr>
+      <td>Amplificazione di corrente</td>
+      <td>Molto alta</td>
+    </tr>
+    <tr>
+      <td>Amplificazione di potenza</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Impedenza di ingresso</td>
+      <td><strong>Molto alta</strong></td>
+    </tr>
+    <tr>
+      <td>Impedenza di uscita</td>
+      <td><strong>Molto bassa</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Questo circuito è detto <strong>buffer</strong> o <strong>separatore</strong>. Non amplifica in tensione ma è fondamentale come interfaccia: l’alta impedenza di ingresso <strong>non disturba</strong> il circuito a monte, mentre la bassa impedenza di uscita permette di <strong>pilotare carichi forti</strong> (relè, linee di trasmissione).</p>
+
+<blockquote>
+  <p><strong>Domanda d’esame tipica</strong>: “Qual è la caratteristica ottimale per un amplificatore che deve disturbare poco il circuito a monte?” → Impedenza di ingresso alta → collettore comune (buffer).</p>
+</blockquote>
+
+<hr />
+
+<h3 id="5--polarizzazione-del-transistor-extra--5900">5. 📊 Polarizzazione del Transistor (EXTRA) (⏱ 59:00)</h3>
+
+<blockquote>
+  <p>⚠️ Questa sezione è <strong>EXTRA</strong> — non fa parte del programma d’esame.</p>
+</blockquote>
+
+<p>Ogni transistor ha delle <strong>curve caratteristiche</strong> che mostrano come la corrente di uscita varia in funzione delle grandezze di ingresso. La <strong>polarizzazione</strong> consiste nel calcolare i valori delle resistenze del circuito per far lavorare il transistor nel <strong>punto di lavoro ottimale</strong>.</p>
+
+<p>Nelle curve caratteristiche di uscita si distingue:</p>
+
+<ul>
+  <li>Una zona iniziale <strong>non lineare</strong> (curva a gobba)</li>
+  <li>Una zona centrale <strong>lineare</strong> (dove il segnale viene amplificato fedelmente)</li>
+</ul>
+
+<p>Il punto di lavoro deve essere scelto <strong>al centro della zona lineare</strong> per permettere l’amplificazione corretta sia delle semionde positive che negative del segnale. Se il punto è troppo vicino alla zona non lineare, le semionde negative vengono distorte.</p>
+
+<hr />
+
+<h3 id="6--transistor-a-effetto-di-campo--fet--6354">6. 📈 Transistor a Effetto di Campo — FET (⏱ 63:54)</h3>
+
+<h4 id="-struttura-e-funzionamento">🔹 Struttura e Funzionamento</h4>
+
+<p>Il <strong>FET</strong> (Field Effect Transistor) ha un funzionamento diverso dal transistor bipolare. I tre terminali si chiamano:</p>
+
+<ul>
+  <li><strong>Gate</strong> (G): terminale di controllo (equivalente della base)</li>
+  <li><strong>Drain</strong> (D): terminale di uscita (equivalente del collettore)</li>
+  <li><strong>Source</strong> (S): terminale di riferimento (equivalente dell’emettitore)</li>
+</ul>
+
+<p>La struttura è una <strong>barretta di materiale drogato</strong> (canale) che va dal drain al source, avvolta da una giunzione di materiale drogato opposto che forma il gate. La regione di svuotamento attorno al canale funziona come “rubinetto”:</p>
+
+<ul>
+  <li><strong>Aumento della tensione di gate</strong> (in polarizzazione inversa) → la regione di svuotamento si allarga → il canale si restringe → meno corrente</li>
+  <li><strong>Diminuzione della tensione di gate</strong> → la regione si riduce → il canale si allarga → più corrente</li>
+</ul>
+
+<blockquote>
+  <p><strong>Differenza fondamentale</strong>: il transistor bipolare si pilota in <strong>corrente</strong> (la base assorbe corrente), il FET si pilota in <strong>tensione</strong> (il gate <strong>non assorbe corrente</strong> perché è sempre in polarizzazione inversa).</p>
+</blockquote>
+
+<p>Come i transistor bipolari, esistono FET a <strong>canale N</strong> e a <strong>canale P</strong>.</p>
+
+<h4 id="-transconduttanza">🔹 Transconduttanza</h4>
+
+<p>Il guadagno del FET non è il beta (che è un rapporto di correnti) ma la <strong>transconduttanza</strong> ($g_m$):</p>
+
+\[g_m = \frac{\Delta I_D}{\Delta V_G}\]
+
+<p>Dove $\Delta I_D$ è la variazione della corrente di drain e $\Delta V_G$ è la variazione della tensione di gate.</p>
+
+<h4 id="-vantaggio-principale">🔹 Vantaggio Principale</h4>
+
+<p>L’<strong>impedenza di ingresso molto alta</strong> è il principale vantaggio dei FET. Sono usati come <strong>stadio di ingresso</strong> nelle catene di amplificazione per non caricare il circuito sorgente (es. microfono, ricevitore a cristallo con segnali debolissimi).</p>
+
+<hr />
+
+<h3 id="7--mosfet--7100">7. 🔌 MOSFET (⏱ 71:00)</h3>
+
+<p>Il <strong>MOSFET</strong> (Metal Oxide Semiconductor Field Effect Transistor) è una variazione del FET in cui il gate non è realizzato con una giunzione P-N ma con una <strong>superficie metallica isolata dal canale mediante uno strato di ossido</strong> (metal oxide), simile al principio dei diodi Schottky (hot carrier).</p>
+
+<p>Il funzionamento è analogo al FET: la tensione di gate modula la larghezza del canale controllando il flusso di corrente. La differenza è puramente tecnologica (metallizzazione anziché giunzione).</p>
+
+<hr />
+
+<h3 id="8--valvole-termoioniche--tubi-a-vuoto--7309">8. 📻 Valvole Termoioniche — Tubi a Vuoto (⏱ 73:09)</h3>
+
+<blockquote>
+  <p>⚠️ Le valvole termoioniche <strong>fanno ancora parte del programma d’esame</strong> del Ministero, anche se è incerto se continueranno a essere oggetto di domande.</p>
+</blockquote>
+
+<h4 id="-principio-di-funzionamento">🔹 Principio di Funzionamento</h4>
+
+<p>Le valvole operano nel <strong>vuoto</strong> all’interno di un bulbo di vetro. Il principio base è l’<strong>emissione termoionica</strong>: un filamento portato all’incandescenza emette elettroni per eccitazione termica.</p>
+
+<h4 id="-il-diodo-termoionico--7416">🔹 Il Diodo Termoionico (⏱ 74:16)</h4>
+
+<p><strong>A riscaldamento diretto</strong>: il filamento incandescente emette elettroni. Se una <strong>placca</strong> (anodo) vicina ha tensione positiva, attira gli elettroni → scorre corrente. Se l’anodo è negativo, respinge gli elettroni → non scorre corrente. Funzionamento identico al diodo a semiconduttore.</p>
+
+<p><strong>A riscaldamento indiretto</strong>: il filamento riscalda un <strong>catodo</strong> separato, realizzato con materiali ad alta <strong>emissività</strong> (che emettono facilmente molti elettroni). Vantaggio: minore energia per ottenere maggiore emissione di elettroni.</p>
+
+<h4 id="-il-triodo--7840">🔹 Il Triodo (⏱ 78:40)</h4>
+
+<p>Il <strong>triodo</strong> ha tre terminali: <strong>catodo</strong>, <strong>griglia</strong> e <strong>placca</strong> (anodo). Una griglia di filo sottile posta vicino al catodo controlla il flusso di elettroni:</p>
+
+<ul>
+  <li>Griglia molto negativa → respinge gli elettroni verso il catodo → non scorre corrente</li>
+  <li>Griglia poco negativa → gli elettroni filtrano attraverso e raggiungono la placca → scorre corrente</li>
+</ul>
+
+<p>Il triodo è il <strong>primo dispositivo amplificatore</strong> mai inventato (anni 1920). La griglia funziona esattamente come la base del transistor: una tensione di polarizzazione sulla quale si sovrappone il segnale da amplificare. Il segnale amplificato si ritrova sulla placca.</p>
+
+<blockquote>
+  <p>L’analogia è immediata: la valvola è come un tubo dell’acqua, la griglia è il rubinetto che regola il flusso.</p>
+</blockquote>
+
+<h4 id="-il-tetrodo--8112">🔹 Il Tetrodo (⏱ 81:12)</h4>
+
+<p>Il tetrodo aggiunge una <strong>seconda griglia</strong> chiamata <strong>griglia schermo</strong>:</p>
+
+<ul>
+  <li><strong>Griglia controllo</strong>: identica alla griglia del triodo, controlla il flusso di corrente</li>
+  <li><strong>Griglia schermo</strong>: posta tra griglia controllo e anodo, a potenziale positivo (ma inferiore all’anodo)</li>
+</ul>
+
+<p>La griglia schermo risolve il problema del triodo: ad alta amplificazione, la capacità parassita tra griglia e placca riporta parte del segnale amplificato verso la griglia, causando <strong>oscillazioni indesiderate</strong>. La griglia schermo <strong>scherma</strong> la griglia controllo dalla placca, eliminando questo accoppiamento capacitivo e aumentando ulteriormente l’amplificazione.</p>
+
+<h4 id="-il-pentodo--8454">🔹 Il Pentodo (⏱ 84:54)</h4>
+
+<p>Il pentodo ha <strong>cinque terminali</strong>: catodo, anodo e tre griglie:</p>
+
+<ol>
+  <li><strong>Griglia controllo</strong>: regola il flusso di corrente</li>
+  <li><strong>Griglia schermo</strong>: scherma la griglia dall’anodo</li>
+  <li><strong>Griglia soppressore</strong>: sopprme l’emissione di <strong>elettroni secondari</strong> dall’anodo</li>
+</ol>
+
+<p>Il problema che risolve: gli elettroni che impattano ad alta velocità sull’anodo possono far uscire altri elettroni (emissione secondaria), disturbando il flusso di corrente e distorcendo le curve caratteristiche. La griglia soppressore li rimanda verso l’anodo, rendendo la curva <strong>più lineare</strong> e migliorando la fedeltà dell’amplificazione.</p>
+
+<hr />
+
+<h3 id="9--discussione-pratica--interferenze-e-potenza--9700">9. 📡 Discussione Pratica — Interferenze e Potenza (⏱ 97:00)</h3>
+
+<p>Nella parte finale della lezione si discute di aspetti pratici dell’attività radioamatoriale:</p>
+
+<ul>
+  <li><strong>Limite legale di potenza</strong>: 500 W (con riduzioni su bande specifiche). Il limite si misura sulla <strong>potenza di uscita</strong> dalla radio/amplificatore, non sulla potenza effettivamente irradiata dall’antenna.</li>
+  <li><strong>Disturbi alle TV condominiali</strong>: quasi sempre risolvibili. Le cause principali sono centralini TV economici senza filtraggio in ingresso e decoder di bassa qualità. I problemi si risolvono con filtri passa-basso sull’uscita del trasmettitore e sostituzione/miglioramento degli impianti TV.</li>
+  <li><strong>Polizza assicurativa ARI</strong>: l’iscrizione all’ARI include una polizza di copertura per le antenne installate. Sul sito ARI è disponibile la documentazione completa.</li>
+  <li><strong>Rubrica legale su Radio Rivista</strong>: l’avvocato Michele tratta mensilmente aspetti normativi (installazione antenne, assicurazioni, regolamenti condominiali).</li>
+</ul>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li><strong>Transistor bipolare</strong> → ha tre strati drogati → <strong>NPN</strong> o <strong>PNP</strong></li>
+  <li><strong>Base</strong> (sottilissima) → terminale di controllo → piccola corrente abilita → grande corrente <strong>collettore-emettitore</strong></li>
+  <li><strong>Beta (β)</strong> = $I_C / I_B$ → fattore di amplificazione → tipicamente 100-200</li>
+  <li><strong>Emettitore comune</strong> → amplifica tensione, corrente e potenza → configurazione più usata</li>
+  <li><strong>Base comune</strong> → bassa amplificazione corrente → usata ad alta frequenza → base funge da schermo</li>
+  <li><strong>Collettore comune</strong> → guadagno tensione ≈ 1 → buffer/separatore → impedenza ingresso alta, uscita bassa</li>
+  <li><strong>FET</strong> → pilotato in tensione → gate non assorbe corrente → impedenza ingresso molto alta</li>
+  <li><strong>Transconduttanza</strong> ($g_m$) → guadagno del FET → $\Delta I_D / \Delta V_G$</li>
+  <li><strong>MOSFET</strong> → variante del FET → gate isolato con ossido metallico</li>
+  <li><strong>Valvola termoionica</strong> → emissione termoionica nel vuoto → filamento emette elettroni</li>
+  <li><strong>Triodo</strong> → griglia controlla il flusso → primo amplificatore della storia</li>
+  <li><strong>Tetrodo</strong> → aggiunge griglia schermo → riduce accoppiamento capacitivo → meno oscillazioni</li>
+  <li><strong>Pentodo</strong> → aggiunge griglia soppressore → sopprime emissione secondaria → maggiore linearità</li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>
+    <p>Il <strong>transistor bipolare</strong> è un amplificatore di corrente con tre terminali: base (controllo), collettore (uscita) e emettitore. Una piccola corrente in base abilita una corrente molto maggiore fra collettore ed emettitore.</p>
+  </li>
+  <li>
+    <p>Il <strong>fattore di amplificazione β</strong> (beta o $H_{FE}$) è il rapporto $I_C / I_B$, tipicamente tra 100 e 200. L’amplificazione di corrente viene convertita in amplificazione di tensione tramite una resistenza di carico.</p>
+  </li>
+  <li>
+    <p>Le <strong>tre configurazioni</strong> di amplificazione a transistor sono: emettitore comune (la più usata, amplifica tutto), base comune (alta frequenza, anti-oscillazione), collettore comune (buffer, impedenza ingresso alta).</p>
+  </li>
+  <li>
+    <p>Il <strong>FET</strong> (transistor a effetto di campo) si pilota in <strong>tensione</strong> anziché in corrente: il gate non assorbe corrente, risultando in un’impedenza di ingresso molto alta. Il guadagno è espresso dalla transconduttanza.</p>
+  </li>
+  <li>
+    <p>Il <strong>MOSFET</strong> è una variante del FET con gate isolato da uno strato di ossido metallico; il funzionamento è analogo ma la tecnologia costruttiva è diversa.</p>
+  </li>
+  <li>
+    <p>Le <strong>valvole termoioniche</strong> funzionano per emissione termoionica nel vuoto. I quattro tipi (diodo, triodo, tetrodo, pentodo) differiscono per il numero di griglie: il triodo ne ha una (controllo), il tetrodo due (controllo + schermo), il pentodo tre (controllo + schermo + soppressore).</p>
+  </li>
+  <li>
+    <p>Il <strong>triodo</strong> è il primo amplificatore della storia: la griglia controlla il flusso di elettroni tra catodo e placca, come un rubinetto controlla il flusso d’acqua.</p>
+  </li>
+  <li>
+    <p>L’<strong>impedenza di ingresso alta</strong> è fondamentale per non disturbare il circuito a monte. Il collettore comune (buffer) e il FET hanno questa caratteristica e vengono usati come stadi di ingresso.</p>
+  </li>
+  <li>
+    <p>Il limite legale di potenza per i radioamatori è <strong>500 W</strong>, misurato all’uscita della radio/amplificatore. Con una buona antenna e 100 W si collegano praticamente tutte le stazioni.</p>
+  </li>
+  <li>
+    <p>I disturbi alla TV condominiale sono quasi sempre risolvibili con filtri, schermature e miglioramento dell’impianto TV. L’ARI fornisce supporto e polizza assicurativa per le antenne.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>
+    <p>In che modo il funzionamento del transistor bipolare è collegato a quello del diodo? Quali analogie ci sono tra la giunzione P-N del diodo e le giunzioni del transistor?</p>
+  </li>
+  <li>
+    <p>Perché la base del transistor deve essere molto sottile? Cosa succederebbe se fosse spessa quanto gli altri strati?</p>
+  </li>
+  <li>
+    <p>Spiega perché il transistor è definito un “amplificatore di corrente” e come si ottiene da esso un amplificatore di tensione.</p>
+  </li>
+  <li>
+    <p>In quale situazione pratica sceglieresti un amplificatore a collettore comune anziché uno ad emettitore comune? Quali caratteristiche lo rendono adatto a quel compito?</p>
+  </li>
+  <li>
+    <p>Qual è la differenza fondamentale tra il pilotaggio di un transistor bipolare e quello di un FET? Quali conseguenze ha questa differenza sull’impedenza di ingresso?</p>
+  </li>
+  <li>
+    <p>Perché la configurazione a base comune è preferita per l’amplificazione ad alta frequenza? Qual è il ruolo fisico della base in questa configurazione?</p>
+  </li>
+  <li>
+    <p>Descrivi l’evoluzione dalle valvole diodo al pentodo: quale problema risolve ciascun tipo rispetto al precedente?</p>
+  </li>
+  <li>
+    <p>Perché il gate di un FET non assorbe corrente? Spiega il meccanismo legato alla regione di svuotamento.</p>
+  </li>
+  <li>
+    <p>Confronta il fattore di amplificazione β del transistor bipolare con la transconduttanza $g_m$ del FET: cosa misurano e perché hanno unità di misura diverse?</p>
+  </li>
+  <li>
+    <p>Un tuo vicino lamenta disturbi alla TV quando trasmetti. Sulla base di quanto appreso in questa lezione, quali potrebbero essere le cause e come le risolveresti?</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>Amplificatore a base comune</strong> — Configurazione del transistor con base a massa; usata ad alta frequenza per prevenire oscillazioni. Bassa amplificazione di corrente, alta di tensione.</li>
+  <li><strong>Amplificatore a collettore comune (buffer)</strong> — Configurazione del transistor con collettore comune a ingresso e uscita; guadagno in tensione ≈ 1, impedenza di ingresso alta, impedenza di uscita bassa. Usato come separatore.</li>
+  <li><strong>Amplificatore a emettitore comune</strong> — Configurazione classica del transistor; amplifica tensione, corrente e potenza. La più usata.</li>
+  <li><strong>Base</strong> — Terminale di controllo del transistor bipolare; strato centrale molto sottile. Una piccola corrente di base controlla una grande corrente di collettore.</li>
+  <li><strong>Beta (β) / $H_{FE}$</strong> — Fattore di amplificazione in corrente del transistor bipolare; rapporto tra corrente di collettore e corrente di base ($\beta = I_C / I_B$).</li>
+  <li><strong>Buffer (separatore)</strong> — Circuito con alta impedenza di ingresso e bassa impedenza di uscita che non amplifica in tensione ma isola i circuiti.</li>
+  <li><strong>Catodo</strong> — Nelle valvole: terminale che emette elettroni per effetto termoionico.</li>
+  <li><strong>Collettore</strong> — Terminale di uscita del transistor bipolare; raccoglie la corrente amplificata.</li>
+  <li><strong>Drain</strong> — Terminale di uscita del FET, equivalente del collettore nel transistor bipolare.</li>
+  <li><strong>Emettitore</strong> — Terminale del transistor bipolare collegato alla massa nel circuito più comune; identificato dalla freccia nel simbolo.</li>
+  <li><strong>Emissione termoionica</strong> — Emissione di elettroni da un materiale portato all’incandescenza; principio di funzionamento delle valvole.</li>
+  <li><strong>FET (Field Effect Transistor)</strong> — Transistor a effetto di campo, pilotato in tensione tramite il gate. Impedenza di ingresso molto alta.</li>
+  <li><strong>Gate</strong> — Terminale di controllo del FET/MOSFET, equivalente della base nel transistor bipolare. Non assorbe corrente.</li>
+  <li><strong>Griglia controllo</strong> — Nelle valvole: griglia che controlla il flusso di elettroni tra catodo e placca, equivalente della base/gate.</li>
+  <li><strong>Griglia schermo</strong> — Nel tetrodo/pentodo: griglia che scherma la griglia controllo dall’anodo, prevenendo oscillazioni.</li>
+  <li><strong>Griglia soppressore</strong> — Nel pentodo: griglia che sopprime l’emissione secondaria di elettroni dall’anodo.</li>
+  <li><strong>Impedenza di ingresso</strong> — Resistenza equivalente che un circuito presenta al segnale in ingresso. Alta = disturba poco il circuito a monte.</li>
+  <li><strong>MOSFET</strong> — Metal Oxide Semiconductor FET; variante del FET con gate isolato da ossido metallico.</li>
+  <li><strong>NPN / PNP</strong> — I due tipi di transistor bipolare, distinti dall’ordine degli strati drogati. NPN: freccia emettitore verso l’esterno. PNP: freccia verso l’interno.</li>
+  <li><strong>Pentodo</strong> — Valvola con cinque terminali (catodo, anodo, tre griglie) che offre la maggiore linearità di amplificazione.</li>
+  <li><strong>Placca (anodo)</strong> — Nelle valvole: terminale positivo che raccoglie gli elettroni emessi dal catodo.</li>
+  <li><strong>Polarizzazione</strong> — Impostazione delle condizioni di lavoro del transistor tramite tensioni e correnti continue che definiscono il punto di funzionamento.</li>
+  <li><strong>Punto di lavoro</strong> — Punto sulle curve caratteristiche del transistor dove è polarizzato; deve stare nella zona lineare per amplificazione fedele.</li>
+  <li><strong>Resistenza di carico ($R_C$)</strong> — Resistenza sul collettore che trasforma le variazioni di corrente in variazioni di tensione (uscita dell’amplificatore).</li>
+  <li><strong>Source</strong> — Terminale di riferimento del FET, equivalente dell’emettitore nel transistor bipolare.</li>
+  <li><strong>Tetrodo</strong> — Valvola con quattro terminali; aggiunge la griglia schermo al triodo per ridurre le oscillazioni.</li>
+  <li><strong>Transconduttanza ($g_m$)</strong> — Guadagno del FET; rapporto tra variazione della corrente di drain e variazione della tensione di gate.</li>
+  <li><strong>Transistor bipolare</strong> — Dispositivo semiconduttore a tre giunzioni (NPN o PNP) che amplifica la corrente. Pilotato in corrente.</li>
+  <li><strong>Triodo</strong> — Valvola con tre terminali (catodo, griglia, placca); primo dispositivo amplificatore della storia.</li>
+  <li><strong>Valvola termoionica (tubo a vuoto)</strong> — Dispositivo elettronico basato sull’emissione di elettroni da un catodo incandescente nel vuoto; precursore del transistor.</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatore principale</strong>: Paolo (radiotecnica — transistor, FET, MOSFET, valvole)</li>
+  <li>👨‍🏫 <strong>Relatore</strong>: Silvio IZ5DIY (correzione quiz e coordinamento)</li>
+  <li>👨‍🏫 <strong>Interventi</strong>: Sauro (valvole, amplificatori), Fabrizio (coordinamento, filtri ATX)</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Campo</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Numero lezione</strong></td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td>28 maggio 2025</td>
+    </tr>
+    <tr>
+      <td><strong>Durata</strong></td>
+      <td>~2 ore</td>
+    </tr>
+    <tr>
+      <td><strong>Numero argomenti</strong></td>
+      <td>6 (Quiz, Transistor bipolare, Configurazioni amplificazione, FET/MOSFET, Valvole, Discussione pratica)</td>
+    </tr>
+    <tr>
+      <td><strong>Parole chiave</strong></td>
+      <td>Transistor, NPN, PNP, base, collettore, emettitore, beta, amplificazione, emettitore comune, base comune, collettore comune, buffer, FET, MOSFET, gate, drain, source, transconduttanza, valvola termoionica, triodo, tetrodo, pentodo, griglia, impedenza di ingresso</td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+  <script>
+    const LESSON_SEARCH_PAGES = [
+      
+      
+      { title: "📘 Lezione 01 - Introduzione al Corso", url: "/ari-crt-corso-2025/guide-studio/lezione_01.html" },
+      
+      { title: "📘 Lezione 02 - Fondamenti di Elettrotecnica", url: "/ari-crt-corso-2025/guide-studio/lezione_02.html" },
+      
+      { title: "📘 Lezione 03 - Circuiti Elettrici", url: "/ari-crt-corso-2025/guide-studio/lezione_03.html" },
+      
+      { title: "📘 Lezione 04 - Corrente Alternata", url: "/ari-crt-corso-2025/guide-studio/lezione_04.html" },
+      
+      { title: "📘 Lezione 05 - Componenti Elettronici", url: "/ari-crt-corso-2025/guide-studio/lezione_05.html" },
+      
+      { title: "📘 Lezione 06 - Semiconduttori", url: "/ari-crt-corso-2025/guide-studio/lezione_06.html" },
+      
+      { title: "📘 Lezione 07 - Amplificatori", url: "/ari-crt-corso-2025/guide-studio/lezione_07.html" },
+      
+      { title: "📘 Lezione 08 - Oscillatori", url: "/ari-crt-corso-2025/guide-studio/lezione_08.html" },
+      
+      { title: "📘 Lezione 09 - Modulazione", url: "/ari-crt-corso-2025/guide-studio/lezione_09.html" },
+      
+      { title: "📘 Lezione 10 - Ricevitori", url: "/ari-crt-corso-2025/guide-studio/lezione_10.html" },
+      
+      { title: "📘 Lezione 11 - Trasmettitori", url: "/ari-crt-corso-2025/guide-studio/lezione_11.html" },
+      
+      { title: "📘 Lezione 12 - Propagazione", url: "/ari-crt-corso-2025/guide-studio/lezione_12.html" },
+      
+      { title: "📘 Lezione 13 - Antenne - Parte 1", url: "/ari-crt-corso-2025/guide-studio/lezione_13.html" },
+      
+      { title: "📘 Lezione 14 - Antenne - Parte 2", url: "/ari-crt-corso-2025/guide-studio/lezione_14.html" },
+      
+      { title: "📘 Lezione 15 - Linee di Trasmissione", url: "/ari-crt-corso-2025/guide-studio/lezione_15.html" },
+      
+      { title: "📘 Lezione 16 - Misure e Strumenti", url: "/ari-crt-corso-2025/guide-studio/lezione_16.html" },
+      
+      { title: "📘 Lezione 17 - Serata Speciale", url: "/ari-crt-corso-2025/guide-studio/lezione_17.html" },
+      
+      { title: "📘 Lezione 18 - Interferenze e EMC", url: "/ari-crt-corso-2025/guide-studio/lezione_18.html" },
+      
+      { title: "📘 Lezione 19 - Sicurezza Elettrica", url: "/ari-crt-corso-2025/guide-studio/lezione_19.html" },
+      
+      { title: "📘 Lezione 20 - Normative Nazionali", url: "/ari-crt-corso-2025/guide-studio/lezione_20.html" },
+      
+      { title: "📘 Lezione 21 - Normative Internazionali", url: "/ari-crt-corso-2025/guide-studio/lezione_21.html" },
+      
+      { title: "📘 Lezione 22 - Procedure Operative", url: "/ari-crt-corso-2025/guide-studio/lezione_22.html" }
+      
+    ];
+
+    const lessonSearchCache = new Map();
+
+    function stripAndNormalize(text) {
+      return text.replace(/\s+/g, ' ').trim();
+    }
+
+    function getSnippet(text, query) {
+      const lowerText = text.toLowerCase();
+      const lowerQuery = query.toLowerCase();
+      const index = lowerText.indexOf(lowerQuery);
+      if (index === -1) {
+        return text.slice(0, 180) + (text.length > 180 ? '…' : '');
+      }
+      const start = Math.max(0, index - 70);
+      const end = Math.min(text.length, index + query.length + 90);
+      const prefix = start > 0 ? '…' : '';
+      const suffix = end < text.length ? '…' : '';
+      return prefix + text.slice(start, end) + suffix;
+    }
+
+    async function getLessonText(url) {
+      if (lessonSearchCache.has(url)) {
+        return lessonSearchCache.get(url);
+      }
+      const response = await fetch(url, { credentials: 'same-origin' });
+      if (!response.ok) {
+        lessonSearchCache.set(url, '');
+        return '';
+      }
+      const html = await response.text();
+      const doc = new DOMParser().parseFromString(html, 'text/html');
+      const sourceText = doc.querySelector('main')?.innerText || doc.body?.innerText || '';
+      const normalized = stripAndNormalize(sourceText);
+      lessonSearchCache.set(url, normalized);
+      return normalized;
+    }
+
+    function renderSearchResults(query, results, failedCount) {
+      const container = document.getElementById('global-search-results');
+      if (!container) {
+        return;
+      }
+      if (!results.length) {
+        container.innerHTML = '<h3>Risultati ricerca</h3><p class="global-search-empty">Nessun risultato trovato nelle lezioni.</p>';
+        if (failedCount > 0) {
+          container.innerHTML += '<p class="global-search-empty">Alcune lezioni non sono state lette: riprova tra qualche secondo.</p>';
+        }
+        container.hidden = false;
+        return;
+      }
+
+      const listItems = results.map((result) => {
+        return '<li><a href="' + result.url + '">' + result.title + '</a><p>' + result.snippet + '</p></li>';
+      }).join('');
+
+      container.innerHTML = '<h3>Risultati ricerca per “' + query + '” (' + results.length + ')</h3><ul>' + listItems + '</ul>';
+      if (failedCount > 0) {
+        container.innerHTML += '<p class="global-search-empty">Alcune lezioni non sono state lette: riprova tra qualche secondo.</p>';
+      }
+      container.hidden = false;
+    }
+
+    async function runGlobalLessonSearch() {
+      const input = document.getElementById('global-search-input');
+      const button = document.getElementById('global-search-button');
+      const resultsBox = document.getElementById('global-search-results');
+      if (!input || !button || !resultsBox) {
+        return;
+      }
+
+      const query = input.value.trim();
+      if (!query) {
+        resultsBox.hidden = true;
+        resultsBox.innerHTML = '';
+        return;
+      }
+
+      button.disabled = true;
+      button.textContent = '⏳ Cerco...';
+
+      const results = [];
+      let failedCount = 0;
+
+      for (const lesson of LESSON_SEARCH_PAGES) {
+        try {
+          const text = await getLessonText(lesson.url);
+          if (!text) {
+            failedCount += 1;
+            continue;
+          }
+          if (text.toLowerCase().includes(query.toLowerCase())) {
+            results.push({
+              title: lesson.title,
+              url: lesson.url,
+              snippet: getSnippet(text, query)
+            });
+          }
+        } catch (_error) {
+          failedCount += 1;
+        }
+      }
+
+      renderSearchResults(query, results, failedCount);
+
+      button.disabled = false;
+      button.textContent = '🔍 Cerca';
+    }
+
+    document.getElementById('global-search-button')?.addEventListener('click', runGlobalLessonSearch);
+    document.getElementById('global-search-input')?.addEventListener('keydown', function (event) {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        runGlobalLessonSearch();
+      }
+    });
+  </script>
+</body>
+</html>

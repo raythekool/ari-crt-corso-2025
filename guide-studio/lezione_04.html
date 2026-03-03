@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 04 - Corrente Alternata - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+    nav a, nav button {
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+      background: transparent;
+      border: none;
+      padding: 0;
+      font-size: 1em;
+      font-family: inherit;
+      cursor: pointer;
+    }
+    nav a:hover, nav button:hover {
+      text-decoration: underline;
+    }
+    .global-search {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      margin-left: auto;
+      min-width: 260px;
+    }
+    .global-search input {
+      flex: 1;
+      min-width: 150px;
+      padding: 6px 10px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      font-size: 0.95em;
+    }
+    .global-search button {
+      background: #667eea;
+      color: #fff;
+      border: 1px solid #667eea;
+      border-radius: 6px;
+      padding: 7px 10px;
+      font-size: 0.9em;
+    }
+    .global-search-results {
+      background: #f7f9ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+    }
+    .global-search-results h3 {
+      margin: 0 0 8px 0;
+      color: #3f4fa3;
+      font-size: 1em;
+    }
+    .global-search-results ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    .global-search-results li {
+      margin-bottom: 8px;
+    }
+    .global-search-results p {
+      margin: 6px 0 0 0;
+      color: #444;
+      font-size: 0.92em;
+    }
+    .global-search-empty {
+      margin: 0;
+      color: #555;
+      font-style: italic;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+        font-size: 14px;
+      }
+      header {
+        padding: 15px;
+        margin-bottom: 20px;
+      }
+      header h1 {
+        font-size: 1.5em;
+      }
+      header p {
+        font-size: 0.9em;
+        margin: 10px 0 0 0;
+      }
+      nav {
+        padding: 10px;
+        margin-bottom: 15px;
+      }
+      nav a, nav button {
+        font-size: 0.9em;
+        padding: 6px 10px;
+        background: white;
+        border-radius: 4px;
+      }
+      .global-search {
+        width: 100%;
+        margin-left: 0;
+      }
+      .global-search input,
+      .global-search button {
+        width: 100%;
+      }
+      .lesson-nav {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        gap: 8px;
+      }
+      .lesson-nav a,
+      .lesson-nav label,
+      .lesson-nav select {
+        width: 100%;
+        text-align: center;
+      }
+      .lesson-nav select {
+        width: 100%;
+      }
+      main {
+        padding: 15px;
+        border-radius: 4px;
+      }
+      table {
+        font-size: 0.85em;
+        margin: 15px 0;
+      }
+      table th, table td {
+        padding: 8px;
+      }
+      h1 {
+        font-size: 1.6em;
+      }
+      h2 {
+        font-size: 1.3em;
+      }
+      h3 {
+        font-size: 1.1em;
+      }
+      pre {
+        padding: 10px;
+        font-size: 0.85em;
+        overflow-x: auto;
+      }
+    }
+    @media (min-width: 769px) and (max-width: 1024px) {
+      body {
+        padding: 15px;
+      }
+      header {
+        padding: 18px;
+      }
+      header h1 {
+        font-size: 1.8em;
+      }
+      main {
+        padding: 20px;
+      }
+      table {
+        font-size: 0.95em;
+      }
+      table th, table td {
+        padding: 10px;
+      }
+    }
+    @media (min-width: 1025px) {
+      /* Desktop styles - default */
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/ari-crt-corso-2025/">🏠 Home</a>
+    <a href="/ari-crt-corso-2025/guide-studio/">📖 Guide di Studio</a>
+    <a href="/ari-crt-corso-2025/glossario.html">📚 Glossario</a>
+    <a href="/ari-crt-corso-2025/domande-esame.html">❓ Domande</a>
+    <a href="/ari-crt-corso-2025/risorse.html">🔗 Risorse</a>
+    <div class="global-search">
+      <input id="global-search-input" type="search" placeholder="Cerca in tutte le lezioni..." aria-label="Cerca in tutte le lezioni" />
+      <button id="global-search-button" type="button">🔍 Cerca</button>
+    </div>
+  </nav>
+  <div id="global-search-results" class="global-search-results" hidden></div>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/ari-crt-corso-2025/guide-studio/">📚 Tutte le lezioni</a>
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_03.html">⬅️ Lezione precedente</a>
+        
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_05.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_01.html" >📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_04.html" selected>📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-04---corrente-alternata">📘 Lezione 04 - Corrente Alternata</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia e argomento</strong>: Elettrotecnica — induttori, reattanza induttiva e trasformatori. Vengono introdotti il campo magnetico, l’induzione elettromagnetica, l’induttore come componente, la reattanza induttiva e il trasformatore.</li>
+  <li><strong>Tempo di studio stimato</strong>: 90–120 minuti</li>
+  <li><strong>Prerequisiti</strong>: Conoscenza della corrente alternata (sinusoide, valore efficace, periodo, frequenza), legge di Ohm, resistenze in serie e parallelo (Lezioni 01–03).</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Comprendere il campo magnetico generato da un conduttore percorso da corrente</li>
+      <li>Conoscere il principio dell’induzione elettromagnetica (Faraday/Ørsted)</li>
+      <li>Definire l’induttanza e la sua unità di misura (Henry) con i sottomultipli</li>
+      <li>Calcolare induttori in serie e in parallelo</li>
+      <li>Comprendere lo sfasamento di 90° tra tensione e corrente in un induttore</li>
+      <li>Calcolare la reattanza induttiva con la formula $X_L = 2\pi f L$</li>
+      <li>Comprendere il funzionamento del trasformatore e il rapporto di trasformazione</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h2 id="-1-magneti-e-campo-magnetico--2118">🧲 1. Magneti e campo magnetico (⏱ 21:18)</h2>
+
+<h3 id="-i-magneti-permanenti">🔹 I magneti permanenti</h3>
+
+<p>I <strong>magneti</strong> sono elementi presenti in natura che sviluppano un <strong>campo magnetico</strong> nel loro intorno. Le calamite (magneti permanenti) presentano sempre due poli: un <strong>polo nord</strong> e un <strong>polo sud</strong>. Il magnete permanente più grande e conosciuto è la Terra stessa, con il suo polo nord e polo sud geografici, su cui si basa il funzionamento delle bussole.</p>
+
+<p>A livello molecolare, i magneti possiedono una struttura in cui ogni particella forma un piccolo <strong>dipolo</strong> (polo sud e polo nord). Questa polarizzazione interna è una caratteristica intrinseca di alcuni materiali.</p>
+
+<p>Le interazioni tra poli magnetici seguono una regola fondamentale:</p>
+
+<ul>
+  <li><strong>Poli di uguale segno si respingono</strong></li>
+  <li><strong>Poli di segno opposto si attraggono</strong></li>
+</ul>
+
+<h3 id="-campo-magnetico-generato-dalla-corrente">🔹 Campo magnetico generato dalla corrente</h3>
+
+<p>Un conduttore percorso da corrente genera un campo magnetico nel suo intorno. Le <strong>linee di forza</strong> di questo campo sono concentriche e coassiali all’asse del conduttore, formando cerchi attorno al filo. Questo fenomeno è visualizzabile con il classico esperimento della limatura di ferro su un foglio di carta attraversato da un filo.</p>
+
+<p>L’intensità del campo magnetico è <strong>direttamente proporzionale</strong> alla corrente che scorre nel conduttore: più corrente transita, più forte è il campo magnetico generato.</p>
+
+<h3 id="-induzione-elettromagnetica-faraday-1830">🔹 Induzione elettromagnetica (Faraday, 1830)</h3>
+
+<p>Il fenomeno è <strong>perfettamente reversibile</strong>:</p>
+
+<ol>
+  <li><strong>Corrente → Campo magnetico</strong>: un conduttore percorso da corrente genera un campo magnetico</li>
+  <li><strong>Campo magnetico → Corrente</strong>: muovendo un magnete vicino a una spira conduttrice, si genera una tensione (e quindi una corrente) nella spira stessa</li>
+</ol>
+
+<p>La tensione indotta è tanto maggiore quanto più è veloce il moto relativo tra il magnete e la spira. Questo principio, scoperto da <strong>Faraday</strong> e <strong>Ørsted</strong>, è alla base di generatori, alternatori e trasformatori.</p>
+
+<hr />
+
+<h2 id="-2-linduttore-bobina-solenoide--2910">📡 2. L’induttore (bobina, solenoide) (⏱ 29:10)</h2>
+
+<h3 id="-struttura-e-funzionamento">🔹 Struttura e funzionamento</h3>
+
+<p>Un <strong>induttore</strong> (detto anche <strong>bobina</strong> o <strong>solenoide</strong>) si ottiene avvolgendo un conduttore a spirale, con più spire una accanto all’altra, su un supporto. Rispetto al filo rettilineo, l’avvolgimento a più spire <strong>rinforza</strong> la capacità di produrre campo magnetico.</p>
+
+<p>Quando attraversato da corrente:</p>
+
+<ul>
+  <li><strong>Corrente continua</strong>: si forma un campo magnetico stazionario nell’intorno, ma senza ulteriori effetti dinamici</li>
+  <li><strong>Corrente alternata</strong>: la corrente viene <strong>ostacolata</strong> nel suo passaggio. L’induttore genera una <strong>forza controelettromotrice</strong> che si oppone alla variazione di corrente</li>
+</ul>
+
+<h3 id="-linduttanza-e-la-sua-unità-di-misura">🔹 L’induttanza e la sua unità di misura</h3>
+
+<p>L’<strong>induttanza</strong> — grandezza che esprime la capacità di un induttore di generare campo magnetico — si indica con la lettera <strong>L</strong> e si misura in <strong>Henry</strong> (simbolo: <strong>H</strong>).</p>
+
+<blockquote>
+  <p><strong>Definizione</strong>: Un Henry corrisponde a un flusso magnetico di 1 Weber quando l’induttore è attraversato da 1 Ampere di corrente.</p>
+
+\[1 \text{ H} = \frac{1 \text{ Wb}}{1 \text{ A}}\]
+</blockquote>
+
+<p>L’Henry è un’unità di misura <strong>molto grande</strong>; nella pratica si utilizzano i sottomultipli:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sottomultiplo</th>
+      <th>Simbolo</th>
+      <th>Valore</th>
+      <th>Notazione esponenziale</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>millihenry</td>
+      <td>mH</td>
+      <td>0,001 H</td>
+      <td>$10^{-3}$ H</td>
+    </tr>
+    <tr>
+      <td>microhenry</td>
+      <td>µH</td>
+      <td>0,000001 H</td>
+      <td>$10^{-6}$ H</td>
+    </tr>
+    <tr>
+      <td>nanohenry</td>
+      <td>nH</td>
+      <td>0,000000001 H</td>
+      <td>$10^{-9}$ H</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="-fattori-che-influenzano-linduttanza">🔹 Fattori che influenzano l’induttanza</h3>
+
+<p>L’induttanza di una bobina dipende dalle sue caratteristiche costruttive secondo la formula:</p>
+
+<blockquote>
+\[L = \mu \cdot \frac{N^2 \cdot S}{l}\]
+</blockquote>
+
+<p>Dove:</p>
+
+<ul>
+  <li><strong>L</strong> = induttanza in Henry</li>
+  <li><strong>µ (mu)</strong> = permeabilità magnetica del nucleo</li>
+  <li><strong>N</strong> = numero di spire</li>
+  <li><strong>S</strong> = sezione (diametro) su cui sono avvolte le spire</li>
+  <li><strong>l</strong> = lunghezza totale dell’avvolgimento</li>
+</ul>
+
+<p>Relazioni di proporzionalità:</p>
+
+<ul>
+  <li>L è <strong>proporzionale al quadrato</strong> del numero di spire ($N^2$)</li>
+  <li>L è <strong>direttamente proporzionale</strong> alla sezione S</li>
+  <li>L è <strong>direttamente proporzionale</strong> alla permeabilità magnetica µ del nucleo</li>
+  <li>L è <strong>inversamente proporzionale</strong> alla lunghezza l dell’avvolgimento</li>
+</ul>
+
+<p>⚠️ <em>Queste relazioni di proporzionalità sono frequentemente oggetto di domande d’esame.</em></p>
+
+<h3 id="-permeabilità-magnetica-µ">🔹 Permeabilità magnetica (µ)</h3>
+
+<p>La <strong>permeabilità magnetica</strong> (µ) è la proprietà di un materiale di magnetizzarsi più o meno intensamente in un campo magnetico. I materiali <strong>ferromagnetici</strong> (magnetite, ferro, nichel, leghe ferrose) hanno permeabilità elevata e concentrano il flusso magnetico, aumentando l’induttanza.</p>
+
+<p>La permeabilità del vuoto (o dell’aria) è indicata con <strong>µ₀</strong> e viene usata come riferimento per esprimere la <strong>permeabilità relativa</strong> di tutti gli altri materiali.</p>
+
+<h3 id="-tipologie-di-induttori">🔹 Tipologie di induttori</h3>
+
+<ul>
+  <li><strong>Induttori con nucleo assiale</strong>: bobina avvolta su supporto cilindrico con nucleo ferromagnetico inserito assialmente. Le linee di flusso si estendono all’esterno, con possibili effetti di accoppiamento con bobine vicine.</li>
+  <li><strong>Induttori toroidali</strong>: bobina avvolta su un nucleo ad anello (toroide). Il flusso magnetico circola interamente all’interno del nucleo, con minor dispersione e minor accoppiamento indesiderato.</li>
+  <li><strong>Induttore variabile</strong>: dotato di nucleo avvitabile; ruotando il nucleo si varia l’induttanza. Il simbolo elettrico è quello dell’induttore con una freccia diagonale. Si trovano nelle vecchie radio AM/FM per la taratura dei circuiti.</li>
+</ul>
+
+<hr />
+
+<h2 id="-3-induttori-in-serie-e-in-parallelo--4629">🔗 3. Induttori in serie e in parallelo (⏱ 46:29)</h2>
+
+<h3 id="-collegamento-in-serie">🔹 Collegamento in serie</h3>
+
+<p>In un collegamento in serie la stessa corrente attraversa tutti gli induttori. L’induttanza totale è la <strong>somma</strong> dei singoli valori:</p>
+
+<blockquote>
+\[L_{tot} = L_1 + L_2 + L_3 + \ldots\]
+</blockquote>
+
+<h3 id="-collegamento-in-parallelo">🔹 Collegamento in parallelo</h3>
+
+<p>In un collegamento in parallelo la stessa tensione è applicata a tutti gli induttori. L’induttanza totale si calcola come:</p>
+
+<blockquote>
+\[\frac{1}{L_{tot}} = \frac{1}{L_1} + \frac{1}{L_2} + \frac{1}{L_3} + \ldots\]
+</blockquote>
+
+<p>Le formule sono <strong>identiche</strong> a quelle delle resistenze in serie e in parallelo, sostituendo R con L.</p>
+
+<blockquote>
+  <p><strong>Suggerimento per l’esame</strong>: con la calcolatrice, per il parallelo si calcola $1/L_1$, si somma a $1/L_2$, poi a $1/L_3$, e alla fine si fa $1/x$ del totale per ottenere $L_{tot}$.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="️-4-costante-di-tempo-τ--lr--6003">⏱️ 4. Costante di tempo τ = L/R (⏱ 60:03)</h2>
+
+<h3 id="-comportamento-transitorio">🔹 Comportamento transitorio</h3>
+
+<p>Quando si collega un induttore a una tensione continua (o al primo istante di una tensione alternata), la corrente <strong>non sale istantaneamente</strong> ma cresce con un andamento <strong>esponenziale</strong> fino a raggiungere il valore di regime (100%).</p>
+
+<p>La <strong>costante di tempo</strong> (τ, tau) è definita come il tempo impiegato dalla corrente per raggiungere il <strong>63%</strong> del suo valore di regime:</p>
+
+<blockquote>
+\[\tau = \frac{L}{R}\]
+</blockquote>
+
+<p>Dove:</p>
+
+<ul>
+  <li><strong>τ</strong> = costante di tempo in secondi</li>
+  <li><strong>L</strong> = induttanza in Henry</li>
+  <li><strong>R</strong> = resistenza in serie in Ohm</li>
+</ul>
+
+<p>Il valore di regime (100%) viene raggiunto dopo circa <strong>4–5 costanti di tempo</strong>.</p>
+
+<blockquote>
+  <p>Il 63% deriva dalla formula esponenziale: $i(t) = I_{max}(1 - e^{-t/\tau})$; per $t = \tau$ si ottiene $i = I_{max}(1 - e^{-1}) \approx 0{,}63 \cdot I_{max}$.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-5-sfasamento-e-reattanza-induttiva--7101">📐 5. Sfasamento e reattanza induttiva (⏱ 71:01)</h2>
+
+<h3 id="-la-corrente-è-in-ritardo-di-90">🔹 La corrente è in ritardo di 90°</h3>
+
+<p>In un induttore alimentato in corrente alternata, la <strong>corrente è in ritardo di 90°</strong> rispetto alla tensione (oppure equivalentemente: la tensione è in anticipo di 90° rispetto alla corrente). Tensione e corrente si dicono <strong>in quadratura</strong>.</p>
+
+<p>Questo avviene perché la tensione applicata genera un campo magnetico che produce una <strong>forza controelettromotrice</strong>, ostacolando l’instaurarsi immediato della corrente.</p>
+
+<h3 id="-reattanza-induttiva-x_l">🔹 Reattanza induttiva ($X_L$)</h3>
+
+<p>L’opposizione offerta dall’induttore al passaggio della corrente alternata si chiama <strong>reattanza induttiva</strong> e si misura in <strong>ohm</strong>, analogamente alla resistenza.</p>
+
+<blockquote>
+  <p><strong>Formula:</strong>
+\(X_L = 2\pi f L\)</p>
+</blockquote>
+
+<p>Dove:</p>
+
+<ul>
+  <li><strong>$X_L$</strong> = reattanza induttiva in ohm (Ω)</li>
+  <li><strong>$f$</strong> = frequenza in Hertz (Hz)</li>
+  <li><strong>$L$</strong> = induttanza in Henry (H)</li>
+  <li><strong>$2\pi f$</strong> = pulsazione angolare (quanti giri al secondo fa la sinusoide)</li>
+</ul>
+
+<p>Proprietà fondamentali:</p>
+
+<ul>
+  <li>$X_L$ è <strong>direttamente proporzionale</strong> alla frequenza: aumentando $f$, aumenta $X_L$</li>
+  <li>$X_L$ è <strong>direttamente proporzionale</strong> all’induttanza: aumentando $L$, aumenta $X_L$</li>
+  <li>L’andamento è <strong>lineare</strong>: il grafico $X_L$ vs $f$ è una retta</li>
+</ul>
+
+<h3 id="-esercizio-svolto-calcolo-reattanza">🔹 Esercizio svolto: calcolo reattanza</h3>
+
+<p>Induttore da 10 mH alimentato a diverse frequenze:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Frequenza</th>
+      <th>Calcolo</th>
+      <th>Reattanza $X_L$</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>100 kHz</td>
+      <td>$2\pi \times 100.000 \times 0{,}01 = 6{,}28 \times 1000$</td>
+      <td><strong>6.280 Ω</strong></td>
+    </tr>
+    <tr>
+      <td>1 MHz</td>
+      <td>$2\pi \times 1.000.000 \times 0{,}01 = 6{,}28 \times 10.000$</td>
+      <td><strong>62.800 Ω</strong></td>
+    </tr>
+    <tr>
+      <td>10 MHz</td>
+      <td>$2\pi \times 10.000.000 \times 0{,}01 = 6{,}28 \times 100.000$</td>
+      <td><strong>628.000 Ω</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p><strong>Importante per l’esame</strong>: nelle formule bisogna sempre convertire i valori nei loro multipli/sottomultipli canonici (Hz, H, Ω) prima di eseguire i calcoli. Per semplificare, si possono usare le notazioni esponenziali: ad esempio $10 \text{ mH} = 10 \times 10^{-3}$ e $100 \text{ kHz} = 100 \times 10^{3}$, semplificando $10^{3}$ con $10^{-3}$.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-6-effetto-pelle--7807">🌀 6. Effetto pelle (⏱ 78:07)</h2>
+
+<h3 id="-distribuzione-della-corrente-ad-alta-frequenza">🔹 Distribuzione della corrente ad alta frequenza</h3>
+
+<p>L’<strong>effetto pelle</strong> (skin effect) è il fenomeno per cui, a frequenze elevate, la corrente alternata tende a scorrere prevalentemente sulla <strong>superficie esterna</strong> del conduttore, anziché distribuirsi uniformemente sulla sezione.</p>
+
+<p>Questo avviene perché al centro del conduttore si ha una maggiore concentrazione di linee di campo magnetico, che oppone maggiore reattanza al passaggio della corrente. La corrente “cerca” il percorso con meno opposizione, ovvero la superficie.</p>
+
+<p>Per questo motivo, nelle applicazioni ad alta frequenza si usano <strong>fili di rame argentato</strong>: lo strato di argento all’esterno, essendo un conduttore migliore del rame, riduce ulteriormente la resistenza al passaggio della corrente sulla superficie.</p>
+
+<p>⚠️ <em>Non ci sono domande d’esame sul calcolo della profondità dell’effetto pelle, ma è un concetto da conoscere.</em></p>
+
+<hr />
+
+<h2 id="-7-il-trasformatore--9651">⚡ 7. Il trasformatore (⏱ 96:51)</h2>
+
+<h3 id="-principio-di-funzionamento">🔹 Principio di funzionamento</h3>
+
+<p>Il <strong>trasformatore</strong> è un dispositivo elettrico formato da <strong>due induttori</strong> (avvolgimento primario e secondario) accoppiati magneticamente attraverso un <strong>nucleo ferromagnetico</strong>. Funziona <strong>esclusivamente in corrente alternata</strong>.</p>
+
+<p>Il principio è la <strong>mutua induzione</strong>: la corrente alternata che scorre nel primario genera un campo magnetico variabile che si concatena con il secondario attraverso il nucleo, inducendo una tensione (e quindi una corrente) nel secondario.</p>
+
+<blockquote>
+  <p><strong>Attenzione</strong>: se un trasformatore viene alimentato in corrente continua, l’avvolgimento primario presenta quasi solo la resistenza del filo (molto bassa), comportandosi come un quasi-cortocircuito. Non si ha trasferimento di energia al secondario e il trasformatore può danneggiarsi.</p>
+</blockquote>
+
+<h3 id="-rapporto-di-trasformazione">🔹 Rapporto di trasformazione</h3>
+
+<p>Il <strong>rapporto di trasformazione</strong> (K) è il rapporto tra il numero di spire del primario e del secondario:</p>
+
+<blockquote>
+\[K = \frac{N_P}{N_S} = \frac{V_P}{V_S}\]
+</blockquote>
+
+<p>La tensione in uscita dal secondario vale:</p>
+
+<blockquote>
+\[V_S = \frac{V_P}{K}\]
+</blockquote>
+
+<p>Dove:</p>
+
+<ul>
+  <li><strong>$N_P$</strong>, <strong>$N_S$</strong> = numero di spire primario e secondario</li>
+  <li><strong>$V_P$</strong>, <strong>$V_S$</strong> = tensione primario e secondario (valori efficaci)</li>
+</ul>
+
+<h3 id="-conservazione-della-potenza">🔹 Conservazione della potenza</h3>
+
+<p>Il rendimento di un trasformatore è <strong>prossimo al 100%</strong>: la potenza trasferita dal primario si ritrova quasi identica sul secondario, ma con parametri diversi di tensione e corrente.</p>
+
+<blockquote>
+\[P_P = V_P \times I_P \approx P_S = V_S \times I_S\]
+</blockquote>
+
+<p>Se il trasformatore abbassa la tensione (riduttore), la corrente disponibile sul secondario <strong>aumenta</strong> proporzionalmente, e viceversa.</p>
+
+<h3 id="-esercizio-svolto">🔹 Esercizio svolto</h3>
+
+<p>Un trasformatore con primario di 500 spire e secondario di 25 spire:</p>
+
+<ul>
+  <li>Rapporto di trasformazione: $K = 500/25 = 20$</li>
+  <li>Alimentato a 220 V sul primario: $V_S = 220/20 = 11$ V sul secondario</li>
+</ul>
+
+<p>Un trasformatore 220 V / 22 V (K = 10) con 1 A sul primario:</p>
+
+<ul>
+  <li>Potenza primario: $P = 220 \times 1 = 220$ W</li>
+  <li>Corrente secondario: $I_S = P/V_S = 220/22 = 10$ A</li>
+  <li>Verifica: $P_S = 22 \times 10 = 220$ W ✓</li>
+</ul>
+
+<h3 id="-trasformatore-elevatore-e-riduttore">🔹 Trasformatore elevatore e riduttore</h3>
+
+<p>Il trasformatore è <strong>perfettamente reversibile</strong>:</p>
+
+<ul>
+  <li><strong>Riduttore</strong>: alimentato dal primario (più spire), abbassa la tensione sul secondario. Uso tipico: alimentatori domestici (da 220 V a 12 V).</li>
+  <li><strong>Elevatore</strong>: alimentato dal secondario (meno spire), eleva la tensione sul primario. Uso tipico: linee elettriche ad alta tensione.</li>
+</ul>
+
+<p>Le linee ad alta tensione usano trasformatori elevatori per trasportare l’energia a grandi distanze: aumentando la tensione si riduce la corrente, e quindi si riducono le perdite per effetto termico ($P = R \times I^2$) nei cavi.</p>
+
+<blockquote>
+  <p>Nota storica: la disputa tra Edison (corrente continua) e Tesla (corrente alternata) si risolse a favore di Tesla proprio grazie alla possibilità di usare il trasformatore per il trasporto efficiente dell’energia elettrica.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li><strong>Corrente in un conduttore</strong> → genera → <strong>Campo magnetico</strong></li>
+  <li><strong>Campo magnetico variabile</strong> → induce → <strong>Tensione in una spira</strong> (Faraday)</li>
+  <li><strong>Spire avvolte</strong> → formano → <strong>Induttore (bobina)</strong></li>
+  <li><strong>Induttore</strong> → ha proprietà → <strong>Induttanza (L, Henry)</strong></li>
+  <li><strong>Induttanza</strong> → dipende da → <strong>N² (spire), S (sezione), µ (permeabilità), 1/l (lunghezza)</strong></li>
+  <li><strong>Permeabilità magnetica</strong> → aumenta con → <strong>Materiali ferromagnetici (ferro, nichel)</strong></li>
+  <li><strong>Induttore in corrente alternata</strong> → produce → <strong>Sfasamento 90° (corrente in ritardo)</strong></li>
+  <li><strong>Sfasamento</strong> → determina → <strong>Reattanza induttiva ($X_L = 2\pi fL$)</strong></li>
+  <li><strong>Reattanza induttiva</strong> → aumenta con → <strong>Frequenza e induttanza</strong></li>
+  <li><strong>Due induttori accoppiati</strong> → formano → <strong>Trasformatore</strong></li>
+  <li><strong>Trasformatore</strong> → trasforma → <strong>Tensione e corrente (conservando la potenza)</strong></li>
+  <li><strong>Rapporto di trasformazione</strong> → è dato da → <strong>$K = N_P/N_S = V_P/V_S$</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>Un conduttore percorso da corrente genera un campo magnetico; il fenomeno è reversibile (induzione elettromagnetica di Faraday).</li>
+  <li>L’induttanza si misura in <strong>Henry</strong> (H), ma nella pratica si usano millihenry (mH), microhenry (µH) e nanohenry (nH). L’induttanza cresce con $N^2$, con la sezione S e con la permeabilità µ, mentre diminuisce con la lunghezza dell’avvolgimento.</li>
+  <li>In un induttore alimentato in corrente alternata, la <strong>corrente è in ritardo di 90°</strong> rispetto alla tensione.</li>
+  <li>La <strong>reattanza induttiva</strong> $X_L = 2\pi fL$ è l’opposizione dell’induttore al passaggio di corrente alternata. Aumenta linearmente con la frequenza e con l’induttanza.</li>
+  <li>Gli induttori in serie si sommano ($L_{tot} = L_1 + L_2 + …$); in parallelo si usa la formula del reciproco, identica alle resistenze.</li>
+  <li>Il trasformatore funziona <strong>solo in corrente alternata</strong> e trasforma tensione e corrente secondo il rapporto $K = N_P/N_S$, conservando la potenza.</li>
+  <li>Nelle formule bisogna sempre usare le unità di misura canoniche (H, Hz, Ω), convertendo da multipli/sottomultipli prima del calcolo.</li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>Perché un induttore oppone resistenza al passaggio della corrente alternata ma non della corrente continua?</li>
+  <li>Come cambia l’induttanza di una bobina se si raddoppia il numero di spire mantenendo invariati tutti gli altri parametri?</li>
+  <li>Un induttore da 5 mH viene alimentato a 200 kHz. Qual è la sua reattanza induttiva? Spiegare il procedimento di conversione delle unità.</li>
+  <li>Perché il trasformatore non funziona con la corrente continua? Cosa succederebbe collegando una batteria al primario?</li>
+  <li>Un trasformatore ha un rapporto di trasformazione di 15. Se la tensione sul primario è 300 V e la corrente è 2 A, quali sono tensione e corrente sul secondario?</li>
+  <li>Spiegare perché le linee elettriche ad alta tensione utilizzano trasformatori elevatori e in che modo questo riduce le perdite di energia.</li>
+  <li>Qual è la differenza tra un induttore toroidale e uno con nucleo assiale in termini di dispersione del campo magnetico?</li>
+  <li>Perché l’effetto pelle è rilevante nelle applicazioni ad alta frequenza e come si mitiga nella pratica?</li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>Bobina</strong> — sinonimo di induttore; conduttore avvolto in più spire</li>
+  <li><strong>Costante di tempo (τ)</strong> — tempo impiegato dalla corrente per raggiungere il 63% del valore di regime; per un circuito RL vale $\tau = L/R$</li>
+  <li><strong>Effetto pelle (skin effect)</strong> — fenomeno per cui la corrente alternata ad alta frequenza scorre prevalentemente sulla superficie esterna del conduttore</li>
+  <li><strong>Henry (H)</strong> — unità di misura dell’induttanza; 1 H = 1 Wb / 1 A</li>
+  <li><strong>Induttanza (L)</strong> — grandezza che esprime la capacità di un induttore di generare campo magnetico; si misura in Henry</li>
+  <li><strong>Induttore</strong> — componente elettronico costituito da un conduttore avvolto in spire, che immagazzina energia sotto forma di campo magnetico</li>
+  <li><strong>Induttore variabile</strong> — induttore il cui valore può essere regolato inserendo più o meno un nucleo ferromagnetico</li>
+  <li><strong>Mutua induzione</strong> — fenomeno per cui un campo magnetico variabile in un avvolgimento induce una tensione in un avvolgimento vicino</li>
+  <li><strong>Permeabilità magnetica (µ)</strong> — proprietà di un materiale che esprime la capacità di magnetizzarsi; µ₀ è la permeabilità del vuoto/aria</li>
+  <li><strong>Rapporto di trasformazione (K)</strong> — rapporto tra spire primario e secondario di un trasformatore; $K = N_P/N_S$</li>
+  <li><strong>Reattanza induttiva ($X_L$)</strong> — opposizione offerta da un induttore al passaggio di corrente alternata; $X_L = 2\pi fL$, misurata in ohm</li>
+  <li><strong>Solenoide</strong> — sinonimo di induttore; avvolgimento di forma cilindrica</li>
+  <li><strong>Toroide</strong> — nucleo ad anello su cui si avvolgono le spire di un induttore; consente di contenere il campo magnetico all’interno</li>
+  <li><strong>Trasformatore</strong> — dispositivo a due avvolgimenti accoppiati magneticamente che trasforma tensione e corrente alternata mantenendo la potenza costante</li>
+  <li><strong>Weber (Wb)</strong> — unità di misura del flusso magnetico</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatore</strong>: Paolo (IZ5 — sezione ARI Prato) e Sauro (sezione ARI Prato, licenza dal 1984)</li>
+  <li>📋 <strong>Coordinamento</strong>: Alessio (mappa interattiva sezioni), Fabrizio, Federico</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Campo</th>
+      <th>Valore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Lezione</strong></td>
+      <td>04</td>
+    </tr>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td>26 marzo 2025</td>
+    </tr>
+    <tr>
+      <td><strong>Durata</strong></td>
+      <td>~2 ore e 20 minuti</td>
+    </tr>
+    <tr>
+      <td><strong>Numero argomenti</strong></td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td><strong>Parole chiave</strong></td>
+      <td>induttore, induttanza, Henry, campo magnetico, induzione elettromagnetica, Faraday, reattanza induttiva, $X_L = 2\pi fL$, trasformatore, rapporto di trasformazione, effetto pelle, serie, parallelo, costante di tempo</td>
+    </tr>
+  </tbody>
+</table>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+  <script>
+    const LESSON_SEARCH_PAGES = [
+      
+      
+      { title: "📘 Lezione 01 - Introduzione al Corso", url: "/ari-crt-corso-2025/guide-studio/lezione_01.html" },
+      
+      { title: "📘 Lezione 02 - Fondamenti di Elettrotecnica", url: "/ari-crt-corso-2025/guide-studio/lezione_02.html" },
+      
+      { title: "📘 Lezione 03 - Circuiti Elettrici", url: "/ari-crt-corso-2025/guide-studio/lezione_03.html" },
+      
+      { title: "📘 Lezione 04 - Corrente Alternata", url: "/ari-crt-corso-2025/guide-studio/lezione_04.html" },
+      
+      { title: "📘 Lezione 05 - Componenti Elettronici", url: "/ari-crt-corso-2025/guide-studio/lezione_05.html" },
+      
+      { title: "📘 Lezione 06 - Semiconduttori", url: "/ari-crt-corso-2025/guide-studio/lezione_06.html" },
+      
+      { title: "📘 Lezione 07 - Amplificatori", url: "/ari-crt-corso-2025/guide-studio/lezione_07.html" },
+      
+      { title: "📘 Lezione 08 - Oscillatori", url: "/ari-crt-corso-2025/guide-studio/lezione_08.html" },
+      
+      { title: "📘 Lezione 09 - Modulazione", url: "/ari-crt-corso-2025/guide-studio/lezione_09.html" },
+      
+      { title: "📘 Lezione 10 - Ricevitori", url: "/ari-crt-corso-2025/guide-studio/lezione_10.html" },
+      
+      { title: "📘 Lezione 11 - Trasmettitori", url: "/ari-crt-corso-2025/guide-studio/lezione_11.html" },
+      
+      { title: "📘 Lezione 12 - Propagazione", url: "/ari-crt-corso-2025/guide-studio/lezione_12.html" },
+      
+      { title: "📘 Lezione 13 - Antenne - Parte 1", url: "/ari-crt-corso-2025/guide-studio/lezione_13.html" },
+      
+      { title: "📘 Lezione 14 - Antenne - Parte 2", url: "/ari-crt-corso-2025/guide-studio/lezione_14.html" },
+      
+      { title: "📘 Lezione 15 - Linee di Trasmissione", url: "/ari-crt-corso-2025/guide-studio/lezione_15.html" },
+      
+      { title: "📘 Lezione 16 - Misure e Strumenti", url: "/ari-crt-corso-2025/guide-studio/lezione_16.html" },
+      
+      { title: "📘 Lezione 17 - Serata Speciale", url: "/ari-crt-corso-2025/guide-studio/lezione_17.html" },
+      
+      { title: "📘 Lezione 18 - Interferenze e EMC", url: "/ari-crt-corso-2025/guide-studio/lezione_18.html" },
+      
+      { title: "📘 Lezione 19 - Sicurezza Elettrica", url: "/ari-crt-corso-2025/guide-studio/lezione_19.html" },
+      
+      { title: "📘 Lezione 20 - Normative Nazionali", url: "/ari-crt-corso-2025/guide-studio/lezione_20.html" },
+      
+      { title: "📘 Lezione 21 - Normative Internazionali", url: "/ari-crt-corso-2025/guide-studio/lezione_21.html" },
+      
+      { title: "📘 Lezione 22 - Procedure Operative", url: "/ari-crt-corso-2025/guide-studio/lezione_22.html" }
+      
+    ];
+
+    const lessonSearchCache = new Map();
+
+    function stripAndNormalize(text) {
+      return text.replace(/\s+/g, ' ').trim();
+    }
+
+    function getSnippet(text, query) {
+      const lowerText = text.toLowerCase();
+      const lowerQuery = query.toLowerCase();
+      const index = lowerText.indexOf(lowerQuery);
+      if (index === -1) {
+        return text.slice(0, 180) + (text.length > 180 ? '…' : '');
+      }
+      const start = Math.max(0, index - 70);
+      const end = Math.min(text.length, index + query.length + 90);
+      const prefix = start > 0 ? '…' : '';
+      const suffix = end < text.length ? '…' : '';
+      return prefix + text.slice(start, end) + suffix;
+    }
+
+    async function getLessonText(url) {
+      if (lessonSearchCache.has(url)) {
+        return lessonSearchCache.get(url);
+      }
+      const response = await fetch(url, { credentials: 'same-origin' });
+      if (!response.ok) {
+        lessonSearchCache.set(url, '');
+        return '';
+      }
+      const html = await response.text();
+      const doc = new DOMParser().parseFromString(html, 'text/html');
+      const sourceText = doc.querySelector('main')?.innerText || doc.body?.innerText || '';
+      const normalized = stripAndNormalize(sourceText);
+      lessonSearchCache.set(url, normalized);
+      return normalized;
+    }
+
+    function renderSearchResults(query, results, failedCount) {
+      const container = document.getElementById('global-search-results');
+      if (!container) {
+        return;
+      }
+      if (!results.length) {
+        container.innerHTML = '<h3>Risultati ricerca</h3><p class="global-search-empty">Nessun risultato trovato nelle lezioni.</p>';
+        if (failedCount > 0) {
+          container.innerHTML += '<p class="global-search-empty">Alcune lezioni non sono state lette: riprova tra qualche secondo.</p>';
+        }
+        container.hidden = false;
+        return;
+      }
+
+      const listItems = results.map((result) => {
+        return '<li><a href="' + result.url + '">' + result.title + '</a><p>' + result.snippet + '</p></li>';
+      }).join('');
+
+      container.innerHTML = '<h3>Risultati ricerca per “' + query + '” (' + results.length + ')</h3><ul>' + listItems + '</ul>';
+      if (failedCount > 0) {
+        container.innerHTML += '<p class="global-search-empty">Alcune lezioni non sono state lette: riprova tra qualche secondo.</p>';
+      }
+      container.hidden = false;
+    }
+
+    async function runGlobalLessonSearch() {
+      const input = document.getElementById('global-search-input');
+      const button = document.getElementById('global-search-button');
+      const resultsBox = document.getElementById('global-search-results');
+      if (!input || !button || !resultsBox) {
+        return;
+      }
+
+      const query = input.value.trim();
+      if (!query) {
+        resultsBox.hidden = true;
+        resultsBox.innerHTML = '';
+        return;
+      }
+
+      button.disabled = true;
+      button.textContent = '⏳ Cerco...';
+
+      const results = [];
+      let failedCount = 0;
+
+      for (const lesson of LESSON_SEARCH_PAGES) {
+        try {
+          const text = await getLessonText(lesson.url);
+          if (!text) {
+            failedCount += 1;
+            continue;
+          }
+          if (text.toLowerCase().includes(query.toLowerCase())) {
+            results.push({
+              title: lesson.title,
+              url: lesson.url,
+              snippet: getSnippet(text, query)
+            });
+          }
+        } catch (_error) {
+          failedCount += 1;
+        }
+      }
+
+      renderSearchResults(query, results, failedCount);
+
+      button.disabled = false;
+      button.textContent = '🔍 Cerca';
+    }
+
+    document.getElementById('global-search-button')?.addEventListener('click', runGlobalLessonSearch);
+    document.getElementById('global-search-input')?.addEventListener('keydown', function (event) {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        runGlobalLessonSearch();
+      }
+    });
+  </script>
+</body>
+</html>

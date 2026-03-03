@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📘 Lezione 01 - Introduzione al Corso - Corso Radioamatori ARI Toscana CRT 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+    nav a, nav button {
+      text-decoration: none;
+      color: #667eea;
+      font-weight: bold;
+      background: transparent;
+      border: none;
+      padding: 0;
+      font-size: 1em;
+      font-family: inherit;
+      cursor: pointer;
+    }
+    nav a:hover, nav button:hover {
+      text-decoration: underline;
+    }
+    .global-search {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      margin-left: auto;
+      min-width: 260px;
+    }
+    .global-search input {
+      flex: 1;
+      min-width: 150px;
+      padding: 6px 10px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      font-size: 0.95em;
+    }
+    .global-search button {
+      background: #667eea;
+      color: #fff;
+      border: 1px solid #667eea;
+      border-radius: 6px;
+      padding: 7px 10px;
+      font-size: 0.9em;
+    }
+    .global-search-results {
+      background: #f7f9ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+    }
+    .global-search-results h3 {
+      margin: 0 0 8px 0;
+      color: #3f4fa3;
+      font-size: 1em;
+    }
+    .global-search-results ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    .global-search-results li {
+      margin-bottom: 8px;
+    }
+    .global-search-results p {
+      margin: 6px 0 0 0;
+      color: #444;
+      font-size: 0.92em;
+    }
+    .global-search-empty {
+      margin: 0;
+      color: #555;
+      font-style: italic;
+    }
+    .lesson-nav {
+      background: #eef2ff;
+      border: 1px solid #d5defa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+    .lesson-nav a {
+      text-decoration: none;
+      color: #3f4fa3;
+      font-weight: 600;
+    }
+    .lesson-nav a:hover {
+      text-decoration: underline;
+    }
+    .lesson-nav select {
+      padding: 6px 8px;
+      border: 1px solid #c8d2f7;
+      border-radius: 6px;
+      background: #fff;
+    }
+    main {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    table th {
+      background-color: #667eea;
+      color: white;
+    }
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+        font-size: 14px;
+      }
+      header {
+        padding: 15px;
+        margin-bottom: 20px;
+      }
+      header h1 {
+        font-size: 1.5em;
+      }
+      header p {
+        font-size: 0.9em;
+        margin: 10px 0 0 0;
+      }
+      nav {
+        padding: 10px;
+        margin-bottom: 15px;
+      }
+      nav a, nav button {
+        font-size: 0.9em;
+        padding: 6px 10px;
+        background: white;
+        border-radius: 4px;
+      }
+      .global-search {
+        width: 100%;
+        margin-left: 0;
+      }
+      .global-search input,
+      .global-search button {
+        width: 100%;
+      }
+      .lesson-nav {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        gap: 8px;
+      }
+      .lesson-nav a,
+      .lesson-nav label,
+      .lesson-nav select {
+        width: 100%;
+        text-align: center;
+      }
+      .lesson-nav select {
+        width: 100%;
+      }
+      main {
+        padding: 15px;
+        border-radius: 4px;
+      }
+      table {
+        font-size: 0.85em;
+        margin: 15px 0;
+      }
+      table th, table td {
+        padding: 8px;
+      }
+      h1 {
+        font-size: 1.6em;
+      }
+      h2 {
+        font-size: 1.3em;
+      }
+      h3 {
+        font-size: 1.1em;
+      }
+      pre {
+        padding: 10px;
+        font-size: 0.85em;
+        overflow-x: auto;
+      }
+    }
+    @media (min-width: 769px) and (max-width: 1024px) {
+      body {
+        padding: 15px;
+      }
+      header {
+        padding: 18px;
+      }
+      header h1 {
+        font-size: 1.8em;
+      }
+      main {
+        padding: 20px;
+      }
+      table {
+        font-size: 0.95em;
+      }
+      table th, table td {
+        padding: 10px;
+      }
+    }
+    @media (min-width: 1025px) {
+      /* Desktop styles - default */
+    }
+  </style>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📻 Corso Radioamatori ARI Toscana CRT 2025</h1>
+    <p>Materiale didattico e guide di studio per il corso aspiranti radioamatori</p>
+  </header>
+  
+  <nav>
+    <a href="/ari-crt-corso-2025/">🏠 Home</a>
+    <a href="/ari-crt-corso-2025/guide-studio/">📖 Guide di Studio</a>
+    <a href="/ari-crt-corso-2025/glossario.html">📚 Glossario</a>
+    <a href="/ari-crt-corso-2025/domande-esame.html">❓ Domande</a>
+    <a href="/ari-crt-corso-2025/risorse.html">🔗 Risorse</a>
+    <div class="global-search">
+      <input id="global-search-input" type="search" placeholder="Cerca in tutte le lezioni..." aria-label="Cerca in tutte le lezioni" />
+      <button id="global-search-button" type="button">🔍 Cerca</button>
+    </div>
+  </nav>
+  <div id="global-search-results" class="global-search-results" hidden></div>
+  
+  <main>
+    
+    
+      
+      
+      
+      <div class="lesson-nav">
+        <a href="/ari-crt-corso-2025/guide-studio/">📚 Tutte le lezioni</a>
+        
+        
+          
+          
+          <a href="/ari-crt-corso-2025/guide-studio/lezione_02.html">Lezione successiva ➡️</a>
+        
+        <label for="lesson-jump">Vai a:</label>
+        <select id="lesson-jump" onchange="if(this.value){ window.location.href=this.value; }">
+          <option value="">Seleziona una lezione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_01.html" selected>📘 Lezione 01 - Introduzione al Corso</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_02.html" >📘 Lezione 02 - Fondamenti di Elettrotecnica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_03.html" >📘 Lezione 03 - Circuiti Elettrici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_04.html" >📘 Lezione 04 - Corrente Alternata</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_05.html" >📘 Lezione 05 - Componenti Elettronici</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_06.html" >📘 Lezione 06 - Semiconduttori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_07.html" >📘 Lezione 07 - Amplificatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_08.html" >📘 Lezione 08 - Oscillatori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_09.html" >📘 Lezione 09 - Modulazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_10.html" >📘 Lezione 10 - Ricevitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_11.html" >📘 Lezione 11 - Trasmettitori</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_12.html" >📘 Lezione 12 - Propagazione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_13.html" >📘 Lezione 13 - Antenne - Parte 1</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_14.html" >📘 Lezione 14 - Antenne - Parte 2</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_15.html" >📘 Lezione 15 - Linee di Trasmissione</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_16.html" >📘 Lezione 16 - Misure e Strumenti</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_17.html" >📘 Lezione 17 - Serata Speciale</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_18.html" >📘 Lezione 18 - Interferenze e EMC</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_19.html" >📘 Lezione 19 - Sicurezza Elettrica</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_20.html" >📘 Lezione 20 - Normative Nazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_21.html" >📘 Lezione 21 - Normative Internazionali</option>
+          
+            <option value="/ari-crt-corso-2025/guide-studio/lezione_22.html" >📘 Lezione 22 - Procedure Operative</option>
+          
+        </select>
+      </div>
+    
+    <h1 id="-lezione-01---introduzione-al-corso">📘 Lezione 01 - Introduzione al Corso</h1>
+
+<h2 id="-overview">📌 Overview</h2>
+
+<ul>
+  <li><strong>Materia e argomento</strong>: Elettrotecnica di base — corrente continua. Vengono introdotti i concetti fondamentali di tensione, corrente, potenza, energia, i generatori di corrente continua e gli effetti della corrente elettrica.</li>
+  <li><strong>Tempo di studio stimato</strong>: 90–120 minuti</li>
+  <li><strong>Prerequisiti</strong>: Nessuno. Il corso è pensato per tutti e non richiede titoli di studio particolari né conoscenze pregresse di elettronica o matematica.</li>
+  <li><strong>Obiettivi di apprendimento</strong>:
+    <ul>
+      <li>Comprendere la struttura dell’atomo e il ruolo degli elettroni nei fenomeni elettrici</li>
+      <li>Distinguere materiali conduttori e isolanti</li>
+      <li>Definire e saper utilizzare le grandezze elettriche fondamentali: carica (coulomb), corrente (ampere), tensione (volt), potenza (watt), energia (wattora)</li>
+      <li>Applicare la formula $P = V \times I$ e le sue inverse</li>
+      <li>Conoscere i tre tipi di generatori: pile, batterie/accumulatori, alternatori</li>
+      <li>Comprendere il collegamento in serie e in parallelo dei generatori</li>
+      <li>Riconoscere i quattro effetti della corrente elettrica: fisiologico, termico, chimico, magnetico</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-core-content">📖 Core Content</h2>
+
+<h2 id="-1-struttura-dellatomo-e-cariche-elettriche--0310">🔬 1. Struttura dell’atomo e cariche elettriche (⏱ 03:10)</h2>
+
+<h3 id="-latomo-e-le-sue-particelle">🔹 L’atomo e le sue particelle</h3>
+
+<p>L’<strong>atomo</strong> — la particella più piccola che mantiene le caratteristiche della materia a cui appartiene — è il punto di partenza per comprendere tutti i fenomeni elettrici. Un atomo di oro, per esempio, possiede tutte le caratteristiche dell’oro, anche se è una singola particella.</p>
+
+<p>L’atomo è composto da tre tipi di particelle. Al centro si trova il <strong>nucleo</strong>, paragonabile al Sole nel sistema solare, che contiene due tipi di particelle: i <strong>neutroni</strong> — particelle elettricamente neutre che contribuiscono alla massa dell’atomo ma non alla carica elettrica — e i <strong>protoni</strong> — particelle dotate di carica elettrica convenzionalmente definita <strong>positiva</strong>. Attorno al nucleo, come pianeti attorno al Sole, orbitano gli <strong>elettroni</strong> — particelle portatrici di carica elettrica convenzionalmente definita <strong>negativa</strong>.</p>
+
+<p>In condizioni normali, ogni atomo è <strong>elettricamente neutro</strong>: il numero di protoni è uguale al numero di elettroni, e le rispettive cariche si bilanciano esattamente. Quando un atomo cede o acquista elettroni, diventa uno <strong>ione</strong>: se perde un elettrone diventa uno <strong>ione positivo</strong> (avendo perso una carica negativa, resta con un eccesso di carica positiva); se ne acquista uno, diventa uno <strong>ione negativo</strong>.</p>
+
+<h3 id="-conduttori-e-isolanti--0551">🔹 Conduttori e isolanti (⏱ 05:51)</h3>
+
+<p>Non tutti i materiali si comportano allo stesso modo rispetto agli elettroni. Esistono materiali in cui gli elettroni sono <strong>fortemente vincolati</strong> all’atomo: anche applicando energia, è molto difficile estrarre un elettrone. Questi sono i <strong>materiali isolanti</strong> — ad esempio plastica, gomma, ceramica, aria.</p>
+
+<p>Vi sono invece altri materiali, tipicamente i <strong>metalli</strong> (oro, argento, rame, alluminio, ferro), dove gli elettroni non sono agganciati saldamente al nucleo e con poca energia possono essere estratti e messi in movimento. Questi sono i <strong>materiali conduttori</strong>, fondamentali per la corrente elettrica. Tra i migliori conduttori troviamo oro e argento; il rame conduce bene ed è il materiale più usato per i cavi elettrici; il ferro conduce un po’ meno bene, ma resta comunque un buon conduttore.</p>
+
+<blockquote>
+  <p>“L’acqua di per sé è isolante. L’acqua conduce se ci sono degli additivi, ad esempio il sale.”</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-2-la-carica-elettrica-e-il-coulomb--0851">⚡ 2. La carica elettrica e il coulomb (⏱ 08:51)</h2>
+
+<h3 id="-definizione-di-carica-elettrica">🔹 Definizione di carica elettrica</h3>
+
+<p>Se da un materiale conduttore si riesce a estrarre un certo numero di elettroni, si costituisce una <strong>carica elettrica</strong>. La carica elettrica negativa non è altro che un insieme di elettroni; la carica elettrica positiva “pura” non esiste in natura — è in realtà uno <strong>ione</strong>, ovvero un atomo che ha perso un elettrone (i protoni sono molto difficili da sganciarsi dal nucleo, richiederebbero energie elevatissime).</p>
+
+<p>L’unità di misura della carica elettrica è il <strong>coulomb</strong> (simbolo: <strong>C</strong>). Un coulomb corrisponde a circa $6{,}25 \times 10^{18}$ elettroni, ovvero 6,25 miliardi di miliardi di elettroni.</p>
+
+<blockquote>
+  <p><strong>Formula fondamentale:</strong></p>
+
+\[1 \text{ C} = 6{,}25 \times 10^{18} \text{ elettroni}\]
+</blockquote>
+
+<h3 id="-attrazione-e-repulsione-tra-cariche">🔹 Attrazione e repulsione tra cariche</h3>
+
+<p>Le cariche elettriche interagiscono tra loro secondo una legge fondamentale:</p>
+
+<ul>
+  <li><strong>Cariche uguali si respingono</strong> (positivo–positivo o negativo–negativo)</li>
+  <li><strong>Cariche diverse si attraggono</strong> (positivo–negativo)</li>
+</ul>
+
+<p>Questa proprietà è analoga a quanto accade con le calamite e il magnetismo.</p>
+
+<hr />
+
+<h2 id="-3-il-campo-elettrico--1126">🧲 3. Il campo elettrico (⏱ 11:26)</h2>
+
+<h3 id="-concetto-di-campo-e-linee-di-forza">🔹 Concetto di campo e linee di forza</h3>
+
+<p>Ogni carica elettrica genera attorno a sé un <strong>campo elettrico</strong> — una zona di spazio in cui si avvertono gli effetti generati dalla carica stessa. I campi elettrici si rappresentano graficamente mediante le <strong>linee di forza</strong>, che indicano la direzione secondo la quale agiscono le forze di attrazione e repulsione.</p>
+
+<p>Per comprendere le linee di forza, si immagina di posizionare una piccola carica positiva “di prova” in vari punti dello spazio attorno alla carica. Se la carica centrale è positiva, la carica di prova viene respinta radialmente verso l’esterno (le frecce puntano verso l’esterno). Se la carica centrale è negativa, la carica di prova viene attratta verso il centro (le frecce puntano verso l’interno).</p>
+
+<p>Quando sono presenti due cariche, il campo risultante è la combinazione dei campi generati da ciascuna. Ad esempio, due cariche positive generano linee di forza antagoniste, che si respingono a vicenda. Una carica positiva e una negativa generano linee che vanno dalla positiva alla negativa, mostrando l’attrazione reciproca.</p>
+
+<p>Il concetto di campo è fondamentale per il radioamatore: quando si trasmette, l’antenna genera un <strong>campo elettromagnetico</strong>, che verrà studiato in dettaglio nelle lezioni successive.</p>
+
+<hr />
+
+<h2 id="-4-la-corrente-elettrica--1508">🔌 4. La corrente elettrica (⏱ 15:08)</h2>
+
+<h3 id="-definizione-e-natura-della-corrente">🔹 Definizione e natura della corrente</h3>
+
+<p>La <strong>corrente elettrica</strong> — spostamento ordinato di cariche elettriche (nel 99,9% dei casi, elettroni) — si genera quando in un punto dello spazio vi è un eccesso di elettroni e in un altro punto una carenza. Se questi due punti sono collegati da un conduttore, gli elettroni fluiscono dalla zona con eccesso (polo negativo) verso la zona con carenza (polo positivo).</p>
+
+<h3 id="-corrente-continua-vs-corrente-alternata--2034">🔹 Corrente continua vs corrente alternata (⏱ 20:34)</h3>
+
+<p>La <strong>corrente continua</strong> (CC o DC) scorre sempre in un solo senso, dal polo negativo al polo positivo. Questo non significa che il suo valore sia costante nel tempo: la corrente può variare in ampiezza, ma non cambia mai direzione. Viene prodotta da pile e batterie.</p>
+
+<p>La <strong>corrente alternata</strong> (CA o AC), che sarà oggetto della lezione 3, scorre a volte in un senso e a volte nell’altro, invertendo periodicamente la direzione.</p>
+
+<p>⚠️ <em>Attenzione a un errore comune</em>: “continua” non significa “flusso costante”. Significa che il verso della corrente non cambia mai.</p>
+
+<h3 id="-lampere-unità-di-misura-della-corrente--2411">🔹 L’ampere: unità di misura della corrente (⏱ 24:11)</h3>
+
+<p>L’intensità della corrente elettrica si misura in <strong>ampere</strong> (simbolo dell’unità di misura: <strong>A</strong>; simbolo nelle formule: <strong>I</strong>, lettera maiuscola). L’ampere prende il nome dal fisico francese André-Marie Ampère.</p>
+
+<blockquote>
+  <p><strong>Definizione:</strong></p>
+
+\[1 \text{ A} = 1 \text{ C/s}\]
+
+  <p>Un ampere corrisponde al passaggio di un
+coulomb di carica al secondo attraverso
+un conduttore.</p>
+</blockquote>
+
+<p>Se in un filo in un secondo passano $6{,}25 \times 10^{18}$ elettroni, in quel filo scorre una corrente di 1 ampere.</p>
+
+<hr />
+
+<h2 id="-5-la-tensione-e-la-differenza-di-potenziale--2606">🔋 5. La tensione e la differenza di potenziale (⏱ 26:06)</h2>
+
+<h3 id="-concetto-di-potenziale-e-analogia-idraulica">🔹 Concetto di potenziale e analogia idraulica</h3>
+
+<p>La corrente elettrica scorre perché esiste una <strong>differenza di potenziale</strong> tra due punti. Il docente utilizza un’efficace analogia: immaginate due secchi d’acqua, uno pieno e uno quasi vuoto, collegati da un tubo. L’acqua fluisce naturalmente dal secchio più pieno a quello meno pieno, fino a livellare i livelli. Lo stesso accade con le cariche elettriche: gli elettroni si spostano da dove ce ne sono di più a dove ce ne sono di meno, finché non si livellano, oppure continuano a fluire se un generatore mantiene la differenza di potenziale.</p>
+
+<p>La differenza di potenziale, detta comunemente <strong>tensione</strong>, si misura in <strong>volt</strong> (simbolo dell’unità di misura: <strong>V</strong>; simbolo nelle formule: <strong>V</strong>). Prende il nome da Alessandro Volta, il fisico italiano che nel 1799 inventò la pila.</p>
+
+<blockquote>
+  <p><strong>Definizione formale:</strong></p>
+
+  <p>1 volt è la differenza di potenziale tra due
+punti A e B di un circuito tale che per
+trasportare 1 coulomb dal punto A al punto B
+occorre compiere un lavoro di 1 joule.</p>
+</blockquote>
+
+<p>⚠️ <em>Nota</em>: Ai fini dell’esame, tensione e differenza di potenziale possono essere considerati sinonimi, anche se tecnicamente non sono esattamente identici.</p>
+
+<hr />
+
+<h2 id="️-6-energia-e-potenza-elettrica--3033">⚙️ 6. Energia e potenza elettrica (⏱ 30:33)</h2>
+
+<h3 id="-lenergia-elettrica">🔹 L’energia elettrica</h3>
+
+<p>L’<strong>energia</strong> — la capacità di compiere un lavoro — è un concetto che il docente spiega con l’analogia dell’automobile. Il serbatoio di un’auto contiene energia (chimica nella benzina, elettrica nelle auto elettriche). Questa energia viene trasformata dal motore in <strong>energia cinetica</strong> (energia associata al movimento).</p>
+
+<p>Allo stesso modo, in una radio portatile il pacco batterie contiene energia chimica che la radio trasforma in energia del <strong>campo elettromagnetico</strong> irradiato dall’antenna.</p>
+
+<p>L’energia elettrica si misura in <strong>wattora</strong> (simbolo: <strong>Wh</strong>) o <strong>kilowattora</strong> (kWh). È ciò che l’Enel ci fornisce e che i contatori domestici misurano.</p>
+
+<blockquote>
+\[1 \text{ Wh} = \text{consumo di 1 watt per 1 ora}\]
+</blockquote>
+
+<h3 id="-la-potenza-elettrica--3405">🔹 La potenza elettrica (⏱ 34:05)</h3>
+
+<p>La <strong>potenza</strong> — la quantità di energia che si trasforma nell’unità di tempo — è ciò che determina “quanta” energia viene utilizzata in un dato momento. Tornando all’analogia dell’automobile: premendo poco l’acceleratore si trasforma poca energia (bassa potenza), premendo molto si trasforma molta energia (alta potenza), consumando più benzina.</p>
+
+<p>L’unità di misura della potenza è il <strong>watt</strong> (simbolo dell’unità di misura: <strong>W</strong>; simbolo nelle formule: <strong>P</strong>).</p>
+
+<blockquote>
+  <p><strong>Definizione:</strong></p>
+
+\[1 \text{ W} = 1 \text{ J/s}\]
+
+  <p>Un watt corrisponde a un joule di lavoro
+compiuto in un secondo.</p>
+</blockquote>
+
+<p><strong>Analogia con la radio</strong>: un palmare radioamatoriale può essere regolato su diverse potenze di uscita (es. 0,5 W, 1 W, 5 W). A 0,5 W preleva poca energia dalla batteria e irradia un campo elettromagnetico debole. A 5 W preleva dieci volte tanta energia e genera un campo dieci volte più intenso.</p>
+
+<blockquote>
+  <p><strong>Riepilogo fondamentale per l’esame:</strong></p>
+
+  <ul>
+    <li>L’energia si misura in <strong>wattora</strong> (Wh) o <strong>kilowattora</strong> (kWh)</li>
+    <li>La potenza si misura in <strong>watt</strong> (W)</li>
+  </ul>
+</blockquote>
+
+<hr />
+
+<h2 id="-7-la-formula-della-potenza-e-le-formule-inverse--4533">📐 7. La formula della potenza e le formule inverse (⏱ 45:33)</h2>
+
+<h3 id="-formula-principale">🔹 Formula principale</h3>
+
+<p>La formula fondamentale per il calcolo della potenza elettrica nei circuiti è:</p>
+
+<blockquote>
+\[P = V \times I\]
+
+  <p>La potenza (P, in watt) è uguale al prodotto
+della tensione (V, in volt) per la corrente
+(I, in ampere).</p>
+</blockquote>
+
+<p><strong>Esempio pratico</strong>: una radio alimentata a 12 V che consuma 0,1 A assorbe una potenza di $12 \times 0{,}1 = 1{,}2$ W.</p>
+
+<h3 id="-formule-inverse--4725">🔹 Formule inverse (⏱ 47:25)</h3>
+
+<p>Dalla formula principale si ricavano due formule inverse, utili quando i dati a disposizione sono diversi:</p>
+
+<blockquote>
+\[I = \frac{P}{V}\]
+
+\[V = \frac{P}{I}\]
+</blockquote>
+
+<p>Il procedimento matematico è semplice: si divide entrambi i membri dell’equazione per la stessa grandezza. Ad esempio, dividendo $P = V \times I$ per $V$, si ottiene $\frac{P}{V} = I$.</p>
+
+<p><strong>Esempio pratico — calcolo del fusibile</strong> (⏱ 53:27): una radio da 100 W alimentata a 12 V assorbe una corrente $I = \frac{100}{12} \approx 8{,}3$ A. Si può quindi scegliere un fusibile da 10 A per proteggere il circuito.</p>
+
+<p><strong>Esempio pratico — calcolo della potenza</strong> (⏱ 52:35): una radio alimentata a 12 V che consuma 10 A assorbe $P = 12 \times 10 = 120$ W.</p>
+
+<p><strong>Esempio dalla discussione con un corsista</strong> (⏱ 56:28): una radio che eroga 120 W verso l’antenna ne consuma almeno il doppio dall’alimentatore (~250 W). Con alimentatore a 12 V: $I = \frac{250}{12} \approx 20$ A. Ecco perché gli alimentatori radioamatoriali tipici sono da 20–30 ampere.</p>
+
+<p>⚠️ <em>Consiglio d’esame</em>: è molto probabile che nelle 30 domande della parte tecnica ci sia almeno una domanda che richiede l’uso di queste formule. È fondamentale memorizzare tutte e tre le versioni.</p>
+
+<hr />
+
+<h2 id="-8-i-generatori-di-corrente-elettrica--6154">🔋 8. I generatori di corrente elettrica (⏱ 61:54)</h2>
+
+<h3 id="-le-pile--6237">🔹 Le pile (⏱ 62:37)</h3>
+
+<p>La <strong>pila</strong> è un generatore in cui la corrente elettrica viene prodotta da una <strong>reazione chimica irreversibile</strong>. All’interno della pila, sostanze chimiche si combinano spostando elettroni verso il polo negativo, lasciando il polo positivo carente di elettroni. Quando la pila è inserita in un circuito, gli elettroni scorrono dal polo negativo al polo positivo attraverso il circuito esterno. Le pile si scaricano e <strong>non possono essere ricaricate</strong>.</p>
+
+<p>Le pile comuni hanno tensione di 1,5 V (stilo) o 9 V (il classico “pacchettino”).</p>
+
+<h3 id="-le-batterie--accumulatori--6428">🔹 Le batterie / accumulatori (⏱ 64:28)</h3>
+
+<p>Le <strong>batterie</strong> (o <strong>accumulatori</strong>) funzionano in modo simile alle pile, ma la reazione chimica è <strong>reversibile</strong>: possono essere <strong>ricaricate</strong>. Questo le distingue fondamentalmente dalle pile, anche se commercialmente si trovano “pile ricaricabili” che tecnicamente appartengono alla categoria delle batterie.</p>
+
+<p>Le batterie sono caratterizzate da due valori:</p>
+
+<ol>
+  <li><strong>Tensione</strong> di uscita (es. 6 V, 12 V)</li>
+  <li><strong>Capacità</strong>, espressa in <strong>amperora</strong> (simbolo: <strong>Ah</strong>) — la quantità di energia che contengono</li>
+</ol>
+
+<blockquote>
+  <p><strong>Calcolo della durata di una batteria:</strong></p>
+
+\[t = \frac{C}{I}\]
+
+  <p>dove $t$ = tempo in ore, $C$ = capacità in Ah,
+$I$ = corrente assorbita in ampere.</p>
+</blockquote>
+
+<p><strong>Esempio</strong>: una batteria da 10 Ah che eroga 2 A si scarica in $\frac{10}{2} = 5$ ore. La stessa batteria con un carico da 0,25 A dura $\frac{10}{0{,}25} = 40$ ore.</p>
+
+<p>Le pile di piccole dimensioni hanno capacità molto inferiore, espressa in <strong>milliamperora</strong> (mAh). Le batterie ricaricabili si sono evolute dal nichel-cadmio (NiCd, con il problema dell’<strong>effetto memoria</strong> — la batteria risente del modo in cui è stata ricaricata in precedenza) agli <strong>ioni di litio</strong> (Li-ion), che nello stesso peso e volume possono contenere fino a 10 volte più energia.</p>
+
+<h3 id="-gli-alternatori--6831">🔹 Gli alternatori (⏱ 68:31)</h3>
+
+<p>L’<strong>alternatore</strong> è un generatore che produce corrente elettrica tramite il <strong>moto meccanico</strong>, sfruttando l’interazione di due campi magnetici. A differenza di pile e batterie, l’alternatore genera <strong>corrente alternata</strong>.</p>
+
+<p>Nell’automobile, la batteria fornisce energia per l’avviamento, poi l’alternatore — azionato dal motore — mantiene la batteria carica e alimenta l’impianto elettrico. La tensione alternata in uscita dall’alternatore viene <strong>raddrizzata</strong> (trasformata in continua) tramite componenti elettronici chiamati <strong>diodi</strong>. La batteria funge anche da elemento <strong>stabilizzatore</strong> della tensione dell’impianto.</p>
+
+<blockquote>
+  <p>“Le batterie erogano tensione continua e quindi corrente continua. L’alternatore genera corrente alternata.”</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-9-il-generatore-ideale-e-collegamenti-serieparallelo--7553">📊 9. Il generatore ideale e collegamenti serie/parallelo (⏱ 75:53)</h2>
+
+<h3 id="-generatore-ideale">🔹 Generatore ideale</h3>
+
+<p>Un <strong>generatore ideale</strong> è un generatore che mantiene la <strong>tensione di uscita costante</strong> al variare della corrente assorbita dal carico. Se genera 12 V, mantiene 12 V sia con 1 A che con 100 A di carico. Il generatore ideale <strong>non esiste</strong> nella realtà: tutti i generatori reali subiscono un leggero calo di tensione quando la corrente assorbita aumenta. È tuttavia un concetto teorico importante e possibile domanda d’esame.</p>
+
+<h3 id="-collegamento-in-parallelo--7703">🔹 Collegamento in parallelo (⏱ 77:03)</h3>
+
+<p>Mettendo generatori <strong>in parallelo</strong> (tutti devono avere la <strong>stessa tensione</strong>):</p>
+
+<ul>
+  <li>La <strong>tensione di uscita</strong> resta <strong>uguale</strong> a quella del singolo generatore</li>
+  <li>La <strong>corrente erogabile</strong> è la <strong>somma</strong> delle correnti dei singoli generatori</li>
+</ul>
+
+<p>Esempio: tre batterie da 1,5 V in parallelo erogano 1,5 V, ma con corrente tripla rispetto a una sola batteria.</p>
+
+<p>⚠️ <em>Attenzione</em>: non si possono mettere in parallelo generatori con tensioni diverse, pena il rischio di guasto.</p>
+
+<h3 id="-collegamento-in-serie--7843">🔹 Collegamento in serie (⏱ 78:43)</h3>
+
+<p>Mettendo generatori <strong>in serie</strong>:</p>
+
+<ul>
+  <li>La <strong>tensione di uscita</strong> è la <strong>somma</strong> delle tensioni dei singoli generatori</li>
+  <li>La <strong>corrente erogabile</strong> resta <strong>uguale</strong> a quella del singolo generatore</li>
+</ul>
+
+<blockquote>
+\[V_{totale} = V_1 + V_2 + \ldots + V_n\]
+</blockquote>
+
+<p>Esempio: due batterie da 1,5 V in serie erogano $1{,}5 + 1{,}5 = 3$ V. In pratica si usano generatori uguali per bilanciare lo sforzo.</p>
+
+<h3 id="-riepilogo-serie-vs-parallelo">🔹 Riepilogo serie vs parallelo</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Collegamento</th>
+      <th>Tensione</th>
+      <th>Corrente</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Serie</strong></td>
+      <td>Somma delle tensioni</td>
+      <td>Uguale al singolo</td>
+    </tr>
+    <tr>
+      <td><strong>Parallelo</strong></td>
+      <td>Uguale al singolo</td>
+      <td>Somma delle correnti</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="️-10-effetti-della-corrente-elettrica--10301">🛡️ 10. Effetti della corrente elettrica (⏱ 103:01)</h2>
+
+<h3 id="-effetto-fisiologico">🔹 Effetto fisiologico</h3>
+
+<p>La corrente elettrica attraversa il corpo umano causando la <strong>scossa elettrica</strong>. Il cervello comanda la muscolatura tramite impulsi elettrici dell’ordine dei millesimi di volt. Una corrente esterna di tensione elevata può provocare:</p>
+
+<ul>
+  <li><strong>Ustioni</strong> se la corrente è elevata</li>
+  <li><strong>Contrazioni muscolari</strong> involontarie, particolarmente pericolose quando coinvolgono il <strong>miocardio</strong> (muscolo cardiaco)</li>
+  <li><strong>Fibrillazione ventricolare</strong> — il cuore può fermarsi</li>
+  <li><strong>Paralisi respiratoria</strong></li>
+</ul>
+
+<p>Il rischio elettrico sarà approfondito in una lezione dedicata (14ª–15ª lezione).</p>
+
+<h3 id="-effetto-termico--effetto-joule--10517">🔹 Effetto termico — Effetto Joule (⏱ 105:17)</h3>
+
+<p>La corrente elettrica che scorre in un conduttore lo <strong>scalda</strong> sempre, producendo calore. Questo fenomeno è detto <strong>effetto Joule</strong>. Applicazioni pratiche:</p>
+
+<ul>
+  <li><strong>Stufette elettriche</strong>: l’energia elettrica si trasforma in energia termica</li>
+  <li><strong>Lampadine a incandescenza</strong> (ormai poco usate per il basso rendimento): un filamento percorso da corrente diventa incandescente ed emette luce</li>
+</ul>
+
+<p>Nella prossima lezione si imparerà a calcolare quanto scalda un conduttore.</p>
+
+<h3 id="-effetto-chimico--elettrolisi--10701">🔹 Effetto chimico — Elettrolisi (⏱ 107:01)</h3>
+
+<p>L’<strong>elettrolisi</strong> si verifica quando la corrente elettrica scorre in un liquido (es. acqua salata). La corrente ha il potere di <strong>scindere le sostanze chimiche</strong>: il sale (cloruro di sodio, NaCl) si divide in ioni sodio (Na⁺) e ioni cloro (Cl⁻), attratti dai rispettivi poli di segno opposto.</p>
+
+<p>⚠️ <em>Nota per l’esame</em>: l’effetto chimico non ha applicazione diretta nelle radio, ma il programma richiede che si conosca.</p>
+
+<h3 id="-effetto-magnetico--10846">🔹 Effetto magnetico (⏱ 108:46)</h3>
+
+<p>Un cavo elettrico percorso da corrente <strong>genera un campo magnetico</strong>. Questo fu scoperto da <strong>Hans Christian Ørsted</strong> nel 1800 circa, che notò come un ago di bussola deviasse in prossimità di un filo percorso da corrente. L’effetto magnetico è alla base del funzionamento di componenti elettronici come gli <strong>induttori</strong> (o <strong>bobine</strong>), che saranno oggetto di lezioni future.</p>
+
+<hr />
+
+<h2 id="-concept-map-testuale">🔗 Concept Map (testuale)</h2>
+
+<ul>
+  <li>Atomo → contiene → Protoni (carica +), Neutroni (neutri), Elettroni (carica −)</li>
+  <li>Elettroni liberi → costituiscono → Carica elettrica (misurata in coulomb)</li>
+  <li>Cariche uguali → si respingono; Cariche diverse → si attraggono</li>
+  <li>Carica elettrica → genera → Campo elettrico (rappresentato da linee di forza)</li>
+  <li>Differenza di potenziale (volt) → causa → Flusso di elettroni</li>
+  <li>Flusso di elettroni → è → Corrente elettrica (misurata in ampere)</li>
+  <li>Corrente continua → scorre → sempre nello stesso verso</li>
+  <li>Corrente alternata → inverte → periodicamente il verso</li>
+  <li>Potenza (watt) → è il prodotto di → Tensione (volt) × Corrente (ampere)</li>
+  <li>Energia (wattora) → è → Potenza × Tempo</li>
+  <li>Pile → generano corrente tramite → Reazione chimica irreversibile</li>
+  <li>Batterie/Accumulatori → generano corrente tramite → Reazione chimica reversibile</li>
+  <li>Alternatori → generano corrente tramite → Moto meccanico</li>
+  <li>Generatori in serie → aumentano → la tensione totale</li>
+  <li>Generatori in parallelo → aumentano → la corrente erogabile</li>
+  <li>Generatore ideale → mantiene → tensione costante al variare del carico</li>
+  <li>Corrente elettrica → produce → Effetto fisiologico, termico (Joule), chimico (elettrolisi), magnetico</li>
+</ul>
+
+<hr />
+
+<h2 id="-key-takeaways">📝 Key Takeaways</h2>
+
+<ol>
+  <li>
+    <p><strong>L’atomo</strong> è composto da protoni (carica positiva), neutroni (neutri) ed elettroni (carica negativa). Un atomo neutro ha ugual numero di protoni ed elettroni.</p>
+  </li>
+  <li>
+    <p><strong>I materiali conduttori</strong> (metalli: rame, oro, argento, alluminio, ferro) permettono il flusso di elettroni; i <strong>materiali isolanti</strong> (plastica, gomma, ceramica, aria) lo impediscono.</p>
+  </li>
+  <li>
+    <p><strong>Un coulomb</strong> è l’unità di misura della carica elettrica e corrisponde a $6{,}25 \times 10^{18}$ elettroni.</p>
+  </li>
+  <li>
+    <p><strong>La corrente elettrica</strong> è un flusso ordinato di elettroni, si misura in <strong>ampere</strong> (A), e 1 A = 1 C/s.</p>
+  </li>
+  <li>
+    <p><strong>La corrente continua</strong> scorre sempre nello stesso verso (dal polo negativo al positivo), ma la sua ampiezza può variare.</p>
+  </li>
+  <li>
+    <p><strong>La tensione</strong> (differenza di potenziale) si misura in <strong>volt</strong> (V) ed è la causa che fa scorrere la corrente.</p>
+  </li>
+  <li>
+    <p><strong>La potenza elettrica</strong> si calcola con $P = V \times I$ e si misura in <strong>watt</strong> (W). Le formule inverse sono $I = \frac{P}{V}$ e $V = \frac{P}{I}$.</p>
+  </li>
+  <li>
+    <p><strong>L’energia</strong> si misura in <strong>wattora</strong> (Wh) o kilowattora (kWh); la potenza indica quanta energia si trasforma per unità di tempo.</p>
+  </li>
+  <li>
+    <p>Le <strong>pile</strong> (non ricaricabili) e le <strong>batterie/accumulatori</strong> (ricaricabili) generano corrente continua; gli <strong>alternatori</strong> generano corrente alternata.</p>
+  </li>
+  <li>
+    <p>La <strong>capacità</strong> di una batteria si esprime in <strong>amperora</strong> (Ah): una batteria da 10 Ah eroga 1 A per 10 ore, oppure 2 A per 5 ore.</p>
+  </li>
+  <li>
+    <p><strong>Generatori in serie</strong>: la tensione si somma, la corrente resta invariata. <strong>In parallelo</strong>: la corrente si somma, la tensione resta invariata.</p>
+  </li>
+  <li>
+    <p>La corrente elettrica ha quattro effetti: <strong>fisiologico</strong> (scossa, rischio cardiaco), <strong>termico</strong> (effetto Joule), <strong>chimico</strong> (elettrolisi), <strong>magnetico</strong> (generazione di campo magnetico).</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-comprehension-questions">❓ Comprehension Questions</h2>
+
+<ol>
+  <li>
+    <p>Perché la corrente continua viene definita “continua” anche se la sua ampiezza può variare nel tempo? In che modo si distingue dalla corrente alternata?</p>
+  </li>
+  <li>
+    <p>Spiega l’analogia idraulica utilizzata per descrivere la differenza di potenziale. Come si comportano gli elettroni in modo analogo all’acqua tra due recipienti a diverso livello?</p>
+  </li>
+  <li>
+    <p>Una radio portatile da 5 W è alimentata con una batteria da 12 V e 10 Ah. Quanta corrente assorbe la radio? Per quanto tempo la batteria può alimentarla prima di scaricarsi? Giustifica ogni passaggio con le formule appropriate.</p>
+  </li>
+  <li>
+    <p>Perché non è possibile collegare in parallelo generatori con tensioni diverse, mentre è possibile collegarli in serie? Quali grandezze si sommano in ciascun tipo di collegamento?</p>
+  </li>
+  <li>
+    <p>Un radioamatore possiede una radio che eroga 120 W in antenna ma ne consuma circa il doppio dall’alimentatore. Se l’alimentatore fornisce 12 V, perché è consigliabile un alimentatore da almeno 25–30 A anziché uno da 20 A?</p>
+  </li>
+  <li>
+    <p>Qual è la differenza fondamentale tra una pila e un accumulatore? Perché le batterie al litio hanno rappresentato un progresso enorme rispetto a quelle al nichel-cadmio?</p>
+  </li>
+  <li>
+    <p>Descrivi i quattro effetti della corrente elettrica. Quale di questi è alla base del funzionamento delle stufette? E quale è alla base del funzionamento degli induttori?</p>
+  </li>
+  <li>
+    <p>In che modo l’effetto Joule è correlato al funzionamento delle vecchie lampadine a incandescenza? Perché queste lampadine hanno un rendimento basso?</p>
+  </li>
+  <li>
+    <p>Che cos’è un generatore ideale? Perché nella realtà non esiste? Qual è la sua importanza come concetto teorico?</p>
+  </li>
+  <li>
+    <p>Nell’automobile, la batteria e l’alternatore lavorano insieme. Spiega il ruolo di ciascuno e perché l’alternatore deve essere seguito da un circuito raddrizzatore.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-glossary">📚 Glossary</h2>
+
+<ul>
+  <li><strong>Accumulatore (batteria)</strong> — Generatore elettrochimico con reazione chimica reversibile, ricaricabile. Caratterizzato da tensione e capacità (Ah).</li>
+  <li><strong>Alternatore</strong> — Generatore di corrente alternata basato sul moto meccanico e l’interazione di campi magnetici.</li>
+  <li><strong>Amperora (Ah)</strong> — Unità di misura della capacità di una batteria. Indica quanta corrente può fornire per quanto tempo prima di scaricarsi.</li>
+  <li><strong>Ampere (A)</strong> — Unità di misura dell’intensità di corrente elettrica. 1 A = 1 C/s.</li>
+  <li><strong>Atomo</strong> — Particella fondamentale della materia, composta da protoni, neutroni ed elettroni.</li>
+  <li><strong>Campo elettrico</strong> — Zona di spazio in cui si avvertono gli effetti di una o più cariche elettriche.</li>
+  <li><strong>Campo elettromagnetico</strong> — Campo generato dall’antenna di una radio durante la trasmissione.</li>
+  <li><strong>Carica elettrica</strong> — Proprietà fondamentale delle particelle subatomiche; si misura in coulomb.</li>
+  <li><strong>Conduttore</strong> — Materiale in cui gli elettroni possono muoversi facilmente (es. rame, oro, argento, alluminio, ferro).</li>
+  <li><strong>Corrente alternata (CA)</strong> — Corrente che inverte periodicamente il verso di scorrimento.</li>
+  <li><strong>Corrente continua (CC)</strong> — Corrente che scorre sempre nello stesso verso, dal polo negativo al positivo.</li>
+  <li><strong>Corrente elettrica</strong> — Spostamento ordinato di cariche elettriche (elettroni).</li>
+  <li><strong>Coulomb (C)</strong> — Unità di misura della carica elettrica. 1 C = $6{,}25 \times 10^{18}$ elettroni.</li>
+  <li><strong>Diodo</strong> — Componente elettronico usato per raddrizzare la corrente alternata in corrente continua.</li>
+  <li><strong>Differenza di potenziale</strong> — Differenza di “livello” elettrico fra due punti; sinonimo pratico di tensione.</li>
+  <li><strong>Effetto Joule</strong> — Riscaldamento di un conduttore causato dal passaggio di corrente elettrica.</li>
+  <li><strong>Elettrolisi</strong> — Scissione di sostanze chimiche in un liquido per effetto della corrente elettrica.</li>
+  <li><strong>Elettrone</strong> — Particella subatomica con carica negativa; il suo movimento costituisce la corrente elettrica.</li>
+  <li><strong>Energia elettrica</strong> — Capacità di compiere un lavoro; si misura in wattora (Wh) o kilowattora (kWh).</li>
+  <li><strong>Fusibile</strong> — Dispositivo di protezione che fonde quando la corrente supera un valore limite.</li>
+  <li><strong>Generatore ideale</strong> — Generatore teorico che mantiene la tensione di uscita costante indipendentemente dalla corrente assorbita.</li>
+  <li><strong>Induttore (bobina)</strong> — Componente elettronico che sfrutta l’effetto magnetico della corrente.</li>
+  <li><strong>Ione</strong> — Atomo che ha perso o acquisito elettroni, diventando carico positivamente o negativamente.</li>
+  <li><strong>Isolante</strong> — Materiale in cui gli elettroni sono fortemente vincolati e non possono muoversi (es. plastica, gomma, ceramica, aria).</li>
+  <li><strong>Joule (J)</strong> — Unità di misura del lavoro e dell’energia.</li>
+  <li><strong>Kilowattora (kWh)</strong> — Unità di misura dell’energia; 1 kWh = 1000 Wh.</li>
+  <li><strong>Linee di forza</strong> — Rappresentazione grafica del campo elettrico che mostra la direzione delle forze.</li>
+  <li><strong>Milliamperora (mAh)</strong> — Sottomultiplo dell’amperora; usato per pile e piccole batterie.</li>
+  <li><strong>Neutrone</strong> — Particella subatomica elettricamente neutra, presente nel nucleo dell’atomo.</li>
+  <li><strong>Nucleo</strong> — Parte centrale dell’atomo, contenente protoni e neutroni.</li>
+  <li><strong>Pila</strong> — Generatore elettrochimico con reazione chimica irreversibile, non ricaricabile.</li>
+  <li><strong>Potenza elettrica (P)</strong> — Quantità di energia trasformata nell’unità di tempo; si misura in watt (W). $P = V \times I$.</li>
+  <li><strong>Protone</strong> — Particella subatomica con carica positiva, presente nel nucleo dell’atomo.</li>
+  <li><strong>Tensione (V)</strong> — Differenza di potenziale fra due punti; si misura in volt (V). È la forza che fa scorrere la corrente.</li>
+  <li><strong>Volt (V)</strong> — Unità di misura della tensione. Prende il nome da Alessandro Volta.</li>
+  <li><strong>Watt (W)</strong> — Unità di misura della potenza. 1 W = 1 J/s.</li>
+  <li><strong>Wattora (Wh)</strong> — Unità di misura dell’energia. 1 Wh = consumo di 1 W per 1 ora.</li>
+</ul>
+
+<hr />
+
+<h2 id="-partecipanti">👥 Partecipanti</h2>
+
+<ul>
+  <li>👨‍🏫 <strong>Relatore</strong>: Paolo — docente del corso, esperto radioamatore</li>
+</ul>
+
+<hr />
+
+<h2 id="-informazioni-lezione">📅 Informazioni Lezione</h2>
+
+<ul>
+  <li><strong>Numero Lezione</strong>: 01</li>
+  <li><strong>Data</strong>: 05/03/2025</li>
+  <li><strong>Durata</strong>: Circa 2 ore (incluse pause e Q&amp;A)</li>
+  <li><strong>Argomenti Trattati</strong>: 10 (atomo, carica, campo elettrico, corrente, tensione, energia, potenza, formule, generatori, effetti della corrente)</li>
+  <li><strong>Keywords</strong>: corrente continua, tensione, volt, ampere, watt, potenza, energia, coulomb, atomo, elettrone, protone, conduttore, isolante, pila, batteria, accumulatore, alternatore, serie, parallelo, generatore ideale, effetto Joule, elettrolisi, campo magnetico, campo elettrico, formula $P = V \times I$</li>
+</ul>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
+  </footer>
+  <script>
+    const LESSON_SEARCH_PAGES = [
+      
+      
+      { title: "📘 Lezione 01 - Introduzione al Corso", url: "/ari-crt-corso-2025/guide-studio/lezione_01.html" },
+      
+      { title: "📘 Lezione 02 - Fondamenti di Elettrotecnica", url: "/ari-crt-corso-2025/guide-studio/lezione_02.html" },
+      
+      { title: "📘 Lezione 03 - Circuiti Elettrici", url: "/ari-crt-corso-2025/guide-studio/lezione_03.html" },
+      
+      { title: "📘 Lezione 04 - Corrente Alternata", url: "/ari-crt-corso-2025/guide-studio/lezione_04.html" },
+      
+      { title: "📘 Lezione 05 - Componenti Elettronici", url: "/ari-crt-corso-2025/guide-studio/lezione_05.html" },
+      
+      { title: "📘 Lezione 06 - Semiconduttori", url: "/ari-crt-corso-2025/guide-studio/lezione_06.html" },
+      
+      { title: "📘 Lezione 07 - Amplificatori", url: "/ari-crt-corso-2025/guide-studio/lezione_07.html" },
+      
+      { title: "📘 Lezione 08 - Oscillatori", url: "/ari-crt-corso-2025/guide-studio/lezione_08.html" },
+      
+      { title: "📘 Lezione 09 - Modulazione", url: "/ari-crt-corso-2025/guide-studio/lezione_09.html" },
+      
+      { title: "📘 Lezione 10 - Ricevitori", url: "/ari-crt-corso-2025/guide-studio/lezione_10.html" },
+      
+      { title: "📘 Lezione 11 - Trasmettitori", url: "/ari-crt-corso-2025/guide-studio/lezione_11.html" },
+      
+      { title: "📘 Lezione 12 - Propagazione", url: "/ari-crt-corso-2025/guide-studio/lezione_12.html" },
+      
+      { title: "📘 Lezione 13 - Antenne - Parte 1", url: "/ari-crt-corso-2025/guide-studio/lezione_13.html" },
+      
+      { title: "📘 Lezione 14 - Antenne - Parte 2", url: "/ari-crt-corso-2025/guide-studio/lezione_14.html" },
+      
+      { title: "📘 Lezione 15 - Linee di Trasmissione", url: "/ari-crt-corso-2025/guide-studio/lezione_15.html" },
+      
+      { title: "📘 Lezione 16 - Misure e Strumenti", url: "/ari-crt-corso-2025/guide-studio/lezione_16.html" },
+      
+      { title: "📘 Lezione 17 - Serata Speciale", url: "/ari-crt-corso-2025/guide-studio/lezione_17.html" },
+      
+      { title: "📘 Lezione 18 - Interferenze e EMC", url: "/ari-crt-corso-2025/guide-studio/lezione_18.html" },
+      
+      { title: "📘 Lezione 19 - Sicurezza Elettrica", url: "/ari-crt-corso-2025/guide-studio/lezione_19.html" },
+      
+      { title: "📘 Lezione 20 - Normative Nazionali", url: "/ari-crt-corso-2025/guide-studio/lezione_20.html" },
+      
+      { title: "📘 Lezione 21 - Normative Internazionali", url: "/ari-crt-corso-2025/guide-studio/lezione_21.html" },
+      
+      { title: "📘 Lezione 22 - Procedure Operative", url: "/ari-crt-corso-2025/guide-studio/lezione_22.html" }
+      
+    ];
+
+    const lessonSearchCache = new Map();
+
+    function stripAndNormalize(text) {
+      return text.replace(/\s+/g, ' ').trim();
+    }
+
+    function getSnippet(text, query) {
+      const lowerText = text.toLowerCase();
+      const lowerQuery = query.toLowerCase();
+      const index = lowerText.indexOf(lowerQuery);
+      if (index === -1) {
+        return text.slice(0, 180) + (text.length > 180 ? '…' : '');
+      }
+      const start = Math.max(0, index - 70);
+      const end = Math.min(text.length, index + query.length + 90);
+      const prefix = start > 0 ? '…' : '';
+      const suffix = end < text.length ? '…' : '';
+      return prefix + text.slice(start, end) + suffix;
+    }
+
+    async function getLessonText(url) {
+      if (lessonSearchCache.has(url)) {
+        return lessonSearchCache.get(url);
+      }
+      const response = await fetch(url, { credentials: 'same-origin' });
+      if (!response.ok) {
+        lessonSearchCache.set(url, '');
+        return '';
+      }
+      const html = await response.text();
+      const doc = new DOMParser().parseFromString(html, 'text/html');
+      const sourceText = doc.querySelector('main')?.innerText || doc.body?.innerText || '';
+      const normalized = stripAndNormalize(sourceText);
+      lessonSearchCache.set(url, normalized);
+      return normalized;
+    }
+
+    function renderSearchResults(query, results, failedCount) {
+      const container = document.getElementById('global-search-results');
+      if (!container) {
+        return;
+      }
+      if (!results.length) {
+        container.innerHTML = '<h3>Risultati ricerca</h3><p class="global-search-empty">Nessun risultato trovato nelle lezioni.</p>';
+        if (failedCount > 0) {
+          container.innerHTML += '<p class="global-search-empty">Alcune lezioni non sono state lette: riprova tra qualche secondo.</p>';
+        }
+        container.hidden = false;
+        return;
+      }
+
+      const listItems = results.map((result) => {
+        return '<li><a href="' + result.url + '">' + result.title + '</a><p>' + result.snippet + '</p></li>';
+      }).join('');
+
+      container.innerHTML = '<h3>Risultati ricerca per “' + query + '” (' + results.length + ')</h3><ul>' + listItems + '</ul>';
+      if (failedCount > 0) {
+        container.innerHTML += '<p class="global-search-empty">Alcune lezioni non sono state lette: riprova tra qualche secondo.</p>';
+      }
+      container.hidden = false;
+    }
+
+    async function runGlobalLessonSearch() {
+      const input = document.getElementById('global-search-input');
+      const button = document.getElementById('global-search-button');
+      const resultsBox = document.getElementById('global-search-results');
+      if (!input || !button || !resultsBox) {
+        return;
+      }
+
+      const query = input.value.trim();
+      if (!query) {
+        resultsBox.hidden = true;
+        resultsBox.innerHTML = '';
+        return;
+      }
+
+      button.disabled = true;
+      button.textContent = '⏳ Cerco...';
+
+      const results = [];
+      let failedCount = 0;
+
+      for (const lesson of LESSON_SEARCH_PAGES) {
+        try {
+          const text = await getLessonText(lesson.url);
+          if (!text) {
+            failedCount += 1;
+            continue;
+          }
+          if (text.toLowerCase().includes(query.toLowerCase())) {
+            results.push({
+              title: lesson.title,
+              url: lesson.url,
+              snippet: getSnippet(text, query)
+            });
+          }
+        } catch (_error) {
+          failedCount += 1;
+        }
+      }
+
+      renderSearchResults(query, results, failedCount);
+
+      button.disabled = false;
+      button.textContent = '🔍 Cerca';
+    }
+
+    document.getElementById('global-search-button')?.addEventListener('click', runGlobalLessonSearch);
+    document.getElementById('global-search-input')?.addEventListener('keydown', function (event) {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        runGlobalLessonSearch();
+      }
+    });
+  </script>
+</body>
+</html>
