@@ -4,10 +4,7 @@
 
 Il repository pubblica un portale statico Jekyll i cui sorgenti pubblicati sono raccolti nella cartella [`site/`](../site/).
 
-La pubblicazione è automatica su due destinazioni:
-
-- GitHub Pages tramite branch `gh-pages`
-- Cloudflare Pages tramite branch `cf-pages`
+La pubblicazione automatica del sito avviene direttamente da `main` verso GitHub Pages tramite GitHub Actions, senza branch di output dedicati.
 
 La pipeline attiva è [`.github/workflows/sync-gh-pages.yml`](../.github/workflows/sync-gh-pages.yml).
 
@@ -25,7 +22,7 @@ La pipeline attiva è [`.github/workflows/sync-gh-pages.yml`](../.github/workflo
 ### Configurazioni di build
 
 - [`site/_config.yml`](../site/_config.yml) — configurazione GitHub Pages
-- [`site/_config.cloudflare.yml`](../site/_config.cloudflare.yml) — configurazione Cloudflare Pages
+- [`site/_config.cloudflare.yml`](../site/_config.cloudflare.yml) — configurazione disponibile per build Cloudflare esterne alla workflow GitHub
 
 ### Layout attivo
 
@@ -38,12 +35,9 @@ Il file `/_layouts.default.html` in root non fa parte della build pubblicata ed 
 La workflow esegue questi passaggi:
 
 1. legge direttamente i sorgenti da `site/`
-2. genera una build Jekyll per GitHub Pages in `.site-gh/`
-3. pubblica il risultato su `gh-pages`
-4. crea una copia temporanea dei sorgenti per la variante Cloudflare
-5. sostituisce la configurazione con quella Cloudflare nella copia temporanea
-6. genera una build Jekyll per Cloudflare in `.site-cf/`
-7. pubblica il risultato su `cf-pages`
+2. genera una build Jekyll per GitHub Pages in `.site/`
+3. carica l'artefatto della build
+4. pubblica direttamente l'artefatto su GitHub Pages
 
 ## Funzionalità già presenti nel portale
 
@@ -68,7 +62,7 @@ Questi contenuti restano nel repository ma non entrano nel sito finale:
 ## Note operative
 
 - il branch autorevole rimane `main`
-- `gh-pages` e `cf-pages` sono branch di output generati dalla workflow
+- `gh-pages` e `cf-pages` non sono piu necessari
 - eventuali modifiche al sito vanno fatte nei file sotto `site/` su `main`, non nei branch pubblicati
 
 ## Documentazione utile

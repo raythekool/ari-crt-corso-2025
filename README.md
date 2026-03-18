@@ -15,6 +15,7 @@ Documentazione tecnica del portale:
 - [Stato implementazione del portale](docs/WEBSITE_IMPLEMENTATION_SUMMARY.md)
 
 I sorgenti pubblicati del sito si trovano nella cartella `site/`.
+La pubblicazione GitHub Pages avviene direttamente da `main` tramite GitHub Actions, senza branch di output dedicati.
 
 ## 📹 Registrazioni Lezioni
 
