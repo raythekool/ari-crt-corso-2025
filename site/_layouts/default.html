@@ -374,6 +374,58 @@
       <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
     </footer>
     <script>
+      const CLOUDFLARE_HOSTNAME = 'ari-crt-corso-2025.pages.dev';
+      const GITHUB_PAGES_ORIGIN = 'https://raythekool.github.io';
+      const GITHUB_PAGES_BASE_PATH = '/ari-crt-corso-2025';
+
+      function isCloudflarePagesHost() {
+        return window.location.hostname === CLOUDFLARE_HOSTNAME;
+      }
+
+      function getFallbackLessonUrl(rawUrl) {
+        if (!rawUrl) {
+          return rawUrl;
+        }
+
+        const url = new URL(rawUrl, window.location.origin);
+        if (!/\/guide-studio\/lezione_\d+\.html$/.test(url.pathname)) {
+          return url.toString();
+        }
+
+        if (!isCloudflarePagesHost()) {
+          return url.toString();
+        }
+
+        return GITHUB_PAGES_ORIGIN + GITHUB_PAGES_BASE_PATH + url.pathname;
+      }
+
+      function rewriteLessonLinks(root = document) {
+        if (!isCloudflarePagesHost()) {
+          return;
+        }
+
+        const links = root.querySelectorAll('a[href]');
+        for (const link of links) {
+          const href = link.getAttribute('href') || '';
+          const rewrittenHref = getFallbackLessonUrl(href);
+          if (rewrittenHref !== new URL(href, window.location.origin).toString()) {
+            link.setAttribute('href', rewrittenHref);
+          }
+        }
+
+        const select = document.getElementById('lesson-jump');
+        if (!select) {
+          return;
+        }
+
+        for (const option of select.options) {
+          if (!option.value) {
+            continue;
+          }
+          option.value = getFallbackLessonUrl(option.value);
+        }
+      }
+
       const LESSON_SEARCH_PAGES = [
         {% assign lesson_pages_for_search = site.pages | where_exp: "p", "p.url contains '/guide-studio/lezione_'" | sort: "url" %}
         {% for lesson in lesson_pages_for_search %}
@@ -385,6 +437,19 @@
 
       function stripAndNormalize(text) {
         return text.replace(/\s+/g, ' ').trim();
+      }
+
+      function getCloudflareTitleOnlyResults(query) {
+        const normalizedQuery = query.toLowerCase();
+        return LESSON_SEARCH_PAGES
+          .filter((lesson) => lesson.title.toLowerCase().includes(normalizedQuery))
+          .map((lesson) => {
+            return {
+              title: lesson.title,
+              url: getFallbackLessonUrl(lesson.url),
+              snippet: 'Ricerca limitata ai titoli su Cloudflare Pages. La lezione completa viene aperta su GitHub Pages.'
+            };
+          });
       }
 
       function getSnippet(text, query) {
@@ -440,6 +505,7 @@
         if (failedCount > 0) {
           container.innerHTML += '<p class="global-search-empty">Alcune lezioni non sono state lette: riprova tra qualche secondo.</p>';
         }
+        rewriteLessonLinks(container);
         container.hidden = false;
       }
 
@@ -455,6 +521,11 @@
         if (!query) {
           resultsBox.hidden = true;
           resultsBox.innerHTML = '';
+          return;
+        }
+
+        if (isCloudflarePagesHost()) {
+          renderSearchResults(query, getCloudflareTitleOnlyResults(query), 0);
           return;
         }
 
@@ -507,6 +578,7 @@
           runGlobalLessonSearch();
         }
       });
+      rewriteLessonLinks();
       makeYouTubeLinksOpenInNewTab();
     </script>
   </body>
