@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Guide di Studio
+permalink: /guide-studio/index.html
 ---
 
 # 📖 Guide di Studio

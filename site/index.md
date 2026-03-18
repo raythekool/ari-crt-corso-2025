@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+permalink: /index.html
 ---
 
 # 📻 Corso Radioamatori ARI Toscana CRT 2025

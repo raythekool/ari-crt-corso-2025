@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Domande d'Esame
+permalink: /domande-esame.html
 ---
 
 # ❓ Domande d'Esame

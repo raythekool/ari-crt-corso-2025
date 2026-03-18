@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Risorse Aggiuntive
+permalink: /risorse.html
 ---
 
 # 📚 Risorse Aggiuntive

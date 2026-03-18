@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Glossario Completo
+permalink: /glossario.html
 ---
 
 # 📚 Glossario Completo del Corso
