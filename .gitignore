@@ -417,10 +417,6 @@ FodyWeavers.xsd
 
 # Playwright / visual verification artifacts
 .playwright-mcp/
-desktop-responsive-test.png
-mobile-responsive-test.png
-formula-check.png
-formula-rendered.png
 
 # Windows Installer files from build outputs
 *.cab
