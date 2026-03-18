@@ -59,8 +59,8 @@ Ogni guida di studio include:
 
 ## 📚 Guide Cronologiche
 
-| N°                  | Titolo                       | Argomento Principale               |
-| ------------------- | ---------------------------- | ---------------------------------- |
+| N°                    | Titolo                       | Argomento Principale               |
+| --------------------- | ---------------------------- | ---------------------------------- |
 | [01](lezione_01.html) | Introduzione al Corso        | Panoramica generale                |
 | [02](lezione_02.html) | Fondamenti di Elettrotecnica | Leggi di Ohm, Kirchhoff            |
 | [03](lezione_03.html) | Circuiti Elettrici           | Serie, parallelo, misti            |
