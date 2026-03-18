@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📘 Lezione 17 - Serata Speciale
 
 ## 📌 Overview

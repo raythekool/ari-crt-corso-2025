@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📘 Lezione 09 - Modulazione
 
 ## 📌 Overview

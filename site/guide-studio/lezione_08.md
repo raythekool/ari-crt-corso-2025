@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📘 Lezione 08 - Oscillatori
 
 ## 📌 Overview

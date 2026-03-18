@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📘 Lezione 07 - Amplificatori
 
 ## 📌 Overview

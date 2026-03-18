@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📘 Lezione 03 - Circuiti Elettrici
 
 ## 📌 Overview

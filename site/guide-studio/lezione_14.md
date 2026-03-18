@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📘 Lezione 14 - Antenne - Parte 2
 
 ## 📌 Overview

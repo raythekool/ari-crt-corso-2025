@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📘 Lezione 05 - Componenti Elettronici
 
 ## 📌 Overview

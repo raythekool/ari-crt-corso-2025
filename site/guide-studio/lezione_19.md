@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📘 Lezione 19 - Sicurezza Elettrica
 
 ## 📌 Overview

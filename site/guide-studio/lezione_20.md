@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📘 Lezione 20 - Normative Nazionali
 
 ## 📌 Overview

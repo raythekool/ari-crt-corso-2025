@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📘 Lezione 02 - Fondamenti di Elettrotecnica
 
 ## 📌 Overview

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📘 Lezione 11 - Trasmettitori
 
 ## 📌 Overview

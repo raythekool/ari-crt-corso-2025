@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📘 Lezione 22 - Procedure Operative
 
 ## 📌 Overview

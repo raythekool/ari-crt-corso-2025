@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📘 Lezione 06 - Semiconduttori
 
 ## 📌 Overview

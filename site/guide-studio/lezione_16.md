@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📘 Lezione 16 - Misure e Strumenti
 
 ## 📌 Overview

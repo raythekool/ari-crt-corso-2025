@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📘 Lezione 01 - Introduzione al Corso
 
 ## 📌 Overview

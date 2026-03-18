@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📘 Lezione 21 - Normative Internazionali
 
 ## 📌 Overview

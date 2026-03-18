@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📘 Lezione 15 - Linee di Trasmissione
 
 ## 📌 Overview

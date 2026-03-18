@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 📘 Lezione 18 - Interferenze e EMC
 
 ## 📌 Overview
