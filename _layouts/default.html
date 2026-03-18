@@ -360,13 +360,7 @@
           {% for lesson in lesson_pages %}
           <option
             value="{{ lesson.url | relative_url }}"
-            {%
-            if
-            lesson.url=""
-            ="page.url"
-            %}selected{%
-            endif
-            %}
+              {% if lesson.url == page.url %}selected{% endif %}
           >
             {{ lesson.title }}
           </option>
