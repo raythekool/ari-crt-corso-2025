@@ -31,7 +31,7 @@ Le domande sono suddivise in tre argomenti principali:
 - Corrente alternata e continua
 - Impedenza, reattanza, risonanza
 
-**Lezioni correlate**: [02](guide-studio/lezione_02.md), [03](guide-studio/lezione_03.md), [04](guide-studio/lezione_04.md)
+**Lezioni correlate**: [02](guide-studio/lezione_02.html), [03](guide-studio/lezione_03.html), [04](guide-studio/lezione_04.html)
 
 ### 2. Componenti Elettronici
 
@@ -40,7 +40,7 @@ Le domande sono suddivise in tre argomenti principali:
 - Transistor e amplificatori
 - Circuiti integrati
 
-**Lezioni correlate**: [05](guide-studio/lezione_05.md), [06](guide-studio/lezione_06.md), [07](guide-studio/lezione_07.md)
+**Lezioni correlate**: [05](guide-studio/lezione_05.html), [06](guide-studio/lezione_06.html), [07](guide-studio/lezione_07.html)
 
 ### 3. Circuiti RF
 
@@ -49,7 +49,7 @@ Le domande sono suddivise in tre argomenti principali:
 - Amplificatori RF
 - Modulazione (AM, FM, SSB)
 
-**Lezioni correlate**: [08](guide-studio/lezione_08.md), [09](guide-studio/lezione_09.md), [10](guide-studio/lezione_10.md), [11](guide-studio/lezione_11.md)
+**Lezioni correlate**: [08](guide-studio/lezione_08.html), [09](guide-studio/lezione_09.html), [10](guide-studio/lezione_10.html), [11](guide-studio/lezione_11.html)
 
 ### 4. Propagazione e Antenne
 
@@ -59,7 +59,7 @@ Le domande sono suddivise in tre argomenti principali:
 - Diagrammi di radiazione
 - Linee di trasmissione e ROS
 
-**Lezioni correlate**: [12](guide-studio/lezione_12.md), [13](guide-studio/lezione_13.md), [14](guide-studio/lezione_14.md), [15](guide-studio/lezione_15.md)
+**Lezioni correlate**: [12](guide-studio/lezione_12.html), [13](guide-studio/lezione_13.html), [14](guide-studio/lezione_14.html), [15](guide-studio/lezione_15.html)
 
 ### 5. Misure e Strumenti
 
@@ -69,7 +69,7 @@ Le domande sono suddivise in tre argomenti principali:
 - Analizzatore di spettro
 - Grid-dip meter
 
-**Lezioni correlate**: [16](guide-studio/lezione_16.md)
+**Lezioni correlate**: [16](guide-studio/lezione_16.html)
 
 ### 6. Interferenze e Sicurezza
 
@@ -79,7 +79,7 @@ Le domande sono suddivise in tre argomenti principali:
 - Sicurezza elettrica
 - Limiti di esposizione RF
 
-**Lezioni correlate**: [18](guide-studio/lezione_18.md), [19](guide-studio/lezione_19.md)
+**Lezioni correlate**: [18](guide-studio/lezione_18.html), [19](guide-studio/lezione_19.html)
 
 ### 7. Normative
 
@@ -89,7 +89,7 @@ Le domande sono suddivise in tre argomenti principali:
 - Bande e potenze assegnate
 - Obblighi del radioamatore
 
-**Lezioni correlate**: [20](guide-studio/lezione_20.md), [21](guide-studio/lezione_21.md)
+**Lezioni correlate**: [20](guide-studio/lezione_20.html), [21](guide-studio/lezione_21.html)
 
 ### 8. Procedure Operative
 
@@ -99,7 +99,7 @@ Le domande sono suddivise in tre argomenti principali:
 - Contest e DX
 - Emergenze e protezione civile
 
-**Lezioni correlate**: [22](guide-studio/lezione_22.md)
+**Lezioni correlate**: [22](guide-studio/lezione_22.html)
 
 ## 📝 Esempi di Domande Tipiche
 

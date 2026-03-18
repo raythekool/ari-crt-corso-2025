@@ -6,15 +6,8 @@ description: "Materiale didattico e guide di studio per il corso aspiranti radio
 baseurl: ""
 url: "https://ari-crt-corso-2025.pages.dev"
 
-# Theme
-theme: jekyll-theme-cayman
-remote_theme: pages-themes/cayman@v0.2.0
-
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-relative-links
-  - jekyll-seo-tag
 
 # Defaults
 defaults:

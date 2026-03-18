@@ -4,15 +4,8 @@ description: "Materiale didattico e guide di studio per il corso aspiranti radio
 baseurl: "/ari-crt-corso-2025"
 url: "https://raythekool.github.io"
 
-# Theme
-theme: jekyll-theme-cayman
-remote_theme: pages-themes/cayman@v0.2.0
-
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-relative-links
-  - jekyll-seo-tag
 
 # Defaults
 defaults:

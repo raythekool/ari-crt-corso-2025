@@ -160,7 +160,7 @@ Glossario completo dei termini tecnici utilizzati nel corso di radioamatori.
 ## 📖 Risorse Correlate
 
 - [Guide di Studio](guide-studio/)
-- [Domande d'Esame](domande-esame.md)
+- [Domande d'Esame](domande-esame.html)
 
 ---
 
