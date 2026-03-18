@@ -1,0 +1,150 @@
+# 🚀 Setup GitHub Pages e Cloudflare Pages
+
+Questa guida descrive la configurazione attuale del portale del corso e come mantenerla operativa.
+
+## 📋 Architettura di pubblicazione
+
+Il repository `main` contiene materiali pubblici e materiali interni/non pubblicati.
+
+La pubblicazione non usa l'intero repository: la workflow [`.github/workflows/sync-gh-pages.yml`](../.github/workflows/sync-gh-pages.yml) crea una cartella temporanea `.publish/` con una whitelist di file e cartelle, poi genera due siti statici separati:
+
+- branch `gh-pages` per GitHub Pages
+- branch `cf-pages` per Cloudflare Pages
+
+## 📦 Contenuti effettivamente pubblicati
+
+La pipeline copia in `.publish/` solo:
+
+- `index.md`
+- `glossario.md`
+- `domande-esame.md`
+- `risorse.md`
+- `guide-studio/`
+- `_config.yml`
+- `_config.cloudflare.yml`
+- `_layouts/default.html`
+
+Non vengono pubblicati:
+
+- `transcripts/`
+- `transcripts (vtt)/`
+- `docs/`
+- `README.md`
+- `LICENSE`
+- `requirements.txt`
+- file di test o artefatti locali
+
+## 🔧 GitHub Pages
+
+### Configurazione richiesta
+
+1. Vai in **Settings → Pages** del repository.
+2. Imposta come sorgente il branch `gh-pages`.
+3. Imposta la cartella pubblicata su `/ (root)`.
+
+### URL atteso
+
+- `https://raythekool.github.io/ari-crt-corso-2025/`
+
+### Configurazione Jekyll usata
+
+Il build GitHub Pages usa [`_config.yml`](../_config.yml) con:
+
+- `url: "https://raythekool.github.io"`
+- `baseurl: "/ari-crt-corso-2025"`
+
+## ☁️ Cloudflare Pages
+
+### Configurazione richiesta
+
+1. Vai in **Cloudflare Dashboard → Workers & Pages**.
+2. Crea o apri il progetto Pages collegato al repository.
+3. Imposta come branch di produzione `cf-pages`.
+4. Usa queste impostazioni:
+   - **Framework preset**: `None`
+   - **Build command**: vuoto
+   - **Build output directory**: `.`
+
+### URL atteso
+
+- `https://ari-crt-corso-2025.pages.dev/`
+
+### Configurazione Jekyll usata
+
+Il build Cloudflare Pages sostituisce `_config.yml` con [`_config.cloudflare.yml`](../_config.cloudflare.yml), che usa:
+
+- `url: "https://ari-crt-corso-2025.pages.dev"`
+- `baseurl: ""`
+
+Quindi su Cloudflare gli URL sono pubblicati alla root, senza il prefisso `/ari-crt-corso-2025/`.
+
+## 🔄 Flusso di deploy
+
+Ogni push su `main` esegue questa sequenza:
+
+1. checkout del branch `main`
+2. creazione della cartella `.publish/` con i soli contenuti pubblici
+3. build Jekyll GitHub Pages in `.site-gh/`
+4. deploy del risultato nel branch `gh-pages`
+5. sostituzione config con `_config.cloudflare.yml`
+6. build Jekyll Cloudflare Pages in `.site-cf/`
+7. deploy del risultato nel branch `cf-pages`
+
+È possibile rilanciare manualmente la workflow con `workflow_dispatch` dalla tab Actions.
+
+## ✅ Verifiche consigliate dopo ogni deploy
+
+Controlla almeno:
+
+- home del sito GitHub Pages
+- home del sito Cloudflare Pages
+- indice guide di studio
+- una o due lezioni campione
+- assenza di link a `transcripts/` nel sito pubblico
+- corretto caricamento del layout e della navigazione
+
+Per la modifica recente dei video YouTube, verifica che i link video si aprano in una nuova scheda.
+
+## 🧪 Test locale opzionale
+
+Per provare Jekyll localmente:
+
+```powershell
+gem install bundler jekyll
+
+@"
+source 'https://rubygems.org'
+gem 'github-pages', group: :jekyll_plugins
+"@ | Out-File -FilePath Gemfile
+
+bundle install
+bundle exec jekyll serve
+```
+
+Per simulare il sito GitHub Pages, usa `_config.yml`.
+Per simulare la variante Cloudflare, usa `_config.cloudflare.yml`.
+
+## 🐛 Troubleshooting
+
+### Il sito non si aggiorna
+
+- verifica che la workflow su `main` sia partita
+- controlla se `gh-pages` e `cf-pages` puntano al commit di deploy più recente
+- se necessario, rilancia la workflow manualmente
+
+### GitHub Pages aggiornato ma Cloudflare no
+
+- verifica che Cloudflare Pages stia leggendo davvero il branch `cf-pages`
+- controlla che Cloudflare non stia servendo una cache vecchia
+- confronta l'HTML pubblicato su `cf-pages` con quello atteso dal layout corrente
+
+### Link interni errati
+
+- GitHub Pages usa `baseurl: /ari-crt-corso-2025`
+- Cloudflare usa `baseurl: ""`
+- i link interni devono sempre passare da `relative_url` o essere relativi al contenuto Markdown
+
+## 📚 Documentazione correlata
+
+- [Panoramica implementazione sito](WEBSITE_IMPLEMENTATION_SUMMARY.md)
+- [README del repository](../README.md)

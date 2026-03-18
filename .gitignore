@@ -410,6 +410,18 @@ FodyWeavers.xsd
 # Built Visual Studio Code Extensions
 *.vsix
 
+# Local static-site build artifacts
+.publish/
+.site-gh/
+.site-cf/
+
+# Playwright / visual verification artifacts
+.playwright-mcp/
+desktop-responsive-test.png
+mobile-responsive-test.png
+formula-check.png
+formula-rendered.png
+
 # Windows Installer files from build outputs
 *.cab
 *.msi

@@ -2,6 +2,18 @@
 
 Materiale del corso aspiranti radioamatori ARI Toscana CRT 2025.
 
+## 🌐 Portale del corso
+
+Portale pubblico:
+
+- GitHub Pages: [https://raythekool.github.io/ari-crt-corso-2025/](https://raythekool.github.io/ari-crt-corso-2025/)
+- Cloudflare Pages: [https://ari-crt-corso-2025.pages.dev/](https://ari-crt-corso-2025.pages.dev/)
+
+Documentazione tecnica del portale:
+
+- [docs/SETUP_GITHUB_PAGES.md](docs/SETUP_GITHUB_PAGES.md)
+- [docs/WEBSITE_IMPLEMENTATION_SUMMARY.md](docs/WEBSITE_IMPLEMENTATION_SUMMARY.md)
+
 ## 📹 Registrazioni Lezioni
 
 - [Lezione 01 - 05/03/2025](https://youtu.be/ZliWEcTEQhw)
