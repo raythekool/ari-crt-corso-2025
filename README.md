@@ -11,8 +11,10 @@ Portale pubblico:
 
 Documentazione tecnica del portale:
 
-- [docs/SETUP_GITHUB_PAGES.md](docs/SETUP_GITHUB_PAGES.md)
-- [docs/WEBSITE_IMPLEMENTATION_SUMMARY.md](docs/WEBSITE_IMPLEMENTATION_SUMMARY.md)
+- [Setup GitHub Pages e Cloudflare Pages](docs/SETUP_GITHUB_PAGES.md)
+- [Stato implementazione del portale](docs/WEBSITE_IMPLEMENTATION_SUMMARY.md)
+
+I sorgenti pubblicati del sito si trovano nella cartella `site/`.
 
 ## 📹 Registrazioni Lezioni
 

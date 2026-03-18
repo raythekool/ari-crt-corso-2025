@@ -21,30 +21,13 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v4
 
-      - name: Prepare publish directory (wiki only)
-        run: |
-          set -euo pipefail
-
-          rm -rf .publish
-          mkdir -p .publish/_layouts
-
-          cp _config.yml .publish/
-          cp _config.cloudflare.yml .publish/
-          cp index.md .publish/
-          cp glossario.md .publish/
-          cp domande-esame.md .publish/
-          cp risorse.md .publish/
-
-          cp -R guide-studio .publish/
-          cp _layouts/default.html .publish/_layouts/default.html
-
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
       - name: Build static site for GitHub Pages
         uses: actions/jekyll-build-pages@v1
         with:
-          source: .publish
+          source: site
           destination: .site-gh
 
       - name: Deploy to gh-pages
@@ -55,15 +38,19 @@ jobs:
           publish_dir: .site-gh
           force_orphan: true
 
-      - name: Switch to Cloudflare config
+      - name: Prepare Cloudflare source
         run: |
           set -euo pipefail
-          cp .publish/_config.cloudflare.yml .publish/_config.yml
+
+          rm -rf .site-cf-src
+          mkdir -p .site-cf-src
+          cp -R site/. .site-cf-src/
+          cp .site-cf-src/_config.cloudflare.yml .site-cf-src/_config.yml
 
       - name: Build static site for Cloudflare Pages
         uses: actions/jekyll-build-pages@v1
         with:
-          source: .publish
+          source: .site-cf-src
           destination: .site-cf
 
       - name: Deploy to cf-pages

@@ -1,0 +1,34 @@
+# Jekyll configuration override for Cloudflare Pages
+# This file is used to build a root-path version of the site for Cloudflare.
+
+title: "Corso Radioamatori ARI Toscana CRT 2025"
+description: "Materiale didattico e guide di studio per il corso aspiranti radioamatori"
+baseurl: ""
+url: "https://ari-crt-corso-2025.pages.dev"
+
+# Theme
+theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from build
+exclude:
+  - transcripts (vtt)/
+  - transcripts/
+  - download_transcripts.py
+  - requirements.txt
+  - .gitignore
+  - .markdownlint.json
+  - LICENSE

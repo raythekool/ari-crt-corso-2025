@@ -2,7 +2,7 @@
 
 ## Stato attuale
 
-Il repository pubblica un portale statico Jekyll derivato da un sottoinsieme dei contenuti presenti in `main`.
+Il repository pubblica un portale statico Jekyll i cui sorgenti pubblicati sono raccolti nella cartella [`site/`](../site/).
 
 La pubblicazione è automatica su due destinazioni:
 
@@ -15,34 +15,35 @@ La pipeline attiva è [`.github/workflows/sync-gh-pages.yml`](../.github/workflo
 
 ### Contenuti sorgente pubblici
 
-- [`index.md`](../index.md) — home del portale
-- [`guide-studio/index.md`](../guide-studio/index.md) — indice guide
-- `guide-studio/lezione_XX.md` — guide delle singole lezioni
-- [`glossario.md`](../glossario.md)
-- [`domande-esame.md`](../domande-esame.md)
-- [`risorse.md`](../risorse.md)
+- [`site/index.md`](../site/index.md) — home del portale
+- [`site/guide-studio/index.md`](../site/guide-studio/index.md) — indice guide
+- `site/guide-studio/lezione_XX.md` — guide delle singole lezioni
+- [`site/glossario.md`](../site/glossario.md)
+- [`site/domande-esame.md`](../site/domande-esame.md)
+- [`site/risorse.md`](../site/risorse.md)
 
 ### Configurazioni di build
 
-- [`_config.yml`](../_config.yml) — configurazione GitHub Pages
-- [`_config.cloudflare.yml`](../_config.cloudflare.yml) — configurazione Cloudflare Pages
+- [`site/_config.yml`](../site/_config.yml) — configurazione GitHub Pages
+- [`site/_config.cloudflare.yml`](../site/_config.cloudflare.yml) — configurazione Cloudflare Pages
 
 ### Layout attivo
 
-- [`_layouts/default.html`](../_layouts/default.html) — layout effettivamente usato dal sito
+- [`site/_layouts/default.html`](../site/_layouts/default.html) — layout effettivamente usato dal sito
 
-Il file `/_layouts.default.html` in root non fa parte della build pubblicata ed è solo un residuo storico.
+Il file `/_layouts.default.html` in root non fa parte della build pubblicata ed è un residuo storico da rimuovere.
 
 ## Cosa fa la pipeline
 
 La workflow esegue questi passaggi:
 
-1. copia in `.publish/` soltanto i contenuti pubblicabili
+1. legge direttamente i sorgenti da `site/`
 2. genera una build Jekyll per GitHub Pages in `.site-gh/`
 3. pubblica il risultato su `gh-pages`
-4. sostituisce la configurazione con quella Cloudflare
-5. genera una build Jekyll per Cloudflare in `.site-cf/`
-6. pubblica il risultato su `cf-pages`
+4. crea una copia temporanea dei sorgenti per la variante Cloudflare
+5. sostituisce la configurazione con quella Cloudflare nella copia temporanea
+6. genera una build Jekyll per Cloudflare in `.site-cf/`
+7. pubblica il risultato su `cf-pages`
 
 ## Funzionalità già presenti nel portale
 
@@ -68,7 +69,7 @@ Questi contenuti restano nel repository ma non entrano nel sito finale:
 
 - il branch autorevole rimane `main`
 - `gh-pages` e `cf-pages` sono branch di output generati dalla workflow
-- eventuali modifiche al sito vanno fatte nei file sorgente di `main`, non nei branch pubblicati
+- eventuali modifiche al sito vanno fatte nei file sotto `site/` su `main`, non nei branch pubblicati
 
 ## Documentazione utile
 

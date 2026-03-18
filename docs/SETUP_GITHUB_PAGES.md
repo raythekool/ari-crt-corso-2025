@@ -4,25 +4,25 @@ Questa guida descrive la configurazione attuale del portale del corso e come man
 
 ## 📋 Architettura di pubblicazione
 
-Il repository `main` contiene materiali pubblici e materiali interni/non pubblicati.
+Il branch autorevole resta `main`, ma i sorgenti pubblicati del sito risiedono ora interamente nella cartella [`site/`](../site/).
 
-La pubblicazione non usa l'intero repository: la workflow [`.github/workflows/sync-gh-pages.yml`](../.github/workflows/sync-gh-pages.yml) crea una cartella temporanea `.publish/` con una whitelist di file e cartelle, poi genera due siti statici separati:
+La workflow [`.github/workflows/sync-gh-pages.yml`](../.github/workflows/sync-gh-pages.yml) legge direttamente da `site/` e genera due siti statici separati:
 
 - branch `gh-pages` per GitHub Pages
 - branch `cf-pages` per Cloudflare Pages
 
 ## 📦 Contenuti effettivamente pubblicati
 
-La pipeline copia in `.publish/` solo:
+La pipeline pubblica i contenuti presenti in `site/`, in particolare:
 
-- `index.md`
-- `glossario.md`
-- `domande-esame.md`
-- `risorse.md`
-- `guide-studio/`
-- `_config.yml`
-- `_config.cloudflare.yml`
-- `_layouts/default.html`
+- `site/index.md`
+- `site/glossario.md`
+- `site/domande-esame.md`
+- `site/risorse.md`
+- `site/guide-studio/`
+- `site/_config.yml`
+- `site/_config.cloudflare.yml`
+- `site/_layouts/default.html`
 
 Non vengono pubblicati:
 
@@ -48,7 +48,7 @@ Non vengono pubblicati:
 
 ### Configurazione Jekyll usata
 
-Il build GitHub Pages usa [`_config.yml`](../_config.yml) con:
+Il build GitHub Pages usa [`site/_config.yml`](../site/_config.yml) con:
 
 - `url: "https://raythekool.github.io"`
 - `baseurl: "/ari-crt-corso-2025"`
@@ -71,7 +71,7 @@ Il build GitHub Pages usa [`_config.yml`](../_config.yml) con:
 
 ### Configurazione Jekyll usata
 
-Il build Cloudflare Pages sostituisce `_config.yml` con [`_config.cloudflare.yml`](../_config.cloudflare.yml), che usa:
+Il build Cloudflare Pages crea una copia temporanea dei sorgenti di `site/` e sostituisce `site/_config.yml` con [`site/_config.cloudflare.yml`](../site/_config.cloudflare.yml), che usa:
 
 - `url: "https://ari-crt-corso-2025.pages.dev"`
 - `baseurl: ""`
@@ -83,10 +83,10 @@ Quindi su Cloudflare gli URL sono pubblicati alla root, senza il prefisso `/ari-
 Ogni push su `main` esegue questa sequenza:
 
 1. checkout del branch `main`
-2. creazione della cartella `.publish/` con i soli contenuti pubblici
-3. build Jekyll GitHub Pages in `.site-gh/`
-4. deploy del risultato nel branch `gh-pages`
-5. sostituzione config con `_config.cloudflare.yml`
+2. build Jekyll GitHub Pages da `site/` in `.site-gh/`
+3. deploy del risultato nel branch `gh-pages`
+4. creazione di una copia temporanea di `site/` per la variante Cloudflare
+5. sostituzione della config con `site/_config.cloudflare.yml` nella copia temporanea
 6. build Jekyll Cloudflare Pages in `.site-cf/`
 7. deploy del risultato nel branch `cf-pages`
 
@@ -118,11 +118,11 @@ gem 'github-pages', group: :jekyll_plugins
 "@ | Out-File -FilePath Gemfile
 
 bundle install
-bundle exec jekyll serve
+bundle exec jekyll serve --source site
 ```
 
-Per simulare il sito GitHub Pages, usa `_config.yml`.
-Per simulare la variante Cloudflare, usa `_config.cloudflare.yml`.
+Per simulare il sito GitHub Pages, usa `site/_config.yml`.
+Per simulare la variante Cloudflare, usa `site/_config.cloudflare.yml`.
 
 ## 🐛 Troubleshooting
 
@@ -143,6 +143,12 @@ Per simulare la variante Cloudflare, usa `_config.cloudflare.yml`.
 - GitHub Pages usa `baseurl: /ari-crt-corso-2025`
 - Cloudflare usa `baseurl: ""`
 - i link interni devono sempre passare da `relative_url` o essere relativi al contenuto Markdown
+
+### Modifiche fatte nel posto sbagliato
+
+- i file del sito pubblico vivono in `site/`
+- modificare i file omologhi nella root non ha più effetto sulla pubblicazione
+- `gh-pages` e `cf-pages` restano branch generati automaticamente dalla workflow
 
 ## 📚 Documentazione correlata
 
