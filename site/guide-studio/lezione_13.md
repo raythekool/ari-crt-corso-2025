@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_13.html
 ---
 
 # 📘 Lezione 13 - Antenne - Parte 1

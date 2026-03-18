@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_07.html
 ---
 
 # 📘 Lezione 07 - Amplificatori

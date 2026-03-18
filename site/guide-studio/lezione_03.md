@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_03.html
 ---
 
 # 📘 Lezione 03 - Circuiti Elettrici

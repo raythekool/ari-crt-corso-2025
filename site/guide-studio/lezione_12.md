@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_12.html
 ---
 
 # 📘 Lezione 12 - Propagazione

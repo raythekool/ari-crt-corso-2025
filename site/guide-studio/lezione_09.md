@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_09.html
 ---
 
 # 📘 Lezione 09 - Modulazione

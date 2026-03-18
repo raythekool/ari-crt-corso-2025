@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_05.html
 ---
 
 # 📘 Lezione 05 - Componenti Elettronici

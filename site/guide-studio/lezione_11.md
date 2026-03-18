@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_11.html
 ---
 
 # 📘 Lezione 11 - Trasmettitori

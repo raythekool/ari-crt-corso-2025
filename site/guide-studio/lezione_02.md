@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_02.html
 ---
 
 # 📘 Lezione 02 - Fondamenti di Elettrotecnica

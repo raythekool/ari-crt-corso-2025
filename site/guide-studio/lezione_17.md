@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_17.html
 ---
 
 # 📘 Lezione 17 - Serata Speciale

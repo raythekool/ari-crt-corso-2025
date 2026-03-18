@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_06.html
 ---
 
 # 📘 Lezione 06 - Semiconduttori

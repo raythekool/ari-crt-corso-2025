@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_21.html
 ---
 
 # 📘 Lezione 21 - Normative Internazionali

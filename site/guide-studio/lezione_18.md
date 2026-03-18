@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_18.html
 ---
 
 # 📘 Lezione 18 - Interferenze e EMC

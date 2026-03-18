@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_10.html
 ---
 
 # 📘 Lezione 10 - Ricevitori

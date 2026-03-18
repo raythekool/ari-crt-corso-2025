@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_01.html
 ---
 
 # 📘 Lezione 01 - Introduzione al Corso

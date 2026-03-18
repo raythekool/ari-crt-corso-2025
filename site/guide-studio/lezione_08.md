@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_08.html
 ---
 
 # 📘 Lezione 08 - Oscillatori

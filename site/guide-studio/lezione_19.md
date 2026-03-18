@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_19.html
 ---
 
 # 📘 Lezione 19 - Sicurezza Elettrica

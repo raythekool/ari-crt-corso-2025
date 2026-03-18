@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_22.html
 ---
 
 # 📘 Lezione 22 - Procedure Operative

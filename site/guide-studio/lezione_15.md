@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_15.html
 ---
 
 # 📘 Lezione 15 - Linee di Trasmissione

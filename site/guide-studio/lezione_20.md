@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_20.html
 ---
 
 # 📘 Lezione 20 - Normative Nazionali

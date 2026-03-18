@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_14.html
 ---
 
 # 📘 Lezione 14 - Antenne - Parte 2

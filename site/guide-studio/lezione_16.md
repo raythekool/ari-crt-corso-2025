@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /guide-studio/lezione_16.html
 ---
 
 # 📘 Lezione 16 - Misure e Strumenti
