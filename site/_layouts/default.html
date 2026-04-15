@@ -1,288 +1,62 @@
 <!doctype html>
-<html lang="it">
+{% assign page_kind = "content" %} {% if page.url == "/" or page.url ==
+"/index.html" %} {% assign page_kind = "home" %} {% elsif page.url ==
+"/guide-studio/" or page.url == "/guide-studio/index.html" %} {% assign
+page_kind = "guide-index" %} {% elsif page.url contains "/guide-studio/lezione_"
+%} {% assign page_kind = "lesson" %} {% elsif page.url == "/glossario.html" %}
+{% assign page_kind = "glossary" %} {% elsif page.url == "/domande-esame.html"
+%} {% assign page_kind = "exam" %} {% elsif page.url == "/risorse.html" %} {%
+assign page_kind = "resources" %} {% endif %} {% assign section_label =
+"Materiale didattico" %} {% assign section_summary = "Portale strutturato per
+preparare l'esame da radioamatore con guide, glossario e riferimenti utili." %}
+{% case page_kind %} {% when "home" %} {% assign section_label = "Portale
+pubblico" %} {% assign section_summary = "Un atlante di studio per seguire il
+corso, consolidare i concetti chiave e ripassare il programma d'esame." %} {%
+when "guide-index" %} {% assign section_label = "Guide di studio" %} {% assign
+section_summary = "Percorsi tematici e cronologici per affrontare tecnica,
+propagazione, normativa e operativita'." %} {% when "lesson" %} {% assign
+section_label = "Lezione" %} {% assign section_summary = "Materiale di
+approfondimento per studio autonomo, ripasso e preparazione alle domande
+d'esame." %} {% when "glossary" %} {% assign section_label = "Glossario" %} {%
+assign section_summary = "Definizioni essenziali per fissare il lessico tecnico
+di elettronica, RF e radioamatorismo." %} {% when "exam" %} {% assign
+section_label = "Preparazione esame" %} {% assign section_summary = "Argomenti
+ricorrenti, esempi di quiz e collegamenti diretti alle lezioni da ripassare." %}
+{% when "resources" %} {% assign section_label = "Risorse" %} {% assign
+section_summary = "Riferimenti, link, software e materiali complementari per
+proseguire lo studio oltre il corso." %} {% endcase %} {% assign document_title
+= page.title %} {% if document_title == nil or document_title == "" %} {% if
+page_kind == "lesson" %} {% assign document_title = page.url | split: "/" | last
+| split: "." | first | replace: "lezione_", "Lezione " %} {% else %} {% assign
+document_title = site.title %} {% endif %} {% endif %}
+<html lang="it" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <style>
-      body {
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        line-height: 1.6;
-        color: #333;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-      }
-      header {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: white;
-        padding: 20px;
-        border-radius: 8px;
-        margin-bottom: 30px;
-      }
-      header h1 {
-        margin: 0;
-        font-size: 2em;
-      }
-      nav {
-        background: #f4f4f4;
-        padding: 15px;
-        border-radius: 5px;
-        margin-bottom: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-        align-items: center;
-      }
-      nav a,
-      nav button {
-        text-decoration: none;
-        color: #667eea;
-        font-weight: bold;
-        background: transparent;
-        border: none;
-        padding: 0;
-        font-size: 1em;
-        font-family: inherit;
-        cursor: pointer;
-      }
-      nav a:hover,
-      nav button:hover {
-        text-decoration: underline;
-      }
-      .global-search {
-        display: flex;
-        gap: 6px;
-        align-items: center;
-        margin-left: auto;
-        min-width: 260px;
-      }
-      .global-search input {
-        flex: 1;
-        min-width: 150px;
-        padding: 6px 10px;
-        border: 1px solid #c8d2f7;
-        border-radius: 6px;
-        font-size: 0.95em;
-      }
-      .global-search button {
-        background: #667eea;
-        color: #fff;
-        border: 1px solid #667eea;
-        border-radius: 6px;
-        padding: 7px 10px;
-        font-size: 0.9em;
-      }
-      .global-search-results {
-        background: #f7f9ff;
-        border: 1px solid #d5defa;
-        border-radius: 8px;
-        padding: 12px;
-        margin-bottom: 16px;
-      }
-      .global-search-results h3 {
-        margin: 0 0 8px 0;
-        color: #3f4fa3;
-        font-size: 1em;
-      }
-      .global-search-results ul {
-        margin: 0;
-        padding-left: 18px;
-      }
-      .global-search-results li {
-        margin-bottom: 8px;
-      }
-      .global-search-results p {
-        margin: 6px 0 0 0;
-        color: #444;
-        font-size: 0.92em;
-      }
-      .global-search-empty {
-        margin: 0;
-        color: #555;
-        font-style: italic;
-      }
-      .lesson-nav {
-        background: #eef2ff;
-        border: 1px solid #d5defa;
-        border-radius: 8px;
-        padding: 12px;
-        margin-bottom: 16px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        align-items: center;
-        position: sticky;
-        top: 10px;
-        z-index: 10;
-      }
-      .lesson-nav a {
-        text-decoration: none;
-        color: #3f4fa3;
-        font-weight: 600;
-      }
-      .lesson-nav a:hover {
-        text-decoration: underline;
-      }
-      .lesson-nav select {
-        padding: 6px 8px;
-        border: 1px solid #c8d2f7;
-        border-radius: 6px;
-        background: #fff;
-      }
-      main {
-        background: white;
-        padding: 30px;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      }
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 20px 0;
-      }
-      table th,
-      table td {
-        border: 1px solid #ddd;
-        padding: 12px;
-        text-align: left;
-      }
-      table th {
-        background-color: #667eea;
-        color: white;
-      }
-      table tr:nth-child(even) {
-        background-color: #f9f9f9;
-      }
-      code {
-        background: #f4f4f4;
-        padding: 2px 6px;
-        border-radius: 3px;
-        font-family: "Courier New", monospace;
-      }
-      pre {
-        background: #f4f4f4;
-        padding: 15px;
-        border-radius: 5px;
-        overflow-x: auto;
-      }
-      blockquote {
-        border-left: 4px solid #667eea;
-        padding-left: 20px;
-        margin-left: 0;
-        color: #666;
-        font-style: italic;
-      }
-      footer {
-        margin-top: 40px;
-        padding-top: 20px;
-        border-top: 2px solid #eee;
-        text-align: center;
-        color: #666;
-      }
-      /* Responsive Design */
-      @media (max-width: 768px) {
-        body {
-          padding: 10px;
-          font-size: 14px;
-        }
-        header {
-          padding: 15px;
-          margin-bottom: 20px;
-        }
-        header h1 {
-          font-size: 1.5em;
-        }
-        header p {
-          font-size: 0.9em;
-          margin: 10px 0 0 0;
-        }
-        nav {
-          padding: 10px;
-          margin-bottom: 15px;
-        }
-        nav a,
-        nav button {
-          font-size: 0.9em;
-          padding: 6px 10px;
-          background: white;
-          border-radius: 4px;
-        }
-        .global-search {
-          width: 100%;
-          margin-left: 0;
-        }
-        .global-search input,
-        .global-search button {
-          width: 100%;
-        }
-        .lesson-nav {
-          flex-direction: column;
-          align-items: stretch;
-          padding: 10px;
-          gap: 8px;
-        }
-        .lesson-nav a,
-        .lesson-nav label,
-        .lesson-nav select {
-          width: 100%;
-          text-align: center;
-        }
-        .lesson-nav select {
-          width: 100%;
-        }
-        main {
-          padding: 15px;
-          border-radius: 4px;
-        }
-        table {
-          font-size: 0.85em;
-          margin: 15px 0;
-        }
-        table th,
-        table td {
-          padding: 8px;
-        }
-        h1 {
-          font-size: 1.6em;
-        }
-        h2 {
-          font-size: 1.3em;
-        }
-        h3 {
-          font-size: 1.1em;
-        }
-        pre {
-          padding: 10px;
-          font-size: 0.85em;
-          overflow-x: auto;
-        }
-      }
-      @media (min-width: 769px) and (max-width: 1024px) {
-        body {
-          padding: 15px;
-        }
-        header {
-          padding: 18px;
-        }
-        header h1 {
-          font-size: 1.8em;
-        }
-        main {
-          padding: 20px;
-        }
-        table {
-          font-size: 0.95em;
-        }
-        table th,
-        table td {
-          padding: 10px;
-        }
-      }
-      @media (min-width: 1025px) {
-        /* Desktop styles - default */
-      }
-    </style>
+    <title>
+      {{ document_title }}{% unless document_title == site.title %} - {{
+      site.title }}{% endunless %}
+    </title>
+    <meta name="description" content="{{ site.description }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{{ '/styles/tokens.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/styles/base.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/styles/layout.css' | relative_url }}" />
+    <link
+      rel="stylesheet"
+      href="{{ '/styles/components.css' | relative_url }}"
+    />
+    {% if page_kind == "home" %}
+    <link
+      rel="stylesheet"
+      href="{{ '/styles/pages/home.css' | relative_url }}"
+    />
+    {% endif %}
     <script>
       MathJax = {
         tex: {
@@ -306,73 +80,250 @@
       async
     ></script>
   </head>
-  <body>
-    <header>
-      <h1>📻 {{ site.title }}</h1>
-      <p>{{ site.description }}</p>
-    </header>
-
-    <nav>
-      <a href="{{ '/' | relative_url }}">🏠 Home</a>
-      <a href="{{ '/guide-studio/' | relative_url }}">📖 Guide di Studio</a>
-      <a href="{{ '/glossario.html' | relative_url }}">📚 Glossario</a>
-      <a href="{{ '/domande-esame.html' | relative_url }}">❓ Domande</a>
-      <a href="{{ '/risorse.html' | relative_url }}">🔗 Risorse</a>
-      <div class="global-search">
-        <input
-          id="global-search-input"
-          type="search"
-          placeholder="Cerca in tutte le lezioni..."
-          aria-label="Cerca in tutte le lezioni"
-        />
-        <button id="global-search-button" type="button">🔍 Cerca</button>
-      </div>
-    </nav>
-    <div id="global-search-results" class="global-search-results" hidden></div>
-
-    <main>
-      {% assign lesson_pages = site.pages | where_exp: "p", "p.url contains
-      '/guide-studio/lezione_'" | sort: "url" %} {% if page.url contains
-      '/guide-studio/lezione_' %} {% assign current_index = -1 %} {% for lesson
-      in lesson_pages %} {% if lesson.url == page.url %} {% assign current_index
-      = forloop.index0 %} {% endif %} {% endfor %} {% assign last_index =
-      lesson_pages.size | minus: 1 %}
-      <div class="lesson-nav">
-        <a href="{{ '/guide-studio/' | relative_url }}">📚 Tutte le lezioni</a>
-        {% if current_index > 0 %} {% assign prev_index = current_index | minus:
-        1 %} {% assign prev_lesson = lesson_pages[prev_index] %}
-        <a href="{{ prev_lesson.url | relative_url }}">⬅️ Lezione precedente</a>
-        {% endif %} {% if current_index < last_index %} {% assign next_index =
-        current_index | plus: 1 %} {% assign next_lesson =
-        lesson_pages[next_index] %}
-        <a href="{{ next_lesson.url | relative_url }}">Lezione successiva ➡️</a>
-        {% endif %}
-        <label for="lesson-jump">Vai a:</label>
-        <select
-          id="lesson-jump"
-          onchange="
-            if (this.value) {
-              window.location.href = this.value;
-            }
-          "
-        >
-          <option value="">Seleziona una lezione</option>
-          {% for lesson in lesson_pages %}
-          <option
-            value="{{ lesson.url | relative_url }}"
-            {% if lesson.url == page.url %}selected{% endif %}
+  <body class="course-page course-page--{{ page_kind }}">
+    <a class="skip-link" href="#main-content">Vai al contenuto</a>
+    <div class="course-shell">
+      <header class="course-header">
+        <div class="course-header__eyebrow">ARI Toscana CRT 2025</div>
+        <div class="course-header__grid">
+          <div>
+            <p class="course-header__section">{{ section_label }}</p>
+            <p class="course-header__title">{{ site.title }}</p>
+            <p class="course-header__summary">{{ section_summary }}</p>
+          </div>
+          <div
+            class="course-header__signals"
+            aria-label="Aree principali del portale"
           >
-            {{ lesson.title }}
-          </option>
-          {% endfor %}
-        </select>
-      </div>
-      {% endif %} {{ content }}
-    </main>
+            <article class="course-signal-card">
+              <p class="course-signal-card__label">Tecnica</p>
+              <p class="course-signal-card__value">
+                Circuiti, RF, misure e propagazione
+              </p>
+            </article>
+            <article class="course-signal-card">
+              <p class="course-signal-card__label">Normativa</p>
+              <p class="course-signal-card__value">
+                Regole italiane, CEPT e operativita'
+              </p>
+            </article>
+            <article class="course-signal-card">
+              <p class="course-signal-card__label">Studio</p>
+              <p class="course-signal-card__value">
+                Guide complete, glossario e ripasso
+              </p>
+            </article>
+            <article class="course-signal-card">
+              <p class="course-signal-card__label">Esame</p>
+              <p class="course-signal-card__value">
+                Quiz tipici e percorsi di preparazione
+              </p>
+            </article>
+          </div>
+        </div>
+      </header>
 
-    <footer>
-      <p>&copy; 2025 ARI Toscana CRT - Materiale didattico open source</p>
-    </footer>
+      <nav class="course-nav" aria-label="Navigazione principale">
+        <div class="course-nav__links">
+          <a
+            class="course-nav__link{% if page_kind == 'home' %} is-active{% endif %}"
+            href="{{ '/' | relative_url }}"
+            >Home</a
+          >
+          <a
+            class="course-nav__link{% if page_kind == 'guide-index' or page_kind == 'lesson' %} is-active{% endif %}"
+            href="{{ '/guide-studio/' | relative_url }}"
+            >Guide di studio</a
+          >
+          <a
+            class="course-nav__link{% if page_kind == 'glossary' %} is-active{% endif %}"
+            href="{{ '/glossario.html' | relative_url }}"
+            >Glossario</a
+          >
+          <a
+            class="course-nav__link{% if page_kind == 'exam' %} is-active{% endif %}"
+            href="{{ '/domande-esame.html' | relative_url }}"
+            >Domande</a
+          >
+          <a
+            class="course-nav__link{% if page_kind == 'resources' %} is-active{% endif %}"
+            href="{{ '/risorse.html' | relative_url }}"
+            >Risorse</a
+          >
+        </div>
+        <div
+          class="course-search"
+          role="search"
+          aria-label="Cerca nelle lezioni"
+        >
+          <input
+            id="global-search-input"
+            class="course-search__input"
+            type="search"
+            placeholder="Cerca in tutte le lezioni..."
+            aria-label="Cerca in tutte le lezioni"
+            autocomplete="off"
+          />
+          <button
+            id="global-search-button"
+            class="course-button course-search__button"
+            type="button"
+          >
+            Cerca
+          </button>
+        </div>
+      </nav>
+
+      <div class="course-search-strip">
+        <div
+          id="global-search-results"
+          class="global-search-results"
+          aria-live="polite"
+          hidden
+        ></div>
+      </div>
+
+      <div class="course-main-shell">
+        <main id="main-content" class="course-main">
+          {% if page_kind == "home" %}
+          <section class="home-hero" aria-labelledby="home-hero-title">
+            <div class="home-hero__intro course-panel">
+              <p class="home-hero__eyebrow">Portale di studio</p>
+              <h1 id="home-hero-title" class="home-hero__title">
+                Preparazione tecnica, normativa e operativa in un unico atlante.
+              </h1>
+              <p class="home-hero__lead">
+                Guide strutturate, riferimenti normativi, glossario e domande
+                d'esame per seguire il corso e consolidare il ripasso.
+              </p>
+              <div class="home-hero__actions">
+                <a
+                  class="course-button"
+                  href="{{ '/guide-studio/' | relative_url }}"
+                  >Inizia dalle guide</a
+                >
+                <a
+                  class="course-button course-button--secondary"
+                  href="{{ '/domande-esame.html' | relative_url }}"
+                  >Vai alle domande</a
+                >
+              </div>
+            </div>
+            <aside
+              class="home-hero__stats course-panel"
+              aria-label="Panoramica del corso"
+            >
+              <p class="home-hero__stats-title">Indicatori del percorso</p>
+              <div class="home-stat-grid">
+                <div class="home-stat">
+                  <span class="home-stat__value">23</span>
+                  <span class="home-stat__label">lezioni pubblicate</span>
+                </div>
+                <div class="home-stat">
+                  <span class="home-stat__value">4</span>
+                  <span class="home-stat__label">aree di studio</span>
+                </div>
+                <div class="home-stat">
+                  <span class="home-stat__value">1</span>
+                  <span class="home-stat__label">portale unico di ripasso</span>
+                </div>
+                <div class="home-stat">
+                  <span class="home-stat__value">30</span>
+                  <span class="home-stat__label">domande nell'esame</span>
+                </div>
+              </div>
+              <div class="home-band-list">
+                <div class="home-band-list__item">
+                  <span class="home-band-list__badge">Tecnica</span>
+                  <p>
+                    Dalle basi di elettrotecnica fino a modulazione, ricevitori
+                    e trasmettitori.
+                  </p>
+                </div>
+                <div class="home-band-list__item">
+                  <span class="home-band-list__badge">RF</span>
+                  <p>
+                    Propagazione, antenne, linee di trasmissione, misure e
+                    compatibilita' elettromagnetica.
+                  </p>
+                </div>
+                <div class="home-band-list__item">
+                  <span class="home-band-list__badge">Norme</span>
+                  <p>
+                    Regole italiane, CEPT, procedure operative e riferimenti per
+                    l'attivita' in aria.
+                  </p>
+                </div>
+              </div>
+            </aside>
+          </section>
+          {% endif %} {% assign lesson_pages = site.pages | where_exp: "p",
+          "p.url contains '/guide-studio/lezione_'" | sort: "url" %} {% if
+          page_kind == "lesson" %} {% assign current_index = -1 %} {% for lesson
+          in lesson_pages %} {% if lesson.url == page.url %} {% assign
+          current_index = forloop.index0 %} {% endif %} {% endfor %} {% assign
+          last_index = lesson_pages.size | minus: 1 %}
+          <div class="lesson-nav" aria-label="Navigazione tra le lezioni">
+            <a href="{{ '/guide-studio/' | relative_url }}">Tutte le lezioni</a>
+            {% if current_index > 0 %} {% assign prev_index = current_index |
+            minus: 1 %} {% assign prev_lesson = lesson_pages[prev_index] %}
+            <a href="{{ prev_lesson.url | relative_url }}"
+              >Lezione precedente</a
+            >
+            {% endif %} {% if current_index < last_index %} {% assign next_index
+            = current_index | plus: 1 %} {% assign next_lesson =
+            lesson_pages[next_index] %}
+            <a href="{{ next_lesson.url | relative_url }}"
+              >Lezione successiva</a
+            >
+            {% endif %}
+            <label class="lesson-nav__label" for="lesson-jump">Vai a:</label>
+            <select
+              id="lesson-jump"
+              onchange="
+                if (this.value) {
+                  window.location.href = this.value;
+                }
+              "
+            >
+              <option value="">Seleziona una lezione</option>
+              {% for lesson in lesson_pages %}
+              <option
+                value="{{ lesson.url | relative_url }}"
+                {%
+                if
+                lesson.url=""
+                ="page.url"
+                %}selected{%
+                endif
+                %}
+              >
+                {{ lesson.title | default: lesson.url | split: '/' | last |
+                split: '.' | first | replace: 'lezione_', 'Lezione ' }}
+              </option>
+              {% endfor %}
+            </select>
+          </div>
+          {% endif %}
+
+          <article class="course-prose">{{ content }}</article>
+        </main>
+      </div>
+
+      <footer class="course-footer">
+        <div class="course-footer__grid">
+          <p>
+            &copy; 2025 ARI Toscana CRT - Materiale didattico open source per il
+            corso aspiranti radioamatori.
+          </p>
+          <div class="course-footer__links">
+            <a href="{{ '/' | relative_url }}">Portale</a>
+            <a href="{{ '/guide-studio/' | relative_url }}">Guide</a>
+            <a href="{{ '/risorse.html' | relative_url }}">Risorse</a>
+          </div>
+        </div>
+      </footer>
+    </div>
     <script>
       const CLOUDFLARE_HOSTNAME = 'ari-crt-corso-2025.pages.dev';
       const GITHUB_PAGES_ORIGIN = 'https://raythekool.github.io';
