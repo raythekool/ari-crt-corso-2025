@@ -290,13 +290,7 @@ document_title = site.title %} {% endif %} {% endif %}
               {% for lesson in lesson_pages %}
               <option
                 value="{{ lesson.url | relative_url }}"
-                {%
-                if
-                lesson.url=""
-                ="page.url"
-                %}selected{%
-                endif
-                %}
+                {% if lesson.url == page.url %}selected{% endif %}
               >
                 {{ lesson.title | default: lesson.url | split: '/' | last |
                 split: '.' | first | replace: 'lezione_', 'Lezione ' }}
