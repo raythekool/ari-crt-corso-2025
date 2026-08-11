@@ -91,6 +91,7 @@
 
   .course-nav__lesson-jump {
     max-width: 15rem;
+    padding-right: 2.2rem;
   }
 
   .course-search__button {
