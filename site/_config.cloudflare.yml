@@ -1,0 +1,5 @@
+# Jekyll overrides for Cloudflare Pages.
+# This file is merged with _config.yml during the Cloudflare build.
+
+baseurl: ""
+url: "https://ari-crt-corso-2025.pages.dev"
