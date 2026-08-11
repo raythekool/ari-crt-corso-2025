@@ -172,6 +172,48 @@ document_title = site.title %} {% endif %} {% endif %}
             Cerca
           </button>
         </div>
+        {% assign lesson_pages = site.pages | where_exp: "p",
+        "p.url contains '/guide-studio/lezione_'" | sort: "url" %} {% if
+        page_kind == "lesson" %} {% assign current_index = -1 %} {% for lesson
+        in lesson_pages %} {% if lesson.url == page.url %} {% assign
+        current_index = forloop.index0 %} {% endif %} {% endfor %} {% assign
+        last_index = lesson_pages.size | minus: 1 %}
+        <div class="lesson-nav" aria-label="Navigazione tra le lezioni">
+          <a href="{{ '/guide-studio/' | relative_url }}">Tutte le lezioni</a>
+          {% if current_index > 0 %} {% assign prev_index = current_index |
+          minus: 1 %} {% assign prev_lesson = lesson_pages[prev_index] %}
+          <a href="{{ prev_lesson.url | relative_url }}"
+            >Lezione precedente</a
+          >
+          {% endif %} {% if current_index < last_index %} {% assign next_index
+          = current_index | plus: 1 %} {% assign next_lesson =
+          lesson_pages[next_index] %}
+          <a href="{{ next_lesson.url | relative_url }}"
+            >Lezione successiva</a
+          >
+          {% endif %}
+          <label class="lesson-nav__label" for="lesson-jump">Vai a:</label>
+          <select
+            id="lesson-jump"
+            onchange="
+              if (this.value) {
+                window.location.href = this.value;
+              }
+            "
+          >
+            <option value="">Seleziona una lezione</option>
+            {% for lesson in lesson_pages %}
+            <option
+              value="{{ lesson.url | relative_url }}"
+              {% if lesson.url == page.url %}selected{% endif %}
+            >
+              {{ lesson.title | default: lesson.url | split: '/' | last |
+              split: '.' | first | replace: 'lezione_', 'Lezione ' }}
+            </option>
+            {% endfor %}
+          </select>
+        </div>
+        {% endif %}
       </nav>
 
       <div class="course-search-strip">
@@ -257,47 +299,6 @@ document_title = site.title %} {% endif %} {% endif %}
               </div>
             </aside>
           </section>
-          {% endif %} {% assign lesson_pages = site.pages | where_exp: "p",
-          "p.url contains '/guide-studio/lezione_'" | sort: "url" %} {% if
-          page_kind == "lesson" %} {% assign current_index = -1 %} {% for lesson
-          in lesson_pages %} {% if lesson.url == page.url %} {% assign
-          current_index = forloop.index0 %} {% endif %} {% endfor %} {% assign
-          last_index = lesson_pages.size | minus: 1 %}
-          <div class="lesson-nav" aria-label="Navigazione tra le lezioni">
-            <a href="{{ '/guide-studio/' | relative_url }}">Tutte le lezioni</a>
-            {% if current_index > 0 %} {% assign prev_index = current_index |
-            minus: 1 %} {% assign prev_lesson = lesson_pages[prev_index] %}
-            <a href="{{ prev_lesson.url | relative_url }}"
-              >Lezione precedente</a
-            >
-            {% endif %} {% if current_index < last_index %} {% assign next_index
-            = current_index | plus: 1 %} {% assign next_lesson =
-            lesson_pages[next_index] %}
-            <a href="{{ next_lesson.url | relative_url }}"
-              >Lezione successiva</a
-            >
-            {% endif %}
-            <label class="lesson-nav__label" for="lesson-jump">Vai a:</label>
-            <select
-              id="lesson-jump"
-              onchange="
-                if (this.value) {
-                  window.location.href = this.value;
-                }
-              "
-            >
-              <option value="">Seleziona una lezione</option>
-              {% for lesson in lesson_pages %}
-              <option
-                value="{{ lesson.url | relative_url }}"
-                {% if lesson.url == page.url %}selected{% endif %}
-              >
-                {{ lesson.title | default: lesson.url | split: '/' | last |
-                split: '.' | first | replace: 'lezione_', 'Lezione ' }}
-              </option>
-              {% endfor %}
-            </select>
-          </div>
           {% endif %}
 
           <article class="course-prose">{{ content }}</article>
