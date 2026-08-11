@@ -1,6 +1,6 @@
-# 📘 Lezione 19 - Sicurezza Elettrica
+# 📘 Lezione 19 - Linee di Trasmissione e ROS
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia**: Linee di trasmissione radiofrequenza, onde stazionarie, adattamento di impedenza e decibel
 - **Tempo di studio stimato**: 90–110 minuti
@@ -16,7 +16,7 @@
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ### 1. 🔍 Revisione del Test Precedente (⏱ 00:05–08:17)
 
@@ -330,7 +330,7 @@ Breve digressione storica sulla rete troposcatter che passava per Coltano (Pisa)
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - **Linea di trasmissione** → è caratterizzata da → **impedenza caratteristica** $Z_0$
 - **Impedenza caratteristica** → dipende da → **rapporto dimensioni conduttori** e **dielettrico**
@@ -350,7 +350,7 @@ Breve digressione storica sulla rete troposcatter che passava per Coltano (Pisa)
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. L'**impedenza caratteristica** $Z_0$ di una linea dipende dalle sue caratteristiche fisiche ($Z_0 = \sqrt{L/C}$) e non dalla lunghezza; valori tipici sono 50–75 Ω per cavi coassiali, 200–300 Ω per linee bifilari.
 
@@ -374,7 +374,7 @@ Breve digressione storica sulla rete troposcatter che passava per Coltano (Pisa)
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Perché una prolunga elettrica domestica a 220 V/50 Hz può essere studiata con le regole dell'elettrotecnica classica, mentre una linea a radiofrequenza che alimenta un'antenna no?
 
@@ -398,7 +398,7 @@ Breve digressione storica sulla rete troposcatter che passava per Coltano (Pisa)
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Accordatore (Tuner)** — dispositivo che adatta impedenze diverse tra loro, compensando il disadattamento tra trasmettitore, linea e antenna
 - **Accoppiatore direzionale** — dispositivo che separa i flussi di potenza diretta e riflessa in una linea, utilizzato per la misura del ROS

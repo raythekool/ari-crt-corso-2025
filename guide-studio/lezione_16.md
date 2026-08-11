@@ -1,6 +1,6 @@
 # 📘 Lezione 16 - Misure e Strumenti
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia**: Strumenti di misura per elettronica e radioamatori
 - **Argomento principale**: Strumenti analogici a bobina mobile (amperometro, voltmetro, ohmetro), multimetro, carico fittizio, wattmetri, frequenzimetro, grid-dip meter, oscilloscopio e analizzatore di spettro
@@ -16,7 +16,7 @@
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ### 1. 📝 Correzione quiz Lezione 15 (⏱ 00:03)
 
@@ -304,7 +304,7 @@ Il **waterfall** (cascata) dei ricevitori digitali moderni è una forma di anali
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - Strumento a bobina mobile → è fondamentalmente → amperometro
 - Magnete permanente + bobina → generano → interazione campi magnetici → muovono → ago indicatore
@@ -329,7 +329,7 @@ Il **waterfall** (cascata) dei ricevitori digitali moderni è una forma di anali
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. Tutti gli strumenti analogici a bobina mobile sono fondamentalmente **amperometri**: misurano la corrente tramite l'interazione tra il campo magnetico fisso di un magnete permanente e quello variabile generato dalla bobina.
 
@@ -355,7 +355,7 @@ Il **waterfall** (cascata) dei ricevitori digitali moderni è una forma di anali
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Perché uno strumento a bobina mobile è fondamentalmente un amperometro? Spiega il ruolo del magnete permanente, della bobina e della molla nel determinare la posizione dell'ago.
 
@@ -379,7 +379,7 @@ Il **waterfall** (cascata) dei ricevitori digitali moderni è una forma di anali
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Amperometro** — Strumento che misura la corrente elettrica; si collega in serie al circuito
 - **Analizzatore di spettro** — Strumento che visualizza la composizione in frequenza di un segnale (dominio della frequenza); asse X = frequenza, asse Y = potenza in dBm

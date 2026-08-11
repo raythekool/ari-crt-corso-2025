@@ -1,6 +1,6 @@
-# 📘 Lezione 07 - Amplificatori
+# 📘 Lezione 07 - Modi di Emissione: AM, SSB e FM
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia**: Elettronica e Radiotecnica per la licenza di radioamatore
 - **Argomento**: Modi di emissione (AM, SSB, FM), introduzione alle onde radio e lunghezza d'onda
@@ -19,7 +19,7 @@
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ### 1. 🔍 Ripasso Quiz Lezione 06 (⏱ 00:03–10:11)
 
@@ -312,7 +312,7 @@ Questa tabella è parte del programma d'esame per la parte normativa.
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - **Modulazione** → processo per aggiungere informazione alla → **Portante**
 - **Portante** → ha tre parametri: **Ampiezza**, **Frequenza**, **Fase**
@@ -333,7 +333,7 @@ Questa tabella è parte del programma d'esame per la parte normativa.
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. La **modulazione** è il processo che permette di trasportare informazione su una portante radio. I tre tipi fondamentali sono AM (ampiezza), FM (frequenza) e PM (fase), classificati con codici ITU: AM = A3E, FM = F3E, SSB = J3E.
 
@@ -357,7 +357,7 @@ Questa tabella è parte del programma d'esame per la parte normativa.
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Perché in AM la portante rappresenta uno spreco di potenza? Come si risolve questo problema nella SSB?
 
@@ -381,7 +381,7 @@ Questa tabella è parte del programma d'esame per la parte normativa.
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **A3E** — Codice ITU per la modulazione di ampiezza (AM) con emissione a doppia banda laterale e portante completa.
 - **AM (Modulazione di Ampiezza)** — Tipo di modulazione in cui l'informazione è trasmessa variando l'ampiezza della portante.

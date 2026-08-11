@@ -1,6 +1,6 @@
-# 📘 Lezione 18 - Interferenze e EMC
+# 📘 Lezione 18 - Propagazione Ionosferica
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia**: Propagazione delle onde radio
 - **Tempo di studio stimato**: 2 ore e 30 minuti
@@ -16,7 +16,7 @@
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ### 1. 🔍 Introduzione e contesto storico (⏱ 00:00–12:00)
 
@@ -364,7 +364,7 @@ Questo spiega perché d'estate la propagazione sugli 11 m e 10 m appare "più co
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - **Campo elettrico E** + **Campo magnetico H** → formano → **Campo elettromagnetico**
 - **Campo EM** → si propaga alla → **Velocità della luce (300.000 km/s)**
@@ -388,7 +388,7 @@ Questo spiega perché d'estate la propagazione sugli 11 m e 10 m appare "più co
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. **L'impedenza dello spazio libero è 377 Ω**, costante fisica data dal rapporto E/H nel vuoto. Concetto ricorrente nelle domande d'esame.
 
@@ -412,7 +412,7 @@ Questo spiega perché d'estate la propagazione sugli 11 m e 10 m appare "più co
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Perché l'impedenza dello spazio libero è una costante e quale relazione lega campo E e campo H? In che modo questo concetto si applica al dimensionamento delle antenne?
 
@@ -436,7 +436,7 @@ Questo spiega perché d'estate la propagazione sugli 11 m e 10 m appare "più co
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Attenuazione** — Riduzione della potenza del segnale durante la propagazione, espressa in dB. In spazio libero è proporzionale a d² × f².
 - **Campo elettromagnetico** — Campo composto da una componente elettrica (E) e una magnetica (H) perpendicolari tra loro, capace di propagarsi nello spazio.

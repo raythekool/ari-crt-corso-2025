@@ -1,6 +1,6 @@
-# 📘 Lezione 20 - Normative Nazionali
+# 📘 Lezione 20 - Antenne - Parte 1: Fondamenti e Risonanza
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia**: Antenne — Parte 1: Fondamenti teorici, antenne caricate/multibanda, lobo di radiazione
 - **Tempo di studio stimato**: 2 ore
@@ -15,7 +15,7 @@
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ### 1. 🔍 Correzione quiz e note di servizio (⏱ 00:00–15:08)
 
@@ -284,7 +284,7 @@ Il fascio riflesso dal terreno è equivalente a quello che sarebbe generato da u
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - **Antenna** → è un → **trasduttore** (energia RF ↔ campo EM)
 - **Antenna** → si comporta come un → **circuito risonante serie** (L, C, R)
@@ -307,7 +307,7 @@ Il fascio riflesso dal terreno è equivalente a quello che sarebbe generato da u
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. **L'antenna è un trasduttore reversibile** che converte energia RF in campo EM e viceversa, analogamente a un altoparlante/microfono.
 
@@ -331,7 +331,7 @@ Il fascio riflesso dal terreno è equivalente a quello che sarebbe generato da u
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Spiegare perché la resistenza di radiazione non è una resistenza fisica misurabile con un tester e come si differenzia dall'impedenza nel punto di alimentazione.
 
@@ -351,7 +351,7 @@ Il fascio riflesso dal terreno è equivalente a quello che sarebbe generato da u
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Antenna immagine** — Antenna virtuale posta simmetricamente sotto il piano di terra, utilizzata per modellare l'effetto della riflessione del terreno.
 - **Antenna isotropica** — Antenna teorica che irradia con uguale intensità in tutte le direzioni. Usata come riferimento per il guadagno (dBi).

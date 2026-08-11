@@ -1,6 +1,6 @@
-# 📘 Lezione 12 - Propagazione
+# 📘 Lezione 12 - Transistor, FET, MOSFET e Valvole
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia**: Radiotecnica — Transistor, FET, MOSFET e Valvole Termoioniche
 - **Tempo di studio stimato**: 2 ore e 30 minuti
@@ -15,7 +15,7 @@
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ### 1. 🔍 Correzione Quiz Lezione 11 (⏱ 00:02)
 
@@ -280,7 +280,7 @@ Nella parte finale della lezione si discute di aspetti pratici dell'attività ra
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - **Transistor bipolare** → ha tre strati drogati → **NPN** o **PNP**
 - **Base** (sottilissima) → terminale di controllo → piccola corrente abilita → grande corrente **collettore-emettitore**
@@ -298,7 +298,7 @@ Nella parte finale della lezione si discute di aspetti pratici dell'attività ra
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. Il **transistor bipolare** è un amplificatore di corrente con tre terminali: base (controllo), collettore (uscita) e emettitore. Una piccola corrente in base abilita una corrente molto maggiore fra collettore ed emettitore.
 
@@ -322,7 +322,7 @@ Nella parte finale della lezione si discute di aspetti pratici dell'attività ra
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. In che modo il funzionamento del transistor bipolare è collegato a quello del diodo? Quali analogie ci sono tra la giunzione P-N del diodo e le giunzioni del transistor?
 
@@ -346,7 +346,7 @@ Nella parte finale della lezione si discute di aspetti pratici dell'attività ra
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Amplificatore a base comune** — Configurazione del transistor con base a massa; usata ad alta frequenza per prevenire oscillazioni. Bassa amplificazione di corrente, alta di tensione.
 - **Amplificatore a collettore comune (buffer)** — Configurazione del transistor con collettore comune a ingresso e uscita; guadagno in tensione ≈ 1, impedenza di ingresso alta, impedenza di uscita bassa. Usato come separatore.

@@ -1,6 +1,6 @@
 # 📘 Lezione 04 - Corrente Alternata
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia e argomento**: Elettrotecnica — induttori, reattanza induttiva e trasformatori. Vengono introdotti il campo magnetico, l'induzione elettromagnetica, l'induttore come componente, la reattanza induttiva e il trasformatore.
 - **Tempo di studio stimato**: 90–120 minuti
@@ -16,7 +16,7 @@
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ## 🧲 1. Magneti e campo magnetico (⏱ 21:18)
 
@@ -269,7 +269,7 @@ Le linee ad alta tensione usano trasformatori elevatori per trasportare l'energi
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - **Corrente in un conduttore** → genera → **Campo magnetico**
 - **Campo magnetico variabile** → induce → **Tensione in una spira** (Faraday)
@@ -286,7 +286,7 @@ Le linee ad alta tensione usano trasformatori elevatori per trasportare l'energi
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. Un conduttore percorso da corrente genera un campo magnetico; il fenomeno è reversibile (induzione elettromagnetica di Faraday).
 2. L'induttanza si misura in **Henry** (H), ma nella pratica si usano millihenry (mH), microhenry (µH) e nanohenry (nH). L'induttanza cresce con $N^2$, con la sezione S e con la permeabilità µ, mentre diminuisce con la lunghezza dell'avvolgimento.
@@ -298,7 +298,7 @@ Le linee ad alta tensione usano trasformatori elevatori per trasportare l'energi
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Perché un induttore oppone resistenza al passaggio della corrente alternata ma non della corrente continua?
 2. Come cambia l'induttanza di una bobina se si raddoppia il numero di spire mantenendo invariati tutti gli altri parametri?
@@ -311,7 +311,7 @@ Le linee ad alta tensione usano trasformatori elevatori per trasportare l'energi
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Bobina** — sinonimo di induttore; conduttore avvolto in più spire
 - **Costante di tempo (τ)** — tempo impiegato dalla corrente per raggiungere il 63% del valore di regime; per un circuito RL vale $\tau = L/R$

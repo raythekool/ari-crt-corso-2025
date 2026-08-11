@@ -1,6 +1,6 @@
-# 📘 Lezione 11 - Trasmettitori
+# 📘 Lezione 11 - Il Diodo e gli Alimentatori
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia**: Radiotecnica — Il Diodo e gli Alimentatori
 - **Tempo di studio stimato**: 2 ore e 30 minuti
@@ -15,7 +15,7 @@
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ### 1. 🔍 Correzione Quiz Lezione 10 (⏱ 00:02)
 
@@ -223,7 +223,7 @@ Alcuni alimentatori economici hanno un potenziometro etichettato "**noise offset
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - **Semiconduttore** (silicio) → con drogaggio diventa → **tipo P** (lacune) o **tipo N** (elettroni liberi)
 - **Giunzione P-N** → crea → **regione di svuotamento** (isolante naturale)
@@ -243,7 +243,7 @@ Alcuni alimentatori economici hanno un potenziometro etichettato "**noise offset
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. Il **diodo** è un componente a semiconduttore che consente il passaggio di corrente in una sola direzione: dall'anodo al catodo quando è in polarizzazione diretta (soglia ~0,7 V per il silicio).
 
@@ -267,7 +267,7 @@ Alcuni alimentatori economici hanno un potenziometro etichettato "**noise offset
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Perché un semiconduttore come il silicio ha bisogno del processo di drogaggio per diventare utile nell'elettronica? Cosa cambia tra il drogaggio di tipo P e quello di tipo N?
 
@@ -291,7 +291,7 @@ Alcuni alimentatori economici hanno un potenziometro etichettato "**noise offset
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Alimentatore a commutazione (switching)** — Alimentatore che converte la tensione di rete in DC tramite un chopper ad alta frequenza e un trasformatore HF, risultando leggero e compatto ma potenzialmente rumoroso in RF.
 - **Alimentatore lineare** — Alimentatore che usa un trasformatore a 50 Hz, un raddrizzatore, un filtro capacitivo e uno stabilizzatore per produrre tensione continua stabile. Pesante ma privo di interferenze RF.

@@ -12,6 +12,65 @@ This repository contains materials for the **Corso Aspiranti Radioamatori ARI To
 - `requirements.txt` — Python dependencies
 - `README.md` — Lecture index with YouTube links
 
+## Linting
+
+Markdown is linted with **markdownlint** using the rules in `.markdownlint.json`. To lint all files:
+
+```sh
+npx markdownlint-cli2 "**/*.md"
+```
+
+To lint a single file:
+
+```sh
+npx markdownlint-cli2 guide-studio/lezione_01.md
+```
+
+Key rules enabled: MD013 (line length) is **disabled**. MD024 (duplicate headings), MD028 (blank line in blockquote), MD029 (ordered list prefix), MD036 (emphasis as heading), MD040 (fenced code language) are also disabled.
+
+## Python Transcript Tool
+
+Transcripts are downloaded via a local Python script (`download_transcripts.py`, not committed). Install dependencies and run:
+
+```sh
+pip install -r requirements.txt
+python download_transcripts.py
+```
+
+The `requirements.txt` requires `youtube-transcript-api>=1.0.3`. Transcripts are saved to:
+- `transcripts/` — plain-text with timestamps
+- `transcripts (vtt)/` — WebVTT subtitle files
+
+## Deployment Pipeline
+
+The CI workflow (`.github/workflows/sync-gh-pages.yml`) runs on push to `main` and builds two separate Jekyll sites:
+
+| Target | Branch | Config | Base URL |
+|---|---|---|---|
+| GitHub Pages | `gh-pages` | `_config.yml` | `/ari-crt-corso-2025` |
+| Cloudflare Pages | `cf-pages` | `_config.cloudflare.yml` | `` (root) |
+
+**Only these files are published to the website** (everything else, including transcripts, is excluded):
+
+- `index.md`, `glossario.md`, `domande-esame.md`, `risorse.md`
+- `guide-studio/` (all lesson guides)
+- `_layouts/default.html` (custom layout with MathJax v3 and responsive nav)
+
+The `_layouts/default.html` injects MathJax v3 — this is why LaTeX math in Markdown files renders correctly on the website.
+
+## File Naming Conventions
+
+- Study guides: `guide-studio/lezione_XX.md` — `XX` is always **zero-padded two digits** (e.g., `lezione_01.md`, `lezione_22.md`)
+- Transcripts: `transcripts/ARI Toscana Formazione Corso 2025 Lezione XX DD MM YYYY.txt`
+- VTT files: `transcripts (vtt)/ARI Toscana Formazione Corso 2025 Lezione XX DD MM YYYY.vtt`
+
+## Scoped Instruction Files
+
+More specific rules are in `.github/instructions/`:
+
+- `markdown.instructions.md` — applies to `**/*.md`: full markdown + MathJax formatting rules
+- `study-guide.instructions.md` — applies to `guide-studio/**/*.md`: complete study guide generation structure and quality rules
+
 ## Repository Usage
 
 - For the commits, always follow instructions from: [ConventionalCommits](https://www.conventionalcommits.org/en/v1.0.0/#specification)

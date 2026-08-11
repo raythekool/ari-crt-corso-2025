@@ -1,6 +1,6 @@
 # 📘 Lezione 06 - Semiconduttori
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia e argomento**: Radiotecnica — filtri, circuiti risonanti e cristalli di quarzo. Prima lezione della sezione "radiotecnica" del corso, con un approccio più qualitativo e meno formule rispetto alle lezioni precedenti di elettrotecnica.
 - **Tempo di studio stimato**: 90–110 minuti
@@ -15,7 +15,7 @@
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ## 🔍 1. Revisione quiz Lezione 05 (⏱ 00:04 – 22:14)
 
@@ -286,7 +286,7 @@ I quarzi si presentano come piccoli contenitori metallici con due piedini. All'i
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - **Filtri** → sfruttano → **Variazione di reattanza con la frequenza**
 - **Filtro passa basso** → è speculare a → **Filtro passa alto**
@@ -303,7 +303,7 @@ I quarzi si presentano come piccoli contenitori metallici con due piedini. All'i
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. I **filtri** sono combinazioni di induttori e condensatori che attenuano o lasciano passare determinate bande di frequenza. Esistono quattro tipi: passa basso, passa alto, passa banda, elimina banda.
 2. La **frequenza di taglio** è il punto in cui la potenza si dimezza (−3 dB) oppure la tensione si riduce a $1/\sqrt{2} \approx 0{,}707$. Questi due valori sono equivalenti.
@@ -315,7 +315,7 @@ I quarzi si presentano come piccoli contenitori metallici con due piedini. All'i
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Perché un filtro LC passa basso ha una curva di attenuazione più ripida rispetto a un filtro RC? Cosa si intende per "poli" di un filtro?
 2. Spiegare perché la definizione di frequenza di taglio "metà potenza" è equivalente a "tensione pari a $0{,}707$".
@@ -327,7 +327,7 @@ I quarzi si presentano come piccoli contenitori metallici con due piedini. All'i
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Banda passante** — intervallo di frequenze che un filtro lascia passare con attenuazione trascurabile
 - **Circuito risonante** — circuito LC in cui a una specifica frequenza ($f_0$) le reattanze si annullano, producendo impedenza massima (parallelo) o minima (serie)

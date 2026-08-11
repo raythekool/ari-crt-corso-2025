@@ -1,6 +1,6 @@
-# 📘 Lezione 10 - Ricevitori
+# 📘 Lezione 10 - Bande Radioamatoriali e Organizzazioni Internazionali
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia**: Normativa radioamatoriale — Bande radioamatoriali, frequenze, band plan, ITU, IARU, ARI, legislazione
 - **Tempo di studio stimato**: 2 ore e 30 minuti
@@ -16,7 +16,7 @@
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ### 1. 📝 Correzione quiz Lezione 09 — Ripasso normativa
 
@@ -316,7 +316,7 @@ L'autorizzazione generale può essere **sospesa o revocata** in caso di comporta
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - **Onda elettromagnetica** → è il mezzo di trasporto per → **comunicazione radio**
 - **Lunghezza d'onda ($\lambda$)** → è inversamente proporzionale a → **frequenza ($f$)**
@@ -340,7 +340,7 @@ L'autorizzazione generale può essere **sospesa o revocata** in caso di comporta
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. **Le onde elettromagnetiche** sono il mezzo di trasporto delle comunicazioni radio. La scelta della frequenza determina le caratteristiche di propagazione, analogamente alla scelta del mezzo di trasporto per uno spostamento fisico.
 
@@ -364,7 +364,7 @@ L'autorizzazione generale può essere **sospesa o revocata** in caso di comporta
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Spiega la relazione tra lunghezza d'onda e frequenza utilizzando la formula $\lambda = 300/f$. Perché a frequenze più alte corrispondono lunghezze d'onda più corte?
 
@@ -388,7 +388,7 @@ L'autorizzazione generale può essere **sospesa o revocata** in caso di comporta
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Allegato 26** — Allegato al Codice delle Comunicazioni Elettroniche che elenca i temi d'esame per la patente di radioamatore.
 - **ARI** — Associazione Radioamatori Italiani, unica associazione nazionale membro della IARU.

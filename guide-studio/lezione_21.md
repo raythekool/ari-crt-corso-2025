@@ -1,6 +1,6 @@
-# 📘 Lezione 21 - Normative Internazionali
+# 📘 Lezione 21 - Antenne - Parte 2: Direttività e Guadagno
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia**: Antenne — Parte 2: Antenne direttive, efficienza di radiazione, misure e aspetti pratici
 - **Tempo di studio stimato**: 2 ore e 30 minuti
@@ -14,7 +14,7 @@
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ### 1. 🔄 Riepilogo: Relazione tra Propagazione e Angolo di Radiazione
 
@@ -325,7 +325,7 @@ Viene menzionata un'esperienza di riflessione lunare (EME — Earth-Moon-Earth) 
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - Angolo di radiazione → deve coincidere con → angolo di riflessione ionosferica per DX
 - Antenne direttive → concentrano energia → in una direzione preferenziale
@@ -348,7 +348,7 @@ Viene menzionata un'esperienza di riflessione lunare (EME — Earth-Moon-Earth) 
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. **Angolo di radiazione e propagazione**: Per i collegamenti DX in HF, l'angolo di radiazione ottimale è compreso tra 0° e 20°. L'antenna deve concentrare la massima energia in questa fascia.
 
@@ -374,7 +374,7 @@ Viene menzionata un'esperienza di riflessione lunare (EME — Earth-Moon-Earth) 
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Perché un'antenna con ROS prossimo a 1:1 potrebbe comunque avere un'efficienza di radiazione molto bassa? Spiega con un esempio numerico.
 
@@ -398,7 +398,7 @@ Viene menzionata un'esperienza di riflessione lunare (EME — Earth-Moon-Earth) 
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Antenna artificiale** — Sinonimo di carico fittizio (dummy load). Resistenza pura usata per prove di trasmettitori senza irradiare. Termine usato nelle domande d'esame.
 - **Antenna isotropica** — Sorgente puntiforme ideale che irradia uniformemente in tutte le direzioni. Esiste solo come riferimento teorico.

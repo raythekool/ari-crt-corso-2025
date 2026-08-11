@@ -1,6 +1,6 @@
 # 📘 Lezione 01 - Introduzione al Corso
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia e argomento**: Elettrotecnica di base — corrente continua. Vengono introdotti i concetti fondamentali di tensione, corrente, potenza, energia, i generatori di corrente continua e gli effetti della corrente elettrica.
 - **Tempo di studio stimato**: 90–120 minuti
@@ -16,7 +16,7 @@
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ## 🔬 1. Struttura dell'atomo e cariche elettriche (⏱ 03:10)
 
@@ -301,7 +301,7 @@ Un cavo elettrico percorso da corrente **genera un campo magnetico**. Questo fu 
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - Atomo → contiene → Protoni (carica +), Neutroni (neutri), Elettroni (carica −)
 - Elettroni liberi → costituiscono → Carica elettrica (misurata in coulomb)
@@ -323,7 +323,7 @@ Un cavo elettrico percorso da corrente **genera un campo magnetico**. Questo fu 
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. **L'atomo** è composto da protoni (carica positiva), neutroni (neutri) ed elettroni (carica negativa). Un atomo neutro ha ugual numero di protoni ed elettroni.
 
@@ -351,7 +351,7 @@ Un cavo elettrico percorso da corrente **genera un campo magnetico**. Questo fu 
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Perché la corrente continua viene definita "continua" anche se la sua ampiezza può variare nel tempo? In che modo si distingue dalla corrente alternata?
 
@@ -375,7 +375,7 @@ Un cavo elettrico percorso da corrente **genera un campo magnetico**. Questo fu 
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Accumulatore (batteria)** — Generatore elettrochimico con reazione chimica reversibile, ricaricabile. Caratterizzato da tensione e capacità (Ah).
 - **Alternatore** — Generatore di corrente alternata basato sul moto meccanico e l'interazione di campi magnetici.

@@ -1,6 +1,6 @@
 # 📘 Lezione 05 - Componenti Elettronici
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia e argomento**: Elettrotecnica — il condensatore, la reattanza capacitiva e l'impedenza. Viene completata la trattazione dei tre componenti fondamentali (resistore, induttore, condensatore) e introdotto il concetto unificante di impedenza.
 - **Tempo di studio stimato**: 90–120 minuti
@@ -16,7 +16,7 @@
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ## 🔋 1. Il condensatore: struttura e funzionamento (⏱ 39:20)
 
@@ -310,7 +310,7 @@ L'Enel impone alle utenze industriali un **cos φ ≥ 0,8** (rifasamento). I car
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - **Condensatore** → è composto da → **Due armature + dielettrico**
 - **Dielettrico** → determina → **Capacità (ε) e tensione massima (rigidità dielettrica)**
@@ -326,7 +326,7 @@ L'Enel impone alle utenze industriali un **cos φ ≥ 0,8** (rifasamento). I car
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. Il condensatore accumula carica elettrica sotto forma di campo elettrico. Blocca la corrente continua e lascia passare la corrente alternata — l'opposto dell'induttore.
 2. La capacità si misura in **Farad** (F), con sottomultipli µF, nF, pF. Dipende dalla superficie delle armature (S), dalla costante dielettrica (ε) e inversamente dalla distanza (D).
@@ -338,7 +338,7 @@ L'Enel impone alle utenze industriali un **cos φ ≥ 0,8** (rifasamento). I car
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Perché il condensatore blocca la corrente continua ma lascia passare la corrente alternata? In cosa differisce dall'induttore?
 2. Come varia la capacità di un condensatore se si raddoppia la distanza fra le armature mantenendo invariati gli altri parametri?
@@ -351,7 +351,7 @@ L'Enel impone alle utenze industriali un **cos φ ≥ 0,8** (rifasamento). I car
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Armatura** — ciascuna delle due piastre conduttive che compongono un condensatore
 - **Capacità (C)** — grandezza che esprime quanta carica elettrica un condensatore può immagazzinare per unità di tensione; si misura in Farad

@@ -1,6 +1,6 @@
-# 📘 Lezione 13 - Antenne - Parte 1
+# 📘 Lezione 13 - Amplificatori, Oscillatori e Decibel
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia**: Radiotecnica — Amplificatori, Oscillatori e Decibel
 - **Tempo di studio stimato**: 90–110 minuti
@@ -15,7 +15,7 @@
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ### 1. 🔍 Correzione Quiz Lezione 12 (⏱ 00:02–18:00)
 
@@ -346,7 +346,7 @@ Un partecipante racconta la sua esperienza con transistor 2N3055 contraffatti ac
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - **Amplificatore** → si classifica in → **BF** (senza circuiti risonanti) o **AF** (con circuiti risonanti)
 - **Guadagno** → è il rapporto → $P_{out}/P_{in}$
@@ -371,7 +371,7 @@ Un partecipante racconta la sua esperienza con transistor 2N3055 contraffatti ac
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. Gli amplificatori si dividono in **BF** (bassa frequenza, senza circuiti risonanti, banda larga) e **AF** (alta frequenza, con circuiti risonanti, selettivi su una frequenza specifica).
 
@@ -395,7 +395,7 @@ Un partecipante racconta la sua esperienza con transistor 2N3055 contraffatti ac
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Perché un amplificatore BF non utilizza circuiti risonanti, mentre un amplificatore AF sì? Quale implicazione ha questa differenza sulla curva di risposta in frequenza?
 
@@ -419,7 +419,7 @@ Un partecipante racconta la sua esperienza con transistor 2N3055 contraffatti ac
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Amplificatore AF (Alta Frequenza)** — amplificatore con circuiti risonanti per amplificare selettivamente una banda stretta di frequenze radio
 - **Amplificatore BF (Bassa Frequenza)** — amplificatore senza circuiti risonanti per amplificare uniformemente la banda audio (20–18.000 Hz)

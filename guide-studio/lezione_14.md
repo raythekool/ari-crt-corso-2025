@@ -1,6 +1,6 @@
-# 📘 Lezione 14 - Antenne - Parte 2
+# 📘 Lezione 14 - Trasduttori, Mixer e Trasmettitori
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia**: Radiotecnica — Trasduttori, Miscelatori, Trasmettitori e Intermodulazione
 - **Tempo di studio stimato**: 100–120 minuti
@@ -14,7 +14,7 @@
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ### 1. 🔍 Correzione Quiz Lezione 13 (⏱ 00:03–12:30)
 
@@ -287,7 +287,7 @@ Quando l'amplificatore distorce con più segnali in ingresso ($f_1$ e $f_2$), si
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - **Trasduttore** → si divide in → **microfono** (acustico→elettrico) e **altoparlante** (elettrico→acustico)
 - **Microfono dinamico** → funziona come → **altoparlante al contrario**
@@ -307,7 +307,7 @@ Quando l'amplificatore distorce con più segnali in ingresso ($f_1$ e $f_2$), si
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. I **microfoni** trasformano onde acustiche in segnali elettrici; i quattro tipi sono: carbone (storico), cristallo/ceramico (ottimo per radio, enfatizza acuti), condensatore (migliore qualità, richiede alimentazione) e dinamico (buona fedeltà, funziona come altoparlante al contrario).
 
@@ -331,7 +331,7 @@ Quando l'amplificatore distorce con più segnali in ingresso ($f_1$ e $f_2$), si
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Qual è la differenza fondamentale tra un microfono a condensatore e uno dinamico, sia nel principio di funzionamento sia nella necessità di alimentazione?
 
@@ -355,7 +355,7 @@ Quando l'amplificatore distorce con più segnali in ingresso ($f_1$ e $f_2$), si
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Accordatore d'antenna (pi-greco)** — circuito con 2 condensatori variabili e 1 induttore che adatta l'impedenza di uscita del TX a 50 Ω dell'antenna
 - **Altoparlante** — trasduttore che converte segnale elettrico in onda acustica tramite interazione tra magnete permanente e bobina mobile
