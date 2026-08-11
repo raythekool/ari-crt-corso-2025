@@ -3,9 +3,9 @@ layout: default
 permalink: /guide-studio/lezione_22.html
 ---
 
-# 📘 Lezione 22 - Procedure Operative
+# 📘 Lezione 22 - Normativa Nazionale e Internazionale
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia**: Legislazione radioamatoriale — Parte 1: Struttura normativa, D.Lgs. 259/2003, articoli 134-145, CEPT e reciprocità internazionale
 - **Tempo di studio stimato**: 2 ore
@@ -19,7 +19,7 @@ permalink: /guide-studio/lezione_22.html
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ### 1. 📝 Correzione Quiz sulle Antenne
 
@@ -294,7 +294,7 @@ I codici dei modi di emissione (es. J3E, A1A, F3E) saranno affrontati nella pros
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - ITU → definisce → servizio di radioamatore (art. 25)
 - IARU → rappresenta i radioamatori → nella ITU
@@ -316,7 +316,7 @@ I codici dei modi di emissione (es. J3E, A1A, F3E) saranno affrontati nella pros
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. **D.Lgs. 259/2003**: La legge fondamentale per i radioamatori italiani è il Decreto Legislativo 259/2003 (Codice delle comunicazioni elettroniche). Solo ~10 articoli (134-145) riguardano specificamente i radioamatori.
 
@@ -340,7 +340,7 @@ I codici dei modi di emissione (es. J3E, A1A, F3E) saranno affrontati nella pros
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Qual è la differenza fondamentale tra patente e autorizzazione radioamatoriale in termini di durata? Perché questa distinzione è rilevante per l'esame?
 
@@ -364,7 +364,7 @@ I codici dei modi di emissione (es. J3E, A1A, F3E) saranno affrontati nella pros
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Allegato 25** — Parte del D.Lgs. 259/2003 che disciplina i contributi economici (pagamento di 50 € per l'autorizzazione).
 - **Allegato 26** — Parte del D.Lgs. 259/2003 che contiene le norme attuative dettagliate: potenze, procedure, moduli, programma d'esame, regole sulle ripetitrici.

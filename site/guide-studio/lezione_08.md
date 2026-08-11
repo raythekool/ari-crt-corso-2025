@@ -3,9 +3,9 @@ layout: default
 permalink: /guide-studio/lezione_08.html
 ---
 
-# 📘 Lezione 08 - Oscillatori
+# 📘 Lezione 08 - Matematica per la Radiotecnica
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia**: Matematica applicata alla radiotecnica
 - **Argomento**: Notazione scientifica, equivalenze tra unità di misura, equazioni di primo grado, logaritmi in base 10
@@ -20,7 +20,7 @@ permalink: /guide-studio/lezione_08.html
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ### 1. 🔢 Notazione Scientifica (⏱ 05:04–15:52)
 
@@ -262,7 +262,7 @@ Il metodo consiste nell'**isolare il logaritmo con l'incognita** da un lato dell
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - **Notazione scientifica** → usa → **Potenze del 10** per rappresentare numeri grandi e piccoli
 - **Multipli e sottomultipli** → sono espressi come → **Potenze del 10** (kilo = $10^3$, milli = $10^{-3}$, micro = $10^{-6}$, ecc.)
@@ -279,7 +279,7 @@ Il metodo consiste nell'**isolare il logaritmo con l'incognita** da un lato dell
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. La **notazione scientifica** rappresenta un numero come parte numerica × potenza del 10. Esponente positivo → numero grande (virgola a destra); esponente negativo → numero piccolo (virgola a sinistra), mai negativo.
 
@@ -299,7 +299,7 @@ Il metodo consiste nell'**isolare il logaritmo con l'incognita** da un lato dell
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Come si converte il numero $4{,}7 \times 10^{-5}$ in notazione decimale? Spiega il procedimento passo per passo.
 
@@ -319,7 +319,7 @@ Il metodo consiste nell'**isolare il logaritmo con l'incognita** da un lato dell
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Equivalenza (di unità di misura)** — Espressione di una stessa grandezza fisica in un multiplo o sottomultiplo diverso ma di uguale valore (es. 12 µH = 0,012 mH).
 - **Equazione di primo grado** — Equazione algebrica in cui l'incognita compare con esponente 1 e si risolve isolando l'incognita mediante operazioni inverse.

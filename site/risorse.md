@@ -14,7 +14,7 @@ Materiale supplementare per approfondire gli argomenti del corso.
 
 - **[ARI - Associazione Radioamatori Italiani](https://www.ari.it/)** — Sito ufficiale ARI
 - **[ARI Toscana](https://www.aritoscana.it/)** — Sezione regionale
-- **[Ministero dello Sviluppo Economico](https://www.mise.gov.it/)** — Informazioni su patenti e normative
+- **[MIMIT - Ministero delle Imprese e del Made in Italy](https://www.mimit.gov.it/)** — Informazioni su patenti e normative (ex Ministero dello Sviluppo Economico)
 - **[ITU - International Telecommunication Union](https://www.itu.int/)** — Regolamenti internazionali
 
 ### Database e Riferimenti
@@ -109,7 +109,7 @@ Materiale supplementare per approfondire gli argomenti del corso.
 
 - **[Decreto Ministeriale Patenti](https://www.gazzettaufficiale.it/)** — Normativa italiana
 - **[CEPT Recommendations](https://www.ecodocdb.dk/doks/doccontent.nsf/)** — Accordi internazionali
-- **[Elenco Domande d'Esame](https://www.mise.gov.it/)** — Database ufficiale
+- **[Elenco Domande d'Esame](https://www.mimit.gov.it/)** — Database ufficiale
 
 ## 🔧 Hardware Consigliato
 
@@ -143,7 +143,7 @@ Materiale supplementare per approfondire gli argomenti del corso.
 
 ### Esami e Patenti
 
-- **Ufficio Territoriale MISE** — Per informazioni esami locali
+- **Ufficio Territoriale MIMIT** — Per informazioni esami locali
 - **Segreteria ARI Nazionale** — Tel: 051 6331328
 
 ### Supporto Tecnico

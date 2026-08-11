@@ -3,9 +3,9 @@ layout: default
 permalink: /guide-studio/lezione_15.html
 ---
 
-# 📘 Lezione 15 - Linee di Trasmissione
+# 📘 Lezione 15 - Tecnica dei Ricevitori
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia**: Elettronica e tecnica dei ricevitori radio
 - **Argomento principale**: I ricevitori radioamatoriali — architettura supereterodina, tipi di rivelatori, AGC, frequenza immagine e problemi dei ricevitori
@@ -20,7 +20,7 @@ permalink: /guide-studio/lezione_15.html
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ### 1. 📝 Correzione quiz Lezione 14 (⏱ 00:02)
 
@@ -405,7 +405,7 @@ Il **filtro notch** — lavora in media frequenza, subito dopo il filtro princip
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - Ricevitore supereterodina → utilizza → conversione di frequenza
 - Oscillatore locale (VFO) → determina → frequenza ricevuta
@@ -429,7 +429,7 @@ Il **filtro notch** — lavora in media frequenza, subito dopo il filtro princip
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. Il **ricevitore supereterodina** converte il segnale ricevuto a una frequenza intermedia fissa tramite un mixer e un oscillatore locale variabile; la manopola di sintonia varia la frequenza dell'oscillatore locale.
 
@@ -457,7 +457,7 @@ Il **filtro notch** — lavora in media frequenza, subito dopo il filtro princip
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Perché, in un ricevitore supereterodina, la manopola di sintonia non agisce direttamente sul filtro ma sull'oscillatore locale? Quali problemi risolve questa architettura?
 
@@ -481,7 +481,7 @@ Il **filtro notch** — lavora in media frequenza, subito dopo il filtro princip
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **AGC (Automatic Gain Control)** — Controllo automatico di guadagno; circuito di retroazione che mantiene costante il livello dell'audio in uscita regolando il guadagno degli amplificatori IF
 - **Amplificatore BF** — Amplificatore di bassa frequenza; amplifica il segnale audio per pilotare l'altoparlante

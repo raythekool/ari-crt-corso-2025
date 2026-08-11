@@ -5,7 +5,7 @@ permalink: /guide-studio/lezione_02.html
 
 # 📘 Lezione 02 - Fondamenti di Elettrotecnica
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia e argomento**: Elettrotecnica di base — la resistenza elettrica, la legge di Ohm, il resistore, le resistenze in serie e in parallelo, le leggi di Kirchhoff.
 - **Tempo di studio stimato**: 90–120 minuti
@@ -23,7 +23,7 @@ permalink: /guide-studio/lezione_02.html
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ## 🔍 1. Riepilogo e correzione quiz della Lezione 01 (⏱ 00:02)
 
@@ -501,7 +501,7 @@ Un partecipante chiede come misurare le tensioni sulle singole resistenze in un 
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - Resistenza elettrica → si misura in → ohm (Ω)
 - Resistenza di un conduttore → dipende da → resistività ($\rho$), lunghezza ($L$), sezione ($S$)
@@ -530,7 +530,7 @@ Un partecipante chiede come misurare le tensioni sulle singole resistenze in un 
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. La **resistenza elettrica** è l'opposizione che un materiale offre al passaggio della corrente e si misura in **ohm** (Ω). 1 Ω = 1 V / 1 A.
 
@@ -556,7 +556,7 @@ Un partecipante chiede come misurare le tensioni sulle singole resistenze in un 
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Un conduttore in rame lungo 10 m ha una certa resistenza. Se raddoppio la lunghezza a 20 m mantenendo la stessa sezione, come cambia la resistenza? E se invece raddoppio la sezione mantenendo la stessa lunghezza?
 
@@ -580,7 +580,7 @@ Un partecipante chiede come misurare le tensioni sulle singole resistenze in un 
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Amperora (Ah)** — Unità di misura della capacità delle batterie; indica quanta corrente una batteria può erogare per quanto tempo.
 - **Caduta di tensione** — Riduzione della tensione che si verifica ai capi di un componente attraversato da corrente.

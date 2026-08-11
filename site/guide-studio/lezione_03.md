@@ -5,7 +5,7 @@ permalink: /guide-studio/lezione_03.html
 
 # 📘 Lezione 03 - Circuiti Elettrici
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia e argomento**: Elettrotecnica — la corrente alternata: sinusoide, frequenza, periodo, valori caratteristici della tensione alternata, fase, potenza in corrente alternata (potenza reale, apparente, reattiva), fattore di potenza (cos φ).
 - **Tempo di studio stimato**: 90–120 minuti
@@ -24,7 +24,7 @@ permalink: /guide-studio/lezione_03.html
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ## 🔍 1. Riepilogo e correzione quiz della Lezione 02 (⏱ 00:01)
 
@@ -420,7 +420,7 @@ Il **rifasamento** è un'operazione tecnica (mediante condensatori o dispositivi
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - Corrente continua → scorre in un solo verso → generata da tensione costante
 - Corrente alternata → inverte ciclicamente il verso → generata da tensione alternata (alternatore)
@@ -450,7 +450,7 @@ Il **rifasamento** è un'operazione tecnica (mediante condensatori o dispositivi
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. La **corrente alternata** è una corrente che inverte periodicamente il senso di scorrimento, generata da una tensione alternata sinusoidale prodotta da un alternatore.
 2. La **sinusoide** si ottiene geometricamente dalla proiezione di un punto che ruota a velocità angolare costante su una circonferenza: ogni 360° si completa un ciclo.
@@ -466,7 +466,7 @@ Il **rifasamento** è un'operazione tecnica (mediante condensatori o dispositivi
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Spiega la differenza fondamentale tra corrente continua e corrente alternata in termini di comportamento del generatore e della corrente nel circuito. Perché un generatore in corrente continua ha poli fissi positivo e negativo, mentre un alternatore no?
 
@@ -490,7 +490,7 @@ Il **rifasamento** è un'operazione tecnica (mediante condensatori o dispositivi
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Alternatore** — Macchina elettrica rotante che produce corrente alternata sinusoidale, basata sulla rotazione di una spira in un campo magnetico.
 - **Angolo di sfasamento (φ)** — Angolo in gradi che misura la differenza di fase tra la sinusoide della tensione e quella della corrente in un circuito in corrente alternata.

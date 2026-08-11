@@ -3,9 +3,9 @@ layout: default
 permalink: /guide-studio/lezione_17.html
 ---
 
-# 📘 Lezione 17 - Serata Speciale
+# 📘 Lezione 17 - Sicurezza Elettrica e Fulmini (Serata Speciale)
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia**: Sicurezza elettrica e protezione contro i fulmini
 - **Tempo di studio stimato**: 60–75 minuti
@@ -22,7 +22,7 @@ permalink: /guide-studio/lezione_17.html
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ### 1. 🔍 Correzione quiz Lezione 16 (⏱ 00:02–09:11)
 
@@ -369,7 +369,7 @@ Senza differenziale, si richiedevano valori non superiori a **20 Ω**.
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - **Corrente alternata 50 Hz** → è più pericolosa di → **corrente continua** (a parità di tensione)
 - **50 Hz** → può provocare → **fibrillazione ventricolare** (cuore batte a ~1 Hz, non può adattarsi)
@@ -391,7 +391,7 @@ Senza differenziale, si richiedevano valori non superiori a **20 Ω**.
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. **La corrente alternata a 50 Hz è molto più pericolosa della corrente continua** a parità di tensione, perché può indurre fibrillazione ventricolare nel cuore umano. La soglia di percezione AC è 0,5 mA contro i 2 mA della DC.
 
@@ -415,7 +415,7 @@ Senza differenziale, si richiedevano valori non superiori a **20 Ω**.
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Perché la corrente alternata a 50 Hz è più pericolosa della corrente continua a parità di tensione? Quali sono le differenze nelle soglie di percezione, tetanizzazione e fibrillazione?
 
@@ -439,7 +439,7 @@ Senza differenziale, si richiedevano valori non superiori a **20 Ω**.
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **Anello di guasto** — percorso completo che la corrente compie in caso di guasto, dalla massa attraverso il corpo e il terreno fino al centro stella del trasformatore
 - **Arco elettrico** — scarica luminosa ad altissima temperatura (fino a 3000–4000 °C) che si verifica durante cortocircuiti

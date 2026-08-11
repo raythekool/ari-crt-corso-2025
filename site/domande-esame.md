@@ -38,29 +38,28 @@ Le domande sono suddivise in tre argomenti principali:
 
 - Resistori, condensatori, induttori
 - Diodi e loro applicazioni
-- Transistor e amplificatori
-- Circuiti integrati
+- Transistor, FET, MOSFET e valvole
+- Alimentatori lineari e switching
 
-**Lezioni correlate**: [05](guide-studio/lezione_05.html), [06](guide-studio/lezione_06.html), [07](guide-studio/lezione_07.html)
+**Lezioni correlate**: [05](guide-studio/lezione_05.html), [06](guide-studio/lezione_06.html), [11](guide-studio/lezione_11.html), [12](guide-studio/lezione_12.html)
 
-### 3. Circuiti RF
+### 3. Circuiti RF e Modulazione
 
-- Oscillatori
-- Mixer e moltiplicatori
-- Amplificatori RF
-- Modulazione (AM, FM, SSB)
+- Oscillatori e amplificatori (classi, decibel)
+- Trasduttori e mixer
+- Modulazione (AM, FM, SSB) e modi di emissione
+- Tecnica dei ricevitori (supereterodina, AGC)
 
-**Lezioni correlate**: [08](guide-studio/lezione_08.html), [09](guide-studio/lezione_09.html), [10](guide-studio/lezione_10.html), [11](guide-studio/lezione_11.html)
+**Lezioni correlate**: [07](guide-studio/lezione_07.html), [13](guide-studio/lezione_13.html), [14](guide-studio/lezione_14.html), [15](guide-studio/lezione_15.html)
 
 ### 4. Propagazione e Antenne
 
 - Strati dell'atmosfera (ionosfera)
 - Modi di propagazione
-- Tipi di antenne
-- Diagrammi di radiazione
+- Tipi di antenne, direttività e guadagno
 - Linee di trasmissione e ROS
 
-**Lezioni correlate**: [12](guide-studio/lezione_12.html), [13](guide-studio/lezione_13.html), [14](guide-studio/lezione_14.html), [15](guide-studio/lezione_15.html)
+**Lezioni correlate**: [18](guide-studio/lezione_18.html), [19](guide-studio/lezione_19.html), [20](guide-studio/lezione_20.html), [21](guide-studio/lezione_21.html)
 
 ### 5. Misure e Strumenti
 
@@ -72,35 +71,32 @@ Le domande sono suddivise in tre argomenti principali:
 
 **Lezioni correlate**: [16](guide-studio/lezione_16.html)
 
-### 6. Interferenze e Sicurezza
+### 6. Sicurezza Elettrica
 
-- EMC e compatibilità elettromagnetica
-- Filtri e schermature
-- Messa a terra
-- Sicurezza elettrica
-- Limiti di esposizione RF
+- Effetti della corrente sul corpo umano
+- Messa a terra e interruttore differenziale
+- Protezione contro i fulmini (LPS, SPD)
 
-**Lezioni correlate**: [18](guide-studio/lezione_18.html), [19](guide-studio/lezione_19.html)
+**Lezioni correlate**: [17](guide-studio/lezione_17.html)
 
 ### 7. Normative
 
-- Regolamento nazionale italiano
+- Regolamento nazionale italiano (D.Lgs. 259/2003)
 - Accordi CEPT
 - ITU Radio Regulations
 - Bande e potenze assegnate
 - Obblighi del radioamatore
 
-**Lezioni correlate**: [20](guide-studio/lezione_20.html), [21](guide-studio/lezione_21.html)
+**Lezioni correlate**: [10](guide-studio/lezione_10.html), [22](guide-studio/lezione_22.html)
 
 ### 8. Procedure Operative
 
 - Alfabeto fonetico internazionale
-- Codice Q
-- Procedure di chiamata
-- Contest e DX
-- Emergenze e protezione civile
+- Codice Q e rapporto RST
+- Indicativi di chiamata e locatore
+- Matematica di base per la radiotecnica
 
-**Lezioni correlate**: [22](guide-studio/lezione_22.html)
+**Lezioni correlate**: [08](guide-studio/lezione_08.html), [09](guide-studio/lezione_09.html)
 
 ## 📝 Esempi di Domande Tipiche
 
@@ -199,17 +195,17 @@ Le domande sono suddivise in tre argomenti principali:
 ## 🔗 Risorse per Esercitarti
 
 - **[Simulatore Esame Online](https://www.aricarpi.it/simulatore/)** — Quiz ufficiali
-- **[Database Domande MISE](https://www.mise.gov.it/)** — Domande ufficiali
+- **[Database Domande MIMIT](https://www.mimit.gov.it/)** — Domande ufficiali
 - **[Quiz ARI](https://www.ari.it/patenti/)** — Esercitazioni
 
 ## 📅 Come Iscriversi all'Esame
 
-1. Contatta l'ufficio territoriale MISE più vicino
+1. Contatta l'ufficio territoriale MIMIT più vicino
 2. Compila il modulo di iscrizione
 3. Paga il bollettino (circa 50€)
 4. Presentati con documento d'identità
 
-**Contatti MISE**: [www.mise.gov.it](https://www.mise.gov.it/)
+**Contatti MIMIT**: [www.mimit.gov.it](https://www.mimit.gov.it/)
 
 ---
 

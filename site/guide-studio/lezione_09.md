@@ -3,9 +3,9 @@ layout: default
 permalink: /guide-studio/lezione_09.html
 ---
 
-# 📘 Lezione 09 - Modulazione
+# 📘 Lezione 09 - Alfabeto Fonetico, Codice Q e Indicativi
 
-## 📌 Overview
+## 📌 Panoramica
 
 - **Materia**: Normativa radioamatoriale — Alfabeto fonetico, indicativi di chiamata, abbreviazioni telegrafiche, codice Q, rapporto RST e locatore
 - **Tempo di studio stimato**: 2 ore e 30 minuti
@@ -21,7 +21,7 @@ permalink: /guide-studio/lezione_09.html
 
 ---
 
-## 📖 Core Content
+## 📖 Contenuti Teorici
 
 ### 1. 📝 Correzione quiz Lezione 08 — Ripasso matematica
 
@@ -322,7 +322,7 @@ Il locatore completo a 6 caratteri (es. **JN54ja**) identifica un'area di alcuni
 
 ---
 
-## 🔗 Concept Map (testuale)
+## 🔗 Mappa Concettuale
 
 - **Alfabeto fonetico ICAO/ITU** → elimina ambiguità → **comunicazioni radio**
 - **Indicativo di chiamata** → è composto da → **Prefisso + Numero + Suffisso**
@@ -345,7 +345,7 @@ Il locatore completo a 6 caratteri (es. **JN54ja**) identifica un'area di alcuni
 
 ---
 
-## 📝 Key Takeaways
+## 📝 Punti Chiave
 
 1. **L'alfabeto fonetico NATO/ICAO/ITU** è uno standard internazionale che elimina l'ambiguità nello spelling durante le comunicazioni radio. Le parole scelte sono studiate per essere non confondibili tra loro, anche in condizioni di ascolto difficili.
 
@@ -369,7 +369,7 @@ Il locatore completo a 6 caratteri (es. **JN54ja**) identifica un'area di alcuni
 
 ---
 
-## ❓ Comprehension Questions
+## ❓ Domande di Comprensione
 
 1. Perché l'alfabeto fonetico ICAO/ITU prevede parole specifiche come "Papa", "Bravo" e "Tango" invece di lasciare libertà di scelta al radioamatore? Quali problemi potrebbe causare l'uso di parole non standard?
 
@@ -393,7 +393,7 @@ Il locatore completo a 6 caratteri (es. **JN54ja**) identifica un'area di alcuni
 
 ---
 
-## 📚 Glossary
+## 📚 Glossario
 
 - **73** — Abbreviazione telegrafica che significa "saluti cordiali". È un saluto universale tra radioamatori.
 - **Alfabeto fonetico (NATO/ICAO/ITU)** — Standard internazionale che assegna una parola univoca a ciascuna lettera dell'alfabeto per eliminare ambiguità nelle comunicazioni radio.
