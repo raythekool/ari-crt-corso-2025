@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Circuiti Elettrici"
 permalink: /guide-studio/lezione_03.html
 ---
 

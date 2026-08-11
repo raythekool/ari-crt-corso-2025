@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Fondamenti di Elettrotecnica"
 permalink: /guide-studio/lezione_02.html
 ---
 

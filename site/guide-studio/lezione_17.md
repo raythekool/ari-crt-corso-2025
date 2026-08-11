@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Sicurezza Elettrica e Fulmini (Serata Speciale)"
 permalink: /guide-studio/lezione_17.html
 ---
 

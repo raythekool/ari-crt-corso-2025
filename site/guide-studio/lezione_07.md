@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Modi di Emissione: AM, SSB e FM"
 permalink: /guide-studio/lezione_07.html
 ---
 

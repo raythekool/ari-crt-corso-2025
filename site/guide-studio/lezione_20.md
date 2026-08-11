@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Antenne - Parte 1: Fondamenti e Risonanza"
 permalink: /guide-studio/lezione_20.html
 ---
 

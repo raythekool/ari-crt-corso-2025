@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Trasduttori, Mixer e Trasmettitori"
 permalink: /guide-studio/lezione_14.html
 ---
 

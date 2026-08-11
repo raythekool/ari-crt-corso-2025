@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Tecnica dei Ricevitori"
 permalink: /guide-studio/lezione_15.html
 ---
 

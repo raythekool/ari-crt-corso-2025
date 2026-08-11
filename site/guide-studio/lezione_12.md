@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Transistor, FET, MOSFET e Valvole"
 permalink: /guide-studio/lezione_12.html
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Il Diodo e gli Alimentatori"
 permalink: /guide-studio/lezione_11.html
 ---
 

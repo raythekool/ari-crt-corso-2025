@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Linee di Trasmissione e ROS"
 permalink: /guide-studio/lezione_19.html
 ---
 
