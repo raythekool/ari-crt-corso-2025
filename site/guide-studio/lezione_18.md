@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Propagazione Ionosferica"
 permalink: /guide-studio/lezione_18.html
 ---
 

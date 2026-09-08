@@ -1,0 +1,77 @@
+@layer tokens {
+  :root {
+    --font-family-base: "IBM Plex Sans", "Segoe UI", sans-serif;
+    --font-family-mono: "IBM Plex Mono", "Cascadia Code", monospace;
+
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-md: 1.125rem;
+    --font-size-lg: clamp(1.375rem, 1.1rem + 1vw, 1.9rem);
+    --font-size-xl: clamp(1.85rem, 1.3rem + 2.2vw, 3.4rem);
+
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    --color-primary: #0f5d73;
+    --color-primary-dark: #09384a;
+    --color-primary-light: #d7edf2;
+    --color-success: #3f7d58;
+    --color-warning: #c47b2a;
+    --color-error: #b6493a;
+    --color-info: #2f6fa3;
+
+    --color-surface-base: #f3efe6;
+    --color-surface-card: #fffdf8;
+    --color-surface-overlay: rgba(255, 253, 248, 0.8);
+    --color-surface-hero: rgba(9, 56, 74, 0.92);
+
+    --color-text: #1d2730;
+    --color-text-muted: #5f6b73;
+    --color-text-inverted: #f8fafc;
+
+    --color-border: #d8d2c5;
+    --color-border-strong: #9a9388;
+
+    --sidebar-width: 18rem;
+    --sidebar-collapsed: 4rem;
+    --topbar-height: 4.5rem;
+
+    --radius-xs: 0.5rem;
+    --radius-sm: 0.75rem;
+    --radius-md: 1rem;
+    --radius-lg: 1.5rem;
+    --radius-xl: 2rem;
+    --radius-full: 999px;
+
+    --shadow-xs: 0 1px 2px rgba(12, 29, 39, 0.06);
+    --shadow-sm: 0 10px 30px rgba(12, 29, 39, 0.08);
+    --shadow-md: 0 18px 50px rgba(12, 29, 39, 0.14);
+    --shadow-lg: 0 28px 80px rgba(12, 29, 39, 0.18);
+    --shadow-xl: 0 32px 100px rgba(12, 29, 39, 0.22);
+
+    --glass-bg: rgba(255, 253, 248, 0.72);
+    --glass-border: rgba(15, 93, 115, 0.12);
+    --glass-blur: blur(18px);
+
+    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+    --transition-fast: 0.15s var(--ease-out-expo);
+    --transition-normal: 0.22s var(--ease-out-expo);
+    --transition-slow: 0.35s var(--ease-out-expo);
+  }
+
+  [data-theme="dark"] {
+    --color-surface-base: #0d1419;
+    --color-surface-card: #131d23;
+    --color-surface-overlay: rgba(19, 29, 35, 0.84);
+    --color-surface-hero: rgba(4, 19, 27, 0.94);
+    --color-text: #edf3f6;
+    --color-text-muted: #b4c1c8;
+    --color-text-inverted: #0d1419;
+    --color-border: #28404b;
+    --color-border-strong: #42616f;
+    --glass-bg: rgba(19, 29, 35, 0.72);
+    --glass-border: rgba(215, 237, 242, 0.12);
+  }
+}

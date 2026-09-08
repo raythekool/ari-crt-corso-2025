@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Amplificatori, Oscillatori e Decibel"
 permalink: /guide-studio/lezione_13.html
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Bande Radioamatoriali e Organizzazioni Internazionali"
 permalink: /guide-studio/lezione_10.html
 ---
 

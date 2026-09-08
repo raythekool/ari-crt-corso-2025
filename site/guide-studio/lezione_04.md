@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Corrente Alternata"
 permalink: /guide-studio/lezione_04.html
 ---
 

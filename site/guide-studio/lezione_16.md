@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Misure e Strumenti"
 permalink: /guide-studio/lezione_16.html
 ---
 
