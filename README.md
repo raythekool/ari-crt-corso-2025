@@ -1,23 +1,38 @@
-# ari-crt-corso-2025
+# Corso Aspiranti Radioamatori ARI Toscana CRT 2025
 
-Materiale del corso aspiranti radioamatori ARI Toscana CRT 2025.
+Materiali didattici, registrazioni e risorse per il Corso Aspiranti
+Radioamatori 2025 dell'ARI Toscana, sezione CRT. Il corso affronta gli
+argomenti tecnici e normativi necessari alla preparazione dell'esame per la
+patente di radioamatore italiana.
 
-## 🌐 Portale del corso
+## Portale del corso
 
-Portale pubblico:
+Il materiale consultabile online e' disponibile sui seguenti portali:
 
-- GitHub Pages: [https://raythekool.github.io/ari-crt-corso-2025/](https://raythekool.github.io/ari-crt-corso-2025/)
-- Cloudflare Pages: [https://ari-crt-corso-2025.pages.dev/](https://ari-crt-corso-2025.pages.dev/)
+- [GitHub Pages](https://raythekool.github.io/ari-crt-corso-2025/)
+- [Cloudflare Pages](https://ari-crt-corso-2025.pages.dev/)
 
-Documentazione tecnica del portale:
+Il sito offre le guide di studio, il glossario, le domande d'esame e una
+raccolta di risorse aggiuntive.
 
-- [Setup GitHub Pages e Cloudflare Pages](docs/SETUP_GITHUB_PAGES.md)
-- [Stato implementazione del portale](docs/WEBSITE_IMPLEMENTATION_SUMMARY.md)
+## Contenuti del repository
 
-I sorgenti pubblicati del sito si trovano nella cartella `site/`.
-La pubblicazione GitHub Pages avviene direttamente da `main` tramite GitHub Actions, senza branch di output dedicati.
+| Percorso             | Contenuto                                                  |
+| -------------------- | ---------------------------------------------------------- |
+| `site/`              | Sorgenti del sito Jekyll pubblicato.                       |
+| `site/guide-studio/` | Guide di studio delle lezioni.                             |
+| `transcripts/`       | Trascrizioni testuali delle registrazioni, con timestamp.  |
+| `transcripts (vtt)/` | Sottotitoli WebVTT delle registrazioni.                    |
+| `docs/`              | Documentazione tecnica per configurazione e pubblicazione. |
 
-## 📹 Registrazioni Lezioni
+## Risorse di studio
+
+- [Guide di studio](site/guide-studio/)
+- [Glossario](site/glossario.md)
+- [Domande d'esame](site/domande-esame.md)
+- [Risorse aggiuntive](site/risorse.md)
+
+## Registrazioni delle lezioni
 
 - [Lezione 01 - 05/03/2025](https://youtu.be/ZliWEcTEQhw)
 - [Lezione 02 - 12/03/2025](https://youtu.be/Rb0OC1pjHzQ)
