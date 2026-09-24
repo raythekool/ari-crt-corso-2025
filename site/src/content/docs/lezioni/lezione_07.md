@@ -126,7 +126,7 @@ La **larghezza di banda** occupata da un segnale AM è:
 
 $$B_{AM} = 2 \times f_{m_{max}}$$
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-10.jpg" alt="Larghezza di banda AM" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-10.jpg" alt="Larghezza di banda AM" width="75%"></div><br>
 
 Per la voce umana ($f_{m_{max}} \approx 3{-}3{,}5$ kHz), la banda occupata è circa **6–7 kHz**. Esempio pratico: nella CB (Citizens Band) i canali sono distanziati di 10 kHz.
 
@@ -134,7 +134,7 @@ Per la voce umana ($f_{m_{max}} \approx 3{-}3{,}5$ kHz), la banda occupata è ci
 
 A modulazione piena ($m = 1$, 100%), la potenza si distribuisce come segue:
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-12.jpg" alt="Distribuzione della potenza in AM" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-12.jpg" alt="Distribuzione della potenza in AM" width="75%"></div><br>
 
 | Componente                     | Quota di potenza  |
 | ------------------------------ | ----------------- |
@@ -152,7 +152,7 @@ Questo evidenzia il grande svantaggio dell'AM: **due terzi della potenza** sono 
 
 #### 🔹 Il principio della SSB
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-13.jpg" alt="Principio della SSB" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-13.jpg" alt="Principio della SSB" width="75%"></div><br>
 
 La SSB nasce dall'osservazione che:
 
@@ -205,7 +205,7 @@ Lo **splatter** è un fenomeno **in banda**: il segnale si allarga e invade i ca
 
 ### 6. 📻 Modulazione di Frequenza (FM)
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-17.jpg" alt="Modulazione di Frequenza" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-17.jpg" alt="Modulazione di Frequenza" width="75%"></div><br>
 
 #### 🔹 Principio di funzionamento
 
@@ -215,7 +215,7 @@ Nella modulazione di frequenza, l'ampiezza della portante **resta costante**, me
 
 La **deviazione di frequenza** ($\Delta f$) è lo spostamento massimo della frequenza della portante rispetto al suo valore nominale.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-18.jpg" alt="Deviazione di frequenza" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-18.jpg" alt="Deviazione di frequenza" width="75%"></div><br>
 
 L'**indice di modulazione FM** è definito come:
 
@@ -226,7 +226,7 @@ dove:
 - $\Delta f$ = deviazione massima di frequenza
 - $f_m$ = frequenza del segnale modulante
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-19.jpg" alt="Indice di modulazione FM" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-19.jpg" alt="Indice di modulazione FM" width="75%"></div><br>
 
 A differenza dell'AM, l'indice di modulazione FM **non ha un limite superiore intrinseco** (può superare 1 senza distorsione). Tuttavia, un indice più alto produce un segnale più largo in frequenza, quindi deve essere regolato per rispettare le norme sull'occupazione di banda.
 
@@ -271,7 +271,7 @@ Durante la sessione di domande, viene trattato il tema della **regolazione della
 
 Il decibel (dB) è un'unità di misura logaritmica ampiamente usata in radiotecnica. Consente di gestire facilmente grandezze con dinamiche molto ampie.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-24.jpg" alt="Decibel e potenza" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-24.jpg" alt="Decibel e potenza" width="75%"></div><br>
 
 #### 🔹 Unità di misura relativa
 Il decibel è un'unità di misura **relativa**. Tipicamente confronta i livelli di potenza tra l'uscita e l'ingresso di un amplificatore o di un attenuatore.
@@ -281,7 +281,7 @@ Il vantaggio principale dell'uso dei logaritmi è che **moltiplicazioni e divisi
 Il guadagno di potenza ($G$) di un amplificatore è definito come:
 $$G = 10 \log_{10} \left(\frac{P_{out}}{P_{in}}\right) \text{ dB}$$
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-25.jpg" alt="Raddoppio di potenza" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-25.jpg" alt="Raddoppio di potenza" width="75%"></div><br>
 
 **Regola pratica fondamentale**:
 - **+3 dB** equivale a un **raddoppio** della potenza ($P_{out} = 2 \times P_{in}$)
@@ -289,17 +289,17 @@ $$G = 10 \log_{10} \left(\frac{P_{out}}{P_{in}}\right) \text{ dB}$$
 - **+10 dB** equivale a moltiplicare la potenza per **10**
 - **-10 dB** equivale a dividere la potenza per **10** (attenuazione)
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-26.jpg" alt="Attenuatore" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-26.jpg" alt="Attenuatore" width="75%"></div><br>
 
 #### 🔹 Catene di amplificazione
 Quando si mettono in cascata più amplificatori o attenuatori, il guadagno totale in dB è semplicemente la **somma algebrica** dei guadagni in dB di ogni singolo stadio.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-27.jpg" alt="Amplificatori in cascata" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-27.jpg" alt="Amplificatori in cascata" width="75%"></div><br>
 
 *Esempio*: Un amplificatore con $G_1 = 10$ dB in cascata con uno da $G_2 = 20$ dB produce un guadagno totale di $30$ dB.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-28.jpg" alt="Esempio 5W a 100W" width="65%"></div><br>
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-29.jpg" alt="Esempio raddoppio a 200W" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-28.jpg" alt="Esempio 5W a 100W" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-29.jpg" alt="Esempio raddoppio a 200W" width="75%"></div><br>
 
 #### 🔹 Il dBm (Decibel-milliwatt)
 Se si fissa un livello di riferimento assoluto, il decibel diventa un'unità di misura **assoluta**. In radiotecnica si usa comunemente il **dBm**, dove il livello di riferimento è **1 milliwatt (1 mW)**.
@@ -308,7 +308,7 @@ Se si fissa un livello di riferimento assoluto, il decibel diventa un'unità di 
 - **+30 dBm = 1 W** (1000 mW, ovvero $+10$ dB per tre volte)
 - **+50 dBm = 100 W**
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-32.jpg" alt="Tabella dBm" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-32.jpg" alt="Tabella dBm" width="75%"></div><br>
 
 ---
 

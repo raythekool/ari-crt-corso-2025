@@ -31,13 +31,13 @@ La fisica delle onde elettromagnetiche si basa su due concetti fondamentali tra 
 
 La formula che le lega è: **$f = 1 / \lambda$** (considerando la velocità della luce costante).
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-03.jpg" alt="Lunghezza d'onda e Frequenza" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-03.jpg" alt="Lunghezza d'onda e Frequenza" width="75%"></div><br>
 
 ### 2. 🌈 Lo Spettro Elettromagnetico e lo Spettro Radio
 
 Lo **spettro elettromagnetico** è l'insieme di tutte le onde elettromagnetiche (forme di energia che si propagano nello spazio sotto forma di onde invisibili). Fenomeni molto diversi (come la luce visibile, i raggi X e le onde radio) sono tutti riconducibili allo stesso fenomeno fisico, variando unicamente la frequenza.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-04.jpg" alt="Spettro Elettromagnetico" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-04.jpg" alt="Spettro Elettromagnetico" width="75%"></div><br>
 
 All'interno dello spettro elettromagnetico, lo **spettro radio** copre le frequenze utilizzate per le radiocomunicazioni. Ecco le principali suddivisioni:
 
@@ -49,7 +49,7 @@ All'interno dello spettro elettromagnetico, lo **spettro radio** copre le freque
 - **UHF** (Ultra High Frequencies, 300-3000 MHz): Onde decimetriche (TV, cellulari, ponti radio).
 - **SHF / EHF**: Onde centimetriche e millimetriche (Radar, satelliti, microonde).
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-07.jpg" alt="Spettro Radio" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-07.jpg" alt="Spettro Radio" width="75%"></div><br>
 
 ### 3. 📻 Bande Radioamatoriali e Tipologie di Utilizzo
 
@@ -62,14 +62,14 @@ Le frequenze assegnate ai radioamatori sono suddivise in diverse bande, nominate
 - **2 metri** (144,000–146,000 MHz) in VHF
 - **70 centimetri** (430.000 MHz) in UHF
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-09.jpg" alt="Bande Radioamatoriali" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-09.jpg" alt="Bande Radioamatoriali" width="75%"></div><br>
 
 L'utilizzo di queste bande può essere di tre tipi:
 - **Uso Esclusivo**: I radioamatori hanno il controllo totale sulla banda.
 - **Uso Primario**: I radioamatori hanno priorità su altri servizi.
 - **Uso Secondario**: I radioamatori possono usare la banda, a condizione di **non interferire** con i servizi che la usano a titolo primario.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-10.jpg" alt="Esclusivo Primario Secondario" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-10.jpg" alt="Esclusivo Primario Secondario" width="75%"></div><br>
 
 ### 4. 📊 Larghezza di Banda e Band Plan
 
@@ -80,12 +80,12 @@ Modi di emissione diversi occupano una **larghezza di banda** diversa:
 - **AM (Fonia)**: 6 kHz
 - **ATV (Video)**: 6 MHz
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-12.jpg" alt="Larghezze di banda" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-12.jpg" alt="Larghezze di banda" width="75%"></div><br>
 
 Il **Band Plan** è il documento che definisce le suddivisioni di una banda radioamatoriale in segmenti specifici, stabilendo quali segmenti usare per specifici modi (CW, fonia, modi digitali) e attività (contest, emergenza, QRP, comunicazioni via satellite). Questo evita interferenze tra gli stessi radioamatori e garantisce un uso equo dello spettro.
 È gestito a livello internazionale dalla IARU e a livello nazionale dalle associazioni (es. ARI).
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-14.jpg" alt="Band Plan" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-14.jpg" alt="Band Plan" width="75%"></div><br>
 
 ### 5. 🌍 Gli Enti e le Associazioni: ITU, IARU, ARI
 
@@ -95,8 +95,8 @@ Agenzia dell'ONU incaricata di definire gli standard nelle telecomunicazioni e n
 - Divide il mondo in diverse **Zone ITU** per scopi amministrativi e operativi.
 - Nel Regolamento Radiocomunicazioni (Art. 25) definisce il Servizio Amatoriale come: *un servizio di radiocomunicazioni per lo scopo di autoformazione, intercomunicazione e indagini tecniche svolte da radioamatori, ossia da persone debitamente autorizzate interessate alla tecnica radio esclusivamente a scopo personale e senza interesse pecuniario.*
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-21.jpg" alt="ITU" width="65%"></div><br>
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-24.jpg" alt="Regolamento Radiocomunicazioni" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-21.jpg" alt="ITU" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-24.jpg" alt="Regolamento Radiocomunicazioni" width="75%"></div><br>
 
 #### IARU (International Amateur Radio Union)
 Fondata nel 1925, è la federazione mondiale delle organizzazioni nazionali dei radioamatori.
@@ -104,7 +104,7 @@ Fondata nel 1925, è la federazione mondiale delle organizzazioni nazionali dei 
 - Difende le allocazioni di spettro radioamatoriali.
 - Stabilisce e promuove standard tecnici e coordina le comunicazioni in emergenza a livello globale.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-30.jpg" alt="IARU" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-30.jpg" alt="IARU" width="75%"></div><br>
 
 #### ARI (Associazione Radioamatori Italiani)
 Fondata nel 1927, rappresenta il radiantismo in Italia.
@@ -112,7 +112,7 @@ Fondata nel 1927, rappresenta il radiantismo in Italia.
 - Promuove la formazione tecnica (corsi per la patente), sperimentazioni, comunicazioni d'emergenza e offre servizi ai soci (es. servizio QSL).
 - È strutturata in sezioni locali diffuse sul territorio.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-34.jpg" alt="ARI" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-34.jpg" alt="ARI" width="75%"></div><br>
 
 ### 6. ⚖️ Normativa Italiana: MIMIT, Patente e Autorizzazione Generale
 
@@ -120,7 +120,7 @@ In Italia, il **MIMIT** (Ministero delle Imprese e del Made in Italy, ex MISE) �
 
 Il riferimento normativo principale è il **Codice delle Comunicazioni Elettroniche** (D.Lgs. 259/2003 e successive modifiche, tra cui il D.Lgs. 48/2024 - Allegato 26). La legge ribadisce che il servizio radioamatoriale deve avere carattere di *autoistruzione, intercomunicazione e studio tecnico*, privo di finalità economiche.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-37.jpg" alt="Attività di Radioamatore" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-37.jpg" alt="Attività di Radioamatore" width="75%"></div><br>
 
 #### Burocrazia per diventare Radioamatori:
 1. **Patente di operatore di stazione di radioamatore**:
@@ -132,8 +132,8 @@ Il riferimento normativo principale è il **Codice delle Comunicazioni Elettroni
    - Per ottenerla, si deve possedere la Patente e un **Nominativo** (Call sign).
    - È soggetta a rinnovo ogni 10 anni e al pagamento di un canone annuo.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-38.jpg" alt="Patente" width="65%"></div><br>
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-39.jpg" alt="Autorizzazione Generale" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-38.jpg" alt="Patente" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-39.jpg" alt="Autorizzazione Generale" width="75%"></div><br>
 
 ---
 

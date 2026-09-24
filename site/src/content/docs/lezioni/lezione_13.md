@@ -47,7 +47,7 @@ Paolo apre la lezione con la correzione del quiz precedente, dedicato ad amplifi
 I trasduttori sono i componenti che interfacciano il mondo esterno (onde acustiche) con il mondo elettrico (segnali elettrici della radio).
 
 #### 🔹 Il Microfono
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-02.jpg" alt="Microfono" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-02.jpg" alt="Microfono" width="75%"></div><br>
 
 
 **Microfono** — trasduttore che trasforma un'onda acustica (vibrazione meccanica) in un segnale elettrico.
@@ -65,7 +65,7 @@ Esistono quattro tipi principali di microfoni:
 ⚠️ Attenzione alla distinzione: i microfoni **preamplificati** (con batteria interna) usano spesso capsule ceramiche o dinamiche — la batteria alimenta il preamplificatore, non il microfono. Nei microfoni a condensatore, invece, l'alimentazione serve al microfono stesso oltre che al preamplificatore.
 
 #### 🔹 L'Altoparlante
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-03.jpg" alt="Altoparlante" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-03.jpg" alt="Altoparlante" width="75%"></div><br>
 
 
 **Altoparlante** — trasduttore che trasforma un segnale elettrico in un'onda acustica (funzione reciproca del microfono).
@@ -89,7 +89,7 @@ Il microfono dinamico è essenzialmente un altoparlante usato al rovescio.
 I tre termini (miscelatore, mescolatore, mixer) sono sinonimi e compaiono tutti nelle domande d'esame.
 
 #### 🔹 Funzionamento
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-05.jpg" alt="Miscelatore" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-05.jpg" alt="Miscelatore" width="75%"></div><br>
 
 
 Se i due segnali in ingresso hanno frequenza $f_1$ e $f_2$, in uscita si trovano **contemporaneamente**:
@@ -106,7 +106,7 @@ Dal punto di vista pratico, un **MOSFET a doppio gate** funziona già come misce
 ---
 
 ### 4. 📡 Schema Generale del Trasmettitore
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-09.jpg" alt="Blocchi base del trasmettitore" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-09.jpg" alt="Blocchi base del trasmettitore" width="75%"></div><br>
 
 
 Il trasmettitore è un dispositivo che trasforma l'informazione (voce, dati, immagini) in un segnale irradiabile da un'antenna. Lo schema a blocchi generale comprende:
@@ -123,7 +123,7 @@ Il trasmettitore è un dispositivo che trasforma l'informazione (voce, dati, imm
 ### 5. 📻 Trasmettitore in Telegrafia (CW)
 
 #### 🔹 Schema CW a Singola Frequenza
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-12.jpg" alt="Trasmettitore CW semplice" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-12.jpg" alt="Trasmettitore CW semplice" width="75%"></div><br>
 
 
 Il trasmettitore CW più semplice:
@@ -135,7 +135,7 @@ Il trasmettitore CW più semplice:
 Schema didattico; limite: trasmette su una sola frequenza.
 
 #### 🔹 Schema CW Multibanda con Conversione di Frequenza
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-13.jpg" alt="Trasmettitore multibanda con miscelatore" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-13.jpg" alt="Trasmettitore multibanda con miscelatore" width="75%"></div><br>
 
 
 Per trasmettere su più bande si usa la **conversione di frequenza**:
@@ -147,7 +147,7 @@ Per trasmettere su più bande si usa la **conversione di frequenza**:
 > **Esempio**: VFO a 5 MHz + cristallo a 23 MHz → uscita a 28 MHz (banda 10 m). VFO a 5,5 MHz + cristallo a 9 MHz → uscita a 3,5 MHz (banda 80 m). Un unico VFO con diversi cristalli copre tutte le bande.
 
 #### 🔹 Circuito di Accordo (Pi-Greco)
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-15.jpg" alt="Circuito Pi-greco" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-15.jpg" alt="Circuito Pi-greco" width="75%"></div><br>
 
 
 **Circuito pi-greco (π)** — circuito di adattamento d'impedenza formato da 2 condensatori variabili e 1 induttore, con forma che ricorda la lettera greca π. Adatta l'impedenza di uscita del trasmettitore ai 50 Ω dell'antenna.
@@ -155,7 +155,7 @@ Per trasmettere su più bande si usa la **conversione di frequenza**:
 Quando le impedenze sono uguali → **massimo trasferimento di potenza**.
 
 #### 🔹 Click di Manipolazione
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-16.jpg" alt="Click di manipolazione" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-16.jpg" alt="Click di manipolazione" width="75%"></div><br>
 
 
 **Click di manipolazione** — disturbo causato dai fronti troppo ripidi dell'accensione/spegnimento del segnale CW. L'interruzione brusca (on/off istantaneo) allarga la banda del segnale, disturbando i canali adiacenti.
@@ -170,7 +170,7 @@ Il segnale "smussato" non genera click. Questo circuito opera a basso livello (p
 ---
 
 ### 6. 📻 Trasmettitore SSB
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-21.jpg" alt="Schema a blocchi trasmettitore SSB" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-21.jpg" alt="Schema a blocchi trasmettitore SSB" width="75%"></div><br>
 
 
 Il trasmettitore **SSB (Single Side Band)** è più complesso del CW ma segue una logica chiara.
@@ -206,7 +206,7 @@ Il segnale SSB è generato a **frequenza fissa** (9 MHz) perché vincolato al fi
 ---
 
 ### 7. 📻 Trasmettitore AM
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-17.jpg" alt="Generazione Modulazione di Ampiezza" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-17.jpg" alt="Generazione Modulazione di Ampiezza" width="75%"></div><br>
 
 
 La modulazione d'ampiezza è la più semplice da realizzare. Il modulatore agisce direttamente sull'**amplificatore finale**, variandone la **tensione di alimentazione** in funzione del segnale microfonico.
@@ -268,7 +268,7 @@ Un trasmettitore è specificato da:
 ### 10. ⚠️ Intermodulazione e Splatter
 
 #### 🔹 Armoniche e Distorsione
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-28.jpg" alt="Armoniche flat topping" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-28.jpg" alt="Armoniche flat topping" width="75%"></div><br>
 
 
 Quando un amplificatore è **sovrapilotato** (pilotato oltre la potenza che può erogare), il segnale sinusoidale viene "appiattito" in cima (**flat-topping**). Questa deformazione genera **armoniche**.

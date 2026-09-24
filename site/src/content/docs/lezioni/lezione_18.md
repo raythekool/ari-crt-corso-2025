@@ -28,7 +28,7 @@ L'antenna è un "trasduttore", ovvero un dispositivo che ha la funzione di trasf
 
 Un conduttore percorso da una corrente variabile genera nel suo intorno un campo elettromagnetico. Analogamente, un conduttore immerso in un campo elettromagnetico variabile è sede di una corrente indotta proporzionale all'intensità del campo.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-03.jpg" alt="Elementi fondamentali dell'antenna" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-03.jpg" alt="Elementi fondamentali dell'antenna" width="75%"></div><br>
 
 Esistono 3 diverse aree in funzione della distanza dall'antenna:
 1. **Campo Vicino Reattivo (Reactive Near Field)**: Fino a 0,1 λ - 0,4 λ. I campi E e H non sono correlati e il comportamento è reattivo.
@@ -37,11 +37,11 @@ Esistono 3 diverse aree in funzione della distanza dall'antenna:
 2. **Campo Vicino Radiativo (Fresnel Region)**: Fino a 0,5 λ - 1,5 λ. I campi E e H iniziano a correlarsi, ci sono fluttuazioni di fase.
 3. **Campo Lontano Radiativo (Fraunhofer Region)**: Oltre la regione di Fresnel fino all'infinito. I campi sono totalmente correlati e formano un'onda sferica.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-05.jpg" alt="Aree di campo dell'antenna" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-05.jpg" alt="Aree di campo dell'antenna" width="75%"></div><br>
 
 Un'antenna è assimilabile ad un **circuito risonante serie** dove L e C dipendono dalle dimensioni fisiche e determinano la frequenza di risonanza. R, in assenza di perdite, coincide con la resistenza di radiazione.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-06.jpg" alt="Antenna come circuito risonante" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-06.jpg" alt="Antenna come circuito risonante" width="75%"></div><br>
 
 ### 2. ⚡ Resistenza di radiazione e Risonanza
 
@@ -51,7 +51,7 @@ $$ P_{ir} = R_{rad} \cdot I^2 $$
 
 A parità di potenza irradiata, un'antenna di dimensioni minori avrà una $R_{rad}$ minore e necessiterà di una corrente maggiore. Antenne più corte di $1/10 \lambda$ hanno una resistenza di radiazione così bassa da avere un'efficienza bassissima.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-08.jpg" alt="Resistenza di radiazione" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-08.jpg" alt="Resistenza di radiazione" width="75%"></div><br>
 
 La dimensione dell'elemento radiante è legata alla frequenza di risonanza: aumentando la lunghezza, la frequenza diminuisce; accorciandolo, la frequenza aumenta.
 A causa del **fattore di velocità (Fv)** del materiale, le lunghezze reali dell'antenna sono sempre leggermente inferiori (circa 0,95 - 0,98) rispetto a quelle teoriche.
@@ -60,20 +60,20 @@ Se l'antenna non lavora alla frequenza di risonanza $f_0$, presenterà un'impede
 - Capacitiva ($-jX$) per $f < f_0$
 - Induttiva ($+jX$) per $f > f_0$
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-13.jpg" alt="Impedenza e Carta di Smith" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-13.jpg" alt="Impedenza e Carta di Smith" width="75%"></div><br>
 
 ### 3. 🛠️ Antenne caricate e multibanda
 
 Per annullare la reattanza di un'antenna fuori risonanza si utilizzano "carichi", come una **bobina di carico** o un **cappello capacitivo**. 
 L'adattamento di impedenza può avvenire anche con uno **Stub** o **Hairpin** (forcella), ponendo in parallelo al punto di alimentazione una reattanza induttiva di opportuno valore.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-14.jpg" alt="Antenne caricate" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-14.jpg" alt="Antenne caricate" width="75%"></div><br>
 
 Le **antenne multibanda** utilizzano delle **trappole** (circuiti risonanti LC in parallelo) per interrompere elettricamente l'antenna a determinate frequenze.
 In alternativa si sfrutta la risonanza in armonica: le stesse antenne risuonano non solo alla fondamentale $F_0$, ma anche alle sue armoniche dispari ($3F_0, 5F_0...$).
 Un esempio è il dipolo OCF (Off-Center Fed), che alimenta l'antenna in un punto decentrato per avere un'impedenza adatta su più bande.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-16.jpg" alt="Antenne con trappole" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-16.jpg" alt="Antenne con trappole" width="75%"></div><br>
 
 ### 4. 🌐 Il Lobo di Radiazione
 
@@ -84,25 +84,25 @@ Nella realtà, l'intensità del campo varia con la direzione. Il grafico tridime
 - **Azimuth Plot** (lobo orizzontale)
 - **Elevation Plot** (lobo verticale)
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-20.jpg" alt="Lobo di radiazione" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-20.jpg" alt="Lobo di radiazione" width="75%"></div><br>
 
 Il campo emesso presenta una polarizzazione legata all'orientamento dell'elemento radiante:
 - **Orizzontale**: il campo elettrico E è parallelo al terreno.
 - **Verticale**: il campo elettrico E è perpendicolare al terreno.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-21.jpg" alt="Polarizzazione dell'antenna" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-21.jpg" alt="Polarizzazione dell'antenna" width="75%"></div><br>
 
 Un dipolo nello spazio libero ha un guadagno di **2,1 dBi** rispetto all'isotropico.
 Nella pratica, il segnale al ricevitore è la somma di un fascio diretto e un fascio riflesso dal terreno. La differenza di fase tra i due (dovuta alla differenza di percorso dipendente dall'altezza $h$ e dall'angolo di take-off) può generare un "Ground Gain" fino a +6 dB, o un'attenuazione profonda (fino a -20 dB).
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-23.jpg" alt="Riflessione dal terreno e fascio diretto" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-23.jpg" alt="Riflessione dal terreno e fascio diretto" width="75%"></div><br>
 
 Per antenne a **polarizzazione orizzontale**, si ha inversione di fase nella riflessione a terra, per cui le componenti si sommano quando la differenza di percorso è $\lambda/2$. Il lobo dipende fortemente dall'altezza da terra.
 > 📏 **Regola pratica (Rule of Thumb):** Per avere un buon angolo di take-off basso (utile per i collegamenti a lunga distanza / DX), un'antenna orizzontale andrebbe montata ad almeno $\lambda/2$ di altezza dal suolo!
 
 Per antenne a **polarizzazione verticale**, non c'è inversione di fase; l'angolo di radiazione è basso anche quando poste vicino al terreno, ma sono molto influenzate dalle caratteristiche dielettriche di questo (perdite).
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-26.jpg" alt="Lobo antenna verticale" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_18/slide-26.jpg" alt="Lobo antenna verticale" width="75%"></div><br>
 
 ---
 

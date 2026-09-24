@@ -26,7 +26,7 @@ permalink: /guide-studio/lezione_11.html
 
 Il transistor è un dispositivo a semiconduttore fondamentale, costituito da tre strati drogati, usato principalmente per **amplificare** segnali elettrici. A seconda della disposizione degli strati, può essere di tipo **NPN** o **PNP**.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_11/slide-02.jpg" alt="Transistor NPN e PNP" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_11/slide-02.jpg" alt="Transistor NPN e PNP" width="75%"></div><br>
 
 #### 🔹 Struttura e Terminali
 Ha tre reofori (terminali), ciascuno collegato a uno strato drogato:
@@ -52,20 +52,20 @@ Per amplificare i segnali, i transistor BJT possono essere configurati in tre mo
 - **Amplifica sia la tensione che la corrente**.
 - È la configurazione classica e più diffusa degli amplificatori generici.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_11/slide-11.jpg" alt="Emettitore Comune" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_11/slide-11.jpg" alt="Emettitore Comune" width="75%"></div><br>
 
 #### 🔹 Base Comune
 - La base separa i circuiti di ingresso e uscita.
 - Il guadagno in corrente è circa 1 (non amplifica la corrente), ma **amplifica la tensione**.
 - Offre alta stabilità ed è molto usato in **alta frequenza**.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_11/slide-12.jpg" alt="Base Comune" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_11/slide-12.jpg" alt="Base Comune" width="75%"></div><br>
 
 #### 🔹 Collettore Comune (Inseguitore di Emettitore)
 - Il guadagno in tensione è circa 1, ma **amplifica la corrente**.
 - È usato come separatore di stadi (buffer) e per pilotare carichi a bassa impedenza.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_11/slide-13.jpg" alt="Collettore Comune" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_11/slide-13.jpg" alt="Collettore Comune" width="75%"></div><br>
 
 #### 🔹 Polarizzazione
 Affinché il transistor amplifichi correttamente senza distorcere il segnale, deve essere **polarizzato**, ossia devono essere impostate tensioni e correnti continue "a riposo" (in assenza di segnale) tramite resistenze. Questo fa lavorare il dispositivo nel tratto lineare delle sue curve caratteristiche.
@@ -84,12 +84,12 @@ I transistor a effetto di campo (FET) operano diversamente dai BJT.
 
 Il suo guadagno è chiamato **Transconduttanza (Gm)**, ed è il rapporto tra la variazione di corrente nel Drain e la variazione di tensione applicata al Gate ($\Delta I_D / \Delta V_G$).
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_11/slide-19.jpg" alt="Struttura del FET" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_11/slide-19.jpg" alt="Struttura del FET" width="75%"></div><br>
 
 #### 🔹 MOSFET
 Ha una struttura simile al FET, ma il terminale di Gate è realizzato con una superficie metallica **isolata** dal canale mediante un sottile strato di ossido di silicio. Questo garantisce un'impedenza d'ingresso ancora più elevata.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_11/slide-22.jpg" alt="MOSFET" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_11/slide-22.jpg" alt="MOSFET" width="75%"></div><br>
 
 ---
 
@@ -108,21 +108,21 @@ Aggiunge un terzo elettrodo, la **griglia di controllo**, a forma di spirale, po
 - Una piccola tensione negativa sulla griglia respinge in parte gli elettroni, controllando il flusso di corrente verso l'anodo.
 - In questo modo, la valvola **amplifica** i segnali, analogamente a un transistor.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_11/slide-27.jpg" alt="Triodo" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_11/slide-27.jpg" alt="Triodo" width="75%"></div><br>
 
 #### 🔹 Il Tetrodo
 Aggiunge una seconda griglia (la **griglia schermo**) tra la griglia di controllo e l'anodo.
 - Riduce la capacità parassita tra anodo e griglia di controllo, evitando auto-oscillazioni ad alta frequenza.
 - Polarizzata positivamente, favorisce l'accelerazione degli elettroni e offre maggiore amplificazione.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_11/slide-28.jpg" alt="Tetrodo" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_11/slide-28.jpg" alt="Tetrodo" width="75%"></div><br>
 
 #### 🔹 Il Pentodo
 Inserisce una terza griglia (la **griglia soppressore**) tra la griglia schermo e l'anodo.
 - Viene collegata spesso al catodo e serve a respingere verso l'anodo gli "elettroni secondari" rimbalzati dall'anodo stesso a causa del forte impatto.
 - Questo rende la curva caratteristica più lineare e migliora ulteriormente il guadagno.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_11/slide-29.jpg" alt="Pentodo" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_11/slide-29.jpg" alt="Pentodo" width="75%"></div><br>
 
 ---
 
