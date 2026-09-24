@@ -126,10 +126,10 @@ header, aside {
 /* Restringi drasticamente la Right Sidebar */
 @media (min-width: 72rem) {
   .right-sidebar-panel {
-    width: 14rem !important;
-    min-width: 14rem !important;
-    max-width: 14rem !important;
-    flex: 0 0 14rem !important;
+    width: 12rem !important;
+    min-width: 12rem !important;
+    max-width: 12rem !important;
+    flex: 0 0 12rem !important;
   }
   .right-sidebar-panel .right-sidebar-container {
     margin: 2rem 1rem 2rem 0 !important;
