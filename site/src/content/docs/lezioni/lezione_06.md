@@ -50,7 +50,7 @@ La lezione si apre con la correzione del quiz della Lezione 05. Le risposte sono
 
 Un **filtro** è una combinazione di circuiti composti da induttori e condensatori (circuiti LC) che sfrutta la variazione della reattanza induttiva e capacitiva in funzione della frequenza per attenuare o far passare determinate bande di frequenza.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-02.jpg" alt="Slide 2" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-02.jpg" alt="Slide 2" width="65%"></div><br>
 
 Il principio fondamentale è:
 
@@ -67,7 +67,7 @@ Queste caratteristiche complementari permettono di discriminare i segnali in bas
 
 Il **filtro passa basso** attenua i segnali con frequenza superiore alla **frequenza di taglio** e lascia passare inalterati quelli con frequenza inferiore.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-03.jpg" alt="Slide 3" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-03.jpg" alt="Slide 3" width="65%"></div><br>
 
 ### 🔹 Frequenza di taglio
 
@@ -76,7 +76,7 @@ La **frequenza di taglio** è definita in due modi equivalenti:
 1. La frequenza alla quale la **potenza** del segnale di uscita si dimezza rispetto alla banda passante
 2. La frequenza alla quale l'**ampiezza** (tensione) del segnale di uscita si riduce a $\frac{1}{\sqrt{2}} \approx 0{,}707$ rispetto al valore in banda passante
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-04.jpg" alt="Slide 4" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-04.jpg" alt="Slide 4" width="65%"></div><br>
 
 > Perché $0{,}707$ equivale a metà potenza? Poiché $P \propto V^2$: $(0{,}707)^2 = (1/\sqrt{2})^2 = 1/2 = 0{,}5$
 
@@ -93,7 +93,7 @@ A **frequenze basse**: la reattanza del condensatore è molto alta → il conden
 
 A **frequenze alte**: la reattanza del condensatore diventa bassa → il condensatore cortocircuita il segnale verso massa → la tensione di uscita si azzera.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-06.jpg" alt="Slide 6" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-06.jpg" alt="Slide 6" width="65%"></div><br>
 
 ### 🔹 Schema circuitale LC (migliore)
 
@@ -104,7 +104,7 @@ Sostituendo la resistenza con un **induttore**:
 
 Due componenti reattivi lavorano insieme, ottenendo un filtraggio **più ripido** (selettivo).
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-07.jpg" alt="Slide 7" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-07.jpg" alt="Slide 7" width="65%"></div><br>
 
 ### 🔹 Concetto di poli
 
@@ -125,7 +125,7 @@ Ogni componente reattivo (condensatore o induttore) inserito nel filtro aggiunge
 
 Il **filtro passa alto** è speculare al passa basso: attenua le frequenze inferiori alla frequenza di taglio e lascia passare quelle superiori.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-09.jpg" alt="Slide 9" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-09.jpg" alt="Slide 9" width="65%"></div><br>
 
 ### 🔹 Schema circuitale
 
@@ -134,7 +134,7 @@ Si invertono le posizioni dei componenti rispetto al passa basso:
 - Il **condensatore** è in serie: a frequenze basse ha reattanza altissima → blocca il segnale; a frequenze alte ha reattanza bassissima → lascia passare tutto
 - L'**induttore** (o resistore) è verso massa: a frequenze basse ha reattanza bassa → cortocircuita verso massa anche ciò che riuscisse a passare
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-10.jpg" alt="Slide 10" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-10.jpg" alt="Slide 10" width="65%"></div><br>
 
 ### 🔹 Varianti
 
@@ -164,17 +164,17 @@ I filtri passa banda sono fondamentali nei **ricevitori radio**: permettono la *
 
 Il **filtro elimina banda** (o **notch**) attenua i segnali con frequenza compresa tra le due frequenze di taglio e lascia passare tutto il resto. È il funzionamento speculare del passa banda.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-12.jpg" alt="Slide 12" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-12.jpg" alt="Slide 12" width="65%"></div><br>
 
 ### 🔹 Applicazione pratica
 
 Usato per eliminare le interferenze della **banda FM commerciale** (88–108 MHz) nei ricevitori radioamatoriali. I segnali FM sono molto forti e possono "sovraccaricare" un ricevitore sensibile, impedendone il funzionamento.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-13.jpg" alt="Slide 13" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-13.jpg" alt="Slide 13" width="65%"></div><br>
 
 ### 🔹 Riepilogo dei quattro tipi di filtro
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-14.jpg" alt="Slide 14" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-14.jpg" alt="Slide 14" width="65%"></div><br>
 
 | Tipo di filtro    | Cosa lascia passare                  | Cosa blocca                          |
 | ----------------- | ------------------------------------ | ------------------------------------ |
@@ -193,7 +193,7 @@ Usato per eliminare le interferenze della **banda FM commerciale** (88–108 MHz
 
 Un **circuito risonante** si ottiene collegando un condensatore e un induttore in **serie** o in **parallelo**. Esiste una frequenza specifica, la **frequenza di risonanza** ($f_0$), alla quale la reattanza induttiva e quella capacitiva sono uguali ($X_L = X_C$) e si annullano a vicenda.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-15.jpg" alt="Slide 15" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-15.jpg" alt="Slide 15" width="65%"></div><br>
 
 ### 🔹 Formula della frequenza di risonanza
 
@@ -204,7 +204,7 @@ Dove:
 - $L$ = induttanza in Henry
 - $C$ = capacità in Farad
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-16.jpg" alt="Slide 16" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-16.jpg" alt="Slide 16" width="65%"></div><br>
 
 ### 🔹 Circuito risonante parallelo
 
@@ -216,11 +216,11 @@ In un circuito LC parallelo alla frequenza di risonanza:
 4. Le due correnti sono quindi **sfasate di 180°** (in opposizione di fase) → si annullano
 5. Il circuito esterno non vede scorrere corrente → **impedenza infinita** (circuito aperto)
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-17.jpg" alt="Slide 17" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-17.jpg" alt="Slide 17" width="65%"></div><br>
 
 > Il condensatore e l'induttore si "palleggiano" l'energia: il condensatore si scarica sull'induttore (campo elettrico → campo magnetico) e viceversa, senza assorbire energia dall'esterno.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-18.jpg" alt="Slide 18" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-18.jpg" alt="Slide 18" width="65%"></div><br>
 
 ### 🔹 Circuito risonante serie
 
@@ -232,11 +232,11 @@ In un circuito LC serie alla frequenza di risonanza:
 4. Le due tensioni sono **sfasate di 180°** → si annullano
 5. Fra i punti A e B non c'è differenza di potenziale → **impedenza nulla** (cortocircuito)
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-20.jpg" alt="Slide 20" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-20.jpg" alt="Slide 20" width="65%"></div><br>
 
 ### 🔹 Confronto risonanza serie vs parallelo
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-21.jpg" alt="Slide 21" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-21.jpg" alt="Slide 21" width="65%"></div><br>
 
 | Proprietà                   | Parallelo                      | Serie                     |
 | --------------------------- | ------------------------------ | ------------------------- |
@@ -273,11 +273,11 @@ Dove:
 - $f_0$ = frequenza di risonanza
 - $B$ = larghezza di banda (distanza tra le due frequenze di taglio a −3 dB)
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-24.jpg" alt="Slide 24" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-24.jpg" alt="Slide 24" width="65%"></div><br>
 
 ### 🔹 Relazione Q – selettività
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-25.jpg" alt="Slide 25" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-25.jpg" alt="Slide 25" width="65%"></div><br>
 
 | Q              | Curva di risonanza  | Selettività |
 | -------------- | ------------------- | ----------- |
@@ -294,7 +294,7 @@ $$Q = \frac{f_0}{B} = \frac{20.000.000 \text{ Hz}}{2.000 \text{ Hz}} = 10.000$$
 
 > ⚠️ Convertire sempre alla stessa unità di misura prima di calcolare!
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-26.jpg" alt="Slide 26" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-26.jpg" alt="Slide 26" width="65%"></div><br>
 
 **Esercizio 2**: Un filtro passa banda risuona a 5 MHz con Q = 100. Qual è la larghezza di banda?
 
@@ -310,13 +310,13 @@ Il quarzo è un materiale **piezoelettrico**: se compresso meccanicamente, gener
 
 **Esempio pratico**: l'accendino a scintilla da cucina contiene un quarzo; premendo il pulsante si comprime il cristallo, generando una tensione sufficientemente alta da produrre una scintilla.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-29.jpg" alt="Slide 29" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-29.jpg" alt="Slide 29" width="65%"></div><br>
 
 ### 🔹 Risonanza meccanica
 
 A differenza dei circuiti LC (risonanza elettrica), i quarzi funzionano per **risonanza meccanica**. Il principio è analogo a una **corda di chitarra** o a un **bicchiere di cristallo** colpito con l'unghia: il materiale oscilla a una frequenza determinata dalle sue dimensioni fisiche.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-30.jpg" alt="Slide 30" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-30.jpg" alt="Slide 30" width="65%"></div><br>
 
 ### 🔹 Vantaggi dei quarzi rispetto ai circuiti LC
 
@@ -326,7 +326,7 @@ A differenza dei circuiti LC (risonanza elettrica), i quarzi funzionano per **ri
 | Stabilità in frequenza | Moderata                              | **Estremamente alta** |
 | Perdite                | Significative (soprattutto induttore) | **Minime**            |
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-31.jpg" alt="Slide 31" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_06/slide-31.jpg" alt="Slide 31" width="65%"></div><br>
 
 La frequenza di risonanza dipende dalle **dimensioni fisiche** del cristallo: i quarzi vengono tagliati per risuonare alla frequenza desiderata. La fondamentale arriva fino a circa **20 MHz**; per frequenze superiori si utilizzano le **armoniche** del quarzo.
 

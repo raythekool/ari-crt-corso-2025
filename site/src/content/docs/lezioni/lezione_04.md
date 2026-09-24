@@ -28,7 +28,7 @@ permalink: /guide-studio/lezione_04.html
 
 ### 🔹 I magneti permanenti
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-02.jpg" alt="I magneti" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-02.jpg" alt="I magneti" width="65%"></div><br>
 
 I **magneti** sono elementi presenti in natura che sviluppano un **campo magnetico** nel loro intorno. Le calamite (magneti permanenti) presentano sempre due poli: un **polo nord** e un **polo sud**. Il magnete permanente più grande e conosciuto è la Terra stessa, con il suo polo nord e polo sud geografici, su cui si basa il funzionamento delle bussole.
 
@@ -41,9 +41,9 @@ Le interazioni tra poli magnetici seguono una regola fondamentale:
 
 ### 🔹 Campo magnetico generato dalla corrente
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-03.jpg" alt="Esperimento Oersted" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-03.jpg" alt="Esperimento Oersted" width="65%"></div><br>
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-04.jpg" alt="Campo radiale" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-04.jpg" alt="Campo radiale" width="65%"></div><br>
 
 Un conduttore percorso da corrente genera un campo magnetico nel suo intorno. Le **linee di forza** di questo campo sono concentriche e coassiali all'asse del conduttore, formando cerchi attorno al filo. Questo fenomeno è visualizzabile con il classico esperimento della limatura di ferro su un foglio di carta attraversato da un filo.
 
@@ -51,7 +51,7 @@ L'intensità del campo magnetico è **direttamente proporzionale** alla corrente
 
 ### 🔹 Induzione elettromagnetica (Faraday, 1830)
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-05.jpg" alt="Induzione Faraday" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-05.jpg" alt="Induzione Faraday" width="65%"></div><br>
 
 Il fenomeno è **perfettamente reversibile**:
 
@@ -66,7 +66,7 @@ La tensione indotta è tanto maggiore quanto più è veloce il moto relativo tra
 
 ### 🔹 Struttura e funzionamento
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-06.jpg" alt="Simbolo induttore" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-06.jpg" alt="Simbolo induttore" width="65%"></div><br>
 
 Un **induttore** (detto anche **bobina** o **solenoide**) si ottiene avvolgendo un conduttore a spirale, con più spire una accanto all'altra, su un supporto. Rispetto al filo rettilineo, l'avvolgimento a più spire **rinforza** la capacità di produrre campo magnetico.
 
@@ -77,7 +77,7 @@ Quando attraversato da corrente:
 
 ### 🔹 L'induttanza e la sua unità di misura
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-07.jpg" alt="Induttanza" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-07.jpg" alt="Induttanza" width="65%"></div><br>
 
 L'**induttanza** — grandezza che esprime la capacità di un induttore di generare campo magnetico — si indica con la lettera **L** e si misura in **Henry** (simbolo: **H**).
 
@@ -95,7 +95,7 @@ L'Henry è un'unità di misura **molto grande**; nella pratica si utilizzano i s
 
 ### 🔹 Fattori che influenzano l'induttanza
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-08.jpg" alt="Fattori induttanza" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-08.jpg" alt="Fattori induttanza" width="65%"></div><br>
 
 L'induttanza di una bobina dipende dalle sue caratteristiche costruttive secondo la formula:
 
@@ -120,7 +120,7 @@ Relazioni di proporzionalità:
 
 ### 🔹 Permeabilità magnetica (µ)
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-09.jpg" alt="Permeabilità magnetica" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-09.jpg" alt="Permeabilità magnetica" width="65%"></div><br>
 
 La **permeabilità magnetica** (µ) è la proprietà di un materiale di magnetizzarsi più o meno intensamente in un campo magnetico. I materiali **ferromagnetici** (magnetite, ferro, nichel, leghe ferrose) hanno permeabilità elevata e concentrano il flusso magnetico, aumentando l'induttanza.
 
@@ -128,9 +128,9 @@ La permeabilità del vuoto (o dell'aria) è indicata con **µ₀** e viene usata
 
 ### 🔹 Tipologie di induttori
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-10.jpg" alt="Nucleo ferromagnetico" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-10.jpg" alt="Nucleo ferromagnetico" width="65%"></div><br>
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-11.jpg" alt="Induttore variabile" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-11.jpg" alt="Induttore variabile" width="65%"></div><br>
 
 - **Induttori con nucleo assiale**: bobina avvolta su supporto cilindrico con nucleo ferromagnetico inserito assialmente. Le linee di flusso si estendono all'esterno, con possibili effetti di accoppiamento con bobine vicine.
 - **Induttori toroidali**: bobina avvolta su un nucleo ad anello (toroide). Il flusso magnetico circola interamente all'interno del nucleo, con minor dispersione e minor accoppiamento indesiderato.
@@ -142,7 +142,7 @@ La permeabilità del vuoto (o dell'aria) è indicata con **µ₀** e viene usata
 
 ### 🔹 Collegamento in serie
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-12.jpg" alt="Serie e Parallelo" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-12.jpg" alt="Serie e Parallelo" width="65%"></div><br>
 
 In un collegamento in serie la stessa corrente attraversa tutti gli induttori. L'induttanza totale è la **somma** dei singoli valori:
 
@@ -150,7 +150,7 @@ In un collegamento in serie la stessa corrente attraversa tutti gli induttori. L
 
 ### 🔹 Collegamento in parallelo
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-13.jpg" alt="Domande serie parallelo" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-13.jpg" alt="Domande serie parallelo" width="65%"></div><br>
 
 In un collegamento in parallelo la stessa tensione è applicata a tutti gli induttori. L'induttanza totale si calcola come:
 
@@ -166,15 +166,15 @@ Le formule sono **identiche** a quelle delle resistenze in serie e in parallelo,
 
 ### 🔹 Comportamento transitorio
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-14.jpg" alt="Transitorio CC" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-14.jpg" alt="Transitorio CC" width="65%"></div><br>
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-15.jpg" alt="Costante di tempo" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-15.jpg" alt="Costante di tempo" width="65%"></div><br>
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-16.jpg" alt="Grafico transitorio" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-16.jpg" alt="Grafico transitorio" width="65%"></div><br>
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-17.jpg" alt="Legge di Faraday-Lenz" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-17.jpg" alt="Legge di Faraday-Lenz" width="65%"></div><br>
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-18.jpg" alt="Energia accumulata" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-18.jpg" alt="Energia accumulata" width="65%"></div><br>
 
 Quando si collega un induttore a una tensione continua (o al primo istante di una tensione alternata), la corrente **non sale istantaneamente** ma cresce con un andamento **esponenziale** fino a raggiungere il valore di regime (100%).
 
@@ -198,7 +198,7 @@ Il valore di regime (100%) viene raggiunto dopo circa **4–5 costanti di tempo*
 
 ### 🔹 La corrente è in ritardo di 90°
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-22.jpg" alt="Sfasamento 90" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-22.jpg" alt="Sfasamento 90" width="65%"></div><br>
 
 In un induttore alimentato in corrente alternata, la **corrente è in ritardo di 90°** rispetto alla tensione (oppure equivalentemente: la tensione è in anticipo di 90° rispetto alla corrente). Tensione e corrente si dicono **in quadratura**.
 
@@ -206,9 +206,9 @@ Questo avviene perché la tensione applicata genera un campo magnetico che produ
 
 ### 🔹 Reattanza induttiva ($X_L$)
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-19.jpg" alt="Reattanza Induttiva" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-19.jpg" alt="Reattanza Induttiva" width="65%"></div><br>
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-20.jpg" alt="Grafico Reattanza" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-20.jpg" alt="Grafico Reattanza" width="65%"></div><br>
 
 L'opposizione offerta dall'induttore al passaggio della corrente alternata si chiama **reattanza induttiva** e si misura in **ohm**, analogamente alla resistenza.
 
@@ -230,7 +230,7 @@ Proprietà fondamentali:
 
 ### 🔹 Esercizio svolto: calcolo reattanza
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-21.jpg" alt="Esercizio XL" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-21.jpg" alt="Esercizio XL" width="65%"></div><br>
 
 Induttore da 10 mH alimentato a diverse frequenze:
 
@@ -248,9 +248,9 @@ Induttore da 10 mH alimentato a diverse frequenze:
 
 ### 🔹 Distribuzione della corrente ad alta frequenza
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-23.jpg" alt="Effetto Pelle" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-23.jpg" alt="Effetto Pelle" width="65%"></div><br>
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-24.jpg" alt="Immagine effetto pelle" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-24.jpg" alt="Immagine effetto pelle" width="65%"></div><br>
 
 L'**effetto pelle** (skin effect) è il fenomeno per cui, a frequenze elevate, la corrente alternata tende a scorrere prevalentemente sulla **superficie esterna** del conduttore, anziché distribuirsi uniformemente sulla sezione.
 
@@ -264,15 +264,15 @@ Per questo motivo, nelle applicazioni ad alta frequenza si usano **fili di rame 
 
 ## ⚡ 7. Il trasformatore
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-25.jpg" alt="Trasformatore" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-25.jpg" alt="Trasformatore" width="65%"></div><br>
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-26.jpg" alt="Simbolo Trasformatore" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-26.jpg" alt="Simbolo Trasformatore" width="65%"></div><br>
 
 ### 🔹 Principio di funzionamento
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-27.jpg" alt="Mutua induzione" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-27.jpg" alt="Mutua induzione" width="65%"></div><br>
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-28.jpg" alt="Primario e secondario" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-28.jpg" alt="Primario e secondario" width="65%"></div><br>
 
 Il **trasformatore** è un dispositivo elettrico formato da **due induttori** (avvolgimento primario e secondario) accoppiati magneticamente attraverso un **nucleo ferromagnetico**. Funziona **esclusivamente in corrente alternata**.
 
@@ -282,7 +282,7 @@ Il principio è la **mutua induzione**: la corrente alternata che scorre nel pri
 
 ### 🔹 Rapporto di trasformazione
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-29.jpg" alt="Rapporto K" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-29.jpg" alt="Rapporto K" width="65%"></div><br>
 
 Il **rapporto di trasformazione** (K) è il rapporto tra il numero di spire del primario e del secondario:
 
@@ -307,9 +307,9 @@ Se il trasformatore abbassa la tensione (riduttore), la corrente disponibile sul
 
 ### 🔹 Esercizio svolto
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-30.jpg" alt="Esercizio K" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-30.jpg" alt="Esercizio K" width="65%"></div><br>
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-31.jpg" alt="Esercizio corrente" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-31.jpg" alt="Esercizio corrente" width="65%"></div><br>
 
 Un trasformatore con primario di 500 spire e secondario di 25 spire:
 
@@ -322,7 +322,7 @@ Un trasformatore 220 V / 22 V (K = 10) con 1 A sul primario:
 - Corrente secondario: $I_S = P/V_S = 220/22 = 10$ A
 - Verifica: $P_S = 22 \times 10 = 220$ W ✓
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-32.jpg" alt="Elevatore e Riduttore" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-32.jpg" alt="Elevatore e Riduttore" width="65%"></div><br>
 
 ### 🔹 Trasformatore elevatore e riduttore
 

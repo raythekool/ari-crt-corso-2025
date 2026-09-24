@@ -25,11 +25,11 @@ permalink: /guide-studio/lezione_08.html
 
 ### 1. 🔤 Alfabeto Telefonetico
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-01.jpg" alt="Alfabeto Telefonetico" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-01.jpg" alt="Alfabeto Telefonetico" width="65%"></div><br>
 
 L'alfabeto telefonetico internazionale (spesso chiamato ICAO o Alfabeto Fonetico NATO) è lo standard utilizzato nelle comunicazioni radio per fare lo spelling di lettere o parole senza possibilità di equivoci. 
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-03.jpg" alt="Perchè si usa" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-03.jpg" alt="Perchè si usa" width="65%"></div><br>
 
 Perché si usa?
 - **Uniformità e Professionalità**: Garantisce un livello standard e riconoscibile ovunque.
@@ -45,7 +45,7 @@ Anche i numeri in ambito internazionale andrebbero pronunciati in inglese (Zero,
 
 ### 2. 📻 L'Indicativo di Chiamata (Call Sign)
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-05.jpg" alt="Indicativo di chiamata" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-05.jpg" alt="Indicativo di chiamata" width="65%"></div><br>
 
 Ogni stazione radioamatoriale è identificata in modo univoco da un **indicativo di chiamata** (o call sign). È paragonabile alla targa di un'automobile. L'uso del proprio indicativo è obbligatorio all'inizio, al termine e ogni 10 minuti di trasmissione.
 
@@ -54,7 +54,7 @@ L'indicativo si compone di tre parti:
 
 #### In Italia
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-06.jpg" alt="Indicativo in Italia" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-06.jpg" alt="Indicativo in Italia" width="65%"></div><br>
 
 In Italia, il prefisso inizia solitamente per **I** ed è seguito da una lettera o niente, poi da un numero (la Call Area), e infine da 2 o 3 lettere di suffisso (es. `IZ5DIY`).
 
@@ -64,13 +64,13 @@ In Italia, il prefisso inizia solitamente per **I** ed è seguito da una lettera
 
 #### Call Area (Aree Postali)
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-07.jpg" alt="Aree Postali in Italia" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-07.jpg" alt="Aree Postali in Italia" width="65%"></div><br>
 
 Il numero nell'indicativo italiano identifica la regione di appartenenza, ed è basato, per la maggior parte, sulle aree dei Codici di Avviamento Postale (CAP). Ad esempio, la zona 5 corrisponde alla Toscana.
 
 #### Internazionali
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-08.jpg" alt="Prefissi ITU" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-08.jpg" alt="Prefissi ITU" width="65%"></div><br>
 
 A livello internazionale, i prefissi sono definiti dall'ITU (International Telecommunication Union). Riconoscere il prefisso permette di capire immediatamente da quale nazione proviene il segnale.
 
@@ -78,7 +78,7 @@ A livello internazionale, i prefissi sono definiti dall'ITU (International Telec
 
 ### 3. ⚡ Abbreviazioni Telegrafiche
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-11.jpg" alt="Abbreviazioni Telegrafiche" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-11.jpg" alt="Abbreviazioni Telegrafiche" width="65%"></div><br>
 
 Nate per rendere rapide ed efficienti le trasmissioni in codice Morse, le abbreviazioni sono di larghissimo uso ancora oggi, anche nella fonia e nei modi digitali.
 
@@ -95,7 +95,7 @@ Tra le principali:
 
 ### 4. 🗂 Il Codice Q
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-19.jpg" alt="Codice Q" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-19.jpg" alt="Codice Q" width="65%"></div><br>
 
 Il Codice Q è una raccolta standardizzata di messaggi codificati, composti da 3 lettere che iniziano sempre per **Q**.
 Nato per velocizzare le comunicazioni in telegrafia (e abbattere le barriere linguistiche), è oggi lo standard di fatto in fonia.
@@ -115,7 +115,7 @@ Tra i più usati:
 
 ### 5. 📶 Sistema RS(T)
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-22.jpg" alt="RS(T)" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-22.jpg" alt="RS(T)" width="65%"></div><br>
 
 Il rapporto di segnale (RST) si scambia in ogni QSO per informare l'altra stazione di come la stiamo ricevendo.
 Si compone di 3 cifre:
@@ -123,7 +123,7 @@ Si compone di 3 cifre:
 - **S (Strength / Intensità)**: da 1 (appena percepibile) a 9 (molto forte).
 - **T (Tone / Tonalità)**: da 1 a 9 (usato solo in telegrafia/CW per indicare la purezza della nota).
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-23.jpg" alt="RS(T) Tone" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-23.jpg" alt="RS(T) Tone" width="65%"></div><br>
 
 In fonia (SSB, FM) il rapporto si dà solo usando le prime due cifre (es. "Sei arrivato 5 e 9"). Se l'intensità del segnale eccede il 9 sullo S-Meter della radio, si esprime in decibel (es. "5 e 9 più 20 dB").
 
@@ -131,7 +131,7 @@ In fonia (SSB, FM) il rapporto si dà solo usando le prime due cifre (es. "Sei a
 
 ### 6. 🌍 Maidenhead Locator System (QTH Locator)
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-24.jpg" alt="QTH Locator" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_08/slide-24.jpg" alt="QTH Locator" width="65%"></div><br>
 
 Il sistema Locator è un modo standardizzato a livello globale per comprimere coordinate geografiche (latitudine e longitudine) in una stringa alfanumerica molto corta e facile da trasmettere (es. `JN54JA`).
 È essenziale soprattutto nelle bande VHF/UHF e superiori per determinare velocemente la distanza esatta e la direzione per puntare le antenne direttive.

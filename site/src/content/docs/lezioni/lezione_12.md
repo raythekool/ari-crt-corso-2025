@@ -28,45 +28,45 @@ permalink: /guide-studio/lezione_12.html
 Un amplificatore ha lo scopo di aumentare l'ampiezza (in tensione o in potenza) di un segnale in ingresso. Nel mondo della radiotecnica, si dividono principalmente in due categorie:
 
 - **Amplificatori Audio (AF)**: Amplificano i segnali a frequenza audio. Non vi sono di norma circuiti risonanti e hanno sempre elementi attivi (transistor, FET, ecc.).
-  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-02.jpg" alt="Amplificatori AF" width="50%"></div><br>
+  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-02.jpg" alt="Amplificatori AF" width="65%"></div><br>
 - **Amplificatori a Radiofrequenza (RF)**: Amplificano i segnali a radiofrequenza. Vi sono spesso circuiti risonanti, che rendono il circuito selettivo, permettendo di amplificare solo la banda di frequenza desiderata.
-  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-03.jpg" alt="Amplificatori RF" width="50%"></div><br>
-  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-04.jpg" alt="Curva di risposta Amplificatore RF" width="50%"></div><br>
+  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-03.jpg" alt="Amplificatori RF" width="65%"></div><br>
+  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-04.jpg" alt="Curva di risposta Amplificatore RF" width="65%"></div><br>
 
 **Guadagno e Rendimento**
 - L'**amplificazione in potenza** è il rapporto fra potenza in uscita e potenza in ingresso.
 - L'**amplificazione in tensione** è il rapporto fra tensione in uscita e tensione in ingresso.
 - Il fattore di amplificazione è spesso chiamato guadagno e si esprime di norma in decibel (dB).
-  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-05.jpg" alt="Amplificazione" width="50%"></div><br>
+  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-05.jpg" alt="Amplificazione" width="65%"></div><br>
 - Il **rendimento ($\eta$)** è il rapporto, espresso in percentuale, fra la potenza in uscita e la potenza assorbita dall'alimentazione: $\eta = P_{OUT} / P_{ALIM}$.
-  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-06.jpg" alt="Rendimento" width="50%"></div><br>
+  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-06.jpg" alt="Rendimento" width="65%"></div><br>
 
 ### 2. Classi di Amplificazione
 
 Gli amplificatori sono classificati in base al punto di lavoro e alla porzione di segnale in ingresso per cui il dispositivo conduce corrente. Le principali classi sono: A, B, C e AB.
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-07.jpg" alt="Classi di Amplificazione" width="50%"></div><br>
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-08.jpg" alt="Zona di funzionamento lineare" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-07.jpg" alt="Classi di Amplificazione" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-08.jpg" alt="Zona di funzionamento lineare" width="65%"></div><br>
 
 **Classe A**
 Nella classe A, la corrente scorre per tutto il ciclo del segnale in ingresso (360° elettrici).
 - L'amplificazione è molto lineare (il segnale in uscita è identico a quello in ingresso).
 - Il rendimento è molto basso (max 20-25%).
 - Il punto di lavoro è situato al centro della zona lineare.
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-09.jpg" alt="Classe A" width="50%"></div><br>
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-10.jpg" alt="Punto di lavoro Classe A" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-09.jpg" alt="Classe A" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-10.jpg" alt="Punto di lavoro Classe A" width="65%"></div><br>
 
 **Classe B e Push-Pull**
 Nella classe B, la corrente scorre per metà del ciclo del segnale in ingresso (180° elettrici).
 - L'amplificazione è distorta se usata con un solo dispositivo.
 - Il rendimento è più alto della classe A (intorno al 60%).
 - Il punto di lavoro è vicino al punto di interdizione.
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-11.jpg" alt="Classe B" width="50%"></div><br>
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-12.jpg" alt="Punto di lavoro Classe B" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-11.jpg" alt="Classe B" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-12.jpg" alt="Punto di lavoro Classe B" width="65%"></div><br>
 
 Per ridurre la distorsione, la classe B è quasi sempre utilizzata in configurazione **Push-Pull**:
 - È composto da due dispositivi attivi. Ogni dispositivo lavora in classe B ed amplifica metà ciclo del segnale (push = spingi, pull = tira).
 - La fedeltà di riproduzione è buona con un alto rendimento.
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-13.jpg" alt="Push-Pull" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-13.jpg" alt="Push-Pull" width="65%"></div><br>
 
 **Classe C**
 La corrente scorre per meno di 180° del ciclo del segnale in ingresso.
@@ -74,46 +74,46 @@ La corrente scorre per meno di 180° del ciclo del segnale in ingresso.
 - Il rendimento è molto elevato (70% ed oltre).
 - È adatta per segnali che non richiedono linearità di ampiezza (es. CW, FM).
 - Il punto di lavoro è ben oltre il punto di interdizione.
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-15.jpg" alt="Classe C" width="50%"></div><br>
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-16.jpg" alt="Punto di lavoro Classe C" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-15.jpg" alt="Classe C" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-16.jpg" alt="Punto di lavoro Classe C" width="65%"></div><br>
 
 **Classe AB**
 Una via di mezzo fra A e B, in cui la corrente scorre per un angolo di poco superiore a 180°. L'amplificazione è abbastanza lineare, e il rendimento si attesta al 60-65%.
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-17.jpg" alt="Classe AB" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-17.jpg" alt="Classe AB" width="65%"></div><br>
 
 ### 3. Oscillatori
 
 Un oscillatore è un circuito che **genera** un segnale a radiofrequenza o a bassa frequenza. Funziona riportando una parte del segnale di uscita all'ingresso (retroazione positiva). Se nel percorso di retroazione è presente un circuito LC o un quarzo, l'oscillatore funzionerà a quella specifica frequenza di risonanza.
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-20.jpg" alt="Oscillatore" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-20.jpg" alt="Oscillatore" width="65%"></div><br>
 
 - **VFO (Variable Frequency Oscillator)**: Rendendo variabile il condensatore di un circuito LC, l'oscillatore può variare la sua frequenza. Sono però poco stabili e tendono a subire derive termiche.
-  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-21.jpg" alt="VFO" width="50%"></div><br>
+  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-21.jpg" alt="VFO" width="65%"></div><br>
 - **Oscillatori al quarzo**: Sostituendo il circuito LC con un cristallo di quarzo, la stabilità aumenta enormemente. Si possono generare anche frequenze superiori usando le "armoniche" (tecnica Overtone).
-  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-22.jpg" alt="Oscillatori al quarzo" width="50%"></div><br>
+  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-22.jpg" alt="Oscillatori al quarzo" width="65%"></div><br>
 - **PLL (Phase Locked Loop)**: Serve a generare un segnale di frequenza variabile (come un VFO), ma con l'altissima stabilità di un quarzo. Usa un oscillatore controllato in tensione (VCO) agganciato in fase a un oscillatore di riferimento a quarzo.
-  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-24.jpg" alt="PLL" width="50%"></div><br>
+  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-24.jpg" alt="PLL" width="65%"></div><br>
 
 ### 4. Porte Logiche e Segnali Digitali
 
 **Analogico vs Digitale**
 - I segnali analogici variano la loro ampiezza con continuità tra un valore minimo e uno massimo (es. l'audio).
 - I segnali digitali possono assumere solo stati definiti (tipicamente due stati: alto "1" e basso "0").
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-27.jpg" alt="Analogico e Digitale" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-27.jpg" alt="Analogico e Digitale" width="65%"></div><br>
 
 Nei circuiti TTL, il livello "0" corrisponde a circa 0.5V e il livello "1" a circa 4.5V. I circuiti logici sono impiegati ovunque nelle radio moderne, ad esempio nei display digitali della sintonia o nei microprocessori di gestione.
 
 **Porte Logiche**
 Sono i "mattoncini" fondamentali dell'elettronica digitale. In base a segnali logici in ingresso, forniscono un'uscita secondo una "Tavola della verità".
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-31.jpg" alt="Porte Logiche" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-31.jpg" alt="Porte Logiche" width="65%"></div><br>
 
 - **NOT**: Inverte il segnale in ingresso. (0 -> 1; 1 -> 0).
-  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-32.jpg" alt="Porta NOT" width="50%"></div><br>
+  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-32.jpg" alt="Porta NOT" width="65%"></div><br>
 - **OR**: Produce un livello logico '1' in uscita se *almeno uno* degli ingressi è '1'.
-  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-35.jpg" alt="Porta OR" width="50%"></div><br>
+  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-35.jpg" alt="Porta OR" width="65%"></div><br>
 - **AND**: Produce un livello logico '1' in uscita *solo se tutti* gli ingressi sono a '1'.
-  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-36.jpg" alt="Porta AND" width="50%"></div><br>
+  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-36.jpg" alt="Porta AND" width="65%"></div><br>
 - **NAND**: L'inverso della porta AND. Produce un livello logico '0' in uscita solo se tutti gli ingressi sono a '1'.
-  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-37.jpg" alt="Porta NAND" width="50%"></div><br>
+  <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_12/slide-37.jpg" alt="Porta NAND" width="65%"></div><br>
 
 ---
 

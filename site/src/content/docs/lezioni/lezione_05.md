@@ -30,17 +30,17 @@ permalink: /guide-studio/lezione_05.html
 
 Il **condensatore** è un componente elettronico che accumula carica elettrica quando è connesso a un generatore di tensione. È formato da **due piastre conduttive** (chiamate **armature**) separate da un materiale isolante detto **dielettrico**. Il dielettrico può essere aria, plastica, mica, ceramica o un elettrolita.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-03.jpg" alt="Struttura Condensatore" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-03.jpg" alt="Struttura Condensatore" width="65%"></div><br>
 
 Il simbolo elettrico del condensatore è costituito da due barrette parallele con i terminali.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-02.jpg" alt="Simbolo Elettrico" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-02.jpg" alt="Simbolo Elettrico" width="65%"></div><br>
 
 ### 🔹 Campo elettrico e carica
 
 Quando si applica una tensione ai capi del condensatore, le cariche elettriche si accumulano sulle armature: cariche positive su un lato e cariche negative sull'altro, in funzione della polarità del generatore. Fra le armature si sviluppa un **campo elettrico** che rappresenta l'energia immagazzinata.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-04.jpg" alt="Campo Elettrico" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-04.jpg" alt="Campo Elettrico" width="65%"></div><br>
 
 ### 🔹 Il ruolo del dielettrico
 
@@ -49,7 +49,7 @@ L'interposizione di un materiale isolante (dielettrico) fra le armature ha due e
 1. **Aumenta la capacità** del condensatore, perché si formano ulteriori superfici affacciate fra armature e dielettrico
 2. **Impone una tensione massima di lavoro**: ogni dielettrico ha una **rigidità dielettrica** — la tensione massima applicabile prima che l'isolante si perfori ("si buchi"). Anche l'aria ha una sua rigidità dielettrica.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-05.jpg" alt="Ruolo Dielettrico" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-05.jpg" alt="Ruolo Dielettrico" width="65%"></div><br>
 
 ### 🔹 Comportamento con corrente continua e alternata
 
@@ -67,11 +67,11 @@ L'interposizione di un materiale isolante (dielettrico) fra le armature ha due e
 | **Elettrolitici**       | Nastro avvolto in cilindro, grandi capacità | centinaia/migliaia di µF |
 | **Ad aria (variabili)** | Lamelle rotanti, usati per sintonia radio   | variabili                |
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-10.jpg" alt="Tipi Condensatori" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-10.jpg" alt="Tipi Condensatori" width="65%"></div><br>
 
 I **condensatori variabili** ad aria sono formati da lamelle fisse (statore) e lamelle rotanti (rotore); girando la manopola si varia la superficie affacciata e quindi la capacità. Il simbolo elettrico è il condensatore con una freccia sopra.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-11.jpg" alt="Condensatori Variabili" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-11.jpg" alt="Condensatori Variabili" width="65%"></div><br>
 
 ---
 
@@ -114,7 +114,7 @@ Dove:
 - **D** = distanza fra le armature
 
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-08.jpg" alt="Formula Costruttiva" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-08.jpg" alt="Formula Costruttiva" width="65%"></div><br>
 Relazioni di proporzionalità:
 
 - C è **direttamente proporzionale** alla costante dielettrica ε
@@ -137,7 +137,7 @@ Le formule per condensatori in serie e in parallelo sono **invertite** rispetto 
 
 In parallelo la superficie affacciata aumenta, quindi la capacità totale **aumenta**.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-12.jpg" alt="Condensatori Parallelo" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-12.jpg" alt="Condensatori Parallelo" width="65%"></div><br>
 
 ### 🔹 Condensatori in serie — formula del reciproco
 
@@ -149,7 +149,7 @@ Casi particolari:
 - N condensatori **uguali** in serie: $C_{tot} = C/N$
 - Il risultato è sempre **minore del condensatore più piccolo**
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-13.jpg" alt="Condensatori Serie" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-13.jpg" alt="Condensatori Serie" width="65%"></div><br>
 
 > **Tabella riassuntiva serie/parallelo:**
 >
@@ -170,7 +170,7 @@ Quando si applica una tensione a un condensatore tramite una resistenza in serie
 - La **corrente** scorre subito (è in anticipo)
 - La **tensione** ai capi del condensatore cresce con andamento **esponenziale** fino al valore di regime
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-15.jpg" alt="Carica e Scarica" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-15.jpg" alt="Carica e Scarica" width="65%"></div><br>
 
 La **costante di tempo** è il tempo impiegato dalla tensione per raggiungere il **63%** del valore finale:
 
@@ -183,10 +183,10 @@ Dove:
 - **C** = capacità in Farad
 
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-16.jpg" alt="Costante di Tempo" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-16.jpg" alt="Costante di Tempo" width="65%"></div><br>
 La tensione raggiunge il valore di regime dopo circa **5 costanti di tempo**. La scarica avviene con la stessa legge esponenziale.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-17.jpg" alt="Grafico Costante di Tempo" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-17.jpg" alt="Grafico Costante di Tempo" width="65%"></div><br>
 
 > Confronto con l'induttore: nell'induttore la costante di tempo è $\tau = L/R$; nel condensatore è $\tau = R \times C$.
 
@@ -218,7 +218,7 @@ La **reattanza capacitiva** è l'opposizione che un condensatore offre al passag
 
 > $$X_C = \frac{1}{2\pi f C}$$
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-21.jpg" alt="Reattanza Capacitiva" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-21.jpg" alt="Reattanza Capacitiva" width="65%"></div><br>
 
 Dove:
 
@@ -272,7 +272,7 @@ Le formule inverse ($I = V/X$ e $X = V/I$) funzionano allo stesso modo.
 
 L'**impedenza** (Z) è la grandezza che tiene conto dell'effetto combinato di resistenza, reattanza induttiva e reattanza capacitiva in un circuito in corrente alternata. Si misura in **ohm** e si indica con la lettera **Z**.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-23.jpg" alt="Impedenza" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-23.jpg" alt="Impedenza" width="65%"></div><br>
 
 ### 🔹 Formula dell'impedenza (Teorema di Pitagora)
 
@@ -305,7 +305,7 @@ Dove:
 - **−jX** indica reattanza capacitiva
 
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-25.jpg" alt="Numero Complesso" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-25.jpg" alt="Numero Complesso" width="65%"></div><br>
 Esempio: $Z = 50 + j15$ Ω → 50 Ω resistivi e 15 Ω di reattanza induttiva.
 
 ### 🔹 Legge di Ohm con l'impedenza
@@ -314,7 +314,7 @@ Usando l'impedenza Z, la legge di Ohm vale **sempre**, sia in corrente continua 
 
 > $$V = Z \times I \qquad I = \frac{V}{Z} \qquad Z = \frac{V}{I}$$
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-27.jpg" alt="Legge di Ohm con Impedenza" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-27.jpg" alt="Legge di Ohm con Impedenza" width="65%"></div><br>
 
 ---
 
@@ -324,7 +324,7 @@ Usando l'impedenza Z, la legge di Ohm vale **sempre**, sia in corrente continua 
 
 In un circuito con resistenze e reattanze, tensione e corrente non sono in fase, e la potenza si esprime in tre forme:
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-28.jpg" alt="Potenza CA" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-28.jpg" alt="Potenza CA" width="65%"></div><br>
 
 | Tipo                       | Formula                                            | Unità                     | Descrizione                              |
 | -------------------------- | -------------------------------------------------- | ------------------------- | ---------------------------------------- |
@@ -332,7 +332,7 @@ In un circuito con resistenze e reattanze, tensione e corrente non sono in fase,
 | **Potenza attiva (reale)** | $P = R \times I^2 = V \times I \times \cos\varphi$ | W (watt)                  | Produce lavoro utile (calore, movimento) |
 | **Potenza reattiva**       | $Q = X \times I^2$                                 | VAR (voltampere reattivi) | Circola senza produrre lavoro            |
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-29.jpg" alt="Tipi di Potenza" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-29.jpg" alt="Tipi di Potenza" width="65%"></div><br>
 
 ### 🔹 Rappresentazione vettoriale della potenza
 
@@ -343,7 +343,7 @@ Le tre potenze formano un **triangolo rettangolo** (analogo a quello dell'impede
 - Potenza apparente come ipotenusa
 
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-30.jpg" alt="Triangolo Potenza" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-30.jpg" alt="Triangolo Potenza" width="65%"></div><br>
 L'angolo φ è lo sfasamento tra tensione e corrente; il **cos φ** (fattore di potenza) lega potenza attiva e apparente:
 
 > $$P = S \times \cos\varphi$$
@@ -352,7 +352,7 @@ L'angolo φ è lo sfasamento tra tensione e corrente; il **cos φ** (fattore di 
 
 L'Enel impone alle utenze industriali un **cos φ ≥ 0,8** (rifasamento). I carichi industriali sono spesso induttivi (motori, trasformatori), causando correnti reattive elevate che occupano le linee senza produrre lavoro. Il rifasamento consiste nel ridurre l'angolo φ, tipicamente aggiungendo condensatori.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-31.jpg" alt="Rifasamento Analogo Birra" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_05/slide-31.jpg" alt="Rifasamento Analogo Birra" width="65%"></div><br>
 
 ---
 

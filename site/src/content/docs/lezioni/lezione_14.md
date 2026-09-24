@@ -55,7 +55,7 @@ La differenza sostanziale sta nella **componentistica** del ricevitore: circuiti
 
 ### 3. 🔍 Le tre caratteristiche fondamentali del ricevitore
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-02.jpg" alt="Sensibilità, Selettività, Stabilità" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-02.jpg" alt="Sensibilità, Selettività, Stabilità" width="65%"></div><br>
 Un buon ricevitore deve possedere tre caratteristiche essenziali:
 
 #### 🔹 Sensibilità
@@ -99,7 +99,7 @@ La **frequenza intermedia** (IF — Intermediate Frequency) è la frequenza fiss
 
 #### 🔹 Schema a blocchi della supereterodina
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-03.jpg" alt="Schema a blocchi supereterodina" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-03.jpg" alt="Schema a blocchi supereterodina" width="65%"></div><br>
 ```
 Antenna → Amplificatore RF → Convertitore/Mixer → Filtro IF → Amplificatore IF → Rivelatore → Amplificatore BF → Altoparlante
                                     ↑
@@ -122,7 +122,7 @@ L'oscillatore locale può essere:
 
 ### 5. 🔄 Supereterodina a doppia conversione
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-04.jpg" alt="Ricevitore a doppia conversione" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-04.jpg" alt="Ricevitore a doppia conversione" width="65%"></div><br>
 In molti ricevitori si effettua una **doppia conversione**:
 
 ```
@@ -144,7 +144,7 @@ Motivi per la doppia conversione:
 
 ### 6. 🔊 Tre tipi di amplificatori nel ricevitore
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-05.jpg" alt="Tipi di amplificatori" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-05.jpg" alt="Tipi di amplificatori" width="65%"></div><br>
 In un ricevitore sono presenti tre categorie di amplificatori:
 
 | Tipo                                        | Frequenza di lavoro            | Funzione                                                                     |
@@ -164,7 +164,7 @@ L'amplificatore RF è spesso dotato di più modalità:
 
 ### 7. 📶 Ricevitore per CW — Telegrafia
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-08.jpg" alt="Ricevitore CW" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-08.jpg" alt="Ricevitore CW" width="65%"></div><br>
 #### 🔹 Caratteristiche del filtro
 
 Il segnale telegrafico è una **portante accesa e spenta** (on/off keying), quindi è molto stretto in frequenza. Si usa un filtro a **500 Hz** di larghezza di banda. Questo è un valore standard: nelle domande d'esame, se chiedono la larghezza di banda per CW, la risposta è **500 Hz**.
@@ -193,7 +193,7 @@ Il problema della telegrafia è che una portante pura accesa/spenta non produce 
 
 ### 8. 📡 Ricevitore per SSB
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-10.jpg" alt="Ricevitore SSB" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-10.jpg" alt="Ricevitore SSB" width="65%"></div><br>
 #### 🔹 Caratteristiche del filtro
 
 Il filtro per SSB ha una larghezza di banda di **2,5 kHz** (2 kHz e mezzo), corrispondente alla banda vocale utile (200 Hz − 2500 Hz).
@@ -220,7 +220,7 @@ Nello schema del ricevitore SSB:
 
 ### 9. 📻 Ricevitore per AM
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-12.jpg" alt="Ricevitore AM" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-12.jpg" alt="Ricevitore AM" width="65%"></div><br>
 #### 🔹 Caratteristiche del filtro
 
 L'AM richiede entrambe le bande laterali, quindi il filtro è largo il **doppio** rispetto all'SSB: tipicamente **5-6 kHz**.
@@ -243,8 +243,8 @@ Segnale AM → Diodo → Condensatore → Uscita audio
 
 ### 10. 📡 Ricevitore per FM
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-14.jpg" alt="Ricevitore FM" width="50%"></div><br>
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-15.jpg" alt="Componenti ricevitore FM" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-14.jpg" alt="Ricevitore FM" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-15.jpg" alt="Componenti ricevitore FM" width="65%"></div><br>
 #### 🔹 Caratteristiche del filtro
 
 L'FM è il modo di emissione più largo; si usano filtri a **10 kHz** di larghezza di banda (standard di canalizzazione attuale). La frequenza intermedia tipica è **10,7 MHz** (standard industriale adottato dalla maggior parte dei costruttori).
@@ -286,7 +286,7 @@ Funzione pratica: evita lo stress di ascoltare fruscio continuo quando nessuno t
 
 ### 11. 🎛️ AGC — Controllo Automatico di Guadagno
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-16.jpg" alt="AGC" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-16.jpg" alt="AGC" width="65%"></div><br>
 Il **Controllo Automatico di Guadagno** è uno dei circuiti più importanti di un ricevitore. Può essere indicato con diverse sigle:
 
 - **CAG** — Controllo Automatico di Guadagno
@@ -316,7 +316,7 @@ Oltre alla regolazione automatica, esiste una **regolazione manuale** tramite la
 
 #### 🔹 S-meter
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-17.jpg" alt="S-meter" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-17.jpg" alt="S-meter" width="65%"></div><br>
 La stessa tensione proporzionale all'intensità del segnale ricevuto viene usata per pilotare lo **S-meter** (misuratore di livello del segnale):
 
 | Scala        | Significato                                               |
@@ -331,8 +331,8 @@ La "S" dello S-meter deriva dal sistema **RST**: R = Readability (leggibilità),
 
 ### 12. 🔀 Frequenza immagine
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-18.jpg" alt="Frequenza immagine" width="50%"></div><br>
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-19.jpg" alt="Esempio frequenza immagine" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-18.jpg" alt="Frequenza immagine" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-19.jpg" alt="Esempio frequenza immagine" width="65%"></div><br>
 La **frequenza immagine** — è un problema intrinseco di tutti i ricevitori supereterodina. Nasce dal fatto che il mixer genera sia la somma sia la differenza dei segnali in ingresso.
 
 #### 🔹 Esempio pratico
@@ -358,7 +358,7 @@ Se esiste un segnale a 1810 kHz, viene convertito alla stessa IF e viene ascolta
 
 #### 🔹 Soluzioni
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-20.jpg" alt="Soluzioni frequenza immagine" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-20.jpg" alt="Soluzioni frequenza immagine" width="65%"></div><br>
 1. **Circuiti selettivi prima del mixer**: filtri che lasciano passare la frequenza desiderata e bloccano la frequenza immagine
 2. **IF alta**: più è alta la IF, più la frequenza immagine è lontana e più è facile filtrarla
 3. **Doppia conversione**: permette di avere una prima IF molto alta (40-70 MHz) per eccellente reiezione dell'immagine, e una seconda IF bassa (9 MHz) dove è facile realizzare filtri stretti
@@ -367,7 +367,7 @@ Se esiste un segnale a 1810 kHz, viene convertito alla stessa IF e viene ascolta
 
 ### 13. ⚠️ Problemi dei ricevitori
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-21.jpg" alt="Problemi ricevitori" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-21.jpg" alt="Problemi ricevitori" width="65%"></div><br>
 I ricevitori supereterodina possono soffrire di tre problemi principali:
 
 #### 🔹 Bloccaggio
@@ -390,8 +390,8 @@ A differenza del trasmettitore (dove i segnali da mescolare sono pochi — la pr
 
 ### 14. 📊 Sensibilità e rapporto segnale/rumore
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-22.jpg" alt="Sensibilità" width="50%"></div><br>
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-23.jpg" alt="Formula del rumore" width="50%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-22.jpg" alt="Sensibilità" width="65%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_14/slide-23.jpg" alt="Formula del rumore" width="65%"></div><br>
 La **sensibilità** è la minima tensione in ingresso che produce un segnale d'uscita distinguibile dal rumore. Si esprime normalmente così:
 
 > **0,5 µV per 10 dB di rapporto segnale/rumore (S/N)**
