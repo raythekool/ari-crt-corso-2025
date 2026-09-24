@@ -24,7 +24,7 @@ permalink: /guide-studio/lezione_04.html
 
 ## 📖 Contenuti Teorici
 
-## 🧲 1. Magneti e campo magnetico (⏱ 21:18)
+## 🧲 1. Magneti e campo magnetico
 
 ### 🔹 I magneti permanenti
 
@@ -62,7 +62,7 @@ La tensione indotta è tanto maggiore quanto più è veloce il moto relativo tra
 
 ---
 
-## 📡 2. L'induttore (bobina, solenoide) (⏱ 29:10)
+## 📡 2. L'induttore (bobina, solenoide)
 
 ### 🔹 Struttura e funzionamento
 
@@ -138,7 +138,7 @@ La permeabilità del vuoto (o dell'aria) è indicata con **µ₀** e viene usata
 
 ---
 
-## 🔗 3. Induttori in serie e in parallelo (⏱ 46:29)
+## 🔗 3. Induttori in serie e in parallelo
 
 ### 🔹 Collegamento in serie
 
@@ -162,7 +162,7 @@ Le formule sono **identiche** a quelle delle resistenze in serie e in parallelo,
 
 ---
 
-## ⏱️ 4. Costante di tempo τ = L/R (⏱ 60:03)
+## ⏱️ 4. Costante di tempo τ = L/R
 
 ### 🔹 Comportamento transitorio
 
@@ -194,7 +194,7 @@ Il valore di regime (100%) viene raggiunto dopo circa **4–5 costanti di tempo*
 
 ---
 
-## 📐 5. Sfasamento e reattanza induttiva (⏱ 71:01)
+## 📐 5. Sfasamento e reattanza induttiva
 
 ### 🔹 La corrente è in ritardo di 90°
 
@@ -244,7 +244,7 @@ Induttore da 10 mH alimentato a diverse frequenze:
 
 ---
 
-## 🌀 6. Effetto pelle (⏱ 78:07)
+## 🌀 6. Effetto pelle
 
 ### 🔹 Distribuzione della corrente ad alta frequenza
 
@@ -262,7 +262,7 @@ Per questo motivo, nelle applicazioni ad alta frequenza si usano **fili di rame 
 
 ---
 
-## ⚡ 7. Il trasformatore (⏱ 96:51)
+## ⚡ 7. Il trasformatore
 
 <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_04/slide-25.jpg" alt="Trasformatore" width="50%"></div><br>
 

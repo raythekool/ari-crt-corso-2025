@@ -24,7 +24,7 @@ permalink: /guide-studio/lezione_05.html
 
 ## 📖 Contenuti Teorici
 
-## 🔋 1. Il condensatore: struttura e funzionamento (⏱ 39:20)
+## 🔋 1. Il condensatore: struttura e funzionamento
 
 ### 🔹 Cos'è un condensatore
 
@@ -75,7 +75,7 @@ I **condensatori variabili** ad aria sono formati da lamelle fisse (statore) e l
 
 ---
 
-## 📐 2. La capacità e la sua unità di misura (⏱ 46:00)
+## 📐 2. La capacità e la sua unità di misura
 
 ### 🔹 Definizione
 
@@ -125,7 +125,7 @@ Relazioni di proporzionalità:
 
 ---
 
-## 🔗 3. Condensatori in serie e in parallelo (⏱ 57:36)
+## 🔗 3. Condensatori in serie e in parallelo
 
 ### 🔹 Regola fondamentale: l'opposto delle resistenze
 
@@ -161,7 +161,7 @@ Casi particolari:
 
 ---
 
-## ⏱️ 4. Costante di tempo τ = R × C (⏱ 62:07)
+## ⏱️ 4. Costante di tempo τ = R × C
 
 ### 🔹 Carica e scarica del condensatore
 
@@ -192,7 +192,7 @@ La tensione raggiunge il valore di regime dopo circa **5 costanti di tempo**. La
 
 ---
 
-## ⚡ 5. Sfasamento nei condensatori: corrente in anticipo di 90° (⏱ 66:08)
+## ⚡ 5. Sfasamento nei condensatori: corrente in anticipo di 90°
 
 ### 🔹 Corrente e tensione nel condensatore
 
@@ -210,7 +210,7 @@ In un condensatore alimentato in corrente alternata, la **corrente è in anticip
 
 ---
 
-## 📉 6. Reattanza capacitiva $X_C$ (⏱ 67:18)
+## 📉 6. Reattanza capacitiva $X_C$
 
 ### 🔹 Definizione e formula
 
@@ -250,7 +250,7 @@ Condensatore da 39 pF a diverse frequenze:
 
 ---
 
-## 🔧 7. Legge di Ohm generalizzata con le reattanze (⏱ 75:21)
+## 🔧 7. Legge di Ohm generalizzata con le reattanze
 
 ### 🔹 Analogia tra R, $X_L$ e $X_C$
 
@@ -266,7 +266,7 @@ Le formule inverse ($I = V/X$ e $X = V/I$) funzionano allo stesso modo.
 
 ---
 
-## 🔺 8. L'impedenza Z (⏱ 79:15)
+## 🔺 8. L'impedenza Z
 
 ### 🔹 Definizione
 
@@ -318,7 +318,7 @@ Usando l'impedenza Z, la legge di Ohm vale **sempre**, sia in corrente continua 
 
 ---
 
-## 📊 9. Potenza in corrente alternata (⏱ 95:09)
+## 📊 9. Potenza in corrente alternata
 
 ### 🔹 Tre tipi di potenza
 

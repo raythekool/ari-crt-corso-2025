@@ -23,7 +23,7 @@ permalink: /guide-studio/lezione_20.html
 
 ## 📖 Contenuti Teorici
 
-### 1. 🔍 Correzione quiz e note di servizio (⏱ 00:00–15:08)
+### 1. 🔍 Correzione quiz e note di servizio
 
 La lezione si apre con una nota organizzativa sull'iscrizione all'esame di patente: il Ministero (MIMIT) ha un portale online; servono due marche da bollo e un contributo di 25 €, pagabile con PagoPA.
 
@@ -39,7 +39,7 @@ Altra domanda discussa: un cavo coassiale di qualità scadente **dissipa l'energ
 
 ---
 
-### 2. 📡 L'antenna come trasduttore (⏱ 15:08–19:30)
+### 2. 📡 L'antenna come trasduttore
 
 L'**antenna** è un **trasduttore**: un dispositivo che trasferisce l'energia elettrica ad alta frequenza proveniente dal trasmettitore (attraverso la linea di trasmissione) in un **campo elettromagnetico** che si propaga nello spazio, e viceversa.
 
@@ -54,7 +54,7 @@ Un conduttore percorso da una **corrente variabile** genera al suo intorno un ca
 
 ---
 
-### 3. 🔬 Regioni di campo: vicino e lontano (⏱ 19:30–27:10)
+### 3. 🔬 Regioni di campo: vicino e lontano
 
 Intorno ad un'antenna esistono **tre regioni** distinte:
 
@@ -82,7 +82,7 @@ Intorno ad un'antenna esistono **tre regioni** distinte:
 
 ---
 
-### 4. ⚡ Risonanza e analogia con le linee di trasmissione (⏱ 27:10–30:10)
+### 4. ⚡ Risonanza e analogia con le linee di trasmissione
 
 Un'antenna (tipicamente un dipolo) è assimilabile a un **circuito risonante serie** (L, C, R) dove:
 
@@ -104,7 +104,7 @@ Valori di impedenza alla risonanza:
 
 ---
 
-### 5. 📐 Resistenza di radiazione (⏱ 30:10–39:00)
+### 5. 📐 Resistenza di radiazione
 
 La **resistenza di radiazione** è definita come:
 
@@ -132,7 +132,7 @@ Antenne con dimensioni inferiori a circa **1/10 di lunghezza d'onda** hanno una 
 
 ---
 
-### 6. 🔄 Resistenza di radiazione vs impedenza di alimentazione (⏱ 39:00–43:00)
+### 6. 🔄 Resistenza di radiazione vs impedenza di alimentazione
 
 I due concetti sono correlati ma **non identici**:
 
@@ -149,7 +149,7 @@ Le due grandezze coincidono **solo** quando:
 
 ---
 
-### 7. 📏 Dimensioni, frequenza di risonanza e fattore di velocità (⏱ 43:00–48:00)
+### 7. 📏 Dimensioni, frequenza di risonanza e fattore di velocità
 
 Essendo un circuito risonante serie, l'antenna ha efficienza massima alla **risonanza**, dove l'impedenza è puramente resistiva e la corrente è massima.
 
@@ -171,7 +171,7 @@ Un filo sottile avrà una lunghezza diversa rispetto a un tubo di diametro maggi
 
 ---
 
-### 8. ⚙️ Comportamento fuori risonanza e antenne caricate (⏱ 48:00–55:30)
+### 8. ⚙️ Comportamento fuori risonanza e antenne caricate
 
 Fuori dalla frequenza di risonanza, l'impedenza dell'antenna presenta componenti **reattive**:
 
@@ -189,7 +189,7 @@ Lo scotto da pagare: la resistenza di radiazione **diminuisce** e potrebbe esser
 
 ---
 
-### 9. 🔀 Antenne multibanda (⏱ 55:30–65:00)
+### 9. 🔀 Antenne multibanda
 
 #### 🔹 Trappole (circuiti risonanti parallelo)
 
@@ -209,7 +209,7 @@ La caratteristica unica dell'OCF è che, per la relazione armonica e la distribu
 
 ---
 
-### 10. 📊 Il lobo di radiazione (⏱ 65:00–77:50)
+### 10. 📊 Il lobo di radiazione
 
 #### 🔹 Antenna isotropica (riferimento teorico)
 
@@ -238,7 +238,7 @@ Il lobo tridimensionale viene rappresentato in sezione:
 
 ---
 
-### 11. 🌍 Effetto del terreno: ground gain (⏱ 77:50–92:00)
+### 11. 🌍 Effetto del terreno: ground gain
 
 Nella realtà, un corrispondente lontano riceve sempre la **composizione** di almeno due fasci:
 

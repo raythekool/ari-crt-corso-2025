@@ -24,7 +24,7 @@ permalink: /guide-studio/lezione_01.html
 
 ## 📖 Contenuti Teorici
 
-## 🔬 1. Struttura dell'atomo e cariche elettriche (⏱ 03:10)
+## 🔬 1. Struttura dell'atomo e cariche elettriche
 
 ### 🔹 L'atomo e le sue particelle
 
@@ -40,7 +40,7 @@ In condizioni normali, ogni atomo è **elettricamente neutro**: il numero di pro
 <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_01/slide-03.jpg" alt="Ioni positivi e negativi" width="50%"></div><br>
 
 
-### 🔹 Conduttori e isolanti (⏱ 05:51)
+### 🔹 Conduttori e isolanti
 
 Non tutti i materiali si comportano allo stesso modo rispetto agli elettroni. Esistono materiali in cui gli elettroni sono **fortemente vincolati** all'atomo: anche applicando energia, è molto difficile estrarre un elettrone. Questi sono i **materiali isolanti** — ad esempio plastica, gomma, ceramica, aria.
 
@@ -50,7 +50,7 @@ Vi sono invece altri materiali, tipicamente i **metalli** (oro, argento, rame, a
 
 ---
 
-## ⚡ 2. La carica elettrica e il coulomb (⏱ 08:51)
+## ⚡ 2. La carica elettrica e il coulomb
 
 ### 🔹 Definizione di carica elettrica
 
@@ -76,7 +76,7 @@ Questa proprietà è analoga a quanto accade con le calamite e il magnetismo.
 
 ---
 
-## 🧲 3. Il campo elettrico (⏱ 11:26)
+## 🧲 3. Il campo elettrico
 
 ### 🔹 Concetto di campo e linee di forza
 
@@ -93,7 +93,7 @@ Il concetto di campo è fondamentale per il radioamatore: quando si trasmette, l
 
 ---
 
-## 🔌 4. La corrente elettrica (⏱ 15:08)
+## 🔌 4. La corrente elettrica
 
 ### 🔹 Definizione e natura della corrente
 
@@ -102,7 +102,7 @@ La **corrente elettrica** — spostamento ordinato di cariche elettriche (nel 99
 <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_01/slide-07.jpg" alt="Corrente elettrica e flusso di elettroni" width="50%"></div><br>
 
 
-### 🔹 Corrente continua vs corrente alternata (⏱ 20:34)
+### 🔹 Corrente continua vs corrente alternata
 
 La **corrente continua** (CC o DC) scorre sempre in un solo senso, dal polo negativo al polo positivo. Questo non significa che il suo valore sia costante nel tempo: la corrente può variare in ampiezza, ma non cambia mai direzione. Viene prodotta da pile e batterie.
 
@@ -110,7 +110,7 @@ La **corrente alternata** (CA o AC), che sarà oggetto della lezione 3, scorre a
 
 ⚠️ *Attenzione a un errore comune*: "continua" non significa "flusso costante". Significa che il verso della corrente non cambia mai.
 
-### 🔹 L'ampere: unità di misura della corrente (⏱ 24:11)
+### 🔹 L'ampere: unità di misura della corrente
 
 L'intensità della corrente elettrica si misura in **ampere** (simbolo dell'unità di misura: **A**; simbolo nelle formule: **I**, lettera maiuscola). L'ampere prende il nome dal fisico francese André-Marie Ampère.
 
@@ -126,7 +126,7 @@ Se in un filo in un secondo passano $6{,}25 \times 10^{18}$ elettroni, in quel f
 
 ---
 
-## 🔋 5. La tensione e la differenza di potenziale (⏱ 26:06)
+## 🔋 5. La tensione e la differenza di potenziale
 
 ### 🔹 Concetto di potenziale e analogia idraulica
 
@@ -148,7 +148,7 @@ La differenza di potenziale, detta comunemente **tensione**, si misura in **volt
 
 ---
 
-## ⚙️ 6. Energia e potenza elettrica (⏱ 30:33)
+## ⚙️ 6. Energia e potenza elettrica
 
 ### 🔹 L'energia elettrica
 
@@ -163,7 +163,7 @@ L'energia elettrica si misura in **wattora** (simbolo: **Wh**) o **kilowattora**
 
 > $$1 \text{ Wh} = \text{consumo di 1 watt per 1 ora}$$
 
-### 🔹 La potenza elettrica (⏱ 34:05)
+### 🔹 La potenza elettrica
 
 La **potenza** — la quantità di energia che si trasforma nell'unità di tempo — è ciò che determina "quanta" energia viene utilizzata in un dato momento. Tornando all'analogia dell'automobile: premendo poco l'acceleratore si trasforma poca energia (bassa potenza), premendo molto si trasforma molta energia (alta potenza), consumando più benzina.
 
@@ -188,7 +188,7 @@ L'unità di misura della potenza è il **watt** (simbolo dell'unità di misura: 
 
 ---
 
-## 📐 7. La formula della potenza e le formule inverse (⏱ 45:33)
+## 📐 7. La formula della potenza e le formule inverse
 
 ### 🔹 Formula principale
 
@@ -202,7 +202,7 @@ La formula fondamentale per il calcolo della potenza elettrica nei circuiti è:
 
 **Esempio pratico**: una radio alimentata a 12 V che consuma 0,1 A assorbe una potenza di $12 \times 0{,}1 = 1{,}2$ W.
 
-### 🔹 Formule inverse (⏱ 47:25)
+### 🔹 Formule inverse
 
 Dalla formula principale si ricavano due formule inverse, utili quando i dati a disposizione sono diversi:
 
@@ -212,22 +212,22 @@ Dalla formula principale si ricavano due formule inverse, utili quando i dati a 
 
 Il procedimento matematico è semplice: si divide entrambi i membri dell'equazione per la stessa grandezza. Ad esempio, dividendo $P = V \times I$ per $V$, si ottiene $\frac{P}{V} = I$.
 
-**Esempio pratico — calcolo del fusibile** (⏱ 53:27): una radio da 100 W alimentata a 12 V assorbe una corrente $I = \frac{100}{12} \approx 8{,}3$ A. Si può quindi scegliere un fusibile da 10 A per proteggere il circuito.
+**Esempio pratico — calcolo del fusibile**: una radio da 100 W alimentata a 12 V assorbe una corrente $I = \frac{100}{12} \approx 8{,}3$ A. Si può quindi scegliere un fusibile da 10 A per proteggere il circuito.
 
-**Esempio pratico — calcolo della potenza** (⏱ 52:35): una radio alimentata a 12 V che consuma 10 A assorbe $P = 12 \times 10 = 120$ W.
+**Esempio pratico — calcolo della potenza**: una radio alimentata a 12 V che consuma 10 A assorbe $P = 12 \times 10 = 120$ W.
 
-**Esempio dalla discussione con un corsista** (⏱ 56:28): una radio che eroga 120 W verso l'antenna ne consuma almeno il doppio dall'alimentatore (~250 W). Con alimentatore a 12 V: $I = \frac{250}{12} \approx 20$ A. Ecco perché gli alimentatori radioamatoriali tipici sono da 20–30 ampere.
+**Esempio dalla discussione con un corsista**: una radio che eroga 120 W verso l'antenna ne consuma almeno il doppio dall'alimentatore (~250 W). Con alimentatore a 12 V: $I = \frac{250}{12} \approx 20$ A. Ecco perché gli alimentatori radioamatoriali tipici sono da 20–30 ampere.
 
 ⚠️ *Consiglio d'esame*: è molto probabile che nelle 30 domande della parte tecnica ci sia almeno una domanda che richiede l'uso di queste formule. È fondamentale memorizzare tutte e tre le versioni.
 
 ---
 
-## 🔋 8. I generatori di corrente elettrica (⏱ 61:54)
+## 🔋 8. I generatori di corrente elettrica
 
 <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_01/slide-16.jpg" alt="Tipi di generatori" width="50%"></div><br>
 
 
-### 🔹 Le pile (⏱ 62:37)
+### 🔹 Le pile
 
 La **pila** è un generatore in cui la corrente elettrica viene prodotta da una **reazione chimica irreversibile**. All'interno della pila, sostanze chimiche si combinano spostando elettroni verso il polo negativo, lasciando il polo positivo carente di elettroni. Quando la pila è inserita in un circuito, gli elettroni scorrono dal polo negativo al polo positivo attraverso il circuito esterno. Le pile si scaricano e **non possono essere ricaricate**.
 
@@ -236,7 +236,7 @@ La **pila** è un generatore in cui la corrente elettrica viene prodotta da una 
 
 Le pile comuni hanno tensione di 1,5 V (stilo) o 9 V (il classico "pacchettino").
 
-### 🔹 Le batterie / accumulatori (⏱ 64:28)
+### 🔹 Le batterie / accumulatori
 
 Le **batterie** (o **accumulatori**) funzionano in modo simile alle pile, ma la reazione chimica è **reversibile**: possono essere **ricaricate**.
 
@@ -259,7 +259,7 @@ Le batterie sono caratterizzate da due valori:
 
 Le pile di piccole dimensioni hanno capacità molto inferiore, espressa in **milliamperora** (mAh). Le batterie ricaricabili si sono evolute dal nichel-cadmio (NiCd, con il problema dell'**effetto memoria** — la batteria risente del modo in cui è stata ricaricata in precedenza) agli **ioni di litio** (Li-ion), che nello stesso peso e volume possono contenere fino a 10 volte più energia.
 
-### 🔹 Gli alternatori (⏱ 68:31)
+### 🔹 Gli alternatori
 
 L'**alternatore** è un generatore che produce corrente elettrica tramite il **moto meccanico**, sfruttando l'interazione di due campi magnetici. A differenza di pile e batterie, l'alternatore genera **corrente alternata**.
 
@@ -272,13 +272,13 @@ Nell'automobile, la batteria fornisce energia per l'avviamento, poi l'alternator
 
 ---
 
-## 📊 9. Il generatore ideale e collegamenti serie/parallelo (⏱ 75:53)
+## 📊 9. Il generatore ideale e collegamenti serie/parallelo
 
 ### 🔹 Generatore ideale
 
 Un **generatore ideale** è un generatore che mantiene la **tensione di uscita costante** al variare della corrente assorbita dal carico. Se genera 12 V, mantiene 12 V sia con 1 A che con 100 A di carico. Il generatore ideale **non esiste** nella realtà: tutti i generatori reali subiscono un leggero calo di tensione quando la corrente assorbita aumenta. È tuttavia un concetto teorico importante e possibile domanda d'esame.
 
-### 🔹 Collegamento in parallelo (⏱ 77:03)
+### 🔹 Collegamento in parallelo
 
 Mettendo generatori **in parallelo** (tutti devono avere la **stessa tensione**):
 
@@ -292,7 +292,7 @@ Esempio: tre batterie da 1,5 V in parallelo erogano 1,5 V, ma con corrente tripl
 
 ⚠️ *Attenzione*: non si possono mettere in parallelo generatori con tensioni diverse, pena il rischio di guasto.
 
-### 🔹 Collegamento in serie (⏱ 78:43)
+### 🔹 Collegamento in serie
 
 Mettendo generatori **in serie**:
 
@@ -312,7 +312,7 @@ Esempio: due batterie da 1,5 V in serie erogano $1{,}5 + 1{,}5 = 3$ V. In pratic
 
 ---
 
-## 🛡️ 10. Effetti della corrente elettrica (⏱ 103:01)
+## 🛡️ 10. Effetti della corrente elettrica
 
 ### 🔹 Effetto fisiologico
 
@@ -328,7 +328,7 @@ La corrente elettrica attraversa il corpo umano causando la **scossa elettrica**
 
 Il rischio elettrico sarà approfondito in una lezione dedicata (14ª–15ª lezione).
 
-### 🔹 Effetto termico — Effetto Joule (⏱ 105:17)
+### 🔹 Effetto termico — Effetto Joule
 
 La corrente elettrica che scorre in un conduttore lo **scalda** sempre, producendo calore. Questo fenomeno è detto **effetto Joule**.
 
@@ -340,13 +340,13 @@ La corrente elettrica che scorre in un conduttore lo **scalda** sempre, producen
 
 Nella prossima lezione si imparerà a calcolare quanto scalda un conduttore.
 
-### 🔹 Effetto chimico — Elettrolisi (⏱ 107:01)
+### 🔹 Effetto chimico — Elettrolisi
 
 L'**elettrolisi** si verifica quando la corrente elettrica scorre in un liquido (es. acqua salata). La corrente ha il potere di **scindere le sostanze chimiche**: il sale (cloruro di sodio, NaCl) si divide in ioni sodio (Na⁺) e ioni cloro (Cl⁻), attratti dai rispettivi poli di segno opposto.
 
 ⚠️ *Nota per l'esame*: l'effetto chimico non ha applicazione diretta nelle radio, ma il programma richiede che si conosca.
 
-### 🔹 Effetto magnetico (⏱ 108:46)
+### 🔹 Effetto magnetico
 
 Un cavo elettrico percorso da corrente **genera un campo magnetico**.
 

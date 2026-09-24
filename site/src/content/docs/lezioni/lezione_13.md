@@ -22,7 +22,7 @@ permalink: /guide-studio/lezione_13.html
 
 ## 📖 Contenuti Teorici
 
-### 1. 🔍 Correzione Quiz Lezione 12 (⏱ 00:03–12:30)
+### 1. 🔍 Correzione Quiz Lezione 12
 
 Paolo apre la lezione con la correzione del quiz precedente, dedicato ad amplificatori, oscillatori e decibel. Risultati molto buoni, con qualche difficoltà solo sulla domanda relativa ai −6 dB.
 
@@ -42,7 +42,7 @@ Paolo apre la lezione con la correzione del quiz precedente, dedicato ad amplifi
 
 ---
 
-### 2. 🎙️ Trasduttori: Microfoni e Altoparlanti (⏱ 15:00–30:00)
+### 2. 🎙️ Trasduttori: Microfoni e Altoparlanti
 
 I trasduttori sono i componenti che interfacciano il mondo esterno (onde acustiche) con il mondo elettrico (segnali elettrici della radio).
 
@@ -82,7 +82,7 @@ Il microfono dinamico è essenzialmente un altoparlante usato al rovescio.
 
 ---
 
-### 3. 🔄 Miscelatori (Mixer) (⏱ 30:48–35:30)
+### 3. 🔄 Miscelatori (Mixer)
 
 **Miscelatore (mescolatore, mixer)** — componente con **due ingressi e un'uscita** che combina due segnali a frequenze diverse producendo in uscita la frequenza somma e la frequenza differenza.
 
@@ -105,7 +105,7 @@ Dal punto di vista pratico, un **MOSFET a doppio gate** funziona già come misce
 
 ---
 
-### 4. 📡 Schema Generale del Trasmettitore (⏱ 35:30–40:00)
+### 4. 📡 Schema Generale del Trasmettitore
 <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-09.jpg" alt="Blocchi base del trasmettitore" width="50%"></div><br>
 
 
@@ -120,7 +120,7 @@ Il trasmettitore è un dispositivo che trasforma l'informazione (voce, dati, imm
 
 ---
 
-### 5. 📻 Trasmettitore in Telegrafia (CW) (⏱ 40:49–54:00)
+### 5. 📻 Trasmettitore in Telegrafia (CW)
 
 #### 🔹 Schema CW a Singola Frequenza
 <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-12.jpg" alt="Trasmettitore CW semplice" width="50%"></div><br>
@@ -169,7 +169,7 @@ Il segnale "smussato" non genera click. Questo circuito opera a basso livello (p
 
 ---
 
-### 6. 📻 Trasmettitore SSB (⏱ 58:30–88:00)
+### 6. 📻 Trasmettitore SSB
 <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-21.jpg" alt="Schema a blocchi trasmettitore SSB" width="50%"></div><br>
 
 
@@ -205,7 +205,7 @@ Il segnale SSB è generato a **frequenza fissa** (9 MHz) perché vincolato al fi
 
 ---
 
-### 7. 📻 Trasmettitore AM (⏱ 97:00–99:40)
+### 7. 📻 Trasmettitore AM
 <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-17.jpg" alt="Generazione Modulazione di Ampiezza" width="50%"></div><br>
 
 
@@ -220,7 +220,7 @@ I blocchi dello schema sono gli stessi del trasmettitore generico, con la modula
 
 ---
 
-### 8. 📻 Trasmettitore FM (⏱ 88:53–95:40)
+### 8. 📻 Trasmettitore FM
 
 #### 🔹 Schema a Blocchi
 
@@ -265,7 +265,7 @@ Un trasmettitore è specificato da:
 
 ---
 
-### 10. ⚠️ Intermodulazione e Splatter (⏱ 100:00–121:00)
+### 10. ⚠️ Intermodulazione e Splatter
 
 #### 🔹 Armoniche e Distorsione
 <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_13/slide-28.jpg" alt="Armoniche flat topping" width="50%"></div><br>

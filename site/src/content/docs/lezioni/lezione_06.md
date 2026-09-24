@@ -23,7 +23,7 @@ permalink: /guide-studio/lezione_06.html
 
 ## 📖 Contenuti Teorici
 
-## 🔍 1. Revisione quiz Lezione 05 (⏱ 00:04 – 22:14)
+## 🔍 1. Revisione quiz Lezione 05
 
 La lezione si apre con la correzione del quiz della Lezione 05. Le risposte sono riepilogate brevemente:
 
@@ -44,7 +44,7 @@ La lezione si apre con la correzione del quiz della Lezione 05. Le risposte sono
 
 ---
 
-## 📡 2. Introduzione ai filtri (⏱ 22:14 – 27:25)
+## 📡 2. Introduzione ai filtri
 
 ### 🔹 Cos'è un filtro
 
@@ -61,7 +61,7 @@ Queste caratteristiche complementari permettono di discriminare i segnali in bas
 
 ---
 
-## 📉 3. Filtro passa basso (⏱ 27:25 – 46:16)
+## 📉 3. Filtro passa basso
 
 ### 🔹 Definizione
 
@@ -119,7 +119,7 @@ Ogni componente reattivo (condensatore o induttore) inserito nel filtro aggiunge
 
 ---
 
-## 📈 4. Filtro passa alto (⏱ 60:20 – 66:46)
+## 📈 4. Filtro passa alto
 
 ### 🔹 Definizione
 
@@ -142,7 +142,7 @@ Un filtro passa alto può essere costruito con diverse combinazioni: C+R, C+L, o
 
 ---
 
-## 📊 5. Filtro passa banda (⏱ 66:46 – 75:02)
+## 📊 5. Filtro passa banda
 
 ### 🔹 Definizione
 
@@ -158,7 +158,7 @@ I filtri passa banda sono fondamentali nei **ricevitori radio**: permettono la *
 
 ---
 
-## 🚫 6. Filtro elimina banda (notch) (⏱ 70:55 – 75:02)
+## 🚫 6. Filtro elimina banda (notch)
 
 ### 🔹 Definizione
 
@@ -187,7 +187,7 @@ Usato per eliminare le interferenze della **banda FM commerciale** (88–108 MHz
 
 ---
 
-## 🔄 7. Circuiti risonanti (⏱ 78:31 – 96:05)
+## 🔄 7. Circuiti risonanti
 
 ### 🔹 Definizione di risonanza
 
@@ -248,7 +248,7 @@ I circuiti risonanti sono il meccanismo base della **selettività** nei ricevito
 
 ---
 
-## 📐 8. Fattore di merito Q e larghezza di banda (⏱ 96:05 – 109:23)
+## 📐 8. Fattore di merito Q e larghezza di banda
 
 ### 🔹 Componenti reali e perdite
 
@@ -302,7 +302,7 @@ $$B = \frac{f_0}{Q} = \frac{5.000 \text{ kHz}}{100} = 50 \text{ kHz}$$
 
 ---
 
-## 💎 9. Cristalli di quarzo (⏱ 114:18 – 122:02)
+## 💎 9. Cristalli di quarzo
 
 ### 🔹 Piezoelettricità
 

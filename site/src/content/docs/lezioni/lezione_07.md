@@ -27,7 +27,7 @@ permalink: /guide-studio/lezione_07.html
 
 ## 📖 Contenuti Teorici
 
-### 1. 🔍 Ripasso Quiz Lezione 06 (⏱ 00:03–10:11)
+### 1. 🔍 Ripasso Quiz Lezione 06
 
 La lezione si apre con la correzione dei quiz assegnati nella lezione precedente, dedicata a filtri e circuiti risonanti. Vengono rivisti i seguenti concetti chiave:
 
@@ -41,7 +41,7 @@ La lezione si apre con la correzione dei quiz assegnati nella lezione precedente
 
 ---
 
-### 2. 📡 Introduzione ai Modi di Emissione e alla Modulazione (⏱ 10:33–17:13)
+### 2. 📡 Introduzione ai Modi di Emissione e alla Modulazione
 
 #### 🔹 Il concetto di modulazione
 
@@ -69,7 +69,7 @@ La **modulazione di fase (PM)** è meno utilizzata nell'uso vocale radioamatoria
 
 ---
 
-### 3. 📈 Modulazione di Ampiezza (AM) in Dettaglio (⏱ 17:33–49:03)
+### 3. 📈 Modulazione di Ampiezza (AM) in Dettaglio
 
 #### 🔹 Principio di funzionamento
 
@@ -148,7 +148,7 @@ Questo evidenzia il grande svantaggio dell'AM: **due terzi della potenza** sono 
 
 ---
 
-### 4. 📡 SSB — Banda Laterale Unica (Single Side Band) (⏱ 49:03–73:16)
+### 4. 📡 SSB — Banda Laterale Unica (Single Side Band)
 
 #### 🔹 Il principio della SSB
 
@@ -187,7 +187,7 @@ Anche in un trasmettitore SSB rimane una minima portante residua. In un trasmett
 
 ---
 
-### 5. ⚡ Splatter vs Armoniche: Distinzione Fondamentale (⏱ 59:16–73:16)
+### 5. ⚡ Splatter vs Armoniche: Distinzione Fondamentale
 
 Un chiarimento importante emerso durante la lezione riguarda la distinzione tra **splatter** e **armoniche**, due fenomeni diversi spesso confusi:
 
@@ -205,7 +205,7 @@ Lo **splatter** è un fenomeno **in banda**: il segnale si allarga e invade i ca
 
 ### 6. 📻 Modulazione di Frequenza (FM)
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-17.jpg" alt="Modulazione di Frequenza" width="50%"></div><br> (⏱ 73:51–84:28)
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_07/slide-17.jpg" alt="Modulazione di Frequenza" width="50%"></div><br>
 
 #### 🔹 Principio di funzionamento
 
@@ -258,7 +258,7 @@ La FM occupa una **banda molto più larga** rispetto alla SSB. Per questo motivo
 
 ---
 
-### 7. 🔍 Regolazione della Banda del Ricevitore (⏱ 85:27–87:09)
+### 7. 🔍 Regolazione della Banda del Ricevitore
 
 Durante la sessione di domande, viene trattato il tema della **regolazione della larghezza di banda** del ricevitore. Il ricevitore è paragonato a una **finestra aperta sul mondo**: più la finestra è ampia, più rumore entra; più è stretta, più il segnale desiderato può emergere dal rumore.
 

@@ -26,7 +26,7 @@ permalink: /guide-studio/lezione_02.html
 
 ## 📖 Contenuti Teorici
 
-## 🔍 1. Riepilogo e correzione quiz della Lezione 01 (⏱ 00:02)
+## 🔍 1. Riepilogo e correzione quiz della Lezione 01
 
 ### 🔹 Risultati del quiz
 
@@ -60,7 +60,7 @@ Il docente segnala che le domande del Ministero a volte usano un linguaggio gerg
 
 ---
 
-## ⚡ 2. La resistenza elettrica (⏱ 14:36)
+## ⚡ 2. La resistenza elettrica
 
 ### 🔹 Concetti di base
 
@@ -88,7 +88,7 @@ La resistenza si misura in **ohm** (simbolo: **Ω**). Un ohm è la resistenza di
 
 ---
 
-## 📐 3. La resistenza di un conduttore (⏱ 19:28)
+## 📐 3. La resistenza di un conduttore
 
 ### 🔹 La formula della resistenza del conduttore
 
@@ -137,7 +137,7 @@ Nelle domande d'esame può essere chiesto se la resistenza di un conduttore "cre
 
 ---
 
-## 📏 4. La legge di Ohm (⏱ 24:30)
+## 📏 4. La legge di Ohm
 
 ### 🔹 Le tre grandezze fondamentali
 
@@ -177,19 +177,19 @@ Queste tre formule vanno memorizzate oppure, ricordandone una, si possono ricava
 
 <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-15.jpg" alt="Esempio Legge di Ohm 1" width="50%"></div><br>
 
-**Esempio 1** (⏱ 28:08): 10 V applicati a una resistenza di 5 Ω. Quanta corrente scorre?
+**Esempio 1**: 10 V applicati a una resistenza di 5 Ω. Quanta corrente scorre?
 
 - Dato: $V = 10$ V, $R = 5$ Ω. Incognita: $I$.
 - Formula: $I = \frac{V}{R} = \frac{10}{5} = 2$ A.
 
 <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-16.jpg" alt="Esempio Legge di Ohm 2" width="50%"></div><br>
 
-**Esempio 2** (⏱ 29:29): 15 V ai capi di un circuito in cui scorrono 5 A. Che resistenza presenta?
+**Esempio 2**: 15 V ai capi di un circuito in cui scorrono 5 A. Che resistenza presenta?
 
 - Dato: $V = 15$ V, $I = 5$ A. Incognita: $R$.
 - Formula: $R = \frac{V}{I} = \frac{15}{5} = 3$ Ω.
 
-**Esempio 3** (⏱ 30:17): In una resistenza di 4 Ω scorrono 3 A. Che tensione è applicata?
+**Esempio 3**: In una resistenza di 4 Ω scorrono 3 A. Che tensione è applicata?
 
 - Dato: $R = 4$ Ω, $I = 3$ A. Incognita: $V$.
 - Formula: $V = R \cdot I = 4 \times 3 = 12$ V.
@@ -206,7 +206,7 @@ Il docente suggerisce un percorso in tre passi per affrontare le domande d'esame
 
 ---
 
-## 📊 5. Multipli e sottomultipli (⏱ 31:44)
+## 📊 5. Multipli e sottomultipli
 
 ### 🔹 Multipli
 
@@ -239,7 +239,7 @@ Quando si inseriscono i valori nelle formule, è importante usare sempre le **un
 
 ---
 
-## 🔧 6. Il resistore (⏱ 44:13)
+## 🔧 6. Il resistore
 
 ### 🔹 Cos'è un resistore
 
@@ -293,7 +293,7 @@ La formula $P = \frac{V^2}{R}$ è particolarmente usata anche per misurare la po
 
 ---
 
-## 🌡️ 7. Resistori NTC e PTC (⏱ 53:15)
+## 🌡️ 7. Resistori NTC e PTC
 
 ### 🔹 Definizioni
 
@@ -320,7 +320,7 @@ Un partecipante racconta un'applicazione pratica ingegnosa: l'uso di un resistor
 
 ---
 
-## 🔋 8. Il resistore ideale e il generatore reale (⏱ 60:47)
+## 🔋 8. Il resistore ideale e il generatore reale
 
 ### 🔹 Il resistore ideale
 
@@ -359,7 +359,7 @@ La resistenza interna è una caratteristica costruttiva: più il generatore è p
 
 ---
 
-## 🔀 9. Le leggi di Kirchhoff (⏱ 67:32)
+## 🔀 9. Le leggi di Kirchhoff
 
 ### 🔹 Prima legge di Kirchhoff (legge dei nodi)
 
@@ -392,7 +392,7 @@ I 12 V del generatore possono ripartirsi in qualsiasi combinazione (9+3, 6+6, 8+
 
 ---
 
-## 🔗 10. Resistori in serie (⏱ 72:11)
+## 🔗 10. Resistori in serie
 
 ### 🔹 Regole fondamentali
 
@@ -438,7 +438,7 @@ Il valore della resistenza totale in serie è **sempre più grande** di ogni sin
 
 ---
 
-## 🔀 11. Resistori in parallelo (⏱ 75:40)
+## 🔀 11. Resistori in parallelo
 
 ### 🔹 Regole fondamentali
 
