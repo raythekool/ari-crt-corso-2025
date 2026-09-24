@@ -121,3 +121,11 @@ header, aside {
   border-radius: 8px; /* Un tocco di classe */
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
+
+/* Restringi la Right Sidebar (TOC) come richiesto */
+@media (min-width: 72rem) {
+  .right-sidebar-panel {
+    width: 16rem !important;
+    flex: 0 0 16rem !important;
+  }
+}
