@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Introduzione al Corso"
+title: "1 - Introduzione al Corso"
 permalink: /guide-studio/lezione_01.html
 ---
 

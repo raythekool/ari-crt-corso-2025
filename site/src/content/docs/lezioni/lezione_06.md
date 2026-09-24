@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Semiconduttori"
+title: "6 - Semiconduttori"
 permalink: /guide-studio/lezione_06.html
 ---
 

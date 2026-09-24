@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Circuiti Elettrici e Onde Radio"
+title: "3 - Circuiti Elettrici e Onde Radio"
 permalink: /guide-studio/lezione_03.html
 ---
 

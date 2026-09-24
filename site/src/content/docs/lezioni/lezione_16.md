@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Linee di Trasmissione RF"
+title: "16 - Linee di Trasmissione RF"
 permalink: /guide-studio/lezione_16.html
 ---
 

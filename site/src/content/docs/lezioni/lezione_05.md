@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Componenti Elettronici"
+title: "5 - Componenti Elettronici"
 permalink: /guide-studio/lezione_05.html
 ---
 

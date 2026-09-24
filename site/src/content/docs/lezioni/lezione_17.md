@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "La Propagazione delle Onde Radio"
+title: "17 - La Propagazione delle Onde Radio"
 permalink: /guide-studio/lezione_17.html
 ---
 

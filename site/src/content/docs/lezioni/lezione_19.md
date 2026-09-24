@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Antenne - Parte Seconda"
+title: "19 - Antenne - Parte Seconda"
 permalink: /guide-studio/lezione_19.html
 ---
 

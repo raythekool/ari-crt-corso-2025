@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Procedure e Alfabeto Telefonetico"
+title: "8 - Procedure e Alfabeto Telefonetico"
 permalink: /guide-studio/lezione_08.html
 ---
 

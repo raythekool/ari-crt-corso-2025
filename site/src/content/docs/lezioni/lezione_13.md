@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Trasduttori, Miscelatori e Trasmettitori"
+title: "13 - Trasduttori, Miscelatori e Trasmettitori"
 permalink: /guide-studio/lezione_13.html
 ---
 

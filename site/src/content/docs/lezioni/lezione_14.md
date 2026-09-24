@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "I Ricevitori"
+title: "14 - I Ricevitori"
 permalink: /guide-studio/lezione_14.html
 ---
 

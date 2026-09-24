@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Amplificatori, Oscillatori e Porte Logiche"
+title: "12 - Amplificatori, Oscillatori e Porte Logiche"
 permalink: /guide-studio/lezione_12.html
 ---
 

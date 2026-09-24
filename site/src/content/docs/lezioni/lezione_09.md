@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Bande Radioamatoriali, Normativa e Enti"
+title: "9 - Bande Radioamatoriali, Normativa e Enti"
 permalink: /guide-studio/lezione_09.html
 ---
 

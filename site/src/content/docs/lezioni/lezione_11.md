@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "I Transistor e i Tubi a Vuoto"
+title: "11 - I Transistor e i Tubi a Vuoto"
 permalink: /guide-studio/lezione_11.html
 ---
 

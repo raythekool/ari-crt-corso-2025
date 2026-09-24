@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Antenne - Parte 2: Direttività e Guadagno"
+title: "21 - Antenne - Parte 2: Direttività e Guadagno"
 permalink: /guide-studio/lezione_21.html
 ---
 
