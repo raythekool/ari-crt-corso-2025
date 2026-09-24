@@ -110,7 +110,7 @@ header, aside {
 
 /* Allarga l'area del testo centrale come richiesto (da ~70ch a ~90ch) */
 :root {
-  --sl-content-width: 90ch !important;
+  --sl-content-width: 100ch !important;
 }
 
 /* Forza la larghezza delle immagini nelle slide */
@@ -123,16 +123,21 @@ header, aside {
 }
 
 
-/* Restringi drasticamente la Right Sidebar */
+/* Restringi la Right Sidebar e fai espandere il contenuto centrale */
 @media (min-width: 72rem) {
   .right-sidebar-panel {
-    width: 12rem !important;
-    min-width: 12rem !important;
-    max-width: 12rem !important;
-    flex: 0 0 12rem !important;
+    width: 14rem !important;
+    min-width: 14rem !important;
+    max-width: 14rem !important;
+    flex: 0 0 14rem !important;
   }
   .right-sidebar-panel .right-sidebar-container {
     margin: 2rem 1rem 2rem 0 !important;
+  }
+  .main-pane {
+    flex: 1 1 auto !important;
+    width: calc(100% - 14rem) !important;
+    max-width: none !important;
   }
 }
 
