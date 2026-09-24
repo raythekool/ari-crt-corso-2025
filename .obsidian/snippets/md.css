@@ -1,0 +1,13 @@
+body {
+  --file-line-width: 1000px;
+}
+
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.markdown-preview-view .mermaid,
+.markdown-source-view .mermaid {
+  overflow-x: auto;
+}
