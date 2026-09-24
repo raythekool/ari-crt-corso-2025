@@ -12,8 +12,8 @@ import time
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api._errors import TranscriptsDisabled, NoTranscriptFound
 
-OUTPUT_DIR_TXT = "transcripts"
-OUTPUT_DIR_VTT = "transcripts (vtt)"
+OUTPUT_DIR_TXT = os.path.join("transcripts", "2026")
+OUTPUT_DIR_VTT = os.path.join("transcripts (vtt)", "2026")
 
 LEZIONI_2026 = [
     # num, date_str (DD MM YYYY), url, title
