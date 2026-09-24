@@ -58,3 +58,39 @@ header, aside {
   border-color: rgba(56, 189, 248, 0.3) !important;
   transform: translateY(-2px);
 }
+
+/* Effetto Bento Box per le Sidebar (Desktop) come nel Mockup */
+@media (min-width: 50rem) {
+  .sidebar-pane {
+    margin: 2rem 1rem 2rem 2rem !important;
+    height: calc(100vh - var(--sl-nav-height) - 4rem) !important;
+    border-radius: 16px !important;
+    background-color: rgba(255, 255, 255, 0.02) !important;
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4) !important;
+    background-image: linear-gradient(135deg, rgba(56, 189, 248, 0.06) 0%, transparent 60%) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+}
+
+@media (min-width: 72rem) {
+  .right-sidebar-panel {
+    margin: 2rem 2rem 2rem 1rem !important;
+    padding: 1.5rem !important;
+    height: auto !important;
+    max-height: calc(100vh - var(--sl-nav-height) - 4rem) !important;
+    border-radius: 16px !important;
+    background-color: rgba(255, 255, 255, 0.02) !important;
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4) !important;
+    background-image: linear-gradient(225deg, rgba(56, 189, 248, 0.06) 0%, transparent 60%) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+}
+
+/* Fix per l'intestazione dell'indice a destra per farla matchare */
+.right-sidebar-panel h2 {
+  margin-top: 0 !important;
+}
