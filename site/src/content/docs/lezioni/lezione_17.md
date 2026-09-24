@@ -6,7 +6,7 @@ permalink: /guide-studio/lezione_17.html
 
 # 📘 Lezione 17 - La Propagazione delle Onde Radio
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_17/slide-01.jpg" alt="Copertina" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_17/slide-01.jpg" alt="Copertina" style="width: 75%;"></div><br>
 
 ## 📌 Panoramica
 
@@ -32,7 +32,7 @@ I primi studi sull'elettromagnetismo risalgono all'Ottocento, con figure illustr
 - **Heinrich Lenz** e **Carl Friedrich Gauss** (Legge di Lenz e Teorema di Gauss)
 - **Heinrich Rudolf Hertz** (Esistenza delle onde elettromagnetiche)
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_17/slide-03.jpg" alt="Storia dei campi elettromagnetici" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_17/slide-03.jpg" alt="Storia dei campi elettromagnetici" style="width: 75%;"></div><br>
 
 La svolta epocale avvenne con **James Clerk Maxwell**, che elaborò le famose *Equazioni di Maxwell*, dimostrando che i campi elettrici e magnetici in variazione si sostengono a vicenda e si propagano nello spazio sotto forma di onde alla velocità della luce.
 **Guglielmo Marconi**, nel 1901, dimostrò la possibilità di usare queste onde per comunicazioni a lunga distanza.
@@ -46,7 +46,7 @@ Il campo elettromagnetico è costituito da un campo elettrico (E) e un campo mag
 - La **polarizzazione** dell'onda è definita dal piano su cui giace il campo elettrico E rispetto a terra.
 > 💡 **Esempio Pratico:** Un'antenna montata verticalmente (come quella del tetto dell'auto) genera un campo elettrico verticale rispetto al suolo, e l'onda è quindi a **polarizzazione verticale**. Un'onda emessa da un dipolo steso orizzontalmente avrà **polarizzazione orizzontale**.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_17/slide-06.jpg" alt="Campi Elettrico e Magnetico" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_17/slide-06.jpg" alt="Campi Elettrico e Magnetico" style="width: 75%;"></div><br>
 
 La velocità di propagazione nel vuoto è pari a quella della luce ($V \approx 3 \cdot 10^5$ km/s).
 La **lunghezza d'onda** ($\lambda$) e la frequenza ($f$) sono inversamente proporzionali: $\lambda(m) = 300 / f(MHz)$.
@@ -55,7 +55,7 @@ La **lunghezza d'onda** ($\lambda$) e la frequenza ($f$) sono inversamente propo
 
 Lo spettro elettromagnetico include onde radio, radiazione termica, luce visibile, raggi X e gamma. Le **Onde Radio** occupano la porzione di spettro con frequenza compresa tra $3$ kHz e $300$ GHz.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_17/slide-09.jpg" alt="Spettro Elettromagnetico" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_17/slide-09.jpg" alt="Spettro Elettromagnetico" style="width: 75%;"></div><br>
 
 La propagazione nello spazio libero avviene in linea retta in modo sferico, con l'intensità del segnale che si riduce proporzionalmente al quadrato della distanza.
 
@@ -72,7 +72,7 @@ La ionosfera è la parte alta dell'atmosfera terrestre, ionizzata dalle radiazio
 - **LUF (Lower Usable Frequency)**: la minima frequenza utilizzabile (sotto di essa l'attenuazione è eccessiva).
 - **FOT (Frequency of Optimum Traffic)**: frequenza ottimale, circa l'80-90% della MUF.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_17/slide-30.jpg" alt="MUF LUF FOT" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_17/slide-30.jpg" alt="MUF LUF FOT" style="width: 75%;"></div><br>
 
 **La Zona di Ombra (Skip Zone)**
 Tra il limite massimo coperto dall'onda di terra (che viaggia rasente al suolo per poche decine di km) e il punto in cui cade la prima riflessione ionosferica, esiste un'area dove il segnale non arriva. Questa è detta **Zona di Ombra (o Skip Zone)**. È il motivo per cui potreste collegare gli Stati Uniti in HF ma non riuscire ad ascoltare un corrispondente nella regione vicina.
@@ -80,7 +80,7 @@ Tra il limite massimo coperto dall'onda di terra (che viaggia rasente al suolo p
 **Riflessioni Multiple (Multihop)**
 I segnali possono subire riflessioni multiple tra la ionosfera e il suolo, o modalità come il *Duct Mode* e *Chordal Mode* che riducono l'attenuazione (particolarmente alle latitudini equatoriali o lungo la *gray line*).
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_17/slide-33.jpg" alt="Multihop path" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_17/slide-33.jpg" alt="Multihop path" style="width: 75%;"></div><br>
 
 ### 5. Il Ciclo Solare
 
@@ -90,7 +90,7 @@ L'attività della ionosfera dipende direttamente dall'attività solare, influenz
 - **Ciclo orbitale (Stagioni)**: cambia l'inclinazione dei raggi solari e quindi l'intensità della ionizzazione.
 - **Ciclo giornaliero**: l'alternanza giorno/notte causa l'apparizione e scomparsa degli strati inferiori e la variazione della MUF.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_17/slide-36.jpg" alt="Ciclo undecennale" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_17/slide-36.jpg" alt="Ciclo undecennale" style="width: 75%;"></div><br>
 
 ---
 

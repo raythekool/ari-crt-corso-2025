@@ -66,9 +66,9 @@ Il docente segnala che le domande del Ministero a volte usano un linguaggio gerg
 
 Nella lezione precedente si era visto che un **generatore** (ad esempio un accumulatore da 12 V) possiede due poli: al polo negativo vi è un'alta densità di elettroni, al polo positivo vi è una carenza di elettroni (gli atomi diventano ioni positivi). Questa differenza crea una **differenza di potenziale** tra i due poli.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-02.jpg" alt="Circuito base" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-02.jpg" alt="Circuito base" style="width: 75%;"></div><br>
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-03.jpg" alt="Grandezze fondamentali" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-03.jpg" alt="Grandezze fondamentali" style="width: 75%;"></div><br>
 
 Collegando il generatore a un **carico** tramite cavi elettrici, scorre una corrente. Il generatore è caratterizzato dalla sua tensione in volt; nei cavi passa la corrente misurata in ampere. Tuttavia, quanta corrente passa **lo decide il carico**, perché il carico presenta una sua **resistenza**.
 
@@ -80,7 +80,7 @@ La **resistenza elettrica** — l'opposizione che un materiale oppone al passagg
 
 La resistenza si misura in **ohm** (simbolo: **Ω**). Un ohm è la resistenza di un conduttore che viene attraversato da 1 ampere quando ai suoi capi si applica una differenza di potenziale di 1 volt.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-05.jpg" alt="La resistenza elettrica" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-05.jpg" alt="La resistenza elettrica" style="width: 75%;"></div><br>
 
 > **Definizione:**
 >
@@ -105,9 +105,9 @@ La resistenza di un pezzo di filo elettrico (conduttore) si può calcolare con l
 > - $L$ = lunghezza del conduttore (in metri)
 > - $S$ = sezione del conduttore (in mm²)
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-06.jpg" alt="Fattori da cui dipende la resistenza" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-06.jpg" alt="Fattori da cui dipende la resistenza" style="width: 75%;"></div><br>
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-07.jpg" alt="Resistenza, lunghezza e sezione" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-07.jpg" alt="Resistenza, lunghezza e sezione" style="width: 75%;"></div><br>
 
 La **resistività** ($\rho$) — valore tipico di ogni materiale che indica quanto esso si oppone al passaggio della corrente — è una costante: per il rame ha un certo valore, per l'argento un altro, per il ferro un altro ancora. Si trova nelle tabelle di riferimento. I materiali conduttori hanno un $\rho$ molto basso; i materiali isolanti hanno un $\rho$ molto alto.
 
@@ -175,14 +175,14 @@ Queste tre formule vanno memorizzate oppure, ricordandone una, si possono ricava
 
 ### 🔹 Esempi di applicazione
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-15.jpg" alt="Esempio Legge di Ohm 1" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-15.jpg" alt="Esempio Legge di Ohm 1" style="width: 75%;"></div><br>
 
 **Esempio 1**: 10 V applicati a una resistenza di 5 Ω. Quanta corrente scorre?
 
 - Dato: $V = 10$ V, $R = 5$ Ω. Incognita: $I$.
 - Formula: $I = \frac{V}{R} = \frac{10}{5} = 2$ A.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-16.jpg" alt="Esempio Legge di Ohm 2" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-16.jpg" alt="Esempio Legge di Ohm 2" style="width: 75%;"></div><br>
 
 **Esempio 2**: 15 V ai capi di un circuito in cui scorrono 5 A. Che resistenza presenta?
 
@@ -198,7 +198,7 @@ Queste tre formule vanno memorizzate oppure, ricordandone una, si possono ricava
 
 Il docente suggerisce un percorso in tre passi per affrontare le domande d'esame:
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-14.jpg" alt="Metodo di risoluzione" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-14.jpg" alt="Metodo di risoluzione" style="width: 75%;"></div><br>
 
 1. **Leggere bene la domanda** e capire cosa viene chiesto (alcune domande sono "scivolose").
 2. **Scegliere la formula giusta** in base ai dati forniti.
@@ -245,9 +245,9 @@ Quando si inseriscono i valori nelle formule, è importante usare sempre le **un
 
 Il **resistore** — componente elettronico costruito appositamente per avere un determinato valore di resistenza — è l'elemento su cui tipicamente si applica la legge di Ohm nei circuiti reali. Anche un conduttore normale ha una resistenza, ma per un conduttore la resistenza è un **parametro parassita** (si vorrebbe che fosse zero). Il resistore, invece, è progettato per ostacolare parzialmente il passaggio della corrente.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-23.jpg" alt="Simbolo elettrico" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-23.jpg" alt="Simbolo elettrico" style="width: 75%;"></div><br>
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-22.jpg" alt="Funzione del resistore" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-22.jpg" alt="Funzione del resistore" style="width: 75%;"></div><br>
 
 Il resistore ha un **simbolo elettrico** a zigzag che intuitivamente suggerisce la difficoltà della corrente nell'attraversarlo.
 
@@ -285,9 +285,9 @@ La scelta della formula dipende dai dati disponibili:
 - Se si conoscono $R$ e $I$ → usare $P = R \cdot I^2$
 - Se si conoscono $V$ e $R$ → usare $P = \frac{V^2}{R}$
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-24.jpg" alt="Esempio potenza 1" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-24.jpg" alt="Esempio potenza 1" style="width: 75%;"></div><br>
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-25.jpg" alt="Esempio potenza 2" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-25.jpg" alt="Esempio potenza 2" style="width: 75%;"></div><br>
 
 La formula $P = \frac{V^2}{R}$ è particolarmente usata anche per misurare la potenza di un trasmettitore radio: si misura la tensione su un carico noto di 50 Ω.
 
@@ -302,7 +302,7 @@ Esistono resistori speciali il cui valore in ohm **non è costante**, ma varia c
 - **NTC** (Negative Temperature Coefficient, coefficiente di temperatura negativo) — quando la temperatura **aumenta**, il valore della resistenza **diminuisce**.
 - **PTC** (Positive Temperature Coefficient, coefficiente di temperatura positivo) — quando la temperatura **aumenta**, il valore della resistenza **aumenta**.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-26.jpg" alt="Resistori NTC e PTC" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-26.jpg" alt="Resistori NTC e PTC" style="width: 75%;"></div><br>
 
 ### 🔹 Applicazioni
 
@@ -329,7 +329,7 @@ Il **resistore ideale** — un modello teorico — è un resistore il cui valore
 - La **frequenza** della corrente che lo attraversa
 - La **temperatura** di esercizio
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-27.jpg" alt="Il resistore ideale" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-27.jpg" alt="Il resistore ideale" style="width: 75%;"></div><br>
 
 I resistori reali hanno sempre una certa variazione con la temperatura e la frequenza, ma il modello ideale è utile per i calcoli.
 
@@ -337,7 +337,7 @@ I resistori reali hanno sempre una certa variazione con la temperatura e la freq
 
 Il **generatore ideale** mantiene la tensione costante al variare della corrente assorbita dal carico. In realtà, generatori ideali non esistono.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-30.jpg" alt="Il generatore ideale" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_02/slide-30.jpg" alt="Il generatore ideale" style="width: 75%;"></div><br>
 
 Il **generatore reale** si schematizza come un generatore ideale seguito da una **resistenza interna** ($R_i$), di valore molto piccolo (ad esempio 0,01 Ω o 0,1 Ω).
 

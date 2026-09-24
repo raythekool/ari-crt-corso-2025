@@ -36,7 +36,7 @@ La corrente alternata è generata da una **tensione alternata** ed è prodotta d
 > 💡 **Nota per i neofiti:** Immaginate un magnete che ruota all'interno di una bobina di filo di rame. Un giro completo del magnete (360°) produce esattamente un ciclo completo della sinusoide. Ecco perché la frequenza è spesso intuitivamente associata ai "giri al secondo".
 
 <div align="center">
-  <img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_03/slide-03.jpg" alt="Grafico Corrente Alternata" width="75%">
+  <img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_03/slide-03.jpg" alt="Grafico Corrente Alternata" style="width: 75%;">
 </div><br>
 
 ### 🔹 L'andamento sinusoidale e non sinusoidale
@@ -46,7 +46,7 @@ La **corrente alternata sinusoidale** ha una forma "sinuosa": parte da zero, sal
 Esistono anche forme d'onda **non sinusoidali**, come l'onda quadra o l'onda triangolare, ma le sinusoidi sono fondamentali in ambito radio.
 
 <div align="center">
-  <img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_03/slide-07.jpg" alt="Sinusoide e non sinusoidale" width="75%">
+  <img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_03/slide-07.jpg" alt="Sinusoide e non sinusoidale" style="width: 75%;">
 </div><br>
 
 ---
@@ -87,7 +87,7 @@ Con la corrente alternata, dato che la tensione varia continuamente, servono **p
 5. **Valor medio ($V_m$)**: media in un semiperiodo. $V_m = 0{,}9 \times V_{eff}$
 
 <div align="center">
-  <img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_03/slide-17.jpg" alt="Riepilogo Valori" width="75%">
+  <img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_03/slide-17.jpg" alt="Riepilogo Valori" style="width: 75%;">
 </div><br>
 
 ---
@@ -98,7 +98,7 @@ Ogni punto del ciclo di una sinusoide può essere identificato con un **angolo i
 > 💡 **Analogia della Pista di Atletica:** Immagina due corridori che fanno giri continui su una pista di atletica. Se partono insieme e corrono alla stessa velocità, sono "in fase" (0° di distanza). Se uno parte quando l'altro è esattamente a metà pista (mezzo giro di ritardo, ovvero 180°), sono in "controfase". Se uno ha un quarto di giro di vantaggio (90°), sono "in quadratura".
 
 <div align="center">
-  <img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_03/slide-18.jpg" alt="Punti notevoli" width="75%">
+  <img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_03/slide-18.jpg" alt="Punti notevoli" style="width: 75%;">
 </div><br>
 
 - **In fase**: raggiungono simultaneamente picchi e zeri. Sfasamento = 0°.
@@ -106,7 +106,7 @@ Ogni punto del ciclo di una sinusoide può essere identificato con un **angolo i
 - **In quadratura**: sfasamento di **90°**.
 
 <div align="center">
-  <img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_03/slide-19.jpg" alt="Fase" width="75%">
+  <img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_03/slide-19.jpg" alt="Fase" style="width: 75%;">
 </div><br>
 
 ---
@@ -118,13 +118,13 @@ Ogni punto del ciclo di una sinusoide può essere identificato con un **angolo i
 Un'onda è una perturbazione che si propaga nello spazio (come un sasso in uno stagno).
 
 <div align="center">
-  <img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_03/slide-22.jpg" alt="Onde" width="75%">
+  <img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_03/slide-22.jpg" alt="Onde" style="width: 75%;">
 </div><br>
 
 Una tensione sinusoidale su un conduttore di forma e dimensioni adeguate, comunica energia allo spazio circostante sotto forma di **onde elettromagnetiche**. Questo conduttore è l'**antenna**.
 
 <div align="center">
-  <img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_03/slide-23.jpg" alt="Antenna" width="75%">
+  <img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_03/slide-23.jpg" alt="Antenna" style="width: 75%;">
 </div><br>
 
 ### 🔹 Lunghezza d'onda e Frequenza
@@ -144,7 +144,7 @@ Le frequenze radio sono suddivise in **bande**: LF, MF, HF, VHF, UHF, ecc.
 Ad esempio, le **HF** (High Frequency) vanno da 3 a 30 MHz (onde corte), le **VHF** (Very High Frequency) da 30 a 300 MHz (onde ultracorte).
 
 <div align="center">
-  <img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_03/slide-28.jpg" alt="Bande" width="75%">
+  <img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_03/slide-28.jpg" alt="Bande" style="width: 75%;">
 </div><br>
 
 ---

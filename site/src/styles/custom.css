@@ -112,3 +112,12 @@ header, aside {
 :root {
   --sl-content-width: 90ch !important;
 }
+
+/* Forza la larghezza delle immagini nelle slide */
+.sl-markdown-content div[align="center"] img {
+  width: 75% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  border-radius: 8px; /* Un tocco di classe */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}

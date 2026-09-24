@@ -26,7 +26,7 @@ permalink: /guide-studio/lezione_19.html
 
 La modifica del lobo di radiazione di un’antenna non è solo un effetto indesiderato dovuto all'ambiente, ma può essere sfruttato per concentrare l'energia irradiata in una determinata direzione. Questo aumenta le probabilità di collegamento verso il nostro corrispondente.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_19/slide-04.jpg" alt="Lobo di radiazione antenne direttive" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_19/slide-04.jpg" alt="Lobo di radiazione antenne direttive" style="width: 75%;"></div><br>
 
 **Il Guadagno di un'antenna:**
 Si definisce guadagno il rapporto tra l’intensità del campo emesso nella direzione del lobo principale e quella di un'antenna di riferimento (radiatore isotropico o dipolo ideale). 
@@ -34,14 +34,14 @@ Si definisce guadagno il rapporto tra l’intensità del campo emesso nella dire
 - Può essere espresso in **dBd** (riferito al dipolo ideale) 
 > *Nota: la differenza tra i due valori è pari a 2,1 dB (0 dBd = 2,1 dBi).*
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_19/slide-05.jpg" alt="Guadagno di un'antenna" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_19/slide-05.jpg" alt="Guadagno di un'antenna" style="width: 75%;"></div><br>
 
 **Metodi per ottenere la direttività:**
 1. **Specchio parabolico**: Una superficie riflettente pone l'elemento radiante nel suo fuoco, concentrando l'energia in un fascio parallelo all'asse.
 2. **Antenna Yagi-Uda**: Utilizza elementi "parassiti" passivi accoppiati per mutua induzione. Regolando le distanze e le lunghezze si sfasano le correnti per sommare i campi in una precisa direzione.
 3. **Array / Collineari**: Più elementi attivi alimentati con la giusta fase per sommare i fasci emessi. Un esempio sono le antenne Log-Periodiche.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_19/slide-08.jpg" alt="Antenna Yagi Uda e mutua induzione" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_19/slide-08.jpg" alt="Antenna Yagi Uda e mutua induzione" style="width: 75%;"></div><br>
 
 #### 🔹 ERP (Effective Radiated Power)
 L'ERP indica la potenza che andrebbe applicata a un radiatore isotropico ideale per ottenere lo stesso campo generato dalla nostra antenna direttiva:
@@ -55,14 +55,14 @@ $$ERP(W) = P_{tx}(W) \times Guadagno$$
 
 Affinché le cariche elettriche circolino correttamente, è necessario un "percorso di ritorno". Nelle antenne sbilanciate serve un contrappeso, ma anche in quelle bilanciate (come il dipolo) accoppiamenti parassiti possono far fluire la RF sulla calza del cavo coassiale (correnti di modo comune). 
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_19/slide-13.jpg" alt="Correnti di modo comune e necessità di blocco RF" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_19/slide-13.jpg" alt="Correnti di modo comune e necessità di blocco RF" style="width: 75%;"></div><br>
 
 **Cos'è l'efficienza di radiazione?**
 Nessuna antenna reale irradia il 100% della potenza fornita. L'efficienza $\eta_r$ è il rapporto percentuale tra la potenza effettivamente irradiata ($P_{ir}$) e quella fornita al punto di alimentazione ($P_{Tx}$). 
 
 $$ \eta_r = \frac{R_{rad}}{R_{rad} + R_{loss}} $$
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_19/slide-17.jpg" alt="Resistenza di radiazione e di perdita" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_19/slide-17.jpg" alt="Resistenza di radiazione e di perdita" style="width: 75%;"></div><br>
 
 Dove:
 - **$R_{rad}$ (Resistenza di radiazione)**: la componente utile, rappresenta la potenza irradiata.
@@ -84,7 +84,7 @@ Un Balun svolge spesso tre funzioni chiave (specialmente il *Balun di Corrente* 
 3. **Blocco RF (Choke)**: Impedire alle correnti RF di viaggiare sulla guaina esterna del cavo coassiale. 
 > ⚠️ **Conseguenze Pratiche (RFI):** Se la RF scende lungo la calza del cavo ed entra in stazione, potreste avere microfoni che "scottano", computer che si bloccano o si riavviano da soli mentre trasmettete. Inoltre, in ricezione, il cavo capterà il rumore elettrico casalingo abbassando il vostro rapporto segnale/rumore. Un buon choke risolve molti di questi problemi!
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_19/slide-15.jpg" alt="Funzioni del Balun" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_19/slide-15.jpg" alt="Funzioni del Balun" style="width: 75%;"></div><br>
 
 ---
 
@@ -93,13 +93,13 @@ Un Balun svolge spesso tre funzioni chiave (specialmente il *Balun di Corrente* 
 **SWR non è sinonimo di efficienza!**
 Come disse John Devoldere (ON4UN): *"L'antenna con il miglior SWR è un buon carico fittizio"*. Un basso ROS assicura solo il corretto trasferimento di potenza alla linea senza onde riflesse al generatore, ma se tale potenza viene dissipata in calore (alte perdite $R_{loss}$ e bassa $R_{rad}$), l'antenna non irradierà quasi nulla. 
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_19/slide-24.jpg" alt="SWR e carico fittizio" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_19/slide-24.jpg" alt="SWR e carico fittizio" style="width: 75%;"></div><br>
 
 #### 🔹 Misurazione con Analizzatori d'Antenna e VNA
 Quando misuriamo l'impedenza dal fondo di un cavo coassiale, la lunghezza della linea trasforma l'impedenza. Se l'antenna non presenta esattamente 50 $\Omega$ puri e la linea non è un esatto multiplo di $\lambda/2$, lo strumento (analizzatore o VNA) misurerà valori **diversi** dall'impedenza reale ai morsetti dell'antenna, introducendo reattanze fittizie. 
 > 📏 **Consiglio Pratico:** Per avere la certezza assoluta delle letture, le misure vanno fatte **direttamente ai morsetti dell'antenna** (senza cavo), oppure si deve usare una linea di misurazione tagliata esattamente a mezz'onda (o multipli) della frequenza di interesse. Gli strumenti moderni (VNA) permettono inoltre di sottrarre matematicamente il cavo (funzione OSL o Port Extension).
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_19/slide-29.jpg" alt="Misurazione attraverso linea sbilanciata" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_19/slide-29.jpg" alt="Misurazione attraverso linea sbilanciata" style="width: 75%;"></div><br>
 
 ---
 
@@ -109,7 +109,7 @@ Spesso si crede che un'antenna ottima in trasmissione lo sia anche in ricezione,
 - **In TX (Trasmissione)**: L'obiettivo è massimizzare l'energia irradiata utile, quindi l'efficienza e il guadagno puntato ad angoli bassi (0°-20° per il DX).
 - **In RX (Ricezione)**: L'obiettivo è migliorare il **Rapporto Segnale/Rumore (S/N)**. Un guadagno elevato in RX amplifica anche il forte rumore ambientale HF (che spesso supera il limite di sensibilità). L'approccio migliore è ottimizzare la *direttività spaziale* per minimizzare i segnali da angoli non voluti (attenuazione dei disturbi), a prescindere dal guadagno assoluto.
 
-<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_19/slide-31.jpg" alt="Antenne TX vs RX e S/N" width="75%"></div><br>
+<div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_19/slide-31.jpg" alt="Antenne TX vs RX e S/N" style="width: 75%;"></div><br>
 
 ---
 
