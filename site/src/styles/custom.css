@@ -107,3 +107,8 @@ header, aside {
 .sl-markdown-content h1 { font-size: var(--sl-text-h1) !important; }
 .sl-markdown-content h2 { font-size: var(--sl-text-h2) !important; }
 .sl-markdown-content h3 { font-size: var(--sl-text-h3) !important; }
+
+/* Allarga l'area del testo centrale come richiesto (da ~70ch a ~90ch) */
+:root {
+  --sl-content-width: 90ch !important;
+}
