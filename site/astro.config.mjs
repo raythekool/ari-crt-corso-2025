@@ -7,7 +7,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Corso ARI Toscana CRT 2026',
-      customCss: [],
+      customCss: ['./src/styles/custom.css'],
       sidebar: [
         {
           label: 'Materiale Didattico',
