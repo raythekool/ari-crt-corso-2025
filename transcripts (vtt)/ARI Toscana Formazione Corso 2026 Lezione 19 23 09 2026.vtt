@@ -1,0 +1,9533 @@
+WEBVTT
+
+1
+00:00:03.800 --> 00:00:07.799
+Ecco, Paolo, buon lavoro.
+
+2
+00:00:08.080 --> 00:00:16.320
+Ok, perfetto. Intanto giusto se mi date
+
+3
+00:00:11.639 --> 00:00:18.160
+conferma che eh vedete
+
+4
+00:00:16.320 --> 00:00:19.160
+la slide.
+
+5
+00:00:18.160 --> 00:00:19.920
+>> Sì, si vede bene.
+
+6
+00:00:19.160 --> 00:00:20.359
+>> Ok.
+
+7
+00:00:19.920 --> 00:00:21.359
+>> Ok,
+
+8
+00:00:20.359 --> 00:00:23.039
+>> perfetto.
+
+9
+00:00:21.359 --> 00:00:26.240
+>> Sì. Ok.
+
+10
+00:00:23.039 --> 00:00:30.439
+Allora, m questa sera affrontiamo la
+
+11
+00:00:26.240 --> 00:00:33.440
+seconda parte dell'argomento antenne
+
+12
+00:00:30.439 --> 00:00:35.600
+ed in particolare stasera parleremo di
+
+13
+00:00:33.440 --> 00:00:38.399
+antenne direttive,
+
+14
+00:00:35.600 --> 00:00:42.920
+efficienza di radiazione e nell'ultima
+
+15
+00:00:38.399 --> 00:00:46.800
+parte di misure sulle antenne.
+
+16
+00:00:42.920 --> 00:00:48.480
+Allora, la volta scorsa abbiamo visto
+
+17
+00:00:46.800 --> 00:00:50.559
+sostanzialmente
+
+18
+00:00:48.480 --> 00:00:54.000
+che cos'è
+
+19
+00:00:50.559 --> 00:00:57.079
+un'antenna, quali sono,
+
+20
+00:00:54.000 --> 00:00:59.640
+diciamo, i meccanismi attraverso
+
+21
+00:00:57.079 --> 00:01:03.480
+i quali si determina, cioè intanto che
+
+22
+00:00:59.640 --> 00:01:05.119
+cos'è il lobo di radiazione, quali sono
+
+23
+00:01:03.480 --> 00:01:08.080
+i meccanismi
+
+24
+00:01:05.119 --> 00:01:11.080
+attraverso il quale si forma il lobo di
+
+25
+00:01:08.080 --> 00:01:13.920
+radiazione di antenna ed in particolare
+
+26
+00:01:11.080 --> 00:01:17.360
+nel nell'ultima Prima parte abbiamo
+
+27
+00:01:13.920 --> 00:01:20.280
+parlato del dell'effetto
+
+28
+00:01:17.360 --> 00:01:22.960
+del terreno o di superfici
+
+29
+00:01:20.280 --> 00:01:25.040
+riflettenti
+
+30
+00:01:22.960 --> 00:01:28.759
+sul lobo di radiazione verticale
+
+31
+00:01:25.040 --> 00:01:30.479
+dell'antenna e come vedremo meglio
+
+32
+00:01:28.759 --> 00:01:33.119
+stasera,
+
+33
+00:01:30.479 --> 00:01:35.320
+di come il terreno o la presenza di
+
+34
+00:01:33.119 --> 00:01:39.560
+superficie riflettenti a breve distanza
+
+35
+00:01:35.320 --> 00:01:41.479
+dall'antenna possono incidere anche sul
+
+36
+00:01:39.560 --> 00:01:42.560
+resistenza di radiazione dell'antenna
+
+37
+00:01:41.479 --> 00:01:45.840
+stessa.
+
+38
+00:01:42.560 --> 00:01:47.880
+e quindi, come vedremo anche sulla la
+
+39
+00:01:45.840 --> 00:01:50.920
+sua efficienza.
+
+40
+00:01:47.880 --> 00:01:53.680
+Quindi mh come ho detto l'altra sera, la
+
+41
+00:01:50.920 --> 00:01:56.439
+volta scorsa, dobbiamo sempre tener
+
+42
+00:01:53.680 --> 00:01:59.240
+presente questo aspetto che invece
+
+43
+00:01:56.439 --> 00:02:01.640
+spesso, diciamo, viene un po'
+
+44
+00:01:59.240 --> 00:02:04.520
+sottovalutato, anche perché se vi
+
+45
+00:02:01.640 --> 00:02:06.960
+ricordate eh quando abbiamo parlato di
+
+46
+00:02:04.520 --> 00:02:11.319
+propagazione ionosferica
+
+47
+00:02:06.960 --> 00:02:14.360
+avevamo visto che eh
+
+48
+00:02:11.319 --> 00:02:16.160
+quando operiamo su frequenze al di sopra
+
+49
+00:02:14.360 --> 00:02:18.239
+della frequenza
+
+50
+00:02:16.160 --> 00:02:20.720
+critica che vi ricorda la frequenza
+
+51
+00:02:18.239 --> 00:02:23.680
+critica è quella che permette la
+
+52
+00:02:20.720 --> 00:02:26.440
+riflessione per qualsiasi angolo. Quando
+
+53
+00:02:23.680 --> 00:02:30.080
+lavoriamo su frequenze superiori la
+
+54
+00:02:26.440 --> 00:02:33.239
+riflessione avviene solo se il fascio
+
+55
+00:02:30.080 --> 00:02:36.640
+raggiunge la ionosfera con un certo
+
+56
+00:02:33.239 --> 00:02:39.120
+angolo, perché se l'angolo è superiore
+
+57
+00:02:36.640 --> 00:02:44.040
+la riflessione non si ha e il fascio,
+
+58
+00:02:39.120 --> 00:02:47.760
+come dire, si perde eh fuori dalla da
+
+59
+00:02:44.040 --> 00:02:51.000
+dalla ionosfera. Quindi è fondamentale
+
+60
+00:02:47.760 --> 00:02:52.920
+che l'angolo, sarebbe fondamentale che
+
+61
+00:02:51.000 --> 00:02:56.560
+l'angolo di radiazione della nostra
+
+62
+00:02:52.920 --> 00:03:01.959
+antenna fosse coincidente
+
+63
+00:02:56.560 --> 00:03:04.720
+con la il range di angoli in cui si ha
+
+64
+00:03:01.959 --> 00:03:08.159
+la alla riflessione e l'esperienza, tra
+
+65
+00:03:04.720 --> 00:03:10.319
+l'altro, ci dice, ma lo vedete un po'
+
+66
+00:03:08.159 --> 00:03:13.480
+rappresentato anche graficamente dal
+
+67
+00:03:10.319 --> 00:03:17.879
+disegnino a destra, dicevo, l'esperienza
+
+68
+00:03:13.480 --> 00:03:21.040
+ci dice che per raggiungere la massima
+
+69
+00:03:17.879 --> 00:03:25.000
+distanza, quindi come si usa dire per il
+
+70
+00:03:21.040 --> 00:03:27.640
+dx, gli angoli migliori sono quelli
+
+71
+00:03:25.000 --> 00:03:31.519
+bassi, diciamo il range di angoli
+
+72
+00:03:27.640 --> 00:03:35.319
+compresi tra 0 e 20°.
+
+73
+00:03:31.519 --> 00:03:38.239
+Questo perché eh diciamo quando
+
+74
+00:03:35.319 --> 00:03:41.519
+lavoriamo e così facciamo un ripasso su
+
+75
+00:03:38.239 --> 00:03:44.319
+quello che abbiamo detto l'altra volta a
+
+76
+00:03:41.519 --> 00:03:48.159
+in prossimità della MUF, abbiamo detto
+
+77
+00:03:44.319 --> 00:03:50.120
+che le condizioni migliori
+
+78
+00:03:48.159 --> 00:03:53.799
+per realizzare un collegamento a lunga
+
+79
+00:03:50.120 --> 00:03:57.079
+distanza si hanno operando
+
+80
+00:03:53.799 --> 00:03:59.840
+su una frequenza che è
+
+81
+00:03:57.079 --> 00:04:01.280
+intorno all'80-90%
+
+82
+00:03:59.840 --> 00:04:03.920
+della muffa
+
+83
+00:04:01.280 --> 00:04:06.519
+Quindi, quando operiamo su queste
+
+84
+00:04:03.920 --> 00:04:11.959
+frequenze, l'angolo
+
+85
+00:04:06.519 --> 00:04:14.560
+di riflessione sulla ionosfera è è tale
+
+86
+00:04:11.959 --> 00:04:19.840
+che il nostro lobo di radiazione deve
+
+87
+00:04:14.560 --> 00:04:23.360
+essere compreso tra 0 e al massimo 20°
+
+88
+00:04:19.840 --> 00:04:26.120
+perché tutta l'energia irradiata con
+
+89
+00:04:23.360 --> 00:04:28.400
+angoli superiori sostanzialmente
+
+90
+00:04:26.120 --> 00:04:32.160
+è energia persa.
+
+91
+00:04:28.400 --> 00:04:35.000
+E quindi avevamo visto che
+
+92
+00:04:32.160 --> 00:04:37.960
+il lobo di radiazione di in particolare
+
+93
+00:04:35.000 --> 00:04:41.960
+per avere dalla nostra antenna un angolo
+
+94
+00:04:37.960 --> 00:04:45.360
+di radiazione abbastanza basso, o usiamo
+
+95
+00:04:41.960 --> 00:04:47.759
+un'antenna a polarizzazione verticale,
+
+96
+00:04:45.360 --> 00:04:50.759
+oppure se l'antenna è un'antenna a
+
+97
+00:04:47.759 --> 00:04:55.039
+polarizzazione orizzontale deve essere
+
+98
+00:04:50.759 --> 00:04:58.160
+posta ad un'altezza almeno superiore a
+
+99
+00:04:55.039 --> 00:05:02.080
+mezza lunghezza d'onda. Quindi tutto
+
+100
+00:04:58.160 --> 00:05:04.639
+questo sostanzialmente si riassume in
+
+101
+00:05:02.080 --> 00:05:06.960
+quelle due righe qui scritte in rosso,
+
+102
+00:05:04.639 --> 00:05:08.520
+ovvero il corretto angolo radiazione è
+
+103
+00:05:06.960 --> 00:05:10.680
+fondamentale
+
+104
+00:05:08.520 --> 00:05:13.880
+per ottenere le migliori condizioni di
+
+105
+00:05:10.680 --> 00:05:17.199
+riflessione in base alle condizioni di
+
+106
+00:05:13.880 --> 00:05:20.319
+propagazione e alla distanza da coprire.
+
+107
+00:05:17.199 --> 00:05:22.880
+Quindi questo aspetto è
+
+108
+00:05:20.319 --> 00:05:24.880
+eh dell'effetto del suolo e del
+
+109
+00:05:22.880 --> 00:05:29.280
+comportamento dell'antenna in funzione
+
+110
+00:05:24.880 --> 00:05:31.600
+dell'altezza dal dal suolo è un elemento
+
+111
+00:05:29.280 --> 00:05:36.880
+sicuramente molto importante di cui
+
+112
+00:05:31.600 --> 00:05:36.880
+sempre dobbiamo tenere conto.
+
+113
+00:05:41.240 --> 00:05:47.759
+Analogamente però a quello che succede
+
+114
+00:05:44.880 --> 00:05:51.440
+sul lobo di radiazione verticale,
+
+115
+00:05:47.759 --> 00:05:54.319
+noi dobbiamo considerare che
+
+116
+00:05:51.440 --> 00:05:57.919
+è un'ottima strategia
+
+117
+00:05:54.319 --> 00:06:01.560
+anche quella di riuscire a concentrare
+
+118
+00:05:57.919 --> 00:06:04.880
+sul piano orizzontale stavolta tutta
+
+119
+00:06:01.560 --> 00:06:07.560
+l'energia irradiata nella direzione del
+
+120
+00:06:04.880 --> 00:06:10.960
+nostro corrispondente
+
+121
+00:06:07.560 --> 00:06:15.160
+perché tutta l'energia che io irradio
+
+122
+00:06:10.960 --> 00:06:18.759
+in nelle nelle altre direzioni non avrà,
+
+123
+00:06:15.160 --> 00:06:22.000
+fra virgolette nessuna utilità sul quel
+
+124
+00:06:18.759 --> 00:06:26.240
+determinato collegamento. Quindi, se io
+
+125
+00:06:22.000 --> 00:06:29.160
+sto effettuando in questo momento un
+
+126
+00:06:26.240 --> 00:06:32.319
+collegamento radio con il Sud America,
+
+127
+00:06:29.160 --> 00:06:36.000
+eh tutta l'energia che la mia antenna
+
+128
+00:06:32.319 --> 00:06:40.639
+irradia in altre direzioni, diciamo, non
+
+129
+00:06:36.000 --> 00:06:42.680
+è utile al collegamento stesso. Quindi
+
+130
+00:06:40.639 --> 00:06:46.039
+un'ottima
+
+131
+00:06:42.680 --> 00:06:48.240
+cosa sarebbe poter concentrare tutta
+
+132
+00:06:46.039 --> 00:06:51.520
+l'energia disponibile, quindi tutta la
+
+133
+00:06:48.240 --> 00:06:56.400
+potenza erogata dal mio trasmettitore
+
+134
+00:06:51.520 --> 00:06:59.400
+nella direzione in cui mi serve di
+
+135
+00:06:56.400 --> 00:07:01.639
+irradiarla.
+
+136
+00:06:59.400 --> 00:07:05.440
+Quindi la modifica del lobo di
+
+137
+00:07:01.639 --> 00:07:08.599
+radiazione di un'antenna non è soltanto,
+
+138
+00:07:05.440 --> 00:07:10.720
+come dire, un effetto indesiderato
+
+139
+00:07:08.599 --> 00:07:13.919
+eh della quale, ripeto, dobbiamo
+
+140
+00:07:10.720 --> 00:07:16.039
+comunque tener conto, ma in certe
+
+141
+00:07:13.919 --> 00:07:19.360
+condizioni è un effetto che può
+
+142
+00:07:16.039 --> 00:07:22.599
+risultare molto utile e infatti è il
+
+143
+00:07:19.360 --> 00:07:25.879
+caso eh di un'antenna direttiva ed
+
+144
+00:07:22.599 --> 00:07:29.639
+un'antenna direttiva sostanzialmente
+
+145
+00:07:25.879 --> 00:07:32.440
+funziona e si basa su meccanismi simili,
+
+146
+00:07:29.639 --> 00:07:36.680
+anzi direi identici a quelli che abbiamo
+
+147
+00:07:32.440 --> 00:07:39.800
+visto eh per la riflessione sul terreno.
+
+148
+00:07:36.680 --> 00:07:42.680
+Quindi analogamente quello che avviene
+
+149
+00:07:39.800 --> 00:07:45.599
+con la riflessione sul terreno, si può
+
+150
+00:07:42.680 --> 00:07:49.560
+ottenere di concentrare il lobo di
+
+151
+00:07:45.599 --> 00:07:51.440
+radiazione anche sul piano orizzontale
+
+152
+00:07:49.560 --> 00:07:54.319
+attraverso
+
+153
+00:07:51.440 --> 00:07:56.919
+sistemi che permettono
+
+154
+00:07:54.319 --> 00:07:58.759
+di avere,
+
+155
+00:07:56.919 --> 00:08:01.560
+diciamo,
+
+156
+00:07:58.759 --> 00:08:05.199
+fasci
+
+157
+00:08:01.560 --> 00:08:08.360
+diretti e fasci riflessi con opport una
+
+158
+00:08:05.199 --> 00:08:11.520
+fase tale da concentrare l'intensità
+
+159
+00:08:08.360 --> 00:08:13.280
+emesso nella direzione che ci interessa.
+
+160
+00:08:11.520 --> 00:08:15.520
+Quindi
+
+161
+00:08:13.280 --> 00:08:18.000
+il funzionamento di un'antenna direttiva
+
+162
+00:08:15.520 --> 00:08:21.759
+si basa esattamente sullo stesso
+
+163
+00:08:18.000 --> 00:08:23.159
+meccanismo, cioè somma,
+
+164
+00:08:21.759 --> 00:08:26.919
+quella che si chiama una somma
+
+165
+00:08:23.159 --> 00:08:32.839
+costruttiva di di più fasci. Vediamo
+
+166
+00:08:26.919 --> 00:08:37.560
+adesso nel dettaglio eh come ciò può
+
+167
+00:08:32.839 --> 00:08:40.519
+avvenire. Intanto definiamo subito un
+
+168
+00:08:37.560 --> 00:08:43.200
+concetto che è quello del guadagno.
+
+169
+00:08:40.519 --> 00:08:44.959
+Eh, si definisce il guadagno di
+
+170
+00:08:43.200 --> 00:08:48.160
+un'antenna
+
+171
+00:08:44.959 --> 00:08:50.360
+il rapporto tra l'intensità che lo
+
+172
+00:08:48.160 --> 00:08:53.720
+vedete qui scritto in rosso. E vi
+
+173
+00:08:50.360 --> 00:08:58.279
+ricordo che quando trovate queste
+
+174
+00:08:53.720 --> 00:09:02.079
+scritte in rosso è bene che in qualche
+
+175
+00:08:58.279 --> 00:09:05.240
+modo le guardiate perché spesso
+
+176
+00:09:02.079 --> 00:09:07.200
+ritroverete qualcosa di simile nei nei
+
+177
+00:09:05.240 --> 00:09:09.440
+quiz d'esame. Quindi dicevo, il guadagno
+
+178
+00:09:07.200 --> 00:09:11.200
+di un'antenna è il rapporto tra
+
+179
+00:09:09.440 --> 00:09:14.200
+l'intensità
+
+180
+00:09:11.200 --> 00:09:16.920
+del campo emesso dalla mia antenna
+
+181
+00:09:14.200 --> 00:09:20.880
+direttiva nella direzione del lobo
+
+182
+00:09:16.920 --> 00:09:22.680
+principale rispetto all'intensità
+
+183
+00:09:20.880 --> 00:09:25.440
+di campo emessa da un'antenna di
+
+184
+00:09:22.680 --> 00:09:28.160
+riferimento. Antenna di riferimento che
+
+185
+00:09:25.440 --> 00:09:31.640
+può essere il classico, anzi diciamo
+
+186
+00:09:28.160 --> 00:09:33.760
+dovrebbe essere il classico radiatore
+
+187
+00:09:31.640 --> 00:09:35.200
+isotropico. Vi ricordate? Abbiamo
+
+188
+00:09:33.760 --> 00:09:37.600
+parlato l'altra volta, radiatore
+
+189
+00:09:35.200 --> 00:09:39.800
+isotropico è un'antenna teorica che
+
+190
+00:09:37.600 --> 00:09:41.600
+nella pratica non esiste, ma che ha la
+
+191
+00:09:39.800 --> 00:09:46.200
+caratteristica di irradiare
+
+192
+00:09:41.600 --> 00:09:49.519
+uniformemente in tutte le direzioni e
+
+193
+00:09:46.200 --> 00:09:52.800
+ovviamente, diciamo, questo rapporto è a
+
+194
+00:09:49.519 --> 00:09:56.920
+parità di potenza applicata.
+
+195
+00:09:52.800 --> 00:10:01.800
+Purtroppo a complicarci la vita
+
+196
+00:09:56.920 --> 00:10:05.160
+eh c'è il fatto che sebbene in teoria il
+
+197
+00:10:01.800 --> 00:10:07.440
+guadagno di un'antenna dovrebbe essere
+
+198
+00:10:05.160 --> 00:10:10.160
+sempre espresso
+
+199
+00:10:07.440 --> 00:10:13.480
+in riferimento a radiatore isotropico e
+
+200
+00:10:10.160 --> 00:10:15.440
+quindi come unità di misura dovremmo, ve
+
+201
+00:10:13.480 --> 00:10:20.720
+l'avevo già anticipato l'altra volta,
+
+202
+00:10:15.440 --> 00:10:23.839
+utilizzare il DB, cioè DB rispetto a
+
+203
+00:10:20.720 --> 00:10:27.360
+all'is isotropico può capitare, anzi
+
+204
+00:10:23.839 --> 00:10:30.399
+capita molto spesso di trovare valori di
+
+205
+00:10:27.360 --> 00:10:34.480
+guadagno di un'antenna
+
+206
+00:10:30.399 --> 00:10:38.240
+espressi in relazione a un dipolo eh
+
+207
+00:10:34.480 --> 00:10:42.880
+fisico. Invece in questo caso si parla
+
+208
+00:10:38.240 --> 00:10:45.639
+di DB D, cioè DB rispetto al di polo e
+
+209
+00:10:42.880 --> 00:10:48.680
+vi ho detto l'altra volta che la
+
+210
+00:10:45.639 --> 00:10:52.160
+differenza che c'è tra i due valori è
+
+211
+00:10:48.680 --> 00:10:55.639
+pari a 2,1 dB che è il guadagno del
+
+212
+00:10:52.160 --> 00:10:59.440
+dipolo reale sull'isotropico.
+
+213
+00:10:55.639 --> 00:11:01.200
+Qui nel disegnino a destra vedete
+
+214
+00:10:59.440 --> 00:11:03.120
+l'esempio
+
+215
+00:11:01.200 --> 00:11:07.000
+di
+
+216
+00:11:03.120 --> 00:11:08.480
+del la forma e quindi del guadagno del
+
+217
+00:11:07.000 --> 00:11:10.680
+logo di radiazione di un'antenna
+
+218
+00:11:08.480 --> 00:11:12.760
+direttiva. Questo è in rosso, tra
+
+219
+00:11:10.680 --> 00:11:16.320
+l'altro questo in particolare riferito
+
+220
+00:11:12.760 --> 00:11:19.040
+ad un'antenna direttiva cinque elementi
+
+221
+00:11:16.320 --> 00:11:21.880
+e in blu il lobo di radiazione di un
+
+222
+00:11:19.040 --> 00:11:25.760
+dipolo. Come vedete
+
+223
+00:11:21.880 --> 00:11:29.800
+eh nel punto di massima radiazione
+
+224
+00:11:25.760 --> 00:11:32.560
+l'antenna direttiva è ben 10 dB
+
+225
+00:11:29.800 --> 00:11:36.079
+superiore rispetto alla massima
+
+226
+00:11:32.560 --> 00:11:39.040
+radiazione del dipolo. E poi avessimo
+
+227
+00:11:36.079 --> 00:11:41.680
+avuto invece il radiatore isotropico,
+
+228
+00:11:39.040 --> 00:11:44.399
+abbiamo detto la differenza è 2 dB,
+
+229
+00:11:41.680 --> 00:11:47.399
+quindi non sarebbero 10, ma sarebbero
+
+230
+00:11:44.399 --> 00:11:50.000
+addirittura 12,1
+
+231
+00:11:47.399 --> 00:11:53.959
+i DB guadagnati dall'antenna direttiva.
+
+232
+00:11:50.000 --> 00:11:56.600
+Quindi è evidente che
+
+233
+00:11:53.959 --> 00:12:00.000
+un eventuale corrispondente che ci
+
+234
+00:11:56.600 --> 00:12:04.839
+ascolta nella direzione di massima
+
+235
+00:12:00.000 --> 00:12:08.279
+radiazione riceve un segnale decisamente
+
+236
+00:12:04.839 --> 00:12:11.760
+più elevato di quanto lo riceve lo
+
+237
+00:12:08.279 --> 00:12:15.360
+potrebbe ricevere se io utilizzassi
+
+238
+00:12:11.760 --> 00:12:18.440
+un semplice di polo. Questo a parità di
+
+239
+00:12:15.360 --> 00:12:21.839
+potenza applicata. Quindi tenete conto
+
+240
+00:12:18.440 --> 00:12:25.480
+di queste due cose che vi ho detto qui,
+
+241
+00:12:21.839 --> 00:12:29.800
+cioè la definizione di guadagno e la
+
+242
+00:12:25.480 --> 00:12:32.959
+differenza di 2,1 dB
+
+243
+00:12:29.800 --> 00:12:35.839
+tra la misura riferita all'isotropico,
+
+244
+00:12:32.959 --> 00:12:40.760
+quindi DB, e la misura riferita al
+
+245
+00:12:35.839 --> 00:12:43.399
+dipolo reale DBD. Perché eh
+
+246
+00:12:40.760 --> 00:12:46.920
+nelle domande di esame a volte capita
+
+247
+00:12:43.399 --> 00:12:51.240
+proprio una una domanda di questo tipo
+
+248
+00:12:46.920 --> 00:12:55.040
+in cui viene eh chiesto qual è l'unità
+
+249
+00:12:51.240 --> 00:12:57.320
+di misura che si utilizza per il
+
+250
+00:12:55.040 --> 00:13:01.360
+guadagno per definire il guadagno di
+
+251
+00:12:57.320 --> 00:13:04.800
+un'antenna e la risposta esatta è in
+
+252
+00:13:01.360 --> 00:13:10.240
+genere, cioè una risposta in cui si dice
+
+253
+00:13:04.800 --> 00:13:12.639
+DB o DBD e quella è la risposta esatta.
+
+254
+00:13:10.240 --> 00:13:16.240
+M può capitare invece che vi chiedono
+
+255
+00:13:12.639 --> 00:13:19.079
+qual è la differenza tra il DB e il DBD
+
+256
+00:13:16.240 --> 00:13:21.240
+come unità di misure e la risposta è 2,1
+
+257
+00:13:19.079 --> 00:13:23.240
+dB.
+
+258
+00:13:21.240 --> 00:13:26.399
+Bene, ma torniamo al discorso che
+
+259
+00:13:23.240 --> 00:13:29.240
+facevamo prima, cioè vediamo in quale
+
+260
+00:13:26.399 --> 00:13:31.920
+modo io posso concentrare la potenza
+
+261
+00:13:29.240 --> 00:13:35.079
+irradiata
+
+262
+00:13:31.920 --> 00:13:38.240
+dalla mia antenna direttiva in una
+
+263
+00:13:35.079 --> 00:13:40.839
+specifica direzione per e ottenere
+
+264
+00:13:38.240 --> 00:13:42.519
+quindi l'effetto direttività
+
+265
+00:13:40.839 --> 00:13:45.120
+dell'antenna.
+
+266
+00:13:42.519 --> 00:13:47.680
+Diciamo che esistono vari modi per
+
+267
+00:13:45.120 --> 00:13:51.240
+ottenere l'effetto di deriattività, cioè
+
+268
+00:13:47.680 --> 00:13:53.720
+quindi di concentrare l'energia in una
+
+269
+00:13:51.240 --> 00:13:56.560
+specifica direzione.
+
+270
+00:13:53.720 --> 00:14:00.759
+Diciamo che qui io vi ho rappresentato
+
+271
+00:13:56.560 --> 00:14:04.000
+quelli più comuni. Il primo è quello di
+
+272
+00:14:00.759 --> 00:14:07.199
+porre una superficie riflettente,
+
+273
+00:14:04.000 --> 00:14:10.519
+opportunamente sagomata, in prossimità
+
+274
+00:14:07.199 --> 00:14:12.360
+dell'elemento radiante. tipicamente
+
+275
+00:14:10.519 --> 00:14:15.320
+uno specchio parabolico, ma potrebbe
+
+276
+00:14:12.360 --> 00:14:17.120
+anche essere una superficie piana
+
+277
+00:14:15.320 --> 00:14:21.639
+o
+
+278
+00:14:17.120 --> 00:14:24.600
+o un una in qualche caso anche una
+
+279
+00:14:21.639 --> 00:14:29.880
+superficie angolare, diciamo un elemento
+
+280
+00:14:24.600 --> 00:14:34.279
+che in qualche modo possa riflettere il
+
+281
+00:14:29.880 --> 00:14:35.800
+segnale irradiato in unica direzione.
+
+282
+00:14:34.279 --> 00:14:40.279
+Diciamo
+
+283
+00:14:35.800 --> 00:14:43.880
+l'elemento che lo fa nel modo migliore è
+
+284
+00:14:40.279 --> 00:14:47.959
+lo specchio parabolico.
+
+285
+00:14:43.880 --> 00:14:50.079
+Una sostanzialmente in questo caso lo
+
+286
+00:14:47.959 --> 00:14:54.639
+specchio si comporta né più e né meno
+
+287
+00:14:50.079 --> 00:14:58.959
+come il terreno nel riflettere il il
+
+288
+00:14:54.639 --> 00:15:00.639
+fascio radio. Una seconda
+
+289
+00:14:58.959 --> 00:15:04.240
+possibilità
+
+290
+00:15:00.639 --> 00:15:07.160
+è quella di posizionare degli elementi
+
+291
+00:15:04.240 --> 00:15:11.160
+che vengono chiamati elementi parassiti,
+
+292
+00:15:07.160 --> 00:15:13.959
+ma semplicemente perché sono
+
+293
+00:15:11.160 --> 00:15:15.959
+sostanzialmente dei dipoli non
+
+294
+00:15:13.959 --> 00:15:19.839
+alimentati
+
+295
+00:15:15.959 --> 00:15:21.519
+e di lunghezza opportuna e allineati
+
+296
+00:15:19.839 --> 00:15:23.959
+nella direzione in cui si vuol
+
+297
+00:15:21.519 --> 00:15:26.160
+concentrare il fascio. Questo è il
+
+298
+00:15:23.959 --> 00:15:29.920
+meccanismo attraverso il quale funziona
+
+299
+00:15:26.160 --> 00:15:33.639
+un antenna Iaji. Vedremo nelle slide
+
+300
+00:15:29.920 --> 00:15:36.440
+nella in una slide successiva
+
+301
+00:15:33.639 --> 00:15:40.959
+nel dettaglio qual è il meccanismo con
+
+302
+00:15:36.440 --> 00:15:45.959
+cui si concentra l'energia. In questo
+
+303
+00:15:40.959 --> 00:15:49.759
+caso il terzo metodo è abbastanza
+
+304
+00:15:45.959 --> 00:15:52.519
+simile, nel senso si tratta sempre di
+
+305
+00:15:49.759 --> 00:15:54.839
+far lavorare assieme più elementi
+
+306
+00:15:52.519 --> 00:15:57.040
+radianti, ma in questo caso, a
+
+307
+00:15:54.839 --> 00:16:01.040
+differenza dell'antenna
+
+308
+00:15:57.040 --> 00:16:05.399
+tutti gli elementi sono alimentati,
+
+309
+00:16:01.040 --> 00:16:08.720
+quindi sono, pensate a dei dipoli, come
+
+310
+00:16:05.399 --> 00:16:10.800
+rappresentato nel nel disegno, eh tutti
+
+311
+00:16:08.720 --> 00:16:13.639
+alimentati dalla stessa linea di
+
+312
+00:16:10.800 --> 00:16:15.800
+alimentazione attraverso un dispositivo
+
+313
+00:16:13.639 --> 00:16:20.160
+di accoppiamento.
+
+314
+00:16:15.800 --> 00:16:23.720
+Dispositivo che oltretutto eh, come
+
+315
+00:16:20.160 --> 00:16:26.720
+vedremo, permette di alimentare ogni
+
+316
+00:16:23.720 --> 00:16:30.920
+singolo di polo con un segnale di fase
+
+317
+00:16:26.720 --> 00:16:34.880
+opportuna, così da determinare
+
+318
+00:16:30.920 --> 00:16:36.600
+la direzione in cui il fascio si
+
+319
+00:16:34.880 --> 00:16:39.839
+concentra. Perché, vi ricordate, ne
+
+320
+00:16:36.600 --> 00:16:41.519
+abbiamo parlato la volta scorsa per
+
+321
+00:16:39.839 --> 00:16:43.120
+quanto riguarda la riflessione sul
+
+322
+00:16:41.519 --> 00:16:45.079
+terreno,
+
+323
+00:16:43.120 --> 00:16:48.279
+il
+
+324
+00:16:45.079 --> 00:16:50.079
+dalla composizione di più fasci io posso
+
+325
+00:16:48.279 --> 00:16:55.120
+ottenere
+
+326
+00:16:50.079 --> 00:16:58.360
+un eh fascio complessivo che può essere
+
+327
+00:16:55.120 --> 00:17:03.160
+la somma o la differenza a seconda della
+
+328
+00:16:58.360 --> 00:17:06.880
+fase di ogni singolo segnale. Quindi,
+
+329
+00:17:03.160 --> 00:17:09.760
+diciamo, ragionando nel verso opposto,
+
+330
+00:17:06.880 --> 00:17:11.280
+io posso alimentare ogni singolo
+
+331
+00:17:09.760 --> 00:17:13.120
+elemento
+
+332
+00:17:11.280 --> 00:17:16.360
+con
+
+333
+00:17:13.120 --> 00:17:19.319
+una fase a mio piacimento e così facendo
+
+334
+00:17:16.360 --> 00:17:22.839
+io posso predeterminare qual è la
+
+335
+00:17:19.319 --> 00:17:24.400
+direzione in cui avrò la massima
+
+336
+00:17:22.839 --> 00:17:27.280
+radiazione.
+
+337
+00:17:24.400 --> 00:17:29.640
+Questo, diciamo, è il caso appunto delle
+
+338
+00:17:27.280 --> 00:17:34.080
+antenne con lineari, cosiddette
+
+339
+00:17:29.640 --> 00:17:37.080
+collineare o array.
+
+340
+00:17:34.080 --> 00:17:42.000
+Comunque, in ogni caso, dobbiamo sempre
+
+341
+00:17:37.080 --> 00:17:45.400
+ricordare che in ambiente reale eh
+
+342
+00:17:42.000 --> 00:17:48.600
+l'effetto di direttività
+
+343
+00:17:45.400 --> 00:17:50.520
+che noi abbiamo ottenuto con un'antenna
+
+344
+00:17:48.600 --> 00:17:52.039
+direttiva, con l'uso di uno di questi
+
+345
+00:17:50.520 --> 00:17:54.799
+meccanismi
+
+346
+00:17:52.039 --> 00:17:58.120
+eh per realizzare un'antenna
+
+347
+00:17:54.799 --> 00:18:00.760
+direttiva, questo effetto si somma
+
+348
+00:17:58.120 --> 00:18:03.280
+sempre e comunque anche a quello
+
+349
+00:18:00.760 --> 00:18:07.039
+prodotto dall'ambiente
+
+350
+00:18:03.280 --> 00:18:10.240
+circostante. Quindi diciamo che
+
+351
+00:18:07.039 --> 00:18:12.679
+l'antenna direttiva
+
+352
+00:18:10.240 --> 00:18:14.679
+mi permette di concentrare tutta
+
+353
+00:18:12.679 --> 00:18:18.600
+l'energia
+
+354
+00:18:14.679 --> 00:18:21.400
+o o una parte importante dell'energia in
+
+355
+00:18:18.600 --> 00:18:23.720
+una certa direzione per quanto riguarda
+
+356
+00:18:21.400 --> 00:18:26.880
+il piano orizzontale.
+
+357
+00:18:23.720 --> 00:18:29.880
+fermo restando che poi l'angolo
+
+358
+00:18:26.880 --> 00:18:33.080
+verticale con cui questa energia viene
+
+359
+00:18:29.880 --> 00:18:37.200
+inradiata dipenderà sempre comunque
+
+360
+00:18:33.080 --> 00:18:39.880
+dall'altezza dell'antenna rispetto al al
+
+361
+00:18:37.200 --> 00:18:44.480
+suolo. Nel senso che se io uso
+
+362
+00:18:39.880 --> 00:18:47.679
+un'antenna Iagi e la e la posiziono
+
+363
+00:18:44.480 --> 00:18:52.320
+comunque bassa rispetto a terra, non è
+
+364
+00:18:47.679 --> 00:18:56.080
+che il fascio è orizzontale, il fascio
+
+365
+00:18:52.320 --> 00:18:59.320
+sarà maggiore nella direzione in cui
+
+366
+00:18:56.080 --> 00:19:02.039
+punta l'antenna, ma l'angolo verticale
+
+367
+00:18:59.320 --> 00:19:04.880
+dipenderà dall'altezza da terra e quindi
+
+368
+00:19:02.039 --> 00:19:09.440
+se l'altezza è molto bassa, comunque il
+
+369
+00:19:04.880 --> 00:19:11.000
+fascio punterà il cielo e non e non sarà
+
+370
+00:19:09.440 --> 00:19:13.840
+orizzontale,
+
+371
+00:19:11.000 --> 00:19:17.640
+quindi l'effetto del terreno si somma
+
+372
+00:19:13.840 --> 00:19:21.039
+sempre a quello, diciamo, del
+
+373
+00:19:17.640 --> 00:19:23.039
+dell'antenna direttiva,
+
+374
+00:19:21.039 --> 00:19:25.240
+ma vediamo adesso nel dettaglio come
+
+375
+00:19:23.039 --> 00:19:27.200
+avviene il meccanismo della
+
+376
+00:19:25.240 --> 00:19:29.960
+concentrazione del fascio. Nel caso
+
+377
+00:19:27.200 --> 00:19:33.400
+dello specchio parabolico, questo credo
+
+378
+00:19:29.960 --> 00:19:37.039
+che sia abbastanza semplice ed intuitivo
+
+379
+00:19:33.400 --> 00:19:40.080
+perché, come ce lo dice la la geometria,
+
+380
+00:19:37.039 --> 00:19:43.440
+una superficie parabolica
+
+381
+00:19:40.080 --> 00:19:45.600
+ha una caratteristica geometrica
+
+382
+00:19:43.440 --> 00:19:50.159
+importante che vedete rappresentata nel
+
+383
+00:19:45.600 --> 00:19:51.799
+disegno, ovvero che tutti i fasci che
+
+384
+00:19:50.159 --> 00:19:54.840
+arrivano
+
+385
+00:19:51.799 --> 00:19:58.080
+paralleli all'asse
+
+386
+00:19:54.840 --> 00:20:01.120
+della parabola stessa
+
+387
+00:19:58.080 --> 00:20:04.360
+vengono riflessi con un angolo tale che
+
+388
+00:20:01.120 --> 00:20:08.679
+li concentra in un punto specifico che
+
+389
+00:20:04.360 --> 00:20:11.600
+si chiama fuoco della parabola. Quindi,
+
+390
+00:20:08.679 --> 00:20:15.360
+e se io ho uno specchio parabolico,
+
+391
+00:20:11.600 --> 00:20:17.679
+eh tutto i fasci intercettati della
+
+392
+00:20:15.360 --> 00:20:20.799
+superficie dello specchio vengono
+
+393
+00:20:17.679 --> 00:20:24.559
+concentrati in un unico punto che si
+
+394
+00:20:20.799 --> 00:20:27.760
+chiama fuoco. Viceversa. Se io metto un
+
+395
+00:20:24.559 --> 00:20:31.080
+elemento radiante posizionato nel fuoco
+
+396
+00:20:27.760 --> 00:20:33.120
+della parabola, tutta l'energia emessa
+
+397
+00:20:31.080 --> 00:20:35.159
+nelle varie direzioni dall'elemento
+
+398
+00:20:33.120 --> 00:20:38.200
+radiante
+
+399
+00:20:35.159 --> 00:20:41.520
+e e che colpisce la superficie dello
+
+400
+00:20:38.200 --> 00:20:43.880
+specchio, verrà riflessa tutta in
+
+401
+00:20:41.520 --> 00:20:47.200
+un'unica direzione. è un po' quello che
+
+402
+00:20:43.880 --> 00:20:50.919
+succede nel
+
+403
+00:20:47.200 --> 00:20:53.200
+nei fari della macchina, dove la il la
+
+404
+00:20:50.919 --> 00:20:56.679
+il riflettore interno non è altro che
+
+405
+00:20:53.200 --> 00:21:01.159
+una superficie parabolica e al posto
+
+406
+00:20:56.679 --> 00:21:05.360
+della dell'antenna ci sta la lampadina.
+
+407
+00:21:01.159 --> 00:21:07.440
+Quindi l'antenna parabolica è eh
+
+408
+00:21:05.360 --> 00:21:10.880
+funziona sostanzialmente su questo
+
+409
+00:21:07.440 --> 00:21:13.880
+principio. Ovviamente per ragioni che
+
+410
+00:21:10.880 --> 00:21:17.720
+immaginate facilmente legate alla
+
+411
+00:21:13.880 --> 00:21:19.840
+lunghezza d'onda, un'antenna parabolica
+
+412
+00:21:17.720 --> 00:21:22.080
+la si utilizza
+
+413
+00:21:19.840 --> 00:21:25.520
+bene ed è facile da realizzare per
+
+414
+00:21:22.080 --> 00:21:27.480
+frequenze molto elevate
+
+415
+00:21:25.520 --> 00:21:31.440
+perché chiaramente le dimensioni
+
+416
+00:21:27.480 --> 00:21:34.000
+dell'elemento radiante devono essere eh
+
+417
+00:21:31.440 --> 00:21:36.679
+diciamo quasi trascurabili rispetto alle
+
+418
+00:21:34.000 --> 00:21:39.640
+dimensioni della superficie parabolica,
+
+419
+00:21:36.679 --> 00:21:43.320
+quindi realizzare una parabola per
+
+420
+00:21:39.640 --> 00:21:46.320
+utilizzarla in onde corte diventerebbe
+
+421
+00:21:43.320 --> 00:21:49.039
+assai difficile e complicato. Quindi
+
+422
+00:21:46.320 --> 00:21:52.520
+questa è un'antenna che nel nostro
+
+423
+00:21:49.039 --> 00:21:56.000
+ambiente ci interessa relativamente poco
+
+424
+00:21:52.520 --> 00:21:59.320
+se non a partire da frequenze da da 1
+
+425
+00:21:56.000 --> 00:22:02.480
+gig a salire,
+
+426
+00:21:59.320 --> 00:22:07.120
+perché al di sotto avrebbe dimensioni
+
+427
+00:22:02.480 --> 00:22:10.880
+che non che non sono ovviamente
+
+428
+00:22:07.120 --> 00:22:10.880
+comode e maneggevoli.
+
+429
+00:22:10.919 --> 00:22:17.559
+Vediamo adesso come funziona invece
+
+430
+00:22:14.320 --> 00:22:20.360
+un'antenna Iagi. E questo ci interessa
+
+431
+00:22:17.559 --> 00:22:23.520
+sicuramente più da vicino.
+
+432
+00:22:20.360 --> 00:22:25.760
+Allora, consideriamo un semplice di
+
+433
+00:22:23.520 --> 00:22:29.559
+polo, lo vedete qui a destra, alimentate
+
+434
+00:22:25.760 --> 00:22:31.679
+al centro classico di polo.
+
+435
+00:22:29.559 --> 00:22:36.880
+Se noi posizioniamo
+
+436
+00:22:31.679 --> 00:22:38.400
+a breve distanza da dal polo alimentato
+
+437
+00:22:36.880 --> 00:22:41.360
+un
+
+438
+00:22:38.400 --> 00:22:43.400
+elemento di più o meno della stessa
+
+439
+00:22:41.360 --> 00:22:46.080
+lunghezza
+
+440
+00:22:43.400 --> 00:22:48.000
+e lo posizioniamo in quella che vi
+
+441
+00:22:46.080 --> 00:22:51.000
+ricordate all'inizio della lezione
+
+442
+00:22:48.000 --> 00:22:54.360
+scorsa vi ho parlato delle aree di
+
+443
+00:22:51.000 --> 00:22:57.159
+prossimità dell'antenna. lo posizioniamo
+
+444
+00:22:54.360 --> 00:23:01.520
+all'interno dell'area cosiddetta di
+
+445
+00:22:57.159 --> 00:23:06.279
+campo vicino reattivo.
+
+446
+00:23:01.520 --> 00:23:09.080
+Eh, questo secondo elemento si accoppia
+
+447
+00:23:06.279 --> 00:23:12.159
+mutuamente in maniera abbastanza stretta
+
+448
+00:23:09.080 --> 00:23:16.000
+con l'elemento radiante e diventa a sua
+
+449
+00:23:12.159 --> 00:23:19.279
+volta sede di una corrente indotta.
+
+450
+00:23:16.000 --> 00:23:21.559
+Perché vi ricordate? Io, senza entrare
+
+451
+00:23:19.279 --> 00:23:23.720
+nei dettagli, vi ho detto che nella
+
+452
+00:23:21.559 --> 00:23:25.960
+nell'area più prossima all'antenna, cioè
+
+453
+00:23:23.720 --> 00:23:29.200
+quella cosiddetta di campo vicino
+
+454
+00:23:25.960 --> 00:23:30.799
+reattivo, il comportamento dei campi è
+
+455
+00:23:29.200 --> 00:23:32.520
+molto simile a quello di un
+
+456
+00:23:30.799 --> 00:23:35.919
+trasformatore.
+
+457
+00:23:32.520 --> 00:23:39.360
+Quindi questi due elementi si comportano
+
+458
+00:23:35.919 --> 00:23:42.159
+in questo caso come gli avvolgimenti di
+
+459
+00:23:39.360 --> 00:23:45.159
+un trasformatore. Quindi il primo
+
+460
+00:23:42.159 --> 00:23:48.440
+elemento alimentato
+
+461
+00:23:45.159 --> 00:23:51.559
+in a causa della mutua induzione con
+
+462
+00:23:48.440 --> 00:23:54.720
+l'altro elemento genera una corrente
+
+463
+00:23:51.559 --> 00:23:58.000
+indotta nel secondo elemento. Questo che
+
+464
+00:23:54.720 --> 00:24:02.440
+cosa comporta? che quindi sia il primo
+
+465
+00:23:58.000 --> 00:24:05.279
+elemento fisicamente alimentato, sia il
+
+466
+00:24:02.440 --> 00:24:07.480
+secondo elemento alimentato per
+
+467
+00:24:05.279 --> 00:24:11.520
+induzione ed è per questo che lo
+
+468
+00:24:07.480 --> 00:24:13.480
+chiamiamo parassita, diventano elementi
+
+469
+00:24:11.520 --> 00:24:15.799
+radianti.
+
+470
+00:24:13.480 --> 00:24:17.600
+Se io,
+
+471
+00:24:15.799 --> 00:24:21.480
+diciamo,
+
+472
+00:24:17.600 --> 00:24:24.000
+in funzione della distanza e delle
+
+473
+00:24:21.480 --> 00:24:25.720
+dimensioni dell'elemento che io vado a
+
+474
+00:24:24.000 --> 00:24:29.480
+aggiungere,
+
+475
+00:24:25.720 --> 00:24:31.440
+io posso determinare la differenza di
+
+476
+00:24:29.480 --> 00:24:33.799
+fase
+
+477
+00:24:31.440 --> 00:24:35.919
+tra la corrente che circola
+
+478
+00:24:33.799 --> 00:24:40.120
+nell'elemento radiante e quella che
+
+479
+00:24:35.919 --> 00:24:41.760
+circola nell'elemento parassita. E anche
+
+480
+00:24:40.120 --> 00:24:44.200
+qui,
+
+481
+00:24:41.760 --> 00:24:49.240
+dimensionandolo opportunamente io posso
+
+482
+00:24:44.200 --> 00:24:52.919
+fare in modo che la differenza di fase
+
+483
+00:24:49.240 --> 00:24:56.279
+tra le due correnti sia tale da far sì
+
+484
+00:24:52.919 --> 00:25:00.360
+che i campi si sommino in una certa
+
+485
+00:24:56.279 --> 00:25:02.640
+direzione che è tipicamente quella verso
+
+486
+00:25:00.360 --> 00:25:04.240
+l'elemento
+
+487
+00:25:02.640 --> 00:25:07.320
+parassita.
+
+488
+00:25:04.240 --> 00:25:09.640
+Però spesso io ho un elemento parassita
+
+489
+00:25:07.320 --> 00:25:13.720
+anche dall'altra parte.
+
+490
+00:25:09.640 --> 00:25:16.440
+In questo caso l'elemento è e qui ho
+
+491
+00:25:13.720 --> 00:25:18.440
+omesso di dire una cosa. In questo caso
+
+492
+00:25:16.440 --> 00:25:20.919
+l'elemento parassita si chiama
+
+493
+00:25:18.440 --> 00:25:25.159
+direttore, cioè elemento che sta nella
+
+494
+00:25:20.919 --> 00:25:27.600
+direzione di di radiazione. io posso
+
+495
+00:25:25.159 --> 00:25:29.919
+porre un elemento, un altro elemento
+
+496
+00:25:27.600 --> 00:25:31.440
+parassita dall'altro lato e
+
+497
+00:25:29.919 --> 00:25:33.960
+dimensionarlo
+
+498
+00:25:31.440 --> 00:25:38.000
+per fare in modo che invece in questo
+
+499
+00:25:33.960 --> 00:25:41.360
+caso la radiazione massima si abbia
+
+500
+00:25:38.000 --> 00:25:44.600
+verso l'elemento radiante e non verso
+
+501
+00:25:41.360 --> 00:25:49.080
+l'elemento parassita e quindi anche in
+
+502
+00:25:44.600 --> 00:25:50.679
+questo caso concentrare l'energia sempre
+
+503
+00:25:49.080 --> 00:25:55.440
+nella stessa direzione. In questo
+
+504
+00:25:50.679 --> 00:25:57.919
+secondo caso, l'elemento posto, diciamo,
+
+505
+00:25:55.440 --> 00:26:02.279
+posteriormente all'elemento radiante si
+
+506
+00:25:57.919 --> 00:26:04.640
+chiama appunto riflettore perché invece
+
+507
+00:26:02.279 --> 00:26:06.279
+di dirigere l'energia in avanti la
+
+508
+00:26:04.640 --> 00:26:08.880
+riflette
+
+509
+00:26:06.279 --> 00:26:11.799
+nel nell'altro verso. Poi posso
+
+510
+00:26:08.880 --> 00:26:14.360
+aggiungere altri elementi
+
+511
+00:26:11.799 --> 00:26:16.679
+oltre al primo direttore, un secondo, un
+
+512
+00:26:14.360 --> 00:26:19.240
+terzo e così via,
+
+513
+00:26:16.679 --> 00:26:23.919
+dimensionando opportunamente lunghezza e
+
+514
+00:26:19.240 --> 00:26:27.000
+distanza. io posso fare in modo che eh
+
+515
+00:26:23.919 --> 00:26:29.600
+questa serie di elementi produca la
+
+516
+00:26:27.000 --> 00:26:31.399
+concentrazione dell'energia in un'unica
+
+517
+00:26:29.600 --> 00:26:33.799
+direzione. Diciamo tutto questo
+
+518
+00:26:31.399 --> 00:26:36.640
+ragionamento abbastanza complicato che
+
+519
+00:26:33.799 --> 00:26:39.960
+vi ho fatto, lo vedete schematizzato
+
+520
+00:26:36.640 --> 00:26:44.279
+in questa eh animazione abbastanza
+
+521
+00:26:39.960 --> 00:26:46.760
+carina dove vedete appunto che eh
+
+522
+00:26:44.279 --> 00:26:48.679
+dimensionando opportunamente
+
+523
+00:26:46.760 --> 00:26:52.799
+questi quattro elementi, io posso fare
+
+524
+00:26:48.679 --> 00:26:55.840
+in modo che le componenti emesse da ogni
+
+525
+00:26:52.799 --> 00:26:58.960
+singolo elemento che qui sono riportate
+
+526
+00:26:55.840 --> 00:27:00.600
+ciascuno con il suo colore abbiano la
+
+527
+00:26:58.960 --> 00:27:04.000
+stessa fase
+
+528
+00:27:00.600 --> 00:27:07.960
+solo nella direzione
+
+529
+00:27:04.000 --> 00:27:12.000
+anteriore e fasi diverse nelle altre
+
+530
+00:27:07.960 --> 00:27:16.520
+direzioni in modo che la i campi si
+
+531
+00:27:12.000 --> 00:27:18.880
+sommino solo nella direzione di massima
+
+532
+00:27:16.520 --> 00:27:20.640
+radiazione, cioè nella direzione dei
+
+533
+00:27:18.880 --> 00:27:23.000
+direttori.
+
+534
+00:27:20.640 --> 00:27:27.200
+Quindi questo è il meccanismo.
+
+535
+00:27:23.000 --> 00:27:29.799
+Mi rendo conto che descritto così e
+
+536
+00:27:27.200 --> 00:27:32.600
+no, non è banalissimo da comprendere.
+
+537
+00:27:29.799 --> 00:27:35.760
+Questo è il meccanismo su cui si basa il
+
+538
+00:27:32.600 --> 00:27:38.760
+funzionamento di un'antenna Iagi.
+
+539
+00:27:35.760 --> 00:27:38.760
+Eh,
+
+540
+00:27:38.799 --> 00:27:45.559
+quindi quello che è determinante
+
+541
+00:27:42.360 --> 00:27:49.279
+per il corretto funzionamento della
+
+542
+00:27:45.559 --> 00:27:52.120
+dell'antenna IAG è la distanza
+
+543
+00:27:49.279 --> 00:27:54.919
+degli elementi passivi rispetto al
+
+544
+00:27:52.120 --> 00:27:58.840
+radiatore e la lunghezza
+
+545
+00:27:54.919 --> 00:27:58.840
+degli elementi passivi.
+
+546
+00:27:59.159 --> 00:28:07.200
+Terzo ed ultimo meccanismo, come vi
+
+547
+00:28:01.919 --> 00:28:10.880
+avevo detto, è quello delle antenne
+
+548
+00:28:07.200 --> 00:28:13.919
+cosiddette collineari o array, in cui
+
+549
+00:28:10.880 --> 00:28:16.360
+invece gli elementi sono tutti attivi
+
+550
+00:28:13.919 --> 00:28:19.360
+perché sono tutti alimentati da una
+
+551
+00:28:16.360 --> 00:28:22.399
+linea di alimentazione e la differenza
+
+552
+00:28:19.360 --> 00:28:25.159
+di fase con cui le varie componenti
+
+553
+00:28:22.399 --> 00:28:28.760
+raggiungono i singoli elementi sono
+
+554
+00:28:25.159 --> 00:28:31.279
+determinati da un dispositivo di
+
+555
+00:28:28.760 --> 00:28:33.960
+accoppiamento. Quindi l'accoppiatore,
+
+556
+00:28:31.279 --> 00:28:36.720
+oltre a realizzare l'adattamento di
+
+557
+00:28:33.960 --> 00:28:38.840
+impedenza, in questo caso abbiamo
+
+558
+00:28:36.720 --> 00:28:42.080
+rappresentato una cortina di quattro di
+
+559
+00:28:38.840 --> 00:28:45.039
+poli. Oltre a a determinare
+
+560
+00:28:42.080 --> 00:28:47.480
+l'adattamento di impedenza, fa in modo
+
+561
+00:28:45.039 --> 00:28:50.840
+che a ciascuno dei quattro di poli
+
+562
+00:28:47.480 --> 00:28:53.360
+arrivi il segnale con la giusta fase per
+
+563
+00:28:50.840 --> 00:28:56.559
+ottenere l'effetto
+
+564
+00:28:53.360 --> 00:28:58.320
+di radiazione. E qui vedete ad esempio
+
+565
+00:28:56.559 --> 00:29:04.039
+il lobo di radiazione che si può
+
+566
+00:28:58.320 --> 00:29:07.200
+ottenere semplicemente variando la fase
+
+567
+00:29:04.039 --> 00:29:10.039
+con cui si alimentano i i vari dipoli.
+
+568
+00:29:07.200 --> 00:29:13.640
+Ora, nel nostro ambiente questa
+
+569
+00:29:10.039 --> 00:29:15.720
+tipologia di antenne non è molto diffusa
+
+570
+00:29:13.640 --> 00:29:18.519
+e eh
+
+571
+00:29:15.720 --> 00:29:20.799
+o quantomeno è legato a a casi molto
+
+572
+00:29:18.519 --> 00:29:24.519
+particolari. Comunque io qui vi ho
+
+573
+00:29:20.799 --> 00:29:26.279
+riportato alcuni esempi con delle foto.
+
+574
+00:29:24.519 --> 00:29:29.799
+Queste sono ad esempio delle antenne con
+
+575
+00:29:26.279 --> 00:29:33.799
+lineari utilizzate in VHF.
+
+576
+00:29:29.799 --> 00:29:35.919
+Eh, sono tra l'altro molto utilizzate
+
+577
+00:29:33.799 --> 00:29:39.240
+nell'ambito della radiodiffusione. Le
+
+578
+00:29:35.919 --> 00:29:42.679
+stazioni radio FM tipicamente usano
+
+579
+00:29:39.240 --> 00:29:44.640
+antenne di eh di questo tipo che sono
+
+580
+00:29:42.679 --> 00:29:47.519
+delle omnidirezionali
+
+581
+00:29:44.640 --> 00:29:50.799
+a polarizzazione verticale che hanno la
+
+582
+00:29:47.519 --> 00:29:53.720
+caratteristica di avere il lobo eh molto
+
+583
+00:29:50.799 --> 00:29:59.080
+schiacciato in modo da concentrare il
+
+584
+00:29:53.720 --> 00:30:03.320
+fascio più possibile eh vicino a terra.
+
+585
+00:29:59.080 --> 00:30:07.200
+Un'altra eh tipologia di antenna di
+
+586
+00:30:03.320 --> 00:30:09.559
+questo tipo è la log periodica che
+
+587
+00:30:07.200 --> 00:30:13.159
+all'apparenza potrebbe essere scambiata
+
+588
+00:30:09.559 --> 00:30:15.960
+per una Yaji. In realtà è un'antenna
+
+589
+00:30:13.159 --> 00:30:19.279
+collineare perché nel caso della log
+
+590
+00:30:15.960 --> 00:30:22.399
+periodica tutti gli elementi sono
+
+591
+00:30:19.279 --> 00:30:27.519
+alimentati e la linea di alimentazione è
+
+592
+00:30:22.399 --> 00:30:27.519
+costituita, tra l'altro dal
+
+593
+00:30:27.600 --> 00:30:32.760
+boom che che sostengono l'antenna
+
+594
+00:30:30.519 --> 00:30:37.519
+l'antenna stessa
+
+595
+00:30:32.760 --> 00:30:41.159
+e diciamo che la forse la questo tipo di
+
+596
+00:30:37.519 --> 00:30:43.279
+antenna log periodica è l'unica che
+
+597
+00:30:41.159 --> 00:30:46.120
+qualche volta viene utilizzata anche nel
+
+598
+00:30:43.279 --> 00:30:50.440
+nostro ambiente.
+
+599
+00:30:46.120 --> 00:30:53.919
+Un'altra tipologia di array sono i
+
+600
+00:30:50.440 --> 00:30:58.880
+vertical array utilizzati generalmente
+
+601
+00:30:53.919 --> 00:31:01.279
+su frequenze eh molto basse.
+
+602
+00:30:58.880 --> 00:31:02.840
+Tipicamente nel nostro ambiente vengono
+
+603
+00:31:01.279 --> 00:31:08.960
+utilizzate
+
+604
+00:31:02.840 --> 00:31:11.360
+sui in 80, in 160, qualche volta in 40 e
+
+605
+00:31:08.960 --> 00:31:14.880
+quattro verticali alimentate in fase
+
+606
+00:31:11.360 --> 00:31:18.120
+permettono di selezionare attraverso un
+
+607
+00:31:14.880 --> 00:31:20.440
+meccanismo di di commutazione
+
+608
+00:31:18.120 --> 00:31:23.880
+del della fase con cui vengono
+
+609
+00:31:20.440 --> 00:31:27.279
+alimentate la direzione in cui si ha la
+
+610
+00:31:23.880 --> 00:31:29.279
+massima radiazione. diciamo una sorta di
+
+611
+00:31:27.279 --> 00:31:33.039
+antenna direttiva
+
+612
+00:31:29.279 --> 00:31:37.399
+verticale per frequenze molto basse.
+
+613
+00:31:33.039 --> 00:31:39.679
+Questo riportato qui in fotografia è un
+
+614
+00:31:37.399 --> 00:31:45.399
+for square ray
+
+615
+00:31:39.679 --> 00:31:48.880
+m quattro verticali da 20 m.
+
+616
+00:31:45.399 --> 00:31:52.399
+Questo è un altro esempio di array di
+
+617
+00:31:48.880 --> 00:31:55.840
+collineari usate probabilmente in ambito
+
+618
+00:31:52.399 --> 00:32:00.159
+militare dalla dalla fotografia. Sembra
+
+619
+00:31:55.840 --> 00:32:03.639
+eh sicuramente che si tratti di questo
+
+620
+00:32:00.159 --> 00:32:05.639
+e questo sicuramente invece è in ambito
+
+621
+00:32:03.639 --> 00:32:07.799
+militare perché questo era un famoso
+
+622
+00:32:05.639 --> 00:32:10.760
+sistema d'antenna
+
+623
+00:32:07.799 --> 00:32:13.080
+eh collineare come quello, scusate, un
+
+624
+00:32:10.760 --> 00:32:16.799
+rey come quello che abbiamo visto prima
+
+625
+00:32:13.080 --> 00:32:20.760
+che invece di eh quattro antenne ne
+
+626
+00:32:16.799 --> 00:32:24.120
+aveva, se ricordo bene 32 e permetteva
+
+627
+00:32:20.760 --> 00:32:28.679
+di avere una direttività estremamente
+
+628
+00:32:24.120 --> 00:32:32.080
+marca ATA su tutto lo spettro del delle
+
+629
+00:32:28.679 --> 00:32:34.600
+HF era utilizzato, credo fosse
+
+630
+00:32:32.080 --> 00:32:36.159
+posizionata in un centro nato in
+
+631
+00:32:34.600 --> 00:32:39.279
+Germania,
+
+632
+00:32:36.159 --> 00:32:43.159
+era praticamente serviva a intercettare
+
+633
+00:32:39.279 --> 00:32:46.679
+e a determinare la direzione da cui
+
+634
+00:32:43.159 --> 00:32:49.519
+provenivano segnali in onde corte con
+
+635
+00:32:46.679 --> 00:32:52.559
+un'approssimazione in termini di
+
+636
+00:32:49.519 --> 00:32:55.159
+direzione molto stretta. Comunque
+
+637
+00:32:52.559 --> 00:32:58.159
+rendetevi conto delle dimensioni. Si
+
+638
+00:32:55.159 --> 00:33:01.840
+vede qua nel mezzo il parcheggio con
+
+639
+00:32:58.159 --> 00:33:04.120
+delle auto parcheggiate, quindi era un
+
+640
+00:33:01.840 --> 00:33:05.960
+sistema abbastanza
+
+641
+00:33:04.120 --> 00:33:08.440
+impegnativo dal punto di vista delle
+
+642
+00:33:05.960 --> 00:33:11.799
+dimensioni.
+
+643
+00:33:08.440 --> 00:33:16.519
+Bene, l'ultima cosa che ci rimane da
+
+644
+00:33:11.799 --> 00:33:19.159
+dire sulle antenne direttive e che
+
+645
+00:33:16.519 --> 00:33:21.399
+importante che sappiate, perché anche
+
+646
+00:33:19.159 --> 00:33:24.240
+questo può capitare che vi sia chiesto
+
+647
+00:33:21.399 --> 00:33:26.000
+l'esame, è la definizione di
+
+648
+00:33:24.240 --> 00:33:29.679
+un'ulteriore grandezza ulteriore al
+
+649
+00:33:26.000 --> 00:33:31.360
+guadagno che è la potenza effettivamente
+
+650
+00:33:29.679 --> 00:33:34.720
+irradiata
+
+651
+00:33:31.360 --> 00:33:40.080
+e o come dicono gli inglesi effective
+
+652
+00:33:34.720 --> 00:33:42.200
+radiated power e RP Il acronimo ERP
+
+653
+00:33:40.080 --> 00:33:43.919
+sostanzialmente sta per potenza
+
+654
+00:33:42.200 --> 00:33:46.240
+effettivamente
+
+655
+00:33:43.919 --> 00:33:49.960
+irradiata. Abbiamo già detto che
+
+656
+00:33:46.240 --> 00:33:52.760
+l'intensità del campo elettromagnetico
+
+657
+00:33:49.960 --> 00:33:54.480
+emesso da un'antina direttiva nella
+
+658
+00:33:52.760 --> 00:33:57.000
+direzione
+
+659
+00:33:54.480 --> 00:34:00.960
+di massima radiazione
+
+660
+00:33:57.000 --> 00:34:04.840
+risulta tanto maggiore quanto
+
+661
+00:34:00.960 --> 00:34:10.480
+più elevato il suo guadagno. Quindi il
+
+662
+00:34:04.840 --> 00:34:14.560
+valore di delle ERP è definito come il
+
+663
+00:34:10.480 --> 00:34:17.240
+valore di potenza che dovrei applicare a
+
+664
+00:34:14.560 --> 00:34:18.919
+un radiatore isotropico
+
+665
+00:34:17.240 --> 00:34:21.599
+che, come abbiamo detto, ha per
+
+666
+00:34:18.919 --> 00:34:24.639
+definizione guadagno unitario affinché
+
+667
+00:34:21.599 --> 00:34:27.480
+possa generare un campo della stensa
+
+668
+00:34:24.639 --> 00:34:31.000
+intensità di quello emesso dalla nostra
+
+669
+00:34:27.480 --> 00:34:33.599
+antenna direttiva nella direzione del
+
+670
+00:34:31.000 --> 00:34:37.119
+lobo di massima radiazione.
+
+671
+00:34:33.599 --> 00:34:39.000
+detto poi in parole un pochino più
+
+672
+00:34:37.119 --> 00:34:43.000
+comprensive
+
+673
+00:34:39.000 --> 00:34:45.560
+dal punto di vista del e comprensibile
+
+674
+00:34:43.000 --> 00:34:48.800
+comprensibili più che altro dal punto di
+
+675
+00:34:45.560 --> 00:34:53.040
+vista di chi ci ascolta
+
+676
+00:34:48.800 --> 00:34:56.720
+il se io trasmetto o con 100 W e la mia
+
+677
+00:34:53.040 --> 00:35:00.720
+antenna direttiva guadagna 10 dB, chi mi
+
+678
+00:34:56.720 --> 00:35:03.079
+ascolta mi ascolta con un segnale uguale
+
+679
+00:35:00.720 --> 00:35:07.560
+a quello che riceverebbe.
+
+680
+00:35:03.079 --> 00:35:11.560
+Se io stessi trasmettendo con un'antenna
+
+681
+00:35:07.560 --> 00:35:15.280
+isotropica, ma con 1000 W invece che
+
+682
+00:35:11.560 --> 00:35:17.960
+100, perché la potenza effettivamente
+
+683
+00:35:15.280 --> 00:35:22.720
+irradiata nella direzione del massimo
+
+684
+00:35:17.960 --> 00:35:25.640
+guadagno è pari a 1000 W, ovvero potenza
+
+685
+00:35:22.720 --> 00:35:28.800
+del nostro trasmettitore moltiplicato il
+
+686
+00:35:25.640 --> 00:35:32.119
+guadagno della nostra antenna.
+
+687
+00:35:28.800 --> 00:35:36.359
+Attenzione però perché
+
+688
+00:35:32.119 --> 00:35:41.000
+eh quando io parlo di di guadagno in
+
+689
+00:35:36.359 --> 00:35:44.359
+genere parlo di DB, quindi non cascate
+
+690
+00:35:41.000 --> 00:35:48.160
+nel tranello che a volte può capitare
+
+691
+00:35:44.359 --> 00:35:52.200
+nelle domande in cui vi viene dato il
+
+692
+00:35:48.160 --> 00:35:55.480
+valore in DB e quindi e vi viene chiesto
+
+693
+00:35:52.200 --> 00:36:00.720
+l' RP. Non moltiplicate la potenza per i
+
+694
+00:35:55.480 --> 00:36:04.760
+db perché commettete un errore, ma
+
+695
+00:36:00.720 --> 00:36:07.280
+dovete prima calcolare
+
+696
+00:36:04.760 --> 00:36:10.040
+a quale rapporto in potenza corrisponde
+
+697
+00:36:07.280 --> 00:36:13.680
+il valore in DB. E vi ricordate, abbiamo
+
+698
+00:36:10.040 --> 00:36:16.640
+detto 3B vuol dire due volte in potenza,
+
+699
+00:36:13.680 --> 00:36:20.880
+10 dB vuol dire 10 volte, 6 dB vuol dire
+
+700
+00:36:16.640 --> 00:36:24.400
+4 volte e così via. E quindi se
+
+701
+00:36:20.880 --> 00:36:27.000
+l'antenna guadagna 6 dB
+
+702
+00:36:24.400 --> 00:36:29.960
+la potenza va moltiplicata per 4. Se
+
+703
+00:36:27.000 --> 00:36:33.480
+l'antenna guadagna 3 dB va moltiplicata
+
+704
+00:36:29.960 --> 00:36:37.280
+per 2. Se l'antenna guadagna 20 dB la
+
+705
+00:36:33.480 --> 00:36:41.560
+potenza va moltiplicata per 100. Quindi
+
+706
+00:36:37.280 --> 00:36:43.280
+RP è sì il prodotto della potenza per il
+
+707
+00:36:41.560 --> 00:36:47.760
+guadagno, ma il guadagno deve essere
+
+708
+00:36:43.280 --> 00:36:51.560
+espresso in rapporto di potenza e non in
+
+709
+00:36:47.760 --> 00:36:53.880
+e non in DB. Occhio perché qualche volta
+
+710
+00:36:51.560 --> 00:36:56.800
+questo può capitare che vi venga
+
+711
+00:36:53.880 --> 00:36:59.440
+chiesto.
+
+712
+00:36:56.800 --> 00:37:03.040
+Bene, passiamo adesso all'efficienza di
+
+713
+00:36:59.440 --> 00:37:08.000
+radiazione, se non ci sono eh domande su
+
+714
+00:37:03.040 --> 00:37:08.000
+quello che abbiamo visto fino adesso.
+
+715
+00:37:09.040 --> 00:37:14.440
+>> Per adesso Paolo non ci sono mai alzate.
+
+716
+00:37:11.480 --> 00:37:17.440
+Se vuoi aspettare
+
+717
+00:37:14.440 --> 00:37:19.440
+>> vedi te.
+
+718
+00:37:17.440 --> 00:37:23.599
+Bene, comunque altrimenti se ci sono
+
+719
+00:37:19.440 --> 00:37:27.400
+dubbi lo riprendiamo a alla fine, quindi
+
+720
+00:37:23.599 --> 00:37:31.440
+se non ci sono domande passiamo
+
+721
+00:37:27.400 --> 00:37:31.440
+all'efficienza di radiazione.
+
+722
+00:37:33.400 --> 00:37:37.960
+Allora,
+
+723
+00:37:35.040 --> 00:37:40.880
+abbiamo detto la volta scorsa, proprio
+
+724
+00:37:37.960 --> 00:37:44.000
+nelle primissime slide,
+
+725
+00:37:40.880 --> 00:37:50.640
+che eh
+
+726
+00:37:44.000 --> 00:37:51.760
+la quello che genera la radiazione, cioè
+
+727
+00:37:50.640 --> 00:37:54.960
+la radiazione di un campo
+
+728
+00:37:51.760 --> 00:37:59.480
+elettromagnetico è la corrente che
+
+729
+00:37:54.960 --> 00:38:03.240
+percorre l'elemento radiante.
+
+730
+00:37:59.480 --> 00:38:05.640
+Ma affinché ci sia corrente che scorre
+
+731
+00:38:03.240 --> 00:38:07.920
+nell'elemento radiante
+
+732
+00:38:05.640 --> 00:38:09.720
+è sempre necessario, come io qui ho
+
+733
+00:38:07.920 --> 00:38:11.400
+scritto nella slide, che le cariche
+
+734
+00:38:09.720 --> 00:38:14.440
+elettriche
+
+735
+00:38:11.400 --> 00:38:17.319
+dispongano di un percorso a attraverso
+
+736
+00:38:14.440 --> 00:38:19.839
+il quale la corrente possa richiudersi
+
+737
+00:38:17.319 --> 00:38:22.680
+verso il generatore. Quindi, se
+
+738
+00:38:19.839 --> 00:38:25.880
+guardiamo nella parte di sinistra del
+
+739
+00:38:22.680 --> 00:38:27.720
+disegnino, c'è rappresentato un dipolo
+
+740
+00:38:25.880 --> 00:38:31.680
+alimentato al centro con il nostro
+
+741
+00:38:27.720 --> 00:38:34.160
+generatore che eroga corrente e la
+
+742
+00:38:31.680 --> 00:38:36.000
+corrente si richiude
+
+743
+00:38:34.160 --> 00:38:39.760
+attraverso
+
+744
+00:38:36.000 --> 00:38:43.200
+i due bracci del dipolo per l'effetto,
+
+745
+00:38:39.760 --> 00:38:46.040
+diciamo, di capacità capacitivo che c'è
+
+746
+00:38:43.200 --> 00:38:49.240
+tra i due elementi, le cariche passano
+
+747
+00:38:46.040 --> 00:38:51.400
+da un elemento all'altro e si richiudono
+
+748
+00:38:49.240 --> 00:38:53.880
+verso il generatore, quindi può
+
+749
+00:38:51.400 --> 00:38:57.079
+circolare corrente nell'elemento
+
+750
+00:38:53.880 --> 00:39:00.000
+radiante perché c'è questa richiusura.
+
+751
+00:38:57.079 --> 00:39:02.200
+Tra l'altro, vi ricordate, e qui lo
+
+752
+00:39:00.000 --> 00:39:04.680
+vedete, lo capite anche da un punto di
+
+753
+00:39:02.200 --> 00:39:07.240
+vista pratico, come ciò avviene, che
+
+754
+00:39:04.680 --> 00:39:08.760
+nell'elemento radiante la corrente è
+
+755
+00:39:07.240 --> 00:39:12.119
+massima
+
+756
+00:39:08.760 --> 00:39:15.000
+in prossimità del generatore e
+
+757
+00:39:12.119 --> 00:39:18.160
+diminuisce andando verso gli estremi.
+
+758
+00:39:15.000 --> 00:39:22.319
+Questo perché credo sia evidente, la
+
+759
+00:39:18.160 --> 00:39:25.359
+capacità è maggiore in questa zona
+
+760
+00:39:22.319 --> 00:39:29.240
+rispetto agli estremi e quindi la
+
+761
+00:39:25.359 --> 00:39:31.640
+quantità di cariche, quindi la corrente
+
+762
+00:39:29.240 --> 00:39:34.200
+è maggiore nel primo tratto
+
+763
+00:39:31.640 --> 00:39:36.640
+dell'elemento radiante,
+
+764
+00:39:34.200 --> 00:39:38.520
+mano si riduce fino all'estremo perché
+
+765
+00:39:36.640 --> 00:39:40.400
+si distribuisce
+
+766
+00:39:38.520 --> 00:39:44.480
+sostanzialmente
+
+767
+00:39:40.400 --> 00:39:46.880
+lungo i i direi dei percorsi
+
+768
+00:39:44.480 --> 00:39:49.280
+paralleli tra un elemento e l'altro.
+
+769
+00:39:46.880 --> 00:39:52.560
+Questo è anche il meccanismo
+
+770
+00:39:49.280 --> 00:39:54.440
+pratico che determina la il fatto che la
+
+771
+00:39:52.560 --> 00:39:57.040
+corrente non sia costante lungo tutto
+
+772
+00:39:54.440 --> 00:40:00.359
+l'elemento.
+
+773
+00:39:57.040 --> 00:40:05.920
+Quindi questo significa che un elemento
+
+774
+00:40:00.359 --> 00:40:08.079
+radiante deve sempre avere eh un
+
+775
+00:40:05.920 --> 00:40:10.960
+diciamo meccanismo attraverso il quale
+
+776
+00:40:08.079 --> 00:40:13.640
+la corrente si possa richiudere verso il
+
+777
+00:40:10.960 --> 00:40:16.599
+generatore. Quindi, se è semplice
+
+778
+00:40:13.640 --> 00:40:20.520
+comprendere questa cosa nel caso di
+
+779
+00:40:16.599 --> 00:40:24.319
+un'antenna bilanciata come un dipolo, a
+
+780
+00:40:20.520 --> 00:40:27.800
+volte lo è meno nel caso di un'antenna
+
+781
+00:40:24.319 --> 00:40:30.800
+sbilanciata come un radiatore verticale
+
+782
+00:40:27.800 --> 00:40:33.720
+a un quarto d'onda.
+
+783
+00:40:30.800 --> 00:40:37.560
+radiatore che, e qui insisto su un
+
+784
+00:40:33.720 --> 00:40:39.599
+concetto, deve sempre comunque avere un
+
+785
+00:40:37.560 --> 00:40:43.800
+adeguato
+
+786
+00:40:39.599 --> 00:40:46.800
+contrappeso, lo chiamano gli inglesi, un
+
+787
+00:40:43.800 --> 00:40:49.400
+adeguato contrappeso attraverso il quale
+
+788
+00:40:46.800 --> 00:40:50.960
+la corrente possa richiudersi verso il
+
+789
+00:40:49.400 --> 00:40:52.920
+generatore.
+
+790
+00:40:50.960 --> 00:40:56.000
+Comunque vedremo nelle prossime slide
+
+791
+00:40:52.920 --> 00:40:57.920
+che in parte minore questo problema può
+
+792
+00:40:56.000 --> 00:40:59.520
+riguardare, riguarda anche le antenne
+
+793
+00:40:57.920 --> 00:41:01.520
+bilanciate.
+
+794
+00:40:59.520 --> 00:41:04.680
+Tale aspetto, ripeto, è spesso
+
+795
+00:41:01.520 --> 00:41:06.280
+sottovalutato e invece determinante
+
+796
+00:41:04.680 --> 00:41:09.440
+per il corretto funzionamento
+
+797
+00:41:06.280 --> 00:41:12.720
+dell'antenna. Questo con buona pace di
+
+798
+00:41:09.440 --> 00:41:14.800
+chi pubblicizza antenne verticali senza
+
+799
+00:41:12.720 --> 00:41:18.920
+l'uso
+
+800
+00:41:14.800 --> 00:41:21.000
+di eh radiali di nessun tipo. Mi
+
+801
+00:41:18.920 --> 00:41:23.960
+piacerebbe domandare a chi scrive queste
+
+802
+00:41:21.000 --> 00:41:26.760
+cose, secondo lui, la corrente da dove
+
+803
+00:41:23.960 --> 00:41:28.680
+si richiude?
+
+804
+00:41:26.760 --> 00:41:31.040
+Il problema è che la corrente una strada
+
+805
+00:41:28.680 --> 00:41:33.680
+la trova sempre. Il problema è vedere
+
+806
+00:41:31.040 --> 00:41:36.280
+qual è questa strada.
+
+807
+00:41:33.680 --> 00:41:38.880
+Allora, dicevo prima, contrariamente a
+
+808
+00:41:36.280 --> 00:41:42.440
+quello che uno potrebbe potrebbe essere
+
+809
+00:41:38.880 --> 00:41:45.160
+portato a pensare, anche antenne
+
+810
+00:41:42.440 --> 00:41:48.599
+bilanciate come un dipolo,
+
+811
+00:41:45.160 --> 00:41:51.599
+hanno possono avere il problema
+
+812
+00:41:48.599 --> 00:41:53.680
+eh della corretta richiusura delle
+
+813
+00:41:51.599 --> 00:41:56.920
+correnti in radiofrequenza,
+
+814
+00:41:53.680 --> 00:41:59.839
+anche se, come vi dicevo prima, e qui lo
+
+815
+00:41:56.920 --> 00:42:02.800
+vedete eh rappresentato ancora meglio,
+
+816
+00:41:59.839 --> 00:42:05.680
+nel caso di un dipolo, il percorso
+
+817
+00:42:02.800 --> 00:42:08.880
+principale delle correnti è quello che
+
+818
+00:42:05.680 --> 00:42:11.319
+interessa i due bracci in questo modo
+
+819
+00:42:08.880 --> 00:42:15.240
+attraverso, diciamo,
+
+820
+00:42:11.319 --> 00:42:16.800
+l'effetto capacitivo esistente tra i due
+
+821
+00:42:15.240 --> 00:42:21.359
+bracci,
+
+822
+00:42:16.800 --> 00:42:25.480
+però in ambiente reale ed in particolare
+
+823
+00:42:21.359 --> 00:42:29.800
+se il dipolo è ad un'altezza non elevata
+
+824
+00:42:25.480 --> 00:42:31.800
+rispetto a terra, una parte anche
+
+825
+00:42:29.800 --> 00:42:36.520
+significativa
+
+826
+00:42:31.800 --> 00:42:40.520
+della corrente che percorre un braccio
+
+827
+00:42:36.520 --> 00:42:43.160
+può richiudersi verso l'altro attraverso
+
+828
+00:42:40.520 --> 00:42:45.599
+il terreno e attraverso l'effetto
+
+829
+00:42:43.160 --> 00:42:48.760
+capacitivo che si instaura tra
+
+830
+00:42:45.599 --> 00:42:53.040
+l'elemento e il terreno.
+
+831
+00:42:48.760 --> 00:42:57.440
+E non solo, e e ancora peggio, aggiungo
+
+832
+00:42:53.040 --> 00:43:01.280
+io, può richiudersi tra l'elemento
+
+833
+00:42:57.440 --> 00:43:05.480
+collegato al polo centrale del cavo
+
+834
+00:43:01.280 --> 00:43:08.960
+coassiale e la superficie esterna della
+
+835
+00:43:05.480 --> 00:43:12.480
+calza del cavo coziale.
+
+836
+00:43:08.960 --> 00:43:15.520
+In questo caso particolare
+
+837
+00:43:12.480 --> 00:43:17.480
+il problema che si determina che è uno
+
+838
+00:43:15.520 --> 00:43:19.440
+sbilanciamento
+
+839
+00:43:17.480 --> 00:43:22.200
+delle correnti
+
+840
+00:43:19.440 --> 00:43:24.119
+perché questo fenomeno riguarda
+
+841
+00:43:22.200 --> 00:43:28.480
+prevalentemente
+
+842
+00:43:24.119 --> 00:43:30.599
+il lato relativo alla all'elemento che è
+
+843
+00:43:28.480 --> 00:43:32.359
+collegato con il polo caldo del
+
+844
+00:43:30.599 --> 00:43:35.160
+cavoziale.
+
+845
+00:43:32.359 --> 00:43:39.760
+Questo è il motivo
+
+846
+00:43:35.160 --> 00:43:42.720
+principale per il quale ogni
+
+847
+00:43:39.760 --> 00:43:46.240
+antenna, anche un dipolo
+
+848
+00:43:42.720 --> 00:43:50.000
+ed in particolare un'antenna
+
+849
+00:43:46.240 --> 00:43:55.240
+bilanciata deve essere dotata di un
+
+850
+00:43:50.000 --> 00:43:57.359
+balun proprio perché deve essere evitata
+
+851
+00:43:55.240 --> 00:44:00.960
+la possibilità che ci siano queste
+
+852
+00:43:57.359 --> 00:44:04.000
+richiusure perché le correnti che si
+
+853
+00:44:00.960 --> 00:44:06.839
+richiudono sulla alza esterna del cavo,
+
+854
+00:44:04.000 --> 00:44:09.319
+le cosiddette correnti di modo comune
+
+855
+00:44:06.839 --> 00:44:10.880
+hanno due effetti particolarmente
+
+856
+00:44:09.319 --> 00:44:14.000
+negativi.
+
+857
+00:44:10.880 --> 00:44:16.280
+Il primo rendono asimmetrico
+
+858
+00:44:14.000 --> 00:44:19.400
+le correnti sui bracci del dipolo e
+
+859
+00:44:16.280 --> 00:44:24.000
+quindi ne alterano la forma del lobo di
+
+860
+00:44:19.400 --> 00:44:26.520
+radiazione che viene diventa sbilanciato
+
+861
+00:44:24.000 --> 00:44:28.559
+su un lato rispetto all'altro, cioè si
+
+862
+00:44:26.520 --> 00:44:31.119
+ha una radiazione maggiore in una
+
+863
+00:44:28.559 --> 00:44:34.880
+direzione rispetto ad in un'altra, ma
+
+864
+00:44:31.119 --> 00:44:37.640
+l'altro effetto ancora più dannoso che
+
+865
+00:44:34.880 --> 00:44:40.960
+il cavo con la calza est la parte
+
+866
+00:44:37.640 --> 00:44:45.079
+esterna della calza del cavo percorsa
+
+867
+00:44:40.960 --> 00:44:46.839
+dalla corrente di modo comune diventa
+
+868
+00:44:45.079 --> 00:44:49.680
+sostanzialmente
+
+869
+00:44:46.839 --> 00:44:51.839
+un elemento radiante, cioè irradia. E
+
+870
+00:44:49.680 --> 00:44:54.680
+siccome spesso il cavoale poi per
+
+871
+00:44:51.839 --> 00:44:59.079
+raggiungere il nostro trasmettitore
+
+872
+00:44:54.680 --> 00:45:01.640
+passa in prossimità di tante altre cose
+
+873
+00:44:59.079 --> 00:45:05.440
+e può essere fonte di
+
+874
+00:45:01.640 --> 00:45:07.640
+>> Paolo, scusami, non si vede la slide?
+
+875
+00:45:05.440 --> 00:45:09.640
+>> Non si vede più la slide?
+
+876
+00:45:07.640 --> 00:45:11.599
+No, la la vedi noi la vediamo.
+
+877
+00:45:09.640 --> 00:45:13.760
+>> Si vede, si vede, si vede.
+
+878
+00:45:11.599 --> 00:45:16.119
+>> Antonio controlla perché può darsi sia
+
+879
+00:45:13.760 --> 00:45:16.640
+un problema di connessione. Noi la
+
+880
+00:45:16.119 --> 00:45:18.400
+stiamo vedendo.
+
+881
+00:45:16.640 --> 00:45:21.440
+>> Io la vedo. Noi la vediamo.
+
+882
+00:45:18.400 --> 00:45:24.359
+>> Allora, scusa, scusate. Sicuramente
+
+883
+00:45:21.440 --> 00:45:25.800
+c'ho qua o la batteria scarica. Ci sta.
+
+884
+00:45:24.359 --> 00:45:28.680
+Chiedo scusa.
+
+885
+00:45:25.800 --> 00:45:31.680
+>> Prego, prego, prego. Paolo,
+
+886
+00:45:28.680 --> 00:45:34.079
+>> niente. Quindi vi dicevo, o
+
+887
+00:45:31.680 --> 00:45:35.720
+questo effetto di radiazione può
+
+888
+00:45:34.079 --> 00:45:40.240
+provocare
+
+889
+00:45:35.720 --> 00:45:42.480
+disturbi a a terzi, quindi magari se il
+
+890
+00:45:40.240 --> 00:45:44.880
+cavo passa in prossimità dell'impianto
+
+891
+00:45:42.480 --> 00:45:47.640
+elettrico di casa, può distribuire
+
+892
+00:45:44.880 --> 00:45:50.920
+disturbi sulla rete elettrica e quindi
+
+893
+00:45:47.640 --> 00:45:53.240
+creare problemi ai vostri TV, alle
+
+894
+00:45:50.920 --> 00:45:55.000
+vostre radio, ma soprattutto a quelle
+
+895
+00:45:53.240 --> 00:45:58.640
+dei vicini
+
+896
+00:45:55.000 --> 00:46:00.880
+e per contro per l'effetto opposto
+
+897
+00:45:58.640 --> 00:46:03.599
+il meccanismo di reciprocità delle
+
+898
+00:46:00.880 --> 00:46:08.240
+antenne, quindi questo in trasmissione
+
+899
+00:46:03.599 --> 00:46:10.960
+in ricezione può raccattare disturbi che
+
+900
+00:46:08.240 --> 00:46:14.520
+poi possono essere riportati
+
+901
+00:46:10.960 --> 00:46:17.160
+all'ingresso del vostro ricevitore.
+
+902
+00:46:14.520 --> 00:46:20.640
+Quindi è tassativo
+
+903
+00:46:17.160 --> 00:46:24.119
+introdurre un meccanismo di blocco che
+
+904
+00:46:20.640 --> 00:46:26.440
+per che in in qualche modo impedisca la
+
+905
+00:46:24.119 --> 00:46:28.680
+formazione di correnti, cosiddette
+
+906
+00:46:26.440 --> 00:46:30.960
+correnti di modo comune che percorrono
+
+907
+00:46:28.680 --> 00:46:34.319
+la calza esterna
+
+908
+00:46:30.960 --> 00:46:39.400
+del cavo. Dico, questo è il motivo per
+
+909
+00:46:34.319 --> 00:46:41.040
+cui è sempre necessario un adeguato
+
+910
+00:46:39.400 --> 00:46:43.680
+blocco
+
+911
+00:46:41.040 --> 00:46:45.240
+nel punto di alimentazione. Allora,
+
+912
+00:46:43.680 --> 00:46:50.720
+questo è un argomento su cui ci sarebbe
+
+913
+00:46:45.240 --> 00:46:53.640
+tanto da dire, ma diciamo che per quanto
+
+914
+00:46:50.720 --> 00:46:57.440
+riguarda quello che ci serve per l'esame
+
+915
+00:46:53.640 --> 00:47:02.599
+è più che sufficiente quello che abbiamo
+
+916
+00:46:57.440 --> 00:47:04.760
+fin qui detto. Infatti, come dicevo,
+
+917
+00:47:02.599 --> 00:47:07.079
+quasi tutte le antenne, tranne poche
+
+918
+00:47:04.760 --> 00:47:11.440
+eccezioni, hanno la caratteristica di
+
+919
+00:47:07.079 --> 00:47:13.359
+essere bilanciate e quindi, come abbiamo
+
+920
+00:47:11.440 --> 00:47:15.520
+detto, quando abbiamo parlato di linee,
+
+921
+00:47:13.359 --> 00:47:18.359
+richiederebbero l'alimentazione con una
+
+922
+00:47:15.520 --> 00:47:21.040
+linea anch'essa bilanciata, ma abbiamo
+
+923
+00:47:18.359 --> 00:47:24.760
+visto che ormai le linee bilanciate non
+
+924
+00:47:21.040 --> 00:47:27.800
+si usano o più, anche perché hanno
+
+925
+00:47:24.760 --> 00:47:31.680
+alcuni problemi. l'uso del coassiale ha
+
+926
+00:47:27.800 --> 00:47:34.960
+dei vantaggi sicuramente maggiori e
+
+927
+00:47:31.680 --> 00:47:38.760
+quindi per potere utilizzare un'antenna
+
+928
+00:47:34.960 --> 00:47:42.480
+bilanciata con una linea sbilanciata
+
+929
+00:47:38.760 --> 00:47:46.559
+come un cavo coassiale io ho la
+
+930
+00:47:42.480 --> 00:47:48.880
+necessità di utilizzare un dispositivo
+
+931
+00:47:46.559 --> 00:47:51.640
+di adattamento.
+
+932
+00:47:48.880 --> 00:47:55.839
+Questo dispositivo prende il nome di
+
+933
+00:47:51.640 --> 00:47:59.280
+Balun che tra l'altro non è altro che
+
+934
+00:47:55.839 --> 00:48:02.359
+l'abbreviazione del termine balanced to
+
+935
+00:47:59.280 --> 00:48:04.040
+unbalanced, quindi da bilanciato a
+
+936
+00:48:02.359 --> 00:48:07.240
+sbilanciato.
+
+937
+00:48:04.040 --> 00:48:08.760
+Ma come vedremo meglio nella slide
+
+938
+00:48:07.240 --> 00:48:12.079
+successiva,
+
+939
+00:48:08.760 --> 00:48:17.040
+questi dispositivi, cioè il ballon, non
+
+940
+00:48:12.079 --> 00:48:20.200
+fa solo il ballon, cioè la conversione
+
+941
+00:48:17.040 --> 00:48:25.480
+da bilanciato a sbilanciato,
+
+942
+00:48:20.200 --> 00:48:29.800
+ma spesso eh svolgono, devono svolgere
+
+943
+00:48:25.480 --> 00:48:33.480
+eh anche altre importanti funzioni e
+
+944
+00:48:29.800 --> 00:48:35.280
+vediamo quali sono.
+
+945
+00:48:33.480 --> 00:48:37.480
+Abbiamo detto sempre quando abbiamo
+
+946
+00:48:35.280 --> 00:48:41.480
+parlato delle linee che il corretto
+
+947
+00:48:37.480 --> 00:48:43.359
+adattamento tra la linea e il punto di
+
+948
+00:48:41.480 --> 00:48:48.839
+alimentazione
+
+949
+00:48:43.359 --> 00:48:50.440
+deve di norma rispondere a tre esigenze
+
+950
+00:48:48.839 --> 00:48:52.599
+principali,
+
+951
+00:48:50.440 --> 00:48:55.960
+quindi l'adattamento
+
+952
+00:48:52.599 --> 00:48:58.559
+di un carico bilanciato come un'antenna
+
+953
+00:48:55.960 --> 00:49:00.599
+ad un cavo, a una linea sbilanciata come
+
+954
+00:48:58.559 --> 00:49:04.359
+un cavo coassiale.
+
+955
+00:49:00.599 --> 00:49:07.839
+il classico effetto appunto del ballon,
+
+956
+00:49:04.359 --> 00:49:10.440
+ma anche adattare il valore di impedenza
+
+957
+00:49:07.839 --> 00:49:13.920
+dell'antenna a quello della linea di
+
+958
+00:49:10.440 --> 00:49:16.799
+alimentazione qualora fosse diverso.
+
+959
+00:49:13.920 --> 00:49:20.839
+Parlavamo prima all'inizio prima di
+
+960
+00:49:16.799 --> 00:49:23.920
+iniziare la lezione del dipolo CF che ha
+
+961
+00:49:20.839 --> 00:49:28.720
+un'impedenza nel punto di alimentazione
+
+962
+00:49:23.920 --> 00:49:32.440
+di 200 ohm, quindi 200 ohm bilanciati.
+
+963
+00:49:28.720 --> 00:49:34.359
+In questo caso il ballun, oltre che ad
+
+964
+00:49:32.440 --> 00:49:37.000
+fare l'adattamento
+
+965
+00:49:34.359 --> 00:49:39.599
+tra bilanciato sbilanciato,
+
+966
+00:49:37.000 --> 00:49:44.160
+mi deve anche realizzare l'adattamento
+
+967
+00:49:39.599 --> 00:49:48.640
+di impedenza da 200 a 50 ohm. E questo è
+
+968
+00:49:44.160 --> 00:49:51.960
+possibile utilizzando un ballon con
+
+969
+00:49:48.640 --> 00:49:54.440
+rapporto di trasformazione 4 a1. lo
+
+970
+00:49:51.960 --> 00:49:58.640
+vedete rappresentato qui nella nel
+
+971
+00:49:54.440 --> 00:50:01.119
+disegnino in basso. E poi terza funzione
+
+972
+00:49:58.640 --> 00:50:04.200
+estremamente importante, quella di cui
+
+973
+00:50:01.119 --> 00:50:07.920
+vi ho parlato nella slide precedente,
+
+974
+00:50:04.200 --> 00:50:10.640
+evitare la possibilità che correnti RF
+
+975
+00:50:07.920 --> 00:50:13.640
+possano percorrere la superficie esterna
+
+976
+00:50:10.640 --> 00:50:16.559
+del cavo coassiale, le famose correnti
+
+977
+00:50:13.640 --> 00:50:18.400
+di modo comune, dando luogo a
+
+978
+00:50:16.559 --> 00:50:22.440
+interferenze
+
+979
+00:50:18.400 --> 00:50:25.559
+da eh il vostro trasmettitore verso il
+
+980
+00:50:22.440 --> 00:50:29.319
+mondo circostante e viceversa nei
+
+981
+00:50:25.559 --> 00:50:32.319
+confronti del nostro ricevitore. Molto
+
+982
+00:50:29.319 --> 00:50:35.240
+spesso, anzi direi quasi sempre, queste
+
+983
+00:50:32.319 --> 00:50:39.040
+tre diverse funzioni possono essere
+
+984
+00:50:35.240 --> 00:50:43.040
+svolte da un unico dispositivo
+
+985
+00:50:39.040 --> 00:50:46.240
+che è il il ballon che comunemente viene
+
+986
+00:50:43.040 --> 00:50:48.319
+chiamato balon di corrente o guanella
+
+987
+00:50:46.240 --> 00:50:52.040
+chock
+
+988
+00:50:48.319 --> 00:50:55.440
+che nella configurazione più semplice,
+
+989
+00:50:52.040 --> 00:51:00.520
+cioè quella col rapporto 1 a un
+
+990
+00:50:55.440 --> 00:51:03.720
+sostanzialmente non è altro che un
+
+991
+00:51:00.520 --> 00:51:06.520
+pezzo di cavo coassiale avvolto
+
+992
+00:51:03.720 --> 00:51:09.440
+come un induttore in qualche caso in
+
+993
+00:51:06.520 --> 00:51:13.319
+aria, come questo rappresentato in altri
+
+994
+00:51:09.440 --> 00:51:16.160
+casi a seconda del frequenza di utilizzo
+
+995
+00:51:13.319 --> 00:51:18.040
+avvolto intorno a un nucleo
+
+996
+00:51:16.160 --> 00:51:20.559
+ferromagnetico.
+
+997
+00:51:18.040 --> 00:51:25.640
+Comunque le tre funzioni principali a
+
+998
+00:51:20.559 --> 00:51:27.599
+cui eh che svolge il
+
+999
+00:51:25.640 --> 00:51:32.200
+ballon di corrente sono queste che
+
+1000
+00:51:27.599 --> 00:51:34.640
+vedete e sono eh diciamo funzioni
+
+1001
+00:51:32.200 --> 00:51:36.359
+estremamente importanti per il corretto
+
+1002
+00:51:34.640 --> 00:51:38.760
+funzionamento
+
+1003
+00:51:36.359 --> 00:51:42.760
+dell'antenna.
+
+1004
+00:51:38.760 --> 00:51:45.160
+A questo punto, dicevo, mh
+
+1005
+00:51:42.760 --> 00:51:47.559
+è leito porsi una domanda, ma se io
+
+1006
+00:51:45.160 --> 00:51:49.160
+quindi ho realizzato il perfetto
+
+1007
+00:51:47.559 --> 00:51:52.520
+adattamento
+
+1008
+00:51:49.160 --> 00:51:55.359
+della mia antenna, nel senso giusto
+
+1009
+00:51:52.520 --> 00:51:59.160
+rapporto di impedenza, il balun per
+
+1010
+00:51:55.359 --> 00:52:00.680
+conversione da eh bilanciato
+
+1011
+00:51:59.160 --> 00:52:02.680
+sbilanciato,
+
+1012
+00:52:00.680 --> 00:52:05.680
+tutta la potenza che genera il mio
+
+1013
+00:52:02.680 --> 00:52:09.240
+trasmettore è sempre irradiata sotto
+
+1014
+00:52:05.680 --> 00:52:13.400
+forma di campo elettromagnetico.
+
+1015
+00:52:09.240 --> 00:52:16.119
+la risposta purtroppo è ovviamente no,
+
+1016
+00:52:13.400 --> 00:52:20.119
+o meglio,
+
+1017
+00:52:16.119 --> 00:52:23.040
+in teoria questo potrebbe avvenire e
+
+1018
+00:52:20.119 --> 00:52:25.200
+quand'è che tutta la potenza che io
+
+1019
+00:52:23.040 --> 00:52:28.960
+genero col trasmettitore
+
+1020
+00:52:25.200 --> 00:52:31.880
+viene trasformata in energia
+
+1021
+00:52:28.960 --> 00:52:34.880
+elettromagnetica irradiata. Questo è
+
+1022
+00:52:31.880 --> 00:52:37.799
+possibile solo se l'antenna fosse posta
+
+1023
+00:52:34.880 --> 00:52:41.040
+in un ambiente ideale, famoso spazio
+
+1024
+00:52:37.799 --> 00:52:44.000
+libero, cioè privo di interferenze con
+
+1025
+00:52:41.040 --> 00:52:47.440
+qualsiasi altro elemento, interferenze
+
+1026
+00:52:44.000 --> 00:52:51.319
+spaziali, quindi eh niente terreno,
+
+1027
+00:52:47.440 --> 00:52:54.880
+niente eh masse metalliche, niente
+
+1028
+00:52:51.319 --> 00:52:58.200
+conduttori e l'antenna stessa forse
+
+1029
+00:52:54.880 --> 00:53:00.520
+realizzata con conduttori ideali, cioè
+
+1030
+00:52:58.200 --> 00:53:02.440
+totalmente privi di perdite.
+
+1031
+00:53:00.520 --> 00:53:06.359
+Purtroppo, siccome nella realtà non è
+
+1032
+00:53:02.440 --> 00:53:08.040
+mai così, io devo andare a definire
+
+1033
+00:53:06.359 --> 00:53:10.520
+quella che si chiama l'efficienza di
+
+1034
+00:53:08.040 --> 00:53:13.839
+radiazione di un'antenna, che altro che
+
+1035
+00:53:10.520 --> 00:53:18.040
+non è che il rapporto percentuale
+
+1036
+00:53:13.839 --> 00:53:20.160
+tra la potenza applicata potenza,
+
+1037
+00:53:18.040 --> 00:53:22.280
+diciamo, elettrica
+
+1038
+00:53:20.160 --> 00:53:25.160
+fornita dal trasmettitore nel punto di
+
+1039
+00:53:22.280 --> 00:53:27.480
+alimentazione e l'effettiva potenza
+
+1040
+00:53:25.160 --> 00:53:30.400
+irradiata sotto forma di campo
+
+1041
+00:53:27.480 --> 00:53:34.280
+magnetico. endimento è spesso in
+
+1042
+00:53:30.400 --> 00:53:37.319
+percentuale, quindi in teoria potre
+
+1043
+00:53:34.280 --> 00:53:40.880
+arrivare al 100%. Vedremo che nella
+
+1044
+00:53:37.319 --> 00:53:43.880
+pratica non sarà mai il 100%, ma vedremo
+
+1045
+00:53:40.880 --> 00:53:47.200
+anche che ci sono casi abbastanza
+
+1046
+00:53:43.880 --> 00:53:51.559
+clamorosi in cui questa percentuale è
+
+1047
+00:53:47.200 --> 00:53:51.559
+invece decisamente bassa.
+
+1048
+00:53:51.640 --> 00:53:55.960
+E perché accade questo?
+
+1049
+00:53:53.920 --> 00:53:58.960
+accade perché noi dobbiamo sempre
+
+1050
+00:53:55.960 --> 00:54:02.559
+ricordare, vi ho detto nell'altra
+
+1051
+00:53:58.960 --> 00:54:05.839
+lezione, la lezione scorsa all'inizio,
+
+1052
+00:54:02.559 --> 00:54:07.520
+che non sempre l'impedenza nel punto di
+
+1053
+00:54:05.839 --> 00:54:10.559
+alimentazione
+
+1054
+00:54:07.520 --> 00:54:12.920
+corrisponde esattamente alla resistenza
+
+1055
+00:54:10.559 --> 00:54:15.160
+di radiazione.
+
+1056
+00:54:12.920 --> 00:54:17.160
+E vi dicevo, dobbiamo sempre ricordare
+
+1057
+00:54:15.160 --> 00:54:21.359
+che l'impedenza che il nostro
+
+1058
+00:54:17.160 --> 00:54:24.520
+generatore, cioè il trasmettitore, vede
+
+1059
+00:54:21.359 --> 00:54:29.559
+nel punto di alimentazione dell'antenna,
+
+1060
+00:54:24.520 --> 00:54:32.599
+è sempre composta di due parti. Una che
+
+1061
+00:54:29.559 --> 00:54:35.040
+è l'effettiva resistenza di radiazione
+
+1062
+00:54:32.599 --> 00:54:37.520
+dell'antenna. Vi ricordate com'è
+
+1063
+00:54:35.040 --> 00:54:40.200
+definita la resistenza di radiazione?
+
+1064
+00:54:37.520 --> 00:54:43.400
+Tens di radiazione non è una resistenza
+
+1065
+00:54:40.200 --> 00:54:46.240
+fisica, ma è quel valore di resistenza
+
+1066
+00:54:43.400 --> 00:54:49.160
+che tiene conto della quantità di
+
+1067
+00:54:46.240 --> 00:54:51.920
+energia effettivamente
+
+1068
+00:54:49.160 --> 00:54:54.760
+irradiata.
+
+1069
+00:54:51.920 --> 00:54:57.680
+E una seconda resistenza che è la
+
+1070
+00:54:54.760 --> 00:55:00.520
+resistenza di perdita.
+
+1071
+00:54:57.680 --> 00:55:04.440
+Resistenza di perdita che a sua volta è
+
+1072
+00:55:00.520 --> 00:55:08.000
+costituita da vari elementi e la somma
+
+1073
+00:55:04.440 --> 00:55:10.240
+di di vari contributi, tra cui i
+
+1074
+00:55:08.000 --> 00:55:13.160
+principali sono
+
+1075
+00:55:10.240 --> 00:55:17.160
+la potenza che si dissipa proprio per
+
+1076
+00:55:13.160 --> 00:55:20.599
+effetto Jul nella resistenza fisica dei
+
+1077
+00:55:17.160 --> 00:55:23.400
+conduttori che costituiscono l'elemento
+
+1078
+00:55:20.599 --> 00:55:26.720
+radiante e dalle perdite negli
+
+1079
+00:55:23.400 --> 00:55:30.160
+isolatori. è ovvio che l'elemento
+
+1080
+00:55:26.720 --> 00:55:34.000
+radiante, che sia un filo piuttosto che
+
+1081
+00:55:30.160 --> 00:55:37.319
+un tubo eh metallico, è comunque avrà
+
+1082
+00:55:34.000 --> 00:55:40.799
+comunque una certa resistenza elettrica
+
+1083
+00:55:37.319 --> 00:55:43.280
+piccola, ma ce l'avrà. Poi vedremo più
+
+1084
+00:55:40.799 --> 00:55:45.799
+avanti che per a causa dell'effetto
+
+1085
+00:55:43.280 --> 00:55:48.559
+pelle questa resistenza non è poi
+
+1086
+00:55:45.799 --> 00:55:52.640
+nemmeno così piccola quanto si si
+
+1087
+00:55:48.559 --> 00:55:55.680
+potrebbe immaginare. E quindi proprio
+
+1088
+00:55:52.640 --> 00:56:00.640
+per la la classica
+
+1089
+00:55:55.680 --> 00:56:02.880
+legge di di oh la corrente che passa in
+
+1090
+00:56:00.640 --> 00:56:06.039
+una resistenza
+
+1091
+00:56:02.880 --> 00:56:09.079
+provoca, come dire una dissipazione di
+
+1092
+00:56:06.039 --> 00:56:11.559
+potenza. Questa potenza ovviamente che
+
+1093
+00:56:09.079 --> 00:56:15.880
+si dissipa per effetto Ciao nella
+
+1094
+00:56:11.559 --> 00:56:17.680
+resistenza eh elettrica dei conduttori e
+
+1095
+00:56:15.880 --> 00:56:20.599
+nella resistenza di perdita del
+
+1096
+00:56:17.680 --> 00:56:23.280
+dielettrico degli isolatori è potenza
+
+1097
+00:56:20.599 --> 00:56:29.760
+persa che non viene irradiata.
+
+1098
+00:56:23.280 --> 00:56:33.799
+Poi c'è una seconda, diciamo, componente
+
+1099
+00:56:29.760 --> 00:56:37.160
+che direi più importante, che sono le
+
+1100
+00:56:33.799 --> 00:56:40.520
+perdite nel terreno o in oggetti
+
+1101
+00:56:37.160 --> 00:56:45.240
+conduttori circostanti posti
+
+1102
+00:56:40.520 --> 00:56:45.240
+nell'area di campo vicino dell'antenna,
+
+1103
+00:56:45.520 --> 00:56:51.480
+elementi in cui per l'effetto di mutuo
+
+1104
+00:56:49.079 --> 00:56:52.480
+accoppiamento circolà una corrente
+
+1105
+00:56:51.480 --> 00:56:54.960
+indotta
+
+1106
+00:56:52.480 --> 00:56:57.640
+dai campi generati dall'antenna.
+
+1107
+00:56:54.960 --> 00:57:00.520
+Comunque diciamo che il terreno è il
+
+1108
+00:56:57.640 --> 00:57:04.200
+principale responsabile di questo
+
+1109
+00:57:00.520 --> 00:57:06.119
+effetto. Quindi, se ci sono condizioni
+
+1110
+00:57:04.200 --> 00:57:10.240
+per cui
+
+1111
+00:57:06.119 --> 00:57:12.640
+una parte importante della corrente che
+
+1112
+00:57:10.240 --> 00:57:16.440
+circola nell'elemento radiante
+
+1113
+00:57:12.640 --> 00:57:18.160
+attraversa il terreno e
+
+1114
+00:57:16.440 --> 00:57:20.799
+e
+
+1115
+00:57:18.160 --> 00:57:24.400
+l'effetto è che questa corrente nel
+
+1116
+00:57:20.799 --> 00:57:26.079
+terreno si dissipa sotto forma di calore
+
+1117
+00:57:24.400 --> 00:57:29.400
+sostanzialmente,
+
+1118
+00:57:26.079 --> 00:57:31.680
+per effetto Jul nella resistenza che è
+
+1119
+00:57:29.400 --> 00:57:34.400
+presente al terreno stesso e quindi è
+
+1120
+00:57:31.680 --> 00:57:37.960
+anche questa è potenza persa. Quindi se
+
+1121
+00:57:34.400 --> 00:57:40.280
+queste due componenti iniziano ad essere
+
+1122
+00:57:37.960 --> 00:57:44.160
+importanti, la potenza che io
+
+1123
+00:57:40.280 --> 00:57:47.799
+effettivamente irradio comincia a
+
+1124
+00:57:44.160 --> 00:57:50.799
+diminuire significativamente.
+
+1125
+00:57:47.799 --> 00:57:53.359
+Vi dicevo prima, vi ho accennato prima,
+
+1126
+00:57:50.799 --> 00:57:56.440
+l'effetto pelle. Ecco, è importante
+
+1127
+00:57:53.359 --> 00:57:58.799
+sapere questo. Mh, vi anticipo subito
+
+1128
+00:57:56.440 --> 00:58:04.000
+che non ci sarà una domanda all'esame su
+
+1129
+00:57:58.799 --> 00:58:06.160
+questa cosa, ma è bene saperlo che eh a
+
+1130
+00:58:04.000 --> 00:58:10.119
+differenza di quello che accade in
+
+1131
+00:58:06.160 --> 00:58:12.319
+corrente continua, un segnale ad alta
+
+1132
+00:58:10.119 --> 00:58:14.280
+frequenza, quindi una corrente in
+
+1133
+00:58:12.319 --> 00:58:18.039
+particolare, in questo caso ad alta
+
+1134
+00:58:14.280 --> 00:58:22.000
+frequenza che percorre un conduttore,
+
+1135
+00:58:18.039 --> 00:58:26.480
+non lo percorre nella sua interezza. ma
+
+1136
+00:58:22.000 --> 00:58:29.960
+tende a concentrarsi sulla superficie
+
+1137
+00:58:26.480 --> 00:58:32.400
+esterna. lo spessore
+
+1138
+00:58:29.960 --> 00:58:34.240
+in cui si ha penetrazione di corrente.
+
+1139
+00:58:32.400 --> 00:58:37.920
+Immaginate un conduttore, un tondino
+
+1140
+00:58:34.240 --> 00:58:40.480
+pieno in materiale metallico, un segnale
+
+1141
+00:58:37.920 --> 00:58:43.079
+a radiofrequenza che percorre, quindi
+
+1142
+00:58:40.480 --> 00:58:45.920
+una corrente radiofrequenza che percorre
+
+1143
+00:58:43.079 --> 00:58:49.079
+il conduttore non lo percorre nella sua
+
+1144
+00:58:45.920 --> 00:58:51.880
+interezza, ma ne percorre solo un
+
+1145
+00:58:49.079 --> 00:58:55.240
+piccolo spessore sulla superficie
+
+1146
+00:58:51.880 --> 00:58:57.520
+esterna. Questo spessore diminuisce
+
+1147
+00:58:55.240 --> 00:59:02.160
+abbastanza rapidamente in funzione della
+
+1148
+00:58:57.520 --> 00:59:05.359
+frequenza ed è mediamente molto piccolo.
+
+1149
+00:59:02.160 --> 00:59:07.520
+Qui tra l'altro varia in funzione del
+
+1150
+00:59:05.359 --> 00:59:12.119
+tipo di materiale. Qui avete un grafico
+
+1151
+00:59:07.520 --> 00:59:16.240
+che vi dice, per esempio, che a 10 MHz
+
+1152
+00:59:12.119 --> 00:59:19.480
+un conduttore di rame è la prima la
+
+1153
+00:59:16.240 --> 00:59:22.599
+prima linea rossa, in un conduttore di
+
+1154
+00:59:19.480 --> 00:59:26.400
+rame alla frequenza di 10 MHz.
+
+1155
+00:59:22.599 --> 00:59:27.960
+La penetrazione in millimetri
+
+1156
+00:59:26.400 --> 00:59:33.480
+è
+
+1157
+00:59:27.960 --> 00:59:36.839
+2 * 10^ -2, cioè 20 micron. Per cui se
+
+1158
+00:59:33.480 --> 00:59:41.799
+voi avete un conduttore anche
+
+1159
+00:59:36.839 --> 00:59:45.079
+grande del diametro di 1 cm,
+
+1160
+00:59:41.799 --> 00:59:51.039
+sappiate che la corrente RF lo percorre
+
+1161
+00:59:45.079 --> 00:59:54.440
+soltanto nei primi 10 eh millesimi di
+
+1162
+00:59:51.039 --> 00:59:56.359
+millimetro. Ma il resto del conduttore
+
+1163
+00:59:54.440 --> 00:59:58.640
+come se non ci fosse, come se fosse un
+
+1164
+00:59:56.359 --> 01:00:01.880
+tubo sostanzialmente.
+
+1165
+00:59:58.640 --> 01:00:03.520
+Questo ovviamente che fa sì che la
+
+1166
+01:00:01.880 --> 01:00:07.920
+resistenza
+
+1167
+01:00:03.520 --> 01:00:11.079
+del che la corrente incontra è molto
+
+1168
+01:00:07.920 --> 01:00:14.680
+maggiore di quella che incontrerebbe
+
+1169
+01:00:11.079 --> 01:00:16.160
+un una corrente continua. E quindi di
+
+1170
+01:00:14.680 --> 01:00:19.680
+questo dobbiamo tener conto,
+
+1171
+01:00:16.160 --> 01:00:22.720
+specialmente nel caso di antenne filari
+
+1172
+01:00:19.680 --> 01:00:26.079
+di elevata lunghezza che impiegano
+
+1173
+01:00:22.720 --> 01:00:27.880
+conduttori di diametri non elevati,
+
+1174
+01:00:26.079 --> 01:00:30.559
+perché in questo caso avremo valori di
+
+1175
+01:00:27.880 --> 01:00:34.079
+resistenza abbastanza importanti. Tanto
+
+1176
+01:00:30.559 --> 01:00:37.559
+per darvi un esempio, questa tabellina
+
+1177
+01:00:34.079 --> 01:00:42.039
+ci sono riportati i valori calcolati in
+
+1178
+01:00:37.559 --> 01:00:44.760
+ohm per un dipolo per le varie frequenze
+
+1179
+01:00:42.039 --> 01:00:46.559
+in funzione del del diametro del
+
+1180
+01:00:44.760 --> 01:00:49.160
+conduttore.
+
+1181
+01:00:46.559 --> 01:00:51.680
+Potete vedere, ad esempio, che un dipolo
+
+1182
+01:00:49.160 --> 01:00:55.640
+per gli 80 m
+
+1183
+01:00:51.680 --> 01:00:59.319
+per i 3,5 MHz, che quindi dipolo a mezza
+
+1184
+01:00:55.640 --> 01:01:01.119
+onda sarebbe lungo 40 m. 40 m di un
+
+1185
+01:00:59.319 --> 01:01:04.559
+conduttore
+
+1186
+01:01:01.119 --> 01:01:09.400
+di 1 mm di diametro hanno presentano
+
+1187
+01:01:04.559 --> 01:01:12.079
+questa frequenza ben 6,36 ohm. Se lo
+
+1188
+01:01:09.400 --> 01:01:14.319
+misurate col tester vedete che magari ha
+
+1189
+01:01:12.079 --> 01:01:19.480
+una resistenza di pochi centesimi di
+
+1190
+01:01:14.319 --> 01:01:23.960
+ohm. In realtà per un una corrente a 3,5
+
+1191
+01:01:19.480 --> 01:01:30.119
+MHz la resistenza è 6 ohm.
+
+1192
+01:01:23.960 --> 01:01:33.079
+E perché il la penetrazione è 30,35
+
+1193
+01:01:30.119 --> 01:01:35.799
+mm. Vedete che aumentando la frequenza
+
+1194
+01:01:33.079 --> 01:01:38.000
+la penetrazione diminuisce.
+
+1195
+01:01:35.799 --> 01:01:40.640
+Fortunatamente aumentando la frequenza
+
+1196
+01:01:38.000 --> 01:01:43.079
+diminuisce anche la lunghezza del dipolo
+
+1197
+01:01:40.640 --> 01:01:44.920
+e quindi le resistenze calano, ma sono
+
+1198
+01:01:43.079 --> 01:01:48.160
+comunque valori significativi perché
+
+1199
+01:01:44.920 --> 01:01:52.039
+sono dell'ordine di alcuni ohm, mentre
+
+1200
+01:01:48.160 --> 01:01:56.039
+se misurate 5 m di filo col tester eh vi
+
+1201
+01:01:52.039 --> 01:02:00.839
+risulta praticamente zero. Questo perché
+
+1202
+01:01:56.039 --> 01:02:00.839
+è è dovuto all'effetto pelle.
+
+1203
+01:02:01.160 --> 01:02:05.839
+Vediamo invece le perdite eh nel
+
+1204
+01:02:03.480 --> 01:02:07.799
+terreno. Come vi ho anticipato, le
+
+1205
+01:02:05.839 --> 01:02:10.799
+perdite nel terreno dipendono
+
+1206
+01:02:07.799 --> 01:02:15.720
+sostanzialmente dalle caratteristiche
+
+1207
+01:02:10.799 --> 01:02:18.799
+del terreno e sono generalmente maggiori
+
+1208
+01:02:15.720 --> 01:02:21.480
+in terreni di scarse caratteristiche di
+
+1209
+01:02:18.799 --> 01:02:24.359
+elettriche. Questo perché le correnti
+
+1210
+01:02:21.480 --> 01:02:26.599
+indotte in terreni con scarsa
+
+1211
+01:02:24.359 --> 01:02:29.680
+caratteristica di elettrica penetrano a
+
+1212
+01:02:26.599 --> 01:02:32.680
+maggior profondità e quindi la corrente,
+
+1213
+01:02:29.680 --> 01:02:36.880
+diciamo, percorre una parte maggiore di
+
+1214
+01:02:32.680 --> 01:02:39.400
+terreno e quindi aumentano le perdite. E
+
+1215
+01:02:36.880 --> 01:02:41.799
+le perdite, come vi ho detto prima,
+
+1216
+01:02:39.400 --> 01:02:44.559
+quando vi facevo vedere come si
+
+1217
+01:02:41.799 --> 01:02:47.880
+richiudono le correnti, aumentano
+
+1218
+01:02:44.559 --> 01:02:50.240
+ovviamente quando diminuisce l'altezza
+
+1219
+01:02:47.880 --> 01:02:52.440
+da terra.
+
+1220
+01:02:50.240 --> 01:02:55.880
+dell'antenna, altezza ovviamente in
+
+1221
+01:02:52.440 --> 01:03:00.359
+rapporto alla sua lunghezza d'onda.
+
+1222
+01:02:55.880 --> 01:03:03.720
+Le perdite sono abbastanza importanti
+
+1223
+01:03:00.359 --> 01:03:07.359
+anche nel caso di un'antenna orizzontale
+
+1224
+01:03:03.720 --> 01:03:10.680
+e diventano significative
+
+1225
+01:03:07.359 --> 01:03:13.480
+per altezze inferiori a un/4 d'onda.
+
+1226
+01:03:10.680 --> 01:03:16.400
+Quindi dovete sapere che se montate un
+
+1227
+01:03:13.480 --> 01:03:19.880
+dipolo ad un'altezza inferiore ad un/
+
+1228
+01:03:16.400 --> 01:03:24.640
+quarto d'onda, in questo caso la
+
+1229
+01:03:19.880 --> 01:03:27.279
+percentuale di corrente che eh percorre
+
+1230
+01:03:24.640 --> 01:03:30.279
+il terreno inizia a diventare
+
+1231
+01:03:27.279 --> 01:03:32.599
+significativa e quindi di conseguenza
+
+1232
+01:03:30.279 --> 01:03:36.400
+anche le perdite.
+
+1233
+01:03:32.599 --> 01:03:41.640
+Per lo stesso motivo, quindi, un'antenna
+
+1234
+01:03:36.400 --> 01:03:45.440
+verticale deve sempre avere
+
+1235
+01:03:41.640 --> 01:03:48.319
+dei radiali su cui si possa richiudere
+
+1236
+01:03:45.440 --> 01:03:50.720
+la corrente perché altrimenti la
+
+1237
+01:03:48.319 --> 01:03:55.680
+corrente che da qualche parte si deve
+
+1238
+01:03:50.720 --> 01:04:00.079
+richiudere gli si richiude o nel cavo
+
+1239
+01:03:55.680 --> 01:04:05.720
+se non avete un dispositivo di blocco,
+
+1240
+01:04:00.079 --> 01:04:08.960
+oppure a a attraverso il terreno e la
+
+1241
+01:04:05.720 --> 01:04:11.839
+connessione a terra del vostro apparato
+
+1242
+01:04:08.960 --> 01:04:14.640
+con tutte le conseguenze che ne derivano
+
+1243
+01:04:11.839 --> 01:04:18.039
+dal punto di vista di deformazione del
+
+1244
+01:04:14.640 --> 01:04:19.839
+lobo, di perdite che in questo caso sono
+
+1245
+01:04:18.039 --> 01:04:23.039
+estremamente
+
+1246
+01:04:19.839 --> 01:04:25.599
+elevate e possibilità di creare
+
+1247
+01:04:23.039 --> 01:04:30.440
+disturbi. Quindi ricordate, un'antenna
+
+1248
+01:04:25.599 --> 01:04:33.039
+verticale deve sempre avere un adeguato
+
+1249
+01:04:30.440 --> 01:04:34.799
+numero di radiali. Questo
+
+1250
+01:04:33.039 --> 01:04:36.799
+indipendentemente da dove la
+
+1251
+01:04:34.799 --> 01:04:41.240
+posizionate, sia che la posizionate su
+
+1252
+01:04:36.799 --> 01:04:44.200
+un tetto piuttosto che a terra, anzi
+
+1253
+01:04:41.240 --> 01:04:47.079
+diciamo se la posizionate a terra il
+
+1254
+01:04:44.200 --> 01:04:48.640
+problema è solo l'efficienza. Se la
+
+1255
+01:04:47.079 --> 01:04:50.799
+posizionate su un tetto, oltre
+
+1256
+01:04:48.640 --> 01:04:54.200
+l'efficienza, se non ha i radiali, ci
+
+1257
+01:04:50.799 --> 01:04:56.760
+sono anche problemi significativi di
+
+1258
+01:04:54.200 --> 01:05:02.000
+disturbi.
+
+1259
+01:04:56.760 --> 01:05:05.039
+Quindi, vi dicevo, le perdite diventano
+
+1260
+01:05:02.000 --> 01:05:07.079
+significative nel caso di un dipolo,
+
+1261
+01:05:05.039 --> 01:05:08.920
+quando è inferiore, l'altezza è
+
+1262
+01:05:07.079 --> 01:05:11.799
+inferiore a un quarto d'onda. Altra cosa
+
+1263
+01:05:08.920 --> 01:05:14.480
+che vi volevo far notare che oltre
+
+1264
+01:05:11.799 --> 01:05:17.520
+all'effetto delle, diciamo, legato alla
+
+1265
+01:05:14.480 --> 01:05:18.920
+perdita, c'è anche un effetto in
+
+1266
+01:05:17.520 --> 01:05:22.240
+particolare sull'antenna a
+
+1267
+01:05:18.920 --> 01:05:25.160
+polarizzazione orizzontale sul valore
+
+1268
+01:05:22.240 --> 01:05:28.200
+della resistenza di radiazione, nel
+
+1269
+01:05:25.160 --> 01:05:31.599
+senso che la resistenza di di radiazione
+
+1270
+01:05:28.200 --> 01:05:35.680
+di un dipolo che nominalmente
+
+1271
+01:05:31.599 --> 01:05:38.960
+è 72 ohm, valore che tra l'altro è
+
+1272
+01:05:35.680 --> 01:05:41.920
+riferito al caso di un dip polo posto ad
+
+1273
+01:05:38.960 --> 01:05:44.359
+un quarto d'onda da terra. Come vedete
+
+1274
+01:05:41.920 --> 01:05:47.079
+questo valore aumenta
+
+1275
+01:05:44.359 --> 01:05:48.880
+per un po' se io mi alzo per poi
+
+1276
+01:05:47.079 --> 01:05:52.480
+ridiminuire, per poi riaumentare,
+
+1277
+01:05:48.880 --> 01:05:57.920
+eccetera, man mano che mi alzo, ma se mi
+
+1278
+01:05:52.480 --> 01:05:59.760
+abbasso tende ad andare a zero.
+
+1279
+01:05:57.920 --> 01:06:02.880
+In realtà qui vedete una linea
+
+1280
+01:05:59.760 --> 01:06:05.119
+tratteggiata, quello che voi vedete se
+
+1281
+01:06:02.880 --> 01:06:08.240
+misurate l'impedenza di un dipolo man
+
+1282
+01:06:05.119 --> 01:06:10.799
+mano che si abbassa che a un certo punto
+
+1283
+01:06:08.240 --> 01:06:13.799
+il valore invece in realtà aumenta.
+
+1284
+01:06:10.799 --> 01:06:16.319
+Questo perché quello che misurate è la
+
+1285
+01:06:13.799 --> 01:06:18.599
+resistenza del terreno. Perché io vi ho
+
+1286
+01:06:16.319 --> 01:06:21.319
+detto, voi quando misurate vedete la
+
+1287
+01:06:18.599 --> 01:06:24.160
+resistenza di radiazione con in serie la
+
+1288
+01:06:21.319 --> 01:06:27.279
+resistenza di perdita. la resistenza di
+
+1289
+01:06:24.160 --> 01:06:30.119
+radiazione va a zero, la resistenza di
+
+1290
+01:06:27.279 --> 01:06:31.839
+perdita aumenta e quindi voi quello che
+
+1291
+01:06:30.119 --> 01:06:35.599
+misurate
+
+1292
+01:06:31.839 --> 01:06:38.839
+al di sotto di mezzo di un quarto eh
+
+1293
+01:06:35.599 --> 01:06:42.000
+d'onda, quello che misurate non è più la
+
+1294
+01:06:38.839 --> 01:06:45.359
+resistenza di radiazione, ma è la somma
+
+1295
+01:06:42.000 --> 01:06:49.039
+delle due e quando siete molto bassi è
+
+1296
+01:06:45.359 --> 01:06:52.640
+soltanto la resistenza di perdita.
+
+1297
+01:06:49.039 --> 01:06:52.640
+Quindi attenzione.
+
+1298
+01:06:53.559 --> 01:06:59.680
+Ecco qui questa slide è rappresentato le
+
+1299
+01:06:57.440 --> 01:07:02.440
+varie casistiche che vi dicevo prima nel
+
+1300
+01:06:59.680 --> 01:07:07.240
+caso di un'antenna verticale, se fosse
+
+1301
+01:07:02.440 --> 01:07:10.599
+priva di eh radiali, come si richiude la
+
+1302
+01:07:07.240 --> 01:07:14.160
+corrente e come può richiudersi
+
+1303
+01:07:10.599 --> 01:07:18.160
+e ad esempio verso il cavo, verso la
+
+1304
+01:07:14.160 --> 01:07:21.160
+calza esterna del cavo se non c'è un un
+
+1305
+01:07:18.160 --> 01:07:25.839
+dispositivo di
+
+1306
+01:07:21.160 --> 01:07:29.599
+di blocco come il ballon di corrente.
+
+1307
+01:07:25.839 --> 01:07:31.279
+Quindi abbiamo definito prima
+
+1308
+01:07:29.599 --> 01:07:34.119
+l'efficienza
+
+1309
+01:07:31.279 --> 01:07:36.760
+dell'antenna come il rapporto fra la
+
+1310
+01:07:34.119 --> 01:07:39.480
+potenza effettivamente irradiata e la
+
+1311
+01:07:36.760 --> 01:07:42.079
+potenza generata dal trasmettitore.
+
+1312
+01:07:39.480 --> 01:07:44.760
+Facendo due conti, noi possiamo
+
+1313
+01:07:42.079 --> 01:07:48.160
+dimostrare che questo valore
+
+1314
+01:07:44.760 --> 01:07:51.680
+sostanzialmente è dato dal rapporto fra
+
+1315
+01:07:48.160 --> 01:07:54.520
+la resistenza di radiazione e la somma
+
+1316
+01:07:51.680 --> 01:07:57.680
+tra la resistenza di radiazione e la
+
+1317
+01:07:54.520 --> 01:08:01.240
+resistenza di perdita. Questa formuletta
+
+1318
+01:07:57.680 --> 01:08:05.960
+ci dice una cosa molto interessante.
+
+1319
+01:08:01.240 --> 01:08:08.599
+Ci dice che a parità di perdite,
+
+1320
+01:08:05.960 --> 01:08:11.760
+tanto minore è la resistenza di
+
+1321
+01:08:08.599 --> 01:08:15.200
+radiazione, tanto minore sarà
+
+1322
+01:08:11.760 --> 01:08:17.839
+l'efficienza di radiazione.
+
+1323
+01:08:15.200 --> 01:08:20.040
+Pare quindi evidente.
+
+1324
+01:08:17.839 --> 01:08:23.799
+Io vi avevo detto l'altra volta, vi
+
+1325
+01:08:20.040 --> 01:08:27.359
+ricordate un'antenna caricata, se è
+
+1326
+01:08:23.799 --> 01:08:30.199
+particolarmente corta, ha un'efficienza
+
+1327
+01:08:27.359 --> 01:08:32.679
+molto bassa. Perché? Perché abbiamo
+
+1328
+01:08:30.199 --> 01:08:36.480
+detto che un'antenna
+
+1329
+01:08:32.679 --> 01:08:39.640
+eh corta ha un'efficienza di radiazione,
+
+1330
+01:08:36.480 --> 01:08:43.560
+ma scusate, una resistenza di radiazione
+
+1331
+01:08:39.640 --> 01:08:46.640
+molto bassa e quindi a parità di
+
+1332
+01:08:43.560 --> 01:08:50.159
+condizioni di installazione un'antenna
+
+1333
+01:08:46.640 --> 01:08:53.199
+caricata avrà per definizione un
+
+1334
+01:08:50.159 --> 01:08:57.679
+rendimento minore. E vi ho detto anche,
+
+1335
+01:08:53.199 --> 01:09:02.560
+e qui lo si può dimostrare, che antenne
+
+1336
+01:08:57.679 --> 01:09:05.040
+che hanno una lunghezza minore di 1 deo
+
+1337
+01:09:02.560 --> 01:09:08.199
+della lunghezza d'onda
+
+1338
+01:09:05.040 --> 01:09:14.960
+avranno resistenze di radiazione
+
+1339
+01:09:08.199 --> 01:09:18.040
+così basse da avere di fatto efficienze
+
+1340
+01:09:14.960 --> 01:09:23.440
+ridicole proprio per questo meccanismo,
+
+1341
+01:09:18.040 --> 01:09:26.120
+perché a parità di condizioni di perdita
+
+1342
+01:09:23.440 --> 01:09:27.759
+e quindi a parità di installazione.
+
+1343
+01:09:26.120 --> 01:09:30.120
+Sostanzialmente
+
+1344
+01:09:27.759 --> 01:09:32.839
+se la resistenza di radiazione è molto
+
+1345
+01:09:30.120 --> 01:09:35.040
+bassa, questo rapporto diventa piccolo,
+
+1346
+01:09:32.839 --> 01:09:37.159
+quindi l'efficienza
+
+1347
+01:09:35.040 --> 01:09:39.239
+diventa piccola.
+
+1348
+01:09:37.159 --> 01:09:43.040
+Bene, siccome mi rendo conto che questi
+
+1349
+01:09:39.239 --> 01:09:45.239
+discorsi possono in qualche modo creare
+
+1350
+01:09:43.040 --> 01:09:50.239
+qualche perplessità,
+
+1351
+01:09:45.239 --> 01:09:53.359
+eh provo a chiarirveli chiarirli meglio
+
+1352
+01:09:50.239 --> 01:09:55.920
+facendo alcuni esempi pratici. Ed in
+
+1353
+01:09:53.359 --> 01:09:58.480
+particolare io qui ho riportato tre
+
+1354
+01:09:55.920 --> 01:10:01.719
+esempi. Dico proviamo a calcolare
+
+1355
+01:09:58.480 --> 01:10:05.440
+l'efficienza di radiazione e e altri
+
+1356
+01:10:01.719 --> 01:10:09.640
+parametri in tre casi. Primo caso è un
+
+1357
+01:10:05.440 --> 01:10:12.679
+dipolo orizzontale per i 7 MHz posto a
+
+1358
+01:10:09.640 --> 01:10:15.239
+10 m da terra, una situazione abbastanza
+
+1359
+01:10:12.679 --> 01:10:17.840
+comune. Quindi a 1/4 di lunghezza
+
+1360
+01:10:15.239 --> 01:10:21.080
+d'onda, la lunghezza d'onda è 40 m, a
+
+1361
+01:10:17.840 --> 01:10:24.159
+1/4 di lunghezza d'onda da terra,
+
+1362
+01:10:21.080 --> 01:10:26.920
+realizzato con un conduttore di 1,5 su
+
+1363
+01:10:24.159 --> 01:10:30.120
+un terreno di caratteristiche medie.
+
+1364
+01:10:26.920 --> 01:10:33.159
+Secondo caso sempre un dipolo
+
+1365
+01:10:30.120 --> 01:10:38.239
+orizzontale, ma in questo caso per gli
+
+1366
+01:10:33.159 --> 01:10:41.679
+80 m, 3,5 MHz, posto sempre a 10 m, però
+
+1367
+01:10:38.239 --> 01:10:45.040
+in questo caso i 10 m,
+
+1368
+01:10:41.679 --> 01:10:48.320
+nel caso degli 80 m sono 1/8 di
+
+1369
+01:10:45.040 --> 01:10:52.239
+lunghezza d'onda da terra.
+
+1370
+01:10:48.320 --> 01:10:56.080
+Sempre conduttore di 1,5, sempre terreno
+
+1371
+01:10:52.239 --> 01:10:58.360
+di caratteristiche medie. E terzo caso,
+
+1372
+01:10:56.080 --> 01:11:00.199
+una verticale
+
+1373
+01:10:58.360 --> 01:11:02.840
+caricata in testa, vi ricordate il
+
+1374
+01:11:00.199 --> 01:11:07.280
+cappello capacitivo, quindi oltretutto
+
+1375
+01:11:02.840 --> 01:11:09.560
+la soluzione migliore tra le varie
+
+1376
+01:11:07.280 --> 01:11:12.800
+soluzioni di antenna caricata, perché
+
+1377
+01:11:09.560 --> 01:11:14.360
+quelle con la bobina alla base si
+
+1378
+01:11:12.800 --> 01:11:18.400
+comportano anche peggio. Quindi
+
+1379
+01:11:14.360 --> 01:11:21.920
+verticale caricata in testa, lunghezza
+
+1380
+01:11:18.400 --> 01:11:26.840
+untavo d'onda posta a terra
+
+1381
+01:11:21.920 --> 01:11:29.440
+e dotata di 16 radiali interrati
+
+1382
+01:11:26.840 --> 01:11:32.600
+lunghi anche questi 1/8 di lunghezza
+
+1383
+01:11:29.440 --> 01:11:37.280
+d'onda. Ecco, allora andiamo a vedere
+
+1384
+01:11:32.600 --> 01:11:40.239
+che cosa succede. Primo caso, di polo a
+
+1385
+01:11:37.280 --> 01:11:42.920
+un quarto d'onda da terra. Andiamo a
+
+1386
+01:11:40.239 --> 01:11:47.800
+vedere il il grafico. Ci dice che ha una
+
+1387
+01:11:42.920 --> 01:11:51.480
+resistenza di radiazione di 85 ohm.
+
+1388
+01:11:47.800 --> 01:11:53.800
+Secondo caso è a 1/8
+
+1389
+01:11:51.480 --> 01:11:58.600
+di lunghezza d'onda. La resistenza di
+
+1390
+01:11:53.800 --> 01:12:01.000
+radiazione è molto più bassa, 45 ohm.
+
+1391
+01:11:58.600 --> 01:12:03.639
+Vi ricordate? Questo era il grafico che
+
+1392
+01:12:01.000 --> 01:12:07.120
+vi ho fatto vedere prima di come va la
+
+1393
+01:12:03.639 --> 01:12:11.159
+l'imped la resistenza di radiazione.
+
+1394
+01:12:07.120 --> 01:12:14.440
+Terzo caso, antenna caricata,
+
+1395
+01:12:11.159 --> 01:12:19.239
+top loaded, cioè cappello capacitivo,
+
+1396
+01:12:14.440 --> 01:12:22.199
+lunghezza 0125, cioè un d'onda,
+
+1397
+01:12:19.239 --> 01:12:23.679
+resistenza di radiazione 20 ohm. Quindi
+
+1398
+01:12:22.199 --> 01:12:27.040
+questi sono i tre valori della
+
+1399
+01:12:23.679 --> 01:12:29.360
+resistenza di radiazione di queste tre
+
+1400
+01:12:27.040 --> 01:12:31.280
+antenne.
+
+1401
+01:12:29.360 --> 01:12:33.800
+Vediamo le resistenze di perdita.
+
+1402
+01:12:31.280 --> 01:12:36.199
+Allora, resistenze di perdita,
+
+1403
+01:12:33.800 --> 01:12:39.639
+come abbiamo detto, sono date dalla
+
+1404
+01:12:36.199 --> 01:12:42.560
+somma della resistenza del conduttore e
+
+1405
+01:12:39.639 --> 01:12:45.320
+della perdita nel terreno. Nel primo
+
+1406
+01:12:42.560 --> 01:12:49.120
+caso, la tabellina che vi ho fatto
+
+1407
+01:12:45.320 --> 01:12:52.560
+vedere prima ci dice di polo dei 7 MHz,
+
+1408
+01:12:49.120 --> 01:12:54.639
+diametro del conduttore 1,5,
+
+1409
+01:12:52.560 --> 01:12:58.960
+circa 3 ohm.
+
+1410
+01:12:54.639 --> 01:13:02.000
+ne aggiungiamo grosso modo uno per la
+
+1411
+01:12:58.960 --> 01:13:04.880
+perdita nel terreno, perché ad un quarto
+
+1412
+01:13:02.000 --> 01:13:08.000
+d'onda le perdite nel terreno sono
+
+1413
+01:13:04.880 --> 01:13:09.960
+pressoché trascurabili, quindi stimiamo
+
+1414
+01:13:08.000 --> 01:13:13.639
+una resistenza
+
+1415
+01:13:09.960 --> 01:13:18.120
+complessiva di perdita di 4 ohm. Secondo
+
+1416
+01:13:13.639 --> 01:13:21.159
+caso di polo degli 80,
+
+1417
+01:13:18.120 --> 01:13:24.280
+resistenza circa 4 ohm, però qui
+
+1418
+01:13:21.159 --> 01:13:28.960
+dobbiamo considerare una resistenza di
+
+1419
+01:13:24.280 --> 01:13:32.440
+perdita maggiore. Lo vediamo qui,
+
+1420
+01:13:28.960 --> 01:13:34.280
+eh, perché questo sta ad un ottavo
+
+1421
+01:13:32.440 --> 01:13:37.440
+invece di lunghezza d'onda da terra,
+
+1422
+01:13:34.280 --> 01:13:40.320
+quindi è più basso e pur essendo sempre
+
+1423
+01:13:37.440 --> 01:13:45.000
+a 10 m, ma in relazione alla lunghezza
+
+1424
+01:13:40.320 --> 01:13:48.080
+d'onda è unta stavolta e quindi stimiamo
+
+1425
+01:13:45.000 --> 01:13:52.159
+una resistenza di perdita di circa 7
+
+1426
+01:13:48.080 --> 01:13:54.880
+ohm. Terzo caso, la verticale
+
+1427
+01:13:52.159 --> 01:13:58.639
+con 16 radiali.
+
+1428
+01:13:54.880 --> 01:14:02.440
+Eh, qua eh diciamo il dato è è preso da
+
+1429
+01:13:58.639 --> 01:14:05.320
+un testo che poi vi citerò più avanti,
+
+1430
+01:14:02.440 --> 01:14:08.000
+abbastanza attendibile. Ci dice che un
+
+1431
+01:14:05.320 --> 01:14:10.360
+sistema di radiali interrati
+
+1432
+01:14:08.000 --> 01:14:16.360
+più o meno di queste caratteristiche,
+
+1433
+01:14:10.360 --> 01:14:19.760
+cioè qui parla di 15 radiali lunghi 0
+
+1434
+01:14:16.360 --> 01:14:23.440
+15. Nel nostro caso sono, io ho detto
+
+1435
+01:14:19.760 --> 01:14:25.679
+1/8, quindi sarebbe 0125, ma insomma
+
+1436
+01:14:23.440 --> 01:14:27.960
+possiamo stimare che il valore sia
+
+1437
+01:14:25.679 --> 01:14:31.480
+approssimativamente lo stesso. La
+
+1438
+01:14:27.960 --> 01:14:33.239
+resistenza di terra è circa 15 ohm,
+
+1439
+01:14:31.480 --> 01:14:35.840
+quindi
+
+1440
+01:14:33.239 --> 01:14:38.560
+praticamente
+
+1441
+01:14:35.840 --> 01:14:41.639
+eh considerato che nel nostro caso i
+
+1442
+01:14:38.560 --> 01:14:43.840
+radiali sono un pochino più corti, io ho
+
+1443
+01:14:41.639 --> 01:14:47.440
+stimato la resistenza
+
+1444
+01:14:43.840 --> 01:14:49.320
+intorno ai 18 ohm. Se facciamo la somma,
+
+1445
+01:14:47.440 --> 01:14:52.159
+noi vediamo che nel punto di
+
+1446
+01:14:49.320 --> 01:14:56.280
+alimentazione
+
+1447
+01:14:52.159 --> 01:15:01.679
+il nei tre casi ho 89 ohm nel primo
+
+1448
+01:14:56.280 --> 01:15:04.080
+caso, 52 ohm nel secondo, 38 nel terzo.
+
+1449
+01:15:01.679 --> 01:15:07.679
+Con questi valori io posso calcolarmi
+
+1450
+01:15:04.080 --> 01:15:09.239
+sia il Ross che vedo nel punto di
+
+1451
+01:15:07.679 --> 01:15:11.880
+alimentazione
+
+1452
+01:15:09.239 --> 01:15:14.840
+sia il rendimento dell'antenna.
+
+1453
+01:15:11.880 --> 01:15:18.040
+E se andate a vedere, nel primo caso io
+
+1454
+01:15:14.840 --> 01:15:19.920
+avrò un ROST di quasi 1,8, quindi non
+
+1455
+01:15:18.040 --> 01:15:22.880
+bassissimo,
+
+1456
+01:15:19.920 --> 01:15:26.120
+perché la
+
+1457
+01:15:22.880 --> 01:15:29.159
+l'impedenza che vediamo è circa 90 ohm,
+
+1458
+01:15:26.120 --> 01:15:32.560
+ma il rendimento è del 95%,
+
+1459
+01:15:29.159 --> 01:15:37.760
+per cui ho comunque una perdita
+
+1460
+01:15:32.560 --> 01:15:41.159
+abbastanza bassa, nel senso eh ho 5% di
+
+1461
+01:15:37.760 --> 01:15:43.920
+potenza persa. Nel secondo caso, io ho
+
+1462
+01:15:41.159 --> 01:15:49.679
+un valore di Rolls nettamente migliore,
+
+1463
+01:15:43.920 --> 01:15:52.639
+140, quasi perfetto, però il
+
+1464
+01:15:49.679 --> 01:15:55.520
+l'efficienza di radiazione è minore,
+
+1465
+01:15:52.639 --> 01:16:00.840
+86%, questo vuol dire che io perdo il
+
+1466
+01:15:55.520 --> 01:16:03.600
+14% di potenza in perdite.
+
+1467
+01:16:00.840 --> 01:16:07.760
+Terzo caso, anche in questo terzo caso
+
+1468
+01:16:03.600 --> 01:16:10.480
+il Ross non è elevato 1,31,
+
+1469
+01:16:07.760 --> 01:16:13.159
+ma l'efficienza di radiazione è
+
+1470
+01:16:10.480 --> 01:16:16.719
+addirittura il 52%.
+
+1471
+01:16:13.159 --> 01:16:20.639
+Quindi in questo terzo caso
+
+1472
+01:16:16.719 --> 01:16:24.440
+io perdo metà della potenza generata dal
+
+1473
+01:16:20.639 --> 01:16:27.280
+trasmettitore in perdite.
+
+1474
+01:16:24.440 --> 01:16:30.639
+Cosa ci dice di interessante questo
+
+1475
+01:16:27.280 --> 01:16:32.159
+esempio? intanto che l'efficienza di
+
+1476
+01:16:30.639 --> 01:16:34.120
+radiazione può cambiare
+
+1477
+01:16:32.159 --> 01:16:37.120
+significativamente a seconda delle
+
+1478
+01:16:34.120 --> 01:16:39.480
+condizioni, ma ci dice un'altra cosa
+
+1479
+01:16:37.120 --> 01:16:43.600
+interessante che spesso non viene
+
+1480
+01:16:39.480 --> 01:16:47.280
+considerata, che il valore di Ross che
+
+1481
+01:16:43.600 --> 01:16:49.159
+noi andiamo a misurare ci dice sì se
+
+1482
+01:16:47.280 --> 01:16:52.719
+l'antenna è adattata, quindi se il
+
+1483
+01:16:49.159 --> 01:16:55.760
+nostro trasmettitore sta tranquillo, se
+
+1484
+01:16:52.719 --> 01:16:58.840
+non ci sono non c'è potenza riflessa,
+
+1485
+01:16:55.760 --> 01:17:01.199
+che diciamo non c' non c'è stress, per
+
+1486
+01:16:58.840 --> 01:17:04.120
+così dire, né dal punto di vista del
+
+1487
+01:17:01.199 --> 01:17:08.560
+trasmettitore né della linea, ma non ci
+
+1488
+01:17:04.120 --> 01:17:11.840
+dà nessuna informazione utile e
+
+1489
+01:17:08.560 --> 01:17:15.080
+attendibile per sapere quanta energia
+
+1490
+01:17:11.840 --> 01:17:18.080
+effettivamente viene irradiata sotto
+
+1491
+01:17:15.080 --> 01:17:21.639
+forma di campo elettromagnetico.
+
+1492
+01:17:18.080 --> 01:17:24.800
+Infatti dico, prima vi avevo accennato
+
+1493
+01:17:21.639 --> 01:17:29.280
+ad un testo che nel nostro ambiente è
+
+1494
+01:17:24.800 --> 01:17:33.440
+considerata quasi una Bibbia, il Love
+
+1495
+01:17:29.280 --> 01:17:35.400
+Bud exing di scritto dal compianto
+
+1496
+01:17:33.440 --> 01:17:37.760
+perché è scomparso da poco John
+
+1497
+01:17:35.400 --> 01:17:40.480
+Devoldero N4
+
+1498
+01:17:37.760 --> 01:17:44.920
+che a un certo punto in questo libro
+
+1499
+01:17:40.480 --> 01:17:47.840
+dice un basso valore di SWVR
+
+1500
+01:17:44.920 --> 01:17:51.600
+qua non è indicazione.
+
+1501
+01:17:47.840 --> 01:17:54.600
+di una di una buona performance
+
+1502
+01:17:51.600 --> 01:17:56.840
+dell'antenna.
+
+1503
+01:17:54.600 --> 01:17:59.719
+Infatti, diceva lui, l'antenna con il
+
+1504
+01:17:56.840 --> 01:18:03.920
+miglior valore di SWR
+
+1505
+01:17:59.719 --> 01:18:05.880
+è un buon carico fittizzio. E al di là
+
+1506
+01:18:03.920 --> 01:18:08.639
+della provocazione questo è vero, perché
+
+1507
+01:18:05.880 --> 01:18:10.159
+se voi attaccate il trasmettitore ad un
+
+1508
+01:18:08.639 --> 01:18:12.520
+carico fittizio, quella che si chiama
+
+1509
+01:18:10.159 --> 01:18:14.880
+un'antenna artificiale,
+
+1510
+01:18:12.520 --> 01:18:18.199
+eh il Ross è zero, l'adattamento è
+
+1511
+01:18:14.880 --> 01:18:20.280
+perfetto, ma non vi sente nessuno.
+
+1512
+01:18:18.199 --> 01:18:23.440
+Quindi attenzione perché misurare il
+
+1513
+01:18:20.280 --> 01:18:26.159
+ross dell'antenna serve a stabilire se
+
+1514
+01:18:23.440 --> 01:18:29.320
+io sono in condizioni di buon
+
+1515
+01:18:26.159 --> 01:18:31.280
+adattamento e eh non ho onde
+
+1516
+01:18:29.320 --> 01:18:35.679
+stazionarie, quindi il trasmettitore non
+
+1517
+01:18:31.280 --> 01:18:38.560
+soffre, ma non ho nessuna certezza di
+
+1518
+01:18:35.679 --> 01:18:40.920
+quanta energia sto effettivamente
+
+1519
+01:18:38.560 --> 01:18:46.600
+irradiando. Quindi questa è un'altra
+
+1520
+01:18:40.920 --> 01:18:46.600
+cosa che spesso viene è sottovalutata.
+
+1521
+01:18:46.800 --> 01:18:52.360
+Ecco, siamo arrivati praticamente alla
+
+1522
+01:18:48.600 --> 01:18:56.040
+fine, ci sono rimaste due o tre slide su
+
+1523
+01:18:52.360 --> 01:18:58.840
+le misure, quindi eh so a questo punto
+
+1524
+01:18:56.040 --> 01:19:01.880
+se vogliamo concludere oppure se ci sono
+
+1525
+01:18:58.840 --> 01:19:04.320
+dubbi su quello che abbiamo visto fino
+
+1526
+01:19:01.880 --> 01:19:06.560
+adesso,
+
+1527
+01:19:04.320 --> 01:19:09.719
+altrimenti
+
+1528
+01:19:06.560 --> 01:19:12.679
+chiudiamo e rimandiamo
+
+1529
+01:19:09.719 --> 01:19:15.920
+le domande al termine. Comunque, se ci
+
+1530
+01:19:12.679 --> 01:19:15.920
+sono dubbi,
+
+1531
+01:19:19.840 --> 01:19:23.960
+una prima domanda da Francesco.
+
+1532
+01:19:24.360 --> 01:19:27.679
+>> Dimmi. Francesco.
+
+1533
+01:19:29.120 --> 01:19:35.960
+>> Francesco. Francesco, mi sa che hai
+
+1534
+01:19:32.360 --> 01:19:35.960
+problemi di audio.
+
+1535
+01:19:36.440 --> 01:19:39.679
+Non ti ascoltiamo.
+
+1536
+01:19:42.800 --> 01:19:48.400
+Francesco, mi dispiace, non non sei
+
+1537
+01:19:46.000 --> 01:19:50.560
+comprensibile.
+
+1538
+01:19:48.400 --> 01:19:53.000
+Prova a vedere un attimo se risolvi i
+
+1539
+01:19:50.560 --> 01:19:55.120
+problemi, altrimenti l'altra soluzione
+
+1540
+01:19:53.000 --> 01:19:58.920
+potrebbe essere scrivi sul gruppo
+
+1541
+01:19:55.120 --> 01:20:01.920
+Telegram e io leggerò la tua domanda a
+
+1542
+01:19:58.920 --> 01:20:01.920
+Paolo.
+
+1543
+01:20:02.280 --> 01:20:05.120
+Provo. Mi sentite ora?
+
+1544
+01:20:04.560 --> 01:20:05.880
+>> Adesso sì,
+
+1545
+01:20:05.120 --> 01:20:08.600
+>> adesso sì.
+
+1546
+01:20:05.880 --> 01:20:11.600
+>> Eh sì, perché non avevo le cuffie. Ok.
+
+1547
+01:20:08.600 --> 01:20:13.560
+No, scusate, tornando due slide dietro,
+
+1548
+01:20:11.600 --> 01:20:16.600
+volevo capire, ma con i dati che noi
+
+1549
+01:20:13.560 --> 01:20:19.560
+abbiamo della resistenza noi com'è la
+
+1550
+01:20:16.600 --> 01:20:21.320
+formula per calcolare anche il Ross?
+
+1551
+01:20:19.560 --> 01:20:22.880
+Cioè, si può calcolare con questi dati
+
+1552
+01:20:21.320 --> 01:20:25.120
+qua? Eh, sì, però non si riesce a
+
+1553
+01:20:22.880 --> 01:20:29.719
+calcolare con questi dati qua o sì?
+
+1554
+01:20:25.120 --> 01:20:32.520
+>> Sì, eccola qua. Eh, allora, a seconda la
+
+1555
+01:20:29.719 --> 01:20:34.400
+formula è questa e tra l'altro c'è anche
+
+1556
+01:20:32.520 --> 01:20:36.000
+nelle slide delle linee.
+
+1557
+01:20:34.400 --> 01:20:39.520
+>> No, no, infatti questo me la ricordo la
+
+1558
+01:20:36.000 --> 01:20:42.400
+la formula. Esatto. E il Ross è
+
+1559
+01:20:39.520 --> 01:20:44.679
+semplicemente il rapporto tra la Z0 che
+
+1560
+01:20:42.400 --> 01:20:47.480
+è l'impedenza della linea, quindi i
+
+1561
+01:20:44.679 --> 01:20:50.800
+nostri 50 ohm tipicamente del cavo.
+
+1562
+01:20:47.480 --> 01:20:53.600
+>> Ah, ok. La ZL, ok? e e la ZL questa che
+
+1563
+01:20:50.800 --> 01:20:55.639
+sarebbe la RL che è la somma della
+
+1564
+01:20:53.600 --> 01:20:58.520
+resistenza di radiazione
+
+1565
+01:20:55.639 --> 01:21:02.920
+>> oppure il rovescio. Questo dipende solo
+
+1566
+01:20:58.520 --> 01:21:06.520
+se la eh il carico è ha un'impudenza
+
+1567
+01:21:02.920 --> 01:21:07.960
+maggiore o minore del
+
+1568
+01:21:06.520 --> 01:21:09.679
+>> di quella caratteristica
+
+1569
+01:21:07.960 --> 01:21:12.280
+>> dell'impedenza caratteristica. Questo
+
+1570
+01:21:09.679 --> 01:21:16.080
+perché ovviamente siccome il valore
+
+1571
+01:21:12.280 --> 01:21:19.679
+minimo di Ross è uno, se l'impedenza
+
+1572
+01:21:16.080 --> 01:21:23.320
+fosse come dire eh
+
+1573
+01:21:19.679 --> 01:21:26.280
+minore questa questo rapporto sarebbe
+
+1574
+01:21:23.320 --> 01:21:28.360
+minore di 1. Quindi sostanzialmente
+
+1575
+01:21:26.280 --> 01:21:31.159
+si divide in due parti la formula.
+
+1576
+01:21:28.360 --> 01:21:33.560
+Quindi dovete vedere se infatti
+
+1577
+01:21:31.159 --> 01:21:39.960
+nell'esempio lo vediamo bene qui nei
+
+1578
+01:21:33.560 --> 01:21:44.880
+primi due casi si applica la seconda
+
+1579
+01:21:39.960 --> 01:21:49.199
+perché RL 89 è mag
+
+1580
+01:21:44.880 --> 01:21:54.040
+52 mag> 50. Nel terzo caso si applica
+
+1581
+01:21:49.199 --> 01:22:00.040
+l'inverso perché 38 è di 50, ma se fate
+
+1582
+01:21:54.040 --> 01:22:02.920
+89 diviso eh 50 o 52, ora non mi ricordo
+
+1583
+01:22:00.040 --> 01:22:06.000
+che valore ho usato come Z0, vi viene
+
+1584
+01:22:02.920 --> 01:22:09.639
+fuori giusto 1,78,
+
+1585
+01:22:06.000 --> 01:22:14.480
+così come se facciamo 38,
+
+1586
+01:22:09.639 --> 01:22:17.760
+eh, cioè, scusate, 50 / 38 dovrebbe
+
+1587
+01:22:14.480 --> 01:22:20.960
+venir fuori un 21. Quindi questa è la
+
+1588
+01:22:17.760 --> 01:22:23.280
+formula per il calcolo del Ross, quindi
+
+1589
+01:22:20.960 --> 01:22:24.440
+e questa è quella per il calcolo del
+
+1590
+01:22:23.280 --> 01:22:26.560
+rendimento.
+
+1591
+01:22:24.440 --> 01:22:27.440
+>> Sì, sì, sì, perfetto, grazie mille.
+
+1592
+01:22:26.560 --> 01:22:31.159
+>> Chiaro.
+
+1593
+01:22:27.440 --> 01:22:33.560
+>> Sì, sì, adesso sì, grazie.
+
+1594
+01:22:31.159 --> 01:22:34.600
+>> Abbiamo anche Giovanni.
+
+1595
+01:22:33.560 --> 01:22:38.040
+>> Sì,
+
+1596
+01:22:34.600 --> 01:22:40.719
+>> sì. E grazie Paolo. Una domanda.
+
+1597
+01:22:38.040 --> 01:22:42.560
+Esistono possibilità di avere domande in
+
+1598
+01:22:40.719 --> 01:22:46.159
+fase di test dove ci chiedono di
+
+1599
+01:22:42.560 --> 01:22:46.159
+calcolare il Ross?
+
+1600
+01:22:48.320 --> 01:22:55.199
+Non mi pare di ricordare qualche ci
+
+1601
+01:22:51.199 --> 01:22:58.120
+siano domande di di questo tipo. Mi
+
+1602
+01:22:55.199 --> 01:23:00.880
+sembra di no. Ora magari provo a dare
+
+1603
+01:22:58.120 --> 01:23:04.280
+un'occhiata qualche
+
+1604
+01:23:00.880 --> 01:23:07.159
+in archivio un po' di di di
+
+1605
+01:23:04.280 --> 01:23:10.920
+dati sulle domande che sono state
+
+1606
+01:23:07.159 --> 01:23:14.320
+formulate in passato. Mi sembrerebbe di
+
+1607
+01:23:10.920 --> 01:23:16.960
+no, però eh non sono del tutto sicuro.
+
+1608
+01:23:14.320 --> 01:23:20.360
+Magari questo lo verifico. In ogni caso,
+
+1609
+01:23:16.960 --> 01:23:24.080
+però, ripeto, applicando questa
+
+1610
+01:23:20.360 --> 01:23:27.920
+formuletta è abbastanza semplice perché
+
+1611
+01:23:24.080 --> 01:23:30.400
+se se vi fosse chiesta una cosa del
+
+1612
+01:23:27.920 --> 01:23:34.040
+genere, mi immagino non possono che
+
+1613
+01:23:30.400 --> 01:23:36.600
+dirvi sostanzialmente che valore di Ross
+
+1614
+01:23:34.040 --> 01:23:39.000
+può presentare un'antenna,
+
+1615
+01:23:36.600 --> 01:23:42.520
+per dire, che ha un'impedenza di 100
+
+1616
+01:23:39.000 --> 01:23:44.600
+ohm, alimentata, una linea a 50 ohm. E
+
+1617
+01:23:42.520 --> 01:23:47.239
+il calcolo è comunque banale, il ross è
+
+1618
+01:23:44.600 --> 01:23:50.400
+due,
+
+1619
+01:23:47.239 --> 01:23:52.400
+quindi non mi sembra che ci siano mai
+
+1620
+01:23:50.400 --> 01:23:56.280
+state domande
+
+1621
+01:23:52.400 --> 01:23:56.280
+secche in questo senso
+
+1622
+01:23:57.960 --> 01:24:02.960
+che che mi ricordi, però magari lo lo
+
+1623
+01:24:00.400 --> 01:24:05.440
+verifico
+
+1624
+01:24:02.960 --> 01:24:09.600
+eventualmente per la prossima volta
+
+1625
+01:24:05.440 --> 01:24:12.679
+quando faremo la correzione dei quiz
+
+1626
+01:24:09.600 --> 01:24:16.040
+ve lo dico. In ogni caso, ripeto, tenete
+
+1627
+01:24:12.679 --> 01:24:18.960
+conto di queste formuline abbastanza
+
+1628
+01:24:16.040 --> 01:24:23.280
+semplici, poi, diciamo, nell'uso
+
+1629
+01:24:18.960 --> 01:24:27.840
+corrente vi verrà abbastanza semplice il
+
+1630
+01:24:23.280 --> 01:24:31.800
+fatto, anzi, diciamo, spesso si usa il
+
+1631
+01:24:27.840 --> 01:24:33.199
+rovescio, cioè misuro il Ross e una
+
+1632
+01:24:31.800 --> 01:24:36.199
+volta misurato il Ross io
+
+1633
+01:24:33.199 --> 01:24:36.199
+automaticamente
+
+1634
+01:24:36.440 --> 01:24:41.159
+riesco ad avere un'idea di qual è
+
+1635
+01:24:38.360 --> 01:24:44.440
+l'effettiva impedenza dell'antenna.
+
+1636
+01:24:41.159 --> 01:24:45.920
+Il problema è che avrò il dubbio
+
+1637
+01:24:44.440 --> 01:24:48.719
+perché è chiaro che se applico la
+
+1638
+01:24:45.920 --> 01:24:52.760
+formula alla rovescia in cui l'incognita
+
+1639
+01:24:48.719 --> 01:24:55.440
+è la ZL io non so a priori se è maggiore
+
+1640
+01:24:52.760 --> 01:24:59.280
+o minore. Quindi se io ho un Ross di
+
+1641
+01:24:55.440 --> 01:25:02.159
+due, so per certo una cosa che l'antenna
+
+1642
+01:24:59.280 --> 01:25:04.719
+o ha un'impedenza di 25 ohm o
+
+1643
+01:25:02.159 --> 01:25:06.239
+un'impedenza di 100 ohm. Perché i due
+
+1644
+01:25:04.719 --> 01:25:08.920
+valori,
+
+1645
+01:25:06.239 --> 01:25:12.400
+quello maggiore e quello minore che mi
+
+1646
+01:25:08.920 --> 01:25:16.440
+danno un ross di due sono 100 in un
+
+1647
+01:25:12.400 --> 01:25:19.080
+caso, 25 nell'altro.
+
+1648
+01:25:16.440 --> 01:25:24.119
+però diciamo è un calcolo abbastanza
+
+1649
+01:25:19.080 --> 01:25:24.119
+banale nel caso che vi fosse chiesto.
+
+1650
+01:25:24.159 --> 01:25:29.040
+>> Un'ultima domanda da parte di
+
+1651
+01:25:26.040 --> 01:25:29.040
+Gianfranco.
+
+1652
+01:25:29.280 --> 01:25:35.080
+>> Paolo, una domanda. Eh, in realtà due,
+
+1653
+01:25:32.600 --> 01:25:38.679
+eh i radiali,
+
+1654
+01:25:35.080 --> 01:25:41.119
+>> sì. Eh, ho sbirciando adesso su internet
+
+1655
+01:25:38.679 --> 01:25:47.480
+mentre stava parlando così ho visto che
+
+1656
+01:25:41.119 --> 01:25:49.320
+sono delle fisicamente sono eh del dei
+
+1657
+01:25:47.480 --> 01:25:51.480
+strisce di metallo che sono
+
+1658
+01:25:49.320 --> 01:25:52.719
+perpendicolari all'antenna.
+
+1659
+01:25:51.480 --> 01:25:53.760
+>> Sì.
+
+1660
+01:25:52.719 --> 01:25:54.840
+>> Ok. Questa è la
+
+1661
+01:25:53.760 --> 01:25:56.520
+>> dei conduttori. Sì,
+
+1662
+01:25:54.840 --> 01:25:58.840
+>> dei conduttori che sono perpendicolari.
+
+1663
+01:25:56.520 --> 01:26:01.280
+Ma come si richiudono sull'antenna?
+
+1664
+01:25:58.840 --> 01:26:04.280
+Questo non ho capito.
+
+1665
+01:26:01.280 --> 01:26:06.760
+>> No, non si richiudono. Sono collegati al
+
+1666
+01:26:04.280 --> 01:26:07.320
+polo freddo, per così dire, della media
+
+1667
+01:26:06.760 --> 01:26:09.239
+freddo. Ok.
+
+1668
+01:26:07.320 --> 01:26:12.199
+>> Sì. Quindi alla alla calza del
+
+1669
+01:26:09.239 --> 01:26:15.280
+>> la calza del conduttore del cavo. Ok.
+
+1670
+01:26:12.199 --> 01:26:17.360
+>> Sì. In realtà non direttamente perché
+
+1671
+01:26:15.280 --> 01:26:19.719
+come vi ho detto nel mezzo ci deve
+
+1672
+01:26:17.360 --> 01:26:20.080
+essere sempre e comunque un ballon
+
+1673
+01:26:19.719 --> 01:26:23.040
+perché
+
+1674
+01:26:20.080 --> 01:26:25.159
+>> un ballon, ok? Devi comunque evitare la
+
+1675
+01:26:23.040 --> 01:26:27.600
+possibilità che ci siano correnti che si
+
+1676
+01:26:25.159 --> 01:26:31.840
+richiudono sulla calza,
+
+1677
+01:26:27.600 --> 01:26:35.840
+mentre se fosse semplicemente collegato
+
+1678
+01:26:31.840 --> 01:26:37.800
+all calza, comunque
+
+1679
+01:26:35.840 --> 01:26:39.800
+quello quello schemettino, guardate,
+
+1680
+01:26:37.800 --> 01:26:42.800
+faccio prima a tornare indietro sulle
+
+1681
+01:26:39.800 --> 01:26:42.800
+slide.
+
+1682
+01:26:43.880 --> 01:26:52.560
+Eccolo qua. Vedi il il disegno di questo
+
+1683
+01:26:49.360 --> 01:26:54.080
+è il classico caso in cui i due radiali,
+
+1684
+01:26:52.560 --> 01:26:57.040
+quindi ne sono rappresentati due per
+
+1685
+01:26:54.080 --> 01:26:58.719
+semplicità, sono collegati con la,
+
+1686
+01:26:57.040 --> 01:27:02.280
+diciamo, col polo freddo, con la calza
+
+1687
+01:26:58.719 --> 01:27:04.320
+del cavo coassiale, mentre il polo caldo
+
+1688
+01:27:02.280 --> 01:27:07.320
+è collegato con con l'elemento
+
+1689
+01:27:04.320 --> 01:27:11.360
+verticale. Se io qui non pongo il ballon
+
+1690
+01:27:07.320 --> 01:27:14.199
+come si vede qua sotto, comunque ci sarà
+
+1691
+01:27:11.360 --> 01:27:17.080
+una capacità parassita tra l'elemento
+
+1692
+01:27:14.199 --> 01:27:20.280
+radiante, la calza del cavo e quindi
+
+1693
+01:27:17.080 --> 01:27:22.840
+correnti che possono percorrere il cavo.
+
+1694
+01:27:20.280 --> 01:27:24.199
+Comunque la connessione è questa che è
+
+1695
+01:27:22.840 --> 01:27:27.000
+quella che vedi qui.
+
+1696
+01:27:24.199 --> 01:27:28.480
+>> Ok. E deve essere interrato. Ho visto
+
+1697
+01:27:27.000 --> 01:27:30.520
+nell'esempio che faceva
+
+1698
+01:27:28.480 --> 01:27:33.600
+>> Non necessariamente non infatti qui ci
+
+1699
+01:27:30.520 --> 01:27:36.840
+sono entrambi i casi. Ci sono po'
+
+1700
+01:27:33.600 --> 01:27:39.239
+radiali interrati o radiali, come si
+
+1701
+01:27:36.840 --> 01:27:40.560
+suol dire, sollevati. Sì, esatto.
+
+1702
+01:27:39.239 --> 01:27:43.000
+>> Radiali.
+
+1703
+01:27:40.560 --> 01:27:44.600
+Chiaramente questo è il caso tipico in
+
+1704
+01:27:43.000 --> 01:27:47.760
+cui l'antenna magari è posta su un
+
+1705
+01:27:44.600 --> 01:27:49.880
+tetto. Se è posta a terra, diciamo, può
+
+1706
+01:27:47.760 --> 01:27:53.800
+essere conveniente
+
+1707
+01:27:49.880 --> 01:27:56.920
+eh interrarli sostanzialmente.
+
+1708
+01:27:53.800 --> 01:27:59.960
+Chiaramente, ora, qui si va in un
+
+1709
+01:27:56.920 --> 01:28:04.199
+discorso abbastanzaì
+
+1710
+01:27:59.960 --> 01:28:06.440
+lungo, perché poi c'è il caso in cui se
+
+1711
+01:28:04.199 --> 01:28:09.000
+ci sono due casistiche, radiali
+
+1712
+01:28:06.440 --> 01:28:12.480
+risonanti e tipicamente il caso dei
+
+1713
+01:28:09.000 --> 01:28:14.840
+radiali cosiddetti in aria in cui si
+
+1714
+01:28:12.480 --> 01:28:16.440
+preferisce la soluzione del radiale
+
+1715
+01:28:14.840 --> 01:28:18.960
+risonante, quindi di lunghezza
+
+1716
+01:28:16.440 --> 01:28:22.639
+calcolata. Nel caso del radiale
+
+1717
+01:28:18.960 --> 01:28:25.199
+interrato, per una serie di motivi, eh
+
+1718
+01:28:22.639 --> 01:28:27.840
+il radiale non è risonante
+
+1719
+01:28:25.199 --> 01:28:30.440
+e quindi la lunghezza non è calcolata o
+
+1720
+01:28:27.840 --> 01:28:34.239
+quantomeno non è così determinante come
+
+1721
+01:28:30.440 --> 01:28:36.639
+nel caso del del radiale risonante. Ci
+
+1722
+01:28:34.239 --> 01:28:38.440
+sono tutta una serie di di di argomenti
+
+1723
+01:28:36.639 --> 01:28:41.040
+che insomma
+
+1724
+01:28:38.440 --> 01:28:43.000
+>> andrebbero nel caso specifico non vi
+
+1725
+01:28:41.040 --> 01:28:44.119
+servono, ma comunque vi serviranno in
+
+1726
+01:28:43.000 --> 01:28:46.199
+futuro.
+
+1727
+01:28:44.119 --> 01:28:50.119
+>> Era giusto per visualizzarlo.
+
+1728
+01:28:46.199 --> 01:28:50.119
+>> Grazie. Perfetto.
+
+1729
+01:28:53.880 --> 01:29:01.040
+Allora, se non ci sono altre domande, le
+
+1730
+01:28:56.600 --> 01:29:05.080
+ultime due cosette sulle misure.
+
+1731
+01:29:01.040 --> 01:29:08.440
+Allora, intanto una cosa, rispetto a a
+
+1732
+01:29:05.080 --> 01:29:12.040
+quando ho iniziato io ad occuparmi
+
+1733
+01:29:08.440 --> 01:29:15.080
+di radio, le cose sono particolarmente
+
+1734
+01:29:12.040 --> 01:29:17.920
+cambiate. Oggi per chi vuole dedicarsi
+
+1735
+01:29:15.080 --> 01:29:21.400
+all'auto in particolare delle antenne
+
+1736
+01:29:17.920 --> 01:29:24.159
+che come diceva Paolo PVA prima di
+
+1737
+01:29:21.400 --> 01:29:26.679
+iniziare la lezione è forse l'ultimo
+
+1738
+01:29:24.159 --> 01:29:31.040
+ambito dove ancora
+
+1739
+01:29:26.679 --> 01:29:33.600
+è è facile poter farsi qualcosa in casa.
+
+1740
+01:29:31.040 --> 01:29:36.080
+Diciamo per chi volesse dedicarsi a
+
+1741
+01:29:33.600 --> 01:29:37.760
+questa attività oggi, diciamo, c'è un
+
+1742
+01:29:36.080 --> 01:29:39.440
+supporto
+
+1743
+01:29:37.760 --> 01:29:42.440
+eh
+
+1744
+01:29:39.440 --> 01:29:44.040
+un buon supporto con da parte di
+
+1745
+01:29:42.440 --> 01:29:47.520
+strumentazione
+
+1746
+01:29:44.040 --> 01:29:52.199
+sia hardware sia software, accessibile
+
+1747
+01:29:47.520 --> 01:29:54.520
+anche a costi tutto sommato abbordabili
+
+1748
+01:29:52.199 --> 01:29:58.040
+e eh
+
+1749
+01:29:54.520 --> 01:30:00.320
+diciamo strumentazione che fino a non
+
+1750
+01:29:58.040 --> 01:30:03.639
+molti anni fa in realtà
+
+1751
+01:30:00.320 --> 01:30:06.920
+era accessibile solo a livello
+
+1752
+01:30:03.639 --> 01:30:10.080
+professionale. Io sto parlando di
+
+1753
+01:30:06.920 --> 01:30:11.880
+analizzatori d'antenna piuttosto
+
+1754
+01:30:10.080 --> 01:30:15.639
+che
+
+1755
+01:30:11.880 --> 01:30:18.760
+analizzatori vettoriali piuttosto che di
+
+1756
+01:30:15.639 --> 01:30:21.280
+software di simulazione.
+
+1757
+01:30:18.760 --> 01:30:24.920
+diciamo sono strumenti
+
+1758
+01:30:21.280 --> 01:30:29.119
+tutto sommato estremamente potenti anche
+
+1759
+01:30:24.920 --> 01:30:32.440
+nella versione, come dire, amatoriale e
+
+1760
+01:30:29.119 --> 01:30:35.199
+quindi consiglio a chi ha intenzione,
+
+1761
+01:30:32.440 --> 01:30:39.480
+voglia, interesse di dedicarsi
+
+1762
+01:30:35.199 --> 01:30:43.080
+a questa attività, di dotarsi di questa
+
+1763
+01:30:39.480 --> 01:30:45.920
+strumentazione perché l'ausilio che può
+
+1764
+01:30:43.080 --> 01:30:49.280
+fornire è veramente veramente
+
+1765
+01:30:45.920 --> 01:30:51.920
+importante. ripeto, adesso è disponibile
+
+1766
+01:30:49.280 --> 01:30:56.000
+a costi,
+
+1767
+01:30:51.920 --> 01:31:01.800
+diciamo, abbordabili, abbastanza bassi e
+
+1768
+01:30:56.000 --> 01:31:04.679
+quindi è un investimento che consiglio.
+
+1769
+01:31:01.800 --> 01:31:08.080
+Naturalmente
+
+1770
+01:31:04.679 --> 01:31:11.960
+eh quando facciamo delle misure bisogna
+
+1771
+01:31:08.080 --> 01:31:14.920
+sempre avere idea di quello che stiamo
+
+1772
+01:31:11.960 --> 01:31:17.679
+facendo. E provo anche in questo caso a
+
+1773
+01:31:14.920 --> 01:31:19.480
+fare qualche esempio pratico. Ad
+
+1774
+01:31:17.679 --> 01:31:22.760
+esempio, quando si fanno le misure di
+
+1775
+01:31:19.480 --> 01:31:26.480
+impedenza con l'analizzatore di antenna,
+
+1776
+01:31:22.760 --> 01:31:28.080
+dobbiamo sempre ricordarci che in
+
+1777
+01:31:26.480 --> 01:31:29.679
+presenza
+
+1778
+01:31:28.080 --> 01:31:34.400
+di
+
+1779
+01:31:29.679 --> 01:31:37.960
+una linea che alimenta un carico magari
+
+1780
+01:31:34.400 --> 01:31:39.520
+di cui non siamo certi del valore di
+
+1781
+01:31:37.960 --> 01:31:43.320
+impedenza,
+
+1782
+01:31:39.520 --> 01:31:45.239
+c'è la possibilità che ci si trovi in
+
+1783
+01:31:43.320 --> 01:31:48.239
+regime, come abbiamo detto quando si
+
+1784
+01:31:45.239 --> 01:31:49.760
+parlava di linee, di regime di onde
+
+1785
+01:31:48.239 --> 01:31:52.520
+stazionarie.
+
+1786
+01:31:49.760 --> 01:31:54.920
+In questo caso, se io vado a fare la
+
+1787
+01:31:52.520 --> 01:31:57.280
+misura di impedenza
+
+1788
+01:31:54.920 --> 01:32:00.360
+all'estremità, all'altra estremità del
+
+1789
+01:31:57.280 --> 01:32:05.159
+cavo, dobbiamo ricordare che quello che
+
+1790
+01:32:00.360 --> 01:32:08.000
+io misuro non potrà mai essere il valore
+
+1791
+01:32:05.159 --> 01:32:10.159
+di ZL, cioè dell'impedenza
+
+1792
+01:32:08.000 --> 01:32:13.840
+della nostra antenna, dell'impedenza su
+
+1793
+01:32:10.159 --> 01:32:16.800
+cui è chiusa la linea, ma tranne
+
+1794
+01:32:13.840 --> 01:32:19.760
+ovviamente come lo come ho scritto qui
+
+1795
+01:32:16.800 --> 01:32:23.280
+il caso in cui la lunghezza della linea
+
+1796
+01:32:19.760 --> 01:32:24.960
+sia esattamente un multiplo intero di
+
+1797
+01:32:23.280 --> 01:32:26.960
+lambda/2.
+
+1798
+01:32:24.960 --> 01:32:29.800
+Quindi in tutti gli altri casi, quindi
+
+1799
+01:32:26.960 --> 01:32:33.560
+direi quasi sempre, quello che io andrò
+
+1800
+01:32:29.800 --> 01:32:36.600
+a misurare sarà qualcosa di diverso e
+
+1801
+01:32:33.560 --> 01:32:40.440
+quindi attenzione a non farvi trarre in
+
+1802
+01:32:36.600 --> 01:32:44.560
+inganno da questa cosa.
+
+1803
+01:32:40.440 --> 01:32:50.000
+Stesso discorso ovviamente è se io vado
+
+1804
+01:32:44.560 --> 01:32:54.760
+a fare la misura con un VNA, con un
+
+1805
+01:32:50.000 --> 01:32:57.119
+analizzatore eh vettoriale,
+
+1806
+01:32:54.760 --> 01:33:00.840
+per esempio, un errore che spesso si
+
+1807
+01:32:57.119 --> 01:33:05.040
+commette in questo caso è di pensare che
+
+1808
+01:33:00.840 --> 01:33:08.920
+il valore, cioè la risonanza, sia il
+
+1809
+01:33:05.040 --> 01:33:11.719
+punto in cui la traccia che rappresenta
+
+1810
+01:33:08.920 --> 01:33:13.400
+l'impedenza misurata
+
+1811
+01:33:11.719 --> 01:33:16.199
+La traccia riportata sulla carta di
+
+1812
+01:33:13.400 --> 01:33:18.840
+Smith passa per il punto dove non ci
+
+1813
+01:33:16.199 --> 01:33:22.800
+sono componenti reattive, quindi punto
+
+1814
+01:33:18.840 --> 01:33:27.679
+in cui il valore è puramente resistivo.
+
+1815
+01:33:22.800 --> 01:33:30.119
+Attenzione perché se lo strumento non è
+
+1816
+01:33:27.679 --> 01:33:33.719
+opportunamente settato, anche in questo
+
+1817
+01:33:30.119 --> 01:33:37.040
+caso io posso correre commettere degli
+
+1818
+01:33:33.719 --> 01:33:39.679
+errori. Quindi io penso magari che la
+
+1819
+01:33:37.040 --> 01:33:42.239
+mia antenna risuoni in questo punto
+
+1820
+01:33:39.679 --> 01:33:44.239
+perché è qui che io passo attraverso
+
+1821
+01:33:42.239 --> 01:33:47.080
+l'asse orizzontale, quello che
+
+1822
+01:33:44.239 --> 01:33:49.760
+rappresenta i valori resistivi. In
+
+1823
+01:33:47.080 --> 01:33:53.040
+realtà il punto che rappresenta la
+
+1824
+01:33:49.760 --> 01:33:55.119
+risonanza è questo, perché allora qui si
+
+1825
+01:33:53.040 --> 01:33:57.119
+entrerebbe in un discorso un po' più
+
+1826
+01:33:55.119 --> 01:34:00.560
+lungo sulla sulla rappresentazione su
+
+1827
+01:33:57.119 --> 01:34:02.960
+carta di Smith, perché questo è quello
+
+1828
+01:34:00.560 --> 01:34:05.920
+che rappresenta il valore di Ross
+
+1829
+01:34:02.960 --> 01:34:08.639
+minimo. In realtà il vantaggio che c'è
+
+1830
+01:34:05.920 --> 01:34:11.239
+nell'utilizzare un un analizzatore
+
+1831
+01:34:08.639 --> 01:34:13.880
+vettoriale è che può lo strumento può
+
+1832
+01:34:11.239 --> 01:34:16.920
+essere opportunamente settato, a
+
+1833
+01:34:13.880 --> 01:34:19.360
+differenza di un normale analizzatore
+
+1834
+01:34:16.920 --> 01:34:22.360
+d'antenna per tener conto della
+
+1835
+01:34:19.360 --> 01:34:25.159
+lunghezza della linea. Perché se io
+
+1836
+01:34:22.360 --> 01:34:27.679
+faccio la taratura dello strumento,
+
+1837
+01:34:25.159 --> 01:34:31.400
+tenendo conto della lunghezza della
+
+1838
+01:34:27.679 --> 01:34:35.639
+linea, lo strumento a quel punto mi darà
+
+1839
+01:34:31.400 --> 01:34:39.080
+mi visualizzerà una misura come se fosse
+
+1840
+01:34:35.639 --> 01:34:41.440
+fisicamente collegato all'antenna.
+
+1841
+01:34:39.080 --> 01:34:44.199
+Quindi questo è uno dei principali
+
+1842
+01:34:41.440 --> 01:34:47.040
+vantaggi nell'uso dell'adizzatura
+
+1843
+01:34:44.199 --> 01:34:50.159
+virtuale. Però, ecco, diciamo che con
+
+1844
+01:34:47.040 --> 01:34:52.960
+questa roba, l'ho detto prima, per
+
+1845
+01:34:50.159 --> 01:34:55.639
+quanto siano ormai quasi poco più dei
+
+1846
+01:34:52.960 --> 01:34:59.280
+giocattoli anche in termini di costo,
+
+1847
+01:34:55.639 --> 01:35:02.199
+però la potenza di elaborazione è
+
+1848
+01:34:59.280 --> 01:35:06.199
+elevata e quindi anche l'uso dello
+
+1849
+01:35:02.199 --> 01:35:09.679
+strumento richiede un minimo di di
+
+1850
+01:35:06.199 --> 01:35:13.639
+conoscenze per poterlo sfruttare
+
+1851
+01:35:09.679 --> 01:35:13.639
+eh correttamente
+
+1852
+01:35:14.840 --> 01:35:20.840
+E anche in questo caso, mh, giusto per
+
+1853
+01:35:18.480 --> 01:35:24.560
+per capirci, faccio qualche esempio
+
+1854
+01:35:20.840 --> 01:35:26.920
+pratico. Vediamo un primo caso in cui io
+
+1855
+01:35:24.560 --> 01:35:32.679
+sto misurando l'impedenza di un'antenna
+
+1856
+01:35:26.920 --> 01:35:34.560
+che presenta un Ross di 1 circa 1,6
+
+1857
+01:35:32.679 --> 01:35:38.119
+e lo faccio mettendo lo strumento,
+
+1858
+01:35:34.560 --> 01:35:41.280
+l'analizzatore d'antenna al termine del
+
+1859
+01:35:38.119 --> 01:35:44.719
+della linea di discesa. La linea è lunga
+
+1860
+01:35:41.280 --> 01:35:47.639
+0,35 lambda, quindi non è un multiplo
+
+1861
+01:35:44.719 --> 01:35:50.639
+intero di mezzo e lunghezza d'onda e
+
+1862
+01:35:47.639 --> 01:35:53.400
+alla risonanza, quando l'antenna è alla
+
+1863
+01:35:50.639 --> 01:35:56.800
+risonanza, lo strumento mi misurerà
+
+1864
+01:35:53.400 --> 01:35:58.760
+invece un'impedenza di
+
+1865
+01:35:56.800 --> 01:36:03.400
+52
+
+1866
+01:35:58.760 --> 01:36:07.199
+- J25, quindi con una 52 ohm resistivi e
+
+1867
+01:36:03.400 --> 01:36:10.000
+una componente capacitiva di 25 ohm,
+
+1868
+01:36:07.199 --> 01:36:13.480
+mentre in realtà l'effettiva impedenza
+
+1869
+01:36:10.000 --> 01:36:18.760
+dell'antenna è 31,5
+
+1870
+01:36:13.480 --> 01:36:21.560
+ohm, quindi 31,5 ohm su una linea lunga
+
+1871
+01:36:18.760 --> 01:36:23.840
+0,35 lambda
+
+1872
+01:36:21.560 --> 01:36:27.000
+farà sì che lo strumento mi veda
+
+1873
+01:36:23.840 --> 01:36:29.360
+un'impedenza di questo tipo. Quindi io
+
+1874
+01:36:27.000 --> 01:36:31.119
+dico no, qua l'antenna non è in
+
+1875
+01:36:29.360 --> 01:36:33.400
+risonanza perché è una componente
+
+1876
+01:36:31.119 --> 01:36:35.920
+capacitiva, invece in realtà è in
+
+1877
+01:36:33.400 --> 01:36:37.600
+risonanza, ma ad un valore con
+
+1878
+01:36:35.920 --> 01:36:42.119
+un'impedenza che ha un valore diverso
+
+1879
+01:36:37.600 --> 01:36:47.920
+dai 50 ohm. E infatti ha un Ross di 1,5
+
+1880
+01:36:42.119 --> 01:36:50.040
+che è esattamente 31,5 su scusate 50 su
+
+1881
+01:36:47.920 --> 01:36:53.520
+31,5.
+
+1882
+01:36:50.040 --> 01:36:56.639
+Secondo caso abbiamo un'antenna con
+
+1883
+01:36:53.520 --> 01:37:00.400
+impedenza la risonanza 75 ohm, caso
+
+1884
+01:36:56.639 --> 01:37:03.080
+tipico di un dipolo orizzontale,
+
+1885
+01:37:00.400 --> 01:37:07.440
+alimentata con una linea con cavo
+
+1886
+01:37:03.080 --> 01:37:09.600
+quassiale da 50 ohm, lunga 03 lambda.
+
+1887
+01:37:07.440 --> 01:37:13.880
+È chiaro che se determina un valore di
+
+1888
+01:37:09.600 --> 01:37:16.119
+Ross di 1,5 perché 50 75 qui il calcolo
+
+1889
+01:37:13.880 --> 01:37:20.360
+è facile
+
+1890
+01:37:16.119 --> 01:37:24.040
+perché 75 / 50 fa appunto 1,5, quindi il
+
+1891
+01:37:20.360 --> 01:37:27.000
+Ross è sicuramente 1,5. Se io collego lo
+
+1892
+01:37:24.040 --> 01:37:29.719
+strumento qua dall'altro capo della
+
+1893
+01:37:27.000 --> 01:37:33.560
+linea e vado a leggere, leggerò un
+
+1894
+01:37:29.719 --> 01:37:38.080
+valore che sarà 35,5
+
+1895
+01:37:33.560 --> 01:37:40.159
+come parte resistiva e 8 ohm induttivi,
+
+1896
+01:37:38.080 --> 01:37:42.280
+mentre che è un valore decisamente
+
+1897
+01:37:40.159 --> 01:37:45.400
+diverso dalla reale impedenza
+
+1898
+01:37:42.280 --> 01:37:48.440
+dell'antenna che è 75 ohm. Quindi
+
+1899
+01:37:45.400 --> 01:37:51.199
+attenzione a usare gli strumenti perché
+
+1900
+01:37:48.440 --> 01:37:55.199
+se uno monta l'antenna poi scende giù,
+
+1901
+01:37:51.199 --> 01:38:00.400
+attacca lo strumento al cavo e misura,
+
+1902
+01:37:55.199 --> 01:38:02.960
+diciamo che 99 volte su 100 non misura
+
+1903
+01:38:00.400 --> 01:38:06.280
+l'impedenza dell'antenna. Quindi
+
+1904
+01:38:02.960 --> 01:38:08.760
+dobbiamo sapere eh che ci sono questi
+
+1905
+01:38:06.280 --> 01:38:14.520
+meccanismi, tenerne conto e saper
+
+1906
+01:38:08.760 --> 01:38:14.520
+interpretare correttamente le misure.
+
+1907
+01:38:14.920 --> 01:38:22.320
+Quindi, per concludere, eh sulla base di
+
+1908
+01:38:19.560 --> 01:38:24.719
+eh quanto abbiamo visto, possiamo
+
+1909
+01:38:22.320 --> 01:38:26.800
+affermare che le prestazioni di antenna
+
+1910
+01:38:24.719 --> 01:38:28.880
+dipendono da una molteplicità di
+
+1911
+01:38:26.800 --> 01:38:31.320
+fattori.
+
+1912
+01:38:28.880 --> 01:38:36.199
+Poi alcuni li abbiamo visti, ce ne
+
+1913
+01:38:31.320 --> 01:38:38.320
+sarebbero diversi altri parecchi altri
+
+1914
+01:38:36.199 --> 01:38:40.080
+argomenti e cose da valutare, ma che
+
+1915
+01:38:38.320 --> 01:38:43.159
+ovviamente
+
+1916
+01:38:40.080 --> 01:38:47.080
+non interessando lo scopo del corso,
+
+1917
+01:38:43.159 --> 01:38:49.599
+diciamo, non abbiamo affrontato.
+
+1918
+01:38:47.080 --> 01:38:52.719
+Comunque prima di di concludere, proprio
+
+1919
+01:38:49.599 --> 01:38:55.880
+perché siamo alla fine dell'argomento
+
+1920
+01:38:52.719 --> 01:38:57.599
+che credo comunque sia uno di quelli
+
+1921
+01:38:55.880 --> 01:38:59.760
+maggiormente
+
+1922
+01:38:57.599 --> 01:39:01.400
+di maggiore interesse che maggiormente
+
+1923
+01:38:59.760 --> 01:39:05.360
+interessano
+
+1924
+01:39:01.400 --> 01:39:09.920
+chi si avvicina a a questo mondo. Vorrei
+
+1925
+01:39:05.360 --> 01:39:14.920
+accennare ad un paio di aspetti ed in
+
+1926
+01:39:09.920 --> 01:39:19.960
+particolare ad uno, ovvero che in HF,
+
+1927
+01:39:14.920 --> 01:39:22.520
+che poi è diciamo la fetta di frequenza
+
+1928
+01:39:19.960 --> 01:39:24.840
+su cui si concentrerà la maggiore delle
+
+1929
+01:39:22.520 --> 01:39:29.080
+maggior parte della della vostra
+
+1930
+01:39:24.840 --> 01:39:32.239
+attività ed in particolare per il DX
+
+1931
+01:39:29.080 --> 01:39:34.080
+sulle bande più basse vi è una
+
+1932
+01:39:32.239 --> 01:39:36.840
+sostanziale differenza tra le
+
+1933
+01:39:34.080 --> 01:39:39.960
+caratteristiche ottimali di un sistema
+
+1934
+01:39:36.840 --> 01:39:43.920
+d'antenna in trasmissione rispetto a un
+
+1935
+01:39:39.960 --> 01:39:46.320
+sistema d'antenna ottimale in recezione.
+
+1936
+01:39:43.920 --> 01:39:50.560
+E questo può suonare abbastanza strano
+
+1937
+01:39:46.320 --> 01:39:52.719
+perché è una cosa a cui spesso non si fa
+
+1938
+01:39:50.560 --> 01:39:55.679
+attenzione, anche perché la teoria ci
+
+1939
+01:39:52.719 --> 01:39:58.719
+dice, anzi c'è proprio tanto di teorema,
+
+1940
+01:39:55.679 --> 01:40:01.040
+si chiama teorema della reciprocità, che
+
+1941
+01:39:58.719 --> 01:40:03.080
+un'antenna, come dire, si comporta
+
+1942
+01:40:01.040 --> 01:40:06.400
+esattamente nello stesso modo, sia in
+
+1943
+01:40:03.080 --> 01:40:08.679
+recezione che in trasmissione.
+
+1944
+01:40:06.400 --> 01:40:12.040
+In realtà, infatti, questo problema non
+
+1945
+01:40:08.679 --> 01:40:14.880
+è legato tanto all'antenna in quanto
+
+1946
+01:40:12.040 --> 01:40:18.679
+tale, quanto all'uso del che se ne fa e
+
+1947
+01:40:14.880 --> 01:40:21.639
+all'ambiente in cui ci troviamo.
+
+1948
+01:40:18.679 --> 01:40:24.360
+E quello che determina la differenza il
+
+1949
+01:40:21.639 --> 01:40:26.239
+fatto è che in trasmissione, come
+
+1950
+01:40:24.360 --> 01:40:29.119
+abbiamo visto parlando della
+
+1951
+01:40:26.239 --> 01:40:33.719
+dell'effetto direttività,
+
+1952
+01:40:29.119 --> 01:40:36.960
+la mia esigenza è quella di concentrare
+
+1953
+01:40:33.719 --> 01:40:40.639
+più possibile la maggior quantità di
+
+1954
+01:40:36.960 --> 01:40:43.040
+energia nella direzione che mi serve,
+
+1955
+01:40:40.639 --> 01:40:46.480
+che abbiamo detto quella ottimale è
+
+1956
+01:40:43.040 --> 01:40:48.520
+l'angolo di radiazione tra 0 e 20°. per
+
+1957
+01:40:46.480 --> 01:40:51.800
+quanto riguarda
+
+1958
+01:40:48.520 --> 01:40:54.320
+in HF, perché è quella che ci permette
+
+1959
+01:40:51.800 --> 01:40:55.920
+di sfruttare le migliori condizioni di
+
+1960
+01:40:54.320 --> 01:40:59.280
+riflessione.
+
+1961
+01:40:55.920 --> 01:41:03.000
+In ricezione, invece, l'esigenza che io
+
+1962
+01:40:59.280 --> 01:41:05.599
+ho è quella di ottenere il miglior
+
+1963
+01:41:03.000 --> 01:41:11.040
+rapporto segnale rumore, cioè di avere
+
+1964
+01:41:05.599 --> 01:41:14.280
+il segnale più intellegibile possibile.
+
+1965
+01:41:11.040 --> 01:41:16.639
+Attenzione perché questi due aspetti dal
+
+1966
+01:41:14.280 --> 01:41:19.639
+punto di vista di un'antenna non sempre
+
+1967
+01:41:16.639 --> 01:41:23.320
+coincidono
+
+1968
+01:41:19.639 --> 01:41:26.800
+e in trasmissione è possibile aumentare
+
+1969
+01:41:23.320 --> 01:41:28.800
+la quantità di energia, ad esempio
+
+1970
+01:41:26.800 --> 01:41:30.440
+modificando il lobo dell'antenna. E
+
+1971
+01:41:28.800 --> 01:41:33.639
+quindi in questo caso l'antenna con
+
+1972
+01:41:30.440 --> 01:41:35.880
+guadagno maggiore produrrà sicuramente
+
+1973
+01:41:33.639 --> 01:41:39.000
+un incremento di energia irradiata verso
+
+1974
+01:41:35.880 --> 01:41:43.840
+il nostro corrispondente.
+
+1975
+01:41:39.000 --> 01:41:47.679
+In ricezione però le cose sono diverse
+
+1976
+01:41:43.840 --> 01:41:51.760
+perché in HF e soprattutto nelle bande
+
+1977
+01:41:47.679 --> 01:41:53.440
+più basse il rumore esterno al nostro
+
+1978
+01:41:51.760 --> 01:41:55.280
+ricevitore
+
+1979
+01:41:53.440 --> 01:41:58.920
+sovrasta
+
+1980
+01:41:55.280 --> 01:42:02.400
+spesso anche fino a 50-60 dB.
+
+1981
+01:41:58.920 --> 01:42:04.960
+il rumore, diciamo, di fondo del
+
+1982
+01:42:02.400 --> 01:42:08.360
+ricevitore. E questo rumore, quindi, dal
+
+1983
+01:42:04.960 --> 01:42:10.719
+punto di vista del ricevitore, è un
+
+1984
+01:42:08.360 --> 01:42:12.960
+segnale che arriva
+
+1985
+01:42:10.719 --> 01:42:15.880
+adaptato dalla nostra antenna. Quindi
+
+1986
+01:42:12.960 --> 01:42:18.800
+aumentare il guadagno dell'antenna
+
+1987
+01:42:15.880 --> 01:42:23.280
+in ricezione, tranne casi molto
+
+1988
+01:42:18.800 --> 01:42:25.679
+particolari, non corrisponde ad a
+
+1989
+01:42:23.280 --> 01:42:29.360
+migliorare sensibilmente il rapporto
+
+1990
+01:42:25.679 --> 01:42:30.880
+segnale rumore, perché la il maggiore
+
+1991
+01:42:29.360 --> 01:42:35.639
+guadagno
+
+1992
+01:42:30.880 --> 01:42:39.880
+si trasforma anche in un maggior livello
+
+1993
+01:42:35.639 --> 01:42:43.199
+eh di rumore. L'unica strategia utile
+
+1994
+01:42:39.880 --> 01:42:46.360
+sarebbe quello quella di avere
+
+1995
+01:42:43.199 --> 01:42:49.840
+un'antenna in cui il lobo di radiazione
+
+1996
+01:42:46.360 --> 01:42:52.000
+sia tale da presentare un massimo nella
+
+1997
+01:42:49.840 --> 01:42:55.080
+direzione del segnale utile e
+
+1998
+01:42:52.000 --> 01:42:58.520
+un'attenuazione elevata in tutte le
+
+1999
+01:42:55.080 --> 01:43:01.639
+altre direzioni, indipendentemente
+
+2000
+01:42:58.520 --> 01:43:05.599
+dal valore del guadagno effettivo.
+
+2001
+01:43:01.639 --> 01:43:11.040
+Questo, diciamo, era una una cosa che vi
+
+2002
+01:43:05.599 --> 01:43:15.599
+volevo accennare perché spesso si cade
+
+2003
+01:43:11.040 --> 01:43:19.560
+nell'inganno, no, a rovescio, cioè nel
+
+2004
+01:43:15.599 --> 01:43:23.400
+nel senso che eh dice "Ma io riesco ad
+
+2005
+01:43:19.560 --> 01:43:26.239
+ascoltare bene, non mi sente nessuno" o
+
+2006
+01:43:23.400 --> 01:43:30.520
+o viceversa. Ecco, attenzione, a volte
+
+2007
+01:43:26.239 --> 01:43:33.679
+ci sono dei meccanismi tali per cui eh,
+
+2008
+01:43:30.520 --> 01:43:36.599
+come dire, eh
+
+2009
+01:43:33.679 --> 01:43:38.679
+il comportamento dell'antenna non è così
+
+2010
+01:43:36.599 --> 01:43:41.360
+banale. Comunque ripeto, questi sono
+
+2011
+01:43:38.679 --> 01:43:45.599
+argomenti che non interessano
+
+2012
+01:43:41.360 --> 01:43:48.719
+sicuramente le domande d'esame, ma era
+
+2013
+01:43:45.599 --> 01:43:53.520
+un, come dire, uno spunto, una curiosità
+
+2014
+01:43:48.719 --> 01:43:56.520
+che vi volevo istillare e quindi e per
+
+2015
+01:43:53.520 --> 01:43:59.040
+concludere vi do un consiglio. Se
+
+2016
+01:43:56.520 --> 01:44:03.400
+qualcuno di voi fosse interessato a
+
+2017
+01:43:59.040 --> 01:44:06.159
+approfondire l'argomento antenne e come
+
+2018
+01:44:03.400 --> 01:44:09.239
+dire in qualche modo se la cava nel
+
+2019
+01:44:06.159 --> 01:44:13.360
+masticare la lingua inglese, ci sono due
+
+2020
+01:44:09.239 --> 01:44:17.199
+ottimi testi eh
+
+2021
+01:44:13.360 --> 01:44:20.320
+della RL che è la
+
+2022
+01:44:17.199 --> 01:44:23.760
+penso la conosciate tutti, comunque è
+
+2023
+01:44:20.320 --> 01:44:27.599
+americana editi dalla RRL che sono
+
+2024
+01:44:23.760 --> 01:44:31.239
+appunto il Lowband dixing
+
+2025
+01:44:27.599 --> 01:44:34.199
+che eh tratta prevalentemente gli
+
+2026
+01:44:31.239 --> 01:44:37.000
+aspetti relativi alle bande basse,
+
+2027
+01:44:34.199 --> 01:44:43.719
+quindi 160
+
+2028
+01:44:37.000 --> 01:44:47.440
+80 e 40 m e l'antenna book che invece eh
+
+2029
+01:44:43.719 --> 01:44:49.880
+diciamo tratta in maniera anche
+
+2030
+01:44:47.440 --> 01:44:51.199
+abbastanza approfondita tutti gli
+
+2031
+01:44:49.880 --> 01:44:54.159
+aspetti che riguardano le
+
+2032
+01:44:51.199 --> 01:44:55.560
+caratteristiche teoriche e pratiche
+
+2033
+01:44:54.159 --> 01:44:57.520
+delle antenne.
+
+2034
+01:44:55.560 --> 01:45:00.080
+Poi in ultimo faccio un pochino di
+
+2035
+01:44:57.520 --> 01:45:03.080
+pubblicità per chi volesse invece
+
+2036
+01:45:00.080 --> 01:45:06.360
+limitarsi solo a qualche dettaglio
+
+2037
+01:45:03.080 --> 01:45:08.920
+sugli argomenti che abbiamo visto nel
+
+2038
+01:45:06.360 --> 01:45:11.480
+corso. Segnalo che sul sito della mia
+
+2039
+01:45:08.920 --> 01:45:14.280
+sezione, la sezione di Pisa, c'è una
+
+2040
+01:45:11.480 --> 01:45:16.560
+raccolta di articoli tecnici e di
+
+2041
+01:45:14.280 --> 01:45:18.119
+contributi di
+
+2042
+01:45:16.560 --> 01:45:19.960
+alcuni dei nostri soci con
+
+2043
+01:45:18.119 --> 01:45:22.119
+approfondimenti
+
+2044
+01:45:19.960 --> 01:45:27.320
+su su questi argomenti che se vi
+
+2045
+01:45:22.119 --> 01:45:28.960
+interessa vi potete andare a leggere e e
+
+2046
+01:45:27.320 --> 01:45:31.480
+a vedere.
+
+2047
+01:45:28.960 --> 01:45:35.000
+Io vi ringrazio qui, vi ringrazio per la
+
+2048
+01:45:31.480 --> 01:45:37.920
+pazienza che avete avuto in queste
+
+2049
+01:45:35.000 --> 01:45:40.719
+quattro settimane. Spero di non avervi,
+
+2050
+01:45:37.920 --> 01:45:44.080
+come dire, confuso le idee più di più di
+
+2051
+01:45:40.719 --> 01:45:46.000
+tanto e comunque sono a disposizione
+
+2052
+01:45:44.080 --> 01:45:49.119
+sempre per qualsiasi chiaramento. Qui
+
+2053
+01:45:46.000 --> 01:45:55.480
+c'è anche eh riportata la mia mail, per
+
+2054
+01:45:49.119 --> 01:45:55.480
+cui nessun problema se avete bisogno.
+
+2055
+01:45:55.760 --> 01:46:00.440
+Intanto ti ringraziamo Paolo. Eh,
+
+2056
+01:45:58.560 --> 01:46:02.320
+>> grazie, grazie davvero.
+
+2057
+01:46:00.440 --> 01:46:06.639
+>> E aspettiamo qualche domanda, senò
+
+2058
+01:46:02.320 --> 01:46:06.639
+interromperei la registrazione.
+
+2059
+01:46:09.199 --> 01:46:13.560
+>> Io la domanda.
+
+2060
+01:46:10.599 --> 01:46:17.679
+>> Eccoci.
+
+2061
+01:46:13.560 --> 01:46:20.880
+>> Puoi puoi Paolo brevemente
+
+2062
+01:46:17.679 --> 01:46:23.599
+fare un accenno a quell'edificio che ci
+
+2063
+01:46:20.880 --> 01:46:25.960
+ha accompagnato in queste tue quattro
+
+2064
+01:46:23.599 --> 01:46:28.320
+lezioni?
+
+2065
+01:46:25.960 --> 01:46:31.159
+Eh, volentieri, volentieri.
+
+2066
+01:46:28.320 --> 01:46:33.639
+>> Quell'edificio che ecco, hai usato come
+
+2067
+01:46:31.159 --> 01:46:35.400
+sfondo, lo dico per tutti gli studenti
+
+2068
+01:46:33.639 --> 01:46:38.880
+che hai usato come sfondo su tutte le
+
+2069
+01:46:35.400 --> 01:46:42.639
+tue slide, non è un caso, vero Paolo?
+
+2070
+01:46:38.880 --> 01:46:45.719
+No, non è un caso, anche perché non lo è
+
+2071
+01:46:42.639 --> 01:46:49.040
+per due motivi, diciamo.
+
+2072
+01:46:45.719 --> 01:46:51.159
+Parto dal più banale perché all'interno
+
+2073
+01:46:49.040 --> 01:46:54.280
+di quell'edificio
+
+2074
+01:46:51.159 --> 01:46:57.320
+c'è la sede della nostra sezione
+
+2075
+01:46:54.280 --> 01:47:00.440
+a Pisa, la sezione di Pisa, però non
+
+2076
+01:46:57.320 --> 01:47:03.840
+siamo a Pisa. Quella che vedete nel
+
+2077
+01:47:00.440 --> 01:47:07.360
+nello sfondo è la Villa Medicea di
+
+2078
+01:47:03.840 --> 01:47:09.960
+Coltano, che per chi non lo sapesse, ma
+
+2079
+01:47:07.360 --> 01:47:13.760
+penso nel nostro ambiente il nome sia
+
+2080
+01:47:09.960 --> 01:47:18.320
+abbastanza noto, è una località a pochi
+
+2081
+01:47:13.760 --> 01:47:21.000
+chilometri, 7 km da Pisa ed è una
+
+2082
+01:47:18.320 --> 01:47:23.920
+località particolarmente
+
+2083
+01:47:21.000 --> 01:47:28.679
+nota, o perlomeno lo dovrebbe essere nel
+
+2084
+01:47:23.920 --> 01:47:32.239
+nostro ambito, perché è legata
+
+2085
+01:47:28.679 --> 01:47:34.639
+pesantemente al mondo
+
+2086
+01:47:32.239 --> 01:47:37.880
+della radio ed in particolare agli
+
+2087
+01:47:34.639 --> 01:47:41.920
+esperimenti condotti da Guglielmo
+
+2088
+01:47:37.880 --> 01:47:44.880
+Marconi perché a Pisa,
+
+2089
+01:47:41.920 --> 01:47:48.440
+alla fine degli anni 10 del secolo
+
+2090
+01:47:44.880 --> 01:47:51.320
+soccorso, mi sembra l'inaugurazione
+
+2091
+01:47:48.440 --> 01:47:53.520
+era del 1912,
+
+2092
+01:47:51.320 --> 01:47:56.599
+non vorrei
+
+2093
+01:47:53.520 --> 01:47:57.520
+dar numeri sbagliati, comunque fu
+
+2094
+01:47:56.599 --> 01:48:01.520
+installato
+
+2095
+01:47:57.520 --> 01:48:05.040
+la quella che all'epoca era la stazione
+
+2096
+01:48:01.520 --> 01:48:07.520
+radio più potente al mondo. Quindi,
+
+2097
+01:48:05.040 --> 01:48:10.199
+purtroppo, noi italiani non abbiamo la
+
+2098
+01:48:07.520 --> 01:48:15.040
+tendenza a non valorizzare
+
+2099
+01:48:10.199 --> 01:48:18.199
+il nostro patrimonio storico. questo
+
+2100
+01:48:15.040 --> 01:48:20.800
+al di là dell'aspetto radio, eh questa
+
+2101
+01:48:18.199 --> 01:48:25.480
+forse forse perché ne abbiamo talmente
+
+2102
+01:48:20.800 --> 01:48:27.679
+tanti di di di valori di patrimoni
+
+2103
+01:48:25.480 --> 01:48:32.760
+artistici e storici che non ci facciamo
+
+2104
+01:48:27.679 --> 01:48:32.760
+più caso, ma purtroppo
+
+2105
+01:48:32.840 --> 01:48:37.360
+i ruderi della della stazione che poi è
+
+2106
+01:48:35.280 --> 01:48:40.040
+stata distrutta durante gli eventi
+
+2107
+01:48:37.360 --> 01:48:43.360
+bellici della seconda guerra mondiale e
+
+2108
+01:48:40.040 --> 01:48:46.199
+già sono in stato di abbandono.
+
+2109
+01:48:43.360 --> 01:48:49.639
+come dire, tante promesse, ma ancora non
+
+2110
+01:48:46.199 --> 01:48:52.199
+nessuno li ha recuperati,
+
+2111
+01:48:49.639 --> 01:48:55.040
+però, ecco, dal nostro punto di vista
+
+2112
+01:48:52.199 --> 01:48:57.159
+hanno avrebbero sicuramente
+
+2113
+01:48:55.040 --> 01:48:59.080
+un grande
+
+2114
+01:48:57.159 --> 01:49:02.320
+valore. Quindi noi abbiamo avuto la
+
+2115
+01:48:59.080 --> 01:49:04.719
+fortuna, fra virgolette,
+
+2116
+01:49:02.320 --> 01:49:07.159
+che l'amministrazione locale ci ha
+
+2117
+01:49:04.719 --> 01:49:10.360
+assegnato uno spazio
+
+2118
+01:49:07.159 --> 01:49:13.800
+lì all'interno della Villa Medicea,
+
+2119
+01:49:10.360 --> 01:49:17.000
+nella speranza che ancora coltiviamo che
+
+2120
+01:49:13.800 --> 01:49:19.920
+se oggi o domani, come ogni tanto
+
+2121
+01:49:17.000 --> 01:49:21.679
+qualcuno promette, fosse recuperata la
+
+2122
+01:49:19.920 --> 01:49:24.080
+stazione
+
+2123
+01:49:21.679 --> 01:49:26.679
+Marconi, di poter addirittura
+
+2124
+01:49:24.080 --> 01:49:28.440
+indegnamente essere ospitati in quella
+
+2125
+01:49:26.679 --> 01:49:32.119
+in quell'area.
+
+2126
+01:49:28.440 --> 01:49:35.280
+Quindi se qualcuno passa da quelle parti
+
+2127
+01:49:32.119 --> 01:49:38.239
+vi invito magari a farci un giretto e
+
+2128
+01:49:35.280 --> 01:49:41.119
+poi se lo sappiamo
+
+2129
+01:49:38.239 --> 01:49:45.159
+per tempo possiamo anche organizzare di
+
+2130
+01:49:41.119 --> 01:49:49.119
+e di incontrarci presso la la nostra
+
+2131
+01:49:45.159 --> 01:49:51.920
+sede, però ecco, il valore è sicuramente
+
+2132
+01:49:49.119 --> 01:49:55.159
+legato a questo
+
+2133
+01:49:51.920 --> 01:49:57.639
+e penso che Alessio si si riferisse
+
+2134
+01:49:55.159 --> 01:50:00.719
+esattamente a questo aspetto.
+
+2135
+01:49:57.639 --> 01:50:03.119
+Assolutamente sì. Anzi, suggerisco, se
+
+2136
+01:50:00.719 --> 01:50:05.320
+siete in zona fateci un salto,
+
+2137
+01:50:03.119 --> 01:50:08.840
+ovviamente previa
+
+2138
+01:50:05.320 --> 01:50:10.599
+previ accordi con la sezione o comunque
+
+2139
+01:50:08.840 --> 01:50:13.840
+con il custode perché c'è anche un
+
+2140
+01:50:10.599 --> 01:50:16.920
+bellissimo museo molto interessante che
+
+2141
+01:50:13.840 --> 01:50:20.360
+ripercorre un chiamarlo museo è un po'
+
+2142
+01:50:16.920 --> 01:50:23.320
+forse eccessivo comunque. Vabbè, però
+
+2143
+01:50:20.360 --> 01:50:26.159
+>> sì, tra l'altro sul sempre sul nostro
+
+2144
+01:50:23.320 --> 01:50:29.960
+sito e che io continuo a far pubblicità,
+
+2145
+01:50:26.159 --> 01:50:33.920
+ecco, ci sono c'è sia la la descrizione
+
+2146
+01:50:29.960 --> 01:50:36.440
+di di quello che era stata la stazione
+
+2147
+01:50:33.920 --> 01:50:38.040
+Marconi, c'è un po' di documenti acque
+
+2148
+01:50:36.440 --> 01:50:40.599
+storici da questo punto di vista
+
+2149
+01:50:38.040 --> 01:50:43.480
+interessanti e anche un minimo di
+
+2150
+01:50:40.599 --> 01:50:47.320
+istruzioni per chi eventualmente volesse
+
+2151
+01:50:43.480 --> 01:50:48.760
+fare una visita. Scusami Alessio se ti
+
+2152
+01:50:47.320 --> 01:50:52.199
+ho interrotto.
+
+2153
+01:50:48.760 --> 01:50:52.199
+>> Prego, ci mancherebbe.
+
+2154
+01:50:52.239 --> 01:50:56.280
+Comunque ripeto, molto interessante, una
+
+2155
+01:50:54.440 --> 01:50:59.480
+visita molto interessante perché
+
+2156
+01:50:56.280 --> 01:51:01.079
+ripercorre un po' quello che è stata la
+
+2157
+01:50:59.480 --> 01:51:03.719
+storia,
+
+2158
+01:51:01.079 --> 01:51:06.520
+lo posso chiamare indegnamente il nostro
+
+2159
+01:51:03.719 --> 01:51:11.320
+padre, il nostro padre radioamatore,
+
+2160
+01:51:06.520 --> 01:51:14.280
+>> ma guarda, direi di sì, anche perché eh
+
+2161
+01:51:11.320 --> 01:51:16.400
+poi io, come dire, forse in qualche
+
+2162
+01:51:14.280 --> 01:51:19.360
+altra occasione l'ho detto, sono
+
+2163
+01:51:16.400 --> 01:51:22.760
+abbastanza
+
+2164
+01:51:19.360 --> 01:51:24.599
+appassionato della della parte storica.
+
+2165
+01:51:22.760 --> 01:51:28.280
+della storia in genere e della
+
+2166
+01:51:24.599 --> 01:51:29.800
+componente storica del del nostro mondo.
+
+2167
+01:51:28.280 --> 01:51:32.760
+E
+
+2168
+01:51:29.800 --> 01:51:35.360
+perché ti dico di sì? Perché in realtà
+
+2169
+01:51:32.760 --> 01:51:38.520
+Marconi
+
+2170
+01:51:35.360 --> 01:51:40.520
+non è uno scienziato, come dire,
+
+2171
+01:51:38.520 --> 01:51:44.440
+tradizionale, cioè che viene dal mondo
+
+2172
+01:51:40.520 --> 01:51:46.560
+accademico e da studi accademici e
+
+2173
+01:51:44.440 --> 01:51:50.040
+quant'altro. Anzi, all'epoca,
+
+2174
+01:51:46.560 --> 01:51:52.000
+all'inizio, come dire, era anche in
+
+2175
+01:51:50.040 --> 01:51:56.880
+parte snobbato
+
+2176
+01:51:52.000 --> 01:52:01.320
+dalla dalla scienza perché le conoscenze
+
+2177
+01:51:56.880 --> 01:52:02.960
+dell'epoca, e io aggiungo anche a ragion
+
+2178
+01:52:01.320 --> 01:52:05.639
+veduta,
+
+2179
+01:52:02.960 --> 01:52:07.800
+erano tali per cui ritenevano
+
+2180
+01:52:05.639 --> 01:52:09.960
+impossibile l'utilizzo
+
+2181
+01:52:07.800 --> 01:52:13.560
+de campi elettromagnetici per
+
+2182
+01:52:09.960 --> 01:52:16.679
+comunicazioni a a distanza, perché, come
+
+2183
+01:52:13.560 --> 01:52:18.599
+dire, lo studio teorico diceva che le
+
+2184
+01:52:16.679 --> 01:52:21.719
+onde elettromagnetiche propagano in
+
+2185
+01:52:18.599 --> 01:52:24.079
+linea retta e quindi oltre l'orizzonte
+
+2186
+01:52:21.719 --> 01:52:27.040
+non servono più a nulla. In realtà è
+
+2187
+01:52:24.079 --> 01:52:28.880
+vero, quello che non sapevano era
+
+2188
+01:52:27.040 --> 01:52:31.880
+dell'esistenza
+
+2189
+01:52:28.880 --> 01:52:33.920
+di tutta una serie di cose
+
+2190
+01:52:31.880 --> 01:52:36.239
+aggiuntive a partire appunto dalla
+
+2191
+01:52:33.920 --> 01:52:42.079
+riflessione ionosferica
+
+2192
+01:52:36.239 --> 01:52:46.599
+e e giù di là. Quindi lui, come dire, eh
+
+2193
+01:52:42.079 --> 01:52:50.079
+in modo abbastanza anche eh, come potrei
+
+2194
+01:52:46.599 --> 01:52:53.400
+definire, un po' caparbio, un po' da da
+
+2195
+01:52:50.079 --> 01:52:56.280
+da a testa bassa, è andato avanti con i
+
+2196
+01:52:53.400 --> 01:53:00.320
+suoi esperimenti che, ripeto, in realtà
+
+2197
+01:52:56.280 --> 01:53:03.119
+non avevano un fondamento scientifico
+
+2198
+01:53:00.320 --> 01:53:05.079
+certo, ma si sono basati quasi
+
+2199
+01:53:03.119 --> 01:53:09.159
+esclusivamente sulle esperienze
+
+2200
+01:53:05.079 --> 01:53:11.719
+pratiche, un po' come dire fanno molti
+
+2201
+01:53:09.159 --> 01:53:13.800
+molti di noi e in realtà poi alla fine
+
+2202
+01:53:11.719 --> 01:53:16.320
+ha avuto ragione.
+
+2203
+01:53:13.800 --> 01:53:18.360
+Probabilmente c'è stato di mezzo un po'
+
+2204
+01:53:16.320 --> 01:53:21.400
+anche di fortuna perché probabilmente
+
+2205
+01:53:18.360 --> 01:53:23.079
+nessuno avrebbe potuto prevedere
+
+2206
+01:53:21.400 --> 01:53:27.280
+l'esistenza
+
+2207
+01:53:23.079 --> 01:53:29.400
+del degli strati della della ionosfera
+
+2208
+01:53:27.280 --> 01:53:30.880
+fino a quando non è stata rilevata la
+
+2209
+01:53:29.400 --> 01:53:33.719
+presenza.
+
+2210
+01:53:30.880 --> 01:53:38.320
+Quindi è per questo che, come dire,
+
+2211
+01:53:33.719 --> 01:53:41.440
+credo lo si possa assimilare ad a ad uno
+
+2212
+01:53:38.320 --> 01:53:44.520
+smanettone qual è di per definizione il
+
+2213
+01:53:41.440 --> 01:53:46.560
+radiamatore medio.
+
+2214
+01:53:44.520 --> 01:53:49.560
+>> Vero,
+
+2215
+01:53:46.560 --> 01:53:49.560
+verissimo.
+
+2216
+01:53:51.280 --> 01:53:56.199
+Comunque
+
+2217
+01:53:51.960 --> 01:53:56.199
+>> va bene, veniamo alle domande perione.
+
+2218
+01:53:56.360 --> 01:54:00.480
+>> Perfetto. Dicevo, avevo visto prima
+
+2219
+01:53:58.599 --> 01:54:03.639
+qualche mano alzata perché poi io mi
+
+2220
+01:54:00.480 --> 01:54:05.400
+lascio trascinare. Alessio lo sa in
+
+2221
+01:54:03.639 --> 01:54:09.440
+questo mi provoca un po', mi lascio
+
+2222
+01:54:05.400 --> 01:54:09.440
+trascinare da questi ragionamenti.
+
+2223
+01:54:10.639 --> 01:54:14.840
+>> Non basterebbero
+
+2224
+01:54:12.639 --> 01:54:17.079
+altre tre lezioni per poter approfondire
+
+2225
+01:54:14.840 --> 01:54:20.360
+questi argomenti. Pier Paolo,
+
+2226
+01:54:17.079 --> 01:54:20.360
+>> no, davvero.
+
+2227
+01:54:21.079 --> 01:54:24.280
+>> Allora,
+
+2228
+01:54:22.480 --> 01:54:25.960
+>> Paolo,
+
+2229
+01:54:24.280 --> 01:54:29.320
+>> sì,
+
+2230
+01:54:25.960 --> 01:54:32.560
+sì. Ehm
+
+2231
+01:54:29.320 --> 01:54:36.159
+ero ero, diciamo,
+
+2232
+01:54:32.560 --> 01:54:38.000
+mi mi ero fissato ora su su Paolo sui
+
+2233
+01:54:36.159 --> 01:54:40.960
+racconti
+
+2234
+01:54:38.000 --> 01:54:42.639
+eh che stava facendo sulla sulla storia
+
+2235
+01:54:40.960 --> 01:54:44.400
+del
+
+2236
+01:54:42.639 --> 01:54:46.639
+della radio che stava che stava
+
+2237
+01:54:44.400 --> 01:54:48.639
+commentando. Niente, volevo
+
+2238
+01:54:46.639 --> 01:54:52.239
+semplicemente
+
+2239
+01:54:48.639 --> 01:54:55.239
+eh semplicemente dire una cosa. Allora,
+
+2240
+01:54:52.239 --> 01:54:57.199
+io tanto tempo fa, premetto che io ho 64
+
+2241
+01:54:55.239 --> 01:55:00.159
+anni, tanto tempo fa, quando ero un
+
+2242
+01:54:57.199 --> 01:55:03.199
+ragazzino che mi piaceva, allora avevo
+
+2243
+01:55:00.159 --> 01:55:05.679
+il baracchino, il famoso baracchino, ehm
+
+2244
+01:55:03.199 --> 01:55:08.199
+andando al lavoro nella zona, io abito a
+
+2245
+01:55:05.679 --> 01:55:11.040
+Massa, Massa Carara, andavo andando al
+
+2246
+01:55:08.199 --> 01:55:13.679
+lavoro nella zona del centro Versiglia,
+
+2247
+01:55:11.040 --> 01:55:16.719
+quindi Camaiore, Pietra Santa, cose del
+
+2248
+01:55:13.679 --> 01:55:20.679
+genere, c'è c'era ora, cioè l'edificio
+
+2249
+01:55:16.719 --> 01:55:23.719
+c'è ancora c'è c'era un impianto su un
+
+2250
+01:55:20.679 --> 01:55:29.280
+hotel proprio sul lungomare
+
+2251
+01:55:23.719 --> 01:55:32.400
+che era aveva eh decine di direttive
+
+2252
+01:55:29.280 --> 01:55:36.239
+tutte puntate in una direzione, fisse,
+
+2253
+01:55:32.400 --> 01:55:38.800
+puntate in quella direzione. E appunto
+
+2254
+01:55:36.239 --> 01:55:44.159
+questa qui era la domanda lì per Paolo.
+
+2255
+01:55:38.800 --> 01:55:49.480
+Ehm eh da chi ne sapeva più di me diceva
+
+2256
+01:55:44.159 --> 01:55:52.639
+che eh le usava con l'aiuto, diciamo,
+
+2257
+01:55:49.480 --> 01:55:55.880
+della Luna, cioè rifletteva, eh lui
+
+2258
+01:55:52.639 --> 01:55:59.159
+prendeva le ehm
+
+2259
+01:55:55.880 --> 01:56:03.560
+ora diciamo faceva un effetto specchio
+
+2260
+01:55:59.159 --> 01:56:06.520
+con la Luna per riflettere o prendere
+
+2261
+01:56:03.560 --> 01:56:09.000
+segnali dall'altra parte del globo.
+
+2262
+01:56:06.520 --> 01:56:12.560
+È possibile questo fatto?
+
+2263
+01:56:09.000 --> 01:56:16.719
+>> Certo, è possibile ed è diventata una
+
+2264
+01:56:12.560 --> 01:56:20.280
+prassi, non dico comune, eh, cioè
+
+2265
+01:56:16.719 --> 01:56:22.920
+all'epoca a cui ti riferisci era
+
+2266
+01:56:20.280 --> 01:56:26.000
+abbastanza
+
+2267
+01:56:22.920 --> 01:56:27.679
+eh raro, anche perché i mezzi
+
+2268
+01:56:26.000 --> 01:56:32.679
+disponibili
+
+2269
+01:56:27.679 --> 01:56:34.960
+eh erano ben diversi. Comunque mh è una
+
+2270
+01:56:32.679 --> 01:56:37.840
+delle attività di nicchia, per così
+
+2271
+01:56:34.960 --> 01:56:41.719
+dire, nel mondo amatoriale, nota col
+
+2272
+01:56:37.840 --> 01:56:45.159
+termine m e me m che sono gli acronimi
+
+2273
+01:56:41.719 --> 01:56:47.159
+di Earth, mo eh, cioè collegamento
+
+2274
+01:56:45.159 --> 01:56:51.079
+Terra, Luna, Terra.
+
+2275
+01:56:47.159 --> 01:56:55.040
+si utilizza generalmente eh si impiegano
+
+2276
+01:56:51.079 --> 01:56:59.040
+generalmente frequenze molto elevate,
+
+2277
+01:56:55.040 --> 01:57:03.800
+diciamo, per quanto ne so io eh
+
+2278
+01:56:59.040 --> 01:57:07.239
+si utilizzano le bande dai 50 MHz
+
+2279
+01:57:03.800 --> 01:57:11.119
+a i Sovista
+
+2280
+01:57:07.239 --> 01:57:16.199
+ho visto di esperimenti condotti
+
+2281
+01:57:11.119 --> 01:57:18.119
+a a recentemente a 70 GHz, però molto
+
+2282
+01:57:16.199 --> 01:57:21.119
+più prosaicamente
+
+2283
+01:57:18.119 --> 01:57:23.760
+l'attività prevalentemente concentrata
+
+2284
+01:57:21.119 --> 01:57:28.440
+tra i 144,
+
+2285
+01:57:23.760 --> 01:57:34.280
+cioè i 2 m 430 70 cm
+
+2286
+01:57:28.440 --> 01:57:37.599
+i 1,2 GB, eh cioè la banda dei 23 cm.
+
+2287
+01:57:34.280 --> 01:57:40.560
+Sono richieste ovviamente mh potenze
+
+2288
+01:57:37.599 --> 01:57:44.119
+abbastanza elevate e sistemi d'antenna
+
+2289
+01:57:40.560 --> 01:57:46.040
+con eh guadagni
+
+2290
+01:57:44.119 --> 01:57:50.920
+altrettanto elevati, anche perché
+
+2291
+01:57:46.040 --> 01:57:53.400
+considerate che la tenuazione media, ora
+
+2292
+01:57:50.920 --> 01:57:55.719
+do i numeri, eh, quindi alla mia età
+
+2293
+01:57:53.400 --> 01:57:57.639
+potrei dire delle stupidaggini, ma il
+
+2294
+01:57:55.719 --> 01:58:01.760
+valore di attenuazione media, se ricordo
+
+2295
+01:57:57.639 --> 01:58:03.920
+bene, in banda 2 m, cioè in 144
+
+2296
+01:58:01.760 --> 01:58:06.199
+per il percorso
+
+2297
+01:58:03.920 --> 01:58:10.960
+Terra, Luna e Ritorno
+
+2298
+01:58:06.199 --> 01:58:16.000
+dovrebbe essere intorno ai 230 dB.
+
+2299
+01:58:10.960 --> 01:58:18.800
+Quindi pensate bene, eh, considerato che
+
+2300
+01:58:16.000 --> 01:58:22.360
+vi do vi do proprio dei numeri tanto per
+
+2301
+01:58:18.800 --> 01:58:26.639
+darli, eh considerate che la soglia
+
+2302
+01:58:22.360 --> 01:58:30.119
+minima di sensibilità di un buon
+
+2303
+01:58:26.639 --> 01:58:33.320
+ricevitore per questo utilizzo è intorno
+
+2304
+01:58:30.119 --> 01:58:38.280
+ai -140 dBM
+
+2305
+01:58:33.320 --> 01:58:40.320
+e vuol dire che per raggiungere 230
+
+2306
+01:58:38.280 --> 01:58:45.800
+dB di attenuazione
+
+2307
+01:58:40.320 --> 01:58:51.960
+ci vogliono vuoto per pieno 90 dB sopra
+
+2308
+01:58:45.800 --> 01:58:56.280
+lo zero e quindi praticamente 60 dB eh
+
+2309
+01:58:51.960 --> 01:58:59.920
+sopra il watt e quindi
+
+2310
+01:58:56.280 --> 01:59:04.159
+eh erp dell'ordine di alcuni megaw tanto
+
+2311
+01:58:59.920 --> 01:59:07.159
+per proprio per dare i numeri a a
+
+2312
+01:59:04.159 --> 01:59:07.159
+spannare
+
+2313
+01:59:07.599 --> 01:59:13.079
+con potenza elettrica di questo tipo, ma
+
+2314
+01:59:10.239 --> 01:59:16.079
+l'RP di questo livello si ottiene con
+
+2315
+01:59:13.079 --> 01:59:19.320
+guadagni d'antenna elevatissimi. Poi la
+
+2316
+01:59:16.079 --> 01:59:22.520
+cosa si complica perché ci vogliono
+
+2317
+01:59:19.320 --> 01:59:24.440
+sistemi di antenna
+
+2318
+01:59:22.520 --> 01:59:27.840
+per che per avere questi guadagni
+
+2319
+01:59:24.440 --> 01:59:31.040
+avranno un fascio estremamente stretto e
+
+2320
+01:59:27.840 --> 01:59:32.639
+quindi ci vogliono sistemi automatici di
+
+2321
+01:59:31.040 --> 01:59:35.719
+inseguimento
+
+2322
+01:59:32.639 --> 01:59:38.719
+della Luna che nel frattempo si sposta e
+
+2323
+01:59:35.719 --> 01:59:43.040
+e così via. Comunque un bel giochino
+
+2324
+01:59:38.719 --> 01:59:46.159
+oggi, diciamo, eh più accessibile
+
+2325
+01:59:43.040 --> 01:59:48.000
+perché l'uso dei sistemi di modulazione
+
+2326
+01:59:46.159 --> 01:59:50.639
+digitale,
+
+2327
+01:59:48.000 --> 01:59:54.960
+alcuni tipi di codifiche ci permettono
+
+2328
+01:59:50.639 --> 02:00:00.159
+di guadagnare fino a 25
+
+2329
+01:59:54.960 --> 02:00:01.800
+anche qualcosa di più di B rispetto a a
+
+2330
+02:00:00.159 --> 02:00:05.400
+ai tempi pioneristici in cui i
+
+2331
+02:00:01.800 --> 02:00:09.599
+collegamenti erano effettuati in CV, per
+
+2332
+02:00:05.400 --> 02:00:12.840
+cui i 25 dB guadagnati dai dalle
+
+2333
+02:00:09.599 --> 02:00:15.360
+codifiche digitali sono risparmiati
+
+2334
+02:00:12.840 --> 02:00:20.000
+sulle potenze, sui guadagni d'antenna,
+
+2335
+02:00:15.360 --> 02:00:24.000
+però è una realtà eh che che esiste. È
+
+2336
+02:00:20.000 --> 02:00:26.599
+una cosa anche abbastanza divertente per
+
+2337
+02:00:24.000 --> 02:00:28.480
+chi ha avuto qualche esperienza in
+
+2338
+02:00:26.599 --> 02:00:30.440
+materia.
+
+2339
+02:00:28.480 --> 02:00:33.800
+Ah, ma era impressionante vederla
+
+2340
+02:00:30.440 --> 02:00:36.119
+perché, ripeto, eh questo hotel qui era,
+
+2341
+02:00:33.800 --> 02:00:39.119
+non so se aveva 4 5 se piani, non
+
+2342
+02:00:36.119 --> 02:00:42.280
+ricordo, e poi vedevi in cima tutte
+
+2343
+02:00:39.119 --> 02:00:49.079
+queste direttive posizionate tutte sulla
+
+2344
+02:00:42.280 --> 02:00:51.880
+stessa direzione e appunto io poi non io
+
+2345
+02:00:49.079 --> 02:00:54.679
+io conoscevo l'antenna, la la la Grand
+
+2346
+02:00:51.880 --> 02:00:59.239
+Plane e basta, ecco, conoscevo quella e
+
+2347
+02:00:54.679 --> 02:01:03.960
+basta. Quindi per me la considera che
+
+2348
+02:00:59.239 --> 02:01:06.320
+>> all'epoca eh in 144 perché il la prima
+
+2349
+02:01:03.960 --> 02:01:08.599
+banda utilizzato, diciamo, le bande su
+
+2350
+02:01:06.320 --> 02:01:14.880
+cui si è iniziato a fare questo tipo di
+
+2351
+02:01:08.599 --> 02:01:16.400
+attività erano i 2,70 cm. il 144 il
+
+2352
+02:01:14.880 --> 02:01:20.599
+l'equipaggiamento
+
+2353
+02:01:16.400 --> 02:01:24.599
+proprio minimo minimo minimo erano
+
+2354
+02:01:20.599 --> 02:01:29.639
+quattro antenne di agi eh da 20
+
+2355
+02:01:24.599 --> 02:01:34.679
+elementi, quindi lunghe eh quasi 10 m eh
+
+2356
+02:01:29.639 --> 02:01:39.199
+accoppiate eh su un cartello a diciamo
+
+2357
+02:01:34.679 --> 02:01:42.280
+2x du e quindi fai conto che era una
+
+2358
+02:01:39.199 --> 02:01:43.800
+struttura che
+
+2359
+02:01:42.280 --> 02:01:48.199
+aveva
+
+2360
+02:01:43.800 --> 02:01:50.960
+circa 4 m4 come supporto e e sopra
+
+2361
+02:01:48.199 --> 02:01:52.719
+c'erano quattro antenne lunghe 10 m,
+
+2362
+02:01:50.960 --> 02:01:57.320
+quello era il minimo. Poi c'è chi ne
+
+2363
+02:01:52.719 --> 02:02:02.719
+usava 8, chi ne usava 16 addirittura
+
+2364
+02:01:57.320 --> 02:02:05.960
+e quindi con strutture che da un punto
+
+2365
+02:02:02.719 --> 02:02:08.440
+di vista meccanico erano veramente
+
+2366
+02:02:05.960 --> 02:02:10.800
+veramente imponenti. Ora, ripeto, si
+
+2367
+02:02:08.440 --> 02:02:14.639
+riesce a fare
+
+2368
+02:02:10.800 --> 02:02:17.079
+addirittura io conosco
+
+2369
+02:02:14.639 --> 02:02:20.599
+persone che
+
+2370
+02:02:17.079 --> 02:02:24.440
+riescono a fare traffico e anche con una
+
+2371
+02:02:20.599 --> 02:02:29.280
+sola Yaji, ovviamente non un'antenna
+
+2372
+02:02:24.440 --> 02:02:32.280
+piccolina, ma insomma con Iagi da 16
+
+2373
+02:02:29.280 --> 02:02:34.000
+elementi si riesce a cominciare a far
+
+2374
+02:02:32.280 --> 02:02:36.400
+qualcosa
+
+2375
+02:02:34.000 --> 02:02:38.079
+con utilizzando sistemi digitali e
+
+2376
+02:02:36.400 --> 02:02:41.679
+potenze ovviamente
+
+2377
+02:02:38.079 --> 02:02:44.480
+al limite del del legal power, cioè dei
+
+2378
+02:02:41.679 --> 02:02:49.760
+500 W
+
+2379
+02:02:44.480 --> 02:02:49.760
+ammessi dalla dalla normativa italiana.
+
+2380
+02:02:50.280 --> 02:02:54.960
+Paolo, io sarei per interrompere la
+
+2381
+02:02:52.599 --> 02:02:57.239
+registrazione. Eh, so se ci sono altre
+
+2382
+02:02:54.960 --> 02:03:02.199
+domande più che volentieri. Eh sì, sì,
+
+2383
+02:02:57.239 --> 02:03:02.199
+magari si fa un po' di diciamo di

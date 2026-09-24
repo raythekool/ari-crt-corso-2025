@@ -1,0 +1,2371 @@
+00:03 Perfetto.
+00:05 Allora, metto in condivisione lo
+00:07 schermo. Buonasera di nuovo a tutti,
+00:10 anche da parte mia
+00:12 e stasera continuiamo il programma nella
+00:15 parte eh
+00:18 tecnica
+00:20 e stasera parliamo di un nuovo
+00:23 componente elettronico che è il diodo e
+00:27 parliamo degli alimentatori, gli
+00:29 alimentatori lineari e gli alimentatori
+00:32 a commutazione, cioè detti anche
+00:34 switching.
+00:35 usiamo il solito approccio che abbiamo
+00:37 sempre usato e racconto io un argomento,
+00:41 poi mi fermo e vi do spazio per le per
+00:44 le domande. Allora, intanto parliamo del
+00:46 diodo.
+00:48 Intanto, cos'è un diodo? Il diodo è un
+00:50 dispositivo a semiconduttore, come
+00:53 leggete qua, che consente il passaggio
+00:56 di una corrente in un solo senso.
+00:58 Allora, intanto cosa vuol dire
+01:00 semiconduttore? Vuol dire che il diodo,
+01:03 e poi questa stessa cosa la vedremo
+01:04 anche per i transistor fetti mosfet, ehm
+01:08 è composto usando di base un materiale,
+01:10 nella parte specie il silicio, che non è
+01:13 né un conduttore né né un isolante. È un
+01:16 un dispositivo che fa passare la
+01:18 corrente, ma non tanto bene. Somiglia
+01:20 più a un isolante che a un conduttore.
+01:22 Ricordate che quando si era parlato di
+01:24 corrente elettrica avevamo parlato dei
+01:26 materiali in cui la corrente scorre
+01:28 bene, che sono tutti metalli, no? rame,
+01:29 argento, oro e così via. E avevamo
+01:32 parlato anche dei materiali in cui la
+01:33 corrente non scorre bene, gli isolanti
+01:36 stile teflon, plastica, vetro, eccetera
+01:39 eccetera. I semiconduttori stanno nel
+01:41 mezzo, sono abbastanza
+01:44 una resistività abbastanza
+01:46 abbastanza elevata e quindi questo non
+01:49 non li ha mai resi utili dal punto di
+01:51 vista di costruire cavi elettrici, per
+01:53 intenderci, no? però poi e alla fine del
+01:56 dopoguerra è stata scoperta, sono state
+01:57 scoperte le proprietà dei semiconduttori
+01:59 che vediamo ora che hanno che hanno
+02:02 consentito la costruzione sia del diodo
+02:04 che del transistor.
+02:06 E poi l'altra particolarità del diodo è
+02:08 che, come vedete anche in questa in
+02:12 questa immagine, questo è un piccolo
+02:14 diodo, diciamo, un diodo che
+02:15 probabilmente riesce a gestire correnti
+02:17 di circa 1 amp. Vedete che c'è uno dei
+02:19 terminali del diodo chiaramente marcato.
+02:22 Vedete che qui c'è questa banda eh
+02:25 bianca. Fino a ora noi abbiamo visto
+02:27 sempre componenti che in qualche modo
+02:29 potrebbero essere montati in maniera
+02:31 indifferente, senza verso tutti i
+02:34 resistori, tutti gli induttori.
+02:37 Solamente nel caso dei condensatori
+02:38 elettrolitici, ma solamente in quello.
+02:41 Avevamo visto dei condensatori che
+02:42 avevano un verso solo perché ricordate
+02:44 che nei condensatori elettrolitici c'è
+02:46 si usa appunto un un dielettrico, un
+02:48 elettrolita particolare per avere valori
+02:52 alti di capacità che richiede, diciamo,
+02:55 di al condensatore di avere sempre
+02:57 tensioni positive da una parte e
+02:59 tensioni negative dall'altra. E il diodo
+03:01 invece è appunto un un dispositivo che
+03:04 ha i terminali molto chiaramente
+03:06 marcati, no? Allora, cosa cosa c'è
+03:09 dentro diodo?
+03:11 Il diodo è composto da due parti di
+03:13 silicio drogato. Vedremo poi fra un
+03:16 attimo cosa si intende per droggio. Il
+03:18 drogaggio può essere di tipo negativo,
+03:21 drogaggio N, o di tipo positivo, drogio
+03:24 P. Fra un attimo vi spiego cosa
+03:26 significano questi due drogi. E il
+03:30 diodo, in pratica è composto dall'unione
+03:32 di queste due parti di silicio drogato
+03:35 in maniera diversa, una P e una N. E
+03:38 come vedete poi in questa slide, eh
+03:40 queste su queste parti ci sono delle
+03:42 metallizzazioni a cui è collegato il
+03:45 terminale che esce dal diodo, il
+03:47 cosiddetto reoforo. Qua sotto vedete lo
+03:50 schema elettrico del diodo.
+03:52 I due terminali si chiamano anodo e
+03:55 catodo. Chi conosce un po' le valvole
+03:56 termoioniche queste parole se le ricorda
+03:59 perché dagli anni 30 l'anno del catodo
+04:02 sono dei terminali delle valvole. ne
+04:04 parleremo nella nella prossima lezione.
+04:06 E vedete che il simbolo elettrico del
+04:08 diodo è questa è questa freccia, la
+04:10 freccia che parte dall'anodo e punta al
+04:12 catod. Ovviamente questa freccia è
+04:13 rappresentativa, vuol dire che eh la
+04:16 corrente nel diodo può scorrere
+04:18 solamente in questo verso, nel verso
+04:20 della freccia.
+04:22 E in questo in questo mini schema vedete
+04:24 come come funziona. Eh, scusate che non
+04:27 ritrovo il cursore. Eccolo qua. Allora,
+04:29 vedete che c'è una batteria guardando
+04:31 qui a sinistra e un piccolo carico che
+04:33 che è una lampadina.
+04:36 Qui il diodo è messo nel verso in cui
+04:40 partendo dal positivo e andando al
+04:42 negativo scorrerebbe la corrente, quindi
+04:44 nel verso della freccia. In questa
+04:46 situazione il diodo eh conduce, fa
+04:50 scorrere la corrente. Si dice che in
+04:51 questa situazione in polarizzazione
+04:53 diretta, tant'è che la lampadina si
+04:55 accende.
+04:56 Se si volta il diodo, come vedete qua,
+04:59 tutto il resto è rimasto uguale, no? il
+05:01 generatore sempre col positivo verso
+05:03 l'alto, la lampadina che aspetta di
+05:04 essere accesa. Se si volta il diodo, in
+05:07 questa situazione il diodo è polarizzato
+05:10 in maniera inversa, non si fa
+05:12 attraversare da corrente e la lampadina
+05:14 resta resta spenta. Quindi il diodo ha
+05:17 queste caratteristiche di direzionalità,
+05:19 si fa attraversare da corrente solamente
+05:22 nel verso della della freccia.
+05:26 E vediamo un po' cosa significa droggio.
+05:30 Vi dico due parole, appunto, proprio in
+05:32 estrema sintesi, per farvi capire cosa
+05:34 significa un materiale drogato N e un
+05:36 materiale drogato P. E allora, intanto
+05:38 si parte dal silicio, si è detto, che è
+05:41 il materiale con cui oggi di fatto
+05:43 vengono fatti tutti i semiconduttori. In
+05:46 passato si usava il germanio e ma il
+05:49 silicio è decisamente decisamente
+05:51 migliore. Allora, il silicio è un atomo
+05:55 di silicio ha, se ricordo bene, 14
+05:58 elettroni, 14 elettroni, 14 protoni,
+06:01 eccetera eccetera. Sul numero atomico è
+06:03 14. Di questi 14 elettroni, quattro sono
+06:08 i cosiddetti elettroni di valenza.
+06:09 Allora, cosa sono gli elettroni di
+06:11 valenza? Guardate un attimo questa
+06:12 figura. Questa è una rappresentazione
+06:15 semiartistica
+06:17 del del silicio. Il silicio è un
+06:19 materiale cristallino. I materiali
+06:21 cristallini, come abbiamo visto anche
+06:23 nel quarzo, sono materiali ordinati,
+06:26 quindi hanno una struttura
+06:27 geometricamente molto eh molto regolare,
+06:31 a differenza di altri materiali, per
+06:33 esempio il ferro, tanto per dirne uno,
+06:35 ma anche il rame, che è in una struttura
+06:37 morfa con gli atomi messi un po' a
+06:39 casaccio. Allora, vedete che ogni ogni
+06:43 pallina, ogni atomo di silicio è in
+06:46 qualche modo collegato, attaccato in
+06:49 questa specie di reticolato come se
+06:51 fosse una costruzione, è collegato con
+06:53 un certo numero di atomi che gli stanno
+06:55 attorno. Allora, gli elettroni di
+06:57 valenza sono gli elettroni che fanno
+06:59 esattamente questo tipo di lavoro, cioè
+07:02 sono gli elettroni che realizzano
+07:04 proprio i legami fra un atomo di silicio
+07:06 e gli atomi che stanno attorno, come se
+07:08 fossero il collante, diciamo, di quel
+07:10 reticolo che abbiamo visto prima.
+07:13 Quindi il silicio ha quattro elettroni
+07:15 di valenza. Questi elettroni stanno
+07:18 molto lontani dal nucleo. Vi ricordate
+07:21 che un atomo era fatto da un nucleo
+07:23 degli elettroni che ci stanno attorno?
+07:25 Questi elettroni sono quelli che stagno
+07:27 più lontani dal nucleo di tutti i 14
+07:29 elettroni del silicio, proprio perché eh
+07:33 realizzano questo scopo di collegare
+07:35 l'atomo di essilicio agli atomi che
+07:37 stanno attorno. Allora, a questo punto
+07:39 essericio si può drogare N. Cominciamo
+07:42 da da questa parte qua un attimo solo
+07:45 che ritrovo il cursore. Drogaggio di
+07:47 tipo N. Cosa si fa? si sostituisce
+07:51 un certo numero di atomi di silicio con
+07:54 atomi, ad esempio, di arsenico che hanno
+07:58 un elettrone di valenza in più, ne hanno
+08:00 cinque.
+08:02 Questa sostituzione è molto rara. torno
+08:05 qua. E immaginate che le cellule del eh
+08:11 arsenico, per esempio, che stiamo
+08:12 facendo, siano queste eh indicate da un
+08:15 cerchio rosso, cioè sono poche. Col
+08:18 drogaggio viene sostituito un atomo ogni
+08:20 10.000, un atomo ogni 100.000. ne
+08:22 bastano, ne bastano pochi per arrivare
+08:24 al risultato
+08:26 e con un procedimento, diciamo, di
+08:29 diciamo di, diciamo, fatto da opportuni
+08:32 dispositivi, eh è possibile sostituire,
+08:35 appunto, un certo numero di atomi di
+08:38 silicio con atomi di arsenico.
+08:41 L'atomo d'arsenico ha cinque elettroni
+08:42 di valenza, però nel momento in cui
+08:44 l'arsenico si trova inserito in un
+08:46 reticolo di atomi di silicio, può usarne
+08:49 al massimo quattro perché si deve
+08:52 comportare come se fosse un atomo di
+08:54 silicio anche lui. Cioè il quinto
+08:56 elettrone non sa chi darlo, no? Perché
+08:58 attorno a tutti gli atomi di silicio che
+09:00 sono predisposti per usarne quattro.
+09:03 Quindi così facendo ogni si formano
+09:06 degli elettroni liberi, cioè dei cinque
+09:08 elettroni di valenza del dell'arsenico.
+09:11 Quattro vengono usati come se fossimo
+09:13 nel caso del silicio per i legami con
+09:16 gli atomi circostanti e uno resta
+09:18 libero. è una carica libera, quindi un
+09:20 materiale di tipo N può essere, ad
+09:22 esempio, attraversato da corrente perché
+09:24 questo quinto elettrone di fatto è
+09:27 libero, come nei metalli, e quindi può
+09:29 essere fatto scorrere abbastanza
+09:31 facilmente come se fosse una corrente
+09:33 elettrica.
+09:35 Il drogaggio di tipo P è quello
+09:37 simmetrico, si sostituisce
+09:40 uno ogni tanto degli atomi del silicio
+09:43 con un materiale, per esempio l'indio,
+09:45 che ha tre elettroni di valenza.
+09:49 A questo punto, immaginando di di essere
+09:52 in questo reticolo cristallino,
+09:54 immaginiamo che questo qui sia un atomo
+09:55 di di indio, ho tre elettroni di
+09:58 valenza, uno, diciamo, 2 e 3. Qui mi
+10:01 resta un buco. Qui ci dovrebbe essere il
+10:04 quarto atomo del silicio
+10:07 che mi collegherebbe a l'atomo del
+10:09 silicio accanto. In realtà questo atomo
+10:11 l'indio non ce n'ha perché ne ha solo
+10:13 tre. Qui resta un buco. Quel di buchi
+10:15 nel nel linguaggio del drogaggio sono
+10:18 chiamati lacune e di fatto equivalgono
+10:21 una carica positiva, cioè dove mancano
+10:23 elettroni i i gli atomi diventano ioni
+10:26 positivi e quindi a tutti gli effetti
+10:29 sono una carica positiva. Quindi quando
+10:31 quando prendiamo del silicio e lo
+10:33 troghiamo N facciamo sì che ci siano
+10:36 degli elettroni liberi. Quando lo tramo
+10:38 qui facciamo sì che ci siano delle
+10:40 lacune, cioè dei buchi dove dovrebbe
+10:41 esserci un elettrone, ma non c'è.
+10:45 Quando andiamo a costruire il nostro
+10:47 diodo, cosa succede? Allora, in fabbrica
+10:51 viene realizzata una giunzione, come si
+10:54 diceva prima, cioè in qualche modo si
+10:56 mettono insieme un pezzettino di
+10:58 materiale P e un pezzettino di materiale
+11:00 di tipo N. Allora, nel materiale di tipo
+11:02 N cosa c'è? ci sono degli elettroni
+11:04 liberi, li disegno qua,
+11:07 ma anche qua, cioè in tutto il materiale
+11:10 N ci sono degli elettroni liberi, però
+11:12 nel materiale di tipo P laune,
+11:16 quindi le disegno come dei buchetti
+11:18 vuoti.
+11:20 Allora, cosa succede? Sono qui, ma sono
+11:22 anche qua. Sono in tutta la barretta del
+11:25 del materiale qui. Cosa succede? Vicino
+11:27 alla giunzione gli elettroni che sono
+11:29 liberi cosa fanno? eh zompano dentro la
+11:33 lacuna, cioè in qualche modo la carica
+11:35 negativa viene attratta dalla carica
+11:37 positiva. Lo abbiamo visto nella
+11:39 primissima lezione, no? Che le cariche
+11:40 elettriche di segno opposto si
+11:43 attraggono. Gli elettroni non si
+11:45 possono, scusate, le lacune non si
+11:47 possono muovere, ma gli elettroni sì.
+11:48 Allora questi elettroni finiscono nella
+11:50 lacuna e si neutralizzano l'uno con
+11:53 l'altro. carica positiva e carica
+11:55 negativa si si neutralizzano
+11:57 assolutamente.
+12:00 Quindi si forma una zona che è questa
+12:02 che qui vedete in questa specie di di
+12:04 violetto in cui non ci sono né cariche
+12:07 libere, né elettroni né lacune perché le
+12:11 lacune sono state tutte in qualche modo
+12:14 tappate da uno degli elettroni liberi
+12:16 che deriva dal materiale di tipo N.
+12:18 Questa zona qui si chiama regione di
+12:20 svuotamento. Svuotamento nel senso che è
+12:23 vuota, non ci sono cariche libere né
+12:25 negative né positive.
+12:28 A un certo punto questa regione di
+12:29 svuotamento diventa così larga che le
+12:32 cariche negative che ci sono qua, gli
+12:33 elettroni, non ce la fanno più a passare
+12:35 di là e andare a riempire la laguna.
+12:37 Diciamo c'è un salto troppo alto da fare
+12:40 e non ci riescono.
+12:42 E questo è un diodo. Come lo compriamo?
+12:45 Quando si compra un diodo, lui ci arriva
+12:47 così, costruito in questo modo con la
+12:49 sua regione diuotamento. A questo punto
+12:51 giochiamo un po' ad attaccarlo a una
+12:53 batteria. Vediamo intanto questo primo
+12:56 caso.
+12:59 Qui la batteria dà una polarizzazione
+13:01 inversa, infatti vedete che il positivo
+13:03 della batteria che è qua è attaccato
+13:05 all'
+13:07 terminale n negativo, diciamo, del diodo
+13:10 e viceversa. Allora, cosa farà il
+13:13 positivo della batteria? tenderà a
+13:15 risucchiare le cariche libere negative
+13:19 di elettroni che stanno nella parte N. E
+13:21 lo stesso succede nella parte P, nel
+13:24 senso che il terminale negativo della
+13:26 batteria che è ricco di elettroni in
+13:28 qualche modo mangerà una parte delle,
+13:32 cioè una parte di questi elettroni
+13:33 andranno a colmare un certo numero di
+13:36 lacune nella parte qui. Quindi con una
+13:38 tensione polarizzata inversa cosa
+13:40 succede? Che la regione di svuotamento
+13:42 si allarga.
+13:45 Se invece il diodo lo polarizzo
+13:47 direttamente, come vedete in questi due
+13:49 casi qui, ho una batteria voltata nella
+13:52 parte giusta. Il polo negativo della
+13:54 batteria è attaccato a N, il polo
+13:56 positivo della batteria è attaccato a P.
+13:59 Quindi, per esempio, la parte negativa
+14:02 della batteria mi pompa elettroni
+14:07 da parte di questo terminale. Questi
+14:09 elettroni vanno in qualche modo a si
+14:11 distribuiscono in tutta la barretta e
+14:13 piano piano
+14:15 riempiono anche una parte della regione
+14:18 di svuotamento che ho. Se aumento la
+14:22 tensione di polarizzazione diretta, per
+14:24 esempio, arrivando a 0,7 V, il numero
+14:26 magico di cui parleremo fra un attimo,
+14:29 la regione di sfruttamento si chiude e
+14:31 qui il diodo entra in conduzione.
+14:34 A questo punto non c'è più regime di
+14:35 svuotamento, può scorrere
+14:37 tranquillamente corrente nel mio diodo.
+14:40 Gli elettroni passano così,
+14:43 incontrando una resistenza
+14:45 sostanzialmente modesta. Perché 0,7 V?
+14:50 07 dipende solamente dalla natura del
+14:52 materiale, dal silicio, dalle proprietà
+14:55 chimiche, fisiche, atomiche del silicio
+14:57 fanno sì che un diodo fatto di silicio
+15:00 entra in condizioni a 0,7 V. Punto.
+15:03 Dobbiamo solamente ricordarlo questo 07
+15:05 perché può essere oggetto di una
+15:07 domanda. Quando si usavano altri
+15:09 materiali, per esempio il germanio, il
+15:11 germanio aveva una tensione, una soglia
+15:13 di conduzione di 0,4 volte, no, di 0,7.
+15:16 Ogni materiale intrinsecamente ha una
+15:19 sua tensione.
+15:21 E questo per ora è è tutto. Quindi il
+15:24 diodo, adesso a voi per domande. Il
+15:27 diodo è un materiale fatto con dei
+15:29 semiconduttori. Abbiamo visto che i
+15:30 semiconduttori sono una sorta di oggetti
+15:35 intermedi fra i conduttori veri e gli
+15:37 isolanti veri. Abbiamo visto che il
+15:41 silicio può essere drogato p n.
+15:43 Drogandolo N viene fatto assomigliare un
+15:46 po' più a un conduttore, quindi ci
+15:47 inseriamo degli atomi liberi. Drogando P
+15:50 ci inseriamo delle lacune libere, quindi
+15:52 anche le lacune possono essere utili per
+15:54 il passaggio della corrente elettrica. A
+15:57 seconda di come lo polarizziamo, il
+15:59 diodo si comporta come un interruttore
+16:01 chiuso, cioè che fa passare corrente,
+16:03 come in questo caso qui, o un
+16:05 interruttore aperto, cioè che blocca la
+16:07 corrente come come in questo caso qua. E
+16:11 questo è tutto quello che c'è in qualche
+16:12 modo da sapere per quanto riguarda il
+16:14 funzionamento del diodo. Ci può essere
+16:16 una polarizzazione diretta inversa, ci
+16:18 pu'è una soglia di conduzione che nel
+16:21 caso del silicio è di 0,7 V.
+16:25 Interrompo la condivisione e a voi se ci
+16:28 sono domande. Il primo è Filippo.
+16:32 >> Ciao a tutti, buonasera. Eh no, allora
+16:35 per spiegare bene il discorso del della
+16:37 conduzione eccetera, magari ora non
+16:39 l'hai nominato, però sarebbe forse più
+16:42 semplice pensarla in base alla regola
+16:44 dell'ottetto, quindi la facilità che ha
+16:47 un atomo di arrivare alla configurazione
+16:49 stabile conti elettroni, quindi quelli
+16:51 che hanno di più tendono a cederla per
+16:53 arrivare appunto
+16:55 >> eh sì, però questa è una parte di fisica
+16:58 atomica che non fa parte del programma
+16:59 di esame e quindi per questo, diciamo,
+17:02 la lasciamo fuori.
+17:04 Restiamo a questo livello. Restiamo a
+17:06 questo livello. Non introduciamo
+17:09 materie.
+17:10 >> Eh, perché poi dal sul programma di
+17:12 esami ho da dirvi una cosa dopo la
+17:14 lezione, però collegata al discorso che
+17:16 facevate prima con Silvio. Comunque
+17:19 grazie del suggerimento, ma per
+17:22 >> per ora basta che che diciamo cercate di
+17:24 memorizzare queste poche cose che abbiam
+17:26 detto. Ok,
+17:28 >> ho capito.
+17:30 >> Gianfranco, a te.
+17:38 Gianfranco ha il microfono acceso, ma
+17:40 non si sente la voce.
+17:48 Ancora niente, Gianfranco.
+17:53 Eh, intanto passo a Carlo. Carlo, la tua
+17:56 domanda. Gianfranco intanto cerca di
+17:58 sistemare il microfono.
+18:00 >> Eh, ciao, buonasera. Solo una
+18:02 precisazione. Nella fotografia che hai
+18:04 fatto del diodo, dove c'è quel segnetto
+18:07 bianco, praticamente è dove scorre la
+18:10 corrente, cioè la corrente scorre verso
+18:12 il segneto bianco. Mi sembra di capire
+18:15 qual contratto.
+18:15 >> Sì, esatto, esatto. Giusta domanda. Un
+18:19 attimo che rimetto in condivisione,
+18:21 >> no? per sapere poi uno un domani quando
+18:23 deve deve posizionarla all'interno di un
+18:26 circuito per farlo utilizzare da
+18:29 interruttore aperto o interruttore
+18:31 chiuso.
+18:32 >> Sì, sì, sì. Aspetta, torno indietro.
+18:34 Scusate, tolgo anche
+18:36 i gli scarabocchi in rosso. Allora, i
+18:40 terminali del diodo si chiamano, come
+18:42 come potete leggere qua, anodo e catodo,
+18:44 come dicevamo prima, l'anodo che è
+18:47 questo è il catodo. La striscia bianca
+18:51 indica il catodo, quindi in qualche modo
+18:54 somiglia al al simbolo al simbolo
+18:57 elettrico dove il catodo è questa
+18:59 barretta. Quindi quando compriamo un un
+19:03 diodo in questo tipo di contenitore qua,
+19:06 questo è il catodo.
+19:09 >> Ok.
+19:11 >> Ok, perfetto. Ti ringrazio moltissimo.
+19:13 Grazie
+19:13 >> a te. Gianfranco, sei riuscito a
+19:16 sistemare il microfono?
+19:17 >> Ci provo. Buonasera a tutti. Mi sentite?
+19:20 >> Sì, ora benissimo.
+19:21 >> Oh, bene. Mi ricorderete come quello con
+19:23 problemi al microfono. Allora, una
+19:25 domanda. nel circuito. Eh, questo con la
+19:29 batteria.
+19:31 Esatto. Qui la batteria supponiamo abbia
+19:34 4,5 V. Il diodo, se non mi ricordo male,
+19:39 abbatte la tensione di 0,7
+19:41 V. Giustissimo, giustissimo. Questo poi
+19:44 lo vedremo negli alimentatori.
+19:47 E un diodo ha bisogno di 0,7 V per
+19:50 essere portato in conduzione per essere
+19:51 portato in conduzione e quando, come in
+19:54 questo caso è attraversato da corrente
+19:57 sui capi del diodo, quindi se noi lo
+19:59 misuriamo da qui a qui con uno
+20:01 strumento, diciamo con un voltmetro, il
+20:04 nostro voltmetro misura 0,7 V nel caso
+20:08 di Dio del silicio. Giustissimo.
+20:10 Giustissimo. Perfetto. Grazie.
+20:12 >> Si può dire in altri modi che quando
+20:14 scorre corrente in un dito d'asstilicio
+20:16 cadono cadono 0,7 V.
+20:20 >> Perfetto.
+20:21 >> Grazie Gianfranco. Ottima domanda e
+20:24 >> io ne approfitto anche molte volte per
+20:26 chiamare le stesse cose con parole
+20:28 diverse, no? Una tensione che cade su
+20:31 una resistenza eccetera, perché anche
+20:33 nelle domande d' esame, come avete
+20:34 visto, c'è una grande variabilità di di
+20:36 linguaggio, no? Quindi è bene in qualche
+20:38 modo abituarsi a questo.
+20:41 Adesso riparto e vediamo quali sono i
+20:46 tipi di diodo che vengono normalmente
+20:50 utilizzati.
+20:51 Allora, intanto a cosa serve il diodo?
+20:54 Il diodo può essere usato per tantissime
+20:57 cose diverse. fondamentali sono che
+20:59 serve a raddrizzare le correnti
+21:02 alternate, quindi rende pulsante, poi
+21:05 vedremo fra un attimo cosa vuol dire una
+21:07 corrente pulsante, a rendere pulsante
+21:10 una corrente alternata,
+21:12 cioè il diodo fa una parte del lavoro
+21:13 che serve per trasformare una corrente
+21:15 alternata in una corrente continua e poi
+21:17 quando parleremo dei ricevitori il diodo
+21:20 serve a estrarre da un segnale
+21:24 da una portante modulata in modulazione
+21:26 di ampiezza, ad esempio. esempio, a
+21:28 estrarre il segnale di bassa frequenza.
+21:30 Infatti, se ricordate, vi avevo fatto
+21:32 vedere un piccolo esempio di radio
+21:33 argalena che che praticamente è una
+21:35 radio fatta con un circuito risonante,
+21:37 un diodo. Il diodo ha proprio questa
+21:39 funzione qua, da una portante modulata
+21:41 estrae la voce, diciamo, il segnale
+21:44 segnale modulato.
+21:46 E le caratteristiche del diodo sono che
+21:50 intanto massima tensione inversa.
+21:53 Abbiamo visto che quando un diodo lavora
+21:56 in polarizzazione inversa non si fa
+21:59 attraversare la corrente,
+22:01 però questa tensione inversa eh non può
+22:05 superare un certo valore, altrimenti il
+22:06 diodo si rompe. Quindi i diodi, per
+22:09 esempio, hanno dei valori di tensione
+22:11 inversa sopportabili dell'ordine di
+22:12 500800 1000 V a seconda del tipo di
+22:15 diodo, però se si supera questo valore
+22:17 il diodo chiaramente diciamo scoppia.
+22:21 Quindi le resistenze, diciamo,
+22:24 la caratteristica di una resistenza è
+22:26 quanti ohm ha. La caratteristica di un
+22:28 condensatore quanti farad ha. La
+22:30 caratteristica del dio è le
+22:32 caratteristiche del diodo sono la
+22:34 massima tensione inversa e la massima
+22:37 corrente che può sopportare. Quindi
+22:39 esistono dei diodi, parlando di diodi
+22:41 per il raddrizzamento che possono
+22:43 sopportare correnti di 1 amp, 3 amp, 20
+22:45 amp, eccetera. Al di sopra, chiaramente
+22:48 il diodo si brucia.
+22:50 Eh, volendo questo valore di massima
+22:53 corrente sopportabile si può tradurre
+22:55 anche in massima potenza. Voi sapete,
+22:57 ricordate che la potenza è uguale a V *
+22:59 I. Su un diodo cadono 0,7 V. Quindi se
+23:03 un diodo in qualche modo ha una corrente
+23:06 supportabile di massimo 20 amp, la
+23:09 massima potenza supportabile
+23:11 sopportabile sarà 20* 07, d'accordo?
+23:14 Cioè 14 W in teoria. Quindi questi sono
+23:17 i dati di targa dei diodi, massima
+23:19 tensione inversa e massima corrente in
+23:21 polarizzazione diretta. Di diudi ne
+23:24 esistono vari tipi. Questi cinque sono i
+23:28 fondamentali, il diodo raddrizzatore, il
+23:31 diodo LED, lo zener, il varicup e l'ot
+23:34 carrier. Cosa fanno questi signori
+23:37 diodi? Allora, partiamo dal
+23:38 raddrizzatore. Sul raddrizzatore dico
+23:40 poche cose ora perché poi questo è il
+23:42 componente fondamentale degli
+23:44 alimentatori di cui parleremo fra pochi
+23:46 minuti. diodo raddrizzatore è fatto
+23:49 apposta, è ottimizzato per raddrizzare
+23:53 la corrente, cioè in qualche modo se
+23:55 all'ingresso del diodo noi mettiamo una
+23:57 tensione di tipo sinusoidale alternata,
+24:00 quindi con delle semionde positive e
+24:02 delle semionde negative, il diodo si
+24:05 farà attraversare ovviamente solo dalle
+24:08 semionde positive.
+24:11 Se il diodo è montato in questo verso
+24:13 qua, verso della freccia e quindi
+24:17 all'uscita del diodo troveremo mezze
+24:19 semionde, le semionde negative
+24:23 non attraversano il diodo perché con le
+24:27 semionde negative il diodo è in
+24:29 polarizzazione inversa.
+24:32 Quindi,
+24:34 se noi mettiamo una tensione alternata
+24:36 in ingresso a un diodo, la tensione in
+24:38 uscita sarà solamente positiva, sarà
+24:40 pulsante perché mantiene la forma d'onda
+24:43 di mezze sinosoidi, per questo si chiama
+24:45 pulsante, ma comunque sarà sempre
+24:48 soltanto positiva.
+24:51 Poi abbiamo i diodi LED. I diodi LED li
+24:53 conoscete tutti le nelle nostre case
+24:55 siamo pieni diodi LED, no? Le varie
+24:57 lucine del delle televisione, della
+24:59 stampante, eccetera eccetera. Sono iodi
+25:01 che mettono luce, lavorano in
+25:03 polarizzazione diretta. Quando si
+25:06 prendono questi viodi con un'opportuna
+25:08 resistenza si fa in modo che vengono
+25:10 attraversati da una corrente anche
+25:11 debole del tipo 10-20 mamp. Il diode si
+25:14 accende e fa luce. esistono diodi
+25:16 gialli, verdi, rossi, esistono di
+25:18 multicolori che sono in realtà molti
+25:20 diodi messi insieme. Qui vedete il
+25:24 simbolo,
+25:26 il simbolo elettrico del LED, che è il
+25:29 simbolo di un diodo con queste freccette
+25:31 qua che indicano l'emissione di luce.
+25:34 Quindi lo polarizziamo direttamente, ci
+25:37 facciamo scorrere non tanto, almeno nei
+25:39 diodi LED normali, quelli da
+25:41 segnalazione, come dicevo prima, no?
+25:43 Come si vede ad esempio sul TV, gli
+25:46 basta una corrente di 20 mamp per avere
+25:48 già un diodo acceso in maniera molto
+25:50 brillante. Il questi diodi riescono a
+25:52 trasformare una parte della corrente che
+25:55 gli attraversa in una radiazione
+25:57 luminosa, cioè in fotoni e si accendono.
+26:03 Poi abbiamo i diodi zener. I diodi zener
+26:06 degli stabilizzatori di tensione,
+26:08 lavorano in polarizzazione inversa, come
+26:10 vedete qua. Qui, qui vedete naturalmente
+26:12 il simbolo dell'ener che è fatto con,
+26:15 diciamo, questa, diciamo, lettera,
+26:19 diciamo,
+26:21 questa Z al posto della barretta per
+26:24 dare appunto l'idea del del diodo zener.
+26:28 Allora, qui vediamo una specie di schema
+26:30 di piccolo stabilizzatore di tensione.
+26:32 Questa RL è una resistenza, è è il
+26:35 carico. Diciamo che qui io ho un piccolo
+26:38 circuito elettrico che deve lavorare con
+26:40 una tensione stabilizzata di 12 V e ho,
+26:44 immaginiamo in ingresso, una tensione di
+26:47 un generatore che può essere variabile.
+26:49 Infatti vedete che su questo generatore
+26:51 c'è questa freccia che indica che la
+26:53 tensione in uscita può variare.
+26:56 Immaginiamo che questa tensione possa
+26:58 variare, ad esempio, da 14
+27:01 a 20 V.
+27:04 20.
+27:06 Io compro un diodo zainer da 12 V,
+27:09 quindi quando si compra un diodo zainer
+27:10 si chiede una certa tensione. Voglio uno
+27:13 zainer da 5 V, da 12 V, da 24 V e lo
+27:17 collego in questo modo qua in questo
+27:18 circuito. Il bioto zainer fa in modo che
+27:21 ai suoi capi, da qui a qui, in un
+27:23 circuito di questo genere, cada sempre
+27:26 ci sia sempre una tensione di 12 V.
+27:29 Quindi se il generatore, ad esempio, in
+27:31 certi momenti da 14 la sua tensione sale
+27:34 a 20, il diodo zainer tramite questa
+27:37 resistenza
+27:39 fa in modo di livellare comunque la
+27:42 tensione che sta che è ai suoi capi,
+27:45 stabilizzando quindi questa tensione,
+27:47 per cui il mio carico, il mio circuito
+27:51 elettrico che ho qui a valle vede sempre
+27:53 i 12 V e non solo, se il mio carico
+27:56 anche varia la corrente assorbita, Il
+27:58 diodo continua a fare in modo che anche
+28:01 per variazioni della corrente assorbita
+28:02 dal carico qui ci siano comunque sempre
+28:06 i 12 V garantiti. Questo naturalmente
+28:08 finché lo Zenner lavora nell'ambito
+28:12 delle sue caratteristiche. Se la
+28:13 tensione in ingresso a un certo punto da
+28:16 20 diventasse 200 V, probabilmente il
+28:19 diodo scoppierebbe, no? però diciamo ci
+28:21 si mette il diodo giusto in funzione
+28:23 della dell'ampiezza della tensione da
+28:25 stabilizzare. Sono dei piccoli
+28:27 stabilizzatori, non sono gli
+28:28 stabilizzatori ottimali che vedremo più
+28:30 avanti. Comunque fa in questo tipo di
+28:33 circuiti fanno assolutamente la loro la
+28:36 loro funzione. Poi ci sono dei diodi che
+28:39 funzionano da condensatore variabile, i
+28:41 diodi varicap, lo dice la parola stessa,
+28:43 no? variable
+28:45 capacitor, condensatori variabile e
+28:48 questi come condensatori variabili
+28:50 cambiano la capacità
+28:53 al variare della tensione applicata,
+28:55 quindi fanno proprio le funzioni di un
+28:57 condensatore variabile, lavorano in
+28:58 polarizzazione inversa e quando si
+29:01 comprano questi diodi si comprano in
+29:04 base al campo, diciamo, di capacità che
+29:07 si vuole. Per esempio, ci sono dei diodi
+29:09 che hanno dei campi di capacità che
+29:11 vanno da 15 a, non so, 120 picofarad.
+29:18 Quindi questi diodi possono essere
+29:19 usati, ad esempio, per sintonizzare un
+29:21 circuito risonante senza usare un
+29:24 condensatore variabile. Ricordate come
+29:26 erano fatti i condensatori variabili,
+29:28 no? che li abbiamo visti qualche lezione
+29:30 fa, quelle lamine che entravano l'una
+29:32 nell'altra, cioè sono dei componenti
+29:34 meccanici molto grandi, sensibili alle
+29:36 vibrazioni, costosi da produrre, in cui
+29:40 può entrare la polvere. I diodi entro
+29:43 certi limiti possono fare esattamente il
+29:45 lavoro di un condensatore variabile,
+29:46 essendo estremamente piccoli e vengono
+29:50 in qualche modo gestiti eh
+29:54 variando il livello di polarizzazione
+29:56 inversa. Come funziona un diodo varicap?
+29:59 Allora, tutti i diodi, tutti funzionano
+30:02 anche come condensatore variabile e
+30:04 questo lo si vede qua. Guardate lo
+30:08 schema di base di di un diodo. Qui noi
+30:11 vediamo una zona di materiale conduttore
+30:15 che è questa P e vediamo un'altra zona
+30:18 di materiale conduttore che è questa Nel
+30:21 mezzo vediamo una zona di isolante. Non
+30:24 vi ricorda la forma del condensatore
+30:26 variabile? Il condester variabile era
+30:28 fatto di due armature.
+30:31 Guardate su, scusate un attimo.
+30:34 Dicevo, il condensatore variabile era
+30:36 fatto un condensatore, scusate, era
+30:38 fatto di due armature,
+30:42 diciamo, una questa e l'altra questa,
+30:47 separate da un isolante. Eccolo qua. E
+30:50 ora avete già capito come funziona,
+30:51 secondo me. Quindi questo questo diodo
+30:54 in polarizzazione inversa, se io fra
+30:56 questi terminali con uno strumento un
+30:58 capacetro che misuro la capacità vado a
+31:00 misurare ottengo ho una certa misura,
+31:04 diciamo che siano 20 picofarad.
+31:07 Se io polarizzo il diodo più
+31:09 inversamente, succede che le lam, le
+31:12 piastre del condensatore si allontanano
+31:14 uno dall'altra e quindi la capacità,
+31:16 come avevamo studiato a sto tempo,
+31:18 diminuisce, quindi i miei eventi picar
+31:20 diventano cinque. Oppure invece se io lo
+31:22 polarizzo in modo da avere una regione
+31:25 diotamento più piccola, le armature del
+31:27 condensatore si avvicinano, quindi i
+31:30 miei 20 piccofarad, ad esempio,
+31:32 diventano 40 o 60. Tutti i diodi, tutti
+31:36 i diodi hanno questo tipo di
+31:37 comportamento perché è una
+31:39 caratteristica intrinseca dell'esistenza
+31:41 di una regione di svuotamento fra due
+31:43 regioni conduttive. I dividecap sono
+31:46 fatti in modo da esaltare questa
+31:48 caratteristica, quindi da avere
+31:50 effettivamente un valore di capacità un
+31:51 po' più importante che può servire più
+31:53 nei circuiti.
+31:56 Infine gli OT carrier. Questi sono diodi
+32:00 che non sono fatti con una giunzione PN,
+32:03 ma hanno una hanno una giunzione fra
+32:05 metallo e semiconduttore,
+32:08 quindi c'è una barretta di
+32:09 semiconduttore
+32:11 che anche lei ha il suo drogaggio che
+32:13 può essere N e su questa ed è collegata
+32:16 a una runzione di metallo. Queste cose
+32:18 le vedremo bene come funzionano quando
+32:20 parleremo nella prossima lezione dei dei
+32:23 MOSFET, dei transistro e poi dei MOSFET.
+32:26 La caratteristica che hanno gli or
+32:28 carrier è che sono diodi veloci,
+32:31 ovvero riescono a passare da stato di
+32:34 conduzione a stato di non conduzione
+32:36 molto velocemente, quindi sono usati
+32:39 nelle a delle alte frequenze HF SHF
+32:44 del tipo appunto 100 500 1000
+32:49 MHz.
+32:53 frequenze così alte dove la velocità di
+32:56 di
+32:58 entrata in conduzione di un diodo
+33:00 normale magari non non basterebbe.
+33:03 E questa è una tabellina riassuntiva e
+33:06 diciamo questa tabellina va tenuta molto
+33:08 bene in testa perché le domande che vi
+33:11 possono arrivare all'esame sono
+33:13 esattamente di questo tipo qui. A cosa
+33:14 serve un diodo zener? Risposte. Un diodo
+33:17 zenerem mette luce? No, un diodo Zen e
+33:19 stabilizza la tensione.
+33:21 A cosa serve un diodo varica? Hai una
+33:23 capacità variabile. Cos'è uno scarrier?
+33:25 È un diodo veloce. Cos'è un ledder
+33:27 peluce? Gli addizzatori sono fatti
+33:28 apposta, appunto, per radderizzare, come
+33:31 vedremo adesso nei negli alimentatori.
+33:35 E sui diodi non c'è altro da dire.
+33:37 Diciamo la cosa da sapere su cui è molto
+33:39 probabile che ci siano domande è,
+33:41 diciamo, questo riassunto che vedete
+33:43 qua. E qui mi fermo. Ci sono domande sui
+33:47 diodi? Qualcosa che non è chiaro.
+33:52 Ok, proseguo.
+33:55 Effettivamente i diodi hanno un tipo di
+33:56 funzionamento molto facile. Sono
+33:58 contento che sia stato chiaro. Allora,
+34:00 adesso entriamo degli alimentatori. In
+34:02 particolare, ora parliamo degli
+34:03 alimentatori lineari,
+34:06 ovvero quelli tradizionali, non a
+34:09 commutazione. Allora, un
+34:12 scusate,
+34:15 un alimentatore lineare
+34:18 eh è composto da questi quattro blocchi.
+34:22 Di fatto tutti gli alimentatori lineari
+34:24 più o meno, hanno questa struttura al
+34:26 loro interno. Allora, il primo primo
+34:29 componente che si trova, il primo blocco
+34:31 che si trova è un trasformatore.
+34:34 Adesso leggiamo insieme velocemente
+34:36 questi quattro blocchi, poi entreremo un
+34:38 po' nel dettaglio di ogni singolo
+34:39 blocco. Allora, noi normalmente nel
+34:43 mondo della radio, ma in generale nel
+34:44 mondo dell'elettronica, diciamo, normale
+34:47 tra virgolette, lavoriamo con
+34:49 dispositivi che sono alimentati a 12 18
+34:53 24 V, quindi a tensioni molto più basse
+34:56 della tensione che ci fornisce la rete
+34:58 elettrica di casa, cioè l'ener che ci
+35:00 fornisce 220-230 V. Allora, normalmente
+35:05 il primo blocco di un di ogni
+35:07 alimentatore è un trasformatore che
+35:10 abbassa la tensione di rete a un valore
+35:12 vicino a quello della tensione di
+35:14 uscita. Quindi qua in ingresso ho una
+35:17 sinusoide a 220 V.
+35:21 Se io voglio avere in uscita 12 V, qui
+35:25 magari mi abbasso questi 220 V a un più
+35:28 prudenziale 18 per esempio o forse 15 a
+35:32 seconda della situazione. Quindi il
+35:34 trasformatore mi avvicina la tensione di
+35:38 rete che che appunto è di 220 V a una
+35:41 tensione alla tensione che voglio
+35:43 ottenere in in uscita. Poi vedremo che
+35:45 il trasformatore è anche un'altra
+35:47 funzione, però adesso seguiamo questo
+35:48 schema. Ora, come vedete qui, questi 18
+35:52 V sempre alternati, è una tensione
+35:55 alternata e di conseguenza una corrente
+35:57 alternata. C'è un secondo blocco che si
+36:00 chiama raddrizzatore che è fatto da dei
+36:02 diodi che mi taglia via la parte
+36:07 negativa della mia sinusoide e mi lascia
+36:09 in uscita solo la parte positiva. Quindi
+36:12 in uscita dal raddrizzatore ho una
+36:15 tensione che non è più alternata, ma è
+36:17 continua perché vi ricordo che la
+36:19 definizione di tensione continua, è una
+36:21 tensione che scorre, scusate, la
+36:22 definizione di corrente continua è una
+36:25 corrente che scorre sempre nello stesso
+36:27 verso. Il fatto che sia pulsante,
+36:30 quindi che che abbia queste queste gobbe
+36:33 che che vedete qua,
+36:36 non pregiudica. Questa è comunque sempre
+36:38 una una tensione e quindi una corrente
+36:41 continua.
+36:42 Questo segnale pulsante viene inserito
+36:45 nel terzo blocco del dell'alimentatore
+36:48 che difatti è un filtro di livellamento
+36:50 basato su condensatori, tipicamente
+36:53 condensatori elettrolitici di alta
+36:54 capacità e qui sostanzialmente c'è un
+36:58 serbatoio di cariche. effetto del
+37:00 condensatore è di inserire in questo
+37:03 punto della della catena del mio
+37:04 alimentatore un grosso serbatoio di
+37:07 cariche elettriche realizzate appunto
+37:09 con un condensatorio o più condensatori
+37:12 elettrolitici di grandi capacità. tutta
+37:15 la parte del del mio alimentatore che
+37:17 sta a monte, trasformatore e
+37:19 raddrizzatore, ha lo scopo fondamentale
+37:21 di tenere più pieno, nel miglior modo
+37:24 possibile questo condensatore.
+37:27 L'effetto di questo condensatore livella
+37:30 livella la tensione di uscita, cioè su
+37:33 dopo il condensatore troviamo una
+37:35 tensione di questo tipo che è quasi una
+37:38 tensione continua, ma mantiene una certa
+37:40 ondulazione come vedete qua. Vedete che
+37:42 qui va sempre su e giù questa tensione,
+37:45 quindi c'è un buon livellamento, ma non
+37:48 perfetto.
+37:51 Infine, avete già capito come va a
+37:53 finire la cosa. C'è un circuito
+37:55 conclusivo di stabilizzazione
+37:58 che fa sì che qui ho in uscita
+38:00 esattamente la tensione che voglio, per
+38:02 esempio 12 V. Questo è un circuito che
+38:06 mi stabilizza, appunto, la tensione che
+38:08 mi dà il mio alimentatore al a quella
+38:11 che voglio e finisce di livellarla e in
+38:14 uscita dallo stabilizzatore ho
+38:16 finalmente, come vedete, una continua
+38:18 costante nel tempo. Questi sono i i
+38:21 quattro blocchi che compongono di fatto
+38:24 tutti gli alimentatori lineari.
+38:28 Adesso li ripercorriamo se non ci sono
+38:31 domande. Se ci sono domande mi fermo
+38:33 anche un attimo, ma non ne vedo passare.
+38:36 O vi siete addormentati tutti o questa
+38:38 parte vi è chiarissima. Matteo, a te.
+38:41 Vai
+38:47 >> dai Matteo.
+38:51 >> Sì, mi sentite? Son Luca il coso del del
+38:55 figliolo. Sono al computer del figlio
+38:57 >> e buonasera. Dicevo il l'ultimo
+39:01 all'ultimo stadio lo stabilizzatore c'è
+39:03 un ci sarebbe uno zenere se non sbaglio,
+39:06 se non ho visto male.
+39:07 >> Sì, sì, sì, ci sì, ci può essere uno
+39:09 zenere. Ora ora poi lo vediamo in
+39:10 dettaglio come si fa.
+39:13 >> Ok. Ci può essere uno zainer, ci può
+39:15 essere anche sullo stabilizzatore, se
+39:17 avete uno di quegli alimentatori,
+39:19 qualcuno di voi forse ha un alimentatore
+39:21 di quelli regolabili e qui c'è il
+39:24 circuito in cui entra la famosa
+39:26 manopolina con cui si regola, ad
+39:29 esempio, la tensione di uscita.
+39:31 D'accordo? Girando, no? E agendo lì sul
+39:34 circuito di stabilizzazione. Ora lo
+39:36 vediamo come funziona.
+39:38 >> Grazie
+39:39 >> a te. Allora, proseguiamo. Il
+39:41 trasformatore.
+39:44 Allora, il trasformatore sostanzialmente
+39:46 fa due due grandi funzioni in un
+39:48 alimentatore. Della prima si è già
+39:50 parlato che in qualche modo parte dal
+39:53 220 e mi genera una tensione un po' più
+39:57 alta di quella che voglio in uscita, un
+39:58 po' più alta ma non troppo. Quindi se se
+40:01 devo avere un 12 V in uscita mi mi
+40:04 trasforma il 220 in un 18 alternati.
+40:07 Il trasformatore
+40:09 eh svolge anche un'altra funzione
+40:11 importantissima che è quella di
+40:12 garantire quello che è chiamato
+40:14 l'isolamento galvanico,
+40:16 cioè la separazione elettrica fra il
+40:19 circuito d'ingresso che è quello
+40:21 dell'ene e il circuito d'uscita
+40:23 che è quello, ad esempio, della radio
+40:25 che io voglio alimentare, che con cui
+40:27 voglio trasmettere. Questa separazione
+40:30 elettrica impedisce il passaggio di
+40:31 corrente fra essi, fra il circuito di
+40:33 ingresso e il circuito di uscita.
+40:35 Allora, questa cosa la si può vedere in
+40:37 questo schema. Cos'è l'isolamento
+40:39 galvanico? Partiamo da qua in alto.
+40:42 Allora, vicino a tutte le vostre case
+40:44 c'è una una sotto sottostazione
+40:47 dell'Enel. Nella stazione dell'Enel c'è
+40:49 un trasformatore che è questo qua che
+40:52 parte da una media tensione che può
+40:54 essere 15.000 che può essere, insomma,
+40:58 quello che sarà e tira fuori il 380 e di
+41:02 conseguenza anche il 220 che viene
+41:04 portato tramite le linee nelle varie
+41:06 case, no? Le linee sapete che sono hanno
+41:08 due fili, una fase L e un neutro N.
+41:12 Un capo di questo trasformatore nella
+41:15 cabina Enel è collegato a terra,
+41:17 palline, palline di terra
+41:22 e la terra è proprio la terra, il suolo
+41:24 su cui su cui camminiamo.
+41:27 Allora, cosa cosa succede? Succede che
+41:29 se noi avessimo in casa un dispositivo,
+41:34 questo
+41:37 dove non c'è la separazione galvanica,
+41:39 cioè dove il dispositivo stesso che è
+41:41 questo rettangolino che vedete qua, che
+41:44 potrebbe essere un alimentatore, ma
+41:46 potrebbe essere di tutto, un forno a
+41:48 microonde, una lavatrice eccetera
+41:50 eccetera eccetera. Se non c'è
+41:52 separazione galvanica,
+41:55 può succedere che se nel dispositivo c'è
+41:57 un problema e quindi uno dei fili del
+42:01 che elemento nel dispositivo va a
+42:02 contatto, come si vede qui con questa
+42:04 freccetta, sul contenitore metallico del
+42:07 dispositivo stesso, se la persona che
+42:09 usa il dispositivo lo tocca e ha i piedi
+42:12 per terra e non ha scarpe isolate, di
+42:14 fatto prende la scossa. Quindi se ha una
+42:15 fulminazione che può essere leggera,
+42:17 media, ma può essere anche grave. Invece
+42:20 tutte le volte che c'è un trasformatore,
+42:22 come in questo caso, il problema non
+42:24 esiste perché vi ricordate che in un
+42:26 trasformatore l'energia viene trasferita
+42:29 dal primario al secondario del
+42:30 trasformatore tramite un campo
+42:32 magnetico.
+42:34 >> Quindi il trasformatore funziona con
+42:36 l'induzione magnetica. Non c'è un flusso
+42:39 di elettroni che dal primario passa al
+42:41 secondario. Il primario e il secondario
+42:43 sono isolati fra loro. Sono isolati.
+42:45 Quindi l'operatore che sta qua, se anche
+42:48 prende in mano questo filo in uscita dal
+42:52 trasformatore o quest'altro filo in
+42:56 uscita dal trasformatore, non prende
+42:58 assolutamente la scossa e questo appunto
+43:01 si chiama isolamento galvanico, cioè
+43:03 come era definito prima un isolamento
+43:05 proprio fisico, il primario e il
+43:08 secondario del trasformatore sono
+43:09 separati e fra di essi non scorre
+43:12 corrente elettrica perché nei
+43:13 trasformatori scorre un flusso
+43:16 magnetico, non scorre la corrente
+43:17 elettrica
+43:20 e di fatto fortunatamente tutti gli
+43:23 oggetti che usiamo oggi hanno comunque
+43:26 un trasformatore di isolamento. Se se
+43:28 qualcuno di voi fosse, non so se fra voi
+43:31 c'è qualcuno appassionato un po' di
+43:32 radio vintage, radio degli anni 40, 50,
+43:35 60, nelle alla fine del periodo delle
+43:39 radio a valvole uscirono vari modelli
+43:41 economici che non usavano un
+43:43 trasformatore, ma uno dei capi della
+43:45 rete era sullo chassis interno di questa
+43:47 radio. Quindi, in teoria, in caso di
+43:50 riparazioni, bisognava stare molto
+43:51 attenti perché poi se si toccava si
+43:54 poteva prendere una scossa come capita
+43:56 in in questa in questa situazione di
+43:58 sinistra che avete visto. Quindi il
+44:00 trasformatore farà due cose, no?
+44:03 riassumo trasforma la tensione di rete
+44:07 prossima a quella che vogliamo in uscita
+44:08 e garantisce l'isolamento galvanico.
+44:13 Poi si arriva alla parte di
+44:14 raddrizzamento. Il raddrizzamento, come
+44:16 vi dicevo, si fa con i diodi. Questo è
+44:20 lo schema più facile di raddrizzatore ed
+44:23 essendo lo schema più facile è anche
+44:25 quello, diciamo, meno meno perfetto. Qui
+44:28 in ingresso a questo diodo, diciamo il
+44:31 punto A, immaginiamo qui, ho questa
+44:34 sinusoide completa che vedete qua.
+44:37 Questa mi arriva dal mio trasformatore,
+44:39 quindi è una bella sinusoide, ad
+44:40 esempio, di di ampiezza di di 18 V,
+44:44 quindi 18 e 18 36 V picco picco, tanto
+44:47 per ricordarsi un po' di misure che
+44:49 abbiamo visto nelle lezioni scorse.
+44:52 Il diodo si fa attraversare, come si
+44:56 diceva prima, soltanto dalle semionde
+44:58 positive. Nelle semionde negative non
+45:00 succede niente, non scorre non scorre
+45:03 corrente nel circuito
+45:05 e così via. A questo punto immaginiamo
+45:08 questo diodo che eh deve in qualche modo
+45:12 riempire il famoso condensatore di cui
+45:14 ho parlato prima, che è proprio il
+45:17 serbatoio di cariche che fa sì che un
+45:19 alimentatore possa funzionare. Allora,
+45:22 questo serbatoio viene riempito 50 volte
+45:26 al secondo, immaginiamo, perché questa è
+45:29 una corrente alternata a frequenza di 50
+45:31 Hz, per cui anche questo segnale
+45:33 pulsante è una frequenza di 50 Hz. Ho
+45:36 solamente
+45:38 eh una una semionda che va a riempire il
+45:43 mio condensatore. Quindi il mio
+45:46 condensatore è tenuto pieno per metà del
+45:48 tempo, ma per l'altra metà del tempo no,
+45:50 non c'è nessuno che in qualche modo eh
+45:55 continua a riempire di carica il
+45:57 condensatore. Quindi in questi periodi
+45:59 di tempo qua
+46:02 il carico del mio alimentatore,
+46:04 immaginiamo che il mio alimentatore
+46:05 abbia attaccato una radio che assorbe
+46:07 corrente. In questi periodi qua la
+46:10 corrente al carico viene data
+46:11 semplicemente
+46:13 dalle cariche elettriche che stanno nel
+46:15 condensatore. Queste se bastano va bene
+46:17 e se non bastano la tensione d'uscita
+46:19 del mio alimentatore cala. Quindi questo
+46:22 è uno schema di raddrizzamento molto
+46:24 economico, basta un diodo, però si si
+46:28 capisce che non è ottimale.
+46:31 Invece funziona meglio
+46:34 funzionano meglio i tipi di
+46:35 raddrizzatore chiamati a doppia semionda
+46:38 e cioè che sono in grado di raddrizzare
+46:41 e di sfruttare entrambe le semionde
+46:45 della mia tensione alternata. E lo
+46:47 vediamo qua. Qui c'è uno schema
+46:49 leggermente più complesso dove c'è un
+46:53 trasformatore che ha una presa centrale
+46:55 sul secondario, quindi l'ingresso è 220
+46:58 V, l'uscita è, diciamo, 18 + 18 e ci
+47:02 sono due diodi, non uno. Questo schema
+47:05 fa sì che quando c'è la semionda
+47:08 positiva della mia tensione in ingresso
+47:10 ho la mezza semionda in uscita dal dai
+47:14 miei due diodi come la vedevamo prima.
+47:17 Quando c'è la semionda negativa, questo
+47:19 schema fa in modo di ribaltare, di
+47:22 riportare questa semionda negativa
+47:24 comunque sull'uscita
+47:26 e quindi qui ho una tensione sempre
+47:28 pulsante, va bene, però questa pulsa a
+47:31 una frequenza di 100 Hz, perché se qui
+47:34 compiamo i i picchi della prima tensione
+47:38 data dall'Enel, ne contiamo 50 al
+47:42 secondo, 50 Hz. Se contiamo questi
+47:44 picchi si vede anche occhio che sono il
+47:47 doppio, quindi abbiamo una tensione
+47:49 pulsante con una frequenza di 100 Hz, il
+47:51 doppio di 50. Quindi il famoso
+47:53 condensatore di cui si parlava prima,
+47:56 famoso serbatoio di cariche che fa in
+47:58 modo che l'alimentatore funziona, viene
+48:00 in qualche modo rifornito 100 volte al
+48:02 secondo, quindi non solo 50 volte al
+48:04 secondo, ma 100 volte al secondo, che
+48:06 ovviamente è meglio.
+48:10 Allora, come come fa questo circuito a
+48:13 funzionare? Eh, allora, come fa a
+48:15 funzionare? non c'è bisogno di saperlo,
+48:17 per fortuna dal punto di vista del
+48:19 dell'esame, dal punto di vista delle
+48:22 possibili domande e si chiede solamente
+48:25 le caratteristiche che hanno il
+48:26 raddrizzatore a doppia semionda e la
+48:28 caratteristica è questa di cui abbiamo
+48:29 parlato ora, cioè questi in qualche modo
+48:31 riescono a sfruttare entrambe la la le
+48:34 semionde della sinusoide in ingresso
+48:36 avendo in uscita un segnale pulsante di
+48:38 frequenza 100 Hz e non 50 Hz. E questo
+48:41 circuito funziona funziona così, se
+48:44 vogliamo in qualche modo leggerlo
+48:46 rapidamente a livello di schema, la
+48:49 presa centrale del trasformatore è
+48:51 quella connessa al potenziale di
+48:54 riferimento zero, alla massa del mio
+48:56 circuito elettrico.
+48:58 Io ho qui in ingresso il mio segnale e
+49:02 che che arriva dalla dalla reta. Allora,
+49:05 rispetto a questo punto T0, nelle
+49:09 semionde positive questo diodo lavora
+49:11 esattamente come sappiamo. Quindi questo
+49:14 diodo qua in alto con le semionde
+49:16 positive mi
+49:18 trasferiscono in uscita questa semionda,
+49:21 quest'altra semionda, quest'altra
+49:23 semionda, come abbiamo visto nella slide
+49:25 precedente.
+49:27 Però nel momento in cui la semionda è
+49:29 negativa entra in funzione quest'altro
+49:31 diodo, poiché il trasformatore allo zero
+49:35 centrale, nel momento in cui la semi è
+49:37 negativa, quest'altro diodo va comunque
+49:41 rispetto a eh
+49:46 rispetto appunto al terminale centrale
+49:48 di zero, va comunque in conduzione e
+49:51 riporta la semionda, diciamo, negativa
+49:55 vista dal lato basso. del trasformatore
+49:58 vista nella seconda metà del secondario
+50:00 la riporta qua.
+50:03 Fate un atto di fede per cortesia.
+50:05 Questo non è non è richiesto dall'esame
+50:08 e questo circuito fortunatamente ha
+50:11 questa ha questa caratteristica.
+50:14 C'è un altro tipo dell'adderizzatore a
+50:15 doppia semionda che che è quello
+50:18 probabilmente un po' più usato ed è il
+50:20 cosiddetto riadderrizzatore a ponte o
+50:23 detto anche ponte di Grezz Graz è
+50:26 scritto dal nome del tedesco, immagino
+50:29 che lo ha lo ha ideato e per questo non
+50:32 serve un trasformatore con lo zero
+50:34 centrale, però servono quattro diodi
+50:36 messi in questa configurazione che si
+50:38 chiama raddrizzatore a punte
+50:41 e vedete che qui Il risultato è
+50:44 esattamente lo stesso. La sinusoide in
+50:46 ingresso viene trasformata in un segnale
+50:48 pulsante a 1000 a 100 Hz. E come
+50:52 funziona? Funziona che quando
+50:55 qui ho la semionda positiva,
+50:58 seguiamo la corrente che passa
+51:03 sempre il verso della freccia passa da
+51:05 qui attraversa il carico,
+51:09 poi qui attraverso il senso della
+51:11 freccia e esco di qua. Ok.
+51:16 Semionda 1. Quando ho la semionda 2,
+51:20 scusate, la cancello
+51:23 che così si legge meglio. Quando ho la
+51:26 semionda due, rimetto il pennarello,
+51:30 c'è quella negativa.
+51:33 Quella negativa segue il verso delle
+51:36 altre frecce. Quindi così
+51:39 da qui passa attraverso il carico.
+51:43 Così. così e torna giù.
+51:48 E quindi questo circuito fa in modo che
+51:50 per entrambe sem per entrambe le
+51:53 semionde
+51:54 eh una coppia di diodi per volta fa
+51:57 scorrere eh la la corrente sul sul
+52:02 carico e la parte di sotto, diciamo, la
+52:06 parte negativa della sem della
+52:09 sinusolide in ingresso viene in qualche
+52:12 modo eh ribaltata
+52:15 perché
+52:16 Se si segue il verso di scorrimento nei
+52:19 diodi che con questo scarabocchio in
+52:21 rosso ho cercato di fare, si vede che
+52:23 sul carico scorre la corrente inverso
+52:26 opposto, ma è di tensione opposta e
+52:28 quindi si ha il il risultato voluto.
+52:30 Questo, diciamo, si potrebbe studiare
+52:32 per benino con carta e penna, però ora
+52:35 ve lo racconto solo per darvi un'idea di
+52:37 come funziona, perché non non fa parte,
+52:39 appunto, del programma d' esame. Quindi
+52:42 ci sono due tipi di riaddrizzatore.
+52:45 La cosa da tenere a mente è questa. C'è
+52:47 il riaddrizzatore a singola semionda
+52:49 ezzatore a doppia semionda. Il doppio
+52:51 semionde ovviamente è migliore. Singola
+52:54 semionda ha in uscita una tensione
+52:55 pulsante a 50 Hz. Doppia semionda ha in
+52:59 uscita una tensione pulsante a 100 Hz.
+53:02 E qui per ora l'ho fatta abbastanza
+53:04 lunga. Prima di parlare degli ultimi due
+53:06 pezzetti interrompo un attimo la
+53:08 condivisione se ci sono domande su
+53:11 questo.
+53:20 Tutto chiaro per ora?
+53:27 Proseguo.
+53:29 Oh, Tiziano, ero meravigliato
+53:30 dell'assenza di domande. Dicevo, ma sono
+53:32 sempre svegli.
+53:35 >> Una una domanda per la pagina 22. Perché
+53:40 se ho l'esigenza di isolare il sistema
+53:44 con il trasformatore, nello schema c'è
+53:47 disegnato
+53:49 un riferimento
+53:51 a terra?
+53:55 Aspetta,
+53:58 ti riferisci a questa figura, giusto?
+54:00 >> Sì, sì.
+54:02 >> Allora, a mai dopo dopo la resistenza si
+54:07 c'è quel
+54:08 >> Allora, questo non è
+54:10 eh
+54:13 è perché è sbagliato questo schema,
+54:16 perché in realtà qui ci dovrebbe essere
+54:18 riferimento di massa che è fatto così.
+54:23 Questa è la massa del circuito
+54:24 elettrico, non è la terra della linea,
+54:28 diciamo, di alimentazione.
+54:31 Ah,
+54:32 >> ok. Effettivamente è sbagliato lo
+54:34 schema. Bravo, bravo, bravo. Boh,
+54:37 >> perché perché ci sono ci sono due
+54:39 riferimenti diversi. Allora, quando si
+54:41 disegna un circuito elettrico come
+54:44 questo m
+54:45 >> e questo poi diciamo quando nel circuito
+54:49 ci sono un po' più di componenti e così
+54:51 via, normalmente
+54:53 nel Scusate, ho perso ho perso il
+54:56 pennarello, eccolo qua. Normalmente in
+54:59 un circuito elettrico, immaginando di
+55:01 avere tanti componenti l'uno sull'altro
+55:02 eccetera, normalmente c'è un terminale
+55:04 di riferimento che è quello a cui
+55:07 normalmente è connesso il negativo del
+55:09 mio alimentatore.
+55:11 E questo ci e questa parte di
+55:14 riferimento è chiamata la terra. la
+55:16 terra, scusate, è chiamata la massa, la
+55:19 massa della mia radio, la massa del mio
+55:21 alimentatore. È chiamata la massa perché
+55:24 molto spesso anche questo terminale di
+55:27 riferimento a cui poi fanno capo tutti i
+55:30 componenti che ci sono nel nella mia
+55:33 radio, ad esempio, molto spesso coincide
+55:36 con la massa fisica, con lo chassis
+55:38 metallico, magari dell'alimentatore o
+55:40 della radio, se c'è è un terminale
+55:42 comunque molto molto esteso.
+55:44 Invece nelle linee di alimentazione,
+55:47 quindi si parla di nuovo Ener, si parla
+55:50 di terra. Questo è il corretto simbolo
+55:52 di terra, una freccia tratteggiata così.
+55:57 E per terra si intende proprio la Terra,
+55:59 il pianeta Terra, quindi la la le le
+56:02 correnti che in qualche modo
+56:04 attraversano, diciamo, il il suolo, ok?
+56:08 e che in qualche modo vengono eh
+56:11 indirizzate nel sottosuolo
+56:13 dalle varie palline e da tutti i sistemi
+56:15 di terra usati nei sistemi di
+56:17 distribuzione dell'energia elettrica.
+56:19 Quindi il simbolo di terra è questo con
+56:20 la freccia, l'altro è il simbolo di
+56:23 massa e sono cose diverse. Tra l'altro a
+56:25 volte la terra e la massa in un circuito
+56:28 elettrico vengono collegati insieme, a
+56:29 volte invece è meglio non collegarle.
+56:33 Ottima domanda, complimenti.
+56:38 Se non ci sono altre domande proseguo.
+56:41 Allora, a questo punto abbiamo la nostra
+56:45 tensione continua pulsante a 100 Hz che
+56:48 entra nel circuito di filtraggio. Questa
+56:50 che vedete qui è una versione lusso del
+56:53 circuito di filtraggio, come viene usata
+56:55 per esempio nell'alta fedeltà. Diciamo
+56:58 che il circuito di filtraggio più
+57:00 spartano normalmente è un grande
+57:02 condensatore,
+57:04 un condensatore elettricoo del tipo
+57:06 10.000, 15.000, 20.000 microfarad anche
+57:09 più
+57:11 e che assicura appunto che eh questo
+57:15 questo condensatore viene rifornito,
+57:18 viene riempito 100 volte al secondo e
+57:21 nei periodi in cui non è riempito lui
+57:23 deve assicurare l'erogazione della
+57:26 corrente al carico.
+57:29 E
+57:32 se si vuole un alimentatore più
+57:34 silenzioso, quindi che in uscita non
+57:37 abbia segnalini, ronzi o cose di questo
+57:40 genere, si possono usare dei filtri un
+57:42 pochino più sofisticati. Per esempio,
+57:44 questo è di fatto un filtro passa basso.
+57:47 Qui poi c'è una bobina in serie.
+57:49 Ricordate che la bobina ha un valore di
+57:53 reattanza più alto al crescere della
+57:55 frequenza, quindi questa bobina tende a
+57:57 bloccare i ronz e le ondulazioni e
+58:00 lasciar passare invece la corrente
+58:01 continua. Dopo questa bobina c'è un
+58:04 altro condensatore. Questo è un circuito
+58:06 a forma di P, come vedete.
+58:10 Tolgo le
+58:13 tolgo gli scarabocchi. Questo è un
+58:15 filtro a pi greco, come si dice, proprio
+58:19 perché è la lettera P,
+58:22 come la disegnano, la disegnavano i
+58:24 greci.
+58:26 ed è un ottimo filtro che in qualche
+58:28 modo, come vedete qua, spiana
+58:30 l'andamento pulsante e da qui esce una
+58:33 tensione quasi continua, cioè con una
+58:36 leggera ondulazione, come dicevamo
+58:39 prima.
+58:41 Questa
+58:42 la elimina il circuito di
+58:44 stabilizzazione che oltre che eliminare
+58:47 la stabilizzazione, oltre che eliminare
+58:49 l'ondulazione fa sì di realizzare le
+58:51 tensioni di uscita che pogliamo noi.
+58:54 Esistono due grandi categorie di
+58:57 circuiti di stabilizzazione.
+58:59 Una è da è è è quello che vedete qua,
+59:02 quella specie di schema elettrico che
+59:04 vedete qua. Purtroppo non abbiamo ancora
+59:06 parlato dei transistor. Questo è il
+59:08 simbolo di un transistor, però vedete
+59:10 che qua sotto c'è uno zenere.
+59:12 Immaginiamo che il mio alimentatore deve
+59:14 alimentare la mia radio e quindi voglio
+59:16 12 V in uscita. Immaginiamo, fatemelo
+59:19 dire in maniera grezza, che qui
+59:21 inserisco uno zaer da 12 V.
+59:24 Gli zener non per loro natura non sono
+59:27 in grado di gestire grandi correnti o
+59:29 cose di questo tipo. Allora,
+59:30 praticamente questo zener viene usato
+59:32 per eh, scusate, perso il cursore.
+59:36 Eccolo qua. Questo zener viene usato
+59:39 per m tenere il punto di lavoro di
+59:44 questo transistor che fa la
+59:45 stabilizzazione vera e propria nel punto
+59:49 tale da avere in uscita i 12 V. Quindi,
+59:53 di fatto, lo dico in un altro modo,
+59:55 forse più comprensibile
+59:58 e ricancello il colorato,
+60:04 eh
+60:06 il il
+60:08 punto di lavoro, le modalità di lavoro
+60:12 del transistor che stabilizza la mia
+60:15 tensione di uscita vengono in qualche
+60:17 modo regolate, agganciate a una tensione
+60:20 di riferimento che è data da un diodo
+60:22 sulen quindi una tensione di riferimento
+60:25 che tramite un circuito opportuno mi si
+60:27 ripercuote in uscita.
+60:29 Invece lo schema un po' più sofisticato,
+60:32 diciamo, dei circuiti di stabilizzazione
+60:35 è questo che vedete qua e più o meno gli
+60:37 alimentatori
+60:39 un po' più seriosi funzionano tutti
+60:42 così. sostanzialmente
+60:44 eh si lavora sul concetto di tensione di
+60:47 errore che leggete qua.
+60:52 Di fatto questo è una stabilizzazione
+60:54 tramite una retroazione. Diciamo che
+60:57 questa è la mia radio, il mio carico.
+61:00 Ho una tensione di uscita V che leggete
+61:02 qua. Qui ho un circuito, questo che è
+61:07 chiamato un amplificatore di errore.
+61:09 Questo circuito da un lato ha una
+61:10 tensione di riferimento data da questo
+61:12 zener
+61:14 in questo suo ingresso. In quest'altro
+61:16 suo ingresso, lui in qualche modo vedete
+61:20 che è collegato tramite queste due
+61:21 resistenze alla
+61:24 alla tensione di uscita.
+61:27 Quindi lui in qualche modo qui èato da
+61:29 una parte della tensione di uscita.
+61:32 Allora, finché finché tutto va bene e la
+61:35 tensione che lui tramite questo
+61:37 partitore di resistenze è uguale alla
+61:40 tensione di zener, ovvero quando lui su
+61:42 questi due ingressi ha lo ha valori di
+61:45 tensione uguali, ovvero immaginiamo che
+61:47 lo zener sia da 6 V e che io tramite
+61:51 queste due resistenze
+61:53 dei 12 V in uscita, tramite queste due
+61:56 resistenze partiziono e diciamo ho 6
+61:59 volte in ingresso. tutto va bene e
+62:01 l'amplificatore di errore non agisce.
+62:04 Nel momento in cui magari il mio carico
+62:06 cresce e la tensione di uscita tende a
+62:08 calare, quindi quando i 12 V scendono,
+62:11 l'amplificatore di errore compensa
+62:13 questa discesa facendo in modo che eh il
+62:17 transistor di stabilizzazione
+62:21 faccia passare un po' più di energia,
+62:23 faccia passare un po' più di corrente,
+62:25 ovvero conduco un po' di più. Diciamo
+62:27 c'è c'è una c'è un anello c'è un anello
+62:29 di rincorsa, ritlgo gli scarabocchi,
+62:34 c'è un anello di di returazione, un
+62:37 loop, come si dice al all'inglese.
+62:40 La tensione di uscita viene letta da un
+62:44 amplificatore d'errore. L'amplificatore
+62:46 d'errore pilota il transistor di
+62:47 stabilizzazione che fa in modo di
+62:49 riportare tutto dove deve stare. Quindi
+62:51 è una specie di loop continuo.
+62:55 E questo è tutto sugli alimentatori
+62:58 lineari. Quindi ci sono quattro blocchi.
+63:04 Un attimo che tolgo la condivisione, il
+63:07 trasformatore,
+63:10 il raddrizzatore,
+63:11 la parte di filtraggio col condensatore
+63:13 che immagazzini energia e poi un qualche
+63:16 circuito di stabilizzazione e
+63:18 regolazione della pensione d'uscita.
+63:20 Alberto Alfredo, a te, scusa. Salve. No,
+63:23 solo una domanda volevo fare. Mi
+63:25 chiedevo, ma anche i diodi, come altri
+63:28 componenti che abbiamo visto, è
+63:29 possibile metterli in serie per
+63:32 eventualmente,
+63:33 non so, riuscire a creare delle, non so,
+63:37 dei filtraggi specifici sulla tensione?
+63:39 Cioè, mi stavo facendo questa domanda
+63:40 tipo ehm appunto se se fosse possibile
+63:44 metterli appunto in serie e visto che m
+63:49 anche per via della tensione, cioè la
+63:52 per quella che come voi f facendo poi in
+63:55 direzione che si dà alla corrente che
+63:56 tipi di effetti eh darebbero.
+64:00 >> Grazie. Non so se Chiara perché non ce
+64:03 l'ho ancora benissimo Chiara nemmeno io,
+64:04 quindi faccio un po' domande a casaccio.
+64:07 >> Allora, intanto dico intanto dico due
+64:09 cose, poi tu mi dici se vuoi sapere
+64:10 altro. Allora, intanto eh mettere i
+64:13 diodi in serie è una pratica abbastanza
+64:15 abbastanza comune. Ai vecchi tempi, ad
+64:17 esempio, quando si
+64:20 diciamo quando si usavano alimentatori a
+64:23 valvole, scusate, quando si usavano
+64:25 apparati e valvole, in particolare anche
+64:27 amplificatori a valvole, molto spesso
+64:29 questi amplificatori ricevo avevano
+64:32 avevano bisogno di tensioni di uscita
+64:34 dell'ordine di qualche migliaio di volt
+64:35 per alimentare queste valvole. Allora,
+64:38 magari per avere dei diodi in grado di
+64:40 reggere quella tensione se ne mettevano
+64:42 più in serie e quindi uno degli scopi di
+64:44 una serie di diodi è di aumentare la
+64:46 tensione di lavoro rispetto a quella di
+64:48 un singolo diodo, cioè se dei diodi che
+64:50 magari reggono una tensione eh inversa
+64:54 di 500 V, magari nel tuo alimentatore
+64:57 hai 2000 V, ne metti in serie 5, 5* 5
+65:02 25. A questo punto hai una capacità di
+65:05 gestione di tensioni di 2500 V che
+65:07 potrebbe essere sufficiente rispetto ai
+65:09 2000 che gestisci che gestisci tu. Ok?
+65:12 Oppure per esempio si possono mettere in
+65:15 serie i diudi zener. Se ho bisogno di un
+65:18 faccio per dire se ho bisogno di un
+65:19 riferimento a 18 V e ho assolutamente
+65:22 zenere a 9, se metto in serie due diodi
+65:24 9 + 9 ho un riferimento a 18 V.
+65:28 Quindi sicuramente i diciamo di in serie
+65:31 si possono tranquillamente mettere, come
+65:33 pure si mettono di in parallelo, cioè
+65:35 quando si hanno raddrizzatori che devono
+65:38 gestire correnti importanti dell'ordine
+65:41 delle centinaia di ampere, ci sono dei
+65:44 diodi molto diversi da quelli che vi ho
+65:46 fatto vedere prima nel disegno iniziale.
+65:48 Ci sono dei dei diodi che sembrano dei
+65:50 bulloni filettati perché si avvitano su
+65:53 delle lette di raffreddamento, no?
+65:54 Perché ovviamente corrente alta implica
+65:57 anche molto calore dissipato
+66:00 e e diciamo dove non basta un diodo se
+66:03 ne mettono due o tre o quattro in
+66:04 parallelo. Quindi anche i diodi si
+66:06 possono combinare dal punto di vista di
+66:09 quello che serve nel circuito. Ok?
+66:13 Chiaro? Sì, era no era praticamente su
+66:16 questo, cioè appunto capire se
+66:18 effettivamente servisse ad aumentare la
+66:21 resistenza del singolo diodo, metterlo
+66:24 in serie con con un altro e se servisse
+66:27 anche a creare magari delle tensioni
+66:29 proprio eh precise di fino perché magari
+66:33 proprio da un punto di vista della
+66:34 regolazione specifica della tensione.
+66:36 Era solo era questo quello che mi
+66:38 interessava. Grazie. Sì, sì, sì, sì, sì.
+66:40 Perfetto. Grazie a te. Bella domanda. Ci
+66:43 sono altre domande?
+66:46 Allora, per stasera a questo punto
+66:48 abbiamo finito, nel senso che nel
+66:50 programma di esame, cioè abbiamo finito,
+66:53 scusate, rimetto in condivisione il lo
+66:57 schermo,
+66:59 nel senso che nel programma di esame
+67:04 eh
+67:07 la parte che su cui vi vorrei
+67:09 intrattenere altri 10 minuti, che è
+67:11 quella degli alimentatori a commutazione
+67:13 detti anche switching non c'è non c'è.
+67:16 Però uno non è escluso che, siccome poi
+67:19 le domande le fa la commissione, non è
+67:21 non è escluso che qualche brillantissimo
+67:23 membro di una commissione di esame non
+67:25 decida di chiedere qualcosa anche sugli
+67:26 switching. E poi siccome questi
+67:28 alimentatori sono quelli che oggi vanno
+67:30 per la maggiore e penso che sia utile
+67:33 che tutti conoscono in linea di massimo
+67:34 come funzionano e i vantaggi e svantaggi
+67:37 che hanno. Quindi vi dico rapidamente
+67:39 come funzionano l'alimentatore a
+67:40 commutazione.
+67:43 Però rapido perché in realtà è un
+67:45 funzionamento molto semplice, però è
+67:48 simpatico perché è molto diverso in
+67:50 varie parti da come da come funziona un
+67:53 alimentatore tradizionale lineare detto
+67:55 finora. Allora, questo è lo schema
+67:57 blocchi di un alimentatore a
+67:58 commutazione tipico. Si parte,
+68:02 scusate, riaccendo il pennarello. Si
+68:04 parte come sempre dall'Enel che ci dà
+68:07 230 V a 50 Hz. Allora, qui in ingresso
+68:11 non c'è il trasformatore, quindi un
+68:13 alimentatore switching come primo stadio
+68:15 ha un raddrizzatore a doppia semionda,
+68:17 quindi un ponte, un ponte di Grezz, i
+68:20 famosi quattro diodi che abbiamo visto
+68:22 poco fa. Dopo questo raddrizzatore a
+68:24 doppia semionda, c'è un ricco
+68:26 condensatore, un condensatore grossotto
+68:29 che si carica al valore di picco della
+68:31 nostra sinusoide. Quindi in questo punto
+68:33 qua io ho una tensione continua di circa
+68:37 310 V perché ricordate che l'Enel i 220
+68:41 230 V ce li dà di tensione e efficace.
+68:45 Quelli quelli sono 220 V efficaci.
+68:48 Avevamo visto quando ne abbiamo parlato
+68:50 che la tensione di picco di quella
+68:52 sinusoide Enel in realtà sono 300 V e il
+68:55 condensatore si carica ovviamente la
+68:57 tensione di picco. Quindi qua io ho una
+68:59 continua di 310 V.
+69:02 senza alcun trasformatore nel mezzo.
+69:04 Quindi tutta questa parte del
+69:06 dell'adderz del dell'alimentatore
+69:08 switching è collegata direttamente alla
+69:11 rete alla rete elettrica, alla rete
+69:14 poi questi 310 V di corrente continua
+69:19 entrano in un circuito che si chiama
+69:21 chopper
+69:23 e chopper. Chop è la fetta. Coppere si
+69:27 potrebbe tradurre con l'affettatore. Qui
+69:29 dentro immaginate che ci sia un
+69:31 interruttore
+69:33 che si apre e si chiude a frequenze
+69:36 molto alte, per esempio 30-60 kHz, cioè
+69:40 30.000 60.000 1000 volte al secondo.
+69:43 Questo interruttore che si apre e si
+69:45 chiude fa sì che la tensione continua
+69:47 che ho in questo punto di 310 V diventa
+69:51 di fatto una tensione onda quadra
+69:55 di ampiezza sempre di 310 V, però quando
+69:58 l'interruttore è chiuso ho, diciamo, 310
+70:01 V. Quando l'interruttore è aperto,
+70:03 quindi quando il mio chopper è aperto,
+70:06 ho ho una tensione di uscita pari a
+70:08 zero. Quindi questo chopper in pratica
+70:11 mi trasforma la tensione continua in una
+70:15 nuova tensione, diciamo, alternata
+70:18 che varia appunto da 0 a 310 V. Questa
+70:22 tensione alternata di 310 V e
+70:28 la frequenza è tipicamente, a secondo
+70:30 dell'alimentatore da 30.000
+70:32 60.000 kHz entra in un trasformatore
+70:36 e qui abbiamo il solito trasformatore.
+70:39 La differenza che c'è da un alimentatore
+70:41 tradizionale a a un alimentatore
+70:43 switching, la principale differenza sta
+70:45 proprio qua, che mentre un alimentatore
+70:48 tradizionale, mentre in un alimentatore
+70:51 tradizionale il trasformatore lavora ai
+70:53 50 Hz della rete, questo trasformatore
+70:56 lavora a 30 kHz, a 60 kHz, quindi lavora
+71:00 a frequenze 1000 volte superiori più o
+71:03 meno, il che significa che sono dei
+71:06 trasformatori particolari non fatti con
+71:08 materiali di ferro, magnetici eccetera,
+71:10 ma normalmente fatti con delle ferdite
+71:12 appositiche e siccome lavora una
+71:15 frequenza molto elevata, bastano dei
+71:17 trasformatori piccolissimi.
+71:20 Perché bastano trasformatori
+71:21 piccolissimi? Ricordate quando abbiamo
+71:23 parlato delle
+71:25 degli induttori, abbiamo parlato delle
+71:28 esperienze di Farade, no? che era quello
+71:30 che con una calamita in mano inseriva e
+71:33 levava una calamita da una spira e il
+71:36 fatto di inserire una calamita che
+71:38 quindi genera un campo magnetico in una
+71:40 spira mi creava una corrente in quella
+71:42 spira. Allora in pratica, i fenomeni di
+71:45 e si era detto allora che se questa
+71:47 calamita la inserivi più rapidamente
+71:49 generavi più corrente elettrica. Cioè,
+71:51 in generale i fenomeni l'induzione
+71:54 magnetica, l'induzione magnetica, quindi
+71:58 quella che avviene in un trasformatore,
+72:00 è tanto più potente e tanto più porta
+72:03 energia quanto più è rapida.
+72:06 Quanto più è rapida, quanto più il
+72:08 delta, la variazione della mia corrente
+72:12 è elevato, quanta più induzione
+72:14 magnetica ho. Allora, se io la mia
+72:17 induzione la faccio andare su e giù 50
+72:20 volte al secondo, come mi dà l'Enel, o
+72:23 la faccio andare 50.000 1000 volte al
+72:26 secondo, capite che non è proprio la
+72:28 stessa cosa.
+72:30 E un trasformatore che lavora con una ha
+72:33 una frequenza di 1000 volte superiore a
+72:37 quella di rete, ha un'induzione
+72:39 magnetica estremamente più alta e quindi
+72:41 riesce a trasformare a trasportare una
+72:43 quantità di energia enormemente più alta
+72:46 che non un trasformatore che lavora a 50
+72:48 Hz. Quindi, in sostanza, basta un
+72:49 trasformatore piccolino.
+72:52 Tanto per parlare di numeri, se un
+72:53 trasformatore di un alimentatore lineare
+72:56 grossotto pesa 2 o 3 kg, un
+72:59 trasformatore analogo di uno switching
+73:01 pesa un etto e mezzo e quindi è un
+73:03 oggetto anche estremamente più economico
+73:06 da da realizzare, cioè non sono 2 kg di
+73:09 rame, ferro, tutta roba costosa. Questo
+73:11 è il motivo per cui gli switching
+73:12 costano abbastanza poco. All'uscita del
+73:15 trasformatore ho il solito
+73:18 riadderizzatore,
+73:21 ho ripesso il cursore.
+73:24 Eccolo qua. Ho il solito riaddrizzatore
+73:27 e anche qui è un vantaggio, cioè più
+73:30 volte prima vi ho detto quando si
+73:32 parlava del condensatore in uscita
+73:34 riaddrizzatore che il riaddrizzatore,
+73:36 scusatemi, che il filtro capacitivo, il
+73:39 filtro capacitivo e il condensatore vi
+73:41 ho detto viene riempito 50 volte al
+73:44 secondo. Poi con radrizzatore onda
+73:45 intera viene riempito 100 volte al
+73:48 secondo. Qui il condensatore che c'è in
+73:51 questa posizione viene riempito
+73:54 50.000 1000 volte al secondo e quindi
+73:57 basta un serbatoio piccolo perché viene
+73:59 riempito in continuazione, quindi
+74:01 bastano dei condensatori molto molto
+74:03 molto più piccoli di quelli degli
+74:05 alimentatori tradizionali perché li
+74:07 riempio in continuazione.
+74:12 Un'ultima cosa che vi volevo dire, anzi
+74:14 due, tolgo gli scarabocchi,
+74:22 poi anche qui ho un
+74:27 eh prelievo
+74:29 come come si diceva prima, una parte
+74:30 della tensione di uscita ed ho un
+74:32 circuito di regolazione che mi
+74:35 stabilizza la tensione di uscita.
+74:38 Qui è un circuito di controllo che fa sì
+74:41 che le le fettine del mio chopper
+74:43 vengano allargate o ristrette se io devo
+74:48 abbassa alzare o abbassare la mia
+74:50 tensione di uscita.
+74:53 Tutta la parte che vedete a sinistra di
+74:56 questa linea tratteggiata funziona
+74:59 collegata direttamente alla rete
+75:01 elettrica. Quindi se qualcuno di voi
+75:02 dovesse immaginare di mettere le mani in
+75:05 un alimentatore switching, deve stare
+75:07 molto ma molto attento perché tutta
+75:09 questa prima parte si corre il rischio
+75:11 della fulminazione,
+75:13 essendo collegata direttamente alla
+75:15 rete. Invece a valle, a valle ovviamente
+75:18 c'è il trasformatore e quindi diciamo
+75:21 l'apparato, la radio viene alimentato in
+75:23 maniera assolutamente sicura.
+75:26 nel circuito di controllo,
+75:28 un'ultimissima cosa, c'è un per separare
+75:32 l'ingresso e l'uscita dal circuito di
+75:34 controllo, qui c'è un componente che è
+75:35 furbissimo, che è l'optisolatore. Qui
+75:38 nella parte alta la separazione
+75:41 galvanica viene assicurata da questo
+75:43 trasformatore, no? trasformatore
+75:44 primario e secondario non passano
+75:46 elettroni, ma passa solo crusomagnetico.
+75:49 In questo circuito di controllo c'è un
+75:51 componente elettronico che si chiama
+75:53 optisolatore che è composto da un LED
+75:56 che è questa parte qua e un fotot
+75:59 transistor, quindi un transistor che
+76:01 viene pilotato tramite la luce. è un
+76:04 dispositivo un po' particolare e quindi
+76:08 il collegamento fra l'ingresso e
+76:10 l'uscita del mio optoisolatore avviene
+76:13 tramite luce, non tramite passaggio di
+76:15 elettroni. Il LED avrà più o meno luce e
+76:19 questo livello di luce più alta o più
+76:20 bassa porterà questo transistor più o
+76:23 meno in conduzione. transistor parleremo
+76:26 la mercoledì prossimo, quindi per ora
+76:30 prendete così in termini anche un po'
+76:31 qualitativi quello che che vi dico.
+76:34 L'opto isolatore fa sì di realizzare un
+76:36 ottimo isolamento galvanico, appunto,
+76:38 fra eh l'ingresso e l'uscita dell'opto
+76:41 isolatore. Optico,
+76:44 isolatore ottico. In effetti la
+76:46 comunicazione passa tramite tramite
+76:49 luce. Un'ultimissima cosa, poi abbiamo
+76:51 finito spazio a domande,
+76:54 abbiamo parlato dei degli alimentatori
+76:56 lineari e degli alimentatori a
+76:58 commutazione. Allora, che pregi hanno,
+77:00 siccome voi vi troverete, se non li
+77:01 avete già a comprare degli alimentatori
+77:03 di questo tipo, un piccolo suggerimento
+77:05 per gli acquisti. Allora, i pregi degli
+77:08 alimentatori a commutazione sono quelli
+77:10 che ho detto fino a ora e li
+77:12 riassumiamo. Ovviamente un alimentatore
+77:14 commutazione più piccolo e più leggero
+77:16 perché invece di esserci 3 kg di
+77:18 trasformatore ci sono 200 g. Sono molto
+77:22 più efficienti degli alimentatori
+77:23 lineari. A sta per alimentatore lineare,
+77:26 quindi scaldano meno, hanno un
+77:28 rendimento tranquillamente dell'80%.
+77:31 Quelli che hanno frequenze più alte
+77:34 hanno hanno anche rendimenti che
+77:36 sfiorano il 95%, di conseguenza costano
+77:39 meno
+77:42 perché il trasformatore, il dissipatore
+77:44 che è fatto d'alluminio, il contenitore
+77:46 che è grande, pesante, sono tutte cose
+77:48 che ovviamente costano. Quindi a pari
+77:50 potenza un alimentatore switching a
+77:53 commutazione costa meno, però hanno dei
+77:55 difetti. Il grande difetto dello
+77:57 switching è che generano interferenze a
+78:01 radiofrequenza,
+78:02 perché se ci pensate torno sulla figura
+78:05 di prima,
+78:07 tolgo
+78:09 il il rosso.
+78:12 Se ci pensate
+78:14 in questa parte di un alimentatore
+78:17 switching, immaginate un alimentatore
+78:18 switching che debba gestire una certa
+78:20 potenza, 500W. Qui si genera, cioè il
+78:24 chopper qui genera un'onda quadra
+78:28 potentissima
+78:32 e per sua natura ha una quantità di
+78:35 armonica incredibile, cioè onda quadra a
+78:37 60.000 1000 Hz, la posso ascoltare quasi
+78:40 fino a 60 MHz in termini di frequenze
+78:44 radio. Cioè questi alimentatori sono
+78:47 intrinsecamente sporchi, per intenderci,
+78:51 perché il fatto di generare appunto una
+78:55 tensione e una corrente così forte, una
+78:58 frequenza così alta e questo è un
+79:02 generatore è intrinsecamente esso stesso
+79:05 un generatore di disturbi. Allora, cosa
+79:07 succede in questi alimentatori? Quindi
+79:09 generano interferenze ARF.
+79:13 Come in tutti i circuiti elettronici,
+79:15 queste interferenze radiofrequenza
+79:17 possono essere in qualche modo filtrate.
+79:19 Quindi se uno compra un alimentatore
+79:21 switching buono, essenzialmente non
+79:25 dovrebbe avere problemi. Buono significa
+79:27 di di buona marca, buono significa che,
+79:31 diciamo, magari non è proprio degli
+79:32 oggetti cinesi di primo prezzo che
+79:34 normalmente creano un po' di creano un
+79:37 po' di di problemi.
+79:40 e per riconoscere cose che a mio avviso
+79:44 sono delle vere
+79:47 prese in giro, tanto per non usare altri
+79:50 altri termini, vi faccio vedere
+79:53 un'immagine trovata in rete.
+79:56 Allora, gli alimentatori switching, come
+79:58 vi dicevo, sono intrinisticamente
+80:01 sporchi, no? Quindi se se il costruttore
+80:05 non spende un po' di soldi per fare gli
+80:07 le opportune schermature e gli opportuni
+80:10 filtraggi, gli alimentatori twitching
+80:12 intrinsicamente disturbano la radio. A
+80:14 questo punto il costruttore ha due
+80:16 strade per risolvere questo problema. La
+80:18 prima strada è fare un progetto serio e
+80:20 quindi usare filtri e usare schermi,
+80:23 così il rumore che viene generato negli
+80:25 switching resta dentro gli switching.
+80:28 Oppure c'è la strada della presa in giro
+80:30 che si vede per esempio in questi
+80:32 alimentatori. Questa è una fra le tante
+80:35 immagini prese in rete. Questa Telecom è
+80:38 una marca assolutamente sconosciuta e in
+80:41 questi alimentatori c'è una manopola che
+80:43 vedete qui c'è scritto no noise offset.
+80:46 Questa manopola ha lo scopo di
+80:49 semplicemente variare la frequenza di
+80:51 oscillazione del famoso la frequenza di
+80:53 taglio del famoso del famoso chopper.
+80:57 Quindi questo alimentatore
+81:00 evidentemente genera alla sua uscita
+81:02 delle armoniche molto forti che possono
+81:04 disturbare la radio. Invece di spendere
+81:07 soldi in filtraggio, questi preferiscono
+81:10 spendere qualche centesimo in un
+81:12 potenziometro che vari la frequenza del
+81:14 chopper. Variando la frequenza del
+81:16 shopper tramite questa manopola,
+81:18 semplicemente il segnale che ti sta
+81:19 disturbando in quel momento viene
+81:21 spostato un po' più in là. Quindi questa
+81:24 non è una una tecnica di filtraggio, no?
+81:27 semplicemente il costruttore di di quel
+81:31 di di quell'oggetto, di quella schifezza
+81:33 immonda, mi verrebbe da dire, ha deciso
+81:36 di spendere solamente quei 50 cent per
+81:38 mettere quel potenziometrino per fare sì
+81:40 che il disturbo lo mandi un po' più in
+81:42 là. E allora oggetti di quel genere non
+81:46 andrebbero proprio comprati, diciamo
+81:48 così. E basta con questo termino.
+81:50 Allora, Lorenzo, a te.
+81:57 Sì, buonasera. Mi sentite?
+81:58 >> Sì, perfettamente. Vai. Giusto una
+82:00 domanda sugli alimentatori switching.
+82:03 Mi sembra di aver sentito qualche volta
+82:05 utilizzare il termine condensatore Y, di
+82:09 classe Y,
+82:12 possibile
+82:14 per isolare la parte di eh la parte
+82:18 sicura da quella non sicura,
+82:20 soprattutto nel contesto del non mettere
+82:24 condensatori che non siano di classe Y
+82:26 perché sennò se fallisce fallisce in una
+82:28 posizione che è potenzialmente dannosa
+82:31 per la salute. Eh, allora, no, non lo
+82:35 so, non lo so. Allora, è vero che eh
+82:38 soprattutto non so cosa sono i
+82:40 condensatori Y, confesso i miei limiti.
+82:43 Diciamo che la parte la parte collegata
+82:47 alla rete e la parte non collegata alla
+82:48 rete di un alimentatore switch sono
+82:50 comunque collegati con dei condensatori
+82:52 di elevata qualità e si vedono anche,
+82:54 diciamo, nei circuiti. Di solito sono
+82:56 dei bei pillolotti di un bel celeste
+83:00 che, diciamo, sono oggetti che hanno le
+83:02 specifiche, appunto, per stare in una
+83:04 posizione di quel tipo, perché se
+83:06 entrassero in perdita colleghereo la
+83:08 parte pericolosa alla parte che noi
+83:10 riteniamo sicura.
+83:13 E forse questi sono quelli che tu chiami
+83:16 condensatori Y.
+83:18 Io probabilmente chiamo
+83:21 Eh sì, probabilmente son quelli. Nello
+83:23 schema di prima dove si andrebbero a
+83:25 incastrare e se sopra ho quel piccolo
+83:28 trasformatore e sotto ho il lotto
+83:31 isolatore, mi mancava un attimo, quindi,
+83:33 per questo incastino qua. Ecco.
+83:36 eh si andrebbero ad incastrare, ad
+83:39 esempio, fra la fra le masse dei due
+83:42 circuiti, fra la massa del circuito du
+83:45 220 e la massa del circuito eh
+83:51 filtrato, diciamo, a valle.
+83:54 >> Ok, grazie.
+83:55 >> Ok, a te bella domanda.
+83:59 Adesso
+84:02 Pier Paolo.
+84:07 >> Sì, sì. Ascolta, io volevo ritornare un
+84:10 attimo ai diodi. Ehm, mi puoi nel non so
+84:16 ora come puoi spiegarmelo tu sicuramente
+84:20 in maniera elementare, visto
+84:24 eh l'argomento la differenza tra
+84:26 fotoaccoppiatore
+84:28 e optoisolatore.
+84:32 Mh. Allora,
+84:35 eh,
+84:37 il foto, aspetta, quindi interrompo la
+84:39 condivisione, scusa perché non c'è
+84:41 niente nelle slide che riguarda questo.
+84:45 E
+84:48 allora, l'optisolatore è un componente
+84:51 elettronico, quello che abbiamo visto
+84:53 prima e secondo me il fotoaccoppiatore
+84:57 fa sostanzialmente la stessa cosa,
+85:01 cioè per come li li conosco io di fatto
+85:04 sono sinonimi.
+85:07 Tu dove tu dove hai visto usare un
+85:09 fotoaccoppiatore? Aiutami a capire.
+85:13 Sì, i fotocopiatori classici, almeno ehm
+85:17 si definiscono tali quelli che si
+85:19 trovano negli alimentatori switch in dei
+85:21 TV.
+85:24 Eh sono ce ne sono in diverse
+85:28 diverse situazioni questi fotocopiatori
+85:30 qui o almeno li chiamano tali. Ecco.
+85:35 >> Sì. Eh, allora se se sono in
+85:37 alimentatori switching di quel genere,
+85:39 probabilmente sono quelli che io ho
+85:40 chiamato gli optoisolatori.
+85:44 >> Ah, ecco. Allora, si possono
+85:46 >> e secondo me è probabile che siano la
+85:48 stessa cosa.
+85:51 >> Hanno lo stesso scopo, insomma, dienso
+85:53 Penso di sì. Penso di sì.
+85:55 >> Ok. Ok. Ok.
+85:56 >> Penso di sì.
+85:58 Quindi accoppiare i due circuiti tramite
+86:01 eh fotoni
+86:04 o o tramite luce, che è la stessa cosa,
+86:06 in effetti.
+86:11 Ok, Giancarlo, a te.
+86:15 >> Sì, ciao Paolo, sono quello che ha ti ha
+86:19 salutato fugacemente al club venerdì
+86:21 scorso, poi
+86:22 >> Sì, sì, sì. Ciao.
+86:23 >> Vo uscire. Buonasera a tutti. Eh, ti
+86:26 volevo chiedere riguardo gli
+86:28 alimentatori switching, allora quale
+86:30 potrebbe essere allora una domanda che
+86:33 potrebbero fare all'esame riguardo a
+86:34 questo tipo di alimentatori? Grazie.
+86:37 >> Ma gli switch non fanno parte della
+86:40 domanda d'esame del programma di esame e
+86:43 quindi in teoria domande non ce ne
+86:45 dovrebbero essere,
+86:47 >> però
+86:48 >> dovessimo
+86:49 un un esaminatore zelante, insomma,
+86:52 pignolo,
+86:54 cosa potrebbe chiedere? unent un
+86:57 esaminatore zelante secondo me dovrebbe
+86:59 fermarsi alle caratteristiche di un
+87:02 alimentatore, non entrare nel nel come
+87:06 funziona e quindi
+87:09 un esaminatore zenante potrebbe dire
+87:11 quali sono, per esempio, quali sono fra
+87:14 queste tre le caratteristiche di un
+87:15 alimentatore switching? pesa tanto,
+87:17 costa poco, faccio per dire, no, scalda
+87:19 parecchio, cose di questo tipo, cioè
+87:22 sulle sue prestazioni,
+87:24 le sue prestazioni in termini appunto di
+87:27 di leggerezza, in termini di efficienza,
+87:31 eh eventualmente in termini di
+87:33 possibilità di
+87:35 secondo me dovrebbe essere dovrebbe
+87:38 essere questo sostanza,
+87:40 no? Non credo non credo che sia
+87:42 possibile che domandino di più.
+87:45 >> Grazie. sugli alimentatori di sugli
+87:48 alimentatori lineari il programma di
+87:50 esame prevede la conoscenza dei blocchi
+87:53 costitutivi, quindi il trasformatore, il
+87:56 raddrizzatore, semplice, doppia semionda
+87:59 e il filtraggio e la stabilizzazione.
+88:04 E nelle domande che vi manderemo, nelle
+88:06 15 domande che vi manderemo domani, eh
+88:10 troverete appunto alcune domande tratte
+88:12 dalle domande ministeriali proprio su
+88:14 queste cose.
+88:18 Ok, ciao e ci vediamo uno dei prossimi
+88:21 venerdì. Pierluigi, a te.
+88:24 >> Eh sì, ciao. Volevo farti una domanda
+88:27 sul li varie. E questo è limitato in
+88:30 modo inverso, però deve essere percorso
+88:33 corrente ad altra frequenza. Ecco,
+88:36 questa corrente d'altra frequenza avrà
+88:38 una tensione. Quindi questa tensione non
+88:40 è che si somma la tensione di
+88:42 polarizzazione e quindi cambia a sua
+88:44 volta la capacità del diodo. No,
+88:47 cioè forse la domanda.
+88:49 >> Sì. No, no, la domanda la domanda è
+88:50 giustissima. E e allora sicuramente i
+88:53 biodiarica si usano nei circuiti in cui
+88:55 esiste una radiofrequenza. La
+88:57 radiofrequenza deve essere molto al di
+88:58 sotto della soglia di conduzione del
+89:00 diodo varicap, sennò il gioco non
+89:02 funziona più, esattamente come hai detto
+89:04 tu.
+89:06 Appunto, però anche magari una piccola
+89:08 Sì, sì, certo. Però anche piccola magari
+89:11 però si va a sommare la tensione di
+89:12 polarizzazione, quindi può indurre una
+89:15 piccola variazione di capacità.
+89:17 >> Sì, potrebbe, potrebbe,
+89:19 >> no? Beh, è una curiosità e non
+89:21 >> Sì, sì. No, è giustissimo. È
+89:23 giustissimo. Diciamo che le escursioni
+89:25 di frequenza di un didaricap,
+89:28 le escursioni di tensione con cui un
+89:30 diodo varicien pilotato possono essere
+89:32 dai dai 5 a 60 V di polarizzazione
+89:35 inversa a seconda del tipo di diodo
+89:38 mediamente e i segnali di frequenza sono
+89:41 molto più piccoli, ma pure ostendi più
+89:43 piccoli sicuramente possono indurre una
+89:44 variazione di capacità.
+89:48 Sicuramente
+89:51 adesso Giovanni a te.
+89:54 Sì.
+89:54 >> Ciao Paolo. Eh io avrei la necessità di
+89:58 trasformare eh 18 vol in alternata eh a
+90:03 15 V in alternata.
+90:05 Potrei usare in teoria cinque LED cinque
+90:09 diodi eh
+90:12 per abbassare di tre volte la corrente,
+90:15 la tensione, scusa.
+90:17 >> Eh no, perché se usi dei diodi poi non
+90:20 ottieni più un'alternata.
+90:24 Eh,
+90:25 allora il modo migliore per abbassare un
+90:28 18 a un 15, hai detto
+90:31 >> a 15, sì. Eh,
+90:34 allora con che livelli di potenza,
+90:37 scusa?
+90:38 >> Eh, un W.
+90:43 >> Roba piccola. Via,
+90:44 >> roba piccola. Ma allora il modo migliore
+90:47 per fare una cosa di questo tipo, il
+90:48 modo più elegante di fare una cosa di
+90:50 questo tipo sarebbe con due
+90:51 trasformatori. Parlando di componenti
+90:53 che si trovano sul mercato, immaginati
+90:56 di avere due trasformatori, uno 2201
+90:59 e l'altro 22015.
+91:03 colleghi insieme i i due 220.
+91:06 >> Sì.
+91:07 >> E così ottieni l'un unico trasformatore
+91:09 che ha ingresso 18 e uscita 15.
+91:12 >> Ah, ok. Più semplice.
+91:13 >> In questo modo l'oggetto che vai a
+91:16 costruire ha un rendimento molto elevato
+91:18 perché sono due trasformatori, non ti
+91:20 distorcce le forme d'onda nulla. Dal
+91:22 punto di vista elettrico secondo me è la
+91:24 soluzione più pulita.
+91:26 Ah, perfetto. Dai, ti ringrazio.
+91:29 >> Niente,
+91:31 Pier Paolo, a te.
+91:35 >> Sì, chiedo un'ultima cosa, poi
+91:39 >> eh una più che altro una curiosità, io
+91:42 sono anche affascinato molto dagli
+91:44 inverter. Avremo modo di parlare al di
+91:46 fuori al di fuori del programma d'esame
+91:49 dell'inverter?
+91:52 Eh sì, ne possiamo parlare
+91:54 tranquillamente.
+91:57 Tranquillamente. Qual è la tua
+91:59 curiosità?
+92:00 Puoi sapere come funzionano?
+92:03 >> No, no, no. Ma sì, appunto, il
+92:05 funzionamento. Il funzionamento proprio
+92:07 visto che si parla sempre di MOSFET, di
+92:11 elettrolitici,
+92:13 eh insomma di un po' di tutto quello che
+92:15 abbiamo parlato, diudiodi a quantità
+92:18 e a chili e via dicendo, insomma. Ecco.
+92:21 E allora vi ho detto, ma volevo eh
+92:25 siccome vedo vedo tante tante filmati,
+92:30 eh appunto io guardo molto i filmati di
+92:33 elettronica e vedo questi queste persone
+92:37 che si modificano, costruiscono questi
+92:40 inverter e mi incuriosiva tanto la cosa.
+92:43 Allora, non andare nel nel particolare,
+92:46 cioè giusto
+92:48 un'infarinatura, ecco, di questo e
+92:50 basta. Ecco,
+92:51 >> vai. Buona domanda. Ti preparerò due
+92:54 luci.
+92:57 >> Ok, grazie.
+92:59 >> E ne possiamo parlare in una delle
+93:00 prossime lezioni dove tiriamo in ballo
+93:02 appunto i transistor.
+93:06 >> Perfetto, grazie mille.
+93:10 Adesso Matteo.
+93:16 Sì. Ehm, scrivendomi ero perso sempre
+93:19 per i diodi il Lot Carrier.
+93:25 >> Sono rimasto indietro.
+93:26 >> Lot carrier. Se ti se ti domandano cos'è
+93:29 un OT carrier, la risposta è un diodo
+93:31 veloce. Punto.
+93:34 Sono di che vengono usati, sono diodi
+93:36 che nascono per essere usati a frequenze
+93:37 alte. Ok.
+93:41 Poiché,
+93:42 >> ok,
+93:43 >> perché poiché sia i diodi che i
+93:45 transistor, quelli normali che vedremo
+93:47 la settimana prossima, hanno in qualche
+93:49 modo dei meccanismi di funzionamento,
+93:51 no, attorno alle giunzioni, drogaggio
+93:55 eccetera, che ha dei tempi di risposta,
+93:57 questi tempi di risposta a un certo
+93:59 punto limitano la frequenza massima di
+94:01 utilizzo di questi dispositivi.
+94:04 Con gli OT carrier si può arrivare a
+94:05 frequenze più alte, sono diodi più
+94:07 veloci e poi vedremo anche che sono dei
+94:09 transistor più veloci.
+94:12 Ok, miero perso un pezzo. Grazie
+94:18 >> Gianfranco a te
+94:20 >> di nuovo. Buonasera. Ehm mh parlando dei
+94:23 degli alimentatori lineari, eh ad un
+94:25 certo punto si è accennato al fatto che
+94:28 eh la parte di stabilizzazione potrebbe
+94:32 essere affidata ad un circuito che ehm
+94:36 varia la tensione in uscita.
+94:39 >> Sì, sì,
+94:41 >> si può approfondire se non se non reca
+94:44 problemi un secondo questo questo
+94:47 argomento.
+94:48 >> No, nessun problema, nessun problema.
+94:51 Aspetta, eh, metto
+94:55 rimetto
+94:57 ta.
+94:58 Pausa tecnica.
+95:02 Fatemi tornare indietro. Fatemi tornare
+95:05 indietro. Qua. Allora, questo è un
+95:07 circuito di stabilizzazione, d'accordo?
+95:11 Allora, per ora in effetti cerco di
+95:14 interpretare la tua domanda. Se se poi
+95:17 non è corretta, tu continua a domandare
+95:19 senza problemi. Allora, questo tipo di
+95:23 circuito per ora lo lo abbiamo
+95:26 descritto, ne abbiamo parlato come un
+95:28 circuito di stabilizzazione, d'accordo?
+95:31 Cioè qui c'è una tensione di riferimento
+95:35 e quindi a questa tensione di
+95:37 riferimento ottenuta qui tramite uno
+95:39 zener. In qualche modo il circuito di
+95:41 stabilizzazione fa sì che l'uscita del
+95:43 mio alimentatore qui è la tensione in
+95:47 qualche modo prevista. Mh, però e e
+95:51 dimmi se ho compreso bene la tua
+95:52 domanda, eh, però molte volte noi
+95:55 vogliamo un alimentatore che magari
+95:58 possa avere una tensione di uscita
+95:59 regolabile, per esempio un 915 V tanto
+96:03 per dire, non alimentatori tipici che
+96:05 possono essere usati per, diciamo,
+96:08 alimentare una radio. Allora, se voglio
+96:11 in uscita da un circuito di questo
+96:13 genere, se voglio da un circuito di
+96:15 questo tipo anche la possibilità di
+96:18 regolare la tensione, cosa faccio? Posso
+96:22 semplicemente
+96:24 variare,
+96:27 perso il cursore, posso semplicemente
+96:29 variare questa resistenza qui,
+96:32 sostituendola con una resistenza
+96:34 variabile, ovvero con un potenziometro,
+96:36 come viene chiamata molte molte volte.
+96:40 Eh, perché se io modifico questa
+96:43 resistenza
+96:45 ehm
+96:47 modifico la percentuale della tensione
+96:50 di uscita che entra nel mio
+96:52 amplificatore di errore. Quindi, allora,
+96:54 nel mio amplificatore di errore io ho
+96:56 una tensione eh supposta assolutamente
+97:00 stabile che viene presa da riferimento,
+97:02 che è quella del mio zener.
+97:07 Allora, immaginiamo che lo zener sia da,
+97:10 faccio un esempio numerico che forse mi
+97:12 spiego meglio. Immaginiamo che questo
+97:14 zener sia da 6 V.
+97:17 Se io, nell'esempio che facevo prima,
+97:18 immaginiamo che questo sia un
+97:20 alimentatore da 12 V, se io qui metto R1
+97:25 ed R2 uguali,
+97:28 eh, questi 12 V, qui c'è il + 12,
+97:31 d'accordo? Qui c'è il lo zero della
+97:36 tensione di riferimento, quindi ho 12 V
+97:38 fra questi due capi, questo e questo. Se
+97:41 io qua metto due resistenze uguali, R1 e
+97:44 R2, anche senza fare anche senza fare
+97:47 troppi calcoli, legge di OM eccetera, si
+97:49 si intuisce che due resistenze uguali
+97:52 dimezzano i 12 V, no? Cioè su ciascuna
+97:55 di queste resistenze cade metà del 12,
+97:57 quindi sia su R1 o 6 V che su R2 o 6 V.
+98:02 Quindi qua in ingresso ho 6 V. Punto.
+98:05 L'alimentatore,
+98:07 l'amplificatore di errore a questo punto
+98:10 non agisce e tutto funziona bene e in
+98:13 uscita ho 6 V. Ma se io ho, per esempio,
+98:17 questa eh questa resistenza di sotto,
+98:20 questa R2, dove ho scarabucchiato molto
+98:24 in qualche modo, la eh la abbasso
+98:27 leggermente.
+98:29 Praticamente se l'abbasso leggermente,
+98:31 artificialmente io faccio in modo che
+98:34 quando il mio alimentatore in uscita ha
+98:36 12 V, se io questa resistenza l'abbasso
+98:39 leggermente e qui questi 6 V mi
+98:41 diventano 5.
+98:44 Ok?
+98:46 A questo punto
+98:49 diventano cinque pur avendo 12 volte in
+98:52 uscita. A questo punto l'amplificatore
+98:54 di errore sentendo una uno
+98:56 sbilanciamento, cosa cosa farà? e
+98:59 aumenterà la tensione diuscita, ad
+99:02 esempio, fino a 14 V, per fare in modo
+99:05 che questi 14 divisi da due resistenze
+99:07 che non sono più uguali, non sono più
+99:10 uguali, riportino a se il valore della
+99:13 tensione qua. Quindi se io modifico se
+99:17 io modifico una qualsiasi di queste due
+99:20 resistenze,
+99:22 ehm
+99:24 modifico la tensione di uscita del mio
+99:26 stabilizzatore.
+99:28 Quindi basta. Sì,
+99:30 >> esatto, esatto, esatto. Lo lo vedi come
+99:32 funziona
+99:33 >> a occhio il loop di regolazione, no?
+99:35 Cioè,
+99:36 >> modificando il fattore di divisione
+99:39 della tensione di uscita, il fattore di
+99:40 partizione fra R1 e R2, comunque il mio
+99:44 amplificatore d'errore farà in modo che
+99:45 la tensione di uscita qui deve tornare
+99:47 sempre sei, deve tornare un valore
+99:49 uguale alla mia tensioni di riferimento.
+99:52 Se io continuo a abbassare questa R2 in
+99:55 uscita non troverò più 14, troverò 16.
+99:59 Chiaro? Eh, molto ingegnoso,
+100:03 molto
+100:03 >> eh sì, sono mol, diciamo, c certi certi
+100:07 schemi elettrici è una parola un po'
+100:10 strana e e forse un po' da, scusatemi il
+100:12 termine, quasi da sega mentale, però
+100:14 certi schemi elettrici sono veramente
+100:17 eleganti, secondo me, perché delle volte
+100:20 vedi delle soluzioni elettriche che
+100:23 francamente dici bello, a volte vedi
+100:25 degli schemi che sono dei guazabugli,
+100:27 no? A volte vedi delle cose che hanno
+100:28 proprio delle
+100:31 degli ingeniosità veramente veramente
+100:33 belle a vedersi.
+100:36 >> Grazie, veramente interessante,
+100:38 veramente grazie.
+100:40 >> Eh, grazie a te, Gianfranco.
+100:45 Altre domande?
+100:48 Paolo, approfitterei, scusate, per
+100:51 interrompere la registrazione, quindi
+100:52 magari si può anche aprire un pochino
+100:55 più
+100:56 >> corretto, corretto. Si possono anche
+100:57 accendere un po' di video volendo e così
+100:59 via. Vedete?
+101:00 Vedete, mentre la registrazione si
+101:02 spenge che si sta in qualche modo
+101:04 realizzando,

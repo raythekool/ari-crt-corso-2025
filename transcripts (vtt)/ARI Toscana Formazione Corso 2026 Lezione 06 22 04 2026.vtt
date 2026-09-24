@@ -1,0 +1,9621 @@
+WEBVTT
+
+1
+00:00:02.040 --> 00:00:06.279
+cose un po' più vicine al mondo della
+
+2
+00:00:04.600 --> 00:00:08.480
+radio, quindi entriamo proprio nella
+
+3
+00:00:06.279 --> 00:00:10.440
+parte di radiotecnica. Stasera parliamo
+
+4
+00:00:08.480 --> 00:00:12.920
+dei filtri, parliamo del concetto di
+
+5
+00:00:10.440 --> 00:00:14.879
+risonanza e poi parliamo di un altro
+
+6
+00:00:12.920 --> 00:00:16.400
+componente elettronico che è il quarzo.
+
+7
+00:00:14.879 --> 00:00:18.680
+Il quarzo, il cristallo di quarzo,
+
+8
+00:00:16.400 --> 00:00:21.519
+quello come troviamo poi negli negli
+
+9
+00:00:18.680 --> 00:00:25.039
+orologi. Allora, i filtri,
+
+10
+00:00:21.519 --> 00:00:27.480
+cosa sono i filtri? Tanto i filtri sono
+
+11
+00:00:25.039 --> 00:00:30.400
+delle combinazioni di circuiti fatti di
+
+12
+00:00:27.480 --> 00:00:33.640
+solito da eh condensatori e induttori,
+
+13
+00:00:30.400 --> 00:00:37.360
+quindi sono delle combinazioni
+
+14
+00:00:33.640 --> 00:00:40.440
+di componenti LC
+
+15
+00:00:37.360 --> 00:00:42.520
+e come tutti i filtri fanno passare
+
+16
+00:00:40.440 --> 00:00:46.039
+alcune cose e ne bloccano altre,
+
+17
+00:00:42.520 --> 00:00:48.079
+attenuano determinate frequenze e di
+
+18
+00:00:46.039 --> 00:00:49.680
+conseguenza ne fanno passare altri come
+
+19
+00:00:48.079 --> 00:00:51.719
+fanno tutti i filtri, no? anche il
+
+20
+00:00:49.680 --> 00:00:53.920
+colino, diciamo, che che filtra il
+
+21
+00:00:51.719 --> 00:00:56.840
+caffè, la polvere di caffè resta dentro
+
+22
+00:00:53.920 --> 00:01:00.559
+il filtro, il caffè passa di là. E com'è
+
+23
+00:00:56.840 --> 00:01:03.039
+che i filtri riescono a fare questa
+
+24
+00:01:00.559 --> 00:01:06.799
+funzione, a far passare alcune frequenze
+
+25
+00:01:03.039 --> 00:01:09.119
+e a bloccarne altre? Lo fanno sfruttando
+
+26
+00:01:06.799 --> 00:01:11.040
+e le proprietà delle reattanze induttive
+
+27
+00:01:09.119 --> 00:01:13.360
+e capacitive che variano in funzione
+
+28
+00:01:11.040 --> 00:01:15.320
+della frequenza e poi vedremo come. È
+
+29
+00:01:13.360 --> 00:01:17.080
+per merito di queste variazioni della
+
+30
+00:01:15.320 --> 00:01:19.200
+reattanza che i filtri possono essere
+
+31
+00:01:17.080 --> 00:01:21.479
+fatti. Qui in questa slide vi ho
+
+32
+00:01:19.200 --> 00:01:23.439
+riportato gli schemi che abbiamo visto
+
+33
+00:01:21.479 --> 00:01:26.479
+mercoledì scorso. Questo qui che avete a
+
+34
+00:01:23.439 --> 00:01:29.759
+sinistra è l'andamento di una reattanza
+
+35
+00:01:26.479 --> 00:01:32.320
+induttiva, cioè cresce
+
+36
+00:01:29.759 --> 00:01:36.159
+linearmente al crescere della frequenza.
+
+37
+00:01:32.320 --> 00:01:39.799
+invece in questa parte è l'andamento
+
+38
+00:01:36.159 --> 00:01:42.240
+della reattanza eh capacitiva. Questa
+
+39
+00:01:39.799 --> 00:01:43.720
+invece decresce al crescere della
+
+40
+00:01:42.240 --> 00:01:46.240
+frequenza, quindi al crescere della
+
+41
+00:01:43.720 --> 00:01:49.560
+frequenza la reattanza
+
+42
+00:01:46.240 --> 00:01:52.399
+eh induttiva cresce, la reattanza
+
+43
+00:01:49.560 --> 00:01:54.159
+capacitiva diminuisce e vediamo la
+
+44
+00:01:52.399 --> 00:01:57.119
+l'applicazione di questa cosa nel primo
+
+45
+00:01:54.159 --> 00:02:00.759
+filtro, il filtro passa basso. Passa
+
+46
+00:01:57.119 --> 00:02:04.600
+basso. Allora, intanto capiamo insieme
+
+47
+00:02:00.759 --> 00:02:07.200
+cos'è questo schema che vedete su questa
+
+48
+00:02:04.600 --> 00:02:09.200
+slide. Intanto su questa, diciamo,
+
+49
+00:02:07.200 --> 00:02:11.440
+questo schema, vedete che è su due assi
+
+50
+00:02:09.200 --> 00:02:13.560
+cartesiani, l'asse orizzontale, l'asse
+
+51
+00:02:11.440 --> 00:02:16.160
+delle ascisse mostra la frequenza.
+
+52
+00:02:13.560 --> 00:02:18.200
+Vedete che qua avete f la frequenza.
+
+53
+00:02:16.160 --> 00:02:21.760
+Quindi stiamo vedendo questo filtro come
+
+54
+00:02:18.200 --> 00:02:24.040
+si come opera alle diverse frequenze.
+
+55
+00:02:21.760 --> 00:02:26.879
+Qui abbiamo lo zero, ovviamente, punto
+
+56
+00:02:24.040 --> 00:02:29.400
+di incrocio degli assi. Qui avremo più o
+
+57
+00:02:26.879 --> 00:02:32.160
+meno le frequenze alte e poi via sempre
+
+58
+00:02:29.400 --> 00:02:34.800
+più alte andando verso destra. Invece
+
+59
+00:02:32.160 --> 00:02:38.120
+sull'asse verticale abbiamo questo
+
+60
+00:02:34.800 --> 00:02:40.879
+parametro qua che è il rapporto fra la
+
+61
+00:02:38.120 --> 00:02:43.599
+tensione di uscita V o V output e la
+
+62
+00:02:40.879 --> 00:02:46.599
+tensione di ingresso del filtro.
+
+63
+00:02:43.599 --> 00:02:48.480
+Quando quel quando quello che esce è
+
+64
+00:02:46.599 --> 00:02:50.159
+uguale a quello che entra, quindi la
+
+65
+00:02:48.480 --> 00:02:52.400
+tensione di uscita è uguale a quella di
+
+66
+00:02:50.159 --> 00:02:54.680
+ingresso, qui abbiamo sopra e sotto lo
+
+67
+00:02:52.400 --> 00:02:57.800
+stesso numero e a che sarebbe la
+
+68
+00:02:54.680 --> 00:03:00.239
+attenuazione del filtro vale 1. Cioè il
+
+69
+00:02:57.800 --> 00:03:03.120
+filtro secondo quella formula, non
+
+70
+00:03:00.239 --> 00:03:06.480
+attenua niente. Allora, i filtri passa
+
+71
+00:03:03.120 --> 00:03:08.640
+basso come si comportano? si comportano
+
+72
+00:03:06.480 --> 00:03:11.159
+partendo dalle basse frequenze
+
+73
+00:03:08.640 --> 00:03:13.239
+attenuando poco,
+
+74
+00:03:11.159 --> 00:03:15.239
+attenuando poco, poco, poco, facendo
+
+75
+00:03:13.239 --> 00:03:17.319
+passare in qualche modo tutto il
+
+76
+00:03:15.239 --> 00:03:20.000
+pacchetto di frequenze basse. Poi si
+
+77
+00:03:17.319 --> 00:03:24.400
+arriva a un certo punto in cui l'effetto
+
+78
+00:03:20.000 --> 00:03:26.360
+del filtro si comincia a sentire e la
+
+79
+00:03:24.400 --> 00:03:28.680
+tensione in uscita, il segnale in uscita
+
+80
+00:03:26.360 --> 00:03:30.720
+comincia a decrescere finché si arriva
+
+81
+00:03:28.680 --> 00:03:32.720
+in un certo punto che è chiamato la
+
+82
+00:03:30.720 --> 00:03:35.159
+frequenza di taglio del filtro. E poi vi
+
+83
+00:03:32.720 --> 00:03:38.000
+dirò questa frequenza di taglio com'è.
+
+84
+00:03:35.159 --> 00:03:40.439
+E in questo caso del filtro passa basso,
+
+85
+00:03:38.000 --> 00:03:42.760
+quanto più si sale di frequenza e quanto
+
+86
+00:03:40.439 --> 00:03:45.439
+più bassa sarà l'uscita del filtro fino
+
+87
+00:03:42.760 --> 00:03:47.920
+a arrivare idealmente, diciamo, quasi a
+
+88
+00:03:45.439 --> 00:03:50.280
+quasi a zero. Allora, di questi filtri
+
+89
+00:03:47.920 --> 00:03:52.040
+passa passo ce ne sono tantissimi in
+
+90
+00:03:50.280 --> 00:03:54.239
+tanti componenti elettronici. Per
+
+91
+00:03:52.040 --> 00:03:56.480
+esempio, se qualcuno di voi ai vecchi
+
+92
+00:03:54.239 --> 00:03:58.159
+tempi del vinile aveva un amplificatore
+
+93
+00:03:56.480 --> 00:04:00.480
+stereo di quelli belli, come si usavano
+
+94
+00:03:58.159 --> 00:04:03.560
+a quei tempi, vedi Marans, vedi Piatti
+
+95
+00:04:00.480 --> 00:04:05.159
+Torrence e roba di questo tipo. E molto
+
+96
+00:04:03.560 --> 00:04:07.280
+probabilmente nell nel
+
+97
+00:04:05.159 --> 00:04:09.920
+nell'amplificatore che usava, perché a
+
+98
+00:04:07.280 --> 00:04:11.599
+quei tempi si usavano, cioè non c'erano
+
+99
+00:04:09.920 --> 00:04:14.239
+ancora i CD ovviamente, quindi si
+
+100
+00:04:11.599 --> 00:04:16.239
+ascoltavano i dischi in vinile, no? e il
+
+101
+00:04:14.239 --> 00:04:19.280
+disco vinile, la puntina sul disco
+
+102
+00:04:16.239 --> 00:04:22.120
+vinile sfrega e quindi a frequenze molte
+
+103
+00:04:19.280 --> 00:04:23.400
+alte e certi certe puntini un po'
+
+104
+00:04:22.120 --> 00:04:27.240
+economiche, certi dischi un po'
+
+105
+00:04:23.400 --> 00:04:29.919
+economici provocavano un una specie di
+
+106
+00:04:27.240 --> 00:04:31.720
+di sibilo alto, un sh una specie di
+
+107
+00:04:29.919 --> 00:04:33.320
+sibilo a frequenze molto alte. E allora
+
+108
+00:04:31.720 --> 00:04:37.520
+in quegli amplificatori molto spesso
+
+109
+00:04:33.320 --> 00:04:39.280
+c'era un bellinruttore che era chiamato
+
+110
+00:04:37.520 --> 00:04:42.720
+eh
+
+111
+00:04:39.280 --> 00:04:45.800
+non so vari, diciamo, in vari modi,
+
+112
+00:04:42.720 --> 00:04:47.680
+antikiss o qualcosa del genere e
+
+113
+00:04:45.800 --> 00:04:50.479
+schiacci e premendo quell'interruttore
+
+114
+00:04:47.680 --> 00:04:52.199
+si introduceva un filtro passa basso
+
+115
+00:04:50.479 --> 00:04:55.720
+nell'amplificatore
+
+116
+00:04:52.199 --> 00:04:59.039
+che faceva sì che questo eh fruscio alle
+
+117
+00:04:55.720 --> 00:05:01.440
+alte frequenze venisse di fatto
+
+118
+00:04:59.039 --> 00:05:04.520
+attenuato o tagliato, come succede in
+
+119
+00:05:01.440 --> 00:05:06.919
+questa curva che vediamo che vediamo
+
+120
+00:05:04.520 --> 00:05:09.120
+qua. M
+
+121
+00:05:06.919 --> 00:05:11.160
+quindi un filtro passa basso cosa fa
+
+122
+00:05:09.120 --> 00:05:14.639
+rispetto a una certa frequenza, questa
+
+123
+00:05:11.160 --> 00:05:17.000
+frequenza di taglio fa passare tutte le
+
+124
+00:05:14.639 --> 00:05:19.840
+frequenze basse al di sotto della
+
+125
+00:05:17.000 --> 00:05:21.520
+frequenza di taglio e attenua sempre più
+
+126
+00:05:19.840 --> 00:05:23.960
+quelle a frequenze maggiori della
+
+127
+00:05:21.520 --> 00:05:26.560
+frequenza di taglio.
+
+128
+00:05:23.960 --> 00:05:29.319
+Cos'è la frequenza di taglio? La trovate
+
+129
+00:05:26.560 --> 00:05:31.080
+in quest'altra slide la definizione. La
+
+130
+00:05:29.319 --> 00:05:34.039
+frequenza di taglio è una frequenza in
+
+131
+00:05:31.080 --> 00:05:37.800
+cui la potenza del segnale di uscita del
+
+132
+00:05:34.039 --> 00:05:40.400
+filtro si dimezza rispetto alla potenza
+
+133
+00:05:37.800 --> 00:05:44.199
+del segnale in ingresso, oppure che è
+
+134
+00:05:40.400 --> 00:05:47.639
+esattamente la stessa cosa, l'ampiezza
+
+135
+00:05:44.199 --> 00:05:49.759
+del segnale di uscita si riduce a 0,707
+
+136
+00:05:47.639 --> 00:05:53.400
+V rispetto al valore della banda
+
+137
+00:05:49.759 --> 00:05:56.160
+passante. Quindi la prima formula parla
+
+138
+00:05:53.400 --> 00:05:58.319
+di potenza P. D'accordo?
+
+139
+00:05:56.160 --> 00:06:00.160
+La seconda formula è la stessa cosa,
+
+140
+00:05:58.319 --> 00:06:02.199
+dice esattamente la stessa cosa, però
+
+141
+00:06:00.160 --> 00:06:04.960
+parla di ampiezza, quindi parla di bolt.
+
+142
+00:06:02.199 --> 00:06:06.840
+Solo due modi diversi per definire la
+
+143
+00:06:04.960 --> 00:06:10.000
+frequenza di taglio, però la frequenza è
+
+144
+00:06:06.840 --> 00:06:13.160
+sempre la stessa. A volte la si dice in
+
+145
+00:06:10.000 --> 00:06:14.759
+termini di potenza. Frequenza di taglio
+
+146
+00:06:13.160 --> 00:06:16.800
+è la frequenza dove la potenza si
+
+147
+00:06:14.759 --> 00:06:18.599
+dimezza rispetto a quelli d'ingresso. A
+
+148
+00:06:16.800 --> 00:06:20.280
+volte si divide si dice in ampiezza.
+
+149
+00:06:18.599 --> 00:06:24.280
+L'ampiezza del segnale in uscita diventa
+
+150
+00:06:20.280 --> 00:06:26.639
+0,707 V. E torno nel grafico di prima.
+
+151
+00:06:24.280 --> 00:06:29.680
+Aspettate che tolgo un po' di questi
+
+152
+00:06:26.639 --> 00:06:31.960
+scarabocchi, così si vede meglio. Qui la
+
+153
+00:06:29.680 --> 00:06:35.240
+frequenza di taglio,
+
+154
+00:06:31.960 --> 00:06:37.039
+dicevo, la vedete qui e corrisponde, per
+
+155
+00:06:35.240 --> 00:06:40.199
+l'appunto,
+
+156
+00:06:37.039 --> 00:06:42.639
+salendo qua e salendo qua, corrisponde,
+
+157
+00:06:40.199 --> 00:06:49.199
+per l'appunto a questo valore. Questo
+
+158
+00:06:42.639 --> 00:06:50.520
+valore 1 / √ 2. √ qu vale circa 1,41, 14
+
+159
+00:06:49.199 --> 00:06:54.840
+e spiccioli. Se fate con una
+
+160
+00:06:50.520 --> 00:06:57.360
+calcolatrice 1 / 1,41 vi viene per
+
+161
+00:06:54.840 --> 00:06:59.960
+l'appunto quello 0707 che si vedeva
+
+162
+00:06:57.360 --> 00:07:02.960
+nella formula precedente.
+
+163
+00:06:59.960 --> 00:07:02.960
+Eh,
+
+164
+00:07:03.400 --> 00:07:08.599
+vedendo questo numero scritto così,
+
+165
+00:07:06.759 --> 00:07:10.720
+1/√2,
+
+166
+00:07:08.599 --> 00:07:12.319
+si capisce abbastanza bene perché alla
+
+167
+00:07:10.720 --> 00:07:14.680
+frequenza di taglio la potenza si
+
+168
+00:07:12.319 --> 00:07:18.960
+dimezza perché vi ricordate che la
+
+169
+00:07:14.680 --> 00:07:22.160
+potenza è uguale a V qu/
+
+170
+00:07:18.960 --> 00:07:25.039
+R. se ne parlava prima, diciamo, di
+
+171
+00:07:22.160 --> 00:07:27.280
+queste domande su sulla potenza con con
+
+172
+00:07:25.039 --> 00:07:29.160
+uno di voi. Allora, per calcolare la
+
+173
+00:07:27.280 --> 00:07:31.000
+potenza, avendo la tensione, devo fare V
+
+174
+00:07:29.160 --> 00:07:34.599
+al quadrato,
+
+175
+00:07:31.000 --> 00:07:36.840
+quindi devo elevare questo 1 / √2 qu
+
+176
+00:07:34.599 --> 00:07:40.479
+ovvero moltiplicarlo per se stesso.
+
+177
+00:07:36.840 --> 00:07:44.800
+Diciamo al numeratore 1 * 1 resta 1 di
+
+178
+00:07:40.479 --> 00:07:47.599
+sotto √2 mplic √2 se vi ricordate no i
+
+179
+00:07:44.800 --> 00:07:52.240
+tempi delle medie e del liceo √2
+
+180
+00:07:47.599 --> 00:07:57.400
+molplicato √2 è uguale equivale a √4 la
+
+181
+00:07:52.240 --> 00:08:01.360
+√ 4 è 2. Quindi V² qui V quindi questo
+
+182
+00:07:57.400 --> 00:08:06.800
+numero V² diventa 1/2.
+
+183
+00:08:01.360 --> 00:08:08.440
+Quindi ecco perché quando si eh diciamo
+
+184
+00:08:06.800 --> 00:08:10.520
+quando siamo alla frequenza di taglio la
+
+185
+00:08:08.440 --> 00:08:13.240
+potenza si dimezza perché se qui ci
+
+186
+00:08:10.520 --> 00:08:16.240
+leggo la potenza ho 1/2zo. Se invece ci
+
+187
+00:08:13.240 --> 00:08:19.560
+leggo la tensione ho 1/o √2 perché la
+
+188
+00:08:16.240 --> 00:08:21.520
+potenza è il quadrato della tensione.
+
+189
+00:08:19.560 --> 00:08:22.840
+Proseguo, vi faccio vedere ancora
+
+190
+00:08:21.520 --> 00:08:24.960
+qualche slide, cioè faccio una
+
+191
+00:08:22.840 --> 00:08:26.840
+chiacchierata generale sui passa passo e
+
+192
+00:08:24.960 --> 00:08:29.440
+poi vi do la parola per tutte le le
+
+193
+00:08:26.840 --> 00:08:31.080
+domande che volete che volete fare. come
+
+194
+00:08:29.440 --> 00:08:33.680
+son fatti i passoapasso? Per esempio,
+
+195
+00:08:31.080 --> 00:08:35.640
+questo è un passoapasso molto molto
+
+196
+00:08:33.680 --> 00:08:38.200
+tranquillo. Allora, per vedere come
+
+197
+00:08:35.640 --> 00:08:43.080
+funzionano i filtri, la cosa migliore da
+
+198
+00:08:38.200 --> 00:08:45.600
+fare per capire come funzionano è
+
+199
+00:08:43.080 --> 00:08:47.440
+eh capire cercare di capire come si
+
+200
+00:08:45.600 --> 00:08:49.440
+comportano in due casi estremi, a
+
+201
+00:08:47.440 --> 00:08:51.640
+frequenze molto alte e a frequenze molto
+
+202
+00:08:49.440 --> 00:08:54.240
+basse. Vediamo un circuito fatto così.
+
+203
+00:08:51.640 --> 00:08:55.959
+C'è il segnale di ingresso, c'è una
+
+204
+00:08:54.240 --> 00:08:59.640
+resistenza in serie e c'è un
+
+205
+00:08:55.959 --> 00:09:02.480
+condensatore che va verso massa, verso
+
+206
+00:08:59.640 --> 00:09:04.000
+il terminale di riferimento di tutte le
+
+207
+00:09:02.480 --> 00:09:06.079
+tensioni del circuito e qui c'è la
+
+208
+00:09:04.000 --> 00:09:08.519
+tensione di uscita. Allora, se la
+
+209
+00:09:06.079 --> 00:09:11.000
+frequenza è molto molto bassa, che
+
+210
+00:09:08.519 --> 00:09:13.079
+succede? Il segnale di ingresso
+
+211
+00:09:11.000 --> 00:09:16.920
+attraversa la resistenza senza problemi,
+
+212
+00:09:13.079 --> 00:09:18.440
+no? Ovviamente e a frequenze molto basse
+
+213
+00:09:16.920 --> 00:09:20.480
+il condensatore ha una reattanza
+
+214
+00:09:18.440 --> 00:09:22.440
+altissima. è come se non ci fosse.
+
+215
+00:09:20.480 --> 00:09:24.440
+Vedete queste due piastre separate fra
+
+216
+00:09:22.440 --> 00:09:26.040
+loro, le frequenze molto basse, i
+
+217
+00:09:24.440 --> 00:09:28.000
+condensatori non gli attraversano,
+
+218
+00:09:26.040 --> 00:09:30.959
+quindi tutto quello che entra nel filtro
+
+219
+00:09:28.000 --> 00:09:33.279
+esce, per cui non c'è attenuazione, le
+
+220
+00:09:30.959 --> 00:09:36.120
+frequenze basse partono. Invece
+
+221
+00:09:33.279 --> 00:09:37.839
+immaginiamo eh cerchiamo di capire cosa
+
+222
+00:09:36.120 --> 00:09:40.160
+succede a frequenze molto alte.
+
+223
+00:09:37.839 --> 00:09:41.839
+Frequenze molto alte la resistenza la
+
+224
+00:09:40.160 --> 00:09:43.680
+attraversano esattamente nello stesso
+
+225
+00:09:41.839 --> 00:09:46.760
+modo, no? La resistenza non cambia il
+
+226
+00:09:43.680 --> 00:09:48.800
+suo valore al valare della frequenza,
+
+227
+00:09:46.760 --> 00:09:51.680
+però ha una resistenza molto alta. il
+
+228
+00:09:48.800 --> 00:09:54.240
+condensatore e ha una reattanza molto
+
+229
+00:09:51.680 --> 00:09:55.880
+bassa. Immaginiamo che a frequenze alte
+
+230
+00:09:54.240 --> 00:09:59.760
+il condensatore abbia una resistenza
+
+231
+00:09:55.880 --> 00:10:01.600
+pari a zero, cioè sia un corto circuito,
+
+232
+00:09:59.760 --> 00:10:03.120
+cosa che può accadere a frequenze molto
+
+233
+00:10:01.600 --> 00:10:05.440
+alte un condensatore può avere una
+
+234
+00:10:03.120 --> 00:10:06.959
+rattanza minore di 1 ohm. È chiaro che
+
+235
+00:10:05.440 --> 00:10:09.959
+il segnale che entra in ingresso a
+
+236
+00:10:06.959 --> 00:10:11.600
+questo punto viene tutto cortocircuitato
+
+237
+00:10:09.959 --> 00:10:14.360
+verso massa da questo condensatore,
+
+238
+00:10:11.600 --> 00:10:16.720
+quindi l'uscita è
+
+239
+00:10:14.360 --> 00:10:18.760
+è zero o bassissima, quindi a frequenze
+
+240
+00:10:16.720 --> 00:10:20.959
+alte quel circuito Le frequenze alte
+
+241
+00:10:18.760 --> 00:10:24.079
+quel circuito le attenua. Questo
+
+242
+00:10:20.959 --> 00:10:26.600
+circuito che avete a destra
+
+243
+00:10:24.079 --> 00:10:28.800
+le attenua anche di più perché mentre
+
+244
+00:10:26.600 --> 00:10:31.959
+nel circuito che abbiamo a sinistra c'è
+
+245
+00:10:28.800 --> 00:10:36.160
+un solo componente, il condensatore che
+
+246
+00:10:31.959 --> 00:10:38.480
+ha eh questa caratteristica
+
+247
+00:10:36.160 --> 00:10:42.279
+di variare la sua reattanza al variare
+
+248
+00:10:38.480 --> 00:10:45.079
+della frequenza, quindi qui c'è un solo
+
+249
+00:10:42.279 --> 00:10:48.200
+componente reattivo. In questo circuito
+
+250
+00:10:45.079 --> 00:10:50.160
+ce ne sono due. c'è un induttore messo
+
+251
+00:10:48.200 --> 00:10:52.079
+al posto della resistenza e c'è un
+
+252
+00:10:50.160 --> 00:10:54.600
+condensatore.
+
+253
+00:10:52.079 --> 00:10:56.800
+Quindi qui ci sono due, qui ci sono non
+
+254
+00:10:54.600 --> 00:10:59.639
+uno, ma ci sono due componenti che
+
+255
+00:10:56.800 --> 00:11:01.399
+ostacolano le frequenze alte perché se
+
+256
+00:10:59.639 --> 00:11:03.320
+io faccio entrare una frequenza molto
+
+257
+00:11:01.399 --> 00:11:05.680
+alta in questo circuito di destra,
+
+258
+00:11:03.320 --> 00:11:08.200
+intanto la frequenza alta farà fatica ad
+
+259
+00:11:05.680 --> 00:11:09.959
+attraversare l'induttore
+
+260
+00:11:08.200 --> 00:11:12.480
+perché si è detto, no, si era detto che
+
+261
+00:11:09.959 --> 00:11:14.480
+l'induttore alle tensioni, alle
+
+262
+00:11:12.480 --> 00:11:17.200
+frequenze basse, alla corrente continua
+
+263
+00:11:14.480 --> 00:11:20.160
+è di fatto un corto circuito.
+
+264
+00:11:17.200 --> 00:11:22.360
+frequenze alte, invece l'impedenza ne
+
+265
+00:11:20.160 --> 00:11:25.040
+blocca una buona parte di questo segnale
+
+266
+00:11:22.360 --> 00:11:27.279
+che passa e siccome siamo a frequenze
+
+267
+00:11:25.040 --> 00:11:29.279
+alte il condensatore può essere di nuovo
+
+268
+00:11:27.279 --> 00:11:32.000
+visto con una resistenza molto bassa,
+
+269
+00:11:29.279 --> 00:11:33.959
+limite come un corto circuito, per cui
+
+270
+00:11:32.000 --> 00:11:36.760
+una frequenza alta viene intanto
+
+271
+00:11:33.959 --> 00:11:39.320
+ostacolata qui dal dall'induttore e poi
+
+272
+00:11:36.760 --> 00:11:41.519
+viene messa a massa dal condensatore.
+
+273
+00:11:39.320 --> 00:11:43.399
+Quindi si capisce che questo filtro
+
+274
+00:11:41.519 --> 00:11:47.120
+taglia di più e poi questa cosa ve la
+
+275
+00:11:43.399 --> 00:11:49.040
+farò vedere meglio in un grafico.
+
+276
+00:11:47.120 --> 00:11:51.120
+Allora, uscendo dalla teoria, entrando
+
+277
+00:11:49.040 --> 00:11:53.160
+nella pratica, questa che avete qui è
+
+278
+00:11:51.120 --> 00:11:54.839
+una foto di un tipico filtro passoapso
+
+279
+00:11:53.160 --> 00:11:56.680
+che si usa, ad esempio, dopo i
+
+280
+00:11:54.839 --> 00:11:58.560
+trasmettitori. A cosa servono i filtri
+
+281
+00:11:56.680 --> 00:12:00.519
+passa passo? Prima vi ho fatto un
+
+282
+00:11:58.560 --> 00:12:02.040
+esempio dell'alta, ma chiaramente
+
+283
+00:12:00.519 --> 00:12:04.839
+servono anche in campo radio, per
+
+284
+00:12:02.040 --> 00:12:06.880
+esempio, servono per levitare i segnali
+
+285
+00:12:04.839 --> 00:12:09.040
+non desiderati che escono da un
+
+286
+00:12:06.880 --> 00:12:13.000
+trasmettitore. Questi segnali non
+
+287
+00:12:09.040 --> 00:12:17.000
+desiderati vengono chiamati armoniche e
+
+288
+00:12:13.000 --> 00:12:19.440
+sono generati da tutti gli amplificatori
+
+289
+00:12:17.000 --> 00:12:23.680
+o troppo pilotati o comunque in qualche
+
+290
+00:12:19.440 --> 00:12:25.839
+modo ehm portati al limite.
+
+291
+00:12:23.680 --> 00:12:27.839
+E per esempio, se io trasmetto in banda
+
+292
+00:12:25.839 --> 00:12:30.000
+cittadina, tanto per fare un numero,
+
+293
+00:12:27.839 --> 00:12:32.760
+diciamo diamoci una frequenza, 27
+
+294
+00:12:30.000 --> 00:12:36.040
+megacicli, finché il mio trasmettitore
+
+295
+00:12:32.760 --> 00:12:38.160
+nella Norma dalla suo al bocchettone di
+
+296
+00:12:36.040 --> 00:12:40.000
+antenna mi esce un solo segnale pari
+
+297
+00:12:38.160 --> 00:12:42.880
+alla frequenza su cui sto a cui sto
+
+298
+00:12:40.000 --> 00:12:44.760
+trasmettendo, 27 MHz.
+
+299
+00:12:42.880 --> 00:12:47.199
+Se l'amplificatore finale del mio
+
+300
+00:12:44.760 --> 00:12:50.120
+trasmettitore viene spinto in maniera
+
+301
+00:12:47.199 --> 00:12:53.800
+forte, genera delle armoniche che sono
+
+302
+00:12:50.120 --> 00:12:56.959
+dei segnali a frequenze multiple della
+
+303
+00:12:53.800 --> 00:12:58.760
+fondamentale dei 27 MHz. Quindi io avrò
+
+304
+00:12:56.959 --> 00:13:03.000
+una una prima armonica, una seconda
+
+305
+00:12:58.760 --> 00:13:06.199
+armonica a 27x 2, 54 MHz, una terza a
+
+306
+00:13:03.000 --> 00:13:08.399
+27x3 81 MHz. queste armonie magari vanno
+
+307
+00:13:06.199 --> 00:13:11.360
+a finire nei canali televisivi e
+
+308
+00:13:08.399 --> 00:13:14.120
+disturbano le televisioni, la famosa TV,
+
+309
+00:13:11.360 --> 00:13:17.440
+interferenza alla televisione.
+
+310
+00:13:14.120 --> 00:13:19.800
+In tutti i trasmettitori all'interno,
+
+311
+00:13:17.440 --> 00:13:22.000
+dopo l'amplificatore finale è inserito
+
+312
+00:13:19.800 --> 00:13:23.480
+un filtro passapasso che non lo si vede
+
+313
+00:13:22.000 --> 00:13:25.480
+come qua. Questo è un componente
+
+314
+00:13:23.480 --> 00:13:28.000
+esterno, però in tutti i trasmettitori
+
+315
+00:13:25.480 --> 00:13:30.519
+c'è un filtro passoapso che fa più o
+
+316
+00:13:28.000 --> 00:13:32.240
+meno quello che leggete qua, cioè per
+
+317
+00:13:30.519 --> 00:13:35.959
+esempio nei trasmettitori che lavorano
+
+318
+00:13:32.240 --> 00:13:37.639
+in onde corte e questo filtro non qui
+
+319
+00:13:35.959 --> 00:13:39.680
+c'è scritto che di fatto che questo
+
+320
+00:13:37.639 --> 00:13:43.120
+filtro non attenua niente sotto i 30
+
+321
+00:13:39.680 --> 00:13:45.920
+MHz, mentre invece le frequenze più alte
+
+322
+00:13:43.120 --> 00:13:47.880
+sopra i 41 MHz, come c'è scritto qui,
+
+323
+00:13:45.920 --> 00:13:51.079
+sono attenuate di questo valore, sono
+
+324
+00:13:47.880 --> 00:13:53.120
+attenuate di 80. Cosa sono i DB come
+
+325
+00:13:51.079 --> 00:13:56.040
+unità di misura? Lo vedremo mercoledì
+
+326
+00:13:53.120 --> 00:13:59.399
+prossimo.
+
+327
+00:13:56.040 --> 00:14:02.320
+Qui vedete un altro filtro passapasso,
+
+328
+00:13:59.399 --> 00:14:04.279
+questo fatto in casa. Qui un radiamatore
+
+329
+00:14:02.320 --> 00:14:06.600
+da cui ho catturato questa questa
+
+330
+00:14:04.279 --> 00:14:10.199
+immagine. Si è costruito un filtro passa
+
+331
+00:14:06.600 --> 00:14:13.320
+basso per la banda dei 144 MHz. Quindi
+
+332
+00:14:10.199 --> 00:14:15.880
+qui siamo a frequenze più alte nelle
+
+333
+00:14:13.320 --> 00:14:17.480
+cosiddette VHF, come poi vedrete quando
+
+334
+00:14:15.880 --> 00:14:20.000
+arriverete alle famose lezioni di cui
+
+335
+00:14:17.480 --> 00:14:22.000
+parlavo prima. Allora, se guardiamo cosa
+
+336
+00:14:20.000 --> 00:14:25.759
+di fatto questo filtro, vediamo che qui
+
+337
+00:14:22.000 --> 00:14:28.040
+è stato riusato questo schema qua,
+
+338
+00:14:25.759 --> 00:14:31.040
+cioè con degli induttori in serie e con
+
+339
+00:14:28.040 --> 00:14:32.720
+dei condensatori che vanno verso massa.
+
+340
+00:14:31.040 --> 00:14:34.000
+E qui lo si vede proprio. Vedete che
+
+341
+00:14:32.720 --> 00:14:35.720
+questo è il bocchettoni di ingresso,
+
+342
+00:14:34.000 --> 00:14:38.320
+vedete che qui c'è una bobina, un
+
+343
+00:14:35.720 --> 00:14:40.120
+induttore in serie e qui poi ci sono dei
+
+344
+00:14:38.320 --> 00:14:41.920
+condensatori verso massa. Qui c'è
+
+345
+00:14:40.120 --> 00:14:43.440
+un'altra bobina in serie, qui dei
+
+346
+00:14:41.920 --> 00:14:45.480
+condensatori verso massa, qui un'altra
+
+347
+00:14:43.440 --> 00:14:48.720
+bobina in serie.
+
+348
+00:14:45.480 --> 00:14:51.639
+In questo in questo filtro vedete che ci
+
+349
+00:14:48.720 --> 00:14:54.240
+sono quindi cinque componenti
+
+350
+00:14:51.639 --> 00:14:55.920
+eh che di cui varia la reattanza in
+
+351
+00:14:54.240 --> 00:14:58.399
+funzione della frequenza, cioè cinque
+
+352
+00:14:55.920 --> 00:15:01.000
+componenti reattivi, come si vede,
+
+353
+00:14:58.399 --> 00:15:02.600
+questi tre induttori, 1 2 3 e due
+
+354
+00:15:01.000 --> 00:15:05.199
+condensatori.
+
+355
+00:15:02.600 --> 00:15:07.480
+Che effetto fa in questo filtro avere
+
+356
+00:15:05.199 --> 00:15:10.480
+tre di questi componenti reattivi?
+
+357
+00:15:07.480 --> 00:15:14.160
+L'effetto è questo qua. Se hanno i
+
+358
+00:15:10.480 --> 00:15:15.800
+filtri cosiddetti a più poli. Il filtro,
+
+359
+00:15:14.160 --> 00:15:19.920
+quello che abbiamo visto all'inizio con
+
+360
+00:15:15.800 --> 00:15:22.120
+un unico condensatore, ha un polo solo
+
+361
+00:15:19.920 --> 00:15:24.199
+e immaginiamo che in questo grafico,
+
+362
+00:15:22.120 --> 00:15:26.320
+questo punto qui sia la frequenza di
+
+363
+00:15:24.199 --> 00:15:28.519
+taglio. Il filtro che ha un solo
+
+364
+00:15:26.320 --> 00:15:31.959
+condensatore, quindi un solo polo,
+
+365
+00:15:28.519 --> 00:15:33.759
+attenua, come vedete qui.
+
+366
+00:15:31.959 --> 00:15:36.160
+Però l'attenuazione al crescere della
+
+367
+00:15:33.759 --> 00:15:37.880
+frequenza è abbastanza moderata. Se io
+
+368
+00:15:36.160 --> 00:15:40.399
+lo faccio con due componenti,
+
+369
+00:15:37.880 --> 00:15:42.399
+condensatore e induttore, all'aumentare
+
+370
+00:15:40.399 --> 00:15:44.600
+della frequenza attenua di più. Vedete
+
+371
+00:15:42.399 --> 00:15:48.519
+come scende più rapidamente? Quanto più
+
+372
+00:15:44.600 --> 00:15:51.040
+polimetto, quanto più questa curva di
+
+373
+00:15:48.519 --> 00:15:53.079
+attenuazione ce l'avrò ripida al
+
+374
+00:15:51.040 --> 00:15:54.959
+superare la mia frequenza di taglio.
+
+375
+00:15:53.079 --> 00:15:57.680
+Quindi il filtro mi diventa nettamente
+
+376
+00:15:54.959 --> 00:16:00.360
+più selettivo, come mi come si dice, no?
+
+377
+00:15:57.680 --> 00:16:03.880
+cioè riesce a discriminare meglio tutto
+
+378
+00:16:00.360 --> 00:16:06.839
+ciò che sta al di sotto della frequenza
+
+379
+00:16:03.880 --> 00:16:11.680
+di taglio, cioè quassù, qua sotto,
+
+380
+00:16:06.839 --> 00:16:13.759
+rispetto al di sopra. questo eh questo
+
+381
+00:16:11.680 --> 00:16:15.920
+aumento, diciamo, della sua selettività
+
+382
+00:16:13.759 --> 00:16:17.920
+si ottiene usando un maggior numero di
+
+383
+00:16:15.920 --> 00:16:19.319
+componenti reattivi, usando un maggior
+
+384
+00:16:17.920 --> 00:16:24.160
+numero appunto di induttori e
+
+385
+00:16:19.319 --> 00:16:24.160
+condensatori al suo al suo interno.
+
+386
+00:16:24.279 --> 00:16:28.839
+E con questo tolgo la condivisione dello
+
+387
+00:16:26.759 --> 00:16:31.160
+schermo anche per farvi riposare un po'
+
+388
+00:16:28.839 --> 00:16:33.519
+e con questo sul sui passa basso non ho
+
+389
+00:16:31.160 --> 00:16:36.279
+da dirvi altro. Quindi c'è una
+
+390
+00:16:33.519 --> 00:16:38.120
+combinazione di induttori e condensatori
+
+391
+00:16:36.279 --> 00:16:40.880
+che fanno sì che i segnali a frequenze
+
+392
+00:16:38.120 --> 00:16:43.519
+via più alte vengono scaricati a massa e
+
+393
+00:16:40.880 --> 00:16:45.639
+non possano attraversare il filtro.
+
+394
+00:16:43.519 --> 00:16:47.639
+Quanti quanto più componenti metto che
+
+395
+00:16:45.639 --> 00:16:50.959
+fanno questo lavoro, tanto più la mia
+
+396
+00:16:47.639 --> 00:16:54.360
+curva mi diventa mi diventa ripida. C'è
+
+397
+00:16:50.959 --> 00:16:56.000
+qualche domanda prima di proseguire?
+
+398
+00:16:54.360 --> 00:17:00.160
+E non ditemi che non avete domande, che
+
+399
+00:16:56.000 --> 00:17:02.240
+avete capito tutto, che non ci credo.
+
+400
+00:17:00.160 --> 00:17:06.919
+Vai Gianfranco.
+
+401
+00:17:02.240 --> 00:17:08.600
+Buonasera a tutti. Ehm un dubbio questo
+
+402
+00:17:06.919 --> 00:17:11.720
+filtro,
+
+403
+00:17:08.600 --> 00:17:13.480
+un filtro passa basso, quindi che opera
+
+404
+00:17:11.720 --> 00:17:15.919
+con
+
+405
+00:17:13.480 --> 00:17:18.400
+eh
+
+406
+00:17:15.919 --> 00:17:20.640
+per migliorare la selettività e ad
+
+407
+00:17:18.400 --> 00:17:23.799
+esempio il filtro che c'è nelle radio FM
+
+408
+00:17:20.640 --> 00:17:26.480
+per variare la
+
+409
+00:17:23.799 --> 00:17:28.280
+taglio della
+
+410
+00:17:26.480 --> 00:17:29.919
+ehm
+
+411
+00:17:28.280 --> 00:17:32.120
+io lo chiamo il filtro narrow, quello
+
+412
+00:17:29.919 --> 00:17:36.320
+per diminuire la
+
+413
+00:17:32.120 --> 00:17:39.600
+Eh, la banda
+
+414
+00:17:36.320 --> 00:17:40.919
+di ascolto. Aiuto, mi sto Non so se ti
+
+415
+00:17:39.600 --> 00:17:43.480
+sono spiegato.
+
+416
+00:17:40.919 --> 00:17:45.039
+>> Sì, ti sei spiegato. Ti metto in standby
+
+417
+00:17:43.480 --> 00:17:46.840
+un momento. Ti metto in attesa un
+
+418
+00:17:45.039 --> 00:17:49.520
+momento. Il filtro di cui stai parlando
+
+419
+00:17:46.840 --> 00:17:51.559
+te lo lo vediamo fra un momento. Ok.
+
+420
+00:17:49.520 --> 00:17:53.280
+>> Ok. Ok. Grazie.
+
+421
+00:17:51.559 --> 00:17:55.039
+>> Vai. Comunque buona domanda perché ci
+
+422
+00:17:53.280 --> 00:17:59.600
+porta nel mondo reale, no? Quello delle
+
+423
+00:17:55.039 --> 00:17:59.600
+radio. Eh, Sandro, a te.
+
+424
+00:17:59.919 --> 00:18:04.360
+>> Eh, buonasera. Dunque, quel filtro che
+
+425
+00:18:02.720 --> 00:18:06.159
+si è visto prima, no? Con le tre bobine
+
+426
+00:18:04.360 --> 00:18:06.520
+e due condensatori.
+
+427
+00:18:06.159 --> 00:18:09.640
+>> Sì,
+
+428
+00:18:06.520 --> 00:18:11.360
+>> che sarebbe per la 144
+
+429
+00:18:09.640 --> 00:18:13.280
+>> la banda VHS F.
+
+430
+00:18:11.360 --> 00:18:19.159
+>> Sì, sì, sì.
+
+431
+00:18:13.280 --> 00:18:21.240
+>> La banda VHF da 30 a 300 MHz.
+
+432
+00:18:19.159 --> 00:18:24.200
+Dicevo, ma quel filtro lì serve per
+
+433
+00:18:21.240 --> 00:18:25.600
+lavorare solo sulla 144,
+
+434
+00:18:24.200 --> 00:18:29.240
+perché sennò prenderebbe anche le
+
+435
+00:18:25.600 --> 00:18:34.039
+frequenze da 30 a 300.
+
+436
+00:18:29.240 --> 00:18:37.240
+>> Eh, sì. Allora, i i filtri tagliano dove
+
+437
+00:18:34.039 --> 00:18:40.080
+li vuoi far tagliare tu. Allora, quello
+
+438
+00:18:37.240 --> 00:18:42.799
+c'era scritto lì. Aspetta, rimetto lo
+
+439
+00:18:40.080 --> 00:18:45.159
+schermo in condivisione, così rivediamo
+
+440
+00:18:42.799 --> 00:18:49.200
+anche la
+
+441
+00:18:45.159 --> 00:18:51.360
+cosa. Diciamo il il radiamatore che se
+
+442
+00:18:49.200 --> 00:18:53.840
+l'è progettato voleva trasmettere sulla
+
+443
+00:18:51.360 --> 00:18:56.280
+banda del 144
+
+444
+00:18:53.840 --> 00:18:58.280
+e mettere un filtro passa basso dopo il
+
+445
+00:18:56.280 --> 00:19:00.679
+suo trasmettitore verosimilmente.
+
+446
+00:18:58.280 --> 00:19:02.799
+Quindi, probabilmente, per usarlo sulla
+
+447
+00:19:00.679 --> 00:19:04.840
+banda de 144
+
+448
+00:19:02.799 --> 00:19:07.480
+lui verrà immaginato di fare un filtro
+
+449
+00:19:04.840 --> 00:19:10.440
+che tagli sulla frequenza, ad esempio,
+
+450
+00:19:07.480 --> 00:19:12.520
+di 180 MHz,
+
+451
+00:19:10.440 --> 00:19:15.679
+ok? Perché tu hai detto una cosa molto
+
+452
+00:19:12.520 --> 00:19:18.720
+giusta, cioè le VHF come banda intesi
+
+453
+00:19:15.679 --> 00:19:22.320
+proprio VHF sono sono è una banda
+
+454
+00:19:18.720 --> 00:19:24.919
+grande. La VHF va da 30 a 300 MHz. In
+
+455
+00:19:22.320 --> 00:19:30.039
+questa banda di frequenza radi motoriali
+
+456
+00:19:24.919 --> 00:19:33.360
+ce ne sono eh una 2 3 4 se non ho
+
+457
+00:19:30.039 --> 00:19:35.320
+sbagliato a contarle. E quindi eh cioè
+
+458
+00:19:33.360 --> 00:19:37.960
+se ti devi fare dei filtri passa basso
+
+459
+00:19:35.320 --> 00:19:39.919
+per la tua radio, a seconda di quale di
+
+460
+00:19:37.960 --> 00:19:41.720
+queste quattro frequenze lo vuoi usare,
+
+461
+00:19:39.919 --> 00:19:43.799
+ti viene un filtro specifico con i
+
+462
+00:19:41.720 --> 00:19:48.640
+componenti, con i valori per quella per
+
+463
+00:19:43.799 --> 00:19:48.640
+quella frequenza lì. Ok.
+
+464
+00:19:49.520 --> 00:19:54.120
+Sì, ma eh vabbè, non ha ancora tanto
+
+465
+00:19:51.679 --> 00:19:55.760
+capito, cioè perché poi dalla radio
+
+466
+00:19:54.120 --> 00:19:57.240
+stessa, no? Che girando la manopola
+
+467
+00:19:55.760 --> 00:20:00.000
+delle frequenze ti porti su quella
+
+468
+00:19:57.240 --> 00:20:02.159
+frequenza che vuoi andare.
+
+469
+00:20:00.000 --> 00:20:05.159
+>> Esatto. Esatto. Esatto.
+
+470
+00:20:02.159 --> 00:20:07.559
+>> Giusto. Ma se io già con lo strumento,
+
+471
+00:20:05.159 --> 00:20:09.960
+con la radio trasmettitore, io mi regolo
+
+472
+00:20:07.559 --> 00:20:11.440
+la frequenza dove voglio trasmettere,
+
+473
+00:20:09.960 --> 00:20:13.799
+allora perché devo mettere questo
+
+474
+00:20:11.440 --> 00:20:15.960
+filtro?
+
+475
+00:20:13.799 --> 00:20:17.600
+Perché potresti essere perché potresti
+
+476
+00:20:15.960 --> 00:20:19.919
+essere in una situazione dove il filtro
+
+477
+00:20:17.600 --> 00:20:21.840
+ti serve, perché magari dai noia o
+
+478
+00:20:19.919 --> 00:20:24.360
+perché magari c'è qualche segnale che ti
+
+479
+00:20:21.840 --> 00:20:27.039
+dà noia, perché le radio non sono
+
+480
+00:20:24.360 --> 00:20:30.080
+perfette, soprattutto le radio
+
+481
+00:20:27.039 --> 00:20:31.000
+economiche sono molto imperfette.
+
+482
+00:20:30.080 --> 00:20:33.400
+Mh mh.
+
+483
+00:20:31.000 --> 00:20:36.679
+>> E questo ci porta su questo filtro di
+
+484
+00:20:33.400 --> 00:20:38.600
+cui vi parlo adesso e e magari dico una
+
+485
+00:20:36.679 --> 00:20:41.039
+cosa specifica rispetto a quello che
+
+486
+00:20:38.600 --> 00:20:42.720
+stai dicendo tu e poi mi dici se ti ci
+
+487
+00:20:41.039 --> 00:20:43.799
+trovi nel discorso che faccio ora,
+
+488
+00:20:42.720 --> 00:20:44.840
+d'accordo?
+
+489
+00:20:43.799 --> 00:20:48.000
+>> Sì, sì.
+
+490
+00:20:44.840 --> 00:20:50.039
+>> Datemi un attimo e vi dico due parole
+
+491
+00:20:48.000 --> 00:20:52.600
+sul filtro passalto. Ora, sul filtro
+
+492
+00:20:50.039 --> 00:20:54.400
+passalto si fa molto più velocemente
+
+493
+00:20:52.600 --> 00:20:56.520
+perché come funziona il gioco l'abbiamo
+
+494
+00:20:54.400 --> 00:21:00.840
+già visto coni passa basso, no? Vedete
+
+495
+00:20:56.520 --> 00:21:03.159
+che anche qui c'è una curva che anche
+
+496
+00:21:00.840 --> 00:21:05.480
+qui ci fa vedere come funziona il filtro
+
+497
+00:21:03.159 --> 00:21:07.240
+nella frequenza. Questo è un passaalto,
+
+498
+00:21:05.480 --> 00:21:08.880
+quindi c'è la solita frequenza di
+
+499
+00:21:07.240 --> 00:21:11.960
+taglio.
+
+500
+00:21:08.880 --> 00:21:14.559
+Passa alto vuol dire che passano le cose
+
+501
+00:21:11.960 --> 00:21:16.320
+alte sopra la frequenza di taglio, cioè
+
+502
+00:21:14.559 --> 00:21:20.000
+passa questa zona qui che è chiamata
+
+503
+00:21:16.320 --> 00:21:22.559
+banda passante e invece qua qua sotto il
+
+504
+00:21:20.000 --> 00:21:25.279
+filtro mi oscura, come vedete qua,
+
+505
+00:21:22.559 --> 00:21:28.279
+tutto. Allora, immaginiamo che voi siete
+
+506
+00:21:25.279 --> 00:21:30.600
+nelle VHF e avete comprato uno di quei
+
+507
+00:21:28.279 --> 00:21:33.000
+portatelini cinesi, le Baufeng o roba
+
+508
+00:21:30.600 --> 00:21:36.120
+del genere, che hanno il grandissimo
+
+509
+00:21:33.000 --> 00:21:38.919
+vantaggio di essere molto economici,
+
+510
+00:21:36.120 --> 00:21:40.679
+però e alla fine si dice che alla tu
+
+511
+00:21:38.919 --> 00:21:42.840
+ottieni quello per cui paghi, no? Quindi
+
+512
+00:21:40.679 --> 00:21:45.720
+se una radio la paghi €30, hai una radio
+
+513
+00:21:42.840 --> 00:21:47.200
+da €30. Allora, se avete una radio di
+
+514
+00:21:45.720 --> 00:21:50.120
+quel genere, mettiamo che state
+
+515
+00:21:47.200 --> 00:21:53.760
+lavorando appunto nella banda dei 144
+
+516
+00:21:50.120 --> 00:21:55.440
+MHz, che immaginiamo che i 144 MHz siano
+
+517
+00:21:53.760 --> 00:21:57.840
+qui
+
+518
+00:21:55.440 --> 00:22:00.159
+e con quelle radio magari state facendo
+
+519
+00:21:57.840 --> 00:22:02.120
+delle comunicazioni con delle con dei
+
+520
+00:22:00.159 --> 00:22:05.080
+colleghi rianimatori tramite ponte
+
+521
+00:22:02.120 --> 00:22:07.720
+ripetitori o in diretta. Mettiamo che
+
+522
+00:22:05.080 --> 00:22:09.919
+voi abitiate vicini al Monte Serra di
+
+523
+00:22:07.720 --> 00:22:12.000
+cui parlava prima, o anche semplicemente
+
+524
+00:22:09.919 --> 00:22:14.200
+che nella città in cui state lì vicino
+
+525
+00:22:12.000 --> 00:22:17.039
+ci sia un emittente FM forte. Diciamo
+
+526
+00:22:14.200 --> 00:22:19.480
+che qua dentro che in queste in questa
+
+527
+00:22:17.039 --> 00:22:24.520
+banda di frequenza che sto disegnando
+
+528
+00:22:19.480 --> 00:22:24.520
+ora che questa sia la banda 88108,
+
+529
+00:22:25.279 --> 00:22:32.640
+quindi la banda FM che essendo una banda
+
+530
+00:22:28.360 --> 00:22:35.840
+commerciale come sapete è è ricca di di
+
+531
+00:22:32.640 --> 00:22:38.360
+emittenti che sparano potenze
+
+532
+00:22:35.840 --> 00:22:40.080
+stratosferiche, vedi la B1, vedi Radio
+
+533
+00:22:38.360 --> 00:22:42.720
+Maria, eccetera eccetera eccetera.
+
+534
+00:22:40.080 --> 00:22:45.919
+Allora, se avete la sfortuna di abitare
+
+535
+00:22:42.720 --> 00:22:48.720
+vicino a una di queste stazioni, la
+
+536
+00:22:45.919 --> 00:22:50.640
+vostra radio praticamente ammutulisce,
+
+537
+00:22:48.720 --> 00:22:52.880
+cioè può arrivare a livello che
+
+538
+00:22:50.640 --> 00:22:54.640
+l'accendete e non sentite nulla, oppure
+
+539
+00:22:52.880 --> 00:22:57.440
+quello che sentite è molto frusciato,
+
+540
+00:22:54.640 --> 00:22:59.679
+molto disturbato, eccetera. Allora, uno
+
+541
+00:22:57.440 --> 00:23:02.440
+può per per risolvere una situazione di
+
+542
+00:22:59.679 --> 00:23:04.440
+questo tipo ha due soluzioni. La prima
+
+543
+00:23:02.440 --> 00:23:06.919
+butta via la radio e ne compra una che
+
+544
+00:23:04.440 --> 00:23:09.840
+costa 10 volte tanto che quel problema
+
+545
+00:23:06.919 --> 00:23:13.320
+non ce l'ha. Oppure la seconda si trova
+
+546
+00:23:09.840 --> 00:23:18.880
+su internet un filtrino passalto
+
+547
+00:23:13.320 --> 00:23:18.880
+centrato, ad esempio, a 120 MHz.
+
+548
+00:23:19.240 --> 00:23:27.240
+120 MHz vuol dire che i 144 a cui
+
+549
+00:23:22.480 --> 00:23:29.600
+trasmetti tu sono alti e quindi diciamo
+
+550
+00:23:27.240 --> 00:23:32.039
+questo filtro che va messo, scusate, non
+
+551
+00:23:29.600 --> 00:23:34.559
+vi ho detto, questo filtro immaginiamo
+
+552
+00:23:32.039 --> 00:23:37.200
+di metterlo fra l'antenna
+
+553
+00:23:34.559 --> 00:23:40.200
+qua, un bel filtro.
+
+554
+00:23:37.200 --> 00:23:43.120
+il filtro di cui stiamo parlando
+
+555
+00:23:40.200 --> 00:23:47.120
+e la radio vera e propria. Ok, quindi lo
+
+556
+00:23:43.120 --> 00:23:49.960
+mettiamo davanti al ricevitore.
+
+557
+00:23:47.120 --> 00:23:52.799
+La banda 88108 sta quaggiù e quindi
+
+558
+00:23:49.960 --> 00:23:55.640
+viene attenuata parecchio. Quindi con
+
+559
+00:23:52.799 --> 00:23:58.120
+quei filtri uno riesce a pulire in
+
+560
+00:23:55.640 --> 00:24:02.080
+qualche modo la banda la banda in
+
+561
+00:23:58.120 --> 00:24:04.039
+ingresso. Ok? Esattamente con gli stessi
+
+562
+00:24:02.080 --> 00:24:06.520
+meccanismi che abbiamo visto prima, solo
+
+563
+00:24:04.039 --> 00:24:08.960
+che qui funzionano a rovescio. Vediamolo
+
+564
+00:24:06.520 --> 00:24:10.559
+subito qua nello schema un po' più
+
+565
+00:24:08.960 --> 00:24:11.919
+complicato, tanto ormai avete capito
+
+566
+00:24:10.559 --> 00:24:13.440
+come funziona. Vedete che il
+
+567
+00:24:11.919 --> 00:24:15.039
+condensatore e l'induttore sono proprio
+
+568
+00:24:13.440 --> 00:24:17.480
+a rovescio di come erano montati prima
+
+569
+00:24:15.039 --> 00:24:19.840
+nel passapasso. Allora, immaginiamo una
+
+570
+00:24:17.480 --> 00:24:22.480
+frequenza molto bassa, la frequenza di
+
+571
+00:24:19.840 --> 00:24:24.480
+Radio Maria. Radio Maria, una frequenza
+
+572
+00:24:22.480 --> 00:24:25.840
+bassa, mi trova un condensatore. I
+
+573
+00:24:24.480 --> 00:24:28.480
+condensatori, si è detto che le
+
+574
+00:24:25.840 --> 00:24:31.559
+frequenze basse ostacolano, quindi la
+
+575
+00:24:28.480 --> 00:24:34.159
+famosa radiomaria passa poco. Quel poco
+
+576
+00:24:31.559 --> 00:24:37.320
+che passa, essendo di frequenza bassa,
+
+577
+00:24:34.159 --> 00:24:39.360
+viene buttato a massa allegramente da
+
+578
+00:24:37.320 --> 00:24:42.039
+questo induttore. Invece una frequenza
+
+579
+00:24:39.360 --> 00:24:43.720
+molto alta. Alla frequenza alta il
+
+580
+00:24:42.039 --> 00:24:47.039
+condensatore lo potete vedere come un
+
+581
+00:24:43.720 --> 00:24:48.760
+interruttore chiuso, passa tutto e una
+
+582
+00:24:47.039 --> 00:24:50.559
+frequenza alta. L'induttore lo potete
+
+583
+00:24:48.760 --> 00:24:53.399
+vedere come un induttore aperto, quindi
+
+584
+00:24:50.559 --> 00:24:56.120
+come se non esistesse, per cui il
+
+585
+00:24:53.399 --> 00:24:58.640
+segnale passa tramite il condensatore
+
+586
+00:24:56.120 --> 00:25:00.159
+senza essere ostacolato e non viene
+
+587
+00:24:58.640 --> 00:25:01.799
+messo a massa neanche un po'
+
+588
+00:25:00.159 --> 00:25:04.039
+dall'induttore.
+
+589
+00:25:01.799 --> 00:25:05.600
+E quindi con uno schema di questo tipo
+
+590
+00:25:04.039 --> 00:25:09.159
+si ha appunto questo tipo di
+
+591
+00:25:05.600 --> 00:25:14.240
+comportamento passa alto
+
+592
+00:25:09.159 --> 00:25:16.520
+e col passa alto ci eh ci salvate il
+
+593
+00:25:14.240 --> 00:25:19.720
+vostro ricevitore.
+
+594
+00:25:16.520 --> 00:25:21.720
+Invece il passapasso
+
+595
+00:25:19.720 --> 00:25:25.399
+fa in modo che l'uscita del
+
+596
+00:25:21.720 --> 00:25:27.440
+trasmettitore sia pulita, toglie le
+
+597
+00:25:25.399 --> 00:25:30.679
+armoniche, le spurie che possono uscire
+
+598
+00:25:27.440 --> 00:25:32.760
+da un trasmettitore. Se prendete ora,
+
+599
+00:25:30.679 --> 00:25:36.000
+ora non ho una foto con me, ma cercherò
+
+600
+00:25:32.760 --> 00:25:38.399
+di di procurarmela per la volta
+
+601
+00:25:36.000 --> 00:25:40.240
+prossima. Se prendete una radio di
+
+602
+00:25:38.399 --> 00:25:44.159
+quelle che trasmettono in onde corte, le
+
+603
+00:25:40.240 --> 00:25:46.880
+famose HF, dove ci sono 6 7 8 9 bander
+
+604
+00:25:44.159 --> 00:25:49.120
+radioamatoriali, se aprite questa radio,
+
+605
+00:25:46.880 --> 00:25:51.679
+poi poi vi farò vedere la foto, di
+
+606
+00:25:49.120 --> 00:25:55.480
+solito c'è uno scatolottino dentro con
+
+607
+00:25:51.679 --> 00:25:58.320
+sopra scritto filtri filtri passapasso.
+
+608
+00:25:55.480 --> 00:26:00.520
+Se lo aprite si vede che lì ci sono
+
+609
+00:25:58.320 --> 00:26:03.600
+sette filtri diversi, uno accanto
+
+610
+00:26:00.520 --> 00:26:05.279
+all'altro, ognuno dei quali ha delle
+
+611
+00:26:03.600 --> 00:26:07.840
+bobine un po' più grandi di quello che
+
+612
+00:26:05.279 --> 00:26:10.240
+gli sta accanto e sono proprio i filtri
+
+613
+00:26:07.840 --> 00:26:13.039
+di banda specifici per quella banda,
+
+614
+00:26:10.240 --> 00:26:15.960
+perché ogni banda per essere pulita ha
+
+615
+00:26:13.039 --> 00:26:19.880
+bisogno di un filtro con la sua
+
+616
+00:26:15.960 --> 00:26:23.600
+frequenza di taglio giusta. torno al
+
+617
+00:26:19.880 --> 00:26:27.000
+passapasso qua. Immaginiamo che io ora
+
+618
+00:26:23.600 --> 00:26:29.240
+vi vi dico un po' di diciamo di numeri
+
+619
+00:26:27.000 --> 00:26:31.200
+di frequenze radioamatomatoriali.
+
+620
+00:26:29.240 --> 00:26:33.000
+Immaginiamo che io sto trasmettendo su
+
+621
+00:26:31.200 --> 00:26:35.399
+una frequenza radioamatoriale bassa,
+
+622
+00:26:33.000 --> 00:26:38.679
+quella dei 7 MHz.
+
+623
+00:26:35.399 --> 00:26:41.559
+Se io trasmetto qui a 7 MHz, ho bisogno
+
+624
+00:26:38.679 --> 00:26:43.760
+di un filtro che tagli a 10 per non
+
+625
+00:26:41.559 --> 00:26:47.760
+avere fuori dalla radio la mia seconda
+
+626
+00:26:43.760 --> 00:26:49.840
+armonica che sarebbe 14.
+
+627
+00:26:47.760 --> 00:26:53.399
+Se però invece trasmetto nella banda
+
+628
+00:26:49.840 --> 00:26:54.640
+ratioriale dei 14 MHz, perché a 14 MHz
+
+629
+00:26:53.399 --> 00:26:56.520
+abbiamo un'altra banda radio
+
+630
+00:26:54.640 --> 00:27:00.200
+motatoriale, è chiaro che questo filtro
+
+631
+00:26:56.520 --> 00:27:01.799
+non mi va più bene, dovrò avere una
+
+632
+00:27:00.200 --> 00:27:04.840
+dovrò avere un filtro con una frequenza
+
+633
+00:27:01.799 --> 00:27:07.320
+di taglio di 18-20 MHz per bloccare la
+
+634
+00:27:04.840 --> 00:27:10.080
+seconda armonica che sarebbe a 28 e così
+
+635
+00:27:07.320 --> 00:27:13.399
+via. Quindi ogni banda radiamatoriale,
+
+636
+00:27:10.080 --> 00:27:17.880
+ogni frequenza specifica ha bisogno del
+
+637
+00:27:13.399 --> 00:27:22.039
+suo filtro. Sono stato chiaro?
+
+638
+00:27:17.880 --> 00:27:22.039
+C'è qualche domanda su questo?
+
+639
+00:27:23.440 --> 00:27:25.880
+Proseguo.
+
+640
+00:27:24.480 --> 00:27:28.440
+>> Allora, va bene, va bene.
+
+641
+00:27:25.880 --> 00:27:30.039
+>> Ok, proseguo rapidamente i filtri, poi
+
+642
+00:27:28.440 --> 00:27:31.559
+mi f tutte le domande alla fine, tanto
+
+643
+00:27:30.039 --> 00:27:34.559
+ormai abbiamo capito come funziona il
+
+644
+00:27:31.559 --> 00:27:37.399
+gioco. Poi ci sono i filtri passabanda
+
+645
+00:27:34.559 --> 00:27:39.720
+che sono questi qua. Filtro passabanda
+
+646
+00:27:37.399 --> 00:27:41.519
+fa passare una banda. Come leggete,
+
+647
+00:27:39.720 --> 00:27:43.519
+questi filtri non hanno una frequenza di
+
+648
+00:27:41.519 --> 00:27:45.919
+taglio, ma ne hanno due che sono qua
+
+649
+00:27:43.519 --> 00:27:49.760
+sotto, la frequenza di taglio inferiore
+
+650
+00:27:45.919 --> 00:27:52.559
+e la frequenza di taglio superiore.
+
+651
+00:27:49.760 --> 00:27:55.080
+E questi filtri fanno passare i segnali
+
+652
+00:27:52.559 --> 00:27:57.080
+che stanno dentro queste due frequenze
+
+653
+00:27:55.080 --> 00:27:59.480
+di taglio, dentro questa banda. Quello
+
+654
+00:27:57.080 --> 00:28:02.200
+che mi diceva l'amico di prima che
+
+655
+00:27:59.480 --> 00:28:05.640
+parlava, no, dei filtri per operare in
+
+656
+00:28:02.200 --> 00:28:08.840
+FM narrow, quindi stretto oppure wide,
+
+657
+00:28:05.640 --> 00:28:11.480
+largo, sono filtri di questo genere qua.
+
+658
+00:28:08.840 --> 00:28:13.600
+Questo, se immaginate di essere in banda
+
+659
+00:28:11.480 --> 00:28:15.159
+cittadina o comunque in generale, se non
+
+660
+00:28:13.600 --> 00:28:17.120
+sapete neanche che cosa sia la radio
+
+661
+00:28:15.159 --> 00:28:19.720
+cittadina, immaginate di avere una radio
+
+662
+00:28:17.120 --> 00:28:22.080
+a canali con cui si può trasmettere con
+
+663
+00:28:19.720 --> 00:28:24.640
+un commutatore su canale 1, canale 2,
+
+664
+00:28:22.080 --> 00:28:26.120
+canale 3, canale 4. Questo è il filtro
+
+665
+00:28:24.640 --> 00:28:28.240
+di canale. Immaginiamo che sto
+
+666
+00:28:26.120 --> 00:28:29.880
+trasmettendo sul canale 7, quindi la
+
+667
+00:28:28.240 --> 00:28:32.720
+frequenza centrale del filtro è quella
+
+668
+00:28:29.880 --> 00:28:35.320
+del canale 7. Quanto deve essere largo
+
+669
+00:28:32.720 --> 00:28:37.399
+questo filtro? Deve essere largo quel
+
+670
+00:28:35.320 --> 00:28:39.679
+tanto che serve, quindi deve essere
+
+671
+00:28:37.399 --> 00:28:42.679
+stretto quel tanto che serve per far sì
+
+672
+00:28:39.679 --> 00:28:44.960
+che se in contemporanea a me c'è
+
+673
+00:28:42.679 --> 00:28:46.519
+qualcuno che sta trasmettendo sul canale
+
+674
+00:28:44.960 --> 00:28:49.519
+8
+
+675
+00:28:46.519 --> 00:28:54.200
+di sopra e invece di sotto c'è qualcuno
+
+676
+00:28:49.519 --> 00:28:57.600
+che sta trasmettendo sul canale 6.
+
+677
+00:28:54.200 --> 00:29:01.240
+Se io sono sul canale 7, questo filtro,
+
+678
+00:28:57.600 --> 00:29:04.000
+come si vede qua in questo in questa in
+
+679
+00:29:01.240 --> 00:29:05.720
+nello nella banda passante del filtro
+
+680
+00:29:04.000 --> 00:29:07.679
+che avete in questa slide, vedete che
+
+681
+00:29:05.720 --> 00:29:10.760
+questo filtro, la banda passante
+
+682
+00:29:07.679 --> 00:29:13.880
+ovviamente della linea blu, mi blocca i
+
+683
+00:29:10.760 --> 00:29:16.440
+segnali del canale 6 e mi blocca i
+
+684
+00:29:13.880 --> 00:29:19.559
+segnali del canale 7 facendomi passare
+
+685
+00:29:16.440 --> 00:29:22.279
+solo quello del canale 8. A volte io
+
+686
+00:29:19.559 --> 00:29:25.240
+voglio una banda passante ancora più
+
+687
+00:29:22.279 --> 00:29:27.000
+stretta. Allora, metto un filtro non di
+
+688
+00:29:25.240 --> 00:29:30.360
+tipo normale come questo che posso
+
+689
+00:29:27.000 --> 00:29:33.000
+chiamare largo, wide, magari per certi
+
+690
+00:29:30.360 --> 00:29:34.960
+scopi e la prossima e mercoledì prossimo
+
+691
+00:29:33.000 --> 00:29:37.679
+vedremo quali sono questi scopi, magari
+
+692
+00:29:34.960 --> 00:29:40.480
+voglio un filtro stretto per avere una
+
+693
+00:29:37.679 --> 00:29:42.720
+vanda stretta, per essere ancora meno,
+
+694
+00:29:40.480 --> 00:29:45.360
+diciamo, interferito dai segnali dienti.
+
+695
+00:29:42.720 --> 00:29:47.720
+E questi sono i filtri passabanda
+
+696
+00:29:45.360 --> 00:29:51.039
+che quindi fanno passare, diciamo, un
+
+697
+00:29:47.720 --> 00:29:52.600
+canale o una banda, d'accordo? hanno due
+
+698
+00:29:51.039 --> 00:29:54.480
+frequenze di taglio, quella inferiore e
+
+699
+00:29:52.600 --> 00:29:56.320
+quella superiore.
+
+700
+00:29:54.480 --> 00:29:57.880
+Poi ovviamente ci sono i filtri
+
+701
+00:29:56.320 --> 00:29:59.360
+speculari ai pass banda, ci sono i
+
+702
+00:29:57.880 --> 00:30:02.120
+filtri elimina banda che vengono
+
+703
+00:29:59.360 --> 00:30:04.000
+chiamati a volte notch.
+
+704
+00:30:02.120 --> 00:30:06.320
+Notch come si vede sul frontale delle
+
+705
+00:30:04.000 --> 00:30:08.600
+radio e poi vi ho riportato la parola
+
+706
+00:30:06.320 --> 00:30:10.360
+che potrebbe essere qualche volta usata
+
+707
+00:30:08.600 --> 00:30:13.320
+anche dal ministero. Nocch una parola
+
+708
+00:30:10.360 --> 00:30:15.679
+inglese che più o meno è la tacca.
+
+709
+00:30:13.320 --> 00:30:17.440
+Quando hai una tacca, per esempio, su su
+
+710
+00:30:15.679 --> 00:30:20.080
+un pezzo di legno, come si vede dalla
+
+711
+00:30:17.440 --> 00:30:22.200
+banda passante che avete qua, vedete che
+
+712
+00:30:20.080 --> 00:30:24.720
+qui c'è una tacca.
+
+713
+00:30:22.200 --> 00:30:27.240
+Praticamente il filtro Eliminabanda è
+
+714
+00:30:24.720 --> 00:30:29.320
+fatto apposta per attenuare, come
+
+715
+00:30:27.240 --> 00:30:31.840
+leggete qua, come leggete nella
+
+716
+00:30:29.320 --> 00:30:34.039
+definizione, tutti i segnali che sono
+
+717
+00:30:31.840 --> 00:30:36.360
+compresi fra le due frequenze di taglio.
+
+718
+00:30:34.039 --> 00:30:38.360
+Anche questi filtri passa, elimina
+
+719
+00:30:36.360 --> 00:30:41.120
+banda, scusate, elimina banda hanno due
+
+720
+00:30:38.360 --> 00:30:42.679
+frequenze di taglio, una superiore e
+
+721
+00:30:41.120 --> 00:30:44.399
+quella, una inferiore e quella
+
+722
+00:30:42.679 --> 00:30:46.080
+superiore. Anche questi filtri hanno una
+
+723
+00:30:44.399 --> 00:30:49.720
+loro larghezza di banda, come vedete
+
+724
+00:30:46.080 --> 00:30:52.159
+qui. BW vuol dire band withd in inglese
+
+725
+00:30:49.720 --> 00:30:54.159
+larghezza di banda e i segnali che
+
+726
+00:30:52.159 --> 00:30:56.639
+capitano qui vengono sostanzialmente
+
+727
+00:30:54.159 --> 00:30:59.120
+annullati. Quindi quando potrei usare
+
+728
+00:30:56.639 --> 00:31:02.120
+questo filtro? Immaginiamo che io ho la
+
+729
+00:30:59.120 --> 00:31:03.720
+mia radio
+
+730
+00:31:02.120 --> 00:31:06.320
+e nella mia radio soffro di
+
+731
+00:31:03.720 --> 00:31:08.480
+interferenze. Io so in maniera specifica
+
+732
+00:31:06.320 --> 00:31:10.840
+che queste interferenze sono su una
+
+733
+00:31:08.480 --> 00:31:13.159
+frequenza ben determinata, quindi c'è
+
+734
+00:31:10.840 --> 00:31:16.159
+proprio una stazione che mi dà che mi dà
+
+735
+00:31:13.159 --> 00:31:17.799
+noia. Allora, io metto un filtro
+
+736
+00:31:16.159 --> 00:31:20.480
+eliminabanda
+
+737
+00:31:17.799 --> 00:31:22.240
+esattamente centrato
+
+738
+00:31:20.480 --> 00:31:24.159
+sulla frequenza del segnale che mi dà
+
+739
+00:31:22.240 --> 00:31:26.960
+noia, che ha il suo notch sulla
+
+740
+00:31:24.159 --> 00:31:30.279
+frequenza, diciamo, di disturbo e subito
+
+741
+00:31:26.960 --> 00:31:33.600
+dopo ci metto la mia radio. Così facendo
+
+742
+00:31:30.279 --> 00:31:35.919
+io mi salvo la ricezione, la radio mi
+
+743
+00:31:33.600 --> 00:31:38.440
+riprende a funzionare perché il segnale
+
+744
+00:31:35.919 --> 00:31:41.919
+interferente che me la disturbava l'ho
+
+745
+00:31:38.440 --> 00:31:45.120
+l'ho tagliato. Mh.
+
+746
+00:31:41.919 --> 00:31:47.440
+E questo è l'ultimo tipo di filtro che
+
+747
+00:31:45.120 --> 00:31:49.279
+c'è. Riassumendo, qui le vedete in forma
+
+748
+00:31:47.440 --> 00:31:52.440
+grafica, ci sono i filtri, appunto,
+
+749
+00:31:49.279 --> 00:31:55.200
+passa basso, passa alto, passabanda,
+
+750
+00:31:52.440 --> 00:31:57.919
+arrestabanda. Vedete in questa slide che
+
+751
+00:31:55.200 --> 00:32:01.279
+quello che passa è quel il panettoncino
+
+752
+00:31:57.919 --> 00:32:03.240
+giallo, no, che è in queste figure qui
+
+753
+00:32:01.279 --> 00:32:05.639
+passa tutto quello che è sotto la
+
+754
+00:32:03.240 --> 00:32:07.919
+frequenza di taglio, nel passalto tutto
+
+755
+00:32:05.639 --> 00:32:10.039
+il sopra la frequenza di taglio. Questa
+
+756
+00:32:07.919 --> 00:32:11.799
+è la banda che passa in un filtro
+
+757
+00:32:10.039 --> 00:32:14.559
+passabanda.
+
+758
+00:32:11.799 --> 00:32:16.440
+E questa è la banda che non passa in un
+
+759
+00:32:14.559 --> 00:32:19.120
+filtro resta banda, quindi tutto il
+
+760
+00:32:16.440 --> 00:32:21.080
+resto passa.
+
+761
+00:32:19.120 --> 00:32:23.279
+Queste stesse informazioni ve le ho
+
+762
+00:32:21.080 --> 00:32:25.720
+riportate anche in maniera proprio
+
+763
+00:32:23.279 --> 00:32:27.960
+pedante in questa tabella qua che ora
+
+764
+00:32:25.720 --> 00:32:29.480
+non ricommento punto per punto perché
+
+765
+00:32:27.960 --> 00:32:31.080
+sono esattamente le stesse cose che
+
+766
+00:32:29.480 --> 00:32:33.559
+abbiamo detto fino a ora, no? Vediamo
+
+767
+00:32:31.080 --> 00:32:35.919
+solamente per esempio il passa passo.
+
+768
+00:32:33.559 --> 00:32:38.399
+Cosa fa passare? Le frequenze inferiori
+
+769
+00:32:35.919 --> 00:32:40.039
+alla frequenza di taglio. Cosa blocca le
+
+770
+00:32:38.399 --> 00:32:42.360
+frequenze superiori alla frequenza di
+
+771
+00:32:40.039 --> 00:32:45.200
+taglio? Allora, vedrete delle domande
+
+772
+00:32:42.360 --> 00:32:47.279
+che vi manderemo domani e dopodomani che
+
+773
+00:32:45.200 --> 00:32:49.320
+questa tabella serve proprio per
+
+774
+00:32:47.279 --> 00:32:51.000
+rispondere alle domande del Ministero.
+
+775
+00:32:49.320 --> 00:32:52.919
+Le domande del Ministero tipicamente
+
+776
+00:32:51.000 --> 00:32:55.919
+sono fatte proprio in questo modo qua.
+
+777
+00:32:52.919 --> 00:32:57.840
+Un filtro passa alto e che tipo di
+
+778
+00:32:55.919 --> 00:32:59.720
+frequenze blocca? E ci sono tutti i
+
+779
+00:32:57.840 --> 00:33:01.159
+casi, no? le frequenze, le frequenze
+
+780
+00:32:59.720 --> 00:33:04.360
+sotto, la frequenza di taglio, le
+
+781
+00:33:01.159 --> 00:33:07.000
+frequenze sopra e diciamo qui avete di
+
+782
+00:33:04.360 --> 00:33:09.919
+fatto tutte le risposte.
+
+783
+00:33:07.000 --> 00:33:12.320
+E questo è tutto quel che riguarda i
+
+784
+00:33:09.919 --> 00:33:17.720
+filtri. Ci fermiamo un attimo se c'è
+
+785
+00:33:12.320 --> 00:33:19.559
+qualche qualche domanda. Filippo, a te.
+
+786
+00:33:17.720 --> 00:33:21.480
+Eh sì, volevo fare l'esempio prima per
+
+787
+00:33:19.559 --> 00:33:22.960
+l'appunto della della BF, cioè quei
+
+788
+00:33:21.480 --> 00:33:25.360
+filtri che si mettono appunto tra
+
+789
+00:33:22.960 --> 00:33:27.240
+antenna e ricevitore, insomma il radio.
+
+790
+00:33:25.360 --> 00:33:30.120
+Però una domanda, quelli lì sono
+
+791
+00:33:27.240 --> 00:33:33.080
+esclusivamente usati per tagliare le
+
+792
+00:33:30.120 --> 00:33:36.039
+spurie della trasmittente, non sono
+
+793
+00:33:33.080 --> 00:33:38.159
+fatti per filtrare eventuali disturbi
+
+794
+00:33:36.039 --> 00:33:40.480
+che provengono in fase di ricezione,
+
+795
+00:33:38.159 --> 00:33:42.240
+perché teoricamente già l'antenna,
+
+796
+00:33:40.480 --> 00:33:44.559
+vabbè, può essere centrata su una o due
+
+797
+00:33:42.240 --> 00:33:48.320
+frequenze, principalmente la 140 e la
+
+798
+00:33:44.559 --> 00:33:50.679
+430, 143, 430,
+
+799
+00:33:48.320 --> 00:33:52.720
+>> però è la radio, cioè è la è l'antenna
+
+800
+00:33:50.679 --> 00:33:54.720
+che filtra queste due perché è centrata
+
+801
+00:33:52.720 --> 00:33:56.840
+su, cioè è ottimizzata, insomma, per la
+
+802
+00:33:54.720 --> 00:33:59.080
+ricezione In queste due bande, il filtro
+
+803
+00:33:56.840 --> 00:34:01.639
+che si mette tra trasmittente e antenna
+
+804
+00:33:59.080 --> 00:34:05.240
+serve solo in trasmissione oppure serve
+
+805
+00:34:01.639 --> 00:34:06.320
+anche per filtrare eventuali disturbi in
+
+806
+00:34:05.240 --> 00:34:09.679
+ricezione.
+
+807
+00:34:06.320 --> 00:34:12.720
+>> Allora, il filtro se se si se si prende
+
+808
+00:34:09.679 --> 00:34:15.440
+un qualunque filtro e lo si mette fra
+
+809
+00:34:12.720 --> 00:34:17.079
+l'antenna e la radio, il filtro lavora
+
+810
+00:34:15.440 --> 00:34:18.679
+nello stesso modo in trasmissione e
+
+811
+00:34:17.079 --> 00:34:19.480
+ricezione.
+
+812
+00:34:18.679 --> 00:34:21.040
+>> Ok.
+
+813
+00:34:19.480 --> 00:34:21.280
+>> Ok.
+
+814
+00:34:21.040 --> 00:34:23.119
+E
+
+815
+00:34:21.280 --> 00:34:25.520
+>> quindi alla fine è come se fossero tipo
+
+816
+00:34:23.119 --> 00:34:27.440
+un passalto, un passa, cioè un
+
+817
+00:34:25.520 --> 00:34:30.359
+passabanda alla fine.
+
+818
+00:34:27.440 --> 00:34:32.320
+>> Eh sì, se allora se se tu prendi, ad
+
+819
+00:34:30.359 --> 00:34:34.079
+esempio, un passabanda, hai un effetto
+
+820
+00:34:32.320 --> 00:34:37.440
+passabanda sia in trasmissione che in
+
+821
+00:34:34.079 --> 00:34:39.280
+ricezione, ok? il filtro si comporta
+
+822
+00:34:37.440 --> 00:34:41.839
+esattamente nello esattamente nello
+
+823
+00:34:39.280 --> 00:34:43.480
+stesso modo e poi sulle radio di quel
+
+824
+00:34:41.839 --> 00:34:45.320
+tipo, quindi sulle radio che hanno
+
+825
+00:34:43.480 --> 00:34:48.560
+antenne molto corte, molto caricate,
+
+826
+00:34:45.320 --> 00:34:50.760
+eccetera, eh l'antenna fa un effetto di
+
+827
+00:34:48.560 --> 00:34:53.919
+filtraggio veramente veramente scarso.
+
+828
+00:34:50.760 --> 00:34:56.240
+sono state pubblicate su
+
+829
+00:34:53.919 --> 00:34:59.119
+su anche abbastanza recentemente sulle
+
+830
+00:34:56.240 --> 00:35:01.240
+riviste nostre del settore delle misure
+
+831
+00:34:59.119 --> 00:35:05.480
+strumentali del funzionamento di quelle
+
+832
+00:35:01.240 --> 00:35:08.880
+antenne e e insomma, cioè son son molto
+
+833
+00:35:05.480 --> 00:35:10.800
+molto scarse da quel punto di vista e e
+
+834
+00:35:08.880 --> 00:35:12.520
+>> sì, ho visto diversi video dove fanno
+
+835
+00:35:10.800 --> 00:35:14.960
+vedere tutte le spurie in trasmissione,
+
+836
+00:35:12.520 --> 00:35:17.119
+cioè che è veramente
+
+837
+00:35:14.960 --> 00:35:19.000
+>> una cosa abbastanza imbarazzante, però
+
+838
+00:35:17.119 --> 00:35:20.599
+principalmente in trasmissione, anche in
+
+839
+00:35:19.000 --> 00:35:22.119
+ricezione però vengono usati questi
+
+840
+00:35:20.599 --> 00:35:27.240
+punti.
+
+841
+00:35:22.119 --> 00:35:29.400
+>> E allora sì, nel senso che diciamo eh
+
+842
+00:35:27.240 --> 00:35:32.440
+questo poi ne avremo una serata dedicata
+
+843
+00:35:29.400 --> 00:35:36.160
+ai ricevitori e quanto più il ricevitore
+
+844
+00:35:32.440 --> 00:35:38.480
+si fa lavorare eh a valle di filtri per
+
+845
+00:35:36.160 --> 00:35:41.640
+la banda centrati sulla banda che che
+
+846
+00:35:38.480 --> 00:35:44.400
+vuoi ricevere, tanto meglio funziona.
+
+847
+00:35:41.640 --> 00:35:46.920
+>> Ok? Esattamente così ne parleremo. Però
+
+848
+00:35:44.400 --> 00:35:48.560
+se si mette un filtro, tornando alla
+
+849
+00:35:46.920 --> 00:35:51.079
+alla tua prima domanda, se si mette un
+
+850
+00:35:48.560 --> 00:35:52.920
+filtro proprio fra antenna e radio, uso
+
+851
+00:35:51.079 --> 00:35:55.560
+la parola radio apposta, non parlo né di
+
+852
+00:35:52.920 --> 00:35:57.920
+trasmettitore né di ricevitore, quel
+
+853
+00:35:55.560 --> 00:35:59.400
+filtro ha lo stesso effetto che sia
+
+854
+00:35:57.920 --> 00:36:01.079
+passa alto, passa basso, eccetera
+
+855
+00:35:59.400 --> 00:36:03.119
+eccetera, sia per la trasmissione che
+
+856
+00:36:01.079 --> 00:36:04.280
+per la ricezione. Ok, perfetto.
+
+857
+00:36:03.119 --> 00:36:05.560
+>> Ok,
+
+858
+00:36:04.280 --> 00:36:09.720
+>> grazie mille
+
+859
+00:36:05.560 --> 00:36:09.720
+>> a te, Pierpaolo. A te.
+
+860
+00:36:10.160 --> 00:36:16.280
+Sì. Eh, più che altro è una curiosità.
+
+861
+00:36:13.520 --> 00:36:19.359
+Eh, nella slide dove c'è la fotografia
+
+862
+00:36:16.280 --> 00:36:23.280
+di quel filtro dei 144
+
+863
+00:36:19.359 --> 00:36:27.280
+e si vede benissimo le dei tre
+
+864
+00:36:23.280 --> 00:36:29.839
+induttori. Sono messi in for ce ne
+
+865
+00:36:27.280 --> 00:36:32.359
+messi, diciamo, in verticale, uno messo
+
+866
+00:36:29.839 --> 00:36:36.000
+in orizzontale, solo in forma casuale o
+
+867
+00:36:32.359 --> 00:36:38.640
+sono studiati messi così perché sono
+
+868
+00:36:36.000 --> 00:36:42.839
+perché devono essere messi così.
+
+869
+00:36:38.640 --> 00:36:45.760
+È è voluto, è voluto, è voluto perché un
+
+870
+00:36:42.839 --> 00:36:49.920
+attimo solo che rimetto
+
+871
+00:36:45.760 --> 00:36:53.880
+rimetto in condivisione la cosa.
+
+872
+00:36:49.920 --> 00:36:56.839
+È voluto perché Aspetta, eh,
+
+873
+00:36:53.880 --> 00:36:59.359
+l'ho persa. Eccola qua. Ci posso
+
+874
+00:36:56.839 --> 00:37:02.839
+arrivare un attimo solo. è evoluto
+
+875
+00:36:59.359 --> 00:37:06.040
+perché ricordate le domande
+
+876
+00:37:02.839 --> 00:37:08.680
+del MiMIT che vi ho mandato che vi
+
+877
+00:37:06.040 --> 00:37:11.960
+abbiamo mandato nella nella puntata
+
+878
+00:37:08.680 --> 00:37:14.800
+nella lezione dei degli induttori si
+
+879
+00:37:11.960 --> 00:37:17.599
+diceva se colleghiamo in serie due
+
+880
+00:37:14.800 --> 00:37:19.599
+induttori non accoppiati fra loro, vi
+
+881
+00:37:17.599 --> 00:37:22.839
+ricordate?
+
+882
+00:37:19.599 --> 00:37:26.160
+Perché diciamo metterli in questo modo
+
+883
+00:37:22.839 --> 00:37:29.079
+perpendicolari l'uno rispetto all'altro
+
+884
+00:37:26.160 --> 00:37:32.000
+fa sì che gli induttori, come si dice in
+
+885
+00:37:29.079 --> 00:37:34.040
+gergo non si vedono. Quindi il campo
+
+886
+00:37:32.000 --> 00:37:36.880
+magnetico di questo primo induttore,
+
+887
+00:37:34.040 --> 00:37:39.839
+immaginiamo che abbia questa forma qua,
+
+888
+00:37:36.880 --> 00:37:42.599
+non si accoppia o si accoppia poco poco
+
+889
+00:37:39.839 --> 00:37:44.400
+col campo magnetico generato da questo
+
+890
+00:37:42.599 --> 00:37:47.720
+induttore che è ortogonale,
+
+891
+00:37:44.400 --> 00:37:49.760
+perpendicolare. E E di nuovo, di nuovo
+
+892
+00:37:47.720 --> 00:37:53.119
+qua, se li mettessi tutti e tre
+
+893
+00:37:49.760 --> 00:37:55.520
+paralleli, eh, ci sarebbe un mutuo
+
+894
+00:37:53.119 --> 00:37:57.359
+accoppiamento fra loro molto più forte
+
+895
+00:37:55.520 --> 00:37:59.640
+che non quando sono montati così. E
+
+896
+00:37:57.359 --> 00:38:01.400
+questo mutuo accoppiamento
+
+897
+00:37:59.640 --> 00:38:04.319
+eh
+
+898
+00:38:01.400 --> 00:38:08.160
+mi rende molto difficile calcolare i
+
+899
+00:38:04.319 --> 00:38:09.760
+valori che devono essere eh messi, il
+
+900
+00:38:08.160 --> 00:38:12.040
+numero di spire che deve essere messo in
+
+901
+00:38:09.760 --> 00:38:15.760
+un induttore, perché immaginiamo che io
+
+902
+00:38:12.040 --> 00:38:19.280
+voglia qui un induttore qua nel mezzo,
+
+903
+00:38:15.760 --> 00:38:21.040
+un induttore da 10 microenri,
+
+904
+00:38:19.280 --> 00:38:23.760
+prendo la formula, me lo calcolo e lo
+
+905
+00:38:21.040 --> 00:38:28.119
+metto lì e tutto funziona. Se però qua
+
+906
+00:38:23.760 --> 00:38:29.720
+dietro ci metto un induttore uguale e
+
+907
+00:38:28.119 --> 00:38:31.920
+diciamo li faccio attraversare dalla
+
+908
+00:38:29.720 --> 00:38:34.119
+stessa corrente, il campo magnetico
+
+909
+00:38:31.920 --> 00:38:35.839
+concatenato fra un induttore fa sì che
+
+910
+00:38:34.119 --> 00:38:37.599
+questo induttore in realtà non abbia più
+
+911
+00:38:35.839 --> 00:38:39.440
+10 microenri di valore, ma il valore
+
+912
+00:38:37.599 --> 00:38:42.200
+cambia e quindi diventa un gran casino
+
+913
+00:38:39.440 --> 00:38:44.560
+calcolare, diciamo, il risultato finale.
+
+914
+00:38:42.200 --> 00:38:47.800
+In questo modo, invece, tenendoli
+
+915
+00:38:44.560 --> 00:38:49.720
+separati, met tenendoli così ortogonali,
+
+916
+00:38:47.800 --> 00:38:51.760
+è quasi come se ci fosse uno schermo in
+
+917
+00:38:49.720 --> 00:38:56.359
+mezzo, no? gli induttori non si vedono e
+
+918
+00:38:51.760 --> 00:38:58.160
+ognuno ha il suo valore eh che che è
+
+919
+00:38:56.359 --> 00:39:00.839
+quello che serve per quel tipo di filtro
+
+920
+00:38:58.160 --> 00:39:02.560
+lì. Ok,
+
+921
+00:39:00.839 --> 00:39:04.040
+>> chiarissimo. Grazie.
+
+922
+00:39:02.560 --> 00:39:05.640
+>> Vai. No, no, è una è stata una bella
+
+923
+00:39:04.040 --> 00:39:08.760
+domanda.
+
+924
+00:39:05.640 --> 00:39:10.440
+Ci sono altre domande?
+
+925
+00:39:08.760 --> 00:39:12.520
+>> Vai Luca,
+
+926
+00:39:10.440 --> 00:39:16.440
+>> vai Luca. Dai, Torcolo.
+
+927
+00:39:12.520 --> 00:39:21.119
+>> Sì. è un cosa sempre di quel di quel
+
+928
+00:39:16.440 --> 00:39:24.920
+filtro lì c'è un diciamo
+
+929
+00:39:21.119 --> 00:39:27.800
+un rapporto tra i due tra il centrale
+
+930
+00:39:24.920 --> 00:39:32.160
+che ha cinque spire e gli altri due che
+
+931
+00:39:27.800 --> 00:39:32.160
+ne hanno tre o è casuale?
+
+932
+00:39:32.359 --> 00:39:41.960
+No, allora eh eh qui diciamo che
+
+933
+00:39:37.520 --> 00:39:45.760
+eh allora i i filtri passa alto, passa
+
+934
+00:39:41.960 --> 00:39:47.319
+basso, eccetera, diciamo, immaginate
+
+935
+00:39:45.760 --> 00:39:49.400
+quel
+
+936
+00:39:47.319 --> 00:39:51.680
+filtro che avete visto prima che ha tre
+
+937
+00:39:49.400 --> 00:39:54.839
+induttori e due condensatori. Vi
+
+938
+00:39:51.680 --> 00:39:57.480
+immaginate che avendo cinque componenti
+
+939
+00:39:54.839 --> 00:39:59.800
+diversi, le combinazioni di capacità e
+
+940
+00:39:57.480 --> 00:40:01.880
+induttanza possono essere infinite?
+
+941
+00:39:59.800 --> 00:40:05.760
+Scusa.
+
+942
+00:40:01.880 --> 00:40:08.440
+Allora, esistono dei
+
+943
+00:40:05.760 --> 00:40:11.119
+dei disegni particolari
+
+944
+00:40:08.440 --> 00:40:12.640
+e che in qualche modo ottimizzano le
+
+945
+00:40:11.119 --> 00:40:14.720
+prestazioni del filtro. Disegni
+
+946
+00:40:12.640 --> 00:40:17.359
+particolari, voglio dire, dei rapporti
+
+947
+00:40:14.720 --> 00:40:19.240
+particolari fra condensatori e induttori
+
+948
+00:40:17.359 --> 00:40:21.160
+che fanno sì che i filtri funzionino
+
+949
+00:40:19.240 --> 00:40:23.000
+meglio che non con altri rapporti fra
+
+950
+00:40:21.160 --> 00:40:24.760
+induttori e condensatori. Per esempio,
+
+951
+00:40:23.000 --> 00:40:27.560
+ci sono i filtri di ceb, ci sono i
+
+952
+00:40:24.760 --> 00:40:31.400
+filtri di puntini puntini puntini. E
+
+953
+00:40:27.560 --> 00:40:35.480
+allora, normalmente, quando uno eh vuol
+
+954
+00:40:31.400 --> 00:40:38.160
+realizzare un filtro, eh si si procura,
+
+955
+00:40:35.480 --> 00:40:41.560
+fammi dire, le proporzioni di quel tipo
+
+956
+00:40:38.160 --> 00:40:44.960
+di filtro lì e se le adatta alla
+
+957
+00:40:41.560 --> 00:40:46.880
+frequenza eh a cui vuole il filtro,
+
+958
+00:40:44.960 --> 00:40:50.599
+quindi non parte da zero con la
+
+959
+00:40:46.880 --> 00:40:53.079
+progettazione, ma normalmente prende un
+
+960
+00:40:50.599 --> 00:40:56.560
+format, sostanzialmente scegliendo un
+
+961
+00:40:53.079 --> 00:40:58.760
+tipo di filtro e questo format se l'atta
+
+962
+00:40:56.560 --> 00:41:02.079
+alla frequenza di lavoro, perché ora si
+
+963
+00:40:58.760 --> 00:41:05.240
+è parlato stasera di un solo parametro
+
+964
+00:41:02.079 --> 00:41:07.119
+nel filtro che è la larghezza di banda
+
+965
+00:41:05.240 --> 00:41:09.000
+che è l'unico parametro che fa parte del
+
+966
+00:41:07.119 --> 00:41:11.000
+programma di esame, però i filtri di
+
+967
+00:41:09.000 --> 00:41:12.880
+parametri hanno molti altri. Per
+
+968
+00:41:11.000 --> 00:41:15.319
+esempio, noi si si è visto la banda
+
+969
+00:41:12.880 --> 00:41:17.720
+passante come se fosse, farmi dire, un
+
+970
+00:41:15.319 --> 00:41:20.160
+panettone piatto. In realtà un filtro
+
+971
+00:41:17.720 --> 00:41:21.599
+può avere un'ondulazione, tutti i filtri
+
+972
+00:41:20.160 --> 00:41:23.960
+hanno un'ondulazione nella banda
+
+973
+00:41:21.599 --> 00:41:26.160
+passante, non è mai piatta, poi il
+
+974
+00:41:23.960 --> 00:41:28.040
+filtro possono essere adattati male,
+
+975
+00:41:26.160 --> 00:41:30.319
+adattati più o meno bene in ingresso,
+
+976
+00:41:28.040 --> 00:41:34.920
+eccetera eccetera. Ci sono ci sono tanti
+
+977
+00:41:30.319 --> 00:41:36.599
+parametri. Eh uno sceglie eh il format
+
+978
+00:41:34.920 --> 00:41:38.079
+eh relativamente al parametro che vuole
+
+979
+00:41:36.599 --> 00:41:40.440
+ottimizzare, per esempio, vuole un
+
+980
+00:41:38.079 --> 00:41:42.680
+filtro molto piatto e se lo adatta alla
+
+981
+00:41:40.440 --> 00:41:45.520
+sua frequenza. Questo, di conseguenza
+
+982
+00:41:42.680 --> 00:41:47.640
+porta un certo tipo, un certo numero di
+
+983
+00:41:45.520 --> 00:41:50.000
+spire e un certo valore di capacità del
+
+984
+00:41:47.640 --> 00:41:51.960
+condensatore. Però lo stesso tipo di
+
+985
+00:41:50.000 --> 00:41:54.000
+filtro per la stessa frequenza di taglio
+
+986
+00:41:51.960 --> 00:41:55.839
+lo puoi ottenere in teoria con una
+
+987
+00:41:54.000 --> 00:41:59.319
+combinazione infinita dei valori di
+
+988
+00:41:55.839 --> 00:42:01.240
+induttore e e condensatore, no? Eh, uno
+
+989
+00:41:59.319 --> 00:42:05.839
+sceglie quello che vuole e poi in
+
+990
+00:42:01.240 --> 00:42:08.079
+qualche modo si si trova la, diciamo, il
+
+991
+00:42:05.839 --> 00:42:10.720
+eh il filtro che si è voluto, diciamo
+
+992
+00:42:08.079 --> 00:42:15.280
+così, eh fa fa parte delle delle tante
+
+993
+00:42:10.720 --> 00:42:17.040
+libertà che ha un progettista. Ok,
+
+994
+00:42:15.280 --> 00:42:18.480
+>> bene. Grazie
+
+995
+00:42:17.040 --> 00:42:21.319
+>> a te.
+
+996
+00:42:18.480 --> 00:42:24.319
+Adesso c'è Stefano.
+
+997
+00:42:21.319 --> 00:42:26.920
+>> Ciao. Allora, mi è venuto questo dubbio,
+
+998
+00:42:24.319 --> 00:42:28.880
+ma si possono mettere più filtri uno di
+
+999
+00:42:26.920 --> 00:42:31.280
+seguito all'altro e casomai in che
+
+1000
+00:42:28.880 --> 00:42:33.440
+maniera si devono collegare? E poi per
+
+1001
+00:42:31.280 --> 00:42:36.079
+avere, diciamo, una banda più pulita,
+
+1002
+00:42:33.440 --> 00:42:37.880
+quindi una capacità di di filtrazione
+
+1003
+00:42:36.079 --> 00:42:40.440
+maggiore, si può mettere, ad esempio, un
+
+1004
+00:42:37.880 --> 00:42:43.240
+filtro passabanda
+
+1005
+00:42:40.440 --> 00:42:46.280
+che fa passare la banda voluta e poi
+
+1006
+00:42:43.240 --> 00:42:48.800
+unirci uno più filtri elimina banda per
+
+1007
+00:42:46.280 --> 00:42:50.880
+eliminare quelle altre laterali. È
+
+1008
+00:42:48.800 --> 00:42:52.079
+possibile, diciamo, assemblare in questo
+
+1009
+00:42:50.880 --> 00:42:52.480
+modo i filtri?
+
+1010
+00:42:52.079 --> 00:42:52.839
+>> Sì, sì,
+
+1011
+00:42:52.480 --> 00:42:55.200
+>> grazie.
+
+1012
+00:42:52.839 --> 00:42:57.280
+>> Sì, certamente sì. Certamente sì. è
+
+1013
+00:42:55.200 --> 00:42:59.000
+possibile e molte volte viene fatto
+
+1014
+00:42:57.280 --> 00:43:00.720
+quando non basta l'attenuazione di un
+
+1015
+00:42:59.000 --> 00:43:04.000
+filtro se ne possono mettere due in
+
+1016
+00:43:00.720 --> 00:43:07.680
+serie e anche tre e diciamo che rispetto
+
+1017
+00:43:04.000 --> 00:43:10.480
+a questi eh rispetto alla progettazione
+
+1018
+00:43:07.680 --> 00:43:12.040
+di un filtro in in Allora, avete visto
+
+1019
+00:43:10.480 --> 00:43:13.839
+il filtro in quella figura che non sto a
+
+1020
+00:43:12.040 --> 00:43:16.119
+riproiettare, avete visto che ha due
+
+1021
+00:43:13.839 --> 00:43:17.920
+bocchettoni di ingresso e di uscita.
+
+1022
+00:43:16.119 --> 00:43:20.559
+quei bocchettoni.
+
+1023
+00:43:17.920 --> 00:43:23.359
+Eh,
+
+1024
+00:43:20.559 --> 00:43:25.720
+allora, i filtri vengono progettati,
+
+1025
+00:43:23.359 --> 00:43:28.400
+diciamo, in generale tutti questi
+
+1026
+00:43:25.720 --> 00:43:31.280
+componenti qui, filtri, per esempio,
+
+1027
+00:43:28.400 --> 00:43:33.280
+vengono progettati per avere tutti a
+
+1028
+00:43:31.280 --> 00:43:36.000
+standard un'impedenza di ingresso e di
+
+1029
+00:43:33.280 --> 00:43:37.480
+uscita pari a 50 ohm. il filtro della
+
+1030
+00:43:36.000 --> 00:43:40.119
+Drake, per esempio, che abbiamo visto
+
+1031
+00:43:37.480 --> 00:43:41.720
+prima, ma anche quello, no, nella foto,
+
+1032
+00:43:40.119 --> 00:43:43.520
+il fatto che abbiano tutti la stessa
+
+1033
+00:43:41.720 --> 00:43:46.160
+impetenza di ingresso e di uscita fa sì
+
+1034
+00:43:43.520 --> 00:43:48.880
+che si possano collegare in serie uno di
+
+1035
+00:43:46.160 --> 00:43:51.240
+l'altro senza problemi e quindi se uno
+
+1036
+00:43:48.880 --> 00:43:53.200
+vuole comporsi, diciamo, un filtro a più
+
+1037
+00:43:51.240 --> 00:43:55.599
+stadi, se lo può comporre senza
+
+1038
+00:43:53.200 --> 00:43:58.559
+problemi. Basta semplicemente che i
+
+1039
+00:43:55.599 --> 00:44:00.440
+filtri vadano d'accordo fra loro e si
+
+1040
+00:43:58.559 --> 00:44:02.920
+interfaccino l'uno con l'altro. Questo
+
+1041
+00:44:00.440 --> 00:44:04.880
+interfacciamento si ottiene quando
+
+1042
+00:44:02.920 --> 00:44:07.160
+l'impedenza di ingresso e di uscita dei
+
+1043
+00:44:04.880 --> 00:44:09.640
+filtri è identico. Questo poi lo vedremo
+
+1044
+00:44:07.160 --> 00:44:11.400
+bene anche ne riparleremo abbastanza a
+
+1045
+00:44:09.640 --> 00:44:14.280
+lungo di queste cose anche nelle
+
+1046
+00:44:11.400 --> 00:44:15.720
+prossime lezioni. Ok.
+
+1047
+00:44:14.280 --> 00:44:18.599
+>> Ok. Grazie.
+
+1048
+00:44:15.720 --> 00:44:21.000
+>> Sì. Adesso Giovanni a te.
+
+1049
+00:44:18.599 --> 00:44:22.720
+>> Eh no, c'era Alfredo, credo.
+
+1050
+00:44:21.000 --> 00:44:23.839
+>> Ah, scusate. Sì, scus.
+
+1051
+00:44:22.720 --> 00:44:26.160
+>> Sì, sì, grazie. A me non ci sarebbe
+
+1052
+00:44:23.839 --> 00:44:29.800
+stato problema. Grazie, Giovanni. No, eh
+
+1053
+00:44:26.160 --> 00:44:31.520
+in parte hai risposto tramite la tramite
+
+1054
+00:44:29.800 --> 00:44:33.680
+Stefano, perché pure io mi stavo
+
+1055
+00:44:31.520 --> 00:44:35.319
+chiedendo se fosse possibile, magari io
+
+1056
+00:44:33.680 --> 00:44:37.359
+me lo chiudo in maniera molto ingenua,
+
+1057
+00:44:35.319 --> 00:44:40.280
+se fosse possibile metterli in serie,
+
+1058
+00:44:37.359 --> 00:44:43.119
+tipo sono in emergenza, stavo ragionando
+
+1059
+00:44:40.280 --> 00:44:45.280
+così, mi serve un filtro passabanda, non
+
+1060
+00:44:43.119 --> 00:44:48.720
+ce l'ho. Allora, se io mettessi, per
+
+1061
+00:44:45.280 --> 00:44:51.119
+esempio, un filtro passa basso, un
+
+1062
+00:44:48.720 --> 00:44:53.480
+filtro passa alto, cioè potrei creare io
+
+1063
+00:44:51.119 --> 00:44:56.400
+delle scale per tenermi fuori quello che
+
+1064
+00:44:53.480 --> 00:44:58.319
+non voglio se non avessi un filtro
+
+1065
+00:44:56.400 --> 00:44:59.920
+specifico? Lo so, forse è un po'
+
+1066
+00:44:58.319 --> 00:45:01.319
+incasinata come domanda, però è una
+
+1067
+00:44:59.920 --> 00:45:03.480
+curiosità mia. Grazie.
+
+1068
+00:45:01.319 --> 00:45:06.079
+>> No, no, no, quello che hai detto è
+
+1069
+00:45:03.480 --> 00:45:08.240
+giustissimo. Cioè, in fin dei conti un
+
+1070
+00:45:06.079 --> 00:45:10.680
+passapanda può essere fatto benissimo da
+
+1071
+00:45:08.240 --> 00:45:13.520
+un passa passo e un passo alto in serie,
+
+1072
+00:45:10.680 --> 00:45:16.559
+leggermente sovrapposti, no?
+
+1073
+00:45:13.520 --> 00:45:18.880
+E sì, si può fare tranquillamente, si
+
+1074
+00:45:16.559 --> 00:45:21.880
+può fare e funziona senza problemi.
+
+1075
+00:45:18.880 --> 00:45:24.520
+>> Quindi in teoria si potrebbe assemblare
+
+1076
+00:45:21.880 --> 00:45:26.160
+vari filtri per ottenerne uno che
+
+1077
+00:45:24.520 --> 00:45:27.680
+potrebbe essere già per esempio
+
+1078
+00:45:26.160 --> 00:45:29.119
+fabbricato nativo, cioè anche per il
+
+1079
+00:45:27.680 --> 00:45:31.200
+puro gusto, per esempio, sentivo il
+
+1080
+00:45:29.119 --> 00:45:33.400
+Notch, cioè si potrebbe addirittura
+
+1081
+00:45:31.200 --> 00:45:35.839
+inserire vari filtri per creare questi
+
+1082
+00:45:33.400 --> 00:45:37.520
+effetti e senza fare direttamente il
+
+1083
+00:45:35.839 --> 00:45:39.040
+filtro notch, cioè a livello proprio di
+
+1084
+00:45:37.520 --> 00:45:41.040
+puro gusto, di divertimento nel
+
+1085
+00:45:39.040 --> 00:45:42.640
+volerseli assemblare da soli.
+
+1086
+00:45:41.040 --> 00:45:44.559
+>> Esatto. Esattissimo. Esattissimo.
+
+1087
+00:45:42.640 --> 00:45:46.960
+potrebbe avere i patcini dell'ego e
+
+1088
+00:45:44.559 --> 00:45:49.400
+comporli in base a a quello di cui ha
+
+1089
+00:45:46.960 --> 00:45:49.760
+bisogno in quel momento. Sì,
+
+1090
+00:45:49.400 --> 00:45:50.680
+>> grazie.
+
+1091
+00:45:49.760 --> 00:45:53.000
+>> Tranquillamente,
+
+1092
+00:45:50.680 --> 00:45:54.839
+>> niente a te.
+
+1093
+00:45:53.000 --> 00:45:57.200
+E adesso Giovanni ora
+
+1094
+00:45:54.839 --> 00:46:00.640
+>> sì è un concetto velocissimo. Quindi si
+
+1095
+00:45:57.200 --> 00:46:03.240
+può posso dire che i filtri ottimizzano
+
+1096
+00:46:00.640 --> 00:46:06.079
+le prestazioni di una ricetrasmittente
+
+1097
+00:46:03.240 --> 00:46:10.079
+sia in ricezione che in trasmissione e
+
+1098
+00:46:06.079 --> 00:46:12.720
+eventualmente se così in linea generale
+
+1099
+00:46:10.079 --> 00:46:15.400
+e se avessi questa ricce trasmittente a
+
+1100
+00:46:12.720 --> 00:46:17.920
+2000 m
+
+1101
+00:46:15.400 --> 00:46:21.599
+senza diciamo disturbi interferenze
+
+1102
+00:46:17.920 --> 00:46:23.440
+varie, forse ho avrei meno necessità di
+
+1103
+00:46:21.599 --> 00:46:25.640
+utilizzare questi filtri a meno che non
+
+1104
+00:46:23.440 --> 00:46:28.359
+abbia un ponte radio di Radio Maria a
+
+1105
+00:46:25.640 --> 00:46:30.240
+200 metri vicino, giusto?
+
+1106
+00:46:28.359 --> 00:46:32.000
+>> Esattamente come hai detto.
+
+1107
+00:46:30.240 --> 00:46:33.960
+>> Ok, grazie. Se per esempio sei, parlando
+
+1108
+00:46:32.000 --> 00:46:37.480
+della Toscana, se sei in cima al
+
+1109
+00:46:33.960 --> 00:46:39.200
+pisanino sulle apuane,
+
+1110
+00:46:37.480 --> 00:46:40.720
+lì le apuane sono belle ripide, di
+
+1111
+00:46:39.200 --> 00:46:42.319
+ripetitori ce ne sono molto pochi,
+
+1112
+00:46:40.720 --> 00:46:44.599
+probabilmente magari ti trovi in un
+
+1113
+00:46:42.319 --> 00:46:46.680
+punto dove, diciamo, insomma, hai un
+
+1114
+00:46:44.599 --> 00:46:48.880
+orizzonte bello libero e e non hai
+
+1115
+00:46:46.680 --> 00:46:51.200
+emittenti forti nelle vicinanze, anche
+
+1116
+00:46:48.880 --> 00:46:53.480
+se lì c'è un orizzonte talmente bello
+
+1117
+00:46:51.200 --> 00:46:54.559
+che comunque un po' di segnali ti un po'
+
+1118
+00:46:53.480 --> 00:46:56.720
+di segnali forti comunque ti
+
+1119
+00:46:54.559 --> 00:46:58.040
+raggiungono, però non ce l'hai a 2 km da
+
+1120
+00:46:56.720 --> 00:47:00.000
+casa, no?
+
+1121
+00:46:58.040 --> 00:47:03.760
+>> Sì, sì. No, ma ho po io ho provato,
+
+1122
+00:47:00.000 --> 00:47:06.319
+abito sopra nelle colline sopra pescia,
+
+1123
+00:47:03.760 --> 00:47:07.680
+quindi eh vedo la differenza da quando
+
+1124
+00:47:06.319 --> 00:47:09.720
+accendo un'area rad a Montecatini a
+
+1125
+00:47:07.680 --> 00:47:11.440
+quando l'accendo là sopra che insomma è
+
+1126
+00:47:09.720 --> 00:47:15.240
+un totalmente diverso. Ecco, il
+
+1127
+00:47:11.440 --> 00:47:17.240
+concetto. Ok, grazie. Grazie a te.
+
+1128
+00:47:15.240 --> 00:47:19.880
+>> Adesso
+
+1129
+00:47:17.240 --> 00:47:22.800
+Giovanni Cecchi.
+
+1130
+00:47:19.880 --> 00:47:26.599
+>> Sì, grazie. Eh, domanda, ma questi
+
+1131
+00:47:22.800 --> 00:47:28.559
+filtri non hanno alcun effetto
+
+1132
+00:47:26.599 --> 00:47:31.040
+sull'intensità?
+
+1133
+00:47:28.559 --> 00:47:33.720
+della della
+
+1134
+00:47:31.040 --> 00:47:38.359
+banda che puoi far passare, cioè non
+
+1135
+00:47:33.720 --> 00:47:40.720
+attenuano un po' anche quella o o no?
+
+1136
+00:47:38.359 --> 00:47:41.480
+>> Sì, attenuano se mi sono
+
+1137
+00:47:40.720 --> 00:47:43.520
+>> eh perfettamente
+
+1138
+00:47:41.480 --> 00:47:45.559
+>> siccome parlavi anche dicevi anche la
+
+1139
+00:47:43.520 --> 00:47:48.920
+possibilità di metterne più in serie,
+
+1140
+00:47:45.559 --> 00:47:52.880
+no? E arrivato in fondo però non rischi
+
+1141
+00:47:48.920 --> 00:47:55.319
+anche di attenuare la la forza del
+
+1142
+00:47:52.880 --> 00:47:57.680
+segnale che vuoi ascoltare.
+
+1143
+00:47:55.319 --> 00:48:00.040
+>> Sì, sicuramente sì, sicuramente sì. se
+
+1144
+00:47:57.680 --> 00:48:03.280
+ne metti tanti in serie, cioè ogni
+
+1145
+00:48:00.040 --> 00:48:05.839
+filtro un po' il segnale lo attenua. Il
+
+1146
+00:48:03.280 --> 00:48:08.559
+più delle volte questa attenuazione è
+
+1147
+00:48:05.839 --> 00:48:10.880
+minima, però se se ne mettono parecchi
+
+1148
+00:48:08.559 --> 00:48:12.839
+effettivamente l'atazione cresce, però
+
+1149
+00:48:10.880 --> 00:48:15.960
+se magari con tanti filtri riesci ad
+
+1150
+00:48:12.839 --> 00:48:17.359
+ascoltare senza filtri no, è meglio
+
+1151
+00:48:15.960 --> 00:48:19.319
+avere un segnale un po' atterato
+
+1152
+00:48:17.359 --> 00:48:21.240
+piuttosto che nessun segnale, diciamo
+
+1153
+00:48:19.319 --> 00:48:23.480
+così. Cioè giustamente sono tutte
+
+1154
+00:48:21.240 --> 00:48:25.200
+soluzioni che poi uno si si deve
+
+1155
+00:48:23.480 --> 00:48:27.520
+configurare un po' sulla situazione
+
+1156
+00:48:25.200 --> 00:48:31.680
+specifica, no? Comunque sì, è vero, cioè
+
+1157
+00:48:27.520 --> 00:48:34.680
+come principio generale e tutti i filtri
+
+1158
+00:48:31.680 --> 00:48:36.040
+hanno un po' di attenuazione.
+
+1159
+00:48:34.680 --> 00:48:40.280
+>> Ok, grazie.
+
+1160
+00:48:36.040 --> 00:48:45.880
+>> Sì, adesso Daniele e poi proseguiamo.
+
+1161
+00:48:40.280 --> 00:48:49.520
+>> Bene. Sì, il il notch ci siamo. Ehm,
+
+1162
+00:48:45.880 --> 00:48:52.240
+cioè agisce solo sulla frequenza e che
+
+1163
+00:48:49.520 --> 00:48:54.559
+voglio, diciamo, ammazzare o anche sulle
+
+1164
+00:48:52.240 --> 00:48:58.240
+sue armoniche?
+
+1165
+00:48:54.559 --> 00:49:00.119
+M il notch agisce solo su una frequenza.
+
+1166
+00:48:58.240 --> 00:49:01.799
+>> Ok. Quindi se io mi trovo se mi trovo
+
+1167
+00:49:00.119 --> 00:49:07.400
+sulla 21
+
+1168
+00:49:01.799 --> 00:49:09.880
+>> e eh il disturbo mi parte dalla 7.
+
+1169
+00:49:07.400 --> 00:49:12.160
+>> Allora se
+
+1170
+00:49:09.880 --> 00:49:15.599
+Allora, se se tu hai un trasmettitore a
+
+1171
+00:49:12.160 --> 00:49:17.720
+sette, diciamo a diciamo hai un
+
+1172
+00:49:15.599 --> 00:49:19.599
+trasmettitore molto sporco, quindi ti
+
+1173
+00:49:17.720 --> 00:49:24.160
+esce sette che è la banda su cui stai
+
+1174
+00:49:19.599 --> 00:49:27.280
+trasmettendo, però ti esce anche 14 21.
+
+1175
+00:49:24.160 --> 00:49:29.400
+Se tu volessi evitare 14, 21 e 28 con
+
+1176
+00:49:27.280 --> 00:49:31.680
+dei notch, ti servirebbero tre notch,
+
+1177
+00:49:29.400 --> 00:49:37.160
+perché se tu al tuo trasmettitore che
+
+1178
+00:49:31.680 --> 00:49:41.319
+trasmette a 7 metti il notch a 14,
+
+1179
+00:49:37.160 --> 00:49:45.480
+il 21 ti esce sempre.
+
+1180
+00:49:41.319 --> 00:49:48.400
+>> Ok. Il Notch funziona solamente in in
+
+1181
+00:49:45.480 --> 00:49:50.240
+uscita o anche in entrata?
+
+1182
+00:49:48.400 --> 00:49:52.520
+>> Anche in entrata. Anche in entrata.
+
+1183
+00:49:50.240 --> 00:49:57.480
+Cioè, anche tutti questi filtri si usano
+
+1184
+00:49:52.520 --> 00:50:00.559
+anche in ricezione, in effetti eh
+
+1185
+00:49:57.480 --> 00:50:02.400
+molte radio alle
+
+1186
+00:50:00.559 --> 00:50:04.240
+molte radio, soprattutto quelle delle
+
+1187
+00:50:02.400 --> 00:50:06.280
+onde corte, non so se qualcuno di voi,
+
+1188
+00:50:04.240 --> 00:50:08.839
+no, in banda cittadini è attrezzato con
+
+1189
+00:50:06.280 --> 00:50:11.000
+con una radio, no, un po', diciamo, un
+
+1190
+00:50:08.839 --> 00:50:13.480
+po' un po' seria. Molte radio hanno
+
+1191
+00:50:11.000 --> 00:50:15.119
+comunque un notch funziona nella banda
+
+1192
+00:50:13.480 --> 00:50:16.599
+passante del ricevitore. Quando, per
+
+1193
+00:50:15.119 --> 00:50:19.280
+esempio, ascolti un segnale e c'è un
+
+1194
+00:50:16.599 --> 00:50:21.119
+fischio che ti disturba. col notch vai
+
+1195
+00:50:19.280 --> 00:50:23.160
+sulla frequenza di questo filtro e
+
+1196
+00:50:21.119 --> 00:50:25.240
+praticamente te lo attenua molto te lo
+
+1197
+00:50:23.160 --> 00:50:26.440
+annulla.
+
+1198
+00:50:25.240 --> 00:50:27.920
+>> Ok,
+
+1199
+00:50:26.440 --> 00:50:31.359
+>> perfetto. Grazie.
+
+1200
+00:50:27.920 --> 00:50:33.599
+>> Niente a te. Allora,
+
+1201
+00:50:31.359 --> 00:50:35.160
+ottimo.
+
+1202
+00:50:33.599 --> 00:50:38.480
+Grazie delle domande. Interessante
+
+1203
+00:50:35.160 --> 00:50:40.160
+vedere che, diciamo, gli argomenti vi
+
+1204
+00:50:38.480 --> 00:50:43.000
+interessano.
+
+1205
+00:50:40.160 --> 00:50:45.720
+Rimetto in condivisione.
+
+1206
+00:50:43.000 --> 00:50:46.280
+Ok, si vede il video?
+
+1207
+00:50:45.720 --> 00:50:50.359
+>> Sì, Paolo.
+
+1208
+00:50:46.280 --> 00:50:53.799
+>> Sì, sì. Grazie, grazie. E andiamo a
+
+1209
+00:50:50.359 --> 00:50:56.359
+questo punto avanti. Dunque,
+
+1210
+00:50:53.799 --> 00:50:58.400
+adesso parliamo dei circuiti risonanti,
+
+1211
+00:50:56.359 --> 00:51:00.599
+che è il secondo argomento di di
+
+1212
+00:50:58.400 --> 00:51:03.000
+stasera. Poi i quarzi sono una cosa
+
+1213
+00:51:00.599 --> 00:51:05.640
+molto semplice da da raccontare. Allora,
+
+1214
+00:51:03.000 --> 00:51:08.160
+cosa sono i circuiti risonanti? Intanto
+
+1215
+00:51:05.640 --> 00:51:10.280
+sono circuiti composti da un induttore e
+
+1216
+00:51:08.160 --> 00:51:12.880
+un condensatore
+
+1217
+00:51:10.280 --> 00:51:15.079
+e e questi induttore e condensatore
+
+1218
+00:51:12.880 --> 00:51:17.319
+possono essere messi in serie o in
+
+1219
+00:51:15.079 --> 00:51:20.640
+parallelo. Quindi, come vedete, come
+
+1220
+00:51:17.319 --> 00:51:20.640
+vedete qua,
+
+1221
+00:51:21.440 --> 00:51:26.520
+questo ovviamente è un circuito
+
+1222
+00:51:23.720 --> 00:51:28.280
+risonante serie, conduttore condensatore
+
+1223
+00:51:26.520 --> 00:51:31.200
+in serie e questo ovviamente è un
+
+1224
+00:51:28.280 --> 00:51:33.079
+circuito risonante parallelo.
+
+1225
+00:51:31.200 --> 00:51:35.920
+Allora, cosa si intende per circuito
+
+1226
+00:51:33.079 --> 00:51:39.640
+risonante e cosa vuol dire il concetto
+
+1227
+00:51:35.920 --> 00:51:41.640
+di risonanza? Allora, noi abbiamo visto
+
+1228
+00:51:39.640 --> 00:51:44.720
+e guardate questo schema che avete su
+
+1229
+00:51:41.640 --> 00:51:47.920
+carta quadrettata qui a sinistra. Noi
+
+1230
+00:51:44.720 --> 00:51:49.960
+abbiamo visto che vedete che questo è
+
+1231
+00:51:47.920 --> 00:51:53.000
+uno schema che sull'asse delle ascisse
+
+1232
+00:51:49.960 --> 00:51:58.599
+ha la frequenza. Noi abbiamo visto che
+
+1233
+00:51:53.000 --> 00:52:01.119
+la reattanza induttiva XL
+
+1234
+00:51:58.599 --> 00:52:03.079
+cresce al crescere della frequenza ed è
+
+1235
+00:52:01.119 --> 00:52:05.359
+questa retta qua. Non non lo sto a
+
+1236
+00:52:03.079 --> 00:52:06.960
+tratteggiare tutta perché sennò sporco
+
+1237
+00:52:05.359 --> 00:52:08.559
+il disegno per quello che poi ci voglio
+
+1238
+00:52:06.960 --> 00:52:10.160
+fare dopo. Tanto ormai lo avete
+
+1239
+00:52:08.559 --> 00:52:11.640
+riconosciuto perché ne abbiamo parlato
+
+1240
+00:52:10.160 --> 00:52:14.720
+varie volte, no? Vedete che anche qua
+
+1241
+00:52:11.640 --> 00:52:17.200
+c'è scritto Excel.
+
+1242
+00:52:14.720 --> 00:52:20.640
+Sullo stesso grafico è sovrapposta anche
+
+1243
+00:52:17.200 --> 00:52:23.240
+una reattanza capacitiva XC
+
+1244
+00:52:20.640 --> 00:52:25.559
+e la reattanza capacitiva, eccola qua,
+
+1245
+00:52:23.240 --> 00:52:28.319
+si è detto che al crescere della
+
+1246
+00:52:25.559 --> 00:52:31.240
+frequenza va a calare, decresce e in
+
+1247
+00:52:28.319 --> 00:52:34.520
+effetti questa curva va a crescere, no?
+
+1248
+00:52:31.240 --> 00:52:37.359
+Allora, in un circuito risonante o serie
+
+1249
+00:52:34.520 --> 00:52:39.119
+o parallelo che sia, io io questi
+
+1250
+00:52:37.359 --> 00:52:41.240
+componenti di cui stiamo parlando ce li
+
+1251
+00:52:39.119 --> 00:52:42.960
+ho tutti e due. Ho sia il condensatore
+
+1252
+00:52:41.240 --> 00:52:45.319
+che l'induttore.
+
+1253
+00:52:42.960 --> 00:52:47.359
+Allora, l'induttore
+
+1254
+00:52:45.319 --> 00:52:49.359
+la la curva di risonan la curva,
+
+1255
+00:52:47.359 --> 00:52:53.160
+scusate, della reattanza dell'induttore
+
+1256
+00:52:49.359 --> 00:52:57.079
+è questa retta. La curva della reattanza
+
+1257
+00:52:53.160 --> 00:52:59.640
+del condensatore è questa iperbole
+
+1258
+00:52:57.079 --> 00:53:03.000
+e c'è comunque un punto in cui ste due
+
+1259
+00:52:59.640 --> 00:53:05.079
+curve si incontrano e questa è questo
+
+1260
+00:53:03.000 --> 00:53:07.559
+questo queste due, scusate, queste due
+
+1261
+00:53:05.079 --> 00:53:10.000
+curve si incontrano a un punto che per
+
+1262
+00:53:07.559 --> 00:53:12.319
+l'appunto è chiamato frequenza di
+
+1263
+00:53:10.000 --> 00:53:14.160
+risonanza. Allora, cosa succede a questo
+
+1264
+00:53:12.319 --> 00:53:16.640
+punto?
+
+1265
+00:53:14.160 --> 00:53:19.640
+che i due valori siccome si incontrano
+
+1266
+00:53:16.640 --> 00:53:23.760
+incontrarsi a questo punto quel punto in
+
+1267
+00:53:19.640 --> 00:53:25.640
+quel punto lì sia la reattanza
+
+1268
+00:53:23.760 --> 00:53:28.319
+indottiva che quella capacitiva sono
+
+1269
+00:53:25.640 --> 00:53:31.200
+alla stessa altezza e quindi valgono lo
+
+1270
+00:53:28.319 --> 00:53:33.280
+stesso valore, diciamo 100 ohm. Diciamo
+
+1271
+00:53:31.200 --> 00:53:35.559
+che a questo punto sia la reattenza
+
+1272
+00:53:33.280 --> 00:53:38.680
+induttiva che che quella capacitiva
+
+1273
+00:53:35.559 --> 00:53:40.640
+valgono 100 ohm. E questa è la
+
+1274
+00:53:38.680 --> 00:53:43.480
+definizione di punto di risonanza. Dal
+
+1275
+00:53:40.640 --> 00:53:46.359
+punto della risonanza le le reattanze si
+
+1276
+00:53:43.480 --> 00:53:49.240
+equivalgono, sono, diciamo, hanno lo
+
+1277
+00:53:46.359 --> 00:53:52.400
+stesso numero. Però vi ricordate che la
+
+1278
+00:53:49.240 --> 00:53:54.520
+reattanza capacitiva si indicava con un
+
+1279
+00:53:52.400 --> 00:53:57.240
+segno più e la reattanza capacitiva con
+
+1280
+00:53:54.520 --> 00:54:00.640
+un segno meno? Alla frequenza di
+
+1281
+00:53:57.240 --> 00:54:02.520
+risonanza queste reattanze si annullano
+
+1282
+00:54:00.640 --> 00:54:05.280
+l'una con l'altra. E ora vediamo un po'
+
+1283
+00:54:02.520 --> 00:54:07.079
+meglio perché
+
+1284
+00:54:05.280 --> 00:54:09.839
+questo punto qui, la frequenza di
+
+1285
+00:54:07.079 --> 00:54:12.760
+risonanza, conoscendo la formula
+
+1286
+00:54:09.839 --> 00:54:20.000
+dell'erattanza induttiva che vi ho detto
+
+1287
+00:54:12.760 --> 00:54:21.839
+due settimane fa, XL = 2 pi * f * L. E
+
+1288
+00:54:20.000 --> 00:54:23.680
+ricordando la formula dell'erattanza
+
+1289
+00:54:21.839 --> 00:54:27.040
+capacitiva che abbiamo visto mercoledì
+
+1290
+00:54:23.680 --> 00:54:28.880
+scorso, no? che è 1 / 2 pi, cioè
+
+1291
+00:54:27.040 --> 00:54:31.640
+mettendo insieme quelle formule con un
+
+1292
+00:54:28.880 --> 00:54:33.240
+po' d'alchimia si calcola questa formula
+
+1293
+00:54:31.640 --> 00:54:37.359
+qua
+
+1294
+00:54:33.240 --> 00:54:40.319
+che dato il valore della mia induttanza,
+
+1295
+00:54:37.359 --> 00:54:43.440
+Lo il valore del mio condensatore C,
+
+1296
+00:54:40.319 --> 00:54:46.720
+questa è la frequenza di risonanza 1 /
+
+1297
+00:54:43.440 --> 00:54:50.920
+frs frequenza di risonanza uguale 1 / 2
+
+1298
+00:54:46.720 --> 00:54:52.680
+pi per la radice quadrata di L * C.
+
+1299
+00:54:50.920 --> 00:54:55.000
+Questa è la frequenza di risonanza di un
+
+1300
+00:54:52.680 --> 00:54:58.200
+circuito. Allora, vediamo un circuito
+
+1301
+00:54:55.000 --> 00:55:01.640
+risonante parallelo. Cosa succede alla
+
+1302
+00:54:58.200 --> 00:55:03.480
+risonanza? E e qui vedete un po' tutti
+
+1303
+00:55:01.640 --> 00:55:05.359
+tutti i passaggi. Allora, intanto il
+
+1304
+00:55:03.480 --> 00:55:07.119
+circuito risonante, come vedete in
+
+1305
+00:55:05.359 --> 00:55:09.520
+questo schema qui a destra, è in
+
+1306
+00:55:07.119 --> 00:55:12.480
+parallelo. Poiché il condensatore e
+
+1307
+00:55:09.520 --> 00:55:16.240
+l'induttore sono in parallelo,
+
+1308
+00:55:12.480 --> 00:55:18.640
+hanno ai loro capi la stessa tensione.
+
+1309
+00:55:16.240 --> 00:55:21.119
+Quindi il condensatore e l'induttore
+
+1310
+00:55:18.640 --> 00:55:23.640
+hanno la stessa V, diciamo, la stessa
+
+1311
+00:55:21.119 --> 00:55:25.760
+tensione ai loro capi. Poi alla
+
+1312
+00:55:23.640 --> 00:55:29.200
+frequenza di risonanza sappiamo che le
+
+1313
+00:55:25.760 --> 00:55:32.640
+due reattanze sono uguali. XL = XC.
+
+1314
+00:55:29.200 --> 00:55:35.319
+Quindi, siccome la tensione è la stessa
+
+1315
+00:55:32.640 --> 00:55:38.799
+e la la resistenza, la reattanza è la
+
+1316
+00:55:35.319 --> 00:55:43.920
+stessa, per la legge di ohm corrente
+
+1317
+00:55:38.799 --> 00:55:46.440
+uguale I = V su R, la nel condensatore e
+
+1318
+00:55:43.920 --> 00:55:48.240
+nell'induttore scorrerà esattamente la
+
+1319
+00:55:46.440 --> 00:55:49.760
+stessa corrente. Questo lo vedete più o
+
+1320
+00:55:48.240 --> 00:55:51.520
+meno in questo schemino che avete qua a
+
+1321
+00:55:49.760 --> 00:55:55.039
+destra, no? Vedete che nel condensatore
+
+1322
+00:55:51.520 --> 00:55:58.480
+scorre qua in rosso questa IC,
+
+1323
+00:55:55.039 --> 00:56:01.400
+nell'induttore scorre questa IL. alla
+
+1324
+00:55:58.480 --> 00:56:04.280
+frequenza di risonanza i valori di
+
+1325
+00:56:01.400 --> 00:56:07.400
+queste due correnti sono uguali. Sono
+
+1326
+00:56:04.280 --> 00:56:09.200
+uguali perché le tensioni sono le stesse
+
+1327
+00:56:07.400 --> 00:56:12.960
+e le correnti sono le stesse, come ho
+
+1328
+00:56:09.200 --> 00:56:17.319
+detto prima. Però cosa succede? Succede
+
+1329
+00:56:12.960 --> 00:56:19.799
+che rispetto alla tensione a cui è,
+
+1330
+00:56:17.319 --> 00:56:22.599
+diciamo, alimentato questo circuito
+
+1331
+00:56:19.799 --> 00:56:26.720
+risonante, succede che IL, cioè la
+
+1332
+00:56:22.599 --> 00:56:30.680
+corrente che passa eh nell'induttore è
+
+1333
+00:56:26.720 --> 00:56:32.880
+sfasata di 90°, scusate, rispetto alla
+
+1334
+00:56:30.680 --> 00:56:35.160
+frequenza
+
+1335
+00:56:32.880 --> 00:56:37.160
+del segnale
+
+1336
+00:56:35.160 --> 00:56:39.880
+che interessa questo circuito, che
+
+1337
+00:56:37.160 --> 00:56:42.960
+alimenta questo circuito,
+
+1338
+00:56:39.880 --> 00:56:45.039
+la corrente nell'induttore è sfasata di
+
+1339
+00:56:42.960 --> 00:56:47.240
+90° in ritardo. La corrente del
+
+1340
+00:56:45.039 --> 00:56:49.880
+condensatore è sfasata di 90° di
+
+1341
+00:56:47.240 --> 00:56:51.599
+anticipo. Questo sto mettendo insieme le
+
+1342
+00:56:49.880 --> 00:56:55.119
+cose che avevamo che avevamo visto
+
+1343
+00:56:51.599 --> 00:56:57.440
+insieme nelle due lezioni scorse. La
+
+1344
+00:56:55.119 --> 00:56:59.039
+corrente in un in un induttore è sempre
+
+1345
+00:56:57.440 --> 00:57:02.640
+un po' in ritardo rispetto alla
+
+1346
+00:56:59.039 --> 00:57:04.359
+tensione, quindi è in ritardo di 90°.
+
+1347
+00:57:02.640 --> 00:57:06.319
+Rispetto alla tensione la corrente di un
+
+1348
+00:57:04.359 --> 00:57:10.280
+condensatore invece è in anticipo di
+
+1349
+00:57:06.319 --> 00:57:11.960
+90°. Quindi in un circuito risonante col
+
+1350
+00:57:10.280 --> 00:57:15.200
+con il condensatore con l'induttore
+
+1351
+00:57:11.960 --> 00:57:17.880
+messo in questo modo eh rispetto alla
+
+1352
+00:57:15.200 --> 00:57:20.760
+tensione che sta quassù V, la tensione è
+
+1353
+00:57:17.880 --> 00:57:23.760
+questa.
+
+1354
+00:57:20.760 --> 00:57:25.880
+Corrente nel condensatore sfasata di 90°
+
+1355
+00:57:23.760 --> 00:57:29.559
+anticipo, quella nell'induttore di 90°
+
+1356
+00:57:25.880 --> 00:57:32.359
+in ritardo. 90 e 90 fa 180. Quindi le
+
+1357
+00:57:29.559 --> 00:57:34.319
+due correnti sono in opposizione di fase
+
+1358
+00:57:32.359 --> 00:57:36.079
+l'una rispetto all'altra. sono sfasate
+
+1359
+00:57:34.319 --> 00:57:38.119
+di 180°,
+
+1360
+00:57:36.079 --> 00:57:39.640
+come vedete in questo disseglio qua
+
+1361
+00:57:38.119 --> 00:57:42.440
+sotto.
+
+1362
+00:57:39.640 --> 00:57:44.960
+Patate di 180° vuol dire che quando
+
+1363
+00:57:42.440 --> 00:57:47.640
+mettiamo la corrente nel condensatore è
+
+1364
+00:57:44.960 --> 00:57:50.079
+al suo punto massimo positivo, la
+
+1365
+00:57:47.640 --> 00:57:53.799
+corrente nell'induttore ha è al suo
+
+1366
+00:57:50.079 --> 00:57:55.880
+punto minimo negativo. Se si sommano
+
+1367
+00:57:53.799 --> 00:57:59.280
+queste due sinusoidi, il risultato
+
+1368
+00:57:55.880 --> 00:58:01.039
+finale è pari a 0. Queste due sinusoidi
+
+1369
+00:57:59.280 --> 00:58:03.480
+si annullano l'una con l'altra, cioè
+
+1370
+00:58:01.039 --> 00:58:05.200
+queste sono due
+
+1371
+00:58:03.480 --> 00:58:08.680
+correnti
+
+1372
+00:58:05.200 --> 00:58:10.400
+di ampiezza uguale, ma sfasate di 180°
+
+1373
+00:58:08.680 --> 00:58:13.400
+l'un l'una con l'altra, quindi si
+
+1374
+00:58:10.400 --> 00:58:16.880
+annullano fra loro. Se si annullano, la
+
+1375
+00:58:13.400 --> 00:58:19.720
+corrente che scorre nel mio circuito
+
+1376
+00:58:16.880 --> 00:58:22.520
+risonante parallelo vale zero. Non
+
+1377
+00:58:19.720 --> 00:58:24.319
+scorre corrente perché sembra
+
+1378
+00:58:22.520 --> 00:58:26.280
+stranissimo, ma le correnti del
+
+1379
+00:58:24.319 --> 00:58:28.559
+condensatore nell'induttore si annullano
+
+1380
+00:58:26.280 --> 00:58:32.319
+fra loro. Quindi in questo punto qua in
+
+1381
+00:58:28.559 --> 00:58:35.599
+cui sono io non scorre corrente,
+
+1382
+00:58:32.319 --> 00:58:38.119
+ovvero alla frequenza di risonanza un
+
+1383
+00:58:35.599 --> 00:58:43.200
+cito risonante parallelo ha, come
+
+1384
+00:58:38.119 --> 00:58:46.280
+leggete qua sotto un'impedenza infinita.
+
+1385
+00:58:43.200 --> 00:58:48.440
+E questo è il meccanismo della risonanza
+
+1386
+00:58:46.280 --> 00:58:50.359
+nei circuiti risonanti parallelo. Uno
+
+1387
+00:58:48.440 --> 00:58:52.680
+dice, ma qui nel condensatore e
+
+1388
+00:58:50.359 --> 00:58:55.280
+nell'induttore scorrono corrente. Com'è
+
+1389
+00:58:52.680 --> 00:58:57.280
+possibile che in questo punto qui B
+
+1390
+00:58:55.280 --> 00:59:00.400
+corrente non scorra?
+
+1391
+00:58:57.280 --> 00:59:03.000
+Perché eh la corrente che scorre nel
+
+1392
+00:59:00.400 --> 00:59:05.480
+condensatore cosa fa? Per un certo
+
+1393
+00:59:03.000 --> 00:59:07.920
+periodo della sinusoide mi carica il
+
+1394
+00:59:05.480 --> 00:59:09.799
+condensatore con un campo elettrico,
+
+1395
+00:59:07.920 --> 00:59:11.680
+come abbiamo visto quando si parlava di
+
+1396
+00:59:09.799 --> 00:59:13.520
+condensatori. Questo condensatore poi si
+
+1397
+00:59:11.680 --> 00:59:15.920
+dovrà scaricare. Dove si scarica? si
+
+1398
+00:59:13.520 --> 00:59:18.160
+scarica solo induttore che genererà il
+
+1399
+00:59:15.920 --> 00:59:20.359
+suo campo magnetico. Come si dice in
+
+1400
+00:59:18.160 --> 00:59:23.359
+gergo, in un circuito risonante di
+
+1401
+00:59:20.359 --> 00:59:25.559
+questo tipo, l'energia che sta nel
+
+1402
+00:59:23.359 --> 00:59:27.640
+condensatore, cioè il condensatore e
+
+1403
+00:59:25.559 --> 00:59:30.559
+l'induttore si palleggiano l'energia
+
+1404
+00:59:27.640 --> 00:59:32.119
+l'una con l'altra, quindi scorre
+
+1405
+00:59:30.559 --> 00:59:34.559
+corrente nell'induttore, nel
+
+1406
+00:59:32.119 --> 00:59:37.760
+condensatore, ma questa corrente la si
+
+1407
+00:59:34.559 --> 00:59:40.400
+scarica tutta nell'induttore. Quindi,
+
+1408
+00:59:37.760 --> 00:59:42.520
+se io trasmetto a 27 MHz, per esempio,
+
+1409
+00:59:40.400 --> 00:59:45.000
+per 27 milioni di volti al secondo,
+
+1410
+00:59:42.520 --> 00:59:46.480
+succede che il condensatore si carica e
+
+1411
+00:59:45.000 --> 00:59:48.640
+si scarica sull'induttore.
+
+1412
+00:59:46.480 --> 00:59:50.480
+Sull'induttore si genera un campo
+
+1413
+00:59:48.640 --> 00:59:53.640
+magnetico e questo campo magnetico poi
+
+1414
+00:59:50.480 --> 00:59:55.520
+si riazzera ricaricando il condensatore.
+
+1415
+00:59:53.640 --> 00:59:58.480
+Praticamente questi due signori giocano
+
+1416
+00:59:55.520 --> 01:00:00.440
+da soli, diciamo così. Si caricano e si
+
+1417
+00:59:58.480 --> 01:00:02.240
+scaricano l'uno con l'altro, meccanismo
+
+1418
+01:00:00.440 --> 01:00:04.760
+che ha del magico, se vogliamo, da un
+
+1419
+01:00:02.240 --> 01:00:07.599
+certo punto di vista. Da fuori non si
+
+1420
+01:00:04.760 --> 01:00:11.000
+vede assolutamente nulla.
+
+1421
+01:00:07.599 --> 01:00:12.960
+Questa cosa qua faccio un'altra vi
+
+1422
+01:00:11.000 --> 01:00:14.799
+faccio vedere un'altra slide e poi vi
+
+1423
+01:00:12.960 --> 01:00:17.720
+faccio fare tutte le domande che volete.
+
+1424
+01:00:14.799 --> 01:00:19.240
+Questa cosa qua, questo meccanismo di
+
+1425
+01:00:17.720 --> 01:00:22.920
+questa caratteristica dei circuiti
+
+1426
+01:00:19.240 --> 01:00:24.920
+risonanti parallelo
+
+1427
+01:00:22.920 --> 01:00:27.480
+e qui vediamo un po' in grafico,
+
+1428
+01:00:24.920 --> 01:00:31.039
+praticamente qui è riassunto quello che
+
+1429
+01:00:27.480 --> 01:00:33.440
+vi ho spiegato punto per punto prima. Un
+
+1430
+01:00:31.039 --> 01:00:35.440
+circuito risonante parallelo blocca la
+
+1431
+01:00:33.440 --> 01:00:37.440
+corrente alternata alla sua frequenza di
+
+1432
+01:00:35.440 --> 01:00:40.680
+risonanza. La blocca perché, come si è
+
+1433
+01:00:37.440 --> 01:00:45.240
+visto prima, qua sotto l'impedenza è
+
+1434
+01:00:40.680 --> 01:00:48.400
+infinito. Questo questa proprietà,
+
+1435
+01:00:45.240 --> 01:00:50.799
+vedete che questa curva qui la corrente,
+
+1436
+01:00:48.400 --> 01:00:52.920
+questa è la corrente che scorre nel mio
+
+1437
+01:00:50.799 --> 01:00:54.720
+circuito risonante parallelo. Questa è
+
+1438
+01:00:52.920 --> 01:00:59.160
+la frequenza di risonanza. Qui la
+
+1439
+01:00:54.720 --> 01:01:01.319
+corrente zero. Vedete che questa curva,
+
+1440
+01:00:59.160 --> 01:01:04.359
+adesso uso una parola nuova, questa
+
+1441
+01:01:01.319 --> 01:01:07.400
+curva vedete che è selettiva,
+
+1442
+01:01:04.359 --> 01:01:09.520
+cioè in qualche modo ha un determinato
+
+1443
+01:01:07.400 --> 01:01:12.640
+comportamento che in questo caso è di
+
+1444
+01:01:09.520 --> 01:01:14.400
+avere un un uno zero, un nullo alla
+
+1445
+01:01:12.640 --> 01:01:17.920
+frequenza di risonanza. E questo
+
+1446
+01:01:14.400 --> 01:01:20.880
+circuito qua con questa eh proprietà che
+
+1447
+01:01:17.920 --> 01:01:22.880
+stiamo vedendo è la base delle
+
+1448
+01:01:20.880 --> 01:01:24.760
+radioaggalena. Avrete sentito tutti
+
+1449
+01:01:22.880 --> 01:01:26.680
+parlare delle vecchie radio a Galena,
+
+1450
+01:01:24.760 --> 01:01:29.359
+no? Che sono le primissime radio che
+
+1451
+01:01:26.680 --> 01:01:31.839
+alla fine del 1800 di questo tipo sono
+
+1452
+01:01:29.359 --> 01:01:34.760
+state costruite eccetera. Questo è lo
+
+1453
+01:01:31.839 --> 01:01:38.400
+schema di una tipica radio a galera. Qui
+
+1454
+01:01:34.760 --> 01:01:40.119
+c'è il nostro circuito risonante.
+
+1455
+01:01:38.400 --> 01:01:42.039
+Vedete che qua c'è l'induttore e qua c'è
+
+1456
+01:01:40.119 --> 01:01:44.000
+il condensatore. Qua il condensatore è
+
+1457
+01:01:42.039 --> 01:01:46.079
+fatto variabile, vi ricordate? si era
+
+1458
+01:01:44.000 --> 01:01:49.520
+detto che i condensatori possono essere
+
+1459
+01:01:46.079 --> 01:01:51.599
+fatti eh variabili, variando la loro
+
+1460
+01:01:49.520 --> 01:01:54.440
+capacità, muovendo il rotore del
+
+1461
+01:01:51.599 --> 01:01:56.960
+condensatore. Variando il condensatore è
+
+1462
+01:01:54.440 --> 01:01:59.079
+chiaro che sposto la sintonia, cioè
+
+1463
+01:01:56.960 --> 01:02:01.599
+sposto la frequenza di risonanza del mio
+
+1464
+01:01:59.079 --> 01:02:03.559
+circuito risonante. Le cose che stanno
+
+1465
+01:02:01.599 --> 01:02:05.520
+qua dopo le vedremo un po' più in
+
+1466
+01:02:03.559 --> 01:02:08.160
+dettaglio mercoledì prossimo. Questi
+
+1467
+01:02:05.520 --> 01:02:11.400
+sono un circuito chiamato rivelatore e
+
+1468
+01:02:08.160 --> 01:02:14.279
+fa sì che dal segnale radio che mi
+
+1469
+01:02:11.400 --> 01:02:16.440
+arriva dall'antenna, questo circuito
+
+1470
+01:02:14.279 --> 01:02:19.359
+rivelatore che è fatto da un diodo o da
+
+1471
+01:02:16.440 --> 01:02:22.000
+un altro condensatore mi estrae il
+
+1472
+01:02:19.359 --> 01:02:24.279
+segnale utile, la musica per esempio che
+
+1473
+01:02:22.000 --> 01:02:26.119
+poi mi ascolto in una cuffia. Questa è
+
+1474
+01:02:24.279 --> 01:02:27.319
+una foto delle tante radiogalena che si
+
+1475
+01:02:26.119 --> 01:02:29.039
+trovano in rete. Questo è il
+
+1476
+01:02:27.319 --> 01:02:31.359
+condensatore variabile, forse lo
+
+1477
+01:02:29.039 --> 01:02:35.200
+riconoscete, no? ricordando appunto il
+
+1478
+01:02:31.359 --> 01:02:37.640
+mercoledì scorso, questo è l'induttore,
+
+1479
+01:02:35.200 --> 01:02:39.960
+qui dentro c'è in qualche modo il diodo
+
+1480
+01:02:37.640 --> 01:02:41.720
+e questa è la cuffietta che serve per
+
+1481
+01:02:39.960 --> 01:02:43.640
+ascoltare la radio. Cosa allora? Cosa
+
+1482
+01:02:41.720 --> 01:02:45.520
+succede in questa radio? Mettiamoci,
+
+1483
+01:02:43.640 --> 01:02:48.079
+partiamo dall'antenna,
+
+1484
+01:02:45.520 --> 01:02:50.200
+immaginiamo che questa sia la mia banda
+
+1485
+01:02:48.079 --> 01:02:52.520
+di frequenza su cui lavoro. Qui c'è il
+
+1486
+01:02:50.200 --> 01:02:55.480
+segnale che voglio ascoltare e qui ci
+
+1487
+01:02:52.520 --> 01:02:58.680
+sono altri due segnali, uno e 2. Questo
+
+1488
+01:02:55.480 --> 01:03:01.200
+segnale ha una frequenza di 1000.
+
+1489
+01:02:58.680 --> 01:03:04.240
+Mettiamoci in un medie 1000 kHz. Questo
+
+1490
+01:03:01.200 --> 01:03:08.000
+è a 1200
+
+1491
+01:03:04.240 --> 01:03:08.000
+e questo è a 800.
+
+1492
+01:03:12.039 --> 01:03:17.520
+Allora, cosa succederà a questi segnali
+
+1493
+01:03:14.200 --> 01:03:21.400
+a frequenze di 800, 1000 e 1200? Me lo
+
+1494
+01:03:17.520 --> 01:03:25.920
+dice questa figurina che abbiamo qua. A
+
+1495
+01:03:21.400 --> 01:03:25.920
+1000 la mia frequenza di risonanza
+
+1496
+01:03:27.880 --> 01:03:32.279
+la corrente che attraverso il mio
+
+1497
+01:03:29.880 --> 01:03:34.039
+circuito risonante è pari a zero. Cosa
+
+1498
+01:03:32.279 --> 01:03:35.839
+vuol dire? Che effetto ha il fatto che
+
+1499
+01:03:34.039 --> 01:03:38.119
+sia pari a zero? Vuol dire che il mio
+
+1500
+01:03:35.839 --> 01:03:40.520
+segnale raggiunge tutto lo stadio
+
+1501
+01:03:38.119 --> 01:03:43.680
+successivo, cioè il rivelatore. Invece a
+
+1502
+01:03:40.520 --> 01:03:49.160
+800 che sono qua
+
+1503
+01:03:43.680 --> 01:03:51.760
+e a 1200 che sono qua, diciamo qua,
+
+1504
+01:03:49.160 --> 01:03:53.799
+scorre nel mio circuito risonante molta
+
+1505
+01:03:51.760 --> 01:03:56.680
+corrente, come vedete qui. Allora, cosa
+
+1506
+01:03:53.799 --> 01:03:59.640
+succede nella mia mitica radioggalena?
+
+1507
+01:03:56.680 --> 01:04:01.760
+Succede che il segnale 800,
+
+1508
+01:03:59.640 --> 01:04:03.760
+una buona parte del mio segnale 800
+
+1509
+01:04:01.760 --> 01:04:05.960
+ricevuto dall'antenna
+
+1510
+01:04:03.760 --> 01:04:08.960
+attraversa il circuito risonante e viene
+
+1511
+01:04:05.960 --> 01:04:11.640
+scaricato a massa. Lo stesso succede con
+
+1512
+01:04:08.960 --> 01:04:13.720
+una buona parte del mio segnale a 1200.
+
+1513
+01:04:11.640 --> 01:04:18.160
+invece il mio segnale a 1000, poiché
+
+1514
+01:04:13.720 --> 01:04:20.599
+1000 è la frequenza di risonan
+
+1515
+01:04:18.160 --> 01:04:23.359
+alla frequenza di risonanza tutto questo
+
+1516
+01:04:20.599 --> 01:04:26.720
+circuito risonante qua, elimino gli
+
+1517
+01:04:23.359 --> 01:04:29.359
+scarabocchi e ve lo disegno meglio.
+
+1518
+01:04:26.720 --> 01:04:32.760
+Tutto questo circuito risonante qua è
+
+1519
+01:04:29.359 --> 01:04:34.880
+come se non esistesse. Qui ci mettiamo
+
+1520
+01:04:32.760 --> 01:04:36.440
+una croce, un taglio e qui ci mettiamo
+
+1521
+01:04:34.880 --> 01:04:39.119
+un altro taglio. È come se questi
+
+1522
+01:04:36.440 --> 01:04:41.400
+componenti non esistessero perché hanno
+
+1523
+01:04:39.119 --> 01:04:43.440
+un'impedenza infinita. Allora, tutto il
+
+1524
+01:04:41.400 --> 01:04:45.279
+segnale dell'antenna raggiunge il mio
+
+1525
+01:04:43.440 --> 01:04:47.839
+rivelatore, il mio diodo e me lo posso
+
+1526
+01:04:45.279 --> 01:04:50.240
+ascoltare bello bello in cuffia. Mentre
+
+1527
+01:04:47.839 --> 01:04:52.319
+per effetto di questo circuito risonante
+
+1528
+01:04:50.240 --> 01:04:54.799
+la mia radio è diventata selettiva, cioè
+
+1529
+01:04:52.319 --> 01:04:57.279
+i segnali a 800 e a 100 che non volevo
+
+1530
+01:04:54.799 --> 01:05:00.480
+ascoltare. Il mio circuito risonante me
+
+1531
+01:04:57.279 --> 01:05:03.279
+li ha bellamente scaricati a massa e
+
+1532
+01:05:00.480 --> 01:05:06.200
+quindi non sono stati rivelati e non li
+
+1533
+01:05:03.279 --> 01:05:08.559
+ascolto in cuffia. Questa è la tipica
+
+1534
+01:05:06.200 --> 01:05:10.640
+applicazione del circuito risonante. La
+
+1535
+01:05:08.559 --> 01:05:12.520
+la selettività in tutte le radio che in
+
+1536
+01:05:10.640 --> 01:05:14.880
+qualche modo abbiamo viene ottenute con
+
+1537
+01:05:12.520 --> 01:05:18.520
+meccanismi di questo genere tramite
+
+1538
+01:05:14.880 --> 01:05:20.920
+circuiti risonanti LC, magari fatti in
+
+1539
+01:05:18.520 --> 01:05:22.680
+versioni anche diverse, strane, molto a
+
+1540
+01:05:20.920 --> 01:05:26.760
+volte anche folcloresche, però il
+
+1541
+01:05:22.680 --> 01:05:28.359
+meccanismo di base è questo. Quindi la
+
+1542
+01:05:26.760 --> 01:05:32.440
+risonanza,
+
+1543
+01:05:28.359 --> 01:05:32.440
+scusate, tolgo la condivisione.
+
+1544
+01:05:32.760 --> 01:05:39.039
+La risonanza è il principio di base che
+
+1545
+01:05:35.520 --> 01:05:41.440
+rende le radio selettive, ok? Sono in
+
+1546
+01:05:39.039 --> 01:05:44.079
+grado di sintonizzare un circuito
+
+1547
+01:05:41.440 --> 01:05:45.799
+risonante su una data frequenza, quella
+
+1548
+01:05:44.079 --> 01:05:49.480
+della sua frequenza di risonanza, che
+
+1549
+01:05:45.799 --> 01:05:51.839
+vale 1 / 2 pi LC, come abbiamo visto
+
+1550
+01:05:49.480 --> 01:05:54.920
+nella in quella formula qualche minuto
+
+1551
+01:05:51.839 --> 01:05:56.680
+fa. E sfruttando questa proprietà, quel
+
+1552
+01:05:54.920 --> 01:05:58.760
+circuito mi rende la mia radio
+
+1553
+01:05:56.680 --> 01:06:01.760
+selettiva. E qui per ora mi fermo a voi
+
+1554
+01:05:58.760 --> 01:06:03.400
+per domande.
+
+1555
+01:06:01.760 --> 01:06:06.559
+>> Finalmente fai il passaggio metà e
+
+1556
+01:06:03.400 --> 01:06:09.240
+faietto fise perché fise non te lo fanno
+
+1557
+01:06:06.559 --> 01:06:12.279
+subito. Se questa P de maggio va a cosa
+
+1558
+01:06:09.240 --> 01:06:13.640
+si si rischia di fare come la Margherita
+
+1559
+01:06:12.279 --> 01:06:16.720
+e non l'hanno fatta partire perché non
+
+1560
+01:06:13.640 --> 01:06:17.440
+c'avevi detto Fise. Eh, capito?
+
+1561
+01:06:16.720 --> 01:06:19.359
+>> Sì.
+
+1562
+01:06:17.440 --> 01:06:22.359
+>> No, è le 15 giorni più che te lo dio
+
+1563
+01:06:19.359 --> 01:06:22.359
+Ale.
+
+1564
+01:06:22.640 --> 01:06:26.279
+>> Allora, quello è un fuori programma.
+
+1565
+01:06:24.200 --> 01:06:27.160
+Altre domande? E mi sa che non era per
+
+1566
+01:06:26.279 --> 01:06:27.920
+noi.
+
+1567
+01:06:27.160 --> 01:06:30.520
+>> No, no, no.
+
+1568
+01:06:27.920 --> 01:06:32.760
+>> Volevo chiedere, ma è un circuito di
+
+1569
+01:06:30.520 --> 01:06:34.200
+risonanza fa da filtro?
+
+1570
+01:06:32.760 --> 01:06:34.720
+>> Scusa, ripeti.
+
+1571
+01:06:34.200 --> 01:06:38.599
+>> Ripeti.
+
+1572
+01:06:34.720 --> 01:06:40.079
+>> Il circuito di il circuito risonante di
+
+1573
+01:06:38.599 --> 01:06:42.760
+fatto è un filtro.
+
+1574
+01:06:40.079 --> 01:06:45.440
+>> Sì, è un filtro passapanda. Bravo.
+
+1575
+01:06:42.760 --> 01:06:47.079
+>> Eh eh. E qual è la cioè qual è la
+
+1576
+01:06:45.440 --> 01:06:49.520
+differenza?
+
+1577
+01:06:47.079 --> 01:06:52.240
+è un filtro passapanda incorporato
+
+1578
+01:06:49.520 --> 01:06:53.799
+nell'apparecchio, diciamo. Sì, esatto. È
+
+1579
+01:06:52.240 --> 01:06:56.520
+un filtro passapanda di un tipo
+
+1580
+01:06:53.799 --> 01:06:58.319
+particolare perché se pensiamo ai filtri
+
+1581
+01:06:56.520 --> 01:07:01.400
+passabanda, per esempio, degli impianti
+
+1582
+01:06:58.319 --> 01:07:04.119
+stereo, devono far passare un'intera
+
+1583
+01:07:01.400 --> 01:07:07.119
+banda, quindi per esempio da 50 Hz a
+
+1584
+01:07:04.119 --> 01:07:08.680
+15.000 Hz e poi lì dopo 15.000, ad
+
+1585
+01:07:07.119 --> 01:07:11.400
+esempio, tagliare, quindi passa una
+
+1586
+01:07:08.680 --> 01:07:13.440
+banda molto larga. Nelle radio invece si
+
+1587
+01:07:11.400 --> 01:07:15.200
+vuole avere un comportamento selettivo,
+
+1588
+01:07:13.440 --> 01:07:17.039
+la banda di una radio è proprio un
+
+1589
+01:07:15.200 --> 01:07:20.079
+singolo canale, quindi è una banda molto
+
+1590
+01:07:17.039 --> 01:07:22.559
+stretta. Capito? I filtri passapanda, i
+
+1591
+01:07:20.079 --> 01:07:24.160
+filtri
+
+1592
+01:07:22.559 --> 01:07:26.559
+passa alto e passa basso che abbiamo
+
+1593
+01:07:24.160 --> 01:07:28.920
+visto all'inizio erano larghi e lo
+
+1594
+01:07:26.559 --> 01:07:31.520
+stesso così i filtri passapanda perché
+
+1595
+01:07:28.920 --> 01:07:34.119
+erano basati solamente perché non erano
+
+1596
+01:07:31.520 --> 01:07:35.720
+basati sulla reattanza e quindi si
+
+1597
+01:07:34.119 --> 01:07:37.960
+poteva parlare di una vera banda che
+
+1598
+01:07:35.720 --> 01:07:40.720
+poteva essere, cioè la banda passante di
+
+1599
+01:07:37.960 --> 01:07:43.480
+quei filtri lì può essere anche decine
+
+1600
+01:07:40.720 --> 01:07:46.599
+di MHz. Invece quando si parla di filtri
+
+1601
+01:07:43.480 --> 01:07:48.720
+di circuiti risonanti abbiamo bande
+
+1602
+01:07:46.599 --> 01:07:50.799
+molto strette che sono quelle proprio
+
+1603
+01:07:48.720 --> 01:07:53.359
+specifiche per i filtri di canale come
+
+1604
+01:07:50.799 --> 01:07:55.480
+dicevo prima.
+
+1605
+01:07:53.359 --> 01:07:58.000
+>> Quindi lo possiamo definire un filtro
+
+1606
+01:07:55.480 --> 01:07:58.200
+passabanda selettivo, diciamo. Molto
+
+1607
+01:07:58.000 --> 01:08:00.599
+selettivo.
+
+1608
+01:07:58.200 --> 01:08:04.920
+>> Esattamente. Sì, sì, sì. Molto
+
+1609
+01:08:00.599 --> 01:08:07.839
+selettivo. Molto molto selettivo.
+
+1610
+01:08:04.920 --> 01:08:09.839
+>> Altre domande?
+
+1611
+01:08:07.839 --> 01:08:11.440
+Vado avanti,
+
+1612
+01:08:09.839 --> 01:08:15.000
+se avete altre domande per ora ve le
+
+1613
+01:08:11.440 --> 01:08:17.000
+tenete e rivediamo gli stessi
+
+1614
+01:08:15.000 --> 01:08:19.199
+meccanismi. Sono di nuovo in
+
+1615
+01:08:17.000 --> 01:08:20.480
+condivisione. Ok, si vede il video,
+
+1616
+01:08:19.199 --> 01:08:21.799
+vero?
+
+1617
+01:08:20.480 --> 01:08:24.799
+Sì, Paolo.
+
+1618
+01:08:21.799 --> 01:08:27.279
+>> Ok, proseguo. Allora, vediamo lo stesso
+
+1619
+01:08:24.799 --> 01:08:29.159
+tipo di ragionamento questa volta,
+
+1620
+01:08:27.279 --> 01:08:30.719
+scusate.
+
+1621
+01:08:29.159 --> 01:08:32.440
+Allora, abbiamo fatto tutta questa bella
+
+1622
+01:08:30.719 --> 01:08:34.120
+chiacchierata per i circuiti risonanti
+
+1623
+01:08:32.440 --> 01:08:35.960
+parallelo.
+
+1624
+01:08:34.120 --> 01:08:38.159
+Si è visto che alla frequenza di
+
+1625
+01:08:35.960 --> 01:08:41.319
+risonanza un circuito risonante
+
+1626
+01:08:38.159 --> 01:08:43.319
+parallelo non si fa attraversare dalla
+
+1627
+01:08:41.319 --> 01:08:46.440
+corrente.
+
+1628
+01:08:43.319 --> 01:08:48.239
+I = 0. Vedete la radioagalena? E adesso
+
+1629
+01:08:46.440 --> 01:08:51.440
+vediamo cosa succede nei circuiti
+
+1630
+01:08:48.239 --> 01:08:54.719
+risonanti serie. Praticamente il tipo di
+
+1631
+01:08:51.440 --> 01:08:57.480
+trucchetto è lo stesso, eh, però
+
+1632
+01:08:54.719 --> 01:08:59.960
+chiaramente il circuito risonante serie
+
+1633
+01:08:57.480 --> 01:09:02.759
+parte da una premessa diversa, cioè che
+
+1634
+01:08:59.960 --> 01:09:04.640
+in una serie nel condensatore,
+
+1635
+01:09:02.759 --> 01:09:06.839
+nell'induttore scorre la stessa
+
+1636
+01:09:04.640 --> 01:09:08.359
+corrente, ovviamente, no, lo vedete in
+
+1637
+01:09:06.839 --> 01:09:10.359
+questo circuito. È chiaro che la
+
+1638
+01:09:08.359 --> 01:09:12.239
+corrente che entra in A poi a un certo
+
+1639
+01:09:10.359 --> 01:09:14.880
+punto dovrebbe uscire da B, quindi la
+
+1640
+01:09:12.239 --> 01:09:17.239
+corrente è la stessa. Allora, anche qui
+
+1641
+01:09:14.880 --> 01:09:19.279
+alla frequenza di risonanza la reattezza
+
+1642
+01:09:17.239 --> 01:09:21.000
+capacitiva e induttiva sono uguali. E
+
+1643
+01:09:19.279 --> 01:09:24.120
+questo l'abbiamo già capito, no? È la
+
+1644
+01:09:21.000 --> 01:09:26.719
+condizione di risonanza XL = XC. Di
+
+1645
+01:09:24.120 --> 01:09:28.359
+conseguenza, sempre applicazione delle
+
+1646
+01:09:26.719 --> 01:09:31.440
+legge di ohm, alla frequenza di
+
+1647
+01:09:28.359 --> 01:09:34.679
+risonanza, la tensione sul condensatore
+
+1648
+01:09:31.440 --> 01:09:39.799
+VC e la tensione sull'induttore sono
+
+1649
+01:09:34.679 --> 01:09:44.560
+uguali. Legge di OM, no? V = R * I.
+
+1650
+01:09:39.799 --> 01:09:46.480
+Ro uguali, è scritto qua, XL = XC. I è
+
+1651
+01:09:44.560 --> 01:09:49.480
+uguale perché sono in serie, quindi
+
+1652
+01:09:46.480 --> 01:09:53.520
+stessa corrente, per cui eh abbiamo due
+
+1653
+01:09:49.480 --> 01:09:55.320
+tensioni uguali VC e VL.
+
+1654
+01:09:53.520 --> 01:09:56.640
+E qui succede una cosa simile a quella
+
+1655
+01:09:55.320 --> 01:09:58.440
+che abbiamo visto prima. Allora,
+
+1656
+01:09:56.640 --> 01:10:00.000
+rispetto alla corrente questa volta
+
+1657
+01:09:58.440 --> 01:10:01.800
+dobbiamo prendere la corrente di
+
+1658
+01:10:00.000 --> 01:10:04.120
+riferimento perché essendo un circuito
+
+1659
+01:10:01.800 --> 01:10:06.719
+risonante serie è la corrente a essere
+
+1660
+01:10:04.120 --> 01:10:09.360
+comune, no? fra induttore e condensatore
+
+1661
+01:10:06.719 --> 01:10:12.480
+rispetto alla corrente la tensione
+
+1662
+01:10:09.360 --> 01:10:14.840
+nell'induttore è sfasata di 90° anticipo
+
+1663
+01:10:12.480 --> 01:10:18.040
+e quella del condensatore la tensione è
+
+1664
+01:10:14.840 --> 01:10:20.440
+sfasata di 90° in ritardo.
+
+1665
+01:10:18.040 --> 01:10:22.840
+Anche qui che succede la frequenza di
+
+1666
+01:10:20.440 --> 01:10:25.600
+risonanza? La tensione VL e VC sono
+
+1667
+01:10:22.840 --> 01:10:27.520
+uguali, sono in opposizione di fase e
+
+1668
+01:10:25.600 --> 01:10:30.040
+quindi si annullano l'una con l'altra.
+
+1669
+01:10:27.520 --> 01:10:32.640
+Per cui se andiamo a misurare,
+
+1670
+01:10:30.040 --> 01:10:35.400
+immaginiamo di prendere uno strumento
+
+1671
+01:10:32.640 --> 01:10:37.159
+che misura le tensioni, un voltmetro,
+
+1672
+01:10:35.400 --> 01:10:39.400
+immaginiamo di misurare la tensione che
+
+1673
+01:10:37.159 --> 01:10:43.560
+c'è fra questo punto qui e questo punto
+
+1674
+01:10:39.400 --> 01:10:47.320
+qua, fra il punto A e il punto B.
+
+1675
+01:10:43.560 --> 01:10:50.920
+1 e 2. Alla frequenza di risonanza
+
+1676
+01:10:47.320 --> 01:10:53.480
+questa tensione vale zero. Sarebbe come
+
+1677
+01:10:50.920 --> 01:10:56.159
+se io parlando della corrente continua,
+
+1678
+01:10:53.480 --> 01:10:58.600
+avessi messo due batterie non in serie
+
+1679
+01:10:56.159 --> 01:11:00.280
+giusta fra loro, ma in controfase, no?
+
+1680
+01:10:58.600 --> 01:11:02.760
+Immaginate di prendere due batterie da
+
+1681
+01:11:00.280 --> 01:11:04.600
+un volta e mezzo, invece di metterle nel
+
+1682
+01:11:02.760 --> 01:11:07.600
+modo giusto, positivo, negativo, per
+
+1683
+01:11:04.600 --> 01:11:09.920
+fare 1,5 + 1,5 che viene 3, le ne
+
+1684
+01:11:07.600 --> 01:11:13.640
+mettete una al contrario, vi viene fuori
+
+1685
+01:11:09.920 --> 01:11:15.600
+1,5 - 1,5 0. Qui succede esattamente la
+
+1686
+01:11:13.640 --> 01:11:17.520
+stessa cosa. Queste tensioni sono in
+
+1687
+01:11:15.600 --> 01:11:20.440
+controfase, quindi si annullano una con
+
+1688
+01:11:17.520 --> 01:11:22.960
+l'altra, ovvero
+
+1689
+01:11:20.440 --> 01:11:25.199
+eh fra il punto A
+
+1690
+01:11:22.960 --> 01:11:28.920
+e il punto B
+
+1691
+01:11:25.199 --> 01:11:32.800
+è come se ci fosse un corto circuito.
+
+1692
+01:11:28.920 --> 01:11:34.800
+Impedenza uguale 0. Quindi, se lo
+
+1693
+01:11:32.800 --> 01:11:36.520
+vediamo in termini di circuito risonanti
+
+1694
+01:11:34.800 --> 01:11:39.480
+che abbiamo detto prima, questo è un
+
+1695
+01:11:36.520 --> 01:11:41.639
+circuito notch perfetto perché alla sua
+
+1696
+01:11:39.480 --> 01:11:44.320
+frequenza di risonanza
+
+1697
+01:11:41.639 --> 01:11:46.679
+immaginiamo che
+
+1698
+01:11:44.320 --> 01:11:49.040
+aspettate, ecco qua. Immaginiamo che qua
+
+1699
+01:11:46.679 --> 01:11:52.719
+sotto al punto B
+
+1700
+01:11:49.040 --> 01:11:55.120
+eh massa, d'accordo? Ci sia
+
+1701
+01:11:52.719 --> 01:11:58.760
+eh la la massa della radio su su cui
+
+1702
+01:11:55.120 --> 01:12:02.760
+voglio scaricare i segnali. Se io qui ho
+
+1703
+01:11:58.760 --> 01:12:02.760
+Se io qui avessi un'antenna
+
+1704
+01:12:02.800 --> 01:12:06.040
+alla frequenza di risonanza del
+
+1705
+01:12:04.239 --> 01:12:09.320
+circuito, tutto quello che arriva
+
+1706
+01:12:06.040 --> 01:12:12.679
+dall'antenna, patapunfete mi finisce a
+
+1707
+01:12:09.320 --> 01:12:14.800
+terra perché alla frequenza di risonanza
+
+1708
+01:12:12.679 --> 01:12:17.480
+un circuito risonante serie è un corto
+
+1709
+01:12:14.800 --> 01:12:20.560
+circuito e lo vediamo qui. Circuito
+
+1710
+01:12:17.480 --> 01:12:22.719
+risonante serie fa passare la corrente
+
+1711
+01:12:20.560 --> 01:12:26.400
+alternata alla frequenza di risonanza.
+
+1712
+01:12:22.719 --> 01:12:31.040
+alla frequenza di risonanza
+
+1713
+01:12:26.400 --> 01:12:33.080
+eh la sua impedenza è pari a zero e
+
+1714
+01:12:31.040 --> 01:12:34.679
+quindi la corrente è massima. Vedete che
+
+1715
+01:12:33.080 --> 01:12:36.760
+anche qui c'è una bellissima curva di
+
+1716
+01:12:34.679 --> 01:12:38.400
+risonanza.
+
+1717
+01:12:36.760 --> 01:12:39.840
+In questo caso è sulla corrente, quella
+
+1718
+01:12:38.400 --> 01:12:44.080
+che avevamo visto prima era sulla
+
+1719
+01:12:39.840 --> 01:12:47.600
+tensione. Alla frequenza di risonanza la
+
+1720
+01:12:44.080 --> 01:12:49.560
+corrente è massima.
+
+1721
+01:12:47.600 --> 01:12:51.440
+Quindi diciamo che i principi di
+
+1722
+01:12:49.560 --> 01:12:53.960
+funzionamento del circuito risonante
+
+1723
+01:12:51.440 --> 01:12:57.360
+serie e parallelo di fatto sono uguali,
+
+1724
+01:12:53.960 --> 01:12:59.080
+no? Si basano sul fatto che diciamo e
+
+1725
+01:12:57.360 --> 01:13:00.760
+alla frequenza di risonanza o la
+
+1726
+01:12:59.080 --> 01:13:03.159
+tensione o la corrente sui due
+
+1727
+01:13:00.760 --> 01:13:05.679
+componenti sono uguali ma di fase
+
+1728
+01:13:03.159 --> 01:13:10.000
+opposta e quindi si annullano. Il
+
+1729
+01:13:05.679 --> 01:13:11.800
+circuito risonante parallelo
+
+1730
+01:13:10.000 --> 01:13:13.719
+usa questa proprietà per fare una
+
+1731
+01:13:11.800 --> 01:13:17.000
+selettività in situazioni stile
+
+1732
+01:13:13.719 --> 01:13:19.639
+radioggalena. il circuito risonante
+
+1733
+01:13:17.000 --> 01:13:21.840
+serie e usa la sua selettività, ad
+
+1734
+01:13:19.639 --> 01:13:24.360
+esempio, se dobbiamo fare dei notch di
+
+1735
+01:13:21.840 --> 01:13:27.320
+banda, dei notch specifici su una
+
+1736
+01:13:24.360 --> 01:13:28.760
+frequenza eh definita e diciamo con con
+
+1737
+01:13:27.320 --> 01:13:33.719
+questo circuito qua vengono degli
+
+1738
+01:13:28.760 --> 01:13:36.120
+oggetti praticamente perfetti. E
+
+1739
+01:13:33.719 --> 01:13:38.120
+e qui per ora mi fermo. Mh, c'è da fare
+
+1740
+01:13:36.120 --> 01:13:40.560
+un'ultima piccola chiosa sui circuiti
+
+1741
+01:13:38.120 --> 01:13:42.920
+risonanti, ma vorrei sapere, intanto
+
+1742
+01:13:40.560 --> 01:13:45.520
+tolgo la condivisione, vorrei sapere se
+
+1743
+01:13:42.920 --> 01:13:49.040
+se ci sono domande. È chiaro come come
+
+1744
+01:13:45.520 --> 01:13:49.040
+funziona il meccanismo?
+
+1745
+01:13:54.000 --> 01:13:57.639
+>> Sì, abbastanza.
+
+1746
+01:13:55.760 --> 01:13:59.719
+>> Va bene, grazie. Allora, vi metto un
+
+1747
+01:13:57.639 --> 01:14:02.719
+altro po' di carne al fuoco, vi dico
+
+1748
+01:13:59.719 --> 01:14:07.440
+un'ultima cosa
+
+1749
+01:14:02.719 --> 01:14:07.440
+su sul tema dei circuiti risonanti.
+
+1750
+01:14:09.840 --> 01:14:16.679
+Ed eccoci qua. Allora, finora abbiamo
+
+1751
+01:14:13.960 --> 01:14:18.560
+parlato di circuiti risonanti ideali,
+
+1752
+01:14:16.679 --> 01:14:21.360
+cioè con dei condensatori perfetti e
+
+1753
+01:14:18.560 --> 01:14:25.360
+degli induttori perfetti, però i
+
+1754
+01:14:21.360 --> 01:14:25.360
+circuiti reali
+
+1755
+01:14:26.239 --> 01:14:31.159
+e nei circuiti reali bisogna tener conto
+
+1756
+01:14:29.120 --> 01:14:33.280
+col mondo reale, quindi col fatto che i
+
+1757
+01:14:31.159 --> 01:14:37.239
+condensatori e soprattutto gli induttori
+
+1758
+01:14:33.280 --> 01:14:39.679
+non sono perfetti e diciamo introducono
+
+1759
+01:14:37.239 --> 01:14:41.320
+una componente resistiva che di fatto è
+
+1760
+01:14:39.679 --> 01:14:43.679
+una perdita di energia, come leggete
+
+1761
+01:14:41.320 --> 01:14:46.760
+Vedete qua sopra, nel caso di un
+
+1762
+01:14:43.679 --> 01:14:48.679
+circuito risonante parallelo,
+
+1763
+01:14:46.760 --> 01:14:51.080
+vedete che qui abbiamo, no, LC in
+
+1764
+01:14:48.679 --> 01:14:53.480
+parallelo, questa perdita di energia
+
+1765
+01:14:51.080 --> 01:14:56.159
+viene simboleggiata da questa resistenza
+
+1766
+01:14:53.480 --> 01:14:58.080
+qua, che non è detto che sia una
+
+1767
+01:14:56.159 --> 01:14:59.719
+resistenza vera inserita nel circuito,
+
+1768
+01:14:58.080 --> 01:15:02.280
+no? Questa resistenza proprio
+
+1769
+01:14:59.719 --> 01:15:04.520
+simboleggia il fatto che il condensatore
+
+1770
+01:15:02.280 --> 01:15:07.480
+soprattutto l'induttore perde perde
+
+1771
+01:15:04.520 --> 01:15:09.800
+energia nel suo normale funzionamento.
+
+1772
+01:15:07.480 --> 01:15:13.080
+Di conseguenza, quando sarò alla
+
+1773
+01:15:09.800 --> 01:15:15.040
+risonanza, non avrò più eh un'impedenza
+
+1774
+01:15:13.080 --> 01:15:17.000
+infinita fra i due estremi, ma un po' di
+
+1775
+01:15:15.040 --> 01:15:19.800
+corrente comunque, anche se poca mi
+
+1776
+01:15:17.000 --> 01:15:21.719
+scorre per questa per questa resistenza
+
+1777
+01:15:19.800 --> 01:15:23.560
+e mi succede qualcosa di simile anche
+
+1778
+01:15:21.719 --> 01:15:26.080
+nel circuito risonante parallelo. Questi
+
+1779
+01:15:23.560 --> 01:15:28.239
+sono i componenti ideali, però anche
+
+1780
+01:15:26.080 --> 01:15:31.560
+loro hanno delle perdite del circuito
+
+1781
+01:15:28.239 --> 01:15:33.440
+risonante serie. Queste perdite vengono
+
+1782
+01:15:31.560 --> 01:15:35.960
+in qualche modo schematizzate con una
+
+1783
+01:15:33.440 --> 01:15:38.159
+resistenza serie. Quindi quando sono
+
+1784
+01:15:35.960 --> 01:15:41.400
+alla risonanza
+
+1785
+01:15:38.159 --> 01:15:43.800
+l'impedenza non è zero, come nel caso
+
+1786
+01:15:41.400 --> 01:15:47.320
+ideale, ma c'è questa piccola resistenza
+
+1787
+01:15:43.800 --> 01:15:47.320
+serie che rimane
+
+1788
+01:15:48.040 --> 01:15:53.239
+e in un circuito
+
+1789
+01:15:50.960 --> 01:15:54.800
+vicino all'ottimale,
+
+1790
+01:15:53.239 --> 01:15:56.520
+questa è una cosa da tenere a mente
+
+1791
+01:15:54.800 --> 01:15:59.480
+perché su questo ci possono essere delle
+
+1792
+01:15:56.520 --> 01:16:02.080
+domande. in un circuito ottimale questa
+
+1793
+01:15:59.480 --> 01:16:04.080
+resistenza del parallelo deve essere
+
+1794
+01:16:02.080 --> 01:16:06.280
+molto alta e questa resistenza della
+
+1795
+01:16:04.080 --> 01:16:08.080
+serie deve essere molto bassa. Cioè la
+
+1796
+01:16:06.280 --> 01:16:11.400
+domanda potrebbe essere in un circuito
+
+1797
+01:16:08.080 --> 01:16:13.320
+risonante LC serie la resistenza di
+
+1798
+01:16:11.400 --> 01:16:15.800
+perdita deve essere bassa o alta?
+
+1799
+01:16:13.320 --> 01:16:18.600
+Allora, qui bisogna ricordarsi che la
+
+1800
+01:16:15.800 --> 01:16:22.080
+serie, quindi questo circuito che sto su
+
+1801
+01:16:18.600 --> 01:16:24.000
+cui ho il cursore ora, questo alla
+
+1802
+01:16:22.080 --> 01:16:25.760
+risonanza deve essere un corto circuito,
+
+1803
+01:16:24.000 --> 01:16:28.239
+quindi il circuito è tanto migliore
+
+1804
+01:16:25.760 --> 01:16:29.880
+quanto più questa resistenza è bassa. Un
+
+1805
+01:16:28.239 --> 01:16:31.360
+circuito perfetto, in un circuito
+
+1806
+01:16:29.880 --> 01:16:35.040
+perfetto questa resistenza non ci
+
+1807
+01:16:31.360 --> 01:16:36.679
+sarebbe. Invece nel parallelo
+
+1808
+01:16:35.040 --> 01:16:39.239
+e
+
+1809
+01:16:36.679 --> 01:16:42.880
+eh un buon circuito ha una resistenza di
+
+1810
+01:16:39.239 --> 01:16:45.199
+tipo alta. Più è alta questa resistenza,
+
+1811
+01:16:42.880 --> 01:16:48.520
+se fosse altissima non non sarebbe unin
+
+1812
+01:16:45.199 --> 01:16:53.719
+influente nel parallelo perché
+
+1813
+01:16:48.520 --> 01:16:57.440
+resistenza alta perturba meno il eh il
+
+1814
+01:16:53.719 --> 01:16:59.840
+circuito risonante, diciamo, ottimale.
+
+1815
+01:16:57.440 --> 01:17:02.400
+Questa situazione si esprime con un
+
+1816
+01:16:59.840 --> 01:17:06.320
+parametro che si chiama Q, come vedete
+
+1817
+01:17:02.400 --> 01:17:08.920
+quassù, che è il fattore di qualità,
+
+1818
+01:17:06.320 --> 01:17:12.360
+diciamo, dei circuiti risonanti. Questo
+
+1819
+01:17:08.920 --> 01:17:14.600
+Q indica di fatto quanto è stretta la
+
+1820
+01:17:12.360 --> 01:17:18.280
+curva di risonanza di un circuito
+
+1821
+01:17:14.600 --> 01:17:21.040
+risonante. In effetti Q poi eh si
+
+1822
+01:17:18.280 --> 01:17:22.960
+dimostra, ora noi non lo dimostriamo
+
+1823
+01:17:21.040 --> 01:17:25.679
+perché fortunatamente non fa parte del
+
+1824
+01:17:22.960 --> 01:17:28.600
+programma di esame, che il fattore di
+
+1825
+01:17:25.679 --> 01:17:31.000
+merito di un circuito risonante è pari
+
+1826
+01:17:28.600 --> 01:17:33.920
+al rapporto fra la frequenza del
+
+1827
+01:17:31.000 --> 01:17:37.920
+circuito risonante e la larghezza di
+
+1828
+01:17:33.920 --> 01:17:39.960
+banda fra i punti a metà potenza.
+
+1829
+01:17:37.920 --> 01:17:43.639
+Quindi è pari il rapporto fra questa
+
+1830
+01:17:39.960 --> 01:17:46.480
+frequenza e questa larghezza di banda.
+
+1831
+01:17:43.639 --> 01:17:49.000
+Allora, succede una cosa di di questo
+
+1832
+01:17:46.480 --> 01:17:52.840
+tipo. Questa è una curva, diciamo,
+
+1833
+01:17:49.000 --> 01:17:56.960
+reale. Succede che un circuito risonante
+
+1834
+01:17:52.840 --> 01:17:59.600
+eh è tanto più selettivo quanto più alto
+
+1835
+01:17:56.960 --> 01:18:01.520
+il suo fattore di qualità.
+
+1836
+01:17:59.600 --> 01:18:04.080
+Vedete che qui c'è appunto un circuito
+
+1837
+01:18:01.520 --> 01:18:07.520
+risonante che è centrato su questa
+
+1838
+01:18:04.080 --> 01:18:11.159
+frequenza f0. E qui mettiamo mettiamoci
+
+1839
+01:18:07.520 --> 01:18:13.520
+a -10. Questo è è il 10% in meno della
+
+1840
+01:18:11.159 --> 01:18:16.000
+frequenza. Diciamo che se la frequenza
+
+1841
+01:18:13.520 --> 01:18:17.679
+del mio circuito risonante è di 7 MHz,
+
+1842
+01:18:16.000 --> 01:18:21.159
+tanto per restare su una banda
+
+1843
+01:18:17.679 --> 01:18:26.040
+radoriale, qui stiamo il 10% sotto, cioè
+
+1844
+01:18:21.159 --> 01:18:26.040
+siamo a 6,3 MHz.
+
+1845
+01:18:26.800 --> 01:18:32.639
+Allora, se io in una situazione di
+
+1846
+01:18:29.560 --> 01:18:35.480
+questo genere, radio galena, qui si sta
+
+1847
+01:18:32.639 --> 01:18:38.000
+si sta viisezionando, si sta analizzando
+
+1848
+01:18:35.480 --> 01:18:40.639
+in dettaglio come funziona una radio a
+
+1849
+01:18:38.000 --> 01:18:43.440
+galena. Se il mio circuito risonante ha
+
+1850
+01:18:40.639 --> 01:18:45.400
+un Q di 10,
+
+1851
+01:18:43.440 --> 01:18:48.800
+immaginiamo che io voglio ascoltare un
+
+1852
+01:18:45.400 --> 01:18:51.080
+segnale che sta a 7 MHz, quindi qui, e
+
+1853
+01:18:48.800 --> 01:18:53.880
+che è un segnale interferente qui.
+
+1854
+01:18:51.080 --> 01:18:55.880
+Questo è un altro segnale che io voglio
+
+1855
+01:18:53.880 --> 01:18:58.000
+non ascoltare. Quindi questo è un
+
+1856
+01:18:55.880 --> 01:18:59.639
+disturbo, per intenderci. Magari è un
+
+1857
+01:18:58.000 --> 01:19:02.320
+segnale valido, ma io in quel momento
+
+1858
+01:18:59.639 --> 01:19:04.320
+non lo voglio ascoltare. Se il mio
+
+1859
+01:19:02.320 --> 01:19:06.560
+fattore di merito del circuito è pari a
+
+1860
+01:19:04.320 --> 01:19:08.880
+10, vale questa curva di risonanza che
+
+1861
+01:19:06.560 --> 01:19:13.080
+sto rappresentando ora. Allora, il mio
+
+1862
+01:19:08.880 --> 01:19:15.679
+segnale ha una frequenza di 6 e 3 viene
+
+1863
+01:19:13.080 --> 01:19:19.920
+attenuato tanto così,
+
+1864
+01:19:15.679 --> 01:19:22.159
+cioè non è 1, ma è un po' più di 04.
+
+1865
+01:19:19.920 --> 01:19:24.520
+Se io avessi un fattore di merito pari a
+
+1866
+01:19:22.159 --> 01:19:28.040
+20 e questo è il punto, questa è la
+
+1867
+01:19:24.520 --> 01:19:30.360
+curva pari a 20, lo vedete?
+
+1868
+01:19:28.040 --> 01:19:33.080
+Il mio segnale interferente verrebbe
+
+1869
+01:19:30.360 --> 01:19:35.120
+attenuato ben di più. Se io avessi un Q
+
+1870
+01:19:33.080 --> 01:19:37.679
+di 50, il mio segnale interferente
+
+1871
+01:19:35.120 --> 01:19:40.360
+sarebbe qui. Se io avessi, come posso
+
+1872
+01:19:37.679 --> 01:19:42.040
+avere tranquillamente un Qd, il mio
+
+1873
+01:19:40.360 --> 01:19:45.199
+segnale interferente viene attenuato
+
+1874
+01:19:42.040 --> 01:19:47.760
+tanto così. Quindi
+
+1875
+01:19:45.199 --> 01:19:50.520
+qui si si capisce si visualizza una cosa
+
+1876
+01:19:47.760 --> 01:19:52.639
+ovvia, no? c'è che quanto è quanto più
+
+1877
+01:19:50.520 --> 01:19:55.239
+un circuito risonante è buono, quanto
+
+1878
+01:19:52.639 --> 01:19:56.679
+più è, diciamo, migliore, più migliore
+
+1879
+01:19:55.239 --> 01:20:01.320
+non si direbbe, ma comunque rende
+
+1880
+01:19:56.679 --> 01:20:03.120
+l'idea, eh tanto più è selettivo
+
+1881
+01:20:01.320 --> 01:20:07.000
+e questo si misura, appunto, con questo
+
+1882
+01:20:03.120 --> 01:20:09.159
+fattore di qualità Q. Q, ripeto, è la
+
+1883
+01:20:07.000 --> 01:20:11.880
+banda relativa. Qui, per esempio,
+
+1884
+01:20:09.159 --> 01:20:13.360
+possiamo fare questi due eh possiamo
+
+1885
+01:20:11.880 --> 01:20:15.120
+provare a fare questi due esercizi,
+
+1886
+01:20:13.360 --> 01:20:18.120
+tanto per scaldarci un po' a quest'ora
+
+1887
+01:20:15.120 --> 01:20:22.800
+della sera. Guardate la prima domanda.
+
+1888
+01:20:18.120 --> 01:20:25.520
+Un filtro passabanda risuona a 20 MHz
+
+1889
+01:20:22.800 --> 01:20:27.480
+ed ha una larghezza di banda di 2000 Hz.
+
+1890
+01:20:25.520 --> 01:20:30.080
+Qual è il suo fattore di merito? Allora,
+
+1891
+01:20:27.480 --> 01:20:33.480
+per rispondere a questa domanda si usa
+
+1892
+01:20:30.080 --> 01:20:35.719
+questa formula, no? Perché la la domanda
+
+1893
+01:20:33.480 --> 01:20:40.400
+che ci fanno è il fattore di merito Q.
+
+1894
+01:20:35.719 --> 01:20:43.880
+Quindi bisogna trovare Q = F0 / B. F0 è
+
+1895
+01:20:40.400 --> 01:20:48.480
+20 MHz, B è 2 kHz. Quindi quant'è il Q
+
+1896
+01:20:43.880 --> 01:20:48.480
+di questo di questo circuito risonante?
+
+1897
+01:20:50.400 --> 01:20:52.960
+10
+
+1898
+01:20:51.360 --> 01:20:55.080
+>> dovrebbe essere
+
+1899
+01:20:52.960 --> 01:20:57.239
+>> 10 kHz
+
+1900
+01:20:55.080 --> 01:20:59.199
+>> 10.000, no? Cioè,
+
+1901
+01:20:57.239 --> 01:21:01.239
+>> eh sì, sì, sì. Ditelo in maniera un po'
+
+1902
+01:20:59.199 --> 01:21:05.040
+più convinta.
+
+1903
+01:21:01.239 --> 01:21:07.360
+>> 10 k mi incasino.
+
+1904
+01:21:05.040 --> 01:21:09.400
+>> E quindi quant'è il risultato?
+
+1905
+01:21:07.360 --> 01:21:10.719
+>> 10.000 Hz, mi sembra.
+
+1906
+01:21:09.400 --> 01:21:12.840
+>> 10.000 10.000 basta.
+
+1907
+01:21:10.719 --> 01:21:16.480
+>> 10.000 scusa
+
+1908
+01:21:12.840 --> 01:21:18.880
+no. 20/ 2 fa 10^
+
+1909
+01:21:16.480 --> 01:21:21.239
+10^ ter fa 10^ quindi
+
+1910
+01:21:18.880 --> 01:21:23.400
+>> eh sì perché qui c'è
+
+1911
+01:21:21.239 --> 01:21:25.920
+>> Bravo perché qui Bravo, perché qui c'è
+
+1912
+01:21:23.400 --> 01:21:28.239
+meg'è kz giusto?
+
+1913
+01:21:25.920 --> 01:21:31.000
+>> Ok. Allora, intanto il Q
+
+1914
+01:21:28.239 --> 01:21:32.880
+>> e allora come va portato 1 MHz o 1 kHz?
+
+1915
+01:21:31.000 --> 01:21:34.520
+la risposta.
+
+1916
+01:21:32.880 --> 01:21:36.239
+>> Eh, qui bisogna fare con la
+
+1917
+01:21:34.520 --> 01:21:39.960
+calcolatrice, se uno non lo sa fare a
+
+1918
+01:21:36.239 --> 01:21:42.040
+mente, 20 milioni/ 2.000
+
+1919
+01:21:39.960 --> 01:21:47.880
+e così esce da tutti i problemi. 20
+
+1920
+01:21:42.040 --> 01:21:48.600
+milioni/ 2000 fa eh 10.000. D'accordo?
+
+1921
+01:21:47.880 --> 01:21:50.080
+>> Esatto.
+
+1922
+01:21:48.600 --> 01:21:53.040
+>> Sì, sì.
+
+1923
+01:21:50.080 --> 01:21:54.960
+>> Ok. E il Q non ve l'ho detto prima, ma
+
+1924
+01:21:53.040 --> 01:21:57.120
+ora per fortuna viene fuori, si vede
+
+1925
+01:21:54.960 --> 01:22:00.040
+bene? Il Q non ha unità di misura, come
+
+1926
+01:21:57.120 --> 01:22:01.600
+si dice in matematica, è un numero puro.
+
+1927
+01:22:00.040 --> 01:22:04.280
+D'accordo?
+
+1928
+01:22:01.600 --> 01:22:06.040
+Si divide meghz con mahz o megz, cioè si
+
+1929
+01:22:04.280 --> 01:22:09.520
+divide frequenza su frequenza e il
+
+1930
+01:22:06.040 --> 01:22:12.000
+risultato è proprio un numero 10 5 27.
+
+1931
+01:22:09.520 --> 01:22:15.639
+Vediamo questa seconda domanda. Un
+
+1932
+01:22:12.000 --> 01:22:18.400
+filtro passabanda risuona a 5 MHz ed ha
+
+1933
+01:22:15.639 --> 01:22:20.920
+un Q di 100.
+
+1934
+01:22:18.400 --> 01:22:23.960
+Qual è la sua larghezza di banda -3dB?
+
+1935
+01:22:20.920 --> 01:22:27.080
+Allora, va usata la va trasformata
+
+1936
+01:22:23.960 --> 01:22:32.280
+questa formula in questa formula qua. La
+
+1937
+01:22:27.080 --> 01:22:35.880
+larghezza di banda vale F0 / Q. P = F0 /
+
+1938
+01:22:32.280 --> 01:22:40.280
+Q. Intanto qual è la risposta? Quindi
+
+1939
+01:22:35.880 --> 01:22:42.920
+>> è 0,05 MHz, quindi sarà rimasto a fare
+
+1940
+01:22:40.280 --> 01:22:45.080
+la conversione.
+
+1941
+01:22:42.920 --> 01:22:48.080
+>> Eh, quanto viene?
+
+1942
+01:22:45.080 --> 01:22:48.080
+>> Aspetta,
+
+1943
+01:22:48.480 --> 01:22:52.600
+50.000 Hz.
+
+1944
+01:22:50.199 --> 01:22:55.159
+>> Perfetto. C'è No,
+
+1945
+01:22:52.600 --> 01:22:58.199
+>> quasi giusto. Ecco, bravo. Ora sì,
+
+1946
+01:22:55.159 --> 01:22:59.880
+perfetto. 50.000 a dimensionale senza
+
+1947
+01:22:58.199 --> 01:23:01.600
+dimensione. Bravo,
+
+1948
+01:22:59.880 --> 01:23:04.960
+>> bravo, bravo, bravo. È un numero
+
+1949
+01:23:01.600 --> 01:23:08.239
+>> sarebbe 50.000/ 100. No, com'è il
+
+1950
+01:23:04.960 --> 01:23:10.159
+sarebbe sarebbe 5 milioni 100
+
+1951
+01:23:08.239 --> 01:23:13.000
+>> 5 milioni milioni
+
+1952
+01:23:10.159 --> 01:23:14.920
+>> diviso 100
+
+1953
+01:23:13.000 --> 01:23:17.120
+>> mi viene 50.000. Sì,
+
+1954
+01:23:14.920 --> 01:23:19.880
+>> sì, scusami. 50.000 Hz. Ho sbagliato
+
+1955
+01:23:17.120 --> 01:23:21.679
+qui. Qui ho sbagliato, scusate.
+
+1956
+01:23:19.880 --> 01:23:23.400
+>> E qui è la larghezza di Panda. larghezza
+
+1957
+01:23:21.679 --> 01:23:26.760
+di banda, giustamente si misura in
+
+1958
+01:23:23.400 --> 01:23:29.120
+scusate, e il Q che è un numero puro.
+
+1959
+01:23:26.760 --> 01:23:31.920
+>> Tu hai detto a -3db,
+
+1960
+01:23:29.120 --> 01:23:35.600
+ci puoi spiegare che significa?
+
+1961
+01:23:31.920 --> 01:23:38.400
+>> Vuol dire metà potenza. Metà potenza.
+
+1962
+01:23:35.600 --> 01:23:40.760
+-3B vuol dire metà potenza.
+
+1963
+01:23:38.400 --> 01:23:43.520
+Questo lo ve lo racconto per bene
+
+1964
+01:23:40.760 --> 01:23:47.040
+mercoledì prossimo.
+
+1965
+01:23:43.520 --> 01:23:48.760
+Il IDB e diciamo è è
+
+1966
+01:23:47.040 --> 01:23:53.000
+un concetto che si usa molto spesso in
+
+1967
+01:23:48.760 --> 01:23:53.000
+elettronica e mercoledì ne parliamo.
+
+1968
+01:23:54.199 --> 01:23:58.280
+Vi dico un'ultima cosa e con questo si
+
+1969
+01:23:56.080 --> 01:24:01.480
+finisce questa parte qua, poi resta solo
+
+1970
+01:23:58.280 --> 01:24:04.000
+da parlare 5 minuti del quarzo. esistano
+
+1971
+01:24:01.480 --> 01:24:09.239
+anche i fattori di merito dei filtri
+
+1972
+01:24:04.000 --> 01:24:11.960
+passabanda, dei filtri passa banda,
+
+1973
+01:24:09.239 --> 01:24:14.239
+scusate, ricomincio.
+
+1974
+01:24:11.960 --> 01:24:16.760
+Esiste anche un altro parametro che
+
+1975
+01:24:14.239 --> 01:24:18.400
+misura i filtri passabanda, soprattutto
+
+1976
+01:24:16.760 --> 01:24:20.639
+quelli che si montano nelle radio ed è
+
+1977
+01:24:18.400 --> 01:24:23.159
+il fattore di forma. Il fattore di forma
+
+1978
+01:24:20.639 --> 01:24:25.159
+misura quanto si allarga la curva di
+
+1979
+01:24:23.159 --> 01:24:28.679
+risonanza fra due punti della curva del
+
+1980
+01:24:25.159 --> 01:24:30.840
+filtro. Prima di vedere la formula si
+
+1981
+01:24:28.679 --> 01:24:32.800
+vede questa figura che rende l'idea.
+
+1982
+01:24:30.840 --> 01:24:34.800
+Diciamo ogni volta che comprate una
+
+1983
+01:24:32.800 --> 01:24:37.239
+radio, in una radio c'è un filtro di
+
+1984
+01:24:34.800 --> 01:24:40.520
+questo tipo, quello che io prima ho
+
+1985
+01:24:37.239 --> 01:24:43.639
+chiamato il filtro di canale. E diciamo
+
+1986
+01:24:40.520 --> 01:24:47.360
+immaginiamo che questo filtro qui sia
+
+1987
+01:24:43.639 --> 01:24:51.239
+largo 2 kHz, come c'è scritto qua, i 2
+
+1988
+01:24:47.360 --> 01:24:53.239
+kHz del segnale che io sto ascoltando.
+
+1989
+01:24:51.239 --> 01:24:56.239
+Allora, un filtro molto buono cosa
+
+1990
+01:24:53.239 --> 01:24:59.320
+farebbe? farebbe che sotto questi 2 kHz
+
+1991
+01:24:56.239 --> 01:25:02.280
+si scende giù a picco e questi 2 kHz
+
+1992
+01:24:59.320 --> 01:25:04.080
+restano 2 kHz fino quaggiù in fondo.
+
+1993
+01:25:02.280 --> 01:25:06.639
+Quindi
+
+1994
+01:25:04.080 --> 01:25:09.840
+eh è un filtro che attenuerebbe
+
+1995
+01:25:06.639 --> 01:25:12.639
+moltissimo le frequenze che stanno qui e
+
+1996
+01:25:09.840 --> 01:25:15.040
+qua che non voglio ascoltare.
+
+1997
+01:25:12.639 --> 01:25:17.600
+Però i filtri reali non non riescono di
+
+1998
+01:25:15.040 --> 01:25:19.440
+fatto a realizzare una cosa così,
+
+1999
+01:25:17.600 --> 01:25:23.239
+diciamo, perpendicolare come ho fatto
+
+2000
+01:25:19.440 --> 01:25:24.800
+io, no? diciamo i filtri reali a mano a
+
+2001
+01:25:23.239 --> 01:25:26.760
+a mano a mano che ci si allontana dalla
+
+2002
+01:25:24.800 --> 01:25:30.280
+risonan dalla frequenza della della
+
+2003
+01:25:26.760 --> 01:25:33.280
+banda passante e la curva si allarga si
+
+2004
+01:25:30.280 --> 01:25:35.239
+allarga un po' a campana. Quanto è larga
+
+2005
+01:25:33.280 --> 01:25:38.400
+questa campana? Ce lo dice il fattore di
+
+2006
+01:25:35.239 --> 01:25:42.000
+forma, cioè si prende normalmente
+
+2007
+01:25:38.400 --> 01:25:44.800
+eh il valore a -6 dB, cioè 1/4 della
+
+2008
+01:25:42.000 --> 01:25:48.600
+potenza, il valore a -60 dB e si
+
+2009
+01:25:44.800 --> 01:25:55.040
+dividono uno con l'altro. Qui il valore
+
+2010
+01:25:48.600 --> 01:25:59.480
+a -60 dB è 5,5 kHz. Il valore a 6 dB è
+
+2011
+01:25:55.040 --> 01:26:00.960
+2, kHz. Si fa 5,5 / 2 e il fattore di
+
+2012
+01:25:59.480 --> 01:26:02.560
+forma che viene fuori è questo qua,
+
+2013
+01:26:00.960 --> 01:26:04.320
+2,75,
+
+2014
+01:26:02.560 --> 01:26:06.280
+che è un filtro un po' mediocretto,
+
+2015
+01:26:04.320 --> 01:26:11.040
+diciamo che i fattori di forma buoni
+
+2016
+01:26:06.280 --> 01:26:14.560
+sono 1,6 1,8, capito? massimo due e
+
+2017
+01:26:11.040 --> 01:26:18.719
+diciamo qui in un filtro così largo è
+
+2018
+01:26:14.560 --> 01:26:21.520
+chiaro che diciamo qua la la selettività
+
+2019
+01:26:18.719 --> 01:26:24.560
+è abbastanza scarsa se soprattutto qui
+
+2020
+01:26:21.520 --> 01:26:27.520
+in basso c'è c'è un canale forte.
+
+2021
+01:26:24.560 --> 01:26:30.159
+Quindi questo questo fattore di forma è
+
+2022
+01:26:27.520 --> 01:26:32.040
+è è specifico per per i filtri. Molte
+
+2023
+01:26:30.159 --> 01:26:33.719
+volte si quando si compra una radio uno
+
+2024
+01:26:32.040 --> 01:26:35.239
+mette dei filtri più stretti, dei filtri
+
+2025
+01:26:33.719 --> 01:26:37.000
+più larghi, poi come vedremo c'è il
+
+2026
+01:26:35.239 --> 01:26:38.719
+filtro per la telegrafia, il filtro per
+
+2027
+01:26:37.000 --> 01:26:41.320
+la fonia larga, il filtro per la fonia
+
+2028
+01:26:38.719 --> 01:26:42.920
+stretta e tutti quei filtri quando li
+
+2029
+01:26:41.320 --> 01:26:44.880
+compriamo ci dicono anche quant'è il
+
+2030
+01:26:42.920 --> 01:26:47.159
+loro fattore di forma, quanto il fattore
+
+2031
+01:26:44.880 --> 01:26:49.960
+di forma è buono normalmente quanto un
+
+2032
+01:26:47.159 --> 01:26:52.760
+pochino di più il filtro filtro costa.
+
+2033
+01:26:49.960 --> 01:26:55.360
+Quindi diciamo che noi abbiamo visto ora
+
+2034
+01:26:52.760 --> 01:26:59.119
+due fattori di qualità, uno in generale
+
+2035
+01:26:55.360 --> 01:27:02.440
+dei circuiti risonanti ed è il Q. Il Q è
+
+2036
+01:26:59.119 --> 01:27:06.239
+definito così, no? La quanto è stretta
+
+2037
+01:27:02.440 --> 01:27:07.880
+la risonanza di un circuito LC, quindi
+
+2038
+01:27:06.239 --> 01:27:12.400
+di un circuito risonante, come abbiamo
+
+2039
+01:27:07.880 --> 01:27:14.679
+visto per le radiogalena, e vale f0 / b.
+
+2040
+01:27:12.400 --> 01:27:16.840
+E questa formula la si può usare, poi
+
+2041
+01:27:14.679 --> 01:27:18.920
+tutto questo lo ritrovate nelle slide,
+
+2042
+01:27:16.840 --> 01:27:21.239
+sia per calcolare il Q, sia per
+
+2043
+01:27:18.920 --> 01:27:24.679
+calcolare la larghezza di banda che si
+
+2044
+01:27:21.239 --> 01:27:27.760
+ottiene dato un certo fattore di merito.
+
+2045
+01:27:24.679 --> 01:27:29.800
+Nel caso particolare dei filtri, dei
+
+2046
+01:27:27.760 --> 01:27:31.639
+filtri che si usano nelle radio, si usa
+
+2047
+01:27:29.800 --> 01:27:34.040
+il fattore di forma. Il fattore di forma
+
+2048
+01:27:31.639 --> 01:27:35.719
+indica quanto la curva di risonanza si
+
+2049
+01:27:34.040 --> 01:27:38.679
+allarga
+
+2050
+01:27:35.719 --> 01:27:41.440
+eh
+
+2051
+01:27:38.679 --> 01:27:45.960
+all'uscire dalla banda passante del
+
+2052
+01:27:41.440 --> 01:27:47.480
+filtro. E questo è tutto. Eh,
+
+2053
+01:27:45.960 --> 01:27:50.080
+adesso
+
+2054
+01:27:47.480 --> 01:27:51.760
+resta da dire solo qualcosa che riguarda
+
+2055
+01:27:50.080 --> 01:27:53.719
+i quarzi, però è un discorso molto
+
+2056
+01:27:51.760 --> 01:27:56.320
+rapido. Vorrei sapere se se c'è qualche
+
+2057
+01:27:53.719 --> 01:27:58.119
+domanda sui fattori di forma,
+
+2058
+01:27:56.320 --> 01:28:01.840
+sul fattore di forma, sul Q e in
+
+2059
+01:27:58.119 --> 01:28:01.840
+generale sulla risonanza.
+
+2060
+01:28:06.520 --> 01:28:10.400
+Buono per ora. Allora,
+
+2061
+01:28:12.400 --> 01:28:16.679
+concludiamo stasera
+
+2062
+01:28:15.119 --> 01:28:18.520
+parlando
+
+2063
+01:28:16.679 --> 01:28:20.920
+dei
+
+2064
+01:28:18.520 --> 01:28:22.600
+quarzi. Allora, il quarzo penso che lo
+
+2065
+01:28:20.920 --> 01:28:26.360
+conosciamo tutti, no? fin dai vecchi
+
+2066
+01:28:22.600 --> 01:28:29.560
+tempi l'orologio a quarzo. Il quarzo è è
+
+2067
+01:28:26.360 --> 01:28:31.760
+un materiale di tipo cristallino.
+
+2068
+01:28:29.560 --> 01:28:34.280
+Cristallino vuol dire che è molto
+
+2069
+01:28:31.760 --> 01:28:38.840
+ordinato, diciamo così,
+
+2070
+01:28:34.280 --> 01:28:40.719
+cioè che tutti eh tutti gli atomi o le
+
+2071
+01:28:38.840 --> 01:28:42.639
+molecole che compongono sono tutti belli
+
+2072
+01:28:40.719 --> 01:28:44.800
+ordinati come in un reticolo, come se
+
+2073
+01:28:42.639 --> 01:28:46.440
+fosse un foglio di carta a quadretti. E
+
+2074
+01:28:44.800 --> 01:28:48.600
+il quarzo è la caratteristica di essere
+
+2075
+01:28:46.440 --> 01:28:50.560
+un materiale di tipo piazo elettrico.
+
+2076
+01:28:48.600 --> 01:28:52.080
+Penso che molti di voi, probabilmente
+
+2077
+01:28:50.560 --> 01:28:54.199
+tutti voi, conoscete i cosiddetti
+
+2078
+01:28:52.080 --> 01:28:56.440
+accendini, gli accendi gas
+
+2079
+01:28:54.199 --> 01:28:59.000
+piezoelettrici, cioè se si preme
+
+2080
+01:28:56.440 --> 01:29:01.400
+fortemente un cristallo di quarzo questo
+
+2081
+01:28:59.000 --> 01:29:02.960
+genera un po' di tensione e diciamo
+
+2082
+01:29:01.400 --> 01:29:05.760
+negli accendini questa tensione è
+
+2083
+01:29:02.960 --> 01:29:08.159
+sfruttata per fare scoccare una
+
+2084
+01:29:05.760 --> 01:29:09.440
+scintilla che accende il gas.
+
+2085
+01:29:08.159 --> 01:29:11.400
+Perché in generale i materiali
+
+2086
+01:29:09.440 --> 01:29:13.280
+piezoelettrici, se compressi
+
+2087
+01:29:11.400 --> 01:29:15.159
+meccanicamente, come vedete qua sotto,
+
+2088
+01:29:13.280 --> 01:29:18.520
+fanno apparire cariche elettriche sulle
+
+2089
+01:29:15.159 --> 01:29:20.520
+due sulle due facce. Allora, il quarzo,
+
+2090
+01:29:18.520 --> 01:29:22.920
+se un quarzo si applica una corrente
+
+2091
+01:29:20.520 --> 01:29:26.440
+alternata, questo quarzo comincia ad
+
+2092
+01:29:22.920 --> 01:29:28.520
+oscillare a una sua specifica frequenza
+
+2093
+01:29:26.440 --> 01:29:30.600
+che determinata delle caratteristiche
+
+2094
+01:29:28.520 --> 01:29:32.600
+proprio meccaniche, fisiche del quarzo,
+
+2095
+01:29:30.600 --> 01:29:35.360
+sostanzialmente la frequenza a cui un
+
+2096
+01:29:32.600 --> 01:29:38.440
+quarzo oscilla è determinata dallo
+
+2097
+01:29:35.360 --> 01:29:41.119
+spessore. Questa oscillazione è di tipo
+
+2098
+01:29:38.440 --> 01:29:43.960
+meccanico. Immaginate di avere una
+
+2099
+01:29:41.119 --> 01:29:45.920
+piccola, cerco di disegnarlo qua,
+
+2100
+01:29:43.960 --> 01:29:48.400
+immaginate di avere una piccola lamina
+
+2101
+01:29:45.920 --> 01:29:52.480
+di quarzo
+
+2102
+01:29:48.400 --> 01:29:54.639
+e in spessore, diciamo, meo millimetro o
+
+2103
+01:29:52.480 --> 01:29:57.000
+qualcosa di questo tipo. Su questa
+
+2104
+01:29:54.639 --> 01:29:59.280
+lamina di quarzo sono in qualche modo
+
+2105
+01:29:57.000 --> 01:30:01.400
+depositati depositate due
+
+2106
+01:29:59.280 --> 01:30:04.400
+metallizzazioni. Ora le disegno
+
+2107
+01:30:01.400 --> 01:30:06.639
+staccate, tanto per per mostrarle. E a
+
+2108
+01:30:04.400 --> 01:30:10.000
+queste metallizzazioni è collegato un
+
+2109
+01:30:06.639 --> 01:30:13.080
+filo elettrico che
+
+2110
+01:30:10.000 --> 01:30:16.400
+porta, diciamo, eh fuori dal dal
+
+2111
+01:30:13.080 --> 01:30:17.719
+contenitore del quarzo e, diciamo, se si
+
+2112
+01:30:16.400 --> 01:30:20.199
+applica tramite queste due
+
+2113
+01:30:17.719 --> 01:30:21.840
+medallizzazioni una corrente alternata a
+
+2114
+01:30:20.199 --> 01:30:23.840
+un quarzo, questo appunto comincia a
+
+2115
+01:30:21.840 --> 01:30:26.400
+oscillare, ma oscilla dove vuole lui,
+
+2116
+01:30:23.840 --> 01:30:28.679
+non dove vogliamo noi, oscilla alla
+
+2117
+01:30:26.400 --> 01:30:31.000
+frequenza proprio del quarzo e la sua
+
+2118
+01:30:28.679 --> 01:30:32.119
+frequenza di risonanza dipende in parte
+
+2119
+01:30:31.000 --> 01:30:34.159
+dal tipo di materiale, ma
+
+2120
+01:30:32.119 --> 01:30:36.080
+sostanzialmente dallo spessore. dal modo
+
+2121
+01:30:34.159 --> 01:30:40.040
+in cui è tagliato.
+
+2122
+01:30:36.080 --> 01:30:43.239
+E la cosa che ci interessa è che questa
+
+2123
+01:30:40.040 --> 01:30:46.960
+sua frequenza di risonanza naturale ha
+
+2124
+01:30:43.239 --> 01:30:48.880
+una stabilità molto elevata, molto molto
+
+2125
+01:30:46.960 --> 01:30:51.960
+più elevata della stabilità che si
+
+2126
+01:30:48.880 --> 01:30:53.719
+potrebbe ottenere da dei circuiti LC di
+
+2127
+01:30:51.960 --> 01:30:55.440
+cui abbiamo parlato prima, tant'è che
+
+2128
+01:30:53.719 --> 01:30:58.760
+con i quarzi, come sapete, ci fanno gli
+
+2129
+01:30:55.440 --> 01:31:02.040
+orologi e quindi ci sarà un motivo.
+
+2130
+01:30:58.760 --> 01:31:04.080
+E oltretutto il quarzo è che è
+
+2131
+01:31:02.040 --> 01:31:06.639
+abbastanza preciso rispetto alle
+
+2132
+01:31:04.080 --> 01:31:10.000
+variazioni di temperatura, quindi le i
+
+2133
+01:31:06.639 --> 01:31:12.119
+passaggi estate, inverno, giorno, notte
+
+2134
+01:31:10.000 --> 01:31:13.840
+non spostano più di tanto la curva di
+
+2135
+01:31:12.119 --> 01:31:18.239
+risonanza di un quarzo. Questa che
+
+2136
+01:31:13.840 --> 01:31:19.960
+vedete qua è una eh è una delle
+
+2137
+01:31:18.239 --> 01:31:21.719
+realizzazioni tipiche, è uno dei
+
+2138
+01:31:19.960 --> 01:31:23.880
+contenitori tipici in cui ci sono i
+
+2139
+01:31:21.719 --> 01:31:27.960
+quarzi. Se qualcuno di voi ha un
+
+2140
+01:31:23.880 --> 01:31:31.040
+baracchino CB vecchio tipo e lo apre,
+
+2141
+01:31:27.960 --> 01:31:33.440
+probabilmente ce ne trova un certo
+
+2142
+01:31:31.040 --> 01:31:35.000
+numero a seconda del tipo di di
+
+2143
+01:31:33.440 --> 01:31:38.040
+baracchino, del numero di canali che ha,
+
+2144
+01:31:35.000 --> 01:31:39.719
+eccetera. E e sono fatti così, no? c'è
+
+2145
+01:31:38.040 --> 01:31:41.239
+un contenitore metallico. Dentro un
+
+2146
+01:31:39.719 --> 01:31:43.800
+contenitore metallico, appunto, c'è
+
+2147
+01:31:41.239 --> 01:31:45.760
+normalmente una piastrina, questa volta
+
+2148
+01:31:43.800 --> 01:31:49.400
+la disegno di fronte. C'è una piastrina
+
+2149
+01:31:45.760 --> 01:31:51.440
+tonda di quarzo. Su una parte della
+
+2150
+01:31:49.400 --> 01:31:53.159
+piastrina è depositata una
+
+2151
+01:31:51.440 --> 01:31:55.639
+metallizzazione. A questa
+
+2152
+01:31:53.159 --> 01:31:58.760
+metallizzazione qui è attaccato il filo
+
+2153
+01:31:55.639 --> 01:32:00.920
+che esce fuori, ce n'è una su un lato e
+
+2154
+01:31:58.760 --> 01:32:04.800
+e un'altra sull'altro lato del quarzo. E
+
+2155
+01:32:00.920 --> 01:32:08.400
+sono questi due tipi che eh sono questi
+
+2156
+01:32:04.800 --> 01:32:11.040
+due fili che che escono fuori.
+
+2157
+01:32:08.400 --> 01:32:13.280
+I quarzi, appunto, vengono usati per
+
+2158
+01:32:11.040 --> 01:32:15.360
+generare frequenze, per esempio, degli
+
+2159
+01:32:13.280 --> 01:32:18.239
+oscillatori, come si usa gli orologi.
+
+2160
+01:32:15.360 --> 01:32:20.520
+Frequenze che a questo punto sono molto
+
+2161
+01:32:18.239 --> 01:32:22.320
+precise perché non sono affidate
+
+2162
+01:32:20.520 --> 01:32:24.760
+semplicemente a un induttore e a un
+
+2163
+01:32:22.320 --> 01:32:27.800
+condensatore che possono fare lo stesso
+
+2164
+01:32:24.760 --> 01:32:29.760
+scopo ma in maniera molto più imprecisa.
+
+2165
+01:32:27.800 --> 01:32:31.880
+Il segnale generato da un quarzo, come
+
+2166
+01:32:29.760 --> 01:32:33.679
+leggete qua, è molto stabile, molto
+
+2167
+01:32:31.880 --> 01:32:36.560
+stabile in frequenza, molto stabile
+
+2168
+01:32:33.679 --> 01:32:38.760
+rispetto anche a dei piccoli urti, molto
+
+2169
+01:32:36.560 --> 01:32:42.400
+stabile nel tempo e rispetto alle
+
+2170
+01:32:38.760 --> 01:32:42.400
+variazioni di temperatura.
+
+2171
+01:32:43.560 --> 01:32:49.600
+Questo vuol dire anche per altri,
+
+2172
+01:32:46.480 --> 01:32:52.080
+diciamo, per altri versi che il quarzo
+
+2173
+01:32:49.600 --> 01:32:54.840
+ha poche perdite, cioè ha un fattore di
+
+2174
+01:32:52.080 --> 01:32:57.880
+merito molto elevato. Parlando di
+
+2175
+01:32:54.840 --> 01:33:00.560
+fattori di merito Q, un circuito
+
+2176
+01:32:57.880 --> 01:33:02.360
+risonante, come abbiamo visto prima,
+
+2177
+01:33:00.560 --> 01:33:05.080
+avete visto che i fattori di ris i
+
+2178
+01:33:02.360 --> 01:33:06.679
+fattori di merito erano 10 20 50 100. Un
+
+2179
+01:33:05.080 --> 01:33:12.159
+quarzo può avere un fattore di qualità
+
+2180
+01:33:06.679 --> 01:33:12.159
+di 10.000 10k. Ok.
+
+2181
+01:33:12.400 --> 01:33:17.600
+La frequenza di risonanza dipende dalle
+
+2182
+01:33:14.320 --> 01:33:19.600
+due dimensioni fisiche
+
+2183
+01:33:17.600 --> 01:33:24.040
+e infine
+
+2184
+01:33:19.600 --> 01:33:24.040
+si può far oscillare in fondamentale
+
+2185
+01:33:24.239 --> 01:33:29.920
+fino a circa 20 MHz.
+
+2186
+01:33:27.320 --> 01:33:32.960
+Se si vuole ottenere una frequenza però
+
+2187
+01:33:29.920 --> 01:33:35.480
+più alta di 20 MHz, diventa un po' un
+
+2188
+01:33:32.960 --> 01:33:37.440
+problema perché per avere frequenze alte
+
+2189
+01:33:35.480 --> 01:33:39.880
+bisogna avere delle pierine di quarzo
+
+2190
+01:33:37.440 --> 01:33:41.760
+molto molto sottili
+
+2191
+01:33:39.880 --> 01:33:43.600
+e più più sono sottili più
+
+2192
+01:33:41.760 --> 01:33:45.800
+meccanicamente si possono rompere.
+
+2193
+01:33:43.600 --> 01:33:48.480
+Allora, per frequenze più alte si taglia
+
+2194
+01:33:45.800 --> 01:33:50.080
+il quarzo in modo particolare
+
+2195
+01:33:48.480 --> 01:33:53.760
+eh
+
+2196
+01:33:50.080 --> 01:33:56.320
+per usare le sue cosiddette armoniche. E
+
+2197
+01:33:53.760 --> 01:33:58.760
+questa è la tecnica chiamata overton,
+
+2198
+01:33:56.320 --> 01:34:01.159
+cioè in qualche modo, come per esempio
+
+2199
+01:33:58.760 --> 01:34:04.119
+accade nei baracchini CB per l'appunto,
+
+2200
+01:34:01.159 --> 01:34:06.800
+nei baracchini CB ci sono molti quarzi,
+
+2201
+01:34:04.119 --> 01:34:09.239
+eh, cioè immaginiamo
+
+2202
+01:34:06.800 --> 01:34:13.080
+quelli che di voi usavano magari i
+
+2203
+01:34:09.239 --> 01:34:15.600
+baracchini CB e a quelli i primissimi a
+
+2204
+01:34:13.080 --> 01:34:17.360
+due a sei canali in cui si quarzavano,
+
+2205
+01:34:15.600 --> 01:34:18.639
+no? in cui si mettevano i quarzi per il
+
+2206
+01:34:17.360 --> 01:34:20.040
+trasmettitore, i quarzi per il
+
+2207
+01:34:18.639 --> 01:34:24.159
+ricevitore. C'era il quarzo, per
+
+2208
+01:34:20.040 --> 01:34:27.119
+esempio, 27 e 105, tanto per dirne uno.
+
+2209
+01:34:24.159 --> 01:34:29.440
+E quei quarzi erano in terza armonica,
+
+2210
+01:34:27.119 --> 01:34:32.639
+in terza overton, cioè cioè in realtà
+
+2211
+01:34:29.440 --> 01:34:35.440
+erano piastrine che potevano operare a 9
+
+2212
+01:34:32.639 --> 01:34:38.280
+MHz e qualche spicciolo
+
+2213
+01:34:35.440 --> 01:34:42.600
+e che però venivano tagliate in modo
+
+2214
+01:34:38.280 --> 01:34:45.159
+tale che l'oscillatore che eh usava quei
+
+2215
+01:34:42.600 --> 01:34:47.280
+quarzi lì sfruttava la possibilità del
+
+2216
+01:34:45.159 --> 01:34:50.560
+quarzo di oscillare in terza armonica,
+
+2217
+01:34:47.280 --> 01:34:53.880
+cioè in a una frequenza tre volte
+
+2218
+01:34:50.560 --> 01:34:56.119
+maggiore e di quella di un taglio di
+
+2219
+01:34:53.880 --> 01:35:01.199
+quarzo normale. Quindi la parola da
+
+2220
+01:34:56.119 --> 01:35:04.440
+tenere in mente qui è questa Overton
+
+2221
+01:35:01.199 --> 01:35:06.800
+che appunto è la tecnica per ottenere da
+
+2222
+01:35:04.440 --> 01:35:08.639
+un quarzo frequenze più alte e questo
+
+2223
+01:35:06.800 --> 01:35:10.960
+sul quarzo è tutto. Quindi in pratica è
+
+2224
+01:35:08.639 --> 01:35:13.480
+un componente elettronico che si può
+
+2225
+01:35:10.960 --> 01:35:15.880
+assimilare a un circuito risonante,
+
+2226
+01:35:13.480 --> 01:35:17.880
+quindi un circuito LC, però non si ha
+
+2227
+01:35:15.880 --> 01:35:19.960
+una risonanza
+
+2228
+01:35:17.880 --> 01:35:22.560
+elettrica, ma si ha una risonanza
+
+2229
+01:35:19.960 --> 01:35:24.520
+meccanica. Cioè, nel caso del quarzo la
+
+2230
+01:35:22.560 --> 01:35:26.920
+risonanza è proprio meccanica. Sono gli
+
+2231
+01:35:24.520 --> 01:35:28.480
+atomi del quarzo che si diformano, che
+
+2232
+01:35:26.920 --> 01:35:30.800
+si avvicinano e allontanano l'uno
+
+2233
+01:35:28.480 --> 01:35:33.080
+all'altro a una frequenza pari a quella
+
+2234
+01:35:30.800 --> 01:35:36.960
+del quarzo stesso, ad esempio 9 milioni
+
+2235
+01:35:33.080 --> 01:35:39.440
+di volte al secondo, 9 MHz. questa eh
+
+2236
+01:35:36.960 --> 01:35:41.920
+questa capacità del quarzo, quindi di
+
+2237
+01:35:39.440 --> 01:35:44.239
+essere peso elettrico, cioè in qualche
+
+2238
+01:35:41.920 --> 01:35:45.679
+modo di eh fare apparire carichi
+
+2239
+01:35:44.239 --> 01:35:49.000
+elettriche sulle due facce se viene
+
+2240
+01:35:45.679 --> 01:35:51.320
+compresso e fa sì lo rende possibile il
+
+2241
+01:35:49.000 --> 01:35:53.480
+fatto di usare di usarlo in oscillatori
+
+2242
+01:35:51.320 --> 01:35:55.080
+appunto elettrici tramite quei discorsi
+
+2243
+01:35:53.480 --> 01:35:56.840
+che vi avevo fatto vedere prima, no, con
+
+2244
+01:35:55.080 --> 01:35:59.600
+la metallizzazione,
+
+2245
+01:35:56.840 --> 01:36:03.480
+eh si fa in modo di inserire dei
+
+2246
+01:35:59.600 --> 01:36:05.920
+cristalli di quarzo in circuiti di che
+
+2247
+01:36:03.480 --> 01:36:09.600
+che che li fanno oscillare e generano
+
+2248
+01:36:05.920 --> 01:36:11.880
+appunto una frequenza molto precisa,
+
+2249
+01:36:09.600 --> 01:36:15.880
+molto più precisa di quelle che si ha
+
+2250
+01:36:11.880 --> 01:36:20.400
+dei degli oscillatori fatti con
+
+2251
+01:36:15.880 --> 01:36:25.280
+induttore e e condensatore.
+
+2252
+01:36:20.400 --> 01:36:26.880
+Detto questo, tolgo la condivisione e
+
+2253
+01:36:25.280 --> 01:36:28.360
+per stasera non c'è altro da dire.
+
+2254
+01:36:26.880 --> 01:36:30.480
+Quindi stasera abbiamo visto prima i
+
+2255
+01:36:28.360 --> 01:36:32.239
+filtri, passa alto, passa passo, passa
+
+2256
+01:36:30.480 --> 01:36:34.199
+banda, notch, poi abbiamo visto i
+
+2257
+01:36:32.239 --> 01:36:36.159
+circuiti risonanti serie e parallelo e
+
+2258
+01:36:34.199 --> 01:36:37.600
+infine diciamo visto che parlavamo di
+
+2259
+01:36:36.159 --> 01:36:40.159
+risonanze, abbiamo visto anche la
+
+2260
+01:36:37.600 --> 01:36:43.679
+risonanza meccanica che è quella dei
+
+2261
+01:36:40.159 --> 01:36:43.679
+cristalli di quarzo.
+
+2262
+01:36:43.960 --> 01:36:49.320
+A voi se ci sono domande su tutto quello
+
+2263
+01:36:45.880 --> 01:36:49.320
+che abbiam detto.
+
+2264
+01:36:51.920 --> 01:36:57.360
+Filippo a te.
+
+2265
+01:36:55.119 --> 01:36:59.440
+Allora, non so se c'entra, quindi boh,
+
+2266
+01:36:57.360 --> 01:37:00.840
+cioè è un'ipotesi che faccio, ma vi
+
+2267
+01:36:59.440 --> 01:37:01.760
+chiedo riscontro, appunto.
+
+2268
+01:37:00.840 --> 01:37:04.679
+>> Vai.
+
+2269
+01:37:01.760 --> 01:37:07.760
+>> Eh, per il discorso della Ora mi sto
+
+2270
+01:37:04.679 --> 01:37:10.199
+affacciando un po' alla ai test,
+
+2271
+01:37:07.760 --> 01:37:12.480
+insomma, con il web SDR, eccetera, no?
+
+2272
+01:37:10.199 --> 01:37:15.920
+Per tanto per capire un po' eh fare
+
+2273
+01:37:12.480 --> 01:37:19.679
+radio ascolto. Eh, e c'è appunto il il
+
+2274
+01:37:15.920 --> 01:37:22.119
+famoso settaggio, quello per fare il la
+
+2275
+01:37:19.679 --> 01:37:25.360
+banda di ascolto wide o narrow, no? cioè
+
+2276
+01:37:22.119 --> 01:37:27.360
+più più larga o più stretta.
+
+2277
+01:37:25.360 --> 01:37:29.960
+Questo si fa tramite i filtri che si
+
+2278
+01:37:27.360 --> 01:37:31.679
+vedeva prima che però cambiano in base
+
+2279
+01:37:29.960 --> 01:37:33.480
+alla frequenza, cioè il comportamento
+
+2280
+01:37:31.679 --> 01:37:37.040
+alla fine in base a che frequenze le vai
+
+2281
+01:37:33.480 --> 01:37:40.560
+a gli vai ad applicare.
+
+2282
+01:37:37.040 --> 01:37:43.000
+Eh probabilmente insomma cambia un po'
+
+2283
+01:37:40.560 --> 01:37:45.960
+la la come approcciare il
+
+2284
+01:37:43.000 --> 01:37:47.560
+>> il il discorso. ci sono delle regole per
+
+2285
+01:37:45.960 --> 01:37:49.080
+cui
+
+2286
+01:37:47.560 --> 01:37:50.960
+si può definire, tra virgolette,
+
+2287
+01:37:49.080 --> 01:37:52.760
+teoricamente la larghezza di banda
+
+2288
+01:37:50.960 --> 01:37:55.440
+ottimale per l'ascolto in base alla
+
+2289
+01:37:52.760 --> 01:37:57.760
+frequenza di utilizzo oppure si va ad
+
+2290
+01:37:55.440 --> 01:38:00.480
+orecchio? Cioè, quando sento meglio è
+
+2291
+01:37:57.760 --> 01:38:02.360
+quella la la cosa giusta da usare, cioè
+
+2292
+01:38:00.480 --> 01:38:05.360
+la frequenza giusta in più da usare.
+
+2293
+01:38:02.360 --> 01:38:07.400
+>> Sì, sì, sì. Ci ci sono dei ci sono delle
+
+2294
+01:38:05.360 --> 01:38:10.199
+larghezze di banda che sono ottimali e
+
+2295
+01:38:07.400 --> 01:38:11.560
+ne esattamente l'argomento di mercoledì
+
+2296
+01:38:10.199 --> 01:38:14.920
+prossimo.
+
+2297
+01:38:11.560 --> 01:38:16.639
+>> Ah, ok. Eh, e però però c'è una però c'è
+
+2298
+01:38:14.920 --> 01:38:19.119
+una questione ancora a monte che in
+
+2299
+01:38:16.639 --> 01:38:23.239
+effetti, anzi, vi ringrazio per Allora,
+
+2300
+01:38:19.119 --> 01:38:23.239
+queste eh
+
+2301
+01:38:23.760 --> 01:38:28.119
+ehm
+
+2302
+01:38:25.920 --> 01:38:30.080
+Allora,
+
+2303
+01:38:28.119 --> 01:38:31.880
+noi in questi nostri incontri, in queste
+
+2304
+01:38:30.080 --> 01:38:33.440
+nostre lezioni, stiamo lavorando con
+
+2305
+01:38:31.880 --> 01:38:35.280
+l'obiettivo di passare l'esame,
+
+2306
+01:38:33.440 --> 01:38:37.520
+d'accordo? E quindi le cose di cui
+
+2307
+01:38:35.280 --> 01:38:40.840
+parliamo sono tutte e sole il programma
+
+2308
+01:38:37.520 --> 01:38:43.800
+ministeriale. Il programma ministeriale
+
+2309
+01:38:40.840 --> 01:38:46.599
+per certi versi è un po' datato, nel
+
+2310
+01:38:43.800 --> 01:38:49.000
+senso che considera solamente le radio,
+
+2311
+01:38:46.599 --> 01:38:51.760
+i ricevitori, i trasmettitori di tipo
+
+2312
+01:38:49.000 --> 01:38:53.440
+analogico, la supererodina, per chissà
+
+2313
+01:38:51.760 --> 01:38:55.840
+cosa vuol dire, per chi non lo sa, lo
+
+2314
+01:38:53.440 --> 01:39:00.199
+vedremo fra qualche lezione.
+
+2315
+01:38:55.840 --> 01:39:02.960
+da diversi anni è sul mercato un'altra
+
+2316
+01:39:00.199 --> 01:39:05.679
+tipologia di ricevitori che che sono
+
+2317
+01:39:02.960 --> 01:39:08.639
+quelli di cui appunto di cui appunto
+
+2318
+01:39:05.679 --> 01:39:11.719
+parlavi e che sono i cosiddetti SDR,
+
+2319
+01:39:08.639 --> 01:39:13.480
+software defined radio. Questi
+
+2320
+01:39:11.719 --> 01:39:16.040
+ricevitori funzionano con tipi di
+
+2321
+01:39:13.480 --> 01:39:18.440
+meccanismi assolutamente diversi dei
+
+2322
+01:39:16.040 --> 01:39:20.040
+ricevitori, diciamo, analogico e le
+
+2323
+01:39:18.440 --> 01:39:21.920
+larghezze di banda vengono fatte in
+
+2324
+01:39:20.040 --> 01:39:24.360
+maniera assolutamente diversa usando
+
+2325
+01:39:21.920 --> 01:39:27.159
+filtri numerici e non filtri LC come
+
+2326
+01:39:24.360 --> 01:39:30.040
+invece nelle radio di tipo tradizionale.
+
+2327
+01:39:27.159 --> 01:39:32.840
+Tutto questo mondo delle radio digitali,
+
+2328
+01:39:30.040 --> 01:39:34.840
+non so se per fortuna o purtroppo, però
+
+2329
+01:39:32.840 --> 01:39:36.560
+non è compreso nel programma d'esame del
+
+2330
+01:39:34.840 --> 01:39:39.080
+ministero
+
+2331
+01:39:36.560 --> 01:39:42.400
+e è e diciamo è un mondo affascinante e
+
+2332
+01:39:39.080 --> 01:39:44.119
+poi sono anche le radio più più moderne,
+
+2333
+01:39:42.400 --> 01:39:45.840
+però in pratica non ne parliamo perché
+
+2334
+01:39:44.119 --> 01:39:47.560
+ci vorrebbero comunque alcune lezioni,
+
+2335
+01:39:45.840 --> 01:39:49.800
+no, per entrare in tutti i meccanismi di
+
+2336
+01:39:47.560 --> 01:39:53.800
+funzionamento dell SVR eccetera, però
+
+2337
+01:39:49.800 --> 01:39:56.480
+non fa parte del programma ministeriale,
+
+2338
+01:39:53.800 --> 01:39:58.400
+quindi all'atto quindi all'atto pratico
+
+2339
+01:39:56.480 --> 01:40:00.719
+in tutto diciamo in tutte le radio, ad
+
+2340
+01:39:58.400 --> 01:40:02.639
+esempio, tanto per tornare in pratica,
+
+2341
+01:40:00.719 --> 01:40:05.639
+c'è una manopolina da qualche parte che
+
+2342
+01:40:02.639 --> 01:40:07.960
+dice io io io regolo la larghezza di
+
+2343
+01:40:05.639 --> 01:40:09.080
+banda con cui ascolto, la faccio un po'
+
+2344
+01:40:07.960 --> 01:40:10.199
+più larga o la faccio un po' più
+
+2345
+01:40:09.080 --> 01:40:12.159
+stretta.
+
+2346
+01:40:10.199 --> 01:40:13.719
+Nelle radio analogiche questa cosa viene
+
+2347
+01:40:12.159 --> 01:40:15.239
+fatta in un certo modo. Nelle radio
+
+2348
+01:40:13.719 --> 01:40:18.280
+digitali viene fatta in un modo proprio
+
+2349
+01:40:15.239 --> 01:40:20.360
+radicalmente diverso. Sono due mondi non
+
+2350
+01:40:18.280 --> 01:40:22.760
+neanche lontanamente parenti dal punto
+
+2351
+01:40:20.360 --> 01:40:24.760
+di vista elettronico.
+
+2352
+01:40:22.760 --> 01:40:26.679
+Noi vedremo in dettaglio per benino come
+
+2353
+01:40:24.760 --> 01:40:28.840
+funziona nelle radio analogiche su cui
+
+2354
+01:40:26.679 --> 01:40:31.440
+poi vi verranno le varie domande dal
+
+2355
+01:40:28.840 --> 01:40:33.199
+MIM, no? Poi eventualmente si potrà
+
+2356
+01:40:31.440 --> 01:40:35.400
+fare, volendo a fine corso una serata
+
+2357
+01:40:33.199 --> 01:40:35.880
+sul digitale, ben volentieri, però è
+
+2358
+01:40:35.400 --> 01:40:38.320
+tutto,
+
+2359
+01:40:35.880 --> 01:40:41.239
+>> no, ma era era solo era solo per capire
+
+2360
+01:40:38.320 --> 01:40:44.480
+se ci sono tra virgolette delle
+
+2361
+01:40:41.239 --> 01:40:46.000
+larghezze di ascolto, diciamo, ottimali
+
+2362
+01:40:44.480 --> 01:40:48.520
+in base alla frequenza. Cioè, se per
+
+2363
+01:40:46.000 --> 01:40:50.880
+esempio devo sentire frequenze le 7 MHz
+
+2364
+01:40:48.520 --> 01:40:52.440
+hanno una larghezza, se sento le 143
+
+2365
+01:40:50.880 --> 01:40:53.360
+hanno un'altra frequen un'altra
+
+2366
+01:40:52.440 --> 01:40:55.239
+larghezza.
+
+2367
+01:40:53.360 --> 01:40:57.840
+>> Allora, sì, sì e no. Sì e no. Mercoledì
+
+2368
+01:40:55.239 --> 01:41:00.679
+prossimo se ne parla. Vabbè, se ne può,
+
+2369
+01:40:57.840 --> 01:41:03.599
+ci aggiorniamo. Sì, è un bellomento.
+
+2370
+01:41:00.679 --> 01:41:06.080
+>> Luca, a te.
+
+2371
+01:41:03.599 --> 01:41:08.320
+>> Sì, eh, sempre per i filtri. Sugli
+
+2372
+01:41:06.080 --> 01:41:10.159
+scanner che tipo di filtri vengano
+
+2373
+01:41:08.320 --> 01:41:12.719
+usati?
+
+2374
+01:41:10.159 --> 01:41:14.960
+>> Eh, sugli, diciamo, l'ingresso degli
+
+2375
+01:41:12.719 --> 01:41:16.760
+scanner normalmente è a banda larga, è a
+
+2376
+01:41:14.960 --> 01:41:19.599
+banda larghissima
+
+2377
+01:41:16.760 --> 01:41:23.599
+perché metti uno scanner che che faccia,
+
+2378
+01:41:19.599 --> 01:41:25.719
+non so, 100900 me, per intenderci.
+
+2379
+01:41:23.599 --> 01:41:28.560
+Probabilmente quella banda lì, diciamo,
+
+2380
+01:41:25.719 --> 01:41:32.320
+è affettata in due, tre grossi filtri
+
+2381
+01:41:28.560 --> 01:41:32.320
+molto molto larghi
+
+2382
+01:41:32.719 --> 01:41:37.520
+e quindi, cioè
+
+2383
+01:41:35.040 --> 01:41:40.920
+che tipo di filtri sono? Sono
+
+2384
+01:41:37.520 --> 01:41:44.719
+>> sono dei passabanda larghissimi, eh.
+
+2385
+01:41:40.920 --> 01:41:46.840
+>> Ok, sono dei passabanda larghissimi.
+
+2386
+01:41:44.719 --> 01:41:49.800
+>> Ok, grazie.
+
+2387
+01:41:46.840 --> 01:41:53.480
+Invece invece nelle radio in onde corte,
+
+2388
+01:41:49.800 --> 01:41:56.440
+diciamo, i filtri si tende a fare più
+
+2389
+01:41:53.480 --> 01:41:59.040
+stretti che si può,
+
+2390
+01:41:56.440 --> 01:42:02.800
+più stretti che si può perché perché
+
+2391
+01:41:59.040 --> 01:42:05.599
+funziona tutto meglio. E poi poi quando
+
+2392
+01:42:02.800 --> 01:42:07.239
+quando arriveremo a parlare di dei
+
+2393
+01:42:05.599 --> 01:42:09.599
+ricevitori, magari vi faccio vedere un
+
+2394
+01:42:07.239 --> 01:42:11.320
+po' di pubblicità degli apparati e
+
+2395
+01:42:09.599 --> 01:42:13.000
+leggendo bene la pubblicità si capisce
+
+2396
+01:42:11.320 --> 01:42:15.560
+tante cose su come le radio sono fatte
+
+2397
+01:42:13.000 --> 01:42:16.520
+dentro. Ne parleremo.
+
+2398
+01:42:15.560 --> 01:42:19.679
+>> Grazie.
+
+2399
+01:42:16.520 --> 01:42:19.679
+a te
+
+2400
+01:42:20.080 --> 01:42:23.880
+altre domande?
+
+2401
+01:42:25.960 --> 01:42:29.840
+>> Paolo, io interromperei la
+
+2402
+01:42:28.000 --> 01:42:32.280
+registrazione.
+
+2403
+01:42:29.840 --> 01:42:34.639
+>> Vai, vai, vai.
+
+2404
+01:42:32.280 --> 01:42:37.679
+Allora, signori, e ricordatevi tenere d'
+
+2405
+01:42:34.639 --> 01:42:37.679
+occhio lo spam perché

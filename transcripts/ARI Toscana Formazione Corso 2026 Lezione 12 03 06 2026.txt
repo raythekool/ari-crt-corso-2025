@@ -1,0 +1,1954 @@
+00:02 Eh,
+00:04 >> eccola
+00:04 >> la registrazione. C'è Paolo.
+00:06 >> Grazie. Grazie. Allora, intanto prima di
+00:08 entrare sulle slide dedichiamo un minuto
+00:11 a fare da da bussola, cioè chi siamo,
+00:14 dove siamo, dove stiamo andando. Siamo
+00:17 praticamente al termine, siamo molto
+00:19 vicini al termine della parte
+00:20 elettronica del programma, cioè abbiamo
+00:22 visto tutti i componenti di base,
+00:24 transistor, fed, valvole, resistenze,
+00:26 condensatori e così via. Con la lezione
+00:29 di stasera, eh metteremo a fuoco quali
+00:33 sono i mattoncini che compongono gli
+00:35 schemi a blocchi di un trasmettitore e
+00:37 di un ricevitore che saranno oggetto
+00:39 delle prossime due lezioni. Nella
+00:41 prossima lezione parleremo dei
+00:42 trasmettitori
+00:44 e in quella ancora successiva dei
+00:46 ricevitori.
+00:47 E come sapete
+00:51 nel programma del Ministero è necessario
+00:53 sapere come funziona a grandi linee un
+00:56 trasmettitore, un ricevitore a livello
+00:58 semplicemente di schema blocchi. Quindi
+01:00 si deve avere una certa consapevolezza
+01:03 di dei blocchi che fanno fanno
+01:08 costituiscono, diciamo, un
+01:09 trasmettitore, un ricevitore e cosa
+01:11 fanno quei blocchi. E questo lo abbiamo
+01:14 abbiamo già cominciato a vederlo
+01:15 mercoledì scorso parlando degli
+01:16 amplificatori. Stasera mettiamo gli
+01:18 ultimi ritocchi al blocchetto
+01:20 amplificatore, immaginando che anche lui
+01:22 sia un mattoncino del L'ego che poi in
+01:24 una specie di cascata di eh stadi uno
+01:28 dietro l'altro comporranno i i
+01:30 trasmettitori ricevitori di cui
+01:31 parleremo appunto nelle prossime
+01:33 puntate. Fatto questo, completeremo il
+01:36 programma e praticamente ci saluteremo
+01:39 per le ferie o quasi con una serata
+01:41 sugli strumenti di misura, quindi una
+01:43 serata molto tranquilla, parleremo di
+01:45 voltmetri, amperometri, eccetera. Quindi
+01:47 stasera ci tuffiamo che metto lo schermo
+01:50 in condivisione.
+01:54 Buonasera comunque a tutti. Non vi ho
+01:56 neanche salutati all'inizio della
+01:58 lezione. Signore e signori, ben
+02:00 ritrovati.
+02:02 Ed eccoci qua. Stasera parleremo
+02:07 riparleremo degli amplificatori per
+02:09 aggiungere qualche altra informazione.
+02:11 Parleremo degli oscillatori. Anche,
+02:14 diciamo, gli oscillatori sono
+02:15 assolutamente necessari sia nei
+02:17 trasmettitori che nei ricevitori e poi
+02:20 faremo una velocissima chiacchierata su
+02:23 alcuni componenti digitali, quindi non
+02:26 analogici, ma digitali e parleremo delle
+02:28 porte logiche. Allora, cominciamo.
+02:31 Gli amplificatori. Dunque, in tutti in
+02:34 tutti i trasmettitori e in tutti i
+02:36 ricevitori ci sono degli amplificatori
+02:38 di bassa frequenza, quindi negli schemi
+02:40 a blocchi che andremo a costruire
+02:41 sicuramente ci sono degli amplificatori
+02:43 di bassa frequenza. Cosa si intende per
+02:45 bassa frequenza? La bassa frequenza in
+02:48 generale si riferisce
+02:51 il evidenziatore si riferisce alle
+02:54 frequenze che sono chiamate audio,
+02:57 quindi frequenze che in generale vanno
+02:59 da, diciamo, 10 50 100 Hz fino a 5000,
+03:05 10.000 12.000 Hz. le frequenze in
+03:07 qualche modo che fanno che compongono la
+03:10 banda acustica, cioè in altre parole
+03:11 quelle che un orecchio può ascoltare.
+03:14 E questo si intende per bassa frequenza
+03:17 nel diciamo nel mondo dell'elettronica,
+03:20 nel mondo della radio. Quando si parla
+03:21 di un amplificatore di bassa frequenza,
+03:23 è un amplificatore che amplifica i
+03:25 segnali della voce umana o degli
+03:27 strumenti musicali, in generale segnali
+03:29 che possono essere ascoltati
+03:30 dall'orecchio. Mh. Mentre invece i
+03:33 trasmettitori poi avranno degli
+03:34 amplificatori anche in alta frequenza
+03:36 che diciamo amplificheranno segnali
+03:38 dell'ordine dei MHz che poi serviranno
+03:40 per l'antenna, le onde radio, eccetera
+03:42 eccetera. Allora, questi amplificatori
+03:44 di bassa frequenza di norma non
+03:47 contengono circuiti risonanti. Circuiti
+03:49 risonanti con induttanza, capacità,
+03:51 ovvero in altre parole non sono
+03:53 selettivi, anche perché devono
+03:55 amplificare in maniera abbastanza
+03:56 uniforme la banda audio da 50-100 Hz
+03:59 fino a 10.000 Hz, per esempio. E
+04:02 ovviamente, come tutti gli
+04:03 amplificatori, hanno in questo
+04:06 blocchetto degli elementi attivi.
+04:08 L'elemento attivo si intende qualcosa
+04:10 che amplifica, quindi o un transistor o
+04:12 un fet, un mosset, una valvola
+04:15 e se vogliamo il blocchetto è è fatto
+04:18 come si può vedere sullo sfondo. In
+04:20 sostanza c'è un ingresso. A questo
+04:22 ingresso si collega il famoso stadio a
+04:24 monte di cui abbiamo parlato tanto e qui
+04:26 potrebbe essere appunto un microfono, il
+04:29 microfono che riceve la nostra la nostra
+04:32 voce.
+04:34 I terminali del microfono entrano nel
+04:35 nostro amplificatore.
+04:38 Il nostro amplificatore di bassa
+04:39 frequenza una tensione di alimentazione
+04:42 e qua c'è l'uscita
+04:45 che potrebbe essere attaccata a un
+04:47 piccolo altoparlante. Diciamo magari un
+04:49 transistor non basta per pilotare bene
+04:51 un altoparlante a partire dal microfono,
+04:53 ma comunque l'idea è l'idea più o meno è
+04:56 quella. lo stadio vale un amplificatore
+04:58 e puoi potrebbe essere un altoparlante.
+05:00 Oppure un altro transistor, sempre
+05:03 amplificatore di bassa frequenza, che
+05:05 amplifica ulteriormente
+05:07 la la la mia voce, la nostra voce e
+05:10 quindi due o anche tre transistor, come
+05:13 si dice in cascata uno dietro l'altro
+05:15 che amplificano sempre più la nostra
+05:17 voce fino ad arrivare al livello che
+05:19 vogliamo. E questo è uno dei mattoncini,
+05:22 semplicissimo, no? L'amplificatore di
+05:24 bassa frequenza. bassa frequenza uguale
+05:26 frequenze audio
+05:28 e poi ovviamente ci sono gli
+05:29 amplificatori di alta frequenza, per
+05:31 esempio, e diciamo prima il collega
+05:34 parlava che stava facendo ascolto nella
+05:36 banda dei 144 MHz, 432 MHz. Quelle sono
+05:41 bande che fanno parte del mondo delle
+05:43 alte frequenze parlando in termini
+05:47 termini generali, quindi alta frequenza
+05:49 significa eh 100.000, 1 milione, 10
+05:53 milioni di herz e così via. Questi
+05:55 amplificatori cosa fanno? Esattamente il
+05:58 lavoro degli amplificatori di bassa
+06:00 frequenza, però questi amplificano le
+06:02 frequenze alte. I segnali chiamati anche
+06:05 a radiofrequenza, RF, radiofrequenza,
+06:08 alta frequenza, AF sono praticamente
+06:10 sinonimi. Nelle domande si possono
+06:13 trovare, diciamo, entrambe queste sile:
+06:16 radiofrequenza e alta frequenza.
+06:18 Quindi queste sono le frequenze non
+06:20 audio al di sopra delle audio. La cosa
+06:23 caratteristica di questi amplificatori è
+06:25 che quasi sempre hanno al loro interno
+06:29 dei circuiti risonanti.
+06:33 Sono spesso dei circuiti risonanti.
+06:35 Vedete che qui attorno al solito
+06:38 transistor che fa da amplificatore ci
+06:40 sono due circuiti risonanti, uno in
+06:42 ingresso. Vedete che qua c'è un circuito
+06:45 con un condensatore e un induttore in
+06:47 parallelo. Quindi questo è un circuito
+06:49 risonante parallelo e anche se disegnato
+06:52 in maniera un po' strana c'è un circuito
+06:54 risonante anche in uscita, anche qui
+06:56 condensatore induttore.
+06:58 E questi circuiti risonanti in ingresso
+07:01 in uscita fanno sì che, come potete
+07:03 leggere qua, l'amplificatore diventi
+07:06 selettivo. Che vuol dire che un
+07:08 amplificatore è selettivo? vuol dire che
+07:12 amplifica meglio alcune frequenze ed
+07:14 altre le amplifica meno o non le
+07:16 amplifica per niente. Questa può essere
+07:18 una tipica curva di risposta di un
+07:20 amplificatore ad alta frequenza, come
+07:22 abbiamo visto nella slide precedente.
+07:24 Praticamente questo amplificatore
+07:26 qui sull'asse verticale immaginiamo che
+07:29 abbiamo la amplificazione del transistor
+07:32 dell'amplificatore o meglio o il suo
+07:34 guadagno. Vedete che in questa zona di
+07:37 frequenze l'amplificazione è molto alta.
+07:40 Qui l'asse, l'asse orizzontale, l'asse
+07:42 dell'ascisse,
+07:44 eh, indica le frequenze del segnale, no?
+07:47 Un asse che 100.000 Hz, 1 milione di Hz,
+07:51 cioè 1 MHz, 10 MHz, 100 MHz. Si potrebbe
+07:55 dire che questo amplificatore, grosso
+07:57 modo, è centrato attorno ai 9-10 MHz,
+08:02 perché in questa zona qui
+08:04 l'amplificatore è il massimo del
+08:06 guadagno.
+08:07 Quanto più ci si allontana da questa
+08:09 frequenza, diciamo, di 9 MHz,
+08:12 immaginiamo che qui eh il massimo di
+08:15 questa curva sia circa qua, una
+08:17 frequenza di circa 9 MHz. Quanto più ci
+08:20 si allontana in basso o in alto,
+08:23 l'amplificazione cala e questo è
+08:25 l'effetto dei circuiti risonanti, della
+08:27 selettività introdotta dai circuiti
+08:29 risonanti. Quindi questa amplificazione
+08:31 che è bella alta a 9 MHz, se mi sposto
+08:33 più in basso a 1 MHz anche meno, cala in
+08:37 maniera molto netta, sia al scendere che
+08:41 al salire della frequenza. Quindi gli
+08:44 amplificatori ad alta frequenza
+08:45 amplificano pure loro, ma molto spesso
+08:48 sono selettivi. Vengono fatti selettivi
+08:51 per molti motivi, intanto per eh
+08:54 eliminare i segnali che non si vogliono,
+08:56 i segnali fuoriba, e poi perché un
+08:58 amplificatore eh selettivo può avere un
+09:01 guadagno maggiore di un amplificatore
+09:03 non selettivo. Questo poi ne parleremo.
+09:09 Questi amplificatori hanno ovviamente un
+09:12 fattore di di amplificazione. Eh, quindi
+09:14 si può dire che un che eh
+09:19 il il mio il nostro amplificatore
+09:23 aumenta a una certa amplificazione in
+09:25 potenza
+09:27 e questo è il rapporto fra la potenza in
+09:29 uscita e la potenza in ingresso. Quindi
+09:31 se nell'amplificatore di cui parlavo
+09:33 prima ho un ingresso, diciamo, 1 mW e
+09:36 un'uscita di 20 mW, ho un ho
+09:40 un'amplificazione in potenza di 20 V di
+09:43 20 V. Questi 20 V in potenza, come
+09:46 sappiamo, lo possiamo esprimere anche in
+09:48 decibel. 20 volte, vi ricordo che è 13
+09:52 dB + 13 dB come applicazione. Perché 13?
+09:56 Perché 20 volte significa fare un
+09:59 moltiplicato 10 e un moltiplicato 2.
+10:02 Ricordate quando avevamo giocato con i
+10:04 mattoncini dei decibel? Quindi un per 10
+10:07 che sono 10 dB e un raddoppio che sono i
+10:10 3 dB.
+10:12 Oppure si può dare un'amplificazione in
+10:15 tensione. Quindi questo il mio
+10:17 amplificatore amplifica la tensione di
+10:20 ingresso di 50 V, per esempio, 1 mV in
+10:23 ingresso, 50 mV in uscita. Questo
+10:25 fattore di amplificazione a volte è
+10:27 chiamato guadagno, il guadagno degli
+10:30 amplificatori. Tutti gli amplificatori
+10:32 guadagnano, non nascono per questo,
+10:34 devono amplificare in qualche modo il
+10:35 segnale.
+10:37 Un altro parametro importante degli
+10:39 amplificatori è il rendimento. Il
+10:41 rendimento, la cosa migliore da leggere
+10:44 è questo esempio qua sotto.
+10:48 Ho un amplificatore che consuma dalla
+10:51 rete elettrica o dalle mie batterie 100
+10:53 W.
+10:55 Consumando, usando, impiegando questi
+10:58 100 W fornisce 40 W in uscita.
+11:03 Quindi questo amplificatore è un
+11:04 rendimento del 40%. Qua in alto avete
+11:07 definito la formula. Cos'è il
+11:09 rendimento? è il rapporto espresso in
+11:11 percentuale fra la potenza in uscita
+11:14 dell'amplificatore e quanta potenza
+11:16 l'amplificatore consuma
+11:18 dall'alimentazione. In formula il
+11:20 rendimento è eh, scusate, ho perso il
+11:24 cursore. Il rendimento è P out diviso
+11:27 potenza d'alimentazione, potenza
+11:28 d'uscita diviso potenza d'alimentazione.
+11:30 rendimento eh si esprime con la lettera
+11:34 greca eh
+11:38 voto di memoria un et anche questo no,
+11:41 un niesta
+11:43 è una lettera greca che
+11:44 >> sì è un eta è uneta confermo.
+11:46 >> Oh, grazie grazie grazie che esprime il
+11:51 che indica, diciamo, il rendimento di un
+11:53 amplificatore.
+11:57 E per ora mi mi fermo. Un attimo di
+11:59 pausa. Tutto chiaro finora? Qualche
+12:01 domanda? Per ora abbiamo visto
+12:04 solamente, se vogliamo, le definizioni
+12:06 di base, no? Ci sono gli amplificatori
+12:08 di bassa frequenza, di alta frequenza,
+12:09 quelli di alta frequenza sono selettivi
+12:12 il più delle volte e hanno un certo
+12:14 guadagno. Questo guadagno lo posso
+12:16 esprimere in potenza, lo posso esprimere
+12:19 in in volte di tensione, in
+12:21 amplificazione di tensione e lo posso
+12:23 esprimere in decibel.
+12:26 Proseguo e adesso entriamo nel
+12:31 Allora,
+12:33 ci sono dal punto di vista del
+12:36 rendimento ci sono tre classi di
+12:40 amplificazione.
+12:42 Un amplificatore, usando gli stessi
+12:44 componenti, diciamo, lo stesso
+12:46 transistor eccetera, può lavorare in
+12:48 classe A oppure in classe B oppure in
+12:52 classe C.
+12:54 Che vuol dire questa cosa strana?
+12:57 Intanto, come si definiscono queste tre
+12:59 classi? Nella classe A significa che nel
+13:01 dispositivo, immaginiamo che il
+13:03 dispositivo sia un transistor, però
+13:05 dispositivo in termine generale, no?
+13:07 Queste queste frasi valgono in generale,
+13:09 sia che si parli di valvard, di
+13:10 transistor, di fet e di mospet.
+13:13 Eh, un amplificatore in classe A quando
+13:16 nel dispositivo scorre corrente per
+13:18 tutto il ciclo del segnale in ingresso.
+13:21 Cosa si intende per ciclo del segnale di
+13:23 ingresso? Immaginiamo che il segnale di
+13:25 ingresso sia la classica sinusoide
+13:29 che cerco di rappresentare qua.
+13:34 Una sinusoide, ricordate? l'avevamo
+13:35 vista sviluppata con un punto con un che
+13:39 gira su una circonferenza
+13:41 e avevamo visto che un ciclo intero di
+13:44 nasunisoide corrisponde a 360°.
+13:48 Quindi la sinusoide, il segnale di
+13:50 ingresso del nostro amplificatore va dai
+13:53 da dei momenti in cui il segnale è molto
+13:55 alto, positivo, dei momenti in cui il
+13:57 segnale è basso. Negli amplificatori in
+14:00 classe A nel dispositivo scorricorrente
+14:02 sempre, sia quando il segnale è più
+14:03 forte, sia quando il segnale è più
+14:05 debole. Invece negli amplificatori in
+14:07 classe B del dispositivo scorre corrente
+14:10 solo per metà del ciclo del segnale in
+14:12 ingresso, ad esempio solo per le
+14:14 semionde positive. In classe C
+14:16 addirittura scorre corrente del mio
+14:19 amplificatore
+14:20 per meno di 180° del segnale di
+14:23 ingresso. E adesso queste tre classi di
+14:26 funzionamento ve le descrivo un pochino
+14:28 meglio e vi spiego il perché. Eh, questo
+14:32 concetto che stiamo vedendo è importante
+14:35 soprattutto quando si parla dei dei
+14:36 trasmettitori.
+14:38 Per fare questo ragionamento
+14:40 ci serve di ricordarsi
+14:43 ehm
+14:45 il concetto di curva caratteristica.
+14:47 Questa è una curva caratteristica di una
+14:49 valvola, ma assomiglia molto anche a
+14:50 quella di di un fet o di un mosfet. In
+14:52 ogni caso è è un esempio, eh, e quindi
+14:56 quello che vediamo su questa va bene di
+14:58 fatto per tutti i dispositivi. Allora,
+15:00 tutti i dispositivi, immaginiamo che sia
+15:03 un transistor o o una valvola. si è
+15:05 detto che noi possiamo regolare come
+15:09 funziona il transistor tramite il
+15:11 terminale di ingresso, tramite la base
+15:14 se fosse un transistor. Allora, a
+15:16 seconda della tensione che io applico
+15:18 alla base del transistor, avrò tutta una
+15:21 zona, ed è questa qua sotto in cui nel
+15:24 transistor non scorre corrente.
+15:27 In questa regione si dice che il
+15:29 transistor è interdetto. Un dispositivo
+15:31 è interdetto quando non ci scorre
+15:34 corrente. come se fosse un interruttore
+15:36 aperto, non scorre corrente nel
+15:39 transistor.
+15:41 A questo punto immaginiamo che io pian
+15:43 pianino questa la tensione di base che
+15:46 do al mio transistor la aumento andando
+15:49 in questa direzione e arrivo a un certo
+15:52 punto che è qua in cui comincia nel mio
+15:56 transistor a scorrere corrente, la
+15:58 corrente I che è indicata qua sull'asse
+16:01 verticale di questo schema.
+16:04 nella nella prima fase, diciamo che in
+16:07 in tutta questa zona qua in cui io sto
+16:10 cominciando a far scorrere corrente nel
+16:13 mio transistor e vedete che aumentando
+16:16 la polarizzazione di base di corrente ne
+16:18 scorre pian pianino sempre più fino ad
+16:20 arrivare a questo punto, vedete che la
+16:24 crescita della corrente che scorre nel
+16:26 transistor non è non è lineare. questa
+16:29 curva che potrebbe assomigliare a un
+16:32 pezzo di parabola, un un esponenziale.
+16:36 Comunque lasciamo perdere come si chiama
+16:37 la curva. è comunque una curva curva
+16:41 piegata,
+16:43 non rettilinea. Poi si arriva a un punto
+16:46 che è questo dove da qui in poi se io
+16:50 continuo aumentare
+16:52 la tensione di base, quindi la corrente
+16:54 di base,
+16:57 la corrente che scorre nel mio
+16:59 transistor mi aumenta in maniera
+17:02 lineare. mi riferisco a tutta questa
+17:04 parte qua della curva.
+17:08 In questa parte della curva il mio
+17:10 dispositivo, che sia un transistor, un
+17:12 fetto e una valvola ha un'amplificazione
+17:15 cosiddetta lineare, cioè che segue in
+17:17 maniera assolutamente proporzionale le
+17:19 variazioni del segnale di ingresso.
+17:21 Questo invece non succede qua. Quando
+17:23 c'è una curva, il segnale di ingresso,
+17:26 il segnale di uscita non sono il
+17:27 rapporto lineare fra di loro. Poi lo
+17:29 vedremo meglio. A un certo punto io
+17:33 continuo a salire, oltrepasso tutta
+17:36 questa zona di funzionamento lineare, a
+17:38 un certo punto arrivo quassù e se io
+17:40 continuo ad aumentare la corrente che
+17:42 diciamo la tensione che io do alla base
+17:44 del mio transistor, a un certo punto il
+17:46 transistor come si dice entra in
+17:47 saturazione, cioè questa corrente di
+17:51 uscita non riesce più a crescere in
+17:53 maniera lineare. il dispositivo si
+17:55 satura,
+17:57 cioè arriva alla corrente massima che
+17:59 può che può erogare, che può scorrere
+18:02 nel transistor stesso e da lì in poi non
+18:04 cresce più. E questo vale più o meno in
+18:07 tutti i dispositivi. C'è una zona di
+18:09 interdizione in basso in cui non scorre
+18:13 corrente, una zona lineare che è quella
+18:16 che di solito ci interessa di più in cui
+18:18 il rapporto farà ingresso e uscita e
+18:20 proporzionale è una zona di saturazione
+18:22 dove il rapporto di nuovo non è più
+18:24 proporzionale. Siamo arrivati proprio al
+18:26 tetto di quello che il dispositivo può
+18:28 fare. Allora, vediamo gli amplificatori
+18:31 in classe A. si è detto che la corrente
+18:34 scorre nel dispositivo per tutto il
+18:36 ciclo del segnale in ingresso.
+18:39 Come funziona questa cosa? Questa è la
+18:41 stessa curva di prima.
+18:44 Eh, io polarizzo il mio dispositivo
+18:48 tramite le resistenze che ci metto
+18:50 attorno, tramite le alchimie, diciamo,
+18:52 di progettista di cui si parlava per
+18:54 farlo lavorare in situazione di riposo
+18:57 in questo punto qua, in situazione di
+18:59 riposo, ovvero intendo senza segnale.
+19:02 Quindi mi metto, come potete leggere
+19:04 qua, al centro della zona lineare. Al
+19:07 centro della zona lineare qua, quindi al
+19:10 centro di questa retta che vi ho fatto
+19:11 vedere prima. Se arriva un segnale in
+19:14 ingresso e il segnale di ingresso è
+19:15 questo,
+19:18 vedete che
+19:20 allora quando il segnale è di questo
+19:22 valore, quindi qualche segnale è è il
+19:25 suo zero, salendo qua sulla curva arrivo
+19:29 qui e ho questa tensione in uscita.
+19:32 Quando il mio segnale di ingresso arriva
+19:36 qua
+19:38 al massimo del suo valore positivo,
+19:43 riporto tramite la la mia retta e il
+19:46 segnale mi arriva qua
+19:48 e posso continuare, no? Potrei fare
+19:50 questo giochetto per ogni punto della
+19:52 mia sino solide quando il segnale qua ho
+19:55 questo valore di della tensione in
+19:57 uscita. Vedete che eh questo segnale di
+20:00 ingresso è di ampiezza tale che il
+20:03 transistor lavora sempre nel tratto in
+20:07 cui il suo funzionamento è lineare, cioè
+20:09 in questo tratto di curva qua. Questa è
+20:12 questo è un amplificatore in classe A.
+20:15 L'amplificatore in classe A è quello più
+20:17 fedele in assoluto perché il segnale di
+20:20 uscita è assolutamente proporzionale
+20:23 rispetto al segnale di ingresso. Qui
+20:25 siamo nel campo, fatemi dire, dell'alta
+20:27 fedeltà. Si potrebbe dire, no? C'è
+20:29 proprio una riproduzione fedele del
+20:32 segnale senza distorsioni. Il mio
+20:34 segnale di ingresso viene amplificato e
+20:38 riprodotto in uscita senza distorsioni.
+20:40 E questo avviene perché il transistor o
+20:43 il dispositivo lavora in questa regione
+20:46 lineare.
+20:48 Questo tipo di funzionamento è ottimo,
+20:50 però ha un prezzo da pagare e il prezzo
+20:53 lo leggete lo leggete qua. Il rendimento
+20:57 di questo tipo di amplificatori è molto
+20:59 basso, può andare dal 5% fino a un
+21:03 massimo del 2025%.
+21:07 E quindi la maggior parte della potenza
+21:10 che si assorbe dall'alimentazione in
+21:12 questi amplificatori in realtà viene
+21:14 dissipata in calore dal dispositivo, dal
+21:17 transistor. Solo una parte molto bassa
+21:20 si trasforma in segnali di uscita.
+21:24 Questo però che da un certo punto di
+21:28 vista potrebbe essere un problema all
+21:30 latto pratico non lo è perché questi
+21:32 tipi di amplificatori normalmente
+21:34 vengono usati quando si amplificano
+21:36 segnali bassi. Immaginiamo i segnali che
+21:38 arrivano dal microfono di cui parlavamo
+21:40 prima o arriva da un'antenna della radio
+21:43 perché sono segnali di che si misurano
+21:46 in microvolt in decine di microvolt e
+21:49 quindi i segnali che vengono amplificati
+21:52 nella grande maggioranza dei circuiti
+21:54 che fanno parte sia di un trasmettitore
+21:56 che di un ricevitore sono di ampiezza,
+21:59 sono di potenza molto debole.
+22:01 Di conseguenza i gli amplificatori
+22:04 assorbono dall'alimentazione una potenza
+22:06 molto debole nell'ordine dei mill, per
+22:09 cui il rendimento all'atto pratico non
+22:12 se il rendimento è basso non ho un
+22:15 grande problema perché in realtà il
+22:17 rendimento è basso, ma ma è ma un
+22:20 rendimento basso di un dispositivo che
+22:21 consuma veramente poca poca potenza e
+22:24 quindi
+22:26 vi va bene così. accetto questo
+22:28 rendimento basso perché voglio comunque
+22:30 un'amplificazione di tipo lineare.
+22:34 Proseguo, vi faccio vedere altre due
+22:36 cose e poi vi do la parola per domande.
+22:40 L'amplificatore in classe B, come vi
+22:43 dicevo prima, la corrente scorre per
+22:45 metà del ciclo del segnale in ingresso e
+22:48 il grande vantaggio di questo
+22:50 amplificatore, come vediamo subito, è
+22:52 che il rendimento sale attorno al 60%.
+22:55 Cos'è la classe B? Vediamola sullo
+22:56 stesso schema che abbiamo visto prima.
+23:00 Vedete che questa volta il punto di
+23:02 lavoro nella curva caratteristica è
+23:04 stato fissato qui.
+23:07 Questo è il mio segnale di ingresso. Le
+23:10 semionde, diciamo, positive del mio
+23:12 segnale di ingresso, queste di fatto
+23:15 portano il mio dispositivo nel regime
+23:18 nella zona di funzionamento lineare e
+23:20 quindi queste due semionde vengono
+23:21 amplificate in maniera molto fedele che
+23:25 sono qua e qua. Invece vedete che la
+23:29 semionda negativa, questa porta il
+23:32 transistor molto verso l'interdizione,
+23:35 quindi la semionda viene amplificata in
+23:37 maniera assolutamente distorta. Vedete
+23:39 che il segnale di uscita non somiglia
+23:41 neanche un po' al segnale di ingresso,
+23:43 mentre invece qui avevamo una forma del
+23:46 segnale di ingresso eh assolutamente
+23:49 identica, scusate, una forma del segnale
+23:52 d'uscita assolutamente identica a quella
+23:54 del segnale ingresso. Qui
+23:55 nell'amplificatore in classe B questo
+23:58 >> non succede,
+24:03 però il vantaggio di questo tipo di
+24:04 amplificatore è che il rendimento sale
+24:07 molto, diventa del 50 al 60% e quindi se
+24:11 dovessi usare un amplificatore per eh
+24:16 ottenere in uscita delle alte potenze
+24:19 10, 50, 100 W e anche di più,
+24:21 bisognerebbe per forza di cose che
+24:23 andassi verso questo tipo di
+24:25 amplificatore, ma uno di uno potrebbe
+24:27 dire giustamente come faccio poi eh cosa
+24:32 me ne faccio di un segnale di uscita
+24:33 così distorto perché volendolo ascoltare
+24:36 magari negli altoparlanti o volendo
+24:38 trasmetterlo via radio effettivamente è
+24:40 un segnale assolutamente molto distorto.
+24:42 Quello che viene fatto normalmente è
+24:44 usare due di quei dispositivi
+24:47 in una configurazione che è chiamata di
+24:49 amplificatore pushpol.
+24:53 Come potete leggere qua,
+24:56 pushpol in inglese sono due parole che
+24:58 letteralmente vogliono dire spingi e
+25:00 tira, spingi e tira.
+25:02 E in pratica eh ci sono in questo
+25:05 amplificatore due dispositivi,
+25:08 entrambi che lavorano in classe B e ogni
+25:11 dispositivo amplifica metà ciclo del
+25:13 segnale d'ingresso. Lo si vede
+25:17 abbastanza facilmente con un paio di
+25:20 disegni che vi faccio
+25:22 attorno a questo schema tipo qui. Vedete
+25:24 che ci sono due dispositivi, no? ci sono
+25:26 dei transistor, questo qui TR1 e TR2
+25:29 sono montati in una configurazione un
+25:31 po' simmetrica fra di loro. Qua c'è il
+25:33 segnale di ingresso. Allora, in pratica,
+25:35 tramite questo trasformatore di ingresso
+25:38 si fa in modo che questo transistor
+25:40 amplifichi solamente le semionde
+25:41 positive del segnale e questo transistor
+25:43 solamente le semionde negative.
+25:46 In questo trasformatore di uscita, le
+25:48 due semionde amplificate ognuna dal
+25:51 transistor, diciamo, deputato a quella
+25:54 semi lì, vengono ricomposte e si
+25:57 rigenera il segnale di uscita.
+26:01 Questa è una configurazione che sembra
+26:03 un po'
+26:05 eh
+26:07 un po' arcana, un po' strana, diciamo
+26:09 così, però è l'amplif è la forma tipica,
+26:12 lo schema tipico degli amplificatori
+26:14 della stragrande maggioranza de dei
+26:17 finali di alta fedeltà. ehm
+26:21 sono fatti appunto con due dispositivi o
+26:23 quattro dispositivi, ciascuno dei quali,
+26:26 cioè c'è diciamo ciascun dispositivo,
+26:28 ciascuna coppia di dispositivi amplifica
+26:30 una sebionda e anche molti amplificatori
+26:34 finali dei trasmettitori, immaginiamo il
+26:36 tipico trasmettitori radiamatoriali da
+26:38 100 W, sono fatti così, sono fatti con
+26:40 due dispositivi in configurazione push
+26:42 pool. Uno amplifica, ciascuno dei due
+26:45 amplifica una semionda, il segnale in
+26:48 uscita torna perfetto e il grande
+26:51 vantaggio di questa configurazione è che
+26:53 ha un rendimento molto alto, del 60%
+26:56 circa.
+26:58 Quindi un rendimento del 60% vuol dire
+27:01 che se io devo se voglio ottenere in
+27:04 uscita della mia radio un una potenza di
+27:08 100 W, avrò una tensione di alimentaz
+27:11 assorbirò diciamo come da dal mio
+27:14 alimentatore una potenza di circa 150 W
+27:17 grosso modo e quindi ho circa 50 W che
+27:21 se ne vanno in calore. Se avessi usato
+27:23 per fare questa cosa un amplificatore in
+27:25 classe A con un rendimento, diciamo, del
+27:28 25%,
+27:29 per avere 100 W in uscita dovrei
+27:32 assorbirne 400, dico 400 in ingresso dal
+27:36 mio amplificatore, quindi avrei una
+27:39 produzione di 300 W che vanno in calore.
+27:44 Un'ultima cosa,
+27:48 ci sono gli amplificatori in classe C.
+27:50 In classe C, avete già capito come
+27:51 funziona il meccanismo. In classe C la
+27:54 corrente scorre addirittura per meno dei
+27:57 180° di ingresso,
+28:00 per 90,
+28:02 qualcosa del genere. E a fronte di
+28:05 questo si ha un rendimento molto alto,
+28:07 il 70% o anche di più.
+28:10 E quello che succede più o meno lo
+28:12 rivediamo sempre in questa nel solito
+28:15 tipo di, diciamo, di di grafica. Qui il
+28:20 punto di lavoro è fissato qua,
+28:24 quindi il punto di lavoro è fissato in
+28:27 un punto tale in cui il transistor è
+28:29 interdetto, cioè non scorre corrente. E
+28:31 vedete che quando arriva il segnale di
+28:33 ingresso, per tutta questa parte del
+28:35 segnale di ingresso del transistor
+28:38 continua a non scorrere corrente. La
+28:40 corrente comincia a scorrere solo quando
+28:43 la sinusoide positiva, la semionda
+28:45 positiva della mia sinusoide è già eh
+28:49 avanzata, è già ben oltre il suo inizio.
+28:53 In questa parte qui che vedete
+28:55 tratteggiata, appunto, in questa in
+28:57 questa figura, il
+29:00 dispositivo lavora, amplifica e il
+29:03 segnale di uscita però è ancora più
+29:05 distorto di quello in classe B perché di
+29:06 fatto somiglia semplicemente a dei a dei
+29:08 picchi e uno dice cosa cosa me ne faccio
+29:12 di un'amplificazione di questo tipo qui
+29:15 neanche il pushpol riesce a mettermi a
+29:17 rimettermi insieme a questi segnali così
+29:19 distorti. Sì, è vero, è vero. Qui
+29:23 segnale viene distorta molto la forma
+29:27 d'onda, però ci sono dei modi di
+29:29 emissione in cui la forma d'onda, la
+29:32 fedeltà della forma d'onda non serve. in
+29:35 particolare
+29:37 i modi di emissione dove l'ampiezza del
+29:40 segnale è costante. Pensate a un Quando
+29:44 trasmettete in FM, quando si trasmette
+29:47 in modulazione di frequenza la potenza
+29:50 di uscita del trasmettitore è sempre
+29:52 costante. Se io ho una un trasmettitore
+29:56 da 10 W in FM,
+29:59 nel momento in cui trasmetto lui eroverà
+30:01 sempre questi 10 W. Lo stesso per la
+30:04 telegrafia, per il CW.
+30:07 Ho un trasmettitore CW da 10 W. Quando
+30:09 premo il tasto telegrafico ho 10 W in
+30:12 uscita. Quindi l'informazione che io
+30:13 trasmetto non dipende dalla ampiezza del
+30:17 mio segnale, ma dipende nel caso dell FM
+30:21 della frequenza, nel caso del CV della
+30:23 sequenza di punti linee punti linee che
+30:25 ho trasmettono. Allora, da questo punto
+30:27 di vista se il segnale è distorto in
+30:30 ampiezza come qua, non ho assolutamente
+30:32 un problema.
+30:35 Fra l'altro succede che
+30:38 eh
+30:41 scusate
+30:53 allora su questa slide manca una
+30:57 un una informazione che adesso vi dico,
+31:00 poi comunque la correggerò nel
+31:03 materiale.
+31:04 Cioè, succede che
+31:06 se io invio questo segnale
+31:11 così distorto
+31:16 ad un circuito risonante,
+31:19 quindi immaginiamo che nel mio
+31:21 trasmettitore
+31:23 dopo il transistor che mi crea questo
+31:26 questo segnale che è fatto tutto a eh è
+31:31 di fatto una successione di picchi
+31:33 Se io invio questo segnale a un circuito
+31:36 risonante, quindi immaginiamo il
+31:38 classico circuito risonante parallelo
+31:40 che abbiamo visto fatto da un
+31:42 condensatore e un induttore, se questo
+31:45 circuito risonante riceve in ingresso
+31:47 questo segnale,
+31:49 produce comunque in uscita un segnale
+31:53 sinusoidale.
+31:55 Questa è una proprietà dei circuiti
+31:56 risonanti. Diciamo, se io fornisco
+31:59 energia a questo a un circuito risonante
+32:03 tramite una serie di impulsi,
+32:06 come si fa qua, il circuito risonante,
+32:08 fatemi dire, entra in risonanza e
+32:10 sostanzialmente lui rigenera
+32:13 completamente una sinusoide. Questa cosa
+32:16 ad orecchio la sentiamo decine di volte.
+32:20 Eh, io qui abito di fronte a una chiesa.
+32:23 In questa chiesa c'è il campanile e
+32:25 suona le campane. Le campane vengono
+32:27 suonate con un martelletto, come sapete,
+32:29 no? Quindi il martelletto
+32:31 e quando un martelletto picchia una
+32:34 campana,
+32:36 guardate, tolgo un po' di scarabocchi.
+32:38 Dicevo, quando un martelletto picchia
+32:39 una campana, fa esattamente questo
+32:41 lavoro qua. Questi possiamo immaginare
+32:44 che siano proprio i colpi, scusate,
+32:50 posso immaginare si pu si può immaginare
+32:52 che siano proprio il colpo di martello
+32:54 che viene dato sulla campana. Quanto la
+32:57 campana, che è un circuito risonante
+32:59 meccanico, meccanico non elettrico,
+33:01 manocampana, risuona come si sente bene
+33:04 a orecchio, no? Quando la campana riceve
+33:06 la mia la mia martellata,
+33:09 cosa fa? Entra la risonanza e mi fa il
+33:12 suo classico don bello più o meno pulito
+33:15 a seconda della tipologia della campana.
+33:17 Quindi io do un colpo di martello alla
+33:19 campana. alla campana e entrando in
+33:22 risonanza mi genera un segnale
+33:26 sinusoidale che dipende da come è fatta
+33:28 la campana. Parlando di campanili,
+33:30 questa stessa cosa succede eh in
+33:33 elettronica, no? Nei circuiti risonanti.
+33:35 Se io ho un circuito risonante e se io
+33:38 lo eccito con una serie di impulsi, il
+33:40 circuito risonante eh per le sue
+33:43 proprietà di eh
+33:46 diciamo oscillatorie, diciamo così. mi
+33:50 rigenera il segnale completo,
+33:54 quindi eh ottengo un segnale che ha la
+33:57 frequenza pari a quella di ingresso.
+34:00 L'ampiezza può anche non essere
+34:01 proporzionale a quella di ingresso, ma
+34:04 non mi interessa perché io so che gli
+34:06 amplificatori in classe C li posso usare
+34:09 solamente quando io trasmetto, ad
+34:11 esempio, in FM. quelli di voi che hanno
+34:14 ad esempio un parlavamo prima, no, del
+34:17 eh dell'ascolto, no, tramite
+34:21 eh delle frequenze alte. Chi di voi
+34:23 magari ha queste radio stile Bofeng
+34:25 eccetera oppure i PMR a 433 MHz che
+34:29 qualcosa di questo tipo, eh sono radio
+34:32 FM, il finale di quel radio lì lavora in
+34:36 eh classe C e quindi eh usa molto usa in
+34:40 maniera molto efficiente la batteria
+34:43 dissipando poca potenza in calore.
+34:48 Se così non fosse, se se lavorasse, ad
+34:52 esempio, in classe in classe B,
+34:54 rendimento del 60%, la batteria
+34:56 terminerebbe molto prima.
+35:00 E su questo per ora termino. Quindi
+35:04 avete nelle slide un riassunto classe A,
+35:08 A, B, B e C. Scusate, nella classe AB
+35:11 non ho parlato, ma per ora ho detto
+35:14 abbastanza della classe AB. Parlo parlo
+35:16 fra parlo fra un momento, vorrei sapere
+35:19 se ci sono domande. Diciamo abbiamo
+35:20 visto amplificatori in classe A, in
+35:23 classe B e in classe C.
+35:26 spostandosi
+35:28 di classe in classe si ha un aumento del
+35:32 rendimento, quindi classe A diciamo
+35:35 10-20%, classe B 50-60%,
+35:39 classe B 70% e più
+35:42 eh a fronte
+35:45 di una eh
+35:47 distorsione sempre più alta, quindi di
+35:51 una un angolo di circolazione
+35:55 del dispositivo sempre più basso. Qui in
+35:57 classe A il dispositivo scorre corrente
+36:00 per tutto il ciclo, quindi quindi si ha
+36:03 circolazione di corrente per tutti i
+36:05 360°
+36:07 della sinusoide.
+36:09 Qui si ha circolazione di corrente solo
+36:12 per 180°.
+36:14 Qui qui in classe C si ha circolazione
+36:16 di corrente per meno di 180°, diciamo
+36:19 120-10.
+36:20 Si chiama anche angolo di circolazione
+36:22 questo parametro 120, 180, 360°.
+36:27 Più l'angolo di circolazione diventa
+36:29 basso e più aumenta la il rendimento del
+36:34 dispositivo. Quindi dalla classe A alla
+36:36 classe C l'angolo di circolazione si
+36:39 abbassa, il rendimento aumenta.
+36:44 Basta, l'ho fatta l'ho fatta anche
+36:47 troppo lunga questa tirata. a voi per
+36:50 domande e tutto quanto.
+37:01 Domande.
+37:03 Oh, dai Gianfranco, mi stavo chiedendo
+37:04 se eravate tutti svenuti.
+37:06 >> No, no, giusto una curiosità. Nella
+37:09 classe B eh abbiamo detto che la
+37:12 semionda eh viene ricomposta dal
+37:14 trasformatore di uscita. Sì,
+37:17 >> ma eh che succede nel momento in cui
+37:20 magari i due transistor non sono
+37:23 esattamente
+37:25 uguali, precisi,
+37:28 c'è un errore nella ricomposizione della
+37:30 forma d'onda?
+37:32 >> Allora, in quel tipo di amplificatori
+37:35 push pool, un lieve errore di
+37:39 ricomposizione c'è sempre e questo è un
+37:41 problema anche degli amplificatori alta
+37:43 fedeltà. In quel punto lì c'è un un
+37:47 picco, diciamo, di di distorsione.
+37:49 Questo picco di distorsione viene in
+37:51 qualche modo ridotto facendo sovrapporre
+37:54 un po' eh
+37:57 le diciamo le le semi, diciamo, il
+38:00 funzionamento
+38:03 nel
+38:03 >> all'incrocio.
+38:04 >> All'incrocio. Esatto. Esatto. In questo
+38:06 modo si riduce questa questa
+38:08 distorsione.
+38:10 Ma un po' di distorsione lì c'è e si si
+38:13 paga, diciamo, il prezzo di un
+38:14 rendimento alto.
+38:17 >> Ok, grazie
+38:18 >> a te. Altre domande?
+38:24 Mentre ci pensate. Eh, allora classe A.
+38:27 Ah, a te Pierluigi
+38:30 si dicevo per la classe C. è usata anche
+38:33 per l' FMol,
+38:35 >> però vedo che cioè il segnale
+38:39 è usato per meno de 180°,
+38:42 quindi immagino sia stramente la
+38:44 portante. La modulante sarà un uno
+38:47 stadio diverso che inietterà se stesso
+38:51 su questa sulla portante immagino. No,
+38:53 come fai il segnale?
+38:56 La la modulante, nel caso dell' FM, la
+38:58 modulante sposta la frequenza del
+39:01 segnale, trasmette in FM, no? Quindi la
+39:04 frequenza della modulata si sposta. È
+39:06 vero, è vero.
+39:07 >> E l'ampiezza resta sempre quella.
+39:10 >> È vero. Sì, sì.
+39:13 >> Ok.
+39:14 >> Sì, sì. No, no, è vero. Miero confuso
+39:17 con la con la M. È vero. Sì.
+39:22 E per la M, per la M ci vuole invece
+39:24 un'amplificazione lineare.
+39:27 Infatti, e stavo dicendovi prima che
+39:31 immaginate di avere un ricevitore, per
+39:34 esempio, un ricevitore che potrebbe
+39:36 essere un ricevitore televisivo, un
+39:38 ricevitore FM, il ricevitore di una
+39:41 radio radioamatoriale. Allora, in un
+39:42 ricevitore il 90%
+39:46 degli stadi funzionano in classe A.
+39:48 Immaginavamo
+39:50 eh un ricevitore a transistor, no?
+39:52 Qualcuno di voi aveva eh aveva parlato
+39:56 quando quando abbiamo fatto una
+39:57 chiacchierata sulle vecchie
+39:59 radiostoriche, no? I vecchi Grundic
+40:01 Satellite o roba del genere. Eh
+40:04 immaginiamo un ricevitore che ha una
+40:06 catena di amplificazione fatta da 7 8
+40:09 anche 10 stadi, quindi transistor uno
+40:12 dietro l'altro. Questa catena di
+40:14 amplificazione di fatto è tutta in
+40:16 classe A e un trasmettitore si parte dal
+40:20 microfono, l'amplificatore microfonico è
+40:22 in classe A e tutti gli stadi del
+40:24 trasmettitore sono in classe A. Quindi
+40:27 il 90% degli amplificatori nelle
+40:29 scatolette che abbiamo attorno sono in
+40:31 classe A. Quand'è che non sono in classe
+40:34 A? Non sono in classe A solamente negli
+40:37 stadi finali. Parlando di un ricevitore,
+40:42 l'unico stadio che deve maneggiare un
+40:44 certo livello di potenza è
+40:46 l'amplificatore proprio di bassa
+40:48 frequenza che pilota l'altoparlante.
+40:50 Quell'amplificatore lì deve dare 2 3 5
+40:53 W, no? Un minimo di potenza per cui
+40:55 l'altoparlante
+40:57 per cui dall'altoparlante si senta bene.
+41:00 Quello stadio lì è solo quello stadio lì
+41:03 tipicamente è un push pool. Tutto il
+41:04 resto è in classe A.
+41:06 i trasmettitori, un trasmettitore, il
+41:09 segnale microfonico, tutti i segnali che
+41:11 poi vedremo che vengono generati,
+41:13 amplificati, convertiti in frequenze,
+41:14 eccetera.
+41:16 È tutto che funziona tutto in classe A,
+41:19 tranne quando si arriva allo stadio
+41:21 finale. Lo stadio finale diciamo che
+41:24 riceve, diciamo, un W in ingresso e deve
+41:27 tirare fuori 100 W del trasmettitore.
+41:30 Quello quello funziona in classe AB
+41:34 e rende il suo bravo 60%.
+41:37 Questo perché? Perché tutti gli altri
+41:40 amplificatori, come vi dicevo prima,
+41:42 gestiscono livelli così piccoli di
+41:44 segnale che il rendimento non è un
+41:46 problema. Cioè, se un transistor
+41:48 che eh mi lavora eh che mi assorbe 10
+41:54 mW, quindi un quindi un 10 mW sono un
+41:58 centimo di Watt, quindi un transistor
+42:00 che mi assorbe 10 mW, che il rendimento
+42:03 sia il 20 o il 70%, non cambia
+42:06 assolutamente niente dal punto di vista
+42:08 della produzione di calore della radio o
+42:10 del bilancio energetico della radio,
+42:12 capito?
+42:13 Per cui tutte le amplificazioni in
+42:15 generale sono fatte in classe A. Questo
+42:17 discorso che si è fatto classe A, classe
+42:20 B, classe C, push pull eccetera,
+42:23 e riguarda solamente il lo stadio di
+42:25 uscita. Oppure se si ha una radio, un
+42:28 trasmettitore, diciamo uscita 100 W, si
+42:30 vuole un'uscita più ampia, quindi ci si
+42:33 munisce di un amplificatore lineare.
+42:34 Qual Qualcun altro di voi, non mi
+42:37 ricordo chi, ma parlava di amplificatori
+42:39 lineari, no? Nelle vecchie stazioni CB.
+42:41 Quegli amplificatori sono tutti in
+42:43 classe AB, altrimenti il segnale sarebbe
+42:45 distortissimo e se non fossero e se
+42:47 fossero in classe A pura sarebbero delle
+42:50 stufette ingestibili, cioè
+42:52 dissiperebbero più in calore che non in
+42:55 radiofrequenza.
+42:57 Quindi ok, tutto il rendimento e
+43:00 quant'altro e questo riguarda
+43:03 essenzialmente solo gli stadi di
+43:05 potenza. Dico un'ultima cosa per finire
+43:09 questa chiacchierata appunto sulle
+43:11 classi di amplificazione, classe A,
+43:13 classe B, classe C. Tipicamente
+43:17 lo stadio finale
+43:20 di una radio commerciale in modulazione
+43:24 in SSB, quindi in modulazione di
+43:26 ampiezza o meglio in SSB,
+43:29 lavora in classe AB. Voi leggete qua,
+43:33 lavora in classe AB.
+43:36 e tipicamente in configurazione, cioè se
+43:39 possibile in configurazione push pool,
+43:41 se non è un push pool lavora in classe
+43:43 AB, cioè si fa eh scorrere la corrente
+43:47 per un angolo un po' superiore ai 180°
+43:51 e l'amplificazione comunque è abbastanza
+43:53 lineare. Quindi, se vogliamo, la classe
+43:55 AB è una via di mezzo, no? un
+43:57 compromesso fra la classe A molto fedele
+43:59 e la classe B di rendimento più alto. Si
+44:02 cerca di mettersi lì in mezzo in modo
+44:04 che la che la fedeltà sia comunque buona
+44:06 e il rendimento non sia poi così così
+44:10 brutto, così basso.
+44:13 Quindi in amplificatore in classe AB si
+44:14 cerca di avere un rendimento attorno al
+44:16 60-65%
+44:18 come leggete qua sotto
+44:21 e comunque la fedeltà di uscita è buona
+44:23 e questo lo ritrovate
+44:26 in questa tabella riassuntiva, quindi
+44:29 classe A, A, B, B e C. Qui in questa
+44:33 colonna avete quando scorre la corrente,
+44:37 quindi si parte dall'intero periodo del
+44:40 segnale di ingresso per la classe A.
+44:42 fino a meno di mezzo periodo per la
+44:45 classe C
+44:48 e di qua c'è appunto il quello che ci
+44:51 siamo detti in termini di rendimento e
+44:53 di fedeltà nella nell'amplificazione.
+44:57 E queste sono le tre classi di
+44:58 amplificazione. E detto questo, sugli
+45:01 amplificatori non c'è da sapere altro.
+45:03 Poi negli schemi a blocchi, appunto,
+45:05 vedremo che ci sono molti amplificatori
+45:08 che amplificano appunto segnali deboli e
+45:10 solamente lo stadio finale sarà un
+45:13 amplificatore, diciamo, lineare, come
+45:15 abbiam chiamato, che normalmente in
+45:17 classe AB oppure in un push pool con due
+45:21 dispositivi in classe B. C'è qualche
+45:24 domanda prima di andare avanti?
+45:31 Allora, proseguo
+45:35 e adesso
+45:38 qualche parola su un altro scatolotto,
+45:43 un altro mattoncino dell'EGO, no, del
+45:45 nostra della nostra radio. Parliamo
+45:46 degli oscillatori.
+45:49 Gli oscillatori sono dei CQIP che hanno
+45:53 come funzione quella di generare un
+45:55 segnale a radiofrequenza. Quindi io, per
+45:58 esempio, voglio trasmettere a 10 MHz, ho
+46:01 bisogno che la mia radio generi un
+46:03 segnale a 10 MHz per poter trasmettere
+46:06 la generazione di questo segnale me le
+46:07 fa un oscillatore. Quindi un oscillatore
+46:10 e non non ha ingresso, no? È è eh come
+46:14 un amplificatore, ha solamente
+46:16 un'uscita.
+46:17 gli si dà una certa tensione di
+46:19 alimentazione, diciamo 12 V, e
+46:21 l'oscillatore oscilla e mi genera un
+46:24 segnale alla frequenza che io voglio.
+46:26 Come funziona un oscillatore? Gli
+46:28 oscillatori funzionano tutti in base al
+46:30 principio della retroazione,
+46:32 quindi eh una parte del segnale di
+46:35 uscita viene riportata in ingresso, così
+46:37 facendo viene riamplificata, poi viene
+46:39 riportata in ingresso, viene
+46:40 riamplificata finché, appunto, si
+46:42 stabilisce un un loop stabile di una
+46:48 certa potenza che mi dà un che mi dà il
+46:51 mio segnale d'uscita.
+46:55 Se in questo se in questo loop, se in
+46:57 questo percorso di retroazione
+47:00 inserisco un circuito risonante LC
+47:03 oppure un quarzo, il segnale di uscita
+47:06 avrà la stessa frequenza di risonanza o
+47:09 del quarzo o del circuito LC.
+47:13 Qui vedete una, diciamo, una bozza di
+47:17 schema di un oscillatore, tanto per
+47:19 rendere l'idea. Qui c'è un dispositivo
+47:21 che amplifica, che in questo caso è un
+47:23 FET.
+47:24 E qui vedete che c'è il terminale di
+47:26 uscita.
+47:28 Vedete che in questo punto una parte del
+47:31 segnale che andrebbe in uscita viene
+47:33 prelevato
+47:35 e viene tramite questo filo viene
+47:38 ributtato nell'ingresso
+47:41 del FET. E quindi cosa succede? Succede
+47:44 che il FET si potrebbe dire innesca,
+47:47 oscilla. È un meccanismo identico a
+47:49 quello che si ha quando si ascolta un
+47:54 effetto degli altoparlanti, degli
+47:55 impianti voci che innescano l'effetto
+47:57 l'Arsen. Ne avevamo parlato qualche
+48:00 qualche serata fa. Sarà capitato a
+48:02 diversi di voi di aver sentito magari
+48:04 quando c'è un complesso che si esibisce
+48:06 o oppure un una voce amplificata, no, in
+48:10 qualche situazione. A volte se la
+48:12 regolazione del microfono non è buona si
+48:14 sente un gran fischio, no? Perché tutta
+48:17 tutta la cosa oscilla. Il microfono
+48:18 riceve il segnale dell'altoparlante, lo
+48:21 il segnale quindi viene riamplificato,
+48:23 in sostanza si forma un un anello di
+48:26 amplificazione, no? Finché la
+48:28 l'amplificazione non si sostiene da
+48:30 sola. Questa è esattamente la stessa
+48:32 cosa che succede negli oscillatori. E
+48:35 siccome qui, come vedete, c'è un
+48:36 circuito risonante
+48:39 C1 L1
+48:41 e questa questa ritroazione, questo
+48:45 circuito risonante fa sì che, diciamo,
+48:48 l'amplificazione del FET sia selettiva,
+48:50 come avevamo visto prima, no, quando si
+48:52 parlava di amplificatori selettivi e
+48:53 quindi l'oscillazione sarà alla
+48:55 frequenza di quel circuito risonante e
+48:57 analogamente succede con i quarzi. Gli
+49:00 oscillatori con un circuito LC
+49:03 tendenzialmente sono poco stabili, sono
+49:06 sensibili alle variazioni di temperatura
+49:08 eccetera. Se invece si usa invece del
+49:12 del circuito risonanze con l'induttore e
+49:14 il condensatore, se invece si usa un
+49:16 cristallo di quarzo, l'oscillatore sarà
+49:19 molto più stabile, come avevamo già
+49:21 detto quando avevamo parlato dei quarzi.
+49:24 E questo lo si vede, ad esempio, in
+49:25 questo circuito qua. Il meccanismo è lo
+49:27 stesso di prima. Qui il dispositivo che
+49:29 amplifica è un transistor.
+49:32 Il segnale di uscita del transistor
+49:34 sappiamo che sul collettore,
+49:36 vedete che qui questo sarebbe il
+49:39 terminale di uscita che in questo schema
+49:41 non c'è, ma una parte del segnale da qui
+49:44 viene riportato al segnale di ingresso
+49:46 tramite questo quarzo e quindi questo è
+49:50 il loop, diciamo, di del che che che mi
+49:53 funziona il mio oscillatore. il mio
+49:55 transistor
+49:56 amplifica un po' di segnale. Questo
+49:58 segnale viene rimesso, riportato alla
+50:01 base, viene riamplificato di nuovo e
+50:03 così via. si giri in questo loop finché
+50:06 l'oscillazione non diventa stabile e in
+50:08 uscita ho il mio bel segnale
+50:10 sinusoidale. La frequenza di questo
+50:13 segnale di uscita è in qualche modo ehm
+50:16 definita dal da questo quarzo.
+50:21 Questi oscillatori,
+50:24 l'oscillatore a quarzo ovviamente è a
+50:26 frequenza fissa perché il quarzo, no, è
+50:29 ha ha la sua frequenza che dipende dalle
+50:31 sue caratteristiche fisiche, da come è
+50:33 stato tagliato dallo spessore del quarzo
+50:35 eccetera, come avevamo
+50:37 detto quando abbiamo parlato di quarzi.
+50:40 Invece questi oscillatori molto spesso
+50:42 sono chiamati VFO, oscillatori a
+50:44 frequenza variabile, perché se io
+50:47 tramite
+50:49 tramite questo condensatore,
+50:58 diciamo che questo sia un condensatore
+50:59 variabile. Se io varo la capacità di
+51:02 questo condensatore,
+51:04 varia la frequenza di risonanza di
+51:06 questo circuito LC
+51:08 e quindi io ho un segnale di uscita che
+51:11 può avere una frequenza variabile. La
+51:12 frequenza variabile si modifica tramite
+51:17 eh appunto la
+51:20 il valore di questo condensatore. Se io
+51:22 in qualche modo a questo condensatore
+51:24 variabile collego una manopola e la
+51:26 porto fuori dal dal mio scatolotto in
+51:29 cui c'è l'oscillatore, girando questa
+51:31 manopola sposto la frequenza di uscita
+51:33 di questo oscillatore che appunto è un
+51:35 WFO oscillatore a frequenza variabile.
+51:41 C'è una terza tipologia di eh di
+51:44 oscillatori che sono quelli cosiddetti
+51:47 ad aggancio di fase. Allora, quasi io
+51:49 penso che quasi tutti voi abbiate in
+51:51 macchina, tutti voi probabilmente
+51:53 abbiate in macchina un una radio FM,
+51:57 quindi una radio che ascolta la banda
+51:59 88108 e l'ascolta in maniera
+52:02 canalizzata. Canalizzata. Quindi, per
+52:04 esempio, passate da 103, 103,6, 103,9
+52:08 eccetera eccetera, no?
+52:10 Eh,
+52:12 stesso tipo di oscillatore che è
+52:13 analizzato. Se qualcuno di voi ha usato
+52:15 le radio PMR, sta là dentro, diciamo,
+52:18 cioè sono nelle radio VHF, VHF,
+52:21 eccetera. In FM, diciamo, il si usano
+52:25 oscillatori, appunto, e si i
+52:27 trasmettitori sono canalizzati, no?
+52:29 Quindi si trasmette sul canale 1, sul
+52:31 canale 2, sul canale 3, eccetera
+52:32 eccetera, come pure anche in banda
+52:34 cittadina.
+52:35 Eh, questi in questo tipo di apparati si
+52:39 usano oscillatori ad aggancio di fase.
+52:41 Praticamente cosa fanno gli oscillatori
+52:44 ad aggancio di fase? PLL sta per
+52:46 aggancio di fase in inglese. Eh, faced
+52:50 looked lop loop loop ad aggancio. Locked
+52:54 di fase.
+52:56 Praticamente genero un segnale di
+52:57 frequenza variabile,
+53:00 quindi tramite un WFO, però riescono in
+53:03 qualche modo a dare a questo VFO la
+53:05 stabilità di un oscillatore a quarzo
+53:09 agganciando due oscillatori diversi.
+53:11 Vedete che ci sono due oscillatori.
+53:14 Uno è un oscillatore di riferimento a
+53:16 quarzo
+53:17 e uno è un oscillatore
+53:19 eh che è il mio WFO. Però questo WFO è
+53:23 un tipo particolare ed è controllato in
+53:25 tensione. Vco oscillatore controllato in
+53:28 tensione, voltage control oscillator. E
+53:31 praticamente la frequenza di questo
+53:32 oscillatore libero viene agganciata a
+53:34 quella del quarzo. Cioè come funziona
+53:36 questo questo oscillatore? Questo è lo
+53:40 schema. eh lo lo schema blocchi di
+53:42 momento che ho perso. Allora, questo qui
+53:47 è l'oscillatore che genera la frequenza
+53:50 di uscita, come leggete qua. è un
+53:53 oscillatore controllato in tensione e la
+53:56 frequenza di uscita viene quindi
+53:58 impostata non tramite un condensatore
+54:00 variabile dove in qualche modo bisogna
+54:03 girare proprio fisicamente la manopola
+54:05 del condensatore variabile, l'alberino
+54:07 del condensatore variabile, ma si regola
+54:10 tramite dei dei diodi varicap. Ricordate
+54:12 i diodi varicap, no? Sono quelli che
+54:14 hanno la funzione da condensatore
+54:15 variabile. E qui vedete lo schema. In
+54:18 questo schema ci sono due di varicap.
+54:21 Quindi, se io regolo la tensione su
+54:23 questi di varicap, modifico la frequenza
+54:27 di uscita del mio oscillatore
+54:30 e immaginiamo che io qui ho abbia una
+54:33 tensione su questi diodi baricup di 5 V.
+54:37 A fronte di questi 5 V ho una certa
+54:40 frequenza di uscita che potrebbero
+54:41 essere 100 MHz. Questi 100 MHz, il
+54:45 segnale di uscita viene tramite questo
+54:47 filo che vedete qua, che sto
+54:49 ridisegnando,
+54:51 viene inserito in un circuito che
+54:54 compara la frequenza e la fase di questo
+54:57 segnale di uscita con la frequenza e la
+54:59 fase data da un oscillatore a quarzo che
+55:03 funziona dal riferimento per, diciamo,
+55:06 tutto il nostro tutto il nostro
+55:07 circuito.
+55:10 In base a al risultato di questa
+55:13 comparazione di fase si crea una
+55:16 tensione di errore, si potrebbe dire,
+55:18 come avevamo anche negli amplificat
+55:20 negli alimentatori,
+55:22 che corregge la frequenza del mio VCO
+55:26 per tenerla stabilizzata
+55:29 al riferimento della frequenza del
+55:31 quarzo.
+55:32 Quindi, in pratica, in questi
+55:34 oscillatori, appunto, ci sono due eh due
+55:38 oscillatori dentro un oscillatore
+55:40 aggancio di fe. C'è un oscillatore a
+55:42 quarzo che fa da riferimento stabile e
+55:47 un oscillatore a frequenza variabile.
+55:49 La la frequenza di questo oscillatore
+55:52 viene tramite un circuito apposito,
+55:55 viene comparata con quella del quarzo e
+55:58 da questa comparazione
+56:00 e c'è questo circuito che fa la
+56:03 comparazione è in grado di aggiustare la
+56:05 frequenza
+56:07 del VCO per far sì che eh la la
+56:11 frequenza di uscita sia stabile,
+56:13 esattamente come quella del quarzo.
+56:17 E questi sono i PLL.
+56:20 Non non ci sono nel programma di esame
+56:22 altri tipi di oscillatori. Quindi
+56:25 abbiamo gli oscillatori a frequenza
+56:27 variabile, i WFO, gli oscillatori a
+56:31 quarzo e i PLL che combinano, appunto,
+56:35 un oscillatore variabile e un
+56:36 oscillatore a quarzo.
+56:40 Questo sugli oscillatori è tutto. da voi
+56:43 se ci sono domande.
+56:57 Tutto chiaro per ore?
+57:02 >> Pierluigi a te.
+57:03 >> Ciao. Sì. No, volevo sapere nel
+57:06 nell'oscitatore unirfed
+57:09 il il surso prende una parte di segnale
+57:12 del dell'induttore che sembra funziono
+57:16 trasformatore.
+57:18 >> Sì. E quella qui è una frequenza, eh,
+57:21 che gli serve dare quella frequenza al
+57:24 drain, visto che cioè è il gate, no, che
+57:27 dà
+57:28 che dall'oscillazione, dovrebbe
+57:30 semplicemente amplificare. Quindi quella
+57:32 è una specie di retrozione, non so come.
+57:35 E a cosa serve quel segnale che viene
+57:37 messo sul sul
+57:39 >> Aspetta, aspetta che rimetto in
+57:41 condivisione
+57:44 appena lo trovo.
+57:47 Ok.
+57:53 Momento, eh, sono di nuovo in
+57:54 condivisione di schermo. Un attimo che
+57:56 ci arrivo.
+57:59 Eccolo qua. Tac, tac.
+58:02 No, questo sì, vedi?
+58:04 >> Sì, sì, sì. Allora,
+58:05 >> ah no, però scusa, va a terra, scusa.
+58:08 No, ora visto a massa.
+58:11 >> Hai già visto tu da solo. Sì. E diciamo
+58:13 passa passa il filo di sotto, però. Ok.
+58:16 Sì.
+58:17 Eh, va bene. Allora, perché questa parte
+58:21 induttore bisogna andare deve andare a
+58:23 massa? Perché devo andare a massa? visto
+58:25 che
+58:27 m
+58:29 >> cioè diciamo questo non
+58:31 >> Allora, è semplicemente disegnato in
+58:33 maniera un po' un po' strana, nel senso
+58:37 che intanto
+58:41 questa diciamo immaginati che questa
+58:43 parte qui di bobina non ci sia.
+58:46 Immaginati che, scusa un attimo, eh,
+58:50 devo spengere Telegram. Immaginati che
+58:52 questo segnale di che che il segnale che
+58:54 arriva dall'uscita venga inserito
+58:57 semplicemente a una presa di L1.
+59:01 Qui per esempio.
+59:03 >> Sì,
+59:03 >> ti torna.
+59:04 >> Sì, sì, sì.
+59:07 E è è questo come funziona. Scusa un
+59:10 attimo solo,
+59:12 io do Telegram perché si stanno
+59:14 risvegliando quelli della sezione a
+59:15 quest'ora della notte, sennò ci
+59:18 massacrano con
+59:23 diciamo questo è uno dei tanti modi di
+59:25 innescare questa questa retroazione, no?
+59:27 eh il segnale di uscita che giustamente
+59:32 sta sul drain,
+59:36 perché questo appunto come giustamente
+59:38 tu hai detto il dread del transistor che
+59:40 equivale del fed che che equivale al
+59:43 collettore del transistor viene
+59:45 riportato sul gate
+59:48 che è l'equivalente della base del
+59:50 transistor. Il source sta a massa.
+59:53 Eccolo qua. Quindi questo è il terminale
+59:55 massa di riferimento.
+59:57 Eh, questo componente è diventato in
+59:59 maniera è disegnata in maniera un po' un
+60:02 po' beota secondo me e diciamo questo
+60:06 potrebbe essere nella realtà dei fatti
+60:09 questo potrebbe essere una spira
+60:13 avvolta sopra questa parte di L1.
+60:16 ritorna
+60:20 oppure sennò molto più semplicemente,
+60:22 come dicevo prima, questa è la bobina,
+60:25 questa parte alta va sul gate, questa
+60:27 parte bassa è a massa e il segnale di
+60:31 retroazione è inserito, metti a una
+60:34 spira soassa, per intenderci,
+60:38 come se fosse un piccolo
+60:39 autotrasformatore, come dicevi.
+60:45 Ok,
+60:47 ok, ok, va bene, va bene.
+60:52 >> Tolgo la condivisione. Ci sono altre
+60:54 domande?
+60:58 Mi sento un po' troppo silenziosi. In
+61:00 effetti questa cosa mi preoccupa.
+61:07 Allora, proseguo.
+61:09 Oh, Giancarlo, a te.
+61:13 Sì, buonasera Paolo, buonasera a tutti.
+61:16 No, stavo facendo una riflessione sul
+61:18 fatto degli oscillatori
+61:20 eh per realizzare appunto i ricot
+61:23 trasmettitori, quelli che ho trovato io
+61:25 nella mia esperienza,
+61:28 ovviamente in banda cittadina e nei
+61:31 veicolari appunto che compravo, che ho
+61:34 comperato, ho visto tutti oscillatori
+61:36 PLL, quindi penso che siano
+61:39 assolutamente, credo, i più diffusi per
+61:43 realizzare appunto questo tipo di non
+61:45 Non so se è un rapporto qualità prezzo,
+61:49 a parte il il mattoncino che avevo in
+61:52 epoche preistoriche
+61:54 che era quarzato e io mi divertivo a
+61:57 cambiare i quarzi per cambiare canale,
+62:00 ma penso che tutti gli altri siano stati
+62:03 PLL. Grazie.
+62:05 >> Eh sì, sì, sì. Allora, lì praticamente
+62:08 ci sono tre generazioni di apparati, no?
+62:10 parlando di banda cittadina, i
+62:12 mattoncini dove si inseriva si
+62:14 inserivano il quarzo della ricezione
+62:16 della trasmissione per ogni canale su
+62:17 cui si voleva andare. Poi sono usciti la
+62:20 generazione, prima uno di voi parlava
+62:23 del Tokai il 5024, no? E lì ci sono lì i
+62:29 23 i 24 canali vengono ottenuti da 6 + 4
+62:34 + 4/4.
+62:36 Praticamente se si prendono 6/4 e 4/4 6*
+62:41 4 24, no? le varie combinazioni, poi ne
+62:43 parliamo ne parliamo un po' meglio
+62:45 quando si parla de dei trasmettitori,
+62:48 eh
+62:50 poi invece la generazione successiva è
+62:53 attuale, quella diciamo più moderna,
+62:55 diciamo, basta un quarzo nel PLL e fai
+62:57 tutta la canalizzazione che vuoi. In
+62:59 effetti in produzione è una bella
+63:01 economia, c'è molta più logica digitale
+63:04 per far funzionare il PLL, però a latto
+63:06 pratico è molto più economico
+63:08 realizzarlo così.
+63:12 Ciao Franco, a te
+63:13 >> bene, grazie.
+63:16 >> Sì, una precisazione sul l'oscillatore
+63:19 PLL. Hai parlato prima della ricezione
+63:22 canalizzata. Eh, mi sto facendo l'idea.
+63:26 Eh, rispetto al condensatore variabile,
+63:29 nella ricezione canalizzata abbiamo non
+63:31 abbiamo una continuità di capacità, ma
+63:35 eh e quindi di frequenze generabili, ma
+63:39 soltanto alcune son discrete.
+63:42 >> Sì, è così. È così perché
+63:46 come nel come come anche nell'autoradio,
+63:49 no? Cioè, praticamente eh
+63:51 >> non posso avere una frequenza intermedia
+63:52 tra 88 e 5 e 89, diciamo così, però però
+63:56 hai comunque un passo, al di sotto di
+63:58 questo passo non puoi scendere.
+64:00 >> Ecco. Ok.
+64:01 >> Ok. E questo e diciamo questo fatto,
+64:04 diciamo, tutta questa parte qui viene
+64:06 fatta digitalmente dividendo il segnale.
+64:11 Aspetta, rimetto in condivisione.
+64:17 Si vede? Se si vedeam
+64:23 eh un attimo solo che ci arrivo.
+64:26 Eh, diciamo che il
+64:32 il modo per ottenere la canalizzazione
+64:35 eh
+64:38 passa tramite una divisione
+64:42 divisione proprio numerica. Diciamo che
+64:45 se questo questo WCO oscilla, diciamo, a
+64:48 120 MHz e diciamo viene può essere
+64:52 diviso per un numero come 581, 582, 583.
+64:57 Questa divisione viene fatta con dei
+64:59 circuiti
+65:01 digitali
+65:03 e in funzione della divisione che sta
+65:06 qua e della divisione che magari si fa
+65:09 anche sul quot di riferimento si ha il
+65:12 il tipo di canalizzazione che si vuole
+65:14 ogni 10 kHz ogni 12 kHz e5 eccetera.
+65:18 Cioè, in qualche modo eh
+65:21 la canalizzazione viene fatta eh
+65:25 regolando il rapporto, regolando
+65:28 comunque in questo circuito qua che fa
+65:31 la comparazione, regolando in qualche
+65:34 modo ehm
+65:37 cioè regolando il modo con cui si
+65:39 comparano il segnale del WCO e quello
+65:42 del quarzo.
+65:45 Nel caso, allora, se si vuol fare una
+65:49 una radiocanalizzata,
+65:51 come stiamo come stavamo dicendo prima,
+65:53 ad esempio, passi di 10 kHz per un
+65:56 baracchino CB oppure di 12,5 o di 25 kHz
+65:59 per, diciamo, una radio FM, eccetera.
+66:02 Eh,
+66:04 questi dati, diciamo, questi numeri in
+66:07 qualche modo si riportano
+66:10 in delle operazioni, appunto, di
+66:13 divisione e divisione, sottrazione e
+66:16 moltiplicazione che che vengono fatti in
+66:19 questo scatolotto di comparazione a
+66:22 partire dalla frequenza del 2FO alla
+66:24 frequenza del quarzo di riferimento.
+66:27 ci sono proprio delle formule, no, che
+66:30 diciamo si prende il WCO, si divide per
+66:33 un certo numero, si moltiplica per un
+66:35 altro e questo valore che si ottiene lo
+66:37 si compara con la frequenza del quarzo.
+66:39 È una cosa eh che che diciamo sembra
+66:43 complicatissima da fare, ma giustamente
+66:45 poi i i produttori di queste cose hanno
+66:48 realizzato dei circuiti integrati per
+66:50 farle e quindi diventa anche economico
+66:53 realizzarle.
+66:54 >> Realizzarle.
+66:54 >> Quindi questa comparazione datto pratico
+66:56 è numerica. diciamo così, è numerica
+66:58 ormai,
+67:01 quindi quando niente.
+67:07 E se non ci sono altre domande, visto
+67:10 che si parla di numerico, vi porto
+67:11 sull'ultimo argomento di stasera,
+67:15 eh,
+67:18 che il titolo è Le porte logiche, ovvero
+67:21 circuiti digitali semplici. è l'unica
+67:24 parte digitale del programma presente
+67:27 del programma del del MIMT.
+67:31 Adesso vi racconto rapidamente come
+67:33 funzionano le cosiddette porte logiche e
+67:36 cosa sono. Allora, intanto circuiti
+67:38 digitali. Fino a ora, per tutte le
+67:41 lezioni che abbiamo già fatto, abbiamo
+67:42 parlato di mondo analogico, abbiamo
+67:44 parlato di segnali analogici
+67:46 e adesso parliamo un quarto d'oretta di
+67:49 segnali digitali, quindi un segnale
+67:51 analogico,
+67:52 abbiamo sempre parlato di segnali che
+67:54 hanno una variazione di ampiezza
+67:56 continua nel tempo, salgono, scendono,
+67:58 no, tipicamente come un'onda sinusidale.
+68:01 I segnali digitali, come come sapete,
+68:03 hanno due stati: basso e alto. basso e
+68:05 alto tipicamente, no? Il segnale
+68:06 digitale che viene usato anche nelle
+68:09 radio è un segnale che ha due livelli,
+68:11 il basso e l'alto. A seconda delle varie
+68:14 famiglie dei circuiti digitali, questo
+68:16 basso e l'alto si trasformano nei
+68:18 livelli di tensione. Per esempio, c'è
+68:19 una famiglia che è chiamata TTL,
+68:21 famiglia storica, il basso sono V e
+68:25 l'alto sono 4 V5.
+68:27 Questo semplicemente per dare un'idea,
+68:29 no, di di cosa si intende per basso e
+68:31 l'alto. Quindi se nella mia radio ho una
+68:33 parte logica in TTL, diciamo tutta
+68:36 quella parte, diciamo, tutti i
+68:40 i componenti, diciamo, di quella parte
+68:42 logica stanno o a uno stato basso o a
+68:45 uno stato alto. Lo stato basso è una
+68:48 tensione di circa mezz V, lo stato alto
+68:50 è una tensione di circa 4 V5.
+68:53 Questa parte qui, se si tratta di TTL, è
+68:55 alimentata a 5 V.
+68:58 Dove troviamo dei segnali digitali? un
+69:00 po' un po' dappertutto, come si diceva
+69:02 prima, per esempio, anche se è un
+69:04 ricevitore analogico, come in teoria
+69:06 potrebbe essere questo, oltre a ora
+69:08 molti ricevitori hanno il display
+69:10 numerico e quindi c'è, se non altro la
+69:12 parte digitale che gestisce la
+69:14 presentazione numerica, no, del
+69:17 diciamo della frequenza su cui sto
+69:19 lavorando. Oppure, ad esempio, come si è
+69:21 detto prima, se ho un ricitmettitore
+69:24 UHFM che ha analizzato qui, qui ho tutta
+69:29 la generazione della frequenza tramite
+69:31 il PLL e la presentazione sul display
+69:34 che è tutta fatta da, diciamo, una parte
+69:37 digitale. Quindi, praticamente, oggi in
+69:40 tutte le radio c'è una componente
+69:42 analogica che è quella deputata alla
+69:45 trasmissione, alla ricezione e c'è una
+69:47 componente digitale che è quella che se
+69:49 vogliamo gestisce la radio a partire
+69:51 dalla frequenza su cui si lavora più
+69:53 tutte le altre varie funzioni che ci
+69:54 sono e di cui parleremo in futuro.
+69:58 Questa parte digitale è realizzata con
+69:59 dei circuiti integrati. Questa cosa
+70:02 l'avrete sentita nominare, molti di voi
+70:03 sicuramente la conoscete tutto, un
+70:05 circuito integrato. La parola integrato
+70:07 significa che all'interno contengono una
+70:09 quantità anche molto robusta di
+70:13 transistor, di viodi, resistori,
+70:16 eccetera e quindi di componenti
+70:18 elettronici realizzati direttamente su
+70:21 piastrine di silicio, quindi non con le
+70:24 armature del condensatore o con di cui
+70:26 parlavamo, ma realizzate con una
+70:28 tecnologia un po' diversa e quindi si va
+70:31 verso questa integrazione che riduce
+70:33 molto anche le le dimensioni delle delle
+70:36 radio, di tutti i dispositivi
+70:37 elettronici che abbiamo attorno. In
+70:40 questi circuiti integrati ci sono delle
+70:41 porte logiche. Le porte logiche sono dei
+70:44 dispositivi che hanno degli ingressi e
+70:46 delle uscite e in base a una certa
+70:50 tavola della verità
+70:54 eh l'uscita dipende, secondo delle leggi
+70:57 ben precise, dall'ingresso.
+71:00 Ci sono tre tipologie di porte logiche
+71:04 in generale.
+71:05 E allora la porta logica più banale è
+71:11 chiamata not
+71:14 che eh
+71:16 in inglese è il no ovviamente ed è
+71:20 semplicemente una porta che ha il ruolo
+71:23 di invertire il segnale che è in
+71:25 ingresso. La cosa che vedete qui
+71:30 è la cosiddetta tavola della verità
+71:32 della porta logica. Allora, questa porta
+71:34 logica ha un ingresso che è A. Questo
+71:37 ingresso, vedete qua, input A, può avere
+71:40 due stati. Può avere uno stato 0 o può
+71:43 avere uno stato 1.
+71:46 La tavola delle varietà mi dice per
+71:48 ognuna possibile delle possibili
+71:50 configurazioni di ingresso, mi dice il
+71:52 il segnale in uscita. questa porta
+71:55 inverte e quindi semplicemente quando
+71:58 l'ingresso è basso, cioè 0, l'uscita è
+72:01 alta, cioè 1 e viceversa.
+72:04 Quando il segnale in ingresso la porta è
+72:07 uno, il segnale in uscita è zero. Questa
+72:11 porta, la porta note, inverte il
+72:13 segnale, a volte è chiamato anche
+72:15 l'inverter, ovviamente, però inverter
+72:17 dal punto di vista logico, non l'altro
+72:19 inverter, quello che diciamo da delle
+72:21 batterie rigenera una tensione
+72:23 alternata.
+72:27 Poi esiste esistono anche
+72:30 altre due tipologie di porta. Eh,
+72:37 una è la porta.
+72:41 And è proprio la lettera in inglese. And
+72:44 che sarebbe la lettera E. E quella che
+72:47 vedete qua è lo schema elettrico di una
+72:50 porta end,
+72:53 ovvero di una porta E.
+72:55 In questo esempio la il nostro endressi
+72:59 A e B, come vedete,
+73:03 e una uscita che è questa qua.
+73:07 E questa che vedete qui accanto è la
+73:09 tavola è la tavola verità, la tavola
+73:12 della verità della porta End. Allora, in
+73:14 questa parte di sinistra della tavola
+73:17 della verità, scusate ricco sennò ho
+73:19 troppi scarabocchi e sì, si corre il
+73:23 rischio di non capirci.
+73:31 Allora,
+73:33 in queste
+73:35 due colonne iniziali della tavola della
+73:37 verità, ho tutte le possibili
+73:40 configurazioni che posso avere in
+73:42 ingresso. Vedete che il il nostro end ha
+73:46 due ingressi che sono chiamati A e B.
+73:49 Ognuno di questi ingressi, perché siamo
+73:51 in segnali digitali, può essere o 0 o 1.
+73:54 Quindi in queste quattro righe ci sono
+73:57 tutte le possibili configurazioni
+73:59 che possono avere gli ingressi A e B,
+74:02 cioè possono essere bassi tutti e due, A
+74:04 e B. Vedete che qui sono 0 e 0, qui sono
+74:08 0 e 1, 1 e 0 e 1 e 1. Non sono possibili
+74:12 altre combinazioni in ingresso. Ci sono
+74:14 due terminali A e B. Ognuno di questi
+74:17 terminali può avere due livelli, alto
+74:19 basso, 2 * 2 4. Ci sono quattro
+74:21 combinazioni.
+74:24 La tavola della verità mi dice qual è
+74:27 l'uscita che è questa della mia porta
+74:31 enduna
+74:33 delle combinazioni di ingresso. Allora,
+74:35 questa è una porta end. And in inglese
+74:38 vi dicevo vuol dire e. Quindi,
+74:40 praticamente, questa porta realizza
+74:42 questo principio che adesso vi dico.
+74:44 L'uscita è uno se l'ingresso A e
+74:48 l'ingresso B sono 1.
+74:52 In effetti vedete che l'uscita qui è 0,
+74:55 qui è 0, qui è 0, è uno solamente in
+74:59 questo caso qui, quando l'ingresso A e
+75:02 contemporaneamente l'ingresso B sono
+75:04 uguali a 1.
+75:08 E questo è il funzionamento della porta
+75:11 end, una porta che mi realizza appunto
+75:14 un endali
+75:16 logici A e B. L'uscita è uno solamente
+75:20 se entrambi gli ingressi sono uno, cioè
+75:23 uno e l'altro ingresso
+75:26 e e la parola e d'accordo?
+75:30 Per tenere a mente
+75:32 qui sotto c'è la stessa porta. Anche
+75:35 questa è una porta di tipo end, però
+75:37 vedete che c'è una N davanti, Nend. è
+75:40 esattamente la stessa porta a cui in
+75:43 uscita è stato messo un invertitore, un
+75:45 not.
+75:48 il Note che abbiamo visto qui,
+75:51 il Note semplicemente inverte l'uscita,
+75:55 quindi la tavola delle variità è la
+75:57 stessa, si parte appunto due ingressi,
+76:00 le possibili quattro configurazioni di
+76:01 ingresso. L'uscita
+76:05 eh è semplicemente la negata di questa
+76:08 uscita qua. Quindi qui avevo 001.
+76:12 L'invertitore mi trasforma questa
+76:15 l'uscita della porta Nendy in 11.
+76:20 E questa è la tavola è la tavola della
+76:22 verità della porta Nend.
+76:27 Si ricava molto facilmente se ci si
+76:29 ricorda la porta end. La porta end
+76:33 ci si ricorda abbastanza bene perché end
+76:35 inglese vuol dire e. Quindi, quando un
+76:38 segnale e l'altro segnale sono entrambi
+76:41 uno, contemporaneamente, allora l'uscita
+76:43 è uno. La porta neve funziona a
+76:45 rovescio. Quando uno quando uno degli
+76:48 ingressi è uno e anche l'altro degli
+76:50 ingressi è uno, allora l'uscita sarà
+76:53 zero. Funziona esattamente al contrario
+76:55 della portamente.
+76:57 Tutto chiaro per ora? C'è qualche
+76:59 domanda?
+77:06 L'ultima porta, l'ultima porta si chiama
+77:09 OR. O or. Or in inglese vuol dire o o
+77:13 nel senso di o questo o quello.
+77:17 Allora, questo è lo schema della porta
+77:19 OR
+77:21 e qui abbiamo già capito come funziona
+77:23 il meccanismo.
+77:25 Questa porta ha due ingressi, anche lei
+77:28 e questa è la parte della tavola della
+77:30 verità che mi riporta tutte le possibili
+77:33 combinazioni di questi due ingressi
+77:36 che sono identici a quelli precedenti,
+77:38 no? Cioè, comunque due ingressi possono
+77:40 avere solamente questi queste quattro
+77:42 combinazioni qua da 00 a 1 1. Allora, la
+77:46 porta OR come funziona? Usiamo la
+77:48 lettera OR.
+77:50 l'uscita è 1 se l'ingresso AR oppure
+77:55 l'ingresso B sono 1. Ovvero basta che
+77:58 uno che uno qualsiasi dei due ingressi
+78:00 sia uno oppure anche tutti e due sia un
+78:02 1 perché l'uscita sia uno.
+78:06 Quindi l'uscita è 1 se A è uguale a 1
+78:09 oppure B o è 1 o anche tutti e due.
+78:14 E questa e questo è il funzionamento di
+78:16 una porta OR.
+78:25 Anche in questo caso c'è la versione
+78:27 negata. Qui in uscita c'è un un
+78:30 inverter.
+78:34 E se guardiamo la tavola della verità
+78:37 del nor, nor vuol dire una porta OR con
+78:40 un con un not.
+78:43 D'accordo?
+78:45 E l'uscita
+78:47 sarà eh
+78:52 0 ogni volta che uno dell un ingresso o
+78:56 un altro ingresso sarà zero oppure tutte
+79:00 e due.
+79:06 E questo è tutto per stasera. Allora,
+79:08 uno si potrebbe dire, tanto per parlare
+79:10 un po' a ruota libera, diciamo una porta
+79:13 OR, ma diciamo, ma io cosa cosa me ne
+79:16 faccio di una porta OR? Ma immaginiamo
+79:18 per esempio che eh che che in stazione
+79:21 ho un un oggetto,
+79:29 metto un evidenziatore,
+79:32 diciamo, immaginiamo che nella in casa
+79:36 io ho un oggetto che mi deve fare
+79:38 accendere una specie di lampadina
+79:40 d'allarme. Questa lempatina d'allarme me
+79:43 la voglio fare accendere quando magari
+79:45 mi si accende un sensore
+79:48 di prossimità sulle scale oppure quando
+79:52 mi si accende una un interruttore che ho
+79:56 vicino alla porta d'ingresso oppure mi
+79:58 si accende un un altro sensore che ho
+80:02 nel mio giardino.
+80:04 In una in uno qualsiasi di questi tre
+80:06 casi io voglio che la mia lampadina si
+80:09 accenda dando l'allarme e lo faccio con
+80:13 un or.
+80:15 Io io metto
+80:17 nel mio, ora sto parlando ad esempio di
+80:19 un antifurto, no? In questo esempio io
+80:23 metto una porta OR, qui metto
+80:25 all'ingresso tutte le linee che mi
+80:28 possono dare un allarme. L'uscita della
+80:31 mia porta OR mi farà suonare un allarme
+80:34 appena una di queste linee mi creerà una
+80:37 condizione di allarme.
+80:42 e più o meno, diciamo, tutte queste
+80:44 porte servono a fare cosette di questo
+80:46 tipo. Poi unite in circuiti un po' più
+80:49 complessi, un po' più sofisticati, danno
+80:51 vita a, diciamo, ai sistemi anche di
+80:54 elaborazione delle
+80:56 eh del delle
+80:59 dei dati, danno danno origine ai
+81:01 computer e così via. una grande,
+81:04 diciamo, quantità di con una certa
+81:06 quantità di porte di questo tipo si crea
+81:08 un personal computer alla fine un po'
+81:10 faticosamente, ma si può fare.
+81:13 I mattoncini di base sono questi qua.
+81:18 E per stasera non ho altro da dire.
+81:22 Sandro, a te.
+81:24 >> Buonasera.
+81:25 >> Ciao.
+81:26 >> Ma eh riguardo
+81:29 all'eria, no? Queste porte a cosa
+81:30 servono?
+81:32 Cioè, non capisco il significato, l'uso
+81:34 di queste porte.
+81:36 Allora, di queste porte ce n'è una
+81:38 quantità industriale in tutte le parti
+81:41 logiche delle radio,
+81:43 nei nei nei PLL, essenzialmente nei WFO
+81:47 a PLL
+81:49 e
+81:51 e in e in tutte le funzioni che una
+81:53 radio realizza tramite
+81:57 tramite elettronica digitale.
+82:00 Quindi, per esempio, immaginati che la
+82:02 che la la tua radio ha ci sono diverse
+82:05 radio che hanno una tastierina numerica
+82:06 in cui si imposta la frequenza, no?
+82:09 123.45
+82:11 MHz pic pic pic pic pic. Qui la tastiera
+82:14 viene letta, gestita tramite un certo
+82:17 numero di porte OR, eccetera. Quelle
+82:19 porte or sono i mattoncini di base con
+82:22 cui vengono costruiti i circuiti
+82:24 digitali, più o meno come, tanto per
+82:27 fare un parallelo, immaginiamo un
+82:29 circuito analogico. Eh, una radio è
+82:32 composta da una serie di mattoncini che
+82:34 si chiamano resistenza, condensatore,
+82:36 induttore, transistor, ok? tutti i
+82:38 componenti che abbiamo visto. Se io
+82:40 invece di una radio analogica vorressi
+82:42 costruire un oggetto digitale, non so,
+82:44 una radio sveglia, un sistema d'allarme,
+82:47 una eh una tastierina che mi consente di
+82:50 inserire una frequenza nella radio, i
+82:52 mattoni con cui costruirei questi
+82:54 oggetti qui digitali sono quelli lì, le
+82:57 porte logiche.
+83:00 Ti torna?
+83:01 Sì, sì, ho capito, ho capito.
+83:04 Però, voglio dire, bisogna essere
+83:06 ingegneri elettronici per fa queste cose
+83:08 qui, no? Un radioamatore,
+83:11 >> eh. A me ci riguarda, voglio dire, la
+83:13 trasmissione. Vabbè, capire cosa c'è
+83:16 dentro le radio. D'accordo, però
+83:18 >> ci Sì, ci sì, ci riguard hai ragione te
+83:21 che ci riguardano il giusto.
+83:23 >> Ehm, però può capitare una domanda
+83:25 all'esame.
+83:27 Allora, la domanda all'esame come
+83:29 potrebbe essere fatta? Queste sono,
+83:33 scusa, eh questa questa per esempio è
+83:35 una domanda che potrebbe essere tirata
+83:37 fuori in che che vi potreste trovare sui
+83:41 quids. La domanda è che operazione
+83:43 esegue? Che operazione logica esegue una
+83:46 porta OR?
+83:50 E se uno si ricorda la tavola della
+83:52 verità,
+83:54 eh,
+83:57 quindi si diceva che in una porta OR
+83:59 l'uscita
+84:01 è uno se l'ingresso A o l'ingresso B o
+84:06 tutti e due sono uno. Quindi leggete un
+84:08 attimo questa
+84:10 e ditemi qual è la risposta corretta.
+84:17 una forma.
+84:18 >> No, non sei non sei se se vuoi f
+84:21 qualcosa non sei in condivisione. Ops,
+84:24 scusate.
+84:25 Eh,
+84:29 hai ragione. Pic.
+84:32 Grazie Fabrizio.
+84:39 Ecco, ho ora lo vedete. Ecco, questa è
+84:42 una questa è un esempio che di domanda
+84:45 che ci potrebbe essere nell'esame. Ce ne
+84:47 sono poche, eh, pochissime, rarissime,
+84:49 però potrebbe capitare e quindi se non
+84:51 ha il trullo nell'orecchio ce lo deve
+84:53 avere. Provate a leggere la domanda. La
+84:56 domanda, appunto, è che operazione
+84:57 logica
+85:00 esegue una porta OR?
+85:02 >> Il due.
+85:05 >> Siete tutti d'accordo?
+85:07 >> Sì, due. Sì,
+85:08 >> va bene. Sì, avete ragione. Avete
+85:10 ragione. Stavo cercando di detestarvi.
+85:12 La risposta giusta è la due. Produci un
+85:14 livello logico in un'uscita. se uno più
+85:17 ingressi sono a livello logico uno
+85:22 e queste ci si tengono a mente
+85:24 abbastanza bene perché eh è nel loro
+85:28 nome, cioè la porta OR è diciamo
+85:31 l'uscita è uno se è O o o la end.
+85:36 Questa è una domanda analoga sulla sulla
+85:39 end. Che operazione logica esegue una
+85:41 porta end? e e quindi l'uscita è uno
+85:45 quando un ingresso e l'altro ingresso è
+85:49 uno. Qual è la risposta corretta? Quindi
+85:51 >> la tre.
+85:52 >> La tre.
+85:53 >> Perfetto, perfetto,
+85:56 perfetto. Quindi possono capitare,
+85:59 possono capitare e quindi io ve le ho
+86:01 dette, d'accordo?
+86:03 Poi preferisco anch'io dire che lunga
+86:04 l'elettronica analogica rispetto a
+86:06 quella digitale.
+86:11 Allora, sto ancora divisione. Se abbiamo
+86:14 anche un po' di tempo. Se ci sono
+86:15 domande a voi volentieri.
+86:23 >> Paolo, vogliamo interrompere la
+86:25 registrazione? Vai libero.

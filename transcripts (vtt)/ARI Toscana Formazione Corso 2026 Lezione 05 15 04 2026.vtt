@@ -1,0 +1,9437 @@
+WEBVTT
+
+1
+00:00:00.320 --> 00:00:05.240
+Allora, stasera parliamo del condense.
+
+2
+00:00:02.879 --> 00:00:09.240
+>> Perfetto. Grazie. Stasera parliamo del
+
+3
+00:00:05.240 --> 00:00:11.840
+condensatore che è un l'altro componente
+
+4
+00:00:09.240 --> 00:00:13.480
+passivo classico che ci mancava. Anche i
+
+5
+00:00:11.840 --> 00:00:15.799
+condensatori, come vedremo, sono
+
+6
+00:00:13.480 --> 00:00:17.680
+usatissimi in tutto il mondo elettronico
+
+7
+00:00:15.799 --> 00:00:19.840
+e vedrete che il condensatore ha molti
+
+8
+00:00:17.680 --> 00:00:22.199
+punti di sintonia,
+
+9
+00:00:19.840 --> 00:00:24.560
+di contatto, diciamo, con gli induttori
+
+10
+00:00:22.199 --> 00:00:26.240
+che abbiamo visto la scorsa settimana.
+
+11
+00:00:24.560 --> 00:00:28.439
+Quindi molte cose saranno molto facili
+
+12
+00:00:26.240 --> 00:00:30.160
+da da inquadrare. E poi parleremo
+
+13
+00:00:28.439 --> 00:00:31.640
+dell'impedenza e della potenza in
+
+14
+00:00:30.160 --> 00:00:33.600
+corrente alternata. Allora, il
+
+15
+00:00:31.640 --> 00:00:36.600
+condensatore, quando pensate a un
+
+16
+00:00:33.600 --> 00:00:41.000
+condensatore, pensate a un secchio, a un
+
+17
+00:00:36.600 --> 00:00:42.840
+secchio vuoto. Quando mercoledì scorso
+
+18
+00:00:41.000 --> 00:00:44.320
+abbiamo parlato dell'induttore,
+
+19
+00:00:42.840 --> 00:00:46.199
+l'induttore credo che lo abbiamo
+
+20
+00:00:44.320 --> 00:00:49.160
+visualizzato tutti quanti con quelle
+
+21
+00:00:46.199 --> 00:00:52.520
+foto che c'erano con delle serie con una
+
+22
+00:00:49.160 --> 00:00:54.879
+bobina, un certo numero di spire su un
+
+23
+00:00:52.520 --> 00:00:57.640
+nucleo magnetico e quindi una specie di
+
+24
+00:00:54.879 --> 00:00:59.440
+elettrocalamita che quando scorre
+
+25
+00:00:57.640 --> 00:01:02.199
+corrente elettrica genera campo
+
+26
+00:00:59.440 --> 00:01:04.239
+magnetico. Il condensatore invece lavora
+
+27
+00:01:02.199 --> 00:01:07.439
+sulle cariche elettriche e sul campo
+
+28
+00:01:04.239 --> 00:01:09.320
+elettrico ed è di fatto un serbatoio che
+
+29
+00:01:07.439 --> 00:01:11.360
+quando lo prendiamo è vuoto, non
+
+30
+00:01:09.320 --> 00:01:13.720
+contiene cariche elettriche e lo
+
+31
+00:01:11.360 --> 00:01:16.280
+possiamo riempire buttandoci dentro una
+
+32
+00:01:13.720 --> 00:01:19.360
+certa quantità di cariche elettriche. Un
+
+33
+00:01:16.280 --> 00:01:21.600
+condensatore può in teoria un
+
+34
+00:01:19.360 --> 00:01:24.520
+condensatore ideale senza perdite, se io
+
+35
+00:01:21.600 --> 00:01:27.280
+lo riempissi di carica elettrica e e lo
+
+36
+00:01:24.520 --> 00:01:29.159
+riguardassi dopo 24-48 ore, ci troverei
+
+37
+00:01:27.280 --> 00:01:31.479
+dentro esattamente quella stessa carica
+
+38
+00:01:29.159 --> 00:01:33.000
+elettrica. se non avesse perdite. In
+
+39
+00:01:31.479 --> 00:01:35.560
+realtà un po' di perdite ce l'ha, quindi
+
+40
+00:01:33.000 --> 00:01:37.280
+la carica un po' si eh diciamo come
+
+41
+00:01:35.560 --> 00:01:39.360
+accade anche nei serbatoi veri, no?
+
+42
+00:01:37.280 --> 00:01:41.360
+Magari c'è un po' di evacorazione, se si
+
+43
+00:01:39.360 --> 00:01:43.439
+parla di acqua, magari c'è qualche
+
+44
+00:01:41.360 --> 00:01:46.079
+perdita e poi il livello cala, no? Però
+
+45
+00:01:43.439 --> 00:01:47.759
+tutto sommato il meccanismo è lo stesso.
+
+46
+00:01:46.079 --> 00:01:49.520
+Quindi è un componente, come vedete in
+
+47
+00:01:47.759 --> 00:01:51.240
+questa slide, che accumula carica
+
+48
+00:01:49.520 --> 00:01:53.600
+elettrica quando è connesso a un
+
+49
+00:01:51.240 --> 00:01:56.200
+generatore. Il generatore può essere una
+
+50
+00:01:53.600 --> 00:01:58.320
+batteria, la normale batterietta da 9 V.
+
+51
+00:01:56.200 --> 00:02:01.439
+Se io lo attacco al al condensatore, il
+
+52
+00:01:58.320 --> 00:02:03.759
+condensatore eh acquisisce una certa
+
+53
+00:02:01.439 --> 00:02:07.039
+quantità di carica e anche la tensione
+
+54
+00:02:03.759 --> 00:02:08.759
+ai capi del condensatore va ai 9 V della
+
+55
+00:02:07.039 --> 00:02:10.720
+mia batteria.
+
+56
+00:02:08.759 --> 00:02:13.080
+Come'è fatto un condensatore? Questo
+
+57
+00:02:10.720 --> 00:02:15.360
+serbatoio è fatto da due piastre
+
+58
+00:02:13.080 --> 00:02:19.280
+conduttive, come vedete qua, che sono
+
+59
+00:02:15.360 --> 00:02:21.200
+separate da un da un materiale isolante,
+
+60
+00:02:19.280 --> 00:02:23.000
+sono isolate l'una dall'altra. Questo
+
+61
+00:02:21.200 --> 00:02:24.760
+materiale isolante è chiamato T
+
+62
+00:02:23.000 --> 00:02:27.200
+elettrico
+
+63
+00:02:24.760 --> 00:02:30.200
+e può essere un qualche tipo di plastica
+
+64
+00:02:27.200 --> 00:02:31.640
+o cose del genere, semplicemente cura
+
+65
+00:02:30.200 --> 00:02:33.319
+che le due piastre non siano in
+
+66
+00:02:31.640 --> 00:02:35.040
+contatto. La vedete qua in questa
+
+67
+00:02:33.319 --> 00:02:36.959
+figura, no? Ci sono queste piastre,
+
+68
+00:02:35.040 --> 00:02:39.560
+questa di sopra che è una superficie
+
+69
+00:02:36.959 --> 00:02:41.519
+Speculare
+
+70
+00:02:39.560 --> 00:02:45.200
+ce n'è una di sotto, la piastra
+
+71
+00:02:41.519 --> 00:02:48.519
+inferiore, separate l'una dall'altra. lo
+
+72
+00:02:45.200 --> 00:02:51.319
+strato di questo eh isolante che le
+
+73
+00:02:48.519 --> 00:02:52.599
+separa è alto una certa distanza di e
+
+74
+00:02:51.319 --> 00:02:54.360
+questa è la struttura base di un
+
+75
+00:02:52.599 --> 00:02:56.959
+condensatore. Cioè il nostro secchio di
+
+76
+00:02:54.360 --> 00:02:58.680
+cariche è fatto proprio da due piastre
+
+77
+00:02:56.959 --> 00:03:00.200
+conduttive che non si toccano,
+
+78
+00:02:58.680 --> 00:03:03.680
+altrimenti il condensatore sarebbe in
+
+79
+00:03:00.200 --> 00:03:06.680
+corto circuito, ma sono affacciate l'una
+
+80
+00:03:03.680 --> 00:03:08.680
+all'altra e quando
+
+81
+00:03:06.680 --> 00:03:11.360
+al nostro condensatore attacchiamo la
+
+82
+00:03:08.680 --> 00:03:13.200
+batteria, questa piletta da 9 V di cui
+
+83
+00:03:11.360 --> 00:03:16.480
+parlavo prima, cosa succede? Succede
+
+84
+00:03:13.200 --> 00:03:18.879
+anzitutto che il condensatore si carica,
+
+85
+00:03:16.480 --> 00:03:20.760
+quindi la batteria da 9 V, il polo
+
+86
+00:03:18.879 --> 00:03:22.560
+positivo ha una certa quantità di
+
+87
+00:03:20.760 --> 00:03:24.680
+cariche positive, il polo negativo è
+
+88
+00:03:22.560 --> 00:03:26.400
+ricco di elettroni, quindi cariche
+
+89
+00:03:24.680 --> 00:03:29.799
+negative.
+
+90
+00:03:26.400 --> 00:03:33.000
+eh dal polo negativo eh questi elettroni
+
+91
+00:03:29.799 --> 00:03:35.720
+vanno sull'armatura negativa, diciamo, a
+
+92
+00:03:33.000 --> 00:03:38.280
+questo punto del condensatore e su
+
+93
+00:03:35.720 --> 00:03:40.439
+quest'armatura mi si distribuiscono pian
+
+94
+00:03:38.280 --> 00:03:42.959
+pianino e tutti gli elettroni che
+
+95
+00:03:40.439 --> 00:03:44.799
+possono entrare su questa su questa
+
+96
+00:03:42.959 --> 00:03:46.760
+piastrina di metallo e mi vengono
+
+97
+00:03:44.799 --> 00:03:49.280
+mandati appunto dalla dalla mia
+
+98
+00:03:46.760 --> 00:03:52.319
+batteria. sull'altra armatura, quella
+
+99
+00:03:49.280 --> 00:03:54.319
+che, come vedete qua, è positiva e
+
+100
+00:03:52.319 --> 00:03:57.280
+diciamo si accumulano cariche positive,
+
+101
+00:03:54.319 --> 00:03:59.319
+cioè carenza, diciamo, di elettroni. Gli
+
+102
+00:03:57.280 --> 00:04:01.879
+elettroni se ne vanno perché sono andati
+
+103
+00:03:59.319 --> 00:04:05.040
+sull'altra carica.
+
+104
+00:04:01.879 --> 00:04:07.120
+Il fatto di avere cariche negative qua e
+
+105
+00:04:05.040 --> 00:04:08.680
+cariche positive qua fa sì che nel
+
+106
+00:04:07.120 --> 00:04:10.439
+condensatore si sviluppi un campo
+
+107
+00:04:08.680 --> 00:04:12.120
+elettrico che si visualizza con queste
+
+108
+00:04:10.439 --> 00:04:14.519
+frecce
+
+109
+00:04:12.120 --> 00:04:16.680
+se che semplicemente vanno dall'armatura
+
+110
+00:04:14.519 --> 00:04:19.239
+positiva all'armatura negativa del
+
+111
+00:04:16.680 --> 00:04:21.280
+condensatore. Avevamo visto delovedì
+
+112
+00:04:19.239 --> 00:04:23.160
+scorso che un induttore generava un
+
+113
+00:04:21.280 --> 00:04:25.440
+campo magnetico, che c'erano tutte le
+
+114
+00:04:23.160 --> 00:04:28.240
+spire, tutte le linee di forza del campo
+
+115
+00:04:25.440 --> 00:04:29.840
+magnetico, no? che come abbiamo visto
+
+116
+00:04:28.240 --> 00:04:33.080
+nelle slide, appunto, del mercoledì
+
+117
+00:04:29.840 --> 00:04:35.400
+scorso, qui il campo elettrico interno
+
+118
+00:04:33.080 --> 00:04:39.840
+al condensatore è molto semplice, è
+
+119
+00:04:35.400 --> 00:04:41.759
+proprio una serie di eh linee parallele
+
+120
+00:04:39.840 --> 00:04:45.960
+che vanno dal polo positivo al polo
+
+121
+00:04:41.759 --> 00:04:45.960
+negativo del del condensatore.
+
+122
+00:04:46.120 --> 00:04:52.560
+Che effetto ha se invece di fare un
+
+123
+00:04:48.919 --> 00:04:55.320
+condensatore, come si dice, in aria,
+
+124
+00:04:52.560 --> 00:04:58.160
+cioè in questo modo qua, le due armature
+
+125
+00:04:55.320 --> 00:05:00.759
+che si affacciano, ma nel mezzo non c'è
+
+126
+00:04:58.160 --> 00:05:03.000
+niente, aria oppure anche vuoto, se
+
+127
+00:05:00.759 --> 00:05:05.520
+preferite,
+
+128
+00:05:03.000 --> 00:05:08.000
+ad un condensatore che invece ha un
+
+129
+00:05:05.520 --> 00:05:09.360
+dielettrico, come vedete qua questa
+
+130
+00:05:08.000 --> 00:05:11.600
+parte in verde, no? il famoso
+
+131
+00:05:09.360 --> 00:05:14.440
+dielettrico. Allora, il dielettrico ha
+
+132
+00:05:11.600 --> 00:05:18.440
+l'effetto di aumentare la capacità del
+
+133
+00:05:14.440 --> 00:05:21.120
+condensatore, cioè aumentare la capacità
+
+134
+00:05:18.440 --> 00:05:23.160
+di riemp di acquisire carica del
+
+135
+00:05:21.120 --> 00:05:25.319
+condensatore. Continuando a parlare di
+
+136
+00:05:23.160 --> 00:05:27.560
+secchi, il dielettrico fa sì che il
+
+137
+00:05:25.319 --> 00:05:29.639
+secchio diventi più grande, cioè nello
+
+138
+00:05:27.560 --> 00:05:32.000
+stesso condensatore con il dielettrico
+
+139
+00:05:29.639 --> 00:05:33.960
+posso mettere più cariche. E perché
+
+140
+00:05:32.000 --> 00:05:38.479
+succede questo?
+
+141
+00:05:33.960 --> 00:05:41.039
+Perché eh se noi di elettrico,
+
+142
+00:05:38.479 --> 00:05:44.880
+diciamo, questa figura che vedete qua a
+
+143
+00:05:41.039 --> 00:05:50.800
+sinistra, la la mia batteria manda qua
+
+144
+00:05:44.880 --> 00:05:52.880
+una quantità di cariche eh negative
+
+145
+00:05:50.800 --> 00:05:56.280
+e di qua, di conseguenza abbiamo delle
+
+146
+00:05:52.880 --> 00:05:58.759
+cariche positive finché
+
+147
+00:05:56.280 --> 00:06:00.800
+e a causa di queste cariche sul mio
+
+148
+00:05:58.759 --> 00:06:02.680
+condensatore
+
+149
+00:06:00.800 --> 00:06:04.560
+trovo esattamente la tensione della
+
+150
+00:06:02.680 --> 00:06:06.960
+batteria. via, diciamo i 9 volte di cui
+
+151
+00:06:04.560 --> 00:06:09.000
+si parlava. Nel momento in cui metto il
+
+152
+00:06:06.960 --> 00:06:11.520
+di elettrico, siccome il di elettrico è
+
+153
+00:06:09.000 --> 00:06:14.520
+praticamente appoggiato alle alle
+
+154
+00:06:11.520 --> 00:06:16.520
+lamine, come abbiamo visto qua, vedete
+
+155
+00:06:14.520 --> 00:06:19.560
+che il di elettrico è proprio come se
+
+156
+00:06:16.520 --> 00:06:22.280
+fosse un sandwich,
+
+157
+00:06:19.560 --> 00:06:24.680
+vedete qua, no? è un sandwich
+
+158
+00:06:22.280 --> 00:06:27.560
+e il dialettrico si può dire che è
+
+159
+00:06:24.680 --> 00:06:29.400
+comprastre
+
+160
+00:06:27.560 --> 00:06:31.520
+conduttive dell'armatore del
+
+161
+00:06:29.400 --> 00:06:34.720
+condensatore che si chiamano armature.
+
+162
+00:06:31.520 --> 00:06:37.479
+Le armature del condensatore.
+
+163
+00:06:34.720 --> 00:06:40.080
+Succede che nel momento in cui sulle
+
+164
+00:06:37.479 --> 00:06:41.759
+armature del condensatore
+
+165
+00:06:40.080 --> 00:06:43.639
+si
+
+166
+00:06:41.759 --> 00:06:45.599
+si accumula una certa carica, il
+
+167
+00:06:43.639 --> 00:06:47.639
+dielettrico a sua volta si polarizza,
+
+168
+00:06:45.599 --> 00:06:51.919
+cioè gli atomi di questo materiale
+
+169
+00:06:47.639 --> 00:06:54.840
+isolante si deformano un po' in modo che
+
+170
+00:06:51.919 --> 00:06:57.240
+la parte positiva dell'atomo
+
+171
+00:06:54.840 --> 00:07:01.039
+viene attirata dalla carica negativa e
+
+172
+00:06:57.240 --> 00:07:02.879
+quindi si avvicina alla superficie del T
+
+173
+00:07:01.039 --> 00:07:04.599
+elettrico. Il fatto che così facendo
+
+174
+00:07:02.879 --> 00:07:07.560
+vengono a esserci delle cariche qua
+
+175
+00:07:04.599 --> 00:07:09.280
+positive e qua negative molto vicine fa
+
+176
+00:07:07.560 --> 00:07:11.479
+sì che queste cariche se non si
+
+177
+00:07:09.280 --> 00:07:14.360
+neutralizzano l'una con l'altra e a
+
+178
+00:07:11.479 --> 00:07:18.120
+causa di questa neutralizzazione
+
+179
+00:07:14.360 --> 00:07:19.720
+il il generatore può inserire nel
+
+180
+00:07:18.120 --> 00:07:24.080
+condensatore
+
+181
+00:07:19.720 --> 00:07:24.080
+eh una quantità di carica maggiore.
+
+182
+00:07:24.800 --> 00:07:31.160
+Il dielettrico poi, come vedete qui, ha
+
+183
+00:07:26.720 --> 00:07:33.680
+anche due altri effetti. Eh, il primo è
+
+184
+00:07:31.160 --> 00:07:36.919
+che provoca
+
+185
+00:07:33.680 --> 00:07:39.080
+una corrente di fuga.
+
+186
+00:07:36.919 --> 00:07:41.160
+Parlavamo parlavo prima di perdite, no?
+
+187
+00:07:39.080 --> 00:07:43.960
+un dielettrico, anche un buon materiale
+
+188
+00:07:41.160 --> 00:07:45.919
+plastico, eh, un pochino si fa comunque
+
+189
+00:07:43.960 --> 00:07:47.879
+sempre attraversare da una corrente
+
+190
+00:07:45.919 --> 00:07:51.400
+magari debolissima, ma comunque un
+
+191
+00:07:47.879 --> 00:07:53.440
+minimo di corrente e quindi eh c'è un
+
+192
+00:07:51.400 --> 00:07:55.280
+minimo di corrente che dopo un certo
+
+193
+00:07:53.440 --> 00:07:57.319
+arco di tempo tende pian pianino a
+
+194
+00:07:55.280 --> 00:07:59.400
+scaricare il condensatore e poi, come
+
+195
+00:07:57.319 --> 00:08:01.919
+tutti gli elettrici, impone una tensione
+
+196
+00:07:59.400 --> 00:08:03.840
+massima di lavoro. La tensione massima
+
+197
+00:08:01.919 --> 00:08:06.680
+di lavoro ce l'ha anche il condensatore
+
+198
+00:08:03.840 --> 00:08:10.360
+in aria, come vedete qua, perché vi
+
+199
+00:08:06.680 --> 00:08:13.120
+immaginate che se la differenza di
+
+200
+00:08:10.360 --> 00:08:15.400
+potenziale fra queste due armature del
+
+201
+00:08:13.120 --> 00:08:19.039
+condensatore diventa molto molto alta, a
+
+202
+00:08:15.400 --> 00:08:22.720
+un certo punto qua scopre una scintilla.
+
+203
+00:08:19.039 --> 00:08:25.080
+Tenete presente che la la
+
+204
+00:08:22.720 --> 00:08:27.120
+eh la resistenza di elettrica dell'aria,
+
+205
+00:08:25.080 --> 00:08:29.199
+come si come si chiama questo parametro,
+
+206
+00:08:27.120 --> 00:08:32.519
+che non fa parte del programma d'esame e
+
+207
+00:08:29.199 --> 00:08:35.760
+dell'ordine, mi pare, sui 2000 ohm 2000
+
+208
+00:08:32.519 --> 00:08:38.440
+V per cm, quindi un condensatore in aria
+
+209
+00:08:35.760 --> 00:08:40.919
+spesso con uno strato di elettrico di,
+
+210
+00:08:38.440 --> 00:08:43.200
+scusate, ricomincio.
+
+211
+00:08:40.919 --> 00:08:44.880
+Eh, ho detto un numero sbagliato. Stavo
+
+212
+00:08:43.200 --> 00:08:48.600
+dicendo la resistenza di elettrica
+
+213
+00:08:44.880 --> 00:08:51.480
+dell'aria è di circa 2000 V per millim.
+
+214
+00:08:48.600 --> 00:08:55.720
+Quindi se l'aria è secca uno strato di
+
+215
+00:08:51.480 --> 00:08:58.560
+aria eh viene perforato solo se viene
+
+216
+00:08:55.720 --> 00:09:01.560
+perforato da una scintilla solo se la
+
+217
+00:08:58.560 --> 00:09:04.680
+differenza di potenziale fra le armature
+
+218
+00:09:01.560 --> 00:09:06.160
+supera 2000 V circa. Circa. Lo stesso
+
+219
+00:09:04.680 --> 00:09:07.920
+succede con qualunque tipo di viel
+
+220
+00:09:06.160 --> 00:09:11.279
+elettrico plastico, cioè esiste una
+
+221
+00:09:07.920 --> 00:09:13.839
+tensione massima. Se si supera quella,
+
+222
+00:09:11.279 --> 00:09:15.959
+il condensatore eh va in cortoocircuito,
+
+223
+00:09:13.839 --> 00:09:18.519
+scocca una scintilla.
+
+224
+00:09:15.959 --> 00:09:20.680
+Tant'è che sui condensatori, poi ve lo
+
+225
+00:09:18.519 --> 00:09:24.160
+farò vedere, si legge una tensione
+
+226
+00:09:20.680 --> 00:09:26.519
+massima di lavoro. Allora, come come
+
+227
+00:09:24.160 --> 00:09:29.480
+avevamo fatto per gli induttori, anche
+
+228
+00:09:26.519 --> 00:09:32.200
+per i condensatori esiste un parametro
+
+229
+00:09:29.480 --> 00:09:34.560
+che si chiama la capacità
+
+230
+00:09:32.200 --> 00:09:36.399
+che ci dice quanto è grande il secchio,
+
+231
+00:09:34.560 --> 00:09:38.560
+cioè quanta carica elettrica può
+
+232
+00:09:36.399 --> 00:09:41.920
+immagazzinare un condensatore. La
+
+233
+00:09:38.560 --> 00:09:43.920
+capacità si misura in farad, questa è la
+
+234
+00:09:41.920 --> 00:09:47.800
+sua unità di misura, si indica con la
+
+235
+00:09:43.920 --> 00:09:50.320
+lettera maiuscola F e un condensatore ha
+
+236
+00:09:47.800 --> 00:09:52.320
+una capacità di un farad, come leggete
+
+237
+00:09:50.320 --> 00:09:54.880
+qua sotto.
+
+238
+00:09:52.320 --> 00:09:57.399
+Quando se io
+
+239
+00:09:54.880 --> 00:09:59.640
+butto nel mio secchio, inserisco nel mio
+
+240
+00:09:57.399 --> 00:10:02.279
+condensatore una quantità di carica di
+
+241
+00:09:59.640 --> 00:10:05.079
+un coulomb,
+
+242
+00:10:02.279 --> 00:10:07.920
+ai capi del mio condensatore nasce una
+
+243
+00:10:05.079 --> 00:10:13.040
+differenza di potenziale di 1 volt.
+
+244
+00:10:07.920 --> 00:10:13.040
+Quindi un farad è un coulom su volt.
+
+245
+00:10:13.440 --> 00:10:17.040
+Farad, il farad, l'unità di misura del
+
+246
+00:10:15.480 --> 00:10:18.560
+condensatore. Questa è la cosa da
+
+247
+00:10:17.040 --> 00:10:22.000
+ricordare.
+
+248
+00:10:18.560 --> 00:10:25.399
+E siccome il Farad è una unità di misura
+
+249
+00:10:22.000 --> 00:10:28.079
+molto molto grande, normalmente
+
+250
+00:10:25.399 --> 00:10:31.040
+si usano i sottomultipli.
+
+251
+00:10:28.079 --> 00:10:33.279
+Si usa normalmente sia nel mondo
+
+252
+00:10:31.040 --> 00:10:35.079
+dell'elettronica, diciamo, normale, sia
+
+253
+00:10:33.279 --> 00:10:38.000
+ovviamente nelle domande del Ministero
+
+254
+00:10:35.079 --> 00:10:42.839
+si usa il microfarad
+
+255
+00:10:38.000 --> 00:10:45.480
+che è un milionesimo di farad 10 a -6 un
+
+256
+00:10:42.839 --> 00:10:48.120
+milionesimo. Oppure si usa il nanofarad
+
+257
+00:10:45.480 --> 00:10:51.920
+che è 1000 volte più piccolo, c'è un
+
+258
+00:10:48.120 --> 00:10:55.240
+miliardesimo, 10 a -9. Oppure si usa il
+
+259
+00:10:51.920 --> 00:10:55.240
+pico farad
+
+260
+00:10:55.399 --> 00:11:02.120
+che 10^ -1, cioè un milionesimo di
+
+261
+00:10:58.639 --> 00:11:04.040
+milionesimo di di farad.
+
+262
+00:11:02.120 --> 00:11:05.720
+E nelle radio è abbastanza tipico
+
+263
+00:11:04.040 --> 00:11:08.000
+trovare nelle applicazioni radio, no,
+
+264
+00:11:05.720 --> 00:11:10.519
+dei condensatori, immaginiamo da 10 20
+
+265
+00:11:08.000 --> 00:11:12.480
+50 picofarad e così via. E quindi qui ci
+
+266
+00:11:10.519 --> 00:11:14.240
+possono essere poi le classiche domande,
+
+267
+00:11:12.480 --> 00:11:17.000
+come avete già visto, di se metto in
+
+268
+00:11:14.240 --> 00:11:19.480
+serie due condensatori da 10 pico farad,
+
+269
+00:11:17.000 --> 00:11:23.200
+cosa ottendo? Poi cosa ottengo? Poi
+
+270
+00:11:19.480 --> 00:11:23.200
+vedremo le formule.
+
+271
+00:11:25.079 --> 00:11:29.959
+La capacità di un condensatore
+
+272
+00:11:27.519 --> 00:11:33.040
+quanto vale? La capacità si può
+
+273
+00:11:29.959 --> 00:11:35.800
+calcolare conoscendo la geometria del
+
+274
+00:11:33.040 --> 00:11:38.240
+condensatore e questa è la formula per
+
+275
+00:11:35.800 --> 00:11:40.560
+calcolarla. Come avevamo visto la
+
+276
+00:11:38.240 --> 00:11:42.399
+formula per calcolare la resistenza di
+
+277
+00:11:40.560 --> 00:11:44.959
+un filo elettrico, come avevamo visto la
+
+278
+00:11:42.399 --> 00:11:47.040
+formula per calcolare l'indottanza di di
+
+279
+00:11:44.959 --> 00:11:48.480
+una bobina, questa è la formula per
+
+280
+00:11:47.040 --> 00:11:50.040
+calcolare la capacità di un
+
+281
+00:11:48.480 --> 00:11:51.920
+condensatore.
+
+282
+00:11:50.040 --> 00:11:53.560
+La capacità di un condensatore vale
+
+283
+00:11:51.920 --> 00:11:57.920
+epsil.
+
+284
+00:11:53.560 --> 00:12:00.639
+Questa lettera è la è la lettera greca
+
+285
+00:11:57.920 --> 00:12:02.880
+che più o meno è la italiana ed è la
+
+286
+00:12:00.639 --> 00:12:05.560
+costante elettrica del di elettrico.
+
+287
+00:12:02.880 --> 00:12:07.320
+Quindi è un numero che si trova su delle
+
+288
+00:12:05.560 --> 00:12:09.160
+tavole ed è un dato fisso, è una
+
+289
+00:12:07.320 --> 00:12:12.079
+costante, no? Quindi il teflon, per
+
+290
+00:12:09.160 --> 00:12:13.880
+esempio, se se fosse guido l'isolante ha
+
+291
+00:12:12.079 --> 00:12:15.519
+una costante isolante, no? ha una
+
+292
+00:12:13.880 --> 00:12:18.720
+costante di elettrica pari a un certo
+
+293
+00:12:15.519 --> 00:12:22.920
+valore. E poi, e questi sono i dati
+
+294
+00:12:18.720 --> 00:12:25.680
+geometrici, moltiplicato S / D. S è la
+
+295
+00:12:22.920 --> 00:12:30.600
+superficie delle piastre
+
+296
+00:12:25.680 --> 00:12:33.560
+e D è la distanza fra le piastre. Quindi
+
+297
+00:12:30.600 --> 00:12:35.839
+vedete che Sta al numeratore e quindi
+
+298
+00:12:33.560 --> 00:12:37.680
+quanto più grande è la superficie delle
+
+299
+00:12:35.839 --> 00:12:39.480
+piastre, quanto più è grande il mio
+
+300
+00:12:37.680 --> 00:12:42.639
+secchio, quanto più è grande la capacità
+
+301
+00:12:39.480 --> 00:12:45.839
+del mio condensatore. Viceversa, se io
+
+302
+00:12:42.639 --> 00:12:48.040
+le piastre le metto lontane, siccome
+
+303
+00:12:45.839 --> 00:12:49.959
+dista il denominatore,
+
+304
+00:12:48.040 --> 00:12:51.880
+eh se mi aumenta la distanza fra le
+
+305
+00:12:49.959 --> 00:12:53.839
+piastre, la capacità del condensatore
+
+306
+00:12:51.880 --> 00:12:56.800
+diminuisce. E queste cose le avete
+
+307
+00:12:53.839 --> 00:12:58.680
+scritte qua in quest'altra slide. Questa
+
+308
+00:12:56.800 --> 00:13:01.320
+è la formula che abbiamo visto prima,
+
+309
+00:12:58.680 --> 00:13:04.279
+che la capacità è uguale e moltiplicato
+
+310
+00:13:01.320 --> 00:13:06.480
+superficie diviso distanza.
+
+311
+00:13:04.279 --> 00:13:08.519
+Se aumento la superficie delle piastre,
+
+312
+00:13:06.480 --> 00:13:11.440
+la capacità aumenta e questo si capisce
+
+313
+00:13:08.519 --> 00:13:13.079
+anche a occhio perché piastra più grande
+
+314
+00:13:11.440 --> 00:13:15.800
+ci sarà spazio per più cariche
+
+315
+00:13:13.079 --> 00:13:18.760
+elettriche, per elettroni.
+
+316
+00:13:15.800 --> 00:13:22.079
+Se invece aumenta la distanza fra le
+
+317
+00:13:18.760 --> 00:13:24.240
+armature, la capacità diminuisce perché
+
+318
+00:13:22.079 --> 00:13:26.199
+le cariche negative e positive sono più
+
+319
+00:13:24.240 --> 00:13:28.839
+lontane l'una dall'altra e si
+
+320
+00:13:26.199 --> 00:13:31.839
+neutralizzano meno.
+
+321
+00:13:28.839 --> 00:13:33.519
+>> E il materiale non conta delle piastre?
+
+322
+00:13:31.839 --> 00:13:35.399
+Il materiale delle piastre non conta
+
+323
+00:13:33.519 --> 00:13:38.680
+perché normalmente è un conduttore che
+
+324
+00:13:35.399 --> 00:13:40.000
+lo riteniamo perfetto.
+
+325
+00:13:38.680 --> 00:13:42.199
+Ok?
+
+326
+00:13:40.000 --> 00:13:44.600
+Quello l'unica cosa che conta in termini
+
+327
+00:13:42.199 --> 00:13:46.279
+di materiale, niente, l'unica cosa che
+
+328
+00:13:44.600 --> 00:13:48.720
+conta in termini di materiale è il
+
+329
+00:13:46.279 --> 00:13:51.639
+dielettrico.
+
+330
+00:13:48.720 --> 00:13:57.079
+>> La natura delle piastre, se fosse rame,
+
+331
+00:13:51.639 --> 00:13:59.800
+argento, oro, non entrerebbe sulla
+
+332
+00:13:57.079 --> 00:14:02.240
+nel valore nel calcolo del valore della
+
+333
+00:13:59.800 --> 00:14:04.480
+capacità del condensatore. potrebbe
+
+334
+00:14:02.240 --> 00:14:06.199
+entrare come parametro negativo del
+
+335
+00:14:04.480 --> 00:14:08.959
+condensatore
+
+336
+00:14:06.199 --> 00:14:11.839
+per valutare le sue prestazioni a
+
+337
+00:14:08.959 --> 00:14:14.160
+frequenze molto alte, perché se,
+
+338
+00:14:11.839 --> 00:14:15.639
+diciamo, questo materiale, se il
+
+339
+00:14:14.160 --> 00:14:18.199
+metallo, diciamo, di cui ho fatto le
+
+340
+00:14:15.639 --> 00:14:20.880
+piastre ha frequenze alte, ricordate
+
+341
+00:14:18.199 --> 00:14:24.000
+effetto pelle eccetera, eh mi tende
+
+342
+00:14:20.880 --> 00:14:26.880
+avere una certa valore di resistenza
+
+343
+00:14:24.000 --> 00:14:29.360
+ohm, come tutti i metalli e e questo
+
+344
+00:14:26.880 --> 00:14:31.880
+degraderebbe le caratteristiche del
+
+345
+00:14:29.360 --> 00:14:31.880
+condensatore.
+
+346
+00:14:32.920 --> 00:14:38.199
+E con questo abbiamo finito questa prima
+
+347
+00:14:35.639 --> 00:14:40.199
+parte dove, come avevo fatto per gli
+
+348
+00:14:38.199 --> 00:14:42.399
+induttori, vi ho presentato in generale
+
+349
+00:14:40.199 --> 00:14:44.759
+che cos'è il condensatore. Qui in questa
+
+350
+00:14:42.399 --> 00:14:46.680
+in questa slide vedete alcune foto,
+
+351
+00:14:44.759 --> 00:14:48.279
+vedete che normalmente in tutti i
+
+352
+00:14:46.680 --> 00:14:50.000
+condensatori vediamo questo qua in
+
+353
+00:14:48.279 --> 00:14:52.000
+mezzo. Questo si chiama afframe
+
+354
+00:14:50.000 --> 00:14:54.199
+plastico. Questo vuol dire banalmente
+
+355
+00:14:52.000 --> 00:14:56.320
+che il dielettrico è plastica. Vedete
+
+356
+00:14:54.199 --> 00:14:59.399
+che qua ci sono due scritte. Questa è la
+
+357
+00:14:56.320 --> 00:15:03.040
+capacità 22N. Questi sono 22 nanofarad,
+
+358
+00:14:59.399 --> 00:15:05.600
+250 è la tensione di lavoro. Questo è un
+
+359
+00:15:03.040 --> 00:15:07.320
+condensatore amica. I condensatori amica
+
+360
+00:15:05.600 --> 00:15:09.160
+normalmente sono abbastanza pregiati
+
+361
+00:15:07.320 --> 00:15:11.079
+perché sono molto adatti ad applicazioni
+
+362
+00:15:09.160 --> 00:15:13.160
+a frequenze molto alte, come si dice
+
+363
+00:15:11.079 --> 00:15:15.560
+radiofrequenza. Vedete che questo ha un
+
+364
+00:15:13.160 --> 00:15:18.560
+valore di 500
+
+365
+00:15:15.560 --> 00:15:21.320
+e tutti sanno che questi sono picofarad
+
+366
+00:15:18.560 --> 00:15:23.079
+e quindi i costruttori non ce lo non
+
+367
+00:15:21.320 --> 00:15:25.079
+perdono neanche tempo a scriverlo e
+
+368
+00:15:23.079 --> 00:15:28.440
+questa è una tensione di lavoro di 500
+
+369
+00:15:25.079 --> 00:15:29.920
+V. Come vedete invece questo va notato
+
+370
+00:15:28.440 --> 00:15:32.639
+perché questo è un condensatore che è
+
+371
+00:15:29.920 --> 00:15:34.480
+chiamato elettrolitico. Allora, per ora
+
+372
+00:15:32.639 --> 00:15:37.040
+ho eh quando ho fatto gli esempi di
+
+373
+00:15:34.480 --> 00:15:39.399
+dielettrico, ho sempre parlato di aria
+
+374
+00:15:37.040 --> 00:15:42.720
+di plastica e teflon. Ho parlato di
+
+375
+00:15:39.399 --> 00:15:44.800
+materiali, fatemi dire, abbastanza
+
+376
+00:15:42.720 --> 00:15:47.120
+naturali, però se c'è bisogno di
+
+377
+00:15:44.800 --> 00:15:49.759
+condensatori ad alta capacità, come
+
+378
+00:15:47.120 --> 00:15:54.399
+leggete qua, quindi capacità dell'ordine
+
+379
+00:15:49.759 --> 00:15:56.720
+di 1000.000 100.000 la microfarad
+
+380
+00:15:54.399 --> 00:15:58.959
+e per ottenere valori di capacità così
+
+381
+00:15:56.720 --> 00:16:01.680
+alta si usano dei dielettrici
+
+382
+00:15:58.959 --> 00:16:03.519
+particolari che sono, diciamo, come
+
+383
+00:16:01.680 --> 00:16:06.319
+delle resine chimiche, diciamo, in
+
+384
+00:16:03.519 --> 00:16:09.279
+questo modo e, diciamo, queste resine
+
+385
+00:16:06.319 --> 00:16:11.000
+chimiche sono come nel disegno che
+
+386
+00:16:09.279 --> 00:16:12.839
+abbiamo nella slide che vi ho fatto
+
+387
+00:16:11.000 --> 00:16:14.319
+vedere prima, sono in qualche modo
+
+388
+00:16:12.839 --> 00:16:17.680
+spalmate sulle armature del
+
+389
+00:16:14.319 --> 00:16:21.000
+condensatore. Queste resine chimiche per
+
+390
+00:16:17.680 --> 00:16:24.360
+le loro caratteristiche di poter avere
+
+391
+00:16:21.000 --> 00:16:26.240
+eh un alto valore di epsil e quindi
+
+392
+00:16:24.360 --> 00:16:28.759
+consentire i valori di alta capacità,
+
+393
+00:16:26.240 --> 00:16:30.759
+hanno però il punto debole di essere
+
+394
+00:16:28.759 --> 00:16:32.360
+polarizzate, cioè questi condensatori
+
+395
+00:16:30.759 --> 00:16:34.360
+elettrolitici
+
+396
+00:16:32.360 --> 00:16:36.600
+eh nel momento in cui gli attaccassimo
+
+397
+00:16:34.360 --> 00:16:39.360
+una batteria, vedete che c'è questo
+
+398
+00:16:36.600 --> 00:16:42.480
+terminale qui
+
+399
+00:16:39.360 --> 00:16:45.240
+che è marcato con questi tre segni, con
+
+400
+00:16:42.480 --> 00:16:47.160
+questi due segni meno negativi. Qui ci
+
+401
+00:16:45.240 --> 00:16:49.399
+si può attaccare solo il negativo della
+
+402
+00:16:47.160 --> 00:16:51.040
+batteria e di conseguenza sull'altro
+
+403
+00:16:49.399 --> 00:16:52.480
+terminale del condensatore ci si potrà
+
+404
+00:16:51.040 --> 00:16:53.880
+attaccare solo il positivo della
+
+405
+00:16:52.480 --> 00:16:55.360
+batteria. Invece in questi altri
+
+406
+00:16:53.880 --> 00:16:57.839
+condensatori vedete che non c'è alcun
+
+407
+00:16:55.360 --> 00:17:00.360
+tipo di marcatura, quindi questi li puoi
+
+408
+00:16:57.839 --> 00:17:02.839
+girare come si vuole rispetto alla
+
+409
+00:17:00.360 --> 00:17:04.640
+tensione di alimentazione del circuito.
+
+410
+00:17:02.839 --> 00:17:06.520
+Questo invece no, perché se si usa,
+
+411
+00:17:04.640 --> 00:17:09.360
+diciamo, contromano con la tensione a
+
+412
+00:17:06.520 --> 00:17:12.559
+rovescio, il dielettrico si distrugge
+
+413
+00:17:09.360 --> 00:17:14.280
+proprio perché ha questa caratteristica,
+
+414
+00:17:12.559 --> 00:17:16.199
+appunto, di, diciamo, essendo un
+
+415
+00:17:14.280 --> 00:17:19.600
+materiale artificiale polarizzato a sua
+
+416
+00:17:16.199 --> 00:17:21.559
+volta eccetera eccetera e accetta di
+
+417
+00:17:19.600 --> 00:17:23.319
+lavorare solo con una tensione in un
+
+418
+00:17:21.559 --> 00:17:25.000
+certo verso. Quindi in tutti i
+
+419
+00:17:23.319 --> 00:17:28.640
+condensatori elettrolitici se vi
+
+420
+00:17:25.000 --> 00:17:31.320
+capiterà di aprire un circuito elettrico
+
+421
+00:17:28.640 --> 00:17:33.559
+stire una vecchia radio, un alimentatore
+
+422
+00:17:31.320 --> 00:17:35.080
+switching e cosa del genere, si
+
+423
+00:17:33.559 --> 00:17:37.600
+riconoscono molto facilmente perché
+
+424
+00:17:35.080 --> 00:17:40.000
+hanno questa forma barilotto,
+
+425
+00:17:37.600 --> 00:17:41.919
+normalmente sono neri e c'è una fascia
+
+426
+00:17:40.000 --> 00:17:43.320
+dove è proprio marcato in maniera
+
+427
+00:17:41.919 --> 00:17:44.960
+evidente il lato negativo del
+
+428
+00:17:43.320 --> 00:17:47.280
+condensatore.
+
+429
+00:17:44.960 --> 00:17:49.480
+un altro tipo rilevante di condensatore
+
+430
+00:17:47.280 --> 00:17:51.720
+che questo si un tempo si vedeva molto
+
+431
+00:17:49.480 --> 00:17:53.520
+molto spesso, ora lo potete trovare
+
+432
+00:17:51.720 --> 00:17:55.679
+nelle radio d'epoca se avete in famiglia
+
+433
+00:17:53.520 --> 00:17:57.480
+una radio che era o vostra quando
+
+434
+00:17:55.679 --> 00:17:59.760
+eravate piccoli o di vostro padre o di
+
+435
+00:17:57.480 --> 00:18:03.720
+vostro nonno, in quella radio lì,
+
+436
+00:17:59.760 --> 00:18:06.720
+tipicamente a valvole, eh la sintonia
+
+437
+00:18:03.720 --> 00:18:08.520
+veniva fatta modificando la capacità di
+
+438
+00:18:06.720 --> 00:18:10.640
+un condensatore. Quindi questi si
+
+439
+00:18:08.520 --> 00:18:13.400
+chiamano condensatori variabili, come
+
+440
+00:18:10.640 --> 00:18:15.200
+vedete scritto qua. E vedete qui più o
+
+441
+00:18:13.400 --> 00:18:17.000
+meno come sono fatti. Qui c'è una prima
+
+442
+00:18:15.200 --> 00:18:18.919
+parte del condensatore che è questa di
+
+443
+00:18:17.000 --> 00:18:21.600
+sotto. Ci sono tutte queste lamine che
+
+444
+00:18:18.919 --> 00:18:23.360
+sono fisse. Questo è chiamato lo statore
+
+445
+00:18:21.600 --> 00:18:25.240
+del condensatore.
+
+446
+00:18:23.360 --> 00:18:27.880
+E poi c'è questa parte qui, vedete che
+
+447
+00:18:25.240 --> 00:18:30.440
+c'è una manopola. A questa manopola è
+
+448
+00:18:27.880 --> 00:18:32.600
+attaccata un perno e al perno sono
+
+449
+00:18:30.440 --> 00:18:35.480
+attaccate queste altre lamine. Questo è
+
+450
+00:18:32.600 --> 00:18:37.720
+chiamato il rotore del condensatore. A
+
+451
+00:18:35.480 --> 00:18:42.919
+seconda di come giro questa manopola,
+
+452
+00:18:37.720 --> 00:18:45.520
+queste lamine si inseriscono
+
+453
+00:18:42.919 --> 00:18:47.960
+oppure disinseriscono
+
+454
+00:18:45.520 --> 00:18:50.600
+in misura maggiore o minore dal mio
+
+455
+00:18:47.960 --> 00:18:52.559
+rotore. Quindi, nel momento in cui
+
+456
+00:18:50.600 --> 00:18:54.280
+queste lamine sono tutte dentro, il
+
+457
+00:18:52.559 --> 00:18:56.120
+condensatore ha un valore di capacità
+
+458
+00:18:54.280 --> 00:18:57.799
+massima che per un condensatore, come
+
+459
+00:18:56.120 --> 00:19:00.480
+stiamo vedendo qui, potrebbero essere
+
+460
+00:18:57.799 --> 00:19:04.960
+100 picofarad. Nel momento in cui io
+
+461
+00:19:00.480 --> 00:19:07.440
+invece ruotassi questa manopola di 180°
+
+462
+00:19:04.960 --> 00:19:09.600
+e le lamine sarebbero tutte estratte e i
+
+463
+00:19:07.440 --> 00:19:13.440
+100 picofarad di prima probabilmente
+
+464
+00:19:09.600 --> 00:19:16.240
+diventerebbero 10. Quindi questo è un
+
+465
+00:19:13.440 --> 00:19:19.600
+condensatore che potrebbe essere un 10
+
+466
+00:19:16.240 --> 00:19:19.600
+100 picofarad.
+
+467
+00:19:19.640 --> 00:19:25.000
+E sfruttando questa escursione da 10 a
+
+468
+00:19:22.000 --> 00:19:27.640
+100, eh, come vedremo in qualche lezione
+
+469
+00:19:25.000 --> 00:19:30.080
+più avanti, nelle radio si ottiene la la
+
+470
+00:19:27.640 --> 00:19:31.880
+sintonia, cioè il cambio di frequenza.
+
+471
+00:19:30.080 --> 00:19:33.840
+Quindi, come avevamo visto mercoledì
+
+472
+00:19:31.880 --> 00:19:36.080
+scorso, che esistono delle bobine
+
+473
+00:19:33.840 --> 00:19:38.799
+variabili, avevamo visto quella bobina,
+
+474
+00:19:36.080 --> 00:19:41.120
+ricordate che si poteva entrare con un
+
+475
+00:19:38.799 --> 00:19:44.280
+cacciavitino nel nucleo e avvitare
+
+476
+00:19:41.120 --> 00:19:46.480
+risvitare il nucleo di di ferrite?
+
+477
+00:19:44.280 --> 00:19:48.559
+Esistono di pari passo i condensatori
+
+478
+00:19:46.480 --> 00:19:50.400
+variabili. I condensatori i condensatori
+
+479
+00:19:48.559 --> 00:19:52.320
+variabili funzionano più o meno tutti
+
+480
+00:19:50.400 --> 00:19:55.559
+tramite questo meccanismo, cioè c'è un
+
+481
+00:19:52.320 --> 00:19:59.720
+perno e girando in perno si inserisce o
+
+482
+00:19:55.559 --> 00:20:02.240
+estrae eh le lamine del dello statore
+
+483
+00:19:59.720 --> 00:20:03.919
+dal del rotore, scusate, dal
+
+484
+00:20:02.240 --> 00:20:05.919
+condensatore.
+
+485
+00:20:03.919 --> 00:20:08.120
+E questa appunto è la chiacchierata
+
+486
+00:20:05.919 --> 00:20:11.000
+generale sul componente condensatore.
+
+487
+00:20:08.120 --> 00:20:13.080
+Quindi riassumendo è un è un serbatoio
+
+488
+00:20:11.000 --> 00:20:15.799
+di energia, una volta caricato ti
+
+489
+00:20:13.080 --> 00:20:17.640
+potrebbe si potrebbe immaginare che
+
+490
+00:20:15.799 --> 00:20:20.600
+diventasse una piccola batteria pure
+
+491
+00:20:17.640 --> 00:20:22.640
+lui, una batteria di cui però la carica
+
+492
+00:20:20.600 --> 00:20:24.480
+elettrica nel momento in cui si usa si
+
+493
+00:20:22.640 --> 00:20:26.400
+scaricherebbe subito perché non ha come
+
+494
+00:20:24.480 --> 00:20:28.159
+una batteria vera una reazione chimica
+
+495
+00:20:26.400 --> 00:20:30.320
+che lo sostenta, no? Però nel momento in
+
+496
+00:20:28.159 --> 00:20:33.640
+cui il secchio è pieno di energia io la
+
+497
+00:20:30.320 --> 00:20:35.720
+posso la posso usare. Quanta energia
+
+498
+00:20:33.640 --> 00:20:38.440
+come deve essere fatto il mio secchio se
+
+499
+00:20:35.720 --> 00:20:41.799
+deve assum se se deve poter assorbire
+
+500
+00:20:38.440 --> 00:20:44.240
+tanta energia deve avere una superficie
+
+501
+00:20:41.799 --> 00:20:46.720
+delle armature molto grandi e le
+
+502
+00:20:44.240 --> 00:20:49.600
+armature devono essere molto vicine fra
+
+503
+00:20:46.720 --> 00:20:52.799
+loro. Questo sta questo stanno dicendo
+
+504
+00:20:49.600 --> 00:20:55.000
+questa sta dicendo questa formula, no? S
+
+505
+00:20:52.799 --> 00:20:57.919
+molto grande vuol dire capacità molto
+
+506
+00:20:55.000 --> 00:21:00.520
+grande, T molto piccola che sta sotto la
+
+507
+00:20:57.919 --> 00:21:03.000
+frazione, cioè sta al denominatore,
+
+508
+00:21:00.520 --> 00:21:07.159
+quindi piastre vicinissime, capacità
+
+509
+00:21:03.000 --> 00:21:09.480
+grande e questo viene moltiplicato se eh
+
+510
+00:21:07.159 --> 00:21:11.679
+ho un materiale di elettrico opportuno
+
+511
+00:21:09.480 --> 00:21:14.120
+con un epsil molto elevato. Questo
+
+512
+00:21:11.679 --> 00:21:17.520
+rapporto fra SD D fra le piastre può
+
+513
+00:21:14.120 --> 00:21:19.240
+essere moltiplicato di 10 50 100 V a
+
+514
+00:21:17.520 --> 00:21:22.919
+seconda appunto del materiale che sta
+
+515
+00:21:19.240 --> 00:21:22.919
+dentro questo condensatore.
+
+516
+00:21:22.960 --> 00:21:27.200
+Questo per ora è tutto. Questa, appunto,
+
+517
+00:21:25.600 --> 00:21:29.480
+è chiacchierata generale sul
+
+518
+00:21:27.200 --> 00:21:32.120
+condensatore. Cos'è il condensatore come
+
+519
+00:21:29.480 --> 00:21:33.880
+componente elettronico? Capiamolo un po'
+
+520
+00:21:32.120 --> 00:21:36.720
+se ci sono domande a voi. Intanto
+
+521
+00:21:33.880 --> 00:21:39.159
+Gianfranco.
+
+522
+00:21:36.720 --> 00:21:41.440
+>> Grazie. Buonasera. Eh, una domanda
+
+523
+00:21:39.159 --> 00:21:46.080
+proprio riguardo al calcolo della
+
+524
+00:21:41.440 --> 00:21:49.279
+capacità C. Ehm, hai parlato della
+
+525
+00:21:46.080 --> 00:21:52.279
+superficie delle armature, nel senso
+
+526
+00:21:49.279 --> 00:21:54.279
+vanno moltiplicate. Questo S è inteso
+
+527
+00:21:52.279 --> 00:21:55.799
+come il totale della superficie di
+
+528
+00:21:54.279 --> 00:21:56.880
+entrambe le armature.
+
+529
+00:21:55.799 --> 00:21:59.240
+>> Una una
+
+530
+00:21:56.880 --> 00:21:59.880
+>> una sola. Sì, sì. Ok. Una.
+
+531
+00:21:59.240 --> 00:22:02.520
+>> Ok. Quindi
+
+532
+00:21:59.880 --> 00:22:04.600
+>> una l'altra la immaginiamo uguale e vale
+
+533
+00:22:02.520 --> 00:22:08.000
+la superficie di un'armatura.
+
+534
+00:22:04.600 --> 00:22:09.159
+>> Perfetto. Ok. Era il dubbio. Ce lo
+
+535
+00:22:08.000 --> 00:22:10.200
+Grazie. Chiarito. Grazie.
+
+536
+00:22:09.159 --> 00:22:13.360
+>> Giusto, giusto il dubbio. Ciao
+
+537
+00:22:10.200 --> 00:22:14.840
+Gianfranco. Adesso a te Dario.
+
+538
+00:22:13.360 --> 00:22:17.159
+>> Sì, grazie. E
+
+539
+00:22:14.840 --> 00:22:21.360
+>> Dario, Diario, scusami, parla parla più
+
+540
+00:22:17.159 --> 00:22:24.279
+piano perché arrivi molto strappato, hai
+
+541
+00:22:21.360 --> 00:22:26.000
+il volume microfonico molto elevato.
+
+542
+00:22:24.279 --> 00:22:26.880
+>> Provo ad abbassare il volume, vediamo
+
+543
+00:22:26.000 --> 00:22:29.720
+così se va meglio.
+
+544
+00:22:26.880 --> 00:22:32.840
+>> Aspetta, così va già molto molto bene.
+
+545
+00:22:29.720 --> 00:22:35.520
+>> Bene, grazie. Eh, domanda. Se di
+
+546
+00:22:32.840 --> 00:22:38.799
+elettrico è aria, perché non si generano
+
+547
+00:22:35.520 --> 00:22:40.840
+scintille e archi tra le due piastre?
+
+548
+00:22:38.799 --> 00:22:43.279
+>> Eh, anche con l'aria si genera un
+
+549
+00:22:40.840 --> 00:22:44.840
+scintille fra le due piastre, però
+
+550
+00:22:43.279 --> 00:22:47.080
+>> Eh, sì,
+
+551
+00:22:44.840 --> 00:22:49.000
+>> però l'aria,
+
+552
+00:22:47.080 --> 00:22:51.520
+>> scusa, vai.
+
+553
+00:22:49.000 --> 00:22:54.520
+>> Se è aria, se il dielettrico è aria che
+
+554
+00:22:51.520 --> 00:22:58.080
+non è isolante, si generano archi,
+
+555
+00:22:54.520 --> 00:23:00.840
+scintille? Allora, la Sì, però l'aria
+
+556
+00:22:58.080 --> 00:23:04.000
+normalmente è isolante, nel senso che
+
+557
+00:23:00.840 --> 00:23:05.799
+l'aria secca e pulita e poi queste cose
+
+558
+00:23:04.000 --> 00:23:09.960
+ve le potete cercare su internet, ha
+
+559
+00:23:05.799 --> 00:23:11.600
+un'agidità diettica superiore a 1000 V a
+
+560
+00:23:09.960 --> 00:23:13.480
+millimetro.
+
+561
+00:23:11.600 --> 00:23:15.480
+Se prendiamo materiali plastici, prima
+
+562
+00:23:13.480 --> 00:23:17.960
+avevo citato il teflon, se guardate un
+
+563
+00:23:15.480 --> 00:23:20.799
+po' su internet, il teflon ha una ha una
+
+564
+00:23:17.960 --> 00:23:22.279
+si sto andando a mente, eh, e quindi
+
+565
+00:23:20.799 --> 00:23:24.120
+potrei anche un po' sbagliare, però il
+
+566
+00:23:22.279 --> 00:23:27.840
+teflon ha una rigità di elettrica di
+
+567
+00:23:24.120 --> 00:23:30.960
+circa-6000 V a millimetro,
+
+568
+00:23:27.840 --> 00:23:33.240
+quindi a pari separazione di piastre,
+
+569
+00:23:30.960 --> 00:23:35.279
+diciamo 1 millimetro, un condensatore in
+
+570
+00:23:33.240 --> 00:23:37.240
+teclon ha una tensione di lavoro che può
+
+571
+00:23:35.279 --> 00:23:40.240
+essere cinque volte maggiore a quelle di
+
+572
+00:23:37.240 --> 00:23:44.760
+un condensatore in aria.
+
+573
+00:23:40.240 --> 00:23:46.440
+>> Chiaro? Ok, grazie. Poi in alcuni casi e
+
+574
+00:23:44.760 --> 00:23:49.000
+cioè condensatori in aria praticamente
+
+575
+00:23:46.440 --> 00:23:50.480
+si usano rarissimamente perché per
+
+576
+00:23:49.000 --> 00:23:52.640
+esempio parliamo delle vecchie
+
+577
+00:23:50.480 --> 00:23:54.200
+radiovalvole, quel condensatore quel
+
+578
+00:23:52.640 --> 00:23:55.720
+quel bel condensatore che vi ho fatto
+
+579
+00:23:54.200 --> 00:23:57.440
+vedere io che magari può essere un bel
+
+580
+00:23:55.720 --> 00:24:01.240
+pezzo della museo, immaginatelo in una
+
+581
+00:23:57.440 --> 00:24:03.679
+radio, dopo 5 anni è pieno di polvere
+
+582
+00:24:01.240 --> 00:24:05.679
+ovviamente no, perché diciamo è un
+
+583
+00:24:03.679 --> 00:24:07.320
+oggetto che sta di fatto all'aperto,
+
+584
+00:24:05.679 --> 00:24:09.520
+all'interno della radio. Ora un
+
+585
+00:24:07.320 --> 00:24:12.480
+condensatore pieno di polvere, non è che
+
+586
+00:24:09.520 --> 00:24:15.799
+la rigidità di elettrica ne
+
+587
+00:24:12.480 --> 00:24:21.279
+eh diciamo ne gioisce. Ok,
+
+588
+00:24:15.799 --> 00:24:23.919
+>> certo. Sì, sì, chiarissimo. Grazie.
+
+589
+00:24:21.279 --> 00:24:25.600
+Avete altre Gianfranco, a te. A
+
+590
+00:24:23.919 --> 00:24:27.520
+Gianfranco, risentito anche.
+
+591
+00:24:25.600 --> 00:24:31.000
+>> Sì, sì, sì. La rigidità di elettrica,
+
+592
+00:24:27.520 --> 00:24:33.200
+stavo leggendo, sono 19,7.000
+
+593
+00:24:31.000 --> 00:24:34.080
+V per millimetro.
+
+594
+00:24:33.200 --> 00:24:35.320
+>> Di che materiale?
+
+595
+00:24:34.080 --> 00:24:37.600
+>> Qu il teflon.
+
+596
+00:24:35.320 --> 00:24:40.200
+>> Eh, ok. è altissima.
+
+597
+00:24:37.600 --> 00:24:42.039
+>> Eh sì, sì, Tefeslon è un Infatti Teflon
+
+598
+00:24:40.200 --> 00:24:45.000
+è una bomba ecologica, però da questo
+
+599
+00:24:42.039 --> 00:24:47.080
+punto di vista è un materiale
+
+600
+00:24:45.000 --> 00:24:49.320
+notevolissimo. Grazie Dario per il
+
+601
+00:24:47.080 --> 00:24:51.039
+numero,
+
+602
+00:24:49.320 --> 00:24:53.720
+>> scusami. Grazie Gianfranco per il
+
+603
+00:24:51.039 --> 00:24:56.480
+numero. Allora, Dario hai già parlato,
+
+604
+00:24:53.720 --> 00:24:59.480
+giusto?
+
+605
+00:24:56.480 --> 00:24:59.480
+Ok,
+
+606
+00:24:59.600 --> 00:25:06.559
+allora adesso proseguo.
+
+607
+00:25:03.559 --> 00:25:06.559
+Dunque,
+
+608
+00:25:09.120 --> 00:25:13.600
+allora, scusate un attimo.
+
+609
+00:25:14.320 --> 00:25:19.039
+Allora, seguiamo proprio la traccia che
+
+610
+00:25:17.080 --> 00:25:20.720
+abbiamo usato mercoledì scorso. Allora,
+
+611
+00:25:19.039 --> 00:25:23.760
+anche i condensatori si possono mettere
+
+612
+00:25:20.720 --> 00:25:26.120
+in parallelo e in serie. Allora, cosa
+
+613
+00:25:23.760 --> 00:25:30.480
+succede mettendo due condensatori in
+
+614
+00:25:26.120 --> 00:25:32.120
+parallelo, come leggete qua,
+
+615
+00:25:30.480 --> 00:25:34.200
+condensatori
+
+616
+00:25:32.120 --> 00:25:36.559
+in parallelo.
+
+617
+00:25:34.200 --> 00:25:38.120
+Succede che, guardate un attimo questo
+
+618
+00:25:36.559 --> 00:25:40.840
+schema qua, ci sono questi due
+
+619
+00:25:38.120 --> 00:25:43.399
+condensatori dove le piastre che adesso
+
+620
+00:25:40.840 --> 00:25:45.480
+scarabocchio un po' in rosso, hanno
+
+621
+00:25:43.399 --> 00:25:47.600
+questa superficie.
+
+622
+00:25:45.480 --> 00:25:49.520
+Se metto due condensatori in parallelo,
+
+623
+00:25:47.600 --> 00:25:51.320
+siccome queste piastre sono collegate da
+
+624
+00:25:49.520 --> 00:25:53.919
+loro, da un filo elettrico, no? Quindi
+
+625
+00:25:51.320 --> 00:25:57.399
+alla fine sono queste due piastre qua
+
+626
+00:25:53.919 --> 00:25:59.679
+sono equivalenti a un'unica piastra di
+
+627
+00:25:57.399 --> 00:26:01.799
+superficie pari alla somma delle due,
+
+628
+00:25:59.679 --> 00:26:04.000
+proprio perché sono collegate, diciamo,
+
+629
+00:26:01.799 --> 00:26:06.440
+da un filo elettrico. Quindi tutto
+
+630
+00:26:04.000 --> 00:26:09.039
+questo pezzo che vedete, piastra 1,
+
+631
+00:26:06.440 --> 00:26:12.120
+piastra di C1, filo elettrico, piastra
+
+632
+00:26:09.039 --> 00:26:14.320
+2, piastra di C2. Siccome è collegato da
+
+633
+00:26:12.120 --> 00:26:15.880
+un filo elettrico è tutto materiale
+
+634
+00:26:14.320 --> 00:26:18.159
+conduttore, quindi ha lo stesso
+
+635
+00:26:15.880 --> 00:26:21.760
+potenziale, ha stessa tensione per
+
+636
+00:26:18.159 --> 00:26:25.840
+intenderci. Quindi due piastre,
+
+637
+00:26:21.760 --> 00:26:30.240
+diciamo, di superficie 5 mm 5 cm²,
+
+638
+00:26:25.840 --> 00:26:34.760
+diciamo, ciascuna. 5 + 5 cm² equivalgono
+
+639
+00:26:30.240 --> 00:26:37.919
+a un'unica piastra di 10 cm²,
+
+640
+00:26:34.760 --> 00:26:40.640
+quindi si somma la superficie. Quindi,
+
+641
+00:26:37.919 --> 00:26:42.840
+quando si va a calcolare il valore dei
+
+642
+00:26:40.640 --> 00:26:45.960
+condensatori in parallelo, il valore
+
+643
+00:26:42.840 --> 00:26:49.600
+totale dei condensatori in parallelo è
+
+644
+00:26:45.960 --> 00:26:51.279
+uguale alla somma dei singoli valori dei
+
+645
+00:26:49.600 --> 00:26:54.960
+condensatori. Quindi, se io metto in
+
+646
+00:26:51.279 --> 00:26:58.399
+parallelo, diciamo, 1 2 3 condensatori,
+
+647
+00:26:54.960 --> 00:26:59.919
+diciamo, da 100 picofarad, ottengo 300
+
+648
+00:26:58.399 --> 00:27:01.799
+picofarad.
+
+649
+00:26:59.919 --> 00:27:03.919
+Quindi questa è una formula che già
+
+650
+00:27:01.799 --> 00:27:06.399
+conoscete
+
+651
+00:27:03.919 --> 00:27:10.320
+e che avete già usato per gli induttori
+
+652
+00:27:06.399 --> 00:27:13.159
+e per le resistenze, però eh mentre con
+
+653
+00:27:10.320 --> 00:27:16.440
+questa formula, cioè di sommare i loro
+
+654
+00:27:13.159 --> 00:27:19.840
+valori, eh nel caso degli induttori e
+
+655
+00:27:16.440 --> 00:27:22.559
+delle resistenze e si usavano per le
+
+656
+00:27:19.840 --> 00:27:25.640
+serie, per i condensatori si usano per
+
+657
+00:27:22.559 --> 00:27:28.320
+il parallelo, cioè e e adesso vi
+
+658
+00:27:25.640 --> 00:27:30.679
+racconto un intero gioco anche parlando
+
+659
+00:27:28.320 --> 00:27:32.559
+di condensatori in serie. Praticamente
+
+660
+00:27:30.679 --> 00:27:35.000
+le formule per la serie e il parallelo
+
+661
+00:27:32.559 --> 00:27:37.640
+dei condensatori sono uguali a quelli
+
+662
+00:27:35.000 --> 00:27:40.480
+delle resistenze, quelli degli
+
+663
+00:27:37.640 --> 00:27:43.320
+induttori, però scambiati.
+
+664
+00:27:40.480 --> 00:27:45.600
+Come di là si calcola la serie, di qua
+
+665
+00:27:43.320 --> 00:27:48.039
+coi condensatori si calcola il parallelo
+
+666
+00:27:45.600 --> 00:27:50.679
+e viceversa.
+
+667
+00:27:48.039 --> 00:27:52.480
+Quindi non c'è bisogno di memorizzare
+
+668
+00:27:50.679 --> 00:27:54.000
+altre formule perché alla fine sono
+
+669
+00:27:52.480 --> 00:27:56.360
+sempre quelle, però bisogna tenere in
+
+670
+00:27:54.000 --> 00:27:59.399
+mente che sono, diciamo, da usare al al
+
+671
+00:27:56.360 --> 00:28:01.679
+contrario. Qua avete il calcolo dei
+
+672
+00:27:59.399 --> 00:28:03.440
+condensatori in serie. Cosa succede?
+
+673
+00:28:01.679 --> 00:28:05.799
+Anche qui, diciamo, c'è una spiegazione
+
+674
+00:28:03.440 --> 00:28:07.960
+geometrica molto tranquilla, nel senso
+
+675
+00:28:05.799 --> 00:28:10.240
+che qui abbiamo due condensatori in
+
+676
+00:28:07.960 --> 00:28:12.799
+serie
+
+677
+00:28:10.240 --> 00:28:16.039
+e qui ho una distanza fra le armature
+
+678
+00:28:12.799 --> 00:28:18.240
+che leggete qua sotto che è D1.
+
+679
+00:28:16.039 --> 00:28:21.440
+una distanza fra le armature del secondo
+
+680
+00:28:18.240 --> 00:28:23.600
+condensatore che è D2.
+
+681
+00:28:21.440 --> 00:28:25.600
+Diciamo anche in questo caso queste due
+
+682
+00:28:23.600 --> 00:28:27.679
+armature, quella di questo condensatore
+
+683
+00:28:25.600 --> 00:28:29.320
+e l'altra dell'altro condensatore sono
+
+684
+00:28:27.679 --> 00:28:31.000
+allo stesso potenziale perché sono
+
+685
+00:28:29.320 --> 00:28:33.399
+collegate da un filo metallico. Allora
+
+686
+00:28:31.000 --> 00:28:37.440
+questo condensatore equivale a un unico
+
+687
+00:28:33.399 --> 00:28:40.720
+condensatore. Siccome qui
+
+688
+00:28:37.440 --> 00:28:42.200
+e qui c'è lo stesso potenziale, no?
+
+689
+00:28:40.720 --> 00:28:44.600
+Perché le piastre sono collegate da un
+
+690
+00:28:42.200 --> 00:28:47.519
+filo metallico. Questo equivale a un
+
+691
+00:28:44.600 --> 00:28:49.399
+unico condensatore
+
+692
+00:28:47.519 --> 00:28:54.240
+in cui
+
+693
+00:28:49.399 --> 00:28:57.559
+la spaziatura fra le due armature eh
+
+694
+00:28:54.240 --> 00:28:59.919
+valga sia la somma delle due spaziature.
+
+695
+00:28:57.559 --> 00:29:01.600
+Quindi qua ho una spaziatura di uno, qua
+
+696
+00:28:59.919 --> 00:29:03.399
+ho una spaziatura di 2 e qui una
+
+697
+00:29:01.600 --> 00:29:05.320
+spaziatura di 1 + di 2. Quindi
+
+698
+00:29:03.399 --> 00:29:07.039
+immaginiamo qui ho una spazzatura di 2
+
+699
+00:29:05.320 --> 00:29:09.720
+mm,
+
+700
+00:29:07.039 --> 00:29:12.799
+qui ho una spaziatura di 3 mm di 2, qui
+
+701
+00:29:09.720 --> 00:29:14.720
+avrò 2 + 3 5 mm.
+
+702
+00:29:12.799 --> 00:29:17.559
+A questo punto
+
+703
+00:29:14.720 --> 00:29:20.559
+e è chiaro che la spaziatura aumenta, il
+
+704
+00:29:17.559 --> 00:29:25.679
+valore del della capacità diminuisce e
+
+705
+00:29:20.559 --> 00:29:28.039
+vale la stessa formula che abbiamo visto
+
+706
+00:29:25.679 --> 00:29:30.279
+quando calcolavamo
+
+707
+00:29:28.039 --> 00:29:32.240
+il parallelo delle resistenze o il
+
+708
+00:29:30.279 --> 00:29:34.000
+parallelo degli induttori. Invece qui
+
+709
+00:29:32.240 --> 00:29:36.120
+questa formula vale per i condensatori
+
+710
+00:29:34.000 --> 00:29:39.320
+in serie.
+
+711
+00:29:36.120 --> 00:29:43.120
+stessa formula di qua. Questa questa
+
+712
+00:29:39.320 --> 00:29:46.159
+formula 1 / 1 / 1 / la usiamo per la
+
+713
+00:29:43.120 --> 00:29:49.399
+serie dei condensatori e valgono gli
+
+714
+00:29:46.159 --> 00:29:52.519
+stessi casi particolari, cioè se di
+
+715
+00:29:49.399 --> 00:29:54.640
+condensatori in serie, come leggete qua
+
+716
+00:29:52.519 --> 00:29:58.200
+sopra,
+
+717
+00:29:54.640 --> 00:30:01.159
+io ne ho due uguali, quindi diciamo due
+
+718
+00:29:58.200 --> 00:30:03.360
+condensatori da un microfarad in
+
+719
+00:30:01.159 --> 00:30:05.600
+parallelo,
+
+720
+00:30:03.360 --> 00:30:07.559
+eh scusatemi, in serie, due condensatori
+
+721
+00:30:05.600 --> 00:30:10.240
+da un microfarad in serie. Il valore
+
+722
+00:30:07.559 --> 00:30:13.360
+risultante è la metà di uno, quindi è
+
+723
+00:30:10.240 --> 00:30:16.039
+mezzo microfarad. Senti condensatori in
+
+724
+00:30:13.360 --> 00:30:19.880
+serie ne ho quattro, diciamo. Ho quattro
+
+725
+00:30:16.039 --> 00:30:24.039
+condensatori da 1 microfarad in serie
+
+726
+00:30:19.880 --> 00:30:26.080
+l'uno con l'altro. 1 2 3 4. Il valore
+
+727
+00:30:24.039 --> 00:30:27.960
+finale è il valore di uno dei
+
+728
+00:30:26.080 --> 00:30:29.200
+condensatori
+
+729
+00:30:27.960 --> 00:30:31.440
+diviso il numero totale dei
+
+730
+00:30:29.200 --> 00:30:35.960
+condensatori, quindi mi diventa 1/4 di
+
+731
+00:30:31.440 --> 00:30:38.799
+microfarad, cioè 0,25 microfarad.
+
+732
+00:30:35.960 --> 00:30:40.600
+Se ne ho due o più diversi,
+
+733
+00:30:38.799 --> 00:30:43.600
+devo usare quelle formule lì che avete
+
+734
+00:30:40.600 --> 00:30:45.799
+già usato per i resistori in parallelo,
+
+735
+00:30:43.600 --> 00:30:48.399
+per gli induttori in parallelo, però la
+
+736
+00:30:45.799 --> 00:30:50.640
+cosa che si sa è sempre che quando
+
+737
+00:30:48.399 --> 00:30:53.480
+faccio un parallelo il valore risultante
+
+738
+00:30:50.640 --> 00:30:55.880
+è minore del condensatore più piccolo.
+
+739
+00:30:53.480 --> 00:30:57.559
+minore del condensatore più piccolo.
+
+740
+00:30:55.880 --> 00:31:00.840
+Quindi, diciamo, le formule sono le
+
+741
+00:30:57.559 --> 00:31:03.240
+stesse, vanno, diciamo, si applicano,
+
+742
+00:31:00.840 --> 00:31:05.559
+però
+
+743
+00:31:03.240 --> 00:31:07.080
+nel caso di collegamento diverso,
+
+744
+00:31:05.559 --> 00:31:09.519
+diciamo, rispetto a quello delle
+
+745
+00:31:07.080 --> 00:31:11.039
+resistenze, per esempio. Quindi, eh,
+
+746
+00:31:09.519 --> 00:31:12.519
+come ho già detto, no? La formula per la
+
+747
+00:31:11.039 --> 00:31:14.720
+serie delle resistenze vale per il
+
+748
+00:31:12.519 --> 00:31:17.120
+parallelo dei condensatori e lo stesso,
+
+749
+00:31:14.720 --> 00:31:18.799
+no? Al contrario per quella del
+
+750
+00:31:17.120 --> 00:31:21.159
+parallelo delle resistenze che vale per
+
+751
+00:31:18.799 --> 00:31:22.639
+la serie dei condensatori. I conti su
+
+752
+00:31:21.159 --> 00:31:26.679
+quelle formule ovviamente sono gli
+
+753
+00:31:22.639 --> 00:31:31.320
+stessi. Eh, una somma in un certo caso
+
+754
+00:31:26.679 --> 00:31:33.240
+C1 + C2 + C3 oppure 1/ c1 / C2 1/ c3.
+
+755
+00:31:31.320 --> 00:31:34.799
+Mh.
+
+756
+00:31:33.240 --> 00:31:36.440
+Poi,
+
+757
+00:31:34.799 --> 00:31:38.399
+cambiando argomento, facciamo un passo
+
+758
+00:31:36.440 --> 00:31:40.320
+avanti. Come abbiamo visto anche per gli
+
+759
+00:31:38.399 --> 00:31:42.000
+induttori, anche i condensatori in una
+
+760
+00:31:40.320 --> 00:31:44.120
+certa costante di tempo. Si è detto che
+
+761
+00:31:42.000 --> 00:31:47.720
+loro sono un secchio. Cosa succede
+
+762
+00:31:44.120 --> 00:31:50.679
+quando si collega il condensatore
+
+763
+00:31:47.720 --> 00:31:52.399
+a a una tensione continua? Succede che
+
+764
+00:31:50.679 --> 00:31:54.559
+il secchio si riempie, ma come in tutti
+
+765
+00:31:52.399 --> 00:31:57.840
+i secchi ci vuole un po' di tempo.
+
+766
+00:31:54.559 --> 00:31:59.440
+Questo tempo è in qualche modo misurato
+
+767
+00:31:57.840 --> 00:32:01.519
+dalla costante di tempo del
+
+768
+00:31:59.440 --> 00:32:03.760
+condensatore. Come avevamo per gli
+
+769
+00:32:01.519 --> 00:32:06.480
+induttori c'era costante di tempo TAU
+
+770
+00:32:03.760 --> 00:32:09.159
+che mi faceva vedere quanto in ritardo
+
+771
+00:32:06.480 --> 00:32:11.480
+eh in questo caso dei condensatori e
+
+772
+00:32:09.159 --> 00:32:13.200
+quanto in ritardo mi si carica il
+
+773
+00:32:11.480 --> 00:32:15.679
+secchio, quanto tempo mi ci vuole per
+
+774
+00:32:13.200 --> 00:32:18.600
+caricare il condensatore. Il caso degli
+
+775
+00:32:15.679 --> 00:32:21.000
+induttori era quanto tempo serviva per
+
+776
+00:32:18.600 --> 00:32:24.120
+arrivare al massimo del campo magnetico
+
+777
+00:32:21.000 --> 00:32:27.240
+che l'induttore poteva generare. Anche
+
+778
+00:32:24.120 --> 00:32:30.000
+qui esiste un parametro che è la
+
+779
+00:32:27.240 --> 00:32:32.120
+costante di tempo. Eccola qua. Costante
+
+780
+00:32:30.000 --> 00:32:34.320
+di tempo t.
+
+781
+00:32:32.120 --> 00:32:36.320
+Qui l'ho scritta in italiano t, invece
+
+782
+00:32:34.320 --> 00:32:38.440
+di usare la lettera greca tau. Nel caso
+
+783
+00:32:36.320 --> 00:32:41.559
+dei condensatori la la costante di tempo
+
+784
+00:32:38.440 --> 00:32:43.799
+vale R moltiplicato C. Invece, se
+
+785
+00:32:41.559 --> 00:32:48.000
+ricordate, la costante di tempo nel caso
+
+786
+00:32:43.799 --> 00:32:49.880
+degli induttori era L/ R. Comunque,
+
+787
+00:32:48.000 --> 00:32:51.760
+diciamo, cambia la formula, il risultato
+
+788
+00:32:49.880 --> 00:32:56.360
+è sempre lo stesso, cioè è il tempo con
+
+789
+00:32:51.760 --> 00:32:59.080
+cui si arriva al 63% della carica e come
+
+790
+00:32:56.360 --> 00:33:01.480
+si era visto per gli induttori, dopo
+
+791
+00:32:59.080 --> 00:33:03.440
+cinque volte il valore della costante di
+
+792
+00:33:01.480 --> 00:33:05.919
+tempo,
+
+793
+00:33:03.440 --> 00:33:08.120
+ecco qua la tensione del mio
+
+794
+00:33:05.919 --> 00:33:10.279
+condensatore che sale. Dopo cinque volte
+
+795
+00:33:08.120 --> 00:33:12.880
+la costante di tempo, il condensatore si
+
+796
+00:33:10.279 --> 00:33:14.799
+può ritenere carico e anche qui, quando
+
+797
+00:33:12.880 --> 00:33:16.480
+lo scarico, dopo cinque volte la
+
+798
+00:33:14.799 --> 00:33:19.679
+costante di tempo lo posso ritenere
+
+799
+00:33:16.480 --> 00:33:22.080
+scarico. Allora, notate, facendo sempre
+
+800
+00:33:19.679 --> 00:33:25.960
+questo parallelo fra condensatori e
+
+801
+00:33:22.080 --> 00:33:27.840
+induttori, notate che qui,
+
+802
+00:33:25.960 --> 00:33:29.720
+allora, il momento zero è quello in cui
+
+803
+00:33:27.840 --> 00:33:31.840
+io attacco la mia batteria e il mio
+
+804
+00:33:29.720 --> 00:33:36.519
+generatore al condensatore. Notate che
+
+805
+00:33:31.840 --> 00:33:39.279
+qui nel tempo sale la tensione sul
+
+806
+00:33:36.519 --> 00:33:43.000
+condensatore. Sale WC la tensione sul
+
+807
+00:33:39.279 --> 00:33:44.840
+condensatore. Se ricordate la slide che
+
+808
+00:33:43.000 --> 00:33:48.120
+abbiamo usato quando si parlava di
+
+809
+00:33:44.840 --> 00:33:50.320
+induttore, la cosa che saliva lenta
+
+810
+00:33:48.120 --> 00:33:52.559
+nell'induttore non era la tensione, ma
+
+811
+00:33:50.320 --> 00:33:54.720
+era la corrente,
+
+812
+00:33:52.559 --> 00:33:56.279
+perché l'induttore, appunto, è lento,
+
+813
+00:33:54.720 --> 00:33:58.200
+abbiamo detto, e la corrente sale
+
+814
+00:33:56.279 --> 00:34:00.960
+lentamente. Qui invece nel caso del
+
+815
+00:33:58.200 --> 00:34:02.279
+condensatore il secchio è vuoto e ha
+
+816
+00:34:00.960 --> 00:34:04.200
+bisogno di un po' di tempo per
+
+817
+00:34:02.279 --> 00:34:07.919
+riempirsi.
+
+818
+00:34:04.200 --> 00:34:10.200
+La tensione è tanto più alta quanto più
+
+819
+00:34:07.919 --> 00:34:12.839
+il mio serbatoio, quanto più quanto più
+
+820
+00:34:10.200 --> 00:34:15.359
+il mio condensatore è carico. E visto
+
+821
+00:34:12.839 --> 00:34:17.440
+che si parlava di corrente,
+
+822
+00:34:15.359 --> 00:34:20.159
+la cosa che avete qua sotto in questa
+
+823
+00:34:17.440 --> 00:34:22.280
+parte inferiore del grafico è proprio
+
+824
+00:34:20.159 --> 00:34:24.839
+l'andamento della corrente nella carica
+
+825
+00:34:22.280 --> 00:34:28.359
+di un condensatore. All'inizio, momento
+
+826
+00:34:24.839 --> 00:34:30.520
+zero che sta qua sotto, io diciamo che
+
+827
+00:34:28.359 --> 00:34:33.520
+chiudo l'interruttore, attacco in questo
+
+828
+00:34:30.520 --> 00:34:35.679
+momento il mio condensatore alla mia
+
+829
+00:34:33.520 --> 00:34:37.280
+batteria da 9 V. Vedete che in questo
+
+830
+00:34:35.679 --> 00:34:40.119
+momento la corrente è massima. C'è
+
+831
+00:34:37.280 --> 00:34:42.760
+proprio un picco di corrente qui pari a
+
+832
+00:34:40.119 --> 00:34:44.440
+questo valore
+
+833
+00:34:42.760 --> 00:34:46.520
+che all'inizio mi riempie il secchio
+
+834
+00:34:44.440 --> 00:34:50.079
+molto rapidamente. Quanto più il secchio
+
+835
+00:34:46.520 --> 00:34:52.040
+si riempie, quanto più la corrente cala.
+
+836
+00:34:50.079 --> 00:34:54.240
+A un certo punto, quando il secchio è
+
+837
+00:34:52.040 --> 00:34:56.040
+pieno e arrivo qua, il mio generatore
+
+838
+00:34:54.240 --> 00:34:58.200
+non ha più bisogno di erogare corrente,
+
+839
+00:34:56.040 --> 00:35:00.040
+non riesce più a erogare corrente perché
+
+840
+00:34:58.200 --> 00:35:02.839
+il condensatore è in equilibrio col
+
+841
+00:35:00.040 --> 00:35:05.000
+generatore, il mio secchio è carico e la
+
+842
+00:35:02.839 --> 00:35:07.040
+mia sorgente, cioè la mia batteria, più
+
+843
+00:35:05.000 --> 00:35:09.320
+di quella corrente, più di quella
+
+844
+00:35:07.040 --> 00:35:12.079
+quantità di elettroni, non riesci non
+
+845
+00:35:09.320 --> 00:35:13.960
+riesce a a immagazzinarlo. Quindi vedete
+
+846
+00:35:12.079 --> 00:35:15.359
+che rispetto all'induttore la corrente
+
+847
+00:35:13.960 --> 00:35:17.119
+fa esattamente il contrario.
+
+848
+00:35:15.359 --> 00:35:18.720
+nell'induttore la corrente partiva da
+
+849
+00:35:17.119 --> 00:35:21.560
+zero,
+
+850
+00:35:18.720 --> 00:35:23.640
+saliva lentamente fino ad arrivare a un
+
+851
+00:35:21.560 --> 00:35:26.359
+valore di regime. Qui invece la corrente
+
+852
+00:35:23.640 --> 00:35:28.200
+è massima nel momento in cui si attacca
+
+853
+00:35:26.359 --> 00:35:30.520
+l'interruttore, nel momento in cui si
+
+854
+00:35:28.200 --> 00:35:32.440
+attacca il condensatore al generatore e
+
+855
+00:35:30.520 --> 00:35:36.640
+pian pianino, mentre il condensatore si
+
+856
+00:35:32.440 --> 00:35:36.640
+carica, la corrente va a zero.
+
+857
+00:35:37.560 --> 00:35:40.880
+E con questo per ora è tutto questa
+
+858
+00:35:39.400 --> 00:35:43.359
+parte qua. Quindi abbiamo visto
+
+859
+00:35:40.880 --> 00:35:46.440
+condensatori in serie parallelo e la
+
+860
+00:35:43.359 --> 00:35:48.400
+costante di tempo che è proprio
+
+861
+00:35:46.440 --> 00:35:51.800
+simmetrica, diciamo, rispetto a quella
+
+862
+00:35:48.400 --> 00:35:55.680
+che avevamo negli negli induttori. C'è
+
+863
+00:35:51.800 --> 00:35:57.880
+qualche domanda? Proseguo.
+
+864
+00:35:55.680 --> 00:36:00.200
+Non ho visto domande, per ora proseguo.
+
+865
+00:35:57.880 --> 00:36:02.200
+Anche perché queste cose di fatto le
+
+866
+00:36:00.200 --> 00:36:03.920
+avevamo già viste, quindi sono concetti
+
+867
+00:36:02.200 --> 00:36:06.680
+noti, no? cambia semplicemente
+
+868
+00:36:03.920 --> 00:36:09.280
+riferimento corrente negli induttori e
+
+869
+00:36:06.680 --> 00:36:11.480
+tensione nei condensatori.
+
+870
+00:36:09.280 --> 00:36:13.960
+Che succede quando io uso un
+
+871
+00:36:11.480 --> 00:36:16.599
+condensatore in tensione alternata o per
+
+872
+00:36:13.960 --> 00:36:18.960
+in corrente alternata? Allora, il
+
+873
+00:36:16.599 --> 00:36:20.880
+condensatore immagazzina energia sotto
+
+874
+00:36:18.960 --> 00:36:23.000
+forma di campo elettrico questa volta,
+
+875
+00:36:20.880 --> 00:36:26.280
+no? Come si è detto fino a ora, penso di
+
+876
+00:36:23.000 --> 00:36:29.640
+avervelo ripetuto 10 volte, comincerete
+
+877
+00:36:26.280 --> 00:36:32.000
+a essere un po' neuseati di questa cosa.
+
+878
+00:36:29.640 --> 00:36:34.319
+E quindi lui in realtà si oppone al
+
+879
+00:36:32.000 --> 00:36:36.160
+passaggio della corrente continua.
+
+880
+00:36:34.319 --> 00:36:37.960
+Sembra una cosa strana, ma lo vedete
+
+881
+00:36:36.160 --> 00:36:40.119
+qua? Il condensatore si oppone al
+
+882
+00:36:37.960 --> 00:36:41.800
+passaggio della corrente continua. in in
+
+883
+00:36:40.119 --> 00:36:43.520
+questo caso, in questa cosa che abbiamo
+
+884
+00:36:41.800 --> 00:36:45.680
+visto qua sotto, in questa parte di
+
+885
+00:36:43.520 --> 00:36:47.280
+schema qua sotto, il condensatore
+
+886
+00:36:45.680 --> 00:36:50.079
+all'inizio si fa attraversare da
+
+887
+00:36:47.280 --> 00:36:54.079
+corrente finché non è carico, ma da qui
+
+888
+00:36:50.079 --> 00:36:56.160
+in poi la corrente vale zero,
+
+889
+00:36:54.079 --> 00:36:57.839
+quindi quando il condensatore è carico
+
+890
+00:36:56.160 --> 00:37:00.359
+allo stesso valore di tensione del
+
+891
+00:36:57.839 --> 00:37:03.200
+generatore si fa attraversare la
+
+892
+00:37:00.359 --> 00:37:05.079
+corrente zero, quindi è come se avesse
+
+893
+00:37:03.200 --> 00:37:08.480
+in quella fase lì una resistenza
+
+894
+00:37:05.079 --> 00:37:10.480
+elevatissima che si oppone
+
+895
+00:37:08.480 --> 00:37:13.319
+al tentativo del generatore di
+
+896
+00:37:10.480 --> 00:37:15.280
+continuare a caricarlo
+
+897
+00:37:13.319 --> 00:37:17.079
+ulteriormente. Invece la corrente
+
+898
+00:37:15.280 --> 00:37:19.160
+alternata lo può attraversare perché
+
+899
+00:37:17.079 --> 00:37:21.480
+pensate al secchio, una corrente
+
+900
+00:37:19.160 --> 00:37:23.400
+alternata è come se con un romaiolo una
+
+901
+00:37:21.480 --> 00:37:25.400
+volta ci metteste un po' di acqua e poi
+
+902
+00:37:23.400 --> 00:37:27.680
+la rilevaste, mettere e levare, no?
+
+903
+00:37:25.400 --> 00:37:29.720
+corrente alternata nel momento in cui la
+
+904
+00:37:27.680 --> 00:37:31.839
+tensione è positiva della semionda
+
+905
+00:37:29.720 --> 00:37:33.040
+positiva, magari caricate il secchio, ma
+
+906
+00:37:31.839 --> 00:37:35.440
+nel momento in cui la tensione è
+
+907
+00:37:33.040 --> 00:37:37.040
+negativa gliela levate dal secchio.
+
+908
+00:37:35.440 --> 00:37:40.040
+Quindi di fatto c'è un flusso di
+
+909
+00:37:37.040 --> 00:37:42.480
+corrente alternata che lo attraversa
+
+910
+00:37:40.040 --> 00:37:44.560
+sempre il condensatore.
+
+911
+00:37:42.480 --> 00:37:46.400
+Quindi la corrente alternata la può
+
+912
+00:37:44.560 --> 00:37:49.000
+attraversare,
+
+913
+00:37:46.400 --> 00:37:51.319
+la corrente continua viene bloccata, che
+
+914
+00:37:49.000 --> 00:37:54.079
+è esattamente il contrario di quello che
+
+915
+00:37:51.319 --> 00:37:56.800
+accadeva in un induttore. In un
+
+916
+00:37:54.079 --> 00:38:00.319
+induttore la corrente alternata veniva
+
+917
+00:37:56.800 --> 00:38:04.440
+ostacolata. Veniva ostacolata.
+
+918
+00:38:00.319 --> 00:38:06.960
+Qui succede esattamente il contrario.
+
+919
+00:38:04.440 --> 00:38:10.160
+Intanto, quindi, abbiamo visto che nel
+
+920
+00:38:06.960 --> 00:38:13.119
+condensatore la corrente è in anticipo
+
+921
+00:38:10.160 --> 00:38:15.160
+rispetto alla tensione
+
+922
+00:38:13.119 --> 00:38:19.079
+e lo abbiamo visto in questo grafico
+
+923
+00:38:15.160 --> 00:38:21.119
+qua. Scusate, qui
+
+924
+00:38:19.079 --> 00:38:25.119
+tolgo,
+
+925
+00:38:21.119 --> 00:38:25.119
+Ecco, tolgo le
+
+926
+00:38:28.000 --> 00:38:33.880
+Eccoci. Dicevo, lo abbiamo visto qua.
+
+927
+00:38:30.440 --> 00:38:36.760
+Qui la corrente è elevata
+
+928
+00:38:33.880 --> 00:38:39.839
+e attacco il pennarello. Qui la corrente
+
+929
+00:38:36.760 --> 00:38:42.599
+è elevata, ma la tensione parte da zero,
+
+930
+00:38:39.839 --> 00:38:45.920
+quindi la corrente, immaginatevi non c'è
+
+931
+00:38:42.599 --> 00:38:48.520
+la condivisione quadro. Eh, scusate,
+
+932
+00:38:45.920 --> 00:38:51.839
+scusate, scusate, scusate.
+
+933
+00:38:48.520 --> 00:38:51.839
+Pausa tecnica.
+
+934
+00:38:54.400 --> 00:38:59.480
+Eccomi.
+
+935
+00:38:57.359 --> 00:39:02.480
+Decisione.
+
+936
+00:38:59.480 --> 00:39:02.480
+Buono.
+
+937
+00:39:03.720 --> 00:39:06.680
+È tornata, giusto?
+
+938
+00:39:05.480 --> 00:39:08.480
+>> Sì, grazie mille.
+
+939
+00:39:06.680 --> 00:39:09.560
+>> Ok, stavo dicendo, vedete,
+
+940
+00:39:08.480 --> 00:39:14.760
+>> perfetto.
+
+941
+00:39:09.560 --> 00:39:17.880
+>> Eh, grazie. Grazie. Allora, vedete qua,
+
+942
+00:39:14.760 --> 00:39:19.839
+vedete che qui eh pensatelo in termini
+
+943
+00:39:17.880 --> 00:39:22.240
+di di sinusoide, qui la corrente è già
+
+944
+00:39:19.839 --> 00:39:23.560
+alta, quindi è come se, immaginando che
+
+945
+00:39:22.240 --> 00:39:25.440
+questo fosse un flusso di corrente
+
+946
+00:39:23.560 --> 00:39:28.040
+alternata, qui fossimo al massimo del
+
+947
+00:39:25.440 --> 00:39:31.280
+valore, poi la sinusoide sale, scende e
+
+948
+00:39:28.040 --> 00:39:34.760
+questa è la sinusoide della corrente,
+
+949
+00:39:31.280 --> 00:39:38.480
+I, quindi lettera I. Nel in questo punto
+
+950
+00:39:34.760 --> 00:39:40.079
+qui in cui scusatemi, reset, questa è
+
+951
+00:39:38.480 --> 00:39:41.800
+l'asinosoide.
+
+952
+00:39:40.079 --> 00:39:43.359
+Sì, va bene. Scusate, è la sinusoide
+
+953
+00:39:41.800 --> 00:39:44.960
+della corrente. Mi sono annato,
+
+954
+00:39:43.359 --> 00:39:47.240
+annodato. Capita anche nelle migliori
+
+955
+00:39:44.960 --> 00:39:51.960
+famiglie. In questo momento in cui la
+
+956
+00:39:47.240 --> 00:39:53.760
+corrente è massima, la tensione è zero,
+
+957
+00:39:51.960 --> 00:39:55.720
+perché è il momento in cui il secchio è
+
+958
+00:39:53.760 --> 00:39:57.480
+vuoto e sta cominciando a caricarsi. il
+
+959
+00:39:55.720 --> 00:40:00.560
+secchio è vuoto e posso dare tanta
+
+960
+00:39:57.480 --> 00:40:02.280
+corrente, niente mi ostacola, però
+
+961
+00:40:00.560 --> 00:40:07.119
+proprio perché è vuoto la tensione è
+
+962
+00:40:02.280 --> 00:40:10.240
+zero. Quindi in questo caso la
+
+963
+00:40:07.119 --> 00:40:13.240
+eh la corrente
+
+964
+00:40:10.240 --> 00:40:13.240
+rispetto
+
+965
+00:40:13.520 --> 00:40:20.520
+alla tensione è in anticipo,
+
+966
+00:40:17.119 --> 00:40:23.800
+la corrente era già alta quando la
+
+967
+00:40:20.520 --> 00:40:25.960
+tensione era ancora zero.
+
+968
+00:40:23.800 --> 00:40:27.839
+Adesso io giro
+
+969
+00:40:25.960 --> 00:40:30.599
+questa frase. Se la corrente è in
+
+970
+00:40:27.839 --> 00:40:33.319
+anticipo rispetto alla tensione di 90°,
+
+971
+00:40:30.599 --> 00:40:35.720
+questo vuol dire che la tensione
+
+972
+00:40:33.319 --> 00:40:37.960
+rispetto alla corrente è in ritardo di
+
+973
+00:40:35.720 --> 00:40:40.000
+90°. Questo è semplicemente un gioco di
+
+974
+00:40:37.960 --> 00:40:41.760
+parole, d'accordo? la se la corrente è
+
+975
+00:40:40.000 --> 00:40:44.240
+in anticipo rispetto alla tensione,
+
+976
+00:40:41.760 --> 00:40:46.359
+allora la tensione è in ritardo. Vedete
+
+977
+00:40:44.240 --> 00:40:49.359
+che questa frase qua sotto è esattamente
+
+978
+00:40:46.359 --> 00:40:52.319
+il contrario di quello che accadeva con
+
+979
+00:40:49.359 --> 00:40:56.359
+gli induttori. Negli induttori la
+
+980
+00:40:52.319 --> 00:41:00.040
+tensione è in anticipo rispetto alla
+
+981
+00:40:56.359 --> 00:41:02.560
+corrente, nei condensatori è in ritardo.
+
+982
+00:41:00.040 --> 00:41:04.400
+Questa cosa qui ce la vediamo per benino
+
+983
+00:41:02.560 --> 00:41:06.880
+la prossima settimana perché questa
+
+984
+00:41:04.400 --> 00:41:11.599
+differenza è la base del funzionamento
+
+985
+00:41:06.880 --> 00:41:11.599
+dei cosiddetti circuiti risonanti.
+
+986
+00:41:14.480 --> 00:41:19.640
+Infine,
+
+987
+00:41:16.560 --> 00:41:22.079
+anche il condensatore oppone una
+
+988
+00:41:19.640 --> 00:41:25.079
+resistenza al passaggio della corrente
+
+989
+00:41:22.079 --> 00:41:25.079
+alternata.
+
+990
+00:41:25.760 --> 00:41:31.440
+Anche nel caso del condensatore, questa
+
+991
+00:41:29.000 --> 00:41:33.680
+forza di opposizione che il condensatore
+
+992
+00:41:31.440 --> 00:41:36.560
+fa al passaggio della corrente alternata
+
+993
+00:41:33.680 --> 00:41:38.760
+viene chiamata reattanza.
+
+994
+00:41:36.560 --> 00:41:40.480
+Il cordi scorso avevamo sottomano delle
+
+995
+00:41:38.760 --> 00:41:43.960
+bobine, cioè degli induttori, quindi
+
+996
+00:41:40.480 --> 00:41:45.800
+abbiamo parlato di reattanza induttiva.
+
+997
+00:41:43.960 --> 00:41:47.440
+Qui abbiamo dei condensatori, quindi
+
+998
+00:41:45.800 --> 00:41:50.400
+ovviamente parliamo di reattanza
+
+999
+00:41:47.440 --> 00:41:52.680
+capacitiva. Anche la reattanza
+
+1000
+00:41:50.400 --> 00:41:54.280
+del condensatore ovviamente si misura in
+
+1001
+00:41:52.680 --> 00:41:56.079
+ohm.
+
+1002
+00:41:54.280 --> 00:41:59.079
+E anche questa varia in funzione della
+
+1003
+00:41:56.079 --> 00:42:01.280
+frequenza. La formula però
+
+1004
+00:41:59.079 --> 00:42:03.720
+è molto semplice anche questa come
+
+1005
+00:42:01.280 --> 00:42:05.800
+formule, ma ha una differenza molto
+
+1006
+00:42:03.720 --> 00:42:07.599
+particolare, molto simpatica rispetto a
+
+1007
+00:42:05.800 --> 00:42:09.800
+quella che avevamo rispetto a quella che
+
+1008
+00:42:07.599 --> 00:42:13.240
+avevamo visto la scorsa settimana. La
+
+1009
+00:42:09.800 --> 00:42:14.760
+reattanza capacitiva,
+
+1010
+00:42:13.240 --> 00:42:17.200
+scusate,
+
+1011
+00:42:14.760 --> 00:42:22.520
+si indica con le lettere XC, X
+
+1012
+00:42:17.200 --> 00:42:25.079
+reattanza, Capacitiva e vale 1 /
+
+1013
+00:42:22.520 --> 00:42:27.160
+aperta parentesi. Questa questa cosa qui
+
+1014
+00:42:25.079 --> 00:42:31.599
+che c'è nella parentesi è tutta sotto
+
+1015
+00:42:27.160 --> 00:42:33.960
+l'uno diviso 2 pi f e questo lo avevamo
+
+1016
+00:42:31.599 --> 00:42:36.440
+anche nei nei
+
+1017
+00:42:33.960 --> 00:42:38.599
+negli induttori moltiplicato C
+
+1018
+00:42:36.440 --> 00:42:40.160
+moltiplicato il valore della capacità.
+
+1019
+00:42:38.599 --> 00:42:43.760
+Quindi ricordate che il valore della
+
+1020
+00:42:40.160 --> 00:42:48.160
+rattanza induttiva era XL = 1
+
+1021
+00:42:43.760 --> 00:42:51.599
+moltiplicato, no, scusate, era 2π FC,
+
+1022
+00:42:48.160 --> 00:42:54.160
+quindi era tutto al numeratore 2π FC,
+
+1023
+00:42:51.599 --> 00:42:56.800
+tant'è che avevamo detto che eh la
+
+1024
+00:42:54.160 --> 00:42:58.960
+reattanza induttiva cresceva al crescere
+
+1025
+00:42:56.800 --> 00:43:02.599
+della frequenza. E invece questa formula
+
+1026
+00:42:58.960 --> 00:43:04.200
+qua che vediamo trascritta anche qua
+
+1027
+00:43:02.599 --> 00:43:07.040
+sopra
+
+1028
+00:43:04.200 --> 00:43:13.040
+in in maniera anche forse un po' più
+
+1029
+00:43:07.040 --> 00:43:15.760
+leggibile 1 / 2 pi fc succede che
+
+1030
+00:43:13.040 --> 00:43:17.920
+il valore 2 pi
+
+1031
+00:43:15.760 --> 00:43:22.040
+come avevamo visto mercoledì scorso, è
+
+1032
+00:43:17.920 --> 00:43:24.119
+vale circa 68. è un numero, è un dato. C
+
+1033
+00:43:22.040 --> 00:43:26.079
+anche C è un numero fisso, è il valore
+
+1034
+00:43:24.119 --> 00:43:28.640
+di quel condensatore.
+
+1035
+00:43:26.079 --> 00:43:32.640
+Quindi la latenza capacitiva varia come
+
+1036
+00:43:28.640 --> 00:43:35.079
+1 / f, cioè è inversamente proporzionale
+
+1037
+00:43:32.640 --> 00:43:37.040
+alla frequenza, mentre invece quando
+
+1038
+00:43:35.079 --> 00:43:39.160
+parlavamo di induttori era direttamente
+
+1039
+00:43:37.040 --> 00:43:41.319
+proporzionale alla resistenza. Quindi la
+
+1040
+00:43:39.160 --> 00:43:44.720
+reattanza capacitiva
+
+1041
+00:43:41.319 --> 00:43:48.400
+di un condensatore ha l'andamento che
+
+1042
+00:43:44.720 --> 00:43:51.480
+vedete in eh disegnato in questa linea
+
+1043
+00:43:48.400 --> 00:43:53.920
+gialla. di questo di questo grafico,
+
+1044
+00:43:51.480 --> 00:43:57.440
+cioè questa è una curva che a frequenze
+
+1045
+00:43:53.920 --> 00:44:00.319
+basse ha valori molto alti e come vedete
+
+1046
+00:43:57.440 --> 00:44:03.559
+qua quanto più la frequenza sale quanto
+
+1047
+00:44:00.319 --> 00:44:05.720
+più la reattanza scende fino a diventare
+
+1048
+00:44:03.559 --> 00:44:08.040
+a frequenze molto alte dei valori così
+
+1049
+00:44:05.720 --> 00:44:11.079
+bassi di reattanza. I valori della
+
+1050
+00:44:08.040 --> 00:44:13.520
+lattanza li potete leggere qua.
+
+1051
+00:44:11.079 --> 00:44:16.400
+Sull'asse delle ordinate. Si parla di
+
+1052
+00:44:13.520 --> 00:44:18.640
+kilom, come vedete quando il
+
+1053
+00:44:16.400 --> 00:44:21.280
+condensatore lavora a frequenze basse,
+
+1054
+00:44:18.640 --> 00:44:23.160
+quindi per esempio ha una frequenza,
+
+1055
+00:44:21.280 --> 00:44:26.119
+scusate, non vedo dove ho qui, ad
+
+1056
+00:44:23.160 --> 00:44:28.280
+esempio, ha una frequenza di 10 Hz.
+
+1057
+00:44:26.119 --> 00:44:30.960
+Questo condensatore che sto considerando
+
+1058
+00:44:28.280 --> 00:44:34.240
+ha una reattanza di 400.000 ohm, quindi
+
+1059
+00:44:30.960 --> 00:44:38.440
+molto molto molto alta. invece a
+
+1060
+00:44:34.240 --> 00:44:42.079
+frequenze alte, per esempio,
+
+1061
+00:44:38.440 --> 00:44:45.040
+come potete vedere qua,
+
+1062
+00:44:42.079 --> 00:44:50.520
+a circa 1000 ohm, ha una reattanza
+
+1063
+00:44:45.040 --> 00:44:55.520
+vicina a zero. Questa questa questo
+
+1064
+00:44:50.520 --> 00:44:55.520
+grafico che vedete qua, scusate, tolgo,
+
+1065
+00:44:56.160 --> 00:45:03.160
+ok? Questa curva che vedete qua, per
+
+1066
+00:45:00.160 --> 00:45:05.000
+qualcuno di voi che è un pochino più eh
+
+1067
+00:45:03.160 --> 00:45:06.920
+fresco di studio o cose del genere,
+
+1068
+00:45:05.000 --> 00:45:09.079
+questa è un iperbole. è un'iperbole
+
+1069
+00:45:06.920 --> 00:45:13.680
+centrata sull'origine l'origine degli
+
+1070
+00:45:09.079 --> 00:45:15.280
+assi che sarebbe che sarebbe qua
+
+1071
+00:45:13.680 --> 00:45:18.200
+il punto dove l'asse delle ascisse e
+
+1072
+00:45:15.280 --> 00:45:21.160
+l'asse delle ordinate si incontrano e
+
+1073
+00:45:18.200 --> 00:45:22.839
+queste iperbole a frequenze basse e
+
+1074
+00:45:21.160 --> 00:45:25.920
+questa curva qui sale verso valori di
+
+1075
+00:45:22.839 --> 00:45:27.760
+rilattanza sempre molto alti e questo
+
+1076
+00:45:25.920 --> 00:45:29.559
+qui si vede quella cosa che prima avevo
+
+1077
+00:45:27.760 --> 00:45:33.960
+detto in termini qualitativi c'è un
+
+1078
+00:45:29.559 --> 00:45:35.960
+condensatore eh si oppone molto alle
+
+1079
+00:45:33.960 --> 00:45:38.880
+frequenze basse.
+
+1080
+00:45:35.960 --> 00:45:40.960
+e addirittura non si fa traversare dalla
+
+1081
+00:45:38.880 --> 00:45:42.559
+corrente continua. Queste sono frequenze
+
+1082
+00:45:40.960 --> 00:45:46.079
+basse, no?
+
+1083
+00:45:42.559 --> 00:45:48.079
+vicino a a 1 Hz o anche meno, invece a
+
+1084
+00:45:46.079 --> 00:45:50.760
+frequenze alte, quindi siamo da
+
+1085
+00:45:48.079 --> 00:45:52.599
+quest'altra parte del del grafico che mi
+
+1086
+00:45:50.760 --> 00:45:55.400
+dà la reattenza del condensatore. Il
+
+1087
+00:45:52.599 --> 00:45:58.000
+condensatore diventa essenzialmente
+
+1088
+00:45:55.400 --> 00:46:00.200
+un corto circuito e così facendo
+
+1089
+00:45:58.000 --> 00:46:02.280
+realizza quella che è una delle sue una
+
+1090
+00:46:00.200 --> 00:46:04.920
+delle funzioni principali per cui si usa
+
+1091
+00:46:02.280 --> 00:46:08.400
+nei circuiti elettrici. Immaginate di di
+
+1092
+00:46:04.920 --> 00:46:11.720
+avere un un amplificatore composto da 1
+
+1093
+00:46:08.400 --> 00:46:14.720
+2 3 4 stadi. Questi stadi potrebbero
+
+1094
+00:46:11.720 --> 00:46:17.400
+essere delle dei transistor, ad esempio,
+
+1095
+00:46:14.720 --> 00:46:19.319
+eh per portare il segnale amplificato da
+
+1096
+00:46:17.400 --> 00:46:21.319
+uno stadio all'altro devo portare
+
+1097
+00:46:19.319 --> 00:46:23.680
+solamente il segnale e non le eventuali
+
+1098
+00:46:21.319 --> 00:46:25.880
+tensioni continue che sono, diciamo,
+
+1099
+00:46:23.680 --> 00:46:28.760
+nello stadio precedente. Il condensatore
+
+1100
+00:46:25.880 --> 00:46:31.839
+è il modo con cui si fa attraversare, si
+
+1101
+00:46:28.760 --> 00:46:34.800
+fa passare da un preamplificatore a un
+
+1102
+00:46:31.839 --> 00:46:37.280
+amplificatore successivo. fa passare il
+
+1103
+00:46:34.800 --> 00:46:39.240
+segnale che via voglio amplificare, ma
+
+1104
+00:46:37.280 --> 00:46:41.240
+non si fanno passare le eventuali
+
+1105
+00:46:39.240 --> 00:46:42.680
+tensioni continue che riguardano il
+
+1106
+00:46:41.240 --> 00:46:45.079
+funzionamento dei vari stati degli
+
+1107
+00:46:42.680 --> 00:46:46.720
+amplificatori. Questi poi li li vedremo
+
+1108
+00:46:45.079 --> 00:46:48.559
+un po' più avanti. Quindi un
+
+1109
+00:46:46.720 --> 00:46:50.520
+condensatore serve proprio per bloccare
+
+1110
+00:46:48.559 --> 00:46:52.599
+le tensioni continue e far passare le
+
+1111
+00:46:50.520 --> 00:46:55.240
+tensioni alternate, il contrario di
+
+1112
+00:46:52.599 --> 00:46:58.079
+quello che accadeva con gli induttori e
+
+1113
+00:46:55.240 --> 00:46:59.960
+sui condensatori non ho altro da da
+
+1114
+00:46:58.079 --> 00:47:02.160
+dire. Quindi anche loro hanno una
+
+1115
+00:46:59.960 --> 00:47:04.440
+reattanza. In questo caso la reattanza è
+
+1116
+00:47:02.160 --> 00:47:06.880
+capacitiva ovviamente,
+
+1117
+00:47:04.440 --> 00:47:09.319
+mentre la reattanza
+
+1118
+00:47:06.880 --> 00:47:12.640
+induttiva cresce al crescere della
+
+1119
+00:47:09.319 --> 00:47:15.119
+frequenza, la reattanza capacitiva cala,
+
+1120
+00:47:12.640 --> 00:47:16.960
+decresce al crescere della frequenza,
+
+1121
+00:47:15.119 --> 00:47:19.000
+come si vede in questo in questo
+
+1122
+00:47:16.960 --> 00:47:20.680
+grafico. Ricordate che la reattanza
+
+1123
+00:47:19.000 --> 00:47:23.839
+capacitiva, il grafico che avevamo
+
+1124
+00:47:20.680 --> 00:47:27.319
+visto, era una retta che passava per
+
+1125
+00:47:23.839 --> 00:47:29.079
+l'origine degli assi e saliva,
+
+1126
+00:47:27.319 --> 00:47:32.440
+quanto più saliva la frequenza, quanto
+
+1127
+00:47:29.079 --> 00:47:35.319
+più saliva il valore della lattanza.
+
+1128
+00:47:32.440 --> 00:47:38.160
+Allora, interrompo la condivisione,
+
+1129
+00:47:35.319 --> 00:47:41.440
+siamo perfettamente nei tempi. Se se c'è
+
+1130
+00:47:38.160 --> 00:47:45.599
+qualche minuto per qualche domanda
+
+1131
+00:47:41.440 --> 00:47:49.040
+si fa uno stacco volentieri. A voi
+
+1132
+00:47:45.599 --> 00:47:49.040
+tutto chiaro per ora?
+
+1133
+00:47:49.200 --> 00:47:52.960
+Francesco, a te. Ma
+
+1134
+00:47:51.079 --> 00:47:54.880
+>> io la mia è solo una curiosità, volevo
+
+1135
+00:47:52.960 --> 00:47:57.160
+sapere, quindi per ora ci focalizziamo
+
+1136
+00:47:54.880 --> 00:47:59.760
+solamente sul, diciamo, su queste
+
+1137
+00:47:57.160 --> 00:48:02.680
+formule, poi l'utilizzo e il, come dire,
+
+1138
+00:47:59.760 --> 00:48:04.680
+la l'effettivo utilizzo all'interno
+
+1139
+00:48:02.680 --> 00:48:05.760
+della radio lo scopriremo più avanti,
+
+1140
+00:48:04.680 --> 00:48:07.119
+giusto?
+
+1141
+00:48:05.760 --> 00:48:09.720
+>> Esattamente. Intanto facciamo i
+
+1142
+00:48:07.119 --> 00:48:11.280
+mattoncini e come vi dicevo prima, come
+
+1143
+00:48:09.720 --> 00:48:13.640
+dicevo prima, sta parte è un po'
+
+1144
+00:48:11.280 --> 00:48:16.359
+pallosa, puntini puntini, diciamolo fra
+
+1145
+00:48:13.640 --> 00:48:18.200
+virgolette. E poi, per esempio,
+
+1146
+00:48:16.359 --> 00:48:20.160
+mercoledì prossimo cominceremo a parlare
+
+1147
+00:48:18.200 --> 00:48:21.559
+dei filtri, filtri passaalto, passa
+
+1148
+00:48:20.160 --> 00:48:23.559
+passo, passa planta, che sono le
+
+1149
+00:48:21.559 --> 00:48:25.280
+applicazioni pratiche di questi
+
+1150
+00:48:23.559 --> 00:48:27.240
+componenti qui, le prime applicazioni
+
+1151
+00:48:25.280 --> 00:48:29.960
+pratiche che vedremo
+
+1152
+00:48:27.240 --> 00:48:31.640
+>> e quindi diciamo a quel punto sapremo
+
+1153
+00:48:29.960 --> 00:48:33.839
+cosa sono i componenti elettronici e si
+
+1154
+00:48:31.640 --> 00:48:36.240
+vedrà come si compongono per fare cose
+
+1155
+00:48:33.839 --> 00:48:38.040
+sempre più divertenti fino a arrivare
+
+1156
+00:48:36.240 --> 00:48:39.280
+una radio. Ok,
+
+1157
+00:48:38.040 --> 00:48:44.160
+>> ottimo. Grazie
+
+1158
+00:48:39.280 --> 00:48:44.160
+>> a te, Pierpaolo. A te.
+
+1159
+00:48:44.440 --> 00:48:54.200
+Sì, sì. Eh no, stavo ero un po' eh come
+
+1160
+00:48:51.200 --> 00:48:54.200
+dire
+
+1161
+00:48:54.280 --> 00:48:59.760
+ho una situazione un po' strana nella
+
+1162
+00:48:56.400 --> 00:49:02.280
+mia testa perché eh fino a ora nelle
+
+1163
+00:48:59.760 --> 00:49:06.000
+nelle TV, specialmente parliamo di
+
+1164
+00:49:02.280 --> 00:49:09.160
+circuit di alimentazione, nelle TV e e
+
+1165
+00:49:06.000 --> 00:49:12.440
+connessatori servivano erano subito dopo
+
+1166
+00:49:09.160 --> 00:49:14.640
+ehm il subito dopo il raddrizzatore
+
+1167
+00:49:12.440 --> 00:49:17.040
+servivano per filtrare ancora di più,
+
+1168
+00:49:14.640 --> 00:49:19.160
+quindi per rendere ancora di più eh
+
+1169
+00:49:17.040 --> 00:49:20.799
+pulita la corrente continua.
+
+1170
+00:49:19.160 --> 00:49:23.319
+>> Ah, sì, sì, sì, sì, sì.
+
+1171
+00:49:20.799 --> 00:49:27.599
+>> Ancora più pulita. Ora mi stai dicendo
+
+1172
+00:49:23.319 --> 00:49:30.359
+che eh io io non sono un tecnico, eh io
+
+1173
+00:49:27.599 --> 00:49:32.720
+sono un appassionato di elettronica, ma
+
+1174
+00:49:30.359 --> 00:49:35.119
+no tecnico. Quindi per me è una cosa
+
+1175
+00:49:32.720 --> 00:49:37.760
+nuova sentire questa
+
+1176
+00:49:35.119 --> 00:49:39.839
+>> questo utilizzo qui.
+
+1177
+00:49:37.760 --> 00:49:41.720
+>> Allora, generalizzo a tutti quanti.
+
+1178
+00:49:39.839 --> 00:49:44.440
+Allora, quello che ha detto Pierpaolo è
+
+1179
+00:49:41.720 --> 00:49:46.480
+giustissimo e avremo un'intera lezione
+
+1180
+00:49:44.440 --> 00:49:49.839
+dedicata a questa cosa qua. avremo
+
+1181
+00:49:46.480 --> 00:49:51.599
+un'intera lezione in cui parleremo di eh
+
+1182
+00:49:49.839 --> 00:49:53.960
+alimentatori
+
+1183
+00:49:51.599 --> 00:49:55.680
+per sapere un pochino come funziona e
+
+1184
+00:49:53.960 --> 00:49:57.319
+soprattutto per sapere come scegliere
+
+1185
+00:49:55.680 --> 00:49:59.760
+l'alimentatore giusto per la vostra
+
+1186
+00:49:57.319 --> 00:50:03.280
+stazione, cose di questo genere. E negli
+
+1187
+00:49:59.760 --> 00:50:05.359
+alimentatori il i condensatori hanno una
+
+1188
+00:50:03.280 --> 00:50:07.680
+funzione più vicina a quella originale
+
+1189
+00:50:05.359 --> 00:50:10.280
+di serbatoio di carica, però oltre che
+
+1190
+00:50:07.680 --> 00:50:12.200
+quella funzione lì in una radio, in una
+
+1191
+00:50:10.280 --> 00:50:14.400
+televisione, in un trasmettitore, in un
+
+1192
+00:50:12.200 --> 00:50:17.000
+ricevitore ci sono moltissimi
+
+1193
+00:50:14.400 --> 00:50:19.920
+condensatori che sono utilizzati invece
+
+1194
+00:50:17.000 --> 00:50:23.440
+per usi di segnale, diciamo, non di
+
+1195
+00:50:19.920 --> 00:50:23.440
+tensione di alimentazione.
+
+1196
+00:50:23.480 --> 00:50:27.480
+e gli usi di segnale. Il tipico uso di
+
+1197
+00:50:25.599 --> 00:50:29.720
+segnale è quello che dicevo, cioè il
+
+1198
+00:50:27.480 --> 00:50:32.079
+condensatore per collegare uno stadio
+
+1199
+00:50:29.720 --> 00:50:33.839
+successivo si fa attraversare dal
+
+1200
+00:50:32.079 --> 00:50:35.319
+segnale, ma blocca tutto quello che di
+
+1201
+00:50:33.839 --> 00:50:36.720
+tensione continua c'è prima e tutto
+
+1202
+00:50:35.319 --> 00:50:40.119
+quello che di tensione continua c'è
+
+1203
+00:50:36.720 --> 00:50:41.880
+dopo. Ne ne parleremo, Pierpaolo, levato
+
+1204
+00:50:40.119 --> 00:50:45.400
+una cosa giustissima. Guarda, c'è una
+
+1205
+00:50:41.880 --> 00:50:48.319
+lezione specifica su questo. Ok?
+
+1206
+00:50:45.400 --> 00:50:49.760
+Quindi non hai detto cose strane. È è
+
+1207
+00:50:48.319 --> 00:50:52.760
+vero che negli alimentatori i
+
+1208
+00:50:49.760 --> 00:50:55.079
+condensatori hanno quella funzione lì.
+
+1209
+00:50:52.760 --> 00:50:55.079
+Ok?
+
+1210
+00:50:56.520 --> 00:51:02.799
+Perfetto, grazie.
+
+1211
+00:50:57.920 --> 00:51:02.799
+>> Buono. A te adesso, Luca.
+
+1212
+00:51:03.319 --> 00:51:09.599
+Sì. Eh, allora solo un chiarimento.
+
+1213
+00:51:05.520 --> 00:51:12.359
+Praticamente il condensatore lavora
+
+1214
+00:51:09.599 --> 00:51:14.920
+totalmente all alopposto del
+
+1215
+00:51:12.359 --> 00:51:19.599
+dell'induttore o sbaglio?
+
+1216
+00:51:14.920 --> 00:51:22.280
+M sì, diciamo che hanno hanno modalità e
+
+1217
+00:51:19.599 --> 00:51:24.760
+comportamenti simmetrici. Uno lavora sul
+
+1218
+00:51:22.280 --> 00:51:27.040
+campo elettrico, questo e l'altro lavora
+
+1219
+00:51:24.760 --> 00:51:29.839
+sul campo magnetico.
+
+1220
+00:51:27.040 --> 00:51:31.640
+Uno è per uno è un corto circuito alle
+
+1221
+00:51:29.839 --> 00:51:34.280
+continue e l'altro è un corto circuito a
+
+1222
+00:51:31.640 --> 00:51:36.400
+frequenze alte e viceversa.
+
+1223
+00:51:34.280 --> 00:51:38.880
+Hanno proprio comportamenti simmetrici e
+
+1224
+00:51:36.400 --> 00:51:42.480
+poi quando li mettiamo insieme queste
+
+1225
+00:51:38.880 --> 00:51:45.760
+simmetrie e vedrete cosa combinano e ne
+
+1226
+00:51:42.480 --> 00:51:48.000
+parliamo la volta prossima.
+
+1227
+00:51:45.760 --> 00:51:52.079
+però simmetricamente opposte.
+
+1228
+00:51:48.000 --> 00:51:53.079
+>> Sì, esatto, esatto, esatto.
+
+1229
+00:51:52.079 --> 00:51:58.160
+>> Ok, grazie
+
+1230
+00:51:53.079 --> 00:51:58.160
+>> a te adesso, Luca. A te.
+
+1231
+00:51:59.960 --> 00:52:04.799
+Ah, no, scusa, Pierpaolo,
+
+1232
+00:52:02.760 --> 00:52:07.520
+aspetta, aspetta, mi arriva.
+
+1233
+00:52:04.799 --> 00:52:09.720
+>> No, no, no, io mi sono dimenticato.
+
+1234
+00:52:07.520 --> 00:52:11.880
+>> Abbassa la mano, abbassa la mano. Ok,
+
+1235
+00:52:09.720 --> 00:52:15.680
+Alfredo, a te. No, scusami. Prima Marco
+
+1236
+00:52:11.880 --> 00:52:15.680
+Marco Marini e poi Alfredo.
+
+1237
+00:52:18.480 --> 00:52:21.799
+>> Sì. Pronto, mi sentite?
+
+1238
+00:52:20.079 --> 00:52:25.480
+>> Sì, vai.
+
+1239
+00:52:21.799 --> 00:52:28.240
+>> Ecco, no, io Buonasera. Volevo una un
+
+1240
+00:52:25.480 --> 00:52:30.480
+chiarimento. Seè detto il condensatore
+
+1241
+00:52:28.240 --> 00:52:31.839
+si oppone alle correnti continue, va
+
+1242
+00:52:30.480 --> 00:52:35.359
+bene?
+
+1243
+00:52:31.839 --> 00:52:37.200
+E e quindi la reattanza capacitiva è
+
+1244
+00:52:35.359 --> 00:52:38.960
+l'opposizione
+
+1245
+00:52:37.200 --> 00:52:40.760
+che il condensatore produce al passaggio
+
+1246
+00:52:38.960 --> 00:52:43.480
+della corrente continua
+
+1247
+00:52:40.760 --> 00:52:45.599
+>> continua in generale al pass in generale
+
+1248
+00:52:43.480 --> 00:52:48.200
+al passaggio di una corrente quando
+
+1249
+00:52:45.599 --> 00:52:50.119
+>> Ecco. No, no, allora non non avevo
+
+1250
+00:52:48.200 --> 00:52:51.680
+capito nulla. Avevo capito che si
+
+1251
+00:52:50.119 --> 00:52:53.799
+opponeva al passaggio della corrente
+
+1252
+00:52:51.680 --> 00:52:55.079
+alternata. No, no, ho sbagliato. Va
+
+1253
+00:52:53.799 --> 00:52:56.720
+bene, allora ora mi torno.
+
+1254
+00:52:55.079 --> 00:52:59.280
+>> Allora, aspetta. Sì, sì, sì, aspetta.
+
+1255
+00:52:56.720 --> 00:53:03.079
+Nel caso che allora il condensatore ha
+
+1256
+00:52:59.280 --> 00:53:04.760
+sempre una reattanza qualunque sia la
+
+1257
+00:53:03.079 --> 00:53:06.640
+frequenza della corrente che lo vuole
+
+1258
+00:53:04.760 --> 00:53:08.960
+attraversare.
+
+1259
+00:53:06.640 --> 00:53:10.559
+Se questa frequenza è molto bassa,
+
+1260
+00:53:08.960 --> 00:53:12.280
+quindi siamo vicini alla corrente
+
+1261
+00:53:10.559 --> 00:53:13.920
+continua, la reattanza ha valori
+
+1262
+00:53:12.280 --> 00:53:17.000
+stratosferici,
+
+1263
+00:53:13.920 --> 00:53:19.200
+100.000 milioni di ohme eccetera.
+
+1264
+00:53:17.000 --> 00:53:23.799
+Se invece la frequenza diventa alta,
+
+1265
+00:53:19.200 --> 00:53:25.559
+immagina 100 MHz, 50 MHz, laanza diventa
+
+1266
+00:53:23.799 --> 00:53:27.480
+bassissima, quindi il condensatore
+
+1267
+00:53:25.559 --> 00:53:30.280
+diventa proprio come se fosse un
+
+1268
+00:53:27.480 --> 00:53:32.480
+interruttore chiuso, un pezzo di filo
+
+1269
+00:53:30.280 --> 00:53:34.839
+quasi senza effetti sul transito del
+
+1270
+00:53:32.480 --> 00:53:35.119
+segnale.
+
+1271
+00:53:34.839 --> 00:53:37.440
+Ok,
+
+1272
+00:53:35.119 --> 00:53:39.559
+>> ho capito. Va bene, grazie.
+
+1273
+00:53:37.440 --> 00:53:43.280
+>> Buono a te.
+
+1274
+00:53:39.559 --> 00:53:43.280
+Adesso c'è Marco.
+
+1275
+00:53:47.760 --> 00:53:52.599
+Marco, il microfono è acceso, ma non ti
+
+1276
+00:53:49.599 --> 00:53:52.599
+sento.
+
+1277
+00:53:54.200 --> 00:53:58.559
+>> No, no, io avevo già fatto l'intervento.
+
+1278
+00:53:56.040 --> 00:54:01.839
+>> Ah, scusami, pardon, che abbassate la
+
+1279
+00:53:58.559 --> 00:54:03.520
+mano, poi Luigi.
+
+1280
+00:54:01.839 --> 00:54:07.480
+Eh no, cioè è una curiosità, mi sembra
+
+1281
+00:54:03.520 --> 00:54:09.520
+di ricordare miei studi che nella in
+
+1282
+00:54:07.480 --> 00:54:12.400
+queste componenti oltre allattanza c'è
+
+1283
+00:54:09.520 --> 00:54:16.240
+anche la mettenza e io non so se qui poi
+
+1284
+00:54:12.400 --> 00:54:18.920
+viene usata o meno se serve magari ecco
+
+1285
+00:54:16.240 --> 00:54:20.520
+se se perché non mi ricordo più niente
+
+1286
+00:54:18.920 --> 00:54:22.280
+della cioè è l'incontrario
+
+1287
+00:54:20.520 --> 00:54:24.799
+dell'impedenza, se non sbaglio.
+
+1288
+00:54:22.280 --> 00:54:26.920
+>> Sì, sì. Allora, esatto, esatto.
+
+1289
+00:54:24.799 --> 00:54:28.680
+>> Che non so se può servergli, ecco.
+
+1290
+00:54:26.920 --> 00:54:30.799
+>> Eh, no, allora non fa parte del
+
+1291
+00:54:28.680 --> 00:54:33.520
+programma d'esame, per fortuna. In
+
+1292
+00:54:30.799 --> 00:54:35.960
+realtà il concetto non è difficile, nel
+
+1293
+00:54:33.520 --> 00:54:38.040
+senso che una resistenza
+
+1294
+00:54:35.960 --> 00:54:40.319
+eh se si pensa all'inverso di una
+
+1295
+00:54:38.040 --> 00:54:43.520
+resistenza si può pensare a una
+
+1296
+00:54:40.319 --> 00:54:45.880
+conduttanza e ci sono certi circuiti che
+
+1297
+00:54:43.520 --> 00:54:48.000
+che invece di calcolare la resistenza è
+
+1298
+00:54:45.880 --> 00:54:49.520
+più facile calcolare la conduttanza,
+
+1299
+00:54:48.000 --> 00:54:51.480
+come nel caso del parallelo di
+
+1300
+00:54:49.520 --> 00:54:54.440
+resistenza. E poi il contrario
+
+1301
+00:54:51.480 --> 00:54:56.079
+dell'impedenza è l'ammettanza, però e
+
+1302
+00:54:54.440 --> 00:54:59.280
+questo non fa parte del programmis
+
+1303
+00:54:56.079 --> 00:55:03.079
+esame, ok? E qui, diciamo, in queste
+
+1304
+00:54:59.280 --> 00:55:06.599
+sere noi siamo parametrati al 100% sul
+
+1305
+00:55:03.079 --> 00:55:08.559
+programma MIMIT che dove c'è già dentro
+
+1306
+00:55:06.599 --> 00:55:10.119
+tanta roba, ma fortunatamente alcune
+
+1307
+00:55:08.559 --> 00:55:13.599
+cose non ci sono, delle cose che non ci
+
+1308
+00:55:10.119 --> 00:55:13.599
+sono non ne parliamo.
+
+1309
+00:55:14.079 --> 00:55:16.240
+Ok,
+
+1310
+00:55:15.200 --> 00:55:18.480
+>> grazie
+
+1311
+00:55:16.240 --> 00:55:22.079
+>> a te. Comunque è vero, hai ragione, hai
+
+1312
+00:55:18.480 --> 00:55:25.079
+ragione. Nel senso che eh di ogni di
+
+1313
+00:55:22.079 --> 00:55:27.640
+ognuna di quelle unità eh
+
+1314
+00:55:25.079 --> 00:55:30.520
+di ognuna di di quelle grandezze che
+
+1315
+00:55:27.640 --> 00:55:32.480
+abbiamo visto esiste il reciproco uno su
+
+1316
+00:55:30.520 --> 00:55:34.880
+uno divisore resistenza, uno divisore
+
+1317
+00:55:32.480 --> 00:55:37.160
+attanza che in certi calcoli è più
+
+1318
+00:55:34.880 --> 00:55:40.160
+comodo usare,
+
+1319
+00:55:37.160 --> 00:55:43.039
+ma quella parte lì noi la diciamo la la
+
+1320
+00:55:40.160 --> 00:55:46.880
+ignoriamo, ok? per non per non esplodere
+
+1321
+00:55:43.039 --> 00:55:48.839
+con una quantità enorme di argomenti.
+
+1322
+00:55:46.880 --> 00:55:51.200
+Alfredo, a te.
+
+1323
+00:55:48.839 --> 00:55:52.799
+>> Eccomi. Solo una curiosità minore e
+
+1324
+00:55:51.200 --> 00:55:55.319
+prima si parlava di corrente di fuga
+
+1325
+00:55:52.799 --> 00:55:58.680
+quando si parlava del dielettrico. Ehm,
+
+1326
+00:55:55.319 --> 00:56:00.839
+ma è un valore irrisorio o ci sono casi
+
+1327
+00:55:58.680 --> 00:56:03.240
+in cui potrebbe servire eventualmente
+
+1328
+00:56:00.839 --> 00:56:05.480
+calcolarla e gestirla? perché è passata
+
+1329
+00:56:03.240 --> 00:56:07.200
+così in velocità e volevo capire un po'
+
+1330
+00:56:05.480 --> 00:56:09.160
+meglio se si trattasse di una
+
+1331
+00:56:07.200 --> 00:56:11.039
+dispersione minimale o comunque qualcosa
+
+1332
+00:56:09.160 --> 00:56:12.880
+che potrebbe influenzare il
+
+1333
+00:56:11.039 --> 00:56:15.400
+funzionamento del poi magari del del
+
+1334
+00:56:12.880 --> 00:56:17.240
+meccanismo magari anche in una in una
+
+1335
+00:56:15.400 --> 00:56:19.640
+radio poi. Grazie.
+
+1336
+00:56:17.240 --> 00:56:21.880
+>> Sì, allora ottima domanda. Allora, in
+
+1337
+00:56:19.640 --> 00:56:24.520
+generale parlando di condensatori la
+
+1338
+00:56:21.880 --> 00:56:27.240
+corrente di fuga è minimale, cioè i
+
+1339
+00:56:24.520 --> 00:56:29.039
+condensatori il più delle volte si
+
+1340
+00:56:27.240 --> 00:56:32.319
+possono considerare quasi componenti
+
+1341
+00:56:29.039 --> 00:56:34.920
+ideali, cioè privi di corrente di fuga.
+
+1342
+00:56:32.319 --> 00:56:36.640
+eh può diventare alta la corrente di
+
+1343
+00:56:34.920 --> 00:56:39.160
+fuga in alcuni casi, per esempio nei
+
+1344
+00:56:36.640 --> 00:56:41.799
+condensatori elettrolitici datati, ma
+
+1345
+00:56:39.160 --> 00:56:43.640
+nei condensatori di segnale, quindi
+
+1346
+00:56:41.799 --> 00:56:46.480
+quelli non elettrolitici, quelli che non
+
+1347
+00:56:43.640 --> 00:56:50.079
+lavorano sulle alimentazioni, no? come
+
+1348
+00:56:46.480 --> 00:56:52.799
+si si diceva prima e normalmente il il
+
+1349
+00:56:50.079 --> 00:56:55.640
+parametro parassita, quindi la corrente
+
+1350
+00:56:52.799 --> 00:56:59.640
+di fuga è eh
+
+1351
+00:56:55.640 --> 00:57:02.240
+è normalmente è trascurabile per il 99%
+
+1352
+00:56:59.640 --> 00:57:05.160
+delle applicazioni che si fanno. Invece
+
+1353
+00:57:02.240 --> 00:57:07.280
+il componente che è molto lontano dal
+
+1354
+00:57:05.160 --> 00:57:10.520
+componente ideale è l'induttore.
+
+1355
+00:57:07.280 --> 00:57:13.319
+L'induttore, purtroppo, poi lo vedremo
+
+1356
+00:57:10.520 --> 00:57:15.839
+nelle prossime due puntate, e
+
+1357
+00:57:13.319 --> 00:57:19.039
+l'induttore porta con sé sempre una
+
+1358
+00:57:15.839 --> 00:57:22.319
+quantità di non ottimalità di perdite
+
+1359
+00:57:19.039 --> 00:57:25.319
+che poi si si traducono in perdite che,
+
+1360
+00:57:22.319 --> 00:57:26.799
+diciamo, sono anche sono anche rilevanti
+
+1361
+00:57:25.319 --> 00:57:28.319
+e quindi siccome i condensatori e
+
+1362
+00:57:26.799 --> 00:57:31.160
+indottori lavorano molto spesso in
+
+1363
+00:57:28.319 --> 00:57:32.920
+parallelo e diciamo quando il circuito è
+
+1364
+00:57:31.160 --> 00:57:34.599
+degradato non è mai la colpa del
+
+1365
+00:57:32.920 --> 00:57:37.920
+condensatore per intenderci, no? anche
+
+1366
+00:57:34.599 --> 00:57:39.440
+il condensatore, ripeto, cioè si eh
+
+1367
+00:57:37.920 --> 00:57:41.440
+diciamo la corrente di fuga è minima,
+
+1368
+00:57:39.440 --> 00:57:44.079
+tant'è che non la si misura neanche in
+
+1369
+00:57:41.440 --> 00:57:48.000
+corrente, si misura con un parametro che
+
+1370
+00:57:44.079 --> 00:57:49.920
+che è trigonometrico, il tangent delta,
+
+1371
+00:57:48.000 --> 00:57:52.680
+che è la tangente dell'angolo di fuga
+
+1372
+00:57:49.920 --> 00:57:55.520
+perché altrimenti non si apprezzerebbe.
+
+1373
+00:57:52.680 --> 00:57:59.079
+Invece nel caso degli induttori e non
+
+1374
+00:57:55.520 --> 00:57:59.920
+non è così per per motivi che vedremo.
+
+1375
+00:57:59.079 --> 00:58:01.319
+>> Grazie
+
+1376
+00:57:59.920 --> 00:58:04.039
+>> a te. ne parliamo già alla prossima
+
+1377
+00:58:01.319 --> 00:58:06.359
+puntata di questa cosa.
+
+1378
+00:58:04.039 --> 00:58:08.599
+Allora, riparto. Grazie per le domande
+
+1379
+00:58:06.359 --> 00:58:11.720
+che ci aiutano a focalizzare, a
+
+1380
+00:58:08.599 --> 00:58:16.079
+rifocalizzare un po' le cose e a e anche
+
+1381
+00:58:11.720 --> 00:58:20.640
+un po' staccare. Dunque,
+
+1382
+00:58:16.079 --> 00:58:22.760
+adesso parliamo di di un concetto che
+
+1383
+00:58:20.640 --> 00:58:25.000
+adesso vi definisco una cosa nuova che
+
+1384
+00:58:22.760 --> 00:58:28.480
+si chiama l'impedenza. L'impedenza.
+
+1385
+00:58:25.000 --> 00:58:30.680
+Allora, abbiamo visto nelle praticamente
+
+1386
+00:58:28.480 --> 00:58:33.240
+nelle tre puntate scorse abbiamo visto
+
+1387
+00:58:30.680 --> 00:58:36.200
+che ogni componente ha una sua forza di
+
+1388
+00:58:33.240 --> 00:58:38.160
+opposizione al passaggio della della
+
+1389
+00:58:36.200 --> 00:58:39.960
+corrente alternata. Abbiamo abbiamo
+
+1390
+00:58:38.160 --> 00:58:41.559
+visto
+
+1391
+00:58:39.960 --> 00:58:43.839
+quando abbiamo parlato della resistenza
+
+1392
+00:58:41.559 --> 00:58:46.920
+e della legge di Oh che la resistenza lo
+
+1393
+00:58:43.839 --> 00:58:48.319
+dice il suo nome stesso e diciamo è una
+
+1394
+00:58:46.920 --> 00:58:50.599
+forza d'opposizione alla corrente
+
+1395
+00:58:48.319 --> 00:58:52.720
+alternata e abbiamo visto che in una che
+
+1396
+00:58:50.599 --> 00:58:54.799
+in una resistenza anche in corrente
+
+1397
+00:58:52.720 --> 00:58:57.760
+alternata la corrente e la tensione sono
+
+1398
+00:58:54.799 --> 00:58:59.720
+in fase. Poi mercoledì scorso abbiamo
+
+1399
+00:58:57.760 --> 00:59:02.480
+parlato della reattenza induttiva,
+
+1400
+00:58:59.720 --> 00:59:04.160
+quindi come un induttore ostacola il
+
+1401
+00:59:02.480 --> 00:59:05.880
+passaggio della corrente alternata.
+
+1402
+00:59:04.160 --> 00:59:08.200
+Abbiamo visto quella famosa formula che
+
+1403
+00:59:05.880 --> 00:59:09.799
+prima ho richiamato diverse volte e
+
+1404
+00:59:08.200 --> 00:59:12.400
+abbiamo visto che nell'induttore la
+
+1405
+00:59:09.799 --> 00:59:14.000
+corrente è in ritardo di 90° rispetto
+
+1406
+00:59:12.400 --> 00:59:15.400
+alla tensione e ora stasera abbiamo
+
+1407
+00:59:14.000 --> 00:59:18.160
+visto che il condensatore ha la
+
+1408
+00:59:15.400 --> 00:59:20.000
+reattanza capacitiva e che la corrente
+
+1409
+00:59:18.160 --> 00:59:22.760
+in un condensatore rispetta la tensione
+
+1410
+00:59:20.000 --> 00:59:25.000
+in anticipo di 90°. Ora per ora
+
+1411
+00:59:22.760 --> 00:59:27.160
+chiaramente
+
+1412
+00:59:25.000 --> 00:59:28.520
+abbiamo parlato di questi tre oggetti e
+
+1413
+00:59:27.160 --> 00:59:29.960
+chiaramente ne abbiamo parlato in
+
+1414
+00:59:28.520 --> 00:59:31.559
+maniera separata, no? prima la
+
+1415
+00:59:29.960 --> 00:59:33.359
+resistenza, poi l'induttanza e poi la
+
+1416
+00:59:31.559 --> 00:59:35.200
+capacità. Però queste cose possono
+
+1417
+00:59:33.359 --> 00:59:37.760
+coesistere tutti e tre insieme in un
+
+1418
+00:59:35.200 --> 00:59:40.440
+circuito o ad esempio in un'antenna,
+
+1419
+00:59:37.760 --> 00:59:42.839
+tanto per fare un caso un caso pratico.
+
+1420
+00:59:40.440 --> 00:59:46.119
+E quindi può capitare di doverle
+
+1421
+00:59:42.839 --> 00:59:48.880
+considerare insieme. Quindi immaginate
+
+1422
+00:59:46.119 --> 00:59:51.240
+un circuitino elettrico fatto così, come
+
+1423
+00:59:48.880 --> 00:59:53.680
+vedete qua sulla sul sulla destra. In
+
+1424
+00:59:51.240 --> 00:59:56.599
+questo circuito c'è una resistenza che
+
+1425
+00:59:53.680 --> 00:59:59.720
+ha il suo valore di resistenza. c'è una
+
+1426
+00:59:56.599 --> 01:00:01.839
+un induttore che a una certa frequenza
+
+1427
+00:59:59.720 --> 01:00:03.839
+avrà una certa reattanza e c'è un
+
+1428
+01:00:01.839 --> 01:00:05.920
+condensatore che anche lui ha una certa
+
+1429
+01:00:03.839 --> 01:00:10.440
+frequenza avrà una certa reattanza.
+
+1430
+01:00:05.920 --> 01:00:12.599
+Allora, l'insieme di queste tre forme di
+
+1431
+01:00:10.440 --> 01:00:14.799
+resistenza alla corrente elettrica si
+
+1432
+01:00:12.599 --> 01:00:19.240
+chiama impedenza.
+
+1433
+01:00:14.799 --> 01:00:21.440
+Quindi l'impedenza è, diciamo, è il
+
+1434
+01:00:19.240 --> 01:00:23.119
+concetto più generale, diciamo, di
+
+1435
+01:00:21.440 --> 01:00:25.799
+opposizione alla corrente elettrica.
+
+1436
+01:00:23.119 --> 01:00:29.559
+L'impedenze è una grandezza che al suo
+
+1437
+01:00:25.799 --> 01:00:31.520
+interno ha sia quello che è impedito
+
+1438
+01:00:29.559 --> 01:00:33.920
+dalla resistenza sia quello che è
+
+1439
+01:00:31.520 --> 01:00:36.440
+impedito dal condensatore e o
+
+1440
+01:00:33.920 --> 01:00:38.720
+dall'induttore. D'accordo? Quindi
+
+1441
+01:00:36.440 --> 01:00:40.680
+l'impedenza in realtà non è una cosa
+
+1442
+01:00:38.720 --> 01:00:43.720
+nuova, non è un componente elettronico
+
+1443
+01:00:40.680 --> 01:00:46.000
+nuovo, no, però è l'insieme delle forze
+
+1444
+01:00:43.720 --> 01:00:48.000
+di opposizione che può essere datai tre
+
+1445
+01:00:46.000 --> 01:00:50.200
+componenti che abbiamo visto fino ora:
+
+1446
+01:00:48.000 --> 01:00:52.680
+resistore, induttore e condensatore.
+
+1447
+01:00:50.200 --> 01:00:54.839
+Questa cosa si chiama appunto impedenza.
+
+1448
+01:00:52.680 --> 01:00:57.119
+Mh.
+
+1449
+01:00:54.839 --> 01:00:59.200
+E quindi la la definiamo. Cos'è
+
+1450
+01:00:57.119 --> 01:01:01.160
+l'impedenza? è la forza che si oppone al
+
+1451
+01:00:59.200 --> 01:01:03.760
+transito della corrente alternata, come
+
+1452
+01:01:01.160 --> 01:01:05.640
+abbiamo sempre detto, in un circuito,
+
+1453
+01:01:03.760 --> 01:01:07.839
+quindi non in un componente, no, non in
+
+1454
+01:01:05.640 --> 01:01:10.559
+un condensatore, non in un induttore, e
+
+1455
+01:01:07.839 --> 01:01:13.359
+in generale in un circuito. Un circuito
+
+1456
+01:01:10.559 --> 01:01:15.960
+è un è ovviamente un circuito elettrico
+
+1457
+01:01:13.359 --> 01:01:18.480
+è un una è un concetto un po' più
+
+1458
+01:01:15.960 --> 01:01:20.839
+complesso, no, del componente, appunto.
+
+1459
+01:01:18.480 --> 01:01:24.720
+Qui abbiamo tre componenti elettronici,
+
+1460
+01:01:20.839 --> 01:01:26.720
+R, L. Se li vediamo tutti e tre insieme,
+
+1461
+01:01:24.720 --> 01:01:29.520
+questo è un circuito serie, un circuito
+
+1462
+01:01:26.720 --> 01:01:31.640
+serie dove RLC sono disposti in serie. È
+
+1463
+01:01:29.520 --> 01:01:33.839
+un piccolo circuito elettrico.
+
+1464
+01:01:31.640 --> 01:01:36.039
+L'impedenza è la forza di opposizione di
+
+1465
+01:01:33.839 --> 01:01:38.760
+quel circuito che abbiamo visto prima.
+
+1466
+01:01:36.039 --> 01:01:40.559
+Chiaramente, siccome di base abbiamo
+
+1467
+01:01:38.760 --> 01:01:42.480
+misurato sempre in OM, queste forze di
+
+1468
+01:01:40.559 --> 01:01:46.880
+opposizione, anche l'impedenza si misura
+
+1469
+01:01:42.480 --> 01:01:48.799
+in Oh. Si indica con la lettera Z
+
+1470
+01:01:46.880 --> 01:01:51.160
+e poi va da sé che dipende dalla
+
+1471
+01:01:48.799 --> 01:01:53.960
+frequenza perché lo lo si vede qua, no?
+
+1472
+01:01:51.160 --> 01:01:56.200
+Cioè, e qui di questi tre parametri
+
+1473
+01:01:53.960 --> 01:01:58.319
+solamente la resistenza
+
+1474
+01:01:56.200 --> 01:02:00.359
+di un resistore non dipende dalla
+
+1475
+01:01:58.319 --> 01:02:02.599
+frequenza. Un resistore se vale 1000
+
+1476
+01:02:00.359 --> 01:02:05.440
+ohm, quei 1000 ohm di resistenza ce li
+
+1477
+01:02:02.599 --> 01:02:08.559
+ha a qualsiasi frequenza, no? 100 Hz,
+
+1478
+01:02:05.440 --> 01:02:10.240
+1000 Hz, 10.000 Hz. Invece nella reenza
+
+1479
+01:02:08.559 --> 01:02:11.880
+induttiva e capacitiva non è così. E
+
+1480
+01:02:10.240 --> 01:02:15.559
+abbiamo visto le formule, no? Quell'
+
+1481
+01:02:11.880 --> 01:02:17.079
+iperbole e quella retta della reattanza
+
+1482
+01:02:15.559 --> 01:02:18.920
+induttiva.
+
+1483
+01:02:17.079 --> 01:02:21.039
+Ovviamente l'impedenza, siccome dentro
+
+1484
+01:02:18.920 --> 01:02:22.720
+c'è un condensatore, dentro c'è una,
+
+1485
+01:02:21.039 --> 01:02:24.200
+scusate, lo dico meglio, dentro c'è una
+
+1486
+01:02:22.720 --> 01:02:26.160
+reenza induttiva, dentro c'è una
+
+1487
+01:02:24.200 --> 01:02:28.920
+reattenza capacitiva, dipende dalla
+
+1488
+01:02:26.160 --> 01:02:30.920
+frequenza. Allora, come diavolo si fa a
+
+1489
+01:02:28.920 --> 01:02:33.079
+scrivere un'impedenza? Perché noi fino a
+
+1490
+01:02:30.920 --> 01:02:35.000
+ora abbiamo imparato a scrivere le
+
+1491
+01:02:33.079 --> 01:02:37.880
+resistenze o nelle reattanze. Noi noi
+
+1492
+01:02:35.000 --> 01:02:41.000
+sappiamo scrivere che una resistenza è
+
+1493
+01:02:37.880 --> 01:02:44.119
+100 ohm, per esempio, d'accordo?
+
+1494
+01:02:41.000 --> 01:02:46.720
+il suo valore di opposizione e poi qui
+
+1495
+01:02:44.119 --> 01:02:48.400
+eh a una certa frequenza possiamo dire
+
+1496
+01:02:46.720 --> 01:02:51.400
+che il valore della latenza induttiva di
+
+1497
+01:02:48.400 --> 01:02:53.279
+un pop è 50 ohm.
+
+1498
+01:02:51.400 --> 01:02:55.839
+Questo lo sappiamo fare. Ma come
+
+1499
+01:02:53.279 --> 01:02:58.760
+facciamo a dire che impedenza ha un
+
+1500
+01:02:55.839 --> 01:03:01.359
+circuito dove ci sono questi tre valori?
+
+1501
+01:02:58.760 --> 01:03:04.839
+Per esempio la resistenza 100. A quella
+
+1502
+01:03:01.359 --> 01:03:07.039
+frequenza lì la reattanza mi mi dà 50
+
+1503
+01:03:04.839 --> 01:03:08.960
+ohm, quella induttiva e la reattanza
+
+1504
+01:03:07.039 --> 01:03:13.000
+capacitiva mi mi fa 200 ohm. Come si
+
+1505
+01:03:08.960 --> 01:03:16.440
+fanno a combinare queste tre reattanze?
+
+1506
+01:03:13.000 --> 01:03:19.319
+Si fa in questo modo qua.
+
+1507
+01:03:16.440 --> 01:03:21.920
+Ora diciamo vi vi racconto come
+
+1508
+01:03:19.319 --> 01:03:23.760
+funziona. Su queste cose non c'è da fare
+
+1509
+01:03:21.920 --> 01:03:25.640
+i conti dal punto di vista dell'esame,
+
+1510
+01:03:23.760 --> 01:03:27.799
+cioè c'è solamente da sapere il
+
+1511
+01:03:25.640 --> 01:03:31.520
+concetto. Allora, un'impedenza è
+
+1512
+01:03:27.799 --> 01:03:34.440
+composta da una parte reale e una parte
+
+1513
+01:03:31.520 --> 01:03:37.079
+che è chiamata immaginaria.
+
+1514
+01:03:34.440 --> 01:03:40.400
+Poi capiremo cosa vuol dire immaginaria.
+
+1515
+01:03:37.079 --> 01:03:42.200
+La parte reale è la resistenza
+
+1516
+01:03:40.400 --> 01:03:44.720
+e la parte immaginaria sono le
+
+1517
+01:03:42.200 --> 01:03:49.000
+reattanze. E questa cosa si scrive in
+
+1518
+01:03:44.720 --> 01:03:51.640
+questo modo qua. L'impedenza Z
+
+1519
+01:03:49.000 --> 01:03:55.480
+è uguale a un certo valore di resistenza
+
+1520
+01:03:51.640 --> 01:04:00.640
+più j, lettera greca J lunga X. Per
+
+1521
+01:03:55.480 --> 01:04:03.039
+esempio, questa cosa qui eh una
+
+1522
+01:04:00.640 --> 01:04:09.400
+impedenza di un'antenna, ad esempio,
+
+1523
+01:04:03.039 --> 01:04:09.400
+potrebbe essere J + 15 ohm. J + 15
+
+1524
+01:04:10.319 --> 01:04:16.200
+perché eh
+
+1525
+01:04:13.960 --> 01:04:17.720
+fatemi fare un esempio un po' un po' un
+
+1526
+01:04:16.200 --> 01:04:20.200
+po' pratico, un po' ruspante. Allora,
+
+1527
+01:04:17.720 --> 01:04:22.400
+parecchi di voi lavorano, hanno
+
+1528
+01:04:20.200 --> 01:04:24.760
+esperienza di radio in banda cittadina,
+
+1529
+01:04:22.400 --> 01:04:25.839
+quindi avrete il baracchino o magari
+
+1530
+01:04:24.760 --> 01:04:28.880
+anche qualcosa di un po' più
+
+1531
+01:04:25.839 --> 01:04:30.920
+sofisticato, avrete un'antenna. Eh,
+
+1532
+01:04:28.880 --> 01:04:33.559
+questa antenna probabilmente molti di
+
+1533
+01:04:30.920 --> 01:04:35.240
+voi avranno, chi ha una stazione di
+
+1534
+01:04:33.559 --> 01:04:37.520
+questo genere normalmente ha un
+
+1535
+01:04:35.240 --> 01:04:39.520
+rosmetro, quindi un misuratore di onde
+
+1536
+01:04:37.520 --> 01:04:41.599
+stazionarie per vedere l'antenna come
+
+1537
+01:04:39.520 --> 01:04:43.400
+funziona. Chi non conosce queste cose
+
+1538
+01:04:41.599 --> 01:04:45.440
+non si preoccupi perché fra poco avremo
+
+1539
+01:04:43.400 --> 01:04:48.839
+una lezione dedicata a quello. Allora,
+
+1540
+01:04:45.440 --> 01:04:50.839
+un rosmetro mostra come eh un'antenna
+
+1541
+01:04:48.839 --> 01:04:53.440
+funziona, però con un parametro che non
+
+1542
+01:04:50.839 --> 01:04:56.200
+è molto significativo. Non so se sapete
+
+1543
+01:04:53.440 --> 01:04:58.319
+che, cioè parecchi di voi secondo me già
+
+1544
+01:04:56.200 --> 01:05:00.559
+sanno che oggi esiste una generazione di
+
+1545
+01:04:58.319 --> 01:05:03.640
+strumenti che sono fortunatamente
+
+1546
+01:05:00.559 --> 01:05:07.720
+diventati anche abbastanza economici, i
+
+1547
+01:05:03.640 --> 01:05:11.000
+cosiddetti VNA, V come Verona, N come
+
+1548
+01:05:07.720 --> 01:05:12.880
+Napoli, a come Ancona che sta per vector
+
+1549
+01:05:11.000 --> 01:05:14.680
+network analyzer, analizzatore
+
+1550
+01:05:12.880 --> 01:05:16.599
+vettoriale di reti, analizzatore di reti
+
+1551
+01:05:14.680 --> 01:05:19.039
+vettoriali
+
+1552
+01:05:16.599 --> 01:05:20.960
+e che di un'antenna è in grado, per
+
+1553
+01:05:19.039 --> 01:05:23.319
+l'appunto, di dare questi parametri qua,
+
+1554
+01:05:20.960 --> 01:05:26.279
+il suo valore resistivo
+
+1555
+01:05:23.319 --> 01:05:27.680
+e la sua impedenza in base a certe in
+
+1556
+01:05:26.279 --> 01:05:29.720
+base alle varie frequenze in cui si
+
+1557
+01:05:27.680 --> 01:05:31.920
+vuole usare quell'antenna. E a
+
+1558
+01:05:29.720 --> 01:05:34.240
+differenza del rosmetro,
+
+1559
+01:05:31.920 --> 01:05:36.319
+sapendo questi due valori sappiamo
+
+1560
+01:05:34.240 --> 01:05:38.319
+quanto l'antenna rende realmente e come
+
+1561
+01:05:36.319 --> 01:05:41.440
+possiamo fare per aggiustarla e farla
+
+1562
+01:05:38.319 --> 01:05:44.359
+rendere al meglio. Allora,
+
+1563
+01:05:41.440 --> 01:05:46.440
+andiamo avanti, poi torno un attimo su.
+
+1564
+01:05:44.359 --> 01:05:48.760
+Allora, cos'è la reattanza? La reanza è
+
+1565
+01:05:46.440 --> 01:05:50.520
+la parte cosiddetta immaginaria
+
+1566
+01:05:48.760 --> 01:05:52.720
+dell'impedenza.
+
+1567
+01:05:50.520 --> 01:05:55.799
+La reattanza induttiva convenzionalmente
+
+1568
+01:05:52.720 --> 01:05:58.920
+ha segno più, quindi una reattanza
+
+1569
+01:05:55.799 --> 01:06:00.960
+induttiva può essere +65. Una reattanza
+
+1570
+01:05:58.920 --> 01:06:04.119
+capacitiva convenzionalmente a segno
+
+1571
+01:06:00.960 --> 01:06:06.319
+meno, per esempio -50.
+
+1572
+01:06:04.119 --> 01:06:07.640
+In un circuito serie, come abbiamo visto
+
+1573
+01:06:06.319 --> 01:06:09.440
+prima, ma in generale in tutti i
+
+1574
+01:06:07.640 --> 01:06:12.000
+circuiti, le reattanze si combinano
+
+1575
+01:06:09.440 --> 01:06:14.119
+l'una con l'altra e si sommano si
+
+1576
+01:06:12.000 --> 01:06:16.960
+moltiplicano algebricamente.
+
+1577
+01:06:14.119 --> 01:06:18.880
+Algebricamente vuol dire col segno. Nel
+
+1578
+01:06:16.960 --> 01:06:25.920
+caso della serie si sommano col segno,
+
+1579
+01:06:18.880 --> 01:06:28.000
+quindi 65 + 65 + -50 il risultato è 15
+
+1580
+01:06:25.920 --> 01:06:31.760
+perché le somme algebriche sono quelle
+
+1581
+01:06:28.000 --> 01:06:35.599
+appunto col segno. Quindi
+
+1582
+01:06:31.760 --> 01:06:39.119
+questo 15 potrebbe venire da qua. Un
+
+1583
+01:06:35.599 --> 01:06:39.119
+attimo che tolgo
+
+1584
+01:06:40.520 --> 01:06:45.039
+il il colore.
+
+1585
+01:06:47.240 --> 01:06:53.640
+qui potrebbe essere appunto in questo
+
+1586
+01:06:49.160 --> 01:06:56.400
+circuito che dov'è il cursore qua che
+
+1587
+01:06:53.640 --> 01:06:59.440
+alla frequenza a cui sto lavorando, per
+
+1588
+01:06:56.400 --> 01:07:04.640
+esempio 27 MHz, la reattanza induttiva
+
+1589
+01:06:59.440 --> 01:07:07.760
+ha quel + 65 ohm di cui si leggeva prima
+
+1590
+01:07:04.640 --> 01:07:10.039
+della slide successiva. La reattanza
+
+1591
+01:07:07.760 --> 01:07:15.440
+capacitiva invece alla frequenza a cui
+
+1592
+01:07:10.039 --> 01:07:15.440
+lavora l'antenna ha -50 ohm.
+
+1593
+01:07:15.839 --> 01:07:25.520
+eh + 65 - 50, la somma algebrica è + 15.
+
+1594
+01:07:20.520 --> 01:07:25.520
+Ed ecco il +15 qua.
+
+1595
+01:07:25.720 --> 01:07:31.160
+Qualcuno di voi che magari ha l'occhio
+
+1596
+01:07:28.200 --> 01:07:33.200
+lungo avrà già immaginato che ci sono
+
+1597
+01:07:31.160 --> 01:07:35.319
+delle frequenze dove i valori della
+
+1598
+01:07:33.200 --> 01:07:37.960
+reattanza capacitiva e induttiva sono
+
+1599
+01:07:35.319 --> 01:07:39.960
+uguali e visto che sono di segno opposto
+
+1600
+01:07:37.960 --> 01:07:43.119
+si eliminano l'una con l'altra perché in
+
+1601
+01:07:39.960 --> 01:07:45.640
+questo giochetto che ho fatto qua + 65 -
+
+1602
+01:07:43.119 --> 01:07:47.920
+50 è risultato 15, ma potrebbe essere
+
+1603
+01:07:45.640 --> 01:07:50.480
+che la reattanza
+
+1604
+01:07:47.920 --> 01:07:54.160
+induttiva, scusate, è + 65 e la
+
+1605
+01:07:50.480 --> 01:07:56.160
+reattanza induttiva è -65.
+
+1606
+01:07:54.160 --> 01:07:58.359
+In questo caso le due reattanze si
+
+1607
+01:07:56.160 --> 01:08:00.960
+cancellerebbero l'una con l'altra, come
+
+1608
+01:07:58.359 --> 01:08:04.279
+vedremo quando parleremo di risonanza, e
+
+1609
+01:08:00.960 --> 01:08:05.960
+resta solo la resistenza di 50 ohm, che
+
+1610
+01:08:04.279 --> 01:08:09.880
+quando parleremo di antenne vedremo che
+
+1611
+01:08:05.960 --> 01:08:12.039
+questa è la miglior ehm eh situazione
+
+1612
+01:08:09.880 --> 01:08:15.400
+per avere il maggior rendimento di di
+
+1613
+01:08:12.039 --> 01:08:18.560
+antenna. Comunque, intanto,
+
+1614
+01:08:15.400 --> 01:08:21.920
+intanto per stasera, eh la cosa che mi
+
+1615
+01:08:18.560 --> 01:08:23.600
+interessa è capire,
+
+1616
+01:08:21.920 --> 01:08:25.239
+spiegare che voi capiate bene questa
+
+1617
+01:08:23.600 --> 01:08:28.359
+terminologia. Quindi, appunto,
+
+1618
+01:08:25.239 --> 01:08:30.600
+un'impedenza, ricomincio, un'impedenza è
+
+1619
+01:08:28.359 --> 01:08:32.040
+la componente di tutte è la somma di
+
+1620
+01:08:30.600 --> 01:08:33.480
+tutte le forze di opposizione che
+
+1621
+01:08:32.040 --> 01:08:35.040
+possono essere in un circuito, no?
+
+1622
+01:08:33.480 --> 01:08:36.080
+quella delle resistenze, ma anche quella
+
+1623
+01:08:35.040 --> 01:08:38.239
+dell'induttore e quella del
+
+1624
+01:08:36.080 --> 01:08:41.640
+condensatore. Quella delle resistenze è
+
+1625
+01:08:38.239 --> 01:08:44.040
+un numero puro, 50 ohm, diciamo, ad
+
+1626
+01:08:41.640 --> 01:08:47.279
+esempio, o 70 ohm. Quella della
+
+1627
+01:08:44.040 --> 01:08:50.520
+reattanza è un numero positivo, quella
+
+1628
+01:08:47.279 --> 01:08:54.120
+della capacità ha un è, diciamo, un
+
+1629
+01:08:50.520 --> 01:08:54.120
+numero negativo.
+
+1630
+01:08:58.120 --> 01:09:01.120
+Eh,
+
+1631
+01:09:02.159 --> 01:09:06.920
+così facendo noi siamo in grado di dov'è
+
+1632
+01:09:05.279 --> 01:09:09.480
+il cursore? noi siamo in grado di
+
+1633
+01:09:06.920 --> 01:09:11.719
+scrivere, diciamo,
+
+1634
+01:09:09.480 --> 01:09:14.799
+eh in generale qualsiasi impedenza,
+
+1635
+01:09:11.719 --> 01:09:17.239
+nella sua parte reale R e nella sua
+
+1636
+01:09:14.799 --> 01:09:19.679
+parte immaginaria,
+
+1637
+01:09:17.239 --> 01:09:22.600
+questo + JX.
+
+1638
+01:09:19.679 --> 01:09:24.319
+Fra un attimo vi spiego questo J che
+
+1639
+01:09:22.600 --> 01:09:28.279
+cosa vuol dire, però fatemi andare un
+
+1640
+01:09:24.319 --> 01:09:31.120
+po' più avanti, poi torniamo qua.
+
+1641
+01:09:28.279 --> 01:09:34.679
+Allora, adesso, avendo
+
+1642
+01:09:31.120 --> 01:09:37.600
+e questo concetto di reattanza,
+
+1643
+01:09:34.679 --> 01:09:39.759
+si può parlare anche di come funziona la
+
+1644
+01:09:37.600 --> 01:09:41.239
+legge di Home in corrente alternata,
+
+1645
+01:09:39.759 --> 01:09:42.799
+perché la legge di Hom noi per ora
+
+1646
+01:09:41.239 --> 01:09:46.359
+l'abbiamo vista solo in corrente
+
+1647
+01:09:42.799 --> 01:09:48.560
+continua, V = RI, eccetera. La legge
+
+1648
+01:09:46.359 --> 01:09:51.359
+vale anche in corrente alternata, pari
+
+1649
+01:09:48.560 --> 01:09:54.040
+pari, valgono le stesse formule,
+
+1650
+01:09:51.359 --> 01:09:56.679
+semplicemente al posto della resistenza
+
+1651
+01:09:54.040 --> 01:09:59.080
+ci si mette l'impedenza. Quindi questa,
+
+1652
+01:09:56.679 --> 01:10:01.760
+per esempio,
+
+1653
+01:09:59.080 --> 01:10:04.800
+è la è una delle tre formulazioni di
+
+1654
+01:10:01.760 --> 01:10:08.400
+base della legge di ohm uguale R * I.
+
+1655
+01:10:04.800 --> 01:10:10.239
+Qui è scritto I * R, come abbiamo
+
+1656
+01:10:08.400 --> 01:10:12.800
+definito noi quando parlavamo di
+
+1657
+01:10:10.239 --> 01:10:15.239
+corrente continua. Qui siamo in corrente
+
+1658
+01:10:12.800 --> 01:10:17.239
+alternata, per cui in corrente alternata
+
+1659
+01:10:15.239 --> 01:10:19.360
+non abbiamo solo la R, ma abbiamo in
+
+1660
+01:10:17.239 --> 01:10:21.920
+generale l'impedenza, come abbiamo visto
+
+1661
+01:10:19.360 --> 01:10:24.320
+prima. Quindi la legge di Hom, se
+
+1662
+01:10:21.920 --> 01:10:26.600
+vogliamo, resta resta uguale. Il
+
+1663
+01:10:24.320 --> 01:10:29.520
+concetto che avete visto che abbiamo
+
+1664
+01:10:26.600 --> 01:10:32.560
+visto nella seconda lezione è identico
+
+1665
+01:10:29.520 --> 01:10:40.840
+nelle tre formulazioni, no? I = V / R
+
+1666
+01:10:32.560 --> 01:10:47.040
+diventa I = V / Z e R = V / I diventa Z
+
+1667
+01:10:40.840 --> 01:10:50.199
+= V / I, quindi vale allo stesso modo mh
+
+1668
+01:10:47.040 --> 01:10:53.960
+la la legge di Oh ohm.
+
+1669
+01:10:50.199 --> 01:10:56.320
+Allora, vediamo cosa succede dal punto
+
+1670
+01:10:53.960 --> 01:10:59.719
+di vista della potenza. Noi quando
+
+1671
+01:10:56.320 --> 01:11:02.600
+abbiamo parlato delle resistenze abbiamo
+
+1672
+01:10:59.719 --> 01:11:05.040
+visto che una resistenza normalmente
+
+1673
+01:11:02.600 --> 01:11:07.920
+dissiva, scalda, quindi trasforma
+
+1674
+01:11:05.040 --> 01:11:11.000
+energia elettrica in calore e diciamo
+
+1675
+01:11:07.920 --> 01:11:13.440
+praticamente scaldando, diciamo, fa un
+
+1676
+01:11:11.000 --> 01:11:15.840
+lavoro, fa una parte di lavoro. Abbiamo
+
+1677
+01:11:13.440 --> 01:11:18.040
+visto che la potenza si misurava in in
+
+1678
+01:11:15.840 --> 01:11:23.280
+watt. Che potrebbe essere il watt era
+
+1679
+01:11:18.040 --> 01:11:28.239
+calcolato V * I oppure R * I^ oppure V^
+
+1680
+01:11:23.280 --> 01:11:31.320
+/ R. Vediamo cosa succede della potenza
+
+1681
+01:11:28.239 --> 01:11:34.120
+in un circuito come questo. Quindi io ho
+
+1682
+01:11:31.320 --> 01:11:36.480
+un circuito come questo, un circuito RLC
+
+1683
+01:11:34.120 --> 01:11:38.360
+serie, lo attacco a un generatore di
+
+1684
+01:11:36.480 --> 01:11:42.719
+tensione alternata. Potrebbe essere
+
+1685
+01:11:38.360 --> 01:11:44.560
+anche eh la sorgente dell'elmaginiamo
+
+1686
+01:11:42.719 --> 01:11:46.719
+che questo sia un circuito, che questo
+
+1687
+01:11:44.560 --> 01:11:48.440
+sia il circuito equivalente di un
+
+1688
+01:11:46.719 --> 01:11:50.960
+oggetto che ho in casa, che potrebbe
+
+1689
+01:11:48.440 --> 01:11:53.159
+essere l'aspirapolvere, che potrebbe
+
+1690
+01:11:50.960 --> 01:11:55.560
+essere il ferro d'aspiro, d'accordo? un
+
+1691
+01:11:53.159 --> 01:11:58.159
+qualunque utilizzatore
+
+1692
+01:11:55.560 --> 01:12:00.040
+della che io attacco alla mia rete
+
+1693
+01:11:58.159 --> 01:12:03.159
+elettrica.
+
+1694
+01:12:00.040 --> 01:12:05.800
+La cosa che io so è che siccome questo è
+
+1695
+01:12:03.159 --> 01:12:08.440
+un circuito serie, in tutti e questi in
+
+1696
+01:12:05.800 --> 01:12:10.600
+questi tre, diciamo, componenti scorre
+
+1697
+01:12:08.440 --> 01:12:12.560
+la stessa corrente perché sono in serie,
+
+1698
+01:12:10.600 --> 01:12:14.440
+no? La corrente che entra di sopra esce
+
+1699
+01:12:12.560 --> 01:12:17.159
+da sotto. È una delle leggi di Kirkof,
+
+1700
+01:12:14.440 --> 01:12:20.560
+se vi ricordate, no? Questa è una maglia
+
+1701
+01:12:17.159 --> 01:12:23.600
+e quindi, diciamo, eh
+
+1702
+01:12:20.560 --> 01:12:26.520
+non ci sono nodi, per cui la somma del
+
+1703
+01:12:23.600 --> 01:12:29.440
+le correnti nella maglia sono eh in
+
+1704
+01:12:26.520 --> 01:12:31.360
+questo caso sono le stesse.
+
+1705
+01:12:29.440 --> 01:12:38.120
+Allora, vediamo cosa cosa succede delle
+
+1706
+01:12:31.360 --> 01:12:40.679
+potenze. Allora, eh sulate,
+
+1707
+01:12:38.120 --> 01:12:43.679
+ho perso il cursore. Allora, sulla
+
+1708
+01:12:40.679 --> 01:12:43.679
+resistenza
+
+1709
+01:12:44.320 --> 01:12:51.040
+scorre una certa corrente. Io posso
+
+1710
+01:12:46.400 --> 01:12:53.800
+calcolare P = R * I la potenza che
+
+1711
+01:12:51.040 --> 01:12:57.840
+scorre, che questa resistenza in qualche
+
+1712
+01:12:53.800 --> 01:13:00.040
+modo dissipa. Allora, la potenza che la
+
+1713
+01:12:57.840 --> 01:13:03.159
+resistenza dissipa, quindi la corrente
+
+1714
+01:13:00.040 --> 01:13:05.480
+che scorre nella resistenza, fa sì che
+
+1715
+01:13:03.159 --> 01:13:09.120
+la resistenza
+
+1716
+01:13:05.480 --> 01:13:12.320
+dissipi, appunto, quella potenza e nel
+
+1717
+01:13:09.120 --> 01:13:14.280
+caso della resistenza questa corrente
+
+1718
+01:13:12.320 --> 01:13:17.600
+genera un lavoro utile, come leggete
+
+1719
+01:13:14.280 --> 01:13:19.760
+qua. Quindi la resistenza scalda e
+
+1720
+01:13:17.600 --> 01:13:21.679
+quindi ne può scaldare una stanza, può
+
+1721
+01:13:19.760 --> 01:13:23.480
+essere una stoffetta elettrica, può
+
+1722
+01:13:21.679 --> 01:13:25.320
+essere la resistenza equivalente di una
+
+1723
+01:13:23.480 --> 01:13:27.760
+lampadina, quindi mi fa luce, può essere
+
+1724
+01:13:25.320 --> 01:13:31.719
+la resistenza del equivalente del motore
+
+1725
+01:13:27.760 --> 01:13:33.480
+del mio eh ascensore e quindi mi solleva
+
+1726
+01:13:31.719 --> 01:13:36.159
+un carico. Questi questi esempi che che
+
+1727
+01:13:33.480 --> 01:13:38.320
+vedete che vedete qua.
+
+1728
+01:13:36.159 --> 01:13:41.040
+Questa
+
+1729
+01:13:38.320 --> 01:13:43.560
+la resistenza genera un lavoro utile
+
+1730
+01:13:41.040 --> 01:13:45.800
+perché nella resistenza la tensione e la
+
+1731
+01:13:43.560 --> 01:13:48.600
+corrente sono in fase. La stessa
+
+1732
+01:13:45.800 --> 01:13:52.080
+corrente mi passa attraverso l'induttore
+
+1733
+01:13:48.600 --> 01:13:55.199
+e attraverso il condensatore.
+
+1734
+01:13:52.080 --> 01:13:58.440
+eh potrei calcolare
+
+1735
+01:13:55.199 --> 01:14:02.679
+R per I sostituendo R con l'impedenza,
+
+1736
+01:13:58.440 --> 01:14:05.239
+potrei calcolare X per I qu sia per
+
+1737
+01:14:02.679 --> 01:14:07.440
+l'induttore che per il condensatore.
+
+1738
+01:14:05.239 --> 01:14:09.280
+Però nell'induttore e nel condensatore
+
+1739
+01:14:07.440 --> 01:14:12.320
+la corrente e la tensione non sono in
+
+1740
+01:14:09.280 --> 01:14:16.520
+fase. Questo fa sì che la corrente che
+
+1741
+01:14:12.320 --> 01:14:19.000
+scorre in questi dispositivi non genera
+
+1742
+01:14:16.520 --> 01:14:22.159
+lavoro utile,
+
+1743
+01:14:19.000 --> 01:14:26.639
+come vedete qua sotto,
+
+1744
+01:14:22.159 --> 01:14:28.480
+cioè non produce effetti misurabili. La
+
+1745
+01:14:26.639 --> 01:14:30.199
+corrente che scorre in induttori,
+
+1746
+01:14:28.480 --> 01:14:33.880
+nell'induttore, nel condensatore, non
+
+1747
+01:14:30.199 --> 01:14:37.800
+non scalda, non fa girare motori, non
+
+1748
+01:14:33.880 --> 01:14:41.480
+genera non genera luce, non praticamente
+
+1749
+01:14:37.800 --> 01:14:45.080
+non ha effetti pratici riscontrabili
+
+1750
+01:14:41.480 --> 01:14:46.880
+nel, diciamo, nel mondo reale. sono
+
+1751
+01:14:45.080 --> 01:14:49.440
+componenti, da un certo punto di vista
+
+1752
+01:14:46.880 --> 01:14:53.360
+parassiti e il prodotto tensione per
+
+1753
+01:14:49.440 --> 01:14:56.000
+corrente viene zero se calcolato nel
+
+1754
+01:14:53.360 --> 01:14:58.120
+modo opportuno, a causa del fatto che in
+
+1755
+01:14:56.000 --> 01:15:00.560
+quei componenti, come abbiamo visto, la
+
+1756
+01:14:58.120 --> 01:15:04.000
+tensione e la corrente non sono in fase,
+
+1757
+01:15:00.560 --> 01:15:06.120
+ma sono sfasati di 90°. È a causa è a
+
+1758
+01:15:04.000 --> 01:15:09.880
+causa di questo sfasamento fra tensione
+
+1759
+01:15:06.120 --> 01:15:12.960
+e corrente che un carico induttivo o un
+
+1760
+01:15:09.880 --> 01:15:17.320
+carico capacitivo non sono in grado di
+
+1761
+01:15:12.960 --> 01:15:19.960
+generare eh lavoro. il lavoro, parlando
+
+1762
+01:15:17.320 --> 01:15:22.400
+di carico, parlando di un carico,
+
+1763
+01:15:19.960 --> 01:15:26.199
+diciamo, complesso come può essere
+
+1764
+01:15:22.400 --> 01:15:29.719
+questo, in cui c'è una R, una L e una C,
+
+1765
+01:15:26.199 --> 01:15:32.440
+eh viene in qualche modo erogato
+
+1766
+01:15:29.719 --> 01:15:34.159
+solamente dalla parte resistiva del
+
+1767
+01:15:32.440 --> 01:15:36.960
+carico e questo è il concetto
+
+1768
+01:15:34.159 --> 01:15:38.760
+fondamentale di di stasera. Torno
+
+1769
+01:15:36.960 --> 01:15:41.000
+all'esempio che facevamo prima
+
+1770
+01:15:38.760 --> 01:15:44.600
+dell'antenna. Qui si diceva che questo
+
+1771
+01:15:41.000 --> 01:15:46.280
+50 + G15
+
+1772
+01:15:44.600 --> 01:15:48.560
+eh può essere tranquillamente
+
+1773
+01:15:46.280 --> 01:15:52.040
+l'impedenza di un'antenna dove c'è una
+
+1774
+01:15:48.560 --> 01:15:56.880
+parte reale reale in via 50 ohm e una
+
+1775
+01:15:52.040 --> 01:15:56.880
+parte immaginaria il + J15.
+
+1776
+01:15:57.600 --> 01:16:02.360
+L'irradiazione dell'antenna viene fatta
+
+1777
+01:16:00.600 --> 01:16:05.280
+solamente da questa parte
+
+1778
+01:16:02.360 --> 01:16:08.360
+dell'impedenza, dai 50 ohm. Questo è un
+
+1779
+01:16:05.280 --> 01:16:10.159
+parametro parassita che non che non
+
+1780
+01:16:08.360 --> 01:16:12.560
+serve a niente, non contribuisce
+
+1781
+01:16:10.159 --> 01:16:15.199
+assolutamente all'irantenna,
+
+1782
+01:16:12.560 --> 01:16:18.080
+anzi per certi versi può essere dannoso
+
+1783
+01:16:15.199 --> 01:16:20.440
+e ne lo vedremo in maniera in maniera in
+
+1784
+01:16:18.080 --> 01:16:22.639
+maniera poi specifica quando parleremo
+
+1785
+01:16:20.440 --> 01:16:25.639
+quando parlerete delle antenne, però
+
+1786
+01:16:22.639 --> 01:16:29.239
+diciamo il lavoro dell'antenna viene
+
+1787
+01:16:25.639 --> 01:16:31.679
+fatto solo dall'a parte resistiva ed è
+
+1788
+01:16:29.239 --> 01:16:34.840
+così in tutte le utenze elettriche.
+
+1789
+01:16:31.679 --> 01:16:38.520
+quello, diciamo, nei nei nei vari
+
+1790
+01:16:34.840 --> 01:16:40.239
+carichi che avete in casa vostra, tutto
+
+1791
+01:16:38.520 --> 01:16:44.239
+il lavoro di cui siete in qualche modo
+
+1792
+01:16:40.239 --> 01:16:47.440
+beneficiari viene eh realizzato
+
+1793
+01:16:44.239 --> 01:16:50.159
+dalla parte reale, cioè dalla parte
+
+1794
+01:16:47.440 --> 01:16:52.360
+resistiva di quei carichi. Mi fermo un
+
+1795
+01:16:50.159 --> 01:16:55.280
+attimo, ho visto che c'erano un paio di
+
+1796
+01:16:52.360 --> 01:16:56.840
+di mani alzate prima di andare avanti.
+
+1797
+01:16:55.280 --> 01:16:58.800
+Comunque questo è l'ultimo concetto di
+
+1798
+01:16:56.840 --> 01:17:00.480
+stasera. Ora ne ne riparliamo anche in
+
+1799
+01:16:58.800 --> 01:17:02.159
+maniera un po' più precisa, però intanto
+
+1800
+01:17:00.480 --> 01:17:04.159
+se ci sono domande ne parlo volentieri.
+
+1801
+01:17:02.159 --> 01:17:07.239
+Matteo, a te.
+
+1802
+01:17:04.159 --> 01:17:09.840
+>> Ciao, buonasera a tutti. Allora, ehm,
+
+1803
+01:17:07.239 --> 01:17:13.159
+una cosa che m'ha fatto un attimo
+
+1804
+01:17:09.840 --> 01:17:15.280
+pensare, siè detto che intanto
+
+1805
+01:17:13.159 --> 01:17:19.920
+l'impedenza
+
+1806
+01:17:15.280 --> 01:17:21.280
+eh è relativa a tre carichi, a tre
+
+1807
+01:17:19.920 --> 01:17:24.760
+carichi, non la resistenza,
+
+1808
+01:17:21.280 --> 01:17:27.480
+all'induttore e il condensatore. devono
+
+1809
+01:17:24.760 --> 01:17:30.040
+essere necessariamente un 1 o sono solo
+
+1810
+01:17:27.480 --> 01:17:32.920
+rappresentanze
+
+1811
+01:17:30.040 --> 01:17:34.679
+di eh cioè ci deve essere
+
+1812
+01:17:32.920 --> 01:17:36.800
+necessariamente
+
+1813
+01:17:34.679 --> 01:17:38.719
+un condensatore,
+
+1814
+01:17:36.800 --> 01:17:41.080
+una resistenza,
+
+1815
+01:17:38.719 --> 01:17:43.040
+ehm
+
+1816
+01:17:41.080 --> 01:17:44.800
+>> e un indore. Induttore,
+
+1817
+01:17:43.040 --> 01:17:48.280
+>> eh
+
+1818
+01:17:44.800 --> 01:17:50.960
+sì e contemporaneamente no. Diciamo che
+
+1819
+01:17:48.280 --> 01:17:53.719
+mh Allora, qui si sta parlando di cose
+
+1820
+01:17:50.960 --> 01:17:56.120
+che generano un lavoro. Allora, quelle
+
+1821
+01:17:53.719 --> 01:17:59.719
+quei tre componenti possono essere tre
+
+1822
+01:17:56.120 --> 01:18:01.560
+componenti reali, quindi io ho, diciamo,
+
+1823
+01:17:59.719 --> 01:18:03.960
+sul mio tavolo una resistenza, un
+
+1824
+01:18:01.560 --> 01:18:06.239
+condensatore, un induttore, li collego
+
+1825
+01:18:03.960 --> 01:18:08.600
+in serie e ottiene quella cosa che
+
+1826
+01:18:06.239 --> 01:18:11.000
+quella e si ottiene quel carico di cui
+
+1827
+01:18:08.600 --> 01:18:15.600
+stiamo parlando stasera. Sì,
+
+1828
+01:18:11.000 --> 01:18:18.120
+>> però molte volte, diciamo, nel mondo,
+
+1829
+01:18:15.600 --> 01:18:21.159
+diciamo, reale, eh, più elettrico che
+
+1830
+01:18:18.120 --> 01:18:22.840
+elettronico, quelle tre cose sono
+
+1831
+01:18:21.159 --> 01:18:26.199
+componenti
+
+1832
+01:18:22.840 --> 01:18:27.400
+di un unico oggetto. Per esempio, eh tu
+
+1833
+01:18:26.199 --> 01:18:29.120
+hai in cucina un frigorifero,
+
+1834
+01:18:27.400 --> 01:18:31.080
+congelatore
+
+1835
+01:18:29.120 --> 01:18:33.560
+e allora in quel frigorifero c'è un
+
+1836
+01:18:31.080 --> 01:18:36.880
+motore che muove il compressore. Questo
+
+1837
+01:18:33.560 --> 01:18:39.360
+motore presenta alla rete una componente
+
+1838
+01:18:36.880 --> 01:18:41.679
+resistiva che è quella che fa il lavoro
+
+1839
+01:18:39.360 --> 01:18:43.360
+e contemporaneamente al suo interno ha
+
+1840
+01:18:41.679 --> 01:18:45.560
+sicuramente una forte componente
+
+1841
+01:18:43.360 --> 01:18:47.520
+induttiva perché i motori sono fatti
+
+1842
+01:18:45.560 --> 01:18:49.280
+praticamente tutti di avvolgimenti, no?
+
+1843
+01:18:47.520 --> 01:18:49.639
+Quindi di spirali di filo,
+
+1844
+01:18:49.280 --> 01:18:51.440
+>> sì.
+
+1845
+01:18:49.639 --> 01:18:55.600
+>> E ha sicuramente al suo interno una
+
+1846
+01:18:51.440 --> 01:18:58.560
+componente capacitiva piccola.
+
+1847
+01:18:55.600 --> 01:19:02.080
+Queste componenti reattive, le induttive
+
+1848
+01:18:58.560 --> 01:19:04.840
+e la capacitiva, come ho detto prima, si
+
+1849
+01:19:02.080 --> 01:19:07.000
+sommano fra loro algebricamente. Quindi
+
+1850
+01:19:04.840 --> 01:19:09.280
+la componente capacitiva, che è piccola,
+
+1851
+01:19:07.000 --> 01:19:12.000
+va a sottrarsi un po' dalla componente
+
+1852
+01:19:09.280 --> 01:19:14.159
+indottiva, ma il motore di quel
+
+1853
+01:19:12.000 --> 01:19:17.880
+frigorifero congelatore resta
+
+1854
+01:19:14.159 --> 01:19:19.880
+essenzialmente eh indottivo. Quindi, se
+
+1855
+01:19:17.880 --> 01:19:22.760
+lo misurassi con un opportuno strumento,
+
+1856
+01:19:19.880 --> 01:19:24.480
+con un impedensimetro, troverei un
+
+1857
+01:19:22.760 --> 01:19:26.639
+troverei una parte reale, che è quella
+
+1858
+01:19:24.480 --> 01:19:30.600
+che fa il lavoro, e una parte
+
+1859
+01:19:26.639 --> 01:19:34.199
+immaginaria che è quella induttiva che
+
+1860
+01:19:30.600 --> 01:19:36.440
+deriva dagli avvolgimenti del motore in
+
+1861
+01:19:34.199 --> 01:19:38.199
+parte compensati da quel po' di capacità
+
+1862
+01:19:36.440 --> 01:19:41.679
+che c'è. Mh.
+
+1863
+01:19:38.199 --> 01:19:44.040
+>> Ok. Quindi sono carichi eh logici,
+
+1864
+01:19:41.679 --> 01:19:46.239
+diciamo così, che possono rappresentare
+
+1865
+01:19:44.040 --> 01:19:50.600
+>> Esattamente. Esattamente. Poi arriva
+
+1866
+01:19:46.239 --> 01:19:52.560
+arriva mamma Enel e mi dice attenzione,
+
+1867
+01:19:50.600 --> 01:19:54.320
+allora questa cosa che dico lo sto
+
+1868
+01:19:52.560 --> 01:19:56.679
+dicendo ora in risposta a Francesco,
+
+1869
+01:19:54.320 --> 01:19:58.800
+però è una cosa generale che poi sarà
+
+1870
+01:19:56.679 --> 01:20:02.120
+nelle prossime due slide che vedremo.
+
+1871
+01:19:58.800 --> 01:20:04.639
+Arriva Lenel e e dice attenzione, se tu
+
+1872
+01:20:02.120 --> 01:20:06.920
+mi dai dei carichi troppo induttivi, io
+
+1873
+01:20:04.639 --> 01:20:10.000
+ti faccio la multa. Io non voglio
+
+1874
+01:20:06.920 --> 01:20:12.600
+carichi induttivi proprio perché eh il
+
+1875
+01:20:10.000 --> 01:20:14.960
+fattore di induttanza che c'è nei
+
+1876
+01:20:12.600 --> 01:20:17.120
+carichi elettrici crea delle correnti
+
+1877
+01:20:14.960 --> 01:20:19.880
+parassite di linea che l'en vuole tenere
+
+1878
+01:20:17.120 --> 01:20:24.320
+sotto un certo livello.
+
+1879
+01:20:19.880 --> 01:20:25.920
+E allora, siccome queste, diciamo, la
+
+1880
+01:20:24.320 --> 01:20:29.600
+maggior parte dei carichi sono
+
+1881
+01:20:25.920 --> 01:20:31.440
+induttivi, normalmente nelle macchine un
+
+1882
+01:20:29.600 --> 01:20:34.000
+po' grosse vengono inseriti
+
+1883
+01:20:31.440 --> 01:20:36.320
+appositamente dei condensatori che hanno
+
+1884
+01:20:34.000 --> 01:20:38.639
+come unico scopo quello, come si dice,
+
+1885
+01:20:36.320 --> 01:20:39.120
+di rifasare il carico, cioè il
+
+1886
+01:20:38.639 --> 01:20:41.719
+condensatore
+
+1887
+01:20:39.120 --> 01:20:44.400
+>> e di assorbire. Bravo, bravo.
+
+1888
+01:20:41.719 --> 01:20:46.840
+>> Perché questa era l'altra domanda, se
+
+1889
+01:20:44.400 --> 01:20:49.120
+posso, e nel disegno abbiamo messo la
+
+1890
+01:20:46.840 --> 01:20:52.520
+resistenza all'inizio che ha la corrente
+
+1891
+01:20:49.120 --> 01:20:54.480
+e la tensione in fase. Eh, poi dopo
+
+1892
+01:20:52.520 --> 01:20:56.400
+abbiamo messo o un condensatore o un
+
+1893
+01:20:54.480 --> 01:20:59.480
+induttore, quindi sono intercambiabili
+
+1894
+01:20:56.400 --> 01:21:00.360
+che sfasano la corrente e la tensione.
+
+1895
+01:20:59.480 --> 01:21:01.840
+>> Sì.
+
+1896
+01:21:00.360 --> 01:21:04.639
+>> Se a quel punto metto un'altra
+
+1897
+01:21:01.840 --> 01:21:07.360
+resistenza, la corrente che entra in
+
+1898
+01:21:04.639 --> 01:21:09.280
+quella resistenza è sfasata. Vuol dire
+
+1899
+01:21:07.360 --> 01:21:12.280
+che la resistenza non sta facendo un
+
+1900
+01:21:09.280 --> 01:21:12.280
+lavoro.
+
+1901
+01:21:12.440 --> 01:21:17.920
+>> Allora, nella resistenza la tensione e
+
+1902
+01:21:14.480 --> 01:21:20.800
+la corrente sono sono sempre in fase. La
+
+1903
+01:21:17.920 --> 01:21:22.320
+parte di scusami, la parte di sfasamento
+
+1904
+01:21:20.800 --> 01:21:24.600
+si palleggia fra induttore e
+
+1905
+01:21:22.320 --> 01:21:26.920
+condensatore. Si palleggia fra induttore
+
+1906
+01:21:24.600 --> 01:21:29.960
+e condensatore. Ok. Però se io ho un
+
+1907
+01:21:26.920 --> 01:21:32.080
+condensatore, condensatore mi sfasa la
+
+1908
+01:21:29.960 --> 01:21:34.400
+corrente, la sfasa solo all'interno del
+
+1909
+01:21:32.080 --> 01:21:37.280
+condensatore o quando anche quando esce
+
+1910
+01:21:34.400 --> 01:21:39.280
+dal condensatore è fuori fase?
+
+1911
+01:21:37.280 --> 01:21:41.239
+>> Eh, anche quando esce dal condensatore è
+
+1912
+01:21:39.280 --> 01:21:43.360
+fuori fase. Poi allora poi ti faccio
+
+1913
+01:21:41.239 --> 01:21:45.080
+vedere
+
+1914
+01:21:43.360 --> 01:21:46.880
+dammi un attimo e ti faccio vedere uno
+
+1915
+01:21:45.080 --> 01:21:48.760
+slide. D'accordo? Perfetto. D'accordo.
+
+1916
+01:21:46.880 --> 01:21:52.120
+>> Fammi sentire altre domande.
+
+1917
+01:21:48.760 --> 01:21:52.120
+>> Luca, a te.
+
+1918
+01:21:52.520 --> 01:21:59.360
+>> Sì, è una cosa velocissima, eh. Riguardo
+
+1919
+01:21:55.960 --> 01:22:01.920
+al discorso dell'antenna di primo,
+
+1920
+01:21:59.360 --> 01:22:03.520
+quella componente immagin quei 15 che
+
+1921
+01:22:01.920 --> 01:22:06.480
+erano immaginari, no? Più o meno
+
+1922
+01:22:03.520 --> 01:22:10.440
+com'era, sarebbero
+
+1923
+01:22:06.480 --> 01:22:13.320
+m per a grandi linee sarebbe il Ross del
+
+1924
+01:22:10.440 --> 01:22:16.520
+dell'antenna?
+
+1925
+01:22:13.320 --> 01:22:19.040
+No, il Ross è un altro tipo di misura.
+
+1926
+01:22:16.520 --> 01:22:22.440
+Eh,
+
+1927
+01:22:19.040 --> 01:22:25.000
+quella parte immaginaria è una, in quel
+
+1928
+01:22:22.440 --> 01:22:27.159
+caso lì, un'induttanza che l'antenna ha
+
+1929
+01:22:25.000 --> 01:22:29.040
+e che andrebbe compensata o tramite un
+
+1930
+01:22:27.159 --> 01:22:33.440
+accordatore d'antenna o agendo
+
+1931
+01:22:29.040 --> 01:22:34.960
+fisicamente sull'antenna stessa.
+
+1932
+01:22:33.440 --> 01:22:37.600
+Ok?
+
+1933
+01:22:34.960 --> 01:22:39.520
+Perché un'antenna,
+
+1934
+01:22:37.600 --> 01:22:42.120
+>> scusa, non t'ho sentito.
+
+1935
+01:22:39.520 --> 01:22:42.560
+>> In che modo?
+
+1936
+01:22:42.120 --> 01:22:44.239
+eh
+
+1937
+01:22:42.560 --> 01:22:46.159
+>> facendo sull'antenna
+
+1938
+01:22:44.239 --> 01:22:49.159
+>> e per esempio inserendo un condensatore
+
+1939
+01:22:46.159 --> 01:22:49.159
+sull'antenna
+
+1940
+01:22:49.760 --> 01:22:53.440
+se c'è da compensare una parte
+
+1941
+01:22:51.280 --> 01:22:55.719
+induttiva.
+
+1942
+01:22:53.440 --> 01:22:58.159
+In effetti, come vedremo, come vedrete
+
+1943
+01:22:55.719 --> 01:23:01.639
+poi quando si farà le antenne, molte
+
+1944
+01:22:58.159 --> 01:23:04.320
+antenne hanno delle compensazioni di
+
+1945
+01:23:01.639 --> 01:23:06.159
+quel tipo inserite proprio
+
+1946
+01:23:04.320 --> 01:23:07.840
+meccanicamente sulle antenne. A volte
+
+1947
+01:23:06.159 --> 01:23:10.639
+sulle antenne si vedono dei pezzetti di
+
+1948
+01:23:07.840 --> 01:23:12.560
+alluminio, magari sagomati a u che non
+
+1949
+01:23:10.639 --> 01:23:14.280
+si capisce bene che cosa si facciano.
+
+1950
+01:23:12.560 --> 01:23:17.639
+Fanno esattamente questo lavoro di cui
+
+1951
+01:23:14.280 --> 01:23:20.960
+stiamo parlando ora.
+
+1952
+01:23:17.639 --> 01:23:23.239
+>> Ok, grazie. E ci arriviamo, ci
+
+1953
+01:23:20.960 --> 01:23:25.400
+arriviamo.
+
+1954
+01:23:23.239 --> 01:23:26.920
+Allora, vi faccio
+
+1955
+01:23:25.400 --> 01:23:31.560
+riprendendo,
+
+1956
+01:23:26.920 --> 01:23:35.000
+aspetta, eh, metto in condivisione,
+
+1957
+01:23:31.560 --> 01:23:38.000
+metto dentro anche l'ultimo pezzetto di
+
+1958
+01:23:35.000 --> 01:23:38.000
+stasera
+
+1959
+01:23:43.440 --> 01:23:50.159
+e siamo qua. Allora,
+
+1960
+01:23:47.760 --> 01:23:52.560
+cosa cosa si è detto? Allora, in questa
+
+1961
+01:23:50.159 --> 01:23:54.560
+slide avete un riassunto del discorso
+
+1962
+01:23:52.560 --> 01:23:57.679
+fatto finora,
+
+1963
+01:23:54.560 --> 01:24:01.159
+quindi la potenza in corrente alternata.
+
+1964
+01:23:57.679 --> 01:24:04.000
+Un attimo che non ritrovo.
+
+1965
+01:24:01.159 --> 01:24:06.880
+Eccolo qua. Cavo
+
+1966
+01:24:04.000 --> 01:24:08.719
+il cursore è molto piccolo su questo
+
+1967
+01:24:06.880 --> 01:24:12.120
+monitor e allora per ritrovarlo mi
+
+1968
+01:24:08.719 --> 01:24:15.239
+servono sempre. Allora, qui avete il
+
+1969
+01:24:12.120 --> 01:24:17.360
+circuito di cui si parlava prima, no?
+
+1970
+01:24:15.239 --> 01:24:19.199
+RLC in serie. In questo circuito
+
+1971
+01:24:17.360 --> 01:24:22.600
+tensione e corrente di solito non sono
+
+1972
+01:24:19.199 --> 01:24:24.920
+in fase. Quindi cosa succede? Allora, il
+
+1973
+01:24:22.600 --> 01:24:26.400
+generatore Il generatore è questo qua.
+
+1974
+01:24:24.920 --> 01:24:28.520
+Per loro ho fatto esempi Enel.
+
+1975
+01:24:26.400 --> 01:24:32.400
+Immaginiamo che questo sia un generatore
+
+1976
+01:24:28.520 --> 01:24:35.679
+50 Hz dell'Emel. Il generatore è di una
+
+1977
+01:24:32.400 --> 01:24:38.800
+tensione V 220 V
+
+1978
+01:24:35.679 --> 01:24:42.960
+e ero una corrente I che io posso
+
+1979
+01:24:38.800 --> 01:24:46.040
+misurare. Però questa cor questa
+
+1980
+01:24:42.960 --> 01:24:48.280
+corrente e questa tensione non sono in
+
+1981
+01:24:46.040 --> 01:24:50.719
+fase per i motivi che si è detto prima
+
+1982
+01:24:48.280 --> 01:24:52.679
+quando parlavo col vostro collega.
+
+1983
+01:24:50.719 --> 01:24:55.400
+Quindi la potenza che il generatore
+
+1984
+01:24:52.679 --> 01:24:59.880
+eroga in questo tipo di situazione è
+
+1985
+01:24:55.400 --> 01:24:59.880
+chiamata potenza apparente.
+
+1986
+01:25:00.639 --> 01:25:06.239
+Vale V * I dove V è 220 e I potrebbe
+
+1987
+01:25:04.159 --> 01:25:07.960
+essere 1 amp
+
+1988
+01:25:06.239 --> 01:25:09.719
+assorbito da questo carico dal
+
+1989
+01:25:07.960 --> 01:25:13.040
+frigorifero di cui si stava parlando
+
+1990
+01:25:09.719 --> 01:25:15.920
+prima e questa potenza apparente la si
+
+1991
+01:25:13.040 --> 01:25:18.520
+misura in voltampe. Qualcuno di voi
+
+1992
+01:25:15.920 --> 01:25:21.679
+probabilmente ha sentito questa unità di
+
+1993
+01:25:18.520 --> 01:25:25.320
+misura volt ampere. non watt, volt
+
+1994
+01:25:21.679 --> 01:25:29.119
+ampere. Nella resistenza, in questa
+
+1995
+01:25:25.320 --> 01:25:31.119
+parte qua di resistenza, come vi dicevo
+
+1996
+01:25:29.119 --> 01:25:32.639
+prima, sulla resistenza tensione e
+
+1997
+01:25:31.119 --> 01:25:34.480
+corrente sono in fase, quindi la
+
+1998
+01:25:32.639 --> 01:25:36.400
+resistenza assorbe quella che è chiamata
+
+1999
+01:25:34.480 --> 01:25:40.159
+potenza attiva.
+
+2000
+01:25:36.400 --> 01:25:44.239
+Posso calcolare sulla resistenza R qu
+
+2001
+01:25:40.159 --> 01:25:46.360
+watt e sulla resistenza la la potenza
+
+2002
+01:25:44.239 --> 01:25:50.880
+dissipata da quella resistenza si chiama
+
+2003
+01:25:46.360 --> 01:25:53.360
+potenza attiva e produce lavoro.
+
+2004
+01:25:50.880 --> 01:25:54.840
+Nel condensatore e nell'induttore, come
+
+2005
+01:25:53.360 --> 01:25:56.480
+potete leggere qua sotto, no? Le
+
+2006
+01:25:54.840 --> 01:25:59.360
+tensioni delle correnti, come sapete,
+
+2007
+01:25:56.480 --> 01:26:02.159
+sono sfasate di 90°, si dice sono in
+
+2008
+01:25:59.360 --> 01:26:05.400
+quadratura. Quindi questi assorbono solo
+
+2009
+01:26:02.159 --> 01:26:08.400
+potenza reattiva,
+
+2010
+01:26:05.400 --> 01:26:10.880
+come leggete qua. E questa potenza
+
+2011
+01:26:08.400 --> 01:26:16.560
+reattiva
+
+2012
+01:26:10.880 --> 01:26:18.960
+è x, la formula è eh x * il quadro, che
+
+2013
+01:26:16.560 --> 01:26:21.159
+è la stessa formula della potenza usata
+
+2014
+01:26:18.960 --> 01:26:25.400
+prima, no? Solamente invece di R della
+
+2015
+01:26:21.159 --> 01:26:29.520
+resistenza c'è X, non c'è R qu, ma c'è X
+
+2016
+01:26:25.400 --> 01:26:32.199
+e I qu e questa potenza
+
+2017
+01:26:29.520 --> 01:26:35.719
+e questi sono chiamati VAR, voltampere
+
+2018
+01:26:32.199 --> 01:26:38.600
+reattivi. Voltampere reattivi.
+
+2019
+01:26:35.719 --> 01:26:40.920
+In pratica cosa succede?
+
+2020
+01:26:38.600 --> 01:26:43.840
+E questo schema, diciamo, rimette
+
+2021
+01:26:40.920 --> 01:26:46.600
+insieme tutti tutti i pezzi e lo si qui
+
+2022
+01:26:43.840 --> 01:26:48.960
+lo si vede anche tenendo conto delle
+
+2023
+01:26:46.600 --> 01:26:52.800
+sfasature di cui si parlava prima.
+
+2024
+01:26:48.960 --> 01:26:55.119
+Allora, questa Q
+
+2025
+01:26:52.800 --> 01:26:56.960
+questa freccia qui che vedete in questa
+
+2026
+01:26:55.119 --> 01:26:59.320
+in questo rettangolo, questa freccia
+
+2027
+01:26:56.960 --> 01:27:02.480
+rossa che sto trapeggiando è la tensione
+
+2028
+01:26:59.320 --> 01:27:02.480
+del generatore
+
+2029
+01:27:02.960 --> 01:27:08.000
+e il circuito complessivamente
+
+2030
+01:27:05.719 --> 01:27:10.880
+nel circuito complessivamente scorre
+
+2031
+01:27:08.000 --> 01:27:14.520
+questa corrente qua,
+
+2032
+01:27:10.880 --> 01:27:16.880
+la diagonale di questo rettangolo
+
+2033
+01:27:14.520 --> 01:27:18.800
+e a causa dello sfasamento fra corrente
+
+2034
+01:27:16.880 --> 01:27:20.920
+e tensione questa
+
+2035
+01:27:18.800 --> 01:27:24.679
+La corrente che scorre nel mio circuito
+
+2036
+01:27:20.920 --> 01:27:27.159
+sarà sfasata di un certo grado, di di un
+
+2037
+01:27:24.679 --> 01:27:30.280
+certo angolo che è chiamato F in questo
+
+2038
+01:27:27.159 --> 01:27:32.280
+in questo schema rispetto alla tensione.
+
+2039
+01:27:30.280 --> 01:27:35.600
+Quindi la tensione e la corrente
+
+2040
+01:27:32.280 --> 01:27:37.639
+complessivamente non sono in fase.
+
+2041
+01:27:35.600 --> 01:27:40.520
+Allora,
+
+2042
+01:27:37.639 --> 01:27:43.440
+questo valore di V per questo valore di
+
+2043
+01:27:40.520 --> 01:27:45.199
+I è chiamato potenza apparente, quindi è
+
+2044
+01:27:43.440 --> 01:27:48.920
+quello che si legge strumentalmente
+
+2045
+01:27:45.199 --> 01:27:52.000
+sapendo che V che è 220 V e che I posso
+
+2046
+01:27:48.920 --> 01:27:54.159
+posso misurare questo questo valore e
+
+2047
+01:27:52.000 --> 01:27:56.239
+diciamo ottengo questo numero di
+
+2048
+01:27:54.159 --> 01:28:00.080
+voltampere potenza apparente. Però
+
+2049
+01:27:56.239 --> 01:28:02.560
+questa potenza apparente non è eh non
+
+2050
+01:28:00.080 --> 01:28:04.600
+equivale al lavoro che mi sta generando
+
+2051
+01:28:02.560 --> 01:28:07.040
+la mia la mia macchina. Il lavoro che mi
+
+2052
+01:28:04.600 --> 01:28:08.880
+sta generando la mia macchina è quello
+
+2053
+01:28:07.040 --> 01:28:10.400
+che prima abbiamo chiamato la potenza
+
+2054
+01:28:08.880 --> 01:28:15.000
+attiva
+
+2055
+01:28:10.400 --> 01:28:17.639
+e la potenza attiva è il prodotto fra la
+
+2056
+01:28:15.000 --> 01:28:19.199
+tensione del mio generatore, questa V
+
+2057
+01:28:17.639 --> 01:28:22.480
+qua,
+
+2058
+01:28:19.199 --> 01:28:25.159
+e la componente di questa corrente I che
+
+2059
+01:28:22.480 --> 01:28:28.199
+è in fase con la V del generatore.
+
+2060
+01:28:25.159 --> 01:28:31.199
+Allora, io posso, aspetta un attimo,
+
+2061
+01:28:28.199 --> 01:28:31.199
+tolgo
+
+2062
+01:28:32.320 --> 01:28:41.560
+i segni che ho fatto fino a ora. Io
+
+2063
+01:28:36.080 --> 01:28:41.560
+posso scomporre questa questa corrente,
+
+2064
+01:28:44.080 --> 01:28:50.480
+posso scomporre questa corrente I
+
+2065
+01:28:47.400 --> 01:28:54.239
+globale, diciamo, eh di tutto il
+
+2066
+01:28:50.480 --> 01:28:57.360
+circuito in due parti. in questa parte
+
+2067
+01:28:54.239 --> 01:28:59.760
+qua che è quella in fase rispetto alla
+
+2068
+01:28:57.360 --> 01:29:02.679
+tensione e in questa parte qua che è
+
+2069
+01:28:59.760 --> 01:29:04.760
+quella suasata di 90° rispetto alla
+
+2070
+01:29:02.679 --> 01:29:06.480
+tensione.
+
+2071
+01:29:04.760 --> 01:29:09.360
+Quindi
+
+2072
+01:29:06.480 --> 01:29:11.199
+la mia potenza attiva e questa è
+
+2073
+01:29:09.360 --> 01:29:12.719
+un'operazione che si fa con queste
+
+2074
+01:29:11.199 --> 01:29:15.840
+frecce, equivale a un teorema di
+
+2075
+01:29:12.719 --> 01:29:18.719
+Pitagora di fatto è la scomposizione di
+
+2076
+01:29:15.840 --> 01:29:21.159
+un vettore, parlando appunto
+
+2077
+01:29:18.719 --> 01:29:24.679
+matematicamente il il vettore i della
+
+2078
+01:29:21.159 --> 01:29:27.600
+corrente lungo e i miei due assi di
+
+2079
+01:29:24.679 --> 01:29:30.679
+interesse. I miei due assi sono uno
+
+2080
+01:29:27.600 --> 01:29:33.800
+quello e su cui c'è la tensione e
+
+2081
+01:29:30.679 --> 01:29:36.239
+l'altro è quello a 90° rispetto alla
+
+2082
+01:29:33.800 --> 01:29:39.280
+tensione, quello ortogonale a 90°
+
+2083
+01:29:36.239 --> 01:29:42.639
+rispetto alla tensione.
+
+2084
+01:29:39.280 --> 01:29:45.600
+diciamo nel quindi questo valore di
+
+2085
+01:29:42.639 --> 01:29:49.560
+corrente I che ho quassù può essere
+
+2086
+01:29:45.600 --> 01:29:52.719
+scritto come la somma vettoriale
+
+2087
+01:29:49.560 --> 01:29:56.239
+i I, questa che è chiamata IF, cioè la
+
+2088
+01:29:52.719 --> 01:30:01.040
+corrente che è in fase
+
+2089
+01:29:56.239 --> 01:30:01.040
+rispetto alla tensione + IQ
+
+2090
+01:30:05.040 --> 01:30:09.639
+che è la corrente che a causa della
+
+2091
+01:30:07.080 --> 01:30:11.159
+bobina e che il condensatore è in è
+
+2092
+01:30:09.639 --> 01:30:16.440
+inquadratura
+
+2093
+01:30:11.159 --> 01:30:19.199
+rispetto alla mia alla mia tensione.
+
+2094
+01:30:16.440 --> 01:30:22.520
+Eh,
+
+2095
+01:30:19.199 --> 01:30:26.600
+la potenza attiva la potenza attiva che
+
+2096
+01:30:22.520 --> 01:30:31.080
+è quella che ho resistenza, vale V
+
+2097
+01:30:26.600 --> 01:30:33.480
+moltiplicato la corrente che ho in fase.
+
+2098
+01:30:31.080 --> 01:30:35.800
+La potenza
+
+2099
+01:30:33.480 --> 01:30:39.639
+reattiva, che è questa qua, che è quella
+
+2100
+01:30:35.800 --> 01:30:41.679
+che Enel non vorrebbe, è sempre V
+
+2101
+01:30:39.639 --> 01:30:43.280
+moltiplicato IQ, questa che è
+
+2102
+01:30:41.679 --> 01:30:47.040
+inquadratura.
+
+2103
+01:30:43.280 --> 01:30:49.880
+Enel vorrebbe che questa, ma ma anche
+
+2104
+01:30:47.040 --> 01:30:54.800
+noi per le nostre antenne, diciamo, Enel
+
+2105
+01:30:49.880 --> 01:30:54.800
+vorrebbe, tolgo i colori.
+
+2106
+01:30:56.000 --> 01:31:02.760
+Enel vorrebbe che quest'angolo qui fosse
+
+2107
+01:30:59.199 --> 01:31:05.360
+il più vicino possibile,
+
+2108
+01:31:02.760 --> 01:31:07.440
+questo angolo qui F vorrebbe che fosse
+
+2109
+01:31:05.360 --> 01:31:09.880
+il più vicino possibile allo zero, nel
+
+2110
+01:31:07.440 --> 01:31:12.400
+senso che en gradirebbe, ad esempio, una
+
+2111
+01:31:09.880 --> 01:31:14.960
+situazione di questo tipo. invece non
+
+2112
+01:31:12.400 --> 01:31:17.280
+vorrebbe una situazione di questo tipo,
+
+2113
+01:31:14.960 --> 01:31:20.360
+cioè non vorrebbe delle alte componenti
+
+2114
+01:31:17.280 --> 01:31:23.040
+di corrente in quadratura, perché questo
+
+2115
+01:31:20.360 --> 01:31:24.960
+genera una serie di correnti parassite
+
+2116
+01:31:23.040 --> 01:31:26.360
+lungo i cavi elettrici che non si
+
+2117
+01:31:24.960 --> 01:31:29.000
+trasformano in lavoro, no? Invece
+
+2118
+01:31:26.360 --> 01:31:31.280
+l'obiettivo dell'ENER è dati certi casi
+
+2119
+01:31:29.000 --> 01:31:32.800
+elettrici, dato una certa sezione dei
+
+2120
+01:31:31.280 --> 01:31:34.480
+cavi elettrici e quindi una certa
+
+2121
+01:31:32.800 --> 01:31:36.520
+capacità di transito della linea
+
+2122
+01:31:34.480 --> 01:31:38.239
+elettrica, fare in modo che questa
+
+2123
+01:31:36.520 --> 01:31:41.360
+capacità di transito sia tutta
+
+2124
+01:31:38.239 --> 01:31:45.600
+finalizzata a dare lavoro utile, cioè
+
+2125
+01:31:41.360 --> 01:31:45.600
+potenza potenza attiva.
+
+2126
+01:31:45.760 --> 01:31:49.880
+Quando,
+
+2127
+01:31:47.360 --> 01:31:51.520
+scusate, ho perso di nuovo il cursore.
+
+2128
+01:31:49.880 --> 01:31:54.440
+Quando sono in una situazione di questo
+
+2129
+01:31:51.520 --> 01:31:58.199
+genere, di fatto l'Enel mi obbliga a
+
+2130
+01:31:54.440 --> 01:32:00.320
+inserire nel mio dispositivo
+
+2131
+01:31:58.199 --> 01:32:03.080
+delle cose che fanno sì che questa
+
+2132
+01:32:00.320 --> 01:32:05.080
+corrente scenda quaggiù. E questa cosa
+
+2133
+01:32:03.080 --> 01:32:08.520
+tipicamente sono i cosiddetti
+
+2134
+01:32:05.080 --> 01:32:13.560
+condensatori di rifasamento
+
+2135
+01:32:08.520 --> 01:32:15.280
+che eh mangiano una parte di potenza re
+
+2136
+01:32:13.560 --> 01:32:19.360
+pangano una buona parte della potenza
+
+2137
+01:32:15.280 --> 01:32:21.080
+reattiva generata dagli dagli induttori.
+
+2138
+01:32:19.360 --> 01:32:22.639
+Così il mio carico è più in fase,
+
+2139
+01:32:21.080 --> 01:32:24.600
+l'enera è contenta e siamo tutti
+
+2140
+01:32:22.639 --> 01:32:26.239
+contenti, come poi accadrà anche sulle
+
+2141
+01:32:24.600 --> 01:32:31.239
+antenne. sulle antenne dobbiamo fare in
+
+2142
+01:32:26.239 --> 01:32:32.920
+modo che la potenza attiva di fatto che
+
+2143
+01:32:31.239 --> 01:32:35.679
+la potenza apparente di fatto sia uguale
+
+2144
+01:32:32.920 --> 01:32:38.080
+alla potenza attiva, cioè
+
+2145
+01:32:35.679 --> 01:32:40.639
+cioè che quest'angolo F sia di fatto
+
+2146
+01:32:38.080 --> 01:32:44.320
+uguale 0 e la condizione migliore in cui
+
+2147
+01:32:40.639 --> 01:32:44.320
+un'antenna può lavorare
+
+2148
+01:32:45.719 --> 01:32:50.080
+e per ora non ho altro da dire. Quindi
+
+2149
+01:32:48.199 --> 01:32:52.239
+riassumendo, riassumendo, torno un
+
+2150
+01:32:50.080 --> 01:32:53.600
+momento indietro. Allora, abbiamo visto
+
+2151
+01:32:52.239 --> 01:32:57.679
+l'impedenza, abbiamo visto che
+
+2152
+01:32:53.600 --> 01:33:00.280
+l'impedenza è eh il concetto complessivo
+
+2153
+01:32:57.679 --> 01:33:02.600
+che ha dentro di sé la resistenza e
+
+2154
+01:33:00.280 --> 01:33:04.960
+tutte e due le reattanze. Abbiamo visto
+
+2155
+01:33:02.600 --> 01:33:07.560
+che con che l'impedenza può essere usata
+
+2156
+01:33:04.960 --> 01:33:09.920
+con la legge di, quindi la legge biom
+
+2157
+01:33:07.560 --> 01:33:13.199
+pari pari pari in corrente continua e in
+
+2158
+01:33:09.920 --> 01:33:15.760
+corrente alternata. Abbiamo visto che
+
+2159
+01:33:13.199 --> 01:33:19.800
+l'impedenza è fatta da una parte reale.
+
+2160
+01:33:15.760 --> 01:33:22.119
+Reale perché dal perché genera lavoro. È
+
+2161
+01:33:19.800 --> 01:33:24.119
+la parte che tangibilmente mi dà del
+
+2162
+01:33:22.119 --> 01:33:27.119
+risultato. E questa è una parte
+
+2163
+01:33:24.119 --> 01:33:27.119
+immaginaria
+
+2164
+01:33:27.159 --> 01:33:35.560
+perché il questa formula qui che abbiamo
+
+2165
+01:33:31.840 --> 01:33:40.080
+usato per scrivere l'induttanza
+
+2166
+01:33:35.560 --> 01:33:43.040
+è questo segno + J è un'unità che è
+
+2167
+01:33:40.080 --> 01:33:47.159
+chiamata immaginaria. è un'operazione
+
+2168
+01:33:43.040 --> 01:33:49.280
+matematica che in qualche modo eh ci fa
+
+2169
+01:33:47.159 --> 01:33:53.159
+fare in una formula l'equivalente del
+
+2170
+01:33:49.280 --> 01:33:54.719
+teorema di Pitagora che abbiamo visto
+
+2171
+01:33:53.159 --> 01:33:58.560
+qua
+
+2172
+01:33:54.719 --> 01:34:01.600
+e e che ora non diciamo non c'è bisogno
+
+2173
+01:33:58.560 --> 01:34:04.159
+di diciamo di di di conoscere meglio
+
+2174
+01:34:01.600 --> 01:34:09.000
+meglio diciamo meglio di così. Mh,
+
+2175
+01:34:04.159 --> 01:34:11.119
+abbiamo visto che eh
+
+2176
+01:34:09.000 --> 01:34:12.679
+il lavoro il lavoro, quello vero, viene
+
+2177
+01:34:11.119 --> 01:34:18.719
+fatto solo dalla parte di carico
+
+2178
+01:34:12.679 --> 01:34:21.520
+resistivo e che la parte di eh
+
+2179
+01:34:18.719 --> 01:34:24.080
+e che la la corrente che scorre
+
+2180
+01:34:21.520 --> 01:34:26.840
+nell'induttore nel condensatore non
+
+2181
+01:34:24.080 --> 01:34:29.880
+genera lavoro utile. Tant'è che vedete
+
+2182
+01:34:26.840 --> 01:34:32.040
+anche qua, no? eh diciamo
+
+2183
+01:34:29.880 --> 01:34:34.840
+quella la potenza che si può calcolare
+
+2184
+01:34:32.040 --> 01:34:37.080
+per la bobina e per il condensatore
+
+2185
+01:34:34.840 --> 01:34:39.440
+è una potenza di tipo reattivo reattivo
+
+2186
+01:34:37.080 --> 01:34:43.440
+e quindi non produce lavoro, mentre
+
+2187
+01:34:39.440 --> 01:34:46.520
+invece la potenza sulla resistenza R qu
+
+2188
+01:34:43.440 --> 01:34:49.520
+si misura in watt e quello è il lavoro
+
+2189
+01:34:46.520 --> 01:34:49.520
+prodotto.
+
+2190
+01:34:49.719 --> 01:34:54.840
+Questo è uno schema grafico per
+
+2191
+01:34:52.119 --> 01:34:58.360
+ricordare appunto la differenza che c'è
+
+2192
+01:34:54.840 --> 01:35:02.960
+fra le tre potenze. Quindi la potenza
+
+2193
+01:34:58.360 --> 01:35:07.119
+attiva che è quella che interessa a noi,
+
+2194
+01:35:02.960 --> 01:35:07.119
+eccola qua. La potenza attiva
+
+2195
+01:35:07.840 --> 01:35:13.320
+è quella che è data dal prodotto fra la
+
+2196
+01:35:10.199 --> 01:35:16.440
+tensione V
+
+2197
+01:35:13.320 --> 01:35:20.199
+e la parte della corrente
+
+2198
+01:35:16.440 --> 01:35:23.080
+che attraversa il circuito che è
+
+2199
+01:35:20.199 --> 01:35:26.280
+parallela, cioè in fase con la tensione.
+
+2200
+01:35:23.080 --> 01:35:28.760
+Questo if che leggete qua,
+
+2201
+01:35:26.280 --> 01:35:31.119
+la potenza, la parte di corrente che è
+
+2202
+01:35:28.760 --> 01:35:33.719
+in quadratura rispetto alla alla
+
+2203
+01:35:31.119 --> 01:35:37.719
+tensione non genera lavoro. Quindi è una
+
+2204
+01:35:33.719 --> 01:35:41.679
+parte ininfluente, immaginaria
+
+2205
+01:35:37.719 --> 01:35:45.800
+e produce solo potenza reattiva.
+
+2206
+01:35:41.679 --> 01:35:45.800
+Chiaro? Per ora ci sono domande?
+
+2207
+01:35:45.960 --> 01:35:49.719
+Provo un attimo la condivisione.
+
+2208
+01:35:51.159 --> 01:35:54.159
+Ok.
+
+2209
+01:36:02.040 --> 01:36:05.440
+Ci sono domande?
+
+2210
+01:36:05.520 --> 01:36:13.080
+Mentre voi pensate su eventuali domande,
+
+2211
+01:36:08.440 --> 01:36:13.080
+vi faccio vedere ultima cosa.
+
+2212
+01:36:16.000 --> 01:36:19.480
+Le metto in condivisione,
+
+2213
+01:36:19.520 --> 01:36:22.840
+ecco qua.
+
+2214
+01:36:24.920 --> 01:36:30.040
+e vi faccio vedere quello che secondo me
+
+2215
+01:36:27.560 --> 01:36:32.119
+è lo schema più chiaro di tutti per
+
+2216
+01:36:30.040 --> 01:36:33.920
+parlare per comprendere potenza attiva,
+
+2217
+01:36:32.119 --> 01:36:36.239
+potenza reattiva, potenza apparente.
+
+2218
+01:36:33.920 --> 01:36:39.199
+Quando l'ho visto ho detto subito questo
+
+2219
+01:36:36.239 --> 01:36:41.280
+è lo schema che fa per me riassumendo,
+
+2220
+01:36:39.199 --> 01:36:43.560
+diciamo, una volta o l'altra capiterà di
+
+2221
+01:36:41.280 --> 01:36:45.080
+trovarsi, di andare in pizzeria a fare
+
+2222
+01:36:43.560 --> 01:36:46.679
+pizze e birre, roba del genere, a un
+
+2223
+01:36:45.080 --> 01:36:49.760
+certo punto ci facciamo portare delle
+
+2224
+01:36:46.679 --> 01:36:51.159
+birre, eh, ci arriva il bel boccali di
+
+2225
+01:36:49.760 --> 01:36:55.320
+birra.
+
+2226
+01:36:51.159 --> 01:37:01.199
+Il boccale di birra è fatto da, diciamo,
+
+2227
+01:36:55.320 --> 01:37:01.199
+eh una un boccale intero
+
+2228
+01:37:01.239 --> 01:37:05.960
+di soddisfacente birra più schiuma.
+
+2229
+01:37:03.520 --> 01:37:08.119
+Quando ci arriva lo guardiamo e diciamo
+
+2230
+01:37:05.960 --> 01:37:13.520
+ci piace. Quello che noi vediamo nel
+
+2231
+01:37:08.119 --> 01:37:15.560
+boccale intero è la potenza apparente.
+
+2232
+01:37:13.520 --> 01:37:18.080
+D'accordo?
+
+2233
+01:37:15.560 --> 01:37:20.320
+Perché poi nel boccale c'è una parte che
+
+2234
+01:37:18.080 --> 01:37:21.840
+è la potenza reale che è questa ed è la
+
+2235
+01:37:20.320 --> 01:37:23.800
+birra vera e propria che è quella che
+
+2236
+01:37:21.840 --> 01:37:26.080
+poi ci toglie la sede, diciamo così. E
+
+2237
+01:37:23.800 --> 01:37:28.040
+questa è la potenza reale. E poi c'è la
+
+2238
+01:37:26.080 --> 01:37:30.719
+parte di potenza reattiva che è la
+
+2239
+01:37:28.040 --> 01:37:34.880
+schiuma che non produce lavoro, che ci
+
+2240
+01:37:30.719 --> 01:37:37.239
+resta sui baffi per chi ha i baffi e e
+
+2241
+01:37:34.880 --> 01:37:39.040
+però c'è. Mh, questo è un carico
+
+2242
+01:37:37.239 --> 01:37:41.040
+abbastanza buono perché la potenza
+
+2243
+01:37:39.040 --> 01:37:42.400
+reattiva è abbastanza piccola. C'è un
+
+2244
+01:37:41.040 --> 01:37:43.920
+po' di schiuma, ma non ma non
+
+2245
+01:37:42.400 --> 01:37:46.199
+tantissima. Questa birra è stata
+
+2246
+01:37:43.920 --> 01:37:47.840
+spillata bene, diciamo così, e quindi
+
+2247
+01:37:46.199 --> 01:37:50.040
+tutto sommato la potenza reale è
+
+2248
+01:37:47.840 --> 01:37:52.760
+abbastanza alta. Se fosse stata spillata
+
+2249
+01:37:50.040 --> 01:37:54.760
+male con un livello di potenza reattiva
+
+2250
+01:37:52.760 --> 01:37:57.119
+più alta, quindi con tanta schiuma, non
+
+2251
+01:37:54.760 --> 01:37:59.599
+non ci sarebbe piaciuto. Esattamente
+
+2252
+01:37:57.119 --> 01:38:04.159
+come l'Enel, non piace vedere carichi
+
+2253
+01:37:59.599 --> 01:38:07.599
+troppo troppo fuori fase.
+
+2254
+01:38:04.159 --> 01:38:07.599
+Tolgo la condivisioneo.
+
+2255
+01:38:10.480 --> 01:38:14.080
+Ok, ci sono.
+
+2256
+01:38:14.599 --> 01:38:19.400
+Gianfranco, a te.
+
+2257
+01:38:16.560 --> 01:38:21.920
+Chiedo scusa. Ottima. Grazie per il
+
+2258
+01:38:19.400 --> 01:38:23.440
+grafico con la birra perché apprezzo
+
+2259
+01:38:21.920 --> 01:38:25.880
+tantissimo
+
+2260
+01:38:23.440 --> 01:38:29.199
+per tanti motivi. Possiamo tornare
+
+2261
+01:38:25.880 --> 01:38:33.119
+invece a quello meno simpatico, quello
+
+2262
+01:38:29.199 --> 01:38:36.760
+l'ultimo grafico, quello con l'angolo F
+
+2263
+01:38:33.119 --> 01:38:41.560
+e la potenza attiva, potenza apparente e
+
+2264
+01:38:36.760 --> 01:38:41.560
+potenza reattiva. Un secondo solo.
+
+2265
+01:38:41.599 --> 01:38:48.520
+>> Arrivo. Tempi tecnici.
+
+2266
+01:38:45.719 --> 01:38:51.800
+>> Sì, è la slide precedente. Ok, questo.
+
+2267
+01:38:48.520 --> 01:38:53.960
+Quindi, per ottenere la potenza attiva
+
+2268
+01:38:51.800 --> 01:38:57.800
+moltiplico
+
+2269
+01:38:53.960 --> 01:38:59.840
+la eh quindi la potenziativa è data da V
+
+2270
+01:38:57.800 --> 01:39:02.280
+* I f,
+
+2271
+01:38:59.840 --> 01:39:02.280
+>> sì.
+
+2272
+01:39:02.480 --> 01:39:11.239
+Mentre quella eh reattiva
+
+2273
+01:39:06.480 --> 01:39:14.679
+è la eh V*
+
+2274
+01:39:11.239 --> 01:39:18.760
+Sì, no, è I* V
+
+2275
+01:39:14.679 --> 01:39:20.880
+>> anche V * IQ.
+
+2276
+01:39:18.760 --> 01:39:24.840
+>> Esatto.
+
+2277
+01:39:20.880 --> 01:39:27.520
+>> Potenza apparente è il vettore,
+
+2278
+01:39:24.840 --> 01:39:30.239
+>> quindi la il vettore intero V * I. Sì,
+
+2279
+01:39:27.520 --> 01:39:31.719
+esattamente, esattamente.
+
+2280
+01:39:30.239 --> 01:39:35.520
+>> Quindi con i giochini del seno del
+
+2281
+01:39:31.719 --> 01:39:37.599
+coseno si torna al a Pitagora.
+
+2282
+01:39:35.520 --> 01:39:39.599
+>> Esattamente.
+
+2283
+01:39:37.599 --> 01:39:41.639
+Centratissimo. Centratissimo.
+
+2284
+01:39:39.599 --> 01:39:42.800
+>> Tocca tornare indietro di di qualche
+
+2285
+01:39:41.639 --> 01:39:44.639
+anno. Ok.
+
+2286
+01:39:42.800 --> 01:39:48.840
+>> Sì, sì, sì, sì, sì. Però infatti, come
+
+2287
+01:39:44.639 --> 01:39:52.639
+vedete, come vedi, come vedete, eh
+
+2288
+01:39:48.840 --> 01:39:55.440
+il vettore i,
+
+2289
+01:39:52.639 --> 01:39:57.800
+aspetta, rimetto il pennarello,
+
+2290
+01:39:55.440 --> 01:39:59.360
+il vettore i ha questa lunghezza qua,
+
+2291
+01:39:57.800 --> 01:40:01.639
+d'accordo?
+
+2292
+01:39:59.360 --> 01:40:06.199
+Se io misuro
+
+2293
+01:40:01.639 --> 01:40:09.639
+eh con un amperometro il la corrente che
+
+2294
+01:40:06.199 --> 01:40:11.679
+scorre nel mio circuito eh con ogni
+
+2295
+01:40:09.639 --> 01:40:15.360
+probabilità il mio amperometro mi misura
+
+2296
+01:40:11.679 --> 01:40:17.560
+questa I. Quindi se io calcolo I per V
+
+2297
+01:40:15.360 --> 01:40:19.760
+penso che il mio circuito in qualche
+
+2298
+01:40:17.560 --> 01:40:24.239
+modo ehm
+
+2299
+01:40:19.760 --> 01:40:26.199
+renda una potenza I per v. Invece qui si
+
+2300
+01:40:24.239 --> 01:40:27.880
+vede anche graficamente, anche per chi
+
+2301
+01:40:26.199 --> 01:40:29.040
+magari non si ricorda il teorema di
+
+2302
+01:40:27.880 --> 01:40:32.599
+Pitagora.
+
+2303
+01:40:29.040 --> 01:40:35.880
+che la componente D che porta lavoro è
+
+2304
+01:40:32.599 --> 01:40:38.080
+più corta, diciamo, no, del della di
+
+2305
+01:40:35.880 --> 01:40:41.880
+questa diagonale, cioè la componente V
+
+2306
+01:40:38.080 --> 01:40:46.000
+che porta lavoro è questa qua
+
+2307
+01:40:41.880 --> 01:40:49.840
+che non so se se questo vettore quassù
+
+2308
+01:40:46.000 --> 01:40:52.719
+la i quella la diagonale fosse 10 cm,
+
+2309
+01:40:49.840 --> 01:40:56.560
+questa qua secondo me non è più non è
+
+2310
+01:40:52.719 --> 01:40:59.719
+più di 8 cm. Quindi in realtà se questa
+
+2311
+01:40:56.560 --> 01:41:03.040
+è 10 e questo in maniera molto
+
+2312
+01:40:59.719 --> 01:41:06.560
+spannometrica, come si dice, è di 8, se
+
+2313
+01:41:03.040 --> 01:41:08.320
+io volessi sapere quanta potenza genera,
+
+2314
+01:41:06.560 --> 01:41:11.719
+dicembre, il mio motore, se io faccio
+
+2315
+01:41:08.320 --> 01:41:13.639
+220 moltiplicato 10, ottengo un numero
+
+2316
+01:41:11.719 --> 01:41:15.080
+che non è corretto. In realtà in una
+
+2317
+01:41:13.639 --> 01:41:18.360
+situazione di questo genere il mio
+
+2318
+01:41:15.080 --> 01:41:21.199
+motore genererebbe una potenza di 220
+
+2319
+01:41:18.360 --> 01:41:24.840
+moltiplicato 8.
+
+2320
+01:41:21.199 --> 01:41:24.840
+Si torna, vi torna.
+
+2321
+01:41:25.960 --> 01:41:32.560
+Sì, torna
+
+2322
+01:41:27.800 --> 01:41:36.000
+>> perché quest'altra componente qui
+
+2323
+01:41:32.560 --> 01:41:38.480
+eh comunque non genera lavoro,
+
+2324
+01:41:36.000 --> 01:41:41.560
+genera solo sfaszamento e diciamo
+
+2325
+01:41:38.480 --> 01:41:45.560
+corrente che gironzola, diciamo, fra
+
+2326
+01:41:41.560 --> 01:41:49.320
+l'induttore, il condensatore e e l'Enel
+
+2327
+01:41:45.560 --> 01:41:49.320
+e questo poi lo vedremo.
+
+2328
+01:41:49.360 --> 01:41:53.440
+Ti ti torna?
+
+2329
+01:41:51.280 --> 01:41:56.239
+>> Sì, sì. Grazie
+
+2330
+01:41:53.440 --> 01:41:58.520
+>> a te, Tiziano. A te.
+
+2331
+01:41:56.239 --> 01:42:02.000
+>> Sì, per mettere un po' di pace negli
+
+2332
+01:41:58.520 --> 01:42:04.880
+animi, nel contatore dell'Enel
+
+2333
+01:42:02.000 --> 01:42:08.520
+si può premere il tasto e leggere la
+
+2334
+01:42:04.880 --> 01:42:10.000
+potenza reattiva attiva e la potenza
+
+2335
+01:42:08.520 --> 01:42:13.760
+apparente.
+
+2336
+01:42:10.000 --> 01:42:13.760
+>> Esatto, esatto,
+
+2337
+01:42:14.480 --> 01:42:17.599
+esattissimo. Se avete il contatore
+
+2338
+01:42:16.159 --> 01:42:19.639
+elettronico, andate lì. C'è il
+
+2339
+01:42:17.599 --> 01:42:21.639
+pulsantino.
+
+2340
+01:42:19.639 --> 01:42:24.520
+Penso che a tutti quanti sarà venuta la
+
+2341
+01:42:21.639 --> 01:42:27.639
+curiosità di di premerlo. All'inizio ci
+
+2342
+01:42:24.520 --> 01:42:29.440
+sono, scusate
+
+2343
+01:42:27.639 --> 01:42:31.560
+per un po' la condivisione, poi la
+
+2344
+01:42:29.440 --> 01:42:33.239
+rimetto se ci sono altre domande.
+
+2345
+01:42:31.560 --> 01:42:35.480
+All'inizio avete il numero di contratto
+
+2346
+01:42:33.239 --> 01:42:38.800
+eccetera eccetera e poi avete le tre
+
+2347
+01:42:35.480 --> 01:42:40.920
+misure di potenza, come ha ricordato di
+
+2348
+01:42:38.800 --> 01:42:44.880
+chi ha parlato, scusa, su questo?
+
+2349
+01:42:40.920 --> 01:42:46.760
+Tiziano e come come ha ricordato Tiziano
+
+2350
+01:42:44.880 --> 01:42:48.679
+e quindi potete avere un'idea della
+
+2351
+01:42:46.760 --> 01:42:50.400
+quantità di potenza apparente che
+
+2352
+01:42:48.679 --> 01:42:54.880
+generano gli elettrodomestici
+
+2353
+01:42:50.400 --> 01:42:54.880
+sostanzialmente che sono in casa vostra.
+
+2354
+01:42:57.760 --> 01:43:04.119
+Eh,
+
+2355
+01:42:59.880 --> 01:43:04.119
+Gianfranco, avevi alzato la mano?
+
+2356
+01:43:04.320 --> 01:43:08.880
+No, è rimasta in piedi. Chiedo scusa.
+
+2357
+01:43:06.320 --> 01:43:11.800
+>> No, scusa. Niente, niente. Ok, grazie
+
+2358
+01:43:08.880 --> 01:43:14.560
+Tiziano. Ci sono altre domande?
+
+2359
+01:43:11.800 --> 01:43:14.560
+Č.

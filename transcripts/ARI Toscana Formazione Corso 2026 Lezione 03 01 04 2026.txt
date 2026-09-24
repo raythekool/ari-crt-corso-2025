@@ -1,0 +1,1566 @@
+00:00 E stasera parliamo di questa bella cosa
+00:04 qua. Parliamo della corrente alternata.
+00:09 Ok, si vede lo schermo? Tutto a posto?
+00:13 >> Sì,
+00:14 >> sì, sì, per grazie. Quindi, stasera
+00:17 parliamo della corrente alternata e poi,
+00:19 visto che si parla di cose alternate,
+00:21 parliamo anche di onde radio. Mh,
+00:25 allora, intanto cos'è la corrente
+00:27 alternata? Si potrebbe dire in battuta,
+00:29 no? Lo dice la parola stessa. La
+00:31 corrente alternata è una corrente che
+00:34 alterna il senso di scorrimento un certo
+00:37 numero di volte n volte nell'unità di
+00:40 tempo. Nelle prime due lezioni abbiamo
+00:42 parlato di corrente contivina, no? C'era
+00:43 sempre una batteria. La batteria c'ha un
+00:46 polo positivo e c'ha un polo negativo.
+00:48 Quindi la corrente, gli elettroni
+00:49 scorrono sempre dal negativo della
+00:52 batteria verso il positivo. E in una
+00:55 corrente alternata non è così. la
+00:57 corrente cambia verso di scorrimento.
+01:00 Questo perché? Perché la corrente a sua
+01:02 volta è generata da una tensione
+01:06 alternata.
+01:08 Quindi se io vado a vedere per esempio
+01:11 nella presa elettrica che ho in casa
+01:13 portata dove c dove ho una tensione
+01:15 alternata portata dall'Enel, su quella
+01:17 presa non c'è scritto il positivo e il
+01:19 negativo come c'è scritto, diciamo, in
+01:21 una sui terminali di una batteria. Non
+01:24 c'è scritto perché in alternata non
+01:26 esiste un terminale positivo e non
+01:28 esiste un terminale negativo. Esistono
+01:29 due terminali
+01:31 dove il verso della tensione si alterna,
+01:34 cioè per un per una parte di tempo il
+01:37 positivo è uno e per la parte successiva
+01:39 del tempo il positivo è un altro. Il
+01:41 fatto che la tensione si alterni
+01:43 dall'uno all'altro fa sì che la corrente
+01:45 scorra e in due versi, da un terminale
+01:50 all'altro e poi viceversa, diciamo, dal
+01:52 terminale di prima al terminale
+01:54 precedente. Questa tensione alternata è
+01:57 prodotta da degli alternatori, come
+01:58 avevamo detto anche nella prima nella
+02:00 prima lezione. In pratica, se lo vediamo
+02:02 in grafico, la situazione è questa. Noi
+02:05 abbiamo parlato della corrente continua
+02:07 che è quella che vedete qua in rosso. Se
+02:10 vedete in questo grafico queste, scusate
+02:13 se di tanto in tanto mi faccio prendere
+02:15 dalla terminologia matematica, ma faccio
+02:17 un po' per rinfrescarvela e poi poi
+02:18 essere utile perché ste cose le useremo
+02:20 anche in tutte le lezioni future. Vedete
+02:22 qui, questo è un diagramma cartesiano,
+02:24 no? Ci sono due assi, un asse verticale
+02:27 che è questo qua e un asse orizzontale
+02:29 che è questo qua. L'asse orizzontale
+02:31 mostra il tempo. Questo lo chiamavamo
+02:34 quando eravamo a scuola l'asse delle
+02:36 ascisse e l'asse verticale in questo
+02:39 grafico qui mostra la corrente. Questo
+02:41 lo chiamavamo l'asse delle ordinate e
+02:44 quindi noi stiamo vedendo in funzione
+02:46 del tempo che è sull'asse delle ascisse
+02:49 qual è il valore della corrente I quassù
+02:52 l'asse delle ordinate. E vedete che la
+02:54 corrente continua ha, in questo esempio
+02:57 qui, un valore costante.
+02:59 È sempre positivo, sempre positivo. Qua
+03:02 c'è la parte positiva dei numeri, no?
+03:04 Sull'asse delle ordinate. Qua sotto c'è
+03:05 la parte negativa. Invece la tensione
+03:08 alternata e la corrente alternata di
+03:10 conseguenza cambia. Immaginiamo qui
+03:12 c'abbiamo il tempo zero in cui parte la
+03:14 mia sinusoide qui nell'origine degli
+03:17 assi.
+03:18 Per una parte del tempo la mia sinusoide
+03:20 mi fa questo andamento qui, quindi ha
+03:22 una tensione positiva, torna a zero per
+03:24 la parte successiva del tempo fa questa
+03:27 parte qui ed ha un andamento ed ha una
+03:30 tensione negativa, si alterna questa
+03:32 questa corrente. Quindi una corrente
+03:35 alternata, una tensione alternata è che
+03:37 alternano il verso della loro polarità
+03:40 nel tempo.
+03:42 Allora, che si può dire? Come si può
+03:45 misurare una corrente, una tensione
+03:47 alternata? Intanto viene subito vengono
+03:50 subito fuori delle unità di misura che
+03:52 con la continua non avevamo, per esempio
+03:54 la frequenza, cioè noi di una tensione
+03:56 alternata si può dire il numero di volte
+03:59 che si ripete nell'unità di tempo. E
+04:02 questi sono i famosi herz. Gli herz li
+04:04 avete sentiti tutti nominare, no? per
+04:07 esempio la radio 88-108 MHz oppure il
+04:10 baracchino 27 MHz oppure
+04:14 10 kz restando in banda audio. Se io
+04:17 conto semplicemente in un secondo, in un
+04:20 secondo, che è la mia unità di tempo,
+04:25 quante volte la mia corrente o la mia
+04:28 tensione cambia di segno, ottengo gli
+04:31 herz. Gli herz sono il numero de cicli
+04:33 nell'unità di tempo. Immaginiamo che ora
+04:35 questa parte da qui, se l'unità di tempo
+04:37 fosse questa,
+04:41 questa tensione farebbe un ciclo
+04:43 partendo da qui, arrivando qua, poi qui
+04:45 fa un secondo ciclo, poi fa un terzo
+04:48 ciclo, 1/4
+04:51 e arriva qui 1/4 e me quindi questa
+04:55 tensione avrebbe una frequenza di 4,5
+04:58 Hz. semplicemente conto il numero di
+05:01 cicli. Quindi, non so, se io trasmetto
+05:04 appunto a 27.125
+05:07 MHz in banda cittadina, il trasmettitore
+05:10 alla sua uscita mi genera un soide che
+05:13 per 27.200.000
+05:15 1000 Hz volt cambia la sua polarità,
+05:18 quindi la frequenza è il numero di cicli
+05:21 al secondo.
+05:24 E poi posso di una tensione alternata
+05:27 posso misurare
+05:29 il periodo. Cos'è il periodo? Questo che
+05:33 vedete qua sotto è lo stesso grafico di
+05:36 prima. Semplicemente stavolta però non
+05:38 vado a contare i cicli che passano, che
+05:41 erano i famosi 4 e me che si diceva
+05:43 prima, ma vado con un cronometro a
+05:45 misurare il tempo, cioè la durata di un
+05:48 ciclo. Per misurare la durata di un
+05:51 ciclo, guardo semplicemente quanto tempo
+05:53 passa fra due punti corrispondenti della
+05:55 mia sinusoide. Posso farlo qua sul picco
+05:58 che vedo bene quando lo si raggiunge, ma
+06:00 potrei anche misurare qui quando
+06:02 attraversa lo zero in punti
+06:04 corrispondenti e diciamo il risultato è
+06:07 sempre lo è sempre lo stesso. Il periodo
+06:10 è il tempo che appunto passa, che
+06:13 intercorre fra due punti omogenei,
+06:17 diciamo, omologhi della sinusoide e si
+06:19 misura ovviamente in secondi. Quindi se
+06:23 diciamo la mia frequenza, parliamo
+06:26 dell'Enel, l'Enel ci fornisce una
+06:28 tensione che, come sapete, ha una
+06:30 frequenza di 50 Hz.
+06:33 In 50 Hz ho 50 cicli. Quindi, quant'è il
+06:37 periodo?
+06:38 Il periodo è 1 secondo diviso 50 cicli.
+06:41 il periodo di 20 misecondi.
+06:45 Queste cose qui le trovate in queste in
+06:47 queste formule, cioè in pratica la
+06:49 frequenza è il reciproco del periodo. In
+06:51 termini matematici il il reciproco è
+06:53 quando si fa uno su 1 / per esempio qui
+06:57 c'è qui avete la frequenza uguale 1 / t.
+07:01 Allora, la frequenza f si è detto è il
+07:03 numero di cicli al secondo.
+07:07 Formula 1, cioè definizione uno,
+07:09 diciamo. Il periodo si è detto che è la
+07:11 durata di un ciclo e quindi la frequenza
+07:15 f è un numero 27, il periodo è una
+07:19 durata, quindi 1 secondo, 1
+07:21 millisecondo, 1 milionesimo di secondo.
+07:25 Fra la frequenza e il periodo ci sono
+07:27 queste relazioni.
+07:29 La frequenza è il reciproco del periodo
+07:32 e il t, il t è il simbolo del periodo, è
+07:36 il reciproco della frequenza, ovvero
+07:38 detto con un esempio che è molto più
+07:39 chiaro, immaginiamo un'onda che si
+07:42 ripete 10 volte al secondo. In un
+07:45 secondo ho 10 cicli dell'onda, quindi il
+07:48 singolo ciclo, chiaramente quanto sarà
+07:50 lungo? Un decimo di secondo mi torna,
+07:53 no? Se in un secondo ce ne devono stare
+07:55 10 uguali e ciascuno non può occuperà un
+07:59 decimo di secondo. Quindi come mi trovo
+08:02 il periodo? 1 / f. Se la mia frequenza è
+08:04 10 Hz, 10 V al secondo, faccio 1 / 10
+08:09 01.
+08:11 E questa è la risposta, diciamo, e
+08:14 questo è il periodo che posso calcolare.
+08:17 Oppure viceversa, se ho il periodo eh
+08:20 per esempio eh 01 secondi, se faccio per
+08:25 ricavare la frequenza faccio 1 / 0,1. Se
+08:29 non lo so fare a memoria lo faccio con
+08:30 la calcolatrice, il risultato è 10.
+08:32 Quindi la frequenza è il reciproco del
+08:35 periodo. F = 1/ T e D = 1/ F.
+08:41 E qui per ora mi fermo un attimo. Tutto
+08:44 tutto chiaro per adesso? Tolgo la
+08:46 condivisione per vedere se c'è qualche
+08:49 qualche mano alzata. Tutto chiaro per
+08:51 ora, Giovanni? A te.
+08:55 Allora, hai detto
+08:58 che eh la ternata
+09:02 ha un diciamo una frequenza di 50 Hz,
+09:05 no? Giusto?
+09:06 >> Sì, perfetto.
+09:08 >> Ecco, allora si può dire che anche
+09:11 l'alternata
+09:12 ha una misura costante?
+09:15 a la tensione alternata che è data da
+09:18 Enel ha una frequenza costante di 50 Hz,
+09:23 garantita così dal fornitore,
+09:25 >> dal fornitore,
+09:26 >> cioè da Enel,
+09:27 >> per cui è costante quanto la continua
+09:30 oggi come oggi.
+09:32 >> Eh sì, il valore 50 è costante
+09:36 assolutamente. Allora, possiamo definire
+09:39 che in amb casi sia alternata che
+09:43 continua hanno la loro costanza,
+09:47 cosa che in passato l'alternata non ce
+09:49 l'aveva.
+09:51 >> Eh, allora dell'alternata, ora si sta
+09:55 parlando dell'alternata che fornisce
+09:56 l'Enel, d'accordo? L'alternata chece len
+10:01 e è un valore costante, ha una frequenza
+10:04 costante che è di 50 Hz, ma per esempio
+10:08 ehm anche l'uscita di un trasmettitore,
+10:12 immaginiamo un trasmettitore questa
+10:13 volta radioamatoriale che trasmette
+10:15 sulla banda dei 7 milioni di herzzi, 7
+10:18 megacicli, anche da un trasmettitore
+10:20 esce un'alternata. Lì la frequenza è di
+10:23 7 megacicli, però questa frequenza
+10:25 varia, per esempio, mentre parli.
+10:28 Ah, vai mentre parli. Ok.
+10:29 >> Eh, sì, quindi non tutte le alternate
+10:32 hanno una frequenza costante, alcune sì.
+10:35 L'Enel sì, perché è prodotta perché
+10:38 contrattualmente l'Enel ci deve dare 50
+10:41 50 Hz. Se non ci desse 50 Hz, per
+10:44 esempio, degli orologi che abbiamo a
+10:45 casa potrebbero sballare, tanto per
+10:47 dire, no?
+10:48 >> Sì, sì, sì, sì, sì.
+10:50 >> Ok. Eh sì, ho capito. Va bene. Eh,
+10:54 diciamo a livello di trasmissione è un
+10:57 po' diversa, mentre quella, diciamo,
+10:59 rimane costante. Quella dell'el
+11:02 >> esatto, quella dell'el. La la frequenza
+11:04 dell'ener è, diciamo, è è piuttosto
+11:06 precisa. Ha una un livello di precisione
+11:09 di di almeno di un millesimo, almeno
+11:12 almeno di una parte su 1000.
+11:15 >> Allora, rimetto in non ci sono a te.
+11:18 Rimetto in condivisione lo schermo e
+11:20 andiamo un pochino avanti. Allora, detto
+11:24 questo, detto questo, parliamo delle
+11:27 sinusoidi perché ci sono vari tipi di
+11:29 corrente alternata. c'è quella
+11:31 sinosoidale che è quella che interessa
+11:33 principalmente a noi e poi ci sono le
+11:36 forme d'onda non sinusoidali, per
+11:38 esempio l'onda quadra, vedete qui
+11:41 un'onda che comunque è alternata, che
+11:43 alterna per esempio negativo, positivo,
+11:46 negativo, positivo, questa si chiama
+11:47 un'onda quadra, poi ci possono essere
+11:49 delle onde triangolari, poi ci possono
+11:51 essere dei denti di sega, eccetera.
+11:53 Allora, queste onde qui non sinusoidali
+11:56 non fanno parte del programma di esame,
+11:58 quindi di queste cose qui non parliamo.
+12:01 Noi parliamo delle onde di tipo
+12:04 sinusoidale. L'Enel ci fornisce una
+12:06 sinusoide, una tensione alternata di
+12:09 forma sinusoidale.
+12:11 Vedremo non stasera, ma nelle prossime
+12:13 puntate che l'onde, le onde sinosoidali
+12:16 hanno delle proprietà che a noi
+12:18 radiamatori ci piacciono parecchio, però
+12:21 se ne parlerà un po' più un po' più
+12:23 avanti. Allora, la sinosoide
+12:27 la si può come la si ottiene una
+12:29 sinusoide? Si ottiene dal punto di vista
+12:32 geometrico, guardate il cerchio che
+12:35 avete qui sulla parte sinistra di questa
+12:37 slide. Questo è un cerchio. Questo qui
+12:39 in rosso qua nel mezzo è il centro del
+12:42 cerchio. E questo è un raggio, un raggio
+12:45 che potrebbe partire da qui e che sale
+12:48 fin quassù.
+12:50 Immaginate che questo che questo raggio,
+12:53 che questo punto giri in questo modo
+12:55 sulla sinusoide
+12:57 al seguire di questo raggio. Se voi
+13:00 prendete l'altezza
+13:04 di questo punto e la la proiettate nel
+13:07 tempo, come vedete in questo schema,
+13:09 ottenete una sinusoide. Ora ve la faccio
+13:11 vedere un po' un po' meglio la velocità
+13:15 con cui gira questo raggio. Quindi la
+13:17 velocità con cui questo raggio fa questo
+13:20 angolo qui. Scusate questi scarabocchi
+13:22 che non sempre mi vengono male, che non
+13:24 sempre mi vengono bene. È chiamata
+13:26 pulsazione. Pulsazione lettera greca
+13:29 omega omega = 2 pi f. ne parliamo.
+13:33 Allora, vi faccio vedere,
+13:36 appena recupero il video, vi faccio
+13:39 vedere un po' meglio questo meccanismo
+13:44 di sinusoide. Sto andando su un sito
+13:49 GeoGebra dove ci sono un sacco di
+13:50 animazioni simpatiche. Si vede? Si vede
+13:54 bene il mio video adesso?
+13:57 Sì, perfetto.
+13:59 Allora, si vede bene?
+14:01 >> Accendo l'animazione. Scusate.
+14:05 >> Allora, vedete in questo schema quello
+14:07 che vi raccontavo prima a voce. Vedete
+14:09 questo il raggio di questa circonferenza
+14:12 verde che fa tutta la sua strada. Lo
+14:15 faccio andare senza commentare perché lo
+14:18 voglio portare nel punto di partenza e
+14:20 fermarlo lì. Po lo fermo e resetto la
+14:24 traccia.
+14:26 Allora, questa è la circonferenza di cui
+14:27 si parlava prima. Questo punto
+14:31 segue proprio tutto il perimetro della
+14:33 circonferenza
+14:35 e diciamo e dove sta questo punto lo
+14:41 possiamo misurare tramite quest'angolo
+14:43 qui che in questo momento è 24°. Diciamo
+14:46 che la velocità, come si dice, la
+14:50 velocità angolare di questo angolo è
+14:52 costante, cioè questo punto gira in
+14:54 maniera costante a velocità angolare
+14:57 costante attorno alla circonferenza. E
+14:59 vedete che in questo primo tratto di
+15:02 strada,
+15:04 proiettandolo, come dicevo prima, da qui
+15:07 a qua, vedete che ha tracciato un primo
+15:09 pezzo di sinussoide. Ora lo metto un
+15:12 pochino più lento
+15:14 e seguiamo insieme cosa fa. Vedete che
+15:16 il punto sale. Il punto sale, fra un po'
+15:19 arriverà al suo massimo. Guardate questo
+15:22 schema qua. Ah, ecco, lo rifermo un
+15:25 attimo. Abbiamo fatto il primo quarto di
+15:27 sinusoide. Vedete che qui a sinistra
+15:30 questo raggio che sta girando ha fatto
+15:32 circa 90°. Li vedete qui 91 e67. No, si
+15:35 è percorso 1/4 di sinusoide, 1/4 di
+15:38 circonferenza, scusate, e il punto che
+15:41 noi stiamo seguendo, cioè l'altezza di
+15:43 questo punto, è arrivata qua. Mandiamola
+15:46 ancora avanti. Il punto comincia a
+15:48 scendere. Chiaramente la mia tensione
+15:49 scenderà e comincerà a andare verso lo
+15:51 zero.
+15:54 Pian pianino quel punto arriverà
+15:57 a 180°
+15:59 e vedete che qui siamo a un valore di
+16:01 180°. Poi questo numero lo ritroveremo.
+16:04 Abbiamo fatto praticamente mezza
+16:05 sinosoide pari pari, quindi
+16:07 l'animatinosoide non è fatta a mano un
+16:09 po' a caso, non un po' su, un po' un po'
+16:12 giù, è il risultato di questa di questa
+16:16 di questo meccanismo geometrico che
+16:17 state vedendo.
+16:19 Qui scende giù, si arriva giù. Qui siamo
+16:23 a La rifermo un attimo. Qui siamo a
+16:26 270°. Si è fatto tutta la parte
+16:28 discendente qui. La qui ora siamo al
+16:32 minimo del valore. Qui potrebbe essere
+16:34 -1 V.
+16:36 La facciamo ripartire per tornare a
+16:38 zero. Vedete sulla circonferenza che
+16:41 abbiamo percorso quasi tutta la
+16:43 circonferenza.
+16:45 Nel momento in cui la percorriamo tutta
+16:48 e la rifermo qua, vedete che si è fatto
+16:51 un ciclo completo di sinusoide.
+16:58 E questo,
+17:00 un attimo, eh, torno sulle slide. Questa
+17:04 cosa che abbiamo visto, uno dice, uno si
+17:06 potrebbe fare una domanda del tipo "Ma
+17:10 perché l'Enel ci fornisce una
+17:12 sinusoide?" Plac. L'ENL ci fornisce una
+17:15 sinusoide perché quello che abbiamo
+17:17 visto con questo punto che gira
+17:19 somiglia, ma assomiglia veramente tanto
+17:21 a come funziona un alternatore. Questa
+17:23 cosa che vedete in questa slide è molto
+17:25 semplificata, non fa parte del programma
+17:27 di esame. Ribadisco, non fa parte del
+17:30 programma di esame. Ve l'ho mostrato per
+17:32 farvi capire cosa c'è dietro sto
+17:33 meccanismo dell'assinosoide. Vedete che
+17:36 eh riattacco il pennarello, vedete che
+17:39 qui ci sono due magneti, o meglio, qui
+17:41 c'è il polo negativo, il polo positivo
+17:44 di un magnete. In mezzo a questi due
+17:46 magneti c'è un campo magnetico,
+17:49 immaginiamolo costante, d'accordo? Lo
+17:52 visualizzo con una specie di linea di
+17:54 forza.
+17:55 Questa questa cosa che vedete, vedete
+17:57 che qua c'è una specie di pernetto. Di
+17:59 qua c'è un'altra specie di pernetto.
+18:01 Questa cosa che vedete qui,
+18:04 scusate un attimo che tolgo il le
+18:08 scarabocchi del campo magnetico. Questa
+18:10 specie di telaietto che vedete è una che
+18:13 gira, come vedete qua,
+18:18 come vedete qui, che gira in questo
+18:21 campo magnetico B. Quando è in questa
+18:23 posizione qui, in questa posizione che è
+18:26 proprio parallela a quelle che facevamo
+18:29 che che avevo fatto prima, le linee di
+18:31 forza del campo magnetico, questa spira
+18:34 praticamente non intercetta campo
+18:36 magnetico. Però se continui a girare e
+18:38 questa spira la la pensate non in questa
+18:41 posizione, ma in quest'altra posizione,
+18:45 quindi perpendicolare al flusso, scusate
+18:48 che gli scarabocchi mi vengono molto
+18:49 male, allora intercetta il pieno del
+18:51 campo magnetico. Allora, in un
+18:52 alternatore succede questa cosa. Ci sono
+18:54 delle spire che girano e che a seconda
+18:57 della posizione in cui girano, come
+18:58 funzionava prima con quel con quel
+19:00 raggio che abbiamo visto, intercettano
+19:03 poco o tanto campo magnetico quest'anno
+19:06 nell'alternatore.
+19:07 Siccome questo questa la quantità di
+19:10 campo magnetico che intercettano varia
+19:12 nel tempo, si ottiene una tensione
+19:14 indotta che varia nel tempo e siccome
+19:17 questo meccanismo di spira che gira, se
+19:19 si potesse disegnare proprio
+19:21 geometricamente per bene, ma ora non lo
+19:22 faccio perché non ho neanche gli
+19:24 strumenti, verrebbe proprio esattamente
+19:26 lo stesso giochino del cerchio che del
+19:29 punto che gira sul cerchio, la tensione
+19:32 prodotta da un alternatore proprio per i
+19:34 motivi geometrici, per come sono
+19:36 costruiti gli alternatori. e di natura
+19:38 sinusoidale.
+19:40 Questo succede in un alternatore. M
+19:44 quindi questo meccanismo alla fine
+19:47 sembra un trucchetto, sembra un
+19:49 giochetto astratto matematico. In realtà
+19:51 questo questa figura modella cosa
+19:54 succede dentro un alternatore. Come vi
+19:56 dicevo prima, questo non è programma di
+19:57 esame, no? sapere come funziona un
+19:59 alternatore. Ve l'ho detto un po' per
+20:01 farvi capire perché stiamo perdendo un
+20:03 po' di tempo, stiamo spendendo un po' di
+20:04 tempo per parlare di una sinusoite.
+20:07 Ecco, mi interesserebbe che teniate a
+20:09 mente una cosa che ci servirà anche
+20:11 nelle prossime lezioni.
+20:13 In una sinusoide
+20:15 immaginiamo che ci siano alcuni punti
+20:17 notevoli, chiamiamoli così, quando il
+20:20 raggio è verticale e quindi quando la
+20:24 sinusoide ha fatto quando il raggio ha
+20:26 fatto 90°.
+20:28 Anche la sinusoide si dice che ha fatto
+20:32 90°.
+20:36 Quindi su quest'asse ci posso mettere il
+20:38 tempo come avevo fatto prima, ma ci
+20:40 posso mettere anche l'angolo. Questo è
+20:42 1/4 di sinusoide. 1/4 di sinusoide 90°.
+20:47 Quando il raggio ne ha fatti 180, siamo
+20:50 arrivati qui. Punto verde, come si
+20:51 vedeva prima, ha fatto 180°, 270 e 360.
+20:56 Questi numeri li riuseremo fra fra poco
+21:01 e fin qui e qui mi fermo un attimo,
+21:05 rinterrompo la condivisione e per sapere
+21:07 se c'è qualche domanda su questo
+21:09 discorso della sinusoide.
+21:13 Giovanni a te e se c'è qualche altra
+21:15 domanda ascolto volentieri.
+21:17 >> Sì, nella sinusoide, no? facendomi dove
+21:21 hai mostrato il famoso cerchio dove si
+21:25 muove l'asse e va sul 90. Si può dire
+21:28 che i 90° è il picco di alta e il 270
+21:34 è il picco di bassa, punto
+21:37 >> perfetto. Centrato al 100%. Ottimo.
+21:41 Grazie
+21:42 >> a te. Rimetto in condivisione e proseguo
+21:45 io. Diciamo che vado liscio finché non
+21:48 sento domande. Aspettate.
+21:52 Ok.
+21:54 Allora,
+21:56 a questo punto rispondiamo alla domanda
+21:59 di "Ma che valore di tensione ha la mia
+22:01 sinusoide?" Mh.
+22:03 Allora, mentre per l'alternata era
+22:05 facile, per la continua, scusate, era
+22:07 facile, cioè la mia batteria 12 V punto
+22:10 basta un numero, per l'alternata e c'è
+22:13 qualche numero in più. Comunque sono
+22:15 tutti numeri molto, diciamo, intuitivi.
+22:18 Si può parlare nella nella tensione
+22:20 alternata di una tensione istantanea, di
+22:23 una tensione efficace, di una tensione
+22:25 di picco, di una tensione picco picco e
+22:29 di un valore medio. Uno dice "Porco
+22:30 cane". quanti sono, però in realtà,
+22:33 diciamo, vedrete che la cosa poi diventa
+22:35 diventa semplicissima. Allora, la
+22:36 tensione istantanea praticamente è solo
+22:39 una definizione e non la si usa mai. La
+22:41 tensione istantanea è il valore
+22:43 istantaneo della sinusoide, diciamo,
+22:45 l'Enel ci fornisce il 220, no?
+22:49 Istantaneamente questo 220 in un certo
+22:51 istante può valere 20, in un certo
+22:52 istante può valere 18, in un certo in un
+22:55 certo istante 135. è proprio il valore
+22:57 puntuale, diciamo, non ha rilevanza
+23:03 pratica ai fini di quello che faremo
+23:05 dopo.
+23:06 Poi c'è il valore di tensione efficace.
+23:10 Cosa si intende per tensione efficace?
+23:12 Efficace vuol dire, detto in altre
+23:14 parole, che fa lo stesso lavoro. Il
+23:17 valore di tensione efficace
+23:19 di una tensione alternata è il valore di
+23:22 tensione equivalente a quello di una
+23:24 tensione continua.
+23:26 che applicata al medesimo carico produce
+23:29 la stessa dissipazione di valore.
+23:34 Se io prendo un ferro da stiro e lo
+23:36 attacco alla presa elettrica dell'Enel,
+23:39 quel ferro da stiro mi si scalda e mi
+23:42 diventa, diciamo, mi va a una
+23:43 temperatura, diciamo, di 300°, ok?
+23:47 Con una con la tensione alternata che ci
+23:49 fornisce Enel. Se voglio sapere qual è
+23:52 la tensione efficace, devo mettere sul
+23:54 ferro da stiro una stessa una tensione
+23:57 continua
+23:59 e alzare questa tensione continua finché
+24:02 il ferro d'astri non mi si riscalda
+24:04 esattamente nello stesso modo. Questo è
+24:06 il valore di tensione efficace di una
+24:08 sinusoide.
+24:10 Perché c'è questa definizione di
+24:11 tensione efficace? Perché faccio un
+24:14 disegnino qua sopra, tanto per capirsi,
+24:16 no? una sinusoide fa così,
+24:19 quindi la potenza che trasferisce al
+24:21 carico
+24:23 in certi momenti è massima.
+24:26 In certi momenti, quando il valore della
+24:28 sinusoide è pari a zero, la tensione, la
+24:31 potenza che trasferisce al carico è
+24:33 nulla, quasi zero.
+24:35 E quindi eh è una media, no, di quello
+24:39 che accade fra dei momenti in cui la mia
+24:42 tensione alternata ha dei valori bassi e
+24:45 quindi trasferisce poca potenza e dei
+24:46 momenti in cui la mia tensione alternata
+24:48 è bella pimpante e trasferisce tanta
+24:50 potenza. Per sapere il valore efficace
+24:54 di quella tensione alternata, ci si basa
+24:56 sul concetto di eguaglianza di lavoro,
+24:58 cioè stessa dissipazione di calore di
+25:01 una tensione continua equivalente.
+25:03 Questa tensione, proprio perché vale lo
+25:06 stesso lavoro e genera lo stesso lavoro,
+25:10 è detta attenzione RMS. RS in una sigla
+25:12 inglese che sta per root min square che
+25:16 è un acronimo di un'operazione
+25:18 matematica che sarebbe la radice
+25:19 quadrata della media dei quadrati che
+25:21 non ci che non ci interessa ricordare.
+25:25 E però la tensione RMS e la potenza RMS,
+25:29 se qualcuno di voi è, come si dice, un
+25:31 audiofilo, se a qualcuno di voi
+25:33 piacciono gli amplificatori, le casse
+25:35 acustiche, le alte fedeltà eccetera, eh
+25:38 questa persona, se segue un po' il
+25:41 settore audio, saprà che ci sono tanti
+25:43 modi per esprimere la potenza di un di
+25:45 un amplificatore. Il valore, il modo
+25:48 migliore per esprimerlo e quello più
+25:50 onesto, correttamente parlando è questo
+25:52 qua. Se si prende un amplificatore buono
+25:55 di una marca degna di questo nome, ti
+25:58 dicono che questo amplificatore ha 100 W
+26:00 di RMS. Quello stesso amplificatore,
+26:03 alcuni fornitori ti dicono che ha 200,
+26:06 se non addirittura 400 W di potenza
+26:08 d'uscita, ma quei numeri sono delle vere
+26:10 bufale. Faccio una parentesi, visto che,
+26:14 diciamo, anche per sganciare, cioè
+26:16 qualcuno di voi le conosce queste
+26:18 definizioni nel mondo dell'alta fedeltà?
+26:21 che c'è fra RMS
+26:24 >> e potenza reale
+26:26 >> che ci sono delle vere truffe eh dietro
+26:28 queste definizioni.
+26:30 >> Altro che
+26:31 >> no fortun fortunatamente se uno compra
+26:35 un amplificatore di un produttore buono,
+26:37 il valore è quello lì. È quello lì. Mh.
+26:41 Allora, scusate, mi sono un po'
+26:42 dilungato. La tensione efficace. Poi poi
+26:45 abbiamo la tensione di picco. La
+26:46 tensione di picco si spiega da sé. e la
+26:48 tensione nel momento di picco della mia
+26:50 sinusoide è questo qua.
+26:55 Si può dimostrare che la tensione di
+26:57 picco vale 1,41 volte la tensione
+26:59 efficace.
+27:01 Andiamo avanti, poi lo vediamo meglio.
+27:04 Poi c'è la tensione picco picco. La
+27:06 tensione picco picco è la tensione che
+27:08 si può misurare da quassù a quaggiù.
+27:13 Questa è la tensione picco picco e
+27:15 quindi è due volte la tensione di picco.
+27:20 Tensione di picco, come si è visto nella
+27:22 slide precedente, ci torno, è questa
+27:24 qua. da qui a quassù la tensione,
+27:28 scusate, ho sbagliato parte, la tensione
+27:30 picco picco è questa
+27:33 più questa, cioè due volte la tensione
+27:36 di picco.
+27:39 E poi c'è un valore che è chiamato
+27:41 medio, la tensione media si usa
+27:45 raramente il valore di la tensione media
+27:49 di una sinusoide è 0,9 V della tensione
+27:52 efficace. Questa questo valore di
+27:55 tensione medio lo si può visualizzare
+27:58 solo mh graficamente, geometricamente.
+28:01 Se vedete questa figura che è anche
+28:03 disegnata un po' male, vedete che qui
+28:05 c'è un cerchio di c'è una mezza
+28:07 sinusoide.
+28:09 Questa mezza sinusoide sotto di sé ha
+28:11 una certa area in questo grafico. Questa
+28:14 area qui che sta qua nel mezzo la posso
+28:17 misurare in centimetri quadrati.
+28:19 D'accordo?
+28:22 scarabocchi perché sennò non si capisce
+28:24 niente. Eh, questa stessa area
+28:29 ce l'ha
+28:33 questo rettangolo qui
+28:37 AB CD.
+28:42 Il valor medio, il valor medio è questo
+28:45 qua.
+28:49 Quindi è il rapporto fra la somma
+28:51 aritmetica delle aree in un periodo ed
+28:54 il periodo. Quindi questa è la somma nel
+28:56 periodo nel periodo intero
+28:59 e
+29:02 e diciamo le due figure hanno la stessa
+29:06 area.
+29:08 In pratica rimettiamo insieme tutto
+29:11 perché visto uno dopo l'altro sembrano
+29:12 abbastanza complicate. Questo schema
+29:14 secondo me riassume tutto in maniera
+29:17 assolutamente lineare. Parliamo sempre
+29:19 di Enel, ma il discorso che facciamo
+29:22 vale per tutte le le tensioni
+29:25 sinusoidali. L'ENL ci dice, "Guarda, tu
+29:27 fai un contratto con me, io ti do 220 V,
+29:30 o meglio, ora in realtà l'Enel te ne dà
+29:31 230, ma prendiamo 230 V."
+29:35 Quando l'Enel ti dice che ti dà una
+29:37 tensione di 220 V a casa, questa
+29:40 l'enelonesta perché la tensione che ti
+29:43 dà è di natura efficace. La sinosoide
+29:46 che l'Enel ti dà sono di 220 V efficaci,
+29:50 ovvero che producono lavoro per 220 Vi.
+29:54 D'accordo? Il mio ferro da stilo si
+29:56 scalda come se mi dessi 220 V di
+29:59 tensione continua. In realtà, se io vado
+30:01 a vedere la sinusoide che ho nella presa
+30:05 dell'Enel, se andassi a guardarla con
+30:08 uno strumento che mi fa vedere proprio
+30:09 la forma d'onda della sinusoide, questo
+30:11 strumento si chiama oscilloscopio e ne
+30:14 parleremo fra un certo numero di
+30:15 lezioni. Vedrei che la tensione
+30:18 dell'Enel ha un picco di 311 V, cioè
+30:22 nelle sinusoidi
+30:24 la tensione dell'Enel arriva a un picco
+30:27 positivo di +311 e scende a un picco
+30:31 negativo di -311,
+30:34 anche se noi la chiamiamo sempre il 220.
+30:36 A casa diciamo che abbiamo il 220, però
+30:39 la tensione dell'Enel varia da +311
+30:43 a -311 e quindi nella presa ho una
+30:46 tensione picco picco di 622,
+30:50 dal -311 che sta qua sotto al + 311 che
+30:54 sta qua sopra.
+30:56 L'Emel giustamente e onestamente
+30:58 ribadisco, ti dice io ti do una tensione
+31:00 efficace di 220. Il 220 sta più o meno
+31:02 qua a 2/3, diciamo, della cosa di
+31:05 piccolo.
+31:07 La tensione dell'Enel ha un valore medio
+31:09 di 198 V. Il il valore medio si calcola,
+31:14 come dicevo prima, 0,9 del valore
+31:16 efficace. E in questa pagina avete le
+31:20 tre formule che sono queste tre che vi
+31:23 aiutano a rispondere a tutte le domande
+31:26 di questo genere che vi potete trovare
+31:28 eventualmente nell'esame. Data una
+31:31 tensione efficace 2,20 dell'ene, la
+31:33 tensione di picco è 1,4, quindi da 2,20
+31:36 si passa al 311. La tensione picco picco
+31:39 è due volte la tensione di picco e si
+31:42 passa al 6:22. La tensione media è 0,9
+31:46 della tensione efficace. Si riparte dal
+31:48 220 moltiplicato 0,9 si ottiene questo
+31:51 0,98.
+31:53 Ok? La tensione efficace è quindi la
+31:56 tensione continua che dà pari lavoro. La
+31:59 tensione di picco è proprio la crestina
+32:01 in alto della sinusoide. La picco picco
+32:03 è dalla cresta alta alla cresta bassa.
+32:06 Il valor medio è eh
+32:10 è l'altezza che deve avere un quadrato,
+32:12 un rettangolo, scusate, torniamo qua. È
+32:15 l'altezza che deve avere un rettangolo
+32:17 che ha come base mezzo periodo per far
+32:21 sì che nel rettangolo ci sia la stessa
+32:23 area della mia sinusoide. Questa è la
+32:25 definizione di valor medio.
+32:29 E questi sono tutti e per fortuna soli i
+32:32 modi con cui si può vedere eh con cui si
+32:35 può misurare una tensione efficace, di
+32:37 picco, picco, picco e valor medio.
+32:41 C'è qualche domanda su questo?
+32:44 Vengo a dare un'occhiata.
+32:46 >> Sì, sì, sì, sì, sì.
+32:48 >> Allora, chi è che parla?
+32:49 >> Tutti pronti. Io, Giovanni, scusami.
+32:52 >> Giovanni, ti vedo in forma stasera. Sì,
+32:55 no, perché ora me mi è solto anche un
+32:57 dubbio. Eh, noi va bene qua in Europa
+33:00 abbiamo la 220 vol. Come si mette in
+33:05 frequenza i 110 V americani?
+33:10 Mh. Allora, i 110 volte americani,
+33:13 allora
+33:15 allora questa cosa qui che dici non fa
+33:17 parte per fortuna della della materia di
+33:19 esame. Allora, in America intanto in
+33:21 America non ha, tanto per informazione,
+33:23 non hanno i 50 Hz, ma hanno i 60 Hz.
+33:27 Hanno 60 Hz.
+33:29 >> Allora, uscilla più veloce.
+33:30 >> Sì. E se e questa bisogna starci
+33:32 attenti, sembra una stupidata, ma se si
+33:34 comprano certi tipi di apparati
+33:36 radiomateriali
+33:38 eh
+33:40 americani, siccome hanno il 60 Hz, ci
+33:42 sono certe cose che non funzionano tanto
+33:45 bene al 50 Hz, ne parleremo a suo tempo.
+33:50 Ecco, no, il trasformatore poi lì e
+33:53 >> no, no, no, il trasformatore 50 Hz non
+33:56 li trasforma in 60. Come vedremo il
+33:58 trasformatore trasforma la tensione,
+34:00 quindi posso trasformare un 220 in un
+34:03 110 o come in un come in un 400 con un
+34:06 trasformatore e lo vedremo la la
+34:10 prossima lezione.
+34:11 >> Perfetto.
+34:12 >> Eh,
+34:13 >> bene. Grazie.
+34:14 >> Niente.
+34:16 Allora, non ci sono altre domande.
+34:18 Pierluigi, a te.
+34:21 Dicevo, il valor medio mi ricordo
+34:23 equivale l'integrale della semplice.
+34:26 >> Aspetta, ripet sento male. Ti sento
+34:28 male.
+34:28 >> Il valor eh scusa il valor medio, no,
+34:31 della definizione mi sembra più vaga
+34:34 l'integrale della sinusol della
+34:35 semisinosi, se non ricordo male.
+34:38 >> Bravo. Esatto, esatto, esatto,
+34:40 esattamente così.
+34:41 >> Poi anche e poi anche Omega è la
+34:43 velocità angolare. Dici prima delle
+34:45 frequenze omega che è detto, esattamente
+34:48 così. Allora,
+34:51 >> per chi non conosce i termini usati da
+34:54 Pierluigi, rimetto in condivisione lo
+34:57 schermo qui. Ora Pierluigi si è lanciato
+34:59 nell'altra tematica, eh, diciamolo.
+35:02 Allora, l'integrale non ci serve ai fini
+35:06 dell'esame, eh, per fortuna, non
+35:07 preoccupatevi, ma visto che questa cosa
+35:09 è stata pronunciata, facciamo chiarezza.
+35:14 L'integrale, l'operazione, l'integrale è
+35:16 un'operazione matematica come la somma,
+35:18 la sottrazione, la radci quadrata.
+35:21 L'integrale è un'operazione matematica,
+35:23 magari un po' complicatina, che serve
+35:25 per calcolare le aree. Per esempio, se
+35:28 io faccio l'integrale della sinusoide,
+35:30 come ha detto Giovanni, se io faccio
+35:32 l'integrale di questa mezza sinusoide,
+35:34 ottengo esattamente il valore medio di
+35:36 cui si parlava prima.
+35:41 Grazie Giovanni che di tanto in tanto
+35:45 ci ricordi un po' di matematica. Vai.
+35:47 Allora, se non ci sono altre domande
+35:49 proseguo. Ultimo argomento sulle
+35:52 sinusoidi e con questo si conclude il
+35:54 discorso delle tensioni e correnti
+35:56 alternate. Allora,
+35:59 eh
+36:00 allora si è visto prima, e su questo vi
+36:02 ho stressato un bel po' che una
+36:04 sinusoide ha questi quattro punti
+36:07 notevoli, no? Quanto è zero a a 90° a
+36:10 90° corrisponde il picco massimo, poi
+36:12 c'è di nuovo lo zero, poi c'è a 180° poi
+36:15 a 270 c'è il picco minimo, eccolo qua, e
+36:19 a 360 siamo di nuovo a zero e si riparte
+36:22 sulla giostra per il prossimo per il
+36:24 prossimo periodo, diciamo, della
+36:26 sinusoide. Allora, l'altra volta si era
+36:30 parlato l'altra volta quando si era
+36:32 parlato dei generatori di tensione
+36:34 continua, le batterie si era detto che
+36:36 le batterie si potevano mettere in serie
+36:38 in parallelo, no? Ora se tu metti due
+36:40 batterie in serie,
+36:42 eh si era fatto l'esempio del
+36:44 telecomando, no? 1 V e me e 1 V e mezzo,
+36:47 ottieni le tu il tuo telecomando 3 V.
+36:50 Allora, si possono mettere più o meno
+36:52 serie anche delle delle tensioni
+36:54 sinusoidali, però la cosa è leggermente
+36:56 più complessa perché intanto bisogna
+36:59 vedere le relazioni di fase che c'è fra
+37:01 queste sinusoidi.
+37:03 Per esempio, tanto per fare due casi che
+37:06 poi ritroveremo, diciamo, nelle prossime
+37:09 lezioni. Partiamo dal basso, che è la
+37:11 cosa più facile. Due sinusoidi,
+37:14 come due batterie, possono essere in
+37:16 controfase. Vedete che qui ho due
+37:18 sinusoidi,
+37:19 1 e 2. Possono essere sfasate l'una
+37:23 rispetto all'altra di 180°
+37:26 e quindi quando una raggiunge il picco
+37:29 massimo, l'altra ha il picco minimo. Se
+37:33 sono sfasate di 180° attraversano lo
+37:36 zero insieme se hanno la stessa
+37:38 frequenza. Immaginiamo di lavorare su
+37:40 sinusoide della stessa frequenza,
+37:42 d'accordo? Siamo stiamo lavorando su
+37:45 questi punti qua. Scusate, tolgo
+37:49 tolgo il rosso.
+37:52 Quindi stiamo lavorando parlando di
+37:54 sinusoidi
+37:55 sfrati di 180°
+38:01 quando stiamo lavorando su questi tre
+38:04 punti. Le sinusoidi in questi tre punti
+38:07 si si toccano
+38:11 un punto, due punti e tre punti, però
+38:16 sono sfasate di 180° l'una rispetto
+38:18 all'altra. Quando una è il picco
+38:20 massimo, l'altra è il picco minimo. E
+38:23 queste sono due sinusoidi che sono
+38:24 chiamate in controfase. In controfase,
+38:26 cioè hanno proprio la fase contraria.
+38:29 Poi c'è il caso intermedio di due
+38:31 sinusoide inquadratura. inquadratura
+38:33 vuol dire che c'è una differenza di fase
+38:35 di eh 1/4 di circonferenza, quindi
+38:38 inquadratura. Hanno una differenza di
+38:40 fase che, come leggete qua, può essere
+38:42 di più o meno 90°. Per esempio,
+38:45 guardiamo la sinusoide rossa,
+38:48 immaginiamo che questo sia il nostro
+38:50 asse di riferimento. Mh, scusate, lo lo
+38:54 rifaccio perché mi è venuto troppo
+38:56 troppo male e secondo me poi si fa
+38:58 confusione.
+39:01 Momento, eh, ci posso arrivare. Ecco
+39:03 qua. Picco. Allora, questo è il nostro
+39:06 asse di riferimento. La sinosoide rossa
+39:10 fa onestamente quello che abbiamo sempre
+39:12 fatto fino a ora, cioè al punto zero del
+39:14 tempo lei parte e comincia a andare su.
+39:17 La sinosoide verde nel punto zero è già
+39:20 su, ciò vuol dire che è partita 90°
+39:23 prima, quindi la sinusoide verde è in
+39:25 anticipo, è partita prima. Quando questa
+39:27 è zero, questa ha già raggiunto la
+39:29 tensione massima. Questi sono due
+39:32 sinusoidi in quadratura. Differenza di
+39:34 fasi di più o meno 90°. Allora, quando
+39:37 io vado a a sommare
+39:40 due sinusoidi,
+39:42 ho due casi che sono proprio quelli
+39:44 eclatanti, no? Posso avere la somma in
+39:46 fase e la somma in controfase di due
+39:51 sinusoidi. Immagina che immaginate che
+39:53 sto mettendo in serie due generatori
+39:55 sinusoidali della stessa frequenza
+39:59 che sono questi qua. Diciamo che questo
+40:01 mi dà V1 e quest'altro mi dà V2.
+40:04 Immaginiamo che siano due generatori da
+40:06 10 V l'uno.
+40:08 Se io questi generatori li sommo in
+40:10 fase, in fase quindi raggiungono
+40:13 entrambi nello stesso momento il massimo
+40:16 e raggiungo entrambi nello stesso
+40:18 momento il minimo. La somma in fase mi
+40:21 dà una tensione doppia V1 + V2 e quindi
+40:25 i due generatori in fase avevo detto che
+40:27 erano di 10 V. Alla fine qui ottengo una
+40:30 sinusoide di 20 V di ampiezza di picco.
+40:36 Se vado a fare la somma di due
+40:38 generatori di tensione uguale, ma in
+40:41 controfase, cosa succede? Mi succede che
+40:43 punto per punto si annullano l'un
+40:45 l'altro. Nel momento in cui questo ha +
+40:47 10, quest'altro ha -10.
+40:51 + 10 - 10 da 0. Quindi il risultato di
+40:53 una somma in controfase è questo qua.
+40:55 Cioè non è che qui non non è che qua
+40:57 sotto non è venuta stampata la figura, è
+41:00 che il risultato è proprio zero. Ci
+41:01 dovrebbe essere magari una linea un po'
+41:03 più marcata della figura, no? Ma le due
+41:06 sinusoidi si annullano l'una con
+41:08 l'altra. Quindi vedete come siamo
+41:11 partiti con due sinusoidi di valore
+41:13 uguale, no? V1 e V2 entrambe di 10 V. Se
+41:16 le somme in fase il risultato finale è
+41:18 il doppio. 10 + 10 20. le somme in
+41:20 controfase mi si annullano l'una con
+41:22 l'altra. Quindi quando diciamo queste
+41:26 situazioni di fase e controfase poi le
+41:28 vedremo in abbondanza quando parleremo
+41:30 dei circuiti risonanti che sono molto
+41:32 importanti perché servono per fare la
+41:34 selettività nei ricevitori. ne parleremo
+41:36 fra qualche lezione
+41:39 e e quindi diventa importante quando ho
+41:41 due sinosoidi che che si combinano
+41:43 sapere anche non solo la loro ampiezza e
+41:45 la loro frequenza, ma se sono in fase
+41:47 fra di loro oppure no, perché se non
+41:49 sono in fase possono anche annullarsi
+41:52 l'una con l'altra. E questo è tutto per
+41:56 le sinusoidi. Allora, facciamo 2 minuti
+41:58 di stacco e diciamo siamo perfettamente
+42:01 nei tempi e se ci sono domande cerco di
+42:04 cerco di rispondere. Avanti Giovanni e
+42:07 poi se ci sono anche domande da altri
+42:08 ben volentieri. A te Giovanni.
+42:13 >> Allora
+42:13 >> Giovanni poi Filippo.
+42:15 >> Sì Paul. Eh, allora, se ho ben capito le
+42:18 sinusoide in fase si sommano dove si
+42:22 incrociano però.
+42:23 >> Sì, si sommano sempre. Se le mettiamo
+42:26 serie si sommano sempre.
+42:28 Mentre in controfase si annullano
+42:30 totalmente, praticamente zero.
+42:34 Ok,
+42:35 >> perfetto.
+42:37 >> Grazie
+42:39 >> a te. Adesso Filippo e poi Stefi.
+42:42 >> Sì, non voglio anticipare i tempi, però
+42:44 ci provo. La domanda
+42:46 >> prova.
+42:46 >> Il lo squelch delle radio funziona tipo
+42:51 cancellazione attiva del rumore e quindi
+42:53 funziona annullando le fasi dei
+42:54 disturbi?
+42:56 No, negativo. Funziona a soglia. Lo
+42:58 squashch preleva
+43:01 prelieva il fruscio e silenzia la radio
+43:04 quando c'è solo fruscio.
+43:07 >> Ok? Quindi praticamente prende
+43:08 l'ampiezza del del suono tra virgolette
+43:11 e quindi le mette tipo una soglia, una
+43:12 tagliola, cioè più basso di quel valore
+43:15 lo lo
+43:16 >> Perfetto, perfetto, perfetto, perfetto.
+43:18 Non è non è un meccanismo fase contro
+43:19 fase, ne parleremo.
+43:20 >> Eh, credevo fosse tipo B. Posto. Grazie
+43:22 mille. No, no, comunque bella domanda,
+43:24 ne parleremo. Stef, a te.
+43:31 >> Accendi il microfono, Stefy. Ci avevi
+43:33 già provato prima a accenderlo, però poi
+43:35 è risparito.
+43:39 Stefy, ora il microfono ce l'hai acceso,
+43:42 Stefy,
+43:44 però non ti sentiamo.
+43:48 No, no, Stefy, se stai parlando l'audio
+43:52 non arriva.
+43:53 Qualcuno lo sente?
+43:57 >> No, Paolo, probabilmente Stef hai
+44:01 selezionato il microfono non corretto
+44:04 sull'impostazione. Ricontrolla.
+44:08 >> Sì, se vai dove ci sono i tre punti ci
+44:11 dovresti trovare tutti i canali
+44:13 microfonici che hai sul dispositivo che
+44:15 stai usando.
+44:17 Prova magari e poi fatti poi fatti
+44:19 rivedere, poi rialza la mano, d'accordo?
+44:23 Passo a Matteo.
+44:31 Matteo, microfono acceso.
+44:34 Matteo, come Stefi, hai acceso il
+44:36 microfono, ma non ti sento. Non ti
+44:38 sentiamo.
+44:47 Allora, scusate parentesi tecnica,
+44:50 perché questa cosa
+44:52 Un attimo, eh, metto in condivisione
+44:56 lo schermo
+44:58 pic per farvi vedere almeno sul mio PC
+45:02 come sta la situazione. Allora,
+45:06 tac. D'accordo, dovresti vedere lo
+45:08 schermo.
+45:09 >> Pronto?
+45:09 >> Sì,
+45:10 >> pronto? Sì, ti sento. Ti sento. Scusami
+45:13 un attimo solo. Scusami un attimo solo.
+45:14 Scusami un attimo solo.
+45:16 >> Questo anche eventualmente se capitasse
+45:18 altri, se andate sui tre punti
+45:21 e impostazioni audio e qui trovate i
+45:26 microfoni installati sul vostro
+45:27 dispositivo. Io qua ne ho tre. 1 2 3.
+45:31 Però questi due funzionano da veramente
+45:33 da fa schifo. Questo Questo è è il
+45:35 microfono mio. Potete essere in una
+45:37 situazione del genere, no? resto il
+45:39 vostro dispositivo può esserci più di un
+45:40 microfono installato. Basta, tolgo la
+45:43 condivisione. E chi chi era riuscito a
+45:46 parlare se
+45:47 >> Sì, sono Luca, sono col computer del
+45:50 figlio.
+45:51 >> Dai, Luca.
+45:52 >> Eh, niente, innanzitutto buonasera
+45:54 perché non ci si non ci siamo sentiti
+45:56 prima. Ehm, una domanda veloce. M chi
+46:00 era che parlava prima del dei prodotti
+46:03 che magari possono essere americani e
+46:05 che creano dei problemi sul eh Volevo
+46:09 soltanto sapere lo stesso problema anche
+46:12 per le batterie, per la ricarica delle
+46:13 batterie sul con la tensione differente,
+46:16 con gli herzi differenti.
+46:19 Mh.
+46:22 Allora, su scala minore, su scala
+46:25 minore, perché i caricabatterie hanno,
+46:27 diciamo, dei tipi di alimentatori che
+46:29 secondo me i 50 e 60 Hz li gestiscono
+46:32 assolutamente senza problemi. Diciamo
+46:35 che la differenza di fase, la differenza
+46:37 di frequenza può disturbare
+46:41 dispositivi che intanto si basano sulla
+46:42 frequenza per calcolare il tempo e poi
+46:45 soprattutto tutta una generazione di
+46:47 apparati vintage che col 60 Hz diventano
+46:50 un po' critici.
+46:53 Quindi nelle nell'elettronica normale
+46:56 questo tipo di problema eh per fortuna è
+46:59 abbastanza attenuato. Ok.
+47:02 >> Ok, grazie. Si era solo relativo a un
+47:04 portatile eventualmente da prendere.
+47:06 Grazie.
+47:07 >> Non non ci non ci sono problemi su
+47:09 quello. Non ci sono problemi.
+47:12 >> Ora mi sentite?
+47:14 >> Ora sì. Ciao.
+47:15 >> Ah eh no sono rientrata
+47:19 e ho chiuso l'altra cosa. No, era una la
+47:21 mia era una cosa generica, nel senso che
+47:25 eh ovviamente non ci capisco niente in
+47:28 queste cose, è chiaro, no? E quindi ti
+47:31 volevo chiedere se potevo avere anche io
+47:33 le registrazioni delle lezioni passate.
+47:36 Ecco, da tutto qui che rivedere che sì,
+47:39 certo che sì. Allora, intanto intanto
+47:41 con questa impostazione di microfono
+47:43 arrivi perfettamente forte e chiara
+47:45 senza problemi. Meno male.
+47:47 >> Quindi questo va bene, memorizzalo
+47:49 perché è quello è quello da usare. Ok. E
+47:52 poi sì, le diciamo sicuramente tutti
+47:54 avrete le registrazioni.
+47:56 >> Ah, ok. Grazie. Grazie.
+47:59 >> Ok. E comunque se se anche ti sembrano
+48:02 cose strane, Stevie fammi la cortesia,
+48:05 cioè cerca comunque di mettiti alla
+48:07 prova sui questionari di fine corso che
+48:09 mandiamo perché aiutano a vedere e a
+48:11 memorizzare e a capire, d'accordo?
+48:14 >> Ok. Ok. Grazie
+48:16 >> a te. Ciao. Adesso Paolo. A te.
+48:20 >> Sì, scusa velocissimamente, forse non
+48:23 entra nell'argomento, ma un televisore a
+48:26 100 Hz com'è il discorso? Se l'Enel ci
+48:30 fornisce 50 Hz e il televisore funziona
+48:34 a 100.
+48:36 Allora, e perché i 50 e i 100 stanno in
+48:39 parti molto diverse della televisione,
+48:41 cioè i 50 Hz stanno nell'alimentatore.
+48:44 L'alimentatore poi di un TV genera tutta
+48:46 una serie di tensioni continue continue
+48:50 che fanno andare tutta la circuit del
+48:52 TV, quindi 50 Hz si fermano
+48:54 all'alimentatore.
+48:56 In tutta la circuit del TV vi viene
+48:59 generato un segnale a 100 Hz che è
+49:01 quello che serve per la scansione
+49:02 eccetera eccetera eccetera.
+49:05 Perfetto, grazie. Quindi 100 Hz non si
+49:08 riferiscono a dei dati, fammi dire, di
+49:11 di tensione d'alimentazione.
+49:15 Comunque fate bene, andate liberi anche
+49:17 con queste domande che non è male,
+49:19 servono per prendere confidenza con gli
+49:21 argomenti. Mh,
+49:23 riparto adesso.
+49:29 Adesso entriamo sul secondo argomento di
+49:33 stasera che è molto tranquillo e
+49:35 parliamo di onde Radio. Le On Radio
+49:38 fanno parte dell'esame e poi stasera e
+49:40 poi vi do un bel compitino da da da
+49:44 imparare se più o meno per Allora,
+49:47 intanto cos'è un'onda? Un'onda, partiamo
+49:51 dal dalla base, un'onda è una
+49:53 perturbazione che si propaga. Le onde
+49:55 radio sono delle perturbazioni che si
+49:57 propagano nello nello spazio. Allora,
+49:59 per visualizzare cos'è un un'onda, si
+50:03 può, diciamo, esempio classico, prendo
+50:06 il pennarello, è il sasso nello stagno.
+50:09 Qui avete un bello stagno piatto, vedete
+50:12 un bel sassolino, lo buttate qua nel
+50:14 mezzo e che succede? Sentite fare pluf e
+50:16 poi vedete, diciamo, un ononda, per
+50:19 l'appunto, si chiama un'onda che in
+50:22 maniera circolare si allarga, no? Voi
+50:25 gettando il sasso avete perturbato lo
+50:28 stato quieto del dello stagno e diciamo
+50:33 avete generato un'onda che si propaga,
+50:35 diciamo, circolarmente e si allontanano
+50:38 dal punto in cui avete gettato il sasso.
+50:41 Credo che questa cosa qui più o meno
+50:43 l'abbiamo fatta tutti nella nostra vita,
+50:45 anche più di una volta, consapevolmente
+50:47 o inconsapevolmente, no? E questo è
+50:50 proprio un esempio classico di
+50:51 perturbazione.
+50:53 Oppure si può prendere una corda tesa,
+50:56 come vedete qua, però questo è già più
+50:58 difficile da fare e col polso gli si dà
+51:01 un una specie di guizzo e si forma una
+51:04 specie di cappietto che si propaga.
+51:06 Oppure se in lontananza don si sente una
+51:09 campana che suona. anche anche un un
+51:12 rintocco di una campana è eh un'onda
+51:18 meccanica, in questo caso sempre un'onda
+51:20 di suono che si propaga. Quindi queste
+51:22 sono le onde. Le onde sono perturbazioni
+51:26 dello spazio, possono essereoidali, però
+51:30 quello che si propaga, invece, abbiamo
+51:31 parlato finora di batterie, generatori,
+51:34 alternatori, corrente e quelle non sono
+51:38 onde, no? Perché lì la propagazione
+51:39 avviene nei fili elettrici. Nei figli
+51:42 elettrici. Qua si parla di roba che si
+51:44 perturba nello spazio, nell'aria,
+51:46 nell'etere, come si chiamava un tempo.
+51:48 Mh.
+51:51 Noi ci interessa di queste onde, le onde
+51:53 radio. In pratica, che succede? Diciamo
+51:56 mettiamo che qualcuno di voi ha già e
+51:59 qualcuno poi prima o poi acquisterà un
+52:01 trasmettitore, un trasmettitore, un
+52:03 generatore di tensione alternata. questa
+52:05 tensione alternata tramite un cavo va a
+52:07 finire all'antenna. Questa questo
+52:10 schemetto che vedete qua sotto è
+52:12 un'antenna, una delle antenne più
+52:13 facili, il cosiddetto di polo. Poi,
+52:16 diciamo, avrete nelle lezioni sulle
+52:19 antenne parlerete, no? Qui, questo qui,
+52:23 qui avete il segno di tensione
+52:25 alternata. Questo qui è il vostro
+52:27 trasmettitore o il punto di arrivo del
+52:29 cavo che dal trasmettitore va
+52:31 all'antenna. E questi sono i due fili
+52:34 dell'antenna.
+52:35 il vostro trasmettitore manda una certa
+52:38 potenza a questi fili e su questi fili
+52:41 scorre corrente e c'è una tensione.
+52:44 questa corrente e questa tensione e che
+52:48 attraversa questi fili che sono nello
+52:50 spazio, nello spazio per esempio sul
+52:51 tetto di casa vostra banalmente generano
+52:55 un'onda elettromagnetica e l'onda si
+52:57 chiama elettromagnetica perché c'è una
+52:59 componente di campo elettrico dato dalle
+53:02 cariche elettriche come abbiamo visto
+53:04 nella nostra prima lezione, no? quando
+53:06 ci sono delle cariche elettriche
+53:07 positive o negative, di queste cariche
+53:10 elettriche si avverte
+53:13 la presenza nello spazio circostante
+53:15 perché si era detto che se c'è una
+53:17 carica elettrica qua fuori dalle vostre
+53:20 dalla vostra antenna, questa carica, ad
+53:22 esempio, se è positiva viene respinta da
+53:25 queste cariche positive, ma viene
+53:27 attratta da queste cariche negative,
+53:29 quindi magari fa così come come
+53:31 traiettoria e poi siccome c'è corrente
+53:34 che scorre c'è anche un campo magnetico.
+53:37 Quindi l'antenna genera un campo
+53:38 elettromagnetico
+53:40 che è un'onda e quest'onda si propaga
+53:42 nello spazio, no? che raggiunge la
+53:44 vostra città, la vostra regione, va
+53:46 oltre mare. Cioè, in teoria le onde,
+53:49 diciamo, poi eh camminando, percorrendo
+53:53 strada, pian pianino si attenono, ma in
+53:55 teoria non finiscono mai.
+53:58 E questa è un'onda,
+54:01 quindi la nostra radio genera
+54:04 eh uno un segnale un segnale alternato,
+54:09 diciamo. Questo segnale alterato mi ha
+54:11 mandata un'antenna. L'antenna trasforma
+54:13 questo segnale che corre in un cavo in
+54:16 un'onda elettromagnetica.
+54:19 Di un'onda elettromagnetica cosa si può
+54:21 dire? Intanto si può dire la frequenza,
+54:24 esattamente come si è fatto prima. Ma
+54:26 l'unità di misura è la stessa. Se io,
+54:28 per esempio, ho una radio sintonizzata
+54:30 su 14 MHz o su 27 MHz,
+54:34 conosco la frequenza dell'onda.
+54:37 Però siccome quest'onda si propaga
+54:39 nell'aria e non in un filo elettrico,
+54:42 come si era detto prima, queste onde
+54:43 hanno anche una lunghezza d'onda perché
+54:46 che succede? Intorno qua alla figura
+54:48 dello stagno, no? Voi avete buttato il
+54:51 sasso qua nel mezzo, pluf! Si è sentito
+54:54 e vedete coi vostri occhi che quest'onda
+54:58 si allarga con una certa velocità, cioè
+55:01 l'onda fa della strada e nel fare questa
+55:05 strada sale e scende, sale e scende,
+55:07 esattamente come vedete qua, no? Vedete
+55:09 che ci sono tutte queste cose
+55:11 circostanti dove il livello dell'acqua è
+55:13 un po' più alto e in altri punti dove il
+55:15 livello dell'acqua è un po' più basso.
+55:17 Se questa cosa la volete visualizzare,
+55:19 domani quando andate al lavoro in
+55:21 passeggiata e così via, passate da
+55:22 qualche parte dove c'è una fontana e
+55:25 pluf, ci buttate un qualche cosa, un
+55:27 qualcosa m questa lunghezza d'onda qui,
+55:31 di questa onda, scusate, la lunghezza
+55:32 d'onda si vede per esempio se io misuro
+55:35 da qui questo punto alto a un punto
+55:37 corrispondente, questo punto alto, se
+55:40 potessi andare lì con un righello,
+55:42 magari ci leggerei 30 cm, tanto per
+55:45 dire, di distanza fra
+55:49 un picco e un altro picco. Quindi potrei
+55:51 dire che questa lunghezza d'onda ha
+55:53 questa uffa, scusate, che questa onda ha
+55:56 una lunghezza d'onda di 30 cm. 30 cm è
+56:01 la distanza fra due parti
+56:04 eh corrispondenti.
+56:07 E questi 30 cm io misuro, io posso
+56:11 misurare la distanza, cosa che non
+56:12 facevo prima, no, quando avevamo le onde
+56:15 che passavano nei fili, perché
+56:16 quest'onda nello spazio cammina cammina
+56:20 anche veloce,
+56:22 quindi la lunghezza d'onda è la distanza
+56:24 fisica fra due punti omologi dell'onda.
+56:27 È questo percorso qui. Questo prima
+56:29 l'avevamo misurato in tempo, in periodo,
+56:32 quindi si misurava in secondi. Invece
+56:35 quando l'onda cammina nel vuoto, schizza
+56:37 via nel vuoto, l'onda fa della strada e
+56:40 quindi io posso misurare o calcolare
+56:45 questa strada qua, la strada che
+56:47 percorre in un ciclo.
+56:50 La strada la posso calcolare abbastanza
+56:53 facilmente. Le onde elettromagnetiche
+56:56 si propagano nel vuoto alla velocità
+56:58 della luce. La velocità della luce,
+57:00 ricordate, che è circa 300.000 km/s,
+57:03 quindi, come dicevo prima, le onde
+57:05 schizzano via, vanno veloci come
+57:09 la luce, appunto. La velocità della luce
+57:10 è 297.000 più o meno km/s, però per i
+57:14 calcoli nostri 300.000, Facciamo cifre
+57:16 su onde e va bene. Se la nostra onda,
+57:20 scusate,
+57:22 in un secondo fa 3000 km, scusam,
+57:25 scusate, 300.000 km la lunghezza d'onda,
+57:30 questa è la lettera greca lambda, la che
+57:33 che poi diventa diventa nell'alfabeto
+57:35 nostro, nell'alfabeto latino diventa L.
+57:38 Lettera greca lambda, è il simbolo della
+57:40 lunghezza d'onda, come leggete qua
+57:42 sotto.
+57:44 Eh, la lunghezza d'onda è semplicemente
+57:47 in questi 300.000 km quante onde fa.
+57:52 Quindi è semplicemente la divisione fra
+57:55 la velocità, cioè 300.000 km/s
+57:58 diviso
+58:00 la mia frequenza. La mia frequenza è il
+58:03 numero di onde che viene fatta in un
+58:04 secondo. Quando io trasmetto a 27 MHz in
+58:07 1 secondo faccio 27 milioni di di onde.
+58:11 27 milioni di su e giù fa il mio segnale
+58:13 radio e così ottengo la lunghezza
+58:16 d'onda. Questa è una formula piuttosto
+58:19 importante e da tenere in mente. Eh, se
+58:23 così non l'avete capito, la vediamo
+58:25 facilmente nei numeri.
+58:28 Questa è la stessa formula di prima,
+58:30 semplicemente con gli zeri un po'
+58:31 adattati per poter usare come unità di
+58:34 misura i MeHerz che l'unità di misura
+58:39 che che di solito si usa in campo
+58:41 radiomotoriale, no? Su che frequenza
+58:43 trasmetti? 7 MHz, 144 MHz, 27 MHz e i
+58:48 300.000 km delle chom al secondo delle
+58:52 luci sono diventati 300. Perché se io
+58:55 metto 300 e metto la frequenza in MHz,
+58:58 la lunghezza d'onda questa formula qui
+59:00 me la dà in metri. Me la dà in metri,
+59:02 che è un'unità di misura molto facile da
+59:05 comprendere, da gestire. E esempio,
+59:08 immaginiamo che io trasmetto a una
+59:10 frequenza d'onda di 14,200 MHz, quindi
+59:14 la mia onda va su e giù 14.200.000
+59:18 volte. Quant'è la mia lunghezza d'onda?
+59:20 300 / 14 e 2, cioè 21 m.
+59:25 Qui se io mettessi frequenza 27 MHz, la
+59:29 mia lunghezza d'onda quanto sarebbe?
+59:31 300/ 27, cioè circa 11 m.
+59:36 Quindi parlando di onde radio, ogni
+59:39 frequenza ha una sua lunghezza d'onda e
+59:41 poi succede anche il contrario. Ogni
+59:43 lunghezza tonda corrisponde una
+59:44 frequenza. Io prima ho calcolato
+59:47 eh,
+59:49 scusa,
+59:51 qui sto calcolando la lunghezza d'onda.
+59:53 Io potrei in realtà voler calcolare la
+59:56 frequenza. Qui questa formula l'abbiamo
+59:58 visto prima, no? Lambda = v / f. Potrei
+60:01 fare l'operazione contraria. La
+60:03 frequenza
+60:04 è semplicemente la velocità della luce
+60:07 diviso la lunghezza d'onda. Esempio, io
+60:10 sto trasmettendo su una lunghezza d'onda
+60:11 di 43 m. 43 m. Qual è la mia frequenza?
+60:16 300 / 43
+60:18 che sono circa 7 MHz.
+60:24 Questa che è l'ultima slide che vi
+60:26 mostro stasera, stiamo molto
+60:28 tranquillamente nei tempi. Questa
+60:31 tabella piena di numeri eh per l'esame
+60:35 bisogna saperlo. Questa fa parte della
+60:37 normativa, della parte, diciamo, finora
+60:40 quello che abbiamo quello di cui abbiamo
+60:43 parlato in queste tre sere è la parte
+60:45 tecnica del programma, però il risultato
+60:47 di quelle formule sulla lunghezza d'onda
+60:49 e la frequenza è questa tabella qui che
+60:52 è lo spettro delle frequenze radio. Lo
+60:55 spettro bisogna conoscerlo, anzi il
+60:57 Ministero ci tiene molto perché bisogna
+60:59 sapere dove si può trasmettere e dove
+61:00 non si può trasmettere. Allora, ve lo ve
+61:02 lo commento un po' e poi questo ve lo
+61:05 dovete guardare perché soprattutto la
+61:06 parte non in grigio c'è ci sono sempre
+61:10 varie domande su queste cose qua e poi
+61:12 vi faccio gli esempi di queste domande.
+61:14 Intanto vedete con questa parte bassa
+61:17 della tabella, diciamo qua,
+61:20 queste sono proprio questi sono segnali
+61:23 di frequenza molto bassa, da 3 a 30 Hz,
+61:27 da 30 a 300 Hz, da 300 a 3000 Hz, da 3
+61:32 da 3000, da 3 kHz a 30 kHz. Vedete che a
+61:36 queste frequenze corrispondono delle
+61:37 lunghezze d'onda. Queste cose le si
+61:40 possono calcolare con le formule che
+61:41 abbiamo visto prima. ha una frequenza di
+61:43 3 Hz corrisponde una lunghezza d'onda di
+61:46 100.000 km e questa cosa torna, no?
+61:49 Perché si era detto che la velocità
+61:50 della luce aveva 300.000 km/ 300.000. Se
+61:56 io in questi 300.000 km ho tre onde, 1 2
+61:59 3, ogni onda mi prende 1/3, 300.000 / 3
+62:03 100.000 km e così via e così via. Vedete
+62:07 che questi numeri 330 300, questa è una
+62:10 standardizzazione internazionale e
+62:12 questa è così, è proprio normativa,
+62:15 corrispondono queste lunghezze d'onda
+62:17 che via diventano più umane. Allora, in
+62:19 queste frequenze così basse, al di sotto
+62:21 dei 30 kHz, sostanzialmente non ci
+62:24 trasmette nessuno, con un'unica
+62:26 eccezione.
+62:27 non ci trasmette nessuno perché queste,
+62:30 diciamo, queste lunghezze di sono pieni
+62:32 di segnali generati dalla natura e ci
+62:35 sono una serie di segnali anche
+62:37 simpatici ad ascoltare, chiamate le
+62:39 sferiche, cose di questo tipo, no? viene
+62:42 chiamata radionatura quello che che
+62:43 accade qua sotto, però qui, diciamo, non
+62:46 c'è interessi commerciali e l'unica
+62:49 eccezione qua dentro ci sono dei sistemi
+62:51 di comunicazione a lunga distanza usati
+62:54 per i collegamenti con i sommergibili
+62:56 militari, perché frequenze così basse
+62:58 entrano anche al di sotto della
+63:00 superficie dell'acqua. Quindi ci sono
+63:02 dei dei segnali americani, cioè
+63:04 statunitensi, diciamo, russi e così via,
+63:06 frequenze molto molto basse. Però,
+63:09 diciamo, a parte questo, non c'è
+63:11 applicazione
+63:12 pratica.
+63:14 Quelle che vedete in bianco invece sono
+63:17 le bande in cui abbiamo anche noi delle
+63:20 concessioni di frequenza, intendo noi
+63:22 radiamatori, intanto chiamiamole come si
+63:25 chiamavano ai vecchi tempi, quando
+63:26 eravamo giovani. Ci sono le onde lunghe.
+63:30 Se avete usato una radio, magari qualche
+63:34 anno fa, c'è la banda delle onde lunghe,
+63:36 c'è la banda delle onde medie, c'è la
+63:38 banda delle onde corte e la banda delle
+63:40 onracorte. Le onde lunghe vanno da 30 a
+63:44 a 300 kHz che corrisponde a questa
+63:47 lunghezza tonda qua. Tutt'ora qualcuno
+63:48 qua ci sta trasmettendo
+63:51 paesi arabi e mediorientali eccetera. O
+63:54 domanda su cui si può fare anche ascolto
+63:57 di questi segnali di, diciamo, di
+64:01 le cosiddette broadcasting, no? Quindi
+64:03 segnali che trasm cioè stazioni che
+64:05 trasmettono musica, notiziari, eccetera
+64:08 eccetera. Poi c'è la banda delle onde
+64:10 medie da 1000 m a 100 m. Poi c'è la
+64:13 banda delle onde corte in cui c'è la
+64:15 maggior parte delle nostre
+64:16 bandieratoriali che va da 100 m a 10 m
+64:19 che in frequenza è da 3 a 30 MHz. Poi ci
+64:23 sono le VHF. Prima uno di voi aveva
+64:26 mostrato eh un diciamo un una di queste
+64:30 radio palmari. Queste le radie in WF
+64:32 tipicamente lavorano in queste bande qui
+64:34 fra i 100 e 300 MHz
+64:37 o più su. Vedete che le lunghezze d'onda
+64:39 cominciano a diventare un po' più corte
+64:41 si arriva fino a 1 m. Poi ci sono le
+64:43 UHF.
+64:45 Qui abbiamo la banda, ad esempio, dei
+64:47 432 su cui molti palmali lavorano.
+64:49 Corrispondono a 70 cm di lunghezza
+64:52 d'onda. Vedete qui le lunghezze d'onda
+64:54 diventano centimetriche.
+64:57 Poi ci sono le SHF, anche qui abbiamo
+65:00 delle delle bande 10 GB, 20 G, eccetera.
+65:04 lunghezze d'onda diventano corte,
+65:05 diventa sempre più difficile queste
+65:07 radio costruirle e fare le antenne. E
+65:10 poi infine le HF sembrano frequenze
+65:12 altissime da 300 a 3000 GHz, ma qui è in
+65:15 atto una grossa conizzazione di questa
+65:17 parte di spettro da parte di militari.
+65:20 Poi su queste frequenze, ad esempio,
+65:21 lavorano, non so se avete una radio, non
+65:24 una radio, scusate, una se avete una
+65:27 macchina di acquisto un po' recente,
+65:29 sarà piena di sensori che vi fa che vi
+65:31 fanno bip quando vi avvicinate troppo
+65:33 alla macchina davanti oppure vi fanno vi
+65:35 suonano quando parcheggiate e vi
+65:37 avvicinate troppo a alla macchina dietro
+65:41 a cui vi state vicino a cui vi state
+65:43 parcheggiando.
+65:45 E questi sensori sono dei radar a tutti
+65:48 gli effetti con frequenze fra i 30 e i
+65:50 40 GHz. Dico GHz, ok? Quindi si parla di
+65:56 eh
+65:58 Vi ricordate che il MHz è 1 milione di
+66:01 Hz, il gigz è 1 miliardo di di Hz.
+66:05 Allora, lo spettro che interessa a noi è
+66:08 qua e quindi non ora, non per la
+66:11 prossima volta, ma queste parole qui in
+66:13 qualche modo bisogna averle in in mente
+66:17 perché ci possono essere delle domande
+66:19 su su queste cose qua. Per esempio, un
+66:23 un segnale a 35 un segnale che ha una
+66:27 frequenza di 35 MHz
+66:30 è nellf, sì o no?
+66:35 E un po' di domande di questo tipo le
+66:37 avrete nel nella prova di esame che che
+66:40 appunto vi vi manteneremo domani e
+66:43 dopodomani. E questo è tutto per per
+66:45 stasera. Riassumo
+66:48 qui in questa tabella
+66:51 non c'è niente da capire, bisogna pian
+66:53 pianino impararla, soprattutto questa
+66:56 parte qua. Mh, poi la riprenderete nelle
+66:59 parti sulla normativa che non farò io,
+67:01 vi farà vi farà Silvio nell'ambito di
+67:03 questa tabella vedrete dove sono le
+67:05 bande radiamatoriali e quello poi
+67:07 chiaramente bisogna saperlo, no? Perché
+67:09 compri una radio la devi sintonizzare da
+67:11 qualche parte. Se non sai dov'è la
+67:13 banda, non non parli con nessuno. E poi
+67:16 abbiamo parlato delle onde in
+67:18 quest'ultima parte del discorso, no?
+67:20 Quest l'onda è questa perturbazione
+67:24 a una velocità di eh di eh diciamo di
+67:29 scorrimento, di viaggio. A questa
+67:31 velocità corrisponde anche una certa
+67:33 lunghezza d'onda.
+67:35 La relazione che c'è fra la lunghezza
+67:38 d'onda e la frequenza dell'onda è data
+67:40 da queste formule che abbiamo visto qua
+67:44 e che avete visto poi applicate nella
+67:46 tabella che vi ho mostrato prima. Quindi
+67:49 il 330 diventa ad esempio 10 100 e così
+67:54 via.
+67:57 E per stasera non ho non ho altro da
+67:59 dire se non a voi per domande.

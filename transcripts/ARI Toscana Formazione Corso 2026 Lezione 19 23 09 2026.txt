@@ -1,0 +1,2383 @@
+00:03 Ecco, Paolo, buon lavoro.
+00:08 Ok, perfetto. Intanto giusto se mi date
+00:11 conferma che eh vedete
+00:16 la slide.
+00:18 >> Sì, si vede bene.
+00:19 >> Ok.
+00:19 >> Ok,
+00:20 >> perfetto.
+00:21 >> Sì. Ok.
+00:23 Allora, m questa sera affrontiamo la
+00:26 seconda parte dell'argomento antenne
+00:30 ed in particolare stasera parleremo di
+00:33 antenne direttive,
+00:35 efficienza di radiazione e nell'ultima
+00:38 parte di misure sulle antenne.
+00:42 Allora, la volta scorsa abbiamo visto
+00:46 sostanzialmente
+00:48 che cos'è
+00:50 un'antenna, quali sono,
+00:54 diciamo, i meccanismi attraverso
+00:57 i quali si determina, cioè intanto che
+00:59 cos'è il lobo di radiazione, quali sono
+01:03 i meccanismi
+01:05 attraverso il quale si forma il lobo di
+01:08 radiazione di antenna ed in particolare
+01:11 nel nell'ultima Prima parte abbiamo
+01:13 parlato del dell'effetto
+01:17 del terreno o di superfici
+01:20 riflettenti
+01:22 sul lobo di radiazione verticale
+01:25 dell'antenna e come vedremo meglio
+01:28 stasera,
+01:30 di come il terreno o la presenza di
+01:33 superficie riflettenti a breve distanza
+01:35 dall'antenna possono incidere anche sul
+01:39 resistenza di radiazione dell'antenna
+01:41 stessa.
+01:42 e quindi, come vedremo anche sulla la
+01:45 sua efficienza.
+01:47 Quindi mh come ho detto l'altra sera, la
+01:50 volta scorsa, dobbiamo sempre tener
+01:53 presente questo aspetto che invece
+01:56 spesso, diciamo, viene un po'
+01:59 sottovalutato, anche perché se vi
+02:01 ricordate eh quando abbiamo parlato di
+02:04 propagazione ionosferica
+02:06 avevamo visto che eh
+02:11 quando operiamo su frequenze al di sopra
+02:14 della frequenza
+02:16 critica che vi ricorda la frequenza
+02:18 critica è quella che permette la
+02:20 riflessione per qualsiasi angolo. Quando
+02:23 lavoriamo su frequenze superiori la
+02:26 riflessione avviene solo se il fascio
+02:30 raggiunge la ionosfera con un certo
+02:33 angolo, perché se l'angolo è superiore
+02:36 la riflessione non si ha e il fascio,
+02:39 come dire, si perde eh fuori dalla da
+02:44 dalla ionosfera. Quindi è fondamentale
+02:47 che l'angolo, sarebbe fondamentale che
+02:51 l'angolo di radiazione della nostra
+02:52 antenna fosse coincidente
+02:56 con la il range di angoli in cui si ha
+03:01 la alla riflessione e l'esperienza, tra
+03:04 l'altro, ci dice, ma lo vedete un po'
+03:08 rappresentato anche graficamente dal
+03:10 disegnino a destra, dicevo, l'esperienza
+03:13 ci dice che per raggiungere la massima
+03:17 distanza, quindi come si usa dire per il
+03:21 dx, gli angoli migliori sono quelli
+03:25 bassi, diciamo il range di angoli
+03:27 compresi tra 0 e 20°.
+03:31 Questo perché eh diciamo quando
+03:35 lavoriamo e così facciamo un ripasso su
+03:38 quello che abbiamo detto l'altra volta a
+03:41 in prossimità della MUF, abbiamo detto
+03:44 che le condizioni migliori
+03:48 per realizzare un collegamento a lunga
+03:50 distanza si hanno operando
+03:53 su una frequenza che è
+03:57 intorno all'80-90%
+03:59 della muffa
+04:01 Quindi, quando operiamo su queste
+04:03 frequenze, l'angolo
+04:06 di riflessione sulla ionosfera è è tale
+04:11 che il nostro lobo di radiazione deve
+04:14 essere compreso tra 0 e al massimo 20°
+04:19 perché tutta l'energia irradiata con
+04:23 angoli superiori sostanzialmente
+04:26 è energia persa.
+04:28 E quindi avevamo visto che
+04:32 il lobo di radiazione di in particolare
+04:35 per avere dalla nostra antenna un angolo
+04:37 di radiazione abbastanza basso, o usiamo
+04:41 un'antenna a polarizzazione verticale,
+04:45 oppure se l'antenna è un'antenna a
+04:47 polarizzazione orizzontale deve essere
+04:50 posta ad un'altezza almeno superiore a
+04:55 mezza lunghezza d'onda. Quindi tutto
+04:58 questo sostanzialmente si riassume in
+05:02 quelle due righe qui scritte in rosso,
+05:04 ovvero il corretto angolo radiazione è
+05:06 fondamentale
+05:08 per ottenere le migliori condizioni di
+05:10 riflessione in base alle condizioni di
+05:13 propagazione e alla distanza da coprire.
+05:17 Quindi questo aspetto è
+05:20 eh dell'effetto del suolo e del
+05:22 comportamento dell'antenna in funzione
+05:24 dell'altezza dal dal suolo è un elemento
+05:29 sicuramente molto importante di cui
+05:31 sempre dobbiamo tenere conto.
+05:41 Analogamente però a quello che succede
+05:44 sul lobo di radiazione verticale,
+05:47 noi dobbiamo considerare che
+05:51 è un'ottima strategia
+05:54 anche quella di riuscire a concentrare
+05:57 sul piano orizzontale stavolta tutta
+06:01 l'energia irradiata nella direzione del
+06:04 nostro corrispondente
+06:07 perché tutta l'energia che io irradio
+06:10 in nelle nelle altre direzioni non avrà,
+06:15 fra virgolette nessuna utilità sul quel
+06:18 determinato collegamento. Quindi, se io
+06:22 sto effettuando in questo momento un
+06:26 collegamento radio con il Sud America,
+06:29 eh tutta l'energia che la mia antenna
+06:32 irradia in altre direzioni, diciamo, non
+06:36 è utile al collegamento stesso. Quindi
+06:40 un'ottima
+06:42 cosa sarebbe poter concentrare tutta
+06:46 l'energia disponibile, quindi tutta la
+06:48 potenza erogata dal mio trasmettitore
+06:51 nella direzione in cui mi serve di
+06:56 irradiarla.
+06:59 Quindi la modifica del lobo di
+07:01 radiazione di un'antenna non è soltanto,
+07:05 come dire, un effetto indesiderato
+07:08 eh della quale, ripeto, dobbiamo
+07:10 comunque tener conto, ma in certe
+07:13 condizioni è un effetto che può
+07:16 risultare molto utile e infatti è il
+07:19 caso eh di un'antenna direttiva ed
+07:22 un'antenna direttiva sostanzialmente
+07:25 funziona e si basa su meccanismi simili,
+07:29 anzi direi identici a quelli che abbiamo
+07:32 visto eh per la riflessione sul terreno.
+07:36 Quindi analogamente quello che avviene
+07:39 con la riflessione sul terreno, si può
+07:42 ottenere di concentrare il lobo di
+07:45 radiazione anche sul piano orizzontale
+07:49 attraverso
+07:51 sistemi che permettono
+07:54 di avere,
+07:56 diciamo,
+07:58 fasci
+08:01 diretti e fasci riflessi con opport una
+08:05 fase tale da concentrare l'intensità
+08:08 emesso nella direzione che ci interessa.
+08:11 Quindi
+08:13 il funzionamento di un'antenna direttiva
+08:15 si basa esattamente sullo stesso
+08:18 meccanismo, cioè somma,
+08:21 quella che si chiama una somma
+08:23 costruttiva di di più fasci. Vediamo
+08:26 adesso nel dettaglio eh come ciò può
+08:32 avvenire. Intanto definiamo subito un
+08:37 concetto che è quello del guadagno.
+08:40 Eh, si definisce il guadagno di
+08:43 un'antenna
+08:44 il rapporto tra l'intensità che lo
+08:48 vedete qui scritto in rosso. E vi
+08:50 ricordo che quando trovate queste
+08:53 scritte in rosso è bene che in qualche
+08:58 modo le guardiate perché spesso
+09:02 ritroverete qualcosa di simile nei nei
+09:05 quiz d'esame. Quindi dicevo, il guadagno
+09:07 di un'antenna è il rapporto tra
+09:09 l'intensità
+09:11 del campo emesso dalla mia antenna
+09:14 direttiva nella direzione del lobo
+09:16 principale rispetto all'intensità
+09:20 di campo emessa da un'antenna di
+09:22 riferimento. Antenna di riferimento che
+09:25 può essere il classico, anzi diciamo
+09:28 dovrebbe essere il classico radiatore
+09:31 isotropico. Vi ricordate? Abbiamo
+09:33 parlato l'altra volta, radiatore
+09:35 isotropico è un'antenna teorica che
+09:37 nella pratica non esiste, ma che ha la
+09:39 caratteristica di irradiare
+09:41 uniformemente in tutte le direzioni e
+09:46 ovviamente, diciamo, questo rapporto è a
+09:49 parità di potenza applicata.
+09:52 Purtroppo a complicarci la vita
+09:56 eh c'è il fatto che sebbene in teoria il
+10:01 guadagno di un'antenna dovrebbe essere
+10:05 sempre espresso
+10:07 in riferimento a radiatore isotropico e
+10:10 quindi come unità di misura dovremmo, ve
+10:13 l'avevo già anticipato l'altra volta,
+10:15 utilizzare il DB, cioè DB rispetto a
+10:20 all'is isotropico può capitare, anzi
+10:23 capita molto spesso di trovare valori di
+10:27 guadagno di un'antenna
+10:30 espressi in relazione a un dipolo eh
+10:34 fisico. Invece in questo caso si parla
+10:38 di DB D, cioè DB rispetto al di polo e
+10:42 vi ho detto l'altra volta che la
+10:45 differenza che c'è tra i due valori è
+10:48 pari a 2,1 dB che è il guadagno del
+10:52 dipolo reale sull'isotropico.
+10:55 Qui nel disegnino a destra vedete
+10:59 l'esempio
+11:01 di
+11:03 del la forma e quindi del guadagno del
+11:07 logo di radiazione di un'antenna
+11:08 direttiva. Questo è in rosso, tra
+11:10 l'altro questo in particolare riferito
+11:12 ad un'antenna direttiva cinque elementi
+11:16 e in blu il lobo di radiazione di un
+11:19 dipolo. Come vedete
+11:21 eh nel punto di massima radiazione
+11:25 l'antenna direttiva è ben 10 dB
+11:29 superiore rispetto alla massima
+11:32 radiazione del dipolo. E poi avessimo
+11:36 avuto invece il radiatore isotropico,
+11:39 abbiamo detto la differenza è 2 dB,
+11:41 quindi non sarebbero 10, ma sarebbero
+11:44 addirittura 12,1
+11:47 i DB guadagnati dall'antenna direttiva.
+11:50 Quindi è evidente che
+11:53 un eventuale corrispondente che ci
+11:56 ascolta nella direzione di massima
+12:00 radiazione riceve un segnale decisamente
+12:04 più elevato di quanto lo riceve lo
+12:08 potrebbe ricevere se io utilizzassi
+12:11 un semplice di polo. Questo a parità di
+12:15 potenza applicata. Quindi tenete conto
+12:18 di queste due cose che vi ho detto qui,
+12:21 cioè la definizione di guadagno e la
+12:25 differenza di 2,1 dB
+12:29 tra la misura riferita all'isotropico,
+12:32 quindi DB, e la misura riferita al
+12:35 dipolo reale DBD. Perché eh
+12:40 nelle domande di esame a volte capita
+12:43 proprio una una domanda di questo tipo
+12:46 in cui viene eh chiesto qual è l'unità
+12:51 di misura che si utilizza per il
+12:55 guadagno per definire il guadagno di
+12:57 un'antenna e la risposta esatta è in
+13:01 genere, cioè una risposta in cui si dice
+13:04 DB o DBD e quella è la risposta esatta.
+13:10 M può capitare invece che vi chiedono
+13:12 qual è la differenza tra il DB e il DBD
+13:16 come unità di misure e la risposta è 2,1
+13:19 dB.
+13:21 Bene, ma torniamo al discorso che
+13:23 facevamo prima, cioè vediamo in quale
+13:26 modo io posso concentrare la potenza
+13:29 irradiata
+13:31 dalla mia antenna direttiva in una
+13:35 specifica direzione per e ottenere
+13:38 quindi l'effetto direttività
+13:40 dell'antenna.
+13:42 Diciamo che esistono vari modi per
+13:45 ottenere l'effetto di deriattività, cioè
+13:47 quindi di concentrare l'energia in una
+13:51 specifica direzione.
+13:53 Diciamo che qui io vi ho rappresentato
+13:56 quelli più comuni. Il primo è quello di
+14:00 porre una superficie riflettente,
+14:04 opportunamente sagomata, in prossimità
+14:07 dell'elemento radiante. tipicamente
+14:10 uno specchio parabolico, ma potrebbe
+14:12 anche essere una superficie piana
+14:15 o
+14:17 o un una in qualche caso anche una
+14:21 superficie angolare, diciamo un elemento
+14:24 che in qualche modo possa riflettere il
+14:29 segnale irradiato in unica direzione.
+14:34 Diciamo
+14:35 l'elemento che lo fa nel modo migliore è
+14:40 lo specchio parabolico.
+14:43 Una sostanzialmente in questo caso lo
+14:47 specchio si comporta né più e né meno
+14:50 come il terreno nel riflettere il il
+14:54 fascio radio. Una seconda
+14:58 possibilità
+15:00 è quella di posizionare degli elementi
+15:04 che vengono chiamati elementi parassiti,
+15:07 ma semplicemente perché sono
+15:11 sostanzialmente dei dipoli non
+15:13 alimentati
+15:15 e di lunghezza opportuna e allineati
+15:19 nella direzione in cui si vuol
+15:21 concentrare il fascio. Questo è il
+15:23 meccanismo attraverso il quale funziona
+15:26 un antenna Iaji. Vedremo nelle slide
+15:29 nella in una slide successiva
+15:33 nel dettaglio qual è il meccanismo con
+15:36 cui si concentra l'energia. In questo
+15:40 caso il terzo metodo è abbastanza
+15:45 simile, nel senso si tratta sempre di
+15:49 far lavorare assieme più elementi
+15:52 radianti, ma in questo caso, a
+15:54 differenza dell'antenna
+15:57 tutti gli elementi sono alimentati,
+16:01 quindi sono, pensate a dei dipoli, come
+16:05 rappresentato nel nel disegno, eh tutti
+16:08 alimentati dalla stessa linea di
+16:10 alimentazione attraverso un dispositivo
+16:13 di accoppiamento.
+16:15 Dispositivo che oltretutto eh, come
+16:20 vedremo, permette di alimentare ogni
+16:23 singolo di polo con un segnale di fase
+16:26 opportuna, così da determinare
+16:30 la direzione in cui il fascio si
+16:34 concentra. Perché, vi ricordate, ne
+16:36 abbiamo parlato la volta scorsa per
+16:39 quanto riguarda la riflessione sul
+16:41 terreno,
+16:43 il
+16:45 dalla composizione di più fasci io posso
+16:48 ottenere
+16:50 un eh fascio complessivo che può essere
+16:55 la somma o la differenza a seconda della
+16:58 fase di ogni singolo segnale. Quindi,
+17:03 diciamo, ragionando nel verso opposto,
+17:06 io posso alimentare ogni singolo
+17:09 elemento
+17:11 con
+17:13 una fase a mio piacimento e così facendo
+17:16 io posso predeterminare qual è la
+17:19 direzione in cui avrò la massima
+17:22 radiazione.
+17:24 Questo, diciamo, è il caso appunto delle
+17:27 antenne con lineari, cosiddette
+17:29 collineare o array.
+17:34 Comunque, in ogni caso, dobbiamo sempre
+17:37 ricordare che in ambiente reale eh
+17:42 l'effetto di direttività
+17:45 che noi abbiamo ottenuto con un'antenna
+17:48 direttiva, con l'uso di uno di questi
+17:50 meccanismi
+17:52 eh per realizzare un'antenna
+17:54 direttiva, questo effetto si somma
+17:58 sempre e comunque anche a quello
+18:00 prodotto dall'ambiente
+18:03 circostante. Quindi diciamo che
+18:07 l'antenna direttiva
+18:10 mi permette di concentrare tutta
+18:12 l'energia
+18:14 o o una parte importante dell'energia in
+18:18 una certa direzione per quanto riguarda
+18:21 il piano orizzontale.
+18:23 fermo restando che poi l'angolo
+18:26 verticale con cui questa energia viene
+18:29 inradiata dipenderà sempre comunque
+18:33 dall'altezza dell'antenna rispetto al al
+18:37 suolo. Nel senso che se io uso
+18:39 un'antenna Iagi e la e la posiziono
+18:44 comunque bassa rispetto a terra, non è
+18:47 che il fascio è orizzontale, il fascio
+18:52 sarà maggiore nella direzione in cui
+18:56 punta l'antenna, ma l'angolo verticale
+18:59 dipenderà dall'altezza da terra e quindi
+19:02 se l'altezza è molto bassa, comunque il
+19:04 fascio punterà il cielo e non e non sarà
+19:09 orizzontale,
+19:11 quindi l'effetto del terreno si somma
+19:13 sempre a quello, diciamo, del
+19:17 dell'antenna direttiva,
+19:21 ma vediamo adesso nel dettaglio come
+19:23 avviene il meccanismo della
+19:25 concentrazione del fascio. Nel caso
+19:27 dello specchio parabolico, questo credo
+19:29 che sia abbastanza semplice ed intuitivo
+19:33 perché, come ce lo dice la la geometria,
+19:37 una superficie parabolica
+19:40 ha una caratteristica geometrica
+19:43 importante che vedete rappresentata nel
+19:45 disegno, ovvero che tutti i fasci che
+19:50 arrivano
+19:51 paralleli all'asse
+19:54 della parabola stessa
+19:58 vengono riflessi con un angolo tale che
+20:01 li concentra in un punto specifico che
+20:04 si chiama fuoco della parabola. Quindi,
+20:08 e se io ho uno specchio parabolico,
+20:11 eh tutto i fasci intercettati della
+20:15 superficie dello specchio vengono
+20:17 concentrati in un unico punto che si
+20:20 chiama fuoco. Viceversa. Se io metto un
+20:24 elemento radiante posizionato nel fuoco
+20:27 della parabola, tutta l'energia emessa
+20:31 nelle varie direzioni dall'elemento
+20:33 radiante
+20:35 e e che colpisce la superficie dello
+20:38 specchio, verrà riflessa tutta in
+20:41 un'unica direzione. è un po' quello che
+20:43 succede nel
+20:47 nei fari della macchina, dove la il la
+20:50 il riflettore interno non è altro che
+20:53 una superficie parabolica e al posto
+20:56 della dell'antenna ci sta la lampadina.
+21:01 Quindi l'antenna parabolica è eh
+21:05 funziona sostanzialmente su questo
+21:07 principio. Ovviamente per ragioni che
+21:10 immaginate facilmente legate alla
+21:13 lunghezza d'onda, un'antenna parabolica
+21:17 la si utilizza
+21:19 bene ed è facile da realizzare per
+21:22 frequenze molto elevate
+21:25 perché chiaramente le dimensioni
+21:27 dell'elemento radiante devono essere eh
+21:31 diciamo quasi trascurabili rispetto alle
+21:34 dimensioni della superficie parabolica,
+21:36 quindi realizzare una parabola per
+21:39 utilizzarla in onde corte diventerebbe
+21:43 assai difficile e complicato. Quindi
+21:46 questa è un'antenna che nel nostro
+21:49 ambiente ci interessa relativamente poco
+21:52 se non a partire da frequenze da da 1
+21:56 gig a salire,
+21:59 perché al di sotto avrebbe dimensioni
+22:02 che non che non sono ovviamente
+22:07 comode e maneggevoli.
+22:10 Vediamo adesso come funziona invece
+22:14 un'antenna Iagi. E questo ci interessa
+22:17 sicuramente più da vicino.
+22:20 Allora, consideriamo un semplice di
+22:23 polo, lo vedete qui a destra, alimentate
+22:25 al centro classico di polo.
+22:29 Se noi posizioniamo
+22:31 a breve distanza da dal polo alimentato
+22:36 un
+22:38 elemento di più o meno della stessa
+22:41 lunghezza
+22:43 e lo posizioniamo in quella che vi
+22:46 ricordate all'inizio della lezione
+22:48 scorsa vi ho parlato delle aree di
+22:51 prossimità dell'antenna. lo posizioniamo
+22:54 all'interno dell'area cosiddetta di
+22:57 campo vicino reattivo.
+23:01 Eh, questo secondo elemento si accoppia
+23:06 mutuamente in maniera abbastanza stretta
+23:09 con l'elemento radiante e diventa a sua
+23:12 volta sede di una corrente indotta.
+23:16 Perché vi ricordate? Io, senza entrare
+23:19 nei dettagli, vi ho detto che nella
+23:21 nell'area più prossima all'antenna, cioè
+23:23 quella cosiddetta di campo vicino
+23:25 reattivo, il comportamento dei campi è
+23:29 molto simile a quello di un
+23:30 trasformatore.
+23:32 Quindi questi due elementi si comportano
+23:35 in questo caso come gli avvolgimenti di
+23:39 un trasformatore. Quindi il primo
+23:42 elemento alimentato
+23:45 in a causa della mutua induzione con
+23:48 l'altro elemento genera una corrente
+23:51 indotta nel secondo elemento. Questo che
+23:54 cosa comporta? che quindi sia il primo
+23:58 elemento fisicamente alimentato, sia il
+24:02 secondo elemento alimentato per
+24:05 induzione ed è per questo che lo
+24:07 chiamiamo parassita, diventano elementi
+24:11 radianti.
+24:13 Se io,
+24:15 diciamo,
+24:17 in funzione della distanza e delle
+24:21 dimensioni dell'elemento che io vado a
+24:24 aggiungere,
+24:25 io posso determinare la differenza di
+24:29 fase
+24:31 tra la corrente che circola
+24:33 nell'elemento radiante e quella che
+24:35 circola nell'elemento parassita. E anche
+24:40 qui,
+24:41 dimensionandolo opportunamente io posso
+24:44 fare in modo che la differenza di fase
+24:49 tra le due correnti sia tale da far sì
+24:52 che i campi si sommino in una certa
+24:56 direzione che è tipicamente quella verso
+25:00 l'elemento
+25:02 parassita.
+25:04 Però spesso io ho un elemento parassita
+25:07 anche dall'altra parte.
+25:09 In questo caso l'elemento è e qui ho
+25:13 omesso di dire una cosa. In questo caso
+25:16 l'elemento parassita si chiama
+25:18 direttore, cioè elemento che sta nella
+25:20 direzione di di radiazione. io posso
+25:25 porre un elemento, un altro elemento
+25:27 parassita dall'altro lato e
+25:29 dimensionarlo
+25:31 per fare in modo che invece in questo
+25:33 caso la radiazione massima si abbia
+25:38 verso l'elemento radiante e non verso
+25:41 l'elemento parassita e quindi anche in
+25:44 questo caso concentrare l'energia sempre
+25:49 nella stessa direzione. In questo
+25:50 secondo caso, l'elemento posto, diciamo,
+25:55 posteriormente all'elemento radiante si
+25:57 chiama appunto riflettore perché invece
+26:02 di dirigere l'energia in avanti la
+26:04 riflette
+26:06 nel nell'altro verso. Poi posso
+26:08 aggiungere altri elementi
+26:11 oltre al primo direttore, un secondo, un
+26:14 terzo e così via,
+26:16 dimensionando opportunamente lunghezza e
+26:19 distanza. io posso fare in modo che eh
+26:23 questa serie di elementi produca la
+26:27 concentrazione dell'energia in un'unica
+26:29 direzione. Diciamo tutto questo
+26:31 ragionamento abbastanza complicato che
+26:33 vi ho fatto, lo vedete schematizzato
+26:36 in questa eh animazione abbastanza
+26:39 carina dove vedete appunto che eh
+26:44 dimensionando opportunamente
+26:46 questi quattro elementi, io posso fare
+26:48 in modo che le componenti emesse da ogni
+26:52 singolo elemento che qui sono riportate
+26:55 ciascuno con il suo colore abbiano la
+26:58 stessa fase
+27:00 solo nella direzione
+27:04 anteriore e fasi diverse nelle altre
+27:07 direzioni in modo che la i campi si
+27:12 sommino solo nella direzione di massima
+27:16 radiazione, cioè nella direzione dei
+27:18 direttori.
+27:20 Quindi questo è il meccanismo.
+27:23 Mi rendo conto che descritto così e
+27:27 no, non è banalissimo da comprendere.
+27:29 Questo è il meccanismo su cui si basa il
+27:32 funzionamento di un'antenna Iagi.
+27:35 Eh,
+27:38 quindi quello che è determinante
+27:42 per il corretto funzionamento della
+27:45 dell'antenna IAG è la distanza
+27:49 degli elementi passivi rispetto al
+27:52 radiatore e la lunghezza
+27:54 degli elementi passivi.
+27:59 Terzo ed ultimo meccanismo, come vi
+28:01 avevo detto, è quello delle antenne
+28:07 cosiddette collineari o array, in cui
+28:10 invece gli elementi sono tutti attivi
+28:13 perché sono tutti alimentati da una
+28:16 linea di alimentazione e la differenza
+28:19 di fase con cui le varie componenti
+28:22 raggiungono i singoli elementi sono
+28:25 determinati da un dispositivo di
+28:28 accoppiamento. Quindi l'accoppiatore,
+28:31 oltre a realizzare l'adattamento di
+28:33 impedenza, in questo caso abbiamo
+28:36 rappresentato una cortina di quattro di
+28:38 poli. Oltre a a determinare
+28:42 l'adattamento di impedenza, fa in modo
+28:45 che a ciascuno dei quattro di poli
+28:47 arrivi il segnale con la giusta fase per
+28:50 ottenere l'effetto
+28:53 di radiazione. E qui vedete ad esempio
+28:56 il lobo di radiazione che si può
+28:58 ottenere semplicemente variando la fase
+29:04 con cui si alimentano i i vari dipoli.
+29:07 Ora, nel nostro ambiente questa
+29:10 tipologia di antenne non è molto diffusa
+29:13 e eh
+29:15 o quantomeno è legato a a casi molto
+29:18 particolari. Comunque io qui vi ho
+29:20 riportato alcuni esempi con delle foto.
+29:24 Queste sono ad esempio delle antenne con
+29:26 lineari utilizzate in VHF.
+29:29 Eh, sono tra l'altro molto utilizzate
+29:33 nell'ambito della radiodiffusione. Le
+29:35 stazioni radio FM tipicamente usano
+29:39 antenne di eh di questo tipo che sono
+29:42 delle omnidirezionali
+29:44 a polarizzazione verticale che hanno la
+29:47 caratteristica di avere il lobo eh molto
+29:50 schiacciato in modo da concentrare il
+29:53 fascio più possibile eh vicino a terra.
+29:59 Un'altra eh tipologia di antenna di
+30:03 questo tipo è la log periodica che
+30:07 all'apparenza potrebbe essere scambiata
+30:09 per una Yaji. In realtà è un'antenna
+30:13 collineare perché nel caso della log
+30:15 periodica tutti gli elementi sono
+30:19 alimentati e la linea di alimentazione è
+30:22 costituita, tra l'altro dal
+30:27 boom che che sostengono l'antenna
+30:30 l'antenna stessa
+30:32 e diciamo che la forse la questo tipo di
+30:37 antenna log periodica è l'unica che
+30:41 qualche volta viene utilizzata anche nel
+30:43 nostro ambiente.
+30:46 Un'altra tipologia di array sono i
+30:50 vertical array utilizzati generalmente
+30:53 su frequenze eh molto basse.
+30:58 Tipicamente nel nostro ambiente vengono
+31:01 utilizzate
+31:02 sui in 80, in 160, qualche volta in 40 e
+31:08 quattro verticali alimentate in fase
+31:11 permettono di selezionare attraverso un
+31:14 meccanismo di di commutazione
+31:18 del della fase con cui vengono
+31:20 alimentate la direzione in cui si ha la
+31:23 massima radiazione. diciamo una sorta di
+31:27 antenna direttiva
+31:29 verticale per frequenze molto basse.
+31:33 Questo riportato qui in fotografia è un
+31:37 for square ray
+31:39 m quattro verticali da 20 m.
+31:45 Questo è un altro esempio di array di
+31:48 collineari usate probabilmente in ambito
+31:52 militare dalla dalla fotografia. Sembra
+31:55 eh sicuramente che si tratti di questo
+32:00 e questo sicuramente invece è in ambito
+32:03 militare perché questo era un famoso
+32:05 sistema d'antenna
+32:07 eh collineare come quello, scusate, un
+32:10 rey come quello che abbiamo visto prima
+32:13 che invece di eh quattro antenne ne
+32:16 aveva, se ricordo bene 32 e permetteva
+32:20 di avere una direttività estremamente
+32:24 marca ATA su tutto lo spettro del delle
+32:28 HF era utilizzato, credo fosse
+32:32 posizionata in un centro nato in
+32:34 Germania,
+32:36 era praticamente serviva a intercettare
+32:39 e a determinare la direzione da cui
+32:43 provenivano segnali in onde corte con
+32:46 un'approssimazione in termini di
+32:49 direzione molto stretta. Comunque
+32:52 rendetevi conto delle dimensioni. Si
+32:55 vede qua nel mezzo il parcheggio con
+32:58 delle auto parcheggiate, quindi era un
+33:01 sistema abbastanza
+33:04 impegnativo dal punto di vista delle
+33:05 dimensioni.
+33:08 Bene, l'ultima cosa che ci rimane da
+33:11 dire sulle antenne direttive e che
+33:16 importante che sappiate, perché anche
+33:19 questo può capitare che vi sia chiesto
+33:21 l'esame, è la definizione di
+33:24 un'ulteriore grandezza ulteriore al
+33:26 guadagno che è la potenza effettivamente
+33:29 irradiata
+33:31 e o come dicono gli inglesi effective
+33:34 radiated power e RP Il acronimo ERP
+33:40 sostanzialmente sta per potenza
+33:42 effettivamente
+33:43 irradiata. Abbiamo già detto che
+33:46 l'intensità del campo elettromagnetico
+33:49 emesso da un'antina direttiva nella
+33:52 direzione
+33:54 di massima radiazione
+33:57 risulta tanto maggiore quanto
+34:00 più elevato il suo guadagno. Quindi il
+34:04 valore di delle ERP è definito come il
+34:10 valore di potenza che dovrei applicare a
+34:14 un radiatore isotropico
+34:17 che, come abbiamo detto, ha per
+34:18 definizione guadagno unitario affinché
+34:21 possa generare un campo della stensa
+34:24 intensità di quello emesso dalla nostra
+34:27 antenna direttiva nella direzione del
+34:31 lobo di massima radiazione.
+34:33 detto poi in parole un pochino più
+34:37 comprensive
+34:39 dal punto di vista del e comprensibile
+34:43 comprensibili più che altro dal punto di
+34:45 vista di chi ci ascolta
+34:48 il se io trasmetto o con 100 W e la mia
+34:53 antenna direttiva guadagna 10 dB, chi mi
+34:56 ascolta mi ascolta con un segnale uguale
+35:00 a quello che riceverebbe.
+35:03 Se io stessi trasmettendo con un'antenna
+35:07 isotropica, ma con 1000 W invece che
+35:11 100, perché la potenza effettivamente
+35:15 irradiata nella direzione del massimo
+35:17 guadagno è pari a 1000 W, ovvero potenza
+35:22 del nostro trasmettitore moltiplicato il
+35:25 guadagno della nostra antenna.
+35:28 Attenzione però perché
+35:32 eh quando io parlo di di guadagno in
+35:36 genere parlo di DB, quindi non cascate
+35:41 nel tranello che a volte può capitare
+35:44 nelle domande in cui vi viene dato il
+35:48 valore in DB e quindi e vi viene chiesto
+35:52 l' RP. Non moltiplicate la potenza per i
+35:55 db perché commettete un errore, ma
+36:00 dovete prima calcolare
+36:04 a quale rapporto in potenza corrisponde
+36:07 il valore in DB. E vi ricordate, abbiamo
+36:10 detto 3B vuol dire due volte in potenza,
+36:13 10 dB vuol dire 10 volte, 6 dB vuol dire
+36:16 4 volte e così via. E quindi se
+36:20 l'antenna guadagna 6 dB
+36:24 la potenza va moltiplicata per 4. Se
+36:27 l'antenna guadagna 3 dB va moltiplicata
+36:29 per 2. Se l'antenna guadagna 20 dB la
+36:33 potenza va moltiplicata per 100. Quindi
+36:37 RP è sì il prodotto della potenza per il
+36:41 guadagno, ma il guadagno deve essere
+36:43 espresso in rapporto di potenza e non in
+36:47 e non in DB. Occhio perché qualche volta
+36:51 questo può capitare che vi venga
+36:53 chiesto.
+36:56 Bene, passiamo adesso all'efficienza di
+36:59 radiazione, se non ci sono eh domande su
+37:03 quello che abbiamo visto fino adesso.
+37:09 >> Per adesso Paolo non ci sono mai alzate.
+37:11 Se vuoi aspettare
+37:14 >> vedi te.
+37:17 Bene, comunque altrimenti se ci sono
+37:19 dubbi lo riprendiamo a alla fine, quindi
+37:23 se non ci sono domande passiamo
+37:27 all'efficienza di radiazione.
+37:33 Allora,
+37:35 abbiamo detto la volta scorsa, proprio
+37:37 nelle primissime slide,
+37:40 che eh
+37:44 la quello che genera la radiazione, cioè
+37:50 la radiazione di un campo
+37:51 elettromagnetico è la corrente che
+37:54 percorre l'elemento radiante.
+37:59 Ma affinché ci sia corrente che scorre
+38:03 nell'elemento radiante
+38:05 è sempre necessario, come io qui ho
+38:07 scritto nella slide, che le cariche
+38:09 elettriche
+38:11 dispongano di un percorso a attraverso
+38:14 il quale la corrente possa richiudersi
+38:17 verso il generatore. Quindi, se
+38:19 guardiamo nella parte di sinistra del
+38:22 disegnino, c'è rappresentato un dipolo
+38:25 alimentato al centro con il nostro
+38:27 generatore che eroga corrente e la
+38:31 corrente si richiude
+38:34 attraverso
+38:36 i due bracci del dipolo per l'effetto,
+38:39 diciamo, di capacità capacitivo che c'è
+38:43 tra i due elementi, le cariche passano
+38:46 da un elemento all'altro e si richiudono
+38:49 verso il generatore, quindi può
+38:51 circolare corrente nell'elemento
+38:53 radiante perché c'è questa richiusura.
+38:57 Tra l'altro, vi ricordate, e qui lo
+39:00 vedete, lo capite anche da un punto di
+39:02 vista pratico, come ciò avviene, che
+39:04 nell'elemento radiante la corrente è
+39:07 massima
+39:08 in prossimità del generatore e
+39:12 diminuisce andando verso gli estremi.
+39:15 Questo perché credo sia evidente, la
+39:18 capacità è maggiore in questa zona
+39:22 rispetto agli estremi e quindi la
+39:25 quantità di cariche, quindi la corrente
+39:29 è maggiore nel primo tratto
+39:31 dell'elemento radiante,
+39:34 mano si riduce fino all'estremo perché
+39:36 si distribuisce
+39:38 sostanzialmente
+39:40 lungo i i direi dei percorsi
+39:44 paralleli tra un elemento e l'altro.
+39:46 Questo è anche il meccanismo
+39:49 pratico che determina la il fatto che la
+39:52 corrente non sia costante lungo tutto
+39:54 l'elemento.
+39:57 Quindi questo significa che un elemento
+40:00 radiante deve sempre avere eh un
+40:05 diciamo meccanismo attraverso il quale
+40:08 la corrente si possa richiudere verso il
+40:10 generatore. Quindi, se è semplice
+40:13 comprendere questa cosa nel caso di
+40:16 un'antenna bilanciata come un dipolo, a
+40:20 volte lo è meno nel caso di un'antenna
+40:24 sbilanciata come un radiatore verticale
+40:27 a un quarto d'onda.
+40:30 radiatore che, e qui insisto su un
+40:33 concetto, deve sempre comunque avere un
+40:37 adeguato
+40:39 contrappeso, lo chiamano gli inglesi, un
+40:43 adeguato contrappeso attraverso il quale
+40:46 la corrente possa richiudersi verso il
+40:49 generatore.
+40:50 Comunque vedremo nelle prossime slide
+40:52 che in parte minore questo problema può
+40:56 riguardare, riguarda anche le antenne
+40:57 bilanciate.
+40:59 Tale aspetto, ripeto, è spesso
+41:01 sottovalutato e invece determinante
+41:04 per il corretto funzionamento
+41:06 dell'antenna. Questo con buona pace di
+41:09 chi pubblicizza antenne verticali senza
+41:12 l'uso
+41:14 di eh radiali di nessun tipo. Mi
+41:18 piacerebbe domandare a chi scrive queste
+41:21 cose, secondo lui, la corrente da dove
+41:23 si richiude?
+41:26 Il problema è che la corrente una strada
+41:28 la trova sempre. Il problema è vedere
+41:31 qual è questa strada.
+41:33 Allora, dicevo prima, contrariamente a
+41:36 quello che uno potrebbe potrebbe essere
+41:38 portato a pensare, anche antenne
+41:42 bilanciate come un dipolo,
+41:45 hanno possono avere il problema
+41:48 eh della corretta richiusura delle
+41:51 correnti in radiofrequenza,
+41:53 anche se, come vi dicevo prima, e qui lo
+41:56 vedete eh rappresentato ancora meglio,
+41:59 nel caso di un dipolo, il percorso
+42:02 principale delle correnti è quello che
+42:05 interessa i due bracci in questo modo
+42:08 attraverso, diciamo,
+42:11 l'effetto capacitivo esistente tra i due
+42:15 bracci,
+42:16 però in ambiente reale ed in particolare
+42:21 se il dipolo è ad un'altezza non elevata
+42:25 rispetto a terra, una parte anche
+42:29 significativa
+42:31 della corrente che percorre un braccio
+42:36 può richiudersi verso l'altro attraverso
+42:40 il terreno e attraverso l'effetto
+42:43 capacitivo che si instaura tra
+42:45 l'elemento e il terreno.
+42:48 E non solo, e e ancora peggio, aggiungo
+42:53 io, può richiudersi tra l'elemento
+42:57 collegato al polo centrale del cavo
+43:01 coassiale e la superficie esterna della
+43:05 calza del cavo coziale.
+43:08 In questo caso particolare
+43:12 il problema che si determina che è uno
+43:15 sbilanciamento
+43:17 delle correnti
+43:19 perché questo fenomeno riguarda
+43:22 prevalentemente
+43:24 il lato relativo alla all'elemento che è
+43:28 collegato con il polo caldo del
+43:30 cavoziale.
+43:32 Questo è il motivo
+43:35 principale per il quale ogni
+43:39 antenna, anche un dipolo
+43:42 ed in particolare un'antenna
+43:46 bilanciata deve essere dotata di un
+43:50 balun proprio perché deve essere evitata
+43:55 la possibilità che ci siano queste
+43:57 richiusure perché le correnti che si
+44:00 richiudono sulla alza esterna del cavo,
+44:04 le cosiddette correnti di modo comune
+44:06 hanno due effetti particolarmente
+44:09 negativi.
+44:10 Il primo rendono asimmetrico
+44:14 le correnti sui bracci del dipolo e
+44:16 quindi ne alterano la forma del lobo di
+44:19 radiazione che viene diventa sbilanciato
+44:24 su un lato rispetto all'altro, cioè si
+44:26 ha una radiazione maggiore in una
+44:28 direzione rispetto ad in un'altra, ma
+44:31 l'altro effetto ancora più dannoso che
+44:34 il cavo con la calza est la parte
+44:37 esterna della calza del cavo percorsa
+44:40 dalla corrente di modo comune diventa
+44:45 sostanzialmente
+44:46 un elemento radiante, cioè irradia. E
+44:49 siccome spesso il cavoale poi per
+44:51 raggiungere il nostro trasmettitore
+44:54 passa in prossimità di tante altre cose
+44:59 e può essere fonte di
+45:01 >> Paolo, scusami, non si vede la slide?
+45:05 >> Non si vede più la slide?
+45:07 No, la la vedi noi la vediamo.
+45:09 >> Si vede, si vede, si vede.
+45:11 >> Antonio controlla perché può darsi sia
+45:13 un problema di connessione. Noi la
+45:16 stiamo vedendo.
+45:16 >> Io la vedo. Noi la vediamo.
+45:18 >> Allora, scusa, scusate. Sicuramente
+45:21 c'ho qua o la batteria scarica. Ci sta.
+45:24 Chiedo scusa.
+45:25 >> Prego, prego, prego. Paolo,
+45:28 >> niente. Quindi vi dicevo, o
+45:31 questo effetto di radiazione può
+45:34 provocare
+45:35 disturbi a a terzi, quindi magari se il
+45:40 cavo passa in prossimità dell'impianto
+45:42 elettrico di casa, può distribuire
+45:44 disturbi sulla rete elettrica e quindi
+45:47 creare problemi ai vostri TV, alle
+45:50 vostre radio, ma soprattutto a quelle
+45:53 dei vicini
+45:55 e per contro per l'effetto opposto
+45:58 il meccanismo di reciprocità delle
+46:00 antenne, quindi questo in trasmissione
+46:03 in ricezione può raccattare disturbi che
+46:08 poi possono essere riportati
+46:10 all'ingresso del vostro ricevitore.
+46:14 Quindi è tassativo
+46:17 introdurre un meccanismo di blocco che
+46:20 per che in in qualche modo impedisca la
+46:24 formazione di correnti, cosiddette
+46:26 correnti di modo comune che percorrono
+46:28 la calza esterna
+46:30 del cavo. Dico, questo è il motivo per
+46:34 cui è sempre necessario un adeguato
+46:39 blocco
+46:41 nel punto di alimentazione. Allora,
+46:43 questo è un argomento su cui ci sarebbe
+46:45 tanto da dire, ma diciamo che per quanto
+46:50 riguarda quello che ci serve per l'esame
+46:53 è più che sufficiente quello che abbiamo
+46:57 fin qui detto. Infatti, come dicevo,
+47:02 quasi tutte le antenne, tranne poche
+47:04 eccezioni, hanno la caratteristica di
+47:07 essere bilanciate e quindi, come abbiamo
+47:11 detto, quando abbiamo parlato di linee,
+47:13 richiederebbero l'alimentazione con una
+47:15 linea anch'essa bilanciata, ma abbiamo
+47:18 visto che ormai le linee bilanciate non
+47:21 si usano o più, anche perché hanno
+47:24 alcuni problemi. l'uso del coassiale ha
+47:27 dei vantaggi sicuramente maggiori e
+47:31 quindi per potere utilizzare un'antenna
+47:34 bilanciata con una linea sbilanciata
+47:38 come un cavo coassiale io ho la
+47:42 necessità di utilizzare un dispositivo
+47:46 di adattamento.
+47:48 Questo dispositivo prende il nome di
+47:51 Balun che tra l'altro non è altro che
+47:55 l'abbreviazione del termine balanced to
+47:59 unbalanced, quindi da bilanciato a
+48:02 sbilanciato.
+48:04 Ma come vedremo meglio nella slide
+48:07 successiva,
+48:08 questi dispositivi, cioè il ballon, non
+48:12 fa solo il ballon, cioè la conversione
+48:17 da bilanciato a sbilanciato,
+48:20 ma spesso eh svolgono, devono svolgere
+48:25 eh anche altre importanti funzioni e
+48:29 vediamo quali sono.
+48:33 Abbiamo detto sempre quando abbiamo
+48:35 parlato delle linee che il corretto
+48:37 adattamento tra la linea e il punto di
+48:41 alimentazione
+48:43 deve di norma rispondere a tre esigenze
+48:48 principali,
+48:50 quindi l'adattamento
+48:52 di un carico bilanciato come un'antenna
+48:55 ad un cavo, a una linea sbilanciata come
+48:58 un cavo coassiale.
+49:00 il classico effetto appunto del ballon,
+49:04 ma anche adattare il valore di impedenza
+49:07 dell'antenna a quello della linea di
+49:10 alimentazione qualora fosse diverso.
+49:13 Parlavamo prima all'inizio prima di
+49:16 iniziare la lezione del dipolo CF che ha
+49:20 un'impedenza nel punto di alimentazione
+49:23 di 200 ohm, quindi 200 ohm bilanciati.
+49:28 In questo caso il ballun, oltre che ad
+49:32 fare l'adattamento
+49:34 tra bilanciato sbilanciato,
+49:37 mi deve anche realizzare l'adattamento
+49:39 di impedenza da 200 a 50 ohm. E questo è
+49:44 possibile utilizzando un ballon con
+49:48 rapporto di trasformazione 4 a1. lo
+49:51 vedete rappresentato qui nella nel
+49:54 disegnino in basso. E poi terza funzione
+49:58 estremamente importante, quella di cui
+50:01 vi ho parlato nella slide precedente,
+50:04 evitare la possibilità che correnti RF
+50:07 possano percorrere la superficie esterna
+50:10 del cavo coassiale, le famose correnti
+50:13 di modo comune, dando luogo a
+50:16 interferenze
+50:18 da eh il vostro trasmettitore verso il
+50:22 mondo circostante e viceversa nei
+50:25 confronti del nostro ricevitore. Molto
+50:29 spesso, anzi direi quasi sempre, queste
+50:32 tre diverse funzioni possono essere
+50:35 svolte da un unico dispositivo
+50:39 che è il il ballon che comunemente viene
+50:43 chiamato balon di corrente o guanella
+50:46 chock
+50:48 che nella configurazione più semplice,
+50:52 cioè quella col rapporto 1 a un
+50:55 sostanzialmente non è altro che un
+51:00 pezzo di cavo coassiale avvolto
+51:03 come un induttore in qualche caso in
+51:06 aria, come questo rappresentato in altri
+51:09 casi a seconda del frequenza di utilizzo
+51:13 avvolto intorno a un nucleo
+51:16 ferromagnetico.
+51:18 Comunque le tre funzioni principali a
+51:20 cui eh che svolge il
+51:25 ballon di corrente sono queste che
+51:27 vedete e sono eh diciamo funzioni
+51:32 estremamente importanti per il corretto
+51:34 funzionamento
+51:36 dell'antenna.
+51:38 A questo punto, dicevo, mh
+51:42 è leito porsi una domanda, ma se io
+51:45 quindi ho realizzato il perfetto
+51:47 adattamento
+51:49 della mia antenna, nel senso giusto
+51:52 rapporto di impedenza, il balun per
+51:55 conversione da eh bilanciato
+51:59 sbilanciato,
+52:00 tutta la potenza che genera il mio
+52:02 trasmettore è sempre irradiata sotto
+52:05 forma di campo elettromagnetico.
+52:09 la risposta purtroppo è ovviamente no,
+52:13 o meglio,
+52:16 in teoria questo potrebbe avvenire e
+52:20 quand'è che tutta la potenza che io
+52:23 genero col trasmettitore
+52:25 viene trasformata in energia
+52:28 elettromagnetica irradiata. Questo è
+52:31 possibile solo se l'antenna fosse posta
+52:34 in un ambiente ideale, famoso spazio
+52:37 libero, cioè privo di interferenze con
+52:41 qualsiasi altro elemento, interferenze
+52:44 spaziali, quindi eh niente terreno,
+52:47 niente eh masse metalliche, niente
+52:51 conduttori e l'antenna stessa forse
+52:54 realizzata con conduttori ideali, cioè
+52:58 totalmente privi di perdite.
+53:00 Purtroppo, siccome nella realtà non è
+53:02 mai così, io devo andare a definire
+53:06 quella che si chiama l'efficienza di
+53:08 radiazione di un'antenna, che altro che
+53:10 non è che il rapporto percentuale
+53:13 tra la potenza applicata potenza,
+53:18 diciamo, elettrica
+53:20 fornita dal trasmettitore nel punto di
+53:22 alimentazione e l'effettiva potenza
+53:25 irradiata sotto forma di campo
+53:27 magnetico. endimento è spesso in
+53:30 percentuale, quindi in teoria potre
+53:34 arrivare al 100%. Vedremo che nella
+53:37 pratica non sarà mai il 100%, ma vedremo
+53:40 anche che ci sono casi abbastanza
+53:43 clamorosi in cui questa percentuale è
+53:47 invece decisamente bassa.
+53:51 E perché accade questo?
+53:53 accade perché noi dobbiamo sempre
+53:55 ricordare, vi ho detto nell'altra
+53:58 lezione, la lezione scorsa all'inizio,
+54:02 che non sempre l'impedenza nel punto di
+54:05 alimentazione
+54:07 corrisponde esattamente alla resistenza
+54:10 di radiazione.
+54:12 E vi dicevo, dobbiamo sempre ricordare
+54:15 che l'impedenza che il nostro
+54:17 generatore, cioè il trasmettitore, vede
+54:21 nel punto di alimentazione dell'antenna,
+54:24 è sempre composta di due parti. Una che
+54:29 è l'effettiva resistenza di radiazione
+54:32 dell'antenna. Vi ricordate com'è
+54:35 definita la resistenza di radiazione?
+54:37 Tens di radiazione non è una resistenza
+54:40 fisica, ma è quel valore di resistenza
+54:43 che tiene conto della quantità di
+54:46 energia effettivamente
+54:49 irradiata.
+54:51 E una seconda resistenza che è la
+54:54 resistenza di perdita.
+54:57 Resistenza di perdita che a sua volta è
+55:00 costituita da vari elementi e la somma
+55:04 di di vari contributi, tra cui i
+55:08 principali sono
+55:10 la potenza che si dissipa proprio per
+55:13 effetto Jul nella resistenza fisica dei
+55:17 conduttori che costituiscono l'elemento
+55:20 radiante e dalle perdite negli
+55:23 isolatori. è ovvio che l'elemento
+55:26 radiante, che sia un filo piuttosto che
+55:30 un tubo eh metallico, è comunque avrà
+55:34 comunque una certa resistenza elettrica
+55:37 piccola, ma ce l'avrà. Poi vedremo più
+55:40 avanti che per a causa dell'effetto
+55:43 pelle questa resistenza non è poi
+55:45 nemmeno così piccola quanto si si
+55:48 potrebbe immaginare. E quindi proprio
+55:52 per la la classica
+55:55 legge di di oh la corrente che passa in
+56:00 una resistenza
+56:02 provoca, come dire una dissipazione di
+56:06 potenza. Questa potenza ovviamente che
+56:09 si dissipa per effetto Ciao nella
+56:11 resistenza eh elettrica dei conduttori e
+56:15 nella resistenza di perdita del
+56:17 dielettrico degli isolatori è potenza
+56:20 persa che non viene irradiata.
+56:23 Poi c'è una seconda, diciamo, componente
+56:29 che direi più importante, che sono le
+56:33 perdite nel terreno o in oggetti
+56:37 conduttori circostanti posti
+56:40 nell'area di campo vicino dell'antenna,
+56:45 elementi in cui per l'effetto di mutuo
+56:49 accoppiamento circolà una corrente
+56:51 indotta
+56:52 dai campi generati dall'antenna.
+56:54 Comunque diciamo che il terreno è il
+56:57 principale responsabile di questo
+57:00 effetto. Quindi, se ci sono condizioni
+57:04 per cui
+57:06 una parte importante della corrente che
+57:10 circola nell'elemento radiante
+57:12 attraversa il terreno e
+57:16 e
+57:18 l'effetto è che questa corrente nel
+57:20 terreno si dissipa sotto forma di calore
+57:24 sostanzialmente,
+57:26 per effetto Jul nella resistenza che è
+57:29 presente al terreno stesso e quindi è
+57:31 anche questa è potenza persa. Quindi se
+57:34 queste due componenti iniziano ad essere
+57:37 importanti, la potenza che io
+57:40 effettivamente irradio comincia a
+57:44 diminuire significativamente.
+57:47 Vi dicevo prima, vi ho accennato prima,
+57:50 l'effetto pelle. Ecco, è importante
+57:53 sapere questo. Mh, vi anticipo subito
+57:56 che non ci sarà una domanda all'esame su
+57:58 questa cosa, ma è bene saperlo che eh a
+58:04 differenza di quello che accade in
+58:06 corrente continua, un segnale ad alta
+58:10 frequenza, quindi una corrente in
+58:12 particolare, in questo caso ad alta
+58:14 frequenza che percorre un conduttore,
+58:18 non lo percorre nella sua interezza. ma
+58:22 tende a concentrarsi sulla superficie
+58:26 esterna. lo spessore
+58:29 in cui si ha penetrazione di corrente.
+58:32 Immaginate un conduttore, un tondino
+58:34 pieno in materiale metallico, un segnale
+58:37 a radiofrequenza che percorre, quindi
+58:40 una corrente radiofrequenza che percorre
+58:43 il conduttore non lo percorre nella sua
+58:45 interezza, ma ne percorre solo un
+58:49 piccolo spessore sulla superficie
+58:51 esterna. Questo spessore diminuisce
+58:55 abbastanza rapidamente in funzione della
+58:57 frequenza ed è mediamente molto piccolo.
+59:02 Qui tra l'altro varia in funzione del
+59:05 tipo di materiale. Qui avete un grafico
+59:07 che vi dice, per esempio, che a 10 MHz
+59:12 un conduttore di rame è la prima la
+59:16 prima linea rossa, in un conduttore di
+59:19 rame alla frequenza di 10 MHz.
+59:22 La penetrazione in millimetri
+59:26 è
+59:27 2 * 10^ -2, cioè 20 micron. Per cui se
+59:33 voi avete un conduttore anche
+59:36 grande del diametro di 1 cm,
+59:41 sappiate che la corrente RF lo percorre
+59:45 soltanto nei primi 10 eh millesimi di
+59:51 millimetro. Ma il resto del conduttore
+59:54 come se non ci fosse, come se fosse un
+59:56 tubo sostanzialmente.
+59:58 Questo ovviamente che fa sì che la
+60:01 resistenza
+60:03 del che la corrente incontra è molto
+60:07 maggiore di quella che incontrerebbe
+60:11 un una corrente continua. E quindi di
+60:14 questo dobbiamo tener conto,
+60:16 specialmente nel caso di antenne filari
+60:19 di elevata lunghezza che impiegano
+60:22 conduttori di diametri non elevati,
+60:26 perché in questo caso avremo valori di
+60:27 resistenza abbastanza importanti. Tanto
+60:30 per darvi un esempio, questa tabellina
+60:34 ci sono riportati i valori calcolati in
+60:37 ohm per un dipolo per le varie frequenze
+60:42 in funzione del del diametro del
+60:44 conduttore.
+60:46 Potete vedere, ad esempio, che un dipolo
+60:49 per gli 80 m
+60:51 per i 3,5 MHz, che quindi dipolo a mezza
+60:55 onda sarebbe lungo 40 m. 40 m di un
+60:59 conduttore
+61:01 di 1 mm di diametro hanno presentano
+61:04 questa frequenza ben 6,36 ohm. Se lo
+61:09 misurate col tester vedete che magari ha
+61:12 una resistenza di pochi centesimi di
+61:14 ohm. In realtà per un una corrente a 3,5
+61:19 MHz la resistenza è 6 ohm.
+61:23 E perché il la penetrazione è 30,35
+61:30 mm. Vedete che aumentando la frequenza
+61:33 la penetrazione diminuisce.
+61:35 Fortunatamente aumentando la frequenza
+61:38 diminuisce anche la lunghezza del dipolo
+61:40 e quindi le resistenze calano, ma sono
+61:43 comunque valori significativi perché
+61:44 sono dell'ordine di alcuni ohm, mentre
+61:48 se misurate 5 m di filo col tester eh vi
+61:52 risulta praticamente zero. Questo perché
+61:56 è è dovuto all'effetto pelle.
+62:01 Vediamo invece le perdite eh nel
+62:03 terreno. Come vi ho anticipato, le
+62:05 perdite nel terreno dipendono
+62:07 sostanzialmente dalle caratteristiche
+62:10 del terreno e sono generalmente maggiori
+62:15 in terreni di scarse caratteristiche di
+62:18 elettriche. Questo perché le correnti
+62:21 indotte in terreni con scarsa
+62:24 caratteristica di elettrica penetrano a
+62:26 maggior profondità e quindi la corrente,
+62:29 diciamo, percorre una parte maggiore di
+62:32 terreno e quindi aumentano le perdite. E
+62:36 le perdite, come vi ho detto prima,
+62:39 quando vi facevo vedere come si
+62:41 richiudono le correnti, aumentano
+62:44 ovviamente quando diminuisce l'altezza
+62:47 da terra.
+62:50 dell'antenna, altezza ovviamente in
+62:52 rapporto alla sua lunghezza d'onda.
+62:55 Le perdite sono abbastanza importanti
+63:00 anche nel caso di un'antenna orizzontale
+63:03 e diventano significative
+63:07 per altezze inferiori a un/4 d'onda.
+63:10 Quindi dovete sapere che se montate un
+63:13 dipolo ad un'altezza inferiore ad un/
+63:16 quarto d'onda, in questo caso la
+63:19 percentuale di corrente che eh percorre
+63:24 il terreno inizia a diventare
+63:27 significativa e quindi di conseguenza
+63:30 anche le perdite.
+63:32 Per lo stesso motivo, quindi, un'antenna
+63:36 verticale deve sempre avere
+63:41 dei radiali su cui si possa richiudere
+63:45 la corrente perché altrimenti la
+63:48 corrente che da qualche parte si deve
+63:50 richiudere gli si richiude o nel cavo
+63:55 se non avete un dispositivo di blocco,
+64:00 oppure a a attraverso il terreno e la
+64:05 connessione a terra del vostro apparato
+64:08 con tutte le conseguenze che ne derivano
+64:11 dal punto di vista di deformazione del
+64:14 lobo, di perdite che in questo caso sono
+64:18 estremamente
+64:19 elevate e possibilità di creare
+64:23 disturbi. Quindi ricordate, un'antenna
+64:25 verticale deve sempre avere un adeguato
+64:30 numero di radiali. Questo
+64:33 indipendentemente da dove la
+64:34 posizionate, sia che la posizionate su
+64:36 un tetto piuttosto che a terra, anzi
+64:41 diciamo se la posizionate a terra il
+64:44 problema è solo l'efficienza. Se la
+64:47 posizionate su un tetto, oltre
+64:48 l'efficienza, se non ha i radiali, ci
+64:50 sono anche problemi significativi di
+64:54 disturbi.
+64:56 Quindi, vi dicevo, le perdite diventano
+65:02 significative nel caso di un dipolo,
+65:05 quando è inferiore, l'altezza è
+65:07 inferiore a un quarto d'onda. Altra cosa
+65:08 che vi volevo far notare che oltre
+65:11 all'effetto delle, diciamo, legato alla
+65:14 perdita, c'è anche un effetto in
+65:17 particolare sull'antenna a
+65:18 polarizzazione orizzontale sul valore
+65:22 della resistenza di radiazione, nel
+65:25 senso che la resistenza di di radiazione
+65:28 di un dipolo che nominalmente
+65:31 è 72 ohm, valore che tra l'altro è
+65:35 riferito al caso di un dip polo posto ad
+65:38 un quarto d'onda da terra. Come vedete
+65:41 questo valore aumenta
+65:44 per un po' se io mi alzo per poi
+65:47 ridiminuire, per poi riaumentare,
+65:48 eccetera, man mano che mi alzo, ma se mi
+65:52 abbasso tende ad andare a zero.
+65:57 In realtà qui vedete una linea
+65:59 tratteggiata, quello che voi vedete se
+66:02 misurate l'impedenza di un dipolo man
+66:05 mano che si abbassa che a un certo punto
+66:08 il valore invece in realtà aumenta.
+66:10 Questo perché quello che misurate è la
+66:13 resistenza del terreno. Perché io vi ho
+66:16 detto, voi quando misurate vedete la
+66:18 resistenza di radiazione con in serie la
+66:21 resistenza di perdita. la resistenza di
+66:24 radiazione va a zero, la resistenza di
+66:27 perdita aumenta e quindi voi quello che
+66:30 misurate
+66:31 al di sotto di mezzo di un quarto eh
+66:35 d'onda, quello che misurate non è più la
+66:38 resistenza di radiazione, ma è la somma
+66:42 delle due e quando siete molto bassi è
+66:45 soltanto la resistenza di perdita.
+66:49 Quindi attenzione.
+66:53 Ecco qui questa slide è rappresentato le
+66:57 varie casistiche che vi dicevo prima nel
+66:59 caso di un'antenna verticale, se fosse
+67:02 priva di eh radiali, come si richiude la
+67:07 corrente e come può richiudersi
+67:10 e ad esempio verso il cavo, verso la
+67:14 calza esterna del cavo se non c'è un un
+67:18 dispositivo di
+67:21 di blocco come il ballon di corrente.
+67:25 Quindi abbiamo definito prima
+67:29 l'efficienza
+67:31 dell'antenna come il rapporto fra la
+67:34 potenza effettivamente irradiata e la
+67:36 potenza generata dal trasmettitore.
+67:39 Facendo due conti, noi possiamo
+67:42 dimostrare che questo valore
+67:44 sostanzialmente è dato dal rapporto fra
+67:48 la resistenza di radiazione e la somma
+67:51 tra la resistenza di radiazione e la
+67:54 resistenza di perdita. Questa formuletta
+67:57 ci dice una cosa molto interessante.
+68:01 Ci dice che a parità di perdite,
+68:05 tanto minore è la resistenza di
+68:08 radiazione, tanto minore sarà
+68:11 l'efficienza di radiazione.
+68:15 Pare quindi evidente.
+68:17 Io vi avevo detto l'altra volta, vi
+68:20 ricordate un'antenna caricata, se è
+68:23 particolarmente corta, ha un'efficienza
+68:27 molto bassa. Perché? Perché abbiamo
+68:30 detto che un'antenna
+68:32 eh corta ha un'efficienza di radiazione,
+68:36 ma scusate, una resistenza di radiazione
+68:39 molto bassa e quindi a parità di
+68:43 condizioni di installazione un'antenna
+68:46 caricata avrà per definizione un
+68:50 rendimento minore. E vi ho detto anche,
+68:53 e qui lo si può dimostrare, che antenne
+68:57 che hanno una lunghezza minore di 1 deo
+69:02 della lunghezza d'onda
+69:05 avranno resistenze di radiazione
+69:08 così basse da avere di fatto efficienze
+69:14 ridicole proprio per questo meccanismo,
+69:18 perché a parità di condizioni di perdita
+69:23 e quindi a parità di installazione.
+69:26 Sostanzialmente
+69:27 se la resistenza di radiazione è molto
+69:30 bassa, questo rapporto diventa piccolo,
+69:32 quindi l'efficienza
+69:35 diventa piccola.
+69:37 Bene, siccome mi rendo conto che questi
+69:39 discorsi possono in qualche modo creare
+69:43 qualche perplessità,
+69:45 eh provo a chiarirveli chiarirli meglio
+69:50 facendo alcuni esempi pratici. Ed in
+69:53 particolare io qui ho riportato tre
+69:55 esempi. Dico proviamo a calcolare
+69:58 l'efficienza di radiazione e e altri
+70:01 parametri in tre casi. Primo caso è un
+70:05 dipolo orizzontale per i 7 MHz posto a
+70:09 10 m da terra, una situazione abbastanza
+70:12 comune. Quindi a 1/4 di lunghezza
+70:15 d'onda, la lunghezza d'onda è 40 m, a
+70:17 1/4 di lunghezza d'onda da terra,
+70:21 realizzato con un conduttore di 1,5 su
+70:24 un terreno di caratteristiche medie.
+70:26 Secondo caso sempre un dipolo
+70:30 orizzontale, ma in questo caso per gli
+70:33 80 m, 3,5 MHz, posto sempre a 10 m, però
+70:38 in questo caso i 10 m,
+70:41 nel caso degli 80 m sono 1/8 di
+70:45 lunghezza d'onda da terra.
+70:48 Sempre conduttore di 1,5, sempre terreno
+70:52 di caratteristiche medie. E terzo caso,
+70:56 una verticale
+70:58 caricata in testa, vi ricordate il
+71:00 cappello capacitivo, quindi oltretutto
+71:02 la soluzione migliore tra le varie
+71:07 soluzioni di antenna caricata, perché
+71:09 quelle con la bobina alla base si
+71:12 comportano anche peggio. Quindi
+71:14 verticale caricata in testa, lunghezza
+71:18 untavo d'onda posta a terra
+71:21 e dotata di 16 radiali interrati
+71:26 lunghi anche questi 1/8 di lunghezza
+71:29 d'onda. Ecco, allora andiamo a vedere
+71:32 che cosa succede. Primo caso, di polo a
+71:37 un quarto d'onda da terra. Andiamo a
+71:40 vedere il il grafico. Ci dice che ha una
+71:42 resistenza di radiazione di 85 ohm.
+71:47 Secondo caso è a 1/8
+71:51 di lunghezza d'onda. La resistenza di
+71:53 radiazione è molto più bassa, 45 ohm.
+71:58 Vi ricordate? Questo era il grafico che
+72:01 vi ho fatto vedere prima di come va la
+72:03 l'imped la resistenza di radiazione.
+72:07 Terzo caso, antenna caricata,
+72:11 top loaded, cioè cappello capacitivo,
+72:14 lunghezza 0125, cioè un d'onda,
+72:19 resistenza di radiazione 20 ohm. Quindi
+72:22 questi sono i tre valori della
+72:23 resistenza di radiazione di queste tre
+72:27 antenne.
+72:29 Vediamo le resistenze di perdita.
+72:31 Allora, resistenze di perdita,
+72:33 come abbiamo detto, sono date dalla
+72:36 somma della resistenza del conduttore e
+72:39 della perdita nel terreno. Nel primo
+72:42 caso, la tabellina che vi ho fatto
+72:45 vedere prima ci dice di polo dei 7 MHz,
+72:49 diametro del conduttore 1,5,
+72:52 circa 3 ohm.
+72:54 ne aggiungiamo grosso modo uno per la
+72:58 perdita nel terreno, perché ad un quarto
+73:02 d'onda le perdite nel terreno sono
+73:04 pressoché trascurabili, quindi stimiamo
+73:08 una resistenza
+73:09 complessiva di perdita di 4 ohm. Secondo
+73:13 caso di polo degli 80,
+73:18 resistenza circa 4 ohm, però qui
+73:21 dobbiamo considerare una resistenza di
+73:24 perdita maggiore. Lo vediamo qui,
+73:28 eh, perché questo sta ad un ottavo
+73:32 invece di lunghezza d'onda da terra,
+73:34 quindi è più basso e pur essendo sempre
+73:37 a 10 m, ma in relazione alla lunghezza
+73:40 d'onda è unta stavolta e quindi stimiamo
+73:45 una resistenza di perdita di circa 7
+73:48 ohm. Terzo caso, la verticale
+73:52 con 16 radiali.
+73:54 Eh, qua eh diciamo il dato è è preso da
+73:58 un testo che poi vi citerò più avanti,
+74:02 abbastanza attendibile. Ci dice che un
+74:05 sistema di radiali interrati
+74:08 più o meno di queste caratteristiche,
+74:10 cioè qui parla di 15 radiali lunghi 0
+74:16 15. Nel nostro caso sono, io ho detto
+74:19 1/8, quindi sarebbe 0125, ma insomma
+74:23 possiamo stimare che il valore sia
+74:25 approssimativamente lo stesso. La
+74:27 resistenza di terra è circa 15 ohm,
+74:31 quindi
+74:33 praticamente
+74:35 eh considerato che nel nostro caso i
+74:38 radiali sono un pochino più corti, io ho
+74:41 stimato la resistenza
+74:43 intorno ai 18 ohm. Se facciamo la somma,
+74:47 noi vediamo che nel punto di
+74:49 alimentazione
+74:52 il nei tre casi ho 89 ohm nel primo
+74:56 caso, 52 ohm nel secondo, 38 nel terzo.
+75:01 Con questi valori io posso calcolarmi
+75:04 sia il Ross che vedo nel punto di
+75:07 alimentazione
+75:09 sia il rendimento dell'antenna.
+75:11 E se andate a vedere, nel primo caso io
+75:14 avrò un ROST di quasi 1,8, quindi non
+75:18 bassissimo,
+75:19 perché la
+75:22 l'impedenza che vediamo è circa 90 ohm,
+75:26 ma il rendimento è del 95%,
+75:29 per cui ho comunque una perdita
+75:32 abbastanza bassa, nel senso eh ho 5% di
+75:37 potenza persa. Nel secondo caso, io ho
+75:41 un valore di Rolls nettamente migliore,
+75:43 140, quasi perfetto, però il
+75:49 l'efficienza di radiazione è minore,
+75:52 86%, questo vuol dire che io perdo il
+75:55 14% di potenza in perdite.
+76:00 Terzo caso, anche in questo terzo caso
+76:03 il Ross non è elevato 1,31,
+76:07 ma l'efficienza di radiazione è
+76:10 addirittura il 52%.
+76:13 Quindi in questo terzo caso
+76:16 io perdo metà della potenza generata dal
+76:20 trasmettitore in perdite.
+76:24 Cosa ci dice di interessante questo
+76:27 esempio? intanto che l'efficienza di
+76:30 radiazione può cambiare
+76:32 significativamente a seconda delle
+76:34 condizioni, ma ci dice un'altra cosa
+76:37 interessante che spesso non viene
+76:39 considerata, che il valore di Ross che
+76:43 noi andiamo a misurare ci dice sì se
+76:47 l'antenna è adattata, quindi se il
+76:49 nostro trasmettitore sta tranquillo, se
+76:52 non ci sono non c'è potenza riflessa,
+76:55 che diciamo non c' non c'è stress, per
+76:58 così dire, né dal punto di vista del
+77:01 trasmettitore né della linea, ma non ci
+77:04 dà nessuna informazione utile e
+77:08 attendibile per sapere quanta energia
+77:11 effettivamente viene irradiata sotto
+77:15 forma di campo elettromagnetico.
+77:18 Infatti dico, prima vi avevo accennato
+77:21 ad un testo che nel nostro ambiente è
+77:24 considerata quasi una Bibbia, il Love
+77:29 Bud exing di scritto dal compianto
+77:33 perché è scomparso da poco John
+77:35 Devoldero N4
+77:37 che a un certo punto in questo libro
+77:40 dice un basso valore di SWVR
+77:44 qua non è indicazione.
+77:47 di una di una buona performance
+77:51 dell'antenna.
+77:54 Infatti, diceva lui, l'antenna con il
+77:56 miglior valore di SWR
+77:59 è un buon carico fittizzio. E al di là
+78:03 della provocazione questo è vero, perché
+78:05 se voi attaccate il trasmettitore ad un
+78:08 carico fittizio, quella che si chiama
+78:10 un'antenna artificiale,
+78:12 eh il Ross è zero, l'adattamento è
+78:14 perfetto, ma non vi sente nessuno.
+78:18 Quindi attenzione perché misurare il
+78:20 ross dell'antenna serve a stabilire se
+78:23 io sono in condizioni di buon
+78:26 adattamento e eh non ho onde
+78:29 stazionarie, quindi il trasmettitore non
+78:31 soffre, ma non ho nessuna certezza di
+78:35 quanta energia sto effettivamente
+78:38 irradiando. Quindi questa è un'altra
+78:40 cosa che spesso viene è sottovalutata.
+78:46 Ecco, siamo arrivati praticamente alla
+78:48 fine, ci sono rimaste due o tre slide su
+78:52 le misure, quindi eh so a questo punto
+78:56 se vogliamo concludere oppure se ci sono
+78:58 dubbi su quello che abbiamo visto fino
+79:01 adesso,
+79:04 altrimenti
+79:06 chiudiamo e rimandiamo
+79:09 le domande al termine. Comunque, se ci
+79:12 sono dubbi,
+79:19 una prima domanda da Francesco.
+79:24 >> Dimmi. Francesco.
+79:29 >> Francesco. Francesco, mi sa che hai
+79:32 problemi di audio.
+79:36 Non ti ascoltiamo.
+79:42 Francesco, mi dispiace, non non sei
+79:46 comprensibile.
+79:48 Prova a vedere un attimo se risolvi i
+79:50 problemi, altrimenti l'altra soluzione
+79:53 potrebbe essere scrivi sul gruppo
+79:55 Telegram e io leggerò la tua domanda a
+79:58 Paolo.
+80:02 Provo. Mi sentite ora?
+80:04 >> Adesso sì,
+80:05 >> adesso sì.
+80:05 >> Eh sì, perché non avevo le cuffie. Ok.
+80:08 No, scusate, tornando due slide dietro,
+80:11 volevo capire, ma con i dati che noi
+80:13 abbiamo della resistenza noi com'è la
+80:16 formula per calcolare anche il Ross?
+80:19 Cioè, si può calcolare con questi dati
+80:21 qua? Eh, sì, però non si riesce a
+80:22 calcolare con questi dati qua o sì?
+80:25 >> Sì, eccola qua. Eh, allora, a seconda la
+80:29 formula è questa e tra l'altro c'è anche
+80:32 nelle slide delle linee.
+80:34 >> No, no, infatti questo me la ricordo la
+80:36 la formula. Esatto. E il Ross è
+80:39 semplicemente il rapporto tra la Z0 che
+80:42 è l'impedenza della linea, quindi i
+80:44 nostri 50 ohm tipicamente del cavo.
+80:47 >> Ah, ok. La ZL, ok? e e la ZL questa che
+80:50 sarebbe la RL che è la somma della
+80:53 resistenza di radiazione
+80:55 >> oppure il rovescio. Questo dipende solo
+80:58 se la eh il carico è ha un'impudenza
+81:02 maggiore o minore del
+81:06 >> di quella caratteristica
+81:07 >> dell'impedenza caratteristica. Questo
+81:09 perché ovviamente siccome il valore
+81:12 minimo di Ross è uno, se l'impedenza
+81:16 fosse come dire eh
+81:19 minore questa questo rapporto sarebbe
+81:23 minore di 1. Quindi sostanzialmente
+81:26 si divide in due parti la formula.
+81:28 Quindi dovete vedere se infatti
+81:31 nell'esempio lo vediamo bene qui nei
+81:33 primi due casi si applica la seconda
+81:39 perché RL 89 è mag
+81:44 52 mag> 50. Nel terzo caso si applica
+81:49 l'inverso perché 38 è di 50, ma se fate
+81:54 89 diviso eh 50 o 52, ora non mi ricordo
+82:00 che valore ho usato come Z0, vi viene
+82:02 fuori giusto 1,78,
+82:06 così come se facciamo 38,
+82:09 eh, cioè, scusate, 50 / 38 dovrebbe
+82:14 venir fuori un 21. Quindi questa è la
+82:17 formula per il calcolo del Ross, quindi
+82:20 e questa è quella per il calcolo del
+82:23 rendimento.
+82:24 >> Sì, sì, sì, perfetto, grazie mille.
+82:26 >> Chiaro.
+82:27 >> Sì, sì, adesso sì, grazie.
+82:31 >> Abbiamo anche Giovanni.
+82:33 >> Sì,
+82:34 >> sì. E grazie Paolo. Una domanda.
+82:38 Esistono possibilità di avere domande in
+82:40 fase di test dove ci chiedono di
+82:42 calcolare il Ross?
+82:48 Non mi pare di ricordare qualche ci
+82:51 siano domande di di questo tipo. Mi
+82:55 sembra di no. Ora magari provo a dare
+82:58 un'occhiata qualche
+83:00 in archivio un po' di di di
+83:04 dati sulle domande che sono state
+83:07 formulate in passato. Mi sembrerebbe di
+83:10 no, però eh non sono del tutto sicuro.
+83:14 Magari questo lo verifico. In ogni caso,
+83:16 però, ripeto, applicando questa
+83:20 formuletta è abbastanza semplice perché
+83:24 se se vi fosse chiesta una cosa del
+83:27 genere, mi immagino non possono che
+83:30 dirvi sostanzialmente che valore di Ross
+83:34 può presentare un'antenna,
+83:36 per dire, che ha un'impedenza di 100
+83:39 ohm, alimentata, una linea a 50 ohm. E
+83:42 il calcolo è comunque banale, il ross è
+83:44 due,
+83:47 quindi non mi sembra che ci siano mai
+83:50 state domande
+83:52 secche in questo senso
+83:57 che che mi ricordi, però magari lo lo
+84:00 verifico
+84:02 eventualmente per la prossima volta
+84:05 quando faremo la correzione dei quiz
+84:09 ve lo dico. In ogni caso, ripeto, tenete
+84:12 conto di queste formuline abbastanza
+84:16 semplici, poi, diciamo, nell'uso
+84:18 corrente vi verrà abbastanza semplice il
+84:23 fatto, anzi, diciamo, spesso si usa il
+84:27 rovescio, cioè misuro il Ross e una
+84:31 volta misurato il Ross io
+84:33 automaticamente
+84:36 riesco ad avere un'idea di qual è
+84:38 l'effettiva impedenza dell'antenna.
+84:41 Il problema è che avrò il dubbio
+84:44 perché è chiaro che se applico la
+84:45 formula alla rovescia in cui l'incognita
+84:48 è la ZL io non so a priori se è maggiore
+84:52 o minore. Quindi se io ho un Ross di
+84:55 due, so per certo una cosa che l'antenna
+84:59 o ha un'impedenza di 25 ohm o
+85:02 un'impedenza di 100 ohm. Perché i due
+85:04 valori,
+85:06 quello maggiore e quello minore che mi
+85:08 danno un ross di due sono 100 in un
+85:12 caso, 25 nell'altro.
+85:16 però diciamo è un calcolo abbastanza
+85:19 banale nel caso che vi fosse chiesto.
+85:24 >> Un'ultima domanda da parte di
+85:26 Gianfranco.
+85:29 >> Paolo, una domanda. Eh, in realtà due,
+85:32 eh i radiali,
+85:35 >> sì. Eh, ho sbirciando adesso su internet
+85:38 mentre stava parlando così ho visto che
+85:41 sono delle fisicamente sono eh del dei
+85:47 strisce di metallo che sono
+85:49 perpendicolari all'antenna.
+85:51 >> Sì.
+85:52 >> Ok. Questa è la
+85:53 >> dei conduttori. Sì,
+85:54 >> dei conduttori che sono perpendicolari.
+85:56 Ma come si richiudono sull'antenna?
+85:58 Questo non ho capito.
+86:01 >> No, non si richiudono. Sono collegati al
+86:04 polo freddo, per così dire, della media
+86:06 freddo. Ok.
+86:07 >> Sì. Quindi alla alla calza del
+86:09 >> la calza del conduttore del cavo. Ok.
+86:12 >> Sì. In realtà non direttamente perché
+86:15 come vi ho detto nel mezzo ci deve
+86:17 essere sempre e comunque un ballon
+86:19 perché
+86:20 >> un ballon, ok? Devi comunque evitare la
+86:23 possibilità che ci siano correnti che si
+86:25 richiudono sulla calza,
+86:27 mentre se fosse semplicemente collegato
+86:31 all calza, comunque
+86:35 quello quello schemettino, guardate,
+86:37 faccio prima a tornare indietro sulle
+86:39 slide.
+86:43 Eccolo qua. Vedi il il disegno di questo
+86:49 è il classico caso in cui i due radiali,
+86:52 quindi ne sono rappresentati due per
+86:54 semplicità, sono collegati con la,
+86:57 diciamo, col polo freddo, con la calza
+86:58 del cavo coassiale, mentre il polo caldo
+87:02 è collegato con con l'elemento
+87:04 verticale. Se io qui non pongo il ballon
+87:07 come si vede qua sotto, comunque ci sarà
+87:11 una capacità parassita tra l'elemento
+87:14 radiante, la calza del cavo e quindi
+87:17 correnti che possono percorrere il cavo.
+87:20 Comunque la connessione è questa che è
+87:22 quella che vedi qui.
+87:24 >> Ok. E deve essere interrato. Ho visto
+87:27 nell'esempio che faceva
+87:28 >> Non necessariamente non infatti qui ci
+87:30 sono entrambi i casi. Ci sono po'
+87:33 radiali interrati o radiali, come si
+87:36 suol dire, sollevati. Sì, esatto.
+87:39 >> Radiali.
+87:40 Chiaramente questo è il caso tipico in
+87:43 cui l'antenna magari è posta su un
+87:44 tetto. Se è posta a terra, diciamo, può
+87:47 essere conveniente
+87:49 eh interrarli sostanzialmente.
+87:53 Chiaramente, ora, qui si va in un
+87:56 discorso abbastanzaì
+87:59 lungo, perché poi c'è il caso in cui se
+88:04 ci sono due casistiche, radiali
+88:06 risonanti e tipicamente il caso dei
+88:09 radiali cosiddetti in aria in cui si
+88:12 preferisce la soluzione del radiale
+88:14 risonante, quindi di lunghezza
+88:16 calcolata. Nel caso del radiale
+88:18 interrato, per una serie di motivi, eh
+88:22 il radiale non è risonante
+88:25 e quindi la lunghezza non è calcolata o
+88:27 quantomeno non è così determinante come
+88:30 nel caso del del radiale risonante. Ci
+88:34 sono tutta una serie di di di argomenti
+88:36 che insomma
+88:38 >> andrebbero nel caso specifico non vi
+88:41 servono, ma comunque vi serviranno in
+88:43 futuro.
+88:44 >> Era giusto per visualizzarlo.
+88:46 >> Grazie. Perfetto.
+88:53 Allora, se non ci sono altre domande, le
+88:56 ultime due cosette sulle misure.
+89:01 Allora, intanto una cosa, rispetto a a
+89:05 quando ho iniziato io ad occuparmi
+89:08 di radio, le cose sono particolarmente
+89:12 cambiate. Oggi per chi vuole dedicarsi
+89:15 all'auto in particolare delle antenne
+89:17 che come diceva Paolo PVA prima di
+89:21 iniziare la lezione è forse l'ultimo
+89:24 ambito dove ancora
+89:26 è è facile poter farsi qualcosa in casa.
+89:31 Diciamo per chi volesse dedicarsi a
+89:33 questa attività oggi, diciamo, c'è un
+89:36 supporto
+89:37 eh
+89:39 un buon supporto con da parte di
+89:42 strumentazione
+89:44 sia hardware sia software, accessibile
+89:47 anche a costi tutto sommato abbordabili
+89:52 e eh
+89:54 diciamo strumentazione che fino a non
+89:58 molti anni fa in realtà
+90:00 era accessibile solo a livello
+90:03 professionale. Io sto parlando di
+90:06 analizzatori d'antenna piuttosto
+90:10 che
+90:11 analizzatori vettoriali piuttosto che di
+90:15 software di simulazione.
+90:18 diciamo sono strumenti
+90:21 tutto sommato estremamente potenti anche
+90:24 nella versione, come dire, amatoriale e
+90:29 quindi consiglio a chi ha intenzione,
+90:32 voglia, interesse di dedicarsi
+90:35 a questa attività, di dotarsi di questa
+90:39 strumentazione perché l'ausilio che può
+90:43 fornire è veramente veramente
+90:45 importante. ripeto, adesso è disponibile
+90:49 a costi,
+90:51 diciamo, abbordabili, abbastanza bassi e
+90:56 quindi è un investimento che consiglio.
+91:01 Naturalmente
+91:04 eh quando facciamo delle misure bisogna
+91:08 sempre avere idea di quello che stiamo
+91:11 facendo. E provo anche in questo caso a
+91:14 fare qualche esempio pratico. Ad
+91:17 esempio, quando si fanno le misure di
+91:19 impedenza con l'analizzatore di antenna,
+91:22 dobbiamo sempre ricordarci che in
+91:26 presenza
+91:28 di
+91:29 una linea che alimenta un carico magari
+91:34 di cui non siamo certi del valore di
+91:37 impedenza,
+91:39 c'è la possibilità che ci si trovi in
+91:43 regime, come abbiamo detto quando si
+91:45 parlava di linee, di regime di onde
+91:48 stazionarie.
+91:49 In questo caso, se io vado a fare la
+91:52 misura di impedenza
+91:54 all'estremità, all'altra estremità del
+91:57 cavo, dobbiamo ricordare che quello che
+92:00 io misuro non potrà mai essere il valore
+92:05 di ZL, cioè dell'impedenza
+92:08 della nostra antenna, dell'impedenza su
+92:10 cui è chiusa la linea, ma tranne
+92:13 ovviamente come lo come ho scritto qui
+92:16 il caso in cui la lunghezza della linea
+92:19 sia esattamente un multiplo intero di
+92:23 lambda/2.
+92:24 Quindi in tutti gli altri casi, quindi
+92:26 direi quasi sempre, quello che io andrò
+92:29 a misurare sarà qualcosa di diverso e
+92:33 quindi attenzione a non farvi trarre in
+92:36 inganno da questa cosa.
+92:40 Stesso discorso ovviamente è se io vado
+92:44 a fare la misura con un VNA, con un
+92:50 analizzatore eh vettoriale,
+92:54 per esempio, un errore che spesso si
+92:57 commette in questo caso è di pensare che
+93:00 il valore, cioè la risonanza, sia il
+93:05 punto in cui la traccia che rappresenta
+93:08 l'impedenza misurata
+93:11 La traccia riportata sulla carta di
+93:13 Smith passa per il punto dove non ci
+93:16 sono componenti reattive, quindi punto
+93:18 in cui il valore è puramente resistivo.
+93:22 Attenzione perché se lo strumento non è
+93:27 opportunamente settato, anche in questo
+93:30 caso io posso correre commettere degli
+93:33 errori. Quindi io penso magari che la
+93:37 mia antenna risuoni in questo punto
+93:39 perché è qui che io passo attraverso
+93:42 l'asse orizzontale, quello che
+93:44 rappresenta i valori resistivi. In
+93:47 realtà il punto che rappresenta la
+93:49 risonanza è questo, perché allora qui si
+93:53 entrerebbe in un discorso un po' più
+93:55 lungo sulla sulla rappresentazione su
+93:57 carta di Smith, perché questo è quello
+94:00 che rappresenta il valore di Ross
+94:02 minimo. In realtà il vantaggio che c'è
+94:05 nell'utilizzare un un analizzatore
+94:08 vettoriale è che può lo strumento può
+94:11 essere opportunamente settato, a
+94:13 differenza di un normale analizzatore
+94:16 d'antenna per tener conto della
+94:19 lunghezza della linea. Perché se io
+94:22 faccio la taratura dello strumento,
+94:25 tenendo conto della lunghezza della
+94:27 linea, lo strumento a quel punto mi darà
+94:31 mi visualizzerà una misura come se fosse
+94:35 fisicamente collegato all'antenna.
+94:39 Quindi questo è uno dei principali
+94:41 vantaggi nell'uso dell'adizzatura
+94:44 virtuale. Però, ecco, diciamo che con
+94:47 questa roba, l'ho detto prima, per
+94:50 quanto siano ormai quasi poco più dei
+94:52 giocattoli anche in termini di costo,
+94:55 però la potenza di elaborazione è
+94:59 elevata e quindi anche l'uso dello
+95:02 strumento richiede un minimo di di
+95:06 conoscenze per poterlo sfruttare
+95:09 eh correttamente
+95:14 E anche in questo caso, mh, giusto per
+95:18 per capirci, faccio qualche esempio
+95:20 pratico. Vediamo un primo caso in cui io
+95:24 sto misurando l'impedenza di un'antenna
+95:26 che presenta un Ross di 1 circa 1,6
+95:32 e lo faccio mettendo lo strumento,
+95:34 l'analizzatore d'antenna al termine del
+95:38 della linea di discesa. La linea è lunga
+95:41 0,35 lambda, quindi non è un multiplo
+95:44 intero di mezzo e lunghezza d'onda e
+95:47 alla risonanza, quando l'antenna è alla
+95:50 risonanza, lo strumento mi misurerà
+95:53 invece un'impedenza di
+95:56 52
+95:58 - J25, quindi con una 52 ohm resistivi e
+96:03 una componente capacitiva di 25 ohm,
+96:07 mentre in realtà l'effettiva impedenza
+96:10 dell'antenna è 31,5
+96:13 ohm, quindi 31,5 ohm su una linea lunga
+96:18 0,35 lambda
+96:21 farà sì che lo strumento mi veda
+96:23 un'impedenza di questo tipo. Quindi io
+96:27 dico no, qua l'antenna non è in
+96:29 risonanza perché è una componente
+96:31 capacitiva, invece in realtà è in
+96:33 risonanza, ma ad un valore con
+96:35 un'impedenza che ha un valore diverso
+96:37 dai 50 ohm. E infatti ha un Ross di 1,5
+96:42 che è esattamente 31,5 su scusate 50 su
+96:47 31,5.
+96:50 Secondo caso abbiamo un'antenna con
+96:53 impedenza la risonanza 75 ohm, caso
+96:56 tipico di un dipolo orizzontale,
+97:00 alimentata con una linea con cavo
+97:03 quassiale da 50 ohm, lunga 03 lambda.
+97:07 È chiaro che se determina un valore di
+97:09 Ross di 1,5 perché 50 75 qui il calcolo
+97:13 è facile
+97:16 perché 75 / 50 fa appunto 1,5, quindi il
+97:20 Ross è sicuramente 1,5. Se io collego lo
+97:24 strumento qua dall'altro capo della
+97:27 linea e vado a leggere, leggerò un
+97:29 valore che sarà 35,5
+97:33 come parte resistiva e 8 ohm induttivi,
+97:38 mentre che è un valore decisamente
+97:40 diverso dalla reale impedenza
+97:42 dell'antenna che è 75 ohm. Quindi
+97:45 attenzione a usare gli strumenti perché
+97:48 se uno monta l'antenna poi scende giù,
+97:51 attacca lo strumento al cavo e misura,
+97:55 diciamo che 99 volte su 100 non misura
+98:00 l'impedenza dell'antenna. Quindi
+98:02 dobbiamo sapere eh che ci sono questi
+98:06 meccanismi, tenerne conto e saper
+98:08 interpretare correttamente le misure.
+98:14 Quindi, per concludere, eh sulla base di
+98:19 eh quanto abbiamo visto, possiamo
+98:22 affermare che le prestazioni di antenna
+98:24 dipendono da una molteplicità di
+98:26 fattori.
+98:28 Poi alcuni li abbiamo visti, ce ne
+98:31 sarebbero diversi altri parecchi altri
+98:36 argomenti e cose da valutare, ma che
+98:38 ovviamente
+98:40 non interessando lo scopo del corso,
+98:43 diciamo, non abbiamo affrontato.
+98:47 Comunque prima di di concludere, proprio
+98:49 perché siamo alla fine dell'argomento
+98:52 che credo comunque sia uno di quelli
+98:55 maggiormente
+98:57 di maggiore interesse che maggiormente
+98:59 interessano
+99:01 chi si avvicina a a questo mondo. Vorrei
+99:05 accennare ad un paio di aspetti ed in
+99:09 particolare ad uno, ovvero che in HF,
+99:14 che poi è diciamo la fetta di frequenza
+99:19 su cui si concentrerà la maggiore delle
+99:22 maggior parte della della vostra
+99:24 attività ed in particolare per il DX
+99:29 sulle bande più basse vi è una
+99:32 sostanziale differenza tra le
+99:34 caratteristiche ottimali di un sistema
+99:36 d'antenna in trasmissione rispetto a un
+99:39 sistema d'antenna ottimale in recezione.
+99:43 E questo può suonare abbastanza strano
+99:46 perché è una cosa a cui spesso non si fa
+99:50 attenzione, anche perché la teoria ci
+99:52 dice, anzi c'è proprio tanto di teorema,
+99:55 si chiama teorema della reciprocità, che
+99:58 un'antenna, come dire, si comporta
+100:01 esattamente nello stesso modo, sia in
+100:03 recezione che in trasmissione.
+100:06 In realtà, infatti, questo problema non
+100:08 è legato tanto all'antenna in quanto
+100:12 tale, quanto all'uso del che se ne fa e
+100:14 all'ambiente in cui ci troviamo.
+100:18 E quello che determina la differenza il
+100:21 fatto è che in trasmissione, come
+100:24 abbiamo visto parlando della
+100:26 dell'effetto direttività,
+100:29 la mia esigenza è quella di concentrare
+100:33 più possibile la maggior quantità di
+100:36 energia nella direzione che mi serve,
+100:40 che abbiamo detto quella ottimale è
+100:43 l'angolo di radiazione tra 0 e 20°. per
+100:46 quanto riguarda
+100:48 in HF, perché è quella che ci permette
+100:51 di sfruttare le migliori condizioni di
+100:54 riflessione.
+100:55 In ricezione, invece, l'esigenza che io
+100:59 ho è quella di ottenere il miglior
+101:03 rapporto segnale rumore, cioè di avere
+101:05 il segnale più intellegibile possibile.
+101:11 Attenzione perché questi due aspetti dal
+101:14 punto di vista di un'antenna non sempre
+101:16 coincidono
+101:19 e in trasmissione è possibile aumentare
+101:23 la quantità di energia, ad esempio
+101:26 modificando il lobo dell'antenna. E
+101:28 quindi in questo caso l'antenna con
+101:30 guadagno maggiore produrrà sicuramente
+101:33 un incremento di energia irradiata verso
+101:35 il nostro corrispondente.
+101:39 In ricezione però le cose sono diverse
+101:43 perché in HF e soprattutto nelle bande
+101:47 più basse il rumore esterno al nostro
+101:51 ricevitore
+101:53 sovrasta
+101:55 spesso anche fino a 50-60 dB.
+101:58 il rumore, diciamo, di fondo del
+102:02 ricevitore. E questo rumore, quindi, dal
+102:04 punto di vista del ricevitore, è un
+102:08 segnale che arriva
+102:10 adaptato dalla nostra antenna. Quindi
+102:12 aumentare il guadagno dell'antenna
+102:15 in ricezione, tranne casi molto
+102:18 particolari, non corrisponde ad a
+102:23 migliorare sensibilmente il rapporto
+102:25 segnale rumore, perché la il maggiore
+102:29 guadagno
+102:30 si trasforma anche in un maggior livello
+102:35 eh di rumore. L'unica strategia utile
+102:39 sarebbe quello quella di avere
+102:43 un'antenna in cui il lobo di radiazione
+102:46 sia tale da presentare un massimo nella
+102:49 direzione del segnale utile e
+102:52 un'attenuazione elevata in tutte le
+102:55 altre direzioni, indipendentemente
+102:58 dal valore del guadagno effettivo.
+103:01 Questo, diciamo, era una una cosa che vi
+103:05 volevo accennare perché spesso si cade
+103:11 nell'inganno, no, a rovescio, cioè nel
+103:15 nel senso che eh dice "Ma io riesco ad
+103:19 ascoltare bene, non mi sente nessuno" o
+103:23 o viceversa. Ecco, attenzione, a volte
+103:26 ci sono dei meccanismi tali per cui eh,
+103:30 come dire, eh
+103:33 il comportamento dell'antenna non è così
+103:36 banale. Comunque ripeto, questi sono
+103:38 argomenti che non interessano
+103:41 sicuramente le domande d'esame, ma era
+103:45 un, come dire, uno spunto, una curiosità
+103:48 che vi volevo istillare e quindi e per
+103:53 concludere vi do un consiglio. Se
+103:56 qualcuno di voi fosse interessato a
+103:59 approfondire l'argomento antenne e come
+104:03 dire in qualche modo se la cava nel
+104:06 masticare la lingua inglese, ci sono due
+104:09 ottimi testi eh
+104:13 della RL che è la
+104:17 penso la conosciate tutti, comunque è
+104:20 americana editi dalla RRL che sono
+104:23 appunto il Lowband dixing
+104:27 che eh tratta prevalentemente gli
+104:31 aspetti relativi alle bande basse,
+104:34 quindi 160
+104:37 80 e 40 m e l'antenna book che invece eh
+104:43 diciamo tratta in maniera anche
+104:47 abbastanza approfondita tutti gli
+104:49 aspetti che riguardano le
+104:51 caratteristiche teoriche e pratiche
+104:54 delle antenne.
+104:55 Poi in ultimo faccio un pochino di
+104:57 pubblicità per chi volesse invece
+105:00 limitarsi solo a qualche dettaglio
+105:03 sugli argomenti che abbiamo visto nel
+105:06 corso. Segnalo che sul sito della mia
+105:08 sezione, la sezione di Pisa, c'è una
+105:11 raccolta di articoli tecnici e di
+105:14 contributi di
+105:16 alcuni dei nostri soci con
+105:18 approfondimenti
+105:19 su su questi argomenti che se vi
+105:22 interessa vi potete andare a leggere e e
+105:27 a vedere.
+105:28 Io vi ringrazio qui, vi ringrazio per la
+105:31 pazienza che avete avuto in queste
+105:35 quattro settimane. Spero di non avervi,
+105:37 come dire, confuso le idee più di più di
+105:40 tanto e comunque sono a disposizione
+105:44 sempre per qualsiasi chiaramento. Qui
+105:46 c'è anche eh riportata la mia mail, per
+105:49 cui nessun problema se avete bisogno.
+105:55 Intanto ti ringraziamo Paolo. Eh,
+105:58 >> grazie, grazie davvero.
+106:00 >> E aspettiamo qualche domanda, senò
+106:02 interromperei la registrazione.
+106:09 >> Io la domanda.
+106:10 >> Eccoci.
+106:13 >> Puoi puoi Paolo brevemente
+106:17 fare un accenno a quell'edificio che ci
+106:20 ha accompagnato in queste tue quattro
+106:23 lezioni?
+106:25 Eh, volentieri, volentieri.
+106:28 >> Quell'edificio che ecco, hai usato come
+106:31 sfondo, lo dico per tutti gli studenti
+106:33 che hai usato come sfondo su tutte le
+106:35 tue slide, non è un caso, vero Paolo?
+106:38 No, non è un caso, anche perché non lo è
+106:42 per due motivi, diciamo.
+106:45 Parto dal più banale perché all'interno
+106:49 di quell'edificio
+106:51 c'è la sede della nostra sezione
+106:54 a Pisa, la sezione di Pisa, però non
+106:57 siamo a Pisa. Quella che vedete nel
+107:00 nello sfondo è la Villa Medicea di
+107:03 Coltano, che per chi non lo sapesse, ma
+107:07 penso nel nostro ambiente il nome sia
+107:09 abbastanza noto, è una località a pochi
+107:13 chilometri, 7 km da Pisa ed è una
+107:18 località particolarmente
+107:21 nota, o perlomeno lo dovrebbe essere nel
+107:23 nostro ambito, perché è legata
+107:28 pesantemente al mondo
+107:32 della radio ed in particolare agli
+107:34 esperimenti condotti da Guglielmo
+107:37 Marconi perché a Pisa,
+107:41 alla fine degli anni 10 del secolo
+107:44 soccorso, mi sembra l'inaugurazione
+107:48 era del 1912,
+107:51 non vorrei
+107:53 dar numeri sbagliati, comunque fu
+107:56 installato
+107:57 la quella che all'epoca era la stazione
+108:01 radio più potente al mondo. Quindi,
+108:05 purtroppo, noi italiani non abbiamo la
+108:07 tendenza a non valorizzare
+108:10 il nostro patrimonio storico. questo
+108:15 al di là dell'aspetto radio, eh questa
+108:18 forse forse perché ne abbiamo talmente
+108:20 tanti di di di valori di patrimoni
+108:25 artistici e storici che non ci facciamo
+108:27 più caso, ma purtroppo
+108:32 i ruderi della della stazione che poi è
+108:35 stata distrutta durante gli eventi
+108:37 bellici della seconda guerra mondiale e
+108:40 già sono in stato di abbandono.
+108:43 come dire, tante promesse, ma ancora non
+108:46 nessuno li ha recuperati,
+108:49 però, ecco, dal nostro punto di vista
+108:52 hanno avrebbero sicuramente
+108:55 un grande
+108:57 valore. Quindi noi abbiamo avuto la
+108:59 fortuna, fra virgolette,
+109:02 che l'amministrazione locale ci ha
+109:04 assegnato uno spazio
+109:07 lì all'interno della Villa Medicea,
+109:10 nella speranza che ancora coltiviamo che
+109:13 se oggi o domani, come ogni tanto
+109:17 qualcuno promette, fosse recuperata la
+109:19 stazione
+109:21 Marconi, di poter addirittura
+109:24 indegnamente essere ospitati in quella
+109:26 in quell'area.
+109:28 Quindi se qualcuno passa da quelle parti
+109:32 vi invito magari a farci un giretto e
+109:35 poi se lo sappiamo
+109:38 per tempo possiamo anche organizzare di
+109:41 e di incontrarci presso la la nostra
+109:45 sede, però ecco, il valore è sicuramente
+109:49 legato a questo
+109:51 e penso che Alessio si si riferisse
+109:55 esattamente a questo aspetto.
+109:57 Assolutamente sì. Anzi, suggerisco, se
+110:00 siete in zona fateci un salto,
+110:03 ovviamente previa
+110:05 previ accordi con la sezione o comunque
+110:08 con il custode perché c'è anche un
+110:10 bellissimo museo molto interessante che
+110:13 ripercorre un chiamarlo museo è un po'
+110:16 forse eccessivo comunque. Vabbè, però
+110:20 >> sì, tra l'altro sul sempre sul nostro
+110:23 sito e che io continuo a far pubblicità,
+110:26 ecco, ci sono c'è sia la la descrizione
+110:29 di di quello che era stata la stazione
+110:33 Marconi, c'è un po' di documenti acque
+110:36 storici da questo punto di vista
+110:38 interessanti e anche un minimo di
+110:40 istruzioni per chi eventualmente volesse
+110:43 fare una visita. Scusami Alessio se ti
+110:47 ho interrotto.
+110:48 >> Prego, ci mancherebbe.
+110:52 Comunque ripeto, molto interessante, una
+110:54 visita molto interessante perché
+110:56 ripercorre un po' quello che è stata la
+110:59 storia,
+111:01 lo posso chiamare indegnamente il nostro
+111:03 padre, il nostro padre radioamatore,
+111:06 >> ma guarda, direi di sì, anche perché eh
+111:11 poi io, come dire, forse in qualche
+111:14 altra occasione l'ho detto, sono
+111:16 abbastanza
+111:19 appassionato della della parte storica.
+111:22 della storia in genere e della
+111:24 componente storica del del nostro mondo.
+111:28 E
+111:29 perché ti dico di sì? Perché in realtà
+111:32 Marconi
+111:35 non è uno scienziato, come dire,
+111:38 tradizionale, cioè che viene dal mondo
+111:40 accademico e da studi accademici e
+111:44 quant'altro. Anzi, all'epoca,
+111:46 all'inizio, come dire, era anche in
+111:50 parte snobbato
+111:52 dalla dalla scienza perché le conoscenze
+111:56 dell'epoca, e io aggiungo anche a ragion
+112:01 veduta,
+112:02 erano tali per cui ritenevano
+112:05 impossibile l'utilizzo
+112:07 de campi elettromagnetici per
+112:09 comunicazioni a a distanza, perché, come
+112:13 dire, lo studio teorico diceva che le
+112:16 onde elettromagnetiche propagano in
+112:18 linea retta e quindi oltre l'orizzonte
+112:21 non servono più a nulla. In realtà è
+112:24 vero, quello che non sapevano era
+112:27 dell'esistenza
+112:28 di tutta una serie di cose
+112:31 aggiuntive a partire appunto dalla
+112:33 riflessione ionosferica
+112:36 e e giù di là. Quindi lui, come dire, eh
+112:42 in modo abbastanza anche eh, come potrei
+112:46 definire, un po' caparbio, un po' da da
+112:50 da a testa bassa, è andato avanti con i
+112:53 suoi esperimenti che, ripeto, in realtà
+112:56 non avevano un fondamento scientifico
+113:00 certo, ma si sono basati quasi
+113:03 esclusivamente sulle esperienze
+113:05 pratiche, un po' come dire fanno molti
+113:09 molti di noi e in realtà poi alla fine
+113:11 ha avuto ragione.
+113:13 Probabilmente c'è stato di mezzo un po'
+113:16 anche di fortuna perché probabilmente
+113:18 nessuno avrebbe potuto prevedere
+113:21 l'esistenza
+113:23 del degli strati della della ionosfera
+113:27 fino a quando non è stata rilevata la
+113:29 presenza.
+113:30 Quindi è per questo che, come dire,
+113:33 credo lo si possa assimilare ad a ad uno
+113:38 smanettone qual è di per definizione il
+113:41 radiamatore medio.
+113:44 >> Vero,
+113:46 verissimo.
+113:51 Comunque
+113:51 >> va bene, veniamo alle domande perione.
+113:56 >> Perfetto. Dicevo, avevo visto prima
+113:58 qualche mano alzata perché poi io mi
+114:00 lascio trascinare. Alessio lo sa in
+114:03 questo mi provoca un po', mi lascio
+114:05 trascinare da questi ragionamenti.
+114:10 >> Non basterebbero
+114:12 altre tre lezioni per poter approfondire
+114:14 questi argomenti. Pier Paolo,
+114:17 >> no, davvero.
+114:21 >> Allora,
+114:22 >> Paolo,
+114:24 >> sì,
+114:25 sì. Ehm
+114:29 ero ero, diciamo,
+114:32 mi mi ero fissato ora su su Paolo sui
+114:36 racconti
+114:38 eh che stava facendo sulla sulla storia
+114:40 del
+114:42 della radio che stava che stava
+114:44 commentando. Niente, volevo
+114:46 semplicemente
+114:48 eh semplicemente dire una cosa. Allora,
+114:52 io tanto tempo fa, premetto che io ho 64
+114:55 anni, tanto tempo fa, quando ero un
+114:57 ragazzino che mi piaceva, allora avevo
+115:00 il baracchino, il famoso baracchino, ehm
+115:03 andando al lavoro nella zona, io abito a
+115:05 Massa, Massa Carara, andavo andando al
+115:08 lavoro nella zona del centro Versiglia,
+115:11 quindi Camaiore, Pietra Santa, cose del
+115:13 genere, c'è c'era ora, cioè l'edificio
+115:16 c'è ancora c'è c'era un impianto su un
+115:20 hotel proprio sul lungomare
+115:23 che era aveva eh decine di direttive
+115:29 tutte puntate in una direzione, fisse,
+115:32 puntate in quella direzione. E appunto
+115:36 questa qui era la domanda lì per Paolo.
+115:38 Ehm eh da chi ne sapeva più di me diceva
+115:44 che eh le usava con l'aiuto, diciamo,
+115:49 della Luna, cioè rifletteva, eh lui
+115:52 prendeva le ehm
+115:55 ora diciamo faceva un effetto specchio
+115:59 con la Luna per riflettere o prendere
+116:03 segnali dall'altra parte del globo.
+116:06 È possibile questo fatto?
+116:09 >> Certo, è possibile ed è diventata una
+116:12 prassi, non dico comune, eh, cioè
+116:16 all'epoca a cui ti riferisci era
+116:20 abbastanza
+116:22 eh raro, anche perché i mezzi
+116:26 disponibili
+116:27 eh erano ben diversi. Comunque mh è una
+116:32 delle attività di nicchia, per così
+116:34 dire, nel mondo amatoriale, nota col
+116:37 termine m e me m che sono gli acronimi
+116:41 di Earth, mo eh, cioè collegamento
+116:45 Terra, Luna, Terra.
+116:47 si utilizza generalmente eh si impiegano
+116:51 generalmente frequenze molto elevate,
+116:55 diciamo, per quanto ne so io eh
+116:59 si utilizzano le bande dai 50 MHz
+117:03 a i Sovista
+117:07 ho visto di esperimenti condotti
+117:11 a a recentemente a 70 GHz, però molto
+117:16 più prosaicamente
+117:18 l'attività prevalentemente concentrata
+117:21 tra i 144,
+117:23 cioè i 2 m 430 70 cm
+117:28 i 1,2 GB, eh cioè la banda dei 23 cm.
+117:34 Sono richieste ovviamente mh potenze
+117:37 abbastanza elevate e sistemi d'antenna
+117:40 con eh guadagni
+117:44 altrettanto elevati, anche perché
+117:46 considerate che la tenuazione media, ora
+117:50 do i numeri, eh, quindi alla mia età
+117:53 potrei dire delle stupidaggini, ma il
+117:55 valore di attenuazione media, se ricordo
+117:57 bene, in banda 2 m, cioè in 144
+118:01 per il percorso
+118:03 Terra, Luna e Ritorno
+118:06 dovrebbe essere intorno ai 230 dB.
+118:10 Quindi pensate bene, eh, considerato che
+118:16 vi do vi do proprio dei numeri tanto per
+118:18 darli, eh considerate che la soglia
+118:22 minima di sensibilità di un buon
+118:26 ricevitore per questo utilizzo è intorno
+118:30 ai -140 dBM
+118:33 e vuol dire che per raggiungere 230
+118:38 dB di attenuazione
+118:40 ci vogliono vuoto per pieno 90 dB sopra
+118:45 lo zero e quindi praticamente 60 dB eh
+118:51 sopra il watt e quindi
+118:56 eh erp dell'ordine di alcuni megaw tanto
+118:59 per proprio per dare i numeri a a
+119:04 spannare
+119:07 con potenza elettrica di questo tipo, ma
+119:10 l'RP di questo livello si ottiene con
+119:13 guadagni d'antenna elevatissimi. Poi la
+119:16 cosa si complica perché ci vogliono
+119:19 sistemi di antenna
+119:22 per che per avere questi guadagni
+119:24 avranno un fascio estremamente stretto e
+119:27 quindi ci vogliono sistemi automatici di
+119:31 inseguimento
+119:32 della Luna che nel frattempo si sposta e
+119:35 e così via. Comunque un bel giochino
+119:38 oggi, diciamo, eh più accessibile
+119:43 perché l'uso dei sistemi di modulazione
+119:46 digitale,
+119:48 alcuni tipi di codifiche ci permettono
+119:50 di guadagnare fino a 25
+119:54 anche qualcosa di più di B rispetto a a
+120:00 ai tempi pioneristici in cui i
+120:01 collegamenti erano effettuati in CV, per
+120:05 cui i 25 dB guadagnati dai dalle
+120:09 codifiche digitali sono risparmiati
+120:12 sulle potenze, sui guadagni d'antenna,
+120:15 però è una realtà eh che che esiste. È
+120:20 una cosa anche abbastanza divertente per
+120:24 chi ha avuto qualche esperienza in
+120:26 materia.
+120:28 Ah, ma era impressionante vederla
+120:30 perché, ripeto, eh questo hotel qui era,
+120:33 non so se aveva 4 5 se piani, non
+120:36 ricordo, e poi vedevi in cima tutte
+120:39 queste direttive posizionate tutte sulla
+120:42 stessa direzione e appunto io poi non io
+120:49 io conoscevo l'antenna, la la la Grand
+120:51 Plane e basta, ecco, conoscevo quella e
+120:54 basta. Quindi per me la considera che
+120:59 >> all'epoca eh in 144 perché il la prima
+121:03 banda utilizzato, diciamo, le bande su
+121:06 cui si è iniziato a fare questo tipo di
+121:08 attività erano i 2,70 cm. il 144 il
+121:14 l'equipaggiamento
+121:16 proprio minimo minimo minimo erano
+121:20 quattro antenne di agi eh da 20
+121:24 elementi, quindi lunghe eh quasi 10 m eh
+121:29 accoppiate eh su un cartello a diciamo
+121:34 2x du e quindi fai conto che era una
+121:39 struttura che
+121:42 aveva
+121:43 circa 4 m4 come supporto e e sopra
+121:48 c'erano quattro antenne lunghe 10 m,
+121:50 quello era il minimo. Poi c'è chi ne
+121:52 usava 8, chi ne usava 16 addirittura
+121:57 e quindi con strutture che da un punto
+122:02 di vista meccanico erano veramente
+122:05 veramente imponenti. Ora, ripeto, si
+122:08 riesce a fare
+122:10 addirittura io conosco
+122:14 persone che
+122:17 riescono a fare traffico e anche con una
+122:20 sola Yaji, ovviamente non un'antenna
+122:24 piccolina, ma insomma con Iagi da 16
+122:29 elementi si riesce a cominciare a far
+122:32 qualcosa
+122:34 con utilizzando sistemi digitali e
+122:36 potenze ovviamente
+122:38 al limite del del legal power, cioè dei
+122:41 500 W
+122:44 ammessi dalla dalla normativa italiana.
+122:50 Paolo, io sarei per interrompere la
+122:52 registrazione. Eh, so se ci sono altre
+122:54 domande più che volentieri. Eh sì, sì,
+122:57 magari si fa un po' di diciamo di

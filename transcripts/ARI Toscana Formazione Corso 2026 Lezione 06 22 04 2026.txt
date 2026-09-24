@@ -1,0 +1,2405 @@
+00:02 cose un po' più vicine al mondo della
+00:04 radio, quindi entriamo proprio nella
+00:06 parte di radiotecnica. Stasera parliamo
+00:08 dei filtri, parliamo del concetto di
+00:10 risonanza e poi parliamo di un altro
+00:12 componente elettronico che è il quarzo.
+00:14 Il quarzo, il cristallo di quarzo,
+00:16 quello come troviamo poi negli negli
+00:18 orologi. Allora, i filtri,
+00:21 cosa sono i filtri? Tanto i filtri sono
+00:25 delle combinazioni di circuiti fatti di
+00:27 solito da eh condensatori e induttori,
+00:30 quindi sono delle combinazioni
+00:33 di componenti LC
+00:37 e come tutti i filtri fanno passare
+00:40 alcune cose e ne bloccano altre,
+00:42 attenuano determinate frequenze e di
+00:46 conseguenza ne fanno passare altri come
+00:48 fanno tutti i filtri, no? anche il
+00:49 colino, diciamo, che che filtra il
+00:51 caffè, la polvere di caffè resta dentro
+00:53 il filtro, il caffè passa di là. E com'è
+00:56 che i filtri riescono a fare questa
+01:00 funzione, a far passare alcune frequenze
+01:03 e a bloccarne altre? Lo fanno sfruttando
+01:06 e le proprietà delle reattanze induttive
+01:09 e capacitive che variano in funzione
+01:11 della frequenza e poi vedremo come. È
+01:13 per merito di queste variazioni della
+01:15 reattanza che i filtri possono essere
+01:17 fatti. Qui in questa slide vi ho
+01:19 riportato gli schemi che abbiamo visto
+01:21 mercoledì scorso. Questo qui che avete a
+01:23 sinistra è l'andamento di una reattanza
+01:26 induttiva, cioè cresce
+01:29 linearmente al crescere della frequenza.
+01:32 invece in questa parte è l'andamento
+01:36 della reattanza eh capacitiva. Questa
+01:39 invece decresce al crescere della
+01:42 frequenza, quindi al crescere della
+01:43 frequenza la reattanza
+01:46 eh induttiva cresce, la reattanza
+01:49 capacitiva diminuisce e vediamo la
+01:52 l'applicazione di questa cosa nel primo
+01:54 filtro, il filtro passa basso. Passa
+01:57 basso. Allora, intanto capiamo insieme
+02:00 cos'è questo schema che vedete su questa
+02:04 slide. Intanto su questa, diciamo,
+02:07 questo schema, vedete che è su due assi
+02:09 cartesiani, l'asse orizzontale, l'asse
+02:11 delle ascisse mostra la frequenza.
+02:13 Vedete che qua avete f la frequenza.
+02:16 Quindi stiamo vedendo questo filtro come
+02:18 si come opera alle diverse frequenze.
+02:21 Qui abbiamo lo zero, ovviamente, punto
+02:24 di incrocio degli assi. Qui avremo più o
+02:26 meno le frequenze alte e poi via sempre
+02:29 più alte andando verso destra. Invece
+02:32 sull'asse verticale abbiamo questo
+02:34 parametro qua che è il rapporto fra la
+02:38 tensione di uscita V o V output e la
+02:40 tensione di ingresso del filtro.
+02:43 Quando quel quando quello che esce è
+02:46 uguale a quello che entra, quindi la
+02:48 tensione di uscita è uguale a quella di
+02:50 ingresso, qui abbiamo sopra e sotto lo
+02:52 stesso numero e a che sarebbe la
+02:54 attenuazione del filtro vale 1. Cioè il
+02:57 filtro secondo quella formula, non
+03:00 attenua niente. Allora, i filtri passa
+03:03 basso come si comportano? si comportano
+03:06 partendo dalle basse frequenze
+03:08 attenuando poco,
+03:11 attenuando poco, poco, poco, facendo
+03:13 passare in qualche modo tutto il
+03:15 pacchetto di frequenze basse. Poi si
+03:17 arriva a un certo punto in cui l'effetto
+03:20 del filtro si comincia a sentire e la
+03:24 tensione in uscita, il segnale in uscita
+03:26 comincia a decrescere finché si arriva
+03:28 in un certo punto che è chiamato la
+03:30 frequenza di taglio del filtro. E poi vi
+03:32 dirò questa frequenza di taglio com'è.
+03:35 E in questo caso del filtro passa basso,
+03:38 quanto più si sale di frequenza e quanto
+03:40 più bassa sarà l'uscita del filtro fino
+03:42 a arrivare idealmente, diciamo, quasi a
+03:45 quasi a zero. Allora, di questi filtri
+03:47 passa passo ce ne sono tantissimi in
+03:50 tanti componenti elettronici. Per
+03:52 esempio, se qualcuno di voi ai vecchi
+03:54 tempi del vinile aveva un amplificatore
+03:56 stereo di quelli belli, come si usavano
+03:58 a quei tempi, vedi Marans, vedi Piatti
+04:00 Torrence e roba di questo tipo. E molto
+04:03 probabilmente nell nel
+04:05 nell'amplificatore che usava, perché a
+04:07 quei tempi si usavano, cioè non c'erano
+04:09 ancora i CD ovviamente, quindi si
+04:11 ascoltavano i dischi in vinile, no? e il
+04:14 disco vinile, la puntina sul disco
+04:16 vinile sfrega e quindi a frequenze molte
+04:19 alte e certi certe puntini un po'
+04:22 economiche, certi dischi un po'
+04:23 economici provocavano un una specie di
+04:27 di sibilo alto, un sh una specie di
+04:29 sibilo a frequenze molto alte. E allora
+04:31 in quegli amplificatori molto spesso
+04:33 c'era un bellinruttore che era chiamato
+04:37 eh
+04:39 non so vari, diciamo, in vari modi,
+04:42 antikiss o qualcosa del genere e
+04:45 schiacci e premendo quell'interruttore
+04:47 si introduceva un filtro passa basso
+04:50 nell'amplificatore
+04:52 che faceva sì che questo eh fruscio alle
+04:55 alte frequenze venisse di fatto
+04:59 attenuato o tagliato, come succede in
+05:01 questa curva che vediamo che vediamo
+05:04 qua. M
+05:06 quindi un filtro passa basso cosa fa
+05:09 rispetto a una certa frequenza, questa
+05:11 frequenza di taglio fa passare tutte le
+05:14 frequenze basse al di sotto della
+05:17 frequenza di taglio e attenua sempre più
+05:19 quelle a frequenze maggiori della
+05:21 frequenza di taglio.
+05:23 Cos'è la frequenza di taglio? La trovate
+05:26 in quest'altra slide la definizione. La
+05:29 frequenza di taglio è una frequenza in
+05:31 cui la potenza del segnale di uscita del
+05:34 filtro si dimezza rispetto alla potenza
+05:37 del segnale in ingresso, oppure che è
+05:40 esattamente la stessa cosa, l'ampiezza
+05:44 del segnale di uscita si riduce a 0,707
+05:47 V rispetto al valore della banda
+05:49 passante. Quindi la prima formula parla
+05:53 di potenza P. D'accordo?
+05:56 La seconda formula è la stessa cosa,
+05:58 dice esattamente la stessa cosa, però
+06:00 parla di ampiezza, quindi parla di bolt.
+06:02 Solo due modi diversi per definire la
+06:04 frequenza di taglio, però la frequenza è
+06:06 sempre la stessa. A volte la si dice in
+06:10 termini di potenza. Frequenza di taglio
+06:13 è la frequenza dove la potenza si
+06:14 dimezza rispetto a quelli d'ingresso. A
+06:16 volte si divide si dice in ampiezza.
+06:18 L'ampiezza del segnale in uscita diventa
+06:20 0,707 V. E torno nel grafico di prima.
+06:24 Aspettate che tolgo un po' di questi
+06:26 scarabocchi, così si vede meglio. Qui la
+06:29 frequenza di taglio,
+06:31 dicevo, la vedete qui e corrisponde, per
+06:35 l'appunto,
+06:37 salendo qua e salendo qua, corrisponde,
+06:40 per l'appunto a questo valore. Questo
+06:42 valore 1 / √ 2. √ qu vale circa 1,41, 14
+06:49 e spiccioli. Se fate con una
+06:50 calcolatrice 1 / 1,41 vi viene per
+06:54 l'appunto quello 0707 che si vedeva
+06:57 nella formula precedente.
+06:59 Eh,
+07:03 vedendo questo numero scritto così,
+07:06 1/√2,
+07:08 si capisce abbastanza bene perché alla
+07:10 frequenza di taglio la potenza si
+07:12 dimezza perché vi ricordate che la
+07:14 potenza è uguale a V qu/
+07:18 R. se ne parlava prima, diciamo, di
+07:22 queste domande su sulla potenza con con
+07:25 uno di voi. Allora, per calcolare la
+07:27 potenza, avendo la tensione, devo fare V
+07:29 al quadrato,
+07:31 quindi devo elevare questo 1 / √2 qu
+07:34 ovvero moltiplicarlo per se stesso.
+07:36 Diciamo al numeratore 1 * 1 resta 1 di
+07:40 sotto √2 mplic √2 se vi ricordate no i
+07:44 tempi delle medie e del liceo √2
+07:47 molplicato √2 è uguale equivale a √4 la
+07:52 √ 4 è 2. Quindi V² qui V quindi questo
+07:57 numero V² diventa 1/2.
+08:01 Quindi ecco perché quando si eh diciamo
+08:06 quando siamo alla frequenza di taglio la
+08:08 potenza si dimezza perché se qui ci
+08:10 leggo la potenza ho 1/2zo. Se invece ci
+08:13 leggo la tensione ho 1/o √2 perché la
+08:16 potenza è il quadrato della tensione.
+08:19 Proseguo, vi faccio vedere ancora
+08:21 qualche slide, cioè faccio una
+08:22 chiacchierata generale sui passa passo e
+08:24 poi vi do la parola per tutte le le
+08:26 domande che volete che volete fare. come
+08:29 son fatti i passoapasso? Per esempio,
+08:31 questo è un passoapasso molto molto
+08:33 tranquillo. Allora, per vedere come
+08:35 funzionano i filtri, la cosa migliore da
+08:38 fare per capire come funzionano è
+08:43 eh capire cercare di capire come si
+08:45 comportano in due casi estremi, a
+08:47 frequenze molto alte e a frequenze molto
+08:49 basse. Vediamo un circuito fatto così.
+08:51 C'è il segnale di ingresso, c'è una
+08:54 resistenza in serie e c'è un
+08:55 condensatore che va verso massa, verso
+08:59 il terminale di riferimento di tutte le
+09:02 tensioni del circuito e qui c'è la
+09:04 tensione di uscita. Allora, se la
+09:06 frequenza è molto molto bassa, che
+09:08 succede? Il segnale di ingresso
+09:11 attraversa la resistenza senza problemi,
+09:13 no? Ovviamente e a frequenze molto basse
+09:16 il condensatore ha una reattanza
+09:18 altissima. è come se non ci fosse.
+09:20 Vedete queste due piastre separate fra
+09:22 loro, le frequenze molto basse, i
+09:24 condensatori non gli attraversano,
+09:26 quindi tutto quello che entra nel filtro
+09:28 esce, per cui non c'è attenuazione, le
+09:30 frequenze basse partono. Invece
+09:33 immaginiamo eh cerchiamo di capire cosa
+09:36 succede a frequenze molto alte.
+09:37 Frequenze molto alte la resistenza la
+09:40 attraversano esattamente nello stesso
+09:41 modo, no? La resistenza non cambia il
+09:43 suo valore al valare della frequenza,
+09:46 però ha una resistenza molto alta. il
+09:48 condensatore e ha una reattanza molto
+09:51 bassa. Immaginiamo che a frequenze alte
+09:54 il condensatore abbia una resistenza
+09:55 pari a zero, cioè sia un corto circuito,
+09:59 cosa che può accadere a frequenze molto
+10:01 alte un condensatore può avere una
+10:03 rattanza minore di 1 ohm. È chiaro che
+10:05 il segnale che entra in ingresso a
+10:06 questo punto viene tutto cortocircuitato
+10:09 verso massa da questo condensatore,
+10:11 quindi l'uscita è
+10:14 è zero o bassissima, quindi a frequenze
+10:16 alte quel circuito Le frequenze alte
+10:18 quel circuito le attenua. Questo
+10:20 circuito che avete a destra
+10:24 le attenua anche di più perché mentre
+10:26 nel circuito che abbiamo a sinistra c'è
+10:28 un solo componente, il condensatore che
+10:31 ha eh questa caratteristica
+10:36 di variare la sua reattanza al variare
+10:38 della frequenza, quindi qui c'è un solo
+10:42 componente reattivo. In questo circuito
+10:45 ce ne sono due. c'è un induttore messo
+10:48 al posto della resistenza e c'è un
+10:50 condensatore.
+10:52 Quindi qui ci sono due, qui ci sono non
+10:54 uno, ma ci sono due componenti che
+10:56 ostacolano le frequenze alte perché se
+10:59 io faccio entrare una frequenza molto
+11:01 alta in questo circuito di destra,
+11:03 intanto la frequenza alta farà fatica ad
+11:05 attraversare l'induttore
+11:08 perché si è detto, no, si era detto che
+11:09 l'induttore alle tensioni, alle
+11:12 frequenze basse, alla corrente continua
+11:14 è di fatto un corto circuito.
+11:17 frequenze alte, invece l'impedenza ne
+11:20 blocca una buona parte di questo segnale
+11:22 che passa e siccome siamo a frequenze
+11:25 alte il condensatore può essere di nuovo
+11:27 visto con una resistenza molto bassa,
+11:29 limite come un corto circuito, per cui
+11:32 una frequenza alta viene intanto
+11:33 ostacolata qui dal dall'induttore e poi
+11:36 viene messa a massa dal condensatore.
+11:39 Quindi si capisce che questo filtro
+11:41 taglia di più e poi questa cosa ve la
+11:43 farò vedere meglio in un grafico.
+11:47 Allora, uscendo dalla teoria, entrando
+11:49 nella pratica, questa che avete qui è
+11:51 una foto di un tipico filtro passoapso
+11:53 che si usa, ad esempio, dopo i
+11:54 trasmettitori. A cosa servono i filtri
+11:56 passa passo? Prima vi ho fatto un
+11:58 esempio dell'alta, ma chiaramente
+12:00 servono anche in campo radio, per
+12:02 esempio, servono per levitare i segnali
+12:04 non desiderati che escono da un
+12:06 trasmettitore. Questi segnali non
+12:09 desiderati vengono chiamati armoniche e
+12:13 sono generati da tutti gli amplificatori
+12:17 o troppo pilotati o comunque in qualche
+12:19 modo ehm portati al limite.
+12:23 E per esempio, se io trasmetto in banda
+12:25 cittadina, tanto per fare un numero,
+12:27 diciamo diamoci una frequenza, 27
+12:30 megacicli, finché il mio trasmettitore
+12:32 nella Norma dalla suo al bocchettone di
+12:36 antenna mi esce un solo segnale pari
+12:38 alla frequenza su cui sto a cui sto
+12:40 trasmettendo, 27 MHz.
+12:42 Se l'amplificatore finale del mio
+12:44 trasmettitore viene spinto in maniera
+12:47 forte, genera delle armoniche che sono
+12:50 dei segnali a frequenze multiple della
+12:53 fondamentale dei 27 MHz. Quindi io avrò
+12:56 una una prima armonica, una seconda
+12:58 armonica a 27x 2, 54 MHz, una terza a
+13:03 27x3 81 MHz. queste armonie magari vanno
+13:06 a finire nei canali televisivi e
+13:08 disturbano le televisioni, la famosa TV,
+13:11 interferenza alla televisione.
+13:14 In tutti i trasmettitori all'interno,
+13:17 dopo l'amplificatore finale è inserito
+13:19 un filtro passapasso che non lo si vede
+13:22 come qua. Questo è un componente
+13:23 esterno, però in tutti i trasmettitori
+13:25 c'è un filtro passoapso che fa più o
+13:28 meno quello che leggete qua, cioè per
+13:30 esempio nei trasmettitori che lavorano
+13:32 in onde corte e questo filtro non qui
+13:35 c'è scritto che di fatto che questo
+13:37 filtro non attenua niente sotto i 30
+13:39 MHz, mentre invece le frequenze più alte
+13:43 sopra i 41 MHz, come c'è scritto qui,
+13:45 sono attenuate di questo valore, sono
+13:47 attenuate di 80. Cosa sono i DB come
+13:51 unità di misura? Lo vedremo mercoledì
+13:53 prossimo.
+13:56 Qui vedete un altro filtro passapasso,
+13:59 questo fatto in casa. Qui un radiamatore
+14:02 da cui ho catturato questa questa
+14:04 immagine. Si è costruito un filtro passa
+14:06 basso per la banda dei 144 MHz. Quindi
+14:10 qui siamo a frequenze più alte nelle
+14:13 cosiddette VHF, come poi vedrete quando
+14:15 arriverete alle famose lezioni di cui
+14:17 parlavo prima. Allora, se guardiamo cosa
+14:20 di fatto questo filtro, vediamo che qui
+14:22 è stato riusato questo schema qua,
+14:25 cioè con degli induttori in serie e con
+14:28 dei condensatori che vanno verso massa.
+14:31 E qui lo si vede proprio. Vedete che
+14:32 questo è il bocchettoni di ingresso,
+14:34 vedete che qui c'è una bobina, un
+14:35 induttore in serie e qui poi ci sono dei
+14:38 condensatori verso massa. Qui c'è
+14:40 un'altra bobina in serie, qui dei
+14:41 condensatori verso massa, qui un'altra
+14:43 bobina in serie.
+14:45 In questo in questo filtro vedete che ci
+14:48 sono quindi cinque componenti
+14:51 eh che di cui varia la reattanza in
+14:54 funzione della frequenza, cioè cinque
+14:55 componenti reattivi, come si vede,
+14:58 questi tre induttori, 1 2 3 e due
+15:01 condensatori.
+15:02 Che effetto fa in questo filtro avere
+15:05 tre di questi componenti reattivi?
+15:07 L'effetto è questo qua. Se hanno i
+15:10 filtri cosiddetti a più poli. Il filtro,
+15:14 quello che abbiamo visto all'inizio con
+15:15 un unico condensatore, ha un polo solo
+15:19 e immaginiamo che in questo grafico,
+15:22 questo punto qui sia la frequenza di
+15:24 taglio. Il filtro che ha un solo
+15:26 condensatore, quindi un solo polo,
+15:28 attenua, come vedete qui.
+15:31 Però l'attenuazione al crescere della
+15:33 frequenza è abbastanza moderata. Se io
+15:36 lo faccio con due componenti,
+15:37 condensatore e induttore, all'aumentare
+15:40 della frequenza attenua di più. Vedete
+15:42 come scende più rapidamente? Quanto più
+15:44 polimetto, quanto più questa curva di
+15:48 attenuazione ce l'avrò ripida al
+15:51 superare la mia frequenza di taglio.
+15:53 Quindi il filtro mi diventa nettamente
+15:54 più selettivo, come mi come si dice, no?
+15:57 cioè riesce a discriminare meglio tutto
+16:00 ciò che sta al di sotto della frequenza
+16:03 di taglio, cioè quassù, qua sotto,
+16:06 rispetto al di sopra. questo eh questo
+16:11 aumento, diciamo, della sua selettività
+16:13 si ottiene usando un maggior numero di
+16:15 componenti reattivi, usando un maggior
+16:17 numero appunto di induttori e
+16:19 condensatori al suo al suo interno.
+16:24 E con questo tolgo la condivisione dello
+16:26 schermo anche per farvi riposare un po'
+16:28 e con questo sul sui passa basso non ho
+16:31 da dirvi altro. Quindi c'è una
+16:33 combinazione di induttori e condensatori
+16:36 che fanno sì che i segnali a frequenze
+16:38 via più alte vengono scaricati a massa e
+16:40 non possano attraversare il filtro.
+16:43 Quanti quanto più componenti metto che
+16:45 fanno questo lavoro, tanto più la mia
+16:47 curva mi diventa mi diventa ripida. C'è
+16:50 qualche domanda prima di proseguire?
+16:54 E non ditemi che non avete domande, che
+16:56 avete capito tutto, che non ci credo.
+17:00 Vai Gianfranco.
+17:02 Buonasera a tutti. Ehm un dubbio questo
+17:06 filtro,
+17:08 un filtro passa basso, quindi che opera
+17:11 con
+17:13 eh
+17:15 per migliorare la selettività e ad
+17:18 esempio il filtro che c'è nelle radio FM
+17:20 per variare la
+17:23 taglio della
+17:26 ehm
+17:28 io lo chiamo il filtro narrow, quello
+17:29 per diminuire la
+17:32 Eh, la banda
+17:36 di ascolto. Aiuto, mi sto Non so se ti
+17:39 sono spiegato.
+17:40 >> Sì, ti sei spiegato. Ti metto in standby
+17:43 un momento. Ti metto in attesa un
+17:45 momento. Il filtro di cui stai parlando
+17:46 te lo lo vediamo fra un momento. Ok.
+17:49 >> Ok. Ok. Grazie.
+17:51 >> Vai. Comunque buona domanda perché ci
+17:53 porta nel mondo reale, no? Quello delle
+17:55 radio. Eh, Sandro, a te.
+17:59 >> Eh, buonasera. Dunque, quel filtro che
+18:02 si è visto prima, no? Con le tre bobine
+18:04 e due condensatori.
+18:06 >> Sì,
+18:06 >> che sarebbe per la 144
+18:09 >> la banda VHS F.
+18:11 >> Sì, sì, sì.
+18:13 >> La banda VHF da 30 a 300 MHz.
+18:19 Dicevo, ma quel filtro lì serve per
+18:21 lavorare solo sulla 144,
+18:24 perché sennò prenderebbe anche le
+18:25 frequenze da 30 a 300.
+18:29 >> Eh, sì. Allora, i i filtri tagliano dove
+18:34 li vuoi far tagliare tu. Allora, quello
+18:37 c'era scritto lì. Aspetta, rimetto lo
+18:40 schermo in condivisione, così rivediamo
+18:42 anche la
+18:45 cosa. Diciamo il il radiamatore che se
+18:49 l'è progettato voleva trasmettere sulla
+18:51 banda del 144
+18:53 e mettere un filtro passa basso dopo il
+18:56 suo trasmettitore verosimilmente.
+18:58 Quindi, probabilmente, per usarlo sulla
+19:00 banda de 144
+19:02 lui verrà immaginato di fare un filtro
+19:04 che tagli sulla frequenza, ad esempio,
+19:07 di 180 MHz,
+19:10 ok? Perché tu hai detto una cosa molto
+19:12 giusta, cioè le VHF come banda intesi
+19:15 proprio VHF sono sono è una banda
+19:18 grande. La VHF va da 30 a 300 MHz. In
+19:22 questa banda di frequenza radi motoriali
+19:24 ce ne sono eh una 2 3 4 se non ho
+19:30 sbagliato a contarle. E quindi eh cioè
+19:33 se ti devi fare dei filtri passa basso
+19:35 per la tua radio, a seconda di quale di
+19:37 queste quattro frequenze lo vuoi usare,
+19:39 ti viene un filtro specifico con i
+19:41 componenti, con i valori per quella per
+19:43 quella frequenza lì. Ok.
+19:49 Sì, ma eh vabbè, non ha ancora tanto
+19:51 capito, cioè perché poi dalla radio
+19:54 stessa, no? Che girando la manopola
+19:55 delle frequenze ti porti su quella
+19:57 frequenza che vuoi andare.
+20:00 >> Esatto. Esatto. Esatto.
+20:02 >> Giusto. Ma se io già con lo strumento,
+20:05 con la radio trasmettitore, io mi regolo
+20:07 la frequenza dove voglio trasmettere,
+20:09 allora perché devo mettere questo
+20:11 filtro?
+20:13 Perché potresti essere perché potresti
+20:15 essere in una situazione dove il filtro
+20:17 ti serve, perché magari dai noia o
+20:19 perché magari c'è qualche segnale che ti
+20:21 dà noia, perché le radio non sono
+20:24 perfette, soprattutto le radio
+20:27 economiche sono molto imperfette.
+20:30 Mh mh.
+20:31 >> E questo ci porta su questo filtro di
+20:33 cui vi parlo adesso e e magari dico una
+20:36 cosa specifica rispetto a quello che
+20:38 stai dicendo tu e poi mi dici se ti ci
+20:41 trovi nel discorso che faccio ora,
+20:42 d'accordo?
+20:43 >> Sì, sì.
+20:44 >> Datemi un attimo e vi dico due parole
+20:48 sul filtro passalto. Ora, sul filtro
+20:50 passalto si fa molto più velocemente
+20:52 perché come funziona il gioco l'abbiamo
+20:54 già visto coni passa basso, no? Vedete
+20:56 che anche qui c'è una curva che anche
+21:00 qui ci fa vedere come funziona il filtro
+21:03 nella frequenza. Questo è un passaalto,
+21:05 quindi c'è la solita frequenza di
+21:07 taglio.
+21:08 Passa alto vuol dire che passano le cose
+21:11 alte sopra la frequenza di taglio, cioè
+21:14 passa questa zona qui che è chiamata
+21:16 banda passante e invece qua qua sotto il
+21:20 filtro mi oscura, come vedete qua,
+21:22 tutto. Allora, immaginiamo che voi siete
+21:25 nelle VHF e avete comprato uno di quei
+21:28 portatelini cinesi, le Baufeng o roba
+21:30 del genere, che hanno il grandissimo
+21:33 vantaggio di essere molto economici,
+21:36 però e alla fine si dice che alla tu
+21:38 ottieni quello per cui paghi, no? Quindi
+21:40 se una radio la paghi €30, hai una radio
+21:42 da €30. Allora, se avete una radio di
+21:45 quel genere, mettiamo che state
+21:47 lavorando appunto nella banda dei 144
+21:50 MHz, che immaginiamo che i 144 MHz siano
+21:53 qui
+21:55 e con quelle radio magari state facendo
+21:57 delle comunicazioni con delle con dei
+22:00 colleghi rianimatori tramite ponte
+22:02 ripetitori o in diretta. Mettiamo che
+22:05 voi abitiate vicini al Monte Serra di
+22:07 cui parlava prima, o anche semplicemente
+22:09 che nella città in cui state lì vicino
+22:12 ci sia un emittente FM forte. Diciamo
+22:14 che qua dentro che in queste in questa
+22:17 banda di frequenza che sto disegnando
+22:19 ora che questa sia la banda 88108,
+22:25 quindi la banda FM che essendo una banda
+22:28 commerciale come sapete è è ricca di di
+22:32 emittenti che sparano potenze
+22:35 stratosferiche, vedi la B1, vedi Radio
+22:38 Maria, eccetera eccetera eccetera.
+22:40 Allora, se avete la sfortuna di abitare
+22:42 vicino a una di queste stazioni, la
+22:45 vostra radio praticamente ammutulisce,
+22:48 cioè può arrivare a livello che
+22:50 l'accendete e non sentite nulla, oppure
+22:52 quello che sentite è molto frusciato,
+22:54 molto disturbato, eccetera. Allora, uno
+22:57 può per per risolvere una situazione di
+22:59 questo tipo ha due soluzioni. La prima
+23:02 butta via la radio e ne compra una che
+23:04 costa 10 volte tanto che quel problema
+23:06 non ce l'ha. Oppure la seconda si trova
+23:09 su internet un filtrino passalto
+23:13 centrato, ad esempio, a 120 MHz.
+23:19 120 MHz vuol dire che i 144 a cui
+23:22 trasmetti tu sono alti e quindi diciamo
+23:27 questo filtro che va messo, scusate, non
+23:29 vi ho detto, questo filtro immaginiamo
+23:32 di metterlo fra l'antenna
+23:34 qua, un bel filtro.
+23:37 il filtro di cui stiamo parlando
+23:40 e la radio vera e propria. Ok, quindi lo
+23:43 mettiamo davanti al ricevitore.
+23:47 La banda 88108 sta quaggiù e quindi
+23:49 viene attenuata parecchio. Quindi con
+23:52 quei filtri uno riesce a pulire in
+23:55 qualche modo la banda la banda in
+23:58 ingresso. Ok? Esattamente con gli stessi
+24:02 meccanismi che abbiamo visto prima, solo
+24:04 che qui funzionano a rovescio. Vediamolo
+24:06 subito qua nello schema un po' più
+24:08 complicato, tanto ormai avete capito
+24:10 come funziona. Vedete che il
+24:11 condensatore e l'induttore sono proprio
+24:13 a rovescio di come erano montati prima
+24:15 nel passapasso. Allora, immaginiamo una
+24:17 frequenza molto bassa, la frequenza di
+24:19 Radio Maria. Radio Maria, una frequenza
+24:22 bassa, mi trova un condensatore. I
+24:24 condensatori, si è detto che le
+24:25 frequenze basse ostacolano, quindi la
+24:28 famosa radiomaria passa poco. Quel poco
+24:31 che passa, essendo di frequenza bassa,
+24:34 viene buttato a massa allegramente da
+24:37 questo induttore. Invece una frequenza
+24:39 molto alta. Alla frequenza alta il
+24:42 condensatore lo potete vedere come un
+24:43 interruttore chiuso, passa tutto e una
+24:47 frequenza alta. L'induttore lo potete
+24:48 vedere come un induttore aperto, quindi
+24:50 come se non esistesse, per cui il
+24:53 segnale passa tramite il condensatore
+24:56 senza essere ostacolato e non viene
+24:58 messo a massa neanche un po'
+25:00 dall'induttore.
+25:01 E quindi con uno schema di questo tipo
+25:04 si ha appunto questo tipo di
+25:05 comportamento passa alto
+25:09 e col passa alto ci eh ci salvate il
+25:14 vostro ricevitore.
+25:16 Invece il passapasso
+25:19 fa in modo che l'uscita del
+25:21 trasmettitore sia pulita, toglie le
+25:25 armoniche, le spurie che possono uscire
+25:27 da un trasmettitore. Se prendete ora,
+25:30 ora non ho una foto con me, ma cercherò
+25:32 di di procurarmela per la volta
+25:36 prossima. Se prendete una radio di
+25:38 quelle che trasmettono in onde corte, le
+25:40 famose HF, dove ci sono 6 7 8 9 bander
+25:44 radioamatoriali, se aprite questa radio,
+25:46 poi poi vi farò vedere la foto, di
+25:49 solito c'è uno scatolottino dentro con
+25:51 sopra scritto filtri filtri passapasso.
+25:55 Se lo aprite si vede che lì ci sono
+25:58 sette filtri diversi, uno accanto
+26:00 all'altro, ognuno dei quali ha delle
+26:03 bobine un po' più grandi di quello che
+26:05 gli sta accanto e sono proprio i filtri
+26:07 di banda specifici per quella banda,
+26:10 perché ogni banda per essere pulita ha
+26:13 bisogno di un filtro con la sua
+26:15 frequenza di taglio giusta. torno al
+26:19 passapasso qua. Immaginiamo che io ora
+26:23 vi vi dico un po' di diciamo di numeri
+26:27 di frequenze radioamatomatoriali.
+26:29 Immaginiamo che io sto trasmettendo su
+26:31 una frequenza radioamatoriale bassa,
+26:33 quella dei 7 MHz.
+26:35 Se io trasmetto qui a 7 MHz, ho bisogno
+26:38 di un filtro che tagli a 10 per non
+26:41 avere fuori dalla radio la mia seconda
+26:43 armonica che sarebbe 14.
+26:47 Se però invece trasmetto nella banda
+26:49 ratioriale dei 14 MHz, perché a 14 MHz
+26:53 abbiamo un'altra banda radio
+26:54 motatoriale, è chiaro che questo filtro
+26:56 non mi va più bene, dovrò avere una
+27:00 dovrò avere un filtro con una frequenza
+27:01 di taglio di 18-20 MHz per bloccare la
+27:04 seconda armonica che sarebbe a 28 e così
+27:07 via. Quindi ogni banda radiamatoriale,
+27:10 ogni frequenza specifica ha bisogno del
+27:13 suo filtro. Sono stato chiaro?
+27:17 C'è qualche domanda su questo?
+27:23 Proseguo.
+27:24 >> Allora, va bene, va bene.
+27:25 >> Ok, proseguo rapidamente i filtri, poi
+27:28 mi f tutte le domande alla fine, tanto
+27:30 ormai abbiamo capito come funziona il
+27:31 gioco. Poi ci sono i filtri passabanda
+27:34 che sono questi qua. Filtro passabanda
+27:37 fa passare una banda. Come leggete,
+27:39 questi filtri non hanno una frequenza di
+27:41 taglio, ma ne hanno due che sono qua
+27:43 sotto, la frequenza di taglio inferiore
+27:45 e la frequenza di taglio superiore.
+27:49 E questi filtri fanno passare i segnali
+27:52 che stanno dentro queste due frequenze
+27:55 di taglio, dentro questa banda. Quello
+27:57 che mi diceva l'amico di prima che
+27:59 parlava, no, dei filtri per operare in
+28:02 FM narrow, quindi stretto oppure wide,
+28:05 largo, sono filtri di questo genere qua.
+28:08 Questo, se immaginate di essere in banda
+28:11 cittadina o comunque in generale, se non
+28:13 sapete neanche che cosa sia la radio
+28:15 cittadina, immaginate di avere una radio
+28:17 a canali con cui si può trasmettere con
+28:19 un commutatore su canale 1, canale 2,
+28:22 canale 3, canale 4. Questo è il filtro
+28:24 di canale. Immaginiamo che sto
+28:26 trasmettendo sul canale 7, quindi la
+28:28 frequenza centrale del filtro è quella
+28:29 del canale 7. Quanto deve essere largo
+28:32 questo filtro? Deve essere largo quel
+28:35 tanto che serve, quindi deve essere
+28:37 stretto quel tanto che serve per far sì
+28:39 che se in contemporanea a me c'è
+28:42 qualcuno che sta trasmettendo sul canale
+28:44 8
+28:46 di sopra e invece di sotto c'è qualcuno
+28:49 che sta trasmettendo sul canale 6.
+28:54 Se io sono sul canale 7, questo filtro,
+28:57 come si vede qua in questo in questa in
+29:01 nello nella banda passante del filtro
+29:04 che avete in questa slide, vedete che
+29:05 questo filtro, la banda passante
+29:07 ovviamente della linea blu, mi blocca i
+29:10 segnali del canale 6 e mi blocca i
+29:13 segnali del canale 7 facendomi passare
+29:16 solo quello del canale 8. A volte io
+29:19 voglio una banda passante ancora più
+29:22 stretta. Allora, metto un filtro non di
+29:25 tipo normale come questo che posso
+29:27 chiamare largo, wide, magari per certi
+29:30 scopi e la prossima e mercoledì prossimo
+29:33 vedremo quali sono questi scopi, magari
+29:34 voglio un filtro stretto per avere una
+29:37 vanda stretta, per essere ancora meno,
+29:40 diciamo, interferito dai segnali dienti.
+29:42 E questi sono i filtri passabanda
+29:45 che quindi fanno passare, diciamo, un
+29:47 canale o una banda, d'accordo? hanno due
+29:51 frequenze di taglio, quella inferiore e
+29:52 quella superiore.
+29:54 Poi ovviamente ci sono i filtri
+29:56 speculari ai pass banda, ci sono i
+29:57 filtri elimina banda che vengono
+29:59 chiamati a volte notch.
+30:02 Notch come si vede sul frontale delle
+30:04 radio e poi vi ho riportato la parola
+30:06 che potrebbe essere qualche volta usata
+30:08 anche dal ministero. Nocch una parola
+30:10 inglese che più o meno è la tacca.
+30:13 Quando hai una tacca, per esempio, su su
+30:15 un pezzo di legno, come si vede dalla
+30:17 banda passante che avete qua, vedete che
+30:20 qui c'è una tacca.
+30:22 Praticamente il filtro Eliminabanda è
+30:24 fatto apposta per attenuare, come
+30:27 leggete qua, come leggete nella
+30:29 definizione, tutti i segnali che sono
+30:31 compresi fra le due frequenze di taglio.
+30:34 Anche questi filtri passa, elimina
+30:36 banda, scusate, elimina banda hanno due
+30:38 frequenze di taglio, una superiore e
+30:41 quella, una inferiore e quella
+30:42 superiore. Anche questi filtri hanno una
+30:44 loro larghezza di banda, come vedete
+30:46 qui. BW vuol dire band withd in inglese
+30:49 larghezza di banda e i segnali che
+30:52 capitano qui vengono sostanzialmente
+30:54 annullati. Quindi quando potrei usare
+30:56 questo filtro? Immaginiamo che io ho la
+30:59 mia radio
+31:02 e nella mia radio soffro di
+31:03 interferenze. Io so in maniera specifica
+31:06 che queste interferenze sono su una
+31:08 frequenza ben determinata, quindi c'è
+31:10 proprio una stazione che mi dà che mi dà
+31:13 noia. Allora, io metto un filtro
+31:16 eliminabanda
+31:17 esattamente centrato
+31:20 sulla frequenza del segnale che mi dà
+31:22 noia, che ha il suo notch sulla
+31:24 frequenza, diciamo, di disturbo e subito
+31:26 dopo ci metto la mia radio. Così facendo
+31:30 io mi salvo la ricezione, la radio mi
+31:33 riprende a funzionare perché il segnale
+31:35 interferente che me la disturbava l'ho
+31:38 l'ho tagliato. Mh.
+31:41 E questo è l'ultimo tipo di filtro che
+31:45 c'è. Riassumendo, qui le vedete in forma
+31:47 grafica, ci sono i filtri, appunto,
+31:49 passa basso, passa alto, passabanda,
+31:52 arrestabanda. Vedete in questa slide che
+31:55 quello che passa è quel il panettoncino
+31:57 giallo, no, che è in queste figure qui
+32:01 passa tutto quello che è sotto la
+32:03 frequenza di taglio, nel passalto tutto
+32:05 il sopra la frequenza di taglio. Questa
+32:07 è la banda che passa in un filtro
+32:10 passabanda.
+32:11 E questa è la banda che non passa in un
+32:14 filtro resta banda, quindi tutto il
+32:16 resto passa.
+32:19 Queste stesse informazioni ve le ho
+32:21 riportate anche in maniera proprio
+32:23 pedante in questa tabella qua che ora
+32:25 non ricommento punto per punto perché
+32:27 sono esattamente le stesse cose che
+32:29 abbiamo detto fino a ora, no? Vediamo
+32:31 solamente per esempio il passa passo.
+32:33 Cosa fa passare? Le frequenze inferiori
+32:35 alla frequenza di taglio. Cosa blocca le
+32:38 frequenze superiori alla frequenza di
+32:40 taglio? Allora, vedrete delle domande
+32:42 che vi manderemo domani e dopodomani che
+32:45 questa tabella serve proprio per
+32:47 rispondere alle domande del Ministero.
+32:49 Le domande del Ministero tipicamente
+32:51 sono fatte proprio in questo modo qua.
+32:52 Un filtro passa alto e che tipo di
+32:55 frequenze blocca? E ci sono tutti i
+32:57 casi, no? le frequenze, le frequenze
+32:59 sotto, la frequenza di taglio, le
+33:01 frequenze sopra e diciamo qui avete di
+33:04 fatto tutte le risposte.
+33:07 E questo è tutto quel che riguarda i
+33:09 filtri. Ci fermiamo un attimo se c'è
+33:12 qualche qualche domanda. Filippo, a te.
+33:17 Eh sì, volevo fare l'esempio prima per
+33:19 l'appunto della della BF, cioè quei
+33:21 filtri che si mettono appunto tra
+33:22 antenna e ricevitore, insomma il radio.
+33:25 Però una domanda, quelli lì sono
+33:27 esclusivamente usati per tagliare le
+33:30 spurie della trasmittente, non sono
+33:33 fatti per filtrare eventuali disturbi
+33:36 che provengono in fase di ricezione,
+33:38 perché teoricamente già l'antenna,
+33:40 vabbè, può essere centrata su una o due
+33:42 frequenze, principalmente la 140 e la
+33:44 430, 143, 430,
+33:48 >> però è la radio, cioè è la è l'antenna
+33:50 che filtra queste due perché è centrata
+33:52 su, cioè è ottimizzata, insomma, per la
+33:54 ricezione In queste due bande, il filtro
+33:56 che si mette tra trasmittente e antenna
+33:59 serve solo in trasmissione oppure serve
+34:01 anche per filtrare eventuali disturbi in
+34:05 ricezione.
+34:06 >> Allora, il filtro se se si se si prende
+34:09 un qualunque filtro e lo si mette fra
+34:12 l'antenna e la radio, il filtro lavora
+34:15 nello stesso modo in trasmissione e
+34:17 ricezione.
+34:18 >> Ok.
+34:19 >> Ok.
+34:21 E
+34:21 >> quindi alla fine è come se fossero tipo
+34:23 un passalto, un passa, cioè un
+34:25 passabanda alla fine.
+34:27 >> Eh sì, se allora se se tu prendi, ad
+34:30 esempio, un passabanda, hai un effetto
+34:32 passabanda sia in trasmissione che in
+34:34 ricezione, ok? il filtro si comporta
+34:37 esattamente nello esattamente nello
+34:39 stesso modo e poi sulle radio di quel
+34:41 tipo, quindi sulle radio che hanno
+34:43 antenne molto corte, molto caricate,
+34:45 eccetera, eh l'antenna fa un effetto di
+34:48 filtraggio veramente veramente scarso.
+34:50 sono state pubblicate su
+34:53 su anche abbastanza recentemente sulle
+34:56 riviste nostre del settore delle misure
+34:59 strumentali del funzionamento di quelle
+35:01 antenne e e insomma, cioè son son molto
+35:05 molto scarse da quel punto di vista e e
+35:08 >> sì, ho visto diversi video dove fanno
+35:10 vedere tutte le spurie in trasmissione,
+35:12 cioè che è veramente
+35:14 >> una cosa abbastanza imbarazzante, però
+35:17 principalmente in trasmissione, anche in
+35:19 ricezione però vengono usati questi
+35:20 punti.
+35:22 >> E allora sì, nel senso che diciamo eh
+35:27 questo poi ne avremo una serata dedicata
+35:29 ai ricevitori e quanto più il ricevitore
+35:32 si fa lavorare eh a valle di filtri per
+35:36 la banda centrati sulla banda che che
+35:38 vuoi ricevere, tanto meglio funziona.
+35:41 >> Ok? Esattamente così ne parleremo. Però
+35:44 se si mette un filtro, tornando alla
+35:46 alla tua prima domanda, se si mette un
+35:48 filtro proprio fra antenna e radio, uso
+35:51 la parola radio apposta, non parlo né di
+35:52 trasmettitore né di ricevitore, quel
+35:55 filtro ha lo stesso effetto che sia
+35:57 passa alto, passa basso, eccetera
+35:59 eccetera, sia per la trasmissione che
+36:01 per la ricezione. Ok, perfetto.
+36:03 >> Ok,
+36:04 >> grazie mille
+36:05 >> a te, Pierpaolo. A te.
+36:10 Sì. Eh, più che altro è una curiosità.
+36:13 Eh, nella slide dove c'è la fotografia
+36:16 di quel filtro dei 144
+36:19 e si vede benissimo le dei tre
+36:23 induttori. Sono messi in for ce ne
+36:27 messi, diciamo, in verticale, uno messo
+36:29 in orizzontale, solo in forma casuale o
+36:32 sono studiati messi così perché sono
+36:36 perché devono essere messi così.
+36:38 È è voluto, è voluto, è voluto perché un
+36:42 attimo solo che rimetto
+36:45 rimetto in condivisione la cosa.
+36:49 È voluto perché Aspetta, eh,
+36:53 l'ho persa. Eccola qua. Ci posso
+36:56 arrivare un attimo solo. è evoluto
+36:59 perché ricordate le domande
+37:02 del MiMIT che vi ho mandato che vi
+37:06 abbiamo mandato nella nella puntata
+37:08 nella lezione dei degli induttori si
+37:11 diceva se colleghiamo in serie due
+37:14 induttori non accoppiati fra loro, vi
+37:17 ricordate?
+37:19 Perché diciamo metterli in questo modo
+37:22 perpendicolari l'uno rispetto all'altro
+37:26 fa sì che gli induttori, come si dice in
+37:29 gergo non si vedono. Quindi il campo
+37:32 magnetico di questo primo induttore,
+37:34 immaginiamo che abbia questa forma qua,
+37:36 non si accoppia o si accoppia poco poco
+37:39 col campo magnetico generato da questo
+37:42 induttore che è ortogonale,
+37:44 perpendicolare. E E di nuovo, di nuovo
+37:47 qua, se li mettessi tutti e tre
+37:49 paralleli, eh, ci sarebbe un mutuo
+37:53 accoppiamento fra loro molto più forte
+37:55 che non quando sono montati così. E
+37:57 questo mutuo accoppiamento
+37:59 eh
+38:01 mi rende molto difficile calcolare i
+38:04 valori che devono essere eh messi, il
+38:08 numero di spire che deve essere messo in
+38:09 un induttore, perché immaginiamo che io
+38:12 voglia qui un induttore qua nel mezzo,
+38:15 un induttore da 10 microenri,
+38:19 prendo la formula, me lo calcolo e lo
+38:21 metto lì e tutto funziona. Se però qua
+38:23 dietro ci metto un induttore uguale e
+38:28 diciamo li faccio attraversare dalla
+38:29 stessa corrente, il campo magnetico
+38:31 concatenato fra un induttore fa sì che
+38:34 questo induttore in realtà non abbia più
+38:35 10 microenri di valore, ma il valore
+38:37 cambia e quindi diventa un gran casino
+38:39 calcolare, diciamo, il risultato finale.
+38:42 In questo modo, invece, tenendoli
+38:44 separati, met tenendoli così ortogonali,
+38:47 è quasi come se ci fosse uno schermo in
+38:49 mezzo, no? gli induttori non si vedono e
+38:51 ognuno ha il suo valore eh che che è
+38:56 quello che serve per quel tipo di filtro
+38:58 lì. Ok,
+39:00 >> chiarissimo. Grazie.
+39:02 >> Vai. No, no, è una è stata una bella
+39:04 domanda.
+39:05 Ci sono altre domande?
+39:08 >> Vai Luca,
+39:10 >> vai Luca. Dai, Torcolo.
+39:12 >> Sì. è un cosa sempre di quel di quel
+39:16 filtro lì c'è un diciamo
+39:21 un rapporto tra i due tra il centrale
+39:24 che ha cinque spire e gli altri due che
+39:27 ne hanno tre o è casuale?
+39:32 No, allora eh eh qui diciamo che
+39:37 eh allora i i filtri passa alto, passa
+39:41 basso, eccetera, diciamo, immaginate
+39:45 quel
+39:47 filtro che avete visto prima che ha tre
+39:49 induttori e due condensatori. Vi
+39:51 immaginate che avendo cinque componenti
+39:54 diversi, le combinazioni di capacità e
+39:57 induttanza possono essere infinite?
+39:59 Scusa.
+40:01 Allora, esistono dei
+40:05 dei disegni particolari
+40:08 e che in qualche modo ottimizzano le
+40:11 prestazioni del filtro. Disegni
+40:12 particolari, voglio dire, dei rapporti
+40:14 particolari fra condensatori e induttori
+40:17 che fanno sì che i filtri funzionino
+40:19 meglio che non con altri rapporti fra
+40:21 induttori e condensatori. Per esempio,
+40:23 ci sono i filtri di ceb, ci sono i
+40:24 filtri di puntini puntini puntini. E
+40:27 allora, normalmente, quando uno eh vuol
+40:31 realizzare un filtro, eh si si procura,
+40:35 fammi dire, le proporzioni di quel tipo
+40:38 di filtro lì e se le adatta alla
+40:41 frequenza eh a cui vuole il filtro,
+40:44 quindi non parte da zero con la
+40:46 progettazione, ma normalmente prende un
+40:50 format, sostanzialmente scegliendo un
+40:53 tipo di filtro e questo format se l'atta
+40:56 alla frequenza di lavoro, perché ora si
+40:58 è parlato stasera di un solo parametro
+41:02 nel filtro che è la larghezza di banda
+41:05 che è l'unico parametro che fa parte del
+41:07 programma di esame, però i filtri di
+41:09 parametri hanno molti altri. Per
+41:11 esempio, noi si si è visto la banda
+41:12 passante come se fosse, farmi dire, un
+41:15 panettone piatto. In realtà un filtro
+41:17 può avere un'ondulazione, tutti i filtri
+41:20 hanno un'ondulazione nella banda
+41:21 passante, non è mai piatta, poi il
+41:23 filtro possono essere adattati male,
+41:26 adattati più o meno bene in ingresso,
+41:28 eccetera eccetera. Ci sono ci sono tanti
+41:30 parametri. Eh uno sceglie eh il format
+41:34 eh relativamente al parametro che vuole
+41:36 ottimizzare, per esempio, vuole un
+41:38 filtro molto piatto e se lo adatta alla
+41:40 sua frequenza. Questo, di conseguenza
+41:42 porta un certo tipo, un certo numero di
+41:45 spire e un certo valore di capacità del
+41:47 condensatore. Però lo stesso tipo di
+41:50 filtro per la stessa frequenza di taglio
+41:51 lo puoi ottenere in teoria con una
+41:54 combinazione infinita dei valori di
+41:55 induttore e e condensatore, no? Eh, uno
+41:59 sceglie quello che vuole e poi in
+42:01 qualche modo si si trova la, diciamo, il
+42:05 eh il filtro che si è voluto, diciamo
+42:08 così, eh fa fa parte delle delle tante
+42:10 libertà che ha un progettista. Ok,
+42:15 >> bene. Grazie
+42:17 >> a te.
+42:18 Adesso c'è Stefano.
+42:21 >> Ciao. Allora, mi è venuto questo dubbio,
+42:24 ma si possono mettere più filtri uno di
+42:26 seguito all'altro e casomai in che
+42:28 maniera si devono collegare? E poi per
+42:31 avere, diciamo, una banda più pulita,
+42:33 quindi una capacità di di filtrazione
+42:36 maggiore, si può mettere, ad esempio, un
+42:37 filtro passabanda
+42:40 che fa passare la banda voluta e poi
+42:43 unirci uno più filtri elimina banda per
+42:46 eliminare quelle altre laterali. È
+42:48 possibile, diciamo, assemblare in questo
+42:50 modo i filtri?
+42:52 >> Sì, sì,
+42:52 >> grazie.
+42:52 >> Sì, certamente sì. Certamente sì. è
+42:55 possibile e molte volte viene fatto
+42:57 quando non basta l'attenuazione di un
+42:59 filtro se ne possono mettere due in
+43:00 serie e anche tre e diciamo che rispetto
+43:04 a questi eh rispetto alla progettazione
+43:07 di un filtro in in Allora, avete visto
+43:10 il filtro in quella figura che non sto a
+43:12 riproiettare, avete visto che ha due
+43:13 bocchettoni di ingresso e di uscita.
+43:16 quei bocchettoni.
+43:17 Eh,
+43:20 allora, i filtri vengono progettati,
+43:23 diciamo, in generale tutti questi
+43:25 componenti qui, filtri, per esempio,
+43:28 vengono progettati per avere tutti a
+43:31 standard un'impedenza di ingresso e di
+43:33 uscita pari a 50 ohm. il filtro della
+43:36 Drake, per esempio, che abbiamo visto
+43:37 prima, ma anche quello, no, nella foto,
+43:40 il fatto che abbiano tutti la stessa
+43:41 impetenza di ingresso e di uscita fa sì
+43:43 che si possano collegare in serie uno di
+43:46 l'altro senza problemi e quindi se uno
+43:48 vuole comporsi, diciamo, un filtro a più
+43:51 stadi, se lo può comporre senza
+43:53 problemi. Basta semplicemente che i
+43:55 filtri vadano d'accordo fra loro e si
+43:58 interfaccino l'uno con l'altro. Questo
+44:00 interfacciamento si ottiene quando
+44:02 l'impedenza di ingresso e di uscita dei
+44:04 filtri è identico. Questo poi lo vedremo
+44:07 bene anche ne riparleremo abbastanza a
+44:09 lungo di queste cose anche nelle
+44:11 prossime lezioni. Ok.
+44:14 >> Ok. Grazie.
+44:15 >> Sì. Adesso Giovanni a te.
+44:18 >> Eh no, c'era Alfredo, credo.
+44:21 >> Ah, scusate. Sì, scus.
+44:22 >> Sì, sì, grazie. A me non ci sarebbe
+44:23 stato problema. Grazie, Giovanni. No, eh
+44:26 in parte hai risposto tramite la tramite
+44:29 Stefano, perché pure io mi stavo
+44:31 chiedendo se fosse possibile, magari io
+44:33 me lo chiudo in maniera molto ingenua,
+44:35 se fosse possibile metterli in serie,
+44:37 tipo sono in emergenza, stavo ragionando
+44:40 così, mi serve un filtro passabanda, non
+44:43 ce l'ho. Allora, se io mettessi, per
+44:45 esempio, un filtro passa basso, un
+44:48 filtro passa alto, cioè potrei creare io
+44:51 delle scale per tenermi fuori quello che
+44:53 non voglio se non avessi un filtro
+44:56 specifico? Lo so, forse è un po'
+44:58 incasinata come domanda, però è una
+44:59 curiosità mia. Grazie.
+45:01 >> No, no, no, quello che hai detto è
+45:03 giustissimo. Cioè, in fin dei conti un
+45:06 passapanda può essere fatto benissimo da
+45:08 un passa passo e un passo alto in serie,
+45:10 leggermente sovrapposti, no?
+45:13 E sì, si può fare tranquillamente, si
+45:16 può fare e funziona senza problemi.
+45:18 >> Quindi in teoria si potrebbe assemblare
+45:21 vari filtri per ottenerne uno che
+45:24 potrebbe essere già per esempio
+45:26 fabbricato nativo, cioè anche per il
+45:27 puro gusto, per esempio, sentivo il
+45:29 Notch, cioè si potrebbe addirittura
+45:31 inserire vari filtri per creare questi
+45:33 effetti e senza fare direttamente il
+45:35 filtro notch, cioè a livello proprio di
+45:37 puro gusto, di divertimento nel
+45:39 volerseli assemblare da soli.
+45:41 >> Esatto. Esattissimo. Esattissimo.
+45:42 potrebbe avere i patcini dell'ego e
+45:44 comporli in base a a quello di cui ha
+45:46 bisogno in quel momento. Sì,
+45:49 >> grazie.
+45:49 >> Tranquillamente,
+45:50 >> niente a te.
+45:53 E adesso Giovanni ora
+45:54 >> sì è un concetto velocissimo. Quindi si
+45:57 può posso dire che i filtri ottimizzano
+46:00 le prestazioni di una ricetrasmittente
+46:03 sia in ricezione che in trasmissione e
+46:06 eventualmente se così in linea generale
+46:10 e se avessi questa ricce trasmittente a
+46:12 2000 m
+46:15 senza diciamo disturbi interferenze
+46:17 varie, forse ho avrei meno necessità di
+46:21 utilizzare questi filtri a meno che non
+46:23 abbia un ponte radio di Radio Maria a
+46:25 200 metri vicino, giusto?
+46:28 >> Esattamente come hai detto.
+46:30 >> Ok, grazie. Se per esempio sei, parlando
+46:32 della Toscana, se sei in cima al
+46:33 pisanino sulle apuane,
+46:37 lì le apuane sono belle ripide, di
+46:39 ripetitori ce ne sono molto pochi,
+46:40 probabilmente magari ti trovi in un
+46:42 punto dove, diciamo, insomma, hai un
+46:44 orizzonte bello libero e e non hai
+46:46 emittenti forti nelle vicinanze, anche
+46:48 se lì c'è un orizzonte talmente bello
+46:51 che comunque un po' di segnali ti un po'
+46:53 di segnali forti comunque ti
+46:54 raggiungono, però non ce l'hai a 2 km da
+46:56 casa, no?
+46:58 >> Sì, sì. No, ma ho po io ho provato,
+47:00 abito sopra nelle colline sopra pescia,
+47:03 quindi eh vedo la differenza da quando
+47:06 accendo un'area rad a Montecatini a
+47:07 quando l'accendo là sopra che insomma è
+47:09 un totalmente diverso. Ecco, il
+47:11 concetto. Ok, grazie. Grazie a te.
+47:15 >> Adesso
+47:17 Giovanni Cecchi.
+47:19 >> Sì, grazie. Eh, domanda, ma questi
+47:22 filtri non hanno alcun effetto
+47:26 sull'intensità?
+47:28 della della
+47:31 banda che puoi far passare, cioè non
+47:33 attenuano un po' anche quella o o no?
+47:38 >> Sì, attenuano se mi sono
+47:40 >> eh perfettamente
+47:41 >> siccome parlavi anche dicevi anche la
+47:43 possibilità di metterne più in serie,
+47:45 no? E arrivato in fondo però non rischi
+47:48 anche di attenuare la la forza del
+47:52 segnale che vuoi ascoltare.
+47:55 >> Sì, sicuramente sì, sicuramente sì. se
+47:57 ne metti tanti in serie, cioè ogni
+48:00 filtro un po' il segnale lo attenua. Il
+48:03 più delle volte questa attenuazione è
+48:05 minima, però se se ne mettono parecchi
+48:08 effettivamente l'atazione cresce, però
+48:10 se magari con tanti filtri riesci ad
+48:12 ascoltare senza filtri no, è meglio
+48:15 avere un segnale un po' atterato
+48:17 piuttosto che nessun segnale, diciamo
+48:19 così. Cioè giustamente sono tutte
+48:21 soluzioni che poi uno si si deve
+48:23 configurare un po' sulla situazione
+48:25 specifica, no? Comunque sì, è vero, cioè
+48:27 come principio generale e tutti i filtri
+48:31 hanno un po' di attenuazione.
+48:34 >> Ok, grazie.
+48:36 >> Sì, adesso Daniele e poi proseguiamo.
+48:40 >> Bene. Sì, il il notch ci siamo. Ehm,
+48:45 cioè agisce solo sulla frequenza e che
+48:49 voglio, diciamo, ammazzare o anche sulle
+48:52 sue armoniche?
+48:54 M il notch agisce solo su una frequenza.
+48:58 >> Ok. Quindi se io mi trovo se mi trovo
+49:00 sulla 21
+49:01 >> e eh il disturbo mi parte dalla 7.
+49:07 >> Allora se
+49:09 Allora, se se tu hai un trasmettitore a
+49:12 sette, diciamo a diciamo hai un
+49:15 trasmettitore molto sporco, quindi ti
+49:17 esce sette che è la banda su cui stai
+49:19 trasmettendo, però ti esce anche 14 21.
+49:24 Se tu volessi evitare 14, 21 e 28 con
+49:27 dei notch, ti servirebbero tre notch,
+49:29 perché se tu al tuo trasmettitore che
+49:31 trasmette a 7 metti il notch a 14,
+49:37 il 21 ti esce sempre.
+49:41 >> Ok. Il Notch funziona solamente in in
+49:45 uscita o anche in entrata?
+49:48 >> Anche in entrata. Anche in entrata.
+49:50 Cioè, anche tutti questi filtri si usano
+49:52 anche in ricezione, in effetti eh
+49:57 molte radio alle
+50:00 molte radio, soprattutto quelle delle
+50:02 onde corte, non so se qualcuno di voi,
+50:04 no, in banda cittadini è attrezzato con
+50:06 con una radio, no, un po', diciamo, un
+50:08 po' un po' seria. Molte radio hanno
+50:11 comunque un notch funziona nella banda
+50:13 passante del ricevitore. Quando, per
+50:15 esempio, ascolti un segnale e c'è un
+50:16 fischio che ti disturba. col notch vai
+50:19 sulla frequenza di questo filtro e
+50:21 praticamente te lo attenua molto te lo
+50:23 annulla.
+50:25 >> Ok,
+50:26 >> perfetto. Grazie.
+50:27 >> Niente a te. Allora,
+50:31 ottimo.
+50:33 Grazie delle domande. Interessante
+50:35 vedere che, diciamo, gli argomenti vi
+50:38 interessano.
+50:40 Rimetto in condivisione.
+50:43 Ok, si vede il video?
+50:45 >> Sì, Paolo.
+50:46 >> Sì, sì. Grazie, grazie. E andiamo a
+50:50 questo punto avanti. Dunque,
+50:53 adesso parliamo dei circuiti risonanti,
+50:56 che è il secondo argomento di di
+50:58 stasera. Poi i quarzi sono una cosa
+51:00 molto semplice da da raccontare. Allora,
+51:03 cosa sono i circuiti risonanti? Intanto
+51:05 sono circuiti composti da un induttore e
+51:08 un condensatore
+51:10 e e questi induttore e condensatore
+51:12 possono essere messi in serie o in
+51:15 parallelo. Quindi, come vedete, come
+51:17 vedete qua,
+51:21 questo ovviamente è un circuito
+51:23 risonante serie, conduttore condensatore
+51:26 in serie e questo ovviamente è un
+51:28 circuito risonante parallelo.
+51:31 Allora, cosa si intende per circuito
+51:33 risonante e cosa vuol dire il concetto
+51:35 di risonanza? Allora, noi abbiamo visto
+51:39 e guardate questo schema che avete su
+51:41 carta quadrettata qui a sinistra. Noi
+51:44 abbiamo visto che vedete che questo è
+51:47 uno schema che sull'asse delle ascisse
+51:49 ha la frequenza. Noi abbiamo visto che
+51:53 la reattanza induttiva XL
+51:58 cresce al crescere della frequenza ed è
+52:01 questa retta qua. Non non lo sto a
+52:03 tratteggiare tutta perché sennò sporco
+52:05 il disegno per quello che poi ci voglio
+52:06 fare dopo. Tanto ormai lo avete
+52:08 riconosciuto perché ne abbiamo parlato
+52:10 varie volte, no? Vedete che anche qua
+52:11 c'è scritto Excel.
+52:14 Sullo stesso grafico è sovrapposta anche
+52:17 una reattanza capacitiva XC
+52:20 e la reattanza capacitiva, eccola qua,
+52:23 si è detto che al crescere della
+52:25 frequenza va a calare, decresce e in
+52:28 effetti questa curva va a crescere, no?
+52:31 Allora, in un circuito risonante o serie
+52:34 o parallelo che sia, io io questi
+52:37 componenti di cui stiamo parlando ce li
+52:39 ho tutti e due. Ho sia il condensatore
+52:41 che l'induttore.
+52:42 Allora, l'induttore
+52:45 la la curva di risonan la curva,
+52:47 scusate, della reattanza dell'induttore
+52:49 è questa retta. La curva della reattanza
+52:53 del condensatore è questa iperbole
+52:57 e c'è comunque un punto in cui ste due
+52:59 curve si incontrano e questa è questo
+53:03 questo queste due, scusate, queste due
+53:05 curve si incontrano a un punto che per
+53:07 l'appunto è chiamato frequenza di
+53:10 risonanza. Allora, cosa succede a questo
+53:12 punto?
+53:14 che i due valori siccome si incontrano
+53:16 incontrarsi a questo punto quel punto in
+53:19 quel punto lì sia la reattanza
+53:23 indottiva che quella capacitiva sono
+53:25 alla stessa altezza e quindi valgono lo
+53:28 stesso valore, diciamo 100 ohm. Diciamo
+53:31 che a questo punto sia la reattenza
+53:33 induttiva che che quella capacitiva
+53:35 valgono 100 ohm. E questa è la
+53:38 definizione di punto di risonanza. Dal
+53:40 punto della risonanza le le reattanze si
+53:43 equivalgono, sono, diciamo, hanno lo
+53:46 stesso numero. Però vi ricordate che la
+53:49 reattanza capacitiva si indicava con un
+53:52 segno più e la reattanza capacitiva con
+53:54 un segno meno? Alla frequenza di
+53:57 risonanza queste reattanze si annullano
+54:00 l'una con l'altra. E ora vediamo un po'
+54:02 meglio perché
+54:05 questo punto qui, la frequenza di
+54:07 risonanza, conoscendo la formula
+54:09 dell'erattanza induttiva che vi ho detto
+54:12 due settimane fa, XL = 2 pi * f * L. E
+54:20 ricordando la formula dell'erattanza
+54:21 capacitiva che abbiamo visto mercoledì
+54:23 scorso, no? che è 1 / 2 pi, cioè
+54:27 mettendo insieme quelle formule con un
+54:28 po' d'alchimia si calcola questa formula
+54:31 qua
+54:33 che dato il valore della mia induttanza,
+54:37 Lo il valore del mio condensatore C,
+54:40 questa è la frequenza di risonanza 1 /
+54:43 frs frequenza di risonanza uguale 1 / 2
+54:46 pi per la radice quadrata di L * C.
+54:50 Questa è la frequenza di risonanza di un
+54:52 circuito. Allora, vediamo un circuito
+54:55 risonante parallelo. Cosa succede alla
+54:58 risonanza? E e qui vedete un po' tutti
+55:01 tutti i passaggi. Allora, intanto il
+55:03 circuito risonante, come vedete in
+55:05 questo schema qui a destra, è in
+55:07 parallelo. Poiché il condensatore e
+55:09 l'induttore sono in parallelo,
+55:12 hanno ai loro capi la stessa tensione.
+55:16 Quindi il condensatore e l'induttore
+55:18 hanno la stessa V, diciamo, la stessa
+55:21 tensione ai loro capi. Poi alla
+55:23 frequenza di risonanza sappiamo che le
+55:25 due reattanze sono uguali. XL = XC.
+55:29 Quindi, siccome la tensione è la stessa
+55:32 e la la resistenza, la reattanza è la
+55:35 stessa, per la legge di ohm corrente
+55:38 uguale I = V su R, la nel condensatore e
+55:43 nell'induttore scorrerà esattamente la
+55:46 stessa corrente. Questo lo vedete più o
+55:48 meno in questo schemino che avete qua a
+55:49 destra, no? Vedete che nel condensatore
+55:51 scorre qua in rosso questa IC,
+55:55 nell'induttore scorre questa IL. alla
+55:58 frequenza di risonanza i valori di
+56:01 queste due correnti sono uguali. Sono
+56:04 uguali perché le tensioni sono le stesse
+56:07 e le correnti sono le stesse, come ho
+56:09 detto prima. Però cosa succede? Succede
+56:12 che rispetto alla tensione a cui è,
+56:17 diciamo, alimentato questo circuito
+56:19 risonante, succede che IL, cioè la
+56:22 corrente che passa eh nell'induttore è
+56:26 sfasata di 90°, scusate, rispetto alla
+56:30 frequenza
+56:32 del segnale
+56:35 che interessa questo circuito, che
+56:37 alimenta questo circuito,
+56:39 la corrente nell'induttore è sfasata di
+56:42 90° in ritardo. La corrente del
+56:45 condensatore è sfasata di 90° di
+56:47 anticipo. Questo sto mettendo insieme le
+56:49 cose che avevamo che avevamo visto
+56:51 insieme nelle due lezioni scorse. La
+56:55 corrente in un in un induttore è sempre
+56:57 un po' in ritardo rispetto alla
+56:59 tensione, quindi è in ritardo di 90°.
+57:02 Rispetto alla tensione la corrente di un
+57:04 condensatore invece è in anticipo di
+57:06 90°. Quindi in un circuito risonante col
+57:10 con il condensatore con l'induttore
+57:11 messo in questo modo eh rispetto alla
+57:15 tensione che sta quassù V, la tensione è
+57:17 questa.
+57:20 Corrente nel condensatore sfasata di 90°
+57:23 anticipo, quella nell'induttore di 90°
+57:25 in ritardo. 90 e 90 fa 180. Quindi le
+57:29 due correnti sono in opposizione di fase
+57:32 l'una rispetto all'altra. sono sfasate
+57:34 di 180°,
+57:36 come vedete in questo disseglio qua
+57:38 sotto.
+57:39 Patate di 180° vuol dire che quando
+57:42 mettiamo la corrente nel condensatore è
+57:44 al suo punto massimo positivo, la
+57:47 corrente nell'induttore ha è al suo
+57:50 punto minimo negativo. Se si sommano
+57:53 queste due sinusoidi, il risultato
+57:55 finale è pari a 0. Queste due sinusoidi
+57:59 si annullano l'una con l'altra, cioè
+58:01 queste sono due
+58:03 correnti
+58:05 di ampiezza uguale, ma sfasate di 180°
+58:08 l'un l'una con l'altra, quindi si
+58:10 annullano fra loro. Se si annullano, la
+58:13 corrente che scorre nel mio circuito
+58:16 risonante parallelo vale zero. Non
+58:19 scorre corrente perché sembra
+58:22 stranissimo, ma le correnti del
+58:24 condensatore nell'induttore si annullano
+58:26 fra loro. Quindi in questo punto qua in
+58:28 cui sono io non scorre corrente,
+58:32 ovvero alla frequenza di risonanza un
+58:35 cito risonante parallelo ha, come
+58:38 leggete qua sotto un'impedenza infinita.
+58:43 E questo è il meccanismo della risonanza
+58:46 nei circuiti risonanti parallelo. Uno
+58:48 dice, ma qui nel condensatore e
+58:50 nell'induttore scorrono corrente. Com'è
+58:52 possibile che in questo punto qui B
+58:55 corrente non scorra?
+58:57 Perché eh la corrente che scorre nel
+59:00 condensatore cosa fa? Per un certo
+59:03 periodo della sinusoide mi carica il
+59:05 condensatore con un campo elettrico,
+59:07 come abbiamo visto quando si parlava di
+59:09 condensatori. Questo condensatore poi si
+59:11 dovrà scaricare. Dove si scarica? si
+59:13 scarica solo induttore che genererà il
+59:15 suo campo magnetico. Come si dice in
+59:18 gergo, in un circuito risonante di
+59:20 questo tipo, l'energia che sta nel
+59:23 condensatore, cioè il condensatore e
+59:25 l'induttore si palleggiano l'energia
+59:27 l'una con l'altra, quindi scorre
+59:30 corrente nell'induttore, nel
+59:32 condensatore, ma questa corrente la si
+59:34 scarica tutta nell'induttore. Quindi,
+59:37 se io trasmetto a 27 MHz, per esempio,
+59:40 per 27 milioni di volti al secondo,
+59:42 succede che il condensatore si carica e
+59:45 si scarica sull'induttore.
+59:46 Sull'induttore si genera un campo
+59:48 magnetico e questo campo magnetico poi
+59:50 si riazzera ricaricando il condensatore.
+59:53 Praticamente questi due signori giocano
+59:55 da soli, diciamo così. Si caricano e si
+59:58 scaricano l'uno con l'altro, meccanismo
+60:00 che ha del magico, se vogliamo, da un
+60:02 certo punto di vista. Da fuori non si
+60:04 vede assolutamente nulla.
+60:07 Questa cosa qua faccio un'altra vi
+60:11 faccio vedere un'altra slide e poi vi
+60:12 faccio fare tutte le domande che volete.
+60:14 Questa cosa qua, questo meccanismo di
+60:17 questa caratteristica dei circuiti
+60:19 risonanti parallelo
+60:22 e qui vediamo un po' in grafico,
+60:24 praticamente qui è riassunto quello che
+60:27 vi ho spiegato punto per punto prima. Un
+60:31 circuito risonante parallelo blocca la
+60:33 corrente alternata alla sua frequenza di
+60:35 risonanza. La blocca perché, come si è
+60:37 visto prima, qua sotto l'impedenza è
+60:40 infinito. Questo questa proprietà,
+60:45 vedete che questa curva qui la corrente,
+60:48 questa è la corrente che scorre nel mio
+60:50 circuito risonante parallelo. Questa è
+60:52 la frequenza di risonanza. Qui la
+60:54 corrente zero. Vedete che questa curva,
+60:59 adesso uso una parola nuova, questa
+61:01 curva vedete che è selettiva,
+61:04 cioè in qualche modo ha un determinato
+61:07 comportamento che in questo caso è di
+61:09 avere un un uno zero, un nullo alla
+61:12 frequenza di risonanza. E questo
+61:14 circuito qua con questa eh proprietà che
+61:17 stiamo vedendo è la base delle
+61:20 radioaggalena. Avrete sentito tutti
+61:22 parlare delle vecchie radio a Galena,
+61:24 no? Che sono le primissime radio che
+61:26 alla fine del 1800 di questo tipo sono
+61:29 state costruite eccetera. Questo è lo
+61:31 schema di una tipica radio a galera. Qui
+61:34 c'è il nostro circuito risonante.
+61:38 Vedete che qua c'è l'induttore e qua c'è
+61:40 il condensatore. Qua il condensatore è
+61:42 fatto variabile, vi ricordate? si era
+61:44 detto che i condensatori possono essere
+61:46 fatti eh variabili, variando la loro
+61:49 capacità, muovendo il rotore del
+61:51 condensatore. Variando il condensatore è
+61:54 chiaro che sposto la sintonia, cioè
+61:56 sposto la frequenza di risonanza del mio
+61:59 circuito risonante. Le cose che stanno
+62:01 qua dopo le vedremo un po' più in
+62:03 dettaglio mercoledì prossimo. Questi
+62:05 sono un circuito chiamato rivelatore e
+62:08 fa sì che dal segnale radio che mi
+62:11 arriva dall'antenna, questo circuito
+62:14 rivelatore che è fatto da un diodo o da
+62:16 un altro condensatore mi estrae il
+62:19 segnale utile, la musica per esempio che
+62:22 poi mi ascolto in una cuffia. Questa è
+62:24 una foto delle tante radiogalena che si
+62:26 trovano in rete. Questo è il
+62:27 condensatore variabile, forse lo
+62:29 riconoscete, no? ricordando appunto il
+62:31 mercoledì scorso, questo è l'induttore,
+62:35 qui dentro c'è in qualche modo il diodo
+62:37 e questa è la cuffietta che serve per
+62:39 ascoltare la radio. Cosa allora? Cosa
+62:41 succede in questa radio? Mettiamoci,
+62:43 partiamo dall'antenna,
+62:45 immaginiamo che questa sia la mia banda
+62:48 di frequenza su cui lavoro. Qui c'è il
+62:50 segnale che voglio ascoltare e qui ci
+62:52 sono altri due segnali, uno e 2. Questo
+62:55 segnale ha una frequenza di 1000.
+62:58 Mettiamoci in un medie 1000 kHz. Questo
+63:01 è a 1200
+63:04 e questo è a 800.
+63:12 Allora, cosa succederà a questi segnali
+63:14 a frequenze di 800, 1000 e 1200? Me lo
+63:17 dice questa figurina che abbiamo qua. A
+63:21 1000 la mia frequenza di risonanza
+63:27 la corrente che attraverso il mio
+63:29 circuito risonante è pari a zero. Cosa
+63:32 vuol dire? Che effetto ha il fatto che
+63:34 sia pari a zero? Vuol dire che il mio
+63:35 segnale raggiunge tutto lo stadio
+63:38 successivo, cioè il rivelatore. Invece a
+63:40 800 che sono qua
+63:43 e a 1200 che sono qua, diciamo qua,
+63:49 scorre nel mio circuito risonante molta
+63:51 corrente, come vedete qui. Allora, cosa
+63:53 succede nella mia mitica radioggalena?
+63:56 Succede che il segnale 800,
+63:59 una buona parte del mio segnale 800
+64:01 ricevuto dall'antenna
+64:03 attraversa il circuito risonante e viene
+64:05 scaricato a massa. Lo stesso succede con
+64:08 una buona parte del mio segnale a 1200.
+64:11 invece il mio segnale a 1000, poiché
+64:13 1000 è la frequenza di risonan
+64:18 alla frequenza di risonanza tutto questo
+64:20 circuito risonante qua, elimino gli
+64:23 scarabocchi e ve lo disegno meglio.
+64:26 Tutto questo circuito risonante qua è
+64:29 come se non esistesse. Qui ci mettiamo
+64:32 una croce, un taglio e qui ci mettiamo
+64:34 un altro taglio. È come se questi
+64:36 componenti non esistessero perché hanno
+64:39 un'impedenza infinita. Allora, tutto il
+64:41 segnale dell'antenna raggiunge il mio
+64:43 rivelatore, il mio diodo e me lo posso
+64:45 ascoltare bello bello in cuffia. Mentre
+64:47 per effetto di questo circuito risonante
+64:50 la mia radio è diventata selettiva, cioè
+64:52 i segnali a 800 e a 100 che non volevo
+64:54 ascoltare. Il mio circuito risonante me
+64:57 li ha bellamente scaricati a massa e
+65:00 quindi non sono stati rivelati e non li
+65:03 ascolto in cuffia. Questa è la tipica
+65:06 applicazione del circuito risonante. La
+65:08 la selettività in tutte le radio che in
+65:10 qualche modo abbiamo viene ottenute con
+65:12 meccanismi di questo genere tramite
+65:14 circuiti risonanti LC, magari fatti in
+65:18 versioni anche diverse, strane, molto a
+65:20 volte anche folcloresche, però il
+65:22 meccanismo di base è questo. Quindi la
+65:26 risonanza,
+65:28 scusate, tolgo la condivisione.
+65:32 La risonanza è il principio di base che
+65:35 rende le radio selettive, ok? Sono in
+65:39 grado di sintonizzare un circuito
+65:41 risonante su una data frequenza, quella
+65:44 della sua frequenza di risonanza, che
+65:45 vale 1 / 2 pi LC, come abbiamo visto
+65:49 nella in quella formula qualche minuto
+65:51 fa. E sfruttando questa proprietà, quel
+65:54 circuito mi rende la mia radio
+65:56 selettiva. E qui per ora mi fermo a voi
+65:58 per domande.
+66:01 >> Finalmente fai il passaggio metà e
+66:03 faietto fise perché fise non te lo fanno
+66:06 subito. Se questa P de maggio va a cosa
+66:09 si si rischia di fare come la Margherita
+66:12 e non l'hanno fatta partire perché non
+66:13 c'avevi detto Fise. Eh, capito?
+66:16 >> Sì.
+66:17 >> No, è le 15 giorni più che te lo dio
+66:19 Ale.
+66:22 >> Allora, quello è un fuori programma.
+66:24 Altre domande? E mi sa che non era per
+66:26 noi.
+66:27 >> No, no, no.
+66:27 >> Volevo chiedere, ma è un circuito di
+66:30 risonanza fa da filtro?
+66:32 >> Scusa, ripeti.
+66:34 >> Ripeti.
+66:34 >> Il circuito di il circuito risonante di
+66:38 fatto è un filtro.
+66:40 >> Sì, è un filtro passapanda. Bravo.
+66:42 >> Eh eh. E qual è la cioè qual è la
+66:45 differenza?
+66:47 è un filtro passapanda incorporato
+66:49 nell'apparecchio, diciamo. Sì, esatto. È
+66:52 un filtro passapanda di un tipo
+66:53 particolare perché se pensiamo ai filtri
+66:56 passabanda, per esempio, degli impianti
+66:58 stereo, devono far passare un'intera
+67:01 banda, quindi per esempio da 50 Hz a
+67:04 15.000 Hz e poi lì dopo 15.000, ad
+67:07 esempio, tagliare, quindi passa una
+67:08 banda molto larga. Nelle radio invece si
+67:11 vuole avere un comportamento selettivo,
+67:13 la banda di una radio è proprio un
+67:15 singolo canale, quindi è una banda molto
+67:17 stretta. Capito? I filtri passapanda, i
+67:20 filtri
+67:22 passa alto e passa basso che abbiamo
+67:24 visto all'inizio erano larghi e lo
+67:26 stesso così i filtri passapanda perché
+67:28 erano basati solamente perché non erano
+67:31 basati sulla reattanza e quindi si
+67:34 poteva parlare di una vera banda che
+67:35 poteva essere, cioè la banda passante di
+67:37 quei filtri lì può essere anche decine
+67:40 di MHz. Invece quando si parla di filtri
+67:43 di circuiti risonanti abbiamo bande
+67:46 molto strette che sono quelle proprio
+67:48 specifiche per i filtri di canale come
+67:50 dicevo prima.
+67:53 >> Quindi lo possiamo definire un filtro
+67:55 passabanda selettivo, diciamo. Molto
+67:58 selettivo.
+67:58 >> Esattamente. Sì, sì, sì. Molto
+68:00 selettivo. Molto molto selettivo.
+68:04 >> Altre domande?
+68:07 Vado avanti,
+68:09 se avete altre domande per ora ve le
+68:11 tenete e rivediamo gli stessi
+68:15 meccanismi. Sono di nuovo in
+68:17 condivisione. Ok, si vede il video,
+68:19 vero?
+68:20 Sì, Paolo.
+68:21 >> Ok, proseguo. Allora, vediamo lo stesso
+68:24 tipo di ragionamento questa volta,
+68:27 scusate.
+68:29 Allora, abbiamo fatto tutta questa bella
+68:30 chiacchierata per i circuiti risonanti
+68:32 parallelo.
+68:34 Si è visto che alla frequenza di
+68:35 risonanza un circuito risonante
+68:38 parallelo non si fa attraversare dalla
+68:41 corrente.
+68:43 I = 0. Vedete la radioagalena? E adesso
+68:46 vediamo cosa succede nei circuiti
+68:48 risonanti serie. Praticamente il tipo di
+68:51 trucchetto è lo stesso, eh, però
+68:54 chiaramente il circuito risonante serie
+68:57 parte da una premessa diversa, cioè che
+68:59 in una serie nel condensatore,
+69:02 nell'induttore scorre la stessa
+69:04 corrente, ovviamente, no, lo vedete in
+69:06 questo circuito. È chiaro che la
+69:08 corrente che entra in A poi a un certo
+69:10 punto dovrebbe uscire da B, quindi la
+69:12 corrente è la stessa. Allora, anche qui
+69:14 alla frequenza di risonanza la reattezza
+69:17 capacitiva e induttiva sono uguali. E
+69:19 questo l'abbiamo già capito, no? È la
+69:21 condizione di risonanza XL = XC. Di
+69:24 conseguenza, sempre applicazione delle
+69:26 legge di ohm, alla frequenza di
+69:28 risonanza, la tensione sul condensatore
+69:31 VC e la tensione sull'induttore sono
+69:34 uguali. Legge di OM, no? V = R * I.
+69:39 Ro uguali, è scritto qua, XL = XC. I è
+69:44 uguale perché sono in serie, quindi
+69:46 stessa corrente, per cui eh abbiamo due
+69:49 tensioni uguali VC e VL.
+69:53 E qui succede una cosa simile a quella
+69:55 che abbiamo visto prima. Allora,
+69:56 rispetto alla corrente questa volta
+69:58 dobbiamo prendere la corrente di
+70:00 riferimento perché essendo un circuito
+70:01 risonante serie è la corrente a essere
+70:04 comune, no? fra induttore e condensatore
+70:06 rispetto alla corrente la tensione
+70:09 nell'induttore è sfasata di 90° anticipo
+70:12 e quella del condensatore la tensione è
+70:14 sfasata di 90° in ritardo.
+70:18 Anche qui che succede la frequenza di
+70:20 risonanza? La tensione VL e VC sono
+70:22 uguali, sono in opposizione di fase e
+70:25 quindi si annullano l'una con l'altra.
+70:27 Per cui se andiamo a misurare,
+70:30 immaginiamo di prendere uno strumento
+70:32 che misura le tensioni, un voltmetro,
+70:35 immaginiamo di misurare la tensione che
+70:37 c'è fra questo punto qui e questo punto
+70:39 qua, fra il punto A e il punto B.
+70:43 1 e 2. Alla frequenza di risonanza
+70:47 questa tensione vale zero. Sarebbe come
+70:50 se io parlando della corrente continua,
+70:53 avessi messo due batterie non in serie
+70:56 giusta fra loro, ma in controfase, no?
+70:58 Immaginate di prendere due batterie da
+71:00 un volta e mezzo, invece di metterle nel
+71:02 modo giusto, positivo, negativo, per
+71:04 fare 1,5 + 1,5 che viene 3, le ne
+71:07 mettete una al contrario, vi viene fuori
+71:09 1,5 - 1,5 0. Qui succede esattamente la
+71:13 stessa cosa. Queste tensioni sono in
+71:15 controfase, quindi si annullano una con
+71:17 l'altra, ovvero
+71:20 eh fra il punto A
+71:22 e il punto B
+71:25 è come se ci fosse un corto circuito.
+71:28 Impedenza uguale 0. Quindi, se lo
+71:32 vediamo in termini di circuito risonanti
+71:34 che abbiamo detto prima, questo è un
+71:36 circuito notch perfetto perché alla sua
+71:39 frequenza di risonanza
+71:41 immaginiamo che
+71:44 aspettate, ecco qua. Immaginiamo che qua
+71:46 sotto al punto B
+71:49 eh massa, d'accordo? Ci sia
+71:52 eh la la massa della radio su su cui
+71:55 voglio scaricare i segnali. Se io qui ho
+71:58 Se io qui avessi un'antenna
+72:02 alla frequenza di risonanza del
+72:04 circuito, tutto quello che arriva
+72:06 dall'antenna, patapunfete mi finisce a
+72:09 terra perché alla frequenza di risonanza
+72:12 un circuito risonante serie è un corto
+72:14 circuito e lo vediamo qui. Circuito
+72:17 risonante serie fa passare la corrente
+72:20 alternata alla frequenza di risonanza.
+72:22 alla frequenza di risonanza
+72:26 eh la sua impedenza è pari a zero e
+72:31 quindi la corrente è massima. Vedete che
+72:33 anche qui c'è una bellissima curva di
+72:34 risonanza.
+72:36 In questo caso è sulla corrente, quella
+72:38 che avevamo visto prima era sulla
+72:39 tensione. Alla frequenza di risonanza la
+72:44 corrente è massima.
+72:47 Quindi diciamo che i principi di
+72:49 funzionamento del circuito risonante
+72:51 serie e parallelo di fatto sono uguali,
+72:53 no? Si basano sul fatto che diciamo e
+72:57 alla frequenza di risonanza o la
+72:59 tensione o la corrente sui due
+73:00 componenti sono uguali ma di fase
+73:03 opposta e quindi si annullano. Il
+73:05 circuito risonante parallelo
+73:10 usa questa proprietà per fare una
+73:11 selettività in situazioni stile
+73:13 radioggalena. il circuito risonante
+73:17 serie e usa la sua selettività, ad
+73:19 esempio, se dobbiamo fare dei notch di
+73:21 banda, dei notch specifici su una
+73:24 frequenza eh definita e diciamo con con
+73:27 questo circuito qua vengono degli
+73:28 oggetti praticamente perfetti. E
+73:33 e qui per ora mi fermo. Mh, c'è da fare
+73:36 un'ultima piccola chiosa sui circuiti
+73:38 risonanti, ma vorrei sapere, intanto
+73:40 tolgo la condivisione, vorrei sapere se
+73:42 se ci sono domande. È chiaro come come
+73:45 funziona il meccanismo?
+73:54 >> Sì, abbastanza.
+73:55 >> Va bene, grazie. Allora, vi metto un
+73:57 altro po' di carne al fuoco, vi dico
+73:59 un'ultima cosa
+74:02 su sul tema dei circuiti risonanti.
+74:09 Ed eccoci qua. Allora, finora abbiamo
+74:13 parlato di circuiti risonanti ideali,
+74:16 cioè con dei condensatori perfetti e
+74:18 degli induttori perfetti, però i
+74:21 circuiti reali
+74:26 e nei circuiti reali bisogna tener conto
+74:29 col mondo reale, quindi col fatto che i
+74:31 condensatori e soprattutto gli induttori
+74:33 non sono perfetti e diciamo introducono
+74:37 una componente resistiva che di fatto è
+74:39 una perdita di energia, come leggete
+74:41 Vedete qua sopra, nel caso di un
+74:43 circuito risonante parallelo,
+74:46 vedete che qui abbiamo, no, LC in
+74:48 parallelo, questa perdita di energia
+74:51 viene simboleggiata da questa resistenza
+74:53 qua, che non è detto che sia una
+74:56 resistenza vera inserita nel circuito,
+74:58 no? Questa resistenza proprio
+74:59 simboleggia il fatto che il condensatore
+75:02 soprattutto l'induttore perde perde
+75:04 energia nel suo normale funzionamento.
+75:07 Di conseguenza, quando sarò alla
+75:09 risonanza, non avrò più eh un'impedenza
+75:13 infinita fra i due estremi, ma un po' di
+75:15 corrente comunque, anche se poca mi
+75:17 scorre per questa per questa resistenza
+75:19 e mi succede qualcosa di simile anche
+75:21 nel circuito risonante parallelo. Questi
+75:23 sono i componenti ideali, però anche
+75:26 loro hanno delle perdite del circuito
+75:28 risonante serie. Queste perdite vengono
+75:31 in qualche modo schematizzate con una
+75:33 resistenza serie. Quindi quando sono
+75:35 alla risonanza
+75:38 l'impedenza non è zero, come nel caso
+75:41 ideale, ma c'è questa piccola resistenza
+75:43 serie che rimane
+75:48 e in un circuito
+75:50 vicino all'ottimale,
+75:53 questa è una cosa da tenere a mente
+75:54 perché su questo ci possono essere delle
+75:56 domande. in un circuito ottimale questa
+75:59 resistenza del parallelo deve essere
+76:02 molto alta e questa resistenza della
+76:04 serie deve essere molto bassa. Cioè la
+76:06 domanda potrebbe essere in un circuito
+76:08 risonante LC serie la resistenza di
+76:11 perdita deve essere bassa o alta?
+76:13 Allora, qui bisogna ricordarsi che la
+76:15 serie, quindi questo circuito che sto su
+76:18 cui ho il cursore ora, questo alla
+76:22 risonanza deve essere un corto circuito,
+76:24 quindi il circuito è tanto migliore
+76:25 quanto più questa resistenza è bassa. Un
+76:28 circuito perfetto, in un circuito
+76:29 perfetto questa resistenza non ci
+76:31 sarebbe. Invece nel parallelo
+76:35 e
+76:36 eh un buon circuito ha una resistenza di
+76:39 tipo alta. Più è alta questa resistenza,
+76:42 se fosse altissima non non sarebbe unin
+76:45 influente nel parallelo perché
+76:48 resistenza alta perturba meno il eh il
+76:53 circuito risonante, diciamo, ottimale.
+76:57 Questa situazione si esprime con un
+76:59 parametro che si chiama Q, come vedete
+77:02 quassù, che è il fattore di qualità,
+77:06 diciamo, dei circuiti risonanti. Questo
+77:08 Q indica di fatto quanto è stretta la
+77:12 curva di risonanza di un circuito
+77:14 risonante. In effetti Q poi eh si
+77:18 dimostra, ora noi non lo dimostriamo
+77:21 perché fortunatamente non fa parte del
+77:22 programma di esame, che il fattore di
+77:25 merito di un circuito risonante è pari
+77:28 al rapporto fra la frequenza del
+77:31 circuito risonante e la larghezza di
+77:33 banda fra i punti a metà potenza.
+77:37 Quindi è pari il rapporto fra questa
+77:39 frequenza e questa larghezza di banda.
+77:43 Allora, succede una cosa di di questo
+77:46 tipo. Questa è una curva, diciamo,
+77:49 reale. Succede che un circuito risonante
+77:52 eh è tanto più selettivo quanto più alto
+77:56 il suo fattore di qualità.
+77:59 Vedete che qui c'è appunto un circuito
+78:01 risonante che è centrato su questa
+78:04 frequenza f0. E qui mettiamo mettiamoci
+78:07 a -10. Questo è è il 10% in meno della
+78:11 frequenza. Diciamo che se la frequenza
+78:13 del mio circuito risonante è di 7 MHz,
+78:16 tanto per restare su una banda
+78:17 radoriale, qui stiamo il 10% sotto, cioè
+78:21 siamo a 6,3 MHz.
+78:26 Allora, se io in una situazione di
+78:29 questo genere, radio galena, qui si sta
+78:32 si sta viisezionando, si sta analizzando
+78:35 in dettaglio come funziona una radio a
+78:38 galena. Se il mio circuito risonante ha
+78:40 un Q di 10,
+78:43 immaginiamo che io voglio ascoltare un
+78:45 segnale che sta a 7 MHz, quindi qui, e
+78:48 che è un segnale interferente qui.
+78:51 Questo è un altro segnale che io voglio
+78:53 non ascoltare. Quindi questo è un
+78:55 disturbo, per intenderci. Magari è un
+78:58 segnale valido, ma io in quel momento
+78:59 non lo voglio ascoltare. Se il mio
+79:02 fattore di merito del circuito è pari a
+79:04 10, vale questa curva di risonanza che
+79:06 sto rappresentando ora. Allora, il mio
+79:08 segnale ha una frequenza di 6 e 3 viene
+79:13 attenuato tanto così,
+79:15 cioè non è 1, ma è un po' più di 04.
+79:19 Se io avessi un fattore di merito pari a
+79:22 20 e questo è il punto, questa è la
+79:24 curva pari a 20, lo vedete?
+79:28 Il mio segnale interferente verrebbe
+79:30 attenuato ben di più. Se io avessi un Q
+79:33 di 50, il mio segnale interferente
+79:35 sarebbe qui. Se io avessi, come posso
+79:37 avere tranquillamente un Qd, il mio
+79:40 segnale interferente viene attenuato
+79:42 tanto così. Quindi
+79:45 qui si si capisce si visualizza una cosa
+79:47 ovvia, no? c'è che quanto è quanto più
+79:50 un circuito risonante è buono, quanto
+79:52 più è, diciamo, migliore, più migliore
+79:55 non si direbbe, ma comunque rende
+79:56 l'idea, eh tanto più è selettivo
+80:01 e questo si misura, appunto, con questo
+80:03 fattore di qualità Q. Q, ripeto, è la
+80:07 banda relativa. Qui, per esempio,
+80:09 possiamo fare questi due eh possiamo
+80:11 provare a fare questi due esercizi,
+80:13 tanto per scaldarci un po' a quest'ora
+80:15 della sera. Guardate la prima domanda.
+80:18 Un filtro passabanda risuona a 20 MHz
+80:22 ed ha una larghezza di banda di 2000 Hz.
+80:25 Qual è il suo fattore di merito? Allora,
+80:27 per rispondere a questa domanda si usa
+80:30 questa formula, no? Perché la la domanda
+80:33 che ci fanno è il fattore di merito Q.
+80:35 Quindi bisogna trovare Q = F0 / B. F0 è
+80:40 20 MHz, B è 2 kHz. Quindi quant'è il Q
+80:43 di questo di questo circuito risonante?
+80:50 10
+80:51 >> dovrebbe essere
+80:52 >> 10 kHz
+80:55 >> 10.000, no? Cioè,
+80:57 >> eh sì, sì, sì. Ditelo in maniera un po'
+80:59 più convinta.
+81:01 >> 10 k mi incasino.
+81:05 >> E quindi quant'è il risultato?
+81:07 >> 10.000 Hz, mi sembra.
+81:09 >> 10.000 10.000 basta.
+81:10 >> 10.000 scusa
+81:12 no. 20/ 2 fa 10^
+81:16 10^ ter fa 10^ quindi
+81:18 >> eh sì perché qui c'è
+81:21 >> Bravo perché qui Bravo, perché qui c'è
+81:23 meg'è kz giusto?
+81:25 >> Ok. Allora, intanto il Q
+81:28 >> e allora come va portato 1 MHz o 1 kHz?
+81:31 la risposta.
+81:32 >> Eh, qui bisogna fare con la
+81:34 calcolatrice, se uno non lo sa fare a
+81:36 mente, 20 milioni/ 2.000
+81:39 e così esce da tutti i problemi. 20
+81:42 milioni/ 2000 fa eh 10.000. D'accordo?
+81:47 >> Esatto.
+81:48 >> Sì, sì.
+81:50 >> Ok. E il Q non ve l'ho detto prima, ma
+81:53 ora per fortuna viene fuori, si vede
+81:54 bene? Il Q non ha unità di misura, come
+81:57 si dice in matematica, è un numero puro.
+82:00 D'accordo?
+82:01 Si divide meghz con mahz o megz, cioè si
+82:04 divide frequenza su frequenza e il
+82:06 risultato è proprio un numero 10 5 27.
+82:09 Vediamo questa seconda domanda. Un
+82:12 filtro passabanda risuona a 5 MHz ed ha
+82:15 un Q di 100.
+82:18 Qual è la sua larghezza di banda -3dB?
+82:20 Allora, va usata la va trasformata
+82:23 questa formula in questa formula qua. La
+82:27 larghezza di banda vale F0 / Q. P = F0 /
+82:32 Q. Intanto qual è la risposta? Quindi
+82:35 >> è 0,05 MHz, quindi sarà rimasto a fare
+82:40 la conversione.
+82:42 >> Eh, quanto viene?
+82:45 >> Aspetta,
+82:48 50.000 Hz.
+82:50 >> Perfetto. C'è No,
+82:52 >> quasi giusto. Ecco, bravo. Ora sì,
+82:55 perfetto. 50.000 a dimensionale senza
+82:58 dimensione. Bravo,
+82:59 >> bravo, bravo, bravo. È un numero
+83:01 >> sarebbe 50.000/ 100. No, com'è il
+83:04 sarebbe sarebbe 5 milioni 100
+83:08 >> 5 milioni milioni
+83:10 >> diviso 100
+83:13 >> mi viene 50.000. Sì,
+83:14 >> sì, scusami. 50.000 Hz. Ho sbagliato
+83:17 qui. Qui ho sbagliato, scusate.
+83:19 >> E qui è la larghezza di Panda. larghezza
+83:21 di banda, giustamente si misura in
+83:23 scusate, e il Q che è un numero puro.
+83:26 >> Tu hai detto a -3db,
+83:29 ci puoi spiegare che significa?
+83:31 >> Vuol dire metà potenza. Metà potenza.
+83:35 -3B vuol dire metà potenza.
+83:38 Questo lo ve lo racconto per bene
+83:40 mercoledì prossimo.
+83:43 Il IDB e diciamo è è
+83:47 un concetto che si usa molto spesso in
+83:48 elettronica e mercoledì ne parliamo.
+83:54 Vi dico un'ultima cosa e con questo si
+83:56 finisce questa parte qua, poi resta solo
+83:58 da parlare 5 minuti del quarzo. esistano
+84:01 anche i fattori di merito dei filtri
+84:04 passabanda, dei filtri passa banda,
+84:09 scusate, ricomincio.
+84:11 Esiste anche un altro parametro che
+84:14 misura i filtri passabanda, soprattutto
+84:16 quelli che si montano nelle radio ed è
+84:18 il fattore di forma. Il fattore di forma
+84:20 misura quanto si allarga la curva di
+84:23 risonanza fra due punti della curva del
+84:25 filtro. Prima di vedere la formula si
+84:28 vede questa figura che rende l'idea.
+84:30 Diciamo ogni volta che comprate una
+84:32 radio, in una radio c'è un filtro di
+84:34 questo tipo, quello che io prima ho
+84:37 chiamato il filtro di canale. E diciamo
+84:40 immaginiamo che questo filtro qui sia
+84:43 largo 2 kHz, come c'è scritto qua, i 2
+84:47 kHz del segnale che io sto ascoltando.
+84:51 Allora, un filtro molto buono cosa
+84:53 farebbe? farebbe che sotto questi 2 kHz
+84:56 si scende giù a picco e questi 2 kHz
+84:59 restano 2 kHz fino quaggiù in fondo.
+85:02 Quindi
+85:04 eh è un filtro che attenuerebbe
+85:06 moltissimo le frequenze che stanno qui e
+85:09 qua che non voglio ascoltare.
+85:12 Però i filtri reali non non riescono di
+85:15 fatto a realizzare una cosa così,
+85:17 diciamo, perpendicolare come ho fatto
+85:19 io, no? diciamo i filtri reali a mano a
+85:23 a mano a mano che ci si allontana dalla
+85:24 risonan dalla frequenza della della
+85:26 banda passante e la curva si allarga si
+85:30 allarga un po' a campana. Quanto è larga
+85:33 questa campana? Ce lo dice il fattore di
+85:35 forma, cioè si prende normalmente
+85:38 eh il valore a -6 dB, cioè 1/4 della
+85:42 potenza, il valore a -60 dB e si
+85:44 dividono uno con l'altro. Qui il valore
+85:48 a -60 dB è 5,5 kHz. Il valore a 6 dB è
+85:55 2, kHz. Si fa 5,5 / 2 e il fattore di
+85:59 forma che viene fuori è questo qua,
+86:00 2,75,
+86:02 che è un filtro un po' mediocretto,
+86:04 diciamo che i fattori di forma buoni
+86:06 sono 1,6 1,8, capito? massimo due e
+86:11 diciamo qui in un filtro così largo è
+86:14 chiaro che diciamo qua la la selettività
+86:18 è abbastanza scarsa se soprattutto qui
+86:21 in basso c'è c'è un canale forte.
+86:24 Quindi questo questo fattore di forma è
+86:27 è è specifico per per i filtri. Molte
+86:30 volte si quando si compra una radio uno
+86:32 mette dei filtri più stretti, dei filtri
+86:33 più larghi, poi come vedremo c'è il
+86:35 filtro per la telegrafia, il filtro per
+86:37 la fonia larga, il filtro per la fonia
+86:38 stretta e tutti quei filtri quando li
+86:41 compriamo ci dicono anche quant'è il
+86:42 loro fattore di forma, quanto il fattore
+86:44 di forma è buono normalmente quanto un
+86:47 pochino di più il filtro filtro costa.
+86:49 Quindi diciamo che noi abbiamo visto ora
+86:52 due fattori di qualità, uno in generale
+86:55 dei circuiti risonanti ed è il Q. Il Q è
+86:59 definito così, no? La quanto è stretta
+87:02 la risonanza di un circuito LC, quindi
+87:06 di un circuito risonante, come abbiamo
+87:07 visto per le radiogalena, e vale f0 / b.
+87:12 E questa formula la si può usare, poi
+87:14 tutto questo lo ritrovate nelle slide,
+87:16 sia per calcolare il Q, sia per
+87:18 calcolare la larghezza di banda che si
+87:21 ottiene dato un certo fattore di merito.
+87:24 Nel caso particolare dei filtri, dei
+87:27 filtri che si usano nelle radio, si usa
+87:29 il fattore di forma. Il fattore di forma
+87:31 indica quanto la curva di risonanza si
+87:34 allarga
+87:35 eh
+87:38 all'uscire dalla banda passante del
+87:41 filtro. E questo è tutto. Eh,
+87:45 adesso
+87:47 resta da dire solo qualcosa che riguarda
+87:50 i quarzi, però è un discorso molto
+87:51 rapido. Vorrei sapere se se c'è qualche
+87:53 domanda sui fattori di forma,
+87:56 sul fattore di forma, sul Q e in
+87:58 generale sulla risonanza.
+88:06 Buono per ora. Allora,
+88:12 concludiamo stasera
+88:15 parlando
+88:16 dei
+88:18 quarzi. Allora, il quarzo penso che lo
+88:20 conosciamo tutti, no? fin dai vecchi
+88:22 tempi l'orologio a quarzo. Il quarzo è è
+88:26 un materiale di tipo cristallino.
+88:29 Cristallino vuol dire che è molto
+88:31 ordinato, diciamo così,
+88:34 cioè che tutti eh tutti gli atomi o le
+88:38 molecole che compongono sono tutti belli
+88:40 ordinati come in un reticolo, come se
+88:42 fosse un foglio di carta a quadretti. E
+88:44 il quarzo è la caratteristica di essere
+88:46 un materiale di tipo piazo elettrico.
+88:48 Penso che molti di voi, probabilmente
+88:50 tutti voi, conoscete i cosiddetti
+88:52 accendini, gli accendi gas
+88:54 piezoelettrici, cioè se si preme
+88:56 fortemente un cristallo di quarzo questo
+88:59 genera un po' di tensione e diciamo
+89:01 negli accendini questa tensione è
+89:02 sfruttata per fare scoccare una
+89:05 scintilla che accende il gas.
+89:08 Perché in generale i materiali
+89:09 piezoelettrici, se compressi
+89:11 meccanicamente, come vedete qua sotto,
+89:13 fanno apparire cariche elettriche sulle
+89:15 due sulle due facce. Allora, il quarzo,
+89:18 se un quarzo si applica una corrente
+89:20 alternata, questo quarzo comincia ad
+89:22 oscillare a una sua specifica frequenza
+89:26 che determinata delle caratteristiche
+89:28 proprio meccaniche, fisiche del quarzo,
+89:30 sostanzialmente la frequenza a cui un
+89:32 quarzo oscilla è determinata dallo
+89:35 spessore. Questa oscillazione è di tipo
+89:38 meccanico. Immaginate di avere una
+89:41 piccola, cerco di disegnarlo qua,
+89:43 immaginate di avere una piccola lamina
+89:45 di quarzo
+89:48 e in spessore, diciamo, meo millimetro o
+89:52 qualcosa di questo tipo. Su questa
+89:54 lamina di quarzo sono in qualche modo
+89:57 depositati depositate due
+89:59 metallizzazioni. Ora le disegno
+90:01 staccate, tanto per per mostrarle. E a
+90:04 queste metallizzazioni è collegato un
+90:06 filo elettrico che
+90:10 porta, diciamo, eh fuori dal dal
+90:13 contenitore del quarzo e, diciamo, se si
+90:16 applica tramite queste due
+90:17 medallizzazioni una corrente alternata a
+90:20 un quarzo, questo appunto comincia a
+90:21 oscillare, ma oscilla dove vuole lui,
+90:23 non dove vogliamo noi, oscilla alla
+90:26 frequenza proprio del quarzo e la sua
+90:28 frequenza di risonanza dipende in parte
+90:31 dal tipo di materiale, ma
+90:32 sostanzialmente dallo spessore. dal modo
+90:34 in cui è tagliato.
+90:36 E la cosa che ci interessa è che questa
+90:40 sua frequenza di risonanza naturale ha
+90:43 una stabilità molto elevata, molto molto
+90:46 più elevata della stabilità che si
+90:48 potrebbe ottenere da dei circuiti LC di
+90:51 cui abbiamo parlato prima, tant'è che
+90:53 con i quarzi, come sapete, ci fanno gli
+90:55 orologi e quindi ci sarà un motivo.
+90:58 E oltretutto il quarzo è che è
+91:02 abbastanza preciso rispetto alle
+91:04 variazioni di temperatura, quindi le i
+91:06 passaggi estate, inverno, giorno, notte
+91:10 non spostano più di tanto la curva di
+91:12 risonanza di un quarzo. Questa che
+91:13 vedete qua è una eh è una delle
+91:18 realizzazioni tipiche, è uno dei
+91:19 contenitori tipici in cui ci sono i
+91:21 quarzi. Se qualcuno di voi ha un
+91:23 baracchino CB vecchio tipo e lo apre,
+91:27 probabilmente ce ne trova un certo
+91:31 numero a seconda del tipo di di
+91:33 baracchino, del numero di canali che ha,
+91:35 eccetera. E e sono fatti così, no? c'è
+91:38 un contenitore metallico. Dentro un
+91:39 contenitore metallico, appunto, c'è
+91:41 normalmente una piastrina, questa volta
+91:43 la disegno di fronte. C'è una piastrina
+91:45 tonda di quarzo. Su una parte della
+91:49 piastrina è depositata una
+91:51 metallizzazione. A questa
+91:53 metallizzazione qui è attaccato il filo
+91:55 che esce fuori, ce n'è una su un lato e
+91:58 e un'altra sull'altro lato del quarzo. E
+92:00 sono questi due tipi che eh sono questi
+92:04 due fili che che escono fuori.
+92:08 I quarzi, appunto, vengono usati per
+92:11 generare frequenze, per esempio, degli
+92:13 oscillatori, come si usa gli orologi.
+92:15 Frequenze che a questo punto sono molto
+92:18 precise perché non sono affidate
+92:20 semplicemente a un induttore e a un
+92:22 condensatore che possono fare lo stesso
+92:24 scopo ma in maniera molto più imprecisa.
+92:27 Il segnale generato da un quarzo, come
+92:29 leggete qua, è molto stabile, molto
+92:31 stabile in frequenza, molto stabile
+92:33 rispetto anche a dei piccoli urti, molto
+92:36 stabile nel tempo e rispetto alle
+92:38 variazioni di temperatura.
+92:43 Questo vuol dire anche per altri,
+92:46 diciamo, per altri versi che il quarzo
+92:49 ha poche perdite, cioè ha un fattore di
+92:52 merito molto elevato. Parlando di
+92:54 fattori di merito Q, un circuito
+92:57 risonante, come abbiamo visto prima,
+93:00 avete visto che i fattori di ris i
+93:02 fattori di merito erano 10 20 50 100. Un
+93:05 quarzo può avere un fattore di qualità
+93:06 di 10.000 10k. Ok.
+93:12 La frequenza di risonanza dipende dalle
+93:14 due dimensioni fisiche
+93:17 e infine
+93:19 si può far oscillare in fondamentale
+93:24 fino a circa 20 MHz.
+93:27 Se si vuole ottenere una frequenza però
+93:29 più alta di 20 MHz, diventa un po' un
+93:32 problema perché per avere frequenze alte
+93:35 bisogna avere delle pierine di quarzo
+93:37 molto molto sottili
+93:39 e più più sono sottili più
+93:41 meccanicamente si possono rompere.
+93:43 Allora, per frequenze più alte si taglia
+93:45 il quarzo in modo particolare
+93:48 eh
+93:50 per usare le sue cosiddette armoniche. E
+93:53 questa è la tecnica chiamata overton,
+93:56 cioè in qualche modo, come per esempio
+93:58 accade nei baracchini CB per l'appunto,
+94:01 nei baracchini CB ci sono molti quarzi,
+94:04 eh, cioè immaginiamo
+94:06 quelli che di voi usavano magari i
+94:09 baracchini CB e a quelli i primissimi a
+94:13 due a sei canali in cui si quarzavano,
+94:15 no? in cui si mettevano i quarzi per il
+94:17 trasmettitore, i quarzi per il
+94:18 ricevitore. C'era il quarzo, per
+94:20 esempio, 27 e 105, tanto per dirne uno.
+94:24 E quei quarzi erano in terza armonica,
+94:27 in terza overton, cioè cioè in realtà
+94:29 erano piastrine che potevano operare a 9
+94:32 MHz e qualche spicciolo
+94:35 e che però venivano tagliate in modo
+94:38 tale che l'oscillatore che eh usava quei
+94:42 quarzi lì sfruttava la possibilità del
+94:45 quarzo di oscillare in terza armonica,
+94:47 cioè in a una frequenza tre volte
+94:50 maggiore e di quella di un taglio di
+94:53 quarzo normale. Quindi la parola da
+94:56 tenere in mente qui è questa Overton
+95:01 che appunto è la tecnica per ottenere da
+95:04 un quarzo frequenze più alte e questo
+95:06 sul quarzo è tutto. Quindi in pratica è
+95:08 un componente elettronico che si può
+95:10 assimilare a un circuito risonante,
+95:13 quindi un circuito LC, però non si ha
+95:15 una risonanza
+95:17 elettrica, ma si ha una risonanza
+95:19 meccanica. Cioè, nel caso del quarzo la
+95:22 risonanza è proprio meccanica. Sono gli
+95:24 atomi del quarzo che si diformano, che
+95:26 si avvicinano e allontanano l'uno
+95:28 all'altro a una frequenza pari a quella
+95:30 del quarzo stesso, ad esempio 9 milioni
+95:33 di volte al secondo, 9 MHz. questa eh
+95:36 questa capacità del quarzo, quindi di
+95:39 essere peso elettrico, cioè in qualche
+95:41 modo di eh fare apparire carichi
+95:44 elettriche sulle due facce se viene
+95:45 compresso e fa sì lo rende possibile il
+95:49 fatto di usare di usarlo in oscillatori
+95:51 appunto elettrici tramite quei discorsi
+95:53 che vi avevo fatto vedere prima, no, con
+95:55 la metallizzazione,
+95:56 eh si fa in modo di inserire dei
+95:59 cristalli di quarzo in circuiti di che
+96:03 che che li fanno oscillare e generano
+96:05 appunto una frequenza molto precisa,
+96:09 molto più precisa di quelle che si ha
+96:11 dei degli oscillatori fatti con
+96:15 induttore e e condensatore.
+96:20 Detto questo, tolgo la condivisione e
+96:25 per stasera non c'è altro da dire.
+96:26 Quindi stasera abbiamo visto prima i
+96:28 filtri, passa alto, passa passo, passa
+96:30 banda, notch, poi abbiamo visto i
+96:32 circuiti risonanti serie e parallelo e
+96:34 infine diciamo visto che parlavamo di
+96:36 risonanze, abbiamo visto anche la
+96:37 risonanza meccanica che è quella dei
+96:40 cristalli di quarzo.
+96:43 A voi se ci sono domande su tutto quello
+96:45 che abbiam detto.
+96:51 Filippo a te.
+96:55 Allora, non so se c'entra, quindi boh,
+96:57 cioè è un'ipotesi che faccio, ma vi
+96:59 chiedo riscontro, appunto.
+97:00 >> Vai.
+97:01 >> Eh, per il discorso della Ora mi sto
+97:04 affacciando un po' alla ai test,
+97:07 insomma, con il web SDR, eccetera, no?
+97:10 Per tanto per capire un po' eh fare
+97:12 radio ascolto. Eh, e c'è appunto il il
+97:15 famoso settaggio, quello per fare il la
+97:19 banda di ascolto wide o narrow, no? cioè
+97:22 più più larga o più stretta.
+97:25 Questo si fa tramite i filtri che si
+97:27 vedeva prima che però cambiano in base
+97:29 alla frequenza, cioè il comportamento
+97:31 alla fine in base a che frequenze le vai
+97:33 a gli vai ad applicare.
+97:37 Eh probabilmente insomma cambia un po'
+97:40 la la come approcciare il
+97:43 >> il il discorso. ci sono delle regole per
+97:45 cui
+97:47 si può definire, tra virgolette,
+97:49 teoricamente la larghezza di banda
+97:50 ottimale per l'ascolto in base alla
+97:52 frequenza di utilizzo oppure si va ad
+97:55 orecchio? Cioè, quando sento meglio è
+97:57 quella la la cosa giusta da usare, cioè
+98:00 la frequenza giusta in più da usare.
+98:02 >> Sì, sì, sì. Ci ci sono dei ci sono delle
+98:05 larghezze di banda che sono ottimali e
+98:07 ne esattamente l'argomento di mercoledì
+98:10 prossimo.
+98:11 >> Ah, ok. Eh, e però però c'è una però c'è
+98:14 una questione ancora a monte che in
+98:16 effetti, anzi, vi ringrazio per Allora,
+98:19 queste eh
+98:23 ehm
+98:25 Allora,
+98:28 noi in questi nostri incontri, in queste
+98:30 nostre lezioni, stiamo lavorando con
+98:31 l'obiettivo di passare l'esame,
+98:33 d'accordo? E quindi le cose di cui
+98:35 parliamo sono tutte e sole il programma
+98:37 ministeriale. Il programma ministeriale
+98:40 per certi versi è un po' datato, nel
+98:43 senso che considera solamente le radio,
+98:46 i ricevitori, i trasmettitori di tipo
+98:49 analogico, la supererodina, per chissà
+98:51 cosa vuol dire, per chi non lo sa, lo
+98:53 vedremo fra qualche lezione.
+98:55 da diversi anni è sul mercato un'altra
+99:00 tipologia di ricevitori che che sono
+99:02 quelli di cui appunto di cui appunto
+99:05 parlavi e che sono i cosiddetti SDR,
+99:08 software defined radio. Questi
+99:11 ricevitori funzionano con tipi di
+99:13 meccanismi assolutamente diversi dei
+99:16 ricevitori, diciamo, analogico e le
+99:18 larghezze di banda vengono fatte in
+99:20 maniera assolutamente diversa usando
+99:21 filtri numerici e non filtri LC come
+99:24 invece nelle radio di tipo tradizionale.
+99:27 Tutto questo mondo delle radio digitali,
+99:30 non so se per fortuna o purtroppo, però
+99:32 non è compreso nel programma d'esame del
+99:34 ministero
+99:36 e è e diciamo è un mondo affascinante e
+99:39 poi sono anche le radio più più moderne,
+99:42 però in pratica non ne parliamo perché
+99:44 ci vorrebbero comunque alcune lezioni,
+99:45 no, per entrare in tutti i meccanismi di
+99:47 funzionamento dell SVR eccetera, però
+99:49 non fa parte del programma ministeriale,
+99:53 quindi all'atto quindi all'atto pratico
+99:56 in tutto diciamo in tutte le radio, ad
+99:58 esempio, tanto per tornare in pratica,
+100:00 c'è una manopolina da qualche parte che
+100:02 dice io io io regolo la larghezza di
+100:05 banda con cui ascolto, la faccio un po'
+100:07 più larga o la faccio un po' più
+100:09 stretta.
+100:10 Nelle radio analogiche questa cosa viene
+100:12 fatta in un certo modo. Nelle radio
+100:13 digitali viene fatta in un modo proprio
+100:15 radicalmente diverso. Sono due mondi non
+100:18 neanche lontanamente parenti dal punto
+100:20 di vista elettronico.
+100:22 Noi vedremo in dettaglio per benino come
+100:24 funziona nelle radio analogiche su cui
+100:26 poi vi verranno le varie domande dal
+100:28 MIM, no? Poi eventualmente si potrà
+100:31 fare, volendo a fine corso una serata
+100:33 sul digitale, ben volentieri, però è
+100:35 tutto,
+100:35 >> no, ma era era solo era solo per capire
+100:38 se ci sono tra virgolette delle
+100:41 larghezze di ascolto, diciamo, ottimali
+100:44 in base alla frequenza. Cioè, se per
+100:46 esempio devo sentire frequenze le 7 MHz
+100:48 hanno una larghezza, se sento le 143
+100:50 hanno un'altra frequen un'altra
+100:52 larghezza.
+100:53 >> Allora, sì, sì e no. Sì e no. Mercoledì
+100:55 prossimo se ne parla. Vabbè, se ne può,
+100:57 ci aggiorniamo. Sì, è un bellomento.
+101:00 >> Luca, a te.
+101:03 >> Sì, eh, sempre per i filtri. Sugli
+101:06 scanner che tipo di filtri vengano
+101:08 usati?
+101:10 >> Eh, sugli, diciamo, l'ingresso degli
+101:12 scanner normalmente è a banda larga, è a
+101:14 banda larghissima
+101:16 perché metti uno scanner che che faccia,
+101:19 non so, 100900 me, per intenderci.
+101:23 Probabilmente quella banda lì, diciamo,
+101:25 è affettata in due, tre grossi filtri
+101:28 molto molto larghi
+101:32 e quindi, cioè
+101:35 che tipo di filtri sono? Sono
+101:37 >> sono dei passabanda larghissimi, eh.
+101:40 >> Ok, sono dei passabanda larghissimi.
+101:44 >> Ok, grazie.
+101:46 Invece invece nelle radio in onde corte,
+101:49 diciamo, i filtri si tende a fare più
+101:53 stretti che si può,
+101:56 più stretti che si può perché perché
+101:59 funziona tutto meglio. E poi poi quando
+102:02 quando arriveremo a parlare di dei
+102:05 ricevitori, magari vi faccio vedere un
+102:07 po' di pubblicità degli apparati e
+102:09 leggendo bene la pubblicità si capisce
+102:11 tante cose su come le radio sono fatte
+102:13 dentro. Ne parleremo.
+102:15 >> Grazie.
+102:16 a te
+102:20 altre domande?
+102:25 >> Paolo, io interromperei la
+102:28 registrazione.
+102:29 >> Vai, vai, vai.
+102:32 Allora, signori, e ricordatevi tenere d'
+102:34 occhio lo spam perché

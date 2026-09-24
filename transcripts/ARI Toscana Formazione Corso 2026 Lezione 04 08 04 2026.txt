@@ -1,0 +1,2177 @@
+00:02 Eh, stasera siamo Eccolo.
+00:04 >> Perfetto.
+00:05 >> Avanti Paolo. Buon lavoro. Grazie.
+00:08 Allora, stasera parliamo delle
+00:10 sostanzialmente dell'induttore, detto
+00:12 anche volgarmente bobina. Dico questo
+00:14 volgarmente bobina perché nelle domande
+00:16 ministeriali molto spesso ho dite messo
+00:18 una bobina e un'altra bobina in serie,
+00:20 quindi considerateli proprio uguali,
+00:22 sinonimi. parleremo degli induttori,
+00:24 della reattenza induttiva e del
+00:26 trasformatore che, diciamo,
+00:28 praticamente, diciamo, eh l'induttore e
+00:32 il condensatore che vedremo mercoledì
+00:34 prossimo sono i due componenti passivi
+00:36 che ci mancano per finire e chiudere
+00:38 questa parte di che è più di
+00:41 elettrotecnica, diciamo così, di
+00:43 elettronica. Poi entreremo nella parte
+00:45 di radiotecnica
+00:47 e stasera è dedicata all'induttore.
+00:49 L'induttore eh lavora lavora
+00:52 essenzialmente sul campo magnetico.
+00:54 Quindi partiamo intanto a ricordarci
+00:57 cosa sono i magneti, perché le cose che
+00:59 vedete scritto in questa slide
+01:00 sicuramente tutti già le conoscete e
+01:02 probabilmente tutti ci abbiamo un po'
+01:03 giocati da bambini. Allora, intanto in
+01:06 natura esistono dei magneti, quindi i
+01:08 magneti sono delle cose che si trovano,
+01:10 esistono già in natura e sono dei degli
+01:12 oggetti
+01:14 che sono fatti di un materiale che per
+01:16 sua natura genera un campo magnetico. Vi
+01:19 ricordate? Si era dato la definizione di
+01:21 campo elettrico? Intanto un campo è una
+01:24 regione dello spazio in cui si sente un
+01:26 qualche effetto. Avevamo parlato di
+01:28 campo elettrico. Il campo elettrico è
+01:29 una regione dello spazio in cui si sente
+01:31 l'effetto di cariche elettriche libere,
+01:33 per esempio elettroni. Un campo
+01:35 magnetico è una regione dello spazio in
+01:37 cui senti gli effetti provocati da un
+01:39 magnete. E diciamo questo campo
+01:43 magnetico lo potete visualizzare come si
+01:45 era detto magari quando giocate a far
+01:48 attaccare l'una l'una con l'altra due
+01:51 calamitine o a farle respingere, no? Una
+01:53 di queste calamite, quando due calamite
+01:55 si attraggono, vuol dire che una
+01:57 calamita entra nel campo magnetico della
+01:59 prima, clicc e ne viene attratta.
+02:02 Allora, i magneti normalmente hanno due
+02:05 poli, convenzionalmente vengono chiamati
+02:07 nord e sud e anche per i magneti
+02:10 e per i campi magnetici succede che le
+02:12 polarità opposte si attraggono e le
+02:15 polarità uguali si respingono, come
+02:17 succedeva per gli per gli elettroni. Mh.
+02:19 [schiarire la voce]
+02:20 Eh,
+02:22 allora,
+02:24 nel 1811, vi ricordate che nel 1800 più
+02:28 o meno Volta aveva inventato la la sua
+02:31 pila, la pila di Volta, 1799. Da allora
+02:35 cominciarono in pandiera massiccia gli
+02:37 esperimenti sulla corrente elettrica. 11
+02:39 anni dopoed scoprì che un conduttore
+02:42 percorso da corrente elettrica genera un
+02:44 campo magnetico e questa l'esperienzina
+02:46 di Orste la vedete qua, la si potrebbe
+02:49 tutta replicare facilmente. Praticamente
+02:52 eh Ors scoprì che mentre giocava a far
+02:55 scorrere corrente nei fili, lui
+02:56 evidentemente aveva una bussola che
+02:59 sarebbe questa qua poggiata sul tavolo
+03:02 di lavoro. A un certo punto fece
+03:03 scorrere corrente in un filo e il lago
+03:05 della bussola opsi mosse. Quindi,
+03:07 siccome Orsel probabilmente essendo un
+03:09 fisico non credeva alle streghe, pensò
+03:11 che ci fosse una relazione causae
+03:13 effetto e si mise a studiare la cosa e
+03:15 in qualche modo la la definì e la
+03:17 pubblicò. E in questo caso, appunto, la
+03:21 calamita non è altro che un magnete, no?
+03:23 Sapete che le calamite puntano il Polo
+03:25 Nordor perché sono magnetizzate.
+03:28 E questo è il filo. Qui vedete che
+03:31 l'interruttore è aperto, quindi qui
+03:33 nascorre corrente elettrica. Nel momento
+03:34 in cui l'interruttore si chiude attorno
+03:37 il nel filo scorre corrente, in questo
+03:39 filo scorre corrente, genera un campo
+03:42 magnetico, questa corrente che scorre e
+03:45 l'ago della bussola si dispone in
+03:47 maniera perpendicolare al filo. Quindi
+03:50 se in un conduttore elettrico si fa
+03:52 scorrere corrente questa genera un campo
+03:55 magnetico e questo succede ovunque nelle
+03:58 nostre case. Quindi, cioè, noi siamo
+04:00 circondati da fili elettrici, in questi
+04:02 fili elettrici scorrono praticamente
+04:03 sempre correnti, piccoli o grandi che
+04:05 siano, e questi tutte queste correnti
+04:08 generano una serie di campi magnetici.
+04:11 Il campo magnetico generato da questo
+04:13 filo è radiale.
+04:16 Questa cosa qui forse qualcuno di voi
+04:18 può averla fatta a scuola la cosa che
+04:20 vedete in questa cosa. Normalmente
+04:22 quando si vuol far vedere questa cosa ai
+04:24 ragazzi di una classe si prende un
+04:26 foglio di carta. Immaginate che questo
+04:27 sia un foglio di carta. Ci si mette
+04:29 sopra delle limatura di ferro, quindi
+04:31 dei granoli di ferri piccolissimo dei
+04:34 piccolissimi granoli di ferro. Questa
+04:36 cosa che vedete in nero quassù è il filo
+04:39 che passa il questo foglio di carta è il
+04:42 filo elettrico. Questa che vedete qui
+04:44 nero è semplicemente l'ombra, no? Dal
+04:46 punto di vista fotografico della cosa,
+04:47 quando si fa passare corrente, tutti
+04:50 questi granuli di limatura di ferro che
+04:53 prima sono messi in maniera caotica,
+04:55 praticamente si orientano facendo una
+04:58 serie di cerchi concentrici, come più o
+05:00 meno lo si vede in questa figura. E
+05:04 questa è la forma che ha appunto un
+05:06 campo magnetico generato da da
+05:08 un'intensità da da una corrente
+05:10 elettrica. E come vedete qui questo
+05:12 campo magnetico è tanto più forte quanto
+05:14 più corrente scorre. Quindi Urste scoprì
+05:17 che nel filo un in un filo percorso da
+05:20 corrente eh un filo percorso da corrente
+05:23 genera una corrente elettrica. Qualche
+05:25 anno dopo, circa 1830, Faraday scoprì
+05:28 un'altra cosa. Scoprì che se si avvicina
+05:31 o si allontana un magnete ad una spira,
+05:34 in questa spira compare una corrente e
+05:36 questa è l'esperienza di Estad. Vedete
+05:38 qui questa cosa tonda è una una spira di
+05:42 filo attaccata a uno strumento, un un 1
+05:46 un mamperometro o un galvanometro, come
+05:49 si diceva all'epoca. un galvanometro è
+05:51 un un amperometro molto molto sensibile.
+05:54 Se, come vedete qua si prende in mano un
+05:55 magnete, che è questo e lo si avvicina e
+05:59 si allontana a questa spira, si vede che
+06:01 l'ago di questo strumento si muove.
+06:03 Cioè, se io, per esempio, infilo questo
+06:07 eh questo magnete nella mia spira, vedo
+06:09 che eh l'ago si muove, ad esempio, in
+06:12 questa direzione. Se invece lo sfilo,
+06:16 quindi inverto il verso del del mio
+06:18 movimento e diciamo l'ago del mio
+06:21 strumento si sposta nella nella
+06:23 direzione opposta. In pratica c'è
+06:26 corrente, come potete leggere qua sotto,
+06:28 solo se la spira si muove rispetto al
+06:31 filo. Ci deve essere, in altre parole,
+06:34 una variazione di campo magnetico
+06:37 concatenato in questa spira. Quindi la
+06:40 quantità di campo magnetico che passa
+06:42 nella spira deve variare. c'è questa
+06:44 variazione,
+06:46 la la spira genera una tensione
+06:49 elettrica, una forza elettromotrice, noi
+06:51 abbiamo sempre chiamata tensione e
+06:53 questa tensione genera una corrente e
+06:55 questa corrente è tanto più forte
+06:58 quanto, come potete leggere qua, più
+07:00 velocemente
+07:02 eh il mio movimento si attua, cioè
+07:04 quanto maggiore è la variazione di di
+07:07 campo magnetico e quanto più eh
+07:12 quanto più è forte la corrente. che in
+07:14 qualche modo nasce in questa in questa
+07:17 spira. E questo è il meccanismo con cui
+07:19 funzionano tutte le varie dinamo
+07:21 alternatori, cioè la maggior parte delle
+07:23 macchine che producono elettricità
+07:25 funzionano così. ci sono una serie di
+07:27 spirina c'è tutta una meccanismi, assi
+07:30 ruotanti, eccetera, che fanno in modo
+07:32 che il campo de dei campi magnetici che
+07:35 concatenati con queste spire
+07:38 variano varino velocemente e così si
+07:41 hanno appunto i generatori e gli e gli
+07:43 alternatori. Per cui queste due cose che
+07:45 abbiamo visto sono proprio speculari,
+07:47 no? Cioè, Orste scoprì che
+07:51 l'elettricità, la corrente elettrica che
+07:54 scorre genera campo magnetico. E qui
+07:57 invece è proprio la cosa speculare, se
+07:59 c'è un campo magnetico, la variazione di
+08:01 questo campo magnetico mi genere una
+08:03 corrente. Quindi c'è una sorta di
+08:04 legame, no, fra magnetismo e, diciamo, e
+08:08 elettricità.
+08:13 Ehm, se noi vogliamo generare in qualche
+08:16 modo un un campo magnetico, esiste un
+08:20 componente specifico che si chiama
+08:21 induttore, detto anche bobina. Vedete
+08:24 qua il suo simbolo elettrico che appunto
+08:26 ricorda un po' l'idea di un avvolgimento
+08:30 di spire, no? E qui in questa foto
+08:31 vedete alcune alcune bobine. Questa per
+08:34 esempio qui a sinistra, probabilmente si
+08:37 si contano anche cinque spire a volte su
+08:39 questa specie di nucleo. Qui le spire
+08:41 sono un po' di più. Questi oggetti che
+08:43 vedete in questa foto sono induttori.
+08:45 Cioè gli induttori sono un po'
+08:47 dappertutto nell'elettronica. Sono ad
+08:49 esempio in tutti gli alimentatori
+08:50 switching che avete in casa, quelli che
+08:52 alimentano il tablet portatile, lo
+08:55 smartphone, eccetera eccetera, magari
+08:57 non in questa forma qui, ma in forma
+08:58 simile. L'induttore cos'è? è un
+09:00 componente, come potete leggere sotto,
+09:04 che sviluppa un campo magnetico quando è
+09:08 percorso da corrente.
+09:11 Quindi faccio passare una certa corrente
+09:13 nel mio induttore e il mio induttore
+09:15 svila un sviluppa un campo magnetico.
+09:18 Cosa ci facciamo di questa proprietà? La
+09:19 la vedremo fra fra un po'. Allora,
+09:22 intanto
+09:24 un induttore eh quanto quanto è bravo a
+09:29 generarmi campo magnetico, ovvero quanto
+09:32 campo magnetico può generarmi un
+09:35 induttore? Questo si esprime con un con
+09:38 un valore che è chiamato induttanza.
+09:43 Induttanza. Noi quando avevamo quando
+09:44 abbiamo fatto le resistenze un paio di
+09:47 lezioni fa abbiamo dato alla resistenza
+09:51 un parametro, no, che appunto è la
+09:53 resistenza che si misurava in ohm.
+09:56 E gli induttori hanno a loro volta un
+09:58 parametro che è l'induttanza. E
+10:00 l'induttanza, come potete leggere qui,
+10:02 esprime quanto campo magnetico può
+10:05 generare un induttore e l'induttanza è
+10:09 proprio il rapporto fra la corrente che
+10:11 scorre nel mio campo nel mio induttore,
+10:13 cioè gli ampere che io ci faccio passare
+10:16 e il la quantità di campo magnetico, il
+10:19 flusso magnetico che io ottengo questi
+10:21 misura in Weber.
+10:23 Quindi l'induttanza è la capacità che ha
+10:26 un una bobina di generare un campo
+10:29 magnetico più o meno forte.
+10:32 questa induttanza
+10:35 in una bobina di tipo come questo,
+10:37 sostanzialmente una bobina lineare,
+10:41 quindi non avvolta in mezzi strani
+10:43 eccetera. Il valore dell'induttanza si
+10:46 può calcolare tramite questa formula,
+10:48 volendo l'induttanza, intanto leggete
+10:51 qua che cresce col quadrato del numero
+10:53 delle spire. E è qua n quadrato
+10:58 vuol dire che immaginiamo che
+11:00 l'induttanza abbia due spire e ottengo
+11:02 una certa quantità di campo magnetico.
+11:04 Se le due spire le porto a quattro,
+11:07 quindi le raddoppio,
+11:09 il campo magnetico non raddoppia, ma
+11:10 quadruplica, capito?
+11:14 Eh,
+11:16 quindi, quindi torno sulla foto che
+11:18 avevamo prima.
+11:20 Vedendo questa foto si capisce che
+11:23 questa induttanza qui è molto probabile
+11:26 che a pari corrente sviluppi una
+11:28 quantità di campo magnetico molto molto
+11:30 più forte che non questa, perché questa
+11:34 ha cinque spire. Questa ora non ci
+11:36 mettiamo a contarle, ma potrebbero
+11:37 essere una una quarantina. Quindi se io
+11:39 faccio scorrere la stessa corrente in
+11:41 questa e in questo induttore, diciamo il
+11:44 solito ampere, 1 amp, se qui è un certo
+11:46 una certa quantità di campo magnetico,
+11:48 qui ho un campo magnetico estremamente
+11:51 più elevato. Quindi, quante più spire
+11:53 ho, quanto maggiore è il campo magnetico
+11:57 generato dal mio induttore, quindi
+11:58 quanto maggiore è l'induttanza. E questo
+12:01 quantanto maggiore è un rapporto di tipo
+12:04 quadratico, quindi se raddoppio il
+12:06 numero di spire l'induttanza non
+12:08 raddoppia ma quadruplica. Poi cresce col
+12:10 diametro S. Quindi,
+12:14 quindi se
+12:16 le mie spire, invece che ad esempio 1 cm
+12:19 di diametro, come potrebbero essere qui,
+12:21 hanno 2 cm di diametro,
+12:25 eh generano più campo magnetico.
+12:28 Invece se io prendo questa questa specie
+12:31 di bobina che vedete qua, è una specie
+12:34 di spirale, no? Immaginiamo di prendere
+12:36 i due terminali della bobina fra le
+12:38 punte delle dita, mano destra e mano
+12:40 sinistra, e di stirarla, quindi proprio
+12:43 di allungarla come se fosse una molla.
+12:47 Se mi aumenta la lunghezza
+12:51 della mia bobina, eh la quantità di
+12:54 campo magnetico diminuisce, l'induttanza
+12:56 diminuisce,
+12:59 quindi
+13:00 è inver quindi la lunghezza della bobina
+13:04 è inversamente proporzionale alla sua
+13:06 induttanza.
+13:08 Oppure si può dire anche nell'altro
+13:09 modo, l'induttanza di una bobopina è
+13:11 inversamente proporzionale alla sua
+13:12 lunghezza. Scusate, ho sbagliato parola.
+13:16 il tutto moltiplicato per un fattore che
+13:20 è questo mi, lettera greca mi, che
+13:23 sarebbe poi la nostra m in italiano, che
+13:26 è la permeabilità magnetica del nucleo,
+13:28 cioè il nucleo della bobina ha una certa
+13:32 attitudine ad essere attraversato dal
+13:35 campo magnetico, anzi nelle bobine si
+13:37 mettono i nuclei proprio perché il campo
+13:39 magnetico scorre molto meglio in un
+13:42 materiale ferromagnetico, come si
+13:44 chiama, che non dell'aria e questo ha
+13:46 l'effetto di generare ancor più campo
+13:48 magnetico e quindi eh un materiale con
+13:52 un mi una permeabilità che si chiama più
+13:55 alto e sicuramente genera più materiale,
+13:58 genera più campo magnetico di della
+14:01 stessa bobina avvolta semplicemente in
+14:04 in aria.
+14:06 Quindi la permeabilità che cos'è?
+14:08 appunto una grandezza fisica che esprime
+14:10 l'attitudine di un materiale a
+14:12 magnetizzarsi in presenza di un campo
+14:14 magnetico e si potrebbe dire che il la
+14:18 presenza di un nucleo ferromagnetico,
+14:20 come dicevo prima, moltiplica la
+14:22 capacità di generare campo del della
+14:24 bobina. Il nucleo, come leggete qua,
+14:27 fornisce un percorso privilegiato al
+14:30 campo magnetico. Un campo magnetico, se
+14:33 può se potesse scegliere, fa passare l'
+14:36 passare tramite dell'aria o passare
+14:38 tramite un materiale ferromagnetico,
+14:40 sceglierebbe il percorso a minor
+14:42 resistenza per lui, che è quello del
+14:43 materiale ferromagnetico.
+14:48 Il nucleo,
+14:51 come tutti i nuclei, può generare anche
+14:53 delle perdite a per effetto di questo
+14:56 magnetismo.
+14:57 Le perdite, come sempre accade in
+15:00 fisica, poi alla fine vanno a finire in
+15:02 calore, effetto, in un modo o
+15:04 nell'altro, come avevamo già visto nelle
+15:07 le resistenze.
+15:09 Ehm, però in ogni caso, nonostante che
+15:12 il nucleo possa aggiungere queste
+15:14 perdite, ha un effetto così positivo sul
+15:17 valore dell'induttanza che comunque
+15:19 viene sempre usato. Questa slide serve
+15:23 perché potrebbe essere oggetto di una
+15:24 domanda, serve per ricordarsi che
+15:26 appunto il nucleo di una bobina non è
+15:28 comunque un materiale perfetto e può
+15:30 indurre delle perdite. Infine, e con
+15:33 questo concludo questa prima
+15:34 chiacchierata su di presentazione
+15:38 generale dell'induttore.
+15:40 Esistono degli induttori variabili, cioè
+15:42 di cui io posso modificare il valore di
+15:44 induttanza. Questo che vedete in questa
+15:47 fotografia un po' sfocata è un tipico
+15:49 induttore variabile. Vedete che qui c'è
+15:51 una bobina, no? Questa fatta da saranno
+15:55 12-15 spire, qualcosa del genere. E in
+15:58 questa bobina c'è un nucleo. Vedete che
+16:00 in questo nucleo c'è un taglietto.
+16:02 Questo perché in questo taglietto si può
+16:04 infilare la punta di un cacciavite e
+16:06 avvitare o svitare questo nucleo in
+16:09 questo eh diciamo su su questo supporto
+16:13 su cui ho avvolta la bobina. Qui dentro
+16:15 normalmente c'è una filettatura e con un
+16:17 cacciavite posso avvitare questo nucleo
+16:21 introducendolo,
+16:22 scusate, introducendolo
+16:26 nel nella mia bobina o posso fare il
+16:28 contrario, no? Posso svitare e così il
+16:30 nucleo se ne uscirebbe dalla bobina.
+16:33 Così facendo, se lo infilo l'induttanza
+16:36 aumenta, se lo sfilo l'induttanza
+16:39 diminuisce. Nelle nelle radio,
+16:43 in un modo o nell'altro di questo tipo
+16:45 di componenti, induttori variabili ce ne
+16:47 sono sempre un certo numero, magari con
+16:50 tecnologie di realizzazione diverse. Se
+16:52 qualcuno di voi ama le radio a valvole e
+16:55 gli esempi tipici sono i vecchi
+16:57 trasformatori di media frequenza che
+16:58 sono degli scatolotti alti anche 10 cm*
+17:01 4* 4, no? dove c'erano queste cose, ma
+17:04 anche nelle radio moderne a transistor
+17:06 eccetera ce ne ce ne sono tante,
+17:09 diciamo, di di queste bobine regolabili
+17:12 regolabili, quindi in qualche modo,
+17:15 essendo regolabili queste servono per
+17:16 fare una taratura, quindi servono per
+17:19 mettere a punto tarandoli dei circuiti.
+17:22 Di queste cose poi parleremo più avanti.
+17:24 [sbuffare]
+17:25 E questo è tutto, diciamo, questa è,
+17:27 diciamo, una chiacchierata generale su
+17:29 cos'è l'induttore. Quindi l'induttore,
+17:31 riassumo molto in sintesi, l'induttore è
+17:35 un componente elettronico che di fatto
+17:36 somiglia a una a una bobina di filo
+17:39 elettrico avvolto su se stesso o avvolto
+17:42 su un nucleo. Nel momento in cui faccio
+17:44 scorrere una corrente elettrica nel mio
+17:46 induttore, lui genera un campo
+17:48 magnetico. Quanto me ne genera? Dipende
+17:51 dalla sua induttanza. Se l'induttanza è
+17:53 alta generà genererà genererà tanto
+17:56 campo magnetico. Viceversa, se
+17:58 l'induttanza è bassa, ne genererà poco.
+18:01 Per avere induttanze alte ho bisogno di
+18:03 tante spire.
+18:06 E qui per ora mi fermo, tolgo la
+18:08 condivisione, se c'è qualche domanda
+18:11 rispondo rispondo volentieri. Quindi
+18:13 questa chiacchierata generale
+18:14 sull'induttore. Ora andremo avanti,
+18:16 vedremo un po' cosa ci facciamo con
+18:18 questo oggetto. A te Giovanni e poi
+18:20 Davide.
+18:23 Microfono, microfono.
+18:25 >> Ecco, mi mi senti adesso
+18:27 >> ora? Sì, benissimo.
+18:28 >> Ok, scusa. Eh, velocemente. La prima è
+18:32 sicuramente questa è in materia d'esame,
+18:34 troveremo potremmo trovare delle domande
+18:37 su questa eh su questa tipologia. Mi
+18:40 sembra da aver visto in qualche
+18:42 esercitazione.
+18:43 >> Seconda la eh l'induttanza, quindi mi n^
+18:47 2 * s/ I. mi ha un valore suo specifico,
+18:52 lo vediamo dopo. Facciamo degli esempi
+18:54 per calcolare l'induttanza o no?
+18:57 >> No. Allora, mi ha un valore specifico
+19:01 che dipende dal nucleo, quindi ci sono
+19:03 dei nuclei che possono avere un MID di
+19:05 10, altri che possono avere un Mid di
+19:07 20.
+19:08 Nelle domande di esame non c'è mai stata
+19:11 una domanda che prevede l'applicazione
+19:14 di quella formula con i numeri.
+19:16 >> Ok, perfetto. Ottimo.
+19:18 >> Però però potrebbe esserci una domanda
+19:21 della serie. Se in un induttore faccio
+19:24 più spire, l'induttanza che fa? Cresce,
+19:26 decresce o resta inalterata?
+19:28 >> Certo.
+19:29 >> Capito? Quindi, diciamo, bisogna un po'
+19:31 sapere come funziona in sostanza.
+19:34 è più una sono domande di metodo su su
+19:37 come funziona l'induttanza rispetto a
+19:39 quello. Ok, perfetto. Grazie.
+19:41 >> Esattissimo. Esattissimo. Niente a te
+19:43 Davide,
+19:45 >> mi sentite?
+19:46 >> Sì, sì.
+19:47 >> Sentite. Ok. Ok. Allora, domanda. Il
+19:50 l'induttanza aumenta con il diametro,
+19:54 no? C'era scritto nella slide a pagina
+19:55 8. Ok. Ma il diametro di cosa? Il
+19:58 diametro del nucleo o il diametro del
+20:00 filo che scorre intorno avvolto intorno
+20:02 al nucleo? Hai ragione, buona domanda.
+20:05 ehm è la sezione del tubo, per
+20:09 intenderci, quindi il diametro
+20:11 dell'induttore in quanto tale, ovvero
+20:14 per vederlo qua,
+20:18 eh, aspetta, metto il pennarello.
+20:23 S, per dirlo in maniera più precisa,
+20:29 è la sezione di questo cerchio qua.
+20:33 >> Ok? E quindi il diametro del filo non
+20:35 incide.
+20:36 >> Incide anche il diametro del filo, ma in
+20:38 misura minore.
+20:40 >> Ok? In generale le formule con cui si
+20:43 calcola l'induttanza della bobina sono
+20:45 sempre molto approssimate.
+20:47 Tu cerchi di fare una bobina che
+20:49 dovrebbe avere 100 microenry, faccio per
+20:51 dire, poi vai a misurarla e ne vengono
+20:53 120.
+20:55 Eh, quindi di solito si usano formule
+20:58 di, diciamo, di prima approssimazione.
+21:00 Qui sì, qui il diametro si prenderebbe
+21:02 questa misura
+21:05 come diametro della formula, in realtà
+21:07 ci vuole la sezione, quindi diametro,
+21:09 poi si fa il raggio, quindi e poi
+21:11 clicchere R qu, d'accordo?
+21:14 >> Per calcolare la sezione di questo
+21:17 cerchio. Comunque, appunto, l'esame non
+21:19 arriva a a questo livello di specif di
+21:22 specificità.
+21:25 Però, cioè, se vi interessa capire un
+21:27 po' meglio, qualche domanda va
+21:28 sicuramente bene. Vai libero, andate
+21:30 liberi.
+21:31 >> Grazie. Grazie mille
+21:32 >> a te. C'è la vuoi Gianfranco.
+21:36 No, Francesco, scusa. No, aspetta,
+21:38 Francesco appena Gianfranco.
+21:41 No, aspetta. Francesco. Sì,
+21:44 >> Paolo, grazie comunque della la
+21:47 risposta. La domanda l'ha fatta Davide
+21:49 prima, la risposta è stata
+21:51 esaustivissima. Sì, siamo a posto.
+21:53 Grazie.
+21:54 >> Grazie. Ciao.
+21:55 >> A dopo.
+21:55 >> Gianfranco. A te.
+21:58 >> Più che altro una curiosità, la forma
+22:00 della eh dell'induttanza,
+22:04 abbiamo visto, ci sono negli esempi
+22:06 c'era una lineare, quindi con la ferrite
+22:10 un cilindro e un'altra era toroidale.
+22:14 Influenza anche la forma?
+22:17 Eh sì, decisamente decisamente. Diciamo
+22:20 che le
+22:24 diciamo che la forma influenza molto
+22:27 anche sul
+22:30 fammi dire per poi queste cose le
+22:32 vedremo in maniera più precisa, ma
+22:34 influisce molto su, diciamo, la qualità
+22:37 dell'induttanza stessa. Perché allora un
+22:41 problema che hanno
+22:43 un problema che hanno le induttanze è
+22:46 che il campo magnetico che esse generano
+22:49 molto spesso sta al cioè una parte di
+22:51 questo campo magnetico sta all'esterno
+22:53 dell'induttanza, quindi si concatena con
+22:55 tutto quello che è attorno, anche magari
+22:57 non fa parte del circuito elettrico in
+22:59 cui l'induttanza è montata e questo
+23:01 concatenarsi porta a delle perdite di
+23:03 energia, quindi a delle perdite. La
+23:06 grande caratteristica che hanno i nuclei
+23:07 toroidali, che ora sono usati
+23:09 moltissimo, diciamo, no,
+23:12 appunto in generale nelle radio in
+23:14 elettronica, è che il campo magnetico si
+23:16 concatena in grandissima parte su se
+23:18 stesso a causa proprio della forma
+23:20 toroidale del nucleo e quindi sono
+23:23 nuclei che hanno una perdita molto
+23:25 minore che non un'induttanza lineare,
+23:27 quella come avevamo visto, no, le cinque
+23:29 spire su quella baston su quel
+23:31 bastoncino.
+23:35 Chiaro. Grazie
+23:37 >> a te.
+23:41 >> Allora, riparto. Questa, come vi dicevo,
+23:44 era una prima chiacchierata generale su,
+23:46 diciamo, cos'è cos'è l'induttanza.
+23:48 Adesso cosa cosa ci faccio cosa ci posso
+23:52 fare con un'induttanza? Cominciamo da
+23:55 cose che che di fatto già conosciamo.
+23:58 Allora, intanto
+24:00 eccoci qua. Intanto, come abbiamo fatto
+24:03 per i resistori, anche gli induttori li
+24:05 posso mettere in serio, in parallelo.
+24:08 E qui il gioco è abbastanza facile
+24:10 perché per gli induttori in serie in
+24:13 parallelo valgono esattamente le stesse
+24:15 formule che avete già visto e avete già
+24:17 usato per i resistori. Quindi quando il
+24:20 collegamento è in serie
+24:25 in serie, ok?
+24:29 Le indotanze semplicemente si sommano L1
+24:31 + L2 + L3 più quante sono? Quando il
+24:35 collegamento invece è in parallelo, se
+24:37 io devo mettere due bobine, diciamo, in
+24:40 parallelo, si usa la formula identica a
+24:42 quella del parallelo delle resistenze
+24:44 che può essere scritta così. Oppure
+24:46 ricordate che quando sono solamente due
+24:49 si usa una formula semplificata, no, che
+24:51 è L1 moltiplicato L2/
+24:55 L1 + L2. Oppure se questa formula che si
+24:59 gestisce bene anche questa, basta avere
+25:01 una calcolatrice che abbia l'uno su che
+25:03 abbia il reciproco. Ammesso che nel
+25:06 diciamo ci siano domande che richiedono
+25:09 calcoli così complicati, cosa che non è
+25:11 così probabile.
+25:13 E tanto per riscaldarvi un po', diciamo,
+25:15 un po' memoria, eh rimettiamole un
+25:18 attimo in pratica queste formule,
+25:20 parlando questa volta di induttanze,
+25:21 quindi rispondete a questa domanda, per
+25:23 favore. Allora, qual è l'induttanza
+25:25 totale di due induttori
+25:28 di evidentemente uno di 150 micro
+25:34 e uno di 250 micro
+25:38 collegata serie?
+25:40 Risposta 400.
+25:43 >> Ok, bravi, era facile. Bravi, bravi. 250
+25:47 + 100 150 + 250.
+25:51 Ora, ora che vi siete scaldati,
+25:53 cimentatevi con questa domanda. Due:
+25:55 Qual è l'induttanza totale di due
+25:57 induttori di
+25:59 200
+26:01 e 300 microenry collegati in parallelo?
+26:06 Vi do qualche secondo, andate a mente,
+26:09 calcolatrice,
+26:11 Excel, quello che volete, ma tirate
+26:13 fuori una risposta.
+26:21 Mentre ci pensate chi è che 120?
+26:25 >> Ripeti.
+26:26 >> 120
+26:27 >> 120
+26:29 >> m Qualcuno dice 120, qualcuno dice
+26:31 qualcosa di diverso?
+26:34 >> Valore più basso.
+26:39 >> Allora, è giusto che è giusto che viene
+26:42 120.
+26:43 Eh, bravi, bravi. Allora, intanto
+26:46 >> è giusto, come ha detto qualcuno di voi,
+26:48 che ricordandosi che quando si fa un
+26:50 parallelo, il risultato che viene è più
+26:53 basso del più basso, deve venire
+26:55 qualcosa che è meno di 200, d'accordo?
+26:59 Se vi fosse venuto 220 è chiaramente un
+27:02 errore. E qui il conto, la risposta è
+27:05 questa qua. 200 * 300/ 200 + 300, la
+27:09 formula semplificata e il risultato
+27:11 giustamente è 120. Quindi bravi, siete
+27:14 siete in forma, almeno quelli che hanno
+27:15 parlato, ma penso che visto che quando
+27:19 avete avuto questi esercizi il più il
+27:21 più del 90% di voi ha risposto bene,
+27:24 diciamo, penso che sia una forma che
+27:25 vale per tutti. Comunque utile anche
+27:27 rinfrescarsele, no, queste cose.
+27:30 Allora, continuiamo.
+27:32 Allora, cosa succede quando si collega
+27:36 un induttore a una tensione continua?
+27:40 Allora, quando si collegava una
+27:42 resistenza a un generatore, quindi mi
+27:46 riferisco alla seconda lezione, quando
+27:48 parlavamo dei generatori e avevamo solo
+27:50 la resistenza,
+27:52 non ci siamo neanche posti il problema
+27:54 del tempo perché nel momento in cui si
+27:56 collega a un generatore, a una
+27:59 resistenza, e scorre una certa corrente
+28:02 e questa corrente, diciamo, che va a
+28:04 regime istantaneamente, cioè nel momento
+28:06 in cui si chiude un interruttore e si
+28:07 attacca una resistenza a un generatore
+28:09 di tensione continua, tac,
+28:11 immediatamente o con un transitorio
+28:13 proprio brevissimo, si parla di
+28:15 milionesimi di secondo, la cosa va a
+28:18 regime. Invece con un induttore no.
+28:22 Quando si collega l'indottore a una
+28:24 tensione continua, la corrente sale
+28:27 lentamente, come vedete in questo
+28:29 grafico qua,
+28:31 sale con una certa lentezza fino a
+28:33 arrivare a un valore eh, diciamo di
+28:38 regime. Eh, poi poi poi vediamo. Quindi
+28:42 la situazione è che io a un certo punto
+28:44 tic nel momento in cui chiudo questo
+28:46 interruttore
+28:48 attacco faccio scorrere corrente nel
+28:50 circuito. Cioè, scusatemi, ricomincio.
+28:53 Nel momento io chiudo questo
+28:55 interruttore
+28:57 e attacco la tensione della batteria,
+29:00 questo è al circuito e questa tensione
+29:03 viene attaccata in maniera istantanea.
+29:06 Quindi dal momento zero il bioinduttore
+29:09 è sotto tensione, la corrente arriva
+29:12 dopo, quindi si dice che la corrente è
+29:15 in ritardo rispetto alla tensione perché
+29:18 ci mette un po' di tempo a salire. Poi
+29:21 lo vedremo meglio questa faccenda del
+29:23 del ritardo, ma intanto no, vedete che
+29:25 in questo grafico la corrente sale
+29:27 tranquilla tranquilla tranquilla.
+29:29 D'accordo?
+29:31 È così è è così per tutti gli induttori.
+29:34 Di fatto ad occhio si può anche
+29:35 immaginare che quanto più grande
+29:37 l'induttore quanto più tempo ci metta a
+29:39 a salire questa cosa.
+29:42 Si può misurare questa cosa con un
+29:44 parametro che è chiamato la costante di
+29:46 tempo, come leggete qua. La costante di
+29:48 tempo, chiaramente si misura in secondi
+29:50 perché si parla di tempo, no? Quindi il
+29:52 tempo si misura per forze di cose in
+29:54 secondi, secondi, minuti, ore, secondi.
+29:57 E la costante di tempo vale L / R.
+30:02 Qui vedete una un'altra lettera greca,
+30:05 tau, che sarebbe la nostra T in
+30:07 italiano, che molto spesso viene usata
+30:10 appunto per dire appunto per per
+30:12 indicare il tempo nelle formule. Quindi
+30:15 il tempo è direttamente il tempo di
+30:17 salita, diciamo, di questa corrente è
+30:19 direttamente proporzionale al valore
+30:21 dell'induttore. Quanto più l'induttore è
+30:24 grande, quanto più la corrente richiede
+30:28 tempo. E tau
+30:33 e allora questo L / R lo avete qua.
+30:38 costante di tempo, poi uno può fare
+30:41 tutti i conti complicatissimi eccetera,
+30:43 ma chiaramente non ci servono per esami
+30:45 dei amatori, per fortuna. E diciamo dopo
+30:48 che è passato questo tempo qua la
+30:51 corrente è arrivata al 63%
+30:56 del della corrente di regime. Poi vedete
+30:59 che qui abbiamo due TAU, la corrente
+31:01 sale un altro po', è quasi al 90. Qui
+31:04 abbiamo 3 da 3 volte la costante di
+31:07 tempo, la corrente ha superato il 90. In
+31:09 pratica succede una cosa di questo tipo.
+31:11 In termini pratici si considera che
+31:13 l'induttore è andato a regime dopo
+31:15 cinque volte la costante di tempo,
+31:18 quindi si attacca il generatore e dopo
+31:21 un certo tempo, cinque volte la costante
+31:24 di tempo che si può calcolare L / R,
+31:30 eh la corrente è andata a regime. La
+31:33 stessa cosa succede quando si spenge,
+31:36 quindi quando si stacca la batteria.
+31:38 Quando si stacca la batteria succede
+31:41 esattamente la stessa cosa, ma a calare.
+31:43 Cioè io qui in questo punto alzo il mio
+31:46 interruttore, quindi tolgo la batteria
+31:49 dal dal mio induttore, la corrente
+31:52 nell'induttore non va subito a zero, ma
+31:55 in qualche modo eh cala lentamente e ci
+32:00 mette un po' e ci mette un po'. Mh.
+32:04 Praticamente la costante di tempo anche
+32:06 qui è è la stessa, no? Cioè la costante
+32:10 di tempo con cui la tensione sale è
+32:13 uguale alla costante di tempo con cui la
+32:15 tensione scende, la corrente scende,
+32:17 scusate. E diciamo comunque anche qui
+32:20 dopo cinque ta o dopo cinque volte la
+32:23 costante di tempo si dice che
+32:25 praticamente è arrivata a zero.
+32:29 Allora questa costante di tempo eh da
+32:32 cosa da cosa deriva? Perché un induttore
+32:35 si comporta così? e si comporta così,
+32:40 eh,
+32:41 per la sua stessa natura. E cerchiamo,
+32:45 adesso cerco di spiegarvi perché.
+32:46 Allora, succede che immaginiamo che io
+32:50 sto sono nel momento sono nella
+32:53 situazione in cui sto accendendo il mio
+32:57 induttore, d'accordo? sto dando tensione
+33:00 al mio al mio induttore. Mh.
+33:05 Allora, quindi ho attaccato la batteria
+33:07 e cosa sta succedendo? Succede che varia
+33:10 la corrente che attraversa il mio
+33:12 induttore perché ho attaccato la
+33:14 batteria e la corrente parte da zero e
+33:16 pian pianino pian pianino sale.
+33:20 Allora la corrente che attraversa
+33:23 l'induttore, diciamo, questa variazione
+33:25 di corrente che attraversa l'induttore
+33:28 fa sì che c'è una variazione del campo
+33:31 magnetico generato dall'induttore
+33:32 stesso. E questo lo si visualizza molto
+33:37 bene, lo si può visualizzare molto bene
+33:39 qua, no? Cioè, se qui ho un certo valore
+33:41 di corrente, questa corrente mi genererà
+33:44 una certa quantità di campo magnetico.
+33:46 Se la corrente è maggiore, il campo
+33:49 magnetico sarà un po' più grande. Se la
+33:51 corrente è ancora maggiore, il campo
+33:52 magnetico sarà ancora più grande e così
+33:54 via, no?
+33:55 >> [sbuffare]
+33:56 >> Quindi,
+33:57 quindi nel mio indottore ho una
+34:01 variazione del campo magnetico, cioè una
+34:04 variazione di corrente che crea una
+34:07 variazione di campo magnetico. Questa
+34:10 variazione di campo magnetico
+34:13 eh genera nella bobina una corrente
+34:16 indotta esattamente come aveva detto
+34:19 Fariday, di cui abbiamo parlato
+34:20 all'inizio di questa di questa
+34:22 chiacchierata. Far dei C. Cosa ci aveva
+34:25 detto? Ritorno un attimo qua. Scusate se
+34:28 vado veloce. Eh, Fard ci aveva detto che
+34:32 se io faccio variare
+34:34 la corrente che scorre in una bobina,
+34:37 questa su questa su una spira in questo
+34:40 caso e nella mia spira o nella mia
+34:43 bobina genero una tensione e una
+34:46 corrente indotta.
+34:48 Stessa cosa succede anche, scusate se
+34:52 torno dove eravamo, succede anche quando
+34:56 la bobina
+34:57 quando varia il campo magnetico generato
+34:59 dalla bobina stessa, cioè nel momento in
+35:02 cui la bobina genera un campo magnetico
+35:05 crescente, questo campo crescente
+35:09 eh interessando per definizione la
+35:12 bobina e genera una corrente indotta
+35:15 nella bobina stessa. Quindi io ho due
+35:18 fenomeni in contemporanea, in parallelo,
+35:20 nel momento in cui attacco una tensione
+35:23 al mio induttore, questa tensione fa
+35:26 scorrere corrente, mi genera un campo
+35:27 magnetico. Questo campo magnetico
+35:29 crescente a sua volta genera una
+35:32 tensione indotta nella bobina, proprio
+35:34 perché è un campo magnetico variabile,
+35:36 come ci aveva detto Far all'inizio.
+35:39 Succede che questo campo magnetico
+35:42 indotto nella bobina è a causa appunto
+35:47 della corrente indotta, quindi si parla
+35:49 diciamo del dell'effetto indotto. La
+35:52 corrente indotta e quindi il campo
+35:53 magnetico indotto [sbuffare] ha una
+35:55 polarità tale da opporsi alla variazione
+35:58 che l'ha generata. Quindi, in sostanza,
+36:01 la bobina eh tende a rallentare perché
+36:06 nel momento in cui ci scorre più
+36:08 corrente la variazione del campo
+36:10 magnetico della bobina genera una forza
+36:12 elettromotrice indotta di verso
+36:14 contrario che [sbuffare] si oppone alla
+36:16 variazione che l'ha generata.
+36:19 E quindi
+36:21 questo è il motivo per cui eh il campo
+36:24 magnetico richiede un certa quantità di
+36:27 tempo, i famosi cinque tau per andare al
+36:30 regime perché mentre sale mentre sale
+36:34 lui stesso induce nella bobina una
+36:37 corrente indotta che è chiamata, come
+36:39 leggete qua, forza contro
+36:41 elettromotrice.
+36:44 contro vuol dire che appunto è nella
+36:47 direzione contraria a quello del
+36:49 generatore che
+36:52 provoca il fenomeno
+36:55 e questa forza contro l'elettronomotrice
+36:57 induce appunto un rallentamento nel
+37:00 nell'andata a regime del del mio campo
+37:03 magnetico. Succede addirittura un'altra
+37:06 un'altra cosa e qui mi fermo un attimo
+37:08 poi per sentire se ci sono domande.
+37:11 Qualcuno di voi forse ha notato che nel
+37:14 momento in cui si aprono degli
+37:17 interruttori o si aprono dei rela,
+37:20 quindi si apre un circuito, si smette di
+37:23 far corrente, delle volte capita che
+37:26 vedi sull'interruttore delle belle
+37:28 scintille, vedi proprio zac degli archi
+37:30 elettrici sul sull'interruttore.
+37:33 Questo succede quando si hanno appunto
+37:36 dei carichi di natura induttiva perché
+37:40 io, allora, io sono qua, scusate,
+37:43 rimetto il pennarello. Immaginiamo di
+37:45 essere in questo punto qua. Io qui ho
+37:48 una corrente costante che sta
+37:50 attraversando la mia bobina. Qui io apro
+37:53 il mio interruttore, d'accordo? Ho un
+37:55 interruttore,
+37:57 cerco di disegnarlo qui e in questo
+37:59 punto qui lo apro. Allora, fino ad ora
+38:05 eh nella mia bobina scorreva una
+38:08 corrente, diciamo, i.
+38:11 La bobina si comporta come un volano,
+38:14 cioè la bobina sta marciando con una
+38:17 certa velocità, questo volano sta
+38:20 girando con una certa velocità. Nel
+38:22 momento in cui io apro l'interruttore,
+38:25 la bobina vorrebbe continuare il a a
+38:29 marciare esattamente alla stessa
+38:31 velocità. Quindi, nel momento in cui mi
+38:34 viene a mancare la tensione
+38:35 d'alimentazione,
+38:37 eh il campo magnetico in il campo
+38:40 magnetico comincia a calare in maniera
+38:43 anche abbastanza drastica. questo calo
+38:45 drastico del campo magnetico genero una
+38:47 tensione indotta che, come vi dicevo
+38:50 prima, cerca di opporsi a quello che sta
+38:53 succedendo e quindi questa tensione
+38:55 indotta genera un picco di tensione in
+38:58 questo in questo punto che genera la
+39:01 famosa scintilla che si vede o sul
+39:03 contatto del rela
+39:06 che state azionando. La scintilla è,
+39:10 diciamo, quando si apre un interruttore,
+39:12 eh, fa visualizzare proprio la forza
+39:16 elettromotrice generata dalla bobina
+39:18 stessa. Questa questa scintilla tende a
+39:22 superare anche il contatto
+39:23 dell'interruttore a volte e pian pianino
+39:25 col tempo lo carbonizza
+39:27 e la scintilla genera questo picco di
+39:29 tensione perché il campo magnetico vuole
+39:32 continuare con tutte le sue forze a,
+39:34 diciamo,
+39:36 ad essere a quel livello lì. Quindi una
+39:39 bombina, fatemi dire, con questo
+39:41 concludo in maniera un po' quantitativa,
+39:43 si potrebbe dire che vive felice quando
+39:46 non la faccia non le facciamo subire
+39:48 variazioni.
+39:50 Lei è un volano, a quel punto gira a
+39:52 quel regime lì, a quel suo campo
+39:54 magnetico e vive felice. a causa di
+39:57 Farad, quindi a causa delle correnti
+39:59 indotte che sono comunque diverso
+40:03 contrario a quello della causa che le
+40:04 sta inducendo, la bobina reagisce male a
+40:07 qualsiasi variazione. Se tu vuoi
+40:10 aumentare il campo il campo magnetico,
+40:12 ci vuole un po' di tempo. Se tu vuoi
+40:13 diminuire il campo magnetico ci vuole un
+40:16 po' di tempo.
+40:18 E con questo mi stacco perché questo
+40:21 secondo me è l'argomento un po' più
+40:23 complicato di oggi pomeriggio.
+40:27 C'è c'è qualche domanda su questo?
+40:29 Intanto
+40:33 Vittorio a te.
+40:36 >> Eccomi. Ciao a tutti. Intanto ascolta
+40:39 prima sull'induttori in serie in
+40:41 paralletta hai abbinato la mi a una H.
+40:44 Mi è sfuggita o non ho capito cosa
+40:46 intendevi per quella h.
+40:49 l' H grande.
+40:51 >> Allora la Aspetta eh, un attimo solo.
+40:57 [schiarire la voce] Eh, allora è una
+40:59 Bravo, è una cosa che non ho detto, la H
+41:01 grande è l'unità di misura
+41:04 dell'induttanza che è l'Henry.
+41:07 Hai ragione, hai messo proprio il dito
+41:09 su un punto che non avevo su una cosa
+41:11 che non avevo detto. L'induttanza si
+41:13 misura in Henry. Henry è sempre il nome
+41:15 di un grande fisico dell'epoca. Sulla
+41:17 slide ce l'avete scritto, ma io non l'ho
+41:19 detto. Quindi le resistenze si misurano
+41:22 in ohm. Le induttanze, gli induttori si
+41:25 misurano in Henry. Henry, quindi 400
+41:28 micro Henry nella fattispecie.
+41:31 Un'induttanza di un Henry è
+41:32 un'induttanza che nel momento in cui ci
+41:34 scorre un ampere genera un flusso
+41:37 elettrico di un Weber. Ma questo non
+41:39 penso che faccia parte delle domande di
+41:40 esame, però gli induttori la loro di
+41:43 misura è l'Henry. D'accordo.
+41:45 >> Grazie.
+41:47 Sì,
+41:49 Davide, a te.
+41:51 >> Sì, ciao, buonasera. Mi sentite? Ciao,
+41:53 benissimo.
+41:55 >> Sì, ciao. Una domanda su questa costante
+41:57 di tempo per capire magari se ho capito.
+42:00 Un esempio da portare e ti puoi
+42:02 caricabatterie del telefono di quando lo
+42:05 attacchi la corrente il telefono,
+42:06 diciamo, ritarda la carica che va
+42:09 aumentare. Comunque quando lo stacchi
+42:11 dalla presa il caricabatterie poi lo
+42:13 colleghi nel telefono e continua a
+42:15 caricare nonostante è staccato, cioè che
+42:17 va a diminuire la costante
+42:19 della bobina del caricabatteria.
+42:22 Sì, succede qualcosa di simile, ma lì
+42:24 l'effetto è dato da un altro tipo di
+42:26 componenti elettronici. Questa cosa
+42:27 teniamolo a mente per mercoledì prossimo
+42:29 e ne parliamo.
+42:30 >> Ok.
+42:32 >> Ok.
+42:32 >> Perfetto. Grazie.
+42:35 >> Allora, ci sono altre domande? Proseguo.
+42:38 Allora, dunque rimetto in condivisione.
+42:47 Cosa tecnica? Allora,
+42:50 costante di tempo, forza contro
+42:53 elettromotrice. Allora,
+42:56 eh sugli induttori ci resta un ultimo
+42:58 argomento, cioè come si comporta un
+43:00 induttore in corrente alternata, perché
+43:02 per ora tutte queste cose che abbiamo
+43:04 visto di fatto erano in corrente
+43:05 continua, no? Cioè queste belle cose qua
+43:08 le abbiamo sempre fatte, immaginando che
+43:10 ci fosse, come si vede in questo
+43:12 schemino qui, un generatore di di
+43:16 tensione continua e di conseguenza una
+43:18 corrente continua. Con una corrente
+43:20 continua, appunto, c'è la costante di
+43:21 tempo in salita, c'è la costante di
+43:23 tempo in discesa, cinque tavole,
+43:25 eccetera eccetera. Fino a ora siamo
+43:26 stati in corrente continua. Adesso
+43:30 parliamo un attimo della corrente
+43:32 alternata. Allora, diciamo, intanto un
+43:35 induttore cosa fa? E questo è il nostro
+43:42 ehm è la conclusione, diciamo, diretta
+43:46 del dell'ultimo discorso che abbiamo
+43:48 fatto. Allora, un induttore immagazzina
+43:51 energia sotto forma di campo magnetico,
+43:55 come vedete qua, e ha questo effetto di
+43:58 opporsi al passaggio della corrente
+44:00 alternata. In generale la corrente
+44:02 continua lo può attraversare. La
+44:05 corrente alternata invece viene
+44:07 ostacolata. Allora che la corrente
+44:09 continua lo posso attraversare
+44:11 ehm è chiarissimo dalla natura stessa di
+44:15 un induttore, no? Un induttore, abbiamo
+44:16 sempre detto che è fatto da un filo
+44:19 elettrico avvolto su se stesso. Allora,
+44:21 i fili elettrici per loro natura hanno
+44:23 una resistenza estremamente bassa, cioè
+44:26 sono dei conduttori e quindi in tensione
+44:28 continua gli induttori sono molto vicini
+44:31 ad essere quello che si chiama un
+44:33 cortocircuito. Il cortoocircuito sapete
+44:35 che è appunto un contatto con una
+44:38 resistenza in Oh molto molto molto bassa
+44:41 che può far scattare, diciamo, il i
+44:44 contatori dell'Enel, no? Il magnetot
+44:46 termico che avete sul contatore
+44:48 dell'Enel. E gli induttori più o meno
+44:50 sono fatti tutti così, come si vedeva
+44:52 anche in quelle fotografie che ho
+44:53 presentato prima, no? quel quelle cinque
+44:55 spire su un nucleo di ferrite. Quelle
+44:58 cinque spire probabilmente misurate con
+45:01 un misuratore di resistenza hanno una
+45:03 resistenza di 0,01 ohmma. Quindi di
+45:06 fatto è un cortoocircuito,
+45:08 per cui la corrente continua può
+45:11 attraversare di solito un induttore come
+45:14 se fosse proprio,
+45:16 diciamo, un circuito con una resistenza
+45:19 estremamente bassa, tendenze a zero, è
+45:21 un filo di fatto un induttore. Io questa
+45:24 questa bobina che vedete qua io la
+45:26 potrei srotolare, probabilmente qui c'è
+45:28 1 m 1,5 m di filo di rame che è una
+45:31 resistenza nulla.
+45:35 Invece la corrente alternata viene
+45:36 ostacolata. E perché viene ostacolata?
+45:39 Perché la corrente alternata, come avete
+45:40 visto nella nella terza lezione, no,
+45:44 quando abbiamo parlato di alternata,
+45:46 varia continuamente il suo valore e
+45:48 quindi parte da zero, raggiunge un
+45:50 massimo positivo, poi torna a zero, poi
+45:52 arriva a un minimo negativo e così via e
+45:55 così via, no? cioè con un tipico
+45:57 andamento sinusoidale.
+46:01 Allora, immaginate una corrente che
+46:03 varia così inserita in un induttore e
+46:05 ricordando anche questi discorsi che
+46:07 facevamo prima di costante di tempo.
+46:09 Praticamente l'induttore, la corrente
+46:11 che scorre un induttore che è lento,
+46:14 come vi dicevo prima, inseguirà
+46:17 in continuazione la variazione di questa
+46:20 sinusoide della corrente della tensione
+46:23 alternata che gli do, ma di fatto non
+46:25 riuscirà mai a raggiungerla. Non
+46:27 riuscirà mai a raggiungerla
+46:30 perché è una variazione continua e
+46:32 l'induttore è un volano, un volano che
+46:34 in qualche modo si muove solo con una
+46:37 certa lentezza.
+46:40 eh
+46:42 il quanto mi ostacola un induttore il
+46:46 passaggio di una corrente alternata
+46:49 lo ostacola, diciamo, la la diciamo la
+46:53 quantità di resistenza, diciamo, che il
+46:56 conduttore fa al passaggio della
+46:58 corrente alternata è chiamato reattanza
+47:01 induttiva
+47:04 che ha un significato identico a quello
+47:07 della resistenza. Noi avevamo parlato di
+47:09 resistenza in corrente continua. La
+47:13 reattanza è esattamente la stessa cosa
+47:15 in corrente alternata. In particolare,
+47:17 ora vediamo la reattanza creata da un
+47:19 induttore. Cos'è la reastanza induttiva?
+47:22 È la forza di opposizione
+47:25 che un induttore produce al passaggio
+47:27 della corrente alternata, esattamente
+47:29 come si era detto con le resistenze,
+47:31 cioè un induttore si oppone al passaggio
+47:33 della corrente alternata, la ostacola. E
+47:36 come per le resistenze questo
+47:40 questo ostacolare si misura in ohm,
+47:43 quindi la reattanza di un induttore si
+47:45 misura in ohm, per cui un induttore ha
+47:49 un valore suo che può essere, non so, 1
+47:52 mil. Questo 1 milenry dipende
+47:54 dall'induttore com'è fatto, d'accordo? è
+47:57 sul nucleo, non è sul nucleo, a 5 spiri,
+48:00 a 50 spiri, a un certo punto
+48:01 quell'induttori ha un'indittanza di 1
+48:03 mil.
+48:05 Ma questo millenry di induttanza
+48:07 dell'induttore che reattanza ha? La
+48:11 reattanza, a differenza delle
+48:13 resistenze, varia in funzione della
+48:16 frequenza.
+48:18 Noi quando avevamo una resistenza da 100
+48:20 ohm, quei 100 ohm restavano 100 ohm, sia
+48:24 che quella resistenza la usasse a una
+48:26 frequenza bassa che ha una frequenza
+48:28 alta, per cui o a 100 Hz o a 100 MHz,
+48:33 quella resistenza ha una opposizione
+48:36 uguale al suo valore in ohm. Invece la
+48:40 forza di opposizione degli, diciamo,
+48:43 dell'induttore,
+48:45 quindi la reattanza induttiva varia in
+48:47 funzione della frequenza.
+48:50 Varia così. Questa è la formula che dà
+48:52 la reattanza induttiva. La reattanza
+48:54 induttiva si indica con XL. Xa reattanza
+48:57 L è il simbolo, appunto, del
+49:00 dell'induttanza e questa reattanza vale
+49:03 2 pi.
+49:06 Allora, 2 pi è un numero 6,28.
+49:11 L è è un dato, è il valore di
+49:14 quell'induttore. L'unica cosa che può
+49:17 variare in questa formula è F.
+49:20 Quindi l'induttanza,
+49:23 scusate, la reattanza indutiva vale 2
+49:25 pi* L, che è un numero moltiplicato F.
+49:29 Quindi la reattenza induttiva è
+49:31 direttamente proporzionale alla
+49:32 frequenza e questo lo si vede qua in
+49:35 questo grafico, cioè se allora per chi
+49:38 si ricorda ai tempi del liceo
+49:40 dell'università o roba del genere la
+49:42 geometria analitica, questa formuletta
+49:45 qua esprime una retta che passa
+49:47 nell'origine, d'accordo? dove eh
+49:51 guardatela qua su questi assi cartesiani
+49:53 qui sull'asse cartesiano, sull'asse
+49:56 cartesiano delle ascisse ho la frequenza
+49:58 che si misura in herz che è questo
+50:01 parametro qua.
+50:03 2π, come dicevo prima, è un numero
+50:06 costante, quindi 2 pi è 6,28 ed L è il
+50:09 valore dell'induttore. La reattanza
+50:12 induttiva cresce linearmente al variare
+50:15 della frequenza. Quindi se io ho appunto
+50:17 un induttore da, non so, 10 m,
+50:22 al crescere della frequenza 500 1000
+50:25 1500 Hz, il valore della rattanza
+50:28 cresce, come indicato da questa retta.
+50:31 Questa retta è l'andamento appunto della
+50:34 reattanza induttiva in funzione della
+50:35 frequenza. Se io su questo stesso
+50:38 grafico volessi mettere
+50:40 eh una resistenza, come si comporta una
+50:43 resistenza? Immaginiamo una resistenza
+50:44 da 150 ohm. 150 sta qui. Come sarebbe la
+50:49 linea retta di questa resistenza secondo
+50:51 voi? Chi prova a rispondermi?
+50:54 >> Parallela all'asse della scisse.
+50:57 >> Perfetto, bravo. Esattamente così.
+51:00 Scusate ora questi scarabocchi, no? che
+51:02 mi vengono, ne ho sempre ditti un
+51:05 esatto. Al variare di una cer al variare
+51:08 della frequenza il valore di una
+51:10 resistenza componente elettronico
+51:13 resistenza resta costante.
+51:16 Invece il valore di reattanza di una
+51:19 bobina cresce linearmente con la
+51:22 frequenza. E perché cresce? Lo possiamo
+51:26 intuire qualitativamente per il discorso
+51:27 che facevo prima, cioè un induttore è un
+51:29 volano. È un volano, d'accordo?
+51:32 Diciamo quando sono a frequenze molto
+51:35 basse nella continua la mia frequenza ha
+51:38 delle variazioni molto lente, molto
+51:41 lente e quindi queste in qualche modo
+51:44 vengono stacolate poco da questo volano.
+51:46 Se io invece vado a frequenze molto
+51:47 elevate
+51:49 e l'induttore questo questo volano,
+51:52 questa lentezza che ha in qualche modo
+51:54 per sua costruzione intrinseca eh
+51:57 impedisce molto, ostacola molto lo
+51:59 scorrimento della corrente, quindi il
+52:01 valore della reattanza cresce. Mh.
+52:07 E questa cosa la si potrebbe calcolare.
+52:09 Quindi chiudiamo questa chiacchierata
+52:11 sull'induttore con questo esercizio.
+52:13 Allora, consideriamo un induttore da 10
+52:16 mm.
+52:18 Proviamo a calcolare quanto vale la sua
+52:21 reattanza a 100 kHz.
+52:24 Quindi la formula è 2 pi, cioè 6,28.
+52:28 Approssimiamolo a 6 che ci va bene per
+52:31 per i nostri conti. moltiplicato
+52:36 f moltiplicato R, quindi devo
+52:38 moltiplicare per 100.
+52:42 Provate a farla anche voi, magari
+52:44 scrivete meglio di lo moltiplico per 10.
+52:50 >> 6,28
+52:52 eh
+52:54 millenry, no? Oh.
+52:57 >> Eh, può essere. Vediamo un po'. Allora,
+52:59 questi sono milli milli significa che
+53:02 c'è un 10^ 3 al denominatore.
+53:07 Ora non mi ricordo quanto torna, lo sto
+53:08 facendo anch'io insieme a voi. Questi
+53:10 sono 100 kHz. 100 kHz significa il 100
+53:13 l'ho già scritto qua, kHz significa che
+53:16 c'è un 10 alla 3 al numeratore.
+53:19 D'accordo? Quindi questi sono 100 kHz,
+53:22 questi sono 10 m.
+53:24 >> Questi due si semplificano uno con
+53:26 l'altro. 10^ 3 10^ 3, quindi resta 6 *
+53:30 10 * 10
+53:34 milioni a kHz. Perfetto. Quindi la
+53:36 reattanza è di 6000 ohm. Torna
+53:41 6,28.000
+53:43 680
+53:46 ohm. Ritorna per sì, corretto.
+53:50 >> Ok, grazie. Se avete una calcolatrice,
+53:52 >> io non ho capito nulla di questa
+53:53 formula.
+53:56 Allora, la cancello e si riparte.
+53:58 Momento
+54:01 >> perché la frequenza nella formula è in
+54:03 herz,
+54:04 >> quindi eh bisogna Ok. Ok. Mentre la L è
+54:09 sempre in
+54:11 >> in
+54:12 >> in
+54:13 >> inry quando dobbiamo operare,
+54:16 >> ok? C'è l'unità di misura intera, quindi
+54:19 eh Ok, il problema era l'unità di
+54:20 misura.
+54:21 Esattamente. Esattamente. Allora, la
+54:24 formula è questa, come vedete, e come
+54:27 avete detto giustamente, eh, quando si
+54:30 usano le formule bisogna sempre usare le
+54:32 unità di misura intere, quindi diciamo
+54:35 la frequenza ho 100 kHz, ma in realtà
+54:38 quindi nella formula devo scrivere
+54:40 100.000, d'accordo? 100 kHz sono
+54:42 100.000. Evitiamo l'uso delle potenze di
+54:45 10 per adesso.
+54:50 100.000.
+54:52 Sì, questo è uno zero. Va bene,
+54:54 d'accordo. Questi sono i 100.000 Hz. L
+54:57 sono 10 m. Allora, 10 m è 0,01
+55:02 * 0.
+55:10 Allora, 100.000 1000 moltiplicato 0,01
+55:16 se fate i conti da 1000.
+55:23 Qui potete provare con la calcolazione
+55:24 centesimo di Non è un centesimo di Henry
+55:26 quello, chiedo scusa.
+55:28 >> Sì, è un centesimo di Henry. È un
+55:30 centesimo di Henry. Bravo. Un centesimo
+55:32 di Henry che equivale a 10 millesimi.
+55:36 >> Ah, ok, scusa.
+55:38 >> Ok.
+55:39 10 milles diry, quindi 0,01.
+55:44 Se avessi avuto un millesimo di rry
+55:47 avrei dovuto scrivere 0,00
+55:52 1 con uno 0 in più. Scusate gli
+55:54 scarabochi, questo è particolarmente
+55:56 male. [sbuffare] Comunque qui abbiamo il
+55:58 1000 di prima moltiplicato 628, quindi
+56:01 6280
+56:03 eh ohm.
+56:07 ti torna ti torna un po' meglio ora
+56:09 questa formula vista con i numeri e non
+56:11 con le potenze di 10?
+56:17 Eh, poi me la riguardo con calma via,
+56:20 sennò si perde tempo. Farò qualche
+56:22 domanda all'intelligenza artificiale.
+56:24 Sì, devi sì
+56:25 >> o capisco la procedura qui
+56:28 >> come si arriva. Ah, cioè c'è 2 pi,
+56:33 però niente, via dai, sennò si perde
+56:35 tempo.
+56:36 >> Sì, allora devi semplicemente mettere i
+56:39 numeri, mettere i numeri giusti. 2π sai
+56:41 quanto vale? No. 6,28. F.000.
+56:47 100 k sono 100.000.
+56:49 L è 10 m, cioè 0,01.
+56:54 >> Eh, ma F perché 100.000?
+56:56 Perché è perché è un dato non è dettata
+56:59 la
+57:00 >> No, perché è una perché è una domanda
+57:02 fatta così. Questa è come è una domanda
+57:04 di un esercizio e lì ci potrebbe essere
+57:07 un valore qualsiasi. È semplicemente un
+57:10 >> frequenza tu la vedi nella seconda
+57:12 domanda è 100 kHz.
+57:14 >> [schiarire la voce]
+57:14 >> È quella lì la frequenza.
+57:16 >> Questa
+57:16 >> il kilo è per 10^ ter quindi sarebbe 100
+57:20 + 10^ ter sono altri tre zeri perché è
+57:22 1000 e quindi viene 100.000 è derivato
+57:25 appunto dal 100 kHz che è la frequenza
+57:27 della seconda domanda, cioè della prima
+57:28 domanda alla fine.
+57:29 >> Corretto?
+57:31 >> Corretto. Devi devi fare un po' di
+57:34 esercizio semplicemente. Ora piano piano
+57:36 di volta in volta magari faremo un po'
+57:38 di questi conti, poi ci risciogliamo
+57:39 tutti. Ok?
+57:41 Passiamo alla domanda successiva. Ancora
+57:43 qui la risposta è molto facile, no?
+57:45 Avendo calcolato il valore precedente,
+57:47 quanto vale la sua reattanza a 1 MHz?
+57:50 >> 62.800.
+57:52 >> Ah, no, no.
+57:55 Ah, no, sì, scusa. Sì, sì, certo che sì.
+57:58 62.800, esattamente, 628, cioè, cioè è
+58:02 10 Sì, sì, è scusa,
+58:03 >> è 10 volte superiore, dopo pensando ad
+58:06 altro. E a 10 MHz quanto vale?
+58:09 Mai avete capito come
+58:11 >> 628.000, d'accordo? Quindi vedete che è
+58:15 è direttamente proporzionale, no? quando
+58:17 la frequenza aumenta di un fattore 10,
+58:20 la reattenza induttiva aumenta anche lei
+58:22 di un fattore 10 e diciamo se vogliamo,
+58:26 questo è proprio lo lo l'uso lo scopo
+58:30 per cui si usano le reattanze nei
+58:32 circuiti, cioè tante volte c'è bisogno
+58:34 in un circuito elettrico di eh
+58:38 di far passare una frequenza bassa o una
+58:42 tensione continua addirittura, ma
+58:44 bloccare bloccare se su questa tensione
+58:47 continua c'è sovrapposta anche un
+58:48 segnale a frequenza radio, quel quel
+58:50 segnale non lo devi far passare. Quindi
+58:53 quando hai bisogno di fermare un segnale
+58:55 in alternata, diciamo, una una frequenza
+58:58 alta, ma invece far passare una
+59:00 continua, si usa un inter si usa un
+59:02 induttore
+59:05 e poi vedremo.
+59:07 Ok, allora
+59:10 e con questo sugli induttori. Ah no,
+59:12 scusate, mi ero di cioè pardon, c'è
+59:15 un'ultima cosa da dire.
+59:18 Pausa tecnica.
+59:21 Pac. Quindi, riprendendo il discorso
+59:24 anche che avevamo che avevamo fatto
+59:26 prima sul ritardo, adesso però ne
+59:28 parliamo in corrente alternata,
+59:33 quindi prima l'abbiamo visto un po' sui
+59:36 transitori, no? Sul sul,
+59:39 diciamo, sui cinque tavo a crescere e a
+59:41 decrescere. Adesso immaginiamo, appunto,
+59:42 proprio su una corrente alternata
+59:44 costante, si è detto che in un induttore
+59:48 la corrente è sempre in ritardo rispetto
+59:50 alla tensione. La tensione è quella che
+59:53 in qualche modo lo spinge, no, lo eccita
+59:56 e vorrebbe far scorrere una corrente,
+59:58 però l'induttore risponde lentamente,
+60:00 quindi la corrente è in ritardo rispetto
+60:02 alla tensione e questo l'avevamo già
+60:04 detto, però non si era detto una cosa di
+60:07 quanto è questo ritardo. Allora, in una
+60:09 corrente alternata sinusoidale la
+60:12 tensione la corrente è in ritardo
+60:15 rispetto alla tensione di 90°.
+60:19 E quindi in questo grafico che è molto
+60:22 simile o se non identico a uno di quelli
+60:24 che avevamo visto due due diciamo due o
+60:28 due lezioni fa la diciamo se se questa è
+60:33 la corrente in verde, immaginiamo che la
+60:36 corrente qui raggiunge il massimo qua.
+60:39 Scusate, ricomincio. Se questo qui in
+60:42 verde è la tensione V e la tensione V
+60:45 raggiunge il massimo qua, la corrente
+60:48 raggiungerà il massimo un po' più tardi
+60:50 e nel caso di tensioni sinusoidali
+60:53 eccetera eccetera eccetera il ritardo
+60:55 che c'è fra la tensione e la corrente è
+60:58 di 90°.
+61:00 Perché è così? Perch perché sì,
+61:02 d'accordo? Cioè nessuno vorrei mai
+61:04 sapere il perché. C'è da ricordarsi che
+61:08 eh in un induttore la corrente è in
+61:10 ritardo di 90° rispetto alla tensione.
+61:13 Questo poi lo riprenderemo quando
+61:14 parleremo dei circuiti risonanti. Questi
+61:16 discorsi di sfasamento di 90° di
+61:18 anticipo in ritardo sono fondamentali
+61:21 nel funzionamento dei circuiti
+61:22 risonanti, ma ne parliamo fra fra due
+61:26 puntate,
+61:29 ovvero dire che la corrente è in ritardo
+61:32 rispetto alla tensione implica che la
+61:34 tensione è in anticipo rispetto alla
+61:36 corrente. D'accordo? Diciamo niente da
+61:39 niente da capire, è semplicemente la
+61:41 stessa fase ribaltata. la corrente in
+61:44 ritardo rispetto alla tensione, quindi
+61:46 la tensione in anticipo rispetto alla
+61:47 corrente. Stop, non c'è non c'è altro da
+61:50 non c'è altro da sapere.
+61:53 Infine, c'è un'ultima cosa per effetto
+61:56 del
+61:59 diciamo del dei campi elettrici e
+62:01 magnetici che, diciamo, si instaurono
+62:03 all'interno di un conduttore,
+62:07 ehm
+62:09 si ha il cosiddetto effetto pelle.
+62:11 L'effetto pelle è un fenomeno per il
+62:14 quale se tu fai passare una corrente
+62:16 alternata dentro un filo, dentro un
+62:18 conduttore,
+62:19 più aumenta la frequenza, più la
+62:22 corrente scorre solo sulla superficie
+62:24 esterna del conduttore. Questo questo
+62:27 tondo rosso che vedete qua, immaginate
+62:29 che sia un filo elettrico tagliato in
+62:33 sezione, d'accordo? Noi stiamo vedendo
+62:34 una sezione di questo filo elettrico. Il
+62:36 filo elettrico è tondo. Immaginiamo che
+62:39 sia un tondino di rame come si era visto
+62:42 bene. Torno indietro, scusate se vi
+62:45 faccio un po' di mal di mare. Un filo di
+62:48 rame stile questo, un filo di rame metti
+62:50 di 1 mm o 2 mm di diametro. Qui lo
+62:52 stiamo vedendo sezionato. Mh. Allora, se
+62:57 io in questo filo elettrico faccio
+62:58 scorrere una corrente continua, la
+63:01 corrente mi scorre in maniera più o meno
+63:03 uniforme in tutte le parti di questo
+63:05 filo, della sezione del mio filo. Se io
+63:09 aumento la frequenza della
+63:11 del della mia tensione,
+63:15 la corrente tende a schiacciarsi sulla
+63:18 parte esterna del conduttore, questa qua
+63:21 che vedete al di là di questo
+63:23 tratteggio, cioè in questa zona qua,
+63:26 quindi nella parte centrale del
+63:27 conduttore va a finire che di corrente
+63:29 non non ne scorre praticamente punta,
+63:32 diciamo zero o pochissimo. E questa cosa
+63:36 va, questo fenomeno, questo effetto
+63:38 pelle va ad aumentare quanto più aumenta
+63:42 la frequenza
+63:44 e del mio segnale. Questa cosa è molto
+63:47 importante per, diciamo, in campo radio
+63:50 quando si ha a che fare con segnali a
+63:52 frequenza abbastanza alta perché questa
+63:56 cosa dell'effetto pelle, anche se
+63:58 ripeto, cioè sembra una cosa strana, ma
+64:00 praticamente riduce in maniera veramente
+64:03 enorme la quantità di del mio cavo in
+64:09 cui scorre corrente elettrica. E qui vi
+64:12 ho vi ho riportato un po' di un un po'
+64:14 di misure. Allora, immaginate
+64:17 immaginiamo che il nostro filo sia un
+64:21 conduttore del diametro di 1 mm,
+64:24 d'accordo? 1 mm. guardiamo a 1 MHz, 1
+64:28 milione di Hz, che è una frequenza anche
+64:30 bassa, eh, molamente bassa quando si
+64:33 parla in campo radio. Ha una frequenza
+64:36 di 1 MHz, il la profondità di
+64:39 penetrazione, qui è chiamata profondità
+64:42 di pelle
+64:44 della corrente nel mio filo eh
+64:49 è di 66 micron. 66 micon, cioè 0,06
+64:55 007 mm. Il mio filo è è di 1 mm di
+65:00 diametro, quindi solamente in una
+65:04 striscetta
+65:06 pari al 7% del mio diametro, una
+65:09 striscetta che chiaramente gira tutto
+65:10 attorno, no? Eh, la la il grosso della
+65:15 corrente scorre lì. Se si va a una
+65:17 frequenza un po' più alta, 10 MHz, che
+65:19 anche questa è una frequenza
+65:20 relativamente bassa,
+65:23 002 002
+65:26 mm, quindi solamente il 2% del
+65:28 conduttore è interessato. Pochissimo,
+65:30 no? Cioè sarebbe proprio una Se vado a
+65:33 100 MHz, che comincia a essere una
+65:35 frequenza un po' altina, ma tante radio
+65:37 trasmettono a 140 a 400 MHz, no? Vedete
+65:40 che addirittura
+65:43 è di 0,006
+65:46 micron micron, quindi 6 eh millesimi di
+65:50 millimetro, quindi meno dell'1%
+65:54 della della sezione del mio filo. Quindi
+65:56 diciamo immaginiamo che io ho un buon un
+65:59 bel trasmettitore da 100 W, voglio
+66:01 mandare questi 100 W all'antenna. 100 W
+66:03 cominciano a essere una potenza,
+66:05 diciamo, già abbastanza, diciamo,
+66:07 decorosa, no? Quindi io vedo un cavo
+66:09 quassiale che sul momento mi sembra
+66:11 anche abbastanza buono perché magari lo
+66:13 vedo che ha, diciamo, un diametro
+66:16 abbastanza rilevante e devo sempre
+66:19 ricordarmi che a 100 MHz la sezione del
+66:21 cavo quassiale che lavora realmente è
+66:24 una sezioncina di 6 micron giro giro
+66:28 giro attorno al diametro del mio del
+66:31 conduttore del mio cavo, quindi proprio
+66:32 veramente una cosa minimale. E questo è
+66:34 l'effetto pelle.
+66:37 Allora, basta. Diciamo che di induttore,
+66:40 sugli induttori non ho da dire altro. Se
+66:42 c'è qualche domanda che siamo
+66:44 perfettamente nei tempi, restate a
+66:46 parlare del trasformatore, però il
+66:48 discorso del trasformatore è molto
+66:49 rapido.
+66:51 Giovanni, a te.
+66:53 Sì. Ecco, allora, ehm io personalmente
+66:57 ho avuto ho difficoltà forse nella ehm
+67:01 nella visione della formula di com'è
+67:03 messa, perché nelle altre formule nelle
+67:06 altre formule c'erano il per, il fratto,
+67:08 eccetera. questa 2 pi gre fl ma un po'
+67:11 disorientato, poi ho capito che va,
+67:13 diciamo, spezzettata perché 2 pi gre poi
+67:16 lo moltiplichi per f poi per l e
+67:19 dovrebbe sistemare questa cosa. Quindi è
+67:22 questo è un po' il la cosa poi sulla
+67:25 questione della ehm della del
+67:28 funzionamento degli induttori, insomma,
+67:30 di questa contro forza contro corrente,
+67:35 forza di opposizione, insomma, vabbè,
+67:37 con forza elettrometrice, sono arrivato
+67:40 a un certo punto, ma eh niente, me la me
+67:43 la riguarderò per bene, poi vediamo poi
+67:45 nel corso della, diciamo, delle puntate
+67:48 come eh se se riesco a diciamo assorbire
+67:53 questa cosa qui perché insomma ecco
+67:55 questa sinceramente un pochino mi sono
+67:57 trovato in difficoltà, però a tempo al
+67:59 tempo bisogna che mi applichi e quindi
+68:02 rivedere un attimo gli appunti,
+68:03 risentire la registrazione. Io me le
+68:05 registro tutte le registrazioni, quindi
+68:07 me le risento già domani, quindi in
+68:09 anticipo e quindi e niente, era un po'
+68:11 questo. Grazie. Perfetto, perfetto.
+68:14 Diciamo la forza controelettromotrice ci
+68:16 serve per capire perché l'induttore ha
+68:18 questo rallentamento.
+68:20 Eh, perché diciamo l'induttore,
+68:23 diciamo, il campo magnetico generato
+68:25 dall'induttore
+68:27 induce sull'induttore stesso
+68:30 una tensione contraria a quella che
+68:36 una, diciamo, un effetto di segno
+68:38 contrario a quello del che cerca di
+68:40 ottenere il generatore. Se io cer se il
+68:43 mio generatore cerca di aumentare la
+68:44 corrente che passa nell'induttore, la
+68:47 forza controelettromotrice è esattamente
+68:49 il segno opposto, cioè cerca di
+68:50 abbassare questa corrente e tutto questo
+68:52 avviene nello stesso induttore, è
+68:54 proprio un antagonismo fra due fenomeni
+68:56 diversi. Poi chiaramente vince il
+68:58 generatore, no? Perché il generatore,
+69:00 insomma, è, diciamo, essendo un
+69:02 generatore, può continuare nel suo
+69:04 sforzo per un certo tempo, continua a
+69:06 dare corrente di un certo tipo, a un
+69:08 certo punto l'induttore va va a regime,
+69:12 però ci va lentamente a causa di questo
+69:14 effetto. Dormbici un po' su, poi se ve
+69:17 ne riparliamo senza problemi.
+69:18 >> Cerca di cerca di cerca di ribellarsi,
+69:20 ma non ce la fa via, insomma.
+69:22 >> Esattamente. Però ti rallenta, è come
+69:25 una cosa stopposa, no? ti rallenta, come
+69:27 essere, no, che attraversi un campo con
+69:30 tutte le stoppe che ti si attaccano agli
+69:32 stip, ai pantaloni, eccetera.
+69:34 >> Ok, vabbè, grazie. Grazie Paolo
+69:38 >> Pierluigi, a te.
+69:40 >> Eh, sì, una curiosità. Qual è la
+69:42 spiegazione fisica dell'effetto pelle
+69:45 che si ha con la frenza? Ripi, ripeti,
+69:47 ripeti.
+69:48 >> Qual è la spiegazione fisica, cioè la il
+69:51 motivo per cui avviene l'effetto pelle
+69:53 con la frenzione? Perché la corrente,
+69:57 gli elettroni si distruiscono sulla
+69:58 superficie
+70:00 esterna del conduttore. Qual è il motivo
+70:03 fisico per cui avviene questo?
+70:06 >> Eh sì. Allora,
+70:09 >> è una cordetà, eh, scusami.
+70:10 >> Sì. Allora, si si visualizza bene con un
+70:14 disegno che non ho qui con me, lo faccio
+70:17 vedere la volta prossima
+70:23 perché se si fa, diciamo, il il
+70:26 l'oggetto, diciamo, la sezione del filo
+70:28 a pezzettini e si fa passare in ogni
+70:31 pezzettino un flussetto di corrente e si
+70:33 vede che funziona e si vede che succede,
+70:36 si arriva a questa conclusione qua.
+70:38 Raccontato a parole è un po' incasinato.
+70:40 diciamo, ho uno schema che che vi farò
+70:44 vedere mercoledì prossimo. Ok,
+70:47 comunque buona domanda.
+70:49 Assolutamente.
+70:53 Eh, Davide, a te.
+70:56 >> Allora, l'effetto pelle è una cosa è un
+70:59 effetto, appunto, che possiamo sfruttare
+71:01 in qualche modo eh a nostro vantaggio o
+71:04 è solo, tra virgolette, un
+71:06 inconveniente?
+71:08 Mh, secondo me, eh, [sbuffare]
+71:12 allora, l'effetto pelle è sempre un
+71:13 inconveniente perché aumenta la perdita
+71:16 in tutti i cavi di trasmissione delle
+71:18 radiofrequenze.
+71:20 In effetti se prendete,
+71:24 non so, diciamo, quelli quelli che di
+71:26 voi trasmett hanno già esperienza di
+71:29 trasmissione, no? Stile banda cittadina,
+71:30 robe del genere.
+71:32 Alcuni di voi avranno i capi qualsiale
+71:34 stile l'RG58, capi piccolini, altri
+71:37 avranno i capi più grandi, no, stile RG
+71:38 213, eccetera. Se scaricate da internet
+71:42 il foglio dati, si chiama il datashet
+71:45 con le caratteristiche di questi cavi
+71:47 cossiali, c'è sempre l'andamento della
+71:50 perdita in funzione della frequenza
+71:52 e si vede proprio come questa perdita si
+71:54 impenna al crescere della frequenza. Le
+71:58 questa questa crescita della perdita
+72:00 deriva da due fattori. Il primo
+72:03 fondamentalmente è l'effetto pelle, cioè
+72:05 che più più sale la frequenza che il
+72:08 cavo porta e minore è la sezione in cui
+72:11 la corrente passa e quindi aumenta la
+72:13 resistenza ommica del cavo perché invece
+72:15 di avere un filo di un certo diametro ce
+72:18 l'è molto più piccolo. E l'altro fattore
+72:21 è la perdita nel di elettrico. ne
+72:23 parleremo, ne parleremo. E quindi è un
+72:25 fattore sostanzialmente sempre negativo
+72:27 l'effetto pelle. L'unica cosa che mi
+72:30 verrebbe in mente se a te avesse bisogno
+72:32 di scaldare una parte di un filo
+72:35 rapidamente, ma non c'è non ha
+72:36 applicazioni pratiche una cosa di questo
+72:38 tipo, che io sappia.
+72:40 >> Ok. Ok. No, pensavo che magari in
+72:42 un'antenna potesse venire a vantaggio,
+72:45 ma invece non è così.
+72:47 >> No, no, no, no, no. In generale è un
+72:49 effetto negativo. M
+72:51 >> Ok. Volevo dare un po' di numeri perché
+72:54 sentito a prima vista l'effetto pello,
+72:56 dice vabbè e lo mette lì, no? Però poi
+72:58 quando si rendi conto dei numeri che che
+73:00 appunto si tratta di micron in cui passa
+73:02 la corrente, magari credi di avere un
+73:03 filo da 1,5 di sezione, no? In realtà la
+73:07 la corrente ti passa in un micron di
+73:10 questo e5, insomma, cioè un fattore 1000
+73:13 in meno.
+73:16 Luca, a te.
+73:27 Il microfono è acceso, ma l'audio non si
+73:28 sente come prima.
+73:35 Niente,
+73:37 controlla eventualmente
+73:40 eh con controlla il microfono che hai
+73:43 installato sul tuo dispositivo.
+73:45 Intanto passo a Stefano.
+73:50 >> Ciao.
+73:51 >> Ciao Stefano. Questa, ciao questo
+73:53 effetto pelle mi incuriosisce, mi faceva
+73:56 mi fa pensare, ma al di là delle
+73:58 difficoltà pratiche a costruirli, ma non
+74:02 si potrebbero ipotizzare dei fili con al
+74:06 centro vuoti, diciamo, in cui c'è solo
+74:08 la corona, come fossero dei tubi, in
+74:11 modo che parità di materiale si potrebbe
+74:15 fare un, diciamo, la parte esterna più
+74:19 grande e quindi Perché la parte interna
+74:22 in realtà non servirebbe a niente ad
+74:24 altre frequenze, no?
+74:25 >> Sì. Potrebbe potrebbe esserci un vuoto.
+74:28 >> Sì, esatto. L'hai l'hai centrata in
+74:30 pieno. Allora, questa l'effetto pelle m
+74:34 siccome oggi il rame costa una cifra a
+74:36 causa delle delle speculazioni
+74:38 internazionali eccetera, ora ci sono
+74:40 molti cavi coassiali che sono fatti in
+74:42 alluminio che costa molto meno e quest e
+74:45 su questo alluminio è depositato poi uno
+74:48 strato di rame superficiale.
+74:51 Il cavo funziona bene perché
+74:52 >> oppure addirittura vuoto, invece
+74:54 dell'alluminio nulla. addirittura vuoto.
+74:56 Infatti ci sono dei cavio.
+74:59 >> Sì, infatti ci sono co, infatti ci sono
+75:01 dei cavi. Sì, sì, sì. Ci sono dei cavi
+75:03 che hanno il conduttore vuoto.
+75:06 >> Ah, ecco, vedi? Eh, perché poi usando lo
+75:08 stesso rame li fai,
+75:10 >> diciamo, di un diametro maggiore, quindi
+75:13 la parte esterna è utilizzabile, più è
+75:17 più grande.
+75:18 >> La parte interna in realtà sarebbe
+75:20 completamente inutile. Sarebbe rame rame
+75:23 sprecato.
+75:24 >> È completamente inutile. Esatto. E fra
+75:26 l'altro a causa di questi fenomeni, a
+75:29 causa dell'effetto pelle, fin
+75:31 dall'antichità, diciamo, mi riferisco
+75:34 1920 30 eccetera, dove questi fenomeni
+75:36 ero già noti, per evitare il problema
+75:40 della perdita nelle bobine causate
+75:42 dall'effetto pelle, fu inventato il
+75:44 filolitz che [sbuffare] non so se
+75:46 qualcuno di voi, magari amante del
+75:48 vintage lo conosce, cioè molte bobine
+75:51 delle radio di allora il erano fatte da
+75:55 Filiulizz Il filolit è un insieme in un
+76:00 cavo unico di una cinquantina di tre
+76:04 foli diversi, ciascuno isolato l'uno
+76:06 dall'altro.
+76:08 In pratica hanno detto, visto che il
+76:10 dentro è sprecato, facciamoli fili
+76:12 piccolissimi. Filo piccolissimo è usato
+76:15 quasi tutto, ma di questi fili
+76:16 piccolissimi mettiamo 20 40 50 in
+76:20 parallelo e si vede e diciamo nelle
+76:23 radio di epoca d'epoca ci sono queste
+76:25 queste uovine filolit che sono veramente
+76:27 belle a vedersi. Tra l'altro il filol è
+76:30 usato è costruito tutt'ora. E se cercate
+76:33 un po' su internet sicuramente lo lo
+76:35 trovate.
+76:36 Mh
+76:37 >> mh.
+76:37 >> Perché cioè è una legge della fisica che
+76:40 che l'effetto pelle, no? Quindi nessuno
+76:42 scappa.
+76:45 >> Ok, grazie. Niente.
+76:48 Allora, se non ci sono altre domande
+76:50 facciamo l'ultimo pezzettino di stasera
+76:54 e parliamo
+76:58 parliamo del trasformatore. Parliamo
+77:00 stasera parliamo del trasformatore
+77:02 perché il trasformatore è basato appunto
+77:04 sui campi magnetici, sull'induzione.
+77:07 Cos'è il trasformatore? Intanto è un
+77:09 dispositivo elettrico, un componente
+77:11 elettrico elettronico che è in grado di
+77:14 trasformare la tensione di una corrente
+77:17 alternata. Il simbolo elettrico è questo
+77:20 che vedete qua.
+77:26 Eh, praticamente è come il simbolo di
+77:28 due bobine. Immaginiamo che di queste
+77:31 due bobine una sia il primario che
+77:33 riceve ai suoi capi qua e qua una certa
+77:36 tensione, per esempio il 220 V. E da
+77:39 quest'altra parte il secondario, il
+77:41 trasformatore genera un'altra tensione
+77:43 che potrebbe essere 12 248. Quelle in
+77:47 qualche modo ci ci serve. Allora, come
+77:50 funziona il trasmettitore? funziona
+77:52 secondo il principio di faredai, cioè
+77:53 noi sappiamo che il campo il campo
+77:55 magnetico generato da un induttore
+77:58 percorso da un'alternata,
+78:00 quindi una corrente alternata è
+78:02 continuamente in divenire e
+78:04 continuamente in variazione.
+78:06 Genera quindi un campo magnetico
+78:09 alternato, quindi anche lui
+78:11 continuamente in variazione. Questo
+78:13 campo magnetico alternato, se si
+78:16 concatena in un altro induttore ci
+78:18 induce una tensione alternata. Lo schema
+78:21 semplificato è in qualche modo qua.
+78:24 Immaginiamo che questa bobina che vedete
+78:27 in alto sia il cosiddetto primario del
+78:30 trasformatore e a questa bobina siano
+78:33 attaccati i due fili del 220. D'accordo?
+78:54 Aiuto! Ho paura di
+78:55 >> È arrivata la famosa la famosaione. Ora
+78:59 22:51. Fateci caso. Eh,
+79:03 aspettiamo qualche secondo. Paolo si
+79:05 dovrebbe ri riconnettere. Un attimo di
+79:08 pazienza.
+79:12 [schiarire la voce]
+79:13 È l'ora di Paolo questa.
+79:16 Ma questa è una maledizione.
+79:19 >> Qualcuno ha lanciato ha lanciato una
+79:21 maledizione [risate] delle 22:51.
+79:24 [schiarire la voce]
+79:24 >> Eh sì, è qualcosa di simile. Eh sì, sì.
+79:28 Non non abbiamo
+79:29 >> c'è qualcuno che gli accende un
+79:30 trasformatore. Non è che qualcuno gli
+79:32 accende un trasformatore. È
+79:33 >> una cosa è una cosa strana, ma capita
+79:35 molto spesso verso quest'ora.
+79:38 Non so per quale motivo, eh, Paolo,
+79:42 infatti, vedete, si deve sganciare,
+79:44 riagganciare e poi va diritto fino a a
+79:47 domattina, ma a quest'ora non non si sa
+79:51 cosa succede.
+79:53 Spesso
+79:53 >> inizio, prego.
+79:55 >> Sì, scusa, volevo domandarti, ma come
+79:58 visto che attendiamo che che si
+79:59 ricollega e come si tolgono il i
+80:03 messaggi in tempo reale?
+80:05 Eh, quelli no eh brava. È una Allora, li
+80:10 puoi, diciamo, accantonare premendo la
+80:13 la
+80:15 >> cioè li puoi spostare in una finestra
+80:17 premendo la freccettina e quelli li
+80:20 sposti direttamente
+80:22 e diventa un'altra finestra. Provaci.
+80:26 >> Hai visto? C'è una freccia eh, sparisce,
+80:29 rimane Esatto, e ti si nasconde sotto,
+80:33 va come se diventasse un'altra finestra.
+80:37 >> Mh, però non si tolgono, eh
+80:39 >> non si tolgono. Eh, purtroppo non ho
+80:41 capito perché è ehm questa cosa qui gli
+80:45 anni passati non c'era. c'era la chat
+80:48 classica, ma era inter l'avevamo
+80:51 interdetta
+80:52 eh ai appunto ai corsisti per proprio
+80:56 per poter interagire eh come stiamo
+80:59 facendo adesso, alzando la mano eccetera
+81:01 eccetera. Va
+81:02 >> bene,
+81:02 >> questa nuova versione di Teams ha questa
+81:04 cosa qua, ecco, se vi succede la potete
+81:07 far diventare una finestra e poi
+81:09 nascondere. Ecco, questo sì.
+81:11 >> Ok, proviamo. Grazie. Prego, prego.
+81:14 >> Fateci un feedback voi se nel caso siano
+81:17 inutili o comunque invasivi, fatecelo
+81:20 sapere. Proviamo a disattivarli noi dal
+81:23 pannello di controllo,
+81:26 >> sperando di riuscir,
+81:26 >> però vengono disattivati per tutti,
+81:28 ovviamente.
+81:30 >> Eh, scusate, una prova al microfono se
+81:32 questa volta arrivo o meno, perché non
+81:34 so se arrivo.
+81:36 >> Oh, forte chiaro. Luca, benissimo.
+81:40 >> E allora ho tolto ho tolto cuffie, ho
+81:42 tolto tutto perché non funziona niente
+81:44 stasera. Non niente.
+81:47 >> Succede. Vai, alza la mano, poi dopo ti
+81:50 rispondiamo. Vai, Luca. Allora,
+81:51 >> va benissimo. Grazie. Grazie mille. Sono
+81:54 tornato. Comunque con questo microfono
+81:55 hai un audio perfetto, sicuramente.
+81:59 Allora,
+82:02 scusate, piccolo problema di linea, si
+82:04 stava parlando del trasformatore. Eh,
+82:06 stavo dicendo che appunto in un
+82:08 trasformatore ci sono appunto due due
+82:12 bobine
+82:15 e in qualche modo una bobina, la prima,
+82:18 è attaccata, quella chiamata primario, è
+82:21 attaccata di solito al 220, quindi alla
+82:24 alla tensione di base che noi vogliamo
+82:26 trasformare e questa genera un campo
+82:29 magnetico.
+82:31 Il 220, come sapete, è una frequenza di
+82:33 50 Hz, quindi questo campo magnetico
+82:35 varia in qualche modo 50 volte al
+82:37 secondo. [sbuffare] Questo campo
+82:39 magnetico generato dal primario in
+82:41 qualche modo si concatena, si concatena
+82:44 col secondario, l'altra bobina. Vedete
+82:46 che qua ci sono delle spire che dal
+82:48 primario passano al secondario, no?
+82:51 E diciamo a questo punto il secondario
+82:54 che è una bobina che non è alimentata,
+82:57 non è attaccata al 220, però riceve
+82:59 questo campo magnetico variabile
+83:02 variabile e come ci ha detto Faraday,
+83:04 siccome il campo magnetico è variabile
+83:06 lei ai suoi terminali di uscita
+83:10 eh presenterà una certa tensione
+83:17 indotta dal primario.
+83:21 Quindi il primario genera un campo
+83:23 magnetico. Questo campo magnetico viene
+83:26 in qualche modo concatenato sul
+83:28 secondario e questo campo magnetico
+83:31 induce sul secondario una tensione che
+83:33 appunto è chiamata indotta. Adesso
+83:36 questo disegno che vedete qua del
+83:38 trasformatore è molto eh schematizzato,
+83:42 no, della serie molto didattico con due
+83:45 bobine molto lontane l'una dall'altra.
+83:47 All' latto pratico succede che in un
+83:49 trasformatore che di solito ha un,
+83:53 diciamo, un confezionamento simile a
+83:54 questo, le due bobine che stanno qua nel
+83:57 mezzo sono avvolte una sull'altra e
+84:01 diciamo in e sono in qualche modo
+84:03 impacchettate in un nucleo di materiale
+84:07 ferromagnetico che è questa carcassona
+84:09 che vedete qua.
+84:11 Tutto questo fa sì che di fatto tutto il
+84:14 campo magnetico generato dal primario si
+84:16 concatena col secondario e quindi il
+84:19 trasformatore di solito è una macchina
+84:21 elettrica abbastanza efficiente, cioè ha
+84:23 pochissime perdite. Un buon
+84:25 trasformatore ha un rendimento del 95%
+84:28 o cosa di questo tipo. Quindi c'è un
+84:31 primario
+84:33 riassumendo, un trasformatore di base a
+84:36 due avvolgimenti.
+84:40 sono chiamati primario e secondario. Il
+84:43 primario è l'ingresso del trasformatore.
+84:45 Solitamente è il 220, ma non è detto. A
+84:48 volte ci sono trasformatori interni che
+84:50 hanno primari diversi, però normalmente
+84:52 il tret trasformatore classico è un
+84:53 ingresso a 220
+84:56 e il secondario è un'uscita a una
+84:58 tensione che vogliamo noi. Per esempio
+85:00 un 12 V si compra un trasformatore,
+85:03 ingresso 220, uscita 12. Il primario e
+85:06 il secondario, come leggete qua, sono
+85:07 avvolti su un nucleo ferro magnetico.
+85:12 Questo nucleo concatena il flusso
+85:14 provocato generato dal primario, lo
+85:17 concatena totalmente sul secondario,
+85:19 disperdendone pochissimo.
+85:22 A causa di questa dispersione veramente
+85:24 molto bassa, si considera che il
+85:27 rendimento del trasformatore sia del
+85:29 100%. si ipotizza che il rendimento del
+85:32 trasformatore sia il 100%, cioè che la
+85:34 potenza che entra nel primario esca
+85:36 tutta dal secondario. Se un
+85:38 trasformatore è buono, questa questa
+85:40 ipotesi sostanzialmente è verificata.
+85:43 Allora, un trasformatore ovviamente ha
+85:46 un rapporto di trasformazione. Il
+85:49 trasformatore diciamo che è una macchina
+85:50 lineare. Il rapporto di trasformazione
+85:53 è dato dal rapporto fra le spire del
+85:56 primario e del secondario. Immaginiamo
+85:57 che sul secondario, sul primario,
+86:00 scusate, ho 100 spire
+86:03 e nel secondario ne ho 10.
+86:08 Eh, succede, scusate, questo 10 un po'
+86:10 scarabocchiato, ma comunque è un 10,
+86:12 d'accordo? Allora, succede che se io nel
+86:16 mio trasformatore entro col 220 V
+86:19 dell'Enel, avendo un rapporto spire di
+86:21 10 a 1, quindi ho 100 spire rispetto a
+86:25 10, un rapporto di 10 a 1, la tensione
+86:28 di uscita sarà un decimo, ovvero pari al
+86:31 al rapporto spire. Quindi se entro con
+86:34 con
+86:38 se io ho di qua 100 spire e diciamo sul
+86:43 secondario ne ho ne ho 50, quindi la
+86:46 metà, la tensione in uscita sarà la metà
+86:49 di quella del primario
+86:51 e quindi il meccanismo è assolutamente
+86:53 lineare. Allora, c'è un rapporto di
+86:56 trasformazione che è chiamato con la
+86:59 lettera K che è il rapporto. Questi due
+87:01 punti sta per un diviso fra numero di
+87:05 spire primario diviso numero spire
+87:07 secondario. Questo stesso tipo di
+87:09 rapporto, come avete visto in questi
+87:11 esempi che ho fatto, è il rapporto che
+87:14 c'è fra la tensione di ingresso e la
+87:16 tensione di uscita.
+87:22 Volendo da questo, diciamo, se se voglio
+87:24 risolvere in un altro modo, questa
+87:26 stessa formula qui, K = tensione di
+87:29 ingresso, tensione d'uscita, la posso
+87:30 scrivere così, cioè la tensione di
+87:33 uscita è uguale alla tensione di
+87:34 ingresso diviso il mio rapporto di
+87:37 trasformazione. Vediamo questa cosa con
+87:40 qualche esempio barre esercizio.
+87:44 Un trasformatore ha un primario di 500
+87:48 spire.
+87:51 è un secondario di 25 spire. Qual è il
+87:54 suo rapporto di trasformazione? È 500 /
+87:57 25. Quindi questo trasformatore ha un
+88:00 rapporto di trasformazione
+88:03 k 20. Quindi in uscita avrò un vesimo
+88:06 della tensione in ingresso. Se io ci
+88:10 inserisco un 220 avrò un vento di 20,
+88:13 cioè 11 V. Se io ci inserissi 100 V avrò
+88:18 un vento di 100, cioè 5 V. D'accordo? È
+88:21 proprio proporzionale. La stessa
+88:23 proporzione che c'è fra numero di spire
+88:26 primario e numero di spire secondario è
+88:28 proprio la stessa proporzione fra
+88:30 tensione in ingresso e tensione in
+88:31 uscita.
+88:33 E quindi, appunto, qua vedete in questa
+88:35 seconda parte di questo esempio, se si
+88:37 applica sul primario una tensione di 220
+88:40 V, che tensione avremo sul secondario in
+88:42 uscita? si prende la tensione di
+88:44 ingresso win e la si divide per K, cioè
+88:47 per 20. 220 V / 20 e il la tensione in
+88:53 uscita è di 11 V.
+88:56 Notate un'ultima cosa su un
+88:58 trasformatore
+89:00 e
+89:02 ne parliamo qua. Si si diceva che eh un
+89:07 trasformatore è una macchina elettrica
+89:09 quasi ideale, ha un rendimento molto
+89:11 buono, quindi si immagina che il
+89:12 rendimento del trasformatore sia del
+89:14 100%, quindi la potenza che entra esce.
+89:18 Allora, se in ingresso,
+89:21 se il trasformatore
+89:23 eh diciamo ha questo rapporto di
+89:25 trasformazione di 20 e la tensione di
+89:29 uscita, come vedete qua, è di un vento
+89:31 di quella di ingresso, quale sarà il
+89:34 rapporto di trasformazione delle
+89:35 correnti?
+89:38 Il rapporto di trasformazione delle
+89:39 correnti è opposto, nel senso che un
+89:42 trasformatore che è il primario a 220 V,
+89:45 il secondario a 22 V, se nel primario,
+89:47 quindi questo ha un rapporto di
+89:49 trasformazione di 10,
+89:52 se nel primario scorre una corrente di 1
+89:55 amp,
+89:56 che corrente scorrerà nel secondario?
+90:00 Sul primario,
+90:03 ci rinfreschiamo un po' la memoria su
+90:05 queste formule. si era detto che la
+90:07 tensione è vale P = V * I. Quindi sul
+90:11 primario io ho i 220 V, eccoli qua, e
+90:15 una corrente di 1 amp, eccola qua.
+90:17 Quindi sul primario del trasformatore ho
+90:20 una potenza di 220 W, quindi il primario
+90:24 assorbe della rete Enel 220 W di
+90:27 potenza.
+90:29 Siccome il trasformatore è una macchina
+90:32 con rendimento 100%, che corrente avrò
+90:35 sul secondario? Sul secondario avrò
+90:37 comunque gli stessi 220 W che ho in
+90:39 ingresso perché il rendimento è pari a 1
+90:42 al 100%.
+90:45 Diviso 22 V che è la tensione di di
+90:48 uscita e quindi avrò una corrente di 10
+90:52 amp.
+90:54 >> Ma alternata o continua?
+90:57 inalternata.
+90:59 Bravo, questa è una cosa che non vi ho
+91:00 detto. Un trasformatore lavora solo in
+91:04 tensione alternata, è in corrente
+91:06 alternata,
+91:09 perché per funzionare ha bisogno,
+91:12 torniamo al nostro farai dai da cui
+91:14 abbiamo iniziato la chiacchierata di
+91:16 stasera. La corrente indotta ce
+91:18 l'abbiamo solamente se c'è una
+91:20 variazione del del flusso magnetico, del
+91:23 campo magnetico e questa variazione c'è
+91:25 solamente in alternata. Un trasformatore
+91:28 in continua non funziona. Non funziona.
+91:32 È un componente che opera soltanto in
+91:34 tensione alternata o corrente alternata.
+91:36 Ok?
+91:40 E se ho il trasformatore, torno qua e
+91:44 con questo più o meno concludo, se ho un
+91:46 trasformatore
+91:48 che eh come in questo esempio, questo ho
+91:52 chiamato un trasformatore in discesa,
+91:54 nel senso che c'è una tensione di
+91:56 ingresso di 22 V, si scende a una
+91:59 tensione di 11 V.
+92:02 Siccome la potenza di ingresso, siccome
+92:04 la potenza del primario, del secondario
+92:06 è uguale, se la tensione, come in questo
+92:10 esempio, mi cala di 20 V, la corrente mi
+92:13 aumenta di 20 V. Quindi, se sul primario
+92:16 avessi una corrente di 1 amp, sul
+92:21 secondario questa corrente mi diventa di
+92:23 20 amp
+92:25 deve fare sempre v.
+92:28 I è sempre V * I, quindi primario 220 V
+92:32 moltiplicato 1 amp
+92:35 e fa 220.
+92:37 Se su secondario ho 22 V,
+92:41 lo devo moltiplicare per forza per 10
+92:43 per avere gli stessi 220. Quindi vedete
+92:45 che questo trasformatore
+92:47 in discesa mi diminuisce la tensione. Da
+92:51 220 si va a 11.
+92:56 ma di uno stesso fattore 20 aumenta la
+93:01 corrente
+93:05 perché = v deve funzionare sia sul
+93:09 primario che sul secondario del
+93:11 trasformatore.
+93:14 E questo sul trasformatore è è tutto.
+93:17 Torno un attimo indietro. Quindi
+93:19 trasformatore ha un primario e un
+93:20 secondario,
+93:22 funziona solo in alternata perché ci
+93:25 deve perché solamente una corrente
+93:27 alternata mi può indurre una corrente
+93:30 nel secondario.
+93:31 Il rapporto fra la tensione in ingresso
+93:34 e la tensione di uscita è pari al
+93:36 rapporto fra le spire del primario e le
+93:38 spire del secondario.
+93:43 La corrente si calcola, l'eventuale
+93:45 corrente si calcola di conseguenza
+93:47 sapendo che la la potenza sul primario è
+93:50 uguale alla potenza del secondario. E
+93:52 questo è tutto quello che c'è da sapere
+93:55 del trasformatore.
+93:59 E per stasera non ci sono altri
+94:01 argomenti a voi per domande.
+94:03 Possiamo anche staccare la
+94:05 registrazione. E Gianfranco a te.
+94:10 >> Grazie. Eh domanda. La lo

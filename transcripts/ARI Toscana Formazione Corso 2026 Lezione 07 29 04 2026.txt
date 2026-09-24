@@ -1,0 +1,2573 @@
+00:03 Eccolo. Prego Paolo, buon lavoro.
+00:06 Allora, buonasera di nuovo a tutti, a
+00:09 chi si è fatto sentire, anche chi non si
+00:11 è fatto sentire. Metto intanto lo
+00:12 schermo in condivisione e vi mostro come
+00:16 siete andati nelle Scusate, chiudo
+00:19 Telegram, altrimenti saremo sempre
+00:21 bersagliati dai post. Allora, vi mostro
+00:25 come siete andati sulle domande della
+00:27 lezione scorsa. Avevamo parlato dei
+00:29 filtri Passalto, passa basso e della
+00:31 risonanza. Siete andati molto bene
+00:35 ovunque, un po' meno sulla domanda A e
+00:37 adesso ce la riguardiamo. Ehm,
+00:41 anche qui molti sono al 100%, quindi
+00:44 hanno fatto una, diciamo, una pratica
+00:46 perfetta. Ce ne sono uno o due in più
+00:49 che sono sotto la sufficienza,
+00:50 probabilmente per mancanza di tempo.
+00:53 E vediamo le risposte
+00:57 esatte.
+00:59 Scusa, eh, ma poi ce lo potete di' chi è
+01:01 che che non è sufficiente così per
+01:04 capire.
+01:05 >> Sì, ve lo possiamo dire, ma in teoria
+01:06 non in pubblico.
+01:09 E poi adesso adesso
+01:11 >> adesso ve lo vedete, no? Adesso ve lo
+01:13 vedete chi non è sufficiente. Adesso
+01:15 facciamo la correzione delle domande e
+01:18 ognuno di voi lo sa se ha risposto bene
+01:19 o ha risposto male, no?
+01:22 E succede come a scuola, diciamo, ai
+01:24 vecchi tempi si affiggevano i risultati,
+01:27 no? Alla fine dell'anno c'erano i
+01:28 risultati attaccati al muro con tutti i
+01:30 nomi e i voti. Ora non si può più fare
+01:32 quella cosa lì.
+01:33 >> Sì, infatti io e me li son segnati
+01:35 quando ho mandato il diciamo il modulo
+01:38 sull'agenda mi son insegnato cosa ho
+01:40 mandato.
+01:42 >> Poi vabbè voi le rimandate con le
+01:44 risposte giuste.
+01:47 >> Allora, vediamo un po'.
+01:50 Cominciamo dal dall'inizio ovviamente.
+01:52 Allora, la domanda A vi ha messa
+01:54 abbastanza in difficoltà e secondo me
+01:56 solo perché c'è c'è questa cosa di
+01:59 leggere bene le domande, magari anche le
+02:02 slide. Allora, i filtri elimina banda.
+02:05 Elimina banda. Cosa attenuano? Elimina
+02:08 banda, quindi attenuano una banda,
+02:12 ovvero le frequenze all'interno della
+02:15 banda del filtro. Le frequenze
+02:17 all'interno banda del filtro sono
+02:19 eliminate. Le frequenze all'esterno
+02:23 perché sennò sarebbe un filtro
+02:25 passapanda. I filtri passapanda sono
+02:27 quelli che eliminano le frequenze
+02:29 all'esterno delle due frequenze di
+02:31 taglio del filtro, no? La superiore e
+02:33 l'inferiore.
+02:35 E la frequenza al centro della banda del
+02:38 filtro. Comunque una risposta, diciamo,
+02:41 non corretta perché perché i filtri di
+02:43 questo tipo elimina banda, lavorano su
+02:45 una banda, non su una singola frequenza.
+02:47 Quindi la risposta giusta è questa e se
+02:51 diciamo eh se se avete dei dubbi su
+02:55 queste domande, la la cosa che diciamo
+02:58 continuo a ripetervi ora non vorrei
+03:00 diventare troppo ossessivo e
+03:02 ricontrollate le slide, ricontrollate le
+03:04 slide perché nelle slide le queste
+03:07 risposte ci sono tutte. Su questa
+03:09 domanda di dei filtri cosa attenuano
+03:13 sopra la frequenza di taglio, sotto la
+03:15 frequenza di taglio, eccetera. Nelle
+03:17 slide ne avete una che riassume tutte
+03:19 queste tutte queste situazioni e quindi
+03:22 questa domanda riguarda i filtri elimina
+03:24 banda. Eccoli qua. Andate in quella
+03:26 slide e beccate il casellino che parla
+03:29 di filtri elimina banda e lì avete le
+03:31 risposte. I filtri e i filtri eliminano
+03:34 banda. In quella slide c'è scritto che
+03:36 tagliano le frequenze all'interno della
+03:37 banda del filtro. Quindi, ehm, andate in
+03:42 qualche modo di pari passo con le slide,
+03:44 se volete, forse questo vi aiuta.
+03:47 Domanda B. Quali frequenze attraversano
+03:50 inalterate un filtro passa basso? Lo
+03:52 dice la parola stessa, no? Il filtro è
+03:55 di tipo passa basso, quindi il basso
+03:57 passa, per cui la risposta corretta è le
+04:01 frequenze inferiori alla frequenza di
+04:03 taglio. Quale frequenze attraversano
+04:05 inalterate? inalterate, quindi non
+04:08 vengono attenuate le frequenze inferiori
+04:10 alla frequenza di taglio.
+04:13 In un circuito risonante parallelo alla
+04:15 frequenza di risonanza la corrente è
+04:18 minima. Questa è questo è un altro dei
+04:20 piccoli mantra che che i circuiti
+04:22 risonanti li troveremo diverse volte.
+04:25 alla risonanza un circuito risonante
+04:26 parallelo è un interruttore aperto,
+04:29 quindi non c'è passaggio di corrente,
+04:31 invece un circuito risonante serie e un
+04:34 interruttore chiuso, è un corto
+04:36 circuito, quindi passo una corrente
+04:38 massima. La risposta corretta è la tre.
+04:41 Per un/aro, quale delle seguenti
+04:42 affermazioni è vera? Ora, in queste
+04:44 altre domande avete risposto quasi tutti
+04:45 sopra l'80%.
+04:47 Vado velocetto, se poi c'è qualche
+04:49 domanda alla fine alzate la mano e ne
+04:53 parliamo. Allora, i quarzi hanno un
+04:55 fattore di merito Q molto alto perché i
+04:58 fattori molto bassi sono quelli dei
+05:00 circuiti LC con condensatori scadenti e
+05:03 induttori scadenti
+05:06 e poi non è vero che la frequenza di un
+05:08 quarzo varia fortemente, tant'è che con
+05:10 i quarzi si fanno gli orologi. I famosi
+05:12 orologi a quarzo si facevano, no? e si
+05:14 fa come si fanno anche tutt'ora se
+05:16 vogliamo. Quindi il quarzo, la frequenza
+05:18 di solito è molto precisa ed è precisa.
+05:21 Uno dei motivi per cui è precisa è che
+05:22 il fattore di merito cu è molto alto.
+05:24 Risposta corretta la due. L'impircuito
+05:27 formato da una resistenza con in serie
+05:30 un induttore dipende dalla frequenza di
+05:32 lavoro. Certo che sì.
+05:35 Tutte le volte che abbiamo un induttore
+05:37 o un condensatore,
+05:40 l'impetenza
+05:41 varia in funzione della frequenza.
+05:45 L'impedenza sale quando si ha un
+05:47 induttore al salario della frequenza e
+05:50 cala invece quando si ha un
+05:52 condensatore. Domanda Q. Aumentando la
+05:55 resistenza in un circuito risonante
+05:57 serie, cos'è del fattore qualità?
+06:01 Allora, la resistenza di un circuito
+06:03 risonante serie eh rappresenta le
+06:07 perdite del circuito, quindi rappresenta
+06:09 il fatto che, come si era detto, il
+06:12 circuito non è di tipo ottimale, ma i
+06:14 condensatori e gli induttori soprattutto
+06:16 sono abbastanza imperfetti e quindi i
+06:18 circuiti non hanno quel fattore di
+06:20 merito altissimo. Allora, il circuito
+06:23 risonante serie, idealmente il miglior
+06:26 circuito risonante possibile ha una
+06:28 resistenza interna, una resistenza serie
+06:30 pari a 0 a 0. Se più questa resistenza
+06:35 sale più la qualità del circuito
+06:37 diminuisce, quindi fattore di qualità Q
+06:41 diminuisce. Anche di questa avete
+06:43 proprio la slide specifica che parla di
+06:45 questo argomento.
+06:47 Domanda G. Se l'attenzione di un filtro
+06:49 non è sufficiente, cosa si fa per
+06:51 aumentarla? si collegan due filtri
+06:52 identici in serie. Vi ricorderete chi ha
+06:55 partecipato alla lezione scorsa che uno
+06:57 di voi aveva fatto proprio una domanda
+06:59 di questo tipo. Ma se un filtro non mi
+07:01 basta, ne posso mettere due in serie?
+07:02 Certo che sì e anche tre. E
+07:05 l'attenuazione delle frequenze non
+07:06 volute diventa sempre più alta.
+07:10 Domanda H. In un circuito risonante
+07:12 serie con induttanza, capacità e
+07:14 resistenza alla frequenza di risonanza
+07:18 l'impedenza è uguale a? Ora qui uno si
+07:21 spaventa perché ha una quantità di
+07:22 formule incredibili, però qui c'è da
+07:25 ricordarsi che alla risonanza
+07:29 eh l'impedenza diventa puramente
+07:31 resistiva, cioè alla risonanza
+07:34 eh le capacità la capacità e
+07:36 l'induttanza si annullano l'una con
+07:39 l'altra e resta solo di fatto una
+07:41 resistenza. Quindi in un circuito
+07:43 risonante serie alla risonanza
+07:45 l'impedenza uguale al valore minimo
+07:47 resistivo R.
+07:51 Qui si torna sui filtri. In un filtro
+07:53 passa alto passa alto con frequenza di
+07:55 taglio pari a 500 MHz, quali frequenza o
+07:58 vengono attenate? Beh, se il filtro fa
+08:00 passare l'alto chiaramente attenua il
+08:03 basso e quindi le attenua le frequenze
+08:06 inferiori a 500 m.
+08:08 Domanda L. In un circuito risonante
+08:11 per frequenze maggiori della frequenza
+08:13 di risonanza
+08:15 la reattanza capacitiva è maggiore di
+08:17 quella induttiva oppure la reattanza
+08:19 capacitiva è induttiva siendo
+08:21 annullenda, oppure la reattanza
+08:22 capacitiva è minore di quella induttiva.
+08:24 Questa era probabilmente la domanda più
+08:26 difficile del mucchio, ma avete risposto
+08:29 molto bene. Intanto la due chiaramente
+08:32 sbagliata
+08:34 perché la reattanza capacitiva ed
+08:36 induttiva quando si annullano a vicenda
+08:39 alla frequenza di risonanza. Qui invece
+08:41 il circuito la domanda chiede a
+08:44 frequenze maggiori della risonanza.
+08:46 Allora, eh bisogna ricordarsi anche
+08:50 visivamente quei grafici che avete nelle
+08:52 slide sull'andamento delle eh reattanze
+08:56 della reattanza capacitiva e dellaanza
+08:58 della reattanza induttiva. Siamo alla
+09:00 frequenza di risonanza. L'erattanza
+09:02 hanno un certo valore. Quello che so è
+09:05 che se la frequenza sale, quindi
+09:08 frequenze maggiori, se la frequenza
+09:10 sale, la reattanza capacitiva scenderà e
+09:13 la reattanza induttiva salirà. Perché
+09:16 nella loro natura, no, la reattanza
+09:18 induttiva aumenta all'aumentare della
+09:21 frequenza, viceversa la reattanza
+09:23 capacitiva diminuisce, quindi a
+09:25 frequenze maggiori della risonanza la la
+09:28 reattanza capacitiva è minore di quella
+09:30 induttiva.
+09:32 Domanda M. L'impedenza di un circuito
+09:34 formato da una resistenza con un
+09:35 parallelo in condensatore dipende dalla
+09:37 frequenza? Certo, sì, come si diceva
+09:39 prima, quando c'è un condensatore e un
+09:41 induttore la reattanza dipende sempre
+09:43 dalla frequenza. Domanda N. un
+09:45 passabasso, un filtro passa basso con
+09:47 frequenza di taglio a 20 MHz. Quale
+09:49 delle frequenze attenue? Allora, bisogna
+09:51 guardare bene che tipo di filtro è. È un
+09:53 passa basso, quindi il basso deve
+09:55 passare, quindi vengono attivate le
+09:58 frequenze alte. Allora, rispetto ai 20
+10:01 MHz, cosa c'è di frequenza più alta?
+10:04 Questa qui, i 30 MHz che saranno
+10:06 attenuati. Le altre 30 kHz e 10 MHz
+10:10 rientrano nella banda passante del
+10:12 filtro e non vengono attenuate.
+10:14 Domanda O. Se F1 F2 sono le frequenze
+10:17 che deliminano la banda di un filtro a
+10:20 reiezione di banda, quindi reiezioni di
+10:22 banda sono i filtri a nulla banda,
+10:25 chiamati anche notch.
+10:28 Quale dovrebbe essere il comportamento
+10:30 teorico? Attenuare le frequenze comprese
+10:32 fra F1 e F2. è un po' la la lo stesso
+10:35 concetto della prima domanda che abbiamo
+10:36 visto parlando appunto dei filtri
+10:38 annullabanda. Un all nullabanda annulla
+10:41 le frequenze comprese per le due
+10:42 frequenze di taglio. Domanda P. In un
+10:45 circuito LC alla risonanza che succede?
+10:48 Che la reattanza dell'induttore è uguale
+10:50 a quella del condensatore. L'abbiamo
+10:51 visto prima. Alla risonanza le due
+10:54 reattanze devono essere uguali. Sono
+10:56 uguali perché si devono annullare l'una
+10:58 con l'altra.
+11:00 Infine, un circuito risonante serie fa
+11:03 scorrere la massima corrente e la
+11:05 frequenza di risonanza. Sì, perché come
+11:07 si diceva prima, un circuito di
+11:09 risonante serie serie alla risonanza è
+11:13 un interruttore chiuso chiuso. Invece
+11:16 chi è che fa scorrere la minima corrente
+11:19 della risonanza? il circuito risonante
+11:21 parallelo.
+11:24 E queste sono le risposte alle
+11:27 eh domande. Eh Sandro, a te.
+11:32 Rieccomi, infatti ho sbagliato la e la
+11:36 o, però guarda la A, abbiamo messo la
+11:39 due,
+11:41 però guardando le slide
+11:45 io quella lì che diceva e non riuscivo a
+11:47 capire perché c'ho filtro passa basso,
+11:50 passa alto, passa banda e arresta banda.
+11:54 E quella dicitura nella prima domanda io
+11:56 non ce l'ho trovata, pensato insomma
+11:59 come ho messo, però è sbagliata.
+12:02 Eh,
+12:02 >> e poi sbagliato anche quella che
+12:04 >> Sì, che è lo stesso tipo di filtro.
+12:06 >> Sì,
+12:07 >> sì. E perché sono chiamati annulla
+12:09 banda, elimina banda, noce, eccetera.
+12:12 Eh, capita. Comunque ora l'hai
+12:14 inquadrato l'argomento, no? Capito?
+12:16 Bisogna
+12:17 >> Buono, buono, buono,
+12:21 buono.
+12:23 Allora, sulle domande continuate a
+12:25 andare molto bene. Eh,
+12:28 allora, capisco, come ha detto qualcuno
+12:30 di voi prima, che non sempre è facile
+12:32 trovare il tempo di però aiuta molto a
+12:35 capire, a entrare negli argomenti e a e
+12:38 a memorizzare, no? Infatti avete visto
+12:40 sul gruppo ci siamo scritti, no, sul
+12:42 problema di memorizzare le varie formule
+12:44 eccetera. Se le domande le fate tenendo
+12:46 aperto sul monitor o sullo sullo schermo
+12:49 delle smartphone le slide, non ogni
+12:52 domanda si riferisce a una specifica
+12:54 slide. Al limite ritrovate la slide e lì
+12:56 se avete dei dubbi ci trovate la
+12:57 risposta e questo vi aiuta a chiarirvi
+13:00 le idee con voi stessi e a memorizzarle.
+13:05 Allora, detto questo, rimetto in
+13:07 condivisione lo schermo e ci si tuffa
+13:11 negli argomenti di di stasera. Ed eccoci
+13:13 qua.
+13:17 >> Vai Fabrizio, registra.
+13:21 >> Sì, Fabrizio è già al lavoro, è già al
+13:24 lavoro da un quarto d'ora su questo.
+13:26 Allora, stasera parliamo dei modi di
+13:27 emissione e parliamo dei famosi decibel
+13:30 che abbiamo visto scritto nelle lezioni
+13:32 precedenti, per esempio, in quel filtro,
+13:34 in quel bel filtro passa pasasto della
+13:36 Drake, l'attenuazione di 80 debel.
+13:38 Stasera vediamo cosa vuol dire. Intanto
+13:41 cominciamo con i modi di emissione,
+13:43 dunque,
+13:44 e in generale parliamo del processo di
+13:48 di modulazione. Allora, noi sappiamo che
+13:51 le onde elettromagnetiche, scusate,
+13:58 intreccio, fa il mouse, roba del genere.
+14:01 Allora, noi sappiamo che le onde
+14:02 elettromagnetiche si propagano a grande
+14:04 distanza perché campo elettrico, campo
+14:06 magnetico, i campi si propagano a
+14:08 distanza e le onde elettromagnetiche
+14:12 oltre che propagarsi a distanza possono
+14:14 in qualche modo trasportare delle
+14:16 informazioni.
+14:18 Come si fa a far trasportare
+14:20 un'informazione a a un'onda
+14:22 elettromagnetica? si usa un processo di
+14:26 modulazione.
+14:28 Il processo di modulazione fa le cose
+14:30 che la cosa che leggete qua, cioè
+14:32 aggancia all'onda portante
+14:35 l'informazione che si vuol trasmettere a
+14:37 distanza. Allora, questa informazione
+14:39 che può essere molte volte nei nostri
+14:41 collegamenti è la voce, noi si parla e
+14:44 si vuole che la voce arrivi al nostro
+14:46 corrispondente, no? Sia che sia un
+14:47 radiamatore, sia che sia un volontario
+14:49 della Croce Rossa, roba del genere, si
+14:51 usa la radio, ti vuol f arrivare la
+14:52 voce.
+14:53 però si può fare arrivare anche delle
+14:56 immagini. Ci sono dei modi di emissione
+14:58 anche radiamatoriali che servono in
+15:00 maniera specifica a trasmettere
+15:01 immagini. Magari a volte si trasmettono
+15:04 immagini
+15:05 per bellezza, no? Il mio nominativo, la
+15:07 mia città, eccetera, a volte la
+15:09 trasmissione di un'immagine è legata a
+15:10 un'emergenza, per esempio, no? Quindi io
+15:12 ti mando un'immagine di di una
+15:14 situazione di allagamento perché così la
+15:17 il capomaglia dove c'è il centro
+15:19 operativo eccetera prende contezza delle
+15:22 informazioni oppure si possono
+15:25 trasmettere nei dati. C'è tutto il mondo
+15:27 delle comunicazioni digitali, è
+15:30 possibile trasmettere dati più o meno
+15:32 come si lavora su internet. Allora, per
+15:34 trasmettere questi tre tipi di
+15:36 informazione, in un modo o nell'altro,
+15:38 bisogna fare quello che ho detto prima,
+15:40 cioè bisogna agganciare questa
+15:42 informazione a un'onda portante che,
+15:45 come dice il nome, se le porta da
+15:47 qualche parte perché pensate alla voce
+15:50 delle persone. E allora alla vostra
+15:53 voce, quando voi siete a casa, voi poi
+15:55 parlate, potete anche urlare a voce
+15:57 alta, è molto difficile che la vostra
+15:59 voce si senta più di 100 m di distanza,
+16:01 no? La voce è un'onda di tipo fisico,
+16:04 meccanico e diciamo l'attrito dell'aria,
+16:07 la viscosità dell'aria in poche decine
+16:10 senò al massimo 100 m la voce la
+16:12 l'attenua. Invece agganciando la voce a
+16:15 un'onda elettromagnetica, le
+16:16 elettromagnetiche le onde
+16:17 elettromagnetiche si propagano a cire di
+16:20 migliaia di chilometri di distanza
+16:23 e di conseguenza no? Ecco perché si si
+16:26 usa la radio. Allora, la vediamo un po'
+16:29 più da vicino il discorso della
+16:30 modulazione. L'onda portante nel 99,9%
+16:35 dei casi è una sinusoide,
+16:37 la famosa onda sinusoidale che tante
+16:40 volte nelle lezioni precedenti abbiamo
+16:42 visto, no, che ha quell'andamento su e
+16:44 giù su e giù attorno a un livello,
+16:47 diciamo, zero.
+16:49 Una sinusoide io posso modularla, come
+16:53 si dice, in ampiezza.
+16:55 Quindi con l'informazione che io voglio
+16:57 trasmettere andrò a modificare
+16:59 l'ampiezza della mia sinusoide, oppure
+17:02 posso andare a modificare la frequenza,
+17:04 oppure posso andare a modificare la fase
+17:06 della sinusoide. La modificare la fase
+17:10 vuol dire che nel tempo zero,
+17:13 questo punto qui dove c'è l'incrocio
+17:16 degli assi che abbiamo visto varie volte
+17:18 nelle nelle slide scorse, qui c'è una
+17:21 sinusoide con fase zero, nel senso che
+17:23 il punto zero della sinusoide coincide
+17:25 col punto zero. Una sinusoide che magari
+17:27 fosse partisse qua
+17:31 avrebbe un ritardo di fase di ad esempio
+17:33 40°.
+17:36 Questo l'abbiamo visto, no, quando si
+17:37 parlava un po' di sinusoidi somma,
+17:39 sottrazione, sinusoidi inquadratura,
+17:41 eccetera. Quindi io posso
+17:44 con la modulazione posso modulare
+17:46 l'ampiezza, la frequenza e la fase della
+17:50 della mia sinusoide. Allora, la
+17:52 modulazione di fase non fa parte del
+17:54 programma d'esame, è un tipo di
+17:56 modulazione che viene usata anche molto,
+17:59 in particolare la modulazione di fase è
+18:00 perfetta per trasmettere dati.
+18:04 E nel programma di SAM invece fanno
+18:06 parte la le quelle le modulazioni che si
+18:09 usano nel 90% dei casi, appunto, per
+18:12 trasmettere la voce e sono le
+18:14 modulazioni di ampiezza e la modulazione
+18:16 di frequenza che sono chiamate AM,
+18:20 amplitude modulation ovviamente e FM
+18:23 frequency modulation. E adesso vediamo
+18:25 come funzionano queste due modulazioni.
+18:27 Questo è l'obiettivo principale,
+18:29 diciamo, di di stasera. Allora, la
+18:32 modulazione d'ampiezza come funziona?
+18:34 Intanto, cosa fa il segnale che contiene
+18:37 l'informazione? Immaginiamo la mia voce
+18:40 in questo momento. Questo segnale che
+18:42 contiene l'informazione viene chiamato
+18:44 segnale modulante.
+18:46 Questo segnale modulante produce una
+18:49 variazione dell'ampiezza del segnale a
+18:51 radiofrequenza che lo porterà via, il
+18:54 cosiddetto segnale portante. Quindi il
+18:56 mio trasmettitore genererà un segnale
+19:00 portante. La famosa portante di cui si
+19:02 parla molto spesso in banda cittadina.
+19:05 importanti viene modulata in questo caso
+19:07 in ampiezza. Ogni tipo di modulazione ha
+19:11 una codifica internazionale.
+19:14 Queste codifiche qui che leggete qua, la
+19:16 codifica della modulazione d'ampiezza è
+19:18 A3. Cosa significa queste codifiche? Ve
+19:22 ve lo spiegherà Silvio nelle nelle
+19:24 lezioni specifiche su sulle normative e
+19:28 a volte anche queste sono oggetto a
+19:30 domanda di esame, quindi per questo
+19:32 cominciamo un attimo a vederla. Noi però
+19:34 stasera non guardiamo la parte
+19:36 normativa, ci concentriamo su capire
+19:37 come funziona la modulazione di ampiezza
+19:39 e la modulazione di ampiezza in grafico
+19:41 funziona così. Quindi vedete, questa qui
+19:44 è l'onda portante. Il mio trasmettitore,
+19:47 nel momento in cui io premo il pulsante
+19:49 che è sul microfono, mi genera un'onda
+19:51 portante che vi è mandata all'antenna e
+19:54 quest'onda portante genera si trasforma
+19:57 in un campo elettromagnetico che viene
+19:59 irradiato.
+20:01 un'onda portante così
+20:03 questa ampiezza non diciamo di fatto non
+20:06 trasporta informazioni, no, trasporta
+20:08 solo se stessa, però immaginiamo che io
+20:10 ho il segnale modulante, questa
+20:12 sinusoide che vedete quassù, immaginiamo
+20:14 che il segnale modulante sia la mia
+20:15 voce. Vedete che è una frequenza, è una
+20:17 è una sinusoide più lenta, più lunga,
+20:20 perché i segnali modulanti sono al
+20:22 frequenze audio della voce umana. Sapete
+20:25 che la voce umana più o meno va dai 100
+20:28 Hz ai ai 5.000 Hz, grosso modo. La voce
+20:34 maschile è un po' più grave, la voce
+20:36 femminile è un po' più acuta, però si
+20:37 parla di frequenze di di quest'ordine di
+20:40 grandezza. L'onda portante può avere
+20:42 frequenza di 11 MHz, quindi ovviamente
+20:45 sono hanno una frequenza estremamente
+20:48 più alta dei segnali modulanti, per
+20:50 questo no, la vediamo qua più più
+20:51 stretta, più veloce. Allora, che succede
+20:54 col mio processo di modulazione? che
+20:55 succede? Che il mio segnale modulante,
+20:57 il risultato lo si vede qua sotto, va a
+21:00 variare l'ampiezza dell'onda portante.
+21:02 Vedete che l'onda portante delle volte è
+21:05 alta, delle volte è bassa, poi torna
+21:07 alta e in qualche modo segue l'ampiezza,
+21:12 segue l'andamento del mio della mia voce
+21:15 in questo esempio che sto facendo,
+21:17 ovvero del segnale modulante. Questo
+21:20 viene realizzato dentro il
+21:21 trasmettitore, quindi il trasmettitore
+21:24 genera un'onda portante. Al
+21:26 trasmettitore è collegato un microfono,
+21:29 il microfono riceve la mia voce e nel
+21:31 trasmettitore ci sono una serie di
+21:33 circuiti che realizzano questa funzione
+21:34 che vedete qua, cioè il l'onda portante
+21:37 del trasmettitore diventa più forte o
+21:39 più debole, ovvero più alta o più bassa,
+21:43 seguendo l'andamento della voce di chi
+21:45 sta parlando nel microfono.
+21:50 quanto
+21:52 quanto è modulato il segnale che io
+21:55 trasmetto, perché io la mia onda
+21:57 portante la posso modulare un po' di più
+22:01 o la posso modulare un po' di meno. si
+22:04 definisce per rispondere a questa
+22:06 domanda che vi ho fatto, cioè quanto è
+22:08 modulata la mia portante
+22:11 e si usa un indice di modulazione
+22:15 chiamato a volte anche coefficiente di
+22:17 modulazione che potete leggere qua un
+22:19 indice di modulazione.
+22:22 E questo indice di modulazione, lettera
+22:24 M, come vedete scritto qua, è in
+22:27 percentuale il rapporto fra il valore
+22:32 del segnale modulante e il valore del
+22:34 segnale portante. Quindi VM M è la
+22:37 tensione del segnale modulante.
+22:40 Eh, PvP è il valore della portante.
+22:45 Allora, siccome VM sta al numeratore,
+22:48 quando io non parlo VM è 0, l'indice di
+22:51 modulazione in quel momento è zero.
+22:53 Quando io invece parlo e più forte parlo
+22:55 più aumenta VM e più l'indice di
+22:58 modulazione della mia portante cresce.
+23:00 Vediamo un po' meglio come funziona
+23:02 questa cosa. Vi racconto questa cosa
+23:04 qui, poi mi fermo un attimo e se ci sono
+23:05 domande me le fate. Qui si vede un po'
+23:09 meglio come funziona la modulazione
+23:11 d'ampiezza a diversi indici di
+23:14 modulazione. Diciamo, guardiamo intanto
+23:17 questa parte qua in alto. Cominciamo da
+23:22 questa da questo grafico che vedete qua.
+23:25 Allora, la diciamo la zona che vedete,
+23:29 la cosa che vedete in grigio in questo
+23:31 grafico è l'onda portante. E qui la
+23:34 grigia perché qua dentro immaginiamo che
+23:37 ci siano tantissime delle sinusoidi del
+23:41 del mio segnale. Se sto trasmettendo, ad
+23:43 esempio, in banda cittadina a 27 MHz,
+23:45 qui ogni secondo ho una ho un ciclo
+23:48 della sinusoide del della mia onda
+23:50 portante. Quindi qui è rappresentata
+23:53 grigia semplicemente perché ci sono
+23:54 tantissimi cicli della sinusoide tutti
+23:57 impacchettati uno vicino all'altro e si
+23:58 vede tutto grigio come se si unissero
+24:01 insieme. Quando non si parla nel
+24:03 microfono,
+24:05 quando non si parla nel microfono,
+24:07 tolgo, scusate, tolgo queste annotazioni
+24:12 e così si eh lavoro meglio su quello che
+24:17 vi voglio raccontare ora. Quando non si
+24:19 parla nel microfono, quindi quando non
+24:21 c'è un segnale modulante, l'ampiezza
+24:24 della mia portante è questa, da questo
+24:26 zero a questo zero.
+24:31 Quando io parlo nel microfono, ed ecco
+24:34 qua il mio segnale modulante,
+24:36 questo segnale modulante oscilla, qui
+24:40 c'è uno zero, evidentemente oscilla fra
+24:42 un +5 e un -5, quindi io ho un segnale
+24:44 modulante di un'ampiezza che è
+24:47 sicuramente più bassa dell'antenna della
+24:49 mia sinoso scusami di ho detto antenna
+24:51 dell'ampiezza della mia sinusoide. In
+24:54 effetti il mio segnale modulante è alto
+24:57 così,
+24:59 è alto 1 da +05 a -05. La mia
+25:04 portante è alta, la prendo qui nel
+25:07 valore medio, è alta da qui a qua,
+25:11 quindi in realtà è alta è alta due.
+25:14 Allora, comunque vedete che il segnale
+25:17 modulante va in qualche modo a scavare
+25:20 in certi punti qua, invece a far
+25:23 crescere il valore della mia portante.
+25:26 Importante se non modulassi sarebbe
+25:29 costante su questo valore.
+25:35 Quando io parlo, come si vedeva nel nel
+25:38 nello schema della slide scorsa, quando
+25:40 ho un picco positivo
+25:43 della mia
+25:45 eh del mio segnale modulante, l'ampiezza
+25:48 della portante aumenta. Eccola qua. E
+25:51 invece quando ho un picco negativo
+25:55 del mio segnale modulante l'ampiezza
+25:57 diminuisce ed ecco qua. E quindi l'antz
+26:00 l'ampiezza della portante
+26:01 complessivamente
+26:03 varia in funzione del mio segnale
+26:05 modulante, come abbiamo visto prima, no?
+26:07 Questa è una petizione, l'ho fatta
+26:09 volentieri, no? Perché così entrate in
+26:11 questo concetto. Allora, cosa si vede in
+26:14 questo in questa cosa? Si vede?
+26:18 Ritolgo
+26:19 gli scarabocchi fatti fino a ora perché
+26:22 così si vede che
+26:25 eh si vede chiaramente che io potrei
+26:27 modulare di più perché
+26:31 il mio segnale modulante
+26:34 non arriva a chiudere del tutto questa
+26:38 zona qua, ad esempio.
+26:41 Quindi
+26:43 in questo esempio qui che stiamo
+26:45 commentando ora, l'indici di modulazione
+26:48 è pari a 05, ovvero il 50%. La portante,
+26:51 come vedete qua, è modulata solo
+26:53 parzialmente. Una parte della sua
+26:55 energia non viene usata per trasmettere
+26:56 l'informazione.
+27:00 Invece qua sotto abbiamo un esempio di
+27:04 indici di modulazione pari a 1, ovvero
+27:06 al 100%. La portante è completamente
+27:09 modulata. Vedete che la in questi in
+27:12 queste scale, vedete che l'ampiezza
+27:14 della portante in assenza di segnale
+27:18 modulante è sempre la stessa. Questo
+27:21 valore qui
+27:25 che lo ritroviamo qui da 0 a 0. Però qui
+27:27 il segnale modulante è più alto, è il
+27:29 doppio. Questo segnale modulante qua
+27:32 sopra andava da -05 a +05. Questo
+27:36 segnale modulante qua va da +1 a -1.
+27:38 Quindi che succede? Succede che eh
+27:41 questo questo segnale modulante più
+27:43 forte
+27:45 modula, ovvero modella, ovvero da forma
+27:49 significativamente più diversa la
+27:51 sinusoide. Quando il segnale modulante è
+27:54 al suo valore minimo,
+27:56 addirittura
+27:58 la sinusoide, il la potenza d'uscita dal
+28:01 trasmettitore in questi istanti è è
+28:03 zero. E invece quando
+28:08 il segnale modulante è massimo c'è qua,
+28:11 il segnale di uscita dal trasmettitore è
+28:14 più alto, molto più alto, praticamente
+28:16 il doppio rispetto al valore che c'è in
+28:19 assenza di modulazione. Quindi c'è
+28:21 questa crescita e questa decrescita.
+28:25 Quindi io in questa condizione riesco a
+28:28 usare molto meglio la portante per
+28:30 trasmettere informazioni, cioè la mia
+28:32 voce viene trasmessa in maniera più
+28:34 forte dalla stessa onda portante. Se io
+28:37 un trasmettitore da 100 W e lo modulo al
+28:39 50%
+28:42 eh
+28:44 quello che si sentirà a distanza sarà
+28:46 sicuramente meno comprensibile dello
+28:48 stesso trasmettitore a 100 da 100 W
+28:51 modulato al 100%.
+28:54 Cosa succede se io esagero? Come vedete
+28:57 in questa slide, io in teoria posso
+28:59 usare un indice di modulazione anche più
+29:01 alto, no? Qui è in questo esempio di
+29:03 1,5, il 150. Quindi io ho un segnale
+29:06 modulante più alto del eh della
+29:11 portante. La portante è sempre il solito
+29:15 2.
+29:18 Qui invece ho un segnale modulante alto
+29:20 3 dal +15 a -05. Allora, cosa succede?
+29:24 Succede che quando sono nei picchi
+29:26 negativi del segnale modulante, a un
+29:28 certo punto e
+29:33 diciamo il il trasmettitore
+29:36 chiude la sua potenza in uscita
+29:41 per
+29:44 un periodo di tempo in cui non riesce a
+29:48 seguire l'andamento,
+29:51 il livello negativo del segnale
+29:52 modulare. E lo stesso succede anche sul
+29:55 picco positivo.
+29:57 Quando il mio segnale modulante cresce,
+29:59 il mio trasmettitore aumenta aumenta
+30:02 aumenta la sua potenza d'uscita. Però a
+30:04 un certo punto anche il trasmettitore ha
+30:07 un circuito che ha dei limiti, non può
+30:10 operare al di sopra della potenza per
+30:12 cui è progettato, no, per funzionare e
+30:15 quindi quando arriva a questo livello
+30:18 non riesce a seguire ulteriormente la
+30:21 portante e quindi c'è una una tosatura
+30:24 dei picchi, come si dice in inglese, un
+30:26 clipping. Vedete che in questa parte il
+30:30 la potenza del trasmettitore non varia
+30:33 più. sinusoidalmente seguendo la la
+30:36 modulazione,
+30:37 ma eh la potenza del trasmettitore in
+30:40 uscita si appiattisce come qua. Sul sul
+30:43 minimo succede la stessa cosa, la
+30:45 potenza in uscita del trasmettitore in
+30:48 questi momenti qua si appiattisce a zero
+30:51 perché al di sotto di zero non può non
+30:52 può scendere. Allora, vedete che a
+30:54 differenza delle sinosoidi che avevamo
+30:56 visto nella pagina precedente, che più o
+31:00 meno modulate erano, ma rimanevanoidi
+31:04 questi questi segnali,
+31:07 qui si perde nel segnale modulato la
+31:10 forma d'onda sinusoidale, ovvero come
+31:12 leggete qua, si ha una forte distorsione
+31:16 del segnale di uscita, quindi si perde
+31:19 di comprensibilità in maniera abbastanza
+31:22 forte e inoltre succede anche un'altra,
+31:24 scusate, succede anche un'altra cosa. Si
+31:26 crea un fenomeno che è chiamato gli
+31:28 splatter. Gli splatter. Chi di voi viene
+31:30 dalla banda cittadina probabilmente lo
+31:32 conosce bene questo fenomeno.
+31:35 Eh, lo splatter è che il il tuo segnale
+31:38 è distorto e questa distorsione aumenta
+31:41 la larghezza di banda del tuo segnale e
+31:43 quindi il segnale va a disturbare anche
+31:46 i segnali che sono sui canali adiacenti.
+31:49 Quindi provo a fare uno schema qua.
+31:52 Immaginiamo che io qui sto trasmettendo
+31:55 sul mio canale radio. Finché io uso il
+31:59 mio trasmettitore correttamente con
+32:01 livelli di con indici di modulazione
+32:04 pari a uno, il segnale che io trasmetto
+32:07 comunque sta dentro il mio canale.
+32:10 Immaginiamo che qua sotto ci sia un
+32:12 altro radiatore che sta facendo un altro
+32:14 collegamento e qua sopra canale canale
+32:16 inferiore e canale superiore altri
+32:18 radiamatori che stanno facendo i loro
+32:20 collegamenti.
+32:22 Se io aumento troppo la percentuale di
+32:24 modulazione, la distorsione che vedete
+32:27 in questa forma d'onda, che non è più
+32:30 sinusoidale, porta un allargamento dello
+32:33 spettro del segnale trasmesso che
+32:35 diventa più o meno così e va
+32:37 praticamente a interferire in queste
+32:39 zone con i canali eh circostanti.
+32:44 Quindi le diciamo l'eccesso di
+32:46 modulazione ha due effetti negativi. Il
+32:49 primo effetto negativo è che una parte
+32:52 della potenza del trasmettitore va fuori
+32:54 banda e il nostro corrispondente che sta
+32:57 ascoltando questo canale qui non la
+32:58 potrà mai ricevere e inoltre in questo
+33:01 canale il segnale è comunque distorto,
+33:04 quindi la modulazione diventa diventa
+33:05 peggiore.
+33:08 E questa è, diciamo, il primo discorso
+33:11 che diciamo che volevamo fare sulla
+33:13 modulazione di ampiezza. Quindi la
+33:15 modulazione di ampiezza abbiamo un'onda
+33:18 portante, la moduliamo con una
+33:19 sinusoide. Quanto la moduliamo? Il
+33:21 quanto la moduliamo ce lo dice l'indice
+33:23 di modulazione che può andare da 0 a 1
+33:26 correttamente.
+33:27 È bene che la modulazione sia alta
+33:29 vicino all'unità in modo che così io uso
+33:32 perfettamente tutta la potenza del
+33:34 trasmettitore. Se supero l'uno il mio
+33:37 trasmettitore distorce e eh aumenta la
+33:42 larghezza di banda del canale su cui si
+33:44 sta trasmettendo.
+33:46 Tutto chiaro per ora? Tolgo la
+33:48 condivisione e se ci sono domande Allora
+33:50 Lorenzo a te.
+33:52 Ciao Paolo, buonasera. Eh sì, eh
+33:56 erroneamente forse mi ero fatto
+33:58 l'impressione che quando ho iniziato a
+34:00 parlare che eh la modulazione
+34:02 essenzialmente in ampiezza eh si
+34:05 limitasse, tra virgolette al sottrarre,
+34:08 diciamo così, sul valore del segnale di
+34:11 di modulazione. Eh perdonami, ricordami
+34:14 qual è il segnale di base, il
+34:17 >> modulante. Modulante
+34:19 >> modulante, scusami.
+34:22 Invece mi sembra di capire che in certi
+34:24 casi può addirittura amplific aumentare
+34:26 l'ampiezza, quindi amplificare Sì, sì,
+34:28 sì. Non in certi casi, sempre, sempre,
+34:31 sempre. Cioè quando modulo un'ampiezza è
+34:33 una portante in certi momenti
+34:35 immaginiamo che tu hai trasmettitori da
+34:37 5 W, tipico tipico vecchio trasmettitore
+34:40 da banda cittadina, per esempio, quando
+34:42 tu moduli quei 5 W ti diventano in certi
+34:44 momenti tre, in certi momenti 7
+34:46 istantaneamente. In effetti, approfitto
+34:48 di queste cose che hai che hai chiesto,
+34:50 che è una buona domanda. Però, aspetta,
+34:52 devo rimettere in condivisione lo lo
+34:55 schermo, altrimenti non vedete quello
+34:58 che vi voglio dire. In effetti,
+35:03 eh, in questo
+35:06 in questo schema in realtà c'è c'è un
+35:09 errore di fondo, nel senso che qui
+35:13 eh cioè mentre gli schemi un po' più
+35:16 complessi che vi ho fatto vedere nelle
+35:19 slide successive che poi vengono dal
+35:20 nerio neri, il famoso nerio neri di cui
+35:22 si è parlato più volte, no?
+35:24 l'onda portante
+35:27 in quegli schemi successivi a volte sale
+35:30 rispetto a questo suoore medio,
+35:33 chiamiamolo così, e a volte scende.
+35:35 Invece questa questa di sotto è
+35:37 sbagliata, nel senso che eh nel senso
+35:41 che l'altezza di picco qui è uguale
+35:45 all'altezza di picco qua. Cioè, vedendo
+35:47 questo schema in effetti si può avere
+35:48 l'impressione che la modulazione di
+35:50 ampiezza lavori sempre a ridurre il
+35:52 livello della portante. Invece non è
+35:54 così. Invece quando si modola in
+35:57 ampiezza ci sono dei momenti in cui il
+35:58 trasmettitore eh eroga più potenza e
+36:02 altri meno potenza rispetto al valore
+36:04 che c'è quando non si sta parlando.
+36:08 Ok.
+36:09 >> Ok. Grazie mille
+36:11 >> a te.
+36:12 Eh, adesso Giovanni.
+36:15 >> Sì. Eh, una a due domande veloce. Quindi
+36:18 lo splatter si può verificare anche
+36:20 nelle bande laterali del
+36:22 >> Certo che sì, certo che sì.
+36:24 >> Ok, perfetto. E volevo chiedere questo.
+36:27 Riguardo all'indice di modulazione, è
+36:30 sempre valido il ragionamento che nelle
+36:32 domande troveremo le le troveremo sulla
+36:36 ehm
+36:37 diciamo sul sul concetto dell'indice di
+36:39 modulazione senza effettuare i calcoli o
+36:42 no? Cioè, non è che mi posso trovare una
+36:44 una non è detto
+36:46 >> difficile difficile.
+36:49 Eh, allora queste secondo me normalmente
+36:51 sono domande dove il discorso è
+36:53 qualitativo della serie. Cosa succede se
+36:55 l'indice di modulazione di un segnale
+36:57 modulato in M supera 1?
+36:59 >> Ok. Ok,
+37:00 >> capito? Mh, sì,
+37:02 >> però va detto e ne parleremo più avanti,
+37:04 che mh che eh l'ultima parola sulle
+37:09 domande le fa la commissione d'esame,
+37:12 cioè quando poi poi vi racconteremo
+37:14 tutte ste vicende, no? quando poi a
+37:15 Firenze verrà o o in Liguria, no, per i
+37:18 colleghi della Liguria o in Sicilia, per
+37:21 il collega della Sicilia, quando poi si
+37:22 inserirà la commissione, le domande le
+37:25 sceglierà la commissione. Mh, ne
+37:28 parleremo
+37:30 >> benissimo, grazie Paolo.
+37:31 >> Altrimenti, altrimenti il discorso ci
+37:32 porterebbe un po' fuori. Allora, non ci
+37:34 sono altre domande, riprendo la le slide
+37:38 e si continua.
+37:41 Sono di nuovo in condivisione. Scusate.
+37:45 Questo l'abbiamo visto. Questo l'abbiamo
+37:47 visto. Allora,
+37:50 scusate. Vediamo adesso cosa succede dal
+37:53 punto di vista frequenza quando si
+37:56 lavora in modulazione d'ampiezza.
+37:57 Allora, nel dominio della frequenza,
+37:59 come leggete qua,
+38:02 la modulazione di ampiezza produce due
+38:05 bande laterali simmetriche alla portante
+38:07 che portano la stessa informazione. Oh,
+38:09 boh, allora che vuol dire tutto ciò?
+38:11 Allora, guardate la risposta in questo
+38:13 grafico. Allora, partiamo da qua. Questo
+38:17 questa questa linea che vedete qui è la
+38:20 nostra portante. D'accordo? Sto
+38:22 trasmettendo a una frequenza FC.
+38:26 Quando io sto zitto, quando non parlo,
+38:29 sono in modulazione d'ampiezza, le bande
+38:32 laterali inferiori e superiori non
+38:34 esistono. Cioè tutto il resto di questo
+38:36 schema che vedete in questa slide è
+38:38 zero. Quando st quando sto zitto il
+38:41 biotrasmettitore emette solo la portante
+38:45 che è una riga alla frequenza a cui sto
+38:48 trasmettendo. Immaginiamo 27.005
+38:51 MHz. A un certo punto io parlo
+38:55 e questa che vedete qua è in qualche
+38:58 modo la distribuzione in frequenza del
+39:01 mio segnale portante. Lo spettro della
+39:03 mia del mio segnale modulante, scusate,
+39:05 lo spettro della mia voce.
+39:07 Allora, eh io sono un uomo, quindi la
+39:09 mia voce più o meno sarà centrata fra i
+39:11 500 e i 1500 Hz con qualche cosa lì
+39:14 attorno. In generale, quando si
+39:16 trasmette in modulazione di ampiezza,
+39:19 siccome eh
+39:22 siccome si cerca di usare al meglio che
+39:25 si può lo spettro radio, si fa in modo
+39:28 di eh contingentare i segnali che
+39:32 vengono trasmetti perché non occupino
+39:35 una banda di frequenza troppo elevata.
+39:37 Allora, quando si lavora in modulazione
+39:39 di ampiezza e questo lo si sentiva bene
+39:42 quando c'era quando c'erano le vecchie
+39:44 onde medie, no? con Rai 1, 2, Rai 3, il
+39:47 segnale modulante
+39:49 viene comunque limitato
+39:52 con dei filtri, con dei filtri
+39:53 passabanda,
+39:56 eh, per avere una frequenza massima di
+39:58 circa 3 kHz. Diciamo che un segnale,
+40:02 diciamo che la frequenza tipica dei
+40:04 segnali voce che vengono trasmessi dalle
+40:08 radi in modulazione d'ampiezza può
+40:09 andare, diciamo, da 50 a 3000 Hz.
+40:14 E questo è un dato di base, cioè in
+40:15 tutte le radio ci sono dei filtri, anche
+40:18 se noi non li vediamo, che in qualche
+40:20 modo fanno sì che se anche la tua voce
+40:22 esuberante te la te la riportano in
+40:24 qualche modo nella larghezza di banda
+40:27 ammessa dagli standard internazionali,
+40:30 perché questi sono standard
+40:31 internazionali, no, che il mercato delle
+40:34 delle radio si è si è dato. Allora,
+40:37 quando la mia voce, quindi questo
+40:40 segnale modulante, va a generare, va a
+40:42 modulare la portante come si è visto
+40:45 prima, cosa succede? Succede che
+40:48 guardando le cose in termini di
+40:50 frequenze, qui sull'asse
+40:53 orizzontale, sull'asse delle ascise,
+40:55 stiamo guardando la frequenza.
+40:57 Attorno alla frequenza della mia
+40:59 portante nascono due mande laterali che
+41:03 sono praticamente identiche come forme a
+41:05 quella del segnale modulante,
+41:07 semplicemente speculare l'una rispetto
+41:09 all'altra. Vedete che queste due bande
+41:11 laterali hanno la stessa forma, diciamo,
+41:15 hanno lo stessa distribuzione spettrale,
+41:17 si direbbe, del mio segnale modulante,
+41:20 però sono simmetriche, nel senso che se
+41:23 si considera un pezzettino, se si
+41:25 considera questo punto, diciamo, del
+41:27 segnale modulante della banda laterale
+41:29 superiore che è pari pari rispetto al
+41:32 segnale modulante, lo trovo qua. Della
+41:34 banda laterale inferiore lo trovo qua.
+41:37 è come se si guardassero allo specchio,
+41:39 no? sono simmetriche rispetto alla
+41:41 portante.
+41:44 Però a parte il dove va a finire il mio
+41:47 il mio canale audio, succede che se io
+41:50 qui ho nel mio segnale modulante una
+41:53 larghezza di banda B che, come vi dicevo
+41:55 è di circa 3000 Hz,
+41:58 qui io uso un canale largo due volte B,
+42:02 nel senso che ho questa banda laterale
+42:04 superiore che mi va a un + B, frequenza
+42:07 della portante + B. e questa banda
+42:10 laterale inferiore che mi va a - b.
+42:13 Quindi il mio segnale in modulazione
+42:16 d'ampiezza diventa largo due volte
+42:19 l'ampiezza di banda, diciamo, del
+42:21 segnale modulante. Comunque in generale,
+42:24 appunto, col mio segnale modulante si
+42:26 genera una banda laterale inferiore, una
+42:28 banda laterale superiore attorno alla
+42:30 portante. Queste bande laterali
+42:32 eh vengono universalmente chiamate in
+42:34 inglese LSB e USB, quindi banda laterale
+42:39 inferiore, low side band e upper side
+42:41 band la banda laterale superiore.
+42:46 Che è successo? Quindi su è successo che
+42:49 la larghezza di banda di un tipico
+42:52 segnale in modulo d'azione d'ampiezza è
+42:54 circa 6-7 kHz.
+42:57 Questa è una cosa che non riguarda solo
+42:58 i radioamatori, che riguarda tutto il
+43:00 mondo delle trasmissioni in modulazioni
+43:02 di ampiezza, del broadcasting, eccetera.
+43:05 Ed è un dato che sostanzialmente è
+43:07 assurdo pensare di modificare. Per
+43:10 esempio, io potrei volere trasmettere
+43:11 l'alta fedeltà col mio trasmettitore M,
+43:14 quindi magari cerco di togliere il
+43:15 filtro passapanda che mi limita il
+43:18 segnale modulante. Il problema è che dal
+43:20 punto di vista commerciale tutti i
+43:22 ricevitori che possiamo comprare
+43:25 sono conformi allo standard che dice che
+43:29 la larghezza di banda di un segnal è
+43:31 questa qua e quindi nel ricevitore ci
+43:32 sono dei filtri conformati per ricevere
+43:35 questa larghezza di banda. trasmissioni
+43:37 più alte non verrebbero di fatto eh
+43:39 ascoltate ascoltate meglio. Quindi la
+43:42 larghezza di banda di un segnale
+43:44 moduloazione di ampiezza è due volte
+43:47 la larghezza di banda del segnale
+43:49 modulante e quindi è di circa 6-7 kHz.
+43:53 Perché questo? Perché il segnale
+43:55 modulante, sia che una persona abbia la
+43:57 voce bassa o la voce acuta, viene
+43:59 comunque tagliato a circa 3000 Hz, a
+44:02 circa 3 kHz.
+44:08 E vediamo adesso la modulazione
+44:10 d'ampiezza cosa significa in termini di
+44:12 potenza. Allora, intanto eh quando si
+44:16 trasmette in M c'è una potenza dell'onda
+44:19 portante. Ne abbiamo parlato più volte
+44:21 prima, no? Il mio trasmettitore in AM,
+44:23 che sia da 100 W, quando io schiaccio il
+44:26 pulsante per la trasmissione mi
+44:28 trasmette una potenza di 100 W, mi eroga
+44:31 una potenza di 100 W alla mia linea di
+44:33 alimentazione e poi alla mia antenna. E
+44:36 questa è la potenza dell'onda portante.
+44:38 L'onda portante può avere nel
+44:40 trasmettitore 100 W di potenza.
+44:44 Quando io modulo, quindi prendo il
+44:46 microfono e parlo, mi si generano le
+44:48 bande laterali. le bande laterali che
+44:51 hanno comunque anche loro una certa
+44:53 ampiezza e quindi hanno una certa
+44:56 potenza. Immaginiamo appunto che questi
+44:58 sono i 100 W della potenza della mia
+45:01 portante. Si generano due bande laterali
+45:05 che hanno anche loro una certa potenza.
+45:08 Allora, in una trasmissione in
+45:10 modulazione di ampiezza con un indice di
+45:14 modulazione pari al 100%,
+45:17 la portante assorbe i 2/3 della potenza
+45:21 del trasmettitore. La banda laterale
+45:23 superiore e la banda laterale inferiore
+45:26 assorbono ciascuna un sesto della
+45:30 potenza del trasmettitore. Se la potenza
+45:32 del trasmettitore è pari a 1 in questo
+45:34 schema che vedete qua, se la mia potenza
+45:37 del trasmettitore è di 100 W, 100 W di
+45:40 portante, quando la mia portante viene
+45:43 modulata al 100%, avrò una banda
+45:46 laterale superiore che ha una potenza
+45:49 pari a 25 W.
+45:53 E una banda laterale inferiore, anche
+45:55 lei di pari potenza, 25 W.
+46:00 Quindi quando sono nel piano della
+46:02 modulazione il mio trasmettitore impegna
+46:04 nei picchi quando, diciamo, sta
+46:07 trasmettendo le parti superiori della
+46:09 sinusoide impegna 150 W di potenza.
+46:13 Viceversa, quando io sono nella parte
+46:15 negativa, la potenza e erogata cada.
+46:19 Allora, questo
+46:22 schema ci porta alla conclusione che la
+46:25 modulazione di ampiezza è un modo di
+46:26 trasmissione poco efficiente. Perché
+46:29 efficiente? Perché innanzitutto anche
+46:32 quando si anche quando non si parla il
+46:35 trasmettitore usa questi 100 W, consuma
+46:38 questi 100 W e quindi come si dice oggi
+46:42 è molto energivolo. Mh. E poi quando si
+46:46 quando si parla e quindi quando si vuole
+46:49 trasmettere la nostra voce, la nostra
+46:50 informazione, di fatto si generano due
+46:53 bande laterali che sono doppioni l'una
+46:56 l'una dell'altra, come abbiamo visto
+46:58 prima, no? In questa slide. Avevamo
+47:00 visto che le due bande laterali sono
+47:03 praticamente identiche, sono
+47:06 semplicemente speculari rispetto alle
+47:07 portate, ma sono identiche. Quindi
+47:09 l'informazione della mia voce viene
+47:11 trasmessa due volte, due volte.
+47:15 e trasmettere due volte la stessa cosa è
+47:17 uno spreco e per questi motivi è stata
+47:21 inventata una modalità di trasmissione
+47:23 più eh efficiente ed è la modulazione a
+47:27 banda laterale unica, la cosiddetta SSB
+47:30 che sta per single side band. È anche
+47:33 lei di fatto una modulazione di ampiezza
+47:37 perché ci sono vari tipi di modulazione
+47:39 di ampiezza. Eh, quella che quella vista
+47:42 in precedenza fino a ora è la
+47:44 modulazione d'ampiezza classica,
+47:45 diciamo, no? Portante. Due bande
+47:47 laterali. Se io prendo un segnale in
+47:50 modulazione di ampiezza, costruito
+47:52 esattamente come lo abbiamo visto
+47:53 insieme qua e come prima mossa
+48:01 gli elimino la portante.
+48:04 Questa
+48:08 ottengo sempre un segnale
+48:11 e ottengo sempre un'onda
+48:12 elettromagnetica che può trasmettersi a
+48:15 distanza e mantiene tutte le proprietà
+48:17 che abbiamo visto prima. Semplicemente
+48:19 in quest'onda, invece di essere fatta di
+48:21 tre righe come prima viene fatta di due
+48:25 righe. si sopprime la potenza della
+48:27 portante e si può sopprimere una delle
+48:30 bande laterali e quindi ad esempio si
+48:32 trasmette solo con la banda laterale
+48:34 superiore. Quindi, praticamente che si
+48:35 sta facendo?
+48:37 Si, si parte da una modulazione di
+48:39 ampiezza canonica, si elimina la
+48:41 portante. Eliminando la portante si
+48:43 ottiene un segnale che è chiamato DSB.
+48:46 Come vedete qua DSB sta per doppia banda
+48:49 laterale, double side band. Posso
+48:51 trasmettere le due bande laterali. si
+48:54 può fare. Ci sono alcuni trasmettitori
+48:56 che fanno questa cosa e oltretutto a
+48:59 volte sono trasmettitori autocostruiti
+49:01 perché è molto economico realizzare un
+49:03 trasmettitore di SB, però poi io posso
+49:06 anche eliminare, volendo fare le cose
+49:08 serie, una delle due bande laterali
+49:11 senza perdere informazione perché viene
+49:13 trasmesso comunque il segnale modulante,
+49:16 il segnale che io voglio, per esempio,
+49:18 la banderia laterale superiore e sia
+49:21 così la la trasmissione SSB che è
+49:23 codificata G3. In questo modo c'è il
+49:26 grande vantaggio che tutta la potenza
+49:28 del trasmettitore trasmette
+49:30 informazioni, quindi è tutta convogliata
+49:33 sulla banda laterale superiore.
+49:35 Il
+49:38 qui vedete in un altro in un'altra forma
+49:41 grafica quello che succede, no? Qui c'è
+49:43 l'onda portante e l'ho soppressa. Qui
+49:46 c'è la banda laterale inferiore e l'ho
+49:49 soppressa perché in questo momento mi
+49:51 interessa trasmettere la USB. Però
+49:53 questo discorso che potrei fare vale in
+49:55 maniera assolutamente simmetrica per la
+49:57 banda laterale inferiore.
+49:59 Questo è il segnale. Questa è la banda
+50:02 che io trasmetto.
+50:06 E siccome io trasmetto una sola banda
+50:09 laterale del trasmettitore, la larghezza
+50:11 di banda del mio segnale SSB non è più
+50:15 dei 6 kHz del segnale AM completo, ma è
+50:19 solamente di 2,5 kHz. Quindi il mio
+50:23 segnale SSB usa metà
+50:26 del canale del di un analogo segnale
+50:30 modulazione di ampiezza classica
+50:33 e quindi riassumendo l'SSB ha
+50:36 sicuramente una serie indubbia di pregi.
+50:39 Intanto il primo è che
+50:42 quando non sto modulando, quindi in
+50:44 tutte le pause del parlato, non vi è
+50:47 potenza trasmessa, quindi il
+50:49 trasmettitore non consuma, il contatore
+50:51 non gira e gli i gli stadi finali del
+50:55 trasmettitore non scaldono, non non in
+50:57 quel momento non trasmette potenza. Poi
+51:00 tutta la potenza del trasmettitore è
+51:02 impiegata per inviare l'informazione,
+51:04 quindi non si spreca potenza per inviare
+51:06 la portante e per inviare una delle due
+51:08 bande laterali. Inoltre ho un uso molto
+51:12 migliore della banda. Il canale è circa
+51:14 metà di quello della modulazione di
+51:16 ampiezza. per chi di voi viene dalla
+51:17 banda cittadina, soprattutto che per chi
+51:20 di voi magari militava mh diciamo ai
+51:24 chiamiamolo così ai vecchi tempi,
+51:26 ricorderete i classici baracchini da 23
+51:28 canali. A un certo punto, nella stessa
+51:31 banda che in AM ospitava 23 canali,
+51:35 quando si è passati all SSB 23 canali
+51:37 sono diventati 46 pari pari, quindi la
+51:40 stessa Panda poteva ospitare il doppio
+51:43 di collegamenti
+51:45 perché in SSB si usa metà del canale di
+51:50 un segnale modulazione d'ampiezza.
+51:52 Inoltre c'è un altro vantaggio e questo
+51:55 ne parleremo bene quando parleremo dei
+51:57 ricevitori. Un ricevitore è tanto più
+52:00 sensibile
+52:02 quanto più è stretta la sua banda
+52:05 passante.
+52:07 E quindi, poiché a questo punto io uso
+52:09 un ricevitore per SSB che è una
+52:11 larghezza di banda di 2,5 kHz, questo
+52:14 ricevitore riceve la metà dei disturbi e
+52:18 qui ed è il doppio più sensibile di un
+52:19 ricevitore di modulazione di ampiezza.
+52:21 Quindi questo è modo di trasmissione
+52:23 molto molto più adatto ai collegamenti a
+52:25 lunga distanza, quelli che in gergo
+52:27 radiematoriale vengono chiamati DX DX
+52:31 lettera delta, lettera X-ray.
+52:36 Ci sono anche degli svantaggi che sono
+52:38 questi due. Intanto è che un
+52:40 trasmettitore in SSB è sicuramente più
+52:43 complicato
+52:45 rispetto a un trasmettitore in
+52:46 modulazione di ampiezza,
+52:48 ma possiamo sopravvivere. Ne parleremo
+52:50 poi di come sono fatti appunto
+52:52 ricevitori e trasmettitori in
+52:53 modulazione di ampiezze e in SSB. E
+52:56 inoltre l'SSB richiede una sintonia
+52:59 particolarmente accurata, mentre in un
+53:01 segnale modulazione di ampiezza se con
+53:04 la sintonia lo centri in maniera anche
+53:05 un po' grossolana lo ascolti comunque.
+53:07 Un segnale in SSB se la sintonia non è
+53:09 precisa lo ascolti molto molto male. Di
+53:12 questo chi non ha pratica radio ve ne
+53:14 potrete accorgere quando quando avrete
+53:16 occasione di fare un po' di pratica in
+53:18 qualche in qualche sezione.
+53:20 E questo è tutto per quanto riguarda la
+53:23 banda laterale, quindi la modulazione,
+53:26 abbiamo visto la modulazione di ampiezza
+53:27 classica
+53:30 che eh ad oggi abbastanza m abbastanza
+53:36 poco usata, diciamo che è usata
+53:39 solamente su per trasmissioni
+53:43 broadcasting, diciamo, e quindi per
+53:45 trasmissioni,
+53:47 come si direbbe, a radiodiffusione.
+53:50 trasmissioni che comunque esistono
+53:52 sempre anche oggi sulle varie bande
+53:54 delle onde corte dedicate, ma tutte le
+53:56 comunicazioni voce professionali
+53:59 e che non sono passate a una
+54:02 trasmissione codificata e quindi e se
+54:05 non sono diventate trasmissioni dati,
+54:06 sostanzialmente sono fatte in banda
+54:08 laterale in SSB.
+54:13 E questo è eh diciamo è tutto quello che
+54:17 vi volevo dire che è tutto quello che
+54:18 può capitare, diciamo, come domande di
+54:20 esame per quanto riguarda la modulazione
+54:22 di ampiezza. A voi per domande, intanto,
+54:25 Dario e poi Ettore.
+54:29 >> Sì, grazie. Una domanda. Ehm,
+54:32 hai detto e c'è nel nella nota, per la
+54:35 minore larghezza di banda il ricevitore
+54:38 è più sensibile. È per quello che
+54:39 ascoltando, specialmente in onde corte,
+54:42 quando hai bisogno di pulire un po' il
+54:43 segnale, a volte vai a stringere
+54:45 leggermente la l'ampiezza della banda e
+54:48 effettivamente si va a a ripulire un po'
+54:51 il segnale. Si taglia via un po' di QRM.
+54:54 Sì, esattamente. Sì, esattamente per
+54:56 quello. Però però attenzione attenzione,
+54:59 sento molto eco.
+55:02 Pensatemi un attimo il microfono perché
+55:05 senò non Perché senò non
+55:09 >> Ok, bene, perfetto. E allora ci sono due
+55:13 motivi. Il primo è esattamente quello
+55:15 che hai detto, se se stringo il filtro
+55:17 del ricevitore eh mi evito i disturbi in
+55:21 banda radio. Però c'è un altro motivo,
+55:23 il ogni ricevitore, immaginiamo di
+55:26 immaginiamo immaginiamo di avere un
+55:28 ricevitore che vogliamo usare in un
+55:30 ambiente molto pulito dal punto di vista
+55:33 del rumore
+55:34 e il ricevitore stesso,
+55:37 gli stadi del ricevitore stesso generano
+55:39 rumore
+55:41 e la quantità del rumore generato dal
+55:44 ricevitore
+55:46 stesso è proporzionale alla alla
+55:48 larghezza di banda del ricevitore.
+55:51 Quindi, a prescindere dall'opera di
+55:53 filtraggio del rumore in banda, il
+55:55 ricevitore stesso è intrinsecamente più
+55:58 sensibile, d'accordo? E quindi ci sono
+56:01 due vantaggi a poter stringere, diciamo,
+56:05 il il canale che il ricevitore usa.
+56:10 Ne parleremo per bene poi nella lezione
+56:12 sui ricevitori.
+56:17 >> Ok, grazie.
+56:18 >> Adesso adesso Ettore a te.
+56:21 Sì, eh, scusa, forse non sono riuscito a
+56:24 capire,
+56:26 cioè, come si come si fa a eliminare eh
+56:31 la portante
+56:33 e una banda laterale? Cioè, perché io mi
+56:37 mi era sembrato di capire che queste
+56:40 bande laterali derivassero dalla
+56:43 portante.
+56:45 >> Sì, è così. Quindi come faccio a Cioè,
+56:48 allora io siccome diciamo da un da
+56:52 profano io dico se tolgo la portante
+56:54 tolgo anche quelle bande.
+56:58 >> Eh sì,
+57:01 >> cioè non ho capito come funziona.
+57:03 >> No, sì, sì, in realtà no. Allora, la la
+57:05 prima cosa che gi la prima cosa che hai
+57:07 detto è giustissima. Allora, io ho una
+57:10 portante e quando parlo, quando modulo
+57:13 generano generano due bande laterali.
+57:16 Questi tre segnali, una volta che li ho
+57:18 generati, sono indipendenti l'uno
+57:20 dall'altro
+57:22 e quindi io, banalmente con dei filtri
+57:26 posso togliere uno qualsiasi di questi
+57:28 tre o anche due lasciando intatto
+57:30 l'altro o gli altri, perché nel momento
+57:33 in cui li ho generati, nel momento in
+57:35 cui in quella slide, no, li vediamo in
+57:38 porzioni diverse dello spettro, vuol
+57:40 dire che sono segnali indipendenti.
+57:43 Indipendenti. e potrei elaborare in
+57:45 qualche modo anche creativo ciascuno di
+57:49 quei tre segnali a modo mio,
+57:51 indipendentemente dagli altri. È come se
+57:53 fosse un segnale, fammi usare una
+57:55 parola, composito, no? Cioè composto da
+57:58 più di una componente e io su ogni
+58:00 componente di quel segnale con la
+58:02 circuiteria opportuna posso agire. Come
+58:05 si fa? Ve lo farò vedere quando
+58:06 parleremo dei trasmettitori.
+58:08 >> Ah, ok, grazie. No, io non avevo capito.
+58:11 Quindi, comunque viene generato, solo
+58:13 che poi si interviene dopo. Ecco. Non
+58:16 >> esatto. E non potevi capire perché non
+58:18 l'ho detto in realtà, capito? Quindi non
+58:20 è non è che non hai capito, sono io che
+58:22 non l'ho detto.
+58:24 >> E
+58:26 la generazione del segnale non può che
+58:28 essere fatta così, quindi nascono
+58:29 entrambe le bande laterali, poi ci sono
+58:31 dei filtri molto stretti, ad esempio,
+58:33 che annullano la banda laterale che non
+58:35 si vuole trasmettere. Ok, grazie.
+58:39 >> Ok, a te adesso Dario,
+58:44 >> chiedo scusa nuovamente. Negli schemi
+58:46 che hai mostrato prima, quelli con le le
+58:50 due sinuoidi speculari, sono le due
+58:53 bande ai lati della portante.
+58:57 >> Sì, sì,
+58:57 >> sì, sì, sì. Allora,
+58:59 >> e sembrano un segnale doppio, diciamo.
+59:03 >> Sì. Allora, mh, in questi in questi
+59:06 schemi la forma la forma di quello che
+59:10 sta sopra sotto la portante è
+59:13 rappresentato da dove li scoopiazzati in
+59:16 in quella cosa che sembra una sinusoide
+59:21 e e in realtà non è non è detto che sia
+59:24 così. Scusa, eh, torno qua.
+59:28 Cioè, effettivamente
+59:31 un attimo che metto
+59:35 Sono in condivisione. Sì, sono in
+59:37 condivisione.
+59:41 Cioè, effettivamente
+59:42 eh è stato dato,
+59:46 scusa, è stato dato a questo in questa
+59:50 slide è stata usata per la banda per la
+59:55 diciamo la forma della banda del segnale
+59:59 modulante. È stato usato questo questo
+60:02 simbolo che sembra una sinusoide, però
+60:04 in realtà non è una sinusoide. Il
+60:07 segnale modulante potrebbe essere fatto
+60:09 così anche
+60:11 e in tal caso qui avrei una banda
+60:13 laterale fatta così,
+60:16 più o meno con un con una gobbosità e
+60:19 un'altra banda laterale fatte fatta
+60:21 fatta così. Cioè queste sono
+60:23 visualizzazioni puramente qualitativa
+60:26 >> qualitativa. D'accordo? D'accordo.
+60:29 >> Ma io parlavo in realtà del della uno o
+60:32 due pagine prima dove c'erano proprio le
+60:35 due sinuoidi. Ecco queste
+60:38 >> che che rispetto al al segnale, diciamo,
+60:40 allo zero della radiofrequenza, poi ci
+60:43 sono uno zero superiore, uno zero
+60:45 inferiore e due sinuidi speculari. Sono
+60:49 le due modulazioni superiore e inferiore
+60:52 o non ho capito niente io?
+60:55 >> Eh
+60:56 >> eh no. No, però però attento
+60:59 >> perché tu stai ascoltando in in
+61:01 altoparlante, probabilmente. Ecco,
+61:03 bravo, ora hai spento, sennò c'è un
+61:05 rientro fortissimo. Allora, sono
+61:07 visualizzazioni diverse, nel senso che
+61:10 queste sono visualizzazioni nel dominio
+61:12 del tempo, quindi qua si vede nel tempo
+61:16 l'andamento delle sinusoidi e queste
+61:18 sono sinusoidi vere se il segnale
+61:20 modulante è una sinusoide.
+61:23 Sinusoide, d'accordo? Sinusoide. E qui
+61:26 noi vediamo nel tempo, se io dico ho,
+61:29 quindi se io cerco di mettere la note
+61:31 continua, la mia voce tirerà fuori quasi
+61:34 una sinusoide che nel tempo questo
+61:38 questi sono grafici che noi vediamo
+61:40 tutti nel tempo. Nel tempo il mio
+61:43 segnale diventerà di ampiezza maggiore o
+61:46 di ampiezza minore.
+61:49 Qui invece stiamo guardando il segnale.
+61:53 Stiamo guardando cosa succede nel
+61:55 dominio della frequenza, non del tempo.
+61:58 Quindi la mia portante
+62:01 nel dominio della frequenza,
+62:03 scusatemi, nel dominio del tempo, la
+62:06 vediamo così,
+62:08 nel dominio del tempo, qui c'è l'asse
+62:11 delle ascisse e qui c'è il tempo che
+62:13 passa e quindi noi vediamo l'onda
+62:16 portante come un un pacchettone continuo
+62:21 di onde di sinusoidi uno dietro l'altra,
+62:24 come vediamo qua, no? quest questa banda
+62:26 nera e che diciamo queste sono tutte le
+62:31 sinusoidi, come dicevo prima, del mio
+62:33 segnale portante.
+62:38 Qui invece vediamo le cose nel dominio
+62:42 della frequenza, quindi quello che prima
+62:44 era il mio terreno di sinusoidi nel
+62:47 dominio della frequenza, quando non c'è
+62:49 modulazione diventa semplicemente questa
+62:51 riga
+62:54 che è la frequenza della mia onda
+62:55 portante. Quindi la sinusoide
+62:59 questa questa vista nel dominio del
+63:03 tempo, vista in funzione del tempo che
+63:06 passa. Se la guardo in termini di sua
+63:09 distribuzione nelle frequenze diventa
+63:14 semplicemente una riga.
+63:19 Quando la sinusoide qua del dominio del
+63:23 tempo
+63:24 viene modulata
+63:28 nel tempo,
+63:31 cosa succede in frequenza? Nascono
+63:34 attorno alla sinusoide le due bande
+63:35 laterali. Quindi sono due modalità di di
+63:40 visualizzazione del fenomeno molto
+63:42 diverse, no? Il dominio del tempo, cosa
+63:44 succede, no, nel col tempo che passa e
+63:46 il dominio della frequenza, cioè cosa
+63:48 succede nel mio canale radio. Quindi nel
+63:51 mio canale radio a volte c'è
+63:53 semplicemente una riga, la portante, a
+63:55 volte attorno alla riga ci sono le bande
+63:57 laterali.
+63:59 Capito? Ti è Ti è chiaro ora?
+64:04 >> Sì, grazie. Grazie mille. A te
+64:10 Lorenzo, a te.
+64:13 >> Sì, grazie. Giusto una domanda per
+64:15 conferma per conferma. Quindi
+64:17 nell'ultima visualizzazione di cui anche
+64:19 Dario aveva un attimo il dubbio, abbiamo
+64:22 due, diciamo così, anche se non è il
+64:24 dominio del tempo, abbiamo due fenomi
+64:26 sovrapposti, quindi un attimo il
+64:28 silenzio della trasmissione e poi la il
+64:32 segnale audio che vogliamo trasmettere.
+64:34 Per questo vediamo sia il picco che il
+64:36 segnale modulato.
+64:38 >> Eh sì. A quale a quale grafico ti
+64:41 riferisci?
+64:43 Giusto l'ultimo che stavamo vedendo ora,
+64:45 quindi dove c'è l'ampiezza,
+64:47 chiamiamolosi un alla frequenza di
+64:49 modulazione e poi
+64:52 >> Sì, sì, sì.
+64:54 >> Band e l'aperide band. Certo.
+64:56 >> Ok.
+64:58 Ecco che arriva. Toc.
+65:03 Lui d'accordo? Parli parli di questo?
+65:06 >> Sì.
+65:07 >> Sì.
+65:09 E quindi, scusa, ripetimi la domanda.
+65:12 In questo in questo grafico qua, quando
+65:14 vediamo ampiezza, diciamo così, massima
+65:17 al
+65:18 a FC, essenzialmente in quel momento lì
+65:21 è silenzio, invece eh nel quando abbiamo
+65:24 le bande laterali stiamo parlando,
+65:26 quindi il fatto che le vediamo tutte e
+65:28 due anche nel dominio della frequenza è
+65:30 perché stiamo virtualmente sovrapponendo
+65:33 le i due istanti, tra virgolette, quindi
+65:36 silenzio e non silenzio. Sì. Allora,
+65:40 questa questa qui di appiezza ha la riga
+65:43 di quando stiamo zitti eh c'è sempre in
+65:48 questa visualizzazione, cioè se lo
+65:50 vediamo in termini di frequenza la
+65:52 portante viene sempre trasmessa. Quindi
+65:54 questo c'è sempre la famosa riga
+65:58 della della portante. Questo e questo
+66:02 quando stiamo zitti non ci sono.
+66:06 Quindi
+66:06 >> se dovessimo Oh, scusami.
+66:09 >> Vai, vai.
+66:10 >> No, no, finisci pure, Paolo, per
+66:12 pazienza.
+66:12 >> No, no, dici pure. Dici, diciam. Se
+66:14 dovessimo
+66:15 >> eh se dovessimo rappresentare eh la la
+66:19 parte dopo, quindi c scusami già saltato
+66:21 un attimo all'istante dopo, eh dove
+66:24 essenzialmente andiamo in single side
+66:26 band, eh nel dominio del tempo, però noi
+66:29 come vedremmo modificata l'onda?
+66:34 Eh, nel dominio del tempo vedremmo
+66:39 Bella domanda, aspetta. Eh, nel dominio
+66:42 del tempo vedremmo comunque una
+66:44 sinusoide,
+66:47 aspetta, eh, vedremo comunque una
+66:51 sinusoide
+66:53 di
+66:55 ehm la cui forma
+66:59 eh varia in maniera totalmente diversa
+67:02 rispetto a quella che abbiamo visto qua.
+67:05 Diciamo che il trasmettitore alla fine
+67:08 emette sempre una portante, una
+67:11 sinusoide e però questa sinusoide,
+67:14 diciamo, eh modulata modulata in SSB
+67:19 cambia il tipo di forma, cioè non c'è
+67:21 più una portante e e quindi la sinusoide
+67:25 non ha più questo bell'andamento, la
+67:28 sinusoide modulata non ha più questo
+67:30 andamento bello panciuto che vediamo qua
+67:32 o ancora meglio, no, che vedevamo qua,
+67:35 diciamo. ha a ha un ha un andamento del
+67:37 tempo, il segnale resta di fatto
+67:39 sinusoidale, ma l'andamento del tempo è
+67:42 diverso e praticamente non non è
+67:46 rappresentabile perché diciamo il
+67:49 momento perché nel tempo nel tempo e
+67:53 mentre la sinusoide di base era una
+67:56 certezza,
+67:58 cioè che che è sempre trasmessa da un
+68:01 trasmettitore in modulazione di ampiezza
+68:04 E quando sono in SSB
+68:07 la l'ampiezza della sinot in uscita
+68:10 dipende totalmente dalla mia voce, non
+68:12 c'è più l'onda portante, dipende
+68:15 e quindi qui avremmo un diciamo un un
+68:20 segnale che potrebbe avere, appunto,
+68:23 variazioni di ampiezza assolutamente
+68:25 assolutamente
+68:27 diverse, diciamo, rispetto a diciamo a
+68:29 una sinusofide regolare come sia nella
+68:31 modulazione di ampiezza.
+68:34 Ok, quindi cambia cambia totalmente,
+68:38 diciamo, la la forma del segnale del
+68:42 segnale modulato.
+68:44 Se io in questo caso, vediamo se se non
+68:47 sparo una cavolata egregia di serata, eh
+68:50 se in questo caso dovesse avere silenzio
+68:53 tombale, diciamo così, eh visto che
+68:55 comunque non sto nemmeno impiegando
+68:58 eh potenza per trasmissione e altro,
+69:00 avrei una linea totalmente piatta anche
+69:02 nel caso della modulazione, cioè anche
+69:05 in questo esempio qua.
+69:06 >> Sì, sì, sì, sì. Diciamo che il silenzio
+69:09 tombale porta un segnale di uscita
+69:11 fatto.
+69:14 Lo disegno qua sotto che è meno
+69:15 scarabocchiato. Porto il segnale
+69:16 d'uscita che è fatto così. Zero.
+69:19 >> Sì.
+69:21 Ok. Grazie mille.
+69:23 >> Niente a te.
+69:26 Allora, non se non ci sono altre domande
+69:28 proseguo.
+69:31 Ti ha alzato la mano Pierluigi? A te.
+69:34 Eh no, ho un dubbio. Io questa cosa un
+69:38 po' la spiegai tanto anni fa, ma senti,
+69:40 se te elimini la il portante da la banda
+69:44 inferiore, no, va solamente col
+69:46 superiore, però deve comunque essere una
+69:50 un insieme sia del mondolante che della
+69:53 portante. Come fa a andare nella nello
+69:56 spazio l'onda elettromagnetica frequenza
+69:58 audio, cioè quindi in un certo modo deve
+70:02 deve appoggiarsi alla importarsi
+70:07 in effetti e e in effetti si appoggia in
+70:09 effetti si appoggia nel senso che si
+70:13 appoggia nel senso che la presenza della
+70:16 portante
+70:18 ha il compito importantissimo di
+70:20 prendere il mio segnale che è in banda
+70:22 audio.
+70:24 e di trasformarlo in un segnale che eh
+70:29 fammi dire ha la stessa distribuzione in
+70:31 frequenza. Ora lo dico un po'
+70:33 impropriamente, ma fammi dire ha la
+70:35 stessa forma, però lo trasforma in un
+70:37 segnale radio.
+70:39 Questo è quello che fa. Quindi questo e
+70:43 questo sono radicalmente diversi perché
+70:46 questa è una frequenza audio e questa
+70:48 invece è una frequenza radio, è una
+70:50 frequenza alta.
+70:52 e che si può trasmettere generando i
+70:55 famosi campi elettromagnetici di
+70:57 elettromagnetici elettromagnetici di cui
+70:59 si parlava prima, cioè queste due cose
+71:01 qua, quindi il segnale modulante
+71:05 e diciamo la banda laterale superiore
+71:08 hanno la stessa forma in termini di
+71:10 spettro, ma sono oggetti radicalmente
+71:12 diversi. Radicalmente diversi. La
+71:15 portante, il processo di modulazione, la
+71:18 presenza della portante fa sì che il
+71:21 segnale modulante
+71:24 generi le due bande laterali.
+71:28 Una volta che questa generazione delle
+71:30 bande laterali è stata fatta, la banda
+71:33 laterale può vivere per sé. Cioè, se
+71:36 passo questo segnale, diciamo, modulato,
+71:41 banda laterale inferiore, banda laterale
+71:42 superiore portante, come dicevo prima,
+71:45 ognuno di questi tre pezzi è la sua vita
+71:46 autonoma. Se passo questo segnale in,
+71:50 diciamo, un filtro, fatemelo disegnare
+71:53 così, come se fosse un imbuto, perché
+71:55 qui non ho grosse e sopprimo la banda
+71:57 laterale inferiore e la portante. La
+72:00 banda laterale superiore è comunque un
+72:02 segnale radio che può essere trasmesso.
+72:06 La banda laterale superiore mi passa da
+72:08 questo filtro, l'inferiore e la portante
+72:10 no. e la banda laterale superiore poi
+72:12 viene amplificata, mandata all'antenna e
+72:14 viene trasmessa perché non è più un
+72:16 segnale audio, è un segnale radio a
+72:19 questo punto. Ok.
+72:21 >> Sì, sì. L'uma,
+72:23 lo sviluppo dell'ondazione ospedale in
+72:25 uscita e poi viene recuperata da
+72:28 ricevitore. Sì, sì, sì.
+72:29 >> Esattissimo, esattissimo.
+72:32 >> Buono. Proseguo.
+72:35 Proseguo e parliamo di modulazione di
+72:38 frequenza. Quindi, pam. Allora, ora
+72:41 cos'è la modulazione? L'abbiam visto,
+72:43 l'abbiamo capito bene con la modulazione
+72:44 di ampiezza. Cos'è la modulazione di
+72:46 frequenza? Abbiamo anche qui una
+72:49 portante.
+72:51 Eccolo qua. E ovviamente questa volta il
+72:54 il mio segnale modulante produce una
+72:57 variazione della frequenza
+72:59 della mia portante. La medizione FM è
+73:02 codificata F3A. E in pratica succede una
+73:05 cosa di questo tipo. Questo è lo stesso
+73:06 schema pari pari a quello che abbiamo
+73:08 visto prima, no? C'è l'onda portante,
+73:11 c'è il nostro segnale modulante. Questa
+73:13 volta che succede? Il segnale modulante
+73:16 va a abbassare e alzare la frequenza
+73:20 dell'onda portante. Questo succede e si
+73:23 vede un po' un po' amplificato qua
+73:25 sotto. Vedete che ci sono dei momenti in
+73:27 cui eh le sinusoidi dell'onda della
+73:32 della frequenza modulata sono più fitte.
+73:35 Sono più fitte. Questo vuol dire che la
+73:37 frequenza è più alta e degli altri
+73:39 momenti in cui è più rada, questo vuol
+73:41 dire che la frequenza è più è più bassa
+73:43 perché le variazioni della mia sinusoide
+73:46 sono più lenti. Quindi se io se la mia
+73:48 onda portante è è a 100 per esempio il
+73:51 mio segnale modulante mi sposta questa
+73:55 questa onda portante di 100, a volte una
+73:57 frequenza di 99 e a volte una frequenza
+74:00 di 101. Quindi ho modificato
+74:04 la frequenza del mio trasmettitore,
+74:06 quindi ho una modulazione di frequenza.
+74:11 Anche qui per capire quanto si modula,
+74:14 quanto si sta modulando, c'è un
+74:16 parametro. Di là c'era l'indice di
+74:18 modulazione M. Qui invece c'è un
+74:21 parametro che è chiamato la deviazione,
+74:23 la deviazione di frequenza che indica lo
+74:25 scostamento istantaneo
+74:28 della frequenza della portante modulata
+74:33 rispetto alla portante priva di
+74:36 modulazione.
+74:38 Vediamo meglio come funziona l'indice di
+74:41 modulazione. Allora, l'indice di
+74:43 modulazione lo vedete qua.
+74:45 Paolo,
+74:46 >> scusa Gismondo e non ho più la
+74:48 condivisione dello schermo. Non so gli
+74:50 altri se
+74:53 >> No, noi la vediamo. Sì,
+74:54 >> io mi vedo in condivisione
+74:56 >> e io no.
+74:58 >> Anch'io che succede? La
+74:59 >> vedo prova a aggiornare la pagina, dai
+75:01 un F5 o qualcosa del genere.
+75:04 >> Ah, ok.
+75:07 >> E non ho trovato niente. Vai. Grazie. Va
+75:10 bene,
+75:11 >> continua intanto. Cerca di armeggia un
+75:14 po', cerca di risolvere. Allora, cos'è
+75:16 l'indice di modulazione? Dicevo,
+75:18 l'indice di modulazione è quanto la
+75:20 portante viene deviata
+75:23 diviso la frequenza, la massima
+75:27 frequenza modulante. Vi faccio vi faccio
+75:29 un esempio per capire. Ad esempio,
+75:32 allora, tutti voi avete in macchina, no,
+75:34 o a casa i tipici ricevitori FM. si
+75:37 ascolta l'FM quando siamo in macchina
+75:38 prima di passare al DAB, naturalmente.
+75:41 Allora, la la modulazione di frequenza,
+75:44 come sapete, parlo di quella
+75:46 commerciale, è stata fatta per
+75:48 trasmettere segnali ad alta fedeltà,
+75:50 cioè mentre la musica in AMa molto male
+75:54 a causa di quel vincolo che si diceva
+75:55 prima, no? che comunque il segnale in
+75:58 modulazione di ampiezza viene tagliato a
+76:00 una frequenza massima di 3000-3500 Hz e
+76:04 parlando di musica significa perdere un
+76:07 sacco di spettro, no? Tutte tutte le
+76:09 frequenze acute. Invece la modulazione
+76:11 di frequenza è stata pensata anche per
+76:14 evitare questo tipo di problema. Allora,
+76:17 la massima frequenza modulante
+76:19 di un trasmettitore in modulazione di
+76:21 frequenza commerciale è di 15 kHz. 15
+76:26 kHz è un numero che ricorre molto spesso
+76:29 anche nell'alta fedeltà e la larghezza
+76:32 di un buon canale audio che permette di
+76:35 ascoltare la musica, diciamo, bene, la
+76:38 musica fatta bene, mi verrebbe da dire,
+76:40 15 kHz, quindi si ascoltano molto bene
+76:42 anche gli acuti, transitori, tutto
+76:43 quanto, eccetera.
+76:46 A questi 15 kHz di massima frequenza del
+76:50 mio segnale modulante. Quindi questi 15
+76:52 kg sono della mia musica. Immaginiamo
+76:54 che ho una bella orchestra che sta
+76:56 suonando, un bel complesso rock, non
+76:58 frequenze alte, 15 kHz.
+77:01 Con questa con questo segnale modulante
+77:03 io vado a deviare la portante. Io posso
+77:06 decidere di deviare la portante, per
+77:07 esempio, fino a avere un più o meno
+77:11 75 kHz.
+77:16 75 / 15 fa 5. E questo è il, guarda
+77:23 caso, l'indice di modulazione standard
+77:26 della trasmissione FM broadcast, quindi
+77:30 la la banda commerciale, diciamo, 88108.
+77:34 Si usa un canale molto largo, 75 kHz.
+77:37 Prima quando si parlava di di AM, no, o
+77:40 di SSB, c'erano canali molto più
+77:42 stretti, però qui si sta parlando di FM
+77:44 commerciale, si vuol trasmettere musica
+77:46 a relativamente alta alta fedeltà. Eh,
+77:50 anche i radiamatori e i servizi usano
+77:53 l'FM, però chiaramente parlando di
+77:55 servizi, radiematore, protezione civile,
+77:58 misericordie e tutto il resto e
+78:00 chiaramente non c'è bisogno di una
+78:02 trasmissione ad alta fedeltà, per cui
+78:06 elimino le penne.
+78:11 Per cui quando si parla di di di servizi
+78:15 radio, normalmente la frequenza
+78:18 modulante è di nuovo una voce che parla,
+78:21 quindi normalmente abbiamo i soliti 3
+78:24 kHz e si cerca di deviare la portante
+78:27 non tantissimo, più o meno tre, più o
+78:30 meno qu più o meno cinque. In passato si
+78:33 c'erano degli indici di modulazione
+78:35 superiori, ma poi diversi anni fa e
+78:39 per avere per poter ospitare più canali
+78:41 sulla stessa frequenza c'è stato un
+78:43 cambio di standard. Oggi più o meno, lo
+78:46 standard dell'indice di modulazione
+78:48 usato nei trasmettitori radiamatoriali e
+78:50 anche in quelli commerciali è di circa
+78:53 uno, il che significa che per una
+78:55 frequenza modulante di 3 kHz la
+78:57 deviazione della portante anche lei è
+79:00 attorno ai 3 kHz o poco di più.
+79:03 Quindi trasmissione in FM,
+79:07 l'ampiezza della portante mi resta
+79:09 costante.
+79:10 Varia la frequenza della portante in
+79:13 funzione del mio segnale modulante. La
+79:15 frequenza di 100, come dicevo prima, può
+79:17 diventare in certi momenti 99 e in certi
+79:19 momenti 101 in funzione della della mia
+79:22 voce, in funzione del segnale modulante.
+79:25 L'indice di modulazione, nel caso di una
+79:28 modulazione di frequenza è calcolato
+79:30 così. Quindi la deviazione massima
+79:32 portante diviso la massima frequenza
+79:34 modulante.
+79:36 E ci sono degli standard eh abbastanza
+79:40 rigorosi che nel caso appunto del
+79:41 broadcasting è 5, nel caso del della
+79:44 trasmissione radioamatoriale è D1.
+79:48 E questo e è praticamente tutto quello
+79:51 che c'è da sapere sulla modulazione di
+79:53 frequenza. Anche qui c'è una potenza
+79:55 trasmessa, quindi nel momento in cui io
+79:58 pigio il pulsante sulla mia radio, sul
+80:00 mio microfono, il mio trasmettitore mi
+80:02 emette una portante,
+80:04 la potenza trasmessa è quella di targa
+80:06 del trasmettitore ed è costante, cioè
+80:09 no, a differenza di quello che succede
+80:10 nella modulazione di ampiezza, se il mio
+80:12 trasmettitore è da 5 W in FM, lui mi
+80:15 genera sempre una potenza costante di 5
+80:18 W. il la modulazione non va a
+80:20 modificarmi questo questi 5 W emessi dal
+80:23 mio trasmettitore.
+80:27 L'FM ha dei vantaggi e degli svantagi.
+80:30 Il grandissimo vantaggio dell' FM, non
+80:32 parlo di quella commerciale
+80:33 broadcasting, parlo di quella che usiamo
+80:35 noi come servizi, no? quindi appunto
+80:37 radiematori e e tutto il mondo dei
+80:39 servizi in FM è che l'FM è un modo di
+80:44 trasmissione veramente poco sensibile ai
+80:47 disturbi. Quindi il ricevitore è
+80:50 veramente poco sensibile ai disturbi
+80:52 perché i i la stragrande maggioranza dei
+80:55 disturbi che sono captati da un
+80:56 ricevitore sono disturbi modulati in
+80:59 ampiezza. Sono disturbi che, ad esempio,
+81:02 a seconda delle bande su cui si ascolta,
+81:04 su cui si lavora, possono essere
+81:06 generati da dai fulmini. Nel, diciamo,
+81:09 in ogni momento e siamo sulla Terra, sul
+81:13 pianeta Terra, mi pare che ci siano
+81:15 circa 100.000 fulmini contemporaneamente
+81:19 e questi creano un crepitio che è
+81:22 ascoltabile in qualche modo in tutto in
+81:24 tutto il mondo a secondo di certe bande.
+81:27 È un crepitio modulato in ampiezza.
+81:30 e anche tutti i disturbi generati da,
+81:33 diciamo, tecnologie umane, quindi le
+81:35 automobili che passano, gli alimentatori
+81:38 delle nostre radio, tutti gli
+81:39 elettrodomestici vari che abbiamo in
+81:41 casa, sono disturbi che mettono i loro
+81:43 crepiti in modulazione di ampiezza. I
+81:46 ricevitori modulazione di frequenza, poi
+81:48 vedremo come fanno, ma hanno dei
+81:50 circuiti di limitazione che riescono di
+81:53 fatto a togliere totalmente i disturbi
+81:56 modulati in ampiezza e quindi sono
+81:58 ricevitori dove l'ascolto è molto molto
+82:01 silenzioso e molto anche riposante, mi
+82:03 verrebbe da dire, perché tu ascolti la
+82:05 voce del tuo corrispondente, al massimo
+82:07 senti un po' di fruscio, ma non senti
+82:09 crepiti, non senti disturbi, no? è un
+82:11 ascolto molto riposante
+82:14 e questo lo rende molto adatto anche ai
+82:17 non specialisti, cioè mette mentre è uno
+82:20 dei giochi del radiamatore cercare di di
+82:22 ascoltare il segnalino debole che magari
+82:24 viene trasmesso dell'Australia, uno
+82:27 specialista deve trasmettere delle cose
+82:28 da, ad esempio, da un'ambulanza a a,
+82:31 diciamo, a un centro comunale
+82:34 e e queste sono il più delle volte non
+82:37 professionisti della radio, sono gente,
+82:40 sono persone che ci mettono molto a
+82:41 buona volontà, ma è bene fargli
+82:43 ascoltare dei segnali puliti, altrimenti
+82:45 porterebbero facilmente la
+82:47 comprensibilità. L'altro grande
+82:49 vantaggio che ha l'FM è che eh
+82:53 l'efficienza energetica dei
+82:54 trasmettitori è molto alta perché eh si
+82:58 userà, come vedremo, gli amplificatori
+83:00 finali dei trasmettitori in una classe
+83:03 di funzionamento che che permette di
+83:06 ottenere dei rendimenti del 70-80%
+83:10 rispetto a rendimenti del 50-60% dei
+83:13 trasmettitori in SSB, ad esempio. Un
+83:16 altro grande vantaggio è che non
+83:18 richiede una sintonia particolarmente
+83:20 accurata, anzi ci sono dei ricevitori
+83:22 che sono in grado di inseguire le
+83:24 variazioni del segnale della portante in
+83:26 FM.
+83:28 Quindi, diciamo, dal punto di vista di
+83:30 un uso facile della radio, l'FM è è il
+83:33 modo perfetto, cioè c'è poco disturb, ci
+83:35 sono pochi disturbi, non c'è bisogno di
+83:37 sintonia accurata e è facilissimo da
+83:40 usare.
+83:41 Lo svantaggio, l'unico vero svantaggio
+83:44 del canale FM è che occupa un canale più
+83:46 ampio di un canale in SSB. Però,
+83:48 insomma, l'FM come sapete o comunque poi
+83:52 ne parleremo nel corso, normalmente
+83:53 viene usata a frequenze alte. a
+83:55 frequenze alte abbiamo bande molto
+83:56 ampie, per cui l'FM ci sta molto
+83:59 tranquillamente.
+84:01 E questo è tutto per la parte dei eh dei
+84:05 modi di trasmissione. Quindi abbiamo
+84:07 visto la modulazione d'ampiezza
+84:09 classica, abbiamo visto l'SB e abbiamo
+84:11 visto l'FM che è un tipo di modulazione
+84:14 molto molto semplice. C'è qualche
+84:16 domanda prima di passare al prossimo
+84:19 argomento di stasera?
+84:24 Ok. Proseguo.
+84:27 Vai Giancarlo.
+84:31 >> Sì. E ciao Paolo. Buonasera a tutti. No,
+84:34 ti volevo semplicemente chiedere sulla
+84:37 sull FM tutto quel rumore, quel fruscio,
+84:42 quel quel rumore di fondo fisso che si
+84:46 sente quando non esiste ovviamente una
+84:48 trasmissione, no? i classici ricevitori
+84:51 88-108
+84:53 quando non c'è una stazione trasmittente
+84:56 e che nei ovviamente nei nostri
+84:59 ricrasmettitori possiamo eliminare con
+85:01 lo squelch. A cosa è dovuto? Grazie.
+85:06 >> È dovuto al tipo di funzionamento del
+85:09 ricevitore e del
+85:12 decodificatore FM, fatemelo chiamare
+85:15 così.
+85:16 Eh, allora ci sono delle cause molto
+85:19 precise. Consentimi di parlartene di
+85:22 quando parleremo dei ricevitori
+85:26 perché ci vuole un pochino di tempo.
+85:28 Bisogna considerare un po' il circuito
+85:30 del ricevitore nella sua completezza.
+85:33 Eh, ne parliamo, d'accordo? Non ora, per
+85:36 favore.
+85:36 >> Eh,
+85:39 bene, grazie.
+85:41 E
+85:41 >> i ricevitori FM sono fatti così. In
+85:42 effetti, un ricevitore FM che non riceve
+85:45 che non ascolta segnali se non ha il
+85:48 famoso squelch produce un fruscio molto
+85:52 più alto di un ricevitore in SSB e ci
+85:55 sono dei motivi per questo, ne
+85:56 parleremo. Ok,
+86:01 >> bene. Grazie.
+86:02 >> Niente, a te. Comunque me lo ricordo
+86:05 questa cosa, stai tranquillo e
+86:06 ricordatene anche tu. ne parleremo, farò
+86:08 qualche lezione.
+86:10 Allora, rimetto il il monitor in
+86:13 condivisione
+86:15 e arriviamo
+86:17 all'ultimo argomento di stasera, i
+86:19 famosi decibel. Allora, i decibel sono
+86:22 un argomento che in che da un punto di
+86:26 vista teorico è molto difficile da
+86:28 capire, dal punto di vista pratico è
+86:30 veramente molto facile da usare e i
+86:34 decibel vengono usati universalmente nel
+86:38 nel campo radio e nel campo elettronico
+86:41 per esprimere i guadagni e le
+86:43 attenuazioni, anche se sembra un'unità
+86:46 di misura un po' un po' strana. Quando
+86:49 andrete a comprare un'antenna, il
+86:51 costruttore vi dirà questa antenna
+86:52 guadagna 3 decibel, guadagna 5 dB oppure
+86:56 perde un decibel. Quando comprerete un
+86:58 capo coassiale, il costruttore, se vi
+87:01 interesserà, potrete guardare, il
+87:03 costruttore vi dirà 10 m di questo capo
+87:05 quassiale a questa frequenza perdono 0,5
+87:08 dB.
+87:10 E questa perversione dell'uso dei
+87:13 decibel, ripeto, non è solo dei
+87:14 radiematori, è di tutto il mondo del
+87:17 dell'elettronica e delle
+87:18 telecomunicazioni.
+87:20 Molti strumenti di misura hanno le scale
+87:21 tarate in decibel, eccetera eccetera
+87:23 eccetera. Quindi è un argomento che,
+87:26 diciamo, evidentemente bisogna conoscere
+87:28 per chi ha i suoi vantaggi, il grande
+87:30 vantaggio del decibel è che semplifica
+87:33 enormemente i conti perché i decibel
+87:36 riescono per motivi magici che ora vi
+87:39 accenno ma che non approfondiamo più di
+87:41 tanto, i decibel hanno il grande
+87:43 vantaggio di trasformare le somme,
+87:46 scusate, di trasformare le
+87:48 moltiplicazioni e le divisioni
+87:51 che sono abbastanza difficili da fare.
+87:53 fare se i numeri sono complicati, le
+87:55 trasformano in somme e sottrazioni.
+87:58 Quindi magari per me è può essere molto
+88:01 difficile calcolare a mente eh quanto fa
+88:05 1350
+88:07 molplicato 250.
+88:10 è un numero che se non ho calcolatrice o
+88:12 se non ho molta pratica mentale non sono
+88:15 in grado di calcolarmi.
+88:17 Ma se mi dico eh cosa ho detto? 1350 e e
+88:22 850 No, ma ma se mi dico eh
+88:28 32 + 25
+88:32 sono in grado di farlo, no? 32 + 25 fa
+88:35 57, se non ho sbagliato, a fare i conti.
+88:39 Eh,
+88:41 i i due esempi che vi ho fatto sono
+88:44 esattamente lo stesso numero. Uno
+88:48 sc un numero scritto come siamo abituati
+88:51 a scriverlo normalmente, 1250. L'altro
+88:54 ho usato il numero tradotto in decibel.
+88:57 Per fare la moltiplicazione mi è bastato
+88:59 fare una somma. Allora, vediamo, vediamo
+89:01 come funziona e soprattutto capiamo come
+89:04 usarlo perché poi le domande sui decibel
+89:08 sono tutte basate su due concetti, due
+89:11 che adesso vi dico e che è facilissimo,
+89:14 diciamo, comprendere. Allora, intanto un
+89:16 po' di storia. Il decibel è un'unetà di
+89:18 misura logaritmica. i logaritmi che sono
+89:21 stati inventati nel 1600 circa da un
+89:23 certo un piier, un nepero, un matematico
+89:26 svizzero. Allora al a quell'epoca
+89:28 chiaramente non avevano calcolatrici,
+89:30 non avevano calcolatori, nulla, nulla. i
+89:32 conti si facevano a mano, i conti li
+89:34 facevano anche questi signori e quando
+89:36 dovevi fare moltiplicazioni e divisioni
+89:38 grandi era,
+89:41 diciamo, uno, scoprì che conoscendo le
+89:44 regole matematiche dell'elevamento a
+89:46 potenza eccetera eccetera, ha scoperto
+89:50 un modo per semplificare enormemente
+89:53 questi questi conti usando
+89:56 eh facendo le operazioni non con i
+89:58 numeri, ma con i logaritmi dei vari
+90:00 numeri. Allora, vediamo nella pratica
+90:03 come funziona questa cosa, perché,
+90:05 ripeto, la teoria richiede un po' di
+90:07 matematica che anch'io mi ricordo
+90:09 vagamente, son passati tanti anni, ma la
+90:11 pratica è molto facile da esprimere.
+90:14 Allora, vediamo un po' come come si
+90:17 lavora con i decibel in un caso di
+90:19 questo tipo. Immaginiamo di avere un
+90:20 amplificatore, per esempio, io ho una
+90:22 radio da da 5 W, vogliono mettere un
+90:24 amplificatore che mi dia una potenza
+90:26 d'uscita più elevata all'antenna. Quindi
+90:29 io so io conosco la potenza di ingresso
+90:32 dell'amplificatore e la potenza di
+90:35 uscita dell'amplificatore stesso. M
+90:39 io posso misurare il guadagno di questo
+90:41 amplificatore. Il guadagno lo posso
+90:43 misurare in volte. Per esempio, questo
+90:45 amplificatore mi mi aumenta di 20 volte
+90:47 la potenza del mio segnale in ingresso,
+90:50 ma lo posso questa amplificazione
+90:53 la posso misurare in decibel e la
+90:56 formula che si usa è questa. Il guadagno
+90:58 espresso in decibel. Questa formula ve
+91:00 la vedere ora per ma non è da usare, non
+91:03 è ve la fo vedere solo per curiosità,
+91:05 per versione matematica. Il guadagno
+91:07 dell'amplificatore espresso in decibile
+91:09 è 10 volte moltiplicato
+91:12 il logaritmo in base 10 della potenza di
+91:14 uscita di rispetto alla potenza di
+91:16 ingresso. Allora, che vuol dire questa
+91:17 cosa? Vuol dire che se si fanno i conti,
+91:21 vediamo qui un amplificatore con con dei
+91:23 numeri. Questo amplificatore ha una
+91:24 potenza di ingresso di 200 mW, ha una
+91:27 potenza di uscita di 400 mW, quindi il
+91:31 doppio di 200. Questo amplificatore, se
+91:35 si fanno tutti i conti con la formula
+91:38 che si è visto prima, ha un guadagno di
+91:40 + 3 decibel.
+91:44 Il primo mattoncino che noi dobbiamo
+91:46 conoscere è questo qua.
+91:48 Un'amplificazione di + 3 dB vuol dire un
+91:52 raddoppio della potenza, quindi 200 mW
+91:55 diventano 400. Se fossero 600 mW
+91:59 diventerebbero 1200.
+92:02 Un amplificatore di + 3 dB di + 3dB
+92:08 ha una potenza d'uscita doppia di quella
+92:11 in ingresso.
+92:16 Poi mettiamo qualche altro mattoncino
+92:20 nel nostro gioco. Questa volta parliamo
+92:23 di una di un attenuazione.
+92:26 Qui abbiamo un attenuatore che quando
+92:29 riceve un segnale di ingresso di 100 mW
+92:32 produce un segnale di uscita di 10 mW,
+92:37 quindi di fatto è un rapporto 10 a 1.
+92:40 Un'attenuazione ovviamente esce meno di
+92:43 quanto entra, esce meno 10 volte. Questa
+92:46 attenuazione di 10 volte espressa in
+92:49 decibel equivale a -10 dB. -10 dB.
+92:53 Intanto il segno davanti al numero di
+92:56 decibel ci fa capire se si sta parlando
+92:59 di attenuazioni o di amplificazioni o di
+93:02 guadagni. Nell'esempio precedente il
+93:06 numero qua era positivo 3dB, quindi
+93:09 quando si lavora con i decibel i
+93:11 guadagni sono sempre positivi. Io posso
+93:13 avere amplificatori che guadagnano 3, 6
+93:15 10 di B. Sono numeri positivi. Posso
+93:18 avere attenuatori che attenuano 3 6 10
+93:21 20 dB. Scusate, ricomincio. Attendano -3
+93:25 -6 -10 dB sono numeri negativi. Quindi
+93:29 quando si lavora coi decibel i numeri
+93:32 positivi sono i guadagni, i numeri
+93:33 negativi sono le attenuazioni.
+93:38 Posso mettere degli amplificatori in
+93:40 cascata.
+93:42 Per esempio, ho un amplificatore che
+93:43 guadagna il primo amplificatore guadagna
+93:45 10 debel, il secondo amplificatore ne
+93:49 guadagna 20.
+93:54 Quando devo calcolare in decibel il
+93:57 guadagno di una catena di
+93:58 amplificazione,
+94:00 devo moltiplicare i guadagni degli
+94:02 amplificatori come se i guadagni come se
+94:05 lavorassi in volte in volte. Poi vi
+94:08 faccio un esempio, ma semplicemente il
+94:11 guadagno della catena di attenuazione in
+94:13 decibel è pari alla somma del guadagno
+94:15 degli amplificatori. Quindi questa
+94:18 catena che stiamo vedendo in questo
+94:19 esempio, un amplificatore da 10 dB e un
+94:22 altro da 20, il guadagno complessivo è
+94:24 di 30 dB. Se questa cosa l'avessi fatta
+94:29 usando non il guadagno degli
+94:30 amplificatori in decibel, ma usando il
+94:34 guadagno di amplificazione in quante
+94:36 volte l'amplificatore amplifica, di
+94:37 quanto l'amplificatore amplifica, di
+94:39 questi di questo primo amplificatore
+94:42 e lo abbiamo visto qua nell'attenuatore,
+94:45 quando c'è un rapporto 1 a 10
+94:48 eh
+94:50 abbiamo un deci decibel. Quindi questo
+94:53 amplificatore, se qui entra un segnale
+94:55 di 1, qui mi esce un segnale di 10.
+94:59 Il segnale d'uscita viene amplificato di
+95:01 10 volte, ma nell'amplificatore che
+95:03 guadagna 20 dB il segnale di uscita,
+95:05 immaginiamo che anche qui entri di uno,
+95:07 il segnale di uscita di quanto mi viene
+95:09 amplificato. Allora, di questo ancora
+95:11 non si è parlato, però io vi dico che 20
+95:15 dB è fatto da 10 + 10. 20 è fatto da 10
+95:20 + 10, no? Naturalmente,
+95:23 allora, i primi 10 debel mi portano
+95:26 questo 1 a 10.
+95:31 I secondi 10 dB fanno esattamente la
+95:33 stessa cosa, mi trasformano questo 10 in
+95:36 100. Quindi un amplificatore che
+95:39 guadagna 20 debel ha un guadagno in
+95:43 tensione potenza di 100 V. Per cui la
+95:46 cascata di questi amplificatori, se li
+95:49 leggo come amplificatori in tensione, ha
+95:52 un guadagno di 10 moltiplicato 100, cioè
+95:54 di 1000.
+95:58 Questi 1000 letti in decibel sono 30 dB.
+96:03 Allora, vedete come funziona qui stiamo
+96:05 vedendo come funziona il mattoncino +
+96:08 10.
+96:10 Noi bisogna ricordarsi che il mattoncino
+96:12 + 10 equivale a un
+96:16 10 volte tanta la potenza in ingresso
+96:19 viene messa in uscita. Viene messa in
+96:21 uscita.
+96:23 Se io ho un amplificatore, ad esempio,
+96:25 da + 40 dB,
+96:28 se io voglio sapere immaginando di avere
+96:31 1 W in ingresso, se io voglio sapere
+96:33 l'ampli la tensione in uscita di questo
+96:36 amplificatore da 40 dB, semplicemente
+96:39 non faccio che spezzare questo 40 dB nei
+96:41 mattoncini che conosco e io conosco i
+96:44 mattoni da 10 per ora.
+96:47 40 significa che ho quattro mattoncini
+96:49 da 10 dietro l'altro. 10 + 10 + 10 + 10.
+96:53 Sembra un giochetto elementare, no?
+96:56 Allora, ognuno di questi mattoncini da
+96:59 10 mi aumenta
+97:01 in
+97:03 mio segnale in potenza, ad esempio, di
+97:05 10 V. Quindi avrò 10 * 10 100 * 10 000 *
+97:10 10.000.
+97:12 Per cui un amplificatore che mi
+97:14 amplifica la una potenza di 10.000 volte
+97:18 a un guadagno in decibel di + 40 dB.
+97:23 Allora, provate a rispondere a questa
+97:25 domanda adesso, a voi la parola. Voi
+97:27 avete un amplificatore
+97:32 che viene pilotato con un apparecchio da
+97:34 5 W. Voglio ottenere 100 W in uscita.
+97:42 Quale guadagno in decibel mi serve per
+97:45 portare 5 W a 100 W? Con un po' di
+97:48 astuzia ci potete riuscire. Io vi ho
+97:52 >> 6 debel, se non sbaglio,
+97:55 >> cioè 20 volte viene, quindi 10. No, no,
+97:58 no, no.
+98:02 >> Stai facendo il tipo il ragionamento
+98:03 giusto, ma
+98:05 voi conoscete il mattone da 10?
+98:10 che fa un per 10 e voi conoscete il
+98:13 btone 3 che fa un per 2.
+98:18 >> Ah, sì, sì,
+98:20 >> e quindi quanti decibim ci vogliono?
+98:23 >> Sì, 13.
+98:25 >> 13. D'accordo? Allora,
+98:28 tutte le domande de ministeriali ad oggi
+98:31 sono state fatte sempre basandosi su
+98:35 questi mattoni, perché in teoria con i
+98:38 decibel, se mi metto a fare i conti con
+98:40 i logaritmi, tutte quelle formule
+98:41 complicate, eccetera, eh posso avere
+98:44 posso posso fare calcoli su tutti i tipi
+98:46 di amplificazione e di attenuazione.
+98:49 Però il ministero sa benissimo che per
+98:51 fare l'esame non c'è non si deve essere
+98:52 laureati in matematica e a volte queste
+98:55 cose se la calcolatrice non ha i
+98:57 logaritmi e così via sono comunque
+98:58 difficili da fare. Quindi i conti sui
+99:00 decibel ad oggi sono è sempre stato
+99:03 possibile farli a mente esattamente come
+99:05 noi li stiamo facendo. E gli unici
+99:08 mattoni che servono sono il 10 e il 3,
+99:10 che poi si può parlare anche di
+99:12 attenuazione, ma il gioco, come avete
+99:14 capito, è lo stesso e servono i mattoni
+99:17 del -10 e del -3.
+99:24 Allora, tolgo un attimo queste questi
+99:27 scarabocchi e continuo con le domande.
+99:30 Quindi abbiamo visto che se da se questo
+99:33 amplificatore ha 5 W in ingresso e ne
+99:38 deve dare 100 in uscita, posso fare
+99:41 prima un per 2, poi un per 10 e quindi +
+99:45 3 + 10 e quindi + 13 dB.
+99:49 Se voglio raddoppiare la potenza in
+99:51 antenna, quindi non più i 100 W di
+99:54 prima, ma voglio portarla a 200 W, di
+99:58 quanti decibel avrò bisogno questa volta
+100:00 di amplificazione?
+100:06 >> 16.
+100:08 >> Perché
+100:08 >> 16?
+100:13 Perché è * 3 * 10 * 3.
+100:16 >> Perfetto.
+100:17 + 3 + 10 + 3. Con questo col primo + 3
+100:22 da 5 vado a 10,
+100:25 poi da 10 vado a 100 con un + 10 e poi
+100:28 con gli ultimi tre vado a 200.
+100:30 Esattamente. Quindi la risposta corretta
+100:31 è 16. Praticamente cosa fatto? Avete
+100:36 visto quanti mattoncini servono per fare
+100:38 il passaggio da 5 a 20? Quindi serve un
+100:42 mattoncino da tre, un altro mattoncino
+100:44 da tre e un mattoncino da 10. Comunque
+100:46 li voltate, non è un problema. Potete
+100:49 far potete far
+100:50 >> Perché 20 dov'è 20? C'è 200, c'è cinque.
+100:56 >> Eh, o forse ho detto male io, scusate,
+100:59 è scappato un 20, volevo dire 200,
+101:02 pardon,
+101:04 per portare Ho sbagliato io, perdare per
+101:06 portare 5 a 200 c'è bisogno come mattoni
+101:09 di un 3, di un altro 3 e di un 10,
+101:13 ovvero 16 dB. I primi 3 dB mi portano i
+101:17 miei 5 W.
+101:21 Poi con questi altri tre i 10 W
+101:23 diventano 20 e poi con questi 10 i 20
+101:26 diventano 200. Vi torna.
+101:32 >> Ma eh vabbè
+101:34 studiare.
+101:36 >> Non mi è entrato ancora questo giochino.
+101:39 >> Sono sol sono solamente questi questi
+101:42 due mattoncini. sono solamente questi
+101:44 due. Aspetta qui. Eh, qui lo puoi vedere
+101:47 in in diciamo sotto forma di di una
+101:51 tabella. Allora, le cose che che si
+101:54 usano normalmente sono questi. Questa è
+101:57 questa tabella è quando si hanno degli
+101:59 amplificatori, quindi si parla quando si
+102:01 parla di di un guadagno. Un
+102:03 amplificatore che guadagna 3DB
+102:06 ha un rapporto in potenza fra uscita e
+102:08 ingresso di due volte.
+102:11 Il 6 di B lo sappiamo fare perché è 3 +
+102:14 3,
+102:16 quindi 3 + 3. I primi 3 mi danno un
+102:18 rapporto in potenza di 2 più per altre
+102:22 due volte 2 * 2 4. I db si sommano,
+102:26 invece i rapporti in potenza vanno
+102:27 moltiplicati.
+102:30 Se ho 10 dB di amplificazione ho un
+102:32 rapporto in potenza, ingresso uscita
+102:34 pari a 10. Se ho 30 dB, per esempio,
+102:39 ho un ho un rapporto in potenza fra
+102:42 ingresso e uscita di 1000. 10 + 10 + 10,
+102:47 ovvero in potenza diventa 10 * 10 * 10.
+102:51 Queste queste sono più o meno le stesse
+102:55 cose viste in termini di attenuazione.
+102:57 Quando ho -3db di attenuazione mi
+103:00 dimezza mi diventa 0,5 + 3db mi
+103:03 raddoppia. Eccolo qua il 2 -3 mi dimezza
+103:09 + 10 di b mi aumenta di un fattore 10 la
+103:13 mia potenza -10 di b me la riduce a 1
+103:16 deo. Quindi vedete che sono esattamente
+103:19 gli stessi numeri speolari, no? 10 volte
+103:22 tanto, un decio due volte tanto la la
+103:24 metà.
+103:26 E con questi mattoni si fanno tutti. E
+103:29 con questi mattoni sostanzialmente si
+103:30 riesce a far tutto. Nelle nelle domande
+103:33 che che vi manderemo a fine lezione ci
+103:35 sono quattro cinque di di questi
+103:38 calcoli. Provate a farli e diciamo non
+103:42 vi serve altro che quello che abbiamo
+103:44 detto ora. Bisogna capire, bisogna
+103:47 semplicemente avere avere in mente il 3
+103:49 decibel e il 10 debel. 3 debel è un più
+103:52 3 debel è un raddoppio. + 10 è un
+103:54 moltiplicare 10 la potenza.
+103:57 oppure
+103:59 -3 è dimezzare, -10 è ridurre a 1 de.
+104:05 Vi dico un'ultima cosa, poi
+104:09 eh
+104:11 poi per stasera abbiamo finito.
+104:14 C'è anche un uso dei decibel, diciamo
+104:18 così,
+104:20 eh
+104:22 per avere una misura assoluta e in
+104:26 particolare l'unità di misura che si usa
+104:29 in questi casi è il DBM, decibel su
+104:31 Milwatt. Allora, il decibel,
+104:35 come abbiamo usabbiamo usato finora, è
+104:38 un'unità di misura relativa. Relativa
+104:40 cosa vuol dire? Qui ti dice, per
+104:44 esempio, il +3dB dice che
+104:45 l'amplificatore tira fuori il doppio, ma
+104:47 non ti dice che tira fuori 1 5 10 W, no,
+104:50 ti dice che tira fuori due volte la
+104:51 potenza dell'ingresso. Questo è relativo
+104:54 in base alla potenza di ingresso, io
+104:56 relativamente ti dico che potenza di
+104:58 uscita ho.
+105:00 Se io fisso la potenza di ingresso, ad
+105:02 esempio, a 1 mW,
+105:06 se io fisso una potenza di riferimento,
+105:08 scusate, non di ingresso, per esempio,
+105:11 eh la fisso a 1 mW, ottengo una unità di
+105:14 misura che è il DBM, il decibel riferito
+105:17 al milla.
+105:21 Perché quanti decibel? Perché il il
+105:25 valore di questa unità è ehm
+105:28 quibbile in più o in meno rispetto a 1
+105:31 mill. Ve lo faccio vedere nella pratica.
+105:34 Allora, eh vediamo qua nelle
+105:37 amplificazioni. Allora, ho 0 dBm è la
+105:41 mia unità di misura, che è 1 mW.
+105:44 + 13 dBm quanto sarà? + 13 è 10 + 3 i
+105:50 soliti due mattoncini. Quindi il mio
+105:53 diventa per mi diventa 10
+105:58 m* 2 mi diventa 20 mW + 30 dBm quanto
+106:03 equipare? A quanto equivarrà? 30 dBm
+106:06 diventa 1 wat perché sono i 30 dB sono
+106:08 10 + 10 + 10.
+106:11 I primi 10 dB mi prendono questo 1000 W
+106:14 me lo fanno diventare 10. Poi i 10
+106:16 diventano 100 e i 100 diventano 1000. Ed
+106:18 eccoli qua. Più 50 dBM
+106:21 diventano 100 W. Ripartendo da qui ho 1
+106:24 W che poi mi diventa 10 e poi mi diventa
+106:26 10. Qui ho cinque mattoncini
+106:29 da 10 e quindi 5 moltiplicazioni per 10.
+106:33 Da 1 mW arrivo a 10 W. e lo stesso
+106:37 succede con le con le attenuazioni.
+106:40 Eh, quindi
+106:43 non non credo che ci siano da fare i
+106:45 calcoli su questa cosa, però bisogna
+106:47 conoscere cos'è il DBM, il decibel su
+106:49 MilWatt è un'unità di misura assoluta e
+106:54 e è è molto usata eh diciamo nella
+106:58 strumentazione elettronica eccetera. Poi
+107:00 quando parleremo di strumenti vedrete
+107:02 alcune scale che appunto sono tarate in
+107:05 DBM invece che in watt e invece che in
+107:09 watt.
+107:12 E questo per ora è è tutto. Per cui vi
+107:14 direi, allora, se ci sono qualche
+107:15 domande cerco di rispondere volentieri
+107:17 su questo e poi provate a fare quei
+107:21 semplici esercizi che avete sui sui
+107:24 decibel nelle nelle domande che vi
+107:26 manderemo e poi magari, diciamo, se ci
+107:28 sono se avete in caso di problemi poi ne
+107:31 parliamo, cioè riprendiamo l'argomento
+107:34 la volta prossima. Intanto per ora a voi
+107:37 se ci sono domande.
+107:46 >> Ok. A te Giovanni.
+107:48 >> Sì, scusa Paolo.
+107:50 >> Vai, vai.
+107:50 >> Allora, mi è abbastanza chiaro il
+107:52 discorso dei mattoncini,
+107:54 se posso chiederti la cortesia, perché
+107:57 va bene, ok? Più più 3 decibel si
+107:59 raddoppia, più 10 decibel si decuplica.
+108:02 Dovrebbe essere così. Ecco, però ancora
+108:06 non sono riuscito a fare il passaggio
+108:09 logico del primo esempio che poi è
+108:11 uguale al secondo e di quel calcolo lì.
+108:14 Eccoli. Mi sono un pochino un pochino
+108:17 arenato.
+108:19 >> Allora,
+108:21 momento, eh, rimetto in condivisione lo
+108:23 schermo.
+108:29 Allora, tu staio, eh, che che un attimo
+108:33 che arrivo.
+108:37 Tu stai
+108:39 parli di questo calcolo qua,
+108:42 >> eh. E quello sì. quello dei 5 W.
+108:48 >> Aspetta,
+108:50 eccolo qua.
+108:50 >> Ecco questo. Perché poi se so fare
+108:53 questo so fare anche quello successivo.
+108:55 >> Certamente. Certamente. Allora,
+109:00 beh, diciamo tu conosci due due
+109:03 mattoncini, uno che ti raddoppia la
+109:05 potenza
+109:06 >> e uno che te la decuplica. Per passare
+109:08 da 5 a 10 cosa come puoi fare? Puoi ad
+109:12 esempio prima raddoppiare e poi
+109:13 decuplicare.
+109:16 Ti torna.
+109:17 >> Sì, sì. Ok. Quindi, praticamente un
+109:20 mattoncino mi raddoppia il cinque.
+109:23 >> Esatto. E il pantoncino successivo te lo
+109:25 decuplica.
+109:26 >> Ah, però mi decuplica mi decuplica il
+109:29 risultato
+109:30 del della del raddoppio del cinque.
+109:34 >> Bravo, lei centrato.
+109:35 >> Ah, ecco. Ok, perfetto. Adesso, adesso è
+109:38 chiaro. Ecco questo passaggio che mi
+109:40 mancava. Scusa.
+109:42 >> No, no, eh, va benissimo così. Lei è
+109:43 centrato. Ottimo. E poi quello che hai
+109:45 detto, secondo me, può essere utili
+109:46 altri amici.
+109:48 >> Ok.
+109:48 >> Sì, sì, perfetto. Adesso, adesso ho
+109:51 capito. Grazie.
+109:52 >> Ok. C'è un'altra domanda di Gianfranco a
+109:55 te.
+109:58 >> Buonasera a tutti. Una domanda, questa è
+110:00 proprio di logistica.
+110:02 >> Si può usare la calcolatrice al
+110:04 all'esame?
+110:06 Eh, allora ve lo dirà la commissione, se
+110:09 non si può usare è meglio perché vuol
+110:12 dire che non ce n'è bisogno.
+110:16 Il
+110:17 >> ad esempio mi trovo molto meglio con con
+110:19 la formula che con i mattoni, avendo
+110:23 fatto
+110:25 tempo.
+110:25 >> Chiaro.
+110:27 >> Chiaro, chiaro, chiaro. E allora queste
+110:30 sono decisioni della commissione
+110:33 >> in Toscana. Molte volte una calcolatrice
+110:36 al di fuori del cellulare una
+110:37 calcolatrice e basta.
+110:39 >> Sì, sì, sì, sì, sì. Se allora se lo
+110:42 consentiranno sarà una calcolatrice
+110:43 vera, non un cellulare. Saranno calcol
+110:46 di solito consentono la calcolatrice
+110:48 classica non programmabile
+110:51 >> che puntualmente non ha i logaritmi,
+110:53 quindi
+110:54 >> classico classico. Ma normalmente non
+110:57 c'è bisogno di farli con i suoi
+110:58 logaritmi, no? Sennò penso che ci
+111:00 sarebbe un momento di disperazione
+111:02 comune dei partecipanti,
+111:06 >> compresi anche
+111:07 >> compresi anche gli istruttori
+111:10 >> questa
+111:11 >> quindi quindi non dobbiamo portarla
+111:14 >> e ve lo ve lo direi alla commissione
+111:17 e diciamo è una decisione della
+111:20 commissione. In passato, Fabrizio cosa è
+111:22 stato fatto in Toscana?
+111:25 in passato non è stata non è stata
+111:28 autorizzata. I calcoli erano erano
+111:32 semplici, senza nessun tipo di
+111:34 difficoltà si facevano a mente. Io
+111:38 almeno
+111:39 >> chi lo dice che è semplici se ci sono
+111:41 duri come me.
+111:43 >> No, no, no, no. Sono semplici. Sono
+111:45 calcoli si fanno a mente tranquillamente
+111:48 senza nessun problema. Io negli ultimi 4
+111:51 anni non l'ho mai vista la calcolatrice,
+111:54 non è mai stata accettata in altre
+111:57 regioni, ma insomma non nella nostra,
+112:01 vero? Correggi? No, no, non sto
+112:04 sbagliando. Sì, sì, se se anche anche
+112:05 secondo me se non c'è bisogno è meglio,
+112:07 ribadisco,
+112:08 >> vero? Sicuramente, sicuramente.
+112:12 >> Paolo, io interromperei la la sì, sì,
+112:14 tranquillo, eh. Va bene, tranquillo.
+112:17 Intanto Pierpaolo, a te.
+112:23 Sì, sì, innanzitutto buonasera. Eh, la
+112:26 mia più che una più che mh

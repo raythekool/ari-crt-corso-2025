@@ -1,0 +1,2757 @@
+00:02 maniera classica e vi mostro come siete
+00:06 andati sulle prove della lezione
+00:09 precedente
+00:15 e la risposta è, diciamo, molto buona,
+00:18 direi. Come vedete anche qui la media si
+00:23 attesta su un sano 90%. Sicuramente non
+00:27 avete avuto grossi problemi come gruppo
+00:29 su quella su questa batteria di domande.
+00:32 Vediamo un po'. Ci sono la G come Genova
+00:35 e la N come Norvegia e Golf in November
+00:38 un po' più basse e poi andiamo a vederle
+00:41 un po' più in in dettaglio. Le altre
+00:43 domande la la risposta è sempre molto
+00:45 molto buona. Come al solito, una buona
+00:47 parte di voi riesce a fare il percorso
+00:49 netto, 100% di risposte e ci sono due
+00:53 tre persone che invece sono vicino al
+00:54 60% e quindi il famoso pezzettino di
+00:58 studio in più che vi aiuterà a stare
+01:00 sopra la famosa soglia, no, del 60% che
+01:04 che che che sapete dobbiamo raggiungere.
+01:07 Allora,
+01:10 ecco qua le risposte alla
+01:16 Ec qua. Perfetto. Scusate.
+01:20 Alla lezione sugli amplificatori e
+01:23 dintorni. Dunque domanda.
+01:25 L'amplificatore che offre il maggior
+01:27 rendimento è l'amplificatore in classe
+01:29 C. Classe Che arriva come rendimento al
+01:31 70-75%.
+01:34 Eh, non è l'amplificatore a catodo
+01:36 comune di cui non abbiamo neanche
+01:37 parlato e diciamo una cosa che non fa
+01:40 parte del programma e non è
+01:41 l'amplificatore in classe A. Di questo
+01:44 abbiamo parlato e ricordate che
+01:46 l'amplificatore in classe A ha il
+01:48 massimo un guadagno del ha un
+01:50 rendimento, scusate, del 25%.
+01:53 Domanda B. In un trasmettitore il primo
+01:56 stadio di bassa frequenza per
+01:58 amplificare il segnale microfonico in
+01:59 quale classe funziona? in classe A, come
+02:02 si era detto di fatto in tutta la catena
+02:04 di un trasmettitore lavora praticamente
+02:07 tutti i dispositivi lavorano in classe
+02:09 A. Gli unici dispositivi che non
+02:11 lavorano in classe A sono i finali che
+02:13 lavorano normalmente in classe AB1
+02:15 oppure in classe C a secondo del tipo di
+02:17 trasmettitore.
+02:19 Domanda C. Se si vuole ottenere un altro
+02:21 rendimento e non si hanno vincoli sulla
+02:24 distorsione, che tipo di amplificatore
+02:26 si usa? non si hanno vincoli sulla
+02:27 distorsione, implica eh trasmettere
+02:31 segnali non modulati in ampiezza,
+02:34 altrimenti la la distorsione renderebbe
+02:37 il segnale sporco o addirittura non
+02:40 leggibile. Quindi si parla di
+02:41 trasmettitori che lavorano o in
+02:43 telegrafia o in modulazione di frequenza
+02:46 e il tipo di amplificatore finale è in
+02:49 classe C.
+02:51 Domanda D. Quale fra i seguenti
+02:53 amplificatori viene tipicamente usato
+02:55 per amplificare segnali in CV? Do
+02:56 amplificatore in classe C, come detto
+02:58 anche appunto nella domanda precedente.
+03:01 Domanda è: tra le seguenti classi di
+03:03 amplificazione quale è presente la
+03:05 distorsione minore la classe A?
+03:09 Domanda F. Qual è il nome del circuito?
+03:11 che confrontando la frequenza del
+03:13 segnale prodotto da un VCO, cioè un
+03:15 oscillatore controllato in tensione,
+03:17 confrontando questa frequenza con quella
+03:19 di un segnale di riferimento, produce
+03:21 una tensione di correzione che modifica
+03:24 e e tiene allineata la frequenza del VCO
+03:27 e e il loop ad aggancio di fase, il PLL,
+03:31 che è, come si era detto il tipico
+03:35 oscillatore per fa sicuramente tutti gli
+03:37 apparati canalizzati, ma ma non solo.
+03:40 Domanda G, che è una di quelle dove le
+03:43 risposte positive sono state leggermente
+03:45 più basso. Cosa distingue le varie
+03:47 classi degli amplificatori? Non la
+03:49 potenza massima, che la potenza dipende
+03:51 solamente dal dispositivo che si usa,
+03:53 non lo sfasamento fra tensione e
+03:55 corrente in ingresso che non ci
+03:57 interessa di fatto, di cui in effetti
+03:59 non si è neanche parlato, ma l'angolo di
+04:01 conduzione
+04:03 che in ingresso o in uscita è lo stesso
+04:05 che l'angolo di conduzione, diciamo,
+04:08 l'angolo di conduzione implica per
+04:10 quanti gradi elettrici rispetto ai 360
+04:13 della sinusoide eh il dispositivo
+04:16 dell'amplificatore conduce. Angolo di
+04:19 conduzione degli amplificatori in classe
+04:21 A, 360°, quindi tutta la sinusoide viene
+04:24 amplificata e per questo sono gli
+04:27 amplificatori in classe A sono molto
+04:28 lineari. In classe B l'angolo di
+04:30 conduzione è circa 180°, in classe C è
+04:34 eh
+04:36 80-70° qualcosa del genere, a seconda di
+04:39 come viene polarizzato il dispositivo.
+04:42 Domanda H. Quali sono le caratteristiche
+04:45 principali degli amplificatori push
+04:47 pull? Quindi gli amplificatori con due
+04:49 dispositivi dei quali eh ciascun
+04:52 dispositivo, ciascun transistor, ad
+04:54 esempio, amplifica una simionda. Un
+04:56 transistor, ad esempio, amplifica la
+04:57 semionda positiva, l'altro la semionda
+04:59 negativa, come avevamo detto, e poi il
+05:02 circuito di questi amplificatori
+05:04 ricompone le due semionde in una
+05:06 sinusoide completa e questi
+05:08 amplificatori hanno alto rendimento e
+05:11 bassa distorsione, quindi rendimento
+05:13 circa del 60% e bassa distorsione.
+05:17 Domanda I, un amplificatore pushpool in
+05:19 quale classe funziona? In classe B. In
+05:22 classe B un po' distorcerebbe, ma ce ne
+05:24 sono due e quindi la sinusoide viene
+05:26 ricomposta completamente. Domanda L.
+05:29 L'amplificatore lineare che compito ha?
+05:32 Ehm,
+05:34 non amplificare il segnale trasmesso
+05:36 senza distorsione fino a 1000 W, perché
+05:38 1000 W, almeno per ora, in Italia,
+05:40 purtroppo, non ce li abbiamo. Come vi ha
+05:42 detto Silvio in Italia e la potenza
+05:46 consentita dalla licenza è di 500 W. E
+05:49 quindi la risposta corretta è la tre.
+05:51 Amplificare il segnale messo in
+05:53 trasmissione senza distorsione entro i
+05:56 limiti di legge. Entro i limiti di legge
+05:58 che poi, come vi ha detto Silvio, i
+06:00 limiti di legge variano un po' anche fra
+06:02 le varie bande. Ci sono alcune bande in
+06:04 cui ci sono un po' di limitazioni, altre
+06:06 bande invece in cui la potenza è è,
+06:10 diciamo, è quella massima, 500 W.
+06:12 Domanda M. Che componente si usa di
+06:14 solito per modificare la frequenza di un
+06:16 oscillatore a frequenza variabile? Il
+06:18 diodo varicat?
+06:19 Non si usa il Mesfet a doppio gate. E
+06:24 come uno di voi aveva scritto una
+06:27 domanda giustissima,
+06:29 allo stato attuale della tecnologia i
+06:31 viodi Varicap e Varactoractor
+06:33 sostanzialmente sono la stessa cosa.
+06:36 Varicap e Varactor sono sinonimi. Ok.
+06:40 di Varact non si è parlato. È una
+06:43 denominazione vecchia che
+06:47 andava negli anni 60-70 quando uscirono
+06:50 i primi diodi che di questo tipo che
+06:52 erano chiamati Varactor. Poi a un certo
+06:54 punto sono stati chiamati diodi varicap
+06:56 e tutto il mondo li chiama così. Adesso
+06:59 domanda N, l'altra su cui c'è stata una
+07:01 risposta un po' meno mh positiva.
+07:04 In un quarzo la frequenza di risonanza è
+07:06 allora molto elevata, non è detto, ci
+07:09 sono anche dei quarzi che oscillano a 50
+07:12 kHz, 100 kHz o cose di questo tipo,
+07:14 quindi frequenze tutto sommato basse.
+07:17 Non dipende dalla resistenza del
+07:18 circuito in cui è inserito, ma dipende
+07:21 dalla dalla geometria del quarzo. Quindi
+07:23 la risposta corretta è la tre. Dipende
+07:25 dallo spessore del quarzo stesso. Se si
+07:27 vogliono quarzi che mh abbiano una
+07:30 frequenza di risonanza alta, devono
+07:32 essere molto sottili, molto sottili, più
+07:34 o meno come uno strumento musicale. Se
+07:36 volete ottenere un suono molto eh acuto
+07:40 serve una corda molto piccola, molto
+07:42 corta, molto sottile o un campanellino
+07:44 molto piccolo, altrimenti se il circuito
+07:46 risonante è grande non si sente un din
+07:49 ma si sente un don come per le campane.
+07:53 Infine, le ultime tre domande sulle
+07:55 porte logiche. Qui avete visto che eh vi
+07:58 abbiamo riportato in queste tre domande
+08:00 le stesse che sono nelle nelle slide.
+08:02 Allora, una porta OR, che operazione
+08:05 esegue? OR, quindi la lettera O.
+08:08 L'uscita è uno quando un ingresso oppure
+08:11 un altro oppure tutti e due sono uno.
+08:15 Per cui la risposta corretta è la due.
+08:17 Domanda P. Che operazioni logica esegue
+08:19 una porta end? e la lettera e la la
+08:23 congiunzione e quindi l'uscita di una
+08:26 porta end è uno se è uno il primo
+08:30 ingresso e è uno anche il secondo
+08:32 ingresso. Quindi la risposta corretta è
+08:34 la tre. Entrambi gli ingressi devono
+08:37 essere a livello uno. La Nend è il
+08:39 contrario perché la Nend non è altro che
+08:42 una negata e il contrario è la risposta
+08:44 uno. Produce un livello zero in uscita
+08:47 solo se tutti gli ingressi sono a
+08:48 livello logico uno. Vedete che è proprio
+08:50 il contrario della tre della domanda
+08:52 precedente che produce liv la condizione
+08:54 è la stessa. Entrambi gli ingressi sono
+08:56 a livello logico uno. Nella domanda P
+08:59 l'end l'uscita è un livello logico uno.
+09:02 La domanda Q, la Nend produce un livello
+09:05 logico zero e queste sono le risposte.
+09:09 Complimenti anche questa volta, state
+09:11 continuando a a rispondere molto bene e
+09:14 se ci sono domande Andrea, a te.
+09:15 Cominciamo con te.
+09:18 Ciao Paolo, buonasera tutti.
+09:20 >> Ciao sentito.
+09:21 >> Eh, una domanda alla domanda M e che la
+09:26 risposta esatta è un diodo varicap, no?
+09:31 Ho cercato un po' anche a giro, no? Però
+09:33 dice,
+09:34 non ho capito bene, anche Varactor
+09:38 la dà come esatta. È giusto o no?
+09:41 >> Sì, è giusto, è giusto. Però la term la
+09:45 denominazione Varaactor è da molti
+09:47 decenni che non si usa più, tant'è che
+09:50 noi una trovato, se me la trovo
+09:52 nell'esame, cioè la risposta esatta qual
+09:54 è?
+09:55 >> La la tre.
+09:57 >> Esatto. Esatto.
+09:58 >> Ok. Come come avete visto stasera, come
+10:01 abbiamo visto stasera, la risposta
+10:03 corretta è la tre varicup
+10:06 varicup.
+10:07 >> Ok, d'accordo.
+10:08 >> Grazie
+10:09 >> a te
+10:12 Aldo. A te
+10:18 >> Aldo microfono.
+10:22 Sì, sì. Ecco, sulla domanda sempre M ehm
+10:25 di cui avete parlato adesso, ma parlando
+10:28 di WFO, ma eh diciamo il il cambio di
+10:32 frequenza non è m eh diciamo dovuto a un
+10:37 condensatore variabile
+10:39 >> in alcuni VFO? Sì, in però in situazioni
+10:43 in cui il WFO deve essere molto piccolo
+10:47 e quindi il condensatore variabile non
+10:48 c'entra oppure
+10:51 come negli apparati moderni oppure
+10:54 vogliamo avere delle forme di
+10:56 compensazione elettrica anche della
+10:58 frequenza, si usano i diodi baricup
+11:01 condensatori variabili, diciamo, la
+11:03 tecnologia dei condensatori variabili di
+11:05 fatto è uscita di produzione rispetto a
+11:09 all'uso negli apparei.
+11:10 radioamatoriali più o meno negli anni 80
+11:13 e sono stati sostituiti comunque da da
+11:17 o da o da WFO sintonizzati dal VARCAP o
+11:22 dai famosi PLL di cui si è parlato. I
+11:25 condensatori variabili sono rimasti in
+11:27 uso fino a ora essenzialmente negli
+11:30 amplificatori, quando quando si hanno
+11:33 degli amplificatori di alta potenza, gli
+11:35 amplificatori lineari a valvole a
+11:38 valvole eh diciamo i circuiti risonanti
+11:42 di quegli amplificatori vengono per per
+11:44 i circuiti risonanti di quegli
+11:45 amplificatori si usano sempre
+11:48 condensatori variabili, il famoso
+11:50 accordo che qualcuno di voi magari che
+11:51 ha usato queste cose in CB ben conosce.
+11:54 Ok,
+11:56 quindi le diciamo con variabili di fatto
+11:59 sono m sulla via dell'ossorescenza,
+12:02 diciamo così, perché sono grandi,
+12:04 costosi da produrre e tutto quanto.
+12:08 >> Superati, insomma. Va bene, grazie
+12:10 Paolo, grazie. Scusami.
+12:11 >> Ciao Pierluigi, a te.
+12:13 >> Ciao.
+12:14 >> Una domanda è una sulla
+12:19 domanda i l'amplificatore pure in alta
+12:22 frequenza. Ma io ho messo classe C
+12:23 perché pensavo che in alta frequenza
+12:26 potesse funzionare anche in classe C,
+12:29 quindi evidentemente funziona in classe
+12:31 B da quello, insomma, dalla risposta
+12:33 esatta. Sì, esatto. Allora, gli
+12:36 amplificatori pushpol funzionano sempre
+12:39 in classe B, a qualunque frequenza si
+12:41 utilizzino. I pushpol si comincia ad
+12:44 usarli in banda audio, quindi
+12:48 entro i 15 kHz, perché la configurazione
+12:51 al push pool è quella usata nella grande
+12:53 maggioranza degli amplificatori alta
+12:55 fedeltà, per intenderci, che devono
+12:57 dare, metti 50-100 W in uscita, però per
+13:00 per le casse acustiche e questa potenza
+13:03 viene rogata normalmente in schemi con
+13:06 amplificatori pushpool o similari e sono
+13:09 in classe B, restano in classe B anche
+13:12 in tutto il campo radio,
+13:14 quindi anche per le onde corte, per le
+13:16 onde ultra cororte eccetera, quando si
+13:18 usano due dispositivi vengono usati in
+13:20 configurazione pushpool. Ok.
+13:24 No, pensavo per la modulazione di
+13:25 frequenza forse è sufficiente anche la
+13:27 classe C. Vabbè, però vabbè, io non
+13:29 >> Sì, per la Allora, per la modulazione di
+13:31 frequenza è sufficiente anche per la Hai
+13:34 ragione, per la modulazione di frequenza
+13:36 va bene la classe C, però la domanda era
+13:39 sui push pool, quindi non si parlava di
+13:41 modo di emissione.
+13:44 >> Quindi, parlando in generale
+13:46 dell'amplificatore pushpool come
+13:47 tipologia, la risposta è che comunque
+13:50 questi sono sempre in classe C, eh, ok.
+13:57 Buono. Allora, se non ci sono altre
+13:59 domande si comincia. Cominciamo i lavori
+14:02 di stasera.
+14:05 Ecco le slide. Un attimo.
+14:13 Allora, stasera parliamo
+14:16 di questi argomenti. Intanto,
+14:18 rapidamente, parliamo dei trasduttori. I
+14:21 trasduttori, ovvero il microfono e
+14:23 l'altoparlante, sono l'interfaccia, se
+14:25 vogliamo, da il mondo dei suoni, quindi
+14:28 quelli che mettiamo con la voce, quelli
+14:29 che ascoltiamo con le orecchie e il
+14:32 mondo dell'elettricità, il mondo
+14:34 dell'elettronica. bisogna in qualche
+14:36 modo trasformare la voce in un segnale
+14:38 elettrico e viceversa di trasformare un
+14:40 segnale elettrico in un segnale
+14:41 acustico. Poi parliamo dei miscelatori
+14:43 che sono un altro dei degli scatoletti
+14:45 che si usano nei trasmettitori nei
+14:47 ricevitori. E infine parleremo dei
+14:48 trasmettitori e di un problema di cui
+14:51 trasmettitori possono soffrire che è
+14:53 l'intermodulazione. Allora, i
+14:55 trasduttori,
+14:57 il primo trasduttore con cui si si a
+15:01 contatto, diciamo, quando si compra una
+15:02 radio, normalmente una radio, un
+15:04 ruitrasmettitore è il microfono.
+15:06 Microfono a volte è interno, ma il più
+15:08 delle volte è è esterno, no? Soprattutto
+15:11 nelle radio di una certa dimensione. Il
+15:13 microfono cosa fa? trasforma un'onda
+15:16 acustica, che è quella tipicamente della
+15:18 nostra voce in un segnale elettrico. La
+15:21 voce, come sapete, è un'onda meccanica,
+15:24 sono onde di pressione nell'atmosfera.
+15:26 Queste onde di pressione devono essere
+15:28 trasformate in un segnale elettrico per
+15:30 poterle poi amplificare e con questo
+15:33 segnale elettrico modulare la portante
+15:35 in AM, in FM, in SSB. Quindi bisogna che
+15:39 la nostra voce conte acustica venga
+15:41 trasformata in un segnale elettrico e
+15:43 questo compito lo fa il microfono. Di
+15:46 microfono ne esistono
+15:48 diversi tipi. Ve ne cito qua quattro che
+15:52 sono quelli su cui tipicamente diciamo
+15:56 eh che che nella stragrande maggioranza
+15:58 dei casi si si usa. Allora, il tipo di
+16:01 microfono più storico è quello a carbone
+16:06 e il carbone è un materiale quasi
+16:08 conduttore, quasi buon conduttore, ha
+16:11 una resistenza dell'ordine di decine,
+16:13 centinaia di ohm. nei microfoni da
+16:15 carbone viene ehm
+16:18 creata una una zona di polvere di
+16:21 carbone sostanzialmente che è quella che
+16:24 in questa figura vedete qua in questa
+16:27 zona
+16:29 e in questa in questa sacchettina in
+16:32 questo contenitorino di polvere di
+16:33 carbone fatta scorrere con questa
+16:35 batteria esterna una certa corrente.
+16:38 Questa corrente in qualche modo è
+16:40 limitata anche dalla resistenza, no, di
+16:43 di questo carbone qua. Nel momento in
+16:45 cui si parla c'è una membrana che fa sì
+16:48 che questa polvere di carbone venga
+16:50 compressa o non compressa a seconda del
+16:53 dell'andamento della nostra voce. E
+16:55 questo crea una variazione di resistenza
+16:57 di questo pezzetto di di questa polvere
+16:59 di carbone e e questa variazione di
+17:02 resistenza si traduce poi in un segnale
+17:04 elettrico che viene amplificato. Questi
+17:07 erano i tipici microfoni che si usavano
+17:09 fino agli anni 90, diciamo, nelle
+17:13 cornette dei telefoni. Cioè nelle
+17:15 cornette dei telefoni anni 60 70 80 il
+17:19 microfono era un microfono carbone. Poi
+17:21 è stato abbandonato anche questo perché
+17:24 sono usciti fuori i tipi di microfoni
+17:26 più ehm
+17:29 più facili da produrre e anche migliori
+17:31 dal punto di vista qualitativo. Un
+17:32 microfono a carbone poi eh diciamo ha
+17:35 una resa in frequenza piuttosto scarsa.
+17:37 È adatto per la voce, ma poco di più
+17:39 sicuramente non per non per l'alta
+17:41 fedeltà.
+17:43 Poi un'altra classe di microfoni è
+17:44 quella a cristallo. Questi sono stati e
+17:48 sono di fatto anche tutt'ora a volte
+17:51 molto molto usati in campo radio perché
+17:54 hanno una resa in frequenza molto
+17:56 incentrata sulle note acute che rende i
+17:59 segnali intelligibili anche quando sono
+18:02 deboli a grande distanza. I microfoni a
+18:04 cristallo si basano sull'effetto
+18:05 pieelettrico. Anche qui c'è come nei
+18:08 come nei cristalli di quarzi c'è una
+18:10 piccola lamina di quarzo. Questa lamina
+18:12 è collegata alla membrana del microfono.
+18:14 Quando parliamo la membrana va vibra.
+18:18 Questa vibrazione è trasmessa al
+18:19 cristallo di quarzo. Come avevamo detto,
+18:21 come vi ricordate il quarzo è un
+18:23 materiale piezo elettrico, quindi se
+18:25 viene compresso un quarzo sulla sua
+18:27 superficie nascono delle cariche
+18:29 elettriche. E queste cariche elettriche
+18:30 vengono appunto portate poi al
+18:33 all'amplificatore, alla radio che li
+18:35 usano per modulare i segnali.
+18:40 Cancello un attimo così abbiamo una
+18:42 slide più pulita.
+18:45 La la quarta tipologia, la quarta
+18:47 grande, scusatemi, la terza grande
+18:50 tipologia di microfoni sono quelli a
+18:52 condensatore.
+18:54 I microfoni a condensatore,
+18:56 eccoli qua,
+18:59 sono i microfoni che hanno la fedeltà di
+19:02 riproduzione migliore e quindi vengono
+19:04 largamente usati anche in ambienti
+19:07 professionali eccetera. E e il nome dice
+19:10 già come funziona, cioè un microfono a
+19:12 condensatore sfrutta la variazione di
+19:14 capacità a far due lamine. Lo vedete in
+19:16 questo schema che c'è qua sulla sulla
+19:19 sinistra. Qui ci sono due lamine delle
+19:21 quali una di fatto è fissa e l'altra è
+19:25 può essere messa in vibrazione, questa è
+19:28 quella fissa, l'altra può essere messa
+19:30 in vibrazione dalla voce. Quando la voce
+19:34 mette in vibrazione una di queste
+19:37 lamine, succede che la distanza fra
+19:39 l'armatura del condensatore varia e
+19:42 quindi la capacità varia. Scusate, non
+19:43 ho detto appunto la cosa più essenziale,
+19:45 cioè che queste due lamine sono
+19:47 affacciate l'una l'una sull'altra e
+19:50 quindi di fatto sono un condensatore.
+19:52 Sono le due armature di un condensatore
+19:54 che ha l'aria come isolante. La voce
+19:57 mette in vibrazione una di queste lamine
+19:59 e quindi variando la distanza fra le
+20:01 armature del condensatore varia la
+20:03 capacità. Questa variazione di capacità
+20:06 è trasformata in nell'ambito sempre del
+20:09 microfono in una variazione di eh
+20:14 elettrica e quindi dal microfono al
+20:17 condensatore esce appunto un un segnale
+20:19 elettrico che nasce per questa
+20:21 variazione di capacità che è su questa
+20:23 membrana.
+20:25 Quindi questi microfoni sono leggermente
+20:27 più complessi dei precedenti, hanno
+20:28 bisogno di essere alimentati, ma sono
+20:30 veramente molto fedeli.
+20:32 Infine c'è una tipologia, una quarta
+20:35 tipologia di microfoni, anche questi
+20:37 molto, anche questa molto usata. Questi
+20:39 sono microfoni abbastanza economici e
+20:41 sono i cosiddetti microfoni dinamici. Ne
+20:44 parlo fra un attimo di questi microfoni
+20:46 dinamici perché hanno un funzionamento
+20:48 che di fatto è lo stesso che e che è
+20:51 nell'altoparlante.
+20:53 Quindi andiamo un attimo avanti. Il
+20:57 l'altra tipologia di trasduttore che fa
+20:59 il lavoro opposto a quello del microfono
+21:01 è l'altoparlante, no? Il microfono
+21:03 trasforma un segnale audio in un segnale
+21:05 elettrico, l'altoparlante fa il
+21:07 contrario, trasforma un segnale
+21:09 elettrico in un'onda acustica, come
+21:12 succede ad esempio quando quando volete
+21:14 ascoltare una radio, no? alla fine della
+21:16 radio,
+21:18 i segnali elettrici che stanno nella
+21:20 radio vengono trasformati in un
+21:21 acustiche dal dall'altoparlante.
+21:24 L'altoparlante,
+21:26 un altoparlante è fatto intanto a
+21:29 partire da un magnete permanente, cioè
+21:31 in tutti gli altoparlanti c'è un
+21:32 magnete, ovvero una calamita
+21:35 e diciamo c'è un un cono di cartone che
+21:39 è questo qua.
+21:41 Alla base del cono è realizzata una
+21:43 bobina di filo elettrico. È questa che
+21:45 vedete qui. Quella si vede in sezione.
+21:48 Qui è come se fossero queste 8-9 spie
+21:51 bobina e che stanno appunto alla base
+21:54 del eh diciamo del cartone, diciamo, del
+21:59 cono dell'altoparlante.
+22:01 E su questa bobina
+22:05 i terminali di questa bobina vengono
+22:06 portati fuori dall'altoparlante
+22:08 e vengono appunto collegati al
+22:11 all'amplificatore. Quando
+22:13 l'amplificatore emette un segnale,
+22:16 quindi quando manda una certa tensione e
+22:18 fa scorrere una certa corrente in questa
+22:20 bobina, la bobina, come tutte le bobine,
+22:23 come tutti gli induttori, genera un
+22:25 campo magnetico. L'interazione del campo
+22:28 magnetico di questa bobina col campo
+22:31 magnetico fisso generato dal magnete
+22:33 permanente fa muovere il cono
+22:35 dell'altoparlante. È lo stesso principio
+22:37 che abbiamo detto varie volte, no? Se
+22:39 prendiamo due calamite, queste calamite
+22:41 si possono attrarre o respingere a
+22:43 secondo di come sono voltati i poli,
+22:44 però le le calamite fanno una forza
+22:47 l'una contro l'altra. dell'altoparlante
+22:49 succede esattamente la stessa cosa.
+22:51 Quindi eh il campo elettrico generato
+22:54 dalla bobina mobile, come vi chiamata,
+22:57 interagisce col campo elettrico,
+22:59 scusatemi, il campo magnetico generato
+23:01 dalla bobina mobile interagisce col
+23:03 campo magnetico generato dal magnete
+23:05 permanente e quindi questo crea
+23:08 movimento. questo movimento mette in
+23:10 moto il il cone. Questo fa sì che si si
+23:13 l'altoparlante
+23:15 generi le onde acustiche che sono
+23:18 udibili dal nostro orecchio. Quindi
+23:20 l'altoparlante funziona in base alla eh
+23:23 all'interazione di due campi magnetici,
+23:26 uno fisso e uno variabile dipendente dal
+23:29 segnale che deve riprodurre.
+23:31 Lo stesso altoparlante può funzionare da
+23:34 microfono perché se si parla davanti a
+23:36 un altoparlante che cosa succede?
+23:39 Succede che immaginiamo, scusate,
+23:41 ripulisco
+23:45 ripulisco la slide. Immaginate di essere
+23:49 davanti all'altoparlante,
+23:51 cioè in questa posizione qui. Immaginate
+23:53 che qui ci sia la vostra bocca e state
+23:56 parlando verso rivolti verso
+23:58 l'altoparlante.
+24:00 La vostra voce, che quindi è un'onda
+24:02 acustica, quindi un'onda meccanica,
+24:04 mette in vibrazione il cono. Mettendo in
+24:07 vibrazioni il cono, questa vibrazione fa
+24:10 sì che la bobina mobile
+24:12 che sta alla base del cono si muova
+24:15 dentro il magnete permanente.
+24:19 ricordate quando abbiamo parlato degli
+24:21 induttori, del magnetismo, eccetera,
+24:22 questa è la legge di Faradei, cioè
+24:24 quando
+24:27 si quando un conduttore si muove in un
+24:31 campo magnetico, su questo conduttore
+24:34 nasce una eh corrente elettrica indotta
+24:38 quando si muove un conduttore in un
+24:40 campo magnetico.
+24:42 E questo è esattamente quello che
+24:43 succede nell'altoparlante. Quindi questo
+24:46 dispositivo qua
+24:48 può funzionare indifferentemente da
+24:51 microfono o d'altoparlante. Certo è che
+24:54 quando deve funzionare come altoparlante
+24:56 è bello grosso perché deve riprodurre
+24:58 bene tutte le frequenze, anche le basse
+25:00 e così via, no? Quindi è fatto in un
+25:02 certo modo con una certa dimensione.
+25:05 Quando è fatto come microfono è molto
+25:06 piccolo, è tutto più leggero, deve
+25:08 essere più sensibile alla voce che non è
+25:10 che poi smuove tanta aria, no? e quindi
+25:13 ha dei requisiti diversi, però il
+25:15 principio di funzionamento è esattamente
+25:16 lo stesso ed è quello di una bobina
+25:18 mobile che scorre in un campo magnetico
+25:20 fisso. Quando nella bobina c'è un
+25:23 segnale,
+25:24 la bobina, questo segnale fa muovere la
+25:27 bobina e quindi si muove il cono e
+25:29 questo è il funzionamento come
+25:31 altoparlante. Quando invece parliamo
+25:33 davanti all'altoparlante,
+25:36 in realtà siamo noi con la nostra voce
+25:37 che muoviamo la bobina e questa bobina
+25:40 che si muove nel campo magnetico genera
+25:42 un segnale elettrico. E questi sono i
+25:45 microfoni che sono chiamati dinamici,
+25:48 come avete qua nella nella slide
+25:50 precedente. Questi sono i microfoni
+25:51 dinamici che di fatto funzionano come un
+25:54 altoparlante a rovescio. si parla
+25:57 nell'altoparlante e il microfono
+25:59 funziona e e diciamo eh il nostro
+26:02 parlato genera un segnale elettrico. E
+26:05 questi sono le due classi di trasduttori
+26:08 che stanno prima o dopo ogni dispositivo
+26:10 orario, il microfono e l'altoparlante.
+26:13 Tutto chiaro? C'è c'è qualche domanda
+26:15 prima di proseguire?
+26:17 Interrompo un attimo la condivisione.
+26:22 Ok, procedo. Anche perché in effetti il
+26:24 funzionamento degli altoparlanti e dei
+26:26 micropini è estremamente, diciamo,
+26:28 elementare.
+26:30 Allora, andiamo avanti.
+26:35 Dunque, prima di entrare nel nel vedere
+26:38 come funzionano i trasmettitori,
+26:40 dobbiamo parlare di un altro delle
+26:43 scatolettine che fanno parte della
+26:45 catena di una catena di trasmissione, ma
+26:47 anche di ricezione. Avevamo già visto eh
+26:50 mercoledì scorso eh come scatolette, no,
+26:53 come mattoncini dell'EGO,
+26:55 l'amplificatore di bassa frequenza,
+26:56 l'amplificatore di alta frequenza, il
+26:58 VFO. C'è un altro tipo di scatoletta che
+27:00 si chiama i miscelatori, molte molte
+27:03 volte chiamati mixer anche in inglese.
+27:06 Il miscelatore è è un dispositivo
+27:09 realizzato da da alcuni è un circuito
+27:11 realizzato con alcuni transistor. È un
+27:13 circuito che ha due ingressi,
+27:15 ingresso 1 e ingresso 2.
+27:19 In questi due ingressi vengono mandati
+27:21 due segnali ovviamente diversi di
+27:23 frequenza diversa. Il mescellatore
+27:27 mescola le frequenze di questi segnali e
+27:30 produce in uscita due segnali dei quali
+27:34 uno ha come frequenza la somma delle due
+27:38 frequenze che ha in ingresso.
+27:40 Frequenza ingresso 1 più frequenze 2.
+27:43 L'altro segnale ha come frequenza la
+27:45 differenza due. Frequenza di ingresso 1
+27:48 meno frequenza di ingresso 2. Lo vediamo
+27:51 meglio con con questo esempietto,
+27:53 diciamo, con questi numeri. Esempio,
+27:55 mando dentro un miscelatore due segnali,
+27:58 uno con una frequenza di 10 MHz e uno
+28:01 con una frequenza di 2 MHz. Che cosa?
+28:03 Che cosa ho in uscita? In uscita ho due
+28:05 segnali, uno con la frequenza somma 12 +
+28:09 2, cioè ho come uscita un segnale di 12
+28:11 MHz, l'altro con la differenza 10 - 2.
+28:16 Ho come uscito un segnale a 8 MHz.
+28:18 Quindi in uscita a questo miscillatore
+28:22 con questi due segnali in ingresso 10 e
+28:23 2 MHz, ho 12 e 8 MHz. Probabilmente una
+28:27 di queste frequenze mi serve nella nella
+28:29 mia radio, l'altra no. La frequenza che
+28:31 non mi serve tipicamente la elimino con
+28:33 un filtro. Questo poi lo vedremo dopo
+28:35 negli schemi a blocchi. E questi sono i
+28:37 miscelatori, chiamati anche mixer, a
+28:39 volte sono chiamati mescolatori,
+28:42 eh vecchie vecchie denominazioni un po'
+28:46 un po' gergali. Comunque il compito che
+28:48 fanno è questo fa, cioè è questo qua,
+28:50 cioè combinano le frequenze di due
+28:53 segnali e in uscita abbiamo un segnale
+28:57 di frequenza somma e un segnale di
+28:59 frequenza differenza rispetto alle due
+29:01 frequenze in ingresso.
+29:05 È chiaro? C'è qualche domanda su questo?
+29:09 Ok,
+29:11 continuo
+29:13 e si entra a questo punto nei
+29:16 trasmettitori veri e propri. Adesso
+29:17 abbiamo tutti i mattoncini dell'ego che
+29:20 ci servono per parlare dei
+29:22 trasmettitori. Intanto un trasmettitore
+29:24 cos'è? È un dispositivo che trasforma
+29:29 un'informazione
+29:30 in un segnale che può essere irradiato
+29:32 dall'antenna. Quindi ne avevamo già un
+29:35 po' parlato nei modi di trasmissione.
+29:39 Ehm
+29:41 la la l'informazione che voglio
+29:43 trasmettere il più delle volte è la
+29:46 nostra voce, però potrebbe essere, ad
+29:47 esempio, potrebbe essere anche
+29:49 un'immagine o potrebbe essere comunque
+29:51 un file di testo, come quando si manda
+29:53 un segnale di posta elettronica. Questa
+29:56 informazione deve essere trasformata da
+29:58 un segnale che può essere irradiato da
+30:00 un'antenna che può dar luogo o non
+30:02 elettromagnetica. E il trasmettitore fa
+30:05 appunto questo tipo di eh
+30:07 trasformazione.
+30:09 Ci ci c'è un tipo di trasmettitore, c'è
+30:11 uno schema di trasmettitore se vogliamo,
+30:13 per ogni modo di emissione. Ora parliamo
+30:15 dei trasmettitori in CV, cioè in
+30:17 telegrafia, poi vedremo i trasmettitori
+30:20 in modulazione di ampiezza M in banda
+30:23 laterale unica ed in FM.
+30:26 E cominciamo intanto
+30:29 a a vedere com'è fatto in generale uno
+30:32 schema blocchi di un trasmettitore.
+30:35 Questo schema blocchi che vediamo è
+30:37 abbastanza generico e più o meno va bene
+30:40 per tutti i modi di emissione. Poi
+30:42 vedremo un po' nello specifico. Quindi
+30:44 questo schema ci serve intanto per
+30:46 prendere confidenza su come è fatto un
+30:48 trasmettitore. Allora, intanto si deve
+30:51 trasmettere un segnale. sappiamo che c'è
+30:53 da generare un'onda portante. Ricordate
+30:56 quando avevamo parlato dei modi di
+30:58 emissione, no? C'era un'onda portante
+30:59 che veniva modulata. L'onda portante la
+31:02 genera un oscillatore. Quindi il primo
+31:05 stadio di ogni trasmettitore è un
+31:07 oscillatore che mi genera la mia onda
+31:09 portante. E sull'oscillatore
+31:13 agisce la manopola di sintonia del
+31:15 trasmettitore. Questo simboletto che
+31:17 vedete qua a sinistra dell'oscillatore
+31:19 vuol dire la manopola di sintonia. Cioè
+31:21 io girando quella manopola lì agisco
+31:23 sull'oscillatore e quindi sposto la
+31:26 frequenza di trasmissione del mio
+31:28 oscillatore. Quindi se fossi in banda
+31:30 cittadina farei i canale 1 2 3 4 no per
+31:32 tornare ai 40 canali di cui si parlava
+31:34 prima, oppure se sono in un contesto
+31:36 radioamatematoriale vado a sintonia
+31:38 continua, quindi vado ad esempio da 14 e
+31:40 100 a salire girando la la mia sintonia.
+31:44 Allora, il segnale dell'oscillatore,
+31:46 come sapete, è tipicamente debole e è
+31:50 quello generato da un transistor, quindi
+31:53 si parla di pochi mill. È chiaro che io
+31:54 ho bisogno di più potenza in antenna per
+31:58 poter raggiungere una certa distanza.
+32:00 Quindi il segnale dell'oscillatore in
+32:01 qualche modo viene amplificato da una
+32:04 catena di trasmissione.
+32:06 Questa amplificazione
+32:08 è composta di dispositivi che a un certo
+32:10 punto che vengono anche chiamati driver,
+32:13 cioè i piloti che piloteranno
+32:15 l'amplificatore finale. Qui normalmente
+32:17 ci sono 1 2 3 4 amplificatori in serie
+32:21 finché i pochi millwatt generati
+32:24 dall'oscillatore non raggiungono una
+32:26 potenza, ad esempio, di una decina di
+32:28 Watt che può essere in grado poi di
+32:30 pilotare l'amplificatore finale.
+32:33 Come si era detto quando si è parlato
+32:36 dei transistor e degli amplificatori,
+32:38 più o meno tutta questa catena di
+32:40 amplificazione nel mezzo dove c'è
+32:42 scritto driver più o meno è tutta in
+32:44 classe A perché si amplificano potenze
+32:47 moderate e quindi il rendimento non è un
+32:50 problema. Allora, si preferisce
+32:51 un'amplificazione, diciamo, fedele, 360°
+32:55 di angolo di conduzione
+32:58 e per perché
+33:02 questo, diciamo, di fatto non costa
+33:04 particolarmente molto in potenza
+33:06 assorbita, no? Questi sono amplificatori
+33:07 che lavorano su piccole potenze. Poi si
+33:10 arriva all'amplificatore finale.
+33:11 L'amplificatore finale tipicamente, come
+33:14 si è detto poco fa nelle nelle domande,
+33:17 è è un push pool basato con due
+33:19 dispositivi, quindi rendimento del 60% e
+33:22 può essere un amplificatore da 10, da
+33:24 100, da 500 W a seconda del tipo di
+33:26 radio che si che si ha.
+33:29 Poi c'è uno stadio importantissimo
+33:32 che è l'accordatore. L'accorde. Cioè
+33:35 bisogna fare in modo che Eccolo qua.
+33:38 Bisogna fare in modo che se il mio
+33:41 amplificatore genera 100 W, questi 100 W
+33:45 possono in qualche modo tutti quanti
+33:47 raggiungere l'antenna ed essere
+33:49 irradiati
+33:51 perché eh
+33:54 e per far questo bisogna che ci sia un
+33:57 giusto adattamento fra l'impedenza di
+34:00 uscita del trasmettitore e l'impedenza
+34:02 di ingresso dell'antenna
+34:04 eh nel mondo radiamatoiale commerciale,
+34:09 non solamente, diciamo, radioamatoriale,
+34:11 no? Nel mondo della radio, non solamente
+34:14 radioamatoriale, ma in generale anche
+34:15 commerciale.
+34:17 L'interfaccia fra la radio e l'antenna è
+34:20 standardizzata al valore di 50 ohm, 50
+34:26 ohm. Quindi, sostanzialmente,
+34:28 tutti i trasmettitori e o tutti gli
+34:31 amplificatori che possono essere
+34:33 acquistati hanno un'impetenza di uscita
+34:36 di 50 ohm e tutte le antenne che si
+34:39 acquistano, piccole, grandi, lunghe,
+34:41 corte, eccetera, hanno un'impedenza di
+34:43 ingresso di 50 ohm.
+34:46 si può dimostrare matematicamente, ma ma
+34:49 diciamo questa dimostrazione, fidatevi
+34:52 che che c'è e non c'è bisogno di di
+34:55 saperla fare. Cioè si può dimostrare
+34:57 matematicamente che il massimo di
+35:01 trasferimento di potenza fra un
+35:03 trasmettitore che poi che che di fatto è
+35:06 un generatore e un carico, il massimo
+35:09 trasferimento di potenza si ha quando
+35:11 l'impedenza di uscita del trasmettitore
+35:14 è uguale identica all'impetenza di
+35:16 ingresso dell'antenna del carico. E
+35:20 questo è la funzione dell'accordatore
+35:22 perché potrebbe essere che nella nella
+35:24 nostra catena di trasmissione
+35:26 l'amplificatore finale abbia, per come è
+35:28 costruito, un'impenza di uscita di 500
+35:30 ohm. Se si collega un amplificatore che
+35:34 ha un'impotenza di uscita di 500 ohm a
+35:36 un'antenna che ne ha 50, il
+35:38 trasferimento reale di potenza è minimo
+35:41 e questo ovviamente non va bene. Ci deve
+35:43 essere un adattamento, un accordo fra
+35:46 l'impedenza di uscita della radio,
+35:48 ovvero dell'amplificatore finale, quella
+35:49 dell'antenna e lo standard per questo è
+35:52 di 50 ohm.
+35:56 Poi
+35:58 e questa diciamo è la catena di
+36:00 trasmissione diciamo classica,
+36:02 oscillatore, una catena di
+36:04 amplificazione,
+36:06 l'amplificatore finale e l'accordatore
+36:09 per avere la stessa impedenza
+36:11 dell'antena, cioè 50 ohm.
+36:14 Eh, questi stadi che abbiamo visto sono
+36:18 in qualche modo pilotabili da un
+36:21 modulatore. Il modulatore è quello in è
+36:24 il circuito che sovrappone al segnale
+36:28 quello che io voglio trasmettere, ad
+36:29 esempio, la mia voce. Il modulatore può
+36:31 agire un po' dappertutto, dipende dal
+36:33 modo di emissione. Poi vedremo che, ad
+36:35 esempio, il modulatore se si trasmette
+36:37 in FM agisce sull'oscill
+36:39 sull'oscillatore perché deve variare la
+36:41 frequenza. se si trasmette in SSB eh
+36:46 agisce su uno degli amplificatori
+36:48 intermedi, lo lo vedremo poi in seguito.
+36:53 E ovviamente c'è un alimentatore che
+36:56 alimenta, diciamo, tutti questi
+36:59 dispositivi.
+37:00 E adesso cominciamo a vedere come
+37:02 funziona questo, come funzionano i vari
+37:05 tipi di trasmettitore per ogni per ogni
+37:09 modo di emissione. Intanto però prima di
+37:11 andare avanti stacco un attimo anche
+37:12 perché ho parlato abbastanza e quindi a
+37:17 voi se ci sono domande o se le cose
+37:20 dette finora sono chiare. Vai
+37:21 Alessandro, dai, vai, vai. Ottima, fai
+37:24 una bella domanda perché così interrompi
+37:26 un po' se non sto parlando troppo.
+37:28 >> Sì, scusa Paolo. E niente, volevo sapere
+37:31 ma l'accordatore praticamente può
+37:34 regolare anche le onde stazionarie? Sì,
+37:36 esatto, esatto. Perché se non c'è
+37:39 adattamento fra i 50 ohm del
+37:41 trasmettitore e l'antenna che potrebbe
+37:44 avere 60 ohm, si creano delle onde
+37:46 stazionarie e queste bisogna di fatto
+37:49 eliminarle. Questa parte qui la vedrete
+37:52 a settembre quando parleremo appunto dei
+37:55 delle linee di trasmissione, delle
+37:57 antenne e de appunto di come si
+38:00 accordano di come si accorda un'antenna.
+38:03 >> Ok, grazie. È giustissima sta cosa. Ok,
+38:07 Gianfranco a te. Buonasera.
+38:09 >> Buonasera a tutti. Eh, un passo indietro
+38:13 sui miscelatori.
+38:15 Eh, una curiosità più che altro, eh nel
+38:17 momento in cui eh abbiamo detto che
+38:20 possono fare sia da sommatore che eh
+38:24 quindi possono anche fare la differenza
+38:26 tra i segnali, quindi tra due segnali in
+38:27 ingresso possono avere eh possono
+38:30 generare la somma in tra le due
+38:32 frequenze e la differenza tra le due
+38:34 frequenze. Sì,
+38:36 >> nel caso della differenza si parla di
+38:38 valore assoluto delle dei delle
+38:40 frequenze, immagino, perché se la
+38:42 frequenza
+38:43 >> eh perché altrimenti si terbebbe una
+38:46 cosa negativa che non mi tornava
+38:49 fisicamente.
+38:50 >> Eh, esattamente. Giustissimo,
+38:52 giustissimo. Infatti, diciamo, quando
+38:55 nell'esempio di prima facevamo 10 + 2 e
+38:58 tutto va bene, diventa 12 e poi diciamo
+39:01 il 10 -2 o il 2 - 10, cioè va
+39:04 considerato comunque in valore assoluto.
+39:06 Se si facesse 2 - 10 sarebbe -8 che poi
+39:08 sarebbe sempre 8 in effetti.
+39:11 >> Ok. Una curiosità
+39:12 >> giustamente. Sì, giustamente non
+39:14 esistono frequenze negative.
+39:16 >> Esatto. Ok, va bene. Niente, grazie.
+39:19 Grazie. Grazie
+39:21 >> a te. A te.
+39:25 Ci sono altre domande, rimetto lo
+39:26 schermo in condivisione.
+39:28 Allora, andiamo avanti. Dunque,
+39:31 nelle nei lucidi che che poi che poi
+39:35 riceverete, avete un piccolo premoria
+39:37 sulle cose che abbiamo detto ora e che
+39:39 vi ripeto che aiuta la memorizzazione.
+39:41 Allora, l'oscillatore abbiamo detto cosa
+39:43 fa? Genera il segnale a radiofrequenza.
+39:46 Eccolo qua. Mh.
+39:49 Oscillatore.
+39:51 Il driver è la catena di amplificazione
+39:53 in classe A
+39:55 per portare il segnale dell'oscillatore
+39:57 fino alla potenza necessaria per
+39:59 pilotare lo stadio finale. Il finale
+40:01 amplifica in classe AB, quindi
+40:03 tipicamente un push, roba del genere, il
+40:06 segnale RF fino alla potenza voluta. Poi
+40:09 abbiamo il modulatore. Il modulatore
+40:12 come lavoro aggancia l'informazione. Ad
+40:14 esempio la nostra voce.
+40:16 al segnale RF, alla portante. Il
+40:18 modulatore modula la portante e poi c'è
+40:21 l'accordatore di antenna dove la parola
+40:23 chiave è questa che appena ritrovo il
+40:26 cursore è questa che leggete qua.
+40:29 Accordatore di antenna adatta adatta
+40:31 l'impedenza d'uscita dell'amplificatore
+40:33 a quella dell'antenna.
+40:36 Allora, come funziona un trasmettitore
+40:37 in telegrafia? Che è quello più in
+40:39 qualche modo semplice di tutti, no?
+40:42 telegrafia che sembra una cosa arcana,
+40:44 cioè arcaica, in realtà ci sono
+40:46 moltissimi che ancora continuano a
+40:48 praticarla perché è un modo di emissione
+40:50 che con pochissima potenza consente di
+40:52 farsi sentire a lunga distanza. Allora,
+40:55 il più semplice trasmettitore che si può
+40:57 fare in telegrafia è quello che vedete
+40:59 qua. C'è un oscillatore a cristallo.
+41:03 Molto spesso negli schemi elettrici
+41:06 cristallo, soprattutto in schemi di
+41:08 natura anglosassone, viene abbreviato in
+41:11 Xtal.
+41:12 leggendolo la la ex all'americana, no,
+41:15 assomiglia un po' a cristallo.
+41:17 Questo oscillatore è seguito
+41:20 semplicemente da un amplificatore di
+41:22 potenza. Il tasto telegrafico dove dove
+41:25 sta? Se diciamo qui non è rappresentato,
+41:28 ma il tasto telegrafico si limita
+41:30 semplicemente ad accendere e spengere
+41:34 eh uno degli amplificatori della catena
+41:36 di trasmissione
+41:39 questa qua nell'amplificatore di
+41:40 potenza. Quindi la, come si dice, la
+41:42 manipolazione telegrafica viene fatta
+41:44 proprio con un interruttore che accende
+41:48 e spenge il, diciamo, la la catena di di
+41:51 amplificazione e questo è lo schema più
+41:54 semplice di un trasmettitore in
+41:55 telegrafia, però ovviamente c'è un
+41:57 problema, come leggete sotto, è che
+41:58 questo trasmette solo su una frequenza,
+42:00 quella di un del cristallo e questo non
+42:02 va tanto bene, anche si può in qualche
+42:06 modo passare a uno schema leggermente
+42:08 più complesso
+42:10 e qui Finalmente veniamo all'opera i
+42:12 famosi mixer. Allora, si prende un
+42:15 oscillatore variabile
+42:17 perché noi non vogliamo trasmettere
+42:20 solamente su un canale, ma vogliamo
+42:22 trasmettere su una banda. Immaginiamo
+42:24 che le bande radiamatoriali, parlo delle
+42:27 onde corte, con l'eccezione della banda
+42:29 dei 10 m che è molto larga, sono tutte
+42:32 bande che stanno al di sotto di 500 kHz
+42:35 di larghezza di banda e quindi molti
+42:39 trasmettitori, molti ricitasmettitori
+42:41 radioamatematoriali dividono le bande in
+42:44 segmenti di 500 kHz.
+42:48 Allora, l'oscillatore variabile, ad
+42:50 esempio, su cui vi ricordo agisce la
+42:53 nostra manopola per farla sintonia, eh
+42:56 può avere un'escursione di frequenze di
+42:58 circa 500 kHz.
+43:02 Io posso miscelare la frequenza del mio
+43:05 oscillatore variabile con quella di un
+43:06 oscillatore a cristallo
+43:09 per ottenere il segnale, la frequenza
+43:10 che voglio e poi ho il mio amplificatore
+43:13 di potenza. Allora, perché io faccio
+43:15 questo? Perché in teoria si potrebbe
+43:17 pensare che con un oscillatore variabile
+43:20 io potrei pilotare direttamente eh il
+43:23 mio amplificatore di potenza. Eh, questo
+43:26 si può anche fare, ma normalmente si usa
+43:29 questo schema per vari motivi. Il primo
+43:31 motivo è quello della stabilità, perché,
+43:34 se ricordate si era detto che gli
+43:36 oscillatori a quarzo sono molto molto
+43:38 stabili perché è la famosa stabilità del
+43:40 quarzo, come si usa anche negli orologi.
+43:43 Invece gli oscillatori variabili che
+43:46 usano circuiti risonanti con induttori e
+43:49 condensatori sono meno stabili in
+43:52 frequenza. Allora, il nostro oscillatore
+43:55 variabile, per avere dal nostro
+43:58 oscillatore variabile,
+44:01 scusate, per avere dal nostro
+44:03 oscillatore variabile una stabilità
+44:05 alta, conviene farlo lavorare a
+44:07 frequenza bassa. Allora, immaginiamo che
+44:09 io voglio fare una un trasmettitore che
+44:11 lavori in banda eh che trasmetta a 28
+44:15 MHz, banda radioamatomatoriale dei 28
+44:18 MHz. Se io facessi un oscillatore
+44:20 variabile a quella frequenza lì, a 28
+44:22 MHz, probabilmente l'oscillatore sarebbe
+44:24 poco stabile, camminerebbe in frequenza.
+44:27 Allora, cosa si fa? Di solito si fa un
+44:29 oscillatore variabile a frequenza bassa,
+44:32 che potrebbe essere questa frequenza 5
+44:34 MHz, tanto per dire. un oscillatore
+44:37 variabile a 5 MHz è molto più stabile di
+44:41 1 a 28 MHz e poi questi 5 MHz vengono
+44:45 trasformati a 28 tramite un mixer.
+44:48 Inserendo qui un oscillatore, ad
+44:49 esempio, ha una frequenza di frequenza
+44:52 di 23 MHz, 23 + 5, ecco i 28 a cui
+44:58 vogliamo trasmettere.
+45:02 Questo tipo di schema ci consente anche
+45:05 un'altra cosa. Se si vuol fare un
+45:07 trasmettitore multibanda, non c'è
+45:09 bisogno di buttare all'aria più di
+45:11 tanto, ma basta semplicemente sostituire
+45:15 il quarzo che sta nel nell'oscillatore a
+45:18 cristalli. E guardate un po' questa
+45:21 questa tabella. Immaginiamo di voler
+45:24 trasmettere,
+45:27 scusate un attimo. Ok. Immaginiamo di
+45:30 voler trasmettere
+45:32 queste sono le cinque bande
+45:34 radioamatoriali classiche storiche in
+45:36 onde corte, la banda dei 35, dei 7 me,
+45:39 dei 14, dei 21 e dei 28. Immaginiamo di
+45:42 avere un solo oscillatore variabile
+45:45 di frequenza che va da 5 a 5,5 MHz,
+45:50 quindi un oscillatore variabile che mi
+45:51 fa mezzo MHz, i 500 kHz di cui si
+45:54 parlava prima.
+45:57 Con questo oscillatore variabile posso
+45:58 in qualche modo coprire tutte e cinque
+46:00 le mie bande perché ad esempio voglio
+46:02 coprire la banda dei 3,5 MHz. Cosa
+46:05 faccio? Nell'oscillatore
+46:08 nell'oscillatore a cristallo metto un
+46:11 quarzo da 9 MHz. A questo punto nel
+46:14 miscelatore cosa cosa ho? Ho 9 - 5,5.
+46:20 9 - 5,5
+46:22 fa 3/5. Ok?
+46:26 Poi banda de 7 MHz, metto un cristallo
+46:29 da 12 MHz.
+46:32 12 MHz - 5. Ecco qua il 7 MHz. Banda dei
+46:37 14. Uso lo stesso quarzo di prima, 9
+46:40 MHz. Semplicemente prima ho preso la
+46:43 differenza, adesso prendo la somma. 9 +
+46:46 5, ecco qua i 14 MHz.
+46:49 Banda de 21 MHz, metto 1/4 da 16. 16 + 5
+46:54 il risultato è 21. Banda dei 28 MHz,
+46:57 cristallo da 23. Quindi praticamente,
+47:01 scusate,
+47:02 torno indietro.
+47:06 Praticamente, se lo pensiamo in termini
+47:09 di comandi del mio trasmettitore,
+47:12 questa cosa che abbiamo in qualche modo
+47:15 immaginato ha, come si diceva qui la mia
+47:18 manopola di sintonia.
+47:23 Variando il mio oscillatore variabile,
+47:25 sintonizzo pian pianino la mia banda.
+47:28 E qui invece nell'oscillatore a
+47:30 cristallo ho un'altra manopola, o meglio
+47:32 ho un commutatore.
+47:34 Qui ho il commutatore di banda,
+47:37 quindi qui ho banda 1, banda 2, banda 3,
+47:40 banda 4, le bande che abbiamo visto
+47:42 nella slide successiva.
+47:45 Per ogni banda, con questo commutatore,
+47:47 io inserisco nell'oscillatore a
+47:49 cristallo il quarzo di frequenza giusta
+47:52 che mi porta il mio oscillatore che sta,
+47:56 come si diceva, fra 5 e 5 MHz che lo
+48:00 porta alla frequenza su cui io voglio
+48:02 trasmettere e così viene realizzato,
+48:06 diciamo, un trasmettitore
+48:08 molto semplice in telegrafia per ora,
+48:10 però a questo punto abbiamo un
+48:12 trasmettitore multibanda.
+48:15 Su su ogni banda di 500 kHz io ho una
+48:19 sintonia continua grazie all'oscillatore
+48:21 variabile. di bande ne ho molte perché
+48:24 se io qui continuo a mettere quarzi in
+48:26 questo oscillatore, qui ne ho fatti
+48:28 cinque in questo esempio, ma posso
+48:30 passare a nove, posso passare a 12,
+48:32 posso mettere un quarzo per ogni banda
+48:34 che mi interessa avere e con un con un
+48:37 commutatore cambio banda e in qualche
+48:40 modo eh trasmetto in dove voglio.
+48:45 E questo è un funzionamento tipico di un
+48:48 di un trasmettitore telografico proprio
+48:50 basilare. D'accordo?
+48:53 visto che c'era una mano alzata. Eh,
+48:58 un attimo, eh, che recupero
+49:00 Teams
+49:04 a te, Alessandro.
+49:07 >> Buonasera a tutti. No, volevo sapere, ma
+49:09 all'uscita però ci va messo comunque un
+49:11 filtro per eliminare l'altra frequenza.
+49:14 Sì, esattamente, esattamente.
+49:18 Giustissimo. Questi schemi sono un po',
+49:20 diciamo, semplificati.
+49:23 Ah, sì.
+49:24 >> E diciamo qui dopo il mixer, qua fra il
+49:27 mixer e l'amplificatore ci vuole un
+49:29 filtro specifico per la frequenza che su
+49:33 cui io voglio lavorare. Quindi qui avrò
+49:36 dei filtri passabanda, ricordate, no?
+49:39 quando avevamo parlato dei filtri di
+49:40 passabanda,
+49:42 eh, ognuno per la frequenza su cui mi
+49:44 interessa trasmettere.
+49:47 Osservazione giustissima.
+49:49 Altre domande?
+49:53 Ok,
+49:56 non non vedo mano alzate. Continuo.
+50:02 Allora, dopo dopo, diciamo, a valle del
+50:07 mio trasmettitore ho il famoso circuito
+50:09 di accordo di cui si parlava prima.
+50:12 Molti circuiti di accordo, anche negli
+50:14 accordatori di antenna sono fatti con
+50:17 uno schema che è chiamato AP greco.
+50:20 Questo è uno degli schemi più usati, più
+50:23 classici degli accordatori di antenna.
+50:26 Qui c'è l'amplificatore di potenza, come
+50:28 si diceva prima. Questo è il simbolo
+50:31 dell'antenna.
+50:32 eh per adattare
+50:35 la l'uscita dell'amplificatore di
+50:37 potenza ai 50 ohm delle antenne, perché
+50:40 appunto si diceva che le le antenne di
+50:42 fatto sono standardizzate a a 50 ohm,
+50:45 esattamente come i cavi coassiali, si
+50:48 usano se una un circuito a P, vedete che
+50:51 ha una forma che somiglia a un P, in
+50:55 particolare a un p greco, per questo si
+50:57 chiama accordatore a pi greco, no? con i
+50:59 due condensatori in verticale e la
+51:01 bovina in orizzontale
+51:03 e in pratica eh regolando questi due
+51:06 condensatori variabili, uno lato
+51:09 trasmettitore e uno lato antenna,
+51:12 eh questo tipo di circuito di accordo
+51:14 riesce ad adattare abbastanza bene
+51:16 l'impedenza di uscita dell'amplificatore
+51:18 a quella dell'antenna e quindi si
+51:19 ottiene la condizione di massima
+51:21 potenza, per cui eh un circuito tipico
+51:24 che serve per accordare il trasmettitore
+51:26 con l'antenna ha la forma di un pig
+51:28 greco.
+51:29 due condensatori variabili e una bobina.
+51:34 Infine, ultima cosa sulla sulla
+51:37 telegrafia.
+51:38 Eh, allora, nei trasmettitori
+51:40 telegrafici è inserito un circuito
+51:43 particolare che in qualche modo smussa
+51:47 un po' la forma d'onda che viene
+51:50 trasmessa. Allora, perché si fa questo e
+51:53 cerchiamo di capirlo un po' meglio.
+51:55 Quello che vedete qua sotto in basso e
+51:58 qui è purtroppo la figura in inglese,
+52:01 questa è l'uscita del tasso telegrafico.
+52:03 Il ke il keer è il manipolatore
+52:06 telegrafico, no? In questo momento,
+52:08 vedete, c'è ke down. Qui viene tenuto
+52:10 premuto il tasto della telegrafia.
+52:12 Diciamo che l'operatore qui sta
+52:14 trasmettendo un punto. Il punto D in
+52:17 telegrafia corrisponde alla lettera E.
+52:20 Allora, se io trasmettessi una eh un
+52:24 un'onda radio fatta esattamente in
+52:26 questo modo, cioè unonda radio con qui
+52:30 zero, poi improvvisamente un salto
+52:33 repentino al valore di alta potenza e
+52:36 diciamo qui riabbassarsi repentinamente
+52:39 a zero. Quindi un ononda radio con i
+52:41 margini verticali con i spigoli, fatemi
+52:43 dire affilati, questo onda ratio
+52:46 disturberebbe i canali circostanti. un
+52:49 segnale di questo tipo, eh allarga,
+52:53 diciamo, in frequenza
+52:55 e crea, diciamo, crea disturbi sulle
+52:57 frequenze vicine a quelle su cui stai
+52:59 trasmettendo,
+53:01 perché eh tu, diciamo, perché in
+53:04 generale quando ci sono segnali con
+53:07 fronti molto ripidi questi segnali sono
+53:09 ricchi di di frequenze armoniche
+53:12 e di conseguenza allargano la banda del
+53:15 segnale trasmesso. Allora, in pratica in
+53:17 tutti i trasmettitori telegrafici c'è un
+53:20 circuito che fa questo, cioè quando il
+53:23 l'operatore abbassa il tasto, la
+53:26 frequenza del trasmettitore, come vedete
+53:28 quassù,
+53:30 non sale repentinamente, ma viene in
+53:32 qualche modo, ma segue una crescita
+53:36 veloce, ma comunque graduale, smussata.
+53:40 Questo fa sì che l'emissione resti
+53:41 pulita, cioè resti nel canale in cui si
+53:43 sta trasmettendo, non non vada a
+53:46 disturbare chi trasmette in canali
+53:48 adiacenti. E la stessa cosa qui quando
+53:50 il tasto viene rilasciato, la vedete che
+53:53 qui la potenza di uscita non cala
+53:56 repentinamente a zero, ma c'è una una
+53:58 parte, diciamo, ci sono alcuni
+54:00 millisecondi in cui il segnale cala giù
+54:03 con una certa gradualità. Questo è base
+54:05 ai cosiddetti click di manipolazione.
+54:08 Questo è il fenomeno, lo leggete qua, si
+54:10 chiama appunto i click di manipolazione
+54:13 che è che che si sente benissimo, cioè
+54:16 quando poi in radio capita di sentirli,
+54:19 no? Se uno va in una banda, in una delle
+54:21 parti di bande dove si lavora in
+54:22 telegrafia, se c'è qualcuno che lavora
+54:24 con con un trasmettitore, ad esempio,
+54:26 autocostruito, che non ha questo tipo di
+54:28 protezione, eccetera, lo si lo si sente
+54:31 molto largo nella nel nella banda.
+54:34 E invece con con questo semplice
+54:36 accorgimento che poi si fa di fatto con
+54:38 un con un condensatore o un paio di
+54:40 condensatori si evita il problema dei
+54:42 click di manipolazione.
+54:45 E questo è tutto sui trasmettitori in
+54:48 telegrafia.
+54:51 i trasmettitori per modulazione di
+54:53 ampiezza. Eh, anche questi sono
+54:56 estremamente semplici. Qui vi ho
+54:58 riportato, ho cercato disperatamente uno
+55:01 schema semplificato senza riuscire a a
+55:04 trovarlo. Siccome eh
+55:07 io non sono non sono particolarmente
+55:09 bravo a fare disegni e schemi, ho
+55:12 trovato questo schema che riassume in
+55:14 qualche modo che che fa capire bene come
+55:16 funziona eh come si ottiene una
+55:19 modulazione di ampiezza. In pratica la
+55:21 modulazione di ampiezza si ottiene
+55:24 modulando la tensione di alimentazione
+55:26 dell'amplificatore finale
+55:29 e e lo vediamo su su questo schema.
+55:33 Dunque, questo è il segnale non
+55:36 modulato, la portante che entra
+55:38 nell'amplificatore finale
+55:43 che in questo caso è a valvola, ma se
+55:45 fosse a transistor non cambierebbe
+55:46 assolutamente niente. Allora, guardiamo
+55:48 questa valvola finale, questo
+55:50 dispositivo finale come viene come viene
+55:52 alimentato. L'alimentazione di di questa
+55:56 di questa valvola avviene tramite questa
+55:59 bobina
+56:01 e questo, se vogliamo, è il circuito
+56:03 risonante di uscita. Questa bobina passa
+56:06 tramite un trasformatore che è chiamato
+56:09 trasformatore di modulazione
+56:12 fino a raggiungere l'alimentatore
+56:16 che dà la tensione di anodo della
+56:19 valvola vera e propria. Immaginiamo che
+56:21 questo alimentatore, parlando di
+56:22 valvole, dia una tensione fissa di 300
+56:26 V, 300 V, tipica tensione per una
+56:29 valvola di media potenza.
+56:32 Eh, quando stiamo zitti, quando non
+56:35 parliamo, qui si parla di modulazioni di
+56:37 ampiezza, appunto, questi 300 Vno
+56:40 sull'anodo della valvola che amplifica e
+56:42 dà la sua potenza di uscita. Immaginiamo
+56:44 che la potenza di uscita sia di 50 W.
+56:47 Nel momento in cui c'ho c'è il segnale
+56:49 audio, quindi questo, il segnale audio
+56:52 viene amplificato
+56:54 e da da questa valvola e l'uscita di
+56:58 questa valvola tramite questo
+57:01 trasformatore che è chiamato
+57:03 trasformatore di modulazione
+57:05 va ad aggiungere o a togliere una certa
+57:08 tensione alla tensione di alimentazione
+57:10 della valvola. Cioè, immaginiamo che dal
+57:12 modulatore
+57:14 esca una sinusoide. In questo punto qui
+57:17 esca una sinusoide che ha un valore di
+57:20 150 V, da + 150 a -150. Immaginiamo
+57:25 questo con un trasformatore proprio 1 a
+57:26 un che non modifica le tensioni, no? Nel
+57:30 momento in cui parlo questa questa
+57:32 sinusoide che va da + 150 a -150 a causa
+57:36 di questo trasformatore
+57:38 si sovrappone a questi 300 V fissi
+57:42 dell'alimentatore della valvola. Quindi
+57:44 questi 300 V diventano in certi momenti
+57:47 450 e in certi momenti 150.
+57:51 Quindi 300 + 150 300 - 150. D'accordo?
+57:56 Quindi 150 V in uscita dal mio
+57:59 modulatore
+58:01 vanno ad incrementare, a decrementare la
+58:04 tensione che alimenta la valvola.
+58:07 Chiaramente questo amplificatore eh nel
+58:10 momento in cui la valvola è alimentata a
+58:12 450 è chiaro che la valvola amplifica di
+58:15 più e quindi ho più potenza di uscita e
+58:18 viceversa, nel momento in cui la valvola
+58:20 alimentata a 150 è, diciamo, tarpata, è
+58:23 chiaro che la potenza di uscita calerà e
+58:26 quindi in uscita, in questo modo, ho un
+58:28 segnale modulato in ampiezza che segue
+58:30 il mio il mio parlato. Questa stessa
+58:33 cosa succede, ad esempio, nei baracchini
+58:35 CB, modulazione d'ampiezza vecchio
+58:37 stile. Qualcuno di voi parlava tempo fa
+58:40 del tokai 5024, roba del genere. In
+58:43 tutti quei baracchini di quella
+58:45 generazione c'è un quindi baracchini
+58:48 anter SSB per intenderci. C'è
+58:51 all'interno un trasformatore di
+58:52 modulazione che si vede anche bene se si
+58:54 apre la radio e che fa esattamente
+58:57 questa cosa qua a transistor e non a
+59:00 valvole. Quindi il finale di quelle
+59:01 radio, appunto, per esempio il Tokai
+59:03 5024, la Fayet, l'HB23 e così via, il
+59:07 finale èato a 12 V, però quando si
+59:09 modula questi 12 V del finale possono
+59:13 diventare 18 V e scendere fino a 6 e
+59:16 quindi il transistor finale del mio
+59:17 baracchino, avendo questa essendo
+59:20 alimentato con una tensione che fa
+59:22 questo questa escursione da +18 a +6, è
+59:26 chiaro che modifica la tensione di
+59:27 uscita e ho la mia modulazione di
+59:29 ampiezza in in in uscita, appunto, dalla
+59:32 mia radio. Quindi, come vedete, è un
+59:34 meccanismo estremamente semplice, non a
+59:36 caso fu inventato nel 1920
+59:39 e cose di questo tipo e e comunque basta
+59:43 poco, diciamo. Il perno di questa cosa
+59:45 qui è il trasformatore di modulazione.
+59:48 Interrompo un attimo la condivisione ora
+59:50 per sentire se ci sono domande. Quindi
+59:52 abbiamo parlato di come si come si
+59:55 trasmette in CV e diciamo come si
+59:58 trasmette in modulazione di ampiezza.
+60:02 Tutto chiaro per ora?
+60:07 Vai Giancaro.
+60:10 >> Sì, una curiosità, eh, quindi nel CV io
+60:14 praticamente sto interrompendo la
+60:15 portante.
+60:17 >> Sì, esatto. Del CV, quando il tasto è
+60:20 alto, quando non premi dal trasmettitore
+60:22 non esce niente. Potenza d'uscita zero.
+60:26 C'è uscita solo quando premi il tasto.
+60:29 Ok.
+60:31 >> Ok. Chiaro.
+60:34 Grazie. Allora, proseguo
+60:38 e adesso vediamo i trasmettitori in SSB.
+60:44 Attenzione, c'è qualcuno che è rimasto
+60:45 forse col microfono acceso.
+60:49 Allora, il trasmettitore per SSB è un
+60:51 pochino più simpatico, diciamo. Eh,
+60:55 allora, questa è la catena di un tipico
+60:58 trasmettitore SSV. Si parte, come al
+61:00 solito, da un oscillatore. Da un
+61:02 oscillatore a cristallo.
+61:05 L'oscillatore a cristallo è seguito da
+61:08 un circuito che si chiama modulatore
+61:10 bilanciato che riceve il segnale del
+61:13 microfono, come vedete qua. Qua c'è il
+61:14 microfono,
+61:17 il segnale del microfono viene
+61:18 amplificato. Ecco qui un piccolo
+61:20 amplificatore bassa frequenza. viene
+61:23 amplificato poco, diciamo, da 1 o due
+61:25 transistor, si resta con segnali delle
+61:28 ordini di centinaia di millivolt e
+61:30 questo segnale entra nel modulatore
+61:32 bilanciato. Allora, qualitativamente,
+61:35 come funziona un modulatore bilanciato?
+61:37 È un circuito che per sua natura eh è
+61:41 bilanciato. Vedete che ci sono due
+61:42 dispositivi in questo schema tipico che
+61:45 vi ho riportato. Chiaramente lo schema
+61:46 non è non c'è bisogno di di conoscerlo,
+61:49 no? Ovviamente, cioè dal punto di vista
+61:51 dell'esame bisogna sapere cosa fa il
+61:53 modulatore bilanciato, però vi ho
+61:54 riportato questa figura che vi aiuta a
+61:56 comprendere un po' quello che succede.
+61:59 Allora, qui c'è l'ingresso RF, cioè
+62:02 quello che arriva dall'oscillatore a
+62:04 quarzo. L'ingresso RF viene mandato in
+62:07 maniera identica sugli ingressi dei due
+62:10 fetti in questo caso. Però il circuito
+62:12 di uscita è fatto in modo tale che le
+62:15 uscite due dei due FET si sottraggano,
+62:17 cioè siano in controfase. Quindi qui in
+62:20 uscita,
+62:22 quando non c'è segnale avion ingresso,
+62:24 l'uscita è 0
+62:26 perché il segnale RF alimentato da
+62:30 questo fet che sta in alto, chiamiamolo
+62:32 il FET 1, e da questo FET 2, qua in
+62:36 uscita sono in opposizione di fase in
+62:39 questa specie di circuito di bobina che
+62:41 li somma e quindi si annullano l'una con
+62:45 l'altro e quindi l'uscita è zero. Questa
+62:48 condizione di annullamento viene
+62:50 addirittura ricercata, viene affinata
+62:53 mediante questo piccolo potenziometro
+62:55 che serve proprio a bilanciare il
+62:56 modulatore per fare in modo che l'uscita
+63:00 sia zero quando non si parla. E ora,
+63:02 secondo me, avete già capito cosa cosa
+63:05 succede, cioè nel momento in cui parlo,
+63:07 quindi immetto un ingresso audio, questo
+63:10 ingresso audio viene immesso per far
+63:14 funzionare in maniera diversa i due
+63:17 dispositivi, i due Fed, e quindi quando
+63:20 c'è un ingresso audio, questo
+63:22 bilanciamento fra i due dispositivi non
+63:24 è più perfetto e quindi ho una tensione
+63:27 di uscita.
+63:29 Questa uscita ha la forma di una DSB,
+63:33 cioè di un segnale a banda laterale
+63:35 doppia.
+63:36 E questo molto in sintesi, è, diciamo,
+63:40 cosa fa e come funziona molto a grandi
+63:42 linee il modulatore bilanciato. Dal
+63:45 modulatore bilanciato esce un DSB.
+63:47 Ricordate quando avevamo visto i modi di
+63:49 emissione avevamo visto che la portante
+63:52 veniva soppressa, la disegno
+63:54 tratteggiata.
+63:56 Un segnale di SB ha due bande laterali,
+63:59 la banda laterale superiore e la banda
+64:00 laterale inferiore. E questo è
+64:01 esattamente quello che si trova in
+64:03 questo punto qua, all'uscita del
+64:05 modulatore bilanciato. La portante viene
+64:07 soppressa nel modulatore bilanciato,
+64:11 dopodiché io sopprimo la la banda
+64:13 laterale che non mi interessa tramite un
+64:16 filtro abbastanza stretto a 2,5 kHz.
+64:20 Immaginiamo che voglio trasmettere in
+64:22 USB il filtro di frequenza tale che mi
+64:24 azzera la banda laterale inferiore e fa
+64:27 passare solamente la USB. Quindi in
+64:30 questo punto io ho un segnale in SSB in
+64:34 maniera particolare in questo esempio è
+64:36 un segnale USB
+64:38 ha una frequenza fissa che è quella del
+64:41 mio oscillatore a cristallo, per esempio
+64:43 9 MHz, per esempio.
+64:46 E così facendo ho generato la mia SSB.
+64:50 Vedete che a causa di questo meccanismo
+64:53 e a causa soprattutto della necessità
+64:55 del filtro, la USB la SSB viene sempre
+65:00 generata a cioè deve sempre essere
+65:03 generata a una frequenza fissa, mentre
+65:06 io posso fare un trasmettitore in
+65:08 modulazione di ampiezza che vog dalla
+65:10 frequenza che un trasmettitore in
+65:11 modulazione di ampiezza lo posso fare
+65:13 alla frequenza che voglio io. La
+65:16 generazione dell'SB deve essere fatta a
+65:18 frequenza fissa perché questo filtro qua
+65:22 è un filtro a cristallo che lavora a
+65:24 quella frequenza. Punto. E non lo posso
+65:27 spostare.
+65:28 I filtri a quarzo non si possono
+65:31 spostare.
+65:32 >> Cosa?
+65:33 >> Questo fil questo filtro qua
+65:36 >> lo giri.
+65:38 Attenzione, and raà cotto. Attenzione,
+65:41 attenzione, c'è un audio
+65:44 spurio.
+65:47 Quindi poi qui ho la mia USB a frequenza
+65:51 fissa, ad esempio 9 MHz.
+65:54 E qui faccio esattamente le stesse cose
+65:57 che facevo prima, ad esempio, nel
+65:58 trasmettitore CW, cioè, ad esempio, io
+66:01 posso eh con un primo miscelatore
+66:05 convertire questi 9 MHz e mescolandoli
+66:09 col col mio oscillatore variabile,
+66:11 quindi dove avrò la manopola di sintonia
+66:14 e con questo magari posso fare in uscita
+66:17 una banda di 500 kHz, come nell'esempio
+66:20 del CW. E poi qui ho un secondo
+66:23 miscelatore, una seconda conversione con
+66:26 un oscillatore a cristallo. Qui come
+66:29 come nell'oscillatore CV posso mettere
+66:31 un'altra manopola con cui cambio le
+66:33 bande sostituendo i cristalli e io ho il
+66:36 mio trasmettitore in SSB. Se chiaramente
+66:39 serve un amplificatore lineare, perché
+66:41 qui la modulazione è comunque di
+66:43 ampiezza e non la posso distorcere, non
+66:45 posso amplificare in classe C e questo è
+66:48 lo schema tipico di un trasmettitore in
+66:51 SSB. Queste cose che vi ho raccontato
+66:54 più o meno le trovate scritte nelle
+66:56 slide successive. L'oscillatore genera
+66:59 la portante,
+67:01 il modulatore bilanciato genera un
+67:04 segnale di SB, quindi la portante è
+67:07 soppressa, ma ci sono due bande
+67:09 laterali.
+67:10 Il filtro a 2 kHz sopprime la banda
+67:13 laterale che non si vuole, si ottiene la
+67:15 SSB. La SSB è generata ha una frequenza
+67:18 fissa tramite, diciamo, i due mixer,
+67:22 eccoli qua.
+67:24 Eh, mi creo prima col primo mixer non
+67:29 più una frequenza singola, ma una banda.
+67:32 E poi questa banda con il trucchetto che
+67:35 abbiamo visto nel trasmettitore CW me la
+67:37 sposto su tutte le bande
+67:39 radioamatomatoriali su cui voglio
+67:41 trasmettere.
+67:43 E così si genera. E così funziona un
+67:45 trasmettitore in SSB. C'è qualche
+67:47 domanda?
+67:52 Tolgo la condivisione. Vi sento un po'
+67:54 poco reattivi stasera o questo argomento
+67:56 per voi è chiarissimo? Vai Mario.
+68:00 >> E mi domandavo i buonasera a tutti. i
+68:05 con i mixer, visto che è possibile
+68:07 lavorare in somma o in sottrazione,
+68:10 il numero dei cristalli necessari
+68:12 potrebbe essere la metà di quelli.
+68:15 Eh
+68:17 eh
+68:19 sì, se sei fortunato.
+68:22 Infatti
+68:24 infatti
+68:25 aspetta, eh, rimetto lo schermo in
+68:27 condivisione.
+68:29 Infatti prima, quando si era fatto
+68:32 l'esempio
+68:35 questo, vedete che con lo stesso quarzo,
+68:38 questo questo a 9z, praticamente si
+68:40 facevano due bande,
+68:43 >> ok?
+68:44 >> Quella dei 35, quella dei 14, una in
+68:46 sottrazione e una in somma.
+68:49 >> Quindi se sei fortunato e trovi la
+68:51 compilazione giusta, puoi ridurre il
+68:53 numero di quarzi.
+68:56 Giustissimo. Ok,
+68:57 >> grazie. A te altre domande?
+69:06 Vai Pier Luigi.
+69:08 >> Eh sì, nella quando è parlato della
+69:11 della modulazione d'ampiezza, no, è
+69:14 detto che viene variata la tensione
+69:17 dell'alimentazione del del finale della
+69:20 valvola o quello che è. Sì,
+69:21 >> però mi sembra di ricordare che c'è un
+69:24 un circuito risonante, un LC, quindi se
+69:28 è quella frequenza la se lavora con la
+69:31 frequenza di risonanza l'impedenza
+69:33 diventa massima. E come fa a passare la
+69:35 corrente che poi va aumentare la
+69:37 tensione?
+69:38 >> La corrente La corrente passa dalla
+69:40 bobina. La bobina l'induttore è sempre
+69:43 un pezzo di filo, quindi la corrente
+69:45 continua attraversa.
+69:47 Sì, però se cambi, cioè se te lo modo
+69:50 una certa frequenza, cambierà la
+69:52 frequenza, no, con cui va sulla sul
+69:54 catodo, sull'anodo, scusa.
+69:57 >> Eh, aspetta. Eh
+69:59 >> no, cioè quindi non trovo un'impedenza
+70:01 elevata, no? È una domanda, cioè
+70:04 vedendolo così non
+70:07 vede su dove c'è T3 c'è un condensatore,
+70:10 c'è un circore un risonante
+70:12 praticamente.
+70:13 >> Sì, sì, è il circuito risonante di
+70:15 uscita di questo amplificatore
+70:17 >> e infatti questo circuito risonante fa
+70:19 il suo lavoro e ed è accordato sulla
+70:23 frequenza a cui si trasmette, per
+70:25 esempio 14 meg 7 M. più massa. È vero,
+70:29 cioè,
+70:29 >> ma la continua la continua e da da
+70:34 >> dall'induttore ci passa sempre.
+70:37 >> Sì. No, però mi sembra di aver capito
+70:39 che lui funziona cambiando la tensione
+70:41 di sull'alro, no? Quindi in quel modo lì
+70:44 cambia.
+70:45 >> Sì, però
+70:46 >> giusto. Ho capito.
+70:47 >> Sì, scusa. Eh,
+70:49 >> pardon. Sì, però questo però la
+70:52 frequenza con cui cambi la tensione
+70:54 sull'anodo è di qualche kilhz e la
+70:56 frequenza della voce. No, no, è vero, è
+70:58 vero. No, ecco come dicevi prima
+71:02 >> è molto lontana da
+71:04 >> Certo, certo. No, no, ora chiaro,
+71:06 chiaro.
+71:06 >> Dalla frequenza di trasmissione che sono
+71:08 comunque makerz.
+71:11 >> Ok, avrei bisogna un po' di inquadrarlo.
+71:14 >> No, no, buon occhio, buon occhio, buona
+71:15 buona domanda.
+71:17 Ci sono altre domande?
+71:23 Allora, continuo con l'ultimo tipo di
+71:25 trasmettitore che son quelli per FM.
+71:27 trasmettitori per FM sono molto molto
+71:30 semplici. Allora, in pratica, come fatto
+71:32 un trasmettitore FM?
+71:34 L'FM, intanto, come sapete, tipicamente
+71:37 è canalizzata, no? Quindi, mentre quando
+71:40 si trasmette in band radiomatoriali, in
+71:43 SSB,
+71:44 il segnali te lo cerchi in maniera
+71:46 continua con monopolo del WFO, la
+71:49 trasmissione in FM è canalizzata stile
+71:51 banda cittadina. Allora, comeè fatto un
+71:52 trasmettitore FM? Innanzitutto c'è il
+71:54 solito microfono e il solito
+71:56 amplificatore bassa frequenza.
+71:58 Dopodiché, siccome in FM c'è il problema
+72:01 che se tu moduli troppo eh la
+72:04 modulazione di frequenza la diventa
+72:08 molto larga e quindi potresti eh andare
+72:11 eh potresti deviare la frequenza di
+72:14 trasmissione uscendo dal canale, c'è in
+72:16 qualche modo un filtro limitatore
+72:20 per essere certi che si resti nel
+72:23 canale. Questo filtro limitatore fa
+72:26 anche un'altra funzione, poi lo vediamo
+72:28 nella Z successiva, è che inserisce una
+72:31 cosa che si chiama preenfasi. Preenfasi.
+72:34 Chi chi chi di voi magari eh a chi di
+72:38 voi piace la musica forse queste cose le
+72:40 ha già le ha già sentite? Cioè io posso,
+72:44 scusate, fatemelo fare qua. Immaginate
+72:47 che questa sia la banda audio.
+72:50 La banda audio,
+72:52 eh,
+72:55 diciamo, immaginiamo la banda della voce
+72:58 da da 10 Hz a 2000 Hz, a a 2500 Hz.
+73:05 Questa banda audio io la posso trattare
+73:08 linearmente, cioè con una curva che è
+73:10 piatta, cioè io amplifico la banda radio
+73:13 tutta, diciamo, nello stesso modo,
+73:16 giustamente, no? in una logica, fatemi
+73:18 dire, di di alta fedeltà, però eh
+73:22 nei ricevitori FM e lo vedremo mercoledì
+73:25 prossimo, nei ricevitori FM il circuito
+73:29 che si usa per demodulare l' FM non è
+73:33 lineare in termini di frequenza,
+73:36 ma è molto più sensibile alle frequenze
+73:39 basse. Quindi, praticamente, in
+73:41 trasmissione si introduce una enfasi
+73:44 delle frequenze alte amplificando così
+73:48 la banda audio e non e non piatta.
+73:51 Questo poi lo lo vediamo lo vedremo poi
+73:53 quando si parla appunto del del
+73:55 ricevitore e nella enfasi. Quindi
+73:58 diciamo che nel nel
+74:02 trattamento del segnale audio nei
+74:04 trasmettitore in FM si enfatizzano le
+74:07 frequenze acute per la trasmissione.
+74:09 Dopodiché questo segnale audio così in
+74:12 qualche modo trattato, così gasato,
+74:15 entra in un modulatore a reattanza.
+74:17 Allora, il modulatore a reattanza sembra
+74:19 una cosa complicata. In realtà questo è,
+74:21 diciamo, o un VFO o un oscillatore a
+74:23 quarzo dove c'è un elemento reattivo, la
+74:27 reattanza reattiva reattanza
+74:30 eh in questo caso capacitiva, cioè qui
+74:33 il più delle volte c'è un diodo varicap,
+74:36 vi ricordate il simbolo, no? Del diaric
+74:38 del diodo varicup, no? col diodo, con la
+74:41 cosina stile condensatore variabile che
+74:43 riceve il segnale audio e diodo
+74:46 vararicap trasforma il segnale audio in
+74:49 una variazione di capacità, essendo il
+74:51 diodo varica di fatto un piccolo
+74:53 condensatore variabile, questa
+74:55 variazione di capacità mi modula in
+74:57 frequenza il mio oscillatore,
+75:01 l'oscillatore che mi genera il segnale a
+75:04 radiofrequenza.
+75:06 questo segnale, ehm, questo oscillatore
+75:09 tipicamente è a frequenza abbastanza
+75:11 bassa,
+75:14 eh,
+75:17 e il diodo varicap riesce a spostarmi la
+75:23 frequenza di non non molto, perché
+75:27 immaginiamo che l'oscillatore sia a
+75:28 quarzo sia un plare
+75:31 la frequenza di di tanto, no, di kil
+75:34 decine di chil. Immaginiamo che la
+75:36 frequenza possa essere spostata di
+75:38 decine di herz o centinaia di herz per
+75:43 arrivare alla frequenza che poi io
+75:46 voglio trasmettere, che io voglio
+75:48 amplificare alla fine con un
+75:50 amplificatore alla potenza che che io
+75:53 voglio e poi trasmetterla con l'antenna,
+75:55 non si usa nei trasmettitori in FM non
+75:59 si usa un meccanismo come quello che
+76:01 abbiamo visto prima basato sui mixer, ma
+76:04 si usano
+76:05 dei circuiti che sono chiamati
+76:06 moltiplicatori di frequenza.
+76:08 Moltiplicatori di frequenza sono degli
+76:09 amplificatori fatti apposta per
+76:12 duplicare o triplicare la frequenza in
+76:14 ingresso. Quindi metti mi mi entrano 10
+76:17 MHz, con un moltiplicatore per 2 mi
+76:20 escono 20 MHz o con un moltiplicatore
+76:22 per 3 mi escono 30 MHz. E quindi in
+76:25 qualche modo io porto il mio segnale
+76:28 alla frequenza che voglio tramite una
+76:30 catena di moltiplicazione. Questa catena
+76:33 di moltiplicazione mi aumenta anche
+76:35 l'inde di modulazioni in FM. È un
+76:38 discorso un po' nebuloso, diventa,
+76:40 secondo me, chiarissimo con dei numeri.
+76:42 Guardiamo questo esempio. Allora, io
+76:44 genero la mia FM con un oscillatore a 14
+76:49 MHz.
+76:51 Questo oscillatore lo modulo col mio
+76:54 diodo varicap e quindi a 14 MHz ho una
+76:58 deviazione di frequenza di più o meno
+77:00 600 Hz.
+77:02 A questo punto con una catena di
+77:04 moltiplicazione per 10 io porto il mio
+77:07 amplificat il mio segnale a 14 MHz, lo
+77:10 voglio portare a 140, che poi sarebbe la
+77:13 banda dei 144 MHz, non radioamatoriale,
+77:16 la banda FM.
+77:18 A questo punto è 140. Che deviazione di
+77:21 frequenza ho? Come moltiplico per 10
+77:24 questi 14 MHz? Chiaramente mi si
+77:27 moltiplicano per 10 anche questi 600 Hz.
+77:29 Quindi con una moltiplicazione per 10 e
+77:33 io avrò una deviazione che diventa di 6
+77:35 kHz, che è più o meno quella che serve
+77:37 per gli standard radiamatoriali. Quindi
+77:41 diciamo io ho un segnale a 14, quando
+77:43 non parlo il segnale è a 14 puro. 14
+77:47 puro moltiplicazione per 10 diventano
+77:50 140. Immaginiamo che io sto parlando e
+77:52 in un istante è 14,600
+77:55 Hz. Se io questo 14,00600
+78:00 li moltiplico per 10, ho 140 MHz,006000
+78:07 kHz.
+78:09 Quindi la moltiplicazione di frequenza
+78:12 mi moltiplica la frequenza, ma mi
+78:14 moltiplica anche la deviazione in
+78:16 frequenza. E quindi quando vengono
+78:19 progettati questi trasmettitori si fa in
+78:21 modo che ci sia una catena di
+78:22 moltiplicatori tali per arrivare alla
+78:25 deviazione che si vuole
+78:29 e così si trasmette l' FM. Quindi,
+78:33 quindi questo eh
+78:37 riassume quello che abbiamo detto, un
+78:38 trasmettitore in FM, c'è il microfono,
+78:40 c'è un amplificatore microfonico, poi
+78:42 c'è un filtro che limita i picchi e
+78:44 inserisce la preenfasi, poi c'è il
+78:47 modulatore a reattanza che sposta la
+78:49 frequenza dell'oscillatore mediante di
+78:51 solito un diodo varicap. Poi ci c'è una
+78:54 catena di moltiplicazione
+78:56 almeno per che va che moltiplica almeno
+78:58 per 10 la frequenza. Questa catena di
+79:01 moltiplicazione moltiplica anche la
+79:02 deviazione e il tutto quanto viene
+79:04 calcolato per avere alla fine, ad
+79:06 esempio, in 144 la deviazione che io
+79:09 voglio, cioè più o meno 5 kHz, che sono
+79:13 gli standard, no, di deviazione che si
+79:15 usano nei nei canali FM radioamatoriali.
+79:19 E questo è il trasmettitore FM. Vedete
+79:21 anche qui molto semplice, di fatto
+79:23 oscillatore fisso questo questa
+79:26 frequenza, non ci sono conversioni, la
+79:28 frequenza dell'oscillatori viene
+79:30 spostata con un varicup e poi la
+79:32 frequenza degli oscillatori viene
+79:34 moltiplicata, quindi non viene
+79:36 convertita.
+79:37 Questi che di cui parlavamo prima erano
+79:39 fenomeni erano meccanismi di
+79:41 conversione, no? il mixer che fa una
+79:44 prima conversione, un mixer che fa una
+79:46 seconda conversione. Questa è chiamata
+79:48 una conversione di frequenza tramite i
+79:50 miscelatori.
+79:52 Invece questa è una moltiplicazione di
+79:55 frequenza. La moltiplicazione aumenta la
+79:58 deviazione,
+79:59 la conversione non l'aumenterebbe
+80:01 ovviamente.
+80:04 E questo è tutto sul trasmettitore FM.
+80:07 Vedete che intrinsecamente i
+80:09 trasmettitori hanno degli schemi molto
+80:11 molto semplici.
+80:13 È chiara la
+80:15 la modulazione, i trasmettitori in FM?
+80:18 Domande.
+80:26 Vai Pierluigi e poi Matteo.
+80:29 >> Sì, dicevo, quindi il il fatto
+80:31 moltiplicativo porta all'indice di
+80:33 modulazione se non ho capito male,
+80:35 giusto? Sì. Perfettamente,
+80:37 perfettamente.
+80:37 >> Ecco, però un'altra cosa, questa
+80:39 frequenza di 600 Hz
+80:43 equivale a ciò che moduli con microfono,
+80:45 no? Sì,
+80:47 >> però dovrebbe prendere uno spettro più
+80:48 ampio, quindi cioè lo spettro audio mi
+80:51 sembra sia un pochino più ampio, quindi
+80:53 cioè questa cosa può metterla a fuoco,
+80:55 cioè da 600 porta 6000 va bene, però eh
+81:00 >> cioè la tua frequenza audio è forse un
+81:03 po' più ampia di 600 Hz in ingresso, o
+81:06 sbaglio?
+81:06 >> No, no, no, no, no. Occhio, eh, occhio,
+81:09 diciamo. Bel hai grazie per la domanda,
+81:12 perché questo che cosa questa cosa che
+81:14 hai detto è un dubbio che deve essere
+81:16 chiarito. Aspetta, eh,
+81:19 un attimo solo che tolgo gli scarabocchi
+81:21 perché no, niente, li ho li ho bloccati,
+81:24 anzi vabbè, niente. Allora, allora
+81:28 immagina e allora,
+81:32 dunque, il tuo ragionamento parte
+81:33 benissimo, nel senso che qui quando
+81:35 parlo nel microfono c'è una Panda che ha
+81:39 una certa larghezza, diciamo 3 kHz, i 3
+81:41 kHz della voce, d'accordo?
+81:44 >> Allora, tu hai nel trasmettitore FM la
+81:48 frequenza su cui trasmetti. Diciamo che
+81:52 la frequenza sia sia questa. Immaginiamo
+81:54 il tipico grafico, no? L'asse. Qui c'è
+81:56 la frequenza. Paolo, scusami, non sei in
+81:59 condivisione se stai mostrando qualcosa.
+82:02 >> Hai ragione.
+82:07 >> Un attimo che arrivo.
+82:13 Ok, ecco che è arrivata anche anche la
+82:16 condivisione, immagino. Lo vedete
+82:20 >> corretto.
+82:22 >> Ok. Allora, stavo dicendo,
+82:25 riparto con uno dei miei scarobocchi.
+82:27 Quindi, il trasmettitore è piazzato a
+82:31 una frequenza fissa, diciamo 144,
+82:34 visto che si parla di FM. Ok?
+82:37 Qui c'è il microfono in cui in cui si
+82:39 parla e c'è una banda audio più o meno
+82:41 di 3 kHz. Io qui posso modulare con una
+82:45 deviazione anche solamente di 1 kHz,
+82:48 perché nella trasmissione in FM la banda
+82:52 audio che ho qui, 3 kHz, ma potrebbero
+82:54 essere anche 10 kHz se voglio
+82:57 trasmettere musica, non hanno niente a
+83:00 che vedere con quanto io sposto la
+83:02 portante, perché i 3 killers del mio
+83:05 parlato
+83:07 non eh non allargano, non non sono
+83:11 collegati nell FM a quanto sposto la
+83:14 portante, ma quante volte la sposto?
+83:16 Cioè, se io ho una Panda audio di 3000
+83:19 Hz, se io in quel momento sto facendo un
+83:21 fischio a 3000 Hz, questa mia portante
+83:24 si sposta 3000 volte da sopra a sotto.
+83:27 Quindi 3000 Hz non li leggo in ampiezza
+83:31 del canale, ma li leggo in velocità
+83:34 della deviazione.
+83:38 Se io parlo a voce bassa, se io dico ho
+83:41 il segnale
+83:44 mi si sposta molto lentamente attorno
+83:46 alla frequenza. Se io mi metto a
+83:48 fischiare in maniera ac il segnale si
+83:50 sposta attorno alla frequenza molto
+83:53 velocemente, ma la deviazione non
+83:56 cambia. La deviazione è legata solo al
+83:59 volume, non alla frequenza.
+84:03 La deviazione dipende l'intensità di
+84:06 della deviazione del segnale fa sì che
+84:08 il segnale si senta più forte o più
+84:10 debole. è legata al volume del suono che
+84:12 io trasmetto.
+84:14 Quando io sento una un emittente FM
+84:17 commerciale, quando lo sento molto
+84:19 forte, non è perché mi arriva un segnale
+84:21 forte, è perché il segnale è molto
+84:24 deviato. La deviazione mi fa sentire un
+84:27 adio più o meno forte in FM.
+84:31 E però le frequenze della banda che
+84:35 trasmetto
+84:36 si ripercuotono solamente
+84:39 sul numero di volte che il mio segnale
+84:43 gira attorno alla portante, che il mio
+84:45 segnale salendo della portante. Se io
+84:47 trasmetto con un tono di 1 kHz,
+84:50 la mia portante, quindi 1 kHz sono 1000
+84:53 volte al secondo, la mia portante viene
+84:55 spostata su e giù 1000 volte al secondo.
+85:01 Se io trasmetto a 3 kHz, i famosi 3 kHz
+85:03 di cui parlavi prima, la mia portante si
+85:05 sposta 3000 volte al secondo.
+85:09 È lì che
+85:11 essendo modulazione di frequenza,
+85:13 modulazione di frequenza, il mio segnale
+85:15 modula la frequenza, quindi sposta la
+85:18 frequenza, è lì che si ripercuote la mia
+85:22 banda audio. Ti torna al discorso?
+85:26 Eh, fino a un certo punto me lo metto un
+85:28 po' chiaro. Sì, cioè sì la la Allora,
+85:32 sapevo che l'ampiezza va a modificare in
+85:34 frequenza, però la frequenza di banda
+85:37 anch'essa va a modificare frequenza
+85:40 della del segnale in uscita, quindi no,
+85:43 devo un po' mettere insieme queste cose,
+85:45 sinceramente non qualcosa ancora devo
+85:48 dire, devo capirle io.
+85:51 E allora, aspetta, provo provo a dirlo
+85:54 un attimo. Diciamo questa è la tua
+85:57 frequenza.
+86:00 Se tu parli piano, Se tu parli piano, la
+86:03 tua frequenza si sposta così. Se tu
+86:06 parli forte, la tua frequenza si sposta
+86:08 così.
+86:10 Quindi in un trasmettitore FM quanto più
+86:13 si urla nel microfono, quanto più la
+86:16 portante si sposta rispetto alla
+86:19 frequenza centrale. Ti torna questo come
+86:22 primo discorso?
+86:22 >> Sposta in frequenza. Sì, sì, certo. Si
+86:24 sposta in frequenza. Non a caso c'è
+86:26 questo limitatore, non a caso c'è questo
+86:29 limitatore di cui si parlava prima,
+86:31 >> perché se io veramente urlo nel
+86:33 microfono e se non ho limiti la portante
+86:36 mi si può spostare così tanto che va su
+86:39 canaglie adiacenti,
+86:41 quindi il quanto si sposta la frequenza
+86:44 è legato semplicemente all'intensità del
+86:47 segnale che io trasmetto, non alla sua
+86:48 frequenza. Quindi con segnali, diciamo,
+86:52 quando trasmetto dei Facciamo facciamo
+86:56 una cosa musicale, quando trasmetto dei
+86:58 pezzi musicali che che suonano piano la
+87:01 frequenza si sposta poco. Quando
+87:03 trasmettono dei fortissimo la frequenza
+87:05 si sposta molto.
+87:09 >> A questo punto, a questo punto vedi che
+87:11 in questa prima parte del discorso che
+87:13 abbiam fatto la frequenza del segnale
+87:16 modulante non è mai entrata. Non abbiamo
+87:19 mai detto che si parla di 1000 Hz, 3000
+87:22 Hz, eccetera. La frequenza del segnale
+87:24 modulante entra in quante volte questo
+87:28 spostamento viene fatto, quante volte
+87:30 viene effettuato. Se io ho un segnale a
+87:34 se se il mio segnale modulante è a 1
+87:35 kHz, la frequenza mi si sposta su e giù
+87:39 di 1000 volte al secondo.
+87:41 >> Ah, ho capito, ho capito, ho capito. No,
+87:43 ora è perfetto.
+87:44 >> Se
+87:46 ce l'ho 2 kg e si sposta 2000 eccetera.
+87:48 Meditaci su. Ok. No, non ho capito.
+87:51 Adesso ho capito perfettamente, quindi
+87:53 Perfetto.
+87:54 >> Grazie, grazie. Grazie. C'era un'altra
+87:56 domanda. C'era un'altra mano alzata
+87:58 prima, mi pare.
+88:03 >> Eh, mi sentite? Sì, ero ero io, Luca.
+88:07 >> Ciao Luca. Vai. Sì,
+88:09 compare sempre Matteo, ma ero io, no,
+88:12 praticamente ha risposto ha risposto
+88:15 alla domanda di Pierluigi. Volevo solo
+88:17 aggiungere magari una cosa.
+88:20 Può essere, come succede,
+88:23 appunto, nelle radio commerciali, per
+88:25 capire bene, che so Virgin Radio che
+88:28 trasmette in musica rock e si sente per
+88:31 dire due o tre frequenze sotto e due o
+88:35 tre frequenze sopra, diciamo, il
+88:37 centrobanda e magari la RAI si sente,
+88:40 cioè le le notizie si sentono appena
+88:42 sopra e appena sotto il centrobanda o è
+88:46 corretto o no?
+88:48 Questo dipende da come è regolato il
+88:50 trasmettitore. In effetti la RAI usa una
+88:53 regolazione della deviazione molto molto
+88:55 molto più bassa di quella dell'emittente
+88:58 commerciale. L'ho notata anch'io. L'ho
+89:01 notato. L'ho notata anch'io.
+89:04 E questo fa sì che siccome il segnale è
+89:06 poco deviato, la la quantità di audio
+89:09 che viene prodotto è più bassa. Quindi
+89:12 l'audio l'audio che si sente, diciamo,
+89:15 si dice molto molto molto spesso che ci
+89:19 sono i segnali di Radio Maria che sono
+89:20 fortissimi, no? La forza dei segnali di
+89:23 Radio Maria magari fa sì che il tuo
+89:25 ricevitore vada in distorsione, però non
+89:29 è detto che renda un segnale audio forte
+89:31 perché non è modulazione di ampiezza. Se
+89:34 fosse se fosse modulazione di ampiezza,
+89:36 chi ha il segnale più forte si
+89:38 sentirebbe più forte. In FM si sente più
+89:41 forte chi ha il segnale più deviato,
+89:43 perché l'informazione in FM è trasmessa
+89:46 con la deviazione di frequenza, non con
+89:48 l'ampiezza del segnale. È questa la cosa
+89:51 che dovete tenere a mente.
+89:54 Se io sento forte Virgin Radio è perché
+89:56 sta deviando di più rispetto alla Rai.
+89:59 La Rai la sento piano perché attorno
+90:02 alla portante, attorno alla frequenza
+90:03 sua di trasmissione devia meno.
+90:07 >> Sì, sì. Ok. Ma le dicevo mh la
+90:10 deviazione si sente di più, però la
+90:13 qualità del segnale è più scarsa perché
+90:17 il Sì.
+90:18 >> grida, cioè diciamo la musica rock
+90:21 grida, per cui il segnale viene viene
+90:24 magari
+90:25 eh come si è detto prima, ehm deviato di
+90:29 più, però la qualità che si sente è
+90:32 inferiore.
+90:33 >> Sì, è vero. E sai perché è inferiore? ne
+90:35 parliamo mercoledì prossimo perché
+90:37 deviando di più esce dal filtro
+90:39 passabanda del ricevitore
+90:42 perché perché poi vedremo i ricevitori
+90:45 hanno dei filtri passabanda della
+90:47 larghezza giusta per quel modo di
+90:49 emissione lì. Se il segnale è più ampio,
+90:52 il segnale poi arriva in parte
+90:54 strappato, capito?
+90:57 Sì, sì, infatti arriva in più più
+91:00 strappato sotto e sopra che si sente
+91:03 certe volte rispetto rispetto magari a
+91:05 una fonte di notizie che magari c'ha la
+91:07 voce eh molto bassa e e si sente appena
+91:12 sotto, appena sopra, in qualità
+91:13 inferiore, però eh ancora diciamo
+91:17 comprensibile.
+91:18 >> Sì, perfetto, perfettissimo.
+91:21 Grazie.
+91:22 >> Grazie. Grazie a voi.
+91:23 >> E a te. Allora, proseguo l'ultimo
+91:25 argomento di stasera.
+91:28 Adesso parliamo
+91:30 del tipico problema di cui soffrono i
+91:33 trasmettitori ed è l'intermodulazione.
+91:38 Mh, allora, cos'è l'intermodulazione?
+91:42 Dunque, l'intermodulazione è quando un
+91:45 trasmettitore mi genera delle frequenze
+91:49 indesiderate
+91:51 che non sono presenti all'ingresso
+91:53 dell'amplificatore finale. Questo tipo
+91:55 di fenomeno si ha nell'amplificatore
+91:57 finale, no? quando c'è potenza in
+91:58 qualche modo e se l'amplificatore finale
+92:02 è usato male e poi vedremo questo male
+92:04 cosa vuol dire, si producono delle
+92:06 frequenze indesiderate e questo si ha
+92:08 quando ci sono due cause, cioè quindi
+92:11 quando l'amplificatore finale è pilotato
+92:14 oltre la potenza che può erogare e in
+92:17 ingresso c'è più di un segnale. Allora,
+92:19 vediamo vediamo un po' meglio questa
+92:21 cosa. Tanto,
+92:24 intanto eh abbiamo diverse volte durante
+92:28 le nostre serate abbiamo parlato delle
+92:29 armoniche. Ora rivediamo un po' meglio
+92:31 insieme cosa sono queste armoniche,
+92:33 anche per tenerle a mente tutte uguali.
+92:35 Dunque, le armoniche nascono quando un
+92:38 segnale sinusoidale viene deformato e la
+92:41 causa più comune di un segnale
+92:44 sinusoidale deformato è quando un
+92:46 amplificatore è sovrappilotato. Cioè,
+92:48 vedete in questa figura, no? Qui in
+92:50 teoria questo segnale vorrebbe essere
+92:53 sinusoidale, vedete le parti
+92:54 tratteggiate, però immaginiamo che
+92:56 questa è l'uscita di un amplificatore
+92:58 che più di questi livelli di potenza ed
+93:00 uscita dove sto marcando ora non riesce
+93:03 a dare. È chiaro che qui la mia potenza
+93:06 d'uscita sale, ma qui poi
+93:07 l'amplificatore non ha più non ha più
+93:09 respiro e quindi il segnale si
+93:11 appiattisce. Si appiattisce.
+93:15 Quando succede questo appiattimento
+93:18 nascono delle armoniche.
+93:20 Dunque, cosa sono le le armoniche? Le
+93:24 armoniche sono segnali che hanno una
+93:26 frequenza multiple
+93:29 della frequenza fondamentale che le
+93:30 genera e in generale questo
+93:33 appiattimento che in inglese viene detto
+93:36 flat topping, quindi appiattimento della
+93:39 parte alta, no? eh tendenzialmente
+93:43 genera armoniche dispari, cioè in
+93:45 pratica che succede? Immaginiamo che io
+93:46 ho un trasmettitore qui a 27 MHz
+93:51 e questa è la mia onda portante, è la
+93:54 fondamentale, è un'onda sinusoidale eh
+93:58 perfetta. Scusate, non vi ho detto. In
+94:01 questi in questi grafici stiamo
+94:04 guardando il contenuto in frequenza dei
+94:07 segnali. Vedete che qui sull'asse delle
+94:09 ascisse non c'è il tempo, come quando si
+94:11 visualizza una sinusoide, no? Nell'arco
+94:13 del tempo. Qui stiamo guardando il
+94:15 contenuto in frequenza che esce da un
+94:18 trasmettitore. Quando io trasmetto, ad
+94:21 esempio, a 27 MHz ed emetto solamente
+94:24 una portante pulita,
+94:27 eh io ho in uscita, nella mia antenna,
+94:30 all'uscita del mio trasmettitore solo un
+94:32 segnale a 27 MHz.
+94:35 Se io eh aumento troppo il pilotaggio
+94:39 dell'amplificatore finale,
+94:41 l'amplificatore finale in qualche modo
+94:43 appiattisce, si potrebbe dire va in
+94:46 distorsione, cioè non riesce ad erogare
+94:48 tutta la potenza che io gli do. Quindi
+94:51 la sinusoide, quindi in uscita non ho
+94:53 più una sinusoide, ma ho una sinusoide
+94:55 appiattita, un segnale distorto. Quando
+94:58 questo succede, eh, nell'amplificatore
+95:01 si genera una distorsione e questa
+95:03 distorsione produce dei segnali armonici
+95:05 che sono questi qua.
+95:09 E siccome la distorsione è un
+95:11 appiattimento, si formano
+95:13 tendenzialmente armoniche dispari.
+95:15 Quindi,
+95:17 eh se il mio segnale è a 27 MHz, quindi
+95:20 la fondamentale è a 27 MHz,
+95:25 la cosiddetta seconda armonica F2
+95:27 sarebbe a 27* 2, cioè 54.
+95:31 F3 sarebbe 27* 3, che se non sbaglio fa
+95:35 81, mi si genera un segnale a 81 MHz
+95:39 e un segnale a 27* 5 che fa 135 se non
+95:44 sbaglio, MHz.
+95:46 E questi sono segnali che, diciamo,
+95:49 vengono generati nell'amplificatore
+95:51 finale, sono inesistenti nella parte
+95:53 principale, nella parte precedente del
+95:55 trasmettitore. Cioè, non è che si che
+95:57 questi segnali si generano
+95:59 consapevolmente. Questi questi segnali
+96:02 queste armoniche nascono perché
+96:04 l'amplificatore finale va in
+96:06 saturazione.
+96:09 Questo concetto delle armoniche,
+96:11 parlando in generale, è tipico di tutti
+96:13 i segnali non sinusoidali. E vedete in
+96:16 questo schema la sinusoide, eccola qua,
+96:21 è fra tutti i possibili segnali, è
+96:24 l'unico segnale che dal punto di vista
+96:26 della frequenza è puro. Cioè, se questa
+96:29 fosse una sinusoide a 1 MHz,
+96:32 eh lei se la si guarda in termini di uso
+96:36 della frequenza, quindi di spettro di
+96:39 frequenza in cui questa sinusoide eh si
+96:42 si può collocare, la si trova solamente
+96:45 alla sua frequenza, quindi tutta la
+96:48 potenza delle sinusoide è concentrata
+96:50 alla sua frequenza, cioè di 1 mz ed è
+96:53 l'unico, ma proprio l'unico tipo di
+96:55 segnale fra quelli, appunto, periodici
+96:58 Che ha questa caratteristica perché ad
+97:00 esempio se si prende un segnale di
+97:02 questo tipo che è un dente di che è un
+97:04 segnale triangolare, un'onda triangolare
+97:07 e lo spettro in frequenza è di questo
+97:10 tipo. È presente la fondamentale,
+97:13 poi c'è la seconda armonica, la terza,
+97:16 la quarta e così via. Di ampiezza
+97:20 decrescente, ma vedete che diciamo un
+97:22 segnale ricco di armoniche. Se si prende
+97:24 un segnale, questo viene chiamato
+97:27 un'onda quadra,
+97:30 quindi somiglia agli appiattimento di
+97:31 cui parlavamo prima, un'onda quadra
+97:33 contiene solamente le armoniche dispari,
+97:37 quindi di fatto la sinusoide è l'unico
+97:40 segnale che in sé non ha armoniche.
+97:43 Tutti gli altri segnali hanno armoniche
+97:46 e quando i segnali sono di tipo
+97:48 squadrato, quindi di tipo appiattito,
+97:51 essenzialmente sono le armoniche dispari
+97:53 che sono presenti in quel in quel in
+97:55 quel segnale,
+97:57 come nell'esempio che facevamo qua prima
+98:00 nel, diciamo, relativo alla banda dei 27
+98:03 MHz, ma questo vale per tutte le bande.
+98:05 Intanto, prima di andare avanti,
+98:08 è chiaro il concetto di armonica e
+98:10 perché nascono le armoniche in un
+98:13 possono nascere le armonica in un
+98:14 trasmettitore?
+98:19 Vai Paolo.
+98:23 >> Sì, ciao Paolo, buonasera a tutti. Eh,
+98:26 mi chiedevo una cosa, quindi per evitare
+98:30 il che si eh diciamo formino armoniche
+98:35 il
+98:37 cioè l'amplificatore con che tipo di
+98:40 potenza va pilotato, cioè esiste
+98:43 m come dire una un un riferimento quando
+98:48 io compro acquisto un amplificatore o o
+98:53 cosa? Ecco, mi chiedevo,
+98:55 >> eh sì, il riferimento è la potenza
+98:59 massima che il finale può dare
+99:02 e quindi uno guarda il il dispositivo
+99:05 finale e praticamente c'è scritto lì.
+99:07 C'è scritto lì.
+99:10 Quindi, quindi per evitare che si
+99:14 formino queste armoniche dovrem dobbiamo
+99:17 pilotare l'amplificatore con una
+99:20 potenza, diciamo, adatta.
+99:24 Esatto.
+99:24 >> E quindi creano meno si creano meno
+99:26 armoniche e si crea meno disturbi. Ecco.
+99:29 >> Esatto. Giustissimo. Giustissimo.
+99:31 Giustissimo. Allora, questo tipo di
+99:32 problema, ora parlando di parlando di di
+99:36 radio, ehm
+99:38 allora eh
+99:41 non so, allora, qualcuno, diciamo,
+99:43 parliamo delle radio in onde corte, sono
+99:45 radio tipicamente da da 100 W.
+99:48 Eh,
+99:50 quindi c a qualcuno di voi probabilmente
+99:54 ha già cose di questo tipo, quindi radio
+99:56 del tipo ecom, kenwood, o cose di questo
+99:59 tipo e che che sono quelle che poi si
+100:01 comprano per fare attività
+100:02 tendenzialmente in SSB o in telegrafia
+100:06 in onde corte.
+100:07 In questo tipo di radio, normalmente,
+100:11 siccome i costruttori non vogliono avere
+100:13 problemi, i transistor finali di queste
+100:16 radio normalmente eh possono gestire
+100:20 livelli di potenza fino per un radio da
+100:23 100 W possono gestire livelli di potenza
+100:25 fino a 400 W.
+100:28 Vengono tenuti volutamente molto molto
+100:30 limitati per due motivi. Il primo è per
+100:33 evitare bruciature dei finali eccetera,
+100:35 no? Perché è molto raro che si brucino i
+100:38 finali di una radio, perché sono
+100:40 veramente super dimensionati. Per un
+100:44 radio d'accento, ripeto, tipicamente
+100:45 vengono usati i dispositivi fino a 400 W
+100:49 e quindi nella radio è molto difficile
+100:52 che i finali vadano in saturazione
+100:55 perché c'è c'è c'è questo grosso,
+100:57 diciamo, dimensionamento. invece negli
+101:00 amplificatori esterni, i famosi
+101:01 amplificatori lineari e molto spesso i
+101:04 dispositivi sono più tirati, sono più
+101:07 sfruttati e lì basta poco per avere
+101:10 questo fenomeno di di appiattimento,
+101:14 appiattimento che crea armoniche
+101:16 eccetera eccetera eccetera. Ok,
+101:18 >> ho capito. Grazie mille. A te
+101:21 Gianfranco, a te
+101:27 microfono. Gianfranco.
+101:32 >> Gianfranco o Giancarlo.
+101:35 >> Eh, avrebbe alzato prima la mano
+101:37 Gianfranco, ma non si sente, quindi a
+101:39 te, Giancarlo.
+101:42 >> Ciao Paolo, buonasera a tutti.
+101:44 Ti volevo chiedere in caso di un
+101:47 amplificatore, appunto, eh
+101:50 sovrapilotato, per cui magari
+101:53 emetterebbe una potenza di 100 W, ma
+101:56 viene sfruttato sovrapilotandolo,
+101:59 mettiamo a 150 W, la fondamentale,
+102:04 ovviamente rimane la potenza, quella,
+102:07 diciamo, nella nella banda centrale, ma
+102:10 le armoniche che potenza hanno
+102:13 nella nella terza, nella quinta,
+102:15 eccetera sono hanno una potenza
+102:18 calcolabile oppure a caso?
+102:21 >> Sì, hanno una potenza calcolabile, però
+102:23 non si non lo riprendiamo fra 2 minuti
+102:25 questo discorso perché non finisce qua,
+102:27 eh, non finisce qua. Intanto volevo
+102:29 essere certi che questa cosa l'avete
+102:31 l'avete capita bene e la risposta è sì.
+102:34 Eh, vado avanti un pezzettino se me lo
+102:37 consentite, ok? Così poi avete tutto il
+102:40 quadro chiaro.
+102:43 Allora, vi in altre parole lasciatemi un
+102:45 attimo il tempo per per presentarvi
+102:47 altre due slide. Rimetto lo schermo in
+102:48 condivisione e arriviamo al meccanismo
+102:51 dell'intermodulazione.
+102:53 Dunque,
+102:58 tolgo questi scarabocchi
+103:00 un attimo solo perché questa che stiamo
+103:03 vedendo ora non è intermodulazione, è
+103:07 semplicemente saturazione. Saturazione
+103:10 del finale che genera armoniche. Però
+103:13 adesso faccio un discorso molto cinico,
+103:16 no? Immaginiamo che io ho un
+103:17 trasmettitore da 100 W. Finché lo uso
+103:20 sotto i 100 W l'uscita del trasmettitore
+103:22 è questa, la sinusoide pura. Se io lo
+103:26 uso, mettiamo, a 150 W, se io potessi
+103:29 usarlo a 150 W, l'uscita del
+103:31 trasmettitore mi diventa così. ma
+103:34 l'uscita del trasmettitore, l'uscita
+103:36 dello stadio finale. Però eh dopo ogni
+103:41 stadio finale c'è un filtro passa basso
+103:44 che serve anche poi a fare l'adattamento
+103:47 di impedenza verso l'antenna. Quindi la
+103:50 presenza di armoniche a un certo punto
+103:54 diventa poco influente perché il filtro
+103:57 passapasso che sta dietro
+104:00 l'amplificatore finale, tutta questa
+104:02 parte qua di armoniche praticamente le
+104:05 taglia. Immaginiamo un trasmettitore
+104:07 radioamatoriale banda 14 MHz. Quando
+104:10 trasmetto in banda 14 MHz, molto
+104:12 probabilmente ehm
+104:16 in quel momento il trasmettitore dopo
+104:18 dopo la il finale a 14 ha un filtro
+104:21 passoapasso che ha una frequenza di
+104:23 taglio di 20 MHz, quindi le armoniche le
+104:25 cassa, capito?
+104:27 E quindi questo tipo di distorsione in
+104:30 realtà dal punto di vista esterno, dal
+104:33 punto di vista di quello che succede
+104:35 nell'Etere, poi non è un problema perché
+104:37 le armoniche sono molto fuori banda,
+104:40 sono lontane dalla frequenza di
+104:41 trasmissione, no? L'armonica, la terza
+104:44 armonica di 27 MHz è a 81. 81 è lontano,
+104:48 quindi è tagliata dal filtro passoapso
+104:50 che sta nel trasmettitore. Non è questo
+104:52 quello che ci frega, si potrebbe dire. è
+104:54 un'altra cosa. È un'altra cosa ed è
+104:56 questa ed è l'intermodulazione vera e
+104:58 propria. Perché noi per ora facendo il
+105:01 discorso del trasmettitore delle
+105:03 armoniche si è sempre immaginato di
+105:05 avere semplicemente una portante, cioè
+105:07 un segnale puro, ma in realtà il
+105:09 trasmettitore mettiamo che trasmette un
+105:12 segnale modulato, trasmette una voce e
+105:15 quando c'è una voce in pasto al
+105:18 trasmettitore si dà non una frequenza,
+105:21 ma si danno molte frequenze. frequenze
+105:23 che compongono la voce di tutti. La mia
+105:25 voce, per esempio, sarà fatta da due tre
+105:28 fondanti fondamentali, però a frequenze
+105:31 diverse l'uno dall'altra. Quindi si può
+105:33 immaginare, tanto per semplificare, che
+105:36 la voce sia fatta da due toni,
+105:39 tanto per semplificare, ma sono molti di
+105:41 più. Quindi ora io sto trasmettendo io
+105:44 sto mettendo nel mio trasmettitore non
+105:47 un fischio, un tono puro, ma sto
+105:49 mettendo una cosa che somiglia un po' di
+105:51 più alla voce, quindi due due frequenze
+105:54 diciamo distanti 1 kHz l'una dall'altra,
+105:56 come sarebbe la parte della mia voce che
+105:58 sta sui 500 Hz e quella che sta a 1000
+106:01 Hz. Tanto per dire,
+106:03 nel momento in cui il finale mi va in mi
+106:06 va in saturazione, cosa succede?
+106:09 Allora, la mia voce viene viene in
+106:11 qualche modo eh amplificata e così via e
+106:14 quindi qui ho un segnale di uscita,
+106:17 diciamo a 27 MHz o a 14 MHz che comunque
+106:21 riproduce nella banda laterale lo
+106:24 spettro della mia voce. Se io la mia
+106:26 voce è composta da due frequenze, qui ho
+106:29 trasmetto comunque due frequenze.
+106:30 D'accordo?
+106:32 Di queste due frequenze, se il mio
+106:33 trasmettitore va in distorsione, eh mi
+106:37 si generano le seconde armoniche e sono
+106:39 questa qua,
+106:41 2F1,
+106:43 quindi due volte, scusate, eccolo qua,
+106:46 il valore 2F1 e 2F2, la seconda armonica
+106:52 3F1 3F2.
+106:55 Però questi segnali, vedete come sono
+106:58 lontani,
+106:59 sono tagliati. dal filtro passa passo in
+107:02 uscita. Quindi sono segnali che alla
+107:05 fine non si presentano in antenna e che
+107:07 non creano problemi. Però in questa nel
+107:10 momento in cui il finale va in
+107:12 distorsione eh succede anche un'altra
+107:15 cosa. Il finale si comporta come un
+107:18 mixer nel momento in cui lavora in
+107:19 maniera non lineare e quindi mescola
+107:23 sommandogli e sostrendoli i segnali che
+107:26 lui stesso genera. Allora,
+107:31 lui per esempio può generare un segnale
+107:34 che è fatto così, due volte f2 che
+107:37 sarebbe questo,
+107:39 - f1 che sarebbe questo. E se si fanno
+107:43 tutti i conti questo segnale non cade
+107:45 lontano, ma cade in banda. Fate vicino.
+107:48 Poi mi si genera il segnale 2F1
+107:52 - f2 e cade in banda. Questi sono
+107:55 chiamati prodotti di intermodulazione
+107:58 del terzo ordine.
+108:01 Terzo vuol dire che qui c'è un numero 2
+108:04 e qui davanti c'è un numero 1. 2F2 + 1
+108:07 F1 è un prodotto di intermodulazione del
+108:10 terzo ordine. Poi ci sono quelli, ad
+108:11 esempio, del quinto ordine che sono,
+108:13 mettiamo 3 F1 - 2F2. Quindi i
+108:18 coefficienti che stanno davanti a questi
+108:20 fattori, la somma dei coefficienti dà 5.
+108:25 E questi e questi prodotti di
+108:28 intermodulazione sono segnali in banda
+108:30 che non li posso togliere via filtro e
+108:32 sono quelli che in qualche modo vanno
+108:34 sui canali adiacenti e poi non diciamo
+108:37 quando il finale distorge non ci si
+108:39 ferma ai prodotti di intermodulazione
+108:42 del secondo ordine come vi dicevo, ma ci
+108:44 sono quelli del del terzo, del quinto,
+108:47 del settimo ordine e così via, come si
+108:50 vede in questa in questa slide. Vedete
+108:53 che questo è questa è la mia voce che
+108:56 sta nel canale che sto usando. Questo è
+108:59 il prodotto del secondo ordine, del
+109:01 terzo ordine, scusate, questo del
+109:02 quinto, questo del settimo ordine.
+109:05 Praticamente
+109:06 il canale che io usavo, che è questo,
+109:11 mi diventa questo.
+109:14 E questi sono i famosi splatter che
+109:16 tutti quanti abbiamo generato, come
+109:18 compreso ai vecchi tempi che abbiamo
+109:21 sentito parlare 100 volte. G splatter
+109:24 sono nascono a causa
+109:27 dell'intermodulazione che accade nel
+109:29 finale del trasmettitore o nel o nel
+109:31 lineare quando è portato a un livello di
+109:33 potenza troppo elevato. Allora il finale
+109:36 così facendo apparentemente genera più
+109:38 potenza di uscita perché se lo se guardo
+109:41 con 1 wattmetro misuro la potenza
+109:42 d'uscita ne vedo di più. Però il grosso
+109:45 della potenza di uscita, vedete in
+109:47 queste figure già dove va a finire, cioè
+109:50 eh non va ad arricchire il segnale,
+109:55 diciamo, vero che è questo qua. Scusate,
+110:00 non va arricchire il segnale vero che
+110:03 accidenti, scusate, ci siamo. Eccolo
+110:05 qua. E uffa,
+110:09 eccolo.
+110:14 Non va ad accrescere il segnale vero che
+110:16 è questo qua e che è raggiunto il limite
+110:17 che può raggiungere che può raggiungere.
+110:19 Praticamente si sparpaglia la potenza in
+110:22 più su tutti i canali adiacenti,
+110:24 quindi è latto pratico e diciamo non si
+110:27 guadagna niente, si contribuisce
+110:29 solamente alla spazzatura che c'è nella
+110:31 banda e questa è l'intermodulazione.
+110:33 Quindi l'intermodulazione dipende dal
+110:35 fatto che, tanto per usare un termine
+110:38 poco tecnico, eh lo stadio finale nel
+110:41 momento in cui va in distorsioni,
+110:42 diventa un frullatore e frulla in
+110:45 maniera così efficace i diciamo le
+110:49 componenti della mia voce, perché qui ce
+110:51 ne sono due, no? Qui abbiamo immaginato
+110:53 che la voce di una persona sia fatta
+110:54 semplicemente da due frequenze. In
+110:56 realtà le frequenze qua sono tante
+110:59 e queste frequenze si mescolano tutte
+111:00 l'una con l'altra. La seconda armonica
+111:02 di A si sottrae a B. La seconda armonica
+111:05 di B si sottrae a A. Quindi viene un
+111:07 allargamento incredibile
+111:10 del della banda trasmessa che non
+111:13 comporta alcun beneficio in realtà, no?
+111:15 perché la potenza del trasmettitore in
+111:16 realtà se ne va tutta se ne va tutta di
+111:18 fuori e questa è l'intermodulazione.
+111:21 Quindi la causa dell'intermodulazione e
+111:23 con questo concludo poi a voi per
+111:25 domande devono accadere due cose per
+111:27 avere l'intermodulazione. Il primo è che
+111:30 il finale deve distorcere, quindi il
+111:33 finale deve lavorare oltre la sua
+111:35 potenza di targa. Però se io con un
+111:39 finale che ti storce butto in ingresso
+111:42 solamente un segnale, sono in questa
+111:45 situazione qui, cioè mi si generano
+111:47 delle armoniche ma lontane e quindi
+111:50 queste non danno fastidio perché sono
+111:51 tagliate dal filtro eh passa basso in
+111:55 uscita.
+111:56 Quando invece in ingresso non ho un
+111:58 segnale e quindi scusate estremizzando,
+112:01 se io stessi trasmettendo in telegrafia
+112:04 potrei sovrappilotare il finale come
+112:07 voglio. Sarebbe una cosa assurda perché
+112:09 comunque la potenza se ne va in altre
+112:11 frequenze, no? però non non disturbo
+112:13 niente attorno perché la potenza che io
+112:16 già che io butto nella terza, nella
+112:18 quinta, nella settima armonica e così
+112:20 via, come vi dicevo, viene bloccata dal
+112:22 passasso.
+112:23 invece e quando ho in ingresso più di un
+112:27 segnale, cioè sempre quando si parla in
+112:31 SSB, perché la voce di tutti voi è
+112:33 composita, è fatta da molte frequenze,
+112:36 da molte componenti a frequenze diverse,
+112:39 si crea quell'effetto frullino che
+112:41 abbiamo visto nelle slide, no?
+112:43 l'allargamento del segnale trasmesso e e
+112:46 gli splatter e questo è tecnicamente
+112:48 parlando, questa cosa si chiama
+112:49 intermodulazione.
+112:52 E questo per questa sera è è tutto.
+112:55 Interrompo la condivisione e a voi se ci
+112:57 sono domande. Paolo a te.
+113:01 >> Sì, senti Paolo, no, io sto ripensando
+113:05 al fatto dell'armonica. Tu m'ha detto,
+113:08 dice, se non è sovrapilotato
+113:10 e la quello che viene generato, il
+113:13 segnale è solamente la fondamentale.
+113:16 Però io ho notato, cioè ho notato nelle
+113:20 primi esperimenti che si faceva noi si
+113:23 faceva un trasmettitore, un oscillatore
+113:26 con un quarzo e oscillava a 7 me.
+113:30 7 me, ma io non era mia sovrapilotato
+113:33 era alimentato l'alimentazione normale
+113:35 però e sentivo anche il segnale a 14,
+113:39 tantoè vero c'erano anche dei
+113:41 calibratori fatti un quarz a 100 a 1000
+113:45 mega e e su un ricevitore a copertore
+113:48 continua e s andava a a trovare l'inizio
+113:52 di ciascuna gamma di 1 mega perché
+113:55 c'erano tutte le armoniche. Come mai
+113:57 questo? Eh, perché il calibratore tirava
+114:00 fuori un segnale non sinusoidale,
+114:02 volutamente un segnale non sinusoitale.
+114:04 Giustissimo quello che hai detto Paolo.
+114:06 In effetti i calibratori, diciamo,
+114:09 diciamo, se esce un segnale bello
+114:10 squadrato è meglio perché così ha tante
+114:12 armoniche e te lo senti fino in cima
+114:15 alla banda, fino a 28 MHz.
+114:18 Ecco, ho capito. Allora, quello in
+114:21 definitiva, probabilmente
+114:23 quell'oscillatore avevo fatto io con un
+114:25 transistor con lo C171 e un quar e
+114:29 probabilmente c'aveva
+114:33 una un'oscillazione non si che si usava
+114:37 allora non c'era la CB per fare i primi
+114:41 esperimenti di comunicazione. Quello io
+114:43 lo sentivo sull'apparecchio anche sulla
+114:46 sui 14 mega.
+114:48 >> Sì, sì, probabilissimo, probabilissimo.
+114:50 Probabilmente il transistor era
+114:51 polarizzato in qualche modo, per cui
+114:53 usciva dalla regione lineare.
+114:55 >> Ecco, ho capito.
+114:56 >> E quindi generava armoniche, perché se
+114:58 l'oscillatore fosse pulito lo lo
+115:00 l'avresti sentito solamente lì e basta.
+115:03 Credevo si sentissero sempre a vito
+115:05 l'armonica, invece no, tu mi dici se l'
+115:07 è proprio un segnale puro sinusoale non
+115:11 non non viene quella la
+115:14 >> Esatto. Esattissimo. Esattissimo Paolo.
+115:16 >> Va bene, grazie. Allora,
+115:18 >> a te. Ciao, ci vediamo.
+115:22 >> Grazie. Ciao. Sì.
+115:24 >> Altre domande, commenti. Vi ci ritrovate
+115:27 ci ritrovate anche con le vostre
+115:28 esperienze cittadine. Pierluigi, a te.
+115:32 Ma io volevo volevo sapere una cosa
+115:34 perché per me è tutto nuovo questo
+115:35 mondo. Volo sapere le onde stazionarie
+115:38 possono danneggiare l'amplificatore
+115:40 finale e poi se è possibile sapere come
+115:45 funziona la il filtro pig greco, perché
+115:48 l'adattamento di impedenza da quell
+115:49 abbiamo filto prima, cioè si può fare
+115:52 con i trasformatori con con il numero di
+115:54 spire per primaria e secondaria, ma in
+115:56 quella in quella cella, come funziona
+115:59 l'adattamento con i condensatori
+116:02 ai lati dell'industanza? Tutto bene.
+116:05 >> Eh,
+116:07 allora diciamo che le più che onde
+116:11 stazionarie m i Allora,
+116:15 la la risposta alla tua prima domanda è
+116:17 sì, nel senso che le onde stazionarie
+116:20 possono danneggiare il finale di una
+116:22 radio, però più che le onde stazionarie
+116:24 è il disadattamento
+116:26 che può danneggiare il finale di una
+116:28 radio. Perché diciamo quando si hanno
+116:32 situazioni di disadattamento, sul finale
+116:35 nascono tensioni che possono essere più
+116:37 alte di quelle che lui è in grado di
+116:39 reggere.
+116:41 E come funziona tutti i meccanismi di
+116:43 adattamento, diciamo, ci vuole un bel
+116:44 pacchettino di slide per parlarne. Avete
+116:46 una lezione proprio su questo fresca
+116:48 fresca a settembre appena si torna dalle
+116:50 ferie.
+116:55 >> E va bene. Sì. Eh, cioè, cioè c eh
+116:59 diciamo e come funziona, diciamo,
+117:01 praticamente tu hai chiesto come
+117:02 funzionano gli accordatori di antenna,
+117:04 ti torna?
+117:06 >> Sì, sì, più o meno. Sì, sì, esatto. Sì,
+117:08 esatto.
+117:09 >> Sì, sì, sì. Eh,
+117:12 e funzionano in due tre modi diversi. C
+117:14 ci vuole un po' di tempo e ci vogliono
+117:15 un po' di schemi. Domanda giustissima,
+117:17 fa parte del programma, ne parleremo.
+117:19 Ok.
+117:21 >> Ok.
+117:22 Ora qui non c'ho materiale e non ho
+117:25 neanche una lavandia su cui
+117:26 scarabocchiare.
+117:31 >> Paolo, a te.
+117:33 Scusa. Ecco, allora ti dico, ritornando
+117:35 sul discorso di prima, i Barlow, il
+117:39 ricevitore, come che erano fatti che
+117:42 c'aveva un oscillatore quarzato e faceva
+117:45 i mega e poi dopo con quell variabile si
+117:48 si faceva la sintonia e si aveva 30
+117:51 bande, 30 gamme di di 1 mega. era fatto
+117:55 i l'oscillatore a quarzo che dava
+117:59 l'inizio di gamma. Ehm, si sentiva
+118:02 l'inizio di ciascuna gamma i i i
+118:05 segnali. Il fischio era fatto proprio
+118:08 come un calibratore in definitiva.
+118:10 Allora,
+118:10 >> sì, esatto, sì, sì, esatto, esatto. Il
+118:12 loop principale de dei del barlo per
+118:15 fare le famose bande di un mega,
+118:16 esattamente come hai detto.
+118:18 >> E il Racal, anche il Racal funzionava in
+118:20 quella maniera, mi sembra. Non lo so,
+118:23 non lo
+118:24 >> perché il Barl era un apparecchino
+118:27 economico, cioè diciamo amatoriale, però
+118:31 le
+118:33 era derivato da quelle da quello
+118:35 professionale Racal, anche quello
+118:37 c'aveva le le tutte gamme di 1 mega,
+118:42 doveva essere fatto, mi immagino, quel
+118:44 sistema lì. Probabil ora non la presente
+118:47 quello.
+118:47 >> Può essere, può essere, può essere, può
+118:48 essere.
+118:49 >> Va bene, grazie. Grazie
+118:50 >> a te. E Fabrizio, potremmo anche
+118:53 staccare la registrazione ora, che ne
+118:55 pensi?
+118:56 Bene Paolo, faccio subito

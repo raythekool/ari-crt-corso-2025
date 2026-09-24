@@ -1,0 +1,8709 @@
+WEBVTT
+
+1
+00:00:02.200 --> 00:00:05.120
+Eh, stasera siamo Eccolo.
+
+2
+00:00:04.680 --> 00:00:08.120
+>> Perfetto.
+
+3
+00:00:05.120 --> 00:00:10.000
+>> Avanti Paolo. Buon lavoro. Grazie.
+
+4
+00:00:08.120 --> 00:00:12.080
+Allora, stasera parliamo delle
+
+5
+00:00:10.000 --> 00:00:14.160
+sostanzialmente dell'induttore, detto
+
+6
+00:00:12.080 --> 00:00:16.359
+anche volgarmente bobina. Dico questo
+
+7
+00:00:14.160 --> 00:00:18.320
+volgarmente bobina perché nelle domande
+
+8
+00:00:16.359 --> 00:00:20.279
+ministeriali molto spesso ho dite messo
+
+9
+00:00:18.320 --> 00:00:22.560
+una bobina e un'altra bobina in serie,
+
+10
+00:00:20.279 --> 00:00:24.960
+quindi considerateli proprio uguali,
+
+11
+00:00:22.560 --> 00:00:26.960
+sinonimi. parleremo degli induttori,
+
+12
+00:00:24.960 --> 00:00:28.960
+della reattenza induttiva e del
+
+13
+00:00:26.960 --> 00:00:32.239
+trasformatore che, diciamo,
+
+14
+00:00:28.960 --> 00:00:34.160
+praticamente, diciamo, eh l'induttore e
+
+15
+00:00:32.239 --> 00:00:36.520
+il condensatore che vedremo mercoledì
+
+16
+00:00:34.160 --> 00:00:38.800
+prossimo sono i due componenti passivi
+
+17
+00:00:36.520 --> 00:00:41.480
+che ci mancano per finire e chiudere
+
+18
+00:00:38.800 --> 00:00:43.120
+questa parte di che è più di
+
+19
+00:00:41.480 --> 00:00:45.000
+elettrotecnica, diciamo così, di
+
+20
+00:00:43.120 --> 00:00:47.239
+elettronica. Poi entreremo nella parte
+
+21
+00:00:45.000 --> 00:00:49.000
+di radiotecnica
+
+22
+00:00:47.239 --> 00:00:52.320
+e stasera è dedicata all'induttore.
+
+23
+00:00:49.000 --> 00:00:54.960
+L'induttore eh lavora lavora
+
+24
+00:00:52.320 --> 00:00:57.600
+essenzialmente sul campo magnetico.
+
+25
+00:00:54.960 --> 00:00:59.199
+Quindi partiamo intanto a ricordarci
+
+26
+00:00:57.600 --> 00:01:00.600
+cosa sono i magneti, perché le cose che
+
+27
+00:00:59.199 --> 00:01:02.440
+vedete scritto in questa slide
+
+28
+00:01:00.600 --> 00:01:03.879
+sicuramente tutti già le conoscete e
+
+29
+00:01:02.440 --> 00:01:06.040
+probabilmente tutti ci abbiamo un po'
+
+30
+00:01:03.879 --> 00:01:08.560
+giocati da bambini. Allora, intanto in
+
+31
+00:01:06.040 --> 00:01:10.520
+natura esistono dei magneti, quindi i
+
+32
+00:01:08.560 --> 00:01:12.920
+magneti sono delle cose che si trovano,
+
+33
+00:01:10.520 --> 00:01:14.600
+esistono già in natura e sono dei degli
+
+34
+00:01:12.920 --> 00:01:16.600
+oggetti
+
+35
+00:01:14.600 --> 00:01:19.960
+che sono fatti di un materiale che per
+
+36
+00:01:16.600 --> 00:01:21.640
+sua natura genera un campo magnetico. Vi
+
+37
+00:01:19.960 --> 00:01:24.680
+ricordate? Si era dato la definizione di
+
+38
+00:01:21.640 --> 00:01:26.479
+campo elettrico? Intanto un campo è una
+
+39
+00:01:24.680 --> 00:01:28.079
+regione dello spazio in cui si sente un
+
+40
+00:01:26.479 --> 00:01:29.640
+qualche effetto. Avevamo parlato di
+
+41
+00:01:28.079 --> 00:01:31.240
+campo elettrico. Il campo elettrico è
+
+42
+00:01:29.640 --> 00:01:33.479
+una regione dello spazio in cui si sente
+
+43
+00:01:31.240 --> 00:01:35.880
+l'effetto di cariche elettriche libere,
+
+44
+00:01:33.479 --> 00:01:37.640
+per esempio elettroni. Un campo
+
+45
+00:01:35.880 --> 00:01:39.640
+magnetico è una regione dello spazio in
+
+46
+00:01:37.640 --> 00:01:43.240
+cui senti gli effetti provocati da un
+
+47
+00:01:39.640 --> 00:01:45.360
+magnete. E diciamo questo campo
+
+48
+00:01:43.240 --> 00:01:48.600
+magnetico lo potete visualizzare come si
+
+49
+00:01:45.360 --> 00:01:51.000
+era detto magari quando giocate a far
+
+50
+00:01:48.600 --> 00:01:53.520
+attaccare l'una l'una con l'altra due
+
+51
+00:01:51.000 --> 00:01:55.719
+calamitine o a farle respingere, no? Una
+
+52
+00:01:53.520 --> 00:01:57.479
+di queste calamite, quando due calamite
+
+53
+00:01:55.719 --> 00:01:59.880
+si attraggono, vuol dire che una
+
+54
+00:01:57.479 --> 00:02:02.840
+calamita entra nel campo magnetico della
+
+55
+00:01:59.880 --> 00:02:05.560
+prima, clicc e ne viene attratta.
+
+56
+00:02:02.840 --> 00:02:07.600
+Allora, i magneti normalmente hanno due
+
+57
+00:02:05.560 --> 00:02:10.879
+poli, convenzionalmente vengono chiamati
+
+58
+00:02:07.600 --> 00:02:12.959
+nord e sud e anche per i magneti
+
+59
+00:02:10.879 --> 00:02:15.239
+e per i campi magnetici succede che le
+
+60
+00:02:12.959 --> 00:02:17.000
+polarità opposte si attraggono e le
+
+61
+00:02:15.239 --> 00:02:19.516
+polarità uguali si respingono, come
+
+62
+00:02:17.000 --> 00:02:20.920
+succedeva per gli per gli elettroni. Mh.
+
+63
+00:02:19.516 --> 00:02:22.480
+[schiarire la voce]
+
+64
+00:02:20.920 --> 00:02:24.800
+Eh,
+
+65
+00:02:22.480 --> 00:02:28.400
+allora,
+
+66
+00:02:24.800 --> 00:02:31.959
+nel 1811, vi ricordate che nel 1800 più
+
+67
+00:02:28.400 --> 00:02:35.000
+o meno Volta aveva inventato la la sua
+
+68
+00:02:31.959 --> 00:02:37.280
+pila, la pila di Volta, 1799. Da allora
+
+69
+00:02:35.000 --> 00:02:39.440
+cominciarono in pandiera massiccia gli
+
+70
+00:02:37.280 --> 00:02:42.440
+esperimenti sulla corrente elettrica. 11
+
+71
+00:02:39.440 --> 00:02:44.599
+anni dopoed scoprì che un conduttore
+
+72
+00:02:42.440 --> 00:02:46.959
+percorso da corrente elettrica genera un
+
+73
+00:02:44.599 --> 00:02:49.360
+campo magnetico e questa l'esperienzina
+
+74
+00:02:46.959 --> 00:02:52.080
+di Orste la vedete qua, la si potrebbe
+
+75
+00:02:49.360 --> 00:02:55.360
+tutta replicare facilmente. Praticamente
+
+76
+00:02:52.080 --> 00:02:56.920
+eh Ors scoprì che mentre giocava a far
+
+77
+00:02:55.360 --> 00:02:59.599
+scorrere corrente nei fili, lui
+
+78
+00:02:56.920 --> 00:03:02.120
+evidentemente aveva una bussola che
+
+79
+00:02:59.599 --> 00:03:03.840
+sarebbe questa qua poggiata sul tavolo
+
+80
+00:03:02.120 --> 00:03:05.319
+di lavoro. A un certo punto fece
+
+81
+00:03:03.840 --> 00:03:07.599
+scorrere corrente in un filo e il lago
+
+82
+00:03:05.319 --> 00:03:09.400
+della bussola opsi mosse. Quindi,
+
+83
+00:03:07.599 --> 00:03:11.519
+siccome Orsel probabilmente essendo un
+
+84
+00:03:09.400 --> 00:03:13.599
+fisico non credeva alle streghe, pensò
+
+85
+00:03:11.519 --> 00:03:15.879
+che ci fosse una relazione causae
+
+86
+00:03:13.599 --> 00:03:17.959
+effetto e si mise a studiare la cosa e
+
+87
+00:03:15.879 --> 00:03:21.159
+in qualche modo la la definì e la
+
+88
+00:03:17.959 --> 00:03:23.519
+pubblicò. E in questo caso, appunto, la
+
+89
+00:03:21.159 --> 00:03:25.200
+calamita non è altro che un magnete, no?
+
+90
+00:03:23.519 --> 00:03:28.159
+Sapete che le calamite puntano il Polo
+
+91
+00:03:25.200 --> 00:03:31.040
+Nordor perché sono magnetizzate.
+
+92
+00:03:28.159 --> 00:03:33.280
+E questo è il filo. Qui vedete che
+
+93
+00:03:31.040 --> 00:03:34.959
+l'interruttore è aperto, quindi qui
+
+94
+00:03:33.280 --> 00:03:37.760
+nascorre corrente elettrica. Nel momento
+
+95
+00:03:34.959 --> 00:03:39.959
+in cui l'interruttore si chiude attorno
+
+96
+00:03:37.760 --> 00:03:42.080
+il nel filo scorre corrente, in questo
+
+97
+00:03:39.959 --> 00:03:45.319
+filo scorre corrente, genera un campo
+
+98
+00:03:42.080 --> 00:03:47.599
+magnetico, questa corrente che scorre e
+
+99
+00:03:45.319 --> 00:03:50.920
+l'ago della bussola si dispone in
+
+100
+00:03:47.599 --> 00:03:52.680
+maniera perpendicolare al filo. Quindi
+
+101
+00:03:50.920 --> 00:03:55.799
+se in un conduttore elettrico si fa
+
+102
+00:03:52.680 --> 00:03:58.000
+scorrere corrente questa genera un campo
+
+103
+00:03:55.799 --> 00:04:00.159
+magnetico e questo succede ovunque nelle
+
+104
+00:03:58.000 --> 00:04:02.079
+nostre case. Quindi, cioè, noi siamo
+
+105
+00:04:00.159 --> 00:04:03.879
+circondati da fili elettrici, in questi
+
+106
+00:04:02.079 --> 00:04:05.720
+fili elettrici scorrono praticamente
+
+107
+00:04:03.879 --> 00:04:08.120
+sempre correnti, piccoli o grandi che
+
+108
+00:04:05.720 --> 00:04:11.720
+siano, e questi tutte queste correnti
+
+109
+00:04:08.120 --> 00:04:13.799
+generano una serie di campi magnetici.
+
+110
+00:04:11.720 --> 00:04:16.720
+Il campo magnetico generato da questo
+
+111
+00:04:13.799 --> 00:04:18.639
+filo è radiale.
+
+112
+00:04:16.720 --> 00:04:20.880
+Questa cosa qui forse qualcuno di voi
+
+113
+00:04:18.639 --> 00:04:22.479
+può averla fatta a scuola la cosa che
+
+114
+00:04:20.880 --> 00:04:24.080
+vedete in questa cosa. Normalmente
+
+115
+00:04:22.479 --> 00:04:26.120
+quando si vuol far vedere questa cosa ai
+
+116
+00:04:24.080 --> 00:04:27.720
+ragazzi di una classe si prende un
+
+117
+00:04:26.120 --> 00:04:29.880
+foglio di carta. Immaginate che questo
+
+118
+00:04:27.720 --> 00:04:31.960
+sia un foglio di carta. Ci si mette
+
+119
+00:04:29.880 --> 00:04:34.520
+sopra delle limatura di ferro, quindi
+
+120
+00:04:31.960 --> 00:04:36.960
+dei granoli di ferri piccolissimo dei
+
+121
+00:04:34.520 --> 00:04:39.320
+piccolissimi granoli di ferro. Questa
+
+122
+00:04:36.960 --> 00:04:42.720
+cosa che vedete in nero quassù è il filo
+
+123
+00:04:39.320 --> 00:04:44.320
+che passa il questo foglio di carta è il
+
+124
+00:04:42.720 --> 00:04:46.240
+filo elettrico. Questa che vedete qui
+
+125
+00:04:44.320 --> 00:04:47.880
+nero è semplicemente l'ombra, no? Dal
+
+126
+00:04:46.240 --> 00:04:50.320
+punto di vista fotografico della cosa,
+
+127
+00:04:47.880 --> 00:04:53.240
+quando si fa passare corrente, tutti
+
+128
+00:04:50.320 --> 00:04:55.440
+questi granuli di limatura di ferro che
+
+129
+00:04:53.240 --> 00:04:58.400
+prima sono messi in maniera caotica,
+
+130
+00:04:55.440 --> 00:05:00.919
+praticamente si orientano facendo una
+
+131
+00:04:58.400 --> 00:05:04.639
+serie di cerchi concentrici, come più o
+
+132
+00:05:00.919 --> 00:05:06.680
+meno lo si vede in questa figura. E
+
+133
+00:05:04.639 --> 00:05:08.639
+questa è la forma che ha appunto un
+
+134
+00:05:06.680 --> 00:05:10.400
+campo magnetico generato da da
+
+135
+00:05:08.639 --> 00:05:12.560
+un'intensità da da una corrente
+
+136
+00:05:10.400 --> 00:05:14.759
+elettrica. E come vedete qui questo
+
+137
+00:05:12.560 --> 00:05:17.960
+campo magnetico è tanto più forte quanto
+
+138
+00:05:14.759 --> 00:05:20.319
+più corrente scorre. Quindi Urste scoprì
+
+139
+00:05:17.960 --> 00:05:23.039
+che nel filo un in un filo percorso da
+
+140
+00:05:20.319 --> 00:05:25.520
+corrente eh un filo percorso da corrente
+
+141
+00:05:23.039 --> 00:05:28.720
+genera una corrente elettrica. Qualche
+
+142
+00:05:25.520 --> 00:05:31.600
+anno dopo, circa 1830, Faraday scoprì
+
+143
+00:05:28.720 --> 00:05:34.680
+un'altra cosa. Scoprì che se si avvicina
+
+144
+00:05:31.600 --> 00:05:36.400
+o si allontana un magnete ad una spira,
+
+145
+00:05:34.680 --> 00:05:38.919
+in questa spira compare una corrente e
+
+146
+00:05:36.400 --> 00:05:42.319
+questa è l'esperienza di Estad. Vedete
+
+147
+00:05:38.919 --> 00:05:46.240
+qui questa cosa tonda è una una spira di
+
+148
+00:05:42.319 --> 00:05:49.000
+filo attaccata a uno strumento, un un 1
+
+149
+00:05:46.240 --> 00:05:51.039
+un mamperometro o un galvanometro, come
+
+150
+00:05:49.000 --> 00:05:54.120
+si diceva all'epoca. un galvanometro è
+
+151
+00:05:51.039 --> 00:05:55.960
+un un amperometro molto molto sensibile.
+
+152
+00:05:54.120 --> 00:05:59.080
+Se, come vedete qua si prende in mano un
+
+153
+00:05:55.960 --> 00:06:01.479
+magnete, che è questo e lo si avvicina e
+
+154
+00:05:59.080 --> 00:06:03.240
+si allontana a questa spira, si vede che
+
+155
+00:06:01.479 --> 00:06:07.160
+l'ago di questo strumento si muove.
+
+156
+00:06:03.240 --> 00:06:09.560
+Cioè, se io, per esempio, infilo questo
+
+157
+00:06:07.160 --> 00:06:12.720
+eh questo magnete nella mia spira, vedo
+
+158
+00:06:09.560 --> 00:06:16.120
+che eh l'ago si muove, ad esempio, in
+
+159
+00:06:12.720 --> 00:06:18.639
+questa direzione. Se invece lo sfilo,
+
+160
+00:06:16.120 --> 00:06:21.400
+quindi inverto il verso del del mio
+
+161
+00:06:18.639 --> 00:06:23.639
+movimento e diciamo l'ago del mio
+
+162
+00:06:21.400 --> 00:06:26.199
+strumento si sposta nella nella
+
+163
+00:06:23.639 --> 00:06:28.840
+direzione opposta. In pratica c'è
+
+164
+00:06:26.199 --> 00:06:31.120
+corrente, come potete leggere qua sotto,
+
+165
+00:06:28.840 --> 00:06:34.280
+solo se la spira si muove rispetto al
+
+166
+00:06:31.120 --> 00:06:37.440
+filo. Ci deve essere, in altre parole,
+
+167
+00:06:34.280 --> 00:06:40.280
+una variazione di campo magnetico
+
+168
+00:06:37.440 --> 00:06:42.120
+concatenato in questa spira. Quindi la
+
+169
+00:06:40.280 --> 00:06:44.680
+quantità di campo magnetico che passa
+
+170
+00:06:42.120 --> 00:06:46.720
+nella spira deve variare. c'è questa
+
+171
+00:06:44.680 --> 00:06:49.039
+variazione,
+
+172
+00:06:46.720 --> 00:06:51.560
+la la spira genera una tensione
+
+173
+00:06:49.039 --> 00:06:53.319
+elettrica, una forza elettromotrice, noi
+
+174
+00:06:51.560 --> 00:06:55.960
+abbiamo sempre chiamata tensione e
+
+175
+00:06:53.319 --> 00:06:58.120
+questa tensione genera una corrente e
+
+176
+00:06:55.960 --> 00:07:00.280
+questa corrente è tanto più forte
+
+177
+00:06:58.120 --> 00:07:02.479
+quanto, come potete leggere qua, più
+
+178
+00:07:00.280 --> 00:07:04.960
+velocemente
+
+179
+00:07:02.479 --> 00:07:07.400
+eh il mio movimento si attua, cioè
+
+180
+00:07:04.960 --> 00:07:12.120
+quanto maggiore è la variazione di di
+
+181
+00:07:07.400 --> 00:07:14.440
+campo magnetico e quanto più eh
+
+182
+00:07:12.120 --> 00:07:17.319
+quanto più è forte la corrente. che in
+
+183
+00:07:14.440 --> 00:07:19.800
+qualche modo nasce in questa in questa
+
+184
+00:07:17.319 --> 00:07:21.360
+spira. E questo è il meccanismo con cui
+
+185
+00:07:19.800 --> 00:07:23.120
+funzionano tutte le varie dinamo
+
+186
+00:07:21.360 --> 00:07:25.639
+alternatori, cioè la maggior parte delle
+
+187
+00:07:23.120 --> 00:07:27.720
+macchine che producono elettricità
+
+188
+00:07:25.639 --> 00:07:30.919
+funzionano così. ci sono una serie di
+
+189
+00:07:27.720 --> 00:07:32.800
+spirina c'è tutta una meccanismi, assi
+
+190
+00:07:30.919 --> 00:07:35.639
+ruotanti, eccetera, che fanno in modo
+
+191
+00:07:32.800 --> 00:07:38.400
+che il campo de dei campi magnetici che
+
+192
+00:07:35.639 --> 00:07:41.400
+concatenati con queste spire
+
+193
+00:07:38.400 --> 00:07:43.479
+variano varino velocemente e così si
+
+194
+00:07:41.400 --> 00:07:45.879
+hanno appunto i generatori e gli e gli
+
+195
+00:07:43.479 --> 00:07:47.400
+alternatori. Per cui queste due cose che
+
+196
+00:07:45.879 --> 00:07:51.599
+abbiamo visto sono proprio speculari,
+
+197
+00:07:47.400 --> 00:07:54.199
+no? Cioè, Orste scoprì che
+
+198
+00:07:51.599 --> 00:07:57.159
+l'elettricità, la corrente elettrica che
+
+199
+00:07:54.199 --> 00:07:59.400
+scorre genera campo magnetico. E qui
+
+200
+00:07:57.159 --> 00:08:01.440
+invece è proprio la cosa speculare, se
+
+201
+00:07:59.400 --> 00:08:03.080
+c'è un campo magnetico, la variazione di
+
+202
+00:08:01.440 --> 00:08:04.560
+questo campo magnetico mi genere una
+
+203
+00:08:03.080 --> 00:08:08.720
+corrente. Quindi c'è una sorta di
+
+204
+00:08:04.560 --> 00:08:11.720
+legame, no, fra magnetismo e, diciamo, e
+
+205
+00:08:08.720 --> 00:08:11.720
+elettricità.
+
+206
+00:08:13.159 --> 00:08:20.000
+Ehm, se noi vogliamo generare in qualche
+
+207
+00:08:16.840 --> 00:08:21.879
+modo un un campo magnetico, esiste un
+
+208
+00:08:20.000 --> 00:08:24.240
+componente specifico che si chiama
+
+209
+00:08:21.879 --> 00:08:26.960
+induttore, detto anche bobina. Vedete
+
+210
+00:08:24.240 --> 00:08:30.240
+qua il suo simbolo elettrico che appunto
+
+211
+00:08:26.960 --> 00:08:31.879
+ricorda un po' l'idea di un avvolgimento
+
+212
+00:08:30.240 --> 00:08:34.839
+di spire, no? E qui in questa foto
+
+213
+00:08:31.879 --> 00:08:37.200
+vedete alcune alcune bobine. Questa per
+
+214
+00:08:34.839 --> 00:08:39.360
+esempio qui a sinistra, probabilmente si
+
+215
+00:08:37.200 --> 00:08:41.080
+si contano anche cinque spire a volte su
+
+216
+00:08:39.360 --> 00:08:43.320
+questa specie di nucleo. Qui le spire
+
+217
+00:08:41.080 --> 00:08:45.920
+sono un po' di più. Questi oggetti che
+
+218
+00:08:43.320 --> 00:08:47.519
+vedete in questa foto sono induttori.
+
+219
+00:08:45.920 --> 00:08:49.440
+Cioè gli induttori sono un po'
+
+220
+00:08:47.519 --> 00:08:50.800
+dappertutto nell'elettronica. Sono ad
+
+221
+00:08:49.440 --> 00:08:52.519
+esempio in tutti gli alimentatori
+
+222
+00:08:50.800 --> 00:08:55.040
+switching che avete in casa, quelli che
+
+223
+00:08:52.519 --> 00:08:57.279
+alimentano il tablet portatile, lo
+
+224
+00:08:55.040 --> 00:08:58.959
+smartphone, eccetera eccetera, magari
+
+225
+00:08:57.279 --> 00:09:00.519
+non in questa forma qui, ma in forma
+
+226
+00:08:58.959 --> 00:09:04.079
+simile. L'induttore cos'è? è un
+
+227
+00:09:00.519 --> 00:09:08.279
+componente, come potete leggere sotto,
+
+228
+00:09:04.079 --> 00:09:11.440
+che sviluppa un campo magnetico quando è
+
+229
+00:09:08.279 --> 00:09:13.880
+percorso da corrente.
+
+230
+00:09:11.440 --> 00:09:15.680
+Quindi faccio passare una certa corrente
+
+231
+00:09:13.880 --> 00:09:18.000
+nel mio induttore e il mio induttore
+
+232
+00:09:15.680 --> 00:09:19.920
+svila un sviluppa un campo magnetico.
+
+233
+00:09:18.000 --> 00:09:22.040
+Cosa ci facciamo di questa proprietà? La
+
+234
+00:09:19.920 --> 00:09:24.160
+la vedremo fra fra un po'. Allora,
+
+235
+00:09:22.040 --> 00:09:29.160
+intanto
+
+236
+00:09:24.160 --> 00:09:32.200
+un induttore eh quanto quanto è bravo a
+
+237
+00:09:29.160 --> 00:09:35.440
+generarmi campo magnetico, ovvero quanto
+
+238
+00:09:32.200 --> 00:09:38.600
+campo magnetico può generarmi un
+
+239
+00:09:35.440 --> 00:09:43.079
+induttore? Questo si esprime con un con
+
+240
+00:09:38.600 --> 00:09:44.920
+un valore che è chiamato induttanza.
+
+241
+00:09:43.079 --> 00:09:47.360
+Induttanza. Noi quando avevamo quando
+
+242
+00:09:44.920 --> 00:09:51.480
+abbiamo fatto le resistenze un paio di
+
+243
+00:09:47.360 --> 00:09:53.040
+lezioni fa abbiamo dato alla resistenza
+
+244
+00:09:51.480 --> 00:09:56.440
+un parametro, no, che appunto è la
+
+245
+00:09:53.040 --> 00:09:58.680
+resistenza che si misurava in ohm.
+
+246
+00:09:56.440 --> 00:10:00.560
+E gli induttori hanno a loro volta un
+
+247
+00:09:58.680 --> 00:10:02.560
+parametro che è l'induttanza. E
+
+248
+00:10:00.560 --> 00:10:05.959
+l'induttanza, come potete leggere qui,
+
+249
+00:10:02.560 --> 00:10:09.000
+esprime quanto campo magnetico può
+
+250
+00:10:05.959 --> 00:10:11.320
+generare un induttore e l'induttanza è
+
+251
+00:10:09.000 --> 00:10:13.720
+proprio il rapporto fra la corrente che
+
+252
+00:10:11.320 --> 00:10:16.560
+scorre nel mio campo nel mio induttore,
+
+253
+00:10:13.720 --> 00:10:19.440
+cioè gli ampere che io ci faccio passare
+
+254
+00:10:16.560 --> 00:10:21.279
+e il la quantità di campo magnetico, il
+
+255
+00:10:19.440 --> 00:10:23.720
+flusso magnetico che io ottengo questi
+
+256
+00:10:21.279 --> 00:10:26.640
+misura in Weber.
+
+257
+00:10:23.720 --> 00:10:29.640
+Quindi l'induttanza è la capacità che ha
+
+258
+00:10:26.640 --> 00:10:32.480
+un una bobina di generare un campo
+
+259
+00:10:29.640 --> 00:10:35.000
+magnetico più o meno forte.
+
+260
+00:10:32.480 --> 00:10:37.959
+questa induttanza
+
+261
+00:10:35.000 --> 00:10:41.040
+in una bobina di tipo come questo,
+
+262
+00:10:37.959 --> 00:10:43.240
+sostanzialmente una bobina lineare,
+
+263
+00:10:41.040 --> 00:10:46.120
+quindi non avvolta in mezzi strani
+
+264
+00:10:43.240 --> 00:10:48.959
+eccetera. Il valore dell'induttanza si
+
+265
+00:10:46.120 --> 00:10:51.160
+può calcolare tramite questa formula,
+
+266
+00:10:48.959 --> 00:10:53.639
+volendo l'induttanza, intanto leggete
+
+267
+00:10:51.160 --> 00:10:58.839
+qua che cresce col quadrato del numero
+
+268
+00:10:53.639 --> 00:11:00.200
+delle spire. E è qua n quadrato
+
+269
+00:10:58.839 --> 00:11:02.720
+vuol dire che immaginiamo che
+
+270
+00:11:00.200 --> 00:11:04.959
+l'induttanza abbia due spire e ottengo
+
+271
+00:11:02.720 --> 00:11:07.120
+una certa quantità di campo magnetico.
+
+272
+00:11:04.959 --> 00:11:09.040
+Se le due spire le porto a quattro,
+
+273
+00:11:07.120 --> 00:11:10.880
+quindi le raddoppio,
+
+274
+00:11:09.040 --> 00:11:14.079
+il campo magnetico non raddoppia, ma
+
+275
+00:11:10.880 --> 00:11:16.040
+quadruplica, capito?
+
+276
+00:11:14.079 --> 00:11:18.639
+Eh,
+
+277
+00:11:16.040 --> 00:11:20.920
+quindi, quindi torno sulla foto che
+
+278
+00:11:18.639 --> 00:11:23.120
+avevamo prima.
+
+279
+00:11:20.920 --> 00:11:26.200
+Vedendo questa foto si capisce che
+
+280
+00:11:23.120 --> 00:11:28.760
+questa induttanza qui è molto probabile
+
+281
+00:11:26.200 --> 00:11:30.959
+che a pari corrente sviluppi una
+
+282
+00:11:28.760 --> 00:11:34.320
+quantità di campo magnetico molto molto
+
+283
+00:11:30.959 --> 00:11:36.200
+più forte che non questa, perché questa
+
+284
+00:11:34.320 --> 00:11:37.720
+ha cinque spire. Questa ora non ci
+
+285
+00:11:36.200 --> 00:11:39.800
+mettiamo a contarle, ma potrebbero
+
+286
+00:11:37.720 --> 00:11:41.760
+essere una una quarantina. Quindi se io
+
+287
+00:11:39.800 --> 00:11:44.000
+faccio scorrere la stessa corrente in
+
+288
+00:11:41.760 --> 00:11:46.880
+questa e in questo induttore, diciamo il
+
+289
+00:11:44.000 --> 00:11:48.639
+solito ampere, 1 amp, se qui è un certo
+
+290
+00:11:46.880 --> 00:11:51.200
+una certa quantità di campo magnetico,
+
+291
+00:11:48.639 --> 00:11:53.279
+qui ho un campo magnetico estremamente
+
+292
+00:11:51.200 --> 00:11:57.160
+più elevato. Quindi, quante più spire
+
+293
+00:11:53.279 --> 00:11:58.600
+ho, quanto maggiore è il campo magnetico
+
+294
+00:11:57.160 --> 00:12:01.839
+generato dal mio induttore, quindi
+
+295
+00:11:58.600 --> 00:12:04.360
+quanto maggiore è l'induttanza. E questo
+
+296
+00:12:01.839 --> 00:12:06.120
+quantanto maggiore è un rapporto di tipo
+
+297
+00:12:04.360 --> 00:12:08.000
+quadratico, quindi se raddoppio il
+
+298
+00:12:06.120 --> 00:12:10.760
+numero di spire l'induttanza non
+
+299
+00:12:08.000 --> 00:12:14.079
+raddoppia ma quadruplica. Poi cresce col
+
+300
+00:12:10.760 --> 00:12:16.680
+diametro S. Quindi,
+
+301
+00:12:14.079 --> 00:12:19.480
+quindi se
+
+302
+00:12:16.680 --> 00:12:21.360
+le mie spire, invece che ad esempio 1 cm
+
+303
+00:12:19.480 --> 00:12:25.320
+di diametro, come potrebbero essere qui,
+
+304
+00:12:21.360 --> 00:12:28.600
+hanno 2 cm di diametro,
+
+305
+00:12:25.320 --> 00:12:31.839
+eh generano più campo magnetico.
+
+306
+00:12:28.600 --> 00:12:34.360
+Invece se io prendo questa questa specie
+
+307
+00:12:31.839 --> 00:12:36.680
+di bobina che vedete qua, è una specie
+
+308
+00:12:34.360 --> 00:12:38.680
+di spirale, no? Immaginiamo di prendere
+
+309
+00:12:36.680 --> 00:12:40.440
+i due terminali della bobina fra le
+
+310
+00:12:38.680 --> 00:12:43.199
+punte delle dita, mano destra e mano
+
+311
+00:12:40.440 --> 00:12:47.720
+sinistra, e di stirarla, quindi proprio
+
+312
+00:12:43.199 --> 00:12:51.320
+di allungarla come se fosse una molla.
+
+313
+00:12:47.720 --> 00:12:54.240
+Se mi aumenta la lunghezza
+
+314
+00:12:51.320 --> 00:12:56.399
+della mia bobina, eh la quantità di
+
+315
+00:12:54.240 --> 00:12:59.199
+campo magnetico diminuisce, l'induttanza
+
+316
+00:12:56.399 --> 00:13:00.920
+diminuisce,
+
+317
+00:12:59.199 --> 00:13:04.279
+quindi
+
+318
+00:13:00.920 --> 00:13:06.760
+è inver quindi la lunghezza della bobina
+
+319
+00:13:04.279 --> 00:13:08.279
+è inversamente proporzionale alla sua
+
+320
+00:13:06.760 --> 00:13:09.600
+induttanza.
+
+321
+00:13:08.279 --> 00:13:11.079
+Oppure si può dire anche nell'altro
+
+322
+00:13:09.600 --> 00:13:12.920
+modo, l'induttanza di una bobopina è
+
+323
+00:13:11.079 --> 00:13:16.399
+inversamente proporzionale alla sua
+
+324
+00:13:12.920 --> 00:13:20.399
+lunghezza. Scusate, ho sbagliato parola.
+
+325
+00:13:16.399 --> 00:13:23.199
+il tutto moltiplicato per un fattore che
+
+326
+00:13:20.399 --> 00:13:26.440
+è questo mi, lettera greca mi, che
+
+327
+00:13:23.199 --> 00:13:28.800
+sarebbe poi la nostra m in italiano, che
+
+328
+00:13:26.440 --> 00:13:32.000
+è la permeabilità magnetica del nucleo,
+
+329
+00:13:28.800 --> 00:13:35.000
+cioè il nucleo della bobina ha una certa
+
+330
+00:13:32.000 --> 00:13:37.160
+attitudine ad essere attraversato dal
+
+331
+00:13:35.000 --> 00:13:39.760
+campo magnetico, anzi nelle bobine si
+
+332
+00:13:37.160 --> 00:13:42.199
+mettono i nuclei proprio perché il campo
+
+333
+00:13:39.760 --> 00:13:44.360
+magnetico scorre molto meglio in un
+
+334
+00:13:42.199 --> 00:13:46.440
+materiale ferromagnetico, come si
+
+335
+00:13:44.360 --> 00:13:48.600
+chiama, che non dell'aria e questo ha
+
+336
+00:13:46.440 --> 00:13:52.399
+l'effetto di generare ancor più campo
+
+337
+00:13:48.600 --> 00:13:55.560
+magnetico e quindi eh un materiale con
+
+338
+00:13:52.399 --> 00:13:58.759
+un mi una permeabilità che si chiama più
+
+339
+00:13:55.560 --> 00:14:01.639
+alto e sicuramente genera più materiale,
+
+340
+00:13:58.759 --> 00:14:04.720
+genera più campo magnetico di della
+
+341
+00:14:01.639 --> 00:14:06.440
+stessa bobina avvolta semplicemente in
+
+342
+00:14:04.720 --> 00:14:08.839
+in aria.
+
+343
+00:14:06.440 --> 00:14:10.600
+Quindi la permeabilità che cos'è?
+
+344
+00:14:08.839 --> 00:14:12.160
+appunto una grandezza fisica che esprime
+
+345
+00:14:10.600 --> 00:14:14.440
+l'attitudine di un materiale a
+
+346
+00:14:12.160 --> 00:14:18.240
+magnetizzarsi in presenza di un campo
+
+347
+00:14:14.440 --> 00:14:20.560
+magnetico e si potrebbe dire che il la
+
+348
+00:14:18.240 --> 00:14:22.399
+presenza di un nucleo ferromagnetico,
+
+349
+00:14:20.560 --> 00:14:24.920
+come dicevo prima, moltiplica la
+
+350
+00:14:22.399 --> 00:14:27.959
+capacità di generare campo del della
+
+351
+00:14:24.920 --> 00:14:30.399
+bobina. Il nucleo, come leggete qua,
+
+352
+00:14:27.959 --> 00:14:33.560
+fornisce un percorso privilegiato al
+
+353
+00:14:30.399 --> 00:14:36.240
+campo magnetico. Un campo magnetico, se
+
+354
+00:14:33.560 --> 00:14:38.519
+può se potesse scegliere, fa passare l'
+
+355
+00:14:36.240 --> 00:14:40.759
+passare tramite dell'aria o passare
+
+356
+00:14:38.519 --> 00:14:42.199
+tramite un materiale ferromagnetico,
+
+357
+00:14:40.759 --> 00:14:43.759
+sceglierebbe il percorso a minor
+
+358
+00:14:42.199 --> 00:14:47.240
+resistenza per lui, che è quello del
+
+359
+00:14:43.759 --> 00:14:47.240
+materiale ferromagnetico.
+
+360
+00:14:48.360 --> 00:14:53.000
+Il nucleo,
+
+361
+00:14:51.040 --> 00:14:56.160
+come tutti i nuclei, può generare anche
+
+362
+00:14:53.000 --> 00:14:57.920
+delle perdite a per effetto di questo
+
+363
+00:14:56.160 --> 00:15:00.360
+magnetismo.
+
+364
+00:14:57.920 --> 00:15:02.480
+Le perdite, come sempre accade in
+
+365
+00:15:00.360 --> 00:15:04.720
+fisica, poi alla fine vanno a finire in
+
+366
+00:15:02.480 --> 00:15:07.120
+calore, effetto, in un modo o
+
+367
+00:15:04.720 --> 00:15:09.360
+nell'altro, come avevamo già visto nelle
+
+368
+00:15:07.120 --> 00:15:12.440
+le resistenze.
+
+369
+00:15:09.360 --> 00:15:14.480
+Ehm, però in ogni caso, nonostante che
+
+370
+00:15:12.440 --> 00:15:17.040
+il nucleo possa aggiungere queste
+
+371
+00:15:14.480 --> 00:15:19.600
+perdite, ha un effetto così positivo sul
+
+372
+00:15:17.040 --> 00:15:23.000
+valore dell'induttanza che comunque
+
+373
+00:15:19.600 --> 00:15:24.560
+viene sempre usato. Questa slide serve
+
+374
+00:15:23.000 --> 00:15:26.320
+perché potrebbe essere oggetto di una
+
+375
+00:15:24.560 --> 00:15:28.240
+domanda, serve per ricordarsi che
+
+376
+00:15:26.320 --> 00:15:30.800
+appunto il nucleo di una bobina non è
+
+377
+00:15:28.240 --> 00:15:33.600
+comunque un materiale perfetto e può
+
+378
+00:15:30.800 --> 00:15:34.839
+indurre delle perdite. Infine, e con
+
+379
+00:15:33.600 --> 00:15:38.000
+questo concludo questa prima
+
+380
+00:15:34.839 --> 00:15:40.240
+chiacchierata su di presentazione
+
+381
+00:15:38.000 --> 00:15:42.399
+generale dell'induttore.
+
+382
+00:15:40.240 --> 00:15:44.800
+Esistono degli induttori variabili, cioè
+
+383
+00:15:42.399 --> 00:15:47.240
+di cui io posso modificare il valore di
+
+384
+00:15:44.800 --> 00:15:49.399
+induttanza. Questo che vedete in questa
+
+385
+00:15:47.240 --> 00:15:51.839
+fotografia un po' sfocata è un tipico
+
+386
+00:15:49.399 --> 00:15:55.319
+induttore variabile. Vedete che qui c'è
+
+387
+00:15:51.839 --> 00:15:58.399
+una bobina, no? Questa fatta da saranno
+
+388
+00:15:55.319 --> 00:16:00.040
+12-15 spire, qualcosa del genere. E in
+
+389
+00:15:58.399 --> 00:16:02.519
+questa bobina c'è un nucleo. Vedete che
+
+390
+00:16:00.040 --> 00:16:04.600
+in questo nucleo c'è un taglietto.
+
+391
+00:16:02.519 --> 00:16:06.600
+Questo perché in questo taglietto si può
+
+392
+00:16:04.600 --> 00:16:09.959
+infilare la punta di un cacciavite e
+
+393
+00:16:06.600 --> 00:16:13.279
+avvitare o svitare questo nucleo in
+
+394
+00:16:09.959 --> 00:16:15.199
+questo eh diciamo su su questo supporto
+
+395
+00:16:13.279 --> 00:16:17.920
+su cui ho avvolta la bobina. Qui dentro
+
+396
+00:16:15.199 --> 00:16:21.120
+normalmente c'è una filettatura e con un
+
+397
+00:16:17.920 --> 00:16:22.920
+cacciavite posso avvitare questo nucleo
+
+398
+00:16:21.120 --> 00:16:26.360
+introducendolo,
+
+399
+00:16:22.920 --> 00:16:28.480
+scusate, introducendolo
+
+400
+00:16:26.360 --> 00:16:30.759
+nel nella mia bobina o posso fare il
+
+401
+00:16:28.480 --> 00:16:33.560
+contrario, no? Posso svitare e così il
+
+402
+00:16:30.759 --> 00:16:36.560
+nucleo se ne uscirebbe dalla bobina.
+
+403
+00:16:33.560 --> 00:16:39.720
+Così facendo, se lo infilo l'induttanza
+
+404
+00:16:36.560 --> 00:16:43.600
+aumenta, se lo sfilo l'induttanza
+
+405
+00:16:39.720 --> 00:16:45.519
+diminuisce. Nelle nelle radio,
+
+406
+00:16:43.600 --> 00:16:47.639
+in un modo o nell'altro di questo tipo
+
+407
+00:16:45.519 --> 00:16:50.160
+di componenti, induttori variabili ce ne
+
+408
+00:16:47.639 --> 00:16:52.759
+sono sempre un certo numero, magari con
+
+409
+00:16:50.160 --> 00:16:55.480
+tecnologie di realizzazione diverse. Se
+
+410
+00:16:52.759 --> 00:16:57.040
+qualcuno di voi ama le radio a valvole e
+
+411
+00:16:55.480 --> 00:16:58.759
+gli esempi tipici sono i vecchi
+
+412
+00:16:57.040 --> 00:17:01.680
+trasformatori di media frequenza che
+
+413
+00:16:58.759 --> 00:17:04.679
+sono degli scatolotti alti anche 10 cm*
+
+414
+00:17:01.680 --> 00:17:06.439
+4* 4, no? dove c'erano queste cose, ma
+
+415
+00:17:04.679 --> 00:17:09.799
+anche nelle radio moderne a transistor
+
+416
+00:17:06.439 --> 00:17:12.919
+eccetera ce ne ce ne sono tante,
+
+417
+00:17:09.799 --> 00:17:15.039
+diciamo, di di queste bobine regolabili
+
+418
+00:17:12.919 --> 00:17:16.919
+regolabili, quindi in qualche modo,
+
+419
+00:17:15.039 --> 00:17:19.360
+essendo regolabili queste servono per
+
+420
+00:17:16.919 --> 00:17:22.559
+fare una taratura, quindi servono per
+
+421
+00:17:19.360 --> 00:17:24.736
+mettere a punto tarandoli dei circuiti.
+
+422
+00:17:22.559 --> 00:17:25.280
+Di queste cose poi parleremo più avanti.
+
+423
+00:17:24.736 --> 00:17:27.439
+[sbuffare]
+
+424
+00:17:25.280 --> 00:17:29.480
+E questo è tutto, diciamo, questa è,
+
+425
+00:17:27.439 --> 00:17:31.679
+diciamo, una chiacchierata generale su
+
+426
+00:17:29.480 --> 00:17:35.080
+cos'è l'induttore. Quindi l'induttore,
+
+427
+00:17:31.679 --> 00:17:36.919
+riassumo molto in sintesi, l'induttore è
+
+428
+00:17:35.080 --> 00:17:39.320
+un componente elettronico che di fatto
+
+429
+00:17:36.919 --> 00:17:42.120
+somiglia a una a una bobina di filo
+
+430
+00:17:39.320 --> 00:17:44.480
+elettrico avvolto su se stesso o avvolto
+
+431
+00:17:42.120 --> 00:17:46.919
+su un nucleo. Nel momento in cui faccio
+
+432
+00:17:44.480 --> 00:17:48.720
+scorrere una corrente elettrica nel mio
+
+433
+00:17:46.919 --> 00:17:51.039
+induttore, lui genera un campo
+
+434
+00:17:48.720 --> 00:17:53.919
+magnetico. Quanto me ne genera? Dipende
+
+435
+00:17:51.039 --> 00:17:56.919
+dalla sua induttanza. Se l'induttanza è
+
+436
+00:17:53.919 --> 00:17:58.600
+alta generà genererà genererà tanto
+
+437
+00:17:56.919 --> 00:18:01.440
+campo magnetico. Viceversa, se
+
+438
+00:17:58.600 --> 00:18:03.919
+l'induttanza è bassa, ne genererà poco.
+
+439
+00:18:01.440 --> 00:18:06.159
+Per avere induttanze alte ho bisogno di
+
+440
+00:18:03.919 --> 00:18:08.360
+tante spire.
+
+441
+00:18:06.159 --> 00:18:11.200
+E qui per ora mi fermo, tolgo la
+
+442
+00:18:08.360 --> 00:18:13.520
+condivisione, se c'è qualche domanda
+
+443
+00:18:11.200 --> 00:18:14.919
+rispondo rispondo volentieri. Quindi
+
+444
+00:18:13.520 --> 00:18:16.679
+questa chiacchierata generale
+
+445
+00:18:14.919 --> 00:18:18.159
+sull'induttore. Ora andremo avanti,
+
+446
+00:18:16.679 --> 00:18:20.360
+vedremo un po' cosa ci facciamo con
+
+447
+00:18:18.159 --> 00:18:23.080
+questo oggetto. A te Giovanni e poi
+
+448
+00:18:20.360 --> 00:18:25.679
+Davide.
+
+449
+00:18:23.080 --> 00:18:27.360
+Microfono, microfono.
+
+450
+00:18:25.679 --> 00:18:28.240
+>> Ecco, mi mi senti adesso
+
+451
+00:18:27.360 --> 00:18:32.280
+>> ora? Sì, benissimo.
+
+452
+00:18:28.240 --> 00:18:34.320
+>> Ok, scusa. Eh, velocemente. La prima è
+
+453
+00:18:32.280 --> 00:18:37.400
+sicuramente questa è in materia d'esame,
+
+454
+00:18:34.320 --> 00:18:40.320
+troveremo potremmo trovare delle domande
+
+455
+00:18:37.400 --> 00:18:42.039
+su questa eh su questa tipologia. Mi
+
+456
+00:18:40.320 --> 00:18:43.360
+sembra da aver visto in qualche
+
+457
+00:18:42.039 --> 00:18:47.640
+esercitazione.
+
+458
+00:18:43.360 --> 00:18:52.480
+>> Seconda la eh l'induttanza, quindi mi n^
+
+459
+00:18:47.640 --> 00:18:54.640
+2 * s/ I. mi ha un valore suo specifico,
+
+460
+00:18:52.480 --> 00:18:57.640
+lo vediamo dopo. Facciamo degli esempi
+
+461
+00:18:54.640 --> 00:19:01.000
+per calcolare l'induttanza o no?
+
+462
+00:18:57.640 --> 00:19:03.760
+>> No. Allora, mi ha un valore specifico
+
+463
+00:19:01.000 --> 00:19:05.480
+che dipende dal nucleo, quindi ci sono
+
+464
+00:19:03.760 --> 00:19:07.360
+dei nuclei che possono avere un MID di
+
+465
+00:19:05.480 --> 00:19:08.760
+10, altri che possono avere un Mid di
+
+466
+00:19:07.360 --> 00:19:11.400
+20.
+
+467
+00:19:08.760 --> 00:19:14.080
+Nelle domande di esame non c'è mai stata
+
+468
+00:19:11.400 --> 00:19:16.159
+una domanda che prevede l'applicazione
+
+469
+00:19:14.080 --> 00:19:18.440
+di quella formula con i numeri.
+
+470
+00:19:16.159 --> 00:19:21.039
+>> Ok, perfetto. Ottimo.
+
+471
+00:19:18.440 --> 00:19:24.400
+>> Però però potrebbe esserci una domanda
+
+472
+00:19:21.039 --> 00:19:26.840
+della serie. Se in un induttore faccio
+
+473
+00:19:24.400 --> 00:19:28.880
+più spire, l'induttanza che fa? Cresce,
+
+474
+00:19:26.840 --> 00:19:29.919
+decresce o resta inalterata?
+
+475
+00:19:28.880 --> 00:19:31.760
+>> Certo.
+
+476
+00:19:29.919 --> 00:19:34.799
+>> Capito? Quindi, diciamo, bisogna un po'
+
+477
+00:19:31.760 --> 00:19:37.400
+sapere come funziona in sostanza.
+
+478
+00:19:34.799 --> 00:19:39.799
+è più una sono domande di metodo su su
+
+479
+00:19:37.400 --> 00:19:41.159
+come funziona l'induttanza rispetto a
+
+480
+00:19:39.799 --> 00:19:43.440
+quello. Ok, perfetto. Grazie.
+
+481
+00:19:41.159 --> 00:19:45.120
+>> Esattissimo. Esattissimo. Niente a te
+
+482
+00:19:43.440 --> 00:19:46.440
+Davide,
+
+483
+00:19:45.120 --> 00:19:47.240
+>> mi sentite?
+
+484
+00:19:46.440 --> 00:19:50.799
+>> Sì, sì.
+
+485
+00:19:47.240 --> 00:19:54.000
+>> Sentite. Ok. Ok. Allora, domanda. Il
+
+486
+00:19:50.799 --> 00:19:55.720
+l'induttanza aumenta con il diametro,
+
+487
+00:19:54.000 --> 00:19:58.200
+no? C'era scritto nella slide a pagina
+
+488
+00:19:55.720 --> 00:20:00.240
+8. Ok. Ma il diametro di cosa? Il
+
+489
+00:19:58.200 --> 00:20:02.520
+diametro del nucleo o il diametro del
+
+490
+00:20:00.240 --> 00:20:05.679
+filo che scorre intorno avvolto intorno
+
+491
+00:20:02.520 --> 00:20:09.600
+al nucleo? Hai ragione, buona domanda.
+
+492
+00:20:05.679 --> 00:20:11.679
+ehm è la sezione del tubo, per
+
+493
+00:20:09.600 --> 00:20:14.640
+intenderci, quindi il diametro
+
+494
+00:20:11.679 --> 00:20:18.480
+dell'induttore in quanto tale, ovvero
+
+495
+00:20:14.640 --> 00:20:18.480
+per vederlo qua,
+
+496
+00:20:18.600 --> 00:20:28.679
+eh, aspetta, metto il pennarello.
+
+497
+00:20:23.039 --> 00:20:28.679
+S, per dirlo in maniera più precisa,
+
+498
+00:20:29.520 --> 00:20:35.320
+è la sezione di questo cerchio qua.
+
+499
+00:20:33.600 --> 00:20:36.760
+>> Ok? E quindi il diametro del filo non
+
+500
+00:20:35.320 --> 00:20:38.400
+incide.
+
+501
+00:20:36.760 --> 00:20:40.320
+>> Incide anche il diametro del filo, ma in
+
+502
+00:20:38.400 --> 00:20:43.240
+misura minore.
+
+503
+00:20:40.320 --> 00:20:45.159
+>> Ok? In generale le formule con cui si
+
+504
+00:20:43.240 --> 00:20:47.799
+calcola l'induttanza della bobina sono
+
+505
+00:20:45.159 --> 00:20:49.280
+sempre molto approssimate.
+
+506
+00:20:47.799 --> 00:20:51.640
+Tu cerchi di fare una bobina che
+
+507
+00:20:49.280 --> 00:20:53.440
+dovrebbe avere 100 microenry, faccio per
+
+508
+00:20:51.640 --> 00:20:55.240
+dire, poi vai a misurarla e ne vengono
+
+509
+00:20:53.440 --> 00:20:58.400
+120.
+
+510
+00:20:55.240 --> 00:21:00.720
+Eh, quindi di solito si usano formule
+
+511
+00:20:58.400 --> 00:21:02.919
+di, diciamo, di prima approssimazione.
+
+512
+00:21:00.720 --> 00:21:05.000
+Qui sì, qui il diametro si prenderebbe
+
+513
+00:21:02.919 --> 00:21:07.280
+questa misura
+
+514
+00:21:05.000 --> 00:21:09.720
+come diametro della formula, in realtà
+
+515
+00:21:07.280 --> 00:21:11.320
+ci vuole la sezione, quindi diametro,
+
+516
+00:21:09.720 --> 00:21:14.240
+poi si fa il raggio, quindi e poi
+
+517
+00:21:11.320 --> 00:21:17.200
+clicchere R qu, d'accordo?
+
+518
+00:21:14.240 --> 00:21:19.679
+>> Per calcolare la sezione di questo
+
+519
+00:21:17.200 --> 00:21:22.880
+cerchio. Comunque, appunto, l'esame non
+
+520
+00:21:19.679 --> 00:21:25.400
+arriva a a questo livello di specif di
+
+521
+00:21:22.880 --> 00:21:27.240
+specificità.
+
+522
+00:21:25.400 --> 00:21:28.440
+Però, cioè, se vi interessa capire un
+
+523
+00:21:27.240 --> 00:21:30.240
+po' meglio, qualche domanda va
+
+524
+00:21:28.440 --> 00:21:31.400
+sicuramente bene. Vai libero, andate
+
+525
+00:21:30.240 --> 00:21:32.799
+liberi.
+
+526
+00:21:31.400 --> 00:21:36.919
+>> Grazie. Grazie mille
+
+527
+00:21:32.799 --> 00:21:38.960
+>> a te. C'è la vuoi Gianfranco.
+
+528
+00:21:36.919 --> 00:21:41.880
+No, Francesco, scusa. No, aspetta,
+
+529
+00:21:38.960 --> 00:21:44.559
+Francesco appena Gianfranco.
+
+530
+00:21:41.880 --> 00:21:47.240
+No, aspetta. Francesco. Sì,
+
+531
+00:21:44.559 --> 00:21:49.640
+>> Paolo, grazie comunque della la
+
+532
+00:21:47.240 --> 00:21:51.039
+risposta. La domanda l'ha fatta Davide
+
+533
+00:21:49.640 --> 00:21:53.559
+prima, la risposta è stata
+
+534
+00:21:51.039 --> 00:21:54.039
+esaustivissima. Sì, siamo a posto.
+
+535
+00:21:53.559 --> 00:21:55.320
+Grazie.
+
+536
+00:21:54.039 --> 00:21:55.679
+>> Grazie. Ciao.
+
+537
+00:21:55.320 --> 00:21:58.320
+>> A dopo.
+
+538
+00:21:55.679 --> 00:22:00.640
+>> Gianfranco. A te.
+
+539
+00:21:58.320 --> 00:22:04.159
+>> Più che altro una curiosità, la forma
+
+540
+00:22:00.640 --> 00:22:06.039
+della eh dell'induttanza,
+
+541
+00:22:04.159 --> 00:22:10.880
+abbiamo visto, ci sono negli esempi
+
+542
+00:22:06.039 --> 00:22:14.039
+c'era una lineare, quindi con la ferrite
+
+543
+00:22:10.880 --> 00:22:17.000
+un cilindro e un'altra era toroidale.
+
+544
+00:22:14.039 --> 00:22:20.880
+Influenza anche la forma?
+
+545
+00:22:17.000 --> 00:22:24.080
+Eh sì, decisamente decisamente. Diciamo
+
+546
+00:22:20.880 --> 00:22:27.039
+che le
+
+547
+00:22:24.080 --> 00:22:30.200
+diciamo che la forma influenza molto
+
+548
+00:22:27.039 --> 00:22:32.559
+anche sul
+
+549
+00:22:30.200 --> 00:22:34.760
+fammi dire per poi queste cose le
+
+550
+00:22:32.559 --> 00:22:37.760
+vedremo in maniera più precisa, ma
+
+551
+00:22:34.760 --> 00:22:41.120
+influisce molto su, diciamo, la qualità
+
+552
+00:22:37.760 --> 00:22:43.960
+dell'induttanza stessa. Perché allora un
+
+553
+00:22:41.120 --> 00:22:46.320
+problema che hanno
+
+554
+00:22:43.960 --> 00:22:49.279
+un problema che hanno le induttanze è
+
+555
+00:22:46.320 --> 00:22:51.360
+che il campo magnetico che esse generano
+
+556
+00:22:49.279 --> 00:22:53.120
+molto spesso sta al cioè una parte di
+
+557
+00:22:51.360 --> 00:22:55.600
+questo campo magnetico sta all'esterno
+
+558
+00:22:53.120 --> 00:22:57.640
+dell'induttanza, quindi si concatena con
+
+559
+00:22:55.600 --> 00:22:59.440
+tutto quello che è attorno, anche magari
+
+560
+00:22:57.640 --> 00:23:01.679
+non fa parte del circuito elettrico in
+
+561
+00:22:59.440 --> 00:23:03.720
+cui l'induttanza è montata e questo
+
+562
+00:23:01.679 --> 00:23:06.039
+concatenarsi porta a delle perdite di
+
+563
+00:23:03.720 --> 00:23:07.679
+energia, quindi a delle perdite. La
+
+564
+00:23:06.039 --> 00:23:09.960
+grande caratteristica che hanno i nuclei
+
+565
+00:23:07.679 --> 00:23:12.640
+toroidali, che ora sono usati
+
+566
+00:23:09.960 --> 00:23:14.520
+moltissimo, diciamo, no,
+
+567
+00:23:12.640 --> 00:23:16.600
+appunto in generale nelle radio in
+
+568
+00:23:14.520 --> 00:23:18.960
+elettronica, è che il campo magnetico si
+
+569
+00:23:16.600 --> 00:23:20.720
+concatena in grandissima parte su se
+
+570
+00:23:18.960 --> 00:23:23.400
+stesso a causa proprio della forma
+
+571
+00:23:20.720 --> 00:23:25.320
+toroidale del nucleo e quindi sono
+
+572
+00:23:23.400 --> 00:23:27.880
+nuclei che hanno una perdita molto
+
+573
+00:23:25.320 --> 00:23:29.919
+minore che non un'induttanza lineare,
+
+574
+00:23:27.880 --> 00:23:31.520
+quella come avevamo visto, no, le cinque
+
+575
+00:23:29.919 --> 00:23:34.039
+spire su quella baston su quel
+
+576
+00:23:31.520 --> 00:23:34.039
+bastoncino.
+
+577
+00:23:35.760 --> 00:23:40.960
+Chiaro. Grazie
+
+578
+00:23:37.799 --> 00:23:40.960
+>> a te.
+
+579
+00:23:41.120 --> 00:23:46.600
+>> Allora, riparto. Questa, come vi dicevo,
+
+580
+00:23:44.000 --> 00:23:48.919
+era una prima chiacchierata generale su,
+
+581
+00:23:46.600 --> 00:23:52.919
+diciamo, cos'è cos'è l'induttanza.
+
+582
+00:23:48.919 --> 00:23:55.840
+Adesso cosa cosa ci faccio cosa ci posso
+
+583
+00:23:52.919 --> 00:23:58.440
+fare con un'induttanza? Cominciamo da
+
+584
+00:23:55.840 --> 00:24:00.559
+cose che che di fatto già conosciamo.
+
+585
+00:23:58.440 --> 00:24:03.080
+Allora, intanto
+
+586
+00:24:00.559 --> 00:24:05.360
+eccoci qua. Intanto, come abbiamo fatto
+
+587
+00:24:03.080 --> 00:24:08.440
+per i resistori, anche gli induttori li
+
+588
+00:24:05.360 --> 00:24:10.960
+posso mettere in serio, in parallelo.
+
+589
+00:24:08.440 --> 00:24:13.120
+E qui il gioco è abbastanza facile
+
+590
+00:24:10.960 --> 00:24:15.480
+perché per gli induttori in serie in
+
+591
+00:24:13.120 --> 00:24:17.200
+parallelo valgono esattamente le stesse
+
+592
+00:24:15.480 --> 00:24:20.840
+formule che avete già visto e avete già
+
+593
+00:24:17.200 --> 00:24:25.559
+usato per i resistori. Quindi quando il
+
+594
+00:24:20.840 --> 00:24:29.080
+collegamento è in serie
+
+595
+00:24:25.559 --> 00:24:31.919
+in serie, ok?
+
+596
+00:24:29.080 --> 00:24:35.360
+Le indotanze semplicemente si sommano L1
+
+597
+00:24:31.919 --> 00:24:37.640
++ L2 + L3 più quante sono? Quando il
+
+598
+00:24:35.360 --> 00:24:40.039
+collegamento invece è in parallelo, se
+
+599
+00:24:37.640 --> 00:24:42.760
+io devo mettere due bobine, diciamo, in
+
+600
+00:24:40.039 --> 00:24:44.520
+parallelo, si usa la formula identica a
+
+601
+00:24:42.760 --> 00:24:46.919
+quella del parallelo delle resistenze
+
+602
+00:24:44.520 --> 00:24:49.440
+che può essere scritta così. Oppure
+
+603
+00:24:46.919 --> 00:24:51.399
+ricordate che quando sono solamente due
+
+604
+00:24:49.440 --> 00:24:55.520
+si usa una formula semplificata, no, che
+
+605
+00:24:51.399 --> 00:24:59.480
+è L1 moltiplicato L2/
+
+606
+00:24:55.520 --> 00:25:01.080
+L1 + L2. Oppure se questa formula che si
+
+607
+00:24:59.480 --> 00:25:03.480
+gestisce bene anche questa, basta avere
+
+608
+00:25:01.080 --> 00:25:06.320
+una calcolatrice che abbia l'uno su che
+
+609
+00:25:03.480 --> 00:25:09.039
+abbia il reciproco. Ammesso che nel
+
+610
+00:25:06.320 --> 00:25:11.320
+diciamo ci siano domande che richiedono
+
+611
+00:25:09.039 --> 00:25:13.320
+calcoli così complicati, cosa che non è
+
+612
+00:25:11.320 --> 00:25:15.919
+così probabile.
+
+613
+00:25:13.320 --> 00:25:18.360
+E tanto per riscaldarvi un po', diciamo,
+
+614
+00:25:15.919 --> 00:25:20.039
+un po' memoria, eh rimettiamole un
+
+615
+00:25:18.360 --> 00:25:21.799
+attimo in pratica queste formule,
+
+616
+00:25:20.039 --> 00:25:23.399
+parlando questa volta di induttanze,
+
+617
+00:25:21.799 --> 00:25:25.120
+quindi rispondete a questa domanda, per
+
+618
+00:25:23.399 --> 00:25:28.760
+favore. Allora, qual è l'induttanza
+
+619
+00:25:25.120 --> 00:25:34.399
+totale di due induttori
+
+620
+00:25:28.760 --> 00:25:38.480
+di evidentemente uno di 150 micro
+
+621
+00:25:34.399 --> 00:25:40.960
+e uno di 250 micro
+
+622
+00:25:38.480 --> 00:25:43.960
+collegata serie?
+
+623
+00:25:40.960 --> 00:25:47.640
+Risposta 400.
+
+624
+00:25:43.960 --> 00:25:51.360
+>> Ok, bravi, era facile. Bravi, bravi. 250
+
+625
+00:25:47.640 --> 00:25:53.000
++ 100 150 + 250.
+
+626
+00:25:51.360 --> 00:25:55.000
+Ora, ora che vi siete scaldati,
+
+627
+00:25:53.000 --> 00:25:57.039
+cimentatevi con questa domanda. Due:
+
+628
+00:25:55.000 --> 00:25:59.399
+Qual è l'induttanza totale di due
+
+629
+00:25:57.039 --> 00:26:01.600
+induttori di
+
+630
+00:25:59.399 --> 00:26:06.919
+200
+
+631
+00:26:01.600 --> 00:26:09.840
+e 300 microenry collegati in parallelo?
+
+632
+00:26:06.919 --> 00:26:11.399
+Vi do qualche secondo, andate a mente,
+
+633
+00:26:09.840 --> 00:26:13.919
+calcolatrice,
+
+634
+00:26:11.399 --> 00:26:17.320
+Excel, quello che volete, ma tirate
+
+635
+00:26:13.919 --> 00:26:17.320
+fuori una risposta.
+
+636
+00:26:21.480 --> 00:26:26.480
+Mentre ci pensate chi è che 120?
+
+637
+00:26:25.279 --> 00:26:27.279
+>> Ripeti.
+
+638
+00:26:26.480 --> 00:26:29.600
+>> 120
+
+639
+00:26:27.279 --> 00:26:31.760
+>> 120
+
+640
+00:26:29.600 --> 00:26:34.360
+>> m Qualcuno dice 120, qualcuno dice
+
+641
+00:26:31.760 --> 00:26:37.919
+qualcosa di diverso?
+
+642
+00:26:34.360 --> 00:26:37.919
+>> Valore più basso.
+
+643
+00:26:39.520 --> 00:26:43.640
+>> Allora, è giusto che è giusto che viene
+
+644
+00:26:42.120 --> 00:26:46.480
+120.
+
+645
+00:26:43.640 --> 00:26:48.799
+Eh, bravi, bravi. Allora, intanto
+
+646
+00:26:46.480 --> 00:26:50.679
+>> è giusto, come ha detto qualcuno di voi,
+
+647
+00:26:48.799 --> 00:26:53.919
+che ricordandosi che quando si fa un
+
+648
+00:26:50.679 --> 00:26:55.880
+parallelo, il risultato che viene è più
+
+649
+00:26:53.919 --> 00:26:59.080
+basso del più basso, deve venire
+
+650
+00:26:55.880 --> 00:27:02.600
+qualcosa che è meno di 200, d'accordo?
+
+651
+00:26:59.080 --> 00:27:05.240
+Se vi fosse venuto 220 è chiaramente un
+
+652
+00:27:02.600 --> 00:27:09.159
+errore. E qui il conto, la risposta è
+
+653
+00:27:05.240 --> 00:27:11.559
+questa qua. 200 * 300/ 200 + 300, la
+
+654
+00:27:09.159 --> 00:27:14.279
+formula semplificata e il risultato
+
+655
+00:27:11.559 --> 00:27:15.919
+giustamente è 120. Quindi bravi, siete
+
+656
+00:27:14.279 --> 00:27:19.320
+siete in forma, almeno quelli che hanno
+
+657
+00:27:15.919 --> 00:27:21.840
+parlato, ma penso che visto che quando
+
+658
+00:27:19.320 --> 00:27:24.320
+avete avuto questi esercizi il più il
+
+659
+00:27:21.840 --> 00:27:25.840
+più del 90% di voi ha risposto bene,
+
+660
+00:27:24.320 --> 00:27:27.480
+diciamo, penso che sia una forma che
+
+661
+00:27:25.840 --> 00:27:30.880
+vale per tutti. Comunque utile anche
+
+662
+00:27:27.480 --> 00:27:32.919
+rinfrescarsele, no, queste cose.
+
+663
+00:27:30.880 --> 00:27:36.679
+Allora, continuiamo.
+
+664
+00:27:32.919 --> 00:27:40.760
+Allora, cosa succede quando si collega
+
+665
+00:27:36.679 --> 00:27:42.720
+un induttore a una tensione continua?
+
+666
+00:27:40.760 --> 00:27:46.519
+Allora, quando si collegava una
+
+667
+00:27:42.720 --> 00:27:48.279
+resistenza a un generatore, quindi mi
+
+668
+00:27:46.519 --> 00:27:50.360
+riferisco alla seconda lezione, quando
+
+669
+00:27:48.279 --> 00:27:52.559
+parlavamo dei generatori e avevamo solo
+
+670
+00:27:50.360 --> 00:27:54.440
+la resistenza,
+
+671
+00:27:52.559 --> 00:27:56.880
+non ci siamo neanche posti il problema
+
+672
+00:27:54.440 --> 00:27:59.640
+del tempo perché nel momento in cui si
+
+673
+00:27:56.880 --> 00:28:02.720
+collega a un generatore, a una
+
+674
+00:27:59.640 --> 00:28:04.320
+resistenza, e scorre una certa corrente
+
+675
+00:28:02.720 --> 00:28:06.200
+e questa corrente, diciamo, che va a
+
+676
+00:28:04.320 --> 00:28:07.960
+regime istantaneamente, cioè nel momento
+
+677
+00:28:06.200 --> 00:28:09.600
+in cui si chiude un interruttore e si
+
+678
+00:28:07.960 --> 00:28:11.760
+attacca una resistenza a un generatore
+
+679
+00:28:09.600 --> 00:28:13.919
+di tensione continua, tac,
+
+680
+00:28:11.760 --> 00:28:15.559
+immediatamente o con un transitorio
+
+681
+00:28:13.919 --> 00:28:18.320
+proprio brevissimo, si parla di
+
+682
+00:28:15.559 --> 00:28:22.080
+milionesimi di secondo, la cosa va a
+
+683
+00:28:18.320 --> 00:28:24.320
+regime. Invece con un induttore no.
+
+684
+00:28:22.080 --> 00:28:27.320
+Quando si collega l'indottore a una
+
+685
+00:28:24.320 --> 00:28:29.320
+tensione continua, la corrente sale
+
+686
+00:28:27.320 --> 00:28:31.679
+lentamente, come vedete in questo
+
+687
+00:28:29.320 --> 00:28:33.919
+grafico qua,
+
+688
+00:28:31.679 --> 00:28:38.039
+sale con una certa lentezza fino a
+
+689
+00:28:33.919 --> 00:28:42.080
+arrivare a un valore eh, diciamo di
+
+690
+00:28:38.039 --> 00:28:44.840
+regime. Eh, poi poi poi vediamo. Quindi
+
+691
+00:28:42.080 --> 00:28:46.640
+la situazione è che io a un certo punto
+
+692
+00:28:44.840 --> 00:28:48.159
+tic nel momento in cui chiudo questo
+
+693
+00:28:46.640 --> 00:28:50.840
+interruttore
+
+694
+00:28:48.159 --> 00:28:53.840
+attacco faccio scorrere corrente nel
+
+695
+00:28:50.840 --> 00:28:55.200
+circuito. Cioè, scusatemi, ricomincio.
+
+696
+00:28:53.840 --> 00:28:57.399
+Nel momento io chiudo questo
+
+697
+00:28:55.200 --> 00:29:00.480
+interruttore
+
+698
+00:28:57.399 --> 00:29:03.440
+e attacco la tensione della batteria,
+
+699
+00:29:00.480 --> 00:29:06.200
+questo è al circuito e questa tensione
+
+700
+00:29:03.440 --> 00:29:09.080
+viene attaccata in maniera istantanea.
+
+701
+00:29:06.200 --> 00:29:12.200
+Quindi dal momento zero il bioinduttore
+
+702
+00:29:09.080 --> 00:29:15.120
+è sotto tensione, la corrente arriva
+
+703
+00:29:12.200 --> 00:29:18.760
+dopo, quindi si dice che la corrente è
+
+704
+00:29:15.120 --> 00:29:21.080
+in ritardo rispetto alla tensione perché
+
+705
+00:29:18.760 --> 00:29:23.440
+ci mette un po' di tempo a salire. Poi
+
+706
+00:29:21.080 --> 00:29:25.640
+lo vedremo meglio questa faccenda del
+
+707
+00:29:23.440 --> 00:29:27.840
+del ritardo, ma intanto no, vedete che
+
+708
+00:29:25.640 --> 00:29:29.679
+in questo grafico la corrente sale
+
+709
+00:29:27.840 --> 00:29:31.279
+tranquilla tranquilla tranquilla.
+
+710
+00:29:29.679 --> 00:29:34.039
+D'accordo?
+
+711
+00:29:31.279 --> 00:29:35.480
+È così è è così per tutti gli induttori.
+
+712
+00:29:34.039 --> 00:29:37.039
+Di fatto ad occhio si può anche
+
+713
+00:29:35.480 --> 00:29:39.880
+immaginare che quanto più grande
+
+714
+00:29:37.039 --> 00:29:42.640
+l'induttore quanto più tempo ci metta a
+
+715
+00:29:39.880 --> 00:29:44.600
+a salire questa cosa.
+
+716
+00:29:42.640 --> 00:29:46.840
+Si può misurare questa cosa con un
+
+717
+00:29:44.600 --> 00:29:48.799
+parametro che è chiamato la costante di
+
+718
+00:29:46.840 --> 00:29:50.919
+tempo, come leggete qua. La costante di
+
+719
+00:29:48.799 --> 00:29:52.679
+tempo, chiaramente si misura in secondi
+
+720
+00:29:50.919 --> 00:29:54.440
+perché si parla di tempo, no? Quindi il
+
+721
+00:29:52.679 --> 00:29:57.559
+tempo si misura per forze di cose in
+
+722
+00:29:54.440 --> 00:30:02.799
+secondi, secondi, minuti, ore, secondi.
+
+723
+00:29:57.559 --> 00:30:05.720
+E la costante di tempo vale L / R.
+
+724
+00:30:02.799 --> 00:30:07.640
+Qui vedete una un'altra lettera greca,
+
+725
+00:30:05.720 --> 00:30:10.000
+tau, che sarebbe la nostra T in
+
+726
+00:30:07.640 --> 00:30:12.519
+italiano, che molto spesso viene usata
+
+727
+00:30:10.000 --> 00:30:15.399
+appunto per dire appunto per per
+
+728
+00:30:12.519 --> 00:30:17.480
+indicare il tempo nelle formule. Quindi
+
+729
+00:30:15.399 --> 00:30:19.799
+il tempo è direttamente il tempo di
+
+730
+00:30:17.480 --> 00:30:21.760
+salita, diciamo, di questa corrente è
+
+731
+00:30:19.799 --> 00:30:24.320
+direttamente proporzionale al valore
+
+732
+00:30:21.760 --> 00:30:28.919
+dell'induttore. Quanto più l'induttore è
+
+733
+00:30:24.320 --> 00:30:33.000
+grande, quanto più la corrente richiede
+
+734
+00:30:28.919 --> 00:30:38.000
+tempo. E tau
+
+735
+00:30:33.000 --> 00:30:41.240
+e allora questo L / R lo avete qua.
+
+736
+00:30:38.000 --> 00:30:43.120
+costante di tempo, poi uno può fare
+
+737
+00:30:41.240 --> 00:30:45.240
+tutti i conti complicatissimi eccetera,
+
+738
+00:30:43.120 --> 00:30:48.880
+ma chiaramente non ci servono per esami
+
+739
+00:30:45.240 --> 00:30:51.559
+dei amatori, per fortuna. E diciamo dopo
+
+740
+00:30:48.880 --> 00:30:56.080
+che è passato questo tempo qua la
+
+741
+00:30:51.559 --> 00:30:59.120
+corrente è arrivata al 63%
+
+742
+00:30:56.080 --> 00:31:01.919
+del della corrente di regime. Poi vedete
+
+743
+00:30:59.120 --> 00:31:04.480
+che qui abbiamo due TAU, la corrente
+
+744
+00:31:01.919 --> 00:31:07.279
+sale un altro po', è quasi al 90. Qui
+
+745
+00:31:04.480 --> 00:31:09.200
+abbiamo 3 da 3 volte la costante di
+
+746
+00:31:07.279 --> 00:31:11.159
+tempo, la corrente ha superato il 90. In
+
+747
+00:31:09.200 --> 00:31:13.960
+pratica succede una cosa di questo tipo.
+
+748
+00:31:11.159 --> 00:31:15.679
+In termini pratici si considera che
+
+749
+00:31:13.960 --> 00:31:18.760
+l'induttore è andato a regime dopo
+
+750
+00:31:15.679 --> 00:31:21.679
+cinque volte la costante di tempo,
+
+751
+00:31:18.760 --> 00:31:24.519
+quindi si attacca il generatore e dopo
+
+752
+00:31:21.679 --> 00:31:30.200
+un certo tempo, cinque volte la costante
+
+753
+00:31:24.519 --> 00:31:33.080
+di tempo che si può calcolare L / R,
+
+754
+00:31:30.200 --> 00:31:36.519
+eh la corrente è andata a regime. La
+
+755
+00:31:33.080 --> 00:31:38.760
+stessa cosa succede quando si spenge,
+
+756
+00:31:36.519 --> 00:31:41.519
+quindi quando si stacca la batteria.
+
+757
+00:31:38.760 --> 00:31:43.600
+Quando si stacca la batteria succede
+
+758
+00:31:41.519 --> 00:31:46.880
+esattamente la stessa cosa, ma a calare.
+
+759
+00:31:43.600 --> 00:31:49.639
+Cioè io qui in questo punto alzo il mio
+
+760
+00:31:46.880 --> 00:31:52.399
+interruttore, quindi tolgo la batteria
+
+761
+00:31:49.639 --> 00:31:55.679
+dal dal mio induttore, la corrente
+
+762
+00:31:52.399 --> 00:32:00.399
+nell'induttore non va subito a zero, ma
+
+763
+00:31:55.679 --> 00:32:04.279
+in qualche modo eh cala lentamente e ci
+
+764
+00:32:00.399 --> 00:32:06.679
+mette un po' e ci mette un po'. Mh.
+
+765
+00:32:04.279 --> 00:32:10.840
+Praticamente la costante di tempo anche
+
+766
+00:32:06.679 --> 00:32:13.320
+qui è è la stessa, no? Cioè la costante
+
+767
+00:32:10.840 --> 00:32:15.159
+di tempo con cui la tensione sale è
+
+768
+00:32:13.320 --> 00:32:17.679
+uguale alla costante di tempo con cui la
+
+769
+00:32:15.159 --> 00:32:20.760
+tensione scende, la corrente scende,
+
+770
+00:32:17.679 --> 00:32:23.000
+scusate. E diciamo comunque anche qui
+
+771
+00:32:20.760 --> 00:32:25.440
+dopo cinque ta o dopo cinque volte la
+
+772
+00:32:23.000 --> 00:32:29.480
+costante di tempo si dice che
+
+773
+00:32:25.440 --> 00:32:32.840
+praticamente è arrivata a zero.
+
+774
+00:32:29.480 --> 00:32:35.840
+Allora questa costante di tempo eh da
+
+775
+00:32:32.840 --> 00:32:40.039
+cosa da cosa deriva? Perché un induttore
+
+776
+00:32:35.840 --> 00:32:41.919
+si comporta così? e si comporta così,
+
+777
+00:32:40.039 --> 00:32:45.039
+eh,
+
+778
+00:32:41.919 --> 00:32:46.840
+per la sua stessa natura. E cerchiamo,
+
+779
+00:32:45.039 --> 00:32:50.559
+adesso cerco di spiegarvi perché.
+
+780
+00:32:46.840 --> 00:32:53.679
+Allora, succede che immaginiamo che io
+
+781
+00:32:50.559 --> 00:32:57.919
+sto sono nel momento sono nella
+
+782
+00:32:53.679 --> 00:33:00.360
+situazione in cui sto accendendo il mio
+
+783
+00:32:57.919 --> 00:33:05.080
+induttore, d'accordo? sto dando tensione
+
+784
+00:33:00.360 --> 00:33:05.080
+al mio al mio induttore. Mh.
+
+785
+00:33:05.200 --> 00:33:10.799
+Allora, quindi ho attaccato la batteria
+
+786
+00:33:07.799 --> 00:33:12.600
+e cosa sta succedendo? Succede che varia
+
+787
+00:33:10.799 --> 00:33:14.120
+la corrente che attraversa il mio
+
+788
+00:33:12.600 --> 00:33:16.919
+induttore perché ho attaccato la
+
+789
+00:33:14.120 --> 00:33:20.720
+batteria e la corrente parte da zero e
+
+790
+00:33:16.919 --> 00:33:23.440
+pian pianino pian pianino sale.
+
+791
+00:33:20.720 --> 00:33:25.639
+Allora la corrente che attraversa
+
+792
+00:33:23.440 --> 00:33:28.399
+l'induttore, diciamo, questa variazione
+
+793
+00:33:25.639 --> 00:33:31.000
+di corrente che attraversa l'induttore
+
+794
+00:33:28.399 --> 00:33:32.919
+fa sì che c'è una variazione del campo
+
+795
+00:33:31.000 --> 00:33:37.679
+magnetico generato dall'induttore
+
+796
+00:33:32.919 --> 00:33:39.399
+stesso. E questo lo si visualizza molto
+
+797
+00:33:37.679 --> 00:33:41.480
+bene, lo si può visualizzare molto bene
+
+798
+00:33:39.399 --> 00:33:44.320
+qua, no? Cioè, se qui ho un certo valore
+
+799
+00:33:41.480 --> 00:33:46.639
+di corrente, questa corrente mi genererà
+
+800
+00:33:44.320 --> 00:33:49.159
+una certa quantità di campo magnetico.
+
+801
+00:33:46.639 --> 00:33:51.120
+Se la corrente è maggiore, il campo
+
+802
+00:33:49.159 --> 00:33:52.720
+magnetico sarà un po' più grande. Se la
+
+803
+00:33:51.120 --> 00:33:54.799
+corrente è ancora maggiore, il campo
+
+804
+00:33:52.720 --> 00:33:55.763
+magnetico sarà ancora più grande e così
+
+805
+00:33:54.799 --> 00:33:56.000
+via, no?
+
+806
+00:33:55.763 --> 00:33:57.799
+>> [sbuffare]
+
+807
+00:33:56.000 --> 00:34:01.360
+>> Quindi,
+
+808
+00:33:57.799 --> 00:34:04.240
+quindi nel mio indottore ho una
+
+809
+00:34:01.360 --> 00:34:07.480
+variazione del campo magnetico, cioè una
+
+810
+00:34:04.240 --> 00:34:10.440
+variazione di corrente che crea una
+
+811
+00:34:07.480 --> 00:34:13.079
+variazione di campo magnetico. Questa
+
+812
+00:34:10.440 --> 00:34:16.440
+variazione di campo magnetico
+
+813
+00:34:13.079 --> 00:34:19.240
+eh genera nella bobina una corrente
+
+814
+00:34:16.440 --> 00:34:20.839
+indotta esattamente come aveva detto
+
+815
+00:34:19.240 --> 00:34:22.520
+Fariday, di cui abbiamo parlato
+
+816
+00:34:20.839 --> 00:34:25.320
+all'inizio di questa di questa
+
+817
+00:34:22.520 --> 00:34:28.119
+chiacchierata. Far dei C. Cosa ci aveva
+
+818
+00:34:25.320 --> 00:34:32.000
+detto? Ritorno un attimo qua. Scusate se
+
+819
+00:34:28.119 --> 00:34:34.359
+vado veloce. Eh, Fard ci aveva detto che
+
+820
+00:34:32.000 --> 00:34:37.599
+se io faccio variare
+
+821
+00:34:34.359 --> 00:34:40.320
+la corrente che scorre in una bobina,
+
+822
+00:34:37.599 --> 00:34:43.240
+questa su questa su una spira in questo
+
+823
+00:34:40.320 --> 00:34:46.280
+caso e nella mia spira o nella mia
+
+824
+00:34:43.240 --> 00:34:48.240
+bobina genero una tensione e una
+
+825
+00:34:46.280 --> 00:34:52.280
+corrente indotta.
+
+826
+00:34:48.240 --> 00:34:56.040
+Stessa cosa succede anche, scusate se
+
+827
+00:34:52.280 --> 00:34:57.760
+torno dove eravamo, succede anche quando
+
+828
+00:34:56.040 --> 00:34:59.960
+la bobina
+
+829
+00:34:57.760 --> 00:35:02.320
+quando varia il campo magnetico generato
+
+830
+00:34:59.960 --> 00:35:05.079
+dalla bobina stessa, cioè nel momento in
+
+831
+00:35:02.320 --> 00:35:09.119
+cui la bobina genera un campo magnetico
+
+832
+00:35:05.079 --> 00:35:12.040
+crescente, questo campo crescente
+
+833
+00:35:09.119 --> 00:35:15.760
+eh interessando per definizione la
+
+834
+00:35:12.040 --> 00:35:18.000
+bobina e genera una corrente indotta
+
+835
+00:35:15.760 --> 00:35:20.680
+nella bobina stessa. Quindi io ho due
+
+836
+00:35:18.000 --> 00:35:23.599
+fenomeni in contemporanea, in parallelo,
+
+837
+00:35:20.680 --> 00:35:26.000
+nel momento in cui attacco una tensione
+
+838
+00:35:23.599 --> 00:35:27.760
+al mio induttore, questa tensione fa
+
+839
+00:35:26.000 --> 00:35:29.599
+scorrere corrente, mi genera un campo
+
+840
+00:35:27.760 --> 00:35:32.680
+magnetico. Questo campo magnetico
+
+841
+00:35:29.599 --> 00:35:34.839
+crescente a sua volta genera una
+
+842
+00:35:32.680 --> 00:35:36.760
+tensione indotta nella bobina, proprio
+
+843
+00:35:34.839 --> 00:35:39.760
+perché è un campo magnetico variabile,
+
+844
+00:35:36.760 --> 00:35:42.640
+come ci aveva detto Far all'inizio.
+
+845
+00:35:39.760 --> 00:35:47.160
+Succede che questo campo magnetico
+
+846
+00:35:42.640 --> 00:35:49.960
+indotto nella bobina è a causa appunto
+
+847
+00:35:47.160 --> 00:35:52.000
+della corrente indotta, quindi si parla
+
+848
+00:35:49.960 --> 00:35:53.440
+diciamo del dell'effetto indotto. La
+
+849
+00:35:52.000 --> 00:35:55.760
+corrente indotta e quindi il campo
+
+850
+00:35:53.440 --> 00:35:58.359
+magnetico indotto [sbuffare] ha una
+
+851
+00:35:55.760 --> 00:36:01.480
+polarità tale da opporsi alla variazione
+
+852
+00:35:58.359 --> 00:36:06.880
+che l'ha generata. Quindi, in sostanza,
+
+853
+00:36:01.480 --> 00:36:08.319
+la bobina eh tende a rallentare perché
+
+854
+00:36:06.880 --> 00:36:10.040
+nel momento in cui ci scorre più
+
+855
+00:36:08.319 --> 00:36:12.040
+corrente la variazione del campo
+
+856
+00:36:10.040 --> 00:36:14.079
+magnetico della bobina genera una forza
+
+857
+00:36:12.040 --> 00:36:16.560
+elettromotrice indotta di verso
+
+858
+00:36:14.079 --> 00:36:19.319
+contrario che [sbuffare] si oppone alla
+
+859
+00:36:16.560 --> 00:36:21.119
+variazione che l'ha generata.
+
+860
+00:36:19.319 --> 00:36:24.560
+E quindi
+
+861
+00:36:21.119 --> 00:36:27.960
+questo è il motivo per cui eh il campo
+
+862
+00:36:24.560 --> 00:36:30.520
+magnetico richiede un certa quantità di
+
+863
+00:36:27.960 --> 00:36:34.880
+tempo, i famosi cinque tau per andare al
+
+864
+00:36:30.520 --> 00:36:37.520
+regime perché mentre sale mentre sale
+
+865
+00:36:34.880 --> 00:36:39.839
+lui stesso induce nella bobina una
+
+866
+00:36:37.520 --> 00:36:41.720
+corrente indotta che è chiamata, come
+
+867
+00:36:39.839 --> 00:36:44.720
+leggete qua, forza contro
+
+868
+00:36:41.720 --> 00:36:44.720
+elettromotrice.
+
+869
+00:36:44.800 --> 00:36:49.880
+contro vuol dire che appunto è nella
+
+870
+00:36:47.079 --> 00:36:52.720
+direzione contraria a quello del
+
+871
+00:36:49.880 --> 00:36:55.240
+generatore che
+
+872
+00:36:52.720 --> 00:36:57.520
+provoca il fenomeno
+
+873
+00:36:55.240 --> 00:37:00.880
+e questa forza contro l'elettronomotrice
+
+874
+00:36:57.520 --> 00:37:03.359
+induce appunto un rallentamento nel
+
+875
+00:37:00.880 --> 00:37:06.480
+nell'andata a regime del del mio campo
+
+876
+00:37:03.359 --> 00:37:08.800
+magnetico. Succede addirittura un'altra
+
+877
+00:37:06.480 --> 00:37:11.760
+un'altra cosa e qui mi fermo un attimo
+
+878
+00:37:08.800 --> 00:37:14.880
+poi per sentire se ci sono domande.
+
+879
+00:37:11.760 --> 00:37:17.520
+Qualcuno di voi forse ha notato che nel
+
+880
+00:37:14.880 --> 00:37:20.440
+momento in cui si aprono degli
+
+881
+00:37:17.520 --> 00:37:23.520
+interruttori o si aprono dei rela,
+
+882
+00:37:20.440 --> 00:37:26.160
+quindi si apre un circuito, si smette di
+
+883
+00:37:23.520 --> 00:37:28.119
+far corrente, delle volte capita che
+
+884
+00:37:26.160 --> 00:37:30.599
+vedi sull'interruttore delle belle
+
+885
+00:37:28.119 --> 00:37:33.800
+scintille, vedi proprio zac degli archi
+
+886
+00:37:30.599 --> 00:37:36.400
+elettrici sul sull'interruttore.
+
+887
+00:37:33.800 --> 00:37:40.319
+Questo succede quando si hanno appunto
+
+888
+00:37:36.400 --> 00:37:43.000
+dei carichi di natura induttiva perché
+
+889
+00:37:40.319 --> 00:37:45.079
+io, allora, io sono qua, scusate,
+
+890
+00:37:43.000 --> 00:37:48.359
+rimetto il pennarello. Immaginiamo di
+
+891
+00:37:45.079 --> 00:37:50.680
+essere in questo punto qua. Io qui ho
+
+892
+00:37:48.359 --> 00:37:53.160
+una corrente costante che sta
+
+893
+00:37:50.680 --> 00:37:55.200
+attraversando la mia bobina. Qui io apro
+
+894
+00:37:53.160 --> 00:37:57.119
+il mio interruttore, d'accordo? Ho un
+
+895
+00:37:55.200 --> 00:37:59.720
+interruttore,
+
+896
+00:37:57.119 --> 00:38:05.880
+cerco di disegnarlo qui e in questo
+
+897
+00:37:59.720 --> 00:38:08.800
+punto qui lo apro. Allora, fino ad ora
+
+898
+00:38:05.880 --> 00:38:11.880
+eh nella mia bobina scorreva una
+
+899
+00:38:08.800 --> 00:38:14.640
+corrente, diciamo, i.
+
+900
+00:38:11.880 --> 00:38:17.760
+La bobina si comporta come un volano,
+
+901
+00:38:14.640 --> 00:38:20.079
+cioè la bobina sta marciando con una
+
+902
+00:38:17.760 --> 00:38:22.960
+certa velocità, questo volano sta
+
+903
+00:38:20.079 --> 00:38:25.480
+girando con una certa velocità. Nel
+
+904
+00:38:22.960 --> 00:38:29.920
+momento in cui io apro l'interruttore,
+
+905
+00:38:25.480 --> 00:38:31.920
+la bobina vorrebbe continuare il a a
+
+906
+00:38:29.920 --> 00:38:34.440
+marciare esattamente alla stessa
+
+907
+00:38:31.920 --> 00:38:35.599
+velocità. Quindi, nel momento in cui mi
+
+908
+00:38:34.440 --> 00:38:37.200
+viene a mancare la tensione
+
+909
+00:38:35.599 --> 00:38:40.839
+d'alimentazione,
+
+910
+00:38:37.200 --> 00:38:43.240
+eh il campo magnetico in il campo
+
+911
+00:38:40.839 --> 00:38:45.160
+magnetico comincia a calare in maniera
+
+912
+00:38:43.240 --> 00:38:47.800
+anche abbastanza drastica. questo calo
+
+913
+00:38:45.160 --> 00:38:50.640
+drastico del campo magnetico genero una
+
+914
+00:38:47.800 --> 00:38:53.040
+tensione indotta che, come vi dicevo
+
+915
+00:38:50.640 --> 00:38:55.440
+prima, cerca di opporsi a quello che sta
+
+916
+00:38:53.040 --> 00:38:58.920
+succedendo e quindi questa tensione
+
+917
+00:38:55.440 --> 00:39:01.400
+indotta genera un picco di tensione in
+
+918
+00:38:58.920 --> 00:39:03.880
+questo in questo punto che genera la
+
+919
+00:39:01.400 --> 00:39:06.880
+famosa scintilla che si vede o sul
+
+920
+00:39:03.880 --> 00:39:10.119
+contatto del rela
+
+921
+00:39:06.880 --> 00:39:12.880
+che state azionando. La scintilla è,
+
+922
+00:39:10.119 --> 00:39:16.280
+diciamo, quando si apre un interruttore,
+
+923
+00:39:12.880 --> 00:39:18.680
+eh, fa visualizzare proprio la forza
+
+924
+00:39:16.280 --> 00:39:22.119
+elettromotrice generata dalla bobina
+
+925
+00:39:18.680 --> 00:39:23.280
+stessa. Questa questa scintilla tende a
+
+926
+00:39:22.119 --> 00:39:25.520
+superare anche il contatto
+
+927
+00:39:23.280 --> 00:39:27.680
+dell'interruttore a volte e pian pianino
+
+928
+00:39:25.520 --> 00:39:29.680
+col tempo lo carbonizza
+
+929
+00:39:27.680 --> 00:39:32.040
+e la scintilla genera questo picco di
+
+930
+00:39:29.680 --> 00:39:34.599
+tensione perché il campo magnetico vuole
+
+931
+00:39:32.040 --> 00:39:36.440
+continuare con tutte le sue forze a,
+
+932
+00:39:34.599 --> 00:39:39.520
+diciamo,
+
+933
+00:39:36.440 --> 00:39:41.200
+ad essere a quel livello lì. Quindi una
+
+934
+00:39:39.520 --> 00:39:43.040
+bombina, fatemi dire, con questo
+
+935
+00:39:41.200 --> 00:39:46.440
+concludo in maniera un po' quantitativa,
+
+936
+00:39:43.040 --> 00:39:48.960
+si potrebbe dire che vive felice quando
+
+937
+00:39:46.440 --> 00:39:50.680
+non la faccia non le facciamo subire
+
+938
+00:39:48.960 --> 00:39:52.880
+variazioni.
+
+939
+00:39:50.680 --> 00:39:54.520
+Lei è un volano, a quel punto gira a
+
+940
+00:39:52.880 --> 00:39:57.400
+quel regime lì, a quel suo campo
+
+941
+00:39:54.520 --> 00:39:59.720
+magnetico e vive felice. a causa di
+
+942
+00:39:57.400 --> 00:40:03.040
+Farad, quindi a causa delle correnti
+
+943
+00:39:59.720 --> 00:40:04.839
+indotte che sono comunque diverso
+
+944
+00:40:03.040 --> 00:40:07.640
+contrario a quello della causa che le
+
+945
+00:40:04.839 --> 00:40:10.119
+sta inducendo, la bobina reagisce male a
+
+946
+00:40:07.640 --> 00:40:12.359
+qualsiasi variazione. Se tu vuoi
+
+947
+00:40:10.119 --> 00:40:13.839
+aumentare il campo il campo magnetico,
+
+948
+00:40:12.359 --> 00:40:16.240
+ci vuole un po' di tempo. Se tu vuoi
+
+949
+00:40:13.839 --> 00:40:18.960
+diminuire il campo magnetico ci vuole un
+
+950
+00:40:16.240 --> 00:40:21.520
+po' di tempo.
+
+951
+00:40:18.960 --> 00:40:23.280
+E con questo mi stacco perché questo
+
+952
+00:40:21.520 --> 00:40:27.200
+secondo me è l'argomento un po' più
+
+953
+00:40:23.280 --> 00:40:29.640
+complicato di oggi pomeriggio.
+
+954
+00:40:27.200 --> 00:40:32.640
+C'è c'è qualche domanda su questo?
+
+955
+00:40:29.640 --> 00:40:32.640
+Intanto
+
+956
+00:40:33.040 --> 00:40:36.640
+Vittorio a te.
+
+957
+00:40:36.920 --> 00:40:41.359
+>> Eccomi. Ciao a tutti. Intanto ascolta
+
+958
+00:40:39.040 --> 00:40:44.560
+prima sull'induttori in serie in
+
+959
+00:40:41.359 --> 00:40:46.760
+paralletta hai abbinato la mi a una H.
+
+960
+00:40:44.560 --> 00:40:49.040
+Mi è sfuggita o non ho capito cosa
+
+961
+00:40:46.760 --> 00:40:51.800
+intendevi per quella h.
+
+962
+00:40:49.040 --> 00:40:56.920
+l' H grande.
+
+963
+00:40:51.800 --> 00:40:56.920
+>> Allora la Aspetta eh, un attimo solo.
+
+964
+00:40:57.588 --> 00:41:01.240
+[schiarire la voce] Eh, allora è una
+
+965
+00:40:59.160 --> 00:41:04.200
+Bravo, è una cosa che non ho detto, la H
+
+966
+00:41:01.240 --> 00:41:07.200
+grande è l'unità di misura
+
+967
+00:41:04.200 --> 00:41:09.720
+dell'induttanza che è l'Henry.
+
+968
+00:41:07.200 --> 00:41:11.240
+Hai ragione, hai messo proprio il dito
+
+969
+00:41:09.720 --> 00:41:13.319
+su un punto che non avevo su una cosa
+
+970
+00:41:11.240 --> 00:41:15.960
+che non avevo detto. L'induttanza si
+
+971
+00:41:13.319 --> 00:41:17.800
+misura in Henry. Henry è sempre il nome
+
+972
+00:41:15.960 --> 00:41:19.440
+di un grande fisico dell'epoca. Sulla
+
+973
+00:41:17.800 --> 00:41:22.680
+slide ce l'avete scritto, ma io non l'ho
+
+974
+00:41:19.440 --> 00:41:25.560
+detto. Quindi le resistenze si misurano
+
+975
+00:41:22.680 --> 00:41:28.720
+in ohm. Le induttanze, gli induttori si
+
+976
+00:41:25.560 --> 00:41:31.200
+misurano in Henry. Henry, quindi 400
+
+977
+00:41:28.720 --> 00:41:32.760
+micro Henry nella fattispecie.
+
+978
+00:41:31.200 --> 00:41:34.839
+Un'induttanza di un Henry è
+
+979
+00:41:32.760 --> 00:41:37.079
+un'induttanza che nel momento in cui ci
+
+980
+00:41:34.839 --> 00:41:39.200
+scorre un ampere genera un flusso
+
+981
+00:41:37.079 --> 00:41:40.839
+elettrico di un Weber. Ma questo non
+
+982
+00:41:39.200 --> 00:41:43.200
+penso che faccia parte delle domande di
+
+983
+00:41:40.839 --> 00:41:45.839
+esame, però gli induttori la loro di
+
+984
+00:41:43.200 --> 00:41:47.440
+misura è l'Henry. D'accordo.
+
+985
+00:41:45.839 --> 00:41:49.160
+>> Grazie.
+
+986
+00:41:47.440 --> 00:41:51.400
+Sì,
+
+987
+00:41:49.160 --> 00:41:53.960
+Davide, a te.
+
+988
+00:41:51.400 --> 00:41:55.160
+>> Sì, ciao, buonasera. Mi sentite? Ciao,
+
+989
+00:41:53.960 --> 00:41:57.640
+benissimo.
+
+990
+00:41:55.160 --> 00:42:00.400
+>> Sì, ciao. Una domanda su questa costante
+
+991
+00:41:57.640 --> 00:42:02.319
+di tempo per capire magari se ho capito.
+
+992
+00:42:00.400 --> 00:42:05.040
+Un esempio da portare e ti puoi
+
+993
+00:42:02.319 --> 00:42:06.560
+caricabatterie del telefono di quando lo
+
+994
+00:42:05.040 --> 00:42:09.359
+attacchi la corrente il telefono,
+
+995
+00:42:06.560 --> 00:42:11.440
+diciamo, ritarda la carica che va
+
+996
+00:42:09.359 --> 00:42:13.880
+aumentare. Comunque quando lo stacchi
+
+997
+00:42:11.440 --> 00:42:15.800
+dalla presa il caricabatterie poi lo
+
+998
+00:42:13.880 --> 00:42:17.720
+colleghi nel telefono e continua a
+
+999
+00:42:15.800 --> 00:42:19.960
+caricare nonostante è staccato, cioè che
+
+1000
+00:42:17.720 --> 00:42:22.280
+va a diminuire la costante
+
+1001
+00:42:19.960 --> 00:42:24.280
+della bobina del caricabatteria.
+
+1002
+00:42:22.280 --> 00:42:26.079
+Sì, succede qualcosa di simile, ma lì
+
+1003
+00:42:24.280 --> 00:42:27.760
+l'effetto è dato da un altro tipo di
+
+1004
+00:42:26.079 --> 00:42:29.720
+componenti elettronici. Questa cosa
+
+1005
+00:42:27.760 --> 00:42:30.920
+teniamolo a mente per mercoledì prossimo
+
+1006
+00:42:29.720 --> 00:42:32.000
+e ne parliamo.
+
+1007
+00:42:30.920 --> 00:42:32.280
+>> Ok.
+
+1008
+00:42:32.000 --> 00:42:35.800
+>> Ok.
+
+1009
+00:42:32.280 --> 00:42:38.319
+>> Perfetto. Grazie.
+
+1010
+00:42:35.800 --> 00:42:43.040
+>> Allora, ci sono altre domande? Proseguo.
+
+1011
+00:42:38.319 --> 00:42:43.040
+Allora, dunque rimetto in condivisione.
+
+1012
+00:42:47.880 --> 00:42:53.240
+Cosa tecnica? Allora,
+
+1013
+00:42:50.960 --> 00:42:56.280
+costante di tempo, forza contro
+
+1014
+00:42:53.240 --> 00:42:58.240
+elettromotrice. Allora,
+
+1015
+00:42:56.280 --> 00:43:00.559
+eh sugli induttori ci resta un ultimo
+
+1016
+00:42:58.240 --> 00:43:02.599
+argomento, cioè come si comporta un
+
+1017
+00:43:00.559 --> 00:43:04.160
+induttore in corrente alternata, perché
+
+1018
+00:43:02.599 --> 00:43:05.720
+per ora tutte queste cose che abbiamo
+
+1019
+00:43:04.160 --> 00:43:08.240
+visto di fatto erano in corrente
+
+1020
+00:43:05.720 --> 00:43:10.079
+continua, no? Cioè queste belle cose qua
+
+1021
+00:43:08.240 --> 00:43:12.880
+le abbiamo sempre fatte, immaginando che
+
+1022
+00:43:10.079 --> 00:43:16.119
+ci fosse, come si vede in questo
+
+1023
+00:43:12.880 --> 00:43:18.280
+schemino qui, un generatore di di
+
+1024
+00:43:16.119 --> 00:43:20.119
+tensione continua e di conseguenza una
+
+1025
+00:43:18.280 --> 00:43:21.880
+corrente continua. Con una corrente
+
+1026
+00:43:20.119 --> 00:43:23.520
+continua, appunto, c'è la costante di
+
+1027
+00:43:21.880 --> 00:43:25.119
+tempo in salita, c'è la costante di
+
+1028
+00:43:23.520 --> 00:43:26.720
+tempo in discesa, cinque tavole,
+
+1029
+00:43:25.119 --> 00:43:30.720
+eccetera eccetera. Fino a ora siamo
+
+1030
+00:43:26.720 --> 00:43:32.559
+stati in corrente continua. Adesso
+
+1031
+00:43:30.720 --> 00:43:35.599
+parliamo un attimo della corrente
+
+1032
+00:43:32.559 --> 00:43:40.960
+alternata. Allora, diciamo, intanto un
+
+1033
+00:43:35.599 --> 00:43:40.960
+induttore cosa fa? E questo è il nostro
+
+1034
+00:43:42.559 --> 00:43:48.440
+ehm è la conclusione, diciamo, diretta
+
+1035
+00:43:46.640 --> 00:43:51.359
+del dell'ultimo discorso che abbiamo
+
+1036
+00:43:48.440 --> 00:43:55.200
+fatto. Allora, un induttore immagazzina
+
+1037
+00:43:51.359 --> 00:43:58.319
+energia sotto forma di campo magnetico,
+
+1038
+00:43:55.200 --> 00:44:00.280
+come vedete qua, e ha questo effetto di
+
+1039
+00:43:58.319 --> 00:44:02.800
+opporsi al passaggio della corrente
+
+1040
+00:44:00.280 --> 00:44:05.400
+alternata. In generale la corrente
+
+1041
+00:44:02.800 --> 00:44:07.319
+continua lo può attraversare. La
+
+1042
+00:44:05.400 --> 00:44:09.240
+corrente alternata invece viene
+
+1043
+00:44:07.319 --> 00:44:11.760
+ostacolata. Allora che la corrente
+
+1044
+00:44:09.240 --> 00:44:15.000
+continua lo posso attraversare
+
+1045
+00:44:11.760 --> 00:44:16.800
+ehm è chiarissimo dalla natura stessa di
+
+1046
+00:44:15.000 --> 00:44:19.200
+un induttore, no? Un induttore, abbiamo
+
+1047
+00:44:16.800 --> 00:44:21.520
+sempre detto che è fatto da un filo
+
+1048
+00:44:19.200 --> 00:44:23.760
+elettrico avvolto su se stesso. Allora,
+
+1049
+00:44:21.520 --> 00:44:26.040
+i fili elettrici per loro natura hanno
+
+1050
+00:44:23.760 --> 00:44:28.960
+una resistenza estremamente bassa, cioè
+
+1051
+00:44:26.040 --> 00:44:31.559
+sono dei conduttori e quindi in tensione
+
+1052
+00:44:28.960 --> 00:44:33.119
+continua gli induttori sono molto vicini
+
+1053
+00:44:31.559 --> 00:44:35.839
+ad essere quello che si chiama un
+
+1054
+00:44:33.119 --> 00:44:38.839
+cortocircuito. Il cortoocircuito sapete
+
+1055
+00:44:35.839 --> 00:44:41.680
+che è appunto un contatto con una
+
+1056
+00:44:38.839 --> 00:44:44.720
+resistenza in Oh molto molto molto bassa
+
+1057
+00:44:41.680 --> 00:44:46.599
+che può far scattare, diciamo, il i
+
+1058
+00:44:44.720 --> 00:44:48.240
+contatori dell'Enel, no? Il magnetot
+
+1059
+00:44:46.599 --> 00:44:50.599
+termico che avete sul contatore
+
+1060
+00:44:48.240 --> 00:44:52.400
+dell'Enel. E gli induttori più o meno
+
+1061
+00:44:50.599 --> 00:44:53.680
+sono fatti tutti così, come si vedeva
+
+1062
+00:44:52.400 --> 00:44:55.760
+anche in quelle fotografie che ho
+
+1063
+00:44:53.680 --> 00:44:58.800
+presentato prima, no? quel quelle cinque
+
+1064
+00:44:55.760 --> 00:45:01.480
+spire su un nucleo di ferrite. Quelle
+
+1065
+00:44:58.800 --> 00:45:03.720
+cinque spire probabilmente misurate con
+
+1066
+00:45:01.480 --> 00:45:06.240
+un misuratore di resistenza hanno una
+
+1067
+00:45:03.720 --> 00:45:08.480
+resistenza di 0,01 ohmma. Quindi di
+
+1068
+00:45:06.240 --> 00:45:11.200
+fatto è un cortoocircuito,
+
+1069
+00:45:08.480 --> 00:45:14.319
+per cui la corrente continua può
+
+1070
+00:45:11.200 --> 00:45:16.480
+attraversare di solito un induttore come
+
+1071
+00:45:14.319 --> 00:45:19.000
+se fosse proprio,
+
+1072
+00:45:16.480 --> 00:45:21.880
+diciamo, un circuito con una resistenza
+
+1073
+00:45:19.000 --> 00:45:24.000
+estremamente bassa, tendenze a zero, è
+
+1074
+00:45:21.880 --> 00:45:26.119
+un filo di fatto un induttore. Io questa
+
+1075
+00:45:24.000 --> 00:45:28.599
+questa bobina che vedete qua io la
+
+1076
+00:45:26.119 --> 00:45:31.680
+potrei srotolare, probabilmente qui c'è
+
+1077
+00:45:28.599 --> 00:45:35.200
+1 m 1,5 m di filo di rame che è una
+
+1078
+00:45:31.680 --> 00:45:36.839
+resistenza nulla.
+
+1079
+00:45:35.200 --> 00:45:39.000
+Invece la corrente alternata viene
+
+1080
+00:45:36.839 --> 00:45:40.960
+ostacolata. E perché viene ostacolata?
+
+1081
+00:45:39.000 --> 00:45:44.000
+Perché la corrente alternata, come avete
+
+1082
+00:45:40.960 --> 00:45:46.000
+visto nella nella terza lezione, no,
+
+1083
+00:45:44.000 --> 00:45:48.040
+quando abbiamo parlato di alternata,
+
+1084
+00:45:46.000 --> 00:45:50.440
+varia continuamente il suo valore e
+
+1085
+00:45:48.040 --> 00:45:52.400
+quindi parte da zero, raggiunge un
+
+1086
+00:45:50.440 --> 00:45:55.280
+massimo positivo, poi torna a zero, poi
+
+1087
+00:45:52.400 --> 00:45:57.240
+arriva a un minimo negativo e così via e
+
+1088
+00:45:55.280 --> 00:46:01.200
+così via, no? cioè con un tipico
+
+1089
+00:45:57.240 --> 00:46:01.200
+andamento sinusoidale.
+
+1090
+00:46:01.319 --> 00:46:05.359
+Allora, immaginate una corrente che
+
+1091
+00:46:03.119 --> 00:46:07.079
+varia così inserita in un induttore e
+
+1092
+00:46:05.359 --> 00:46:09.280
+ricordando anche questi discorsi che
+
+1093
+00:46:07.079 --> 00:46:11.440
+facevamo prima di costante di tempo.
+
+1094
+00:46:09.280 --> 00:46:14.240
+Praticamente l'induttore, la corrente
+
+1095
+00:46:11.440 --> 00:46:17.839
+che scorre un induttore che è lento,
+
+1096
+00:46:14.240 --> 00:46:20.680
+come vi dicevo prima, inseguirà
+
+1097
+00:46:17.839 --> 00:46:23.000
+in continuazione la variazione di questa
+
+1098
+00:46:20.680 --> 00:46:25.480
+sinusoide della corrente della tensione
+
+1099
+00:46:23.000 --> 00:46:27.800
+alternata che gli do, ma di fatto non
+
+1100
+00:46:25.480 --> 00:46:30.520
+riuscirà mai a raggiungerla. Non
+
+1101
+00:46:27.800 --> 00:46:32.640
+riuscirà mai a raggiungerla
+
+1102
+00:46:30.520 --> 00:46:34.880
+perché è una variazione continua e
+
+1103
+00:46:32.640 --> 00:46:37.640
+l'induttore è un volano, un volano che
+
+1104
+00:46:34.880 --> 00:46:40.079
+in qualche modo si muove solo con una
+
+1105
+00:46:37.640 --> 00:46:42.400
+certa lentezza.
+
+1106
+00:46:40.079 --> 00:46:46.359
+eh
+
+1107
+00:46:42.400 --> 00:46:49.160
+il quanto mi ostacola un induttore il
+
+1108
+00:46:46.359 --> 00:46:53.119
+passaggio di una corrente alternata
+
+1109
+00:46:49.160 --> 00:46:56.400
+lo ostacola, diciamo, la la diciamo la
+
+1110
+00:46:53.119 --> 00:46:58.359
+quantità di resistenza, diciamo, che il
+
+1111
+00:46:56.400 --> 00:47:01.400
+conduttore fa al passaggio della
+
+1112
+00:46:58.359 --> 00:47:04.400
+corrente alternata è chiamato reattanza
+
+1113
+00:47:01.400 --> 00:47:04.400
+induttiva
+
+1114
+00:47:04.800 --> 00:47:09.920
+che ha un significato identico a quello
+
+1115
+00:47:07.680 --> 00:47:13.119
+della resistenza. Noi avevamo parlato di
+
+1116
+00:47:09.920 --> 00:47:15.200
+resistenza in corrente continua. La
+
+1117
+00:47:13.119 --> 00:47:17.040
+reattanza è esattamente la stessa cosa
+
+1118
+00:47:15.200 --> 00:47:19.359
+in corrente alternata. In particolare,
+
+1119
+00:47:17.040 --> 00:47:22.680
+ora vediamo la reattanza creata da un
+
+1120
+00:47:19.359 --> 00:47:25.480
+induttore. Cos'è la reastanza induttiva?
+
+1121
+00:47:22.680 --> 00:47:27.400
+È la forza di opposizione
+
+1122
+00:47:25.480 --> 00:47:29.520
+che un induttore produce al passaggio
+
+1123
+00:47:27.400 --> 00:47:31.160
+della corrente alternata, esattamente
+
+1124
+00:47:29.520 --> 00:47:33.680
+come si era detto con le resistenze,
+
+1125
+00:47:31.160 --> 00:47:36.760
+cioè un induttore si oppone al passaggio
+
+1126
+00:47:33.680 --> 00:47:40.720
+della corrente alternata, la ostacola. E
+
+1127
+00:47:36.760 --> 00:47:43.280
+come per le resistenze questo
+
+1128
+00:47:40.720 --> 00:47:45.599
+questo ostacolare si misura in ohm,
+
+1129
+00:47:43.280 --> 00:47:49.079
+quindi la reattanza di un induttore si
+
+1130
+00:47:45.599 --> 00:47:52.400
+misura in ohm, per cui un induttore ha
+
+1131
+00:47:49.079 --> 00:47:54.960
+un valore suo che può essere, non so, 1
+
+1132
+00:47:52.400 --> 00:47:57.680
+mil. Questo 1 milenry dipende
+
+1133
+00:47:54.960 --> 00:48:00.319
+dall'induttore com'è fatto, d'accordo? è
+
+1134
+00:47:57.680 --> 00:48:01.960
+sul nucleo, non è sul nucleo, a 5 spiri,
+
+1135
+00:48:00.319 --> 00:48:03.920
+a 50 spiri, a un certo punto
+
+1136
+00:48:01.960 --> 00:48:05.800
+quell'induttori ha un'indittanza di 1
+
+1137
+00:48:03.920 --> 00:48:07.760
+mil.
+
+1138
+00:48:05.800 --> 00:48:11.119
+Ma questo millenry di induttanza
+
+1139
+00:48:07.760 --> 00:48:13.559
+dell'induttore che reattanza ha? La
+
+1140
+00:48:11.119 --> 00:48:16.599
+reattanza, a differenza delle
+
+1141
+00:48:13.559 --> 00:48:18.160
+resistenze, varia in funzione della
+
+1142
+00:48:16.599 --> 00:48:20.839
+frequenza.
+
+1143
+00:48:18.160 --> 00:48:24.880
+Noi quando avevamo una resistenza da 100
+
+1144
+00:48:20.839 --> 00:48:26.480
+ohm, quei 100 ohm restavano 100 ohm, sia
+
+1145
+00:48:24.880 --> 00:48:28.720
+che quella resistenza la usasse a una
+
+1146
+00:48:26.480 --> 00:48:33.520
+frequenza bassa che ha una frequenza
+
+1147
+00:48:28.720 --> 00:48:36.119
+alta, per cui o a 100 Hz o a 100 MHz,
+
+1148
+00:48:33.520 --> 00:48:40.319
+quella resistenza ha una opposizione
+
+1149
+00:48:36.119 --> 00:48:43.280
+uguale al suo valore in ohm. Invece la
+
+1150
+00:48:40.319 --> 00:48:45.040
+forza di opposizione degli, diciamo,
+
+1151
+00:48:43.280 --> 00:48:47.880
+dell'induttore,
+
+1152
+00:48:45.040 --> 00:48:50.359
+quindi la reattanza induttiva varia in
+
+1153
+00:48:47.880 --> 00:48:52.839
+funzione della frequenza.
+
+1154
+00:48:50.359 --> 00:48:54.480
+Varia così. Questa è la formula che dà
+
+1155
+00:48:52.839 --> 00:48:57.920
+la reattanza induttiva. La reattanza
+
+1156
+00:48:54.480 --> 00:49:00.599
+induttiva si indica con XL. Xa reattanza
+
+1157
+00:48:57.920 --> 00:49:03.440
+L è il simbolo, appunto, del
+
+1158
+00:49:00.599 --> 00:49:06.599
+dell'induttanza e questa reattanza vale
+
+1159
+00:49:03.440 --> 00:49:11.640
+2 pi.
+
+1160
+00:49:06.599 --> 00:49:14.839
+Allora, 2 pi è un numero 6,28.
+
+1161
+00:49:11.640 --> 00:49:17.319
+L è è un dato, è il valore di
+
+1162
+00:49:14.839 --> 00:49:20.599
+quell'induttore. L'unica cosa che può
+
+1163
+00:49:17.319 --> 00:49:23.079
+variare in questa formula è F.
+
+1164
+00:49:20.599 --> 00:49:25.720
+Quindi l'induttanza,
+
+1165
+00:49:23.079 --> 00:49:29.400
+scusate, la reattanza indutiva vale 2
+
+1166
+00:49:25.720 --> 00:49:31.319
+pi* L, che è un numero moltiplicato F.
+
+1167
+00:49:29.400 --> 00:49:32.880
+Quindi la reattenza induttiva è
+
+1168
+00:49:31.319 --> 00:49:35.200
+direttamente proporzionale alla
+
+1169
+00:49:32.880 --> 00:49:38.880
+frequenza e questo lo si vede qua in
+
+1170
+00:49:35.200 --> 00:49:40.799
+questo grafico, cioè se allora per chi
+
+1171
+00:49:38.880 --> 00:49:42.760
+si ricorda ai tempi del liceo
+
+1172
+00:49:40.799 --> 00:49:45.160
+dell'università o roba del genere la
+
+1173
+00:49:42.760 --> 00:49:47.200
+geometria analitica, questa formuletta
+
+1174
+00:49:45.160 --> 00:49:51.119
+qua esprime una retta che passa
+
+1175
+00:49:47.200 --> 00:49:53.640
+nell'origine, d'accordo? dove eh
+
+1176
+00:49:51.119 --> 00:49:56.640
+guardatela qua su questi assi cartesiani
+
+1177
+00:49:53.640 --> 00:49:58.880
+qui sull'asse cartesiano, sull'asse
+
+1178
+00:49:56.640 --> 00:50:01.160
+cartesiano delle ascisse ho la frequenza
+
+1179
+00:49:58.880 --> 00:50:03.400
+che si misura in herz che è questo
+
+1180
+00:50:01.160 --> 00:50:06.160
+parametro qua.
+
+1181
+00:50:03.400 --> 00:50:09.480
+2π, come dicevo prima, è un numero
+
+1182
+00:50:06.160 --> 00:50:12.440
+costante, quindi 2 pi è 6,28 ed L è il
+
+1183
+00:50:09.480 --> 00:50:15.319
+valore dell'induttore. La reattanza
+
+1184
+00:50:12.440 --> 00:50:17.359
+induttiva cresce linearmente al variare
+
+1185
+00:50:15.319 --> 00:50:22.160
+della frequenza. Quindi se io ho appunto
+
+1186
+00:50:17.359 --> 00:50:25.119
+un induttore da, non so, 10 m,
+
+1187
+00:50:22.160 --> 00:50:28.440
+al crescere della frequenza 500 1000
+
+1188
+00:50:25.119 --> 00:50:31.240
+1500 Hz, il valore della rattanza
+
+1189
+00:50:28.440 --> 00:50:34.000
+cresce, come indicato da questa retta.
+
+1190
+00:50:31.240 --> 00:50:35.559
+Questa retta è l'andamento appunto della
+
+1191
+00:50:34.000 --> 00:50:38.079
+reattanza induttiva in funzione della
+
+1192
+00:50:35.559 --> 00:50:40.640
+frequenza. Se io su questo stesso
+
+1193
+00:50:38.079 --> 00:50:43.319
+grafico volessi mettere
+
+1194
+00:50:40.640 --> 00:50:44.960
+eh una resistenza, come si comporta una
+
+1195
+00:50:43.319 --> 00:50:49.680
+resistenza? Immaginiamo una resistenza
+
+1196
+00:50:44.960 --> 00:50:51.960
+da 150 ohm. 150 sta qui. Come sarebbe la
+
+1197
+00:50:49.680 --> 00:50:54.960
+linea retta di questa resistenza secondo
+
+1198
+00:50:51.960 --> 00:50:57.160
+voi? Chi prova a rispondermi?
+
+1199
+00:50:54.960 --> 00:51:00.440
+>> Parallela all'asse della scisse.
+
+1200
+00:50:57.160 --> 00:51:02.480
+>> Perfetto, bravo. Esattamente così.
+
+1201
+00:51:00.440 --> 00:51:05.559
+Scusate ora questi scarabocchi, no? che
+
+1202
+00:51:02.480 --> 00:51:08.160
+mi vengono, ne ho sempre ditti un
+
+1203
+00:51:05.559 --> 00:51:10.839
+esatto. Al variare di una cer al variare
+
+1204
+00:51:08.160 --> 00:51:13.079
+della frequenza il valore di una
+
+1205
+00:51:10.839 --> 00:51:16.359
+resistenza componente elettronico
+
+1206
+00:51:13.079 --> 00:51:19.640
+resistenza resta costante.
+
+1207
+00:51:16.359 --> 00:51:22.839
+Invece il valore di reattanza di una
+
+1208
+00:51:19.640 --> 00:51:26.000
+bobina cresce linearmente con la
+
+1209
+00:51:22.839 --> 00:51:27.880
+frequenza. E perché cresce? Lo possiamo
+
+1210
+00:51:26.000 --> 00:51:29.880
+intuire qualitativamente per il discorso
+
+1211
+00:51:27.880 --> 00:51:32.599
+che facevo prima, cioè un induttore è un
+
+1212
+00:51:29.880 --> 00:51:35.559
+volano. È un volano, d'accordo?
+
+1213
+00:51:32.599 --> 00:51:38.680
+Diciamo quando sono a frequenze molto
+
+1214
+00:51:35.559 --> 00:51:41.480
+basse nella continua la mia frequenza ha
+
+1215
+00:51:38.680 --> 00:51:44.040
+delle variazioni molto lente, molto
+
+1216
+00:51:41.480 --> 00:51:46.480
+lente e quindi queste in qualche modo
+
+1217
+00:51:44.040 --> 00:51:47.920
+vengono stacolate poco da questo volano.
+
+1218
+00:51:46.480 --> 00:51:49.440
+Se io invece vado a frequenze molto
+
+1219
+00:51:47.920 --> 00:51:52.680
+elevate
+
+1220
+00:51:49.440 --> 00:51:54.960
+e l'induttore questo questo volano,
+
+1221
+00:51:52.680 --> 00:51:57.280
+questa lentezza che ha in qualche modo
+
+1222
+00:51:54.960 --> 00:51:59.520
+per sua costruzione intrinseca eh
+
+1223
+00:51:57.280 --> 00:52:01.319
+impedisce molto, ostacola molto lo
+
+1224
+00:51:59.520 --> 00:52:06.640
+scorrimento della corrente, quindi il
+
+1225
+00:52:01.319 --> 00:52:06.640
+valore della reattanza cresce. Mh.
+
+1226
+00:52:07.799 --> 00:52:11.440
+E questa cosa la si potrebbe calcolare.
+
+1227
+00:52:09.880 --> 00:52:13.319
+Quindi chiudiamo questa chiacchierata
+
+1228
+00:52:11.440 --> 00:52:16.480
+sull'induttore con questo esercizio.
+
+1229
+00:52:13.319 --> 00:52:18.559
+Allora, consideriamo un induttore da 10
+
+1230
+00:52:16.480 --> 00:52:21.119
+mm.
+
+1231
+00:52:18.559 --> 00:52:24.559
+Proviamo a calcolare quanto vale la sua
+
+1232
+00:52:21.119 --> 00:52:28.280
+reattanza a 100 kHz.
+
+1233
+00:52:24.559 --> 00:52:31.160
+Quindi la formula è 2 pi, cioè 6,28.
+
+1234
+00:52:28.280 --> 00:52:35.240
+Approssimiamolo a 6 che ci va bene per
+
+1235
+00:52:31.160 --> 00:52:35.240
+per i nostri conti. moltiplicato
+
+1236
+00:52:36.040 --> 00:52:42.079
+f moltiplicato R, quindi devo
+
+1237
+00:52:38.160 --> 00:52:42.079
+moltiplicare per 100.
+
+1238
+00:52:42.640 --> 00:52:49.359
+Provate a farla anche voi, magari
+
+1239
+00:52:44.000 --> 00:52:49.359
+scrivete meglio di lo moltiplico per 10.
+
+1240
+00:52:50.000 --> 00:52:54.480
+>> 6,28
+
+1241
+00:52:52.640 --> 00:52:57.960
+eh
+
+1242
+00:52:54.480 --> 00:52:59.799
+millenry, no? Oh.
+
+1243
+00:52:57.960 --> 00:53:02.920
+>> Eh, può essere. Vediamo un po'. Allora,
+
+1244
+00:52:59.799 --> 00:53:07.200
+questi sono milli milli significa che
+
+1245
+00:53:02.920 --> 00:53:08.799
+c'è un 10^ 3 al denominatore.
+
+1246
+00:53:07.200 --> 00:53:10.359
+Ora non mi ricordo quanto torna, lo sto
+
+1247
+00:53:08.799 --> 00:53:13.839
+facendo anch'io insieme a voi. Questi
+
+1248
+00:53:10.359 --> 00:53:16.640
+sono 100 kHz. 100 kHz significa il 100
+
+1249
+00:53:13.839 --> 00:53:19.839
+l'ho già scritto qua, kHz significa che
+
+1250
+00:53:16.640 --> 00:53:22.920
+c'è un 10 alla 3 al numeratore.
+
+1251
+00:53:19.839 --> 00:53:24.960
+D'accordo? Quindi questi sono 100 kHz,
+
+1252
+00:53:22.920 --> 00:53:26.559
+questi sono 10 m.
+
+1253
+00:53:24.960 --> 00:53:30.480
+>> Questi due si semplificano uno con
+
+1254
+00:53:26.559 --> 00:53:34.240
+l'altro. 10^ 3 10^ 3, quindi resta 6 *
+
+1255
+00:53:30.480 --> 00:53:34.240
+10 * 10
+
+1256
+00:53:34.359 --> 00:53:41.240
+milioni a kHz. Perfetto. Quindi la
+
+1257
+00:53:36.760 --> 00:53:43.559
+reattanza è di 6000 ohm. Torna
+
+1258
+00:53:41.240 --> 00:53:46.440
+6,28.000
+
+1259
+00:53:43.559 --> 00:53:50.280
+680
+
+1260
+00:53:46.440 --> 00:53:52.200
+ohm. Ritorna per sì, corretto.
+
+1261
+00:53:50.280 --> 00:53:53.599
+>> Ok, grazie. Se avete una calcolatrice,
+
+1262
+00:53:52.200 --> 00:53:56.480
+>> io non ho capito nulla di questa
+
+1263
+00:53:53.599 --> 00:53:58.839
+formula.
+
+1264
+00:53:56.480 --> 00:54:01.119
+Allora, la cancello e si riparte.
+
+1265
+00:53:58.839 --> 00:54:03.040
+Momento
+
+1266
+00:54:01.119 --> 00:54:04.400
+>> perché la frequenza nella formula è in
+
+1267
+00:54:03.040 --> 00:54:09.440
+herz,
+
+1268
+00:54:04.400 --> 00:54:11.520
+>> quindi eh bisogna Ok. Ok. Mentre la L è
+
+1269
+00:54:09.440 --> 00:54:12.000
+sempre in
+
+1270
+00:54:11.520 --> 00:54:13.240
+>> in
+
+1271
+00:54:12.000 --> 00:54:16.520
+>> in
+
+1272
+00:54:13.240 --> 00:54:19.000
+>> inry quando dobbiamo operare,
+
+1273
+00:54:16.520 --> 00:54:20.599
+>> ok? C'è l'unità di misura intera, quindi
+
+1274
+00:54:19.000 --> 00:54:21.960
+eh Ok, il problema era l'unità di
+
+1275
+00:54:20.599 --> 00:54:24.680
+misura.
+
+1276
+00:54:21.960 --> 00:54:27.000
+Esattamente. Esattamente. Allora, la
+
+1277
+00:54:24.680 --> 00:54:30.280
+formula è questa, come vedete, e come
+
+1278
+00:54:27.000 --> 00:54:32.839
+avete detto giustamente, eh, quando si
+
+1279
+00:54:30.280 --> 00:54:35.400
+usano le formule bisogna sempre usare le
+
+1280
+00:54:32.839 --> 00:54:38.799
+unità di misura intere, quindi diciamo
+
+1281
+00:54:35.400 --> 00:54:40.440
+la frequenza ho 100 kHz, ma in realtà
+
+1282
+00:54:38.799 --> 00:54:42.839
+quindi nella formula devo scrivere
+
+1283
+00:54:40.440 --> 00:54:45.920
+100.000, d'accordo? 100 kHz sono
+
+1284
+00:54:42.839 --> 00:54:49.480
+100.000. Evitiamo l'uso delle potenze di
+
+1285
+00:54:45.920 --> 00:54:49.480
+10 per adesso.
+
+1286
+00:54:50.720 --> 00:54:54.520
+100.000.
+
+1287
+00:54:52.359 --> 00:54:57.040
+Sì, questo è uno zero. Va bene,
+
+1288
+00:54:54.520 --> 00:55:02.760
+d'accordo. Questi sono i 100.000 Hz. L
+
+1289
+00:54:57.040 --> 00:55:06.680
+sono 10 m. Allora, 10 m è 0,01
+
+1290
+00:55:02.760 --> 00:55:06.680
+* 0.
+
+1291
+00:55:10.359 --> 00:55:16.160
+Allora, 100.000 1000 moltiplicato 0,01
+
+1292
+00:55:16.960 --> 00:55:21.680
+se fate i conti da 1000.
+
+1293
+00:55:23.039 --> 00:55:26.880
+Qui potete provare con la calcolazione
+
+1294
+00:55:24.440 --> 00:55:28.440
+centesimo di Non è un centesimo di Henry
+
+1295
+00:55:26.880 --> 00:55:30.559
+quello, chiedo scusa.
+
+1296
+00:55:28.440 --> 00:55:32.760
+>> Sì, è un centesimo di Henry. È un
+
+1297
+00:55:30.559 --> 00:55:36.839
+centesimo di Henry. Bravo. Un centesimo
+
+1298
+00:55:32.760 --> 00:55:38.400
+di Henry che equivale a 10 millesimi.
+
+1299
+00:55:36.839 --> 00:55:39.799
+>> Ah, ok, scusa.
+
+1300
+00:55:38.400 --> 00:55:44.319
+>> Ok.
+
+1301
+00:55:39.799 --> 00:55:44.319
+10 milles diry, quindi 0,01.
+
+1302
+00:55:44.920 --> 00:55:51.920
+Se avessi avuto un millesimo di rry
+
+1303
+00:55:47.680 --> 00:55:51.920
+avrei dovuto scrivere 0,00
+
+1304
+00:55:52.400 --> 00:55:56.200
+1 con uno 0 in più. Scusate gli
+
+1305
+00:55:54.359 --> 00:55:58.839
+scarabochi, questo è particolarmente
+
+1306
+00:55:56.200 --> 00:56:01.760
+male. [sbuffare] Comunque qui abbiamo il
+
+1307
+00:55:58.839 --> 00:56:03.319
+1000 di prima moltiplicato 628, quindi
+
+1308
+00:56:01.760 --> 00:56:07.200
+6280
+
+1309
+00:56:03.319 --> 00:56:07.200
+eh ohm.
+
+1310
+00:56:07.280 --> 00:56:11.480
+ti torna ti torna un po' meglio ora
+
+1311
+00:56:09.359 --> 00:56:15.280
+questa formula vista con i numeri e non
+
+1312
+00:56:11.480 --> 00:56:15.280
+con le potenze di 10?
+
+1313
+00:56:17.200 --> 00:56:22.559
+Eh, poi me la riguardo con calma via,
+
+1314
+00:56:20.200 --> 00:56:24.839
+sennò si perde tempo. Farò qualche
+
+1315
+00:56:22.559 --> 00:56:25.680
+domanda all'intelligenza artificiale.
+
+1316
+00:56:24.839 --> 00:56:28.359
+Sì, devi sì
+
+1317
+00:56:25.680 --> 00:56:33.880
+>> o capisco la procedura qui
+
+1318
+00:56:28.359 --> 00:56:35.480
+>> come si arriva. Ah, cioè c'è 2 pi,
+
+1319
+00:56:33.880 --> 00:56:36.520
+però niente, via dai, sennò si perde
+
+1320
+00:56:35.480 --> 00:56:39.160
+tempo.
+
+1321
+00:56:36.520 --> 00:56:41.680
+>> Sì, allora devi semplicemente mettere i
+
+1322
+00:56:39.160 --> 00:56:46.799
+numeri, mettere i numeri giusti. 2π sai
+
+1323
+00:56:41.680 --> 00:56:46.799
+quanto vale? No. 6,28. F.000.
+
+1324
+00:56:47.000 --> 00:56:54.599
+100 k sono 100.000.
+
+1325
+00:56:49.599 --> 00:56:56.920
+L è 10 m, cioè 0,01.
+
+1326
+00:56:54.599 --> 00:56:59.680
+>> Eh, ma F perché 100.000?
+
+1327
+00:56:56.920 --> 00:57:00.799
+Perché è perché è un dato non è dettata
+
+1328
+00:56:59.680 --> 00:57:02.480
+la
+
+1329
+00:57:00.799 --> 00:57:04.960
+>> No, perché è una perché è una domanda
+
+1330
+00:57:02.480 --> 00:57:07.240
+fatta così. Questa è come è una domanda
+
+1331
+00:57:04.960 --> 00:57:10.119
+di un esercizio e lì ci potrebbe essere
+
+1332
+00:57:07.240 --> 00:57:12.319
+un valore qualsiasi. È semplicemente un
+
+1333
+00:57:10.119 --> 00:57:14.859
+>> frequenza tu la vedi nella seconda
+
+1334
+00:57:12.319 --> 00:57:14.960
+domanda è 100 kHz.
+
+1335
+00:57:14.859 --> 00:57:16.440
+>> [schiarire la voce]
+
+1336
+00:57:14.960 --> 00:57:16.760
+>> È quella lì la frequenza.
+
+1337
+00:57:16.440 --> 00:57:20.000
+>> Questa
+
+1338
+00:57:16.760 --> 00:57:22.160
+>> il kilo è per 10^ ter quindi sarebbe 100
+
+1339
+00:57:20.000 --> 00:57:25.119
++ 10^ ter sono altri tre zeri perché è
+
+1340
+00:57:22.160 --> 00:57:27.000
+1000 e quindi viene 100.000 è derivato
+
+1341
+00:57:25.119 --> 00:57:28.440
+appunto dal 100 kHz che è la frequenza
+
+1342
+00:57:27.000 --> 00:57:29.599
+della seconda domanda, cioè della prima
+
+1343
+00:57:28.440 --> 00:57:31.920
+domanda alla fine.
+
+1344
+00:57:29.599 --> 00:57:34.000
+>> Corretto?
+
+1345
+00:57:31.920 --> 00:57:36.599
+>> Corretto. Devi devi fare un po' di
+
+1346
+00:57:34.000 --> 00:57:38.280
+esercizio semplicemente. Ora piano piano
+
+1347
+00:57:36.599 --> 00:57:39.880
+di volta in volta magari faremo un po'
+
+1348
+00:57:38.280 --> 00:57:41.960
+di questi conti, poi ci risciogliamo
+
+1349
+00:57:39.880 --> 00:57:43.920
+tutti. Ok?
+
+1350
+00:57:41.960 --> 00:57:45.520
+Passiamo alla domanda successiva. Ancora
+
+1351
+00:57:43.920 --> 00:57:47.280
+qui la risposta è molto facile, no?
+
+1352
+00:57:45.520 --> 00:57:50.960
+Avendo calcolato il valore precedente,
+
+1353
+00:57:47.280 --> 00:57:52.880
+quanto vale la sua reattanza a 1 MHz?
+
+1354
+00:57:50.960 --> 00:57:55.520
+>> 62.800.
+
+1355
+00:57:52.880 --> 00:57:55.520
+>> Ah, no, no.
+
+1356
+00:57:55.680 --> 00:58:02.359
+Ah, no, sì, scusa. Sì, sì, certo che sì.
+
+1357
+00:57:58.039 --> 00:58:03.880
+62.800, esattamente, 628, cioè, cioè è
+
+1358
+00:58:02.359 --> 00:58:06.000
+10 Sì, sì, è scusa,
+
+1359
+00:58:03.880 --> 00:58:09.280
+>> è 10 volte superiore, dopo pensando ad
+
+1360
+00:58:06.000 --> 00:58:11.720
+altro. E a 10 MHz quanto vale?
+
+1361
+00:58:09.280 --> 00:58:15.039
+Mai avete capito come
+
+1362
+00:58:11.720 --> 00:58:17.160
+>> 628.000, d'accordo? Quindi vedete che è
+
+1363
+00:58:15.039 --> 00:58:20.160
+è direttamente proporzionale, no? quando
+
+1364
+00:58:17.160 --> 00:58:22.520
+la frequenza aumenta di un fattore 10,
+
+1365
+00:58:20.160 --> 00:58:26.599
+la reattenza induttiva aumenta anche lei
+
+1366
+00:58:22.520 --> 00:58:30.240
+di un fattore 10 e diciamo se vogliamo,
+
+1367
+00:58:26.599 --> 00:58:32.000
+questo è proprio lo lo l'uso lo scopo
+
+1368
+00:58:30.240 --> 00:58:34.200
+per cui si usano le reattanze nei
+
+1369
+00:58:32.000 --> 00:58:38.559
+circuiti, cioè tante volte c'è bisogno
+
+1370
+00:58:34.200 --> 00:58:42.200
+in un circuito elettrico di eh
+
+1371
+00:58:38.559 --> 00:58:44.280
+di far passare una frequenza bassa o una
+
+1372
+00:58:42.200 --> 00:58:47.039
+tensione continua addirittura, ma
+
+1373
+00:58:44.280 --> 00:58:48.599
+bloccare bloccare se su questa tensione
+
+1374
+00:58:47.039 --> 00:58:50.440
+continua c'è sovrapposta anche un
+
+1375
+00:58:48.599 --> 00:58:53.200
+segnale a frequenza radio, quel quel
+
+1376
+00:58:50.440 --> 00:58:55.599
+segnale non lo devi far passare. Quindi
+
+1377
+00:58:53.200 --> 00:58:58.960
+quando hai bisogno di fermare un segnale
+
+1378
+00:58:55.599 --> 00:59:00.960
+in alternata, diciamo, una una frequenza
+
+1379
+00:58:58.960 --> 00:59:02.799
+alta, ma invece far passare una
+
+1380
+00:59:00.960 --> 00:59:05.319
+continua, si usa un inter si usa un
+
+1381
+00:59:02.799 --> 00:59:07.960
+induttore
+
+1382
+00:59:05.319 --> 00:59:10.480
+e poi vedremo.
+
+1383
+00:59:07.960 --> 00:59:12.799
+Ok, allora
+
+1384
+00:59:10.480 --> 00:59:15.000
+e con questo sugli induttori. Ah no,
+
+1385
+00:59:12.799 --> 00:59:18.920
+scusate, mi ero di cioè pardon, c'è
+
+1386
+00:59:15.000 --> 00:59:21.160
+un'ultima cosa da dire.
+
+1387
+00:59:18.920 --> 00:59:24.200
+Pausa tecnica.
+
+1388
+00:59:21.160 --> 00:59:26.079
+Pac. Quindi, riprendendo il discorso
+
+1389
+00:59:24.200 --> 00:59:28.160
+anche che avevamo che avevamo fatto
+
+1390
+00:59:26.079 --> 00:59:33.280
+prima sul ritardo, adesso però ne
+
+1391
+00:59:28.160 --> 00:59:36.119
+parliamo in corrente alternata,
+
+1392
+00:59:33.280 --> 00:59:39.079
+quindi prima l'abbiamo visto un po' sui
+
+1393
+00:59:36.119 --> 00:59:41.079
+transitori, no? Sul sul,
+
+1394
+00:59:39.079 --> 00:59:42.960
+diciamo, sui cinque tavo a crescere e a
+
+1395
+00:59:41.079 --> 00:59:44.359
+decrescere. Adesso immaginiamo, appunto,
+
+1396
+00:59:42.960 --> 00:59:48.000
+proprio su una corrente alternata
+
+1397
+00:59:44.359 --> 00:59:50.640
+costante, si è detto che in un induttore
+
+1398
+00:59:48.000 --> 00:59:53.480
+la corrente è sempre in ritardo rispetto
+
+1399
+00:59:50.640 --> 00:59:56.760
+alla tensione. La tensione è quella che
+
+1400
+00:59:53.480 --> 00:59:58.480
+in qualche modo lo spinge, no, lo eccita
+
+1401
+00:59:56.760 --> 01:00:00.599
+e vorrebbe far scorrere una corrente,
+
+1402
+00:59:58.480 --> 01:00:02.359
+però l'induttore risponde lentamente,
+
+1403
+01:00:00.599 --> 01:00:04.319
+quindi la corrente è in ritardo rispetto
+
+1404
+01:00:02.359 --> 01:00:07.280
+alla tensione e questo l'avevamo già
+
+1405
+01:00:04.319 --> 01:00:09.599
+detto, però non si era detto una cosa di
+
+1406
+01:00:07.280 --> 01:00:12.480
+quanto è questo ritardo. Allora, in una
+
+1407
+01:00:09.599 --> 01:00:15.039
+corrente alternata sinusoidale la
+
+1408
+01:00:12.480 --> 01:00:19.160
+tensione la corrente è in ritardo
+
+1409
+01:00:15.039 --> 01:00:19.160
+rispetto alla tensione di 90°.
+
+1410
+01:00:19.359 --> 01:00:24.480
+E quindi in questo grafico che è molto
+
+1411
+01:00:22.559 --> 01:00:28.319
+simile o se non identico a uno di quelli
+
+1412
+01:00:24.480 --> 01:00:33.559
+che avevamo visto due due diciamo due o
+
+1413
+01:00:28.319 --> 01:00:36.359
+due lezioni fa la diciamo se se questa è
+
+1414
+01:00:33.559 --> 01:00:39.359
+la corrente in verde, immaginiamo che la
+
+1415
+01:00:36.359 --> 01:00:42.599
+corrente qui raggiunge il massimo qua.
+
+1416
+01:00:39.359 --> 01:00:45.880
+Scusate, ricomincio. Se questo qui in
+
+1417
+01:00:42.599 --> 01:00:48.640
+verde è la tensione V e la tensione V
+
+1418
+01:00:45.880 --> 01:00:50.760
+raggiunge il massimo qua, la corrente
+
+1419
+01:00:48.640 --> 01:00:53.400
+raggiungerà il massimo un po' più tardi
+
+1420
+01:00:50.760 --> 01:00:55.400
+e nel caso di tensioni sinusoidali
+
+1421
+01:00:53.400 --> 01:00:58.520
+eccetera eccetera eccetera il ritardo
+
+1422
+01:00:55.400 --> 01:01:00.599
+che c'è fra la tensione e la corrente è
+
+1423
+01:00:58.520 --> 01:01:02.359
+di 90°.
+
+1424
+01:01:00.599 --> 01:01:04.520
+Perché è così? Perch perché sì,
+
+1425
+01:01:02.359 --> 01:01:08.359
+d'accordo? Cioè nessuno vorrei mai
+
+1426
+01:01:04.520 --> 01:01:10.799
+sapere il perché. C'è da ricordarsi che
+
+1427
+01:01:08.359 --> 01:01:13.039
+eh in un induttore la corrente è in
+
+1428
+01:01:10.799 --> 01:01:14.680
+ritardo di 90° rispetto alla tensione.
+
+1429
+01:01:13.039 --> 01:01:16.760
+Questo poi lo riprenderemo quando
+
+1430
+01:01:14.680 --> 01:01:18.839
+parleremo dei circuiti risonanti. Questi
+
+1431
+01:01:16.760 --> 01:01:21.240
+discorsi di sfasamento di 90° di
+
+1432
+01:01:18.839 --> 01:01:22.559
+anticipo in ritardo sono fondamentali
+
+1433
+01:01:21.240 --> 01:01:26.000
+nel funzionamento dei circuiti
+
+1434
+01:01:22.559 --> 01:01:29.000
+risonanti, ma ne parliamo fra fra due
+
+1435
+01:01:26.000 --> 01:01:29.000
+puntate,
+
+1436
+01:01:29.240 --> 01:01:34.760
+ovvero dire che la corrente è in ritardo
+
+1437
+01:01:32.520 --> 01:01:36.880
+rispetto alla tensione implica che la
+
+1438
+01:01:34.760 --> 01:01:39.799
+tensione è in anticipo rispetto alla
+
+1439
+01:01:36.880 --> 01:01:41.599
+corrente. D'accordo? Diciamo niente da
+
+1440
+01:01:39.799 --> 01:01:44.440
+niente da capire, è semplicemente la
+
+1441
+01:01:41.599 --> 01:01:46.119
+stessa fase ribaltata. la corrente in
+
+1442
+01:01:44.440 --> 01:01:47.760
+ritardo rispetto alla tensione, quindi
+
+1443
+01:01:46.119 --> 01:01:50.680
+la tensione in anticipo rispetto alla
+
+1444
+01:01:47.760 --> 01:01:53.760
+corrente. Stop, non c'è non c'è altro da
+
+1445
+01:01:50.680 --> 01:01:56.960
+non c'è altro da sapere.
+
+1446
+01:01:53.760 --> 01:01:59.039
+Infine, c'è un'ultima cosa per effetto
+
+1447
+01:01:56.960 --> 01:02:01.640
+del
+
+1448
+01:01:59.039 --> 01:02:03.960
+diciamo del dei campi elettrici e
+
+1449
+01:02:01.640 --> 01:02:07.240
+magnetici che, diciamo, si instaurono
+
+1450
+01:02:03.960 --> 01:02:09.119
+all'interno di un conduttore,
+
+1451
+01:02:07.240 --> 01:02:11.920
+ehm
+
+1452
+01:02:09.119 --> 01:02:14.039
+si ha il cosiddetto effetto pelle.
+
+1453
+01:02:11.920 --> 01:02:16.240
+L'effetto pelle è un fenomeno per il
+
+1454
+01:02:14.039 --> 01:02:18.279
+quale se tu fai passare una corrente
+
+1455
+01:02:16.240 --> 01:02:19.960
+alternata dentro un filo, dentro un
+
+1456
+01:02:18.279 --> 01:02:22.079
+conduttore,
+
+1457
+01:02:19.960 --> 01:02:24.520
+più aumenta la frequenza, più la
+
+1458
+01:02:22.079 --> 01:02:27.319
+corrente scorre solo sulla superficie
+
+1459
+01:02:24.520 --> 01:02:29.520
+esterna del conduttore. Questo questo
+
+1460
+01:02:27.319 --> 01:02:33.039
+tondo rosso che vedete qua, immaginate
+
+1461
+01:02:29.520 --> 01:02:34.880
+che sia un filo elettrico tagliato in
+
+1462
+01:02:33.039 --> 01:02:36.920
+sezione, d'accordo? Noi stiamo vedendo
+
+1463
+01:02:34.880 --> 01:02:39.200
+una sezione di questo filo elettrico. Il
+
+1464
+01:02:36.920 --> 01:02:42.920
+filo elettrico è tondo. Immaginiamo che
+
+1465
+01:02:39.200 --> 01:02:45.200
+sia un tondino di rame come si era visto
+
+1466
+01:02:42.920 --> 01:02:48.200
+bene. Torno indietro, scusate se vi
+
+1467
+01:02:45.200 --> 01:02:50.160
+faccio un po' di mal di mare. Un filo di
+
+1468
+01:02:48.200 --> 01:02:52.960
+rame stile questo, un filo di rame metti
+
+1469
+01:02:50.160 --> 01:02:57.520
+di 1 mm o 2 mm di diametro. Qui lo
+
+1470
+01:02:52.960 --> 01:02:58.920
+stiamo vedendo sezionato. Mh. Allora, se
+
+1471
+01:02:57.520 --> 01:03:01.359
+io in questo filo elettrico faccio
+
+1472
+01:02:58.920 --> 01:03:03.520
+scorrere una corrente continua, la
+
+1473
+01:03:01.359 --> 01:03:05.760
+corrente mi scorre in maniera più o meno
+
+1474
+01:03:03.520 --> 01:03:09.000
+uniforme in tutte le parti di questo
+
+1475
+01:03:05.760 --> 01:03:11.880
+filo, della sezione del mio filo. Se io
+
+1476
+01:03:09.000 --> 01:03:15.200
+aumento la frequenza della
+
+1477
+01:03:11.880 --> 01:03:18.880
+del della mia tensione,
+
+1478
+01:03:15.200 --> 01:03:21.760
+la corrente tende a schiacciarsi sulla
+
+1479
+01:03:18.880 --> 01:03:23.799
+parte esterna del conduttore, questa qua
+
+1480
+01:03:21.760 --> 01:03:26.039
+che vedete al di là di questo
+
+1481
+01:03:23.799 --> 01:03:27.440
+tratteggio, cioè in questa zona qua,
+
+1482
+01:03:26.039 --> 01:03:29.960
+quindi nella parte centrale del
+
+1483
+01:03:27.440 --> 01:03:32.880
+conduttore va a finire che di corrente
+
+1484
+01:03:29.960 --> 01:03:36.720
+non non ne scorre praticamente punta,
+
+1485
+01:03:32.880 --> 01:03:38.720
+diciamo zero o pochissimo. E questa cosa
+
+1486
+01:03:36.720 --> 01:03:42.240
+va, questo fenomeno, questo effetto
+
+1487
+01:03:38.720 --> 01:03:44.119
+pelle va ad aumentare quanto più aumenta
+
+1488
+01:03:42.240 --> 01:03:47.559
+la frequenza
+
+1489
+01:03:44.119 --> 01:03:50.319
+e del mio segnale. Questa cosa è molto
+
+1490
+01:03:47.559 --> 01:03:52.520
+importante per, diciamo, in campo radio
+
+1491
+01:03:50.319 --> 01:03:56.359
+quando si ha a che fare con segnali a
+
+1492
+01:03:52.520 --> 01:03:58.119
+frequenza abbastanza alta perché questa
+
+1493
+01:03:56.359 --> 01:04:00.880
+cosa dell'effetto pelle, anche se
+
+1494
+01:03:58.119 --> 01:04:03.880
+ripeto, cioè sembra una cosa strana, ma
+
+1495
+01:04:00.880 --> 01:04:09.760
+praticamente riduce in maniera veramente
+
+1496
+01:04:03.880 --> 01:04:12.359
+enorme la quantità di del mio cavo in
+
+1497
+01:04:09.760 --> 01:04:14.440
+cui scorre corrente elettrica. E qui vi
+
+1498
+01:04:12.359 --> 01:04:17.520
+ho vi ho riportato un po' di un un po'
+
+1499
+01:04:14.440 --> 01:04:21.319
+di misure. Allora, immaginate
+
+1500
+01:04:17.520 --> 01:04:24.160
+immaginiamo che il nostro filo sia un
+
+1501
+01:04:21.319 --> 01:04:28.680
+conduttore del diametro di 1 mm,
+
+1502
+01:04:24.160 --> 01:04:30.760
+d'accordo? 1 mm. guardiamo a 1 MHz, 1
+
+1503
+01:04:28.680 --> 01:04:33.720
+milione di Hz, che è una frequenza anche
+
+1504
+01:04:30.760 --> 01:04:36.279
+bassa, eh, molamente bassa quando si
+
+1505
+01:04:33.720 --> 01:04:39.720
+parla in campo radio. Ha una frequenza
+
+1506
+01:04:36.279 --> 01:04:42.240
+di 1 MHz, il la profondità di
+
+1507
+01:04:39.720 --> 01:04:44.880
+penetrazione, qui è chiamata profondità
+
+1508
+01:04:42.240 --> 01:04:49.160
+di pelle
+
+1509
+01:04:44.880 --> 01:04:55.920
+della corrente nel mio filo eh
+
+1510
+01:04:49.160 --> 01:05:00.000
+è di 66 micron. 66 micon, cioè 0,06
+
+1511
+01:04:55.920 --> 01:05:04.359
+007 mm. Il mio filo è è di 1 mm di
+
+1512
+01:05:00.000 --> 01:05:06.119
+diametro, quindi solamente in una
+
+1513
+01:05:04.359 --> 01:05:09.200
+striscetta
+
+1514
+01:05:06.119 --> 01:05:10.960
+pari al 7% del mio diametro, una
+
+1515
+01:05:09.200 --> 01:05:15.480
+striscetta che chiaramente gira tutto
+
+1516
+01:05:10.960 --> 01:05:17.160
+attorno, no? Eh, la la il grosso della
+
+1517
+01:05:15.480 --> 01:05:19.440
+corrente scorre lì. Se si va a una
+
+1518
+01:05:17.160 --> 01:05:20.440
+frequenza un po' più alta, 10 MHz, che
+
+1519
+01:05:19.440 --> 01:05:23.319
+anche questa è una frequenza
+
+1520
+01:05:20.440 --> 01:05:26.079
+relativamente bassa,
+
+1521
+01:05:23.319 --> 01:05:28.799
+002 002
+
+1522
+01:05:26.079 --> 01:05:30.920
+mm, quindi solamente il 2% del
+
+1523
+01:05:28.799 --> 01:05:33.440
+conduttore è interessato. Pochissimo,
+
+1524
+01:05:30.920 --> 01:05:35.240
+no? Cioè sarebbe proprio una Se vado a
+
+1525
+01:05:33.440 --> 01:05:37.079
+100 MHz, che comincia a essere una
+
+1526
+01:05:35.240 --> 01:05:40.760
+frequenza un po' altina, ma tante radio
+
+1527
+01:05:37.079 --> 01:05:43.359
+trasmettono a 140 a 400 MHz, no? Vedete
+
+1528
+01:05:40.760 --> 01:05:46.520
+che addirittura
+
+1529
+01:05:43.359 --> 01:05:50.440
+è di 0,006
+
+1530
+01:05:46.520 --> 01:05:54.240
+micron micron, quindi 6 eh millesimi di
+
+1531
+01:05:50.440 --> 01:05:56.839
+millimetro, quindi meno dell'1%
+
+1532
+01:05:54.240 --> 01:05:59.200
+della della sezione del mio filo. Quindi
+
+1533
+01:05:56.839 --> 01:06:01.359
+diciamo immaginiamo che io ho un buon un
+
+1534
+01:05:59.200 --> 01:06:03.559
+bel trasmettitore da 100 W, voglio
+
+1535
+01:06:01.359 --> 01:06:05.119
+mandare questi 100 W all'antenna. 100 W
+
+1536
+01:06:03.559 --> 01:06:07.200
+cominciano a essere una potenza,
+
+1537
+01:06:05.119 --> 01:06:09.480
+diciamo, già abbastanza, diciamo,
+
+1538
+01:06:07.200 --> 01:06:11.240
+decorosa, no? Quindi io vedo un cavo
+
+1539
+01:06:09.480 --> 01:06:13.760
+quassiale che sul momento mi sembra
+
+1540
+01:06:11.240 --> 01:06:16.200
+anche abbastanza buono perché magari lo
+
+1541
+01:06:13.760 --> 01:06:19.160
+vedo che ha, diciamo, un diametro
+
+1542
+01:06:16.200 --> 01:06:21.720
+abbastanza rilevante e devo sempre
+
+1543
+01:06:19.160 --> 01:06:24.920
+ricordarmi che a 100 MHz la sezione del
+
+1544
+01:06:21.720 --> 01:06:28.559
+cavo quassiale che lavora realmente è
+
+1545
+01:06:24.920 --> 01:06:31.039
+una sezioncina di 6 micron giro giro
+
+1546
+01:06:28.559 --> 01:06:32.839
+giro attorno al diametro del mio del
+
+1547
+01:06:31.039 --> 01:06:34.760
+conduttore del mio cavo, quindi proprio
+
+1548
+01:06:32.839 --> 01:06:37.720
+veramente una cosa minimale. E questo è
+
+1549
+01:06:34.760 --> 01:06:40.240
+l'effetto pelle.
+
+1550
+01:06:37.720 --> 01:06:42.839
+Allora, basta. Diciamo che di induttore,
+
+1551
+01:06:40.240 --> 01:06:44.720
+sugli induttori non ho da dire altro. Se
+
+1552
+01:06:42.839 --> 01:06:46.720
+c'è qualche domanda che siamo
+
+1553
+01:06:44.720 --> 01:06:48.279
+perfettamente nei tempi, restate a
+
+1554
+01:06:46.720 --> 01:06:49.640
+parlare del trasformatore, però il
+
+1555
+01:06:48.279 --> 01:06:51.200
+discorso del trasformatore è molto
+
+1556
+01:06:49.640 --> 01:06:53.000
+rapido.
+
+1557
+01:06:51.200 --> 01:06:57.359
+Giovanni, a te.
+
+1558
+01:06:53.000 --> 01:07:01.920
+Sì. Ecco, allora, ehm io personalmente
+
+1559
+01:06:57.359 --> 01:07:03.880
+ho avuto ho difficoltà forse nella ehm
+
+1560
+01:07:01.920 --> 01:07:06.160
+nella visione della formula di com'è
+
+1561
+01:07:03.880 --> 01:07:08.920
+messa, perché nelle altre formule nelle
+
+1562
+01:07:06.160 --> 01:07:11.599
+altre formule c'erano il per, il fratto,
+
+1563
+01:07:08.920 --> 01:07:13.839
+eccetera. questa 2 pi gre fl ma un po'
+
+1564
+01:07:11.599 --> 01:07:16.480
+disorientato, poi ho capito che va,
+
+1565
+01:07:13.839 --> 01:07:19.640
+diciamo, spezzettata perché 2 pi gre poi
+
+1566
+01:07:16.480 --> 01:07:22.920
+lo moltiplichi per f poi per l e
+
+1567
+01:07:19.640 --> 01:07:25.640
+dovrebbe sistemare questa cosa. Quindi è
+
+1568
+01:07:22.920 --> 01:07:28.599
+questo è un po' il la cosa poi sulla
+
+1569
+01:07:25.640 --> 01:07:30.839
+questione della ehm della del
+
+1570
+01:07:28.599 --> 01:07:35.039
+funzionamento degli induttori, insomma,
+
+1571
+01:07:30.839 --> 01:07:37.760
+di questa contro forza contro corrente,
+
+1572
+01:07:35.039 --> 01:07:40.200
+forza di opposizione, insomma, vabbè,
+
+1573
+01:07:37.760 --> 01:07:43.160
+con forza elettrometrice, sono arrivato
+
+1574
+01:07:40.200 --> 01:07:45.680
+a un certo punto, ma eh niente, me la me
+
+1575
+01:07:43.160 --> 01:07:48.760
+la riguarderò per bene, poi vediamo poi
+
+1576
+01:07:45.680 --> 01:07:53.160
+nel corso della, diciamo, delle puntate
+
+1577
+01:07:48.760 --> 01:07:55.319
+come eh se se riesco a diciamo assorbire
+
+1578
+01:07:53.160 --> 01:07:57.400
+questa cosa qui perché insomma ecco
+
+1579
+01:07:55.319 --> 01:07:59.799
+questa sinceramente un pochino mi sono
+
+1580
+01:07:57.400 --> 01:08:02.079
+trovato in difficoltà, però a tempo al
+
+1581
+01:07:59.799 --> 01:08:03.799
+tempo bisogna che mi applichi e quindi
+
+1582
+01:08:02.079 --> 01:08:05.720
+rivedere un attimo gli appunti,
+
+1583
+01:08:03.799 --> 01:08:07.240
+risentire la registrazione. Io me le
+
+1584
+01:08:05.720 --> 01:08:09.359
+registro tutte le registrazioni, quindi
+
+1585
+01:08:07.240 --> 01:08:11.559
+me le risento già domani, quindi in
+
+1586
+01:08:09.359 --> 01:08:14.079
+anticipo e quindi e niente, era un po'
+
+1587
+01:08:11.559 --> 01:08:16.080
+questo. Grazie. Perfetto, perfetto.
+
+1588
+01:08:14.079 --> 01:08:18.359
+Diciamo la forza controelettromotrice ci
+
+1589
+01:08:16.080 --> 01:08:20.719
+serve per capire perché l'induttore ha
+
+1590
+01:08:18.359 --> 01:08:23.600
+questo rallentamento.
+
+1591
+01:08:20.719 --> 01:08:25.400
+Eh, perché diciamo l'induttore,
+
+1592
+01:08:23.600 --> 01:08:27.199
+diciamo, il campo magnetico generato
+
+1593
+01:08:25.400 --> 01:08:30.199
+dall'induttore
+
+1594
+01:08:27.199 --> 01:08:35.880
+induce sull'induttore stesso
+
+1595
+01:08:30.199 --> 01:08:35.880
+una tensione contraria a quella che
+
+1596
+01:08:36.279 --> 01:08:40.480
+una, diciamo, un effetto di segno
+
+1597
+01:08:38.040 --> 01:08:43.199
+contrario a quello del che cerca di
+
+1598
+01:08:40.480 --> 01:08:44.960
+ottenere il generatore. Se io cer se il
+
+1599
+01:08:43.199 --> 01:08:47.279
+mio generatore cerca di aumentare la
+
+1600
+01:08:44.960 --> 01:08:49.199
+corrente che passa nell'induttore, la
+
+1601
+01:08:47.279 --> 01:08:50.679
+forza controelettromotrice è esattamente
+
+1602
+01:08:49.199 --> 01:08:52.640
+il segno opposto, cioè cerca di
+
+1603
+01:08:50.679 --> 01:08:54.279
+abbassare questa corrente e tutto questo
+
+1604
+01:08:52.640 --> 01:08:56.159
+avviene nello stesso induttore, è
+
+1605
+01:08:54.279 --> 01:08:58.440
+proprio un antagonismo fra due fenomeni
+
+1606
+01:08:56.159 --> 01:09:00.359
+diversi. Poi chiaramente vince il
+
+1607
+01:08:58.440 --> 01:09:02.719
+generatore, no? Perché il generatore,
+
+1608
+01:09:00.359 --> 01:09:04.839
+insomma, è, diciamo, essendo un
+
+1609
+01:09:02.719 --> 01:09:06.920
+generatore, può continuare nel suo
+
+1610
+01:09:04.839 --> 01:09:08.679
+sforzo per un certo tempo, continua a
+
+1611
+01:09:06.920 --> 01:09:12.199
+dare corrente di un certo tipo, a un
+
+1612
+01:09:08.679 --> 01:09:14.319
+certo punto l'induttore va va a regime,
+
+1613
+01:09:12.199 --> 01:09:17.000
+però ci va lentamente a causa di questo
+
+1614
+01:09:14.319 --> 01:09:18.480
+effetto. Dormbici un po' su, poi se ve
+
+1615
+01:09:17.000 --> 01:09:20.920
+ne riparliamo senza problemi.
+
+1616
+01:09:18.480 --> 01:09:22.560
+>> Cerca di cerca di cerca di ribellarsi,
+
+1617
+01:09:20.920 --> 01:09:25.400
+ma non ce la fa via, insomma.
+
+1618
+01:09:22.560 --> 01:09:27.799
+>> Esattamente. Però ti rallenta, è come
+
+1619
+01:09:25.400 --> 01:09:30.120
+una cosa stopposa, no? ti rallenta, come
+
+1620
+01:09:27.799 --> 01:09:32.279
+essere, no, che attraversi un campo con
+
+1621
+01:09:30.120 --> 01:09:34.560
+tutte le stoppe che ti si attaccano agli
+
+1622
+01:09:32.279 --> 01:09:38.120
+stip, ai pantaloni, eccetera.
+
+1623
+01:09:34.560 --> 01:09:40.359
+>> Ok, vabbè, grazie. Grazie Paolo
+
+1624
+01:09:38.120 --> 01:09:42.880
+>> Pierluigi, a te.
+
+1625
+01:09:40.359 --> 01:09:45.679
+>> Eh, sì, una curiosità. Qual è la
+
+1626
+01:09:42.880 --> 01:09:47.799
+spiegazione fisica dell'effetto pelle
+
+1627
+01:09:45.679 --> 01:09:48.120
+che si ha con la frenza? Ripi, ripeti,
+
+1628
+01:09:47.799 --> 01:09:51.480
+ripeti.
+
+1629
+01:09:48.120 --> 01:09:53.799
+>> Qual è la spiegazione fisica, cioè la il
+
+1630
+01:09:51.480 --> 01:09:57.040
+motivo per cui avviene l'effetto pelle
+
+1631
+01:09:53.799 --> 01:09:58.840
+con la frenzione? Perché la corrente,
+
+1632
+01:09:57.040 --> 01:10:00.560
+gli elettroni si distruiscono sulla
+
+1633
+01:09:58.840 --> 01:10:03.679
+superficie
+
+1634
+01:10:00.560 --> 01:10:06.800
+esterna del conduttore. Qual è il motivo
+
+1635
+01:10:03.679 --> 01:10:09.320
+fisico per cui avviene questo?
+
+1636
+01:10:06.800 --> 01:10:10.800
+>> Eh sì. Allora,
+
+1637
+01:10:09.320 --> 01:10:14.159
+>> è una cordetà, eh, scusami.
+
+1638
+01:10:10.800 --> 01:10:17.080
+>> Sì. Allora, si si visualizza bene con un
+
+1639
+01:10:14.159 --> 01:10:20.880
+disegno che non ho qui con me, lo faccio
+
+1640
+01:10:17.080 --> 01:10:20.880
+vedere la volta prossima
+
+1641
+01:10:23.800 --> 01:10:28.679
+perché se si fa, diciamo, il il
+
+1642
+01:10:26.840 --> 01:10:31.480
+l'oggetto, diciamo, la sezione del filo
+
+1643
+01:10:28.679 --> 01:10:33.480
+a pezzettini e si fa passare in ogni
+
+1644
+01:10:31.480 --> 01:10:36.480
+pezzettino un flussetto di corrente e si
+
+1645
+01:10:33.480 --> 01:10:38.600
+vede che funziona e si vede che succede,
+
+1646
+01:10:36.480 --> 01:10:40.760
+si arriva a questa conclusione qua.
+
+1647
+01:10:38.600 --> 01:10:44.000
+Raccontato a parole è un po' incasinato.
+
+1648
+01:10:40.760 --> 01:10:47.480
+diciamo, ho uno schema che che vi farò
+
+1649
+01:10:44.000 --> 01:10:49.800
+vedere mercoledì prossimo. Ok,
+
+1650
+01:10:47.480 --> 01:10:52.800
+comunque buona domanda.
+
+1651
+01:10:49.800 --> 01:10:52.800
+Assolutamente.
+
+1652
+01:10:53.600 --> 01:10:59.640
+Eh, Davide, a te.
+
+1653
+01:10:56.679 --> 01:11:01.280
+>> Allora, l'effetto pelle è una cosa è un
+
+1654
+01:10:59.640 --> 01:11:04.800
+effetto, appunto, che possiamo sfruttare
+
+1655
+01:11:01.280 --> 01:11:06.320
+in qualche modo eh a nostro vantaggio o
+
+1656
+01:11:04.800 --> 01:11:08.400
+è solo, tra virgolette, un
+
+1657
+01:11:06.320 --> 01:11:12.000
+inconveniente?
+
+1658
+01:11:08.400 --> 01:11:13.480
+Mh, secondo me, eh, [sbuffare]
+
+1659
+01:11:12.000 --> 01:11:16.679
+allora, l'effetto pelle è sempre un
+
+1660
+01:11:13.480 --> 01:11:18.400
+inconveniente perché aumenta la perdita
+
+1661
+01:11:16.679 --> 01:11:20.679
+in tutti i cavi di trasmissione delle
+
+1662
+01:11:18.400 --> 01:11:24.000
+radiofrequenze.
+
+1663
+01:11:20.679 --> 01:11:26.199
+In effetti se prendete,
+
+1664
+01:11:24.000 --> 01:11:29.000
+non so, diciamo, quelli quelli che di
+
+1665
+01:11:26.199 --> 01:11:30.880
+voi trasmett hanno già esperienza di
+
+1666
+01:11:29.000 --> 01:11:32.640
+trasmissione, no? Stile banda cittadina,
+
+1667
+01:11:30.880 --> 01:11:34.520
+robe del genere.
+
+1668
+01:11:32.640 --> 01:11:37.040
+Alcuni di voi avranno i capi qualsiale
+
+1669
+01:11:34.520 --> 01:11:38.920
+stile l'RG58, capi piccolini, altri
+
+1670
+01:11:37.040 --> 01:11:42.560
+avranno i capi più grandi, no, stile RG
+
+1671
+01:11:38.920 --> 01:11:45.679
+213, eccetera. Se scaricate da internet
+
+1672
+01:11:42.560 --> 01:11:47.320
+il foglio dati, si chiama il datashet
+
+1673
+01:11:45.679 --> 01:11:50.000
+con le caratteristiche di questi cavi
+
+1674
+01:11:47.320 --> 01:11:52.719
+cossiali, c'è sempre l'andamento della
+
+1675
+01:11:50.000 --> 01:11:54.840
+perdita in funzione della frequenza
+
+1676
+01:11:52.719 --> 01:11:58.639
+e si vede proprio come questa perdita si
+
+1677
+01:11:54.840 --> 01:12:00.920
+impenna al crescere della frequenza. Le
+
+1678
+01:11:58.639 --> 01:12:03.120
+questa questa crescita della perdita
+
+1679
+01:12:00.920 --> 01:12:05.560
+deriva da due fattori. Il primo
+
+1680
+01:12:03.120 --> 01:12:08.360
+fondamentalmente è l'effetto pelle, cioè
+
+1681
+01:12:05.560 --> 01:12:11.120
+che più più sale la frequenza che il
+
+1682
+01:12:08.360 --> 01:12:13.320
+cavo porta e minore è la sezione in cui
+
+1683
+01:12:11.120 --> 01:12:15.520
+la corrente passa e quindi aumenta la
+
+1684
+01:12:13.320 --> 01:12:18.320
+resistenza ommica del cavo perché invece
+
+1685
+01:12:15.520 --> 01:12:21.120
+di avere un filo di un certo diametro ce
+
+1686
+01:12:18.320 --> 01:12:23.480
+l'è molto più piccolo. E l'altro fattore
+
+1687
+01:12:21.120 --> 01:12:25.840
+è la perdita nel di elettrico. ne
+
+1688
+01:12:23.480 --> 01:12:27.800
+parleremo, ne parleremo. E quindi è un
+
+1689
+01:12:25.840 --> 01:12:30.040
+fattore sostanzialmente sempre negativo
+
+1690
+01:12:27.800 --> 01:12:32.239
+l'effetto pelle. L'unica cosa che mi
+
+1691
+01:12:30.040 --> 01:12:35.040
+verrebbe in mente se a te avesse bisogno
+
+1692
+01:12:32.239 --> 01:12:36.880
+di scaldare una parte di un filo
+
+1693
+01:12:35.040 --> 01:12:38.679
+rapidamente, ma non c'è non ha
+
+1694
+01:12:36.880 --> 01:12:40.760
+applicazioni pratiche una cosa di questo
+
+1695
+01:12:38.679 --> 01:12:42.639
+tipo, che io sappia.
+
+1696
+01:12:40.760 --> 01:12:45.800
+>> Ok. Ok. No, pensavo che magari in
+
+1697
+01:12:42.639 --> 01:12:47.080
+un'antenna potesse venire a vantaggio,
+
+1698
+01:12:45.800 --> 01:12:49.400
+ma invece non è così.
+
+1699
+01:12:47.080 --> 01:12:51.960
+>> No, no, no, no, no. In generale è un
+
+1700
+01:12:49.400 --> 01:12:54.679
+effetto negativo. M
+
+1701
+01:12:51.960 --> 01:12:56.480
+>> Ok. Volevo dare un po' di numeri perché
+
+1702
+01:12:54.679 --> 01:12:58.199
+sentito a prima vista l'effetto pello,
+
+1703
+01:12:56.480 --> 01:13:00.159
+dice vabbè e lo mette lì, no? Però poi
+
+1704
+01:12:58.199 --> 01:13:02.239
+quando si rendi conto dei numeri che che
+
+1705
+01:13:00.159 --> 01:13:03.880
+appunto si tratta di micron in cui passa
+
+1706
+01:13:02.239 --> 01:13:07.800
+la corrente, magari credi di avere un
+
+1707
+01:13:03.880 --> 01:13:10.360
+filo da 1,5 di sezione, no? In realtà la
+
+1708
+01:13:07.800 --> 01:13:13.760
+la corrente ti passa in un micron di
+
+1709
+01:13:10.360 --> 01:13:16.920
+questo e5, insomma, cioè un fattore 1000
+
+1710
+01:13:13.760 --> 01:13:16.920
+in meno.
+
+1711
+01:13:16.960 --> 01:13:20.360
+Luca, a te.
+
+1712
+01:13:27.120 --> 01:13:32.800
+Il microfono è acceso, ma l'audio non si
+
+1713
+01:13:28.840 --> 01:13:32.800
+sente come prima.
+
+1714
+01:13:35.480 --> 01:13:40.800
+Niente,
+
+1715
+01:13:37.320 --> 01:13:43.080
+controlla eventualmente
+
+1716
+01:13:40.800 --> 01:13:45.840
+eh con controlla il microfono che hai
+
+1717
+01:13:43.080 --> 01:13:49.520
+installato sul tuo dispositivo.
+
+1718
+01:13:45.840 --> 01:13:49.520
+Intanto passo a Stefano.
+
+1719
+01:13:50.560 --> 01:13:53.920
+>> Ciao.
+
+1720
+01:13:51.639 --> 01:13:56.560
+>> Ciao Stefano. Questa, ciao questo
+
+1721
+01:13:53.920 --> 01:13:58.800
+effetto pelle mi incuriosisce, mi faceva
+
+1722
+01:13:56.560 --> 01:14:02.600
+mi fa pensare, ma al di là delle
+
+1723
+01:13:58.800 --> 01:14:06.199
+difficoltà pratiche a costruirli, ma non
+
+1724
+01:14:02.600 --> 01:14:08.760
+si potrebbero ipotizzare dei fili con al
+
+1725
+01:14:06.199 --> 01:14:11.760
+centro vuoti, diciamo, in cui c'è solo
+
+1726
+01:14:08.760 --> 01:14:15.639
+la corona, come fossero dei tubi, in
+
+1727
+01:14:11.760 --> 01:14:19.719
+modo che parità di materiale si potrebbe
+
+1728
+01:14:15.639 --> 01:14:22.760
+fare un, diciamo, la parte esterna più
+
+1729
+01:14:19.719 --> 01:14:24.199
+grande e quindi Perché la parte interna
+
+1730
+01:14:22.760 --> 01:14:25.639
+in realtà non servirebbe a niente ad
+
+1731
+01:14:24.199 --> 01:14:28.880
+altre frequenze, no?
+
+1732
+01:14:25.639 --> 01:14:30.440
+>> Sì. Potrebbe potrebbe esserci un vuoto.
+
+1733
+01:14:28.880 --> 01:14:34.600
+>> Sì, esatto. L'hai l'hai centrata in
+
+1734
+01:14:30.440 --> 01:14:36.760
+pieno. Allora, questa l'effetto pelle m
+
+1735
+01:14:34.600 --> 01:14:38.520
+siccome oggi il rame costa una cifra a
+
+1736
+01:14:36.760 --> 01:14:40.400
+causa delle delle speculazioni
+
+1737
+01:14:38.520 --> 01:14:42.760
+internazionali eccetera, ora ci sono
+
+1738
+01:14:40.400 --> 01:14:45.560
+molti cavi coassiali che sono fatti in
+
+1739
+01:14:42.760 --> 01:14:48.239
+alluminio che costa molto meno e quest e
+
+1740
+01:14:45.560 --> 01:14:51.360
+su questo alluminio è depositato poi uno
+
+1741
+01:14:48.239 --> 01:14:52.880
+strato di rame superficiale.
+
+1742
+01:14:51.360 --> 01:14:54.360
+Il cavo funziona bene perché
+
+1743
+01:14:52.880 --> 01:14:56.400
+>> oppure addirittura vuoto, invece
+
+1744
+01:14:54.360 --> 01:14:59.159
+dell'alluminio nulla. addirittura vuoto.
+
+1745
+01:14:56.400 --> 01:15:01.560
+Infatti ci sono dei cavio.
+
+1746
+01:14:59.159 --> 01:15:03.600
+>> Sì, infatti ci sono co, infatti ci sono
+
+1747
+01:15:01.560 --> 01:15:06.040
+dei cavi. Sì, sì, sì. Ci sono dei cavi
+
+1748
+01:15:03.600 --> 01:15:08.520
+che hanno il conduttore vuoto.
+
+1749
+01:15:06.040 --> 01:15:10.600
+>> Ah, ecco, vedi? Eh, perché poi usando lo
+
+1750
+01:15:08.520 --> 01:15:13.400
+stesso rame li fai,
+
+1751
+01:15:10.600 --> 01:15:17.480
+>> diciamo, di un diametro maggiore, quindi
+
+1752
+01:15:13.400 --> 01:15:18.880
+la parte esterna è utilizzabile, più è
+
+1753
+01:15:17.480 --> 01:15:20.600
+più grande.
+
+1754
+01:15:18.880 --> 01:15:23.440
+>> La parte interna in realtà sarebbe
+
+1755
+01:15:20.600 --> 01:15:24.560
+completamente inutile. Sarebbe rame rame
+
+1756
+01:15:23.440 --> 01:15:26.520
+sprecato.
+
+1757
+01:15:24.560 --> 01:15:29.320
+>> È completamente inutile. Esatto. E fra
+
+1758
+01:15:26.520 --> 01:15:31.400
+l'altro a causa di questi fenomeni, a
+
+1759
+01:15:29.320 --> 01:15:34.000
+causa dell'effetto pelle, fin
+
+1760
+01:15:31.400 --> 01:15:36.719
+dall'antichità, diciamo, mi riferisco
+
+1761
+01:15:34.000 --> 01:15:40.679
+1920 30 eccetera, dove questi fenomeni
+
+1762
+01:15:36.719 --> 01:15:42.440
+ero già noti, per evitare il problema
+
+1763
+01:15:40.679 --> 01:15:44.560
+della perdita nelle bobine causate
+
+1764
+01:15:42.440 --> 01:15:46.280
+dall'effetto pelle, fu inventato il
+
+1765
+01:15:44.560 --> 01:15:48.159
+filolitz che [sbuffare] non so se
+
+1766
+01:15:46.280 --> 01:15:51.000
+qualcuno di voi, magari amante del
+
+1767
+01:15:48.159 --> 01:15:55.000
+vintage lo conosce, cioè molte bobine
+
+1768
+01:15:51.000 --> 01:16:00.360
+delle radio di allora il erano fatte da
+
+1769
+01:15:55.000 --> 01:16:04.120
+Filiulizz Il filolit è un insieme in un
+
+1770
+01:16:00.360 --> 01:16:06.080
+cavo unico di una cinquantina di tre
+
+1771
+01:16:04.120 --> 01:16:08.520
+foli diversi, ciascuno isolato l'uno
+
+1772
+01:16:06.080 --> 01:16:10.320
+dall'altro.
+
+1773
+01:16:08.520 --> 01:16:12.320
+In pratica hanno detto, visto che il
+
+1774
+01:16:10.320 --> 01:16:15.560
+dentro è sprecato, facciamoli fili
+
+1775
+01:16:12.320 --> 01:16:16.840
+piccolissimi. Filo piccolissimo è usato
+
+1776
+01:16:15.560 --> 01:16:20.440
+quasi tutto, ma di questi fili
+
+1777
+01:16:16.840 --> 01:16:23.719
+piccolissimi mettiamo 20 40 50 in
+
+1778
+01:16:20.440 --> 01:16:25.960
+parallelo e si vede e diciamo nelle
+
+1779
+01:16:23.719 --> 01:16:27.719
+radio di epoca d'epoca ci sono queste
+
+1780
+01:16:25.960 --> 01:16:30.520
+queste uovine filolit che sono veramente
+
+1781
+01:16:27.719 --> 01:16:33.239
+belle a vedersi. Tra l'altro il filol è
+
+1782
+01:16:30.520 --> 01:16:35.400
+usato è costruito tutt'ora. E se cercate
+
+1783
+01:16:33.239 --> 01:16:36.960
+un po' su internet sicuramente lo lo
+
+1784
+01:16:35.400 --> 01:16:37.120
+trovate.
+
+1785
+01:16:36.960 --> 01:16:37.800
+Mh
+
+1786
+01:16:37.120 --> 01:16:40.400
+>> mh.
+
+1787
+01:16:37.800 --> 01:16:42.639
+>> Perché cioè è una legge della fisica che
+
+1788
+01:16:40.400 --> 01:16:45.040
+che l'effetto pelle, no? Quindi nessuno
+
+1789
+01:16:42.639 --> 01:16:48.520
+scappa.
+
+1790
+01:16:45.040 --> 01:16:50.639
+>> Ok, grazie. Niente.
+
+1791
+01:16:48.520 --> 01:16:54.440
+Allora, se non ci sono altre domande
+
+1792
+01:16:50.639 --> 01:16:57.800
+facciamo l'ultimo pezzettino di stasera
+
+1793
+01:16:54.440 --> 01:16:57.800
+e parliamo
+
+1794
+01:16:58.480 --> 01:17:02.800
+parliamo del trasformatore. Parliamo
+
+1795
+01:17:00.960 --> 01:17:04.600
+stasera parliamo del trasformatore
+
+1796
+01:17:02.800 --> 01:17:07.560
+perché il trasformatore è basato appunto
+
+1797
+01:17:04.600 --> 01:17:09.639
+sui campi magnetici, sull'induzione.
+
+1798
+01:17:07.560 --> 01:17:11.960
+Cos'è il trasformatore? Intanto è un
+
+1799
+01:17:09.639 --> 01:17:14.400
+dispositivo elettrico, un componente
+
+1800
+01:17:11.960 --> 01:17:17.239
+elettrico elettronico che è in grado di
+
+1801
+01:17:14.400 --> 01:17:20.400
+trasformare la tensione di una corrente
+
+1802
+01:17:17.239 --> 01:17:24.199
+alternata. Il simbolo elettrico è questo
+
+1803
+01:17:20.400 --> 01:17:24.199
+che vedete qua.
+
+1804
+01:17:26.600 --> 01:17:31.080
+Eh, praticamente è come il simbolo di
+
+1805
+01:17:28.639 --> 01:17:33.239
+due bobine. Immaginiamo che di queste
+
+1806
+01:17:31.080 --> 01:17:36.040
+due bobine una sia il primario che
+
+1807
+01:17:33.239 --> 01:17:39.320
+riceve ai suoi capi qua e qua una certa
+
+1808
+01:17:36.040 --> 01:17:41.840
+tensione, per esempio il 220 V. E da
+
+1809
+01:17:39.320 --> 01:17:43.880
+quest'altra parte il secondario, il
+
+1810
+01:17:41.840 --> 01:17:47.000
+trasformatore genera un'altra tensione
+
+1811
+01:17:43.880 --> 01:17:50.520
+che potrebbe essere 12 248. Quelle in
+
+1812
+01:17:47.000 --> 01:17:52.080
+qualche modo ci ci serve. Allora, come
+
+1813
+01:17:50.520 --> 01:17:53.719
+funziona il trasmettitore? funziona
+
+1814
+01:17:52.080 --> 01:17:55.880
+secondo il principio di faredai, cioè
+
+1815
+01:17:53.719 --> 01:17:58.120
+noi sappiamo che il campo il campo
+
+1816
+01:17:55.880 --> 01:18:00.239
+magnetico generato da un induttore
+
+1817
+01:17:58.120 --> 01:18:02.400
+percorso da un'alternata,
+
+1818
+01:18:00.239 --> 01:18:04.360
+quindi una corrente alternata è
+
+1819
+01:18:02.400 --> 01:18:06.800
+continuamente in divenire e
+
+1820
+01:18:04.360 --> 01:18:09.480
+continuamente in variazione.
+
+1821
+01:18:06.800 --> 01:18:11.679
+Genera quindi un campo magnetico
+
+1822
+01:18:09.480 --> 01:18:13.840
+alternato, quindi anche lui
+
+1823
+01:18:11.679 --> 01:18:16.159
+continuamente in variazione. Questo
+
+1824
+01:18:13.840 --> 01:18:18.960
+campo magnetico alternato, se si
+
+1825
+01:18:16.159 --> 01:18:21.520
+concatena in un altro induttore ci
+
+1826
+01:18:18.960 --> 01:18:24.679
+induce una tensione alternata. Lo schema
+
+1827
+01:18:21.520 --> 01:18:27.320
+semplificato è in qualche modo qua.
+
+1828
+01:18:24.679 --> 01:18:30.760
+Immaginiamo che questa bobina che vedete
+
+1829
+01:18:27.320 --> 01:18:33.199
+in alto sia il cosiddetto primario del
+
+1830
+01:18:30.760 --> 01:18:39.960
+trasformatore e a questa bobina siano
+
+1831
+01:18:33.199 --> 01:18:39.960
+attaccati i due fili del 220. D'accordo?
+
+1832
+01:18:54.639 --> 01:18:59.199
+Aiuto! Ho paura di
+
+1833
+01:18:55.960 --> 01:19:03.239
+>> È arrivata la famosa la famosaione. Ora
+
+1834
+01:18:59.199 --> 01:19:05.239
+22:51. Fateci caso. Eh,
+
+1835
+01:19:03.239 --> 01:19:08.679
+aspettiamo qualche secondo. Paolo si
+
+1836
+01:19:05.239 --> 01:19:11.679
+dovrebbe ri riconnettere. Un attimo di
+
+1837
+01:19:08.679 --> 01:19:11.679
+pazienza.
+
+1838
+01:19:12.079 --> 01:19:16.440
+[schiarire la voce]
+
+1839
+01:19:13.719 --> 01:19:19.040
+È l'ora di Paolo questa.
+
+1840
+01:19:16.440 --> 01:19:21.360
+Ma questa è una maledizione.
+
+1841
+01:19:19.040 --> 01:19:24.525
+>> Qualcuno ha lanciato ha lanciato una
+
+1842
+01:19:21.360 --> 01:19:24.560
+maledizione [risate] delle 22:51.
+
+1843
+01:19:24.525 --> 01:19:28.600
+[schiarire la voce]
+
+1844
+01:19:24.560 --> 01:19:29.280
+>> Eh sì, è qualcosa di simile. Eh sì, sì.
+
+1845
+01:19:28.600 --> 01:19:30.239
+Non non abbiamo
+
+1846
+01:19:29.280 --> 01:19:32.040
+>> c'è qualcuno che gli accende un
+
+1847
+01:19:30.239 --> 01:19:33.120
+trasformatore. Non è che qualcuno gli
+
+1848
+01:19:32.040 --> 01:19:35.920
+accende un trasformatore. È
+
+1849
+01:19:33.120 --> 01:19:38.120
+>> una cosa è una cosa strana, ma capita
+
+1850
+01:19:35.920 --> 01:19:42.280
+molto spesso verso quest'ora.
+
+1851
+01:19:38.120 --> 01:19:44.040
+Non so per quale motivo, eh, Paolo,
+
+1852
+01:19:42.280 --> 01:19:47.880
+infatti, vedete, si deve sganciare,
+
+1853
+01:19:44.040 --> 01:19:51.000
+riagganciare e poi va diritto fino a a
+
+1854
+01:19:47.880 --> 01:19:53.120
+domattina, ma a quest'ora non non si sa
+
+1855
+01:19:51.000 --> 01:19:53.520
+cosa succede.
+
+1856
+01:19:53.120 --> 01:19:55.880
+Spesso
+
+1857
+01:19:53.520 --> 01:19:58.080
+>> inizio, prego.
+
+1858
+01:19:55.880 --> 01:19:59.800
+>> Sì, scusa, volevo domandarti, ma come
+
+1859
+01:19:58.080 --> 01:20:03.600
+visto che attendiamo che che si
+
+1860
+01:19:59.800 --> 01:20:05.920
+ricollega e come si tolgono il i
+
+1861
+01:20:03.600 --> 01:20:10.320
+messaggi in tempo reale?
+
+1862
+01:20:05.920 --> 01:20:13.480
+Eh, quelli no eh brava. È una Allora, li
+
+1863
+01:20:10.320 --> 01:20:15.080
+puoi, diciamo, accantonare premendo la
+
+1864
+01:20:13.480 --> 01:20:17.560
+la
+
+1865
+01:20:15.080 --> 01:20:20.120
+>> cioè li puoi spostare in una finestra
+
+1866
+01:20:17.560 --> 01:20:22.880
+premendo la freccettina e quelli li
+
+1867
+01:20:20.120 --> 01:20:26.760
+sposti direttamente
+
+1868
+01:20:22.880 --> 01:20:29.679
+e diventa un'altra finestra. Provaci.
+
+1869
+01:20:26.760 --> 01:20:33.880
+>> Hai visto? C'è una freccia eh, sparisce,
+
+1870
+01:20:29.679 --> 01:20:37.159
+rimane Esatto, e ti si nasconde sotto,
+
+1871
+01:20:33.880 --> 01:20:39.159
+va come se diventasse un'altra finestra.
+
+1872
+01:20:37.159 --> 01:20:41.840
+>> Mh, però non si tolgono, eh
+
+1873
+01:20:39.159 --> 01:20:45.679
+>> non si tolgono. Eh, purtroppo non ho
+
+1874
+01:20:41.840 --> 01:20:48.000
+capito perché è ehm questa cosa qui gli
+
+1875
+01:20:45.679 --> 01:20:51.040
+anni passati non c'era. c'era la chat
+
+1876
+01:20:48.000 --> 01:20:52.560
+classica, ma era inter l'avevamo
+
+1877
+01:20:51.040 --> 01:20:56.199
+interdetta
+
+1878
+01:20:52.560 --> 01:20:59.120
+eh ai appunto ai corsisti per proprio
+
+1879
+01:20:56.199 --> 01:21:01.040
+per poter interagire eh come stiamo
+
+1880
+01:20:59.120 --> 01:21:02.120
+facendo adesso, alzando la mano eccetera
+
+1881
+01:21:01.040 --> 01:21:02.360
+eccetera. Va
+
+1882
+01:21:02.120 --> 01:21:04.800
+>> bene,
+
+1883
+01:21:02.360 --> 01:21:07.480
+>> questa nuova versione di Teams ha questa
+
+1884
+01:21:04.800 --> 01:21:09.520
+cosa qua, ecco, se vi succede la potete
+
+1885
+01:21:07.480 --> 01:21:11.280
+far diventare una finestra e poi
+
+1886
+01:21:09.520 --> 01:21:14.199
+nascondere. Ecco, questo sì.
+
+1887
+01:21:11.280 --> 01:21:17.440
+>> Ok, proviamo. Grazie. Prego, prego.
+
+1888
+01:21:14.199 --> 01:21:20.719
+>> Fateci un feedback voi se nel caso siano
+
+1889
+01:21:17.440 --> 01:21:23.000
+inutili o comunque invasivi, fatecelo
+
+1890
+01:21:20.719 --> 01:21:26.040
+sapere. Proviamo a disattivarli noi dal
+
+1891
+01:21:23.000 --> 01:21:26.840
+pannello di controllo,
+
+1892
+01:21:26.040 --> 01:21:28.400
+>> sperando di riuscir,
+
+1893
+01:21:26.840 --> 01:21:30.560
+>> però vengono disattivati per tutti,
+
+1894
+01:21:28.400 --> 01:21:32.920
+ovviamente.
+
+1895
+01:21:30.560 --> 01:21:34.880
+>> Eh, scusate, una prova al microfono se
+
+1896
+01:21:32.920 --> 01:21:36.120
+questa volta arrivo o meno, perché non
+
+1897
+01:21:34.880 --> 01:21:40.000
+so se arrivo.
+
+1898
+01:21:36.120 --> 01:21:42.000
+>> Oh, forte chiaro. Luca, benissimo.
+
+1899
+01:21:40.000 --> 01:21:44.800
+>> E allora ho tolto ho tolto cuffie, ho
+
+1900
+01:21:42.000 --> 01:21:47.320
+tolto tutto perché non funziona niente
+
+1901
+01:21:44.800 --> 01:21:50.360
+stasera. Non niente.
+
+1902
+01:21:47.320 --> 01:21:51.880
+>> Succede. Vai, alza la mano, poi dopo ti
+
+1903
+01:21:50.360 --> 01:21:54.199
+rispondiamo. Vai, Luca. Allora,
+
+1904
+01:21:51.880 --> 01:21:55.960
+>> va benissimo. Grazie. Grazie mille. Sono
+
+1905
+01:21:54.199 --> 01:21:59.120
+tornato. Comunque con questo microfono
+
+1906
+01:21:55.960 --> 01:22:02.120
+hai un audio perfetto, sicuramente.
+
+1907
+01:21:59.120 --> 01:22:04.080
+Allora,
+
+1908
+01:22:02.120 --> 01:22:06.560
+scusate, piccolo problema di linea, si
+
+1909
+01:22:04.080 --> 01:22:08.159
+stava parlando del trasformatore. Eh,
+
+1910
+01:22:06.560 --> 01:22:12.639
+stavo dicendo che appunto in un
+
+1911
+01:22:08.159 --> 01:22:15.120
+trasformatore ci sono appunto due due
+
+1912
+01:22:12.639 --> 01:22:18.040
+bobine
+
+1913
+01:22:15.120 --> 01:22:21.320
+e in qualche modo una bobina, la prima,
+
+1914
+01:22:18.040 --> 01:22:24.679
+è attaccata, quella chiamata primario, è
+
+1915
+01:22:21.320 --> 01:22:26.320
+attaccata di solito al 220, quindi alla
+
+1916
+01:22:24.679 --> 01:22:29.639
+alla tensione di base che noi vogliamo
+
+1917
+01:22:26.320 --> 01:22:31.199
+trasformare e questa genera un campo
+
+1918
+01:22:29.639 --> 01:22:33.600
+magnetico.
+
+1919
+01:22:31.199 --> 01:22:35.920
+Il 220, come sapete, è una frequenza di
+
+1920
+01:22:33.600 --> 01:22:37.840
+50 Hz, quindi questo campo magnetico
+
+1921
+01:22:35.920 --> 01:22:39.800
+varia in qualche modo 50 volte al
+
+1922
+01:22:37.840 --> 01:22:41.840
+secondo. [sbuffare] Questo campo
+
+1923
+01:22:39.800 --> 01:22:44.560
+magnetico generato dal primario in
+
+1924
+01:22:41.840 --> 01:22:46.679
+qualche modo si concatena, si concatena
+
+1925
+01:22:44.560 --> 01:22:48.480
+col secondario, l'altra bobina. Vedete
+
+1926
+01:22:46.679 --> 01:22:51.719
+che qua ci sono delle spire che dal
+
+1927
+01:22:48.480 --> 01:22:54.960
+primario passano al secondario, no?
+
+1928
+01:22:51.719 --> 01:22:57.199
+E diciamo a questo punto il secondario
+
+1929
+01:22:54.960 --> 01:22:59.760
+che è una bobina che non è alimentata,
+
+1930
+01:22:57.199 --> 01:23:02.040
+non è attaccata al 220, però riceve
+
+1931
+01:22:59.760 --> 01:23:04.120
+questo campo magnetico variabile
+
+1932
+01:23:02.040 --> 01:23:06.600
+variabile e come ci ha detto Faraday,
+
+1933
+01:23:04.120 --> 01:23:10.760
+siccome il campo magnetico è variabile
+
+1934
+01:23:06.600 --> 01:23:16.960
+lei ai suoi terminali di uscita
+
+1935
+01:23:10.760 --> 01:23:16.960
+eh presenterà una certa tensione
+
+1936
+01:23:17.320 --> 01:23:21.320
+indotta dal primario.
+
+1937
+01:23:21.440 --> 01:23:26.040
+Quindi il primario genera un campo
+
+1938
+01:23:23.800 --> 01:23:28.719
+magnetico. Questo campo magnetico viene
+
+1939
+01:23:26.040 --> 01:23:31.000
+in qualche modo concatenato sul
+
+1940
+01:23:28.719 --> 01:23:33.800
+secondario e questo campo magnetico
+
+1941
+01:23:31.000 --> 01:23:36.400
+induce sul secondario una tensione che
+
+1942
+01:23:33.800 --> 01:23:38.520
+appunto è chiamata indotta. Adesso
+
+1943
+01:23:36.400 --> 01:23:42.719
+questo disegno che vedete qua del
+
+1944
+01:23:38.520 --> 01:23:45.360
+trasformatore è molto eh schematizzato,
+
+1945
+01:23:42.719 --> 01:23:47.400
+no, della serie molto didattico con due
+
+1946
+01:23:45.360 --> 01:23:49.239
+bobine molto lontane l'una dall'altra.
+
+1947
+01:23:47.400 --> 01:23:53.000
+All' latto pratico succede che in un
+
+1948
+01:23:49.239 --> 01:23:54.760
+trasformatore che di solito ha un,
+
+1949
+01:23:53.000 --> 01:23:57.199
+diciamo, un confezionamento simile a
+
+1950
+01:23:54.760 --> 01:24:01.159
+questo, le due bobine che stanno qua nel
+
+1951
+01:23:57.199 --> 01:24:03.400
+mezzo sono avvolte una sull'altra e
+
+1952
+01:24:01.159 --> 01:24:07.080
+diciamo in e sono in qualche modo
+
+1953
+01:24:03.400 --> 01:24:09.480
+impacchettate in un nucleo di materiale
+
+1954
+01:24:07.080 --> 01:24:11.760
+ferromagnetico che è questa carcassona
+
+1955
+01:24:09.480 --> 01:24:14.400
+che vedete qua.
+
+1956
+01:24:11.760 --> 01:24:16.920
+Tutto questo fa sì che di fatto tutto il
+
+1957
+01:24:14.400 --> 01:24:19.880
+campo magnetico generato dal primario si
+
+1958
+01:24:16.920 --> 01:24:21.880
+concatena col secondario e quindi il
+
+1959
+01:24:19.880 --> 01:24:23.920
+trasformatore di solito è una macchina
+
+1960
+01:24:21.880 --> 01:24:25.239
+elettrica abbastanza efficiente, cioè ha
+
+1961
+01:24:23.920 --> 01:24:28.719
+pochissime perdite. Un buon
+
+1962
+01:24:25.239 --> 01:24:31.520
+trasformatore ha un rendimento del 95%
+
+1963
+01:24:28.719 --> 01:24:33.159
+o cosa di questo tipo. Quindi c'è un
+
+1964
+01:24:31.520 --> 01:24:36.560
+primario
+
+1965
+01:24:33.159 --> 01:24:39.880
+riassumendo, un trasformatore di base a
+
+1966
+01:24:36.560 --> 01:24:39.880
+due avvolgimenti.
+
+1967
+01:24:40.600 --> 01:24:45.840
+sono chiamati primario e secondario. Il
+
+1968
+01:24:43.040 --> 01:24:48.320
+primario è l'ingresso del trasformatore.
+
+1969
+01:24:45.840 --> 01:24:50.280
+Solitamente è il 220, ma non è detto. A
+
+1970
+01:24:48.320 --> 01:24:52.080
+volte ci sono trasformatori interni che
+
+1971
+01:24:50.280 --> 01:24:53.560
+hanno primari diversi, però normalmente
+
+1972
+01:24:52.080 --> 01:24:56.000
+il tret trasformatore classico è un
+
+1973
+01:24:53.560 --> 01:24:58.600
+ingresso a 220
+
+1974
+01:24:56.000 --> 01:25:00.679
+e il secondario è un'uscita a una
+
+1975
+01:24:58.600 --> 01:25:03.239
+tensione che vogliamo noi. Per esempio
+
+1976
+01:25:00.679 --> 01:25:06.119
+un 12 V si compra un trasformatore,
+
+1977
+01:25:03.239 --> 01:25:07.960
+ingresso 220, uscita 12. Il primario e
+
+1978
+01:25:06.119 --> 01:25:12.080
+il secondario, come leggete qua, sono
+
+1979
+01:25:07.960 --> 01:25:14.920
+avvolti su un nucleo ferro magnetico.
+
+1980
+01:25:12.080 --> 01:25:17.560
+Questo nucleo concatena il flusso
+
+1981
+01:25:14.920 --> 01:25:19.760
+provocato generato dal primario, lo
+
+1982
+01:25:17.560 --> 01:25:22.760
+concatena totalmente sul secondario,
+
+1983
+01:25:19.760 --> 01:25:24.920
+disperdendone pochissimo.
+
+1984
+01:25:22.760 --> 01:25:27.280
+A causa di questa dispersione veramente
+
+1985
+01:25:24.920 --> 01:25:29.360
+molto bassa, si considera che il
+
+1986
+01:25:27.280 --> 01:25:32.000
+rendimento del trasformatore sia del
+
+1987
+01:25:29.360 --> 01:25:34.159
+100%. si ipotizza che il rendimento del
+
+1988
+01:25:32.000 --> 01:25:36.159
+trasformatore sia il 100%, cioè che la
+
+1989
+01:25:34.159 --> 01:25:38.119
+potenza che entra nel primario esca
+
+1990
+01:25:36.159 --> 01:25:40.280
+tutta dal secondario. Se un
+
+1991
+01:25:38.119 --> 01:25:43.400
+trasformatore è buono, questa questa
+
+1992
+01:25:40.280 --> 01:25:46.880
+ipotesi sostanzialmente è verificata.
+
+1993
+01:25:43.400 --> 01:25:49.040
+Allora, un trasformatore ovviamente ha
+
+1994
+01:25:46.880 --> 01:25:50.719
+un rapporto di trasformazione. Il
+
+1995
+01:25:49.040 --> 01:25:53.920
+trasformatore diciamo che è una macchina
+
+1996
+01:25:50.719 --> 01:25:56.040
+lineare. Il rapporto di trasformazione
+
+1997
+01:25:53.920 --> 01:25:57.880
+è dato dal rapporto fra le spire del
+
+1998
+01:25:56.040 --> 01:26:00.000
+primario e del secondario. Immaginiamo
+
+1999
+01:25:57.880 --> 01:26:03.320
+che sul secondario, sul primario,
+
+2000
+01:26:00.000 --> 01:26:08.080
+scusate, ho 100 spire
+
+2001
+01:26:03.320 --> 01:26:10.639
+e nel secondario ne ho 10.
+
+2002
+01:26:08.080 --> 01:26:12.880
+Eh, succede, scusate, questo 10 un po'
+
+2003
+01:26:10.639 --> 01:26:16.960
+scarabocchiato, ma comunque è un 10,
+
+2004
+01:26:12.880 --> 01:26:19.760
+d'accordo? Allora, succede che se io nel
+
+2005
+01:26:16.960 --> 01:26:21.960
+mio trasformatore entro col 220 V
+
+2006
+01:26:19.760 --> 01:26:25.480
+dell'Enel, avendo un rapporto spire di
+
+2007
+01:26:21.960 --> 01:26:28.400
+10 a 1, quindi ho 100 spire rispetto a
+
+2008
+01:26:25.480 --> 01:26:31.440
+10, un rapporto di 10 a 1, la tensione
+
+2009
+01:26:28.400 --> 01:26:34.000
+di uscita sarà un decimo, ovvero pari al
+
+2010
+01:26:31.440 --> 01:26:37.000
+al rapporto spire. Quindi se entro con
+
+2011
+01:26:34.000 --> 01:26:37.000
+con
+
+2012
+01:26:38.639 --> 01:26:46.400
+se io ho di qua 100 spire e diciamo sul
+
+2013
+01:26:43.520 --> 01:26:49.159
+secondario ne ho ne ho 50, quindi la
+
+2014
+01:26:46.400 --> 01:26:51.560
+metà, la tensione in uscita sarà la metà
+
+2015
+01:26:49.159 --> 01:26:53.880
+di quella del primario
+
+2016
+01:26:51.560 --> 01:26:56.040
+e quindi il meccanismo è assolutamente
+
+2017
+01:26:53.880 --> 01:26:59.199
+lineare. Allora, c'è un rapporto di
+
+2018
+01:26:56.040 --> 01:27:01.920
+trasformazione che è chiamato con la
+
+2019
+01:26:59.199 --> 01:27:05.239
+lettera K che è il rapporto. Questi due
+
+2020
+01:27:01.920 --> 01:27:07.000
+punti sta per un diviso fra numero di
+
+2021
+01:27:05.239 --> 01:27:09.400
+spire primario diviso numero spire
+
+2022
+01:27:07.000 --> 01:27:11.560
+secondario. Questo stesso tipo di
+
+2023
+01:27:09.400 --> 01:27:14.040
+rapporto, come avete visto in questi
+
+2024
+01:27:11.560 --> 01:27:16.080
+esempi che ho fatto, è il rapporto che
+
+2025
+01:27:14.040 --> 01:27:19.600
+c'è fra la tensione di ingresso e la
+
+2026
+01:27:16.080 --> 01:27:19.600
+tensione di uscita.
+
+2027
+01:27:22.280 --> 01:27:26.320
+Volendo da questo, diciamo, se se voglio
+
+2028
+01:27:24.880 --> 01:27:29.000
+risolvere in un altro modo, questa
+
+2029
+01:27:26.320 --> 01:27:30.679
+stessa formula qui, K = tensione di
+
+2030
+01:27:29.000 --> 01:27:33.040
+ingresso, tensione d'uscita, la posso
+
+2031
+01:27:30.679 --> 01:27:34.400
+scrivere così, cioè la tensione di
+
+2032
+01:27:33.040 --> 01:27:37.119
+uscita è uguale alla tensione di
+
+2033
+01:27:34.400 --> 01:27:40.440
+ingresso diviso il mio rapporto di
+
+2034
+01:27:37.119 --> 01:27:44.400
+trasformazione. Vediamo questa cosa con
+
+2035
+01:27:40.440 --> 01:27:48.560
+qualche esempio barre esercizio.
+
+2036
+01:27:44.400 --> 01:27:51.159
+Un trasformatore ha un primario di 500
+
+2037
+01:27:48.560 --> 01:27:51.159
+spire.
+
+2038
+01:27:51.639 --> 01:27:57.760
+è un secondario di 25 spire. Qual è il
+
+2039
+01:27:54.880 --> 01:28:00.320
+suo rapporto di trasformazione? È 500 /
+
+2040
+01:27:57.760 --> 01:28:03.000
+25. Quindi questo trasformatore ha un
+
+2041
+01:28:00.320 --> 01:28:06.600
+rapporto di trasformazione
+
+2042
+01:28:03.000 --> 01:28:10.320
+k 20. Quindi in uscita avrò un vesimo
+
+2043
+01:28:06.600 --> 01:28:13.119
+della tensione in ingresso. Se io ci
+
+2044
+01:28:10.320 --> 01:28:18.239
+inserisco un 220 avrò un vento di 20,
+
+2045
+01:28:13.119 --> 01:28:21.880
+cioè 11 V. Se io ci inserissi 100 V avrò
+
+2046
+01:28:18.239 --> 01:28:23.920
+un vento di 100, cioè 5 V. D'accordo? È
+
+2047
+01:28:21.880 --> 01:28:26.280
+proprio proporzionale. La stessa
+
+2048
+01:28:23.920 --> 01:28:28.440
+proporzione che c'è fra numero di spire
+
+2049
+01:28:26.280 --> 01:28:30.000
+primario e numero di spire secondario è
+
+2050
+01:28:28.440 --> 01:28:31.440
+proprio la stessa proporzione fra
+
+2051
+01:28:30.000 --> 01:28:33.000
+tensione in ingresso e tensione in
+
+2052
+01:28:31.440 --> 01:28:35.000
+uscita.
+
+2053
+01:28:33.000 --> 01:28:37.639
+E quindi, appunto, qua vedete in questa
+
+2054
+01:28:35.000 --> 01:28:40.440
+seconda parte di questo esempio, se si
+
+2055
+01:28:37.639 --> 01:28:42.320
+applica sul primario una tensione di 220
+
+2056
+01:28:40.440 --> 01:28:44.400
+V, che tensione avremo sul secondario in
+
+2057
+01:28:42.320 --> 01:28:47.400
+uscita? si prende la tensione di
+
+2058
+01:28:44.400 --> 01:28:53.880
+ingresso win e la si divide per K, cioè
+
+2059
+01:28:47.400 --> 01:28:56.960
+per 20. 220 V / 20 e il la tensione in
+
+2060
+01:28:53.880 --> 01:28:58.760
+uscita è di 11 V.
+
+2061
+01:28:56.960 --> 01:29:00.360
+Notate un'ultima cosa su un
+
+2062
+01:28:58.760 --> 01:29:02.119
+trasformatore
+
+2063
+01:29:00.360 --> 01:29:07.159
+e
+
+2064
+01:29:02.119 --> 01:29:09.040
+ne parliamo qua. Si si diceva che eh un
+
+2065
+01:29:07.159 --> 01:29:11.000
+trasformatore è una macchina elettrica
+
+2066
+01:29:09.040 --> 01:29:12.480
+quasi ideale, ha un rendimento molto
+
+2067
+01:29:11.000 --> 01:29:14.159
+buono, quindi si immagina che il
+
+2068
+01:29:12.480 --> 01:29:18.119
+rendimento del trasformatore sia del
+
+2069
+01:29:14.159 --> 01:29:21.520
+100%, quindi la potenza che entra esce.
+
+2070
+01:29:18.119 --> 01:29:23.480
+Allora, se in ingresso,
+
+2071
+01:29:21.520 --> 01:29:25.360
+se il trasformatore
+
+2072
+01:29:23.480 --> 01:29:29.080
+eh diciamo ha questo rapporto di
+
+2073
+01:29:25.360 --> 01:29:31.960
+trasformazione di 20 e la tensione di
+
+2074
+01:29:29.080 --> 01:29:34.239
+uscita, come vedete qua, è di un vento
+
+2075
+01:29:31.960 --> 01:29:35.960
+di quella di ingresso, quale sarà il
+
+2076
+01:29:34.239 --> 01:29:38.360
+rapporto di trasformazione delle
+
+2077
+01:29:35.960 --> 01:29:39.840
+correnti?
+
+2078
+01:29:38.360 --> 01:29:42.760
+Il rapporto di trasformazione delle
+
+2079
+01:29:39.840 --> 01:29:45.159
+correnti è opposto, nel senso che un
+
+2080
+01:29:42.760 --> 01:29:47.960
+trasformatore che è il primario a 220 V,
+
+2081
+01:29:45.159 --> 01:29:49.600
+il secondario a 22 V, se nel primario,
+
+2082
+01:29:47.960 --> 01:29:52.960
+quindi questo ha un rapporto di
+
+2083
+01:29:49.600 --> 01:29:55.280
+trasformazione di 10,
+
+2084
+01:29:52.960 --> 01:29:56.880
+se nel primario scorre una corrente di 1
+
+2085
+01:29:55.280 --> 01:30:00.840
+amp,
+
+2086
+01:29:56.880 --> 01:30:03.840
+che corrente scorrerà nel secondario?
+
+2087
+01:30:00.840 --> 01:30:05.480
+Sul primario,
+
+2088
+01:30:03.840 --> 01:30:07.239
+ci rinfreschiamo un po' la memoria su
+
+2089
+01:30:05.480 --> 01:30:11.560
+queste formule. si era detto che la
+
+2090
+01:30:07.239 --> 01:30:15.679
+tensione è vale P = V * I. Quindi sul
+
+2091
+01:30:11.560 --> 01:30:17.840
+primario io ho i 220 V, eccoli qua, e
+
+2092
+01:30:15.679 --> 01:30:20.800
+una corrente di 1 amp, eccola qua.
+
+2093
+01:30:17.840 --> 01:30:24.600
+Quindi sul primario del trasformatore ho
+
+2094
+01:30:20.800 --> 01:30:27.159
+una potenza di 220 W, quindi il primario
+
+2095
+01:30:24.600 --> 01:30:29.119
+assorbe della rete Enel 220 W di
+
+2096
+01:30:27.159 --> 01:30:32.199
+potenza.
+
+2097
+01:30:29.119 --> 01:30:35.159
+Siccome il trasformatore è una macchina
+
+2098
+01:30:32.199 --> 01:30:37.199
+con rendimento 100%, che corrente avrò
+
+2099
+01:30:35.159 --> 01:30:39.719
+sul secondario? Sul secondario avrò
+
+2100
+01:30:37.199 --> 01:30:42.920
+comunque gli stessi 220 W che ho in
+
+2101
+01:30:39.719 --> 01:30:45.280
+ingresso perché il rendimento è pari a 1
+
+2102
+01:30:42.920 --> 01:30:48.840
+al 100%.
+
+2103
+01:30:45.280 --> 01:30:52.080
+Diviso 22 V che è la tensione di di
+
+2104
+01:30:48.840 --> 01:30:54.639
+uscita e quindi avrò una corrente di 10
+
+2105
+01:30:52.080 --> 01:30:57.280
+amp.
+
+2106
+01:30:54.639 --> 01:30:59.000
+>> Ma alternata o continua?
+
+2107
+01:30:57.280 --> 01:31:00.600
+inalternata.
+
+2108
+01:30:59.000 --> 01:31:04.119
+Bravo, questa è una cosa che non vi ho
+
+2109
+01:31:00.600 --> 01:31:06.440
+detto. Un trasformatore lavora solo in
+
+2110
+01:31:04.119 --> 01:31:09.360
+tensione alternata, è in corrente
+
+2111
+01:31:06.440 --> 01:31:12.000
+alternata,
+
+2112
+01:31:09.360 --> 01:31:14.040
+perché per funzionare ha bisogno,
+
+2113
+01:31:12.000 --> 01:31:16.159
+torniamo al nostro farai dai da cui
+
+2114
+01:31:14.040 --> 01:31:18.840
+abbiamo iniziato la chiacchierata di
+
+2115
+01:31:16.159 --> 01:31:20.320
+stasera. La corrente indotta ce
+
+2116
+01:31:18.840 --> 01:31:23.040
+l'abbiamo solamente se c'è una
+
+2117
+01:31:20.320 --> 01:31:25.400
+variazione del del flusso magnetico, del
+
+2118
+01:31:23.040 --> 01:31:28.760
+campo magnetico e questa variazione c'è
+
+2119
+01:31:25.400 --> 01:31:32.040
+solamente in alternata. Un trasformatore
+
+2120
+01:31:28.760 --> 01:31:34.000
+in continua non funziona. Non funziona.
+
+2121
+01:31:32.040 --> 01:31:36.960
+È un componente che opera soltanto in
+
+2122
+01:31:34.000 --> 01:31:39.960
+tensione alternata o corrente alternata.
+
+2123
+01:31:36.960 --> 01:31:39.960
+Ok?
+
+2124
+01:31:40.760 --> 01:31:46.560
+E se ho il trasformatore, torno qua e
+
+2125
+01:31:44.000 --> 01:31:48.440
+con questo più o meno concludo, se ho un
+
+2126
+01:31:46.560 --> 01:31:52.320
+trasformatore
+
+2127
+01:31:48.440 --> 01:31:54.480
+che eh come in questo esempio, questo ho
+
+2128
+01:31:52.320 --> 01:31:56.040
+chiamato un trasformatore in discesa,
+
+2129
+01:31:54.480 --> 01:31:59.159
+nel senso che c'è una tensione di
+
+2130
+01:31:56.040 --> 01:32:02.320
+ingresso di 22 V, si scende a una
+
+2131
+01:31:59.159 --> 01:32:04.639
+tensione di 11 V.
+
+2132
+01:32:02.320 --> 01:32:06.840
+Siccome la potenza di ingresso, siccome
+
+2133
+01:32:04.639 --> 01:32:10.520
+la potenza del primario, del secondario
+
+2134
+01:32:06.840 --> 01:32:13.639
+è uguale, se la tensione, come in questo
+
+2135
+01:32:10.520 --> 01:32:16.800
+esempio, mi cala di 20 V, la corrente mi
+
+2136
+01:32:13.639 --> 01:32:21.080
+aumenta di 20 V. Quindi, se sul primario
+
+2137
+01:32:16.800 --> 01:32:23.000
+avessi una corrente di 1 amp, sul
+
+2138
+01:32:21.080 --> 01:32:25.119
+secondario questa corrente mi diventa di
+
+2139
+01:32:23.000 --> 01:32:28.000
+20 amp
+
+2140
+01:32:25.119 --> 01:32:32.440
+deve fare sempre v.
+
+2141
+01:32:28.000 --> 01:32:35.400
+I è sempre V * I, quindi primario 220 V
+
+2142
+01:32:32.440 --> 01:32:37.360
+moltiplicato 1 amp
+
+2143
+01:32:35.400 --> 01:32:41.199
+e fa 220.
+
+2144
+01:32:37.360 --> 01:32:43.199
+Se su secondario ho 22 V,
+
+2145
+01:32:41.199 --> 01:32:45.600
+lo devo moltiplicare per forza per 10
+
+2146
+01:32:43.199 --> 01:32:47.840
+per avere gli stessi 220. Quindi vedete
+
+2147
+01:32:45.600 --> 01:32:51.960
+che questo trasformatore
+
+2148
+01:32:47.840 --> 01:32:56.920
+in discesa mi diminuisce la tensione. Da
+
+2149
+01:32:51.960 --> 01:33:01.040
+220 si va a 11.
+
+2150
+01:32:56.920 --> 01:33:04.040
+ma di uno stesso fattore 20 aumenta la
+
+2151
+01:33:01.040 --> 01:33:04.040
+corrente
+
+2152
+01:33:05.400 --> 01:33:11.400
+perché = v deve funzionare sia sul
+
+2153
+01:33:09.239 --> 01:33:14.119
+primario che sul secondario del
+
+2154
+01:33:11.400 --> 01:33:17.280
+trasformatore.
+
+2155
+01:33:14.119 --> 01:33:19.159
+E questo sul trasformatore è è tutto.
+
+2156
+01:33:17.280 --> 01:33:20.920
+Torno un attimo indietro. Quindi
+
+2157
+01:33:19.159 --> 01:33:22.600
+trasformatore ha un primario e un
+
+2158
+01:33:20.920 --> 01:33:25.520
+secondario,
+
+2159
+01:33:22.600 --> 01:33:27.400
+funziona solo in alternata perché ci
+
+2160
+01:33:25.520 --> 01:33:30.000
+deve perché solamente una corrente
+
+2161
+01:33:27.400 --> 01:33:31.960
+alternata mi può indurre una corrente
+
+2162
+01:33:30.000 --> 01:33:34.000
+nel secondario.
+
+2163
+01:33:31.960 --> 01:33:36.040
+Il rapporto fra la tensione in ingresso
+
+2164
+01:33:34.000 --> 01:33:38.040
+e la tensione di uscita è pari al
+
+2165
+01:33:36.040 --> 01:33:41.440
+rapporto fra le spire del primario e le
+
+2166
+01:33:38.040 --> 01:33:41.440
+spire del secondario.
+
+2167
+01:33:43.040 --> 01:33:47.440
+La corrente si calcola, l'eventuale
+
+2168
+01:33:45.639 --> 01:33:50.719
+corrente si calcola di conseguenza
+
+2169
+01:33:47.440 --> 01:33:52.840
+sapendo che la la potenza sul primario è
+
+2170
+01:33:50.719 --> 01:33:55.320
+uguale alla potenza del secondario. E
+
+2171
+01:33:52.840 --> 01:33:59.080
+questo è tutto quello che c'è da sapere
+
+2172
+01:33:55.320 --> 01:34:01.119
+del trasformatore.
+
+2173
+01:33:59.080 --> 01:34:03.960
+E per stasera non ci sono altri
+
+2174
+01:34:01.119 --> 01:34:05.040
+argomenti a voi per domande.
+
+2175
+01:34:03.960 --> 01:34:10.119
+Possiamo anche staccare la
+
+2176
+01:34:05.040 --> 01:34:14.920
+registrazione. E Gianfranco a te.
+
+2177
+01:34:10.119 --> 01:34:14.920
+>> Grazie. Eh domanda. La lo

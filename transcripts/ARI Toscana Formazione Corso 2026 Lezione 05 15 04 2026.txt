@@ -1,0 +1,2359 @@
+00:00 Allora, stasera parliamo del condense.
+00:02 >> Perfetto. Grazie. Stasera parliamo del
+00:05 condensatore che è un l'altro componente
+00:09 passivo classico che ci mancava. Anche i
+00:11 condensatori, come vedremo, sono
+00:13 usatissimi in tutto il mondo elettronico
+00:15 e vedrete che il condensatore ha molti
+00:17 punti di sintonia,
+00:19 di contatto, diciamo, con gli induttori
+00:22 che abbiamo visto la scorsa settimana.
+00:24 Quindi molte cose saranno molto facili
+00:26 da da inquadrare. E poi parleremo
+00:28 dell'impedenza e della potenza in
+00:30 corrente alternata. Allora, il
+00:31 condensatore, quando pensate a un
+00:33 condensatore, pensate a un secchio, a un
+00:36 secchio vuoto. Quando mercoledì scorso
+00:41 abbiamo parlato dell'induttore,
+00:42 l'induttore credo che lo abbiamo
+00:44 visualizzato tutti quanti con quelle
+00:46 foto che c'erano con delle serie con una
+00:49 bobina, un certo numero di spire su un
+00:52 nucleo magnetico e quindi una specie di
+00:54 elettrocalamita che quando scorre
+00:57 corrente elettrica genera campo
+00:59 magnetico. Il condensatore invece lavora
+01:02 sulle cariche elettriche e sul campo
+01:04 elettrico ed è di fatto un serbatoio che
+01:07 quando lo prendiamo è vuoto, non
+01:09 contiene cariche elettriche e lo
+01:11 possiamo riempire buttandoci dentro una
+01:13 certa quantità di cariche elettriche. Un
+01:16 condensatore può in teoria un
+01:19 condensatore ideale senza perdite, se io
+01:21 lo riempissi di carica elettrica e e lo
+01:24 riguardassi dopo 24-48 ore, ci troverei
+01:27 dentro esattamente quella stessa carica
+01:29 elettrica. se non avesse perdite. In
+01:31 realtà un po' di perdite ce l'ha, quindi
+01:33 la carica un po' si eh diciamo come
+01:35 accade anche nei serbatoi veri, no?
+01:37 Magari c'è un po' di evacorazione, se si
+01:39 parla di acqua, magari c'è qualche
+01:41 perdita e poi il livello cala, no? Però
+01:43 tutto sommato il meccanismo è lo stesso.
+01:46 Quindi è un componente, come vedete in
+01:47 questa slide, che accumula carica
+01:49 elettrica quando è connesso a un
+01:51 generatore. Il generatore può essere una
+01:53 batteria, la normale batterietta da 9 V.
+01:56 Se io lo attacco al al condensatore, il
+01:58 condensatore eh acquisisce una certa
+02:01 quantità di carica e anche la tensione
+02:03 ai capi del condensatore va ai 9 V della
+02:07 mia batteria.
+02:08 Come'è fatto un condensatore? Questo
+02:10 serbatoio è fatto da due piastre
+02:13 conduttive, come vedete qua, che sono
+02:15 separate da un da un materiale isolante,
+02:19 sono isolate l'una dall'altra. Questo
+02:21 materiale isolante è chiamato T
+02:23 elettrico
+02:24 e può essere un qualche tipo di plastica
+02:27 o cose del genere, semplicemente cura
+02:30 che le due piastre non siano in
+02:31 contatto. La vedete qua in questa
+02:33 figura, no? Ci sono queste piastre,
+02:35 questa di sopra che è una superficie
+02:36 Speculare
+02:39 ce n'è una di sotto, la piastra
+02:41 inferiore, separate l'una dall'altra. lo
+02:45 strato di questo eh isolante che le
+02:48 separa è alto una certa distanza di e
+02:51 questa è la struttura base di un
+02:52 condensatore. Cioè il nostro secchio di
+02:54 cariche è fatto proprio da due piastre
+02:56 conduttive che non si toccano,
+02:58 altrimenti il condensatore sarebbe in
+03:00 corto circuito, ma sono affacciate l'una
+03:03 all'altra e quando
+03:06 al nostro condensatore attacchiamo la
+03:08 batteria, questa piletta da 9 V di cui
+03:11 parlavo prima, cosa succede? Succede
+03:13 anzitutto che il condensatore si carica,
+03:16 quindi la batteria da 9 V, il polo
+03:18 positivo ha una certa quantità di
+03:20 cariche positive, il polo negativo è
+03:22 ricco di elettroni, quindi cariche
+03:24 negative.
+03:26 eh dal polo negativo eh questi elettroni
+03:29 vanno sull'armatura negativa, diciamo, a
+03:33 questo punto del condensatore e su
+03:35 quest'armatura mi si distribuiscono pian
+03:38 pianino e tutti gli elettroni che
+03:40 possono entrare su questa su questa
+03:42 piastrina di metallo e mi vengono
+03:44 mandati appunto dalla dalla mia
+03:46 batteria. sull'altra armatura, quella
+03:49 che, come vedete qua, è positiva e
+03:52 diciamo si accumulano cariche positive,
+03:54 cioè carenza, diciamo, di elettroni. Gli
+03:57 elettroni se ne vanno perché sono andati
+03:59 sull'altra carica.
+04:01 Il fatto di avere cariche negative qua e
+04:05 cariche positive qua fa sì che nel
+04:07 condensatore si sviluppi un campo
+04:08 elettrico che si visualizza con queste
+04:10 frecce
+04:12 se che semplicemente vanno dall'armatura
+04:14 positiva all'armatura negativa del
+04:16 condensatore. Avevamo visto delovedì
+04:19 scorso che un induttore generava un
+04:21 campo magnetico, che c'erano tutte le
+04:23 spire, tutte le linee di forza del campo
+04:25 magnetico, no? che come abbiamo visto
+04:28 nelle slide, appunto, del mercoledì
+04:29 scorso, qui il campo elettrico interno
+04:33 al condensatore è molto semplice, è
+04:35 proprio una serie di eh linee parallele
+04:39 che vanno dal polo positivo al polo
+04:41 negativo del del condensatore.
+04:46 Che effetto ha se invece di fare un
+04:48 condensatore, come si dice, in aria,
+04:52 cioè in questo modo qua, le due armature
+04:55 che si affacciano, ma nel mezzo non c'è
+04:58 niente, aria oppure anche vuoto, se
+05:00 preferite,
+05:03 ad un condensatore che invece ha un
+05:05 dielettrico, come vedete qua questa
+05:08 parte in verde, no? il famoso
+05:09 dielettrico. Allora, il dielettrico ha
+05:11 l'effetto di aumentare la capacità del
+05:14 condensatore, cioè aumentare la capacità
+05:18 di riemp di acquisire carica del
+05:21 condensatore. Continuando a parlare di
+05:23 secchi, il dielettrico fa sì che il
+05:25 secchio diventi più grande, cioè nello
+05:27 stesso condensatore con il dielettrico
+05:29 posso mettere più cariche. E perché
+05:32 succede questo?
+05:33 Perché eh se noi di elettrico,
+05:38 diciamo, questa figura che vedete qua a
+05:41 sinistra, la la mia batteria manda qua
+05:44 una quantità di cariche eh negative
+05:50 e di qua, di conseguenza abbiamo delle
+05:52 cariche positive finché
+05:56 e a causa di queste cariche sul mio
+05:58 condensatore
+06:00 trovo esattamente la tensione della
+06:02 batteria. via, diciamo i 9 volte di cui
+06:04 si parlava. Nel momento in cui metto il
+06:06 di elettrico, siccome il di elettrico è
+06:09 praticamente appoggiato alle alle
+06:11 lamine, come abbiamo visto qua, vedete
+06:14 che il di elettrico è proprio come se
+06:16 fosse un sandwich,
+06:19 vedete qua, no? è un sandwich
+06:22 e il dialettrico si può dire che è
+06:24 comprastre
+06:27 conduttive dell'armatore del
+06:29 condensatore che si chiamano armature.
+06:31 Le armature del condensatore.
+06:34 Succede che nel momento in cui sulle
+06:37 armature del condensatore
+06:40 si
+06:41 si accumula una certa carica, il
+06:43 dielettrico a sua volta si polarizza,
+06:45 cioè gli atomi di questo materiale
+06:47 isolante si deformano un po' in modo che
+06:51 la parte positiva dell'atomo
+06:54 viene attirata dalla carica negativa e
+06:57 quindi si avvicina alla superficie del T
+07:01 elettrico. Il fatto che così facendo
+07:02 vengono a esserci delle cariche qua
+07:04 positive e qua negative molto vicine fa
+07:07 sì che queste cariche se non si
+07:09 neutralizzano l'una con l'altra e a
+07:11 causa di questa neutralizzazione
+07:14 il il generatore può inserire nel
+07:18 condensatore
+07:19 eh una quantità di carica maggiore.
+07:24 Il dielettrico poi, come vedete qui, ha
+07:26 anche due altri effetti. Eh, il primo è
+07:31 che provoca
+07:33 una corrente di fuga.
+07:36 Parlavamo parlavo prima di perdite, no?
+07:39 un dielettrico, anche un buon materiale
+07:41 plastico, eh, un pochino si fa comunque
+07:43 sempre attraversare da una corrente
+07:45 magari debolissima, ma comunque un
+07:47 minimo di corrente e quindi eh c'è un
+07:51 minimo di corrente che dopo un certo
+07:53 arco di tempo tende pian pianino a
+07:55 scaricare il condensatore e poi, come
+07:57 tutti gli elettrici, impone una tensione
+07:59 massima di lavoro. La tensione massima
+08:01 di lavoro ce l'ha anche il condensatore
+08:03 in aria, come vedete qua, perché vi
+08:06 immaginate che se la differenza di
+08:10 potenziale fra queste due armature del
+08:13 condensatore diventa molto molto alta, a
+08:15 un certo punto qua scopre una scintilla.
+08:19 Tenete presente che la la
+08:22 eh la resistenza di elettrica dell'aria,
+08:25 come si come si chiama questo parametro,
+08:27 che non fa parte del programma d'esame e
+08:29 dell'ordine, mi pare, sui 2000 ohm 2000
+08:32 V per cm, quindi un condensatore in aria
+08:35 spesso con uno strato di elettrico di,
+08:38 scusate, ricomincio.
+08:40 Eh, ho detto un numero sbagliato. Stavo
+08:43 dicendo la resistenza di elettrica
+08:44 dell'aria è di circa 2000 V per millim.
+08:48 Quindi se l'aria è secca uno strato di
+08:51 aria eh viene perforato solo se viene
+08:55 perforato da una scintilla solo se la
+08:58 differenza di potenziale fra le armature
+09:01 supera 2000 V circa. Circa. Lo stesso
+09:04 succede con qualunque tipo di viel
+09:06 elettrico plastico, cioè esiste una
+09:07 tensione massima. Se si supera quella,
+09:11 il condensatore eh va in cortoocircuito,
+09:13 scocca una scintilla.
+09:15 Tant'è che sui condensatori, poi ve lo
+09:18 farò vedere, si legge una tensione
+09:20 massima di lavoro. Allora, come come
+09:24 avevamo fatto per gli induttori, anche
+09:26 per i condensatori esiste un parametro
+09:29 che si chiama la capacità
+09:32 che ci dice quanto è grande il secchio,
+09:34 cioè quanta carica elettrica può
+09:36 immagazzinare un condensatore. La
+09:38 capacità si misura in farad, questa è la
+09:41 sua unità di misura, si indica con la
+09:43 lettera maiuscola F e un condensatore ha
+09:47 una capacità di un farad, come leggete
+09:50 qua sotto.
+09:52 Quando se io
+09:54 butto nel mio secchio, inserisco nel mio
+09:57 condensatore una quantità di carica di
+09:59 un coulomb,
+10:02 ai capi del mio condensatore nasce una
+10:05 differenza di potenziale di 1 volt.
+10:07 Quindi un farad è un coulom su volt.
+10:13 Farad, il farad, l'unità di misura del
+10:15 condensatore. Questa è la cosa da
+10:17 ricordare.
+10:18 E siccome il Farad è una unità di misura
+10:22 molto molto grande, normalmente
+10:25 si usano i sottomultipli.
+10:28 Si usa normalmente sia nel mondo
+10:31 dell'elettronica, diciamo, normale, sia
+10:33 ovviamente nelle domande del Ministero
+10:35 si usa il microfarad
+10:38 che è un milionesimo di farad 10 a -6 un
+10:42 milionesimo. Oppure si usa il nanofarad
+10:45 che è 1000 volte più piccolo, c'è un
+10:48 miliardesimo, 10 a -9. Oppure si usa il
+10:51 pico farad
+10:55 che 10^ -1, cioè un milionesimo di
+10:58 milionesimo di di farad.
+11:02 E nelle radio è abbastanza tipico
+11:04 trovare nelle applicazioni radio, no,
+11:05 dei condensatori, immaginiamo da 10 20
+11:08 50 picofarad e così via. E quindi qui ci
+11:10 possono essere poi le classiche domande,
+11:12 come avete già visto, di se metto in
+11:14 serie due condensatori da 10 pico farad,
+11:17 cosa ottendo? Poi cosa ottengo? Poi
+11:19 vedremo le formule.
+11:25 La capacità di un condensatore
+11:27 quanto vale? La capacità si può
+11:29 calcolare conoscendo la geometria del
+11:33 condensatore e questa è la formula per
+11:35 calcolarla. Come avevamo visto la
+11:38 formula per calcolare la resistenza di
+11:40 un filo elettrico, come avevamo visto la
+11:42 formula per calcolare l'indottanza di di
+11:44 una bobina, questa è la formula per
+11:47 calcolare la capacità di un
+11:48 condensatore.
+11:50 La capacità di un condensatore vale
+11:51 epsil.
+11:53 Questa lettera è la è la lettera greca
+11:57 che più o meno è la italiana ed è la
+12:00 costante elettrica del di elettrico.
+12:02 Quindi è un numero che si trova su delle
+12:05 tavole ed è un dato fisso, è una
+12:07 costante, no? Quindi il teflon, per
+12:09 esempio, se se fosse guido l'isolante ha
+12:12 una costante isolante, no? ha una
+12:13 costante di elettrica pari a un certo
+12:15 valore. E poi, e questi sono i dati
+12:18 geometrici, moltiplicato S / D. S è la
+12:22 superficie delle piastre
+12:25 e D è la distanza fra le piastre. Quindi
+12:30 vedete che Sta al numeratore e quindi
+12:33 quanto più grande è la superficie delle
+12:35 piastre, quanto più è grande il mio
+12:37 secchio, quanto più è grande la capacità
+12:39 del mio condensatore. Viceversa, se io
+12:42 le piastre le metto lontane, siccome
+12:45 dista il denominatore,
+12:48 eh se mi aumenta la distanza fra le
+12:49 piastre, la capacità del condensatore
+12:51 diminuisce. E queste cose le avete
+12:53 scritte qua in quest'altra slide. Questa
+12:56 è la formula che abbiamo visto prima,
+12:58 che la capacità è uguale e moltiplicato
+13:01 superficie diviso distanza.
+13:04 Se aumento la superficie delle piastre,
+13:06 la capacità aumenta e questo si capisce
+13:08 anche a occhio perché piastra più grande
+13:11 ci sarà spazio per più cariche
+13:13 elettriche, per elettroni.
+13:15 Se invece aumenta la distanza fra le
+13:18 armature, la capacità diminuisce perché
+13:22 le cariche negative e positive sono più
+13:24 lontane l'una dall'altra e si
+13:26 neutralizzano meno.
+13:28 >> E il materiale non conta delle piastre?
+13:31 Il materiale delle piastre non conta
+13:33 perché normalmente è un conduttore che
+13:35 lo riteniamo perfetto.
+13:38 Ok?
+13:40 Quello l'unica cosa che conta in termini
+13:42 di materiale, niente, l'unica cosa che
+13:44 conta in termini di materiale è il
+13:46 dielettrico.
+13:48 >> La natura delle piastre, se fosse rame,
+13:51 argento, oro, non entrerebbe sulla
+13:57 nel valore nel calcolo del valore della
+13:59 capacità del condensatore. potrebbe
+14:02 entrare come parametro negativo del
+14:04 condensatore
+14:06 per valutare le sue prestazioni a
+14:08 frequenze molto alte, perché se,
+14:11 diciamo, questo materiale, se il
+14:14 metallo, diciamo, di cui ho fatto le
+14:15 piastre ha frequenze alte, ricordate
+14:18 effetto pelle eccetera, eh mi tende
+14:20 avere una certa valore di resistenza
+14:24 ohm, come tutti i metalli e e questo
+14:26 degraderebbe le caratteristiche del
+14:29 condensatore.
+14:32 E con questo abbiamo finito questa prima
+14:35 parte dove, come avevo fatto per gli
+14:38 induttori, vi ho presentato in generale
+14:40 che cos'è il condensatore. Qui in questa
+14:42 in questa slide vedete alcune foto,
+14:44 vedete che normalmente in tutti i
+14:46 condensatori vediamo questo qua in
+14:48 mezzo. Questo si chiama afframe
+14:50 plastico. Questo vuol dire banalmente
+14:52 che il dielettrico è plastica. Vedete
+14:54 che qua ci sono due scritte. Questa è la
+14:56 capacità 22N. Questi sono 22 nanofarad,
+14:59 250 è la tensione di lavoro. Questo è un
+15:03 condensatore amica. I condensatori amica
+15:05 normalmente sono abbastanza pregiati
+15:07 perché sono molto adatti ad applicazioni
+15:09 a frequenze molto alte, come si dice
+15:11 radiofrequenza. Vedete che questo ha un
+15:13 valore di 500
+15:15 e tutti sanno che questi sono picofarad
+15:18 e quindi i costruttori non ce lo non
+15:21 perdono neanche tempo a scriverlo e
+15:23 questa è una tensione di lavoro di 500
+15:25 V. Come vedete invece questo va notato
+15:28 perché questo è un condensatore che è
+15:29 chiamato elettrolitico. Allora, per ora
+15:32 ho eh quando ho fatto gli esempi di
+15:34 dielettrico, ho sempre parlato di aria
+15:37 di plastica e teflon. Ho parlato di
+15:39 materiali, fatemi dire, abbastanza
+15:42 naturali, però se c'è bisogno di
+15:44 condensatori ad alta capacità, come
+15:47 leggete qua, quindi capacità dell'ordine
+15:49 di 1000.000 100.000 la microfarad
+15:54 e per ottenere valori di capacità così
+15:56 alta si usano dei dielettrici
+15:58 particolari che sono, diciamo, come
+16:01 delle resine chimiche, diciamo, in
+16:03 questo modo e, diciamo, queste resine
+16:06 chimiche sono come nel disegno che
+16:09 abbiamo nella slide che vi ho fatto
+16:11 vedere prima, sono in qualche modo
+16:12 spalmate sulle armature del
+16:14 condensatore. Queste resine chimiche per
+16:17 le loro caratteristiche di poter avere
+16:21 eh un alto valore di epsil e quindi
+16:24 consentire i valori di alta capacità,
+16:26 hanno però il punto debole di essere
+16:28 polarizzate, cioè questi condensatori
+16:30 elettrolitici
+16:32 eh nel momento in cui gli attaccassimo
+16:34 una batteria, vedete che c'è questo
+16:36 terminale qui
+16:39 che è marcato con questi tre segni, con
+16:42 questi due segni meno negativi. Qui ci
+16:45 si può attaccare solo il negativo della
+16:47 batteria e di conseguenza sull'altro
+16:49 terminale del condensatore ci si potrà
+16:51 attaccare solo il positivo della
+16:52 batteria. Invece in questi altri
+16:53 condensatori vedete che non c'è alcun
+16:55 tipo di marcatura, quindi questi li puoi
+16:57 girare come si vuole rispetto alla
+17:00 tensione di alimentazione del circuito.
+17:02 Questo invece no, perché se si usa,
+17:04 diciamo, contromano con la tensione a
+17:06 rovescio, il dielettrico si distrugge
+17:09 proprio perché ha questa caratteristica,
+17:12 appunto, di, diciamo, essendo un
+17:14 materiale artificiale polarizzato a sua
+17:16 volta eccetera eccetera e accetta di
+17:19 lavorare solo con una tensione in un
+17:21 certo verso. Quindi in tutti i
+17:23 condensatori elettrolitici se vi
+17:25 capiterà di aprire un circuito elettrico
+17:28 stire una vecchia radio, un alimentatore
+17:31 switching e cosa del genere, si
+17:33 riconoscono molto facilmente perché
+17:35 hanno questa forma barilotto,
+17:37 normalmente sono neri e c'è una fascia
+17:40 dove è proprio marcato in maniera
+17:41 evidente il lato negativo del
+17:43 condensatore.
+17:44 un altro tipo rilevante di condensatore
+17:47 che questo si un tempo si vedeva molto
+17:49 molto spesso, ora lo potete trovare
+17:51 nelle radio d'epoca se avete in famiglia
+17:53 una radio che era o vostra quando
+17:55 eravate piccoli o di vostro padre o di
+17:57 vostro nonno, in quella radio lì,
+17:59 tipicamente a valvole, eh la sintonia
+18:03 veniva fatta modificando la capacità di
+18:06 un condensatore. Quindi questi si
+18:08 chiamano condensatori variabili, come
+18:10 vedete scritto qua. E vedete qui più o
+18:13 meno come sono fatti. Qui c'è una prima
+18:15 parte del condensatore che è questa di
+18:17 sotto. Ci sono tutte queste lamine che
+18:18 sono fisse. Questo è chiamato lo statore
+18:21 del condensatore.
+18:23 E poi c'è questa parte qui, vedete che
+18:25 c'è una manopola. A questa manopola è
+18:27 attaccata un perno e al perno sono
+18:30 attaccate queste altre lamine. Questo è
+18:32 chiamato il rotore del condensatore. A
+18:35 seconda di come giro questa manopola,
+18:37 queste lamine si inseriscono
+18:42 oppure disinseriscono
+18:45 in misura maggiore o minore dal mio
+18:47 rotore. Quindi, nel momento in cui
+18:50 queste lamine sono tutte dentro, il
+18:52 condensatore ha un valore di capacità
+18:54 massima che per un condensatore, come
+18:56 stiamo vedendo qui, potrebbero essere
+18:57 100 picofarad. Nel momento in cui io
+19:00 invece ruotassi questa manopola di 180°
+19:04 e le lamine sarebbero tutte estratte e i
+19:07 100 picofarad di prima probabilmente
+19:09 diventerebbero 10. Quindi questo è un
+19:13 condensatore che potrebbe essere un 10
+19:16 100 picofarad.
+19:19 E sfruttando questa escursione da 10 a
+19:22 100, eh, come vedremo in qualche lezione
+19:25 più avanti, nelle radio si ottiene la la
+19:27 sintonia, cioè il cambio di frequenza.
+19:30 Quindi, come avevamo visto mercoledì
+19:31 scorso, che esistono delle bobine
+19:33 variabili, avevamo visto quella bobina,
+19:36 ricordate che si poteva entrare con un
+19:38 cacciavitino nel nucleo e avvitare
+19:41 risvitare il nucleo di di ferrite?
+19:44 Esistono di pari passo i condensatori
+19:46 variabili. I condensatori i condensatori
+19:48 variabili funzionano più o meno tutti
+19:50 tramite questo meccanismo, cioè c'è un
+19:52 perno e girando in perno si inserisce o
+19:55 estrae eh le lamine del dello statore
+19:59 dal del rotore, scusate, dal
+20:02 condensatore.
+20:03 E questa appunto è la chiacchierata
+20:05 generale sul componente condensatore.
+20:08 Quindi riassumendo è un è un serbatoio
+20:11 di energia, una volta caricato ti
+20:13 potrebbe si potrebbe immaginare che
+20:15 diventasse una piccola batteria pure
+20:17 lui, una batteria di cui però la carica
+20:20 elettrica nel momento in cui si usa si
+20:22 scaricherebbe subito perché non ha come
+20:24 una batteria vera una reazione chimica
+20:26 che lo sostenta, no? Però nel momento in
+20:28 cui il secchio è pieno di energia io la
+20:30 posso la posso usare. Quanta energia
+20:33 come deve essere fatto il mio secchio se
+20:35 deve assum se se deve poter assorbire
+20:38 tanta energia deve avere una superficie
+20:41 delle armature molto grandi e le
+20:44 armature devono essere molto vicine fra
+20:46 loro. Questo sta questo stanno dicendo
+20:49 questa sta dicendo questa formula, no? S
+20:52 molto grande vuol dire capacità molto
+20:55 grande, T molto piccola che sta sotto la
+20:57 frazione, cioè sta al denominatore,
+21:00 quindi piastre vicinissime, capacità
+21:03 grande e questo viene moltiplicato se eh
+21:07 ho un materiale di elettrico opportuno
+21:09 con un epsil molto elevato. Questo
+21:11 rapporto fra SD D fra le piastre può
+21:14 essere moltiplicato di 10 50 100 V a
+21:17 seconda appunto del materiale che sta
+21:19 dentro questo condensatore.
+21:22 Questo per ora è tutto. Questa, appunto,
+21:25 è chiacchierata generale sul
+21:27 condensatore. Cos'è il condensatore come
+21:29 componente elettronico? Capiamolo un po'
+21:32 se ci sono domande a voi. Intanto
+21:33 Gianfranco.
+21:36 >> Grazie. Buonasera. Eh, una domanda
+21:39 proprio riguardo al calcolo della
+21:41 capacità C. Ehm, hai parlato della
+21:46 superficie delle armature, nel senso
+21:49 vanno moltiplicate. Questo S è inteso
+21:52 come il totale della superficie di
+21:54 entrambe le armature.
+21:55 >> Una una
+21:56 >> una sola. Sì, sì. Ok. Una.
+21:59 >> Ok. Quindi
+21:59 >> una l'altra la immaginiamo uguale e vale
+22:02 la superficie di un'armatura.
+22:04 >> Perfetto. Ok. Era il dubbio. Ce lo
+22:08 Grazie. Chiarito. Grazie.
+22:09 >> Giusto, giusto il dubbio. Ciao
+22:10 Gianfranco. Adesso a te Dario.
+22:13 >> Sì, grazie. E
+22:14 >> Dario, Diario, scusami, parla parla più
+22:17 piano perché arrivi molto strappato, hai
+22:21 il volume microfonico molto elevato.
+22:24 >> Provo ad abbassare il volume, vediamo
+22:26 così se va meglio.
+22:26 >> Aspetta, così va già molto molto bene.
+22:29 >> Bene, grazie. Eh, domanda. Se di
+22:32 elettrico è aria, perché non si generano
+22:35 scintille e archi tra le due piastre?
+22:38 >> Eh, anche con l'aria si genera un
+22:40 scintille fra le due piastre, però
+22:43 >> Eh, sì,
+22:44 >> però l'aria,
+22:47 >> scusa, vai.
+22:49 >> Se è aria, se il dielettrico è aria che
+22:51 non è isolante, si generano archi,
+22:54 scintille? Allora, la Sì, però l'aria
+22:58 normalmente è isolante, nel senso che
+23:00 l'aria secca e pulita e poi queste cose
+23:04 ve le potete cercare su internet, ha
+23:05 un'agidità diettica superiore a 1000 V a
+23:09 millimetro.
+23:11 Se prendiamo materiali plastici, prima
+23:13 avevo citato il teflon, se guardate un
+23:15 po' su internet, il teflon ha una ha una
+23:17 si sto andando a mente, eh, e quindi
+23:20 potrei anche un po' sbagliare, però il
+23:22 teflon ha una rigità di elettrica di
+23:24 circa-6000 V a millimetro,
+23:27 quindi a pari separazione di piastre,
+23:30 diciamo 1 millimetro, un condensatore in
+23:33 teclon ha una tensione di lavoro che può
+23:35 essere cinque volte maggiore a quelle di
+23:37 un condensatore in aria.
+23:40 >> Chiaro? Ok, grazie. Poi in alcuni casi e
+23:44 cioè condensatori in aria praticamente
+23:46 si usano rarissimamente perché per
+23:49 esempio parliamo delle vecchie
+23:50 radiovalvole, quel condensatore quel
+23:52 quel bel condensatore che vi ho fatto
+23:54 vedere io che magari può essere un bel
+23:55 pezzo della museo, immaginatelo in una
+23:57 radio, dopo 5 anni è pieno di polvere
+24:01 ovviamente no, perché diciamo è un
+24:03 oggetto che sta di fatto all'aperto,
+24:05 all'interno della radio. Ora un
+24:07 condensatore pieno di polvere, non è che
+24:09 la rigidità di elettrica ne
+24:12 eh diciamo ne gioisce. Ok,
+24:15 >> certo. Sì, sì, chiarissimo. Grazie.
+24:21 Avete altre Gianfranco, a te. A
+24:23 Gianfranco, risentito anche.
+24:25 >> Sì, sì, sì. La rigidità di elettrica,
+24:27 stavo leggendo, sono 19,7.000
+24:31 V per millimetro.
+24:33 >> Di che materiale?
+24:34 >> Qu il teflon.
+24:35 >> Eh, ok. è altissima.
+24:37 >> Eh sì, sì, Tefeslon è un Infatti Teflon
+24:40 è una bomba ecologica, però da questo
+24:42 punto di vista è un materiale
+24:45 notevolissimo. Grazie Dario per il
+24:47 numero,
+24:49 >> scusami. Grazie Gianfranco per il
+24:51 numero. Allora, Dario hai già parlato,
+24:53 giusto?
+24:56 Ok,
+24:59 allora adesso proseguo.
+25:03 Dunque,
+25:09 allora, scusate un attimo.
+25:14 Allora, seguiamo proprio la traccia che
+25:17 abbiamo usato mercoledì scorso. Allora,
+25:19 anche i condensatori si possono mettere
+25:20 in parallelo e in serie. Allora, cosa
+25:23 succede mettendo due condensatori in
+25:26 parallelo, come leggete qua,
+25:30 condensatori
+25:32 in parallelo.
+25:34 Succede che, guardate un attimo questo
+25:36 schema qua, ci sono questi due
+25:38 condensatori dove le piastre che adesso
+25:40 scarabocchio un po' in rosso, hanno
+25:43 questa superficie.
+25:45 Se metto due condensatori in parallelo,
+25:47 siccome queste piastre sono collegate da
+25:49 loro, da un filo elettrico, no? Quindi
+25:51 alla fine sono queste due piastre qua
+25:53 sono equivalenti a un'unica piastra di
+25:57 superficie pari alla somma delle due,
+25:59 proprio perché sono collegate, diciamo,
+26:01 da un filo elettrico. Quindi tutto
+26:04 questo pezzo che vedete, piastra 1,
+26:06 piastra di C1, filo elettrico, piastra
+26:09 2, piastra di C2. Siccome è collegato da
+26:12 un filo elettrico è tutto materiale
+26:14 conduttore, quindi ha lo stesso
+26:15 potenziale, ha stessa tensione per
+26:18 intenderci. Quindi due piastre,
+26:21 diciamo, di superficie 5 mm 5 cm²,
+26:25 diciamo, ciascuna. 5 + 5 cm² equivalgono
+26:30 a un'unica piastra di 10 cm²,
+26:34 quindi si somma la superficie. Quindi,
+26:37 quando si va a calcolare il valore dei
+26:40 condensatori in parallelo, il valore
+26:42 totale dei condensatori in parallelo è
+26:45 uguale alla somma dei singoli valori dei
+26:49 condensatori. Quindi, se io metto in
+26:51 parallelo, diciamo, 1 2 3 condensatori,
+26:54 diciamo, da 100 picofarad, ottengo 300
+26:58 picofarad.
+26:59 Quindi questa è una formula che già
+27:01 conoscete
+27:03 e che avete già usato per gli induttori
+27:06 e per le resistenze, però eh mentre con
+27:10 questa formula, cioè di sommare i loro
+27:13 valori, eh nel caso degli induttori e
+27:16 delle resistenze e si usavano per le
+27:19 serie, per i condensatori si usano per
+27:22 il parallelo, cioè e e adesso vi
+27:25 racconto un intero gioco anche parlando
+27:28 di condensatori in serie. Praticamente
+27:30 le formule per la serie e il parallelo
+27:32 dei condensatori sono uguali a quelli
+27:35 delle resistenze, quelli degli
+27:37 induttori, però scambiati.
+27:40 Come di là si calcola la serie, di qua
+27:43 coi condensatori si calcola il parallelo
+27:45 e viceversa.
+27:48 Quindi non c'è bisogno di memorizzare
+27:50 altre formule perché alla fine sono
+27:52 sempre quelle, però bisogna tenere in
+27:54 mente che sono, diciamo, da usare al al
+27:56 contrario. Qua avete il calcolo dei
+27:59 condensatori in serie. Cosa succede?
+28:01 Anche qui, diciamo, c'è una spiegazione
+28:03 geometrica molto tranquilla, nel senso
+28:05 che qui abbiamo due condensatori in
+28:07 serie
+28:10 e qui ho una distanza fra le armature
+28:12 che leggete qua sotto che è D1.
+28:16 una distanza fra le armature del secondo
+28:18 condensatore che è D2.
+28:21 Diciamo anche in questo caso queste due
+28:23 armature, quella di questo condensatore
+28:25 e l'altra dell'altro condensatore sono
+28:27 allo stesso potenziale perché sono
+28:29 collegate da un filo metallico. Allora
+28:31 questo condensatore equivale a un unico
+28:33 condensatore. Siccome qui
+28:37 e qui c'è lo stesso potenziale, no?
+28:40 Perché le piastre sono collegate da un
+28:42 filo metallico. Questo equivale a un
+28:44 unico condensatore
+28:47 in cui
+28:49 la spaziatura fra le due armature eh
+28:54 valga sia la somma delle due spaziature.
+28:57 Quindi qua ho una spaziatura di uno, qua
+28:59 ho una spaziatura di 2 e qui una
+29:01 spaziatura di 1 + di 2. Quindi
+29:03 immaginiamo qui ho una spazzatura di 2
+29:05 mm,
+29:07 qui ho una spaziatura di 3 mm di 2, qui
+29:09 avrò 2 + 3 5 mm.
+29:12 A questo punto
+29:14 e è chiaro che la spaziatura aumenta, il
+29:17 valore del della capacità diminuisce e
+29:20 vale la stessa formula che abbiamo visto
+29:25 quando calcolavamo
+29:28 il parallelo delle resistenze o il
+29:30 parallelo degli induttori. Invece qui
+29:32 questa formula vale per i condensatori
+29:34 in serie.
+29:36 stessa formula di qua. Questa questa
+29:39 formula 1 / 1 / 1 / la usiamo per la
+29:43 serie dei condensatori e valgono gli
+29:46 stessi casi particolari, cioè se di
+29:49 condensatori in serie, come leggete qua
+29:52 sopra,
+29:54 io ne ho due uguali, quindi diciamo due
+29:58 condensatori da un microfarad in
+30:01 parallelo,
+30:03 eh scusatemi, in serie, due condensatori
+30:05 da un microfarad in serie. Il valore
+30:07 risultante è la metà di uno, quindi è
+30:10 mezzo microfarad. Senti condensatori in
+30:13 serie ne ho quattro, diciamo. Ho quattro
+30:16 condensatori da 1 microfarad in serie
+30:19 l'uno con l'altro. 1 2 3 4. Il valore
+30:24 finale è il valore di uno dei
+30:26 condensatori
+30:27 diviso il numero totale dei
+30:29 condensatori, quindi mi diventa 1/4 di
+30:31 microfarad, cioè 0,25 microfarad.
+30:35 Se ne ho due o più diversi,
+30:38 devo usare quelle formule lì che avete
+30:40 già usato per i resistori in parallelo,
+30:43 per gli induttori in parallelo, però la
+30:45 cosa che si sa è sempre che quando
+30:48 faccio un parallelo il valore risultante
+30:50 è minore del condensatore più piccolo.
+30:53 minore del condensatore più piccolo.
+30:55 Quindi, diciamo, le formule sono le
+30:57 stesse, vanno, diciamo, si applicano,
+31:00 però
+31:03 nel caso di collegamento diverso,
+31:05 diciamo, rispetto a quello delle
+31:07 resistenze, per esempio. Quindi, eh,
+31:09 come ho già detto, no? La formula per la
+31:11 serie delle resistenze vale per il
+31:12 parallelo dei condensatori e lo stesso,
+31:14 no? Al contrario per quella del
+31:17 parallelo delle resistenze che vale per
+31:18 la serie dei condensatori. I conti su
+31:21 quelle formule ovviamente sono gli
+31:22 stessi. Eh, una somma in un certo caso
+31:26 C1 + C2 + C3 oppure 1/ c1 / C2 1/ c3.
+31:31 Mh.
+31:33 Poi,
+31:34 cambiando argomento, facciamo un passo
+31:36 avanti. Come abbiamo visto anche per gli
+31:38 induttori, anche i condensatori in una
+31:40 certa costante di tempo. Si è detto che
+31:42 loro sono un secchio. Cosa succede
+31:44 quando si collega il condensatore
+31:47 a a una tensione continua? Succede che
+31:50 il secchio si riempie, ma come in tutti
+31:52 i secchi ci vuole un po' di tempo.
+31:54 Questo tempo è in qualche modo misurato
+31:57 dalla costante di tempo del
+31:59 condensatore. Come avevamo per gli
+32:01 induttori c'era costante di tempo TAU
+32:03 che mi faceva vedere quanto in ritardo
+32:06 eh in questo caso dei condensatori e
+32:09 quanto in ritardo mi si carica il
+32:11 secchio, quanto tempo mi ci vuole per
+32:13 caricare il condensatore. Il caso degli
+32:15 induttori era quanto tempo serviva per
+32:18 arrivare al massimo del campo magnetico
+32:21 che l'induttore poteva generare. Anche
+32:24 qui esiste un parametro che è la
+32:27 costante di tempo. Eccola qua. Costante
+32:30 di tempo t.
+32:32 Qui l'ho scritta in italiano t, invece
+32:34 di usare la lettera greca tau. Nel caso
+32:36 dei condensatori la la costante di tempo
+32:38 vale R moltiplicato C. Invece, se
+32:41 ricordate, la costante di tempo nel caso
+32:43 degli induttori era L/ R. Comunque,
+32:48 diciamo, cambia la formula, il risultato
+32:49 è sempre lo stesso, cioè è il tempo con
+32:51 cui si arriva al 63% della carica e come
+32:56 si era visto per gli induttori, dopo
+32:59 cinque volte il valore della costante di
+33:01 tempo,
+33:03 ecco qua la tensione del mio
+33:05 condensatore che sale. Dopo cinque volte
+33:08 la costante di tempo, il condensatore si
+33:10 può ritenere carico e anche qui, quando
+33:12 lo scarico, dopo cinque volte la
+33:14 costante di tempo lo posso ritenere
+33:16 scarico. Allora, notate, facendo sempre
+33:19 questo parallelo fra condensatori e
+33:22 induttori, notate che qui,
+33:25 allora, il momento zero è quello in cui
+33:27 io attacco la mia batteria e il mio
+33:29 generatore al condensatore. Notate che
+33:31 qui nel tempo sale la tensione sul
+33:36 condensatore. Sale WC la tensione sul
+33:39 condensatore. Se ricordate la slide che
+33:43 abbiamo usato quando si parlava di
+33:44 induttore, la cosa che saliva lenta
+33:48 nell'induttore non era la tensione, ma
+33:50 era la corrente,
+33:52 perché l'induttore, appunto, è lento,
+33:54 abbiamo detto, e la corrente sale
+33:56 lentamente. Qui invece nel caso del
+33:58 condensatore il secchio è vuoto e ha
+34:00 bisogno di un po' di tempo per
+34:02 riempirsi.
+34:04 La tensione è tanto più alta quanto più
+34:07 il mio serbatoio, quanto più quanto più
+34:10 il mio condensatore è carico. E visto
+34:12 che si parlava di corrente,
+34:15 la cosa che avete qua sotto in questa
+34:17 parte inferiore del grafico è proprio
+34:20 l'andamento della corrente nella carica
+34:22 di un condensatore. All'inizio, momento
+34:24 zero che sta qua sotto, io diciamo che
+34:28 chiudo l'interruttore, attacco in questo
+34:30 momento il mio condensatore alla mia
+34:33 batteria da 9 V. Vedete che in questo
+34:35 momento la corrente è massima. C'è
+34:37 proprio un picco di corrente qui pari a
+34:40 questo valore
+34:42 che all'inizio mi riempie il secchio
+34:44 molto rapidamente. Quanto più il secchio
+34:46 si riempie, quanto più la corrente cala.
+34:50 A un certo punto, quando il secchio è
+34:52 pieno e arrivo qua, il mio generatore
+34:54 non ha più bisogno di erogare corrente,
+34:56 non riesce più a erogare corrente perché
+34:58 il condensatore è in equilibrio col
+35:00 generatore, il mio secchio è carico e la
+35:02 mia sorgente, cioè la mia batteria, più
+35:05 di quella corrente, più di quella
+35:07 quantità di elettroni, non riesci non
+35:09 riesce a a immagazzinarlo. Quindi vedete
+35:12 che rispetto all'induttore la corrente
+35:13 fa esattamente il contrario.
+35:15 nell'induttore la corrente partiva da
+35:17 zero,
+35:18 saliva lentamente fino ad arrivare a un
+35:21 valore di regime. Qui invece la corrente
+35:23 è massima nel momento in cui si attacca
+35:26 l'interruttore, nel momento in cui si
+35:28 attacca il condensatore al generatore e
+35:30 pian pianino, mentre il condensatore si
+35:32 carica, la corrente va a zero.
+35:37 E con questo per ora è tutto questa
+35:39 parte qua. Quindi abbiamo visto
+35:40 condensatori in serie parallelo e la
+35:43 costante di tempo che è proprio
+35:46 simmetrica, diciamo, rispetto a quella
+35:48 che avevamo negli negli induttori. C'è
+35:51 qualche domanda? Proseguo.
+35:55 Non ho visto domande, per ora proseguo.
+35:57 Anche perché queste cose di fatto le
+36:00 avevamo già viste, quindi sono concetti
+36:02 noti, no? cambia semplicemente
+36:03 riferimento corrente negli induttori e
+36:06 tensione nei condensatori.
+36:09 Che succede quando io uso un
+36:11 condensatore in tensione alternata o per
+36:13 in corrente alternata? Allora, il
+36:16 condensatore immagazzina energia sotto
+36:18 forma di campo elettrico questa volta,
+36:20 no? Come si è detto fino a ora, penso di
+36:23 avervelo ripetuto 10 volte, comincerete
+36:26 a essere un po' neuseati di questa cosa.
+36:29 E quindi lui in realtà si oppone al
+36:32 passaggio della corrente continua.
+36:34 Sembra una cosa strana, ma lo vedete
+36:36 qua? Il condensatore si oppone al
+36:37 passaggio della corrente continua. in in
+36:40 questo caso, in questa cosa che abbiamo
+36:41 visto qua sotto, in questa parte di
+36:43 schema qua sotto, il condensatore
+36:45 all'inizio si fa attraversare da
+36:47 corrente finché non è carico, ma da qui
+36:50 in poi la corrente vale zero,
+36:54 quindi quando il condensatore è carico
+36:56 allo stesso valore di tensione del
+36:57 generatore si fa attraversare la
+37:00 corrente zero, quindi è come se avesse
+37:03 in quella fase lì una resistenza
+37:05 elevatissima che si oppone
+37:08 al tentativo del generatore di
+37:10 continuare a caricarlo
+37:13 ulteriormente. Invece la corrente
+37:15 alternata lo può attraversare perché
+37:17 pensate al secchio, una corrente
+37:19 alternata è come se con un romaiolo una
+37:21 volta ci metteste un po' di acqua e poi
+37:23 la rilevaste, mettere e levare, no?
+37:25 corrente alternata nel momento in cui la
+37:27 tensione è positiva della semionda
+37:29 positiva, magari caricate il secchio, ma
+37:31 nel momento in cui la tensione è
+37:33 negativa gliela levate dal secchio.
+37:35 Quindi di fatto c'è un flusso di
+37:37 corrente alternata che lo attraversa
+37:40 sempre il condensatore.
+37:42 Quindi la corrente alternata la può
+37:44 attraversare,
+37:46 la corrente continua viene bloccata, che
+37:49 è esattamente il contrario di quello che
+37:51 accadeva in un induttore. In un
+37:54 induttore la corrente alternata veniva
+37:56 ostacolata. Veniva ostacolata.
+38:00 Qui succede esattamente il contrario.
+38:04 Intanto, quindi, abbiamo visto che nel
+38:06 condensatore la corrente è in anticipo
+38:10 rispetto alla tensione
+38:13 e lo abbiamo visto in questo grafico
+38:15 qua. Scusate, qui
+38:19 tolgo,
+38:21 Ecco, tolgo le
+38:28 Eccoci. Dicevo, lo abbiamo visto qua.
+38:30 Qui la corrente è elevata
+38:33 e attacco il pennarello. Qui la corrente
+38:36 è elevata, ma la tensione parte da zero,
+38:39 quindi la corrente, immaginatevi non c'è
+38:42 la condivisione quadro. Eh, scusate,
+38:45 scusate, scusate, scusate.
+38:48 Pausa tecnica.
+38:54 Eccomi.
+38:57 Decisione.
+38:59 Buono.
+39:03 È tornata, giusto?
+39:05 >> Sì, grazie mille.
+39:06 >> Ok, stavo dicendo, vedete,
+39:08 >> perfetto.
+39:09 >> Eh, grazie. Grazie. Allora, vedete qua,
+39:14 vedete che qui eh pensatelo in termini
+39:17 di di sinusoide, qui la corrente è già
+39:19 alta, quindi è come se, immaginando che
+39:22 questo fosse un flusso di corrente
+39:23 alternata, qui fossimo al massimo del
+39:25 valore, poi la sinusoide sale, scende e
+39:28 questa è la sinusoide della corrente,
+39:31 I, quindi lettera I. Nel in questo punto
+39:34 qui in cui scusatemi, reset, questa è
+39:38 l'asinosoide.
+39:40 Sì, va bene. Scusate, è la sinusoide
+39:41 della corrente. Mi sono annato,
+39:43 annodato. Capita anche nelle migliori
+39:44 famiglie. In questo momento in cui la
+39:47 corrente è massima, la tensione è zero,
+39:51 perché è il momento in cui il secchio è
+39:53 vuoto e sta cominciando a caricarsi. il
+39:55 secchio è vuoto e posso dare tanta
+39:57 corrente, niente mi ostacola, però
+40:00 proprio perché è vuoto la tensione è
+40:02 zero. Quindi in questo caso la
+40:07 eh la corrente
+40:10 rispetto
+40:13 alla tensione è in anticipo,
+40:17 la corrente era già alta quando la
+40:20 tensione era ancora zero.
+40:23 Adesso io giro
+40:25 questa frase. Se la corrente è in
+40:27 anticipo rispetto alla tensione di 90°,
+40:30 questo vuol dire che la tensione
+40:33 rispetto alla corrente è in ritardo di
+40:35 90°. Questo è semplicemente un gioco di
+40:37 parole, d'accordo? la se la corrente è
+40:40 in anticipo rispetto alla tensione,
+40:41 allora la tensione è in ritardo. Vedete
+40:44 che questa frase qua sotto è esattamente
+40:46 il contrario di quello che accadeva con
+40:49 gli induttori. Negli induttori la
+40:52 tensione è in anticipo rispetto alla
+40:56 corrente, nei condensatori è in ritardo.
+41:00 Questa cosa qui ce la vediamo per benino
+41:02 la prossima settimana perché questa
+41:04 differenza è la base del funzionamento
+41:06 dei cosiddetti circuiti risonanti.
+41:14 Infine,
+41:16 anche il condensatore oppone una
+41:19 resistenza al passaggio della corrente
+41:22 alternata.
+41:25 Anche nel caso del condensatore, questa
+41:29 forza di opposizione che il condensatore
+41:31 fa al passaggio della corrente alternata
+41:33 viene chiamata reattanza.
+41:36 Il cordi scorso avevamo sottomano delle
+41:38 bobine, cioè degli induttori, quindi
+41:40 abbiamo parlato di reattanza induttiva.
+41:43 Qui abbiamo dei condensatori, quindi
+41:45 ovviamente parliamo di reattanza
+41:47 capacitiva. Anche la reattanza
+41:50 del condensatore ovviamente si misura in
+41:52 ohm.
+41:54 E anche questa varia in funzione della
+41:56 frequenza. La formula però
+41:59 è molto semplice anche questa come
+42:01 formule, ma ha una differenza molto
+42:03 particolare, molto simpatica rispetto a
+42:05 quella che avevamo rispetto a quella che
+42:07 avevamo visto la scorsa settimana. La
+42:09 reattanza capacitiva,
+42:13 scusate,
+42:14 si indica con le lettere XC, X
+42:17 reattanza, Capacitiva e vale 1 /
+42:22 aperta parentesi. Questa questa cosa qui
+42:25 che c'è nella parentesi è tutta sotto
+42:27 l'uno diviso 2 pi f e questo lo avevamo
+42:31 anche nei nei
+42:33 negli induttori moltiplicato C
+42:36 moltiplicato il valore della capacità.
+42:38 Quindi ricordate che il valore della
+42:40 rattanza induttiva era XL = 1
+42:43 moltiplicato, no, scusate, era 2π FC,
+42:48 quindi era tutto al numeratore 2π FC,
+42:51 tant'è che avevamo detto che eh la
+42:54 reattanza induttiva cresceva al crescere
+42:56 della frequenza. E invece questa formula
+42:58 qua che vediamo trascritta anche qua
+43:02 sopra
+43:04 in in maniera anche forse un po' più
+43:07 leggibile 1 / 2 pi fc succede che
+43:13 il valore 2 pi
+43:15 come avevamo visto mercoledì scorso, è
+43:17 vale circa 68. è un numero, è un dato. C
+43:22 anche C è un numero fisso, è il valore
+43:24 di quel condensatore.
+43:26 Quindi la latenza capacitiva varia come
+43:28 1 / f, cioè è inversamente proporzionale
+43:32 alla frequenza, mentre invece quando
+43:35 parlavamo di induttori era direttamente
+43:37 proporzionale alla resistenza. Quindi la
+43:39 reattanza capacitiva
+43:41 di un condensatore ha l'andamento che
+43:44 vedete in eh disegnato in questa linea
+43:48 gialla. di questo di questo grafico,
+43:51 cioè questa è una curva che a frequenze
+43:53 basse ha valori molto alti e come vedete
+43:57 qua quanto più la frequenza sale quanto
+44:00 più la reattanza scende fino a diventare
+44:03 a frequenze molto alte dei valori così
+44:05 bassi di reattanza. I valori della
+44:08 lattanza li potete leggere qua.
+44:11 Sull'asse delle ordinate. Si parla di
+44:13 kilom, come vedete quando il
+44:16 condensatore lavora a frequenze basse,
+44:18 quindi per esempio ha una frequenza,
+44:21 scusate, non vedo dove ho qui, ad
+44:23 esempio, ha una frequenza di 10 Hz.
+44:26 Questo condensatore che sto considerando
+44:28 ha una reattanza di 400.000 ohm, quindi
+44:30 molto molto molto alta. invece a
+44:34 frequenze alte, per esempio,
+44:38 come potete vedere qua,
+44:42 a circa 1000 ohm, ha una reattanza
+44:45 vicina a zero. Questa questa questo
+44:50 grafico che vedete qua, scusate, tolgo,
+44:56 ok? Questa curva che vedete qua, per
+45:00 qualcuno di voi che è un pochino più eh
+45:03 fresco di studio o cose del genere,
+45:05 questa è un iperbole. è un'iperbole
+45:06 centrata sull'origine l'origine degli
+45:09 assi che sarebbe che sarebbe qua
+45:13 il punto dove l'asse delle ascisse e
+45:15 l'asse delle ordinate si incontrano e
+45:18 queste iperbole a frequenze basse e
+45:21 questa curva qui sale verso valori di
+45:22 rilattanza sempre molto alti e questo
+45:25 qui si vede quella cosa che prima avevo
+45:27 detto in termini qualitativi c'è un
+45:29 condensatore eh si oppone molto alle
+45:33 frequenze basse.
+45:35 e addirittura non si fa traversare dalla
+45:38 corrente continua. Queste sono frequenze
+45:40 basse, no?
+45:42 vicino a a 1 Hz o anche meno, invece a
+45:46 frequenze alte, quindi siamo da
+45:48 quest'altra parte del del grafico che mi
+45:50 dà la reattenza del condensatore. Il
+45:52 condensatore diventa essenzialmente
+45:55 un corto circuito e così facendo
+45:58 realizza quella che è una delle sue una
+46:00 delle funzioni principali per cui si usa
+46:02 nei circuiti elettrici. Immaginate di di
+46:04 avere un un amplificatore composto da 1
+46:08 2 3 4 stadi. Questi stadi potrebbero
+46:11 essere delle dei transistor, ad esempio,
+46:14 eh per portare il segnale amplificato da
+46:17 uno stadio all'altro devo portare
+46:19 solamente il segnale e non le eventuali
+46:21 tensioni continue che sono, diciamo,
+46:23 nello stadio precedente. Il condensatore
+46:25 è il modo con cui si fa attraversare, si
+46:28 fa passare da un preamplificatore a un
+46:31 amplificatore successivo. fa passare il
+46:34 segnale che via voglio amplificare, ma
+46:37 non si fanno passare le eventuali
+46:39 tensioni continue che riguardano il
+46:41 funzionamento dei vari stati degli
+46:42 amplificatori. Questi poi li li vedremo
+46:45 un po' più avanti. Quindi un
+46:46 condensatore serve proprio per bloccare
+46:48 le tensioni continue e far passare le
+46:50 tensioni alternate, il contrario di
+46:52 quello che accadeva con gli induttori e
+46:55 sui condensatori non ho altro da da
+46:58 dire. Quindi anche loro hanno una
+46:59 reattanza. In questo caso la reattanza è
+47:02 capacitiva ovviamente,
+47:04 mentre la reattanza
+47:06 induttiva cresce al crescere della
+47:09 frequenza, la reattanza capacitiva cala,
+47:12 decresce al crescere della frequenza,
+47:15 come si vede in questo in questo
+47:16 grafico. Ricordate che la reattanza
+47:19 capacitiva, il grafico che avevamo
+47:20 visto, era una retta che passava per
+47:23 l'origine degli assi e saliva,
+47:27 quanto più saliva la frequenza, quanto
+47:29 più saliva il valore della lattanza.
+47:32 Allora, interrompo la condivisione,
+47:35 siamo perfettamente nei tempi. Se se c'è
+47:38 qualche minuto per qualche domanda
+47:41 si fa uno stacco volentieri. A voi
+47:45 tutto chiaro per ora?
+47:49 Francesco, a te. Ma
+47:51 >> io la mia è solo una curiosità, volevo
+47:52 sapere, quindi per ora ci focalizziamo
+47:54 solamente sul, diciamo, su queste
+47:57 formule, poi l'utilizzo e il, come dire,
+47:59 la l'effettivo utilizzo all'interno
+48:02 della radio lo scopriremo più avanti,
+48:04 giusto?
+48:05 >> Esattamente. Intanto facciamo i
+48:07 mattoncini e come vi dicevo prima, come
+48:09 dicevo prima, sta parte è un po'
+48:11 pallosa, puntini puntini, diciamolo fra
+48:13 virgolette. E poi, per esempio,
+48:16 mercoledì prossimo cominceremo a parlare
+48:18 dei filtri, filtri passaalto, passa
+48:20 passo, passa planta, che sono le
+48:21 applicazioni pratiche di questi
+48:23 componenti qui, le prime applicazioni
+48:25 pratiche che vedremo
+48:27 >> e quindi diciamo a quel punto sapremo
+48:29 cosa sono i componenti elettronici e si
+48:31 vedrà come si compongono per fare cose
+48:33 sempre più divertenti fino a arrivare
+48:36 una radio. Ok,
+48:38 >> ottimo. Grazie
+48:39 >> a te, Pierpaolo. A te.
+48:44 Sì, sì. Eh no, stavo ero un po' eh come
+48:51 dire
+48:54 ho una situazione un po' strana nella
+48:56 mia testa perché eh fino a ora nelle
+48:59 nelle TV, specialmente parliamo di
+49:02 circuit di alimentazione, nelle TV e e
+49:06 connessatori servivano erano subito dopo
+49:09 ehm il subito dopo il raddrizzatore
+49:12 servivano per filtrare ancora di più,
+49:14 quindi per rendere ancora di più eh
+49:17 pulita la corrente continua.
+49:19 >> Ah, sì, sì, sì, sì, sì.
+49:20 >> Ancora più pulita. Ora mi stai dicendo
+49:23 che eh io io non sono un tecnico, eh io
+49:27 sono un appassionato di elettronica, ma
+49:30 no tecnico. Quindi per me è una cosa
+49:32 nuova sentire questa
+49:35 >> questo utilizzo qui.
+49:37 >> Allora, generalizzo a tutti quanti.
+49:39 Allora, quello che ha detto Pierpaolo è
+49:41 giustissimo e avremo un'intera lezione
+49:44 dedicata a questa cosa qua. avremo
+49:46 un'intera lezione in cui parleremo di eh
+49:49 alimentatori
+49:51 per sapere un pochino come funziona e
+49:53 soprattutto per sapere come scegliere
+49:55 l'alimentatore giusto per la vostra
+49:57 stazione, cose di questo genere. E negli
+49:59 alimentatori il i condensatori hanno una
+50:03 funzione più vicina a quella originale
+50:05 di serbatoio di carica, però oltre che
+50:07 quella funzione lì in una radio, in una
+50:10 televisione, in un trasmettitore, in un
+50:12 ricevitore ci sono moltissimi
+50:14 condensatori che sono utilizzati invece
+50:17 per usi di segnale, diciamo, non di
+50:19 tensione di alimentazione.
+50:23 e gli usi di segnale. Il tipico uso di
+50:25 segnale è quello che dicevo, cioè il
+50:27 condensatore per collegare uno stadio
+50:29 successivo si fa attraversare dal
+50:32 segnale, ma blocca tutto quello che di
+50:33 tensione continua c'è prima e tutto
+50:35 quello che di tensione continua c'è
+50:36 dopo. Ne ne parleremo, Pierpaolo, levato
+50:40 una cosa giustissima. Guarda, c'è una
+50:41 lezione specifica su questo. Ok?
+50:45 Quindi non hai detto cose strane. È è
+50:48 vero che negli alimentatori i
+50:49 condensatori hanno quella funzione lì.
+50:52 Ok?
+50:56 Perfetto, grazie.
+50:57 >> Buono. A te adesso, Luca.
+51:03 Sì. Eh, allora solo un chiarimento.
+51:05 Praticamente il condensatore lavora
+51:09 totalmente all alopposto del
+51:12 dell'induttore o sbaglio?
+51:14 M sì, diciamo che hanno hanno modalità e
+51:19 comportamenti simmetrici. Uno lavora sul
+51:22 campo elettrico, questo e l'altro lavora
+51:24 sul campo magnetico.
+51:27 Uno è per uno è un corto circuito alle
+51:29 continue e l'altro è un corto circuito a
+51:31 frequenze alte e viceversa.
+51:34 Hanno proprio comportamenti simmetrici e
+51:36 poi quando li mettiamo insieme queste
+51:38 simmetrie e vedrete cosa combinano e ne
+51:42 parliamo la volta prossima.
+51:45 però simmetricamente opposte.
+51:48 >> Sì, esatto, esatto, esatto.
+51:52 >> Ok, grazie
+51:53 >> a te adesso, Luca. A te.
+51:59 Ah, no, scusa, Pierpaolo,
+52:02 aspetta, aspetta, mi arriva.
+52:04 >> No, no, no, io mi sono dimenticato.
+52:07 >> Abbassa la mano, abbassa la mano. Ok,
+52:09 Alfredo, a te. No, scusami. Prima Marco
+52:11 Marco Marini e poi Alfredo.
+52:18 >> Sì. Pronto, mi sentite?
+52:20 >> Sì, vai.
+52:21 >> Ecco, no, io Buonasera. Volevo una un
+52:25 chiarimento. Seè detto il condensatore
+52:28 si oppone alle correnti continue, va
+52:30 bene?
+52:31 E e quindi la reattanza capacitiva è
+52:35 l'opposizione
+52:37 che il condensatore produce al passaggio
+52:38 della corrente continua
+52:40 >> continua in generale al pass in generale
+52:43 al passaggio di una corrente quando
+52:45 >> Ecco. No, no, allora non non avevo
+52:48 capito nulla. Avevo capito che si
+52:50 opponeva al passaggio della corrente
+52:51 alternata. No, no, ho sbagliato. Va
+52:53 bene, allora ora mi torno.
+52:55 >> Allora, aspetta. Sì, sì, sì, aspetta.
+52:56 Nel caso che allora il condensatore ha
+52:59 sempre una reattanza qualunque sia la
+53:03 frequenza della corrente che lo vuole
+53:04 attraversare.
+53:06 Se questa frequenza è molto bassa,
+53:08 quindi siamo vicini alla corrente
+53:10 continua, la reattanza ha valori
+53:12 stratosferici,
+53:13 100.000 milioni di ohme eccetera.
+53:17 Se invece la frequenza diventa alta,
+53:19 immagina 100 MHz, 50 MHz, laanza diventa
+53:23 bassissima, quindi il condensatore
+53:25 diventa proprio come se fosse un
+53:27 interruttore chiuso, un pezzo di filo
+53:30 quasi senza effetti sul transito del
+53:32 segnale.
+53:34 Ok,
+53:35 >> ho capito. Va bene, grazie.
+53:37 >> Buono a te.
+53:39 Adesso c'è Marco.
+53:47 Marco, il microfono è acceso, ma non ti
+53:49 sento.
+53:54 >> No, no, io avevo già fatto l'intervento.
+53:56 >> Ah, scusami, pardon, che abbassate la
+53:58 mano, poi Luigi.
+54:01 Eh no, cioè è una curiosità, mi sembra
+54:03 di ricordare miei studi che nella in
+54:07 queste componenti oltre allattanza c'è
+54:09 anche la mettenza e io non so se qui poi
+54:12 viene usata o meno se serve magari ecco
+54:16 se se perché non mi ricordo più niente
+54:18 della cioè è l'incontrario
+54:20 dell'impedenza, se non sbaglio.
+54:22 >> Sì, sì. Allora, esatto, esatto.
+54:24 >> Che non so se può servergli, ecco.
+54:26 >> Eh, no, allora non fa parte del
+54:28 programma d'esame, per fortuna. In
+54:30 realtà il concetto non è difficile, nel
+54:33 senso che una resistenza
+54:35 eh se si pensa all'inverso di una
+54:38 resistenza si può pensare a una
+54:40 conduttanza e ci sono certi circuiti che
+54:43 che invece di calcolare la resistenza è
+54:45 più facile calcolare la conduttanza,
+54:48 come nel caso del parallelo di
+54:49 resistenza. E poi il contrario
+54:51 dell'impedenza è l'ammettanza, però e
+54:54 questo non fa parte del programmis
+54:56 esame, ok? E qui, diciamo, in queste
+54:59 sere noi siamo parametrati al 100% sul
+55:03 programma MIMIT che dove c'è già dentro
+55:06 tanta roba, ma fortunatamente alcune
+55:08 cose non ci sono, delle cose che non ci
+55:10 sono non ne parliamo.
+55:14 Ok,
+55:15 >> grazie
+55:16 >> a te. Comunque è vero, hai ragione, hai
+55:18 ragione. Nel senso che eh di ogni di
+55:22 ognuna di quelle unità eh
+55:25 di ognuna di di quelle grandezze che
+55:27 abbiamo visto esiste il reciproco uno su
+55:30 uno divisore resistenza, uno divisore
+55:32 attanza che in certi calcoli è più
+55:34 comodo usare,
+55:37 ma quella parte lì noi la diciamo la la
+55:40 ignoriamo, ok? per non per non esplodere
+55:43 con una quantità enorme di argomenti.
+55:46 Alfredo, a te.
+55:48 >> Eccomi. Solo una curiosità minore e
+55:51 prima si parlava di corrente di fuga
+55:52 quando si parlava del dielettrico. Ehm,
+55:55 ma è un valore irrisorio o ci sono casi
+55:58 in cui potrebbe servire eventualmente
+56:00 calcolarla e gestirla? perché è passata
+56:03 così in velocità e volevo capire un po'
+56:05 meglio se si trattasse di una
+56:07 dispersione minimale o comunque qualcosa
+56:09 che potrebbe influenzare il
+56:11 funzionamento del poi magari del del
+56:12 meccanismo magari anche in una in una
+56:15 radio poi. Grazie.
+56:17 >> Sì, allora ottima domanda. Allora, in
+56:19 generale parlando di condensatori la
+56:21 corrente di fuga è minimale, cioè i
+56:24 condensatori il più delle volte si
+56:27 possono considerare quasi componenti
+56:29 ideali, cioè privi di corrente di fuga.
+56:32 eh può diventare alta la corrente di
+56:34 fuga in alcuni casi, per esempio nei
+56:36 condensatori elettrolitici datati, ma
+56:39 nei condensatori di segnale, quindi
+56:41 quelli non elettrolitici, quelli che non
+56:43 lavorano sulle alimentazioni, no? come
+56:46 si si diceva prima e normalmente il il
+56:50 parametro parassita, quindi la corrente
+56:52 di fuga è eh
+56:55 è normalmente è trascurabile per il 99%
+56:59 delle applicazioni che si fanno. Invece
+57:02 il componente che è molto lontano dal
+57:05 componente ideale è l'induttore.
+57:07 L'induttore, purtroppo, poi lo vedremo
+57:10 nelle prossime due puntate, e
+57:13 l'induttore porta con sé sempre una
+57:15 quantità di non ottimalità di perdite
+57:19 che poi si si traducono in perdite che,
+57:22 diciamo, sono anche sono anche rilevanti
+57:25 e quindi siccome i condensatori e
+57:26 indottori lavorano molto spesso in
+57:28 parallelo e diciamo quando il circuito è
+57:31 degradato non è mai la colpa del
+57:32 condensatore per intenderci, no? anche
+57:34 il condensatore, ripeto, cioè si eh
+57:37 diciamo la corrente di fuga è minima,
+57:39 tant'è che non la si misura neanche in
+57:41 corrente, si misura con un parametro che
+57:44 che è trigonometrico, il tangent delta,
+57:48 che è la tangente dell'angolo di fuga
+57:49 perché altrimenti non si apprezzerebbe.
+57:52 Invece nel caso degli induttori e non
+57:55 non è così per per motivi che vedremo.
+57:59 >> Grazie
+57:59 >> a te. ne parliamo già alla prossima
+58:01 puntata di questa cosa.
+58:04 Allora, riparto. Grazie per le domande
+58:06 che ci aiutano a focalizzare, a
+58:08 rifocalizzare un po' le cose e a e anche
+58:11 un po' staccare. Dunque,
+58:16 adesso parliamo di di un concetto che
+58:20 adesso vi definisco una cosa nuova che
+58:22 si chiama l'impedenza. L'impedenza.
+58:25 Allora, abbiamo visto nelle praticamente
+58:28 nelle tre puntate scorse abbiamo visto
+58:30 che ogni componente ha una sua forza di
+58:33 opposizione al passaggio della della
+58:36 corrente alternata. Abbiamo abbiamo
+58:38 visto
+58:39 quando abbiamo parlato della resistenza
+58:41 e della legge di Oh che la resistenza lo
+58:43 dice il suo nome stesso e diciamo è una
+58:46 forza d'opposizione alla corrente
+58:48 alternata e abbiamo visto che in una che
+58:50 in una resistenza anche in corrente
+58:52 alternata la corrente e la tensione sono
+58:54 in fase. Poi mercoledì scorso abbiamo
+58:57 parlato della reattenza induttiva,
+58:59 quindi come un induttore ostacola il
+59:02 passaggio della corrente alternata.
+59:04 Abbiamo visto quella famosa formula che
+59:05 prima ho richiamato diverse volte e
+59:08 abbiamo visto che nell'induttore la
+59:09 corrente è in ritardo di 90° rispetto
+59:12 alla tensione e ora stasera abbiamo
+59:14 visto che il condensatore ha la
+59:15 reattanza capacitiva e che la corrente
+59:18 in un condensatore rispetta la tensione
+59:20 in anticipo di 90°. Ora per ora
+59:22 chiaramente
+59:25 abbiamo parlato di questi tre oggetti e
+59:27 chiaramente ne abbiamo parlato in
+59:28 maniera separata, no? prima la
+59:29 resistenza, poi l'induttanza e poi la
+59:31 capacità. Però queste cose possono
+59:33 coesistere tutti e tre insieme in un
+59:35 circuito o ad esempio in un'antenna,
+59:37 tanto per fare un caso un caso pratico.
+59:40 E quindi può capitare di doverle
+59:42 considerare insieme. Quindi immaginate
+59:46 un circuitino elettrico fatto così, come
+59:48 vedete qua sulla sul sulla destra. In
+59:51 questo circuito c'è una resistenza che
+59:53 ha il suo valore di resistenza. c'è una
+59:56 un induttore che a una certa frequenza
+59:59 avrà una certa reattanza e c'è un
+60:01 condensatore che anche lui ha una certa
+60:03 frequenza avrà una certa reattanza.
+60:05 Allora, l'insieme di queste tre forme di
+60:10 resistenza alla corrente elettrica si
+60:12 chiama impedenza.
+60:14 Quindi l'impedenza è, diciamo, è il
+60:19 concetto più generale, diciamo, di
+60:21 opposizione alla corrente elettrica.
+60:23 L'impedenze è una grandezza che al suo
+60:25 interno ha sia quello che è impedito
+60:29 dalla resistenza sia quello che è
+60:31 impedito dal condensatore e o
+60:33 dall'induttore. D'accordo? Quindi
+60:36 l'impedenza in realtà non è una cosa
+60:38 nuova, non è un componente elettronico
+60:40 nuovo, no, però è l'insieme delle forze
+60:43 di opposizione che può essere datai tre
+60:46 componenti che abbiamo visto fino ora:
+60:48 resistore, induttore e condensatore.
+60:50 Questa cosa si chiama appunto impedenza.
+60:52 Mh.
+60:54 E quindi la la definiamo. Cos'è
+60:57 l'impedenza? è la forza che si oppone al
+60:59 transito della corrente alternata, come
+61:01 abbiamo sempre detto, in un circuito,
+61:03 quindi non in un componente, no, non in
+61:05 un condensatore, non in un induttore, e
+61:07 in generale in un circuito. Un circuito
+61:10 è un è ovviamente un circuito elettrico
+61:13 è un una è un concetto un po' più
+61:15 complesso, no, del componente, appunto.
+61:18 Qui abbiamo tre componenti elettronici,
+61:20 R, L. Se li vediamo tutti e tre insieme,
+61:24 questo è un circuito serie, un circuito
+61:26 serie dove RLC sono disposti in serie. È
+61:29 un piccolo circuito elettrico.
+61:31 L'impedenza è la forza di opposizione di
+61:33 quel circuito che abbiamo visto prima.
+61:36 Chiaramente, siccome di base abbiamo
+61:38 misurato sempre in OM, queste forze di
+61:40 opposizione, anche l'impedenza si misura
+61:42 in Oh. Si indica con la lettera Z
+61:46 e poi va da sé che dipende dalla
+61:48 frequenza perché lo lo si vede qua, no?
+61:51 Cioè, e qui di questi tre parametri
+61:53 solamente la resistenza
+61:56 di un resistore non dipende dalla
+61:58 frequenza. Un resistore se vale 1000
+62:00 ohm, quei 1000 ohm di resistenza ce li
+62:02 ha a qualsiasi frequenza, no? 100 Hz,
+62:05 1000 Hz, 10.000 Hz. Invece nella reenza
+62:08 induttiva e capacitiva non è così. E
+62:10 abbiamo visto le formule, no? Quell'
+62:11 iperbole e quella retta della reattanza
+62:15 induttiva.
+62:17 Ovviamente l'impedenza, siccome dentro
+62:18 c'è un condensatore, dentro c'è una,
+62:21 scusate, lo dico meglio, dentro c'è una
+62:22 reenza induttiva, dentro c'è una
+62:24 reattenza capacitiva, dipende dalla
+62:26 frequenza. Allora, come diavolo si fa a
+62:28 scrivere un'impedenza? Perché noi fino a
+62:30 ora abbiamo imparato a scrivere le
+62:33 resistenze o nelle reattanze. Noi noi
+62:35 sappiamo scrivere che una resistenza è
+62:37 100 ohm, per esempio, d'accordo?
+62:41 il suo valore di opposizione e poi qui
+62:44 eh a una certa frequenza possiamo dire
+62:46 che il valore della latenza induttiva di
+62:48 un pop è 50 ohm.
+62:51 Questo lo sappiamo fare. Ma come
+62:53 facciamo a dire che impedenza ha un
+62:55 circuito dove ci sono questi tre valori?
+62:58 Per esempio la resistenza 100. A quella
+63:01 frequenza lì la reattanza mi mi dà 50
+63:04 ohm, quella induttiva e la reattanza
+63:07 capacitiva mi mi fa 200 ohm. Come si
+63:08 fanno a combinare queste tre reattanze?
+63:13 Si fa in questo modo qua.
+63:16 Ora diciamo vi vi racconto come
+63:19 funziona. Su queste cose non c'è da fare
+63:21 i conti dal punto di vista dell'esame,
+63:23 cioè c'è solamente da sapere il
+63:25 concetto. Allora, un'impedenza è
+63:27 composta da una parte reale e una parte
+63:31 che è chiamata immaginaria.
+63:34 Poi capiremo cosa vuol dire immaginaria.
+63:37 La parte reale è la resistenza
+63:40 e la parte immaginaria sono le
+63:42 reattanze. E questa cosa si scrive in
+63:44 questo modo qua. L'impedenza Z
+63:49 è uguale a un certo valore di resistenza
+63:51 più j, lettera greca J lunga X. Per
+63:55 esempio, questa cosa qui eh una
+64:00 impedenza di un'antenna, ad esempio,
+64:03 potrebbe essere J + 15 ohm. J + 15
+64:10 perché eh
+64:13 fatemi fare un esempio un po' un po' un
+64:16 po' pratico, un po' ruspante. Allora,
+64:17 parecchi di voi lavorano, hanno
+64:20 esperienza di radio in banda cittadina,
+64:22 quindi avrete il baracchino o magari
+64:24 anche qualcosa di un po' più
+64:25 sofisticato, avrete un'antenna. Eh,
+64:28 questa antenna probabilmente molti di
+64:30 voi avranno, chi ha una stazione di
+64:33 questo genere normalmente ha un
+64:35 rosmetro, quindi un misuratore di onde
+64:37 stazionarie per vedere l'antenna come
+64:39 funziona. Chi non conosce queste cose
+64:41 non si preoccupi perché fra poco avremo
+64:43 una lezione dedicata a quello. Allora,
+64:45 un rosmetro mostra come eh un'antenna
+64:48 funziona, però con un parametro che non
+64:50 è molto significativo. Non so se sapete
+64:53 che, cioè parecchi di voi secondo me già
+64:56 sanno che oggi esiste una generazione di
+64:58 strumenti che sono fortunatamente
+65:00 diventati anche abbastanza economici, i
+65:03 cosiddetti VNA, V come Verona, N come
+65:07 Napoli, a come Ancona che sta per vector
+65:11 network analyzer, analizzatore
+65:12 vettoriale di reti, analizzatore di reti
+65:14 vettoriali
+65:16 e che di un'antenna è in grado, per
+65:19 l'appunto, di dare questi parametri qua,
+65:20 il suo valore resistivo
+65:23 e la sua impedenza in base a certe in
+65:26 base alle varie frequenze in cui si
+65:27 vuole usare quell'antenna. E a
+65:29 differenza del rosmetro,
+65:31 sapendo questi due valori sappiamo
+65:34 quanto l'antenna rende realmente e come
+65:36 possiamo fare per aggiustarla e farla
+65:38 rendere al meglio. Allora,
+65:41 andiamo avanti, poi torno un attimo su.
+65:44 Allora, cos'è la reattanza? La reanza è
+65:46 la parte cosiddetta immaginaria
+65:48 dell'impedenza.
+65:50 La reattanza induttiva convenzionalmente
+65:52 ha segno più, quindi una reattanza
+65:55 induttiva può essere +65. Una reattanza
+65:58 capacitiva convenzionalmente a segno
+66:00 meno, per esempio -50.
+66:04 In un circuito serie, come abbiamo visto
+66:06 prima, ma in generale in tutti i
+66:07 circuiti, le reattanze si combinano
+66:09 l'una con l'altra e si sommano si
+66:12 moltiplicano algebricamente.
+66:14 Algebricamente vuol dire col segno. Nel
+66:16 caso della serie si sommano col segno,
+66:18 quindi 65 + 65 + -50 il risultato è 15
+66:25 perché le somme algebriche sono quelle
+66:28 appunto col segno. Quindi
+66:31 questo 15 potrebbe venire da qua. Un
+66:35 attimo che tolgo
+66:40 il il colore.
+66:47 qui potrebbe essere appunto in questo
+66:49 circuito che dov'è il cursore qua che
+66:53 alla frequenza a cui sto lavorando, per
+66:56 esempio 27 MHz, la reattanza induttiva
+66:59 ha quel + 65 ohm di cui si leggeva prima
+67:04 della slide successiva. La reattanza
+67:07 capacitiva invece alla frequenza a cui
+67:10 lavora l'antenna ha -50 ohm.
+67:15 eh + 65 - 50, la somma algebrica è + 15.
+67:20 Ed ecco il +15 qua.
+67:25 Qualcuno di voi che magari ha l'occhio
+67:28 lungo avrà già immaginato che ci sono
+67:31 delle frequenze dove i valori della
+67:33 reattanza capacitiva e induttiva sono
+67:35 uguali e visto che sono di segno opposto
+67:37 si eliminano l'una con l'altra perché in
+67:39 questo giochetto che ho fatto qua + 65 -
+67:43 50 è risultato 15, ma potrebbe essere
+67:45 che la reattanza
+67:47 induttiva, scusate, è + 65 e la
+67:50 reattanza induttiva è -65.
+67:54 In questo caso le due reattanze si
+67:56 cancellerebbero l'una con l'altra, come
+67:58 vedremo quando parleremo di risonanza, e
+68:00 resta solo la resistenza di 50 ohm, che
+68:04 quando parleremo di antenne vedremo che
+68:05 questa è la miglior ehm eh situazione
+68:09 per avere il maggior rendimento di di
+68:12 antenna. Comunque, intanto,
+68:15 intanto per stasera, eh la cosa che mi
+68:18 interessa è capire,
+68:21 spiegare che voi capiate bene questa
+68:23 terminologia. Quindi, appunto,
+68:25 un'impedenza, ricomincio, un'impedenza è
+68:28 la componente di tutte è la somma di
+68:30 tutte le forze di opposizione che
+68:32 possono essere in un circuito, no?
+68:33 quella delle resistenze, ma anche quella
+68:35 dell'induttore e quella del
+68:36 condensatore. Quella delle resistenze è
+68:38 un numero puro, 50 ohm, diciamo, ad
+68:41 esempio, o 70 ohm. Quella della
+68:44 reattanza è un numero positivo, quella
+68:47 della capacità ha un è, diciamo, un
+68:50 numero negativo.
+68:58 Eh,
+69:02 così facendo noi siamo in grado di dov'è
+69:05 il cursore? noi siamo in grado di
+69:06 scrivere, diciamo,
+69:09 eh in generale qualsiasi impedenza,
+69:11 nella sua parte reale R e nella sua
+69:14 parte immaginaria,
+69:17 questo + JX.
+69:19 Fra un attimo vi spiego questo J che
+69:22 cosa vuol dire, però fatemi andare un
+69:24 po' più avanti, poi torniamo qua.
+69:28 Allora, adesso, avendo
+69:31 e questo concetto di reattanza,
+69:34 si può parlare anche di come funziona la
+69:37 legge di Home in corrente alternata,
+69:39 perché la legge di Hom noi per ora
+69:41 l'abbiamo vista solo in corrente
+69:42 continua, V = RI, eccetera. La legge
+69:46 vale anche in corrente alternata, pari
+69:48 pari, valgono le stesse formule,
+69:51 semplicemente al posto della resistenza
+69:54 ci si mette l'impedenza. Quindi questa,
+69:56 per esempio,
+69:59 è la è una delle tre formulazioni di
+70:01 base della legge di ohm uguale R * I.
+70:04 Qui è scritto I * R, come abbiamo
+70:08 definito noi quando parlavamo di
+70:10 corrente continua. Qui siamo in corrente
+70:12 alternata, per cui in corrente alternata
+70:15 non abbiamo solo la R, ma abbiamo in
+70:17 generale l'impedenza, come abbiamo visto
+70:19 prima. Quindi la legge di Hom, se
+70:21 vogliamo, resta resta uguale. Il
+70:24 concetto che avete visto che abbiamo
+70:26 visto nella seconda lezione è identico
+70:29 nelle tre formulazioni, no? I = V / R
+70:32 diventa I = V / Z e R = V / I diventa Z
+70:40 = V / I, quindi vale allo stesso modo mh
+70:47 la la legge di Oh ohm.
+70:50 Allora, vediamo cosa succede dal punto
+70:53 di vista della potenza. Noi quando
+70:56 abbiamo parlato delle resistenze abbiamo
+70:59 visto che una resistenza normalmente
+71:02 dissiva, scalda, quindi trasforma
+71:05 energia elettrica in calore e diciamo
+71:07 praticamente scaldando, diciamo, fa un
+71:11 lavoro, fa una parte di lavoro. Abbiamo
+71:13 visto che la potenza si misurava in in
+71:15 watt. Che potrebbe essere il watt era
+71:18 calcolato V * I oppure R * I^ oppure V^
+71:23 / R. Vediamo cosa succede della potenza
+71:28 in un circuito come questo. Quindi io ho
+71:31 un circuito come questo, un circuito RLC
+71:34 serie, lo attacco a un generatore di
+71:36 tensione alternata. Potrebbe essere
+71:38 anche eh la sorgente dell'elmaginiamo
+71:42 che questo sia un circuito, che questo
+71:44 sia il circuito equivalente di un
+71:46 oggetto che ho in casa, che potrebbe
+71:48 essere l'aspirapolvere, che potrebbe
+71:50 essere il ferro d'aspiro, d'accordo? un
+71:53 qualunque utilizzatore
+71:55 della che io attacco alla mia rete
+71:58 elettrica.
+72:00 La cosa che io so è che siccome questo è
+72:03 un circuito serie, in tutti e questi in
+72:05 questi tre, diciamo, componenti scorre
+72:08 la stessa corrente perché sono in serie,
+72:10 no? La corrente che entra di sopra esce
+72:12 da sotto. È una delle leggi di Kirkof,
+72:14 se vi ricordate, no? Questa è una maglia
+72:17 e quindi, diciamo, eh
+72:20 non ci sono nodi, per cui la somma del
+72:23 le correnti nella maglia sono eh in
+72:26 questo caso sono le stesse.
+72:29 Allora, vediamo cosa cosa succede delle
+72:31 potenze. Allora, eh sulate,
+72:38 ho perso il cursore. Allora, sulla
+72:40 resistenza
+72:44 scorre una certa corrente. Io posso
+72:46 calcolare P = R * I la potenza che
+72:51 scorre, che questa resistenza in qualche
+72:53 modo dissipa. Allora, la potenza che la
+72:57 resistenza dissipa, quindi la corrente
+73:00 che scorre nella resistenza, fa sì che
+73:03 la resistenza
+73:05 dissipi, appunto, quella potenza e nel
+73:09 caso della resistenza questa corrente
+73:12 genera un lavoro utile, come leggete
+73:14 qua. Quindi la resistenza scalda e
+73:17 quindi ne può scaldare una stanza, può
+73:19 essere una stoffetta elettrica, può
+73:21 essere la resistenza equivalente di una
+73:23 lampadina, quindi mi fa luce, può essere
+73:25 la resistenza del equivalente del motore
+73:27 del mio eh ascensore e quindi mi solleva
+73:31 un carico. Questi questi esempi che che
+73:33 vedete che vedete qua.
+73:36 Questa
+73:38 la resistenza genera un lavoro utile
+73:41 perché nella resistenza la tensione e la
+73:43 corrente sono in fase. La stessa
+73:45 corrente mi passa attraverso l'induttore
+73:48 e attraverso il condensatore.
+73:52 eh potrei calcolare
+73:55 R per I sostituendo R con l'impedenza,
+73:58 potrei calcolare X per I qu sia per
+74:02 l'induttore che per il condensatore.
+74:05 Però nell'induttore e nel condensatore
+74:07 la corrente e la tensione non sono in
+74:09 fase. Questo fa sì che la corrente che
+74:12 scorre in questi dispositivi non genera
+74:16 lavoro utile,
+74:19 come vedete qua sotto,
+74:22 cioè non produce effetti misurabili. La
+74:26 corrente che scorre in induttori,
+74:28 nell'induttore, nel condensatore, non
+74:30 non scalda, non fa girare motori, non
+74:33 genera non genera luce, non praticamente
+74:37 non ha effetti pratici riscontrabili
+74:41 nel, diciamo, nel mondo reale. sono
+74:45 componenti, da un certo punto di vista
+74:46 parassiti e il prodotto tensione per
+74:49 corrente viene zero se calcolato nel
+74:53 modo opportuno, a causa del fatto che in
+74:56 quei componenti, come abbiamo visto, la
+74:58 tensione e la corrente non sono in fase,
+75:00 ma sono sfasati di 90°. È a causa è a
+75:04 causa di questo sfasamento fra tensione
+75:06 e corrente che un carico induttivo o un
+75:09 carico capacitivo non sono in grado di
+75:12 generare eh lavoro. il lavoro, parlando
+75:17 di carico, parlando di un carico,
+75:19 diciamo, complesso come può essere
+75:22 questo, in cui c'è una R, una L e una C,
+75:26 eh viene in qualche modo erogato
+75:29 solamente dalla parte resistiva del
+75:32 carico e questo è il concetto
+75:34 fondamentale di di stasera. Torno
+75:36 all'esempio che facevamo prima
+75:38 dell'antenna. Qui si diceva che questo
+75:41 50 + G15
+75:44 eh può essere tranquillamente
+75:46 l'impedenza di un'antenna dove c'è una
+75:48 parte reale reale in via 50 ohm e una
+75:52 parte immaginaria il + J15.
+75:57 L'irradiazione dell'antenna viene fatta
+76:00 solamente da questa parte
+76:02 dell'impedenza, dai 50 ohm. Questo è un
+76:05 parametro parassita che non che non
+76:08 serve a niente, non contribuisce
+76:10 assolutamente all'irantenna,
+76:12 anzi per certi versi può essere dannoso
+76:15 e ne lo vedremo in maniera in maniera in
+76:18 maniera poi specifica quando parleremo
+76:20 quando parlerete delle antenne, però
+76:22 diciamo il lavoro dell'antenna viene
+76:25 fatto solo dall'a parte resistiva ed è
+76:29 così in tutte le utenze elettriche.
+76:31 quello, diciamo, nei nei nei vari
+76:34 carichi che avete in casa vostra, tutto
+76:38 il lavoro di cui siete in qualche modo
+76:40 beneficiari viene eh realizzato
+76:44 dalla parte reale, cioè dalla parte
+76:47 resistiva di quei carichi. Mi fermo un
+76:50 attimo, ho visto che c'erano un paio di
+76:52 di mani alzate prima di andare avanti.
+76:55 Comunque questo è l'ultimo concetto di
+76:56 stasera. Ora ne ne riparliamo anche in
+76:58 maniera un po' più precisa, però intanto
+77:00 se ci sono domande ne parlo volentieri.
+77:02 Matteo, a te.
+77:04 >> Ciao, buonasera a tutti. Allora, ehm,
+77:07 una cosa che m'ha fatto un attimo
+77:09 pensare, siè detto che intanto
+77:13 l'impedenza
+77:15 eh è relativa a tre carichi, a tre
+77:19 carichi, non la resistenza,
+77:21 all'induttore e il condensatore. devono
+77:24 essere necessariamente un 1 o sono solo
+77:27 rappresentanze
+77:30 di eh cioè ci deve essere
+77:32 necessariamente
+77:34 un condensatore,
+77:36 una resistenza,
+77:38 ehm
+77:41 >> e un indore. Induttore,
+77:43 >> eh
+77:44 sì e contemporaneamente no. Diciamo che
+77:48 mh Allora, qui si sta parlando di cose
+77:50 che generano un lavoro. Allora, quelle
+77:53 quei tre componenti possono essere tre
+77:56 componenti reali, quindi io ho, diciamo,
+77:59 sul mio tavolo una resistenza, un
+78:01 condensatore, un induttore, li collego
+78:03 in serie e ottiene quella cosa che
+78:06 quella e si ottiene quel carico di cui
+78:08 stiamo parlando stasera. Sì,
+78:11 >> però molte volte, diciamo, nel mondo,
+78:15 diciamo, reale, eh, più elettrico che
+78:18 elettronico, quelle tre cose sono
+78:21 componenti
+78:22 di un unico oggetto. Per esempio, eh tu
+78:26 hai in cucina un frigorifero,
+78:27 congelatore
+78:29 e allora in quel frigorifero c'è un
+78:31 motore che muove il compressore. Questo
+78:33 motore presenta alla rete una componente
+78:36 resistiva che è quella che fa il lavoro
+78:39 e contemporaneamente al suo interno ha
+78:41 sicuramente una forte componente
+78:43 induttiva perché i motori sono fatti
+78:45 praticamente tutti di avvolgimenti, no?
+78:47 Quindi di spirali di filo,
+78:49 >> sì.
+78:49 >> E ha sicuramente al suo interno una
+78:51 componente capacitiva piccola.
+78:55 Queste componenti reattive, le induttive
+78:58 e la capacitiva, come ho detto prima, si
+79:02 sommano fra loro algebricamente. Quindi
+79:04 la componente capacitiva, che è piccola,
+79:07 va a sottrarsi un po' dalla componente
+79:09 indottiva, ma il motore di quel
+79:12 frigorifero congelatore resta
+79:14 essenzialmente eh indottivo. Quindi, se
+79:17 lo misurassi con un opportuno strumento,
+79:19 con un impedensimetro, troverei un
+79:22 troverei una parte reale, che è quella
+79:24 che fa il lavoro, e una parte
+79:26 immaginaria che è quella induttiva che
+79:30 deriva dagli avvolgimenti del motore in
+79:34 parte compensati da quel po' di capacità
+79:36 che c'è. Mh.
+79:38 >> Ok. Quindi sono carichi eh logici,
+79:41 diciamo così, che possono rappresentare
+79:44 >> Esattamente. Esattamente. Poi arriva
+79:46 arriva mamma Enel e mi dice attenzione,
+79:50 allora questa cosa che dico lo sto
+79:52 dicendo ora in risposta a Francesco,
+79:54 però è una cosa generale che poi sarà
+79:56 nelle prossime due slide che vedremo.
+79:58 Arriva Lenel e e dice attenzione, se tu
+80:02 mi dai dei carichi troppo induttivi, io
+80:04 ti faccio la multa. Io non voglio
+80:06 carichi induttivi proprio perché eh il
+80:10 fattore di induttanza che c'è nei
+80:12 carichi elettrici crea delle correnti
+80:14 parassite di linea che l'en vuole tenere
+80:17 sotto un certo livello.
+80:19 E allora, siccome queste, diciamo, la
+80:24 maggior parte dei carichi sono
+80:25 induttivi, normalmente nelle macchine un
+80:29 po' grosse vengono inseriti
+80:31 appositamente dei condensatori che hanno
+80:34 come unico scopo quello, come si dice,
+80:36 di rifasare il carico, cioè il
+80:38 condensatore
+80:39 >> e di assorbire. Bravo, bravo.
+80:41 >> Perché questa era l'altra domanda, se
+80:44 posso, e nel disegno abbiamo messo la
+80:46 resistenza all'inizio che ha la corrente
+80:49 e la tensione in fase. Eh, poi dopo
+80:52 abbiamo messo o un condensatore o un
+80:54 induttore, quindi sono intercambiabili
+80:56 che sfasano la corrente e la tensione.
+80:59 >> Sì.
+81:00 >> Se a quel punto metto un'altra
+81:01 resistenza, la corrente che entra in
+81:04 quella resistenza è sfasata. Vuol dire
+81:07 che la resistenza non sta facendo un
+81:09 lavoro.
+81:12 >> Allora, nella resistenza la tensione e
+81:14 la corrente sono sono sempre in fase. La
+81:17 parte di scusami, la parte di sfasamento
+81:20 si palleggia fra induttore e
+81:22 condensatore. Si palleggia fra induttore
+81:24 e condensatore. Ok. Però se io ho un
+81:26 condensatore, condensatore mi sfasa la
+81:29 corrente, la sfasa solo all'interno del
+81:32 condensatore o quando anche quando esce
+81:34 dal condensatore è fuori fase?
+81:37 >> Eh, anche quando esce dal condensatore è
+81:39 fuori fase. Poi allora poi ti faccio
+81:41 vedere
+81:43 dammi un attimo e ti faccio vedere uno
+81:45 slide. D'accordo? Perfetto. D'accordo.
+81:46 >> Fammi sentire altre domande.
+81:48 >> Luca, a te.
+81:52 >> Sì, è una cosa velocissima, eh. Riguardo
+81:55 al discorso dell'antenna di primo,
+81:59 quella componente immagin quei 15 che
+82:01 erano immaginari, no? Più o meno
+82:03 com'era, sarebbero
+82:06 m per a grandi linee sarebbe il Ross del
+82:10 dell'antenna?
+82:13 No, il Ross è un altro tipo di misura.
+82:16 Eh,
+82:19 quella parte immaginaria è una, in quel
+82:22 caso lì, un'induttanza che l'antenna ha
+82:25 e che andrebbe compensata o tramite un
+82:27 accordatore d'antenna o agendo
+82:29 fisicamente sull'antenna stessa.
+82:33 Ok?
+82:34 Perché un'antenna,
+82:37 >> scusa, non t'ho sentito.
+82:39 >> In che modo?
+82:42 eh
+82:42 >> facendo sull'antenna
+82:44 >> e per esempio inserendo un condensatore
+82:46 sull'antenna
+82:49 se c'è da compensare una parte
+82:51 induttiva.
+82:53 In effetti, come vedremo, come vedrete
+82:55 poi quando si farà le antenne, molte
+82:58 antenne hanno delle compensazioni di
+83:01 quel tipo inserite proprio
+83:04 meccanicamente sulle antenne. A volte
+83:06 sulle antenne si vedono dei pezzetti di
+83:07 alluminio, magari sagomati a u che non
+83:10 si capisce bene che cosa si facciano.
+83:12 Fanno esattamente questo lavoro di cui
+83:14 stiamo parlando ora.
+83:17 >> Ok, grazie. E ci arriviamo, ci
+83:20 arriviamo.
+83:23 Allora, vi faccio
+83:25 riprendendo,
+83:26 aspetta, eh, metto in condivisione,
+83:31 metto dentro anche l'ultimo pezzetto di
+83:35 stasera
+83:43 e siamo qua. Allora,
+83:47 cosa cosa si è detto? Allora, in questa
+83:50 slide avete un riassunto del discorso
+83:52 fatto finora,
+83:54 quindi la potenza in corrente alternata.
+83:57 Un attimo che non ritrovo.
+84:01 Eccolo qua. Cavo
+84:04 il cursore è molto piccolo su questo
+84:06 monitor e allora per ritrovarlo mi
+84:08 servono sempre. Allora, qui avete il
+84:12 circuito di cui si parlava prima, no?
+84:15 RLC in serie. In questo circuito
+84:17 tensione e corrente di solito non sono
+84:19 in fase. Quindi cosa succede? Allora, il
+84:22 generatore Il generatore è questo qua.
+84:24 Per loro ho fatto esempi Enel.
+84:26 Immaginiamo che questo sia un generatore
+84:28 50 Hz dell'Emel. Il generatore è di una
+84:32 tensione V 220 V
+84:35 e ero una corrente I che io posso
+84:38 misurare. Però questa cor questa
+84:42 corrente e questa tensione non sono in
+84:46 fase per i motivi che si è detto prima
+84:48 quando parlavo col vostro collega.
+84:50 Quindi la potenza che il generatore
+84:52 eroga in questo tipo di situazione è
+84:55 chiamata potenza apparente.
+85:00 Vale V * I dove V è 220 e I potrebbe
+85:04 essere 1 amp
+85:06 assorbito da questo carico dal
+85:07 frigorifero di cui si stava parlando
+85:09 prima e questa potenza apparente la si
+85:13 misura in voltampe. Qualcuno di voi
+85:15 probabilmente ha sentito questa unità di
+85:18 misura volt ampere. non watt, volt
+85:21 ampere. Nella resistenza, in questa
+85:25 parte qua di resistenza, come vi dicevo
+85:29 prima, sulla resistenza tensione e
+85:31 corrente sono in fase, quindi la
+85:32 resistenza assorbe quella che è chiamata
+85:34 potenza attiva.
+85:36 Posso calcolare sulla resistenza R qu
+85:40 watt e sulla resistenza la la potenza
+85:44 dissipata da quella resistenza si chiama
+85:46 potenza attiva e produce lavoro.
+85:50 Nel condensatore e nell'induttore, come
+85:53 potete leggere qua sotto, no? Le
+85:54 tensioni delle correnti, come sapete,
+85:56 sono sfasate di 90°, si dice sono in
+85:59 quadratura. Quindi questi assorbono solo
+86:02 potenza reattiva,
+86:05 come leggete qua. E questa potenza
+86:08 reattiva
+86:10 è x, la formula è eh x * il quadro, che
+86:16 è la stessa formula della potenza usata
+86:18 prima, no? Solamente invece di R della
+86:21 resistenza c'è X, non c'è R qu, ma c'è X
+86:25 e I qu e questa potenza
+86:29 e questi sono chiamati VAR, voltampere
+86:32 reattivi. Voltampere reattivi.
+86:35 In pratica cosa succede?
+86:38 E questo schema, diciamo, rimette
+86:40 insieme tutti tutti i pezzi e lo si qui
+86:43 lo si vede anche tenendo conto delle
+86:46 sfasature di cui si parlava prima.
+86:48 Allora, questa Q
+86:52 questa freccia qui che vedete in questa
+86:55 in questo rettangolo, questa freccia
+86:56 rossa che sto trapeggiando è la tensione
+86:59 del generatore
+87:02 e il circuito complessivamente
+87:05 nel circuito complessivamente scorre
+87:08 questa corrente qua,
+87:10 la diagonale di questo rettangolo
+87:14 e a causa dello sfasamento fra corrente
+87:16 e tensione questa
+87:18 La corrente che scorre nel mio circuito
+87:20 sarà sfasata di un certo grado, di di un
+87:24 certo angolo che è chiamato F in questo
+87:27 in questo schema rispetto alla tensione.
+87:30 Quindi la tensione e la corrente
+87:32 complessivamente non sono in fase.
+87:35 Allora,
+87:37 questo valore di V per questo valore di
+87:40 I è chiamato potenza apparente, quindi è
+87:43 quello che si legge strumentalmente
+87:45 sapendo che V che è 220 V e che I posso
+87:48 posso misurare questo questo valore e
+87:52 diciamo ottengo questo numero di
+87:54 voltampere potenza apparente. Però
+87:56 questa potenza apparente non è eh non
+88:00 equivale al lavoro che mi sta generando
+88:02 la mia la mia macchina. Il lavoro che mi
+88:04 sta generando la mia macchina è quello
+88:07 che prima abbiamo chiamato la potenza
+88:08 attiva
+88:10 e la potenza attiva è il prodotto fra la
+88:15 tensione del mio generatore, questa V
+88:17 qua,
+88:19 e la componente di questa corrente I che
+88:22 è in fase con la V del generatore.
+88:25 Allora, io posso, aspetta un attimo,
+88:28 tolgo
+88:32 i segni che ho fatto fino a ora. Io
+88:36 posso scomporre questa questa corrente,
+88:44 posso scomporre questa corrente I
+88:47 globale, diciamo, eh di tutto il
+88:50 circuito in due parti. in questa parte
+88:54 qua che è quella in fase rispetto alla
+88:57 tensione e in questa parte qua che è
+88:59 quella suasata di 90° rispetto alla
+89:02 tensione.
+89:04 Quindi
+89:06 la mia potenza attiva e questa è
+89:09 un'operazione che si fa con queste
+89:11 frecce, equivale a un teorema di
+89:12 Pitagora di fatto è la scomposizione di
+89:15 un vettore, parlando appunto
+89:18 matematicamente il il vettore i della
+89:21 corrente lungo e i miei due assi di
+89:24 interesse. I miei due assi sono uno
+89:27 quello e su cui c'è la tensione e
+89:30 l'altro è quello a 90° rispetto alla
+89:33 tensione, quello ortogonale a 90°
+89:36 rispetto alla tensione.
+89:39 diciamo nel quindi questo valore di
+89:42 corrente I che ho quassù può essere
+89:45 scritto come la somma vettoriale
+89:49 i I, questa che è chiamata IF, cioè la
+89:52 corrente che è in fase
+89:56 rispetto alla tensione + IQ
+90:05 che è la corrente che a causa della
+90:07 bobina e che il condensatore è in è
+90:09 inquadratura
+90:11 rispetto alla mia alla mia tensione.
+90:16 Eh,
+90:19 la potenza attiva la potenza attiva che
+90:22 è quella che ho resistenza, vale V
+90:26 moltiplicato la corrente che ho in fase.
+90:31 La potenza
+90:33 reattiva, che è questa qua, che è quella
+90:35 che Enel non vorrebbe, è sempre V
+90:39 moltiplicato IQ, questa che è
+90:41 inquadratura.
+90:43 Enel vorrebbe che questa, ma ma anche
+90:47 noi per le nostre antenne, diciamo, Enel
+90:49 vorrebbe, tolgo i colori.
+90:56 Enel vorrebbe che quest'angolo qui fosse
+90:59 il più vicino possibile,
+91:02 questo angolo qui F vorrebbe che fosse
+91:05 il più vicino possibile allo zero, nel
+91:07 senso che en gradirebbe, ad esempio, una
+91:09 situazione di questo tipo. invece non
+91:12 vorrebbe una situazione di questo tipo,
+91:14 cioè non vorrebbe delle alte componenti
+91:17 di corrente in quadratura, perché questo
+91:20 genera una serie di correnti parassite
+91:23 lungo i cavi elettrici che non si
+91:24 trasformano in lavoro, no? Invece
+91:26 l'obiettivo dell'ENER è dati certi casi
+91:29 elettrici, dato una certa sezione dei
+91:31 cavi elettrici e quindi una certa
+91:32 capacità di transito della linea
+91:34 elettrica, fare in modo che questa
+91:36 capacità di transito sia tutta
+91:38 finalizzata a dare lavoro utile, cioè
+91:41 potenza potenza attiva.
+91:45 Quando,
+91:47 scusate, ho perso di nuovo il cursore.
+91:49 Quando sono in una situazione di questo
+91:51 genere, di fatto l'Enel mi obbliga a
+91:54 inserire nel mio dispositivo
+91:58 delle cose che fanno sì che questa
+92:00 corrente scenda quaggiù. E questa cosa
+92:03 tipicamente sono i cosiddetti
+92:05 condensatori di rifasamento
+92:08 che eh mangiano una parte di potenza re
+92:13 pangano una buona parte della potenza
+92:15 reattiva generata dagli dagli induttori.
+92:19 Così il mio carico è più in fase,
+92:21 l'enera è contenta e siamo tutti
+92:22 contenti, come poi accadrà anche sulle
+92:24 antenne. sulle antenne dobbiamo fare in
+92:26 modo che la potenza attiva di fatto che
+92:31 la potenza apparente di fatto sia uguale
+92:32 alla potenza attiva, cioè
+92:35 cioè che quest'angolo F sia di fatto
+92:38 uguale 0 e la condizione migliore in cui
+92:40 un'antenna può lavorare
+92:45 e per ora non ho altro da dire. Quindi
+92:48 riassumendo, riassumendo, torno un
+92:50 momento indietro. Allora, abbiamo visto
+92:52 l'impedenza, abbiamo visto che
+92:53 l'impedenza è eh il concetto complessivo
+92:57 che ha dentro di sé la resistenza e
+93:00 tutte e due le reattanze. Abbiamo visto
+93:02 che con che l'impedenza può essere usata
+93:04 con la legge di, quindi la legge biom
+93:07 pari pari pari in corrente continua e in
+93:09 corrente alternata. Abbiamo visto che
+93:13 l'impedenza è fatta da una parte reale.
+93:15 Reale perché dal perché genera lavoro. È
+93:19 la parte che tangibilmente mi dà del
+93:22 risultato. E questa è una parte
+93:24 immaginaria
+93:27 perché il questa formula qui che abbiamo
+93:31 usato per scrivere l'induttanza
+93:35 è questo segno + J è un'unità che è
+93:40 chiamata immaginaria. è un'operazione
+93:43 matematica che in qualche modo eh ci fa
+93:47 fare in una formula l'equivalente del
+93:49 teorema di Pitagora che abbiamo visto
+93:53 qua
+93:54 e e che ora non diciamo non c'è bisogno
+93:58 di diciamo di di di conoscere meglio
+94:01 meglio diciamo meglio di così. Mh,
+94:04 abbiamo visto che eh
+94:09 il lavoro il lavoro, quello vero, viene
+94:11 fatto solo dalla parte di carico
+94:12 resistivo e che la parte di eh
+94:18 e che la la corrente che scorre
+94:21 nell'induttore nel condensatore non
+94:24 genera lavoro utile. Tant'è che vedete
+94:26 anche qua, no? eh diciamo
+94:29 quella la potenza che si può calcolare
+94:32 per la bobina e per il condensatore
+94:34 è una potenza di tipo reattivo reattivo
+94:37 e quindi non produce lavoro, mentre
+94:39 invece la potenza sulla resistenza R qu
+94:43 si misura in watt e quello è il lavoro
+94:46 prodotto.
+94:49 Questo è uno schema grafico per
+94:52 ricordare appunto la differenza che c'è
+94:54 fra le tre potenze. Quindi la potenza
+94:58 attiva che è quella che interessa a noi,
+95:02 eccola qua. La potenza attiva
+95:07 è quella che è data dal prodotto fra la
+95:10 tensione V
+95:13 e la parte della corrente
+95:16 che attraversa il circuito che è
+95:20 parallela, cioè in fase con la tensione.
+95:23 Questo if che leggete qua,
+95:26 la potenza, la parte di corrente che è
+95:28 in quadratura rispetto alla alla
+95:31 tensione non genera lavoro. Quindi è una
+95:33 parte ininfluente, immaginaria
+95:37 e produce solo potenza reattiva.
+95:41 Chiaro? Per ora ci sono domande?
+95:45 Provo un attimo la condivisione.
+95:51 Ok.
+96:02 Ci sono domande?
+96:05 Mentre voi pensate su eventuali domande,
+96:08 vi faccio vedere ultima cosa.
+96:16 Le metto in condivisione,
+96:19 ecco qua.
+96:24 e vi faccio vedere quello che secondo me
+96:27 è lo schema più chiaro di tutti per
+96:30 parlare per comprendere potenza attiva,
+96:32 potenza reattiva, potenza apparente.
+96:33 Quando l'ho visto ho detto subito questo
+96:36 è lo schema che fa per me riassumendo,
+96:39 diciamo, una volta o l'altra capiterà di
+96:41 trovarsi, di andare in pizzeria a fare
+96:43 pizze e birre, roba del genere, a un
+96:45 certo punto ci facciamo portare delle
+96:46 birre, eh, ci arriva il bel boccali di
+96:49 birra.
+96:51 Il boccale di birra è fatto da, diciamo,
+96:55 eh una un boccale intero
+97:01 di soddisfacente birra più schiuma.
+97:03 Quando ci arriva lo guardiamo e diciamo
+97:05 ci piace. Quello che noi vediamo nel
+97:08 boccale intero è la potenza apparente.
+97:13 D'accordo?
+97:15 Perché poi nel boccale c'è una parte che
+97:18 è la potenza reale che è questa ed è la
+97:20 birra vera e propria che è quella che
+97:21 poi ci toglie la sede, diciamo così. E
+97:23 questa è la potenza reale. E poi c'è la
+97:26 parte di potenza reattiva che è la
+97:28 schiuma che non produce lavoro, che ci
+97:30 resta sui baffi per chi ha i baffi e e
+97:34 però c'è. Mh, questo è un carico
+97:37 abbastanza buono perché la potenza
+97:39 reattiva è abbastanza piccola. C'è un
+97:41 po' di schiuma, ma non ma non
+97:42 tantissima. Questa birra è stata
+97:43 spillata bene, diciamo così, e quindi
+97:46 tutto sommato la potenza reale è
+97:47 abbastanza alta. Se fosse stata spillata
+97:50 male con un livello di potenza reattiva
+97:52 più alta, quindi con tanta schiuma, non
+97:54 non ci sarebbe piaciuto. Esattamente
+97:57 come l'Enel, non piace vedere carichi
+97:59 troppo troppo fuori fase.
+98:04 Tolgo la condivisioneo.
+98:10 Ok, ci sono.
+98:14 Gianfranco, a te.
+98:16 Chiedo scusa. Ottima. Grazie per il
+98:19 grafico con la birra perché apprezzo
+98:21 tantissimo
+98:23 per tanti motivi. Possiamo tornare
+98:25 invece a quello meno simpatico, quello
+98:29 l'ultimo grafico, quello con l'angolo F
+98:33 e la potenza attiva, potenza apparente e
+98:36 potenza reattiva. Un secondo solo.
+98:41 >> Arrivo. Tempi tecnici.
+98:45 >> Sì, è la slide precedente. Ok, questo.
+98:48 Quindi, per ottenere la potenza attiva
+98:51 moltiplico
+98:53 la eh quindi la potenziativa è data da V
+98:57 * I f,
+98:59 >> sì.
+99:02 Mentre quella eh reattiva
+99:06 è la eh V*
+99:11 Sì, no, è I* V
+99:14 >> anche V * IQ.
+99:18 >> Esatto.
+99:20 >> Potenza apparente è il vettore,
+99:24 >> quindi la il vettore intero V * I. Sì,
+99:27 esattamente, esattamente.
+99:30 >> Quindi con i giochini del seno del
+99:31 coseno si torna al a Pitagora.
+99:35 >> Esattamente.
+99:37 Centratissimo. Centratissimo.
+99:39 >> Tocca tornare indietro di di qualche
+99:41 anno. Ok.
+99:42 >> Sì, sì, sì, sì, sì. Però infatti, come
+99:44 vedete, come vedi, come vedete, eh
+99:48 il vettore i,
+99:52 aspetta, rimetto il pennarello,
+99:55 il vettore i ha questa lunghezza qua,
+99:57 d'accordo?
+99:59 Se io misuro
+100:01 eh con un amperometro il la corrente che
+100:06 scorre nel mio circuito eh con ogni
+100:09 probabilità il mio amperometro mi misura
+100:11 questa I. Quindi se io calcolo I per V
+100:15 penso che il mio circuito in qualche
+100:17 modo ehm
+100:19 renda una potenza I per v. Invece qui si
+100:24 vede anche graficamente, anche per chi
+100:26 magari non si ricorda il teorema di
+100:27 Pitagora.
+100:29 che la componente D che porta lavoro è
+100:32 più corta, diciamo, no, del della di
+100:35 questa diagonale, cioè la componente V
+100:38 che porta lavoro è questa qua
+100:41 che non so se se questo vettore quassù
+100:46 la i quella la diagonale fosse 10 cm,
+100:49 questa qua secondo me non è più non è
+100:52 più di 8 cm. Quindi in realtà se questa
+100:56 è 10 e questo in maniera molto
+100:59 spannometrica, come si dice, è di 8, se
+101:03 io volessi sapere quanta potenza genera,
+101:06 dicembre, il mio motore, se io faccio
+101:08 220 moltiplicato 10, ottengo un numero
+101:11 che non è corretto. In realtà in una
+101:13 situazione di questo genere il mio
+101:15 motore genererebbe una potenza di 220
+101:18 moltiplicato 8.
+101:21 Si torna, vi torna.
+101:25 Sì, torna
+101:27 >> perché quest'altra componente qui
+101:32 eh comunque non genera lavoro,
+101:36 genera solo sfaszamento e diciamo
+101:38 corrente che gironzola, diciamo, fra
+101:41 l'induttore, il condensatore e e l'Enel
+101:45 e questo poi lo vedremo.
+101:49 Ti ti torna?
+101:51 >> Sì, sì. Grazie
+101:53 >> a te, Tiziano. A te.
+101:56 >> Sì, per mettere un po' di pace negli
+101:58 animi, nel contatore dell'Enel
+102:02 si può premere il tasto e leggere la
+102:04 potenza reattiva attiva e la potenza
+102:08 apparente.
+102:10 >> Esatto, esatto,
+102:14 esattissimo. Se avete il contatore
+102:16 elettronico, andate lì. C'è il
+102:17 pulsantino.
+102:19 Penso che a tutti quanti sarà venuta la
+102:21 curiosità di di premerlo. All'inizio ci
+102:24 sono, scusate
+102:27 per un po' la condivisione, poi la
+102:29 rimetto se ci sono altre domande.
+102:31 All'inizio avete il numero di contratto
+102:33 eccetera eccetera e poi avete le tre
+102:35 misure di potenza, come ha ricordato di
+102:38 chi ha parlato, scusa, su questo?
+102:40 Tiziano e come come ha ricordato Tiziano
+102:44 e quindi potete avere un'idea della
+102:46 quantità di potenza apparente che
+102:48 generano gli elettrodomestici
+102:50 sostanzialmente che sono in casa vostra.
+102:57 Eh,
+102:59 Gianfranco, avevi alzato la mano?
+103:04 No, è rimasta in piedi. Chiedo scusa.
+103:06 >> No, scusa. Niente, niente. Ok, grazie
+103:08 Tiziano. Ci sono altre domande?
+103:11 Č.

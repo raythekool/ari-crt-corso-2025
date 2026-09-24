@@ -1,0 +1,9485 @@
+WEBVTT
+
+1
+00:00:03.800 --> 00:00:07.240
+Perfetto.
+
+2
+00:00:05.839 --> 00:00:10.040
+Allora, metto in condivisione lo
+
+3
+00:00:07.240 --> 00:00:12.400
+schermo. Buonasera di nuovo a tutti,
+
+4
+00:00:10.040 --> 00:00:15.080
+anche da parte mia
+
+5
+00:00:12.400 --> 00:00:18.680
+e stasera continuiamo il programma nella
+
+6
+00:00:15.080 --> 00:00:20.960
+parte eh
+
+7
+00:00:18.680 --> 00:00:23.960
+tecnica
+
+8
+00:00:20.960 --> 00:00:27.679
+e stasera parliamo di un nuovo
+
+9
+00:00:23.960 --> 00:00:29.960
+componente elettronico che è il diodo e
+
+10
+00:00:27.679 --> 00:00:32.200
+parliamo degli alimentatori, gli
+
+11
+00:00:29.960 --> 00:00:34.360
+alimentatori lineari e gli alimentatori
+
+12
+00:00:32.200 --> 00:00:35.920
+a commutazione, cioè detti anche
+
+13
+00:00:34.360 --> 00:00:37.680
+switching.
+
+14
+00:00:35.920 --> 00:00:41.440
+usiamo il solito approccio che abbiamo
+
+15
+00:00:37.680 --> 00:00:44.480
+sempre usato e racconto io un argomento,
+
+16
+00:00:41.440 --> 00:00:46.280
+poi mi fermo e vi do spazio per le per
+
+17
+00:00:44.480 --> 00:00:48.559
+le domande. Allora, intanto parliamo del
+
+18
+00:00:46.280 --> 00:00:50.920
+diodo.
+
+19
+00:00:48.559 --> 00:00:53.199
+Intanto, cos'è un diodo? Il diodo è un
+
+20
+00:00:50.920 --> 00:00:56.120
+dispositivo a semiconduttore, come
+
+21
+00:00:53.199 --> 00:00:58.519
+leggete qua, che consente il passaggio
+
+22
+00:00:56.120 --> 00:01:00.120
+di una corrente in un solo senso.
+
+23
+00:00:58.519 --> 00:01:03.000
+Allora, intanto cosa vuol dire
+
+24
+00:01:00.120 --> 00:01:04.760
+semiconduttore? Vuol dire che il diodo,
+
+25
+00:01:03.000 --> 00:01:08.360
+e poi questa stessa cosa la vedremo
+
+26
+00:01:04.760 --> 00:01:10.840
+anche per i transistor fetti mosfet, ehm
+
+27
+00:01:08.360 --> 00:01:13.080
+è composto usando di base un materiale,
+
+28
+00:01:10.840 --> 00:01:16.799
+nella parte specie il silicio, che non è
+
+29
+00:01:13.080 --> 00:01:18.320
+né un conduttore né né un isolante. È un
+
+30
+00:01:16.799 --> 00:01:20.320
+un dispositivo che fa passare la
+
+31
+00:01:18.320 --> 00:01:22.640
+corrente, ma non tanto bene. Somiglia
+
+32
+00:01:20.320 --> 00:01:24.200
+più a un isolante che a un conduttore.
+
+33
+00:01:22.640 --> 00:01:26.640
+Ricordate che quando si era parlato di
+
+34
+00:01:24.200 --> 00:01:28.040
+corrente elettrica avevamo parlato dei
+
+35
+00:01:26.640 --> 00:01:29.960
+materiali in cui la corrente scorre
+
+36
+00:01:28.040 --> 00:01:32.119
+bene, che sono tutti metalli, no? rame,
+
+37
+00:01:29.960 --> 00:01:33.720
+argento, oro e così via. E avevamo
+
+38
+00:01:32.119 --> 00:01:36.360
+parlato anche dei materiali in cui la
+
+39
+00:01:33.720 --> 00:01:39.000
+corrente non scorre bene, gli isolanti
+
+40
+00:01:36.360 --> 00:01:41.000
+stile teflon, plastica, vetro, eccetera
+
+41
+00:01:39.000 --> 00:01:44.360
+eccetera. I semiconduttori stanno nel
+
+42
+00:01:41.000 --> 00:01:46.840
+mezzo, sono abbastanza
+
+43
+00:01:44.360 --> 00:01:49.600
+una resistività abbastanza
+
+44
+00:01:46.840 --> 00:01:51.560
+abbastanza elevata e quindi questo non
+
+45
+00:01:49.600 --> 00:01:53.320
+non li ha mai resi utili dal punto di
+
+46
+00:01:51.560 --> 00:01:56.039
+vista di costruire cavi elettrici, per
+
+47
+00:01:53.320 --> 00:01:57.960
+intenderci, no? però poi e alla fine del
+
+48
+00:01:56.039 --> 00:01:59.880
+dopoguerra è stata scoperta, sono state
+
+49
+00:01:57.960 --> 00:02:02.240
+scoperte le proprietà dei semiconduttori
+
+50
+00:01:59.880 --> 00:02:04.640
+che vediamo ora che hanno che hanno
+
+51
+00:02:02.240 --> 00:02:06.719
+consentito la costruzione sia del diodo
+
+52
+00:02:04.640 --> 00:02:08.959
+che del transistor.
+
+53
+00:02:06.719 --> 00:02:12.080
+E poi l'altra particolarità del diodo è
+
+54
+00:02:08.959 --> 00:02:14.080
+che, come vedete anche in questa in
+
+55
+00:02:12.080 --> 00:02:15.400
+questa immagine, questo è un piccolo
+
+56
+00:02:14.080 --> 00:02:17.319
+diodo, diciamo, un diodo che
+
+57
+00:02:15.400 --> 00:02:19.680
+probabilmente riesce a gestire correnti
+
+58
+00:02:17.319 --> 00:02:22.120
+di circa 1 amp. Vedete che c'è uno dei
+
+59
+00:02:19.680 --> 00:02:25.480
+terminali del diodo chiaramente marcato.
+
+60
+00:02:22.120 --> 00:02:27.840
+Vedete che qui c'è questa banda eh
+
+61
+00:02:25.480 --> 00:02:29.800
+bianca. Fino a ora noi abbiamo visto
+
+62
+00:02:27.840 --> 00:02:31.360
+sempre componenti che in qualche modo
+
+63
+00:02:29.800 --> 00:02:34.280
+potrebbero essere montati in maniera
+
+64
+00:02:31.360 --> 00:02:37.040
+indifferente, senza verso tutti i
+
+65
+00:02:34.280 --> 00:02:38.879
+resistori, tutti gli induttori.
+
+66
+00:02:37.040 --> 00:02:41.200
+Solamente nel caso dei condensatori
+
+67
+00:02:38.879 --> 00:02:42.720
+elettrolitici, ma solamente in quello.
+
+68
+00:02:41.200 --> 00:02:44.599
+Avevamo visto dei condensatori che
+
+69
+00:02:42.720 --> 00:02:46.560
+avevano un verso solo perché ricordate
+
+70
+00:02:44.599 --> 00:02:48.959
+che nei condensatori elettrolitici c'è
+
+71
+00:02:46.560 --> 00:02:52.200
+si usa appunto un un dielettrico, un
+
+72
+00:02:48.959 --> 00:02:55.400
+elettrolita particolare per avere valori
+
+73
+00:02:52.200 --> 00:02:57.720
+alti di capacità che richiede, diciamo,
+
+74
+00:02:55.400 --> 00:02:59.080
+di al condensatore di avere sempre
+
+75
+00:02:57.720 --> 00:03:01.879
+tensioni positive da una parte e
+
+76
+00:02:59.080 --> 00:03:04.440
+tensioni negative dall'altra. E il diodo
+
+77
+00:03:01.879 --> 00:03:06.400
+invece è appunto un un dispositivo che
+
+78
+00:03:04.440 --> 00:03:09.360
+ha i terminali molto chiaramente
+
+79
+00:03:06.400 --> 00:03:11.200
+marcati, no? Allora, cosa cosa c'è
+
+80
+00:03:09.360 --> 00:03:13.720
+dentro diodo?
+
+81
+00:03:11.200 --> 00:03:16.000
+Il diodo è composto da due parti di
+
+82
+00:03:13.720 --> 00:03:18.599
+silicio drogato. Vedremo poi fra un
+
+83
+00:03:16.000 --> 00:03:21.440
+attimo cosa si intende per droggio. Il
+
+84
+00:03:18.599 --> 00:03:24.840
+drogaggio può essere di tipo negativo,
+
+85
+00:03:21.440 --> 00:03:26.920
+drogaggio N, o di tipo positivo, drogio
+
+86
+00:03:24.840 --> 00:03:30.040
+P. Fra un attimo vi spiego cosa
+
+87
+00:03:26.920 --> 00:03:32.680
+significano questi due drogi. E il
+
+88
+00:03:30.040 --> 00:03:35.439
+diodo, in pratica è composto dall'unione
+
+89
+00:03:32.680 --> 00:03:38.239
+di queste due parti di silicio drogato
+
+90
+00:03:35.439 --> 00:03:40.840
+in maniera diversa, una P e una N. E
+
+91
+00:03:38.239 --> 00:03:42.599
+come vedete poi in questa slide, eh
+
+92
+00:03:40.840 --> 00:03:45.319
+queste su queste parti ci sono delle
+
+93
+00:03:42.599 --> 00:03:47.000
+metallizzazioni a cui è collegato il
+
+94
+00:03:45.319 --> 00:03:50.120
+terminale che esce dal diodo, il
+
+95
+00:03:47.000 --> 00:03:52.920
+cosiddetto reoforo. Qua sotto vedete lo
+
+96
+00:03:50.120 --> 00:03:55.200
+schema elettrico del diodo.
+
+97
+00:03:52.920 --> 00:03:56.920
+I due terminali si chiamano anodo e
+
+98
+00:03:55.200 --> 00:03:59.799
+catodo. Chi conosce un po' le valvole
+
+99
+00:03:56.920 --> 00:04:02.480
+termoioniche queste parole se le ricorda
+
+100
+00:03:59.799 --> 00:04:04.120
+perché dagli anni 30 l'anno del catodo
+
+101
+00:04:02.480 --> 00:04:06.400
+sono dei terminali delle valvole. ne
+
+102
+00:04:04.120 --> 00:04:08.840
+parleremo nella nella prossima lezione.
+
+103
+00:04:06.400 --> 00:04:10.840
+E vedete che il simbolo elettrico del
+
+104
+00:04:08.840 --> 00:04:12.519
+diodo è questa è questa freccia, la
+
+105
+00:04:10.840 --> 00:04:13.920
+freccia che parte dall'anodo e punta al
+
+106
+00:04:12.519 --> 00:04:16.400
+catod. Ovviamente questa freccia è
+
+107
+00:04:13.920 --> 00:04:18.639
+rappresentativa, vuol dire che eh la
+
+108
+00:04:16.400 --> 00:04:20.519
+corrente nel diodo può scorrere
+
+109
+00:04:18.639 --> 00:04:22.079
+solamente in questo verso, nel verso
+
+110
+00:04:20.519 --> 00:04:24.520
+della freccia.
+
+111
+00:04:22.079 --> 00:04:27.720
+E in questo in questo mini schema vedete
+
+112
+00:04:24.520 --> 00:04:29.360
+come come funziona. Eh, scusate che non
+
+113
+00:04:27.720 --> 00:04:31.160
+ritrovo il cursore. Eccolo qua. Allora,
+
+114
+00:04:29.360 --> 00:04:33.880
+vedete che c'è una batteria guardando
+
+115
+00:04:31.160 --> 00:04:36.120
+qui a sinistra e un piccolo carico che
+
+116
+00:04:33.880 --> 00:04:40.400
+che è una lampadina.
+
+117
+00:04:36.120 --> 00:04:42.039
+Qui il diodo è messo nel verso in cui
+
+118
+00:04:40.400 --> 00:04:44.400
+partendo dal positivo e andando al
+
+119
+00:04:42.039 --> 00:04:46.520
+negativo scorrerebbe la corrente, quindi
+
+120
+00:04:44.400 --> 00:04:50.080
+nel verso della freccia. In questa
+
+121
+00:04:46.520 --> 00:04:51.919
+situazione il diodo eh conduce, fa
+
+122
+00:04:50.080 --> 00:04:53.600
+scorrere la corrente. Si dice che in
+
+123
+00:04:51.919 --> 00:04:55.240
+questa situazione in polarizzazione
+
+124
+00:04:53.600 --> 00:04:56.800
+diretta, tant'è che la lampadina si
+
+125
+00:04:55.240 --> 00:04:59.400
+accende.
+
+126
+00:04:56.800 --> 00:05:01.240
+Se si volta il diodo, come vedete qua,
+
+127
+00:04:59.400 --> 00:05:03.199
+tutto il resto è rimasto uguale, no? il
+
+128
+00:05:01.240 --> 00:05:04.960
+generatore sempre col positivo verso
+
+129
+00:05:03.199 --> 00:05:07.720
+l'alto, la lampadina che aspetta di
+
+130
+00:05:04.960 --> 00:05:10.160
+essere accesa. Se si volta il diodo, in
+
+131
+00:05:07.720 --> 00:05:12.240
+questa situazione il diodo è polarizzato
+
+132
+00:05:10.160 --> 00:05:14.479
+in maniera inversa, non si fa
+
+133
+00:05:12.240 --> 00:05:17.120
+attraversare da corrente e la lampadina
+
+134
+00:05:14.479 --> 00:05:19.440
+resta resta spenta. Quindi il diodo ha
+
+135
+00:05:17.120 --> 00:05:22.160
+queste caratteristiche di direzionalità,
+
+136
+00:05:19.440 --> 00:05:26.479
+si fa attraversare da corrente solamente
+
+137
+00:05:22.160 --> 00:05:26.479
+nel verso della della freccia.
+
+138
+00:05:26.680 --> 00:05:32.000
+E vediamo un po' cosa significa droggio.
+
+139
+00:05:30.160 --> 00:05:34.240
+Vi dico due parole, appunto, proprio in
+
+140
+00:05:32.000 --> 00:05:36.520
+estrema sintesi, per farvi capire cosa
+
+141
+00:05:34.240 --> 00:05:38.400
+significa un materiale drogato N e un
+
+142
+00:05:36.520 --> 00:05:41.840
+materiale drogato P. E allora, intanto
+
+143
+00:05:38.400 --> 00:05:43.800
+si parte dal silicio, si è detto, che è
+
+144
+00:05:41.840 --> 00:05:46.840
+il materiale con cui oggi di fatto
+
+145
+00:05:43.800 --> 00:05:49.759
+vengono fatti tutti i semiconduttori. In
+
+146
+00:05:46.840 --> 00:05:51.720
+passato si usava il germanio e ma il
+
+147
+00:05:49.759 --> 00:05:55.479
+silicio è decisamente decisamente
+
+148
+00:05:51.720 --> 00:05:58.680
+migliore. Allora, il silicio è un atomo
+
+149
+00:05:55.479 --> 00:06:01.960
+di silicio ha, se ricordo bene, 14
+
+150
+00:05:58.680 --> 00:06:03.759
+elettroni, 14 elettroni, 14 protoni,
+
+151
+00:06:01.960 --> 00:06:08.120
+eccetera eccetera. Sul numero atomico è
+
+152
+00:06:03.759 --> 00:06:09.919
+14. Di questi 14 elettroni, quattro sono
+
+153
+00:06:08.120 --> 00:06:11.280
+i cosiddetti elettroni di valenza.
+
+154
+00:06:09.919 --> 00:06:12.919
+Allora, cosa sono gli elettroni di
+
+155
+00:06:11.280 --> 00:06:15.360
+valenza? Guardate un attimo questa
+
+156
+00:06:12.919 --> 00:06:17.000
+figura. Questa è una rappresentazione
+
+157
+00:06:15.360 --> 00:06:19.080
+semiartistica
+
+158
+00:06:17.000 --> 00:06:21.280
+del del silicio. Il silicio è un
+
+159
+00:06:19.080 --> 00:06:23.280
+materiale cristallino. I materiali
+
+160
+00:06:21.280 --> 00:06:26.080
+cristallini, come abbiamo visto anche
+
+161
+00:06:23.280 --> 00:06:27.840
+nel quarzo, sono materiali ordinati,
+
+162
+00:06:26.080 --> 00:06:31.400
+quindi hanno una struttura
+
+163
+00:06:27.840 --> 00:06:33.720
+geometricamente molto eh molto regolare,
+
+164
+00:06:31.400 --> 00:06:35.639
+a differenza di altri materiali, per
+
+165
+00:06:33.720 --> 00:06:37.759
+esempio il ferro, tanto per dirne uno,
+
+166
+00:06:35.639 --> 00:06:39.759
+ma anche il rame, che è in una struttura
+
+167
+00:06:37.759 --> 00:06:43.400
+morfa con gli atomi messi un po' a
+
+168
+00:06:39.759 --> 00:06:46.240
+casaccio. Allora, vedete che ogni ogni
+
+169
+00:06:43.400 --> 00:06:49.039
+pallina, ogni atomo di silicio è in
+
+170
+00:06:46.240 --> 00:06:51.560
+qualche modo collegato, attaccato in
+
+171
+00:06:49.039 --> 00:06:53.560
+questa specie di reticolato come se
+
+172
+00:06:51.560 --> 00:06:55.639
+fosse una costruzione, è collegato con
+
+173
+00:06:53.560 --> 00:06:57.680
+un certo numero di atomi che gli stanno
+
+174
+00:06:55.639 --> 00:06:59.720
+attorno. Allora, gli elettroni di
+
+175
+00:06:57.680 --> 00:07:02.120
+valenza sono gli elettroni che fanno
+
+176
+00:06:59.720 --> 00:07:04.160
+esattamente questo tipo di lavoro, cioè
+
+177
+00:07:02.120 --> 00:07:06.400
+sono gli elettroni che realizzano
+
+178
+00:07:04.160 --> 00:07:08.639
+proprio i legami fra un atomo di silicio
+
+179
+00:07:06.400 --> 00:07:10.960
+e gli atomi che stanno attorno, come se
+
+180
+00:07:08.639 --> 00:07:13.800
+fossero il collante, diciamo, di quel
+
+181
+00:07:10.960 --> 00:07:15.360
+reticolo che abbiamo visto prima.
+
+182
+00:07:13.800 --> 00:07:18.240
+Quindi il silicio ha quattro elettroni
+
+183
+00:07:15.360 --> 00:07:21.199
+di valenza. Questi elettroni stanno
+
+184
+00:07:18.240 --> 00:07:23.280
+molto lontani dal nucleo. Vi ricordate
+
+185
+00:07:21.199 --> 00:07:25.240
+che un atomo era fatto da un nucleo
+
+186
+00:07:23.280 --> 00:07:27.120
+degli elettroni che ci stanno attorno?
+
+187
+00:07:25.240 --> 00:07:29.720
+Questi elettroni sono quelli che stagno
+
+188
+00:07:27.120 --> 00:07:33.680
+più lontani dal nucleo di tutti i 14
+
+189
+00:07:29.720 --> 00:07:35.759
+elettroni del silicio, proprio perché eh
+
+190
+00:07:33.680 --> 00:07:37.520
+realizzano questo scopo di collegare
+
+191
+00:07:35.759 --> 00:07:39.479
+l'atomo di essilicio agli atomi che
+
+192
+00:07:37.520 --> 00:07:42.120
+stanno attorno. Allora, a questo punto
+
+193
+00:07:39.479 --> 00:07:45.440
+essericio si può drogare N. Cominciamo
+
+194
+00:07:42.120 --> 00:07:47.440
+da da questa parte qua un attimo solo
+
+195
+00:07:45.440 --> 00:07:51.840
+che ritrovo il cursore. Drogaggio di
+
+196
+00:07:47.440 --> 00:07:54.960
+tipo N. Cosa si fa? si sostituisce
+
+197
+00:07:51.840 --> 00:07:58.520
+un certo numero di atomi di silicio con
+
+198
+00:07:54.960 --> 00:08:00.680
+atomi, ad esempio, di arsenico che hanno
+
+199
+00:07:58.520 --> 00:08:02.479
+un elettrone di valenza in più, ne hanno
+
+200
+00:08:00.680 --> 00:08:05.639
+cinque.
+
+201
+00:08:02.479 --> 00:08:11.080
+Questa sostituzione è molto rara. torno
+
+202
+00:08:05.639 --> 00:08:12.720
+qua. E immaginate che le cellule del eh
+
+203
+00:08:11.080 --> 00:08:15.840
+arsenico, per esempio, che stiamo
+
+204
+00:08:12.720 --> 00:08:18.479
+facendo, siano queste eh indicate da un
+
+205
+00:08:15.840 --> 00:08:20.879
+cerchio rosso, cioè sono poche. Col
+
+206
+00:08:18.479 --> 00:08:22.919
+drogaggio viene sostituito un atomo ogni
+
+207
+00:08:20.879 --> 00:08:24.879
+10.000, un atomo ogni 100.000. ne
+
+208
+00:08:22.919 --> 00:08:26.759
+bastano, ne bastano pochi per arrivare
+
+209
+00:08:24.879 --> 00:08:29.159
+al risultato
+
+210
+00:08:26.759 --> 00:08:32.120
+e con un procedimento, diciamo, di
+
+211
+00:08:29.159 --> 00:08:35.760
+diciamo di, diciamo, fatto da opportuni
+
+212
+00:08:32.120 --> 00:08:38.680
+dispositivi, eh è possibile sostituire,
+
+213
+00:08:35.760 --> 00:08:41.240
+appunto, un certo numero di atomi di
+
+214
+00:08:38.680 --> 00:08:42.959
+silicio con atomi di arsenico.
+
+215
+00:08:41.240 --> 00:08:44.720
+L'atomo d'arsenico ha cinque elettroni
+
+216
+00:08:42.959 --> 00:08:46.680
+di valenza, però nel momento in cui
+
+217
+00:08:44.720 --> 00:08:49.600
+l'arsenico si trova inserito in un
+
+218
+00:08:46.680 --> 00:08:52.560
+reticolo di atomi di silicio, può usarne
+
+219
+00:08:49.600 --> 00:08:54.760
+al massimo quattro perché si deve
+
+220
+00:08:52.560 --> 00:08:56.200
+comportare come se fosse un atomo di
+
+221
+00:08:54.760 --> 00:08:58.399
+silicio anche lui. Cioè il quinto
+
+222
+00:08:56.200 --> 00:09:00.079
+elettrone non sa chi darlo, no? Perché
+
+223
+00:08:58.399 --> 00:09:03.240
+attorno a tutti gli atomi di silicio che
+
+224
+00:09:00.079 --> 00:09:06.040
+sono predisposti per usarne quattro.
+
+225
+00:09:03.240 --> 00:09:08.399
+Quindi così facendo ogni si formano
+
+226
+00:09:06.040 --> 00:09:11.600
+degli elettroni liberi, cioè dei cinque
+
+227
+00:09:08.399 --> 00:09:13.920
+elettroni di valenza del dell'arsenico.
+
+228
+00:09:11.600 --> 00:09:16.200
+Quattro vengono usati come se fossimo
+
+229
+00:09:13.920 --> 00:09:18.040
+nel caso del silicio per i legami con
+
+230
+00:09:16.200 --> 00:09:20.360
+gli atomi circostanti e uno resta
+
+231
+00:09:18.040 --> 00:09:22.360
+libero. è una carica libera, quindi un
+
+232
+00:09:20.360 --> 00:09:24.680
+materiale di tipo N può essere, ad
+
+233
+00:09:22.360 --> 00:09:27.000
+esempio, attraversato da corrente perché
+
+234
+00:09:24.680 --> 00:09:29.279
+questo quinto elettrone di fatto è
+
+235
+00:09:27.000 --> 00:09:31.800
+libero, come nei metalli, e quindi può
+
+236
+00:09:29.279 --> 00:09:33.480
+essere fatto scorrere abbastanza
+
+237
+00:09:31.800 --> 00:09:35.040
+facilmente come se fosse una corrente
+
+238
+00:09:33.480 --> 00:09:37.440
+elettrica.
+
+239
+00:09:35.040 --> 00:09:40.519
+Il drogaggio di tipo P è quello
+
+240
+00:09:37.440 --> 00:09:43.120
+simmetrico, si sostituisce
+
+241
+00:09:40.519 --> 00:09:45.640
+uno ogni tanto degli atomi del silicio
+
+242
+00:09:43.120 --> 00:09:49.160
+con un materiale, per esempio l'indio,
+
+243
+00:09:45.640 --> 00:09:52.360
+che ha tre elettroni di valenza.
+
+244
+00:09:49.160 --> 00:09:54.040
+A questo punto, immaginando di di essere
+
+245
+00:09:52.360 --> 00:09:55.959
+in questo reticolo cristallino,
+
+246
+00:09:54.040 --> 00:09:58.160
+immaginiamo che questo qui sia un atomo
+
+247
+00:09:55.959 --> 00:10:01.760
+di di indio, ho tre elettroni di
+
+248
+00:09:58.160 --> 00:10:04.480
+valenza, uno, diciamo, 2 e 3. Qui mi
+
+249
+00:10:01.760 --> 00:10:07.760
+resta un buco. Qui ci dovrebbe essere il
+
+250
+00:10:04.480 --> 00:10:09.800
+quarto atomo del silicio
+
+251
+00:10:07.760 --> 00:10:11.720
+che mi collegherebbe a l'atomo del
+
+252
+00:10:09.800 --> 00:10:13.200
+silicio accanto. In realtà questo atomo
+
+253
+00:10:11.720 --> 00:10:15.920
+l'indio non ce n'ha perché ne ha solo
+
+254
+00:10:13.200 --> 00:10:18.440
+tre. Qui resta un buco. Quel di buchi
+
+255
+00:10:15.920 --> 00:10:21.079
+nel nel linguaggio del drogaggio sono
+
+256
+00:10:18.440 --> 00:10:23.200
+chiamati lacune e di fatto equivalgono
+
+257
+00:10:21.079 --> 00:10:26.600
+una carica positiva, cioè dove mancano
+
+258
+00:10:23.200 --> 00:10:29.120
+elettroni i i gli atomi diventano ioni
+
+259
+00:10:26.600 --> 00:10:31.959
+positivi e quindi a tutti gli effetti
+
+260
+00:10:29.120 --> 00:10:33.360
+sono una carica positiva. Quindi quando
+
+261
+00:10:31.959 --> 00:10:36.480
+quando prendiamo del silicio e lo
+
+262
+00:10:33.360 --> 00:10:38.480
+troghiamo N facciamo sì che ci siano
+
+263
+00:10:36.480 --> 00:10:40.079
+degli elettroni liberi. Quando lo tramo
+
+264
+00:10:38.480 --> 00:10:41.959
+qui facciamo sì che ci siano delle
+
+265
+00:10:40.079 --> 00:10:45.040
+lacune, cioè dei buchi dove dovrebbe
+
+266
+00:10:41.959 --> 00:10:47.639
+esserci un elettrone, ma non c'è.
+
+267
+00:10:45.040 --> 00:10:51.240
+Quando andiamo a costruire il nostro
+
+268
+00:10:47.639 --> 00:10:54.279
+diodo, cosa succede? Allora, in fabbrica
+
+269
+00:10:51.240 --> 00:10:56.639
+viene realizzata una giunzione, come si
+
+270
+00:10:54.279 --> 00:10:58.440
+diceva prima, cioè in qualche modo si
+
+271
+00:10:56.639 --> 00:11:00.600
+mettono insieme un pezzettino di
+
+272
+00:10:58.440 --> 00:11:02.519
+materiale P e un pezzettino di materiale
+
+273
+00:11:00.600 --> 00:11:04.680
+di tipo N. Allora, nel materiale di tipo
+
+274
+00:11:02.519 --> 00:11:07.880
+N cosa c'è? ci sono degli elettroni
+
+275
+00:11:04.680 --> 00:11:10.240
+liberi, li disegno qua,
+
+276
+00:11:07.880 --> 00:11:12.480
+ma anche qua, cioè in tutto il materiale
+
+277
+00:11:10.240 --> 00:11:16.480
+N ci sono degli elettroni liberi, però
+
+278
+00:11:12.480 --> 00:11:18.360
+nel materiale di tipo P laune,
+
+279
+00:11:16.480 --> 00:11:20.200
+quindi le disegno come dei buchetti
+
+280
+00:11:18.360 --> 00:11:22.360
+vuoti.
+
+281
+00:11:20.200 --> 00:11:25.160
+Allora, cosa succede? Sono qui, ma sono
+
+282
+00:11:22.360 --> 00:11:27.880
+anche qua. Sono in tutta la barretta del
+
+283
+00:11:25.160 --> 00:11:29.920
+del materiale qui. Cosa succede? Vicino
+
+284
+00:11:27.880 --> 00:11:33.160
+alla giunzione gli elettroni che sono
+
+285
+00:11:29.920 --> 00:11:35.399
+liberi cosa fanno? eh zompano dentro la
+
+286
+00:11:33.160 --> 00:11:37.200
+lacuna, cioè in qualche modo la carica
+
+287
+00:11:35.399 --> 00:11:39.000
+negativa viene attratta dalla carica
+
+288
+00:11:37.200 --> 00:11:40.680
+positiva. Lo abbiamo visto nella
+
+289
+00:11:39.000 --> 00:11:43.279
+primissima lezione, no? Che le cariche
+
+290
+00:11:40.680 --> 00:11:45.240
+elettriche di segno opposto si
+
+291
+00:11:43.279 --> 00:11:47.160
+attraggono. Gli elettroni non si
+
+292
+00:11:45.240 --> 00:11:48.839
+possono, scusate, le lacune non si
+
+293
+00:11:47.160 --> 00:11:50.800
+possono muovere, ma gli elettroni sì.
+
+294
+00:11:48.839 --> 00:11:53.000
+Allora questi elettroni finiscono nella
+
+295
+00:11:50.800 --> 00:11:55.680
+lacuna e si neutralizzano l'uno con
+
+296
+00:11:53.000 --> 00:11:57.399
+l'altro. carica positiva e carica
+
+297
+00:11:55.680 --> 00:12:00.160
+negativa si si neutralizzano
+
+298
+00:11:57.399 --> 00:12:02.240
+assolutamente.
+
+299
+00:12:00.160 --> 00:12:04.480
+Quindi si forma una zona che è questa
+
+300
+00:12:02.240 --> 00:12:07.920
+che qui vedete in questa specie di di
+
+301
+00:12:04.480 --> 00:12:11.519
+violetto in cui non ci sono né cariche
+
+302
+00:12:07.920 --> 00:12:14.000
+libere, né elettroni né lacune perché le
+
+303
+00:12:11.519 --> 00:12:16.480
+lacune sono state tutte in qualche modo
+
+304
+00:12:14.000 --> 00:12:18.720
+tappate da uno degli elettroni liberi
+
+305
+00:12:16.480 --> 00:12:20.519
+che deriva dal materiale di tipo N.
+
+306
+00:12:18.720 --> 00:12:23.360
+Questa zona qui si chiama regione di
+
+307
+00:12:20.519 --> 00:12:25.600
+svuotamento. Svuotamento nel senso che è
+
+308
+00:12:23.360 --> 00:12:28.000
+vuota, non ci sono cariche libere né
+
+309
+00:12:25.600 --> 00:12:29.399
+negative né positive.
+
+310
+00:12:28.000 --> 00:12:32.000
+A un certo punto questa regione di
+
+311
+00:12:29.399 --> 00:12:33.720
+svuotamento diventa così larga che le
+
+312
+00:12:32.000 --> 00:12:35.440
+cariche negative che ci sono qua, gli
+
+313
+00:12:33.720 --> 00:12:37.360
+elettroni, non ce la fanno più a passare
+
+314
+00:12:35.440 --> 00:12:40.000
+di là e andare a riempire la laguna.
+
+315
+00:12:37.360 --> 00:12:42.839
+Diciamo c'è un salto troppo alto da fare
+
+316
+00:12:40.000 --> 00:12:45.320
+e non ci riescono.
+
+317
+00:12:42.839 --> 00:12:47.279
+E questo è un diodo. Come lo compriamo?
+
+318
+00:12:45.320 --> 00:12:49.120
+Quando si compra un diodo, lui ci arriva
+
+319
+00:12:47.279 --> 00:12:51.600
+così, costruito in questo modo con la
+
+320
+00:12:49.120 --> 00:12:53.560
+sua regione diuotamento. A questo punto
+
+321
+00:12:51.600 --> 00:12:56.839
+giochiamo un po' ad attaccarlo a una
+
+322
+00:12:53.560 --> 00:12:59.199
+batteria. Vediamo intanto questo primo
+
+323
+00:12:56.839 --> 00:13:01.399
+caso.
+
+324
+00:12:59.199 --> 00:13:03.720
+Qui la batteria dà una polarizzazione
+
+325
+00:13:01.399 --> 00:13:05.959
+inversa, infatti vedete che il positivo
+
+326
+00:13:03.720 --> 00:13:07.519
+della batteria che è qua è attaccato
+
+327
+00:13:05.959 --> 00:13:10.800
+all'
+
+328
+00:13:07.519 --> 00:13:13.639
+terminale n negativo, diciamo, del diodo
+
+329
+00:13:10.800 --> 00:13:15.720
+e viceversa. Allora, cosa farà il
+
+330
+00:13:13.639 --> 00:13:19.079
+positivo della batteria? tenderà a
+
+331
+00:13:15.720 --> 00:13:21.320
+risucchiare le cariche libere negative
+
+332
+00:13:19.079 --> 00:13:24.680
+di elettroni che stanno nella parte N. E
+
+333
+00:13:21.320 --> 00:13:26.920
+lo stesso succede nella parte P, nel
+
+334
+00:13:24.680 --> 00:13:28.839
+senso che il terminale negativo della
+
+335
+00:13:26.920 --> 00:13:32.399
+batteria che è ricco di elettroni in
+
+336
+00:13:28.839 --> 00:13:33.959
+qualche modo mangerà una parte delle,
+
+337
+00:13:32.399 --> 00:13:36.440
+cioè una parte di questi elettroni
+
+338
+00:13:33.959 --> 00:13:38.760
+andranno a colmare un certo numero di
+
+339
+00:13:36.440 --> 00:13:40.440
+lacune nella parte qui. Quindi con una
+
+340
+00:13:38.760 --> 00:13:42.720
+tensione polarizzata inversa cosa
+
+341
+00:13:40.440 --> 00:13:45.480
+succede? Che la regione di svuotamento
+
+342
+00:13:42.720 --> 00:13:47.399
+si allarga.
+
+343
+00:13:45.480 --> 00:13:49.720
+Se invece il diodo lo polarizzo
+
+344
+00:13:47.399 --> 00:13:52.680
+direttamente, come vedete in questi due
+
+345
+00:13:49.720 --> 00:13:54.399
+casi qui, ho una batteria voltata nella
+
+346
+00:13:52.680 --> 00:13:56.320
+parte giusta. Il polo negativo della
+
+347
+00:13:54.399 --> 00:13:59.199
+batteria è attaccato a N, il polo
+
+348
+00:13:56.320 --> 00:14:02.040
+positivo della batteria è attaccato a P.
+
+349
+00:13:59.199 --> 00:14:07.120
+Quindi, per esempio, la parte negativa
+
+350
+00:14:02.040 --> 00:14:09.399
+della batteria mi pompa elettroni
+
+351
+00:14:07.120 --> 00:14:11.279
+da parte di questo terminale. Questi
+
+352
+00:14:09.399 --> 00:14:13.560
+elettroni vanno in qualche modo a si
+
+353
+00:14:11.279 --> 00:14:15.519
+distribuiscono in tutta la barretta e
+
+354
+00:14:13.560 --> 00:14:18.800
+piano piano
+
+355
+00:14:15.519 --> 00:14:22.040
+riempiono anche una parte della regione
+
+356
+00:14:18.800 --> 00:14:24.240
+di svuotamento che ho. Se aumento la
+
+357
+00:14:22.040 --> 00:14:26.680
+tensione di polarizzazione diretta, per
+
+358
+00:14:24.240 --> 00:14:29.360
+esempio, arrivando a 0,7 V, il numero
+
+359
+00:14:26.680 --> 00:14:31.240
+magico di cui parleremo fra un attimo,
+
+360
+00:14:29.360 --> 00:14:34.040
+la regione di sfruttamento si chiude e
+
+361
+00:14:31.240 --> 00:14:35.920
+qui il diodo entra in conduzione.
+
+362
+00:14:34.040 --> 00:14:37.519
+A questo punto non c'è più regime di
+
+363
+00:14:35.920 --> 00:14:40.440
+svuotamento, può scorrere
+
+364
+00:14:37.519 --> 00:14:43.880
+tranquillamente corrente nel mio diodo.
+
+365
+00:14:40.440 --> 00:14:45.920
+Gli elettroni passano così,
+
+366
+00:14:43.880 --> 00:14:50.000
+incontrando una resistenza
+
+367
+00:14:45.920 --> 00:14:52.959
+sostanzialmente modesta. Perché 0,7 V?
+
+368
+00:14:50.000 --> 00:14:55.680
+07 dipende solamente dalla natura del
+
+369
+00:14:52.959 --> 00:14:57.720
+materiale, dal silicio, dalle proprietà
+
+370
+00:14:55.680 --> 00:15:00.600
+chimiche, fisiche, atomiche del silicio
+
+371
+00:14:57.720 --> 00:15:03.639
+fanno sì che un diodo fatto di silicio
+
+372
+00:15:00.600 --> 00:15:05.959
+entra in condizioni a 0,7 V. Punto.
+
+373
+00:15:03.639 --> 00:15:07.240
+Dobbiamo solamente ricordarlo questo 07
+
+374
+00:15:05.959 --> 00:15:09.199
+perché può essere oggetto di una
+
+375
+00:15:07.240 --> 00:15:11.040
+domanda. Quando si usavano altri
+
+376
+00:15:09.199 --> 00:15:13.720
+materiali, per esempio il germanio, il
+
+377
+00:15:11.040 --> 00:15:16.600
+germanio aveva una tensione, una soglia
+
+378
+00:15:13.720 --> 00:15:19.320
+di conduzione di 0,4 volte, no, di 0,7.
+
+379
+00:15:16.600 --> 00:15:21.600
+Ogni materiale intrinsecamente ha una
+
+380
+00:15:19.320 --> 00:15:24.600
+sua tensione.
+
+381
+00:15:21.600 --> 00:15:27.320
+E questo per ora è è tutto. Quindi il
+
+382
+00:15:24.600 --> 00:15:29.240
+diodo, adesso a voi per domande. Il
+
+383
+00:15:27.320 --> 00:15:30.920
+diodo è un materiale fatto con dei
+
+384
+00:15:29.240 --> 00:15:35.040
+semiconduttori. Abbiamo visto che i
+
+385
+00:15:30.920 --> 00:15:37.759
+semiconduttori sono una sorta di oggetti
+
+386
+00:15:35.040 --> 00:15:41.040
+intermedi fra i conduttori veri e gli
+
+387
+00:15:37.759 --> 00:15:43.600
+isolanti veri. Abbiamo visto che il
+
+388
+00:15:41.040 --> 00:15:46.199
+silicio può essere drogato p n.
+
+389
+00:15:43.600 --> 00:15:47.720
+Drogandolo N viene fatto assomigliare un
+
+390
+00:15:46.199 --> 00:15:50.319
+po' più a un conduttore, quindi ci
+
+391
+00:15:47.720 --> 00:15:52.480
+inseriamo degli atomi liberi. Drogando P
+
+392
+00:15:50.319 --> 00:15:54.800
+ci inseriamo delle lacune libere, quindi
+
+393
+00:15:52.480 --> 00:15:57.360
+anche le lacune possono essere utili per
+
+394
+00:15:54.800 --> 00:15:59.199
+il passaggio della corrente elettrica. A
+
+395
+00:15:57.360 --> 00:16:01.440
+seconda di come lo polarizziamo, il
+
+396
+00:15:59.199 --> 00:16:03.560
+diodo si comporta come un interruttore
+
+397
+00:16:01.440 --> 00:16:05.519
+chiuso, cioè che fa passare corrente,
+
+398
+00:16:03.560 --> 00:16:07.720
+come in questo caso qui, o un
+
+399
+00:16:05.519 --> 00:16:11.079
+interruttore aperto, cioè che blocca la
+
+400
+00:16:07.720 --> 00:16:12.600
+corrente come come in questo caso qua. E
+
+401
+00:16:11.079 --> 00:16:14.360
+questo è tutto quello che c'è in qualche
+
+402
+00:16:12.600 --> 00:16:16.040
+modo da sapere per quanto riguarda il
+
+403
+00:16:14.360 --> 00:16:18.880
+funzionamento del diodo. Ci può essere
+
+404
+00:16:16.040 --> 00:16:21.360
+una polarizzazione diretta inversa, ci
+
+405
+00:16:18.880 --> 00:16:25.800
+pu'è una soglia di conduzione che nel
+
+406
+00:16:21.360 --> 00:16:28.480
+caso del silicio è di 0,7 V.
+
+407
+00:16:25.800 --> 00:16:32.480
+Interrompo la condivisione e a voi se ci
+
+408
+00:16:28.480 --> 00:16:35.079
+sono domande. Il primo è Filippo.
+
+409
+00:16:32.480 --> 00:16:37.560
+>> Ciao a tutti, buonasera. Eh no, allora
+
+410
+00:16:35.079 --> 00:16:39.959
+per spiegare bene il discorso del della
+
+411
+00:16:37.560 --> 00:16:42.440
+conduzione eccetera, magari ora non
+
+412
+00:16:39.959 --> 00:16:44.079
+l'hai nominato, però sarebbe forse più
+
+413
+00:16:42.440 --> 00:16:47.000
+semplice pensarla in base alla regola
+
+414
+00:16:44.079 --> 00:16:49.560
+dell'ottetto, quindi la facilità che ha
+
+415
+00:16:47.000 --> 00:16:51.319
+un atomo di arrivare alla configurazione
+
+416
+00:16:49.560 --> 00:16:53.199
+stabile conti elettroni, quindi quelli
+
+417
+00:16:51.319 --> 00:16:55.360
+che hanno di più tendono a cederla per
+
+418
+00:16:53.199 --> 00:16:58.000
+arrivare appunto
+
+419
+00:16:55.360 --> 00:16:59.759
+>> eh sì, però questa è una parte di fisica
+
+420
+00:16:58.000 --> 00:17:02.240
+atomica che non fa parte del programma
+
+421
+00:16:59.759 --> 00:17:04.959
+di esame e quindi per questo, diciamo,
+
+422
+00:17:02.240 --> 00:17:06.799
+la lasciamo fuori.
+
+423
+00:17:04.959 --> 00:17:09.120
+Restiamo a questo livello. Restiamo a
+
+424
+00:17:06.799 --> 00:17:10.720
+questo livello. Non introduciamo
+
+425
+00:17:09.120 --> 00:17:12.839
+materie.
+
+426
+00:17:10.720 --> 00:17:14.480
+>> Eh, perché poi dal sul programma di
+
+427
+00:17:12.839 --> 00:17:16.799
+esami ho da dirvi una cosa dopo la
+
+428
+00:17:14.480 --> 00:17:19.319
+lezione, però collegata al discorso che
+
+429
+00:17:16.799 --> 00:17:22.199
+facevate prima con Silvio. Comunque
+
+430
+00:17:19.319 --> 00:17:24.600
+grazie del suggerimento, ma per
+
+431
+00:17:22.199 --> 00:17:26.280
+>> per ora basta che che diciamo cercate di
+
+432
+00:17:24.600 --> 00:17:28.079
+memorizzare queste poche cose che abbiam
+
+433
+00:17:26.280 --> 00:17:30.600
+detto. Ok,
+
+434
+00:17:28.079 --> 00:17:34.080
+>> ho capito.
+
+435
+00:17:30.600 --> 00:17:34.080
+>> Gianfranco, a te.
+
+436
+00:17:38.559 --> 00:17:44.480
+Gianfranco ha il microfono acceso, ma
+
+437
+00:17:40.840 --> 00:17:44.480
+non si sente la voce.
+
+438
+00:17:48.840 --> 00:17:52.559
+Ancora niente, Gianfranco.
+
+439
+00:17:53.760 --> 00:17:58.039
+Eh, intanto passo a Carlo. Carlo, la tua
+
+440
+00:17:56.080 --> 00:18:00.919
+domanda. Gianfranco intanto cerca di
+
+441
+00:17:58.039 --> 00:18:02.200
+sistemare il microfono.
+
+442
+00:18:00.919 --> 00:18:04.200
+>> Eh, ciao, buonasera. Solo una
+
+443
+00:18:02.200 --> 00:18:07.120
+precisazione. Nella fotografia che hai
+
+444
+00:18:04.200 --> 00:18:10.400
+fatto del diodo, dove c'è quel segnetto
+
+445
+00:18:07.120 --> 00:18:12.799
+bianco, praticamente è dove scorre la
+
+446
+00:18:10.400 --> 00:18:15.360
+corrente, cioè la corrente scorre verso
+
+447
+00:18:12.799 --> 00:18:15.880
+il segneto bianco. Mi sembra di capire
+
+448
+00:18:15.360 --> 00:18:19.080
+qual contratto.
+
+449
+00:18:15.880 --> 00:18:21.559
+>> Sì, esatto, esatto. Giusta domanda. Un
+
+450
+00:18:19.080 --> 00:18:23.919
+attimo che rimetto in condivisione,
+
+451
+00:18:21.559 --> 00:18:26.720
+>> no? per sapere poi uno un domani quando
+
+452
+00:18:23.919 --> 00:18:29.640
+deve deve posizionarla all'interno di un
+
+453
+00:18:26.720 --> 00:18:31.440
+circuito per farlo utilizzare da
+
+454
+00:18:29.640 --> 00:18:32.039
+interruttore aperto o interruttore
+
+455
+00:18:31.440 --> 00:18:34.280
+chiuso.
+
+456
+00:18:32.039 --> 00:18:36.760
+>> Sì, sì, sì. Aspetta, torno indietro.
+
+457
+00:18:34.280 --> 00:18:40.000
+Scusate, tolgo anche
+
+458
+00:18:36.760 --> 00:18:42.440
+i gli scarabocchi in rosso. Allora, i
+
+459
+00:18:40.000 --> 00:18:44.720
+terminali del diodo si chiamano, come
+
+460
+00:18:42.440 --> 00:18:47.679
+come potete leggere qua, anodo e catodo,
+
+461
+00:18:44.720 --> 00:18:51.480
+come dicevamo prima, l'anodo che è
+
+462
+00:18:47.679 --> 00:18:54.440
+questo è il catodo. La striscia bianca
+
+463
+00:18:51.480 --> 00:18:57.039
+indica il catodo, quindi in qualche modo
+
+464
+00:18:54.440 --> 00:18:59.760
+somiglia al al simbolo al simbolo
+
+465
+00:18:57.039 --> 00:19:03.720
+elettrico dove il catodo è questa
+
+466
+00:18:59.760 --> 00:19:06.200
+barretta. Quindi quando compriamo un un
+
+467
+00:19:03.720 --> 00:19:09.120
+diodo in questo tipo di contenitore qua,
+
+468
+00:19:06.200 --> 00:19:11.200
+questo è il catodo.
+
+469
+00:19:09.120 --> 00:19:13.120
+>> Ok.
+
+470
+00:19:11.200 --> 00:19:13.559
+>> Ok, perfetto. Ti ringrazio moltissimo.
+
+471
+00:19:13.120 --> 00:19:16.320
+Grazie
+
+472
+00:19:13.559 --> 00:19:17.880
+>> a te. Gianfranco, sei riuscito a
+
+473
+00:19:16.320 --> 00:19:20.400
+sistemare il microfono?
+
+474
+00:19:17.880 --> 00:19:21.640
+>> Ci provo. Buonasera a tutti. Mi sentite?
+
+475
+00:19:20.400 --> 00:19:23.799
+>> Sì, ora benissimo.
+
+476
+00:19:21.640 --> 00:19:25.880
+>> Oh, bene. Mi ricorderete come quello con
+
+477
+00:19:23.799 --> 00:19:29.559
+problemi al microfono. Allora, una
+
+478
+00:19:25.880 --> 00:19:31.080
+domanda. nel circuito. Eh, questo con la
+
+479
+00:19:29.559 --> 00:19:34.760
+batteria.
+
+480
+00:19:31.080 --> 00:19:39.080
+Esatto. Qui la batteria supponiamo abbia
+
+481
+00:19:34.760 --> 00:19:41.720
+4,5 V. Il diodo, se non mi ricordo male,
+
+482
+00:19:39.080 --> 00:19:44.400
+abbatte la tensione di 0,7
+
+483
+00:19:41.720 --> 00:19:47.120
+V. Giustissimo, giustissimo. Questo poi
+
+484
+00:19:44.400 --> 00:19:50.200
+lo vedremo negli alimentatori.
+
+485
+00:19:47.120 --> 00:19:51.919
+E un diodo ha bisogno di 0,7 V per
+
+486
+00:19:50.200 --> 00:19:54.120
+essere portato in conduzione per essere
+
+487
+00:19:51.919 --> 00:19:57.200
+portato in conduzione e quando, come in
+
+488
+00:19:54.120 --> 00:19:59.840
+questo caso è attraversato da corrente
+
+489
+00:19:57.200 --> 00:20:01.799
+sui capi del diodo, quindi se noi lo
+
+490
+00:19:59.840 --> 00:20:04.320
+misuriamo da qui a qui con uno
+
+491
+00:20:01.799 --> 00:20:08.159
+strumento, diciamo con un voltmetro, il
+
+492
+00:20:04.320 --> 00:20:10.720
+nostro voltmetro misura 0,7 V nel caso
+
+493
+00:20:08.159 --> 00:20:12.799
+di Dio del silicio. Giustissimo.
+
+494
+00:20:10.720 --> 00:20:14.640
+Giustissimo. Perfetto. Grazie.
+
+495
+00:20:12.799 --> 00:20:16.960
+>> Si può dire in altri modi che quando
+
+496
+00:20:14.640 --> 00:20:20.720
+scorre corrente in un dito d'asstilicio
+
+497
+00:20:16.960 --> 00:20:21.159
+cadono cadono 0,7 V.
+
+498
+00:20:20.720 --> 00:20:24.280
+>> Perfetto.
+
+499
+00:20:21.159 --> 00:20:26.480
+>> Grazie Gianfranco. Ottima domanda e
+
+500
+00:20:24.280 --> 00:20:28.960
+>> io ne approfitto anche molte volte per
+
+501
+00:20:26.480 --> 00:20:31.159
+chiamare le stesse cose con parole
+
+502
+00:20:28.960 --> 00:20:33.520
+diverse, no? Una tensione che cade su
+
+503
+00:20:31.159 --> 00:20:34.919
+una resistenza eccetera, perché anche
+
+504
+00:20:33.520 --> 00:20:36.760
+nelle domande d' esame, come avete
+
+505
+00:20:34.919 --> 00:20:38.440
+visto, c'è una grande variabilità di di
+
+506
+00:20:36.760 --> 00:20:41.760
+linguaggio, no? Quindi è bene in qualche
+
+507
+00:20:38.440 --> 00:20:46.840
+modo abituarsi a questo.
+
+508
+00:20:41.760 --> 00:20:50.240
+Adesso riparto e vediamo quali sono i
+
+509
+00:20:46.840 --> 00:20:51.960
+tipi di diodo che vengono normalmente
+
+510
+00:20:50.240 --> 00:20:54.080
+utilizzati.
+
+511
+00:20:51.960 --> 00:20:57.039
+Allora, intanto a cosa serve il diodo?
+
+512
+00:20:54.080 --> 00:20:59.400
+Il diodo può essere usato per tantissime
+
+513
+00:20:57.039 --> 00:21:02.440
+cose diverse. fondamentali sono che
+
+514
+00:20:59.400 --> 00:21:05.240
+serve a raddrizzare le correnti
+
+515
+00:21:02.440 --> 00:21:07.360
+alternate, quindi rende pulsante, poi
+
+516
+00:21:05.240 --> 00:21:10.080
+vedremo fra un attimo cosa vuol dire una
+
+517
+00:21:07.360 --> 00:21:12.200
+corrente pulsante, a rendere pulsante
+
+518
+00:21:10.080 --> 00:21:13.919
+una corrente alternata,
+
+519
+00:21:12.200 --> 00:21:15.840
+cioè il diodo fa una parte del lavoro
+
+520
+00:21:13.919 --> 00:21:17.760
+che serve per trasformare una corrente
+
+521
+00:21:15.840 --> 00:21:20.600
+alternata in una corrente continua e poi
+
+522
+00:21:17.760 --> 00:21:24.559
+quando parleremo dei ricevitori il diodo
+
+523
+00:21:20.600 --> 00:21:26.840
+serve a estrarre da un segnale
+
+524
+00:21:24.559 --> 00:21:28.320
+da una portante modulata in modulazione
+
+525
+00:21:26.840 --> 00:21:30.159
+di ampiezza, ad esempio. esempio, a
+
+526
+00:21:28.320 --> 00:21:32.279
+estrarre il segnale di bassa frequenza.
+
+527
+00:21:30.159 --> 00:21:33.840
+Infatti, se ricordate, vi avevo fatto
+
+528
+00:21:32.279 --> 00:21:35.440
+vedere un piccolo esempio di radio
+
+529
+00:21:33.840 --> 00:21:37.400
+argalena che che praticamente è una
+
+530
+00:21:35.440 --> 00:21:39.039
+radio fatta con un circuito risonante,
+
+531
+00:21:37.400 --> 00:21:41.880
+un diodo. Il diodo ha proprio questa
+
+532
+00:21:39.039 --> 00:21:44.520
+funzione qua, da una portante modulata
+
+533
+00:21:41.880 --> 00:21:46.960
+estrae la voce, diciamo, il segnale
+
+534
+00:21:44.520 --> 00:21:50.440
+segnale modulato.
+
+535
+00:21:46.960 --> 00:21:53.039
+E le caratteristiche del diodo sono che
+
+536
+00:21:50.440 --> 00:21:56.960
+intanto massima tensione inversa.
+
+537
+00:21:53.039 --> 00:21:59.200
+Abbiamo visto che quando un diodo lavora
+
+538
+00:21:56.960 --> 00:22:01.600
+in polarizzazione inversa non si fa
+
+539
+00:21:59.200 --> 00:22:05.039
+attraversare la corrente,
+
+540
+00:22:01.600 --> 00:22:06.919
+però questa tensione inversa eh non può
+
+541
+00:22:05.039 --> 00:22:09.080
+superare un certo valore, altrimenti il
+
+542
+00:22:06.919 --> 00:22:11.000
+diodo si rompe. Quindi i diodi, per
+
+543
+00:22:09.080 --> 00:22:12.760
+esempio, hanno dei valori di tensione
+
+544
+00:22:11.000 --> 00:22:15.640
+inversa sopportabili dell'ordine di
+
+545
+00:22:12.760 --> 00:22:17.480
+500800 1000 V a seconda del tipo di
+
+546
+00:22:15.640 --> 00:22:21.320
+diodo, però se si supera questo valore
+
+547
+00:22:17.480 --> 00:22:24.520
+il diodo chiaramente diciamo scoppia.
+
+548
+00:22:21.320 --> 00:22:26.480
+Quindi le resistenze, diciamo,
+
+549
+00:22:24.520 --> 00:22:28.799
+la caratteristica di una resistenza è
+
+550
+00:22:26.480 --> 00:22:30.640
+quanti ohm ha. La caratteristica di un
+
+551
+00:22:28.799 --> 00:22:32.520
+condensatore quanti farad ha. La
+
+552
+00:22:30.640 --> 00:22:34.200
+caratteristica del dio è le
+
+553
+00:22:32.520 --> 00:22:37.000
+caratteristiche del diodo sono la
+
+554
+00:22:34.200 --> 00:22:39.679
+massima tensione inversa e la massima
+
+555
+00:22:37.000 --> 00:22:41.720
+corrente che può sopportare. Quindi
+
+556
+00:22:39.679 --> 00:22:43.279
+esistono dei diodi, parlando di diodi
+
+557
+00:22:41.720 --> 00:22:45.880
+per il raddrizzamento che possono
+
+558
+00:22:43.279 --> 00:22:48.520
+sopportare correnti di 1 amp, 3 amp, 20
+
+559
+00:22:45.880 --> 00:22:50.720
+amp, eccetera. Al di sopra, chiaramente
+
+560
+00:22:48.520 --> 00:22:53.039
+il diodo si brucia.
+
+561
+00:22:50.720 --> 00:22:55.039
+Eh, volendo questo valore di massima
+
+562
+00:22:53.039 --> 00:22:57.520
+corrente sopportabile si può tradurre
+
+563
+00:22:55.039 --> 00:22:59.440
+anche in massima potenza. Voi sapete,
+
+564
+00:22:57.520 --> 00:23:03.679
+ricordate che la potenza è uguale a V *
+
+565
+00:22:59.440 --> 00:23:06.159
+I. Su un diodo cadono 0,7 V. Quindi se
+
+566
+00:23:03.679 --> 00:23:09.679
+un diodo in qualche modo ha una corrente
+
+567
+00:23:06.159 --> 00:23:11.480
+supportabile di massimo 20 amp, la
+
+568
+00:23:09.679 --> 00:23:14.159
+massima potenza supportabile
+
+569
+00:23:11.480 --> 00:23:17.520
+sopportabile sarà 20* 07, d'accordo?
+
+570
+00:23:14.159 --> 00:23:19.600
+Cioè 14 W in teoria. Quindi questi sono
+
+571
+00:23:17.520 --> 00:23:21.799
+i dati di targa dei diodi, massima
+
+572
+00:23:19.600 --> 00:23:24.720
+tensione inversa e massima corrente in
+
+573
+00:23:21.799 --> 00:23:28.720
+polarizzazione diretta. Di diudi ne
+
+574
+00:23:24.720 --> 00:23:31.480
+esistono vari tipi. Questi cinque sono i
+
+575
+00:23:28.720 --> 00:23:34.480
+fondamentali, il diodo raddrizzatore, il
+
+576
+00:23:31.480 --> 00:23:37.200
+diodo LED, lo zener, il varicup e l'ot
+
+577
+00:23:34.480 --> 00:23:38.480
+carrier. Cosa fanno questi signori
+
+578
+00:23:37.200 --> 00:23:40.919
+diodi? Allora, partiamo dal
+
+579
+00:23:38.480 --> 00:23:42.799
+raddrizzatore. Sul raddrizzatore dico
+
+580
+00:23:40.919 --> 00:23:44.120
+poche cose ora perché poi questo è il
+
+581
+00:23:42.799 --> 00:23:46.640
+componente fondamentale degli
+
+582
+00:23:44.120 --> 00:23:49.320
+alimentatori di cui parleremo fra pochi
+
+583
+00:23:46.640 --> 00:23:53.279
+minuti. diodo raddrizzatore è fatto
+
+584
+00:23:49.320 --> 00:23:55.480
+apposta, è ottimizzato per raddrizzare
+
+585
+00:23:53.279 --> 00:23:57.679
+la corrente, cioè in qualche modo se
+
+586
+00:23:55.480 --> 00:24:00.520
+all'ingresso del diodo noi mettiamo una
+
+587
+00:23:57.679 --> 00:24:02.840
+tensione di tipo sinusoidale alternata,
+
+588
+00:24:00.520 --> 00:24:05.679
+quindi con delle semionde positive e
+
+589
+00:24:02.840 --> 00:24:08.279
+delle semionde negative, il diodo si
+
+590
+00:24:05.679 --> 00:24:11.720
+farà attraversare ovviamente solo dalle
+
+591
+00:24:08.279 --> 00:24:13.600
+semionde positive.
+
+592
+00:24:11.720 --> 00:24:17.200
+Se il diodo è montato in questo verso
+
+593
+00:24:13.600 --> 00:24:19.880
+qua, verso della freccia e quindi
+
+594
+00:24:17.200 --> 00:24:23.360
+all'uscita del diodo troveremo mezze
+
+595
+00:24:19.880 --> 00:24:27.000
+semionde, le semionde negative
+
+596
+00:24:23.360 --> 00:24:29.600
+non attraversano il diodo perché con le
+
+597
+00:24:27.000 --> 00:24:32.480
+semionde negative il diodo è in
+
+598
+00:24:29.600 --> 00:24:34.080
+polarizzazione inversa.
+
+599
+00:24:32.480 --> 00:24:36.159
+Quindi,
+
+600
+00:24:34.080 --> 00:24:38.000
+se noi mettiamo una tensione alternata
+
+601
+00:24:36.159 --> 00:24:40.360
+in ingresso a un diodo, la tensione in
+
+602
+00:24:38.000 --> 00:24:43.520
+uscita sarà solamente positiva, sarà
+
+603
+00:24:40.360 --> 00:24:45.559
+pulsante perché mantiene la forma d'onda
+
+604
+00:24:43.520 --> 00:24:48.200
+di mezze sinosoidi, per questo si chiama
+
+605
+00:24:45.559 --> 00:24:51.360
+pulsante, ma comunque sarà sempre
+
+606
+00:24:48.200 --> 00:24:53.559
+soltanto positiva.
+
+607
+00:24:51.360 --> 00:24:55.679
+Poi abbiamo i diodi LED. I diodi LED li
+
+608
+00:24:53.559 --> 00:24:57.399
+conoscete tutti le nelle nostre case
+
+609
+00:24:55.679 --> 00:24:59.440
+siamo pieni diodi LED, no? Le varie
+
+610
+00:24:57.399 --> 00:25:01.679
+lucine del delle televisione, della
+
+611
+00:24:59.440 --> 00:25:03.760
+stampante, eccetera eccetera. Sono iodi
+
+612
+00:25:01.679 --> 00:25:06.039
+che mettono luce, lavorano in
+
+613
+00:25:03.760 --> 00:25:08.360
+polarizzazione diretta. Quando si
+
+614
+00:25:06.039 --> 00:25:10.039
+prendono questi viodi con un'opportuna
+
+615
+00:25:08.360 --> 00:25:11.679
+resistenza si fa in modo che vengono
+
+616
+00:25:10.039 --> 00:25:14.279
+attraversati da una corrente anche
+
+617
+00:25:11.679 --> 00:25:16.600
+debole del tipo 10-20 mamp. Il diode si
+
+618
+00:25:14.279 --> 00:25:18.960
+accende e fa luce. esistono diodi
+
+619
+00:25:16.600 --> 00:25:20.760
+gialli, verdi, rossi, esistono di
+
+620
+00:25:18.960 --> 00:25:24.559
+multicolori che sono in realtà molti
+
+621
+00:25:20.760 --> 00:25:26.640
+diodi messi insieme. Qui vedete il
+
+622
+00:25:24.559 --> 00:25:29.360
+simbolo,
+
+623
+00:25:26.640 --> 00:25:31.799
+il simbolo elettrico del LED, che è il
+
+624
+00:25:29.360 --> 00:25:34.720
+simbolo di un diodo con queste freccette
+
+625
+00:25:31.799 --> 00:25:37.399
+qua che indicano l'emissione di luce.
+
+626
+00:25:34.720 --> 00:25:39.760
+Quindi lo polarizziamo direttamente, ci
+
+627
+00:25:37.399 --> 00:25:41.799
+facciamo scorrere non tanto, almeno nei
+
+628
+00:25:39.760 --> 00:25:43.919
+diodi LED normali, quelli da
+
+629
+00:25:41.799 --> 00:25:46.200
+segnalazione, come dicevo prima, no?
+
+630
+00:25:43.919 --> 00:25:48.440
+Come si vede ad esempio sul TV, gli
+
+631
+00:25:46.200 --> 00:25:50.039
+basta una corrente di 20 mamp per avere
+
+632
+00:25:48.440 --> 00:25:52.760
+già un diodo acceso in maniera molto
+
+633
+00:25:50.039 --> 00:25:55.240
+brillante. Il questi diodi riescono a
+
+634
+00:25:52.760 --> 00:25:57.559
+trasformare una parte della corrente che
+
+635
+00:25:55.240 --> 00:26:03.039
+gli attraversa in una radiazione
+
+636
+00:25:57.559 --> 00:26:03.039
+luminosa, cioè in fotoni e si accendono.
+
+637
+00:26:03.120 --> 00:26:08.000
+Poi abbiamo i diodi zener. I diodi zener
+
+638
+00:26:06.039 --> 00:26:10.039
+degli stabilizzatori di tensione,
+
+639
+00:26:08.000 --> 00:26:12.720
+lavorano in polarizzazione inversa, come
+
+640
+00:26:10.039 --> 00:26:15.840
+vedete qua. Qui, qui vedete naturalmente
+
+641
+00:26:12.720 --> 00:26:19.799
+il simbolo dell'ener che è fatto con,
+
+642
+00:26:15.840 --> 00:26:21.679
+diciamo, questa, diciamo, lettera,
+
+643
+00:26:19.799 --> 00:26:24.159
+diciamo,
+
+644
+00:26:21.679 --> 00:26:28.000
+questa Z al posto della barretta per
+
+645
+00:26:24.159 --> 00:26:30.080
+dare appunto l'idea del del diodo zener.
+
+646
+00:26:28.000 --> 00:26:32.559
+Allora, qui vediamo una specie di schema
+
+647
+00:26:30.080 --> 00:26:35.399
+di piccolo stabilizzatore di tensione.
+
+648
+00:26:32.559 --> 00:26:38.480
+Questa RL è una resistenza, è è il
+
+649
+00:26:35.399 --> 00:26:40.919
+carico. Diciamo che qui io ho un piccolo
+
+650
+00:26:38.480 --> 00:26:44.399
+circuito elettrico che deve lavorare con
+
+651
+00:26:40.919 --> 00:26:47.039
+una tensione stabilizzata di 12 V e ho,
+
+652
+00:26:44.399 --> 00:26:49.760
+immaginiamo in ingresso, una tensione di
+
+653
+00:26:47.039 --> 00:26:51.640
+un generatore che può essere variabile.
+
+654
+00:26:49.760 --> 00:26:53.679
+Infatti vedete che su questo generatore
+
+655
+00:26:51.640 --> 00:26:56.080
+c'è questa freccia che indica che la
+
+656
+00:26:53.679 --> 00:26:58.559
+tensione in uscita può variare.
+
+657
+00:26:56.080 --> 00:27:01.720
+Immaginiamo che questa tensione possa
+
+658
+00:26:58.559 --> 00:27:04.480
+variare, ad esempio, da 14
+
+659
+00:27:01.720 --> 00:27:06.559
+a 20 V.
+
+660
+00:27:04.480 --> 00:27:09.320
+20.
+
+661
+00:27:06.559 --> 00:27:10.960
+Io compro un diodo zainer da 12 V,
+
+662
+00:27:09.320 --> 00:27:13.080
+quindi quando si compra un diodo zainer
+
+663
+00:27:10.960 --> 00:27:17.080
+si chiede una certa tensione. Voglio uno
+
+664
+00:27:13.080 --> 00:27:18.520
+zainer da 5 V, da 12 V, da 24 V e lo
+
+665
+00:27:17.080 --> 00:27:21.360
+collego in questo modo qua in questo
+
+666
+00:27:18.520 --> 00:27:23.679
+circuito. Il bioto zainer fa in modo che
+
+667
+00:27:21.360 --> 00:27:26.320
+ai suoi capi, da qui a qui, in un
+
+668
+00:27:23.679 --> 00:27:29.799
+circuito di questo genere, cada sempre
+
+669
+00:27:26.320 --> 00:27:31.760
+ci sia sempre una tensione di 12 V.
+
+670
+00:27:29.799 --> 00:27:34.520
+Quindi se il generatore, ad esempio, in
+
+671
+00:27:31.760 --> 00:27:37.640
+certi momenti da 14 la sua tensione sale
+
+672
+00:27:34.520 --> 00:27:39.200
+a 20, il diodo zainer tramite questa
+
+673
+00:27:37.640 --> 00:27:42.679
+resistenza
+
+674
+00:27:39.200 --> 00:27:45.840
+fa in modo di livellare comunque la
+
+675
+00:27:42.679 --> 00:27:47.960
+tensione che sta che è ai suoi capi,
+
+676
+00:27:45.840 --> 00:27:51.000
+stabilizzando quindi questa tensione,
+
+677
+00:27:47.960 --> 00:27:53.080
+per cui il mio carico, il mio circuito
+
+678
+00:27:51.000 --> 00:27:56.159
+elettrico che ho qui a valle vede sempre
+
+679
+00:27:53.080 --> 00:27:58.880
+i 12 V e non solo, se il mio carico
+
+680
+00:27:56.159 --> 00:28:01.080
+anche varia la corrente assorbita, Il
+
+681
+00:27:58.880 --> 00:28:02.840
+diodo continua a fare in modo che anche
+
+682
+00:28:01.080 --> 00:28:06.519
+per variazioni della corrente assorbita
+
+683
+00:28:02.840 --> 00:28:08.960
+dal carico qui ci siano comunque sempre
+
+684
+00:28:06.519 --> 00:28:12.120
+i 12 V garantiti. Questo naturalmente
+
+685
+00:28:08.960 --> 00:28:13.919
+finché lo Zenner lavora nell'ambito
+
+686
+00:28:12.120 --> 00:28:16.200
+delle sue caratteristiche. Se la
+
+687
+00:28:13.919 --> 00:28:19.120
+tensione in ingresso a un certo punto da
+
+688
+00:28:16.200 --> 00:28:21.080
+20 diventasse 200 V, probabilmente il
+
+689
+00:28:19.120 --> 00:28:23.360
+diodo scoppierebbe, no? però diciamo ci
+
+690
+00:28:21.080 --> 00:28:25.840
+si mette il diodo giusto in funzione
+
+691
+00:28:23.360 --> 00:28:27.480
+della dell'ampiezza della tensione da
+
+692
+00:28:25.840 --> 00:28:28.919
+stabilizzare. Sono dei piccoli
+
+693
+00:28:27.480 --> 00:28:30.919
+stabilizzatori, non sono gli
+
+694
+00:28:28.919 --> 00:28:33.840
+stabilizzatori ottimali che vedremo più
+
+695
+00:28:30.919 --> 00:28:36.760
+avanti. Comunque fa in questo tipo di
+
+696
+00:28:33.840 --> 00:28:39.679
+circuiti fanno assolutamente la loro la
+
+697
+00:28:36.760 --> 00:28:41.760
+loro funzione. Poi ci sono dei diodi che
+
+698
+00:28:39.679 --> 00:28:43.880
+funzionano da condensatore variabile, i
+
+699
+00:28:41.760 --> 00:28:45.919
+diodi varicap, lo dice la parola stessa,
+
+700
+00:28:43.880 --> 00:28:48.440
+no? variable
+
+701
+00:28:45.919 --> 00:28:50.399
+capacitor, condensatori variabile e
+
+702
+00:28:48.440 --> 00:28:53.000
+questi come condensatori variabili
+
+703
+00:28:50.399 --> 00:28:55.640
+cambiano la capacità
+
+704
+00:28:53.000 --> 00:28:57.240
+al variare della tensione applicata,
+
+705
+00:28:55.640 --> 00:28:58.880
+quindi fanno proprio le funzioni di un
+
+706
+00:28:57.240 --> 00:29:01.880
+condensatore variabile, lavorano in
+
+707
+00:28:58.880 --> 00:29:04.159
+polarizzazione inversa e quando si
+
+708
+00:29:01.880 --> 00:29:07.240
+comprano questi diodi si comprano in
+
+709
+00:29:04.159 --> 00:29:09.559
+base al campo, diciamo, di capacità che
+
+710
+00:29:07.240 --> 00:29:11.840
+si vuole. Per esempio, ci sono dei diodi
+
+711
+00:29:09.559 --> 00:29:18.200
+che hanno dei campi di capacità che
+
+712
+00:29:11.840 --> 00:29:19.880
+vanno da 15 a, non so, 120 picofarad.
+
+713
+00:29:18.200 --> 00:29:21.840
+Quindi questi diodi possono essere
+
+714
+00:29:19.880 --> 00:29:24.640
+usati, ad esempio, per sintonizzare un
+
+715
+00:29:21.840 --> 00:29:26.519
+circuito risonante senza usare un
+
+716
+00:29:24.640 --> 00:29:28.080
+condensatore variabile. Ricordate come
+
+717
+00:29:26.519 --> 00:29:30.279
+erano fatti i condensatori variabili,
+
+718
+00:29:28.080 --> 00:29:32.960
+no? che li abbiamo visti qualche lezione
+
+719
+00:29:30.279 --> 00:29:34.519
+fa, quelle lamine che entravano l'una
+
+720
+00:29:32.960 --> 00:29:36.960
+nell'altra, cioè sono dei componenti
+
+721
+00:29:34.519 --> 00:29:40.120
+meccanici molto grandi, sensibili alle
+
+722
+00:29:36.960 --> 00:29:43.080
+vibrazioni, costosi da produrre, in cui
+
+723
+00:29:40.120 --> 00:29:45.360
+può entrare la polvere. I diodi entro
+
+724
+00:29:43.080 --> 00:29:46.960
+certi limiti possono fare esattamente il
+
+725
+00:29:45.360 --> 00:29:50.399
+lavoro di un condensatore variabile,
+
+726
+00:29:46.960 --> 00:29:54.240
+essendo estremamente piccoli e vengono
+
+727
+00:29:50.399 --> 00:29:56.440
+in qualche modo gestiti eh
+
+728
+00:29:54.240 --> 00:29:59.000
+variando il livello di polarizzazione
+
+729
+00:29:56.440 --> 00:30:02.840
+inversa. Come funziona un diodo varicap?
+
+730
+00:29:59.000 --> 00:30:04.880
+Allora, tutti i diodi, tutti funzionano
+
+731
+00:30:02.840 --> 00:30:08.240
+anche come condensatore variabile e
+
+732
+00:30:04.880 --> 00:30:11.600
+questo lo si vede qua. Guardate lo
+
+733
+00:30:08.240 --> 00:30:15.000
+schema di base di di un diodo. Qui noi
+
+734
+00:30:11.600 --> 00:30:18.760
+vediamo una zona di materiale conduttore
+
+735
+00:30:15.000 --> 00:30:21.960
+che è questa P e vediamo un'altra zona
+
+736
+00:30:18.760 --> 00:30:24.360
+di materiale conduttore che è questa Nel
+
+737
+00:30:21.960 --> 00:30:26.799
+mezzo vediamo una zona di isolante. Non
+
+738
+00:30:24.360 --> 00:30:28.640
+vi ricorda la forma del condensatore
+
+739
+00:30:26.799 --> 00:30:31.480
+variabile? Il condester variabile era
+
+740
+00:30:28.640 --> 00:30:34.200
+fatto di due armature.
+
+741
+00:30:31.480 --> 00:30:36.279
+Guardate su, scusate un attimo.
+
+742
+00:30:34.200 --> 00:30:38.679
+Dicevo, il condensatore variabile era
+
+743
+00:30:36.279 --> 00:30:42.600
+fatto un condensatore, scusate, era
+
+744
+00:30:38.679 --> 00:30:42.600
+fatto di due armature,
+
+745
+00:30:42.840 --> 00:30:50.240
+diciamo, una questa e l'altra questa,
+
+746
+00:30:47.399 --> 00:30:51.799
+separate da un isolante. Eccolo qua. E
+
+747
+00:30:50.240 --> 00:30:54.120
+ora avete già capito come funziona,
+
+748
+00:30:51.799 --> 00:30:56.399
+secondo me. Quindi questo questo diodo
+
+749
+00:30:54.120 --> 00:30:58.320
+in polarizzazione inversa, se io fra
+
+750
+00:30:56.399 --> 00:31:00.440
+questi terminali con uno strumento un
+
+751
+00:30:58.320 --> 00:31:04.200
+capacetro che misuro la capacità vado a
+
+752
+00:31:00.440 --> 00:31:07.200
+misurare ottengo ho una certa misura,
+
+753
+00:31:04.200 --> 00:31:09.240
+diciamo che siano 20 picofarad.
+
+754
+00:31:07.200 --> 00:31:12.440
+Se io polarizzo il diodo più
+
+755
+00:31:09.240 --> 00:31:14.600
+inversamente, succede che le lam, le
+
+756
+00:31:12.440 --> 00:31:16.320
+piastre del condensatore si allontanano
+
+757
+00:31:14.600 --> 00:31:18.000
+uno dall'altra e quindi la capacità,
+
+758
+00:31:16.320 --> 00:31:20.080
+come avevamo studiato a sto tempo,
+
+759
+00:31:18.000 --> 00:31:22.639
+diminuisce, quindi i miei eventi picar
+
+760
+00:31:20.080 --> 00:31:25.000
+diventano cinque. Oppure invece se io lo
+
+761
+00:31:22.639 --> 00:31:27.639
+polarizzo in modo da avere una regione
+
+762
+00:31:25.000 --> 00:31:30.360
+diotamento più piccola, le armature del
+
+763
+00:31:27.639 --> 00:31:32.000
+condensatore si avvicinano, quindi i
+
+764
+00:31:30.360 --> 00:31:36.159
+miei 20 piccofarad, ad esempio,
+
+765
+00:31:32.000 --> 00:31:37.519
+diventano 40 o 60. Tutti i diodi, tutti
+
+766
+00:31:36.159 --> 00:31:39.840
+i diodi hanno questo tipo di
+
+767
+00:31:37.519 --> 00:31:41.799
+comportamento perché è una
+
+768
+00:31:39.840 --> 00:31:43.480
+caratteristica intrinseca dell'esistenza
+
+769
+00:31:41.799 --> 00:31:46.480
+di una regione di svuotamento fra due
+
+770
+00:31:43.480 --> 00:31:48.360
+regioni conduttive. I dividecap sono
+
+771
+00:31:46.480 --> 00:31:50.159
+fatti in modo da esaltare questa
+
+772
+00:31:48.360 --> 00:31:51.840
+caratteristica, quindi da avere
+
+773
+00:31:50.159 --> 00:31:53.799
+effettivamente un valore di capacità un
+
+774
+00:31:51.840 --> 00:31:56.559
+po' più importante che può servire più
+
+775
+00:31:53.799 --> 00:32:00.159
+nei circuiti.
+
+776
+00:31:56.559 --> 00:32:03.200
+Infine gli OT carrier. Questi sono diodi
+
+777
+00:32:00.159 --> 00:32:05.559
+che non sono fatti con una giunzione PN,
+
+778
+00:32:03.200 --> 00:32:08.559
+ma hanno una hanno una giunzione fra
+
+779
+00:32:05.559 --> 00:32:09.960
+metallo e semiconduttore,
+
+780
+00:32:08.559 --> 00:32:11.519
+quindi c'è una barretta di
+
+781
+00:32:09.960 --> 00:32:13.120
+semiconduttore
+
+782
+00:32:11.519 --> 00:32:16.120
+che anche lei ha il suo drogaggio che
+
+783
+00:32:13.120 --> 00:32:18.360
+può essere N e su questa ed è collegata
+
+784
+00:32:16.120 --> 00:32:20.399
+a una runzione di metallo. Queste cose
+
+785
+00:32:18.360 --> 00:32:23.760
+le vedremo bene come funzionano quando
+
+786
+00:32:20.399 --> 00:32:26.799
+parleremo nella prossima lezione dei dei
+
+787
+00:32:23.760 --> 00:32:28.320
+MOSFET, dei transistro e poi dei MOSFET.
+
+788
+00:32:26.799 --> 00:32:31.720
+La caratteristica che hanno gli or
+
+789
+00:32:28.320 --> 00:32:34.279
+carrier è che sono diodi veloci,
+
+790
+00:32:31.720 --> 00:32:36.919
+ovvero riescono a passare da stato di
+
+791
+00:32:34.279 --> 00:32:39.760
+conduzione a stato di non conduzione
+
+792
+00:32:36.919 --> 00:32:44.519
+molto velocemente, quindi sono usati
+
+793
+00:32:39.760 --> 00:32:49.960
+nelle a delle alte frequenze HF SHF
+
+794
+00:32:44.519 --> 00:32:52.960
+del tipo appunto 100 500 1000
+
+795
+00:32:49.960 --> 00:32:52.960
+MHz.
+
+796
+00:32:53.000 --> 00:32:58.519
+frequenze così alte dove la velocità di
+
+797
+00:32:56.240 --> 00:33:00.039
+di
+
+798
+00:32:58.519 --> 00:33:03.480
+entrata in conduzione di un diodo
+
+799
+00:33:00.039 --> 00:33:06.200
+normale magari non non basterebbe.
+
+800
+00:33:03.480 --> 00:33:08.399
+E questa è una tabellina riassuntiva e
+
+801
+00:33:06.200 --> 00:33:11.679
+diciamo questa tabellina va tenuta molto
+
+802
+00:33:08.399 --> 00:33:13.039
+bene in testa perché le domande che vi
+
+803
+00:33:11.679 --> 00:33:14.799
+possono arrivare all'esame sono
+
+804
+00:33:13.039 --> 00:33:17.039
+esattamente di questo tipo qui. A cosa
+
+805
+00:33:14.799 --> 00:33:19.320
+serve un diodo zener? Risposte. Un diodo
+
+806
+00:33:17.039 --> 00:33:21.559
+zenerem mette luce? No, un diodo Zen e
+
+807
+00:33:19.320 --> 00:33:23.480
+stabilizza la tensione.
+
+808
+00:33:21.559 --> 00:33:25.480
+A cosa serve un diodo varica? Hai una
+
+809
+00:33:23.480 --> 00:33:27.320
+capacità variabile. Cos'è uno scarrier?
+
+810
+00:33:25.480 --> 00:33:28.960
+È un diodo veloce. Cos'è un ledder
+
+811
+00:33:27.320 --> 00:33:31.480
+peluce? Gli addizzatori sono fatti
+
+812
+00:33:28.960 --> 00:33:35.039
+apposta, appunto, per radderizzare, come
+
+813
+00:33:31.480 --> 00:33:37.240
+vedremo adesso nei negli alimentatori.
+
+814
+00:33:35.039 --> 00:33:39.320
+E sui diodi non c'è altro da dire.
+
+815
+00:33:37.240 --> 00:33:41.120
+Diciamo la cosa da sapere su cui è molto
+
+816
+00:33:39.320 --> 00:33:43.120
+probabile che ci siano domande è,
+
+817
+00:33:41.120 --> 00:33:47.159
+diciamo, questo riassunto che vedete
+
+818
+00:33:43.120 --> 00:33:51.360
+qua. E qui mi fermo. Ci sono domande sui
+
+819
+00:33:47.159 --> 00:33:51.360
+diodi? Qualcosa che non è chiaro.
+
+820
+00:33:52.399 --> 00:33:56.720
+Ok, proseguo.
+
+821
+00:33:55.159 --> 00:33:58.320
+Effettivamente i diodi hanno un tipo di
+
+822
+00:33:56.720 --> 00:34:00.080
+funzionamento molto facile. Sono
+
+823
+00:33:58.320 --> 00:34:02.039
+contento che sia stato chiaro. Allora,
+
+824
+00:34:00.080 --> 00:34:03.960
+adesso entriamo degli alimentatori. In
+
+825
+00:34:02.039 --> 00:34:06.919
+particolare, ora parliamo degli
+
+826
+00:34:03.960 --> 00:34:09.040
+alimentatori lineari,
+
+827
+00:34:06.919 --> 00:34:12.440
+ovvero quelli tradizionali, non a
+
+828
+00:34:09.040 --> 00:34:15.320
+commutazione. Allora, un
+
+829
+00:34:12.440 --> 00:34:18.359
+scusate,
+
+830
+00:34:15.320 --> 00:34:22.280
+un alimentatore lineare
+
+831
+00:34:18.359 --> 00:34:24.480
+eh è composto da questi quattro blocchi.
+
+832
+00:34:22.280 --> 00:34:26.760
+Di fatto tutti gli alimentatori lineari
+
+833
+00:34:24.480 --> 00:34:29.000
+più o meno, hanno questa struttura al
+
+834
+00:34:26.760 --> 00:34:31.399
+loro interno. Allora, il primo primo
+
+835
+00:34:29.000 --> 00:34:34.240
+componente che si trova, il primo blocco
+
+836
+00:34:31.399 --> 00:34:36.119
+che si trova è un trasformatore.
+
+837
+00:34:34.240 --> 00:34:38.280
+Adesso leggiamo insieme velocemente
+
+838
+00:34:36.119 --> 00:34:39.919
+questi quattro blocchi, poi entreremo un
+
+839
+00:34:38.280 --> 00:34:43.159
+po' nel dettaglio di ogni singolo
+
+840
+00:34:39.919 --> 00:34:44.879
+blocco. Allora, noi normalmente nel
+
+841
+00:34:43.159 --> 00:34:47.159
+mondo della radio, ma in generale nel
+
+842
+00:34:44.879 --> 00:34:49.320
+mondo dell'elettronica, diciamo, normale
+
+843
+00:34:47.159 --> 00:34:53.240
+tra virgolette, lavoriamo con
+
+844
+00:34:49.320 --> 00:34:56.679
+dispositivi che sono alimentati a 12 18
+
+845
+00:34:53.240 --> 00:34:58.320
+24 V, quindi a tensioni molto più basse
+
+846
+00:34:56.679 --> 00:35:00.359
+della tensione che ci fornisce la rete
+
+847
+00:34:58.320 --> 00:35:05.240
+elettrica di casa, cioè l'ener che ci
+
+848
+00:35:00.359 --> 00:35:07.640
+fornisce 220-230 V. Allora, normalmente
+
+849
+00:35:05.240 --> 00:35:10.359
+il primo blocco di un di ogni
+
+850
+00:35:07.640 --> 00:35:12.920
+alimentatore è un trasformatore che
+
+851
+00:35:10.359 --> 00:35:14.760
+abbassa la tensione di rete a un valore
+
+852
+00:35:12.920 --> 00:35:17.520
+vicino a quello della tensione di
+
+853
+00:35:14.760 --> 00:35:21.960
+uscita. Quindi qua in ingresso ho una
+
+854
+00:35:17.520 --> 00:35:25.040
+sinusoide a 220 V.
+
+855
+00:35:21.960 --> 00:35:28.599
+Se io voglio avere in uscita 12 V, qui
+
+856
+00:35:25.040 --> 00:35:32.839
+magari mi abbasso questi 220 V a un più
+
+857
+00:35:28.599 --> 00:35:34.880
+prudenziale 18 per esempio o forse 15 a
+
+858
+00:35:32.839 --> 00:35:38.400
+seconda della situazione. Quindi il
+
+859
+00:35:34.880 --> 00:35:41.560
+trasformatore mi avvicina la tensione di
+
+860
+00:35:38.400 --> 00:35:43.440
+rete che che appunto è di 220 V a una
+
+861
+00:35:41.560 --> 00:35:45.760
+tensione alla tensione che voglio
+
+862
+00:35:43.440 --> 00:35:47.160
+ottenere in in uscita. Poi vedremo che
+
+863
+00:35:45.760 --> 00:35:48.800
+il trasformatore è anche un'altra
+
+864
+00:35:47.160 --> 00:35:52.359
+funzione, però adesso seguiamo questo
+
+865
+00:35:48.800 --> 00:35:55.920
+schema. Ora, come vedete qui, questi 18
+
+866
+00:35:52.359 --> 00:35:57.720
+V sempre alternati, è una tensione
+
+867
+00:35:55.920 --> 00:36:00.400
+alternata e di conseguenza una corrente
+
+868
+00:35:57.720 --> 00:36:02.800
+alternata. C'è un secondo blocco che si
+
+869
+00:36:00.400 --> 00:36:07.079
+chiama raddrizzatore che è fatto da dei
+
+870
+00:36:02.800 --> 00:36:09.440
+diodi che mi taglia via la parte
+
+871
+00:36:07.079 --> 00:36:12.920
+negativa della mia sinusoide e mi lascia
+
+872
+00:36:09.440 --> 00:36:15.720
+in uscita solo la parte positiva. Quindi
+
+873
+00:36:12.920 --> 00:36:17.880
+in uscita dal raddrizzatore ho una
+
+874
+00:36:15.720 --> 00:36:19.640
+tensione che non è più alternata, ma è
+
+875
+00:36:17.880 --> 00:36:21.119
+continua perché vi ricordo che la
+
+876
+00:36:19.640 --> 00:36:22.839
+definizione di tensione continua, è una
+
+877
+00:36:21.119 --> 00:36:25.480
+tensione che scorre, scusate, la
+
+878
+00:36:22.839 --> 00:36:27.480
+definizione di corrente continua è una
+
+879
+00:36:25.480 --> 00:36:30.960
+corrente che scorre sempre nello stesso
+
+880
+00:36:27.480 --> 00:36:33.680
+verso. Il fatto che sia pulsante,
+
+881
+00:36:30.960 --> 00:36:36.079
+quindi che che abbia queste queste gobbe
+
+882
+00:36:33.680 --> 00:36:38.400
+che che vedete qua,
+
+883
+00:36:36.079 --> 00:36:41.240
+non pregiudica. Questa è comunque sempre
+
+884
+00:36:38.400 --> 00:36:42.720
+una una tensione e quindi una corrente
+
+885
+00:36:41.240 --> 00:36:45.280
+continua.
+
+886
+00:36:42.720 --> 00:36:48.560
+Questo segnale pulsante viene inserito
+
+887
+00:36:45.280 --> 00:36:50.800
+nel terzo blocco del dell'alimentatore
+
+888
+00:36:48.560 --> 00:36:53.200
+che difatti è un filtro di livellamento
+
+889
+00:36:50.800 --> 00:36:54.800
+basato su condensatori, tipicamente
+
+890
+00:36:53.200 --> 00:36:58.480
+condensatori elettrolitici di alta
+
+891
+00:36:54.800 --> 00:37:00.960
+capacità e qui sostanzialmente c'è un
+
+892
+00:36:58.480 --> 00:37:03.000
+serbatoio di cariche. effetto del
+
+893
+00:37:00.960 --> 00:37:04.800
+condensatore è di inserire in questo
+
+894
+00:37:03.000 --> 00:37:07.240
+punto della della catena del mio
+
+895
+00:37:04.800 --> 00:37:09.839
+alimentatore un grosso serbatoio di
+
+896
+00:37:07.240 --> 00:37:12.640
+cariche elettriche realizzate appunto
+
+897
+00:37:09.839 --> 00:37:15.079
+con un condensatorio o più condensatori
+
+898
+00:37:12.640 --> 00:37:17.839
+elettrolitici di grandi capacità. tutta
+
+899
+00:37:15.079 --> 00:37:19.400
+la parte del del mio alimentatore che
+
+900
+00:37:17.839 --> 00:37:21.839
+sta a monte, trasformatore e
+
+901
+00:37:19.400 --> 00:37:24.560
+raddrizzatore, ha lo scopo fondamentale
+
+902
+00:37:21.839 --> 00:37:27.480
+di tenere più pieno, nel miglior modo
+
+903
+00:37:24.560 --> 00:37:30.280
+possibile questo condensatore.
+
+904
+00:37:27.480 --> 00:37:33.200
+L'effetto di questo condensatore livella
+
+905
+00:37:30.280 --> 00:37:35.280
+livella la tensione di uscita, cioè su
+
+906
+00:37:33.200 --> 00:37:38.160
+dopo il condensatore troviamo una
+
+907
+00:37:35.280 --> 00:37:40.560
+tensione di questo tipo che è quasi una
+
+908
+00:37:38.160 --> 00:37:42.680
+tensione continua, ma mantiene una certa
+
+909
+00:37:40.560 --> 00:37:45.240
+ondulazione come vedete qua. Vedete che
+
+910
+00:37:42.680 --> 00:37:48.440
+qui va sempre su e giù questa tensione,
+
+911
+00:37:45.240 --> 00:37:51.280
+quindi c'è un buon livellamento, ma non
+
+912
+00:37:48.440 --> 00:37:53.760
+perfetto.
+
+913
+00:37:51.280 --> 00:37:55.920
+Infine, avete già capito come va a
+
+914
+00:37:53.760 --> 00:37:58.800
+finire la cosa. C'è un circuito
+
+915
+00:37:55.920 --> 00:38:00.920
+conclusivo di stabilizzazione
+
+916
+00:37:58.800 --> 00:38:02.680
+che fa sì che qui ho in uscita
+
+917
+00:38:00.920 --> 00:38:06.040
+esattamente la tensione che voglio, per
+
+918
+00:38:02.680 --> 00:38:08.640
+esempio 12 V. Questo è un circuito che
+
+919
+00:38:06.040 --> 00:38:11.079
+mi stabilizza, appunto, la tensione che
+
+920
+00:38:08.640 --> 00:38:14.680
+mi dà il mio alimentatore al a quella
+
+921
+00:38:11.079 --> 00:38:16.319
+che voglio e finisce di livellarla e in
+
+922
+00:38:14.680 --> 00:38:18.520
+uscita dallo stabilizzatore ho
+
+923
+00:38:16.319 --> 00:38:21.800
+finalmente, come vedete, una continua
+
+924
+00:38:18.520 --> 00:38:24.599
+costante nel tempo. Questi sono i i
+
+925
+00:38:21.800 --> 00:38:28.440
+quattro blocchi che compongono di fatto
+
+926
+00:38:24.599 --> 00:38:31.640
+tutti gli alimentatori lineari.
+
+927
+00:38:28.440 --> 00:38:33.359
+Adesso li ripercorriamo se non ci sono
+
+928
+00:38:31.640 --> 00:38:36.359
+domande. Se ci sono domande mi fermo
+
+929
+00:38:33.359 --> 00:38:38.359
+anche un attimo, ma non ne vedo passare.
+
+930
+00:38:36.359 --> 00:38:41.720
+O vi siete addormentati tutti o questa
+
+931
+00:38:38.359 --> 00:38:44.720
+parte vi è chiarissima. Matteo, a te.
+
+932
+00:38:41.720 --> 00:38:44.720
+Vai
+
+933
+00:38:47.640 --> 00:38:50.880
+>> dai Matteo.
+
+934
+00:38:51.079 --> 00:38:57.760
+>> Sì, mi sentite? Son Luca il coso del del
+
+935
+00:38:55.319 --> 00:39:01.280
+figliolo. Sono al computer del figlio
+
+936
+00:38:57.760 --> 00:39:03.400
+>> e buonasera. Dicevo il l'ultimo
+
+937
+00:39:01.280 --> 00:39:06.200
+all'ultimo stadio lo stabilizzatore c'è
+
+938
+00:39:03.400 --> 00:39:07.560
+un ci sarebbe uno zenere se non sbaglio,
+
+939
+00:39:06.200 --> 00:39:09.119
+se non ho visto male.
+
+940
+00:39:07.560 --> 00:39:10.800
+>> Sì, sì, sì, ci sì, ci può essere uno
+
+941
+00:39:09.119 --> 00:39:13.480
+zenere. Ora ora poi lo vediamo in
+
+942
+00:39:10.800 --> 00:39:15.520
+dettaglio come si fa.
+
+943
+00:39:13.480 --> 00:39:17.920
+>> Ok. Ci può essere uno zainer, ci può
+
+944
+00:39:15.520 --> 00:39:19.400
+essere anche sullo stabilizzatore, se
+
+945
+00:39:17.920 --> 00:39:21.839
+avete uno di quegli alimentatori,
+
+946
+00:39:19.400 --> 00:39:24.319
+qualcuno di voi forse ha un alimentatore
+
+947
+00:39:21.839 --> 00:39:26.880
+di quelli regolabili e qui c'è il
+
+948
+00:39:24.319 --> 00:39:29.599
+circuito in cui entra la famosa
+
+949
+00:39:26.880 --> 00:39:31.319
+manopolina con cui si regola, ad
+
+950
+00:39:29.599 --> 00:39:34.560
+esempio, la tensione di uscita.
+
+951
+00:39:31.319 --> 00:39:36.560
+D'accordo? Girando, no? E agendo lì sul
+
+952
+00:39:34.560 --> 00:39:38.480
+circuito di stabilizzazione. Ora lo
+
+953
+00:39:36.560 --> 00:39:39.480
+vediamo come funziona.
+
+954
+00:39:38.480 --> 00:39:41.599
+>> Grazie
+
+955
+00:39:39.480 --> 00:39:44.599
+>> a te. Allora, proseguiamo. Il
+
+956
+00:39:41.599 --> 00:39:46.440
+trasformatore.
+
+957
+00:39:44.599 --> 00:39:48.800
+Allora, il trasformatore sostanzialmente
+
+958
+00:39:46.440 --> 00:39:50.760
+fa due due grandi funzioni in un
+
+959
+00:39:48.800 --> 00:39:53.160
+alimentatore. Della prima si è già
+
+960
+00:39:50.760 --> 00:39:57.040
+parlato che in qualche modo parte dal
+
+961
+00:39:53.160 --> 00:39:58.800
+220 e mi genera una tensione un po' più
+
+962
+00:39:57.040 --> 00:40:01.480
+alta di quella che voglio in uscita, un
+
+963
+00:39:58.800 --> 00:40:04.280
+po' più alta ma non troppo. Quindi se se
+
+964
+00:40:01.480 --> 00:40:07.839
+devo avere un 12 V in uscita mi mi
+
+965
+00:40:04.280 --> 00:40:09.480
+trasforma il 220 in un 18 alternati.
+
+966
+00:40:07.839 --> 00:40:11.040
+Il trasformatore
+
+967
+00:40:09.480 --> 00:40:12.520
+eh svolge anche un'altra funzione
+
+968
+00:40:11.040 --> 00:40:14.040
+importantissima che è quella di
+
+969
+00:40:12.520 --> 00:40:16.880
+garantire quello che è chiamato
+
+970
+00:40:14.040 --> 00:40:19.480
+l'isolamento galvanico,
+
+971
+00:40:16.880 --> 00:40:21.040
+cioè la separazione elettrica fra il
+
+972
+00:40:19.480 --> 00:40:23.880
+circuito d'ingresso che è quello
+
+973
+00:40:21.040 --> 00:40:25.640
+dell'ene e il circuito d'uscita
+
+974
+00:40:23.880 --> 00:40:27.760
+che è quello, ad esempio, della radio
+
+975
+00:40:25.640 --> 00:40:30.079
+che io voglio alimentare, che con cui
+
+976
+00:40:27.760 --> 00:40:31.760
+voglio trasmettere. Questa separazione
+
+977
+00:40:30.079 --> 00:40:33.560
+elettrica impedisce il passaggio di
+
+978
+00:40:31.760 --> 00:40:35.319
+corrente fra essi, fra il circuito di
+
+979
+00:40:33.560 --> 00:40:37.960
+ingresso e il circuito di uscita.
+
+980
+00:40:35.319 --> 00:40:39.760
+Allora, questa cosa la si può vedere in
+
+981
+00:40:37.960 --> 00:40:42.400
+questo schema. Cos'è l'isolamento
+
+982
+00:40:39.760 --> 00:40:44.319
+galvanico? Partiamo da qua in alto.
+
+983
+00:40:42.400 --> 00:40:47.359
+Allora, vicino a tutte le vostre case
+
+984
+00:40:44.319 --> 00:40:49.800
+c'è una una sotto sottostazione
+
+985
+00:40:47.359 --> 00:40:52.240
+dell'Enel. Nella stazione dell'Enel c'è
+
+986
+00:40:49.800 --> 00:40:54.800
+un trasformatore che è questo qua che
+
+987
+00:40:52.240 --> 00:40:58.200
+parte da una media tensione che può
+
+988
+00:40:54.800 --> 00:41:02.359
+essere 15.000 che può essere, insomma,
+
+989
+00:40:58.200 --> 00:41:04.240
+quello che sarà e tira fuori il 380 e di
+
+990
+00:41:02.359 --> 00:41:06.200
+conseguenza anche il 220 che viene
+
+991
+00:41:04.240 --> 00:41:08.800
+portato tramite le linee nelle varie
+
+992
+00:41:06.200 --> 00:41:12.960
+case, no? Le linee sapete che sono hanno
+
+993
+00:41:08.800 --> 00:41:15.240
+due fili, una fase L e un neutro N.
+
+994
+00:41:12.960 --> 00:41:17.720
+Un capo di questo trasformatore nella
+
+995
+00:41:15.240 --> 00:41:22.359
+cabina Enel è collegato a terra,
+
+996
+00:41:17.720 --> 00:41:24.560
+palline, palline di terra
+
+997
+00:41:22.359 --> 00:41:27.160
+e la terra è proprio la terra, il suolo
+
+998
+00:41:24.560 --> 00:41:29.800
+su cui su cui camminiamo.
+
+999
+00:41:27.160 --> 00:41:34.319
+Allora, cosa cosa succede? Succede che
+
+1000
+00:41:29.800 --> 00:41:37.160
+se noi avessimo in casa un dispositivo,
+
+1001
+00:41:34.319 --> 00:41:39.520
+questo
+
+1002
+00:41:37.160 --> 00:41:41.680
+dove non c'è la separazione galvanica,
+
+1003
+00:41:39.520 --> 00:41:44.079
+cioè dove il dispositivo stesso che è
+
+1004
+00:41:41.680 --> 00:41:46.000
+questo rettangolino che vedete qua, che
+
+1005
+00:41:44.079 --> 00:41:48.000
+potrebbe essere un alimentatore, ma
+
+1006
+00:41:46.000 --> 00:41:50.079
+potrebbe essere di tutto, un forno a
+
+1007
+00:41:48.000 --> 00:41:52.400
+microonde, una lavatrice eccetera
+
+1008
+00:41:50.079 --> 00:41:55.319
+eccetera eccetera. Se non c'è
+
+1009
+00:41:52.400 --> 00:41:57.560
+separazione galvanica,
+
+1010
+00:41:55.319 --> 00:42:01.079
+può succedere che se nel dispositivo c'è
+
+1011
+00:41:57.560 --> 00:42:02.880
+un problema e quindi uno dei fili del
+
+1012
+00:42:01.079 --> 00:42:04.520
+che elemento nel dispositivo va a
+
+1013
+00:42:02.880 --> 00:42:07.119
+contatto, come si vede qui con questa
+
+1014
+00:42:04.520 --> 00:42:09.800
+freccetta, sul contenitore metallico del
+
+1015
+00:42:07.119 --> 00:42:12.000
+dispositivo stesso, se la persona che
+
+1016
+00:42:09.800 --> 00:42:14.079
+usa il dispositivo lo tocca e ha i piedi
+
+1017
+00:42:12.000 --> 00:42:15.800
+per terra e non ha scarpe isolate, di
+
+1018
+00:42:14.079 --> 00:42:17.599
+fatto prende la scossa. Quindi se ha una
+
+1019
+00:42:15.800 --> 00:42:20.160
+fulminazione che può essere leggera,
+
+1020
+00:42:17.599 --> 00:42:22.480
+media, ma può essere anche grave. Invece
+
+1021
+00:42:20.160 --> 00:42:24.240
+tutte le volte che c'è un trasformatore,
+
+1022
+00:42:22.480 --> 00:42:26.640
+come in questo caso, il problema non
+
+1023
+00:42:24.240 --> 00:42:29.000
+esiste perché vi ricordate che in un
+
+1024
+00:42:26.640 --> 00:42:30.760
+trasformatore l'energia viene trasferita
+
+1025
+00:42:29.000 --> 00:42:32.960
+dal primario al secondario del
+
+1026
+00:42:30.760 --> 00:42:34.720
+trasformatore tramite un campo
+
+1027
+00:42:32.960 --> 00:42:36.480
+magnetico.
+
+1028
+00:42:34.720 --> 00:42:39.119
+>> Quindi il trasformatore funziona con
+
+1029
+00:42:36.480 --> 00:42:41.280
+l'induzione magnetica. Non c'è un flusso
+
+1030
+00:42:39.119 --> 00:42:43.400
+di elettroni che dal primario passa al
+
+1031
+00:42:41.280 --> 00:42:45.720
+secondario. Il primario e il secondario
+
+1032
+00:42:43.400 --> 00:42:48.680
+sono isolati fra loro. Sono isolati.
+
+1033
+00:42:45.720 --> 00:42:52.160
+Quindi l'operatore che sta qua, se anche
+
+1034
+00:42:48.680 --> 00:42:56.559
+prende in mano questo filo in uscita dal
+
+1035
+00:42:52.160 --> 00:42:58.559
+trasformatore o quest'altro filo in
+
+1036
+00:42:56.559 --> 00:43:01.359
+uscita dal trasformatore, non prende
+
+1037
+00:42:58.559 --> 00:43:03.640
+assolutamente la scossa e questo appunto
+
+1038
+00:43:01.359 --> 00:43:05.880
+si chiama isolamento galvanico, cioè
+
+1039
+00:43:03.640 --> 00:43:08.359
+come era definito prima un isolamento
+
+1040
+00:43:05.880 --> 00:43:09.920
+proprio fisico, il primario e il
+
+1041
+00:43:08.359 --> 00:43:12.280
+secondario del trasformatore sono
+
+1042
+00:43:09.920 --> 00:43:13.880
+separati e fra di essi non scorre
+
+1043
+00:43:12.280 --> 00:43:16.119
+corrente elettrica perché nei
+
+1044
+00:43:13.880 --> 00:43:17.640
+trasformatori scorre un flusso
+
+1045
+00:43:16.119 --> 00:43:20.440
+magnetico, non scorre la corrente
+
+1046
+00:43:17.640 --> 00:43:23.200
+elettrica
+
+1047
+00:43:20.440 --> 00:43:26.319
+e di fatto fortunatamente tutti gli
+
+1048
+00:43:23.200 --> 00:43:28.480
+oggetti che usiamo oggi hanno comunque
+
+1049
+00:43:26.319 --> 00:43:31.079
+un trasformatore di isolamento. Se se
+
+1050
+00:43:28.480 --> 00:43:32.680
+qualcuno di voi fosse, non so se fra voi
+
+1051
+00:43:31.079 --> 00:43:35.880
+c'è qualcuno appassionato un po' di
+
+1052
+00:43:32.680 --> 00:43:39.559
+radio vintage, radio degli anni 40, 50,
+
+1053
+00:43:35.880 --> 00:43:41.680
+60, nelle alla fine del periodo delle
+
+1054
+00:43:39.559 --> 00:43:43.480
+radio a valvole uscirono vari modelli
+
+1055
+00:43:41.680 --> 00:43:45.400
+economici che non usavano un
+
+1056
+00:43:43.480 --> 00:43:47.920
+trasformatore, ma uno dei capi della
+
+1057
+00:43:45.400 --> 00:43:50.040
+rete era sullo chassis interno di questa
+
+1058
+00:43:47.920 --> 00:43:51.760
+radio. Quindi, in teoria, in caso di
+
+1059
+00:43:50.040 --> 00:43:54.000
+riparazioni, bisognava stare molto
+
+1060
+00:43:51.760 --> 00:43:56.680
+attenti perché poi se si toccava si
+
+1061
+00:43:54.000 --> 00:43:58.640
+poteva prendere una scossa come capita
+
+1062
+00:43:56.680 --> 00:44:00.559
+in in questa in questa situazione di
+
+1063
+00:43:58.640 --> 00:44:03.520
+sinistra che avete visto. Quindi il
+
+1064
+00:44:00.559 --> 00:44:07.119
+trasformatore farà due cose, no?
+
+1065
+00:44:03.520 --> 00:44:08.760
+riassumo trasforma la tensione di rete
+
+1066
+00:44:07.119 --> 00:44:13.240
+prossima a quella che vogliamo in uscita
+
+1067
+00:44:08.760 --> 00:44:13.240
+e garantisce l'isolamento galvanico.
+
+1068
+00:44:13.520 --> 00:44:16.839
+Poi si arriva alla parte di
+
+1069
+00:44:14.760 --> 00:44:20.280
+raddrizzamento. Il raddrizzamento, come
+
+1070
+00:44:16.839 --> 00:44:23.760
+vi dicevo, si fa con i diodi. Questo è
+
+1071
+00:44:20.280 --> 00:44:25.599
+lo schema più facile di raddrizzatore ed
+
+1072
+00:44:23.760 --> 00:44:28.839
+essendo lo schema più facile è anche
+
+1073
+00:44:25.599 --> 00:44:31.119
+quello, diciamo, meno meno perfetto. Qui
+
+1074
+00:44:28.839 --> 00:44:34.800
+in ingresso a questo diodo, diciamo il
+
+1075
+00:44:31.119 --> 00:44:37.359
+punto A, immaginiamo qui, ho questa
+
+1076
+00:44:34.800 --> 00:44:39.240
+sinusoide completa che vedete qua.
+
+1077
+00:44:37.359 --> 00:44:40.720
+Questa mi arriva dal mio trasformatore,
+
+1078
+00:44:39.240 --> 00:44:44.359
+quindi è una bella sinusoide, ad
+
+1079
+00:44:40.720 --> 00:44:47.720
+esempio, di di ampiezza di di 18 V,
+
+1080
+00:44:44.359 --> 00:44:49.520
+quindi 18 e 18 36 V picco picco, tanto
+
+1081
+00:44:47.720 --> 00:44:52.640
+per ricordarsi un po' di misure che
+
+1082
+00:44:49.520 --> 00:44:56.000
+abbiamo visto nelle lezioni scorse.
+
+1083
+00:44:52.640 --> 00:44:58.040
+Il diodo si fa attraversare, come si
+
+1084
+00:44:56.000 --> 00:45:00.359
+diceva prima, soltanto dalle semionde
+
+1085
+00:44:58.040 --> 00:45:03.079
+positive. Nelle semionde negative non
+
+1086
+00:45:00.359 --> 00:45:05.640
+succede niente, non scorre non scorre
+
+1087
+00:45:03.079 --> 00:45:08.800
+corrente nel circuito
+
+1088
+00:45:05.640 --> 00:45:12.359
+e così via. A questo punto immaginiamo
+
+1089
+00:45:08.800 --> 00:45:14.960
+questo diodo che eh deve in qualche modo
+
+1090
+00:45:12.359 --> 00:45:17.160
+riempire il famoso condensatore di cui
+
+1091
+00:45:14.960 --> 00:45:19.839
+ho parlato prima, che è proprio il
+
+1092
+00:45:17.160 --> 00:45:22.319
+serbatoio di cariche che fa sì che un
+
+1093
+00:45:19.839 --> 00:45:26.000
+alimentatore possa funzionare. Allora,
+
+1094
+00:45:22.319 --> 00:45:29.040
+questo serbatoio viene riempito 50 volte
+
+1095
+00:45:26.000 --> 00:45:31.720
+al secondo, immaginiamo, perché questa è
+
+1096
+00:45:29.040 --> 00:45:33.720
+una corrente alternata a frequenza di 50
+
+1097
+00:45:31.720 --> 00:45:36.559
+Hz, per cui anche questo segnale
+
+1098
+00:45:33.720 --> 00:45:38.079
+pulsante è una frequenza di 50 Hz. Ho
+
+1099
+00:45:36.559 --> 00:45:43.920
+solamente
+
+1100
+00:45:38.079 --> 00:45:46.000
+eh una una semionda che va a riempire il
+
+1101
+00:45:43.920 --> 00:45:48.480
+mio condensatore. Quindi il mio
+
+1102
+00:45:46.000 --> 00:45:50.839
+condensatore è tenuto pieno per metà del
+
+1103
+00:45:48.480 --> 00:45:55.480
+tempo, ma per l'altra metà del tempo no,
+
+1104
+00:45:50.839 --> 00:45:57.000
+non c'è nessuno che in qualche modo eh
+
+1105
+00:45:55.480 --> 00:45:59.960
+continua a riempire di carica il
+
+1106
+00:45:57.000 --> 00:46:02.400
+condensatore. Quindi in questi periodi
+
+1107
+00:45:59.960 --> 00:46:04.240
+di tempo qua
+
+1108
+00:46:02.400 --> 00:46:05.559
+il carico del mio alimentatore,
+
+1109
+00:46:04.240 --> 00:46:07.440
+immaginiamo che il mio alimentatore
+
+1110
+00:46:05.559 --> 00:46:10.240
+abbia attaccato una radio che assorbe
+
+1111
+00:46:07.440 --> 00:46:11.960
+corrente. In questi periodi qua la
+
+1112
+00:46:10.240 --> 00:46:13.480
+corrente al carico viene data
+
+1113
+00:46:11.960 --> 00:46:15.440
+semplicemente
+
+1114
+00:46:13.480 --> 00:46:17.800
+dalle cariche elettriche che stanno nel
+
+1115
+00:46:15.440 --> 00:46:19.640
+condensatore. Queste se bastano va bene
+
+1116
+00:46:17.800 --> 00:46:22.720
+e se non bastano la tensione d'uscita
+
+1117
+00:46:19.640 --> 00:46:24.640
+del mio alimentatore cala. Quindi questo
+
+1118
+00:46:22.720 --> 00:46:28.000
+è uno schema di raddrizzamento molto
+
+1119
+00:46:24.640 --> 00:46:31.280
+economico, basta un diodo, però si si
+
+1120
+00:46:28.000 --> 00:46:34.480
+capisce che non è ottimale.
+
+1121
+00:46:31.280 --> 00:46:35.640
+Invece funziona meglio
+
+1122
+00:46:34.480 --> 00:46:38.119
+funzionano meglio i tipi di
+
+1123
+00:46:35.640 --> 00:46:41.400
+raddrizzatore chiamati a doppia semionda
+
+1124
+00:46:38.119 --> 00:46:45.760
+e cioè che sono in grado di raddrizzare
+
+1125
+00:46:41.400 --> 00:46:47.960
+e di sfruttare entrambe le semionde
+
+1126
+00:46:45.760 --> 00:46:49.839
+della mia tensione alternata. E lo
+
+1127
+00:46:47.960 --> 00:46:53.119
+vediamo qua. Qui c'è uno schema
+
+1128
+00:46:49.839 --> 00:46:55.760
+leggermente più complesso dove c'è un
+
+1129
+00:46:53.119 --> 00:46:58.240
+trasformatore che ha una presa centrale
+
+1130
+00:46:55.760 --> 00:47:02.480
+sul secondario, quindi l'ingresso è 220
+
+1131
+00:46:58.240 --> 00:47:05.040
+V, l'uscita è, diciamo, 18 + 18 e ci
+
+1132
+00:47:02.480 --> 00:47:08.000
+sono due diodi, non uno. Questo schema
+
+1133
+00:47:05.040 --> 00:47:10.839
+fa sì che quando c'è la semionda
+
+1134
+00:47:08.000 --> 00:47:14.920
+positiva della mia tensione in ingresso
+
+1135
+00:47:10.839 --> 00:47:17.520
+ho la mezza semionda in uscita dal dai
+
+1136
+00:47:14.920 --> 00:47:19.960
+miei due diodi come la vedevamo prima.
+
+1137
+00:47:17.520 --> 00:47:22.359
+Quando c'è la semionda negativa, questo
+
+1138
+00:47:19.960 --> 00:47:24.079
+schema fa in modo di ribaltare, di
+
+1139
+00:47:22.359 --> 00:47:26.119
+riportare questa semionda negativa
+
+1140
+00:47:24.079 --> 00:47:28.640
+comunque sull'uscita
+
+1141
+00:47:26.119 --> 00:47:31.599
+e quindi qui ho una tensione sempre
+
+1142
+00:47:28.640 --> 00:47:34.920
+pulsante, va bene, però questa pulsa a
+
+1143
+00:47:31.599 --> 00:47:38.559
+una frequenza di 100 Hz, perché se qui
+
+1144
+00:47:34.920 --> 00:47:42.079
+compiamo i i picchi della prima tensione
+
+1145
+00:47:38.559 --> 00:47:44.359
+data dall'Enel, ne contiamo 50 al
+
+1146
+00:47:42.079 --> 00:47:47.040
+secondo, 50 Hz. Se contiamo questi
+
+1147
+00:47:44.359 --> 00:47:49.839
+picchi si vede anche occhio che sono il
+
+1148
+00:47:47.040 --> 00:47:51.920
+doppio, quindi abbiamo una tensione
+
+1149
+00:47:49.839 --> 00:47:53.760
+pulsante con una frequenza di 100 Hz, il
+
+1150
+00:47:51.920 --> 00:47:56.200
+doppio di 50. Quindi il famoso
+
+1151
+00:47:53.760 --> 00:47:58.319
+condensatore di cui si parlava prima,
+
+1152
+00:47:56.200 --> 00:48:00.480
+famoso serbatoio di cariche che fa in
+
+1153
+00:47:58.319 --> 00:48:02.680
+modo che l'alimentatore funziona, viene
+
+1154
+00:48:00.480 --> 00:48:04.800
+in qualche modo rifornito 100 volte al
+
+1155
+00:48:02.680 --> 00:48:06.800
+secondo, quindi non solo 50 volte al
+
+1156
+00:48:04.800 --> 00:48:10.400
+secondo, ma 100 volte al secondo, che
+
+1157
+00:48:06.800 --> 00:48:10.400
+ovviamente è meglio.
+
+1158
+00:48:10.520 --> 00:48:15.640
+Allora, come come fa questo circuito a
+
+1159
+00:48:13.240 --> 00:48:17.760
+funzionare? Eh, allora, come fa a
+
+1160
+00:48:15.640 --> 00:48:19.760
+funzionare? non c'è bisogno di saperlo,
+
+1161
+00:48:17.760 --> 00:48:22.240
+per fortuna dal punto di vista del
+
+1162
+00:48:19.760 --> 00:48:25.160
+dell'esame, dal punto di vista delle
+
+1163
+00:48:22.240 --> 00:48:26.480
+possibili domande e si chiede solamente
+
+1164
+00:48:25.160 --> 00:48:28.280
+le caratteristiche che hanno il
+
+1165
+00:48:26.480 --> 00:48:29.720
+raddrizzatore a doppia semionda e la
+
+1166
+00:48:28.280 --> 00:48:31.960
+caratteristica è questa di cui abbiamo
+
+1167
+00:48:29.720 --> 00:48:34.480
+parlato ora, cioè questi in qualche modo
+
+1168
+00:48:31.960 --> 00:48:36.440
+riescono a sfruttare entrambe la la le
+
+1169
+00:48:34.480 --> 00:48:38.440
+semionde della sinusoide in ingresso
+
+1170
+00:48:36.440 --> 00:48:41.800
+avendo in uscita un segnale pulsante di
+
+1171
+00:48:38.440 --> 00:48:44.319
+frequenza 100 Hz e non 50 Hz. E questo
+
+1172
+00:48:41.800 --> 00:48:46.760
+circuito funziona funziona così, se
+
+1173
+00:48:44.319 --> 00:48:49.359
+vogliamo in qualche modo leggerlo
+
+1174
+00:48:46.760 --> 00:48:51.799
+rapidamente a livello di schema, la
+
+1175
+00:48:49.359 --> 00:48:54.240
+presa centrale del trasformatore è
+
+1176
+00:48:51.799 --> 00:48:56.480
+quella connessa al potenziale di
+
+1177
+00:48:54.240 --> 00:48:58.720
+riferimento zero, alla massa del mio
+
+1178
+00:48:56.480 --> 00:49:02.440
+circuito elettrico.
+
+1179
+00:48:58.720 --> 00:49:05.880
+Io ho qui in ingresso il mio segnale e
+
+1180
+00:49:02.440 --> 00:49:09.319
+che che arriva dalla dalla reta. Allora,
+
+1181
+00:49:05.880 --> 00:49:11.960
+rispetto a questo punto T0, nelle
+
+1182
+00:49:09.319 --> 00:49:14.400
+semionde positive questo diodo lavora
+
+1183
+00:49:11.960 --> 00:49:16.280
+esattamente come sappiamo. Quindi questo
+
+1184
+00:49:14.400 --> 00:49:18.760
+diodo qua in alto con le semionde
+
+1185
+00:49:16.280 --> 00:49:21.680
+positive mi
+
+1186
+00:49:18.760 --> 00:49:23.720
+trasferiscono in uscita questa semionda,
+
+1187
+00:49:21.680 --> 00:49:25.799
+quest'altra semionda, quest'altra
+
+1188
+00:49:23.720 --> 00:49:27.400
+semionda, come abbiamo visto nella slide
+
+1189
+00:49:25.799 --> 00:49:29.359
+precedente.
+
+1190
+00:49:27.400 --> 00:49:31.920
+Però nel momento in cui la semionda è
+
+1191
+00:49:29.359 --> 00:49:35.240
+negativa entra in funzione quest'altro
+
+1192
+00:49:31.920 --> 00:49:37.640
+diodo, poiché il trasformatore allo zero
+
+1193
+00:49:35.240 --> 00:49:41.720
+centrale, nel momento in cui la semi è
+
+1194
+00:49:37.640 --> 00:49:46.079
+negativa, quest'altro diodo va comunque
+
+1195
+00:49:41.720 --> 00:49:48.640
+rispetto a eh
+
+1196
+00:49:46.079 --> 00:49:51.799
+rispetto appunto al terminale centrale
+
+1197
+00:49:48.640 --> 00:49:55.720
+di zero, va comunque in conduzione e
+
+1198
+00:49:51.799 --> 00:49:58.079
+riporta la semionda, diciamo, negativa
+
+1199
+00:49:55.720 --> 00:50:00.160
+vista dal lato basso. del trasformatore
+
+1200
+00:49:58.079 --> 00:50:03.760
+vista nella seconda metà del secondario
+
+1201
+00:50:00.160 --> 00:50:05.640
+la riporta qua.
+
+1202
+00:50:03.760 --> 00:50:08.559
+Fate un atto di fede per cortesia.
+
+1203
+00:50:05.640 --> 00:50:11.280
+Questo non è non è richiesto dall'esame
+
+1204
+00:50:08.559 --> 00:50:14.040
+e questo circuito fortunatamente ha
+
+1205
+00:50:11.280 --> 00:50:15.960
+questa ha questa caratteristica.
+
+1206
+00:50:14.040 --> 00:50:18.280
+C'è un altro tipo dell'adderizzatore a
+
+1207
+00:50:15.960 --> 00:50:20.640
+doppia semionda che che è quello
+
+1208
+00:50:18.280 --> 00:50:23.559
+probabilmente un po' più usato ed è il
+
+1209
+00:50:20.640 --> 00:50:26.480
+cosiddetto riadderrizzatore a ponte o
+
+1210
+00:50:23.559 --> 00:50:29.280
+detto anche ponte di Grezz Graz è
+
+1211
+00:50:26.480 --> 00:50:32.640
+scritto dal nome del tedesco, immagino
+
+1212
+00:50:29.280 --> 00:50:34.240
+che lo ha lo ha ideato e per questo non
+
+1213
+00:50:32.640 --> 00:50:36.440
+serve un trasformatore con lo zero
+
+1214
+00:50:34.240 --> 00:50:38.160
+centrale, però servono quattro diodi
+
+1215
+00:50:36.440 --> 00:50:41.000
+messi in questa configurazione che si
+
+1216
+00:50:38.160 --> 00:50:44.040
+chiama raddrizzatore a punte
+
+1217
+00:50:41.000 --> 00:50:46.880
+e vedete che qui Il risultato è
+
+1218
+00:50:44.040 --> 00:50:48.880
+esattamente lo stesso. La sinusoide in
+
+1219
+00:50:46.880 --> 00:50:52.599
+ingresso viene trasformata in un segnale
+
+1220
+00:50:48.880 --> 00:50:55.799
+pulsante a 1000 a 100 Hz. E come
+
+1221
+00:50:52.599 --> 00:50:58.720
+funziona? Funziona che quando
+
+1222
+00:50:55.799 --> 00:51:03.599
+qui ho la semionda positiva,
+
+1223
+00:50:58.720 --> 00:51:05.559
+seguiamo la corrente che passa
+
+1224
+00:51:03.599 --> 00:51:09.119
+sempre il verso della freccia passa da
+
+1225
+00:51:05.559 --> 00:51:11.440
+qui attraversa il carico,
+
+1226
+00:51:09.119 --> 00:51:16.680
+poi qui attraverso il senso della
+
+1227
+00:51:11.440 --> 00:51:20.520
+freccia e esco di qua. Ok.
+
+1228
+00:51:16.680 --> 00:51:23.520
+Semionda 1. Quando ho la semionda 2,
+
+1229
+00:51:20.520 --> 00:51:26.359
+scusate, la cancello
+
+1230
+00:51:23.520 --> 00:51:30.280
+che così si legge meglio. Quando ho la
+
+1231
+00:51:26.359 --> 00:51:33.520
+semionda due, rimetto il pennarello,
+
+1232
+00:51:30.280 --> 00:51:36.160
+c'è quella negativa.
+
+1233
+00:51:33.520 --> 00:51:39.680
+Quella negativa segue il verso delle
+
+1234
+00:51:36.160 --> 00:51:43.720
+altre frecce. Quindi così
+
+1235
+00:51:39.680 --> 00:51:48.000
+da qui passa attraverso il carico.
+
+1236
+00:51:43.720 --> 00:51:50.960
+Così. così e torna giù.
+
+1237
+00:51:48.000 --> 00:51:53.079
+E quindi questo circuito fa in modo che
+
+1238
+00:51:50.960 --> 00:51:54.680
+per entrambe sem per entrambe le
+
+1239
+00:51:53.079 --> 00:51:57.200
+semionde
+
+1240
+00:51:54.680 --> 00:52:02.160
+eh una coppia di diodi per volta fa
+
+1241
+00:51:57.200 --> 00:52:06.599
+scorrere eh la la corrente sul sul
+
+1242
+00:52:02.160 --> 00:52:09.680
+carico e la parte di sotto, diciamo, la
+
+1243
+00:52:06.599 --> 00:52:12.119
+parte negativa della sem della
+
+1244
+00:52:09.680 --> 00:52:15.640
+sinusolide in ingresso viene in qualche
+
+1245
+00:52:12.119 --> 00:52:16.960
+modo eh ribaltata
+
+1246
+00:52:15.640 --> 00:52:19.480
+perché
+
+1247
+00:52:16.960 --> 00:52:21.319
+Se si segue il verso di scorrimento nei
+
+1248
+00:52:19.480 --> 00:52:23.599
+diodi che con questo scarabocchio in
+
+1249
+00:52:21.319 --> 00:52:26.160
+rosso ho cercato di fare, si vede che
+
+1250
+00:52:23.599 --> 00:52:28.040
+sul carico scorre la corrente inverso
+
+1251
+00:52:26.160 --> 00:52:30.640
+opposto, ma è di tensione opposta e
+
+1252
+00:52:28.040 --> 00:52:32.720
+quindi si ha il il risultato voluto.
+
+1253
+00:52:30.640 --> 00:52:35.520
+Questo, diciamo, si potrebbe studiare
+
+1254
+00:52:32.720 --> 00:52:37.240
+per benino con carta e penna, però ora
+
+1255
+00:52:35.520 --> 00:52:39.319
+ve lo racconto solo per darvi un'idea di
+
+1256
+00:52:37.240 --> 00:52:42.400
+come funziona, perché non non fa parte,
+
+1257
+00:52:39.319 --> 00:52:45.839
+appunto, del programma d' esame. Quindi
+
+1258
+00:52:42.400 --> 00:52:47.480
+ci sono due tipi di riaddrizzatore.
+
+1259
+00:52:45.839 --> 00:52:49.559
+La cosa da tenere a mente è questa. C'è
+
+1260
+00:52:47.480 --> 00:52:51.920
+il riaddrizzatore a singola semionda
+
+1261
+00:52:49.559 --> 00:52:54.040
+ezzatore a doppia semionda. Il doppio
+
+1262
+00:52:51.920 --> 00:52:55.920
+semionde ovviamente è migliore. Singola
+
+1263
+00:52:54.040 --> 00:52:59.160
+semionda ha in uscita una tensione
+
+1264
+00:52:55.920 --> 00:53:02.680
+pulsante a 50 Hz. Doppia semionda ha in
+
+1265
+00:52:59.160 --> 00:53:04.160
+uscita una tensione pulsante a 100 Hz.
+
+1266
+00:53:02.680 --> 00:53:06.000
+E qui per ora l'ho fatta abbastanza
+
+1267
+00:53:04.160 --> 00:53:08.040
+lunga. Prima di parlare degli ultimi due
+
+1268
+00:53:06.000 --> 00:53:11.079
+pezzetti interrompo un attimo la
+
+1269
+00:53:08.040 --> 00:53:14.079
+condivisione se ci sono domande su
+
+1270
+00:53:11.079 --> 00:53:14.079
+questo.
+
+1271
+00:53:20.960 --> 00:53:24.680
+Tutto chiaro per ora?
+
+1272
+00:53:27.640 --> 00:53:30.680
+Proseguo.
+
+1273
+00:53:29.319 --> 00:53:32.640
+Oh, Tiziano, ero meravigliato
+
+1274
+00:53:30.680 --> 00:53:35.640
+dell'assenza di domande. Dicevo, ma sono
+
+1275
+00:53:32.640 --> 00:53:40.680
+sempre svegli.
+
+1276
+00:53:35.640 --> 00:53:44.440
+>> Una una domanda per la pagina 22. Perché
+
+1277
+00:53:40.680 --> 00:53:47.280
+se ho l'esigenza di isolare il sistema
+
+1278
+00:53:44.440 --> 00:53:49.440
+con il trasformatore, nello schema c'è
+
+1279
+00:53:47.280 --> 00:53:51.799
+disegnato
+
+1280
+00:53:49.440 --> 00:53:55.079
+un riferimento
+
+1281
+00:53:51.799 --> 00:53:55.079
+a terra?
+
+1282
+00:53:55.400 --> 00:54:00.839
+Aspetta,
+
+1283
+00:53:58.240 --> 00:54:02.400
+ti riferisci a questa figura, giusto?
+
+1284
+00:54:00.839 --> 00:54:07.160
+>> Sì, sì.
+
+1285
+00:54:02.400 --> 00:54:08.160
+>> Allora, a mai dopo dopo la resistenza si
+
+1286
+00:54:07.160 --> 00:54:10.680
+c'è quel
+
+1287
+00:54:08.160 --> 00:54:13.440
+>> Allora, questo non è
+
+1288
+00:54:10.680 --> 00:54:16.480
+eh
+
+1289
+00:54:13.440 --> 00:54:18.839
+è perché è sbagliato questo schema,
+
+1290
+00:54:16.480 --> 00:54:23.400
+perché in realtà qui ci dovrebbe essere
+
+1291
+00:54:18.839 --> 00:54:24.920
+riferimento di massa che è fatto così.
+
+1292
+00:54:23.400 --> 00:54:28.960
+Questa è la massa del circuito
+
+1293
+00:54:24.920 --> 00:54:31.119
+elettrico, non è la terra della linea,
+
+1294
+00:54:28.960 --> 00:54:32.119
+diciamo, di alimentazione.
+
+1295
+00:54:31.119 --> 00:54:34.000
+Ah,
+
+1296
+00:54:32.119 --> 00:54:37.319
+>> ok. Effettivamente è sbagliato lo
+
+1297
+00:54:34.000 --> 00:54:39.839
+schema. Bravo, bravo, bravo. Boh,
+
+1298
+00:54:37.319 --> 00:54:41.960
+>> perché perché ci sono ci sono due
+
+1299
+00:54:39.839 --> 00:54:44.400
+riferimenti diversi. Allora, quando si
+
+1300
+00:54:41.960 --> 00:54:45.920
+disegna un circuito elettrico come
+
+1301
+00:54:44.400 --> 00:54:49.240
+questo m
+
+1302
+00:54:45.920 --> 00:54:51.520
+>> e questo poi diciamo quando nel circuito
+
+1303
+00:54:49.240 --> 00:54:53.480
+ci sono un po' più di componenti e così
+
+1304
+00:54:51.520 --> 00:54:56.319
+via, normalmente
+
+1305
+00:54:53.480 --> 00:54:59.319
+nel Scusate, ho perso ho perso il
+
+1306
+00:54:56.319 --> 00:55:01.160
+pennarello, eccolo qua. Normalmente in
+
+1307
+00:54:59.319 --> 00:55:02.920
+un circuito elettrico, immaginando di
+
+1308
+00:55:01.160 --> 00:55:04.559
+avere tanti componenti l'uno sull'altro
+
+1309
+00:55:02.920 --> 00:55:07.480
+eccetera, normalmente c'è un terminale
+
+1310
+00:55:04.559 --> 00:55:09.799
+di riferimento che è quello a cui
+
+1311
+00:55:07.480 --> 00:55:11.599
+normalmente è connesso il negativo del
+
+1312
+00:55:09.799 --> 00:55:14.160
+mio alimentatore.
+
+1313
+00:55:11.599 --> 00:55:16.720
+E questo ci e questa parte di
+
+1314
+00:55:14.160 --> 00:55:19.319
+riferimento è chiamata la terra. la
+
+1315
+00:55:16.720 --> 00:55:21.680
+terra, scusate, è chiamata la massa, la
+
+1316
+00:55:19.319 --> 00:55:24.119
+massa della mia radio, la massa del mio
+
+1317
+00:55:21.680 --> 00:55:27.640
+alimentatore. È chiamata la massa perché
+
+1318
+00:55:24.119 --> 00:55:30.920
+molto spesso anche questo terminale di
+
+1319
+00:55:27.640 --> 00:55:33.680
+riferimento a cui poi fanno capo tutti i
+
+1320
+00:55:30.920 --> 00:55:36.039
+componenti che ci sono nel nella mia
+
+1321
+00:55:33.680 --> 00:55:38.000
+radio, ad esempio, molto spesso coincide
+
+1322
+00:55:36.039 --> 00:55:40.000
+con la massa fisica, con lo chassis
+
+1323
+00:55:38.000 --> 00:55:42.200
+metallico, magari dell'alimentatore o
+
+1324
+00:55:40.000 --> 00:55:44.880
+della radio, se c'è è un terminale
+
+1325
+00:55:42.200 --> 00:55:47.599
+comunque molto molto esteso.
+
+1326
+00:55:44.880 --> 00:55:50.079
+Invece nelle linee di alimentazione,
+
+1327
+00:55:47.599 --> 00:55:52.359
+quindi si parla di nuovo Ener, si parla
+
+1328
+00:55:50.079 --> 00:55:57.200
+di terra. Questo è il corretto simbolo
+
+1329
+00:55:52.359 --> 00:55:59.319
+di terra, una freccia tratteggiata così.
+
+1330
+00:55:57.200 --> 00:56:02.960
+E per terra si intende proprio la Terra,
+
+1331
+00:55:59.319 --> 00:56:04.760
+il pianeta Terra, quindi la la le le
+
+1332
+00:56:02.960 --> 00:56:08.160
+correnti che in qualche modo
+
+1333
+00:56:04.760 --> 00:56:11.160
+attraversano, diciamo, il il suolo, ok?
+
+1334
+00:56:08.160 --> 00:56:13.680
+e che in qualche modo vengono eh
+
+1335
+00:56:11.160 --> 00:56:15.880
+indirizzate nel sottosuolo
+
+1336
+00:56:13.680 --> 00:56:17.400
+dalle varie palline e da tutti i sistemi
+
+1337
+00:56:15.880 --> 00:56:19.280
+di terra usati nei sistemi di
+
+1338
+00:56:17.400 --> 00:56:20.839
+distribuzione dell'energia elettrica.
+
+1339
+00:56:19.280 --> 00:56:23.119
+Quindi il simbolo di terra è questo con
+
+1340
+00:56:20.839 --> 00:56:25.920
+la freccia, l'altro è il simbolo di
+
+1341
+00:56:23.119 --> 00:56:28.039
+massa e sono cose diverse. Tra l'altro a
+
+1342
+00:56:25.920 --> 00:56:29.760
+volte la terra e la massa in un circuito
+
+1343
+00:56:28.039 --> 00:56:33.720
+elettrico vengono collegati insieme, a
+
+1344
+00:56:29.760 --> 00:56:37.440
+volte invece è meglio non collegarle.
+
+1345
+00:56:33.720 --> 00:56:37.440
+Ottima domanda, complimenti.
+
+1346
+00:56:38.079 --> 00:56:45.280
+Se non ci sono altre domande proseguo.
+
+1347
+00:56:41.079 --> 00:56:48.799
+Allora, a questo punto abbiamo la nostra
+
+1348
+00:56:45.280 --> 00:56:50.880
+tensione continua pulsante a 100 Hz che
+
+1349
+00:56:48.799 --> 00:56:53.839
+entra nel circuito di filtraggio. Questa
+
+1350
+00:56:50.880 --> 00:56:55.960
+che vedete qui è una versione lusso del
+
+1351
+00:56:53.839 --> 00:56:58.760
+circuito di filtraggio, come viene usata
+
+1352
+00:56:55.960 --> 00:57:00.280
+per esempio nell'alta fedeltà. Diciamo
+
+1353
+00:56:58.760 --> 00:57:02.799
+che il circuito di filtraggio più
+
+1354
+00:57:00.280 --> 00:57:04.359
+spartano normalmente è un grande
+
+1355
+00:57:02.799 --> 00:57:06.200
+condensatore,
+
+1356
+00:57:04.359 --> 00:57:09.039
+un condensatore elettricoo del tipo
+
+1357
+00:57:06.200 --> 00:57:11.319
+10.000, 15.000, 20.000 microfarad anche
+
+1358
+00:57:09.039 --> 00:57:15.680
+più
+
+1359
+00:57:11.319 --> 00:57:18.400
+e che assicura appunto che eh questo
+
+1360
+00:57:15.680 --> 00:57:21.680
+questo condensatore viene rifornito,
+
+1361
+00:57:18.400 --> 00:57:23.799
+viene riempito 100 volte al secondo e
+
+1362
+00:57:21.680 --> 00:57:26.280
+nei periodi in cui non è riempito lui
+
+1363
+00:57:23.799 --> 00:57:29.880
+deve assicurare l'erogazione della
+
+1364
+00:57:26.280 --> 00:57:32.359
+corrente al carico.
+
+1365
+00:57:29.880 --> 00:57:34.599
+E
+
+1366
+00:57:32.359 --> 00:57:37.799
+se si vuole un alimentatore più
+
+1367
+00:57:34.599 --> 00:57:40.359
+silenzioso, quindi che in uscita non
+
+1368
+00:57:37.799 --> 00:57:42.720
+abbia segnalini, ronzi o cose di questo
+
+1369
+00:57:40.359 --> 00:57:44.640
+genere, si possono usare dei filtri un
+
+1370
+00:57:42.720 --> 00:57:47.200
+pochino più sofisticati. Per esempio,
+
+1371
+00:57:44.640 --> 00:57:49.960
+questo è di fatto un filtro passa basso.
+
+1372
+00:57:47.200 --> 00:57:53.240
+Qui poi c'è una bobina in serie.
+
+1373
+00:57:49.960 --> 00:57:55.640
+Ricordate che la bobina ha un valore di
+
+1374
+00:57:53.240 --> 00:57:57.599
+reattanza più alto al crescere della
+
+1375
+00:57:55.640 --> 00:58:00.039
+frequenza, quindi questa bobina tende a
+
+1376
+00:57:57.599 --> 00:58:01.680
+bloccare i ronz e le ondulazioni e
+
+1377
+00:58:00.039 --> 00:58:04.520
+lasciar passare invece la corrente
+
+1378
+00:58:01.680 --> 00:58:06.480
+continua. Dopo questa bobina c'è un
+
+1379
+00:58:04.520 --> 00:58:10.599
+altro condensatore. Questo è un circuito
+
+1380
+00:58:06.480 --> 00:58:10.599
+a forma di P, come vedete.
+
+1381
+00:58:10.640 --> 00:58:15.720
+Tolgo le
+
+1382
+00:58:13.520 --> 00:58:19.160
+tolgo gli scarabocchi. Questo è un
+
+1383
+00:58:15.720 --> 00:58:22.319
+filtro a pi greco, come si dice, proprio
+
+1384
+00:58:19.160 --> 00:58:24.559
+perché è la lettera P,
+
+1385
+00:58:22.319 --> 00:58:26.000
+come la disegnano, la disegnavano i
+
+1386
+00:58:24.559 --> 00:58:28.039
+greci.
+
+1387
+00:58:26.000 --> 00:58:30.200
+ed è un ottimo filtro che in qualche
+
+1388
+00:58:28.039 --> 00:58:33.960
+modo, come vedete qua, spiana
+
+1389
+00:58:30.200 --> 00:58:36.599
+l'andamento pulsante e da qui esce una
+
+1390
+00:58:33.960 --> 00:58:39.400
+tensione quasi continua, cioè con una
+
+1391
+00:58:36.599 --> 00:58:41.079
+leggera ondulazione, come dicevamo
+
+1392
+00:58:39.400 --> 00:58:42.720
+prima.
+
+1393
+00:58:41.079 --> 00:58:44.640
+Questa
+
+1394
+00:58:42.720 --> 00:58:47.440
+la elimina il circuito di
+
+1395
+00:58:44.640 --> 00:58:49.520
+stabilizzazione che oltre che eliminare
+
+1396
+00:58:47.440 --> 00:58:51.960
+la stabilizzazione, oltre che eliminare
+
+1397
+00:58:49.520 --> 00:58:54.359
+l'ondulazione fa sì di realizzare le
+
+1398
+00:58:51.960 --> 00:58:57.200
+tensioni di uscita che pogliamo noi.
+
+1399
+00:58:54.359 --> 00:58:59.359
+Esistono due grandi categorie di
+
+1400
+00:58:57.200 --> 00:59:02.839
+circuiti di stabilizzazione.
+
+1401
+00:58:59.359 --> 00:59:04.400
+Una è da è è è quello che vedete qua,
+
+1402
+00:59:02.839 --> 00:59:06.359
+quella specie di schema elettrico che
+
+1403
+00:59:04.400 --> 00:59:08.119
+vedete qua. Purtroppo non abbiamo ancora
+
+1404
+00:59:06.359 --> 00:59:10.319
+parlato dei transistor. Questo è il
+
+1405
+00:59:08.119 --> 00:59:12.559
+simbolo di un transistor, però vedete
+
+1406
+00:59:10.319 --> 00:59:14.359
+che qua sotto c'è uno zenere.
+
+1407
+00:59:12.559 --> 00:59:16.720
+Immaginiamo che il mio alimentatore deve
+
+1408
+00:59:14.359 --> 00:59:19.440
+alimentare la mia radio e quindi voglio
+
+1409
+00:59:16.720 --> 00:59:21.480
+12 V in uscita. Immaginiamo, fatemelo
+
+1410
+00:59:19.440 --> 00:59:24.599
+dire in maniera grezza, che qui
+
+1411
+00:59:21.480 --> 00:59:27.359
+inserisco uno zaer da 12 V.
+
+1412
+00:59:24.599 --> 00:59:29.400
+Gli zener non per loro natura non sono
+
+1413
+00:59:27.359 --> 00:59:30.559
+in grado di gestire grandi correnti o
+
+1414
+00:59:29.400 --> 00:59:32.799
+cose di questo tipo. Allora,
+
+1415
+00:59:30.559 --> 00:59:36.000
+praticamente questo zener viene usato
+
+1416
+00:59:32.799 --> 00:59:39.680
+per eh, scusate, perso il cursore.
+
+1417
+00:59:36.000 --> 00:59:44.119
+Eccolo qua. Questo zener viene usato
+
+1418
+00:59:39.680 --> 00:59:45.640
+per m tenere il punto di lavoro di
+
+1419
+00:59:44.119 --> 00:59:49.680
+questo transistor che fa la
+
+1420
+00:59:45.640 --> 00:59:53.000
+stabilizzazione vera e propria nel punto
+
+1421
+00:59:49.680 --> 00:59:55.400
+tale da avere in uscita i 12 V. Quindi,
+
+1422
+00:59:53.000 --> 00:59:58.599
+di fatto, lo dico in un altro modo,
+
+1423
+00:59:55.400 --> 01:00:04.280
+forse più comprensibile
+
+1424
+00:59:58.599 --> 01:00:04.280
+e ricancello il colorato,
+
+1425
+01:00:04.359 --> 01:00:08.920
+eh
+
+1426
+01:00:06.000 --> 01:00:12.000
+il il
+
+1427
+01:00:08.920 --> 01:00:15.000
+punto di lavoro, le modalità di lavoro
+
+1428
+01:00:12.000 --> 01:00:17.400
+del transistor che stabilizza la mia
+
+1429
+01:00:15.000 --> 01:00:20.319
+tensione di uscita vengono in qualche
+
+1430
+01:00:17.400 --> 01:00:22.160
+modo regolate, agganciate a una tensione
+
+1431
+01:00:20.319 --> 01:00:25.039
+di riferimento che è data da un diodo
+
+1432
+01:00:22.160 --> 01:00:27.400
+sulen quindi una tensione di riferimento
+
+1433
+01:00:25.039 --> 01:00:29.920
+che tramite un circuito opportuno mi si
+
+1434
+01:00:27.400 --> 01:00:32.359
+ripercuote in uscita.
+
+1435
+01:00:29.920 --> 01:00:35.000
+Invece lo schema un po' più sofisticato,
+
+1436
+01:00:32.359 --> 01:00:37.599
+diciamo, dei circuiti di stabilizzazione
+
+1437
+01:00:35.000 --> 01:00:39.799
+è questo che vedete qua e più o meno gli
+
+1438
+01:00:37.599 --> 01:00:42.280
+alimentatori
+
+1439
+01:00:39.799 --> 01:00:44.720
+un po' più seriosi funzionano tutti
+
+1440
+01:00:42.280 --> 01:00:47.960
+così. sostanzialmente
+
+1441
+01:00:44.720 --> 01:00:52.240
+eh si lavora sul concetto di tensione di
+
+1442
+01:00:47.960 --> 01:00:54.640
+errore che leggete qua.
+
+1443
+01:00:52.240 --> 01:00:57.079
+Di fatto questo è una stabilizzazione
+
+1444
+01:00:54.640 --> 01:01:00.680
+tramite una retroazione. Diciamo che
+
+1445
+01:00:57.079 --> 01:01:02.799
+questa è la mia radio, il mio carico.
+
+1446
+01:01:00.680 --> 01:01:07.319
+Ho una tensione di uscita V che leggete
+
+1447
+01:01:02.799 --> 01:01:09.160
+qua. Qui ho un circuito, questo che è
+
+1448
+01:01:07.319 --> 01:01:10.559
+chiamato un amplificatore di errore.
+
+1449
+01:01:09.160 --> 01:01:12.400
+Questo circuito da un lato ha una
+
+1450
+01:01:10.559 --> 01:01:14.520
+tensione di riferimento data da questo
+
+1451
+01:01:12.400 --> 01:01:16.880
+zener
+
+1452
+01:01:14.520 --> 01:01:20.000
+in questo suo ingresso. In quest'altro
+
+1453
+01:01:16.880 --> 01:01:21.760
+suo ingresso, lui in qualche modo vedete
+
+1454
+01:01:20.000 --> 01:01:24.839
+che è collegato tramite queste due
+
+1455
+01:01:21.760 --> 01:01:27.559
+resistenze alla
+
+1456
+01:01:24.839 --> 01:01:29.880
+alla tensione di uscita.
+
+1457
+01:01:27.559 --> 01:01:32.480
+Quindi lui in qualche modo qui èato da
+
+1458
+01:01:29.880 --> 01:01:35.799
+una parte della tensione di uscita.
+
+1459
+01:01:32.480 --> 01:01:37.400
+Allora, finché finché tutto va bene e la
+
+1460
+01:01:35.799 --> 01:01:40.119
+tensione che lui tramite questo
+
+1461
+01:01:37.400 --> 01:01:42.359
+partitore di resistenze è uguale alla
+
+1462
+01:01:40.119 --> 01:01:45.640
+tensione di zener, ovvero quando lui su
+
+1463
+01:01:42.359 --> 01:01:47.520
+questi due ingressi ha lo ha valori di
+
+1464
+01:01:45.640 --> 01:01:51.160
+tensione uguali, ovvero immaginiamo che
+
+1465
+01:01:47.520 --> 01:01:53.279
+lo zener sia da 6 V e che io tramite
+
+1466
+01:01:51.160 --> 01:01:56.440
+queste due resistenze
+
+1467
+01:01:53.279 --> 01:01:59.200
+dei 12 V in uscita, tramite queste due
+
+1468
+01:01:56.440 --> 01:02:01.839
+resistenze partiziono e diciamo ho 6
+
+1469
+01:01:59.200 --> 01:02:04.240
+volte in ingresso. tutto va bene e
+
+1470
+01:02:01.839 --> 01:02:06.319
+l'amplificatore di errore non agisce.
+
+1471
+01:02:04.240 --> 01:02:08.440
+Nel momento in cui magari il mio carico
+
+1472
+01:02:06.319 --> 01:02:11.400
+cresce e la tensione di uscita tende a
+
+1473
+01:02:08.440 --> 01:02:13.920
+calare, quindi quando i 12 V scendono,
+
+1474
+01:02:11.400 --> 01:02:17.480
+l'amplificatore di errore compensa
+
+1475
+01:02:13.920 --> 01:02:21.240
+questa discesa facendo in modo che eh il
+
+1476
+01:02:17.480 --> 01:02:23.279
+transistor di stabilizzazione
+
+1477
+01:02:21.240 --> 01:02:25.039
+faccia passare un po' più di energia,
+
+1478
+01:02:23.279 --> 01:02:27.039
+faccia passare un po' più di corrente,
+
+1479
+01:02:25.039 --> 01:02:29.480
+ovvero conduco un po' di più. Diciamo
+
+1480
+01:02:27.039 --> 01:02:34.680
+c'è c'è una c'è un anello c'è un anello
+
+1481
+01:02:29.480 --> 01:02:37.000
+di rincorsa, ritlgo gli scarabocchi,
+
+1482
+01:02:34.680 --> 01:02:40.960
+c'è un anello di di returazione, un
+
+1483
+01:02:37.000 --> 01:02:44.079
+loop, come si dice al all'inglese.
+
+1484
+01:02:40.960 --> 01:02:46.160
+La tensione di uscita viene letta da un
+
+1485
+01:02:44.079 --> 01:02:47.839
+amplificatore d'errore. L'amplificatore
+
+1486
+01:02:46.160 --> 01:02:49.440
+d'errore pilota il transistor di
+
+1487
+01:02:47.839 --> 01:02:51.559
+stabilizzazione che fa in modo di
+
+1488
+01:02:49.440 --> 01:02:55.160
+riportare tutto dove deve stare. Quindi
+
+1489
+01:02:51.559 --> 01:02:58.039
+è una specie di loop continuo.
+
+1490
+01:02:55.160 --> 01:03:03.920
+E questo è tutto sugli alimentatori
+
+1491
+01:02:58.039 --> 01:03:03.920
+lineari. Quindi ci sono quattro blocchi.
+
+1492
+01:03:04.640 --> 01:03:10.079
+Un attimo che tolgo la condivisione, il
+
+1493
+01:03:07.640 --> 01:03:11.799
+trasformatore,
+
+1494
+01:03:10.079 --> 01:03:13.760
+il raddrizzatore,
+
+1495
+01:03:11.799 --> 01:03:16.200
+la parte di filtraggio col condensatore
+
+1496
+01:03:13.760 --> 01:03:18.119
+che immagazzini energia e poi un qualche
+
+1497
+01:03:16.200 --> 01:03:20.079
+circuito di stabilizzazione e
+
+1498
+01:03:18.119 --> 01:03:23.359
+regolazione della pensione d'uscita.
+
+1499
+01:03:20.079 --> 01:03:25.440
+Alberto Alfredo, a te, scusa. Salve. No,
+
+1500
+01:03:23.359 --> 01:03:28.000
+solo una domanda volevo fare. Mi
+
+1501
+01:03:25.440 --> 01:03:29.520
+chiedevo, ma anche i diodi, come altri
+
+1502
+01:03:28.000 --> 01:03:32.319
+componenti che abbiamo visto, è
+
+1503
+01:03:29.520 --> 01:03:33.839
+possibile metterli in serie per
+
+1504
+01:03:32.319 --> 01:03:37.359
+eventualmente,
+
+1505
+01:03:33.839 --> 01:03:39.319
+non so, riuscire a creare delle, non so,
+
+1506
+01:03:37.359 --> 01:03:40.960
+dei filtraggi specifici sulla tensione?
+
+1507
+01:03:39.319 --> 01:03:44.359
+Cioè, mi stavo facendo questa domanda
+
+1508
+01:03:40.960 --> 01:03:49.599
+tipo ehm appunto se se fosse possibile
+
+1509
+01:03:44.359 --> 01:03:52.039
+metterli appunto in serie e visto che m
+
+1510
+01:03:49.599 --> 01:03:55.240
+anche per via della tensione, cioè la
+
+1511
+01:03:52.039 --> 01:03:56.960
+per quella che come voi f facendo poi in
+
+1512
+01:03:55.240 --> 01:04:00.960
+direzione che si dà alla corrente che
+
+1513
+01:03:56.960 --> 01:04:03.079
+tipi di effetti eh darebbero.
+
+1514
+01:04:00.960 --> 01:04:04.839
+>> Grazie. Non so se Chiara perché non ce
+
+1515
+01:04:03.079 --> 01:04:07.480
+l'ho ancora benissimo Chiara nemmeno io,
+
+1516
+01:04:04.839 --> 01:04:09.200
+quindi faccio un po' domande a casaccio.
+
+1517
+01:04:07.480 --> 01:04:10.680
+>> Allora, intanto dico intanto dico due
+
+1518
+01:04:09.200 --> 01:04:13.520
+cose, poi tu mi dici se vuoi sapere
+
+1519
+01:04:10.680 --> 01:04:15.680
+altro. Allora, intanto eh mettere i
+
+1520
+01:04:13.520 --> 01:04:17.599
+diodi in serie è una pratica abbastanza
+
+1521
+01:04:15.680 --> 01:04:20.839
+abbastanza comune. Ai vecchi tempi, ad
+
+1522
+01:04:17.599 --> 01:04:23.359
+esempio, quando si
+
+1523
+01:04:20.839 --> 01:04:25.440
+diciamo quando si usavano alimentatori a
+
+1524
+01:04:23.359 --> 01:04:27.319
+valvole, scusate, quando si usavano
+
+1525
+01:04:25.440 --> 01:04:29.200
+apparati e valvole, in particolare anche
+
+1526
+01:04:27.319 --> 01:04:32.400
+amplificatori a valvole, molto spesso
+
+1527
+01:04:29.200 --> 01:04:34.000
+questi amplificatori ricevo avevano
+
+1528
+01:04:32.400 --> 01:04:35.839
+avevano bisogno di tensioni di uscita
+
+1529
+01:04:34.000 --> 01:04:38.440
+dell'ordine di qualche migliaio di volt
+
+1530
+01:04:35.839 --> 01:04:40.200
+per alimentare queste valvole. Allora,
+
+1531
+01:04:38.440 --> 01:04:42.000
+magari per avere dei diodi in grado di
+
+1532
+01:04:40.200 --> 01:04:44.680
+reggere quella tensione se ne mettevano
+
+1533
+01:04:42.000 --> 01:04:46.920
+più in serie e quindi uno degli scopi di
+
+1534
+01:04:44.680 --> 01:04:48.480
+una serie di diodi è di aumentare la
+
+1535
+01:04:46.920 --> 01:04:50.440
+tensione di lavoro rispetto a quella di
+
+1536
+01:04:48.480 --> 01:04:54.559
+un singolo diodo, cioè se dei diodi che
+
+1537
+01:04:50.440 --> 01:04:57.720
+magari reggono una tensione eh inversa
+
+1538
+01:04:54.559 --> 01:05:02.400
+di 500 V, magari nel tuo alimentatore
+
+1539
+01:04:57.720 --> 01:05:05.039
+hai 2000 V, ne metti in serie 5, 5* 5
+
+1540
+01:05:02.400 --> 01:05:07.440
+25. A questo punto hai una capacità di
+
+1541
+01:05:05.039 --> 01:05:09.160
+gestione di tensioni di 2500 V che
+
+1542
+01:05:07.440 --> 01:05:12.880
+potrebbe essere sufficiente rispetto ai
+
+1543
+01:05:09.160 --> 01:05:15.039
+2000 che gestisci che gestisci tu. Ok?
+
+1544
+01:05:12.880 --> 01:05:18.200
+Oppure per esempio si possono mettere in
+
+1545
+01:05:15.039 --> 01:05:19.480
+serie i diudi zener. Se ho bisogno di un
+
+1546
+01:05:18.200 --> 01:05:22.279
+faccio per dire se ho bisogno di un
+
+1547
+01:05:19.480 --> 01:05:24.640
+riferimento a 18 V e ho assolutamente
+
+1548
+01:05:22.279 --> 01:05:28.279
+zenere a 9, se metto in serie due diodi
+
+1549
+01:05:24.640 --> 01:05:31.200
+9 + 9 ho un riferimento a 18 V.
+
+1550
+01:05:28.279 --> 01:05:33.319
+Quindi sicuramente i diciamo di in serie
+
+1551
+01:05:31.200 --> 01:05:35.799
+si possono tranquillamente mettere, come
+
+1552
+01:05:33.319 --> 01:05:38.520
+pure si mettono di in parallelo, cioè
+
+1553
+01:05:35.799 --> 01:05:41.359
+quando si hanno raddrizzatori che devono
+
+1554
+01:05:38.520 --> 01:05:44.160
+gestire correnti importanti dell'ordine
+
+1555
+01:05:41.359 --> 01:05:46.720
+delle centinaia di ampere, ci sono dei
+
+1556
+01:05:44.160 --> 01:05:48.640
+diodi molto diversi da quelli che vi ho
+
+1557
+01:05:46.720 --> 01:05:50.400
+fatto vedere prima nel disegno iniziale.
+
+1558
+01:05:48.640 --> 01:05:53.079
+Ci sono dei dei diodi che sembrano dei
+
+1559
+01:05:50.400 --> 01:05:54.680
+bulloni filettati perché si avvitano su
+
+1560
+01:05:53.079 --> 01:05:57.000
+delle lette di raffreddamento, no?
+
+1561
+01:05:54.680 --> 01:06:00.400
+Perché ovviamente corrente alta implica
+
+1562
+01:05:57.000 --> 01:06:03.160
+anche molto calore dissipato
+
+1563
+01:06:00.400 --> 01:06:04.760
+e e diciamo dove non basta un diodo se
+
+1564
+01:06:03.160 --> 01:06:06.880
+ne mettono due o tre o quattro in
+
+1565
+01:06:04.760 --> 01:06:09.480
+parallelo. Quindi anche i diodi si
+
+1566
+01:06:06.880 --> 01:06:13.920
+possono combinare dal punto di vista di
+
+1567
+01:06:09.480 --> 01:06:16.839
+quello che serve nel circuito. Ok?
+
+1568
+01:06:13.920 --> 01:06:18.520
+Chiaro? Sì, era no era praticamente su
+
+1569
+01:06:16.839 --> 01:06:21.200
+questo, cioè appunto capire se
+
+1570
+01:06:18.520 --> 01:06:24.039
+effettivamente servisse ad aumentare la
+
+1571
+01:06:21.200 --> 01:06:27.599
+resistenza del singolo diodo, metterlo
+
+1572
+01:06:24.039 --> 01:06:29.520
+in serie con con un altro e se servisse
+
+1573
+01:06:27.599 --> 01:06:33.000
+anche a creare magari delle tensioni
+
+1574
+01:06:29.520 --> 01:06:34.000
+proprio eh precise di fino perché magari
+
+1575
+01:06:33.000 --> 01:06:36.440
+proprio da un punto di vista della
+
+1576
+01:06:34.000 --> 01:06:38.119
+regolazione specifica della tensione.
+
+1577
+01:06:36.440 --> 01:06:40.000
+Era solo era questo quello che mi
+
+1578
+01:06:38.119 --> 01:06:43.200
+interessava. Grazie. Sì, sì, sì, sì, sì.
+
+1579
+01:06:40.000 --> 01:06:46.000
+Perfetto. Grazie a te. Bella domanda. Ci
+
+1580
+01:06:43.200 --> 01:06:46.000
+sono altre domande?
+
+1581
+01:06:46.279 --> 01:06:50.799
+Allora, per stasera a questo punto
+
+1582
+01:06:48.440 --> 01:06:53.680
+abbiamo finito, nel senso che nel
+
+1583
+01:06:50.799 --> 01:06:57.400
+programma di esame, cioè abbiamo finito,
+
+1584
+01:06:53.680 --> 01:06:59.559
+scusate, rimetto in condivisione il lo
+
+1585
+01:06:57.400 --> 01:07:04.960
+schermo,
+
+1586
+01:06:59.559 --> 01:07:07.079
+nel senso che nel programma di esame
+
+1587
+01:07:04.960 --> 01:07:09.079
+eh
+
+1588
+01:07:07.079 --> 01:07:11.160
+la parte che su cui vi vorrei
+
+1589
+01:07:09.079 --> 01:07:13.559
+intrattenere altri 10 minuti, che è
+
+1590
+01:07:11.160 --> 01:07:16.359
+quella degli alimentatori a commutazione
+
+1591
+01:07:13.559 --> 01:07:19.480
+detti anche switching non c'è non c'è.
+
+1592
+01:07:16.359 --> 01:07:21.440
+Però uno non è escluso che, siccome poi
+
+1593
+01:07:19.480 --> 01:07:23.400
+le domande le fa la commissione, non è
+
+1594
+01:07:21.440 --> 01:07:25.039
+non è escluso che qualche brillantissimo
+
+1595
+01:07:23.400 --> 01:07:26.760
+membro di una commissione di esame non
+
+1596
+01:07:25.039 --> 01:07:28.880
+decida di chiedere qualcosa anche sugli
+
+1597
+01:07:26.760 --> 01:07:30.559
+switching. E poi siccome questi
+
+1598
+01:07:28.880 --> 01:07:33.000
+alimentatori sono quelli che oggi vanno
+
+1599
+01:07:30.559 --> 01:07:34.880
+per la maggiore e penso che sia utile
+
+1600
+01:07:33.000 --> 01:07:37.039
+che tutti conoscono in linea di massimo
+
+1601
+01:07:34.880 --> 01:07:39.400
+come funzionano e i vantaggi e svantaggi
+
+1602
+01:07:37.039 --> 01:07:40.760
+che hanno. Quindi vi dico rapidamente
+
+1603
+01:07:39.400 --> 01:07:43.520
+come funzionano l'alimentatore a
+
+1604
+01:07:40.760 --> 01:07:45.319
+commutazione.
+
+1605
+01:07:43.520 --> 01:07:48.039
+Però rapido perché in realtà è un
+
+1606
+01:07:45.319 --> 01:07:50.400
+funzionamento molto semplice, però è
+
+1607
+01:07:48.039 --> 01:07:53.200
+simpatico perché è molto diverso in
+
+1608
+01:07:50.400 --> 01:07:55.440
+varie parti da come da come funziona un
+
+1609
+01:07:53.200 --> 01:07:57.520
+alimentatore tradizionale lineare detto
+
+1610
+01:07:55.440 --> 01:07:58.880
+finora. Allora, questo è lo schema
+
+1611
+01:07:57.520 --> 01:08:02.079
+blocchi di un alimentatore a
+
+1612
+01:07:58.880 --> 01:08:04.599
+commutazione tipico. Si parte,
+
+1613
+01:08:02.079 --> 01:08:07.440
+scusate, riaccendo il pennarello. Si
+
+1614
+01:08:04.599 --> 01:08:11.440
+parte come sempre dall'Enel che ci dà
+
+1615
+01:08:07.440 --> 01:08:13.440
+230 V a 50 Hz. Allora, qui in ingresso
+
+1616
+01:08:11.440 --> 01:08:15.720
+non c'è il trasformatore, quindi un
+
+1617
+01:08:13.440 --> 01:08:17.759
+alimentatore switching come primo stadio
+
+1618
+01:08:15.720 --> 01:08:20.520
+ha un raddrizzatore a doppia semionda,
+
+1619
+01:08:17.759 --> 01:08:22.359
+quindi un ponte, un ponte di Grezz, i
+
+1620
+01:08:20.520 --> 01:08:24.839
+famosi quattro diodi che abbiamo visto
+
+1621
+01:08:22.359 --> 01:08:26.400
+poco fa. Dopo questo raddrizzatore a
+
+1622
+01:08:24.839 --> 01:08:29.719
+doppia semionda, c'è un ricco
+
+1623
+01:08:26.400 --> 01:08:31.799
+condensatore, un condensatore grossotto
+
+1624
+01:08:29.719 --> 01:08:33.880
+che si carica al valore di picco della
+
+1625
+01:08:31.799 --> 01:08:37.400
+nostra sinusoide. Quindi in questo punto
+
+1626
+01:08:33.880 --> 01:08:41.359
+qua io ho una tensione continua di circa
+
+1627
+01:08:37.400 --> 01:08:45.520
+310 V perché ricordate che l'Enel i 220
+
+1628
+01:08:41.359 --> 01:08:48.799
+230 V ce li dà di tensione e efficace.
+
+1629
+01:08:45.520 --> 01:08:50.520
+Quelli quelli sono 220 V efficaci.
+
+1630
+01:08:48.799 --> 01:08:52.759
+Avevamo visto quando ne abbiamo parlato
+
+1631
+01:08:50.520 --> 01:08:55.600
+che la tensione di picco di quella
+
+1632
+01:08:52.759 --> 01:08:57.319
+sinusoide Enel in realtà sono 300 V e il
+
+1633
+01:08:55.600 --> 01:08:59.319
+condensatore si carica ovviamente la
+
+1634
+01:08:57.319 --> 01:09:02.520
+tensione di picco. Quindi qua io ho una
+
+1635
+01:08:59.319 --> 01:09:04.560
+continua di 310 V.
+
+1636
+01:09:02.520 --> 01:09:06.480
+senza alcun trasformatore nel mezzo.
+
+1637
+01:09:04.560 --> 01:09:08.600
+Quindi tutta questa parte del
+
+1638
+01:09:06.480 --> 01:09:11.279
+dell'adderz del dell'alimentatore
+
+1639
+01:09:08.600 --> 01:09:14.839
+switching è collegata direttamente alla
+
+1640
+01:09:11.279 --> 01:09:19.159
+rete alla rete elettrica, alla rete
+
+1641
+01:09:14.839 --> 01:09:21.199
+poi questi 310 V di corrente continua
+
+1642
+01:09:19.159 --> 01:09:23.920
+entrano in un circuito che si chiama
+
+1643
+01:09:21.199 --> 01:09:27.080
+chopper
+
+1644
+01:09:23.920 --> 01:09:29.600
+e chopper. Chop è la fetta. Coppere si
+
+1645
+01:09:27.080 --> 01:09:31.600
+potrebbe tradurre con l'affettatore. Qui
+
+1646
+01:09:29.600 --> 01:09:33.839
+dentro immaginate che ci sia un
+
+1647
+01:09:31.600 --> 01:09:36.120
+interruttore
+
+1648
+01:09:33.839 --> 01:09:40.199
+che si apre e si chiude a frequenze
+
+1649
+01:09:36.120 --> 01:09:43.440
+molto alte, per esempio 30-60 kHz, cioè
+
+1650
+01:09:40.199 --> 01:09:45.040
+30.000 60.000 1000 volte al secondo.
+
+1651
+01:09:43.440 --> 01:09:47.440
+Questo interruttore che si apre e si
+
+1652
+01:09:45.040 --> 01:09:51.120
+chiude fa sì che la tensione continua
+
+1653
+01:09:47.440 --> 01:09:55.440
+che ho in questo punto di 310 V diventa
+
+1654
+01:09:51.120 --> 01:09:58.560
+di fatto una tensione onda quadra
+
+1655
+01:09:55.440 --> 01:10:01.679
+di ampiezza sempre di 310 V, però quando
+
+1656
+01:09:58.560 --> 01:10:03.760
+l'interruttore è chiuso ho, diciamo, 310
+
+1657
+01:10:01.679 --> 01:10:06.199
+V. Quando l'interruttore è aperto,
+
+1658
+01:10:03.760 --> 01:10:08.600
+quindi quando il mio chopper è aperto,
+
+1659
+01:10:06.199 --> 01:10:11.400
+ho ho una tensione di uscita pari a
+
+1660
+01:10:08.600 --> 01:10:15.000
+zero. Quindi questo chopper in pratica
+
+1661
+01:10:11.400 --> 01:10:18.880
+mi trasforma la tensione continua in una
+
+1662
+01:10:15.000 --> 01:10:22.719
+nuova tensione, diciamo, alternata
+
+1663
+01:10:18.880 --> 01:10:28.120
+che varia appunto da 0 a 310 V. Questa
+
+1664
+01:10:22.719 --> 01:10:30.120
+tensione alternata di 310 V e
+
+1665
+01:10:28.120 --> 01:10:32.239
+la frequenza è tipicamente, a secondo
+
+1666
+01:10:30.120 --> 01:10:36.040
+dell'alimentatore da 30.000
+
+1667
+01:10:32.239 --> 01:10:39.000
+60.000 kHz entra in un trasformatore
+
+1668
+01:10:36.040 --> 01:10:41.400
+e qui abbiamo il solito trasformatore.
+
+1669
+01:10:39.000 --> 01:10:43.679
+La differenza che c'è da un alimentatore
+
+1670
+01:10:41.400 --> 01:10:45.560
+tradizionale a a un alimentatore
+
+1671
+01:10:43.679 --> 01:10:48.600
+switching, la principale differenza sta
+
+1672
+01:10:45.560 --> 01:10:51.040
+proprio qua, che mentre un alimentatore
+
+1673
+01:10:48.600 --> 01:10:53.560
+tradizionale, mentre in un alimentatore
+
+1674
+01:10:51.040 --> 01:10:56.400
+tradizionale il trasformatore lavora ai
+
+1675
+01:10:53.560 --> 01:11:00.000
+50 Hz della rete, questo trasformatore
+
+1676
+01:10:56.400 --> 01:11:03.360
+lavora a 30 kHz, a 60 kHz, quindi lavora
+
+1677
+01:11:00.000 --> 01:11:06.080
+a frequenze 1000 volte superiori più o
+
+1678
+01:11:03.360 --> 01:11:08.520
+meno, il che significa che sono dei
+
+1679
+01:11:06.080 --> 01:11:10.400
+trasformatori particolari non fatti con
+
+1680
+01:11:08.520 --> 01:11:12.400
+materiali di ferro, magnetici eccetera,
+
+1681
+01:11:10.400 --> 01:11:15.480
+ma normalmente fatti con delle ferdite
+
+1682
+01:11:12.400 --> 01:11:17.520
+appositiche e siccome lavora una
+
+1683
+01:11:15.480 --> 01:11:20.199
+frequenza molto elevata, bastano dei
+
+1684
+01:11:17.520 --> 01:11:21.719
+trasformatori piccolissimi.
+
+1685
+01:11:20.199 --> 01:11:23.560
+Perché bastano trasformatori
+
+1686
+01:11:21.719 --> 01:11:25.960
+piccolissimi? Ricordate quando abbiamo
+
+1687
+01:11:23.560 --> 01:11:28.480
+parlato delle
+
+1688
+01:11:25.960 --> 01:11:30.600
+degli induttori, abbiamo parlato delle
+
+1689
+01:11:28.480 --> 01:11:33.640
+esperienze di Farade, no? che era quello
+
+1690
+01:11:30.600 --> 01:11:36.719
+che con una calamita in mano inseriva e
+
+1691
+01:11:33.640 --> 01:11:38.480
+levava una calamita da una spira e il
+
+1692
+01:11:36.719 --> 01:11:40.280
+fatto di inserire una calamita che
+
+1693
+01:11:38.480 --> 01:11:42.520
+quindi genera un campo magnetico in una
+
+1694
+01:11:40.280 --> 01:11:45.440
+spira mi creava una corrente in quella
+
+1695
+01:11:42.520 --> 01:11:47.679
+spira. Allora in pratica, i fenomeni di
+
+1696
+01:11:45.440 --> 01:11:49.880
+e si era detto allora che se questa
+
+1697
+01:11:47.679 --> 01:11:51.719
+calamita la inserivi più rapidamente
+
+1698
+01:11:49.880 --> 01:11:54.760
+generavi più corrente elettrica. Cioè,
+
+1699
+01:11:51.719 --> 01:11:58.480
+in generale i fenomeni l'induzione
+
+1700
+01:11:54.760 --> 01:12:00.719
+magnetica, l'induzione magnetica, quindi
+
+1701
+01:11:58.480 --> 01:12:03.360
+quella che avviene in un trasformatore,
+
+1702
+01:12:00.719 --> 01:12:06.080
+è tanto più potente e tanto più porta
+
+1703
+01:12:03.360 --> 01:12:08.840
+energia quanto più è rapida.
+
+1704
+01:12:06.080 --> 01:12:12.159
+Quanto più è rapida, quanto più il
+
+1705
+01:12:08.840 --> 01:12:14.520
+delta, la variazione della mia corrente
+
+1706
+01:12:12.159 --> 01:12:17.600
+è elevato, quanta più induzione
+
+1707
+01:12:14.520 --> 01:12:20.239
+magnetica ho. Allora, se io la mia
+
+1708
+01:12:17.600 --> 01:12:23.960
+induzione la faccio andare su e giù 50
+
+1709
+01:12:20.239 --> 01:12:26.320
+volte al secondo, come mi dà l'Enel, o
+
+1710
+01:12:23.960 --> 01:12:28.080
+la faccio andare 50.000 1000 volte al
+
+1711
+01:12:26.320 --> 01:12:30.159
+secondo, capite che non è proprio la
+
+1712
+01:12:28.080 --> 01:12:33.480
+stessa cosa.
+
+1713
+01:12:30.159 --> 01:12:37.120
+E un trasformatore che lavora con una ha
+
+1714
+01:12:33.480 --> 01:12:39.159
+una frequenza di 1000 volte superiore a
+
+1715
+01:12:37.120 --> 01:12:41.800
+quella di rete, ha un'induzione
+
+1716
+01:12:39.159 --> 01:12:43.960
+magnetica estremamente più alta e quindi
+
+1717
+01:12:41.800 --> 01:12:46.159
+riesce a trasformare a trasportare una
+
+1718
+01:12:43.960 --> 01:12:48.040
+quantità di energia enormemente più alta
+
+1719
+01:12:46.159 --> 01:12:49.679
+che non un trasformatore che lavora a 50
+
+1720
+01:12:48.040 --> 01:12:52.199
+Hz. Quindi, in sostanza, basta un
+
+1721
+01:12:49.679 --> 01:12:53.960
+trasformatore piccolino.
+
+1722
+01:12:52.199 --> 01:12:56.480
+Tanto per parlare di numeri, se un
+
+1723
+01:12:53.960 --> 01:12:59.480
+trasformatore di un alimentatore lineare
+
+1724
+01:12:56.480 --> 01:13:01.320
+grossotto pesa 2 o 3 kg, un
+
+1725
+01:12:59.480 --> 01:13:03.880
+trasformatore analogo di uno switching
+
+1726
+01:13:01.320 --> 01:13:06.320
+pesa un etto e mezzo e quindi è un
+
+1727
+01:13:03.880 --> 01:13:09.199
+oggetto anche estremamente più economico
+
+1728
+01:13:06.320 --> 01:13:11.280
+da da realizzare, cioè non sono 2 kg di
+
+1729
+01:13:09.199 --> 01:13:12.960
+rame, ferro, tutta roba costosa. Questo
+
+1730
+01:13:11.280 --> 01:13:15.760
+è il motivo per cui gli switching
+
+1731
+01:13:12.960 --> 01:13:18.560
+costano abbastanza poco. All'uscita del
+
+1732
+01:13:15.760 --> 01:13:21.560
+trasformatore ho il solito
+
+1733
+01:13:18.560 --> 01:13:21.560
+riadderizzatore,
+
+1734
+01:13:21.800 --> 01:13:27.520
+ho ripesso il cursore.
+
+1735
+01:13:24.440 --> 01:13:30.199
+Eccolo qua. Ho il solito riaddrizzatore
+
+1736
+01:13:27.520 --> 01:13:32.040
+e anche qui è un vantaggio, cioè più
+
+1737
+01:13:30.199 --> 01:13:34.320
+volte prima vi ho detto quando si
+
+1738
+01:13:32.040 --> 01:13:36.920
+parlava del condensatore in uscita
+
+1739
+01:13:34.320 --> 01:13:39.880
+riaddrizzatore che il riaddrizzatore,
+
+1740
+01:13:36.920 --> 01:13:41.840
+scusatemi, che il filtro capacitivo, il
+
+1741
+01:13:39.880 --> 01:13:44.000
+filtro capacitivo e il condensatore vi
+
+1742
+01:13:41.840 --> 01:13:45.960
+ho detto viene riempito 50 volte al
+
+1743
+01:13:44.000 --> 01:13:48.080
+secondo. Poi con radrizzatore onda
+
+1744
+01:13:45.960 --> 01:13:51.040
+intera viene riempito 100 volte al
+
+1745
+01:13:48.080 --> 01:13:54.639
+secondo. Qui il condensatore che c'è in
+
+1746
+01:13:51.040 --> 01:13:57.679
+questa posizione viene riempito
+
+1747
+01:13:54.639 --> 01:13:59.840
+50.000 1000 volte al secondo e quindi
+
+1748
+01:13:57.679 --> 01:14:01.679
+basta un serbatoio piccolo perché viene
+
+1749
+01:13:59.840 --> 01:14:03.760
+riempito in continuazione, quindi
+
+1750
+01:14:01.679 --> 01:14:05.199
+bastano dei condensatori molto molto
+
+1751
+01:14:03.760 --> 01:14:07.239
+molto più piccoli di quelli degli
+
+1752
+01:14:05.199 --> 01:14:10.800
+alimentatori tradizionali perché li
+
+1753
+01:14:07.239 --> 01:14:10.800
+riempio in continuazione.
+
+1754
+01:14:12.639 --> 01:14:19.320
+Un'ultima cosa che vi volevo dire, anzi
+
+1755
+01:14:14.840 --> 01:14:19.320
+due, tolgo gli scarabocchi,
+
+1756
+01:14:22.679 --> 01:14:29.000
+poi anche qui ho un
+
+1757
+01:14:27.000 --> 01:14:30.880
+eh prelievo
+
+1758
+01:14:29.000 --> 01:14:32.639
+come come si diceva prima, una parte
+
+1759
+01:14:30.880 --> 01:14:35.639
+della tensione di uscita ed ho un
+
+1760
+01:14:32.639 --> 01:14:38.760
+circuito di regolazione che mi
+
+1761
+01:14:35.639 --> 01:14:41.159
+stabilizza la tensione di uscita.
+
+1762
+01:14:38.760 --> 01:14:43.840
+Qui è un circuito di controllo che fa sì
+
+1763
+01:14:41.159 --> 01:14:48.440
+che le le fettine del mio chopper
+
+1764
+01:14:43.840 --> 01:14:50.760
+vengano allargate o ristrette se io devo
+
+1765
+01:14:48.440 --> 01:14:53.000
+abbassa alzare o abbassare la mia
+
+1766
+01:14:50.760 --> 01:14:56.040
+tensione di uscita.
+
+1767
+01:14:53.000 --> 01:14:59.159
+Tutta la parte che vedete a sinistra di
+
+1768
+01:14:56.040 --> 01:15:01.000
+questa linea tratteggiata funziona
+
+1769
+01:14:59.159 --> 01:15:02.679
+collegata direttamente alla rete
+
+1770
+01:15:01.000 --> 01:15:05.040
+elettrica. Quindi se qualcuno di voi
+
+1771
+01:15:02.679 --> 01:15:07.480
+dovesse immaginare di mettere le mani in
+
+1772
+01:15:05.040 --> 01:15:09.440
+un alimentatore switching, deve stare
+
+1773
+01:15:07.480 --> 01:15:11.360
+molto ma molto attento perché tutta
+
+1774
+01:15:09.440 --> 01:15:13.800
+questa prima parte si corre il rischio
+
+1775
+01:15:11.360 --> 01:15:15.520
+della fulminazione,
+
+1776
+01:15:13.800 --> 01:15:18.560
+essendo collegata direttamente alla
+
+1777
+01:15:15.520 --> 01:15:21.440
+rete. Invece a valle, a valle ovviamente
+
+1778
+01:15:18.560 --> 01:15:23.639
+c'è il trasformatore e quindi diciamo
+
+1779
+01:15:21.440 --> 01:15:26.000
+l'apparato, la radio viene alimentato in
+
+1780
+01:15:23.639 --> 01:15:28.159
+maniera assolutamente sicura.
+
+1781
+01:15:26.000 --> 01:15:32.040
+nel circuito di controllo,
+
+1782
+01:15:28.159 --> 01:15:34.280
+un'ultimissima cosa, c'è un per separare
+
+1783
+01:15:32.040 --> 01:15:35.920
+l'ingresso e l'uscita dal circuito di
+
+1784
+01:15:34.280 --> 01:15:38.960
+controllo, qui c'è un componente che è
+
+1785
+01:15:35.920 --> 01:15:41.000
+furbissimo, che è l'optisolatore. Qui
+
+1786
+01:15:38.960 --> 01:15:43.080
+nella parte alta la separazione
+
+1787
+01:15:41.000 --> 01:15:44.760
+galvanica viene assicurata da questo
+
+1788
+01:15:43.080 --> 01:15:46.920
+trasformatore, no? trasformatore
+
+1789
+01:15:44.760 --> 01:15:49.320
+primario e secondario non passano
+
+1790
+01:15:46.920 --> 01:15:51.440
+elettroni, ma passa solo crusomagnetico.
+
+1791
+01:15:49.320 --> 01:15:53.120
+In questo circuito di controllo c'è un
+
+1792
+01:15:51.440 --> 01:15:56.520
+componente elettronico che si chiama
+
+1793
+01:15:53.120 --> 01:15:59.400
+optisolatore che è composto da un LED
+
+1794
+01:15:56.520 --> 01:16:01.560
+che è questa parte qua e un fotot
+
+1795
+01:15:59.400 --> 01:16:04.880
+transistor, quindi un transistor che
+
+1796
+01:16:01.560 --> 01:16:08.360
+viene pilotato tramite la luce. è un
+
+1797
+01:16:04.880 --> 01:16:10.880
+dispositivo un po' particolare e quindi
+
+1798
+01:16:08.360 --> 01:16:13.000
+il collegamento fra l'ingresso e
+
+1799
+01:16:10.880 --> 01:16:15.080
+l'uscita del mio optoisolatore avviene
+
+1800
+01:16:13.000 --> 01:16:19.040
+tramite luce, non tramite passaggio di
+
+1801
+01:16:15.080 --> 01:16:20.719
+elettroni. Il LED avrà più o meno luce e
+
+1802
+01:16:19.040 --> 01:16:23.679
+questo livello di luce più alta o più
+
+1803
+01:16:20.719 --> 01:16:26.320
+bassa porterà questo transistor più o
+
+1804
+01:16:23.679 --> 01:16:30.120
+meno in conduzione. transistor parleremo
+
+1805
+01:16:26.320 --> 01:16:31.719
+la mercoledì prossimo, quindi per ora
+
+1806
+01:16:30.120 --> 01:16:34.080
+prendete così in termini anche un po'
+
+1807
+01:16:31.719 --> 01:16:36.120
+qualitativi quello che che vi dico.
+
+1808
+01:16:34.080 --> 01:16:38.280
+L'opto isolatore fa sì di realizzare un
+
+1809
+01:16:36.120 --> 01:16:41.400
+ottimo isolamento galvanico, appunto,
+
+1810
+01:16:38.280 --> 01:16:44.159
+fra eh l'ingresso e l'uscita dell'opto
+
+1811
+01:16:41.400 --> 01:16:46.600
+isolatore. Optico,
+
+1812
+01:16:44.159 --> 01:16:49.159
+isolatore ottico. In effetti la
+
+1813
+01:16:46.600 --> 01:16:51.639
+comunicazione passa tramite tramite
+
+1814
+01:16:49.159 --> 01:16:54.840
+luce. Un'ultimissima cosa, poi abbiamo
+
+1815
+01:16:51.639 --> 01:16:56.719
+finito spazio a domande,
+
+1816
+01:16:54.840 --> 01:16:58.199
+abbiamo parlato dei degli alimentatori
+
+1817
+01:16:56.719 --> 01:17:00.120
+lineari e degli alimentatori a
+
+1818
+01:16:58.199 --> 01:17:01.639
+commutazione. Allora, che pregi hanno,
+
+1819
+01:17:00.120 --> 01:17:03.560
+siccome voi vi troverete, se non li
+
+1820
+01:17:01.639 --> 01:17:05.480
+avete già a comprare degli alimentatori
+
+1821
+01:17:03.560 --> 01:17:08.239
+di questo tipo, un piccolo suggerimento
+
+1822
+01:17:05.480 --> 01:17:10.280
+per gli acquisti. Allora, i pregi degli
+
+1823
+01:17:08.239 --> 01:17:12.600
+alimentatori a commutazione sono quelli
+
+1824
+01:17:10.280 --> 01:17:14.760
+che ho detto fino a ora e li
+
+1825
+01:17:12.600 --> 01:17:16.760
+riassumiamo. Ovviamente un alimentatore
+
+1826
+01:17:14.760 --> 01:17:18.600
+commutazione più piccolo e più leggero
+
+1827
+01:17:16.760 --> 01:17:22.000
+perché invece di esserci 3 kg di
+
+1828
+01:17:18.600 --> 01:17:23.719
+trasformatore ci sono 200 g. Sono molto
+
+1829
+01:17:22.000 --> 01:17:26.199
+più efficienti degli alimentatori
+
+1830
+01:17:23.719 --> 01:17:28.239
+lineari. A sta per alimentatore lineare,
+
+1831
+01:17:26.199 --> 01:17:31.880
+quindi scaldano meno, hanno un
+
+1832
+01:17:28.239 --> 01:17:34.040
+rendimento tranquillamente dell'80%.
+
+1833
+01:17:31.880 --> 01:17:36.520
+Quelli che hanno frequenze più alte
+
+1834
+01:17:34.040 --> 01:17:39.960
+hanno hanno anche rendimenti che
+
+1835
+01:17:36.520 --> 01:17:42.080
+sfiorano il 95%, di conseguenza costano
+
+1836
+01:17:39.960 --> 01:17:44.520
+meno
+
+1837
+01:17:42.080 --> 01:17:46.360
+perché il trasformatore, il dissipatore
+
+1838
+01:17:44.520 --> 01:17:48.719
+che è fatto d'alluminio, il contenitore
+
+1839
+01:17:46.360 --> 01:17:50.760
+che è grande, pesante, sono tutte cose
+
+1840
+01:17:48.719 --> 01:17:53.159
+che ovviamente costano. Quindi a pari
+
+1841
+01:17:50.760 --> 01:17:55.880
+potenza un alimentatore switching a
+
+1842
+01:17:53.159 --> 01:17:57.679
+commutazione costa meno, però hanno dei
+
+1843
+01:17:55.880 --> 01:18:01.040
+difetti. Il grande difetto dello
+
+1844
+01:17:57.679 --> 01:18:02.719
+switching è che generano interferenze a
+
+1845
+01:18:01.040 --> 01:18:05.679
+radiofrequenza,
+
+1846
+01:18:02.719 --> 01:18:07.639
+perché se ci pensate torno sulla figura
+
+1847
+01:18:05.679 --> 01:18:09.520
+di prima,
+
+1848
+01:18:07.639 --> 01:18:12.120
+tolgo
+
+1849
+01:18:09.520 --> 01:18:14.920
+il il rosso.
+
+1850
+01:18:12.120 --> 01:18:17.000
+Se ci pensate
+
+1851
+01:18:14.920 --> 01:18:18.960
+in questa parte di un alimentatore
+
+1852
+01:18:17.000 --> 01:18:20.920
+switching, immaginate un alimentatore
+
+1853
+01:18:18.960 --> 01:18:24.480
+switching che debba gestire una certa
+
+1854
+01:18:20.920 --> 01:18:28.120
+potenza, 500W. Qui si genera, cioè il
+
+1855
+01:18:24.480 --> 01:18:31.120
+chopper qui genera un'onda quadra
+
+1856
+01:18:28.120 --> 01:18:31.120
+potentissima
+
+1857
+01:18:32.719 --> 01:18:37.679
+e per sua natura ha una quantità di
+
+1858
+01:18:35.360 --> 01:18:40.719
+armonica incredibile, cioè onda quadra a
+
+1859
+01:18:37.679 --> 01:18:44.159
+60.000 1000 Hz, la posso ascoltare quasi
+
+1860
+01:18:40.719 --> 01:18:47.520
+fino a 60 MHz in termini di frequenze
+
+1861
+01:18:44.159 --> 01:18:51.560
+radio. Cioè questi alimentatori sono
+
+1862
+01:18:47.520 --> 01:18:55.320
+intrinsecamente sporchi, per intenderci,
+
+1863
+01:18:51.560 --> 01:18:58.560
+perché il fatto di generare appunto una
+
+1864
+01:18:55.320 --> 01:19:02.159
+tensione e una corrente così forte, una
+
+1865
+01:18:58.560 --> 01:19:05.520
+frequenza così alta e questo è un
+
+1866
+01:19:02.159 --> 01:19:07.560
+generatore è intrinsecamente esso stesso
+
+1867
+01:19:05.520 --> 01:19:09.679
+un generatore di disturbi. Allora, cosa
+
+1868
+01:19:07.560 --> 01:19:13.480
+succede in questi alimentatori? Quindi
+
+1869
+01:19:09.679 --> 01:19:15.760
+generano interferenze ARF.
+
+1870
+01:19:13.480 --> 01:19:17.679
+Come in tutti i circuiti elettronici,
+
+1871
+01:19:15.760 --> 01:19:19.800
+queste interferenze radiofrequenza
+
+1872
+01:19:17.679 --> 01:19:21.639
+possono essere in qualche modo filtrate.
+
+1873
+01:19:19.800 --> 01:19:25.080
+Quindi se uno compra un alimentatore
+
+1874
+01:19:21.639 --> 01:19:27.679
+switching buono, essenzialmente non
+
+1875
+01:19:25.080 --> 01:19:31.159
+dovrebbe avere problemi. Buono significa
+
+1876
+01:19:27.679 --> 01:19:32.960
+di di buona marca, buono significa che,
+
+1877
+01:19:31.159 --> 01:19:34.920
+diciamo, magari non è proprio degli
+
+1878
+01:19:32.960 --> 01:19:37.920
+oggetti cinesi di primo prezzo che
+
+1879
+01:19:34.920 --> 01:19:40.040
+normalmente creano un po' di creano un
+
+1880
+01:19:37.920 --> 01:19:44.280
+po' di di problemi.
+
+1881
+01:19:40.040 --> 01:19:47.040
+e per riconoscere cose che a mio avviso
+
+1882
+01:19:44.280 --> 01:19:50.880
+sono delle vere
+
+1883
+01:19:47.040 --> 01:19:53.280
+prese in giro, tanto per non usare altri
+
+1884
+01:19:50.880 --> 01:19:56.520
+altri termini, vi faccio vedere
+
+1885
+01:19:53.280 --> 01:19:58.440
+un'immagine trovata in rete.
+
+1886
+01:19:56.520 --> 01:20:01.400
+Allora, gli alimentatori switching, come
+
+1887
+01:19:58.440 --> 01:20:05.000
+vi dicevo, sono intrinisticamente
+
+1888
+01:20:01.400 --> 01:20:07.280
+sporchi, no? Quindi se se il costruttore
+
+1889
+01:20:05.000 --> 01:20:10.120
+non spende un po' di soldi per fare gli
+
+1890
+01:20:07.280 --> 01:20:12.239
+le opportune schermature e gli opportuni
+
+1891
+01:20:10.120 --> 01:20:14.840
+filtraggi, gli alimentatori twitching
+
+1892
+01:20:12.239 --> 01:20:16.560
+intrinsicamente disturbano la radio. A
+
+1893
+01:20:14.840 --> 01:20:18.520
+questo punto il costruttore ha due
+
+1894
+01:20:16.560 --> 01:20:20.840
+strade per risolvere questo problema. La
+
+1895
+01:20:18.520 --> 01:20:23.199
+prima strada è fare un progetto serio e
+
+1896
+01:20:20.840 --> 01:20:25.280
+quindi usare filtri e usare schermi,
+
+1897
+01:20:23.199 --> 01:20:28.040
+così il rumore che viene generato negli
+
+1898
+01:20:25.280 --> 01:20:30.440
+switching resta dentro gli switching.
+
+1899
+01:20:28.040 --> 01:20:32.679
+Oppure c'è la strada della presa in giro
+
+1900
+01:20:30.440 --> 01:20:35.360
+che si vede per esempio in questi
+
+1901
+01:20:32.679 --> 01:20:38.239
+alimentatori. Questa è una fra le tante
+
+1902
+01:20:35.360 --> 01:20:41.080
+immagini prese in rete. Questa Telecom è
+
+1903
+01:20:38.239 --> 01:20:43.400
+una marca assolutamente sconosciuta e in
+
+1904
+01:20:41.080 --> 01:20:46.239
+questi alimentatori c'è una manopola che
+
+1905
+01:20:43.400 --> 01:20:49.159
+vedete qui c'è scritto no noise offset.
+
+1906
+01:20:46.239 --> 01:20:51.760
+Questa manopola ha lo scopo di
+
+1907
+01:20:49.159 --> 01:20:53.880
+semplicemente variare la frequenza di
+
+1908
+01:20:51.760 --> 01:20:57.080
+oscillazione del famoso la frequenza di
+
+1909
+01:20:53.880 --> 01:21:00.320
+taglio del famoso del famoso chopper.
+
+1910
+01:20:57.080 --> 01:21:02.679
+Quindi questo alimentatore
+
+1911
+01:21:00.320 --> 01:21:04.719
+evidentemente genera alla sua uscita
+
+1912
+01:21:02.679 --> 01:21:07.120
+delle armoniche molto forti che possono
+
+1913
+01:21:04.719 --> 01:21:10.440
+disturbare la radio. Invece di spendere
+
+1914
+01:21:07.120 --> 01:21:12.440
+soldi in filtraggio, questi preferiscono
+
+1915
+01:21:10.440 --> 01:21:14.440
+spendere qualche centesimo in un
+
+1916
+01:21:12.440 --> 01:21:16.080
+potenziometro che vari la frequenza del
+
+1917
+01:21:14.440 --> 01:21:18.120
+chopper. Variando la frequenza del
+
+1918
+01:21:16.080 --> 01:21:19.920
+shopper tramite questa manopola,
+
+1919
+01:21:18.120 --> 01:21:21.560
+semplicemente il segnale che ti sta
+
+1920
+01:21:19.920 --> 01:21:24.239
+disturbando in quel momento viene
+
+1921
+01:21:21.560 --> 01:21:27.199
+spostato un po' più in là. Quindi questa
+
+1922
+01:21:24.239 --> 01:21:31.320
+non è una una tecnica di filtraggio, no?
+
+1923
+01:21:27.199 --> 01:21:33.920
+semplicemente il costruttore di di quel
+
+1924
+01:21:31.320 --> 01:21:36.000
+di di quell'oggetto, di quella schifezza
+
+1925
+01:21:33.920 --> 01:21:38.440
+immonda, mi verrebbe da dire, ha deciso
+
+1926
+01:21:36.000 --> 01:21:40.800
+di spendere solamente quei 50 cent per
+
+1927
+01:21:38.440 --> 01:21:42.800
+mettere quel potenziometrino per fare sì
+
+1928
+01:21:40.800 --> 01:21:46.280
+che il disturbo lo mandi un po' più in
+
+1929
+01:21:42.800 --> 01:21:48.280
+là. E allora oggetti di quel genere non
+
+1930
+01:21:46.280 --> 01:21:50.920
+andrebbero proprio comprati, diciamo
+
+1931
+01:21:48.280 --> 01:21:54.719
+così. E basta con questo termino.
+
+1932
+01:21:50.920 --> 01:21:54.719
+Allora, Lorenzo, a te.
+
+1933
+01:21:57.280 --> 01:22:00.960
+Sì, buonasera. Mi sentite?
+
+1934
+01:21:58.760 --> 01:22:03.800
+>> Sì, perfettamente. Vai. Giusto una
+
+1935
+01:22:00.960 --> 01:22:05.440
+domanda sugli alimentatori switching.
+
+1936
+01:22:03.800 --> 01:22:09.800
+Mi sembra di aver sentito qualche volta
+
+1937
+01:22:05.440 --> 01:22:12.120
+utilizzare il termine condensatore Y, di
+
+1938
+01:22:09.800 --> 01:22:14.440
+classe Y,
+
+1939
+01:22:12.120 --> 01:22:18.239
+possibile
+
+1940
+01:22:14.440 --> 01:22:20.600
+per isolare la parte di eh la parte
+
+1941
+01:22:18.239 --> 01:22:24.320
+sicura da quella non sicura,
+
+1942
+01:22:20.600 --> 01:22:26.560
+soprattutto nel contesto del non mettere
+
+1943
+01:22:24.320 --> 01:22:28.920
+condensatori che non siano di classe Y
+
+1944
+01:22:26.560 --> 01:22:31.159
+perché sennò se fallisce fallisce in una
+
+1945
+01:22:28.920 --> 01:22:35.080
+posizione che è potenzialmente dannosa
+
+1946
+01:22:31.159 --> 01:22:38.960
+per la salute. Eh, allora, no, non lo
+
+1947
+01:22:35.080 --> 01:22:40.920
+so, non lo so. Allora, è vero che eh
+
+1948
+01:22:38.960 --> 01:22:43.600
+soprattutto non so cosa sono i
+
+1949
+01:22:40.920 --> 01:22:47.080
+condensatori Y, confesso i miei limiti.
+
+1950
+01:22:43.600 --> 01:22:48.719
+Diciamo che la parte la parte collegata
+
+1951
+01:22:47.080 --> 01:22:50.320
+alla rete e la parte non collegata alla
+
+1952
+01:22:48.719 --> 01:22:52.159
+rete di un alimentatore switch sono
+
+1953
+01:22:50.320 --> 01:22:54.719
+comunque collegati con dei condensatori
+
+1954
+01:22:52.159 --> 01:22:56.639
+di elevata qualità e si vedono anche,
+
+1955
+01:22:54.719 --> 01:23:00.120
+diciamo, nei circuiti. Di solito sono
+
+1956
+01:22:56.639 --> 01:23:02.560
+dei bei pillolotti di un bel celeste
+
+1957
+01:23:00.120 --> 01:23:04.239
+che, diciamo, sono oggetti che hanno le
+
+1958
+01:23:02.560 --> 01:23:06.360
+specifiche, appunto, per stare in una
+
+1959
+01:23:04.239 --> 01:23:08.760
+posizione di quel tipo, perché se
+
+1960
+01:23:06.360 --> 01:23:10.760
+entrassero in perdita colleghereo la
+
+1961
+01:23:08.760 --> 01:23:13.639
+parte pericolosa alla parte che noi
+
+1962
+01:23:10.760 --> 01:23:16.239
+riteniamo sicura.
+
+1963
+01:23:13.639 --> 01:23:18.719
+E forse questi sono quelli che tu chiami
+
+1964
+01:23:16.239 --> 01:23:21.520
+condensatori Y.
+
+1965
+01:23:18.719 --> 01:23:23.760
+Io probabilmente chiamo
+
+1966
+01:23:21.520 --> 01:23:25.719
+Eh sì, probabilmente son quelli. Nello
+
+1967
+01:23:23.760 --> 01:23:28.880
+schema di prima dove si andrebbero a
+
+1968
+01:23:25.719 --> 01:23:31.400
+incastrare e se sopra ho quel piccolo
+
+1969
+01:23:28.880 --> 01:23:33.159
+trasformatore e sotto ho il lotto
+
+1970
+01:23:31.400 --> 01:23:36.440
+isolatore, mi mancava un attimo, quindi,
+
+1971
+01:23:33.159 --> 01:23:39.360
+per questo incastino qua. Ecco.
+
+1972
+01:23:36.440 --> 01:23:42.840
+eh si andrebbero ad incastrare, ad
+
+1973
+01:23:39.360 --> 01:23:45.920
+esempio, fra la fra le masse dei due
+
+1974
+01:23:42.840 --> 01:23:51.000
+circuiti, fra la massa del circuito du
+
+1975
+01:23:45.920 --> 01:23:54.639
+220 e la massa del circuito eh
+
+1976
+01:23:51.000 --> 01:23:55.520
+filtrato, diciamo, a valle.
+
+1977
+01:23:54.639 --> 01:23:59.880
+>> Ok, grazie.
+
+1978
+01:23:55.520 --> 01:24:02.800
+>> Ok, a te bella domanda.
+
+1979
+01:23:59.880 --> 01:24:06.040
+Adesso
+
+1980
+01:24:02.800 --> 01:24:06.040
+Pier Paolo.
+
+1981
+01:24:07.440 --> 01:24:16.440
+>> Sì, sì. Ascolta, io volevo ritornare un
+
+1982
+01:24:10.400 --> 01:24:20.400
+attimo ai diodi. Ehm, mi puoi nel non so
+
+1983
+01:24:16.440 --> 01:24:24.120
+ora come puoi spiegarmelo tu sicuramente
+
+1984
+01:24:20.400 --> 01:24:26.600
+in maniera elementare, visto
+
+1985
+01:24:24.120 --> 01:24:28.360
+eh l'argomento la differenza tra
+
+1986
+01:24:26.600 --> 01:24:32.040
+fotoaccoppiatore
+
+1987
+01:24:28.360 --> 01:24:32.040
+e optoisolatore.
+
+1988
+01:24:32.480 --> 01:24:37.400
+Mh. Allora,
+
+1989
+01:24:35.600 --> 01:24:39.880
+eh,
+
+1990
+01:24:37.400 --> 01:24:41.639
+il foto, aspetta, quindi interrompo la
+
+1991
+01:24:39.880 --> 01:24:45.679
+condivisione, scusa perché non c'è
+
+1992
+01:24:41.639 --> 01:24:48.119
+niente nelle slide che riguarda questo.
+
+1993
+01:24:45.679 --> 01:24:51.159
+E
+
+1994
+01:24:48.119 --> 01:24:53.360
+allora, l'optisolatore è un componente
+
+1995
+01:24:51.159 --> 01:24:57.880
+elettronico, quello che abbiamo visto
+
+1996
+01:24:53.360 --> 01:25:01.199
+prima e secondo me il fotoaccoppiatore
+
+1997
+01:24:57.880 --> 01:25:04.080
+fa sostanzialmente la stessa cosa,
+
+1998
+01:25:01.199 --> 01:25:07.360
+cioè per come li li conosco io di fatto
+
+1999
+01:25:04.080 --> 01:25:07.360
+sono sinonimi.
+
+2000
+01:25:07.560 --> 01:25:13.360
+Tu dove tu dove hai visto usare un
+
+2001
+01:25:09.600 --> 01:25:17.920
+fotoaccoppiatore? Aiutami a capire.
+
+2002
+01:25:13.360 --> 01:25:19.679
+Sì, i fotocopiatori classici, almeno ehm
+
+2003
+01:25:17.920 --> 01:25:21.960
+si definiscono tali quelli che si
+
+2004
+01:25:19.679 --> 01:25:24.639
+trovano negli alimentatori switch in dei
+
+2005
+01:25:21.960 --> 01:25:28.639
+TV.
+
+2006
+01:25:24.639 --> 01:25:30.880
+Eh sono ce ne sono in diverse
+
+2007
+01:25:28.639 --> 01:25:35.280
+diverse situazioni questi fotocopiatori
+
+2008
+01:25:30.880 --> 01:25:37.440
+qui o almeno li chiamano tali. Ecco.
+
+2009
+01:25:35.280 --> 01:25:39.320
+>> Sì. Eh, allora se se sono in
+
+2010
+01:25:37.440 --> 01:25:40.800
+alimentatori switching di quel genere,
+
+2011
+01:25:39.320 --> 01:25:44.159
+probabilmente sono quelli che io ho
+
+2012
+01:25:40.800 --> 01:25:46.639
+chiamato gli optoisolatori.
+
+2013
+01:25:44.159 --> 01:25:48.199
+>> Ah, ecco. Allora, si possono
+
+2014
+01:25:46.639 --> 01:25:51.119
+>> e secondo me è probabile che siano la
+
+2015
+01:25:48.199 --> 01:25:53.480
+stessa cosa.
+
+2016
+01:25:51.119 --> 01:25:55.440
+>> Hanno lo stesso scopo, insomma, dienso
+
+2017
+01:25:53.480 --> 01:25:56.199
+Penso di sì. Penso di sì.
+
+2018
+01:25:55.440 --> 01:25:58.840
+>> Ok. Ok. Ok.
+
+2019
+01:25:56.199 --> 01:26:01.960
+>> Penso di sì.
+
+2020
+01:25:58.840 --> 01:26:04.960
+Quindi accoppiare i due circuiti tramite
+
+2021
+01:26:01.960 --> 01:26:06.880
+eh fotoni
+
+2022
+01:26:04.960 --> 01:26:10.080
+o o tramite luce, che è la stessa cosa,
+
+2023
+01:26:06.880 --> 01:26:10.080
+in effetti.
+
+2024
+01:26:11.639 --> 01:26:19.000
+Ok, Giancarlo, a te.
+
+2025
+01:26:15.920 --> 01:26:21.719
+>> Sì, ciao Paolo, sono quello che ha ti ha
+
+2026
+01:26:19.000 --> 01:26:22.560
+salutato fugacemente al club venerdì
+
+2027
+01:26:21.719 --> 01:26:23.840
+scorso, poi
+
+2028
+01:26:22.560 --> 01:26:26.760
+>> Sì, sì, sì. Ciao.
+
+2029
+01:26:23.840 --> 01:26:28.159
+>> Vo uscire. Buonasera a tutti. Eh, ti
+
+2030
+01:26:26.760 --> 01:26:30.040
+volevo chiedere riguardo gli
+
+2031
+01:26:28.159 --> 01:26:33.000
+alimentatori switching, allora quale
+
+2032
+01:26:30.040 --> 01:26:34.960
+potrebbe essere allora una domanda che
+
+2033
+01:26:33.000 --> 01:26:37.719
+potrebbero fare all'esame riguardo a
+
+2034
+01:26:34.960 --> 01:26:40.080
+questo tipo di alimentatori? Grazie.
+
+2035
+01:26:37.719 --> 01:26:43.760
+>> Ma gli switch non fanno parte della
+
+2036
+01:26:40.080 --> 01:26:45.360
+domanda d'esame del programma di esame e
+
+2037
+01:26:43.760 --> 01:26:47.360
+quindi in teoria domande non ce ne
+
+2038
+01:26:45.360 --> 01:26:48.119
+dovrebbero essere,
+
+2039
+01:26:47.360 --> 01:26:49.840
+>> però
+
+2040
+01:26:48.119 --> 01:26:52.679
+>> dovessimo
+
+2041
+01:26:49.840 --> 01:26:54.280
+un un esaminatore zelante, insomma,
+
+2042
+01:26:52.679 --> 01:26:57.440
+pignolo,
+
+2043
+01:26:54.280 --> 01:26:59.800
+cosa potrebbe chiedere? unent un
+
+2044
+01:26:57.440 --> 01:27:02.800
+esaminatore zelante secondo me dovrebbe
+
+2045
+01:26:59.800 --> 01:27:06.280
+fermarsi alle caratteristiche di un
+
+2046
+01:27:02.800 --> 01:27:09.679
+alimentatore, non entrare nel nel come
+
+2047
+01:27:06.280 --> 01:27:11.719
+funziona e quindi
+
+2048
+01:27:09.679 --> 01:27:14.000
+un esaminatore zenante potrebbe dire
+
+2049
+01:27:11.719 --> 01:27:15.480
+quali sono, per esempio, quali sono fra
+
+2050
+01:27:14.000 --> 01:27:17.520
+queste tre le caratteristiche di un
+
+2051
+01:27:15.480 --> 01:27:19.560
+alimentatore switching? pesa tanto,
+
+2052
+01:27:17.520 --> 01:27:22.119
+costa poco, faccio per dire, no, scalda
+
+2053
+01:27:19.560 --> 01:27:24.320
+parecchio, cose di questo tipo, cioè
+
+2054
+01:27:22.119 --> 01:27:27.560
+sulle sue prestazioni,
+
+2055
+01:27:24.320 --> 01:27:31.280
+le sue prestazioni in termini appunto di
+
+2056
+01:27:27.560 --> 01:27:33.480
+di leggerezza, in termini di efficienza,
+
+2057
+01:27:31.280 --> 01:27:35.920
+eh eventualmente in termini di
+
+2058
+01:27:33.480 --> 01:27:38.080
+possibilità di
+
+2059
+01:27:35.920 --> 01:27:40.600
+secondo me dovrebbe essere dovrebbe
+
+2060
+01:27:38.080 --> 01:27:42.280
+essere questo sostanza,
+
+2061
+01:27:40.600 --> 01:27:45.800
+no? Non credo non credo che sia
+
+2062
+01:27:42.280 --> 01:27:48.760
+possibile che domandino di più.
+
+2063
+01:27:45.800 --> 01:27:50.679
+>> Grazie. sugli alimentatori di sugli
+
+2064
+01:27:48.760 --> 01:27:53.000
+alimentatori lineari il programma di
+
+2065
+01:27:50.679 --> 01:27:56.000
+esame prevede la conoscenza dei blocchi
+
+2066
+01:27:53.000 --> 01:27:59.159
+costitutivi, quindi il trasformatore, il
+
+2067
+01:27:56.000 --> 01:28:04.239
+raddrizzatore, semplice, doppia semionda
+
+2068
+01:27:59.159 --> 01:28:06.000
+e il filtraggio e la stabilizzazione.
+
+2069
+01:28:04.239 --> 01:28:10.119
+E nelle domande che vi manderemo, nelle
+
+2070
+01:28:06.000 --> 01:28:12.400
+15 domande che vi manderemo domani, eh
+
+2071
+01:28:10.119 --> 01:28:14.159
+troverete appunto alcune domande tratte
+
+2072
+01:28:12.400 --> 01:28:17.440
+dalle domande ministeriali proprio su
+
+2073
+01:28:14.159 --> 01:28:17.440
+queste cose.
+
+2074
+01:28:18.480 --> 01:28:24.760
+Ok, ciao e ci vediamo uno dei prossimi
+
+2075
+01:28:21.239 --> 01:28:27.080
+venerdì. Pierluigi, a te.
+
+2076
+01:28:24.760 --> 01:28:30.560
+>> Eh sì, ciao. Volevo farti una domanda
+
+2077
+01:28:27.080 --> 01:28:33.880
+sul li varie. E questo è limitato in
+
+2078
+01:28:30.560 --> 01:28:36.119
+modo inverso, però deve essere percorso
+
+2079
+01:28:33.880 --> 01:28:38.239
+corrente ad altra frequenza. Ecco,
+
+2080
+01:28:36.119 --> 01:28:40.119
+questa corrente d'altra frequenza avrà
+
+2081
+01:28:38.239 --> 01:28:42.119
+una tensione. Quindi questa tensione non
+
+2082
+01:28:40.119 --> 01:28:44.480
+è che si somma la tensione di
+
+2083
+01:28:42.119 --> 01:28:47.760
+polarizzazione e quindi cambia a sua
+
+2084
+01:28:44.480 --> 01:28:49.440
+volta la capacità del diodo. No,
+
+2085
+01:28:47.760 --> 01:28:50.920
+cioè forse la domanda.
+
+2086
+01:28:49.440 --> 01:28:53.760
+>> Sì. No, no, la domanda la domanda è
+
+2087
+01:28:50.920 --> 01:28:55.760
+giustissima. E e allora sicuramente i
+
+2088
+01:28:53.760 --> 01:28:57.159
+biodiarica si usano nei circuiti in cui
+
+2089
+01:28:55.760 --> 01:28:58.840
+esiste una radiofrequenza. La
+
+2090
+01:28:57.159 --> 01:29:00.400
+radiofrequenza deve essere molto al di
+
+2091
+01:28:58.840 --> 01:29:02.440
+sotto della soglia di conduzione del
+
+2092
+01:29:00.400 --> 01:29:04.040
+diodo varicap, sennò il gioco non
+
+2093
+01:29:02.440 --> 01:29:06.280
+funziona più, esattamente come hai detto
+
+2094
+01:29:04.040 --> 01:29:08.320
+tu.
+
+2095
+01:29:06.280 --> 01:29:11.199
+Appunto, però anche magari una piccola
+
+2096
+01:29:08.320 --> 01:29:12.960
+Sì, sì, certo. Però anche piccola magari
+
+2097
+01:29:11.199 --> 01:29:15.080
+però si va a sommare la tensione di
+
+2098
+01:29:12.960 --> 01:29:17.480
+polarizzazione, quindi può indurre una
+
+2099
+01:29:15.080 --> 01:29:19.480
+piccola variazione di capacità.
+
+2100
+01:29:17.480 --> 01:29:21.560
+>> Sì, potrebbe, potrebbe,
+
+2101
+01:29:19.480 --> 01:29:23.080
+>> no? Beh, è una curiosità e non
+
+2102
+01:29:21.560 --> 01:29:25.840
+>> Sì, sì. No, è giustissimo. È
+
+2103
+01:29:23.080 --> 01:29:28.480
+giustissimo. Diciamo che le escursioni
+
+2104
+01:29:25.840 --> 01:29:30.360
+di frequenza di un didaricap,
+
+2105
+01:29:28.480 --> 01:29:32.679
+le escursioni di tensione con cui un
+
+2106
+01:29:30.360 --> 01:29:35.600
+diodo varicien pilotato possono essere
+
+2107
+01:29:32.679 --> 01:29:38.480
+dai dai 5 a 60 V di polarizzazione
+
+2108
+01:29:35.600 --> 01:29:41.320
+inversa a seconda del tipo di diodo
+
+2109
+01:29:38.480 --> 01:29:43.040
+mediamente e i segnali di frequenza sono
+
+2110
+01:29:41.320 --> 01:29:44.719
+molto più piccoli, ma pure ostendi più
+
+2111
+01:29:43.040 --> 01:29:48.119
+piccoli sicuramente possono indurre una
+
+2112
+01:29:44.719 --> 01:29:51.119
+variazione di capacità.
+
+2113
+01:29:48.119 --> 01:29:51.119
+Sicuramente
+
+2114
+01:29:51.960 --> 01:29:54.960
+adesso Giovanni a te.
+
+2115
+01:29:54.760 --> 01:29:58.920
+Sì.
+
+2116
+01:29:54.960 --> 01:30:03.280
+>> Ciao Paolo. Eh io avrei la necessità di
+
+2117
+01:29:58.920 --> 01:30:05.880
+trasformare eh 18 vol in alternata eh a
+
+2118
+01:30:03.280 --> 01:30:09.960
+15 V in alternata.
+
+2119
+01:30:05.880 --> 01:30:12.600
+Potrei usare in teoria cinque LED cinque
+
+2120
+01:30:09.960 --> 01:30:15.639
+diodi eh
+
+2121
+01:30:12.600 --> 01:30:17.639
+per abbassare di tre volte la corrente,
+
+2122
+01:30:15.639 --> 01:30:20.400
+la tensione, scusa.
+
+2123
+01:30:17.639 --> 01:30:24.000
+>> Eh no, perché se usi dei diodi poi non
+
+2124
+01:30:20.400 --> 01:30:24.000
+ottieni più un'alternata.
+
+2125
+01:30:24.080 --> 01:30:28.040
+Eh,
+
+2126
+01:30:25.760 --> 01:30:31.000
+allora il modo migliore per abbassare un
+
+2127
+01:30:28.040 --> 01:30:34.800
+18 a un 15, hai detto
+
+2128
+01:30:31.000 --> 01:30:37.080
+>> a 15, sì. Eh,
+
+2129
+01:30:34.800 --> 01:30:38.600
+allora con che livelli di potenza,
+
+2130
+01:30:37.080 --> 01:30:42.000
+scusa?
+
+2131
+01:30:38.600 --> 01:30:42.000
+>> Eh, un W.
+
+2132
+01:30:43.159 --> 01:30:47.119
+>> Roba piccola. Via,
+
+2133
+01:30:44.400 --> 01:30:48.679
+>> roba piccola. Ma allora il modo migliore
+
+2134
+01:30:47.119 --> 01:30:50.360
+per fare una cosa di questo tipo, il
+
+2135
+01:30:48.679 --> 01:30:51.960
+modo più elegante di fare una cosa di
+
+2136
+01:30:50.360 --> 01:30:53.800
+questo tipo sarebbe con due
+
+2137
+01:30:51.960 --> 01:30:56.159
+trasformatori. Parlando di componenti
+
+2138
+01:30:53.800 --> 01:30:59.600
+che si trovano sul mercato, immaginati
+
+2139
+01:30:56.159 --> 01:31:03.080
+di avere due trasformatori, uno 2201
+
+2140
+01:30:59.600 --> 01:31:06.760
+e l'altro 22015.
+
+2141
+01:31:03.080 --> 01:31:07.400
+colleghi insieme i i due 220.
+
+2142
+01:31:06.760 --> 01:31:09.159
+>> Sì.
+
+2143
+01:31:07.400 --> 01:31:12.480
+>> E così ottieni l'un unico trasformatore
+
+2144
+01:31:09.159 --> 01:31:13.480
+che ha ingresso 18 e uscita 15.
+
+2145
+01:31:12.480 --> 01:31:16.199
+>> Ah, ok. Più semplice.
+
+2146
+01:31:13.480 --> 01:31:18.480
+>> In questo modo l'oggetto che vai a
+
+2147
+01:31:16.199 --> 01:31:20.440
+costruire ha un rendimento molto elevato
+
+2148
+01:31:18.480 --> 01:31:22.560
+perché sono due trasformatori, non ti
+
+2149
+01:31:20.440 --> 01:31:24.199
+distorcce le forme d'onda nulla. Dal
+
+2150
+01:31:22.560 --> 01:31:26.960
+punto di vista elettrico secondo me è la
+
+2151
+01:31:24.199 --> 01:31:29.480
+soluzione più pulita.
+
+2152
+01:31:26.960 --> 01:31:31.520
+Ah, perfetto. Dai, ti ringrazio.
+
+2153
+01:31:29.480 --> 01:31:35.119
+>> Niente,
+
+2154
+01:31:31.520 --> 01:31:35.119
+Pier Paolo, a te.
+
+2155
+01:31:35.560 --> 01:31:42.199
+>> Sì, chiedo un'ultima cosa, poi
+
+2156
+01:31:39.440 --> 01:31:44.119
+>> eh una più che altro una curiosità, io
+
+2157
+01:31:42.199 --> 01:31:46.760
+sono anche affascinato molto dagli
+
+2158
+01:31:44.119 --> 01:31:49.760
+inverter. Avremo modo di parlare al di
+
+2159
+01:31:46.760 --> 01:31:52.440
+fuori al di fuori del programma d'esame
+
+2160
+01:31:49.760 --> 01:31:54.920
+dell'inverter?
+
+2161
+01:31:52.440 --> 01:31:57.760
+Eh sì, ne possiamo parlare
+
+2162
+01:31:54.920 --> 01:31:59.119
+tranquillamente.
+
+2163
+01:31:57.760 --> 01:32:00.800
+Tranquillamente. Qual è la tua
+
+2164
+01:31:59.119 --> 01:32:03.280
+curiosità?
+
+2165
+01:32:00.800 --> 01:32:05.080
+Puoi sapere come funzionano?
+
+2166
+01:32:03.280 --> 01:32:07.119
+>> No, no, no. Ma sì, appunto, il
+
+2167
+01:32:05.080 --> 01:32:11.760
+funzionamento. Il funzionamento proprio
+
+2168
+01:32:07.119 --> 01:32:13.520
+visto che si parla sempre di MOSFET, di
+
+2169
+01:32:11.760 --> 01:32:15.280
+elettrolitici,
+
+2170
+01:32:13.520 --> 01:32:18.520
+eh insomma di un po' di tutto quello che
+
+2171
+01:32:15.280 --> 01:32:21.920
+abbiamo parlato, diudiodi a quantità
+
+2172
+01:32:18.520 --> 01:32:25.239
+e a chili e via dicendo, insomma. Ecco.
+
+2173
+01:32:21.920 --> 01:32:30.600
+E allora vi ho detto, ma volevo eh
+
+2174
+01:32:25.239 --> 01:32:33.639
+siccome vedo vedo tante tante filmati,
+
+2175
+01:32:30.600 --> 01:32:37.400
+eh appunto io guardo molto i filmati di
+
+2176
+01:32:33.639 --> 01:32:40.560
+elettronica e vedo questi queste persone
+
+2177
+01:32:37.400 --> 01:32:43.520
+che si modificano, costruiscono questi
+
+2178
+01:32:40.560 --> 01:32:46.199
+inverter e mi incuriosiva tanto la cosa.
+
+2179
+01:32:43.520 --> 01:32:48.480
+Allora, non andare nel nel particolare,
+
+2180
+01:32:46.199 --> 01:32:50.520
+cioè giusto
+
+2181
+01:32:48.480 --> 01:32:51.400
+un'infarinatura, ecco, di questo e
+
+2182
+01:32:50.520 --> 01:32:54.320
+basta. Ecco,
+
+2183
+01:32:51.400 --> 01:32:57.320
+>> vai. Buona domanda. Ti preparerò due
+
+2184
+01:32:54.320 --> 01:32:57.320
+luci.
+
+2185
+01:32:57.880 --> 01:33:00.639
+>> Ok, grazie.
+
+2186
+01:32:59.040 --> 01:33:02.440
+>> E ne possiamo parlare in una delle
+
+2187
+01:33:00.639 --> 01:33:06.920
+prossime lezioni dove tiriamo in ballo
+
+2188
+01:33:02.440 --> 01:33:10.400
+appunto i transistor.
+
+2189
+01:33:06.920 --> 01:33:14.320
+>> Perfetto, grazie mille.
+
+2190
+01:33:10.400 --> 01:33:14.320
+Adesso Matteo.
+
+2191
+01:33:16.520 --> 01:33:25.199
+Sì. Ehm, scrivendomi ero perso sempre
+
+2192
+01:33:19.760 --> 01:33:26.440
+per i diodi il Lot Carrier.
+
+2193
+01:33:25.199 --> 01:33:29.719
+>> Sono rimasto indietro.
+
+2194
+01:33:26.440 --> 01:33:31.880
+>> Lot carrier. Se ti se ti domandano cos'è
+
+2195
+01:33:29.719 --> 01:33:34.159
+un OT carrier, la risposta è un diodo
+
+2196
+01:33:31.880 --> 01:33:36.040
+veloce. Punto.
+
+2197
+01:33:34.159 --> 01:33:37.920
+Sono di che vengono usati, sono diodi
+
+2198
+01:33:36.040 --> 01:33:41.600
+che nascono per essere usati a frequenze
+
+2199
+01:33:37.920 --> 01:33:42.000
+alte. Ok.
+
+2200
+01:33:41.600 --> 01:33:43.600
+Poiché,
+
+2201
+01:33:42.000 --> 01:33:45.719
+>> ok,
+
+2202
+01:33:43.600 --> 01:33:47.639
+>> perché poiché sia i diodi che i
+
+2203
+01:33:45.719 --> 01:33:49.800
+transistor, quelli normali che vedremo
+
+2204
+01:33:47.639 --> 01:33:51.600
+la settimana prossima, hanno in qualche
+
+2205
+01:33:49.800 --> 01:33:55.119
+modo dei meccanismi di funzionamento,
+
+2206
+01:33:51.600 --> 01:33:57.840
+no, attorno alle giunzioni, drogaggio
+
+2207
+01:33:55.119 --> 01:33:59.199
+eccetera, che ha dei tempi di risposta,
+
+2208
+01:33:57.840 --> 01:34:01.480
+questi tempi di risposta a un certo
+
+2209
+01:33:59.199 --> 01:34:04.199
+punto limitano la frequenza massima di
+
+2210
+01:34:01.480 --> 01:34:05.639
+utilizzo di questi dispositivi.
+
+2211
+01:34:04.199 --> 01:34:07.280
+Con gli OT carrier si può arrivare a
+
+2212
+01:34:05.639 --> 01:34:09.840
+frequenze più alte, sono diodi più
+
+2213
+01:34:07.280 --> 01:34:12.960
+veloci e poi vedremo anche che sono dei
+
+2214
+01:34:09.840 --> 01:34:18.080
+transistor più veloci.
+
+2215
+01:34:12.960 --> 01:34:20.320
+Ok, miero perso un pezzo. Grazie
+
+2216
+01:34:18.080 --> 01:34:23.639
+>> Gianfranco a te
+
+2217
+01:34:20.320 --> 01:34:25.880
+>> di nuovo. Buonasera. Ehm mh parlando dei
+
+2218
+01:34:23.639 --> 01:34:28.880
+degli alimentatori lineari, eh ad un
+
+2219
+01:34:25.880 --> 01:34:32.320
+certo punto si è accennato al fatto che
+
+2220
+01:34:28.880 --> 01:34:36.880
+eh la parte di stabilizzazione potrebbe
+
+2221
+01:34:32.320 --> 01:34:39.480
+essere affidata ad un circuito che ehm
+
+2222
+01:34:36.880 --> 01:34:41.800
+varia la tensione in uscita.
+
+2223
+01:34:39.480 --> 01:34:44.760
+>> Sì, sì,
+
+2224
+01:34:41.800 --> 01:34:47.920
+>> si può approfondire se non se non reca
+
+2225
+01:34:44.760 --> 01:34:48.920
+problemi un secondo questo questo
+
+2226
+01:34:47.920 --> 01:34:51.199
+argomento.
+
+2227
+01:34:48.920 --> 01:34:55.159
+>> No, nessun problema, nessun problema.
+
+2228
+01:34:51.199 --> 01:34:57.159
+Aspetta, eh, metto
+
+2229
+01:34:55.159 --> 01:34:58.719
+rimetto
+
+2230
+01:34:57.159 --> 01:35:02.080
+ta.
+
+2231
+01:34:58.719 --> 01:35:02.080
+Pausa tecnica.
+
+2232
+01:35:02.600 --> 01:35:07.840
+Fatemi tornare indietro. Fatemi tornare
+
+2233
+01:35:05.080 --> 01:35:11.400
+indietro. Qua. Allora, questo è un
+
+2234
+01:35:07.840 --> 01:35:14.080
+circuito di stabilizzazione, d'accordo?
+
+2235
+01:35:11.400 --> 01:35:17.320
+Allora, per ora in effetti cerco di
+
+2236
+01:35:14.080 --> 01:35:19.719
+interpretare la tua domanda. Se se poi
+
+2237
+01:35:17.320 --> 01:35:23.159
+non è corretta, tu continua a domandare
+
+2238
+01:35:19.719 --> 01:35:26.440
+senza problemi. Allora, questo tipo di
+
+2239
+01:35:23.159 --> 01:35:28.320
+circuito per ora lo lo abbiamo
+
+2240
+01:35:26.440 --> 01:35:31.199
+descritto, ne abbiamo parlato come un
+
+2241
+01:35:28.320 --> 01:35:35.320
+circuito di stabilizzazione, d'accordo?
+
+2242
+01:35:31.199 --> 01:35:37.040
+Cioè qui c'è una tensione di riferimento
+
+2243
+01:35:35.320 --> 01:35:39.280
+e quindi a questa tensione di
+
+2244
+01:35:37.040 --> 01:35:41.560
+riferimento ottenuta qui tramite uno
+
+2245
+01:35:39.280 --> 01:35:43.920
+zener. In qualche modo il circuito di
+
+2246
+01:35:41.560 --> 01:35:47.440
+stabilizzazione fa sì che l'uscita del
+
+2247
+01:35:43.920 --> 01:35:51.040
+mio alimentatore qui è la tensione in
+
+2248
+01:35:47.440 --> 01:35:52.600
+qualche modo prevista. Mh, però e e
+
+2249
+01:35:51.040 --> 01:35:55.840
+dimmi se ho compreso bene la tua
+
+2250
+01:35:52.600 --> 01:35:58.360
+domanda, eh, però molte volte noi
+
+2251
+01:35:55.840 --> 01:35:59.760
+vogliamo un alimentatore che magari
+
+2252
+01:35:58.360 --> 01:36:03.280
+possa avere una tensione di uscita
+
+2253
+01:35:59.760 --> 01:36:05.960
+regolabile, per esempio un 915 V tanto
+
+2254
+01:36:03.280 --> 01:36:08.960
+per dire, non alimentatori tipici che
+
+2255
+01:36:05.960 --> 01:36:11.639
+possono essere usati per, diciamo,
+
+2256
+01:36:08.960 --> 01:36:13.239
+alimentare una radio. Allora, se voglio
+
+2257
+01:36:11.639 --> 01:36:15.520
+in uscita da un circuito di questo
+
+2258
+01:36:13.239 --> 01:36:18.199
+genere, se voglio da un circuito di
+
+2259
+01:36:15.520 --> 01:36:22.719
+questo tipo anche la possibilità di
+
+2260
+01:36:18.199 --> 01:36:24.440
+regolare la tensione, cosa faccio? Posso
+
+2261
+01:36:22.719 --> 01:36:27.000
+semplicemente
+
+2262
+01:36:24.440 --> 01:36:29.159
+variare,
+
+2263
+01:36:27.000 --> 01:36:32.320
+perso il cursore, posso semplicemente
+
+2264
+01:36:29.159 --> 01:36:34.159
+variare questa resistenza qui,
+
+2265
+01:36:32.320 --> 01:36:36.800
+sostituendola con una resistenza
+
+2266
+01:36:34.159 --> 01:36:40.840
+variabile, ovvero con un potenziometro,
+
+2267
+01:36:36.800 --> 01:36:43.480
+come viene chiamata molte molte volte.
+
+2268
+01:36:40.840 --> 01:36:45.800
+Eh, perché se io modifico questa
+
+2269
+01:36:43.480 --> 01:36:47.639
+resistenza
+
+2270
+01:36:45.800 --> 01:36:50.800
+ehm
+
+2271
+01:36:47.639 --> 01:36:52.760
+modifico la percentuale della tensione
+
+2272
+01:36:50.800 --> 01:36:54.840
+di uscita che entra nel mio
+
+2273
+01:36:52.760 --> 01:36:56.719
+amplificatore di errore. Quindi, allora,
+
+2274
+01:36:54.840 --> 01:37:00.119
+nel mio amplificatore di errore io ho
+
+2275
+01:36:56.719 --> 01:37:02.800
+una tensione eh supposta assolutamente
+
+2276
+01:37:00.119 --> 01:37:06.600
+stabile che viene presa da riferimento,
+
+2277
+01:37:02.800 --> 01:37:06.600
+che è quella del mio zener.
+
+2278
+01:37:07.639 --> 01:37:12.639
+Allora, immaginiamo che lo zener sia da,
+
+2279
+01:37:10.840 --> 01:37:14.360
+faccio un esempio numerico che forse mi
+
+2280
+01:37:12.639 --> 01:37:17.080
+spiego meglio. Immaginiamo che questo
+
+2281
+01:37:14.360 --> 01:37:18.880
+zener sia da 6 V.
+
+2282
+01:37:17.080 --> 01:37:20.320
+Se io, nell'esempio che facevo prima,
+
+2283
+01:37:18.880 --> 01:37:25.280
+immaginiamo che questo sia un
+
+2284
+01:37:20.320 --> 01:37:28.639
+alimentatore da 12 V, se io qui metto R1
+
+2285
+01:37:25.280 --> 01:37:31.719
+ed R2 uguali,
+
+2286
+01:37:28.639 --> 01:37:36.440
+eh, questi 12 V, qui c'è il + 12,
+
+2287
+01:37:31.719 --> 01:37:38.639
+d'accordo? Qui c'è il lo zero della
+
+2288
+01:37:36.440 --> 01:37:41.199
+tensione di riferimento, quindi ho 12 V
+
+2289
+01:37:38.639 --> 01:37:44.080
+fra questi due capi, questo e questo. Se
+
+2290
+01:37:41.199 --> 01:37:47.520
+io qua metto due resistenze uguali, R1 e
+
+2291
+01:37:44.080 --> 01:37:49.840
+R2, anche senza fare anche senza fare
+
+2292
+01:37:47.520 --> 01:37:52.679
+troppi calcoli, legge di OM eccetera, si
+
+2293
+01:37:49.840 --> 01:37:55.560
+si intuisce che due resistenze uguali
+
+2294
+01:37:52.679 --> 01:37:57.880
+dimezzano i 12 V, no? Cioè su ciascuna
+
+2295
+01:37:55.560 --> 01:38:02.080
+di queste resistenze cade metà del 12,
+
+2296
+01:37:57.880 --> 01:38:05.560
+quindi sia su R1 o 6 V che su R2 o 6 V.
+
+2297
+01:38:02.080 --> 01:38:07.400
+Quindi qua in ingresso ho 6 V. Punto.
+
+2298
+01:38:05.560 --> 01:38:10.159
+L'alimentatore,
+
+2299
+01:38:07.400 --> 01:38:13.400
+l'amplificatore di errore a questo punto
+
+2300
+01:38:10.159 --> 01:38:17.760
+non agisce e tutto funziona bene e in
+
+2301
+01:38:13.400 --> 01:38:20.639
+uscita ho 6 V. Ma se io ho, per esempio,
+
+2302
+01:38:17.760 --> 01:38:24.360
+questa eh questa resistenza di sotto,
+
+2303
+01:38:20.639 --> 01:38:27.880
+questa R2, dove ho scarabucchiato molto
+
+2304
+01:38:24.360 --> 01:38:29.639
+in qualche modo, la eh la abbasso
+
+2305
+01:38:27.880 --> 01:38:31.960
+leggermente.
+
+2306
+01:38:29.639 --> 01:38:34.239
+Praticamente se l'abbasso leggermente,
+
+2307
+01:38:31.960 --> 01:38:36.679
+artificialmente io faccio in modo che
+
+2308
+01:38:34.239 --> 01:38:39.560
+quando il mio alimentatore in uscita ha
+
+2309
+01:38:36.679 --> 01:38:41.719
+12 V, se io questa resistenza l'abbasso
+
+2310
+01:38:39.560 --> 01:38:44.639
+leggermente e qui questi 6 V mi
+
+2311
+01:38:41.719 --> 01:38:46.480
+diventano 5.
+
+2312
+01:38:44.639 --> 01:38:49.159
+Ok?
+
+2313
+01:38:46.480 --> 01:38:52.000
+A questo punto
+
+2314
+01:38:49.159 --> 01:38:54.280
+diventano cinque pur avendo 12 volte in
+
+2315
+01:38:52.000 --> 01:38:56.520
+uscita. A questo punto l'amplificatore
+
+2316
+01:38:54.280 --> 01:38:59.920
+di errore sentendo una uno
+
+2317
+01:38:56.520 --> 01:39:02.000
+sbilanciamento, cosa cosa farà? e
+
+2318
+01:38:59.920 --> 01:39:05.199
+aumenterà la tensione diuscita, ad
+
+2319
+01:39:02.000 --> 01:39:07.920
+esempio, fino a 14 V, per fare in modo
+
+2320
+01:39:05.199 --> 01:39:10.360
+che questi 14 divisi da due resistenze
+
+2321
+01:39:07.920 --> 01:39:13.760
+che non sono più uguali, non sono più
+
+2322
+01:39:10.360 --> 01:39:17.480
+uguali, riportino a se il valore della
+
+2323
+01:39:13.760 --> 01:39:20.400
+tensione qua. Quindi se io modifico se
+
+2324
+01:39:17.480 --> 01:39:22.000
+io modifico una qualsiasi di queste due
+
+2325
+01:39:20.400 --> 01:39:24.040
+resistenze,
+
+2326
+01:39:22.000 --> 01:39:26.400
+ehm
+
+2327
+01:39:24.040 --> 01:39:28.320
+modifico la tensione di uscita del mio
+
+2328
+01:39:26.400 --> 01:39:30.280
+stabilizzatore.
+
+2329
+01:39:28.320 --> 01:39:32.639
+Quindi basta. Sì,
+
+2330
+01:39:30.280 --> 01:39:33.960
+>> esatto, esatto, esatto. Lo lo vedi come
+
+2331
+01:39:32.639 --> 01:39:35.719
+funziona
+
+2332
+01:39:33.960 --> 01:39:36.360
+>> a occhio il loop di regolazione, no?
+
+2333
+01:39:35.719 --> 01:39:39.239
+Cioè,
+
+2334
+01:39:36.360 --> 01:39:40.920
+>> modificando il fattore di divisione
+
+2335
+01:39:39.239 --> 01:39:44.000
+della tensione di uscita, il fattore di
+
+2336
+01:39:40.920 --> 01:39:45.639
+partizione fra R1 e R2, comunque il mio
+
+2337
+01:39:44.000 --> 01:39:47.599
+amplificatore d'errore farà in modo che
+
+2338
+01:39:45.639 --> 01:39:49.400
+la tensione di uscita qui deve tornare
+
+2339
+01:39:47.599 --> 01:39:52.280
+sempre sei, deve tornare un valore
+
+2340
+01:39:49.400 --> 01:39:55.239
+uguale alla mia tensioni di riferimento.
+
+2341
+01:39:52.280 --> 01:39:59.920
+Se io continuo a abbassare questa R2 in
+
+2342
+01:39:55.239 --> 01:39:59.920
+uscita non troverò più 14, troverò 16.
+
+2343
+01:39:59.960 --> 01:40:03.599
+Chiaro? Eh, molto ingegnoso,
+
+2344
+01:40:03.199 --> 01:40:07.520
+molto
+
+2345
+01:40:03.599 --> 01:40:10.080
+>> eh sì, sono mol, diciamo, c certi certi
+
+2346
+01:40:07.520 --> 01:40:12.920
+schemi elettrici è una parola un po'
+
+2347
+01:40:10.080 --> 01:40:14.920
+strana e e forse un po' da, scusatemi il
+
+2348
+01:40:12.920 --> 01:40:17.159
+termine, quasi da sega mentale, però
+
+2349
+01:40:14.920 --> 01:40:20.360
+certi schemi elettrici sono veramente
+
+2350
+01:40:17.159 --> 01:40:23.239
+eleganti, secondo me, perché delle volte
+
+2351
+01:40:20.360 --> 01:40:25.520
+vedi delle soluzioni elettriche che
+
+2352
+01:40:23.239 --> 01:40:27.239
+francamente dici bello, a volte vedi
+
+2353
+01:40:25.520 --> 01:40:28.920
+degli schemi che sono dei guazabugli,
+
+2354
+01:40:27.239 --> 01:40:31.320
+no? A volte vedi delle cose che hanno
+
+2355
+01:40:28.920 --> 01:40:33.920
+proprio delle
+
+2356
+01:40:31.320 --> 01:40:36.719
+degli ingeniosità veramente veramente
+
+2357
+01:40:33.920 --> 01:40:38.560
+belle a vedersi.
+
+2358
+01:40:36.719 --> 01:40:40.239
+>> Grazie, veramente interessante,
+
+2359
+01:40:38.560 --> 01:40:43.800
+veramente grazie.
+
+2360
+01:40:40.239 --> 01:40:43.800
+>> Eh, grazie a te, Gianfranco.
+
+2361
+01:40:45.000 --> 01:40:48.719
+Altre domande?
+
+2362
+01:40:48.760 --> 01:40:52.719
+Paolo, approfitterei, scusate, per
+
+2363
+01:40:51.199 --> 01:40:55.239
+interrompere la registrazione, quindi
+
+2364
+01:40:52.719 --> 01:40:56.000
+magari si può anche aprire un pochino
+
+2365
+01:40:55.239 --> 01:40:57.440
+più
+
+2366
+01:40:56.000 --> 01:40:59.040
+>> corretto, corretto. Si possono anche
+
+2367
+01:40:57.440 --> 01:41:00.560
+accendere un po' di video volendo e così
+
+2368
+01:40:59.040 --> 01:41:02.119
+via. Vedete?
+
+2369
+01:41:00.560 --> 01:41:04.320
+Vedete, mentre la registrazione si
+
+2370
+01:41:02.119 --> 01:41:06.840
+spenge che si sta in qualche modo
+
+2371
+01:41:04.320 --> 01:41:06.840
+realizzando,
