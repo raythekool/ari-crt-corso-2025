@@ -31,11 +31,11 @@ La **corrente continua** (CC o DC) è un flusso di cariche elettriche (elettroni
 
 La **corrente alternata** (CA o AC) è una corrente che **inverte il senso di scorrimento** un certo numero di volte nell'unità di tempo. Il generatore non ha un polo fisso positivo e uno fisso negativo.
 
-![Corrente Alternata](../assets/images/lezioni/lezione_03/slide-02.jpg)
+<img src="../assets/images/lezioni/lezione_03/slide-02.jpg" alt="Corrente Alternata" width="50%">
 
 La corrente alternata è generata da una **tensione alternata** ed è prodotta da dispositivi chiamati **alternatori**.
 
-![Grafico Corrente Alternata](../assets/images/lezioni/lezione_03/slide-03.jpg)
+<img src="../assets/images/lezioni/lezione_03/slide-03.jpg" alt="Grafico Corrente Alternata" width="50%">
 
 ### 🔹 L'andamento sinusoidale e non sinusoidale
 
@@ -43,7 +43,7 @@ La **corrente alternata sinusoidale** ha una forma "sinuosa": parte da zero, sal
 
 Esistono anche forme d'onda **non sinusoidali**, come l'onda quadra o l'onda triangolare, ma le sinusoidi sono fondamentali in ambito radio.
 
-![Sinusoide e non sinusoidale](../assets/images/lezioni/lezione_03/slide-07.jpg)
+<img src="../assets/images/lezioni/lezione_03/slide-07.jpg" alt="Sinusoide e non sinusoidale" width="50%">
 
 ---
 
@@ -53,13 +53,13 @@ Esistono anche forme d'onda **non sinusoidali**, come l'onda quadra o l'onda tri
 
 La **frequenza** — simbolo $f$ — è il numero di cicli completi che un'onda compie in un secondo. Si misura in **hertz** (Hz).
 
-![Frequenza](../assets/images/lezioni/lezione_03/slide-04.jpg)
+<img src="../assets/images/lezioni/lezione_03/slide-04.jpg" alt="Frequenza" width="50%">
 
 ### 🔹 Periodo
 
 Il **periodo** — simbolo $T$ — è il tempo necessario perché la sinusoide compia un ciclo completo. Si misura in **secondi** (s).
 
-![Periodo](../assets/images/lezioni/lezione_03/slide-05.jpg)
+<img src="../assets/images/lezioni/lezione_03/slide-05.jpg" alt="Periodo" width="50%">
 
 ### 🔹 Relazione tra frequenza e periodo
 
@@ -67,7 +67,7 @@ Frequenza e periodo sono **l'inverso** l'uno dell'altro:
 
 $$f = \frac{1}{T} \qquad\qquad T = \frac{1}{f}$$
 
-![Relazione f e T](../assets/images/lezioni/lezione_03/slide-06.jpg)
+<img src="../assets/images/lezioni/lezione_03/slide-06.jpg" alt="Relazione f e T" width="50%">
 
 ---
 
@@ -75,18 +75,18 @@ $$f = \frac{1}{T} \qquad\qquad T = \frac{1}{f}$$
 
 Con la corrente alternata, dato che la tensione varia continuamente, servono **più parametri** per descriverla:
 
-![Parametri tensione alternata](../assets/images/lezioni/lezione_03/slide-11.jpg)
+<img src="../assets/images/lezioni/lezione_03/slide-11.jpg" alt="Parametri tensione alternata" width="50%">
 
 1. **Tensione istantanea**: il valore in un preciso istante di tempo.
 2. **Tensione efficace (RMS)**: il valore che, applicato a un carico, produce lo **stesso lavoro** di una tensione continua equivalente.
 
-![Tensione efficace](../assets/images/lezioni/lezione_03/slide-13.jpg)
+<img src="../assets/images/lezioni/lezione_03/slide-13.jpg" alt="Tensione efficace" width="50%">
 
 3. **Tensione di picco ($V_p$)**: il valore massimo raggiunto dalla sinusoide. $V_p = 1{,}41 \times V_{eff}$
 4. **Tensione picco-picco ($V_{pp}$)**: l'escursione totale, dal minimo al massimo. $V_{pp} = 2 \times V_p$
 5. **Valor medio ($V_m$)**: media in un semiperiodo. $V_m = 0{,}9 \times V_{eff}$
 
-![Riepilogo Valori](../assets/images/lezioni/lezione_03/slide-17.jpg)
+<img src="../assets/images/lezioni/lezione_03/slide-17.jpg" alt="Riepilogo Valori" width="50%">
 
 ---
 
@@ -94,13 +94,13 @@ Con la corrente alternata, dato che la tensione varia continuamente, servono **p
 
 Ogni punto del ciclo di una sinusoide può essere identificato con un **angolo in gradi**:
 
-![Punti notevoli](../assets/images/lezioni/lezione_03/slide-18.jpg)
+<img src="../assets/images/lezioni/lezione_03/slide-18.jpg" alt="Punti notevoli" width="50%">
 
 - **In fase**: raggiungono simultaneamente picchi e zeri. Sfasamento = 0°.
 - **In controfase**: sfasamento di **180°**. Se si sommano, si annullano.
 - **In quadratura**: sfasamento di **90°**.
 
-![Fase](../assets/images/lezioni/lezione_03/slide-19.jpg)
+<img src="../assets/images/lezioni/lezione_03/slide-19.jpg" alt="Fase" width="50%">
 
 ---
 
@@ -110,11 +110,11 @@ Ogni punto del ciclo di una sinusoide può essere identificato con un **angolo i
 
 Un'onda è una perturbazione che si propaga nello spazio (come un sasso in uno stagno).
 
-![Onde](../assets/images/lezioni/lezione_03/slide-22.jpg)
+<img src="../assets/images/lezioni/lezione_03/slide-22.jpg" alt="Onde" width="50%">
 
 Una tensione sinusoidale su un conduttore di forma e dimensioni adeguate, comunica energia allo spazio circostante sotto forma di **onde elettromagnetiche**. Questo conduttore è l'**antenna**.
 
-![Antenna](../assets/images/lezioni/lezione_03/slide-23.jpg)
+<img src="../assets/images/lezioni/lezione_03/slide-23.jpg" alt="Antenna" width="50%">
 
 ### 🔹 Lunghezza d'onda e Frequenza
 
@@ -122,19 +122,19 @@ La **lunghezza d'onda ($\lambda$)** è la distanza fisica fra due punti omologhi
 
 $$\lambda = \frac{300.000}{F\text{ (in kHz)}} = \frac{300}{F\text{ (in MHz)}}$$
 
-![Lunghezza d'onda](../assets/images/lezioni/lezione_03/slide-25.jpg)
+<img src="../assets/images/lezioni/lezione_03/slide-25.jpg" alt="Lunghezza d'onda" width="50%">
 
 Esempio:
 Frequenza = 14,200 MHz $\rightarrow \lambda = \frac{300}{14,2} = 21,12$ m.
 
-![Esempio Calcolo](../assets/images/lezioni/lezione_03/slide-26.jpg)
+<img src="../assets/images/lezioni/lezione_03/slide-26.jpg" alt="Esempio Calcolo" width="50%">
 
 ### 🔹 Bande di Frequenza
 
 Le frequenze radio sono suddivise in **bande**: LF, MF, HF, VHF, UHF, ecc. 
 Ad esempio, le **HF** (High Frequency) vanno da 3 a 30 MHz (onde corte), le **VHF** (Very High Frequency) da 30 a 300 MHz (onde ultracorte).
 
-![Bande](../assets/images/lezioni/lezione_03/slide-28.jpg)
+<img src="../assets/images/lezioni/lezione_03/slide-28.jpg" alt="Bande" width="50%">
 
 ---
 
