@@ -1,0 +1,266 @@
+Il transistor
+Gli amplificatori
+I tubi a vuoto
+
+ARI CRT - Corso OM 2026
+
+1
+
+Dispositivo a
+semiconduttore che
+presenta tre strati
+drogati
+Può essere NPN o PNP
+
+ARI CRT - Corso OM 2026
+
+2
+
+Ha tre reofori, ognuno collegato ad uno
+strato drogato
+
+ARI CRT - Corso OM 2026
+
+3
+
+I contatti fra ogni parte drogata e quella
+adiacente si chiamano GIUNZIONI
+Abbiamo quindi due giunzioni:
+• BC (base - collettore)
+• BE (base - emettitore)
+
+ARI CRT - Corso OM 2026
+
+4
+
+ARI CRT - Corso OM 2026
+
+5
+
+E’ un dispositivo attivo, in quanto può
+amplificare le correnti (anche di 100200 volte)
+Una minima variazione della corrente
+di base provoca una notevole
+variazione della corrente di collettore
+ARI CRT - Corso OM 2026
+
+6
+
+La corrente di base (Ib) è molto minore della corrente di collettore (Ic)
+Di conseguenza, le correnti di collettore e emettitore sono simili
+ARI CRT - Corso OM 2026
+
+7
+
+La corrente di base (Ib) è molto minore della corrente di collettore (Ic)
+Di conseguenza, le correnti di collettore e emettitore sono simili
+ARI CRT - Corso OM 2026
+
+8
+
+E’ il rapporto fra la corrente di collettore e la
+corrente di pilotaggio applicata alla base
+Si indica con Hfe
+E’ detto anche BETA del transistor
+
+ARI CRT - Corso OM 2026
+
+9
+
+Come fa ad amplificare?
+
+ARI CRT - Corso OM 2026
+
+10
+
+Amplifica sia la tensione che la corrente del
+segnale in ingresso
+E’ la configurazione
+classica di un
+amplificatore
+
+ARI CRT - Corso OM 2026
+
+11
+
+Il guadagno in corrente è circa 1
+Amplifica la tensione del segnale in ingresso
+E’ usato in alta
+frequenza
+La base separa i circuiti
+di ingresso ed uscita:
+alta stabilità
+ARI CRT - Corso OM 2026
+
+12
+
+Il guadagno in tensione è circa 1
+Amplifica la corrente del segnale in ingresso
+E’ usato come
+separatore e per pilotare
+carichi a bassa
+impedenza
+
+ARI CRT - Corso OM 2026
+
+13
+
+ARI CRT - Corso OM 2026
+
+14
+
+I componenti attivi per funzionare bene
+devono lavorare in una zona ben precisa
+delle loro curve caratteristiche
+Per questo motivo devono essere
+opportunamente polarizzati
+
+ARI CRT - Corso OM 2026
+
+15
+
+Mostrano le caratteristiche di funzionamento del
+transistor
+
+Fonte: La Sapienza - Roma
+ARI CRT - Corso OM 2026
+
+16
+
+Come si fa a polarizzare il transistor?
+Le tensioni/correnti ‘a riposo’ (in assenza
+di segnale) devono essere tali da far
+lavorare il dispositivo nel tratto di curva
+corretto
+
+ARI CRT - Corso OM 2026
+
+17
+
+Le resistenze determinano la corrente e la
+tensione di collettore a riposo
+
+ARI CRT - Corso OM 2026
+
+18
+
+La tensione di
+pilotaggio su un
+terminale detto GATE
+varia la
+conduttanza di un
+canale drogato che
+ha due terminali, detti
+DRAIN e SOURCE
+ARI CRT - Corso OM 2026
+
+19
+
+FET = Field Effect Transistor
+
+ARI CRT - Corso OM 2026
+
+20
+
+E’ un dispositivo controllato in tensione:
+alta impedenza di ingresso
+Il suo guadagno è denominato
+transconduttanza (Gm)
+
+GM = ∆ID /∆Vg
+ARI CRT - Corso OM 2026
+
+21
+
+Ha una struttura simile
+al FET, ma il gate è
+realizzato con una
+superficie metallica
+isolata dal canale
+mediante uno strato di
+ossido
+ARI CRT - Corso OM 2026
+
+22
+
+ARI CRT - Corso OM 2026
+
+23
+
+Bulbi di vetro in cui è presente il vuoto
+Hanno più elettrodi, chiamati:
+• catodo
+• anodo
+• griglia
+• filamento riscaldatore
+ARI CRT - Corso OM 2026
+
+24
+
+Il filamento viene portato all’incandescenza e per
+questo motivo emette elettroni
+Se l’anodo è positivo, attira gli
+elettroni e nel diodo scorre
+corrente
+Se l’anodo è negativo, respinge gli
+elettroni e nel diodo non scorre
+corrente
+ARI CRT - Corso OM 2026
+
+25
+
+Il filamento porta all’incandescenza il catodo,
+realizzato con materiale ad alta emissione
+Se l’anodo è positivo, attira gli
+elettroni e nel diodo scorre
+corrente
+Se l’anodo è negativo, respinge gli
+elettroni e nel diodo non scorre
+corrente
+ARI CRT - Corso OM 2026
+
+26
+
+La griglia avvolge il catodo e controlla la quantità di
+elettroni che raggiungono l’anodo
+Se la griglia è molto negativa
+respinge gli elettroni sul catodo e
+nel triodo non scorre corrente
+Se la griglia non è molto negativa,
+gli elettroni riescono a passare e
+raggiungono l’anodo
+ARI CRT - Corso OM 2026
+
+27
+
+Viene aggiunta una seconda griglia, posta tra la
+griglia controllo e l’anodo
+La griglia schermo riduce la
+capacità tra anodo e griglia
+controllo (meno possibilità di
+entrare in oscillazione)
+La griglia schermo è polarizzata in
+modo da favorire il passaggio degli
+elettroni tra catodo ed anodo
+(maggiore amplificazione)
+ARI CRT - Corso OM 2026
+
+28
+
+Viene inserito un elettrodo detto griglia soppressore
+tra griglia schermo e anodo
+La griglia soppressore inibisce
+l’uscita di elettroni secondari
+dall’anodo
+Questo rende la curva
+caratteristica del pentodo più
+lineare
+ARI CRT - Corso OM 2026
+
+29
+
+ARI CRT - Corso OM 2026
+
+30
+
+

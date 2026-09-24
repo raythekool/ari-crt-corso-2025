@@ -1,362 +1,164 @@
 ---
 layout: default
-title: "Matematica per la Radiotecnica"
+title: "Procedure e Alfabeto Telefonetico"
 permalink: /guide-studio/lezione_08.html
 ---
 
-# 📘 Lezione 08 - Matematica per la Radiotecnica
+# 📘 Lezione 08 - Procedure e Alfabeto Telefonetico
 
 ## 📌 Panoramica
 
-- **Materia**: Matematica applicata alla radiotecnica
-- **Argomento**: Notazione scientifica, equivalenze tra unità di misura, equazioni di primo grado, logaritmi in base 10
-- **Tempo di studio stimato**: 60–80 minuti
-- **Prerequisiti**: Concetti base di algebra (potenze, frazioni), legge di Ohm e formula della potenza (Lezioni 01-02), unità di misura usate in elettronica (Henry, Farad, Ohm, Ampere, Volt, Watt)
+- **Materia**: Normative e Procedure
+- **Argomento**: Alfabeto fonetico internazionale, indicativi di chiamata italiani e internazionali, codice Q, abbreviazioni telegrafiche, sistema RST, sistema Locator.
+- **Prerequisiti**: Nessuno
 - **Obiettivi di apprendimento**:
-  - Saper convertire numeri da notazione scientifica a notazione decimale e viceversa
-  - Padroneggiare le equivalenze tra multipli e sottomultipli delle unità di misura (da pico a giga)
-  - Risolvere equazioni di primo grado per ricavare formule inverse (es. legge di Ohm)
-  - Comprendere la definizione di logaritmo in base 10
-  - Applicare le proprietà dei logaritmi per risolvere semplici equazioni logaritmiche
+  - Imparare l'alfabeto telefonetico internazionale (ICAO/NATO)
+  - Comprendere la struttura del nominativo radioamatoriale (Call sign)
+  - Conoscere la suddivisione delle call area italiane e i prefissi utilizzati
+  - Apprendere le abbreviazioni telegrafiche comuni e il Codice Q
+  - Capire come scambiare i rapporti di segnale tramite il sistema RST
+  - Conoscere il funzionamento del Maidenhead Locator System (QTH Locator)
 
 ---
 
 ## 📖 Contenuti Teorici
 
-### 1. 🔢 Notazione Scientifica (⏱ 05:04–15:52)
+### 1. 🔤 Alfabeto Telefonetico
 
-#### 🔹 Concetti di base
+<div align="center"><img src="../assets/images/lezioni/lezione_08/slide-01.jpg" alt="Alfabeto Telefonetico" width="50%"></div><br>
 
-La **notazione scientifica** è un modo per rappresentare numeri molto grandi o molto piccoli usando le potenze del 10. Un numero in notazione scientifica è composto da:
+L'alfabeto telefonetico internazionale (spesso chiamato ICAO o Alfabeto Fonetico NATO) è lo standard utilizzato nelle comunicazioni radio per fare lo spelling di lettere o parole senza possibilità di equivoci. 
 
-- Una **parte numerica** (parte intera e decimale)
-- Una **potenza del 10** che indica l'ordine di grandezza
+<div align="center"><img src="../assets/images/lezioni/lezione_08/slide-03.jpg" alt="Perchè si usa" width="50%"></div><br>
 
-Ad esempio: $17{,}5 \times 10^3 = 17.500$
+Perché si usa?
+- **Uniformità e Professionalità**: Garantisce un livello standard e riconoscibile ovunque.
+- **Sicurezza ed Efficienza**: Le singole parole sono state scelte scientificamente affinché non si confondano l'una con l'altra.
+- **Internazionalità**: A differenza degli alfabeti "casalinghi" (A come Ancona, B come Bologna), è compreso in tutte le lingue.
 
-**Potenza del 10 positiva** — Indica che si aggiungono zeri a destra: il numero diventa più grande. Si sposta la virgola verso **destra** di tante posizioni quante indicate dall'esponente.
+#### Le lettere dell'alfabeto ICAO:
+- **A**lfa, **B**ravo, **C**harlie, **D**elta, **E**cho, **F**oxtrot, **G**olf, **H**otel, **I**ndia, **J**uliet, **K**ilo, **L**ima, **M**ike, **N**ovember, **O**scar, **P**apa, **Q**uebec, **R**omeo, **S**ierra, **T**ango, **U**niform, **V**ictor, **W**hiskey, **X**-ray, **Y**ankee, **Z**ulu.
 
-**Potenza del 10 negativa** — Indica che si aggiungono zeri a sinistra: il numero diventa più piccolo (più vicino a zero, ma sempre positivo). Si sposta la virgola verso **sinistra** di tante posizioni quante indicate dal valore assoluto dell'esponente.
-
-> ⚠️ **Errore comune**: "Numeri molto piccoli" non significa "numeri negativi". Significa numeri positivi che si avvicinano a zero (es. $0{,}0118$).
-
-#### 🔹 Regole di conversione
-
-- **Da notazione scientifica a decimale**: partire dalla posizione della virgola. Se l'esponente è **positivo**, spostare la virgola verso destra; se **negativo**, verso sinistra.
-  - Esempio: $17{,}5 \times 10^3 = 17.500$ (virgola spostata di 3 posizioni a destra)
-  - Esempio: $1{,}18 \times 10^{-2} = 0{,}0118$ (virgola spostata di 2 posizioni a sinistra)
-
-- **Cambio di esponente**: è possibile passare da una rappresentazione esponenziale a un'altra spostando la virgola e modificando l'esponente di conseguenza.
-  - Esempio: $59{,}1 \times 10^{-3} = 5{,}91 \times 10^{-2}$ (virgola a sinistra di 1 → esponente aumenta di 1)
-  - Attenzione al **segno** dell'esponente: se l'esponente è negativo, diminuirlo ulteriormente (renderlo più negativo) corrisponde a spostare la virgola a **destra**, non a sinistra.
-
-> ⚠️ **Attenzione**: nella notazione anglosassone la virgola separa le migliaia e il punto separa i decimali — l'opposto della notazione italiana. Se si consultano risorse online in inglese, prestare attenzione a questa differenza.
+Anche i numeri in ambito internazionale andrebbero pronunciati in inglese (Zero, One, Two, Three, Four, Five, Six, Seven, Eight, Niner per distinguerlo dal Five).
 
 ---
 
-### 2. 📐 Equivalenze tra Unità di Misura (⏱ 15:59–39:04)
+### 2. 📻 L'Indicativo di Chiamata (Call Sign)
 
-#### 🔹 Multipli e sottomultipli
+<div align="center"><img src="../assets/images/lezioni/lezione_08/slide-05.jpg" alt="Indicativo di chiamata" width="50%"></div><br>
 
-Nella radiotecnica si usano frequentemente grandezze espresse in multipli o sottomultipli delle unità di misura fondamentali. La tabella seguente riporta quelli più rilevanti:
+Ogni stazione radioamatoriale è identificata in modo univoco da un **indicativo di chiamata** (o call sign). È paragonabile alla targa di un'automobile. L'uso del proprio indicativo è obbligatorio all'inizio, al termine e ogni 10 minuti di trasmissione.
 
-| Prefisso     | Simbolo      | Potenza del 10 | Valore            |
-| ------------ | ------------ | -------------- | ----------------- |
-| Tera         | T            | $10^{12}$      | 1.000.000.000.000 |
-| Giga         | G            | $10^{9}$       | 1.000.000.000     |
-| Mega         | M            | $10^{6}$       | 1.000.000         |
-| Kilo         | k            | $10^{3}$       | 1.000             |
-| (unità base) | —            | $10^{0}$       | 1                 |
-| Milli        | m            | $10^{-3}$      | 0,001             |
-| Micro        | µ (mu greca) | $10^{-6}$      | 0,000001          |
-| Nano         | n            | $10^{-9}$      | 0,000000001       |
-| Pico         | p            | $10^{-12}$     | 0,000000000001    |
+L'indicativo si compone di tre parti:
+**Prefisso + Numero + Suffisso**
 
-Dai kilo in su, le grandezze scalano di **1000 in 1000** (cioè di $10^3$ in $10^3$). Stessa cosa dal milli in giù. Tra unità base, deca, etto e kilo la scala è di 10 in 10.
+#### In Italia
 
-#### 🔹 Unità di misura comuni in radiotecnica
+<div align="center"><img src="../assets/images/lezioni/lezione_08/slide-06.jpg" alt="Indicativo in Italia" width="50%"></div><br>
 
-- **Farad**: spesso espresso in nano e picofarad (nF, pF)
-- **Henry**: spesso espresso in millihenry e microhenry (mH, µH)
-- **Ohm**: può trovarsi in micro e milliohm, ma anche in kilohm e megaohm
-- **Ampere**: spesso in milliampere (mA) e a volte microampere (µA)
-- **Hertz**: le frequenze si esprimono in kilohertz (kHz), megahertz (MHz), gigahertz (GHz)
-- **Watt**: spesso in milliwatt (mW) e microwatt (µW)
+In Italia, il prefisso inizia solitamente per **I** ed è seguito da una lettera o niente, poi da un numero (la Call Area), e infine da 2 o 3 lettere di suffisso (es. `IZ5DIY`).
 
-#### 🔹 Regola fondamentale per le equivalenze
+- **Prefissi comuni**: I, IK, IW, IZ, IU (assegnati in ordine temporale o legati a vecchie tipologie di patenti ordinarie/speciali).
+- **Prefissi Isole o Speciali**: Ad esempio, le regioni a statuto speciale o le isole maggiori hanno un prefisso di due lettere (es. `IS0` per la Sardegna, `IT9` per la Sicilia, `IN3` per il Trentino-Alto Adige). 
+- **Altri prefissi**: `IQ` (sezioni o associazioni), `IR`, `IY` (stazioni marconiane), ripetitori, ecc.
 
-Per convertire tra unità di misura diverse della stessa grandezza:
+#### Call Area (Aree Postali)
 
-- **Da unità più grande a più piccola** → si **moltiplica** per la potenza di 10 corrispondente (il numero diventa più grande)
-- **Da unità più piccola a più grande** → si **divide** per la potenza di 10 corrispondente (il numero diventa più piccolo)
+<div align="center"><img src="../assets/images/lezioni/lezione_08/slide-07.jpg" alt="Aree Postali in Italia" width="50%"></div><br>
 
-In pratica, si conta quanti "scaloni" separano le due unità (ogni scalino = $\times 10^3$):
+Il numero nell'indicativo italiano identifica la regione di appartenenza, ed è basato, per la maggior parte, sulle aree dei Codici di Avviamento Postale (CAP). Ad esempio, la zona 5 corrisponde alla Toscana.
 
-| Da → A        | Operazione                                               |
-| ------------- | -------------------------------------------------------- |
-| milli → micro | $\times 10^3$ (1 scalino verso il basso)                 |
-| micro → milli | $\div 10^3$ (1 scalino verso l'alto)                     |
-| milli → Henry | $\times 10^{-3}$ (1 scalino verso l'alto all'unità base) |
-| MHz → Hz      | $\times 10^6$ (2 scalini verso il basso)                 |
+#### Internazionali
 
-#### 🔹 Esempio pratico: conversione di induttanza
+<div align="center"><img src="../assets/images/lezioni/lezione_08/slide-08.jpg" alt="Prefissi ITU" width="50%"></div><br>
 
-$0{,}012 \text{ mH} = ?\ \mu\text{H}$
-
-Da milli a micro si scende di uno scalino → si moltiplica per $10^3$:
-
-$$0{,}012 \times 10^3 = 12\ \mu\text{H}$$
-
-#### 🔹 Importanza dell'omogeneità
-
-Quando si devono combinare grandezze in una formula (somma, sottrazione, ecc.), è **indispensabile** che siano espresse nella stessa unità di misura. Ad esempio, per sommare tre resistenze in serie:
-
-- $R_1 = 0{,}2\ \Omega$, $R_2 = 20\ \text{m}\Omega$, $R_3 = 2000\ \mu\Omega$
-
-Convertendo tutto in milliohm:
-
-- $R_1 = 200\ \text{m}\Omega$
-- $R_2 = 20\ \text{m}\Omega$
-- $R_3 = 2\ \text{m}\Omega$
-
-$$R_{tot} = 200 + 20 + 2 = 222\ \text{m}\Omega$$
-
-> ⚠️ **Errore da evitare all'esame**: sommare numeri in unità diverse senza prima convertirli. Ad esempio, $0{,}2 + 2000 = 2000{,}2$ non ha alcun significato se le unità non sono omogenee.
+A livello internazionale, i prefissi sono definiti dall'ITU (International Telecommunication Union). Riconoscere il prefisso permette di capire immediatamente da quale nazione proviene il segnale.
 
 ---
 
-### 3. ➗ Equazioni di Primo Grado e Formule Inverse (⏱ 39:43–60:23)
+### 3. ⚡ Abbreviazioni Telegrafiche
 
-#### 🔹 Principio fondamentale delle equazioni
+<div align="center"><img src="../assets/images/lezioni/lezione_08/slide-11.jpg" alt="Abbreviazioni Telegrafiche" width="50%"></div><br>
 
-Un'**equazione** è una dichiarazione di equivalenza: ciò che sta a sinistra del simbolo $=$ ha lo stesso valore di ciò che sta a destra. Se si esegue la **stessa operazione** (somma, sottrazione, moltiplicazione, divisione) su **entrambi i membri**, l'uguaglianza resta valida.
+Nate per rendere rapide ed efficienti le trasmissioni in codice Morse, le abbreviazioni sono di larghissimo uso ancora oggi, anche nella fonia e nei modi digitali.
 
-Questo principio permette di **isolare l'incognita**: si spostano tutti i termini noti da una parte e l'incognita dall'altra.
-
-#### 🔹 Esempio algebrico
-
-$$3x + 6 = 12$$
-
-1. Sottrarre 6 da entrambi i membri: $3x = 6$
-2. Dividere per 3 entrambi i membri: $x = 2$
-
-#### 🔹 Applicazione alla legge di Ohm
-
-La legge di Ohm è:
-
-$$I = \frac{V}{R}$$
-
-Da questa **unica formula** si ricavano tutte le altre per semplice manipolazione algebrica:
-
-- Per trovare $R$: moltiplicare entrambi i membri per $R$, poi dividere per $I$:
-
-$$R = \frac{V}{I}$$
-
-- Per trovare $V$: moltiplicare entrambi i membri per $R$:
-
-$$V = I \times R$$
-
-> **Consiglio pratico**: non è necessario memorizzare tutte le formule inverse. Basta ricordare **una sola formula** (ad es. $V = I \times R$) e ricavare le altre isolando l'incognita desiderata. In caso di dubbio, si può anche verificare con numeri: se $V = I \times R$ e $10 = 5 \times 2$, allora $R = V/I = 10/5 = 2$.
-
-#### 🔹 Esercizio svolto: trovare la resistenza
-
-Dati: $V = 20$ V, $I = 200$ mA
-
-1. Convertire $I$ in ampere: $200\ \text{mA} = 0{,}2$ A
-2. Applicare $R = V / I = 20 / 0{,}2 = 100\ \Omega$
-
-> ⚠️ L'unità di misura dell'ohm è volt/ampere. Bisogna prima convertire i milliampere in ampere per avere il risultato in ohm.
-
-#### 🔹 Applicazione alla formula della potenza
-
-La potenza dissipata è:
-
-$$P = V \times I$$
-
-Se non si conosce la corrente ma si conoscono $V$ e $R$, si può sostituire $I = V/R$ nella formula della potenza:
-
-$$P = V \times \frac{V}{R} = \frac{V^2}{R}$$
-
-Esempio: $V = 20$ V, $R = 50\ \Omega$
-
-$$P = \frac{20^2}{50} = \frac{400}{50} = 8\ \text{W}$$
-
-Questo mostra la tecnica della **sostituzione**: in un'equazione si può sostituire a una grandezza l'espressione equivalente derivata da un'altra formula.
+Tra le principali:
+- **CQ**: Chiamata generale a tutte le stazioni (Calling any station)
+- **OM**: Old Man (Radioamatore)
+- **YL**: Young Lady (Operatrice)
+- **DX**: Distanza (Collegamento a lunga distanza)
+- **RX**: Ricevitore / **TX**: Trasmettitore / **RIG**: Ricetrasmettitore
+- **TNX** o **TU**: Grazie
+- **73**: Cordiali saluti
 
 ---
 
-### 4. 📊 I Logaritmi (⏱ 70:07–120:07)
+### 4. 🗂 Il Codice Q
 
-#### 🔹 Definizione
+<div align="center"><img src="../assets/images/lezioni/lezione_08/slide-19.jpg" alt="Codice Q" width="50%"></div><br>
 
-Il **logaritmo in base $z$ dell'argomento $y$** è l'esponente $x$ che si deve dare alla base $z$ per ottenere $y$:
+Il Codice Q è una raccolta standardizzata di messaggi codificati, composti da 3 lettere che iniziano sempre per **Q**.
+Nato per velocizzare le comunicazioni in telegrafia (e abbattere le barriere linguistiche), è oggi lo standard di fatto in fonia.
 
-$$\log_z y = x \iff z^x = y$$
+Ogni codice può avere un duplice significato:
+- **Domanda**: se seguito da un punto interrogativo. (es. `QTH?` = Qual è la tua posizione?)
+- **Risposta/Affermazione**: se non seguito da punto interrogativo. (es. `QTH Roma` = La mia posizione è Roma)
 
-I due logaritmi più comuni sono:
-
-- **Logaritmo in base 10** (logaritmo comune): si scrive $\log$ o $\log_{10}$. La base 10 spesso si omette.
-- **Logaritmo naturale**: si scrive $\ln$ (base $e \approx 2{,}718$). Non serve per gli esercizi radioamatoriali.
-
-#### 🔹 Interpretazione pratica
-
-Il logaritmo in base 10 risponde alla domanda: **"Qual è l'esponente da dare a 10 per ottenere quel numero?"**
-
-Esempi immediati:
-
-- $\log 1000 = 3$ perché $10^3 = 1000$
-- $\log 100 = 2$ perché $10^2 = 100$
-- $\log 10 = 1$ perché $10^1 = 10$
-- $\log 1 = 0$ perché $10^0 = 1$ (vale per qualunque base)
-
-Per valori non interi (es. $\log 12$), si usa la calcolatrice: scrivere l'argomento, poi premere il tasto **LOG**.
-
-#### 🔹 Proprietà delle potenze (rilevanti per i logaritmi)
-
-Poiché il logaritmo è essenzialmente un esponente, le regole delle potenze si riflettono sulle proprietà dei logaritmi:
-
-| Proprietà delle potenze   | Formula                     |
-| ------------------------- | --------------------------- |
-| Prodotto con stessa base  | $a^x \times a^y = a^{x+y}$  |
-| Esponente negativo        | $a^{-x} = \frac{1}{a^x}$    |
-| Potenza di potenza        | $(a^x)^y = a^{x \cdot y}$   |
-| Quoziente con stessa base | $\frac{a^x}{a^y} = a^{x-y}$ |
-| Casi particolari          | $a^1 = a$; $a^0 = 1$        |
-
-#### 🔹 Proprietà dei logaritmi
-
-| Proprietà                 | Formula                              | Esempio                              |
-| ------------------------- | ------------------------------------ | ------------------------------------ |
-| Definizione               | $10^{\log y} = y$                    | $10^{\log 25} = 25$                  |
-| Logaritmo di un prodotto  | $\log(a \times b) = \log a + \log b$ | $\log(2 \times 3) = \log 2 + \log 3$ |
-| Logaritmo di un quoziente | $\log\frac{a}{b} = \log a - \log b$  | $\log\frac{3}{2} = \log 3 - \log 2$  |
-| Logaritmo di una potenza  | $\log(a^n) = n \times \log a$        | $\log(2^3) = 3 \times \log 2$        |
-
-Queste proprietà sono fondamentali per risolvere equazioni logaritmiche e saranno usate nel calcolo dei decibel.
-
-#### 🔹 Risoluzione di equazioni con logaritmi
-
-Il metodo consiste nell'**isolare il logaritmo con l'incognita** da un lato dell'equazione, poi applicare la definizione di logaritmo per trovare il valore.
-
-**Esempio 1**: $20 \times \log\left(\frac{x}{50}\right) = 1{,}5$
-
-1. Dividere entrambi i membri per 20: $\log\left(\frac{x}{50}\right) = 0{,}075$
-2. Applicare la proprietà del quoziente: $\log x - \log 50 = 0{,}075$
-3. Sommare $\log 50$ a entrambi i membri: $\log x = 0{,}075 + \log 50 = 0{,}075 + 1{,}699 = 1{,}774$
-4. Applicare la definizione: $x = 10^{1{,}774} \approx 59{,}4$
-
-**Esempio 2**: $10 \times \log\left(\frac{100}{x}\right) = 3$
-
-1. Dividere per 10: $\log\left(\frac{100}{x}\right) = 0{,}3$
-2. Scomporre: $\log 100 - \log x = 0{,}3$, quindi $2 - \log x = 0{,}3$
-3. Isolare: $\log x = 1{,}7$
-4. Risolvere: $x = 10^{1{,}7} \approx 50{,}1$
-
-> **Nota**: il docente ha accennato che i logaritmi saranno usati nel calcolo dei **decibel** (dB), argomento che sarà trattato nelle lezioni successive da Paolo. La struttura tipica delle equazioni logaritmiche d'esame è proprio della forma $N \times \log\left(\frac{x}{y}\right) = k$ o $N \times \log\left(\frac{y}{x}\right) = k$, dove $N$ è tipicamente 10 o 20.
-
-#### 🔹 Consigli per l'esame
-
-- La calcolatrice è molto utile per i logaritmi, ma non è sempre ammessa all'esame (dipende dalla commissione e dal decreto ministeriale in vigore).
-- Se la calcolatrice non è ammessa, i calcoli saranno sufficientemente semplici da farsi a mente.
-- All'esame le domande sono a **risposta multipla** (di solito 3 opzioni): una è chiaramente errata, le altre due richiedono ragionamento.
-- Pochi valori di logaritmo ricorrono frequentemente: $\log 2 \approx 0{,}301$, $\log 3 \approx 0{,}477$, $\log 10 = 1$, $\log 100 = 2$.
+Tra i più usati:
+- **QRM**: Interferenza da altre stazioni
+- **QRN**: Interferenza atmosferica o statica
+- **QRT**: Sospendere le trasmissioni
+- **QSO**: Collegamento bilaterale
+- **QSY**: Cambio frequenza
 
 ---
 
-## 🔗 Mappa Concettuale
+### 5. 📶 Sistema RS(T)
 
-- **Notazione scientifica** → usa → **Potenze del 10** per rappresentare numeri grandi e piccoli
-- **Multipli e sottomultipli** → sono espressi come → **Potenze del 10** (kilo = $10^3$, milli = $10^{-3}$, micro = $10^{-6}$, ecc.)
-- **Equivalenze** → richiedono → **Omogeneità** delle unità di misura prima di combinare grandezze
-- **Equazioni di primo grado** → usano il principio di → **Uguaglianza** (stessa operazione su entrambi i membri)
-- **Formule inverse** → si ricavano da → **Equazioni di primo grado** isolando l'incognita
-- **Legge di Ohm** ($I = V/R$) → consente di ricavare → $R = V/I$ e $V = I \times R$
-- **Formula della potenza** ($P = V \times I$) → combinata con la legge di Ohm → $P = V^2/R$
-- **Logaritmo in base 10** → è definito come → l'**Esponente** da dare a 10 per ottenere l'argomento
-- **Proprietà dei logaritmi** → derivano dalle → **Proprietà delle potenze**
-- **Logaritmo di un prodotto** → è uguale alla → **Somma dei logaritmi** dei fattori
-- **Logaritmo di un quoziente** → è uguale alla → **Differenza dei logaritmi** (numeratore meno denominatore)
-- **Decibel** → utilizzerà → **Logaritmi in base 10** (argomento futuro)
+<div align="center"><img src="../assets/images/lezioni/lezione_08/slide-22.jpg" alt="RS(T)" width="50%"></div><br>
+
+Il rapporto di segnale (RST) si scambia in ogni QSO per informare l'altra stazione di come la stiamo ricevendo.
+Si compone di 3 cifre:
+- **R (Readability / Comprensibilità)**: da 1 (illeggibile) a 5 (perfettamente leggibile).
+- **S (Strength / Intensità)**: da 1 (appena percepibile) a 9 (molto forte).
+- **T (Tone / Tonalità)**: da 1 a 9 (usato solo in telegrafia/CW per indicare la purezza della nota).
+
+<div align="center"><img src="../assets/images/lezioni/lezione_08/slide-23.jpg" alt="RS(T) Tone" width="50%"></div><br>
+
+In fonia (SSB, FM) il rapporto si dà solo usando le prime due cifre (es. "Sei arrivato 5 e 9"). Se l'intensità del segnale eccede il 9 sullo S-Meter della radio, si esprime in decibel (es. "5 e 9 più 20 dB").
+
+---
+
+### 6. 🌍 Maidenhead Locator System (QTH Locator)
+
+<div align="center"><img src="../assets/images/lezioni/lezione_08/slide-24.jpg" alt="QTH Locator" width="50%"></div><br>
+
+Il sistema Locator è un modo standardizzato a livello globale per comprimere coordinate geografiche (latitudine e longitudine) in una stringa alfanumerica molto corta e facile da trasmettere (es. `JN54JA`).
+È essenziale soprattutto nelle bande VHF/UHF e superiori per determinare velocemente la distanza esatta e la direzione per puntare le antenne direttive.
 
 ---
 
 ## 📝 Punti Chiave
 
-1. La **notazione scientifica** rappresenta un numero come parte numerica × potenza del 10. Esponente positivo → numero grande (virgola a destra); esponente negativo → numero piccolo (virgola a sinistra), mai negativo.
-
-2. Le grandezze in radiotecnica usano prefissi standard: dal **pico** ($10^{-12}$) al **tera** ($10^{12}$), passando per nano, micro, milli, kilo, mega, giga. Da milli in giù e da kilo in su, si scala di $10^3$ alla volta.
-
-3. Per convertire tra unità di misura: da unità **più grande a più piccola** si **moltiplica**; da **più piccola a più grande** si **divide**. Ad esempio: 0,012 mH × 1000 = 12 µH.
-
-4. Prima di combinare grandezze in una formula, esse devono essere **omogenee** (stessa unità di misura). Questo è un trabocchetto frequente all'esame.
-
-5. Le **equazioni di primo grado** si risolvono applicando la stessa operazione a entrambi i membri per isolare l'incognita. Non serve memorizzare tutte le formule inverse: basta conoscerne una e ricavare le altre.
-
-6. Il **logaritmo in base 10** di un numero $y$ è l'esponente da dare a 10 per ottenere $y$. Esempi fondamentali: $\log 10 = 1$, $\log 100 = 2$, $\log 1000 = 3$, $\log 1 = 0$.
-
-7. Le proprietà chiave dei logaritmi: il logaritmo di un **prodotto** è la somma dei logaritmi; il logaritmo di un **quoziente** è la differenza; il logaritmo di una **potenza** è l'esponente per il logaritmo della base.
-
-8. Per risolvere un'equazione logaritmica: isolare il logaritmo con l'incognita, poi applicare la definizione ($\log x = k \Rightarrow x = 10^k$). La struttura tipica all'esame è $N \times \log(x/y) = k$.
-
----
-
-## ❓ Domande di Comprensione
-
-1. Come si converte il numero $4{,}7 \times 10^{-5}$ in notazione decimale? Spiega il procedimento passo per passo.
-
-2. Se hai una capacità di 4700 pF e un'altra di 0,0047 µF, sono la stessa grandezza? Come verifichi che siano omogenee per poterle sommare?
-
-3. Partendo dalla formula della potenza $P = V \times I$ e dalla legge di Ohm $I = V/R$, ricava la formula $P = I^2 \times R$. Mostra tutti i passaggi.
-
-4. Spiega con parole tue cosa significa $\log 500 \approx 2{,}7$ e come verificheresti questo risultato.
-
-5. Perché il logaritmo in base 10 di 1 è sempre uguale a 0? Come si collega alla proprietà delle potenze?
-
-6. Un circuito è alimentato da una batteria da 12 V. Se passa una corrente di 250 mA, qual è la resistenza? Mostra tutti i passaggi, inclusa la conversione delle unità.
-
-7. All'esame trovi tre resistenze da sommare: $0{,}5$ Ω, $500$ mΩ e $500.000$ µΩ. Un candidato ha risposto 500.501 Ω. Dov'è l'errore e qual è il risultato corretto?
-
-8. Risolvi l'equazione $10 \times \log\left(\frac{x}{5}\right) = 7$ mostrando tutti i passaggi. Qual è la proprietà dei logaritmi che usi per semplificare?
-
----
-
-## 📚 Glossario
-
-- **Equivalenza (di unità di misura)** — Espressione di una stessa grandezza fisica in un multiplo o sottomultiplo diverso ma di uguale valore (es. 12 µH = 0,012 mH).
-- **Equazione di primo grado** — Equazione algebrica in cui l'incognita compare con esponente 1 e si risolve isolando l'incognita mediante operazioni inverse.
-- **Formula inversa** — Riscrittura di una formula per esprimere una grandezza diversa come incognita (es. da $I = V/R$ si ricava $R = V/I$).
-- **Giga (G)** — Prefisso per $10^9$ (un miliardo).
-- **Kilo (k)** — Prefisso per $10^3$ (mille).
-- **Logaritmo** — L'esponente da dare alla base per ottenere un dato argomento. Il logaritmo in base 10 di $y$ è il numero $x$ tale che $10^x = y$.
-- **Logaritmo in base 10 (log)** — Logaritmo comune, usato nella definizione dei decibel. Il 10 è spesso omesso: $\log y \equiv \log_{10} y$.
-- **Logaritmo naturale (ln)** — Logaritmo in base $e \approx 2{,}718$. Non usato negli esercizi radioamatoriali.
-- **Mega (M)** — Prefisso per $10^6$ (un milione).
-- **Micro (µ)** — Prefisso per $10^{-6}$ (un milionesimo). Simbolo: lettera greca mu.
-- **Milli (m)** — Prefisso per $10^{-3}$ (un millesimo).
-- **Nano (n)** — Prefisso per $10^{-9}$ (un miliardesimo).
-- **Notazione scientifica** — Rappresentazione di un numero come prodotto di una parte numerica e una potenza del 10.
-- **Omogeneità delle unità** — Condizione necessaria per combinare grandezze: devono essere espresse nella stessa unità di misura.
-- **Pico (p)** — Prefisso per $10^{-12}$ (un bilionesimo).
-- **Potenza del 10** — Numero espresso come $10^n$; l'esponente $n$ indica quanti zeri seguono l'1 (se positivo) o quante posizioni decimali prima della cifra significativa (se negativo).
-- **Sostituzione** — Tecnica algebrica che consiste nel sostituire a una grandezza la sua espressione equivalente ricavata da un'altra formula.
-- **Tera (T)** — Prefisso per $10^{12}$ (mille miliardi).
+1. L'**Alfabeto ICAO** è universale ed evita fraintendimenti: va sempre usato per lo spelling dei nominativi o di parole difficili.
+2. L'**Indicativo di chiamata** è obbligatorio, è personale e ne definisce l'identità e la provenienza del radioamatore (es. le aree postali per l'Italia).
+3. Le **Abbreviazioni e il Codice Q** nascono con la telegrafia, ma sono d'uso comune per sveltire e internazionalizzare le comunicazioni.
+4. Il **Sistema RST** serve a fornire un rapporto rapido su Comprensibilità (1-5) e Intensità (1-9) del segnale.
+5. Il **QTH Locator** indica sinteticamente la posizione geografica della stazione in tutto il mondo.
 
 ---
 
 ## 👥 Partecipanti
 
-- 👨‍🏫 **Relatrice principale**: Lucia — docente della lezione di matematica applicata alla radiotecnica
-- 👨‍🏫 **Co-docenti/coordinatori**: Fabrizio (coordinamento corso), Alessio (informazioni esame, esperienza anni precedenti)
+- 👨‍🏫 **Relatore principale**: Silvio (IZ5DIY)
 
 ---
 
 ## 📅 Informazioni Lezione
 
-| Campo                  | Valore                                                                                                                                                                                                     |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Numero lezione**     | 08                                                                                                                                                                                                         |
-| **Data**               | 23 aprile 2025                                                                                                                                                                                             |
-| **Durata**             | ~130 minuti                                                                                                                                                                                                |
-| **Argomenti trattati** | 4 (Notazione scientifica, Equivalenze unità, Equazioni di primo grado, Logaritmi)                                                                                                                          |
-| **Parole chiave**      | Notazione scientifica, potenze del 10, multipli, sottomultipli, milli, micro, nano, pico, equivalenze, equazioni, formule inverse, legge di Ohm, potenza, logaritmo, base 10, proprietà logaritmi, decibel |
-| **Prossima lezione**   | 7 maggio 2025                                                                                                                                                                                              |
+| Campo | Valore |
+| --- | --- |
+| **Numero lezione** | 08 |
+| **Data** | 6 maggio 2026 |
+| **Argomenti trattati** | Alfabeto ICAO, Indicativo, Abbreviazioni CW, Codice Q, RST, Locator |
+| **Parole chiave** | Spelling, Call Sign, ITU, Prefissi, Aree Postali, CW, Q-Code, QTH, RS(T) |

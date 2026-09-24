@@ -1,0 +1,562 @@
+ARI - CRT Toscana
+Corso per aspiranti Radioamatori 2026
+
+LEZIONE 19
+
+Antenne
+Parte seconda
+
+© i5WHC – 23 Settembre2026
+
+Argomenti della Lezione
+• Le antenne direttive
+• Efficienza di radiazione
+• Misure sulle antenne
+
+23 Settembre 2026 - © i5WHC
+
+2
+
+Antenne parte seconda
+Abbiamo visto nella precedente lezione come la presenza del terreno o di superfici
+riflettenti possa modificare in modo importante il lobo di radiazione verticale di
+un’antenna e, come vedremo meglio in questa lezione, in misura minore incidere
+anche sulla resistenza di radiazione e quindi sull’efficienza di radiazione.
+Dobbiamo sempre tenere conto di questo aspetto perché, come abbiamo visto nella
+lezione sulla propagazione, ed in particolare nel caso di propagazione ionosferica, il
+corretto angolo di radiazione è fondamentale per ottenere le migliori condizioni di
+riflessione in base alle condizioni di propagazione e alla distanza da coprire.
+
+23 Settembre 2026 - © i5WHC
+
+3
+
+Antenne Direttive
+Analogamente a quanto abbiamo visto per il lobo di radiazione verticale, una valida
+strategia per incrementare le possibilità di effettuare un collegamento radio è quella
+di concentrare nella direzione del nostro corrispondente la maggior quantità di
+energia che, se irradiata in direzioni diverse, non contribuirebbe alla qualità del
+collegamento. Di conseguenza la modifica del lobo di radiazione di un’antenna non
+è solo un effetto indesiderato ma in certe condizioni può risultare molto utile.
+E’ il caso delle antenne direttive in cui attraverso
+meccanismi simili a quelli già visti nel caso della
+riflessione sul terreno, si può ottenere un lobo di
+radiazione la cui conformazione è tale da
+concentrare la potenza irradiata in una specifica
+direzione. A parità di potenza applicata all’antenna,
+l’intensità del campo emesso da un’antenna direttiva
+nella direzione del «lobo principale» risulta quindi
+maggiore di quella emessa da un’antenna
+omnidirezionale.
+23 Settembre 2026 - © i5WHC
+
+4
+
+Antenne Direttive
+Si definisce infatti «guadagno» di un’antenna il rapporto tra l’intensità del
+campo emesso nella direzione del «lobo principale» rispetto all’intensità del
+campo emesso da un’antenna di riferimento (radiatore isotropico) a parità di
+potenza applicata
+Il guadagno di un’antenna è generalmente
+espresso in dB (decibel) e più in particolare in
+dBi se il guadagno è riferito al radiatore
+isotropico.
+Può capitare di trovare valori di guadagno di
+un’antenna espressi in dBd quando il
+guadagno non è riferito al radiatore isotropico
+ma è riferito ad un dipolo reale la differenza
+tra i due valori è pari a 2,1 dB
+
+23 Settembre 2026 - © i5WHC
+
+5
+
+Antenne Direttive
+Vediamo adesso in quale modo si può concentrare la potenza
+irradiata in una specifica direzione ottenendo l’effetto di
+«direttività» dell’antenna:
+Esistono vari metodi per ottenere l’effetto di «direttività» :
+•
+
+Porre una superfice riflettente opportunamente sagomata in
+prossimità dell’elemento radiante (specchio parabolico)
+
+•
+
+Posizionare degli elementi «parassiti» di opportuna lunghezza
+allineati nella direzione in cui si vuol concentrare il fascio
+(antenna Yagi)
+
+•
+
+Far «lavorare» assieme più elementi radianti alimentati in fase
+opportuna (antenne collineari o array)
+
+E bene però ricordare sempre che in ambiente reale all’effetto di
+direttività ottenuto con l’uso di un’antenna direttiva si somma
+sempre a quello prodotto dall’ambiente circostante (terreno, ecc..)
+23 Settembre 2026 - © i5WHC
+
+6
+
+Antenne Direttive
+Vediamo adesso nel dettaglio come ciò avviene:
+Consideriamo il caso di uno specchio parabolico, dalla matematica
+sappiamo che una parabola ha due fondamentali caratteristiche
+geometriche:
+• è il luogo geometrico dei punti equidistanti dal fuoco F e da
+una retta chiamata direttrice
+• qualunque punto della superficie della parabola forma angoli
+uguali con la congiungente al fuoco e una retta parallela
+all’asse della parabola stessa passante per tale punto.
+Quindi ponendo un elemento radiante nel fuoco di una parabola il
+campo emesso in TX , che si rifletterà sulla superfice della
+parabola, genererà un fascio piano parallelo all’asse della
+parabola stessa concentrando quindi tutta l’energia irradiata in
+una unica direzione, così come in RX un’onda piana che raggiunge
+la superficie della parabola sarà concentrata nel fuoco.
+
+23 Settembre 2026 - © i5WHC
+
+7
+
+Antenne Direttive
+Consideriamo il caso di un dipolo λ/2 alimentato al centro in
+prossimità del quale sia posto, all’interno dell’area di «campo vicino
+reattivo», un secondo elemento di dimensioni simili.
+Per effetto della mutua induzione che si stabilisce tra i due elementi
+(analogamente a quanto avviene tra i due avvolgimenti di un
+trasformatore) la corrente I1 che circola nell’elemento 1 darà origine
+ad una corrente I2 nell’elemento 2, di conseguenza entrambi gli
+elementi irradieranno un campo elettromagnetico.
+In funzione della differenza di fase tra le due correnti e della distanza
+tra i due elementi i due campi potranno sommarsi o sottrarsi a
+seconda della direzione in cui si propagano.
+Dimensionando opportunamente distanza e dimensioni del
+dell’elemento 2 (radiatore passivo) è quindi possibile predeterminare
+la differenza di fase tra le due correnti e di conseguenza la direzione in
+cui si ha la massima radiazione.
+Questo è il principio su cui si basa il funzionamento di un’antenna
+YAGI-UDA (dal nome dei suoi inventori Hidetsugu Yagi e Shintaro Uda,)
+23 Settembre 2026 - © i5WHC
+
+8
+
+Antenne Direttive
+Analogo effetto di «direttività» può essere ottenuto combinando
+opportunamente le fasi dei campi emessi da una cortina di
+antenne (Array).
+In funzione della posizione di ciascun elemento radiante e della
+fase con cui sono alimentati i singoli elementi (attraverso
+l’impiego di un dispositivo di accoppiamento) è possibile
+determinare la direzione in cui i singoli fasci emessi da ciascun
+elemento radiante andranno a sommarsi, appartengono a questa
+tipologia di antenne anche le Log-Periodic
+
+23 Settembre 2026 - © i5WHC
+
+9
+
+Antenne Direttive
+Legato al concetto di «Guadagno» possiamo definire una ulteriore grandezza «ERP» Effectve
+Radiate Power (potenza effettivamente irradiata) .
+Come abbiamo già detto l’intensità del campo elettromagnetico emesso da una antenna
+direttiva nella direzione del lobo di massima radiazione risulta tanto maggiore quanto più
+elevato è il suo guadagno.
+I valore di ERP è definito come il valore di potenza che dovremmo applicare ad un radiatore
+isotropico, che ha per definizione guadagno unitario, affiché possa generare un campo della
+stessa intensità di quello emesso dall’antenna direttiva nella direzione del lobo di massima
+radiazione :
+
+𝑬𝑹𝑷(𝑾) = 𝑷𝒕𝒙(𝑾) ∗ 𝑮𝒖𝒂𝒅𝒂𝒈𝒏𝒐
+
+Se il valore del guadagno è espresso in dBi la formula
+per calcolare il valore di ERP diventa:
+
+𝑮(𝒅𝑩)
+
+𝑬𝑹𝑷(𝑾) = 𝑷𝒕𝒙(𝑾) ∗ 𝟏𝟎
+
+23 Settembre 2026 - © i5WHC
+
+𝟏𝟎
+
+10
+
+Efficienza di radiazione
+
+23 Settembre 2026 - © i5WHC
+
+11
+
+Antenne – efficienza di radiazione
+Affinché possa circolare una corrente nell’elemento radiante, che come già detto è
+il meccanismo che sta alla base del processo di radiazione, è sempre necessario che
+le cariche elettriche dispongano di un «percorso» attraverso il quale la corrente
+stessa possa richiudersi verso il generatore.
+Questo significa che un elemento radiante,
+in particolare se si tratta di un’antenna
+«sbilanciata», deve sempre avere un
+adeguato «contrappeso» attraverso il
+quale possa richiudersi la corrente RF verso
+il generatore, ma come vedremo, il
+problema riguarda in parte anche le
+antenne «bilanciate». Tale aspetto, spesso
+sottovalutato
+è
+invece
+elemento
+determinante per il corretto funzionamento
+e la buona efficienza di un’antenna
+
+23 Settembre 2026 - © i5WHC
+
+12
+
+Antenne – efficienza di radiazione
+Contrariamente a quanto si potrebbe pensare il
+problema della corretta richiusura delle correnti RF
+interessa non solo le antenne «sbilanciate» come
+una verticale ma anche antenne «bilanciate» come
+un dipolo in quanto sebbene la maggior parte della
+corrente RF fluisca tra i due bracci simmetrici esiste
+comunque la possibilità che una parte della corrente
+RF possa attraversare anche percorsi diversi a causa
+degli immancabili mutui accoppiamenti con gli
+oggetti conduttori circostanti primi fra tutti la calza
+esterna del cavo di discesa (correnti di modo
+comune) e il piano di terra. Questo è il motivo per cui
+è sempre opportuno prevedere un adeguato blocco
+RF (choke) nel punto di alimentazione
+
+23 Settembre 2026 - © i5WHC
+
+13
+
+Antenne – Balun
+Tranne poche eccezioni tutte le antenne hanno la caratteristica di essere «bilanciate» e
+quindi richiederebbero una linea di alimentazione anch’essa bilanciata ma, come
+abbiamo visto in una precedente lezione, gli apparati moderni utilizzano uscite
+sbilanciate per l’impiego dei cavi coassiali.
+Per connettere quindi un’antenna bilanciata ad una linea sbilanciata come un cavo
+coassiale si deve utilizzare un dispositivo di adattamento, tale dispositivo prende il
+nome di «BALUN» (abbreviazione di Balanced to Unbalanced).
+Vedremo meglio però nella slide successiva come questi dispositivi possono, e in
+qualche caso devono, svolgere anche ulteriori importanti funzioni.
+
+23 Settembre 2026 - © i5WHC
+
+14
+
+Antenne – Balun
+Il corretto adattamento tra antenna e linea nel punto di
+alimentazione deve di norma poter rispondere a tre
+diverse esigenze :
+•
+
+Adattare un carico bilanciato (antenna) ad una linea
+sbilanciata (cavo coax)
+
+•
+
+Adattare il valore di impedenza dell’antenna a quello
+della linea di alimentazione qualora fosse diverso
+
+•
+
+Evitare la possibilità che correnti RF possano
+percorrere la superfice esterna del covo coax (correnti
+di modo comune) dando luogo a RFI
+
+Molto spesso queste tre diverse funzioni possono essere
+svolte da un unico dispositivo che prende il nome di
+«Balun di corrente» o «Guanella Choke»
+
+23 Settembre 2026 - © i5WHC
+
+15
+
+Antenne – Efficienza di radiazione
+A questo punto è lecito porsi una domanda:
+In condizioni di perfetto adattamento tutta la potenza elettrica generata dal mio
+trasmettitore è sempre irradiata sotto forma di campo elettromagnetico
+dall’antenna ?
+La risposta è ovviamente «NO»
+O meglio ciò potrebbe avvenire solo in un caso teorico ovvero quando l’antenna
+fosse posta in un ambiente ideale (spazio libero) privo di interferenze spaziali e
+l’antenna stessa fosse realizzata con conduttori ideali (privi di perdite).
+Purtroppo nella realtà non è mai cosi
+Si definisce quindi efficienza di radiazione di un’antenna il rapporto percentuale
+tra l’effettiva potenza irradiata sotto forma di campo elettromagnetico e la
+potenza fornita dal trasmettitore al punto di alimentazione:
+
+𝑷𝒊𝒓
+𝜼𝒓 =
+%
+𝑷𝑻𝒙
+23 Settembre 2026 - © i5WHC
+
+16
+
+Antenne – Efficienza di radiazione
+Dobbiamo sempre ricordare che nella realtà l’impedenza 𝒁𝟎 che un’antenna presenta nel
+punto di alimentazione, che è puramente resistiva solo alla risonanza, è sempre data dalla
+somma di più componenti :
+
+Rrad Resistenza di Radiazione
+
+Rloss Resistenza di perdita
+La resistenza di perdita Rloss è a sua volta la somma di vari contributi:
+• La potenza dissipata per effetto Joule nella resistenza elettrica Rc dei conduttori che
+costituiscono l’elemento radiante e dalle perdite nel dielettrico degli isolatori
+• La perdite nel terreno Rg o in oggetti conduttori circostanti e posti nell’area di «campo
+vicino» in cui circola la corrente indotta dal campi generati dall’antenna
+23 Settembre 2026 - © i5WHC
+
+17
+
+Antenne – Efficienza di radiazione
+E’ bene infatti ricordare come, a causa del «effetto pelle», una corrente RF
+percorre solo la parte esterna di un conduttore e la profondità di penetrazione δ
+dipende dalla frequenza e dal materiale con cui è realizzato il conduttore stesso.
+Di conseguenza è come se la
+resistività del conduttore , a
+parità di sezione, aumentasse
+all’aumentare della frequenza.
+
+23 Settembre 2026 - © i5WHC
+
+18
+
+Antenne – Efficienza di radiazione
+Le perdite dovute a «effetto pelle» sono particolarmente evidenti nel caso di antenne
+con rapporto di finezza l/d elevato come le «filari» di elevata lunghezza.
+Affligge meno gli elementi radianti di elevato diametro dove le perdite nell’elemento
+radiante sono principalmente dovute a problemi di isolamento
+A titolo di esempio nella tabella
+a fianco sono riportati i valori di
+resistenza di perdita Rc dei
+conduttori, causata dall’effetto
+pelle in base alla sezione del
+conduttore stesso, e che possono
+presentare i conduttori con cui
+sia realizzato un dipolo filare per
+le HF
+
+23 Settembre 2026 - © i5WHC
+
+19
+
+Antenne – Efficienza di radiazione
+
+Le perdite nel terreno dipendono dalle caratteristiche dielettriche del terreno stesso e sono
+generalmente maggiori in terreni di scarse caratteristiche dielettriche dove le correnti indotte
+penetrano a maggiore profondità. Le perdite aumentano quando diminuisce l’altezza da terra
+dell’antenna in rapporto alla sua lunghezza d’onda. Le perdite nel terreno sono molto
+importanti e, nel caso di un’antenna orizzontale, dipendono essenzialmente dall’altezza a cui è
+installata e diventano significative per altezze inferiori a λ/4. In caso di antenne verticali, anche
+se montate a terra, é sempre e comunque necessario l’uso di un adeguato numero di radiali.
+23 Settembre 2026 - © i5WHC
+
+20
+
+Antenne – efficienza di radiazione
+
+23 Settembre 2026 - © i5WHC
+
+21
+
+Antenne – Efficienza di radiazione
+Abbiamo definito «efficienza di radiazione» 𝜼𝒓 di un’antenna il
+rapporto tra la potenza effettivamente irradiata Pir e la potenza rf PTx
+erogata dal TX al punto di alimentazione:
+𝐏𝐢𝐫
+𝐈 𝟐 ∗𝐑 𝐫𝐚𝐝
+𝐈 𝟐 ∗𝐑 𝐫𝐚𝐝
+𝐑 𝐫𝐚𝐝
+𝛈𝐫 =
+= 𝟐
+= 𝟐
+=
+𝐏𝐓𝐱
+𝐈 ∗𝐙𝐨
+𝐈 ∗(𝐑 𝐫𝐚𝐝 +𝐑 𝐋𝐨𝐬𝐬 )
+𝐑 𝐫𝐚𝐝 +𝐑 𝐋𝐨𝐬𝐬
+
+Appare qui evidente come l’efficienza di radiazione della nostra
+antenna sia direttamente proporzionale al rapporto tra il valore della
+«resistenza di radiazione dell’antenna Rrad» e il valore complessivo della
+«resistenza di perdita Rloss».
+Appare altresì evidente come un’antenna con un basso valore di Rrad a
+parità di perdite avrà un’efficienza minore.
+23 Settembre 2026 - © i5WHC
+
+22
+
+Antenne – Efficienza di radiazione
+Per chiarire meglio i concetti fin qui esposti proviamo adesso a fare qualche
+esempio pratico:
+Caso 1) Dipolo orizzontale F = 7MHz posto a 10m (λ/4) da terra, alimentato con cavo coax
+Zo= 50Ω, diametro conduttore 1,5mm su terreno di caratteristiche medie
+Caso 2) Dipolo orizzontale F = 3,5 MHz posto a 10m (λ/8) da terra, alimentato con cavo
+coax Zo= 50Ω, diametro del conduttore 1,5mm su terreno di caratteristiche medie
+Caso 3) Verticale caricata in testa di lunghezza λ/8 posta a terra, alimentata con cavo coax
+Zo= 50Ω con 16 radiali λ/8 interrati, terreno di caratteristiche medie
+
+23 Settembre 2026 - © i5WHC
+
+23
+
+Antenne – Efficienza di radiazione
+L’analisi dei risultati dei tre casi presi ad esempio evidenzia un importante elemento
+troppo stesso non correttamente considerato:
+
+«Un buon valore di SWR fornisce una indicazione attendibile circa il corretto
+adattamento di impedenza nel punto di alimentazione ma non può dare
+indicazioni attendibili circa l’efficienza di radiazione dell’antenna stessa»
+
+…..scriveva il compianto John Devoldere, ON4UN nel suo libro Low-Band DXing :”The
+Antenna with best SWR is a quality dummy load” , “L’antenna con il miglior valore di SWR
+è un buon carico fittizio!” una provocazione che però rende bene il concetto che un basso
+valore di SWR non è sempre garanzia dell’efficienza di radiazione dell’antenna.
+Sempre John aggiunge che la probabile spiegazione di questa errata percezione per la
+quale SWR sia un criterio di valutazione dell’efficienza di un’antenna deriva dalla
+semplicità con cui tale valore può essere misurato rispetto alla notevole difficoltà che si
+presenta invece nel poter valutare strumentalmente l’effettiva efficienza di radiazione di
+un’antenna….
+24
+23 Settembre 2026 - © i5WHC
+
+Misure sulle antenne
+
+23 Settembre 2026 - © i5WHC
+
+25
+
+Antenne – Misure sulle antenne
+Oggi chi vuole dedicarsi all’autocostruzione, rispetto al passato, dispone a buon mercato
+di molti strumenti sia HW che SW di ausilio al corretto dimensionamento e alla
+valutazione preliminare delle prestazioni di un’antenna. E’ però necessario saper
+interpretare correttamente i molti dati che tali strumenti ci mettono a disposizione.
+
+23 Settembre 2026 - © i5WHC
+
+26
+
+Antenne – Misure sulle antenne
+Proviamo a fare qualche esempio pratico:
+Misure di Impedenza con Analizzatore d’antenna:
+Quando si effettuano misure di impedenza con l’analizzatore d’antenna dobbiamo sempre ricordare che
+la presenza di una linea (cavo coax) tra lo strumento e l’antenna potrebbe portare a letture non del
+tutto attendibili in quanto come abbiamo visto nella lezione dedicata alle linee di trasmissione se la
+linea non è terminata esattamente sulla propria impedenza caratteristica i valori che vado a leggere
+sullo strumento possono essere diversi da quelli reali che presenta l’antenna tranne il caso in cui la linea
+abbia una lunghezza elettrica pari ad esattamente un multiplo intero di λ/2.
+
+23 Settembre 2026 - © i5WHC
+
+27
+
+Misure con VNA:
+
+Antenne – Misure sulle antenne
+
+Lo stesso problema si può presentare anche quando effettuiamo delle misure con un VNA, un errore
+molto comune è quello di considerare l’antenna «risonante» sulla frequenza per la quale lo strumento ci
+indica un valore di impedenza privo di componenti reattive (puramente resistivo) in realtà se siamo in
+presenza di SWR (anche con valori bassi) l’impedenza misurata al termine della discesa può presentare
+componenti reattive anche se l’antenna è perfettamente risonante. IL vantaggio di utilizzare un VNA è
+che settando opportunamente lo strumento questo può tener conto della lunghezza della linea e fornire
+misure opportunamente corrette come se lo stesso fosse posto direttamente sull’antenna.
+
+f=f0
+
+f>f0
+
+F<f0
+
+23 Settembre 2026 - © i5WHC
+
+28
+
+Antenne – Misure sulle antenne
+Proviamo a fare qualche esempio pratico:
+Nel primo caso stiamo effettuando una misura di
+impedenza su un’antenna che presenta un SWR=1,58 e
+lo strumento è posto al termine di una linea che ha
+impedenza Z0=50Ω ed è lunga 0,35λ, alla risonanza lo
+strumento misura un’impedenza di Zi=52-j25 Ω mentre
+in realtà l’effettiva impedenza dell’antenna è ZL=31,5 Ω
+puramente resistivi.
+
+Nel secondo caso abbiamo un’antenna con impedenza
+alla risonanza ZL=75 Ω alimentata con una linea
+Z0=50Ω e lunga 0,3λ, che determina un valore di
+SWR=1,5 se colleghiamo lo strumento alla linea e
+effettuiamo la misura leggeremo un valore di
+impedenza Zi=35,5+j8 Ω valore decisamente diverso
+dalla reale impedenza dell’antenna che è 75 Ω
+
+23 Settembre 2026 - © i5WHC
+
+29
+
+Antenne
+Sulla base di quanto abbiamo visto fino a qui è quindi possibile affermare che le
+prestazioni di un’antenna dipendono da una molteplicità di fattori.
+Vi sarebbero per la verità anche altri aspetti da valutare ma che esulano dallo
+scopo di questo corso, vorrei però comunque farne un accenno.
+Per il DX in HF ed in particolare sulle bande più basse, vi è una sostanziale
+differenza tra le caratteristiche ottimali di un sistema d’antenna in TX rispetto ad
+un sistema d’antenna ottimale in RX
+In TX la condizione ottimale è quella che permette di concentrare la maggiore
+quantità di energia nella fascia ottimale dell’ angolo di radiazione (0°-20°)
+In RX l’esigenza è invece quella di ottenere il migliore rapporto segnale/rumore
+
+Non sempre questi due aspetti coincidono
+23 Settembre 2026 - © i5WHC
+
+30
+
+Antenne
+Come abbiamo visto in TX è possibile aumentare la quantità di energia irradiata in
+una certa direzione modificando il lobo di radiazione possiamo quindi affermare che
+un’antenna con un maggiore guadagno produrrà sicuramente un incremento di
+energia irradiata.
+E’ noto che in HF e soprattutto sulle bande più basse il rumore prevalente è quello
+«esterno», rumore che sovrasta il livello di rumore interno del ricevitore fino ad oltre
+50-60dB di conseguenza in RX l’aumento generalizzato di guadagno dell’antenna
+porterebbe ad un incremento sia del segnale utile ma anche del rumore in ingresso
+senza che questo porti un apprezzabile miglioramento del rapporto S/N
+L’unica strategia che può portare ad un incremento del S/N è quella di disporre di un
+sistema di antenna in cui la conformazione del lobo di radiazione sia tale da
+presentare un massimo nella direzione del segnale utile e una marcata
+attenuazione in tutte le altre direzioni indipendentemente dal guadagno effettivo
+dell’antenna stessa.
+23 Settembre 2026 - © i5WHC
+
+31
+
+Antenne
+Per concludere consiglio a chi fosse interessato ad approfondire l’argomento
+«Antenne» la lettura di due ottimi testi editi da ARRL:
+
+Per chi volesse invece limitarsi solo a qualche dettaglio in più sugli argomenti trattati segnalo che sul
+sito della Sezione ARI di Pisa è presente una raccolta di articoli tecnici riguardanti vari argomenti e le
+slide presentate nelle «Serate a Tema» che la Sezione di Pisa organizza periodicamente:
+https://www.aripisa.it/index.php/tecnica
+
+23 Settembre 2026 - © i5WHC
+
+32
+
+Grazie
+per l’attenzione
+
+i5-whc@libero.it
+
+23 Settembre 2026 - © i5WHC
+
+33
+
+

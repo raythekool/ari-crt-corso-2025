@@ -32,7 +32,13 @@ L'**atomo** — la particella più piccola che mantiene le caratteristiche della
 
 L'atomo è composto da tre tipi di particelle. Al centro si trova il **nucleo**, paragonabile al Sole nel sistema solare, che contiene due tipi di particelle: i **neutroni** — particelle elettricamente neutre che contribuiscono alla massa dell'atomo ma non alla carica elettrica — e i **protoni** — particelle dotate di carica elettrica convenzionalmente definita **positiva**. Attorno al nucleo, come pianeti attorno al Sole, orbitano gli **elettroni** — particelle portatrici di carica elettrica convenzionalmente definita **negativa**.
 
+<div align="center"><img src="../assets/images/lezioni/lezione_01/slide-02.jpg" alt="Struttura dell'atomo" width="50%"></div><br>
+
+
 In condizioni normali, ogni atomo è **elettricamente neutro**: il numero di protoni è uguale al numero di elettroni, e le rispettive cariche si bilanciano esattamente. Quando un atomo cede o acquista elettroni, diventa uno **ione**: se perde un elettrone diventa uno **ione positivo** (avendo perso una carica negativa, resta con un eccesso di carica positiva); se ne acquista uno, diventa uno **ione negativo**.
+
+<div align="center"><img src="../assets/images/lezioni/lezione_01/slide-03.jpg" alt="Ioni positivi e negativi" width="50%"></div><br>
+
 
 ### 🔹 Conduttori e isolanti (⏱ 05:51)
 
@@ -63,6 +69,9 @@ Le cariche elettriche interagiscono tra loro secondo una legge fondamentale:
 - **Cariche uguali si respingono** (positivo–positivo o negativo–negativo)
 - **Cariche diverse si attraggono** (positivo–negativo)
 
+<div align="center"><img src="../assets/images/lezioni/lezione_01/slide-04.jpg" alt="Attrazione e repulsione cariche" width="50%"></div><br>
+
+
 Questa proprietà è analoga a quanto accade con le calamite e il magnetismo.
 
 ---
@@ -75,6 +84,9 @@ Ogni carica elettrica genera attorno a sé un **campo elettrico** — una zona d
 
 Per comprendere le linee di forza, si immagina di posizionare una piccola carica positiva "di prova" in vari punti dello spazio attorno alla carica. Se la carica centrale è positiva, la carica di prova viene respinta radialmente verso l'esterno (le frecce puntano verso l'esterno). Se la carica centrale è negativa, la carica di prova viene attratta verso il centro (le frecce puntano verso l'interno).
 
+<div align="center"><img src="../assets/images/lezioni/lezione_01/slide-05.jpg" alt="Linee di forza del campo elettrico" width="50%"></div><br>
+
+
 Quando sono presenti due cariche, il campo risultante è la combinazione dei campi generati da ciascuna. Ad esempio, due cariche positive generano linee di forza antagoniste, che si respingono a vicenda. Una carica positiva e una negativa generano linee che vanno dalla positiva alla negativa, mostrando l'attrazione reciproca.
 
 Il concetto di campo è fondamentale per il radioamatore: quando si trasmette, l'antenna genera un **campo elettromagnetico**, che verrà studiato in dettaglio nelle lezioni successive.
@@ -86,6 +98,9 @@ Il concetto di campo è fondamentale per il radioamatore: quando si trasmette, l
 ### 🔹 Definizione e natura della corrente
 
 La **corrente elettrica** — spostamento ordinato di cariche elettriche (nel 99,9% dei casi, elettroni) — si genera quando in un punto dello spazio vi è un eccesso di elettroni e in un altro punto una carenza. Se questi due punti sono collegati da un conduttore, gli elettroni fluiscono dalla zona con eccesso (polo negativo) verso la zona con carenza (polo positivo).
+
+<div align="center"><img src="../assets/images/lezioni/lezione_01/slide-07.jpg" alt="Corrente elettrica e flusso di elettroni" width="50%"></div><br>
+
 
 ### 🔹 Corrente continua vs corrente alternata (⏱ 20:34)
 
@@ -119,6 +134,9 @@ La corrente elettrica scorre perché esiste una **differenza di potenziale** tra
 
 La differenza di potenziale, detta comunemente **tensione**, si misura in **volt** (simbolo dell'unità di misura: **V**; simbolo nelle formule: **V**). Prende il nome da Alessandro Volta, il fisico italiano che nel 1799 inventò la pila.
 
+<div align="center"><img src="../assets/images/lezioni/lezione_01/slide-11.jpg" alt="Tensione elettrica" width="50%"></div><br>
+
+
 > **Definizione formale:**
 >
 > 1 volt è la differenza di potenziale tra due
@@ -140,6 +158,9 @@ Allo stesso modo, in una radio portatile il pacco batterie contiene energia chim
 
 L'energia elettrica si misura in **wattora** (simbolo: **Wh**) o **kilowattora** (kWh). È ciò che l'Enel ci fornisce e che i contatori domestici misurano.
 
+<div align="center"><img src="../assets/images/lezioni/lezione_01/slide-12.jpg" alt="Energia elettrica" width="50%"></div><br>
+
+
 > $$1 \text{ Wh} = \text{consumo di 1 watt per 1 ora}$$
 
 ### 🔹 La potenza elettrica (⏱ 34:05)
@@ -147,6 +168,9 @@ L'energia elettrica si misura in **wattora** (simbolo: **Wh**) o **kilowattora**
 La **potenza** — la quantità di energia che si trasforma nell'unità di tempo — è ciò che determina "quanta" energia viene utilizzata in un dato momento. Tornando all'analogia dell'automobile: premendo poco l'acceleratore si trasforma poca energia (bassa potenza), premendo molto si trasforma molta energia (alta potenza), consumando più benzina.
 
 L'unità di misura della potenza è il **watt** (simbolo dell'unità di misura: **W**; simbolo nelle formule: **P**).
+
+<div align="center"><img src="../assets/images/lezioni/lezione_01/slide-13.jpg" alt="Potenza elettrica" width="50%"></div><br>
+
 
 > **Definizione:**
 >
@@ -200,15 +224,24 @@ Il procedimento matematico è semplice: si divide entrambi i membri dell'equazio
 
 ## 🔋 8. I generatori di corrente elettrica (⏱ 61:54)
 
+<div align="center"><img src="../assets/images/lezioni/lezione_01/slide-16.jpg" alt="Tipi di generatori" width="50%"></div><br>
+
+
 ### 🔹 Le pile (⏱ 62:37)
 
 La **pila** è un generatore in cui la corrente elettrica viene prodotta da una **reazione chimica irreversibile**. All'interno della pila, sostanze chimiche si combinano spostando elettroni verso il polo negativo, lasciando il polo positivo carente di elettroni. Quando la pila è inserita in un circuito, gli elettroni scorrono dal polo negativo al polo positivo attraverso il circuito esterno. Le pile si scaricano e **non possono essere ricaricate**.
+
+<div align="center"><img src="../assets/images/lezioni/lezione_01/slide-17.jpg" alt="Pile" width="50%"></div><br>
+
 
 Le pile comuni hanno tensione di 1,5 V (stilo) o 9 V (il classico "pacchettino").
 
 ### 🔹 Le batterie / accumulatori (⏱ 64:28)
 
-Le **batterie** (o **accumulatori**) funzionano in modo simile alle pile, ma la reazione chimica è **reversibile**: possono essere **ricaricate**. Questo le distingue fondamentalmente dalle pile, anche se commercialmente si trovano "pile ricaricabili" che tecnicamente appartengono alla categoria delle batterie.
+Le **batterie** (o **accumulatori**) funzionano in modo simile alle pile, ma la reazione chimica è **reversibile**: possono essere **ricaricate**.
+
+<div align="center"><img src="../assets/images/lezioni/lezione_01/slide-18.jpg" alt="Batterie e accumulatori" width="50%"></div><br>
+ Questo le distingue fondamentalmente dalle pile, anche se commercialmente si trovano "pile ricaricabili" che tecnicamente appartengono alla categoria delle batterie.
 
 Le batterie sono caratterizzate da due valori:
 
@@ -230,6 +263,9 @@ Le pile di piccole dimensioni hanno capacità molto inferiore, espressa in **mil
 
 L'**alternatore** è un generatore che produce corrente elettrica tramite il **moto meccanico**, sfruttando l'interazione di due campi magnetici. A differenza di pile e batterie, l'alternatore genera **corrente alternata**.
 
+<div align="center"><img src="../assets/images/lezioni/lezione_01/slide-20.jpg" alt="Alternatori" width="50%"></div><br>
+
+
 Nell'automobile, la batteria fornisce energia per l'avviamento, poi l'alternatore — azionato dal motore — mantiene la batteria carica e alimenta l'impianto elettrico. La tensione alternata in uscita dall'alternatore viene **raddrizzata** (trasformata in continua) tramite componenti elettronici chiamati **diodi**. La batteria funge anche da elemento **stabilizzatore** della tensione dell'impianto.
 
 > "Le batterie erogano tensione continua e quindi corrente continua. L'alternatore genera corrente alternata."
@@ -248,6 +284,9 @@ Mettendo generatori **in parallelo** (tutti devono avere la **stessa tensione**)
 
 - La **tensione di uscita** resta **uguale** a quella del singolo generatore
 - La **corrente erogabile** è la **somma** delle correnti dei singoli generatori
+
+<div align="center"><img src="../assets/images/lezioni/lezione_01/slide-22.jpg" alt="Generatori in parallelo" width="50%"></div><br>
+
 
 Esempio: tre batterie da 1,5 V in parallelo erogano 1,5 V, ma con corrente tripla rispetto a una sola batteria.
 
@@ -284,11 +323,17 @@ La corrente elettrica attraversa il corpo umano causando la **scossa elettrica**
 - **Fibrillazione ventricolare** — il cuore può fermarsi
 - **Paralisi respiratoria**
 
+<div align="center"><img src="../assets/images/lezioni/lezione_01/slide-25.jpg" alt="Effetto fisiologico" width="50%"></div><br>
+
+
 Il rischio elettrico sarà approfondito in una lezione dedicata (14ª–15ª lezione).
 
 ### 🔹 Effetto termico — Effetto Joule (⏱ 105:17)
 
-La corrente elettrica che scorre in un conduttore lo **scalda** sempre, producendo calore. Questo fenomeno è detto **effetto Joule**. Applicazioni pratiche:
+La corrente elettrica che scorre in un conduttore lo **scalda** sempre, producendo calore. Questo fenomeno è detto **effetto Joule**.
+
+<div align="center"><img src="../assets/images/lezioni/lezione_01/slide-24.jpg" alt="Effetto termico o Joule" width="50%"></div><br>
+ Applicazioni pratiche:
 
 - **Stufette elettriche**: l'energia elettrica si trasforma in energia termica
 - **Lampadine a incandescenza** (ormai poco usate per il basso rendimento): un filamento percorso da corrente diventa incandescente ed emette luce
@@ -303,7 +348,10 @@ L'**elettrolisi** si verifica quando la corrente elettrica scorre in un liquido 
 
 ### 🔹 Effetto magnetico (⏱ 108:46)
 
-Un cavo elettrico percorso da corrente **genera un campo magnetico**. Questo fu scoperto da **Hans Christian Ørsted** nel 1800 circa, che notò come un ago di bussola deviasse in prossimità di un filo percorso da corrente. L'effetto magnetico è alla base del funzionamento di componenti elettronici come gli **induttori** (o **bobine**), che saranno oggetto di lezioni future.
+Un cavo elettrico percorso da corrente **genera un campo magnetico**.
+
+<div align="center"><img src="../assets/images/lezioni/lezione_01/slide-27.jpg" alt="Effetto magnetico" width="50%"></div><br>
+ Questo fu scoperto da **Hans Christian Ørsted** nel 1800 circa, che notò come un ago di bussola deviasse in prossimità di un filo percorso da corrente. L'effetto magnetico è alla base del funzionamento di componenti elettronici come gli **induttori** (o **bobine**), che saranno oggetto di lezioni future.
 
 ---
 
@@ -432,7 +480,7 @@ Un cavo elettrico percorso da corrente **genera un campo magnetico**. Questo fu 
 ## 📅 Informazioni Lezione
 
 - **Numero Lezione**: 01
-- **Data**: 05/03/2025
+- **Data**: 05/03/2026
 - **Durata**: Circa 2 ore (incluse pause e Q&A)
 - **Argomenti Trattati**: 10 (atomo, carica, campo elettrico, corrente, tensione, energia, potenza, formule, generatori, effetti della corrente)
 - **Keywords**: corrente continua, tensione, volt, ampere, watt, potenza, energia, coulomb, atomo, elettrone, protone, conduttore, isolante, pila, batteria, accumulatore, alternatore, serie, parallelo, generatore ideale, effetto Joule, elettrolisi, campo magnetico, campo elettrico, formula $P = V \times I$

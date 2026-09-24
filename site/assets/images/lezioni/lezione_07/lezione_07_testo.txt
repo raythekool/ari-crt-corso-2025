@@ -1,0 +1,361 @@
+I modi di emissione
+I decibel
+
+ARI CRT - Corso OM 2026
+
+1
+
+Le onde elettromagnetiche si propagano a
+grande distanza e possono trasportare delle
+informazioni
+Modulazione: agganciare ad un’onda
+portante un’informazione che si vuole
+trasmettere a distanza
+Informazione = voce, immagini, dati
+ARI CRT - Corso OM 2026
+
+2
+
+L’onda portante è una sinusoide
+Può essere modulata:
+• in ampiezza
+(AM – Amplitude Modulation)
+• in frequenza
+(FM – Frequency Modulation)
+• in fase
+(PM – Phase Modulation)
+
+ARI CRT - Corso OM 2026
+
+3
+
+Il segnale che contiene l’informazione
+(segnale modulante) produce una
+variazione dell’ ampiezza del segnale a
+radiofrequenza (segnale portante)
+
+L’emissione AM è codificata come A3E
+
+ARI CRT - Corso OM 2026
+
+4
+
+ARI CRT - Corso OM 2026
+
+5
+
+Si definisce indice di modulazione (o coefficiente di
+modulazione) il rapporto tra il valore di picco del
+segnale modulante (Vm) e quello della portante
+(Vp) , espresso in percentuale
+
+ARI CRT - Corso OM 2026
+
+6
+
+M = 50% (0,5)
+La portante è modulata
+solo parzialmente: una
+parte della sua energia non
+viene usata per
+trasmettere l’informazione
+
+M = 100% (1)
+La portante è
+completamente modulata
+ARI CRT - Corso OM 2026
+
+7
+
+M = 150% (1,5)
+Eccesso di modulazione:
+l’inviluppo risulta tagliato
+nei picchi e si genera
+distorsione e frequenze
+indesiderate (gli “splatter”)
+
+ARI CRT - Corso OM 2026
+
+8
+
+Nel dominio della frequenza, la modulazione di ampiezza
+produce due bande laterali simmetriche alla portante,
+che portano la stessa informazione
+
+LSB: lower side band – banda laterale inferiore
+USB: upper side band – banda laterale superiore
+ARI CRT - Corso OM 2026
+
+9
+
+Larghezza di banda: la differenza tra i valori di frequenza
+massima della banda laterale superiore e la minima
+della banda laterale inferiore
+Larghezza di banda
+
+Larghezza di banda di un tipico segnale AM: circa 6-7 KHz
+ARI CRT - Corso OM 2026
+
+10
+
+Rappresenta la potenza fornita alla linea di
+alimentazione dell’antenna da un
+trasmettitore in AM in assenza di
+modulazione
+
+ARI CRT - Corso OM 2026
+
+11
+
+In una trasmissione AM
+modulata al 100%:
+• portante: 2/3 della potenza
+• LSB: 1/6 della potenza
+• USB: 1/6 della potenza
+
+La AM è un modo di
+trasmissione poco efficiente
+ARI CRT - Corso OM 2026
+
+12
+
+E’ una modulazione di ampiezza
+Eliminando la portante si ha una trasmissione DSB
+(double side band): si trasmettono le 2 bande laterali
+Eliminando la portante e una delle due bande laterali, si
+trasmette comunque il segnale modulante.
+E una trasmissione SSB (single side band – banda –
+banda laterale unica)
+L’emissione SSB è codificata J3E
+
+ARI CRT - Corso OM 2026
+
+13
+
+Larghezza di banda di un tipico segnale SSB: circa 2,5 KHz
+ARI CRT - Corso OM 2026
+
+14
+
+In assenza di modulazione non vi è potenza trasmessa
+Tutta la potenza del trasmettitore è impiegata per inviare
+l’informazione
+Uso migliore della banda: il canale è metà di quello AM
+Per la minore larghezza di banda, il ricevitore è più sensibile
+Rispetto alla AM, il ricevitore ed il trasmettitore sono più
+complessi
+Richiede una sintonia accurata
+ARI CRT - Corso OM 2026
+
+15
+
+Il segnale che contiene l’informazione
+(segnale modulante) produce una
+variazione della frequenza del segnale a
+radiofrequenza (segnale portante)
+L’emissione FM è codificata F3E
+
+ARI CRT - Corso OM 2026
+
+16
+
+ARI CRT - Corso OM 2026
+
+17
+
+Indica lo scostamento istantaneo della
+frequenza della portante modulata FM
+rispetto alla portante priva di modulazione
+
+ARI CRT - Corso OM 2026
+
+18
+
+Per la modulazione FM l’indice di
+modulazione può essere superiore all’unità
+Ad esempio: FM broadcast
+IM=5
+FM radioamatori IM=1
+ARI CRT - Corso OM 2026
+
+19
+
+Poiché nella modulazione di frequenza
+viene variata solo la frequenza dell’onda
+portante, questa ha una potenza COSTANTE
+
+ARI CRT - Corso OM 2026
+
+20
+
+Il ricevitore è poco sensibile ai disturbi (di
+solito di ampiezza variabile (AM))
+Elevata efficienza del trasmettitore (classe C)
+Non richiede una sintonia accurata
+Occupa un canale ampio
+ARI CRT - Corso OM 2026
+
+21
+
+ARI CRT - Corso OM 2026
+
+22
+
+Il decibel (dB) è un’unità di misura logaritmica che consente di
+gestire facilmente grandezze con dinamiche molto ampie
+Il decibel è un’unità di misura relativa. Tipicamente confronta i
+livelli di potenza tra l’uscita e l’ingresso di un amplificatore o
+un attenuatore
+Moltiplicazioni e divisioni si trasformano in addizioni e
+sottrazioni nel dominio logaritmico e quindi i livelli di potenza
+lungo una catena di rice-trasmissione possono essere calcolati
+facilmente
+
+ARI CRT - Corso OM 2026
+
+23
+
+Potenza in ingresso
+
+Amplificatore
+
+Potenza in uscita
+
+Il guadagno di potenza di un amplificatore (G) è il logaritmo in
+base 10 del rapporto tra potenza di uscita (Po) e potenza di
+ingresso (Pi)
+G = 10 log 10 (Po/Pi) dB
+
+ARI CRT - Corso OM 2026
+
+24
+
+Pi = 200 mW
+
+Amplificatore
+
+Po = 400 mW
+
+Un guadagno di 3 dB equivale ad un raddoppio della potenza
+G = Po/Pi = 400/200 = 2
+G = 10 log 10 (400/200) = 3 dB
+
+ARI CRT - Corso OM 2026
+
+25
+
+Pi = 100 mW
+
+Attenuatore
+
+Po = 10 mW
+
+E’ possibile esprimere in dB anche un’attenuazione
+G = Po/Pi = 10/100 = 0,1
+G = 10 log 10 (10/100) = -10 dB
+
+ARI CRT - Corso OM 2026
+
+26
+
+Amplificatore 1
+G = 10 dB
+
+Amplificatore 2
+G = 20 dB
+
+Il guadagno di una catena di amplificazione (in dB) è pari alla
+somma del guadagno degli amplificatori.
+
+Gtot = G1 + G2 dB
+
+ARI CRT - Corso OM 2026
+
+27
+
+Pi = 5 W
+
+Amplificatore
+
+Po = 100 W
+
+Un amplificatore di potenza deve fornire 100 W all’antenna, a
+partire dai 5 W del trasmettitore. Determinare quale guadagno
+(in dB) è necessario.
+
+ARI CRT - Corso OM 2026
+
+28
+
+Pi = 5 W
+
+Amplificatore
+
+Po = 200 W
+
+Un amplificatore di potenza deve fornire 100 W all’antenna, a
+partire dai 5 W del trasmettitore. Determinare quale guadagno
+(in dB) è necessario.
+Si vuole raddoppiare la potenza in antenna, portandola a
+200W. Determinare il nuovo guadagno dell’amplificatore.
+
+ARI CRT - Corso OM 2026
+
+29
+
+ARI CRT - Corso OM 2026
+
+30
+
+Il decibel (dB) è un’unità di misura relativa
+Se però si fissa, come livello di riferimento, un valore unitario
+riferito ad una specifica unità di misura, si ottiene un’unità di
+misura assoluta.
+Un campo radioamatoriale è tipicamente usato il dBm (decibel
+riferiti al milliwatt)
+
+ARI CRT - Corso OM 2026
+
+31
+
+0 dBm
+
+1 mW
+
+0 dBm
+
+1 mW
+
+-3 dBm
+
+0,5 mW
+
++13 dBm
+
+20 mW
+
+-10 dBm
+
+0,1 mW
+
++ 30 dBm
+
+1 W
+
+-20 dBm
+
+0,01 mW
+
++ 50 dBm
+
+100 W
+
+ARI CRT - Corso OM 2026
+
+32
+
+ARI CRT - Corso OM 2026
+
+33
+
+

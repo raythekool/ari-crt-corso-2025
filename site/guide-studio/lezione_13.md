@@ -1,479 +1,430 @@
 ---
 layout: default
-title: "Amplificatori, Oscillatori e Decibel"
+title: "Trasduttori, Miscelatori e Trasmettitori"
 permalink: /guide-studio/lezione_13.html
 ---
 
-# 📘 Lezione 13 - Amplificatori, Oscillatori e Decibel
+# 📘 Lezione 12 - Trasduttori, Miscelatori e Trasmettitori
 
 ## 📌 Panoramica
 
-- **Materia**: Radiotecnica — Amplificatori, Oscillatori e Decibel
-- **Tempo di studio stimato**: 90–110 minuti
-- **Prerequisiti**: Conoscenza di transistor, FET, MOSFET, valvole termoioniche (Lezione 12); circuiti risonanti e quarzi (Lezione 06); diodi e alimentatori (Lezione 11)
+- **Materia**: Radiotecnica — Trasduttori, Miscelatori, Trasmettitori e Intermodulazione
+- **Tempo di studio stimato**: 100–120 minuti
+- **Prerequisiti**: Oscillatori e PLL (Lezione 12); classi di amplificazione e decibel (Lezione 12); modulazione AM/SSB/FM (Lezione 07); circuiti risonanti e filtri (Lezione 06); diodi varicap (Lezione 11)
 - **Obiettivi di apprendimento**:
-  - Distinguere amplificatori a bassa frequenza (BF) e ad alta frequenza (AF)
-  - Comprendere guadagno, rendimento e le quattro classi di amplificazione (A, B, C, AB)
-  - Capire il principio di funzionamento degli oscillatori (retroazione positiva)
-  - Conoscere le tre tipologie di oscillatori: libero (VFO), a quarzo, ad aggancio di fase (PLL)
-  - Padroneggiare l'uso pratico dei decibel con i "mattoncini" +3 dB e +10 dB
-  - Comprendere la differenza tra dB (misura relativa) e dBm (misura assoluta)
+  - Conoscere i tipi di trasduttori: microfoni (carbone, cristallo, condensatore, dinamico) e altoparlanti
+  - Comprendere il funzionamento del miscelatore (mixer): frequenza somma e differenza
+  - Conoscere lo schema a blocchi dei trasmettitori in CW, SSB, AM e FM
+  - Capire la conversione di frequenza e il suo ruolo nei trasmettitori multibanda
+  - Comprendere il problema dell'intermodulazione e degli splatter
 
 ---
 
 ## 📖 Contenuti Teorici
 
-### 1. 🔍 Correzione Quiz Lezione 12 (⏱ 00:02–18:00)
+### 1. 🔍 Correzione Quiz Lezione 12 (⏱ 00:03–12:30)
 
-Paolo e Silvio IZ5DIY aprono la lezione con la correzione del quiz della settimana precedente, dedicato a transistor, FET e valvole termoioniche. I risultati sono generalmente buoni, con la maggior parte dei partecipanti tra l'80% e il 100%.
+Paolo apre la lezione con la correzione del quiz precedente, dedicato ad amplificatori, oscillatori e decibel. Risultati molto buoni, con qualche difficoltà solo sulla domanda relativa ai −6 dB.
 
 #### 🔹 Risposte Chiave e Chiarimenti
 
-- **Transistor bipolare**: ha **2 giunzioni** (non 1 come il diodo). Il diodo ha una sola giunzione P-N, il transistor ne ha due (N-P-N o P-N-P).
-- **FET**: l'impedenza di ingresso è **alta** perché è pilotato in tensione e non richiede corrente al gate.
-- **Diodo Zener**: è un **diodo**, non un transistor. Lavora in polarizzazione inversa per stabilizzare la tensione.
-- **Valvola termoionica**: necessita di **tensioni elevate** (centinaia di volt) per funzionare, a differenza dei transistor.
-- **Impedenza d'ingresso di un amplificatore**: deve essere **alta** per non "caricare" lo stadio precedente, cioè per non assorbire troppa corrente dal circuito che lo alimenta.
-- **Emettitore comune**: configurazione con impedenza d'ingresso **media** (non alta come il collettore comune).
-- **Filamento** nelle valvole: ha il compito di **scaldare il catodo** (nel riscaldamento indiretto).
-- **Tetrodo**: possiede **2 griglie** (griglia controllo + griglia schermo).
-- **Pentodo**: la griglia soppressore serve a **sopprimere la corrente inversa** (emissione secondaria dall'anodo).
-- **Griglia di controllo**: controlla il flusso di corrente tra catodo e anodo.
-- **Pentodo**: ha **5 elettrodi** (catodo, griglia controllo, griglia schermo, griglia soppressore, anodo) + **2 terminali per il filamento** = **7 terminali** totali.
+- **Maggior rendimento**: amplificatore in **classe C** (70–75%). Se assorbe 100 W dall'alimentatore, 75 W diventano RF e solo 25 W in calore.
+- **Primo stadio BF** in un trasmettitore per amplificare il segnale microfonico: funziona in **classe A** (totale fedeltà). Regola generale: tutti gli stadi a basso livello (bassa potenza) lavorano in classe A.
+- **Alto rendimento senza vincoli sulla distorsione**: **classe C**. Adatta per telegrafia (CW) dove il segnale è una sinusoide pura on/off.
+- **Distorsione minore**: **classe A** (mnemonica: A = Alta fedeltà).
+- **PLL**: circuito che confronta la frequenza del VCO con un riferimento a quarzo e produce una tensione di correzione.
+- **Cosa distingue le classi**: l'**angolo di conduzione** del segnale in uscita (360° classe A, ~180° classe B, <180° classe C).
+- **Push-pull**: alto rendimento e bassa distorsione (due dispositivi in classe B che ricostruiscono il segnale completo).
+- **1 W + 13 dB**: 13 = 10 + 3 → ×10 = 10 W, ×2 = **20 W**.
+- **100 W + antenna (+4 dB) − cavo (−1 dB)**: guadagno netto = +3 dB → **200 W**.
+- **100 W − cavo (−6 dB)**: −6 = −3 −3 → 100 × 0,5 = 50, × 0,5 = **25 W** (situazione classica — investire in un buon cavo!).
+- **Modifica frequenza oscillatore variabile**: **diodo varicap** (condensatore variabile elettronico, polarizzazione inversa).
 
 ---
 
-### 2. 📡 Amplificatori: Concetti Generali (⏱ 18:45–32:00)
+### 2. 🎙️ Trasduttori: Microfoni e Altoparlanti (⏱ 15:00–30:00)
 
-Paolo introduce gli amplificatori ricordando che all'esame è richiesta la conoscenza a livello di **schema a blocchi** (scatolette nere), non a livello di singoli componenti. L'amplificatore è un dispositivo che riceve un segnale debole in ingresso e produce un segnale più forte in uscita.
+I trasduttori sono i componenti che interfacciano il mondo esterno (onde acustiche) con il mondo elettrico (segnali elettrici della radio).
 
-#### 🔹 Amplificatori BF e AF
+#### 🔹 Il Microfono
+<div align="center"><img src="../assets/images/lezioni/lezione_13/slide-02.jpg" alt="Microfono" width="50%"></div><br>
 
-Esistono due grandi categorie di amplificatori, distinte per la banda di frequenza operativa:
 
-**Amplificatore BF (Bassa Frequenza)** — amplificatore che opera nella banda audio (circa 20 Hz – 18.000 Hz). Non utilizza circuiti risonanti perché deve amplificare uniformemente tutte le frequenze della banda audio. Tipico impiego: stadi finali di ricevitori, impianti Hi-Fi.
+**Microfono** — trasduttore che trasforma un'onda acustica (vibrazione meccanica) in un segnale elettrico.
 
-**Amplificatore AF/RF (Alta Frequenza)** — amplificatore che opera a frequenze radio elevate. Utilizza **circuiti risonanti** in ingresso e/o in uscita per ottenere **selettività**, cioè per amplificare solo una banda stretta di frequenze centrata sulla frequenza di risonanza. La **curva di risposta** mostra un picco alla frequenza di risonanza e un'attenuazione via via maggiore allontanandosi da essa.
+Esistono quattro tipi principali di microfoni:
 
-⚠️ La distinzione fondamentale: gli amplificatori BF amplificano un'ampia gamma di frequenze in modo uniforme, quelli AF amplificano selettivamente grazie ai circuiti risonanti.
+**Microfono a carbone** — sfrutta la variazione di conduttività di granuli di carbone compressi. La voce fa vibrare una lamina metallica che comprime e dilata i granuli, variandone la resistenza. Molto storico, usato nei vecchi telefoni (SIP). Adatto alla voce ma non ad alta fedeltà, non sale particolarmente in frequenza. Oggi raramente usato se non in apparati vintage.
 
-#### 🔹 Fattore di Amplificazione o Guadagno
+**Microfono a cristallo (ceramico)** — sfrutta l'**effetto piezoelettrico** del quarzo. La voce fa vibrare una lamina che comprime un piccolo cristallo, che genera una tensione proporzionale all'intensità del suono. Molto adatto all'uso radio perché enfatizza i toni acuti della voce, rendendo il segnale più comprensibile in condizioni di disturbo e segnali deboli. Non è alta fedeltà, ma eccelle nelle comunicazioni.
 
-**Guadagno (o fattore di amplificazione)** — rapporto tra il segnale in uscita e il segnale in ingresso di un amplificatore. I termini "guadagno" e "fattore di amplificazione" sono sinonimi.
+**Microfono a condensatore** — contiene un condensatore con un'armatura fissa e una mobile (membrana). La voce fa vibrare la membrana, variando la distanza tra le armature e quindi la capacità. Un circuito converte la variazione di capacità in tensione. È il microfono di **migliore qualità** (alta fedeltà). Richiede **alimentazione** (Phantom power) per il circuito interno.
 
-Il guadagno può essere espresso:
+**Microfono dinamico** — funziona come un altoparlante al contrario: la voce fa vibrare una membrana collegata a una bobina mobile immersa nel campo magnetico di un magnete permanente. Il movimento della bobina genera una tensione. Buona fedeltà, secondo solo al condensatore. Molto usato per il canto e applicazioni generiche.
 
-- **In potenza**: $G_P = \frac{P_{out}}{P_{in}}$
-- **In tensione**: $G_V = \frac{V_{out}}{V_{in}}$
+⚠️ Attenzione alla distinzione: i microfoni **preamplificati** (con batteria interna) usano spesso capsule ceramiche o dinamiche — la batteria alimenta il preamplificatore, non il microfono. Nei microfoni a condensatore, invece, l'alimentazione serve al microfono stesso oltre che al preamplificatore.
 
-> Esempio: un amplificatore che con 1 W in ingresso produce 15 W in uscita ha un guadagno di 15 volte (in potenza).
+#### 🔹 L'Altoparlante
+<div align="center"><img src="../assets/images/lezioni/lezione_13/slide-03.jpg" alt="Altoparlante" width="50%"></div><br>
 
-Il guadagno viene spesso espresso in **decibel** (dB) come vedremo più avanti nella lezione.
 
-#### 🔹 Rendimento
+**Altoparlante** — trasduttore che trasforma un segnale elettrico in un'onda acustica (funzione reciproca del microfono).
 
-**Rendimento (η)** — rapporto percentuale tra la potenza utile in uscita e la potenza totale assorbita dall'alimentazione.
+Funzionamento basato sull'interazione tra due campi magnetici:
 
-$$\eta = \frac{P_{uscita}}{P_{alimentazione}} \times 100\%$$
+1. Un **magnete permanente** crea un campo magnetico costante
+2. Una **bobina mobile** inserita nella cavità del magnete permanente riceve il segnale elettrico
+3. La corrente nella bobina genera un campo magnetico variabile
+4. L'interazione tra i due campi (attrazione/repulsione) muove la bobina
+5. La bobina è collegata a un **cono** che riproduce le vibrazioni nell'aria → suono
 
-La differenza tra la potenza assorbita dall'alimentatore e la potenza effettivamente presente in uscita si trasforma in **calore**. Ecco perché gli amplificatori con rendimento basso necessitano di dissipatori (radiatori) o ventole per smaltire il calore.
-
-> Esempio: se un amplificatore eroga 100 W in uscita e assorbe 200 W dall'alimentatore, il rendimento è 50%. I restanti 100 W vengono dissipati in calore — l'amplificatore "diventa una stufetta".
-
----
-
-### 3. 📊 Classi di Amplificazione (⏱ 32:00–66:00)
-
-Le classi di amplificazione definiscono per quale porzione del ciclo del segnale il dispositivo attivo conduce corrente. Si distinguono per la posizione del **punto di lavoro** (punto di polarizzazione) sulla curva caratteristica del dispositivo.
-
-#### 🔹 Classe A
-
-**Classe A** — classe di amplificazione in cui la corrente nel dispositivo scorre per **l'intero periodo** (360°) del segnale.
-
-Il punto di lavoro è posizionato nella **zona lineare** della curva caratteristica, ben lontano sia dalla zona di saturazione che da quella di interdizione. Il segnale viene amplificato in modo **molto fedele**, con distorsione minima.
-
-- **Angolo di conduzione**: 360° (intero ciclo)
-- **Rendimento**: molto basso, tipicamente **5–20%**
-- **Linearità**: eccellente, riproduzione molto fedele del segnale
-- **Applicazioni**: amplificatori per piccoli segnali, ricevitori, apparecchiature Hi-Fi, amplificatori per cuffia
-- **Svantaggio principale**: la maggior parte della potenza assorbita si trasforma in calore
-
-> Paolo racconta che in Hi-Fi esistono splendidi amplificatori in classe A per cuffia (2-3 W), dove il basso rendimento non è un problema perché le potenze sono molto ridotte. Per potenze maggiori, il calore diventa critico.
-
-#### 🔹 Classe B
-
-**Classe B** — classe di amplificazione in cui la corrente nel dispositivo scorre solo per **metà periodo** (180°) del segnale.
-
-Il punto di lavoro è posizionato vicino alla zona di **interdizione** (cut-off). Il dispositivo conduce solo durante un semiperiodo; durante l'altro semiperiodo è spento. Il segnale in uscita è una **mezza sinusoide** — fortemente distorto se usato singolarmente.
-
-- **Angolo di conduzione**: 180° (mezzo ciclo)
-- **Rendimento**: circa **60%**
-- **Linearità**: segnale distorto (solo metà dell'onda)
-- **Soluzione**: configurazione **push-pull** (o **controfase**)
-
-**Push-pull (controfase)** — configurazione circuitale che utilizza **due dispositivi in classe B** complementari: uno amplifica la semionda positiva, l'altro la semionda negativa. I due segnali vengono poi ricombinati per ricostruire la **sinusoide completa**.
-
-⚠️ **Distorsione di crossover** — nel punto di raccordo tra le due semionde amplificate dai due dispositivi si può verificare una piccola distorsione dovuta alla non perfetta giunzione dei due segnali. Questo è il principale svantaggio del push-pull in classe B.
-
-#### 🔹 Classe C
-
-**Classe C** — classe di amplificazione in cui la corrente scorre per **meno di metà periodo** (tipicamente 70°–80°).
-
-Il dispositivo conduce solo per una piccola frazione del ciclo, amplificando solo i "picchi" del segnale. Il segnale in uscita è **molto distorto**.
-
-- **Angolo di conduzione**: < 180° (tipicamente 70°–80°)
-- **Rendimento**: **70–75%** (il più alto tra le classi tradizionali)
-- **Linearità**: pessima — segnale molto distorto
-- **Applicazioni**: **solo FM e CW (telegrafia)** dove non serve linearità in ampiezza
-- **Funzionamento**: si utilizza un **circuito risonante (carico risonante)** in uscita che "rigenera" la sinusoide completa a partire dagli impulsi amplificati
-
-> La classe C non può essere usata per SSB o AM perché queste modulazioni richiedono la conservazione delle variazioni di ampiezza.
-
-#### 🔹 Classe AB
-
-**Classe AB** — classe di amplificazione intermedia tra A e B, in cui la corrente scorre per **più di metà periodo** ma non per tutto il ciclo.
-
-- **Angolo di conduzione**: circa **220°–240°**
-- **Rendimento**: **50–60%**
-- **Linearità**: buon compromesso, abbastanza fedele
-- **Applicazioni**: **amplificatori finali dei trasmettitori** sia a valvole che a stato solido (MOSFET, LDMOS)
-
-Paolo spiega che nei tipici amplificatori a MOSFET o LDMOS, il dispositivo viene polarizzato con una **corrente di riposo (bias)** pari a circa il **10–15%** della corrente massima di trasmissione. Ad esempio, se in trasmissione il MOSFET consuma 5 A, la corrente di bias sarà di 500–700 mA.
-
-#### 🔹 Tabella Riassuntiva delle Classi
-
-| Classe | Angolo di conduzione  | Fedeltà riproduzione       | Rendimento | Impiego tipico                       |
-| ------ | --------------------- | -------------------------- | ---------- | ------------------------------------ |
-| **A**  | 360° (intero periodo) | Molto fedele               | 5–20%      | Ricevitori, Hi-Fi, piccoli segnali   |
-| **AB** | ~220°–240°            | Abbastanza fedele          | 50–60%     | Finali TX valvolari e a stato solido |
-| **B**  | 180° (mezzo periodo)  | Lineare solo con push-pull | ~60%       | Push-pull, controfase                |
-| **C**  | < 180° (~70°–80°)     | Non lineare                | 70–75%     | Solo FM e CW, con carico risonante   |
+Il microfono dinamico è essenzialmente un altoparlante usato al rovescio.
 
 ---
 
-### 4. 📻 Oscillatori (⏱ 66:28–83:42)
+### 3. 🔄 Miscelatori (Mixer) (⏱ 30:48–35:30)
 
-L'oscillatore è un altro dei "blocchi funzionali" (scatolette nere) fondamentali, presente sia nei trasmettitori che nei ricevitori. Il suo compito è **generare un segnale** a una determinata frequenza.
+**Miscelatore (mescolatore, mixer)** — componente con **due ingressi e un'uscita** che combina due segnali a frequenze diverse producendo in uscita la frequenza somma e la frequenza differenza.
 
-#### 🔹 Principio di Funzionamento: la Retroazione
+I tre termini (miscelatore, mescolatore, mixer) sono sinonimi e compaiono tutti nelle domande d'esame.
 
-**Retroazione (feedback)** — meccanismo per cui una parte del segnale di uscita viene riportata all'ingresso dell'amplificatore.
+#### 🔹 Funzionamento
+<div align="center"><img src="../assets/images/lezioni/lezione_13/slide-05.jpg" alt="Miscelatore" width="50%"></div><br>
 
-Tutti gli oscillatori funzionano sul principio della **retroazione positiva**:
 
-1. All'accensione, il dispositivo amplificatore (FET, transistor) raccoglie il **rumore intrinseco** presente in ingresso
-2. Questo piccolo segnale di rumore viene **amplificato** e si ritrova in uscita
-3. Una parte del segnale di uscita viene **riportata all'ingresso** tramite un circuito di retroazione
-4. Il segnale ritorna all'ingresso leggermente più forte, viene riamplificato, torna in uscita ancora più forte…
-5. Il processo continua finché non si raggiunge una **condizione di oscillazione stabile** con ampiezza costante
+Se i due segnali in ingresso hanno frequenza $f_1$ e $f_2$, in uscita si trovano **contemporaneamente**:
 
-Per ottenere una **frequenza precisa**, nel percorso di retroazione si inserisce un **circuito risonante LC** o un **quarzo**, che fa sì che il meccanismo funzioni efficacemente solo alla frequenza di risonanza.
+- **Frequenza somma**: $f_1 + f_2$
+- **Frequenza differenza**: $f_1 - f_2$
 
-#### 🔹 Tre Tipologie di Oscillatori
+> **Esempio**: $f_1 = 10$ MHz, $f_2 = 2$ MHz → in uscita: 12 MHz (somma) e 8 MHz (differenza).
 
-##### Oscillatore Libero (VFO)
+Il miscelatore è fondamentale per la **conversione di frequenza** sia nei trasmettitori che nei ricevitori. Si seleziona poi il segnale desiderato (somma o differenza) mediante un filtro passa-banda con circuiti risonanti.
 
-**VFO (Variable Frequency Oscillator)** — oscillatore a frequenza variabile, che utilizza un circuito LC (bobina + condensatore) nel percorso di retroazione.
-
-- **Vantaggio**: la frequenza può essere variata modificando il condensatore variabile → utile per la sintonia
-- **Svantaggio**: **stabilità limitata** — la frequenza può variare con la temperatura, le vibrazioni meccaniche e altri fattori
-- **Esempio**: schema con FET dove il segnale dal gate viene amplificato, esce sul drain, e tramite un condensatore e una bobina (circuito LC) viene riportato al gate
-- Se si progetta un circuito LC che risuona a 9 MHz, l'oscillatore genera un segnale di uscita a 9 MHz
-
-##### Oscillatore a Quarzo
-
-**Oscillatore a quarzo** — oscillatore che utilizza un cristallo di quarzo nel percorso di retroazione, al posto del circuito LC.
-
-- **Vantaggio**: **stabilità altissima** — il quarzo ha un fattore di qualità Q di circa 10.000 (rispetto ai 100–150 di un circuito LC normale), quindi tiene l'oscillatore molto "fermo" sulla frequenza
-- **Svantaggio**: opera a **frequenza fissa** (la frequenza del quarzo)
-- **Armoniche**: è possibile far oscillare un quarzo non solo alla frequenza fondamentale, ma anche alle **armoniche dispari** (3ª, 5ª, 7ª armonica). Es.: da un quarzo a 9 MHz si possono generare 27 MHz (3ª armonica), 45 MHz (5ª armonica), ecc.
-
-##### Oscillatore ad Aggancio di Fase (PLL)
-
-**PLL (Phase Locked Loop)** — circuito oscillatore che combina la **variabilità** di un oscillatore libero con la **stabilità** di un riferimento a quarzo.
-
-Il PLL è la tipologia usata nella quasi totalità dei ricetrasmettitori moderni. All'interno contiene **due oscillatori**:
-
-1. **VCO (Voltage Controlled Oscillator)** — oscillatore controllato in tensione che genera il segnale di uscita. La frequenza è regolata tramite **diodi varicap** (condensatori variabili elettronici) al posto della manopola meccanica.
-2. **Oscillatore di riferimento a quarzo** — fornisce la frequenza stabile di riferimento.
-
-**Funzionamento del PLL**:
-
-1. Il VCO genera il segnale alla frequenza desiderata
-2. Il segnale di uscita viene prelevato e inviato a un **comparatore di fase**
-3. Il comparatore confronta la fase del segnale del VCO con quella dell'oscillatore di riferimento
-4. Se il VCO si allontana dalla frequenza corretta, il comparatore genera una **tensione di errore**
-5. Questa tensione, dopo un **filtro passa-basso** (per ottenere una tensione continua priva di ondulazioni), va a modificare la polarizzazione dei varicap del VCO
-6. I varicap correggono la frequenza del VCO → **anello di retroazione chiuso**
-
-**Filtro passa-basso nel PLL**: serve a ottenere una tensione continua perfettamente piatta. Se il segnale di errore avesse un'ondulazione residua, questa si trasformerebbe in **modulazione di frequenza indesiderata** del VCO.
-
-> Paolo usa l'espressione "botte piena e moglie ubriaca" per descrivere il PLL: si ottiene contemporaneamente la stabilità del quarzo e la variabilità in frequenza dell'oscillatore libero.
-
-#### 🔹 Confronto tra le Tipologie
-
-| Caratteristica  | VFO (Libero)               | Quarzo                   | PLL                         |
-| --------------- | -------------------------- | ------------------------ | --------------------------- |
-| **Frequenza**   | Variabile                  | Fissa                    | Variabile                   |
-| **Stabilità**   | Bassa                      | Altissima                | Alta (agganciata al quarzo) |
-| **Impiego**     | Sintonia vecchi ricevitori | Riferimenti di frequenza | Ricetrasmettitori moderni   |
-| **Complessità** | Semplice                   | Semplice                 | Complesso                   |
+Dal punto di vista pratico, un **MOSFET a doppio gate** funziona già come miscelatore: iniettando i due segnali nei due gate, in uscita (drain) si ottengono somma e differenza.
 
 ---
 
-### 5. 📈 I Decibel (dB) (⏱ 83:48–110:14)
+### 4. 📡 Schema Generale del Trasmettitore (⏱ 35:30–40:00)
+<div align="center"><img src="../assets/images/lezioni/lezione_13/slide-09.jpg" alt="Blocchi base del trasmettitore" width="50%"></div><br>
 
-L'ultimo argomento della lezione è il **decibel**, un'unità di misura fondamentale nell'elettronica e nella radiotecnica. Paolo lo introduce come un concetto che "sembra complicato ma in pratica è di una banalità estrema".
 
-#### 🔹 Cos'è il Decibel
+Il trasmettitore è un dispositivo che trasforma l'informazione (voce, dati, immagini) in un segnale irradiabile da un'antenna. Lo schema a blocchi generale comprende:
 
-**Decibel (dB)** — unità di misura logaritmica usata per esprimere rapporti tra grandezze (potenze, tensioni). Il simbolo è **dB** (d minuscola, B maiuscola). Il nome significa "un decimo di Bell", dal cognome di Alexander Graham Bell.
-
-Il decibel è usato ovunque in radiotecnica:
-
-- **Guadagno delle antenne**: es. "antenna direzionale da 5 dB di guadagno"
-- **Attenuazione dei cavi coassiali**: es. "1,2 dB di attenuazione ogni 10 m"
-- **Guadagno degli amplificatori**: es. "amplificatore da 13 dB"
-- **Scale S-meter dei ricevitori**: S1, S2, … S9, S9+10 dB, S9+20 dB, S9+30 dB
-
-#### 🔹 Perché i Logaritmi
-
-Paolo offre una parentesi storica: i **logaritmi** furono inventati nel 1600 per semplificare i calcoli. Prima delle calcolatrici, fare moltiplicazioni come 10.327 × 4.322 era un "bagno di sangue". Il logaritmo ha la proprietà fondamentale di **trasformare le moltiplicazioni in somme** e le **divisioni in sottrazioni**, rendendo i calcoli enormemente più semplici.
-
-**Logaritmo in base 10** — il logaritmo in base 10 di un numero è l'esponente a cui va elevato 10 per ottenere quel numero:
-
-- $\log_{10}(10) = 1$ perché $10^1 = 10$
-- $\log_{10}(100) = 2$ perché $10^2 = 100$
-- $\log_{10}(1000) = 3$ perché $10^3 = 1000$
-
-La formula completa del guadagno in decibel è:
-
-$$G_{dB} = 10 \cdot \log_{10}\left(\frac{P_{out}}{P_{in}}\right)$$
-
-⚠️ Ai fini dell'esame **non è necessario** conoscere la formula matematica né saper calcolare logaritmi. Basta padroneggiare i "mattoncini" fondamentali.
-
-#### 🔹 I Due Mattoncini Fondamentali
-
-Per risolvere **tutti** i problemi d'esame servono solo **4 valori** da memorizzare (2 coppie):
-
-| dB         | Rapporto in potenza | Significato                 |
-| ---------- | ------------------- | --------------------------- |
-| **+3 dB**  | ×2                  | Raddoppio della potenza     |
-| **+10 dB** | ×10                 | Potenza moltiplicata per 10 |
-| **−3 dB**  | ×0,5                | Dimezzamento della potenza  |
-| **−10 dB** | ×0,1                | Potenza ridotta a un decimo |
-
-Con questi mattoncini si costruiscono tutti gli altri valori:
-
-- **+6 dB** = +3 +3 → ×2 × 2 = **×4**
-- **+20 dB** = +10 +10 → ×10 × 10 = **×100**
-- **+30 dB** = +10 +10 +10 → ×10 × 10 × 10 = **×1.000**
-- **−6 dB** = −3 −3 → ×0,5 × 0,5 = **×0,25**
-- **−20 dB** = −10 −10 → ×0,1 × 0,1 = **×0,01 (un centesimo)**
-- **−30 dB** = −10 −10 −10 → **×0,001 (un millesimo)**
-
-> **Regola pratica**: ogni +10 dB aggiunge uno zero (moltiplica per 10), ogni −10 dB toglie uno zero (divide per 10); +3 dB raddoppia, −3 dB dimezza.
-
-#### 🔹 Il Segno del Decibel
-
-- **dB positivo** (+dB) → si riferisce a un **guadagno** (amplificazione): il segnale in uscita è più forte di quello in ingresso
-- **dB negativo** (−dB) → si riferisce a un'**attenuazione**: il segnale in uscita è più debole di quello in ingresso
-
-#### 🔹 Amplificatori in Cascata: Somma dei dB
-
-Quando più amplificatori (o attenuatori) sono collegati **in cascata** (in serie), il guadagno totale in dB è semplicemente la **somma** dei guadagni dei singoli stadi:
-
-$$G_{totale} = G_1 + G_2 + G_3 + \ldots$$
-
-> **Esempio 1**: Amplificatore 1 guadagna +10 dB, Amplificatore 2 guadagna +20 dB. Guadagno totale = 10 + 20 = **+30 dB**. Se entrano 1 W: dopo il primo stadio → 10 W; dopo il secondo stadio → 10 × 10 × 10 = 1.000 W.
-
-> **Esempio 2**: 7 W in ingresso a un amplificatore da +30 dB. Risultato: 7 → 70 → 700 → 7.000 W.
-
-#### 🔹 Esempio Pratico d'Esame: da 5 W a 100 W
-
-Problema: un amplificatore di potenza deve fornire 100 W all'antenna a partire dai 5 W del trasmettitore. Quale guadagno in dB è necessario?
-
-**Soluzione** usando i mattoncini:
-
-1. 5 W → **+3 dB** (raddoppio) → 10 W
-2. 10 W → **+10 dB** (×10) → 100 W
-3. Guadagno totale: 3 + 10 = **13 dB**
-
-Per raddoppiare ulteriormente a 200 W: basta aggiungere **+3 dB** → totale **16 dB**.
-
-#### 🔹 Esempio con Catena di Trasmissione
-
-Problema tipico d'esame: trasmettitore da 100 W, cavo coassiale che attenua −6 dB, antenna con guadagno +9 dB. Quale potenza viene effettivamente irradiata?
-
-**Soluzione**:
-
-1. Guadagno totale della catena: +9 dB (antenna) − 6 dB (cavo) = **+3 dB**
-2. Potenza irradiata: 100 W × 2 = **200 W** effettivamente irradiati (ERP)
-
-#### 🔹 Decibel come Misura Relativa vs Assoluta
-
-Il decibel è per natura una **misura relativa**: esprime un rapporto tra due grandezze, non un livello assoluto. Dire "3 dB" non indica una potenza specifica, ma che un segnale è il doppio di un altro.
-
-Per trasformare il dB in **misura assoluta** si usa un riferimento fisso.
-
-**dBm (decibel riferiti al milliwatt)** — unità di misura assoluta in cui **0 dBm = 1 mW** per definizione.
-
-| dBm     | Potenza corrispondente |
-| ------- | ---------------------- |
-| −10 dBm | 0,1 mW                 |
-| −3 dBm  | 0,5 mW                 |
-| 0 dBm   | 1 mW (definizione)     |
-| +3 dBm  | 2 mW                   |
-| +10 dBm | 10 mW                  |
-| +13 dBm | 20 mW                  |
-| +20 dBm | 100 mW                 |
-| +30 dBm | 1.000 mW = 1 W         |
-| +50 dBm | 100 W                  |
-
-> Esempio: +13 dBm = +10 +3 → 1 mW × 10 = 10 mW, poi × 2 = 20 mW. Oppure: +3 +10 → 1 mW × 2 = 2 mW, poi × 10 = 20 mW. Il risultato è identico.
-
-I dBm sono molto usati nella strumentazione radio, ad esempio nei **VNA** (Vector Network Analyzer) e nelle misure sulle antenne.
+1. **Oscillatore** — genera un segnale RF (es. 14 MHz), potenza molto bassa (pochi milliwatt)
+2. **Driver (pilota)** — catena di amplificatori in **classe A** che amplifica il segnale dell'oscillatore fino alla potenza necessaria per pilotare il finale (es. ~10 W)
+3. **Amplificatore finale** — tipicamente **push-pull in classe AB**, amplifica fino alla potenza di uscita desiderata (es. 100 W)
+4. **Accordatore d'antenna** — adatta l'impedenza di uscita dell'amplificatore a quella dell'antenna (standard **50 Ω**) per il massimo trasferimento di potenza
+5. **Modulatore** — riceve il segnale microfonico amplificato e lo applica alla catena in un punto appropriato (diverso a seconda del tipo di modulazione)
+6. **Alimentatore** — fornisce corrente a tutti i blocchi
 
 ---
 
-### 6. 💬 Discussioni e Aneddoti Pratici
+### 5. 📻 Trasmettitore in Telegrafia (CW) (⏱ 40:49–54:00)
 
-#### 🔹 Amplificatori Hi-Fi e Classi
+#### 🔹 Schema CW a Singola Frequenza
+<div align="center"><img src="../assets/images/lezioni/lezione_13/slide-12.jpg" alt="Trasmettitore CW semplice" width="50%"></div><br>
 
-Un partecipante chiede perché in alta fedeltà vengano spesso pubblicizzati amplificatori "classe AB" quando la classe A sarebbe superiore per fedeltà. Paolo conferma che per l'alta fedeltà la classe A è effettivamente migliore, ma il suo basso rendimento ne limita l'uso a potenze ridotte (es. amplificatori per cuffia da 2-3 W). Il marketing di amplificatori "classe AB" va preso con cautela.
 
-#### 🔹 MOSFET in Classe AB e Corrente di Bias
+Il trasmettitore CW più semplice:
 
-Marco Morelli conferma di possedere un amplificatore a MOSFET che lavora in classe AB. Paolo spiega che la maggior parte degli amplificatori MOSFET e LDMOS lavorano effettivamente in AB con una corrente di riposo (bias) del 10-15% della corrente massima. Marco racconta un aneddoto: spolverando la radio ha accidentalmente aumentato il bias al 70-80%, rischiando di bruciare l'amplificatore.
+- **Oscillatore a cristallo** (Xtal) → frequenza fissa (es. 14 MHz)
+- **Amplificatore di potenza**
+- **Tasto telegrafico** → interruttore che accende/spegne uno stadio a basso livello
 
-#### 🔹 Transistor Falsi e Riparazione Amplificatori
+Schema didattico; limite: trasmette su una sola frequenza.
 
-Un partecipante racconta la sua esperienza con transistor 2N3055 contraffatti acquistati online: misurati col tester risultavano buoni, ma una volta installati andavano in cortocircuito e prendevano fuoco. Aprendo i contenitori, si scopriva che all'interno c'era una microgiunzione da mezzo ampere invece del dispositivo originale. Dopo tre tentativi falliti, ha rinunciato alla riparazione dell'amplificatore NAD.
+#### 🔹 Schema CW Multibanda con Conversione di Frequenza
+<div align="center"><img src="../assets/images/lezioni/lezione_13/slide-13.jpg" alt="Trasmettitore multibanda con miscelatore" width="50%"></div><br>
+
+
+Per trasmettere su più bande si usa la **conversione di frequenza**:
+
+- **VFO** (oscillatore a frequenza variabile) a bassa frequenza (es. 5–5,5 MHz) → più stabile che ad alta frequenza
+- **Oscillatore a cristallo** fisso → fornisce la frequenza di "battimento"
+- **Mixer** → combina VFO + cristallo per ottenere la frequenza desiderata
+
+> **Esempio**: VFO a 5 MHz + cristallo a 23 MHz → uscita a 28 MHz (banda 10 m). VFO a 5,5 MHz + cristallo a 9 MHz → uscita a 3,5 MHz (banda 80 m). Un unico VFO con diversi cristalli copre tutte le bande.
+
+#### 🔹 Circuito di Accordo (Pi-Greco)
+<div align="center"><img src="../assets/images/lezioni/lezione_13/slide-15.jpg" alt="Circuito Pi-greco" width="50%"></div><br>
+
+
+**Circuito pi-greco (π)** — circuito di adattamento d'impedenza formato da 2 condensatori variabili e 1 induttore, con forma che ricorda la lettera greca π. Adatta l'impedenza di uscita del trasmettitore ai 50 Ω dell'antenna.
+
+Quando le impedenze sono uguali → **massimo trasferimento di potenza**.
+
+#### 🔹 Click di Manipolazione
+<div align="center"><img src="../assets/images/lezioni/lezione_13/slide-16.jpg" alt="Click di manipolazione" width="50%"></div><br>
+
+
+**Click di manipolazione** — disturbo causato dai fronti troppo ripidi dell'accensione/spegnimento del segnale CW. L'interruzione brusca (on/off istantaneo) allarga la banda del segnale, disturbando i canali adiacenti.
+
+**Soluzione**: circuito di **smussamento** (shaping) che rende graduali le transizioni di potenza:
+
+- **Salita progressiva** all'inizio di ogni punto/linea (rise time)
+- **Discesa progressiva** alla fine (fall time)
+
+Il segnale "smussato" non genera click. Questo circuito opera a basso livello (pochi mW), dove è più facile da realizzare.
+
+---
+
+### 6. 📻 Trasmettitore SSB (⏱ 58:30–88:00)
+<div align="center"><img src="../assets/images/lezioni/lezione_13/slide-21.jpg" alt="Schema a blocchi trasmettitore SSB" width="50%"></div><br>
+
+
+Il trasmettitore **SSB (Single Side Band)** è più complesso del CW ma segue una logica chiara.
+
+#### 🔹 Generazione del Segnale SSB
+
+1. **Oscillatore a cristallo** — genera la portante a frequenza fissa (tradizionalmente 9 MHz)
+2. **Amplificatore BF** — amplifica il segnale microfonico
+3. **Modulatore bilanciato** — riceve portante + segnale audio:
+   - Genera un segnale a **doppia banda laterale (DSB)**
+   - **Sopprime la portante**: quando non si parla, non esce niente
+4. **Filtro a cristallo (2,5 kHz)** — filtro passa-banda strettissimo che lascia passare **una sola banda laterale**, sopprimendo l'altra → **SSB**
+
+**Modulatore bilanciato** — circuito simile a un mixer che produce somma e differenza delle frequenze di ingresso, ma con la caratteristica aggiuntiva di sopprimere il segnale dell'oscillatore (portante) quando non c'è modulazione.
+
+#### 🔹 Selezione USB/LSB
+
+Poiché il filtro a cristallo è costoso, si usa un **unico filtro** e si commutano **due quarzi** nell'oscillatore (distanziati di circa 3 kHz):
+
+- **Per USB**: il quarzo genera una frequenza appena **sotto** la banda passante del filtro → la banda laterale superiore passa, l'inferiore viene bloccata
+- **Per LSB**: il quarzo genera una frequenza appena **sopra** la banda passante del filtro → la banda laterale inferiore passa, la superiore viene bloccata
+
+La levetta USB/LSB sulla radio semplicemente commuta tra i due quarzi.
+
+#### 🔹 Doppia Conversione di Frequenza
+
+Il segnale SSB è generato a **frequenza fissa** (9 MHz) perché vincolato al filtro a cristallo. Per trasmettere su qualsiasi banda:
+
+1. **Prima conversione** — mixer + **VFO** (es. 5–5,5 MHz): fornisce la copertura di 500 kHz (su questa agisce la manopola di sintonia)
+2. **Seconda conversione** — mixer + **oscillatore a cristallo** commutabile: trasla la banda di 500 kHz sulla banda radioamatoriale desiderata (il selettore di banda commuta i cristalli)
+3. **Amplificatore lineare** finale
+
+---
+
+### 7. 📻 Trasmettitore AM (⏱ 97:00–99:40)
+<div align="center"><img src="../assets/images/lezioni/lezione_13/slide-17.jpg" alt="Generazione Modulazione di Ampiezza" width="50%"></div><br>
+
+
+La modulazione d'ampiezza è la più semplice da realizzare. Il modulatore agisce direttamente sull'**amplificatore finale**, variandone la **tensione di alimentazione** in funzione del segnale microfonico.
+
+- Tensione più alta → più potenza in uscita (picco della modulazione)
+- Tensione più bassa → meno potenza in uscita (minimo della modulazione)
+
+> **Esempio**: amplificatore alimentato nominalmente a 12 V. Con modulazione, la tensione varia da 6 V a 18 V seguendo la voce, e la potenza d'uscita varia di conseguenza.
+
+I blocchi dello schema sono gli stessi del trasmettitore generico, con la modulazione applicata allo stadio finale.
+
+---
+
+### 8. 📻 Trasmettitore FM (⏱ 88:53–95:40)
+
+#### 🔹 Schema a Blocchi
+
+1. **Microfono** + **Amplificatore BF**
+2. **Filtro limitatore**: limita i picchi del parlato (evita eccessiva deviazione) e inserisce la **pre-enfasi** (compensazione preventiva della distorsione del rivelatore FM che attenua gli acuti)
+3. **Modulatore a reattanza** — tipicamente un **diodo varicap** che modifica leggermente la capacità in parallelo al quarzo dell'oscillatore, spostando la frequenza di risonanza in funzione del segnale audio → **modulazione di frequenza**
+4. **Catena di moltiplicatori** — amplificatori non lineari che generano armoniche, con prelievo dell'armonica desiderata (×2, ×3, ×5)
+5. **Amplificatore finale** (può essere in **classe C** per FM, dato che l'ampiezza è costante)
+
+**Modulatore a reattanza** — circuito che modula un componente reattivo (tipicamente un varicap = reattanza capacitiva) per variare la frequenza dell'oscillatore.
+
+#### 🔹 Moltiplicatori e Deviazione di Frequenza
+
+I moltiplicatori moltiplicano sia la frequenza **sia la deviazione** per lo stesso fattore:
+
+$$\text{Se } f_{osc} \times N = f_{uscita}, \quad \text{allora } \Delta f_{osc} \times N = \Delta f_{uscita}$$
+
+> **Esempio**: oscillatore a 14 MHz con deviazione 600 Hz. Moltiplicazione ×10 → uscita a 140 MHz con deviazione 6 kHz.
+
+Questo spiega perché in FM l'oscillatore lavora a frequenza bassa: la deviazione iniziale è piccola e viene poi amplificata dalla catena di moltiplicatori.
+
+#### 🔹 Filtri per Tipo di Emissione
+
+| Tipo di emissione | Larghezza filtro tipica |
+| ----------------- | ----------------------- |
+| CW (telegrafia)   | ~500 Hz                 |
+| SSB               | ~2,5 kHz                |
+| AM                | ~6 kHz                  |
+| FM                | ~10 kHz                 |
+
+---
+
+### 9. 📊 Caratteristiche del Trasmettitore
+
+Un trasmettitore è specificato da:
+
+- **Stabilità di frequenza** — deve restare sulla frequenza impostata
+- **Larghezza di banda** — deve stare entro la banda assegnata (10 kHz per FM, 2,5 kHz per SSB)
+- **Potenza di uscita** — tipicamente 100 W per le radio amatoriali
+- **Rendimento** — rapporto tra potenza RF e potenza assorbita
+- **Deviazione di frequenza** (FM) o **indice di modulazione** (AM)
+
+---
+
+### 10. ⚠️ Intermodulazione e Splatter (⏱ 100:00–121:00)
+
+#### 🔹 Armoniche e Distorsione
+<div align="center"><img src="../assets/images/lezioni/lezione_13/slide-28.jpg" alt="Armoniche flat topping" width="50%"></div><br>
+
+
+Quando un amplificatore è **sovrapilotato** (pilotato oltre la potenza che può erogare), il segnale sinusoidale viene "appiattito" in cima (**flat-topping**). Questa deformazione genera **armoniche**.
+
+**Armonica** — segnale a frequenza multipla della fondamentale. Un segnale a 27 MHz sovrapilotato genera: 2ª armonica (54 MHz), 3ª armonica (81 MHz), ecc.
+
+Caratteristiche dei diversi segnali:
+
+- **Sinusoide pura** → una sola riga in frequenza, **nessuna armonica**
+- **Onda triangolare** → tutte le armoniche (pari e dispari)
+- **Onda quadra** → solo armoniche **dispari** (3ª, 5ª, 7ª)
+- **Sinusoide con flat-topping** → prevalentemente armoniche **dispari**
+
+Le armoniche singole **non sono un problema** perché sono molto lontane dalla fondamentale → facilmente eliminabili con circuiti risonanti o filtri passa-basso in uscita.
+
+#### 🔹 L'Intermodulazione
+
+**Intermodulazione** — comparsa di frequenze indesiderate in uscita dal trasmettitore, non presenti all'ingresso. Si verifica quando sono presenti **contemporaneamente due condizioni**:
+
+1. L'amplificatore è **sovrapilotato** (va in distorsione/flat-topping)
+2. In ingresso ci sono **più segnali** a frequenze diverse (come accade parlando in SSB o AM)
+
+Quando l'amplificatore distorce con più segnali in ingresso ($f_1$ e $f_2$), si comporta come un miscelatore e genera:
+
+- **Somma e differenza** ($f_1 + f_2$, $f_1 - f_2$) → lontane, non problematiche
+- **Prodotti del 3° ordine**: $2f_1 - f_2$ e $2f_2 - f_1$ → **molto vicini** alla frequenza di trasmissione!
+- **Prodotti del 5° ordine**: $3f_1 - 2f_2$, $3f_2 - 2f_1$ → ancora più vicini
+- **Ordini superiori** (7°, 9°…): sempre più componenti indesiderate
+
+> Il "3° ordine" si chiama così perché la somma dei coefficienti è 3 (es. 2+1=3).
+
+#### 🔹 Splatter
+
+**Splatter** — termine usato dai radioamatori per indicare l'allargamento del canale di trasmissione causato dall'intermodulazione. Il segnale "deborda" nei canali adiacenti, disturbando le stazioni vicine in frequenza.
+
+**Dove si verifica**: principalmente in **SSB e AM** (segnali multi-frequenza). **Non** in CW e FM:
+
+- **CW**: una sola frequenza → niente mescolazione tra segnali diversi
+- **FM**: ampiezza costante → la distorsione non produce intermodulazione significativa
+
+**Soluzione**: **non sovrapilotare** l'amplificatore finale. Restare entro l'80–90% della potenza massima. Non amplificare eccessivamente il microfono. Se serve più potenza, usare un amplificatore lineare dimensionato adeguatamente piuttosto che "tirare il collo" a uno sottodimensionato.
+
+> Paolo sottolinea: "È molto meglio avere 300 W puliti che non danno noia a nessuno che 100 W sporchissimi che disturbano a 50 km di distanza."
 
 ---
 
 ## 🔗 Mappa Concettuale
 
-- **Amplificatore** → si classifica in → **BF** (senza circuiti risonanti) o **AF** (con circuiti risonanti)
-- **Guadagno** → è il rapporto → $P_{out}/P_{in}$
-- **Rendimento** → è il rapporto → $P_{out}/P_{alimentazione}$ × 100%
-- **Potenza non convertita** → si trasforma in → **calore**
-- **Classe A** → ha come caratteristica → **massima linearità, minimo rendimento**
-- **Classe B** → necessita di → **push-pull** per ricostruire il segnale completo
-- **Classe C** → richiede → **circuito risonante** in uscita + solo per **FM/CW**
-- **Classe AB** → rappresenta un compromesso tra → **Classe A** e **Classe B**
-- **Oscillatore** → funziona tramite → **retroazione positiva**
-- **Retroazione** → utilizza → **circuito LC** o **quarzo** per determinare la frequenza
-- **VFO** → è → variabile ma poco stabile
-- **Oscillatore a quarzo** → è → stabile ma a frequenza fissa
-- **PLL** → combina → variabilità del VFO + stabilità del quarzo
-- **PLL** → contiene → **VCO** + **oscillatore riferimento a quarzo** + **comparatore di fase**
-- **VCO** → utilizza → **diodi varicap** per variare la frequenza
-- **Decibel** → trasforma → moltiplicazioni in somme
-- **+3 dB** → corrisponde a → raddoppio della potenza
-- **+10 dB** → corrisponde a → potenza × 10
-- **dB** → è misura → relativa
-- **dBm** → è misura → assoluta (riferita a 1 mW)
+- **Trasduttore** → si divide in → **microfono** (acustico→elettrico) e **altoparlante** (elettrico→acustico)
+- **Microfono dinamico** → funziona come → **altoparlante al contrario**
+- **Miscelatore** → produce → **frequenza somma** ($f_1+f_2$) e **frequenza differenza** ($f_1-f_2$)
+- **Miscelatore** → è usato per → **conversione di frequenza** nei trasmettitori
+- **Trasmettitore** → schema generale → oscillatore → driver (classe A) → finale (classe AB) → accordatore
+- **Conversione di frequenza** → permette → copertura **multibanda** con un unico VFO
+- **Trasmettitore CW** → usa → tasto telegrafico + circuito anti-click
+- **Trasmettitore SSB** → genera segnale con → modulatore bilanciato (sopprime portante) + filtro a cristallo (sopprime banda laterale)
+- **Selezione USB/LSB** → avviene cambiando → **quarzo nell'oscillatore** (non il filtro)
+- **Trasmettitore FM** → modula con → modulatore a reattanza (varicap) + catena moltiplicatori
+- **Moltiplicatore** → moltiplica → sia frequenza sia deviazione per lo stesso fattore
+- **Trasmettitore AM** → modula variando → **tensione di alimentazione** del finale
+- **Sovrapilotaggio** → genera → **armoniche** (lontane, filtrabili)
+- **Sovrapilotaggio + segnali multipli** → genera → **intermodulazione** (vicina, non filtrabile!)
+- **Intermodulazione** → causa → **splatter** (allargamento canale, disturbo adiacenti)
 
 ---
 
 ## 📝 Punti Chiave
 
-1. Gli amplificatori si dividono in **BF** (bassa frequenza, senza circuiti risonanti, banda larga) e **AF** (alta frequenza, con circuiti risonanti, selettivi su una frequenza specifica).
+1. I **microfoni** trasformano onde acustiche in segnali elettrici; i quattro tipi sono: carbone (storico), cristallo/ceramico (ottimo per radio, enfatizza acuti), condensatore (migliore qualità, richiede alimentazione) e dinamico (buona fedeltà, funziona come altoparlante al contrario).
 
-2. Il **guadagno** è il rapporto tra potenza di uscita e potenza di ingresso; il **rendimento** è il rapporto tra potenza di uscita e potenza totale assorbita dall'alimentatore — la differenza diventa calore.
+2. Il **miscelatore** (mixer/mescolatore) ha 2 ingressi e 1 uscita: produce contemporaneamente la frequenza somma e la frequenza differenza dei due segnali in ingresso. È il componente chiave per la conversione di frequenza.
 
-3. Esistono quattro classi di amplificazione: **A** (360°, lineare, rendimento 5–20%), **B** (180°, push-pull necessario, rendimento ~60%), **C** (< 180°, solo FM/CW con carico risonante, rendimento 70–75%), **AB** (220–240°, compromesso, rendimento 50–60%).
+3. Lo schema generale del trasmettitore prevede: oscillatore → catena amplificazione (driver classe A) → amplificatore finale (push-pull classe AB) → accordatore d'antenna (adatta a 50 Ω).
 
-4. La classe C non può essere usata con modulazioni che richiedono linearità d'ampiezza (AM, SSB) perché distorce fortemente il segnale — va bene solo per FM e CW che non portano informazione nell'ampiezza.
+4. In CW multibanda, un **VFO a bassa frequenza** + **mixer** + cristalli diversi permette di coprire tutte le bande con un unico oscillatore variabile. I **click di manipolazione** si evitano smussando i transitori on/off.
 
-5. Tutti gli oscillatori funzionano per **retroazione positiva**: parte del segnale d'uscita viene riportata all'ingresso e riamplificata fino a raggiungere un'oscillazione stabile.
+5. Nel trasmettitore SSB, il **modulatore bilanciato** sopprime la portante e il **filtro a cristallo** (2,5 kHz) sopprime la banda laterale indesiderata. La selezione USB/LSB avviene commutando il quarzo dell'oscillatore, non cambiando filtro.
 
-6. Le tre tipologie di oscillatori sono: **VFO** (variabile, poco stabile), **a quarzo** (stabile, frequenza fissa, armoniche possibili), **PLL** (variabile e stabile grazie all'aggancio del VCO a un riferimento a quarzo).
+6. La **doppia conversione** nell'SSB è necessaria perché il filtro lavora a frequenza fissa (9 MHz): la prima conversione fornisce la copertura di 500 kHz (sintonia), la seconda trasla sulla banda desiderata.
 
-7. Il **PLL** è usato nella quasi totalità dei ricetrasmettitori moderni e combina un VCO controllato da varicap con un oscillatore di riferimento a quarzo tramite un comparatore di fase.
+7. Nell'FM, il **modulatore a reattanza** (varicap) sposta la frequenza dell'oscillatore; i **moltiplicatori** aumentano sia la frequenza sia la deviazione per lo stesso fattore. L'amplificatore finale può essere in classe C.
 
-8. Il **decibel** è un'unità logaritmica che trasforma le moltiplicazioni in somme: **+3 dB = ×2**, **+10 dB = ×10**, **−3 dB = ×0,5**, **−10 dB = ×0,1**. Con questi quattro valori si risolvono tutti i problemi d'esame.
+8. L'**intermodulazione** nasce quando l'amplificatore è sovrapilotato E amplifica più segnali contemporaneamente: i prodotti del 3° ordine ($2f_1 - f_2$, $2f_2 - f_1$) cadono vicino alla frequenza di trasmissione e non sono filtrabili.
 
-9. Il guadagno totale di una catena (amplificatori, cavi, antenne) si calcola **sommando i dB** dei singoli stadi: se un trasmettitore eroga 100 W, il cavo attenua −6 dB e l'antenna guadagna +9 dB, il guadagno netto è +3 dB → 200 W irradiati.
+9. Lo **splatter** è l'allargamento indesiderato del canale causato dall'intermodulazione; si verifica in SSB/AM, non in CW/FM. La soluzione è non sovrapilotare il trasmettitore.
 
-10. Il **dBm** è la versione assoluta del decibel, riferita a 1 mW: **0 dBm = 1 mW**. Si usa nella strumentazione (es. VNA) e segue le stesse regole dei mattoncini +3/+10.
+10. L'AM si ottiene nel modo più semplice: variando la **tensione di alimentazione** dell'amplificatore finale in funzione del segnale microfonico.
 
 ---
 
 ## ❓ Domande di Comprensione
 
-1. Perché un amplificatore BF non utilizza circuiti risonanti, mentre un amplificatore AF sì? Quale implicazione ha questa differenza sulla curva di risposta in frequenza?
+1. Qual è la differenza fondamentale tra un microfono a condensatore e uno dinamico, sia nel principio di funzionamento sia nella necessità di alimentazione?
 
-2. Un amplificatore assorbe 300 W dall'alimentatore ed eroga 120 W in uscita. Calcola il rendimento e spiega dove finisce l'energia rimanente.
+2. Un miscelatore riceve in ingresso un segnale a 7 MHz e uno a 5 MHz. Quali frequenze sono presenti in uscita? Come si seleziona solo quella desiderata?
 
-3. Perché la classe C non può essere utilizzata per amplificare segnali SSB o AM? Quale tipo di modulazione è compatibile e perché?
+3. Perché nei trasmettitori CW multibanda l'oscillatore variabile lavora a frequenza bassa (es. 5 MHz) invece che direttamente alla frequenza di trasmissione?
 
-4. Spiega il funzionamento del push-pull in classe B: perché sono necessari due dispositivi e qual è il principale difetto di questa configurazione?
+4. Spiega il meccanismo completo della generazione SSB: dal microfono fino al segnale a banda laterale unica. Qual è il ruolo di ciascun blocco?
 
-5. Descrivi il meccanismo di retroazione positiva che sta alla base del funzionamento degli oscillatori. Cosa succederebbe se mancasse il circuito risonante?
+5. Perché il trasmettitore SSB necessita di doppia conversione di frequenza? Cosa limita la possibilità di generare l'SSB direttamente alla frequenza di trasmissione?
 
-6. Confronta i tre tipi di oscillatori (VFO, quarzo, PLL) in termini di stabilità e variabilità di frequenza. Perché il PLL ha quasi completamente sostituito gli altri nei ricetrasmettitori moderni?
+6. Come si seleziona USB o LSB in un trasmettitore SSB con un unico filtro a cristallo? Descrivi il meccanismo dei due quarzi commutabili.
 
-7. Un trasmettitore eroga 10 W. Il segnale passa attraverso un amplificatore da +10 dB, poi un cavo che attenua −3 dB, e infine un'antenna con guadagno +6 dB. Qual è la potenza effettivamente irradiata?
+7. In un trasmettitore FM, l'oscillatore lavora a 12 MHz con deviazione 500 Hz. Dopo una catena di moltiplicatori ×12, quale sarà la frequenza e la deviazione in uscita?
 
-8. Spiega la differenza concettuale tra dB (misura relativa) e dBm (misura assoluta). Perché 0 dBm corrisponde esattamente a 1 mW?
+8. Perché l'intermodulazione è un problema per SSB e AM ma non per CW e FM? Quali sono le due condizioni che devono coesistere?
 
-9. Nel PLL, qual è il ruolo del filtro passa-basso posto tra il comparatore di fase e il VCO? Cosa accadrebbe senza di esso?
+9. Cosa sono i prodotti di intermodulazione del 3° ordine e perché sono particolarmente problematici rispetto alle armoniche semplici?
 
-10. Perché all'esame le domande sui decibel sono risolvibili con soli quattro valori (+3, +10, −3, −10 dB) senza bisogno di calcolatrice?
+10. Perché è preferibile usare un amplificatore lineare da 300 W "tranquillo" piuttosto che un trasmettitore da 100 W "col collo tirato"?
 
 ---
 
 ## 📚 Glossario
 
-- **Amplificatore AF (Alta Frequenza)** — amplificatore con circuiti risonanti per amplificare selettivamente una banda stretta di frequenze radio
-- **Amplificatore BF (Bassa Frequenza)** — amplificatore senza circuiti risonanti per amplificare uniformemente la banda audio (20–18.000 Hz)
-- **Angolo di conduzione** — porzione del ciclo del segnale durante la quale il dispositivo attivo conduce corrente, espressa in gradi
-- **Armoniche** — frequenze multiple intere della frequenza fondamentale (2ª, 3ª, 5ª, 7ª…)
-- **Bias (corrente di)** — corrente di polarizzazione a riposo del dispositivo attivo, tipicamente 10–15% della corrente massima in classe AB
-- **Carico risonante** — circuito LC in uscita a un amplificatore in classe C che rigenera la sinusoide a partire da impulsi
-- **Classe A** — classe di amplificazione con conduzione per l'intero ciclo (360°), massima linearità, rendimento 5–20%
-- **Classe AB** — classe intermedia con conduzione per circa 220°–240°, buon compromesso linearità/rendimento (50–60%)
-- **Classe B** — classe di amplificazione con conduzione per mezzo ciclo (180°), rendimento ~60%, richiede push-pull
-- **Classe C** — classe di amplificazione con conduzione per meno di mezzo ciclo, rendimento 70–75%, solo FM/CW
-- **Comparatore di fase** — circuito che confronta la fase di due segnali e produce una tensione di errore proporzionale alla differenza
-- **Controfase** — termine italiano per push-pull, configurazione con due dispositivi che amplificano semionde alternate
-- **Corrente di riposo** — corrente che scorre nel dispositivo in assenza di segnale; sinonimo di corrente di bias
-- **Curva di risposta** — grafico che mostra il guadagno dell'amplificatore in funzione della frequenza
-- **dB (decibel)** — unità di misura logaritmica relativa per rapporti di potenza; +3 dB = ×2, +10 dB = ×10
-- **dBm** — unità di misura assoluta di potenza riferita a 1 milliwatt; 0 dBm = 1 mW
-- **Distorsione di crossover** — distorsione nel punto di raccordo tra le due semionde in un amplificatore push-pull
-- **Fattore di amplificazione** — sinonimo di guadagno; rapporto tra segnale in uscita e segnale in ingresso
-- **Guadagno** — rapporto tra potenza (o tensione) in uscita e in ingresso di un amplificatore
-- **Logaritmo** — operatore matematico che trasforma moltiplicazioni in somme; il logaritmo in base 10 di N è l'esponente a cui va elevato 10 per ottenere N
-- **Oscillatore** — circuito che genera un segnale a frequenza determinata tramite retroazione positiva
-- **PLL (Phase Locked Loop)** — oscillatore ad aggancio di fase che combina un VCO con un oscillatore di riferimento a quarzo tramite comparatore di fase
-- **Punto di lavoro** — condizione operativa statica (in assenza di segnale) del dispositivo attivo sulla sua curva caratteristica
-- **Push-pull** — configurazione con due dispositivi complementari che amplificano semionde alternate per ricostruire il segnale completo
-- **Rendimento (η)** — rapporto percentuale tra potenza utile in uscita e potenza totale assorbita dall'alimentazione
-- **Retroazione (feedback)** — meccanismo per cui parte del segnale di uscita viene riportata all'ingresso
-- **S-meter** — strumento del ricevitore che indica l'intensità del segnale ricevuto, con scala in unità S e dB
-- **Varicap (diodo)** — diodo a capacità variabile usato nei VCO per variare la frequenza tramite tensione di polarizzazione
-- **VCO (Voltage Controlled Oscillator)** — oscillatore la cui frequenza è controllata da una tensione applicata ai diodi varicap
-- **VFO (Variable Frequency Oscillator)** — oscillatore libero a frequenza variabile con circuito LC
-- **VNA (Vector Network Analyzer)** — strumento di misura che analizza le reti elettriche misurando parametri in dBm
+- **Accordatore d'antenna (pi-greco)** — circuito con 2 condensatori variabili e 1 induttore che adatta l'impedenza di uscita del TX a 50 Ω dell'antenna
+- **Altoparlante** — trasduttore che converte segnale elettrico in onda acustica tramite interazione tra magnete permanente e bobina mobile
+- **Armonica** — segnale a frequenza multipla intera della fondamentale (2ª, 3ª, 4ª…)
+- **Click di manipolazione** — disturbi sui canali adiacenti causati da transizioni troppo rapide on/off del segnale CW
+- **Conversione di frequenza** — processo di traslazione di un segnale da una frequenza a un'altra tramite miscelatore
+- **Driver (pilota)** — stadi di amplificazione intermedia (classe A) tra oscillatore e finale
+- **DSB (Double Side Band)** — segnale a doppia banda laterale, passo intermedio nella generazione SSB
+- **Flat-topping** — appiattimento della sinusoide quando l'amplificatore è sovrapilotato
+- **Fondamentale** — frequenza principale di un segnale, rispetto alla quale si definiscono le armoniche
+- **Intermodulazione** — generazione di frequenze spurie per mescolamento di segnali multipli in un amplificatore distorto
+- **Microfono** — trasduttore che converte un'onda acustica in un segnale elettrico
+- **Microfono a carbone** — microfono che sfrutta la variazione di resistività di granuli di carbone compressi
+- **Microfono a condensatore** — microfono basato sulla variazione di capacità tra armatura fissa e membrana mobile; richiede alimentazione
+- **Microfono a cristallo (ceramico)** — microfono basato sull'effetto piezoelettrico del quarzo; enfatizza le frequenze acute
+- **Microfono dinamico** — microfono basato su bobina mobile in campo magnetico; funziona come altoparlante al contrario
+- **Miscelatore (mixer, mescolatore)** — componente con 2 ingressi e 1 uscita che produce le frequenze somma e differenza dei segnali in ingresso
+- **Modulatore a reattanza** — circuito (tipicamente varicap) che modula la frequenza di un oscillatore variando una reattanza capacitiva
+- **Modulatore bilanciato** — circuito che genera DSB sopprimendo la portante; quando non si parla, non esce niente
+- **Moltiplicatore di frequenza** — amplificatore non lineare che genera armoniche; moltiplica sia frequenza sia deviazione FM
+- **Phantom power** — alimentazione fornita attraverso il cavo del microfono a condensatore
+- **Pi-greco (π)** — topologia di circuito di adattamento d'impedenza a forma di lettera π
+- **Pre-enfasi** — amplificazione preventiva dei toni bassi nel TX FM per compensare la distorsione del rivelatore
+- **Prodotti del 3° ordine** — componenti di intermodulazione ($2f_1-f_2$, $2f_2-f_1$) che cadono vicino alla frequenza di trasmissione
+- **Splatter** — allargamento del canale di trasmissione causato da intermodulazione, disturba i canali adiacenti
+- **Trasduttore** — dispositivo che converte un tipo di energia in un altro (acustica ↔ elettrica)
 
 ---
 
 ## 👥 Partecipanti
 
-- 👨‍🏫 **Relatore**: Paolo (radiotecnica — amplificatori, oscillatori, decibel)
-- 👨‍🏫 **Relatore**: Silvio IZ5DIY (correzione quiz lezione 12)
+- 👨‍🏫 **Relatore**: Paolo (radiotecnica — trasduttori, miscelatori, trasmettitori, intermodulazione)
 
 ---
 
 ## 📅 Informazioni Lezione
 
-| Campo                  | Valore                                                                                                                                                                                                                        |
-| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Lezione**            | 13                                                                                                                                                                                                                            |
-| **Data**               | 04 giugno 2025                                                                                                                                                                                                                |
-| **Durata**             | circa 2 ore                                                                                                                                                                                                                   |
-| **Argomenti trattati** | 4 (correzione quiz, amplificatori e classi, oscillatori, decibel)                                                                                                                                                             |
-| **Parole chiave**      | amplificatore, guadagno, rendimento, classe A, classe B, push-pull, classe C, classe AB, oscillatore, retroazione, VFO, quarzo, PLL, VCO, varicap, comparatore di fase, decibel, dB, dBm, logaritmo, mattoncini, attenuazione |
+| Campo                  | Valore                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Lezione**            | 13                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Data**               | 10 giugno 2026                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Durata**             | circa 2 ore e 15 minuti                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Argomenti trattati** | 6 (quiz, trasduttori, miscelatori, trasmettitori CW/SSB/AM/FM, intermodulazione)                                                                                                                                                                                                                                                                                                                         |
+| **Parole chiave**      | trasduttore, microfono, altoparlante, carbone, cristallo, condensatore, dinamico, miscelatore, mixer, frequenza somma, frequenza differenza, conversione di frequenza, trasmettitore, CW, SSB, AM, FM, modulatore bilanciato, filtro a cristallo, doppia conversione, modulatore a reattanza, moltiplicatore, varicap, pi-greco, click manipolazione, armonica, intermodulazione, splatter, flat-topping |

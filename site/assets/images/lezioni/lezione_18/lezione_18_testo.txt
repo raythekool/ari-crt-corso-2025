@@ -1,0 +1,532 @@
+ARI - CRT Toscana
+Corso per aspiranti Radioamatori 2026
+
+LEZIONE 18
+
+Antenne
+Parte prima
+
+© i5WHC – 16 Settembre2026
+
+Argomenti della Lezione
+• Elementi fondamentali
+• Antenne caricate e multibanda
+• Il lobo di radiazione
+
+16 Settembre 2026 - © i5WHC
+
+2
+
+Antenne – elementi fondamentali
+Per iniziare un breve richiamo sui «fondamentali»:
+
+Che cosa è l’antenna?
+E’ un «trasduttore» ovvero un dispositivo che ha la funzione di
+trasferire l’energia elettrica ad alta frequenza, generata dal TX e che
+percorre la linea di trasmissione, in un campo elettromagnetico che si
+propaga nello spazio circostante e viceversa.
+E’ noto infatti che un conduttore percorso da una corrente variabile
+genera nel suo intorno un campo elettromagnetico che si propaga nello
+spazio circostante così come è noto che un conduttore immerso in un
+campo elettromagnetico è sede di una corrente indotta proporzionale
+all’intensità del campo stesso.
+
+16 Settembre 2026 - © i5WHC
+
+3
+
+Antenne – elementi fondamentali
+Analogamente a quanto avviene in ogni conduttore, è la corrente RF che percorre
+l’elemento radiante, a generare il campo elettromagnetico che si propaga linearmente
+nello spazio circostante, Il meccanismo con cui ciò avviene è estremamente complesso
+e la sua rappresentazione matematica è data dalle «equazioni di Maxwell».
+A noi interessa solo sapere che esistono 3 diverse aree in funzione della distanza
+dall’antenna, in cui il comportamento dei campi è diverso
+
+16 Settembre 2026 - © i5WHC
+
+4
+
+Antenne – elementi fondamentali
+• Area o regione di Campo Vicino Reattivo (Reactive Near Field)
+L’area si estende nell’immediato intorno dell’elemento radiante fino ad una
+distanza pari a circa 0,1 λ - 0,4 λ in funzione della dimensione fisica dell’antenna.
+In questa zona il comportamento dei campi è esclusivamente reattivo e i campi E
+e H non sono tra loro correlati.
+
+• Area o regione di Campo Vicino Radiativo (Radiative Near Field
+– Fresnel Region) L’area si estende fino a distanze di circa 0,5 λ – 1,5 λ in
+funzione della dimensione fisica dell’antenna stessa. In questa area i campi E e
+H iniziano ad essere tra loro correlati, il campo complessivo non ha ancora
+assunto le caratteristiche di un’onda sferica e la sua intensità presenta
+significative fluttuazioni a causa delle differenze di fase dovute ai contributi
+provenienti dalle diverse parti dell’antenna.
+
+• Area o regione di Campo Lontano Radiativo (Radiative Far
+Field – Fraunhofer Region) Questa area si estende a partire dal confine
+esterno della regione di Fresnel fino all’infinito, i campi E e H in questa area sono
+totalmente correlati e si propagano radialmente assumendo le caratteristiche di
+un’onda sferica.
+16 Settembre 2026 - © i5WHC
+
+5
+
+Antenne – elementi fondamentali
+Abbiamo detto che l’antenna è un trasduttore che trasforma l’energia elettrica a RF
+in un campo elettromagnetico che si propaga nello spazio circostante. Vediamo di
+comprendere meglio come ciò avviene :
+Sappiamo dalla teoria delle linee
+che un tronco di linea lungo λ/4,
+aperto all’estremità, si comporta
+come un circuito risonante
+«serie».
+
+Un’antenna è sempre assimilabile ad un circuito risonante
+«serie» in cui L e C dipendono dalle dimensioni fisiche
+dell’elemento radiante e ne determinano la frequenza di
+risonanza mentre R, in assenza di perdite, coincide con la
+«resistenza di radiazione», ma vedremo meglio più avanti
+questo aspetto
+16 Settembre 2026 - © i5WHC
+
+6
+
+Antenne – elementi fondamentali
+Alla risonanza un’antenna alimentata al centro (es. dipolo) si comporta come una linea
+aperta di lunghezza λ/4 dove, nel punto di alimentazione, la corrente i è massima e la
+tensione v è minima mentre agli estremi la corrente si annulla e la tensione raggiunge
+il valore massimo.
+Sempre alla risonanza l’impedenza nel punto di alimentazione è puramente resistiva e
+il suo valore è dato dal rapporto tra la tensione V e la corrente I applicate nel punto di
+alimentazione.
+Vedremo meglio in seguito che questo valore non sempre coincide con la «resistenza di
+radiazione»
+
+16 Settembre 2026 - © i5WHC
+
+7
+
+Antenne – Resistenza di radiazione
+Vediamo adesso di comprendere meglio perché antenne fisicamente diverse,
+pur lavorando sulla stessa frequenza, possono presentare valori diversi di
+impedenza nel punto di alimentazione.
+Senza entrare negli aspetti teorici del calcolo che sarebbero molto complessi
+dobbiamo ricordare che la teoria ci dice che la potenza totale irradiata da
+un’antenna dipende dalle sue dimensioni (𝒍) in rapporto alla lunghezza d’onda
+(𝝀) e dalla corrente che la percorre (𝑰) secondo la relazione:
+𝑷𝒊𝒓 = 𝟒𝟎𝝅𝟐
+
+𝟐𝒍 𝟐
+𝝀𝟐
+
+𝑰𝟐
+
+𝑷𝒊𝒓 = 𝑹𝒓𝒂𝒅 ∗ 𝑰 𝟐
+
+Ne consegue che a parità di potenza irradiata, un’antenna di dimensioni fisiche
+minori per irradiare la stessa potenza dovrà necessariamente esser percorsa da
+una corrente maggiore, affinché ciò avvenga è quindi necessario che la
+resistenza di radiazione sia necessariamente minore. La teoria definisce infatti
+«Resistenza di Radiazione» di un’antenna il rapporto tra la potenza totale
+effettivamente irradiata e il quadrato della corrente che percorre l’elemento
+radiante.
+16 Settembre 2026 - © i5WHC
+
+8
+
+Antenne – Resistenza di radiazione
+Il valore di Rrad dipende sostanzialmente dalle dimensioni fisiche dell’antenna e
+dalla conseguente distribuzione della corrente lungo l’elemento radiante
+Come già visto la corrente nell’elemento radiante non è costante ma varia da
+un massimo, in genere coincidente con il punto di alimentazione, fino a
+scendere a zero agli estremi nel caso di un dipolo λ/2, peraltro questo comporta
+che l’energia irradiata dall’antenna, proporzionale al quadrato della corrente,
+non è uniforme lungo l’elemento ma varia con il variare della corrente lungo
+l’elemento.
+
+16 Settembre 2026 - © i5WHC
+
+9
+
+Antenne – Resistenza di radiazione
+Senza entrare nella complessità del calcolo si può quindi
+affermare che il valore della resistenza di radiazione
+diminuisce drasticamente con il diminuire delle dimensioni
+fisiche dell’antenna in relazione alla lunghezza d’onda.
+A parità di energia irradiata un’antenna
+“corta” è sempre percorsa da una corrente
+maggiore a causa del suo minor valore di
+Rrad
+Nella pratica elementi radianti che hanno
+una dimensione inferiore a 1/10 λ hanno
+una Rrad così bassa da renderli di fatto,
+come vedremo, pressochè inutilizzabili a
+causa di un efficienza di radiazione
+bassissima
+
+16 Settembre 2026 - © i5WHC
+
+10
+
+Antenne - dimensioni teoriche e risonanza
+Come già detto un elemento radiante, dal punto di vista elettrico, è assimilabile ad un
+circuito risonante serie e la massima efficienza si ha alla risonanza quando l’impedenza
+nel punto di alimentazione è priva di componenti reattive (puramente resistiva). Le
+componenti induttiva (L) e capacitiva (C) dell’elemento radiante dipendono dalle
+dimensioni fisiche dell’elemento stesso e di conseguenza vi è una relazione puntuale tra
+la dimensione «teorica» dell’elemento e la frequenza di risonanza, ed in particolare
+dobbiamo sempre ricordare che aumentando la lunghezza dell’elemento radiante la
+frequenza di risonanza diminuisce , accorciandolo la frequenza di risonanza aumenta
+
+16 Settembre 2026 - © i5WHC
+
+11
+
+Antenne - dimensioni teoriche e risonanza
+Come sempre però dobbiamo tenere conto della differenza tra teoria e pratica.
+Nella pratica la lunghezza dell’elemento radiante è sempre leggermente inferiore
+rispetto alla lunghezza teorica in quanto si deve tenere conto di un fattore
+correttivo (Fv fattore di velocità) tipico del materiale con cui è costruito l’elemento
+e del rapporto tra lunghezza e diametro dell’elemento stesso (rapporto di
+finezza). I valori medi di Fv sono compresi tra 0,95 e 0,98. Di conseguenza le
+lunghezze reali saranno leggermente minori di quelle teoriche:
+
+16 Settembre 2026 - © i5WHC
+
+12
+
+Antenne – elementi fondamentali
+E’ bene ricordare che se ci spostiamo dalla frequenza di risonanza, analogamente ad un
+circuito risonante, la nostra antenna presenterà nel punto di alimentazione un’impedenza Z0
+che non sarà più puramente resistiva ma inizierà a presentare una componente reattiva
+assumendo la forma Z0= R + jX, componente che sarà di tipo capacitivo (-jX) per frequenze
+inferiori a fo e di tipo induttivo (+jX) per frequenze superiori. Anche la componente resistiva
+andrà lentamente ad aumentare per frequenze superiori e a diminuire per frequenze
+inferiori.
+Questo comportamento è ben
+evidenziato in forma grafica dalla
+rappresentazione su carta di Smith
+rappresentazione che si può
+facilmente ottenere con impiego di
+un VNA, rappresentazione che se
+opportunamente interpretata può
+fornire molte utili informazioni
+
+f=f0
+
+f>f0
+
+F<f0
+
+16 Settembre 2026 - © i5WHC
+
+13
+
+Antenne caricate
+Dobbiamo sempre tenere in conto che se l’antenna non lavora alla risonanza la
+sua impedenza può avere, come abbiamo visto, componenti reattive che devono
+essere in qualche modo eliminate per ottenere il massimo trasferimento di
+potenza rf erogata dal TX.
+Il caso tipico è quello delle antenne «caricate» dove la componente reattiva viene
+annullata con l’impiego di una bobina di carico o di un «cappello capacitivo».
+
+Sempre nell’ottica di ottenere il massimo trasferimento
+di potenza, può essere necessario prevedere un
+dispositivo di adattamento, (stub, haipin, ecc…) laddove
+il valore dell’impedenza che l’antenna presenta nel punto
+di alimentazione fosse diverso da quello della linea di
+discesa (cavo coax).
+
+16 Settembre 2026 - © i5WHC
+
+14
+
+Antenne caricate
+Per i motivi che abbiamo visto nella lezione relativa alle linee è bene ricordare
+che l’eventuale adattamento di impedenza, se necessario, è opportuno che sia
+effettuato direttamente sul punto di alimentazione dell’antenna anche se, in
+certe condizioni, il disadattamento può non essere così determinante
+sull’efficienza di radiazione.
+In alcuni casi un metodo abbastanza
+semplice per realizzare l’adattamento di
+impedenza è quello di porre in «parallelo»
+al punto di alimentazione una reattanza
+induttiva Xp di opportuno valore, metodo
+che prende il nome di «STUB» (mozzicone)
+o «HAIRPIN» (forcella), metodo utilizzabile
+solo quando l’impedenza da adattare è
+minore di quella della linea.
+L’impiego dello STUB o del HAIRPIN
+determina una leggera diminuzione della
+frequenza di risonanza dell’antenna che
+quindi deve poi essere riadattata
+
+𝑿𝑷 = 𝒁𝟎
+
+16 Settembre 2026 - © i5WHC
+
+𝒁𝑳
+𝒁𝟎 − 𝒁𝑳
+
+15
+
+Antenne Multibanda
+E’ altresì possibile realizzare antenne che possano operare su più frequenze
+(antenne multibanda) attraverso l’impiego di opportune «Trappole» che altro
+non sono che circuiti risonanti parallelo dimensionati opportunamente per
+interrompere elettricamente l’elemento radiante ad una determinata
+frequenza.
+
+Alla frequenza F1 (frequenza di risonanza della trappola) il dipolo si comporta come se la
+sua lunghezza fisica fosse L1, mentre per frequenze diverse da F1 il dipolo si comporta
+come se la sua lunghezza fisica fosse L2.
+Ovviamente in questo secondo caso la lunghezza elettrica deve tener anche conto del
+contributo dovuto alla reattanza residua delle trappole.
+16 Settembre 2026 - © i5WHC
+
+16
+
+Antenne Multibanda
+Oltre che attraverso l’uso di trappole, è possibile utilizzare una stessa antenna su
+più frequenze anche sfruttando la caratteristica della «risonanza in armonica».
+Infatti come abbiamo già visto nel caso delle linee, anche per le antenne
+l’andamento della tensione e della corrente e, di conseguenza, dell’impedenza si
+ripete ad ogni multiplo dispari di λ/2, questo comporta quindi che la stessa
+antenna, oltre che sulla sua frequenza «fondamentale» Fo , possa essere impiegata
+anche sulle sue «armoniche» dispari (3Fo – 5Fo ….)
+
+16 Settembre 2026 - © i5WHC
+
+17
+
+Antenne Multibanda – Il dipolo OCF
+10m
+
+20m
+
+40m
+
+80m
+
+12m
+
+17m
+
+i v
+
+~
+
+~
+
+Zo = v/i = 200Ω Zo = v/i = 73Ω
+
+1/6λ0
+
+2/6λ0
+L = λ0/2
+16 Settembre 2026 - © i5WHC
+
+18
+
+Antenne – Lobo di Radiazione
+Nello studio teorico delle antenne si usa sempre
+come riferimento il radiatore «isotropico» ovvero
+una antenna «teorica» in cui l’intensità del campo
+EM emesso è uniforme in tutte le direzioni.
+Per comprendere meglio questo concetto
+pensiamo ad una lampadina posta al centro di
+una sfera e che illumina con intensità uniforme la
+superficie della sfera stessa.
+Inoltre lo studio del comportamento di un’antenna è sempre riferito al caso
+teorico in cui l’antenna sia posta in un ambiente definito «spazio libero»
+cioè privo di possibili «interferenze elettromagnetiche» con altri oggetti.
+Vedremo adesso che in realtà non è mai così a partire dall’effetto dovuto
+alla presenza del terreno o di superfici conduttrici in prossimità dell’antenna
+16 Settembre 2026 - © i5WHC
+
+19
+
+Antenne – Lobo di Radiazione
+E’ noto che qualsiasi antenna, sulla base delle sue caratteristiche fisiche, ma
+soprattutto, come vedremo, sulla base dell’ambiente e della posizione in cui
+viene posta, presenta aree e direzioni in cui l’intensità del campo emesso è
+diversa.
+La rappresentazione grafica dell’intensità del campo emesso da un’antenna, è
+raffigurata nello spazio da un grafico tridimensionale che prende il nome di
+«solido o lobo di radiazione»
+Per semplicità di rappresentazione il lobo di
+radiazione viene più spesso rappresentato
+in forma «piana»
+rappresentando le
+sezioni del solido sul piano orizzontale
+(Azimuth Plot) o sul piano verticale
+(Elevation Plot) a seconda delle esigenze, si
+parla in questo caso di lobo orizzontale o
+lobo verticale.
+Ma vediamo adesso come si forma il lobo di
+radiazione.
+16 Settembre 2026 - © i5WHC
+
+20
+
+Antenne – Lobo di Radiazione
+Lo studio dei campi EM emessi da una antenna ci dice che ad
+una certa distanza dall’antenna (area di campo lontano Fraunhofer Region) la stessa può essere considerata come una
+sorgente «puntiforme» e il campo elettromagnetico emesso ha
+le caratteristiche di un’onda piana che si propaga linearmente
+nello spazio in assenza di elementi che ne possano alterare il
+percorso
+Come abbiamo visto in una precedente lezione, in funzione della
+posizione che l’elemento radiante assume rispetto al terreno i campi EM
+generati possono avere differente «polarizzazione», Il campo EM emesso
+da un’antenna presenta sempre la componente di campo elettrico E
+sullo stesso piano su cui giace l’elemento radiante per cui :
+Si parla di «polarizzazione orizzontale» quando l’elemento radiante è
+orizzontale e quindi la componente di «campo elettrico E» si propaga
+parallelamente al terreno.
+Si parla di «polarizzazione verticale» quando l’elemento radiante è
+verticale e quindi la componente di «campo elettrico E» si propaga
+perpendicolarmente al terreno.
+16 Settembre 2026 - © i5WHC
+
+21
+
+Antenne – Lobo di Radiazione
+Nella realtà il campo emesso da un’antenna anche trascurando l’effetto
+dell’ambiente circostante (ovvero anche nello spazio libero) non è mai uniforme
+in tutte le direzioni.
+Come già anticipato, nello studio teorico del
+comportamento di un’antenna «reale» si considera sempre che l’antenna stessa
+sia posta nello «spazio libero» e la valutazione dell’intensità del campo emesso
+è di norma riferita al «radiatore isotropico»
+Nel caso di un dipolo posto nello spazio
+libero la rappresentazione nello spazio
+dell’intensità del campo emesso assume
+la forma di un toroide e la massima
+intensità del campo coincide con il piano
+perpendicolare all’asse del dipolo stesso e
+in questa direzione l’intensità del campo è
+maggiore di 2,1dB rispetto al radiatore
+isotropico, ovvero come si usa dire il
+dipolo ha, nello spazio libero, un
+guadagno massimo di 2,1 dBi
+16 Settembre 2026 - © i5WHC
+
+22
+
+Antenne – Lobo di Radiazione
+Nella realtà, dal punto di vista di un corrispondente posto a grande distanza dalla nostra
+antenna, il segnale ricevuto risulterà sempre dalla composizione di più fasci, un «fascio
+diretto» (a) e un «fascio riflesso» dal terreno (b).
+La differenza nella lunghezza dei percorsi dei due fasci determina una differenza di fase in
+base alla quale le due componenti possono sommarsi o sottrarsi, questo effetto è noto in
+letteratura tecnica con il termine di «Ground Gain».
+Le due componenti si sommeranno quando
+la differenza di percorso (segmento A’C)
+risulta essere tale per cui le componenti
+stesse risultano in fase
+Poichè la differenza nella lunghezza dei
+due percorsi varia in funzione dell’altezza
+da terra «h» dell’antenna e dell’angolo di
+take-off «β», il valore del campo totale
+risultante dalla composizione vettoriale dei
+due fasci varierà in funzione dell’angolo di
+radiazione e dell’altezza da terra della
+nostra antenna
+16 Settembre 2026 - © i5WHC
+
+23
+
+Antenne – Lobo di Radiazione
+In funzione della differenza di fase tra le due componenti (fascio diretto e fascio riflesso) il
+campo complessivo può incrementarsi fino a +6dB rispetto al guadagno teorico
+dell’antenna nello spazio libero, quando i campi sono perfettamente in fase (Ground gain),
+e scendere di anche -20dB quando i campi sono in opposizione di fase.
+Nel caso di un’antenna con «polarizzazione orizzontale», a causa dell’inversione di fase
+che si determina nella riflessione a terra, le due componenti si sommeranno quando la
+𝝀
+
+differenza tra i percorsi sarà uguale a λ/2 e in questo caso ciò avviene per 𝜷 = 𝒔𝒊𝒏−𝟏
+𝟒𝒉
+questo comporta che la forma del lobo si modificherà significativamente in funzione
+dell’altezza da terra a cui l’antenna è istallata
+
+16 Settembre 2026 - © i5WHC
+
+24
+
+Antenne – Lobo di Radiazione
+Se consideriamo invece un’antenna «verticale» possiamo notare che il lobo di
+radiazione è diverso, un’antenna verticale irradia uniformemente sul piano
+orizzontale mentre sul piamo verticale il lobo risulta essere schiacciato in basso.
+La radiazione sul piano verticale è pressoché nulla per angoli superiori a 50°-60°
+
+16 Settembre 2026 - © i5WHC
+
+25
+
+Antenne – Lobo di Radiazione
+Ciò avviene in conseguenza del fatto che un fascio con polarizzazione verticale,
+diversamente da quello orizzontale, non subisce l’inversione di fase nella riflessione a
+terra, ne consegue che le componenti, diretta e riflessa, avranno la stessa fase già per
+altezze da terra prossime a zero, per questo motivo un’antenna a «polarizzazione
+verticale» presenta un lobo con basso angolo di radiazione anche quando posta a
+terra. Per contro il lobo di radiazione dell’antenna verticale sarà maggiormente
+influenzato dalle caratteristiche dielettriche del terreno.
+
+16 Settembre 2026 - © i5WHC
+
+26
+
+Antenne – Lobo di Radiazione
+Come vedremo in dettaglio nella prossima lezione, l’effetto prodotto dal terreno è
+del tutto analogo a quello che si determina in un’antenna «direttiva» dove la
+concentrazione dell’energia irradiata avviene con lo stesso meccanismo attraverso il
+quale più elementi radianti, siano essi «attivi» come nel caso degli Array o «passivi»
+come nel caso delle Yagi o dei riflettori parabolici, generano fasci con fase diversa la
+cui combinazione determina l’effetto di direttività.
+Non è un caso infatti che il fascio generato
+dalla riflessione sul terreno possa essere
+considerato come se fosse generato da una
+seconda antenna «immagine» posta nel
+punto A’ del disegno.
+Modificando opportunamente la fase del
+segnale emesso dalle due antenne si può
+modificare la direzione del lobo di massima
+radiazione ottenuto dalla combinazione
+dei fasci. Su questo principio si basa il
+funzionamento di un array o di una yagi
+16 Settembre 2026 - © i5WHC
+
+27
+
+Antenne - Effetto del terreno
+La presenza del terreno o di una superficie conduttrice in prossimità dell’antenna
+non ha effetto solo sul lobo di radiazione della nostra antenna ma può
+modificare anche significativamente il valore dell’impedenza nel punto di
+alimentazione e l’efficienza di radiazione dell’antenna stessa argomento che
+affronteremo nella prossima lezione.
+Il grafico a lato ci mostra l’andamento
+dell’impedenza nel punto di alimentazione
+per un dipolo sia verticale che orizzontale
+posto a differenti altezze da terra.
+Nel caso di un dipolo orizzontale, quando
+l’altezza scende sotto 0,2λ l’effetto dovuto
+alle perdite nel terreno diventa significativo
+e, come vedremo meglio nella prossima
+lezione, va a sommarsi al valore della
+resistenza di radiazione (linea tratteggiata)
+causando una rapida riduzione dell’efficienza
+di radiazione
+16 Settembre 2026 - © i5WHC
+
+28
+
+Grazie
+per l’attenzione
+
+16 Settembre 2026 - © i5WHC
+
+29
+
+

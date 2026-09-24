@@ -1,0 +1,790 @@
+ARI - CRT Toscana
+Corso per aspiranti Radioamatori 2026
+
+LEZIONE 17
+
+La Propagazione delle
+Onde Radio
+© i5WHC – 9 Settembre 2026
+
+Argomenti della Lezione
+• I campi Elettromagnetici
+• La propagazione delle onde radio
+• La propagazione ionosferica e il ciclo solare
+
+9 Settembre 2026 - © i5WHC
+
+2
+
+Campo Elettromagnetico
+Un po’ di Storia
+I primi studi dei fenomeni fisici relativi all’elettromagnetismo risalgono alla prima metà del ‘800.
+I nomi dei principali scienziati che hanno studiato la materia ci risultano familiari perché i loro
+nomi spesso sono stati associati alle principali unità di misura
+Michael Faraday 1791-1867
+Fisico
+Inglese, si devono a lui i primi studi
+sull’induzione elettromagnetica (leggi di
+Farady)
+
+Andrè-Marie Ampère 1775-1836 Fisico Francese,
+dette un contributo determinante ai primi studi
+sull’elettromagnetismo ed in particolare
+sulla
+relazione che esiste tra la corrente che scorre in un
+conduttore e il campo magnetico concatenato che si
+genera (legge di Ampere)
+
+Heinrich Friedrich Emil Lenz 1804-1865
+Fisico Russo, si devono a lui i primi studi
+sulla forza elettromotrice indotta da un
+campo magnetico in variazione (legge di
+Lenz)
+
+Carl Friedrich Gauss 1777-1855 Matematico e Fisico
+Tedesco, si deve a lui la formulazione di una
+importante legge relativa al campo elettrico
+(teorema del flusso) nota appunto come legge di
+Gauss
+
+Joseph Henry 1797-1878
+Fisico
+Statunitense, si dedicò allo studio delle
+correnti indotte realizzando i primi
+modelli di elettromagnete, si deve a lui
+l’elaborazione del primo modello di
+motore elettrico
+
+Heinrich Rudolf Hertz 1857-1894 Fisico Tedesco,
+Per primo dimostrò sperimentalmente l'esistenza
+delle onde elettromagnetiche con un apparato di sua
+costruzione, il dipolo hertziano
+
+9 Settembre 2026 - © i5WHC
+
+3
+
+Campo Elettromagnetico
+Un po’ di Storia
+La svolta epocale si ha nel 1873 quando il fisico scozzese James Clerk
+Maxwell elabora la prima teoria moderna sull’elettromagnetismo
+formulando un modello matematico (Equazioni di Maxwel) che sarà la base
+per l’evoluzione degli studi successivi sui campi elettromagnetici. Il modello
+matematico elaborato da Maxwel dimostra come campi elettrici e campi
+magnetici «in variazione» siano sempre tra loro correlati dando origine
+un «campo elettromagnetico» che si propaga nello spazio sotto forma di
+onde ad una velocità C=299792458 m/s (velocità della luce).
+
+Gugliemo Marconi 1874-1937 - La possibilità di sfruttare i campi
+elettromagnetici per le comunicazioni a distanza si deve però a Gugliemo
+Marconi che nel 1901, sfidando i pareri contrari della comunità accademica
+dell’epoca, riuscì a dimostrare sperimentalmente la possibilità che un campo
+elettromagnetico potesse propagarsi a grande distanza realizzando il 12
+dicembre 1901 il primo collegamento radio transoceanico tra Poldhu in
+Inghilterra e San Giovanni di Terranova in Canada
+
+9 Settembre 2026 - © i5WHC
+
+4
+
+Campo Elettromagnetico
+Un po’ di Storia
+Ma c’è un’altra data che mi piace ricordare e che ci riguarda più da
+vicino:
+La notte del 27 Novembre 1923 alle 03:32z due OM, l’americano Fred
+Schnell A1MO e il Francese Léon Deloy F8AB, stabilirono il primo
+contatto radio transoceanico in HF con apparati di “debole potenza”
+operanti sulla lunghezza d’onda di 103 mt. (2,9 MHz) dimostrando
+così la superiorità delle “onde corte” nei collegamenti a lunga
+distanza rispetto a quanto fatto alcuni anni prima (1901) da
+Guglielmo Marconi con l’impiego però di sistemi ad onda lunga e
+apparati di notevole potenza.
+
+9 Settembre 2026 - © i5WHC
+
+5
+
+Campo Elettromagnetico
+I Fondamentali
+Il modello elaborato da Maxwel dimostra che ad un campo elettrico «in
+variazione» è sempre concatenato ad un campo magnetico anch’esso in
+variazione e viceversa, quindi i campi elettrici e magnetici in variazione si
+sostengono a vicenda e si propagano linearmente nello spazio in modo sferico
+rispetto alla sorgente (come la luce generata da una lampadina) dando origine
+ad un’ onda elettromagnetica in cui le linee di forza dei due campi sono sempre
+tra loro perpendicolari
+
+9 Settembre 2026 - © i5WHC
+
+6
+
+Campo Elettromagnetico
+I Fondamentali
+Nello spazio libero il rapporto tra l’intensità del campo elettrico E e quella del campo
+magnetico H è costante e vale E/H = 377 Ω (impedenza dello spazio libero). Il campo
+elettromagnetico si propaga in linea retta ad una velocità «v» il cui valore dipende dalle
+caratteristiche del «mezzo» in cui il campo stesso si propaga.
+La massima velocità si ha nel vuoto dove v = c (velocità della luce ≈ 3*105 Km/s). La velocità
+è uguale al prodotto tra frequenza «f» e lunghezza d’onda «λ» relazione che definiremo
+meglio più avanti.
+
+300
+λ 𝑚 =
+𝑓(𝑀𝐻𝑧)
+9 Settembre 2026 - © i5WHC
+
+7
+
+Campo Elettromagnetico
+I Fondamentali
+Abbiamo già visto come i campi E e H siano sempre tra loro perpendicolari,
+questo ci permette di definire la «polarizzazione» di un’ onda elettromagnetica
+come:
+il piano, rispetto a terra, su cui giacciono le linee di forza del «Campo Elettrico E»
+
+9 Settembre 2026 - © i5WHC
+
+8
+
+Campo Elettromagnetico
+Lo spettro Elettromagnetico
+
+Onde Radio, Radiazione Termica (calore), Radiazione Luminosa (luce visibile), Radiazione
+ultravioletta, Raggi X, Raggi Gamma, aspetti diversi di uno stesso fenomeno in cui la
+differenza è data solo dalla lunghezza d’onda, l’insieme prende il nome di «spettro
+elettromagnetico»
+Ci focalizzeremo adesso su una specifica parte di nostro interesse dello spettro
+elettromagnetico: Le Onde Radio
+9 Settembre 2026 - © i5WHC
+
+9
+
+Campo Elettromagnetico
+Le Onde Radio
+Prende nome di Onde Radio quella parte dello spettro elettromagnetico
+la cui frequenza è compresa tra 3x103 Hz e 3x1011 Hz (3KHz – 300GHz).
+
+9 Settembre 2026 - © i5WHC
+
+10
+
+Campo Elettromagnetico
+La Lunghezza d’onda
+La lunghezza d’onda si indica con la lettera greca λ (lambda) e, a seconda del suo valore,
+può essere espressa in metri o nei suoi multipli o sottomultipi, ed è definita come «lo spazio
+percorso da un’onda EM, che si propaga alla velocità V, nel tempo impiegato a compiere un
+ciclo completo (oscillazione)» velocità V che nel vuoto è pari a circa 3x105 Km/s.
+𝑽=
+
+𝝀
+𝒕
+
+𝒕=
+
+𝟏
+𝒇
+
+𝒅𝒂 𝒄𝒖𝒊
+
+𝝀=
+
+𝑽
+𝒇
+
+⇒ 𝒇=
+
+𝑽
+⇒ 𝑽=𝒇∗𝝀
+𝝀
+
+Dove:
+f = frequenza (numero di oscillazioni in un secondo)
+λ = Lunghezza d’onda
+V = velocità di propagazione
+
+𝝀(𝒎𝒕) =
+
+𝟑𝟎𝟎
+𝒇(𝑴𝑯𝒛)
+
+𝒇(𝒎𝒕) =
+
+𝟑𝟎𝟎
+𝝀(𝑴𝑯𝒛)
+
+Come abbiamo già visto tra lunghezza d’onda e frequenza f c’è una proporzionalità inversa
+9 Settembre 2026 - © i5WHC
+
+11
+
+La propagazione delle Onde Radio
+Un’onda elettromagnetica, a partire da una
+sorgente puntiforme, si propaga in tutte le
+direzioni in linea retta nello spazio libero (ovvero
+in assenza di elementi che ne possano modificare il
+percorso). La propagazione avviene quindi in modo
+sferico e l’intensità del campo si riduce con il
+quadrato della distanza questo perché l’energia
+irradiata si distribuisce su una superfice sferica
+sempre più grande all’aumentare della distanza.
+Si definisce Area effettiva Ae di un’antenna la superfice
+equivalente da cui l’antenna stessa estrae l’energia
+elettromagnetica in ricezione .
+La dimensione di tale superficie dipende dalla lunghezza
+d’onda e dal guadagno dell’antenna, e nel caso dell’antenna
+isotropica (guadagno unitario) vale:
+𝟐
+
+𝝀
+𝑨𝒆 =
+𝟒𝝅
+
+9 Settembre 2026 - © i5WHC
+
+12
+
+La propagazione delle Onde Radio
+Attenuazione dovuta alla distanza
+Sulla base di quanto abbiamo visto nella slide precedente
+possiamo quindi affermare che, nello spazio libero, ovvero in
+assenza di elementi che possano alterare o modificare il percorso
+di un’onda EM , L’attenuazione è direttamente proporzionale al
+quadrato della distanza e inversamente proporzionale al
+quadrato della lunghezza d’onda .
+Facendo riferimento alla frequenza f e esprimendo il valore in
+dB, nello spazio libero, l’attenuazione dovuta alla distanza, al
+netto del guadagno delle antenne, vale:
+
+𝑨(𝒅𝑩) = 𝟑𝟐, 𝟒 + 𝟐𝟎 log10 𝑫(𝑲𝒎) + 𝟐𝟎 log10 𝒇(𝑴𝑯𝒛)
+E’ bene quindi ricordare sempre che, a prescindere da altri fattori che potranno intervenire ad incrementare
+ulteriormente l’attenuazione a seconda delle diverse modalità di propagazione di un’onda EM, modalità che
+vedremo in dettaglio nelle slide successive , L’attenuazione di un segnale radio aumenta sempre all’aumentare della
+distanza e della frequenza.
+9 Settembre 2026 - © i5WHC
+
+13
+
+La propagazione delle Onde Radio
+All’inizio dello studio dei campi elettromagnetici negli scienziati dell’epoca
+era radicata la convinzione, peraltro supportata dalla teoria, che un campo
+elettromagnetico, propagandosi in linea retta, non potesse essere utilizzato
+per comunicazioni oltre l’orizzonte.
+Come è noto si deve all’intuito e alla tenacia di Gugliemo Marconi la
+dimostrazione pratica che un’onda radio possa superare anche un ostacolo e
+propagarsi ben oltre l’orizzonte sebbene all’epoca non se ne conoscessero le
+motivazioni.
+Si dovette infatti attendere circa 25 anni prima che gli studi potessero
+svelare quale fosse il motivo che permetteva ad un’onda radio di propagarsi
+oltre l’orizzonte
+
+9 Settembre 2026 - © i5WHC
+
+14
+
+La propagazione delle Onde Radio
+I primi a formulare un’ipotesi scientifica circa il
+coinvolgimento della parte alta dell’atmosfera terrestre nella
+propagazione delle onde radio sono stati gli scienziati Oliver
+Heaviside (UK) e Arthur Edwin Kennelly (USA) nel 1902.
+Oliver
+Heaviside
+
+Edward
+Appleton
+
+Arthur Edwin
+Kennelly
+
+Robert
+Watson-Watt
+
+Solo successivamente però, nel 1925, fu dimostrata da Edward
+Appleton la presenza di strati ionizzati riflettenti nell’alta
+atmosfera e per questo gli fu assegnato nel 1947 il Nobel per la
+fisica. Successivamente nel 1929 fu Robert Watson Watt, padre
+del radar, ad introdurre il concetto di “ionosfera” come insieme
+di aree (strati) con differente livello di ionizzazione, coniando
+di fatto il neologismo «ionosfera» divenuto poi di uso comune
+
+9 Settembre 2026 - © i5WHC
+
+15
+
+La propagazione delle Onde Radio
+E’ quindi la presenza dell’atmosfera terrestre ed in particolare la sua
+composizione e le diverse caratteristiche che presenta alle varie altezze, che
+permettono ad un’onda radio di propagarsi a grande distanza oltre l’orizzonte.
+In funzione della frequenza usata e della zona di atmosfera attraversata da un
+fascio radio possiamo identificare diversi meccanismi di propagazione :
+•
+•
+•
+•
+
+Propagazione nello Spazio Libero (Line-of-sight)
+Propagazione per onda di terra (Surface or Ground Wave)
+Propagazione troposferica (Tropo Scatter)
+Propagazione Ionosferica (Skywave)
+
+9 Settembre 2026 - © i5WHC
+
+16
+
+La propagazione delle Onde Radio
+Propagazione nello Spazio Libero (Line-of-sight)
+Parliamo di «Propagazione nello spazio libero» quando i due estremi della tratta sono in
+piena visibilità (portata ottica) e lo spazio in cui si propaga il campo EM è totalmente
+libero da ostacoli che possano causarne una deviazione o un assorbimento. In questo
+caso la propagazione avviene in linea retta e l’attenuazione del segnale, come abbiamo
+visto, è proporzionale solo alla frequenza e alla distanza secondo la relazione:
+
+𝑨𝒅𝑩 = 𝟑𝟐, 𝟒 + 𝟐𝟎 𝒍𝒐𝒈𝟏𝟎 (𝑫𝑲𝒎 ) + 𝟐𝟎 𝒍𝒐𝒈𝟏𝟎 (𝒇𝑴𝑯𝒛 )
+E’ il caso tipico dei ponti radio a microonde che utilizzano antenne direttive a fascio molto
+stretto per cui l’area in cui si propaga il segnale (ellissoide di Fresnell) è priva di ostacoli.
+
+9 Settembre 2026 - © i5WHC
+
+17
+
+La propagazione delle Onde Radio
+Propagazione per onda di terra (Surface or Ground Wave)
+E’ il modo prevalente con cui si propagano le onde
+EM in prossimità del suolo a distanza
+relativamente breve dall’antenna emittente.
+L’intensità dell’onda di terra decresce rapidamente
+in funzione della distanza e della frequenza ed, in
+particolare, delle caratteristiche dielettriche del
+suolo in cui parte dell’energia viene dissipata dalle
+correnti indotte.
+Proprio a causa di questa particolare caratteristica l’attenuazione dell’onda di terra risulta minore nel caso di
+campi con polarizzazione verticale in quanto in questo caso la componente di campo elettrico responsabile
+delle correnti indotte nel terreno, è perpendicolare al suolo
+Per questi motivi la propagazione per onde di terra è utilizzabile solo nello spettro delle LF e MF e
+limitatamente nella parte bassa dello spettro delle HF dove per poter coprire distanze significative è
+comunque necessario l’impiego di elevati livelli di potenza, l’onda di terra ha però il vantaggio di poter seguire
+la curvatura terrestre per effetto della deviazione del campo EM dovuta della minore velocità di propagazione
+dell’onda EM sul suolo, e quindi può propagarsi anche oltre la linea dell’orizzonte.
+9 Settembre 2026 - © i5WHC
+
+18
+
+La propagazione delle Onde Radio
+Propagazione troposferica (Tropo Scatter)
+Parliamo di Propagazione Troposferica quando l’onda EM attraversa gli strati più bassi
+dell’atmosfera tra 0 e 10 Km di altezza (Troposfera) subendo una rifrazione, un fenomeno che si
+manifesta indipendentemente dalla frequenza ma che viene utilizzato prevalentemente a
+frequenze elevate (VHF – UHF) dove, come vedremo più avanti, non ha effetto la propagazione
+ionosferica
+Analogamente a quanto avviene in ambito ottico, l’onda elettromagnetica che attraversa strati
+d’aria a diversa densità subisce una deviazione (rifrazione) che può portare il campo ad essere
+deviato fino a raggiungere terra ben oltre l’orizzonte. In questo modo si possono coprire distanze
+massime che possono raggiungere e, in certi particolari casi (Duct), superare gli 800-1000Km.
+
+9 Settembre 2026 - © i5WHC
+
+19
+
+La propagazione delle Onde Radio
+Propagazione Ionosferica (Skywave)
+Parliamo invece di Propagazione Ionosferica quando l’onda EM raggiunge gli strati più alti
+dell’atmosfera tra 100 e 400 Km di altezza (Ionosfera) prima di essere deviata di nuovo a terra,
+un fenomeno che si presenta però, come vedremo, solo in un ristretto range di frequenza
+compreso tra MF e HF in funzione del livello di ionizzazione della ionosfera stessa, livello che a
+sua volta dipende principalmente dalla radiazione solare e che solo raramente raggiunge livelli
+tali da interessare frequenze superiori a 30-40 MHz.
+I meccanismi che regolano la
+propagazione ionosferica sono
+estremamente complessi, proveremo
+a darne una breve spiegazione delle
+slide successive
+
+9 Settembre 2026 - © i5WHC
+
+20
+
+La propagazione delle Onde Radio
+Struttura e composizione e dell’atmosfera terrestre
+Vediamo adesso nel dettaglio quale
+è la struttura dell’atmosfera
+terrestre ed in particolare della zona
+compresa tra 80Km e 500Km di
+altezza, zona che in Geofisica è
+denominata «Termosfera» ma che
+nell’ambito delle radiocomunicazioni
+ha poi preso il nome di «Ionosfera»
+e di come questa interviene nella
+propagazione delle onde EM a
+grande distanza.
+
+9 Settembre 2026 - © i5WHC
+
+21
+
+La propagazione delle Onde Radio
+Composizione e Struttura della ionosfera
+La zona dell’atmosfera terrestre di altezza compresa tra un
+minimo di 80 km e un massimo di oltre 500 km, denominata
+termosfera o ionosfera si caratterizza da una particolare
+stratificazione dei gas che la compongono e che si presentano
+in forma ionica (plasma ionosferico), ovvero le relative
+molecole/atomi non risultano elettricamente neutre ma
+presentano una carica elettrica positiva dovuta alla perdita di
+elettroni a causa delle sollecitazioni dovute alla presenza della
+fortissima radiazione UV prodotta dai raggi solari e di altre
+radiazioni cosmiche, conseguentemente si registra una analoga
+presenza di elettroni liberi con carica negativa
+
+9 Settembre 2026 - © i5WHC
+
+22
+
+La propagazione delle Onde Radio
+Composizione e Struttura della ionosfera
+La presenza nella ionosfera, ad altezze comprese tra 80 e 400 Km, di strati a diverso livello di ionizzazione è quindi la
+condizione che permette alle onde radio di essere “deviate”, analogamente a quanto avviene per un fascio di luce
+che attraversi materiali a diversa densità (Legge di Snell)
+
+Strato D - è il più basso ed è presente in una zona della ionosfera
+compresa tra i 60 e 90 km di altezza, il livello di ionizzazione varia
+rapidamente nell’arco della giornata e di norma lo strato D è presente
+solo di giorno.
+
+Strato E - presente in una zona compresa tra i 100 e i 140 Km di altezza,
+noto anche con il nome di “Kennelly-Heaviside Layer” il livello di
+ionizzazione dello strato è legato alla radiazione solare diurna e di
+conseguenza varia significativamente nell’arco della giornata
+
+Strato F - occupa una vasta zona compresa tra i 150 e i 400 Km di
+altezza, noto anche con il nome di “Appleton-Barnett Layer” presenta il
+più alto livello di ionizzazione di tutta la ionosfera, è sempre presente
+anche di notte e ha la particolarità che durante il giorno la
+concentrazione delle cariche si distribuisce su due distinti livelli
+sovrapposti denominati “F1” e “F2”
+9 Settembre 2026 - © i5WHC
+
+23
+
+La propagazione delle Onde Radio
+Composizione e Struttura della ionosfera
+A differenza degli strati E ed F lo strato D non è di alcuna
+utilità per la propagazione delle onde elettromagnetiche a
+causa del livello di ionizzazione troppo basso e, sulla parte
+bassa delle HF, il suo effetto è addirittura dannoso in quanto
+è causa di forte attenuazione per assorbimento.
+
+Lo strato E ma soprattutto lo strato F sono invece in grado di
+deviare il percorso delle onde elettromagnetiche che li
+attraversano fino al punto di causarne la riflessione verso
+terra in funzione dell’angolo di incidenza con cui il fascio
+raggiunge lo strato ionizzato
+Come vedremo meglio più avanti si definisce «Frequenza
+Critica» (f0) dello strato la massima frequenza che permette
+la riflessione per qualsiasi angolo di incidenza (riflessione
+totale)
+
+9 Settembre 2026 - © i5WHC
+
+24
+
+La propagazione delle Onde Radio
+Composizione e Struttura della ionosfera
+La ionosfera terrestre si presenta quindi come
+un plasma con valori di Ne (densità elettronica)
+stratificati e variabili in funzione dell’altezza Il
+livello di densità elettronica (ionizzazione)
+varia in relazione al ciclo solare e il valore
+massimo di Ne si raggiunge di giorno intorno ai
+350Km di altezza (Strato F2). Le cariche
+elettriche libere fanno sì che il plasma sia un
+buon conduttore di elettricità, e che risponda
+fortemente ai campi elettromagnetici.
+La fisica del plasma ionosferico ci dice che la
+«Frequenza di Plasma» f0 è la frequenza del
+moto armonico con cui gli elettroni si muovono
+all’interno del plasma e dipende dalla densità
+di cariche libere presenti e di conseguenza
+varia in linea con la variazione del livello di
+ionizzazione.
+9 Settembre 2026 - © i5WHC
+
+25
+
+La propagazione delle Onde Radio
+Composizione e Struttura della ionosfera
+Il valore della Frequenza critica (f0) del plasma ionosferico non è costante ma varia
+durante il giorno in base all’orario, i valori minimi e massimi che può assumere dipendono
+dal ciclo solare e di norma sono compresi tra 2Mhz (di notte al minimo del ciclo solare) e
+12Mhz (di giorno durante il massimo del ciclo solare). Il valore di f0 è monitorato
+costantemente dalla rete mondiale degli istituti di geofisica attraverso le «ionosonde».
+
+http://ionos.ingv.it/Roma/latest.html
+
+9 Settembre 2026 - © i5WHC
+
+26
+
+La propagazione delle Onde Radio
+Composizione e Struttura della ionosfera
+La frequenza di plasma detta anche «Frequenza Critica» F0 definisce il limite oltre il quale il
+comportamento del plasma ionosferico nei confronti di un campo EM si modifica.
+In particolare possiamo identificare 3 diverse condizioni in funzione di F0:
+
+1.
+
+La frequenza F del fascio EM che raggiunge la ionosfera è minore della
+frequenza critica (F ≤ F0). In questo caso il plasma si comporta come un
+«buon conduttore» causando sempre la riflessione totale del fascio
+
+2.
+
+La frequenza F del fascio EM che raggiunge la ionosfera è maggiore della
+frequenza critica (F > F0). In questo secondo caso il plasma si comporta come
+un «mezzo a indice di rifrazione variabile in funzione della frequenza e del
+livello di ionizzazione» causando la deviazione del fascio che l’attraversa in
+funzione del valore assunto dall’indice di rifrazione e dell’angolo di incidenza.
+
+3.
+
+La frequenza F del fascio EM che raggiunge la ionosfera è molto maggiore
+della frequenza critica (F ≫ F0). In questo ultimo caso il plasma è «totalmente
+trasparente» al fascio EM che non subisce variazioni
+9 Settembre 2026 - © i5WHC
+
+27
+
+La propagazione delle Onde Radio
+Composizione e Struttura della ionosfera
+Concentriamo adesso la nostra attenzione sul caso 2 in cui la frequenza f del fascio EM che
+raggiunge la ionosfera è maggiore della frequenza critica (F > F0)
+Abbiamo visto che in questo caso il plasma si comporta come un mezzo a indice di rifrazione
+variabile causando la deviazione del fascio in funzione del valore assunto dall’indice di
+rifrazione con le stesse regole dell’ottica geometrica descritte dalla legge di Snell:
+Analogamente ad un fascio di luce, l’onda EM che
+attraversa mezzi con diverso indice di rifrazione
+subisce una deviazione a causa della diversa velocità
+con cui l’onda stessa si propaga in tali mezzi
+La
+direzione
+di
+propagazione
+dell’onda
+elettromagnetica che attraversa gli strati a diversa
+densità di ionizzazione subisce quindi una deviazione
+la cui entità è funzione della frequenza e della
+diversa densità di ionizzazione dello strato che
+attraversa.
+9 Settembre 2026 - © i5WHC
+
+28
+
+La propagazione delle Onde Radio
+Zona d’ombra
+
+Zona d’ombra
+
+Appare evidente, sulla base di quanto abbiamo appena visto, che per frequenze maggiori di f0 la
+riflessione avviene solo per angoli di incidenza maggiori di un certo valore (ϴc Angolo Critico) valore
+angolare che cresce all’aumentare della frequenza, i fasci di onde elettromagnetiche con frequenza
+superiore alla frequenza critica (f>f0) e che raggiungono la ionosfera con angoli minori di tale angolo
+«bucano» lo strato e non vengono deviati verso terra, ne consegue che per tali frequenze si potranno
+determinare «Zone d’ombra» in cui il segnale radio non potrà essere ricevuto.
+9 Settembre 2026 - © i5WHC
+
+29
+
+La propagazione delle Onde Radio
+Frequenza Critica – MUF LUF e FOT
+Sulla base di quanto appena visto possiamo quindi affermare che in funzione dei livelli
+di ionizzazione dello strato riflettente esiste una frequenza massima oltre la quale la
+riflessione non è più possibile indipendentemente dall’angolo di incidenza.
+Si definisce MUF (Maximum Usable Frequency) la massima frequenza utilizzabile che
+permette la riflessione del fascio radio. Il valore della MUF è mediamente circa il triplo
+di f0 (MUF ≅ 3*f0)
+Analogamente esiste un valore LUF (Lower Usable Frequency) che ci indica la minima
+frequenza utilizzabile al di sotto della quale i fenomeni di attenuazione e di
+assorbimento sono tali da rendere impossibile il collegamento radio.
+Poiché in entrambi i casi si tratta di valori limite è stato definito un ulteriore parametro
+FOT (Frequency of Optimum Traffic) che ci indica il valore ottimale di frequenza da
+utilizzare per una determinata destinazione.
+
+Questo valore è mediamente compreso tra 80% e 90% della MUF
+9 Settembre 2026 - © i5WHC
+
+30
+
+La propagazione delle Onde Radio
+Mappa della MUF
+
+https://prop.kc2g.com/
+9 Settembre 2026 - © i5WHC
+
+31
+
+La propagazione delle Onde Radio
+Massima distanza con singola riflessione
+
+9 Settembre 2026 - © i5WHC
+
+32
+
+La propagazione delle Onde Radio - Multihop path
+E’ opportuno evidenziare come Il percorso via riflessione ionosferica può realizzarsi in diverse
+modalità e condizioni anche attraverso riflessioni e rifrazioni multiple che possono interessare
+strati diversi della ionosfera. Vediamo alcuni esempi:
+Chordal Mode
+
+2E
+
+Duct Mode
+1F1E
+
+Superfice terrestre
+
+Le modalità Duct e Chordal è più probabile che si presentino alle latitudini equatoriali (TEP o anomalia
+equatoriale) o lungo la “gray line” (zona di confine tra giorno e notte) e permettono generalmente di avere
+una minore attenuazione in quanto il segnale radio non attraversa ripetutamente gli strati D ed E come
+avviene nelle riflessioni multiple a terra.
+9 Settembre 2026 - © i5WHC
+33
+
+La propagazione delle Onde Radio
+Il ciclo solare
+Come accennato all’inizio Il livello di
+ionizzazione degli strati riflettenti della
+ionosfera dipende direttamente dal livello
+dell’attività solare che a sua volta è legato alla
+presenza delle «macchie solari» oltre ad altri
+fenomeni classificati come SID (Sudden
+ionospheric disturbance) eventi improvvisi che
+possono essere anche indipendenti dal ciclo
+solare quali Brillamenti Solari (Flares), Buchi
+Coronali (Coronal Holes), Eruzioni solari nella
+cromosfera (CME).
+Vediamo adesso la relazione esistente tra l’attività solare e il comportamento della
+ionosfera in relazione alle condizioni di propagazione.
+
+9 Settembre 2026 - © i5WHC
+
+34
+
+La propagazione delle Onde Radio
+Il ciclo solare
+Esistono quattro cicli nel sistema solare che influenzano i livelli di ionizzazione della
+ionosfera terrestre
+•
+•
+•
+•
+
+Ciclo undecennale dell’attività solare (Sunspot cycle)
+Ciclo di rotazione solare sul proprio asse (27 giorni)
+Ciclo orbitale terrestre (percorso orbitale della terra intorno al sole)
+Ciclo di rotazione terrestre sul proprio asse (alternanza giorno notte)
+
+Vediamo adesso nel dettaglio come ciascuno di essi ha influenza sulla ionizzazione
+e quindi sulla propagazione dei segnali radio.
+
+9 Settembre 2026 - © i5WHC
+
+35
+
+La propagazione delle Onde Radio
+Il ciclo solare undecennale
+Esiste una relazione diretta tra il numero di macchie solari (SSN) presenti sulla superfice
+solare (fotosfera) e il livello delle radiazioni ionizzanti che raggiungono la ionosfera
+terrestre. La presenza delle macchie solari ha un andamento ciclico undecennale e varia
+dall’assenza totale ad un massimo che può raggiungere un valore di SSN di oltre 200-300
+
+9 Settembre 2026 - © i5WHC
+
+36
+
+La propagazione delle Onde Radio
+Il ciclo solare
+Andamento del 25° Ciclo iniziato nel 2020
+
+9 Settembre 2026 - © i5WHC
+
+37
+
+La propagazione delle Onde Radio
+Ciclo di rotazione solare sul proprio asse (27 giorni )
+Il Sole come ogni altra stella è costituita da plasma e quindi non ha un moto di rotazione uniforme
+ma la sua velocità è maggiore all’equatore e minore ai poli. Il periodo di rotazione medio del sole è
+di circa 25,4 giorni (periodo sidereo) ma un eventuale punto fisso sulla superfice del sole, osservato
+dalla terra, appare nella stessa posizione dopo circa 27 giorni (periodo sinodico) a causa del
+movimento di rivoluzione terrestre che sposta il punto di osservazione lungo l’orbita terrestre.
+Poiché come abbiamo visto la presenza delle
+macchie solari influenza significativamente il
+comportamento della ionosfera dobbiamo tenere
+conto che anche nei periodi di elevata presenza di
+macchie le stesse possono non essere
+uniformemente distribuite sulla superficie solare
+e quindi vi potrà essere una fluttuazione nei livelli
+di ionizzazione dovuta al fatto che il numero di
+macchie presenti sulla superfice solare esposta
+verso la terra può variare significativamente con
+un periodo di 27 giorni.
+9 Settembre 2026 - © i5WHC
+
+38
+
+La propagazione delle Onde Radio
+Ciclo orbitale terrestre (Rivoluzione )
+A causa dell’inclinazione dell’asse terrestre rispetto al piano orbitale (eclittica), la terra è
+raggiunta dai raggi solari con inclinazione variabile (declinazione solare), ciò è causa
+dell’alternanza delle stagioni e del variare del rapporto giornaliero tra la durata del giorno e
+della notte effetto che peraltro è più evidente alle alte latitudini
+Come abbiamo visto la radiazione solare, ed in particolare le componenti di radiazione UV e X
+sono le principali responsabili della ionizzazione, poiché l’intensità della radiazione che
+raggiunge la ionosfera, ed in particolare gli starti più bassi, sarà proporzionale all’angolo con
+cui tali radiazioni la raggiungono, nonché dalla durata dell’esposizione, il livello di ionizzazione
+varierà anche in funzione del ciclo stagionale.
+
+9 Settembre 2026 - © i5WHC
+
+39
+
+La propagazione delle Onde Radio
+Ciclo di rotazione terrestre sul proprio asse (alternanza giorno notte )
+L’alternanza giorno notte determina due variazioni nel comportamento della ionosfera.
+La prima interessa gli strati bassi D ed E dove la velocità di ricombinazione è tale,
+soprattutto per lo strato D, da far si che lo strato scompaia contestualmente al
+tramonto per ricomparire all’alba successiva, il processo è analogo anche per lo strato
+E anche se avviene con tempi più lunghi che fanno si che il decadimento del livello di
+ionizzazione dello strato E non sia immediato come per lo strato D ma sia più graduale.
+La seconda variazione riguarda invece lo strato F ed in particolare la suddivisione
+diurna dello strato F nei due sottostrati F1 e F2 che durante la notte si ricompongono
+in un unico strato con un livello di ionizzazione comunque più basso rispetto alle ore
+diurne
+
+9 Settembre 2026 - © i5WHC
+
+40
+
+La propagazione delle Onde Radio
+Ciclo di rotazione terrestre sul proprio asse (alternanza giorno notte )
+Gli effetti sulla propagazione di queste variazioni sono abbastanza noti ed in particolare
+sono più evidenti nei periodi di scarsa attività solare dove i livelli di ionizzazione più bassi
+fanno si che le bande alte (sopra i 40 m) siano “aperte” solo nelle ore centrali del giorno
+mentre di notte generalmente la MUF scende sotto i 10 MHz rendendole di fatto
+inutilizzabili.
+Nei periodi invece di massima attività solare le bande alte possono rimanere aperte
+anche di notte e poter avere buoni segnali soprattutto nelle prime ore dopo il tramonto
+(Gray Line) quando, diminuita l’attenuazione dovuta agli strati più bassi, i livelli di
+ionizzazione dello strato F sono ancora molto elevati, si può notare infatti come
+generalmente i valori di MUF si mantengono elevati per alcune ore anche dopo il
+tramonto.
+
+9 Settembre 2026 - © i5WHC
+
+41
+
+Grazie
+per l’attenzione
+
+9 Settembre 2026 - © i5WHC
+
+42
+
+

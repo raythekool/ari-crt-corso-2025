@@ -1,0 +1,265 @@
+I diodi
+Gli alimentatori lineari
+Gli alimentatori a commutazione
+
+ARI CRT - Corso OM 2026
+
+1
+
+Dispositivo a semiconduttore che consente il
+passaggio di corrente in un solo senso
+
+ARI CRT - Corso OM 2026
+
+2
+
+E’ composto da due parti di silicio drogato
+
+ARI CRT - Corso OM 2026
+
+3
+
+Immagine: Elemania
+ARI CRT - Corso OM 2026
+
+4
+
+Il semiconduttore tipico: il silicio
+(4 elettroni di valenza)
+Drogaggio P
+Esempio: Indio
+(3 elettroni di valenza)
+
+Drogaggio N
+Esempio: Arsenico
+(5 elettroni di valenza)
+
+Si formano “lacune”
+positive
+
+Si formano elettroni
+liberi
+
+ARI CRT - Corso OM 2026
+
+5
+
+Immagine: PhysicsOpenLab
+ARI CRT - Corso OM 2026
+
+6
+
+La soglia di conduzione dei diodi al silicio è di 0,7 V
+ARI CRT - Corso OM 2026
+
+Immagini: Popinga
+7
+
+Serve a rendere PULSANTE una corrente
+alternata
+Serve a ESTRARRE un segnale a frequenza audio
+(BF) da un segnale RF modulato
+
+ARI CRT - Corso OM 2026
+
+8
+
+Massima tensione inversa: massimo valore
+tensione applicabile senza danni
+Massima corrente: massimo valore di corrente
+applicabile in polarizzazione diretta senza danni
+Massima potenza: massimo prodotto corrente e
+caduta di tensione in polarizzazione diretta
+(0,7V) , sopportabile senza che subisca danni
+ARI CRT - Corso OM 2026
+
+9
+
+• Diodo raddrizzatore
+• Diodo LED
+• Diodo Zener
+• Diodo Varicap
+• Diodo Hot-Carrier
+
+ARI CRT - Corso OM 2026
+
+10
+
+Quando è attraversato da corrente (polarizzazione
+diretta) tra i suoi capi cadono 0,7 V
+
+ARI CRT - Corso OM 2026
+
+11
+
+E’ in grado di emettere luce
+Lavora in polarizzazione diretta
+
+ARI CRT - Corso OM 2026
+
+12
+
+E’ in grado stabilizzare la tensione ai suoi capi
+Lavora in polarizzazione inversa
+
+ARI CRT - Corso OM 2026
+
+13
+
+Cambia la capacità al variare della tensione
+applicata: fa le funzioni di un condensatore
+variabile
+Lavora in polarizzazione inversa
+
+ARI CRT - Corso OM 2026
+
+14
+
+Detto anche diodo Shottky
+Ha una giunzione metallo-semiconduttore
+E’ un diodo veloce, usato in UHF e SHF
+
+ARI CRT - Corso OM 2026
+
+15
+
+• Diodo raddrizzatore
+
+trasforma CA in CC
+
+• Diodo LED
+
+emette luce
+
+• Diodo Zener
+
+stabilizza la tensione
+
+• Diodo Varicap
+
+capacità variabile
+
+• Diodo Hot-Carrier
+
+è veloce (UHF-SHF)
+
+ARI CRT - Corso OM 2026
+
+16
+
+ARI CRT - Corso OM 2026
+
+17
+
+ARI CRT - Corso OM 2026
+
+18
+
+A cosa serve il trasformatore in un alimentatore?
+Trasforma la tensione di rete (220 V) in una
+tensione vicina a quella di uscita (es. : 18 V)
+Garantisce l’ Isolamento galvanico : separazione
+elettrica tra due circuiti in modo da impedire il
+passaggio di corrente tra di essi
+
+ARI CRT - Corso OM 2026
+
+19
+
+ARI CRT - Corso OM 2026
+
+20
+
+Alimentato da una tensione alternata, fornisce in
+uscita una tensione continua pulsante di
+frequenza uguale a quella in ingresso
+
+ARI CRT - Corso OM 2026
+
+21
+
+Alimentato da una tensione alternata, fornisce in
+uscita una tensione continua pulsante di
+frequenza doppia di quella in ingresso
+
+Trasformatore con secondario doppio + 2 diodi
+ARI CRT - Corso OM 2026
+
+22
+
+Alimentato da una tensione alternata, fornisce in
+uscita una tensione continua pulsante di
+frequenza doppia di quella in ingresso
+
+Trasformatore con secondario singolo + 4 diodi
+ARI CRT - Corso OM 2026
+
+23
+
+Servono a ‘spianare’ l’andamento pulsante e a
+fornire una tensione davvero continua
+Tipicamente si usano condensatori di alta
+capacità (elettrolitici)
+
+ARI CRT - Corso OM 2026
+
+24
+
+Servono a rendere costante la tensione di uscita
+
+ARI CRT - Corso OM 2026
+
+25
+
+Il transistor di regolazione viene pilotato in base alla “tensione di
+errore”: la differenza tra la tensione di uscita ed un riferimento
+noto
+ARI CRT - Corso OM 2026
+
+26
+
+ARI CRT - Corso OM 2026
+
+27
+
+Tensione
+continua
++310 Vcc
+
+Tensione
+alternata
+310 Vca
+30-60 KHz
+
+PARTE COLLEGATA ALLA RETE ELETRICA
+ARI CRT - Corso OM 2026
+
+PARTE “SICURA”
+28
+
+• E’ composto da un diodo LED ed un fototransistor
+posti nello stesso contenitore
+• Realizza la separazione galvanica tra ingresso ed
+uscita
+
+ARI CRT - Corso OM 2026
+
+29
+
+PREGI DEGLI SWITCHING
+• Sono più piccoli e leggeri degli alimentatori lineari
+• Sono più efficienti degli AL: rendimento 70-90%
+• Costo più basso (trasformatore, dissipatore)
+DIFETTI DEGLI SWITCHING
+• Generano interferenze a RF
+• Tempi di risposta al transitorio più lenti
+• Segnale uscita non perfettamente livellato
+ARI CRT - Corso OM 2026
+
+30
+
+ARI CRT - Corso OM 2026
+
+31
+
+

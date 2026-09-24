@@ -1,0 +1,311 @@
+L’induttore
+La reattanza induttiva
+Il trasformatore
+
+ARI CRT - Corso OM 2026
+
+1
+
+I magneti sono corpi che generano un campo
+magnetico (es.: magnetite, neodimio)
+Hanno due poli (nord e sud)
+I poli di polarità opposta si attraggono, di
+polarità uguale si respingono
+
+ARI CRT - Corso OM 2026
+
+2
+
+Nel 1811 Oersted scoprì che un conduttore
+percorso da corrente elettrica genera un
+campo magnetico
+
+Immagine: chimica online
+ARI CRT - Corso OM 2026
+
+3
+
+Se un conduttore viene percorso da corrente, si
+genera intorno ad esso un campo magnetico radiale
+al conduttore
+L’intensità del campo magnetico è proporzionale
+alla corrente che transita
+
+ARI CRT - Corso OM 2026
+
+4
+
+Nel 1830 Faraday scoprì che
+se si avvicina o si allontana
+un magnete da una spira,
+nella spira compare una
+corrente
+C’è corrente solo se c’è moto relativo tra spira e magnete
+Il moto relativo varia la quantità di campo magnetico che
+attraversa la spira
+Un movimento più veloce genera una corrente più intensa
+Immagine: PoliBa
+ARI CRT - Corso OM 2026
+
+5
+
+Simbolo elettrico
+
+Componente che sviluppa un campo
+magnetico quando è percorso da corrente
+ARI CRT - Corso OM 2026
+
+6
+
+L’induttanza è la grandezza che esprime
+quanto campo magnetico può generare un
+induttore (una bobina)
+Induttanza (L) = rapporto fra flusso
+magnetico (Weber) e corrente (Ampere)
+Unità di misura = henry (H)
+1 henry = 1 weber : 1 ampere
+ARI CRT - Corso OM 2026
+
+7
+
+L’induttanza di una bobina:
+- cresce col quadrato del numero di spire (N)
+- cresce col diametro (S)
+- diminuisce con la lunghezza (l)
+- cresce con la permeabilità magnetica del
+nucleo (μ)
+2 S
+N
+L=μ
+l
+
+ARI CRT - Corso OM 2026
+
+8
+
+Grandezza fisica che esprime l’attitudine di un
+materiale a magnetizzarsi in presenza di un campo
+magnetico
+I materiali con maggiore permeabilità magnetica
+sono detti ferromagnetici (magnetite, nichel,
+ferro, cobalto, leghe)
+Il nucleo fornisce un percorso
+privilegiato al campo magnetico
+ARI CRT - Corso OM 2026
+
+9
+
+Se l’induttore è attraversato da una corrente
+alternata, nel nucleo passa un campo
+magnetico alternato
+Il nucleo genera delle perdite, che provocano
+il suo riscaldamento
+
+ARI CRT - Corso OM 2026
+
+10
+
+Induttore variabile
+Simbolo elettrico:
+
+ARI CRT - Corso OM 2026
+
+11
+
+Per gli induttori valgono le formule già viste
+per i resistori:
+
+ARI CRT - Corso OM 2026
+
+12
+
+Domanda 1:
+Qual è l’induttanza totale di 2 induttori di 150
+μH e 250 μH collegati in serie?
+Risposta: 150 + 250 = 400 μH
+Domanda 2:
+Qual è l’induttanza totale di 2 induttori di 200
+μH e 300 μH collegati in parallelo?
+Risposta: (200x300)/(200+300) = 120 μH
+ARI CRT - Corso OM 2026
+
+Cosa succede
+quando si collega un
+induttore a una
+tensione continua?
+La corrente cresce
+con una certa
+lentezza: è in
+“ritardo” rispetto
+alla tensione
+ARI CRT - Corso OM 2026
+
+14
+
+Si misura in secondi (s)
+Vale: τ = L / R
+
+E’ il tempo impiegato a raggiungere il 63%
+della corrente di regime
+ARI CRT - Corso OM 2026
+
+15
+
+ARI CRT - Corso OM 2026
+
+16
+
+Quando varia la corrente che attraversa una
+bobina, varia anche il campo magnetico
+Questa variazione genera nella bobina una
+corrente indotta (Faraday)
+Il verso della corrente indotta è tale da
+opporsi alla variazione che la ha generata
+
+ARI CRT - Corso OM 2026
+
+17
+
+Immagazzina energia sottoforma di campo
+magnetico, opponendosi al passaggio della
+corrente alternata
+
+La corrente continua lo può
+attraversare
+La corrente alternata viene
+ostacolata
+ARI CRT - Corso OM 2026
+
+18
+
+E’ la forza di opposizione che un induttore
+produce al passaggio della corrente
+alternata
+Si misura in ohm (Ω)
+Varia in funzione della frequenza
+Si indica con XL e vale:
+
+ARI CRT - Corso OM 2026
+
+XL = 2 π f L
+19
+
+XL = 2 π f L
+
+ARI CRT - Corso OM 2026
+
+20
+
+Consideriamo un induttore da 10 mH
+Quanto vale la sua reattanza a 100 KHz?
+Quanto vale la sua reattanza a 1 MHz?
+Quanto vale la sua reattanza a 10 MHz?
+
+XL = 2 π f L
+ARI CRT - Corso OM 2026
+
+21
+
+Quando una corrente alternata attraversa
+un induttore:
+La corrente è in RITARDO rispetto alla
+tensione di 90°
+ovvero
+
+La tensione è in ANTICIPO rispetto alla
+corrente di 90°
+ARI CRT - Corso OM 2026
+
+22
+
+Fenomeno per il quale la
+corrente alternata tende,
+aumentando la
+frequenza, a scorrere
+sulla superficie esterna
+del conduttore
+
+ARI CRT - Corso OM 2026
+
+23
+
+Fonte: Quattrodispositivi.it
+
+ARI CRT - Corso OM 2026
+
+24
+
+ARI CRT - Corso OM 2026
+
+25
+
+Dispositivo elettrico in grado di trasformare
+la tensione di una corrente alternata
+
+Simbolo elettrico
+ARI CRT - Corso OM 2026
+
+26
+
+Il campo magnetico generato da un
+induttore percorso da corrente alternata
+induce a sua volta una corrente indotta in
+un secondo induttore ‘accoppiato’ al primo
+
+ARI CRT - Corso OM 2026
+
+27
+
+Ha due avvolgimenti, chiamati
+- primario (di solito l’ingresso del 220 V)
+- secondario (l’uscita alla tensione desiderata – es.:12 V)
+Primario e secondario sono avvolti su un nucleo
+ferromagnetico che concatena il flusso magnetico tra i
+due, disperdendone pochissimo
+Le potenze applicate sul primario e sul secondario si
+considerano uguali (rendimento teorico = 100%)
+
+ARI CRT - Corso OM 2026
+
+28
+
+Il ‘rapporto di trasformazione’ (k) è dato dal
+rapporto fra le spire del primario (Np) e del
+secondario(Ns).
+K = Np : Ns
+K = Vin : Vout
+Vale anche la seguente relazione:
+Vout = Vin : K
+ARI CRT - Corso OM 2026
+
+29
+
+Un trasformatore ha:
+- il primario di 500 spire
+- il secondario di 25 spire
+Qual è il suo rapporto di trasformazione K ?
+K = Np : Ns = 500 : 25 = 20
+Se al primario si applica una tensione di 220V, che
+tensione avremo sul secondario?
+Vout = Vin : K = 220V/20 = 11 V
+ARI CRT - Corso OM 2026
+
+30
+
+Un trasformatore ha il primario a 220 V ed il
+secondario a 22 V.
+Se nel primario scorre una corrente di 1 A, quale
+corrente scorrerà nel secondario?
+P=V*I I=P/V V=P/I
+Potenza sul primario:
+P = V*I = 220V*1A = 220W
+Corrente sul secondario: I = P/V = 220W/22V = 10A
+ARI CRT - Corso OM 2026
+
+31
+
+ARI CRT - Corso OM 2026
+
+32
+
+

@@ -1,451 +1,213 @@
 ---
 layout: default
-title: "Alfabeto Fonetico, Codice Q e Indicativi"
+title: "Bande Radioamatoriali, Normativa e Enti"
 permalink: /guide-studio/lezione_09.html
 ---
 
-# 📘 Lezione 09 - Alfabeto Fonetico, Codice Q e Indicativi
+# 📘 Lezione 09 - Bande Radioamatoriali, Normativa e Enti
 
 ## 📌 Panoramica
 
-- **Materia**: Normativa radioamatoriale — Alfabeto fonetico, indicativi di chiamata, abbreviazioni telegrafiche, codice Q, rapporto RST e locatore
+- **Materia**: Normativa radioamatoriale — Spettro elettromagnetico, Bande di frequenza, Band Plan, Enti regolatori (ITU, IARU, ARI, MIMIT), Patente e Autorizzazione Generale.
 - **Tempo di studio stimato**: 2 ore e 30 minuti
-- **Prerequisiti**: Conoscenze base di matematica (lezione 08), nozioni generali sul radioamatore
+- **Prerequisiti**: Concetti fisici di base (lunghezza d'onda e frequenza)
 - **Obiettivi di apprendimento**:
-  - Correggere e consolidare gli esercizi di matematica della lezione precedente
-  - Conoscere l'alfabeto fonetico NATO/ICAO/ITU e la sua importanza nelle comunicazioni radio
-  - Comprendere la struttura degli indicativi di chiamata italiani e internazionali
-  - Memorizzare le abbreviazioni telegrafiche previste dal tema d'esame
-  - Padroneggiare il codice Q nelle sue forme di domanda e risposta
-  - Comprendere il sistema RST (Readability, Strength, Tone)
-  - Conoscere il Maidenhead Locator System per l'identificazione geografica
+  - Comprendere la relazione tra lunghezza d'onda e frequenza
+  - Conoscere le suddivisioni dello spettro radio (VLF, LF, MF, HF, VHF, UHF, ecc.)
+  - Memorizzare le principali bande radioamatoriali e il loro status (esclusivo, primario, secondario)
+  - Capire a cosa serve e come si usa il Band Plan
+  - Conoscere gli enti regolatori e le associazioni: ITU, IARU, ARI, MIMIT
+  - Comprendere l'iter burocratico: Patente e Autorizzazione Generale
 
 ---
 
 ## 📖 Contenuti Teorici
 
-### 1. 📝 Correzione quiz Lezione 08 — Ripasso matematica
+### 1. 📏 Lunghezza d'onda e Frequenza
 
-La prima parte della lezione è dedicata alla correzione degli esercizi assegnati da Lucia nella lezione 08. Questa sessione di verifica serve a consolidare le competenze matematiche necessarie per il resto del corso e per l'esame.
+La fisica delle onde elettromagnetiche si basa su due concetti fondamentali tra loro inversamente proporzionali:
+- **$\lambda$ (Lunghezza d'onda)**: la distanza tra due creste successive di un'onda.
+- **$f$ (Frequenza)**: il numero di oscillazioni nell'unità di tempo.
 
-#### 🔹 Esercizi di notazione scientifica e conversione di unità
+La formula che le lega è: **$f = 1 / \lambda$** (considerando la velocità della luce costante).
 
-Gli esercizi corretti includono diverse tipologie:
+<div align="center"><img src="../assets/images/lezioni/lezione_09/slide-03.jpg" alt="Lunghezza d'onda e Frequenza" width="50%"></div><br>
 
-- **Conversione in notazione scientifica**: ad esempio $160 \times 10^9$ deve essere scritto come $1{,}6 \times 10^{11}$.
-- **Esponenti negativi**: $14 \times 10^{-3} = 0{,}014$.
-- **Resistenze in parallelo**: usando la formula $R = \frac{R_1 \times R_2}{R_1 + R_2}$ con attenzione alla conversione delle unità (es. $k\Omega$ e $\Omega$).
-- **Resistenze in serie** con unità miste: somma di valori espressi in $\Omega$ e $k\Omega$.
-- **Conversioni tra multipli e sottomultipli**: picofarad in nanofarad, MHz in Hz ($100 \text{ MHz} = 10^8 \text{ Hz}$), GHz in THz ($1 \text{ GHz} = 10^{-3} \text{ THz}$).
-- **Regole degli esponenti**: moltiplicazione di potenze con la stessa base.
-- **Logaritmi**: $\log 2 \approx 0{,}3$, calcolo di $20 \times \log 3 \approx 9{,}54$.
+### 2. 🌈 Lo Spettro Elettromagnetico e lo Spettro Radio
 
-I risultati dei corsisti sono stati nel complesso positivi.
+Lo **spettro elettromagnetico** è l'insieme di tutte le onde elettromagnetiche (forme di energia che si propagano nello spazio sotto forma di onde invisibili). Fenomeni molto diversi (come la luce visibile, i raggi X e le onde radio) sono tutti riconducibili allo stesso fenomeno fisico, variando unicamente la frequenza.
 
-#### 🔹 Discussione sull'uso della calcolatrice all'esame
+<div align="center"><img src="../assets/images/lezioni/lezione_09/slide-04.jpg" alt="Spettro Elettromagnetico" width="50%"></div><br>
 
-Un punto importante emerso dalla discussione riguarda l'uso della **calcolatrice durante l'esame**. Non è certo se sarà consentita, poiché dipende dal decreto ministeriale vigente al momento dell'esame. In ogni caso, se la calcolatrice non fosse ammessa, i calcoli richiesti saranno sufficientemente semplici da poter essere eseguiti a mente. Gli esercizi proposti da Lucia sono stati volutamente più difficili rispetto a quelli d'esame, come una sorta di "palestra" per allenare le competenze matematiche.
+All'interno dello spettro elettromagnetico, lo **spettro radio** copre le frequenze utilizzate per le radiocomunicazioni. Ecco le principali suddivisioni:
 
-> "Se non fosse consentita la calcolatrice, i calcoli saranno sufficientemente semplici da poter essere eseguiti a mente."
+- **VLF** (Very Low Frequencies, 3-30 kHz): Onde miriametriche, usate per comunicazioni con sommergibili.
+- **LF** (Low Frequencies, 30-300 kHz): Onde chilometriche.
+- **MF** (Medium Frequencies, 300-3000 kHz): Onde ettometriche (es. Radio AM).
+- **HF** (High Frequencies, 3-30 MHz): Onde decametriche (Radioamatori, CB).
+- **VHF** (Very High Frequencies, 30-300 MHz): Onde metriche (Radio FM, TV, Radioamatori).
+- **UHF** (Ultra High Frequencies, 300-3000 MHz): Onde decimetriche (TV, cellulari, ponti radio).
+- **SHF / EHF**: Onde centimetriche e millimetriche (Radar, satelliti, microonde).
 
-I logaritmi verranno utilizzati nel prosieguo del corso per il calcolo dei **decibel**.
+<div align="center"><img src="../assets/images/lezioni/lezione_09/slide-07.jpg" alt="Spettro Radio" width="50%"></div><br>
 
----
+### 3. 📻 Bande Radioamatoriali e Tipologie di Utilizzo
 
-### 2. 📡 Alfabeto fonetico NATO/ICAO/ITU
+Le frequenze assegnate ai radioamatori sono suddivise in diverse bande, nominate in base alla lunghezza d'onda approssimativa. Alcune delle principali:
+- **160 metri** (1830–1850 kHz)
+- **80 metri** (3500–3800 kHz)
+- **40 metri** (7000–7200 kHz)
+- **20 metri** (14 000–14 350 kHz)
+- **10 metri** (28 000–29 700 kHz)
+- **2 metri** (144,000–146,000 MHz) in VHF
+- **70 centimetri** (430.000 MHz) in UHF
 
-Con l'inizio della parte di **normativa**, il docente Silvio (IZ5DIY) introduce il primo dei quattro argomenti fondamentali della serata. L'alfabeto fonetico è uno standard internazionale sviluppato dall'**ICAO** (International Civil Aviation Organization) e adottato dall'**ITU** (International Telecommunication Union).
+<div align="center"><img src="../assets/images/lezioni/lezione_09/slide-09.jpg" alt="Bande Radioamatoriali" width="50%"></div><br>
 
-#### 🔹 Scopo e caratteristiche
+L'utilizzo di queste bande può essere di tre tipi:
+- **Uso Esclusivo**: I radioamatori hanno il controllo totale sulla banda.
+- **Uso Primario**: I radioamatori hanno priorità su altri servizi.
+- **Uso Secondario**: I radioamatori possono usare la banda, a condizione di **non interferire** con i servizi che la usano a titolo primario.
 
-L'**alfabeto fonetico** — detto anche NATO phonetic alphabet — nasce per eliminare le ambiguità nello spelling delle lettere durante le comunicazioni radio. In condizioni di segnale debole o disturbato, lettere come P, B e T possono essere facilmente confuse. Usando le parole convenzionali (Papa, Bravo, Tango), l'ambiguità viene eliminata.
+<div align="center"><img src="../assets/images/lezioni/lezione_09/slide-10.jpg" alt="Esclusivo Primario Secondario" width="50%"></div><br>
 
-**Caratteristiche delle parole scelte**:
+### 4. 📊 Larghezza di Banda e Band Plan
 
-- Non confondibili tra loro, anche in condizioni di ascolto difficili
-- Riconoscibili a livello internazionale
-- Provenienti da culture diverse per favorire la comprensione universale
+Modi di emissione diversi occupano una **larghezza di banda** diversa:
+- **CW (Telegrafia)**: 0.1 - 0.3 kHz (molto stretta)
+- **SSB (Fonia)**: 2 - 3 kHz
+- **FM (Fonia)**: 5 - 15 kHz
+- **AM (Fonia)**: 6 kHz
+- **ATV (Video)**: 6 MHz
 
-**Esempio pratico**: la lettera "P" può essere confusa con "B" o "T" nel parlato normale. Usando "Papa", "Bravo" e "Tango" non vi è possibilità di confusione.
+<div align="center"><img src="../assets/images/lezioni/lezione_09/slide-12.jpg" alt="Larghezze di banda" width="50%"></div><br>
 
-**Nota sul numero 9**: si pronuncia "**Niner**" (e non semplicemente "Nine") per evitare confusione con "Five".
+Il **Band Plan** è il documento che definisce le suddivisioni di una banda radioamatoriale in segmenti specifici, stabilendo quali segmenti usare per specifici modi (CW, fonia, modi digitali) e attività (contest, emergenza, QRP, comunicazioni via satellite). Questo evita interferenze tra gli stessi radioamatori e garantisce un uso equo dello spettro.
+È gestito a livello internazionale dalla IARU e a livello nazionale dalle associazioni (es. ARI).
 
-> **Consiglio pratico**: esercitarsi leggendo le targhe delle automobili usando l'alfabeto fonetico.
+<div align="center"><img src="../assets/images/lezioni/lezione_09/slide-14.jpg" alt="Band Plan" width="50%"></div><br>
 
-#### 🔹 Uso corretto vs. uso gergale
+### 5. 🌍 Gli Enti e le Associazioni: ITU, IARU, ARI
 
-Silvio sottolinea con forza l'importanza di usare le parole **corrette** dell'alfabeto fonetico, non varianti gergali. Ad esempio:
+#### ITU (International Telecommunication Union)
+Agenzia dell'ONU incaricata di definire gli standard nelle telecomunicazioni e nell'uso delle onde radio. 
+- Gestisce l'allocazione globale delle frequenze e i prefissi internazionali.
+- Divide il mondo in diverse **Zone ITU** per scopi amministrativi e operativi.
+- Nel Regolamento Radiocomunicazioni (Art. 25) definisce il Servizio Amatoriale come: *un servizio di radiocomunicazioni per lo scopo di autoformazione, intercomunicazione e indagini tecniche svolte da radioamatori, ossia da persone debitamente autorizzate interessate alla tecnica radio esclusivamente a scopo personale e senza interesse pecuniario.*
 
-- **R** = **Romeo** (NON "Radio")
-- **S** = **Sierra** (NON "Santiago")
+<div align="center"><img src="../assets/images/lezioni/lezione_09/slide-21.jpg" alt="ITU" width="50%"></div><br>
+<div align="center"><img src="../assets/images/lezioni/lezione_09/slide-24.jpg" alt="Regolamento Radiocomunicazioni" width="50%"></div><br>
 
-L'uso di "Radio" per R e "Santiago" per S è tipico della **CB (Citizen Band)** e non è corretto nelle comunicazioni radioamatoriali. In condizioni di segnale debole, la controparte si aspetta di sentire le parole standard; usare varianti non standard crea confusione e può impedire la comprensione, specialmente con interlocutori stranieri.
+#### IARU (International Amateur Radio Union)
+Fondata nel 1925, è la federazione mondiale delle organizzazioni nazionali dei radioamatori.
+- Rappresenta i radioamatori presso enti internazionali come l'ITU.
+- Difende le allocazioni di spettro radioamatoriali.
+- Stabilisce e promuove standard tecnici e coordina le comunicazioni in emergenza a livello globale.
 
-⚠️ _Tema d'esame: l'alfabeto fonetico ICAO/ITU è materia d'esame._
+<div align="center"><img src="../assets/images/lezioni/lezione_09/slide-30.jpg" alt="IARU" width="50%"></div><br>
 
----
+#### ARI (Associazione Radioamatori Italiani)
+Fondata nel 1927, rappresenta il radiantismo in Italia.
+- È la società membro IARU per l'Italia.
+- Promuove la formazione tecnica (corsi per la patente), sperimentazioni, comunicazioni d'emergenza e offre servizi ai soci (es. servizio QSL).
+- È strutturata in sezioni locali diffuse sul territorio.
 
-### 3. 📋 Indicativi di chiamata (Nominativi)
+<div align="center"><img src="../assets/images/lezioni/lezione_09/slide-34.jpg" alt="ARI" width="50%"></div><br>
 
-L'**indicativo di chiamata** (call sign) è il "nome" unico di ogni radioamatore, paragonabile a una targa automobilistica. È composto da tre elementi fondamentali.
+### 6. ⚖️ Normativa Italiana: MIMIT, Patente e Autorizzazione Generale
 
-#### 🔹 Struttura dell'indicativo
+In Italia, il **MIMIT** (Ministero delle Imprese e del Made in Italy, ex MISE) è l'ente regolatore attraverso la *Direzione Generale per i servizi di comunicazione elettronica* e gli *Ispettorati Territoriali*.
 
-| Elemento     | Descrizione                  | Esempio           |
-| ------------ | ---------------------------- | ----------------- |
-| **Prefisso** | Identifica il Paese          | I, IK, IZ, IU, IW |
-| **Numero**   | Identifica l'area geografica | 5 = Toscana       |
-| **Suffisso** | Assegnato in sequenza        | AA, AB, AC...     |
+Il riferimento normativo principale è il **Codice delle Comunicazioni Elettroniche** (D.Lgs. 259/2003 e successive modifiche, tra cui il D.Lgs. 48/2024 - Allegato 26). La legge ribadisce che il servizio radioamatoriale deve avere carattere di *autoistruzione, intercomunicazione e studio tecnico*, privo di finalità economiche.
 
-**Prefisso** — Il prefisso italiano è **I**. Nel tempo, con l'esaurimento dei suffissi disponibili, sono stati introdotti prefissi aggiuntivi: **IK**, **IZ**, **IU**, **IW**, corrispondenti a diverse epoche o classi di patente. L'allocazione dei prefissi a livello mondiale è gestita dall'**ITU**.
+<div align="center"><img src="../assets/images/lezioni/lezione_09/slide-37.jpg" alt="Attività di Radioamatore" width="50%"></div><br>
 
-**Numero d'area** — In Italia il numero indica l'area geografica, basata sulla suddivisione dei codici postali:
-
-- **5** = Toscana
-- Ogni regione/area ha il proprio numero identificativo
-
-**Suffisso** — Viene assegnato sequenzialmente (AA, AB, AC, ...) ed è unico per ciascun radioamatore.
-
-#### 🔹 Regole d'uso dell'indicativo
-
-L'indicativo di chiamata deve essere pronunciato:
-
-- All'**inizio** di ogni trasmissione
-- Alla **fine** di ogni trasmissione
-- Ogni **10 minuti** durante la trasmissione
-
-#### 🔹 Prefissi internazionali
-
-Ogni nazione ha uno o più prefissi assegnati dall'ITU. Esempi:
-
-| Prefisso     | Paese       |
-| ------------ | ----------- |
-| **F**        | Francia     |
-| **DL**       | Germania    |
-| **EA**       | Spagna      |
-| **K**, **W** | Stati Uniti |
-| **JA**       | Giappone    |
-
-Esistono anche prefissi speciali per:
-
-- **Isole italiane** e regioni autonome
-- **Stazioni di club** (prefisso **IQ**)
-- **Stazioni da contest** con prefissi temporanei
-
-⚠️ _Tema d'esame: la struttura degli indicativi e i prefissi italiani sono materia d'esame._
-
----
-
-### 4. 📨 Abbreviazioni telegrafiche
-
-Le **abbreviazioni telegrafiche** nascono nell'epoca della telegrafia, quando la velocità di trasmissione era limitata e ogni carattere richiedeva tempo. Queste sigle, pur essendo nate per il CW (Continuous Wave / telegrafia), sono entrate nell'uso comune anche in **fonia** e nelle **comunicazioni digitali** moderne.
-
-#### 🔹 Abbreviazioni fondamentali da esame
-
-| Sigla   | Significato                                                                      |
-| ------- | -------------------------------------------------------------------------------- |
-| **TX**  | Trasmettitore                                                                    |
-| **RX**  | Ricevitore                                                                       |
-| **RTX** | Ricetrasmettitore                                                                |
-| **CQ**  | Chiamata generale ("I seek you" — cerco qualcuno)                                |
-| **AR**  | Fine del messaggio (in CW si trasmette come un unico carattere: $\overline{AR}$) |
-| **R**   | Ricevuto (Roger)                                                                 |
-| **K**   | Invito a trasmettere                                                             |
-| **SK**  | Fine delle trasmissioni (Silent Key)                                             |
-| **RST** | Rapporto di ricezione (Readability, Strength, Tone)                              |
-| **73**  | Saluti cordiali                                                                  |
-
-#### 🔹 CQ — La chiamata generale
-
-**CQ** è l'abbreviazione più iconica del mondo radioamatoriale. Deriva foneticamente dall'inglese "**I seek you**" (ti cerco). Quando un radioamatore si sintonizza su una frequenza e vuole stabilire un contatto, trasmette:
-
-> "CQ CQ CQ chiama India Zulu 5 Delta India Yankee..."
-
-#### 🔹 SK — Silent Key
-
-**SK** significa letteralmente "tasto silente" (Silent Key). Oltre al significato tecnico di "fine delle trasmissioni", nel gergo radioamatoriale ha assunto anche il significato di **radioamatore deceduto**: un "OM morto" viene chiamato un "SK". Questo è un esempio di come le abbreviazioni telegrafiche si carichino di significati aggiuntivi nel tempo.
-
-#### 🔹 Evoluzione dall'uso telegrafico all'uso moderno
-
-Queste abbreviazioni, nate per la telegrafia, si ritrovano oggi:
-
-- In **fonia** (es. "il mio RX", "il mio QTH")
-- Nelle **comunicazioni digitali** (PSK31, FT8, ecc.)
-- Sulle **cartoline QSL** (es. "CFM our QSO")
-
-Il linguaggio abbreviato costituisce un vero e proprio **metalinguaggio** comprensibile da tutti i radioamatori del mondo, indipendentemente dalla lingua madre.
-
-#### 🔹 Formato delle domande d'esame
-
-Le domande d'esame sulle abbreviazioni telegrafiche hanno tipicamente due forme:
-
-1. "Qual è la sigla per [significato]?" → scegliere la sigla corretta
-2. "[Sigla] che cosa significa?" → scegliere il significato corretto
-
-Le abbreviazioni da sapere per l'esame sono circa **12**, un numero gestibile con qualche esercizio ripetuto.
-
-⚠️ _Tema d'esame: le abbreviazioni telegrafiche indicate dal ministero sono materia d'esame obbligatoria._
-
----
-
-### 5. 🔤 Codice Q
-
-Il **codice Q** è una raccolta standardizzata di **messaggi codificati di tre lettere**, tutte inizianti con la lettera **Q**. Sviluppato inizialmente per le comunicazioni commerciali via telegrafo, è stato successivamente adottato dalla Marina, dall'Aeronautica e dai radioamatori.
-
-#### 🔹 Funzionamento del codice Q
-
-Ogni codice Q può essere usato in due modi:
-
-1. **Come domanda**: seguito da un **punto interrogativo** (?)
-   - Es. QRA? = "Come ti chiami?" / "Qual è il nome della tua stazione?"
-2. **Come risposta/affermazione**: seguito dall'informazione richiesta
-   - Es. QRA è IZ5DIY = "Il nome della mia stazione è IZ5DIY"
-3. **Come comando**: alcuni codici hanno senso da soli, senza necessità di ulteriori dettagli
-   - Es. QRS = "Trasmetti più lentamente" (è un'istruzione diretta)
-
-#### 🔹 Codici Q da esame
-
-I codici Q richiesti per l'esame sono in numero limitato. Silvio sottolinea che sono quelli evidenziati nelle slide ministeriali. Alcuni codici Q importanti:
-
-| Codice  | Significato (domanda)                          | Significato (risposta/comando)           |
-| ------- | ---------------------------------------------- | ---------------------------------------- |
-| **QRA** | Qual è il nome della tua stazione?             | Il nome della mia stazione è...          |
-| **QRG** | Qual è la mia frequenza esatta?                | La tua frequenza esatta è...             |
-| **QRK** | Qual è l'intelligibilità dei miei segnali?     | L'intelligibilità dei tuoi segnali è...  |
-| **QRL** | Sei occupato?                                  | Sono occupato                            |
-| **QRM** | Sei disturbato?                                | Sono disturbato                          |
-| **QRN** | Sei disturbato da scariche atmosferiche?       | Sono disturbato da scariche atmosferiche |
-| **QRO** | Devo aumentare la potenza?                     | Aumenta la potenza                       |
-| **QRP** | Devo diminuire la potenza?                     | Diminuisci la potenza                    |
-| **QRS** | Devo trasmettere più lentamente?               | Trasmetti più lentamente                 |
-| **QRT** | Devo cessare la trasmissione?                  | Cessa la trasmissione                    |
-| **QRZ** | Da chi sono chiamato?                          | Sei chiamato da...                       |
-| **QSL** | Puoi dare ricevuta?                            | Do ricevuta                              |
-| **QSO** | Puoi comunicare con...?                        | Posso comunicare con...                  |
-| **QSY** | Devo passare a trasmettere su altra frequenza? | Passa a trasmettere su...                |
-| **QTH** | Qual è la tua posizione?                       | La mia posizione è...                    |
-
-#### 🔹 Uso pratico e metalinguaggio
-
-Il codice Q rappresenta un **metalinguaggio universale**: indipendentemente dalla lingua madre, tutti i radioamatori comprendono lo stesso significato. Se un operatore dice "QTH?" a un radioamatore russo, giapponese o brasiliano, tutti capiscono che sta chiedendo la posizione. Questo supera la barriera linguistica.
-
-**Esempio pratico**: "QTH è San Marcello Pistoiese" — in un'unica sigla di tre lettere si esprime "il mio posto è", evitando lunghe frasi in qualsiasi lingua.
-
-#### 🔹 Differenza tra uso ministeriale e uso reale
-
-Silvio segnala una discrepanza tra le definizioni ministeriali dei codici Q e il loro uso effettivo nella pratica radioamatoriale. I testi ministeriali possono contenere definizioni "arcaiche" che non vengono aggiornate da decenni, mentre l'uso pratico si è evoluto. Tuttavia, per l'esame è necessario conoscere i codici **come definiti dal ministero**, anche se nella pratica l'uso è leggermente diverso.
-
-> "Ingoliamo la pasticca piccolina invece di prendere il suostone" — ovvero meglio imparare poche definizioni ministeriali che dover conoscere l'intero formulario Q.
-
-#### 🔹 Nota sulla revisione dei temi d'esame
-
-Viene evidenziato come in altri Paesi (es. Stati Uniti) i temi d'esame vengano rivisti ogni 5 anni per mantenerli attuali (eliminando argomenti obsoleti e aggiungendone di nuovi). In Italia, il processo di revisione è molto più lento, per cui alcune domande d'esame riguardano argomenti ormai poco usati nella pratica.
-
-⚠️ _Tema d'esame: i codici Q evidenziati dal ministero sono materia d'esame. È molto probabile che almeno 2-3 domande riguardino il codice Q._
-
----
-
-### 6. 📊 Rapporto RST (Readability, Strength, Tone)
-
-Il **rapporto RST** è il sistema standardizzato per comunicare la qualità del segnale ricevuto. Si compone di tre parametri, ciascuno espresso con un numero.
-
-#### 🔹 R — Readability (Leggibilità)
-
-La **R** indica quanto il messaggio è **comprensibile**, indipendentemente dalla potenza del segnale. Scala da 1 a 5:
-
-| Valore | Significato                                                                     |
-| ------ | ------------------------------------------------------------------------------- |
-| **R1** | Illeggibile — si percepisce la presenza di un segnale ma non si comprende nulla |
-| **R2** | Appena leggibile — si capisce qualche parola a tratti                           |
-| **R3** | Leggibile con notevole difficoltà                                               |
-| **R4** | Leggibile con qualche difficoltà — si perde qualche parola ma il senso è chiaro |
-| **R5** | Perfettamente leggibile — comprensione totale                                   |
-
-**Distinzione fondamentale**: un segnale può arrivare **forte** ma essere **incomprensibile** (es. modulazione distorta, microfono difettoso). Readability e Strength sono parametri indipendenti.
-
-> "Se io parlo col microfono infilato dentro una lattina di Coca-Cola mentre fa le bollicine, non mi capisce nessuno, anche se il segnale è molto forte."
-
-#### 🔹 S — Strength (Intensità del segnale)
-
-La **S** indica con quanta **intensità** il segnale arriva al ricevitore. È una misura prevalentemente **strumentale**, letta sullo **S-meter** del ricevitore. Scala da S1 a S9, dove:
-
-- **S1** = segnale appena percepibile
-- **S9** = segnale molto forte (corrisponde a un livello di tensione standardizzato in $\mu V$)
-- Oltre S9 si parla di **dB oltre S9** (es. "S9 +20 dB"), indicando segnali estremamente forti
-
-Lo S-meter è un indicatore presente sulla maggior parte dei ricevitori, con un ago che si posiziona sulla scala da S1 a S9 e oltre.
-
-#### 🔹 T — Tone (Tono della nota telegrafica)
-
-La **T** riguarda specificamente la **qualità della nota in telegrafia**. Scala da 1 a 9:
-
-- **T9** = nota perfettamente pura e cristallina (standard attuale)
-- **T1** = nota estremamente ronzante, con gravi difetti
-
-I difetti nella nota telegrafica erano storicamente **indicatori di problemi circuitali**: un ronzio poteva indicare un problema di rettificazione della corrente alternata, un rientro di radiofrequenza o altri malfunzionamenti del trasmettitore.
-
-**Nota**: nelle apparecchiature moderne, quasi tutte le note telegrafiche sono di qualità T9. Questa scala mantiene rilevanza come retaggio storico e per casi eccezionali con apparecchiature vecchie.
-
-**In fonia**: il parametro T non viene utilizzato. Il rapporto diventa semplicemente **RS** (es. "59" = R5 S9, ovvero perfettamente comprensibile e molto forte).
-
-⚠️ _Tema d'esame: il sistema RST e la sua interpretazione sono materia d'esame._
-
----
-
-### 7. 🗺️ Maidenhead Locator System (Locatore)
-
-Il **locatore** (Maidenhead Locator System) è un sistema per identificare la posizione geografica mediante una sigla alfanumerica compatta, alternativa alle coordinate di latitudine e longitudine.
-
-#### 🔹 Come funziona
-
-Il sistema funziona per **suddivisioni successive** (come una matriosca):
-
-1. **Primo livello** (2 lettere): il mondo viene diviso in grandi quadrati, identificati da due lettere (es. **JN**). Questa è una macroarea molto ampia.
-
-2. **Secondo livello** (2 numeri): ogni quadrato del primo livello viene suddiviso in sotto-quadrati identificati da due numeri (es. JN**54**). Si ottiene un'area più ristretta.
-
-3. **Terzo livello** (2 lettere): ogni sotto-quadrato viene ulteriormente diviso, identificato da due lettere minuscole (es. JN54**ja**). Si arriva a un'area di pochi chilometri quadrati.
-
-Il locatore completo a 6 caratteri (es. **JN54ja**) identifica un'area di alcuni chilometri quadrati, sufficiente per distinguere paesi vicini.
-
-#### 🔹 Utilità pratica
-
-- Permette di comunicare la propria posizione in modo **compatto** (6 caratteri invece di coordinate lunghe)
-- Consente il **calcolo della distanza** tra due stazioni tramite software
-- Viene utilizzato nei **log** di stazione e nei **contest**
-- È calcolato automaticamente dai programmi, dal GPS e da servizi come Google Maps
-
-**Esempio**: JN54ja identifica un'area nella montagna pistoiese. Ogni diversa posizione nel mondo avrà un locatore diverso.
-
-> "Con questi tre passaggi arrivo a definire un quadratotto di qualche chilometro quadrato [...] già sufficiente per dire e differenziare un quartiere di Firenze piuttosto che l'altro."
-
-⚠️ _Il locatore NON è materia d'esame, ma è una conoscenza essenziale per l'attività pratica del radioamatore._
+#### Burocrazia per diventare Radioamatori:
+1. **Patente di operatore di stazione di radioamatore**:
+   - È il documento che attesta la competenza tecnica (elettronica, normativa, procedure) del cittadino.
+   - Si ottiene superando un esame ministeriale.
+   - **NON scade mai** nel tempo (vale a vita).
+2. **Autorizzazione Generale**:
+   - È l'autorizzazione all'impianto e all'esercizio di una stazione.
+   - Per ottenerla, si deve possedere la Patente e un **Nominativo** (Call sign).
+   - È soggetta a rinnovo ogni 10 anni e al pagamento di un canone annuo.
+
+<div align="center"><img src="../assets/images/lezioni/lezione_09/slide-38.jpg" alt="Patente" width="50%"></div><br>
+<div align="center"><img src="../assets/images/lezioni/lezione_09/slide-39.jpg" alt="Autorizzazione Generale" width="50%"></div><br>
 
 ---
 
 ## 🔗 Mappa Concettuale
 
-- **Alfabeto fonetico ICAO/ITU** → elimina ambiguità → **comunicazioni radio**
-- **Indicativo di chiamata** → è composto da → **Prefisso + Numero + Suffisso**
-- **Prefisso** → identifica → **Nazione** (assegnato dall'ITU)
-- **Numero d'area** → identifica → **Regione geografica** (5 = Toscana)
-- **Abbreviazioni telegrafiche** → sono il DNA del → **linguaggio radioamatoriale**
-- **CQ** → è la chiamata generale → deriva da "I seek you"
-- **Codice Q** → è un metalinguaggio → universale indipendente dalla lingua
-- **Codice Q + ?** → assume forma di → **domanda**
-- **Codice Q senza ?** → assume forma di → **risposta o comando**
-- **Rapporto RST** → misura la qualità del → **collegamento radio**
-- **R (Readability)** → misura la → **comprensibilità** (scala 1-5)
-- **S (Strength)** → misura l'→ **intensità del segnale** (scala S1-S9+)
-- **T (Tone)** → misura la qualità della → **nota telegrafica** (scala 1-9)
-- **Readability** → è indipendente da → **Strength** (segnale forte ≠ comprensibile)
-- **Locatore Maidenhead** → codifica → **posizione geografica** in 6 caratteri
-- **Abbreviazioni telegrafiche** → sono nate per → **CW/telegrafia**
-- **Abbreviazioni telegrafiche** → sono migrate in → **fonia e digitale**
-- **Tutte le sigle e codici** → formano un → **metalinguaggio universale**
+- **Fisica Onde Radio** → $\lambda$ (lunghezza) inversamente proporzionale a $f$ (frequenza)
+- **Spettro Radio** → Suddiviso in LF, MF, HF, VHF, UHF, ecc.
+- **Bande Radioamatoriali** → Nominate in base a $\lambda$ (es. 20m, 2m, 70cm)
+- **Tipologia d'Uso** → Esclusivo, Primario, Secondario
+- **Band Plan** → Ottimizza e divide lo spettro per tipo di emissione/attività (gestito da IARU)
+- **ITU** → Ente ONU per le telecomunicazioni mondiali (Regolamenti, allocazioni, prefissi)
+- **IARU** → Rappresentanza mondiale dei radioamatori
+- **ARI** → Associazione italiana radioamatori (membro IARU)
+- **MIMIT** → Ministero competente in Italia per le telecomunicazioni
+- **Patente** → Attesta la competenza tecnica (non scade)
+- **Autorizzazione Generale** → Permette la trasmissione, richiede patente+nominativo, dura 10 anni
 
 ---
 
 ## 📝 Punti Chiave
 
-1. **L'alfabeto fonetico NATO/ICAO/ITU** è uno standard internazionale che elimina l'ambiguità nello spelling durante le comunicazioni radio. Le parole scelte sono studiate per essere non confondibili tra loro, anche in condizioni di ascolto difficili.
-
-2. **L'indicativo di chiamata** è unico e personale, strutturato come Prefisso (nazione) + Numero (area) + Suffisso (sequenziale). In Italia il prefisso è I (e varianti IK, IZ, IU, IW) e il numero 5 indica la Toscana.
-
-3. **L'indicativo deve essere pronunciato** all'inizio e alla fine di ogni trasmissione e ogni 10 minuti durante la trasmissione stessa.
-
-4. **Le abbreviazioni telegrafiche** (circa 12 per l'esame) costituiscono un metalinguaggio universale nato dalla telegrafia e ancora in uso in fonia e comunicazioni digitali. Le più importanti sono CQ, TX, RX, RST, SK, AR, R, K, 73.
-
-5. **Il codice Q** è un sistema di messaggi codificati di tre lettere che iniziano con Q. Seguito da punto interrogativo è una domanda, altrimenti è una risposta o un comando. I codici Q ministeriali sono circa 15 e vanno saputi a memoria per l'esame.
-
-6. **Il rapporto RST** esprime la qualità del segnale ricevuto: R (comprensibilità, 1-5), S (intensità, S1-S9+), T (qualità della nota telegrafica, 1-9). In fonia si usa solo RS, senza il parametro T.
-
-7. **Readability e Strength sono indipendenti**: un segnale può arrivare forte ma essere incomprensibile, o debole ma perfettamente leggibile.
-
-8. **Il locatore Maidenhead** codifica la posizione geografica in una sigla di 6 caratteri (lettere-numeri-lettere) con precisione di alcuni chilometri quadrati. Non è materia d'esame ma è indispensabile nella pratica.
-
-9. **Usare sempre le parole corrette dell'alfabeto fonetico** (Romeo, Sierra) e non varianti gergali da CB (Radio, Santiago), per garantire la comprensione internazionale.
-
-10. **Per l'esame**, le domande su abbreviazioni telegrafiche e codice Q hanno una struttura a risposta chiusa (3 opzioni): conoscere bene le sigle ministeriali permette spesso di escludere le risposte errate per deduzione.
+1. La lunghezza d'onda e la frequenza sono inversamente proporzionali.
+2. Le bande di frequenza sono raggruppate in categorie (HF per decametriche, VHF per metriche, UHF per decimetriche).
+3. Le allocazioni radioamatoriali possono essere a titolo Esclusivo, Primario o Secondario (in quest'ultimo caso non si deve creare interferenza agli utenti primari).
+4. Ogni tipo di trasmissione richiede una larghezza di banda diversa (CW è la più stretta, FM e Video sono molto larghe).
+5. Il Band Plan, curato dalla IARU, regolamenta dove operare all'interno di una singola banda per evitare il caos e separare modi non compatibili (es. CW dal Fonia o dai modi digitali).
+6. L'ITU è l'agenzia ONU che governa le onde radio a livello mondiale; il Regolamento Radiocomunicazioni definisce l'attività radioamatoriale come finalizzata all'autoistruzione e senza scopi economici.
+7. IARU difende le bande a livello internazionale; ARI lo fa a livello italiano, curando anche formazione e utilità sociale (emergenze).
+8. In Italia le normative sono gestite dal MIMIT (Codice delle Comunicazioni Elettroniche).
+9. Per trasmettere occorrono due documenti in sequenza: prima la Patente (che non ha scadenza e si ottiene con esame), poi l'Autorizzazione Generale (legata a un Nominativo, da rinnovare ogni 10 anni).
 
 ---
 
 ## ❓ Domande di Comprensione
 
-1. Perché l'alfabeto fonetico ICAO/ITU prevede parole specifiche come "Papa", "Bravo" e "Tango" invece di lasciare libertà di scelta al radioamatore? Quali problemi potrebbe causare l'uso di parole non standard?
-
-2. Spiega la struttura completa di un indicativo di chiamata italiano, facendo un esempio concreto. Qual è il significato di ciascuna parte?
-
-3. Qual è la differenza tra un codice Q seguito da punto interrogativo e lo stesso codice Q senza punto interrogativo? Fai almeno due esempi.
-
-4. Perché il parametro R (Readability) e il parametro S (Strength) del rapporto RST sono considerati indipendenti? Descrivi una situazione in cui un segnale ha R basso ma S alto.
-
-5. Le abbreviazioni telegrafiche sono nate per la telegrafia (CW). Spiega come e perché sono migrate nell'uso in fonia e nelle comunicazioni digitali, facendo almeno due esempi concreti.
-
-6. Come funziona il Maidenhead Locator System? Descrivi i tre livelli di suddivisione e spiega perché un locatore a 6 caratteri è sufficiente per la maggior parte delle comunicazioni.
-
-7. Un radioamatore trasmette "CQ CQ CQ chiama IZ5DIY": cosa sta facendo esattamente? Come dovrebbe rispondere un altro radioamatore che lo sente?
-
-8. Quali informazioni si possono ricavare dall'indicativo di chiamata IK5ABC? Identifica prefisso, area e suffisso, e spiega cosa indicano.
-
-9. Un radioamatore riceve un rapporto "59": cosa significa in dettaglio ciascun numero? E se il rapporto fosse "31"?
-
-10. Perché Silvio afferma che i temi d'esame italiani non sono sempre aggiornati? Qual è la differenza con il sistema americano, e perché questo ha un impatto sulla preparazione del candidato?
+1. Se aumento la frequenza di un segnale, cosa succede alla sua lunghezza d'onda?
+2. Quali sono le sigle delle bande corrispondenti alle onde corte (decametriche) e alle onde metriche?
+3. Se un radioamatore sta usando una frequenza assegnata a "Titolo Secondario" e nota un'interferenza con un servizio non radioamatoriale (che la usa a titolo primario), cosa deve fare?
+4. A cosa serve il Band Plan IARU?
+5. Qual è la differenza principale tra ITU e IARU?
+6. Che documento serve per poter richiedere il Nominativo e l'Autorizzazione Generale e qual è la sua durata?
+7. Quale ministero in Italia regolamenta e rilascia le autorizzazioni per i radioamatori?
+8. Qual è la larghezza di banda tipica per un segnale in SSB (fonia in singola banda laterale) rispetto a un segnale in CW?
 
 ---
 
 ## 📚 Glossario
 
-- **73** — Abbreviazione telegrafica che significa "saluti cordiali". È un saluto universale tra radioamatori.
-- **Alfabeto fonetico (NATO/ICAO/ITU)** — Standard internazionale che assegna una parola univoca a ciascuna lettera dell'alfabeto per eliminare ambiguità nelle comunicazioni radio.
-- **AR** — Abbreviazione telegrafica per "fine del messaggio". In CW si trasmette come carattere unico.
-- **Call sign** — Vedi "Indicativo di chiamata".
-- **CB (Citizen Band)** — Banda radio per uso civile non amatoriale, con regole e convenzioni diverse da quelle radioamatoriali.
-- **Codice Q** — Raccolta standardizzata di messaggi codificati di tre lettere che iniziano con Q, usati nelle comunicazioni radio per sintetizzare domande e risposte.
-- **CQ** — Chiamata generale; un radioamatore che trasmette CQ cerca qualcuno con cui stabilire un collegamento.
-- **CW (Continuous Wave)** — Telegrafia, trasmissione mediante codice Morse.
-- **DX** — Collegamento a lunga distanza (da "Distance").
-- **ICAO** — International Civil Aviation Organization, ente che ha sviluppato l'alfabeto fonetico poi adottato dall'ITU.
-- **Indicativo di chiamata** — Sigla unica assegnata a ogni radioamatore, composta da prefisso (Paese), numero (area) e suffisso (sequenziale).
-- **ITU** — International Telecommunication Union, organizzazione internazionale per le telecomunicazioni che assegna i prefissi nazionali.
-- **K** — Abbreviazione telegrafica per "invito a trasmettere".
-- **Locatore (Maidenhead)** — Sistema di codifica della posizione geografica in una sigla alfanumerica di 6+ caratteri.
-- **Metalinguaggio** — Linguaggio convenzionale (sigle, abbreviazioni, codici Q) comprensibile da tutti i radioamatori del mondo indipendentemente dalla lingua madre.
-- **Niner** — Pronuncia fonetica del numero 9, per evitare confusione con "Five".
-- **OM (Old Man)** — Termine affettuoso per indicare un radioamatore.
-- **Prefisso** — Prima parte dell'indicativo di chiamata, identifica il Paese di appartenenza (es. I = Italia).
-- **QRA** — Codice Q: nome della stazione.
-- **QRZ** — Codice Q: "Da chi sono chiamato?"
-- **QSL** — Codice Q: conferma di ricezione. "QSL Card" = cartolina di conferma del collegamento.
-- **QSO** — Codice Q: comunicazione/collegamento tra due stazioni.
-- **QTH** — Codice Q: posizione (luogo da dove si trasmette).
-- **R** — Abbreviazione telegrafica per "ricevuto" (Roger). Anche: parametro di Readability nel rapporto RST.
-- **Readability** — Parametro R del rapporto RST: misura la comprensibilità del segnale (scala 1-5).
-- **RST** — Sistema di rapporto sulla qualità del segnale: Readability (comprensibilità), Strength (intensità), Tone (tono della nota telegrafica).
-- **RTX** — Ricetrasmettitore (abbreviazione di RX + TX).
-- **RX** — Ricevitore (abbreviazione telegrafica).
-- **S-meter** — Strumento indicatore presente nei ricevitori che mostra l'intensità del segnale ricevuto su scala S1-S9+.
-- **SK (Silent Key)** — Abbreviazione telegrafica per "fine delle trasmissioni". Nel gergo radioamatoriale indica anche un radioamatore deceduto.
-- **S (Strength)** — Parametro del rapporto RST: misura l'intensità del segnale ricevuto (scala S1-S9 e oltre in dB).
-- **Suffisso** — Ultima parte dell'indicativo di chiamata, assegnato sequenzialmente (AA, AB, AC...).
-- **T (Tone)** — Parametro del rapporto RST: misura la qualità della nota telegrafica (scala 1-9).
-- **TX** — Trasmettitore (abbreviazione telegrafica).
+- **Band Plan** — Piano di ripartizione delle frequenze all'interno di una specifica banda radioamatoriale.
+- **Canone annuo** — Contributo economico necessario per il mantenimento dell'Autorizzazione Generale.
+- **Codice delle Comunicazioni Elettroniche** — Legge italiana (D.Lgs. 259/2003 e successivi) che regola il settore TLC, compresi i radioamatori.
+- **CW (Continuous Wave)** — Telegrafia Morse, il modo di emissione che occupa la minore larghezza di banda (ca. 0.1-0.3 kHz).
+- **Esclusivo / Primario / Secondario** — I tre possibili regimi (status) di assegnazione di una banda al servizio di radioamatore.
+- **IARU (International Amateur Radio Union)** — Unione globale delle associazioni radioamatoriali nazionali.
+- **ITU (International Telecommunication Union)** — Agenzia delle Nazioni Unite per le radiocomunicazioni.
+- **MIMIT** — Ministero delle Imprese e del Made in Italy, ex MISE, ex Ministero delle Comunicazioni.
+- **Nominativo (Call sign)** — L'identificativo internazionale della stazione radioamatoriale.
+- **Patente di stazione di radioamatore** — Attestato di idoneità tecnico/normativa; si consegue per esame e non scade.
 
 ---
 
 ## 👥 Partecipanti
 
-- 👨‍🏫 **Relatori**: Lucia (correzione quiz matematica), Silvio IZ5DIY (normativa — lezione principale)
+- 👨‍🏫 **Relatore**: (Normativa — lezione principale)
 - 🎙️ **Coordinamento**: Fabrizio, Alessio
 
 ---
 
 ## 📅 Informazioni Lezione
 
-| Campo                | Valore                                                                                                                                                                                                             |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Lezione**          | 09                                                                                                                                                                                                                 |
-| **Data**             | 07 maggio 2025                                                                                                                                                                                                     |
-| **Durata**           | ~2 ore e 40 minuti                                                                                                                                                                                                 |
-| **Numero argomenti** | 7 (correzione quiz + 6 argomenti normativi)                                                                                                                                                                        |
-| **Parole chiave**    | Alfabeto fonetico, ICAO, ITU, NATO, indicativi di chiamata, prefissi, call sign, abbreviazioni telegrafiche, CQ, SK, codice Q, QTH, QSL, QSO, QRZ, RST, Readability, Strength, Tone, S-meter, locatore, Maidenhead |
+| Campo                | Valore                                                                                                                                                 |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Lezione**          | 09                                                                                                                                                     |
+| **Data**             | 13 maggio 2026                                                                                                                                         |
+| **Durata**           | ~2 ore e 30 minuti                                                                                                                                     |
+| **Numero argomenti** | 6 (Bande, Band Plan, ITU, IARU, ARI, MIMIT e Patenti)                                                                                                  |
+| **Parole chiave**    | Spettro radio, Bande, Band Plan, IARU, ITU, ARI, MIMIT, Codice delle Comunicazioni Elettroniche, Patente, Autorizzazione Generale, Esclusivo, Primario |

@@ -1,0 +1,173 @@
+ARI CRT - Corso OM 2026
+
+ARI CRT - Corso OM 2026
+
+Dotato di una bobina mobile inserita dentro un
+magnete e collegata meccanicamente all’ago indicatore
+La misura viene effettuata dall’interazione del campo
+magnetico fisso col campo magnetico generato dalla
+bobina, che fa muovere lo strumento
+Per aumentarne la portata si inserisce una resistenza in
+parallelo, detta di shunt
+
+ARI CRT - Corso OM 2026
+
+3
+
+Fonte: Luciano Marroccus
+ARI CRT - Corso OM 2026
+
+4
+
+Rs = (r * i) / Is
+Dove: Rs = resistenza di shunt
+Is = corrente che deve scorrere nella resistenza di shunt
+r = resistenza interna dello strumento
+i = corrente di fondo scala dello strumento
+
+Esempio:
+Un amperometro ha una portata di 1 A fondo scala e una
+resistenza interna di 1 ohm. Di quale valore deve essere la
+resistenza di shunt da porre in parallelo allo strumento per
+portarlo a 5 A fondo scala?
+ARI CRT - Corso OM 2026
+
+E’ un micro-amperometro in cui scorrono pochi μA
+Ha al suo interno in serie una resistenza di alto valore
+calcolata affinché scorra un determinata corrente in
+funzione della tensione applicata ai suoi capi
+Per aumentarne la portata bisogna
+mettere un’ulteriore resistenza in
+serie di adeguato valore
+
+ARI CRT - Corso OM 2026
+
+Fonte: Luciano Marroccus
+ARI CRT - Corso OM 2026
+
+Rv = V / i - r
+Dove: Rv = resistenza da mettere in serie
+V = tensione di fondo scala desiderata
+r = resistenza interna dello strumento
+i = corrente di fondo scala dello strumento
+
+Esempio:
+Un voltmetro ha una resistenza interna di 20.000 ohm e
+una corrente di fondo scala di 250 μA; di quale valore deve
+essere la resistenza aggiuntiva per portarlo a 25 V fondo
+scala?
+ARI CRT - Corso OM 2026
+
+Misura della corrente:
+strumento in serie al
+circuito
+
+ARI CRT - Corso OM 2026
+
+Misura della tensione:
+strumento in parallelo al
+circuito
+
+Uno strumento ideale non perturba il
+circuito su cui effettua la misura
+
+Amperometro: resistenza interna nulla
+Voltmetro: resistenza interna infinita
+ARI CRT - Corso OM 2026
+
+Ha un’impedenza di ingresso maggiore di 10 MΩ,
+ottenuta mediante l’uso di FET e resistori di alto valore
+Ha una configurazione “a ponte”; il segnale in ingresso
+sbilancia il ponte e genera la lettura
+
+ARI CRT - Corso OM 2026
+
+11
+
+Una resistenza si misura collegandola ad una batteria
+di tensione nota, e misurando la corrente che la
+attraversa
+
+Fonte: Luciano Marroccus
+ARI CRT - Corso OM 2026
+
+Consente misure di
+tensione, corrente e
+resistenza
+Attenzione: non è un
+voltmetro elettronico
+
+ARI CRT - Corso OM 2026
+
+Si collega il TX a un
+carico fittizio
+Si misura la tensione sul
+carico
+Vale la legge P=V2/R
+
+ARI CRT - Corso OM 2026
+
+ARI CRT - Corso OM 2026
+
+Leggono il ROS (rapporto di onde stazionarie) presente su
+una linea di trasmissione
+Sfruttano il fatto che lungo la linea esistono due componenti
+di corrente (diretta e riflessa) che viaggiano in direzioni
+opposte
+
+ARI CRT - Corso OM 2026
+
+16
+
+Conta quanti cicli fa il segnale in ingresso in un secondo
+ARI CRT - Corso OM 2026
+
+17
+
+Misura la frequenza di
+risonanza di un circuito LC
+Contiene un oscillatore
+sintonizzabile.
+Se le frequenze
+dell’oscillatore e quella del
+circuito LC sono uguali, il
+circuito LC assorbe potenza e
+lo strumento fa un “dip”
+Può funzionare anche da
+“ondametro”
+ARI CRT - Corso OM 2026
+
+18
+
+ARI CRT - Corso OM 2026
+
+Consente di visualizzare l’andamento nel tempo di un
+segnale.
+Lavora nel dominio del tempo:
+• sull’asse X è riportato il tempo
+• sull’asse Y è riportata l’ampiezza del segnale (di solito
+in V)
+
+ARI CRT - Corso OM 2026
+
+ARI CRT - Corso OM 2026
+
+Consente di visualizzare le frequenze che compongono
+un segnale.
+Mostra una curva che rappresenta la composizione
+dello spettro di frequenza del segnale.
+Lavora nel dominio della frequenza:
+• sull’asse X è riportata la frequenza
+• sull’asse Y è riportata la potenza del segnale (di solito
+in dBm)
+E’ costituito dall’abbinamento di un ricevitore ed un
+oscilloscopio
+ARI CRT - Corso OM 2026
+
+ARI CRT - Corso OM 2026
+
+ARI CRT - Corso OM 2026
+
+24
+
+

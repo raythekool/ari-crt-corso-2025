@@ -9,7 +9,7 @@ permalink: /guide-studio/lezione_07.html
 ## 📌 Panoramica
 
 - **Materia**: Elettronica e Radiotecnica per la licenza di radioamatore
-- **Argomento**: Modi di emissione (AM, SSB, FM), introduzione alle onde radio e lunghezza d'onda
+- **Argomento**: Modi di emissione (AM, SSB, FM), introduzione ai Decibel
 - **Tempo di studio stimato**: 90–110 minuti
 - **Prerequisiti**: Conoscenza dei filtri, circuiti risonanti, fattore Q (Lezione 06); concetti base di corrente alternata, frequenza, periodo, sinusoidi (Lezioni 03-05)
 - **Obiettivi di apprendimento**:
@@ -21,7 +21,7 @@ permalink: /guide-studio/lezione_07.html
   - Comprendere la modulazione FM, deviazione, indice di modulazione FM
   - Confrontare FM a banda larga (broadcast) e FM a banda stretta (radioamatoriale)
   - Conoscere la formula della lunghezza d'onda $\lambda = 300 / f_{MHz}$
-  - Orientarsi nella tabella internazionale delle bande di frequenza
+  - Conoscere e saper usare il dBm
 
 ---
 
@@ -126,11 +126,15 @@ La **larghezza di banda** occupata da un segnale AM è:
 
 $$B_{AM} = 2 \times f_{m_{max}}$$
 
+<div align="center"><img src="../assets/images/lezioni/lezione_07/slide-10.jpg" alt="Larghezza di banda AM" width="50%"></div><br>
+
 Per la voce umana ($f_{m_{max}} \approx 3{-}3{,}5$ kHz), la banda occupata è circa **6–7 kHz**. Esempio pratico: nella CB (Citizens Band) i canali sono distanziati di 10 kHz.
 
 #### 🔹 Distribuzione della potenza in AM
 
 A modulazione piena ($m = 1$, 100%), la potenza si distribuisce come segue:
+
+<div align="center"><img src="../assets/images/lezioni/lezione_07/slide-12.jpg" alt="Distribuzione della potenza in AM" width="50%"></div><br>
 
 | Componente                     | Quota di potenza  |
 | ------------------------------ | ----------------- |
@@ -147,6 +151,8 @@ Questo evidenzia il grande svantaggio dell'AM: **due terzi della potenza** sono 
 ### 4. 📡 SSB — Banda Laterale Unica (Single Side Band) (⏱ 49:03–73:16)
 
 #### 🔹 Il principio della SSB
+
+<div align="center"><img src="../assets/images/lezioni/lezione_07/slide-13.jpg" alt="Principio della SSB" width="50%"></div><br>
 
 La SSB nasce dall'osservazione che:
 
@@ -197,7 +203,9 @@ Lo **splatter** è un fenomeno **in banda**: il segnale si allarga e invade i ca
 
 ---
 
-### 6. 📻 Modulazione di Frequenza (FM) (⏱ 73:51–84:28)
+### 6. 📻 Modulazione di Frequenza (FM)
+
+<div align="center"><img src="../assets/images/lezioni/lezione_07/slide-17.jpg" alt="Modulazione di Frequenza" width="50%"></div><br> (⏱ 73:51–84:28)
 
 #### 🔹 Principio di funzionamento
 
@@ -207,6 +215,8 @@ Nella modulazione di frequenza, l'ampiezza della portante **resta costante**, me
 
 La **deviazione di frequenza** ($\Delta f$) è lo spostamento massimo della frequenza della portante rispetto al suo valore nominale.
 
+<div align="center"><img src="../assets/images/lezioni/lezione_07/slide-18.jpg" alt="Deviazione di frequenza" width="50%"></div><br>
+
 L'**indice di modulazione FM** è definito come:
 
 $$m_{FM} = \frac{\Delta f}{f_m}$$
@@ -215,6 +225,8 @@ dove:
 
 - $\Delta f$ = deviazione massima di frequenza
 - $f_m$ = frequenza del segnale modulante
+
+<div align="center"><img src="../assets/images/lezioni/lezione_07/slide-19.jpg" alt="Indice di modulazione FM" width="50%"></div><br>
 
 A differenza dell'AM, l'indice di modulazione FM **non ha un limite superiore intrinseco** (può superare 1 senza distorsione). Tuttavia, un indice più alto produce un segnale più largo in frequenza, quindi deve essere regolato per rispettare le norme sull'occupazione di banda.
 
@@ -255,87 +267,48 @@ Durante la sessione di domande, viene trattato il tema della **regolazione della
 
 ---
 
-### 8. 📡 Introduzione alle Onde Radio (⏱ 87:40–104:02)
+### 8. 🔊 I Decibel (dB)
 
-#### 🔹 Cos'è un'onda radio
+Il decibel (dB) è un'unità di misura logaritmica ampiamente usata in radiotecnica. Consente di gestire facilmente grandezze con dinamiche molto ampie.
 
-Un'**onda** è una **perturbazione che si propaga**. L'analogia classica è il sasso lanciato in uno stagno: dal punto d'impatto si generano increspature concentriche che si allontanano. Le antenne fanno la stessa cosa: il trasmettitore invia un segnale elettrico all'antenna, la corrente che scorre genera un **campo elettromagnetico** che si propaga nello spazio come un'onda radio.
+<div align="center"><img src="../assets/images/lezioni/lezione_07/slide-24.jpg" alt="Decibel e potenza" width="50%"></div><br>
 
-**Onda elettromagnetica** — Perturbazione del campo elettrico e magnetico che si propaga nello spazio alla velocità della luce, generata da cariche elettriche in movimento su un conduttore (antenna).
+#### 🔹 Unità di misura relativa
+Il decibel è un'unità di misura **relativa**. Tipicamente confronta i livelli di potenza tra l'uscita e l'ingresso di un amplificatore o di un attenuatore.
+Il vantaggio principale dell'uso dei logaritmi è che **moltiplicazioni e divisioni si trasformano in addizioni e sottrazioni**. Questo rende molto più semplice calcolare i livelli di potenza lungo una catena di trasmissione o ricezione.
 
-#### 🔹 Velocità di propagazione
+#### 🔹 Calcolo del Guadagno
+Il guadagno di potenza ($G$) di un amplificatore è definito come:
+$$G = 10 \log_{10} \left(\frac{P_{out}}{P_{in}}\right) \text{ dB}$$
 
-Le onde radio viaggiano alla **velocità della luce**:
+<div align="center"><img src="../assets/images/lezioni/lezione_07/slide-25.jpg" alt="Raddoppio di potenza" width="50%"></div><br>
 
-$$c \approx 300.000 \text{ km/s} = 3 \times 10^8 \text{ m/s}$$
+**Regola pratica fondamentale**:
+- **+3 dB** equivale a un **raddoppio** della potenza ($P_{out} = 2 \times P_{in}$)
+- **-3 dB** equivale a un **dimezzamento** della potenza ($P_{out} = P_{in} / 2$)
+- **+10 dB** equivale a moltiplicare la potenza per **10**
+- **-10 dB** equivale a dividere la potenza per **10** (attenuazione)
 
-#### 🔹 Lunghezza d'onda
+<div align="center"><img src="../assets/images/lezioni/lezione_07/slide-26.jpg" alt="Attenuatore" width="50%"></div><br>
 
-La **lunghezza d'onda** ($\lambda$, lettera greca "lambda") è la distanza percorsa dall'onda durante un ciclo completo. È legata alla frequenza dalla relazione fondamentale:
+#### 🔹 Catene di amplificazione
+Quando si mettono in cascata più amplificatori o attenuatori, il guadagno totale in dB è semplicemente la **somma algebrica** dei guadagni in dB di ogni singolo stadio.
 
-$$\boxed{\lambda = \frac{c}{f}}$$
+<div align="center"><img src="../assets/images/lezioni/lezione_07/slide-27.jpg" alt="Amplificatori in cascata" width="50%"></div><br>
 
-Nella forma semplificata usata in pratica:
+*Esempio*: Un amplificatore con $G_1 = 10$ dB in cascata con uno da $G_2 = 20$ dB produce un guadagno totale di $30$ dB.
 
-$$\boxed{\lambda \text{ (in metri)} = \frac{300}{f \text{ (in MHz)}}}$$
+<div align="center"><img src="../assets/images/lezioni/lezione_07/slide-28.jpg" alt="Esempio 5W a 100W" width="50%"></div><br>
+<div align="center"><img src="../assets/images/lezioni/lezione_07/slide-29.jpg" alt="Esempio raddoppio a 200W" width="50%"></div><br>
 
-Questa è la formula più importante da ricordare per l'esame.
+#### 🔹 Il dBm (Decibel-milliwatt)
+Se si fissa un livello di riferimento assoluto, il decibel diventa un'unità di misura **assoluta**. In radiotecnica si usa comunemente il **dBm**, dove il livello di riferimento è **1 milliwatt (1 mW)**.
 
-#### 🔹 Esempi di calcolo
+- **0 dBm = 1 mW**
+- **+30 dBm = 1 W** (1000 mW, ovvero $+10$ dB per tre volte)
+- **+50 dBm = 100 W**
 
-| Frequenza | Calcolo                    | Lunghezza d'onda | Nome banda       |
-| --------- | -------------------------- | ---------------- | ---------------- |
-| 7 MHz     | $300 / 7 = 42{,}85$ m      | ≈ 40 m           | Banda dei 40 m   |
-| 14,2 MHz  | $300 / 14{,}2 = 21{,}12$ m | ≈ 21 m           | Banda dei 20 m   |
-| 3,5 MHz   | $300 / 3{,}5 = 85{,}7$ m   | ≈ 80 m           | Banda degli 80 m |
-
-Le antenne radioamatoriali hanno dimensioni proporzionali alla lunghezza d'onda (tipicamente $\lambda/2$ o frazioni di essa).
-
-#### 🔹 Classificazione internazionale delle bande di frequenza
-
-Le frequenze radio sono suddivise in bande con denominazioni internazionali standardizzate. Le frequenze scalano di un fattore 3 e le lunghezze d'onda di un fattore 10:
-
-| Sigla | Denominazione        | Frequenza       | Lunghezza d'onda | Nome comune     |
-| ----- | -------------------- | --------------- | ---------------- | --------------- |
-| LF    | Low Frequency        | 30–300 kHz      | 10–1 km          | Onde lunghe     |
-| MF    | Medium Frequency     | 300 kHz – 3 MHz | 1000–100 m       | Onde medie      |
-| HF    | High Frequency       | 3–30 MHz        | 100–10 m         | Onde corte      |
-| VHF   | Very High Frequency  | 30–300 MHz      | 10–1 m           | Onde ultracorte |
-| UHF   | Ultra High Frequency | 300 MHz – 3 GHz | 1–0,1 m          | Microonde       |
-| SHF   | Super High Frequency | 3–30 GHz        | 10–1 cm          | Microonde       |
-
-#### 🔹 Bande radioamatoriali
-
-I radioamatori dispongono di bande di frequenza distribuite in diversi segmenti dello spettro:
-
-- **LF**: 137 kHz (banda dei 2200 m)
-- **MF**: 472 kHz (banda dei 630 m), 1800 kHz (banda dei 160 m)
-- **HF**: numerose bande — 80 m (3,5 MHz), 40 m (7 MHz), 30 m (10 MHz), 20 m (14 MHz), 17 m (18 MHz), 15 m (21 MHz), 12 m (24 MHz), 10 m (28 MHz)
-- **VHF**: 50 MHz (6 m), 144 MHz (2 m)
-- **UHF**: 430 MHz (70 cm) e superiori
-
-Questa tabella è parte del programma d'esame per la parte normativa.
-
----
-
-## 🔗 Mappa Concettuale
-
-- **Modulazione** → processo per aggiungere informazione alla → **Portante**
-- **Portante** → ha tre parametri: **Ampiezza**, **Frequenza**, **Fase**
-- **AM** → varia l'**Ampiezza** della portante
-- **FM** → varia la **Frequenza** della portante
-- **PM** → varia la **Fase** della portante
-- **AM** → genera → **Bande laterali** (USB e LSB) + portante
-- **Indice di modulazione AM** ($m$) → se $m > 1$ → produce **Splatter**
-- **Splatter** → è diverso da → **Armoniche** (in banda vs fuori banda)
-- **SSB** → è un caso speciale di → **AM** (senza portante e senza una banda laterale)
-- **SSB** → è più efficiente di → **AM** (tutta la potenza trasporta informazione)
-- **FM** → è insensibile a → **Disturbi di ampiezza** (atmosferici, artificiali)
-- **FM** → occupa più **banda** di → **SSB** → per questo si usa in → **VHF/UHF**
-- **Lunghezza d'onda** ($\lambda$) → è inversamente proporzionale alla → **Frequenza** ($f$)
-- **$\lambda = 300/f_{MHz}$** → formula fondamentale per → calcolo antenne e classificazione bande
-- **Bande radioamatoriali** → distribuite da **LF** a **SHF**
-- **Onda elettromagnetica** → si propaga alla → **velocità della luce** ($c = 300.000$ km/s)
+<div align="center"><img src="../assets/images/lezioni/lezione_07/slide-32.jpg" alt="Tabella dBm" width="50%"></div><br>
 
 ---
 
@@ -357,11 +330,12 @@ Questa tabella è parte del programma d'esame per la parte normativa.
 
 8. La FM è usata in **VHF/UHF** (dove c'è spazio), non è ammessa in **HF** (onde corte) a livello internazionale per la sua eccessiva occupazione di banda.
 
-9. La **lunghezza d'onda** si calcola con $\lambda = 300 / f_{MHz}$ [m]. È la formula fondamentale per dimensionare le antenne e classificare le bande (es. 7 MHz → ≈ 40 m → "banda dei 40 m").
+9. Il **decibel (dB)** è un'unità relativa che esprime il rapporto tra due potenze.
 
-10. Le bande di frequenza sono classificate internazionalmente (LF, MF, HF, VHF, UHF, SHF) con le frequenze che scalano di un fattore 3 e le lunghezze d'onda di un fattore 10. Le bande radioamatoriali sono distribuite da LF fino a SHF.
+10. **+3 dB** significa raddoppiare la potenza, mentre **+10 dB** significa decuplicarla. L'unità assoluta **dBm** usa 1 mW come riferimento (es. 0 dBm = 1 mW, 30 dBm = 1 W).
 
 ---
+
 
 ## ❓ Domande di Comprensione
 
@@ -434,8 +408,8 @@ Questa tabella è parte del programma d'esame per la parte normativa.
 | Campo                  | Valore                                                                                                                                                                                |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Numero lezione**     | 07                                                                                                                                                                                    |
-| **Data**               | 16 aprile 2025                                                                                                                                                                        |
+| **Data**               | 29 aprile 2026                                                                                                                                                                        |
 | **Durata**             | ~110 minuti                                                                                                                                                                           |
-| **Argomenti trattati** | 4 (Modi di emissione AM/SSB/FM, Onde radio)                                                                                                                                           |
-| **Parole chiave**      | Modulazione, AM, FM, SSB, portante, bande laterali, indice di modulazione, splatter, armoniche, deviazione, narrowband, lunghezza d'onda, lambda, classificazione bande, HF, VHF, UHF |
-| **Prossima lezione**   | 7 maggio 2025 (pausa per festività pasquali e 25 aprile)                                                                                                                              |
+| **Argomenti trattati** | 4 (Modi di emissione AM/SSB/FM, Decibel)                                                                                                                                           |
+| **Parole chiave**      | Modulazione, AM, FM, SSB, portante, bande laterali, indice di modulazione, splatter, armoniche, deviazione, narrowband, decibel, dB, dBm, guadagno, attenuazione |
+| **Prossima lezione**   | 6 maggio 2026                                                                                                                              |

@@ -1,0 +1,285 @@
+I trasduttori
+I miscelatori
+I trasmettitori
+L’intermodulazione
+
+ARI CRT - Corso OM 2026
+
+1
+
+Trasforma un’onda acustica in un
+segnale elettrico
+Può essere:
+A carbone: sfrutta la variazione di
+conduttività di granuli di carbone
+compressi
+A cristallo/ceramico: sfrutta l’effetto
+piezoelettrico
+A condensatore: sfrutta la
+variazione di capacità tra due lamine
+Dinamico: funziona come un
+altoparlante “a rovescio”
+ARI CRT - Corso OM 2026
+
+2
+
+Trasforma un segnale elettrico in
+un’onda acustica
+E’ composto da un magnete
+permanente nella cui espansione
+polare scorre una bobina mobile
+I campi magnetici del magnete e
+della bobina mobile interagiscono,
+provocando lo spostamento del
+cono.
+Può funzionare “a rovescio” come
+microfono
+ARI CRT - Corso OM 2026
+
+3
+
+ARI CRT - Corso OM 2026
+
+4
+
+Hanno due ingressi ed una uscita
+Generano due segnali in uscita, di frequenza
+somma e differenza dei segnali di ingresso
+Fonte: Pinterest
+ARI CRT - Corso OM 2026
+
+5
+
+Esempio: miscelo due segnali, uno con
+frequenza 10 Mhz e uno con frequenza 2
+Mhz
+Ottengo DUE segnali:
+• Uno con frequenza 12 Mhz (10 + 2)
+• Uno con frequenza 8 Mhz (10 – 2)
+La frequenza che non serve si elimina con un
+filtro
+ARI CRT - Corso OM 2026
+
+6
+
+ARI CRT - Corso OM 2026
+
+7
+
+Dispositivi idonei a trasformare
+un’informazione in un segnale irradiato
+Trasmettitori:
+• In telegrafia (CW – continous wave)
+• In modulazione di ampiezza (AM)
+• In banda laterale unica (SSB)
+• In modulazione di frequenza (FM)
+ARI CRT - Corso OM 2026
+
+8
+
+ARI CRT - Corso OM 2026
+
+9
+
+• Oscillatore – genera un segnale RF (radio
+frequenza)
+• Driver – amplifica (in classe A) il segnale
+dell’oscillatore fino alla potenza necessaria
+per pilotare lo stadio finale
+• Amplificatore finale – amplifica (in classe
+AB) il segnale RF fino alla potenza voluta
+
+ARI CRT - Corso OM 2026
+
+10
+
+• Modulatore – aggancia l’informazione
+da trasmettere al segnale RF (portante)
+• Accordatore d’antenna – adatta
+l’impedenza d’uscita dell’amplificatore a
+quella dell’antenna
+
+ARI CRT - Corso OM 2026
+
+11
+
+Il più semplice trasmettitore in CW
+
+Problema: trasmette solo su una frequenza
+ARI CRT - Corso OM 2026
+
+12
+
+Come trasmettere su una banda
+
+ARI CRT - Corso OM 2026
+
+13
+
+• Oscillatore variabile: 5 - 5,5 MHz
+• Banda dei 3,5 MHz – XTAL=9 MHz
+• Banda dei 7 MHz – XTAL=12 MHz
+• Banda dei 14 MHz – XTAL=9 MHz
+• Banda dei 21 MHz – XTAL=16 MHz
+• Banda dei 28 MHz – XTAL=23 MHz
+
+ARI CRT - Corso OM 2026
+
+14
+
+Adatta l’impedenza d’uscita dell’amplificatore a quella
+dell’antenna
+massimo trasferimento di potenza
+ARI CRT - Corso OM 2026
+
+15
+
+In taluni casi un TX CW può generare dei segnali di
+disturbo dovuti alla manipolazione
+
+ARI CRT - Corso OM 2026
+
+16
+
+L’AM si ottiene
+modulando la
+tensione di
+alimentazione di
+un amplificatore
+
+ARI CRT - Corso OM 2026
+
+17
+
+ARI CRT - Corso OM 2026
+
+18
+
+Quando non c’è ingresso audio l’uscita è pari a zero
+Quando c’è ingresso audio, l’uscita è una DSB
+ARI CRT - Corso OM 2026
+
+19
+
+• Oscillatore – genera la portante
+• Modulatore bilanciato – genera un segnale DSB
+(portante soppressa + 2 bande laterali)
+• Filtro 2,5 KHz – Sopprime la banda laterale non
+voluta e si ottiene la SSB
+• La SSB è generata a una frequenza fissa (data la
+presenza del filtro). I due mixer traslano la SSB
+sulle bande di interesse
+
+ARI CRT - Corso OM 2026
+
+20
+
+ARI CRT - Corso OM 2026
+
+21
+
+• Il filtro limita i picchi del parlato ed
+inserisce una “pre-enfasi”
+• Il modulatore a reattanza sposta la
+frequenza dell’oscillatore mediante, ad
+esempio, un diodo varicap
+• I moltiplicatori “moltiplicano” X2, X4, etc, la
+frequenza, moltiplicando anche la
+deviazione (l’indice di modulazione del
+segnale FM)
+ARI CRT - Corso OM 2026
+
+22
+
+• Genero la FM con un oscillatore a 14 MHz
+• A 14 MHz ho una deviazione di frequenza pari
+a 600 Hz
+• Che deviazione di frequenza avrò a 140 MHz?
+Risposta: la frequenza dell’oscillatore viene
+moltiplicata di 10 volte, quindi a 140 MHz avrò
+una deviazione di 6 KHz
+ARI CRT - Corso OM 2026
+
+23
+
+Stabilità di frequenza: capacità di mantenere
+inalterata nel tempo la frequenza di lavoro
+Larghezza di banda: porzione di spettro
+occupata dal segnale modulato
+Potenza di uscita: valore espresso in WATT
+della potenza RF che lo stadio finale del
+trasmettitore può generare
+ARI CRT - Corso OM 2026
+
+24
+
+Rendimento: rapporto fra potenza RF in uscita
+e potenza assorbita dallo stadio finale
+Deviazione di frequenza: nei TX FM indica il
+massimo scostamento della frequenza della
+portante modulata da quella non modulata
+Indice di modulazione: nei TX AM è la massima
+variazione di ampiezza della portante rispetto
+al valore in assenza di modulazione
+ARI CRT - Corso OM 2026
+
+25
+
+ARI CRT - Corso OM 2026
+
+26
+
+E’ la comparsa di frequenze indesiderate,
+non presenti all’ingresso dell’amplificatore,
+che si producono in presenza di non
+linearità dell’amplificatore stesso
+Si genera quando un amplificatore:
+• ha in ingresso più di un segnale
+• è pilotato oltre la potenza che può erogare
+in regime lineare
+ARI CRT - Corso OM 2026
+
+27
+
+Le armoniche nascono quando un segnale
+sinusoidale viene deformato.
+La causa più comune è un amplificatore
+sovra-pilotato
+
+ARI CRT - Corso OM 2026
+
+28
+
+Le armoniche hanno una frequenza multipla della
+frequenza “fondamentale” che le genera
+Il “flat-topping” genera in prevalenza armoniche dispari:
+la forma della fondamentale diventa simile ad un’onda
+quadra
+
+ARI CRT - Corso OM 2026
+
+29
+
+Fonte: Pinterest
+ARI CRT - Corso OM 2026
+
+30
+
+Cosa accade quando si hanno due segnali
+
+ARI CRT - Corso OM 2026
+
+31
+
+Se il sovra-pilotaggio aumenta, nascono segnali del
+“quinto ordine”, del “settimo ordine” e così via
+
+ARI CRT - Corso OM 2026
+
+32
+
+ARI CRT - Corso OM 2026
+
+33
+
+
