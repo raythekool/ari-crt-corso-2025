@@ -37,6 +37,8 @@ Ciascun conduttore della linea presenta un'**induttanza distribuita** e tra i co
 Se consideriamo una linea di lunghezza infinita, essa presenta al generatore un'impedenza $Z_0$ (Impedenza Caratteristica) pari a:
 $$Z_0 = \sqrt{\frac{L}{C}}$$
 dove L è l'induttanza per unità di lunghezza e C la capacità per unità di lunghezza.
+> 💡 **Nota Pratica:** Se misuriamo un cavo coassiale con un tester in corrente continua (CC), leggeremo un circuito aperto (resistenza infinita tra centrale e calza). Invece, per il segnale RF (corrente alternata ad alta frequenza), il cavo presenta un "carico" dinamico di 50 $\Omega$ determinato dalla sua geometria (capacità e induttanza), non dalla resistenza elettrica del rame!
+
 Se chiudiamo una linea reale con un carico $Z = Z_0$, essa si comporta come se fosse infinita, in regime di sola **onda progressiva**.
 
 <div align="center"><img src="../assets/images/lezioni/lezione_16/slide-07.jpg" alt="Impedenza caratteristica" width="50%"></div><br>
@@ -59,6 +61,8 @@ La lunghezza d'onda fisica è minore:
 ### 2. Linee in regime di Onde Stazionarie
 
 Se un carico $Z_L$ è diverso da $Z_0$, parte dell'energia viene riflessa, creando un regime di **Onde Stazionarie**.
+> 💡 **Analogia Idraulica:** Immagina un'onda d'acqua in un canale stretto. Se alla fine del canale c'è uno scivolo (carico adattato), l'onda prosegue e cede la sua energia. Se invece c'è un muro (disadattamento), l'onda sbatte e torna indietro. L'onda di ritorno si sovrappone a quella in arrivo creando punti in cui l'acqua è sempre ferma (nodi) e punti in cui oscilla col doppio della forza (ventri). Queste sono le "Onde Stazionarie".
+
 La composizione del flusso diretto e riflesso genera massimi e minimi di tensione e corrente che si ripetono ogni $\lambda/2$.
 
 <div align="center"><img src="../assets/images/lezioni/lezione_16/slide-16.jpg" alt="ROS Onde stazionarie" width="50%"></div><br>
@@ -103,6 +107,7 @@ $$ROS = \frac{1 + \sqrt{P_r / P_d}}{1 - \sqrt{P_r / P_d}}$$
 <div align="center"><img src="../assets/images/lezioni/lezione_16/slide-27.jpg" alt="Misura del ROS" width="50%"></div><br>
 
 **Attenzione all'attenuazione del cavo**: se si misura il ROS all'uscita del TX e il cavo ha elevata attenuazione, il ROS misurato sarà **più basso** del ROS reale all'antenna (perché sia la potenza diretta in arrivo, sia quella riflessa di ritorno, vengono attenuate dal cavo).
+> ⚠️ **Importante:** Un cavo molto lungo o scadente può nascondere un'antenna rotta! Se il ROS reale all'antenna è altissimo, ma il cavo perde molta potenza, l'onda riflessa arriverà al trasmettitore così attenuata che il rosmetro segnerà un innocuo 1,5:1. Misurate sempre il ROS il più vicino possibile all'antenna quando fate dei test.
 
 <div align="center"><img src="../assets/images/lezioni/lezione_16/slide-29.jpg" alt="Attenuazione del cavo" width="50%"></div><br>
 
@@ -125,6 +130,20 @@ $$A(dB) = 10 \log_{10} \frac{P_{uscita}}{P_{ingresso}}$$
 - Legge di Jacobi → massimo trasferimento di potenza se $Z_{carico}$ è complesso coniugato di $Z_{generatore}$
 - SWR Meter → rileva potenza diretta e riflessa per calcolare il ROS
 - Attenuazione cavo → falsa la misura del ROS facendola apparire inferiore se effettuata dal lato TX
+
+---
+
+## 📝 Quiz di Verifica
+
+<details>
+<summary><b>1. Perché il tester (multimetro in CC) non può misurare l'impedenza caratteristica di 50 $\Omega$ di un cavo coassiale?</b></summary>
+Perché l'impedenza caratteristica è un parametro dinamico in Radiofrequenza (Corrente Alternata), dipendente dalla capacità e induttanza distribuite nel cavo. Il tester in Corrente Continua misurerà solo la resistenza resistiva, indicando circuito aperto.
+</details>
+
+<details>
+<summary><b>2. Se misuro un ROS di 1:1 all'uscita della radio, posso essere certo che l'antenna sia perfettamente accordata?</b></summary>
+No. Se il cavo coassiale ha molta attenuazione, gran parte dell'energia riflessa da un'antenna disadattata verrebbe dissipata prima di tornare alla radio, mostrando un falso basso ROS.
+</details>
 
 ---
 

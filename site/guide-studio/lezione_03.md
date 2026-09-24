@@ -33,6 +33,7 @@ La **corrente alternata** (CA o AC) è una corrente che **inverte il senso di sc
 
 
 La corrente alternata è generata da una **tensione alternata** ed è prodotta da dispositivi chiamati **alternatori**.
+> 💡 **Nota per i neofiti:** Immaginate un magnete che ruota all'interno di una bobina di filo di rame. Un giro completo del magnete (360°) produce esattamente un ciclo completo della sinusoide. Ecco perché la frequenza è spesso intuitivamente associata ai "giri al secondo".
 
 <div align="center">
   <img src="../assets/images/lezioni/lezione_03/slide-03.jpg" alt="Grafico Corrente Alternata" width="50%">
@@ -77,7 +78,8 @@ Con la corrente alternata, dato che la tensione varia continuamente, servono **p
 
 
 1. **Tensione istantanea**: il valore in un preciso istante di tempo.
-2. **Tensione efficace (RMS)**: il valore che, applicato a un carico, produce lo **stesso lavoro** di una tensione continua equivalente.
+2. **Tensione efficace (RMS)**: il valore che, applicato a un carico, produce lo **stesso lavoro** di una tensione continua equivalente. Matematicamente si calcola come: $V_{eff} = \frac{V_p}{\sqrt{2}} \approx 0{,}707 \times V_p$.
+> 💡 **Esempio Pratico:** Quando diciamo che la tensione della presa di casa è "230V", stiamo parlando del valore *efficace*. In realtà, la tensione di *picco* raggiunge circa i 325V!
 
 
 3. **Tensione di picco ($V_p$)**: il valore massimo raggiunto dalla sinusoide. $V_p = 1{,}41 \times V_{eff}$
@@ -92,7 +94,8 @@ Con la corrente alternata, dato che la tensione varia continuamente, servono **p
 
 ## 🔄 4. La fase tra sinusoidi
 
-Ogni punto del ciclo di una sinusoide può essere identificato con un **angolo in gradi**:
+Ogni punto del ciclo di una sinusoide può essere identificato con un **angolo in gradi**.
+> 💡 **Analogia della Pista di Atletica:** Immagina due corridori che fanno giri continui su una pista di atletica. Se partono insieme e corrono alla stessa velocità, sono "in fase" (0° di distanza). Se uno parte quando l'altro è esattamente a metà pista (mezzo giro di ritardo, ovvero 180°), sono in "controfase". Se uno ha un quarto di giro di vantaggio (90°), sono "in quadratura".
 
 <div align="center">
   <img src="../assets/images/lezioni/lezione_03/slide-18.jpg" alt="Punti notevoli" width="50%">
@@ -155,6 +158,25 @@ Ad esempio, le **HF** (High Frequency) vanno da 3 a 30 MHz (onde corte), le **VH
 5. Un'antenna trasforma la corrente alternata in **onde elettromagnetiche**.
 6. La **lunghezza d'onda** ($\lambda$) e la **frequenza** ($f$) sono legate dalla velocità della luce: $\lambda = 300 / f$ (con f in MHz).
 7. Lo spettro radio è suddiviso in bande (MF, HF, VHF, UHF, ecc.).
+
+---
+
+## 📝 Quiz di Verifica
+
+<details>
+<summary><b>1. Se una radio trasmette a 144 MHz, qual è la lunghezza d'onda approssimativa?</b></summary>
+Circa 2 metri. (Applica la formula $\lambda = 300 / 144 \approx 2{,}08$ m).
+</details>
+
+<details>
+<summary><b>2. La tensione di rete è 230V (efficaci). Qual è la tensione di picco approssimativa?</b></summary>
+Circa 325V ($230 \times 1{,}41$).
+</details>
+
+<details>
+<summary><b>3. Se due segnali sono sfasati di 180° e hanno la stessa ampiezza, cosa succede se vengono sommati?</b></summary>
+Si annullano a vicenda (sono in controfase, quindi quando uno è al suo picco positivo, l'altro è al suo picco negativo).
+</details>
 
 ---
 

@@ -44,6 +44,7 @@ Il campo elettromagnetico è costituito da un campo elettrico (E) e un campo mag
 - Nello spazio libero, il rapporto tra le loro intensità è costante: $E/H = 377 \Omega$ (impedenza dello spazio libero).
 - I due campi sono sempre perpendicolari tra loro.
 - La **polarizzazione** dell'onda è definita dal piano su cui giace il campo elettrico E rispetto a terra.
+> 💡 **Esempio Pratico:** Un'antenna montata verticalmente (come quella del tetto dell'auto) genera un campo elettrico verticale rispetto al suolo, e l'onda è quindi a **polarizzazione verticale**. Un'onda emessa da un dipolo steso orizzontalmente avrà **polarizzazione orizzontale**.
 
 <div align="center"><img src="../assets/images/lezioni/lezione_17/slide-06.jpg" alt="Campi Elettrico e Magnetico" width="50%"></div><br>
 
@@ -62,6 +63,7 @@ La propagazione nello spazio libero avviene in linea retta in modo sferico, con 
 
 La ionosfera è la parte alta dell'atmosfera terrestre, ionizzata dalle radiazioni solari (raggi UV e X). I principali strati riflettenti sono:
 - **Strato D**: attivo di giorno, attenua le frequenze basse. Scompare di notte.
+> 💡 **Perché lo strato D attenua?** Trovandosi molto in basso, la densità dell'aria è maggiore. Gli elettroni, eccitati dall'onda radio in transito, urtano frequentemente le altre molecole di gas dissipando l'energia dell'onda sotto forma di calore, invece di re-irradiarla come avviene negli strati superiori (più rarefatti).
 - **Strato E**: attivo di giorno, attenua ma riflette in determinate condizioni.
 - **Strato F**: principale responsabile delle riflessioni a lunga distanza. Di giorno si divide in F1 e F2, di notte si ricompone.
 
@@ -71,6 +73,9 @@ La ionosfera è la parte alta dell'atmosfera terrestre, ionizzata dalle radiazio
 - **FOT (Frequency of Optimum Traffic)**: frequenza ottimale, circa l'80-90% della MUF.
 
 <div align="center"><img src="../assets/images/lezioni/lezione_17/slide-30.jpg" alt="MUF LUF FOT" width="50%"></div><br>
+
+**La Zona di Ombra (Skip Zone)**
+Tra il limite massimo coperto dall'onda di terra (che viaggia rasente al suolo per poche decine di km) e il punto in cui cade la prima riflessione ionosferica, esiste un'area dove il segnale non arriva. Questa è detta **Zona di Ombra (o Skip Zone)**. È il motivo per cui potreste collegare gli Stati Uniti in HF ma non riuscire ad ascoltare un corrispondente nella regione vicina.
 
 **Riflessioni Multiple (Multihop)**
 I segnali possono subire riflessioni multiple tra la ionosfera e il suolo, o modalità come il *Duct Mode* e *Chordal Mode* che riducono l'attenuazione (particolarmente alle latitudini equatoriali o lungo la *gray line*).
@@ -99,6 +104,25 @@ L'attività della ionosfera dipende direttamente dall'attività solare, influenz
 - **MUF (Maximum Usable Frequency)** — frequenza massima che può essere riflessa dalla ionosfera tra due punti dati.
 - **Onde corte (HF)** — frequenze comprese tra 3 e 30 MHz.
 - **Polarizzazione** — orientamento del campo elettrico dell'onda elettromagnetica rispetto al terreno.
+
+---
+
+## 📝 Quiz di Verifica
+
+<details>
+<summary><b>1. Durante il giorno, quale strato ionosferico è il principale responsabile dell'assorbimento (attenuazione) dei segnali in HF?</b></summary>
+Lo strato D. Essendo denso, dissipa l'energia dell'onda. Di notte scompare e permette ai segnali di raggiungere gli strati superiori (F) ed essere riflessi molto più lontano.
+</details>
+
+<details>
+<summary><b>2. Cos'è la FOT (Frequency of Optimum Traffic) e perché si preferisce usarla al posto della MUF?</b></summary>
+È la frequenza ottimale di traffico, calcolata come circa 80-90% della MUF. Si usa perché la MUF è instabile: operare esattamente alla MUF rischia di far disperdere il segnale nello spazio al minimo cambiamento della ionosfera.
+</details>
+
+<details>
+<summary><b>3. Se posiziono un'antenna filare stesa orizzontalmente, quale polarizzazione avrà il campo elettromagnetico irradiato?</b></summary>
+Polarizzazione Orizzontale, poiché il campo E giace sullo stesso piano dell'antenna.
+</details>
 
 ---
 

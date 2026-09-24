@@ -47,6 +47,7 @@ Si definisce guadagno il rapporto tra l’intensità del campo emesso nella dire
 L'ERP indica la potenza che andrebbe applicata a un radiatore isotropico ideale per ottenere lo stesso campo generato dalla nostra antenna direttiva:
 $$ERP(W) = P_{tx}(W) \times Guadagno$$
 *(Se il guadagno è in dB, il moltiplicatore è $10^{\frac{G(dB)}{10}}$)*
+> 💡 **Esempio Pratico:** Immagina di trasmettere con 100W e di avere perdite nulle nel cavo. Usi un'antenna direttiva con guadagno di 3 dBd (che significa che raddoppia la potenza utile nella direzione puntata). L'ERP irradiata in quella direzione sarà pari a 200W! Per il tuo corrispondente, sarà come se tu usassi un'antenna a dipolo standard ma con un amplificatore da 200W.
 
 ---
 
@@ -80,7 +81,8 @@ Per interfacciare un'antenna bilanciata e una linea sbilanciata (cavo coassiale)
 Un Balun svolge spesso tre funzioni chiave (specialmente il *Balun di Corrente* o *Guanella Choke*):
 1. **Adattare l'equilibrio**: Bilanciato verso sbilanciato.
 2. **Adattamento di impedenza**: Trasformare l'impedenza dell'antenna verso quella del cavo (es. 4:1, 9:1).
-3. **Blocco RF (Choke)**: Impedire alle correnti RF di viaggiare sulla guaina esterna del cavo coassiale, evitando di irradiare in stazione (RFI) e migliorando il diagramma di radiazione.
+3. **Blocco RF (Choke)**: Impedire alle correnti RF di viaggiare sulla guaina esterna del cavo coassiale. 
+> ⚠️ **Conseguenze Pratiche (RFI):** Se la RF scende lungo la calza del cavo ed entra in stazione, potreste avere microfoni che "scottano", computer che si bloccano o si riavviano da soli mentre trasmettete. Inoltre, in ricezione, il cavo capterà il rumore elettrico casalingo abbassando il vostro rapporto segnale/rumore. Un buon choke risolve molti di questi problemi!
 
 <div align="center"><img src="../assets/images/lezioni/lezione_19/slide-15.jpg" alt="Funzioni del Balun" width="50%"></div><br>
 
@@ -94,7 +96,8 @@ Come disse John Devoldere (ON4UN): *"L'antenna con il miglior SWR è un buon car
 <div align="center"><img src="../assets/images/lezioni/lezione_19/slide-24.jpg" alt="SWR e carico fittizio" width="50%"></div><br>
 
 #### 🔹 Misurazione con Analizzatori d'Antenna e VNA
-Quando misuriamo l'impedenza dal fondo di un cavo coassiale, la lunghezza della linea trasforma l'impedenza. Se l'antenna non presenta esattamente 50 $\Omega$ puri e la linea non è un esatto multiplo di $\lambda/2$, lo strumento (analizzatore o VNA) misurerà valori **diversi** dall'impedenza reale ai morsetti dell'antenna, introducendo reattanze fittizie. Strumenti avanzati (VNA) permettono di impostare il "delay" o la lunghezza elettrica del cavo per spostare il piano di calibrazione matematicamente fino all'antenna.
+Quando misuriamo l'impedenza dal fondo di un cavo coassiale, la lunghezza della linea trasforma l'impedenza. Se l'antenna non presenta esattamente 50 $\Omega$ puri e la linea non è un esatto multiplo di $\lambda/2$, lo strumento (analizzatore o VNA) misurerà valori **diversi** dall'impedenza reale ai morsetti dell'antenna, introducendo reattanze fittizie. 
+> 📏 **Consiglio Pratico:** Per avere la certezza assoluta delle letture, le misure vanno fatte **direttamente ai morsetti dell'antenna** (senza cavo), oppure si deve usare una linea di misurazione tagliata esattamente a mezz'onda (o multipli) della frequenza di interesse. Gli strumenti moderni (VNA) permettono inoltre di sottrarre matematicamente il cavo (funzione OSL o Port Extension).
 
 <div align="center"><img src="../assets/images/lezioni/lezione_19/slide-29.jpg" alt="Misurazione attraverso linea sbilanciata" width="50%"></div><br>
 
@@ -107,3 +110,22 @@ Spesso si crede che un'antenna ottima in trasmissione lo sia anche in ricezione,
 - **In RX (Ricezione)**: L'obiettivo è migliorare il **Rapporto Segnale/Rumore (S/N)**. Un guadagno elevato in RX amplifica anche il forte rumore ambientale HF (che spesso supera il limite di sensibilità). L'approccio migliore è ottimizzare la *direttività spaziale* per minimizzare i segnali da angoli non voluti (attenuazione dei disturbi), a prescindere dal guadagno assoluto.
 
 <div align="center"><img src="../assets/images/lezioni/lezione_19/slide-31.jpg" alt="Antenne TX vs RX e S/N" width="50%"></div><br>
+
+---
+
+## 📝 Quiz di Verifica
+
+<details>
+<summary><b>1. Se trasmetto con 100W in un'antenna che ha un guadagno di 3 dBd (ipotizzando zero perdite nel cavo), qual è l'ERP equivalente?</b></summary>
+Circa 200W. (3 dB equivalgono a raddoppiare la potenza).
+</details>
+
+<details>
+<summary><b>2. "Un'antenna con SWR 1:1 è sempre un'antenna molto efficiente in trasmissione". Vero o Falso? Perché?</b></summary>
+Falso. Un carico fittizio ha un SWR di 1:1, ma dissipa tutta l'energia in calore e non irradia nulla. Un basso SWR significa solo che l'energia viene accettata dall'antenna, non che venga effettivamente trasformata in onda elettromagnetica.
+</details>
+
+<details>
+<summary><b>3. Qual è la funzione di un Balun Choke rispetto alle correnti di modo comune?</b></summary>
+Serve a bloccare le correnti a radiofrequenza che scorrerebbero lungo la calza esterna del cavo coassiale, evitando così che il cavo stesso diventi parte dell'antenna irradiando disturbi in stazione (RFI) e distorcendo il lobo.
+</details>

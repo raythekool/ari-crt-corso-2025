@@ -32,6 +32,8 @@ Un conduttore percorso da una corrente variabile genera nel suo intorno un campo
 
 Esistono 3 diverse aree in funzione della distanza dall'antenna:
 1. **Campo Vicino Reattivo (Reactive Near Field)**: Fino a 0,1 λ - 0,4 λ. I campi E e H non sono correlati e il comportamento è reattivo.
+> ⚠️ **In Pratica:** È fondamentale non avere ostacoli metallici (ringhiere, cavi, esseri umani) in questa zona, perché interagiscono con l'antenna comportandosi come elementi reattivi che ne cambiano la sintonizzazione, ed espongono a forti campi magnetici!
+
 2. **Campo Vicino Radiativo (Fresnel Region)**: Fino a 0,5 λ - 1,5 λ. I campi E e H iniziano a correlarsi, ci sono fluttuazioni di fase.
 3. **Campo Lontano Radiativo (Fraunhofer Region)**: Oltre la regione di Fresnel fino all'infinito. I campi sono totalmente correlati e formano un'onda sferica.
 
@@ -45,6 +47,7 @@ Un'antenna è assimilabile ad un **circuito risonante serie** dove L e C dipendo
 
 La teoria definisce "Resistenza di Radiazione" ($R_{rad}$) di un'antenna il rapporto tra la potenza totale irradiata e il quadrato della corrente.
 $$ P_{ir} = R_{rad} \cdot I^2 $$
+> 💡 **Nota Concettuale:** Questa **non** è una vera resistenza fisica che scalda dissipando energia in calore! È un parametro fittizio matematico che usiamo per quantificare l'energia "utile" che si sgancia dall'antenna diventando un'onda radio. Un'antenna efficiente deve avere una $R_{rad}$ alta rispetto alla vera resistenza ohmica dei materiali.
 
 A parità di potenza irradiata, un'antenna di dimensioni minori avrà una $R_{rad}$ minore e necessiterà di una corrente maggiore. Antenne più corte di $1/10 \lambda$ hanno una resistenza di radiazione così bassa da avere un'efficienza bassissima.
 
@@ -75,6 +78,7 @@ Un esempio è il dipolo OCF (Off-Center Fed), che alimenta l'antenna in un punto
 ### 4. 🌐 Il Lobo di Radiazione
 
 Il comportamento teorico di un'antenna si riferisce al **radiatore isotropico** (sorgente puntiforme che irradia in tutte le direzioni in modo uniforme) nello spazio libero.
+> 💡 **Attenzione:** Il radiatore isotropico non esiste in natura! È una finzione matematica usata come "metro di misura" base per confrontare il guadagno delle antenne reali.
 
 Nella realtà, l'intensità del campo varia con la direzione. Il grafico tridimensionale è detto **lobo di radiazione**, spesso diviso in:
 - **Azimuth Plot** (lobo orizzontale)
@@ -94,6 +98,8 @@ Nella pratica, il segnale al ricevitore è la somma di un fascio diretto e un fa
 <div align="center"><img src="../assets/images/lezioni/lezione_18/slide-23.jpg" alt="Riflessione dal terreno e fascio diretto" width="50%"></div><br>
 
 Per antenne a **polarizzazione orizzontale**, si ha inversione di fase nella riflessione a terra, per cui le componenti si sommano quando la differenza di percorso è $\lambda/2$. Il lobo dipende fortemente dall'altezza da terra.
+> 📏 **Regola pratica (Rule of Thumb):** Per avere un buon angolo di take-off basso (utile per i collegamenti a lunga distanza / DX), un'antenna orizzontale andrebbe montata ad almeno $\lambda/2$ di altezza dal suolo!
+
 Per antenne a **polarizzazione verticale**, non c'è inversione di fase; l'angolo di radiazione è basso anche quando poste vicino al terreno, ma sono molto influenzate dalle caratteristiche dielettriche di questo (perdite).
 
 <div align="center"><img src="../assets/images/lezioni/lezione_18/slide-26.jpg" alt="Lobo antenna verticale" width="50%"></div><br>
@@ -128,16 +134,27 @@ Per antenne a **polarizzazione verticale**, non c'è inversione di fase; l'angol
 
 ---
 
-## ❓ Domande di Comprensione
+## 📝 Quiz e Domande di Comprensione
 
-1. Qual è la funzione principale di un'antenna?
-2. Quali sono le tre regioni in cui si divide il campo attorno all'antenna?
-3. Come varia la resistenza di radiazione al diminuire della lunghezza dell'antenna?
-4. Cos'è il fattore di velocità e perché influenza la lunghezza fisica dell'antenna?
-5. Qual è l'effetto di far lavorare un'antenna fuori dalla propria frequenza di risonanza?
-6. Come si ottengono le antenne multibanda?
-7. Cos'è un'antenna isotropica?
-8. Qual è la differenza tra polarizzazione orizzontale e verticale riguardo l'onda riflessa al suolo?
+<details>
+<summary><b>1. Qual è la funzione principale di un'antenna?</b></summary>
+Fungere da trasduttore per trasferire energia elettrica a radiofrequenza in un campo elettromagnetico irradiato nello spazio (in trasmissione) e viceversa (in ricezione).
+</details>
+
+<details>
+<summary><b>2. Se un'antenna viene accorciata molto rispetto alla sua dimensione di risonanza naturale, cosa succede alla sua resistenza di radiazione?</b></summary>
+La sua resistenza di radiazione diminuisce drasticamente. Di conseguenza l'efficienza scende, poiché una porzione maggiore della potenza viene dissipata in calore dalle resistenze ohmiche (perdite) invece di essere irradiata.
+</details>
+
+<details>
+<summary><b>3. Qual è lo scopo primario di una "trappola" (circuito LC) in un'antenna?</b></summary>
+Interrompere elettricamente l'elemento radiante a determinate frequenze per permettere all'antenna di risuonare (funzionare in modo ottimale) su più bande diverse.
+</details>
+
+<details>
+<summary><b>4. Perché per i collegamenti a lunga distanza (DX) è desiderabile un lobo di radiazione con un "angolo di take-off" basso?</b></summary>
+Perché un'onda emessa quasi parallelamente al terreno andrà a colpire la ionosfera molto più lontano rispetto a un'onda sparata verso l'alto, coprendo distanze maggiori con ogni "salto" (hop) riflessivo.
+</details>
 
 ---
 
