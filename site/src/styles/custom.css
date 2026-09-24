@@ -63,6 +63,7 @@ header, aside {
 @media (min-width: 50rem) {
   .sidebar-pane {
     margin: 2rem 1rem 2rem 2rem !important;
+    top: calc(var(--sl-nav-height) + 2rem) !important;
     height: calc(100vh - var(--sl-nav-height) - 4rem) !important;
     border-radius: 16px !important;
     background-color: rgba(255, 255, 255, 0.02) !important;
@@ -71,6 +72,9 @@ header, aside {
     background-image: linear-gradient(135deg, rgba(56, 189, 248, 0.06) 0%, transparent 60%) !important;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
+    overflow-y: auto !important;
+    position: sticky !important;
+    box-sizing: border-box !important;
   }
 }
 
@@ -78,7 +82,8 @@ header, aside {
   .right-sidebar-panel {
     margin: 2rem 2rem 2rem 1rem !important;
     padding: 1.5rem !important;
-    height: auto !important;
+    top: calc(var(--sl-nav-height) + 2rem) !important;
+    height: calc(100vh - var(--sl-nav-height) - 4rem) !important;
     max-height: calc(100vh - var(--sl-nav-height) - 4rem) !important;
     border-radius: 16px !important;
     background-color: rgba(255, 255, 255, 0.02) !important;
@@ -87,6 +92,9 @@ header, aside {
     background-image: linear-gradient(225deg, rgba(56, 189, 248, 0.06) 0%, transparent 60%) !important;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
+    overflow-y: auto !important;
+    position: sticky !important;
+    box-sizing: border-box !important;
   }
 }
 
