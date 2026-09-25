@@ -1,60 +1,180 @@
-# Corso Aspiranti Radioamatori ARI Toscana CRT 2025
+# 📚 ARI CRT - Corso Radioamatori 2025 (Ramo Astro)
 
-Materiali didattici, registrazioni e risorse per il Corso Aspiranti
-Radioamatori 2025 dell'ARI Toscana, sezione CRT. Il corso affronta gli
-argomenti tecnici e normativi necessari alla preparazione dell'esame per la
-patente di radioamatore italiana.
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/raythekool/ari-crt-corso-2025)
+[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare-Pages-F38020?logo=cloudflare)](https://pages.cloudflare.com/)
+[![Astro](https://img.shields.io/badge/Astro-Sito-FF5D01?logo=astro)](https://astro.build/)
+[![Jekyll](https://img.shields.io/badge/Jekyll-Main-CC0000?logo=jekyll)](https://jekyllrb.com/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-## Portale del corso
+**Ramo di sviluppo** per la nuova versione del sito ARI CRT basata su **Astro**. Questo ramo contiene la preview del sito che sarà eventualmente fusa in `main` dopo testing.
 
-Il materiale consultabile online e' disponibile sui seguenti portali:
+---
 
-- [GitHub Pages](https://raythekool.github.io/ari-crt-corso-2025/)
-- [Cloudflare Pages](https://ari-crt-corso-2025.pages.dev/)
+## 🚀 Quick Start
 
-Il sito offre le guide di studio, il glossario, le domande d'esame e una
-raccolta di risorse aggiuntive.
+### Per gli sviluppatori
+- 🔭 **Preview**: deployata automaticamente su Cloudflare Pages
+- 📖 **Guide di studio**: [`site/guide-studio/`](site/guide-studio/)
+- 🏠 **Homepage**: [`site/index.md`](site/index.md)
 
-## Contenuti del repository
+### Clona il repository
+```bash
+git clone https://github.com/raythekool/ari-crt-corso-2025.git
+cd ari-crt-corso-2025
+git checkout update-guide-studio-2026
+```
 
-| Percorso             | Contenuto                                                  |
-| -------------------- | ---------------------------------------------------------- |
-| `site/`              | Sorgenti del sito Jekyll pubblicato.                       |
-| `site/guide-studio/` | Guide di studio delle lezioni.                             |
-| `transcripts/`       | Trascrizioni testuali delle registrazioni, con timestamp.  |
-| `transcripts (vtt)/` | Sottotitoli WebVTT delle registrazioni.                    |
-| `docs/`              | Documentazione tecnica per configurazione e pubblicazione. |
+---
 
-## Risorse di studio
+## 🏗️ Struttura del Progetto
 
-- [Guide di studio](site/guide-studio/)
-- [Glossario](site/glossario.md)
-- [Domande d'esame](site/domande-esame.md)
-- [Risorse aggiuntive](site/risorse.md)
+```
+ari-crt-corso-2025/
+├── build.sh              # Script di build per Cloudflare Pages
+├── README.md             # Questa documentazione
+├── site/                 # Codice sorgente del sito Astro
+│   ├── astro.config.mjs  # Configurazione Astro
+│   ├── package.json      # Dipendenze Node.js
+│   ├── package-lock.json # Lock file npm
+│   ├── tsconfig.json     # Configurazione TypeScript
+│   ├── public/           # Asset statici
+│   ├── src/              # Sorgenti Astro
+│   │   ├── components/   # Componenti Astro
+│   │   ├── layouts/      # Layout
+│   │   └── pages/        # Pagine
+│   ├── guide-studio/     # Guide di studio
+│   ├── index.md          # Homepage
+│   └── ...               # Altri contenuti
+└── ...
+```
 
-## Registrazioni delle lezioni
+### 🌿 Rami principali
 
-- [Lezione 01 - 05/03/2025](https://youtu.be/ZliWEcTEQhw)
-- [Lezione 02 - 12/03/2025](https://youtu.be/Rb0OC1pjHzQ)
-- [Lezione 03 - 19/03/2025](https://youtu.be/XofmUruCxdk)
-- [Lezione 04 - 26/03/2025](https://youtu.be/kAcblCn2XtI)
-- [Lezione 05 - 02/04/2025](https://youtu.be/8ZwIbOkQ2jw)
-- [Lezione 06 - 09/04/2025](https://youtu.be/qXZjlGC6OzM)
-- [Lezione 07 - 16/04/2025](https://youtu.be/x_ArVY_hELo)
-- [Lezione 08 - 23/04/2025](https://youtu.be/0iuDGQIka6M)
-- [Lezione 09 - 07/05/2025](https://youtu.be/lW79RYE_7ds)
-- [Lezione 10 - 14/05/2025](https://youtu.be/c0SRE-zw1Q4)
-- [Lezione 11 - 21/05/2025](https://youtu.be/2fBbfPQQVts)
-- [Lezione 12 - 28/05/2025](https://youtu.be/yuNAN72b7tc)
-- [Lezione 13 - 04/06/2025](https://youtu.be/a6RmrP8iwFs)
-- [Lezione 14 - 11/06/2025](https://youtu.be/YM5H3Y6G-4I)
-- [Lezione 15 - 18/06/2025](https://youtu.be/UaDGhyB0T5I)
-- [Lezione 16 - 25/06/2025](https://youtu.be/pGOycXhTISI)
-- [Serata Speciale - 02/07/2025](https://youtu.be/iTg4BaclXYs)
-- [Lezione 18 - 03/09/2025](https://youtu.be/b2DfH0QReZM)
-- [Lezione 19 - 10/09/2025](https://www.youtube.com/watch?v=WzYG_u0xn2k)
-- [Lezione 20 - 17/09/2025](https://youtu.be/tf9stbW989w)
-- [Lezione 21 - 24/09/2025](https://youtu.be/rlzS2xD51GY)
-- [Lezione 22 - 01/10/2025](https://youtu.be/Ei0UzSfS-SM)
-- [Lezione 23 - 08/10/2025](https://youtu.be/KA3ORkjTle4)
-- [Simulazione Esame - 22/10/2025](https://youtu.be/NviNlhPfp9E)
+| Ramo | Framework | Stato | Descrizione |
+|------|-----------|-------|-------------|
+| [`main`](https://github.com/raythekool/ari-crt-corso-2025/tree/main) | **Jekyll** | 🟢 Produzione | Sito principale deployato su Cloudflare Pages |
+| [`update-guide-studio-2026`](https://github.com/raythekool/ari-crt-corso-2025/tree/update-guide-studio-2026) | **Astro** | 🟡 Sviluppo | Nuova versione del sito in preview |
+
+---
+
+## 🔧 Build e Deploy
+
+Il progetto utilizza **Cloudflare Pages** per il deploy automatico. La build è gestita dallo script [`build.sh`](build.sh) che rileva automaticamente il ramo corrente.
+
+### Comandi di build
+
+| Ramo | Framework | Comando | Output |
+|------|-----------|---------|--------|
+| `main` | Jekyll | `bundle exec jekyll build --destination ../dist` | `dist/` |
+| `update-guide-studio-2026` | **Astro** | `npm run build` | `site/dist/` |
+
+### Configurazione Cloudflare Pages
+
+1. **Connetti il repository** su [Cloudflare Pages](https://pages.cloudflare.com/)
+2. **Build command**: `./build.sh`
+3. **Build directory**: `site/dist` (per questo ramo)
+4. **Production branch**: `main` (per Jekyll)
+
+#### Variabili d'ambiente consigliate
+
+| Variabile | Valore | Descrizione |
+|-----------|--------|-------------|
+| `NODE_VERSION` | `20` | Versione Node per Astro |
+| `RUBY_VERSION` | `3.2` | Versione Ruby per Jekyll (main) |
+
+---
+
+## 📦 Installazione Locale
+
+### Prerequisiti
+- 🟢 **Node.js 20+** (per Astro)
+- 💎 **Ruby 3.2+** (per Jekyll, ramo `main`)
+- 📦 **npm** (incluso con Node.js)
+
+### Build Astro (questo ramo)
+
+```bash
+cd site
+npm ci
+npm run dev
+```
+
+Il sito sarà disponibile su: `http://localhost:4321`
+
+### Build di produzione
+
+```bash
+cd site
+npm ci
+npm run build
+```
+
+L'output sarà in: `site/dist/`
+
+### Build Jekyll (ramo `main`)
+
+```bash
+git checkout main
+cd site
+bundle install
+bundle exec jekyll serve --drafts
+```
+
+Il sito sarà disponibile su: `http://localhost:4000`
+
+---
+
+## 📝 Contenuti
+
+### 🎓 Materiale didattico
+- **Slide delle lezioni**: integrate nelle guide di studio
+- **Registrazioni video**: link disponibili in [`site/risorse.md`](site/risorse.md)
+- **Appunti collaborativi**: contribuisci con PR!
+
+### 📋 Preparazione all'esame
+- [Domande d'esame](site/domande-esame.md) - Banca domande aggiornata
+- [Glossario](site/glossario.md) - Terminologia tecnica
+- [Guide di studio](site/guide-studio/) - Percorsi di apprendimento
+
+---
+
+## 🤝 Come Contribuire
+
+I contributi sono benvenuti! Questo ramo è in **sviluppo attivo**.
+
+1. **Forka** il repository
+2. Crea un branch per la tua feature: `git checkout -b feature/nuova-guida`
+3. **Commita** le modifiche: `git commit -m "Aggiungi guida su..."`
+4. **Pusha** il branch: `git push origin feature/nuova-guida`
+5. Apri una **Pull Request** su `update-guide-studio-2026`
+
+### Linee guida
+- ✍️ Usa Markdown per i contenuti
+- 🔗 Includi fonti attendibili per informazioni tecniche
+- 🎨 Mantieni lo stile coerente con il resto del sito
+- ✅ Testa localmente prima di submittere
+- 🧪 Verifica che la build Astro funzioni: `npm run build`
+
+---
+
+## 📬 Contatti
+
+- **ARI CRT**: [Sito ufficiale](https://www.ari.it/)
+- **GitHub Issues**: [Segnala problemi](https://github.com/raythekool/ari-crt-corso-2025/issues)
+- **Email**: [vedi sito ARI](https://www.ari.it/contatti)
+
+---
+
+## 📄 Licenza
+
+Questo progetto è distribuito con licenza **MIT**. Vedi il file [LICENSE](LICENSE) per i dettagli.
+
+---
+
+<div align="center">
+
+**Buono studio e 73 de ARI CRT!** 📻
+
+[⬆️ Torna su](#-ari-crt---corso-radioamatori-2025-ramo-astro)
+
+</div>
