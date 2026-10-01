@@ -7,6 +7,12 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Corso ARI Toscana CRT 2026',
+      defaultLocale: 'root',
+      locales: { root: { label: 'Italiano', lang: 'it' } },
+      favicon: '/favicon.svg',
+      head: [
+        { tag: 'meta', attrs: { property: 'og:image', content: 'https://raythekool.github.io/ari-crt-corso-2025/og.png' } },
+      ],
       customCss: ['./src/styles/custom.css'],
       sidebar: [
         {
