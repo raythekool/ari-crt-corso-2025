@@ -138,6 +138,19 @@ Il sistema Locator è un modo standardizzato a livello globale per comprimere co
 
 ---
 
+## 🔗 Mappa Concettuale
+
+- Alfabeto telefonetico ICAO → rende riconoscibile → spelling di lettere e indicativi nelle comunicazioni radio.
+- Indicativo di chiamata → identifica → stazione radioamatoriale; prefisso, numero e suffisso → compongono → indicativo.
+- Prefisso italiano → si combina con → numero della call area; prefisso internazionale ITU → indica → nazione di provenienza.
+- Abbreviazioni telegrafiche e Codice Q → rendono più rapide → comunicazioni in telegrafia e fonia.
+- Codice Q con punto interrogativo → esprime → domanda; senza punto interrogativo → esprime → risposta o affermazione.
+- QSO → include → scambio del rapporto RS(T) sulla ricezione del segnale.
+- R e S → descrivono → comprensibilità e intensità; T → descrive → tonalità nella telegrafia.
+- QTH Locator → codifica → posizione geografica utile per stimare distanza e direzione delle antenne direttive.
+
+---
+
 ## 📝 Punti Chiave
 
 1. L'**Alfabeto ICAO** è universale ed evita fraintendimenti: va sempre usato per lo spelling dei nominativi o di parole difficili.
@@ -145,6 +158,40 @@ Il sistema Locator è un modo standardizzato a livello globale per comprimere co
 3. Le **Abbreviazioni e il Codice Q** nascono con la telegrafia, ma sono d'uso comune per sveltire e internazionalizzare le comunicazioni.
 4. Il **Sistema RST** serve a fornire un rapporto rapido su Comprensibilità (1-5) e Intensità (1-9) del segnale.
 5. Il **QTH Locator** indica sinteticamente la posizione geografica della stazione in tutto il mondo.
+
+---
+
+## ❓ Domande di Comprensione
+
+1. Perché l'alfabeto telefonetico internazionale riduce i fraintendimenti rispetto a uno spelling basato su nomi di città locali?
+2. Come distingueresti prefisso, numero e suffisso in un indicativo italiano e quali informazioni sulla provenienza potresti ricavarne?
+3. Perché è necessario ripetere il proprio indicativo anche durante una trasmissione che è già iniziata?
+4. In che modo le abbreviazioni telegrafiche e il Codice Q rendono più agevole un collegamento tra operatori di lingue diverse?
+5. Come cambia il significato di un codice Q se è seguito da un punto interrogativo? Spiegalo usando QTH come esempio.
+6. Perché in fonia si scambiano due cifre del rapporto RS(T), mentre in telegrafia se ne usa anche una terza?
+7. Come useresti un QTH Locator durante un collegamento VHF o UHF con un'antenna direttiva?
+
+---
+
+## 📚 Glossario
+
+- **Abbreviazioni telegrafiche** — Forme brevi nate per rendere rapide le trasmissioni Morse e usate anche in fonia e nei modi digitali.
+- **Alfabeto telefonetico ICAO** — Standard internazionale di parole associate alle lettere per fare lo spelling nelle comunicazioni radio.
+- **Call area** — Numero dell'indicativo italiano associato all'area di appartenenza, come il 5 per la Toscana.
+- **Codice Q** — Insieme standardizzato di messaggi di tre lettere che iniziano per Q, usati come domande o affermazioni.
+- **CQ** — Abbreviazione per una chiamata generale rivolta a tutte le stazioni.
+- **CW** — Telegrafia in cui la componente T del rapporto RST descrive la tonalità della nota.
+- **DX** — Abbreviazione per un collegamento a lunga distanza.
+- **Indicativo di chiamata** — Identificativo univoco di una stazione radioamatoriale, composto da prefisso, numero e suffisso.
+- **ITU** — Organizzazione internazionale che definisce i prefissi degli indicativi a livello mondiale.
+- **QRM** — Codice Q che indica interferenze da altre stazioni.
+- **QRN** — Codice Q che indica interferenze atmosferiche o statiche.
+- **QRT** — Codice Q che indica la sospensione delle trasmissioni.
+- **QSO** — Codice Q che indica un collegamento bilaterale.
+- **QSY** — Codice Q che indica un cambio di frequenza.
+- **QTH Locator (Maidenhead Locator System)** — Sistema che rappresenta latitudine e longitudine con una breve stringa alfanumerica.
+- **Rapporto RS(T)** — Valutazione della ricezione che combina comprensibilità (R), intensità (S) e, in telegrafia, tonalità (T).
+- **S-Meter** — Indicatore della radio usato per esprimere l'intensità del segnale ricevuto.
 
 ---
 

@@ -117,6 +117,51 @@ L'isolamento galvanico della retroazione (feedback) è affidato a un **optoisola
 
 ---
 
+## 🔗 Mappa Concettuale
+
+- Drogaggio P e N → formano → giunzione del diodo.
+- Polarizzazione diretta → permette → conduzione del diodo al silicio oltre la soglia.
+- Diodi raddrizzatori → trasformano → tensione alternata in tensione pulsante.
+- Condensatore di filtro → spiana → tensione pulsante; stabilizzatore → mantiene → tensione di uscita costante.
+- Alimentatore lineare → usa → trasformatore di rete e raddrizzatore.
+- Alimentatore switching → usa → commutazione ad alta frequenza e un trasformatore più piccolo.
+- Optoisolatore → separa elettricamente → retroazione e sezione ad alta tensione.
+
+## 📝 Punti Chiave
+
+1. Il diodo al silicio conduce prevalentemente in un verso; in polarizzazione diretta presenta una caduta di tensione di circa 0,7 V.
+2. Le specifiche di massima tensione inversa, corrente diretta e potenza non devono essere superate.
+3. Il raddrizzamento a doppia semionda produce una tensione pulsante a 100 Hz con una rete a 50 Hz, mentre quello a singola semionda conserva la frequenza di 50 Hz.
+4. Nell'alimentatore lineare il trasformatore abbassa la tensione e isola dalla rete; il condensatore filtra e lo stabilizzatore regola l'uscita.
+5. L'alimentatore switching usa una frequenza di commutazione elevata per ridurre le dimensioni del trasformatore, ma può generare interferenze radio.
+
+## ❓ Domande di Comprensione
+
+1. Perché il drogaggio di tipo P e quello di tipo N permettono a una giunzione di comportarsi da diodo?
+2. In che modo la soglia di conduzione del silicio influisce sulla tensione disponibile a valle di un diodo polarizzato direttamente?
+3. Perché un ponte di Graetz fornisce impulsi a frequenza doppia rispetto alla rete senza richiedere un trasformatore con presa centrale?
+4. Quali funzioni diverse svolgono il condensatore di filtro e lo stabilizzatore in un alimentatore lineare?
+5. Perché la frequenza di commutazione elevata consente di ridurre il trasformatore, ma può creare problemi a un ricevitore radio?
+6. Quale ruolo svolge l'optoisolatore nella retroazione di un alimentatore switching e perché è importante l'isolamento galvanico?
+
+## 📚 Glossario
+
+- **Alimentatore lineare** — circuito che abbassa, raddrizza, filtra e stabilizza la tensione di rete.
+- **Alimentatore switching** — alimentatore che converte la tensione tramite commutazione ad alta frequenza prima del raddrizzamento finale.
+- **Diodo** — componente a semiconduttore che conduce prevalentemente in un solo verso.
+- **Drogaggio N** — aggiunta di impurità che forniscono elettroni liberi a un semiconduttore.
+- **Drogaggio P** — aggiunta di impurità che creano lacune in un semiconduttore.
+- **Isolamento galvanico** — separazione elettrica tra due circuiti senza passaggio diretto di corrente.
+- **Optoisolatore** — componente che trasferisce un segnale tramite luce mantenendo separate elettricamente le due sezioni.
+- **Ponte di Graetz** — raddrizzatore a quattro diodi che sfrutta entrambe le semionde.
+- **Raddrizzamento** — conversione della tensione alternata in tensione pulsante unidirezionale.
+- **Ripple** — variazione residua della tensione continua dopo il filtraggio.
+- **Stabilizzazione** — regolazione che mantiene costante la tensione d'uscita al variare del carico.
+
+## 👥 Partecipanti
+
+- 👨‍🏫 **Relatore**: non indicato nella fonte.
+
 ## 📅 Informazioni Lezione
 
 | Campo                | Valore                                                                                   |

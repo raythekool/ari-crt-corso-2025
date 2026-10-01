@@ -94,6 +94,36 @@ L'attività della ionosfera dipende direttamente dall'attività solare, influenz
 
 ---
 
+## 🔗 Mappa Concettuale
+
+- Campo elettrico variabile e campo magnetico variabile → si sostengono reciprocamente → onda elettromagnetica.
+- Orientamento del campo elettrico rispetto al suolo → definisce → polarizzazione dell'onda.
+- Frequenza dell'onda → determina inversamente → lunghezza d'onda.
+- Radiazione solare → ionizza → strati della ionosfera.
+- Strato D → assorbe → segnali alle frequenze basse durante il giorno.
+- Strato F → permette → collegamenti ionosferici a lunga distanza.
+- LUF e MUF → delimitano → frequenze utilizzabili; FOT → individua → frequenza ottimale.
+- Attività solare e alternanza giorno/notte → modificano → condizioni di propagazione.
+
+## 📝 Punti Chiave
+
+1. I campi elettrico e magnetico dell'onda sono perpendicolari tra loro; il campo elettrico ne definisce la polarizzazione.
+2. La frequenza e la lunghezza d'onda sono inversamente proporzionali: a frequenze più alte corrispondono lunghezze d'onda minori.
+3. Di giorno lo strato D assorbe parte dei segnali, mentre lo strato F è il principale responsabile dei collegamenti ionosferici a lunga distanza.
+4. Un collegamento ionosferico richiede una frequenza tra LUF e MUF; la FOT è scelta al di sotto della MUF.
+5. La zona d'ombra si trova tra la portata dell'onda di terra e il primo punto raggiunto dall'onda riflessa dalla ionosfera.
+6. I cicli solari e l'alternanza tra giorno e notte cambiano la ionizzazione e quindi le condizioni di propagazione.
+
+## ❓ Domande di Comprensione
+
+1. Perché l'orientamento di un'antenna influenza la polarizzazione dell'onda che irradia?
+2. Come cambia la lunghezza d'onda quando aumenta la frequenza, mantenendo costante la velocità di propagazione?
+3. Perché un segnale HF può essere attenuato di giorno dallo strato D e raggiungere meglio lo strato F di notte?
+4. Quali difficoltà incontrerebbe un collegamento se la frequenza scelta fosse inferiore alla LUF o superiore alla MUF?
+5. Perché può essere preferibile operare vicino alla FOT anziché esattamente alla MUF?
+6. In che modo si forma una zona d'ombra anche quando sono possibili collegamenti ionosferici a maggiore distanza?
+7. Come possono l'attività solare e il ciclo giornaliero modificare le bande utili per un collegamento?
+
 ## 📚 Glossario
 
 - **Campo elettromagnetico** — combinazione di un campo elettrico e un campo magnetico variabili, che si propagano nello spazio.

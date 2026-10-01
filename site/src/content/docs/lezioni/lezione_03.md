@@ -149,6 +149,19 @@ Ad esempio, le **HF** (High Frequency) vanno da 3 a 30 MHz (onde corte), le **VH
 
 ---
 
+## 🔗 Mappa Concettuale
+
+- Tensione alternata → genera → corrente alternata che inverte periodicamente il verso.
+- Alternatore → produce → tensione alternata, spesso descritta con una sinusoide.
+- Ciclo della sinusoide → determina → periodo $T$; numero di cicli al secondo → determina → frequenza $f$.
+- Frequenza e periodo → sono inversi → $f = \frac{1}{T}$.
+- Tensione di picco → determina → tensione efficace e tensione picco-picco della sinusoide.
+- Sfasamento tra sinusoidi → distingue → segnali in fase, in quadratura e in controfase.
+- Tensione sinusoidale applicata a un'antenna → irradia → onde elettromagnetiche.
+- Frequenza dell'onda → determina inversamente → lunghezza d'onda; intervalli di frequenze → costituiscono → bande radio.
+
+---
+
 ## 📝 Punti Chiave
 
 1. La **corrente alternata** inverte periodicamente il senso di scorrimento.
@@ -180,9 +193,51 @@ Si annullano a vicenda (sono in controfase, quindi quando uno è al suo picco po
 
 ---
 
+## ❓ Domande di Comprensione
+
+1. Perché una batteria mantiene un verso di scorrimento della corrente, mentre una tensione alternata ne provoca l'inversione?
+2. Se il periodo di una sinusoide si dimezza, come cambia la sua frequenza e quale relazione permette di spiegarlo?
+3. Perché il solo valore istantaneo non basta a descrivere una tensione alternata e quando è utile conoscerne il valore efficace?
+4. Come ricaveresti il valore di picco e quello picco-picco conoscendo la tensione efficace di una sinusoide?
+5. In che modo lo sfasamento distingue due sinusoidi in fase, in quadratura e in controfase? Che cosa accade sommando due segnali uguali in controfase?
+6. Quale ruolo svolge l'antenna nel passaggio dalla tensione alternata alle onde elettromagnetiche?
+7. Perché una frequenza maggiore corrisponde a una lunghezza d'onda minore e come useresti questa relazione per confrontare un segnale HF con uno VHF?
+
+---
+
+## 📚 Glossario
+
+- **Alternatore** — Dispositivo che produce tensione alternata.
+- **Antenna** — Conduttore di forma e dimensioni adeguate che comunica energia allo spazio circostante sotto forma di onde elettromagnetiche.
+- **Banda di frequenza** — Intervallo dello spettro radio identificato da una denominazione come HF o VHF.
+- **Controfase** — Relazione tra due sinusoidi sfasate di 180°; se uguali e sommate, si annullano.
+- **Corrente alternata (CA)** — Corrente che inverte periodicamente il proprio verso di scorrimento.
+- **Corrente continua (CC)** — Corrente che scorre sempre nello stesso verso.
+- **Fase** — Posizione di una sinusoide nel suo ciclo, esprimibile mediante un angolo.
+- **Frequenza** — Numero di cicli completi di un'onda in un secondo, misurato in hertz.
+- **Hertz (Hz)** — Unità di misura della frequenza.
+- **Lunghezza d'onda ($\lambda$)** — Distanza fisica tra due punti omologhi di un'onda elettromagnetica.
+- **Onda elettromagnetica** — Forma di energia che si propaga nello spazio quando un'antenna è alimentata da una tensione sinusoidale.
+- **Periodo ($T$)** — Tempo necessario a compiere un ciclo completo di una sinusoide.
+- **Quadratura** — Relazione tra due sinusoidi sfasate di 90°.
+- **Sinusoide** — Forma d'onda che varia con continuità tra un massimo e un minimo.
+- **Tensione alternata** — Tensione il cui verso cambia periodicamente e che genera corrente alternata.
+- **Tensione di picco ($V_p$)** — Valore massimo raggiunto dalla sinusoide.
+- **Tensione efficace (RMS)** — Valore di tensione alternata che produce su un carico lo stesso lavoro di una tensione continua equivalente.
+- **Tensione istantanea** — Valore della tensione alternata in un preciso istante.
+- **Tensione picco-picco ($V_{pp}$)** — Escursione totale della tensione dal minimo al massimo.
+- **Valor medio ($V_m$)** — Media della tensione alternata in un semiperiodo.
+
+---
+
+## 👥 Partecipanti
+
+- 👨‍🏫 **Relatore**: Paolo (Paolo Cavecchioli, docente del corso)
+
+---
+
 ## 📅 Informazioni Lezione
 
 - **Numero Lezione**: 03
 - **Data**: 01/04/2026
 - **Keywords**: corrente alternata, sinusoide, frequenza, periodo, hertz, tensione efficace, fase, onde radio, lunghezza d'onda, bande HF VHF UHF, antenna.
-

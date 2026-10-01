@@ -79,7 +79,7 @@ Il progetto utilizza **Cloudflare Pages** per il deploy automatico. La build è 
 
 | Variabile | Valore | Descrizione |
 |-----------|--------|-------------|
-| `NODE_VERSION` | `20` | Versione Node per Astro |
+| `NODE_VERSION` | `22.12.0` | Versione Node per Astro |
 | `RUBY_VERSION` | `3.2` | Versione Ruby per Jekyll (main) |
 
 ---
@@ -87,9 +87,11 @@ Il progetto utilizza **Cloudflare Pages** per il deploy automatico. La build è 
 ## 📦 Installazione Locale
 
 ### Prerequisiti
-- 🟢 **Node.js 20+** (per Astro)
+- 🟢 **Node.js 22.12+** (per Astro)
 - 💎 **Ruby 3.2+** (per Jekyll, ramo `main`)
 - 📦 **npm** (incluso con Node.js)
+
+Per usare `scripts/extract_slides.py`, installare le dipendenze Python con `pip install -r requirements.txt` e i programmi `pdftotext` e `pdftocairo` del pacchetto **Poppler** (su Debian/Ubuntu: `sudo apt install poppler-utils`).
 
 ### Build Astro (questo ramo)
 
