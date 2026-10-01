@@ -1,0 +1,577 @@
+ARI - CRT Toscana
+Corso per aspiranti Radioamatori 2026
+
+LEZIONE 16
+
+Linee di Trasmissione RF
+© i5WHC – 2 Settembre 2026
+
+Argomenti della Lezione
+• La teoria delle linee RF
+• Linee in regime di Onde Stazionarie
+• Adattamento di impedenza e misure sulle linee
+
+2 Settembre 2026 - © i5WHC
+
+2
+
+La teoria delle linee RF
+In generale si definisce «Linea di Trasmissione» la coppia di conduttori che
+collegano il generatore al carico .
+Se la lunghezza della linea è trascurabile rispetto alla lunghezza d’onda del
+segnale elettrico (es.: linea 220V 50Hz -> λ=6000Km) si può considerare che la
+distribuzione delle tensioni e delle correnti lungo la linea sia uniforme e lo
+studio del comportamento della linea viene effettuato con le regole generali
+dei circuiti elettrici.
+
+2 Settembre 2026 - © i5WHC
+
+3
+
+La teoria delle linee RF
+Con le regole dell’elettrotecnica classica lo studio del comportamento di un circuito elettrico
+non tiene infatti conto delle dimensioni fisiche del circuito stesso ipotizzando che il tempo di
+propagazione delle cariche elettriche nel circuito sia «nullo».
+Questa ipotesi può considerarsi valida fintanto che le dimensioni fisiche dei circuiti in esame
+risultano molto minori della lunghezza d’onda dei segnali che li percorrono.
+Se invece la dimensione del circuito non è trascurabile rispetto alla lunghezza d’onda, la
+distribuzione delle tensioni e delle correnti nel circuito non può più essere considerata
+uniforme. Questo avviene quando le dimensioni del circuito (lunghezza della linea) sono dello
+stesso ordine di grandezza della lunghezza d’onda del segnale che lo percorre e il suo
+comportamento deve quindi essere analizzato con la «Teoria delle Linee di Trasmissione».
+
+𝛌(𝒎) =
+
+𝟑𝟎𝟎
+𝑭(𝑴𝒉𝒛)
+
+2 Settembre 2026 - © i5WHC
+
+4
+
+La teoria delle linee RF
+Un caso tipico è quello di una linea di trasmissione RF che alimenta
+un’antenna il cui il comportamento andremo ad analizzare in questa lezione.
+Per semplicità di rappresentazione, nelle slide seguenti, faremo riferimento
+ad una linea bifilare ma anche nel caso di un cavo coassiale, dove i due
+conduttori che costituiscono la linea sono tra loro concentrici, valgono
+esattamente le stesse considerazioni.
+
+2 Settembre 2026 - © i5WHC
+
+5
+
+La teoria delle linee RF
+Per comprendere meglio cosa accade in una linea percorsa da una corrente RF dobbiamo fare
+alcune considerazioni:
+• Ciascuno dei conduttori che costituiscono la linea presenta una «induttanza distribuita»
+che è funzione delle caratteristiche fisiche del conduttore stesso (diametro, lunghezza,
+presenza del dielettrico)
+• I due conduttori si comportano come le armature di un condensatore e quindi tra i due
+conduttori è presente una «capacità distribuita» che è funzione delle caratteristiche
+fisiche dei conduttori e della loro distanza nonché della presenza o meno di un dielettrico.
+Possiamo quindi assimilare la linea ad un circuito LC a costanti distribuite.
+
+2 Settembre 2026 - © i5WHC
+
+6
+
+Teoria delle «Linee di Trasmissione»
+Senza entrare nello specifico della teoria delle linee di trasmissione proviamo però a fissare alcuni
+concetti base che ci serviranno in seguito per comprendere meglio il comportamento di una linea RF
+
+Come abbiamo visto una linea di trasmissione può essere
+sempre assimilata ad un circuito LC a costanti distribuite.
+Se consideriamo una linea di lunghezza infinita è possibile
+dimostrare che in queste condizioni la linea è in regime di
+onda progressiva e presenta al generatore una impedenza
+Zo il cui valore è pari a:
+
+𝒁𝒐 =
+
+𝑳
+𝑪
+
+L= Induttanza per unità di lunghezza
+C= Capacità per unità di lunghezza
+
+Quando una linea reale è chiusa su una impedenza Z
+uguale alla propria impedenza caratteristica Z0 si
+comporta come una linea di lunghezza infinita nella quale
+il segnale si propaga solo in modo «progressivo» e dove
+tutta l’energia erogata dal generatore viene trasferita al
+carico.
+2 Settembre 2026 - © i5WHC
+
+7
+
+La teoria delle linee RF
+Possiamo quindi osservare come l’impedenza caratteristica di una linea dipende dalle
+caratteristiche fisiche che determinano i valori di L (Induttanza per unità di lunghezza) e di
+C (Capacità per unità di lunghezza)
+Nella pratica per trasferire l’energia da un generatore RF (TX) ad un carico (antenna)
+vengono impiegati prevalentemente i «cavi coassiali» anche se in alcuni casi particolari si
+ricorre ancora all’uso di linee «bifilari»
+
+2 Settembre 2026 - © i5WHC
+
+8
+
+La teoria delle linee RF – Cavi Coassiali
+Il motivo per cui l’impiego di un cavo coassiale è preferibile rispetto ad una linea
+bifilare è determinato dai vantaggi prodotti dalla presenza del conduttore
+esterno (calza) che determina la schermatura totale dei campi EM impedendone
+la propagazione nello spazio circostante cosa che, in parte, avviene invece con
+l’impiego di una linea bifilare che quindi può essere influenzata dalla presenza di
+altri materiali conduttori posti nelle vicinanze.
+Per questo motivo un cavo coassiale
+può essere posato in qualsiasi
+ambiente anche interrato senza che
+vi sia interferenza di alcun tipo cosa
+che non è possibile per una linea
+bifilare.
+Per contro l’attenuazione di un cavo
+coassiale è generalmente maggiore
+rispetto ad una linea bifilare.
+
+2 Settembre 2026 - © i5WHC
+
+9
+
+La teoria delle linee RF – Cavi Coassiali
+Per le sue caratteristiche il cavo coassiale può essere impiegato esclusivamente per
+la connessione tra generatori e carichi «sbilanciati» ovvero che hanno uno dei due
+terminali riferito a terra. Vedremo più avanti, quando si parlerà di antenne, che
+l’utilizzo di un cavo coassiale per alimentare un carico «bilanciato» è possibile ma
+richiede l’impiego di un dispositivo di adattamento, il «Balun». La totalità degli
+apparati ricetrasmittenti moderni presenta un’uscita di tipo «sbilanciato» per cui è
+necessario l’impiego del cavo coassiale.
+
+Una linea bifilare come una piattina è
+invece impiegata per la connessione tra
+generatori e carichi «bilanciati» ovvero
+che non hanno alcun terminale
+connesso a terra. Nella pratica l’uso
+della linea bifilare è limitato solo ad
+alcuni casi particolari (es: adattamento
+di impedenza)
+2 Settembre 2026 - © i5WHC
+
+10
+
+La teoria delle linee RF – Cavi Coassiali
+E’ bene ricordare che nello studio teorico delle linee si ipotizza che la linea di trasmissione
+sia priva di attenuazione ma, come vedremo, nella realtà non è così.
+Una linea di trasmissione reale, come un cavo coassiale, così come una linea bifilare, è
+quindi caratterizzata da una serie di parametri specifici che ne definiscono le
+caratteristiche di funzionamento reale e che sono:
+•
+
+«Impedenza caratteristica» tipicamente i valori sono 50 – 75 Ω per i cavi coax, 200 – 300 Ω per
+le linee bifilari, valori che, come già visto, dipendono dal rapporto tra le dimensioni dei conduttori e
+dalle caratteristiche del dielettrico
+
+•
+
+«Attenuazione» il valore di attenuazione generalmente espresso in dB/mt. aumenta in funzione
+della frequenza e dipende dalle caratteristiche dei conduttori e del dielettrico. Nei cavi coassiali
+l’attenuazione è minore per i cavi di maggior diametro e/o che impiegano dielettrico «foam».
+
+•
+
+«Fattore di velocità» la velocità di propagazione del segnale lungo una linea di trasmissione è
+generalmente inferiore a quella che si ha nello spazio libero (3*108 m/sec), questo parametro ci dice
+di quanto si riduce la velocità di propagazione lungo la linea e come vedremo nelle slide successive
+è utilissimo per determinare la «lunghezza elettrica» di una linea in base alla frequenza di utilizzo,
+valori tipici di Fv per un cavo coassiale sono compresi tra 0,65-0,80
+2 Settembre 2026 - © i5WHC
+
+11
+
+La teoria delle linee RF – Cavi Coassiali
+La velocità di propagazione del segnale lungo una linea di trasmissione è generalmente inferiore
+a quella che si ha nello spazio libero (3*108 m/sec) e dipende dalle caratteristiche del dielettrico,
+ne consegue che a parità di tempo il segnale stesso percorrerà lungo la linea uno spazio minore
+di quello che percorrerebbe nel vuoto. Questo determina che per un ciclo completo, la lunghezza
+d’onda (λ) del segnale non coincide con lo spazio fisico percorso nella linea stessa che risulta
+essere minore. Per questo motivo si parla di «lunghezza fisica» e di «lunghezza elettrica».
+Lunghezza fisica = Lunghezza Elettrica (λ) x Fattore di velocità
+
+V2 < V1
+
+2 Settembre 2026 - © i5WHC
+
+12
+
+La teoria delle linee RF – Cavi Coassiali
+Nella tabella sono riportate, a titolo di esempio, le caratteristiche di alcuni
+cavi coassiali di uso più comune
+
+V2 < V1
+
+2 Settembre 2026 - © i5WHC
+
+13
+
+La teoria delle linee RF – Onde Stazionarie
+Vediamo adesso cosa accade se terminiamo una linea di trasmissione con un
+carico la cui impedenza ZL sia diversa dall’impedenza caratteristica Z0 della linea.
+In questo caso la linea non sarà più in regime di «onde progressive» ma una
+parte dell’energia che raggiunge il carico verrà «riflessa» verso il generatore
+determinando un regime di «onde stazionarie» questo a causa del
+disadattamento di impedenza tra linea e carico.
+
+2 Settembre 2026 - © i5WHC
+
+14
+
+La teoria delle linee RF – Onde Stazionarie
+Per comprendere meglio che cosa accade chiudendo la linea di trasmissione con un’impedenza ZL
+diversa dall’impedenza caratteristica Z0 della linea, possiamo immaginare l’impedenza di
+terminazione ZL come composta dalla serie di due impedenze, la prima di valore Z0 pari
+all’impedenza caratteristica della linea, e la seconda di valore Zd pari alla differenza tra Z0 e ZL .
+La potenza erogata dal generatore si distribuirà in maniera proporzionale sulle due impedenze, una
+parte, quella relativa a Z0 si dissiperà effettivamente in regime di onda progressiva su ZL mentre la
+la quota parte dell’energia che si sarebbe dovuta dissipare su Zd in realtà rappresenta la potenza
+che sarà riflessa indietro verso il TX come se al posto di Zd fosse presente un generatore di analoga
+potenza, la combinazione dei due diversi flussi lungo la linea darà origine ad un regime di «onde
+stazionarie» a causa della differenza di ampiezza e fase dei due flussi che si propagano in direzione
+opposta lungo la linea stessa.
+
+2 Settembre 2026 - © i5WHC
+
+15
+
+La teoria delle linee RF – Onde Stazionarie
+La composizione dei due flussi isofrequenziali (diretto e riflesso) che si propagano in direzione
+opposta lungo la linea determina, in funzione delle rispettive ampiezze e fasi, valori di tensione
+e di corrente diversi da punto a punto della linea stessa ma la cui posizione rimane
+«stazionaria», da cui il termine «onda stazionaria». Tali valori si ripetono ciclicamente ogni λ/2
+
+La figura a lato mostra l’andamento della corrente e della tensione
+lungo la linea in regime di «onde progressive» (A) e di «onde
+stazionarie» (B,C,D). In regime di onde stazionarie, lungo la linea si
+formano minimi e massimi di tensione e di corrente la cui ampiezza
+dipende dall’entità del disadattamento.
+Si definisce ROS o SWR (Rapporto di Onde Stazionarie) il rapporto tra la
+tensione massima e la tensione minima che si presentano lungo la linea:
+
+𝑹𝑶𝑺 =
+
+𝑽𝒎𝒂𝒙
+𝑽𝒎𝒊𝒏
+
+=
+
+𝒁𝟎
+𝒁𝑳
+
+(se 𝑍𝐿< 𝑍0) oppure
+
+𝒁𝑳
+𝒁𝟎
+
+(se 𝑍𝐿> 𝑍0)
+
+Il valore del ROS può variare tra un minimo di 1 e un massimo pari a ꝏ
+(infinito)
+2 Settembre 2026 - © i5WHC
+
+16
+
+La teoria delle linee RF – Onde Stazionarie
+La presenza di minimi e massimi di tensione e di corrente lungo la linea
+determina che di conseguenza dall’altro capo della linea stessa si presenti un
+valore di impedenza Zi che può variare da un minimo Zmin ad un massimo Zmax
+in funzione della «lunghezza elettrica» della linea stessa, analogamente a
+quanto avviene per tensione e corrente anche i valori di impedenza lungo la
+linea si ripetono ciclicamente ogni λ/2.
+
+Se ZL < Z0
+Zmin = ZL e Zmax = Z02/ZL
+
+2 Settembre 2026 - © i5WHC
+
+Se ZL > Z0
+Zmin = Z02/ZL e Zmax = ZL
+
+17
+
+La teoria delle linee RF – Onde Stazionarie
+Come abbiamo visto il Rapporto di Onda Stazionaria (ROS o SWR) è definito come il rapporto
+tra la tensione massima Vmax e la tensione minima Vmin che si determinano lungo una linea in
+regime di onda stazionaria
+𝑽
+
+𝒁
+
+𝒁
+
+SWR = 𝑽𝒎𝒂𝒙 = 𝒁𝟎 (se 𝑍𝐿< 𝑍0) oppure 𝒁𝑳 (se 𝑍𝐿> 𝑍0)
+𝒎𝒊𝒏
+
+Zmin=
+
+Z0
+𝑺𝑾𝑹
+
+𝑳
+
+𝟎
+
+Zmax = Z0* 𝑺𝑾𝑹
+
+Sebbene lungo una linea in regime di onde stazionarie i valori di tensione e corrente lungo la
+linea stessa siano diversi da punto a punto e si ripetano ciclicamente ogni λ/2, il rapporto tra
+Vmax e Vmin è comunque costante e quindi anche il valore di ROS risulta costante in ogni punto
+della linea. Non è così invece, come abbiamo già visto, per il valore dell’impedenza che si
+presenta lungo la linea in quanto le variazioni di ampiezza e fase della tensione e della
+corrente, lungo la linea stessa, determinano valori di impedenza che variano tra un valore
+minimo Zmin e un valore massimo Zmax con ciclicità λ/4.
+2 Settembre 2026 - © i5WHC
+
+18
+
+Teoria delle «Linee di Trasmissione»
+Determinare analiticamente il valore che Zi può assumere in un punto generico lungo una linea in
+regime di onde stazionarie non è un calcolo banale e non lo era soprattutto prima dell’avvento dei
+computer ma da quanto abbiamo visto fino a qui possiamo comunque fare alcune interessanti
+considerazioni:
+•
+
+Il valore che può assumere Zi è compreso tra un valore massimo Zmax e un valore minimo Zmin
+che come abbiamo visto dipendono dal valore del SWR
+
+•
+
+Anche nel caso in cui Z0 e ZL siano valori puramente resistivi Zi assumerà alternativamente con
+ciclicità λ/2 componenti reattive sia induttive che capacitive tranne che a distanza pari ad un
+multiplo intero di λ/4
+
+2 Settembre 2026 - © i5WHC
+
+19
+
+La teoria delle linee RF – Onde Stazionarie
+La condizione appena descritta determina quindi che lato generatore (TX), una linea in regime di
+onde stazionarie, presenti un’impedenza Zi diversa da quella di terminazione ZL e che il valore di
+impedenza «vista» dal generatore vari al variare della lunghezza elettrica della linea stessa con
+una ciclicità pari a λ/2 sebbene il valore di ROS rimanga costante. Come vedremo meglio più
+avanti di questo aspetto si deve tenere di conto nel posizionamento dello strumento in
+particolare quando andremo ad effettuare delle misure di impedenza.
+Il valore di Zi in funzione della lunghezza elettrica della linea
+può essere determinato graficamente con l’utilizzo di un
+digramma polare che prende il nome di «carta di Smith» .
+
+2 Settembre 2026 - © i5WHC
+
+20
+
+La teoria delle linee RF – Il trasformatore λ/4
+Il comportamento di una linea che lavora in regime di «onde stazionarie» può essere
+utilmente sfruttato come «trasformatore di impedenza»
+Questo deriva dal particolare comportamento di un tronco di linea lungo λ/4 (un quarto
+d’onda) e terminato su un’impedenza diversa da quella della linea stessa.
+Questa condizione può essere utilizzata per adattare tra loro due impedenze diverse Z1 e Z2
+interponendo tra esse uno spezzone di linea di lunghezza elettrica = λ/4 e la cui impedenza
+caratteristica sia pari a:
+
+Z0 = Z1 x Z2
+
+2 Settembre 2026 - © i5WHC
+
+21
+
+La teoria delle linee RF – Linea aperta o in corto circuito
+Un caso particolare è quello in cui un tronco di linea lungo λ/4 (un quarto d’onda) sia
+chiuso in corto circuito.
+In questa condizione dal lato opposto si ha una impedenza infinita.
+In questo caso per lunghezze diverse dal quarto d’onda la linea in corto circuito si
+comporta come un induttanza pura per lunghezze inferiori a λ/4 e come una capacità
+pura per lunghezze comprese tra λ/4 e λ/2.
+In caso di linea aperta il comportamento è esattamente l’opposto.
+
+2 Settembre 2026 - © i5WHC
+
+22
+
+La teoria delle linee RF – Linea aperta o in corto circuito
+Possiamo quindi affermare che un tronco di linea lungo λ/4 «aperto» si
+comporta come un circuito risonante «Serie»
+
+Mentre un tronco di linea lungo λ/4 «chiuso in corto circuito» si
+comporta come un circuito risonante «Parallelo»
+
+2 Settembre 2026 - © i5WHC
+
+23
+
+La teoria delle linee RF – Onde Stazionarie
+Come già detto, diretta conseguenza del disadattamento che da origine al regime di «onde
+stazionarie» è che una parte dell’energia erogata dal generatore raggiunge il carico mentre la
+parte restante viene persa.
+La quota di energia non assorbita dal carico viene dissipata nel cavo coassiale e nel generatore
+stesso ma contrariamente a quanto comunemente si crede la quota parte di energia persa è
+comunque relativamente bassa fintanto che i valori di ROS sono minori di 3.
+Un valore del ROS elevato può però determinare una condizione anomala di funzionamento del
+trasmettitore e della linea causando l’aumento del valore di attenuazione della linea stessa. Gli
+elevati valori di tensione e di corrente che vengono raggiunti in alcuni punti della linea possono,
+in caso di potenze elevate, portare anche al danneggiamento del cavo e/o del trasmettitore.
+C’è però anche un altro aspetto che non deve essere sottovalutato in quanto come già visto in
+presenza di ROS, anche non elevato, la linea può presentare al trasmettitore un valore di
+impedenza che può essere sensibilmente diverso dal valore nominale.
+
+2 Settembre 2026 - © i5WHC
+
+24
+
+La teoria delle linee RF – Onde Stazionarie
+La legge di Jacobi nota anche come “teorema del massimo trasferimento di potenza” ci dice
+che la massima potenza che un generatore può erogare su un carico si ottiene quando il
+valore dell’impedenza del carico è pari al “complesso coniugato” dell’impedenza interna del
+generatore ovvero, tradotto in parole più semplici, quando l’impedenza del carico (Z = R+jX)
+ha la stessa componente resistiva R dell’impedenza interna del generatore e componente
+reattiva jX di segno opposto a quella del generatore stesso, così che le componenti reattive si
+annullino reciprocamente.
+
+Nel nostro caso quindi in uscita dal trasmettitore avrò la massima potenza disponibile solo
+quando il trasmettitore sarà chiuso su una terminazione (linea) che presenta un’impedenza
+pari alla impedenza interna del TX, tipicamente i 50Ω puramente resistivi. Questo è un
+ulteriore motivo per il quale è bene mantenere il valore di ROS più basso possibile.
+2 Settembre 2026 - © i5WHC
+
+25
+
+La teoria delle linee RF – Onde Stazionarie
+Un metodo per eliminare gli effetti dannosi di un elevato valore di ROS è quello di impiegare
+un «accordatore» (ATU) che altro non è che un dispositivo in grado di adattare tra loro due
+valori diversi di impedenza.
+La condizione ottimale è quella di porre l’accordatore in prossimità dell’antenna al fine di far
+lavorare sia la linea che il trasmettitore in condizioni di perfetto adattamento.
+
+Molto più di frequente però l’accordatore viene posto all’uscita del trasmettitore ma in questo
+caso non si elimina il disadattamento della linea ma si protegge solo il trasmettitore da
+eventuali sovraccarichi e permettendogli di erogare la massima potenza, mentre il ROS elevato
+in linea è comunque causa nel cavo di sollecitazioni elettriche elevate e di valori di
+attenuazione anche molto maggiori di quelli nominali.
+
+2 Settembre 2026 - © i5WHC
+
+26
+
+La teoria delle linee RF – Misura del ROS
+Per la misura del ROS generalmente si utilizza uno strumento (SWR Meter) in grado di
+rilevare, attraverso un «wattmetro direzionale» posto lungo la linea, la «Potenza Diretta»
+ovvero quella che dal trasmettitore fluisce verso l’antenna e la «Potenza Riflessa» ovvero
+quella che fluisce nel verso opposto a causa della riflessione dovuta al disadattamento.
+Tra i valori di «potenza diretta» e «potenza riflessa»,
+e il valore del ROS, esistono le seguenti relazioni:
+
+ROS =
+
+𝟏+
+
+𝑷𝒓/𝑷𝒅
+
+𝟏−
+
+𝑷𝒓/𝑷𝒅
+
+Pr = 𝐏𝐝 ∗
+
+2 Settembre 2026 - © i5WHC
+
+𝑹𝑶𝑺−𝟏 𝟐
+𝑹𝑶𝑺+𝟏
+
+27
+
+La teoria delle linee RF – Misura del ROS
+Come per l’uso di un accordatore anche per una corretta misura del valore effettivo del
+ROS è opportuno che la misura sia effettuata ponendo lo strumento direttamente tra la
+linea e l’antenna cosa però spesso abbastanza complicata da realizzare.
+Effettuando invece la misura ponendo lo strumento
+all’uscita del trasmettitore si può correre il rischio di
+rilevare valori di ROS non totalmente attendibili
+soprattutto se l’attenuazione del cavo non è
+trascurabile e/o se la misura non è effettuata con
+un accoppiatore direzionale.
+Purtroppo molti strumenti commerciali per motivi di
+costo non utilizzano accoppiatori direzionali ma
+utilizzano il «Bruene Bridge» o il «Tandem Bridge»
+che in particolari condizioni possono produrre
+misurazioni non del tutto attendibili.
+
+2 Settembre 2026 - © i5WHC
+
+28
+
+La teoria delle linee RF – Misura del ROS
+Vediamo, con un esempio pratico, come la misura del ROS effettivo possa essere falsata ponendo
+lo strumento all’uscita del trasmettitore:
+A causa dell’attenuazione del cavo la potenza emessa dal TX pari a 100W arriva all’antenna
+attenuata di 2dB (63W). L’antenna è disadattata e ha un ROS=3 e di conseguenza la potenza
+riflessa è 16W ma percorrendo il cavo nel verso opposto a causa dell’attenuazione di 2dB si
+riduce a 10W . Lo strumento se posto tra cavo e antenna legge il valore corretto di ROS=3, se
+posto all’uscita del TX il valore di ROS misurato risulta molto più basso ROS=1,9
+
+ROS =
+
+𝟏+
+
+𝑷𝒓/𝑷𝒅
+
+𝟏−
+
+𝑷𝒓/𝑷𝒅
+
+2 Settembre 2026 - © i5WHC
+
+29
+
+La teoria delle linee RF – Attenuazione in dB
+Quando si parla di guadagno o di attenuazione si fa generalmente riferimento al «rapporto
+tra due valori di potenza», rapporto che viene normalmente espresso con una unità di
+misura che è il Decibel (dB)
+La definizione di questa unità di misura ci dice che il valore in dB di un guadagno o di una
+attenuazione è pari a:
+𝑷𝒖
+𝑨 𝒅𝒃
+𝑷𝒖
+𝟏𝟎
+𝑨 𝒅𝑩 = 𝟏𝟎 𝑳𝒐𝒈 𝟏𝟎
+
+𝑷𝒊
+
+2 Settembre 2026 - © i5WHC
+
+𝑷𝒊
+
+= 𝟏𝟎
+
+30
+
+La teoria delle linee RF – Attenuazione in dB
+Il principale vantaggio che si ha esprimendo i valori di guadagno e attenuazione in dB è dato
+dal fatto che il calcolo è semplificato in quanto i valori in dB possono essere tra loro sommati
+(guadagno) e sottratti (attenuazione).
+Con riferimento all’esempio riportato in questa slide per il calcolo dell’effettiva potenza
+irradiata (ERP) il valore di attenuazione del cavo Ac e di guadagno dell’antenna Ga se espressi
+in dB possono essere semplicemente sommati tenendo conto che i valori di attenuazione sono
+sempre per definizione «negativi»
+Il valore di Ac dipende dalla frequenza e dalla lunghezza del cavo e può essere ottenuto
+moltiplicando la lunghezza totale in metri del cavo per il valore di attenuazione al metro
+dichiarato dal costruttore alla frequenza di utilizzo.
+
+2 Settembre 2026 - © i5WHC
+
+31
+
+Grazie
+per l’attenzione
+
+2 Settembre 2026 - © i5WHC
+
+32
+
+

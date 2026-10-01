@@ -1,0 +1,751 @@
+---
+import "../styles/landing.css";
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const site = (Astro.site?.origin ?? "https://raythekool.github.io") + base;
+const lesson = (n: number) =>
+  `${base}/lezioni/lezione_${String(n).padStart(2, "0")}/`;
+const repo = "https://github.com/raythekool/ari-crt-corso-2025";
+
+const title = "Corso ARI Toscana CRT 2026 — Guide di studio per radioamatori";
+const description =
+  "Guide di studio complete per le 22 lezioni del corso per aspiranti radioamatori ARI Toscana CRT: elettrotecnica, RF, antenne e normativa, con glossario e domande di autoverifica.";
+
+const problems = [
+  {
+    icon: "📡",
+    title: "Un programma vastissimo",
+    text: "Elettrotecnica, componenti, ricezione, antenne, propagazione e normativa: molti argomenti, tutti da esame.",
+  },
+  {
+    icon: "🔗",
+    title: "Concetti a catena",
+    text: "Per capire un ricevitore servono semiconduttori e corrente alternata. Saltare un passaggio costa caro più avanti.",
+  },
+  {
+    icon: "🎥",
+    title: "Lezioni lunghe",
+    text: "Ogni serata dura oltre un’ora: ritrovare una spiegazione o una formula in una registrazione è lento.",
+  },
+  {
+    icon: "📜",
+    title: "Normativa da ricordare",
+    text: "D.Lgs. 259/2003, CEPT, ITU, classi di autorizzazione, nominativi: sigle e articoli che si confondono facilmente.",
+  },
+];
+
+const features = [
+  {
+    icon: "📖",
+    title: "Guide esaustive",
+    text: "Ogni lezione è riscritta come documento autonomo: si studia senza dover rivedere il video.",
+  },
+  {
+    icon: "🗺️",
+    title: "Mappa concettuale",
+    text: "Relazioni tra i concetti in brevi frasi: causa, effetto, caso particolare.",
+  },
+  {
+    icon: "🔑",
+    title: "Punti chiave",
+    text: "Le regole e i principi essenziali di ogni serata, in elenco, pronti per il ripasso.",
+  },
+  {
+    icon: "❓",
+    title: "Domande di autoverifica",
+    text: "Domande aperte che richiedono ragionamento, non solo memoria. Le risposte le trovi tu.",
+  },
+  {
+    icon: "📚",
+    title: "Glossario per lezione",
+    text: "Ogni termine tecnico è definito alla prima occorrenza e raccolto in ordine alfabetico.",
+  },
+  {
+    icon: "🔎",
+    title: "Ricerca e tema scuro",
+    text: "Ricerca istantanea su tutte le guide, navigazione laterale e tema chiaro o scuro.",
+  },
+];
+
+const tracks = [
+  {
+    icon: "🧭",
+    name: "Fondamenti",
+    range: "Lezioni 1–9",
+    start: 1,
+    text: "Elettrotecnica, circuiti, corrente alternata, componenti, semiconduttori, modi di emissione, procedure e bande.",
+    featured: false,
+  },
+  {
+    icon: "🔧",
+    name: "Elettronica",
+    range: "Lezioni 10–15",
+    start: 10,
+    text: "Diodi, alimentatori, transistor, amplificatori, oscillatori, trasmettitori, ricevitori e strumenti di misura.",
+    featured: true,
+  },
+  {
+    icon: "📶",
+    name: "Radio e normativa",
+    range: "Lezioni 16–22",
+    start: 16,
+    text: "Linee di trasmissione, propagazione, antenne e normativa nazionale e internazionale.",
+    featured: false,
+  },
+];
+
+const faqs = [
+  {
+    q: "Le guide sostituiscono il corso?",
+    a: "No. Sono uno strumento di studio costruito a partire dalle lezioni del corso ARI Toscana CRT: servono a ripassare e ritrovare velocemente un argomento.",
+  },
+  {
+    q: "Da dove arrivano i contenuti?",
+    a: "Dalle trascrizioni delle lezioni in diretta. Gli errori evidenti di trascrizione vengono corretti e non si aggiungono informazioni assenti nella lezione.",
+  },
+  {
+    q: "Ci sono le risposte alle domande di autoverifica?",
+    a: "No, di proposito: sono domande aperte pensate per verificare di aver capito, non per essere memorizzate.",
+  },
+  {
+    q: "Posso consultare il sito offline?",
+    a: "Sì, clonando il repository e avviando il sito in locale come mostrato nella sezione “Avvio rapido”.",
+  },
+  {
+    q: "Ho trovato un errore, come lo segnalo?",
+    a: "Apri una segnalazione sul repository GitHub indicando lezione e passaggio: ogni correzione migliora la guida per tutti.",
+  },
+];
+
+const quickStart = `git clone ${repo}.git
+cd ari-crt-corso-2025/site
+npm ci
+npm run dev`;
+---
+
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#0b1220" />
+    <link rel="canonical" href={`${site}/`} />
+    <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="it_IT" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={`${site}/`} />
+    <meta property="og:image" content={`${site}/og.png`} />
+    <meta
+      property="og:image:alt"
+      content="Corso ARI Toscana CRT 2026 — guide di studio per radioamatori"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script is:inline>
+      document.documentElement.classList.add("js");
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Vai al contenuto</a>
+
+    <header class="site-header">
+      <div class="container bar">
+        <a
+          class="brand"
+          href={`${base}/`}
+          aria-label="Corso ARI Toscana CRT 2026 — home"
+        >
+          <img src={`${base}/favicon.svg`} alt="" width="28" height="28" />
+          <span>Corso ARI CRT 2026</span>
+        </a>
+        <nav aria-label="Principale">
+          <a href="#problema">Il problema</a>
+          <a href="#funzionalita">Funzionalità</a>
+          <a href="#percorsi">Percorsi</a>
+          <a href="#avvio">Avvio rapido</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+        <a class="btn btn-sm" href={lesson(1)}>Inizia a studiare</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow eyebrow-dark">ARI Toscana · Corso 2026</p>
+            <h1>
+              Il corso per aspiranti <span class="grad">radioamatori</span>, in
+              guide di studio
+            </h1>
+            <p class="lead">
+              22 lezioni trasformate in documenti autonomi: teoria, formule,
+              mappe concettuali, glossario e domande di autoverifica per
+              arrivare preparati all’esame.
+            </p>
+            <div class="actions">
+              <a class="btn" href={lesson(1)}>Inizia dalla Lezione 1</a>
+              <a class="btn btn-ghost" href={`${base}/lezioni/`}
+                >Vedi tutte le lezioni</a
+              >
+            </div>
+            <ul class="badges" aria-label="Caratteristiche">
+              <li>22 lezioni</li>
+              <li>In italiano</li>
+              <li>Open source · MIT</li>
+            </ul>
+          </div>
+
+          <div
+            class="terminal"
+            role="img"
+            aria-label="Simulazione di terminale: il corso carica 22 lezioni con guide, glossari e domande di autoverifica"
+          >
+            <div class="term-bar" aria-hidden="true">
+              <span class="dot r"></span><span class="dot y"></span><span
+                class="dot g"></span>
+              <span class="term-title">ari-crt — studio</span>
+            </div>
+            <div class="term-body" aria-hidden="true">
+              <p style="--i:0">
+                <span class="prompt">$</span> ari-crt corso --anno 2026
+              </p>
+              <p style="--i:1" class="ok">✔ 22 lezioni caricate</p>
+              <p style="--i:2" class="ok">✔ guide · glossari · autoverifica</p>
+              <p style="--i:3">
+                <span class="prompt">$</span> ari-crt studia antenne
+              </p>
+              <p style="--i:4" class="muted">
+                → Lezione 18 · Antenne, parte prima
+              </p>
+              <p style="--i:5" class="muted">
+                → Lezione 21 · Direttività e guadagno
+              </p>
+              <p style="--i:6">
+                <span class="prompt">$</span> ari-crt esame<span class="caret"
+                ></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Problema -->
+      <section id="problema" class="section">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">Il problema</p>
+            <h2>Preparare l’esame non è semplice</h2>
+            <p>
+              Il programma è ampio e ogni argomento poggia su quello precedente.
+            </p>
+          </header>
+          <div class="grid grid-4">
+            {
+              problems.map((p) => (
+                <article class="card reveal">
+                  <span class="icon" aria-hidden="true">
+                    {p.icon}
+                  </span>
+                  <h3>{p.title}</h3>
+                  <p>{p.text}</p>
+                </article>
+              ))
+            }
+          </div>
+        </div>
+      </section>
+
+      <!-- Funzionalità -->
+      <section id="funzionalita" class="section alt">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">Funzionalità</p>
+            <h2>Tutto quello che serve per studiare</h2>
+            <p>
+              Ogni guida segue la stessa struttura, così sai sempre dove trovare
+              cosa.
+            </p>
+          </header>
+          <div class="grid grid-3">
+            {
+              features.map((f) => (
+                <article class="card reveal">
+                  <span class="icon" aria-hidden="true">
+                    {f.icon}
+                  </span>
+                  <h3>{f.title}</h3>
+                  <p>{f.text}</p>
+                </article>
+              ))
+            }
+          </div>
+        </div>
+      </section>
+
+      <!-- Come funziona -->
+      <section id="come-funziona" class="section">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">Come funziona</p>
+            <h2>Dalla lezione in diretta all’esame</h2>
+            <p>
+              Un percorso in cinque passaggi, dalla registrazione al ripasso
+              finale.
+            </p>
+          </header>
+          <figure class="flow reveal">
+            <svg
+              class="flow-h"
+              viewBox="0 0 960 220"
+              role="img"
+              aria-labelledby="flow-h-t flow-h-d"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title id="flow-h-t">Percorso di studio</title>
+              <desc id="flow-h-d"
+                >Lezione in diretta, trascrizione, guida di studio, autoverifica
+                ed esame.</desc
+              >
+              <defs>
+                <marker
+                  id="ah"
+                  viewBox="0 0 10 10"
+                  refX="8"
+                  refY="5"
+                  markerWidth="7"
+                  markerHeight="7"
+                  orient="auto-start-reverse"
+                >
+                  <path d="M0 0 10 5 0 10z" fill="#8b5cf6"></path>
+                </marker>
+              </defs>
+              {
+                [
+                  ["🎥", "Lezione", "Diretta ARI Toscana"],
+                  ["📝", "Trascrizione", "Testo della registrazione"],
+                  ["📘", "Guida di studio", "Struttura fissa"],
+                  ["✅", "Autoverifica", "Domande e glossario"],
+                  ["📡", "Esame", "Programma ministeriale"],
+                ].map(([icon, name, sub], i) => (
+                  <g transform={`translate(${i * 201} 40)`}>
+                    <rect
+                      width="154"
+                      height="140"
+                      rx="16"
+                      fill={i === 2 ? "#eef2ff" : "#ffffff"}
+                      stroke={i === 2 ? "#6366f1" : "#c7d2fe"}
+                      stroke-width={i === 2 ? 2 : 1.5}
+                    />
+                    <circle cx="22" cy="22" r="13" fill="#4f46e5" />
+                    <text
+                      x="22"
+                      y="27"
+                      text-anchor="middle"
+                      font-size="14"
+                      font-weight="700"
+                      fill="#fff"
+                    >
+                      {i + 1}
+                    </text>
+                    <text x="77" y="68" text-anchor="middle" font-size="30">
+                      {icon}
+                    </text>
+                    <text
+                      x="77"
+                      y="102"
+                      text-anchor="middle"
+                      font-size="15"
+                      font-weight="700"
+                      fill="#0b1220"
+                    >
+                      {name}
+                    </text>
+                    <text
+                      x="77"
+                      y="122"
+                      text-anchor="middle"
+                      font-size="11.5"
+                      fill="#475569"
+                    >
+                      {sub}
+                    </text>
+                  </g>
+                ))
+              }
+              {
+                [0, 1, 2, 3].map((i) => (
+                  <line
+                    x1={i * 201 + 160}
+                    y1="110"
+                    x2={i * 201 + 197}
+                    y2="110"
+                    stroke="#8b5cf6"
+                    stroke-width="2.5"
+                    marker-end="url(#ah)"
+                  />
+                ))
+              }
+            </svg>
+
+            <svg
+              class="flow-v"
+              viewBox="0 0 320 540"
+              role="img"
+              aria-labelledby="flow-v-t flow-v-d"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title id="flow-v-t">Percorso di studio</title>
+              <desc id="flow-v-d"
+                >Lezione in diretta, trascrizione, guida di studio, autoverifica
+                ed esame.</desc
+              >
+              <defs>
+                <marker
+                  id="av"
+                  viewBox="0 0 10 10"
+                  refX="8"
+                  refY="5"
+                  markerWidth="7"
+                  markerHeight="7"
+                  orient="auto-start-reverse"
+                >
+                  <path d="M0 0 10 5 0 10z" fill="#8b5cf6"></path>
+                </marker>
+              </defs>
+              {
+                [
+                  ["🎥", "Lezione", "Diretta ARI Toscana"],
+                  ["📝", "Trascrizione", "Testo della registrazione"],
+                  ["📘", "Guida di studio", "Struttura fissa"],
+                  ["✅", "Autoverifica", "Domande e glossario"],
+                  ["📡", "Esame", "Programma ministeriale"],
+                ].map(([icon, name, sub], i) => (
+                  <g transform={`translate(10 ${i * 112})`}>
+                    <rect
+                      width="300"
+                      height="76"
+                      rx="14"
+                      fill={i === 2 ? "#eef2ff" : "#ffffff"}
+                      stroke={i === 2 ? "#6366f1" : "#c7d2fe"}
+                      stroke-width={i === 2 ? 2 : 1.5}
+                    />
+                    <text x="38" y="48" text-anchor="middle" font-size="26">
+                      {icon}
+                    </text>
+                    <text
+                      x="72"
+                      y="34"
+                      font-size="15"
+                      font-weight="700"
+                      fill="#0b1220"
+                    >{`${i + 1}. ${name}`}</text>
+                    <text x="72" y="56" font-size="12.5" fill="#475569">
+                      {sub}
+                    </text>
+                  </g>
+                ))
+              }
+              {
+                [0, 1, 2, 3].map((i) => (
+                  <line
+                    x1="160"
+                    y1={i * 112 + 80}
+                    x2="160"
+                    y2={i * 112 + 108}
+                    stroke="#8b5cf6"
+                    stroke-width="2.5"
+                    marker-end="url(#av)"
+                  />
+                ))
+              }
+            </svg>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Approfondimento -->
+      <section id="approfondimento" class="section alt">
+        <div class="container split">
+          <div class="reveal">
+            <p class="eyebrow">Approfondimento</p>
+            <h2>Anatomia di una guida</h2>
+            <p>
+              Le guide hanno tutte lo stesso scheletro. Si parte da obiettivi e
+              prerequisiti, si procede per argomenti numerati nell’ordine della
+              lezione e si chiude con strumenti di ripasso.
+            </p>
+            <ul class="checks">
+              <li>
+                Concetti spiegati in prosa, con termini tecnici definiti alla
+                prima occorrenza
+              </li>
+              <li>Formule e regole in blocchi dedicati e riconoscibili</li>
+              <li>
+                Riferimenti agli argomenti da esame quando citati dal relatore
+              </li>
+              <li>
+                Avvisi quando un passaggio della trascrizione è incompleto
+              </li>
+            </ul>
+          </div>
+          <div
+            class="codeblock reveal"
+            aria-label="Struttura di una guida di studio"
+          >
+            <div class="code-bar">
+              <span class="code-name">lezione_22.md</span>
+            </div>
+            <pre><code>## 📌 Panoramica
+## 📖 Contenuti Teorici
+   ### 1. Correzione Quiz sulle Antenne
+   ### 2. Parole Chiave della Normativa
+   ### 3. Gerarchia Normativa
+   ...
+## 🔗 Mappa Concettuale
+## 📝 Punti Chiave
+## ❓ Domande di Comprensione
+## 📚 Glossario
+## 📅 Informazioni Lezione</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- Governance -->
+      <section id="governance" class="section">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">Governance</p>
+            <h2>Qualità e trasparenza dei contenuti</h2>
+            <p>Regole semplici per mantenere le guide affidabili nel tempo.</p>
+          </header>
+          <div class="grid grid-3">
+            <article class="card reveal">
+              <span class="icon" aria-hidden="true">🎯</span>
+              <h3>Fedeltà alla lezione</h3>
+              <p>
+                Si riporta solo ciò che è stato detto nel corso. Dove la
+                trascrizione è incerta, la guida lo segnala.
+              </p>
+            </article>
+            <article class="card reveal">
+              <span class="icon" aria-hidden="true">🔄</span>
+              <h3>Storia delle modifiche</h3>
+              <p>
+                Ogni correzione passa da una modifica tracciata nel repository,
+                con messaggi di commit convenzionali.
+              </p>
+            </article>
+            <article class="card reveal">
+              <span class="icon" aria-hidden="true">🤝</span>
+              <h3>Aperto ai contributi</h3>
+              <p>
+                Licenza MIT. Segnalazioni e proposte di correzione sono
+                benvenute tramite GitHub.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Percorsi -->
+      <section id="percorsi" class="section alt">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">Percorsi</p>
+            <h2>Tre tappe, dal primo circuito alla normativa</h2>
+            <p>
+              Segui l’ordine del corso o salta direttamente alla parte che ti
+              serve.
+            </p>
+          </header>
+          <div class="grid grid-3">
+            {
+              tracks.map((t) => (
+                <article
+                  class:list={[
+                    "card",
+                    "plan",
+                    "reveal",
+                    { featured: t.featured },
+                  ]}
+                >
+                  {t.featured && (
+                    <span class="tag">Consigliato per il ripasso</span>
+                  )}
+                  <span class="icon" aria-hidden="true">
+                    {t.icon}
+                  </span>
+                  <h3>{t.name}</h3>
+                  <p class="range">{t.range}</p>
+                  <p>{t.text}</p>
+                  <a class="link" href={lesson(t.start)}>
+                    Parti da Lezione {t.start} →
+                  </a>
+                </article>
+              ))
+            }
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick start -->
+      <section id="avvio" class="section">
+        <div class="container split">
+          <div class="reveal">
+            <p class="eyebrow">Avvio rapido</p>
+            <h2>Porta il corso sul tuo computer</h2>
+            <p>
+              Il sito è statico e si avvia in locale in pochi comandi. Serve <code
+                >Node.js</code
+              > 22.12 o superiore. Utile per studiare offline o per proporre una correzione.
+            </p>
+            <p class="muted-p">
+              Il sito sarà raggiungibile su <code>localhost:4321</code>.
+            </p>
+          </div>
+          <div class="codeblock reveal">
+            <div class="code-bar">
+              <span class="code-name">terminale</span>
+              <button
+                class="copy"
+                type="button"
+                data-copy-target="qs-code"
+                aria-label="Copia i comandi negli appunti">Copia</button
+              >
+            </div>
+            <pre><code id="qs-code">{quickStart}</code></pre>
+            <p
+              class="sr-only"
+              role="status"
+              aria-live="polite"
+              id="copy-status"
+            >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="section alt">
+        <div class="container narrow">
+          <header class="section-head reveal">
+            <p class="eyebrow">FAQ</p>
+            <h2>Domande frequenti</h2>
+          </header>
+          <div class="faq reveal">
+            {
+              faqs.map((f) => (
+                <details>
+                  <summary>{f.q}</summary>
+                  <p>{f.a}</p>
+                </details>
+              ))
+            }
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta">
+        <div class="container reveal">
+          <h2>Pronto a iniziare?</h2>
+          <p>
+            Parti dalla prima lezione: bastano pochi minuti per capire come sono
+            fatte le guide.
+          </p>
+          <a class="btn btn-light" href={lesson(1)}>Apri la Lezione 1</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container foot">
+        <p>
+          Corso Aspiranti Radioamatori ARI Toscana CRT · Materiale di studio non
+          ufficiale · Licenza MIT
+        </p>
+        <nav aria-label="Link utili">
+          <a href={`${base}/lezioni/`}>Lezioni</a>
+          <a href={repo}>GitHub</a>
+          <a href="#main">Torna su</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script is:inline>
+      (function () {
+        var els = document.querySelectorAll(".reveal");
+        var reduce = window.matchMedia(
+          "(prefers-reduced-motion: reduce)",
+        ).matches;
+        if (reduce || !("IntersectionObserver" in window)) {
+          els.forEach(function (el) {
+            el.classList.add("in");
+          });
+        } else {
+          var io = new IntersectionObserver(
+            function (entries) {
+              entries.forEach(function (e) {
+                if (e.isIntersecting) {
+                  e.target.classList.add("in");
+                  io.unobserve(e.target);
+                }
+              });
+            },
+            { threshold: 0.12 },
+          );
+          els.forEach(function (el) {
+            io.observe(el);
+          });
+        }
+
+        var btn = document.querySelector("[data-copy-target]");
+        if (!btn) return;
+        var status = document.getElementById("copy-status");
+        btn.addEventListener("click", function () {
+          var text = document.getElementById(
+            btn.dataset.copyTarget,
+          ).textContent;
+          var done = function (ok) {
+            btn.textContent = ok ? "Copiato ✓" : "Copia non riuscita";
+            status.textContent = ok
+              ? "Comandi copiati negli appunti"
+              : "Copia non riuscita";
+            setTimeout(function () {
+              btn.textContent = "Copia";
+            }, 2000);
+          };
+          if (navigator.clipboard && window.isSecureContext) {
+            navigator.clipboard.writeText(text).then(
+              function () {
+                done(true);
+              },
+              function () {
+                done(false);
+              },
+            );
+          } else {
+            var ta = document.createElement("textarea");
+            ta.value = text;
+            ta.setAttribute("readonly", "");
+            ta.style.position = "fixed";
+            ta.style.opacity = "0";
+            document.body.appendChild(ta);
+            ta.select();
+            var ok = false;
+            try {
+              ok = document.execCommand("copy");
+            } catch (e) {}
+            document.body.removeChild(ta);
+            done(ok);
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>

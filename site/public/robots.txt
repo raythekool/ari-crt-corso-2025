@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://raythekool.github.io/ari-crt-corso-2025/sitemap-index.xml

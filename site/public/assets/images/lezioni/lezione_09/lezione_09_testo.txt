@@ -1,0 +1,677 @@
+Lezione 9 – 13 maggio 2026
+
+Menù
+●
+
+Bande Radioamatoriali
+
+●
+
+Band Plan
+
+●
+
+ITU – IARU – ARI
+
+●
+
+MIMIT – Legge
+
+●
+
+Patente / Autorizzazione Generale
+otto
+c
+o
+t
+t
+...tu
+
+e!!!
+d
+n
+o
+o
+r
+al mic
+
+Analogie e... il giusto mezzo
+
+Analogie e... il giusto mezzo
+
+Lunghezza d’Onda vs Frequenza
+●
+
+●
+
+λ lunghezza
+d’onda
+f frequenza
+f=1/λ
+
+Spettro Elettromagnetico
+
+Spettro Elettromagnetico
+Lo spettro elettromagnetico è l’insieme di tutte le onde elettromagnetiche, cioè forme di energia che si propagano nello spazio
+sotto forma di onde invisibili.
+Comprende fenomeni molto diversi tra loro, ma tutti riconducibili ad uno stesso valore fisico: cambia soltanto la frequenza (ovvero
+la lunghezza d’onda).
+
+Onde Elettromagnetiche:
+Spettro Radio
+
+Sigla
+
+Nome
+
+Gamma di frequenza
+
+Lunghezza d’onda
+
+Definizione
+
+Usi principali
+
+VLF
+
+Very Low Frequencies
+
+da 3 kHz a 30 kHz
+
+da 100 Km a 10 Km
+
+miriametriche
+
+Trasmissioni con sommergibili
+
+LF
+
+Low Frequencies
+
+da 30 kHz a 300 kHz
+
+da 10 Km a 1 Km
+
+chilometriche
+
+Trasmissioni della marina
+
+MF
+
+Medium Frequencies
+
+da 300 kHz a 3000 kHz
+
+da 1 Km a 0,1 Km
+
+ettometriche
+
+Radio AM, sistemi aeroportuali
+
+HF
+
+High Frequencies
+
+da 3 MHz a 30 MHz
+
+da 100 m a 10 m
+
+decametriche
+
+Radio OC-CB, radiocomandi, allarmi
+
+VHF
+
+Very High Frequencies
+
+da 30 MHz a 300 MHz
+
+da 10 m a 1 m
+
+metriche
+
+Radio FM, radioamatori, televisione
+
+UHF
+
+Ultra High Frequencies
+
+da 300 MHz a 3000 MHz
+
+da 100 cm a 10 cm
+
+decimetriche
+
+Televisione, cellulari, ponti radio, GPS
+
+SHF
+
+Super High Frequencies
+
+da 3 GHz a 30 GHz
+
+da 10 cm a 1 cm
+
+centimetriche
+
+Radar, ponti radio, satelliti
+
+EHF
+
+Extra High Frequencies
+
+da 30 GHz a 300 GHz
+
+da 10 mm a 1 mm
+
+millimetriche
+
+Radar, satelliti, sonde spaziali
+
+da 300 GHz a 3000 GHz
+
+da 1 mm a 0,1 mm
+
+decimillimetriche
+
+—
+
+Microonde
+
+Un assaggio di propagazione...
+
+BANDE RADIOAMATORIALI
+●
+
+160 metri (1830–1850 kHz)
+
+●
+
+6 metri (50,000–52,000 MHz)
+
+●
+
+80 metri (3500–3800 kHz)
+
+●
+
+2 metri (144,000–146,000 MHz)
+
+●
+
+60 metri (5351,5–5366,5 kHz)
+
+●
+
+70 centimetri (430.000 MHz)
+
+●
+
+23 centimetri
+
+●
+
+13 centimetri
+
+●
+
+6 centimetri
+
+●
+
+3 centimetri
+
+●
+
+40 metri (7000–7200 kHz)
+
+●
+
+30 metri (10 100–10 150 kHz)
+
+●
+
+20 metri (14 000–14 350 kHz)
+
+●
+
+17 metri (18 068–18 168 kHz)
+
+●
+
+15 metri (21 000–21 450 kHz)
+
+●
+
+12 metri (24 890–24 990 kHz)
+
+●
+
+10 metri (28 000–29 700 kHz)
+
+https://it.wikipedia.org/wiki/Bande_radioamatoriali
+
+Esclusivo, Primario, Secondario
+Uso Esclusivo
+Radioamatori con controllo totale sulla banda.
+Uso Primario
+Radioamatori con priorità su altri servizi nell'uso della banda.
+Uso Secondario
+Radioamatori possono usare la banda a patto di non
+interferire con i servizi in uso primario.
+
+https://www.ntia.doc.gov/files/ntia/publications/january_2016_spectrum_wall_chart.pdf
+
+Larghezza di Banda – Segnali
+SEGNALE
+AM fonia
+SSB fonia
+
+Larghezza di banda
+6 kHz
+2-3 kHz
+
+FM fonia
+
+5-15 kHz
+
+SSB digitale
+
+0.05-3 kHz
+
+CW
+
+0.1-0.3 kHz
+
+ATV
+
+6 MHz
+
+Larghezza di Banda – Segnali
+
+Band Plan
+Il Band Plan definisce le suddivisioni della banda di frequenza in segmenti specifici e stabilisce le
+modalità di utilizzo e le caratteristiche operative per ciascun segmento.
+●
+
+Esempio: può indicare quali parti della banda sono riservate a specifici modi di modulazione (come la
+voce, la telegrafia, i dati) o a specifiche attività (come i contest, le comunicazioni di emergenza, attività
+in portatile, qrp).
+
+Il Band Plan è gestito da organizzazioni nazionali e internazionali che supervisionano l'utilizzo delle
+frequenze radio, come ad esempio l'ITU (Unione Internazionale delle Telecomunicazioni) e IARU a livello
+internazionale o gli enti regolatori delle telecomunicazioni a livello nazionale. Scopo del Band Plan è
+garantire un uso efficiente ed equo dello spettro di frequenze e per evitare interferenze tra gli utenti.
+●
+
+Per i radioamatori, il band plan fornisce un quadro di riferimento per operare e l'utilizzo delle diverse
+frequenze assegnate, aiutando a garantire una coesistenza armoniosa tra i vari utilizzatori all'interno
+della banda di frequenza.
+
+Band Plan
+
+Band Plan
+●
+
+Esempio: banda 2m (144-146) MHz
+
+Band Plan link
+●
+
+https://www.ari.it/band-plan-hf-iaru-reg-1.html
+
+●
+
+https://www.arimi.it/download/bandplan/
+
+Definizioni di “Radioamatore”
+ITU
+
+IARU
+
+Il servizio di radioamatore viene
+definito come: un servizio di
+radiocomunicazione a scopo non
+commerciale, svolto da
+appassionati di
+radiocomunicazione, che utilizzano e
+sperimentano le proprie stazioni
+radio per comunicazioni personali,
+autoistruzione tecnica,
+interconnessione di stazioni, ricerca
+scientifica e altri scopi simili.
+
+I servizi di radioamatore e radioamatoresatellite sono servizi di
+radiocomunicazione definiti nel
+Regolamento Radio dell'ITU. I
+radioamatori, che sono circa tre milioni
+in tutto il mondo, dimostrano le proprie
+competenze superando esami di teoria
+e pratica radio e, di conseguenza,
+ottengono l'accesso a specifiche
+bande di frequenza situate in tutto lo
+spettro radio per l'uso nelle
+intercomunicazioni e nelle indagini
+tecniche.
+
+Storia...
+●
+
+●
+
+Il Servizio Radioamatoriale è uno dei più datati servizi di radiocomunicazione ed è precedente alla
+regolamentazione delle radiocomunicazioni.
+Nel 1912, i radioamatori potevano utilizzare qualsiasi frequenza superiore a 1,5 MHz, poiché queste
+frequenze erano considerate "di nessun valore per le comunicazioni marine, governative e commerciali" o
+"indesiderabili e scarsamente utili".
+
+●
+
+Nel 1924, i radioamatori lasciarono spazio ad altri servizi nelle bande superiori a 1,5 MHz.
+
+●
+
+Oggi, il servizio amatoriale opera in allocazioni relativamente piccole lungo tutto lo spettro...
+
+ITU - cos’è
+International Telecommunication Union
+Unione Internazionale delle Telecomunicazioni
+●
+●
+●
+
+Organizzazione internazionale
+Agenzia specializzata delle Nazioni Unite
+si occupa di definire gli standard nelle telecomunicazioni e nell'uso delle onde radio
+
+Ruoli e attività dell'ITU:
+●
+Cooperazione e regolamentazione internazionale delle telecomunicazioni
+●
+Standardizzazione delle tecnologie e dei protocolli di telecomunicazione
+●
+Allocazione delle frequenze radio
+●
+Promozione dello sviluppo delle telecomunicazioni globalmente
+●
+Promozione dell'accesso alle telecomunicazioni e alleTecnologie dell’Informazione e delle Comunicazioni
+per tutti
+●
+gestisce i prefissi internazionali dei servizi di comunicazione
+
+ITU - cos’è
+Coordinamento e armonizzazione delle politiche e delle norme:
+●
+
+Facilitazione della comunicazione e della cooperazione tra i paesi membri
+
+●
+
+Conferenze e incontri internazionali per negoziare questioni di interesse comune
+
+Ruolo dell'ITU per i radioamatori:
+●
+
+Assegnazione delle frequenze radio
+
+●
+
+Sviluppo di norme e raccomandazioni tecniche
+
+●
+
+Collaborazione con organizzazioni nazionali dei radioamatori
+
+●
+
+Promozione dell'efficienza e dell'armonizzazione delle comunicazioni radioamatoriali
+
+ITU Zone
+
+Regolamento Radiocomunicazioni
+Definizione ITU
+1.56 Servizio Amatoriale
+Un servizio di radiocomunicazioni per lo scopo di autoformazione,
+intercomunicazione e indagini tecniche svolte da radioamatori,
+ossia da persone debitamente autorizzate interessate alla tecnica
+radio esclusivamente a scopo personale e senza interesse
+pecuniario.
+
+Regolamento Radiocomunicazioni
+Definizione ITU
+1.57 Servizio Amatoriale via Satellite
+Un servizio di radiocomunicazioni che utilizza stazioni spaziali su
+satelliti terrestri per gli stessi scopi del servizio amatoriale.
+
+Regolamento Radiocomunicazioni – Articolo 25
+25.1 Le radiocomunicazioni fra stazioni radioamatoriali di Paesi diversi sono vietate se
+l’amministrazione di uno dei Paesi interessati ha notificato la sua opposizione.
+25.2 Le trasmissioni tra stazioni radioamatoriali di Paesi diversi devono limitarsi a
+comunicazioni relative all’oggetto del servizio di radioamatore come definito al para 1.56,
+e a osservazioni di carattere puramente personale.
+25.2A È vietato codificare le trasmissioni tra stazioni radioamatoriali di Paesi diversi per
+nasconderne il senso, tranne se si tratta di segnali di comando scambiati tra stazioni
+terrestri di comando e stazioni spaziali del servizio di radioamatore via satellite.
+25.3 Le stazioni radioamatoriali possono essere utilizzate per trasmettere comunicazioni
+internazionali provenienti o destinate a terzi solo in casi d’emergenza e per i soccorsi in
+caso di catastrofe.
+25.4 Un’amministrazione può determinare l’applicabilità di questa disposizione alle
+stazioni radioamatoriali che sottostanno alla sua giurisdizione.
+
+Regolamento Radiocomunicazioni - Articolo 25
+25.5 Le amministrazioni determinano se una persona che desidera ottenere una
+concessione per esercitare una stazione radioamatoriale deve o meno dimostrare di
+essere in grado di ricevere e trasmettere testi in codice Morse.
+25.6 Le amministrazioni verificano le attitudini operative e tecniche di chi desidera
+esercitare una stazione radioamatoriale.
+25.7 La potenza massima delle stazioni radioamatoriali è fissata dalle amministrazioni
+competenti.
+25.8 Tutti gli articoli o disposizioni pertinenti della Costituzione, della Convenzione o del
+presente Regolamento sono applicabili alle stazioni radioamatoriali.
+25.9 Durante le loro emissioni, le stazioni radioamatoriali devono trasmettere il loro
+indicativo di chiamata a brevi intervalli.
+
+Regolamento Radiocomunicazioni - Articolo 25
+25.9A Le amministrazioni sono invitate ad adottare le misure necessarie ad autorizzare le stazioni
+radioamatoriali a prepararsi per rispondere ai bisogni di comunicazione delle operazioni di soccorso in caso
+di catastrofe.
+25.9B Un’amministrazione può decidere se autorizzare una persona di un’altra amministrazione che ha
+ricevuto una concessione per l’esercizio di una stazione radioamatoriale ad esercitare una stazione
+radioamatoriale quando tale persona si trova temporaneamente sul proprio territorio, fatte salve eventuali
+condizioni o restrizioni che potrebbe imporre.
+Articolo 25 Sezione II – Servizio di radioamatore via satellite
+25.10 Le disposizioni della Sezione I del presente articolo si applicano, se del caso, allo stesso modo al
+servizio di radioamatore via satellite.
+25.11 Le amministrazioni che autorizzano stazioni spaziali al servizio di radioamatore via satellite devono
+fare in modo che prima del lancio venga installato un numero sufficiente di stazioni terrestri di comando,
+così da garantire l’immediata eliminazione delle interferenze nocive causate dalle emissioni di una stazione
+del servizio di radioamatore via satellite
+
+IARU
+International Amateur Radio Union
+
+●
+
+●
+
+IARU - Unione Internazionale Radioamatori (International Amateur Radio Union - IARU) è la federazione
+mondiale delle organizzazioni nazionali di radioamatori. IARU conta oltre 160 società membro in
+altrettanti paesi e territori separati.
+IARU è stata fondata durante un incontro a Parigi nel 1925 come rappresentante internazionale del
+movimento dei radioamatori. All'epoca, le "onde corte" stavano appena cominciando a essere
+comprese ed utilizzate per le comunicazioni globali, utilizzando livelli di potenza e antenne accessibili ai
+singoli individui che operavano dalle loro abitazioni. Questi radioamatori avevano bisogno di
+un'organizzazione per coordinare le loro attività e per essere la loro voce nelle conferenze internazionali.
+
+IARU, Nazioni Unite, ITU
+●
+
+●
+
+IARU è riconosciuta dalle Nazioni Unite come Organizzazione Non Governativa (ONG) in virtù del suo
+status consultivo presso altri organi delle Nazioni Unite, come l'Unione Internazionale delle
+Telecomunicazioni (ITU). L'ITU riconosce la IARU come un'organizzazione internazionale (CV/Art.19, N.
+231).
+La IARU ha sviluppato strette relazioni di collaborazione con le Organizzazioni Regionali delle
+Telecomunicazioni:
+Conference of European Postal and Telecommunications Administrations (CEPT)
+
+IARU
+(International Amateur Radio Union)
+IARU svolge un ruolo cruciale nel difendere gli interessi dei radioamatori a livello globale. Ecco alcune
+delle principali attività e responsabilità della IARU:
+●
+
+protezione dello spettro
+●
+
+●
+
+rappresentanza internazionale
+●
+
+●
+
+La IARU si impegna a proteggere e migliorare l'allocazione dello spettro di frequenza per il Servizio Radioamatori. Ciò
+comporta la partecipazione a conferenze e negoziati internazionali per garantire che i radioamatori abbiano accesso
+alle bande di frequenza necessarie per le loro comunicazioni e sperimentazioni.
+La IARU funge da rappresentante internazionale del Servizio Radioamatori e interagisce attivamente con varie
+organizzazioni internazionali e enti normativi, come l'Unione Internazionale delle Telecomunicazioni (ITU), per
+promuovere gli interessi del radioamatore.
+
+sviluppo delle politiche
+●
+
+La IARU contribuisce allo sviluppo di politiche e regolamentazioni relative al radioamatore. Fornisce competenze
+tecniche e contributi nelle discussioni e consultazioni su questioni che riguardano la comunità dei radioamatori.
+
+IARU
+●
+
+●
+
+●
+
+●
+
+Comunicazioni di emergenza: IARU sostiene e promuove il ruolo del radioamatore nelle comunicazioni
+di emergenza durante disastri e crisi. Promuove lo sviluppo di reti di comunicazione di emergenza e
+fornisce orientamenti e risorse alle società membro per un'efficace risposta in caso di emergenza.
+Standard tecnici: IARU stabilisce e promuove standard tecnici e migliori pratiche per attrezzature e
+operazioni radioamatoriali. Ciò include aspetti come le emissioni di radiofrequenza, le procedure
+operative e la compatibilità delle attrezzature.
+Cooperazione internazionale: IARU promuove la collaborazione tra le organizzazioni nazionali di
+radioamatori. Favorisce lo scambio di informazioni, idee ed esperienze per rafforzare la comunità dei
+radioamatori a livello mondiale.
+Complessivamente, IARU svolge un ruolo vitale nel rappresentare gli interessi dei radioamatori a livello
+globale, garantendo che il servizio radioamatoriale continui a prosperare ed evolversi nel mondo delle
+telecomunicazioni in rapida evoluzione.
+
+ARI – Associazione Radioamatori Italiani
+●
+
+ARI: la principale associazione dei radioamatori italiani, fondata nel 1927, con lo scopo di
+rappresentare, promuovere e sviluppare il radiantismo in Italia.
+
+●
+
+ARI: promuove la formazione tecnica e culturale dei radioamatori attraverso corsi, attività divulgative,
+sperimentazione e supporto ai candidati per il conseguimento della patente e dell’autorizzazione
+generale.
+
+●
+
+Organizzata in numerose Sezioni locali distribuite sul territorio nazionale, che costituiscono luoghi di
+incontro, collaborazione e attività pratica, dove i soci possono condividere esperienze, realizzare
+progetti e partecipare ad esercitazioni e manifestazioni radioamatoriali.
+
+●
+
+ARI rappresenta ufficialmente i radioamatori italiani presso enti nazionali e internazionali ed è
+membro della International Amateur Radio Union (IARU), contribuendo alla tutela delle frequenze
+radioamatoriali e allo sviluppo delle telecomunicazioni amatoriali.
+
+●
+
+Oltre all’aspetto tecnico e sperimentale, ARI sostiene attività di utilità sociale come le comunicazioni
+di emergenza e di protezione civile, promuovendo lo spirito di collaborazione, servizio, ricerca tecnica e
+amicizia internazionale che caratterizza il servizio di radioamatore
+
+MIMIT
+●
+
+Direzione Generale per i servizi di comunicazione elettronica, di
+radiodiffusione e postali
+
+●
+
+Ispettorati Territoriali
+
+●
+
+PORTALE: https://ispcmi.mimit.gov.it/
+
+●
+
+Normativa di riferimento
+
+●
+
+ENTE REGOLATORE del Servizio di Radioamatore
+
+Codice delle Comunicazioni Elettroniche
+D.Lgs. 259/2003
+●
+Titolo III – Capo VII
+art.134-144
+●
+Allegato n.26
+DECRETO LEGISLATIVO 24 marzo 2024, n. 48
+https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?
+atto.dataPubblicazioneGazzetta=2024-0413&atto.codiceRedazionale=24G00066&elenco30giorni
+
+Attivita' di Radioamatore
+1) L'attivita' di radioamatore consiste nell'espletamento di un servizio, svolto in
+linguaggio chiaro, o con l'uso di codici internazionalmente ammessi, esclusivamente su
+mezzo radioelettrico anche via satellite, di istruzione individuale, di intercomunicazione
+e di studio tecnico, effettuato da persone che abbiano conseguito la relativa
+autorizzazione generale e che si interessano della tecnica della radioelettricita' a titolo
+esclusivamente personale senza alcun interesse di natura economica.
+2) Al di fuori della sede dell'impianto l'attivita' di cui al comma 1 puo' essere svolta con
+apparato portatile anche su mezzo mobile, escluso quello aereo.
+3) L'attivita' di radioamatore e' disciplinata dalle norme di cui al presente Capo e
+dell'allegato n. 26.
+4) E' libera l'attivita' di solo ascolto sulla gamma di frequenze attribuita al servizio di
+radioamatore.
+
+PATENTE
+patente di operatore di stazione di radioamatore
+Documento ufficiale che attesta la qualifica di un individuo come radioamatore, necessaria per
+ottenere l'autorizzazione legale per utilizzare le frequenze radio assegnate ai radioamatori
+Si ottiene:
+●
+
+●
+
+superando un esame che valuta le conoscenze tecniche e le competenze operative
+esame che riguarda: teoria e pratica delle comunicazioni radio, regolamentazione delle frequenze,
+elettrotecnica, sicurezza delle comunicazioni
+
+NON SCADE
+
+AUTORIZZAZIONE GENERALE
+Patente
+●
+Indicativo di chiamata (Nominativo)
+●
+Autorizzazione Generale
+●
+
+Rilascio
+●
+Rinnovo (10 anni)
+●
+Pagamento canone (10 anni)
+●
+
+

@@ -1,0 +1,342 @@
+Amplificatori
+Oscillatori
+Porte logiche
+
+ARI CRT - Corso OM 2026
+
+1
+
+Amplifica i segnali a frequenza audio
+Non vi sono di norma circuiti risonanti
+Ha sempre elementi attivi (transistor, FET,
+etc.)
+
+ARI CRT - Corso OM 2026
+
+2
+
+Amplifica i segnali a radiofrequenza (RF)
+Vi sono spesso circuiti risonanti, che
+rendono il circuito selettivo
+
+ARI CRT - Corso OM 2026
+
+3
+
+Tipica curva di risposta di un amplificatore RF
+ARI CRT - Corso OM 2026
+
+4
+
+Amplificazione in potenza: è il rapporto fra
+potenza in uscita e potenza in ingresso
+Amplificazione in tensione: il rapporto fra
+tensione in uscita e tensione in ingresso
+Il fattore di amplificazione spesso è
+chiamato guadagno
+Si esprime di norma in decibel
+
+ARI CRT - Corso OM 2026
+
+5
+
+E’ il rapporto, espresso in percentuale, fra la
+potenza in uscita e la potenza assorbita
+dall’alimentazione
+
+η = POUT / PALIM
+Esempio: un amplificatore che consuma 100
+W e fornisce 40 W ha un rendimento del
+40%
+ARI CRT - Corso OM 2026
+
+6
+
+CLASSE A : nel dispositivo scorre corrente
+per tutto il ciclo del segnale in ingresso
+CLASSE B : nel dispositivo scorre corrente
+solo per 180° del segnale in ingresso
+CLASSE C : nel dispositivo scorre corrente
+per meno di 180° del segnale in ingresso
+ARI CRT - Corso OM 2026
+
+7
+
+Zona di
+funzionamento
+lineare
+
+Punto di
+saturazione
+Al di sopra I=MAX
+
+Punto di
+interdizione
+Al di sotto I=0
+
+ARI CRT - Corso OM 2026
+
+8
+
+La corrente scorre per tutto il ciclo del
+segnale in ingresso (360° elettrici)
+L’amplificazione è molto lineare (il segnale
+in uscita è identico a quello in ingresso)
+Il rendimento è molto basso (max 20-25 %)
+
+ARI CRT - Corso OM 2026
+
+9
+
+Il punto di
+lavoro del
+dispositivo è
+al centro
+della zona
+lineare
+
+ARI CRT - Corso OM 2026
+
+10
+
+La corrente scorre per metà del ciclo del
+segnale in ingresso (180° elettrici)
+L’amplificazione è distorta. Può essere
+migliorata usando la configurazione pushpull
+Il rendimento dello stadio è PIU’ ALTO della
+classe A (intorno al 60%)
+ARI CRT - Corso OM 2026
+
+11
+
+Il punto di
+lavoro è
+vicino al
+punto di
+interdizione
+
+ARI CRT - Corso OM 2026
+
+12
+
+E’ composto da due dispositivi attivi
+Ogni dispositivo lavora in classe B ed
+amplifica metà ciclo del segnale in ingresso
+(push-pull = spingi-tira)
+La fedeltà di riproduzione è buona
+Il rendimento è alto (60%)
+ARI CRT - Corso OM 2026
+
+13
+
+ARI CRT - Corso OM 2026
+
+14
+
+La corrente scorre per meno di 180° del ciclo del
+segnale in ingresso
+L’amplificazione è molto distorta. Il circuito
+risonante di uscita ricostruisce la sinusoide
+completa
+Il rendimento dello stadio è molto elevato (70%
+ed oltre)
+Si usa per segnali che non richiedono linearità
+nell’amplificazione (CW – FM)
+ARI CRT - Corso OM 2026
+
+15
+
+Il punto di
+lavoro è
+oltre il
+punto di
+interdizione
+
+ARI CRT - Corso OM 2026
+
+16
+
+La corrente scorre per un angolo di poco
+superiore ai 180°
+L’amplificazione è abbastanza lineare. Il
+circuito risonante di uscita ricostruisce la
+sinusoide completa
+Il rendimento dello stadio è più alto della
+classe A (intorno al 60-65 %)
+ARI CRT - Corso OM 2026
+
+17
+
+ARI CRT - Corso OM 2026
+
+18
+
+ARI CRT - Corso OM 2026
+
+19
+
+Genera un segnale a radiofrequenza
+Funziona perché una parte del segnale in
+uscita viene riportato all’ingresso
+(retroazione)
+Se nel percorso di retroazione si usa un
+circuito LC o un quarzo il segnale in uscita ha
+la stessa frequenza di risonanza del circuito
+LC o del quarzo
+ARI CRT - Corso OM 2026
+
+20
+
+Rendendo C1
+variabile, si
+ottiene un VFO:
+oscillatore a
+frequenza
+variabile
+
+ARI CRT - Corso OM 2026
+
+21
+
+Gli oscillatori con un circuito LC sono poco
+stabili
+Se si usa al posto dell’LC un quarzo,
+l’oscillatore sarà invece molto stabile
+Si può usare un quarzo anche per generare
+frequenze alte usando le sue ‘armoniche’
+(tecnica OVERTONE)
+ARI CRT - Corso OM 2026
+
+22
+
+ARI CRT - Corso OM 2026
+
+23
+
+Serve a generare un segnale di frequenza
+variabile, ma con la stabilità di un oscillatore
+al quarzo
+Ci sono due oscillatori: uno “di riferimento” a
+quarzo e uno controllato in tensione (VCO)
+La frequenza del VCO viene “agganciata” a
+quella del quarzo
+
+ARI CRT - Corso OM 2026
+
+24
+
+ARI CRT - Corso OM 2026
+
+25
+
+ARI CRT - Corso OM 2026
+
+26
+
+Segnali analogici: la loro ampiezza varia con continuità
+tra un valore minimo e un valore massimo
+
+Segnali digitali: la loro ampiezza può assumere solo
+alcuni stati (tipicamente 2)
+
+ARI CRT - Corso OM 2026
+
+27
+
+Un segnale digitale tipico ha due livelli:
+• basso
+(livello “0”)
+• alto
+(livello “1”)
+Nei dispositivi logici TTL (Transistor-Transistor Logic) i
+due livelli valgono:
+• livello 0: circa 0,5 V
+• livello 1: circa 4,5 V
+
+ARI CRT - Corso OM 2026
+
+28
+
+Ad esempio:
+• in un ricevitore analogico con la lettura
+della sintonia numerica
+• in un ricetrasmettitore VHF FM canalizzato
+
+ARI CRT - Corso OM 2026
+
+29
+
+Dispositivi che contengono al loro interno
+centinaia/migliaia di elementi attivi (diodi e
+transistor) e passivi (resistori e
+condensatori) ricavati su una singola
+piastrina di materiale semiconduttore
+
+ARI CRT - Corso OM 2026
+
+30
+
+Dispositivi che in base a dei livelli
+predefiniti in ingresso presentano livelli
+predefiniti in uscita secondo una precisa
+tabella, detta tavola della verita’
+
+ARI CRT - Corso OM 2026
+
+31
+
+Inverte il segnale che ha in ingresso
+
+ARI CRT - Corso OM 2026
+
+32
+
+ARI CRT - Corso OM 2026
+
+33
+
+ARI CRT - Corso OM 2026
+
+34
+
+Che operazione logica esegue una porta OR?
+1. Produce un livello logico '1' in uscita se tutti gli ingressi sono a
+livello logico '0'
+2. Produce un livello logico '1' in uscita se uno o più ingressi sono a
+livello logico '1'
+3. Produce un livello logico '0' in uscita solo se tutti gli ingressi sono a
+livello logico '1’
+
+ARI CRT - Corso OM 2026
+
+35
+
+Che operazione logica esegue una porta AND?
+1. Produce un livello logico '1' in uscita solo se solo uno degli ingressi
+è a livello logico '1'
+2. Produce un livello logico '1' in uscita solo se entrambi gli ingressi
+sono a livello logico '0‘
+3. Produce un livello logico '1' in uscita solo se entrambi gli ingressi
+sono a livello logico '1'
+
+ARI CRT - Corso OM 2026
+
+36
+
+Che operazione logica esegue una porta NAND?
+1. Produce un livello logico '0' in uscita solo se tutti gli ingressi sono a
+livello logico '1‘
+2. Produce un livello logico '0' in uscita solo se tutti gli ingressi sono a
+livello logico '0'
+3. Produce un livello logico '1' in uscita solo se tutti gli ingressi sono a
+livello logico '1'
+
+ARI CRT - Corso OM 2026
+
+37
+
+ARI CRT - Corso OM 2026
+
+38
+
+

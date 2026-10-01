@@ -1,0 +1,250 @@
+Resistenza e legge di Ohm
+Potenza dissipata da un resistore
+Leggi di Kirchoff
+Resistori in serie e in parallelo
+
+ARI CRT - Corso OM 2026
+
+1
+
+- generatore di corrente
+
+- conduttori di trasporto
+
+- carico utilizzatore
+ARI CRT - Corso OM 2026
+
+- differenza di potenziale ai capi
+del generatore (volt)
+- corrente che scorre nel circuito
+(ampere)
+- resistenza del carico utilizzatore
+(ohm)
+ARI CRT - Corso OM 2026
+
+La resistenza elettrica (R) è l’opposizione
+che la corrente elettrica incontra nel suo
+percorso entro un conduttore
+Unità di misura : ohm (Ω)
+1 ohm è la resistenza di un conduttore che viene attraversato
+da una corrente di 1 A se ai suoi capi è applicata una DDP di 1 V
+1 ohm = 1 volt / 1 ampere
+ARI CRT - Corso OM 2026
+
+Il valore dipende da
+• tipo di materiale
+• sezione del materiale
+• lunghezza del percorso
+ρ (rho) = resistività
+l = lunghezza
+S = sezione
+ARI CRT - Corso OM 2026
+
+La resistenza di un conduttore:
+• cresce se aumenta la lunghezza
+• diminuisce se aumenta la
+sezione
+ARI CRT - Corso OM 2026
+
+La relazione che lega la tensione V, la
+corrente I e la resistenza R è la:
+
+LEGGE DI OHM
+V=RxI
+I =V:R
+R=V:I
+ARI CRT - Corso OM 2026
+
+1 – Leggere bene la domanda, e capire cosa
+viene chiesto
+2 – Scegliere la formula giusta
+3 – Inserire i numeri nella formula e non
+sbagliare il calcolo ☺
+
+RISPOSTA ESATTA !
+ARI CRT - Corso OM 2026
+
+Esempio:
+Vi sono 10 V di tensione, applicati a un
+resistenza di 5 ohm. Quanta corrente
+scorre?
+V=RxI
+
+I=V:R
+
+Risposta: 2 A (10:5=2)
+ARI CRT - Corso OM 2026
+
+R=V:I
+
+Esempio:
+Vi sono 15 V di tensione ai capi di un
+circuito e nel circuito scorrono 5 Ampere.
+Che resistenza presenta?
+V=RxI
+
+I=V:R
+
+Risposta: 3 ohm (15:5=3)
+ARI CRT - Corso OM 2026
+
+R=V:I
+
+Esempio:
+In una resistenza di 4 ohm scorrono 3
+ampere. Che tensione è applicata ai suoi
+capi?
+V=RxI
+
+I=V:R
+
+Risposta: 12 V (4 x 3=12)
+ARI CRT - Corso OM 2026
+
+R=V:I
+
+(x 103)
+(x 106)
+(x 109)
+
+kilo
+mega
+giga
+
+= un migliaio
+= un milione
+= un miliardo
+
+milli
+micro
+nano
+pico
+
+= un millesimo
+(x 10-3)
+= un milionesimo (x 10-6)
+= un miliardesimo (x 10-9)
+= un biliardesimo (x 10-12)
+
+ARI CRT - Corso OM 2026
+
+17,5 x 103 = 17.500
+Esponente positivo: si sposta la virgola a destra di
+3 posizioni, aggiungendo zeri
+
+17,5 x 10-3 = 0,0175
+Esponente negativo: si sposta la virgola a sinistra
+di 3 posizioni, aggiungendo zeri
+
+ARI CRT - Corso OM 2026
+
+SIMBOLO ELETTRICO:
+
+ARI CRT - Corso OM 2026
+
+Limita il passaggio della corrente,
+dissipando potenza in calore (effetto
+Joule)
+Valore in ohm, uguale al rapporto fra (V)
+ai capi e corrente (I) che lo attraversa
+(legge di Ohm)
+ARI CRT - Corso OM 2026
+
+ARI CRT - Corso OM 2026
+
+Esempio:
+Su una resistenza di 5 ohm sono applicati 10V.
+Quanta potenza dissipa?
+P = R x I2
+
+P = V2 / R
+
+Risposta: 20 W (10 x 10 / 5 = 20)
+ARI CRT - Corso OM 2026
+
+Esempio:
+In una resistenza di 15 ohm scorrono 2 A.
+Quanta potenza dissipa?
+P = R x I2
+
+P = V2 / R
+
+Risposta: 60 W (15 x 2 x 2 = 60)
+ARI CRT - Corso OM 2026
+
+Resistore NTC = all’aumentare della temperatura
+diminuisce la sua resistenza
+(coefficiente di temperatura negativo)
+Resistore PTC = all’aumentare della temperatura
+aumenta la sua resistenza
+(coefficiente di temperatura positivo)
+
+ARI CRT - Corso OM 2026
+
+Il valore in ohm rimane costante al variare:
+•della frequenza della corrente che lo
+attraversa
+•della temperatura
+
+ARI CRT - Corso OM 2026
+
+Generatore che mantiene la
+tensione costante al variare della
+corrente assorbita dal carico
+
+ARI CRT - Corso OM 2026
+
+21
+
+E’ un generatore ideale, seguito da una
+“resistenza interna”
+
+A causa di Ri, la tensione di uscita diminuisce
+all’aumentare della corrente assorbita
+ARI CRT - Corso OM 2026
+
+22
+
+Un nodo è un punto in un
+circuito in cui convergono
+3 o più rami
+
+Una maglia è un percorso
+chiuso in un circuito
+elettrico
+
+ARI CRT - Corso OM 2026
+
+Fonti: Unid, Wikipedia
+
+ARI CRT - Corso OM 2026
+
+ARI CRT - Corso OM 2026
+
+ARI CRT - Corso OM 2026
+
+ARI CRT - Corso OM 2026
+
+Se i resistori in parallelo sono 2, vale la
+seguente formula:
+R1 x R2
+Rtot = ------------R1 + R2
+
+ARI CRT - Corso OM 2026
+
+Casi pratici per le domande a QUIZ:
+- due uguali = la metà di uno dei resistori
+- più uguali = valore di un resistore, diviso per
+il numero dei resistori
+- due o più diversi = scegliete il valore più
+piccolo tra le risposte possibili
+
+ARI CRT - Corso OM 2026
+
+ARI CRT - Corso OM 2026
+
+ARI CRT - Corso OM 2026
+
+31
+
+

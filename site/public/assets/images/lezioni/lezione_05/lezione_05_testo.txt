@@ -1,0 +1,313 @@
+Il condensatore
+L’impedenza
+La potenza in CA
+
+ARI CRT - Corso OM 2026
+
+1
+
+Simbolo elettrico
+
+Componente che accumula carica elettrica
+quando è connesso ad un generatore
+ARI CRT - Corso OM 2026
+
+2
+
+E’ composto da due piastre conduttive
+separate da un dielettrico (isolante)
+
+ARI CRT - Corso OM 2026
+
+3
+
+Quando viene applicata
+una tensione ai suoi
+capi:
+• il condensatore si
+carica
+• si sviluppa un campo
+elettrico tra le due
+armature
+ARI CRT - Corso OM 2026
+
+4
+
+Aumenta la
+capacità del
+condensatore
+
+Provoca una corrente di fuga (isolante non
+perfetto)
+Impone una tensione massima di lavoro
+ARI CRT - Corso OM 2026
+
+5
+
+La capacità esprime quanta carica elettrica
+può immagazzinare un condensatore
+Capacità (C) = rapporto fra carica elettrica (Q)
+e tensione (V) C = Q/V
+Unità di misura = farad (F)
+1 farad = 1 coulomb : 1 volt
+
+ARI CRT - Corso OM 2026
+
+6
+
+Il farad è un’unità di misura molto grande. Si
+usano sempre i suoi sottomultipli:
+μF – microfarad – 10-6
+
+0,000001 F
+
+nF – nanofarad –
+
+10-9
+
+pF – picofarad –
+
+10-12 0,000000000001 F
+
+ARI CRT - Corso OM 2026
+
+0,000000001 F
+
+7
+
+La capacità di un condensatore vale:
+
+C = ε x S/d
+Dove :
+S = Superficie armature
+d = Distanza fra armature
+ε = costante dielettrica del dielettrico
+ARI CRT - Corso OM 2026
+
+8
+
+C = ε x S/d
+Se si aumenta la superficie (S) la capacità
+aumenta
+Se si aumenta la distanza fra le armature (d)
+la capacità diminuisce
+
+ARI CRT - Corso OM 2026
+
+9
+
+A mica
+
+ARI CRT - Corso OM 2026
+
+A film plastico
+
+Elettrolitici
+(alta capacità,
+polarizzati)
+
+10
+
+Possono cambiare la loro capacità
+Il dielettrico è l’aria
+Simbolo elettrico
+
+ARI CRT - Corso OM 2026
+
+11
+
+Il valore totale è uguale alla somma dei
+singoli valori
+Ctot= C1 + C2 + …. Cn
+
+ARI CRT - Corso OM 2026
+
+12
+
+Il valore totale è uguale a:
+
+ARI CRT - Corso OM 2026
+
+13
+
+Casi pratici per le domande a quiz:
+Due condensatori uguali = La metà di uno
+Più condensatori uguali = Valore di uno
+diviso per il numero dei condensatori
+Due o più diversi = Il risultato è minore del
+condensatore più piccolo
+ARI CRT - Corso OM 2026
+
+14
+
+Cosa succede
+quando si collega un
+condensatore a una
+tensione continua?
+La tensione cresce
+con una certa
+lentezza: è in
+“ritardo” rispetto
+alla corrente
+Immagine: Quattrodispositivi
+ARI CRT - Corso OM 2026
+
+15
+
+Si misura in secondi (s)
+Vale: T = R x C
+
+E’ il tempo impiegato a raggiungere il 63%
+della tensione di regime
+ARI CRT - Corso OM 2026
+
+16
+
+Immagine: Marturano
+ARI CRT - Corso OM 2026
+
+17
+
+Immagazzina energia sottoforma di campo
+elettrico, opponendosi al passaggio della
+corrente continua
+
+La corrente alternata lo può
+attraversare
+La corrente continua viene
+bloccata
+ARI CRT - Corso OM 2026
+
+18
+
+Quando una corrente alternata attraversa
+un condensatore:
+La corrente è in anticipo rispetto alla
+tensione di 90°
+ovvero
+
+La tensione è in ritardo rispetto alla
+corrente di 90°
+ARI CRT - Corso OM 2026
+
+19
+
+E’ la forza di opposizione che un
+condensatore produce al passaggio della
+corrente alternata
+Si misura in ohm (Ω)
+Varia in funzione della frequenza
+Si indica con XC e vale: XC = 1/(2 π f C)
+ARI CRT - Corso OM 2026
+
+20
+
+Immagine: I2VIU
+ARI CRT - Corso OM 2026
+
+21
+
+ARI CRT - Corso OM 2026
+
+22
+
+La resistenza
+Corrente e tensione in fase
+La reattanza induttiva
+Corrente in ritardo di 90°
+La reattanza capacitiva
+Corrente in anticipo di 90°
+ARI CRT - Corso OM 2026
+
+L’impedenza
+23
+
+Forza che si oppone al transito della corrente
+alternata in un circuito
+Unità di misura = ohm
+Si indica con la lettera Z
+Dipende dalla frequenza
+ARI CRT - Corso OM 2026
+
+24
+
+E’ composta da una parte reale e una parte
+immaginaria
+Parte reale:
+una resistenza (R)
+Parte immaginaria:una reattanza (X)
+Z = R + jX
+(Es.: 50 + j15 Ω)
+ARI CRT - Corso OM 2026
+
+25
+
+E’ la parte immaginaria dell’impedenza
+La reattanza induttiva ha segno + (es.: +j65)
+La reattanza capacitiva ha segno – (es.: -j50)
+Le reattanze induttive e capacitive si
+sommano algebricamente (col segno)
+
+ARI CRT - Corso OM 2026
+
+26
+
+Valgono le stesse formule della corrente
+continua, ma si sostituisce la resistenza (R)
+con l’impedenza (Z)
+
+Dove Z = R + jX
+ARI CRT - Corso OM 2026
+
+27
+
+Colleghiamo un’impedenza ad un
+generatore. Possiamo calcolare la
+potenza su R, su L e su C (es.: P=RI2)
+SOLO la corrente che scorre nella
+resistenza genera lavoro “utile”
+(scaldare una stanza, sollevare un
+carico, fare luce)
+La corrente che scorre in L ed in C
+NON genera lavoro utile
+ARI CRT - Corso OM 2026
+
+28
+
+In questo circuito tensione e corrente di
+solito non sono in fase, quindi :
+
+Il generatore eroga una potenza apparente P = VxI VA (voltampere)
+Nella resistenza, tensione e corrente sono in fase, quindi assorbe
+potenza attiva
+P = RxI2 watt (che produce lavoro)
+Nel condensatore e nell’induttore, tensione e corrente sono in
+quadratura, quindi assorbono solo potenza reattiva
+P =Xxl2 voltampere reattivi (VAR) (che non produce lavoro)
+ARI CRT - Corso OM 2026
+
+29
+
+Potenza
+apparente
+
+Potenza
+reattiva
+
+Potenza
+attiva
+Φ: angolo di sfasamento tra tensione e corrente (fattore di potenza)
+ARI CRT - Corso OM 2026
+
+30
+
+Fonte : Luca IU2FRL
+ARI CRT - Corso OM 2026
+
+31
+
+ARI CRT - Corso OM 2026
+
+32
+
+

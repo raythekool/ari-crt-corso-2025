@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "fdd1d9070d19a19f",
+    "type": "split",
+    "children": [
+      {
+        "id": "faf6d1fd38da09d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d99c50619de09703",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "reports/agents/modern_docs_mockup.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "modern_docs_mockup"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3c9f732b87e5b989",
+    "type": "split",
+    "children": [
+      {
+        "id": "931c5ca051841ef5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67c50fb7f1afb313",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1aba51444045def9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "918f6c30b177a01c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "86571becb231cdd7",
+    "type": "split",
+    "children": [
+      {
+        "id": "ec26c71d97d70a5b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "21322f05e178a64c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "reports/agents/modern_docs_mockup.jpg",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "f154dfeac0526097",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "reports/agents/modern_docs_mockup.jpg",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "3ef1871a35e1efeb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5caa34f2afb0a9a9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7fe9bf2620b94065",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "reports/agents/modern_docs_mockup.jpg",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 372.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "d99c50619de09703",
+  "lastOpenFiles": [
+    "reports/agents/ui-ux-review.md",
+    "reports/agents/modern_docs_mockup.jpg",
+    "reports/agents/content-review.md",
+    "ui-ux-review.md",
+    "reports/agents",
+    "reports",
+    "Untitled.base",
+    "docs/lezioni-2026.md",
+    "docs/SETUP_GITHUB_PAGES.md",
+    "docs/test-screenshots/formula-rendered.png",
+    "docs/test-screenshots/formula-check.png",
+    "docs/test-screenshots/desktop-responsive-test.png",
+    "slides 2026/Lezione 1.pdf",
+    "content-review.md"
+  ]
+}

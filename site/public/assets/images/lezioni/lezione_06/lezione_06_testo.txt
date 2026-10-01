@@ -1,0 +1,284 @@
+I filtri
+La risonanza
+Il quarzo
+
+ARI CRT - Corso OM 2026
+
+1
+
+Combinazioni di circuiti LC che attenuano
+determinate frequenze
+Sfruttano la variazione della reattanza
+induttiva e capacitiva in base alla frequenza
+
+ARI CRT - Corso OM 2026
+
+2
+
+Attenua i segnali con frequenza SUPERIORE
+a quella ‘di taglio’
+
+ARI CRT - Corso OM 2026
+
+3
+
+È la frequenza in cui:
+• la potenza del segnale in uscita si
+dimezza rispetto al valore nella banda
+passante
+• l’ampiezza del segnale in uscita si riduce
+a 0,707 volte rispetto al valore nella
+banda passante
+
+ARI CRT - Corso OM 2026
+
+4
+
+Come è fatto dentro
+
+ARI CRT - Corso OM 2026
+
+5
+
+ARI CRT - Corso OM 2026
+
+6
+
+ARI CRT - Corso OM 2026
+
+7
+
+ARI CRT - Corso OM 2026
+
+Attenua i segnali con frequenza INFERIORE
+a quella ‘di taglio’
+
+ARI CRT - Corso OM 2026
+
+9
+
+Come è fatto dentro
+
+Immagine: Wikipedia
+ARI CRT - Corso OM 2026
+
+10
+
+Attenua i segnali:
+•con frequenza più bassa a quella ‘di taglio inferiore’
+•con frequenza più alta a quella ‘di taglio superiore’
+
+ARI CRT - Corso OM 2026
+
+11
+
+Attenua i segnali con frequenza compresa
+fra quella ‘di taglio inferiore’ e quella ‘di
+taglio superiore’
+
+ARI CRT - Corso OM 2026
+
+12
+
+Immagine: UniBO
+ARI CRT - Corso OM 2026
+
+13
+
+Tipo di
+filtro
+Passa
+basso
+Passa
+alto
+
+Cosa fa passare
+
+Cosa blocca
+
+Le frequenze inferiori a FT
+
+Le frequenze superiori a FT
+
+Le frequenze superiori a FT
+
+Le frequenze inferiori a FT
+
+Le frequenze comprese tra
+FTinf e FTsup
+
+Le frequenze inferiori a FTinf
+Passa
+Le frequenze superiori a
+banda
+FTsup
+Le frequenze inferiori a FTinf Le frequenze comprese tra
+Elimina
+Le frequenze superiori a
+FTinf e FTsup
+banda
+FTsup
+ARI CRT - Corso OM 2026
+
+14
+
+Sono composti da un induttore L e un
+condensatore C, che possono essere in serie
+o in parallelo
+
+ARI CRT - Corso OM 2026
+
+15
+
+Frequenza alla quale
+la reattanza
+capacitiva viene
+annullata dalla
+reattanza induttiva
+
+ARI CRT - Corso OM 2026
+
+16
+
+Ai capi di L e C c’è la stessa tensione
+Alla frequenza di risonanza XL=XC quindi
+in L e C scorre la stessa corrente
+Rispetto alla tensione, IL è sfasata di 90°
+in ritardo, IC di 90° in anticipo
+IL e IC sono uguali in ampiezza ed in
+opposizione di fase, quindi si annullano
+tra loro
+Z=∞
+ARI CRT - Corso OM 2026
+
+17
+
+BLOCCA LA CORRENTE ALTERNATA ALLA
+FREQUENZA DI RISONANZA
+
+ARI CRT - Corso OM 2026
+
+18
+
+ARI CRT - Corso OM 2026
+
+19
+
+In L e C scorre la stessa corrente
+Alla frequenza di risonanza XL=XC quindi
+su L e C troviamo la stessa tensione
+Rispetto alla corrente, VL è sfasata di 90°
+in anticipo, VC di 90° ritardo
+VL e VC sono uguali in ampiezza ed in
+opposizione di fase, quindi si annullano
+tra loro
+Z=Ø
+ARI CRT - Corso OM 2026
+
+20
+
+FA PASSARE LA CORRENTE ALTERNATA
+ALLA FREQUENZA DI RISONANZA
+
+ARI CRT - Corso OM 2026
+
+21
+
+In un circuito LC reale esiste sempre una
+resistenza che rappresenta le perdite di
+energia dell’induttore e del condensatore
+
+ARI CRT - Corso OM 2026
+
+22
+
+Un buon circuito LC parallelo ha R alta
+Un buon circuito LC serie ha R bassa
+
+ARI CRT - Corso OM 2026
+
+23
+
+Indicazione di quanto E’ STRETTA la curva di
+risonanza
+
+B è la larghezza di banda fra punti a metà
+potenza (-3 db)
+ARI CRT - Corso OM 2026
+
+24
+
+Più il Q è alto, più il
+circuito è selettivo
+
+ARI CRT - Corso OM 2026
+
+25
+
+Un filtro passa banda risuona a 20 MHz ed ha una
+larghezza di banda di 2 KHz. Qual è il suo Q?
+Un filtro passa banda risuona a 5 MHz ed ha un Q
+di 100. Qual è la sua larghezza di banda?
+
+Q = f0 / B
+ARI CRT - Corso OM 2026
+
+B = f0 / Q
+26
+
+Indica quanto si allarga la curva di risonanza
+fra due punti della curva del filtro
+Vale:
+
+F = Bw1: Bw2
+Bw = Band Width (larghezza di banda)
+ARI CRT - Corso OM 2026
+
+ARI CRT - Corso OM 2026
+
+Appartiene alla famiglia dei
+materiali ‘piezoelettrici’
+
+I materiali piezoelettrici, se compressi
+meccanicamente, fanno apparire cariche
+elettriche sulle due facce
+
+ARI CRT - Corso OM 2026
+
+29
+
+Se si applica una corrente ALTERNATA ad un
+cristallo di quarzo, questo comincia ad
+oscillare ad una specifica frequenza, che è
+determinata da spessore e dimensione del
+cristallo
+ARI CRT - Corso OM 2026
+
+30
+
+Il cristallo di quarzo ha quindi
+caratteristiche simili a quelle di un
+circuito risonante LC ad alto Q
+Ha inoltre una stabilita’ di frequenza molto
+elevata nel tempo rispetto alla variazione di
+temperatura
+ARI CRT - Corso OM 2026
+
+31
+
+Al passaggio della corrente alternata ha poche
+perdite
+La frequenza di risonanza dipende dalle sue
+dimensioni fisiche
+Si può fare oscillare ‘in fondamentale’ sino a circa
+20 Mhz. Per frequenze più alte si usano le sue
+‘armoniche’ (tecnica ‘Overtone’)
+ARI CRT - Corso OM 2026
+
+32
+
+ARI CRT - Corso OM 2026
+
+33
+
+

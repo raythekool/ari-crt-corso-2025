@@ -1,0 +1,332 @@
+La corrente alternata
+Le onde radio
+
+ARI CRT - Corso OM 2026
+
+1
+
+Corrente che inverte (alterna) il senso di
+scorrimento n volte nell’unità di tempo
+Generata da una tensione alternata
+Prodotta dagli alternatori
+
+ARI CRT - Corso OM 2026
+
+I
+T (tempo)
+
+ARI CRT - Corso OM 2026
+
+Numero di CICLI nell’unità di tempo
+Si misura in hertz (Hz)
+ARI CRT - Corso OM 2026
+
+E’ la durata temporale di un ciclo completo
+(es.: da un picco al picco successivo)
+
+T
+Si misura in
+secondi (s)
+
+ARI CRT - Corso OM 2026
+
+Frequenza (F) : numero di cicli al secondo
+Periodo (T)
+
+: durata di un ciclo
+
+F = 1/T
+
+T= 1/F
+
+Esempio: un’onda si ripete 10 volte al secondo
+Frequenza: 10 Hz
+Periodo:
+0,1 s
+ARI CRT - Corso OM 2026
+
+Sinusoidale
+
+Non sinusoidale
+Es.: quadra, triangolare
+
+ARI CRT - Corso OM 2026
+
+La velocità con cui il raggio gira è chiamata
+pulsazione (ω)
+
+ω=2πf
+ARI CRT - Corso OM 2026
+
+8
+
+ARI CRT - Corso OM 2026
+
+9
+
+Fonte immagine: Bruce
+ARI CRT - Corso OM 2026
+
+10
+
+Contrariamente alla continua, la tensione
+alternata ha vari parametri:
+- tensione istantanea
+- tensione efficace
+- tensione di picco
+- tensione picco-picco
+- valore medio
+ARI CRT - Corso OM 2026
+
+Il valore che la tensione assume istante
+per istante durante il periodo
+
+ARI CRT - Corso OM 2026
+
+Il valore di tensione equivalente a
+quella di una tensione continua che
+applicata al medesimo carico
+produce la stessa dissipazione di calore
+
+E’ detta anche tensione rms (Root
+Mean Square)
+ARI CRT - Corso OM 2026
+
+Il valore di tensione massimo di una
+delle due semionde
+
+Vp = 1,41 * Veff
+
+ARI CRT - Corso OM 2026
+
+La somma fra la massima escursione delle
+due semionde
+
+Vpp = 2*Vp
+
+ARI CRT - Corso OM 2026
+
+E’ il rapporto tra la somma aritmetica delle aree in
+un periodo e il periodo, e vale Vm = 0,9 x Veff
+
+ARI CRT - Corso OM 2026
+
+Tensione efficace:
+Tensione di picco:
+
+220 V
+Vp = 1,41 Veff
+
+311 V
+
+Tensione picco-picco: Vpp = 2*Vp
+
+622 V
+
+Valore medio
+
+198 V
+
+ARI CRT - Corso OM 2026
+
+Vm = 0,9 Veff
+
+0
+
+90
+
+180 270 360
+
+I punti notevoli di una sinusoide
+ARI CRT - Corso OM 2026
+
+In quadratura
+(differenza di fase =
++/- 90°)
+
+In controfase
+(differenza di fase =
+180°)
+
+Fonti immagini: Audioitalia; Elemania
+ARI CRT - Corso OM 2026
+
+Quando si sommano due segnali sinusoidali si
+deve tener conto delle loro fasi
+
+ARI CRT - Corso OM 2026
+
+ARI CRT - Corso OM 2026
+
+21
+
+Un’onda è una perturbazione che si propaga:
+• un sasso in uno stagno
+• una corda che si muove
+• una campana che suona
+• etc.
+
+Fonte: Lisa Rossi
+
+ARI CRT - Corso OM 2026
+
+22
+
+Una tensione sinusoidale su un conduttore di forma
+e dimensioni adeguate, comunica energia allo
+spazio circostante sotto forma di onde
+elettromagnetiche.
+Il conduttore prende il nome di antenna
+
+ARI CRT - Corso OM 2026
+
+23
+
+Frequenza = numero di cicli del’onda nell’unità di
+tempo (unità di misura hertz - Hz)
+Lunghezza d’onda = Distanza fisica fra due punti
+omologhi dell’onda elettromagnetica
+
+ARI CRT - Corso OM 2026
+
+E’ la distanza fisica fra due punti omologhi dell’onda
+elettromagnetica, cioè la distanza percorsa da un ciclo
+completo dell’onda elettromagnetica
+Dipende dalla velocità di propagazione, che nel vuoto è
+quella della luce: circa a 300.000 Km/s
+
+λ = V/F = 300.000 / F
+λ = lunghezza d’onda
+V = velocità di propagazione
+F = frequenza
+ARI CRT - Corso OM 2026
+
+In pratica:
+
+Esempio:
+Frequenza: 14,200 MHz
+Lunghezza d’onda = 300/14,200 = 21,12 m
+ARI CRT - Corso OM 2026
+
+λ = V/F = 300.000 / F
+
+F = V / λ = 300.000 / λ
+Esempio:
+Lunghezza d’onda = 43 m
+Frequenza = 300/43 = circa 7 MHz
+ARI CRT - Corso OM 2026
+
+Banda
+
+Frequenza
+
+Lunghezza d'onda
+
+ELF
+
+Nome
+Extra Low F
+
+3 – 30 Hz
+
+100 000 km – 10 000 km
+
+SLF
+
+Super Low F
+
+30 – 300 Hz
+
+10 000 km – 1000 km
+
+ULF
+
+Ultra Low F
+
+300 – 3000 Hz
+
+1000 km – 100 km
+
+VLF
+
+Very Low F
+
+3 – 30 kHz
+
+100 km – 10 km
+
+LF
+
+Low F
+
+30 – 300 kHz
+
+10 km – 1 km
+
+Onde lunghe
+
+MF
+
+Middle F
+
+300 – 3000 kHz
+
+1000 m – 100 m
+
+Onde medie
+
+HF
+
+High F
+
+3 – 30 MHz
+
+100 m – 10 m
+
+Onde corte
+
+VHF
+
+Very High F
+
+30 – 300 MHz
+
+10 m – 1 m
+
+Onde ultracorte
+
+UHF
+
+Ultra High F
+
+300 – 3000 MHz
+
+1 m – 10 cm
+
+SHF
+
+Super High F
+
+3 – 30 GHz
+
+10 cm – 1 cm
+
+EHF
+
+Extra High F
+
+30 – 300 GHz
+
+1 cm – 1 mm
+
+ARI CRT - Corso OM 2026
+
+Detta anche
+
+28
+
+ARI CRT - Corso OM 2026
+
+29
+
+

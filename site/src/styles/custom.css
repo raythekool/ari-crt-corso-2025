@@ -1,0 +1,175 @@
+:root {
+  --sl-font:
+    "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  --sl-font-mono:
+    Consolas, "SFMono-Regular", Menlo, "Liberation Mono", monospace;
+
+  /* Tema chiaro: indaco */
+  --sl-color-accent-low: #e0e7ff;
+  --sl-color-accent: #6366f1;
+  --sl-color-accent-high: #3730a3;
+  --sl-color-text-accent: #4f46e5;
+}
+
+:root:not([data-theme="dark"]) .sl-markdown-content :not(pre) > code {
+  background: #eef2ff;
+  color: #3730a3;
+}
+
+:root[data-theme="dark"] {
+  --sl-color-bg: #0b1220;
+
+  /* Sfondi per navigazione e sidebar traslucidi */
+  --sl-color-bg-nav: rgba(11, 18, 32, 0.72);
+  --sl-color-bg-sidebar: rgba(11, 18, 32, 0.72);
+
+  /* Accento: indaco/ciano */
+  --sl-color-accent-low: #1e1b4b;
+  --sl-color-accent: #6366f1;
+  --sl-color-accent-high: #a5f3fc;
+  --sl-color-text-accent: #67e8f9;
+
+  --sl-color-white: #ffffff;
+  --sl-color-gray-1: #f1f5f9;
+  --sl-color-gray-2: #e2e8f0;
+  --sl-color-gray-3: #cbd5e1;
+  --sl-color-gray-4: #94a3b8;
+  --sl-color-gray-5: #475569;
+  --sl-color-gray-6: #1e293b;
+}
+
+/* Gradienti radiali soffusi indaco/ciano */
+:root[data-theme="dark"] body {
+  background-image:
+    radial-gradient(
+      ellipse at top right,
+      rgba(34, 211, 238, 0.12),
+      transparent 40%
+    ),
+    radial-gradient(
+      ellipse at bottom left,
+      rgba(99, 102, 241, 0.18),
+      transparent 45%
+    ) !important;
+  background-color: var(--sl-color-bg) !important;
+  background-attachment: fixed;
+}
+
+/* Effetto Glassmorphism (Vetro satinato) su Header e Sidebar */
+header,
+aside {
+  background-color: var(--sl-color-bg-nav) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Modifiche ai bordi delle Card in Homepage per estetica 'Bento Box' */
+.card {
+  background: rgba(255, 255, 255, 0.02) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(10px);
+  border-radius: 12px !important;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.card:hover {
+  border-color: rgba(99, 102, 241, 0.45) !important;
+  transform: translateY(-2px);
+}
+
+/* Effetto Bento Box Sicuro (Non rompe il Grid di Starlight) */
+@media (min-width: 50rem) {
+  /* Rimuovi bordi nativi di Starlight */
+  .sidebar-pane,
+  .right-sidebar-panel {
+    border: none !important;
+    background: transparent !important;
+  }
+
+  /* Applica lo stile alla nav interna a sinistra */
+  .sidebar-pane .sidebar-content {
+    margin: 2rem 1rem 2rem 1.5rem !important;
+    height: calc(100vh - var(--sl-nav-height) - 4rem) !important;
+    border-radius: 16px !important;
+    background-color: rgba(255, 255, 255, 0.02) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3) !important;
+    backdrop-filter: blur(12px);
+  }
+}
+
+@media (min-width: 72rem) {
+  /* Applica lo stile al TOC interno a destra */
+  .right-sidebar-panel .right-sidebar-container {
+    margin: 2rem 1.5rem 2rem 1rem !important;
+    padding: 1rem !important;
+    height: max-content !important;
+    max-height: calc(100vh - var(--sl-nav-height) - 4rem) !important;
+    border-radius: 16px !important;
+    background-color: rgba(255, 255, 255, 0.02) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3) !important;
+    backdrop-filter: blur(12px);
+    overflow-y: auto !important;
+  }
+}
+
+/* Custom UI/UX Review Modifications - Riduzione dimensioni titoli */
+:root {
+  --sl-text-h1: 2.25rem !important;
+  --sl-text-h2: 1.75rem !important;
+  --sl-text-h3: 1.35rem !important;
+  --sl-text-h4: 1.15rem !important;
+}
+
+/* Fallback per sicurezza su .sl-markdown-content se le variabili non vengono propagate ovunque */
+.sl-markdown-content h1 {
+  font-size: var(--sl-text-h1) !important;
+}
+.sl-markdown-content h2 {
+  font-size: var(--sl-text-h2) !important;
+}
+.sl-markdown-content h3 {
+  font-size: var(--sl-text-h3) !important;
+}
+
+/* Allarga l'area del testo centrale come richiesto (da ~70ch a ~90ch) */
+:root {
+  --sl-content-width: 100ch !important;
+}
+
+/* Forza la larghezza delle immagini nelle slide */
+.sl-markdown-content div[align="center"] img {
+  width: 75% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  border-radius: 8px; /* Un tocco di classe */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Restringi la Right Sidebar e fai espandere il contenuto centrale */
+@media (min-width: 72rem) {
+  .right-sidebar-panel {
+    width: 14rem !important;
+    min-width: 14rem !important;
+    max-width: 14rem !important;
+    flex: 0 0 14rem !important;
+  }
+  .right-sidebar-panel .right-sidebar-container {
+    margin: 2rem 1rem 2rem 0 !important;
+  }
+  .main-pane {
+    flex: 1 1 auto !important;
+    width: calc(100% - 14rem) !important;
+    max-width: none !important;
+  }
+}
+
+/* Allarga la sidebar di sinistra */
+:root {
+  --sl-sidebar-width: 22rem !important;
+}

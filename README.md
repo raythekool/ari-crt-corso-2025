@@ -1,27 +1,27 @@
-# 📚 ARI CRT - Corso Radioamatori 2025
+# 📚 ARI CRT - Corso Radioamatori 2025 (Ramo Astro)
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/raythekool/ari-crt-corso-2025)
 [![Cloudflare Pages](https://img.shields.io/badge/Cloudflare-Pages-F38020?logo=cloudflare)](https://pages.cloudflare.com/)
-[![Jekyll](https://img.shields.io/badge/Jekyll-Site-CC0000?logo=jekyll)](https://jekyllrb.com/)
-[![Astro](https://img.shields.io/badge/Astro-Preview-FF5D01?logo=astro)](https://astro.build/)
+[![Astro](https://img.shields.io/badge/Astro-Sito-FF5D01?logo=astro)](https://astro.build/)
+[![Jekyll](https://img.shields.io/badge/Jekyll-Main-CC0000?logo=jekyll)](https://jekyllrb.com/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-Materiale didattico ufficiale per il **corso radioamatori ARI CRT 2025**. Questo repository contiene slide, appunti, guide e risorse per preparare l'esame di radioamatore.
+**Ramo di sviluppo** per la nuova versione del sito ARI CRT basata su **Astro**. Questo ramo contiene la preview del sito che sarà eventualmente fusa in `main` dopo testing.
 
 ---
 
 ## 🚀 Quick Start
 
-### Per gli studenti
-- 🌐 **Sito web**: [ari-crt.github.io](https://ari-crt.github.io/) (produzione)
-- 📖 **Guide di studio**: disponibili nella sezione [`site/guide-studio/`](site/guide-studio/)
-- ❓ **Domande d'esame**: [`site/domande-esame.md`](site/domande-esame.md)
-- 📚 **Risorse utili**: [`site/risorse.md`](site/risorse.md)
+### Per gli sviluppatori
+- 🔭 **Preview**: deployata automaticamente su Cloudflare Pages
+- 📖 **Guide di studio**: [`site/guide-studio/`](site/guide-studio/)
+- 🏠 **Homepage**: [`site/index.md`](site/index.md)
 
-### Per i contributori
+### Clona il repository
 ```bash
 git clone https://github.com/raythekool/ari-crt-corso-2025.git
 cd ari-crt-corso-2025
+git checkout update-guide-studio-2026
 ```
 
 ---
@@ -32,17 +32,19 @@ cd ari-crt-corso-2025
 ari-crt-corso-2025/
 ├── build.sh              # Script di build per Cloudflare Pages
 ├── README.md             # Questa documentazione
-├── site/                 # Codice sorgente del sito
-│   ├── _config.yml       # Configurazione Jekyll (main)
-│   ├── _config.cloudflare.yml  # Config specifica per Cloudflare
-│   ├── Gemfile           # Dipendenze Ruby/Jekyll
-│   ├── package.json      # Dipendenze Node/Astro (update-guide-studio-2026)
+├── site/                 # Codice sorgente del sito Astro
 │   ├── astro.config.mjs  # Configurazione Astro
-│   ├── index.md          # Homepage
+│   ├── package.json      # Dipendenze Node.js
+│   ├── package-lock.json # Lock file npm
+│   ├── tsconfig.json     # Configurazione TypeScript
+│   ├── public/           # Asset statici
+│   ├── src/              # Sorgenti Astro
+│   │   ├── components/   # Componenti Astro
+│   │   ├── layouts/      # Layout
+│   │   └── pages/        # Pagine
 │   ├── guide-studio/     # Guide di studio
-│   ├── domande-esame.md  # Banca domande
-│   ├── glossario.md      # Glossario tecnico
-│   └── risorse.md        # Risorse esterne
+│   ├── index.md          # Homepage
+│   └── ...               # Altri contenuti
 └── ...
 ```
 
@@ -51,55 +53,47 @@ ari-crt-corso-2025/
 | Ramo | Framework | Stato | Descrizione |
 |------|-----------|-------|-------------|
 | [`main`](https://github.com/raythekool/ari-crt-corso-2025/tree/main) | **Jekyll** | 🟢 Produzione | Sito principale deployato su Cloudflare Pages |
-| [`update-guide-studio-2026`](https://github.com/raythekool/ari-crt-corso-2025/tree/update-guide-studio-2026) | **Astro** | 🟡 Preview | Nuova versione del sito in sviluppo |
+| [`update-guide-studio-2026`](https://github.com/raythekool/ari-crt-corso-2025/tree/update-guide-studio-2026) | **Astro** | 🟡 Sviluppo | Nuova versione del sito in preview |
 
 ---
 
 ## 🔧 Build e Deploy
 
-Il progetto utilizza **Cloudflare Pages** per il deploy automatico. La build è gestita dallo script [`build.sh`](build.sh) che rileva automaticamente il ramo corrente e usa il framework appropriato.
+Il progetto utilizza **Cloudflare Pages** per il deploy automatico. La build è gestita dallo script [`build.sh`](build.sh) che rileva automaticamente il ramo corrente.
 
 ### Comandi di build
 
 | Ramo | Framework | Comando | Output |
 |------|-----------|---------|--------|
 | `main` | Jekyll | `bundle exec jekyll build --destination ../dist` | `dist/` |
-| `update-guide-studio-2026` | Astro | `npm run build` | `site/dist/` |
+| `update-guide-studio-2026` | **Astro** | `npm run build` | `site/dist/` |
 
 ### Configurazione Cloudflare Pages
 
 1. **Connetti il repository** su [Cloudflare Pages](https://pages.cloudflare.com/)
 2. **Build command**: `./build.sh`
-3. **Build directory**: `dist`
-4. **Production branch**: `main`
+3. **Build directory**: `site/dist` (per questo ramo)
+4. **Production branch**: `main` (per Jekyll)
 
 #### Variabili d'ambiente consigliate
 
 | Variabile | Valore | Descrizione |
 |-----------|--------|-------------|
-| `RUBY_VERSION` | `3.2` | Versione Ruby per Jekyll |
-| `NODE_VERSION` | `20` | Versione Node per Astro |
+| `NODE_VERSION` | `22.12.0` | Versione Node per Astro |
+| `RUBY_VERSION` | `3.2` | Versione Ruby per Jekyll (main) |
 
 ---
 
 ## 📦 Installazione Locale
 
 ### Prerequisiti
-- 💎 **Ruby 3.2+** (per Jekyll)
-- 🟢 **Node.js 20+** (per Astro)
-- 📦 **Bundler** (`gem install bundler`)
+- 🟢 **Node.js 22.12+** (per Astro)
+- 💎 **Ruby 3.2+** (per Jekyll, ramo `main`)
+- 📦 **npm** (incluso con Node.js)
 
-### Build Jekyll (ramo `main`)
+Per usare `scripts/extract_slides.py`, installare le dipendenze Python con `pip install -r requirements.txt` e i programmi `pdftotext` e `pdftocairo` del pacchetto **Poppler** (su Debian/Ubuntu: `sudo apt install poppler-utils`).
 
-```bash
-cd site
-bundle install
-bundle exec jekyll serve --drafts
-```
-
-Il sito sarà disponibile su: `http://localhost:4000`
-
-### Build Astro (ramo `update-guide-studio-2026`)
+### Build Astro (questo ramo)
 
 ```bash
 cd site
@@ -108,6 +102,27 @@ npm run dev
 ```
 
 Il sito sarà disponibile su: `http://localhost:4321`
+
+### Build di produzione
+
+```bash
+cd site
+npm ci
+npm run build
+```
+
+L'output sarà in: `site/dist/`
+
+### Build Jekyll (ramo `main`)
+
+```bash
+git checkout main
+cd site
+bundle install
+bundle exec jekyll serve --drafts
+```
+
+Il sito sarà disponibile su: `http://localhost:4000`
 
 ---
 
@@ -127,19 +142,20 @@ Il sito sarà disponibile su: `http://localhost:4321`
 
 ## 🤝 Come Contribuire
 
-I contributi sono benvenuti! Segui questi passaggi:
+I contributi sono benvenuti! Questo ramo è in **sviluppo attivo**.
 
 1. **Forka** il repository
 2. Crea un branch per la tua feature: `git checkout -b feature/nuova-guida`
 3. **Commita** le modifiche: `git commit -m "Aggiungi guida su..."`
 4. **Pusha** il branch: `git push origin feature/nuova-guida`
-5. Apri una **Pull Request**
+5. Apri una **Pull Request** su `update-guide-studio-2026`
 
 ### Linee guida
 - ✍️ Usa Markdown per i contenuti
 - 🔗 Includi fonti attendibili per informazioni tecniche
 - 🎨 Mantieni lo stile coerente con il resto del sito
 - ✅ Testa localmente prima di submittere
+- 🧪 Verifica che la build Astro funzioni: `npm run build`
 
 ---
 
@@ -161,6 +177,6 @@ Questo progetto è distribuito con licenza **MIT**. Vedi il file [LICENSE](LICEN
 
 **Buono studio e 73 de ARI CRT!** 📻
 
-[⬆️ Torna su](#-ari-crt---corso-radioamatori-2025)
+[⬆️ Torna su](#-ari-crt---corso-radioamatori-2025-ramo-astro)
 
 </div>

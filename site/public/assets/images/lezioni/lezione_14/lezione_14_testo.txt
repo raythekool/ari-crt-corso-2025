@@ -1,0 +1,269 @@
+I ricevitori
+
+ARI CRT - Corso OM 2026
+
+1
+
+SENSIBILITÀ: capacità di discriminare un segnale
+utile dal rumore (proveniente dall’antenna e/o
+generato nel RX)
+SELETTIVITÀ: capacità di separare due segnali
+posti su due frequenze vicine
+STABILITÀ: capacità di mantenere inalterata nel
+tempo la frequenza di lavoro
+ARI CRT - Corso OM 2026
+
+2
+
+Amplificatore
+RF
+
+Convertitore
+
+Oscillatore
+locale
+
+Filtro
+
+Amplificatore
+IF
+
+Rivelatore
+
+Amplificatore
+BF
+
+Sintonia
+
+Il segnale in arrivo viene convertito in una
+“frequenza intermedia” (IF) di valore fisso
+(ad esempio: 9 MHz, 455 KHz)
+ARI CRT - Corso OM 2026
+
+3
+
+Amplificatore
+RF
+
+Convertitore
+
+Filtro
+
+Convertitore
+
+Amplificatore
+IF
+
+Rivelatore
+
+Amplificatore
+BF
+
+Oscillatore
+locale
+(fisso)
+
+Oscillatore
+locale
+Sintonia
+
+Il segnale in arrivo viene convertito due volte, in
+due frequenze diverse in stadi successivi
+
+ARI CRT - Corso OM 2026
+
+4
+
+Amplificatore a radio frequenza (RF): amplifica i
+(deboli) segnali ricevuti dall’antenna. E’ a basso
+rumore
+Amplificatore a frequenza intermedia (IF): lavora a
+frequenza fissa ed amplifica i segnali convertiti
+Amplificatore a bassa frequenza (BF): amplifica i
+segnali a frequenza audio e li invia all’altoparlante
+
+ARI CRT - Corso OM 2026
+
+5
+
+Oscillatore (fisso o variabile (VFO)): genera il
+segnale da inviare al mixer
+Convertitore (mixer): converte il segnale ricevuto
+alla frequenza intermedia
+Rivelatore: estrae dalla portante il segnale audio
+
+ARI CRT - Corso OM 2026
+
+6
+
+ARI CRT - Corso OM 2026
+
+7
+
+Oscillatore di battimento (BFO): ha una frequenza
+molto vicina a quella della IF
+Il battimento tra IF e BFO genera il segnale audio
+Esempio:
+• IF = 9.000.000 Hz
+• BFO = 9.000.700 Hz
+• Tono audio risultante = 700 Hz
+Filtro per il CW: larghezza di banda di 500 Hz
+ARI CRT - Corso OM 2026
+
+8
+
+ARI CRT - Corso OM 2026
+
+9
+
+E’ quasi identico a un ricevitore per il CW
+Il BFO può generare 2 frequenze diverse, una per
+la USB, una per la LSB
+Filtro per la SSB: larghezza di banda di 2,5 KHz
+
+ARI CRT - Corso OM 2026
+
+10
+
+ARI CRT - Corso OM 2026
+
+11
+
+Il rivelatore è identico a una radio a galena
+Filtro per la AM: larghezza di banda di 5 KHz
+ARI CRT - Corso OM 2026
+
+12
+
+ARI CRT - Corso OM 2026
+
+13
+
+Filtro per FM: larghezza di banda di 10 KHz
+Fonte immagine:
+Le radio di Sophie
+ARI CRT - Corso OM 2026
+
+14
+
+Limitatore: precede il discriminatore; ha il compito
+di rendere costante il livello del segnale per avere
+immunità dai disturbi in AM
+Discriminatore: estrae il segnale audio dalla
+portante
+• Rivelatore a pendenza
+• Discriminatore di Foster-Seeley
+Silenziatore (Squelch): silenzia l’audio in assenza di
+segnale utile
+ARI CRT - Corso OM 2026
+
+15
+
+Controllo automatico di guadagno (CAG-CAV-AGC):
+mantiene costante il livello di uscita del segnale
+audio a fronte di elevate variazioni del livello del
+segnale RF in arrivo
+(ad esempio, il segnale in ingresso può variare da 1
+μV a 10 mV: un rapporto di 1:10.000)
+
+ARI CRT - Corso OM 2026
+
+16
+
+Misuratore di livello di segnale in ingresso
+(S-meter): indica il livello del segnale in ingresso al
+ricevitore (S = strenght = forza)
+E’ tarato per S9 = 50 microvolt, e ogni punto S
+equivale a 6 db di incremento di potenza
+
+ARI CRT - Corso OM 2026
+
+17
+
+All’uscita di un mixer si ritrovano due segnali: la
+somma e la differenza delle due frequenze in
+ingresso
+Di questi solo uno è utile; l’altro viene eliminato
+con un filtro e viene detto frequenza immagine
+
+ARI CRT - Corso OM 2026
+
+18
+
+900 KHz
+MIXER
+1810 KHz
+
+455 KHz
+(frequenza
+intermedia)
+
+VFO: 1.355 KHz
+
+La frequenza immagine dista sempre 2xIF Hz dal
+segnale ricevuto (con una IF di 455KHz, l’immagine
+dista 910 KHz dal segnale ricevuto)
+ARI CRT - Corso OM 2026
+
+19
+
+1.
+
+Selettività prima del mixer
+
+2.
+
+Usare valori di IF alti (es.: 9.000 MHz)
+
+3.
+
+Usare RX a doppia conversione
+
+ARI CRT - Corso OM 2026
+
+20
+
+BLOCCAGGIO: perdita di sensibilità causata da forti
+segnali adiacenti alla frequenza di ascolto
+MODULAZIONE INCROCIATA: la modulazione di un
+segnale forte si trasferisce su un segnale debole
+INTERMODULAZIONE: forti segnali in ingresso
+portano in regime non lineare gli amplificatori del
+ricevitore. Si generano armoniche e prodotti di
+intermodulazione che possono arrivare a saturare la
+banda in cui si sta ascoltando
+ARI CRT - Corso OM 2026
+
+21
+
+E’ la minima tensione in ingresso che riesce a
+produrre un segnale d'uscita chiaramente
+distinguibile dal rumore
+Esempio: 0,5 μV per 10 dB di rapporto S/N
+Dipende da:
+• Larghezza di banda
+• Rumore dei primi stadi (“cifra di rumore”)
+
+ARI CRT - Corso OM 2026
+
+22
+
+P = KTB
+P : Potenza di rumore
+K : Costante di Boltzman
+T : Temperatura (in gradi Kelvin)
+B : Larghezza di banda (in hertz)
+
+ARI CRT - Corso OM 2026
+
+23
+
+ARI CRT - Corso OM 2026
+
+24
+
+ARI CRT - Corso OM 2026
+
+25
+
+
