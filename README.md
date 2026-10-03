@@ -1,156 +1,113 @@
-# 📚 ARI CRT - Corso Radioamatori 2025
+# 📚 ARI Toscana CRT — Appunti di studio
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/raythekool/ari-crt-corso-2025)
 [![Cloudflare Pages](https://img.shields.io/badge/Cloudflare-Pages-F38020?logo=cloudflare)](https://pages.cloudflare.com/)
 [![Astro](https://img.shields.io/badge/Astro-Sito-FF5D01?logo=astro)](https://astro.build/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-Sito del corso basato su **Astro** + Starlight, pubblicato su GitHub Pages e Cloudflare Pages.
+Questo repository contiene il sito Astro + Starlight del corso ARI Toscana CRT e raccoglie **appunti estratti dalle lezioni del corso per radioamatori della Toscana**. Non è il testo ufficiale del corso: serve per ripassare le 22 lezioni, consultare rapidamente formule, definizioni e riferimenti normativi, e ritrovare le registrazioni disponibili.
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick start
 
-### Clona il repository
 ```bash
 git clone https://github.com/raythekool/ari-crt-corso-2025.git
-cd ari-crt-corso-2025
-```
-
----
-
-## 🏗️ Struttura del Progetto
-
-```
-ari-crt-corso-2025/
-├── README.md             # Questa documentazione
-├── site/                 # Codice sorgente del sito Astro
-│   ├── astro.config.mjs  # Configurazione Astro
-│   ├── package.json      # Dipendenze Node.js
-│   ├── public/           # Asset statici
-│   ├── scripts/          # Script di build (og.mjs)
-│   └── src/              # Pagine, contenuti (lezioni) e stili
-├── scripts/              # Estrazione slide dai PDF
-├── slides 2026/          # Slide PDF delle lezioni
-└── transcripts/          # Trascrizioni delle lezioni
-```
-
----
-
-## 🔧 Build e Deploy
-
-GitHub Pages: workflow [`deploy.yml`](.github/workflows/deploy.yml) su push a `main`.
-
-### Cloudflare Pages
-
-| Impostazione               | Valore          |
-| -------------------------- | --------------- |
-| Production branch          | `main`          |
-| Root directory             | `site`          |
-| Build command              | `npm run build` |
-| Build output directory     | `dist`          |
-| `NODE_VERSION` (opzionale) | `22.19.0`       |
-
----
-
-## 📦 Installazione Locale
-
-### Prerequisiti
-- 🟢 **Node.js 22.12+** (per Astro)
-- 📦 **npm** (incluso con Node.js)
-
-Per usare `scripts/extract_slides.py`, installare le dipendenze Python con `pip install -r requirements.txt` e i programmi `pdftotext` e `pdftocairo` del pacchetto **Poppler** (su Debian/Ubuntu: `sudo apt install poppler-utils`).
-
-### Sviluppo locale
-
-```bash
-cd site
+cd ari-crt-corso-2025/site
 npm ci
 npm run dev
 ```
 
-Il sito sarà disponibile su: `http://localhost:4321`
+Il sito locale sarà disponibile su `http://localhost:4321`.
 
-### Build di produzione
+---
+
+## 🏗️ Struttura del repository
+
+- [README.md](README.md) — panoramica del progetto
+- [site/](site/) — sorgenti del sito Astro + Starlight
+- [site/src/content/docs/lezioni/](site/src/content/docs/lezioni/) — 22 guide di studio e indice lezioni
+- [site/src/pages/index.astro](site/src/pages/index.astro) — home del sito
+- [docs/lezioni-2026.md](docs/lezioni-2026.md) — date, titoli e registrazioni verificabili
+- [transcripts/2026/](transcripts/2026/) — trascrizioni testuali con timestamp
+- [transcripts (vtt)/2026/](<transcripts (vtt)/2026/>) — sottotitoli WebVTT
+- [slides 2026/](<slides 2026/>) — PDF delle slide
+- [download_transcripts_2026.py](download_transcripts_2026.py) — utility per scaricare i transcript disponibili
+
+---
+
+## 🧭 Contenuti principali
+
+- [Indice delle lezioni](site/src/content/docs/lezioni/index.md) — panoramica completa delle guide, percorsi 1–9 / 10–15 / 16–22 e ricerca per concetto
+- [Calendario e registrazioni 2026](docs/lezioni-2026.md) — stato verificato di date e video presenti nel repo
+- [Guide di studio](site/src/content/docs/lezioni/) — una pagina per ciascuna lezione
+- [Trascrizioni TXT](transcripts/2026/) e [VTT](<transcripts (vtt)/2026/>) — materiale di partenza per le guide
+
+Ogni guida include glossario e domande di autoverifica nella stessa pagina. Al momento il repository **non** contiene pagine separate per glossario generale, domande d'esame o risorse.
+
+---
+
+## 🔧 Sviluppo locale e verifica
+
+### Prerequisiti
+
+- **Node.js 22.12+**
+- **npm**
+- Facoltativo: **Python 3** per [download_transcripts_2026.py](download_transcripts_2026.py)
+
+Per usare gli script di estrazione slide in [scripts/](scripts/), installare anche `pdftotext` e `pdftocairo` dal pacchetto **Poppler** (su Debian/Ubuntu: `sudo apt install poppler-utils`).
+
+### Comandi utili
 
 ```bash
 cd site
 npm ci
+npm run check
 npm run build
 ```
 
-L'output sarà in: `site/dist/`
-
-Per verificare i componenti Astro e i tipi TypeScript, esegui `npm run check` dalla cartella `site/`.
+- `npm run check` verifica componenti Astro e tipi TypeScript
+- `npm run build` genera l'output statico in [site/dist/](site/dist/)
+- la prebuild rigenera [site/public/og.png](site/public/og.png) a partire da [site/public/og.svg](site/public/og.svg) tramite [site/scripts/og.mjs](site/scripts/og.mjs)
 
 ---
 
 ## 📖 Studiare su iPad
 
-Nelle pagine delle lezioni, premi **Modalità lettura** per nascondere la navigazione del sito e leggere a colonna singola, come un libro. Il layout si adatta sia all'orientamento verticale sia a quello orizzontale, incluso l'iPad 2017 da **9,7″** (768 × 1024 punti CSS).
+Nelle pagine delle lezioni, **Modalità lettura** nasconde la navigazione del sito e porta il testo in colonna singola. Il layout è pensato anche per iPad 2017 da 9,7″.
 
-- **Testo**, direttamente sulla pagina in modalità lettura, regola dimensione dei caratteri (18–26 px) e interlinea (1,4 / 1,6 / 1,75 / 2). Le modifiche sono visibili subito.
-- **Menu** apre un pannello a scomparsa con indice della pagina, elenco delle lezioni e le stesse impostazioni del testo.
-- **Esci dalla lettura** ripristina il layout normale. Modalità, dimensione del testo e interlinea vengono ricordate sul dispositivo, se il browser consente il salvataggio.
-- **Schermo intero**, nel menu, usa la funzione del browser quando disponibile. Se il browser la rifiuta, il pannello mostra un messaggio.
-- Su Safari per iPad, se lo schermo intero non è disponibile, apri una lezione e scegli **Condividi → Aggiungi alla schermata Home**. Avviando il sito dall'icona, le barre del browser non vengono mostrate e la modalità lettura si attiva inizialmente.
-- Il **Reader di Safari** è una funzione distinta, gestita dal browser e non attivabile dal sito. Il contenuto usa un elemento semantico `article` per agevolarne il riconoscimento, senza garantirne la disponibilità. Per conservare navigazione e contenuti originali, usa la modalità lettura del sito.
+- **Testo** regola dimensione dei caratteri e interlinea direttamente nella pagina
+- **Menu** apre indice della pagina, elenco delle lezioni e impostazioni di lettura
+- **Esci dalla lettura** ripristina il layout normale, mantenendo le preferenze salvate dal browser
+- **Schermo intero** usa la funzione del browser quando disponibile
+- su Safari per iPad, se il full screen non è disponibile, il sito può essere avviato da **Condividi → Aggiungi alla schermata Home**
 
-La modalità lettura non scarica le lezioni per l'uso offline e mantiene il tema chiaro/scuro selezionato nel sito. Il **Menu** funziona anche senza le API Popover e Dialog, assenti in Safari 16 (ultima versione per l'iPad 2017): in quel caso, sotto gli 800 px, la navigazione laterale di Starlight è nascosta e si usa il pannello **Menu**.
-
----
-
-## 📝 Contenuti
-
-### 🎓 Materiale didattico
-- **Slide delle lezioni**: integrate nelle guide di studio
-- **Registrazioni video**: link disponibili in [`site/risorse.md`](site/risorse.md)
-- **Appunti collaborativi**: contribuisci con PR!
-
-### 📋 Preparazione all'esame
-- [Domande d'esame](site/domande-esame.md) - Banca domande aggiornata
-- [Glossario](site/glossario.md) - Terminologia tecnica
-- [Guide di studio](site/guide-studio/) - Percorsi di apprendimento
+La modalità lettura non rende il sito disponibile offline da sola: per studiare senza rete è necessario clonare il repository e avviare il sito in locale.
 
 ---
 
-## 🤝 Come Contribuire
+## 🌐 Build e pubblicazione
 
-I contributi sono benvenuti! Questo ramo è in **sviluppo attivo**.
+La pubblicazione su GitHub Pages è gestita dal workflow [deploy.yml](.github/workflows/deploy.yml), che costruisce il sito partendo da [site/](site/) e pubblica [site/dist/](site/dist/).
 
-1. **Forka** il repository
-2. Crea un branch per la tua feature: `git checkout -b feature/nuova-guida`
-3. **Commita** le modifiche: `git commit -m "Aggiungi guida su..."`
-4. **Pusha** il branch: `git push origin feature/nuova-guida`
-5. Apri una **Pull Request** su `main`
-
-### Linee guida
-- ✍️ Usa Markdown per i contenuti
-- 🔗 Includi fonti attendibili per informazioni tecniche
-- 🎨 Mantieni lo stile coerente con il resto del sito
-- ✅ Testa localmente prima di submittere
-- 🧪 Verifica che la build Astro funzioni: `npm run build`
+La configurazione Astro è in [site/astro.config.mjs](site/astro.config.mjs) e usa la base `/ari-crt-corso-2025`, compatibile sia con GitHub Pages sia con Cloudflare Pages.
 
 ---
 
-## 📬 Contatti
+## 🤝 Come contribuire
 
-- **ARI CRT**: [Sito ufficiale](https://www.ari.it/)
-- **GitHub Issues**: [Segnala problemi](https://github.com/raythekool/ari-crt-corso-2025/issues)
-- **Email**: [vedi sito ARI](https://www.ari.it/contatti)
+I contributi sono benvenuti.
+
+1. Crea un branch dedicato
+2. Apporta la modifica
+3. Verifica localmente con `npm run check` e `npm run build`
+4. Usa messaggi di commit in stile [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+5. Apri una pull request
+
+Se segnali un errore nei contenuti, indica sempre la lezione e il passaggio interessato.
 
 ---
 
 ## 📄 Licenza
 
-Questo progetto è distribuito con licenza **MIT**. Vedi il file [LICENSE](LICENSE) per i dettagli.
-
----
-
-<div align="center">
-
-**Buono studio e 73 de ARI CRT!** 📻
-
-[⬆️ Torna su](#-ari-crt---corso-radioamatori-2025)
-
-</div>
+Questo progetto è distribuito con licenza **MIT**. Vedi [LICENSE](LICENSE) per i dettagli.

@@ -2,15 +2,19 @@
 
 ## Project Overview
 
-This repository contains materials for the **Corso Aspiranti Radioamatori ARI Toscana CRT 2025** (Italian amateur radio licensing course). It includes YouTube lecture transcripts, study guides, and a Python utility to download transcripts.
+This repository contains the Astro + Starlight site for the **Corso Aspiranti Radioamatori ARI Toscana CRT**. The published contents are **notes extracted from the lessons of the Tuscany amateur radio course**, not the official course text. The current site organizes 22 lesson guides, supporting transcripts, and recap pages for the 2026 course edition.
 
 ## Repository Structure
 
-- `transcripts/` — Plain-text transcripts (`.txt`) of each lecture, with timestamps
-- `transcripts (vtt)/` — WebVTT subtitle files (`.vtt`) for each lecture
-- `guide-studio/` — Markdown study guides summarizing lecture content
-- `requirements.txt` — Python dependencies
-- `README.md` — Lecture index with YouTube links
+- `site/` — Astro + Starlight application
+- `site/src/content/docs/lezioni/` — Markdown lesson guides (`lezione_XX.md`) and lessons index
+- `site/src/pages/index.astro` — Site home page
+- `docs/lezioni-2026.md` — Verified table of lesson dates, titles, and recordings
+- `transcripts/2026/` — Plain-text transcripts (`.txt`) with timestamps
+- `transcripts (vtt)/2026/` — WebVTT subtitle files (`.vtt`)
+- `slides 2026/` — PDF slide decks
+- `download_transcripts_2026.py` — Python utility to download available transcripts
+- `README.md` — Repository overview and local usage instructions
 
 ## Linting
 
@@ -23,57 +27,61 @@ npx markdownlint-cli2 "**/*.md"
 To lint a single file:
 
 ```sh
-npx markdownlint-cli2 guide-studio/lezione_01.md
+npx markdownlint-cli2 site/src/content/docs/lezioni/lezione_01.md
 ```
 
 Key rules enabled: MD013 (line length) is **disabled**. MD024 (duplicate headings), MD028 (blank line in blockquote), MD029 (ordered list prefix), MD036 (emphasis as heading), MD040 (fenced code language) are also disabled.
 
 ## Python Transcript Tool
 
-Transcripts are downloaded via a local Python script (`download_transcripts.py`, not committed). Install dependencies and run:
+Transcripts can be refreshed with the repository script [`download_transcripts_2026.py`](../download_transcripts_2026.py). Install dependencies and run:
 
 ```sh
 pip install -r requirements.txt
-python download_transcripts.py
+python download_transcripts_2026.py
 ```
 
 The `requirements.txt` requires `youtube-transcript-api>=1.0.3`. Transcripts are saved to:
-- `transcripts/` — plain-text with timestamps
-- `transcripts (vtt)/` — WebVTT subtitle files
+
+- `transcripts/2026/` — plain-text with timestamps
+- `transcripts (vtt)/2026/` — WebVTT subtitle files
 
 ## Deployment Pipeline
 
-The CI workflow (`.github/workflows/sync-gh-pages.yml`) runs on push to `main` and builds two separate Jekyll sites:
+The CI workflow [`deploy.yml`](../.github/workflows/deploy.yml) runs on push to `main`, builds the Astro site from `site/`, and publishes `site/dist/` to GitHub Pages with base URL `/ari-crt-corso-2025`.
 
-| Target | Branch | Config | Base URL |
-|---|---|---|---|
-| GitHub Pages | `gh-pages` | `_config.yml` | `/ari-crt-corso-2025` |
-| Cloudflare Pages | `cf-pages` | `_config.cloudflare.yml` | `` (root) |
+The site also supports Cloudflare Pages through environment detection in [`site/astro.config.mjs`](../site/astro.config.mjs), but the repository automation currently deploys GitHub Pages only.
 
-**Only these files are published to the website** (everything else, including transcripts, is excluded):
+The prebuild step runs [`site/scripts/og.mjs`](../site/scripts/og.mjs), which regenerates `site/public/og.png` from `site/public/og.svg`.
 
-- `index.md`, `glossario.md`, `domande-esame.md`, `risorse.md`
-- `guide-studio/` (all lesson guides)
-- `_layouts/default.html` (custom layout with MathJax v3 and responsive nav)
+## Rendering Notes
 
-The `_layouts/default.html` injects MathJax v3 — this is why LaTeX math in Markdown files renders correctly on the website.
+Lesson guides still contain LaTeX-style `$...$` and `$$...$$` formulas, but the current Astro site does **not** have a math renderer wired in. Treat raw formula rendering on the site as a presentation defect to report; do not silently rewrite lesson content to work around it.
 
 ## File Naming Conventions
 
-- Study guides: `guide-studio/lezione_XX.md` — `XX` is always **zero-padded two digits** (e.g., `lezione_01.md`, `lezione_22.md`)
-- Transcripts: `transcripts/ARI Toscana Formazione Corso 2025 Lezione XX DD MM YYYY.txt`
-- VTT files: `transcripts (vtt)/ARI Toscana Formazione Corso 2025 Lezione XX DD MM YYYY.vtt`
+- Study guides: `site/src/content/docs/lezioni/lezione_XX.md` — `XX` is always **zero-padded two digits** (e.g., `lezione_01.md`, `lezione_22.md`)
+- Transcripts: `transcripts/2026/ARI Toscana Formazione Corso 2026 Lezione XX DD MM YYYY.txt`
+- VTT files: `transcripts (vtt)/2026/ARI Toscana Formazione Corso 2026 Lezione XX DD MM YYYY.vtt`
 
 ## Scoped Instruction Files
 
 More specific rules are in `.github/instructions/`:
 
 - `markdown.instructions.md` — applies to `**/*.md`: full markdown + MathJax formatting rules
-- `study-guide.instructions.md` — applies to `guide-studio/**/*.md`: complete study guide generation structure and quality rules
+- `study-guide.instructions.md` — contains the complete lesson-guide structure and quality rules used for the guides in `site/src/content/docs/lezioni/`
 
 ## Repository Usage
 
 - For the commits, always follow instructions from: [ConventionalCommits](https://www.conventionalcommits.org/en/v1.0.0/#specification)
+
+## Custom Agents
+
+The site contents are **notes extracted from the lessons of the Tuscany amateur radio course** (ARI Toscana CRT), not the official course text. Three agents are defined in `.github/agents/`:
+
+- `redattore-lezioni` — creates and updates the lesson guides in `site/src/content/docs/lezioni/`.
+- `redattore-pagine` — keeps the generic and summary pages (home, lessons index, README, recordings list, navigation) consistent with the lessons.
+- `qa-tester` — read-only QA: always checks that every recap page matches the current lessons and that every link is correct and leads to the right place, then layout and reading mode. Run it after any change to lessons, titles, navigation or assets.
 
 ## Language and Domain
 
@@ -91,7 +99,7 @@ More specific rules are in `.github/instructions/`:
 
 ## Study Guide Generation Instructions
 
-Study guides are stored in `guide-studio/`. When asked to generate a study guide from a transcript, follow these instructions exactly.
+Study guides are stored in `site/src/content/docs/lezioni/`. When asked to generate a study guide from a transcript, follow these instructions exactly.
 
 ### Role
 
@@ -174,21 +182,23 @@ Metadata footer with: lesson number, date, duration, argument count, and keyword
 - Use code blocks (` ``` `) ONLY for non-mathematical structured data (tables of values, pseudocode, signal formats); NEVER for math formulas
 - If timestamps are present in the transcript, add (⏱ mm:ss) next to the relevant section header
 
-#### Math Formula Rules (MathJax v3)
+#### Math Formula Rules
 
-The site renders math via **MathJax v3**. Always use LaTeX math notation — never write formulas as plain text or inside code blocks.
+Write formulas in LaTeX/MathJax-style notation even though the current Astro site does not yet render them. This keeps the source material consistent until a math renderer is added. Never rewrite formulas as plain text or inside code blocks.
 
 - **Inline formulas** (within a sentence): wrap with single `$...$`
   - ✅ `La reattanza induttiva è $X_L = 2\pi f L$`
   - ❌ `La reattanza induttiva è X_L = 2*pi*f*L`
 - **Display formulas** (standalone, centered): wrap with `$$...$$` on its own line
   - ✅
+
     ```
     $$
     \lambda = \frac{c}{f}
     $$
     ```
-  - ❌ `\[...\]` (avoid — causes rendering issues in some Jekyll configurations)
+
+  - ❌ `\[...\]` (avoid — causes rendering issues in some site configurations)
   - ❌ plain code block with the formula inside
 - Use standard LaTeX commands: `\frac{}{}`, `\cdot`, `\pi`, `\sqrt{}`, `^{}`, `_{}`, `\text{}`, `\Omega`, `\mu`, `\lambda`, `\Delta`, etc.
 - For units inside formulas use `\text{}`: e.g., `$1\,\text{H} = \frac{1\,\text{Wb}}{1\,\text{A}}$`

@@ -1,123 +1,84 @@
 ---
-layout: default
 title: Guide di Studio
-permalink: /guide-studio/index.html
 ---
 
-# 📖 Guide di Studio
+Questa sezione raccoglie **appunti estratti dalle lezioni del corso per radioamatori della Toscana** (ARI Toscana CRT). Le guide non sostituiscono il corso: servono per ripassare, ritrovare un passaggio e collegare rapidamente formule, definizioni e riferimenti normativi.
 
-Questa sezione contiene le guide di studio complete ed esaustive per ogni lezione del corso. Ogni guida è strutturata per essere uno strumento di apprendimento autonomo.
+## 🗂️ Tutte le lezioni
 
-## 📋 Struttura delle Guide
+### 🧭 Fondamenti (Lezioni 1–9)
 
-Ogni guida di studio include:
+1. [Lezione 01 - Introduzione al Corso](lezione_01/)
+2. [Lezione 02 - Fondamenti di Elettrotecnica](lezione_02/)
+3. [Lezione 03 - Circuiti Elettrici e Onde Radio](lezione_03/)
+4. [Lezione 04 - Corrente Alternata](lezione_04/)
+5. [Lezione 05 - Componenti Elettronici](lezione_05/)
+6. [Lezione 06 - Semiconduttori](lezione_06/)
+7. [Lezione 07 - Modi di Emissione: AM, SSB e FM](lezione_07/)
+8. [Lezione 08 - Procedure e Alfabeto Telefonetico](lezione_08/)
+9. [Lezione 09 - Bande Radioamatoriali, Normativa e Enti](lezione_09/)
 
-- **📌 Panoramica**: Obiettivi di apprendimento e prerequisiti
-- **📖 Contenuti Teorici**: Spiegazioni dettagliate con formule e esempi
-- **🔗 Mappa Concettuale**: Collegamenti tra i concetti chiave
-- **📝 Punti Chiave**: Sintesi dei concetti fondamentali
-- **❓ Domande di Comprensione**: Test di autoverifica
-- **📚 Glossario**: Termini tecnici definiti
+### 🔧 Elettronica (Lezioni 10–15)
 
-## 🗂️ Elenco Guide per Argomento
+10. [Lezione 10 - I Diodi e gli Alimentatori](lezione_10/)
+11. [Lezione 11 - I Transistor e i Tubi a Vuoto](lezione_11/)
+12. [Lezione 12 - Amplificatori, Oscillatori e Porte Logiche](lezione_12/)
+13. [Lezione 13 - Trasduttori, Miscelatori e Trasmettitori](lezione_13/)
+14. [Lezione 14 - I Ricevitori](lezione_14/)
+15. [Lezione 15 - Strumenti di Misura](lezione_15/)
 
-### Fondamenti di Elettrotecnica
+### 📶 Radio e normativa (Lezioni 16–22)
 
-1. [Lezione 01 - Introduzione al Corso](lezione_01.html)
-2. [Lezione 02 - Fondamenti di Elettrotecnica](lezione_02.html)
-3. [Lezione 03 - Circuiti Elettrici](lezione_03.html)
-4. [Lezione 04 - Corrente Alternata](lezione_04.html)
-5. [Lezione 05 - Componenti Elettronici](lezione_05.html)
-6. [Lezione 06 - Semiconduttori](lezione_06.html)
+16. [Lezione 16 - Linee di Trasmissione RF](lezione_16/)
+17. [Lezione 17 - La Propagazione delle Onde Radio](lezione_17/)
+18. [Lezione 18 - Antenne - Parte prima](lezione_18/)
+19. [Lezione 19 - Antenne - Parte Seconda](lezione_19/)
+20. [Lezione 20 - Antenne - Parte 1: Fondamenti e Risonanza](lezione_20/)
+21. [Lezione 21 - Antenne - Parte 2: Direttività e Guadagno](lezione_21/)
+22. [Lezione 22 - Normativa Nazionale e Internazionale](lezione_22/)
 
-### Modulazione e Normativa Base
+## 📚 Indice cronologico
 
-7. [Lezione 07 - Modi di Emissione: AM, SSB e FM](lezione_07.html)
-8. [Lezione 08 - Matematica per la Radiotecnica](lezione_08.html)
-9. [Lezione 09 - Alfabeto Fonetico, Codice Q e Indicativi](lezione_09.html)
-10. [Lezione 10 - Bande Radioamatoriali e Organizzazioni Internazionali](lezione_10.html)
+| N° | Titolo reale | Argomento principale |
+| --- | --- | --- |
+| [01](lezione_01/) | 1 - Introduzione al Corso | Corrente continua, grandezze elettriche, generatori ed effetti della corrente |
+| [02](lezione_02/) | 2 - Fondamenti di Elettrotecnica | Resistenza elettrica, legge di Ohm, resistori e leggi di Kirchhoff |
+| [03](lezione_03/) | 3 - Circuiti Elettrici e Onde Radio | Corrente alternata, sinusoide, frequenza, lunghezza d'onda e bande radio |
+| [04](lezione_04/) | 4 - Corrente Alternata | Campo magnetico, induzione, induttori, reattanza induttiva e trasformatori |
+| [05](lezione_05/) | 5 - Componenti Elettronici | Condensatori, reattanza capacitiva e concetto di impedenza |
+| [06](lezione_06/) | 6 - Semiconduttori | Filtri, circuiti risonanti e cristalli di quarzo |
+| [07](lezione_07/) | 7 - Modi di Emissione: AM, SSB e FM | Modulazioni analogiche e introduzione ai decibel |
+| [08](lezione_08/) | 8 - Procedure e Alfabeto Telefonetico | Alfabeto fonetico, nominativi, codice Q, RST e locator |
+| [09](lezione_09/) | 9 - Bande Radioamatoriali, Normativa e Enti | Spettro, band plan, ITU, IARU, ARI, patente e autorizzazione |
+| [10](lezione_10/) | 10 - I Diodi e gli Alimentatori | Diodi, raddrizzatori, zener e alimentatori lineari o switching |
+| [11](lezione_11/) | 11 - I Transistor e i Tubi a Vuoto | Transistor, FET, valvole, polarizzazione e amplificazione |
+| [12](lezione_12/) | 12 - Amplificatori, Oscillatori e Porte Logiche | Classi di amplificazione, oscillatori, PLL e logica digitale di base |
+| [13](lezione_13/) | 13 - Trasduttori, Miscelatori e Trasmettitori | Microfoni, mixer, trasmettitori CW/SSB/FM e intermodulazione |
+| [14](lezione_14/) | 14 - I Ricevitori | Supereterodina, rivelatori, AGC, frequenza immagine e filtri |
+| [15](lezione_15/) | 15 - Strumenti di Misura | Multimetro, wattmetro, rosmetro, oscilloscopio e analizzatore di spettro |
+| [16](lezione_16/) | 16 - Linee di Trasmissione RF | Linee RF, onde stazionarie, ROS e adattamento di impedenza |
+| [17](lezione_17/) | 17 - La Propagazione delle Onde Radio | Campi elettromagnetici, spettro, ionosfera, MUF, LUF e FOT |
+| [18](lezione_18/) | 18 - Antenne - Parte prima | Antenna come trasduttore, campi vicino/lontano, risonanza e resistenza di radiazione |
+| [19](lezione_19/) | 19 - Antenne - Parte Seconda | Antenne direttive, ERP, efficienza di radiazione, balun e misure |
+| [20](lezione_20/) | 20 - Antenne - Parte 1: Fondamenti e Risonanza | Fondamenti teorici, antenne caricate o multibanda e lobo di radiazione |
+| [21](lezione_21/) | 21 - Antenne - Parte 2: Direttività e Guadagno | Direttività, guadagno, efficienza, radiali, balun e misure pratiche |
+| [22](lezione_22/) | 22 - Normativa Nazionale e Internazionale | D.Lgs. 259/2003, articoli 134-145, CEPT e reciprocità internazionale |
 
-### Circuiti RF
+## 🎯 Percorsi di studio consigliati
 
-11. [Lezione 11 - Il Diodo e gli Alimentatori](lezione_11.html)
-12. [Lezione 12 - Transistor, FET, MOSFET e Valvole](lezione_12.html)
-13. [Lezione 13 - Amplificatori, Oscillatori e Decibel](lezione_13.html)
-14. [Lezione 14 - Trasduttori, Mixer e Trasmettitori](lezione_14.html)
-15. [Lezione 15 - Tecnica dei Ricevitori](lezione_15.html)
+- **Fondamenti (1–9)** — Per costruire il vocabolario tecnico del corso: grandezze elettriche, circuiti, componenti, modi di emissione e procedure operative. [Parti dalla Lezione 01](lezione_01/).
+- **Elettronica (10–15)** — Per seguire la catena radio dal componente attivo agli strumenti di misura: diodi, transistor, trasmettitori, ricevitori e strumentazione. [Parti dalla Lezione 10](lezione_10/).
+- **Radio e normativa (16–22)** — Per collegare teoria RF, propagazione, antenne e quadro regolatorio nazionale e internazionale. [Parti dalla Lezione 16](lezione_16/).
 
-### Misure, Sicurezza e Propagazione
+## 🔍 Ricerca per concetto
 
-16. [Lezione 16 - Misure e Strumenti](lezione_16.html)
-17. [Lezione 17 - Sicurezza Elettrica e Fulmini (Serata Speciale)](lezione_17.html)
-18. [Lezione 18 - Propagazione Ionosferica](lezione_18.html)
-19. [Lezione 19 - Linee di Trasmissione e ROS](lezione_19.html)
-
-### Antenne e Normative
-
-20. [Lezione 20 - Antenne - Parte 1: Fondamenti e Risonanza](lezione_20.html)
-21. [Lezione 21 - Antenne - Parte 2: Direttività e Guadagno](lezione_21.html)
-22. [Lezione 22 - Normativa Nazionale e Internazionale](lezione_22.html)
-
-## 📚 Guide Cronologiche
-
-| N°                    | Titolo                                 | Argomento Principale               |
-| --------------------- | -------------------------------------- | ----------------------------------- |
-| [01](lezione_01.html) | Introduzione al Corso                  | Panoramica generale                |
-| [02](lezione_02.html) | Fondamenti di Elettrotecnica           | Leggi di Ohm, Kirchhoff            |
-| [03](lezione_03.html) | Circuiti Elettrici                     | Serie, parallelo, misti            |
-| [04](lezione_04.html) | Corrente Alternata                     | AC, impedenza, risonanza           |
-| [05](lezione_05.html) | Componenti Elettronici                 | Resistori, condensatori, induttori |
-| [06](lezione_06.html) | Semiconduttori                         | Diodi, transistor                  |
-| [07](lezione_07.html) | Modi di Emissione                      | AM, SSB, FM                        |
-| [08](lezione_08.html) | Matematica per la Radiotecnica         | Notazione scientifica, logaritmi   |
-| [09](lezione_09.html) | Alfabeto Fonetico e Codice Q           | Indicativi, RST, locatore          |
-| [10](lezione_10.html) | Bande e Organizzazioni Internazionali  | ITU, IARU, CEPT, band plan         |
-| [11](lezione_11.html) | Il Diodo e gli Alimentatori            | Raddrizzatori, stabilizzatori      |
-| [12](lezione_12.html) | Transistor, FET, MOSFET                | Semiconduttori attivi, valvole     |
-| [13](lezione_13.html) | Amplificatori e Oscillatori            | Classi di amplificazione, dB       |
-| [14](lezione_14.html) | Trasduttori e Trasmettitori            | Microfoni, mixer, CW/SSB/AM/FM     |
-| [15](lezione_15.html) | Tecnica dei Ricevitori                 | Supereterodina, AGC, SDR           |
-| [16](lezione_16.html) | Misure e Strumenti                     | Multimetro, oscilloscopio          |
-| [17](lezione_17.html) | Sicurezza Elettrica e Fulmini          | Serata speciale, LPS, SPD          |
-| [18](lezione_18.html) | Propagazione Ionosferica               | Ionosfera, MUF/LUF, ciclo solare   |
-| [19](lezione_19.html) | Linee di Trasmissione                  | ROS, adattamento di impedenza      |
-| [20](lezione_20.html) | Antenne - Parte 1                      | Teoria, risonanza, diagrammi       |
-| [21](lezione_21.html) | Antenne - Parte 2                      | Direttività, guadagno, misure      |
-| [22](lezione_22.html) | Normativa Nazionale e Internazionale   | D.Lgs. 259/2003, CEPT, ITU         |
-
-## 🎯 Percorsi di Studio Consigliati
-
-### Percorso 1: Teoria Base (Settimane 1-6)
-
-Lezioni 01 → 02 → 03 → 04 → 05 → 06
-
-### Percorso 2: Modulazione e Normativa Base (Settimane 7-10)
-
-Lezioni 07 → 08 → 09 → 10
-
-### Percorso 3: Circuiti RF (Settimane 11-15)
-
-Lezioni 11 → 12 → 13 → 14 → 15
-
-### Percorso 4: Misure, Sicurezza e Propagazione (Settimane 16-19)
-
-Lezioni 16 → 17 → 18 → 19
-
-### Percorso 5: Antenne e Normative (Settimane 20-22)
-
-Lezioni 20 → 21 → 22
-
-## 🔍 Ricerca per Concetto
-
-Usa i seguenti link per trovare lezioni su concetti specifici:
-
-- **Impedenza**: Lezioni 04, 19, 20
-- **Modulazione**: Lezioni 07, 14, 15
-- **Risonanza**: Lezioni 04, 13, 20
-- **Antenna**: Lezioni 18, 19, 20, 21
-- **Sicurezza**: Lezione 17
-- **Normative**: Lezioni 09, 10, 22
+- **Corrente alternata e impedenza**: [03](lezione_03/), [04](lezione_04/), [05](lezione_05/)
+- **Filtri, risonanza e selettività**: [06](lezione_06/), [07](lezione_07/), [14](lezione_14/), [20](lezione_20/)
+- **Procedure operative e normativa**: [08](lezione_08/), [09](lezione_09/), [22](lezione_22/)
+- **Trasmettitori e ricevitori**: [13](lezione_13/), [14](lezione_14/)
+- **Misure RF e linee di trasmissione**: [15](lezione_15/), [16](lezione_16/), [21](lezione_21/)
+- **Propagazione e antenne**: [17](lezione_17/), [18](lezione_18/), [19](lezione_19/), [20](lezione_20/), [21](lezione_21/)
 
 ---
 
-[← Torna alla Home](../) | [Glossario Completo →](../glossario.html)
+[← Torna alla Home](../) | [Inizia dalla Lezione 01 →](lezione_01/)
