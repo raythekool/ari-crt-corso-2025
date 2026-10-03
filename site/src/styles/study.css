@@ -269,3 +269,25 @@
     display: none;
   }
 }
+
+/* Il menu mobile di Starlight richiede l'API Popover (Safari 17+): senza, il pannello resterebbe aperto sopra la lezione. */
+@supports not selector(:popover-open) {
+  @media (max-width: 49.99rem) {
+    .sidebar-pane,
+    .sl-menu-button {
+      display: none !important;
+    }
+
+    [data-has-sidebar] .header {
+      padding-inline-end: var(--sl-nav-pad-x);
+    }
+  }
+}
+
+/* backdrop-filter crea un blocco contenitore e sposta il sommario mobile fisso dentro il flusso. */
+@media (max-width: 71.99rem) {
+  aside {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}

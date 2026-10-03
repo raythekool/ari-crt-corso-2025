@@ -96,7 +96,7 @@ Nelle pagine delle lezioni, premi **Modalità lettura** per nascondere la naviga
 - Su Safari per iPad, se lo schermo intero non è disponibile, apri una lezione e scegli **Condividi → Aggiungi alla schermata Home**. Avviando il sito dall'icona, le barre del browser non vengono mostrate e la modalità lettura si attiva inizialmente.
 - Il **Reader di Safari** è una funzione distinta, gestita dal browser e non attivabile dal sito. Il contenuto usa un elemento semantico `article` per agevolarne il riconoscimento, senza garantirne la disponibilità. Per conservare navigazione e contenuti originali, usa la modalità lettura del sito.
 
-La modalità lettura non scarica le lezioni per l'uso offline e mantiene il tema chiaro/scuro selezionato nel sito. Il menu funziona senza dipendere dalle API Popover o Dialog, non disponibili in alcune versioni di Safari sui vecchi iPad.
+La modalità lettura non scarica le lezioni per l'uso offline e mantiene il tema chiaro/scuro selezionato nel sito. Il **Menu** funziona anche senza le API Popover e Dialog, assenti in Safari 16 (ultima versione per l'iPad 2017): in quel caso, sotto gli 800 px, la navigazione laterale di Starlight è nascosta e si usa il pannello **Menu**.
 
 ---
 
