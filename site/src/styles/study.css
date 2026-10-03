@@ -496,7 +496,8 @@ body {
 
 .study-toolbar[hidden],
 .study-menu[hidden],
-.study-menu-backdrop[hidden] {
+.study-menu-backdrop[hidden],
+.study-menu button[hidden] {
   display: none;
 }
 

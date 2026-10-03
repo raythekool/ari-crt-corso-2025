@@ -1,6 +1,6 @@
 ---
 description: "Study guide generation instructions for amateur radio course transcripts"
-applyTo: "guide-studio/**/*.md"
+applyTo: "site/src/content/docs/lezioni/**/*.md"
 ---
 
 ## Role
