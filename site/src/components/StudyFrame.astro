@@ -126,10 +126,11 @@ const headings = route.headings.filter((heading) => heading.depth === 2 || headi
           <a
             href={lesson.href}
             aria-current={lesson.isCurrent ? 'page' : undefined}
-            aria-label={lesson.isCurrent ? `${lesson.label}, lezione aperta` : lesson.label}
+            aria-label={[lesson.label, lesson.badge?.text, lesson.isCurrent ? 'lezione aperta' : undefined].filter(Boolean).join(', ')}
             data-study-current-lesson={lesson.isCurrent ? '' : undefined}
           >
             {lesson.label}
+            {lesson.badge && <span class="study-menu__badge">{lesson.badge.text}</span>}
           </a>
         </li>
       ))}

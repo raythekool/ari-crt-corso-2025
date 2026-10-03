@@ -173,3 +173,9 @@ aside {
 :root {
   --sl-sidebar-width: 22rem !important;
 }
+
+/* Il badge "Esame ridotto" della barra laterale usa il font del sito, non il monospazio di Starlight */
+.sidebar-content .sl-badge {
+  font-family: inherit;
+  font-weight: 600;
+}

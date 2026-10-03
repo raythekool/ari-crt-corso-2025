@@ -134,9 +134,13 @@ code {
   gap: 1.4rem;
 }
 .site-header nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   color: #cbd5e1;
   text-decoration: none;
   font-size: 0.95rem;
+  white-space: nowrap;
 }
 .site-header nav a:hover {
   color: #fff;
@@ -377,6 +381,9 @@ code {
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
 }
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
 
 /* Cards */
 .card {
@@ -554,6 +561,112 @@ code {
   background: linear-gradient(135deg, var(--indigo-d), #7c3aed);
 }
 
+/* Esami */
+.exam-sub {
+  font-size: clamp(1.25rem, 2.2vw, 1.55rem);
+  margin: 3rem 0 1rem;
+}
+.exam-card ul {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+  font-size: 0.97rem;
+}
+.plan.exam-card ul {
+  flex: 1;
+  margin-bottom: 1rem;
+}
+.plan.exam-card p:not(.range) {
+  flex: none;
+}
+.plan.exam-card > p:not(.range):not(.exam-card-note) {
+  margin-bottom: 0.5rem;
+}
+.exam-card-note {
+  margin-bottom: 0.25rem !important;
+}
+.plan.exam-card .link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: 0.4rem;
+}
+.exam-card code {
+  white-space: nowrap;
+}
+.exam-note {
+  margin: 1.5rem 0 0;
+  color: var(--body);
+}
+.exam-year {
+  margin: 1rem 0 0;
+  padding: 1rem 1.25rem;
+  background: #f8fafc;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+.exam-titles {
+  margin-top: 1.25rem;
+}
+.faq details ul {
+  display: grid;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0 1.25rem 1.2rem 2.6rem;
+  color: var(--muted);
+}
+.exam-titles .exam-group {
+  padding-bottom: 0.4rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.notice {
+  margin-top: 2.5rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--code-bg);
+  border: 1px solid #c7d2fe;
+  border-left: 4px solid var(--indigo);
+  border-radius: 14px;
+}
+.notice h3 {
+  font-size: 1.12rem;
+  margin-bottom: 0.5rem;
+}
+.notice p {
+  margin-bottom: 0.5rem;
+}
+.notice ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 0.35rem;
+}
+.sources {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.25rem;
+}
+.sources li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 0.6rem;
+}
+.sources a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-weight: 600;
+}
+.sources span {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 /* FAQ */
 .faq {
   display: grid;
@@ -641,6 +754,9 @@ code {
   gap: 1.25rem;
 }
 .site-footer a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   color: #cbd5e1;
 }
 
@@ -658,6 +774,15 @@ code {
 }
 
 /* Responsive */
+@media (max-width: 1100px) {
+  .site-header nav {
+    gap: 0.9rem;
+  }
+  .site-header nav a {
+    font-size: 0.88rem;
+  }
+}
+
 @media (max-width: 960px) {
   .site-header nav {
     display: none;
@@ -681,7 +806,8 @@ code {
     width: calc(100% - 2rem);
   }
   .grid-4,
-  .grid-3 {
+  .grid-3,
+  .grid-2 {
     grid-template-columns: 1fr;
   }
   .brand span {

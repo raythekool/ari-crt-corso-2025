@@ -9,7 +9,7 @@ const repo = "https://github.com/raythekool/ari-crt-corso-2025";
 
 const title = "Corso ARI Toscana CRT 2026 — Guide di studio per radioamatori";
 const description =
-  "Appunti estratti dalle 22 lezioni del corso per radioamatori della Toscana (ARI Toscana CRT): elettrotecnica, RF, antenne e normativa, con glossario e domande di autoverifica.";
+  "Appunti estratti dalle 22 lezioni del corso per radioamatori della Toscana (ARI Toscana CRT): elettrotecnica, RF, antenne e normativa, con strumenti di ripasso e le lezioni utili per l’esame ridotto.";
 
 const problems = [
   {
@@ -48,7 +48,7 @@ const features = [
   {
     icon: "🔑",
     title: "Punti chiave",
-    text: "Le regole e i principi essenziali di ogni serata, in elenco, pronti per il ripasso.",
+    text: "Le regole e i principi essenziali delle serate, in elenco, pronti per il ripasso.",
   },
   {
     icon: "❓",
@@ -58,7 +58,7 @@ const features = [
   {
     icon: "📚",
     title: "Glossario per lezione",
-    text: "Ogni termine tecnico è definito alla prima occorrenza e raccolto in ordine alfabetico.",
+    text: "I termini tecnici sono definiti alla prima occorrenza e raccolti in ordine alfabetico.",
   },
   {
     icon: "🔎",
@@ -100,6 +100,12 @@ const faqs = [
     a: "No. Sono appunti estratti dalle lezioni del corso per radioamatori della Toscana (ARI Toscana CRT): servono a ripassare e ritrovare un passaggio, non a sostituire il corso.",
   },
   {
+    q: "Quali lezioni servono per l’esame ridotto?",
+    a: "Servono la Lezione 08, la Lezione 09 e la Lezione 22: coprono le Parti B e C del programma. Le altre 19 lezioni sono la Parte A e servono solo per l’esame completo. Alcuni punti B e C non sono negli appunti.",
+    link: "Vedi la sezione sugli esami →",
+    href: "#esami",
+  },
+  {
     q: "Da dove arrivano i contenuti?",
     a: "Dalle lezioni ARI Toscana CRT e dalle relative trascrizioni o slide quando sono presenti nel repository. Gli errori evidenti di trascrizione vengono corretti, senza aggiungere informazioni assenti nella lezione.",
   },
@@ -114,6 +120,72 @@ const faqs = [
   {
     q: "Ho trovato un errore, come lo segnalo?",
     a: "Apri una segnalazione sul repository GitHub indicando lezione e passaggio: ogni correzione migliora la guida per tutti.",
+  },
+];
+
+const examLessons = [
+  {
+    n: 8,
+    title: "Procedure e Alfabeto Telefonetico",
+    points: "B.1, B.2, B.3, B.5",
+    sections: [
+      ["§1 Alfabeto telefonetico", "B.1"],
+      ["§2 Indicativo di chiamata", "B.5"],
+      ["§3 Abbreviazioni telegrafiche", "B.3"],
+      ["§4 Codice Q", "B.2"],
+      ["§5 Sistema RS(T)", "B.3"],
+    ],
+    note: "Il §6 (Maidenhead Locator) non compare nel programma ufficiale.",
+  },
+  {
+    n: 9,
+    title: "Bande Radioamatoriali, Normativa e Enti",
+    points: "B.6, C.1, C.3",
+    sections: [
+      ["§3 Bande radioamatoriali e tipologie di utilizzo", "C.1"],
+      ["§4 Larghezza di banda e band plan", "B.6"],
+      ["§5 Enti: ITU, IARU, ARI", "C.1 · B.6"],
+      ["§6 Normativa italiana: MIMIT, patente e autorizzazione generale", "C.3"],
+    ],
+    note: "I §1–2 (lunghezza d’onda, spettro) sono Parte A.",
+  },
+  {
+    n: 22,
+    title: "Normativa Nazionale e Internazionale",
+    points: "C.1, C.2, C.3",
+    sections: [
+      ["§2 Parole chiave", "C.1 · C.2"],
+      ["§3 Gerarchia normativa", "C.3"],
+      ["§4 D.Lgs. 259/2003", "C.3"],
+      ["§5 ITU art. 25", "C.1"],
+      ["§6 CEPT TR 61-01 e TR 61-02", "C.2"],
+      ["§7–16 Articoli 134-144 e allegato 26", "C.3"],
+      ["§17 Domande e risposte", ""],
+    ],
+    note: "Il §1 (correzione del quiz sulle antenne) è Parte A.",
+  },
+];
+
+const sources = [
+  {
+    name: "Decreto MISE 1 marzo 2021",
+    detail: "Gazzetta Ufficiale n. 70 del 22-03-2021: art. 3 (esami), art. 5 (esonero), Sub allegato D (programma)",
+    href: "https://www.gazzettaufficiale.it/eli/id/2021/03/22/21A01607/sg",
+  },
+  {
+    name: "Decreto direttoriale MIMIT 6 marzo 2024",
+    detail: "prot. 49052: modalità della prova scritta",
+    href: "https://ispettorati.mise.gov.it/images/documenti/decreto_esami_radioamatori_2024.pdf",
+  },
+  {
+    name: "Determina Ispettorato Toscana, sessione 2026",
+    detail: "date e modalità di domanda per il 2026",
+    href: "https://ispettorati.mise.gov.it/images/TOSCANA/radioamatori/Esami_Radioamatori_2026.pdf",
+  },
+  {
+    name: "Circolare MIMIT sull’esonero parziale",
+    detail: "chi ha l’esonero sostiene comunque le Parti B e C",
+    href: "https://www.mimit.gov.it/images/stories/documenti/IITT_esonero_parziale_esami_radioamatori.pdf",
   },
 ];
 
@@ -165,6 +237,7 @@ npm run dev`;
           <a href="#problema">Il problema</a>
           <a href="#funzionalita">Funzionalità</a>
           <a href="#percorsi">Percorsi</a>
+          <a href="#esami">Gli esami</a>
           <a href="#avvio">Avvio rapido</a>
           <a href="#faq">FAQ</a>
         </nav>
@@ -203,7 +276,7 @@ npm run dev`;
           <div
             class="terminal"
             role="img"
-            aria-label="Simulazione di terminale: il corso carica 22 lezioni con guide, glossari e domande di autoverifica"
+            aria-label="Simulazione di terminale: il corso carica 22 lezioni con guide di studio e strumenti di autoverifica"
           >
             <div class="term-bar" aria-hidden="true">
               <span class="dot r"></span><span class="dot y"></span><span
@@ -215,7 +288,7 @@ npm run dev`;
                 <span class="prompt">$</span> ari-crt corso --anno 2026
               </p>
               <p style="--i:1" class="ok">✔ 22 lezioni caricate</p>
-              <p style="--i:2" class="ok">✔ guide · glossari · autoverifica</p>
+              <p style="--i:2" class="ok">✔ guide · ripasso · autoverifica</p>
               <p style="--i:3">
                 <span class="prompt">$</span> ari-crt studia antenne
               </p>
@@ -267,8 +340,8 @@ npm run dev`;
             <p class="eyebrow">Funzionalità</p>
             <h2>Tutto quello che serve per studiare</h2>
             <p>
-              Ogni guida segue la stessa struttura, così sai sempre dove trovare
-              cosa.
+              Le guide seguono una struttura comune. La maggior parte include
+              mappa concettuale, punti chiave, domande e glossario.
             </p>
           </header>
           <div class="grid grid-3">
@@ -329,7 +402,7 @@ npm run dev`;
                   ["🎥", "Lezione", "Diretta ARI Toscana"],
                   ["📝", "Trascrizione", "Testo della registrazione"],
                   ["📘", "Guida di studio", "Struttura fissa"],
-                  ["✅", "Autoverifica", "Domande e glossario"],
+                  ["✅", "Autoverifica", "Domande e ripasso"],
                   ["📡", "Esame", "Programma ministeriale"],
                 ].map(([icon, name, sub], i) => (
                   <g transform={`translate(${i * 201} 40)`}>
@@ -422,7 +495,7 @@ npm run dev`;
                   ["🎥", "Lezione", "Diretta ARI Toscana"],
                   ["📝", "Trascrizione", "Testo della registrazione"],
                   ["📘", "Guida di studio", "Struttura fissa"],
-                  ["✅", "Autoverifica", "Domande e glossario"],
+                  ["✅", "Autoverifica", "Domande e ripasso"],
                   ["📡", "Esame", "Programma ministeriale"],
                 ].map(([icon, name, sub], i) => (
                   <g transform={`translate(10 ${i * 112})`}>
@@ -475,7 +548,7 @@ npm run dev`;
             <p class="eyebrow">Approfondimento</p>
             <h2>Anatomia di una guida</h2>
             <p>
-              Le guide hanno tutte lo stesso scheletro. Si parte da obiettivi e
+              Le guide seguono lo stesso scheletro di base. Si parte da obiettivi e
               prerequisiti, si procede per argomenti numerati nell’ordine della
               lezione e si chiude con strumenti di ripasso.
             </p>
@@ -593,6 +666,222 @@ npm run dev`;
         </div>
       </section>
 
+      <!-- Esami -->
+      <section id="esami" class="section">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">Gli esami</p>
+            <h2>Esame completo o esame ridotto?</h2>
+            <p>
+              Il programma ufficiale ha tre parti: A (tecnica), B (procedure
+              d’esercizio) e C (regolamentazione). Con un titolo di esonero
+              salti la sola Parte A.
+            </p>
+          </header>
+
+          <div class="grid grid-2">
+            <article class="card exam-card reveal">
+              <h3>Esame completo</h3>
+              <p class="range">Parti A, B e C</p>
+              <ul>
+                <li>50 domande a risposta multipla, con 3 opzioni ciascuna</li>
+                <li>
+                  30 domande tecniche (Parte A) e 20 su procedure e normativa
+                  (Parti B e C)
+                </li>
+                <li>Durata: 2 ore</li>
+                <li>
+                  Superato con 30 risposte corrette, di cui almeno 18 tecniche e
+                  12 su procedure e normativa
+                </li>
+              </ul>
+            </article>
+            <article class="card exam-card reveal">
+              <h3>Esame ridotto</h3>
+              <p class="range">Solo Parti B e C</p>
+              <ul>
+                <li>Esonero parziale dalla sola Parte A</li>
+                <li>20 domande sulle Parti B e C</li>
+                <li>Superato con 12 risposte corrette</li>
+              </ul>
+            </article>
+          </div>
+
+          <p class="exam-note reveal">
+            <strong
+              >L’esonero riguarda solo la Parte A: nessun titolo esonera dalle
+              Parti B e C.</strong
+            > I numeri sono quelli del decreto direttoriale del 6 marzo 2024, applicato
+            anche al 2026.
+          </p>
+          <p class="exam-year reveal">
+            <strong>Toscana 2026:</strong> sessione unica per esame completo ed
+            esonero parziale. Domande entro il 10 ottobre 2026; esame entro le
+            prime due settimane di novembre 2026 a Firenze. Leggi la{" "}
+            <a
+              href={sources[2].href}
+              rel="noopener"
+              >determina dell’Ispettorato Toscana per il 2026</a
+            >.
+          </p>
+
+          <h3 class="exam-sub reveal">Chi può fare l’esame ridotto</h3>
+          <div class="reveal">
+            <p>
+              Hanno diritto all’esonero parziale i titolari di alcuni titoli
+              di studio e abilitazioni. Alcuni esempi:
+            </p>
+            <ul class="checks">
+              <li>
+                Laurea di primo livello in Ingegneria dell’informazione (classe
+                L-8)
+              </li>
+              <li>
+                Diploma di istituto tecnico nei settori tecnologici Elettronica
+                ed elettrotecnica, oppure Informatica e telecomunicazioni
+              </li>
+              <li>
+                Certificato GMDSS GOC o LRC del Ministero, in corso di validità
+              </li>
+            </ul>
+          </div>
+          <div class="faq exam-titles reveal">
+            <details>
+              <summary>Elenco completo dei titoli (art. 5 del DM 2021)</summary>
+              <p class="exam-group">Abilitazioni</p>
+              <ul>
+                <li>
+                  Certificato GMDSS GOC o LRC del Ministero in corso di validità
+                </li>
+                <li>
+                  Analoghi certificati esteri riconosciuti (D.Lgs. 71/2015,
+                  artt. 19-20)
+                </li>
+                <li>
+                  Certificato di radiotelegrafista per navi di classe prima,
+                  seconda e speciale
+                </li>
+                <li>Diploma di radiotelegrafista di bordo</li>
+              </ul>
+              <p class="exam-group">Titoli di studio</p>
+              <ul>
+                <li>
+                  Laurea di primo livello (DM 270/2004) nelle classi L-8
+                  Ingegneria dell’informazione, L-9 Ingegneria industriale,
+                  L-28 Scienze e tecnologie della navigazione, L-30 Scienze e
+                  tecnologie fisiche, L-31 Scienze e tecnologie informatiche,
+                  L-35 Scienze matematiche
+                </li>
+                <li>
+                  Lauree di primo livello (DM 509/1999) nelle classi 9, 10, 22,
+                  25, 26, 32
+                </li>
+                <li>
+                  Lauree magistrali (DM 270/2004) nelle classi LM-17, 18, 25,
+                  26, 27, 28, 29, 32, 33, 34, 40, 44, 66, 72, 91
+                </li>
+                <li>
+                  Diplomi di laurea e lauree specialistiche equiparati (DI 9
+                  luglio 2009)
+                </li>
+                <li>
+                  Diploma di istituto tecnico nei settori tecnologici
+                  Elettronica ed elettrotecnica, oppure Informatica e
+                  telecomunicazioni
+                </li>
+              </ul>
+              <p>
+                I titoli di università non statali riconosciute o di Paesi UE
+                valgono se dichiarati equivalenti (art. 5, comma 3).
+              </p>
+            </details>
+          </div>
+          <p class="exam-note reveal">
+            Verifica il tuo titolo sul testo dell’art. 5 del{" "}
+            <a href={sources[0].href} rel="noopener">DM 1 marzo 2021</a> e con
+            l’Ispettorato. Il titolo si allega alla domanda online (a lezione si consiglia il PDF).
+          </p>
+
+          <h3 class="exam-sub reveal">Quali lezioni servono per l’esame ridotto</h3>
+          <div class="grid grid-3">
+            {
+              examLessons.map((l) => (
+                <article class="card plan exam-card reveal">
+                  <span class="tag">Esame ridotto</span>
+                  <h3>
+                    Lezione {String(l.n).padStart(2, "0")} · {l.title}
+                  </h3>
+                  <p class="range">Punti del programma: {l.points}</p>
+                  <p>Sezioni utili:</p>
+                  <ul>
+                    {l.sections.map(([name, point]) => (
+                      <li>
+                        {name}
+                        {point && (
+                          <>
+                            {" "}
+                            <code>{point}</code>
+                          </>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                  <p class="exam-card-note">{l.note}</p>
+                  <a class="link" href={lesson(l.n)}>
+                    Apri la Lezione {String(l.n).padStart(2, "0")} →
+                  </a>
+                </article>
+              ))
+            }
+          </div>
+          <p class="exam-note reveal">
+            Le altre 19 lezioni sono la Parte A del programma: servono solo per
+            l’esame completo.
+          </p>
+
+          <aside class="notice reveal" aria-labelledby="esami-mancanti">
+            <h3 id="esami-mancanti">Cosa non è negli appunti</h3>
+            <p>
+              Alcuni punti ufficiali delle Parti B e C non sono trattati negli
+              appunti. Studiali sul Sub allegato D del{" "}
+              <a href={sources[0].href} rel="noopener">DM 1 marzo 2021</a>:
+            </p>
+            <ul>
+              <li>
+                Segnali internazionali di soccorso e comunicazioni in caso di
+                catastrofi: SOS, MAYDAY, Risoluzione n. 640 UIT (B.4)
+              </li>
+              <li>Tenuta del registro di stazione (C.3)</li>
+              <li>Regioni radio UIT (C.1)</li>
+              <li>
+                Elenchi completi dei 15 codici Q (B.2) e delle 13 abbreviazioni
+                operative (B.3): gli appunti della lezione 08 ne riportano solo
+                una parte
+              </li>
+            </ul>
+          </aside>
+
+          <h3 class="exam-sub reveal">Fonti ufficiali</h3>
+          <ul class="sources reveal">
+            {
+              sources.map((s) => (
+                <li>
+                  <a href={s.href} rel="noopener">
+                    {s.name}
+                  </a>
+                  <span>{s.detail}</span>
+                </li>
+              ))
+            }
+          </ul>
+          <p class="exam-note reveal">
+            I contenuti di questo sito sono appunti estratti dalle lezioni del
+            corso per radioamatori della Toscana. Per l’esame fanno fede i testi
+            ufficiali.
+          </p>
+        </div>
+      </section>
+
       <!-- Quick start -->
       <section id="avvio" class="section">
         <div class="container split">
@@ -642,7 +931,15 @@ npm run dev`;
               faqs.map((f) => (
                 <details>
                   <summary>{f.q}</summary>
-                  <p>{f.a}</p>
+                  <p>
+                    {f.a}
+                    {f.href && (
+                      <>
+                        {" "}
+                        <a href={f.href}>{f.link}</a>
+                      </>
+                    )}
+                  </p>
                 </details>
               ))
             }
@@ -671,6 +968,7 @@ npm run dev`;
         </p>
         <nav aria-label="Link utili">
           <a href={`${base}/lezioni/`}>Lezioni</a>
+          <a href="#esami">Gli esami</a>
           <a href={repo}>GitHub</a>
           <a href="#main">Torna su</a>
         </nav>
