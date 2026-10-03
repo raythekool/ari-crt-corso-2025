@@ -6,6 +6,8 @@ permalink: /guide-studio/lezione_04.html
 
 # 📘 Lezione 04 - Corrente Alternata
 
+> 🎓 **Esame ridotto: lezione non necessaria.** Questa lezione riguarda la Parte A (questioni di natura tecnica, A.1 Elettricità, elettromagnetismo e radiotecnica) del programma d'esame, da cui è esonerato chi ha un titolo previsto dall'art. 5 dell'Allegato 26. Serve per l'esame completo.
+
 ## 📌 Panoramica
 
 - **Materia e argomento**: Elettrotecnica — induttori, reattanza induttiva e trasformatori. Vengono introdotti il campo magnetico, l'induzione elettromagnetica, l'induttore come componente, la reattanza induttiva e il trasformatore.

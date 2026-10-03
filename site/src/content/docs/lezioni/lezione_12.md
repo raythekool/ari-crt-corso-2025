@@ -6,6 +6,8 @@ permalink: /guide-studio/lezione_12.html
 
 # 📘 Lezione 12 - Amplificatori, Oscillatori e Porte Logiche
 
+> 🎓 **Esame ridotto: lezione non necessaria.** Questa lezione riguarda la Parte A (questioni di natura tecnica, A.3 Circuiti) del programma d'esame, da cui è esonerato chi ha un titolo previsto dall'art. 5 dell'Allegato 26. Serve per l'esame completo.
+
 ## 📌 Panoramica
 
 - **Materia**: Radiotecnica — Amplificatori, Oscillatori e Porte Logiche

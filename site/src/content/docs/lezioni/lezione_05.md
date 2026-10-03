@@ -6,6 +6,8 @@ permalink: /guide-studio/lezione_05.html
 
 # 📘 Lezione 05 - Componenti Elettronici
 
+> 🎓 **Esame ridotto: lezione non necessaria.** Questa lezione riguarda la Parte A (questioni di natura tecnica, A.2 Componenti) del programma d'esame, da cui è esonerato chi ha un titolo previsto dall'art. 5 dell'Allegato 26. Serve per l'esame completo.
+
 ## 📌 Panoramica
 
 - **Materia e argomento**: Elettrotecnica — il condensatore, la reattanza capacitiva e l'impedenza. Viene completata la trattazione dei tre componenti fondamentali (resistore, induttore, condensatore) e introdotto il concetto unificante di impedenza.

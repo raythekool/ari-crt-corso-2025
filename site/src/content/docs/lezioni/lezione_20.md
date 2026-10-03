@@ -6,6 +6,8 @@ permalink: /guide-studio/lezione_20.html
 
 # 📘 Lezione 20 - Antenne - Parte 1: Fondamenti e Risonanza
 
+> 🎓 **Esame ridotto: lezione non necessaria.** Questa lezione riguarda la Parte A (questioni di natura tecnica, A.6 Antenne e linee di trasmissione) del programma d'esame, da cui è esonerato chi ha un titolo previsto dall'art. 5 dell'Allegato 26. Serve per l'esame completo.
+
 ## 📌 Panoramica
 
 - **Materia**: Antenne — Parte 1: Fondamenti teorici, antenne caricate/multibanda, lobo di radiazione
@@ -26,6 +28,8 @@ permalink: /guide-studio/lezione_20.html
 ### 1. 🔍 Correzione quiz e note di servizio (⏱ 00:00–15:08)
 
 La lezione si apre con una nota organizzativa sull'iscrizione all'esame di patente: il Ministero (MIMIT) ha un portale online; servono due marche da bollo e un contributo di 25 €, pagabile con PagoPA.
+
+> ⚠️ **Aggiornamento 2026:** la procedura descritta è quella dell'anno scorso. Il portale è stato aggiornato e le marche da bollo anticipate non servono più: vedi la sezione "Come presentare la domanda d'esame" della [Lezione 16](../lezione_16/).
 
 Segue la correzione del quiz della Lezione 18 (propagazione). La domanda più problematica riguarda il **wattmetro direzionale**:
 

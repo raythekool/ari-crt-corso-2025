@@ -43,7 +43,18 @@ Il sito locale sarà disponibile su `http://localhost:4321`.
 - [Guide di studio](site/src/content/docs/lezioni/) — una pagina per ciascuna lezione
 - [Trascrizioni TXT](transcripts/2026/) e [VTT](<transcripts (vtt)/2026/>) — materiale di partenza per le guide
 
-Ogni guida include glossario e domande di autoverifica nella stessa pagina. Al momento il repository **non** contiene pagine separate per glossario generale, domande d'esame o risorse.
+La maggior parte delle guide include mappa concettuale, punti chiave, domande di autoverifica e glossario nella stessa pagina. Al momento il repository **non** contiene pagine separate per glossario generale, domande d'esame o risorse.
+
+---
+
+## 🎓 Esame completo ed esame ridotto
+
+- **Esame completo**: Parti A, B e C; 50 domande a 3 opzioni (30 tecniche e 20 su procedure e normativa); 2 ore; superato con 30 risposte corrette, di cui almeno 18 tecniche e 12 normative.
+- **Esame ridotto**: esonero parziale dalla sola Parte A; 20 domande sulle Parti B e C; superato con 12 risposte corrette. Nessun titolo esonera dalle Parti B e C.
+- I numeri sono quelli del decreto direttoriale MIMIT del 6 marzo 2024, applicato anche al 2026.
+- Per l'esame ridotto servono solo le lezioni [08](site/src/content/docs/lezioni/lezione_08.md), [09](site/src/content/docs/lezioni/lezione_09.md) e [22](site/src/content/docs/lezioni/lezione_22.md); le altre 19 sono la Parte A.
+- Alcuni punti ufficiali B e C (segnali di soccorso e catastrofi, registro di stazione, regioni radio UIT) non sono negli appunti. Gli elenchi completi dei 15 codici Q (B.2) e delle 13 abbreviazioni operative (B.3) sono riportati solo in parte nella lezione 08. Da studiare sul Sub allegato D del DM 1 marzo 2021.
+- Titoli di esonero, punti del programma e fonti ufficiali sono nella sezione «Gli esami» della home ([site/src/pages/index.astro](site/src/pages/index.astro)). Per l'esame fanno fede i testi ufficiali.
 
 ---
 
@@ -76,10 +87,10 @@ npm run build
 
 Nelle pagine delle lezioni, **Modalità lettura** nasconde la navigazione del sito e porta il testo in colonna singola. Il layout è pensato anche per iPad 2017 da 9,7″.
 
+- **Indice** apre il pannello con indice della pagina, elenco delle lezioni e impostazioni di lettura
+- **Leggi** attiva la lettura; **Esci** la disattiva e ripristina il layout normale, mantenendo le preferenze salvate dal browser (su schermi larghi i pulsanti si chiamano **Attiva lettura** ed **Esci dalla lettura**)
 - **Testo** regola dimensione dei caratteri e interlinea direttamente nella pagina
-- **Menu** apre indice della pagina, elenco delle lezioni e impostazioni di lettura
-- **Esci dalla lettura** ripristina il layout normale, mantenendo le preferenze salvate dal browser
-- **Schermo intero** usa la funzione del browser quando disponibile
+- **Schermo intero**, nel pannello Indice, usa la funzione del browser quando disponibile
 - su Safari per iPad, se il full screen non è disponibile, il sito può essere avviato da **Condividi → Aggiungi alla schermata Home**
 
 La modalità lettura non rende il sito disponibile offline da sola: per studiare senza rete è necessario clonare il repository e avviare il sito in locale.

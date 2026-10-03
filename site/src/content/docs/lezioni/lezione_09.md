@@ -2,9 +2,22 @@
 layout: default
 title: "9 - Bande Radioamatoriali, Normativa e Enti"
 permalink: /guide-studio/lezione_09.html
+sidebar:
+  badge:
+    text: "Esame ridotto"
+    variant: "success"
 ---
 
 # 📘 Lezione 09 - Bande Radioamatoriali, Normativa e Enti
+
+> 🎓 **Esame ridotto: lezione necessaria in parte.** Questa lezione tratta argomenti delle Parti B e C del programma d'esame (Sub allegato D), su cui verte anche l'esame con esonero parziale. Sezioni utili:
+>
+> - §3 Bande radioamatoriali e tipologie di utilizzo → C.1
+> - §4 Larghezza di banda e band plan → B.6
+> - §5 Gli enti e le associazioni: ITU, IARU, ARI → C.1 e B.6
+> - §6 Normativa italiana: MIMIT, patente e autorizzazione generale → C.3
+>
+> I §1-2 (lunghezza d'onda e spettro elettromagnetico) riguardano la Parte A e si possono saltare.
 
 ## 📌 Panoramica
 
@@ -60,7 +73,9 @@ Le frequenze assegnate ai radioamatori sono suddivise in diverse bande, nominate
 - **20 metri** (14 000–14 350 kHz)
 - **10 metri** (28 000–29 700 kHz)
 - **2 metri** (144,000–146,000 MHz) in VHF
-- **70 centimetri** (430.000 MHz) in UHF
+- **70 centimetri** (430 MHz) in UHF
+
+> ⚠️ *Questa sezione potrebbe essere incompleta nella trascrizione di origine.* Per i 70 centimetri la lezione cita solo i 430 MHz attribuiti ai radioamatori, senza indicare l'intervallo completo della banda.
 
 <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_09/slide-09.jpg" alt="Bande Radioamatoriali" style="width: 75%;"></div><br>
 

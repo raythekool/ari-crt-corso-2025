@@ -2,9 +2,24 @@
 layout: default
 title: "22 - Normativa Nazionale e Internazionale"
 permalink: /guide-studio/lezione_22.html
+sidebar:
+  badge:
+    text: "Esame ridotto"
+    variant: "success"
 ---
 
 # 📘 Lezione 22 - Normativa Nazionale e Internazionale
+
+> 🎓 **Esame ridotto: lezione necessaria in parte.** Questa lezione tratta argomenti della Parte C del programma d'esame (Sub allegato D), su cui verte anche l'esame con esonero parziale. Sezioni utili:
+>
+> - §2 Parole chiave della normativa → C.1 e C.2
+> - §3-4 Gerarchia normativa e D.Lgs. 259/2003 → C.3
+> - §5 Normativa internazionale ITU, articolo 25 → C.1
+> - §6 CEPT, raccomandazioni TR 61-01 e TR 61-02 → C.2
+> - §7-16 Articoli 134-144 e Allegato 26 → C.3
+> - §17 Sessione domande e risposte
+>
+> Il §1 (correzione del quiz sulle antenne) riguarda la Parte A e si può saltare.
 
 ## 📌 Panoramica
 

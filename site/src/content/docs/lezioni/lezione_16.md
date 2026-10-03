@@ -6,6 +6,8 @@ permalink: /guide-studio/lezione_16.html
 
 # 📘 Lezione 16 - Linee di Trasmissione RF
 
+> 🎓 **Esame ridotto: lezione non necessaria.** Questa lezione riguarda la Parte A (questioni di natura tecnica, A.6 Antenne e linee di trasmissione) del programma d'esame, da cui è esonerato chi ha un titolo previsto dall'art. 5 dell'Allegato 26. Serve per l'esame completo. All'inizio della registrazione si spiega come presentare la domanda d'esame, anche con esonero parziale: vedi la sezione "Come presentare la domanda d'esame".
+
 ## 📌 Panoramica
 
 - **Materia**: Antenne, propagazioni, linee di trasmissione
@@ -114,6 +116,52 @@ $$ROS = \frac{1 + \sqrt{P_r / P_d}}{1 - \sqrt{P_r / P_d}}$$
 #### Attenuazione in decibel (dB)
 Usare i dB semplifica i calcoli perché permette di sommare i guadagni e sottrarre le attenuazioni.
 $$A(dB) = 10 \log_{10} \frac{P_{uscita}}{P_{ingresso}}$$
+
+---
+
+## 📝 Come presentare la domanda d'esame
+
+All'inizio della serata, prima di passare alla parte tecnica, il coordinatore del corso dedica una decina di minuti alla **domanda di partecipazione all'esame**. La scadenza indicata a lezione è il **10 ottobre**; il consiglio è di presentare la domanda nella prima quindicina di settembre, così che eventuali problemi tecnici o di altra natura si possano risolvere senza arrivare a ridosso del termine. Chi ha già inviato la domanda con la vecchia procedura non deve rifarla: la domanda resta valida.
+
+### 🔹 La nuova versione del portale
+
+Il **portale** del MIMIT per la richiesta di patente è stato aggiornato il 28 luglio con una nuova versione, operativa dalla prima settimana di agosto, che semplifica la procedura. Non servono più le **marche da bollo** da acquistare in anticipo né il versamento preventivo di 25 € sulla piattaforma dei pagamenti: tutto si fa dentro il portale, pagamento compreso, in pochi minuti. Nelle linee guida in PDF predisposte da un collega di Catania, che vengono mostrate a lezione e inviate agli allievi il giorno dopo, le parti sull'acquisto delle marche e sul versamento iniziale non sono quindi più valide; il resto resta com'è. L'indirizzo del portale è cambiato: chi ha usato quello vecchio non deve preoccuparsi, perché la domanda è stata comunque registrata, mentre su Internet possono restare indicazioni obsolete.
+
+> ⚠️ *Questa sezione potrebbe essere incompleta nella trascrizione di origine.* L'indirizzo del portale e i dettagli della schermata non sono leggibili nella trascrizione automatica.
+
+### 🔹 Accesso e scelta del tipo di richiesta
+
+Per entrare nel portale ci si autentica con **SPID** o **CIE** (nella trascrizione automatica compaiono come «Speed» e «CE»): i dati personali presenti nel sistema di autenticazione vengono importati automaticamente. Dalla schermata iniziale si sceglie la voce **richiesta patente**, si accetta l'informativa sulla privacy e si entra nella richiesta di esame, dove bisogna scegliere con attenzione tra **tre tipi di richiesta**:
+
+- **esame con esonero parziale**, per chi possiede un titolo di studio che consente di non sostenere le domande sulla parte tecnica del programma; il titolo va dichiarato e allegato;
+- **esame senza esonero parziale** (esame completo);
+- **richiesta di ammissione all'esame per un minore**.
+
+In basso a sinistra c'è un tasto **Salva**, da usare ogni volta che si raggiunge un punto soddisfacente: rientrando, la procedura riprende da lì senza ripartire dall'inizio.
+
+### 🔹 Dati richiesti
+
+La prima informazione da indicare è l'**ispettorato territoriale** presso cui si farà l'esame (Toscana per i toscani, Liguria per i liguri), che porta con sé le informazioni relative. Occorre poi completare i **dati anagrafici**, compresi i campi e-mail e **PEC**. La **PEC non è obbligatoria**: chi non la possiede può indicare nel campo il normale indirizzo di posta elettronica. Nella parte dichiarativa chi avesse già pagato i 25 € con la vecchia procedura può dichiarare di avere assolto l'adempimento (in tal caso il portale chiederà di allegare la ricevuta); chi non l'ha fatto non lo dichiara.
+
+### 🔹 Invio, pagamento e allegati
+
+Raggiunta la parte finale, si entra nella sezione per l'invio di domande e documenti e si invia la domanda. Rientrando nel portale, che conserva anche la storia radioamatoriale dell'utente (patente, licenza, rinnovi), la richiesta di partecipazione all'esame compare come primo rigo e risulta **incompleta**. Tramite i tre pallini a destra del rigo si apre la maschera di completamento, dove si effettua il **pagamento unico**: i 25 € del contributo più i 16 € della marca da bollo richiesta in tutte le istanze alla pubblica amministrazione, in totale **41 €**, tramite **pagoPA** con i consueti metodi di pagamento. Il versamento avviene dentro il sistema, che lo riconosce da solo: la ricevuta non va allegata e la si conserva soltanto per sé. A questo punto la pratica passa all'ispettorato territoriale del MIMIT competente, che invita all'esame.
+
+Nella fase finale c'è una sezione per caricare gli **allegati**, preferibilmente in **PDF** (anche una scansione o una foto). Vi si può caricare:
+
+- il **titolo di studio**, per chi chiede l'esonero parziale;
+- le **certificazioni** di condizioni (per esempio di salute) che giustificano un esame diverso o non in presenza;
+- la certificazione di una condizione come l'ipovisione, che dà diritto al **40% di tempo in più** per l'esame.
+
+I casi particolari che possono dar luogo a un allegato si trovano descritti nelle linee guida.
+
+### 🔹 Domande dei corsisti
+
+- **Autocertificazione del diploma**: a una domanda sulla possibilità di autocertificare il diploma, il coordinatore risponde che l'ispettorato richiede di contattare l'istituto in cui si è conseguito il titolo e di farsi rilasciare una **certificazione**; «è sempre stato così finora».
+- **Domanda già presentata in passato**: chi ha presentato la domanda in anni precedenti (a lezione si cita il 2024) e non ha potuto sostenere l'esame resta in coda, nella lista di attesa; non deve rifare la domanda. Il consiglio è di scrivere o telefonare al MIMIT nella prima decade di ottobre per confermare la propria partecipazione.
+- **Diploma già in possesso**: chi ha il diploma (per esempio di elettrotecnica) lo allega come foto o, meglio, come PDF.
+
+> ⚠️ *Questa sezione potrebbe essere incompleta nella trascrizione di origine.* Le cifre (25 €, 16 €, 41 €, 40%) e le date (28 luglio, 10 ottobre) sono riportate come dette a lezione; nella trascrizione automatica alcuni passaggi sono confusi (per esempio sull'anno della domanda citata da un corsista e sulla distinzione tra titoli di studio e altre certificazioni). Per le condizioni valide e i dettagli aggiornati fa fede il portale.
 
 ---
 

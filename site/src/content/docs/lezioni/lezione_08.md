@@ -2,9 +2,25 @@
 layout: default
 title: "8 - Procedure e Alfabeto Telefonetico"
 permalink: /guide-studio/lezione_08.html
+sidebar:
+  badge:
+    text: "Esame ridotto"
+    variant: "success"
 ---
 
 # 📘 Lezione 08 - Procedure e Alfabeto Telefonetico
+
+> 🎓 **Esame ridotto: lezione necessaria.** Questa lezione tratta argomenti delle Parti B e C del programma d'esame (Sub allegato D), su cui verte anche l'esame con esonero parziale. Sezioni utili:
+>
+> - §1 Alfabeto telefonetico → B.1
+> - §2 L'indicativo di chiamata → B.5
+> - §3 Abbreviazioni telegrafiche → B.3
+> - §4 Il Codice Q → B.2
+> - §5 Sistema RS(T) → B.3 (RST)
+>
+> Il §6 Maidenhead Locator System non compare nel programma ufficiale.
+>
+> Attenzione: il programma ufficiale richiede l'elenco completo dei 15 codici Q (B.2) e delle 13 abbreviazioni operative (B.3); questi appunti ne riportano solo una parte. Studia l'elenco completo nel Sub allegato D del [DM 1 marzo 2021](https://www.gazzettaufficiale.it/eli/id/2021/03/22/21A01607/sg).
 
 ## 📌 Panoramica
 
