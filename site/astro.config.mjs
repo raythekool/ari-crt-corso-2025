@@ -20,6 +20,11 @@ export default defineConfig({
         { tag: 'meta', attrs: { property: 'og:image', content: `${site}${base}/og.png` } },
       ],
       customCss: ['./src/styles/custom.css'],
+      components: {
+        Head: './src/components/StudyHead.astro',
+        PageFrame: './src/components/StudyFrame.astro',
+        MarkdownContent: './src/components/StudyContent.astro',
+      },
       sidebar: [
         {
           label: 'Materiale Didattico',

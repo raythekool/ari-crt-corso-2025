@@ -1,0 +1,26 @@
+---
+import Default from '@astrojs/starlight/components/Head.astro';
+---
+
+<Default />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="Studio ARI" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<script is:inline>
+  try {
+    const preferences = JSON.parse(localStorage.getItem('ari-study-reader') || '{}');
+    const standalone = navigator.standalone || matchMedia('(display-mode: standalone)').matches;
+    if (preferences.reading === true || (standalone && preferences.reading !== false)) {
+      document.documentElement.dataset.studyReading = '';
+    }
+    if ([18, 20, 22, 24, 26].includes(preferences.fontSize)) {
+      document.documentElement.style.setProperty('--study-font-size', preferences.fontSize + 'px');
+    }
+    if ([1.4, 1.6, 1.75, 2].includes(preferences.lineHeight)) {
+      document.documentElement.style.setProperty('--study-line-height', preferences.lineHeight);
+    }
+  } catch (error) {
+    console.warn('Impossibile ripristinare le preferenze di lettura.', error);
+    document.documentElement.dataset.studyStorageError = '';
+  }
+</script>

@@ -1,0 +1,102 @@
+---
+import Default from '@astrojs/starlight/components/PageFrame.astro';
+import type { StarlightRouteData } from '@astrojs/starlight/route-data';
+import '../styles/study.css';
+
+const route = Astro.locals.starlightRoute;
+type SidebarEntry = StarlightRouteData['sidebar'][number];
+type SidebarLink = Extract<SidebarEntry, { type: 'link' }>;
+function links(entries: SidebarEntry[]): SidebarLink[] {
+  return entries.flatMap((entry) => entry.type === 'link' ? [entry] : links(entry.entries));
+}
+const lessons = links(route.sidebar);
+const headings = route.headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
+---
+
+<Default>
+  <slot name="header" slot="header" />
+  <slot name="sidebar" slot="sidebar" />
+  <slot />
+</Default>
+
+<div class="study-toolbar" aria-label="Strumenti di studio" data-pagefind-ignore hidden>
+  <button type="button" id="study-menu-toggle" aria-expanded="false" aria-controls="study-menu">Menu</button>
+  <button type="button" id="study-reading-toggle" aria-pressed="false">Modalità lettura</button>
+  <details class="study-text-settings">
+    <summary>Testo</summary>
+    <fieldset class="study-text-settings__panel">
+      <legend>Personalizza la lettura</legend>
+      <label for="study-page-font-size">Dimensione del testo</label>
+      <select id="study-page-font-size" data-study-font-size>
+        <option value="18">18 px</option>
+        <option value="20" selected>20 px</option>
+        <option value="22">22 px</option>
+        <option value="24">24 px</option>
+        <option value="26">26 px</option>
+      </select>
+      <label for="study-page-line-height">Interlinea</label>
+      <select id="study-page-line-height" data-study-line-height>
+        <option value="1.4">Compatta · 1,4</option>
+        <option value="1.6">Normale · 1,6</option>
+        <option value="1.75" selected>Comoda · 1,75</option>
+        <option value="2">Ampia · 2</option>
+      </select>
+    </fieldset>
+  </details>
+</div>
+
+<div class="study-menu-backdrop" id="study-backdrop" hidden></div>
+<section class="study-menu" id="study-menu" role="dialog" aria-modal="true" aria-labelledby="study-menu-title" tabindex="-1" data-pagefind-ignore hidden>
+  <div class="study-menu__header">
+    <h2 id="study-menu-title">Il tuo libro di studio</h2>
+    <button type="button" id="study-menu-close">Chiudi</button>
+  </div>
+  <p class="study-menu__chapter">{route.entry.data.title}</p>
+  <fieldset class="study-menu__settings">
+    <legend>Lettura</legend>
+    <label for="study-font-size">Dimensione del testo</label>
+    <select id="study-font-size" data-study-font-size>
+      <option value="18">18 px</option>
+      <option value="20" selected>20 px</option>
+      <option value="22">22 px</option>
+      <option value="24">24 px</option>
+      <option value="26">26 px</option>
+    </select>
+    <label for="study-line-height">Interlinea</label>
+    <select id="study-line-height" data-study-line-height>
+      <option value="1.4">Compatta · 1,4</option>
+      <option value="1.6">Normale · 1,6</option>
+      <option value="1.75" selected>Comoda · 1,75</option>
+      <option value="2">Ampia · 2</option>
+    </select>
+    <p>Dimensione e interlinea si applicano in modalità lettura, anche dal comando Testo sulla pagina. Il tema chiaro o scuro rimane quello scelto nel sito.</p>
+    <button type="button" id="study-fullscreen">Schermo intero</button>
+    <p id="study-fullscreen-help">Su iPad: in Safari apri Condividi → Aggiungi alla schermata Home, poi apri la lezione dall’icona. Le barre del browser non saranno visibili.</p>
+    <p>Il Reader di Safari, quando disponibile nel menu della pagina, è una funzione separata: la modalità lettura del sito mantiene immagini, formule e navigazione.</p>
+    <p id="study-status" role="status" aria-live="polite"></p>
+  </fieldset>
+  {headings.length > 0 && (
+    <nav aria-label="Indice della lezione" class="study-menu__contents">
+      <h3>In questa pagina</h3>
+      <ul>
+        {headings.map((heading) => (
+          <li class:list={{ 'study-menu__subheading': heading.depth === 3 }}>
+            <a href={`#${heading.slug}`}>{heading.text}</a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  )}
+  <nav aria-label="Lezioni del corso" class="study-menu__contents">
+    <h3>Lezioni del corso</h3>
+    <ul>
+      {lessons.map((lesson) => (
+        <li><a href={lesson.href} aria-current={lesson.isCurrent ? 'page' : undefined}>{lesson.label}</a></li>
+      ))}
+    </ul>
+  </nav>
+</section>
+
+<script>
+  import '../scripts/study-reader';
+</script>

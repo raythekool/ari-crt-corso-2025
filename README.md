@@ -81,6 +81,23 @@ npm run build
 
 L'output sarà in: `site/dist/`
 
+Per verificare i componenti Astro e i tipi TypeScript, esegui `npm run check` dalla cartella `site/`.
+
+---
+
+## 📖 Studiare su iPad
+
+Nelle pagine delle lezioni, premi **Modalità lettura** per nascondere la navigazione del sito e leggere a colonna singola, come un libro. Il layout si adatta sia all'orientamento verticale sia a quello orizzontale, incluso l'iPad 2017 da **9,7″** (768 × 1024 punti CSS).
+
+- **Testo**, direttamente sulla pagina in modalità lettura, regola dimensione dei caratteri (18–26 px) e interlinea (1,4 / 1,6 / 1,75 / 2). Le modifiche sono visibili subito.
+- **Menu** apre un pannello a scomparsa con indice della pagina, elenco delle lezioni e le stesse impostazioni del testo.
+- **Esci dalla lettura** ripristina il layout normale. Modalità, dimensione del testo e interlinea vengono ricordate sul dispositivo, se il browser consente il salvataggio.
+- **Schermo intero**, nel menu, usa la funzione del browser quando disponibile. Se il browser la rifiuta, il pannello mostra un messaggio.
+- Su Safari per iPad, se lo schermo intero non è disponibile, apri una lezione e scegli **Condividi → Aggiungi alla schermata Home**. Avviando il sito dall'icona, le barre del browser non vengono mostrate e la modalità lettura si attiva inizialmente.
+- Il **Reader di Safari** è una funzione distinta, gestita dal browser e non attivabile dal sito. Il contenuto usa un elemento semantico `article` per agevolarne il riconoscimento, senza garantirne la disponibilità. Per conservare navigazione e contenuti originali, usa la modalità lettura del sito.
+
+La modalità lettura non scarica le lezioni per l'uso offline e mantiene il tema chiaro/scuro selezionato nel sito. Il menu funziona senza dipendere dalle API Popover o Dialog, non disponibili in alcune versioni di Safari sui vecchi iPad.
+
 ---
 
 ## 📝 Contenuti
