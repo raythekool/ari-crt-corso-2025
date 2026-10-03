@@ -2,7 +2,7 @@
 title: Guide di Studio
 ---
 
-Questa sezione raccoglie **appunti estratti dalle lezioni del corso per radioamatori della Toscana** (ARI Toscana CRT). Le guide non sostituiscono il corso: servono per ripassare, ritrovare un passaggio e collegare rapidamente formule, definizioni e riferimenti normativi.
+Questa sezione raccoglie **appunti estratti dalle lezioni del corso per radioamatori della Toscana** (ARI Toscana CRT, edizioni 2025 e 2026). Le guide non sostituiscono il corso: servono per ripassare, ritrovare un passaggio e collegare rapidamente formule, definizioni e riferimenti normativi.
 
 ## 🗂️ Tutte le lezioni
 

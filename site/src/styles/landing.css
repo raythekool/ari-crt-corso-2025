@@ -73,15 +73,6 @@ code {
   width: min(820px, 100% - 3rem);
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  white-space: nowrap;
-}
-
 .skip {
   position: absolute;
   left: 1rem;
@@ -476,10 +467,6 @@ code {
   color: #fff;
   background: linear-gradient(135deg, var(--indigo), var(--violet));
 }
-.muted-p {
-  color: var(--muted);
-  font-size: 0.95rem;
-}
 
 .codeblock {
   background: #0f172a;
@@ -511,19 +498,6 @@ code {
   font-size: 0.9rem;
   line-height: 1.8;
 }
-.copy {
-  font: 600 0.8rem var(--font);
-  color: var(--ink);
-  cursor: pointer;
-  border: 0;
-  border-radius: 8px;
-  padding: 0.35rem 0.8rem;
-  background: linear-gradient(135deg, var(--cyan), #a78bfa);
-}
-.copy:hover {
-  filter: brightness(1.08);
-}
-
 /* Plans */
 .plan {
   display: flex;

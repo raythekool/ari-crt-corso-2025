@@ -115,7 +115,7 @@ La parte che riguarda specificamente i radioamatori è contenuta in:
 
 #### Rapporto legge-allegato
 
-La legge (articoli) enuncia i principi generali; l'allegato 26 dettaglia come si applicano. Tuttavia, le modifiche del 2024 alla legge non sono ancora state tutte recepite nell'allegato 26. Esempio: la legge prevede la **classe N** (radioamatore novizio), ma l'allegato 26 non contiene ancora le specifiche operative.
+La legge (articoli) enuncia i principi generali; l'allegato 26 dettaglia come si applicano. Tuttavia, le modifiche alla legge non sono ancora state tutte recepite nell'allegato 26. Esempio, come detto a lezione: la legge è già stata variata e prevede la **classe N** (radioamatore novizio), ma l'allegato 26 allora vigente non conteneva alcun dettaglio su limitazioni e svolgimento dell'esame per questa classe.
 
 ---
 
@@ -178,7 +178,26 @@ L'articolo 136 è particolarmente ricco di informazioni richieste all'esame:
 #### Classi di autorizzazione
 
 - **Classe A**: autorizzazione standard per radioamatori
-- **Classe N** (novità 2024): radioamatore novizio, in addestramento, corrisponde alla classe CEPT novizio. Dettagli operativi ancora non definiti nell'allegato 26.
+- **Classe N** (novità introdotta dalle modifiche alla legge): ulteriore classe di radioamatore, una sorta di novizio in addestramento. Il docente la descrive come una patente «depotenziata», un primo step in una progressione di avvicinamento alla classe A, con conoscenze più ridotte e un esame più semplice. La legge ha già recepito la classe N corrispondente alla classe di radioamatore novizio prevista dalla raccomandazione CEPT.
+
+Come detto a lezione, a quel momento l'allegato 26 non dava alcun dettaglio sulle limitazioni di questa classe né su come si svolge l'esame: il docente osserva che, se gli chiedessero com'è la classe N, non avrebbe risposta da dare. Nell'art. 136 la parte evidenziata a lezione è quella delle novità, sulla quale non è possibile dare risposte sui dettagli; si accenna che gli esami potrebbero essere (o saranno) a carico delle associazioni, ma come verranno svolti non è noto.
+
+:::note[Approfondimento: la classe N nel D.M. 26 gennaio 2026 — contenuto non proveniente dalla lezione]
+
+**Questo approfondimento non fa parte della lezione: è stato aggiunto consultando il testo del decreto.**
+
+- **Fonte**: Decreto del Ministro delle imprese e del made in Italy 26 gennaio 2026, «Criteri generali e modalità per il conseguimento della patente di classe N e delle modalità di assegnazione e gestione dei nominativi a scelta per l'attività radioamatoriale», Gazzetta Ufficiale Serie generale n. 51 del 3 marzo 2026 ([testo in Gazzetta Ufficiale](https://www.gazzettaufficiale.it/eli/id/2026/03/03/26A00956/sg); [copia PDF sul sito degli Ispettorati](https://ispettorati.mise.gov.it/images/ispettorati/Modulistica_DGST/DM_26_gennaio_2026__GU_51_del_332026.pdf)).
+- **Base di legge**: l'art. 136, comma 1, del D.Lgs. 259/2003 (come modificato dal D.Lgs. 24 marzo 2024, n. 48) richiede per l'autorizzazione generale la patente di classe A o di classe N. I criteri e le modalità della classe N sono demandati a un decreto del Ministro, conformemente alla raccomandazione CEPT ECC/REC (05)06.
+- **Che cosa stabilisce il decreto (art. 1)**:
+  - recepisce la ECC/REC (05)06;
+  - la patente di classe N corrisponde alla classe di radioamatore novizio di quella raccomandazione;
+  - è rilasciata dagli Ispettorati territoriali (Case del made in Italy) dopo una prova scritta o orale su conoscenze tecniche di base, competenze operative essenziali e conoscenza della normativa nazionale e internazionale del servizio di radioamatore;
+  - per superarla bisogna rispondere correttamente al 60% delle domande.
+- **Che cosa non stabilisce ancora**: il programma d'esame, le modalità di domanda, di svolgimento della prova e di rilascio della patente sono rinviati a un decreto direttoriale della Direzione generale per i servizi territoriali, che modificherà l'allegato 26 secondo i criteri del Rapporto ERC 32 (art. 1, comma 4). Fino all'adozione di quei decreti continuano ad applicarsi le disposizioni vigenti (art. 4). Nelle fonti consultate (ottobre 2026) non risultava ancora pubblicato un decreto direttoriale con il programma d'esame della classe N: chi è interessato controlli il portale del Ministero.
+- **Nominativi a scelta** (stesso decreto, art. 2): i titolari di autorizzazione generale possono chiedere, con procedura informatica, un nominativo a scelta tra quelli resi disponibili dal Ministero (fino a cinque caratteri complessivi, art. 139, comma 2-bis, D.Lgs. 259/2003). Assegnazione in ordine cronologico di richiesta; maggiorazione del contributo di 250 euro una tantum; validità dieci anni; il nominativo decade automaticamente senza un'autorizzazione generale di classe A in corso di validità.
+- **Rispetto alla lezione**: quanto detto a lezione è coerente con il decreto (la classe N era prevista dalla legge ma senza dettagli su esame e limitazioni); il decreto ne fissa i criteri generali, ma i dettagli restano da definire.
+
+:::
 
 #### Patente vs Autorizzazione
 
@@ -320,6 +339,7 @@ I codici dei modi di emissione (es. J3E, A1A, F3E) saranno affrontati nella pros
 - D.Lgs. 259/2003 → è la legge italiana → sulle comunicazioni elettroniche
 - Art. 134 → definisce → l'attività di radioamatore
 - Art. 136 → stabilisce → classi A e N, patente e autorizzazione
+- Classe N → corrisponde a → classe novizio della raccomandazione CEPT; a quel momento l'allegato 26 non ne dava i dettagli
 - Patente → non scade | Autorizzazione → dura 10 anni
 - Art. 137 → requisiti → cittadinanza UE/EEA, età ≥ 14 anni, no condanne penali
 - Art. 139 → disciplina → assegnazione del nominativo
@@ -340,7 +360,7 @@ I codici dei modi di emissione (es. J3E, A1A, F3E) saranno affrontati nella pros
 
 3. **Età minima**: Per ottenere l'autorizzazione di radioamatore servono almeno **14 anni**. L'esame può essere sostenuto prima.
 
-4. **Classe A e Classe N**: La Classe A è l'autorizzazione standard; la Classe N (novizio) è stata introdotta nel 2024 ma non è ancora operativa (allegato 26 non aggiornato).
+4. **Classe A e Classe N**: La Classe A è l'autorizzazione standard. La legge prevede anche la Classe N (novizio, in addestramento), corrispondente alla classe novizio della raccomandazione CEPT; come detto a lezione, a quel momento l'allegato 26 non conteneva i dettagli su limitazioni ed esame.
 
 5. **CEPT TR 61-01**: Raccomandazione che regola l'operatività dei radioamatori all'estero (reciprocità). All'estero si seguono le normative del paese ospitante.
 
@@ -370,7 +390,7 @@ I codici dei modi di emissione (es. J3E, A1A, F3E) saranno affrontati nella pros
 
 6. Perché le stazioni ripetitrici hanno limiti più restrittivi rispetto alle stazioni personali? Elenca almeno tre parametri regolamentati.
 
-7. Che cos'è la classe N introdotta dalla modifica del 2024? Perché non è ancora operativa?
+7. Che cos'è la classe N prevista dalla legge dopo le ultime modifiche? Quali informazioni su limitazioni ed esame mancavano a quel momento nell'allegato 26?
 
 8. Spiega il ruolo dell'ITU, della IARU e della CEPT nella regolamentazione dell'attività radioamatoriale. Come si collegano tra loro?
 
@@ -388,7 +408,7 @@ I codici dei modi di emissione (es. J3E, A1A, F3E) saranno affrontati nella pros
 - **Autorizzazione generale** — Permesso operativo per installare e utilizzare una stazione radioamatoriale. Dura 10 anni.
 - **CEPT** — Conferenza Europea delle Amministrazioni di Poste e Telecomunicazioni. Organismo che definisce standard e reciprocità.
 - **Classe A** — Autorizzazione radioamatoriale standard.
-- **Classe N** — Autorizzazione per radioamatore novizio, prevista dalla modifica 2024. Corrisponde alla classe novizio CEPT. Dettagli operativi non ancora definiti.
+- **Classe N** — Ulteriore classe di radioamatore (novizio in addestramento), prevista dalla legge e corrispondente alla classe novizio della raccomandazione CEPT. A quel momento l'allegato 26 non ne dava i dettagli (limitazioni, esame).
 - **D.Lgs. 259/2003** — Decreto Legislativo del 1° agosto 2003, Codice delle comunicazioni elettroniche. Legge fondamentale che regola i radioamatori in Italia.
 - **HAREC** — Harmonized Amateur Radio Examination Certificate. Certificazione CEPT che garantisce il riconoscimento reciproco delle patenti radioamatoriali.
 - **IARU** — International Amateur Radio Union. Unione internazionale che rappresenta i radioamatori nella ITU.

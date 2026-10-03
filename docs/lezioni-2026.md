@@ -1,6 +1,6 @@
 # Corso ARI Toscana CRT 2026
 
-Riepilogo di date, titoli e registrazioni verificabili nel repository. I contenuti del sito sono **appunti estratti dalle lezioni del corso per radioamatori della Toscana** (ARI Toscana CRT); quando una data o un URL non compaiono nelle fonti del repo, restano indicati come **Non disponibile**.
+Riepilogo di date, titoli e registrazioni verificabili per l’edizione 2026. I contenuti del sito sono **appunti estratti dalle lezioni del corso per radioamatori della Toscana** (ARI Toscana CRT, edizioni 2025 e 2026); quando una data o un URL non compaiono nelle fonti, restano indicati come **Non disponibile**.
 
 | Lezione | Data | Titolo della guida | Registrazione | Fonte disponibile |
 | ---: | --- | --- | --- | --- |
@@ -23,10 +23,10 @@ Riepilogo di date, titoli e registrazioni verificabili nel repository. I contenu
 | 17 | 9 settembre 2026 | 17 - La Propagazione delle Onde Radio | [YouTube](https://youtu.be/MY72-6kiK2I) | Email Outlook + transcript TXT/VTT |
 | 18 | 16 settembre 2026 | 18 - Antenne - Parte prima | [YouTube](https://youtu.be/XXliNcZlkMA) | Email Outlook + transcript TXT/VTT |
 | 19 | 23 settembre 2026 | 19 - Antenne - Parte Seconda | [YouTube](https://youtu.be/j8PrbhUYPmE) | Email Outlook + transcript TXT/VTT |
-| 20 | Non disponibile | 20 - Antenne - Parte 1: Fondamenti e Risonanza | Non disponibile | Nel repo è presente solo la guida del sito |
-| 21 | Non disponibile | 21 - Antenne - Parte 2: Direttività e Guadagno | Non disponibile | Nel repo è presente solo la guida del sito |
-| 22 | Non disponibile | 22 - Normativa Nazionale e Internazionale | Non disponibile | Nel repo è presente solo la guida del sito |
+| 20 | Non disponibile | 20 - Antenne - Parte 1: Fondamenti e Risonanza | Non disponibile | Non disponibile |
+| 21 | Non disponibile | 21 - Antenne - Parte 2: Direttività e Guadagno | Non disponibile | Non disponibile |
+| 22 | Non disponibile | 22 - Normativa Nazionale e Internazionale | Non disponibile | Non disponibile |
 
 \* La data della lezione 8 è riportata come 5 maggio 2026 nell'oggetto dell'email.
 
-Nota: per le lezioni 20-22 il repository non contiene email, transcript TXT/VTT o URL di registrazione. Di conseguenza non è stato possibile verificare né pubblicare una data o un link video.
+Nota: per le lezioni 20-22 non sono disponibili email, transcript TXT/VTT o URL di registrazione. Di conseguenza non è stato possibile verificare né pubblicare una data o un link video.

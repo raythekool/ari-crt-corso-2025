@@ -5,11 +5,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const site = (Astro.site?.origin ?? "https://raythekool.github.io") + base;
 const lesson = (n: number) =>
   `${base}/lezioni/lezione_${String(n).padStart(2, "0")}/`;
-const repo = "https://github.com/raythekool/ari-crt-corso-2025";
 
 const title = "Corso ARI Toscana CRT 2026 — Guide di studio per radioamatori";
 const description =
-  "Appunti estratti dalle 22 lezioni del corso per radioamatori della Toscana (ARI Toscana CRT): elettrotecnica, RF, antenne e normativa, con strumenti di ripasso e le lezioni utili per l’esame ridotto.";
+  "Appunti estratti dalle 22 lezioni del corso per radioamatori della Toscana (ARI Toscana CRT, edizioni 2025 e 2026): elettrotecnica, RF, antenne e normativa, con strumenti di ripasso e le lezioni utili per l’esame ridotto.";
 
 const problems = [
   {
@@ -97,7 +96,7 @@ const tracks = [
 const faqs = [
   {
     q: "Le guide sostituiscono il corso?",
-    a: "No. Sono appunti estratti dalle lezioni del corso per radioamatori della Toscana (ARI Toscana CRT): servono a ripassare e ritrovare un passaggio, non a sostituire il corso.",
+    a: "No. Sono appunti estratti dalle lezioni del corso per radioamatori della Toscana (ARI Toscana CRT, edizioni 2025 e 2026): servono a ripassare e ritrovare un passaggio, non a sostituire il corso.",
   },
   {
     q: "Quali lezioni servono per l’esame ridotto?",
@@ -107,7 +106,7 @@ const faqs = [
   },
   {
     q: "Da dove arrivano i contenuti?",
-    a: "Dalle lezioni ARI Toscana CRT e dalle relative trascrizioni o slide quando sono presenti nel repository. Gli errori evidenti di trascrizione vengono corretti, senza aggiungere informazioni assenti nella lezione.",
+    a: "Dalle lezioni in diretta del corso ARI Toscana CRT delle edizioni 2025 e 2026, dalle relative trascrizioni e dalle slide di entrambe le edizioni. Gli errori evidenti di trascrizione vengono corretti, senza aggiungere informazioni assenti nella lezione.",
   },
   {
     q: "Ci sono le risposte alle domande di autoverifica?",
@@ -115,11 +114,7 @@ const faqs = [
   },
   {
     q: "Posso consultare il sito offline?",
-    a: "Sì, clonando il repository e avviando il sito in locale come mostrato nella sezione “Avvio rapido”.",
-  },
-  {
-    q: "Ho trovato un errore, come lo segnalo?",
-    a: "Apri una segnalazione sul repository GitHub indicando lezione e passaggio: ogni correzione migliora la guida per tutti.",
+    a: "Il sito va consultato online: la modalità lettura adatta la pagina all’iPad ma non scarica le lezioni per l’uso offline.",
   },
 ];
 
@@ -189,10 +184,6 @@ const sources = [
   },
 ];
 
-const quickStart = `git clone ${repo}.git
-cd ari-crt-corso-2025/site
-npm ci
-npm run dev`;
 ---
 
 <!doctype html>
@@ -213,7 +204,7 @@ npm run dev`;
     <meta property="og:image" content={`${site}/og.png`} />
     <meta
       property="og:image:alt"
-      content="ARI Toscana CRT 2026 — appunti di studio estratti dalle lezioni"
+      content="ARI Toscana CRT — appunti di studio estratti dalle lezioni delle edizioni 2025 e 2026"
     />
     <meta name="twitter:card" content="summary_large_image" />
     <script is:inline>
@@ -238,7 +229,6 @@ npm run dev`;
           <a href="#funzionalita">Funzionalità</a>
           <a href="#percorsi">Percorsi</a>
           <a href="#esami">Gli esami</a>
-          <a href="#avvio">Avvio rapido</a>
           <a href="#faq">FAQ</a>
         </nav>
         <a class="btn btn-sm" href={lesson(1)}>Inizia a studiare</a>
@@ -257,7 +247,7 @@ npm run dev`;
             </h1>
             <p class="lead">
               Appunti estratti dalle 22 lezioni del corso per radioamatori
-              della Toscana: teoria, formule, mappe concettuali, glossario e
+              della Toscana (edizioni 2025 e 2026): teoria, formule, mappe concettuali, glossario e
               domande di autoverifica per ripassare con ordine verso l’esame.
             </p>
             <div class="actions">
@@ -269,7 +259,7 @@ npm run dev`;
             <ul class="badges" aria-label="Caratteristiche">
               <li>22 lezioni</li>
               <li>In italiano</li>
-              <li>Open source · MIT</li>
+              <li>Edizioni 2025 e 2026</li>
             </ul>
           </div>
 
@@ -606,19 +596,19 @@ npm run dev`;
               </p>
             </article>
             <article class="card reveal">
-              <span class="icon" aria-hidden="true">🔄</span>
-              <h3>Storia delle modifiche</h3>
+              <span class="icon" aria-hidden="true">📝</span>
+              <h3>Trascrizioni corrette</h3>
               <p>
-                Ogni correzione passa da una modifica tracciata nel repository,
-                con messaggi di commit convenzionali.
+                Gli errori evidenti di trascrizione automatica vengono corretti,
+                senza aggiungere informazioni assenti nella lezione.
               </p>
             </article>
             <article class="card reveal">
-              <span class="icon" aria-hidden="true">🤝</span>
-              <h3>Aperto ai contributi</h3>
+              <span class="icon" aria-hidden="true">📜</span>
+              <h3>Testi ufficiali</h3>
               <p>
-                Licenza MIT. Segnalazioni e proposte di correzione sono
-                benvenute tramite GitHub.
+                Sono appunti del corso, non il testo ufficiale. Per l’esame
+                fanno fede i documenti citati nella sezione sugli esami.
               </p>
             </article>
           </div>
@@ -876,46 +866,9 @@ npm run dev`;
           </ul>
           <p class="exam-note reveal">
             I contenuti di questo sito sono appunti estratti dalle lezioni del
-            corso per radioamatori della Toscana. Per l’esame fanno fede i testi
-            ufficiali.
+            corso per radioamatori della Toscana (edizioni 2025 e 2026). Per
+            l’esame fanno fede i testi ufficiali.
           </p>
-        </div>
-      </section>
-
-      <!-- Quick start -->
-      <section id="avvio" class="section">
-        <div class="container split">
-          <div class="reveal">
-            <p class="eyebrow">Avvio rapido</p>
-            <h2>Porta il corso sul tuo computer</h2>
-            <p>
-              Il sito è statico e si avvia in locale in pochi comandi. Serve <code
-                >Node.js</code
-              > 22.12 o superiore. Utile per studiare offline o per proporre una correzione.
-            </p>
-            <p class="muted-p">
-              Il sito sarà raggiungibile su <code>localhost:4321</code>.
-            </p>
-          </div>
-          <div class="codeblock reveal">
-            <div class="code-bar">
-              <span class="code-name">terminale</span>
-              <button
-                class="copy"
-                type="button"
-                data-copy-target="qs-code"
-                aria-label="Copia i comandi negli appunti">Copia</button
-              >
-            </div>
-            <pre><code id="qs-code">{quickStart}</code></pre>
-            <p
-              class="sr-only"
-              role="status"
-              aria-live="polite"
-              id="copy-status"
-            >
-            </p>
-          </div>
         </div>
       </section>
 
@@ -963,13 +916,12 @@ npm run dev`;
     <footer class="site-footer">
       <div class="container foot">
         <p>
-          Corso Aspiranti Radioamatori ARI Toscana CRT · Materiale di studio non
-          ufficiale · Licenza MIT
+          Corso Aspiranti Radioamatori ARI Toscana CRT · Appunti estratti dalle
+          lezioni (edizioni 2025 e 2026) · Materiale di studio non ufficiale
         </p>
         <nav aria-label="Link utili">
           <a href={`${base}/lezioni/`}>Lezioni</a>
           <a href="#esami">Gli esami</a>
-          <a href={repo}>GitHub</a>
           <a href="#main">Torna su</a>
         </nav>
       </div>
@@ -1001,48 +953,6 @@ npm run dev`;
             io.observe(el);
           });
         }
-
-        var btn = document.querySelector("[data-copy-target]");
-        if (!btn) return;
-        var status = document.getElementById("copy-status");
-        btn.addEventListener("click", function () {
-          var text = document.getElementById(
-            btn.dataset.copyTarget,
-          ).textContent;
-          var done = function (ok) {
-            btn.textContent = ok ? "Copiato ✓" : "Copia non riuscita";
-            status.textContent = ok
-              ? "Comandi copiati negli appunti"
-              : "Copia non riuscita";
-            setTimeout(function () {
-              btn.textContent = "Copia";
-            }, 2000);
-          };
-          if (navigator.clipboard && window.isSecureContext) {
-            navigator.clipboard.writeText(text).then(
-              function () {
-                done(true);
-              },
-              function () {
-                done(false);
-              },
-            );
-          } else {
-            var ta = document.createElement("textarea");
-            ta.value = text;
-            ta.setAttribute("readonly", "");
-            ta.style.position = "fixed";
-            ta.style.opacity = "0";
-            document.body.appendChild(ta);
-            ta.select();
-            var ok = false;
-            try {
-              ok = document.execCommand("copy");
-            } catch (e) {}
-            document.body.removeChild(ta);
-            done(ok);
-          }
-        });
       })();
     </script>
   </body>

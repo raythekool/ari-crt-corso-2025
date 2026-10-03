@@ -1,19 +1,17 @@
 # 📚 ARI Toscana CRT — Appunti di studio
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/raythekool/ari-crt-corso-2025)
 [![Cloudflare Pages](https://img.shields.io/badge/Cloudflare-Pages-F38020?logo=cloudflare)](https://pages.cloudflare.com/)
 [![Astro](https://img.shields.io/badge/Astro-Sito-FF5D01?logo=astro)](https://astro.build/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-Questo repository contiene il sito Astro + Starlight del corso ARI Toscana CRT e raccoglie **appunti estratti dalle lezioni del corso per radioamatori della Toscana**. Non è il testo ufficiale del corso: serve per ripassare le 22 lezioni, consultare rapidamente formule, definizioni e riferimenti normativi, e ritrovare le registrazioni disponibili.
+Questo progetto contiene il sito Astro + Starlight del corso ARI Toscana CRT e raccoglie **appunti estratti dalle lezioni del corso per radioamatori della Toscana (edizioni 2025 e 2026)**, a partire da trascrizioni e slide di entrambe le edizioni. Non è il testo ufficiale del corso: serve per ripassare le 22 lezioni, consultare rapidamente formule, definizioni e riferimenti normativi, e ritrovare le registrazioni disponibili.
 
 ---
 
-## 🚀 Quick start
+## 🚀 Avvio locale
 
 ```bash
-git clone https://github.com/raythekool/ari-crt-corso-2025.git
-cd ari-crt-corso-2025/site
+cd site
 npm ci
 npm run dev
 ```
@@ -22,7 +20,7 @@ Il sito locale sarà disponibile su `http://localhost:4321`.
 
 ---
 
-## 🏗️ Struttura del repository
+## 🏗️ Struttura del progetto
 
 - [README.md](README.md) — panoramica del progetto
 - [site/](site/) — sorgenti del sito Astro + Starlight
@@ -39,11 +37,11 @@ Il sito locale sarà disponibile su `http://localhost:4321`.
 ## 🧭 Contenuti principali
 
 - [Indice delle lezioni](site/src/content/docs/lezioni/index.md) — panoramica completa delle guide, percorsi 1–9 / 10–15 / 16–22 e ricerca per concetto
-- [Calendario e registrazioni 2026](docs/lezioni-2026.md) — stato verificato di date e video presenti nel repo
+- [Calendario e registrazioni 2026](docs/lezioni-2026.md) — stato verificato di date e video
 - [Guide di studio](site/src/content/docs/lezioni/) — una pagina per ciascuna lezione
 - [Trascrizioni TXT](transcripts/2026/) e [VTT](<transcripts (vtt)/2026/>) — materiale di partenza per le guide
 
-La maggior parte delle guide include mappa concettuale, punti chiave, domande di autoverifica e glossario nella stessa pagina. Al momento il repository **non** contiene pagine separate per glossario generale, domande d'esame o risorse.
+La maggior parte delle guide include mappa concettuale, punti chiave, domande di autoverifica e glossario nella stessa pagina. Al momento il progetto **non** contiene pagine separate per glossario generale, domande d'esame o risorse.
 
 ---
 
@@ -93,29 +91,15 @@ Nelle pagine delle lezioni, **Modalità lettura** nasconde la navigazione del si
 - **Schermo intero**, nel pannello Indice, usa la funzione del browser quando disponibile
 - su Safari per iPad, se il full screen non è disponibile, il sito può essere avviato da **Condividi → Aggiungi alla schermata Home**
 
-La modalità lettura non rende il sito disponibile offline da sola: per studiare senza rete è necessario clonare il repository e avviare il sito in locale.
+La modalità lettura non rende il sito disponibile offline da sola: il sito va consultato online.
 
 ---
 
 ## 🌐 Build e pubblicazione
 
-La pubblicazione su GitHub Pages è gestita dal workflow [deploy.yml](.github/workflows/deploy.yml), che costruisce il sito partendo da [site/](site/) e pubblica [site/dist/](site/dist/).
+Il sito statico si costruisce da [site/](site/) e produce [site/dist/](site/dist/). L’hosting è GitHub Pages o Cloudflare Pages.
 
-La configurazione Astro è in [site/astro.config.mjs](site/astro.config.mjs) e usa la base `/ari-crt-corso-2025`, compatibile sia con GitHub Pages sia con Cloudflare Pages.
-
----
-
-## 🤝 Come contribuire
-
-I contributi sono benvenuti.
-
-1. Crea un branch dedicato
-2. Apporta la modifica
-3. Verifica localmente con `npm run check` e `npm run build`
-4. Usa messaggi di commit in stile [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-5. Apri una pull request
-
-Se segnali un errore nei contenuti, indica sempre la lezione e il passaggio interessato.
+La configurazione Astro è in [site/astro.config.mjs](site/astro.config.mjs) e usa la base `/ari-crt-corso-2025`, compatibile con entrambi.
 
 ---
 
