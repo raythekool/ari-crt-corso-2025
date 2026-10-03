@@ -10,6 +10,10 @@ function links(entries: SidebarEntry[]): SidebarLink[] {
   return entries.flatMap((entry) => entry.type === 'link' ? [entry] : links(entry.entries));
 }
 const lessons = links(route.sidebar);
+const sequence = lessons.filter((lesson) => /lezione_\d+\/?$/.test(lesson.href));
+const currentLessonIndex = sequence.findIndex((lesson) => lesson.isCurrent);
+const previousLesson = currentLessonIndex > 0 ? sequence[currentLessonIndex - 1] : undefined;
+const nextLesson = currentLessonIndex >= 0 && currentLessonIndex < sequence.length - 1 ? sequence[currentLessonIndex + 1] : undefined;
 const headings = route.headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
 ---
 
@@ -19,11 +23,24 @@ const headings = route.headings.filter((heading) => heading.depth === 2 || headi
   <slot />
 </Default>
 
+<div id="study-toolbar-spacer" aria-hidden="true" hidden></div>
+
 <div class="study-toolbar" aria-label="Strumenti di studio" data-pagefind-ignore hidden>
-  <button type="button" id="study-menu-toggle" aria-expanded="false" aria-controls="study-menu">Menu</button>
-  <button type="button" id="study-reading-toggle" aria-pressed="false">Modalità lettura</button>
+  <button
+    type="button"
+    id="study-menu-toggle"
+    aria-expanded="false"
+    aria-controls="study-menu"
+    aria-haspopup="dialog"
+    aria-label="Apri indice e lezioni"
+  >
+    Indice
+  </button>
+  <button type="button" id="study-reading-toggle" aria-pressed="false" aria-label="Attiva lettura">
+    Attiva lettura
+  </button>
   <details class="study-text-settings">
-    <summary>Testo</summary>
+    <summary aria-label="Apri le impostazioni del testo">Testo</summary>
     <fieldset class="study-text-settings__panel">
       <legend>Personalizza la lettura</legend>
       <label for="study-page-font-size">Dimensione del testo</label>
@@ -54,6 +71,7 @@ const headings = route.headings.filter((heading) => heading.depth === 2 || headi
   <p class="study-menu__chapter">{route.entry.data.title}</p>
   <fieldset class="study-menu__settings">
     <legend>Lettura</legend>
+    <p>Usa <strong>Attiva lettura</strong> per studiare la lezione come una pagina di libro, con il testo più ampio e senza pannelli laterali.</p>
     <label for="study-font-size">Dimensione del testo</label>
     <select id="study-font-size" data-study-font-size>
       <option value="18">18 px</option>
@@ -75,6 +93,19 @@ const headings = route.headings.filter((heading) => heading.depth === 2 || headi
     <p>Il Reader di Safari, quando disponibile nel menu della pagina, è una funzione separata: la modalità lettura del sito mantiene immagini, formule e navigazione.</p>
     <p id="study-status" role="status" aria-live="polite"></p>
   </fieldset>
+  {(previousLesson || nextLesson) && (
+    <nav aria-label="Passa tra le lezioni" class="study-menu__contents">
+      <h3>Vai alla lezione</h3>
+      <ul>
+        {previousLesson && (
+          <li><a href={previousLesson.href}>← {previousLesson.label}</a></li>
+        )}
+        {nextLesson && (
+          <li><a href={nextLesson.href}>{nextLesson.label} →</a></li>
+        )}
+      </ul>
+    </nav>
+  )}
   {headings.length > 0 && (
     <nav aria-label="Indice della lezione" class="study-menu__contents">
       <h3>In questa pagina</h3>
@@ -91,7 +122,16 @@ const headings = route.headings.filter((heading) => heading.depth === 2 || headi
     <h3>Lezioni del corso</h3>
     <ul>
       {lessons.map((lesson) => (
-        <li><a href={lesson.href} aria-current={lesson.isCurrent ? 'page' : undefined}>{lesson.label}</a></li>
+        <li>
+          <a
+            href={lesson.href}
+            aria-current={lesson.isCurrent ? 'page' : undefined}
+            aria-label={lesson.isCurrent ? `${lesson.label}, lezione aperta` : lesson.label}
+            data-study-current-lesson={lesson.isCurrent ? '' : undefined}
+          >
+            {lesson.label}
+          </a>
+        </li>
       ))}
     </ul>
   </nav>
