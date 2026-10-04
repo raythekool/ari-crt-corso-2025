@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "11 - I Transistor e i Tubi a Vuoto"
-permalink: /guide-studio/lezione_11.html
 ---
 
 # 📘 Lezione 11 - Il Transistor, gli Amplificatori e i Tubi a Vuoto

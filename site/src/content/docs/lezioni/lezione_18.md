@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "18 - Antenne - Parte prima"
-permalink: /guide-studio/lezione_18.html
 ---
 
 # 📘 Lezione 18 - Antenne - Parte prima

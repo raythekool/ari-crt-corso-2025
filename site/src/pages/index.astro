@@ -79,7 +79,7 @@ const tracks = [
     name: "Fondamenti",
     range: "Lezioni 1–9",
     start: 1,
-    text: "Elettrotecnica, circuiti, corrente alternata, componenti, semiconduttori, modi di emissione, procedure e bande.",
+    text: "Elettrotecnica, circuiti, corrente alternata, componenti, filtri e circuiti risonanti, modi di emissione, procedure e bande.",
     featured: false,
   },
   {
@@ -113,7 +113,7 @@ const faqs = [
   },
   {
     q: "Da dove arrivano i contenuti?",
-    a: "Dalle lezioni in diretta del corso ARI Toscana CRT delle edizioni 2025 e 2026, dalle relative trascrizioni e dalle slide di entrambe le edizioni. Gli errori evidenti di trascrizione vengono corretti, senza aggiungere informazioni assenti nella lezione.",
+    a: "Dalle lezioni in diretta del corso ARI Toscana CRT delle edizioni 2025 e 2026, dalle relative trascrizioni e dalle slide di entrambe le edizioni. Gli errori evidenti di trascrizione vengono corretti e il testo non aggiunge informazioni assenti nella lezione: gli eventuali approfondimenti da fonti ufficiali stanno in riquadri etichettati come non provenienti dalla lezione.",
   },
   {
     q: "Ci sono le risposte alle domande di autoverifica?",
@@ -598,8 +598,10 @@ const sources = [
               <span class="icon" aria-hidden="true">🎯</span>
               <h3>Fedeltà alla lezione</h3>
               <p>
-                Si riporta solo ciò che è stato detto nel corso. Dove la
-                trascrizione è incerta, la guida lo segnala.
+                Il testo delle guide riporta ciò che è stato detto nel corso. Dove la
+                trascrizione è incerta, la guida lo segnala. Gli eventuali
+                approfondimenti aggiunti da fonti ufficiali stanno in riquadri
+                etichettati come “non provenienti dalla lezione”.
               </p>
             </article>
             <article class="card reveal">
@@ -607,7 +609,8 @@ const sources = [
               <h3>Trascrizioni corrette</h3>
               <p>
                 Gli errori evidenti di trascrizione automatica vengono corretti,
-                senza aggiungere informazioni assenti nella lezione.
+                senza aggiungere informazioni assenti nella lezione, se non in
+                riquadri esplicitamente etichettati.
               </p>
             </article>
             <article class="card reveal">

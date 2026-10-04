@@ -1,10 +1,8 @@
 ---
-layout: default
-title: "6 - Semiconduttori"
-permalink: /guide-studio/lezione_06.html
+title: "6 - Filtri, Circuiti Risonanti e Quarzi"
 ---
 
-# 📘 Lezione 06 - Semiconduttori
+# 📘 Lezione 06 - Filtri, Circuiti Risonanti e Quarzi
 
 ## 📌 Panoramica
 

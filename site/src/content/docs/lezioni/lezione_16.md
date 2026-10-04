@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "16 - Linee di Trasmissione RF"
-permalink: /guide-studio/lezione_16.html
 ---
 
 # 📘 Lezione 16 - Linee di Trasmissione RF

@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "7 - Modi di Emissione: AM, SSB e FM"
-permalink: /guide-studio/lezione_07.html
 ---
 
 # 📘 Lezione 07 - Modi di Emissione: AM, SSB e FM

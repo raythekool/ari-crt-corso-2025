@@ -27,7 +27,7 @@ Il sito locale sarà disponibile su `http://localhost:4321`.
 - [site/src/content/docs/lezioni/](site/src/content/docs/lezioni/) — 22 guide di studio e indice lezioni
 - [site/src/pages/index.astro](site/src/pages/index.astro) — home del sito
 - [docs/lezioni-2026.md](docs/lezioni-2026.md) — date, titoli e registrazioni verificabili
-- [transcripts/2026/](transcripts/2026/) — trascrizioni testuali con timestamp
+- [transcripts/2025/](transcripts/2025/) e [transcripts/2026/](transcripts/2026/) — trascrizioni testuali con timestamp delle due edizioni
 - [transcripts (vtt)/2026/](<transcripts (vtt)/2026/>) — sottotitoli WebVTT
 - [slides 2026/](<slides 2026/>) — PDF delle slide
 - [download_transcripts_2026.py](download_transcripts_2026.py) — utility per scaricare i transcript disponibili
@@ -87,7 +87,7 @@ Nelle pagine delle lezioni, **Modalità lettura** nasconde la navigazione del si
 
 - **Indice** apre il pannello con indice della pagina, elenco delle lezioni e impostazioni di lettura
 - **Leggi** attiva la lettura; **Esci** la disattiva e ripristina il layout normale, mantenendo le preferenze salvate dal browser (su schermi larghi i pulsanti si chiamano **Attiva lettura** ed **Esci dalla lettura**)
-- **Testo** regola dimensione dei caratteri e interlinea direttamente nella pagina
+- **Testo** (su schermi stretti **Aa**) regola dimensione dei caratteri e interlinea direttamente nella pagina
 - **Schermo intero**, nel pannello Indice, usa la funzione del browser quando disponibile
 - su Safari per iPad, se il full screen non è disponibile, il sito può essere avviato da **Condividi → Aggiungi alla schermata Home**
 

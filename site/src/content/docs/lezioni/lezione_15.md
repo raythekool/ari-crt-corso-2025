@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "15 - Strumenti di Misura"
-permalink: /guide-studio/lezione_15.html
 ---
 
 # 📘 Lezione 15 - Strumenti di Misura

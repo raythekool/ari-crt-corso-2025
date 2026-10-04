@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "8 - Procedure e Alfabeto Telefonetico"
-permalink: /guide-studio/lezione_08.html
 sidebar:
   badge:
     text: "Esame ridotto"

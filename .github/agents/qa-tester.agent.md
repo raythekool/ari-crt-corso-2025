@@ -55,6 +55,12 @@ Come procedere:
 
 Una pagina di recap non aggiornata dopo un cambio di contenuti è un difetto di priorità alta.
 
+Controlla inoltre sempre che:
+
+- il repository è privato: nella build (`site/dist`: HTML, sitemap, robots, anteprime social) e nei sorgenti Markdown/Astro non compaiono link a github.com né le parole GitHub, repository, clone, fork, pull request, issue rivolte ai lettori. Sono ammessi solo il dominio di hosting `raythekool.github.io`, la menzione di GitHub Pages o Cloudflare Pages come hosting nel README, la cartella `.github/` e le stringhe nei bundle JS delle librerie;
+- le fonti siano dichiarate come lezioni delle edizioni 2025 e 2026 e che i contenuti non provenienti dalle lezioni (approfondimenti da fonti ufficiali) stiano solo in riquadri etichettati come tali;
+- ogni cifra su esame completo ed esame ridotto coincida con i testi ufficiali (DM 1 marzo 2021, decreto direttoriale del 6 marzo 2024, determina dell'Ispettorato della Toscana per l'anno in corso).
+
 ## 3. Link: tutti corretti e nel posto giusto
 
 Controlla **ogni** link e riferimento, non un campione. Lavora sull'HTML della build (`site/dist`) e verifica anche i sorgenti Markdown e Astro.

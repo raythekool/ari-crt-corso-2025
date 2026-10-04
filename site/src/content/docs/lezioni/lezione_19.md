@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "19 - Antenne - Parte Seconda"
-permalink: /guide-studio/lezione_19.html
 ---
 
 # 📘 Lezione 19 - Antenne (Parte Seconda)

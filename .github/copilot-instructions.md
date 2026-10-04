@@ -1,4 +1,4 @@
-# Copilot Instructions — ARI CRT Corso 2025
+# Copilot Instructions — ARI CRT Corso 2025–2026
 
 ## Project Overview
 
@@ -10,11 +10,17 @@ This repository contains the Astro + Starlight site for the **Corso Aspiranti Ra
 - `site/src/content/docs/lezioni/` — Markdown lesson guides (`lezione_XX.md`) and lessons index
 - `site/src/pages/index.astro` — Site home page
 - `docs/lezioni-2026.md` — Verified table of lesson dates, titles, and recordings
-- `transcripts/2026/` — Plain-text transcripts (`.txt`) with timestamps
+- `transcripts/2025/` and `transcripts/2026/` — Plain-text transcripts (`.txt`) with timestamps, one folder per course edition
 - `transcripts (vtt)/2026/` — WebVTT subtitle files (`.vtt`)
 - `slides 2026/` — PDF slide decks
 - `download_transcripts_2026.py` — Python utility to download available transcripts
 - `README.md` — Repository overview and local usage instructions
+
+## Public content rules
+
+- The repository is **private**: published pages (home, lessons, README, docs) must never link to GitHub or mention the repository, cloning, forks, pull requests or issues. Mentions of GitHub Pages/Cloudflare Pages as hosting are the only exception.
+- The site states that its contents are notes extracted from the lessons of the ARI Toscana course, **editions 2025 and 2026**. Keep this wording consistent in the home, lessons index, README and social preview.
+- Each lesson opens with a `🎓 Esame ridotto` block (needed / partly needed / not needed for the exam with partial exemption, i.e. only Parts B and C of the official programme). Official-source additions that are not in the lesson must stay in a Starlight `:::note[… — contenuto non proveniente dalla lezione]` box, never in the lesson prose.
 
 ## Linting
 

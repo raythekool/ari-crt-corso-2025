@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "3 - Circuiti Elettrici e Onde Radio"
-permalink: /guide-studio/lezione_03.html
 ---
 
 # 📘 Lezione 03 - Circuiti Elettrici e Onde Radio

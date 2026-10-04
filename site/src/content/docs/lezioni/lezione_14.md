@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "14 - I Ricevitori"
-permalink: /guide-studio/lezione_14.html
 ---
 
 # 📘 Lezione 14 - I Ricevitori

@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "12 - Amplificatori, Oscillatori e Porte Logiche"
-permalink: /guide-studio/lezione_12.html
 ---
 
 # 📘 Lezione 12 - Amplificatori, Oscillatori e Porte Logiche

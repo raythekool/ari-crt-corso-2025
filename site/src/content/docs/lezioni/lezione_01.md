@@ -1,7 +1,6 @@
 ---
-layout: default
 title: "1 - Introduzione al Corso"
-permalink: /guide-studio/lezione_01.html
+prev: false
 ---
 
 # 📘 Lezione 01 - Introduzione al Corso

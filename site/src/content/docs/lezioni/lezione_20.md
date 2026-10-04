@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "20 - Antenne - Parte 1: Fondamenti e Risonanza"
-permalink: /guide-studio/lezione_20.html
 ---
 
 # 📘 Lezione 20 - Antenne - Parte 1: Fondamenti e Risonanza
