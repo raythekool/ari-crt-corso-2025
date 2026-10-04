@@ -4,8 +4,6 @@ title: "16 - Linee di Trasmissione RF"
 
 # 📘 Lezione 16 - Linee di Trasmissione RF
 
-> 🎓 **Esame ridotto: lezione non necessaria.** Questa lezione riguarda la Parte A (questioni di natura tecnica, A.6 Antenne e linee di trasmissione) del programma d'esame, da cui è esonerato chi ha un titolo previsto dall'art. 5 dell'Allegato 26. Serve per l'esame completo. All'inizio della registrazione si spiega come presentare la domanda d'esame, anche con esonero parziale: vedi la sezione "Come presentare la domanda d'esame".
-
 ## 📌 Panoramica
 
 - **Materia**: Antenne, propagazioni, linee di trasmissione

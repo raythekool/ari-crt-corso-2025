@@ -4,8 +4,6 @@ title: "17 - La Propagazione delle Onde Radio"
 
 # 📘 Lezione 17 - La Propagazione delle Onde Radio
 
-> 🎓 **Esame ridotto: lezione non necessaria.** Questa lezione riguarda la Parte A (questioni di natura tecnica, A.7 Propagazione) del programma d'esame, da cui è esonerato chi ha un titolo previsto dall'art. 5 dell'Allegato 26. Serve per l'esame completo.
-
 <div align="center"><img src="/ari-crt-corso-2025/assets/images/lezioni/lezione_17/slide-01.jpg" alt="Copertina" style="width: 75%;"></div><br>
 
 ## 📌 Panoramica

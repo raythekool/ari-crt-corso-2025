@@ -18,7 +18,7 @@ sidebar:
 >
 > Il §6 Maidenhead Locator System non compare nel programma ufficiale.
 >
-> Attenzione: il programma ufficiale richiede l'elenco completo dei 15 codici Q (B.2) e delle 13 abbreviazioni operative (B.3); questi appunti ne riportano solo una parte. Studia l'elenco completo nel Sub allegato D del [DM 1 marzo 2021](https://www.gazzettaufficiale.it/eli/id/2021/03/22/21A01607/sg).
+> Attenzione: il programma ufficiale richiede l'elenco completo dei 15 codici Q (B.2) e delle 13 abbreviazioni operative (B.3). Il trattamento svolto a lezione ne riporta solo una parte: per l'esame fanno fede gli elenchi ufficiali completi riportati nei box «Fonte esterna» del §3 e del §4, tratti dal [Sub allegato D all'Allegato 26 (DM 1 marzo 2021, MIMIT)](https://www.mimit.gov.it/images/stories/recuperi/Comunicazioni/Sub_Allegato_D_All.26.pdf).
 
 ## 📌 Panoramica
 
@@ -105,6 +105,29 @@ Tra le principali:
 - **TNX** o **TU**: Grazie
 - **73**: Cordiali saluti
 
+:::note[📎 Fonte esterna — Abbreviazioni operative (B.3)]
+
+Abbreviazione | Significato
+--- | ---
+AR | Fine della trasmissione
+BK | Segnale utilizzato per interrompere una trasmissione in atto (break)
+CQ | Chiamata a tutte le stazioni
+CW | Onda continua - Telegrafia
+K | Invito a trasmettere
+MSG | Messaggio
+PSE | Per favore
+RST | Intelligibilità, forza del segnale, tonalità
+R | Ricevuto
+RX | Ricevitore
+SIG | Segnale
+TX | Trasmettitore
+UR | Vostro
+
+Fonte: [MIMIT, Sub Allegato D all'Allegato 26 (DM 1 marzo 2021)](https://www.mimit.gov.it/images/stories/recuperi/Comunicazioni/Sub_Allegato_D_All.26.pdf), Parte I, sezione B, punto 3 (Abbreviazioni operative).
+
+<sub>Contenuto non trattato a lezione: riportato dal Sub allegato D del DM 1 marzo 2021 (MIMIT)</sub>
+:::
+
 ---
 
 ### 4. 🗂 Il Codice Q
@@ -124,6 +147,31 @@ Tra i più usati:
 - **QRT**: Sospendere le trasmissioni
 - **QSO**: Collegamento bilaterale
 - **QSY**: Cambio frequenza
+
+:::note[📎 Fonte esterna — Codice Q (B.2)]
+
+Codice | Domanda | Risposta
+--- | --- | ---
+QRK | Qual è l'intelligibilità del mio segnale? | L'intelligibilità dei vostri segnali è ...
+QRM | Siete disturbati? | Sono disturbato
+QRN | Siete disturbati da rumori atmosferici? | Sono disturbato da rumori atmosferici
+QRO | Debbo aumentare la potenza di emissione? | Aumentate la potenza di emissione
+QRP | Debbo diminuire la potenza di trasmissione? | Diminuite la potenza di trasmissione
+QRS | Debbo trasmettere più lentamente? | Trasmettete più lentamente
+QRT | Debbo cessare la trasmissione? | Cessate la trasmissione
+QRZ | Da chi sono chiamato? | Siete chiamato da ...
+QRV | Siete pronto? | Sono pronto
+QSB | La forza dei miei segnali è variabile? | La forza dei vostri segnali varia
+QSL | Potete darmi accusa di ricezione? | Do accusa di ricezione
+QSO | Potete comunicare direttamente con ...? | Posso comunicare direttamente con ...
+QSY | Debbo cambiare frequenza di trasmissione? | Trasmettete su un'altra frequenza ... kHz (o MHz)
+QRX | Quando mi richiamerete? | Vi richiamerò alle ore ...
+QTH | Qual è la vostra posizione in latitudine e longitudine? | La mia posizione è ... di latitudine e ... di longitudine
+
+Fonte: [MIMIT, Sub Allegato D all'Allegato 26 (DM 1 marzo 2021)](https://www.mimit.gov.it/images/stories/recuperi/Comunicazioni/Sub_Allegato_D_All.26.pdf), Parte I, sezione B, punto 2 (Codice Q).
+
+<sub>Contenuto non trattato a lezione: riportato dal Sub allegato D del DM 1 marzo 2021 (MIMIT)</sub>
+:::
 
 ---
 

@@ -4,8 +4,6 @@ title: "19 - Antenne - Parte Seconda"
 
 # 📘 Lezione 19 - Antenne (Parte Seconda)
 
-> 🎓 **Esame ridotto: lezione non necessaria.** Questa lezione riguarda la Parte A (questioni di natura tecnica, A.6 Antenne e linee di trasmissione) del programma d'esame, da cui è esonerato chi ha un titolo previsto dall'art. 5 dell'Allegato 26. Serve per l'esame completo.
-
 ## 📌 Panoramica
 
 - **Materia**: Antenne direttive, Efficienza di radiazione, Balun, Misure sulle antenne

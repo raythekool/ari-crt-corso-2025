@@ -49,6 +49,8 @@ jobs:
         working-directory: ${{ env.BUILD_PATH }}
       - name: Build with Astro
         run: npm run build
+        env:
+          SITE_BUILD_NUMBER: ${{ github.run_number }}
         working-directory: ${{ env.BUILD_PATH }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

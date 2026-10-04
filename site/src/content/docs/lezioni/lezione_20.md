@@ -4,8 +4,6 @@ title: "20 - Antenne - Parte 1: Fondamenti e Risonanza"
 
 # 📘 Lezione 20 - Antenne - Parte 1: Fondamenti e Risonanza
 
-> 🎓 **Esame ridotto: lezione non necessaria.** Questa lezione riguarda la Parte A (questioni di natura tecnica, A.6 Antenne e linee di trasmissione) del programma d'esame, da cui è esonerato chi ha un titolo previsto dall'art. 5 dell'Allegato 26. Serve per l'esame completo.
-
 ## 📌 Panoramica
 
 - **Materia**: Antenne — Parte 1: Fondamenti teorici, antenne caricate/multibanda, lobo di radiazione

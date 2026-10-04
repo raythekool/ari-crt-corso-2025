@@ -4,8 +4,6 @@ title: "13 - Trasduttori, Miscelatori e Trasmettitori"
 
 # 📘 Lezione 13 - Trasduttori, Miscelatori e Trasmettitori
 
-> 🎓 **Esame ridotto: lezione non necessaria.** Questa lezione riguarda la Parte A (questioni di natura tecnica) del programma d'esame, da cui è esonerato chi ha un titolo previsto dall'art. 5 dell'Allegato 26. Serve per l'esame completo.
-
 ## 📌 Panoramica
 
 - **Materia**: Radiotecnica — Trasduttori, Miscelatori, Trasmettitori e Intermodulazione

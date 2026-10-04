@@ -6,6 +6,13 @@ const site = (Astro.site?.origin ?? "https://raythekool.github.io") + base;
 const lesson = (n: number) =>
   `${base}/lezioni/lezione_${String(n).padStart(2, "0")}/`;
 
+const buildNumber = process.env.SITE_BUILD_NUMBER ?? process.env.GITHUB_RUN_NUMBER ?? "dev";
+const buildDate = new Intl.DateTimeFormat("it-IT", {
+  dateStyle: "short",
+  timeStyle: "short",
+  timeZone: "Europe/Rome",
+}).format(new Date());
+
 const title = "Corso ARI Toscana CRT 2026 — Guide di studio per radioamatori";
 const description =
   "Appunti estratti dalle 22 lezioni del corso per radioamatori della Toscana (ARI Toscana CRT, edizioni 2025 e 2026): elettrotecnica, RF, antenne e normativa, con strumenti di ripasso e le lezioni utili per l’esame ridotto.";
@@ -928,6 +935,9 @@ const sources = [
           <a href="#main">Torna su</a>
         </nav>
       </div>
+      <p class="build-info" title="Versione del sito e ultimo publish">
+        v{buildNumber} · {buildDate}
+      </p>
     </footer>
 
     <script is:inline>
