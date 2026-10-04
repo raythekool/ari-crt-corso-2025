@@ -6,8 +6,6 @@ permalink: /guide-studio/lezione_03.html
 
 # 📘 Lezione 03 - Circuiti Elettrici e Onde Radio
 
-> 🎓 **Esame ridotto: lezione non necessaria.** Questa lezione riguarda la Parte A (questioni di natura tecnica, A.1 Elettricità, elettromagnetismo e radiotecnica) del programma d'esame, da cui è esonerato chi ha un titolo previsto dall'art. 5 dell'Allegato 26. Serve per l'esame completo.
-
 ## 📌 Panoramica
 
 - **Materia e argomento**: Elettrotecnica e Onde Radio — la corrente alternata: sinusoide, frequenza, periodo, valori caratteristici della tensione alternata, fase. Onde elettromagnetiche, lunghezza d'onda, frequenza, bande.

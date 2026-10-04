@@ -1,6 +1,6 @@
 :root {
   --study-font-size: 20px;
-  --study-line-height: 1.75;
+  --study-line-height: 1.8;
   --study-page-width: 72ch;
   --study-page-gutter: clamp(1rem, 4vw, 3rem);
   --study-block-gap: clamp(1.125rem, 1rem + 0.45vw, 1.5rem);
@@ -588,15 +588,15 @@ body {
 }
 
 [data-study-reading] .sl-markdown-content h1 {
-  font-size: 2.35em !important;
+  font-size: 1.6em !important;
 }
 
 [data-study-reading] .sl-markdown-content h2 {
-  font-size: 1.55em !important;
+  font-size: 1.3em !important;
 }
 
 [data-study-reading] .sl-markdown-content h3 {
-  font-size: 1.22em !important;
+  font-size: 1.12em !important;
 }
 
 [data-study-reading] body {

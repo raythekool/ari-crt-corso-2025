@@ -6,8 +6,6 @@ permalink: /guide-studio/lezione_11.html
 
 # 📘 Lezione 11 - Il Transistor, gli Amplificatori e i Tubi a Vuoto
 
-> 🎓 **Esame ridotto: lezione non necessaria.** Questa lezione riguarda la Parte A (questioni di natura tecnica) del programma d'esame, da cui è esonerato chi ha un titolo previsto dall'art. 5 dell'Allegato 26. Serve per l'esame completo.
-
 ## 📌 Panoramica
 
 - **Materia**: Radiotecnica — Dispositivi Attivi e Amplificazione

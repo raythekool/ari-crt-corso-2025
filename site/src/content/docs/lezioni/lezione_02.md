@@ -6,8 +6,6 @@ permalink: /guide-studio/lezione_02.html
 
 # 📘 Lezione 02 - Fondamenti di Elettrotecnica
 
-> 🎓 **Esame ridotto: lezione non necessaria.** Questa lezione riguarda la Parte A (questioni di natura tecnica, A.1 Elettricità, elettromagnetismo e radiotecnica) del programma d'esame, da cui è esonerato chi ha un titolo previsto dall'art. 5 dell'Allegato 26. Serve per l'esame completo.
-
 ## 📌 Panoramica
 
 - **Materia e argomento**: Elettrotecnica di base — la resistenza elettrica, la legge di Ohm, il resistore, le resistenze in serie e in parallelo, le leggi di Kirchhoff.
