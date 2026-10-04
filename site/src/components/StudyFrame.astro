@@ -45,6 +45,10 @@ const headings = route.headings.filter((heading) => heading.depth === 2 || headi
       <legend>Personalizza la lettura</legend>
       <label for="study-page-font-size">Dimensione del testo</label>
       <select id="study-page-font-size" data-study-font-size>
+        <option value="10">10 px</option>
+        <option value="12">12 px</option>
+        <option value="14">14 px</option>
+        <option value="16">16 px</option>
         <option value="18">18 px</option>
         <option value="20" selected>20 px</option>
         <option value="22">22 px</option>
@@ -53,6 +57,8 @@ const headings = route.headings.filter((heading) => heading.depth === 2 || headi
       </select>
       <label for="study-page-line-height">Interlinea</label>
       <select id="study-page-line-height" data-study-line-height>
+        <option value="1">Minima · 1</option>
+        <option value="1.2">Stretta · 1,2</option>
         <option value="1.4">Compatta · 1,4</option>
         <option value="1.6">Normale · 1,6</option>
         <option value="1.75" selected>Comoda · 1,75</option>
@@ -74,6 +80,10 @@ const headings = route.headings.filter((heading) => heading.depth === 2 || headi
     <p>Usa <strong>Attiva lettura</strong> per studiare la lezione come una pagina di libro, con il testo più ampio e senza pannelli laterali.</p>
     <label for="study-font-size">Dimensione del testo</label>
     <select id="study-font-size" data-study-font-size>
+      <option value="10">10 px</option>
+      <option value="12">12 px</option>
+      <option value="14">14 px</option>
+      <option value="16">16 px</option>
       <option value="18">18 px</option>
       <option value="20" selected>20 px</option>
       <option value="22">22 px</option>
@@ -82,6 +92,8 @@ const headings = route.headings.filter((heading) => heading.depth === 2 || headi
     </select>
     <label for="study-line-height">Interlinea</label>
     <select id="study-line-height" data-study-line-height>
+      <option value="1">Minima · 1</option>
+      <option value="1.2">Stretta · 1,2</option>
       <option value="1.4">Compatta · 1,4</option>
       <option value="1.6">Normale · 1,6</option>
       <option value="1.75" selected>Comoda · 1,75</option>
