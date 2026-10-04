@@ -20,7 +20,7 @@ sidebar:
 >
 > Il §6 Maidenhead Locator System non compare nel programma ufficiale.
 >
-> Attenzione: il programma ufficiale richiede l'elenco completo dei 15 codici Q (B.2) e delle 13 abbreviazioni operative (B.3); questi appunti ne riportano solo una parte. Gli elenchi ufficiali completi sono riportati nei box dedicati del §3 e del §4, tratti dal [Sub allegato D all'Allegato 26 (DM 1 marzo 2021, MIMIT)](https://www.mimit.gov.it/images/stories/recuperi/Comunicazioni/Sub_Allegato_D_All.26.pdf).
+> Attenzione: il programma ufficiale richiede l'elenco completo dei 15 codici Q (B.2) e delle 13 abbreviazioni operative (B.3). Il trattamento svolto a lezione ne riporta solo una parte: per l'esame fanno fede gli elenchi ufficiali completi riportati nei box «Fonte esterna» del §3 e del §4, tratti dal [Sub allegato D all'Allegato 26 (DM 1 marzo 2021, MIMIT)](https://www.mimit.gov.it/images/stories/recuperi/Comunicazioni/Sub_Allegato_D_All.26.pdf).
 
 ## 📌 Panoramica
 

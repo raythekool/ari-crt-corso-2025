@@ -190,14 +190,15 @@ Come detto a lezione, a quel momento l'allegato 26 non dava alcun dettaglio sull
   - la patente di classe N corrisponde alla classe di radioamatore novizio di quella raccomandazione;
   - è rilasciata dagli Ispettorati territoriali (Case del made in Italy) dopo una prova scritta o orale su conoscenze tecniche di base, competenze operative essenziali e conoscenza della normativa nazionale e internazionale del servizio di radioamatore;
   - per superarla bisogna rispondere correttamente al 60% delle domande.
-- **Che cosa non stabilisce ancora**: il programma d'esame, le modalità di domanda, di svolgimento della prova e di rilascio della patente sono rinviati a un decreto direttoriale della Direzione generale per i servizi territoriali, che modificherà l'allegato 26 secondo i criteri del Rapporto ERC 32 (art. 1, comma 4). Fino all'adozione di quei decreti continuano ad applicarsi le disposizioni vigenti (art. 4). Nelle fonti consultate (ottobre 2026) non risultava ancora pubblicato un decreto direttoriale con il programma d'esame della classe N: chi è interessato controlli il portale del Ministero.
+- **Rinvii a decreti successivi**: il programma d'esame, le modalità di domanda, di svolgimento della prova e di rilascio della patente sono rinviati a un decreto direttoriale della Direzione generale per i servizi territoriali, che modificherà l'allegato 26 secondo i criteri del Rapporto ERC 32 (art. 1, comma 4). Fino all'adozione di quei decreti continuano ad applicarsi le disposizioni vigenti (art. 4).
 - **Nominativi a scelta** (stesso decreto, art. 2): i titolari di autorizzazione generale possono chiedere, con procedura informatica, un nominativo a scelta tra quelli resi disponibili dal Ministero (fino a cinque caratteri complessivi, art. 139, comma 2-bis, D.Lgs. 259/2003). Assegnazione in ordine cronologico di richiesta; maggiorazione del contributo di 250 euro una tantum; validità dieci anni; il nominativo decade automaticamente senza un'autorizzazione generale di classe A in corso di validità.
-- **Rispetto alla lezione**: quanto detto a lezione è coerente con il decreto (la classe N era prevista dalla legge ma senza dettagli su esame e limitazioni); il decreto ne fissa i criteri generali, ma i dettagli restano da definire.
 
 Fonte: Decreto del Ministro delle imprese e del made in Italy 26 gennaio 2026, «Criteri generali e modalità per il conseguimento della patente di classe N e delle modalità di assegnazione e gestione dei nominativi a scelta per l'attività radioamatoriale», Gazzetta Ufficiale Serie generale n. 51 del 3 marzo 2026 ([testo in Gazzetta Ufficiale](https://www.gazzettaufficiale.it/eli/id/2026/03/03/26A00956/sg); [copia PDF sul sito degli Ispettorati](https://ispettorati.mise.gov.it/images/ispettorati/Modulistica_DGST/DM_26_gennaio_2026__GU_51_del_332026.pdf)).
 
 <sub>Contenuto non trattato a lezione: riportato dal D.M. 26 gennaio 2026 (Gazzetta Ufficiale n. 51 del 3 marzo 2026)</sub>
 :::
+
+Quanto detto a lezione è coerente con il decreto: la classe N era prevista dalla legge senza dettagli su esame e limitazioni, e il decreto ne fissa i criteri generali, mentre i dettagli restano da definire. Nelle fonti consultate (ottobre 2026) non risultava ancora pubblicato un decreto direttoriale con il programma d'esame della classe N: chi è interessato controlli il portale del Ministero.
 
 #### Patente vs Autorizzazione
 
