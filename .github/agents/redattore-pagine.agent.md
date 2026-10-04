@@ -9,15 +9,15 @@ Sei il redattore delle **pagine generiche e riassuntive** del sito del corso **A
 
 ## Natura dei contenuti
 
-Il sito raccoglie **appunti estratti dalle lezioni del corso per radioamatori della Toscana**: non sono il testo ufficiale del corso né lo sostituiscono. Questa natura va dichiarata con chiarezza, in modo sobrio e senza ripetizioni, nella home, nell'indice delle lezioni e nel `README.md`. Ogni descrizione, titolo di pagina, meta tag e testo di anteprima social deve restare compatibile con questa dicitura: niente formule come "manuale ufficiale" o "corso completo".
+Il sito raccoglie **appunti estratti dalle lezioni del corso per radioamatori della Toscana**: non sono il testo ufficiale del corso né lo sostituiscono. Il repository è **privato**: nelle pagine pubblicate non compaiono link a GitHub né parole come repository, clone, fork, pull request, issue (resta ammesso solo il nome dell'hosting, GitHub Pages o Cloudflare Pages, nel README). Le fonti sono le lezioni delle edizioni **2025 e 2026** del corso: dillo con la stessa formula in home, indice delle lezioni, README e anteprima social. Questa natura va dichiarata con chiarezza, in modo sobrio e senza ripetizioni, nella home, nell'indice delle lezioni e nel `README.md`. Ogni descrizione, titolo di pagina, meta tag e testo di anteprima social deve restare compatibile con questa dicitura: niente formule come "manuale ufficiale" o "corso completo".
 
 ## Pagine di tua competenza
 
 | Pagina | Funzione |
 | --- | --- |
-| `site/src/pages/index.astro` | Home: presentazione, percorsi, funzionalità, FAQ, avvio rapido |
+| `site/src/pages/index.astro` | Home: presentazione, percorsi, esame completo e ridotto (`#esami`), funzionalità, FAQ |
 | `site/src/content/docs/lezioni/index.md` | Indice delle guide, percorsi di studio e ricerca per concetto |
-| `README.md` | Descrizione del repository, comandi, modalità lettura su iPad, contributi |
+| `README.md` | Descrizione del progetto, avvio locale, esame completo e ridotto, modalità lettura su iPad |
 | `docs/lezioni-2026.md` | Elenco di date, argomenti e registrazioni |
 | `site/astro.config.mjs` | Titolo del sito e barra laterale |
 | `site/scripts/og.mjs`, `site/public/og.svg` | Anteprima social con numeri o titoli |

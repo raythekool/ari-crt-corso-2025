@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "9 - Bande Radioamatoriali, Normativa e Enti"
-permalink: /guide-studio/lezione_09.html
 sidebar:
   badge:
     text: "Esame ridotto"

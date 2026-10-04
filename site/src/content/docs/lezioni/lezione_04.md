@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "4 - Corrente Alternata"
-permalink: /guide-studio/lezione_04.html
 ---
 
 # 📘 Lezione 04 - Corrente Alternata

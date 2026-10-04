@@ -9,7 +9,7 @@ Riepilogo di date, titoli e registrazioni verificabili per l’edizione 2026. I 
 | 3 | 1 aprile 2026 | 3 - Circuiti Elettrici e Onde Radio | [YouTube](https://www.youtube.com/watch?v=C_19T6kHGI8) | Email Outlook + transcript TXT/VTT |
 | 4 | 8 aprile 2026 | 4 - Corrente Alternata | [YouTube](https://youtu.be/oMHiAE6ckzo) | Email Outlook + transcript TXT/VTT |
 | 5 | 15 aprile 2026 | 5 - Componenti Elettronici | [YouTube](https://youtu.be/pxnhOJFaxoU) | Email Outlook + transcript TXT/VTT |
-| 6 | 22 aprile 2026 | 6 - Semiconduttori | [YouTube](https://youtu.be/XZU93COksIo) | Email Outlook + transcript TXT/VTT |
+| 6 | 22 aprile 2026 | 6 - Filtri, Circuiti Risonanti e Quarzi | [YouTube](https://youtu.be/XZU93COksIo) | Email Outlook + transcript TXT/VTT |
 | 7 | 29 aprile 2026 | 7 - Modi di Emissione: AM, SSB e FM | [YouTube](https://youtu.be/mflme_j99Fs) | Email Outlook + transcript TXT/VTT |
 | 8 | 5 maggio 2026* | 8 - Procedure e Alfabeto Telefonetico | [YouTube](https://youtu.be/-q9u3xRE7E8) | Email Outlook + transcript TXT/VTT |
 | 9 | 13 maggio 2026 | 9 - Bande Radioamatoriali, Normativa e Enti | [YouTube](https://youtu.be/ATsOd6giY08) | Email Outlook + transcript TXT/VTT |

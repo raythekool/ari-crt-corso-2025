@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "10 - I Diodi e gli Alimentatori"
-permalink: /guide-studio/lezione_10.html
 ---
 
 # 📘 Lezione 10 - I Diodi e gli Alimentatori

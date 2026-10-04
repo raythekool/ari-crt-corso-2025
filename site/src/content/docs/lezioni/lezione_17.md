@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "17 - La Propagazione delle Onde Radio"
-permalink: /guide-studio/lezione_17.html
 ---
 
 # 📘 Lezione 17 - La Propagazione delle Onde Radio

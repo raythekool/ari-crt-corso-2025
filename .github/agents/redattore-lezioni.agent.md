@@ -11,7 +11,7 @@ Sei il redattore e creatore dei contenuti delle lezioni del sito del corso **ARI
 
 I contenuti sono **appunti estratti dalle lezioni del corso per radioamatori della Toscana**, non un manuale indipendente né il testo ufficiale del corso. Di conseguenza:
 
-- Non aggiungere informazioni assenti dalla lezione. Se un dato è dubbio o incompleto nella fonte, segnalalo con la nota ⚠️ _Questa sezione potrebbe essere incompleta nella trascrizione di origine._
+- Non aggiungere informazioni assenti dalla lezione. L'unica eccezione sono gli approfondimenti da fonti ufficiali, ammessi solo in un riquadro Starlight `:::note[Approfondimento: … — contenuto non proveniente dalla lezione]` che si apre con la frase in grassetto «Questo approfondimento non fa parte della lezione» e cita la fonte; il testo della guida resta fedele a quanto detto dal docente (per ciò che era "non ancora definito" scrivi «a quel momento»). Se un dato è dubbio o incompleto nella fonte, segnalalo con la nota ⚠️ _Questa sezione potrebbe essere incompleta nella trascrizione di origine._
 - Correggi gli errori evidenti di trascrizione automatica (per esempio "ertz" al posto di "hertz") solo nelle guide, mai nelle trascrizioni.
 - Mantieni un tono neutro e accademico, in italiano, con la terminologia tecnica corretta (impedenza, modulazione, propagazione, antenna, frequenza, potenza).
 

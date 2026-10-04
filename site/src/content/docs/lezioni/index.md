@@ -13,7 +13,7 @@ Questa sezione raccoglie **appunti estratti dalle lezioni del corso per radioama
 3. [Lezione 03 - Circuiti Elettrici e Onde Radio](lezione_03/)
 4. [Lezione 04 - Corrente Alternata](lezione_04/)
 5. [Lezione 05 - Componenti Elettronici](lezione_05/)
-6. [Lezione 06 - Semiconduttori](lezione_06/)
+6. [Lezione 06 - Filtri, Circuiti Risonanti e Quarzi](lezione_06/)
 7. [Lezione 07 - Modi di Emissione: AM, SSB e FM](lezione_07/)
 8. [Lezione 08 - Procedure e Alfabeto Telefonetico](lezione_08/)
 9. [Lezione 09 - Bande Radioamatoriali, Normativa e Enti](lezione_09/)
@@ -48,7 +48,7 @@ Su schermi stretti scorri la tabella per vedere tutte le colonne.
 | [03](lezione_03/) | 3 - Circuiti Elettrici e Onde Radio | Corrente alternata, sinusoide, frequenza, lunghezza d'onda e bande radio | No |
 | [04](lezione_04/) | 4 - Corrente Alternata | Campo magnetico, induzione, induttori, reattanza induttiva e trasformatori | No |
 | [05](lezione_05/) | 5 - Componenti Elettronici | Condensatori, reattanza capacitiva e concetto di impedenza | No |
-| [06](lezione_06/) | 6 - Semiconduttori | Filtri, circuiti risonanti e cristalli di quarzo | No |
+| [06](lezione_06/) | 6 - Filtri, Circuiti Risonanti e Quarzi | Filtri, circuiti risonanti e cristalli di quarzo | No |
 | [07](lezione_07/) | 7 - Modi di Emissione: AM, SSB e FM | Modulazioni analogiche e introduzione ai decibel | No |
 | [08](lezione_08/) | 8 - Procedure e Alfabeto Telefonetico | Alfabeto fonetico, nominativi, codice Q, RST e locator | Sì |
 | [09](lezione_09/) | 9 - Bande Radioamatoriali, Normativa e Enti | Spettro, band plan, ITU, IARU, ARI, patente e autorizzazione | In parte |

@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "22 - Normativa Nazionale e Internazionale"
-permalink: /guide-studio/lezione_22.html
 sidebar:
   badge:
     text: "Esame ridotto"
@@ -187,7 +185,7 @@ Come detto a lezione, a quel momento l'allegato 26 non dava alcun dettaglio sull
 **Questo approfondimento non fa parte della lezione: è stato aggiunto consultando il testo del decreto.**
 
 - **Fonte**: Decreto del Ministro delle imprese e del made in Italy 26 gennaio 2026, «Criteri generali e modalità per il conseguimento della patente di classe N e delle modalità di assegnazione e gestione dei nominativi a scelta per l'attività radioamatoriale», Gazzetta Ufficiale Serie generale n. 51 del 3 marzo 2026 ([testo in Gazzetta Ufficiale](https://www.gazzettaufficiale.it/eli/id/2026/03/03/26A00956/sg); [copia PDF sul sito degli Ispettorati](https://ispettorati.mise.gov.it/images/ispettorati/Modulistica_DGST/DM_26_gennaio_2026__GU_51_del_332026.pdf)).
-- **Base di legge**: l'art. 136, comma 1, del D.Lgs. 259/2003 (come modificato dal D.Lgs. 24 marzo 2024, n. 48) richiede per l'autorizzazione generale la patente di classe A o di classe N. I criteri e le modalità della classe N sono demandati a un decreto del Ministro, conformemente alla raccomandazione CEPT ECC/REC (05)06.
+- **Base di legge**: l'art. 136, comma 1, del D.Lgs. 259/2003 (nel testo citato dalle premesse del decreto, che richiama anche il D.Lgs. 24 marzo 2024, n. 48) richiede per l'autorizzazione generale la patente di classe A o di classe N. I criteri e le modalità della classe N sono demandati a un decreto del Ministro, conformemente alla raccomandazione CEPT ECC/REC (05)06.
 - **Che cosa stabilisce il decreto (art. 1)**:
   - recepisce la ECC/REC (05)06;
   - la patente di classe N corrisponde alla classe di radioamatore novizio di quella raccomandazione;
@@ -234,7 +232,7 @@ Il nominativo di chiamata:
 
 - **Identifica** la stazione radioamatoriale
 - È **assegnato dal Ministero** (MIMIT)
-- Le novità del 2024 (evidenziate in giallo) includono la possibilità di **scelta del nominativo** e la possibilità di **riprendere un nominativo scaduto** o di un **familiare defunto**. Tuttavia, le modalità operative non sono ancora definite nell'allegato 26.
+- Le novità del 2024 (evidenziate in giallo) includono la possibilità di **scelta del nominativo** e la possibilità di **riprendere un nominativo scaduto** o di un **familiare defunto**. Tuttavia, come detto a lezione, a quel momento le modalità operative non erano ancora definite nell'allegato 26.
 
 ---
 
@@ -287,7 +285,7 @@ Oltre alle persone fisiche, possono ottenere autorizzazioni radioamatoriali spec
 
 Queste stazioni hanno un **operatore responsabile** ma il nominativo non è personale.
 
-**Novità 2024**: È stata introdotta la possibilità legale di far operare persone **non ancora radioamatori** presso stazioni speciali (es. sezioni ARI), a scopo di formazione e avvicinamento all'attività. Le modalità operative non sono ancora dettagliate nell'allegato 26.
+**Novità 2024**: È stata introdotta la possibilità legale di far operare persone **non ancora radioamatori** presso stazioni speciali (es. sezioni ARI), a scopo di formazione e avvicinamento all'attività. Come detto a lezione, a quel momento le modalità operative non erano ancora dettagliate nell'allegato 26.
 
 ---
 
