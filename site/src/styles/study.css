@@ -713,3 +713,28 @@ body {
     -webkit-backdrop-filter: none;
   }
 }
+
+/* Box "Fonte esterna": contenuti non detti a lezione, da fonti ufficiali (:::note). Vedi .github/instructions/study-guide.instructions.md */
+.sl-markdown-content aside.starlight-aside--note {
+  padding: 1rem 1.25rem;
+  border: 1px dashed var(--sl-color-blue, #3b82f6);
+  border-inline-start: 0.35rem solid var(--sl-color-blue, #3b82f6);
+  border-radius: var(--study-radius);
+  background: var(--study-surface-soft) !important;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.sl-markdown-content aside.starlight-aside--note .starlight-aside__title {
+  font-size: 1em;
+  font-weight: 700;
+  color: var(--sl-color-blue-high, inherit);
+}
+
+.sl-markdown-content aside.starlight-aside--note sub {
+  display: block;
+  margin-top: 0.75rem;
+  font-size: max(0.85em, 11px);
+  vertical-align: baseline;
+  opacity: 0.85;
+}

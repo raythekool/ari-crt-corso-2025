@@ -108,6 +108,29 @@ The site renders math via **MathJax v3**. Always use LaTeX math notation.
 - Reference specific exam topics ("domande d'esame") when the transcript mentions them
 - Preserve the chronological flow of the lecture while grouping related topics
 
+## External Sources Box (formato uniforme)
+
+Ogni contenuto aggiunto da fonti esterne (Gazzetta Ufficiale, MIMIT, normativa, ecc.) e NON detto a lezione va inserito SEMPRE con questo formato, senza varianti:
+
+- Contenitore: direttiva Starlight `:::note[📎 Fonte esterna — Titolo breve]` … `:::` (sul sito è reso con bordo tratteggiato blu, definito in `site/src/styles/study.css`). `:::note` è riservato esclusivamente a questo uso: non usarlo per altri scopi.
+- Contenuto: tabelle o elenchi con il testo ufficiale, riportato fedelmente (correggendo solo accenti e apostrofi).
+- Riga `Fonte:` con link all'URL ufficiale e riferimento preciso (parte, sezione, punto/articolo).
+- Ultima riga, in piccolo: `<sub>Contenuto non trattato a lezione: riportato da …</sub>`.
+- Posizione: alla fine della sezione della lezione a cui il contenuto si riferisce.
+
+Esempio:
+
+```
+:::note[📎 Fonte esterna — Titolo breve]
+
+Contenuto ufficiale.
+
+Fonte: [Ente, Documento](https://esempio.gov.it/doc.pdf), articolo o punto.
+
+<sub>Contenuto non trattato a lezione: riportato da Documento (Ente)</sub>
+:::
+```
+
 ## Quality Rules
 
 - The guide must be **EXHAUSTIVE**: a student who reads it should not need to re-watch the video

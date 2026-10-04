@@ -182,9 +182,7 @@ L'articolo 136 è particolarmente ricco di informazioni richieste all'esame:
 
 Come detto a lezione, a quel momento l'allegato 26 non dava alcun dettaglio sulle limitazioni di questa classe né su come si svolge l'esame: il docente osserva che, se gli chiedessero com'è la classe N, non avrebbe risposta da dare. Nell'art. 136 la parte evidenziata a lezione è quella delle novità, sulla quale non è possibile dare risposte sui dettagli; si accenna che gli esami potrebbero essere (o saranno) a carico delle associazioni, ma come verranno svolti non è noto.
 
-:::note[Approfondimento: la classe N nel D.M. 26 gennaio 2026 — contenuto non proveniente dalla lezione]
-
-**Questo approfondimento non fa parte della lezione: è stato aggiunto consultando il testo del decreto.**
+:::note[📎 Fonte esterna — La classe N nel D.M. 26 gennaio 2026]
 
 - **Fonte**: Decreto del Ministro delle imprese e del made in Italy 26 gennaio 2026, «Criteri generali e modalità per il conseguimento della patente di classe N e delle modalità di assegnazione e gestione dei nominativi a scelta per l'attività radioamatoriale», Gazzetta Ufficiale Serie generale n. 51 del 3 marzo 2026 ([testo in Gazzetta Ufficiale](https://www.gazzettaufficiale.it/eli/id/2026/03/03/26A00956/sg); [copia PDF sul sito degli Ispettorati](https://ispettorati.mise.gov.it/images/ispettorati/Modulistica_DGST/DM_26_gennaio_2026__GU_51_del_332026.pdf)).
 - **Base di legge**: l'art. 136, comma 1, del D.Lgs. 259/2003 (come modificato dal D.Lgs. 24 marzo 2024, n. 48) richiede per l'autorizzazione generale la patente di classe A o di classe N. I criteri e le modalità della classe N sono demandati a un decreto del Ministro, conformemente alla raccomandazione CEPT ECC/REC (05)06.
@@ -197,6 +195,7 @@ Come detto a lezione, a quel momento l'allegato 26 non dava alcun dettaglio sull
 - **Nominativi a scelta** (stesso decreto, art. 2): i titolari di autorizzazione generale possono chiedere, con procedura informatica, un nominativo a scelta tra quelli resi disponibili dal Ministero (fino a cinque caratteri complessivi, art. 139, comma 2-bis, D.Lgs. 259/2003). Assegnazione in ordine cronologico di richiesta; maggiorazione del contributo di 250 euro una tantum; validità dieci anni; il nominativo decade automaticamente senza un'autorizzazione generale di classe A in corso di validità.
 - **Rispetto alla lezione**: quanto detto a lezione è coerente con il decreto (la classe N era prevista dalla legge ma senza dettagli su esame e limitazioni); il decreto ne fissa i criteri generali, ma i dettagli restano da definire.
 
+<sub>Contenuto non trattato a lezione: riportato dal D.M. 26 gennaio 2026 (Gazzetta Ufficiale n. 51 del 3 marzo 2026)</sub>
 :::
 
 #### Patente vs Autorizzazione
