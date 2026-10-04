@@ -734,6 +734,14 @@ code {
   color: #cbd5e1;
 }
 
+.build-info {
+  margin: 0.5rem 1.5rem 0 0;
+  text-align: right;
+  font-size: 0.72rem;
+  color: #3b4659;
+  user-select: none;
+}
+
 /* Reveal */
 .js .reveal {
   opacity: 0;
